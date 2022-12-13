@@ -33,19 +33,19 @@ Contains properties and methods that apply to WordArt objects.
 | [getFontItalic()](#getFontItalic--) | Indicates whether font is italic. |
 | [getFontName()](#getFontName--) | The name of the font used in the WordArt. |
 | [getFontSize()](#getFontSize--) | The size (in points) of the font used in the WordArt. |
-| [getPresetShape()](#getPresetShape--) | the preset shape type. |
+| [getPresetShape()](#getPresetShape--) | Gets the preset shape type. |
 | [getRotatedChars()](#getRotatedChars--) | If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
 | [getText()](#getText--) | The text in the WordArt. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFontBold(boolean value)](#setFontBold-boolean-) | For the description of this property, please see [getFontBold()](../../com.aspose.cells/texteffectformat\#getFontBold--) |
-| [setFontItalic(boolean value)](#setFontItalic-boolean-) | For the description of this property, please see [getFontItalic()](../../com.aspose.cells/texteffectformat\#getFontItalic--) |
-| [setFontName(String value)](#setFontName-java.lang.String-) | For the description of this property, please see [getFontName()](../../com.aspose.cells/texteffectformat\#getFontName--) |
-| [setFontSize(int value)](#setFontSize-int-) | For the description of this property, please see [getFontSize()](../../com.aspose.cells/texteffectformat\#getFontSize--) |
-| [setPresetShape(int value)](#setPresetShape-int-) | For the description of this property, please see [getPresetShape()](../../com.aspose.cells/texteffectformat\#getPresetShape--) |
-| [setRotatedChars(boolean value)](#setRotatedChars-boolean-) | For the description of this property, please see [getRotatedChars()](../../com.aspose.cells/texteffectformat\#getRotatedChars--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/texteffectformat\#getText--) |
+| [setFontBold(boolean value)](#setFontBold-boolean-) | Indicates whether font is bold. |
+| [setFontItalic(boolean value)](#setFontItalic-boolean-) | Indicates whether font is italic. |
+| [setFontName(String value)](#setFontName-java.lang.String-) | The name of the font used in the WordArt. |
+| [setFontSize(int value)](#setFontSize-int-) | The size (in points) of the font used in the WordArt. |
+| [setPresetShape(int value)](#setPresetShape-int-) | Sets the preset shape type. |
+| [setRotatedChars(boolean value)](#setRotatedChars-boolean-) | If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape. |
+| [setText(String value)](#setText-java.lang.String-) | The text in the WordArt. |
 | [setTextEffect(int effect)](#setTextEffect-int-) | Sets the preset text effect. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -122,7 +122,7 @@ public int getPresetShape()
 ```
 
 
-the preset shape type.
+Gets the preset shape type.
 
 **Returns:**
 int
@@ -178,7 +178,7 @@ public void setFontBold(boolean value)
 ```
 
 
-For the description of this property, please see [getFontBold()](../../com.aspose.cells/texteffectformat\#getFontBold--)
+Indicates whether font is bold.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -191,7 +191,7 @@ public void setFontItalic(boolean value)
 ```
 
 
-For the description of this property, please see [getFontItalic()](../../com.aspose.cells/texteffectformat\#getFontItalic--)
+Indicates whether font is italic.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setFontName(String value)
 ```
 
 
-For the description of this property, please see [getFontName()](../../com.aspose.cells/texteffectformat\#getFontName--)
+The name of the font used in the WordArt.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setFontSize(int value)
 ```
 
 
-For the description of this property, please see [getFontSize()](../../com.aspose.cells/texteffectformat\#getFontSize--)
+The size (in points) of the font used in the WordArt.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setPresetShape(int value)
 ```
 
 
-For the description of this property, please see [getPresetShape()](../../com.aspose.cells/texteffectformat\#getPresetShape--)
+Sets the preset shape type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setRotatedChars(boolean value)
 ```
 
 
-For the description of this property, please see [getRotatedChars()](../../com.aspose.cells/texteffectformat\#getRotatedChars--)
+If true,characters in the specified WordArt are rotated 90 degrees relative to the WordArt's bounding shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.cells/texteffectformat\#getText--)
+The text in the WordArt.
 
 **Parameters:**
 | Parameter | Type | Description |

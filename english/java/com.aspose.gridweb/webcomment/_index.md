@@ -23,7 +23,7 @@ NOTE: This class is now obsolete. please use GridComment Instead. This class wil
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setNote(String value)](#setNote-java.lang.String-) | For the description of this property, please see [getNote()](../../com.aspose.gridweb/webcomment\#getNote--) |
+| [setNote(String value)](#setNote-java.lang.String-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -95,7 +95,7 @@ public void setNote(String value)
 ```
 
 
-For the description of this property, please see [getNote()](../../com.aspose.gridweb/webcomment\#getNote--)
+
 
 **Parameters:**
 | Parameter | Type | Description |

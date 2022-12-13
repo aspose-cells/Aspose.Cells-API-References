@@ -19,16 +19,16 @@ Represents input cell for the scenario.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) | the column index of the input cell. |
-| [getName()](#getName--) | the input cell address. |
-| [getRow()](#getRow--) | the row index of the input cell. |
-| [getValue()](#getValue--) | value of the input cell. |
+| [getColumn()](#getColumn--) | Gets the column index of the input cell. |
+| [getName()](#getName--) | Gets the input cell address. |
+| [getRow()](#getRow--) | Gets the row index of the input cell. |
+| [getValue()](#getValue--) | Gets value of the input cell. |
 | [hashCode()](#hashCode--) |  |
 | [isDeleted()](#isDeleted--) | Indicates whether input cell is deleted. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see [isDeleted()](../../com.aspose.cells/scenarioinputcell\#isDeleted--) |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/scenarioinputcell\#getValue--) |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether input cell is deleted. |
+| [setValue(String value)](#setValue-java.lang.String-) | Sets value of the input cell. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -64,7 +64,7 @@ public int getColumn()
 ```
 
 
-the column index of the input cell.
+Gets the column index of the input cell.
 
 **Returns:**
 int
@@ -74,7 +74,7 @@ public String getName()
 ```
 
 
-the input cell address.
+Gets the input cell address.
 
 **Returns:**
 java.lang.String
@@ -84,7 +84,7 @@ public int getRow()
 ```
 
 
-the row index of the input cell.
+Gets the row index of the input cell.
 
 **Returns:**
 int
@@ -94,7 +94,7 @@ public String getValue()
 ```
 
 
-value of the input cell.
+Gets value of the input cell.
 
 **Returns:**
 java.lang.String
@@ -140,7 +140,7 @@ public void setDeleted(boolean value)
 ```
 
 
-For the description of this property, please see [isDeleted()](../../com.aspose.cells/scenarioinputcell\#isDeleted--)
+Indicates whether input cell is deleted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -153,7 +153,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/scenarioinputcell\#getValue--)
+Sets value of the input cell.
 
 **Parameters:**
 | Parameter | Type | Description |

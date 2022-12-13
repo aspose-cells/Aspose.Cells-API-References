@@ -24,15 +24,15 @@ Describe the AboveAverage conditional formatting rule. This conditional formatti
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getStdDev()](#getStdDev--) | the number of standard deviations to include above or below the average in the conditional formatting rule. |
+| [getStdDev()](#getStdDev--) | Gets the number of standard deviations to include above or below the average in the conditional formatting rule. |
 | [hashCode()](#hashCode--) |  |
-| [isAboveAverage()](#isAboveAverage--) | the flag indicating whether the rule is an "above average" rule. |
-| [isEqualAverage()](#isEqualAverage--) | the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. |
+| [isAboveAverage()](#isAboveAverage--) | Gets the flag indicating whether the rule is an "above average" rule. |
+| [isEqualAverage()](#isEqualAverage--) | Gets the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAboveAverage(boolean value)](#setAboveAverage-boolean-) | For the description of this property, please see [isAboveAverage()](../../com.aspose.cells/aboveaverage\#isAboveAverage--) |
-| [setEqualAverage(boolean value)](#setEqualAverage-boolean-) | For the description of this property, please see [isEqualAverage()](../../com.aspose.cells/aboveaverage\#isEqualAverage--) |
-| [setStdDev(int value)](#setStdDev-int-) | For the description of this property, please see [getStdDev()](../../com.aspose.cells/aboveaverage\#getStdDev--) |
+| [setAboveAverage(boolean value)](#setAboveAverage-boolean-) | Sets the flag indicating whether the rule is an "above average" rule. |
+| [setEqualAverage(boolean value)](#setEqualAverage-boolean-) | Sets the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. |
+| [setStdDev(int value)](#setStdDev-int-) | Sets the number of standard deviations to include above or below the average in the conditional formatting rule. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -74,7 +74,7 @@ public int getStdDev()
 ```
 
 
-the number of standard deviations to include above or below the average in the conditional formatting rule. The input value must between 0 and 3 (include 0 and 3). Setting this value to 0 means stdDev is not set. The default value is 0.
+Gets the number of standard deviations to include above or below the average in the conditional formatting rule. The input value must between 0 and 3 (include 0 and 3). Setting this value to 0 means stdDev is not set. The default value is 0.
 
 **Returns:**
 int
@@ -94,7 +94,7 @@ public boolean isAboveAverage()
 ```
 
 
-the flag indicating whether the rule is an "above average" rule. 'true' indicates 'above average'. Default value is true.
+Gets the flag indicating whether the rule is an "above average" rule. 'true' indicates 'above average'. Default value is true.
 
 **Returns:**
 boolean
@@ -104,7 +104,7 @@ public boolean isEqualAverage()
 ```
 
 
-the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. 'true' indicates to include the average value in the criteria. Default value is false.
+Gets the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. 'true' indicates to include the average value in the criteria. Default value is false.
 
 **Returns:**
 boolean
@@ -130,7 +130,7 @@ public void setAboveAverage(boolean value)
 ```
 
 
-For the description of this property, please see [isAboveAverage()](../../com.aspose.cells/aboveaverage\#isAboveAverage--)
+Sets the flag indicating whether the rule is an "above average" rule. 'true' indicates 'above average'. Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,7 +143,7 @@ public void setEqualAverage(boolean value)
 ```
 
 
-For the description of this property, please see [isEqualAverage()](../../com.aspose.cells/aboveaverage\#isEqualAverage--)
+Sets the flag indicating whether the 'aboveAverage' and 'belowAverage' criteria is inclusive of the average itself, or exclusive of that value. 'true' indicates to include the average value in the criteria. Default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public void setStdDev(int value)
 ```
 
 
-For the description of this property, please see [getStdDev()](../../com.aspose.cells/aboveaverage\#getStdDev--)
+Sets the number of standard deviations to include above or below the average in the conditional formatting rule. The input value must between 0 and 3 (include 0 and 3). Setting this value to 0 means stdDev is not set. The default value is 0.
 
 **Parameters:**
 | Parameter | Type | Description |

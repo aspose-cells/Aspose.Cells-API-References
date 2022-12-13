@@ -24,11 +24,11 @@ Represents the options when converting table to range.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getLastRow()](#getLastRow--) | the last row index of the table. |
+| [getLastRow()](#getLastRow--) | Gets the last row index of the table. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLastRow(int value)](#setLastRow-int-) | For the description of this property, please see [getLastRow()](../../com.aspose.cells/tabletorangeoptions\#getLastRow--) |
+| [setLastRow(int value)](#setLastRow-int-) | Sets the last row index of the table. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -70,7 +70,7 @@ public int getLastRow()
 ```
 
 
-the last row index of the table.
+Gets the last row index of the table.
 
 **Returns:**
 int
@@ -106,7 +106,7 @@ public void setLastRow(int value)
 ```
 
 
-For the description of this property, please see [getLastRow()](../../com.aspose.cells/tabletorangeoptions\#getLastRow--)
+Sets the last row index of the table.
 
 **Parameters:**
 | Parameter | Type | Description |

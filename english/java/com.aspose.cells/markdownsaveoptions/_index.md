@@ -27,10 +27,10 @@ Represents the save options for markdown.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getEncoding()](#getEncoding--) | the default encoding. |
-| [getFormatStrategy()](#getFormatStrategy--) | the format strategy when exporting the cell value as string. |
+| [getEncoding()](#getEncoding--) | Gets the default encoding. |
+| [getFormatStrategy()](#getFormatStrategy--) | Gets the format strategy when exporting the cell value as string. |
 | [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The Data provider to provide cells data for saving workbook in light mode. |
-| [getLineSeparator()](#getLineSeparator--) | the line separator. |
+| [getLineSeparator()](#getLineSeparator--) | Gets the line separator. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
@@ -38,23 +38,23 @@ Represents the save options for markdown.
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--) |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--) |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
-| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | For the description of this property, please see [getEncoding()](../../com.aspose.cells/markdownsaveoptions\#getEncoding--) |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/markdownsaveoptions\#getFormatStrategy--) |
-| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/markdownsaveoptions\#getLightCellsDataProvider--) |
-| [setLineSeparator(String value)](#setLineSeparator-java.lang.String-) | For the description of this property, please see [getLineSeparator()](../../com.aspose.cells/markdownsaveoptions\#getLineSeparator--) |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--) |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | Sets the format strategy when exporting the cell value as string. |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The Data provider to provide cells data for saving workbook in light mode. |
+| [setLineSeparator(String value)](#setLineSeparator-java.lang.String-) | Sets the line separator. |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -129,7 +129,7 @@ public Encoding getEncoding()
 ```
 
 
-the default encoding.
+Gets the default encoding.
 
 **Returns:**
 [Encoding](../../com.aspose.cells/encoding)
@@ -139,7 +139,7 @@ public int getFormatStrategy()
 ```
 
 
-the format strategy when exporting the cell value as string.
+Gets the format strategy when exporting the cell value as string.
 
 **Returns:**
 int
@@ -159,7 +159,7 @@ public String getLineSeparator()
 ```
 
 
-the line separator.
+Gets the line separator.
 
 **Returns:**
 java.lang.String
@@ -239,7 +239,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-warning callback.
+Sets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -275,7 +275,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--)
+The cached file folder is used to store some large data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -288,7 +288,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--)
+Make the workbook empty after saving the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -301,7 +301,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--)
+If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -314,7 +314,7 @@ public void setEncoding(Encoding value)
 ```
 
 
-For the description of this property, please see [getEncoding()](../../com.aspose.cells/markdownsaveoptions\#getEncoding--)
+Sets the default encoding.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -327,7 +327,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/markdownsaveoptions\#getFormatStrategy--)
+Sets the format strategy when exporting the cell value as string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -340,7 +340,7 @@ public void setLightCellsDataProvider(LightCellsDataProvider value)
 ```
 
 
-For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/markdownsaveoptions\#getLightCellsDataProvider--)
+The Data provider to provide cells data for saving workbook in light mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -353,7 +353,7 @@ public void setLineSeparator(String value)
 ```
 
 
-For the description of this property, please see [getLineSeparator()](../../com.aspose.cells/markdownsaveoptions\#getLineSeparator--)
+Sets the line separator.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -366,7 +366,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--)
+Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -379,7 +379,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--)
+Indicates whether refreshing chart cache data
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -392,7 +392,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--)
+Indicates whether sorting external defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -405,7 +405,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--)
+Indicates whether sorting defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -418,7 +418,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--)
+Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -431,7 +431,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--)
+Indicates whether validate merged cells before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

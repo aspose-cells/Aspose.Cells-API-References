@@ -23,7 +23,7 @@ Represents the list of scenarios.
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [Scenario](../../com.aspose.cells/scenario) object by the index. |
-| [getActiveIndex()](#getActiveIndex--) | which scenario is selected. |
+| [getActiveIndex()](#getActiveIndex--) | Gets which scenario is selected. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [getLastSelected()](#getLastSelected--) | Indicates which scenario was last selected by the user to be run/shown. |
@@ -33,8 +33,8 @@ Represents the list of scenarios.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setActiveIndex(int value)](#setActiveIndex-int-) | For the description of this property, please see [getActiveIndex()](../../com.aspose.cells/scenariocollection\#getActiveIndex--) |
-| [setLastSelected(int value)](#setLastSelected-int-) | For the description of this property, please see [getLastSelected()](../../com.aspose.cells/scenariocollection\#getLastSelected--) |
+| [setActiveIndex(int value)](#setActiveIndex-int-) | Sets which scenario is selected. |
+| [setLastSelected(int value)](#setLastSelected-int-) | Indicates which scenario was last selected by the user to be run/shown. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -128,7 +128,7 @@ public int getActiveIndex()
 ```
 
 
-which scenario is selected.
+Gets which scenario is selected.
 
 **Returns:**
 int
@@ -232,7 +232,7 @@ public void setActiveIndex(int value)
 ```
 
 
-For the description of this property, please see [getActiveIndex()](../../com.aspose.cells/scenariocollection\#getActiveIndex--)
+Sets which scenario is selected.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setLastSelected(int value)
 ```
 
 
-For the description of this property, please see [getLastSelected()](../../com.aspose.cells/scenariocollection\#getLastSelected--)
+Indicates which scenario was last selected by the user to be run/shown.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -19,13 +19,13 @@ Represents an x-y coordinate within the path coordinate space.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getX()](#getX--) | x coordinate for this position coordinate. |
+| [getX()](#getX--) | Gets x coordinate for this position coordinate. |
 | [getY()](#getY--) | Gets y coordinate for this position coordinate. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setX(int value)](#setX-int-) | For the description of this property, please see [getX()](../../com.aspose.cells/shapepathpoint\#getX--) |
-| [setY(int value)](#setY-int-) | For the description of this property, please see [getY()](../../com.aspose.cells/shapepathpoint\#getY--) |
+| [setX(int value)](#setX-int-) | Sets x coordinate for this position coordinate. |
+| [setY(int value)](#setY-int-) | Gets y coordinate for this position coordinate. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public int getX()
 ```
 
 
-x coordinate for this position coordinate.
+Gets x coordinate for this position coordinate.
 
 **Returns:**
 int
@@ -107,7 +107,7 @@ public void setX(int value)
 ```
 
 
-For the description of this property, please see [getX()](../../com.aspose.cells/shapepathpoint\#getX--)
+Sets x coordinate for this position coordinate.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +120,7 @@ public void setY(int value)
 ```
 
 
-For the description of this property, please see [getY()](../../com.aspose.cells/shapepathpoint\#getY--)
+Gets y coordinate for this position coordinate.
 
 **Parameters:**
 | Parameter | Type | Description |

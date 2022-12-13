@@ -58,7 +58,7 @@ Workbook workbook = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDestination()](#getDestination--) | The cell to which the bookmark link. |
-| [getDestinationName()](#getDestinationName--) | name of destination. |
+| [getDestinationName()](#getDestinationName--) | Gets name of destination. |
 | [getSubEntry()](#getSubEntry--) | SubEntry of a bookmark. |
 | [getText()](#getText--) | Title of a bookmark. |
 | [hashCode()](#hashCode--) |  |
@@ -66,12 +66,12 @@ Workbook workbook = new Workbook();
 | [isOpen()](#isOpen--) | When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCollapse(boolean value)](#setCollapse-boolean-) | For the description of this property, please see [isCollapse()](../../com.aspose.cells/pdfbookmarkentry\#isCollapse--) |
-| [setDestination(Cell value)](#setDestination-com.aspose.cells.Cell-) | For the description of this property, please see [getDestination()](../../com.aspose.cells/pdfbookmarkentry\#getDestination--) |
-| [setDestinationName(String value)](#setDestinationName-java.lang.String-) | For the description of this property, please see [getDestinationName()](../../com.aspose.cells/pdfbookmarkentry\#getDestinationName--) |
-| [setOpen(boolean value)](#setOpen-boolean-) | For the description of this property, please see [isOpen()](../../com.aspose.cells/pdfbookmarkentry\#isOpen--) |
-| [setSubEntry(ArrayList value)](#setSubEntry-java.util.ArrayList-) | For the description of this property, please see [getSubEntry()](../../com.aspose.cells/pdfbookmarkentry\#getSubEntry--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/pdfbookmarkentry\#getText--) |
+| [setCollapse(boolean value)](#setCollapse-boolean-) | When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
+| [setDestination(Cell value)](#setDestination-com.aspose.cells.Cell-) | The cell to which the bookmark link. |
+| [setDestinationName(String value)](#setDestinationName-java.lang.String-) | Sets name of destination. |
+| [setOpen(boolean value)](#setOpen-boolean-) | When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
+| [setSubEntry(ArrayList value)](#setSubEntry-java.util.ArrayList-) | SubEntry of a bookmark. |
+| [setText(String value)](#setText-java.lang.String-) | Title of a bookmark. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -123,7 +123,7 @@ public String getDestinationName()
 ```
 
 
-name of destination. If destination name is set, the destination will be defined as a named destination with this name.
+Gets name of destination. If destination name is set, the destination will be defined as a named destination with this name.
 
 **Returns:**
 java.lang.String
@@ -199,7 +199,7 @@ public void setCollapse(boolean value)
 ```
 
 
-For the description of this property, please see [isCollapse()](../../com.aspose.cells/pdfbookmarkentry\#isCollapse--)
+When this property is true, the bookmarkentry will collapse, otherwise it will expand.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -212,7 +212,7 @@ public void setDestination(Cell value)
 ```
 
 
-For the description of this property, please see [getDestination()](../../com.aspose.cells/pdfbookmarkentry\#getDestination--)
+The cell to which the bookmark link.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -225,7 +225,7 @@ public void setDestinationName(String value)
 ```
 
 
-For the description of this property, please see [getDestinationName()](../../com.aspose.cells/pdfbookmarkentry\#getDestinationName--)
+Sets name of destination. If destination name is set, the destination will be defined as a named destination with this name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -238,7 +238,7 @@ public void setOpen(boolean value)
 ```
 
 
-For the description of this property, please see [isOpen()](../../com.aspose.cells/pdfbookmarkentry\#isOpen--)
+When this property is true, the bookmarkentry will expand, otherwise it will collapse.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -251,7 +251,7 @@ public void setSubEntry(ArrayList value)
 ```
 
 
-For the description of this property, please see [getSubEntry()](../../com.aspose.cells/pdfbookmarkentry\#getSubEntry--)
+SubEntry of a bookmark.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -264,7 +264,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.cells/pdfbookmarkentry\#getText--)
+Title of a bookmark.
 
 **Parameters:**
 | Parameter | Type | Description |

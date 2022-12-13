@@ -41,7 +41,7 @@ Workbook workbook = new Workbook();
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the comment text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [formatCharacters(int startIndex, int length, Font font, StyleFlag flag)](#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-) | Format some characters with the font setting. |
-| [getAuthor()](#getAuthor--) | Name of the original comment author |
+| [getAuthor()](#getAuthor--) | Gets Name of the original comment author |
 | [getAutoSize()](#getAutoSize--) | Indicates if size of comment is adjusted automatically according to its content. |
 | [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the comment text. |
 | [getClass()](#getClass--) |  |
@@ -51,12 +51,12 @@ Workbook workbook = new Workbook();
 | [getHeight()](#getHeight--) | Represents the Height of the comment, in unit of pixels. |
 | [getHeightCM()](#getHeightCM--) | Represents the height of the comment, in unit of centimeters. |
 | [getHeightInch()](#getHeightInch--) | Represents the height of the comment, in unit of inches. |
-| [getHtmlNote()](#getHtmlNote--) | the html string which contains data and some formats in this comment. |
+| [getHtmlNote()](#getHtmlNote--) | Gets the html string which contains data and some formats in this comment. |
 | [getNote()](#getNote--) | Represents the content of comment. |
 | [getRow()](#getRow--) | Gets the row index of the comment. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | the text horizontal alignment type of the comment. |
-| [getTextOrientationType()](#getTextOrientationType--) | the text orientation type of the comment. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | the text vertical alignment type of the comment. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment type of the comment. |
+| [getTextOrientationType()](#getTextOrientationType--) | Gets the text orientation type of the comment. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets the text vertical alignment type of the comment. |
 | [getThreadedComments()](#getThreadedComments--) | Gets the list of threaded comments; |
 | [getWidth()](#getWidth--) | Represents the width of the comment, in unit of pixels. |
 | [getWidthCM()](#getWidthCM--) | Represents the width of the comment, in unit of centimeters. |
@@ -66,20 +66,20 @@ Workbook workbook = new Workbook();
 | [isVisible()](#isVisible--) | Represents if the comment is visible or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see [getAuthor()](../../com.aspose.cells/comment\#getAuthor--) |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [getAutoSize()](../../com.aspose.cells/comment\#getAutoSize--) |
-| [setHeight(int value)](#setHeight-int-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/comment\#getHeight--) |
-| [setHeightCM(double value)](#setHeightCM-double-) | For the description of this property, please see [getHeightCM()](../../com.aspose.cells/comment\#getHeightCM--) |
-| [setHeightInch(double value)](#setHeightInch-double-) | For the description of this property, please see [getHeightInch()](../../com.aspose.cells/comment\#getHeightInch--) |
-| [setHtmlNote(String value)](#setHtmlNote-java.lang.String-) | For the description of this property, please see [getHtmlNote()](../../com.aspose.cells/comment\#getHtmlNote--) |
-| [setNote(String value)](#setNote-java.lang.String-) | For the description of this property, please see [getNote()](../../com.aspose.cells/comment\#getNote--) |
-| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | For the description of this property, please see [getTextHorizontalAlignment()](../../com.aspose.cells/comment\#getTextHorizontalAlignment--) |
-| [setTextOrientationType(int value)](#setTextOrientationType-int-) | For the description of this property, please see [getTextOrientationType()](../../com.aspose.cells/comment\#getTextOrientationType--) |
-| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | For the description of this property, please see [getTextVerticalAlignment()](../../com.aspose.cells/comment\#getTextVerticalAlignment--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/comment\#isVisible--) |
-| [setWidth(int value)](#setWidth-int-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/comment\#getWidth--) |
-| [setWidthCM(double value)](#setWidthCM-double-) | For the description of this property, please see [getWidthCM()](../../com.aspose.cells/comment\#getWidthCM--) |
-| [setWidthInch(double value)](#setWidthInch-double-) | For the description of this property, please see [getWidthInch()](../../com.aspose.cells/comment\#getWidthInch--) |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets Name of the original comment author |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates if size of comment is adjusted automatically according to its content. |
+| [setHeight(int value)](#setHeight-int-) | Represents the Height of the comment, in unit of pixels. |
+| [setHeightCM(double value)](#setHeightCM-double-) | Represents the height of the comment, in unit of centimeters. |
+| [setHeightInch(double value)](#setHeightInch-double-) | Represents the height of the comment, in unit of inches. |
+| [setHtmlNote(String value)](#setHtmlNote-java.lang.String-) | Sets the html string which contains data and some formats in this comment. |
+| [setNote(String value)](#setNote-java.lang.String-) | Represents the content of comment. |
+| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Sets the text horizontal alignment type of the comment. |
+| [setTextOrientationType(int value)](#setTextOrientationType-int-) | Sets the text orientation type of the comment. |
+| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | Sets the text vertical alignment type of the comment. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Represents if the comment is visible or not. |
+| [setWidth(int value)](#setWidth-int-) | Represents the width of the comment, in unit of pixels. |
+| [setWidthCM(double value)](#setWidthCM-double-) | Represents the width of the comment, in unit of centimeters. |
+| [setWidthInch(double value)](#setWidthInch-double-) | Represents the width of the comment, in unit of inches. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -141,7 +141,7 @@ public String getAuthor()
 ```
 
 
-Name of the original comment author
+Gets Name of the original comment author
 
 ```
 comment1.setAuthor("Carl.Yang");
@@ -284,7 +284,7 @@ public String getHtmlNote()
 ```
 
 
-the html string which contains data and some formats in this comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+Gets the html string which contains data and some formats in this comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 ```
 comment1.setHtmlNote("<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>");
@@ -326,7 +326,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-the text horizontal alignment type of the comment.
+Gets the text horizontal alignment type of the comment.
 
 ```
 if (comment1.getTextHorizontalAlignment() ==  TextAlignmentType.FILL)
@@ -343,7 +343,7 @@ public int getTextOrientationType()
 ```
 
 
-the text orientation type of the comment.
+Gets the text orientation type of the comment.
 
 ```
 if(comment1.getTextOrientationType() == TextOrientationType.NO_ROTATION)
@@ -360,7 +360,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-the text vertical alignment type of the comment.
+Gets the text vertical alignment type of the comment.
 
 ```
 if (comment1.getTextVerticalAlignment() ==  TextAlignmentType.FILL)
@@ -498,7 +498,7 @@ public void setAuthor(String value)
 ```
 
 
-For the description of this property, please see [getAuthor()](../../com.aspose.cells/comment\#getAuthor--)
+Sets Name of the original comment author
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -511,7 +511,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoSize()](../../com.aspose.cells/comment\#getAutoSize--)
+Indicates if size of comment is adjusted automatically according to its content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -524,7 +524,7 @@ public void setHeight(int value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/comment\#getHeight--)
+Represents the Height of the comment, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -537,7 +537,7 @@ public void setHeightCM(double value)
 ```
 
 
-For the description of this property, please see [getHeightCM()](../../com.aspose.cells/comment\#getHeightCM--)
+Represents the height of the comment, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -550,7 +550,7 @@ public void setHeightInch(double value)
 ```
 
 
-For the description of this property, please see [getHeightInch()](../../com.aspose.cells/comment\#getHeightInch--)
+Represents the height of the comment, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -563,7 +563,7 @@ public void setHtmlNote(String value)
 ```
 
 
-For the description of this property, please see [getHtmlNote()](../../com.aspose.cells/comment\#getHtmlNote--)
+Sets the html string which contains data and some formats in this comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -576,7 +576,7 @@ public void setNote(String value)
 ```
 
 
-For the description of this property, please see [getNote()](../../com.aspose.cells/comment\#getNote--)
+Represents the content of comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -589,7 +589,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-For the description of this property, please see [getTextHorizontalAlignment()](../../com.aspose.cells/comment\#getTextHorizontalAlignment--)
+Sets the text horizontal alignment type of the comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -602,7 +602,7 @@ public void setTextOrientationType(int value)
 ```
 
 
-For the description of this property, please see [getTextOrientationType()](../../com.aspose.cells/comment\#getTextOrientationType--)
+Sets the text orientation type of the comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -615,7 +615,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-For the description of this property, please see [getTextVerticalAlignment()](../../com.aspose.cells/comment\#getTextVerticalAlignment--)
+Sets the text vertical alignment type of the comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -628,7 +628,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/comment\#isVisible--)
+Represents if the comment is visible or not.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -641,7 +641,7 @@ public void setWidth(int value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/comment\#getWidth--)
+Represents the width of the comment, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -654,7 +654,7 @@ public void setWidthCM(double value)
 ```
 
 
-For the description of this property, please see [getWidthCM()](../../com.aspose.cells/comment\#getWidthCM--)
+Represents the width of the comment, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -667,7 +667,7 @@ public void setWidthInch(double value)
 ```
 
 
-For the description of this property, please see [getWidthInch()](../../com.aspose.cells/comment\#getWidthInch--)
+Represents the width of the comment, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -55,9 +55,9 @@ Workbook workbook = new Workbook();
 | [getDepthPercent()](#getDepthPercent--) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
 | [getDisplayNaAsBlank()](#getDisplayNaAsBlank--) | Indicates whether displaying \#N/A as blank value. |
 | [getElevation()](#getElevation--) | Represents the elevation of the 3-D chart view, in degrees. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Gets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
 | [getFloor()](#getFloor--) | Returns a [getFloor()](../../com.aspose.cells/chart\#getFloor--) object that represents the walls of a 3-D chart. |
-| [getGapDepth()](#getGapDepth--) | the distance between the data series in a 3-D chart, as a percentage of the marker width. |
+| [getGapDepth()](#getGapDepth--) | Gets the distance between the data series in a 3-D chart, as a percentage of the marker width. |
 | [getGapWidth()](#getGapWidth--) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. |
 | [getHeightPercent()](#getHeightPercent--) | Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). |
 | [getHidePivotFieldButtons()](#getHidePivotFieldButtons--) | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. |
@@ -65,32 +65,32 @@ Workbook workbook = new Workbook();
 | [getLegend()](#getLegend--) | Gets the chart legend. |
 | [getLine()](#getLine--) | Gets the line. |
 | [getNSeries()](#getNSeries--) | Gets a [SeriesCollection](../../com.aspose.cells/seriescollection) collection representing the data series in the chart. |
-| [getName()](#getName--) | the name of the chart. |
+| [getName()](#getName--) | Gets the name of the chart. |
 | [getPageSetup()](#getPageSetup--) | Represents the page setup description in this chart. |
 | [getPerspective()](#getPerspective--) | Returns or sets the perspective for the 3-D chart view. |
 | [getPivotOptions()](#getPivotOptions--) | Specifies the pivot controls that appear on the chart |
 | [getPivotSource()](#getPivotSource--) | The source is the data of the pivotTable. |
 | [getPlacement()](#getPlacement--) | Represents the way the chart is attached to the cells below it. |
 | [getPlotArea()](#getPlotArea--) | Gets the chart's plot area which includes axis tick labels. |
-| [getPlotBy()](#getPlotBy--) | whether plot by row or column. |
-| [getPlotEmptyCellsType()](#getPlotEmptyCellsType--) | how to plot the empty cells. |
+| [getPlotBy()](#getPlotBy--) | Gets whether plot by row or column. |
+| [getPlotEmptyCellsType()](#getPlotEmptyCellsType--) | Gets how to plot the empty cells. |
 | [getPlotVisibleCells()](#getPlotVisibleCells--) | Indicates whether only plot visible cells. |
 | [getPlotVisibleCellsOnly()](#getPlotVisibleCellsOnly--) | Indicates whether plot visible cells only. |
-| [getPrintSize()](#getPrintSize--) | the printed chart size. |
+| [getPrintSize()](#getPrintSize--) | Gets the printed chart size. |
 | [getRightAngleAxes()](#getRightAngleAxes--) | True if the chart axes are at right angles. |
 | [getRotationAngle()](#getRotationAngle--) | Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). |
 | [getSecondCategoryAxis()](#getSecondCategoryAxis--) | Gets the chart's second X axis. |
 | [getSecondValueAxis()](#getSecondValueAxis--) | Gets the chart's second Y axis. |
 | [getSeriesAxis()](#getSeriesAxis--) | Gets the chart's series axis. |
 | [getShapes()](#getShapes--) | Returns all drawing shapes in this chart. |
-| [getShowDataTable()](#getShowDataTable--) | a value indicating whether the chart displays a data table. |
-| [getShowLegend()](#getShowLegend--) | a value indicating whether the chart legend will be displayed. |
+| [getShowDataTable()](#getShowDataTable--) | Gets a value indicating whether the chart displays a data table. |
+| [getShowLegend()](#getShowLegend--) | Gets a value indicating whether the chart legend will be displayed. |
 | [getSideWall()](#getSideWall--) | Returns a [getWalls()](../../com.aspose.cells/chart\#getWalls--) object that represents the side wall of a 3-D chart. |
 | [getSizeWithWindow()](#getSizeWithWindow--) | True if Microsoft Excel resizes the chart to match the size of the chart sheet window. |
-| [getStyle()](#getStyle--) | the builtin style. |
+| [getStyle()](#getStyle--) | Gets the builtin style. |
 | [getSubTitle()](#getSubTitle--) | Gets the chart's sub-title. |
 | [getTitle()](#getTitle--) | Gets the chart's title. |
-| [getType()](#getType--) | a chart's type. |
+| [getType()](#getType--) | Gets a chart's type. |
 | [getValueAxis()](#getValueAxis--) | Gets the chart's Y axis. |
 | [getWalls()](#getWalls--) | Returns a [getWalls()](../../com.aspose.cells/chart\#getWalls--) object that represents the walls of a 3-D chart. |
 | [getWallsAndGridlines2D()](#getWallsAndGridlines2D--) | True if gridlines are drawn two-dimensionally on a 3-D chart. |
@@ -98,38 +98,38 @@ Workbook workbook = new Workbook();
 | [hasAxis(int aixsType, boolean isPrimary)](#hasAxis-int-boolean-) | Returns which axes exist on the chart. |
 | [hashCode()](#hashCode--) |  |
 | [isChartDataChanged()](#isChartDataChanged--) | Detects if a chart's data source has changed. |
-| [isRectangularCornered()](#isRectangularCornered--) | a value indicating whether the chart area is rectangular cornered. |
+| [isRectangularCornered()](#isRectangularCornered--) | Gets a value indicating whether the chart area is rectangular cornered. |
 | [move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#move-int-int-int-int-) | Moves the chart to a specified location. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [refreshPivotData()](#refreshPivotData--) | Refreshes pivot chart's data from it's pivot data source. |
-| [setAutoScaling(boolean value)](#setAutoScaling-boolean-) | For the description of this property, please see [getAutoScaling()](../../com.aspose.cells/chart\#getAutoScaling--) |
+| [setAutoScaling(boolean value)](#setAutoScaling-boolean-) | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. |
 | [setChartDataRange(String area, boolean isVertical)](#setChartDataRange-java.lang.String-boolean-) | Specifies data range for a chart. |
-| [setDepthPercent(int value)](#setDepthPercent-int-) | For the description of this property, please see [getDepthPercent()](../../com.aspose.cells/chart\#getDepthPercent--) |
-| [setDisplayNaAsBlank(boolean value)](#setDisplayNaAsBlank-boolean-) | For the description of this property, please see [getDisplayNaAsBlank()](../../com.aspose.cells/chart\#getDisplayNaAsBlank--) |
-| [setElevation(int value)](#setElevation-int-) | For the description of this property, please see [getElevation()](../../com.aspose.cells/chart\#getElevation--) |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | For the description of this property, please see [getFirstSliceAngle()](../../com.aspose.cells/chart\#getFirstSliceAngle--) |
-| [setGapDepth(int value)](#setGapDepth-int-) | For the description of this property, please see [getGapDepth()](../../com.aspose.cells/chart\#getGapDepth--) |
-| [setGapWidth(int value)](#setGapWidth-int-) | For the description of this property, please see [getGapWidth()](../../com.aspose.cells/chart\#getGapWidth--) |
-| [setHeightPercent(int value)](#setHeightPercent-int-) | For the description of this property, please see [getHeightPercent()](../../com.aspose.cells/chart\#getHeightPercent--) |
-| [setHidePivotFieldButtons(boolean value)](#setHidePivotFieldButtons-boolean-) | For the description of this property, please see [getHidePivotFieldButtons()](../../com.aspose.cells/chart\#getHidePivotFieldButtons--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/chart\#getName--) |
-| [setPerspective(short value)](#setPerspective-short-) | For the description of this property, please see [getPerspective()](../../com.aspose.cells/chart\#getPerspective--) |
-| [setPivotSource(String value)](#setPivotSource-java.lang.String-) | For the description of this property, please see [getPivotSource()](../../com.aspose.cells/chart\#getPivotSource--) |
-| [setPlacement(int value)](#setPlacement-int-) | For the description of this property, please see [getPlacement()](../../com.aspose.cells/chart\#getPlacement--) |
-| [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | For the description of this property, please see [getPlotEmptyCellsType()](../../com.aspose.cells/chart\#getPlotEmptyCellsType--) |
-| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | For the description of this property, please see [getPlotVisibleCells()](../../com.aspose.cells/chart\#getPlotVisibleCells--) |
-| [setPlotVisibleCellsOnly(boolean value)](#setPlotVisibleCellsOnly-boolean-) | For the description of this property, please see [getPlotVisibleCellsOnly()](../../com.aspose.cells/chart\#getPlotVisibleCellsOnly--) |
-| [setPrintSize(int value)](#setPrintSize-int-) | For the description of this property, please see [getPrintSize()](../../com.aspose.cells/chart\#getPrintSize--) |
-| [setRectangularCornered(boolean value)](#setRectangularCornered-boolean-) | For the description of this property, please see [isRectangularCornered()](../../com.aspose.cells/chart\#isRectangularCornered--) |
-| [setRightAngleAxes(boolean value)](#setRightAngleAxes-boolean-) | For the description of this property, please see [getRightAngleAxes()](../../com.aspose.cells/chart\#getRightAngleAxes--) |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/chart\#getRotationAngle--) |
-| [setShowDataTable(boolean value)](#setShowDataTable-boolean-) | For the description of this property, please see [getShowDataTable()](../../com.aspose.cells/chart\#getShowDataTable--) |
-| [setShowLegend(boolean value)](#setShowLegend-boolean-) | For the description of this property, please see [getShowLegend()](../../com.aspose.cells/chart\#getShowLegend--) |
-| [setSizeWithWindow(boolean value)](#setSizeWithWindow-boolean-) | For the description of this property, please see [getSizeWithWindow()](../../com.aspose.cells/chart\#getSizeWithWindow--) |
-| [setStyle(int value)](#setStyle-int-) | For the description of this property, please see [getStyle()](../../com.aspose.cells/chart\#getStyle--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/chart\#getType--) |
-| [setWallsAndGridlines2D(boolean value)](#setWallsAndGridlines2D-boolean-) | For the description of this property, please see [getWallsAndGridlines2D()](../../com.aspose.cells/chart\#getWallsAndGridlines2D--) |
+| [setDepthPercent(int value)](#setDepthPercent-int-) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
+| [setDisplayNaAsBlank(boolean value)](#setDisplayNaAsBlank-boolean-) | Indicates whether displaying \#N/A as blank value. |
+| [setElevation(int value)](#setElevation-int-) | Represents the elevation of the 3-D chart view, in degrees. |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
+| [setGapDepth(int value)](#setGapDepth-int-) | Sets the distance between the data series in a 3-D chart, as a percentage of the marker width. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. |
+| [setHeightPercent(int value)](#setHeightPercent-int-) | Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). |
+| [setHidePivotFieldButtons(boolean value)](#setHidePivotFieldButtons-boolean-) | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the chart. |
+| [setPerspective(short value)](#setPerspective-short-) | Returns or sets the perspective for the 3-D chart view. |
+| [setPivotSource(String value)](#setPivotSource-java.lang.String-) | The source is the data of the pivotTable. |
+| [setPlacement(int value)](#setPlacement-int-) | Represents the way the chart is attached to the cells below it. |
+| [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | Sets how to plot the empty cells. |
+| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | Indicates whether only plot visible cells. |
+| [setPlotVisibleCellsOnly(boolean value)](#setPlotVisibleCellsOnly-boolean-) | Indicates whether plot visible cells only. |
+| [setPrintSize(int value)](#setPrintSize-int-) | Sets the printed chart size. |
+| [setRectangularCornered(boolean value)](#setRectangularCornered-boolean-) | Sets a value indicating whether the chart area is rectangular cornered. |
+| [setRightAngleAxes(boolean value)](#setRightAngleAxes-boolean-) | True if the chart axes are at right angles. |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). |
+| [setShowDataTable(boolean value)](#setShowDataTable-boolean-) | Sets a value indicating whether the chart displays a data table. |
+| [setShowLegend(boolean value)](#setShowLegend-boolean-) | Sets a value indicating whether the chart legend will be displayed. |
+| [setSizeWithWindow(boolean value)](#setSizeWithWindow-boolean-) | True if Microsoft Excel resizes the chart to match the size of the chart sheet window. |
+| [setStyle(int value)](#setStyle-int-) | Sets the builtin style. |
+| [setType(int value)](#setType-int-) | Sets a chart's type. |
+| [setWallsAndGridlines2D(boolean value)](#setWallsAndGridlines2D-boolean-) | True if gridlines are drawn two-dimensionally on a 3-D chart. |
 | [switchRowColumn()](#switchRowColumn--) | Switches row/column. |
 | [toImage(OutputStream stream, ImageOrPrintOptions options)](#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) | Creates the chart image and saves it to a stream in the specified format. |
 | [toImage(String imageFile)](#toImage-java.lang.String-) | Creates the chart image and saves it to a file. |
@@ -327,7 +327,7 @@ public int getFirstSliceAngle()
 ```
 
 
-the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
+Gets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
 
 **Returns:**
 int
@@ -347,7 +347,7 @@ public int getGapDepth()
 ```
 
 
-the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500.
+Gets the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500.
 
 **Returns:**
 int
@@ -427,7 +427,7 @@ public String getName()
 ```
 
 
-the name of the chart.
+Gets the name of the chart.
 
 **Returns:**
 java.lang.String
@@ -497,7 +497,7 @@ public int getPlotBy()
 ```
 
 
-whether plot by row or column.
+Gets whether plot by row or column.
 
 **Returns:**
 int
@@ -507,7 +507,7 @@ public int getPlotEmptyCellsType()
 ```
 
 
-how to plot the empty cells.
+Gets how to plot the empty cells.
 
 **Returns:**
 int
@@ -537,7 +537,7 @@ public int getPrintSize()
 ```
 
 
-the printed chart size.
+Gets the printed chart size.
 
 **Returns:**
 int
@@ -607,7 +607,7 @@ public boolean getShowDataTable()
 ```
 
 
-a value indicating whether the chart displays a data table.
+Gets a value indicating whether the chart displays a data table.
 
 **Returns:**
 boolean
@@ -617,7 +617,7 @@ public boolean getShowLegend()
 ```
 
 
-a value indicating whether the chart legend will be displayed. Default is true.
+Gets a value indicating whether the chart legend will be displayed. Default is true.
 
 **Returns:**
 boolean
@@ -647,7 +647,7 @@ public int getStyle()
 ```
 
 
-the builtin style. It should be between 1 and 48. Return -1 if it's not be set.
+Gets the builtin style. It should be between 1 and 48. Return -1 if it's not be set.
 
 **Returns:**
 int
@@ -677,7 +677,7 @@ public int getType()
 ```
 
 
-a chart's type.
+Gets a chart's type.
 
 **Returns:**
 int
@@ -763,7 +763,7 @@ public boolean isRectangularCornered()
 ```
 
 
-a value indicating whether the chart area is rectangular cornered. Default is true.
+Gets a value indicating whether the chart area is rectangular cornered. Default is true.
 
 **Returns:**
 boolean
@@ -813,7 +813,7 @@ public void setAutoScaling(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoScaling()](../../com.aspose.cells/chart\#getAutoScaling--)
+True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. The RightAngleAxes property must be True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -840,7 +840,7 @@ public void setDepthPercent(int value)
 ```
 
 
-For the description of this property, please see [getDepthPercent()](../../com.aspose.cells/chart\#getDepthPercent--)
+Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -853,7 +853,7 @@ public void setDisplayNaAsBlank(boolean value)
 ```
 
 
-For the description of this property, please see [getDisplayNaAsBlank()](../../com.aspose.cells/chart\#getDisplayNaAsBlank--)
+Indicates whether displaying \#N/A as blank value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -866,7 +866,7 @@ public void setElevation(int value)
 ```
 
 
-For the description of this property, please see [getElevation()](../../com.aspose.cells/chart\#getElevation--)
+Represents the elevation of the 3-D chart view, in degrees. The chart elevation is the height at which you view the chart, in degrees. The default is 15 for most chart types. The value of this property must be between -90 and 90, except for 3-D bar charts, where it must be between 0 and 44.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -879,7 +879,7 @@ public void setFirstSliceAngle(int value)
 ```
 
 
-For the description of this property, please see [getFirstSliceAngle()](../../com.aspose.cells/chart\#getFirstSliceAngle--)
+Sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -892,7 +892,7 @@ public void setGapDepth(int value)
 ```
 
 
-For the description of this property, please see [getGapDepth()](../../com.aspose.cells/chart\#getGapDepth--)
+Sets the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -905,7 +905,7 @@ public void setGapWidth(int value)
 ```
 
 
-For the description of this property, please see [getGapWidth()](../../com.aspose.cells/chart\#getGapWidth--)
+Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -918,7 +918,7 @@ public void setHeightPercent(int value)
 ```
 
 
-For the description of this property, please see [getHeightPercent()](../../com.aspose.cells/chart\#getHeightPercent--)
+Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -931,7 +931,7 @@ public void setHidePivotFieldButtons(boolean value)
 ```
 
 
-For the description of this property, please see [getHidePivotFieldButtons()](../../com.aspose.cells/chart\#getHidePivotFieldButtons--)
+Indicates whether hide the pivot chart field buttons only when the chart is PivotChart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -944,7 +944,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/chart\#getName--)
+Sets the name of the chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -957,7 +957,7 @@ public void setPerspective(short value)
 ```
 
 
-For the description of this property, please see [getPerspective()](../../com.aspose.cells/chart\#getPerspective--)
+Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -970,7 +970,7 @@ public void setPivotSource(String value)
 ```
 
 
-For the description of this property, please see [getPivotSource()](../../com.aspose.cells/chart\#getPivotSource--)
+The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. If the pivot table "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.xls". The pivotSource could be "[Book1.xls]Sheet1!PivotTable1" if the chart and the PivotTable is not in the same workbook. If you set this property ,the previous data source setting will be lost.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -983,7 +983,7 @@ public void setPlacement(int value)
 ```
 
 
-For the description of this property, please see [getPlacement()](../../com.aspose.cells/chart\#getPlacement--)
+Represents the way the chart is attached to the cells below it.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -996,7 +996,7 @@ public void setPlotEmptyCellsType(int value)
 ```
 
 
-For the description of this property, please see [getPlotEmptyCellsType()](../../com.aspose.cells/chart\#getPlotEmptyCellsType--)
+Sets how to plot the empty cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1009,7 +1009,7 @@ public void setPlotVisibleCells(boolean value)
 ```
 
 
-For the description of this property, please see [getPlotVisibleCells()](../../com.aspose.cells/chart\#getPlotVisibleCells--)
+Indicates whether only plot visible cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1022,7 +1022,7 @@ public void setPlotVisibleCellsOnly(boolean value)
 ```
 
 
-For the description of this property, please see [getPlotVisibleCellsOnly()](../../com.aspose.cells/chart\#getPlotVisibleCellsOnly--)
+Indicates whether plot visible cells only.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1035,7 +1035,7 @@ public void setPrintSize(int value)
 ```
 
 
-For the description of this property, please see [getPrintSize()](../../com.aspose.cells/chart\#getPrintSize--)
+Sets the printed chart size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1048,7 +1048,7 @@ public void setRectangularCornered(boolean value)
 ```
 
 
-For the description of this property, please see [isRectangularCornered()](../../com.aspose.cells/chart\#isRectangularCornered--)
+Sets a value indicating whether the chart area is rectangular cornered. Default is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1061,7 +1061,7 @@ public void setRightAngleAxes(boolean value)
 ```
 
 
-For the description of this property, please see [getRightAngleAxes()](../../com.aspose.cells/chart\#getRightAngleAxes--)
+True if the chart axes are at right angles. Applies only for 3-D charts(except Column3D and 3-D Pie Charts). If this property is True, the Perspective property is ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1074,7 +1074,7 @@ public void setRotationAngle(int value)
 ```
 
 
-For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/chart\#getRotationAngle--)
+Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). The value of this property must be from 0 to 360, except for 3-D bar charts, where the value must be from 0 to 44. The default value is 20. Applies only to 3-D charts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1087,7 +1087,7 @@ public void setShowDataTable(boolean value)
 ```
 
 
-For the description of this property, please see [getShowDataTable()](../../com.aspose.cells/chart\#getShowDataTable--)
+Sets a value indicating whether the chart displays a data table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1100,7 +1100,7 @@ public void setShowLegend(boolean value)
 ```
 
 
-For the description of this property, please see [getShowLegend()](../../com.aspose.cells/chart\#getShowLegend--)
+Sets a value indicating whether the chart legend will be displayed. Default is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1113,7 +1113,7 @@ public void setSizeWithWindow(boolean value)
 ```
 
 
-For the description of this property, please see [getSizeWithWindow()](../../com.aspose.cells/chart\#getSizeWithWindow--)
+True if Microsoft Excel resizes the chart to match the size of the chart sheet window.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1126,7 +1126,7 @@ public void setStyle(int value)
 ```
 
 
-For the description of this property, please see [getStyle()](../../com.aspose.cells/chart\#getStyle--)
+Sets the builtin style. It should be between 1 and 48. Return -1 if it's not be set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1139,7 +1139,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/chart\#getType--)
+Sets a chart's type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1152,7 +1152,7 @@ public void setWallsAndGridlines2D(boolean value)
 ```
 
 
-For the description of this property, please see [getWallsAndGridlines2D()](../../com.aspose.cells/chart\#getWallsAndGridlines2D--)
+True if gridlines are drawn two-dimensionally on a 3-D chart.
 
 **Parameters:**
 | Parameter | Type | Description |

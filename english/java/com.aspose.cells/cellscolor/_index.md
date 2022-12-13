@@ -18,24 +18,24 @@ Represents all types of color.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArgb()](#getArgb--) | the color from a 32-bit ARGB value. |
+| [getArgb()](#getArgb--) | Gets the color from a 32-bit ARGB value. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | the RGB color. |
-| [getColorIndex()](#getColorIndex--) | the color index in the color palette. |
+| [getColor()](#getColor--) | Gets the RGB color. |
+| [getColorIndex()](#getColorIndex--) | Gets the color index in the color palette. |
 | [getThemeColor()](#getThemeColor--) | Gets the theme color. |
-| [getTransparency()](#getTransparency--) | transparency as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getTransparency()](#getTransparency--) | Gets transparency as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getType()](#getType--) | The color type. |
 | [hashCode()](#hashCode--) |  |
-| [isShapeColor()](#isShapeColor--) | the color which should apply to cell or shape. |
+| [isShapeColor()](#isShapeColor--) | Gets the color which should apply to cell or shape. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArgb(int value)](#setArgb-int-) | For the description of this property, please see [getArgb()](../../com.aspose.cells/cellscolor\#getArgb--) |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/cellscolor\#getColor--) |
-| [setColorIndex(int value)](#setColorIndex-int-) | For the description of this property, please see [getColorIndex()](../../com.aspose.cells/cellscolor\#getColorIndex--) |
-| [setShapeColor(boolean value)](#setShapeColor-boolean-) | For the description of this property, please see [isShapeColor()](../../com.aspose.cells/cellscolor\#isShapeColor--) |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see [getThemeColor()](../../com.aspose.cells/cellscolor\#getThemeColor--) |
+| [setArgb(int value)](#setArgb-int-) | Sets the color from a 32-bit ARGB value. |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets the RGB color. |
+| [setColorIndex(int value)](#setColorIndex-int-) | Sets the color index in the color palette. |
+| [setShapeColor(boolean value)](#setShapeColor-boolean-) | Sets the color which should apply to cell or shape. |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | Gets the theme color. |
 | [setTintOfShapeColor(double tint)](#setTintOfShapeColor-double-) | Set the tint of the shape color |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/cellscolor\#getTransparency--) |
+| [setTransparency(double value)](#setTransparency-double-) | Sets transparency as a value from 0.0 (opaque) through 1.0 (clear). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public int getArgb()
 ```
 
 
-the color from a 32-bit ARGB value.
+Gets the color from a 32-bit ARGB value.
 
 **Returns:**
 int
@@ -81,7 +81,7 @@ public Color getColor()
 ```
 
 
-the RGB color.
+Gets the RGB color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -91,7 +91,7 @@ public int getColorIndex()
 ```
 
 
-the color index in the color palette. Only applies of indexed color.
+Gets the color index in the color palette. Only applies of indexed color.
 
 **Returns:**
 int
@@ -111,7 +111,7 @@ public double getTransparency()
 ```
 
 
-transparency as a value from 0.0 (opaque) through 1.0 (clear).
+Gets transparency as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Returns:**
 double
@@ -141,7 +141,7 @@ public boolean isShapeColor()
 ```
 
 
-the color which should apply to cell or shape. The expression of the color of the cell and the shape is different. For example: the theme color with same tint value will be not same in the cell and the shape.
+Gets the color which should apply to cell or shape. The expression of the color of the cell and the shape is different. For example: the theme color with same tint value will be not same in the cell and the shape.
 
 **Returns:**
 boolean
@@ -167,7 +167,7 @@ public void setArgb(int value)
 ```
 
 
-For the description of this property, please see [getArgb()](../../com.aspose.cells/cellscolor\#getArgb--)
+Sets the color from a 32-bit ARGB value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/cellscolor\#getColor--)
+Sets the RGB color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setColorIndex(int value)
 ```
 
 
-For the description of this property, please see [getColorIndex()](../../com.aspose.cells/cellscolor\#getColorIndex--)
+Sets the color index in the color palette. Only applies of indexed color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setShapeColor(boolean value)
 ```
 
 
-For the description of this property, please see [isShapeColor()](../../com.aspose.cells/cellscolor\#isShapeColor--)
+Sets the color which should apply to cell or shape. The expression of the color of the cell and the shape is different. For example: the theme color with same tint value will be not same in the cell and the shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-For the description of this property, please see [getThemeColor()](../../com.aspose.cells/cellscolor\#getThemeColor--)
+Gets the theme color. Only applies for theme color type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/cellscolor\#getTransparency--)
+Sets transparency as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -18,27 +18,27 @@ Represents the image control.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
-| [getBorderOleColor()](#getBorderOleColor--) | the ole color of the background. |
-| [getBorderStyle()](#getBorderStyle--) | the type of border used by the control. |
+| [getBackOleColor()](#getBackOleColor--) | Gets the ole color of the background. |
+| [getBorderOleColor()](#getBorderOleColor--) | Gets the ole color of the background. |
+| [getBorderStyle()](#getBorderStyle--) | Gets the type of border used by the control. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | the binary data of the control. |
+| [getData()](#getData--) | Gets the binary data of the control. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
-| [getHeight()](#getHeight--) | the height of the control in unit of points. |
-| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
-| [getListFillRange()](#getListFillRange--) | the list fill range. |
-| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
-| [getPicture()](#getPicture--) | the data of the picture. |
-| [getPictureAlignment()](#getPictureAlignment--) | the alignment of the picture inside the Form or Image. |
-| [getPictureSizeMode()](#getPictureSizeMode--) | how to display the picture. |
+| [getForeOleColor()](#getForeOleColor--) | Gets the ole color of the foreground. |
+| [getHeight()](#getHeight--) | Gets the height of the control in unit of points. |
+| [getIMEMode()](#getIMEMode--) | Gets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getLinkedCell()](#getLinkedCell--) | Gets the linked cell. |
+| [getListFillRange()](#getListFillRange--) | Gets the list fill range. |
+| [getMouseIcon()](#getMouseIcon--) | Gets a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | Gets the type of icon displayed as the mouse pointer for the control. |
+| [getPicture()](#getPicture--) | Gets the data of the picture. |
+| [getPictureAlignment()](#getPictureAlignment--) | Gets the alignment of the picture inside the Form or Image. |
+| [getPictureSizeMode()](#getPictureSizeMode--) | Gets how to display the picture. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
-| [getSpecialEffect()](#getSpecialEffect--) | the special effect of the control. |
+| [getSpecialEffect()](#getSpecialEffect--) | Gets the special effect of the control. |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getWidth()](#getWidth--) | the width of the control in unit of points. |
+| [getWidth()](#getWidth--) | Gets the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -49,29 +49,29 @@ Represents the image control.
 | [isVisible()](#isVisible--) | Indicates whether this control is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [isAutoSize()](../../com.aspose.cells/imageactivexcontrol\#isAutoSize--) |
-| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
-| [setBorderOleColor(int value)](#setBorderOleColor-int-) | For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/imageactivexcontrol\#getBorderOleColor--) |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/imageactivexcontrol\#getBorderStyle--) |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--) |
-| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
-| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--) |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--) |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
-| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
-| [setPicture(byte[] value)](#setPicture-byte---) | For the description of this property, please see [getPicture()](../../com.aspose.cells/imageactivexcontrol\#getPicture--) |
-| [setPictureAlignment(int value)](#setPictureAlignment-int-) | For the description of this property, please see [getPictureAlignment()](../../com.aspose.cells/imageactivexcontrol\#getPictureAlignment--) |
-| [setPictureSizeMode(int value)](#setPictureSizeMode-int-) | For the description of this property, please see [getPictureSizeMode()](../../com.aspose.cells/imageactivexcontrol\#getPictureSizeMode--) |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
-| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/imageactivexcontrol\#getSpecialEffect--) |
-| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--) |
-| [setTiled(boolean value)](#setTiled-boolean-) | For the description of this property, please see [isTiled()](../../com.aspose.cells/imageactivexcontrol\#isTiled--) |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates whether the control will automatically resize to display its entire contents. |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | Sets the ole color of the background. |
+| [setBorderOleColor(int value)](#setBorderOleColor-int-) | Sets the ole color of the background. |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the type of border used by the control. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | Indicates whether the control can receive the focus and respond to user-generated events. |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | Sets the ole color of the foreground. |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the control in unit of points. |
+| [setIMEMode(int value)](#setIMEMode-int-) | Sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the linked cell. |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | Sets the list fill range. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether data in the control is locked for editing. |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | Sets a custom icon to display as the mouse pointer for the control. |
+| [setMousePointer(int value)](#setMousePointer-int-) | Sets the type of icon displayed as the mouse pointer for the control. |
+| [setPicture(byte[] value)](#setPicture-byte---) | Sets the data of the picture. |
+| [setPictureAlignment(int value)](#setPictureAlignment-int-) | Sets the alignment of the picture inside the Form or Image. |
+| [setPictureSizeMode(int value)](#setPictureSizeMode-int-) | Sets how to display the picture. |
+| [setShadow(boolean value)](#setShadow-boolean-) | Indicates whether to show a shadow. |
+| [setSpecialEffect(int value)](#setSpecialEffect-int-) | Sets the special effect of the control. |
+| [setTextAlign(int value)](#setTextAlign-int-) | Represents how to align the text used by the control. |
+| [setTiled(boolean value)](#setTiled-boolean-) | Indicates whether the picture is tiled across the background. |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | Indicates whether the control is transparent. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this control is visible. |
+| [setWidth(double value)](#setWidth-double-) | Sets the width of the control in unit of points. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -97,7 +97,7 @@ public int getBackOleColor()
 ```
 
 
-the ole color of the background.
+Gets the ole color of the background.
 
 **Returns:**
 int
@@ -107,7 +107,7 @@ public int getBorderOleColor()
 ```
 
 
-the ole color of the background.
+Gets the ole color of the background.
 
 **Returns:**
 int
@@ -117,7 +117,7 @@ public int getBorderStyle()
 ```
 
 
-the type of border used by the control.
+Gets the type of border used by the control.
 
 **Returns:**
 int
@@ -137,7 +137,7 @@ public byte[] getData()
 ```
 
 
-the binary data of the control.
+Gets the binary data of the control.
 
 **Returns:**
 byte[]
@@ -157,7 +157,7 @@ public int getForeOleColor()
 ```
 
 
-the ole color of the foreground. Not applies to Image control.
+Gets the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -167,7 +167,7 @@ public double getHeight()
 ```
 
 
-the height of the control in unit of points.
+Gets the height of the control in unit of points.
 
 **Returns:**
 double
@@ -177,7 +177,7 @@ public int getIMEMode()
 ```
 
 
-the default run-time mode of the Input Method Editor for the control as it receives focus.
+Gets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -187,7 +187,7 @@ public String getLinkedCell()
 ```
 
 
-the linked cell.
+Gets the linked cell.
 
 **Returns:**
 java.lang.String
@@ -197,7 +197,7 @@ public String getListFillRange()
 ```
 
 
-the list fill range.
+Gets the list fill range.
 
 **Returns:**
 java.lang.String
@@ -207,7 +207,7 @@ public byte[] getMouseIcon()
 ```
 
 
-a custom icon to display as the mouse pointer for the control.
+Gets a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -217,7 +217,7 @@ public int getMousePointer()
 ```
 
 
-the type of icon displayed as the mouse pointer for the control.
+Gets the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -227,7 +227,7 @@ public byte[] getPicture()
 ```
 
 
-the data of the picture.
+Gets the data of the picture.
 
 **Returns:**
 byte[]
@@ -237,7 +237,7 @@ public int getPictureAlignment()
 ```
 
 
-the alignment of the picture inside the Form or Image.
+Gets the alignment of the picture inside the Form or Image.
 
 **Returns:**
 int
@@ -247,7 +247,7 @@ public int getPictureSizeMode()
 ```
 
 
-how to display the picture.
+Gets how to display the picture.
 
 **Returns:**
 int
@@ -267,7 +267,7 @@ public int getSpecialEffect()
 ```
 
 
-the special effect of the control.
+Gets the special effect of the control.
 
 **Returns:**
 int
@@ -297,7 +297,7 @@ public double getWidth()
 ```
 
 
-the width of the control in unit of points.
+Gets the width of the control in unit of points.
 
 **Returns:**
 double
@@ -403,7 +403,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoSize()](../../com.aspose.cells/imageactivexcontrol\#isAutoSize--)
+Indicates whether the control will automatically resize to display its entire contents.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -416,7 +416,7 @@ public void setBackOleColor(int value)
 ```
 
 
-For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
+Sets the ole color of the background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -429,7 +429,7 @@ public void setBorderOleColor(int value)
 ```
 
 
-For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/imageactivexcontrol\#getBorderOleColor--)
+Sets the ole color of the background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -442,7 +442,7 @@ public void setBorderStyle(int value)
 ```
 
 
-For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/imageactivexcontrol\#getBorderStyle--)
+Sets the type of border used by the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -455,7 +455,7 @@ public void setEnabled(boolean value)
 ```
 
 
-For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--)
+Indicates whether the control can receive the focus and respond to user-generated events.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -468,7 +468,7 @@ public void setForeOleColor(int value)
 ```
 
 
-For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
+Sets the ole color of the foreground. Not applies to Image control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -481,7 +481,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
+Sets the height of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -494,7 +494,7 @@ public void setIMEMode(int value)
 ```
 
 
-For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--)
+Sets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -507,7 +507,7 @@ public void setLinkedCell(String value)
 ```
 
 
-For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
+Sets the linked cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -520,7 +520,7 @@ public void setListFillRange(String value)
 ```
 
 
-For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
+Sets the list fill range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -533,7 +533,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--)
+Indicates whether data in the control is locked for editing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -546,7 +546,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
+Sets a custom icon to display as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -559,7 +559,7 @@ public void setMousePointer(int value)
 ```
 
 
-For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
+Sets the type of icon displayed as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -572,7 +572,7 @@ public void setPicture(byte[] value)
 ```
 
 
-For the description of this property, please see [getPicture()](../../com.aspose.cells/imageactivexcontrol\#getPicture--)
+Sets the data of the picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -585,7 +585,7 @@ public void setPictureAlignment(int value)
 ```
 
 
-For the description of this property, please see [getPictureAlignment()](../../com.aspose.cells/imageactivexcontrol\#getPictureAlignment--)
+Sets the alignment of the picture inside the Form or Image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -598,7 +598,7 @@ public void setPictureSizeMode(int value)
 ```
 
 
-For the description of this property, please see [getPictureSizeMode()](../../com.aspose.cells/imageactivexcontrol\#getPictureSizeMode--)
+Sets how to display the picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -611,7 +611,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
+Indicates whether to show a shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -624,7 +624,7 @@ public void setSpecialEffect(int value)
 ```
 
 
-For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/imageactivexcontrol\#getSpecialEffect--)
+Sets the special effect of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -637,7 +637,7 @@ public void setTextAlign(int value)
 ```
 
 
-For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--)
+Represents how to align the text used by the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -650,7 +650,7 @@ public void setTiled(boolean value)
 ```
 
 
-For the description of this property, please see [isTiled()](../../com.aspose.cells/imageactivexcontrol\#isTiled--)
+Indicates whether the picture is tiled across the background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -663,7 +663,7 @@ public void setTransparent(boolean value)
 ```
 
 
-For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--)
+Indicates whether the control is transparent.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -676,7 +676,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
+Indicates whether this control is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -689,7 +689,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
+Sets the width of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -124,15 +124,15 @@ Workbook excel = new Workbook();
 | [getMaxGroupedColumnOutlineLevel()](#getMaxGroupedColumnOutlineLevel--) | Gets the max grouped column outline level (zero-based). |
 | [getMaxGroupedRowOutlineLevel()](#getMaxGroupedRowOutlineLevel--) | Gets the max grouped row outline level (zero-based). |
 | [getMaxRow()](#getMaxRow--) | Maximum row index of cell which contains data or style. |
-| [getMemorySetting()](#getMemorySetting--) | the memory usage option for this cells. |
+| [getMemorySetting()](#getMemorySetting--) | Gets the memory usage option for this cells. |
 | [getMergedCells()](#getMergedCells--) | Gets the collection of merged cells. |
 | [getMinColumn()](#getMinColumn--) | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
 | [getMinDataColumn()](#getMinDataColumn--) | Minimum column index of cell which contains data |
 | [getMinDataRow()](#getMinDataRow--) | Minimum row index of cell which contains data. |
 | [getMinRow()](#getMinRow--) | Minimum row index of cell which contains data or style. |
-| [getMultiThreadReading()](#getMultiThreadReading--) | whether the cells data model should support Multi-Thread reading. |
+| [getMultiThreadReading()](#getMultiThreadReading--) | Gets whether the cells data model should support Multi-Thread reading. |
 | [getOdsCellFields()](#getOdsCellFields--) | Gets the list of fields of ods. |
-| [getPreserveString()](#getPreserveString--) | a value indicating whether all worksheet values are preserved as strings. |
+| [getPreserveString()](#getPreserveString--) | Gets a value indicating whether all worksheet values are preserved as strings. |
 | [getRanges()](#getRanges--) | Gets the collection of [Range](../../com.aspose.cells/range) objects created at run time. |
 | [getRow(int row)](#getRow-int-) | Gets the [Row](../../com.aspose.cells/row) element or at the specified cell row index. |
 | [getRowEnumerator()](#getRowEnumerator--) | Gets the rows enumerator. |
@@ -141,13 +141,13 @@ Workbook excel = new Workbook();
 | [getRowHeightPixel(int row)](#getRowHeightPixel-int-) | Gets the height of a specified row in unit of pixel. |
 | [getRowOriginalHeightPoint(int row)](#getRowOriginalHeightPoint-int-) | Gets original row's height in unit of point if the row is hidden |
 | [getRows()](#getRows--) | Gets the collection of [Row](../../com.aspose.cells/row) objects that represents the individual rows in this worksheet. |
-| [getStandardHeight()](#getStandardHeight--) | the default row height in this worksheet, in unit of points. |
-| [getStandardHeightInch()](#getStandardHeightInch--) | the default row height in this worksheet, in unit of inches. |
-| [getStandardHeightPixels()](#getStandardHeightPixels--) | the default row height in this worksheet, in unit of pixels. |
-| [getStandardWidth()](#getStandardWidth--) | the default column width in the worksheet, in unit of characters. |
-| [getStandardWidthInch()](#getStandardWidthInch--) | the default column width in the worksheet, in unit of inches. |
-| [getStandardWidthPixels()](#getStandardWidthPixels--) | the default column width in the worksheet, in unit of pixels. |
-| [getStyle()](#getStyle--) | the default style. |
+| [getStandardHeight()](#getStandardHeight--) | Gets the default row height in this worksheet, in unit of points. |
+| [getStandardHeightInch()](#getStandardHeightInch--) | Gets the default row height in this worksheet, in unit of inches. |
+| [getStandardHeightPixels()](#getStandardHeightPixels--) | Gets the default row height in this worksheet, in unit of pixels. |
+| [getStandardWidth()](#getStandardWidth--) | Gets the default column width in the worksheet, in unit of characters. |
+| [getStandardWidthInch()](#getStandardWidthInch--) | Gets the default column width in the worksheet, in unit of inches. |
+| [getStandardWidthPixels()](#getStandardWidthPixels--) | Gets the default column width in the worksheet, in unit of pixels. |
+| [getStyle()](#getStyle--) | Gets the default style. |
 | [getViewColumnWidthPixel(int column)](#getViewColumnWidthPixel-int-) | Get the width in different view type. |
 | [getViewRowHeight(int row)](#getViewRowHeight-int-) | Gets the height of a specified row. |
 | [getViewRowHeightInch(int row)](#getViewRowHeightInch-int-) | Gets the height of a specified row in unit of inches. |
@@ -224,21 +224,21 @@ Workbook excel = new Workbook();
 | [setColumnWidth(int column, double width)](#setColumnWidth-int-double-) | Sets the width of the specified column in normal view. |
 | [setColumnWidthInch(int column, double inches)](#setColumnWidthInch-int-double-) | Sets column width in unit of inches in normal view. |
 | [setColumnWidthPixel(int column, int pixels)](#setColumnWidthPixel-int-int-) | Sets column width in unit of pixels in normal view. |
-| [setDefaultRowHeightMatched(boolean value)](#setDefaultRowHeightMatched-boolean-) | For the description of this property, please see [isDefaultRowHeightMatched()](../../com.aspose.cells/cells\#isDefaultRowHeightMatched--) |
-| [setDefaultRowHidden(boolean value)](#setDefaultRowHidden-boolean-) | For the description of this property, please see [isDefaultRowHidden()](../../com.aspose.cells/cells\#isDefaultRowHidden--) |
-| [setMemorySetting(int value)](#setMemorySetting-int-) | For the description of this property, please see [getMemorySetting()](../../com.aspose.cells/cells\#getMemorySetting--) |
-| [setMultiThreadReading(boolean value)](#setMultiThreadReading-boolean-) | For the description of this property, please see [getMultiThreadReading()](../../com.aspose.cells/cells\#getMultiThreadReading--) |
-| [setPreserveString(boolean value)](#setPreserveString-boolean-) | For the description of this property, please see [getPreserveString()](../../com.aspose.cells/cells\#getPreserveString--) |
+| [setDefaultRowHeightMatched(boolean value)](#setDefaultRowHeightMatched-boolean-) | Indicates that row height and default font height matches |
+| [setDefaultRowHidden(boolean value)](#setDefaultRowHidden-boolean-) | Indicates whether the row is default hidden. |
+| [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage option for this cells. |
+| [setMultiThreadReading(boolean value)](#setMultiThreadReading-boolean-) | Sets whether the cells data model should support Multi-Thread reading. |
+| [setPreserveString(boolean value)](#setPreserveString-boolean-) | Sets a value indicating whether all worksheet values are preserved as strings. |
 | [setRowHeight(int row, double height)](#setRowHeight-int-double-) | Sets the height of the specified row. |
 | [setRowHeightInch(int row, double inches)](#setRowHeightInch-int-double-) | Sets row height in unit of inches. |
 | [setRowHeightPixel(int row, int pixels)](#setRowHeightPixel-int-int-) | Sets row height in unit of pixels. |
-| [setStandardHeight(double value)](#setStandardHeight-double-) | For the description of this property, please see [getStandardHeight()](../../com.aspose.cells/cells\#getStandardHeight--) |
-| [setStandardHeightInch(double value)](#setStandardHeightInch-double-) | For the description of this property, please see [getStandardHeightInch()](../../com.aspose.cells/cells\#getStandardHeightInch--) |
-| [setStandardHeightPixels(int value)](#setStandardHeightPixels-int-) | For the description of this property, please see [getStandardHeightPixels()](../../com.aspose.cells/cells\#getStandardHeightPixels--) |
-| [setStandardWidth(double value)](#setStandardWidth-double-) | For the description of this property, please see [getStandardWidth()](../../com.aspose.cells/cells\#getStandardWidth--) |
-| [setStandardWidthInch(double value)](#setStandardWidthInch-double-) | For the description of this property, please see [getStandardWidthInch()](../../com.aspose.cells/cells\#getStandardWidthInch--) |
-| [setStandardWidthPixels(int value)](#setStandardWidthPixels-int-) | For the description of this property, please see [getStandardWidthPixels()](../../com.aspose.cells/cells\#getStandardWidthPixels--) |
-| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | For the description of this property, please see [getStyle()](../../com.aspose.cells/cells\#getStyle--) |
+| [setStandardHeight(double value)](#setStandardHeight-double-) | Sets the default row height in this worksheet, in unit of points. |
+| [setStandardHeightInch(double value)](#setStandardHeightInch-double-) | Sets the default row height in this worksheet, in unit of inches. |
+| [setStandardHeightPixels(int value)](#setStandardHeightPixels-int-) | Sets the default row height in this worksheet, in unit of pixels. |
+| [setStandardWidth(double value)](#setStandardWidth-double-) | Sets the default column width in the worksheet, in unit of characters. |
+| [setStandardWidthInch(double value)](#setStandardWidthInch-double-) | Sets the default column width in the worksheet, in unit of inches. |
+| [setStandardWidthPixels(int value)](#setStandardWidthPixels-int-) | Sets the default column width in the worksheet, in unit of pixels. |
+| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | Sets the default style. |
 | [setViewColumnWidthPixel(int column, int pixels)](#setViewColumnWidthPixel-int-int-) | Sets the width of the column in different view. |
 | [showGroupDetail(boolean isVertical, int index)](#showGroupDetail-boolean-int-) | Expands the grouped rows/columns. |
 | [subtotal(CellArea ca, int groupBy, int function, int[] totalList)](#subtotal-com.aspose.cells.CellArea-int-int-int---) | Creates subtotals for the range. |
@@ -1369,7 +1369,7 @@ public int getMemorySetting()
 ```
 
 
-the memory usage option for this cells.
+Gets the memory usage option for this cells.
 
 **Returns:**
 int
@@ -1429,7 +1429,7 @@ public boolean getMultiThreadReading()
 ```
 
 
-whether the cells data model should support Multi-Thread reading. Default value of this property is false. If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--), [Cell.getDisplayStringValue()](../../com.aspose.cells/cell\#getDisplayStringValue--), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
+Gets whether the cells data model should support Multi-Thread reading. Default value of this property is false. If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--), [Cell.getDisplayStringValue()](../../com.aspose.cells/cell\#getDisplayStringValue--), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
 
 **Returns:**
 boolean
@@ -1449,7 +1449,7 @@ public boolean getPreserveString()
 ```
 
 
-a value indicating whether all worksheet values are preserved as strings. Default is false.
+Gets a value indicating whether all worksheet values are preserved as strings. Default is false.
 
 **Returns:**
 boolean
@@ -1564,7 +1564,7 @@ public double getStandardHeight()
 ```
 
 
-the default row height in this worksheet, in unit of points.
+Gets the default row height in this worksheet, in unit of points.
 
 **Returns:**
 double
@@ -1574,7 +1574,7 @@ public double getStandardHeightInch()
 ```
 
 
-the default row height in this worksheet, in unit of inches.
+Gets the default row height in this worksheet, in unit of inches.
 
 **Returns:**
 double
@@ -1584,7 +1584,7 @@ public int getStandardHeightPixels()
 ```
 
 
-the default row height in this worksheet, in unit of pixels.
+Gets the default row height in this worksheet, in unit of pixels.
 
 **Returns:**
 int
@@ -1594,7 +1594,7 @@ public double getStandardWidth()
 ```
 
 
-the default column width in the worksheet, in unit of characters.
+Gets the default column width in the worksheet, in unit of characters.
 
 **Returns:**
 double
@@ -1604,7 +1604,7 @@ public double getStandardWidthInch()
 ```
 
 
-the default column width in the worksheet, in unit of inches.
+Gets the default column width in the worksheet, in unit of inches.
 
 **Returns:**
 double
@@ -1614,7 +1614,7 @@ public int getStandardWidthPixels()
 ```
 
 
-the default column width in the worksheet, in unit of pixels.
+Gets the default column width in the worksheet, in unit of pixels.
 
 **Returns:**
 int
@@ -1624,7 +1624,7 @@ public Style getStyle()
 ```
 
 
-the default style.
+Gets the default style.
 
 **Returns:**
 [Style](../../com.aspose.cells/style)
@@ -2798,7 +2798,7 @@ public void setDefaultRowHeightMatched(boolean value)
 ```
 
 
-For the description of this property, please see [isDefaultRowHeightMatched()](../../com.aspose.cells/cells\#isDefaultRowHeightMatched--)
+Indicates that row height and default font height matches
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2811,7 +2811,7 @@ public void setDefaultRowHidden(boolean value)
 ```
 
 
-For the description of this property, please see [isDefaultRowHidden()](../../com.aspose.cells/cells\#isDefaultRowHidden--)
+Indicates whether the row is default hidden.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2824,7 +2824,7 @@ public void setMemorySetting(int value)
 ```
 
 
-For the description of this property, please see [getMemorySetting()](../../com.aspose.cells/cells\#getMemorySetting--)
+Sets the memory usage option for this cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2837,7 +2837,7 @@ public void setMultiThreadReading(boolean value)
 ```
 
 
-For the description of this property, please see [getMultiThreadReading()](../../com.aspose.cells/cells\#getMultiThreadReading--)
+Sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--), [Cell.getDisplayStringValue()](../../com.aspose.cells/cell\#getDisplayStringValue--), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2850,7 +2850,7 @@ public void setPreserveString(boolean value)
 ```
 
 
-For the description of this property, please see [getPreserveString()](../../com.aspose.cells/cells\#getPreserveString--)
+Sets a value indicating whether all worksheet values are preserved as strings. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2905,7 +2905,7 @@ public void setStandardHeight(double value)
 ```
 
 
-For the description of this property, please see [getStandardHeight()](../../com.aspose.cells/cells\#getStandardHeight--)
+Sets the default row height in this worksheet, in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2918,7 +2918,7 @@ public void setStandardHeightInch(double value)
 ```
 
 
-For the description of this property, please see [getStandardHeightInch()](../../com.aspose.cells/cells\#getStandardHeightInch--)
+Sets the default row height in this worksheet, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2931,7 +2931,7 @@ public void setStandardHeightPixels(int value)
 ```
 
 
-For the description of this property, please see [getStandardHeightPixels()](../../com.aspose.cells/cells\#getStandardHeightPixels--)
+Sets the default row height in this worksheet, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2944,7 +2944,7 @@ public void setStandardWidth(double value)
 ```
 
 
-For the description of this property, please see [getStandardWidth()](../../com.aspose.cells/cells\#getStandardWidth--)
+Sets the default column width in the worksheet, in unit of characters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2957,7 +2957,7 @@ public void setStandardWidthInch(double value)
 ```
 
 
-For the description of this property, please see [getStandardWidthInch()](../../com.aspose.cells/cells\#getStandardWidthInch--)
+Sets the default column width in the worksheet, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2970,7 +2970,7 @@ public void setStandardWidthPixels(int value)
 ```
 
 
-For the description of this property, please see [getStandardWidthPixels()](../../com.aspose.cells/cells\#getStandardWidthPixels--)
+Sets the default column width in the worksheet, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2983,7 +2983,7 @@ public void setStyle(Style value)
 ```
 
 
-For the description of this property, please see [getStyle()](../../com.aspose.cells/cells\#getStyle--)
+Sets the default style.
 
 **Parameters:**
 | Parameter | Type | Description |

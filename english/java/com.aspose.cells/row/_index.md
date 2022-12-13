@@ -63,7 +63,7 @@ Represents a single row in a worksheet.
 | [getFirstCell()](#getFirstCell--) | Gets the first cell object in the row. |
 | [getFirstDataCell()](#getFirstDataCell--) | Gets the first non-blank cell in the row. |
 | [getGroupLevel()](#getGroupLevel--) | Gets the group level of the row. |
-| [getHeight()](#getHeight--) | the row height in unit of Points. |
+| [getHeight()](#getHeight--) | Gets the row height in unit of Points. |
 | [getIndex()](#getIndex--) | Gets the index of this row. |
 | [getLastCell()](#getLastCell--) | Gets the last cell object in the row. |
 | [getLastDataCell()](#getLastDataCell--) | Gets the last non-blank cell in the row. |
@@ -76,10 +76,10 @@ Represents a single row in a worksheet.
 | [iterator()](#iterator--) | Gets the cells enumerator |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCollapsed(boolean value)](#setCollapsed-boolean-) | For the description of this property, please see [isCollapsed()](../../com.aspose.cells/row\#isCollapsed--) |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/row\#getHeight--) |
-| [setHeightMatched(boolean value)](#setHeightMatched-boolean-) | For the description of this property, please see [isHeightMatched()](../../com.aspose.cells/row\#isHeightMatched--) |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.cells/row\#isHidden--) |
+| [setCollapsed(boolean value)](#setCollapsed-boolean-) | whether the row is collapsed |
+| [setHeight(double value)](#setHeight-double-) | Sets the row height in unit of Points. |
+| [setHeightMatched(boolean value)](#setHeightMatched-boolean-) | Indicates that row height and default font height matches. |
+| [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the row is hidden. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -233,7 +233,7 @@ public double getHeight()
 ```
 
 
-the row height in unit of Points.
+Gets the row height in unit of Points.
 
 **Returns:**
 double
@@ -371,7 +371,7 @@ public void setCollapsed(boolean value)
 ```
 
 
-For the description of this property, please see [isCollapsed()](../../com.aspose.cells/row\#isCollapsed--)
+whether the row is collapsed
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -384,7 +384,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/row\#getHeight--)
+Sets the row height in unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -397,7 +397,7 @@ public void setHeightMatched(boolean value)
 ```
 
 
-For the description of this property, please see [isHeightMatched()](../../com.aspose.cells/row\#isHeightMatched--)
+Indicates that row height and default font height matches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -410,7 +410,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see [isHidden()](../../com.aspose.cells/row\#isHidden--)
+Indicates whether the row is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |

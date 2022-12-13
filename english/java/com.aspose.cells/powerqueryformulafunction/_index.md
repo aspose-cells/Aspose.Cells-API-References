@@ -19,15 +19,15 @@ Represents the function of power query.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getF()](#getF--) | the definition of function. |
+| [getF()](#getF--) | Gets the definition of function. |
 | [getFormulaDefinition()](#getFormulaDefinition--) | Gets the definition of the power query formula. |
-| [getName()](#getName--) | the name of the power query formula. |
+| [getName()](#getName--) | Gets the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--) | Gets all items of power query formula. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setF(String value)](#setF-java.lang.String-) | For the description of this property, please see [getF()](../../com.aspose.cells/powerqueryformulafunction\#getF--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformula\#getName--) |
+| [setF(String value)](#setF-java.lang.String-) | Sets the definition of function. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the power query formula. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -63,7 +63,7 @@ public String getF()
 ```
 
 
-the definition of function.
+Gets the definition of function.
 
 **Returns:**
 java.lang.String
@@ -83,7 +83,7 @@ public String getName()
 ```
 
 
-the name of the power query formula.
+Gets the name of the power query formula.
 
 **Returns:**
 java.lang.String
@@ -129,7 +129,7 @@ public void setF(String value)
 ```
 
 
-For the description of this property, please see [getF()](../../com.aspose.cells/powerqueryformulafunction\#getF--)
+Sets the definition of function.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -142,7 +142,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformula\#getName--)
+Sets the name of the power query formula.
 
 **Parameters:**
 | Parameter | Type | Description |

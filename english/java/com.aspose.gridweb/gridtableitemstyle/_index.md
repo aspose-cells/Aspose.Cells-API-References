@@ -61,28 +61,28 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
 | [getBackImageUrl()](#getBackImageUrl--) | Background image url. |
 | [getBottomBorderStyle()](#getBottomBorderStyle--) | Specifies the style of the cell's bottom border. |
 | [getClass()](#getClass--) |  |
-| [getCustom()](#getCustom--) | the custom format, null or empty string means no custom format. |
-| [getIndentLevel()](#getIndentLevel--) | indent level. |
+| [getCustom()](#getCustom--) | Gets the custom format, null or empty string means no custom format. |
+| [getIndentLevel()](#getIndentLevel--) | Gets indent level. |
 | [getLeftBorderStyle()](#getLeftBorderStyle--) | Specifies the style of the cell's left border. |
-| [getNumberType()](#getNumberType--) | the display format of numbers and dates |
+| [getNumberType()](#getNumberType--) | Gets the display format of numbers and dates |
 | [getRightBorderStyle()](#getRightBorderStyle--) | Specifies the style of the cell's right border. |
-| [getRotationAngle()](#getRotationAngle--) | Rotation attribute. |
+| [getRotationAngle()](#getRotationAngle--) | Visual filters. |
 | [getTopBorderStyle()](#getTopBorderStyle--) | Specifies the style of the cell's top border. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
-| [isLocked()](#isLocked--) | a value indicating whether a cell can be modified or not when its worksheet is protected. |
+| [isLocked()](#isLocked--) | Gets a value indicating whether a cell can be modified or not when its worksheet is protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackImageAttributes(String value)](#setBackImageAttributes-java.lang.String-) | For the description of this property, please see [getBackImageAttributes()](../../com.aspose.gridweb/gridtableitemstyle\#getBackImageAttributes--) |
-| [setBackImageUrl(String value)](#setBackImageUrl-java.lang.String-) | For the description of this property, please see [getBackImageUrl()](../../com.aspose.gridweb/gridtableitemstyle\#getBackImageUrl--) |
-| [setBottomBorderStyle(WebBorderStyle value)](#setBottomBorderStyle-com.aspose.gridweb.WebBorderStyle-) | For the description of this property, please see [getBottomBorderStyle()](../../com.aspose.gridweb/gridtableitemstyle\#getBottomBorderStyle--) |
-| [setCustom(String value)](#setCustom-java.lang.String-) | For the description of this property, please see [getCustom()](../../com.aspose.gridweb/gridtableitemstyle\#getCustom--) |
-| [setIndentLevel(int value)](#setIndentLevel-int-) | For the description of this property, please see [getIndentLevel()](../../com.aspose.gridweb/gridtableitemstyle\#getIndentLevel--) |
-| [setLeftBorderStyle(WebBorderStyle value)](#setLeftBorderStyle-com.aspose.gridweb.WebBorderStyle-) | For the description of this property, please see [getLeftBorderStyle()](../../com.aspose.gridweb/gridtableitemstyle\#getLeftBorderStyle--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.gridweb/gridtableitemstyle\#isLocked--) |
-| [setNumberType(int value)](#setNumberType-int-) | For the description of this property, please see [getNumberType()](../../com.aspose.gridweb/gridtableitemstyle\#getNumberType--) |
-| [setRightBorderStyle(WebBorderStyle value)](#setRightBorderStyle-com.aspose.gridweb.WebBorderStyle-) | For the description of this property, please see [getRightBorderStyle()](../../com.aspose.gridweb/gridtableitemstyle\#getRightBorderStyle--) |
-| [setRotationAngle(short value)](#setRotationAngle-short-) | For the description of this property, please see [getRotationAngle()](../../com.aspose.gridweb/gridtableitemstyle\#getRotationAngle--) |
-| [setTopBorderStyle(WebBorderStyle value)](#setTopBorderStyle-com.aspose.gridweb.WebBorderStyle-) | For the description of this property, please see [getTopBorderStyle()](../../com.aspose.gridweb/gridtableitemstyle\#getTopBorderStyle--) |
+| [setBackImageAttributes(String value)](#setBackImageAttributes-java.lang.String-) | Background image attributes. |
+| [setBackImageUrl(String value)](#setBackImageUrl-java.lang.String-) | Background image url. |
+| [setBottomBorderStyle(WebBorderStyle value)](#setBottomBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's bottom border. |
+| [setCustom(String value)](#setCustom-java.lang.String-) | Sets the custom format, null or empty string means no custom format. |
+| [setIndentLevel(int value)](#setIndentLevel-int-) | Sets indent level. |
+| [setLeftBorderStyle(WebBorderStyle value)](#setLeftBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's left border. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Sets a value indicating whether a cell can be modified or not when its worksheet is protected. |
+| [setNumberType(int value)](#setNumberType-int-) | Sets the display format of numbers and dates |
+| [setRightBorderStyle(WebBorderStyle value)](#setRightBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's right border. |
+| [setRotationAngle(short value)](#setRotationAngle-short-) | Visual filters. |
+| [setTopBorderStyle(WebBorderStyle value)](#setTopBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's top border. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -156,7 +156,7 @@ public String getCustom()
 ```
 
 
-the custom format, null or empty string means no custom format.
+Gets the custom format, null or empty string means no custom format.
 
 **Returns:**
 java.lang.String
@@ -166,7 +166,7 @@ public int getIndentLevel()
 ```
 
 
-indent level.
+Gets indent level.
 
 **Returns:**
 int
@@ -186,7 +186,7 @@ public int getNumberType()
 ```
 
 
-the display format of numbers and dates. ///
+Gets the display format of numbers and dates. ///
 
     | --------- | ---------- | -------------------------------------------------------------------- |
     | **Value** | **Type**   | **Format String**                                                    |
@@ -245,17 +245,7 @@ public short getRotationAngle()
 ```
 
 
-Rotation attribute.
-
-0: Not rotated.
-
-255: Top to Bottom.
-
-\-90: Downward.
-
-90: Upward.
-
-You can set 255 or value ranged from -90 to 90.
+Visual filters.
 
 **Returns:**
 short
@@ -285,7 +275,7 @@ public boolean isLocked()
 ```
 
 
-a value indicating whether a cell can be modified or not when its worksheet is protected. When its worksheet is protected and IsLocked is true, the cell can not be edit. When its worksheet is protected and IsLocked is false, the cell can be edit.
+Gets a value indicating whether a cell can be modified or not when its worksheet is protected. When its worksheet is protected and IsLocked is true, the cell can not be edit. When its worksheet is protected and IsLocked is false, the cell can be edit.
 
 **Returns:**
 boolean
@@ -311,7 +301,7 @@ public void setBackImageAttributes(String value)
 ```
 
 
-For the description of this property, please see [getBackImageAttributes()](../../com.aspose.gridweb/gridtableitemstyle\#getBackImageAttributes--)
+Background image attributes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -324,7 +314,7 @@ public void setBackImageUrl(String value)
 ```
 
 
-For the description of this property, please see [getBackImageUrl()](../../com.aspose.gridweb/gridtableitemstyle\#getBackImageUrl--)
+Background image url.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -337,7 +327,7 @@ public void setBottomBorderStyle(WebBorderStyle value)
 ```
 
 
-For the description of this property, please see [getBottomBorderStyle()](../../com.aspose.gridweb/gridtableitemstyle\#getBottomBorderStyle--)
+Specifies the style of the cell's bottom border.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -350,7 +340,7 @@ public void setCustom(String value)
 ```
 
 
-For the description of this property, please see [getCustom()](../../com.aspose.gridweb/gridtableitemstyle\#getCustom--)
+Sets the custom format, null or empty string means no custom format.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -363,7 +353,7 @@ public void setIndentLevel(int value)
 ```
 
 
-For the description of this property, please see [getIndentLevel()](../../com.aspose.gridweb/gridtableitemstyle\#getIndentLevel--)
+Sets indent level.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -376,7 +366,7 @@ public void setLeftBorderStyle(WebBorderStyle value)
 ```
 
 
-For the description of this property, please see [getLeftBorderStyle()](../../com.aspose.gridweb/gridtableitemstyle\#getLeftBorderStyle--)
+Specifies the style of the cell's left border.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -389,7 +379,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.gridweb/gridtableitemstyle\#isLocked--)
+Sets a value indicating whether a cell can be modified or not when its worksheet is protected. When its worksheet is protected and IsLocked is true, the cell can not be edit. When its worksheet is protected and IsLocked is false, the cell can be edit.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -402,7 +392,46 @@ public void setNumberType(int value)
 ```
 
 
-For the description of this property, please see [getNumberType()](../../com.aspose.gridweb/gridtableitemstyle\#getNumberType--)
+Sets the display format of numbers and dates. ///
+
+    | --------- | ---------- | -------------------------------------------------------------------- |
+    | **Value** | **Type**   | **Format String**                                                    |
+    | 0         | General    | General                                                              |
+    | 1         | Decimal    | 0                                                                    |
+    | 2         | Decimal    | 0.00                                                                 |
+    | 3         | Decimal    | \#,\#\#0                                                             |
+    | 4         | Decimal    | \#,\#\#0.00                                                          |
+    | 5         | Currency   | $\#,\#\#0;($\#,\#\#0)                                                |
+    | 6         | Currency   | $\#,\#\#0;[Red](../$\#,\#\#0)                                         |
+    | 7         | Currency   | $\#,\#\#0.00;($\#,\#\#0.00)                                          |
+    | 8         | Currency   | $\#,\#\#0.00;[Red](../$\#,\#\#0.00)                                   |
+    | 9         | Percentage | 0%                                                                   |
+    | 10        | Percentage | 0.00%                                                                |
+    | 11        | Scientific | 0.00E+00                                                             |
+    | 12        | Fraction   | \# ?/?                                                               |
+    | 13        | Fraction   | \# ??/??                                                             |
+    | 14        | Date       | m/d/yyyy                                                             |
+    | 15        | Date       | d-mmm-yy                                                             |
+    | 16        | Date       | d-mmm                                                                |
+    | 17        | Date       | mmm-yy                                                               |
+    | 18        | Time       | h:mm AM/PM                                                           |
+    | 19        | Time       | h:mm:ss AM/PM                                                        |
+    | 20        | Time       | h:mm                                                                 |
+    | 21        | Time       | h:mm:ss                                                              |
+    | 22        | Time       | m/d/yyyy h:mm                                                        |
+    | 37        | Accounting | \#,\#\#0;(\#,\#\#0)                                                  |
+    | 38        | Accounting | \#,\#\#0;[Red](../\#,\#\#0)                                           |
+    | 39        | Accounting | \#,\#\#0.00;(\#,\#\#0.00)                                            |
+    | 40        | Accounting | \#,\#\#0.00;[Red](../\#,\#\#0.00)                                     |
+    | 41        | Accounting | \_ \* \#,\#\#0\_ ;\_ \* (\#,\#\#0)\_ ;\_ \* "-"\_ ;\_ @\_            |
+    | 42        | Currency   | \_ $\* \#,\#\#0\_ ;\_ $\* (\#,\#\#0)\_ ;\_ $\* "-"\_ ;\_ @\_         |
+    | 43        | Accounting | \_ \* \#,\#\#0.00\_ ;\_ \* (\#,\#\#0.00)\_ ;\_ \* "-"??\_ ;\_ @\_    |
+    | 44        | Currency   | \_ $\* \#,\#\#0.00\_ ;\_ $\* (\#,\#\#0.00)\_ ;\_ $\* "-"??\_ ;\_ @\_ |
+    | 45        | Time       | mm:ss                                                                |
+    | 46        | Time       | [h]:mm:ss                                                          |
+    | 47        | Time       | mm:ss.0                                                              |
+    | 48        | Scientific | \#\#0.0E+00                                                          |
+    | 49        | Text       | @                                                                    |
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -415,7 +444,7 @@ public void setRightBorderStyle(WebBorderStyle value)
 ```
 
 
-For the description of this property, please see [getRightBorderStyle()](../../com.aspose.gridweb/gridtableitemstyle\#getRightBorderStyle--)
+Specifies the style of the cell's right border.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -428,7 +457,7 @@ public void setRotationAngle(short value)
 ```
 
 
-For the description of this property, please see [getRotationAngle()](../../com.aspose.gridweb/gridtableitemstyle\#getRotationAngle--)
+Visual filters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -441,7 +470,7 @@ public void setTopBorderStyle(WebBorderStyle value)
 ```
 
 
-For the description of this property, please see [getTopBorderStyle()](../../com.aspose.gridweb/gridtableitemstyle\#getTopBorderStyle--)
+Specifies the style of the cell's top border.
 
 **Parameters:**
 | Parameter | Type | Description |

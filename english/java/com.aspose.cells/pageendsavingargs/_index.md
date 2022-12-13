@@ -21,11 +21,11 @@ Info for a page ends saving process.
 | [getClass()](#getClass--) |  |
 | [getPageCount()](#getPageCount--) | Total page count. |
 | [getPageIndex()](#getPageIndex--) | Current page index, zero based. |
-| [hasMorePages()](#hasMorePages--) | a value indicating whether having more pages to be output. |
+| [hasMorePages()](#hasMorePages--) | Gets a value indicating whether having more pages to be output. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHasMorePages(boolean value)](#setHasMorePages-boolean-) | For the description of this property, please see [hasMorePages()](../../com.aspose.cells/pageendsavingargs\#hasMorePages--) |
+| [setHasMorePages(boolean value)](#setHasMorePages-boolean-) | Sets a value indicating whether having more pages to be output. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -81,7 +81,7 @@ public boolean hasMorePages()
 ```
 
 
-a value indicating whether having more pages to be output. The default value is true.
+Gets a value indicating whether having more pages to be output. The default value is true.
 
 **Returns:**
 boolean
@@ -117,7 +117,7 @@ public void setHasMorePages(boolean value)
 ```
 
 
-For the description of this property, please see [hasMorePages()](../../com.aspose.cells/pageendsavingargs\#hasMorePages--)
+Sets a value indicating whether having more pages to be output. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

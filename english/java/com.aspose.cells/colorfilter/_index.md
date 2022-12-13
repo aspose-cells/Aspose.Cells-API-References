@@ -24,7 +24,7 @@ Represents the color filter.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFilterByFillColor(boolean value)](#setFilterByFillColor-boolean-) | For the description of this property, please see [getFilterByFillColor()](../../com.aspose.cells/colorfilter\#getFilterByFillColor--) |
+| [setFilterByFillColor(boolean value)](#setFilterByFillColor-boolean-) | Flag indicating whether filter by the cell's fill color. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -111,7 +111,7 @@ public void setFilterByFillColor(boolean value)
 ```
 
 
-For the description of this property, please see [getFilterByFillColor()](../../com.aspose.cells/colorfilter\#getFilterByFillColor--)
+Flag indicating whether filter by the cell's fill color.
 
 **Parameters:**
 | Parameter | Type | Description |

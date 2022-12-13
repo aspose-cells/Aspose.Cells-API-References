@@ -21,14 +21,14 @@ Represents a smart tag.
 | [getClass()](#getClass--) |  |
 | [getDeleted()](#getDeleted--) | Indicates whether the smart tag is deleted. |
 | [getName()](#getName--) | Gets the name of the smart tag. |
-| [getProperties()](#getProperties--) | the properties of the smart tag. |
+| [getProperties()](#getProperties--) | Gets the properties of the smart tag. |
 | [getUri()](#getUri--) | Gets the namespace URI of the smart tag. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see [getDeleted()](../../com.aspose.cells/smarttag\#getDeleted--) |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether the smart tag is deleted. |
 | [setLink(String uri, String name)](#setLink-java.lang.String-java.lang.String-) | Change the name and the namespace URI of the smart tag. |
-| [setProperties(SmartTagPropertyCollection value)](#setProperties-com.aspose.cells.SmartTagPropertyCollection-) | For the description of this property, please see [getProperties()](../../com.aspose.cells/smarttag\#getProperties--) |
+| [setProperties(SmartTagPropertyCollection value)](#setProperties-com.aspose.cells.SmartTagPropertyCollection-) | Sets the properties of the smart tag. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -84,7 +84,7 @@ public SmartTagPropertyCollection getProperties()
 ```
 
 
-the properties of the smart tag.
+Gets the properties of the smart tag.
 
 **Returns:**
 [SmartTagPropertyCollection](../../com.aspose.cells/smarttagpropertycollection)
@@ -130,7 +130,7 @@ public void setDeleted(boolean value)
 ```
 
 
-For the description of this property, please see [getDeleted()](../../com.aspose.cells/smarttag\#getDeleted--)
+Indicates whether the smart tag is deleted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setProperties(SmartTagPropertyCollection value)
 ```
 
 
-For the description of this property, please see [getProperties()](../../com.aspose.cells/smarttag\#getProperties--)
+Sets the properties of the smart tag.
 
 **Parameters:**
 | Parameter | Type | Description |

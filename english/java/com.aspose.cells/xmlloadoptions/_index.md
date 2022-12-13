@@ -26,57 +26,57 @@ Represents the options of loading xml.
 | [containsMultipleWorksheets()](#containsMultipleWorksheets--) | Indicates whether importing xml as multiple worksheets. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoFilter()](#getAutoFilter--) | Indicates whether auto filtering the data when loading the files. |
-| [getAutoFitterOptions()](#getAutoFitterOptions--) | the auto fitter options Only for xlsx ,spreadsheetML file now. |
+| [getAutoFitterOptions()](#getAutoFitterOptions--) | Gets the auto fitter options Only for xlsx ,spreadsheetML file now. |
 | [getCheckDataValid()](#getCheckDataValid--) | Check whether data is valid in the template file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the default style settings for initializing styles of the workbook |
-| [getFontConfigs()](#getFontConfigs--) | individual font configs. |
+| [getFontConfigs()](#getFontConfigs--) | Gets individual font configs. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
-| [getInterruptMonitor()](#getInterruptMonitor--) | the interrupt monitor. |
+| [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
 | [getKeepUnparsedData()](#getKeepUnparsedData--) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
-| [getLanguageCode()](#getLanguageCode--) | the user interface language of the Workbook version based on CountryCode that has saved the file. |
+| [getLanguageCode()](#getLanguageCode--) | Gets the user interface language of the Workbook version based on CountryCode that has saved the file. |
 | [getLightCellsDataHandler()](#getLightCellsDataHandler--) | The data handler for processing cells data when reading template file. |
 | [getLoadFilter()](#getLoadFilter--) | The filter to denote how to load data. |
 | [getLoadFormat()](#getLoadFormat--) | Gets the load format. |
-| [getLocale()](#getLocale--) | the Locale used for workbook at the time the file was loaded. |
-| [getMemorySetting()](#getMemorySetting--) | the memory usage options. |
+| [getLocale()](#getLocale--) | Gets the Locale used for workbook at the time the file was loaded. |
+| [getMemorySetting()](#getMemorySetting--) | Gets the memory usage options. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
-| [getPassword()](#getPassword--) | the password of the workbook. |
-| [getRegion()](#getRegion--) | the system regional settings based on CountryCode at the time the file was loaded. |
+| [getPassword()](#getPassword--) | Gets the password of the workbook. |
+| [getRegion()](#getRegion--) | Gets the system regional settings based on CountryCode at the time the file was loaded. |
 | [getStandardFont()](#getStandardFont--) | Sets the default standard font name NOTE: This member is now obsolete. |
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
-| [getStartCell()](#getStartCell--) | the start cell. |
-| [getWarningCallback()](#getWarningCallback--) | warning callback. |
+| [getStartCell()](#getStartCell--) | Gets the start cell. |
+| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isXmlMap()](#isXmlMap--) | Indicates whether mapping xml to Excel. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoFilter(boolean value)](#setAutoFilter-boolean-) | For the description of this property, please see [getAutoFilter()](../../com.aspose.cells/loadoptions\#getAutoFilter--) |
-| [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | For the description of this property, please see [getAutoFitterOptions()](../../com.aspose.cells/loadoptions\#getAutoFitterOptions--) |
-| [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | For the description of this property, please see [getCheckDataValid()](../../com.aspose.cells/loadoptions\#getCheckDataValid--) |
-| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | For the description of this property, please see [getCheckExcelRestriction()](../../com.aspose.cells/loadoptions\#getCheckExcelRestriction--) |
-| [setContainsMultipleWorksheets(boolean value)](#setContainsMultipleWorksheets-boolean-) | For the description of this property, please see [containsMultipleWorksheets()](../../com.aspose.cells/xmlloadoptions\#containsMultipleWorksheets--) |
-| [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | For the description of this property, please see [getFontConfigs()](../../com.aspose.cells/loadoptions\#getFontConfigs--) |
-| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | For the description of this property, please see [getIgnoreNotPrinted()](../../com.aspose.cells/loadoptions\#getIgnoreNotPrinted--) |
-| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | For the description of this property, please see [getInterruptMonitor()](../../com.aspose.cells/loadoptions\#getInterruptMonitor--) |
-| [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | For the description of this property, please see [getKeepUnparsedData()](../../com.aspose.cells/loadoptions\#getKeepUnparsedData--) |
-| [setLanguageCode(int value)](#setLanguageCode-int-) | For the description of this property, please see [getLanguageCode()](../../com.aspose.cells/loadoptions\#getLanguageCode--) |
-| [setLightCellsDataHandler(LightCellsDataHandler value)](#setLightCellsDataHandler-com.aspose.cells.LightCellsDataHandler-) | For the description of this property, please see [getLightCellsDataHandler()](../../com.aspose.cells/loadoptions\#getLightCellsDataHandler--) |
-| [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | For the description of this property, please see [getLoadFilter()](../../com.aspose.cells/loadoptions\#getLoadFilter--) |
-| [setLocale(Locale value)](#setLocale-java.util.Locale-) | For the description of this property, please see [getLocale()](../../com.aspose.cells/loadoptions\#getLocale--) |
-| [setMemorySetting(int value)](#setMemorySetting-int-) | For the description of this property, please see [getMemorySetting()](../../com.aspose.cells/loadoptions\#getMemorySetting--) |
+| [setAutoFilter(boolean value)](#setAutoFilter-boolean-) | Indicates whether auto filtering the data when loading the files. |
+| [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | Sets the auto fitter options Only for xlsx ,spreadsheetML file now. |
+| [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | Check whether data is valid in the template file. |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
+| [setContainsMultipleWorksheets(boolean value)](#setContainsMultipleWorksheets-boolean-) | Indicates whether importing xml as multiple worksheets. |
+| [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
+| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Sets the interrupt monitor. |
+| [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
+| [setLanguageCode(int value)](#setLanguageCode-int-) | Sets the user interface language of the Workbook version based on CountryCode that has saved the file. |
+| [setLightCellsDataHandler(LightCellsDataHandler value)](#setLightCellsDataHandler-com.aspose.cells.LightCellsDataHandler-) | The data handler for processing cells data when reading template file. |
+| [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | The filter to denote how to load data. |
+| [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the Locale used for workbook at the time the file was loaded. |
+| [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage options. |
 | [setPaperSize(int type)](#setPaperSize-int-) | Sets the default print paper size from default printer's setting. |
-| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | For the description of this property, please see [getParsingFormulaOnOpen()](../../com.aspose.cells/loadoptions\#getParsingFormulaOnOpen--) |
-| [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | For the description of this property, please see [getParsingPivotCachedRecords()](../../com.aspose.cells/loadoptions\#getParsingPivotCachedRecords--) |
-| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see [getPassword()](../../com.aspose.cells/loadoptions\#getPassword--) |
-| [setRegion(int value)](#setRegion-int-) | For the description of this property, please see [getRegion()](../../com.aspose.cells/loadoptions\#getRegion--) |
-| [setStandardFont(String value)](#setStandardFont-java.lang.String-) | For the description of this property, please see [getStandardFont()](../../com.aspose.cells/loadoptions\#getStandardFont--) |
-| [setStandardFontSize(double value)](#setStandardFontSize-double-) | For the description of this property, please see [getStandardFontSize()](../../com.aspose.cells/loadoptions\#getStandardFontSize--) |
-| [setStartCell(String value)](#setStartCell-java.lang.String-) | For the description of this property, please see [getStartCell()](../../com.aspose.cells/xmlloadoptions\#getStartCell--) |
+| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
+| [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password of the workbook. |
+| [setRegion(int value)](#setRegion-int-) | Sets the system regional settings based on CountryCode at the time the file was loaded. |
+| [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Sets the default standard font name NOTE: This member is now obsolete. |
+| [setStandardFontSize(double value)](#setStandardFontSize-double-) | Sets the default standard font size. |
+| [setStartCell(String value)](#setStartCell-java.lang.String-) | Sets the start cell. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
-| [setXmlMap(boolean value)](#setXmlMap-boolean-) | For the description of this property, please see [isXmlMap()](../../com.aspose.cells/xmlloadoptions\#isXmlMap--) |
+| [setXmlMap(boolean value)](#setXmlMap-boolean-) | Indicates whether mapping xml to Excel. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -143,7 +143,7 @@ public AutoFitterOptions getAutoFitterOptions()
 ```
 
 
-the auto fitter options Only for xlsx ,spreadsheetML file now.
+Gets the auto fitter options Only for xlsx ,spreadsheetML file now.
 
 **Returns:**
 [AutoFitterOptions](../../com.aspose.cells/autofitteroptions)
@@ -193,7 +193,7 @@ public IndividualFontConfigs getFontConfigs()
 ```
 
 
-individual font configs. Only works for the [Workbook](../../com.aspose.cells/workbook) which uses this [LoadOptions](../../com.aspose.cells/loadoptions) to load.
+Gets individual font configs. Only works for the [Workbook](../../com.aspose.cells/workbook) which uses this [LoadOptions](../../com.aspose.cells/loadoptions) to load.
 
 **Returns:**
 [IndividualFontConfigs](../../com.aspose.cells/individualfontconfigs)
@@ -213,7 +213,7 @@ public AbstractInterruptMonitor getInterruptMonitor()
 ```
 
 
-the interrupt monitor.
+Gets the interrupt monitor.
 
 **Returns:**
 [AbstractInterruptMonitor](../../com.aspose.cells/abstractinterruptmonitor)
@@ -233,7 +233,7 @@ public int getLanguageCode()
 ```
 
 
-the user interface language of the Workbook version based on CountryCode that has saved the file.
+Gets the user interface language of the Workbook version based on CountryCode that has saved the file.
 
 **Returns:**
 int
@@ -273,7 +273,7 @@ public Locale getLocale()
 ```
 
 
-the Locale used for workbook at the time the file was loaded.
+Gets the Locale used for workbook at the time the file was loaded.
 
 **Returns:**
 java.util.Locale
@@ -283,7 +283,7 @@ public int getMemorySetting()
 ```
 
 
-the memory usage options.
+Gets the memory usage options.
 
 **Returns:**
 int
@@ -313,7 +313,7 @@ public String getPassword()
 ```
 
 
-the password of the workbook.
+Gets the password of the workbook.
 
 **Returns:**
 java.lang.String
@@ -323,7 +323,7 @@ public int getRegion()
 ```
 
 
-the system regional settings based on CountryCode at the time the file was loaded. If you do not want to use the region saved in the file, please reset it after reading the file.
+Gets the system regional settings based on CountryCode at the time the file was loaded. If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Returns:**
 int
@@ -353,7 +353,7 @@ public String getStartCell()
 ```
 
 
-the start cell. Only works when the file is not speadsheetML or mapping xml to Excel.
+Gets the start cell. Only works when the file is not speadsheetML or mapping xml to Excel.
 
 **Returns:**
 java.lang.String
@@ -363,7 +363,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-warning callback.
+Sets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -409,7 +409,7 @@ public void setAutoFilter(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoFilter()](../../com.aspose.cells/loadoptions\#getAutoFilter--)
+Indicates whether auto filtering the data when loading the files. Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -422,7 +422,7 @@ public void setAutoFitterOptions(AutoFitterOptions value)
 ```
 
 
-For the description of this property, please see [getAutoFitterOptions()](../../com.aspose.cells/loadoptions\#getAutoFitterOptions--)
+Sets the auto fitter options Only for xlsx ,spreadsheetML file now.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -435,7 +435,7 @@ public void setCheckDataValid(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckDataValid()](../../com.aspose.cells/loadoptions\#getCheckDataValid--)
+Check whether data is valid in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -448,7 +448,7 @@ public void setCheckExcelRestriction(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckExcelRestriction()](../../com.aspose.cells/loadoptions\#getCheckExcelRestriction--)
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -461,7 +461,7 @@ public void setContainsMultipleWorksheets(boolean value)
 ```
 
 
-For the description of this property, please see [containsMultipleWorksheets()](../../com.aspose.cells/xmlloadoptions\#containsMultipleWorksheets--)
+Indicates whether importing xml as multiple worksheets.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -474,7 +474,7 @@ public void setFontConfigs(IndividualFontConfigs value)
 ```
 
 
-For the description of this property, please see [getFontConfigs()](../../com.aspose.cells/loadoptions\#getFontConfigs--)
+Sets individual font configs. Only works for the [Workbook](../../com.aspose.cells/workbook) which uses this [LoadOptions](../../com.aspose.cells/loadoptions) to load.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -487,7 +487,7 @@ public void setIgnoreNotPrinted(boolean value)
 ```
 
 
-For the description of this property, please see [getIgnoreNotPrinted()](../../com.aspose.cells/loadoptions\#getIgnoreNotPrinted--)
+Ignore the data which are not printed if directly printing the file Only for xlsx file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -500,7 +500,7 @@ public void setInterruptMonitor(AbstractInterruptMonitor value)
 ```
 
 
-For the description of this property, please see [getInterruptMonitor()](../../com.aspose.cells/loadoptions\#getInterruptMonitor--)
+Sets the interrupt monitor.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -513,7 +513,7 @@ public void setKeepUnparsedData(boolean value)
 ```
 
 
-For the description of this property, please see [getKeepUnparsedData()](../../com.aspose.cells/loadoptions\#getKeepUnparsedData--)
+Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -526,7 +526,7 @@ public void setLanguageCode(int value)
 ```
 
 
-For the description of this property, please see [getLanguageCode()](../../com.aspose.cells/loadoptions\#getLanguageCode--)
+Sets the user interface language of the Workbook version based on CountryCode that has saved the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -539,7 +539,7 @@ public void setLightCellsDataHandler(LightCellsDataHandler value)
 ```
 
 
-For the description of this property, please see [getLightCellsDataHandler()](../../com.aspose.cells/loadoptions\#getLightCellsDataHandler--)
+The data handler for processing cells data when reading template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -552,7 +552,7 @@ public void setLoadFilter(LoadFilter value)
 ```
 
 
-For the description of this property, please see [getLoadFilter()](../../com.aspose.cells/loadoptions\#getLoadFilter--)
+The filter to denote how to load data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -565,7 +565,7 @@ public void setLocale(Locale value)
 ```
 
 
-For the description of this property, please see [getLocale()](../../com.aspose.cells/loadoptions\#getLocale--)
+Sets the Locale used for workbook at the time the file was loaded.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -578,7 +578,7 @@ public void setMemorySetting(int value)
 ```
 
 
-For the description of this property, please see [getMemorySetting()](../../com.aspose.cells/loadoptions\#getMemorySetting--)
+Sets the memory usage options.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -604,7 +604,7 @@ public void setParsingFormulaOnOpen(boolean value)
 ```
 
 
-For the description of this property, please see [getParsingFormulaOnOpen()](../../com.aspose.cells/loadoptions\#getParsingFormulaOnOpen--)
+Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -617,7 +617,7 @@ public void setParsingPivotCachedRecords(boolean value)
 ```
 
 
-For the description of this property, please see [getParsingPivotCachedRecords()](../../com.aspose.cells/loadoptions\#getParsingPivotCachedRecords--)
+Indicates whether parsing pivot cached records when loading the file. The default value is false. Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -630,7 +630,7 @@ public void setPassword(String value)
 ```
 
 
-For the description of this property, please see [getPassword()](../../com.aspose.cells/loadoptions\#getPassword--)
+Sets the password of the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -643,7 +643,7 @@ public void setRegion(int value)
 ```
 
 
-For the description of this property, please see [getRegion()](../../com.aspose.cells/loadoptions\#getRegion--)
+Sets the system regional settings based on CountryCode at the time the file was loaded. If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -656,7 +656,7 @@ public void setStandardFont(String value)
 ```
 
 
-For the description of this property, please see [getStandardFont()](../../com.aspose.cells/loadoptions\#getStandardFont--)
+Sets the default standard font name NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -669,7 +669,7 @@ public void setStandardFontSize(double value)
 ```
 
 
-For the description of this property, please see [getStandardFontSize()](../../com.aspose.cells/loadoptions\#getStandardFontSize--)
+Sets the default standard font size. NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -682,7 +682,7 @@ public void setStartCell(String value)
 ```
 
 
-For the description of this property, please see [getStartCell()](../../com.aspose.cells/xmlloadoptions\#getStartCell--)
+Sets the start cell. Only works when the file is not speadsheetML or mapping xml to Excel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -708,7 +708,7 @@ public void setXmlMap(boolean value)
 ```
 
 
-For the description of this property, please see [isXmlMap()](../../com.aspose.cells/xmlloadoptions\#isXmlMap--)
+Indicates whether mapping xml to Excel. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

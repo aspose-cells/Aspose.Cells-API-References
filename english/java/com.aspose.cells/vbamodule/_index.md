@@ -34,14 +34,14 @@ Represents the module in VBA project.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCodes()](#getCodes--) | the codes of module. |
-| [getName()](#getName--) | the name of Module. |
+| [getCodes()](#getCodes--) | Gets the codes of module. |
+| [getName()](#getName--) | Gets the name of Module. |
 | [getType()](#getType--) | Gets the type of module. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCodes(String value)](#setCodes-java.lang.String-) | For the description of this property, please see [getCodes()](../../com.aspose.cells/vbamodule\#getCodes--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/vbamodule\#getName--) |
+| [setCodes(String value)](#setCodes-java.lang.String-) | Sets the codes of module. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of Module. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,7 +77,7 @@ public String getCodes()
 ```
 
 
-the codes of module.
+Gets the codes of module.
 
 **Returns:**
 java.lang.String
@@ -87,7 +87,7 @@ public String getName()
 ```
 
 
-the name of Module.
+Gets the name of Module.
 
 **Returns:**
 java.lang.String
@@ -133,7 +133,7 @@ public void setCodes(String value)
 ```
 
 
-For the description of this property, please see [getCodes()](../../com.aspose.cells/vbamodule\#getCodes--)
+Sets the codes of module.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/vbamodule\#getName--)
+Sets the name of Module.
 
 **Parameters:**
 | Parameter | Type | Description |

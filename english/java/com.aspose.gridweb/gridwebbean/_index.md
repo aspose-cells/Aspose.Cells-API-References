@@ -54,111 +54,111 @@ Represents GridWeb java bean
 | --- | --- |
 | [calculateFormula()](#calculateFormula--) | Calculates the result of formulas. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getACWClientPath()](#getACWClientPath--) | the web path of the script/image files of the control. |
-| [getACWLanguageFileUrl()](#getACWLanguageFileUrl--) | the web url of the language file of the control. |
-| [getActiveCell()](#getActiveCell--) | the active cell of the current sheet. |
+| [getACWClientPath()](#getACWClientPath--) | Gets the web path of the script/image files of the control. |
+| [getACWLanguageFileUrl()](#getACWLanguageFileUrl--) | Gets the web url of the language file of the control. |
+| [getActiveCell()](#getActiveCell--) | Gets the active cell of the current sheet. |
 | [getActiveCellBgColor()](#getActiveCellBgColor--) | Specifies the background color of the active cell. |
 | [getActiveCellColor()](#getActiveCellColor--) | Specifies the color of the active cell. |
 | [getActiveHeaderBgColor()](#getActiveHeaderBgColor--) | Specifies the background color of the active row/column header. |
 | [getActiveHeaderColor()](#getActiveHeaderColor--) | Specifies the color of the active row/column header. |
 | [getActiveSheet()](#getActiveSheet--) | Gets the active sheet |
-| [getActiveSheetIndex()](#getActiveSheetIndex--) | the active sheet index. |
+| [getActiveSheetIndex()](#getActiveSheetIndex--) | Gets the active sheet index. |
 | [getActiveTabStyle()](#getActiveTabStyle--) | Specifies the style of the active tab. |
-| [getAutoRefreshChart()](#getAutoRefreshChart--) | whether the Chart image is updated while updating the cell value.the default is true |
+| [getAutoRefreshChart()](#getAutoRefreshChart--) | Gets whether the Chart image is updated while updating the cell value.the default is true |
 | [getBeanID()](#getBeanID--) | get the html id of the bean |
-| [getBottomTableStyle()](#getBottomTableStyle--) | the style of the bottom bar of the control. |
+| [getBottomTableStyle()](#getBottomTableStyle--) | Gets the style of the bottom bar of the control. |
 | [getClass()](#getClass--) |  |
 | [getCurrentPageIndex()](#getCurrentPageIndex--) |  |
 | [getCustomCalculationEngine()](#getCustomCalculationEngine--) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [getCustomCommandButtons()](#getCustomCommandButtons--) |  |
-| [getCustomStyleFileName()](#getCustomStyleFileName--) | the custom style file name. |
-| [getDefaultFontName()](#getDefaultFontName--) | the control's default font name. |
-| [getDefaultGridLineColor()](#getDefaultGridLineColor--) | the default grid line's color. |
+| [getCustomStyleFileName()](#getCustomStyleFileName--) | Gets the custom style file name. |
+| [getDefaultFontName()](#getDefaultFontName--) | Gets the control's default font name. |
+| [getDefaultGridLineColor()](#getDefaultGridLineColor--) | Gets the default grid line's color. |
 | [getDisplayCellTip()](#getDisplayCellTip--) |  |
-| [getEditMode()](#getEditMode--) | the control's edit mode. |
+| [getEditMode()](#getEditMode--) | Gets the control's edit mode. |
 | [getEnableAJAX()](#getEnableAJAX--) |  |
-| [getEnableAsync()](#getEnableAsync--) | whether load cells data in asynchronous way,suggest to apply for one sheet with more than 10000 cells. |
-| [getEnableClientColumnOperations()](#getEnableClientColumnOperations--) | whether to enable the client side column operations. |
-| [getEnableClientFreeze()](#getEnableClientFreeze--) | whether to enable the client side freezing operations. |
-| [getEnableClientMergeOperations()](#getEnableClientMergeOperations--) | whether to enable the client side merge operations. |
-| [getEnableClientResizeColumnRow()](#getEnableClientResizeColumnRow--) | whether to enable the client side resize column and row. |
-| [getEnableClientRowOperations()](#getEnableClientRowOperations--) | whether to enable the client side row operations. |
-| [getEnableDoubleClickEvent()](#getEnableDoubleClickEvent--) | whether to enable customer side double-click event. |
-| [getEnableMetalLightEffect()](#getEnableMetalLightEffect--) | whether to apply metal light effect. |
-| [getEnablePaging()](#getEnablePaging--) | whether to enable the control's paging mode. |
-| [getEnableStyleDialogbox()](#getEnableStyleDialogbox--) | whether to enable the client side style dialogbox. |
-| [getFilteredPaging()](#getFilteredPaging--) | whether to enable the paging after data filtered,will take affect when EnablePaging is true. |
-| [getForceValidation()](#getForceValidation--) | whether to force customer side validation. |
-| [getFrameTableStyle()](#getFrameTableStyle--) | the frame style of the control. |
-| [getGoonDefaultSaveOperation()](#getGoonDefaultSaveOperation--) | whether GridWeb will do the default save operation ,the default value is true. |
+| [getEnableAsync()](#getEnableAsync--) | Gets whether load cells data in asynchronous way,suggest to apply for one sheet with more than 10000 cells. |
+| [getEnableClientColumnOperations()](#getEnableClientColumnOperations--) | Gets whether to enable the client side column operations. |
+| [getEnableClientFreeze()](#getEnableClientFreeze--) | Gets whether to enable the client side freezing operations. |
+| [getEnableClientMergeOperations()](#getEnableClientMergeOperations--) | Gets whether to enable the client side merge operations. |
+| [getEnableClientResizeColumnRow()](#getEnableClientResizeColumnRow--) | Gets whether to enable the client side resize column and row. |
+| [getEnableClientRowOperations()](#getEnableClientRowOperations--) | Gets whether to enable the client side row operations. |
+| [getEnableDoubleClickEvent()](#getEnableDoubleClickEvent--) | Gets whether to enable customer side double-click event. |
+| [getEnableMetalLightEffect()](#getEnableMetalLightEffect--) | Gets whether to apply metal light effect. |
+| [getEnablePaging()](#getEnablePaging--) | Gets whether to enable the control's paging mode. |
+| [getEnableStyleDialogbox()](#getEnableStyleDialogbox--) | Gets whether to enable the client side style dialogbox. |
+| [getFilteredPaging()](#getFilteredPaging--) | Gets whether to enable the paging after data filtered,will take affect when EnablePaging is true. |
+| [getForceValidation()](#getForceValidation--) | Gets whether to force customer side validation. |
+| [getFrameTableStyle()](#getFrameTableStyle--) | Gets the frame style of the control. |
+| [getGoonDefaultSaveOperation()](#getGoonDefaultSaveOperation--) | Gets whether GridWeb will do the default save operation ,the default value is true. |
 | [getHTMLBody()](#getHTMLBody--) | the html code of the bean for html body, it shall be get after call of method init and prepareRender |
 | [getHTMLHead()](#getHTMLHead--) | the html code of the bean for html head, it shall be get after call of method init and prepareRender |
-| [getHeaderBarStyle()](#getHeaderBarStyle--) | the header bar's style. |
-| [getHeaderBarTableStyle()](#getHeaderBarTableStyle--) | the header bar style of the control. |
-| [getIgnoreStyleWithNoData()](#getIgnoreStyleWithNoData--) | whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. |
+| [getHeaderBarStyle()](#getHeaderBarStyle--) | Gets the header bar's style. |
+| [getHeaderBarTableStyle()](#getHeaderBarTableStyle--) | Gets the header bar style of the control. |
+| [getIgnoreStyleWithNoData()](#getIgnoreStyleWithNoData--) | Gets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. |
 | [getLinksTable()](#getLinksTable--) |  |
-| [getMaxColumn()](#getMaxColumn--) | the maximum display column index(zero based) of the web sheet. |
-| [getMaxRow()](#getMaxRow--) | the maximum display row index(zero based) of the web sheet. |
+| [getMaxColumn()](#getMaxColumn--) | Gets the maximum display column index(zero based) of the web sheet. |
+| [getMaxRow()](#getMaxRow--) | Gets the maximum display row index(zero based) of the web sheet. |
 | [getMessage()](#getMessage--) |  |
 | [getMinColumn()](#getMinColumn--) |  |
-| [getMinRow()](#getMinRow--) | the minimum display row index(zero based) of the web sheet. |
+| [getMinRow()](#getMinRow--) | Gets the minimum display row index(zero based) of the web sheet. |
 | [getModifiedCells()](#getModifiedCells--) | Gets the collection of the cells that modified by the client. |
-| [getNeedRenderGroupRows()](#getNeedRenderGroupRows--) | whether to show grouprows . |
-| [getNoHScroll()](#getNoHScroll--) | a value indicating whether the horizontal scroll bar is hidden. |
+| [getNeedRenderGroupRows()](#getNeedRenderGroupRows--) | Gets whether to show grouprows . |
+| [getNoHScroll()](#getNoHScroll--) | Gets a value indicating whether the horizontal scroll bar is hidden. |
 | [getNoScroll()](#getNoScroll--) |  |
-| [getNoVScroll()](#getNoVScroll--) | a value indicating whether the vertical scroll bar is hidden. |
-| [getOnAjaxCallFinishedClientFunction()](#getOnAjaxCallFinishedClientFunction--) | the client side function name to be called when ajaxcall finished. |
-| [getOnCellErrorClientFunction()](#getOnCellErrorClientFunction--) | the client side function name to be called when a cell's validation is failed. |
-| [getOnCellSelectedAjaxCallBackClientFunction()](#getOnCellSelectedAjaxCallBackClientFunction--) | the client side function to be called when a cell is selected. |
-| [getOnCellSelectedClientFunction()](#getOnCellSelectedClientFunction--) | the client side function to be called when a cell is selected. |
-| [getOnCellUnselectedClientFunction()](#getOnCellUnselectedClientFunction--) | the client side function to be called when a cell is unselected. |
-| [getOnCellUpdatedClientFunction()](#getOnCellUpdatedClientFunction--) | the client side function name to be called when a cell's value is updated. |
-| [getOnContextMenuShowClientFunction()](#getOnContextMenuShowClientFunction--) | the client side function to be called when the context menu will be shown. |
-| [getOnDoubleClickCellClientFunction()](#getOnDoubleClickCellClientFunction--) | the client side function to be called when a cell is double clicked. |
-| [getOnDoubleClickRowClientFunction()](#getOnDoubleClickRowClientFunction--) | the client side function to be called when a row is double clicked. |
-| [getOnGridInitClientFunction()](#getOnGridInitClientFunction--) | the client side function name to be called when the grid is initialized. |
-| [getOnPageChangeClientFunction()](#getOnPageChangeClientFunction--) | the client side function to be called after page index changing.only take effect when EnablePaging is true. |
-| [getOnPageSubmitClientFunction()](#getOnPageSubmitClientFunction--) | the client function to be called before the page is submitted at client side. |
-| [getOnShapeSelectedClientFunction()](#getOnShapeSelectedClientFunction--) | the client side function to be called when a shape is selected. |
-| [getOnSubmitClientFunction()](#getOnSubmitClientFunction--) | the client function to be called before the control is submitted at client side. |
-| [getOnlyAuto()](#getOnlyAuto--) | whether only fit the rows which height are not customed,the default value is false |
-| [getPageSize()](#getPageSize--) | the page size in paging mode. |
-| [getPictureCachePath()](#getPictureCachePath--) | the image storage path for the workbook,all the shapes,images will be stored in this directory, the default path is acwcache under current application Base Directory users need to implement a schedule service to clean the files those are out of session time. |
+| [getNoVScroll()](#getNoVScroll--) | Gets a value indicating whether the vertical scroll bar is hidden. |
+| [getOnAjaxCallFinishedClientFunction()](#getOnAjaxCallFinishedClientFunction--) | Gets the client side function name to be called when ajaxcall finished. |
+| [getOnCellErrorClientFunction()](#getOnCellErrorClientFunction--) | Gets the client side function name to be called when a cell's validation is failed. |
+| [getOnCellSelectedAjaxCallBackClientFunction()](#getOnCellSelectedAjaxCallBackClientFunction--) | Gets the client side function to be called when a cell is selected. |
+| [getOnCellSelectedClientFunction()](#getOnCellSelectedClientFunction--) | Gets the client side function to be called when a cell is selected. |
+| [getOnCellUnselectedClientFunction()](#getOnCellUnselectedClientFunction--) | Gets the client side function to be called when a cell is unselected. |
+| [getOnCellUpdatedClientFunction()](#getOnCellUpdatedClientFunction--) | Gets the client side function name to be called when a cell's value is updated. |
+| [getOnContextMenuShowClientFunction()](#getOnContextMenuShowClientFunction--) | Gets the client side function to be called when the context menu will be shown. |
+| [getOnDoubleClickCellClientFunction()](#getOnDoubleClickCellClientFunction--) | Gets the client side function to be called when a cell is double clicked. |
+| [getOnDoubleClickRowClientFunction()](#getOnDoubleClickRowClientFunction--) | Gets the client side function to be called when a row is double clicked. |
+| [getOnGridInitClientFunction()](#getOnGridInitClientFunction--) | Gets the client side function name to be called when the grid is initialized. |
+| [getOnPageChangeClientFunction()](#getOnPageChangeClientFunction--) | Gets the client side function to be called after page index changing.only take effect when EnablePaging is true. |
+| [getOnPageSubmitClientFunction()](#getOnPageSubmitClientFunction--) | Gets the client function to be called before the page is submitted at client side. |
+| [getOnShapeSelectedClientFunction()](#getOnShapeSelectedClientFunction--) | Gets the client side function to be called when a shape is selected. |
+| [getOnSubmitClientFunction()](#getOnSubmitClientFunction--) | Gets the client function to be called before the control is submitted at client side. |
+| [getOnlyAuto()](#getOnlyAuto--) | Gets whether only fit the rows which height are not customed,the default value is false |
+| [getPageSize()](#getPageSize--) | Gets the page size in paging mode. |
+| [getPictureCachePath()](#getPictureCachePath--) | Gets the image storage path for the workbook,all the shapes,images will be stored in this directory, the default path is acwcache under current application Base Directory users need to implement a schedule service to clean the files those are out of session time. |
 | [getPicturesTable()](#getPicturesTable--) |  |
-| [getPresetStyle()](#getPresetStyle--) | the preset style. |
-| [getRefreshValidation()](#getRefreshValidation--) | whether to refresh validation value after cell value changes. |
-| [getRenderHiddenRow()](#getRenderHiddenRow--) | whether the hidden row is rendered in GridControl,the default value is false. |
+| [getPresetStyle()](#getPresetStyle--) | Gets the preset style. |
+| [getRefreshValidation()](#getRefreshValidation--) | Gets whether to refresh validation value after cell value changes. |
+| [getRenderHiddenRow()](#getRenderHiddenRow--) | Gets whether the hidden row is rendered in GridControl,the default value is false. |
 | [getScrollBarArrowColor()](#getScrollBarArrowColor--) | Specifies the color of the scrollbar's arrow button. |
 | [getScrollBarBaseColor()](#getScrollBarBaseColor--) | Specifies the color of the scroll bar of the control. |
 | [getSelectCellBgColor()](#getSelectCellBgColor--) | Specifies the background color of the selected cells in multi-select range. |
 | [getSelectCellColor()](#getSelectCellColor--) | Specifies the color of the selected cells in multi-select range. |
 | [getSessionLoaded()](#getSessionLoaded--) |  |
-| [getSessionMode()](#getSessionMode--) | the session mode of the grid. |
+| [getSessionMode()](#getSessionMode--) | Gets the session mode of the grid. |
 | [getSessionSaved()](#getSessionSaved--) |  |
-| [getSessionStorePath()](#getSessionStorePath--) | the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
+| [getSessionStorePath()](#getSessionStorePath--) | Gets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
 | [getSettings()](#getSettings--) | Represents the workbook settings. |
 | [getShapesTable()](#getShapesTable--) |  |
-| [getShowAddButton()](#getShowAddButton--) | whether to show the add worksheet button. |
+| [getShowAddButton()](#getShowAddButton--) | Gets whether to show the add worksheet button. |
 | [getShowBottomBar()](#getShowBottomBar--) |  |
 | [getShowCellEditBox()](#getShowCellEditBox--) | whether Gridweb shows edit box toolbar as in MS-EXCEL.if enable ,a edit box for current cell will display in Gridweb. |
 | [getShowCommandBarAtTop()](#getShowCommandBarAtTop--) | Specifies whether to show the command bar(includes command bar and tab bar) at the top of the control. |
 | [getShowContextMenu()](#getShowContextMenu--) |  |
-| [getShowDefaultGridLine()](#getShowDefaultGridLine--) | whether to show the default grid lines of the cells. |
+| [getShowDefaultGridLine()](#getShowDefaultGridLine--) | Gets whether to show the default grid lines of the cells. |
 | [getShowHeaderBar()](#getShowHeaderBar--) |  |
 | [getShowLoading()](#getShowLoading--) | Specifies whether to show a loading dialogbox while postbacking to server. |
 | [getShowLoadingPosition()](#getShowLoadingPosition--) | Specifies the left,top postion(in px) to show the loading dialogbox while postbacking to server ,etc. 100,200 means the loading dialogbox's left,top postion is at 100px,200px . |
-| [getShowSaveButton()](#getShowSaveButton--) | whether to show the save button. |
-| [getShowSubmitButton()](#getShowSubmitButton--) | whether to show the submit button. |
+| [getShowSaveButton()](#getShowSaveButton--) | Gets whether to show the save button. |
+| [getShowSubmitButton()](#getShowSubmitButton--) | Gets whether to show the submit button. |
 | [getShowTabBar()](#getShowTabBar--) |  |
-| [getShowTabNavigation()](#getShowTabNavigation--) | whether the tab navigation button is show,the default value is true. |
-| [getShowUndoButton()](#getShowUndoButton--) | whether to show the undo button. |
+| [getShowTabNavigation()](#getShowTabNavigation--) | Gets whether the tab navigation button is show,the default value is true. |
+| [getShowUndoButton()](#getShowUndoButton--) | Gets whether to show the undo button. |
 | [getSpanWrap()](#getSpanWrap--) | Specifies whether to wrap content in the cell span.the default value is true. |
-| [getTabStyle()](#getTabStyle--) | the style of the tab bar. |
-| [getUseClientPageHeight()](#getUseClientPageHeight--) | whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false |
+| [getTabStyle()](#getTabStyle--) | Gets the style of the tab bar. |
+| [getUseClientPageHeight()](#getUseClientPageHeight--) | Gets whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false |
 | [getValidationsTable()](#getValidationsTable--) |  |
-| [getViewPanelScrollLeft()](#getViewPanelScrollLeft--) | the position of the scroll bar of the grid's view panel. |
-| [getViewPanelScrollTop()](#getViewPanelScrollTop--) | the position of the scroll bar of the grid's view panel. |
-| [getViewTableStyle()](#getViewTableStyle--) | the data view panel's style. |
+| [getViewPanelScrollLeft()](#getViewPanelScrollLeft--) | Gets the position of the scroll bar of the grid's view panel. |
+| [getViewPanelScrollTop()](#getViewPanelScrollTop--) | Gets the position of the scroll bar of the grid's view panel. |
+| [getViewTableStyle()](#getViewTableStyle--) | Gets the data view panel's style. |
 | [getWorkSheets()](#getWorkSheets--) |  |
 | [getXhtmlMode()](#getXhtmlMode--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -167,7 +167,7 @@ Represents GridWeb java bean
 | [importExcelFile(String fileName)](#importExcelFile-java.lang.String-) | Imports from an excel file. |
 | [importExcelFile(String fileName, String passwordtoOpen)](#importExcelFile-java.lang.String-java.lang.String-) | Imports from an excel file. |
 | [init()](#init--) | the bean shall be initialized by the servlet request and response of the current page |
-| [isCalculateFormula()](#isCalculateFormula--) | whether to calculate formula after cell value changes or after import File. |
+| [isCalculateFormula()](#isCalculateFormula--) | Gets whether to calculate formula after cell value changes or after import File. |
 | [isPostBack()](#isPostBack--) | Gets a value indicating whether gridweb is being loaded in response to a client postback, or if it is being loaded and accessed for the first time. |
 | [loadCSVFile(InputStream stream)](#loadCSVFile-java.io.InputStream-) | Loads data from a CSV file stream. |
 | [loadCSVFile(String fileName)](#loadCSVFile-java.lang.String-) | Loads data from a CSV file. |
@@ -192,104 +192,104 @@ Represents GridWeb java bean
 | [saveToExcelFile(String targetFile)](#saveToExcelFile-java.lang.String-) | Saves the worksheets to an excel file with Excel 2003 format. |
 | [saveToExcelFile(String targetFile, GridSaveOptions saveOptions)](#saveToExcelFile-java.lang.String-com.aspose.gridweb.GridSaveOptions-) | Saves the worksheets to an excel file. |
 | [saveToExcelFile(String targetFile, int format)](#saveToExcelFile-java.lang.String-int-) | Saves the worksheets to an excel file. |
-| [setACWClientPath(String value)](#setACWClientPath-java.lang.String-) | For the description of this property, please see [getACWClientPath()](../../com.aspose.gridweb/mainweb\#getACWClientPath--) |
-| [setACWLanguageFileUrl(String value)](#setACWLanguageFileUrl-java.lang.String-) | For the description of this property, please see [getACWLanguageFileUrl()](../../com.aspose.gridweb/mainweb\#getACWLanguageFileUrl--) |
-| [setActiveCell(GridCell value)](#setActiveCell-com.aspose.gridweb.GridCell-) | For the description of this property, please see [getActiveCell()](../../com.aspose.gridweb/mainweb\#getActiveCell--) |
-| [setActiveCellBgColor(Color value)](#setActiveCellBgColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getActiveCellBgColor()](../../com.aspose.gridweb/mainweb\#getActiveCellBgColor--) |
-| [setActiveCellColor(Color value)](#setActiveCellColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getActiveCellColor()](../../com.aspose.gridweb/mainweb\#getActiveCellColor--) |
-| [setActiveHeaderBgColor(Color value)](#setActiveHeaderBgColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getActiveHeaderBgColor()](../../com.aspose.gridweb/mainweb\#getActiveHeaderBgColor--) |
-| [setActiveHeaderColor(Color value)](#setActiveHeaderColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getActiveHeaderColor()](../../com.aspose.gridweb/mainweb\#getActiveHeaderColor--) |
-| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) | For the description of this property, please see [getActiveSheetIndex()](../../com.aspose.gridweb/mainweb\#getActiveSheetIndex--) |
-| [setActiveTabStyle(GridTableItemStyle value)](#setActiveTabStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getActiveTabStyle()](../../com.aspose.gridweb/mainweb\#getActiveTabStyle--) |
-| [setAutoRefreshChart(boolean value)](#setAutoRefreshChart-boolean-) | For the description of this property, please see [getAutoRefreshChart()](../../com.aspose.gridweb/mainweb\#getAutoRefreshChart--) |
+| [setACWClientPath(String value)](#setACWClientPath-java.lang.String-) | Sets the web path of the script/image files of the control. |
+| [setACWLanguageFileUrl(String value)](#setACWLanguageFileUrl-java.lang.String-) | Sets the web url of the language file of the control. |
+| [setActiveCell(GridCell value)](#setActiveCell-com.aspose.gridweb.GridCell-) | Sets the active cell of the current sheet. |
+| [setActiveCellBgColor(Color value)](#setActiveCellBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the active cell. |
+| [setActiveCellColor(Color value)](#setActiveCellColor-com.aspose.gridweb.Color-) | Specifies the color of the active cell. |
+| [setActiveHeaderBgColor(Color value)](#setActiveHeaderBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the active row/column header. |
+| [setActiveHeaderColor(Color value)](#setActiveHeaderColor-com.aspose.gridweb.Color-) | Specifies the color of the active row/column header. |
+| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) | Sets the active sheet index. |
+| [setActiveTabStyle(GridTableItemStyle value)](#setActiveTabStyle-com.aspose.gridweb.GridTableItemStyle-) | Specifies the style of the active tab. |
+| [setAutoRefreshChart(boolean value)](#setAutoRefreshChart-boolean-) | Sets whether the Chart image is updated while updating the cell value.the default is true |
 | [setBeanID(String beanID)](#setBeanID-java.lang.String-) | set the html id of the bean |
-| [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) | For the description of this property, please see [getBottomTableStyle()](../../com.aspose.gridweb/mainweb\#getBottomTableStyle--) |
-| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | For the description of this property, please see [isCalculateFormula()](../../com.aspose.gridweb/mainweb\#isCalculateFormula--) |
-| [setCurrentPageIndex(int value)](#setCurrentPageIndex-int-) | For the description of this property, please see [getCurrentPageIndex()](../../com.aspose.gridweb/mainweb\#getCurrentPageIndex--) |
-| [setCustomCalculationEngine(GridAbstractCalculationEngine value)](#setCustomCalculationEngine-com.aspose.gridweb.GridAbstractCalculationEngine-) | For the description of this property, please see [getCustomCalculationEngine()](../../com.aspose.gridweb/mainweb\#getCustomCalculationEngine--) |
+| [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the style of the bottom bar of the control. |
+| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Sets whether to calculate formula after cell value changes or after import File. |
+| [setCurrentPageIndex(int value)](#setCurrentPageIndex-int-) |  |
+| [setCustomCalculationEngine(GridAbstractCalculationEngine value)](#setCustomCalculationEngine-com.aspose.gridweb.GridAbstractCalculationEngine-) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [setCustomStyle(InputStream stream)](#setCustomStyle-java.io.InputStream-) | sets the custom style file from stream including disk file stream or memory stream. |
-| [setCustomStyleFileName(String value)](#setCustomStyleFileName-java.lang.String-) | For the description of this property, please see [getCustomStyleFileName()](../../com.aspose.gridweb/mainweb\#getCustomStyleFileName--) |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | For the description of this property, please see [getDefaultFontName()](../../com.aspose.gridweb/mainweb\#getDefaultFontName--) |
-| [setDefaultGridLineColor(Color value)](#setDefaultGridLineColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getDefaultGridLineColor()](../../com.aspose.gridweb/mainweb\#getDefaultGridLineColor--) |
-| [setDisplayCellTip(boolean value)](#setDisplayCellTip-boolean-) | For the description of this property, please see [getDisplayCellTip()](../../com.aspose.gridweb/mainweb\#getDisplayCellTip--) |
-| [setEditMode(boolean value)](#setEditMode-boolean-) | For the description of this property, please see [getEditMode()](../../com.aspose.gridweb/mainweb\#getEditMode--) |
-| [setEnableAJAX(boolean value)](#setEnableAJAX-boolean-) | For the description of this property, please see [getEnableAJAX()](../../com.aspose.gridweb/mainweb\#getEnableAJAX--) |
-| [setEnableAsync(boolean value)](#setEnableAsync-boolean-) | For the description of this property, please see [getEnableAsync()](../../com.aspose.gridweb/mainweb\#getEnableAsync--) |
-| [setEnableClientColumnOperations(boolean value)](#setEnableClientColumnOperations-boolean-) | For the description of this property, please see [getEnableClientColumnOperations()](../../com.aspose.gridweb/mainweb\#getEnableClientColumnOperations--) |
-| [setEnableClientFreeze(boolean value)](#setEnableClientFreeze-boolean-) | For the description of this property, please see [getEnableClientFreeze()](../../com.aspose.gridweb/mainweb\#getEnableClientFreeze--) |
-| [setEnableClientMergeOperations(boolean value)](#setEnableClientMergeOperations-boolean-) | For the description of this property, please see [getEnableClientMergeOperations()](../../com.aspose.gridweb/mainweb\#getEnableClientMergeOperations--) |
-| [setEnableClientResizeColumnRow(boolean value)](#setEnableClientResizeColumnRow-boolean-) | For the description of this property, please see [getEnableClientResizeColumnRow()](../../com.aspose.gridweb/mainweb\#getEnableClientResizeColumnRow--) |
-| [setEnableClientRowOperations(boolean value)](#setEnableClientRowOperations-boolean-) | For the description of this property, please see [getEnableClientRowOperations()](../../com.aspose.gridweb/mainweb\#getEnableClientRowOperations--) |
-| [setEnableDoubleClickEvent(boolean value)](#setEnableDoubleClickEvent-boolean-) | For the description of this property, please see [getEnableDoubleClickEvent()](../../com.aspose.gridweb/mainweb\#getEnableDoubleClickEvent--) |
-| [setEnableMetalLightEffect(boolean value)](#setEnableMetalLightEffect-boolean-) | For the description of this property, please see [getEnableMetalLightEffect()](../../com.aspose.gridweb/mainweb\#getEnableMetalLightEffect--) |
-| [setEnablePaging(boolean value)](#setEnablePaging-boolean-) | For the description of this property, please see [getEnablePaging()](../../com.aspose.gridweb/mainweb\#getEnablePaging--) |
-| [setEnableStyleDialogbox(boolean value)](#setEnableStyleDialogbox-boolean-) | For the description of this property, please see [getEnableStyleDialogbox()](../../com.aspose.gridweb/mainweb\#getEnableStyleDialogbox--) |
-| [setFilteredPaging(boolean value)](#setFilteredPaging-boolean-) | For the description of this property, please see [getFilteredPaging()](../../com.aspose.gridweb/mainweb\#getFilteredPaging--) |
-| [setForceValidation(boolean value)](#setForceValidation-boolean-) | For the description of this property, please see [getForceValidation()](../../com.aspose.gridweb/mainweb\#getForceValidation--) |
-| [setFrameTableStyle(GridTableStyle value)](#setFrameTableStyle-com.aspose.gridweb.GridTableStyle-) | For the description of this property, please see [getFrameTableStyle()](../../com.aspose.gridweb/mainweb\#getFrameTableStyle--) |
-| [setGoonDefaultSaveOperation(boolean value)](#setGoonDefaultSaveOperation-boolean-) | For the description of this property, please see [getGoonDefaultSaveOperation()](../../com.aspose.gridweb/mainweb\#getGoonDefaultSaveOperation--) |
-| [setHeaderBarStyle(GridTableItemStyle value)](#setHeaderBarStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getHeaderBarStyle()](../../com.aspose.gridweb/mainweb\#getHeaderBarStyle--) |
-| [setHeaderBarTableStyle(GridTableStyle value)](#setHeaderBarTableStyle-com.aspose.gridweb.GridTableStyle-) | For the description of this property, please see [getHeaderBarTableStyle()](../../com.aspose.gridweb/mainweb\#getHeaderBarTableStyle--) |
-| [setIgnoreStyleWithNoData(boolean value)](#setIgnoreStyleWithNoData-boolean-) | For the description of this property, please see [getIgnoreStyleWithNoData()](../../com.aspose.gridweb/mainweb\#getIgnoreStyleWithNoData--) |
-| [setMaxColumn(int value)](#setMaxColumn-int-) | For the description of this property, please see [getMaxColumn()](../../com.aspose.gridweb/mainweb\#getMaxColumn--) |
-| [setMaxRow(int value)](#setMaxRow-int-) | For the description of this property, please see [getMaxRow()](../../com.aspose.gridweb/mainweb\#getMaxRow--) |
-| [setMessage(String value)](#setMessage-java.lang.String-) | For the description of this property, please see [getMessage()](../../com.aspose.gridweb/mainweb\#getMessage--) |
-| [setMinColumn(int value)](#setMinColumn-int-) | For the description of this property, please see [getMinColumn()](../../com.aspose.gridweb/mainweb\#getMinColumn--) |
-| [setMinRow(int value)](#setMinRow-int-) | For the description of this property, please see [getMinRow()](../../com.aspose.gridweb/mainweb\#getMinRow--) |
-| [setNeedRenderGroupRows(boolean value)](#setNeedRenderGroupRows-boolean-) | For the description of this property, please see [getNeedRenderGroupRows()](../../com.aspose.gridweb/mainweb\#getNeedRenderGroupRows--) |
-| [setNoHScroll(boolean value)](#setNoHScroll-boolean-) | For the description of this property, please see [getNoHScroll()](../../com.aspose.gridweb/mainweb\#getNoHScroll--) |
-| [setNoScroll(boolean value)](#setNoScroll-boolean-) | For the description of this property, please see [getNoScroll()](../../com.aspose.gridweb/mainweb\#getNoScroll--) |
-| [setNoVScroll(boolean value)](#setNoVScroll-boolean-) | For the description of this property, please see [getNoVScroll()](../../com.aspose.gridweb/mainweb\#getNoVScroll--) |
-| [setOnAjaxCallFinishedClientFunction(String value)](#setOnAjaxCallFinishedClientFunction-java.lang.String-) | For the description of this property, please see [getOnAjaxCallFinishedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnAjaxCallFinishedClientFunction--) |
-| [setOnCellErrorClientFunction(String value)](#setOnCellErrorClientFunction-java.lang.String-) | For the description of this property, please see [getOnCellErrorClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellErrorClientFunction--) |
-| [setOnCellSelectedAjaxCallBackClientFunction(String value)](#setOnCellSelectedAjaxCallBackClientFunction-java.lang.String-) | For the description of this property, please see [getOnCellSelectedAjaxCallBackClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellSelectedAjaxCallBackClientFunction--) |
-| [setOnCellSelectedClientFunction(String value)](#setOnCellSelectedClientFunction-java.lang.String-) | For the description of this property, please see [getOnCellSelectedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellSelectedClientFunction--) |
-| [setOnCellUnselectedClientFunction(String value)](#setOnCellUnselectedClientFunction-java.lang.String-) | For the description of this property, please see [getOnCellUnselectedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellUnselectedClientFunction--) |
-| [setOnCellUpdatedClientFunction(String value)](#setOnCellUpdatedClientFunction-java.lang.String-) | For the description of this property, please see [getOnCellUpdatedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellUpdatedClientFunction--) |
-| [setOnContextMenuShowClientFunction(String value)](#setOnContextMenuShowClientFunction-java.lang.String-) | For the description of this property, please see [getOnContextMenuShowClientFunction()](../../com.aspose.gridweb/mainweb\#getOnContextMenuShowClientFunction--) |
-| [setOnDoubleClickCellClientFunction(String value)](#setOnDoubleClickCellClientFunction-java.lang.String-) | For the description of this property, please see [getOnDoubleClickCellClientFunction()](../../com.aspose.gridweb/mainweb\#getOnDoubleClickCellClientFunction--) |
-| [setOnDoubleClickRowClientFunction(String value)](#setOnDoubleClickRowClientFunction-java.lang.String-) | For the description of this property, please see [getOnDoubleClickRowClientFunction()](../../com.aspose.gridweb/mainweb\#getOnDoubleClickRowClientFunction--) |
-| [setOnGridInitClientFunction(String value)](#setOnGridInitClientFunction-java.lang.String-) | For the description of this property, please see [getOnGridInitClientFunction()](../../com.aspose.gridweb/mainweb\#getOnGridInitClientFunction--) |
-| [setOnPageChangeClientFunction(String value)](#setOnPageChangeClientFunction-java.lang.String-) | For the description of this property, please see [getOnPageChangeClientFunction()](../../com.aspose.gridweb/mainweb\#getOnPageChangeClientFunction--) |
-| [setOnPageSubmitClientFunction(String value)](#setOnPageSubmitClientFunction-java.lang.String-) | For the description of this property, please see [getOnPageSubmitClientFunction()](../../com.aspose.gridweb/mainweb\#getOnPageSubmitClientFunction--) |
-| [setOnShapeSelectedClientFunction(String value)](#setOnShapeSelectedClientFunction-java.lang.String-) | For the description of this property, please see [getOnShapeSelectedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnShapeSelectedClientFunction--) |
-| [setOnSubmitClientFunction(String value)](#setOnSubmitClientFunction-java.lang.String-) | For the description of this property, please see [getOnSubmitClientFunction()](../../com.aspose.gridweb/mainweb\#getOnSubmitClientFunction--) |
-| [setOnlyAuto(boolean value)](#setOnlyAuto-boolean-) | For the description of this property, please see [getOnlyAuto()](../../com.aspose.gridweb/mainweb\#getOnlyAuto--) |
-| [setPageSize(int value)](#setPageSize-int-) | For the description of this property, please see [getPageSize()](../../com.aspose.gridweb/mainweb\#getPageSize--) |
-| [setPictureCachePath(String value)](#setPictureCachePath-java.lang.String-) | For the description of this property, please see [getPictureCachePath()](../../com.aspose.gridweb/mainweb\#getPictureCachePath--) |
-| [setPresetStyle(int value)](#setPresetStyle-int-) | For the description of this property, please see [getPresetStyle()](../../com.aspose.gridweb/mainweb\#getPresetStyle--) |
-| [setRefreshValidation(boolean value)](#setRefreshValidation-boolean-) | For the description of this property, please see [getRefreshValidation()](../../com.aspose.gridweb/mainweb\#getRefreshValidation--) |
-| [setRenderHiddenRow(boolean value)](#setRenderHiddenRow-boolean-) | For the description of this property, please see [getRenderHiddenRow()](../../com.aspose.gridweb/mainweb\#getRenderHiddenRow--) |
-| [setScrollBarArrowColor(Color value)](#setScrollBarArrowColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getScrollBarArrowColor()](../../com.aspose.gridweb/mainweb\#getScrollBarArrowColor--) |
-| [setScrollBarBaseColor(Color value)](#setScrollBarBaseColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getScrollBarBaseColor()](../../com.aspose.gridweb/mainweb\#getScrollBarBaseColor--) |
-| [setSelectCellBgColor(Color value)](#setSelectCellBgColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getSelectCellBgColor()](../../com.aspose.gridweb/mainweb\#getSelectCellBgColor--) |
-| [setSelectCellColor(Color value)](#setSelectCellColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getSelectCellColor()](../../com.aspose.gridweb/mainweb\#getSelectCellColor--) |
-| [setSessionLoaded(boolean value)](#setSessionLoaded-boolean-) | For the description of this property, please see [getSessionLoaded()](../../com.aspose.gridweb/mainweb\#getSessionLoaded--) |
-| [setSessionMode(int value)](#setSessionMode-int-) | For the description of this property, please see [getSessionMode()](../../com.aspose.gridweb/mainweb\#getSessionMode--) |
-| [setSessionSaved(boolean value)](#setSessionSaved-boolean-) | For the description of this property, please see [getSessionSaved()](../../com.aspose.gridweb/mainweb\#getSessionSaved--) |
-| [setSessionStorePath(String value)](#setSessionStorePath-java.lang.String-) | For the description of this property, please see [getSessionStorePath()](../../com.aspose.gridweb/mainweb\#getSessionStorePath--) |
-| [setSettings(GridWorkbookSettings value)](#setSettings-com.aspose.gridweb.GridWorkbookSettings-) | For the description of this property, please see [getSettings()](../../com.aspose.gridweb/mainweb\#getSettings--) |
-| [setShowAddButton(boolean value)](#setShowAddButton-boolean-) | For the description of this property, please see [getShowAddButton()](../../com.aspose.gridweb/mainweb\#getShowAddButton--) |
-| [setShowBottomBar(boolean value)](#setShowBottomBar-boolean-) | For the description of this property, please see [getShowBottomBar()](../../com.aspose.gridweb/mainweb\#getShowBottomBar--) |
-| [setShowCellEditBox(boolean value)](#setShowCellEditBox-boolean-) | For the description of this property, please see [getShowCellEditBox()](../../com.aspose.gridweb/mainweb\#getShowCellEditBox--) |
-| [setShowCommandBarAtTop(boolean value)](#setShowCommandBarAtTop-boolean-) | For the description of this property, please see [getShowCommandBarAtTop()](../../com.aspose.gridweb/mainweb\#getShowCommandBarAtTop--) |
-| [setShowContextMenu(boolean value)](#setShowContextMenu-boolean-) | For the description of this property, please see [getShowContextMenu()](../../com.aspose.gridweb/mainweb\#getShowContextMenu--) |
-| [setShowDefaultGridLine(boolean value)](#setShowDefaultGridLine-boolean-) | For the description of this property, please see [getShowDefaultGridLine()](../../com.aspose.gridweb/mainweb\#getShowDefaultGridLine--) |
-| [setShowHeaderBar(boolean value)](#setShowHeaderBar-boolean-) | For the description of this property, please see [getShowHeaderBar()](../../com.aspose.gridweb/mainweb\#getShowHeaderBar--) |
-| [setShowLoading(boolean value)](#setShowLoading-boolean-) | For the description of this property, please see [getShowLoading()](../../com.aspose.gridweb/mainweb\#getShowLoading--) |
-| [setShowLoadingPosition(String value)](#setShowLoadingPosition-java.lang.String-) | For the description of this property, please see [getShowLoadingPosition()](../../com.aspose.gridweb/mainweb\#getShowLoadingPosition--) |
-| [setShowSaveButton(boolean value)](#setShowSaveButton-boolean-) | For the description of this property, please see [getShowSaveButton()](../../com.aspose.gridweb/mainweb\#getShowSaveButton--) |
-| [setShowSubmitButton(boolean value)](#setShowSubmitButton-boolean-) | For the description of this property, please see [getShowSubmitButton()](../../com.aspose.gridweb/mainweb\#getShowSubmitButton--) |
-| [setShowTabBar(boolean value)](#setShowTabBar-boolean-) | For the description of this property, please see [getShowTabBar()](../../com.aspose.gridweb/mainweb\#getShowTabBar--) |
-| [setShowTabNavigation(boolean value)](#setShowTabNavigation-boolean-) | For the description of this property, please see [getShowTabNavigation()](../../com.aspose.gridweb/mainweb\#getShowTabNavigation--) |
-| [setShowUndoButton(boolean value)](#setShowUndoButton-boolean-) | For the description of this property, please see [getShowUndoButton()](../../com.aspose.gridweb/mainweb\#getShowUndoButton--) |
-| [setSpanWrap(boolean value)](#setSpanWrap-boolean-) | For the description of this property, please see [getSpanWrap()](../../com.aspose.gridweb/mainweb\#getSpanWrap--) |
-| [setTabStyle(GridTableItemStyle value)](#setTabStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getTabStyle()](../../com.aspose.gridweb/mainweb\#getTabStyle--) |
-| [setUseClientPageHeight(boolean value)](#setUseClientPageHeight-boolean-) | For the description of this property, please see [getUseClientPageHeight()](../../com.aspose.gridweb/mainweb\#getUseClientPageHeight--) |
-| [setViewPanelScrollLeft(String value)](#setViewPanelScrollLeft-java.lang.String-) | For the description of this property, please see [getViewPanelScrollLeft()](../../com.aspose.gridweb/mainweb\#getViewPanelScrollLeft--) |
-| [setViewPanelScrollTop(String value)](#setViewPanelScrollTop-java.lang.String-) | For the description of this property, please see [getViewPanelScrollTop()](../../com.aspose.gridweb/mainweb\#getViewPanelScrollTop--) |
-| [setViewTableStyle(GridTableStyle value)](#setViewTableStyle-com.aspose.gridweb.GridTableStyle-) | For the description of this property, please see [getViewTableStyle()](../../com.aspose.gridweb/mainweb\#getViewTableStyle--) |
-| [setXhtmlMode(boolean value)](#setXhtmlMode-boolean-) | For the description of this property, please see [getXhtmlMode()](../../com.aspose.gridweb/mainweb\#getXhtmlMode--) |
+| [setCustomStyleFileName(String value)](#setCustomStyleFileName-java.lang.String-) | Sets the custom style file name. |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the control's default font name. |
+| [setDefaultGridLineColor(Color value)](#setDefaultGridLineColor-com.aspose.gridweb.Color-) | Sets the default grid line's color. |
+| [setDisplayCellTip(boolean value)](#setDisplayCellTip-boolean-) |  |
+| [setEditMode(boolean value)](#setEditMode-boolean-) | Sets the control's edit mode. |
+| [setEnableAJAX(boolean value)](#setEnableAJAX-boolean-) |  |
+| [setEnableAsync(boolean value)](#setEnableAsync-boolean-) | Sets whether load cells data in asynchronous way,suggest to apply for one sheet with more than 10000 cells. |
+| [setEnableClientColumnOperations(boolean value)](#setEnableClientColumnOperations-boolean-) | Sets whether to enable the client side column operations. |
+| [setEnableClientFreeze(boolean value)](#setEnableClientFreeze-boolean-) | Sets whether to enable the client side freezing operations. |
+| [setEnableClientMergeOperations(boolean value)](#setEnableClientMergeOperations-boolean-) | Sets whether to enable the client side merge operations. |
+| [setEnableClientResizeColumnRow(boolean value)](#setEnableClientResizeColumnRow-boolean-) | Sets whether to enable the client side resize column and row. |
+| [setEnableClientRowOperations(boolean value)](#setEnableClientRowOperations-boolean-) | Sets whether to enable the client side row operations. |
+| [setEnableDoubleClickEvent(boolean value)](#setEnableDoubleClickEvent-boolean-) | Sets whether to enable customer side double-click event. |
+| [setEnableMetalLightEffect(boolean value)](#setEnableMetalLightEffect-boolean-) | Sets whether to apply metal light effect. |
+| [setEnablePaging(boolean value)](#setEnablePaging-boolean-) | Sets whether to enable the control's paging mode. |
+| [setEnableStyleDialogbox(boolean value)](#setEnableStyleDialogbox-boolean-) | Sets whether to enable the client side style dialogbox. |
+| [setFilteredPaging(boolean value)](#setFilteredPaging-boolean-) | Sets whether to enable the paging after data filtered,will take affect when EnablePaging is true. |
+| [setForceValidation(boolean value)](#setForceValidation-boolean-) | Sets whether to force customer side validation. |
+| [setFrameTableStyle(GridTableStyle value)](#setFrameTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the frame style of the control. |
+| [setGoonDefaultSaveOperation(boolean value)](#setGoonDefaultSaveOperation-boolean-) | Sets whether GridWeb will do the default save operation ,the default value is true. |
+| [setHeaderBarStyle(GridTableItemStyle value)](#setHeaderBarStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the header bar's style. |
+| [setHeaderBarTableStyle(GridTableStyle value)](#setHeaderBarTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the header bar style of the control. |
+| [setIgnoreStyleWithNoData(boolean value)](#setIgnoreStyleWithNoData-boolean-) | Sets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. |
+| [setMaxColumn(int value)](#setMaxColumn-int-) | Sets the maximum display column index(zero based) of the web sheet. |
+| [setMaxRow(int value)](#setMaxRow-int-) | Sets the maximum display row index(zero based) of the web sheet. |
+| [setMessage(String value)](#setMessage-java.lang.String-) |  |
+| [setMinColumn(int value)](#setMinColumn-int-) |  |
+| [setMinRow(int value)](#setMinRow-int-) | Sets the minimum display row index(zero based) of the web sheet. |
+| [setNeedRenderGroupRows(boolean value)](#setNeedRenderGroupRows-boolean-) | Sets whether to show grouprows . |
+| [setNoHScroll(boolean value)](#setNoHScroll-boolean-) | Sets a value indicating whether the horizontal scroll bar is hidden. |
+| [setNoScroll(boolean value)](#setNoScroll-boolean-) |  |
+| [setNoVScroll(boolean value)](#setNoVScroll-boolean-) | Sets a value indicating whether the vertical scroll bar is hidden. |
+| [setOnAjaxCallFinishedClientFunction(String value)](#setOnAjaxCallFinishedClientFunction-java.lang.String-) | Sets the client side function name to be called when ajaxcall finished. |
+| [setOnCellErrorClientFunction(String value)](#setOnCellErrorClientFunction-java.lang.String-) | Sets the client side function name to be called when a cell's validation is failed. |
+| [setOnCellSelectedAjaxCallBackClientFunction(String value)](#setOnCellSelectedAjaxCallBackClientFunction-java.lang.String-) | Sets the client side function to be called when a cell is selected. |
+| [setOnCellSelectedClientFunction(String value)](#setOnCellSelectedClientFunction-java.lang.String-) | Sets the client side function to be called when a cell is selected. |
+| [setOnCellUnselectedClientFunction(String value)](#setOnCellUnselectedClientFunction-java.lang.String-) | Sets the client side function to be called when a cell is unselected. |
+| [setOnCellUpdatedClientFunction(String value)](#setOnCellUpdatedClientFunction-java.lang.String-) | Sets the client side function name to be called when a cell's value is updated. |
+| [setOnContextMenuShowClientFunction(String value)](#setOnContextMenuShowClientFunction-java.lang.String-) | Sets the client side function to be called when the context menu will be shown. |
+| [setOnDoubleClickCellClientFunction(String value)](#setOnDoubleClickCellClientFunction-java.lang.String-) | Sets the client side function to be called when a cell is double clicked. |
+| [setOnDoubleClickRowClientFunction(String value)](#setOnDoubleClickRowClientFunction-java.lang.String-) | Sets the client side function to be called when a row is double clicked. |
+| [setOnGridInitClientFunction(String value)](#setOnGridInitClientFunction-java.lang.String-) | Sets the client side function name to be called when the grid is initialized. |
+| [setOnPageChangeClientFunction(String value)](#setOnPageChangeClientFunction-java.lang.String-) | Sets the client side function to be called after page index changing.only take effect when EnablePaging is true. |
+| [setOnPageSubmitClientFunction(String value)](#setOnPageSubmitClientFunction-java.lang.String-) | Sets the client function to be called before the page is submitted at client side. |
+| [setOnShapeSelectedClientFunction(String value)](#setOnShapeSelectedClientFunction-java.lang.String-) | Sets the client side function to be called when a shape is selected. |
+| [setOnSubmitClientFunction(String value)](#setOnSubmitClientFunction-java.lang.String-) | Sets the client function to be called before the control is submitted at client side. |
+| [setOnlyAuto(boolean value)](#setOnlyAuto-boolean-) | Sets whether only fit the rows which height are not customed,the default value is false |
+| [setPageSize(int value)](#setPageSize-int-) | Sets the page size in paging mode. |
+| [setPictureCachePath(String value)](#setPictureCachePath-java.lang.String-) | Sets the image storage path for the workbook,all the shapes,images will be stored in this directory, the default path is acwcache under current application Base Directory users need to implement a schedule service to clean the files those are out of session time. |
+| [setPresetStyle(int value)](#setPresetStyle-int-) | Sets the preset style. |
+| [setRefreshValidation(boolean value)](#setRefreshValidation-boolean-) | Sets whether to refresh validation value after cell value changes. |
+| [setRenderHiddenRow(boolean value)](#setRenderHiddenRow-boolean-) | Sets whether the hidden row is rendered in GridControl,the default value is false. |
+| [setScrollBarArrowColor(Color value)](#setScrollBarArrowColor-com.aspose.gridweb.Color-) | Specifies the color of the scrollbar's arrow button. |
+| [setScrollBarBaseColor(Color value)](#setScrollBarBaseColor-com.aspose.gridweb.Color-) | Specifies the color of the scroll bar of the control. |
+| [setSelectCellBgColor(Color value)](#setSelectCellBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the selected cells in multi-select range. |
+| [setSelectCellColor(Color value)](#setSelectCellColor-com.aspose.gridweb.Color-) | Specifies the color of the selected cells in multi-select range. |
+| [setSessionLoaded(boolean value)](#setSessionLoaded-boolean-) |  |
+| [setSessionMode(int value)](#setSessionMode-int-) | Sets the session mode of the grid. |
+| [setSessionSaved(boolean value)](#setSessionSaved-boolean-) |  |
+| [setSessionStorePath(String value)](#setSessionStorePath-java.lang.String-) | Sets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
+| [setSettings(GridWorkbookSettings value)](#setSettings-com.aspose.gridweb.GridWorkbookSettings-) | Represents the workbook settings. |
+| [setShowAddButton(boolean value)](#setShowAddButton-boolean-) | Sets whether to show the add worksheet button. |
+| [setShowBottomBar(boolean value)](#setShowBottomBar-boolean-) |  |
+| [setShowCellEditBox(boolean value)](#setShowCellEditBox-boolean-) | whether Gridweb shows edit box toolbar as in MS-EXCEL.if enable ,a edit box for current cell will display in Gridweb. |
+| [setShowCommandBarAtTop(boolean value)](#setShowCommandBarAtTop-boolean-) | Specifies whether to show the command bar(includes command bar and tab bar) at the top of the control. |
+| [setShowContextMenu(boolean value)](#setShowContextMenu-boolean-) |  |
+| [setShowDefaultGridLine(boolean value)](#setShowDefaultGridLine-boolean-) | Sets whether to show the default grid lines of the cells. |
+| [setShowHeaderBar(boolean value)](#setShowHeaderBar-boolean-) |  |
+| [setShowLoading(boolean value)](#setShowLoading-boolean-) | Specifies whether to show a loading dialogbox while postbacking to server. |
+| [setShowLoadingPosition(String value)](#setShowLoadingPosition-java.lang.String-) | Specifies the left,top postion(in px) to show the loading dialogbox while postbacking to server ,etc. 100,200 means the loading dialogbox's left,top postion is at 100px,200px . |
+| [setShowSaveButton(boolean value)](#setShowSaveButton-boolean-) | Sets whether to show the save button. |
+| [setShowSubmitButton(boolean value)](#setShowSubmitButton-boolean-) | Sets whether to show the submit button. |
+| [setShowTabBar(boolean value)](#setShowTabBar-boolean-) |  |
+| [setShowTabNavigation(boolean value)](#setShowTabNavigation-boolean-) | Sets whether the tab navigation button is show,the default value is true. |
+| [setShowUndoButton(boolean value)](#setShowUndoButton-boolean-) | Sets whether to show the undo button. |
+| [setSpanWrap(boolean value)](#setSpanWrap-boolean-) | Specifies whether to wrap content in the cell span.the default value is true. |
+| [setTabStyle(GridTableItemStyle value)](#setTabStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the style of the tab bar. |
+| [setUseClientPageHeight(boolean value)](#setUseClientPageHeight-boolean-) | Sets whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false |
+| [setViewPanelScrollLeft(String value)](#setViewPanelScrollLeft-java.lang.String-) | Sets the position of the scroll bar of the grid's view panel. |
+| [setViewPanelScrollTop(String value)](#setViewPanelScrollTop-java.lang.String-) | Sets the position of the scroll bar of the grid's view panel. |
+| [setViewTableStyle(GridTableStyle value)](#setViewTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the data view panel's style. |
+| [setXhtmlMode(boolean value)](#setXhtmlMode-boolean-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -537,7 +537,7 @@ public String getACWClientPath()
 ```
 
 
-the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the <configuration> section:
+Gets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the <configuration> section:
 <appSettings>
 
 <add key="aspose.cells.gridweb.acw\_client\_path" value="/acw\_client/" />
@@ -553,7 +553,7 @@ public String getACWLanguageFileUrl()
 ```
 
 
-the web url of the language file of the control. For example: "/acw\_client/lang\_en.js".
+Gets the web url of the language file of the control. For example: "/acw\_client/lang\_en.js".
 By default, a built-in english file is used.
 
 
@@ -565,7 +565,7 @@ public GridCell getActiveCell()
 ```
 
 
-the active cell of the current sheet. Changed to be writable since version 1.9.0.1.
+Gets the active cell of the current sheet. Changed to be writable since version 1.9.0.1.
 
 **Returns:**
 [GridCell](../../com.aspose.gridweb/gridcell)
@@ -625,7 +625,7 @@ public int getActiveSheetIndex()
 ```
 
 
-the active sheet index. Equal to the WebWorksheets.ActiveSheetIndex.
+Gets the active sheet index. Equal to the WebWorksheets.ActiveSheetIndex.
 
 **Returns:**
 int
@@ -645,7 +645,7 @@ public boolean getAutoRefreshChart()
 ```
 
 
-whether the Chart image is updated while updating the cell value.the default is true
+Gets whether the Chart image is updated while updating the cell value.the default is true
 
 **Returns:**
 boolean
@@ -665,7 +665,7 @@ public GridTableStyle getBottomTableStyle()
 ```
 
 
-the style of the bottom bar of the control.
+Gets the style of the bottom bar of the control.
 
 **Returns:**
 [GridTableStyle](../../com.aspose.gridweb/gridtablestyle)
@@ -715,7 +715,7 @@ public String getCustomStyleFileName()
 ```
 
 
-the custom style file name. The custom style file is an XML file. When sets the file name, the file will be loaded immediately. Hear is the content of the "standard preset style" ------------------------------------------------------- <Aspose.Cells.GridWeb.ViewerStyleTemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="Gray" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="\#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-CellPadding="1" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="White" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-BorderColor="Gray" TabStyle-ForeColor="Black" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="\#E0E0E0" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" ScrollBarArrowColor=""></Aspose.Cells.GridWeb.ViewerStyleTemplate>
+Gets the custom style file name. The custom style file is an XML file. When sets the file name, the file will be loaded immediately. Hear is the content of the "standard preset style" ------------------------------------------------------- <Aspose.Cells.GridWeb.ViewerStyleTemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="Gray" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="\#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-CellPadding="1" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="White" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-BorderColor="Gray" TabStyle-ForeColor="Black" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="\#E0E0E0" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" ScrollBarArrowColor=""></Aspose.Cells.GridWeb.ViewerStyleTemplate>
 
 ```
 GridWeb1.setCustomStyleFileName("c:\\style\\mystyle.xml");
@@ -729,7 +729,7 @@ public String getDefaultFontName()
 ```
 
 
-the control's default font name.
+Gets the control's default font name.
 
 ```
 GridWeb1.setDefaultFontName("Arial");
@@ -743,7 +743,7 @@ public Color getDefaultGridLineColor()
 ```
 
 
-the default grid line's color.
+Gets the default grid line's color.
 
 ```
 GridWeb1.setDefaultGridLineColor(Color.getRed());
@@ -767,7 +767,7 @@ public boolean getEditMode()
 ```
 
 
-the control's edit mode. When sets to true, the control's cells are editable, and the "save" and the "undo" icon are displayed. When sets to false, the control's cells are readonly, and the "save" and the "undo" icon are not displayed.
+Gets the control's edit mode. When sets to true, the control's cells are editable, and the "save" and the "undo" icon are displayed. When sets to false, the control's cells are readonly, and the "save" and the "undo" icon are not displayed.
 
 **Returns:**
 boolean
@@ -787,7 +787,7 @@ public boolean getEnableAsync()
 ```
 
 
-whether load cells data in asynchronous way,suggest to apply for one sheet with more than 10000 cells.
+Gets whether load cells data in asynchronous way,suggest to apply for one sheet with more than 10000 cells.
 
 **Returns:**
 boolean
@@ -797,7 +797,7 @@ public boolean getEnableClientColumnOperations()
 ```
 
 
-whether to enable the client side column operations. When sets to true, the user can use the right-click menu to add/remove columns.
+Gets whether to enable the client side column operations. When sets to true, the user can use the right-click menu to add/remove columns.
 
 **Returns:**
 boolean
@@ -807,7 +807,7 @@ public boolean getEnableClientFreeze()
 ```
 
 
-whether to enable the client side freezing operations. When sets to true, the user can use the right-click menu to freeze/unfreeze panes.
+Gets whether to enable the client side freezing operations. When sets to true, the user can use the right-click menu to freeze/unfreeze panes.
 
 **Returns:**
 boolean
@@ -817,7 +817,7 @@ public boolean getEnableClientMergeOperations()
 ```
 
 
-whether to enable the client side merge operations. When sets to true, the user can use the right-click menu to merge/unmerge cells.
+Gets whether to enable the client side merge operations. When sets to true, the user can use the right-click menu to merge/unmerge cells.
 
 **Returns:**
 boolean
@@ -827,7 +827,7 @@ public boolean getEnableClientResizeColumnRow()
 ```
 
 
-whether to enable the client side resize column and row. When sets to true, the user can resize the column and row at client side.
+Gets whether to enable the client side resize column and row. When sets to true, the user can resize the column and row at client side.
 
 **Returns:**
 boolean
@@ -837,7 +837,7 @@ public boolean getEnableClientRowOperations()
 ```
 
 
-whether to enable the client side row operations. When sets to true, the user can use the right-click menu to add/remove rows.
+Gets whether to enable the client side row operations. When sets to true, the user can use the right-click menu to add/remove rows.
 
 **Returns:**
 boolean
@@ -847,7 +847,7 @@ public boolean getEnableDoubleClickEvent()
 ```
 
 
-whether to enable customer side double-click event. When sets to true, the control will receive customer side double-click events and you may handle these events on the server side. Otherwise the control will ignore any double-click events.
+Gets whether to enable customer side double-click event. When sets to true, the control will receive customer side double-click events and you may handle these events on the server side. Otherwise the control will ignore any double-click events.
 
 **Returns:**
 boolean
@@ -857,7 +857,7 @@ public boolean getEnableMetalLightEffect()
 ```
 
 
-whether to apply metal light effect.
+Gets whether to apply metal light effect.
 
 **Returns:**
 boolean
@@ -867,7 +867,7 @@ public boolean getEnablePaging()
 ```
 
 
-whether to enable the control's paging mode. When sets to true, the control will display PageSize rows of data once, and display the page select control in the tab bar.
+Gets whether to enable the control's paging mode. When sets to true, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Returns:**
 boolean
@@ -877,7 +877,7 @@ public boolean getEnableStyleDialogbox()
 ```
 
 
-whether to enable the client side style dialogbox. When sets to true, the user can use the style dialogbox to set a cell's style by selecting the "Format Cell..." from the popup menu.
+Gets whether to enable the client side style dialogbox. When sets to true, the user can use the style dialogbox to set a cell's style by selecting the "Format Cell..." from the popup menu.
 
 **Returns:**
 boolean
@@ -887,7 +887,7 @@ public boolean getFilteredPaging()
 ```
 
 
-whether to enable the paging after data filtered,will take affect when EnablePaging is true. When sets to true, the control will paging based on filtered data,the default value is false.
+Gets whether to enable the paging after data filtered,will take affect when EnablePaging is true. When sets to true, the control will paging based on filtered data,the default value is false.
 
 **Returns:**
 boolean
@@ -897,7 +897,7 @@ public boolean getForceValidation()
 ```
 
 
-whether to force customer side validation. When sets to true, data will not post to server until all input fields are valid.
+Gets whether to force customer side validation. When sets to true, data will not post to server until all input fields are valid.
 
 **Returns:**
 boolean
@@ -907,7 +907,7 @@ public GridTableStyle getFrameTableStyle()
 ```
 
 
-the frame style of the control.
+Gets the frame style of the control.
 
 **Returns:**
 [GridTableStyle](../../com.aspose.gridweb/gridtablestyle)
@@ -917,7 +917,7 @@ public boolean getGoonDefaultSaveOperation()
 ```
 
 
-whether GridWeb will do the default save operation ,the default value is true.
+Gets whether GridWeb will do the default save operation ,the default value is true.
 
 **Returns:**
 boolean
@@ -947,7 +947,7 @@ public GridTableItemStyle getHeaderBarStyle()
 ```
 
 
-the header bar's style.
+Gets the header bar's style.
 
 **Returns:**
 [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle)
@@ -957,7 +957,7 @@ public GridTableStyle getHeaderBarTableStyle()
 ```
 
 
-the header bar style of the control.
+Gets the header bar style of the control.
 
 **Returns:**
 [GridTableStyle](../../com.aspose.gridweb/gridtablestyle)
@@ -967,7 +967,7 @@ public boolean getIgnoreStyleWithNoData()
 ```
 
 
-whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. If set to true, the performance will be better. The default value is false, which means that if the last consecutive row/column has no cell values but is styled, we will still display them. This option is only valid when EnableAsync is false. This option has no effect when EnableAsync is true, which means GridWeb will show all rows/columns with style.
+Gets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. If set to true, the performance will be better. The default value is false, which means that if the last consecutive row/column has no cell values but is styled, we will still display them. This option is only valid when EnableAsync is false. This option has no effect when EnableAsync is true, which means GridWeb will show all rows/columns with style.
 
 **Returns:**
 boolean
@@ -987,7 +987,7 @@ public int getMaxColumn()
 ```
 
 
-the maximum display column index(zero based) of the web sheet. The control uses the greater value of MaxColumn and sheet data's max column.
+Gets the maximum display column index(zero based) of the web sheet. The control uses the greater value of MaxColumn and sheet data's max column.
 
 ```
 // Creates a 4x4 "display window".
@@ -1005,7 +1005,7 @@ public int getMaxRow()
 ```
 
 
-the maximum display row index(zero based) of the web sheet. The control uses the greater value of MaxRow and sheet data's max row.
+Gets the maximum display row index(zero based) of the web sheet. The control uses the greater value of MaxRow and sheet data's max row.
 
 ```
 // Creates a 4x4 "display window".
@@ -1043,7 +1043,7 @@ public int getMinRow()
 ```
 
 
-the minimum display row index(zero based) of the web sheet. The control uses the smaller value of MinRow and sheet data's min row.
+Gets the minimum display row index(zero based) of the web sheet. The control uses the smaller value of MinRow and sheet data's min row.
 
 ```
 // Creates a 4x4 "display window".
@@ -1071,7 +1071,7 @@ public boolean getNeedRenderGroupRows()
 ```
 
 
-whether to show grouprows .
+Gets whether to show grouprows .
 
 **Returns:**
 boolean
@@ -1081,7 +1081,7 @@ public boolean getNoHScroll()
 ```
 
 
-a value indicating whether the horizontal scroll bar is hidden.
+Gets a value indicating whether the horizontal scroll bar is hidden.
 
 **Returns:**
 boolean
@@ -1101,7 +1101,7 @@ public boolean getNoVScroll()
 ```
 
 
-a value indicating whether the vertical scroll bar is hidden.
+Gets a value indicating whether the vertical scroll bar is hidden.
 
 **Returns:**
 boolean
@@ -1111,7 +1111,7 @@ public String getOnAjaxCallFinishedClientFunction()
 ```
 
 
-the client side function name to be called when ajaxcall finished. The client function should be declared like this:
+Gets the client side function name to be called when ajaxcall finished. The client function should be declared like this:
 function GridAjaxcallFinished()
 \{
 alert(this.id+" ajaxcall finished ");
@@ -1127,7 +1127,7 @@ public String getOnCellErrorClientFunction()
 ```
 
 
-the client side function name to be called when a cell's validation is failed. The client function should be declared like this:
+Gets the client side function name to be called when a cell's validation is failed. The client function should be declared like this:
 function MyOnCellError(cell)
 \{
 alert(GridWeb1.getCellValueByCell(cell));
@@ -1143,7 +1143,7 @@ public String getOnCellSelectedAjaxCallBackClientFunction()
 ```
 
 
-the client side function to be called when a cell is selected. The client function should be declared like this:
+Gets the client side function to be called when a cell is selected. The client function should be declared like this:
 function MyOnSelectCellAjaxCallBack(cell,customerdata)
 \{
 
@@ -1159,7 +1159,7 @@ public String getOnCellSelectedClientFunction()
 ```
 
 
-the client side function to be called when a cell is selected. The client function should be declared like this:
+Gets the client side function to be called when a cell is selected. The client function should be declared like this:
 function MyOnSelectCell(cell)
 \{
 GridWeb1.setCellValueByCell(cell, "test");
@@ -1175,7 +1175,7 @@ public String getOnCellUnselectedClientFunction()
 ```
 
 
-the client side function to be called when a cell is unselected. The client function should be declared like this:
+Gets the client side function to be called when a cell is unselected. The client function should be declared like this:
 function MyOnUnselectCell(cell)
 \{
 GridWeb1.setCellValueByCell(cell, "test");
@@ -1191,7 +1191,7 @@ public String getOnCellUpdatedClientFunction()
 ```
 
 
-the client side function name to be called when a cell's value is updated. The client function should be declared like this:
+Gets the client side function name to be called when a cell's value is updated. The client function should be declared like this:
 function MyOnCellUpdated(cell)
 \{
 alert(this.getCellValueByCell(cell));
@@ -1207,7 +1207,7 @@ public String getOnContextMenuShowClientFunction()
 ```
 
 
-the client side function to be called when the context menu will be shown. The client function should be declared like this:
+Gets the client side function to be called when the context menu will be shown. The client function should be declared like this:
 function onContextMenuShow()
 \{
 var menu = event.srcElement;
@@ -1225,7 +1225,7 @@ public String getOnDoubleClickCellClientFunction()
 ```
 
 
-the client side function to be called when a cell is double clicked. The client function should be declared like this:
+Gets the client side function to be called when a cell is double clicked. The client function should be declared like this:
 function MyOnDoubleClickCell(cell)
 \{
 GridWeb1.setCellValueByCell(cell, "test");
@@ -1241,7 +1241,7 @@ public String getOnDoubleClickRowClientFunction()
 ```
 
 
-the client side function to be called when a row is double clicked. The client function should be declared like this:
+Gets the client side function to be called when a row is double clicked. The client function should be declared like this:
 function MyOnRowDoubleClick(row)
 \{
 alert(row);
@@ -1257,7 +1257,7 @@ public String getOnGridInitClientFunction()
 ```
 
 
-the client side function name to be called when the grid is initialized. The client function should be declared like this:
+Gets the client side function name to be called when the grid is initialized. The client function should be declared like this:
 function MyOnGridInit(grid)
 \{
 alert("The grid is initialized: " + grid.id);
@@ -1273,7 +1273,7 @@ public String getOnPageChangeClientFunction()
 ```
 
 
-the client side function to be called after page index changing.only take effect when EnablePaging is true. The client function should be declared like this:
+Gets the client side function to be called after page index changing.only take effect when EnablePaging is true. The client function should be declared like this:
 function MyOnPageChange(index)
 \{
 console.log("current page is:"+index);
@@ -1289,7 +1289,7 @@ public String getOnPageSubmitClientFunction()
 ```
 
 
-the client function to be called before the page is submitted at client side.
+Gets the client function to be called before the page is submitted at client side.
 
 **Returns:**
 java.lang.String
@@ -1299,7 +1299,7 @@ public String getOnShapeSelectedClientFunction()
 ```
 
 
-the client side function to be called when a shape is selected. The client function should be declared like this:
+Gets the client side function to be called when a shape is selected. The client function should be declared like this:
 function MyOnSelectShape(shape)
 \{
 var name=shape.getAttribute("namevalue")
@@ -1318,7 +1318,7 @@ public String getOnSubmitClientFunction()
 ```
 
 
-the client function to be called before the control is submitted at client side. The client function should be declared like this:
+Gets the client function to be called before the control is submitted at client side. The client function should be declared like this:
 function MyOnSubmit(arg, cancelEdit)
 \{
 return true;
@@ -1334,7 +1334,7 @@ public boolean getOnlyAuto()
 ```
 
 
-whether only fit the rows which height are not customed,the default value is false
+Gets whether only fit the rows which height are not customed,the default value is false
 
 **Returns:**
 boolean
@@ -1344,7 +1344,7 @@ public int getPageSize()
 ```
 
 
-the page size in paging mode. When in paging mode, the control will display PageSize rows of data once, and display the page select control in the tab bar.
+Gets the page size in paging mode. When in paging mode, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Returns:**
 int
@@ -1354,7 +1354,7 @@ public static String getPictureCachePath()
 ```
 
 
-the image storage path for the workbook,all the shapes,images will be stored in this directory, the default path is acwcache under current application Base Directory users need to implement a schedule service to clean the files those are out of session time.
+Gets the image storage path for the workbook,all the shapes,images will be stored in this directory, the default path is acwcache under current application Base Directory users need to implement a schedule service to clean the files those are out of session time.
 
 **Returns:**
 java.lang.String
@@ -1374,7 +1374,7 @@ public int getPresetStyle()
 ```
 
 
-the preset style.
+Gets the preset style.
 
 ```
 GridWeb1.setPresetStyle(PresetStyle.TRADITIONAL_1);
@@ -1388,7 +1388,7 @@ public boolean getRefreshValidation()
 ```
 
 
-whether to refresh validation value after cell value changes.
+Gets whether to refresh validation value after cell value changes.
 
 **Returns:**
 boolean
@@ -1398,7 +1398,7 @@ public boolean getRenderHiddenRow()
 ```
 
 
-whether the hidden row is rendered in GridControl,the default value is false. if you need to unhide the hidden row latter ,you shall set it as true
+Gets whether the hidden row is rendered in GridControl,the default value is false. if you need to unhide the hidden row latter ,you shall set it as true
 
 **Returns:**
 boolean
@@ -1458,7 +1458,7 @@ public int getSessionMode()
 ```
 
 
-the session mode of the grid. There are 4 type of session mode:
+Gets the session mode of the grid. There are 4 type of session mode:
 1. Session(default): Use system session to store sheet data.
 Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
 2. ViewState: Use page's viewstate to store sheet data.
@@ -1488,7 +1488,7 @@ public String getSessionStorePath()
 ```
 
 
-the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session
+Gets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session
 
 **Returns:**
 java.lang.String
@@ -1518,7 +1518,7 @@ public boolean getShowAddButton()
 ```
 
 
-whether to show the add worksheet button.
+Gets whether to show the add worksheet button.
 
 **Returns:**
 boolean
@@ -1568,7 +1568,7 @@ public boolean getShowDefaultGridLine()
 ```
 
 
-whether to show the default grid lines of the cells.
+Gets whether to show the default grid lines of the cells.
 
 **Returns:**
 boolean
@@ -1608,7 +1608,7 @@ public boolean getShowSaveButton()
 ```
 
 
-whether to show the save button.
+Gets whether to show the save button.
 
 **Returns:**
 boolean
@@ -1618,7 +1618,7 @@ public boolean getShowSubmitButton()
 ```
 
 
-whether to show the submit button.
+Gets whether to show the submit button.
 
 **Returns:**
 boolean
@@ -1638,7 +1638,7 @@ public boolean getShowTabNavigation()
 ```
 
 
-whether the tab navigation button is show,the default value is true.
+Gets whether the tab navigation button is show,the default value is true.
 
 **Returns:**
 boolean
@@ -1648,7 +1648,7 @@ public boolean getShowUndoButton()
 ```
 
 
-whether to show the undo button.
+Gets whether to show the undo button.
 
 **Returns:**
 boolean
@@ -1668,7 +1668,7 @@ public GridTableItemStyle getTabStyle()
 ```
 
 
-the style of the tab bar.
+Gets the style of the tab bar.
 
 **Returns:**
 [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle)
@@ -1678,7 +1678,7 @@ public boolean getUseClientPageHeight()
 ```
 
 
-whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false
+Gets whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false
 
 **Returns:**
 boolean
@@ -1698,7 +1698,7 @@ public String getViewPanelScrollLeft()
 ```
 
 
-the position of the scroll bar of the grid's view panel.
+Gets the position of the scroll bar of the grid's view panel.
 
 **Returns:**
 java.lang.String
@@ -1708,7 +1708,7 @@ public String getViewPanelScrollTop()
 ```
 
 
-the position of the scroll bar of the grid's view panel.
+Gets the position of the scroll bar of the grid's view panel.
 
 **Returns:**
 java.lang.String
@@ -1718,7 +1718,7 @@ public GridTableStyle getViewTableStyle()
 ```
 
 
-the data view panel's style.
+Gets the data view panel's style.
 
 **Returns:**
 [GridTableStyle](../../com.aspose.gridweb/gridtablestyle)
@@ -1820,7 +1820,7 @@ public boolean isCalculateFormula()
 ```
 
 
-whether to calculate formula after cell value changes or after import File. The default value is true.
+Gets whether to calculate formula after cell value changes or after import File. The default value is true.
 
 **Returns:**
 boolean
@@ -2123,7 +2123,13 @@ public void setACWClientPath(String value)
 ```
 
 
-For the description of this property, please see [getACWClientPath()](../../com.aspose.gridweb/mainweb\#getACWClientPath--)
+Sets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the <configuration> section:
+<appSettings>
+
+<add key="aspose.cells.gridweb.acw\_client\_path" value="/acw\_client/" />
+
+</appSettings>
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2136,7 +2142,9 @@ public void setACWLanguageFileUrl(String value)
 ```
 
 
-For the description of this property, please see [getACWLanguageFileUrl()](../../com.aspose.gridweb/mainweb\#getACWLanguageFileUrl--)
+Sets the web url of the language file of the control. For example: "/acw\_client/lang\_en.js".
+By default, a built-in english file is used.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2149,7 +2157,7 @@ public void setActiveCell(GridCell value)
 ```
 
 
-For the description of this property, please see [getActiveCell()](../../com.aspose.gridweb/mainweb\#getActiveCell--)
+Sets the active cell of the current sheet. Changed to be writable since version 1.9.0.1.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2162,7 +2170,7 @@ public void setActiveCellBgColor(Color value)
 ```
 
 
-For the description of this property, please see [getActiveCellBgColor()](../../com.aspose.gridweb/mainweb\#getActiveCellBgColor--)
+Specifies the background color of the active cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2175,7 +2183,7 @@ public void setActiveCellColor(Color value)
 ```
 
 
-For the description of this property, please see [getActiveCellColor()](../../com.aspose.gridweb/mainweb\#getActiveCellColor--)
+Specifies the color of the active cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2188,7 +2196,7 @@ public void setActiveHeaderBgColor(Color value)
 ```
 
 
-For the description of this property, please see [getActiveHeaderBgColor()](../../com.aspose.gridweb/mainweb\#getActiveHeaderBgColor--)
+Specifies the background color of the active row/column header.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2201,7 +2209,7 @@ public void setActiveHeaderColor(Color value)
 ```
 
 
-For the description of this property, please see [getActiveHeaderColor()](../../com.aspose.gridweb/mainweb\#getActiveHeaderColor--)
+Specifies the color of the active row/column header.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2214,7 +2222,7 @@ public void setActiveSheetIndex(int value)
 ```
 
 
-For the description of this property, please see [getActiveSheetIndex()](../../com.aspose.gridweb/mainweb\#getActiveSheetIndex--)
+Sets the active sheet index. Equal to the WebWorksheets.ActiveSheetIndex.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2227,7 +2235,7 @@ public void setActiveTabStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getActiveTabStyle()](../../com.aspose.gridweb/mainweb\#getActiveTabStyle--)
+Specifies the style of the active tab.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2240,7 +2248,7 @@ public void setAutoRefreshChart(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoRefreshChart()](../../com.aspose.gridweb/mainweb\#getAutoRefreshChart--)
+Sets whether the Chart image is updated while updating the cell value.the default is true
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2266,7 +2274,7 @@ public void setBottomTableStyle(GridTableStyle value)
 ```
 
 
-For the description of this property, please see [getBottomTableStyle()](../../com.aspose.gridweb/mainweb\#getBottomTableStyle--)
+Sets the style of the bottom bar of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2279,7 +2287,7 @@ public void setCalculateFormula(boolean value)
 ```
 
 
-For the description of this property, please see [isCalculateFormula()](../../com.aspose.gridweb/mainweb\#isCalculateFormula--)
+Sets whether to calculate formula after cell value changes or after import File. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2292,7 +2300,7 @@ public void setCurrentPageIndex(int value)
 ```
 
 
-For the description of this property, please see [getCurrentPageIndex()](../../com.aspose.gridweb/mainweb\#getCurrentPageIndex--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2305,7 +2313,7 @@ public void setCustomCalculationEngine(GridAbstractCalculationEngine value)
 ```
 
 
-For the description of this property, please see [getCustomCalculationEngine()](../../com.aspose.gridweb/mainweb\#getCustomCalculationEngine--)
+Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2331,7 +2339,7 @@ public void setCustomStyleFileName(String value)
 ```
 
 
-For the description of this property, please see [getCustomStyleFileName()](../../com.aspose.gridweb/mainweb\#getCustomStyleFileName--)
+Sets the custom style file name. The custom style file is an XML file. When sets the file name, the file will be loaded immediately. Hear is the content of the "standard preset style" ------------------------------------------------------- <Aspose.Cells.GridWeb.ViewerStyleTemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="Gray" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="\#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-CellPadding="1" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="White" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-BorderColor="Gray" TabStyle-ForeColor="Black" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="\#E0E0E0" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" ScrollBarArrowColor=""></Aspose.Cells.GridWeb.ViewerStyleTemplate>
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2344,7 +2352,7 @@ public void setDefaultFontName(String value)
 ```
 
 
-For the description of this property, please see [getDefaultFontName()](../../com.aspose.gridweb/mainweb\#getDefaultFontName--)
+Sets the control's default font name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2357,7 +2365,7 @@ public void setDefaultGridLineColor(Color value)
 ```
 
 
-For the description of this property, please see [getDefaultGridLineColor()](../../com.aspose.gridweb/mainweb\#getDefaultGridLineColor--)
+Sets the default grid line's color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2370,7 +2378,7 @@ public void setDisplayCellTip(boolean value)
 ```
 
 
-For the description of this property, please see [getDisplayCellTip()](../../com.aspose.gridweb/mainweb\#getDisplayCellTip--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2383,7 +2391,7 @@ public void setEditMode(boolean value)
 ```
 
 
-For the description of this property, please see [getEditMode()](../../com.aspose.gridweb/mainweb\#getEditMode--)
+Sets the control's edit mode. When sets to true, the control's cells are editable, and the "save" and the "undo" icon are displayed. When sets to false, the control's cells are readonly, and the "save" and the "undo" icon are not displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2396,7 +2404,7 @@ public void setEnableAJAX(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableAJAX()](../../com.aspose.gridweb/mainweb\#getEnableAJAX--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2409,7 +2417,7 @@ public void setEnableAsync(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableAsync()](../../com.aspose.gridweb/mainweb\#getEnableAsync--)
+Sets whether load cells data in asynchronous way,suggest to apply for one sheet with more than 10000 cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2422,7 +2430,7 @@ public void setEnableClientColumnOperations(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableClientColumnOperations()](../../com.aspose.gridweb/mainweb\#getEnableClientColumnOperations--)
+Sets whether to enable the client side column operations. When sets to true, the user can use the right-click menu to add/remove columns.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2435,7 +2443,7 @@ public void setEnableClientFreeze(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableClientFreeze()](../../com.aspose.gridweb/mainweb\#getEnableClientFreeze--)
+Sets whether to enable the client side freezing operations. When sets to true, the user can use the right-click menu to freeze/unfreeze panes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2448,7 +2456,7 @@ public void setEnableClientMergeOperations(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableClientMergeOperations()](../../com.aspose.gridweb/mainweb\#getEnableClientMergeOperations--)
+Sets whether to enable the client side merge operations. When sets to true, the user can use the right-click menu to merge/unmerge cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2461,7 +2469,7 @@ public void setEnableClientResizeColumnRow(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableClientResizeColumnRow()](../../com.aspose.gridweb/mainweb\#getEnableClientResizeColumnRow--)
+Sets whether to enable the client side resize column and row. When sets to true, the user can resize the column and row at client side.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2474,7 +2482,7 @@ public void setEnableClientRowOperations(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableClientRowOperations()](../../com.aspose.gridweb/mainweb\#getEnableClientRowOperations--)
+Sets whether to enable the client side row operations. When sets to true, the user can use the right-click menu to add/remove rows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2487,7 +2495,7 @@ public void setEnableDoubleClickEvent(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableDoubleClickEvent()](../../com.aspose.gridweb/mainweb\#getEnableDoubleClickEvent--)
+Sets whether to enable customer side double-click event. When sets to true, the control will receive customer side double-click events and you may handle these events on the server side. Otherwise the control will ignore any double-click events.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2500,7 +2508,7 @@ public void setEnableMetalLightEffect(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableMetalLightEffect()](../../com.aspose.gridweb/mainweb\#getEnableMetalLightEffect--)
+Sets whether to apply metal light effect.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2513,7 +2521,7 @@ public void setEnablePaging(boolean value)
 ```
 
 
-For the description of this property, please see [getEnablePaging()](../../com.aspose.gridweb/mainweb\#getEnablePaging--)
+Sets whether to enable the control's paging mode. When sets to true, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2526,7 +2534,7 @@ public void setEnableStyleDialogbox(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableStyleDialogbox()](../../com.aspose.gridweb/mainweb\#getEnableStyleDialogbox--)
+Sets whether to enable the client side style dialogbox. When sets to true, the user can use the style dialogbox to set a cell's style by selecting the "Format Cell..." from the popup menu.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2539,7 +2547,7 @@ public void setFilteredPaging(boolean value)
 ```
 
 
-For the description of this property, please see [getFilteredPaging()](../../com.aspose.gridweb/mainweb\#getFilteredPaging--)
+Sets whether to enable the paging after data filtered,will take affect when EnablePaging is true. When sets to true, the control will paging based on filtered data,the default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2552,7 +2560,7 @@ public void setForceValidation(boolean value)
 ```
 
 
-For the description of this property, please see [getForceValidation()](../../com.aspose.gridweb/mainweb\#getForceValidation--)
+Sets whether to force customer side validation. When sets to true, data will not post to server until all input fields are valid.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2565,7 +2573,7 @@ public void setFrameTableStyle(GridTableStyle value)
 ```
 
 
-For the description of this property, please see [getFrameTableStyle()](../../com.aspose.gridweb/mainweb\#getFrameTableStyle--)
+Sets the frame style of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2578,7 +2586,7 @@ public void setGoonDefaultSaveOperation(boolean value)
 ```
 
 
-For the description of this property, please see [getGoonDefaultSaveOperation()](../../com.aspose.gridweb/mainweb\#getGoonDefaultSaveOperation--)
+Sets whether GridWeb will do the default save operation ,the default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2591,7 +2599,7 @@ public void setHeaderBarStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getHeaderBarStyle()](../../com.aspose.gridweb/mainweb\#getHeaderBarStyle--)
+Sets the header bar's style.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2604,7 +2612,7 @@ public void setHeaderBarTableStyle(GridTableStyle value)
 ```
 
 
-For the description of this property, please see [getHeaderBarTableStyle()](../../com.aspose.gridweb/mainweb\#getHeaderBarTableStyle--)
+Sets the header bar style of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2617,7 +2625,7 @@ public void setIgnoreStyleWithNoData(boolean value)
 ```
 
 
-For the description of this property, please see [getIgnoreStyleWithNoData()](../../com.aspose.gridweb/mainweb\#getIgnoreStyleWithNoData--)
+Sets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. If set to true, the performance will be better. The default value is false, which means that if the last consecutive row/column has no cell values but is styled, we will still display them. This option is only valid when EnableAsync is false. This option has no effect when EnableAsync is true, which means GridWeb will show all rows/columns with style.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2630,7 +2638,7 @@ public void setMaxColumn(int value)
 ```
 
 
-For the description of this property, please see [getMaxColumn()](../../com.aspose.gridweb/mainweb\#getMaxColumn--)
+Sets the maximum display column index(zero based) of the web sheet. The control uses the greater value of MaxColumn and sheet data's max column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2643,7 +2651,7 @@ public void setMaxRow(int value)
 ```
 
 
-For the description of this property, please see [getMaxRow()](../../com.aspose.gridweb/mainweb\#getMaxRow--)
+Sets the maximum display row index(zero based) of the web sheet. The control uses the greater value of MaxRow and sheet data's max row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2656,7 +2664,7 @@ public void setMessage(String value)
 ```
 
 
-For the description of this property, please see [getMessage()](../../com.aspose.gridweb/mainweb\#getMessage--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2669,7 +2677,7 @@ public void setMinColumn(int value)
 ```
 
 
-For the description of this property, please see [getMinColumn()](../../com.aspose.gridweb/mainweb\#getMinColumn--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2682,7 +2690,7 @@ public void setMinRow(int value)
 ```
 
 
-For the description of this property, please see [getMinRow()](../../com.aspose.gridweb/mainweb\#getMinRow--)
+Sets the minimum display row index(zero based) of the web sheet. The control uses the smaller value of MinRow and sheet data's min row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2695,7 +2703,7 @@ public void setNeedRenderGroupRows(boolean value)
 ```
 
 
-For the description of this property, please see [getNeedRenderGroupRows()](../../com.aspose.gridweb/mainweb\#getNeedRenderGroupRows--)
+Sets whether to show grouprows .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2708,7 +2716,7 @@ public void setNoHScroll(boolean value)
 ```
 
 
-For the description of this property, please see [getNoHScroll()](../../com.aspose.gridweb/mainweb\#getNoHScroll--)
+Sets a value indicating whether the horizontal scroll bar is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2721,7 +2729,7 @@ public void setNoScroll(boolean value)
 ```
 
 
-For the description of this property, please see [getNoScroll()](../../com.aspose.gridweb/mainweb\#getNoScroll--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2734,7 +2742,7 @@ public void setNoVScroll(boolean value)
 ```
 
 
-For the description of this property, please see [getNoVScroll()](../../com.aspose.gridweb/mainweb\#getNoVScroll--)
+Sets a value indicating whether the vertical scroll bar is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2747,7 +2755,13 @@ public void setOnAjaxCallFinishedClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnAjaxCallFinishedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnAjaxCallFinishedClientFunction--)
+Sets the client side function name to be called when ajaxcall finished. The client function should be declared like this:
+function GridAjaxcallFinished()
+\{
+alert(this.id+" ajaxcall finished ");
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2760,7 +2774,13 @@ public void setOnCellErrorClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnCellErrorClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellErrorClientFunction--)
+Sets the client side function name to be called when a cell's validation is failed. The client function should be declared like this:
+function MyOnCellError(cell)
+\{
+alert(GridWeb1.getCellValueByCell(cell));
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2773,7 +2793,13 @@ public void setOnCellSelectedAjaxCallBackClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnCellSelectedAjaxCallBackClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellSelectedAjaxCallBackClientFunction--)
+Sets the client side function to be called when a cell is selected. The client function should be declared like this:
+function MyOnSelectCellAjaxCallBack(cell,customerdata)
+\{
+
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2786,7 +2812,13 @@ public void setOnCellSelectedClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnCellSelectedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellSelectedClientFunction--)
+Sets the client side function to be called when a cell is selected. The client function should be declared like this:
+function MyOnSelectCell(cell)
+\{
+GridWeb1.setCellValueByCell(cell, "test");
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2799,7 +2831,13 @@ public void setOnCellUnselectedClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnCellUnselectedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellUnselectedClientFunction--)
+Sets the client side function to be called when a cell is unselected. The client function should be declared like this:
+function MyOnUnselectCell(cell)
+\{
+GridWeb1.setCellValueByCell(cell, "test");
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2812,7 +2850,13 @@ public void setOnCellUpdatedClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnCellUpdatedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnCellUpdatedClientFunction--)
+Sets the client side function name to be called when a cell's value is updated. The client function should be declared like this:
+function MyOnCellUpdated(cell)
+\{
+alert(this.getCellValueByCell(cell));
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2825,7 +2869,15 @@ public void setOnContextMenuShowClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnContextMenuShowClientFunction()](../../com.aspose.gridweb/mainweb\#getOnContextMenuShowClientFunction--)
+Sets the client side function to be called when the context menu will be shown. The client function should be declared like this:
+function onContextMenuShow()
+\{
+var menu = event.srcElement;
+menu.setItemVisibility("Delete", "block");
+menu.setItemVisibility("Update", "none");
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2838,7 +2890,13 @@ public void setOnDoubleClickCellClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnDoubleClickCellClientFunction()](../../com.aspose.gridweb/mainweb\#getOnDoubleClickCellClientFunction--)
+Sets the client side function to be called when a cell is double clicked. The client function should be declared like this:
+function MyOnDoubleClickCell(cell)
+\{
+GridWeb1.setCellValueByCell(cell, "test");
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2851,7 +2909,13 @@ public void setOnDoubleClickRowClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnDoubleClickRowClientFunction()](../../com.aspose.gridweb/mainweb\#getOnDoubleClickRowClientFunction--)
+Sets the client side function to be called when a row is double clicked. The client function should be declared like this:
+function MyOnRowDoubleClick(row)
+\{
+alert(row);
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2864,7 +2928,13 @@ public void setOnGridInitClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnGridInitClientFunction()](../../com.aspose.gridweb/mainweb\#getOnGridInitClientFunction--)
+Sets the client side function name to be called when the grid is initialized. The client function should be declared like this:
+function MyOnGridInit(grid)
+\{
+alert("The grid is initialized: " + grid.id);
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2877,7 +2947,13 @@ public void setOnPageChangeClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnPageChangeClientFunction()](../../com.aspose.gridweb/mainweb\#getOnPageChangeClientFunction--)
+Sets the client side function to be called after page index changing.only take effect when EnablePaging is true. The client function should be declared like this:
+function MyOnPageChange(index)
+\{
+console.log("current page is:"+index);
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2890,7 +2966,7 @@ public void setOnPageSubmitClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnPageSubmitClientFunction()](../../com.aspose.gridweb/mainweb\#getOnPageSubmitClientFunction--)
+Sets the client function to be called before the page is submitted at client side.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2903,7 +2979,16 @@ public void setOnShapeSelectedClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnShapeSelectedClientFunction()](../../com.aspose.gridweb/mainweb\#getOnShapeSelectedClientFunction--)
+Sets the client side function to be called when a shape is selected. The client function should be declared like this:
+function MyOnSelectShape(shape)
+\{
+var name=shape.getAttribute("namevalue")
+var text=shape.getAttribute("textvalue")
+var value=shape.getAttribute("controlvalue")
+var type=shape.getAttribute("msotype")
+\}
+
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2916,7 +3001,13 @@ public void setOnSubmitClientFunction(String value)
 ```
 
 
-For the description of this property, please see [getOnSubmitClientFunction()](../../com.aspose.gridweb/mainweb\#getOnSubmitClientFunction--)
+Sets the client function to be called before the control is submitted at client side. The client function should be declared like this:
+function MyOnSubmit(arg, cancelEdit)
+\{
+return true;
+\}
+The arg is the submit argument, contains the command to be post to the server. The cancelEdit is boolean value indicates whether the control has discarded the user input before submit. The control will continue submitting if the function returns true.
+Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2929,7 +3020,7 @@ public void setOnlyAuto(boolean value)
 ```
 
 
-For the description of this property, please see [getOnlyAuto()](../../com.aspose.gridweb/mainweb\#getOnlyAuto--)
+Sets whether only fit the rows which height are not customed,the default value is false
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2942,7 +3033,7 @@ public void setPageSize(int value)
 ```
 
 
-For the description of this property, please see [getPageSize()](../../com.aspose.gridweb/mainweb\#getPageSize--)
+Sets the page size in paging mode. When in paging mode, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2955,7 +3046,7 @@ public static void setPictureCachePath(String value)
 ```
 
 
-For the description of this property, please see [getPictureCachePath()](../../com.aspose.gridweb/mainweb\#getPictureCachePath--)
+Sets the image storage path for the workbook,all the shapes,images will be stored in this directory, the default path is acwcache under current application Base Directory users need to implement a schedule service to clean the files those are out of session time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2968,7 +3059,7 @@ public void setPresetStyle(int value)
 ```
 
 
-For the description of this property, please see [getPresetStyle()](../../com.aspose.gridweb/mainweb\#getPresetStyle--)
+Sets the preset style.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2981,7 +3072,7 @@ public void setRefreshValidation(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshValidation()](../../com.aspose.gridweb/mainweb\#getRefreshValidation--)
+Sets whether to refresh validation value after cell value changes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2994,7 +3085,7 @@ public void setRenderHiddenRow(boolean value)
 ```
 
 
-For the description of this property, please see [getRenderHiddenRow()](../../com.aspose.gridweb/mainweb\#getRenderHiddenRow--)
+Sets whether the hidden row is rendered in GridControl,the default value is false. if you need to unhide the hidden row latter ,you shall set it as true
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3007,7 +3098,7 @@ public void setScrollBarArrowColor(Color value)
 ```
 
 
-For the description of this property, please see [getScrollBarArrowColor()](../../com.aspose.gridweb/mainweb\#getScrollBarArrowColor--)
+Specifies the color of the scrollbar's arrow button.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3020,7 +3111,7 @@ public void setScrollBarBaseColor(Color value)
 ```
 
 
-For the description of this property, please see [getScrollBarBaseColor()](../../com.aspose.gridweb/mainweb\#getScrollBarBaseColor--)
+Specifies the color of the scroll bar of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3033,7 +3124,7 @@ public void setSelectCellBgColor(Color value)
 ```
 
 
-For the description of this property, please see [getSelectCellBgColor()](../../com.aspose.gridweb/mainweb\#getSelectCellBgColor--)
+Specifies the background color of the selected cells in multi-select range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3046,7 +3137,7 @@ public void setSelectCellColor(Color value)
 ```
 
 
-For the description of this property, please see [getSelectCellColor()](../../com.aspose.gridweb/mainweb\#getSelectCellColor--)
+Specifies the color of the selected cells in multi-select range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3059,7 +3150,7 @@ public void setSessionLoaded(boolean value)
 ```
 
 
-For the description of this property, please see [getSessionLoaded()](../../com.aspose.gridweb/mainweb\#getSessionLoaded--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3072,7 +3163,13 @@ public void setSessionMode(int value)
 ```
 
 
-For the description of this property, please see [getSessionMode()](../../com.aspose.gridweb/mainweb\#getSessionMode--)
+Sets the session mode of the grid. There are 4 type of session mode:
+1. Session(default): Use system session to store sheet data.
+Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
+2. ViewState: Use page's viewstate to store sheet data.
+3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
+4. File: store/recover sheet data in SessionStorePath.
+When using SessionMode.ViewState, the grid will store sheets data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3085,7 +3182,7 @@ public void setSessionSaved(boolean value)
 ```
 
 
-For the description of this property, please see [getSessionSaved()](../../com.aspose.gridweb/mainweb\#getSessionSaved--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3098,7 +3195,7 @@ public void setSessionStorePath(String value)
 ```
 
 
-For the description of this property, please see [getSessionStorePath()](../../com.aspose.gridweb/mainweb\#getSessionStorePath--)
+Sets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3111,7 +3208,7 @@ public void setSettings(GridWorkbookSettings value)
 ```
 
 
-For the description of this property, please see [getSettings()](../../com.aspose.gridweb/mainweb\#getSettings--)
+Represents the workbook settings.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3124,7 +3221,7 @@ public void setShowAddButton(boolean value)
 ```
 
 
-For the description of this property, please see [getShowAddButton()](../../com.aspose.gridweb/mainweb\#getShowAddButton--)
+Sets whether to show the add worksheet button.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3137,7 +3234,7 @@ public void setShowBottomBar(boolean value)
 ```
 
 
-For the description of this property, please see [getShowBottomBar()](../../com.aspose.gridweb/mainweb\#getShowBottomBar--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3150,7 +3247,7 @@ public void setShowCellEditBox(boolean value)
 ```
 
 
-For the description of this property, please see [getShowCellEditBox()](../../com.aspose.gridweb/mainweb\#getShowCellEditBox--)
+whether Gridweb shows edit box toolbar as in MS-EXCEL.if enable ,a edit box for current cell will display in Gridweb. if we enable this feature, we need to import jquery js library in your aspx files to support this new feature. all the latest jquery version is ok. etc.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3163,7 +3260,7 @@ public void setShowCommandBarAtTop(boolean value)
 ```
 
 
-For the description of this property, please see [getShowCommandBarAtTop()](../../com.aspose.gridweb/mainweb\#getShowCommandBarAtTop--)
+Specifies whether to show the command bar(includes command bar and tab bar) at the top of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3176,7 +3273,7 @@ public void setShowContextMenu(boolean value)
 ```
 
 
-For the description of this property, please see [getShowContextMenu()](../../com.aspose.gridweb/mainweb\#getShowContextMenu--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3189,7 +3286,7 @@ public void setShowDefaultGridLine(boolean value)
 ```
 
 
-For the description of this property, please see [getShowDefaultGridLine()](../../com.aspose.gridweb/mainweb\#getShowDefaultGridLine--)
+Sets whether to show the default grid lines of the cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3202,7 +3299,7 @@ public void setShowHeaderBar(boolean value)
 ```
 
 
-For the description of this property, please see [getShowHeaderBar()](../../com.aspose.gridweb/mainweb\#getShowHeaderBar--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3215,7 +3312,7 @@ public void setShowLoading(boolean value)
 ```
 
 
-For the description of this property, please see [getShowLoading()](../../com.aspose.gridweb/mainweb\#getShowLoading--)
+Specifies whether to show a loading dialogbox while postbacking to server.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3228,7 +3325,7 @@ public void setShowLoadingPosition(String value)
 ```
 
 
-For the description of this property, please see [getShowLoadingPosition()](../../com.aspose.gridweb/mainweb\#getShowLoadingPosition--)
+Specifies the left,top postion(in px) to show the loading dialogbox while postbacking to server ,etc. 100,200 means the loading dialogbox's left,top postion is at 100px,200px .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3241,7 +3338,7 @@ public void setShowSaveButton(boolean value)
 ```
 
 
-For the description of this property, please see [getShowSaveButton()](../../com.aspose.gridweb/mainweb\#getShowSaveButton--)
+Sets whether to show the save button.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3254,7 +3351,7 @@ public void setShowSubmitButton(boolean value)
 ```
 
 
-For the description of this property, please see [getShowSubmitButton()](../../com.aspose.gridweb/mainweb\#getShowSubmitButton--)
+Sets whether to show the submit button.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3267,7 +3364,7 @@ public void setShowTabBar(boolean value)
 ```
 
 
-For the description of this property, please see [getShowTabBar()](../../com.aspose.gridweb/mainweb\#getShowTabBar--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3280,7 +3377,7 @@ public void setShowTabNavigation(boolean value)
 ```
 
 
-For the description of this property, please see [getShowTabNavigation()](../../com.aspose.gridweb/mainweb\#getShowTabNavigation--)
+Sets whether the tab navigation button is show,the default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3293,7 +3390,7 @@ public void setShowUndoButton(boolean value)
 ```
 
 
-For the description of this property, please see [getShowUndoButton()](../../com.aspose.gridweb/mainweb\#getShowUndoButton--)
+Sets whether to show the undo button.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3306,7 +3403,7 @@ public void setSpanWrap(boolean value)
 ```
 
 
-For the description of this property, please see [getSpanWrap()](../../com.aspose.gridweb/mainweb\#getSpanWrap--)
+Specifies whether to wrap content in the cell span.the default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3319,7 +3416,7 @@ public void setTabStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getTabStyle()](../../com.aspose.gridweb/mainweb\#getTabStyle--)
+Sets the style of the tab bar.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3332,7 +3429,7 @@ public void setUseClientPageHeight(boolean value)
 ```
 
 
-For the description of this property, please see [getUseClientPageHeight()](../../com.aspose.gridweb/mainweb\#getUseClientPageHeight--)
+Sets whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3345,7 +3442,7 @@ public void setViewPanelScrollLeft(String value)
 ```
 
 
-For the description of this property, please see [getViewPanelScrollLeft()](../../com.aspose.gridweb/mainweb\#getViewPanelScrollLeft--)
+Sets the position of the scroll bar of the grid's view panel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3358,7 +3455,7 @@ public void setViewPanelScrollTop(String value)
 ```
 
 
-For the description of this property, please see [getViewPanelScrollTop()](../../com.aspose.gridweb/mainweb\#getViewPanelScrollTop--)
+Sets the position of the scroll bar of the grid's view panel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3371,7 +3468,7 @@ public void setViewTableStyle(GridTableStyle value)
 ```
 
 
-For the description of this property, please see [getViewTableStyle()](../../com.aspose.gridweb/mainweb\#getViewTableStyle--)
+Sets the data view panel's style.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3384,7 +3481,7 @@ public void setXhtmlMode(boolean value)
 ```
 
 
-For the description of this property, please see [getXhtmlMode()](../../com.aspose.gridweb/mainweb\#getXhtmlMode--)
+
 
 **Parameters:**
 | Parameter | Type | Description |

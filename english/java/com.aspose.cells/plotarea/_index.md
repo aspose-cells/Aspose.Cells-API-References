@@ -20,8 +20,8 @@ Encapsulates the object that represents the plot area in a chart.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
+| [getBackground()](#getBackground--) | Gets the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
@@ -30,16 +30,16 @@ Encapsulates the object that represents the plot area in a chart.
 | [getDefaultX()](#getDefaultX--) | Represents x of default position |
 | [getDefaultY()](#getDefaultY--) | Represents y of default position |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getHeight()](#getHeight--) | the height of plot-area bounding box in units of 1/4000 of the chart area. |
-| [getInnerHeight()](#getInnerHeight--) | the height of plot area in units of 1/4000 of the chart area. |
-| [getInnerWidth()](#getInnerWidth--) | the width of plot area in units of 1/4000 of the chart area. |
+| [getHeight()](#getHeight--) | Gets the height of plot-area bounding box in units of 1/4000 of the chart area. |
+| [getInnerHeight()](#getInnerHeight--) | Gets the height of plot area in units of 1/4000 of the chart area. |
+| [getInnerWidth()](#getInnerWidth--) | Gets the width of plot area in units of 1/4000 of the chart area. |
 | [getInnerX()](#getInnerX--) | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
 | [getInnerY()](#getInnerY--) | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getTextOptions()](#getTextOptions--) | the options of the text. |
-| [getWidth()](#getWidth--) | the width of plot-area bounding box in units of 1/4000 of the chart area. |
+| [getTextOptions()](#getTextOptions--) | Gets the options of the text. |
+| [getWidth()](#getWidth--) | Gets the width of plot-area bounding box in units of 1/4000 of the chart area. |
 | [getX()](#getX--) | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
 | [getY()](#getY--) | Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area. |
 | [hashCode()](#hashCode--) |  |
@@ -48,21 +48,21 @@ Encapsulates the object that represents the plot area in a chart.
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--) |
-| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | For the description of this property, please see [isAutomaticSize()](../../com.aspose.cells/plotarea\#isAutomaticSize--) |
-| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see [getBackground()](../../com.aspose.cells/chartframe\#getBackground--) |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--) |
-| [setHeight(int value)](#setHeight-int-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/plotarea\#getHeight--) |
-| [setInnerHeight(int value)](#setInnerHeight-int-) | For the description of this property, please see [getInnerHeight()](../../com.aspose.cells/plotarea\#getInnerHeight--) |
-| [setInnerMode(boolean value)](#setInnerMode-boolean-) | For the description of this property, please see [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--) |
-| [setInnerWidth(int value)](#setInnerWidth-int-) | For the description of this property, please see [getInnerWidth()](../../com.aspose.cells/plotarea\#getInnerWidth--) |
-| [setInnerX(int value)](#setInnerX-int-) | For the description of this property, please see [getInnerX()](../../com.aspose.cells/plotarea\#getInnerX--) |
-| [setInnerY(int value)](#setInnerY-int-) | For the description of this property, please see [getInnerY()](../../com.aspose.cells/plotarea\#getInnerY--) |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
+| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the plot area is automatic sized. |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background NOTE: This member is now obsolete. |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
+| [setInnerHeight(int value)](#setInnerHeight-int-) | Sets the height of plot area in units of 1/4000 of the chart area. |
+| [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
+| [setInnerWidth(int value)](#setInnerWidth-int-) | Sets the width of plot area in units of 1/4000 of the chart area. |
+| [setInnerX(int value)](#setInnerX-int-) | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
+| [setInnerY(int value)](#setInnerY-int-) | Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area. |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the plot area to automatic |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/chartframe\#getShadow--) |
-| [setWidth(int value)](#setWidth-int-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/plotarea\#getWidth--) |
-| [setX(int value)](#setX-int-) | For the description of this property, please see [getX()](../../com.aspose.cells/plotarea\#getX--) |
-| [setY(int value)](#setY-int-) | For the description of this property, please see [getY()](../../com.aspose.cells/plotarea\#getY--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | True if the frame has a shadow. |
+| [setWidth(int value)](#setWidth-int-) | Sets the width of plot-area bounding box in units of 1/4000 of the chart area. |
+| [setX(int value)](#setX-int-) | Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area. |
+| [setY(int value)](#setY-int-) | Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public int getBackground()
 ```
 
 
-the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -118,7 +118,7 @@ public int getBackgroundMode()
 ```
 
 
-the display mode of the background
+Gets the display mode of the background
 
 **Returns:**
 int
@@ -208,7 +208,7 @@ public int getHeight()
 ```
 
 
-the height of plot-area bounding box in units of 1/4000 of the chart area.
+Gets the height of plot-area bounding box in units of 1/4000 of the chart area.
 
 The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
 
@@ -224,7 +224,7 @@ public int getInnerHeight()
 ```
 
 
-the height of plot area in units of 1/4000 of the chart area.
+Gets the height of plot area in units of 1/4000 of the chart area.
 
 The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
 
@@ -240,7 +240,7 @@ public int getInnerWidth()
 ```
 
 
-the width of plot area in units of 1/4000 of the chart area.
+Gets the width of plot area in units of 1/4000 of the chart area.
 
 The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
 
@@ -318,7 +318,7 @@ public TextOptions getTextOptions()
 ```
 
 
-the options of the text.
+Gets the options of the text.
 
 **Returns:**
 [TextOptions](../../com.aspose.cells/textoptions)
@@ -328,7 +328,7 @@ public int getWidth()
 ```
 
 
-the width of plot-area bounding box in units of 1/4000 of the chart area.
+Gets the width of plot-area bounding box in units of 1/4000 of the chart area.
 
 The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
 
@@ -432,7 +432,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--)
+True if the text in the object changes font size when the object size changes. The default value is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -445,7 +445,7 @@ public void setAutomaticSize(boolean value)
 ```
 
 
-For the description of this property, please see [isAutomaticSize()](../../com.aspose.cells/plotarea\#isAutomaticSize--)
+Indicates whether the plot area is automatic sized.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -458,7 +458,7 @@ public void setBackground(int value)
 ```
 
 
-For the description of this property, please see [getBackground()](../../com.aspose.cells/chartframe\#getBackground--)
+Sets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -471,7 +471,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--)
+Sets the display mode of the background
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -484,7 +484,13 @@ public void setHeight(int value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/plotarea\#getHeight--)
+Sets the height of plot-area bounding box in units of 1/4000 of the chart area.
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
+
+The **X**, **Y**, **Width** and **Height** of **PlotArea** represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call **InnerX**, **InnerY**, **InnerWidth** and **InnerHeight** properties.
+
+For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -497,7 +503,13 @@ public void setInnerHeight(int value)
 ```
 
 
-For the description of this property, please see [getInnerHeight()](../../com.aspose.cells/plotarea\#getInnerHeight--)
+Sets the height of plot area in units of 1/4000 of the chart area.
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
+
+The **X**, **Y**, **Width** and **Height** of **PlotArea** represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call **InnerX**, **InnerY**, **InnerWidth** and **InnerHeight** properties.
+
+For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -510,7 +522,7 @@ public void setInnerMode(boolean value)
 ```
 
 
-For the description of this property, please see [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--)
+Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. Only for Xlsx file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -523,7 +535,13 @@ public void setInnerWidth(int value)
 ```
 
 
-For the description of this property, please see [getInnerWidth()](../../com.aspose.cells/plotarea\#getInnerWidth--)
+Sets the width of plot area in units of 1/4000 of the chart area.
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
+
+The **X**, **Y**, **Width** and **Height** of **PlotArea** represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call **InnerX**, **InnerY**, **InnerWidth** and **InnerHeight** properties.
+
+For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -536,7 +554,13 @@ public void setInnerX(int value)
 ```
 
 
-For the description of this property, please see [getInnerX()](../../com.aspose.cells/plotarea\#getInnerX--)
+Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
+
+The **X**, **Y**, **Width** and **Height** of **PlotArea** represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call **InnerX**, **InnerY**, **InnerWidth** and **InnerHeight** properties.
+
+For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -549,7 +573,13 @@ public void setInnerY(int value)
 ```
 
 
-For the description of this property, please see [getInnerY()](../../com.aspose.cells/plotarea\#getInnerY--)
+Gets or gets the x coordinate of the upper top corner of plot area in units of 1/4000 of the chart area.
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
+
+The **X**, **Y**, **Width** and **Height** of **PlotArea** represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call **InnerX**, **InnerY**, **InnerWidth** and **InnerHeight** properties.
+
+For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -570,7 +600,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see [getShadow()](../../com.aspose.cells/chartframe\#getShadow--)
+True if the frame has a shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -583,7 +613,13 @@ public void setWidth(int value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/plotarea\#getWidth--)
+Sets the width of plot-area bounding box in units of 1/4000 of the chart area.
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
+
+The **X**, **Y**, **Width** and **Height** of **PlotArea** represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call **InnerX**, **InnerY**, **InnerWidth** and **InnerHeight** properties.
+
+For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -596,7 +632,13 @@ public void setX(int value)
 ```
 
 
-For the description of this property, please see [getX()](../../com.aspose.cells/plotarea\#getX--)
+Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
+
+The **X**, **Y**, **Width** and **Height** of **PlotArea** represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call **InnerX**, **InnerY**, **InnerWidth** and **InnerHeight** properties.
+
+For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -609,7 +651,13 @@ public void setY(int value)
 ```
 
 
-For the description of this property, please see [getY()](../../com.aspose.cells/plotarea\#getY--)
+Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area.
+
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method.
+
+The **X**, **Y**, **Width** and **Height** of **PlotArea** represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call **InnerX**, **InnerY**, **InnerWidth** and **InnerHeight** properties.
+
+For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 **Parameters:**
 | Parameter | Type | Description |

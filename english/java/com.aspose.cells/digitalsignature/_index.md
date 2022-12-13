@@ -36,14 +36,14 @@ Signature in file.
 | [isValid()](#isValid--) | If this digital signature is valid and the document has not been tampered with, this value will be true. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCertificate(KeyStore value)](#setCertificate-java.security.KeyStore-) | For the description of this property, please see [getCertificate()](../../com.aspose.cells/digitalsignature\#getCertificate--) |
-| [setComments(String value)](#setComments-java.lang.String-) | For the description of this property, please see [getComments()](../../com.aspose.cells/digitalsignature\#getComments--) |
-| [setId(UUID value)](#setId-java.util.UUID-) | For the description of this property, please see [getId()](../../com.aspose.cells/digitalsignature\#getId--) |
-| [setImage(byte[] value)](#setImage-byte---) | For the description of this property, please see [getImage()](../../com.aspose.cells/digitalsignature\#getImage--) |
-| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | For the description of this property, please see [getProviderId()](../../com.aspose.cells/digitalsignature\#getProviderId--) |
-| [setSignTime(DateTime value)](#setSignTime-com.aspose.cells.DateTime-) | For the description of this property, please see [getSignTime()](../../com.aspose.cells/digitalsignature\#getSignTime--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/digitalsignature\#getText--) |
-| [setXAdESType(int value)](#setXAdESType-int-) | For the description of this property, please see [getXAdESType()](../../com.aspose.cells/digitalsignature\#getXAdESType--) |
+| [setCertificate(KeyStore value)](#setCertificate-java.security.KeyStore-) | Certificate object that was used to sign the document. |
+| [setComments(String value)](#setComments-java.lang.String-) | The purpose to signature. |
+| [setId(UUID value)](#setId-java.util.UUID-) | Specifies a GUID which can be cross-referenced with the GUID of the signature line stored in the document content. |
+| [setImage(byte[] value)](#setImage-byte---) | Specifies an image for the digital signature. |
+| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | Specifies the class ID of the signature provider. |
+| [setSignTime(DateTime value)](#setSignTime-com.aspose.cells.DateTime-) | The time when the document was signed. |
+| [setText(String value)](#setText-java.lang.String-) | Specifies the text of actual signature in the digital signature. |
+| [setXAdESType(int value)](#setXAdESType-int-) | XAdES type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -211,7 +211,7 @@ public void setCertificate(KeyStore value)
 ```
 
 
-For the description of this property, please see [getCertificate()](../../com.aspose.cells/digitalsignature\#getCertificate--)
+Certificate object that was used to sign the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -224,7 +224,7 @@ public void setComments(String value)
 ```
 
 
-For the description of this property, please see [getComments()](../../com.aspose.cells/digitalsignature\#getComments--)
+The purpose to signature.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -237,7 +237,7 @@ public void setId(UUID value)
 ```
 
 
-For the description of this property, please see [getId()](../../com.aspose.cells/digitalsignature\#getId--)
+Specifies a GUID which can be cross-referenced with the GUID of the signature line stored in the document content. Default value is Empty (all zeroes) Guid. When set, it associates [SignatureLine](../../com.aspose.cells/signatureline) with corresponding [DigitalSignature](../../com.aspose.cells/digitalsignature).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -250,7 +250,7 @@ public void setImage(byte[] value)
 ```
 
 
-For the description of this property, please see [getImage()](../../com.aspose.cells/digitalsignature\#getImage--)
+Specifies an image for the digital signature. Default value is null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -263,7 +263,7 @@ public void setProviderId(UUID value)
 ```
 
 
-For the description of this property, please see [getProviderId()](../../com.aspose.cells/digitalsignature\#getProviderId--)
+Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. Microsoft Office reserves the value of \{00000000-0000-0000-0000-000000000000\} for its default signature provider, and \{000CD6A4-0000-0000-C000-000000000046\} for its East Asian signature provider. The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -276,7 +276,7 @@ public void setSignTime(DateTime value)
 ```
 
 
-For the description of this property, please see [getSignTime()](../../com.aspose.cells/digitalsignature\#getSignTime--)
+The time when the document was signed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +289,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.cells/digitalsignature\#getText--)
+Specifies the text of actual signature in the digital signature. Default value is Empty.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +302,7 @@ public void setXAdESType(int value)
 ```
 
 
-For the description of this property, please see [getXAdESType()](../../com.aspose.cells/digitalsignature\#getXAdESType--)
+XAdES type. Default value is None(XAdES is off).
 
 **Parameters:**
 | Parameter | Type | Description |

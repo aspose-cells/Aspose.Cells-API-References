@@ -27,11 +27,11 @@ Represents a filter for a single column. The Filter object is a member of the Fi
 | [isDropdownVisible()](#isDropdownVisible--) | Indicates whether the AutoFilter button for this column is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDropdownVisible(boolean value)](#setDropdownVisible-boolean-) | For the description of this property, please see [isDropdownVisible()](../../com.aspose.cells/filtercolumn\#isDropdownVisible--) |
-| [setFieldIndex(int value)](#setFieldIndex-int-) | For the description of this property, please see [getFieldIndex()](../../com.aspose.cells/filtercolumn\#getFieldIndex--) |
-| [setFilter(Object value)](#setFilter-java.lang.Object-) | For the description of this property, please see [getFilter()](../../com.aspose.cells/filtercolumn\#getFilter--) |
-| [setFilterType(int value)](#setFilterType-int-) | For the description of this property, please see [getFilterType()](../../com.aspose.cells/filtercolumn\#getFilterType--) |
-| [setVisibledropdown(boolean value)](#setVisibledropdown-boolean-) | For the description of this property, please see [getVisibledropdown()](../../com.aspose.cells/filtercolumn\#getVisibledropdown--) |
+| [setDropdownVisible(boolean value)](#setDropdownVisible-boolean-) | Indicates whether the AutoFilter button for this column is visible. |
+| [setFieldIndex(int value)](#setFieldIndex-int-) |  |
+| [setFilter(Object value)](#setFilter-java.lang.Object-) |  |
+| [setFilterType(int value)](#setFilterType-int-) |  |
+| [setVisibledropdown(boolean value)](#setVisibledropdown-boolean-) | Indicates whether the AutoFilter button for this column is visible. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -143,7 +143,7 @@ public void setDropdownVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isDropdownVisible()](../../com.aspose.cells/filtercolumn\#isDropdownVisible--)
+Indicates whether the AutoFilter button for this column is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public void setFieldIndex(int value)
 ```
 
 
-For the description of this property, please see [getFieldIndex()](../../com.aspose.cells/filtercolumn\#getFieldIndex--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setFilter(Object value)
 ```
 
 
-For the description of this property, please see [getFilter()](../../com.aspose.cells/filtercolumn\#getFilter--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setFilterType(int value)
 ```
 
 
-For the description of this property, please see [getFilterType()](../../com.aspose.cells/filtercolumn\#getFilterType--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setVisibledropdown(boolean value)
 ```
 
 
-For the description of this property, please see [getVisibledropdown()](../../com.aspose.cells/filtercolumn\#getVisibledropdown--)
+Indicates whether the AutoFilter button for this column is visible. NOTE: This member is now obsolete. Instead, please use FilterColumn.IsDropdownVisible to check whether the AutoFilter button for this column is visible. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

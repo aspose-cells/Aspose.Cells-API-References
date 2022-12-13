@@ -81,11 +81,11 @@ Workbook excel = new Workbook();
 | [getDoubleValue()](#getDoubleValue--) | Gets the double value contained in the cell. |
 | [getFloatValue()](#getFloatValue--) | Gets the float value contained in the cell. |
 | [getFormatConditions()](#getFormatConditions--) | Gets format conditions which applies to this cell. |
-| [getFormula()](#getFormula--) | a formula of the [Cell](../../com.aspose.cells/cell). |
+| [getFormula()](#getFormula--) | Gets a formula of the [Cell](../../com.aspose.cells/cell). |
 | [getFormula(boolean isR1C1, boolean isLocal)](#getFormula-boolean-boolean-) | Get the formula of this cell. |
 | [getFormulaLocal()](#getFormulaLocal--) | Get the locale formatted formula of the cell. |
 | [getHeightOfValue()](#getHeightOfValue--) | Gets the height of the value in unit of pixels. |
-| [getHtmlString()](#getHtmlString--) | the html string which contains data and some formats in this cell. |
+| [getHtmlString()](#getHtmlString--) | Gets the html string which contains data and some formats in this cell. |
 | [getHtmlString(boolean html5)](#getHtmlString-boolean-) | Gets the html string which contains data and some formats in this cell. |
 | [getIntValue()](#getIntValue--) | Gets the integer value contained in the cell. |
 | [getLeafs()](#getLeafs--) | Get all cells which reference to this cell directly and need to be updated when this cell is modified. |
@@ -95,7 +95,7 @@ Workbook excel = new Workbook();
 | [getNumberCategoryType()](#getNumberCategoryType--) | Represents the category type of this cell's number formatting. |
 | [getPrecedents()](#getPrecedents--) | Gets all references appearing in this cell's formula. |
 | [getPrecedentsInCalculation()](#getPrecedentsInCalculation--) | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
-| [getR1C1Formula()](#getR1C1Formula--) | a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
+| [getR1C1Formula()](#getR1C1Formula--) | Gets a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
 | [getRow()](#getRow--) | Gets row number (zero based) of the cell. |
 | [getSharedStyleIndex()](#getSharedStyleIndex--) | Gets cell's shared style index in the style pool. |
 | [getStringValue()](#getStringValue--) | Gets the string value contained in the cell. |
@@ -143,13 +143,13 @@ Workbook excel = new Workbook();
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue, CalculationOptions copts)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-com.aspose.cells.CalculationOptions-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
-| [setFormula(String value)](#setFormula-java.lang.String-) | For the description of this property, please see [getFormula()](../../com.aspose.cells/cell\#getFormula--) |
+| [setFormula(String value)](#setFormula-java.lang.String-) | Sets a formula of the [Cell](../../com.aspose.cells/cell). |
 | [setFormula(String formula, boolean isR1C1, boolean isLocal, Object value)](#setFormula-java.lang.String-boolean-boolean-java.lang.Object-) | Set the formula and the value of the formula. |
 | [setFormula(String formula, FormulaParseOptions options, Object value)](#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-) | Set the formula and the value of the formula. |
 | [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Set the formula and the value of the formula. |
-| [setFormulaLocal(String value)](#setFormulaLocal-java.lang.String-) | For the description of this property, please see [getFormulaLocal()](../../com.aspose.cells/cell\#getFormulaLocal--) |
-| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | For the description of this property, please see [getHtmlString()](../../com.aspose.cells/cell\#getHtmlString--) |
-| [setR1C1Formula(String value)](#setR1C1Formula-java.lang.String-) | For the description of this property, please see [getR1C1Formula()](../../com.aspose.cells/cell\#getR1C1Formula--) |
+| [setFormulaLocal(String value)](#setFormulaLocal-java.lang.String-) | Get the locale formatted formula of the cell. |
+| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | Sets the html string which contains data and some formats in this cell. |
+| [setR1C1Formula(String value)](#setR1C1Formula-java.lang.String-) | Sets a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
 | [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber)](#setSharedFormula-java.lang.String-int-int-) | Sets shared formulas to a range of cells. |
 | [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal)](#setSharedFormula-java.lang.String-int-int-boolean-boolean-) | Sets a formula to a range of cells. |
 | [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options)](#setSharedFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-) | Sets shared formulas to a range of cells. |
@@ -161,7 +161,7 @@ Workbook excel = new Workbook();
 | [setTableFormula(int rowNumber, int columnNumber, int rowIndexOfRowInputCell, int columnIndexOfRowInputCell, int rowIndexOfColumnInputCell, int columnIndexOfColumnInputCell, Object[][] values)](#setTableFormula-int-int-int-int-int-int-java.lang.Object-----) | Create two-variable data table for given range starting from this cell. |
 | [setTableFormula(int rowNumber, int columnNumber, String inputCell, boolean isRowInput, Object[][] values)](#setTableFormula-int-int-java.lang.String-boolean-java.lang.Object-----) | Create one-variable data table for given range starting from this cell. |
 | [setTableFormula(int rowNumber, int columnNumber, String rowInputCell, String columnInputCell, Object[][] values)](#setTableFormula-int-int-java.lang.String-java.lang.String-java.lang.Object-----) | Create two-variable data table for given range starting from this cell. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/cell\#getValue--) |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Gets the value contained in this cell. |
 | [toString()](#toString--) | Returns a string represents the current Cell object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -505,7 +505,7 @@ public String getFormula()
 ```
 
 
-a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+Gets a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
 
 ```
 Workbook excel = new Workbook();
@@ -557,7 +557,7 @@ public String getHtmlString()
 ```
 
 
-the html string which contains data and some formats in this cell.
+Gets the html string which contains data and some formats in this cell.
 
 **Returns:**
 java.lang.String
@@ -713,7 +713,7 @@ public String getR1C1Formula()
 ```
 
 
-a R1C1 formula of the [Cell](../../com.aspose.cells/cell).
+Gets a R1C1 formula of the [Cell](../../com.aspose.cells/cell).
 
 **Returns:**
 java.lang.String
@@ -1297,7 +1297,7 @@ public void setFormula(String value)
 ```
 
 
-For the description of this property, please see [getFormula()](../../com.aspose.cells/cell\#getFormula--)
+Sets a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1355,7 +1355,7 @@ public void setFormulaLocal(String value)
 ```
 
 
-For the description of this property, please see [getFormulaLocal()](../../com.aspose.cells/cell\#getFormulaLocal--)
+Get the locale formatted formula of the cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1368,7 +1368,7 @@ public void setHtmlString(String value)
 ```
 
 
-For the description of this property, please see [getHtmlString()](../../com.aspose.cells/cell\#getHtmlString--)
+Sets the html string which contains data and some formats in this cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1381,7 +1381,7 @@ public void setR1C1Formula(String value)
 ```
 
 
-For the description of this property, please see [getR1C1Formula()](../../com.aspose.cells/cell\#getR1C1Formula--)
+Sets a R1C1 formula of the [Cell](../../com.aspose.cells/cell).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1571,7 +1571,21 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/cell\#getValue--)
+Gets the value contained in this cell. Possible type:
+
+null,
+
+Boolean,
+
+DateTime,
+
+Double,
+
+Integer
+
+String.
+
+For int value, it may be returned as an Integer object or a Double object. And there is no guarantee that the returned value will be kept as the same type of object always.
 
 **Parameters:**
 | Parameter | Type | Description |

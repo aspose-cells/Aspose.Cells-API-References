@@ -30,13 +30,13 @@ Represents all save options
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.gridweb/gridsaveoptions\#getCachedFileFolder--) |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.gridweb/gridsaveoptions\#getClearData--) |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.gridweb/gridsaveoptions\#getCreateDirectory--) |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.gridweb/gridsaveoptions\#getMergeAreas--) |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.gridweb/gridsaveoptions\#getRefreshChartCache--) |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.gridweb/gridsaveoptions\#getSortNames--) |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.gridweb/gridsaveoptions\#getValidateMergedAreas--) |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -178,7 +178,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see [getCachedFileFolder()](../../com.aspose.gridweb/gridsaveoptions\#getCachedFileFolder--)
+The cached file folder is used to store some large data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -191,7 +191,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see [getClearData()](../../com.aspose.gridweb/gridsaveoptions\#getClearData--)
+Make the workbook empty after saving the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateDirectory()](../../com.aspose.gridweb/gridsaveoptions\#getCreateDirectory--)
+If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getMergeAreas()](../../com.aspose.gridweb/gridsaveoptions\#getMergeAreas--)
+Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshChartCache()](../../com.aspose.gridweb/gridsaveoptions\#getRefreshChartCache--)
+Indicates whether refreshing chart cache data
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortNames()](../../com.aspose.gridweb/gridsaveoptions\#getSortNames--)
+Indicates whether sorting defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.gridweb/gridsaveoptions\#getValidateMergedAreas--)
+Indicates whether validate merged cells before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

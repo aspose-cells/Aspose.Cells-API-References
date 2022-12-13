@@ -20,8 +20,8 @@ Encapsulates the object that represents the frame object in a chart.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
+| [getBackground()](#getBackground--) | Gets the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
@@ -30,31 +30,31 @@ Encapsulates the object that represents the frame object in a chart.
 | [getDefaultX()](#getDefaultX--) | Represents x of default position |
 | [getDefaultY()](#getDefaultY--) | Represents y of default position |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getHeight()](#getHeight--) | the height of frame in units of 1/4000 of the chart area. |
+| [getHeight()](#getHeight--) | Gets the height of frame in units of 1/4000 of the chart area. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getTextOptions()](#getTextOptions--) | the options of the text. |
-| [getWidth()](#getWidth--) | the width of frame in units of 1/4000 of the chart area. |
-| [getX()](#getX--) | the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getY()](#getY--) | the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getTextOptions()](#getTextOptions--) | Gets the options of the text. |
+| [getWidth()](#getWidth--) | Gets the width of frame in units of 1/4000 of the chart area. |
+| [getX()](#getX--) | Gets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getY()](#getY--) | Gets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [hashCode()](#hashCode--) |  |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--) |
-| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | For the description of this property, please see [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--) |
-| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see [getBackground()](../../com.aspose.cells/chartframe\#getBackground--) |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--) |
-| [setHeight(int value)](#setHeight-int-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/chartframe\#getHeight--) |
-| [setInnerMode(boolean value)](#setInnerMode-boolean-) | For the description of this property, please see [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--) |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
+| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background NOTE: This member is now obsolete. |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
+| [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/chartframe\#getShadow--) |
-| [setWidth(int value)](#setWidth-int-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/chartframe\#getWidth--) |
-| [setX(int value)](#setX-int-) | For the description of this property, please see [getX()](../../com.aspose.cells/chartframe\#getX--) |
-| [setY(int value)](#setY-int-) | For the description of this property, please see [getY()](../../com.aspose.cells/chartframe\#getY--) |
+| [setShadow(boolean value)](#setShadow-boolean-) | True if the frame has a shadow. |
+| [setWidth(int value)](#setWidth-int-) | Sets the width of frame in units of 1/4000 of the chart area. |
+| [setX(int value)](#setX-int-) | Sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [setY(int value)](#setY-int-) | Sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -100,7 +100,7 @@ public int getBackground()
 ```
 
 
-the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -110,7 +110,7 @@ public int getBackgroundMode()
 ```
 
 
-the display mode of the background
+Gets the display mode of the background
 
 **Returns:**
 int
@@ -200,7 +200,7 @@ public int getHeight()
 ```
 
 
-the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
+Gets the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -240,7 +240,7 @@ public TextOptions getTextOptions()
 ```
 
 
-the options of the text.
+Gets the options of the text.
 
 **Returns:**
 [TextOptions](../../com.aspose.cells/textoptions)
@@ -250,7 +250,7 @@ public int getWidth()
 ```
 
 
-the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
+Gets the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -260,7 +260,7 @@ public int getX()
 ```
 
 
-the x coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? X In Pixels = X \* Chart.ChartObject.Width / 4000;
+Gets the x coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? X In Pixels = X \* Chart.ChartObject.Width / 4000;
 
 **Returns:**
 int
@@ -270,7 +270,7 @@ public int getY()
 ```
 
 
-the y coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Y In Pixels = Y \* Chart.ChartObject.Height / 4000;
+Gets the y coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Y In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -336,7 +336,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--)
+True if the text in the object changes font size when the object size changes. The default value is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -349,7 +349,7 @@ public void setAutomaticSize(boolean value)
 ```
 
 
-For the description of this property, please see [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--)
+Indicates whether the chart frame is automatic sized.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -362,7 +362,7 @@ public void setBackground(int value)
 ```
 
 
-For the description of this property, please see [getBackground()](../../com.aspose.cells/chartframe\#getBackground--)
+Sets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -375,7 +375,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--)
+Sets the display mode of the background
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -388,7 +388,7 @@ public void setHeight(int value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/chartframe\#getHeight--)
+Sets the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -401,7 +401,7 @@ public void setInnerMode(boolean value)
 ```
 
 
-For the description of this property, please see [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--)
+Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. Only for Xlsx file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -422,7 +422,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see [getShadow()](../../com.aspose.cells/chartframe\#getShadow--)
+True if the frame has a shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -435,7 +435,7 @@ public void setWidth(int value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/chartframe\#getWidth--)
+Sets the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -448,7 +448,7 @@ public void setX(int value)
 ```
 
 
-For the description of this property, please see [getX()](../../com.aspose.cells/chartframe\#getX--)
+Sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? X In Pixels = X \* Chart.ChartObject.Width / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -461,7 +461,7 @@ public void setY(int value)
 ```
 
 
-For the description of this property, please see [getY()](../../com.aspose.cells/chartframe\#getY--)
+Sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Y In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |

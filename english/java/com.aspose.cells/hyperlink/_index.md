@@ -45,9 +45,9 @@ Encapsulates the object that represents a hyperlink.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddress(String value)](#setAddress-java.lang.String-) | For the description of this property, please see [getAddress()](../../com.aspose.cells/hyperlink\#getAddress--) |
-| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | For the description of this property, please see [getScreenTip()](../../com.aspose.cells/hyperlink\#getScreenTip--) |
-| [setTextToDisplay(String value)](#setTextToDisplay-java.lang.String-) | For the description of this property, please see [getTextToDisplay()](../../com.aspose.cells/hyperlink\#getTextToDisplay--) |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Represents the address of a hyperlink. |
+| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | Returns or sets the ScreenTip text for the specified hyperlink. |
+| [setTextToDisplay(String value)](#setTextToDisplay-java.lang.String-) | Represents the text to be displayed for the specified hyperlink. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -167,7 +167,7 @@ public void setAddress(String value)
 ```
 
 
-For the description of this property, please see [getAddress()](../../com.aspose.cells/hyperlink\#getAddress--)
+Represents the address of a hyperlink.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setScreenTip(String value)
 ```
 
 
-For the description of this property, please see [getScreenTip()](../../com.aspose.cells/hyperlink\#getScreenTip--)
+Returns or sets the ScreenTip text for the specified hyperlink.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setTextToDisplay(String value)
 ```
 
 
-For the description of this property, please see [getTextToDisplay()](../../com.aspose.cells/hyperlink\#getTextToDisplay--)
+Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.
 
 **Parameters:**
 | Parameter | Type | Description |

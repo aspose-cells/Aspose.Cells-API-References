@@ -23,22 +23,22 @@ Represents picture format option
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBottom()](#getBottom--) | the bottom offset for stretching picture. |
+| [getBottom()](#getBottom--) | Gets the bottom offset for stretching picture. |
 | [getClass()](#getClass--) |  |
-| [getLeft()](#getLeft--) | the left offset for stretching picture. |
-| [getRight()](#getRight--) | the right offset for stretching picture. |
-| [getScale()](#getScale--) | how many the picture stack and scale with. |
-| [getTop()](#getTop--) | the top offset for stretching picture. |
-| [getType()](#getType--) | the picture fill type. |
+| [getLeft()](#getLeft--) | Gets the left offset for stretching picture. |
+| [getRight()](#getRight--) | Gets the right offset for stretching picture. |
+| [getScale()](#getScale--) | Gets how many the picture stack and scale with. |
+| [getTop()](#getTop--) | Gets the top offset for stretching picture. |
+| [getType()](#getType--) | Gets the picture fill type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottom(double value)](#setBottom-double-) | For the description of this property, please see [getBottom()](../../com.aspose.cells/picformatoption\#getBottom--) |
-| [setLeft(double value)](#setLeft-double-) | For the description of this property, please see [getLeft()](../../com.aspose.cells/picformatoption\#getLeft--) |
-| [setRight(double value)](#setRight-double-) | For the description of this property, please see [getRight()](../../com.aspose.cells/picformatoption\#getRight--) |
-| [setScale(double value)](#setScale-double-) | For the description of this property, please see [getScale()](../../com.aspose.cells/picformatoption\#getScale--) |
-| [setTop(double value)](#setTop-double-) | For the description of this property, please see [getTop()](../../com.aspose.cells/picformatoption\#getTop--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/picformatoption\#getType--) |
+| [setBottom(double value)](#setBottom-double-) | Sets the bottom offset for stretching picture. |
+| [setLeft(double value)](#setLeft-double-) | Sets the left offset for stretching picture. |
+| [setRight(double value)](#setRight-double-) | Sets the right offset for stretching picture. |
+| [setScale(double value)](#setScale-double-) | Sets how many the picture stack and scale with. |
+| [setTop(double value)](#setTop-double-) | Sets the top offset for stretching picture. |
+| [setType(int value)](#setType-int-) | Sets the picture fill type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -70,7 +70,7 @@ public double getBottom()
 ```
 
 
-the bottom offset for stretching picture.
+Gets the bottom offset for stretching picture.
 
 **Returns:**
 double
@@ -90,7 +90,7 @@ public double getLeft()
 ```
 
 
-the left offset for stretching picture.
+Gets the left offset for stretching picture.
 
 **Returns:**
 double
@@ -100,7 +100,7 @@ public double getRight()
 ```
 
 
-the right offset for stretching picture.
+Gets the right offset for stretching picture.
 
 **Returns:**
 double
@@ -110,7 +110,7 @@ public double getScale()
 ```
 
 
-how many the picture stack and scale with.
+Gets how many the picture stack and scale with.
 
 **Returns:**
 double
@@ -120,7 +120,7 @@ public double getTop()
 ```
 
 
-the top offset for stretching picture.
+Gets the top offset for stretching picture.
 
 **Returns:**
 double
@@ -130,7 +130,7 @@ public int getType()
 ```
 
 
-the picture fill type.
+Gets the picture fill type.
 
 **Returns:**
 int
@@ -166,7 +166,7 @@ public void setBottom(double value)
 ```
 
 
-For the description of this property, please see [getBottom()](../../com.aspose.cells/picformatoption\#getBottom--)
+Sets the bottom offset for stretching picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -179,7 +179,7 @@ public void setLeft(double value)
 ```
 
 
-For the description of this property, please see [getLeft()](../../com.aspose.cells/picformatoption\#getLeft--)
+Sets the left offset for stretching picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public void setRight(double value)
 ```
 
 
-For the description of this property, please see [getRight()](../../com.aspose.cells/picformatoption\#getRight--)
+Sets the right offset for stretching picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +205,7 @@ public void setScale(double value)
 ```
 
 
-For the description of this property, please see [getScale()](../../com.aspose.cells/picformatoption\#getScale--)
+Sets how many the picture stack and scale with.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public void setTop(double value)
 ```
 
 
-For the description of this property, please see [getTop()](../../com.aspose.cells/picformatoption\#getTop--)
+Sets the top offset for stretching picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/picformatoption\#getType--)
+Sets the picture fill type.
 
 **Parameters:**
 | Parameter | Type | Description |

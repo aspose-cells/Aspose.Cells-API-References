@@ -27,11 +27,11 @@ Represents a complex type that specifies the pivot controls that appear on the c
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDropZoneCategories(boolean value)](#setDropZoneCategories-boolean-) | For the description of this property, please see [getDropZoneCategories()](../../com.aspose.cells/pivotoptions\#getDropZoneCategories--) |
-| [setDropZoneData(boolean value)](#setDropZoneData-boolean-) | For the description of this property, please see [getDropZoneData()](../../com.aspose.cells/pivotoptions\#getDropZoneData--) |
-| [setDropZoneFilter(boolean value)](#setDropZoneFilter-boolean-) | For the description of this property, please see [getDropZoneFilter()](../../com.aspose.cells/pivotoptions\#getDropZoneFilter--) |
-| [setDropZoneSeries(boolean value)](#setDropZoneSeries-boolean-) | For the description of this property, please see [getDropZoneSeries()](../../com.aspose.cells/pivotoptions\#getDropZoneSeries--) |
-| [setDropZonesVisible(boolean value)](#setDropZonesVisible-boolean-) | For the description of this property, please see [getDropZonesVisible()](../../com.aspose.cells/pivotoptions\#getDropZonesVisible--) |
+| [setDropZoneCategories(boolean value)](#setDropZoneCategories-boolean-) | Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [setDropZoneData(boolean value)](#setDropZoneData-boolean-) | Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [setDropZoneFilter(boolean value)](#setDropZoneFilter-boolean-) | Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [setDropZoneSeries(boolean value)](#setDropZoneSeries-boolean-) | Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
+| [setDropZonesVisible(boolean value)](#setDropZonesVisible-boolean-) | Specifies whether any pivot controls can appear on the pivot chart. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -143,7 +143,7 @@ public void setDropZoneCategories(boolean value)
 ```
 
 
-For the description of this property, please see [getDropZoneCategories()](../../com.aspose.cells/pivotoptions\#getDropZoneCategories--)
+Specifies whether a control for each PivotTable field on the PivotTable row axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public void setDropZoneData(boolean value)
 ```
 
 
-For the description of this property, please see [getDropZoneData()](../../com.aspose.cells/pivotoptions\#getDropZoneData--)
+Specifies whether a control for each PivotTable field on the PivotTable data axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setDropZoneFilter(boolean value)
 ```
 
 
-For the description of this property, please see [getDropZoneFilter()](../../com.aspose.cells/pivotoptions\#getDropZoneFilter--)
+Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setDropZoneSeries(boolean value)
 ```
 
 
-For the description of this property, please see [getDropZoneSeries()](../../com.aspose.cells/pivotoptions\#getDropZoneSeries--)
+Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setDropZonesVisible(boolean value)
 ```
 
 
-For the description of this property, please see [getDropZonesVisible()](../../com.aspose.cells/pivotoptions\#getDropZonesVisible--)
+Specifies whether any pivot controls can appear on the pivot chart.
 
 **Parameters:**
 | Parameter | Type | Description |

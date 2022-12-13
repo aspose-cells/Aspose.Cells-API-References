@@ -19,15 +19,15 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getClass()](#getClass--) |  |
-| [getDirectionType()](#getDirectionType--) | the direction of text. |
-| [getDisplayNumberFormat()](#getDisplayNumberFormat--) | the display number format of tick labels. |
+| [getDirectionType()](#getDirectionType--) | Gets the direction of text. |
+| [getDisplayNumberFormat()](#getDisplayNumberFormat--) | Gets the display number format of tick labels. |
 | [getFont()](#getFont--) | Returns a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object that represents the font of the specified TickLabels object. |
 | [getNumber()](#getNumber--) | Represents the format number for the TickLabels object. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the format string for the TickLabels object. |
 | [getNumberFormatLinked()](#getNumberFormatLinked--) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [getOffset()](#getOffset--) | the distance of labels from the axis. |
+| [getOffset()](#getOffset--) | Gets the distance of labels from the axis. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle in clockwise. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
@@ -36,17 +36,17 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the rotation angle is automatic |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/ticklabels\#getAutoScaleFont--) |
-| [setAutomaticRotation(boolean value)](#setAutomaticRotation-boolean-) | For the description of this property, please see [isAutomaticRotation()](../../com.aspose.cells/ticklabels\#isAutomaticRotation--) |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/ticklabels\#getBackgroundMode--) |
-| [setDirectionType(int value)](#setDirectionType-int-) | For the description of this property, please see [getDirectionType()](../../com.aspose.cells/ticklabels\#getDirectionType--) |
-| [setNumber(int value)](#setNumber-int-) | For the description of this property, please see [getNumber()](../../com.aspose.cells/ticklabels\#getNumber--) |
-| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/ticklabels\#getNumberFormat--) |
-| [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | For the description of this property, please see [getNumberFormatLinked()](../../com.aspose.cells/ticklabels\#getNumberFormatLinked--) |
-| [setOffset(int value)](#setOffset-int-) | For the description of this property, please see [getOffset()](../../com.aspose.cells/ticklabels\#getOffset--) |
-| [setReadingOrder(int value)](#setReadingOrder-int-) | For the description of this property, please see [getReadingOrder()](../../com.aspose.cells/ticklabels\#getReadingOrder--) |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/ticklabels\#getRotationAngle--) |
-| [setTextDirection(int value)](#setTextDirection-int-) | For the description of this property, please see [getTextDirection()](../../com.aspose.cells/ticklabels\#getTextDirection--) |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
+| [setAutomaticRotation(boolean value)](#setAutomaticRotation-boolean-) | Indicates whether the rotation angle is automatic |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
+| [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
+| [setNumber(int value)](#setNumber-int-) | Represents the format number for the TickLabels object. |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the format string for the TickLabels object. |
+| [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
+| [setOffset(int value)](#setOffset-int-) | Sets the distance of labels from the axis. |
+| [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle in clockwise. |
+| [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -82,7 +82,7 @@ public int getBackgroundMode()
 ```
 
 
-the display mode of the background
+Gets the display mode of the background
 
 **Returns:**
 int
@@ -102,7 +102,7 @@ public int getDirectionType()
 ```
 
 
-the direction of text.
+Gets the direction of text.
 
 **Returns:**
 int
@@ -112,7 +112,7 @@ public String getDisplayNumberFormat()
 ```
 
 
-the display number format of tick labels.
+Gets the display number format of tick labels.
 
 **Returns:**
 java.lang.String
@@ -162,7 +162,7 @@ public int getOffset()
 ```
 
 
-the distance of labels from the axis. The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
+Gets the distance of labels from the axis. The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
 
 **Returns:**
 int
@@ -256,7 +256,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/ticklabels\#getAutoScaleFont--)
+True if the text in the object changes font size when the object size changes. The default value is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public void setAutomaticRotation(boolean value)
 ```
 
 
-For the description of this property, please see [isAutomaticRotation()](../../com.aspose.cells/ticklabels\#isAutomaticRotation--)
+Indicates whether the rotation angle is automatic
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/ticklabels\#getBackgroundMode--)
+Sets the display mode of the background
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +295,7 @@ public void setDirectionType(int value)
 ```
 
 
-For the description of this property, please see [getDirectionType()](../../com.aspose.cells/ticklabels\#getDirectionType--)
+Sets the direction of text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,7 +308,7 @@ public void setNumber(int value)
 ```
 
 
-For the description of this property, please see [getNumber()](../../com.aspose.cells/ticklabels\#getNumber--)
+Represents the format number for the TickLabels object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -321,7 +321,7 @@ public void setNumberFormat(String value)
 ```
 
 
-For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/ticklabels\#getNumberFormat--)
+Represents the format string for the TickLabels object. The formatting string is same as a custom format string setting to a cell. For example, "$0".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -334,7 +334,7 @@ public void setNumberFormatLinked(boolean value)
 ```
 
 
-For the description of this property, please see [getNumberFormatLinked()](../../com.aspose.cells/ticklabels\#getNumberFormatLinked--)
+True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -347,7 +347,7 @@ public void setOffset(int value)
 ```
 
 
-For the description of this property, please see [getOffset()](../../com.aspose.cells/ticklabels\#getOffset--)
+Sets the distance of labels from the axis. The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -360,7 +360,7 @@ public void setReadingOrder(int value)
 ```
 
 
-For the description of this property, please see [getReadingOrder()](../../com.aspose.cells/ticklabels\#getReadingOrder--)
+Represents text reading order.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -373,7 +373,15 @@ public void setRotationAngle(int value)
 ```
 
 
-For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/ticklabels\#getRotationAngle--)
+Represents text rotation angle in clockwise.
+0: Not rotated.
+
+255: Top to Bottom.
+
+\-90: Downward.
+
+90: Upward.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -386,7 +394,7 @@ public void setTextDirection(int value)
 ```
 
 
-For the description of this property, please see [getTextDirection()](../../com.aspose.cells/ticklabels\#getTextDirection--)
+Represents text reading order. NOTE: This member is now obsolete. Instead, please use TickLabels.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

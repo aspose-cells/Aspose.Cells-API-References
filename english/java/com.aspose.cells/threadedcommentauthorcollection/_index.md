@@ -31,7 +31,7 @@ Represents all persons who .
 | [get(String name)](#get-java.lang.String-) | Gets the person who create threaded comments. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getCurrentPerson()](#getCurrentPerson--) | the current user. |
+| [getCurrentPerson()](#getCurrentPerson--) | Gets the current user. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(ThreadedCommentAuthor author)](#indexOf-com.aspose.cells.ThreadedCommentAuthor-) | Gets the index of ThreadedCommentAuthor object |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
@@ -39,7 +39,7 @@ Represents all persons who .
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setCurrentPerson(ThreadedCommentAuthor value)](#setCurrentPerson-com.aspose.cells.ThreadedCommentAuthor-) | For the description of this property, please see [getCurrentPerson()](../../com.aspose.cells/threadedcommentauthorcollection\#getCurrentPerson--) |
+| [setCurrentPerson(ThreadedCommentAuthor value)](#setCurrentPerson-com.aspose.cells.ThreadedCommentAuthor-) | Sets the current user. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -176,7 +176,7 @@ public ThreadedCommentAuthor getCurrentPerson()
 ```
 
 
-the current user.
+Gets the current user.
 
 **Returns:**
 [ThreadedCommentAuthor](../../com.aspose.cells/threadedcommentauthor)
@@ -265,7 +265,7 @@ public void setCurrentPerson(ThreadedCommentAuthor value)
 ```
 
 
-For the description of this property, please see [getCurrentPerson()](../../com.aspose.cells/threadedcommentauthorcollection\#getCurrentPerson--)
+Sets the current user.
 
 **Parameters:**
 | Parameter | Type | Description |

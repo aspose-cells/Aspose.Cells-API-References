@@ -30,9 +30,9 @@ Represents identifier information.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/customproperty\#getName--) |
-| [setStringValue(String value)](#setStringValue-java.lang.String-) | For the description of this property, please see [getStringValue()](../../com.aspose.cells/customproperty\#getStringValue--) |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/customproperty\#getValue--) |
+| [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the object. |
+| [setStringValue(String value)](#setStringValue-java.lang.String-) | Returns or sets the value of the custom property. |
+| [setValue(String value)](#setValue-java.lang.String-) | Returns or sets the value of the custom property. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -130,7 +130,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/customproperty\#getName--)
+Returns or sets the name of the object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,7 +143,7 @@ public void setStringValue(String value)
 ```
 
 
-For the description of this property, please see [getStringValue()](../../com.aspose.cells/customproperty\#getStringValue--)
+Returns or sets the value of the custom property. NOTE: This member is now obsolete. Instead, please use CustomProperty.Value property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/customproperty\#getValue--)
+Returns or sets the value of the custom property.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -27,7 +27,7 @@ Represents the options of saving the workbook as an xml file.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getExportArea()](#getExportArea--) | the exporting range. |
+| [getExportArea()](#getExportArea--) | Gets the exporting range. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
@@ -36,26 +36,26 @@ Represents the options of saving the workbook as an xml file.
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
 | [getXmlMapName()](#getXmlMapName--) | Indicates whether exporting xml map in the file. |
 | [hasHeaderRow()](#hasHeaderRow--) | Indicates whether the range contains header row. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--) |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--) |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
-| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see [getExportArea()](../../com.aspose.cells/xmlsaveoptions\#getExportArea--) |
-| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | For the description of this property, please see [hasHeaderRow()](../../com.aspose.cells/xmlsaveoptions\#hasHeaderRow--) |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
-| [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | For the description of this property, please see [getSheetIndexes()](../../com.aspose.cells/xmlsaveoptions\#getSheetIndexes--) |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--) |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Sets the exporting range. |
+| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Indicates whether the range contains header row. |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | Represents the indexes of exported sheets. |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
-| [setXmlMapName(String value)](#setXmlMapName-java.lang.String-) | For the description of this property, please see [getXmlMapName()](../../com.aspose.cells/xmlsaveoptions\#getXmlMapName--) |
+| [setXmlMapName(String value)](#setXmlMapName-java.lang.String-) | Indicates whether exporting xml map in the file. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -129,7 +129,7 @@ public CellArea getExportArea()
 ```
 
 
-the exporting range.
+Gets the exporting range.
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)
@@ -219,7 +219,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-warning callback.
+Sets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -275,7 +275,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--)
+The cached file folder is used to store some large data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -288,7 +288,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--)
+Make the workbook empty after saving the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -301,7 +301,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--)
+If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -314,7 +314,7 @@ public void setExportArea(CellArea value)
 ```
 
 
-For the description of this property, please see [getExportArea()](../../com.aspose.cells/xmlsaveoptions\#getExportArea--)
+Sets the exporting range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -327,7 +327,7 @@ public void setHasHeaderRow(boolean value)
 ```
 
 
-For the description of this property, please see [hasHeaderRow()](../../com.aspose.cells/xmlsaveoptions\#hasHeaderRow--)
+Indicates whether the range contains header row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -340,7 +340,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--)
+Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -353,7 +353,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--)
+Indicates whether refreshing chart cache data
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -366,7 +366,7 @@ public void setSheetIndexes(int[] value)
 ```
 
 
-For the description of this property, please see [getSheetIndexes()](../../com.aspose.cells/xmlsaveoptions\#getSheetIndexes--)
+Represents the indexes of exported sheets.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -379,7 +379,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--)
+Indicates whether sorting external defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -392,7 +392,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--)
+Indicates whether sorting defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -405,7 +405,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--)
+Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -418,7 +418,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--)
+Indicates whether validate merged cells before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -444,7 +444,7 @@ public void setXmlMapName(String value)
 ```
 
 
-For the description of this property, please see [getXmlMapName()](../../com.aspose.cells/xmlsaveoptions\#getXmlMapName--)
+Indicates whether exporting xml map in the file.
 
 **Parameters:**
 | Parameter | Type | Description |

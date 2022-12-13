@@ -28,15 +28,15 @@ Provides helper functions.
 | [createSafeSheetName(String nameProposal)](#createSafeSheetName-java.lang.String-) | Checks given sheet name and create a valid one when needed. |
 | [createSafeSheetName(String nameProposal, char replaceChar)](#createSafeSheetName-java.lang.String-char-) | Checks given sheet name and create a valid one when needed. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAltStartPath()](#getAltStartPath--) | the alternate startup path, which is referred to by some external formula references. |
+| [getAltStartPath()](#getAltStartPath--) | Gets the alternate startup path, which is referred to by some external formula references. |
 | [getClass()](#getClass--) |  |
-| [getCustomImplementationFactory()](#getCustomImplementationFactory--) | the factory for creating instances with special implementation. |
+| [getCustomImplementationFactory()](#getCustomImplementationFactory--) | Gets the factory for creating instances with special implementation. |
 | [getDPI()](#getDPI--) | Gets the DPI of the machine. |
 | [getDateTimeFromDouble(double doubleValue, boolean date1904)](#getDateTimeFromDouble-double-boolean-) | Convert the double value to the date time value. |
 | [getDoubleFromDateTime(DateTime dateTime, boolean date1904)](#getDoubleFromDateTime-com.aspose.cells.DateTime-boolean-) | Convert the date time to double value. |
-| [getLibraryPath()](#getLibraryPath--) | the library path which is referred to by some external formula references. |
-| [getSignificantDigits()](#getSignificantDigits--) | the number of significant digits. |
-| [getStartupPath()](#getStartupPath--) | the startup path, which is referred to by some external formula references. |
+| [getLibraryPath()](#getLibraryPath--) | Gets the library path which is referred to by some external formula references. |
+| [getSignificantDigits()](#getSignificantDigits--) | Gets the number of significant digits. |
+| [getStartupPath()](#getStartupPath--) | Gets the startup path, which is referred to by some external formula references. |
 | [getTextWidth(String text, Font font, double scaling)](#getTextWidth-java.lang.String-com.aspose.cells.Font-double-) | Get width of text in unit of points. |
 | [getUsedColors(Workbook workbook)](#getUsedColors-com.aspose.cells.Workbook-) | Gets all used colors in the workbook. |
 | [getVersion()](#getVersion--) | Get the release version. |
@@ -47,13 +47,13 @@ Provides helper functions.
 | [notifyAll()](#notifyAll--) |  |
 | [rowIndexToName(int row)](#rowIndexToName-int-) | Gets row name according to row index. |
 | [rowNameToIndex(String rowName)](#rowNameToIndex-java.lang.String-) | Gets row index according to row name. |
-| [setAltStartPath(String value)](#setAltStartPath-java.lang.String-) | For the description of this property, please see [getAltStartPath()](../../com.aspose.cells/cellshelper\#getAltStartPath--) |
-| [setCloudPlatform(boolean value)](#setCloudPlatform-boolean-) | For the description of this property, please see [isCloudPlatform()](../../com.aspose.cells/cellshelper\#isCloudPlatform--) |
-| [setCustomImplementationFactory(CustomImplementationFactory value)](#setCustomImplementationFactory-com.aspose.cells.CustomImplementationFactory-) | For the description of this property, please see [getCustomImplementationFactory()](../../com.aspose.cells/cellshelper\#getCustomImplementationFactory--) |
-| [setDPI(double value)](#setDPI-double-) | For the description of this property, please see [getDPI()](../../com.aspose.cells/cellshelper\#getDPI--) |
-| [setLibraryPath(String value)](#setLibraryPath-java.lang.String-) | For the description of this property, please see [getLibraryPath()](../../com.aspose.cells/cellshelper\#getLibraryPath--) |
-| [setSignificantDigits(int value)](#setSignificantDigits-int-) | For the description of this property, please see [getSignificantDigits()](../../com.aspose.cells/cellshelper\#getSignificantDigits--) |
-| [setStartupPath(String value)](#setStartupPath-java.lang.String-) | For the description of this property, please see [getStartupPath()](../../com.aspose.cells/cellshelper\#getStartupPath--) |
+| [setAltStartPath(String value)](#setAltStartPath-java.lang.String-) | Sets the alternate startup path, which is referred to by some external formula references. |
+| [setCloudPlatform(boolean value)](#setCloudPlatform-boolean-) | Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
+| [setCustomImplementationFactory(CustomImplementationFactory value)](#setCustomImplementationFactory-com.aspose.cells.CustomImplementationFactory-) | Sets the factory for creating instances with special implementation. |
+| [setDPI(double value)](#setDPI-double-) | Gets the DPI of the machine. |
+| [setLibraryPath(String value)](#setLibraryPath-java.lang.String-) | Sets the library path which is referred to by some external formula references. |
+| [setSignificantDigits(int value)](#setSignificantDigits-int-) | Sets the number of significant digits. |
+| [setStartupPath(String value)](#setStartupPath-java.lang.String-) | Sets the startup path, which is referred to by some external formula references. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -237,7 +237,7 @@ public static String getAltStartPath()
 ```
 
 
-the alternate startup path, which is referred to by some external formula references.
+Gets the alternate startup path, which is referred to by some external formula references.
 
 **Returns:**
 java.lang.String
@@ -257,7 +257,7 @@ public static CustomImplementationFactory getCustomImplementationFactory()
 ```
 
 
-the factory for creating instances with special implementation.
+Gets the factory for creating instances with special implementation.
 
 **Returns:**
 [CustomImplementationFactory](../../com.aspose.cells/customimplementationfactory)
@@ -309,7 +309,7 @@ public static String getLibraryPath()
 ```
 
 
-the library path which is referred to by some external formula references.
+Gets the library path which is referred to by some external formula references.
 
 **Returns:**
 java.lang.String
@@ -319,7 +319,7 @@ public static int getSignificantDigits()
 ```
 
 
-the number of significant digits. The default value is 17. Only could be 15 or 17 now.
+Gets the number of significant digits. The default value is 17. Only could be 15 or 17 now.
 
 **Returns:**
 int
@@ -329,7 +329,7 @@ public static String getStartupPath()
 ```
 
 
-the startup path, which is referred to by some external formula references.
+Gets the startup path, which is referred to by some external formula references.
 
 **Returns:**
 java.lang.String
@@ -462,7 +462,7 @@ public static void setAltStartPath(String value)
 ```
 
 
-For the description of this property, please see [getAltStartPath()](../../com.aspose.cells/cellshelper\#getAltStartPath--)
+Sets the alternate startup path, which is referred to by some external formula references.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -475,7 +475,7 @@ public static void setCloudPlatform(boolean value)
 ```
 
 
-For the description of this property, please see [isCloudPlatform()](../../com.aspose.cells/cellshelper\#isCloudPlatform--)
+Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc,
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -488,7 +488,7 @@ public static void setCustomImplementationFactory(CustomImplementationFactory va
 ```
 
 
-For the description of this property, please see [getCustomImplementationFactory()](../../com.aspose.cells/cellshelper\#getCustomImplementationFactory--)
+Sets the factory for creating instances with special implementation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -501,7 +501,7 @@ public static void setDPI(double value)
 ```
 
 
-For the description of this property, please see [getDPI()](../../com.aspose.cells/cellshelper\#getDPI--)
+Gets the DPI of the machine.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -514,7 +514,7 @@ public static void setLibraryPath(String value)
 ```
 
 
-For the description of this property, please see [getLibraryPath()](../../com.aspose.cells/cellshelper\#getLibraryPath--)
+Sets the library path which is referred to by some external formula references.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -527,7 +527,7 @@ public static void setSignificantDigits(int value)
 ```
 
 
-For the description of this property, please see [getSignificantDigits()](../../com.aspose.cells/cellshelper\#getSignificantDigits--)
+Sets the number of significant digits. The default value is 17. Only could be 15 or 17 now.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -540,7 +540,7 @@ public static void setStartupPath(String value)
 ```
 
 
-For the description of this property, please see [getStartupPath()](../../com.aspose.cells/cellshelper\#getStartupPath--)
+Sets the startup path, which is referred to by some external formula references.
 
 **Parameters:**
 | Parameter | Type | Description |

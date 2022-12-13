@@ -31,36 +31,36 @@ Represents the setting of shape's text alignment;
 | [getBottomMarginPt()](#getBottomMarginPt--) | Returns the bottom margin in unit of Points |
 | [getClass()](#getClass--) |  |
 | [getLeftMarginPt()](#getLeftMarginPt--) | Returns the left margin in unit of Points |
-| [getNumberOfColumns()](#getNumberOfColumns--) | the number of columns of text in the bounding rectangle. |
+| [getNumberOfColumns()](#getNumberOfColumns--) | Gets the number of columns of text in the bounding rectangle. |
 | [getRightMarginPt()](#getRightMarginPt--) | Returns the right margin in unit of Points |
 | [getRotateTextWithShape()](#getRotateTextWithShape--) | Indicates whether rotating text with shape. |
-| [getRotationAngle()](#getRotationAngle--) | the rotation of the shape. |
-| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--) | the text horizontal overflow type of the text box. |
-| [getTextShapeType()](#getTextShapeType--) | the transform type of text. |
-| [getTextVerticalOverflow()](#getTextVerticalOverflow--) | the text vertical overflow type of the text box. |
-| [getTextVerticalType()](#getTextVerticalType--) | the text direction. |
+| [getRotationAngle()](#getRotationAngle--) | Gets the rotation of the shape. |
+| [getTextHorizontalOverflow()](#getTextHorizontalOverflow--) | Gets the text horizontal overflow type of the text box. |
+| [getTextShapeType()](#getTextShapeType--) | Gets the transform type of text. |
+| [getTextVerticalOverflow()](#getTextVerticalOverflow--) | Gets the text vertical overflow type of the text box. |
+| [getTextVerticalType()](#getTextVerticalType--) | Gets the text direction. |
 | [getTopMarginPt()](#getTopMarginPt--) | Returns the top margin in unit of Points |
 | [hashCode()](#hashCode--) | ```
 int hashCode = shapeTextAlignment.hashCode();
 ``` |
 | [isAutoMargin()](#isAutoMargin--) | Indicates whether the margin of the text frame is automatic. |
-| [isTextWrapped()](#isTextWrapped--) | the text wrapped type of the shape which contains text. |
+| [isTextWrapped()](#isTextWrapped--) | Gets the text wrapped type of the shape which contains text. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | For the description of this property, please see [isAutoMargin()](../../com.aspose.cells/shapetextalignment\#isAutoMargin--) |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [getAutoSize()](../../com.aspose.cells/shapetextalignment\#getAutoSize--) |
-| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | For the description of this property, please see [getBottomMarginPt()](../../com.aspose.cells/shapetextalignment\#getBottomMarginPt--) |
-| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | For the description of this property, please see [getLeftMarginPt()](../../com.aspose.cells/shapetextalignment\#getLeftMarginPt--) |
-| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | For the description of this property, please see [getNumberOfColumns()](../../com.aspose.cells/shapetextalignment\#getNumberOfColumns--) |
-| [setRightMarginPt(double value)](#setRightMarginPt-double-) | For the description of this property, please see [getRightMarginPt()](../../com.aspose.cells/shapetextalignment\#getRightMarginPt--) |
-| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | For the description of this property, please see [getRotateTextWithShape()](../../com.aspose.cells/shapetextalignment\#getRotateTextWithShape--) |
-| [setRotationAngle(double value)](#setRotationAngle-double-) | For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/shapetextalignment\#getRotationAngle--) |
-| [setTextHorizontalOverflow(int value)](#setTextHorizontalOverflow-int-) | For the description of this property, please see [getTextHorizontalOverflow()](../../com.aspose.cells/shapetextalignment\#getTextHorizontalOverflow--) |
-| [setTextShapeType(int value)](#setTextShapeType-int-) | For the description of this property, please see [getTextShapeType()](../../com.aspose.cells/shapetextalignment\#getTextShapeType--) |
-| [setTextVerticalOverflow(int value)](#setTextVerticalOverflow-int-) | For the description of this property, please see [getTextVerticalOverflow()](../../com.aspose.cells/shapetextalignment\#getTextVerticalOverflow--) |
-| [setTextVerticalType(int value)](#setTextVerticalType-int-) | For the description of this property, please see [getTextVerticalType()](../../com.aspose.cells/shapetextalignment\#getTextVerticalType--) |
-| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | For the description of this property, please see [isTextWrapped()](../../com.aspose.cells/shapetextalignment\#isTextWrapped--) |
-| [setTopMarginPt(double value)](#setTopMarginPt-double-) | For the description of this property, please see [getTopMarginPt()](../../com.aspose.cells/shapetextalignment\#getTopMarginPt--) |
+| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | Indicates whether the margin of the text frame is automatic. |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates if size of shape is adjusted automatically according to its content. |
+| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | Returns the bottom margin in unit of Points |
+| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | Returns the left margin in unit of Points |
+| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | Sets the number of columns of text in the bounding rectangle. |
+| [setRightMarginPt(double value)](#setRightMarginPt-double-) | Returns the right margin in unit of Points |
+| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | Indicates whether rotating text with shape. |
+| [setRotationAngle(double value)](#setRotationAngle-double-) | Sets the rotation of the shape. |
+| [setTextHorizontalOverflow(int value)](#setTextHorizontalOverflow-int-) | Sets the text horizontal overflow type of the text box. |
+| [setTextShapeType(int value)](#setTextShapeType-int-) | Sets the transform type of text. |
+| [setTextVerticalOverflow(int value)](#setTextVerticalOverflow-int-) | Sets the text vertical overflow type of the text box. |
+| [setTextVerticalType(int value)](#setTextVerticalType-int-) | Sets the text direction. |
+| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Sets the text wrapped type of the shape which contains text. |
+| [setTopMarginPt(double value)](#setTopMarginPt-double-) | Returns the top margin in unit of Points |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -147,7 +147,7 @@ public int getNumberOfColumns()
 ```
 
 
-the number of columns of text in the bounding rectangle.
+Gets the number of columns of text in the bounding rectangle.
 
 **Returns:**
 int
@@ -185,7 +185,7 @@ public double getRotationAngle()
 ```
 
 
-the rotation of the shape.
+Gets the rotation of the shape.
 
 ```
 shapeTextAlignment.setRotationAngle(90);
@@ -199,7 +199,7 @@ public int getTextHorizontalOverflow()
 ```
 
 
-the text horizontal overflow type of the text box.
+Gets the text horizontal overflow type of the text box.
 
 ```
 shapeTextAlignment.setTextHorizontalOverflow(TextOverflowType.CLIP);
@@ -213,7 +213,7 @@ public int getTextShapeType()
 ```
 
 
-the transform type of text.
+Gets the transform type of text.
 
 ```
 //Usually do not modify this value unless you know exactly what the modification will result in
@@ -228,7 +228,7 @@ public int getTextVerticalOverflow()
 ```
 
 
-the text vertical overflow type of the text box.
+Gets the text vertical overflow type of the text box.
 
 ```
 shapeTextAlignment.setTextVerticalOverflow(TextOverflowType.CLIP);
@@ -242,7 +242,7 @@ public int getTextVerticalType()
 ```
 
 
-the text direction.
+Gets the text direction.
 
 ```
 shapeTextAlignment.setTextVerticalType(com.aspose.cells.TextVerticalType.HORIZONTAL);
@@ -296,7 +296,7 @@ public boolean isTextWrapped()
 ```
 
 
-the text wrapped type of the shape which contains text.
+Gets the text wrapped type of the shape which contains text.
 
 ```
 shapeTextAlignment.setTextWrapped(true);
@@ -326,7 +326,7 @@ public void setAutoMargin(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoMargin()](../../com.aspose.cells/shapetextalignment\#isAutoMargin--)
+Indicates whether the margin of the text frame is automatic.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -339,7 +339,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoSize()](../../com.aspose.cells/shapetextalignment\#getAutoSize--)
+Indicates if size of shape is adjusted automatically according to its content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -352,7 +352,7 @@ public void setBottomMarginPt(double value)
 ```
 
 
-For the description of this property, please see [getBottomMarginPt()](../../com.aspose.cells/shapetextalignment\#getBottomMarginPt--)
+Returns the bottom margin in unit of Points
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -365,7 +365,7 @@ public void setLeftMarginPt(double value)
 ```
 
 
-For the description of this property, please see [getLeftMarginPt()](../../com.aspose.cells/shapetextalignment\#getLeftMarginPt--)
+Returns the left margin in unit of Points
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -378,7 +378,7 @@ public void setNumberOfColumns(int value)
 ```
 
 
-For the description of this property, please see [getNumberOfColumns()](../../com.aspose.cells/shapetextalignment\#getNumberOfColumns--)
+Sets the number of columns of text in the bounding rectangle.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -391,7 +391,7 @@ public void setRightMarginPt(double value)
 ```
 
 
-For the description of this property, please see [getRightMarginPt()](../../com.aspose.cells/shapetextalignment\#getRightMarginPt--)
+Returns the right margin in unit of Points
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +404,7 @@ public void setRotateTextWithShape(boolean value)
 ```
 
 
-For the description of this property, please see [getRotateTextWithShape()](../../com.aspose.cells/shapetextalignment\#getRotateTextWithShape--)
+Indicates whether rotating text with shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -417,7 +417,7 @@ public void setRotationAngle(double value)
 ```
 
 
-For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/shapetextalignment\#getRotationAngle--)
+Sets the rotation of the shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -430,7 +430,7 @@ public void setTextHorizontalOverflow(int value)
 ```
 
 
-For the description of this property, please see [getTextHorizontalOverflow()](../../com.aspose.cells/shapetextalignment\#getTextHorizontalOverflow--)
+Sets the text horizontal overflow type of the text box.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -443,7 +443,7 @@ public void setTextShapeType(int value)
 ```
 
 
-For the description of this property, please see [getTextShapeType()](../../com.aspose.cells/shapetextalignment\#getTextShapeType--)
+Sets the transform type of text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -456,7 +456,7 @@ public void setTextVerticalOverflow(int value)
 ```
 
 
-For the description of this property, please see [getTextVerticalOverflow()](../../com.aspose.cells/shapetextalignment\#getTextVerticalOverflow--)
+Sets the text vertical overflow type of the text box.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +469,7 @@ public void setTextVerticalType(int value)
 ```
 
 
-For the description of this property, please see [getTextVerticalType()](../../com.aspose.cells/shapetextalignment\#getTextVerticalType--)
+Sets the text direction.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,7 +482,7 @@ public void setTextWrapped(boolean value)
 ```
 
 
-For the description of this property, please see [isTextWrapped()](../../com.aspose.cells/shapetextalignment\#isTextWrapped--)
+Sets the text wrapped type of the shape which contains text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -495,7 +495,7 @@ public void setTopMarginPt(double value)
 ```
 
 
-For the description of this property, please see [getTopMarginPt()](../../com.aspose.cells/shapetextalignment\#getTopMarginPt--)
+Returns the top margin in unit of Points
 
 **Parameters:**
 | Parameter | Type | Description |

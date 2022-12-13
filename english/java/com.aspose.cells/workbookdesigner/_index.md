@@ -44,32 +44,32 @@ Encapsulates the object that represents a designer spreadsheet.
 | [clearDataSource()](#clearDataSource--) | Clears all data sources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether formulas should be calculated. |
-| [getCallBack()](#getCallBack--) | callback interface of processing smartmarker. |
+| [getCallBack()](#getCallBack--) | Gets callback interface of processing smartmarker. |
 | [getClass()](#getClass--) |  |
 | [getLineByLine()](#getLineByLine--) | Indicates whether processing the smart marker line by line. |
 | [getRepeatFormulasWithSubtotal()](#getRepeatFormulasWithSubtotal--) | Indicates whether repeating formulas with subtotal row. |
 | [getSmartMarkers()](#getSmartMarkers--) | Returns a collection of smart markers in a spreadsheet. |
 | [getUpdateEmptyStringAsNull()](#getUpdateEmptyStringAsNull--) | If TRUE, Null will be inserted if the value is ""; |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if references in other worksheets will be updated. |
-| [getWorkbook()](#getWorkbook--) | the [Workbook](../../com.aspose.cells/workbook) object. |
+| [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [process()](#process--) | Processes the smart markers and populates the data source values. |
 | [process(boolean isPreserved)](#process-boolean-) | Processes the smart markers and populates the data source values. |
 | [process(int sheetIndex, boolean isPreserved)](#process-int-boolean-) | Processes the smart markers and populates the data source values. |
-| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | For the description of this property, please see [getCalculateFormula()](../../com.aspose.cells/workbookdesigner\#getCalculateFormula--) |
-| [setCallBack(ISmartMarkerCallBack value)](#setCallBack-com.aspose.cells.ISmartMarkerCallBack-) | For the description of this property, please see [getCallBack()](../../com.aspose.cells/workbookdesigner\#getCallBack--) |
+| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether formulas should be calculated. |
+| [setCallBack(ISmartMarkerCallBack value)](#setCallBack-com.aspose.cells.ISmartMarkerCallBack-) | Sets callback interface of processing smartmarker. |
 | [setDataSource(String dataSource, ICellsDataTable cellsDataTable)](#setDataSource-java.lang.String-com.aspose.cells.ICellsDataTable-) | Sets data source of a [ICellsDataTable](../../com.aspose.cells/icellsdatatable) object. |
 | [setDataSource(String variable, Object data)](#setDataSource-java.lang.String-java.lang.Object-) | Sets data binding to a variable. |
 | [setDataSource(String dataSource, ResultSet rs)](#setDataSource-java.lang.String-java.sql.ResultSet-) | Set the data source. |
 | [setDataSource(String dataSource, ResultSet rs, int rowCount)](#setDataSource-java.lang.String-java.sql.ResultSet-int-) | Set the data source. |
 | [setDataSource(ResultSet rs)](#setDataSource-java.sql.ResultSet-) | Set the data source. |
-| [setLineByLine(boolean value)](#setLineByLine-boolean-) | For the description of this property, please see [getLineByLine()](../../com.aspose.cells/workbookdesigner\#getLineByLine--) |
-| [setRepeatFormulasWithSubtotal(boolean value)](#setRepeatFormulasWithSubtotal-boolean-) | For the description of this property, please see [getRepeatFormulasWithSubtotal()](../../com.aspose.cells/workbookdesigner\#getRepeatFormulasWithSubtotal--) |
-| [setUpdateEmptyStringAsNull(boolean value)](#setUpdateEmptyStringAsNull-boolean-) | For the description of this property, please see [getUpdateEmptyStringAsNull()](../../com.aspose.cells/workbookdesigner\#getUpdateEmptyStringAsNull--) |
-| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | For the description of this property, please see [getUpdateReference()](../../com.aspose.cells/workbookdesigner\#getUpdateReference--) |
-| [setWorkbook(Workbook value)](#setWorkbook-com.aspose.cells.Workbook-) | For the description of this property, please see [getWorkbook()](../../com.aspose.cells/workbookdesigner\#getWorkbook--) |
+| [setLineByLine(boolean value)](#setLineByLine-boolean-) | Indicates whether processing the smart marker line by line. |
+| [setRepeatFormulasWithSubtotal(boolean value)](#setRepeatFormulasWithSubtotal-boolean-) | Indicates whether repeating formulas with subtotal row. |
+| [setUpdateEmptyStringAsNull(boolean value)](#setUpdateEmptyStringAsNull-boolean-) | If TRUE, Null will be inserted if the value is ""; |
+| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if references in other worksheets will be updated. |
+| [setWorkbook(Workbook value)](#setWorkbook-com.aspose.cells.Workbook-) | Sets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -134,7 +134,7 @@ public ISmartMarkerCallBack getCallBack()
 ```
 
 
-callback interface of processing smartmarker.
+Gets callback interface of processing smartmarker.
 
 **Returns:**
 [ISmartMarkerCallBack](../../com.aspose.cells/ismartmarkercallback)
@@ -204,7 +204,7 @@ public Workbook getWorkbook()
 ```
 
 
-the [Workbook](../../com.aspose.cells/workbook) object.
+Gets the [Workbook](../../com.aspose.cells/workbook) object.
 
 **Returns:**
 [Workbook](../../com.aspose.cells/workbook)
@@ -275,7 +275,7 @@ public void setCalculateFormula(boolean value)
 ```
 
 
-For the description of this property, please see [getCalculateFormula()](../../com.aspose.cells/workbookdesigner\#getCalculateFormula--)
+Indicates whether formulas should be calculated.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -288,7 +288,7 @@ public void setCallBack(ISmartMarkerCallBack value)
 ```
 
 
-For the description of this property, please see [getCallBack()](../../com.aspose.cells/workbookdesigner\#getCallBack--)
+Sets callback interface of processing smartmarker.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -371,7 +371,7 @@ public void setLineByLine(boolean value)
 ```
 
 
-For the description of this property, please see [getLineByLine()](../../com.aspose.cells/workbookdesigner\#getLineByLine--)
+Indicates whether processing the smart marker line by line. The default value is true. If False, the template file must contain a range which is named as "\_CellsSmartMarkers".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -384,7 +384,7 @@ public void setRepeatFormulasWithSubtotal(boolean value)
 ```
 
 
-For the description of this property, please see [getRepeatFormulasWithSubtotal()](../../com.aspose.cells/workbookdesigner\#getRepeatFormulasWithSubtotal--)
+Indicates whether repeating formulas with subtotal row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -397,7 +397,7 @@ public void setUpdateEmptyStringAsNull(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateEmptyStringAsNull()](../../com.aspose.cells/workbookdesigner\#getUpdateEmptyStringAsNull--)
+If TRUE, Null will be inserted if the value is "";
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -410,7 +410,7 @@ public void setUpdateReference(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateReference()](../../com.aspose.cells/workbookdesigner\#getUpdateReference--)
+Indicates if references in other worksheets will be updated.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -423,7 +423,7 @@ public void setWorkbook(Workbook value)
 ```
 
 
-For the description of this property, please see [getWorkbook()](../../com.aspose.cells/workbookdesigner\#getWorkbook--)
+Sets the [Workbook](../../com.aspose.cells/workbook) object.
 
 **Parameters:**
 | Parameter | Type | Description |

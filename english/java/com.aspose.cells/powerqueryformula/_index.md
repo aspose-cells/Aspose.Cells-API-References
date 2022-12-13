@@ -20,12 +20,12 @@ Represents the definition of power query formula.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFormulaDefinition()](#getFormulaDefinition--) | Gets the definition of the power query formula. |
-| [getName()](#getName--) | the name of the power query formula. |
+| [getName()](#getName--) | Gets the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--) | Gets all items of power query formula. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformula\#getName--) |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the power query formula. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public String getName()
 ```
 
 
-the name of the power query formula.
+Gets the name of the power query formula.
 
 **Returns:**
 java.lang.String
@@ -117,7 +117,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformula\#getName--)
+Sets the name of the power query formula.
 
 **Parameters:**
 | Parameter | Type | Description |

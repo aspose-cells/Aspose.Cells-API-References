@@ -19,17 +19,17 @@ This class specifies the 3D shape properties for a chart element or shape.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getLightingAngle()](#getLightingAngle--) | the lighting angle. |
-| [getSurfaceLightingType()](#getSurfaceLightingType--) | the lighting type which is to be applied to the scene of the shape. |
-| [getSurfaceMaterialType()](#getSurfaceMaterialType--) | the material type which is combined with the lighting properties to give the final look and feel of a shape. |
+| [getLightingAngle()](#getLightingAngle--) | Gets the lighting angle. |
+| [getSurfaceLightingType()](#getSurfaceLightingType--) | Gets the lighting type which is to be applied to the scene of the shape. |
+| [getSurfaceMaterialType()](#getSurfaceMaterialType--) | Gets the material type which is combined with the lighting properties to give the final look and feel of a shape. |
 | [getTopBevel()](#getTopBevel--) | Gets the [Bevel](../../com.aspose.cells/bevel) object that holds the properties associated with defining a bevel on the top or front face of a shape. |
 | [hasTopBevelData()](#hasTopBevelData--) | Indicates if the shape has top bevel data. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLightingAngle(double value)](#setLightingAngle-double-) | For the description of this property, please see [getLightingAngle()](../../com.aspose.cells/format3d\#getLightingAngle--) |
-| [setSurfaceLightingType(int value)](#setSurfaceLightingType-int-) | For the description of this property, please see [getSurfaceLightingType()](../../com.aspose.cells/format3d\#getSurfaceLightingType--) |
-| [setSurfaceMaterialType(int value)](#setSurfaceMaterialType-int-) | For the description of this property, please see [getSurfaceMaterialType()](../../com.aspose.cells/format3d\#getSurfaceMaterialType--) |
+| [setLightingAngle(double value)](#setLightingAngle-double-) | Sets the lighting angle. |
+| [setSurfaceLightingType(int value)](#setSurfaceLightingType-int-) | Sets the lighting type which is to be applied to the scene of the shape. |
+| [setSurfaceMaterialType(int value)](#setSurfaceMaterialType-int-) | Sets the material type which is combined with the lighting properties to give the final look and feel of a shape. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,7 @@ public double getLightingAngle()
 ```
 
 
-the lighting angle. Range from 0 to 359.9 degrees.
+Gets the lighting angle. Range from 0 to 359.9 degrees.
 
 **Returns:**
 double
@@ -75,7 +75,7 @@ public int getSurfaceLightingType()
 ```
 
 
-the lighting type which is to be applied to the scene of the shape. Default value is LightRigType.ThreePoint.
+Gets the lighting type which is to be applied to the scene of the shape. Default value is LightRigType.ThreePoint.
 
 **Returns:**
 int
@@ -85,7 +85,7 @@ public int getSurfaceMaterialType()
 ```
 
 
-the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte.
+Gets the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte.
 
 **Returns:**
 int
@@ -141,7 +141,7 @@ public void setLightingAngle(double value)
 ```
 
 
-For the description of this property, please see [getLightingAngle()](../../com.aspose.cells/format3d\#getLightingAngle--)
+Sets the lighting angle. Range from 0 to 359.9 degrees.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ public void setSurfaceLightingType(int value)
 ```
 
 
-For the description of this property, please see [getSurfaceLightingType()](../../com.aspose.cells/format3d\#getSurfaceLightingType--)
+Sets the lighting type which is to be applied to the scene of the shape. Default value is LightRigType.ThreePoint.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public void setSurfaceMaterialType(int value)
 ```
 
 
-For the description of this property, please see [getSurfaceMaterialType()](../../com.aspose.cells/format3d\#getSurfaceMaterialType--)
+Sets the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte.
 
 **Parameters:**
 | Parameter | Type | Description |

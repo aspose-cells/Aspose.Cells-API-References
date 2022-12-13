@@ -29,9 +29,9 @@ A specified range to be allowed to edit when the sheet protection is ON.
 | [isProtectedWithPassword()](#isProtectedWithPassword--) | Indicates whether the worksheets is protected with password. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/protectedrange\#getName--) |
-| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see [getPassword()](../../com.aspose.cells/protectedrange\#getPassword--) |
-| [setSecurityDescriptor(String value)](#setSecurityDescriptor-java.lang.String-) | For the description of this property, please see [getSecurityDescriptor()](../../com.aspose.cells/protectedrange\#getSecurityDescriptor--) |
+| [setName(String value)](#setName-java.lang.String-) | Gets the Range title. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Represents the password to protect the range. |
+| [setSecurityDescriptor(String value)](#setSecurityDescriptor-java.lang.String-) | The security descriptor defines user accounts who may edit this range without providing a password to access the range. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -169,7 +169,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/protectedrange\#getName--)
+Gets the Range title. This is used as a descriptor, not as a named range definition.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setPassword(String value)
 ```
 
 
-For the description of this property, please see [getPassword()](../../com.aspose.cells/protectedrange\#getPassword--)
+Represents the password to protect the range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public void setSecurityDescriptor(String value)
 ```
 
 
-For the description of this property, please see [getSecurityDescriptor()](../../com.aspose.cells/protectedrange\#getSecurityDescriptor--)
+The security descriptor defines user accounts who may edit this range without providing a password to access the range.
 
 **Parameters:**
 | Parameter | Type | Description |

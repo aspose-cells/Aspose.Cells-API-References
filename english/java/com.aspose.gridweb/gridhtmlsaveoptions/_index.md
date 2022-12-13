@@ -33,7 +33,7 @@ Represents the options for saving html file.
 | [getDefaultFontName()](#getDefaultFontName--) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [getEncoding()](#getEncoding--) | If not set,use Encoding.UTF8 as default enconding type. |
 | [getExportActiveWorksheetOnly()](#getExportActiveWorksheetOnly--) | Indicates if exporting the whole workbook to html file. |
-| [getExportArea()](#getExportArea--) | the exporting CellArea of current active Worksheet. |
+| [getExportArea()](#getExportArea--) | Gets the exporting CellArea of current active Worksheet. |
 | [getExportGridLines()](#getExportGridLines--) | Indicating whether exporting the gridlines.The default value is false. |
 | [getExportHeadings()](#getExportHeadings--) | Indicates whether exporting headings when saving file to html.The default value is false. |
 | [getExportHiddenWorksheet()](#getExportHiddenWorksheet--) | Indicating if exporting the hidden worksheet content.The default value is true. |
@@ -55,30 +55,32 @@ Represents the options for saving html file.
 | [isFullPathLink()](#isFullPathLink--) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | For the description of this property, please see [getAttachedFilesDirectory()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getAttachedFilesDirectory--) |
-| [setAttachedFilesUrlPrefix(String value)](#setAttachedFilesUrlPrefix-java.lang.String-) | For the description of this property, please see [getAttachedFilesUrlPrefix()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getAttachedFilesUrlPrefix--) |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.gridweb/gridsaveoptions\#getCachedFileFolder--) |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.gridweb/gridsaveoptions\#getClearData--) |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.gridweb/gridsaveoptions\#getCreateDirectory--) |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | For the description of this property, please see [getDefaultFontName()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getDefaultFontName--) |
-| [setEncoding(Encoding value)](#setEncoding-com.aspose.gridweb.Encoding-) | For the description of this property, please see [getEncoding()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getEncoding--) |
-| [setExportActiveWorksheetOnly(boolean value)](#setExportActiveWorksheetOnly-boolean-) | For the description of this property, please see [getExportActiveWorksheetOnly()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportActiveWorksheetOnly--) |
-| [setExportArea(GridCellArea value)](#setExportArea-com.aspose.gridweb.GridCellArea-) | For the description of this property, please see [getExportArea()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportArea--) |
-| [setExportComments(boolean value)](#setExportComments-boolean-) | For the description of this property, please see [isExportComments()](../../com.aspose.gridweb/gridhtmlsaveoptions\#isExportComments--) |
-| [setExportGridLines(boolean value)](#setExportGridLines-boolean-) | For the description of this property, please see [getExportGridLines()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportGridLines--) |
-| [setExportHeadings(boolean value)](#setExportHeadings-boolean-) | For the description of this property, please see [getExportHeadings()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportHeadings--) |
-| [setExportHiddenWorksheet(boolean value)](#setExportHiddenWorksheet-boolean-) | For the description of this property, please see [getExportHiddenWorksheet()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportHiddenWorksheet--) |
-| [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | For the description of this property, please see [getExportImagesAsBase64()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportImagesAsBase64--) |
-| [setExportPrintAreaOnly(boolean value)](#setExportPrintAreaOnly-boolean-) | For the description of this property, please see [getExportPrintAreaOnly()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportPrintAreaOnly--) |
-| [setExportSingleTab(boolean value)](#setExportSingleTab-boolean-) | For the description of this property, please see [getExportSingleTab()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportSingleTab--) |
-| [setFullPathLink(boolean value)](#setFullPathLink-boolean-) | For the description of this property, please see [isFullPathLink()](../../com.aspose.gridweb/gridhtmlsaveoptions\#isFullPathLink--) |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.gridweb/gridsaveoptions\#getMergeAreas--) |
-| [setPageTitle(String value)](#setPageTitle-java.lang.String-) | For the description of this property, please see [getPageTitle()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getPageTitle--) |
-| [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | For the description of this property, please see [getParseHtmlTagInCell()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getParseHtmlTagInCell--) |
-| [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | For the description of this property, please see [getPresentationPreference()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getPresentationPreference--) |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.gridweb/gridsaveoptions\#getRefreshChartCache--) |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.gridweb/gridsaveoptions\#getSortNames--) |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.gridweb/gridsaveoptions\#getValidateMergedAreas--) |
+| [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | The directory that the attached files will be saved to. |
+| [setAttachedFilesUrlPrefix(String value)](#setAttachedFilesUrlPrefix-java.lang.String-) | Specify the Url prefix of attached files such as image in the html file. |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
+| [setEncoding(Encoding value)](#setEncoding-com.aspose.gridweb.Encoding-) | If not set,use Encoding.UTF8 as default enconding type. |
+| [setExportActiveWorksheetOnly(boolean value)](#setExportActiveWorksheetOnly-boolean-) | Indicates if exporting the whole workbook to html file. |
+| [setExportArea(GridCellArea value)](#setExportArea-com.aspose.gridweb.GridCellArea-) | Sets the exporting CellArea of current active Worksheet. |
+| [setExportComments(boolean value)](#setExportComments-boolean-) | Indicates if exporting comments when saving file to html, the default value is false. |
+| [setExportGridLines(boolean value)](#setExportGridLines-boolean-) | Indicating whether exporting the gridlines.The default value is false. |
+| [setExportHeadings(boolean value)](#setExportHeadings-boolean-) | Indicates whether exporting headings when saving file to html.The default value is false. |
+| [setExportHiddenWorksheet(boolean value)](#setExportHiddenWorksheet-boolean-) | Indicating if exporting the hidden worksheet content.The default value is true. |
+| [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. |
+| [setExportPrintAreaOnly(boolean value)](#setExportPrintAreaOnly-boolean-) | Indicates if only exporting the print area to html file. |
+| [setExportSingleTab(boolean value)](#setExportSingleTab-boolean-) | Indicates whether exporting the single tab when the file only has one worksheet. |
+| [setFullPathLink(boolean value)](#setFullPathLink-boolean-) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setPageTitle(String value)](#setPageTitle-java.lang.String-) | The title of the html page. |
+| [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Parse html tag in cell,like
+
+,as cell value,or as html tag,default is true |
+| [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | Indicating if html or mht file is presentation preference.The default value is false.if you want to get more beautiful presentation,please set the value to true. |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -215,7 +217,7 @@ public GridCellArea getExportArea()
 ```
 
 
-the exporting CellArea of current active Worksheet. If you set this attribute, the print area of current active Worksheet will be omited. Only the specified area will be exported when saving the file to html.
+Gets the exporting CellArea of current active Worksheet. If you set this attribute, the print area of current active Worksheet will be omited. Only the specified area will be exported when saving the file to html.
 
 **Returns:**
 [GridCellArea](../../com.aspose.gridweb/gridcellarea)
@@ -413,7 +415,7 @@ public void setAttachedFilesDirectory(String value)
 ```
 
 
-For the description of this property, please see [getAttachedFilesDirectory()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getAttachedFilesDirectory--)
+The directory that the attached files will be saved to. Only for saving to html stream.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -426,7 +428,7 @@ public void setAttachedFilesUrlPrefix(String value)
 ```
 
 
-For the description of this property, please see [getAttachedFilesUrlPrefix()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getAttachedFilesUrlPrefix--)
+Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -439,7 +441,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see [getCachedFileFolder()](../../com.aspose.gridweb/gridsaveoptions\#getCachedFileFolder--)
+The cached file folder is used to store some large data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -452,7 +454,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see [getClearData()](../../com.aspose.gridweb/gridsaveoptions\#getClearData--)
+Make the workbook empty after saving the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -465,7 +467,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateDirectory()](../../com.aspose.gridweb/gridsaveoptions\#getCreateDirectory--)
+If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -478,7 +480,7 @@ public void setDefaultFontName(String value)
 ```
 
 
-For the description of this property, please see [getDefaultFontName()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getDefaultFontName--)
+Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -491,7 +493,7 @@ public void setEncoding(Encoding value)
 ```
 
 
-For the description of this property, please see [getEncoding()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getEncoding--)
+If not set,use Encoding.UTF8 as default enconding type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -504,7 +506,7 @@ public void setExportActiveWorksheetOnly(boolean value)
 ```
 
 
-For the description of this property, please see [getExportActiveWorksheetOnly()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportActiveWorksheetOnly--)
+Indicates if exporting the whole workbook to html file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -517,7 +519,7 @@ public void setExportArea(GridCellArea value)
 ```
 
 
-For the description of this property, please see [getExportArea()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportArea--)
+Sets the exporting CellArea of current active Worksheet. If you set this attribute, the print area of current active Worksheet will be omited. Only the specified area will be exported when saving the file to html.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -530,7 +532,7 @@ public void setExportComments(boolean value)
 ```
 
 
-For the description of this property, please see [isExportComments()](../../com.aspose.gridweb/gridhtmlsaveoptions\#isExportComments--)
+Indicates if exporting comments when saving file to html, the default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -543,7 +545,7 @@ public void setExportGridLines(boolean value)
 ```
 
 
-For the description of this property, please see [getExportGridLines()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportGridLines--)
+Indicating whether exporting the gridlines.The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -556,7 +558,7 @@ public void setExportHeadings(boolean value)
 ```
 
 
-For the description of this property, please see [getExportHeadings()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportHeadings--)
+Indicates whether exporting headings when saving file to html.The default value is false. If you want to import the html file to excel, please keep the default value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -569,7 +571,7 @@ public void setExportHiddenWorksheet(boolean value)
 ```
 
 
-For the description of this property, please see [getExportHiddenWorksheet()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportHiddenWorksheet--)
+Indicating if exporting the hidden worksheet content.The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -582,7 +584,7 @@ public void setExportImagesAsBase64(boolean value)
 ```
 
 
-For the description of this property, please see [getExportImagesAsBase64()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportImagesAsBase64--)
+Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. When this property is set to true image data is exported directly on the img elements and separate files are not created.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -595,7 +597,7 @@ public void setExportPrintAreaOnly(boolean value)
 ```
 
 
-For the description of this property, please see [getExportPrintAreaOnly()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportPrintAreaOnly--)
+Indicates if only exporting the print area to html file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -608,7 +610,7 @@ public void setExportSingleTab(boolean value)
 ```
 
 
-For the description of this property, please see [getExportSingleTab()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getExportSingleTab--)
+Indicates whether exporting the single tab when the file only has one worksheet. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -621,7 +623,7 @@ public void setFullPathLink(boolean value)
 ```
 
 
-For the description of this property, please see [isFullPathLink()](../../com.aspose.gridweb/gridhtmlsaveoptions\#isFullPathLink--)
+Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -634,7 +636,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getMergeAreas()](../../com.aspose.gridweb/gridsaveoptions\#getMergeAreas--)
+Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -647,7 +649,7 @@ public void setPageTitle(String value)
 ```
 
 
-For the description of this property, please see [getPageTitle()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getPageTitle--)
+The title of the html page. Only for saving to html stream.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -660,7 +662,9 @@ public void setParseHtmlTagInCell(boolean value)
 ```
 
 
-For the description of this property, please see [getParseHtmlTagInCell()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getParseHtmlTagInCell--)
+Parse html tag in cell,like
+
+,as cell value,or as html tag,default is true
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -673,7 +677,7 @@ public void setPresentationPreference(boolean value)
 ```
 
 
-For the description of this property, please see [getPresentationPreference()](../../com.aspose.gridweb/gridhtmlsaveoptions\#getPresentationPreference--)
+Indicating if html or mht file is presentation preference.The default value is false.if you want to get more beautiful presentation,please set the value to true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -686,7 +690,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshChartCache()](../../com.aspose.gridweb/gridsaveoptions\#getRefreshChartCache--)
+Indicates whether refreshing chart cache data
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -699,7 +703,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortNames()](../../com.aspose.gridweb/gridsaveoptions\#getSortNames--)
+Indicates whether sorting defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -712,7 +716,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.gridweb/gridsaveoptions\#getValidateMergedAreas--)
+Indicates whether validate merged cells before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

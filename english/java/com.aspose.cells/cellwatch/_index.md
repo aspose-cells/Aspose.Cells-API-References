@@ -23,16 +23,16 @@ Represents Cell Watch Item in the 'watch window'.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCellName()](#getCellName--) | the name of the cell. |
+| [getCellName()](#getCellName--) | Gets the name of the cell. |
 | [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) | the column of the cell. |
-| [getRow()](#getRow--) | the row of the cell. |
+| [getColumn()](#getColumn--) | Gets the column of the cell. |
+| [getRow()](#getRow--) | Gets the row of the cell. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellName(String value)](#setCellName-java.lang.String-) | For the description of this property, please see [getCellName()](../../com.aspose.cells/cellwatch\#getCellName--) |
-| [setColumn(int value)](#setColumn-int-) | For the description of this property, please see [getColumn()](../../com.aspose.cells/cellwatch\#getColumn--) |
-| [setRow(int value)](#setRow-int-) | For the description of this property, please see [getRow()](../../com.aspose.cells/cellwatch\#getRow--) |
+| [setCellName(String value)](#setCellName-java.lang.String-) | Sets the name of the cell. |
+| [setColumn(int value)](#setColumn-int-) | Sets the column of the cell. |
+| [setRow(int value)](#setRow-int-) | Sets the row of the cell. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -64,7 +64,7 @@ public String getCellName()
 ```
 
 
-the name of the cell.
+Gets the name of the cell.
 
 **Returns:**
 java.lang.String
@@ -84,7 +84,7 @@ public int getColumn()
 ```
 
 
-the column of the cell.
+Gets the column of the cell.
 
 **Returns:**
 int
@@ -94,7 +94,7 @@ public int getRow()
 ```
 
 
-the row of the cell.
+Gets the row of the cell.
 
 **Returns:**
 int
@@ -130,7 +130,7 @@ public void setCellName(String value)
 ```
 
 
-For the description of this property, please see [getCellName()](../../com.aspose.cells/cellwatch\#getCellName--)
+Sets the name of the cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,7 +143,7 @@ public void setColumn(int value)
 ```
 
 
-For the description of this property, please see [getColumn()](../../com.aspose.cells/cellwatch\#getColumn--)
+Sets the column of the cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public void setRow(int value)
 ```
 
 
-For the description of this property, please see [getRow()](../../com.aspose.cells/cellwatch\#getRow--)
+Sets the row of the cell.
 
 **Parameters:**
 | Parameter | Type | Description |

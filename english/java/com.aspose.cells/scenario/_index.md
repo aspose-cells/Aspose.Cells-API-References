@@ -19,19 +19,19 @@ Represents an individual scenario.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComment()](#getComment--) | the comment of scenario. |
+| [getComment()](#getComment--) | Gets the comment of scenario. |
 | [getInputCells()](#getInputCells--) | Gets the input cells of scenario. |
-| [getName()](#getName--) | the name of scenario. |
+| [getName()](#getName--) | Gets the name of scenario. |
 | [getUser()](#getUser--) | Gets name of user who last changed the scenario. |
 | [hashCode()](#hashCode--) |  |
 | [isHidden()](#isHidden--) | Indicates whether scenario is hidden. |
 | [isLocked()](#isLocked--) | Indicates whether scenario is locked for editing when the sheet is protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComment(String value)](#setComment-java.lang.String-) | For the description of this property, please see [getComment()](../../com.aspose.cells/scenario\#getComment--) |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.cells/scenario\#isHidden--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/scenario\#isLocked--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/scenario\#getName--) |
+| [setComment(String value)](#setComment-java.lang.String-) | Sets the comment of scenario. |
+| [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether scenario is hidden. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether scenario is locked for editing when the sheet is protected. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of scenario. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -67,7 +67,7 @@ public String getComment()
 ```
 
 
-the comment of scenario.
+Gets the comment of scenario.
 
 **Returns:**
 java.lang.String
@@ -87,7 +87,7 @@ public String getName()
 ```
 
 
-the name of scenario.
+Gets the name of scenario.
 
 **Returns:**
 java.lang.String
@@ -153,7 +153,7 @@ public void setComment(String value)
 ```
 
 
-For the description of this property, please see [getComment()](../../com.aspose.cells/scenario\#getComment--)
+Sets the comment of scenario.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -166,7 +166,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see [isHidden()](../../com.aspose.cells/scenario\#isHidden--)
+Indicates whether scenario is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -179,7 +179,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.cells/scenario\#isLocked--)
+Indicates whether scenario is locked for editing when the sheet is protected.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/scenario\#getName--)
+Sets the name of scenario.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -19,13 +19,13 @@ Represents an Office Add-in custom property.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | a custom property name. |
-| [getValue()](#getValue--) | a custom property value. |
+| [getName()](#getName--) | Gets a custom property name. |
+| [getValue()](#getValue--) | Gets a custom property value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/webextensionproperty\#getName--) |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/webextensionproperty\#getValue--) |
+| [setName(String value)](#setName-java.lang.String-) | Sets a custom property name. |
+| [setValue(String value)](#setValue-java.lang.String-) | Sets a custom property value. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public String getName()
 ```
 
 
-a custom property name.
+Gets a custom property name.
 
 **Returns:**
 java.lang.String
@@ -71,7 +71,7 @@ public String getValue()
 ```
 
 
-a custom property value.
+Gets a custom property value.
 
 **Returns:**
 java.lang.String
@@ -107,7 +107,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/webextensionproperty\#getName--)
+Sets a custom property name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +120,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/webextensionproperty\#getValue--)
+Sets a custom property value.
 
 **Parameters:**
 | Parameter | Type | Description |

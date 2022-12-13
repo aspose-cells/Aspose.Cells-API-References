@@ -37,7 +37,7 @@ Encapsulates the object that represents a single worksheet.
 | [freezePanes(int row, int column, int freezedRows, int freezedColumns)](#freezePanes-int-int-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [freezePanes(String cellName, int freezedRows, int freezedColumns)](#freezePanes-java.lang.String-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [getActiveCell()](#getActiveCell--) |  |
-| [getBackgroundImage()](#getBackgroundImage--) | worksheet background image. |
+| [getBackgroundImage()](#getBackgroundImage--) | Gets worksheet background image. |
 | [getCells()](#getCells--) |  |
 | [getClass()](#getClass--) |  |
 | [getCodeName()](#getCodeName--) | Represents worksheet code name. |
@@ -54,7 +54,7 @@ Encapsulates the object that represents a single worksheet.
 | [getHyperlinks()](#getHyperlinks--) | Gets the [GridHyperlinkCollection](../../com.aspose.gridweb/gridhyperlinkcollection) collection. |
 | [getIndex()](#getIndex--) |  |
 | [getIsReadonly(int row, int col)](#getIsReadonly-int-int-) | Gets whether the cell is readonly.this is an extended attribute of GridWeb ,it will not keep in actual excel file |
-| [getName()](#getName--) | the name of the worksheet. |
+| [getName()](#getName--) | Gets the name of the worksheet. |
 | [getOutlineShown()](#getOutlineShown--) | Indicates whether show outline. |
 | [getPictures()](#getPictures--) | Gets a [getPictures()](../../com.aspose.gridweb/gridworksheet\#getPictures--) collection. |
 | [getPivotTables()](#getPivotTables--) | Gets the pivotTables in the worksheet. |
@@ -63,8 +63,8 @@ Encapsulates the object that represents a single worksheet.
 | [getRowReadonly(int rowIndex)](#getRowReadonly-int-) | Gets if a row is readonly. |
 | [getSelected()](#getSelected--) | Indicates whether this worksheet is selected when the workbook is opened. |
 | [getShapes()](#getShapes--) | Gets a [getPictures()](../../com.aspose.gridweb/gridworksheet\#getPictures--) collection. |
-| [getStandardHeight()](#getStandardHeight--) | the default row height in this worksheet,in unit of points. |
-| [getStandardHeightPixels()](#getStandardHeightPixels--) | the default row height in this worksheet,in unit of pixels. |
+| [getStandardHeight()](#getStandardHeight--) | Gets the default row height in this worksheet,in unit of points. |
+| [getStandardHeightPixels()](#getStandardHeightPixels--) | Gets the default row height in this worksheet,in unit of pixels. |
 | [getTabColor()](#getTabColor--) | Represents worksheet tab color. |
 | [getValidations()](#getValidations--) | Gets the data validation setting collection in the worksheet. |
 | [getVisible()](#getVisible--) | Indicates whether this sheet's name is shown in the sheet tabs of the control. |
@@ -72,7 +72,7 @@ Encapsulates the object that represents a single worksheet.
 | [getZoom()](#getZoom--) |  |
 | [groupRows(int firstIndex, int lastIndex, boolean isHidden)](#groupRows-int-int-boolean-) | Groups rows. |
 | [hashCode()](#hashCode--) |  |
-| [isGridlinesVisible()](#isGridlinesVisible--) | a value indicating whether the grid lines are visible.Default is true. |
+| [isGridlinesVisible()](#isGridlinesVisible--) | Gets a value indicating whether the grid lines are visible.Default is true. |
 | [isProtected()](#isProtected--) | Indicates if the worksheet is protected. |
 | [isSummaryRowBelow()](#isSummaryRowBelow--) | Indicates if the summary row will be positioned below the detail rows in the outline. |
 | [moveTo(int index)](#moveTo-int-) | Moves the sheet to another location in the spreadsheet. |
@@ -82,35 +82,35 @@ Encapsulates the object that represents a single worksheet.
 | [removeAutoFilter()](#removeAutoFilter--) | Remove the auto filter of the worksheet. |
 | [removeSubtotal()](#removeSubtotal--) | Removes subtotal created by the CreateSubtotal method in the sheet. |
 | [resetFilter(int fieldIndex)](#resetFilter-int-) | The integer offset of the field on which you want to apply ,based on the first filter column (from the left of the list; the leftmost field is field 0). |
-| [setActiveCell(String value)](#setActiveCell-java.lang.String-) | For the description of this property, please see [getActiveCell()](../../com.aspose.gridweb/gridworksheet\#getActiveCell--) |
+| [setActiveCell(String value)](#setActiveCell-java.lang.String-) |  |
 | [setAllCellsEditable()](#setAllCellsEditable--) | Makes all cells editable.this is extended attribute |
 | [setAllCellsReadonly()](#setAllCellsReadonly--) | Makes all cells readonly.this is extended attribute notice this attribute can not keep in actual cell,if you want to keep protect please use setProtect |
-| [setBackgroundImage(byte[] value)](#setBackgroundImage-byte---) | For the description of this property, please see [getBackgroundImage()](../../com.aspose.gridweb/gridworksheet\#getBackgroundImage--) |
+| [setBackgroundImage(byte[] value)](#setBackgroundImage-byte---) | Sets worksheet background image. |
 | [setColumnCaption(int column, String caption)](#setColumnCaption-int-java.lang.String-) | Sets the caption for the column.please note this is an extension attribute and can not keep in excel file |
 | [setColumnHeaderToolTip(int colIndex, String toolTip)](#setColumnHeaderToolTip-int-java.lang.String-) | Sets the columnheader's tooltip text. |
 | [setColumnReadonly(int columnIndex, boolean isReadonly)](#setColumnReadonly-int-boolean-) | Sets a column to readonly so user can't delete it from client side. |
-| [setDisplayRightToLeft(boolean value)](#setDisplayRightToLeft-boolean-) | For the description of this property, please see [getDisplayRightToLeft()](../../com.aspose.gridweb/gridworksheet\#getDisplayRightToLeft--) |
-| [setDisplayZeros(boolean value)](#setDisplayZeros-boolean-) | For the description of this property, please see [getDisplayZeros()](../../com.aspose.gridweb/gridworksheet\#getDisplayZeros--) |
+| [setDisplayRightToLeft(boolean value)](#setDisplayRightToLeft-boolean-) |  |
+| [setDisplayZeros(boolean value)](#setDisplayZeros-boolean-) | True if zero values are displayed. |
 | [setEditableRange(int startRow, int startColumn, int rows, int columns)](#setEditableRange-int-int-int-int-) | Makes a range of cells editable. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Make all cells read only by calling the SetAllCellsReadonly method. |
-| [setFirstVisibleColumn(int value)](#setFirstVisibleColumn-int-) | For the description of this property, please see [getFirstVisibleColumn()](../../com.aspose.gridweb/gridworksheet\#getFirstVisibleColumn--) |
-| [setFirstVisibleRow(int value)](#setFirstVisibleRow-int-) | For the description of this property, please see [getFirstVisibleRow()](../../com.aspose.gridweb/gridworksheet\#getFirstVisibleRow--) |
-| [setGridActiveCell(GridCell value)](#setGridActiveCell-com.aspose.gridweb.GridCell-) | For the description of this property, please see [getGridActiveCell()](../../com.aspose.gridweb/gridworksheet\#getGridActiveCell--) |
-| [setGridlinesVisible(boolean value)](#setGridlinesVisible-boolean-) | For the description of this property, please see [isGridlinesVisible()](../../com.aspose.gridweb/gridworksheet\#isGridlinesVisible--) |
+| [setFirstVisibleColumn(int value)](#setFirstVisibleColumn-int-) |  |
+| [setFirstVisibleRow(int value)](#setFirstVisibleRow-int-) |  |
+| [setGridActiveCell(GridCell value)](#setGridActiveCell-com.aspose.gridweb.GridCell-) |  |
+| [setGridlinesVisible(boolean value)](#setGridlinesVisible-boolean-) | Sets a value indicating whether the grid lines are visible.Default is true. |
 | [setIsReadonly(int row, int col, boolean value)](#setIsReadonly-int-int-boolean-) | Sets whether the cell is readonly.this is an extended attribute of GridWeb ,it will not keep in actual excel file |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.gridweb/gridworksheet\#getName--) |
-| [setOutlineShown(boolean value)](#setOutlineShown-boolean-) |  |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the worksheet. |
+| [setOutlineShown(boolean value)](#setOutlineShown-boolean-) | Indicates whether show outline. |
 | [setProtect()](#setProtect--) | Protects worksheet. |
 | [setReadonlyRange(int startRow, int startColumn, int rows, int columns)](#setReadonlyRange-int-int-int-int-) | Makes a range of cells readonly. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells First make all cells editable by calling the SetAllCellsEditable method. |
 | [setRowCaption(int row, String caption)](#setRowCaption-int-java.lang.String-) | Sets the caption for the row. |
 | [setRowHeaderToolTip(int rowIndex, String toolTip)](#setRowHeaderToolTip-int-java.lang.String-) | Sets the rowheader's tooltip text. |
 | [setRowReadonly(int rowIndex, boolean isReadonly)](#setRowReadonly-int-boolean-) | Sets a row to readonly so user can't delete it from client side. |
-| [setSelected(boolean value)](#setSelected-boolean-) |  |
-| [setStandardHeight(double value)](#setStandardHeight-double-) | For the description of this property, please see [getStandardHeight()](../../com.aspose.gridweb/gridworksheet\#getStandardHeight--) |
-| [setStandardHeightPixels(int value)](#setStandardHeightPixels-int-) | For the description of this property, please see [getStandardHeightPixels()](../../com.aspose.gridweb/gridworksheet\#getStandardHeightPixels--) |
-| [setSummaryRowBelow(boolean value)](#setSummaryRowBelow-boolean-) | For the description of this property, please see [isSummaryRowBelow()](../../com.aspose.gridweb/gridworksheet\#isSummaryRowBelow--) |
-| [setTabColor(Color value)](#setTabColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getTabColor()](../../com.aspose.gridweb/gridworksheet\#getTabColor--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [getVisible()](../../com.aspose.gridweb/gridworksheet\#getVisible--) |
-| [setZoom(int value)](#setZoom-int-) | For the description of this property, please see [getZoom()](../../com.aspose.gridweb/gridworksheet\#getZoom--) |
+| [setSelected(boolean value)](#setSelected-boolean-) | Indicates whether this worksheet is selected when the workbook is opened. |
+| [setStandardHeight(double value)](#setStandardHeight-double-) | Sets the default row height in this worksheet,in unit of points. |
+| [setStandardHeightPixels(int value)](#setStandardHeightPixels-int-) | Sets the default row height in this worksheet,in unit of pixels. |
+| [setSummaryRowBelow(boolean value)](#setSummaryRowBelow-boolean-) | Indicates if the summary row will be positioned below the detail rows in the outline. |
+| [setTabColor(Color value)](#setTabColor-com.aspose.gridweb.Color-) | Represents worksheet tab color. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this sheet's name is shown in the sheet tabs of the control. |
+| [setZoom(int value)](#setZoom-int-) |  |
 | [toString()](#toString--) |  |
 | [unFreezePanes()](#unFreezePanes--) | Unfreezes panes in the worksheet. |
 | [unGroupRows(int firstIndex, int lastIndex)](#unGroupRows-int-int-) | Ungroups rows. |
@@ -409,7 +409,7 @@ public byte[] getBackgroundImage()
 ```
 
 
-worksheet background image.
+Gets worksheet background image.
 
 **Returns:**
 byte[]
@@ -600,7 +600,7 @@ public String getName()
 ```
 
 
-the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
+Gets the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
 
 **Returns:**
 java.lang.String
@@ -705,7 +705,7 @@ public double getStandardHeight()
 ```
 
 
-the default row height in this worksheet,in unit of points.
+Gets the default row height in this worksheet,in unit of points.
 
 **Returns:**
 double
@@ -715,7 +715,7 @@ public int getStandardHeightPixels()
 ```
 
 
-the default row height in this worksheet,in unit of pixels.
+Gets the default row height in this worksheet,in unit of pixels.
 
 **Returns:**
 int
@@ -800,7 +800,7 @@ public boolean isGridlinesVisible()
 ```
 
 
-a value indicating whether the grid lines are visible.Default is true.
+Gets a value indicating whether the grid lines are visible.Default is true.
 
 **Returns:**
 boolean
@@ -896,7 +896,7 @@ public void setActiveCell(String value)
 ```
 
 
-For the description of this property, please see [getActiveCell()](../../com.aspose.gridweb/gridworksheet\#getActiveCell--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -925,7 +925,7 @@ public void setBackgroundImage(byte[] value)
 ```
 
 
-For the description of this property, please see [getBackgroundImage()](../../com.aspose.gridweb/gridworksheet\#getBackgroundImage--)
+Sets worksheet background image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -980,7 +980,7 @@ public void setDisplayRightToLeft(boolean value)
 ```
 
 
-For the description of this property, please see [getDisplayRightToLeft()](../../com.aspose.gridweb/gridworksheet\#getDisplayRightToLeft--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -993,7 +993,7 @@ public void setDisplayZeros(boolean value)
 ```
 
 
-For the description of this property, please see [getDisplayZeros()](../../com.aspose.gridweb/gridworksheet\#getDisplayZeros--)
+True if zero values are displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1022,7 +1022,7 @@ public void setFirstVisibleColumn(int value)
 ```
 
 
-For the description of this property, please see [getFirstVisibleColumn()](../../com.aspose.gridweb/gridworksheet\#getFirstVisibleColumn--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1035,7 +1035,7 @@ public void setFirstVisibleRow(int value)
 ```
 
 
-For the description of this property, please see [getFirstVisibleRow()](../../com.aspose.gridweb/gridworksheet\#getFirstVisibleRow--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1048,7 +1048,7 @@ public void setGridActiveCell(GridCell value)
 ```
 
 
-For the description of this property, please see [getGridActiveCell()](../../com.aspose.gridweb/gridworksheet\#getGridActiveCell--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1061,7 +1061,7 @@ public void setGridlinesVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isGridlinesVisible()](../../com.aspose.gridweb/gridworksheet\#isGridlinesVisible--)
+Sets a value indicating whether the grid lines are visible.Default is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1089,7 +1089,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.gridweb/gridworksheet\#getName--)
+Sets the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1102,7 +1102,7 @@ public void setOutlineShown(boolean value)
 ```
 
 
-
+Indicates whether show outline.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1181,7 +1181,7 @@ public void setSelected(boolean value)
 ```
 
 
-
+Indicates whether this worksheet is selected when the workbook is opened.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1194,7 +1194,7 @@ public void setStandardHeight(double value)
 ```
 
 
-For the description of this property, please see [getStandardHeight()](../../com.aspose.gridweb/gridworksheet\#getStandardHeight--)
+Sets the default row height in this worksheet,in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1207,7 +1207,7 @@ public void setStandardHeightPixels(int value)
 ```
 
 
-For the description of this property, please see [getStandardHeightPixels()](../../com.aspose.gridweb/gridworksheet\#getStandardHeightPixels--)
+Sets the default row height in this worksheet,in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1220,7 +1220,7 @@ public void setSummaryRowBelow(boolean value)
 ```
 
 
-For the description of this property, please see [isSummaryRowBelow()](../../com.aspose.gridweb/gridworksheet\#isSummaryRowBelow--)
+Indicates if the summary row will be positioned below the detail rows in the outline.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1233,7 +1233,7 @@ public void setTabColor(Color value)
 ```
 
 
-For the description of this property, please see [getTabColor()](../../com.aspose.gridweb/gridworksheet\#getTabColor--)
+Represents worksheet tab color. This feature is only supported in ExcelXP(Excel2002) and above version. If you save file as Excel97 or Excel2000 format, it will be omitted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1246,7 +1246,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [getVisible()](../../com.aspose.gridweb/gridworksheet\#getVisible--)
+Indicates whether this sheet's name is shown in the sheet tabs of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1259,7 +1259,7 @@ public void setZoom(int value)
 ```
 
 
-For the description of this property, please see [getZoom()](../../com.aspose.gridweb/gridworksheet\#getZoom--)
+
 
 **Parameters:**
 | Parameter | Type | Description |

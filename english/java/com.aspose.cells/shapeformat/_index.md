@@ -28,14 +28,14 @@ Represents the format of the shape or text. NOTE: This member is now obsolete. I
 | [getLine()](#getLine--) | Gets line style |
 | [getOutline()](#getOutline--) | Gets line style NOTE: This member is now obsolete. |
 | [getShadowEffect()](#getShadowEffect--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
-| [getSoftEdgeRadius()](#getSoftEdgeRadius--) | the radius of blur to apply to the edges, in unit of points. |
+| [getSoftEdgeRadius()](#getSoftEdgeRadius--) | Gets the radius of blur to apply to the edges, in unit of points. |
 | [hasFormat3D()](#hasFormat3D--) | Indicates if the shape has 3d format data. |
 | [hasGlowEffect()](#hasGlowEffect--) | Indicates if the shape has glow effect data. |
 | [hasShadowEffect()](#hasShadowEffect--) | Indicates if the shape has shadow effect data. |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSoftEdgeRadius(double value)](#setSoftEdgeRadius-double-) | For the description of this property, please see [getSoftEdgeRadius()](../../com.aspose.cells/shapeformat\#getSoftEdgeRadius--) |
+| [setSoftEdgeRadius(double value)](#setSoftEdgeRadius-double-) | Sets the radius of blur to apply to the edges, in unit of points. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -155,7 +155,7 @@ public double getSoftEdgeRadius()
 ```
 
 
-the radius of blur to apply to the edges, in unit of points.
+Gets the radius of blur to apply to the edges, in unit of points.
 
 **Returns:**
 double
@@ -221,7 +221,7 @@ public void setSoftEdgeRadius(double value)
 ```
 
 
-For the description of this property, please see [getSoftEdgeRadius()](../../com.aspose.cells/shapeformat\#getSoftEdgeRadius--)
+Sets the radius of blur to apply to the edges, in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |

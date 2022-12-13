@@ -35,70 +35,70 @@ Workbook workbook = new Workbook();
 | --- | --- |
 | [copy(Style style)](#copy-com.aspose.cells.Style-) | Copies data from another style object This method does not copy the name of the style. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether two Style instances are equal. |
-| [getBackgroundArgbColor()](#getBackgroundArgbColor--) | the background color with a 32-bit ARGB value. |
-| [getBackgroundColor()](#getBackgroundColor--) | a style's background color. |
-| [getBackgroundThemeColor()](#getBackgroundThemeColor--) | the background theme color. |
+| [getBackgroundArgbColor()](#getBackgroundArgbColor--) | Gets the background color with a 32-bit ARGB value. |
+| [getBackgroundColor()](#getBackgroundColor--) | Gets a style's background color. |
+| [getBackgroundThemeColor()](#getBackgroundThemeColor--) | Gets the background theme color. |
 | [getBorders()](#getBorders--) | Gets the [BorderCollection](../../com.aspose.cells/bordercollection) of the style. |
 | [getClass()](#getClass--) |  |
-| [getCultureCustom()](#getCultureCustom--) | the culture-dependent pattern string for number format. |
+| [getCultureCustom()](#getCultureCustom--) | Gets the culture-dependent pattern string for number format. |
 | [getCustom()](#getCustom--) | Represents the custom number format string of this style object. |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object. |
-| [getForegroundArgbColor()](#getForegroundArgbColor--) | the foreground color with a 32-bit ARGB value. |
-| [getForegroundColor()](#getForegroundColor--) | a style's foreground color. |
-| [getForegroundThemeColor()](#getForegroundThemeColor--) | the foreground theme color. |
-| [getHorizontalAlignment()](#getHorizontalAlignment--) | the horizontal alignment type of the text in a cell. |
+| [getForegroundArgbColor()](#getForegroundArgbColor--) | Gets the foreground color with a 32-bit ARGB value. |
+| [getForegroundColor()](#getForegroundColor--) | Gets a style's foreground color. |
+| [getForegroundThemeColor()](#getForegroundThemeColor--) | Gets the foreground theme color. |
+| [getHorizontalAlignment()](#getHorizontalAlignment--) | Gets the horizontal alignment type of the text in a cell. |
 | [getIndentLevel()](#getIndentLevel--) | Represents the indent level for the cell or range. |
 | [getInvariantCustom()](#getInvariantCustom--) | Gets the culture-independent pattern string for number format. |
-| [getName()](#getName--) | the name of the style. |
-| [getNumber()](#getNumber--) | the display format of numbers and dates. |
+| [getName()](#getName--) | Gets the name of the style. |
+| [getNumber()](#getNumber--) | Gets the display format of numbers and dates. |
 | [getParentStyle()](#getParentStyle--) | Gets the parent style of this style. |
-| [getPattern()](#getPattern--) | the cell background pattern type. |
+| [getPattern()](#getPattern--) | Gets the cell background pattern type. |
 | [getQuotePrefix()](#getQuotePrefix--) | Indicates whether the cell's value starts with single quote mark. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle. |
 | [getShrinkToFit()](#getShrinkToFit--) | Represents if text automatically shrinks to fit in the available column width. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
 | [getTwoColorGradient(Color color1, Color color2, int gradientStyleType, int variant)](#getTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Get the two-color gradient setting. |
-| [getVerticalAlignment()](#getVerticalAlignment--) | the vertical alignment type of the text in a cell. |
+| [getVerticalAlignment()](#getVerticalAlignment--) | Gets the vertical alignment type of the text in a cell. |
 | [hasBorders()](#hasBorders--) | Checks whether there are borders have been set for the style. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a Style object. |
 | [isDateTime()](#isDateTime--) | Indicates whether the number format is a date format. |
 | [isFormulaHidden()](#isFormulaHidden--) | Represents if the formula will be hidden when the worksheet is protected. |
 | [isGradient()](#isGradient--) | Indicates whether the cell shading is a gradient pattern. |
 | [isJustifyDistributed()](#isJustifyDistributed--) | Indicates if the cells justified or distributed alignment should be used on the last line of text. |
-| [isLocked()](#isLocked--) | a value indicating whether a cell can be modified or not. |
+| [isLocked()](#isLocked--) | Gets a value indicating whether a cell can be modified or not. |
 | [isModified(int modifyFlag)](#isModified-int-) | Checks whether the specified properties of the style have been modified. |
 | [isPercent()](#isPercent--) | Indicates whether the number format is a percent format. |
-| [isTextWrapped()](#isTextWrapped--) | a value indicating whether the text within a cell is wrapped. |
+| [isTextWrapped()](#isTextWrapped--) | Gets a value indicating whether the text within a cell is wrapped. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackgroundArgbColor(int value)](#setBackgroundArgbColor-int-) | For the description of this property, please see [getBackgroundArgbColor()](../../com.aspose.cells/style\#getBackgroundArgbColor--) |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/style\#getBackgroundColor--) |
-| [setBackgroundThemeColor(ThemeColor value)](#setBackgroundThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see [getBackgroundThemeColor()](../../com.aspose.cells/style\#getBackgroundThemeColor--) |
+| [setBackgroundArgbColor(int value)](#setBackgroundArgbColor-int-) | Sets the background color with a 32-bit ARGB value. |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Sets a style's background color. |
+| [setBackgroundThemeColor(ThemeColor value)](#setBackgroundThemeColor-com.aspose.cells.ThemeColor-) | Sets the background theme color. |
 | [setBorder(int borderType, int borderStyle, CellsColor borderColor)](#setBorder-int-int-com.aspose.cells.CellsColor-) | Sets the borders of the style. |
 | [setBorder(int borderType, int borderStyle, Color borderColor)](#setBorder-int-int-com.aspose.cells.Color-) | Sets the borders of the style. |
-| [setCultureCustom(String value)](#setCultureCustom-java.lang.String-) | For the description of this property, please see [getCultureCustom()](../../com.aspose.cells/style\#getCultureCustom--) |
-| [setCustom(String value)](#setCustom-java.lang.String-) | For the description of this property, please see [getCustom()](../../com.aspose.cells/style\#getCustom--) |
+| [setCultureCustom(String value)](#setCultureCustom-java.lang.String-) | Sets the culture-dependent pattern string for number format. |
+| [setCustom(String value)](#setCustom-java.lang.String-) | Represents the custom number format string of this style object. |
 | [setCustom(String custom, boolean builtinPreference)](#setCustom-java.lang.String-boolean-) | Sets the Custom number format string of a cell. |
-| [setForegroundArgbColor(int value)](#setForegroundArgbColor-int-) | For the description of this property, please see [getForegroundArgbColor()](../../com.aspose.cells/style\#getForegroundArgbColor--) |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/style\#getForegroundColor--) |
-| [setForegroundThemeColor(ThemeColor value)](#setForegroundThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see [getForegroundThemeColor()](../../com.aspose.cells/style\#getForegroundThemeColor--) |
-| [setFormulaHidden(boolean value)](#setFormulaHidden-boolean-) | For the description of this property, please see [isFormulaHidden()](../../com.aspose.cells/style\#isFormulaHidden--) |
-| [setGradient(boolean value)](#setGradient-boolean-) | For the description of this property, please see [isGradient()](../../com.aspose.cells/style\#isGradient--) |
-| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | For the description of this property, please see [getHorizontalAlignment()](../../com.aspose.cells/style\#getHorizontalAlignment--) |
-| [setIndentLevel(int value)](#setIndentLevel-int-) | For the description of this property, please see [getIndentLevel()](../../com.aspose.cells/style\#getIndentLevel--) |
-| [setJustifyDistributed(boolean value)](#setJustifyDistributed-boolean-) | For the description of this property, please see [isJustifyDistributed()](../../com.aspose.cells/style\#isJustifyDistributed--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/style\#isLocked--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/style\#getName--) |
-| [setNumber(int value)](#setNumber-int-) | For the description of this property, please see [getNumber()](../../com.aspose.cells/style\#getNumber--) |
-| [setPattern(int value)](#setPattern-int-) | For the description of this property, please see [getPattern()](../../com.aspose.cells/style\#getPattern--) |
+| [setForegroundArgbColor(int value)](#setForegroundArgbColor-int-) | Sets the foreground color with a 32-bit ARGB value. |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Sets a style's foreground color. |
+| [setForegroundThemeColor(ThemeColor value)](#setForegroundThemeColor-com.aspose.cells.ThemeColor-) | Sets the foreground theme color. |
+| [setFormulaHidden(boolean value)](#setFormulaHidden-boolean-) | Represents if the formula will be hidden when the worksheet is protected. |
+| [setGradient(boolean value)](#setGradient-boolean-) | Indicates whether the cell shading is a gradient pattern. |
+| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | Sets the horizontal alignment type of the text in a cell. |
+| [setIndentLevel(int value)](#setIndentLevel-int-) | Represents the indent level for the cell or range. |
+| [setJustifyDistributed(boolean value)](#setJustifyDistributed-boolean-) | Indicates if the cells justified or distributed alignment should be used on the last line of text. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Sets a value indicating whether a cell can be modified or not. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the style. |
+| [setNumber(int value)](#setNumber-int-) | Sets the display format of numbers and dates. |
+| [setPattern(int value)](#setPattern-int-) | Sets the cell background pattern type. |
 | [setPatternColor(int pattern, Color color1, Color color2)](#setPatternColor-int-com.aspose.cells.Color-com.aspose.cells.Color-) | Sets the background color. |
-| [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | For the description of this property, please see [getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/style\#getRotationAngle--) |
-| [setShrinkToFit(boolean value)](#setShrinkToFit-boolean-) | For the description of this property, please see [getShrinkToFit()](../../com.aspose.cells/style\#getShrinkToFit--) |
-| [setTextDirection(int value)](#setTextDirection-int-) | For the description of this property, please see [getTextDirection()](../../com.aspose.cells/style\#getTextDirection--) |
-| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | For the description of this property, please see [isTextWrapped()](../../com.aspose.cells/style\#isTextWrapped--) |
+| [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | Indicates whether the cell's value starts with single quote mark. |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle. |
+| [setShrinkToFit(boolean value)](#setShrinkToFit-boolean-) | Represents if text automatically shrinks to fit in the available column width. |
+| [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
+| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Sets a value indicating whether the text within a cell is wrapped. |
 | [setTwoColorGradient(Color color1, Color color2, int gradientStyleType, int variant)](#setTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Sets the specified fill to a two-color gradient. |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | For the description of this property, please see [getVerticalAlignment()](../../com.aspose.cells/style\#getVerticalAlignment--) |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Sets the vertical alignment type of the text in a cell. |
 | [toString()](#toString--) |  |
 | [update()](#update--) | Apply the named style to the styles of the cells which use this named style. |
 | [wait()](#wait--) |  |
@@ -146,7 +146,7 @@ public int getBackgroundArgbColor()
 ```
 
 
-the background color with a 32-bit ARGB value.
+Gets the background color with a 32-bit ARGB value.
 
 **Returns:**
 int
@@ -156,7 +156,7 @@ public Color getBackgroundColor()
 ```
 
 
-a style's background color. If you want to set a cell's color, please use Style.ForegroundColor property. Only if the cell style pattern is other than none or solid, this property will take effect.
+Gets a style's background color. If you want to set a cell's color, please use Style.ForegroundColor property. Only if the cell style pattern is other than none or solid, this property will take effect.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -166,7 +166,7 @@ public ThemeColor getBackgroundThemeColor()
 ```
 
 
-the background theme color. If the background color is not a theme color, NULL will be returned.
+Gets the background theme color. If the background color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -196,7 +196,7 @@ public String getCultureCustom()
 ```
 
 
-the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. For builtin number format, both the pattern content(such as, one builtin date format is "m/d/y" for some locales, but for some other locales it becomes "d/m/y") and the format specifier(such as, some locales is using character other than 'y' to represent the year part for date formatting) are culture-dependent; For user specified custom format, only format specifiers are changed according to the culture, other parts of the formatting pattern will not be modified.
+Gets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. For builtin number format, both the pattern content(such as, one builtin date format is "m/d/y" for some locales, but for some other locales it becomes "d/m/y") and the format specifier(such as, some locales is using character other than 'y' to represent the year part for date formatting) are culture-dependent; For user specified custom format, only format specifiers are changed according to the culture, other parts of the formatting pattern will not be modified.
 
 **Returns:**
 java.lang.String
@@ -226,7 +226,7 @@ public int getForegroundArgbColor()
 ```
 
 
-the foreground color with a 32-bit ARGB value.
+Gets the foreground color with a 32-bit ARGB value.
 
 **Returns:**
 int
@@ -236,7 +236,7 @@ public Color getForegroundColor()
 ```
 
 
-a style's foreground color. It means no color setting if Color.Empty is returned.
+Gets a style's foreground color. It means no color setting if Color.Empty is returned.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -246,7 +246,7 @@ public ThemeColor getForegroundThemeColor()
 ```
 
 
-the foreground theme color. If the foreground color is not a theme color, NULL will be returned.
+Gets the foreground theme color. If the foreground color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -256,7 +256,7 @@ public int getHorizontalAlignment()
 ```
 
 
-the horizontal alignment type of the text in a cell.
+Gets the horizontal alignment type of the text in a cell.
 
 **Returns:**
 int
@@ -286,7 +286,7 @@ public String getName()
 ```
 
 
-the name of the style.
+Gets the name of the style.
 
 **Returns:**
 java.lang.String
@@ -296,7 +296,7 @@ public int getNumber()
 ```
 
 
-the display format of numbers and dates. The formatting patterns are different for different regions. For example, the formatting patterns represented by numbers for en\_US region:
+Gets the display format of numbers and dates. The formatting patterns are different for different regions. For example, the formatting patterns represented by numbers for en\_US region:
 
     | ----- | ---------- | ------------------------------------------------------------------ |
     | Value | Type       | Format String                                                      |
@@ -357,7 +357,7 @@ public int getPattern()
 ```
 
 
-the cell background pattern type.
+Gets the cell background pattern type.
 
 **Returns:**
 int
@@ -433,7 +433,7 @@ public int getVerticalAlignment()
 ```
 
 
-the vertical alignment type of the text in a cell.
+Gets the vertical alignment type of the text in a cell.
 
 **Returns:**
 int
@@ -503,7 +503,7 @@ public boolean isLocked()
 ```
 
 
-a value indicating whether a cell can be modified or not. Locking cells has no effect unless the worksheet is protected.
+Gets a value indicating whether a cell can be modified or not. Locking cells has no effect unless the worksheet is protected.
 
 **Returns:**
 boolean
@@ -538,7 +538,7 @@ public boolean isTextWrapped()
 ```
 
 
-a value indicating whether the text within a cell is wrapped.
+Gets a value indicating whether the text within a cell is wrapped.
 
 **Returns:**
 boolean
@@ -564,7 +564,7 @@ public void setBackgroundArgbColor(int value)
 ```
 
 
-For the description of this property, please see [getBackgroundArgbColor()](../../com.aspose.cells/style\#getBackgroundArgbColor--)
+Sets the background color with a 32-bit ARGB value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -577,7 +577,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/style\#getBackgroundColor--)
+Sets a style's background color. If you want to set a cell's color, please use Style.ForegroundColor property. Only if the cell style pattern is other than none or solid, this property will take effect.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -590,7 +590,7 @@ public void setBackgroundThemeColor(ThemeColor value)
 ```
 
 
-For the description of this property, please see [getBackgroundThemeColor()](../../com.aspose.cells/style\#getBackgroundThemeColor--)
+Sets the background theme color. If the background color is not a theme color, NULL will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -637,7 +637,7 @@ public void setCultureCustom(String value)
 ```
 
 
-For the description of this property, please see [getCultureCustom()](../../com.aspose.cells/style\#getCultureCustom--)
+Sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. For builtin number format, both the pattern content(such as, one builtin date format is "m/d/y" for some locales, but for some other locales it becomes "d/m/y") and the format specifier(such as, some locales is using character other than 'y' to represent the year part for date formatting) are culture-dependent; For user specified custom format, only format specifiers are changed according to the culture, other parts of the formatting pattern will not be modified.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -650,7 +650,7 @@ public void setCustom(String value)
 ```
 
 
-For the description of this property, please see [getCustom()](../../com.aspose.cells/style\#getCustom--)
+Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. The returned custom string is culture-independent.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -677,7 +677,7 @@ public void setForegroundArgbColor(int value)
 ```
 
 
-For the description of this property, please see [getForegroundArgbColor()](../../com.aspose.cells/style\#getForegroundArgbColor--)
+Sets the foreground color with a 32-bit ARGB value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -690,7 +690,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/style\#getForegroundColor--)
+Sets a style's foreground color. It means no color setting if Color.Empty is returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -703,7 +703,7 @@ public void setForegroundThemeColor(ThemeColor value)
 ```
 
 
-For the description of this property, please see [getForegroundThemeColor()](../../com.aspose.cells/style\#getForegroundThemeColor--)
+Sets the foreground theme color. If the foreground color is not a theme color, NULL will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -716,7 +716,7 @@ public void setFormulaHidden(boolean value)
 ```
 
 
-For the description of this property, please see [isFormulaHidden()](../../com.aspose.cells/style\#isFormulaHidden--)
+Represents if the formula will be hidden when the worksheet is protected.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -729,7 +729,7 @@ public void setGradient(boolean value)
 ```
 
 
-For the description of this property, please see [isGradient()](../../com.aspose.cells/style\#isGradient--)
+Indicates whether the cell shading is a gradient pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -742,7 +742,7 @@ public void setHorizontalAlignment(int value)
 ```
 
 
-For the description of this property, please see [getHorizontalAlignment()](../../com.aspose.cells/style\#getHorizontalAlignment--)
+Sets the horizontal alignment type of the text in a cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -755,7 +755,7 @@ public void setIndentLevel(int value)
 ```
 
 
-For the description of this property, please see [getIndentLevel()](../../com.aspose.cells/style\#getIndentLevel--)
+Represents the indent level for the cell or range. Can only be an integer from 0 to 250. If text horizontal alignment type is set to value other than left or right, indent level will be reset to zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -768,7 +768,7 @@ public void setJustifyDistributed(boolean value)
 ```
 
 
-For the description of this property, please see [isJustifyDistributed()](../../com.aspose.cells/style\#isJustifyDistributed--)
+Indicates if the cells justified or distributed alignment should be used on the last line of text. This is typical for East Asian alignments but not typical in other contexts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -781,7 +781,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.cells/style\#isLocked--)
+Sets a value indicating whether a cell can be modified or not. Locking cells has no effect unless the worksheet is protected.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -794,7 +794,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/style\#getName--)
+Sets the name of the style.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -807,7 +807,48 @@ public void setNumber(int value)
 ```
 
 
-For the description of this property, please see [getNumber()](../../com.aspose.cells/style\#getNumber--)
+Sets the display format of numbers and dates. The formatting patterns are different for different regions. For example, the formatting patterns represented by numbers for en\_US region:
+
+    | ----- | ---------- | ------------------------------------------------------------------ |
+    | Value | Type       | Format String                                                      |
+    | 0     | General    | General                                                            |
+    | 1     | Decimal    | 0                                                                  |
+    | 2     | Decimal    | 0.00                                                               |
+    | 3     | Decimal    | \#,\#\#0                                                           |
+    | 4     | Decimal    | \#,\#\#0.00                                                        |
+    | 5     | Currency   | $\#,\#\#0\_);($\#,\#\#0)                                           |
+    | 6     | Currency   | $\#,\#\#0\_);[Red](../$\#,\#\#0)                                    |
+    | 7     | Currency   | $\#,\#\#0.00\_);($\#,\#\#0.00)                                     |
+    | 8     | Currency   | $\#,\#\#0.00\_);[Red](../$\#,\#\#0.00)                              |
+    | 9     | Percentage | 0%                                                                 |
+    | 10    | Percentage | 0.00%                                                              |
+    | 11    | Scientific | 0.00E+00                                                           |
+    | 12    | Fraction   | \# ?/?                                                             |
+    | 13    | Fraction   | \# ??/??                                                           |
+    | 14    | Date       | m/d/yyyy                                                           |
+    | 15    | Date       | d-mmm-yy                                                           |
+    | 16    | Date       | d-mmm                                                              |
+    | 17    | Date       | mmm-yy                                                             |
+    | 18    | Time       | h:mm AM/PM                                                         |
+    | 19    | Time       | h:mm:ss AM/PM                                                      |
+    | 20    | Time       | h:mm                                                               |
+    | 21    | Time       | h:mm:ss                                                            |
+    | 22    | Time       | m/d/yyyy h:mm                                                      |
+    | 37    | Accounting | \#,\#\#0\_);(\#,\#\#0)                                             |
+    | 38    | Accounting | \#,\#\#0\_);[Red](../\#,\#\#0)                                      |
+    | 39    | Accounting | \#,\#\#0.00\_);(\#,\#\#0.00)                                       |
+    | 40    | Accounting | \#,\#\#0.00\_);[Red](../\#,\#\#0.00)                                |
+    | 41    | Accounting | \_(\* \#,\#\#0\_);\_(\* (\#,\#\#0);\_(\* "-"\_);\_(@\_)            |
+    | 42    | Currency   | \_($\* \#,\#\#0\_);\_($\* (\#,\#\#0);\_($\* "-"\_);\_(@\_)         |
+    | 43    | Accounting | \_(\* \#,\#\#0.00\_);\_(\* (\#,\#\#0.00);\_(\* "-"??\_);\_(@\_)    |
+    | 44    | Currency   | \_($\* \#,\#\#0.00\_);\_($\* (\#,\#\#0.00);\_($\* "-"??\_);\_(@\_) |
+    | 45    | Time       | mm:ss                                                              |
+    | 46    | Time       | [h]:mm:ss                                                        |
+    | 47    | Time       | mm:ss.0                                                            |
+    | 48    | Scientific | \#\#0.0E+0                                                         |
+    | 49    | Text       | @                                                                  |
+
+    |
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -820,7 +861,7 @@ public void setPattern(int value)
 ```
 
 
-For the description of this property, please see [getPattern()](../../com.aspose.cells/style\#getPattern--)
+Sets the cell background pattern type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -848,7 +889,7 @@ public void setQuotePrefix(boolean value)
 ```
 
 
-For the description of this property, please see [getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--)
+Indicates whether the cell's value starts with single quote mark.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -861,7 +902,17 @@ public void setRotationAngle(int value)
 ```
 
 
-For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/style\#getRotationAngle--)
+Represents text rotation angle.
+
+0: Not rotated.
+
+255: Top to Bottom.
+
+\-90: Downward.
+
+90: Upward.
+
+You can set 255 or value ranged from -90 to 90.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -874,7 +925,7 @@ public void setShrinkToFit(boolean value)
 ```
 
 
-For the description of this property, please see [getShrinkToFit()](../../com.aspose.cells/style\#getShrinkToFit--)
+Represents if text automatically shrinks to fit in the available column width.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -887,7 +938,7 @@ public void setTextDirection(int value)
 ```
 
 
-For the description of this property, please see [getTextDirection()](../../com.aspose.cells/style\#getTextDirection--)
+Represents text reading order.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -900,7 +951,7 @@ public void setTextWrapped(boolean value)
 ```
 
 
-For the description of this property, please see [isTextWrapped()](../../com.aspose.cells/style\#isTextWrapped--)
+Sets a value indicating whether the text within a cell is wrapped.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -929,7 +980,7 @@ public void setVerticalAlignment(int value)
 ```
 
 
-For the description of this property, please see [getVerticalAlignment()](../../com.aspose.cells/style\#getVerticalAlignment--)
+Sets the vertical alignment type of the text in a cell.
 
 **Parameters:**
 | Parameter | Type | Description |

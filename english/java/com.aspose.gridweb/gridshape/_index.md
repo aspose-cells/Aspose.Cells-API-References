@@ -26,8 +26,8 @@ Represents a shape object.
 | [getID()](#getID--) |  |
 | [getImageFormat()](#getImageFormat--) | Gets the image format of the picture. |
 | [getLeft()](#getLeft--) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
-| [getMsoDrawingType()](#getMsoDrawingType--) | mso drawing type. |
-| [getName()](#getName--) | the name of the shape. |
+| [getMsoDrawingType()](#getMsoDrawingType--) | Gets mso drawing type. |
+| [getName()](#getName--) | Gets the name of the shape. |
 | [getText()](#getText--) | Represents the string in this TextBox object. |
 | [getTop()](#getTop--) | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [getUpperLeftColumn()](#getUpperLeftColumn--) | Represents upper left corner column index. |
@@ -37,9 +37,9 @@ Represents a shape object.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [saveToImage(InputStream s)](#saveToImage-java.io.InputStream-) | Creates the image and saves it to a stream in the specified png format. |
-| [setID(String value)](#setID-java.lang.String-) | For the description of this property, please see [getID()](../../com.aspose.gridweb/gridshape\#getID--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.gridweb/gridshape\#getText--) |
-| [setZOrderPosition(int value)](#setZOrderPosition-int-) | For the description of this property, please see [getZOrderPosition()](../../com.aspose.gridweb/gridshape\#getZOrderPosition--) |
+| [setID(String value)](#setID-java.lang.String-) |  |
+| [setText(String value)](#setText-java.lang.String-) | Represents the string in this TextBox object. |
+| [setZOrderPosition(int value)](#setZOrderPosition-int-) | Returns the position of a shape in the z-order. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -115,7 +115,7 @@ public int getMsoDrawingType()
 ```
 
 
-mso drawing type.
+Gets mso drawing type.
 
 **Returns:**
 int
@@ -125,7 +125,7 @@ public String getName()
 ```
 
 
-the name of the shape.
+Gets the name of the shape.
 
 **Returns:**
 java.lang.String
@@ -224,7 +224,7 @@ public void setID(String value)
 ```
 
 
-For the description of this property, please see [getID()](../../com.aspose.gridweb/gridshape\#getID--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -237,7 +237,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.gridweb/gridshape\#getText--)
+Represents the string in this TextBox object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -250,7 +250,7 @@ public void setZOrderPosition(int value)
 ```
 
 
-For the description of this property, please see [getZOrderPosition()](../../com.aspose.gridweb/gridshape\#getZOrderPosition--)
+Returns the position of a shape in the z-order.
 
 **Parameters:**
 | Parameter | Type | Description |

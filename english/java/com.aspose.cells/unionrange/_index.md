@@ -26,12 +26,12 @@ Represents union range.
 | [getFirstColumn()](#getFirstColumn--) | Gets the index of the first column of the range. |
 | [getFirstRow()](#getFirstRow--) | Gets the index of the first row of the range. |
 | [getHyperlinks()](#getHyperlinks--) | Gets all hyperlink in the range. |
-| [getName()](#getName--) | the name of the range. |
+| [getName()](#getName--) | Gets the name of the range. |
 | [getRangeCount()](#getRangeCount--) | Gets the count of the ranges. |
 | [getRanges()](#getRanges--) | Gets all union ranges. |
 | [getRefersTo()](#getRefersTo--) | Gets the range's refers to. |
 | [getRowCount()](#getRowCount--) | Gets the count of rows in the range. |
-| [getValue()](#getValue--) | the values of the range. |
+| [getValue()](#getValue--) | Gets the values of the range. |
 | [hasRange()](#hasRange--) | Indicates whether this has range. |
 | [hashCode()](#hashCode--) |  |
 | [intersect(Range[] ranges)](#intersect-com.aspose.cells.Range---) | Intersects another range. |
@@ -42,11 +42,11 @@ Represents union range.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [putValue(String stringValue, boolean isConverted, boolean setStyle)](#putValue-java.lang.String-boolean-boolean-) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/unionrange\#getName--) |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the range. |
 | [setOutlineBorders(int borderStyle, Color borderColor)](#setOutlineBorders-int-com.aspose.cells.Color-) | Sets the outline borders around a range of cells with same border style and color. |
 | [setOutlineBorders(int[] borderStyles, Color[] borderColors)](#setOutlineBorders-int---com.aspose.cells.Color---) | Sets out line borders around a range of cells. |
 | [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of the range. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/unionrange\#getValue--) |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Sets the values of the range. |
 | [toString()](#toString--) |  |
 | [unMerge()](#unMerge--) | Unmerges merged cells of this range. |
 | [union(Range[] ranges)](#union-com.aspose.cells.Range---) | Union the ranges. |
@@ -164,7 +164,7 @@ public String getName()
 ```
 
 
-the name of the range. Named range is supported. For example,
+Gets the name of the range. Named range is supported. For example,
 
 range.Name = "Sheet1!MyRange";
 
@@ -216,7 +216,7 @@ public Object getValue()
 ```
 
 
-the values of the range.
+Gets the values of the range.
 
 **Returns:**
 java.lang.Object
@@ -340,7 +340,9 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/unionrange\#getName--)
+Sets the name of the range. Named range is supported. For example,
+
+range.Name = "Sheet1!MyRange";
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -394,7 +396,7 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/unionrange\#getValue--)
+Sets the values of the range.
 
 **Parameters:**
 | Parameter | Type | Description |

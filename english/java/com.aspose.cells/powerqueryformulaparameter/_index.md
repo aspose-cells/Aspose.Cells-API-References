@@ -30,8 +30,8 @@ Represents the parameter of power query formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformulaparameter\#getName--) |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/powerqueryformulaparameter\#getValue--) |
+| [setName(String value)](#setName-java.lang.String-) | Gets the name of parameter. |
+| [setValue(String value)](#setValue-java.lang.String-) | Gets the value of parameter. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -129,7 +129,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/powerqueryformulaparameter\#getName--)
+Gets the name of parameter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -142,7 +142,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/powerqueryformulaparameter\#getValue--)
+Gets the value of parameter.
 
 **Parameters:**
 | Parameter | Type | Description |

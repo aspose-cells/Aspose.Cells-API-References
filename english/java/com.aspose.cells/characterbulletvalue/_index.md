@@ -23,13 +23,13 @@ Represents the character bullet.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCharacter()](#getCharacter--) | character of the bullet. |
+| [getCharacter()](#getCharacter--) | Gets character of the bullet. |
 | [getClass()](#getClass--) |  |
 | [getType()](#getType--) | Gets the type of the bullet. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCharacter(char value)](#setCharacter-char-) | For the description of this property, please see [getCharacter()](../../com.aspose.cells/characterbulletvalue\#getCharacter--) |
+| [setCharacter(char value)](#setCharacter-char-) | Sets character of the bullet. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public char getCharacter()
 ```
 
 
-character of the bullet.
+Gets character of the bullet.
 
 **Returns:**
 char
@@ -117,7 +117,7 @@ public void setCharacter(char value)
 ```
 
 
-For the description of this property, please see [getCharacter()](../../com.aspose.cells/characterbulletvalue\#getCharacter--)
+Sets character of the bullet.
 
 **Parameters:**
 | Parameter | Type | Description |

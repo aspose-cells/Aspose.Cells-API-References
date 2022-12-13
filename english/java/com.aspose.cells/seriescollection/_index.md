@@ -69,10 +69,10 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [Series](../../com.aspose.cells/series) element at the specified index. |
-| [getCategoryData()](#getCategoryData--) | the range of category Axis values. |
+| [getCategoryData()](#getCategoryData--) | Gets the range of category Axis values. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getSecondCategoryData()](#getSecondCategoryData--) | the range of second category Axis values. |
+| [getSecondCategoryData()](#getSecondCategoryData--) | Gets the range of second category Axis values. |
 | [getSeriesByOrder(int order)](#getSeriesByOrder-int-) | Gets the [Series](../../com.aspose.cells/series) element by order. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
@@ -81,9 +81,9 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Remove at a series at the specific index. |
-| [setCategoryData(String value)](#setCategoryData-java.lang.String-) | For the description of this property, please see [getCategoryData()](../../com.aspose.cells/seriescollection\#getCategoryData--) |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | For the description of this property, please see [isColorVaried()](../../com.aspose.cells/seriescollection\#isColorVaried--) |
-| [setSecondCategoryData(String value)](#setSecondCategoryData-java.lang.String-) | For the description of this property, please see [getSecondCategoryData()](../../com.aspose.cells/seriescollection\#getSecondCategoryData--) |
+| [setCategoryData(String value)](#setCategoryData-java.lang.String-) | Sets the range of category Axis values. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Represents if the color of points is varied. |
+| [setSecondCategoryData(String value)](#setSecondCategoryData-java.lang.String-) | Sets the range of second category Axis values. |
 | [setSeriesNames(int startIndex, String area, boolean isVertical)](#setSeriesNames-int-java.lang.String-boolean-) | Sets the name of all the serieses in the chart. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -238,7 +238,7 @@ public String getCategoryData()
 ```
 
 
-the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}").
+Gets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}").
 
 **Returns:**
 java.lang.String
@@ -268,7 +268,7 @@ public String getSecondCategoryData()
 ```
 
 
-the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}"). Only effects when some ASerieses plot on the second axis.
+Gets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}"). Only effects when some ASerieses plot on the second axis.
 
 **Returns:**
 java.lang.String
@@ -367,7 +367,7 @@ public void setCategoryData(String value)
 ```
 
 
-For the description of this property, please see [getCategoryData()](../../com.aspose.cells/seriescollection\#getCategoryData--)
+Sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}").
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -380,7 +380,7 @@ public void setColorVaried(boolean value)
 ```
 
 
-For the description of this property, please see [isColorVaried()](../../com.aspose.cells/seriescollection\#isColorVaried--)
+Represents if the color of points is varied.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -393,7 +393,7 @@ public void setSecondCategoryData(String value)
 ```
 
 
-For the description of this property, please see [getSecondCategoryData()](../../com.aspose.cells/seriescollection\#getSecondCategoryData--)
+Sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"\{2,6,8,10\}"). Only effects when some ASerieses plot on the second axis.
 
 **Parameters:**
 | Parameter | Type | Description |

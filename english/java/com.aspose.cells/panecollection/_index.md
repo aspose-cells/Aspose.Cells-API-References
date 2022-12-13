@@ -18,16 +18,16 @@ Represents all Pane objects shown in the specified window.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAcitvePaneType()](#getAcitvePaneType--) | the active pane. |
+| [getAcitvePaneType()](#getAcitvePaneType--) | Gets the active pane. |
 | [getClass()](#getClass--) |  |
-| [getFirstVisibleColumnOfRightPane()](#getFirstVisibleColumnOfRightPane--) | the first visible column of the right pane. |
-| [getFirstVisibleRowOfBottomPane()](#getFirstVisibleRowOfBottomPane--) | the first visible row of the bottom pane. |
+| [getFirstVisibleColumnOfRightPane()](#getFirstVisibleColumnOfRightPane--) | Gets the first visible column of the right pane. |
+| [getFirstVisibleRowOfBottomPane()](#getFirstVisibleRowOfBottomPane--) | Gets the first visible row of the bottom pane. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAcitvePaneType(int value)](#setAcitvePaneType-int-) | For the description of this property, please see [getAcitvePaneType()](../../com.aspose.cells/panecollection\#getAcitvePaneType--) |
-| [setFirstVisibleColumnOfRightPane(int value)](#setFirstVisibleColumnOfRightPane-int-) | For the description of this property, please see [getFirstVisibleColumnOfRightPane()](../../com.aspose.cells/panecollection\#getFirstVisibleColumnOfRightPane--) |
-| [setFirstVisibleRowOfBottomPane(int value)](#setFirstVisibleRowOfBottomPane-int-) | For the description of this property, please see [getFirstVisibleRowOfBottomPane()](../../com.aspose.cells/panecollection\#getFirstVisibleRowOfBottomPane--) |
+| [setAcitvePaneType(int value)](#setAcitvePaneType-int-) | Sets the active pane. |
+| [setFirstVisibleColumnOfRightPane(int value)](#setFirstVisibleColumnOfRightPane-int-) | Sets the first visible column of the right pane. |
+| [setFirstVisibleRowOfBottomPane(int value)](#setFirstVisibleRowOfBottomPane-int-) | Sets the first visible row of the bottom pane. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,7 +53,7 @@ public int getAcitvePaneType()
 ```
 
 
-the active pane.
+Gets the active pane.
 
 **Returns:**
 int
@@ -73,7 +73,7 @@ public int getFirstVisibleColumnOfRightPane()
 ```
 
 
-the first visible column of the right pane.
+Gets the first visible column of the right pane.
 
 **Returns:**
 int
@@ -83,7 +83,7 @@ public int getFirstVisibleRowOfBottomPane()
 ```
 
 
-the first visible row of the bottom pane.
+Gets the first visible row of the bottom pane.
 
 **Returns:**
 int
@@ -119,7 +119,7 @@ public void setAcitvePaneType(int value)
 ```
 
 
-For the description of this property, please see [getAcitvePaneType()](../../com.aspose.cells/panecollection\#getAcitvePaneType--)
+Sets the active pane.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setFirstVisibleColumnOfRightPane(int value)
 ```
 
 
-For the description of this property, please see [getFirstVisibleColumnOfRightPane()](../../com.aspose.cells/panecollection\#getFirstVisibleColumnOfRightPane--)
+Sets the first visible column of the right pane.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setFirstVisibleRowOfBottomPane(int value)
 ```
 
 
-For the description of this property, please see [getFirstVisibleRowOfBottomPane()](../../com.aspose.cells/panecollection\#getFirstVisibleRowOfBottomPane--)
+Sets the first visible row of the bottom pane.
 
 **Parameters:**
 | Parameter | Type | Description |

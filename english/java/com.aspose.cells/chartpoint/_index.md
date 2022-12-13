@@ -107,19 +107,19 @@ Represents a single point in a series in a chart.
 | [getTopPointCount()](#getTopPointCount--) | Gets the number of top points after calls Chart.Calculate() method. |
 | [getTopPointXPx(int index)](#getTopPointXPx-int-) | Gets x-coordinate of the top point of shape after calls Chart.Calculate() method. |
 | [getTopPointYPx(int index)](#getTopPointYPx-int-) | Gets y-coordinate of the top point of shape after calls Chart.Calculate() method. |
-| [getXValue()](#getXValue--) | the X value of the chart point. |
+| [getXValue()](#getXValue--) | Gets the X value of the chart point. |
 | [getXValueType()](#getXValueType--) | Gets X value type of the chart point. |
-| [getYValue()](#getYValue--) | the Y value of the chart point. |
+| [getYValue()](#getYValue--) | Gets the Y value of the chart point. |
 | [getYValueType()](#getYValueType--) | Gets Y value type of the chart point. |
 | [hashCode()](#hashCode--) |  |
-| [isInSecondaryPlot()](#isInSecondaryPlot--) | a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
+| [isInSecondaryPlot()](#isInSecondaryPlot--) | Gets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setExplosion(int value)](#setExplosion-int-) | For the description of this property, please see [getExplosion()](../../com.aspose.cells/chartpoint\#getExplosion--) |
-| [setInSecondaryPlot(boolean value)](#setInSecondaryPlot-boolean-) | For the description of this property, please see [isInSecondaryPlot()](../../com.aspose.cells/chartpoint\#isInSecondaryPlot--) |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/chartpoint\#getShadow--) |
-| [setXValue(Object value)](#setXValue-java.lang.Object-) | For the description of this property, please see [getXValue()](../../com.aspose.cells/chartpoint\#getXValue--) |
-| [setYValue(Object value)](#setYValue-java.lang.Object-) | For the description of this property, please see [getYValue()](../../com.aspose.cells/chartpoint\#getYValue--) |
+| [setExplosion(int value)](#setExplosion-int-) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
+| [setInSecondaryPlot(boolean value)](#setInSecondaryPlot-boolean-) | Sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
+| [setShadow(boolean value)](#setShadow-boolean-) | True if the chartpoint has a shadow. |
+| [setXValue(Object value)](#setXValue-java.lang.Object-) | Sets the X value of the chart point. |
+| [setYValue(Object value)](#setYValue-java.lang.Object-) | Sets the Y value of the chart point. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -555,7 +555,7 @@ public Object getXValue()
 ```
 
 
-the X value of the chart point.
+Gets the X value of the chart point.
 
 **Returns:**
 java.lang.Object
@@ -575,7 +575,7 @@ public Object getYValue()
 ```
 
 
-the Y value of the chart point.
+Gets the Y value of the chart point.
 
 **Returns:**
 java.lang.Object
@@ -605,7 +605,7 @@ public boolean isInSecondaryPlot()
 ```
 
 
-a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart
+Gets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart
 
 **Returns:**
 boolean
@@ -631,7 +631,7 @@ public void setExplosion(int value)
 ```
 
 
-For the description of this property, please see [getExplosion()](../../com.aspose.cells/chartpoint\#getExplosion--)
+The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -644,7 +644,7 @@ public void setInSecondaryPlot(boolean value)
 ```
 
 
-For the description of this property, please see [isInSecondaryPlot()](../../com.aspose.cells/chartpoint\#isInSecondaryPlot--)
+Sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -657,7 +657,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see [getShadow()](../../com.aspose.cells/chartpoint\#getShadow--)
+True if the chartpoint has a shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -670,7 +670,7 @@ public void setXValue(Object value)
 ```
 
 
-For the description of this property, please see [getXValue()](../../com.aspose.cells/chartpoint\#getXValue--)
+Sets the X value of the chart point.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -683,7 +683,7 @@ public void setYValue(Object value)
 ```
 
 
-For the description of this property, please see [getYValue()](../../com.aspose.cells/chartpoint\#getYValue--)
+Sets the Y value of the chart point.
 
 **Parameters:**
 | Parameter | Type | Description |

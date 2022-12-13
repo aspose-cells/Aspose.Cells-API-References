@@ -32,7 +32,7 @@ Represents a revision record of a cell comment change.
 | [isOldComment()](#isOldComment--) | Indicates whether it's an old comment. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellName(String value)](#setCellName-java.lang.String-) | For the description of this property, please see [getCellName()](../../com.aspose.cells/revisioncellcomment\#getCellName--) |
+| [setCellName(String value)](#setCellName-java.lang.String-) | Gets the name of the cell. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -194,7 +194,7 @@ public void setCellName(String value)
 ```
 
 
-For the description of this property, please see [getCellName()](../../com.aspose.cells/revisioncellcomment\#getCellName--)
+Gets the name of the cell.
 
 **Parameters:**
 | Parameter | Type | Description |

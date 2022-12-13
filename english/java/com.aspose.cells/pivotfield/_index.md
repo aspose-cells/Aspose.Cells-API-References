@@ -131,39 +131,39 @@ Workbook book = new Workbook();
 | [isRepeatItemLabels()](#isRepeatItemLabels--) | indicates whether the field can repeat items labels The default value is false. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAscendShow(boolean value)](#setAscendShow-boolean-) | For the description of this property, please see [isAscendShow()](../../com.aspose.cells/pivotfield\#isAscendShow--) |
-| [setAscendSort(boolean value)](#setAscendSort-boolean-) | For the description of this property, please see [isAscendSort()](../../com.aspose.cells/pivotfield\#isAscendSort--) |
-| [setAutoShow(boolean value)](#setAutoShow-boolean-) | For the description of this property, please see [isAutoShow()](../../com.aspose.cells/pivotfield\#isAutoShow--) |
-| [setAutoShowCount(int value)](#setAutoShowCount-int-) | For the description of this property, please see [getAutoShowCount()](../../com.aspose.cells/pivotfield\#getAutoShowCount--) |
-| [setAutoShowField(int value)](#setAutoShowField-int-) | For the description of this property, please see [getAutoShowField()](../../com.aspose.cells/pivotfield\#getAutoShowField--) |
-| [setAutoSort(boolean value)](#setAutoSort-boolean-) | For the description of this property, please see [isAutoSort()](../../com.aspose.cells/pivotfield\#isAutoSort--) |
-| [setAutoSortField(int value)](#setAutoSortField-int-) | For the description of this property, please see [getAutoSortField()](../../com.aspose.cells/pivotfield\#getAutoSortField--) |
-| [setAutoSubtotals(boolean value)](#setAutoSubtotals-boolean-) | For the description of this property, please see [isAutoSubtotals()](../../com.aspose.cells/pivotfield\#isAutoSubtotals--) |
-| [setBaseFieldIndex(int value)](#setBaseFieldIndex-int-) | For the description of this property, please see [getBaseFieldIndex()](../../com.aspose.cells/pivotfield\#getBaseFieldIndex--) |
-| [setBaseIndex(int value)](#setBaseIndex-int-) | For the description of this property, please see [getBaseIndex()](../../com.aspose.cells/pivotfield\#getBaseIndex--) |
-| [setBaseItemIndex(int value)](#setBaseItemIndex-int-) | For the description of this property, please see [getBaseItemIndex()](../../com.aspose.cells/pivotfield\#getBaseItemIndex--) |
-| [setBaseItemPosition(int value)](#setBaseItemPosition-int-) | For the description of this property, please see [getBaseItemPosition()](../../com.aspose.cells/pivotfield\#getBaseItemPosition--) |
-| [setCurrentPageItem(short value)](#setCurrentPageItem-short-) | For the description of this property, please see [getCurrentPageItem()](../../com.aspose.cells/pivotfield\#getCurrentPageItem--) |
-| [setDataDisplayFormat(int value)](#setDataDisplayFormat-int-) | For the description of this property, please see [getDataDisplayFormat()](../../com.aspose.cells/pivotfield\#getDataDisplayFormat--) |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | For the description of this property, please see [getDisplayName()](../../com.aspose.cells/pivotfield\#getDisplayName--) |
-| [setDragToColumn(boolean value)](#setDragToColumn-boolean-) | For the description of this property, please see [getDragToColumn()](../../com.aspose.cells/pivotfield\#getDragToColumn--) |
-| [setDragToData(boolean value)](#setDragToData-boolean-) | For the description of this property, please see [getDragToData()](../../com.aspose.cells/pivotfield\#getDragToData--) |
-| [setDragToHide(boolean value)](#setDragToHide-boolean-) | For the description of this property, please see [getDragToHide()](../../com.aspose.cells/pivotfield\#getDragToHide--) |
-| [setDragToPage(boolean value)](#setDragToPage-boolean-) | For the description of this property, please see [getDragToPage()](../../com.aspose.cells/pivotfield\#getDragToPage--) |
-| [setDragToRow(boolean value)](#setDragToRow-boolean-) | For the description of this property, please see [getDragToRow()](../../com.aspose.cells/pivotfield\#getDragToRow--) |
-| [setFunction(int value)](#setFunction-int-) | For the description of this property, please see [getFunction()](../../com.aspose.cells/pivotfield\#getFunction--) |
-| [setIncludeNewItemsInFilter(boolean value)](#setIncludeNewItemsInFilter-boolean-) | For the description of this property, please see [isIncludeNewItemsInFilter()](../../com.aspose.cells/pivotfield\#isIncludeNewItemsInFilter--) |
-| [setInsertBlankRow(boolean value)](#setInsertBlankRow-boolean-) | For the description of this property, please see [getInsertBlankRow()](../../com.aspose.cells/pivotfield\#getInsertBlankRow--) |
-| [setInsertPageBreaksBetweenItems(boolean value)](#setInsertPageBreaksBetweenItems-boolean-) | For the description of this property, please see [isInsertPageBreaksBetweenItems()](../../com.aspose.cells/pivotfield\#isInsertPageBreaksBetweenItems--) |
-| [setMultipleItemSelectionAllowed(boolean value)](#setMultipleItemSelectionAllowed-boolean-) | For the description of this property, please see [isMultipleItemSelectionAllowed()](../../com.aspose.cells/pivotfield\#isMultipleItemSelectionAllowed--) |
-| [setNonAutoSortDefault(boolean value)](#setNonAutoSortDefault-boolean-) | For the description of this property, please see [getNonAutoSortDefault()](../../com.aspose.cells/pivotfield\#getNonAutoSortDefault--) |
-| [setNumber(int value)](#setNumber-int-) | For the description of this property, please see [getNumber()](../../com.aspose.cells/pivotfield\#getNumber--) |
-| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/pivotfield\#getNumberFormat--) |
-| [setRepeatItemLabels(boolean value)](#setRepeatItemLabels-boolean-) | For the description of this property, please see [isRepeatItemLabels()](../../com.aspose.cells/pivotfield\#isRepeatItemLabels--) |
-| [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | For the description of this property, please see [getShowAllItems()](../../com.aspose.cells/pivotfield\#getShowAllItems--) |
-| [setShowCompact(boolean value)](#setShowCompact-boolean-) | For the description of this property, please see [getShowCompact()](../../com.aspose.cells/pivotfield\#getShowCompact--) |
-| [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | For the description of this property, please see [getShowInOutlineForm()](../../com.aspose.cells/pivotfield\#getShowInOutlineForm--) |
-| [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | For the description of this property, please see [getShowSubtotalAtTop()](../../com.aspose.cells/pivotfield\#getShowSubtotalAtTop--) |
+| [setAscendShow(boolean value)](#setAscendShow-boolean-) | Indicates whether the specified PivotTable field is autoshown ascending. |
+| [setAscendSort(boolean value)](#setAscendSort-boolean-) | Indicates whether the specified PivotTable field is autosorted ascending. |
+| [setAutoShow(boolean value)](#setAutoShow-boolean-) | Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
+| [setAutoShowCount(int value)](#setAutoShowCount-int-) | Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
+| [setAutoShowField(int value)](#setAutoShowField-int-) | Represents auto show field index. -1 means PivotField itself. |
+| [setAutoSort(boolean value)](#setAutoSort-boolean-) | Indicates whether the specified PivotTable field is automatically sorted. |
+| [setAutoSortField(int value)](#setAutoSortField-int-) | Represents auto sort field index |
+| [setAutoSubtotals(boolean value)](#setAutoSubtotals-boolean-) | Indicates whether the specified field shows automatic subtotals. |
+| [setBaseFieldIndex(int value)](#setBaseFieldIndex-int-) | Represents the base field for a custom calculation. |
+| [setBaseIndex(int value)](#setBaseIndex-int-) | Represents the PivotField index in the base PivotFields. |
+| [setBaseItemIndex(int value)](#setBaseItemIndex-int-) | Represents the item in the base field for a custom calculation. |
+| [setBaseItemPosition(int value)](#setBaseItemPosition-int-) | Represents the item in the base field for a custom calculation. |
+| [setCurrentPageItem(short value)](#setCurrentPageItem-short-) | Represents the current page item showing for the page field (valid only for page fields). |
+| [setDataDisplayFormat(int value)](#setDataDisplayFormat-int-) | Represents how to display the values contained in a data field. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Represents the PivotField display name. |
+| [setDragToColumn(boolean value)](#setDragToColumn-boolean-) | Indicates whether the specified field can be dragged to the column position. |
+| [setDragToData(boolean value)](#setDragToData-boolean-) | Indicates whether the specified field can be dragged to the data position. |
+| [setDragToHide(boolean value)](#setDragToHide-boolean-) | Indicates whether the specified field can be dragged to the hide position. |
+| [setDragToPage(boolean value)](#setDragToPage-boolean-) | Indicates whether the specified field can be dragged to the page position. |
+| [setDragToRow(boolean value)](#setDragToRow-boolean-) | Indicates whether the specified field can be dragged to the row position. |
+| [setFunction(int value)](#setFunction-int-) | Represents the function used to summarize the PivotTable data field. |
+| [setIncludeNewItemsInFilter(boolean value)](#setIncludeNewItemsInFilter-boolean-) | indicates whether the field can include new items in manual filter The default value is false. |
+| [setInsertBlankRow(boolean value)](#setInsertBlankRow-boolean-) | Indicates whether inserting blank line after each item. |
+| [setInsertPageBreaksBetweenItems(boolean value)](#setInsertPageBreaksBetweenItems-boolean-) | indicates whether the field can insert page breaks between items insert page break after each item The default value is false. |
+| [setMultipleItemSelectionAllowed(boolean value)](#setMultipleItemSelectionAllowed-boolean-) | indicates whether the field can have multiple items selected in the page field The default value is false. |
+| [setNonAutoSortDefault(boolean value)](#setNonAutoSortDefault-boolean-) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
+| [setNumber(int value)](#setNumber-int-) | Represents the built-in display format of numbers and dates. |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the custom display format of numbers and dates. |
+| [setRepeatItemLabels(boolean value)](#setRepeatItemLabels-boolean-) | indicates whether the field can repeat items labels The default value is false. |
+| [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | Indicates whether all items in the PivotTable report are displayed, even if they don't contain summary data. |
+| [setShowCompact(boolean value)](#setShowCompact-boolean-) | Indicates whether display labels from the next field in the same column on the Pivot Table view |
+| [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | Indicates whether layout this field in outline form on the Pivot Table view |
+| [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [setSubtotals(int subtotalType, boolean shown)](#setSubtotals-int-boolean-) | Sets whether the specified field shows that subtotals. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -793,7 +793,7 @@ public void setAscendShow(boolean value)
 ```
 
 
-For the description of this property, please see [isAscendShow()](../../com.aspose.cells/pivotfield\#isAscendShow--)
+Indicates whether the specified PivotTable field is autoshown ascending.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -806,7 +806,7 @@ public void setAscendSort(boolean value)
 ```
 
 
-For the description of this property, please see [isAscendSort()](../../com.aspose.cells/pivotfield\#isAscendSort--)
+Indicates whether the specified PivotTable field is autosorted ascending.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -819,7 +819,7 @@ public void setAutoShow(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoShow()](../../com.aspose.cells/pivotfield\#isAutoShow--)
+Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -832,7 +832,7 @@ public void setAutoShowCount(int value)
 ```
 
 
-For the description of this property, please see [getAutoShowCount()](../../com.aspose.cells/pivotfield\#getAutoShowCount--)
+Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -845,7 +845,7 @@ public void setAutoShowField(int value)
 ```
 
 
-For the description of this property, please see [getAutoShowField()](../../com.aspose.cells/pivotfield\#getAutoShowField--)
+Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -858,7 +858,7 @@ public void setAutoSort(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoSort()](../../com.aspose.cells/pivotfield\#isAutoSort--)
+Indicates whether the specified PivotTable field is automatically sorted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -871,7 +871,7 @@ public void setAutoSortField(int value)
 ```
 
 
-For the description of this property, please see [getAutoSortField()](../../com.aspose.cells/pivotfield\#getAutoSortField--)
+Represents auto sort field index. -1 means PivotField itself,others means the position of the data fields.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -884,7 +884,7 @@ public void setAutoSubtotals(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoSubtotals()](../../com.aspose.cells/pivotfield\#isAutoSubtotals--)
+Indicates whether the specified field shows automatic subtotals. Default is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -897,7 +897,7 @@ public void setBaseFieldIndex(int value)
 ```
 
 
-For the description of this property, please see [getBaseFieldIndex()](../../com.aspose.cells/pivotfield\#getBaseFieldIndex--)
+Represents the base field for a custom calculation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -910,7 +910,7 @@ public void setBaseIndex(int value)
 ```
 
 
-For the description of this property, please see [getBaseIndex()](../../com.aspose.cells/pivotfield\#getBaseIndex--)
+Represents the PivotField index in the base PivotFields.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -923,7 +923,7 @@ public void setBaseItemIndex(int value)
 ```
 
 
-For the description of this property, please see [getBaseItemIndex()](../../com.aspose.cells/pivotfield\#getBaseItemIndex--)
+Represents the item in the base field for a custom calculation. Valid only for data fields.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -936,7 +936,7 @@ public void setBaseItemPosition(int value)
 ```
 
 
-For the description of this property, please see [getBaseItemPosition()](../../com.aspose.cells/pivotfield\#getBaseItemPosition--)
+Represents the item in the base field for a custom calculation. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -949,7 +949,7 @@ public void setCurrentPageItem(short value)
 ```
 
 
-For the description of this property, please see [getCurrentPageItem()](../../com.aspose.cells/pivotfield\#getCurrentPageItem--)
+Represents the current page item showing for the page field (valid only for page fields).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -962,7 +962,7 @@ public void setDataDisplayFormat(int value)
 ```
 
 
-For the description of this property, please see [getDataDisplayFormat()](../../com.aspose.cells/pivotfield\#getDataDisplayFormat--)
+Represents how to display the values contained in a data field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -975,7 +975,7 @@ public void setDisplayName(String value)
 ```
 
 
-For the description of this property, please see [getDisplayName()](../../com.aspose.cells/pivotfield\#getDisplayName--)
+Represents the PivotField display name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -988,7 +988,7 @@ public void setDragToColumn(boolean value)
 ```
 
 
-For the description of this property, please see [getDragToColumn()](../../com.aspose.cells/pivotfield\#getDragToColumn--)
+Indicates whether the specified field can be dragged to the column position. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1001,7 +1001,7 @@ public void setDragToData(boolean value)
 ```
 
 
-For the description of this property, please see [getDragToData()](../../com.aspose.cells/pivotfield\#getDragToData--)
+Indicates whether the specified field can be dragged to the data position. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1014,7 +1014,7 @@ public void setDragToHide(boolean value)
 ```
 
 
-For the description of this property, please see [getDragToHide()](../../com.aspose.cells/pivotfield\#getDragToHide--)
+Indicates whether the specified field can be dragged to the hide position. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1027,7 +1027,7 @@ public void setDragToPage(boolean value)
 ```
 
 
-For the description of this property, please see [getDragToPage()](../../com.aspose.cells/pivotfield\#getDragToPage--)
+Indicates whether the specified field can be dragged to the page position. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1040,7 +1040,7 @@ public void setDragToRow(boolean value)
 ```
 
 
-For the description of this property, please see [getDragToRow()](../../com.aspose.cells/pivotfield\#getDragToRow--)
+Indicates whether the specified field can be dragged to the row position. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1053,7 +1053,7 @@ public void setFunction(int value)
 ```
 
 
-For the description of this property, please see [getFunction()](../../com.aspose.cells/pivotfield\#getFunction--)
+Represents the function used to summarize the PivotTable data field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1066,7 +1066,7 @@ public void setIncludeNewItemsInFilter(boolean value)
 ```
 
 
-For the description of this property, please see [isIncludeNewItemsInFilter()](../../com.aspose.cells/pivotfield\#isIncludeNewItemsInFilter--)
+indicates whether the field can include new items in manual filter The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1079,7 +1079,7 @@ public void setInsertBlankRow(boolean value)
 ```
 
 
-For the description of this property, please see [getInsertBlankRow()](../../com.aspose.cells/pivotfield\#getInsertBlankRow--)
+Indicates whether inserting blank line after each item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1092,7 +1092,7 @@ public void setInsertPageBreaksBetweenItems(boolean value)
 ```
 
 
-For the description of this property, please see [isInsertPageBreaksBetweenItems()](../../com.aspose.cells/pivotfield\#isInsertPageBreaksBetweenItems--)
+indicates whether the field can insert page breaks between items insert page break after each item The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1105,7 +1105,7 @@ public void setMultipleItemSelectionAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isMultipleItemSelectionAllowed()](../../com.aspose.cells/pivotfield\#isMultipleItemSelectionAllowed--)
+indicates whether the field can have multiple items selected in the page field The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1118,7 +1118,7 @@ public void setNonAutoSortDefault(boolean value)
 ```
 
 
-For the description of this property, please see [getNonAutoSortDefault()](../../com.aspose.cells/pivotfield\#getNonAutoSortDefault--)
+Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1131,7 +1131,7 @@ public void setNumber(int value)
 ```
 
 
-For the description of this property, please see [getNumber()](../../com.aspose.cells/pivotfield\#getNumber--)
+Represents the built-in display format of numbers and dates.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1144,7 +1144,7 @@ public void setNumberFormat(String value)
 ```
 
 
-For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/pivotfield\#getNumberFormat--)
+Represents the custom display format of numbers and dates.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1157,7 +1157,7 @@ public void setRepeatItemLabels(boolean value)
 ```
 
 
-For the description of this property, please see [isRepeatItemLabels()](../../com.aspose.cells/pivotfield\#isRepeatItemLabels--)
+indicates whether the field can repeat items labels The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1170,7 +1170,7 @@ public void setShowAllItems(boolean value)
 ```
 
 
-For the description of this property, please see [getShowAllItems()](../../com.aspose.cells/pivotfield\#getShowAllItems--)
+Indicates whether all items in the PivotTable report are displayed, even if they don't contain summary data. show items with no data The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1183,7 +1183,7 @@ public void setShowCompact(boolean value)
 ```
 
 
-For the description of this property, please see [getShowCompact()](../../com.aspose.cells/pivotfield\#getShowCompact--)
+Indicates whether display labels from the next field in the same column on the Pivot Table view
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1196,7 +1196,7 @@ public void setShowInOutlineForm(boolean value)
 ```
 
 
-For the description of this property, please see [getShowInOutlineForm()](../../com.aspose.cells/pivotfield\#getShowInOutlineForm--)
+Indicates whether layout this field in outline form on the Pivot Table view
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1209,7 +1209,7 @@ public void setShowSubtotalAtTop(boolean value)
 ```
 
 
-For the description of this property, please see [getShowSubtotalAtTop()](../../com.aspose.cells/pivotfield\#getShowSubtotalAtTop--)
+when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
 
 **Parameters:**
 | Parameter | Type | Description |

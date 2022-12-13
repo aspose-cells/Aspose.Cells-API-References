@@ -57,7 +57,7 @@ Workbook workbook = new Workbook();
 | [getNamedRanges()](#getNamedRanges--) | Gets all pre-defined named ranges in the spreadsheet. |
 | [getNamedRangesAndTables()](#getNamedRangesAndTables--) | Gets all pre-defined named ranges in the spreadsheet. |
 | [getNames()](#getNames--) | Gets the collection of all the Name objects in the spreadsheet. |
-| [getOleSize()](#getOleSize--) | displayed size when Workbook file is used as an Ole object. |
+| [getOleSize()](#getOleSize--) | Gets displayed size when Workbook file is used as an Ole object. |
 | [getRangeByName(String rangeName)](#getRangeByName-java.lang.String-) | Gets Range object by pre-defined name. |
 | [getRangeByName(String rangeName, int currentSheetIndex, boolean includeTable)](#getRangeByName-java.lang.String-int-boolean-) | Gets [Range](../../com.aspose.cells/range) by pre-defined name or table's name |
 | [getRevisionLogs()](#getRevisionLogs--) | Represents revision logs. |
@@ -66,7 +66,7 @@ Workbook workbook = new Workbook();
 | [getThreadedCommentAuthors()](#getThreadedCommentAuthors--) | Gets the list of threaded comment authors. |
 | [getWebExtensionTaskPanes()](#getWebExtensionTaskPanes--) | Gets the list of task panes. |
 | [getWebExtensions()](#getWebExtensions--) | Gets the list of task panes. |
-| [getXmlMaps()](#getXmlMaps--) | the XML maps in the workbook. |
+| [getXmlMaps()](#getXmlMaps--) | Gets the XML maps in the workbook. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [insert(int index, int sheetType)](#insert-int-int-) | Insert a worksheet. |
@@ -80,12 +80,12 @@ Workbook workbook = new Workbook();
 | [registerAddInFunction(String addInFile, String functionName, boolean lib)](#registerAddInFunction-java.lang.String-java.lang.String-boolean-) | Adds addin function into the workbook |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at a specified index. |
 | [removeAt(String name)](#removeAt-java.lang.String-) | Removes the element at a specified name. |
-| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) | For the description of this property, please see [getActiveSheetIndex()](../../com.aspose.cells/worksheetcollection\#getActiveSheetIndex--) |
-| [setActiveSheetName(String value)](#setActiveSheetName-java.lang.String-) | For the description of this property, please see [getActiveSheetName()](../../com.aspose.cells/worksheetcollection\#getActiveSheetName--) |
+| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) | Represents the index of active worksheet when the spreadsheet is opened. |
+| [setActiveSheetName(String value)](#setActiveSheetName-java.lang.String-) | Represents the name of active worksheet when the spreadsheet is opened. |
 | [setOleSize(int startRow, int endRow, int startColumn, int endColumn)](#setOleSize-int-int-int-int-) | Sets displayed size when Workbook file is used as an Ole object. |
-| [setOleSize(Object value)](#setOleSize-java.lang.Object-) | For the description of this property, please see [getOleSize()](../../com.aspose.cells/worksheetcollection\#getOleSize--) |
-| [setRefreshAllConnections(boolean value)](#setRefreshAllConnections-boolean-) | For the description of this property, please see [isRefreshAllConnections()](../../com.aspose.cells/worksheetcollection\#isRefreshAllConnections--) |
-| [setXmlMaps(XmlMapCollection value)](#setXmlMaps-com.aspose.cells.XmlMapCollection-) | For the description of this property, please see [getXmlMaps()](../../com.aspose.cells/worksheetcollection\#getXmlMaps--) |
+| [setOleSize(Object value)](#setOleSize-java.lang.Object-) | Sets displayed size when Workbook file is used as an Ole object. |
+| [setRefreshAllConnections(boolean value)](#setRefreshAllConnections-boolean-) | Indicates whether refresh all connections on opening file in MS Excel. |
+| [setXmlMaps(XmlMapCollection value)](#setXmlMaps-com.aspose.cells.XmlMapCollection-) | Sets the XML maps in the workbook. |
 | [sortNames()](#sortNames--) | Sorts the defined names. |
 | [swapSheet(int sheetIndex1, int sheetIndex2)](#swapSheet-int-int-) | Swaps the two sheets. |
 | [toString()](#toString--) |  |
@@ -487,7 +487,7 @@ public Object getOleSize()
 ```
 
 
-displayed size when Workbook file is used as an Ole object. Null means no ole size setting.
+Gets displayed size when Workbook file is used as an Ole object. Null means no ole size setting.
 
 **Returns:**
 java.lang.Object
@@ -596,7 +596,7 @@ public XmlMapCollection getXmlMaps()
 ```
 
 
-the XML maps in the workbook.
+Gets the XML maps in the workbook.
 
 **Returns:**
 [XmlMapCollection](../../com.aspose.cells/xmlmapcollection)
@@ -767,7 +767,7 @@ public void setActiveSheetIndex(int value)
 ```
 
 
-For the description of this property, please see [getActiveSheetIndex()](../../com.aspose.cells/worksheetcollection\#getActiveSheetIndex--)
+Represents the index of active worksheet when the spreadsheet is opened. Sheet index is zero based.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -780,7 +780,7 @@ public void setActiveSheetName(String value)
 ```
 
 
-For the description of this property, please see [getActiveSheetName()](../../com.aspose.cells/worksheetcollection\#getActiveSheetName--)
+Represents the name of active worksheet when the spreadsheet is opened.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -809,7 +809,7 @@ public void setOleSize(Object value)
 ```
 
 
-For the description of this property, please see [getOleSize()](../../com.aspose.cells/worksheetcollection\#getOleSize--)
+Sets displayed size when Workbook file is used as an Ole object. Null means no ole size setting.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -822,7 +822,7 @@ public void setRefreshAllConnections(boolean value)
 ```
 
 
-For the description of this property, please see [isRefreshAllConnections()](../../com.aspose.cells/worksheetcollection\#isRefreshAllConnections--)
+Indicates whether refresh all connections on opening file in MS Excel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -835,7 +835,7 @@ public void setXmlMaps(XmlMapCollection value)
 ```
 
 
-For the description of this property, please see [getXmlMaps()](../../com.aspose.cells/worksheetcollection\#getXmlMaps--)
+Sets the XML maps in the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -23,22 +23,22 @@ Represents tile picture as texture.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlignmentType()](#getAlignmentType--) | the alignment for tiling. |
+| [getAlignmentType()](#getAlignmentType--) | Gets the alignment for tiling. |
 | [getClass()](#getClass--) |  |
-| [getMirrorType()](#getMirrorType--) | the mirror type for tiling. |
-| [getOffsetX()](#getOffsetX--) | the X offset for tiling picture. |
-| [getOffsetY()](#getOffsetY--) | the Y offset for tiling picture. |
-| [getScaleX()](#getScaleX--) | the X scale for tiling picture. |
-| [getScaleY()](#getScaleY--) | the Y scale for tiling picture. |
+| [getMirrorType()](#getMirrorType--) | Gets the mirror type for tiling. |
+| [getOffsetX()](#getOffsetX--) | Gets the X offset for tiling picture. |
+| [getOffsetY()](#getOffsetY--) | Gets the Y offset for tiling picture. |
+| [getScaleX()](#getScaleX--) | Gets the X scale for tiling picture. |
+| [getScaleY()](#getScaleY--) | Gets the Y scale for tiling picture. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignmentType(int value)](#setAlignmentType-int-) | For the description of this property, please see [getAlignmentType()](../../com.aspose.cells/tilepicoption\#getAlignmentType--) |
-| [setMirrorType(int value)](#setMirrorType-int-) | For the description of this property, please see [getMirrorType()](../../com.aspose.cells/tilepicoption\#getMirrorType--) |
-| [setOffsetX(double value)](#setOffsetX-double-) | For the description of this property, please see [getOffsetX()](../../com.aspose.cells/tilepicoption\#getOffsetX--) |
-| [setOffsetY(double value)](#setOffsetY-double-) | For the description of this property, please see [getOffsetY()](../../com.aspose.cells/tilepicoption\#getOffsetY--) |
-| [setScaleX(double value)](#setScaleX-double-) | For the description of this property, please see [getScaleX()](../../com.aspose.cells/tilepicoption\#getScaleX--) |
-| [setScaleY(double value)](#setScaleY-double-) | For the description of this property, please see [getScaleY()](../../com.aspose.cells/tilepicoption\#getScaleY--) |
+| [setAlignmentType(int value)](#setAlignmentType-int-) | Sets the alignment for tiling. |
+| [setMirrorType(int value)](#setMirrorType-int-) | Sets the mirror type for tiling. |
+| [setOffsetX(double value)](#setOffsetX-double-) | Sets the X offset for tiling picture. |
+| [setOffsetY(double value)](#setOffsetY-double-) | Sets the Y offset for tiling picture. |
+| [setScaleX(double value)](#setScaleX-double-) | Sets the X scale for tiling picture. |
+| [setScaleY(double value)](#setScaleY-double-) | Sets the Y scale for tiling picture. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -70,7 +70,7 @@ public int getAlignmentType()
 ```
 
 
-the alignment for tiling.
+Gets the alignment for tiling.
 
 **Returns:**
 int
@@ -90,7 +90,7 @@ public int getMirrorType()
 ```
 
 
-the mirror type for tiling.
+Gets the mirror type for tiling.
 
 **Returns:**
 int
@@ -100,7 +100,7 @@ public double getOffsetX()
 ```
 
 
-the X offset for tiling picture.
+Gets the X offset for tiling picture.
 
 **Returns:**
 double
@@ -110,7 +110,7 @@ public double getOffsetY()
 ```
 
 
-the Y offset for tiling picture.
+Gets the Y offset for tiling picture.
 
 **Returns:**
 double
@@ -120,7 +120,7 @@ public double getScaleX()
 ```
 
 
-the X scale for tiling picture.
+Gets the X scale for tiling picture.
 
 **Returns:**
 double
@@ -130,7 +130,7 @@ public double getScaleY()
 ```
 
 
-the Y scale for tiling picture.
+Gets the Y scale for tiling picture.
 
 **Returns:**
 double
@@ -166,7 +166,7 @@ public void setAlignmentType(int value)
 ```
 
 
-For the description of this property, please see [getAlignmentType()](../../com.aspose.cells/tilepicoption\#getAlignmentType--)
+Sets the alignment for tiling.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -179,7 +179,7 @@ public void setMirrorType(int value)
 ```
 
 
-For the description of this property, please see [getMirrorType()](../../com.aspose.cells/tilepicoption\#getMirrorType--)
+Sets the mirror type for tiling.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public void setOffsetX(double value)
 ```
 
 
-For the description of this property, please see [getOffsetX()](../../com.aspose.cells/tilepicoption\#getOffsetX--)
+Sets the X offset for tiling picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +205,7 @@ public void setOffsetY(double value)
 ```
 
 
-For the description of this property, please see [getOffsetY()](../../com.aspose.cells/tilepicoption\#getOffsetY--)
+Sets the Y offset for tiling picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public void setScaleX(double value)
 ```
 
 
-For the description of this property, please see [getScaleX()](../../com.aspose.cells/tilepicoption\#getScaleX--)
+Sets the X scale for tiling picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public void setScaleY(double value)
 ```
 
 
-For the description of this property, please see [getScaleY()](../../com.aspose.cells/tilepicoption\#getScaleY--)
+Sets the Y scale for tiling picture.
 
 **Parameters:**
 | Parameter | Type | Description |

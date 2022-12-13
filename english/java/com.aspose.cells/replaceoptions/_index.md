@@ -30,9 +30,9 @@ Represent the replace options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | For the description of this property, please see [getCaseSensitive()](../../com.aspose.cells/replaceoptions\#getCaseSensitive--) |
-| [setMatchEntireCellContents(boolean value)](#setMatchEntireCellContents-boolean-) | For the description of this property, please see [getMatchEntireCellContents()](../../com.aspose.cells/replaceoptions\#getMatchEntireCellContents--) |
-| [setRegexKey(boolean value)](#setRegexKey-boolean-) | For the description of this property, please see [getRegexKey()](../../com.aspose.cells/replaceoptions\#getRegexKey--) |
+| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | Indicates if the searched string is case sensitive. |
+| [setMatchEntireCellContents(boolean value)](#setMatchEntireCellContents-boolean-) | Indicates whether to match entire cells contents |
+| [setRegexKey(boolean value)](#setRegexKey-boolean-) | Indicates whether the searched key is regex. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -130,7 +130,7 @@ public void setCaseSensitive(boolean value)
 ```
 
 
-For the description of this property, please see [getCaseSensitive()](../../com.aspose.cells/replaceoptions\#getCaseSensitive--)
+Indicates if the searched string is case sensitive.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,7 +143,7 @@ public void setMatchEntireCellContents(boolean value)
 ```
 
 
-For the description of this property, please see [getMatchEntireCellContents()](../../com.aspose.cells/replaceoptions\#getMatchEntireCellContents--)
+Indicates whether to match entire cells contents
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public void setRegexKey(boolean value)
 ```
 
 
-For the description of this property, please see [getRegexKey()](../../com.aspose.cells/replaceoptions\#getRegexKey--)
+Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -18,26 +18,26 @@ This class specifies a reflection effect.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBlur()](#getBlur--) | the blur radius,in unit of points. |
+| [getBlur()](#getBlur--) | Gets the blur radius,in unit of points. |
 | [getClass()](#getClass--) |  |
-| [getDirection()](#getDirection--) | the direction of the alpha gradient ramp relative to the shape itself. |
-| [getDistance()](#getDistance--) | how far to distance the shadow,in unit of points. |
-| [getFadeDirection()](#getFadeDirection--) | the direction to offset the reflection. |
-| [getRotWithShape()](#getRotWithShape--) | if the reflection should rotate with the shape. |
-| [getSize()](#getSize--) | the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage |
-| [getTransparency()](#getTransparency--) | the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getType()](#getType--) | the preset reflection effect. |
+| [getDirection()](#getDirection--) | Gets the direction of the alpha gradient ramp relative to the shape itself. |
+| [getDistance()](#getDistance--) | Gets how far to distance the shadow,in unit of points. |
+| [getFadeDirection()](#getFadeDirection--) | Gets the direction to offset the reflection. |
+| [getRotWithShape()](#getRotWithShape--) | Gets if the reflection should rotate with the shape. |
+| [getSize()](#getSize--) | Gets the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage |
+| [getTransparency()](#getTransparency--) | Gets the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getType()](#getType--) | Gets the preset reflection effect. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBlur(double value)](#setBlur-double-) | For the description of this property, please see [getBlur()](../../com.aspose.cells/reflectioneffect\#getBlur--) |
-| [setDirection(double value)](#setDirection-double-) | For the description of this property, please see [getDirection()](../../com.aspose.cells/reflectioneffect\#getDirection--) |
-| [setDistance(double value)](#setDistance-double-) | For the description of this property, please see [getDistance()](../../com.aspose.cells/reflectioneffect\#getDistance--) |
-| [setFadeDirection(double value)](#setFadeDirection-double-) | For the description of this property, please see [getFadeDirection()](../../com.aspose.cells/reflectioneffect\#getFadeDirection--) |
-| [setRotWithShape(boolean value)](#setRotWithShape-boolean-) | For the description of this property, please see [getRotWithShape()](../../com.aspose.cells/reflectioneffect\#getRotWithShape--) |
-| [setSize(double value)](#setSize-double-) | For the description of this property, please see [getSize()](../../com.aspose.cells/reflectioneffect\#getSize--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/reflectioneffect\#getTransparency--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/reflectioneffect\#getType--) |
+| [setBlur(double value)](#setBlur-double-) | Sets the blur radius,in unit of points. |
+| [setDirection(double value)](#setDirection-double-) | Sets the direction of the alpha gradient ramp relative to the shape itself. |
+| [setDistance(double value)](#setDistance-double-) | Sets how far to distance the shadow,in unit of points. |
+| [setFadeDirection(double value)](#setFadeDirection-double-) | Sets the direction to offset the reflection. |
+| [setRotWithShape(boolean value)](#setRotWithShape-boolean-) | Sets if the reflection should rotate with the shape. |
+| [setSize(double value)](#setSize-double-) | Sets the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage |
+| [setTransparency(double value)](#setTransparency-double-) | Sets the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setType(int value)](#setType-int-) | Sets the preset reflection effect. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -63,7 +63,7 @@ public double getBlur()
 ```
 
 
-the blur radius,in unit of points.
+Gets the blur radius,in unit of points.
 
 **Returns:**
 double
@@ -83,7 +83,7 @@ public double getDirection()
 ```
 
 
-the direction of the alpha gradient ramp relative to the shape itself.
+Gets the direction of the alpha gradient ramp relative to the shape itself.
 
 **Returns:**
 double
@@ -93,7 +93,7 @@ public double getDistance()
 ```
 
 
-how far to distance the shadow,in unit of points.
+Gets how far to distance the shadow,in unit of points.
 
 **Returns:**
 double
@@ -103,7 +103,7 @@ public double getFadeDirection()
 ```
 
 
-the direction to offset the reflection.
+Gets the direction to offset the reflection.
 
 **Returns:**
 double
@@ -113,7 +113,7 @@ public boolean getRotWithShape()
 ```
 
 
-if the reflection should rotate with the shape.
+Gets if the reflection should rotate with the shape.
 
 **Returns:**
 boolean
@@ -123,7 +123,7 @@ public double getSize()
 ```
 
 
-the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage
+Gets the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage
 
 **Returns:**
 double
@@ -133,7 +133,7 @@ public double getTransparency()
 ```
 
 
-the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear).
+Gets the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Returns:**
 double
@@ -143,7 +143,7 @@ public int getType()
 ```
 
 
-the preset reflection effect.
+Gets the preset reflection effect.
 
 **Returns:**
 int
@@ -179,7 +179,7 @@ public void setBlur(double value)
 ```
 
 
-For the description of this property, please see [getBlur()](../../com.aspose.cells/reflectioneffect\#getBlur--)
+Sets the blur radius,in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public void setDirection(double value)
 ```
 
 
-For the description of this property, please see [getDirection()](../../com.aspose.cells/reflectioneffect\#getDirection--)
+Sets the direction of the alpha gradient ramp relative to the shape itself.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +205,7 @@ public void setDistance(double value)
 ```
 
 
-For the description of this property, please see [getDistance()](../../com.aspose.cells/reflectioneffect\#getDistance--)
+Sets how far to distance the shadow,in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public void setFadeDirection(double value)
 ```
 
 
-For the description of this property, please see [getFadeDirection()](../../com.aspose.cells/reflectioneffect\#getFadeDirection--)
+Sets the direction to offset the reflection.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public void setRotWithShape(boolean value)
 ```
 
 
-For the description of this property, please see [getRotWithShape()](../../com.aspose.cells/reflectioneffect\#getRotWithShape--)
+Sets if the reflection should rotate with the shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,7 +244,7 @@ public void setSize(double value)
 ```
 
 
-For the description of this property, please see [getSize()](../../com.aspose.cells/reflectioneffect\#getSize--)
+Sets the end position (along the alpha gradient ramp) of the end alpha value,in unit of percentage
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +257,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/reflectioneffect\#getTransparency--)
+Sets the degree of the starting reflection transparency as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,7 +270,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/reflectioneffect\#getType--)
+Sets the preset reflection effect.
 
 **Parameters:**
 | Parameter | Type | Description |

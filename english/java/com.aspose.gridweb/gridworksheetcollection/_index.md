@@ -32,22 +32,22 @@ Encapsulates a collection of [GridWorksheet](../../com.aspose.gridweb/gridworksh
 | [getActiveSheetIndex()](#getActiveSheetIndex--) |  |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) |  |
-| [getDefaultFontName()](#getDefaultFontName--) | the control's default font name. |
+| [getDefaultFontName()](#getDefaultFontName--) | Gets the control's default font name. |
 | [getNames()](#getNames--) | Gets the collection of all the Name objects in the spreadsheet. |
-| [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | the decimal separator for formatting/parsing numeric values. |
-| [getSyncRoot()](#getSyncRoot--) | Gets an object that can be used to synchronize access to the ICollection. |
+| [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | Gets the decimal separator for formatting/parsing numeric values. |
+| [getSyncRoot()](#getSyncRoot--) | Gets the sheets count. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
-| [insert(int index, String sheetName)](#insert-int-java.lang.String-) |  |
+| [insert(int index, String sheetName)](#insert-int-java.lang.String-) | Insert a worksheet. |
 | [isSynchronized()](#isSynchronized--) | Gets a value indicating if access to the ICollection is synchronized (thread-safe). |
 | [iterator()](#iterator--) | Gets the rows enumerator |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at a specified index. |
 | [removeAt(String name)](#removeAt-java.lang.String-) | Removes the element at a specified name. |
-| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) | For the description of this property, please see [getActiveSheetIndex()](../../com.aspose.gridweb/gridworksheetcollection\#getActiveSheetIndex--) |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | For the description of this property, please see [getDefaultFontName()](../../com.aspose.gridweb/gridworksheetcollection\#getDefaultFontName--) |
-| [setNumberDecimalSeparator(char value)](#setNumberDecimalSeparator-char-) | For the description of this property, please see [getNumberDecimalSeparator()](../../com.aspose.gridweb/gridworksheetcollection\#getNumberDecimalSeparator--) |
+| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) |  |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the control's default font name. |
+| [setNumberDecimalSeparator(char value)](#setNumberDecimalSeparator-char-) | Sets the decimal separator for formatting/parsing numeric values. |
 | [setVisible(String name, boolean v)](#setVisible-java.lang.String-boolean-) | Sets the visible options. |
 | [swapSheet(int sheetIndex1, int sheetIndex2)](#swapSheet-int-int-) | Swaps the two sheets. |
 | [toString()](#toString--) |  |
@@ -250,7 +250,7 @@ public String getDefaultFontName()
 ```
 
 
-the control's default font name.
+Gets the control's default font name.
 
 ```
 GridWeb GridWeb1=new GridWeb();
@@ -275,7 +275,7 @@ public char getNumberDecimalSeparator()
 ```
 
 
-the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region.
+Gets the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region.
 
 **Returns:**
 char
@@ -285,7 +285,7 @@ public Object getSyncRoot()
 ```
 
 
-Gets an object that can be used to synchronize access to the ICollection.
+Gets the sheets count.
 
 **Returns:**
 java.lang.Object
@@ -320,16 +320,16 @@ public GridWorksheet insert(int index, String sheetName)
 ```
 
 
-
+Insert a worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
-| sheetName | java.lang.String | The sheet name. |
+| index | int | The sheet index |
+| sheetName | java.lang.String |  |
 
 **Returns:**
-[GridWorksheet](../../com.aspose.gridweb/gridworksheet) - Returns an inserted worksheet.
+[GridWorksheet](../../com.aspose.gridweb/gridworksheet)
 ### isSynchronized() {#isSynchronized--}
 ```
 public boolean isSynchronized()
@@ -398,7 +398,7 @@ public void setActiveSheetIndex(int value)
 ```
 
 
-For the description of this property, please see [getActiveSheetIndex()](../../com.aspose.gridweb/gridworksheetcollection\#getActiveSheetIndex--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,7 +411,7 @@ public void setDefaultFontName(String value)
 ```
 
 
-For the description of this property, please see [getDefaultFontName()](../../com.aspose.gridweb/gridworksheetcollection\#getDefaultFontName--)
+Sets the control's default font name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -424,7 +424,7 @@ public void setNumberDecimalSeparator(char value)
 ```
 
 
-For the description of this property, please see [getNumberDecimalSeparator()](../../com.aspose.gridweb/gridworksheetcollection\#getNumberDecimalSeparator--)
+Sets the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region.
 
 **Parameters:**
 | Parameter | Type | Description |

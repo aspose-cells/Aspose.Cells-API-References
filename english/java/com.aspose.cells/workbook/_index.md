@@ -65,7 +65,7 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [exportXml(String mapName, OutputStream stream)](#exportXml-java.lang.String-java.io.OutputStream-) | Export XML data linked by the specified XML map. |
 | [exportXml(String mapName, String path)](#exportXml-java.lang.String-java.lang.String-) | Export XML data linked by the specified XML map. |
-| [getAbsolutePath()](#getAbsolutePath--) | the absolute path of the file. |
+| [getAbsolutePath()](#getAbsolutePath--) | Gets the absolute path of the file. |
 | [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--) | Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection that represents all the built-in document properties of the spreadsheet. |
 | [getCellsDataTableFactory()](#getCellsDataTableFactory--) | Gets the factory for building ICellsDataTable from custom objects |
 | [getClass()](#getClass--) |  |
@@ -77,15 +77,15 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
 | [getDataConnections()](#getDataConnections--) | Gets the [ExternalConnection](../../com.aspose.cells/externalconnection) collection. |
 | [getDataMashup()](#getDataMashup--) | Gets mashup data. |
 | [getDataSorter()](#getDataSorter--) | Gets a DataSorter object to sort data. |
-| [getDefaultStyle()](#getDefaultStyle--) | the default [Style](../../com.aspose.cells/style) object of the workbook. |
+| [getDefaultStyle()](#getDefaultStyle--) | Gets the default [Style](../../com.aspose.cells/style) object of the workbook. |
 | [getDigitalSignature()](#getDigitalSignature--) | Gets digital signature from file. |
-| [getFileFormat()](#getFileFormat--) | the file format. |
-| [getFileName()](#getFileName--) | the current file name. |
+| [getFileFormat()](#getFileFormat--) | Gets the file format. |
+| [getFileName()](#getFileName--) | Gets the current file name. |
 | [getFonts()](#getFonts--) | Gets all fonts in the style pool. |
-| [getInterruptMonitor()](#getInterruptMonitor--) | the interrupt monitor. |
+| [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
 | [getMatchingColor(Color rawColor)](#getMatchingColor-com.aspose.cells.Color-) | Find best matching Color in current palette. |
 | [getNamedStyle(String name)](#getNamedStyle-java.lang.String-) | Gets the named style in the style pool. |
-| [getRibbonXml()](#getRibbonXml--) | the XML file that defines the Ribbon UI. |
+| [getRibbonXml()](#getRibbonXml--) | Gets the XML file that defines the Ribbon UI. |
 | [getSettings()](#getSettings--) | Represents the workbook settings. |
 | [getStyleInPool(int index)](#getStyleInPool-int-) | Gets the style in the style pool. |
 | [getTheme()](#getTheme--) | Gets the theme name. |
@@ -130,14 +130,14 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
 | [save(String fileName)](#save-java.lang.String-) | Save the workbook to the disk. |
 | [save(String fileName, SaveOptions saveOptions)](#save-java.lang.String-com.aspose.cells.SaveOptions-) | Saves the workbook to the disk. |
 | [save(String fileName, int saveFormat)](#save-java.lang.String-int-) | Saves the workbook to the disk. |
-| [setAbsolutePath(String value)](#setAbsolutePath-java.lang.String-) | For the description of this property, please see [getAbsolutePath()](../../com.aspose.cells/workbook\#getAbsolutePath--) |
-| [setDefaultStyle(Style value)](#setDefaultStyle-com.aspose.cells.Style-) | For the description of this property, please see [getDefaultStyle()](../../com.aspose.cells/workbook\#getDefaultStyle--) |
+| [setAbsolutePath(String value)](#setAbsolutePath-java.lang.String-) | Sets the absolute path of the file. |
+| [setDefaultStyle(Style value)](#setDefaultStyle-com.aspose.cells.Style-) | Sets the default [Style](../../com.aspose.cells/style) object of the workbook. |
 | [setDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)](#setDigitalSignature-com.aspose.cells.DigitalSignatureCollection-) | Sets digital signature to an spreadsheet file (Excel2007 and later). |
 | [setEncryptionOptions(int encryptionType, int keyLength)](#setEncryptionOptions-int-int-) | Set Encryption Options. |
-| [setFileFormat(int value)](#setFileFormat-int-) | For the description of this property, please see [getFileFormat()](../../com.aspose.cells/workbook\#getFileFormat--) |
-| [setFileName(String value)](#setFileName-java.lang.String-) | For the description of this property, please see [getFileName()](../../com.aspose.cells/workbook\#getFileName--) |
-| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | For the description of this property, please see [getInterruptMonitor()](../../com.aspose.cells/workbook\#getInterruptMonitor--) |
-| [setRibbonXml(String value)](#setRibbonXml-java.lang.String-) | For the description of this property, please see [getRibbonXml()](../../com.aspose.cells/workbook\#getRibbonXml--) |
+| [setFileFormat(int value)](#setFileFormat-int-) | Sets the file format. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Sets the current file name. |
+| [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Sets the interrupt monitor. |
+| [setRibbonXml(String value)](#setRibbonXml-java.lang.String-) | Sets the XML file that defines the Ribbon UI. |
 | [setThemeColor(int type, Color color)](#setThemeColor-int-com.aspose.cells.Color-) | Sets the theme color |
 | [startAccessCache(int opts)](#startAccessCache-int-) | Starts the session that uses caches to access data. |
 | [toString()](#toString--) |  |
@@ -580,7 +580,7 @@ public String getAbsolutePath()
 ```
 
 
-the absolute path of the file. Only used for external links.
+Gets the absolute path of the file. Only used for external links.
 
 **Returns:**
 java.lang.String
@@ -767,7 +767,7 @@ public Style getDefaultStyle()
 ```
 
 
-the default [Style](../../com.aspose.cells/style) object of the workbook. The DefaultStyle property is useful to implement a Style for the whole Workbook.
+Gets the default [Style](../../com.aspose.cells/style) object of the workbook. The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
 ```
 Workbook workbook = new Workbook();
@@ -794,7 +794,7 @@ public int getFileFormat()
 ```
 
 
-the file format.
+Gets the file format.
 
 **Returns:**
 int
@@ -804,7 +804,7 @@ public String getFileName()
 ```
 
 
-the current file name. If the file is opened by stream and there are some external formula references, please set the file name.
+Gets the current file name. If the file is opened by stream and there are some external formula references, please set the file name.
 
 **Returns:**
 java.lang.String
@@ -824,7 +824,7 @@ public AbstractInterruptMonitor getInterruptMonitor()
 ```
 
 
-the interrupt monitor.
+Gets the interrupt monitor.
 
 **Returns:**
 [AbstractInterruptMonitor](../../com.aspose.cells/abstractinterruptmonitor)
@@ -864,7 +864,7 @@ public String getRibbonXml()
 ```
 
 
-the XML file that defines the Ribbon UI.
+Gets the XML file that defines the Ribbon UI.
 
 **Returns:**
 java.lang.String
@@ -1478,7 +1478,7 @@ public void setAbsolutePath(String value)
 ```
 
 
-For the description of this property, please see [getAbsolutePath()](../../com.aspose.cells/workbook\#getAbsolutePath--)
+Sets the absolute path of the file. Only used for external links.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1491,7 +1491,7 @@ public void setDefaultStyle(Style value)
 ```
 
 
-For the description of this property, please see [getDefaultStyle()](../../com.aspose.cells/workbook\#getDefaultStyle--)
+Sets the default [Style](../../com.aspose.cells/style) object of the workbook. The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1531,7 +1531,7 @@ public void setFileFormat(int value)
 ```
 
 
-For the description of this property, please see [getFileFormat()](../../com.aspose.cells/workbook\#getFileFormat--)
+Sets the file format.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1544,7 +1544,7 @@ public void setFileName(String value)
 ```
 
 
-For the description of this property, please see [getFileName()](../../com.aspose.cells/workbook\#getFileName--)
+Sets the current file name. If the file is opened by stream and there are some external formula references, please set the file name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1557,7 +1557,7 @@ public void setInterruptMonitor(AbstractInterruptMonitor value)
 ```
 
 
-For the description of this property, please see [getInterruptMonitor()](../../com.aspose.cells/workbook\#getInterruptMonitor--)
+Sets the interrupt monitor.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1570,7 +1570,7 @@ public void setRibbonXml(String value)
 ```
 
 
-For the description of this property, please see [getRibbonXml()](../../com.aspose.cells/workbook\#getRibbonXml--)
+Sets the XML file that defines the Ribbon UI.
 
 **Parameters:**
 | Parameter | Type | Description |

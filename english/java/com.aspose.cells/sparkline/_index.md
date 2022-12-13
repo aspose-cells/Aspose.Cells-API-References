@@ -50,7 +50,7 @@ Workbook book = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDataRange(String value)](#setDataRange-java.lang.String-) | For the description of this property, please see [getDataRange()](../../com.aspose.cells/sparkline\#getDataRange--) |
+| [setDataRange(String value)](#setDataRange-java.lang.String-) | Represents the data range of the sparkline. |
 | [toImage(InputStream stream, ImageOrPrintOptions options)](#toImage-java.io.InputStream-com.aspose.cells.ImageOrPrintOptions-) | Converts a sparkline to an image. |
 | [toImage(OutputStream stream, ImageOrPrintOptions options)](#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) | Converts a sparkline to an image. |
 | [toImage(String fileName, ImageOrPrintOptions options)](#toImage-java.lang.String-com.aspose.cells.ImageOrPrintOptions-) | Converts a sparkline to an image. |
@@ -145,7 +145,7 @@ public void setDataRange(String value)
 ```
 
 
-For the description of this property, please see [getDataRange()](../../com.aspose.cells/sparkline\#getDataRange--)
+Represents the data range of the sparkline.
 
 **Parameters:**
 | Parameter | Type | Description |

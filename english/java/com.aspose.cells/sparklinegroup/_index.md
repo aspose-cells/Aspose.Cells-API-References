@@ -53,19 +53,19 @@ Workbook book = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDisplayHidden()](#getDisplayHidden--) | Indicates whether to show data in hidden rows and columns. |
-| [getFirstPointColor()](#getFirstPointColor--) | the color of the first point of data in the sparkline group. |
-| [getHighPointColor()](#getHighPointColor--) | the color of the highest points of data in the sparkline group. |
-| [getHorizontalAxisColor()](#getHorizontalAxisColor--) | the color of the horizontal axis in the sparkline group. |
+| [getFirstPointColor()](#getFirstPointColor--) | Gets the color of the first point of data in the sparkline group. |
+| [getHighPointColor()](#getHighPointColor--) | Gets the color of the highest points of data in the sparkline group. |
+| [getHorizontalAxisColor()](#getHorizontalAxisColor--) | Gets the color of the horizontal axis in the sparkline group. |
 | [getHorizontalAxisDateRange()](#getHorizontalAxisDateRange--) | Represents the range that contains the date values for the sparkline data. |
-| [getLastPointColor()](#getLastPointColor--) | the color of the last point of data in the sparkline group. |
-| [getLineWeight()](#getLineWeight--) | the line weight in each line sparkline in the sparkline group, in the unit of points. |
-| [getLowPointColor()](#getLowPointColor--) | the color of the lowest points of data in the sparkline group. |
-| [getMarkersColor()](#getMarkersColor--) | the color of points in each line sparkline in the sparkline group. |
-| [getNegativePointsColor()](#getNegativePointsColor--) | the color of the negative values on the sparkline group. |
+| [getLastPointColor()](#getLastPointColor--) | Gets the color of the last point of data in the sparkline group. |
+| [getLineWeight()](#getLineWeight--) | Gets the line weight in each line sparkline in the sparkline group, in the unit of points. |
+| [getLowPointColor()](#getLowPointColor--) | Gets the color of the lowest points of data in the sparkline group. |
+| [getMarkersColor()](#getMarkersColor--) | Gets the color of points in each line sparkline in the sparkline group. |
+| [getNegativePointsColor()](#getNegativePointsColor--) | Gets the color of the negative values on the sparkline group. |
 | [getPlotEmptyCellsType()](#getPlotEmptyCellsType--) | Indicates how to plot empty cells. |
 | [getPlotRightToLeft()](#getPlotRightToLeft--) | Indicates whether the plot data is right to left. |
-| [getPresetStyle()](#getPresetStyle--) | the preset style type of the sparkline group. |
-| [getSeriesColor()](#getSeriesColor--) | the color of the sparklines in the sparkline group. |
+| [getPresetStyle()](#getPresetStyle--) | Gets the preset style type of the sparkline group. |
+| [getSeriesColor()](#getSeriesColor--) | Gets the color of the sparklines in the sparkline group. |
 | [getShowFirstPoint()](#getShowFirstPoint--) | Indicates whether to highlight the first point of data in the sparkline group. |
 | [getShowHighPoint()](#getShowHighPoint--) | Indicates whether to highlight the highest points of data in the sparkline group. |
 | [getShowHorizontalAxis()](#getShowHorizontalAxis--) | Indicates whether to show the sparkline horizontal axis. |
@@ -76,40 +76,40 @@ Workbook book = new Workbook();
 | [getSparklineCollection()](#getSparklineCollection--) | Gets the collection of [Sparkline](../../com.aspose.cells/sparkline) object. |
 | [getSparklines()](#getSparklines--) | Gets the collection of [Sparkline](../../com.aspose.cells/sparkline) object. |
 | [getType()](#getType--) | Indicates the sparkline type of the sparkline group. |
-| [getVerticalAxisMaxValue()](#getVerticalAxisMaxValue--) | the custom maximum value for the vertical axis. |
+| [getVerticalAxisMaxValue()](#getVerticalAxisMaxValue--) | Gets the custom maximum value for the vertical axis. |
 | [getVerticalAxisMaxValueType()](#getVerticalAxisMaxValueType--) | Represents the vertical axis maximum value type. |
-| [getVerticalAxisMinValue()](#getVerticalAxisMinValue--) | the custom minimum value for the vertical axis. |
+| [getVerticalAxisMinValue()](#getVerticalAxisMinValue--) | Gets the custom minimum value for the vertical axis. |
 | [getVerticalAxisMinValueType()](#getVerticalAxisMinValueType--) | Represents the vertical axis minimum value type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [resetRanges(String dataRange, boolean isVertical, CellArea locationRange)](#resetRanges-java.lang.String-boolean-com.aspose.cells.CellArea-) | Resets the data range and location range of the sparkline group. |
-| [setDisplayHidden(boolean value)](#setDisplayHidden-boolean-) | For the description of this property, please see [getDisplayHidden()](../../com.aspose.cells/sparklinegroup\#getDisplayHidden--) |
-| [setFirstPointColor(CellsColor value)](#setFirstPointColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getFirstPointColor()](../../com.aspose.cells/sparklinegroup\#getFirstPointColor--) |
-| [setHighPointColor(CellsColor value)](#setHighPointColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getHighPointColor()](../../com.aspose.cells/sparklinegroup\#getHighPointColor--) |
-| [setHorizontalAxisColor(CellsColor value)](#setHorizontalAxisColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getHorizontalAxisColor()](../../com.aspose.cells/sparklinegroup\#getHorizontalAxisColor--) |
-| [setHorizontalAxisDateRange(String value)](#setHorizontalAxisDateRange-java.lang.String-) | For the description of this property, please see [getHorizontalAxisDateRange()](../../com.aspose.cells/sparklinegroup\#getHorizontalAxisDateRange--) |
-| [setLastPointColor(CellsColor value)](#setLastPointColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getLastPointColor()](../../com.aspose.cells/sparklinegroup\#getLastPointColor--) |
-| [setLineWeight(double value)](#setLineWeight-double-) | For the description of this property, please see [getLineWeight()](../../com.aspose.cells/sparklinegroup\#getLineWeight--) |
-| [setLowPointColor(CellsColor value)](#setLowPointColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getLowPointColor()](../../com.aspose.cells/sparklinegroup\#getLowPointColor--) |
-| [setMarkersColor(CellsColor value)](#setMarkersColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getMarkersColor()](../../com.aspose.cells/sparklinegroup\#getMarkersColor--) |
-| [setNegativePointsColor(CellsColor value)](#setNegativePointsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getNegativePointsColor()](../../com.aspose.cells/sparklinegroup\#getNegativePointsColor--) |
-| [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | For the description of this property, please see [getPlotEmptyCellsType()](../../com.aspose.cells/sparklinegroup\#getPlotEmptyCellsType--) |
-| [setPlotRightToLeft(boolean value)](#setPlotRightToLeft-boolean-) | For the description of this property, please see [getPlotRightToLeft()](../../com.aspose.cells/sparklinegroup\#getPlotRightToLeft--) |
-| [setPresetStyle(int value)](#setPresetStyle-int-) | For the description of this property, please see [getPresetStyle()](../../com.aspose.cells/sparklinegroup\#getPresetStyle--) |
-| [setSeriesColor(CellsColor value)](#setSeriesColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getSeriesColor()](../../com.aspose.cells/sparklinegroup\#getSeriesColor--) |
-| [setShowFirstPoint(boolean value)](#setShowFirstPoint-boolean-) | For the description of this property, please see [getShowFirstPoint()](../../com.aspose.cells/sparklinegroup\#getShowFirstPoint--) |
-| [setShowHighPoint(boolean value)](#setShowHighPoint-boolean-) | For the description of this property, please see [getShowHighPoint()](../../com.aspose.cells/sparklinegroup\#getShowHighPoint--) |
-| [setShowHorizontalAxis(boolean value)](#setShowHorizontalAxis-boolean-) | For the description of this property, please see [getShowHorizontalAxis()](../../com.aspose.cells/sparklinegroup\#getShowHorizontalAxis--) |
-| [setShowLastPoint(boolean value)](#setShowLastPoint-boolean-) | For the description of this property, please see [getShowLastPoint()](../../com.aspose.cells/sparklinegroup\#getShowLastPoint--) |
-| [setShowLowPoint(boolean value)](#setShowLowPoint-boolean-) | For the description of this property, please see [getShowLowPoint()](../../com.aspose.cells/sparklinegroup\#getShowLowPoint--) |
-| [setShowMarkers(boolean value)](#setShowMarkers-boolean-) | For the description of this property, please see [getShowMarkers()](../../com.aspose.cells/sparklinegroup\#getShowMarkers--) |
-| [setShowNegativePoints(boolean value)](#setShowNegativePoints-boolean-) | For the description of this property, please see [getShowNegativePoints()](../../com.aspose.cells/sparklinegroup\#getShowNegativePoints--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/sparklinegroup\#getType--) |
-| [setVerticalAxisMaxValue(double value)](#setVerticalAxisMaxValue-double-) | For the description of this property, please see [getVerticalAxisMaxValue()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValue--) |
-| [setVerticalAxisMaxValueType(int value)](#setVerticalAxisMaxValueType-int-) | For the description of this property, please see [getVerticalAxisMaxValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValueType--) |
-| [setVerticalAxisMinValue(double value)](#setVerticalAxisMinValue-double-) | For the description of this property, please see [getVerticalAxisMinValue()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValue--) |
-| [setVerticalAxisMinValueType(int value)](#setVerticalAxisMinValueType-int-) | For the description of this property, please see [getVerticalAxisMinValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValueType--) |
+| [setDisplayHidden(boolean value)](#setDisplayHidden-boolean-) | Indicates whether to show data in hidden rows and columns. |
+| [setFirstPointColor(CellsColor value)](#setFirstPointColor-com.aspose.cells.CellsColor-) | Sets the color of the first point of data in the sparkline group. |
+| [setHighPointColor(CellsColor value)](#setHighPointColor-com.aspose.cells.CellsColor-) | Sets the color of the highest points of data in the sparkline group. |
+| [setHorizontalAxisColor(CellsColor value)](#setHorizontalAxisColor-com.aspose.cells.CellsColor-) | Sets the color of the horizontal axis in the sparkline group. |
+| [setHorizontalAxisDateRange(String value)](#setHorizontalAxisDateRange-java.lang.String-) | Represents the range that contains the date values for the sparkline data. |
+| [setLastPointColor(CellsColor value)](#setLastPointColor-com.aspose.cells.CellsColor-) | Sets the color of the last point of data in the sparkline group. |
+| [setLineWeight(double value)](#setLineWeight-double-) | Sets the line weight in each line sparkline in the sparkline group, in the unit of points. |
+| [setLowPointColor(CellsColor value)](#setLowPointColor-com.aspose.cells.CellsColor-) | Sets the color of the lowest points of data in the sparkline group. |
+| [setMarkersColor(CellsColor value)](#setMarkersColor-com.aspose.cells.CellsColor-) | Sets the color of points in each line sparkline in the sparkline group. |
+| [setNegativePointsColor(CellsColor value)](#setNegativePointsColor-com.aspose.cells.CellsColor-) | Sets the color of the negative values on the sparkline group. |
+| [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | Indicates how to plot empty cells. |
+| [setPlotRightToLeft(boolean value)](#setPlotRightToLeft-boolean-) | Indicates whether the plot data is right to left. |
+| [setPresetStyle(int value)](#setPresetStyle-int-) | Sets the preset style type of the sparkline group. |
+| [setSeriesColor(CellsColor value)](#setSeriesColor-com.aspose.cells.CellsColor-) | Sets the color of the sparklines in the sparkline group. |
+| [setShowFirstPoint(boolean value)](#setShowFirstPoint-boolean-) | Indicates whether to highlight the first point of data in the sparkline group. |
+| [setShowHighPoint(boolean value)](#setShowHighPoint-boolean-) | Indicates whether to highlight the highest points of data in the sparkline group. |
+| [setShowHorizontalAxis(boolean value)](#setShowHorizontalAxis-boolean-) | Indicates whether to show the sparkline horizontal axis. |
+| [setShowLastPoint(boolean value)](#setShowLastPoint-boolean-) | Indicates whether to highlight the last point of data in the sparkline group. |
+| [setShowLowPoint(boolean value)](#setShowLowPoint-boolean-) | Indicates whether to highlight the lowest points of data in the sparkline group. |
+| [setShowMarkers(boolean value)](#setShowMarkers-boolean-) | Indicates whether to highlight each point in each line sparkline in the sparkline group. |
+| [setShowNegativePoints(boolean value)](#setShowNegativePoints-boolean-) | Indicates whether to highlight the negative values on the sparkline group with a different color or marker. |
+| [setType(int value)](#setType-int-) | Indicates the sparkline type of the sparkline group. |
+| [setVerticalAxisMaxValue(double value)](#setVerticalAxisMaxValue-double-) | Sets the custom maximum value for the vertical axis. |
+| [setVerticalAxisMaxValueType(int value)](#setVerticalAxisMaxValueType-int-) | Represents the vertical axis maximum value type. |
+| [setVerticalAxisMinValue(double value)](#setVerticalAxisMinValue-double-) | Sets the custom minimum value for the vertical axis. |
+| [setVerticalAxisMinValueType(int value)](#setVerticalAxisMinValueType-int-) | Represents the vertical axis minimum value type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -155,7 +155,7 @@ public CellsColor getFirstPointColor()
 ```
 
 
-the color of the first point of data in the sparkline group.
+Gets the color of the first point of data in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -165,7 +165,7 @@ public CellsColor getHighPointColor()
 ```
 
 
-the color of the highest points of data in the sparkline group.
+Gets the color of the highest points of data in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -175,7 +175,7 @@ public CellsColor getHorizontalAxisColor()
 ```
 
 
-the color of the horizontal axis in the sparkline group.
+Gets the color of the horizontal axis in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -195,7 +195,7 @@ public CellsColor getLastPointColor()
 ```
 
 
-the color of the last point of data in the sparkline group.
+Gets the color of the last point of data in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -205,7 +205,7 @@ public double getLineWeight()
 ```
 
 
-the line weight in each line sparkline in the sparkline group, in the unit of points.
+Gets the line weight in each line sparkline in the sparkline group, in the unit of points.
 
 **Returns:**
 double
@@ -215,7 +215,7 @@ public CellsColor getLowPointColor()
 ```
 
 
-the color of the lowest points of data in the sparkline group.
+Gets the color of the lowest points of data in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -225,7 +225,7 @@ public CellsColor getMarkersColor()
 ```
 
 
-the color of points in each line sparkline in the sparkline group.
+Gets the color of points in each line sparkline in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -235,7 +235,7 @@ public CellsColor getNegativePointsColor()
 ```
 
 
-the color of the negative values on the sparkline group.
+Gets the color of the negative values on the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -265,7 +265,7 @@ public int getPresetStyle()
 ```
 
 
-the preset style type of the sparkline group.
+Gets the preset style type of the sparkline group.
 
 **Returns:**
 int
@@ -275,7 +275,7 @@ public CellsColor getSeriesColor()
 ```
 
 
-the color of the sparklines in the sparkline group.
+Gets the color of the sparklines in the sparkline group.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -385,7 +385,7 @@ public double getVerticalAxisMaxValue()
 ```
 
 
-the custom maximum value for the vertical axis.
+Gets the custom maximum value for the vertical axis.
 
 **Returns:**
 double
@@ -405,7 +405,7 @@ public double getVerticalAxisMinValue()
 ```
 
 
-the custom minimum value for the vertical axis.
+Gets the custom minimum value for the vertical axis.
 
 **Returns:**
 double
@@ -466,7 +466,7 @@ public void setDisplayHidden(boolean value)
 ```
 
 
-For the description of this property, please see [getDisplayHidden()](../../com.aspose.cells/sparklinegroup\#getDisplayHidden--)
+Indicates whether to show data in hidden rows and columns.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -479,7 +479,7 @@ public void setFirstPointColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getFirstPointColor()](../../com.aspose.cells/sparklinegroup\#getFirstPointColor--)
+Sets the color of the first point of data in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -492,7 +492,7 @@ public void setHighPointColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getHighPointColor()](../../com.aspose.cells/sparklinegroup\#getHighPointColor--)
+Sets the color of the highest points of data in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -505,7 +505,7 @@ public void setHorizontalAxisColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getHorizontalAxisColor()](../../com.aspose.cells/sparklinegroup\#getHorizontalAxisColor--)
+Sets the color of the horizontal axis in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -518,7 +518,7 @@ public void setHorizontalAxisDateRange(String value)
 ```
 
 
-For the description of this property, please see [getHorizontalAxisDateRange()](../../com.aspose.cells/sparklinegroup\#getHorizontalAxisDateRange--)
+Represents the range that contains the date values for the sparkline data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -531,7 +531,7 @@ public void setLastPointColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getLastPointColor()](../../com.aspose.cells/sparklinegroup\#getLastPointColor--)
+Sets the color of the last point of data in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -544,7 +544,7 @@ public void setLineWeight(double value)
 ```
 
 
-For the description of this property, please see [getLineWeight()](../../com.aspose.cells/sparklinegroup\#getLineWeight--)
+Sets the line weight in each line sparkline in the sparkline group, in the unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -557,7 +557,7 @@ public void setLowPointColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getLowPointColor()](../../com.aspose.cells/sparklinegroup\#getLowPointColor--)
+Sets the color of the lowest points of data in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -570,7 +570,7 @@ public void setMarkersColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getMarkersColor()](../../com.aspose.cells/sparklinegroup\#getMarkersColor--)
+Sets the color of points in each line sparkline in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -583,7 +583,7 @@ public void setNegativePointsColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getNegativePointsColor()](../../com.aspose.cells/sparklinegroup\#getNegativePointsColor--)
+Sets the color of the negative values on the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -596,7 +596,7 @@ public void setPlotEmptyCellsType(int value)
 ```
 
 
-For the description of this property, please see [getPlotEmptyCellsType()](../../com.aspose.cells/sparklinegroup\#getPlotEmptyCellsType--)
+Indicates how to plot empty cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -609,7 +609,7 @@ public void setPlotRightToLeft(boolean value)
 ```
 
 
-For the description of this property, please see [getPlotRightToLeft()](../../com.aspose.cells/sparklinegroup\#getPlotRightToLeft--)
+Indicates whether the plot data is right to left.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,7 +622,7 @@ public void setPresetStyle(int value)
 ```
 
 
-For the description of this property, please see [getPresetStyle()](../../com.aspose.cells/sparklinegroup\#getPresetStyle--)
+Sets the preset style type of the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -635,7 +635,7 @@ public void setSeriesColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getSeriesColor()](../../com.aspose.cells/sparklinegroup\#getSeriesColor--)
+Sets the color of the sparklines in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -648,7 +648,7 @@ public void setShowFirstPoint(boolean value)
 ```
 
 
-For the description of this property, please see [getShowFirstPoint()](../../com.aspose.cells/sparklinegroup\#getShowFirstPoint--)
+Indicates whether to highlight the first point of data in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -661,7 +661,7 @@ public void setShowHighPoint(boolean value)
 ```
 
 
-For the description of this property, please see [getShowHighPoint()](../../com.aspose.cells/sparklinegroup\#getShowHighPoint--)
+Indicates whether to highlight the highest points of data in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -674,7 +674,7 @@ public void setShowHorizontalAxis(boolean value)
 ```
 
 
-For the description of this property, please see [getShowHorizontalAxis()](../../com.aspose.cells/sparklinegroup\#getShowHorizontalAxis--)
+Indicates whether to show the sparkline horizontal axis. The horizontal axis appears if the sparkline has data that crosses the zero axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -687,7 +687,7 @@ public void setShowLastPoint(boolean value)
 ```
 
 
-For the description of this property, please see [getShowLastPoint()](../../com.aspose.cells/sparklinegroup\#getShowLastPoint--)
+Indicates whether to highlight the last point of data in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -700,7 +700,7 @@ public void setShowLowPoint(boolean value)
 ```
 
 
-For the description of this property, please see [getShowLowPoint()](../../com.aspose.cells/sparklinegroup\#getShowLowPoint--)
+Indicates whether to highlight the lowest points of data in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -713,7 +713,7 @@ public void setShowMarkers(boolean value)
 ```
 
 
-For the description of this property, please see [getShowMarkers()](../../com.aspose.cells/sparklinegroup\#getShowMarkers--)
+Indicates whether to highlight each point in each line sparkline in the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -726,7 +726,7 @@ public void setShowNegativePoints(boolean value)
 ```
 
 
-For the description of this property, please see [getShowNegativePoints()](../../com.aspose.cells/sparklinegroup\#getShowNegativePoints--)
+Indicates whether to highlight the negative values on the sparkline group with a different color or marker.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -739,7 +739,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/sparklinegroup\#getType--)
+Indicates the sparkline type of the sparkline group.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -752,7 +752,7 @@ public void setVerticalAxisMaxValue(double value)
 ```
 
 
-For the description of this property, please see [getVerticalAxisMaxValue()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValue--)
+Sets the custom maximum value for the vertical axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -765,7 +765,7 @@ public void setVerticalAxisMaxValueType(int value)
 ```
 
 
-For the description of this property, please see [getVerticalAxisMaxValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMaxValueType--)
+Represents the vertical axis maximum value type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -778,7 +778,7 @@ public void setVerticalAxisMinValue(double value)
 ```
 
 
-For the description of this property, please see [getVerticalAxisMinValue()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValue--)
+Sets the custom minimum value for the vertical axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -791,7 +791,7 @@ public void setVerticalAxisMinValueType(int value)
 ```
 
 
-For the description of this property, please see [getVerticalAxisMinValueType()](../../com.aspose.cells/sparklinegroup\#getVerticalAxisMinValueType--)
+Represents the vertical axis minimum value type.
 
 **Parameters:**
 | Parameter | Type | Description |

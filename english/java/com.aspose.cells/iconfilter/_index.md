@@ -19,13 +19,13 @@ Represents icon filter.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getIconId()](#getIconId--) | Zero-based index of an icon in an icon set. |
-| [getIconSetType()](#getIconSetType--) | which icon set is used in the filter criteria. |
+| [getIconId()](#getIconId--) | Gets Zero-based index of an icon in an icon set. |
+| [getIconSetType()](#getIconSetType--) | Gets which icon set is used in the filter criteria. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIconId(int value)](#setIconId-int-) | For the description of this property, please see [getIconId()](../../com.aspose.cells/iconfilter\#getIconId--) |
-| [setIconSetType(int value)](#setIconSetType-int-) | For the description of this property, please see [getIconSetType()](../../com.aspose.cells/iconfilter\#getIconSetType--) |
+| [setIconId(int value)](#setIconId-int-) | Sets Zero-based index of an icon in an icon set. |
+| [setIconSetType(int value)](#setIconSetType-int-) | Sets which icon set is used in the filter criteria. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public int getIconId()
 ```
 
 
-Zero-based index of an icon in an icon set.
+Gets Zero-based index of an icon in an icon set.
 
 **Returns:**
 int
@@ -71,7 +71,7 @@ public int getIconSetType()
 ```
 
 
-which icon set is used in the filter criteria.
+Gets which icon set is used in the filter criteria.
 
 **Returns:**
 int
@@ -107,7 +107,7 @@ public void setIconId(int value)
 ```
 
 
-For the description of this property, please see [getIconId()](../../com.aspose.cells/iconfilter\#getIconId--)
+Sets Zero-based index of an icon in an icon set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +120,7 @@ public void setIconSetType(int value)
 ```
 
 
-For the description of this property, please see [getIconSetType()](../../com.aspose.cells/iconfilter\#getIconSetType--)
+Sets which icon set is used in the filter criteria.
 
 **Parameters:**
 | Parameter | Type | Description |

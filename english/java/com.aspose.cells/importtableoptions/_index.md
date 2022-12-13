@@ -25,38 +25,38 @@ Represents the options of importing data into cells.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCheckMergedCells()](#getCheckMergedCells--) | Indicates whether checking merged cells. |
 | [getClass()](#getClass--) |  |
-| [getColumnIndexes()](#getColumnIndexes--) | the columns(0-based) to import from data source. null means all columns should be imported. |
+| [getColumnIndexes()](#getColumnIndexes--) | Gets the columns(0-based) to import from data source. null means all columns should be imported. |
 | [getConvertGridStyle()](#getConvertGridStyle--) | Indicates whether apply the style of the grid view to cells. |
-| [getConvertNumericData()](#getConvertNumericData--) | a value that indicates whether the string value should be converted to numeric or date value. |
-| [getDateFormat()](#getDateFormat--) | date format string for cells with imported datetime values. |
+| [getConvertNumericData()](#getConvertNumericData--) | Gets a value that indicates whether the string value should be converted to numeric or date value. |
+| [getDateFormat()](#getDateFormat--) | Gets date format string for cells with imported datetime values. |
 | [getDefaultValues()](#getDefaultValues--) | Default value for the value in the table is null. |
 | [getExportCaptionAsFieldName()](#getExportCaptionAsFieldName--) | Indicates whether exporting caption as field name Only works for DataTable. |
 | [getInsertRows()](#getInsertRows--) | Indicates whether new rows should be added for importing data records. |
-| [getNumberFormats()](#getNumberFormats--) | the number formats |
+| [getNumberFormats()](#getNumberFormats--) | Gets the number formats |
 | [getShiftFirstRowDown()](#getShiftFirstRowDown--) | Indicates whether shifting the first row down when inserting rows. |
-| [getTotalColumns()](#getTotalColumns--) | total column count to import from data source. -1 means all rows of given data source. |
-| [getTotalRows()](#getTotalRows--) | total row count to import from data source. -1 means all rows of given data source. |
+| [getTotalColumns()](#getTotalColumns--) | Gets total column count to import from data source. -1 means all rows of given data source. |
+| [getTotalRows()](#getTotalRows--) | Gets total row count to import from data source. -1 means all rows of given data source. |
 | [hashCode()](#hashCode--) |  |
 | [isFieldNameShown()](#isFieldNameShown--) | Indicates whether field name should be imported. |
 | [isFormulas()](#isFormulas--) | Indicates whether the data are formulas. |
 | [isHtmlString()](#isHtmlString--) | Indicates whether the value contains html tags. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckMergedCells(boolean value)](#setCheckMergedCells-boolean-) | For the description of this property, please see [getCheckMergedCells()](../../com.aspose.cells/importtableoptions\#getCheckMergedCells--) |
-| [setColumnIndexes(int[] value)](#setColumnIndexes-int---) | For the description of this property, please see [getColumnIndexes()](../../com.aspose.cells/importtableoptions\#getColumnIndexes--) |
-| [setConvertGridStyle(boolean value)](#setConvertGridStyle-boolean-) | For the description of this property, please see [getConvertGridStyle()](../../com.aspose.cells/importtableoptions\#getConvertGridStyle--) |
-| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | For the description of this property, please see [getConvertNumericData()](../../com.aspose.cells/importtableoptions\#getConvertNumericData--) |
-| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | For the description of this property, please see [getDateFormat()](../../com.aspose.cells/importtableoptions\#getDateFormat--) |
-| [setDefaultValues(Object[] value)](#setDefaultValues-java.lang.Object---) | For the description of this property, please see [getDefaultValues()](../../com.aspose.cells/importtableoptions\#getDefaultValues--) |
-| [setExportCaptionAsFieldName(boolean value)](#setExportCaptionAsFieldName-boolean-) | For the description of this property, please see [getExportCaptionAsFieldName()](../../com.aspose.cells/importtableoptions\#getExportCaptionAsFieldName--) |
-| [setFieldNameShown(boolean value)](#setFieldNameShown-boolean-) | For the description of this property, please see [isFieldNameShown()](../../com.aspose.cells/importtableoptions\#isFieldNameShown--) |
-| [setFormulas(boolean[] value)](#setFormulas-boolean---) | For the description of this property, please see [isFormulas()](../../com.aspose.cells/importtableoptions\#isFormulas--) |
-| [setHtmlString(boolean value)](#setHtmlString-boolean-) | For the description of this property, please see [isHtmlString()](../../com.aspose.cells/importtableoptions\#isHtmlString--) |
-| [setInsertRows(boolean value)](#setInsertRows-boolean-) | For the description of this property, please see [getInsertRows()](../../com.aspose.cells/importtableoptions\#getInsertRows--) |
-| [setNumberFormats(String[] value)](#setNumberFormats-java.lang.String---) | For the description of this property, please see [getNumberFormats()](../../com.aspose.cells/importtableoptions\#getNumberFormats--) |
-| [setShiftFirstRowDown(boolean value)](#setShiftFirstRowDown-boolean-) | For the description of this property, please see [getShiftFirstRowDown()](../../com.aspose.cells/importtableoptions\#getShiftFirstRowDown--) |
-| [setTotalColumns(int value)](#setTotalColumns-int-) | For the description of this property, please see [getTotalColumns()](../../com.aspose.cells/importtableoptions\#getTotalColumns--) |
-| [setTotalRows(int value)](#setTotalRows-int-) | For the description of this property, please see [getTotalRows()](../../com.aspose.cells/importtableoptions\#getTotalRows--) |
+| [setCheckMergedCells(boolean value)](#setCheckMergedCells-boolean-) | Indicates whether checking merged cells. |
+| [setColumnIndexes(int[] value)](#setColumnIndexes-int---) | Sets the columns(0-based) to import from data source. null means all columns should be imported. |
+| [setConvertGridStyle(boolean value)](#setConvertGridStyle-boolean-) | Indicates whether apply the style of the grid view to cells. |
+| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Sets a value that indicates whether the string value should be converted to numeric or date value. |
+| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | Sets date format string for cells with imported datetime values. |
+| [setDefaultValues(Object[] value)](#setDefaultValues-java.lang.Object---) | Default value for the value in the table is null. |
+| [setExportCaptionAsFieldName(boolean value)](#setExportCaptionAsFieldName-boolean-) | Indicates whether exporting caption as field name Only works for DataTable. |
+| [setFieldNameShown(boolean value)](#setFieldNameShown-boolean-) | Indicates whether field name should be imported. |
+| [setFormulas(boolean[] value)](#setFormulas-boolean---) | Indicates whether the data are formulas. |
+| [setHtmlString(boolean value)](#setHtmlString-boolean-) | Indicates whether the value contains html tags. |
+| [setInsertRows(boolean value)](#setInsertRows-boolean-) | Indicates whether new rows should be added for importing data records. |
+| [setNumberFormats(String[] value)](#setNumberFormats-java.lang.String---) | Sets the number formats |
+| [setShiftFirstRowDown(boolean value)](#setShiftFirstRowDown-boolean-) | Indicates whether shifting the first row down when inserting rows. |
+| [setTotalColumns(int value)](#setTotalColumns-int-) | Sets total column count to import from data source. -1 means all rows of given data source. |
+| [setTotalRows(int value)](#setTotalRows-int-) | Sets total row count to import from data source. -1 means all rows of given data source. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -110,7 +110,7 @@ public int[] getColumnIndexes()
 ```
 
 
-the columns(0-based) to import from data source. null means all columns should be imported.
+Gets the columns(0-based) to import from data source. null means all columns should be imported.
 
 **Returns:**
 int[]
@@ -130,7 +130,7 @@ public boolean getConvertNumericData()
 ```
 
 
-a value that indicates whether the string value should be converted to numeric or date value.
+Gets a value that indicates whether the string value should be converted to numeric or date value.
 
 **Returns:**
 boolean
@@ -140,7 +140,7 @@ public String getDateFormat()
 ```
 
 
-date format string for cells with imported datetime values.
+Gets date format string for cells with imported datetime values.
 
 **Returns:**
 java.lang.String
@@ -180,7 +180,7 @@ public String[] getNumberFormats()
 ```
 
 
-the number formats
+Gets the number formats
 
 **Returns:**
 java.lang.String[]
@@ -200,7 +200,7 @@ public int getTotalColumns()
 ```
 
 
-total column count to import from data source. -1 means all rows of given data source.
+Gets total column count to import from data source. -1 means all rows of given data source.
 
 **Returns:**
 int
@@ -210,7 +210,7 @@ public int getTotalRows()
 ```
 
 
-total row count to import from data source. -1 means all rows of given data source.
+Gets total row count to import from data source. -1 means all rows of given data source.
 
 **Returns:**
 int
@@ -276,7 +276,7 @@ public void setCheckMergedCells(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckMergedCells()](../../com.aspose.cells/importtableoptions\#getCheckMergedCells--)
+Indicates whether checking merged cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +289,7 @@ public void setColumnIndexes(int[] value)
 ```
 
 
-For the description of this property, please see [getColumnIndexes()](../../com.aspose.cells/importtableoptions\#getColumnIndexes--)
+Sets the columns(0-based) to import from data source. null means all columns should be imported.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +302,7 @@ public void setConvertGridStyle(boolean value)
 ```
 
 
-For the description of this property, please see [getConvertGridStyle()](../../com.aspose.cells/importtableoptions\#getConvertGridStyle--)
+Indicates whether apply the style of the grid view to cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +315,7 @@ public void setConvertNumericData(boolean value)
 ```
 
 
-For the description of this property, please see [getConvertNumericData()](../../com.aspose.cells/importtableoptions\#getConvertNumericData--)
+Sets a value that indicates whether the string value should be converted to numeric or date value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +328,7 @@ public void setDateFormat(String value)
 ```
 
 
-For the description of this property, please see [getDateFormat()](../../com.aspose.cells/importtableoptions\#getDateFormat--)
+Sets date format string for cells with imported datetime values.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +341,7 @@ public void setDefaultValues(Object[] value)
 ```
 
 
-For the description of this property, please see [getDefaultValues()](../../com.aspose.cells/importtableoptions\#getDefaultValues--)
+Default value for the value in the table is null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +354,7 @@ public void setExportCaptionAsFieldName(boolean value)
 ```
 
 
-For the description of this property, please see [getExportCaptionAsFieldName()](../../com.aspose.cells/importtableoptions\#getExportCaptionAsFieldName--)
+Indicates whether exporting caption as field name Only works for DataTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,7 +367,7 @@ public void setFieldNameShown(boolean value)
 ```
 
 
-For the description of this property, please see [isFieldNameShown()](../../com.aspose.cells/importtableoptions\#isFieldNameShown--)
+Indicates whether field name should be imported.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -380,7 +380,7 @@ public void setFormulas(boolean[] value)
 ```
 
 
-For the description of this property, please see [isFormulas()](../../com.aspose.cells/importtableoptions\#isFormulas--)
+Indicates whether the data are formulas.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -393,7 +393,7 @@ public void setHtmlString(boolean value)
 ```
 
 
-For the description of this property, please see [isHtmlString()](../../com.aspose.cells/importtableoptions\#isHtmlString--)
+Indicates whether the value contains html tags.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -406,7 +406,7 @@ public void setInsertRows(boolean value)
 ```
 
 
-For the description of this property, please see [getInsertRows()](../../com.aspose.cells/importtableoptions\#getInsertRows--)
+Indicates whether new rows should be added for importing data records.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -419,7 +419,7 @@ public void setNumberFormats(String[] value)
 ```
 
 
-For the description of this property, please see [getNumberFormats()](../../com.aspose.cells/importtableoptions\#getNumberFormats--)
+Sets the number formats
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -432,7 +432,7 @@ public void setShiftFirstRowDown(boolean value)
 ```
 
 
-For the description of this property, please see [getShiftFirstRowDown()](../../com.aspose.cells/importtableoptions\#getShiftFirstRowDown--)
+Indicates whether shifting the first row down when inserting rows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -445,7 +445,7 @@ public void setTotalColumns(int value)
 ```
 
 
-For the description of this property, please see [getTotalColumns()](../../com.aspose.cells/importtableoptions\#getTotalColumns--)
+Sets total column count to import from data source. -1 means all rows of given data source.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -458,7 +458,7 @@ public void setTotalRows(int value)
 ```
 
 
-For the description of this property, please see [getTotalRows()](../../com.aspose.cells/importtableoptions\#getTotalRows--)
+Sets total row count to import from data source. -1 means all rows of given data source.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -56,15 +56,15 @@ Represents a single column in a worksheet.
 | [getGroupLevel()](#getGroupLevel--) | Gets the group level of the column. |
 | [getIndex()](#getIndex--) | Gets the index of this column. |
 | [getStyle()](#getStyle--) | Gets the style of this column. |
-| [getWidth()](#getWidth--) | the column width in unit of characters. |
+| [getWidth()](#getWidth--) | Gets the column width in unit of characters. |
 | [hashCode()](#hashCode--) |  |
 | [isCollapsed()](#isCollapsed--) | whether the column is collapsed |
 | [isHidden()](#isHidden--) | Indicates whether the column is hidden. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCollapsed(boolean value)](#setCollapsed-boolean-) | For the description of this property, please see [isCollapsed()](../../com.aspose.cells/column\#isCollapsed--) |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.cells/column\#isHidden--) |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/column\#getWidth--) |
+| [setCollapsed(boolean value)](#setCollapsed-boolean-) | whether the column is collapsed |
+| [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the column is hidden. |
+| [setWidth(double value)](#setWidth-double-) | Sets the column width in unit of characters. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -144,7 +144,7 @@ public double getWidth()
 ```
 
 
-the column width in unit of characters.
+Gets the column width in unit of characters.
 
 **Returns:**
 double
@@ -200,7 +200,7 @@ public void setCollapsed(boolean value)
 ```
 
 
-For the description of this property, please see [isCollapsed()](../../com.aspose.cells/column\#isCollapsed--)
+whether the column is collapsed
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -213,7 +213,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see [isHidden()](../../com.aspose.cells/column\#isHidden--)
+Indicates whether the column is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -226,7 +226,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/column\#getWidth--)
+Sets the column width in unit of characters.
 
 **Parameters:**
 | Parameter | Type | Description |

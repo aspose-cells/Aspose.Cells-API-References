@@ -31,10 +31,10 @@ Represents options when parsing formula.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckAddIn(boolean value)](#setCheckAddIn-boolean-) | For the description of this property, please see [getCheckAddIn()](../../com.aspose.cells/formulaparseoptions\#getCheckAddIn--) |
-| [setLocaleDependent(boolean value)](#setLocaleDependent-boolean-) | For the description of this property, please see [getLocaleDependent()](../../com.aspose.cells/formulaparseoptions\#getLocaleDependent--) |
-| [setParse(boolean value)](#setParse-boolean-) | For the description of this property, please see [getParse()](../../com.aspose.cells/formulaparseoptions\#getParse--) |
-| [setR1C1Style(boolean value)](#setR1C1Style-boolean-) | For the description of this property, please see [getR1C1Style()](../../com.aspose.cells/formulaparseoptions\#getR1C1Style--) |
+| [setCheckAddIn(boolean value)](#setCheckAddIn-boolean-) | Whether check addins in existing external links of current workbook for user defined function without external link. |
+| [setLocaleDependent(boolean value)](#setLocaleDependent-boolean-) | Whether the formula is locale formatted. |
+| [setParse(boolean value)](#setParse-boolean-) | Whether parse given formula. |
+| [setR1C1Style(boolean value)](#setR1C1Style-boolean-) | Whether the formula is R1C1 reference style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -142,7 +142,7 @@ public void setCheckAddIn(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckAddIn()](../../com.aspose.cells/formulaparseoptions\#getCheckAddIn--)
+Whether check addins in existing external links of current workbook for user defined function without external link. Default is true(if user defined function matches one addin in existing external links, then take it as the addin).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -155,7 +155,7 @@ public void setLocaleDependent(boolean value)
 ```
 
 
-For the description of this property, please see [getLocaleDependent()](../../com.aspose.cells/formulaparseoptions\#getLocaleDependent--)
+Whether the formula is locale formatted. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -168,7 +168,7 @@ public void setParse(boolean value)
 ```
 
 
-For the description of this property, please see [getParse()](../../com.aspose.cells/formulaparseoptions\#getParse--)
+Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setR1C1Style(boolean value)
 ```
 
 
-For the description of this property, please see [getR1C1Style()](../../com.aspose.cells/formulaparseoptions\#getR1C1Style--)
+Whether the formula is R1C1 reference style. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |

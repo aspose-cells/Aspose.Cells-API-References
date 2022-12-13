@@ -47,46 +47,46 @@ Encapsulates the font object used in a spreadsheet.
 | --- | --- |
 | [equals(Font font)](#equals-com.aspose.cells.Font-) | Checks if two fonts are equals. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArgbColor()](#getArgbColor--) | the color with a 32-bit ARGB value. |
-| [getCapsType()](#getCapsType--) | the text caps type. |
+| [getArgbColor()](#getArgbColor--) | Gets the color with a 32-bit ARGB value. |
+| [getCapsType()](#getCapsType--) | Gets the text caps type. |
 | [getCharset()](#getCharset--) | Represent the character set. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | the [Color](../../com.aspose.cells/color) of the font. |
-| [getDoubleSize()](#getDoubleSize--) | the double size of the font. |
-| [getName()](#getName--) | the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--). |
-| [getSchemeType()](#getSchemeType--) | the scheme type of the font. |
-| [getScriptOffset()](#getScriptOffset--) | the script offset,in unit of percentage |
-| [getSize()](#getSize--) | the size of the font. |
+| [getColor()](#getColor--) | Gets the [Color](../../com.aspose.cells/color) of the font. |
+| [getDoubleSize()](#getDoubleSize--) | Gets the double size of the font. |
+| [getName()](#getName--) | Gets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--). |
+| [getSchemeType()](#getSchemeType--) | Gets the scheme type of the font. |
+| [getScriptOffset()](#getScriptOffset--) | Gets the script offset,in unit of percentage |
+| [getSize()](#getSize--) | Gets the size of the font. |
 | [getStrikeType()](#getStrikeType--) | Gets the strike type of the text. |
-| [getThemeColor()](#getThemeColor--) | the theme color. |
-| [getUnderline()](#getUnderline--) | the font underline type. |
+| [getThemeColor()](#getThemeColor--) | Gets the theme color. |
+| [getUnderline()](#getUnderline--) | Gets the font underline type. |
 | [hashCode()](#hashCode--) |  |
-| [isBold()](#isBold--) | a value indicating whether the font is bold. |
-| [isItalic()](#isItalic--) | a value indicating whether the font is italic. |
+| [isBold()](#isBold--) | Gets a value indicating whether the font is bold. |
+| [isItalic()](#isItalic--) | Gets a value indicating whether the font is italic. |
 | [isNormalizeHeights()](#isNormalizeHeights--) | Indicates whether the normalization of height that is to be applied to the text run. |
-| [isStrikeout()](#isStrikeout--) | a value indicating whether the font is single strikeout. |
-| [isSubscript()](#isSubscript--) | a value indicating whether the font is subscript. |
-| [isSuperscript()](#isSuperscript--) | a value indicating whether the font is super script. |
+| [isStrikeout()](#isStrikeout--) | Gets a value indicating whether the font is single strikeout. |
+| [isSubscript()](#isSubscript--) | Gets a value indicating whether the font is subscript. |
+| [isSuperscript()](#isSuperscript--) | Gets a value indicating whether the font is super script. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArgbColor(int value)](#setArgbColor-int-) | For the description of this property, please see [getArgbColor()](../../com.aspose.cells/font\#getArgbColor--) |
-| [setBold(boolean value)](#setBold-boolean-) | For the description of this property, please see [isBold()](../../com.aspose.cells/font\#isBold--) |
-| [setCapsType(int value)](#setCapsType-int-) | For the description of this property, please see [getCapsType()](../../com.aspose.cells/font\#getCapsType--) |
-| [setCharset(int value)](#setCharset-int-) | For the description of this property, please see [getCharset()](../../com.aspose.cells/font\#getCharset--) |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/font\#getColor--) |
-| [setDoubleSize(double value)](#setDoubleSize-double-) | For the description of this property, please see [getDoubleSize()](../../com.aspose.cells/font\#getDoubleSize--) |
-| [setItalic(boolean value)](#setItalic-boolean-) | For the description of this property, please see [isItalic()](../../com.aspose.cells/font\#isItalic--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/font\#getName--) |
-| [setNormalizeHeights(boolean value)](#setNormalizeHeights-boolean-) | For the description of this property, please see [isNormalizeHeights()](../../com.aspose.cells/font\#isNormalizeHeights--) |
-| [setSchemeType(int value)](#setSchemeType-int-) | For the description of this property, please see [getSchemeType()](../../com.aspose.cells/font\#getSchemeType--) |
-| [setScriptOffset(double value)](#setScriptOffset-double-) | For the description of this property, please see [getScriptOffset()](../../com.aspose.cells/font\#getScriptOffset--) |
-| [setSize(int value)](#setSize-int-) | For the description of this property, please see [getSize()](../../com.aspose.cells/font\#getSize--) |
-| [setStrikeType(int value)](#setStrikeType-int-) | For the description of this property, please see [getStrikeType()](../../com.aspose.cells/font\#getStrikeType--) |
-| [setStrikeout(boolean value)](#setStrikeout-boolean-) | For the description of this property, please see [isStrikeout()](../../com.aspose.cells/font\#isStrikeout--) |
-| [setSubscript(boolean value)](#setSubscript-boolean-) | For the description of this property, please see [isSubscript()](../../com.aspose.cells/font\#isSubscript--) |
-| [setSuperscript(boolean value)](#setSuperscript-boolean-) | For the description of this property, please see [isSuperscript()](../../com.aspose.cells/font\#isSuperscript--) |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see [getThemeColor()](../../com.aspose.cells/font\#getThemeColor--) |
-| [setUnderline(int value)](#setUnderline-int-) | For the description of this property, please see [getUnderline()](../../com.aspose.cells/font\#getUnderline--) |
+| [setArgbColor(int value)](#setArgbColor-int-) | Sets the color with a 32-bit ARGB value. |
+| [setBold(boolean value)](#setBold-boolean-) | Sets a value indicating whether the font is bold. |
+| [setCapsType(int value)](#setCapsType-int-) | Sets the text caps type. |
+| [setCharset(int value)](#setCharset-int-) | Represent the character set. |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color) of the font. |
+| [setDoubleSize(double value)](#setDoubleSize-double-) | Sets the double size of the font. |
+| [setItalic(boolean value)](#setItalic-boolean-) | Sets a value indicating whether the font is italic. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--). |
+| [setNormalizeHeights(boolean value)](#setNormalizeHeights-boolean-) | Indicates whether the normalization of height that is to be applied to the text run. |
+| [setSchemeType(int value)](#setSchemeType-int-) | Sets the scheme type of the font. |
+| [setScriptOffset(double value)](#setScriptOffset-double-) | Sets the script offset,in unit of percentage |
+| [setSize(int value)](#setSize-int-) | Sets the size of the font. |
+| [setStrikeType(int value)](#setStrikeType-int-) | Gets the strike type of the text. |
+| [setStrikeout(boolean value)](#setStrikeout-boolean-) | Sets a value indicating whether the font is single strikeout. |
+| [setSubscript(boolean value)](#setSubscript-boolean-) | Sets a value indicating whether the font is subscript. |
+| [setSuperscript(boolean value)](#setSuperscript-boolean-) | Sets a value indicating whether the font is super script. |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | Sets the theme color. |
+| [setUnderline(int value)](#setUnderline-int-) | Sets the font underline type. |
 | [toString()](#toString--) | Returns a string represents the current Cell object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -127,7 +127,7 @@ public int getArgbColor()
 ```
 
 
-the color with a 32-bit ARGB value.
+Gets the color with a 32-bit ARGB value.
 
 **Returns:**
 int
@@ -137,7 +137,7 @@ public int getCapsType()
 ```
 
 
-the text caps type.
+Gets the text caps type.
 
 **Returns:**
 int
@@ -167,7 +167,7 @@ public Color getColor()
 ```
 
 
-the [Color](../../com.aspose.cells/color) of the font.
+Gets the [Color](../../com.aspose.cells/color) of the font.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -177,7 +177,7 @@ public double getDoubleSize()
 ```
 
 
-the double size of the font.
+Gets the double size of the font.
 
 **Returns:**
 double
@@ -187,7 +187,7 @@ public String getName()
 ```
 
 
-the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--).
+Gets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--).
 
 **Returns:**
 java.lang.String
@@ -197,7 +197,7 @@ public int getSchemeType()
 ```
 
 
-the scheme type of the font.
+Gets the scheme type of the font.
 
 **Returns:**
 int
@@ -207,7 +207,7 @@ public double getScriptOffset()
 ```
 
 
-the script offset,in unit of percentage
+Gets the script offset,in unit of percentage
 
 **Returns:**
 double
@@ -217,7 +217,7 @@ public int getSize()
 ```
 
 
-the size of the font.
+Gets the size of the font.
 
 **Returns:**
 int
@@ -237,7 +237,7 @@ public ThemeColor getThemeColor()
 ```
 
 
-the theme color. If the font color is not a theme color, NULL will be returned.
+Gets the theme color. If the font color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -247,7 +247,7 @@ public int getUnderline()
 ```
 
 
-the font underline type.
+Gets the font underline type.
 
 **Returns:**
 int
@@ -267,7 +267,7 @@ public boolean isBold()
 ```
 
 
-a value indicating whether the font is bold.
+Gets a value indicating whether the font is bold.
 
 **Returns:**
 boolean
@@ -277,7 +277,7 @@ public boolean isItalic()
 ```
 
 
-a value indicating whether the font is italic.
+Gets a value indicating whether the font is italic.
 
 **Returns:**
 boolean
@@ -297,7 +297,7 @@ public boolean isStrikeout()
 ```
 
 
-a value indicating whether the font is single strikeout.
+Gets a value indicating whether the font is single strikeout.
 
 **Returns:**
 boolean
@@ -307,7 +307,7 @@ public boolean isSubscript()
 ```
 
 
-a value indicating whether the font is subscript.
+Gets a value indicating whether the font is subscript.
 
 **Returns:**
 boolean
@@ -317,7 +317,7 @@ public boolean isSuperscript()
 ```
 
 
-a value indicating whether the font is super script.
+Gets a value indicating whether the font is super script.
 
 **Returns:**
 boolean
@@ -343,7 +343,7 @@ public void setArgbColor(int value)
 ```
 
 
-For the description of this property, please see [getArgbColor()](../../com.aspose.cells/font\#getArgbColor--)
+Sets the color with a 32-bit ARGB value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -356,7 +356,7 @@ public void setBold(boolean value)
 ```
 
 
-For the description of this property, please see [isBold()](../../com.aspose.cells/font\#isBold--)
+Sets a value indicating whether the font is bold.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -369,7 +369,7 @@ public void setCapsType(int value)
 ```
 
 
-For the description of this property, please see [getCapsType()](../../com.aspose.cells/font\#getCapsType--)
+Sets the text caps type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,7 +382,7 @@ public void setCharset(int value)
 ```
 
 
-For the description of this property, please see [getCharset()](../../com.aspose.cells/font\#getCharset--)
+Represent the character set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -395,7 +395,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/font\#getColor--)
+Sets the [Color](../../com.aspose.cells/color) of the font.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -408,7 +408,7 @@ public void setDoubleSize(double value)
 ```
 
 
-For the description of this property, please see [getDoubleSize()](../../com.aspose.cells/font\#getDoubleSize--)
+Sets the double size of the font.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -421,7 +421,7 @@ public void setItalic(boolean value)
 ```
 
 
-For the description of this property, please see [isItalic()](../../com.aspose.cells/font\#isItalic--)
+Sets a value indicating whether the font is italic.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -434,7 +434,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/font\#getName--)
+Sets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -447,7 +447,7 @@ public void setNormalizeHeights(boolean value)
 ```
 
 
-For the description of this property, please see [isNormalizeHeights()](../../com.aspose.cells/font\#isNormalizeHeights--)
+Indicates whether the normalization of height that is to be applied to the text run.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -460,7 +460,7 @@ public void setSchemeType(int value)
 ```
 
 
-For the description of this property, please see [getSchemeType()](../../com.aspose.cells/font\#getSchemeType--)
+Sets the scheme type of the font.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -473,7 +473,7 @@ public void setScriptOffset(double value)
 ```
 
 
-For the description of this property, please see [getScriptOffset()](../../com.aspose.cells/font\#getScriptOffset--)
+Sets the script offset,in unit of percentage
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -486,7 +486,7 @@ public void setSize(int value)
 ```
 
 
-For the description of this property, please see [getSize()](../../com.aspose.cells/font\#getSize--)
+Sets the size of the font.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -499,7 +499,7 @@ public void setStrikeType(int value)
 ```
 
 
-For the description of this property, please see [getStrikeType()](../../com.aspose.cells/font\#getStrikeType--)
+Gets the strike type of the text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -512,7 +512,7 @@ public void setStrikeout(boolean value)
 ```
 
 
-For the description of this property, please see [isStrikeout()](../../com.aspose.cells/font\#isStrikeout--)
+Sets a value indicating whether the font is single strikeout.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -525,7 +525,7 @@ public void setSubscript(boolean value)
 ```
 
 
-For the description of this property, please see [isSubscript()](../../com.aspose.cells/font\#isSubscript--)
+Sets a value indicating whether the font is subscript.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -538,7 +538,7 @@ public void setSuperscript(boolean value)
 ```
 
 
-For the description of this property, please see [isSuperscript()](../../com.aspose.cells/font\#isSuperscript--)
+Sets a value indicating whether the font is super script.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -551,7 +551,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-For the description of this property, please see [getThemeColor()](../../com.aspose.cells/font\#getThemeColor--)
+Sets the theme color. If the font color is not a theme color, NULL will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -564,7 +564,7 @@ public void setUnderline(int value)
 ```
 
 
-For the description of this property, please see [getUnderline()](../../com.aspose.cells/font\#getUnderline--)
+Sets the font underline type.
 
 **Parameters:**
 | Parameter | Type | Description |

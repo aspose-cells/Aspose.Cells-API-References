@@ -28,17 +28,17 @@ Represents all setting of the line.
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance has the same value as another specified [LineFormat](../../com.aspose.cells/lineformat) object. |
-| [getBeginArrowheadLength()](#getBeginArrowheadLength--) | the begin arrow length type of the line. |
-| [getBeginArrowheadStyle()](#getBeginArrowheadStyle--) | the begin arrow type of the line. |
-| [getBeginArrowheadWidth()](#getBeginArrowheadWidth--) | the begin arrow width type of the line. |
+| [getBeginArrowheadLength()](#getBeginArrowheadLength--) | Gets the begin arrow length type of the line. |
+| [getBeginArrowheadStyle()](#getBeginArrowheadStyle--) | Gets the begin arrow type of the line. |
+| [getBeginArrowheadWidth()](#getBeginArrowheadWidth--) | Gets the begin arrow width type of the line. |
 | [getCapType()](#getCapType--) | Specifies the ending caps. |
 | [getClass()](#getClass--) |  |
 | [getCompoundType()](#getCompoundType--) | Specifies the line compound type. |
 | [getDashStyle()](#getDashStyle--) | Specifies the line dash type. |
-| [getEndArrowheadLength()](#getEndArrowheadLength--) | the end arrow length type of the line. |
-| [getEndArrowheadStyle()](#getEndArrowheadStyle--) | the end arrow type of the line. |
-| [getEndArrowheadWidth()](#getEndArrowheadWidth--) | the end arrow width type of the line. |
-| [getFillType()](#getFillType--) | fill type |
+| [getEndArrowheadLength()](#getEndArrowheadLength--) | Gets the end arrow length type of the line. |
+| [getEndArrowheadStyle()](#getEndArrowheadStyle--) | Gets the end arrow type of the line. |
+| [getEndArrowheadWidth()](#getEndArrowheadWidth--) | Gets the end arrow width type of the line. |
+| [getFillType()](#getFillType--) | Gets fill type |
 | [getGradientColor1()](#getGradientColor1--) | Returns the gradient color 1 for the specified fill. |
 | [getGradientColor2()](#getGradientColor2--) | Returns the gradient color 2 for the specified fill. |
 | [getGradientColorType()](#getGradientColorType--) | Returns the gradient color type for the specified fill. |
@@ -46,47 +46,47 @@ Represents all setting of the line.
 | [getGradientFill()](#getGradientFill--) | Gets [getGradientFill()](../../com.aspose.cells/fillformat\#getGradientFill--) object. |
 | [getGradientStyle()](#getGradientStyle--) | Returns the gradient style for the specified fill. |
 | [getGradientVariant()](#getGradientVariant--) | Returns the gradient variant for the specified fill. |
-| [getImageData()](#getImageData--) | the picture image data. |
+| [getImageData()](#getImageData--) | Gets the picture image data. |
 | [getJoinType()](#getJoinType--) | Specifies the line join type. |
 | [getPattern()](#getPattern--) | Represents an area's display pattern. |
 | [getPatternFill()](#getPatternFill--) | Gets [getPatternFill()](../../com.aspose.cells/fillformat\#getPatternFill--) object. |
-| [getPictureFormatType()](#getPictureFormatType--) | the picture format type. |
+| [getPictureFormatType()](#getPictureFormatType--) | Gets the picture format type. |
 | [getPresetColor()](#getPresetColor--) | Returns the gradient preset color for the specified fill. |
-| [getScale()](#getScale--) | the picture format scale. |
+| [getScale()](#getScale--) | Gets the picture format scale. |
 | [getSetType()](#getSetType--) | Gets the fill format set type. |
 | [getSolidFill()](#getSolidFill--) | Gets [getSolidFill()](../../com.aspose.cells/fillformat\#getSolidFill--) object. |
 | [getTexture()](#getTexture--) | Represents the texture type for the specified fill. |
 | [getTextureFill()](#getTextureFill--) | Gets [getTextureFill()](../../com.aspose.cells/fillformat\#getTextureFill--) object. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getType()](#getType--) | the fill type. |
-| [getWeight()](#getWeight--) | the weight of the line in unit of points. |
+| [getType()](#getType--) | Gets the fill type. |
+| [getWeight()](#getWeight--) | Gets the weight of the line in unit of points. |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBeginArrowheadLength(int value)](#setBeginArrowheadLength-int-) | For the description of this property, please see [getBeginArrowheadLength()](../../com.aspose.cells/lineformat\#getBeginArrowheadLength--) |
-| [setBeginArrowheadStyle(int value)](#setBeginArrowheadStyle-int-) | For the description of this property, please see [getBeginArrowheadStyle()](../../com.aspose.cells/lineformat\#getBeginArrowheadStyle--) |
-| [setBeginArrowheadWidth(int value)](#setBeginArrowheadWidth-int-) | For the description of this property, please see [getBeginArrowheadWidth()](../../com.aspose.cells/lineformat\#getBeginArrowheadWidth--) |
-| [setCapType(int value)](#setCapType-int-) | For the description of this property, please see [getCapType()](../../com.aspose.cells/lineformat\#getCapType--) |
-| [setCompoundType(int value)](#setCompoundType-int-) | For the description of this property, please see [getCompoundType()](../../com.aspose.cells/lineformat\#getCompoundType--) |
-| [setDashStyle(int value)](#setDashStyle-int-) | For the description of this property, please see [getDashStyle()](../../com.aspose.cells/lineformat\#getDashStyle--) |
-| [setEndArrowheadLength(int value)](#setEndArrowheadLength-int-) | For the description of this property, please see [getEndArrowheadLength()](../../com.aspose.cells/lineformat\#getEndArrowheadLength--) |
-| [setEndArrowheadStyle(int value)](#setEndArrowheadStyle-int-) | For the description of this property, please see [getEndArrowheadStyle()](../../com.aspose.cells/lineformat\#getEndArrowheadStyle--) |
-| [setEndArrowheadWidth(int value)](#setEndArrowheadWidth-int-) | For the description of this property, please see [getEndArrowheadWidth()](../../com.aspose.cells/lineformat\#getEndArrowheadWidth--) |
-| [setFillType(int value)](#setFillType-int-) | For the description of this property, please see [getFillType()](../../com.aspose.cells/fillformat\#getFillType--) |
-| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see [getImageData()](../../com.aspose.cells/fillformat\#getImageData--) |
-| [setJoinType(int value)](#setJoinType-int-) | For the description of this property, please see [getJoinType()](../../com.aspose.cells/lineformat\#getJoinType--) |
+| [setBeginArrowheadLength(int value)](#setBeginArrowheadLength-int-) | Sets the begin arrow length type of the line. |
+| [setBeginArrowheadStyle(int value)](#setBeginArrowheadStyle-int-) | Sets the begin arrow type of the line. |
+| [setBeginArrowheadWidth(int value)](#setBeginArrowheadWidth-int-) | Sets the begin arrow width type of the line. |
+| [setCapType(int value)](#setCapType-int-) | Specifies the ending caps. |
+| [setCompoundType(int value)](#setCompoundType-int-) | Specifies the line compound type. |
+| [setDashStyle(int value)](#setDashStyle-int-) | Specifies the line dash type. |
+| [setEndArrowheadLength(int value)](#setEndArrowheadLength-int-) | Sets the end arrow length type of the line. |
+| [setEndArrowheadStyle(int value)](#setEndArrowheadStyle-int-) | Sets the end arrow type of the line. |
+| [setEndArrowheadWidth(int value)](#setEndArrowheadWidth-int-) | Sets the end arrow width type of the line. |
+| [setFillType(int value)](#setFillType-int-) | Sets fill type |
+| [setImageData(byte[] value)](#setImageData-byte---) | Sets the picture image data. |
+| [setJoinType(int value)](#setJoinType-int-) | Specifies the line join type. |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
-| [setPattern(int value)](#setPattern-int-) | For the description of this property, please see [getPattern()](../../com.aspose.cells/fillformat\#getPattern--) |
-| [setPictureFormatType(int value)](#setPictureFormatType-int-) | For the description of this property, please see [getPictureFormatType()](../../com.aspose.cells/fillformat\#getPictureFormatType--) |
+| [setPattern(int value)](#setPattern-int-) | Represents an area's display pattern. |
+| [setPictureFormatType(int value)](#setPictureFormatType-int-) | Sets the picture format type. |
 | [setPresetColorGradient(int presetColor, int style, int variant)](#setPresetColorGradient-int-int-int-) | Sets the specified fill to a preset-color gradient. |
-| [setScale(double value)](#setScale-double-) | For the description of this property, please see [getScale()](../../com.aspose.cells/fillformat\#getScale--) |
-| [setSetType(int value)](#setSetType-int-) | For the description of this property, please see [getSetType()](../../com.aspose.cells/fillformat\#getSetType--) |
-| [setTexture(int value)](#setTexture-int-) | For the description of this property, please see [getTexture()](../../com.aspose.cells/fillformat\#getTexture--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/fillformat\#getTransparency--) |
+| [setScale(double value)](#setScale-double-) | Sets the picture format scale. |
+| [setSetType(int value)](#setSetType-int-) | Gets the fill format set type. |
+| [setTexture(int value)](#setTexture-int-) | Represents the texture type for the specified fill. |
+| [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTwoColorGradient(Color color1, Color color2, int style, int variant)](#setTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Sets the specified fill to a two-color gradient. |
 | [setTwoColorGradient(Color color1, double transparency1, Color color2, double transparency2, int style, int variant)](#setTwoColorGradient-com.aspose.cells.Color-double-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a two-color gradient. |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/fillformat\#getType--) |
-| [setWeight(double value)](#setWeight-double-) | For the description of this property, please see [getWeight()](../../com.aspose.cells/lineformat\#getWeight--) |
+| [setType(int value)](#setType-int-) | Sets the fill type. |
+| [setWeight(double value)](#setWeight-double-) | Sets the weight of the line in unit of points. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -121,7 +121,7 @@ public int getBeginArrowheadLength()
 ```
 
 
-the begin arrow length type of the line.
+Gets the begin arrow length type of the line.
 
 ```
 lineFmt.setBeginArrowheadLength(MsoArrowheadLength.LONG);
@@ -135,7 +135,7 @@ public int getBeginArrowheadStyle()
 ```
 
 
-the begin arrow type of the line.
+Gets the begin arrow type of the line.
 
 ```
 lineFmt.setBeginArrowheadStyle(MsoArrowheadStyle.ARROW_OPEN);
@@ -149,7 +149,7 @@ public int getBeginArrowheadWidth()
 ```
 
 
-the begin arrow width type of the line.
+Gets the begin arrow width type of the line.
 
 ```
 lineFmt.setBeginArrowheadWidth(MsoArrowheadWidth.MEDIUM);
@@ -215,7 +215,7 @@ public int getEndArrowheadLength()
 ```
 
 
-the end arrow length type of the line.
+Gets the end arrow length type of the line.
 
 ```
 lineFmt.setEndArrowheadLength(MsoArrowheadLength.LONG);
@@ -229,7 +229,7 @@ public int getEndArrowheadStyle()
 ```
 
 
-the end arrow type of the line.
+Gets the end arrow type of the line.
 
 ```
 lineFmt.setEndArrowheadStyle(MsoArrowheadStyle.ARROW_OPEN);
@@ -243,7 +243,7 @@ public int getEndArrowheadWidth()
 ```
 
 
-the end arrow width type of the line.
+Gets the end arrow width type of the line.
 
 ```
 lineFmt.setEndArrowheadWidth(MsoArrowheadWidth.MEDIUM);
@@ -257,7 +257,7 @@ public int getFillType()
 ```
 
 
-fill type
+Gets fill type
 
 **Returns:**
 int
@@ -337,7 +337,7 @@ public byte[] getImageData()
 ```
 
 
-the picture image data. If the fill format is not custom texture format, returns null.
+Gets the picture image data. If the fill format is not custom texture format, returns null.
 
 **Returns:**
 byte[]
@@ -381,7 +381,7 @@ public int getPictureFormatType()
 ```
 
 
-the picture format type.
+Gets the picture format type.
 
 **Returns:**
 int
@@ -401,7 +401,7 @@ public double getScale()
 ```
 
 
-the picture format scale.
+Gets the picture format scale.
 
 **Returns:**
 double
@@ -461,7 +461,7 @@ public int getType()
 ```
 
 
-the fill type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets the fill type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -471,7 +471,7 @@ public double getWeight()
 ```
 
 
-the weight of the line in unit of points.
+Gets the weight of the line in unit of points.
 
 ```
 lineFmt.setWeight(2.0d);
@@ -515,7 +515,7 @@ public void setBeginArrowheadLength(int value)
 ```
 
 
-For the description of this property, please see [getBeginArrowheadLength()](../../com.aspose.cells/lineformat\#getBeginArrowheadLength--)
+Sets the begin arrow length type of the line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -528,7 +528,7 @@ public void setBeginArrowheadStyle(int value)
 ```
 
 
-For the description of this property, please see [getBeginArrowheadStyle()](../../com.aspose.cells/lineformat\#getBeginArrowheadStyle--)
+Sets the begin arrow type of the line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -541,7 +541,7 @@ public void setBeginArrowheadWidth(int value)
 ```
 
 
-For the description of this property, please see [getBeginArrowheadWidth()](../../com.aspose.cells/lineformat\#getBeginArrowheadWidth--)
+Sets the begin arrow width type of the line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -554,7 +554,7 @@ public void setCapType(int value)
 ```
 
 
-For the description of this property, please see [getCapType()](../../com.aspose.cells/lineformat\#getCapType--)
+Specifies the ending caps.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -567,7 +567,7 @@ public void setCompoundType(int value)
 ```
 
 
-For the description of this property, please see [getCompoundType()](../../com.aspose.cells/lineformat\#getCompoundType--)
+Specifies the line compound type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -580,7 +580,7 @@ public void setDashStyle(int value)
 ```
 
 
-For the description of this property, please see [getDashStyle()](../../com.aspose.cells/lineformat\#getDashStyle--)
+Specifies the line dash type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -593,7 +593,7 @@ public void setEndArrowheadLength(int value)
 ```
 
 
-For the description of this property, please see [getEndArrowheadLength()](../../com.aspose.cells/lineformat\#getEndArrowheadLength--)
+Sets the end arrow length type of the line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -606,7 +606,7 @@ public void setEndArrowheadStyle(int value)
 ```
 
 
-For the description of this property, please see [getEndArrowheadStyle()](../../com.aspose.cells/lineformat\#getEndArrowheadStyle--)
+Sets the end arrow type of the line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -619,7 +619,7 @@ public void setEndArrowheadWidth(int value)
 ```
 
 
-For the description of this property, please see [getEndArrowheadWidth()](../../com.aspose.cells/lineformat\#getEndArrowheadWidth--)
+Sets the end arrow width type of the line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -632,7 +632,7 @@ public void setFillType(int value)
 ```
 
 
-For the description of this property, please see [getFillType()](../../com.aspose.cells/fillformat\#getFillType--)
+Sets fill type
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -645,7 +645,7 @@ public void setImageData(byte[] value)
 ```
 
 
-For the description of this property, please see [getImageData()](../../com.aspose.cells/fillformat\#getImageData--)
+Sets the picture image data. If the fill format is not custom texture format, returns null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -658,7 +658,7 @@ public void setJoinType(int value)
 ```
 
 
-For the description of this property, please see [getJoinType()](../../com.aspose.cells/lineformat\#getJoinType--)
+Specifies the line join type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -687,7 +687,7 @@ public void setPattern(int value)
 ```
 
 
-For the description of this property, please see [getPattern()](../../com.aspose.cells/fillformat\#getPattern--)
+Represents an area's display pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -700,7 +700,7 @@ public void setPictureFormatType(int value)
 ```
 
 
-For the description of this property, please see [getPictureFormatType()](../../com.aspose.cells/fillformat\#getPictureFormatType--)
+Sets the picture format type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -728,7 +728,7 @@ public void setScale(double value)
 ```
 
 
-For the description of this property, please see [getScale()](../../com.aspose.cells/fillformat\#getScale--)
+Sets the picture format scale.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -741,7 +741,7 @@ public void setSetType(int value)
 ```
 
 
-For the description of this property, please see [getSetType()](../../com.aspose.cells/fillformat\#getSetType--)
+Gets the fill format set type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -754,7 +754,7 @@ public void setTexture(int value)
 ```
 
 
-For the description of this property, please see [getTexture()](../../com.aspose.cells/fillformat\#getTexture--)
+Represents the texture type for the specified fill.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -767,7 +767,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/fillformat\#getTransparency--)
+Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -814,7 +814,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/fillformat\#getType--)
+Sets the fill type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -827,7 +827,7 @@ public void setWeight(double value)
 ```
 
 
-For the description of this property, please see [getWeight()](../../com.aspose.cells/lineformat\#getWeight--)
+Sets the weight of the line in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |

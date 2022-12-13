@@ -27,9 +27,9 @@ Represents the list of [FontSetting](../../com.aspose.cells/fontsetting).
 | [get(int index)](#get-int-) | Gets the [FontSetting](../../com.aspose.cells/fontsetting) by the index. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getHtmlString()](#getHtmlString--) | the html string which contains data and some formats in this shape. |
+| [getHtmlString()](#getHtmlString--) | Gets the html string which contains data and some formats in this shape. |
 | [getParagraphEnumerator()](#getParagraphEnumerator--) | Gets the enumerator of the paragraphs. |
-| [getText()](#getText--) | the text of the shape. |
+| [getText()](#getText--) | Gets the text of the shape. |
 | [getTextAlignment()](#getTextAlignment--) | Represents the alignment setting of the text body. |
 | [getTextParagraphs()](#getTextParagraphs--) | Gets all paragraphs. |
 | [hashCode()](#hashCode--) |  |
@@ -41,8 +41,8 @@ Represents the list of [FontSetting](../../com.aspose.cells/fontsetting).
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
 | [replace(int index, int count, String text)](#replace-int-int-java.lang.String-) | Replace the text. |
 | [replace(String oldValue, String newValue)](#replace-java.lang.String-java.lang.String-) | Replace the text. |
-| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | For the description of this property, please see [getHtmlString()](../../com.aspose.cells/fontsettingcollection\#getHtmlString--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/fontsettingcollection\#getText--) |
+| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | Sets the html string which contains data and some formats in this shape. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text of the shape. |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -185,7 +185,7 @@ public String getHtmlString()
 ```
 
 
-the html string which contains data and some formats in this shape.
+Gets the html string which contains data and some formats in this shape.
 
 **Returns:**
 java.lang.String
@@ -205,7 +205,7 @@ public String getText()
 ```
 
 
-the text of the shape.
+Gets the text of the shape.
 
 **Returns:**
 java.lang.String
@@ -342,7 +342,7 @@ public void setHtmlString(String value)
 ```
 
 
-For the description of this property, please see [getHtmlString()](../../com.aspose.cells/fontsettingcollection\#getHtmlString--)
+Sets the html string which contains data and some formats in this shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -355,7 +355,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.cells/fontsettingcollection\#getText--)
+Sets the text of the shape.
 
 **Parameters:**
 | Parameter | Type | Description |

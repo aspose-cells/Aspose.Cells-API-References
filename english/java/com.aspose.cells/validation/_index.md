@@ -61,23 +61,23 @@ Workbook workbook = new Workbook();
 | [removeACell(int row, int column)](#removeACell-int-int-) | Remove the validation settings in the cell. |
 | [removeArea(CellArea cellArea)](#removeArea-com.aspose.cells.CellArea-) | Remove the validation settings in the range. |
 | [removeAreas(CellArea[] areas)](#removeAreas-com.aspose.cells.CellArea---) | Removes this validation from given areas. |
-| [setAlertStyle(int value)](#setAlertStyle-int-) | For the description of this property, please see [getAlertStyle()](../../com.aspose.cells/validation\#getAlertStyle--) |
-| [setErrorMessage(String value)](#setErrorMessage-java.lang.String-) | For the description of this property, please see [getErrorMessage()](../../com.aspose.cells/validation\#getErrorMessage--) |
-| [setErrorTitle(String value)](#setErrorTitle-java.lang.String-) | For the description of this property, please see [getErrorTitle()](../../com.aspose.cells/validation\#getErrorTitle--) |
-| [setFormula1(String value)](#setFormula1-java.lang.String-) | For the description of this property, please see [getFormula1()](../../com.aspose.cells/validation\#getFormula1--) |
+| [setAlertStyle(int value)](#setAlertStyle-int-) | Represents the validation alert style. |
+| [setErrorMessage(String value)](#setErrorMessage-java.lang.String-) | Represents the data validation error message. |
+| [setErrorTitle(String value)](#setErrorTitle-java.lang.String-) | Represents the title of the data-validation error dialog box. |
+| [setFormula1(String value)](#setFormula1-java.lang.String-) | Represents the value or expression associated with the data validation. |
 | [setFormula1(String formula, boolean isR1C1, boolean isLocal)](#setFormula1-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this validation. |
-| [setFormula2(String value)](#setFormula2-java.lang.String-) | For the description of this property, please see [getFormula2()](../../com.aspose.cells/validation\#getFormula2--) |
+| [setFormula2(String value)](#setFormula2-java.lang.String-) | Represents the value or expression associated with the data validation. |
 | [setFormula2(String formula, boolean isR1C1, boolean isLocal)](#setFormula2-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this validation. |
-| [setIgnoreBlank(boolean value)](#setIgnoreBlank-boolean-) | For the description of this property, please see [getIgnoreBlank()](../../com.aspose.cells/validation\#getIgnoreBlank--) |
-| [setInCellDropDown(boolean value)](#setInCellDropDown-boolean-) | For the description of this property, please see [getInCellDropDown()](../../com.aspose.cells/validation\#getInCellDropDown--) |
-| [setInputMessage(String value)](#setInputMessage-java.lang.String-) | For the description of this property, please see [getInputMessage()](../../com.aspose.cells/validation\#getInputMessage--) |
-| [setInputTitle(String value)](#setInputTitle-java.lang.String-) | For the description of this property, please see [getInputTitle()](../../com.aspose.cells/validation\#getInputTitle--) |
-| [setOperator(int value)](#setOperator-int-) | For the description of this property, please see [getOperator()](../../com.aspose.cells/validation\#getOperator--) |
-| [setShowError(boolean value)](#setShowError-boolean-) | For the description of this property, please see [getShowError()](../../com.aspose.cells/validation\#getShowError--) |
-| [setShowInput(boolean value)](#setShowInput-boolean-) | For the description of this property, please see [getShowInput()](../../com.aspose.cells/validation\#getShowInput--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/validation\#getType--) |
-| [setValue1(Object value)](#setValue1-java.lang.Object-) | For the description of this property, please see [getValue1()](../../com.aspose.cells/validation\#getValue1--) |
-| [setValue2(Object value)](#setValue2-java.lang.Object-) | For the description of this property, please see [getValue2()](../../com.aspose.cells/validation\#getValue2--) |
+| [setIgnoreBlank(boolean value)](#setIgnoreBlank-boolean-) | Indicates whether blank values are permitted by the range data validation. |
+| [setInCellDropDown(boolean value)](#setInCellDropDown-boolean-) | Indicates whether data validation displays a drop-down list that contains acceptable values. |
+| [setInputMessage(String value)](#setInputMessage-java.lang.String-) | Represents the data validation input message. |
+| [setInputTitle(String value)](#setInputTitle-java.lang.String-) | Represents the title of the data-validation input dialog box. |
+| [setOperator(int value)](#setOperator-int-) | Represents the operator for the data validation. |
+| [setShowError(boolean value)](#setShowError-boolean-) | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
+| [setShowInput(boolean value)](#setShowInput-boolean-) | Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range. |
+| [setType(int value)](#setType-int-) | Represents the data validation type. |
+| [setValue1(Object value)](#setValue1-java.lang.Object-) | Represents the first value associated with the data validation. |
+| [setValue2(Object value)](#setValue2-java.lang.Object-) | Represents the second value associated with the data validation. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -480,7 +480,7 @@ public void setAlertStyle(int value)
 ```
 
 
-For the description of this property, please see [getAlertStyle()](../../com.aspose.cells/validation\#getAlertStyle--)
+Represents the validation alert style.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -493,7 +493,7 @@ public void setErrorMessage(String value)
 ```
 
 
-For the description of this property, please see [getErrorMessage()](../../com.aspose.cells/validation\#getErrorMessage--)
+Represents the data validation error message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -506,7 +506,7 @@ public void setErrorTitle(String value)
 ```
 
 
-For the description of this property, please see [getErrorTitle()](../../com.aspose.cells/validation\#getErrorTitle--)
+Represents the title of the data-validation error dialog box.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -519,7 +519,7 @@ public void setFormula1(String value)
 ```
 
 
-For the description of this property, please see [getFormula1()](../../com.aspose.cells/validation\#getFormula1--)
+Represents the value or expression associated with the data validation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -547,7 +547,7 @@ public void setFormula2(String value)
 ```
 
 
-For the description of this property, please see [getFormula2()](../../com.aspose.cells/validation\#getFormula2--)
+Represents the value or expression associated with the data validation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -575,7 +575,7 @@ public void setIgnoreBlank(boolean value)
 ```
 
 
-For the description of this property, please see [getIgnoreBlank()](../../com.aspose.cells/validation\#getIgnoreBlank--)
+Indicates whether blank values are permitted by the range data validation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -588,7 +588,7 @@ public void setInCellDropDown(boolean value)
 ```
 
 
-For the description of this property, please see [getInCellDropDown()](../../com.aspose.cells/validation\#getInCellDropDown--)
+Indicates whether data validation displays a drop-down list that contains acceptable values.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -601,7 +601,7 @@ public void setInputMessage(String value)
 ```
 
 
-For the description of this property, please see [getInputMessage()](../../com.aspose.cells/validation\#getInputMessage--)
+Represents the data validation input message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -614,7 +614,7 @@ public void setInputTitle(String value)
 ```
 
 
-For the description of this property, please see [getInputTitle()](../../com.aspose.cells/validation\#getInputTitle--)
+Represents the title of the data-validation input dialog box.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -627,7 +627,7 @@ public void setOperator(int value)
 ```
 
 
-For the description of this property, please see [getOperator()](../../com.aspose.cells/validation\#getOperator--)
+Represents the operator for the data validation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -640,7 +640,7 @@ public void setShowError(boolean value)
 ```
 
 
-For the description of this property, please see [getShowError()](../../com.aspose.cells/validation\#getShowError--)
+Indicates whether the data validation error message will be displayed whenever the user enters invalid data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -653,7 +653,7 @@ public void setShowInput(boolean value)
 ```
 
 
-For the description of this property, please see [getShowInput()](../../com.aspose.cells/validation\#getShowInput--)
+Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -666,7 +666,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/validation\#getType--)
+Represents the data validation type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -679,7 +679,7 @@ public void setValue1(Object value)
 ```
 
 
-For the description of this property, please see [getValue1()](../../com.aspose.cells/validation\#getValue1--)
+Represents the first value associated with the data validation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -692,7 +692,7 @@ public void setValue2(Object value)
 ```
 
 
-For the description of this property, please see [getValue2()](../../com.aspose.cells/validation\#getValue2--)
+Represents the second value associated with the data validation.
 
 **Parameters:**
 | Parameter | Type | Description |

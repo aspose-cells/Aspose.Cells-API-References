@@ -27,7 +27,7 @@ Represents the options of saving office open xml file.
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
-| [getCompressionType()](#getCompressionType--) | the compression type for ooxml file. |
+| [getCompressionType()](#getCompressionType--) | Gets the compression type for ooxml file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getEmbedOoxmlAsOleObject()](#getEmbedOoxmlAsOleObject--) | Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [getEnableZip64()](#getEnableZip64--) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
@@ -41,25 +41,25 @@ Represents the options of saving office open xml file.
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getUpdateZoom()](#getUpdateZoom--) | Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--) |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--) |
-| [setCompressionType(int value)](#setCompressionType-int-) | For the description of this property, please see [getCompressionType()](../../com.aspose.cells/ooxmlsaveoptions\#getCompressionType--) |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
-| [setEmbedOoxmlAsOleObject(boolean value)](#setEmbedOoxmlAsOleObject-boolean-) | For the description of this property, please see [getEmbedOoxmlAsOleObject()](../../com.aspose.cells/ooxmlsaveoptions\#getEmbedOoxmlAsOleObject--) |
-| [setEnableZip64(boolean value)](#setEnableZip64-boolean-) | For the description of this property, please see [getEnableZip64()](../../com.aspose.cells/ooxmlsaveoptions\#getEnableZip64--) |
-| [setExportCellName(boolean value)](#setExportCellName-boolean-) | For the description of this property, please see [getExportCellName()](../../com.aspose.cells/ooxmlsaveoptions\#getExportCellName--) |
-| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/ooxmlsaveoptions\#getLightCellsDataProvider--) |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
-| [setUpdateZoom(boolean value)](#setUpdateZoom-boolean-) | For the description of this property, please see [getUpdateZoom()](../../com.aspose.cells/ooxmlsaveoptions\#getUpdateZoom--) |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--) |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
+| [setCompressionType(int value)](#setCompressionType-int-) | Sets the compression type for ooxml file. |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setEmbedOoxmlAsOleObject(boolean value)](#setEmbedOoxmlAsOleObject-boolean-) | Indicates whether embedding Ooxml files of OleObject as ole object. |
+| [setEnableZip64(boolean value)](#setEnableZip64-boolean-) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [setExportCellName(boolean value)](#setExportCellName-boolean-) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The Data provider to provide cells data for saving workbook in light mode. |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
+| [setUpdateZoom(boolean value)](#setUpdateZoom-boolean-) | Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -137,7 +137,7 @@ public int getCompressionType()
 ```
 
 
-the compression type for ooxml file. The default value is OoxmlCompressionType.Level2.
+Gets the compression type for ooxml file. The default value is OoxmlCompressionType.Level2.
 
 **Returns:**
 int
@@ -277,7 +277,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-warning callback.
+Sets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -313,7 +313,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--)
+The cached file folder is used to store some large data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -326,7 +326,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--)
+Make the workbook empty after saving the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -339,7 +339,7 @@ public void setCompressionType(int value)
 ```
 
 
-For the description of this property, please see [getCompressionType()](../../com.aspose.cells/ooxmlsaveoptions\#getCompressionType--)
+Sets the compression type for ooxml file. The default value is OoxmlCompressionType.Level2.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -352,7 +352,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--)
+If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -365,7 +365,7 @@ public void setEmbedOoxmlAsOleObject(boolean value)
 ```
 
 
-For the description of this property, please see [getEmbedOoxmlAsOleObject()](../../com.aspose.cells/ooxmlsaveoptions\#getEmbedOoxmlAsOleObject--)
+Indicates whether embedding Ooxml files of OleObject as ole object. Only for OleObject.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -378,7 +378,7 @@ public void setEnableZip64(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableZip64()](../../com.aspose.cells/ooxmlsaveoptions\#getEnableZip64--)
+Always use ZIP64 extensions when writing zip archives, even when unnecessary.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -391,7 +391,7 @@ public void setExportCellName(boolean value)
 ```
 
 
-For the description of this property, please see [getExportCellName()](../../com.aspose.cells/ooxmlsaveoptions\#getExportCellName--)
+Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +404,7 @@ public void setLightCellsDataProvider(LightCellsDataProvider value)
 ```
 
 
-For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/ooxmlsaveoptions\#getLightCellsDataProvider--)
+The Data provider to provide cells data for saving workbook in light mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -417,7 +417,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--)
+Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -430,7 +430,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--)
+Indicates whether refreshing chart cache data
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -443,7 +443,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--)
+Indicates whether sorting external defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -456,7 +456,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--)
+Indicates whether sorting defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +469,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--)
+Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,7 +482,7 @@ public void setUpdateZoom(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateZoom()](../../com.aspose.cells/ooxmlsaveoptions\#getUpdateZoom--)
+Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. The default value is false for performance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -495,7 +495,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--)
+Indicates whether validate merged cells before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -19,17 +19,17 @@ Settings for the default values of workbook's style properties.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFontName()](#getFontName--) | Gets/Sets the default font name for the workbook |
-| [getFontSize()](#getFontSize--) | Gets/Sets the default standard font size for the workbook. |
-| [getHorizontalAlignment()](#getHorizontalAlignment--) | Gets/Sets the default value for horizontal alignment |
-| [getVerticalAlignment()](#getVerticalAlignment--) | Gets/Sets the default value for vertical alignment |
+| [getFontName()](#getFontName--) | Gets the default font name for the workbook |
+| [getFontSize()](#getFontSize--) | Gets the default standard font size for the workbook. |
+| [getHorizontalAlignment()](#getHorizontalAlignment--) | Gets the default value for horizontal alignment |
+| [getVerticalAlignment()](#getVerticalAlignment--) | Gets the default value for vertical alignment |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFontName(String value)](#setFontName-java.lang.String-) | For the description of this property, please see [getFontName()](../../com.aspose.cells/defaultstylesettings\#getFontName--) |
-| [setFontSize(double value)](#setFontSize-double-) | For the description of this property, please see [getFontSize()](../../com.aspose.cells/defaultstylesettings\#getFontSize--) |
-| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | For the description of this property, please see [getHorizontalAlignment()](../../com.aspose.cells/defaultstylesettings\#getHorizontalAlignment--) |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | For the description of this property, please see [getVerticalAlignment()](../../com.aspose.cells/defaultstylesettings\#getVerticalAlignment--) |
+| [setFontName(String value)](#setFontName-java.lang.String-) | Sets the default font name for the workbook |
+| [setFontSize(double value)](#setFontSize-double-) | Sets the default standard font size for the workbook. |
+| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | Sets the default value for horizontal alignment |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Sets the default value for vertical alignment |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,7 @@ public String getFontName()
 ```
 
 
-Gets/Sets the default font name for the workbook
+Gets the default font name for the workbook
 
 **Returns:**
 java.lang.String
@@ -75,7 +75,7 @@ public double getFontSize()
 ```
 
 
-Gets/Sets the default standard font size for the workbook.
+Gets the default standard font size for the workbook.
 
 **Returns:**
 double
@@ -85,7 +85,7 @@ public int getHorizontalAlignment()
 ```
 
 
-Gets/Sets the default value for horizontal alignment
+Gets the default value for horizontal alignment
 
 **Returns:**
 int
@@ -95,7 +95,7 @@ public int getVerticalAlignment()
 ```
 
 
-Gets/Sets the default value for vertical alignment
+Gets the default value for vertical alignment
 
 **Returns:**
 int
@@ -131,7 +131,7 @@ public void setFontName(String value)
 ```
 
 
-For the description of this property, please see [getFontName()](../../com.aspose.cells/defaultstylesettings\#getFontName--)
+Sets the default font name for the workbook
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,7 +144,7 @@ public void setFontSize(double value)
 ```
 
 
-For the description of this property, please see [getFontSize()](../../com.aspose.cells/defaultstylesettings\#getFontSize--)
+Sets the default standard font size for the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setHorizontalAlignment(int value)
 ```
 
 
-For the description of this property, please see [getHorizontalAlignment()](../../com.aspose.cells/defaultstylesettings\#getHorizontalAlignment--)
+Sets the default value for horizontal alignment
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setVerticalAlignment(int value)
 ```
 
 
-For the description of this property, please see [getVerticalAlignment()](../../com.aspose.cells/defaultstylesettings\#getVerticalAlignment--)
+Sets the default value for vertical alignment
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -19,13 +19,13 @@ Represents the property of the cell smart tag.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | the name of the property. |
-| [getValue()](#getValue--) | the value of the property. |
+| [getName()](#getName--) | Gets the name of the property. |
+| [getValue()](#getValue--) | Gets the value of the property. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/smarttagproperty\#getName--) |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/smarttagproperty\#getValue--) |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the property. |
+| [setValue(String value)](#setValue-java.lang.String-) | Sets the value of the property. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public String getName()
 ```
 
 
-the name of the property.
+Gets the name of the property.
 
 **Returns:**
 java.lang.String
@@ -71,7 +71,7 @@ public String getValue()
 ```
 
 
-the value of the property.
+Gets the value of the property.
 
 **Returns:**
 java.lang.String
@@ -107,7 +107,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/smarttagproperty\#getName--)
+Sets the name of the property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +120,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/smarttagproperty\#getValue--)
+Sets the value of the property.
 
 **Parameters:**
 | Parameter | Type | Description |

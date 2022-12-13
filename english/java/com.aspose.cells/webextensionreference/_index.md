@@ -19,17 +19,17 @@ Represents identify the provider location and version of the extension.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getId()](#getId--) | the identifier associated with the Office Add-in within a catalog provider. |
-| [getStoreName()](#getStoreName--) | the instance of the marketplace where the Office Add-in is stored. . |
-| [getStoreType()](#getStoreType--) | the type of marketplace that the store attribute identifies. |
-| [getVersion()](#getVersion--) | the version. |
+| [getId()](#getId--) | Gets the identifier associated with the Office Add-in within a catalog provider. |
+| [getStoreName()](#getStoreName--) | Gets the instance of the marketplace where the Office Add-in is stored. . |
+| [getStoreType()](#getStoreType--) | Gets the type of marketplace that the store attribute identifies. |
+| [getVersion()](#getVersion--) | Gets the version. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setId(String value)](#setId-java.lang.String-) | For the description of this property, please see [getId()](../../com.aspose.cells/webextensionreference\#getId--) |
-| [setStoreName(String value)](#setStoreName-java.lang.String-) | For the description of this property, please see [getStoreName()](../../com.aspose.cells/webextensionreference\#getStoreName--) |
-| [setStoreType(int value)](#setStoreType-int-) | For the description of this property, please see [getStoreType()](../../com.aspose.cells/webextensionreference\#getStoreType--) |
-| [setVersion(String value)](#setVersion-java.lang.String-) | For the description of this property, please see [getVersion()](../../com.aspose.cells/webextensionreference\#getVersion--) |
+| [setId(String value)](#setId-java.lang.String-) | Sets the identifier associated with the Office Add-in within a catalog provider. |
+| [setStoreName(String value)](#setStoreName-java.lang.String-) | Sets the instance of the marketplace where the Office Add-in is stored. . |
+| [setStoreType(int value)](#setStoreType-int-) | Sets the type of marketplace that the store attribute identifies. |
+| [setVersion(String value)](#setVersion-java.lang.String-) | Sets the version. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,7 @@ public String getId()
 ```
 
 
-the identifier associated with the Office Add-in within a catalog provider. The identifier MUST be unique within a catalog provider.
+Gets the identifier associated with the Office Add-in within a catalog provider. The identifier MUST be unique within a catalog provider.
 
 **Returns:**
 java.lang.String
@@ -75,7 +75,7 @@ public String getStoreName()
 ```
 
 
-the instance of the marketplace where the Office Add-in is stored. .
+Gets the instance of the marketplace where the Office Add-in is stored. .
 
 **Returns:**
 java.lang.String
@@ -85,7 +85,7 @@ public int getStoreType()
 ```
 
 
-the type of marketplace that the store attribute identifies.
+Gets the type of marketplace that the store attribute identifies.
 
 **Returns:**
 int
@@ -95,7 +95,7 @@ public String getVersion()
 ```
 
 
-the version.
+Gets the version.
 
 **Returns:**
 java.lang.String
@@ -131,7 +131,7 @@ public void setId(String value)
 ```
 
 
-For the description of this property, please see [getId()](../../com.aspose.cells/webextensionreference\#getId--)
+Sets the identifier associated with the Office Add-in within a catalog provider. The identifier MUST be unique within a catalog provider.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,7 +144,7 @@ public void setStoreName(String value)
 ```
 
 
-For the description of this property, please see [getStoreName()](../../com.aspose.cells/webextensionreference\#getStoreName--)
+Sets the instance of the marketplace where the Office Add-in is stored. .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setStoreType(int value)
 ```
 
 
-For the description of this property, please see [getStoreType()](../../com.aspose.cells/webextensionreference\#getStoreType--)
+Sets the type of marketplace that the store attribute identifies.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setVersion(String value)
 ```
 
 
-For the description of this property, please see [getVersion()](../../com.aspose.cells/webextensionreference\#getVersion--)
+Sets the version.
 
 **Parameters:**
 | Parameter | Type | Description |

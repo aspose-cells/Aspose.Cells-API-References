@@ -19,15 +19,15 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | the XML content of this Custom XML Data Storage Part. |
-| [getID()](#getID--) | the id of the custom xml part. |
-| [getSchemaData()](#getSchemaData--) | the XML content of this Custom XML Schema Data Storage Part. |
+| [getData()](#getData--) | Gets the XML content of this Custom XML Data Storage Part. |
+| [getID()](#getID--) | Gets the id of the custom xml part. |
+| [getSchemaData()](#getSchemaData--) | Gets the XML content of this Custom XML Schema Data Storage Part. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(byte[] value)](#setData-byte---) | For the description of this property, please see [getData()](../../com.aspose.cells/customxmlpart\#getData--) |
-| [setID(String value)](#setID-java.lang.String-) | For the description of this property, please see [getID()](../../com.aspose.cells/customxmlpart\#getID--) |
-| [setSchemaData(byte[] value)](#setSchemaData-byte---) | For the description of this property, please see [getSchemaData()](../../com.aspose.cells/customxmlpart\#getSchemaData--) |
+| [setData(byte[] value)](#setData-byte---) | Sets the XML content of this Custom XML Data Storage Part. |
+| [setID(String value)](#setID-java.lang.String-) | Sets the id of the custom xml part. |
+| [setSchemaData(byte[] value)](#setSchemaData-byte---) | Sets the XML content of this Custom XML Schema Data Storage Part. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -63,7 +63,7 @@ public byte[] getData()
 ```
 
 
-the XML content of this Custom XML Data Storage Part.
+Gets the XML content of this Custom XML Data Storage Part.
 
 **Returns:**
 byte[]
@@ -73,7 +73,7 @@ public String getID()
 ```
 
 
-the id of the custom xml part.
+Gets the id of the custom xml part.
 
 **Returns:**
 java.lang.String
@@ -83,7 +83,7 @@ public byte[] getSchemaData()
 ```
 
 
-the XML content of this Custom XML Schema Data Storage Part.
+Gets the XML content of this Custom XML Schema Data Storage Part.
 
 **Returns:**
 byte[]
@@ -119,7 +119,7 @@ public void setData(byte[] value)
 ```
 
 
-For the description of this property, please see [getData()](../../com.aspose.cells/customxmlpart\#getData--)
+Sets the XML content of this Custom XML Data Storage Part.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setID(String value)
 ```
 
 
-For the description of this property, please see [getID()](../../com.aspose.cells/customxmlpart\#getID--)
+Sets the id of the custom xml part.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setSchemaData(byte[] value)
 ```
 
 
-For the description of this property, please see [getSchemaData()](../../com.aspose.cells/customxmlpart\#getSchemaData--)
+Sets the XML content of this Custom XML Schema Data Storage Part.
 
 **Parameters:**
 | Parameter | Type | Description |

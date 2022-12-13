@@ -20,24 +20,24 @@ Represents the marker in a line chart, scatter chart, or radar chart.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getBackgroundColor()](#getBackgroundColor--) | Represents the marker background color in a line chart, scatter chart, or radar chart. |
-| [getBackgroundColorSetType()](#getBackgroundColorSetType--) | the marker background color set type. |
+| [getBackgroundColorSetType()](#getBackgroundColorSetType--) | Gets the marker background color set type. |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getClass()](#getClass--) |  |
 | [getForegroundColor()](#getForegroundColor--) | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
-| [getForegroundColorSetType()](#getForegroundColorSetType--) | the marker foreground color set type. |
+| [getForegroundColorSetType()](#getForegroundColorSetType--) | Gets the marker foreground color set type. |
 | [getMarkerSize()](#getMarkerSize--) | Represents the marker size in unit of points. |
 | [getMarkerSizePx()](#getMarkerSizePx--) | Represents the marker size in unit of pixels. |
 | [getMarkerStyle()](#getMarkerStyle--) | Represents the marker style. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/marker\#getBackgroundColor--) |
-| [setBackgroundColorSetType(int value)](#setBackgroundColorSetType-int-) | For the description of this property, please see [getBackgroundColorSetType()](../../com.aspose.cells/marker\#getBackgroundColorSetType--) |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/marker\#getForegroundColor--) |
-| [setForegroundColorSetType(int value)](#setForegroundColorSetType-int-) | For the description of this property, please see [getForegroundColorSetType()](../../com.aspose.cells/marker\#getForegroundColorSetType--) |
-| [setMarkerSize(int value)](#setMarkerSize-int-) | For the description of this property, please see [getMarkerSize()](../../com.aspose.cells/marker\#getMarkerSize--) |
-| [setMarkerSizePx(int value)](#setMarkerSizePx-int-) | For the description of this property, please see [getMarkerSizePx()](../../com.aspose.cells/marker\#getMarkerSizePx--) |
-| [setMarkerStyle(int value)](#setMarkerStyle-int-) | For the description of this property, please see [getMarkerStyle()](../../com.aspose.cells/marker\#getMarkerStyle--) |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Represents the marker background color in a line chart, scatter chart, or radar chart. |
+| [setBackgroundColorSetType(int value)](#setBackgroundColorSetType-int-) | Sets the marker background color set type. |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Represents the marker foreground color in a line chart, scatter chart, or radar chart. |
+| [setForegroundColorSetType(int value)](#setForegroundColorSetType-int-) | Sets the marker foreground color set type. |
+| [setMarkerSize(int value)](#setMarkerSize-int-) | Represents the marker size in unit of points. |
+| [setMarkerSizePx(int value)](#setMarkerSizePx-int-) | Represents the marker size in unit of pixels. |
+| [setMarkerStyle(int value)](#setMarkerStyle-int-) | Represents the marker style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -83,7 +83,7 @@ public int getBackgroundColorSetType()
 ```
 
 
-the marker background color set type.
+Gets the marker background color set type.
 
 **Returns:**
 int
@@ -123,7 +123,7 @@ public int getForegroundColorSetType()
 ```
 
 
-the marker foreground color set type.
+Gets the marker foreground color set type.
 
 **Returns:**
 int
@@ -189,7 +189,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/marker\#getBackgroundColor--)
+Represents the marker background color in a line chart, scatter chart, or radar chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -202,7 +202,7 @@ public void setBackgroundColorSetType(int value)
 ```
 
 
-For the description of this property, please see [getBackgroundColorSetType()](../../com.aspose.cells/marker\#getBackgroundColorSetType--)
+Sets the marker background color set type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -215,7 +215,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/marker\#getForegroundColor--)
+Represents the marker foreground color in a line chart, scatter chart, or radar chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -228,7 +228,7 @@ public void setForegroundColorSetType(int value)
 ```
 
 
-For the description of this property, please see [getForegroundColorSetType()](../../com.aspose.cells/marker\#getForegroundColorSetType--)
+Sets the marker foreground color set type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,7 +241,7 @@ public void setMarkerSize(int value)
 ```
 
 
-For the description of this property, please see [getMarkerSize()](../../com.aspose.cells/marker\#getMarkerSize--)
+Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +254,7 @@ public void setMarkerSizePx(int value)
 ```
 
 
-For the description of this property, please see [getMarkerSizePx()](../../com.aspose.cells/marker\#getMarkerSizePx--)
+Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +267,7 @@ public void setMarkerStyle(int value)
 ```
 
 
-For the description of this property, please see [getMarkerStyle()](../../com.aspose.cells/marker\#getMarkerStyle--)
+Represents the marker style. Applies to line chart, scatter chart, or radar chart.
 
 **Parameters:**
 | Parameter | Type | Description |

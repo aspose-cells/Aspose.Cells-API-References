@@ -36,15 +36,15 @@ Inherited from System.Web.UI.WebControls.TableStyle. Represents the style of a w
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackImageUrl(String value)](#setBackImageUrl-java.lang.String-) | For the description of this property, please see [getBackImageUrl()](../../com.aspose.gridweb/gridtablestyle\#getBackImageUrl--) |
-| [setBorderCollapse(int value)](#setBorderCollapse-int-) | For the description of this property, please see [getBorderCollapse()](../../com.aspose.gridweb/gridtablestyle\#getBorderCollapse--) |
-| [setBottomBorderStyle(WebBorderStyle value)](#setBottomBorderStyle-com.aspose.gridweb.WebBorderStyle-) | For the description of this property, please see [getBottomBorderStyle()](../../com.aspose.gridweb/gridtablestyle\#getBottomBorderStyle--) |
-| [setCellPadding(int value)](#setCellPadding-int-) | For the description of this property, please see [getCellPadding()](../../com.aspose.gridweb/gridtablestyle\#getCellPadding--) |
-| [setCellSpacing(int value)](#setCellSpacing-int-) | For the description of this property, please see [getCellSpacing()](../../com.aspose.gridweb/gridtablestyle\#getCellSpacing--) |
-| [setLayoutFixed(int value)](#setLayoutFixed-int-) | For the description of this property, please see [getLayoutFixed()](../../com.aspose.gridweb/gridtablestyle\#getLayoutFixed--) |
-| [setLeftBorderStyle(WebBorderStyle value)](#setLeftBorderStyle-com.aspose.gridweb.WebBorderStyle-) | For the description of this property, please see [getLeftBorderStyle()](../../com.aspose.gridweb/gridtablestyle\#getLeftBorderStyle--) |
-| [setRightBorderStyle(WebBorderStyle value)](#setRightBorderStyle-com.aspose.gridweb.WebBorderStyle-) | For the description of this property, please see [getRightBorderStyle()](../../com.aspose.gridweb/gridtablestyle\#getRightBorderStyle--) |
-| [setTopBorderStyle(WebBorderStyle value)](#setTopBorderStyle-com.aspose.gridweb.WebBorderStyle-) | For the description of this property, please see [getTopBorderStyle()](../../com.aspose.gridweb/gridtablestyle\#getTopBorderStyle--) |
+| [setBackImageUrl(String value)](#setBackImageUrl-java.lang.String-) | Background image url. |
+| [setBorderCollapse(int value)](#setBorderCollapse-int-) | Specifies the border collapse feature. |
+| [setBottomBorderStyle(WebBorderStyle value)](#setBottomBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of bottom border of the table. |
+| [setCellPadding(int value)](#setCellPadding-int-) | Always returns -1. |
+| [setCellSpacing(int value)](#setCellSpacing-int-) | Always returns -1. |
+| [setLayoutFixed(int value)](#setLayoutFixed-int-) | Specifies whether the layout of the table is fixed(not extended automatically when it contain large objects). |
+| [setLeftBorderStyle(WebBorderStyle value)](#setLeftBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of left border of the table. |
+| [setRightBorderStyle(WebBorderStyle value)](#setRightBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of right border of the table. |
+| [setTopBorderStyle(WebBorderStyle value)](#setTopBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of top border of the table. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -204,7 +204,7 @@ public void setBackImageUrl(String value)
 ```
 
 
-For the description of this property, please see [getBackImageUrl()](../../com.aspose.gridweb/gridtablestyle\#getBackImageUrl--)
+Background image url.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setBorderCollapse(int value)
 ```
 
 
-For the description of this property, please see [getBorderCollapse()](../../com.aspose.gridweb/gridtablestyle\#getBorderCollapse--)
+Specifies the border collapse feature.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setBottomBorderStyle(WebBorderStyle value)
 ```
 
 
-For the description of this property, please see [getBottomBorderStyle()](../../com.aspose.gridweb/gridtablestyle\#getBottomBorderStyle--)
+Specifies the style of bottom border of the table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setCellPadding(int value)
 ```
 
 
-For the description of this property, please see [getCellPadding()](../../com.aspose.gridweb/gridtablestyle\#getCellPadding--)
+Always returns -1.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setCellSpacing(int value)
 ```
 
 
-For the description of this property, please see [getCellSpacing()](../../com.aspose.gridweb/gridtablestyle\#getCellSpacing--)
+Always returns -1.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public void setLayoutFixed(int value)
 ```
 
 
-For the description of this property, please see [getLayoutFixed()](../../com.aspose.gridweb/gridtablestyle\#getLayoutFixed--)
+Specifies whether the layout of the table is fixed(not extended automatically when it contain large objects).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public void setLeftBorderStyle(WebBorderStyle value)
 ```
 
 
-For the description of this property, please see [getLeftBorderStyle()](../../com.aspose.gridweb/gridtablestyle\#getLeftBorderStyle--)
+Specifies the style of left border of the table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +295,7 @@ public void setRightBorderStyle(WebBorderStyle value)
 ```
 
 
-For the description of this property, please see [getRightBorderStyle()](../../com.aspose.gridweb/gridtablestyle\#getRightBorderStyle--)
+Specifies the style of right border of the table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,7 +308,7 @@ public void setTopBorderStyle(WebBorderStyle value)
 ```
 
 
-For the description of this property, please see [getTopBorderStyle()](../../com.aspose.gridweb/gridtablestyle\#getTopBorderStyle--)
+Specifies the style of top border of the table.
 
 **Parameters:**
 | Parameter | Type | Description |

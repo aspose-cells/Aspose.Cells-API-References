@@ -18,27 +18,27 @@ Represents the ScrollBar control.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
+| [getBackOleColor()](#getBackOleColor--) | Gets the ole color of the background. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | the binary data of the control. |
+| [getData()](#getData--) | Gets the binary data of the control. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
-| [getHeight()](#getHeight--) | the height of the control in unit of points. |
-| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [getLargeChange()](#getLargeChange--) | the amount by which the Position property changes |
-| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
-| [getListFillRange()](#getListFillRange--) | the list fill range. |
-| [getMax()](#getMax--) | the maximum acceptable value. |
-| [getMin()](#getMin--) | the minimum acceptable value. |
-| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
-| [getOrientation()](#getOrientation--) | whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
-| [getPosition()](#getPosition--) | the value. |
+| [getForeOleColor()](#getForeOleColor--) | Gets the ole color of the foreground. |
+| [getHeight()](#getHeight--) | Gets the height of the control in unit of points. |
+| [getIMEMode()](#getIMEMode--) | Gets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getLargeChange()](#getLargeChange--) | Gets the amount by which the Position property changes |
+| [getLinkedCell()](#getLinkedCell--) | Gets the linked cell. |
+| [getListFillRange()](#getListFillRange--) | Gets the list fill range. |
+| [getMax()](#getMax--) | Gets the maximum acceptable value. |
+| [getMin()](#getMin--) | Gets the minimum acceptable value. |
+| [getMouseIcon()](#getMouseIcon--) | Gets a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | Gets the type of icon displayed as the mouse pointer for the control. |
+| [getOrientation()](#getOrientation--) | Gets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
+| [getPosition()](#getPosition--) | Gets the value. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
-| [getSmallChange()](#getSmallChange--) | the amount by which the Position property changes |
+| [getSmallChange()](#getSmallChange--) | Gets the amount by which the Position property changes |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getWidth()](#getWidth--) | the width of the control in unit of points. |
+| [getWidth()](#getWidth--) | Gets the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -48,28 +48,28 @@ Represents the ScrollBar control.
 | [isVisible()](#isVisible--) | Indicates whether this control is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--) |
-| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--) |
-| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
-| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--) |
-| [setLargeChange(int value)](#setLargeChange-int-) | For the description of this property, please see [getLargeChange()](../../com.aspose.cells/scrollbaractivexcontrol\#getLargeChange--) |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--) |
-| [setMax(int value)](#setMax-int-) | For the description of this property, please see [getMax()](../../com.aspose.cells/spinbuttonactivexcontrol\#getMax--) |
-| [setMin(int value)](#setMin-int-) | For the description of this property, please see [getMin()](../../com.aspose.cells/spinbuttonactivexcontrol\#getMin--) |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
-| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
-| [setOrientation(int value)](#setOrientation-int-) | For the description of this property, please see [getOrientation()](../../com.aspose.cells/spinbuttonactivexcontrol\#getOrientation--) |
-| [setPosition(int value)](#setPosition-int-) | For the description of this property, please see [getPosition()](../../com.aspose.cells/spinbuttonactivexcontrol\#getPosition--) |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
-| [setSmallChange(int value)](#setSmallChange-int-) | For the description of this property, please see [getSmallChange()](../../com.aspose.cells/spinbuttonactivexcontrol\#getSmallChange--) |
-| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--) |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates whether the control will automatically resize to display its entire contents. |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | Sets the ole color of the background. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | Indicates whether the control can receive the focus and respond to user-generated events. |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | Sets the ole color of the foreground. |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the control in unit of points. |
+| [setIMEMode(int value)](#setIMEMode-int-) | Sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [setLargeChange(int value)](#setLargeChange-int-) | Sets the amount by which the Position property changes |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the linked cell. |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | Sets the list fill range. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether data in the control is locked for editing. |
+| [setMax(int value)](#setMax-int-) | Sets the maximum acceptable value. |
+| [setMin(int value)](#setMin-int-) | Sets the minimum acceptable value. |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | Sets a custom icon to display as the mouse pointer for the control. |
+| [setMousePointer(int value)](#setMousePointer-int-) | Sets the type of icon displayed as the mouse pointer for the control. |
+| [setOrientation(int value)](#setOrientation-int-) | Sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
+| [setPosition(int value)](#setPosition-int-) | Sets the value. |
+| [setShadow(boolean value)](#setShadow-boolean-) | Indicates whether to show a shadow. |
+| [setSmallChange(int value)](#setSmallChange-int-) | Sets the amount by which the Position property changes |
+| [setTextAlign(int value)](#setTextAlign-int-) | Represents how to align the text used by the control. |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | Indicates whether the control is transparent. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this control is visible. |
+| [setWidth(double value)](#setWidth-double-) | Sets the width of the control in unit of points. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -95,7 +95,7 @@ public int getBackOleColor()
 ```
 
 
-the ole color of the background.
+Gets the ole color of the background.
 
 **Returns:**
 int
@@ -115,7 +115,7 @@ public byte[] getData()
 ```
 
 
-the binary data of the control.
+Gets the binary data of the control.
 
 **Returns:**
 byte[]
@@ -135,7 +135,7 @@ public int getForeOleColor()
 ```
 
 
-the ole color of the foreground. Not applies to Image control.
+Gets the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -145,7 +145,7 @@ public double getHeight()
 ```
 
 
-the height of the control in unit of points.
+Gets the height of the control in unit of points.
 
 **Returns:**
 double
@@ -155,7 +155,7 @@ public int getIMEMode()
 ```
 
 
-the default run-time mode of the Input Method Editor for the control as it receives focus.
+Gets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -165,7 +165,7 @@ public int getLargeChange()
 ```
 
 
-the amount by which the Position property changes
+Gets the amount by which the Position property changes
 
 **Returns:**
 int
@@ -175,7 +175,7 @@ public String getLinkedCell()
 ```
 
 
-the linked cell.
+Gets the linked cell.
 
 **Returns:**
 java.lang.String
@@ -185,7 +185,7 @@ public String getListFillRange()
 ```
 
 
-the list fill range.
+Gets the list fill range.
 
 **Returns:**
 java.lang.String
@@ -195,7 +195,7 @@ public int getMax()
 ```
 
 
-the maximum acceptable value.
+Gets the maximum acceptable value.
 
 **Returns:**
 int
@@ -205,7 +205,7 @@ public int getMin()
 ```
 
 
-the minimum acceptable value.
+Gets the minimum acceptable value.
 
 **Returns:**
 int
@@ -215,7 +215,7 @@ public byte[] getMouseIcon()
 ```
 
 
-a custom icon to display as the mouse pointer for the control.
+Gets a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -225,7 +225,7 @@ public int getMousePointer()
 ```
 
 
-the type of icon displayed as the mouse pointer for the control.
+Gets the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -235,7 +235,7 @@ public int getOrientation()
 ```
 
 
-whether the SpinButton or ScrollBar is oriented vertically or horizontally.
+Gets whether the SpinButton or ScrollBar is oriented vertically or horizontally.
 
 **Returns:**
 int
@@ -245,7 +245,7 @@ public int getPosition()
 ```
 
 
-the value.
+Gets the value.
 
 **Returns:**
 int
@@ -265,7 +265,7 @@ public int getSmallChange()
 ```
 
 
-the amount by which the Position property changes
+Gets the amount by which the Position property changes
 
 **Returns:**
 int
@@ -295,7 +295,7 @@ public double getWidth()
 ```
 
 
-the width of the control in unit of points.
+Gets the width of the control in unit of points.
 
 **Returns:**
 double
@@ -391,7 +391,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--)
+Indicates whether the control will automatically resize to display its entire contents.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +404,7 @@ public void setBackOleColor(int value)
 ```
 
 
-For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
+Sets the ole color of the background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -417,7 +417,7 @@ public void setEnabled(boolean value)
 ```
 
 
-For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--)
+Indicates whether the control can receive the focus and respond to user-generated events.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -430,7 +430,7 @@ public void setForeOleColor(int value)
 ```
 
 
-For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
+Sets the ole color of the foreground. Not applies to Image control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -443,7 +443,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
+Sets the height of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -456,7 +456,7 @@ public void setIMEMode(int value)
 ```
 
 
-For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--)
+Sets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +469,7 @@ public void setLargeChange(int value)
 ```
 
 
-For the description of this property, please see [getLargeChange()](../../com.aspose.cells/scrollbaractivexcontrol\#getLargeChange--)
+Sets the amount by which the Position property changes
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,7 +482,7 @@ public void setLinkedCell(String value)
 ```
 
 
-For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
+Sets the linked cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -495,7 +495,7 @@ public void setListFillRange(String value)
 ```
 
 
-For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
+Sets the list fill range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -508,7 +508,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--)
+Indicates whether data in the control is locked for editing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -521,7 +521,7 @@ public void setMax(int value)
 ```
 
 
-For the description of this property, please see [getMax()](../../com.aspose.cells/spinbuttonactivexcontrol\#getMax--)
+Sets the maximum acceptable value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -534,7 +534,7 @@ public void setMin(int value)
 ```
 
 
-For the description of this property, please see [getMin()](../../com.aspose.cells/spinbuttonactivexcontrol\#getMin--)
+Sets the minimum acceptable value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -547,7 +547,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
+Sets a custom icon to display as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -560,7 +560,7 @@ public void setMousePointer(int value)
 ```
 
 
-For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
+Sets the type of icon displayed as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -573,7 +573,7 @@ public void setOrientation(int value)
 ```
 
 
-For the description of this property, please see [getOrientation()](../../com.aspose.cells/spinbuttonactivexcontrol\#getOrientation--)
+Sets whether the SpinButton or ScrollBar is oriented vertically or horizontally.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -586,7 +586,7 @@ public void setPosition(int value)
 ```
 
 
-For the description of this property, please see [getPosition()](../../com.aspose.cells/spinbuttonactivexcontrol\#getPosition--)
+Sets the value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -599,7 +599,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
+Indicates whether to show a shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -612,7 +612,7 @@ public void setSmallChange(int value)
 ```
 
 
-For the description of this property, please see [getSmallChange()](../../com.aspose.cells/spinbuttonactivexcontrol\#getSmallChange--)
+Sets the amount by which the Position property changes
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -625,7 +625,7 @@ public void setTextAlign(int value)
 ```
 
 
-For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--)
+Represents how to align the text used by the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -638,7 +638,7 @@ public void setTransparent(boolean value)
 ```
 
 
-For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--)
+Indicates whether the control is transparent.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -651,7 +651,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
+Indicates whether this control is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -664,7 +664,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
+Sets the width of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |

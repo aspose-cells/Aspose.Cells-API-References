@@ -32,9 +32,9 @@ Represents a defined name for a range of cells.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComment()](#getComment--) | the comment of the name. |
+| [getComment()](#getComment--) | Gets the comment of the name. |
 | [getFullText()](#getFullText--) | Gets the name full text of the object with the scope setting. |
-| [getR1C1RefersTo()](#getR1C1RefersTo--) | a R1C1 reference of the [Name](../../com.aspose.cells/name). |
+| [getR1C1RefersTo()](#getR1C1RefersTo--) | Gets a R1C1 reference of the [Name](../../com.aspose.cells/name). |
 | [getRange()](#getRange--) | Gets the range if this name refers to a range. |
 | [getRange(boolean recalculate)](#getRange-boolean-) | Gets the range if this name refers to a range |
 | [getRange(int sheetIndex, int row, int column)](#getRange-int-int-int-) | Gets the range if this name refers to a range. |
@@ -51,13 +51,13 @@ Represents a defined name for a range of cells.
 | [isVisible()](#isVisible--) | Indicates whether the name is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComment(String value)](#setComment-java.lang.String-) | For the description of this property, please see [getComment()](../../com.aspose.cells/name\#getComment--) |
-| [setR1C1RefersTo(String value)](#setR1C1RefersTo-java.lang.String-) | For the description of this property, please see [getR1C1RefersTo()](../../com.aspose.cells/name\#getR1C1RefersTo--) |
-| [setRefersTo(String value)](#setRefersTo-java.lang.String-) | For the description of this property, please see [getRefersTo()](../../com.aspose.cells/name\#getRefersTo--) |
+| [setComment(String value)](#setComment-java.lang.String-) | Sets the comment of the name. |
+| [setR1C1RefersTo(String value)](#setR1C1RefersTo-java.lang.String-) | Sets a R1C1 reference of the [Name](../../com.aspose.cells/name). |
+| [setRefersTo(String value)](#setRefersTo-java.lang.String-) | Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
 | [setRefersTo(String refersTo, boolean isR1C1, boolean isLocal)](#setRefersTo-java.lang.String-boolean-boolean-) | Set the reference of this Name. |
-| [setSheetIndex(int value)](#setSheetIndex-int-) | For the description of this property, please see [getSheetIndex()](../../com.aspose.cells/name\#getSheetIndex--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/name\#getText--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/name\#isVisible--) |
+| [setSheetIndex(int value)](#setSheetIndex-int-) | Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based) |
+| [setText(String value)](#setText-java.lang.String-) | Gets the name text of the object. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether the name is visible. |
 | [toString()](#toString--) | Returns a string represents the current Range object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -93,7 +93,7 @@ public String getComment()
 ```
 
 
-the comment of the name. Only applies for Excel 2007.
+Gets the comment of the name. Only applies for Excel 2007.
 
 **Returns:**
 java.lang.String
@@ -113,7 +113,7 @@ public String getR1C1RefersTo()
 ```
 
 
-a R1C1 reference of the [Name](../../com.aspose.cells/name).
+Gets a R1C1 reference of the [Name](../../com.aspose.cells/name).
 
 **Returns:**
 java.lang.String
@@ -315,7 +315,7 @@ public void setComment(String value)
 ```
 
 
-For the description of this property, please see [getComment()](../../com.aspose.cells/name\#getComment--)
+Sets the comment of the name. Only applies for Excel 2007.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +328,7 @@ public void setR1C1RefersTo(String value)
 ```
 
 
-For the description of this property, please see [getR1C1RefersTo()](../../com.aspose.cells/name\#getR1C1RefersTo--)
+Sets a R1C1 reference of the [Name](../../com.aspose.cells/name).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +341,7 @@ public void setRefersTo(String value)
 ```
 
 
-For the description of this property, please see [getRefersTo()](../../com.aspose.cells/name\#getRefersTo--)
+Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -369,7 +369,7 @@ public void setSheetIndex(int value)
 ```
 
 
-For the description of this property, please see [getSheetIndex()](../../com.aspose.cells/name\#getSheetIndex--)
+Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,7 +382,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.cells/name\#getText--)
+Gets the name text of the object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -395,7 +395,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/name\#isVisible--)
+Indicates whether the name is visible.
 
 **Parameters:**
 | Parameter | Type | Description |

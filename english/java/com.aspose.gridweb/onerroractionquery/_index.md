@@ -29,11 +29,11 @@ OnErrorActionQuery query = new OnErrorActionQuery();
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getOnErrorAction()](#getOnErrorAction--) | the action type. |
+| [getOnErrorAction()](#getOnErrorAction--) | Gets the action type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setOnErrorAction(int value)](#setOnErrorAction-int-) | For the description of this property, please see [getOnErrorAction()](../../com.aspose.gridweb/onerroractionquery\#getOnErrorAction--) |
+| [setOnErrorAction(int value)](#setOnErrorAction-int-) | Sets the action type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public int getOnErrorAction()
 ```
 
 
-the action type.
+Gets the action type.
 
 **Returns:**
 int
@@ -111,7 +111,7 @@ public void setOnErrorAction(int value)
 ```
 
 
-For the description of this property, please see [getOnErrorAction()](../../com.aspose.gridweb/onerroractionquery\#getOnErrorAction--)
+Sets the action type.
 
 **Parameters:**
 | Parameter | Type | Description |

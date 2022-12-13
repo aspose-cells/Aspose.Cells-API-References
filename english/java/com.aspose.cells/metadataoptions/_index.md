@@ -25,13 +25,13 @@ Represents the options of loading metadata of the file.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getKeyLength()](#getKeyLength--) | The key length. |
-| [getMetadataType()](#getMetadataType--) | the type of the metadata which is loading. |
+| [getMetadataType()](#getMetadataType--) | Gets the type of the metadata which is loading. |
 | [getPassword()](#getPassword--) | Represents Workbook file encryption password. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setKeyLength(int value)](#setKeyLength-int-) | For the description of this property, please see [getKeyLength()](../../com.aspose.cells/metadataoptions\#getKeyLength--) |
-| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see [getPassword()](../../com.aspose.cells/metadataoptions\#getPassword--) |
+| [setKeyLength(int value)](#setKeyLength-int-) | The key length. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Represents Workbook file encryption password. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -90,7 +90,7 @@ public int getMetadataType()
 ```
 
 
-the type of the metadata which is loading.
+Gets the type of the metadata which is loading.
 
 **Returns:**
 int
@@ -136,7 +136,7 @@ public void setKeyLength(int value)
 ```
 
 
-For the description of this property, please see [getKeyLength()](../../com.aspose.cells/metadataoptions\#getKeyLength--)
+The key length.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -149,7 +149,7 @@ public void setPassword(String value)
 ```
 
 
-For the description of this property, please see [getPassword()](../../com.aspose.cells/metadataoptions\#getPassword--)
+Represents Workbook file encryption password.
 
 **Parameters:**
 | Parameter | Type | Description |

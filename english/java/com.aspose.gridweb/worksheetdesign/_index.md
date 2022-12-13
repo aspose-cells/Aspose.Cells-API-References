@@ -40,33 +40,33 @@ Inherited from WebWorksheet. Used in design-time only.
 | [getBindingSource()](#getBindingSource--) | The actually binding datasource object at run-time. |
 | [getClass()](#getClass--) |  |
 | [getCurrentBindRows()](#getCurrentBindRows--) | Gets the binding rows number in data-binding mode. |
-| [getDataMember()](#getDataMember--) | the DataMember from the multi-member DataSource. |
-| [getDataSource()](#getDataSource--) | the DataSource. |
+| [getDataMember()](#getDataMember--) | Gets the DataMember from the multi-member DataSource. |
+| [getDataSource()](#getDataSource--) | Gets the DataSource. |
 | [getEnableCreateBindColumnHeader()](#getEnableCreateBindColumnHeader--) | In data-binding mode, indicates whether to create bind column header captions in the sheet. |
 | [getIndex()](#getIndex--) | Gets the index of itself within the worksheets. |
-| [getName()](#getName--) | the name of the sheet. |
+| [getName()](#getName--) | Gets the name of the sheet. |
 | [getValidations()](#getValidations--) | Gets the data validation setting collection in the worksheet. |
 | [getVisible()](#getVisible--) | Indicates whether this sheet's name is shown in the sheet tabs of the control. |
 | [groupRows(int firstIndex, int lastIndex)](#groupRows-int-int-) | Groups rows. |
 | [groupRows(int firstIndex, int lastIndex, boolean isHidden)](#groupRows-int-int-boolean-) | Groups rows. |
 | [hashCode()](#hashCode--) |  |
-| [isProtected()](#isProtected--) | whether the worksheet is protected. |
+| [isProtected()](#isProtected--) | Gets whether the worksheet is protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeSubtotal()](#removeSubtotal--) |  |
 | [setAllCellsEditable()](#setAllCellsEditable--) |  |
 | [setAllCellsReadonly()](#setAllCellsReadonly--) |  |
-| [setBindStartColumn(int value)](#setBindStartColumn-int-) | For the description of this property, please see [getBindStartColumn()](../../com.aspose.gridweb/webworksheet\#getBindStartColumn--) |
-| [setBindStartRow(int value)](#setBindStartRow-int-) | For the description of this property, please see [getBindStartRow()](../../com.aspose.gridweb/webworksheet\#getBindStartRow--) |
-| [setCurrentBindRows(int value)](#setCurrentBindRows-int-) | For the description of this property, please see [getCurrentBindRows()](../../com.aspose.gridweb/webworksheet\#getCurrentBindRows--) |
-| [setDataMember(String value)](#setDataMember-java.lang.String-) | For the description of this property, please see [getDataMember()](../../com.aspose.gridweb/webworksheet\#getDataMember--) |
-| [setDataSource(Object value)](#setDataSource-java.lang.Object-) | For the description of this property, please see [getDataSource()](../../com.aspose.gridweb/webworksheet\#getDataSource--) |
+| [setBindStartColumn(int value)](#setBindStartColumn-int-) | In data-binding mode, BindStartRow and BindStartColumn indicate the position of the grid to bind bo the datasource. |
+| [setBindStartRow(int value)](#setBindStartRow-int-) | In data-binding mode, BindStartRow and BindStartColumn indicate the position of the grid to bind bo the datasource. |
+| [setCurrentBindRows(int value)](#setCurrentBindRows-int-) | Gets the binding rows number in data-binding mode. |
+| [setDataMember(String value)](#setDataMember-java.lang.String-) | Sets the DataMember from the multi-member DataSource. |
+| [setDataSource(Object value)](#setDataSource-java.lang.Object-) | Sets the DataSource. |
 | [setEditableRange(int startRow, int startColumn, int rows, int columns)](#setEditableRange-int-int-int-int-) | Makes a range of cells editable. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Make all cells read only by calling the SetAllCellsReadonly method. |
-| [setEnableCreateBindColumnHeader(boolean value)](#setEnableCreateBindColumnHeader-boolean-) | For the description of this property, please see [getEnableCreateBindColumnHeader()](../../com.aspose.gridweb/webworksheet\#getEnableCreateBindColumnHeader--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.gridweb/webworksheet\#getName--) |
-| [setProtected(boolean value)](#setProtected-boolean-) | For the description of this property, please see [isProtected()](../../com.aspose.gridweb/webworksheet\#isProtected--) |
+| [setEnableCreateBindColumnHeader(boolean value)](#setEnableCreateBindColumnHeader-boolean-) | In data-binding mode, indicates whether to create bind column header captions in the sheet. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the sheet. |
+| [setProtected(boolean value)](#setProtected-boolean-) | Sets whether the worksheet is protected. |
 | [setReadonlyRange(int startRow, int startColumn, int rows, int columns)](#setReadonlyRange-int-int-int-int-) | Makes a range of cells readonly. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells First make all cells editable by calling the SetAllCellsEditable method. |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [getVisible()](../../com.aspose.gridweb/webworksheet\#getVisible--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this sheet's name is shown in the sheet tabs of the control. |
 | [toString()](#toString--) |  |
 | [unfreezePanes()](#unfreezePanes--) |  |
 | [ungroupRows(int firstIndex, int lastIndex)](#ungroupRows-int-int-) |  |
@@ -304,7 +304,7 @@ public String getDataMember()
 ```
 
 
-the DataMember from the multi-member DataSource. Generally it represents a DataTable object of a DataSet.
+Gets the DataMember from the multi-member DataSource. Generally it represents a DataTable object of a DataSet.
 
 **Returns:**
 java.lang.String
@@ -314,7 +314,7 @@ public Object getDataSource()
 ```
 
 
-the DataSource. Generally it's a DataSet object.
+Gets the DataSource. Generally it's a DataSet object.
 
 **Returns:**
 java.lang.Object
@@ -344,7 +344,7 @@ public String getName()
 ```
 
 
-the name of the sheet.
+Gets the name of the sheet.
 
 **Returns:**
 java.lang.String
@@ -413,7 +413,7 @@ public boolean isProtected()
 ```
 
 
-whether the worksheet is protected. When a worksheet is protected, all the cells can not be edit except the cell whose IsLocked property is false.
+Gets whether the worksheet is protected. When a worksheet is protected, all the cells can not be edit except the cell whose IsLocked property is false.
 
 **Returns:**
 boolean
@@ -463,7 +463,7 @@ public void setBindStartColumn(int value)
 ```
 
 
-For the description of this property, please see [getBindStartColumn()](../../com.aspose.gridweb/webworksheet\#getBindStartColumn--)
+In data-binding mode, BindStartRow and BindStartColumn indicate the position of the grid to bind bo the datasource.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -476,7 +476,7 @@ public void setBindStartRow(int value)
 ```
 
 
-For the description of this property, please see [getBindStartRow()](../../com.aspose.gridweb/webworksheet\#getBindStartRow--)
+In data-binding mode, BindStartRow and BindStartColumn indicate the position of the grid to bind bo the datasource.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -489,7 +489,7 @@ public void setCurrentBindRows(int value)
 ```
 
 
-For the description of this property, please see [getCurrentBindRows()](../../com.aspose.gridweb/webworksheet\#getCurrentBindRows--)
+Gets the binding rows number in data-binding mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -502,7 +502,7 @@ public void setDataMember(String value)
 ```
 
 
-For the description of this property, please see [getDataMember()](../../com.aspose.gridweb/webworksheet\#getDataMember--)
+Sets the DataMember from the multi-member DataSource. Generally it represents a DataTable object of a DataSet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -515,7 +515,7 @@ public void setDataSource(Object value)
 ```
 
 
-For the description of this property, please see [getDataSource()](../../com.aspose.gridweb/webworksheet\#getDataSource--)
+Sets the DataSource. Generally it's a DataSet object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -544,7 +544,7 @@ public void setEnableCreateBindColumnHeader(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableCreateBindColumnHeader()](../../com.aspose.gridweb/webworksheet\#getEnableCreateBindColumnHeader--)
+In data-binding mode, indicates whether to create bind column header captions in the sheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -557,7 +557,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.gridweb/webworksheet\#getName--)
+Sets the name of the sheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -570,7 +570,7 @@ public void setProtected(boolean value)
 ```
 
 
-For the description of this property, please see [isProtected()](../../com.aspose.gridweb/webworksheet\#isProtected--)
+Sets whether the worksheet is protected. When a worksheet is protected, all the cells can not be edit except the cell whose IsLocked property is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -599,7 +599,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [getVisible()](../../com.aspose.gridweb/webworksheet\#getVisible--)
+Indicates whether this sheet's name is shown in the sheet tabs of the control.
 
 **Parameters:**
 | Parameter | Type | Description |

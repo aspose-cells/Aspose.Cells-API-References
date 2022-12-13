@@ -18,10 +18,10 @@ Represents line and arrowhead formatting.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackColor()](#getBackColor--) | the border line back color. |
+| [getBackColor()](#getBackColor--) | Gets the border line back color. |
 | [getClass()](#getClass--) |  |
-| [getDashStyle()](#getDashStyle--) | the dash style for the specified line. |
-| [getForeColor()](#getForeColor--) | the border line fore color. |
+| [getDashStyle()](#getDashStyle--) | Gets the dash style for the specified line. |
+| [getForeColor()](#getForeColor--) | Gets the border line fore color. |
 | [getStyle()](#getStyle--) | Returns a Style object that represents the style of the specified range. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getWeight()](#getWeight--) | Returns or sets the weight of the line ,in units of pt. |
@@ -29,13 +29,13 @@ Represents line and arrowhead formatting.
 | [isVisible()](#isVisible--) | Indicates whether the object is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackColor()](../../com.aspose.cells/msolineformat\#getBackColor--) |
-| [setDashStyle(int value)](#setDashStyle-int-) | For the description of this property, please see [getDashStyle()](../../com.aspose.cells/msolineformat\#getDashStyle--) |
-| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | For the description of this property, please see [getForeColor()](../../com.aspose.cells/msolineformat\#getForeColor--) |
-| [setStyle(int value)](#setStyle-int-) | For the description of this property, please see [getStyle()](../../com.aspose.cells/msolineformat\#getStyle--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/msolineformat\#getTransparency--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/msolineformat\#isVisible--) |
-| [setWeight(double value)](#setWeight-double-) | For the description of this property, please see [getWeight()](../../com.aspose.cells/msolineformat\#getWeight--) |
+| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | Sets the border line back color. |
+| [setDashStyle(int value)](#setDashStyle-int-) | Sets the dash style for the specified line. |
+| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | Sets the border line fore color. |
+| [setStyle(int value)](#setStyle-int-) | Returns a Style object that represents the style of the specified range. |
+| [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether the object is visible. |
+| [setWeight(double value)](#setWeight-double-) | Returns or sets the weight of the line ,in units of pt. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public Color getBackColor()
 ```
 
 
-the border line back color.
+Gets the border line back color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -81,7 +81,7 @@ public int getDashStyle()
 ```
 
 
-the dash style for the specified line.
+Gets the dash style for the specified line.
 
 **Returns:**
 int
@@ -91,7 +91,7 @@ public Color getForeColor()
 ```
 
 
-the border line fore color.
+Gets the border line fore color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -167,7 +167,7 @@ public void setBackColor(Color value)
 ```
 
 
-For the description of this property, please see [getBackColor()](../../com.aspose.cells/msolineformat\#getBackColor--)
+Sets the border line back color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setDashStyle(int value)
 ```
 
 
-For the description of this property, please see [getDashStyle()](../../com.aspose.cells/msolineformat\#getDashStyle--)
+Sets the dash style for the specified line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setForeColor(Color value)
 ```
 
 
-For the description of this property, please see [getForeColor()](../../com.aspose.cells/msolineformat\#getForeColor--)
+Sets the border line fore color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setStyle(int value)
 ```
 
 
-For the description of this property, please see [getStyle()](../../com.aspose.cells/msolineformat\#getStyle--)
+Returns a Style object that represents the style of the specified range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/msolineformat\#getTransparency--)
+Returns or sets the degree of transparency of the specified fill as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/msolineformat\#isVisible--)
+Indicates whether the object is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setWeight(double value)
 ```
 
 
-For the description of this property, please see [getWeight()](../../com.aspose.cells/msolineformat\#getWeight--)
+Returns or sets the weight of the line ,in units of pt.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -24,24 +24,24 @@ Represents the datetime's group setting.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDateTimeGroupingType()](#getDateTimeGroupingType--) | the group type. |
-| [getDay()](#getDay--) | the day of the grouped date time. |
-| [getHour()](#getHour--) | the hour of the grouped date time. |
+| [getDateTimeGroupingType()](#getDateTimeGroupingType--) | Gets the group type. |
+| [getDay()](#getDay--) | Gets the day of the grouped date time. |
+| [getHour()](#getHour--) | Gets the hour of the grouped date time. |
 | [getMinValue()](#getMinValue--) | Gets the min value. |
-| [getMinute()](#getMinute--) | the minute of the grouped date time. |
-| [getMonth()](#getMonth--) | the month of the grouped date time. |
-| [getSecond()](#getSecond--) | the second of the grouped date time. |
-| [getYear()](#getYear--) | the year of the grouped date time. |
+| [getMinute()](#getMinute--) | Gets the minute of the grouped date time. |
+| [getMonth()](#getMonth--) | Gets the month of the grouped date time. |
+| [getSecond()](#getSecond--) | Gets the second of the grouped date time. |
+| [getYear()](#getYear--) | Gets the year of the grouped date time. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDateTimeGroupingType(int value)](#setDateTimeGroupingType-int-) | For the description of this property, please see [getDateTimeGroupingType()](../../com.aspose.cells/datetimegroupitem\#getDateTimeGroupingType--) |
-| [setDay(int value)](#setDay-int-) | For the description of this property, please see [getDay()](../../com.aspose.cells/datetimegroupitem\#getDay--) |
-| [setHour(int value)](#setHour-int-) | For the description of this property, please see [getHour()](../../com.aspose.cells/datetimegroupitem\#getHour--) |
-| [setMinute(int value)](#setMinute-int-) | For the description of this property, please see [getMinute()](../../com.aspose.cells/datetimegroupitem\#getMinute--) |
-| [setMonth(int value)](#setMonth-int-) | For the description of this property, please see [getMonth()](../../com.aspose.cells/datetimegroupitem\#getMonth--) |
-| [setSecond(int value)](#setSecond-int-) | For the description of this property, please see [getSecond()](../../com.aspose.cells/datetimegroupitem\#getSecond--) |
-| [setYear(int value)](#setYear-int-) | For the description of this property, please see [getYear()](../../com.aspose.cells/datetimegroupitem\#getYear--) |
+| [setDateTimeGroupingType(int value)](#setDateTimeGroupingType-int-) | Sets the group type. |
+| [setDay(int value)](#setDay-int-) | Sets the day of the grouped date time. |
+| [setHour(int value)](#setHour-int-) | Sets the hour of the grouped date time. |
+| [setMinute(int value)](#setMinute-int-) | Sets the minute of the grouped date time. |
+| [setMonth(int value)](#setMonth-int-) | Sets the month of the grouped date time. |
+| [setSecond(int value)](#setSecond-int-) | Sets the second of the grouped date time. |
+| [setYear(int value)](#setYear-int-) | Sets the year of the grouped date time. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -96,7 +96,7 @@ public int getDateTimeGroupingType()
 ```
 
 
-the group type.
+Gets the group type.
 
 **Returns:**
 int
@@ -106,7 +106,7 @@ public int getDay()
 ```
 
 
-the day of the grouped date time.
+Gets the day of the grouped date time.
 
 **Returns:**
 int
@@ -116,7 +116,7 @@ public int getHour()
 ```
 
 
-the hour of the grouped date time.
+Gets the hour of the grouped date time.
 
 **Returns:**
 int
@@ -136,7 +136,7 @@ public int getMinute()
 ```
 
 
-the minute of the grouped date time.
+Gets the minute of the grouped date time.
 
 **Returns:**
 int
@@ -146,7 +146,7 @@ public int getMonth()
 ```
 
 
-the month of the grouped date time.
+Gets the month of the grouped date time.
 
 **Returns:**
 int
@@ -156,7 +156,7 @@ public int getSecond()
 ```
 
 
-the second of the grouped date time.
+Gets the second of the grouped date time.
 
 **Returns:**
 int
@@ -166,7 +166,7 @@ public int getYear()
 ```
 
 
-the year of the grouped date time.
+Gets the year of the grouped date time.
 
 **Returns:**
 int
@@ -202,7 +202,7 @@ public void setDateTimeGroupingType(int value)
 ```
 
 
-For the description of this property, please see [getDateTimeGroupingType()](../../com.aspose.cells/datetimegroupitem\#getDateTimeGroupingType--)
+Sets the group type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -215,7 +215,7 @@ public void setDay(int value)
 ```
 
 
-For the description of this property, please see [getDay()](../../com.aspose.cells/datetimegroupitem\#getDay--)
+Sets the day of the grouped date time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -228,7 +228,7 @@ public void setHour(int value)
 ```
 
 
-For the description of this property, please see [getHour()](../../com.aspose.cells/datetimegroupitem\#getHour--)
+Sets the hour of the grouped date time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,7 +241,7 @@ public void setMinute(int value)
 ```
 
 
-For the description of this property, please see [getMinute()](../../com.aspose.cells/datetimegroupitem\#getMinute--)
+Sets the minute of the grouped date time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +254,7 @@ public void setMonth(int value)
 ```
 
 
-For the description of this property, please see [getMonth()](../../com.aspose.cells/datetimegroupitem\#getMonth--)
+Sets the month of the grouped date time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +267,7 @@ public void setSecond(int value)
 ```
 
 
-For the description of this property, please see [getSecond()](../../com.aspose.cells/datetimegroupitem\#getSecond--)
+Sets the second of the grouped date time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -280,7 +280,7 @@ public void setYear(int value)
 ```
 
 
-For the description of this property, please see [getYear()](../../com.aspose.cells/datetimegroupitem\#getYear--)
+Sets the year of the grouped date time.
 
 **Parameters:**
 | Parameter | Type | Description |

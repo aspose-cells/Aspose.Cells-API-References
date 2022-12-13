@@ -19,15 +19,15 @@ Represents the person who creates the threaded comments;
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | the name. |
+| [getName()](#getName--) | Gets the name. |
 | [getProviderId()](#getProviderId--) | Gets the id of the provider. |
-| [getUserId()](#getUserId--) | the id of the user. |
+| [getUserId()](#getUserId--) | Gets the id of the user. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/threadedcommentauthor\#getName--) |
-| [setProviderId(String value)](#setProviderId-java.lang.String-) | For the description of this property, please see [getProviderId()](../../com.aspose.cells/threadedcommentauthor\#getProviderId--) |
-| [setUserId(String value)](#setUserId-java.lang.String-) | For the description of this property, please see [getUserId()](../../com.aspose.cells/threadedcommentauthor\#getUserId--) |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name. |
+| [setProviderId(String value)](#setProviderId-java.lang.String-) | Gets the id of the provider. |
+| [setUserId(String value)](#setUserId-java.lang.String-) | Sets the id of the user. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -63,7 +63,7 @@ public String getName()
 ```
 
 
-the name.
+Gets the name.
 
 **Returns:**
 java.lang.String
@@ -83,7 +83,7 @@ public String getUserId()
 ```
 
 
-the id of the user.
+Gets the id of the user.
 
 **Returns:**
 java.lang.String
@@ -119,7 +119,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/threadedcommentauthor\#getName--)
+Sets the name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setProviderId(String value)
 ```
 
 
-For the description of this property, please see [getProviderId()](../../com.aspose.cells/threadedcommentauthor\#getProviderId--)
+Gets the id of the provider.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setUserId(String value)
 ```
 
 
-For the description of this property, please see [getUserId()](../../com.aspose.cells/threadedcommentauthor\#getUserId--)
+Sets the id of the user.
 
 **Parameters:**
 | Parameter | Type | Description |

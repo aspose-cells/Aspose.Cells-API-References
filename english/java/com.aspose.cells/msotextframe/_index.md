@@ -29,13 +29,13 @@ Represents the text frame in a Shape object.
 | [isAutoMargin()](#isAutoMargin--) | Indicates whether the margin is auto calculated. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | For the description of this property, please see [isAutoMargin()](../../com.aspose.cells/msotextframe\#isAutoMargin--) |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [getAutoSize()](../../com.aspose.cells/msotextframe\#getAutoSize--) |
-| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | For the description of this property, please see [getBottomMarginPt()](../../com.aspose.cells/msotextframe\#getBottomMarginPt--) |
-| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | For the description of this property, please see [getLeftMarginPt()](../../com.aspose.cells/msotextframe\#getLeftMarginPt--) |
-| [setRightMarginPt(double value)](#setRightMarginPt-double-) | For the description of this property, please see [getRightMarginPt()](../../com.aspose.cells/msotextframe\#getRightMarginPt--) |
-| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | For the description of this property, please see [getRotateTextWithShape()](../../com.aspose.cells/msotextframe\#getRotateTextWithShape--) |
-| [setTopMarginPt(double value)](#setTopMarginPt-double-) | For the description of this property, please see [getTopMarginPt()](../../com.aspose.cells/msotextframe\#getTopMarginPt--) |
+| [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | Indicates whether the margin is auto calculated. |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates if size of shape is adjusted automatically according to its content. |
+| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | Returns the bottom margin in unit of Points |
+| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | Returns the left margin in unit of Points |
+| [setRightMarginPt(double value)](#setRightMarginPt-double-) | Returns the right margin in unit of Points |
+| [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | Indicates whether rotating text with shape. |
+| [setTopMarginPt(double value)](#setTopMarginPt-double-) | Returns the top margin in unit of Points |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -167,7 +167,7 @@ public void setAutoMargin(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoMargin()](../../com.aspose.cells/msotextframe\#isAutoMargin--)
+Indicates whether the margin is auto calculated.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoSize()](../../com.aspose.cells/msotextframe\#getAutoSize--)
+Indicates if size of shape is adjusted automatically according to its content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setBottomMarginPt(double value)
 ```
 
 
-For the description of this property, please see [getBottomMarginPt()](../../com.aspose.cells/msotextframe\#getBottomMarginPt--)
+Returns the bottom margin in unit of Points
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setLeftMarginPt(double value)
 ```
 
 
-For the description of this property, please see [getLeftMarginPt()](../../com.aspose.cells/msotextframe\#getLeftMarginPt--)
+Returns the left margin in unit of Points
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setRightMarginPt(double value)
 ```
 
 
-For the description of this property, please see [getRightMarginPt()](../../com.aspose.cells/msotextframe\#getRightMarginPt--)
+Returns the right margin in unit of Points
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setRotateTextWithShape(boolean value)
 ```
 
 
-For the description of this property, please see [getRotateTextWithShape()](../../com.aspose.cells/msotextframe\#getRotateTextWithShape--)
+Indicates whether rotating text with shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setTopMarginPt(double value)
 ```
 
 
-For the description of this property, please see [getTopMarginPt()](../../com.aspose.cells/msotextframe\#getTopMarginPt--)
+Returns the top margin in unit of Points
 
 **Parameters:**
 | Parameter | Type | Description |

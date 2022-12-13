@@ -21,8 +21,8 @@ Encapsulates the object that represents the frame object which contains text.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
+| [getBackground()](#getBackground--) | Gets the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
@@ -30,56 +30,56 @@ Encapsulates the object that represents the frame object which contains text.
 | [getDefaultWidth()](#getDefaultWidth--) | Represents width of default position |
 | [getDefaultX()](#getDefaultX--) | Represents x of default position |
 | [getDefaultY()](#getDefaultY--) | Represents y of default position |
-| [getDirectionType()](#getDirectionType--) | the direction of text. |
+| [getDirectionType()](#getDirectionType--) | Gets the direction of text. |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getHeight()](#getHeight--) | the height of frame in units of 1/4000 of the chart area. |
-| [getLinkedSource()](#getLinkedSource--) | a reference to the worksheet. |
+| [getHeight()](#getHeight--) | Gets the height of frame in units of 1/4000 of the chart area. |
+| [getLinkedSource()](#getLinkedSource--) | Gets a reference to the worksheet. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
-| [getText()](#getText--) | the text of a frame's title. |
+| [getText()](#getText--) | Gets the text of a frame's title. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | the text horizontal alignment. |
-| [getTextOptions()](#getTextOptions--) | the options of the text. |
-| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | the text vertical alignment of text. |
-| [getWidth()](#getWidth--) | the width of frame in units of 1/4000 of the chart area. |
-| [getX()](#getX--) | the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getY()](#getY--) | the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment. |
+| [getTextOptions()](#getTextOptions--) | Gets the options of the text. |
+| [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets the text vertical alignment of text. |
+| [getWidth()](#getWidth--) | Gets the width of frame in units of 1/4000 of the chart area. |
+| [getX()](#getX--) | Gets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getY()](#getY--) | Gets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoText()](#isAutoText--) | Indicates the text is auto generated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [isDeleted()](#isDeleted--) | Indicates whether this data labels is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
-| [isResizeShapeToFitText()](#isResizeShapeToFitText--) | whether a shape should be auto-fit to fully contain the text described within it. |
-| [isTextWrapped()](#isTextWrapped--) | a value indicating whether the text is wrapped. |
+| [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets whether a shape should be auto-fit to fully contain the text described within it. |
+| [isTextWrapped()](#isTextWrapped--) | Gets a value indicating whether the text is wrapped. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--) |
-| [setAutoText(boolean value)](#setAutoText-boolean-) | For the description of this property, please see [isAutoText()](../../com.aspose.cells/charttextframe\#isAutoText--) |
-| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | For the description of this property, please see [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--) |
-| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see [getBackground()](../../com.aspose.cells/chartframe\#getBackground--) |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--) |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see [isDeleted()](../../com.aspose.cells/charttextframe\#isDeleted--) |
-| [setDirectionType(int value)](#setDirectionType-int-) | For the description of this property, please see [getDirectionType()](../../com.aspose.cells/charttextframe\#getDirectionType--) |
-| [setHeight(int value)](#setHeight-int-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/chartframe\#getHeight--) |
-| [setInnerMode(boolean value)](#setInnerMode-boolean-) | For the description of this property, please see [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--) |
-| [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) | For the description of this property, please see [getLinkedSource()](../../com.aspose.cells/charttextframe\#getLinkedSource--) |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
+| [setAutoText(boolean value)](#setAutoText-boolean-) | Indicates the text is auto generated. |
+| [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background NOTE: This member is now obsolete. |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data labels is deleted. |
+| [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
+| [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
+| [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) | Sets a reference to the worksheet. |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
-| [setReadingOrder(int value)](#setReadingOrder-int-) | For the description of this property, please see [getReadingOrder()](../../com.aspose.cells/charttextframe\#getReadingOrder--) |
-| [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) | For the description of this property, please see [isResizeShapeToFitText()](../../com.aspose.cells/charttextframe\#isResizeShapeToFitText--) |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/charttextframe\#getRotationAngle--) |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/chartframe\#getShadow--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/charttextframe\#getText--) |
-| [setTextDirection(int value)](#setTextDirection-int-) | For the description of this property, please see [getTextDirection()](../../com.aspose.cells/charttextframe\#getTextDirection--) |
-| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | For the description of this property, please see [getTextHorizontalAlignment()](../../com.aspose.cells/charttextframe\#getTextHorizontalAlignment--) |
-| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | For the description of this property, please see [getTextVerticalAlignment()](../../com.aspose.cells/charttextframe\#getTextVerticalAlignment--) |
-| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | For the description of this property, please see [isTextWrapped()](../../com.aspose.cells/charttextframe\#isTextWrapped--) |
-| [setWidth(int value)](#setWidth-int-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/chartframe\#getWidth--) |
-| [setX(int value)](#setX-int-) | For the description of this property, please see [getX()](../../com.aspose.cells/chartframe\#getX--) |
-| [setY(int value)](#setY-int-) | For the description of this property, please see [getY()](../../com.aspose.cells/chartframe\#getY--) |
+| [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
+| [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) | Sets whether a shape should be auto-fit to fully contain the text described within it. |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle. |
+| [setShadow(boolean value)](#setShadow-boolean-) | True if the frame has a shadow. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text of a frame's title. |
+| [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
+| [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Sets the text horizontal alignment. |
+| [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | Sets the text vertical alignment of text. |
+| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Sets a value indicating whether the text is wrapped. |
+| [setWidth(int value)](#setWidth-int-) | Sets the width of frame in units of 1/4000 of the chart area. |
+| [setX(int value)](#setX-int-) | Sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [setY(int value)](#setY-int-) | Sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -141,7 +141,7 @@ public int getBackground()
 ```
 
 
-the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -151,7 +151,7 @@ public int getBackgroundMode()
 ```
 
 
-the display mode of the background
+Gets the display mode of the background
 
 **Returns:**
 int
@@ -231,7 +231,7 @@ public int getDirectionType()
 ```
 
 
-the direction of text.
+Gets the direction of text.
 
 **Returns:**
 int
@@ -251,7 +251,7 @@ public int getHeight()
 ```
 
 
-the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
+Gets the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -261,7 +261,7 @@ public String getLinkedSource()
 ```
 
 
-a reference to the worksheet.
+Gets a reference to the worksheet.
 
 **Returns:**
 java.lang.String
@@ -319,7 +319,7 @@ public String getText()
 ```
 
 
-the text of a frame's title.
+Gets the text of a frame's title.
 
 **Returns:**
 java.lang.String
@@ -349,7 +349,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-the text horizontal alignment.
+Gets the text horizontal alignment.
 
 **Returns:**
 int
@@ -359,7 +359,7 @@ public TextOptions getTextOptions()
 ```
 
 
-the options of the text.
+Gets the options of the text.
 
 **Returns:**
 [TextOptions](../../com.aspose.cells/textoptions)
@@ -369,7 +369,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-the text vertical alignment of text.
+Gets the text vertical alignment of text.
 
 **Returns:**
 int
@@ -379,7 +379,7 @@ public int getWidth()
 ```
 
 
-the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
+Gets the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -389,7 +389,7 @@ public int getX()
 ```
 
 
-the x coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? X In Pixels = X \* Chart.ChartObject.Width / 4000;
+Gets the x coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? X In Pixels = X \* Chart.ChartObject.Width / 4000;
 
 **Returns:**
 int
@@ -399,7 +399,7 @@ public int getY()
 ```
 
 
-the y coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Y In Pixels = Y \* Chart.ChartObject.Height / 4000;
+Gets the y coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Y In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -469,7 +469,7 @@ public boolean isResizeShapeToFitText()
 ```
 
 
-whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+Gets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
 
 **Returns:**
 boolean
@@ -479,7 +479,7 @@ public boolean isTextWrapped()
 ```
 
 
-a value indicating whether the text is wrapped.
+Gets a value indicating whether the text is wrapped.
 
 **Returns:**
 boolean
@@ -505,7 +505,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartframe\#getAutoScaleFont--)
+True if the text in the object changes font size when the object size changes. The default value is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -518,7 +518,7 @@ public void setAutoText(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoText()](../../com.aspose.cells/charttextframe\#isAutoText--)
+Indicates the text is auto generated.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -531,7 +531,7 @@ public void setAutomaticSize(boolean value)
 ```
 
 
-For the description of this property, please see [isAutomaticSize()](../../com.aspose.cells/chartframe\#isAutomaticSize--)
+Indicates whether the chart frame is automatic sized.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -544,7 +544,7 @@ public void setBackground(int value)
 ```
 
 
-For the description of this property, please see [getBackground()](../../com.aspose.cells/chartframe\#getBackground--)
+Sets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -557,7 +557,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartframe\#getBackgroundMode--)
+Sets the display mode of the background
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -570,7 +570,7 @@ public void setDeleted(boolean value)
 ```
 
 
-For the description of this property, please see [isDeleted()](../../com.aspose.cells/charttextframe\#isDeleted--)
+Indicates whether this data labels is deleted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -583,7 +583,7 @@ public void setDirectionType(int value)
 ```
 
 
-For the description of this property, please see [getDirectionType()](../../com.aspose.cells/charttextframe\#getDirectionType--)
+Sets the direction of text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -596,7 +596,7 @@ public void setHeight(int value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/chartframe\#getHeight--)
+Sets the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -609,7 +609,7 @@ public void setInnerMode(boolean value)
 ```
 
 
-For the description of this property, please see [isInnerMode()](../../com.aspose.cells/chartframe\#isInnerMode--)
+Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. Only for Xlsx file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,7 +622,7 @@ public void setLinkedSource(String value)
 ```
 
 
-For the description of this property, please see [getLinkedSource()](../../com.aspose.cells/charttextframe\#getLinkedSource--)
+Sets a reference to the worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -643,7 +643,7 @@ public void setReadingOrder(int value)
 ```
 
 
-For the description of this property, please see [getReadingOrder()](../../com.aspose.cells/charttextframe\#getReadingOrder--)
+Represents text reading order.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -656,7 +656,7 @@ public void setResizeShapeToFitText(boolean value)
 ```
 
 
-For the description of this property, please see [isResizeShapeToFitText()](../../com.aspose.cells/charttextframe\#isResizeShapeToFitText--)
+Sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -669,7 +669,15 @@ public void setRotationAngle(int value)
 ```
 
 
-For the description of this property, please see [getRotationAngle()](../../com.aspose.cells/charttextframe\#getRotationAngle--)
+Represents text rotation angle.
+0: Not rotated.
+
+255: Top to Bottom.
+
+\-90: Downward.
+
+90: Upward.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -682,7 +690,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see [getShadow()](../../com.aspose.cells/chartframe\#getShadow--)
+True if the frame has a shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -695,7 +703,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.cells/charttextframe\#getText--)
+Sets the text of a frame's title.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -708,7 +716,7 @@ public void setTextDirection(int value)
 ```
 
 
-For the description of this property, please see [getTextDirection()](../../com.aspose.cells/charttextframe\#getTextDirection--)
+Represents text reading order. NOTE: This member is now obsolete. Instead, please use ChartTextFrame.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -721,7 +729,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-For the description of this property, please see [getTextHorizontalAlignment()](../../com.aspose.cells/charttextframe\#getTextHorizontalAlignment--)
+Sets the text horizontal alignment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -734,7 +742,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-For the description of this property, please see [getTextVerticalAlignment()](../../com.aspose.cells/charttextframe\#getTextVerticalAlignment--)
+Sets the text vertical alignment of text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -747,7 +755,7 @@ public void setTextWrapped(boolean value)
 ```
 
 
-For the description of this property, please see [isTextWrapped()](../../com.aspose.cells/charttextframe\#isTextWrapped--)
+Sets a value indicating whether the text is wrapped.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -760,7 +768,7 @@ public void setWidth(int value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/chartframe\#getWidth--)
+Sets the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -773,7 +781,7 @@ public void setX(int value)
 ```
 
 
-For the description of this property, please see [getX()](../../com.aspose.cells/chartframe\#getX--)
+Sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? X In Pixels = X \* Chart.ChartObject.Width / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -786,7 +794,7 @@ public void setY(int value)
 ```
 
 
-For the description of this property, please see [getY()](../../com.aspose.cells/chartframe\#getY--)
+Sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Y In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -33,7 +33,7 @@ Represents data validation.settings.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAreaList()](#getAreaList--) | Represents a collection of [GridCellArea](../../com.aspose.gridweb/gridcellarea) which contains the data validation settings. |
 | [getClass()](#getClass--) |  |
-| [getClientValidationFunction()](#getClientValidationFunction--) | the client validation javascript function name. |
+| [getClientValidationFunction()](#getClientValidationFunction--) | Gets the client validation javascript function name. |
 | [getErrorMessage()](#getErrorMessage--) | Represents the data validation error message. |
 | [getErrorTitle()](#getErrorTitle--) | Represents the title of the data-validation error dialog box. |
 | [getFormula1()](#getFormula1--) | Represents the value or expression associated with the data validation. |
@@ -42,32 +42,32 @@ Represents data validation.settings.
 | [getInputTitle()](#getInputTitle--) | Represents the title of the data-validation input dialog box. |
 | [getListValue(int row, int column)](#getListValue-int-int-) | Get the value for list of the validation for the specified cell. |
 | [getOperator()](#getOperator--) | Represents the operator for the data validation. |
-| [getRegEx()](#getRegEx--) | the regular expression string. |
+| [getRegEx()](#getRegEx--) | Gets the regular expression string. |
 | [getShowError()](#getShowError--) | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
 | [getShowInput()](#getShowInput--) |  |
-| [getValidationType()](#getValidationType--) | the validation type. |
+| [getValidationType()](#getValidationType--) | Gets the validation type. |
 | [getValue1()](#getValue1--) | Represents the value associated with the data validation. |
-| [getValueList()](#getValueList--) | Gets/Sets the value list object. |
+| [getValueList()](#getValueList--) | Gets the value list object. |
 | [hashCode()](#hashCode--) |  |
 | [isRequired()](#isRequired--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeACell(int row, int column)](#removeACell-int-int-) | Remove the validation settings in the cell. |
 | [removeArea(GridCellArea cellArea)](#removeArea-com.aspose.gridweb.GridCellArea-) | Remove the validation settings in the range. |
-| [setClientValidationFunction(String value)](#setClientValidationFunction-java.lang.String-) | For the description of this property, please see [getClientValidationFunction()](../../com.aspose.gridweb/gridvalidation\#getClientValidationFunction--) |
-| [setErrorMessage(String value)](#setErrorMessage-java.lang.String-) | For the description of this property, please see [getErrorMessage()](../../com.aspose.gridweb/gridvalidation\#getErrorMessage--) |
-| [setErrorTitle(String value)](#setErrorTitle-java.lang.String-) | For the description of this property, please see [getErrorTitle()](../../com.aspose.gridweb/gridvalidation\#getErrorTitle--) |
-| [setFormula1(String value)](#setFormula1-java.lang.String-) | For the description of this property, please see [getFormula1()](../../com.aspose.gridweb/gridvalidation\#getFormula1--) |
-| [setFormula2(String value)](#setFormula2-java.lang.String-) | For the description of this property, please see [getFormula2()](../../com.aspose.gridweb/gridvalidation\#getFormula2--) |
-| [setInputMessage(String value)](#setInputMessage-java.lang.String-) | For the description of this property, please see [getInputMessage()](../../com.aspose.gridweb/gridvalidation\#getInputMessage--) |
-| [setInputTitle(String value)](#setInputTitle-java.lang.String-) | For the description of this property, please see [getInputTitle()](../../com.aspose.gridweb/gridvalidation\#getInputTitle--) |
-| [setOperator(int value)](#setOperator-int-) | For the description of this property, please see [getOperator()](../../com.aspose.gridweb/gridvalidation\#getOperator--) |
-| [setRegEx(String value)](#setRegEx-java.lang.String-) | For the description of this property, please see [getRegEx()](../../com.aspose.gridweb/gridvalidation\#getRegEx--) |
-| [setRequired(boolean value)](#setRequired-boolean-) | For the description of this property, please see [isRequired()](../../com.aspose.gridweb/gridvalidation\#isRequired--) |
-| [setShowError(boolean value)](#setShowError-boolean-) | For the description of this property, please see [getShowError()](../../com.aspose.gridweb/gridvalidation\#getShowError--) |
-| [setShowInput(boolean value)](#setShowInput-boolean-) | For the description of this property, please see [getShowInput()](../../com.aspose.gridweb/gridvalidation\#getShowInput--) |
-| [setValidationType(int value)](#setValidationType-int-) | For the description of this property, please see [getValidationType()](../../com.aspose.gridweb/gridvalidation\#getValidationType--) |
-| [setValueList(ArrayList<String> value)](#setValueList-java.util.ArrayList-java.lang.String--) | For the description of this property, please see [getValueList()](../../com.aspose.gridweb/gridvalidation\#getValueList--) |
+| [setClientValidationFunction(String value)](#setClientValidationFunction-java.lang.String-) | Sets the client validation javascript function name. |
+| [setErrorMessage(String value)](#setErrorMessage-java.lang.String-) | Represents the data validation error message. |
+| [setErrorTitle(String value)](#setErrorTitle-java.lang.String-) | Represents the title of the data-validation error dialog box. |
+| [setFormula1(String value)](#setFormula1-java.lang.String-) | Represents the value or expression associated with the data validation. |
+| [setFormula2(String value)](#setFormula2-java.lang.String-) | Represents the value or expression associated with the second part of the data validation. |
+| [setInputMessage(String value)](#setInputMessage-java.lang.String-) | Represents the data validation error message. |
+| [setInputTitle(String value)](#setInputTitle-java.lang.String-) | Represents the title of the data-validation input dialog box. |
+| [setOperator(int value)](#setOperator-int-) | Represents the operator for the data validation. |
+| [setRegEx(String value)](#setRegEx-java.lang.String-) | Sets the regular expression string. |
+| [setRequired(boolean value)](#setRequired-boolean-) |  |
+| [setShowError(boolean value)](#setShowError-boolean-) | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
+| [setShowInput(boolean value)](#setShowInput-boolean-) |  |
+| [setValidationType(int value)](#setValidationType-int-) | Sets the validation type. |
+| [setValueList(ArrayList<String> value)](#setValueList-java.util.ArrayList-java.lang.String--) | Sets the value list object. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -167,7 +167,7 @@ public String getClientValidationFunction()
 ```
 
 
-the client validation javascript function name. Use the ClientValidationFunction property to specify the client validation function's name. The function should be declared as this formation:
+Gets the client validation javascript function name. Use the ClientValidationFunction property to specify the client validation function's name. The function should be declared as this formation:
 function customValicationFunction(source, value)
 The parameter "source" is the cell object. The parameter "value" is the string value of a cell to be checked. The function should returns true if the value is valid.
 
@@ -265,7 +265,7 @@ public String getRegEx()
 ```
 
 
-the regular expression string.
+Gets the regular expression string.
 
 **Returns:**
 java.lang.String
@@ -295,7 +295,7 @@ public int getValidationType()
 ```
 
 
-the validation type.
+Gets the validation type.
 
 **Returns:**
 int
@@ -315,7 +315,7 @@ public ArrayList<String> getValueList()
 ```
 
 
-Gets/Sets the value list object.
+Gets the value list object.
 
 **Returns:**
 java.util.ArrayList<java.lang.String>
@@ -388,7 +388,9 @@ public void setClientValidationFunction(String value)
 ```
 
 
-For the description of this property, please see [getClientValidationFunction()](../../com.aspose.gridweb/gridvalidation\#getClientValidationFunction--)
+Sets the client validation javascript function name. Use the ClientValidationFunction property to specify the client validation function's name. The function should be declared as this formation:
+function customValicationFunction(source, value)
+The parameter "source" is the cell object. The parameter "value" is the string value of a cell to be checked. The function should returns true if the value is valid.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -401,7 +403,7 @@ public void setErrorMessage(String value)
 ```
 
 
-For the description of this property, please see [getErrorMessage()](../../com.aspose.gridweb/gridvalidation\#getErrorMessage--)
+Represents the data validation error message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -414,7 +416,7 @@ public void setErrorTitle(String value)
 ```
 
 
-For the description of this property, please see [getErrorTitle()](../../com.aspose.gridweb/gridvalidation\#getErrorTitle--)
+Represents the title of the data-validation error dialog box.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -427,7 +429,7 @@ public void setFormula1(String value)
 ```
 
 
-For the description of this property, please see [getFormula1()](../../com.aspose.gridweb/gridvalidation\#getFormula1--)
+Represents the value or expression associated with the data validation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -440,7 +442,7 @@ public void setFormula2(String value)
 ```
 
 
-For the description of this property, please see [getFormula2()](../../com.aspose.gridweb/gridvalidation\#getFormula2--)
+Represents the value or expression associated with the second part of the data validation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -453,7 +455,7 @@ public void setInputMessage(String value)
 ```
 
 
-For the description of this property, please see [getInputMessage()](../../com.aspose.gridweb/gridvalidation\#getInputMessage--)
+Represents the data validation error message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -466,7 +468,7 @@ public void setInputTitle(String value)
 ```
 
 
-For the description of this property, please see [getInputTitle()](../../com.aspose.gridweb/gridvalidation\#getInputTitle--)
+Represents the title of the data-validation input dialog box.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -479,7 +481,7 @@ public void setOperator(int value)
 ```
 
 
-For the description of this property, please see [getOperator()](../../com.aspose.gridweb/gridvalidation\#getOperator--)
+Represents the operator for the data validation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -492,7 +494,7 @@ public void setRegEx(String value)
 ```
 
 
-For the description of this property, please see [getRegEx()](../../com.aspose.gridweb/gridvalidation\#getRegEx--)
+Sets the regular expression string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -505,7 +507,7 @@ public void setRequired(boolean value)
 ```
 
 
-For the description of this property, please see [isRequired()](../../com.aspose.gridweb/gridvalidation\#isRequired--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -518,7 +520,7 @@ public void setShowError(boolean value)
 ```
 
 
-For the description of this property, please see [getShowError()](../../com.aspose.gridweb/gridvalidation\#getShowError--)
+Indicates whether the data validation error message will be displayed whenever the user enters invalid data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -531,7 +533,7 @@ public void setShowInput(boolean value)
 ```
 
 
-For the description of this property, please see [getShowInput()](../../com.aspose.gridweb/gridvalidation\#getShowInput--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -544,7 +546,7 @@ public void setValidationType(int value)
 ```
 
 
-For the description of this property, please see [getValidationType()](../../com.aspose.gridweb/gridvalidation\#getValidationType--)
+Sets the validation type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -557,7 +559,7 @@ public void setValueList(ArrayList<String> value)
 ```
 
 
-For the description of this property, please see [getValueList()](../../com.aspose.gridweb/gridvalidation\#getValueList--)
+Sets the value list object.
 
 **Parameters:**
 | Parameter | Type | Description |

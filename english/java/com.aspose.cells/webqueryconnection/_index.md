@@ -43,7 +43,7 @@ Specifies the properties for a web query source. A web query will retrieve data 
 | [getSaveData()](#getSaveData--) | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
 | [getSavePassword()](#getSavePassword--) | True if the password is to be saved as part of the connection string; otherwise, False. |
 | [getSourceFile()](#getSourceFile--) | Used when the external data source is file-based. |
-| [getType()](#getType--) | the external connection DataSource type. |
+| [getType()](#getType--) | Gets the external connection DataSource type. |
 | [getUrl()](#getUrl--) | URL to use to refresh external data. |
 | [hashCode()](#hashCode--) |  |
 | [isConsecutive()](#isConsecutive--) | Flag indicating whether consecutive delimiters should be treated as just one delimiter. |
@@ -59,39 +59,39 @@ Specifies the properties for a web query source. A web query will retrieve data 
 | [isXmlSourceData()](#isXmlSourceData--) | Flag indicating that XML source data should be imported instead of the HTML table itself. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackgroundRefresh(boolean value)](#setBackgroundRefresh-boolean-) | For the description of this property, please see [getBackgroundRefresh()](../../com.aspose.cells/externalconnection\#getBackgroundRefresh--) |
-| [setConnectionDescription(String value)](#setConnectionDescription-java.lang.String-) | For the description of this property, please see [getConnectionDescription()](../../com.aspose.cells/externalconnection\#getConnectionDescription--) |
-| [setConsecutive(boolean value)](#setConsecutive-boolean-) | For the description of this property, please see [isConsecutive()](../../com.aspose.cells/webqueryconnection\#isConsecutive--) |
-| [setCredentials(int value)](#setCredentials-int-) | For the description of this property, please see [getCredentials()](../../com.aspose.cells/externalconnection\#getCredentials--) |
-| [setCredentialsMethodType(int value)](#setCredentialsMethodType-int-) | For the description of this property, please see [getCredentialsMethodType()](../../com.aspose.cells/externalconnection\#getCredentialsMethodType--) |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see [isDeleted()](../../com.aspose.cells/externalconnection\#isDeleted--) |
-| [setEditPage(String value)](#setEditPage-java.lang.String-) | For the description of this property, please see [getEditPage()](../../com.aspose.cells/webqueryconnection\#getEditPage--) |
-| [setEditWebPage(String value)](#setEditWebPage-java.lang.String-) | For the description of this property, please see [getEditWebPage()](../../com.aspose.cells/webqueryconnection\#getEditWebPage--) |
-| [setHtmlFormat(int value)](#setHtmlFormat-int-) | For the description of this property, please see [getHtmlFormat()](../../com.aspose.cells/webqueryconnection\#getHtmlFormat--) |
-| [setHtmlTables(boolean value)](#setHtmlTables-boolean-) | For the description of this property, please see [isHtmlTables()](../../com.aspose.cells/webqueryconnection\#isHtmlTables--) |
-| [setKeepAlive(boolean value)](#setKeepAlive-boolean-) | For the description of this property, please see [getKeepAlive()](../../com.aspose.cells/externalconnection\#getKeepAlive--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/externalconnection\#getName--) |
-| [setNew(boolean value)](#setNew-boolean-) | For the description of this property, please see [isNew()](../../com.aspose.cells/externalconnection\#isNew--) |
-| [setOdcFile(String value)](#setOdcFile-java.lang.String-) | For the description of this property, please see [getOdcFile()](../../com.aspose.cells/externalconnection\#getOdcFile--) |
-| [setOnlyUseConnectionFile(boolean value)](#setOnlyUseConnectionFile-boolean-) | For the description of this property, please see [getOnlyUseConnectionFile()](../../com.aspose.cells/externalconnection\#getOnlyUseConnectionFile--) |
-| [setParsePre(boolean value)](#setParsePre-boolean-) | For the description of this property, please see [isParsePre()](../../com.aspose.cells/webqueryconnection\#isParsePre--) |
-| [setPost(String value)](#setPost-java.lang.String-) | For the description of this property, please see [getPost()](../../com.aspose.cells/webqueryconnection\#getPost--) |
-| [setReconnectionMethod(int value)](#setReconnectionMethod-int-) | For the description of this property, please see [getReconnectionMethod()](../../com.aspose.cells/externalconnection\#getReconnectionMethod--) |
-| [setReconnectionMethodType(int value)](#setReconnectionMethodType-int-) | For the description of this property, please see [getReconnectionMethodType()](../../com.aspose.cells/externalconnection\#getReconnectionMethodType--) |
-| [setRefreshInternal(int value)](#setRefreshInternal-int-) | For the description of this property, please see [getRefreshInternal()](../../com.aspose.cells/externalconnection\#getRefreshInternal--) |
-| [setRefreshOnLoad(boolean value)](#setRefreshOnLoad-boolean-) | For the description of this property, please see [getRefreshOnLoad()](../../com.aspose.cells/externalconnection\#getRefreshOnLoad--) |
-| [setSSOId(String value)](#setSSOId-java.lang.String-) | For the description of this property, please see [getSSOId()](../../com.aspose.cells/externalconnection\#getSSOId--) |
-| [setSameSettings(boolean value)](#setSameSettings-boolean-) | For the description of this property, please see [isSameSettings()](../../com.aspose.cells/webqueryconnection\#isSameSettings--) |
-| [setSaveData(boolean value)](#setSaveData-boolean-) | For the description of this property, please see [getSaveData()](../../com.aspose.cells/externalconnection\#getSaveData--) |
-| [setSavePassword(boolean value)](#setSavePassword-boolean-) | For the description of this property, please see [getSavePassword()](../../com.aspose.cells/externalconnection\#getSavePassword--) |
-| [setSourceFile(String value)](#setSourceFile-java.lang.String-) | For the description of this property, please see [getSourceFile()](../../com.aspose.cells/externalconnection\#getSourceFile--) |
-| [setTextDates(boolean value)](#setTextDates-boolean-) | For the description of this property, please see [isTextDates()](../../com.aspose.cells/webqueryconnection\#isTextDates--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/externalconnection\#getType--) |
-| [setUrl(String value)](#setUrl-java.lang.String-) | For the description of this property, please see [getUrl()](../../com.aspose.cells/webqueryconnection\#getUrl--) |
-| [setXl2000(boolean value)](#setXl2000-boolean-) | For the description of this property, please see [isXl2000()](../../com.aspose.cells/webqueryconnection\#isXl2000--) |
-| [setXl97(boolean value)](#setXl97-boolean-) | For the description of this property, please see [isXl97()](../../com.aspose.cells/webqueryconnection\#isXl97--) |
-| [setXml(boolean value)](#setXml-boolean-) | For the description of this property, please see [isXml()](../../com.aspose.cells/webqueryconnection\#isXml--) |
-| [setXmlSourceData(boolean value)](#setXmlSourceData-boolean-) | For the description of this property, please see [isXmlSourceData()](../../com.aspose.cells/webqueryconnection\#isXmlSourceData--) |
+| [setBackgroundRefresh(boolean value)](#setBackgroundRefresh-boolean-) | Indicates whether the connection can be refreshed in the background (asynchronously). |
+| [setConnectionDescription(String value)](#setConnectionDescription-java.lang.String-) | Specifies the user description for this connection |
+| [setConsecutive(boolean value)](#setConsecutive-boolean-) | Flag indicating whether consecutive delimiters should be treated as just one delimiter. |
+| [setCredentials(int value)](#setCredentials-int-) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
+| [setCredentialsMethodType(int value)](#setCredentialsMethodType-int-) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether the associated workbook connection has been deleted. |
+| [setEditPage(String value)](#setEditPage-java.lang.String-) | The URL of the user-facing web page showing the web query data. |
+| [setEditWebPage(String value)](#setEditWebPage-java.lang.String-) | The URL of the user-facing web page showing the web query data. |
+| [setHtmlFormat(int value)](#setHtmlFormat-int-) | How to handle formatting from the HTML source when bringing web query data into the worksheet. |
+| [setHtmlTables(boolean value)](#setHtmlTables-boolean-) | Flag indicating whether web queries should only work on HTML tables. |
+| [setKeepAlive(boolean value)](#setKeepAlive-boolean-) | True when the spreadsheet application should make efforts to keep the connection open. |
+| [setName(String value)](#setName-java.lang.String-) | Specifies the name of the connection. |
+| [setNew(boolean value)](#setNew-boolean-) | True if the connection has not been refreshed for the first time; otherwise, false. |
+| [setOdcFile(String value)](#setOdcFile-java.lang.String-) | Specifies the full path to external connection file from which this connection was created. |
+| [setOnlyUseConnectionFile(boolean value)](#setOnlyUseConnectionFile-boolean-) | Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed. |
+| [setParsePre(boolean value)](#setParsePre-boolean-) | Flag indicating whether data contained within HTML PRE tags in the web page is parsed into columns when you import the page into a query table. |
+| [setPost(String value)](#setPost-java.lang.String-) | Returns or sets the string used with the post method of inputting data into a web server to return data from a web query. |
+| [setReconnectionMethod(int value)](#setReconnectionMethod-int-) | Specifies what the spreadsheet application should do when a connection fails. |
+| [setReconnectionMethodType(int value)](#setReconnectionMethodType-int-) | Specifies what the spreadsheet application should do when a connection fails. |
+| [setRefreshInternal(int value)](#setRefreshInternal-int-) | Specifies the number of minutes between automatic refreshes of the connection. |
+| [setRefreshOnLoad(boolean value)](#setRefreshOnLoad-boolean-) | True if this connection should be refreshed when opening the file; otherwise, false. |
+| [setSSOId(String value)](#setSSOId-java.lang.String-) | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
+| [setSameSettings(boolean value)](#setSameSettings-boolean-) | Flag indicating whether to parse all tables inside a PRE block with the same width settings as the first row. |
+| [setSaveData(boolean value)](#setSaveData-boolean-) | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
+| [setSavePassword(boolean value)](#setSavePassword-boolean-) | True if the password is to be saved as part of the connection string; otherwise, False. |
+| [setSourceFile(String value)](#setSourceFile-java.lang.String-) | Used when the external data source is file-based. |
+| [setTextDates(boolean value)](#setTextDates-boolean-) | Flag indicating whether dates should be imported into cells in the worksheet as text rather than dates. |
+| [setType(int value)](#setType-int-) | Sets the external connection DataSource type. |
+| [setUrl(String value)](#setUrl-java.lang.String-) | URL to use to refresh external data. |
+| [setXl2000(boolean value)](#setXl2000-boolean-) | This flag exists for backward compatibility with older existing spreadsheet files, and is set to true if this web query was refreshed in a spreadsheet application newer than or equal to Microsoft Excel 2000. |
+| [setXl97(boolean value)](#setXl97-boolean-) | This flag exists for backward compatibility with older existing spreadsheet files, and is set to true if this web query was created in Microsoft Excel 97. |
+| [setXml(boolean value)](#setXml-boolean-) | true if the web query source is XML (versus HTML), otherwise false. |
+| [setXmlSourceData(boolean value)](#setXmlSourceData-boolean-) | Flag indicating that XML source data should be imported instead of the HTML table itself. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -367,7 +367,7 @@ public int getType()
 ```
 
 
-the external connection DataSource type.
+Gets the external connection DataSource type.
 
 **Returns:**
 int
@@ -523,7 +523,7 @@ public void setBackgroundRefresh(boolean value)
 ```
 
 
-For the description of this property, please see [getBackgroundRefresh()](../../com.aspose.cells/externalconnection\#getBackgroundRefresh--)
+Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -536,7 +536,7 @@ public void setConnectionDescription(String value)
 ```
 
 
-For the description of this property, please see [getConnectionDescription()](../../com.aspose.cells/externalconnection\#getConnectionDescription--)
+Specifies the user description for this connection
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -549,7 +549,7 @@ public void setConsecutive(boolean value)
 ```
 
 
-For the description of this property, please see [isConsecutive()](../../com.aspose.cells/webqueryconnection\#isConsecutive--)
+Flag indicating whether consecutive delimiters should be treated as just one delimiter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -562,7 +562,7 @@ public void setCredentials(int value)
 ```
 
 
-For the description of this property, please see [getCredentials()](../../com.aspose.cells/externalconnection\#getCredentials--)
+Specifies the authentication method to be used when establishing (or re-establishing) the connection. NOTE: This property is now obsolete. Instead, please use ExternalConnection.CredentialsMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -575,7 +575,7 @@ public void setCredentialsMethodType(int value)
 ```
 
 
-For the description of this property, please see [getCredentialsMethodType()](../../com.aspose.cells/externalconnection\#getCredentialsMethodType--)
+Specifies the authentication method to be used when establishing (or re-establishing) the connection.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -588,7 +588,7 @@ public void setDeleted(boolean value)
 ```
 
 
-For the description of this property, please see [isDeleted()](../../com.aspose.cells/externalconnection\#isDeleted--)
+Indicates whether the associated workbook connection has been deleted. true if the connection has been deleted; otherwise, false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -601,7 +601,7 @@ public void setEditPage(String value)
 ```
 
 
-For the description of this property, please see [getEditPage()](../../com.aspose.cells/webqueryconnection\#getEditPage--)
+The URL of the user-facing web page showing the web query data. This URL is persisted in the case that sourceData="true" and url has been redirected to reference an XML file. Then the user-facing page can be shown in the UI, and the XML data can be retrieved behind the scenes. NOTE: This property is now obsolete. Instead, please use WebQueryConnection.EditWebPage property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -614,7 +614,7 @@ public void setEditWebPage(String value)
 ```
 
 
-For the description of this property, please see [getEditWebPage()](../../com.aspose.cells/webqueryconnection\#getEditWebPage--)
+The URL of the user-facing web page showing the web query data. This URL is persisted in the case that sourceData="true" and url has been redirected to reference an XML file. Then the user-facing page can be shown in the UI, and the XML data can be retrieved behind the scenes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -627,7 +627,7 @@ public void setHtmlFormat(int value)
 ```
 
 
-For the description of this property, please see [getHtmlFormat()](../../com.aspose.cells/webqueryconnection\#getHtmlFormat--)
+How to handle formatting from the HTML source when bringing web query data into the worksheet. Relevant when sourceData is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -640,7 +640,7 @@ public void setHtmlTables(boolean value)
 ```
 
 
-For the description of this property, please see [isHtmlTables()](../../com.aspose.cells/webqueryconnection\#isHtmlTables--)
+Flag indicating whether web queries should only work on HTML tables.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -653,7 +653,7 @@ public void setKeepAlive(boolean value)
 ```
 
 
-For the description of this property, please see [getKeepAlive()](../../com.aspose.cells/externalconnection\#getKeepAlive--)
+True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -666,7 +666,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/externalconnection\#getName--)
+Specifies the name of the connection. Each connection must have a unique name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -679,7 +679,7 @@ public void setNew(boolean value)
 ```
 
 
-For the description of this property, please see [isNew()](../../com.aspose.cells/externalconnection\#isNew--)
+True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -692,7 +692,7 @@ public void setOdcFile(String value)
 ```
 
 
-For the description of this property, please see [getOdcFile()](../../com.aspose.cells/externalconnection\#getOdcFile--)
+Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -705,7 +705,7 @@ public void setOnlyUseConnectionFile(boolean value)
 ```
 
 
-For the description of this property, please see [getOnlyUseConnectionFile()](../../com.aspose.cells/externalconnection\#getOnlyUseConnectionFile--)
+Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed. If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -718,7 +718,7 @@ public void setParsePre(boolean value)
 ```
 
 
-For the description of this property, please see [isParsePre()](../../com.aspose.cells/webqueryconnection\#isParsePre--)
+Flag indicating whether data contained within HTML PRE tags in the web page is parsed into columns when you import the page into a query table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -731,7 +731,7 @@ public void setPost(String value)
 ```
 
 
-For the description of this property, please see [getPost()](../../com.aspose.cells/webqueryconnection\#getPost--)
+Returns or sets the string used with the post method of inputting data into a web server to return data from a web query.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -744,7 +744,7 @@ public void setReconnectionMethod(int value)
 ```
 
 
-For the description of this property, please see [getReconnectionMethod()](../../com.aspose.cells/externalconnection\#getReconnectionMethod--)
+Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. NOTE: This property is now obsolete. Instead, please use ExternalConnection.ReconnectionMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -757,7 +757,7 @@ public void setReconnectionMethodType(int value)
 ```
 
 
-For the description of this property, please see [getReconnectionMethodType()](../../com.aspose.cells/externalconnection\#getReconnectionMethodType--)
+Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -770,7 +770,7 @@ public void setRefreshInternal(int value)
 ```
 
 
-For the description of this property, please see [getRefreshInternal()](../../com.aspose.cells/externalconnection\#getRefreshInternal--)
+Specifies the number of minutes between automatic refreshes of the connection.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -783,7 +783,7 @@ public void setRefreshOnLoad(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshOnLoad()](../../com.aspose.cells/externalconnection\#getRefreshOnLoad--)
+True if this connection should be refreshed when opening the file; otherwise, false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -796,7 +796,7 @@ public void setSSOId(String value)
 ```
 
 
-For the description of this property, please see [getSSOId()](../../com.aspose.cells/externalconnection\#getSSOId--)
+Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -809,7 +809,7 @@ public void setSameSettings(boolean value)
 ```
 
 
-For the description of this property, please see [isSameSettings()](../../com.aspose.cells/webqueryconnection\#isSameSettings--)
+Flag indicating whether to parse all tables inside a PRE block with the same width settings as the first row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -822,7 +822,7 @@ public void setSaveData(boolean value)
 ```
 
 
-For the description of this property, please see [getSaveData()](../../com.aspose.cells/externalconnection\#getSaveData--)
+True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -835,7 +835,7 @@ public void setSavePassword(boolean value)
 ```
 
 
-For the description of this property, please see [getSavePassword()](../../com.aspose.cells/externalconnection\#getSavePassword--)
+True if the password is to be saved as part of the connection string; otherwise, False.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -848,7 +848,7 @@ public void setSourceFile(String value)
 ```
 
 
-For the description of this property, please see [getSourceFile()](../../com.aspose.cells/externalconnection\#getSourceFile--)
+Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -861,7 +861,7 @@ public void setTextDates(boolean value)
 ```
 
 
-For the description of this property, please see [isTextDates()](../../com.aspose.cells/webqueryconnection\#isTextDates--)
+Flag indicating whether dates should be imported into cells in the worksheet as text rather than dates.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -874,7 +874,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/externalconnection\#getType--)
+Sets the external connection DataSource type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -887,7 +887,7 @@ public void setUrl(String value)
 ```
 
 
-For the description of this property, please see [getUrl()](../../com.aspose.cells/webqueryconnection\#getUrl--)
+URL to use to refresh external data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -900,7 +900,7 @@ public void setXl2000(boolean value)
 ```
 
 
-For the description of this property, please see [isXl2000()](../../com.aspose.cells/webqueryconnection\#isXl2000--)
+This flag exists for backward compatibility with older existing spreadsheet files, and is set to true if this web query was refreshed in a spreadsheet application newer than or equal to Microsoft Excel 2000. This is an optional attribute that can be ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -913,7 +913,7 @@ public void setXl97(boolean value)
 ```
 
 
-For the description of this property, please see [isXl97()](../../com.aspose.cells/webqueryconnection\#isXl97--)
+This flag exists for backward compatibility with older existing spreadsheet files, and is set to true if this web query was created in Microsoft Excel 97. This is an optional attribute that can be ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -926,7 +926,7 @@ public void setXml(boolean value)
 ```
 
 
-For the description of this property, please see [isXml()](../../com.aspose.cells/webqueryconnection\#isXml--)
+true if the web query source is XML (versus HTML), otherwise false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -939,7 +939,7 @@ public void setXmlSourceData(boolean value)
 ```
 
 
-For the description of this property, please see [isXmlSourceData()](../../com.aspose.cells/webqueryconnection\#isXmlSourceData--)
+Flag indicating that XML source data should be imported instead of the HTML table itself.
 
 **Parameters:**
 | Parameter | Type | Description |

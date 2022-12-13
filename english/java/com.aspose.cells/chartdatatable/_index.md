@@ -68,8 +68,8 @@ Represents a chart data table.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
+| [getBackground()](#getBackground--) | Gets the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getBorder()](#getBorder--) | Returns a Border object that represents the border of the object |
 | [getClass()](#getClass--) |  |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object which represents the font setting of the specified chart data table. |
@@ -80,13 +80,13 @@ Represents a chart data table.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartdatatable\#getAutoScaleFont--) |
-| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see [getBackground()](../../com.aspose.cells/chartdatatable\#getBackground--) |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartdatatable\#getBackgroundMode--) |
-| [setHasBorderHorizontal(boolean value)](#setHasBorderHorizontal-boolean-) | For the description of this property, please see [hasBorderHorizontal()](../../com.aspose.cells/chartdatatable\#hasBorderHorizontal--) |
-| [setHasBorderOutline(boolean value)](#setHasBorderOutline-boolean-) | For the description of this property, please see [hasBorderOutline()](../../com.aspose.cells/chartdatatable\#hasBorderOutline--) |
-| [setHasBorderVertical(boolean value)](#setHasBorderVertical-boolean-) | For the description of this property, please see [hasBorderVertical()](../../com.aspose.cells/chartdatatable\#hasBorderVertical--) |
-| [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | For the description of this property, please see [getShowLegendKey()](../../com.aspose.cells/chartdatatable\#getShowLegendKey--) |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background NOTE: This member is now obsolete. |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
+| [setHasBorderHorizontal(boolean value)](#setHasBorderHorizontal-boolean-) | True if the chart data table has horizontal cell borders |
+| [setHasBorderOutline(boolean value)](#setHasBorderOutline-boolean-) | True if the chart data table has outline borders |
+| [setHasBorderVertical(boolean value)](#setHasBorderVertical-boolean-) | True if the chart data table has vertical cell borders |
+| [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | True if the data label legend key is visible. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -122,7 +122,7 @@ public int getBackground()
 ```
 
 
-the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartDataTable.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartDataTable.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -132,7 +132,7 @@ public int getBackgroundMode()
 ```
 
 
-the display mode of the background
+Gets the display mode of the background
 
 **Returns:**
 int
@@ -238,7 +238,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/chartdatatable\#getAutoScaleFont--)
+True if the text in the object changes font size when the object size changes. The default value is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -251,7 +251,7 @@ public void setBackground(int value)
 ```
 
 
-For the description of this property, please see [getBackground()](../../com.aspose.cells/chartdatatable\#getBackground--)
+Sets the display mode of the background NOTE: This member is now obsolete. Instead, please use ChartDataTable.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -264,7 +264,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/chartdatatable\#getBackgroundMode--)
+Sets the display mode of the background
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -277,7 +277,7 @@ public void setHasBorderHorizontal(boolean value)
 ```
 
 
-For the description of this property, please see [hasBorderHorizontal()](../../com.aspose.cells/chartdatatable\#hasBorderHorizontal--)
+True if the chart data table has horizontal cell borders
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -290,7 +290,7 @@ public void setHasBorderOutline(boolean value)
 ```
 
 
-For the description of this property, please see [hasBorderOutline()](../../com.aspose.cells/chartdatatable\#hasBorderOutline--)
+True if the chart data table has outline borders
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -303,7 +303,7 @@ public void setHasBorderVertical(boolean value)
 ```
 
 
-For the description of this property, please see [hasBorderVertical()](../../com.aspose.cells/chartdatatable\#hasBorderVertical--)
+True if the chart data table has vertical cell borders
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -316,7 +316,7 @@ public void setShowLegendKey(boolean value)
 ```
 
 
-For the description of this property, please see [getShowLegendKey()](../../com.aspose.cells/chartdatatable\#getShowLegendKey--)
+True if the data label legend key is visible.
 
 **Parameters:**
 | Parameter | Type | Description |

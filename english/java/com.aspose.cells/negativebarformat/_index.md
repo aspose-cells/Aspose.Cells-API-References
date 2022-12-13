@@ -18,18 +18,18 @@ Represents the color settings of the data bars for negative values that are defi
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBorderColor()](#getBorderColor--) | a FormatColor object that you can use to specify the border color for negative data bars. |
+| [getBorderColor()](#getBorderColor--) | Gets a FormatColor object that you can use to specify the border color for negative data bars. |
 | [getBorderColorType()](#getBorderColorType--) | Gets whether to use the same border color as positive data bars. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | a FormatColor object that you can use to specify the fill color for negative data bars. |
-| [getColorType()](#getColorType--) | whether to use the same fill color as positive data bars. |
+| [getColor()](#getColor--) | Gets a FormatColor object that you can use to specify the fill color for negative data bars. |
+| [getColorType()](#getColorType--) | Gets whether to use the same fill color as positive data bars. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBorderColor(Color value)](#setBorderColor-com.aspose.cells.Color-) | For the description of this property, please see [getBorderColor()](../../com.aspose.cells/negativebarformat\#getBorderColor--) |
-| [setBorderColorType(int value)](#setBorderColorType-int-) | For the description of this property, please see [getBorderColorType()](../../com.aspose.cells/negativebarformat\#getBorderColorType--) |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/negativebarformat\#getColor--) |
-| [setColorType(int value)](#setColorType-int-) | For the description of this property, please see [getColorType()](../../com.aspose.cells/negativebarformat\#getColorType--) |
+| [setBorderColor(Color value)](#setBorderColor-com.aspose.cells.Color-) | Sets a FormatColor object that you can use to specify the border color for negative data bars. |
+| [setBorderColorType(int value)](#setBorderColorType-int-) | Gets whether to use the same border color as positive data bars. |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets a FormatColor object that you can use to specify the fill color for negative data bars. |
+| [setColorType(int value)](#setColorType-int-) | Sets whether to use the same fill color as positive data bars. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -55,7 +55,7 @@ public Color getBorderColor()
 ```
 
 
-a FormatColor object that you can use to specify the border color for negative data bars.
+Gets a FormatColor object that you can use to specify the border color for negative data bars.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -85,7 +85,7 @@ public Color getColor()
 ```
 
 
-a FormatColor object that you can use to specify the fill color for negative data bars.
+Gets a FormatColor object that you can use to specify the fill color for negative data bars.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -95,7 +95,7 @@ public int getColorType()
 ```
 
 
-whether to use the same fill color as positive data bars.
+Gets whether to use the same fill color as positive data bars.
 
 **Returns:**
 int
@@ -131,7 +131,7 @@ public void setBorderColor(Color value)
 ```
 
 
-For the description of this property, please see [getBorderColor()](../../com.aspose.cells/negativebarformat\#getBorderColor--)
+Sets a FormatColor object that you can use to specify the border color for negative data bars.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,7 +144,7 @@ public void setBorderColorType(int value)
 ```
 
 
-For the description of this property, please see [getBorderColorType()](../../com.aspose.cells/negativebarformat\#getBorderColorType--)
+Gets whether to use the same border color as positive data bars.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/negativebarformat\#getColor--)
+Sets a FormatColor object that you can use to specify the fill color for negative data bars.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setColorType(int value)
 ```
 
 
-For the description of this property, please see [getColorType()](../../com.aspose.cells/negativebarformat\#getColorType--)
+Sets whether to use the same fill color as positive data bars.
 
 **Parameters:**
 | Parameter | Type | Description |

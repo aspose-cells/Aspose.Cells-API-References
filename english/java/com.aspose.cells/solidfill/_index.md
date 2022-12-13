@@ -18,16 +18,16 @@ Encapsulates the object that represents solid fill format
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getCellsColor()](#getCellsColor--) | the [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [getCellsColor()](#getCellsColor--) | Gets the [CellsColor](../../com.aspose.cells/cellscolor) object. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | the [Color](../../com.aspose.cells/color). |
+| [getColor()](#getColor--) | Gets the [Color](../../com.aspose.cells/color). |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellsColor(CellsColor value)](#setCellsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getCellsColor()](../../com.aspose.cells/solidfill\#getCellsColor--) |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/solidfill\#getColor--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/solidfill\#getTransparency--) |
+| [setCellsColor(CellsColor value)](#setCellsColor-com.aspose.cells.CellsColor-) | Sets the [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color). |
+| [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,7 +53,7 @@ public CellsColor getCellsColor()
 ```
 
 
-the [CellsColor](../../com.aspose.cells/cellscolor) object.
+Gets the [CellsColor](../../com.aspose.cells/cellscolor) object.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -73,7 +73,7 @@ public Color getColor()
 ```
 
 
-the [Color](../../com.aspose.cells/color).
+Gets the [Color](../../com.aspose.cells/color).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -119,7 +119,7 @@ public void setCellsColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getCellsColor()](../../com.aspose.cells/solidfill\#getCellsColor--)
+Sets the [CellsColor](../../com.aspose.cells/cellscolor) object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/solidfill\#getColor--)
+Sets the [Color](../../com.aspose.cells/color).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/solidfill\#getTransparency--)
+Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |

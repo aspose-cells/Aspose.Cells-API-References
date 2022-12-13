@@ -25,7 +25,7 @@ Represents Xml map information.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/xmlmap\#getName--) |
+| [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the object. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -117,7 +117,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/xmlmap\#getName--)
+Returns or sets the name of the object.
 
 **Parameters:**
 | Parameter | Type | Description |

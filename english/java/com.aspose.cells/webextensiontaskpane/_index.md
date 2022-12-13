@@ -19,21 +19,21 @@ Represents a persisted taskpane object.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDockState()](#getDockState--) | the last-docked location of this taskpane object. |
-| [getRow()](#getRow--) | the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
-| [getWebExtension()](#getWebExtension--) | the web extension part associated with the taskpane instance |
-| [getWidth()](#getWidth--) | the default width value for this taskpane instance. |
+| [getDockState()](#getDockState--) | Gets the last-docked location of this taskpane object. |
+| [getRow()](#getRow--) | Gets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
+| [getWebExtension()](#getWebExtension--) | Gets the web extension part associated with the taskpane instance |
+| [getWidth()](#getWidth--) | Gets the default width value for this taskpane instance. |
 | [hashCode()](#hashCode--) |  |
 | [isLocked()](#isLocked--) | Indicates whether the taskpane is locked to the document in the UI and cannot be closed by the user. |
 | [isVisible()](#isVisible--) | Indicates whether the Task Pane shows as visible by default when the document opens. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDockState(String value)](#setDockState-java.lang.String-) | For the description of this property, please see [getDockState()](../../com.aspose.cells/webextensiontaskpane\#getDockState--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/webextensiontaskpane\#isLocked--) |
-| [setRow(int value)](#setRow-int-) | For the description of this property, please see [getRow()](../../com.aspose.cells/webextensiontaskpane\#getRow--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/webextensiontaskpane\#isVisible--) |
-| [setWebExtension(WebExtension value)](#setWebExtension-com.aspose.cells.WebExtension-) | For the description of this property, please see [getWebExtension()](../../com.aspose.cells/webextensiontaskpane\#getWebExtension--) |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/webextensiontaskpane\#getWidth--) |
+| [setDockState(String value)](#setDockState-java.lang.String-) | Sets the last-docked location of this taskpane object. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether the taskpane is locked to the document in the UI and cannot be closed by the user. |
+| [setRow(int value)](#setRow-int-) | Sets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether the Task Pane shows as visible by default when the document opens. |
+| [setWebExtension(WebExtension value)](#setWebExtension-com.aspose.cells.WebExtension-) | Sets the web extension part associated with the taskpane instance |
+| [setWidth(double value)](#setWidth-double-) | Sets the default width value for this taskpane instance. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -69,7 +69,7 @@ public String getDockState()
 ```
 
 
-the last-docked location of this taskpane object.
+Gets the last-docked location of this taskpane object.
 
 **Returns:**
 java.lang.String
@@ -79,7 +79,7 @@ public int getRow()
 ```
 
 
-the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location.
+Gets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location.
 
 **Returns:**
 int
@@ -89,7 +89,7 @@ public WebExtension getWebExtension()
 ```
 
 
-the web extension part associated with the taskpane instance
+Gets the web extension part associated with the taskpane instance
 
 **Returns:**
 [WebExtension](../../com.aspose.cells/webextension)
@@ -99,7 +99,7 @@ public double getWidth()
 ```
 
 
-the default width value for this taskpane instance.
+Gets the default width value for this taskpane instance.
 
 **Returns:**
 double
@@ -155,7 +155,7 @@ public void setDockState(String value)
 ```
 
 
-For the description of this property, please see [getDockState()](../../com.aspose.cells/webextensiontaskpane\#getDockState--)
+Sets the last-docked location of this taskpane object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -168,7 +168,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.cells/webextensiontaskpane\#isLocked--)
+Indicates whether the taskpane is locked to the document in the UI and cannot be closed by the user.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setRow(int value)
 ```
 
 
-For the description of this property, please see [getRow()](../../com.aspose.cells/webextensiontaskpane\#getRow--)
+Sets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/webextensiontaskpane\#isVisible--)
+Indicates whether the Task Pane shows as visible by default when the document opens.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public void setWebExtension(WebExtension value)
 ```
 
 
-For the description of this property, please see [getWebExtension()](../../com.aspose.cells/webextensiontaskpane\#getWebExtension--)
+Sets the web extension part associated with the taskpane instance
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/webextensiontaskpane\#getWidth--)
+Sets the default width value for this taskpane instance.
 
 **Parameters:**
 | Parameter | Type | Description |

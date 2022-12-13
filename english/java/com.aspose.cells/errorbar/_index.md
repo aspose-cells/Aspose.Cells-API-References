@@ -64,51 +64,51 @@ Workbook workbook = new Workbook();
 | [getEndArrowLength()](#getEndArrowLength--) | Specifies the length of the arrowhead for the end of a line. |
 | [getEndArrowWidth()](#getEndArrowWidth--) | Specifies the width of the arrowhead for the end of a line. |
 | [getEndType()](#getEndType--) | Specifies an arrowhead for the end of a line. |
-| [getFormattingType()](#getFormattingType--) | format type. |
+| [getFormattingType()](#getFormattingType--) | Gets format type. |
 | [getGradientFill()](#getGradientFill--) | Represents gradient fill. |
 | [getJoinType()](#getJoinType--) | Specifies the joining caps. |
 | [getMinusValue()](#getMinusValue--) | Represents negative error amount when error bar type is Custom. |
 | [getPlusValue()](#getPlusValue--) | Represents positive error amount when error bar type is Custom. |
 | [getShowMarkerTTop()](#getShowMarkerTTop--) | Indicates if formatting error bars with a T-top. |
 | [getStyle()](#getStyle--) | Represents the style of the line. |
-| [getThemeColor()](#getThemeColor--) | the theme color. |
+| [getThemeColor()](#getThemeColor--) | Gets the theme color. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getType()](#getType--) | Represents error bar amount type. |
-| [getWeight()](#getWeight--) | the [WeightType](../../com.aspose.cells/weighttype) of the line. |
-| [getWeightPt()](#getWeightPt--) | the weight of the line in unit of points. |
-| [getWeightPx()](#getWeightPx--) | the weight of the line in unit of pixels. |
+| [getWeight()](#getWeight--) | Gets the [WeightType](../../com.aspose.cells/weighttype) of the line. |
+| [getWeightPt()](#getWeightPt--) | Gets the weight of the line in unit of points. |
+| [getWeightPx()](#getWeightPx--) | Gets the weight of the line in unit of pixels. |
 | [hashCode()](#hashCode--) |  |
 | [isAuto()](#isAuto--) | Indicates whether this line style is auto assigned. |
 | [isAutomaticColor()](#isAutomaticColor--) | Indicates whether the color of line is automatic assigned. |
 | [isVisible()](#isVisible--) | Represents whether the line is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAmount(double value)](#setAmount-double-) | For the description of this property, please see [getAmount()](../../com.aspose.cells/errorbar\#getAmount--) |
-| [setAuto(boolean value)](#setAuto-boolean-) | For the description of this property, please see [isAuto()](../../com.aspose.cells/line\#isAuto--) |
-| [setBeginArrowLength(int value)](#setBeginArrowLength-int-) | For the description of this property, please see [getBeginArrowLength()](../../com.aspose.cells/line\#getBeginArrowLength--) |
-| [setBeginArrowWidth(int value)](#setBeginArrowWidth-int-) | For the description of this property, please see [getBeginArrowWidth()](../../com.aspose.cells/line\#getBeginArrowWidth--) |
-| [setBeginType(int value)](#setBeginType-int-) | For the description of this property, please see [getBeginType()](../../com.aspose.cells/line\#getBeginType--) |
-| [setCapType(int value)](#setCapType-int-) | For the description of this property, please see [getCapType()](../../com.aspose.cells/line\#getCapType--) |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/line\#getColor--) |
-| [setCompoundType(int value)](#setCompoundType-int-) | For the description of this property, please see [getCompoundType()](../../com.aspose.cells/line\#getCompoundType--) |
-| [setDashType(int value)](#setDashType-int-) | For the description of this property, please see [getDashType()](../../com.aspose.cells/line\#getDashType--) |
-| [setDisplayType(int value)](#setDisplayType-int-) | For the description of this property, please see [getDisplayType()](../../com.aspose.cells/errorbar\#getDisplayType--) |
-| [setEndArrowLength(int value)](#setEndArrowLength-int-) | For the description of this property, please see [getEndArrowLength()](../../com.aspose.cells/line\#getEndArrowLength--) |
-| [setEndArrowWidth(int value)](#setEndArrowWidth-int-) | For the description of this property, please see [getEndArrowWidth()](../../com.aspose.cells/line\#getEndArrowWidth--) |
-| [setEndType(int value)](#setEndType-int-) | For the description of this property, please see [getEndType()](../../com.aspose.cells/line\#getEndType--) |
-| [setFormattingType(int value)](#setFormattingType-int-) | For the description of this property, please see [getFormattingType()](../../com.aspose.cells/line\#getFormattingType--) |
-| [setJoinType(int value)](#setJoinType-int-) | For the description of this property, please see [getJoinType()](../../com.aspose.cells/line\#getJoinType--) |
-| [setMinusValue(String value)](#setMinusValue-java.lang.String-) | For the description of this property, please see [getMinusValue()](../../com.aspose.cells/errorbar\#getMinusValue--) |
-| [setPlusValue(String value)](#setPlusValue-java.lang.String-) | For the description of this property, please see [getPlusValue()](../../com.aspose.cells/errorbar\#getPlusValue--) |
-| [setShowMarkerTTop(boolean value)](#setShowMarkerTTop-boolean-) | For the description of this property, please see [getShowMarkerTTop()](../../com.aspose.cells/errorbar\#getShowMarkerTTop--) |
-| [setStyle(int value)](#setStyle-int-) | For the description of this property, please see [getStyle()](../../com.aspose.cells/line\#getStyle--) |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see [getThemeColor()](../../com.aspose.cells/line\#getThemeColor--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/line\#getTransparency--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/errorbar\#getType--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/line\#isVisible--) |
-| [setWeight(int value)](#setWeight-int-) | For the description of this property, please see [getWeight()](../../com.aspose.cells/line\#getWeight--) |
-| [setWeightPt(double value)](#setWeightPt-double-) | For the description of this property, please see [getWeightPt()](../../com.aspose.cells/line\#getWeightPt--) |
-| [setWeightPx(double value)](#setWeightPx-double-) | For the description of this property, please see [getWeightPx()](../../com.aspose.cells/line\#getWeightPx--) |
+| [setAmount(double value)](#setAmount-double-) | Represents amount of error bar. |
+| [setAuto(boolean value)](#setAuto-boolean-) | Indicates whether this line style is auto assigned. |
+| [setBeginArrowLength(int value)](#setBeginArrowLength-int-) | Specifies the length of the arrowhead for the begin of a line. |
+| [setBeginArrowWidth(int value)](#setBeginArrowWidth-int-) | Specifies the width of the arrowhead for the begin of a line. |
+| [setBeginType(int value)](#setBeginType-int-) | Specifies an arrowhead for the begin of a line. |
+| [setCapType(int value)](#setCapType-int-) | Specifies the ending caps. |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Represents the [Color](../../com.aspose.cells/color) of the line. |
+| [setCompoundType(int value)](#setCompoundType-int-) | Specifies the compound line type |
+| [setDashType(int value)](#setDashType-int-) | Specifies the dash line type |
+| [setDisplayType(int value)](#setDisplayType-int-) | Represents error bar display type. |
+| [setEndArrowLength(int value)](#setEndArrowLength-int-) | Specifies the length of the arrowhead for the end of a line. |
+| [setEndArrowWidth(int value)](#setEndArrowWidth-int-) | Specifies the width of the arrowhead for the end of a line. |
+| [setEndType(int value)](#setEndType-int-) | Specifies an arrowhead for the end of a line. |
+| [setFormattingType(int value)](#setFormattingType-int-) | Sets format type. |
+| [setJoinType(int value)](#setJoinType-int-) | Specifies the joining caps. |
+| [setMinusValue(String value)](#setMinusValue-java.lang.String-) | Represents negative error amount when error bar type is Custom. |
+| [setPlusValue(String value)](#setPlusValue-java.lang.String-) | Represents positive error amount when error bar type is Custom. |
+| [setShowMarkerTTop(boolean value)](#setShowMarkerTTop-boolean-) | Indicates if formatting error bars with a T-top. |
+| [setStyle(int value)](#setStyle-int-) | Represents the style of the line. |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | Sets the theme color. |
+| [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setType(int value)](#setType-int-) | Represents error bar amount type. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Represents whether the line is visible. |
+| [setWeight(int value)](#setWeight-int-) | Sets the [WeightType](../../com.aspose.cells/weighttype) of the line. |
+| [setWeightPt(double value)](#setWeightPt-double-) | Sets the weight of the line in unit of points. |
+| [setWeightPx(double value)](#setWeightPx-double-) | Sets the weight of the line in unit of pixels. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -264,7 +264,7 @@ public int getFormattingType()
 ```
 
 
-format type.
+Gets format type.
 
 **Returns:**
 int
@@ -334,7 +334,7 @@ public ThemeColor getThemeColor()
 ```
 
 
-the theme color. If the foreground color is not a theme color, NULL will be returned.
+Gets the theme color. If the foreground color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -374,7 +374,7 @@ public int getWeight()
 ```
 
 
-the [WeightType](../../com.aspose.cells/weighttype) of the line.
+Gets the [WeightType](../../com.aspose.cells/weighttype) of the line.
 
 **Returns:**
 int
@@ -384,7 +384,7 @@ public double getWeightPt()
 ```
 
 
-the weight of the line in unit of points.
+Gets the weight of the line in unit of points.
 
 **Returns:**
 double
@@ -394,7 +394,7 @@ public double getWeightPx()
 ```
 
 
-the weight of the line in unit of pixels.
+Gets the weight of the line in unit of pixels.
 
 **Returns:**
 double
@@ -460,7 +460,7 @@ public void setAmount(double value)
 ```
 
 
-For the description of this property, please see [getAmount()](../../com.aspose.cells/errorbar\#getAmount--)
+Represents amount of error bar.  The amount must be greater than or equal to zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -473,7 +473,7 @@ public void setAuto(boolean value)
 ```
 
 
-For the description of this property, please see [isAuto()](../../com.aspose.cells/line\#isAuto--)
+Indicates whether this line style is auto assigned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -486,7 +486,7 @@ public void setBeginArrowLength(int value)
 ```
 
 
-For the description of this property, please see [getBeginArrowLength()](../../com.aspose.cells/line\#getBeginArrowLength--)
+Specifies the length of the arrowhead for the begin of a line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -499,7 +499,7 @@ public void setBeginArrowWidth(int value)
 ```
 
 
-For the description of this property, please see [getBeginArrowWidth()](../../com.aspose.cells/line\#getBeginArrowWidth--)
+Specifies the width of the arrowhead for the begin of a line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -512,7 +512,7 @@ public void setBeginType(int value)
 ```
 
 
-For the description of this property, please see [getBeginType()](../../com.aspose.cells/line\#getBeginType--)
+Specifies an arrowhead for the begin of a line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -525,7 +525,7 @@ public void setCapType(int value)
 ```
 
 
-For the description of this property, please see [getCapType()](../../com.aspose.cells/line\#getCapType--)
+Specifies the ending caps.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -538,7 +538,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/line\#getColor--)
+Represents the [Color](../../com.aspose.cells/color) of the line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -551,7 +551,7 @@ public void setCompoundType(int value)
 ```
 
 
-For the description of this property, please see [getCompoundType()](../../com.aspose.cells/line\#getCompoundType--)
+Specifies the compound line type
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -564,7 +564,7 @@ public void setDashType(int value)
 ```
 
 
-For the description of this property, please see [getDashType()](../../com.aspose.cells/line\#getDashType--)
+Specifies the dash line type
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -577,7 +577,7 @@ public void setDisplayType(int value)
 ```
 
 
-For the description of this property, please see [getDisplayType()](../../com.aspose.cells/errorbar\#getDisplayType--)
+Represents error bar display type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -590,7 +590,7 @@ public void setEndArrowLength(int value)
 ```
 
 
-For the description of this property, please see [getEndArrowLength()](../../com.aspose.cells/line\#getEndArrowLength--)
+Specifies the length of the arrowhead for the end of a line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -603,7 +603,7 @@ public void setEndArrowWidth(int value)
 ```
 
 
-For the description of this property, please see [getEndArrowWidth()](../../com.aspose.cells/line\#getEndArrowWidth--)
+Specifies the width of the arrowhead for the end of a line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -616,7 +616,7 @@ public void setEndType(int value)
 ```
 
 
-For the description of this property, please see [getEndType()](../../com.aspose.cells/line\#getEndType--)
+Specifies an arrowhead for the end of a line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -629,7 +629,7 @@ public void setFormattingType(int value)
 ```
 
 
-For the description of this property, please see [getFormattingType()](../../com.aspose.cells/line\#getFormattingType--)
+Sets format type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -642,7 +642,7 @@ public void setJoinType(int value)
 ```
 
 
-For the description of this property, please see [getJoinType()](../../com.aspose.cells/line\#getJoinType--)
+Specifies the joining caps.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -655,7 +655,7 @@ public void setMinusValue(String value)
 ```
 
 
-For the description of this property, please see [getMinusValue()](../../com.aspose.cells/errorbar\#getMinusValue--)
+Represents negative error amount when error bar type is Custom.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -668,7 +668,7 @@ public void setPlusValue(String value)
 ```
 
 
-For the description of this property, please see [getPlusValue()](../../com.aspose.cells/errorbar\#getPlusValue--)
+Represents positive error amount when error bar type is Custom.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -681,7 +681,7 @@ public void setShowMarkerTTop(boolean value)
 ```
 
 
-For the description of this property, please see [getShowMarkerTTop()](../../com.aspose.cells/errorbar\#getShowMarkerTTop--)
+Indicates if formatting error bars with a T-top.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -694,7 +694,7 @@ public void setStyle(int value)
 ```
 
 
-For the description of this property, please see [getStyle()](../../com.aspose.cells/line\#getStyle--)
+Represents the style of the line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -707,7 +707,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-For the description of this property, please see [getThemeColor()](../../com.aspose.cells/line\#getThemeColor--)
+Sets the theme color. If the foreground color is not a theme color, NULL will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -720,7 +720,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/line\#getTransparency--)
+Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -733,7 +733,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/errorbar\#getType--)
+Represents error bar amount type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -746,7 +746,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/line\#isVisible--)
+Represents whether the line is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -759,7 +759,7 @@ public void setWeight(int value)
 ```
 
 
-For the description of this property, please see [getWeight()](../../com.aspose.cells/line\#getWeight--)
+Sets the [WeightType](../../com.aspose.cells/weighttype) of the line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -772,7 +772,7 @@ public void setWeightPt(double value)
 ```
 
 
-For the description of this property, please see [getWeightPt()](../../com.aspose.cells/line\#getWeightPt--)
+Sets the weight of the line in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -785,7 +785,7 @@ public void setWeightPx(double value)
 ```
 
 
-For the description of this property, please see [getWeightPx()](../../com.aspose.cells/line\#getWeightPx--)
+Sets the weight of the line in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -21,15 +21,15 @@ Represents an Office Add-in instance.
 | [getAlterReferences()](#getAlterReferences--) | Gets a list of alter references. |
 | [getBindings()](#getBindings--) | Gets all bindings relationship between an Office Add-in and the data in the document. |
 | [getClass()](#getClass--) |  |
-| [getId()](#getId--) | the uniquely identifies the Office Add-in instance in the current document. |
+| [getId()](#getId--) | Gets the uniquely identifies the Office Add-in instance in the current document. |
 | [getProperties()](#getProperties--) | Gets all properties of web extension. |
 | [getReference()](#getReference--) | Get the primary reference to an Office Add-in. |
 | [hashCode()](#hashCode--) |  |
 | [isFrozen()](#isFrozen--) | Indicates whether the user can interact with the Office Add-in or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFrozen(boolean value)](#setFrozen-boolean-) | For the description of this property, please see [isFrozen()](../../com.aspose.cells/webextension\#isFrozen--) |
-| [setId(String value)](#setId-java.lang.String-) | For the description of this property, please see [getId()](../../com.aspose.cells/webextension\#getId--) |
+| [setFrozen(boolean value)](#setFrozen-boolean-) | Indicates whether the user can interact with the Office Add-in or not. |
+| [setId(String value)](#setId-java.lang.String-) | Sets the uniquely identifies the Office Add-in instance in the current document. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -85,7 +85,7 @@ public String getId()
 ```
 
 
-the uniquely identifies the Office Add-in instance in the current document.
+Gets the uniquely identifies the Office Add-in instance in the current document.
 
 **Returns:**
 java.lang.String
@@ -151,7 +151,7 @@ public void setFrozen(boolean value)
 ```
 
 
-For the description of this property, please see [isFrozen()](../../com.aspose.cells/webextension\#isFrozen--)
+Indicates whether the user can interact with the Office Add-in or not.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -164,7 +164,7 @@ public void setId(String value)
 ```
 
 
-For the description of this property, please see [getId()](../../com.aspose.cells/webextension\#getId--)
+Sets the uniquely identifies the Office Add-in instance in the current document.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -97,29 +97,29 @@ Describe the DataBar conditional formatting rule. This conditional formatting ru
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAxisColor()](#getAxisColor--) | Gets the color of the axis for cells with conditional formatting as data bars. |
-| [getAxisPosition()](#getAxisPosition--) | the position of the axis of the data bars specified by a conditional formatting rule. |
+| [getAxisPosition()](#getAxisPosition--) | Gets the position of the axis of the data bars specified by a conditional formatting rule. |
 | [getBarBorder()](#getBarBorder--) | Gets an object that specifies the border of a data bar. |
-| [getBarFillType()](#getBarFillType--) | how a data bar is filled with color. |
+| [getBarFillType()](#getBarFillType--) | Gets how a data bar is filled with color. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | this DataBar's Color. |
-| [getDirection()](#getDirection--) | the direction the databar is displayed. |
-| [getMaxCfvo()](#getMaxCfvo--) | this DataBar's max value object. |
+| [getColor()](#getColor--) | Gets this DataBar's Color. |
+| [getDirection()](#getDirection--) | Gets the direction the databar is displayed. |
+| [getMaxCfvo()](#getMaxCfvo--) | Gets this DataBar's max value object. |
 | [getMaxLength()](#getMaxLength--) | Represents the max length of data bar . |
-| [getMinCfvo()](#getMinCfvo--) | this DataBar's min value object. |
+| [getMinCfvo()](#getMinCfvo--) | Gets this DataBar's min value object. |
 | [getMinLength()](#getMinLength--) | Represents the min length of data bar . |
 | [getNegativeBarFormat()](#getNegativeBarFormat--) | Gets the NegativeBarFormat object associated with a data bar conditional formatting rule. |
-| [getShowValue()](#getShowValue--) | the flag indicating whether to show the values of the cells on which this data bar is applied. |
+| [getShowValue()](#getShowValue--) | Gets the flag indicating whether to show the values of the cells on which this data bar is applied. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAxisColor(Color value)](#setAxisColor-com.aspose.cells.Color-) | For the description of this property, please see [getAxisColor()](../../com.aspose.cells/databar\#getAxisColor--) |
-| [setAxisPosition(int value)](#setAxisPosition-int-) | For the description of this property, please see [getAxisPosition()](../../com.aspose.cells/databar\#getAxisPosition--) |
-| [setBarFillType(int value)](#setBarFillType-int-) | For the description of this property, please see [getBarFillType()](../../com.aspose.cells/databar\#getBarFillType--) |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/databar\#getColor--) |
-| [setDirection(int value)](#setDirection-int-) | For the description of this property, please see [getDirection()](../../com.aspose.cells/databar\#getDirection--) |
-| [setMaxLength(int value)](#setMaxLength-int-) | For the description of this property, please see [getMaxLength()](../../com.aspose.cells/databar\#getMaxLength--) |
-| [setMinLength(int value)](#setMinLength-int-) | For the description of this property, please see [getMinLength()](../../com.aspose.cells/databar\#getMinLength--) |
-| [setShowValue(boolean value)](#setShowValue-boolean-) | For the description of this property, please see [getShowValue()](../../com.aspose.cells/databar\#getShowValue--) |
+| [setAxisColor(Color value)](#setAxisColor-com.aspose.cells.Color-) | Gets the color of the axis for cells with conditional formatting as data bars. |
+| [setAxisPosition(int value)](#setAxisPosition-int-) | Sets the position of the axis of the data bars specified by a conditional formatting rule. |
+| [setBarFillType(int value)](#setBarFillType-int-) | Sets how a data bar is filled with color. |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets this DataBar's Color. |
+| [setDirection(int value)](#setDirection-int-) | Sets the direction the databar is displayed. |
+| [setMaxLength(int value)](#setMaxLength-int-) | Represents the max length of data bar . |
+| [setMinLength(int value)](#setMinLength-int-) | Represents the min length of data bar . |
+| [setShowValue(boolean value)](#setShowValue-boolean-) | Sets the flag indicating whether to show the values of the cells on which this data bar is applied. |
 | [toImage(Cell cell, ImageOrPrintOptions imgOpts)](#toImage-com.aspose.cells.Cell-com.aspose.cells.ImageOrPrintOptions-) | Render data bar in cell to image byte array. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -156,7 +156,7 @@ public int getAxisPosition()
 ```
 
 
-the position of the axis of the data bars specified by a conditional formatting rule.
+Gets the position of the axis of the data bars specified by a conditional formatting rule.
 
 **Returns:**
 int
@@ -176,7 +176,7 @@ public int getBarFillType()
 ```
 
 
-how a data bar is filled with color.
+Gets how a data bar is filled with color.
 
 **Returns:**
 int
@@ -196,7 +196,7 @@ public Color getColor()
 ```
 
 
-this DataBar's Color.
+Gets this DataBar's Color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -206,7 +206,7 @@ public int getDirection()
 ```
 
 
-the direction the databar is displayed.
+Gets the direction the databar is displayed.
 
 **Returns:**
 int
@@ -216,7 +216,7 @@ public ConditionalFormattingValue getMaxCfvo()
 ```
 
 
-this DataBar's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it.
+Gets this DataBar's max value object. Cannot set null or CFValueObject with type FormatConditionValueType.Min to it.
 
 **Returns:**
 [ConditionalFormattingValue](../../com.aspose.cells/conditionalformattingvalue)
@@ -236,7 +236,7 @@ public ConditionalFormattingValue getMinCfvo()
 ```
 
 
-this DataBar's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
+Gets this DataBar's min value object. Cannot set null or CFValueObject with type FormatConditionValueType.Max to it.
 
 **Returns:**
 [ConditionalFormattingValue](../../com.aspose.cells/conditionalformattingvalue)
@@ -266,7 +266,7 @@ public boolean getShowValue()
 ```
 
 
-the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true.
+Gets the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true.
 
 **Returns:**
 boolean
@@ -302,7 +302,7 @@ public void setAxisColor(Color value)
 ```
 
 
-For the description of this property, please see [getAxisColor()](../../com.aspose.cells/databar\#getAxisColor--)
+Gets the color of the axis for cells with conditional formatting as data bars.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +315,7 @@ public void setAxisPosition(int value)
 ```
 
 
-For the description of this property, please see [getAxisPosition()](../../com.aspose.cells/databar\#getAxisPosition--)
+Sets the position of the axis of the data bars specified by a conditional formatting rule.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +328,7 @@ public void setBarFillType(int value)
 ```
 
 
-For the description of this property, please see [getBarFillType()](../../com.aspose.cells/databar\#getBarFillType--)
+Sets how a data bar is filled with color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +341,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/databar\#getColor--)
+Sets this DataBar's Color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +354,7 @@ public void setDirection(int value)
 ```
 
 
-For the description of this property, please see [getDirection()](../../com.aspose.cells/databar\#getDirection--)
+Sets the direction the databar is displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,7 +367,7 @@ public void setMaxLength(int value)
 ```
 
 
-For the description of this property, please see [getMaxLength()](../../com.aspose.cells/databar\#getMaxLength--)
+Represents the max length of data bar .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -380,7 +380,7 @@ public void setMinLength(int value)
 ```
 
 
-For the description of this property, please see [getMinLength()](../../com.aspose.cells/databar\#getMinLength--)
+Represents the min length of data bar .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -393,7 +393,7 @@ public void setShowValue(boolean value)
 ```
 
 
-For the description of this property, please see [getShowValue()](../../com.aspose.cells/databar\#getShowValue--)
+Sets the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

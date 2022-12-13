@@ -18,24 +18,24 @@ This class specifies the shadow effect of the chart element or shape.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAngle()](#getAngle--) | the lighting angle. |
-| [getBlur()](#getBlur--) | the blur of the shadow. |
+| [getAngle()](#getAngle--) | Gets the lighting angle. |
+| [getBlur()](#getBlur--) | Gets the blur of the shadow. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | the color of the shadow. |
-| [getDistance()](#getDistance--) | the distance of the shadow. |
-| [getPresetType()](#getPresetType--) | the preset shadow type of the shadow. |
-| [getSize()](#getSize--) | the size of the shadow. |
-| [getTransparency()](#getTransparency--) | the degree of transparency of the shadow. |
+| [getColor()](#getColor--) | Gets the color of the shadow. |
+| [getDistance()](#getDistance--) | Gets the distance of the shadow. |
+| [getPresetType()](#getPresetType--) | Gets the preset shadow type of the shadow. |
+| [getSize()](#getSize--) | Gets the size of the shadow. |
+| [getTransparency()](#getTransparency--) | Gets the degree of transparency of the shadow. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAngle(double value)](#setAngle-double-) | For the description of this property, please see [getAngle()](../../com.aspose.cells/shadoweffect\#getAngle--) |
-| [setBlur(double value)](#setBlur-double-) | For the description of this property, please see [getBlur()](../../com.aspose.cells/shadoweffect\#getBlur--) |
-| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getColor()](../../com.aspose.cells/shadoweffect\#getColor--) |
-| [setDistance(double value)](#setDistance-double-) | For the description of this property, please see [getDistance()](../../com.aspose.cells/shadoweffect\#getDistance--) |
-| [setPresetType(int value)](#setPresetType-int-) | For the description of this property, please see [getPresetType()](../../com.aspose.cells/shadoweffect\#getPresetType--) |
-| [setSize(double value)](#setSize-double-) | For the description of this property, please see [getSize()](../../com.aspose.cells/shadoweffect\#getSize--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/shadoweffect\#getTransparency--) |
+| [setAngle(double value)](#setAngle-double-) | Sets the lighting angle. |
+| [setBlur(double value)](#setBlur-double-) | Sets the blur of the shadow. |
+| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | Sets the color of the shadow. |
+| [setDistance(double value)](#setDistance-double-) | Sets the distance of the shadow. |
+| [setPresetType(int value)](#setPresetType-int-) | Sets the preset shadow type of the shadow. |
+| [setSize(double value)](#setSize-double-) | Sets the size of the shadow. |
+| [setTransparency(double value)](#setTransparency-double-) | Sets the degree of transparency of the shadow. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public double getAngle()
 ```
 
 
-the lighting angle. Range from 0 to 359.9 degrees.
+Gets the lighting angle. Range from 0 to 359.9 degrees.
 
 **Returns:**
 double
@@ -71,7 +71,7 @@ public double getBlur()
 ```
 
 
-the blur of the shadow. Range from 0 to 100 points.
+Gets the blur of the shadow. Range from 0 to 100 points.
 
 **Returns:**
 double
@@ -91,7 +91,7 @@ public CellsColor getColor()
 ```
 
 
-the color of the shadow.
+Gets the color of the shadow.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -101,7 +101,7 @@ public double getDistance()
 ```
 
 
-the distance of the shadow. Range from 0 to 200 points.
+Gets the distance of the shadow. Range from 0 to 200 points.
 
 **Returns:**
 double
@@ -111,7 +111,7 @@ public int getPresetType()
 ```
 
 
-the preset shadow type of the shadow.
+Gets the preset shadow type of the shadow.
 
 **Returns:**
 int
@@ -121,7 +121,7 @@ public double getSize()
 ```
 
 
-the size of the shadow. Range from 0 to 2.0. Meaningless in inner shadow.
+Gets the size of the shadow. Range from 0 to 2.0. Meaningless in inner shadow.
 
 **Returns:**
 double
@@ -131,7 +131,7 @@ public double getTransparency()
 ```
 
 
-the degree of transparency of the shadow. Range from 0.0 (opaque) to 1.0 (clear).
+Gets the degree of transparency of the shadow. Range from 0.0 (opaque) to 1.0 (clear).
 
 **Returns:**
 double
@@ -167,7 +167,7 @@ public void setAngle(double value)
 ```
 
 
-For the description of this property, please see [getAngle()](../../com.aspose.cells/shadoweffect\#getAngle--)
+Sets the lighting angle. Range from 0 to 359.9 degrees.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setBlur(double value)
 ```
 
 
-For the description of this property, please see [getBlur()](../../com.aspose.cells/shadoweffect\#getBlur--)
+Sets the blur of the shadow. Range from 0 to 100 points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/shadoweffect\#getColor--)
+Sets the color of the shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setDistance(double value)
 ```
 
 
-For the description of this property, please see [getDistance()](../../com.aspose.cells/shadoweffect\#getDistance--)
+Sets the distance of the shadow. Range from 0 to 200 points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setPresetType(int value)
 ```
 
 
-For the description of this property, please see [getPresetType()](../../com.aspose.cells/shadoweffect\#getPresetType--)
+Sets the preset shadow type of the shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setSize(double value)
 ```
 
 
-For the description of this property, please see [getSize()](../../com.aspose.cells/shadoweffect\#getSize--)
+Sets the size of the shadow. Range from 0 to 2.0. Meaningless in inner shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/shadoweffect\#getTransparency--)
+Sets the degree of transparency of the shadow. Range from 0.0 (opaque) to 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |

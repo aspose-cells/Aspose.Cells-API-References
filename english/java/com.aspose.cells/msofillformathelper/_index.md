@@ -18,22 +18,22 @@ Represents fill formatting for a shape.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackColor()](#getBackColor--) | the file back color. |
+| [getBackColor()](#getBackColor--) | Gets the file back color. |
 | [getClass()](#getClass--) |  |
-| [getForeColor()](#getForeColor--) | the fill fore color. |
+| [getForeColor()](#getForeColor--) | Gets the fill fore color. |
 | [getForeColorTransparency()](#getForeColorTransparency--) | Returns or sets the degree of fore color of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getImageData()](#getImageData--) | the Texture and Picture fill data. |
+| [getImageData()](#getImageData--) | Gets the Texture and Picture fill data. |
 | [getTexture()](#getTexture--) | Gets the texture fill type. |
 | [hashCode()](#hashCode--) |  |
 | [isVisible()](#isVisible--) | Indicates whether there is fill. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackColor()](../../com.aspose.cells/msofillformathelper\#getBackColor--) |
-| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | For the description of this property, please see [getForeColor()](../../com.aspose.cells/msofillformathelper\#getForeColor--) |
-| [setForeColorTransparency(double value)](#setForeColorTransparency-double-) | For the description of this property, please see [getForeColorTransparency()](../../com.aspose.cells/msofillformathelper\#getForeColorTransparency--) |
-| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see [getImageData()](../../com.aspose.cells/msofillformathelper\#getImageData--) |
+| [setBackColor(Color value)](#setBackColor-com.aspose.cells.Color-) | Sets the file back color. |
+| [setForeColor(Color value)](#setForeColor-com.aspose.cells.Color-) | Sets the fill fore color. |
+| [setForeColorTransparency(double value)](#setForeColorTransparency-double-) | Returns or sets the degree of fore color of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setImageData(byte[] value)](#setImageData-byte---) | Sets the Texture and Picture fill data. |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/msofillformathelper\#isVisible--) |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether there is fill. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ public Color getBackColor()
 ```
 
 
-the file back color.
+Gets the file back color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -79,7 +79,7 @@ public Color getForeColor()
 ```
 
 
-the fill fore color.
+Gets the fill fore color.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -99,7 +99,7 @@ public byte[] getImageData()
 ```
 
 
-the Texture and Picture fill data.
+Gets the Texture and Picture fill data.
 
 **Returns:**
 byte[]
@@ -155,7 +155,7 @@ public void setBackColor(Color value)
 ```
 
 
-For the description of this property, please see [getBackColor()](../../com.aspose.cells/msofillformathelper\#getBackColor--)
+Sets the file back color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -168,7 +168,7 @@ public void setForeColor(Color value)
 ```
 
 
-For the description of this property, please see [getForeColor()](../../com.aspose.cells/msofillformathelper\#getForeColor--)
+Sets the fill fore color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setForeColorTransparency(double value)
 ```
 
 
-For the description of this property, please see [getForeColorTransparency()](../../com.aspose.cells/msofillformathelper\#getForeColorTransparency--)
+Returns or sets the degree of fore color of the specified fill as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public void setImageData(byte[] value)
 ```
 
 
-For the description of this property, please see [getImageData()](../../com.aspose.cells/msofillformathelper\#getImageData--)
+Sets the Texture and Picture fill data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -223,7 +223,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/msofillformathelper\#isVisible--)
+Indicates whether there is fill.
 
 **Parameters:**
 | Parameter | Type | Description |

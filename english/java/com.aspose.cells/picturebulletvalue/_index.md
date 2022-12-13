@@ -24,12 +24,12 @@ Represents the value of the image bullet.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getImageData()](#getImageData--) | image data of the bullet. |
+| [getImageData()](#getImageData--) | Gets image data of the bullet. |
 | [getType()](#getType--) | Gets the type of the bullet's value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setImageData(byte[] value)](#setImageData-byte---) | For the description of this property, please see [getImageData()](../../com.aspose.cells/picturebulletvalue\#getImageData--) |
+| [setImageData(byte[] value)](#setImageData-byte---) | Sets image data of the bullet. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public byte[] getImageData()
 ```
 
 
-image data of the bullet.
+Gets image data of the bullet.
 
 **Returns:**
 byte[]
@@ -117,7 +117,7 @@ public void setImageData(byte[] value)
 ```
 
 
-For the description of this property, please see [getImageData()](../../com.aspose.cells/picturebulletvalue\#getImageData--)
+Sets image data of the bullet.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -26,40 +26,40 @@ Provides access to  objects by their names (using an indexer) and via a set of t
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) object by index. |
 | [get(String name)](#get-java.lang.String-) | Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) object by the name of the property. |
-| [getAuthor()](#getAuthor--) | the name of the document's author. |
+| [getAuthor()](#getAuthor--) | Gets the name of the document's author. |
 | [getBytes()](#getBytes--) | Represents an estimate of the number of bytes in the document. |
-| [getCategory()](#getCategory--) | the category of the document. |
+| [getCategory()](#getCategory--) | Gets the category of the document. |
 | [getCharacters()](#getCharacters--) | Represents an estimate of the number of characters in the document. |
 | [getCharactersWithSpaces()](#getCharactersWithSpaces--) | Represents an estimate of the number of characters (including spaces) in the document. |
 | [getClass()](#getClass--) |  |
-| [getComments()](#getComments--) | the document comments. |
-| [getCompany()](#getCompany--) | the company property. |
-| [getContentStatus()](#getContentStatus--) | the content status of the document. |
-| [getContentType()](#getContentType--) | the content type of the document. |
+| [getComments()](#getComments--) | Gets the document comments. |
+| [getCompany()](#getCompany--) | Gets the company property. |
+| [getContentStatus()](#getContentStatus--) | Gets the content status of the document. |
+| [getContentType()](#getContentType--) | Gets the content type of the document. |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getCreatedTime()](#getCreatedTime--) | date of the document creation in local timezone. |
-| [getCreatedUniversalTime()](#getCreatedUniversalTime--) | the Universal time of the document creation. |
+| [getCreatedTime()](#getCreatedTime--) | Gets date of the document creation in local timezone. |
+| [getCreatedUniversalTime()](#getCreatedUniversalTime--) | Gets the Universal time of the document creation. |
 | [getDocumentVersion()](#getDocumentVersion--) | Represents the version of the file. |
-| [getHyperlinkBase()](#getHyperlinkBase--) | the hyperlinkbase property. |
-| [getKeywords()](#getKeywords--) | the document keywords. |
-| [getLanguage()](#getLanguage--) | the document's language. |
-| [getLastPrinted()](#getLastPrinted--) | the date when the document was last printed in local timezone. |
-| [getLastPrintedUniversalTime()](#getLastPrintedUniversalTime--) | the Universal time when the document was last printed. |
-| [getLastSavedBy()](#getLastSavedBy--) | the name of the last author. |
-| [getLastSavedTime()](#getLastSavedTime--) | the time of the last save in local timezone. |
-| [getLastSavedUniversalTime()](#getLastSavedUniversalTime--) | the universal time of the last save. |
+| [getHyperlinkBase()](#getHyperlinkBase--) | Gets the hyperlinkbase property. |
+| [getKeywords()](#getKeywords--) | Gets the document keywords. |
+| [getLanguage()](#getLanguage--) | Gets the document's language. |
+| [getLastPrinted()](#getLastPrinted--) | Gets the date when the document was last printed in local timezone. |
+| [getLastPrintedUniversalTime()](#getLastPrintedUniversalTime--) | Gets the Universal time when the document was last printed. |
+| [getLastSavedBy()](#getLastSavedBy--) | Gets the name of the last author. |
+| [getLastSavedTime()](#getLastSavedTime--) | Gets the time of the last save in local timezone. |
+| [getLastSavedUniversalTime()](#getLastSavedUniversalTime--) | Gets the universal time of the last save. |
 | [getLines()](#getLines--) | Represents an estimate of the number of lines in the document. |
 | [getLinksUpToDate()](#getLinksUpToDate--) | Indicates whether hyperlinks in a document are up-to-date. |
-| [getManager()](#getManager--) | the manager property. |
-| [getNameOfApplication()](#getNameOfApplication--) | the name of the application. |
+| [getManager()](#getManager--) | Gets the manager property. |
+| [getNameOfApplication()](#getNameOfApplication--) | Gets the name of the application. |
 | [getPages()](#getPages--) | Represents an estimate of the number of pages in the document. |
 | [getParagraphs()](#getParagraphs--) | Represents an estimate of the number of paragraphs in the document. |
-| [getRevisionNumber()](#getRevisionNumber--) | the document revision number. |
+| [getRevisionNumber()](#getRevisionNumber--) | Gets the document revision number. |
 | [getScaleCrop()](#getScaleCrop--) | Indicates the display mode of the document thumbnail. |
-| [getSubject()](#getSubject--) | the subject of the document. |
-| [getTemplate()](#getTemplate--) | the informational name of the document template. |
-| [getTitle()](#getTitle--) | the title of the document. |
-| [getTotalEditingTime()](#getTotalEditingTime--) | the total editing time in minutes. |
+| [getSubject()](#getSubject--) | Gets the subject of the document. |
+| [getTemplate()](#getTemplate--) | Gets the informational name of the document template. |
+| [getTitle()](#getTitle--) | Gets the title of the document. |
+| [getTotalEditingTime()](#getTotalEditingTime--) | Gets the total editing time in minutes. |
 | [getVersion()](#getVersion--) | Represents the version number of the application that created the document. |
 | [getWords()](#getWords--) | Represents an estimate of the number of words in the document. |
 | [hashCode()](#hashCode--) |  |
@@ -70,40 +70,40 @@ Provides access to  objects by their names (using an indexer) and via a set of t
 | [notifyAll()](#notifyAll--) |  |
 | [remove(String name)](#remove-java.lang.String-) | Removes a property with the specified name from the collection. |
 | [removeAt(int index)](#removeAt-int-) | Removes a property at the specified index. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see [getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) |
-| [setBytes(int value)](#setBytes-int-) | For the description of this property, please see [getBytes()](../../com.aspose.cells/builtindocumentpropertycollection\#getBytes--) |
-| [setCategory(String value)](#setCategory-java.lang.String-) | For the description of this property, please see [getCategory()](../../com.aspose.cells/builtindocumentpropertycollection\#getCategory--) |
-| [setCharacters(int value)](#setCharacters-int-) | For the description of this property, please see [getCharacters()](../../com.aspose.cells/builtindocumentpropertycollection\#getCharacters--) |
-| [setCharactersWithSpaces(int value)](#setCharactersWithSpaces-int-) | For the description of this property, please see [getCharactersWithSpaces()](../../com.aspose.cells/builtindocumentpropertycollection\#getCharactersWithSpaces--) |
-| [setComments(String value)](#setComments-java.lang.String-) | For the description of this property, please see [getComments()](../../com.aspose.cells/builtindocumentpropertycollection\#getComments--) |
-| [setCompany(String value)](#setCompany-java.lang.String-) | For the description of this property, please see [getCompany()](../../com.aspose.cells/builtindocumentpropertycollection\#getCompany--) |
-| [setContentStatus(String value)](#setContentStatus-java.lang.String-) | For the description of this property, please see [getContentStatus()](../../com.aspose.cells/builtindocumentpropertycollection\#getContentStatus--) |
-| [setContentType(String value)](#setContentType-java.lang.String-) | For the description of this property, please see [getContentType()](../../com.aspose.cells/builtindocumentpropertycollection\#getContentType--) |
-| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | For the description of this property, please see [getCreatedTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getCreatedTime--) |
-| [setCreatedUniversalTime(DateTime value)](#setCreatedUniversalTime-com.aspose.cells.DateTime-) | For the description of this property, please see [getCreatedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getCreatedUniversalTime--) |
-| [setDocumentVersion(String value)](#setDocumentVersion-java.lang.String-) | For the description of this property, please see [getDocumentVersion()](../../com.aspose.cells/builtindocumentpropertycollection\#getDocumentVersion--) |
-| [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | For the description of this property, please see [getHyperlinkBase()](../../com.aspose.cells/builtindocumentpropertycollection\#getHyperlinkBase--) |
-| [setKeywords(String value)](#setKeywords-java.lang.String-) | For the description of this property, please see [getKeywords()](../../com.aspose.cells/builtindocumentpropertycollection\#getKeywords--) |
-| [setLanguage(String value)](#setLanguage-java.lang.String-) | For the description of this property, please see [getLanguage()](../../com.aspose.cells/builtindocumentpropertycollection\#getLanguage--) |
-| [setLastPrinted(DateTime value)](#setLastPrinted-com.aspose.cells.DateTime-) | For the description of this property, please see [getLastPrinted()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastPrinted--) |
-| [setLastPrintedUniversalTime(DateTime value)](#setLastPrintedUniversalTime-com.aspose.cells.DateTime-) | For the description of this property, please see [getLastPrintedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastPrintedUniversalTime--) |
-| [setLastSavedBy(String value)](#setLastSavedBy-java.lang.String-) | For the description of this property, please see [getLastSavedBy()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedBy--) |
-| [setLastSavedTime(DateTime value)](#setLastSavedTime-com.aspose.cells.DateTime-) | For the description of this property, please see [getLastSavedTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedTime--) |
-| [setLastSavedUniversalTime(DateTime value)](#setLastSavedUniversalTime-com.aspose.cells.DateTime-) | For the description of this property, please see [getLastSavedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedUniversalTime--) |
-| [setLines(int value)](#setLines-int-) | For the description of this property, please see [getLines()](../../com.aspose.cells/builtindocumentpropertycollection\#getLines--) |
-| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | For the description of this property, please see [getLinksUpToDate()](../../com.aspose.cells/builtindocumentpropertycollection\#getLinksUpToDate--) |
-| [setManager(String value)](#setManager-java.lang.String-) | For the description of this property, please see [getManager()](../../com.aspose.cells/builtindocumentpropertycollection\#getManager--) |
-| [setNameOfApplication(String value)](#setNameOfApplication-java.lang.String-) | For the description of this property, please see [getNameOfApplication()](../../com.aspose.cells/builtindocumentpropertycollection\#getNameOfApplication--) |
-| [setPages(int value)](#setPages-int-) | For the description of this property, please see [getPages()](../../com.aspose.cells/builtindocumentpropertycollection\#getPages--) |
-| [setParagraphs(int value)](#setParagraphs-int-) | For the description of this property, please see [getParagraphs()](../../com.aspose.cells/builtindocumentpropertycollection\#getParagraphs--) |
-| [setRevisionNumber(String value)](#setRevisionNumber-java.lang.String-) | For the description of this property, please see [getRevisionNumber()](../../com.aspose.cells/builtindocumentpropertycollection\#getRevisionNumber--) |
-| [setScaleCrop(boolean value)](#setScaleCrop-boolean-) | For the description of this property, please see [getScaleCrop()](../../com.aspose.cells/builtindocumentpropertycollection\#getScaleCrop--) |
-| [setSubject(String value)](#setSubject-java.lang.String-) | For the description of this property, please see [getSubject()](../../com.aspose.cells/builtindocumentpropertycollection\#getSubject--) |
-| [setTemplate(String value)](#setTemplate-java.lang.String-) | For the description of this property, please see [getTemplate()](../../com.aspose.cells/builtindocumentpropertycollection\#getTemplate--) |
-| [setTitle(String value)](#setTitle-java.lang.String-) | For the description of this property, please see [getTitle()](../../com.aspose.cells/builtindocumentpropertycollection\#getTitle--) |
-| [setTotalEditingTime(double value)](#setTotalEditingTime-double-) | For the description of this property, please see [getTotalEditingTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getTotalEditingTime--) |
-| [setVersion(String value)](#setVersion-java.lang.String-) | For the description of this property, please see [getVersion()](../../com.aspose.cells/builtindocumentpropertycollection\#getVersion--) |
-| [setWords(int value)](#setWords-int-) | For the description of this property, please see [getWords()](../../com.aspose.cells/builtindocumentpropertycollection\#getWords--) |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the name of the document's author. |
+| [setBytes(int value)](#setBytes-int-) | Represents an estimate of the number of bytes in the document. |
+| [setCategory(String value)](#setCategory-java.lang.String-) | Sets the category of the document. |
+| [setCharacters(int value)](#setCharacters-int-) | Represents an estimate of the number of characters in the document. |
+| [setCharactersWithSpaces(int value)](#setCharactersWithSpaces-int-) | Represents an estimate of the number of characters (including spaces) in the document. |
+| [setComments(String value)](#setComments-java.lang.String-) | Sets the document comments. |
+| [setCompany(String value)](#setCompany-java.lang.String-) | Sets the company property. |
+| [setContentStatus(String value)](#setContentStatus-java.lang.String-) | Sets the content status of the document. |
+| [setContentType(String value)](#setContentType-java.lang.String-) | Sets the content type of the document. |
+| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | Sets date of the document creation in local timezone. |
+| [setCreatedUniversalTime(DateTime value)](#setCreatedUniversalTime-com.aspose.cells.DateTime-) | Sets the Universal time of the document creation. |
+| [setDocumentVersion(String value)](#setDocumentVersion-java.lang.String-) | Represents the version of the file. |
+| [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | Sets the hyperlinkbase property. |
+| [setKeywords(String value)](#setKeywords-java.lang.String-) | Sets the document keywords. |
+| [setLanguage(String value)](#setLanguage-java.lang.String-) | Sets the document's language. |
+| [setLastPrinted(DateTime value)](#setLastPrinted-com.aspose.cells.DateTime-) | Sets the date when the document was last printed in local timezone. |
+| [setLastPrintedUniversalTime(DateTime value)](#setLastPrintedUniversalTime-com.aspose.cells.DateTime-) | Sets the Universal time when the document was last printed. |
+| [setLastSavedBy(String value)](#setLastSavedBy-java.lang.String-) | Sets the name of the last author. |
+| [setLastSavedTime(DateTime value)](#setLastSavedTime-com.aspose.cells.DateTime-) | Sets the time of the last save in local timezone. |
+| [setLastSavedUniversalTime(DateTime value)](#setLastSavedUniversalTime-com.aspose.cells.DateTime-) | Sets the universal time of the last save. |
+| [setLines(int value)](#setLines-int-) | Represents an estimate of the number of lines in the document. |
+| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | Indicates whether hyperlinks in a document are up-to-date. |
+| [setManager(String value)](#setManager-java.lang.String-) | Sets the manager property. |
+| [setNameOfApplication(String value)](#setNameOfApplication-java.lang.String-) | Sets the name of the application. |
+| [setPages(int value)](#setPages-int-) | Represents an estimate of the number of pages in the document. |
+| [setParagraphs(int value)](#setParagraphs-int-) | Represents an estimate of the number of paragraphs in the document. |
+| [setRevisionNumber(String value)](#setRevisionNumber-java.lang.String-) | Sets the document revision number. |
+| [setScaleCrop(boolean value)](#setScaleCrop-boolean-) | Indicates the display mode of the document thumbnail. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject of the document. |
+| [setTemplate(String value)](#setTemplate-java.lang.String-) | Sets the informational name of the document template. |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Sets the title of the document. |
+| [setTotalEditingTime(double value)](#setTotalEditingTime-double-) | Sets the total editing time in minutes. |
+| [setVersion(String value)](#setVersion-java.lang.String-) | Represents the version number of the application that created the document. |
+| [setWords(int value)](#setWords-int-) | Represents an estimate of the number of words in the document. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -218,7 +218,7 @@ public String getAuthor()
 ```
 
 
-the name of the document's author.
+Gets the name of the document's author.
 
 **Returns:**
 java.lang.String
@@ -238,7 +238,7 @@ public String getCategory()
 ```
 
 
-the category of the document.
+Gets the category of the document.
 
 **Returns:**
 java.lang.String
@@ -278,7 +278,7 @@ public String getComments()
 ```
 
 
-the document comments.
+Gets the document comments.
 
 **Returns:**
 java.lang.String
@@ -288,7 +288,7 @@ public String getCompany()
 ```
 
 
-the company property.
+Gets the company property.
 
 **Returns:**
 java.lang.String
@@ -298,7 +298,7 @@ public String getContentStatus()
 ```
 
 
-the content status of the document.
+Gets the content status of the document.
 
 **Returns:**
 java.lang.String
@@ -308,7 +308,7 @@ public String getContentType()
 ```
 
 
-the content type of the document.
+Gets the content type of the document.
 
 **Returns:**
 java.lang.String
@@ -328,7 +328,7 @@ public DateTime getCreatedTime()
 ```
 
 
-date of the document creation in local timezone.
+Gets date of the document creation in local timezone.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -340,7 +340,7 @@ public DateTime getCreatedUniversalTime()
 ```
 
 
-the Universal time of the document creation.
+Gets the Universal time of the document creation.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -362,7 +362,7 @@ public String getHyperlinkBase()
 ```
 
 
-the hyperlinkbase property.
+Gets the hyperlinkbase property.
 
 **Returns:**
 java.lang.String
@@ -372,7 +372,7 @@ public String getKeywords()
 ```
 
 
-the document keywords.
+Gets the document keywords.
 
 **Returns:**
 java.lang.String
@@ -382,7 +382,7 @@ public String getLanguage()
 ```
 
 
-the document's language.
+Gets the document's language.
 
 **Returns:**
 java.lang.String
@@ -392,7 +392,7 @@ public DateTime getLastPrinted()
 ```
 
 
-the date when the document was last printed in local timezone.
+Gets the date when the document was last printed in local timezone.
 
 If the document was never printed, this property will return DateTime.MinValue.
 
@@ -406,7 +406,7 @@ public DateTime getLastPrintedUniversalTime()
 ```
 
 
-the Universal time when the document was last printed.
+Gets the Universal time when the document was last printed.
 
 **Returns:**
 [DateTime](../../com.aspose.cells/datetime)
@@ -416,7 +416,7 @@ public String getLastSavedBy()
 ```
 
 
-the name of the last author.
+Gets the name of the last author.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -428,7 +428,7 @@ public DateTime getLastSavedTime()
 ```
 
 
-the time of the last save in local timezone.
+Gets the time of the last save in local timezone.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -440,7 +440,7 @@ public DateTime getLastSavedUniversalTime()
 ```
 
 
-the universal time of the last save.
+Gets the universal time of the last save.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -474,7 +474,7 @@ public String getManager()
 ```
 
 
-the manager property.
+Gets the manager property.
 
 **Returns:**
 java.lang.String
@@ -484,7 +484,7 @@ public String getNameOfApplication()
 ```
 
 
-the name of the application.
+Gets the name of the application.
 
 **Returns:**
 java.lang.String
@@ -514,7 +514,7 @@ public String getRevisionNumber()
 ```
 
 
-the document revision number.
+Gets the document revision number.
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -536,7 +536,7 @@ public String getSubject()
 ```
 
 
-the subject of the document.
+Gets the subject of the document.
 
 **Returns:**
 java.lang.String
@@ -546,7 +546,7 @@ public String getTemplate()
 ```
 
 
-the informational name of the document template.
+Gets the informational name of the document template.
 
 **Returns:**
 java.lang.String
@@ -556,7 +556,7 @@ public String getTitle()
 ```
 
 
-the title of the document.
+Gets the title of the document.
 
 **Returns:**
 java.lang.String
@@ -566,7 +566,7 @@ public double getTotalEditingTime()
 ```
 
 
-the total editing time in minutes.
+Gets the total editing time in minutes.
 
 **Returns:**
 double
@@ -688,7 +688,7 @@ public void setAuthor(String value)
 ```
 
 
-For the description of this property, please see [getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--)
+Sets the name of the document's author.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -701,7 +701,7 @@ public void setBytes(int value)
 ```
 
 
-For the description of this property, please see [getBytes()](../../com.aspose.cells/builtindocumentpropertycollection\#getBytes--)
+Represents an estimate of the number of bytes in the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -714,7 +714,7 @@ public void setCategory(String value)
 ```
 
 
-For the description of this property, please see [getCategory()](../../com.aspose.cells/builtindocumentpropertycollection\#getCategory--)
+Sets the category of the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -727,7 +727,7 @@ public void setCharacters(int value)
 ```
 
 
-For the description of this property, please see [getCharacters()](../../com.aspose.cells/builtindocumentpropertycollection\#getCharacters--)
+Represents an estimate of the number of characters in the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -740,7 +740,7 @@ public void setCharactersWithSpaces(int value)
 ```
 
 
-For the description of this property, please see [getCharactersWithSpaces()](../../com.aspose.cells/builtindocumentpropertycollection\#getCharactersWithSpaces--)
+Represents an estimate of the number of characters (including spaces) in the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -753,7 +753,7 @@ public void setComments(String value)
 ```
 
 
-For the description of this property, please see [getComments()](../../com.aspose.cells/builtindocumentpropertycollection\#getComments--)
+Sets the document comments.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -766,7 +766,7 @@ public void setCompany(String value)
 ```
 
 
-For the description of this property, please see [getCompany()](../../com.aspose.cells/builtindocumentpropertycollection\#getCompany--)
+Sets the company property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -779,7 +779,7 @@ public void setContentStatus(String value)
 ```
 
 
-For the description of this property, please see [getContentStatus()](../../com.aspose.cells/builtindocumentpropertycollection\#getContentStatus--)
+Sets the content status of the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -792,7 +792,7 @@ public void setContentType(String value)
 ```
 
 
-For the description of this property, please see [getContentType()](../../com.aspose.cells/builtindocumentpropertycollection\#getContentType--)
+Sets the content type of the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -805,7 +805,9 @@ public void setCreatedTime(DateTime value)
 ```
 
 
-For the description of this property, please see [getCreatedTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getCreatedTime--)
+Sets date of the document creation in local timezone.
+
+Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -818,7 +820,9 @@ public void setCreatedUniversalTime(DateTime value)
 ```
 
 
-For the description of this property, please see [getCreatedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getCreatedUniversalTime--)
+Sets the Universal time of the document creation.
+
+Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -831,7 +835,7 @@ public void setDocumentVersion(String value)
 ```
 
 
-For the description of this property, please see [getDocumentVersion()](../../com.aspose.cells/builtindocumentpropertycollection\#getDocumentVersion--)
+Represents the version of the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -844,7 +848,7 @@ public void setHyperlinkBase(String value)
 ```
 
 
-For the description of this property, please see [getHyperlinkBase()](../../com.aspose.cells/builtindocumentpropertycollection\#getHyperlinkBase--)
+Sets the hyperlinkbase property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -857,7 +861,7 @@ public void setKeywords(String value)
 ```
 
 
-For the description of this property, please see [getKeywords()](../../com.aspose.cells/builtindocumentpropertycollection\#getKeywords--)
+Sets the document keywords.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -870,7 +874,7 @@ public void setLanguage(String value)
 ```
 
 
-For the description of this property, please see [getLanguage()](../../com.aspose.cells/builtindocumentpropertycollection\#getLanguage--)
+Sets the document's language.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -883,7 +887,11 @@ public void setLastPrinted(DateTime value)
 ```
 
 
-For the description of this property, please see [getLastPrinted()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastPrinted--)
+Sets the date when the document was last printed in local timezone.
+
+If the document was never printed, this property will return DateTime.MinValue.
+
+Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -896,7 +904,7 @@ public void setLastPrintedUniversalTime(DateTime value)
 ```
 
 
-For the description of this property, please see [getLastPrintedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastPrintedUniversalTime--)
+Sets the Universal time when the document was last printed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -909,7 +917,9 @@ public void setLastSavedBy(String value)
 ```
 
 
-For the description of this property, please see [getLastSavedBy()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedBy--)
+Sets the name of the last author.
+
+Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -922,7 +932,9 @@ public void setLastSavedTime(DateTime value)
 ```
 
 
-For the description of this property, please see [getLastSavedTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedTime--)
+Sets the time of the last save in local timezone.
+
+Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -935,7 +947,9 @@ public void setLastSavedUniversalTime(DateTime value)
 ```
 
 
-For the description of this property, please see [getLastSavedUniversalTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getLastSavedUniversalTime--)
+Sets the universal time of the last save.
+
+Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -948,7 +962,9 @@ public void setLines(int value)
 ```
 
 
-For the description of this property, please see [getLines()](../../com.aspose.cells/builtindocumentpropertycollection\#getLines--)
+Represents an estimate of the number of lines in the document.
+
+Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -961,7 +977,7 @@ public void setLinksUpToDate(boolean value)
 ```
 
 
-For the description of this property, please see [getLinksUpToDate()](../../com.aspose.cells/builtindocumentpropertycollection\#getLinksUpToDate--)
+Indicates whether hyperlinks in a document are up-to-date.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -974,7 +990,7 @@ public void setManager(String value)
 ```
 
 
-For the description of this property, please see [getManager()](../../com.aspose.cells/builtindocumentpropertycollection\#getManager--)
+Sets the manager property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -987,7 +1003,7 @@ public void setNameOfApplication(String value)
 ```
 
 
-For the description of this property, please see [getNameOfApplication()](../../com.aspose.cells/builtindocumentpropertycollection\#getNameOfApplication--)
+Sets the name of the application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1000,7 +1016,7 @@ public void setPages(int value)
 ```
 
 
-For the description of this property, please see [getPages()](../../com.aspose.cells/builtindocumentpropertycollection\#getPages--)
+Represents an estimate of the number of pages in the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1013,7 +1029,7 @@ public void setParagraphs(int value)
 ```
 
 
-For the description of this property, please see [getParagraphs()](../../com.aspose.cells/builtindocumentpropertycollection\#getParagraphs--)
+Represents an estimate of the number of paragraphs in the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1026,7 +1042,9 @@ public void setRevisionNumber(String value)
 ```
 
 
-For the description of this property, please see [getRevisionNumber()](../../com.aspose.cells/builtindocumentpropertycollection\#getRevisionNumber--)
+Sets the document revision number.
+
+Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1039,7 +1057,7 @@ public void setScaleCrop(boolean value)
 ```
 
 
-For the description of this property, please see [getScaleCrop()](../../com.aspose.cells/builtindocumentpropertycollection\#getScaleCrop--)
+Indicates the display mode of the document thumbnail.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1052,7 +1070,7 @@ public void setSubject(String value)
 ```
 
 
-For the description of this property, please see [getSubject()](../../com.aspose.cells/builtindocumentpropertycollection\#getSubject--)
+Sets the subject of the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1065,7 +1083,7 @@ public void setTemplate(String value)
 ```
 
 
-For the description of this property, please see [getTemplate()](../../com.aspose.cells/builtindocumentpropertycollection\#getTemplate--)
+Sets the informational name of the document template.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1078,7 +1096,7 @@ public void setTitle(String value)
 ```
 
 
-For the description of this property, please see [getTitle()](../../com.aspose.cells/builtindocumentpropertycollection\#getTitle--)
+Sets the title of the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1091,7 +1109,7 @@ public void setTotalEditingTime(double value)
 ```
 
 
-For the description of this property, please see [getTotalEditingTime()](../../com.aspose.cells/builtindocumentpropertycollection\#getTotalEditingTime--)
+Sets the total editing time in minutes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1104,7 +1122,7 @@ public void setVersion(String value)
 ```
 
 
-For the description of this property, please see [getVersion()](../../com.aspose.cells/builtindocumentpropertycollection\#getVersion--)
+Represents the version number of the application that created the document. It's format is "00.0000",for example : 12.0000
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1117,7 +1135,7 @@ public void setWords(int value)
 ```
 
 
-For the description of this property, please see [getWords()](../../com.aspose.cells/builtindocumentpropertycollection\#getWords--)
+Represents an estimate of the number of words in the document.
 
 **Parameters:**
 | Parameter | Type | Description |

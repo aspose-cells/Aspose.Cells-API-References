@@ -22,10 +22,10 @@ Info for a page starts saving process.
 | [getPageCount()](#getPageCount--) | Total page count. |
 | [getPageIndex()](#getPageIndex--) | Current page index, zero based. |
 | [hashCode()](#hashCode--) |  |
-| [isToOutput()](#isToOutput--) | a value indicating whether the page should be output. |
+| [isToOutput()](#isToOutput--) | Gets a value indicating whether the page should be output. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setToOutput(boolean value)](#setToOutput-boolean-) | For the description of this property, please see [isToOutput()](../../com.aspose.cells/pagestartsavingargs\#isToOutput--) |
+| [setToOutput(boolean value)](#setToOutput-boolean-) | Sets a value indicating whether the page should be output. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -91,7 +91,7 @@ public boolean isToOutput()
 ```
 
 
-a value indicating whether the page should be output. The default value is true.
+Gets a value indicating whether the page should be output. The default value is true.
 
 **Returns:**
 boolean
@@ -117,7 +117,7 @@ public void setToOutput(boolean value)
 ```
 
 
-For the description of this property, please see [isToOutput()](../../com.aspose.cells/pagestartsavingargs\#isToOutput--)
+Sets a value indicating whether the page should be output. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

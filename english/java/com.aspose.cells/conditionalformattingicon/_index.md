@@ -22,13 +22,13 @@ Represents the custom icon of conditional formatting rule.
 | [getIconImageData(int type, int index)](#getIconImageData-int-int-) | Get the icon set data |
 | [getImageData()](#getImageData--) | Gets the icon set data. |
 | [getImageData(Cell cell)](#getImageData-com.aspose.cells.Cell-) | Gets the image data with the setting of cell. |
-| [getIndex()](#getIndex--) | the icon's index in the icon set. |
-| [getType()](#getType--) | the icon set type. |
+| [getIndex()](#getIndex--) | Gets the icon's index in the icon set. |
+| [getType()](#getType--) | Gets the icon set type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIndex(int value)](#setIndex-int-) | For the description of this property, please see [getIndex()](../../com.aspose.cells/conditionalformattingicon\#getIndex--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/conditionalformattingicon\#getType--) |
+| [setIndex(int value)](#setIndex-int-) | Sets the icon's index in the icon set. |
+| [setType(int value)](#setType-int-) | Sets the icon set type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -105,7 +105,7 @@ public int getIndex()
 ```
 
 
-the icon's index in the icon set.
+Gets the icon's index in the icon set.
 
 **Returns:**
 int
@@ -115,7 +115,7 @@ public int getType()
 ```
 
 
-the icon set type.
+Gets the icon set type.
 
 **Returns:**
 int
@@ -151,7 +151,7 @@ public void setIndex(int value)
 ```
 
 
-For the description of this property, please see [getIndex()](../../com.aspose.cells/conditionalformattingicon\#getIndex--)
+Sets the icon's index in the icon set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -164,7 +164,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/conditionalformattingicon\#getType--)
+Sets the icon set type.
 
 **Parameters:**
 | Parameter | Type | Description |

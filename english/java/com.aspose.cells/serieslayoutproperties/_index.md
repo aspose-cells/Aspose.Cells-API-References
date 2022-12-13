@@ -24,9 +24,9 @@ Represents the properties of series layout.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMapChartProjectionType()](#getMapChartProjectionType--) | the projection type of the map. |
-| [getMapChartRegionType()](#getMapChartRegionType--) | the region type of the map. |
-| [getMapLabelLayout()](#getMapLabelLayout--) | the layout of map labels. |
+| [getMapChartProjectionType()](#getMapChartProjectionType--) | Gets the projection type of the map. |
+| [getMapChartRegionType()](#getMapChartRegionType--) | Gets the region type of the map. |
+| [getMapLabelLayout()](#getMapLabelLayout--) | Gets the layout of map labels. |
 | [getQuartileCalculation()](#getQuartileCalculation--) | Represents the statistical properties for the series. |
 | [getShowConnectorLines()](#getShowConnectorLines--) | Indicates whether showing connector lines between data points. |
 | [getShowInnerPoints()](#getShowInnerPoints--) | Indicates whether showing non-outlier data points. |
@@ -37,16 +37,16 @@ Represents the properties of series layout.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMapChartProjectionType(int value)](#setMapChartProjectionType-int-) | For the description of this property, please see [getMapChartProjectionType()](../../com.aspose.cells/serieslayoutproperties\#getMapChartProjectionType--) |
-| [setMapChartRegionType(int value)](#setMapChartRegionType-int-) | For the description of this property, please see [getMapChartRegionType()](../../com.aspose.cells/serieslayoutproperties\#getMapChartRegionType--) |
-| [setMapLabelLayout(int value)](#setMapLabelLayout-int-) | For the description of this property, please see [getMapLabelLayout()](../../com.aspose.cells/serieslayoutproperties\#getMapLabelLayout--) |
-| [setQuartileCalculation(int value)](#setQuartileCalculation-int-) | For the description of this property, please see [getQuartileCalculation()](../../com.aspose.cells/serieslayoutproperties\#getQuartileCalculation--) |
-| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | For the description of this property, please see [getShowConnectorLines()](../../com.aspose.cells/serieslayoutproperties\#getShowConnectorLines--) |
-| [setShowInnerPoints(boolean value)](#setShowInnerPoints-boolean-) | For the description of this property, please see [getShowInnerPoints()](../../com.aspose.cells/serieslayoutproperties\#getShowInnerPoints--) |
-| [setShowMeanLine(boolean value)](#setShowMeanLine-boolean-) | For the description of this property, please see [getShowMeanLine()](../../com.aspose.cells/serieslayoutproperties\#getShowMeanLine--) |
-| [setShowMeanMarker(boolean value)](#setShowMeanMarker-boolean-) | For the description of this property, please see [getShowMeanMarker()](../../com.aspose.cells/serieslayoutproperties\#getShowMeanMarker--) |
-| [setShowOutlierPoints(boolean value)](#setShowOutlierPoints-boolean-) | For the description of this property, please see [getShowOutlierPoints()](../../com.aspose.cells/serieslayoutproperties\#getShowOutlierPoints--) |
-| [setSubtotals(int[] value)](#setSubtotals-int---) | For the description of this property, please see [getSubtotals()](../../com.aspose.cells/serieslayoutproperties\#getSubtotals--) |
+| [setMapChartProjectionType(int value)](#setMapChartProjectionType-int-) | Sets the projection type of the map. |
+| [setMapChartRegionType(int value)](#setMapChartRegionType-int-) | Sets the region type of the map. |
+| [setMapLabelLayout(int value)](#setMapLabelLayout-int-) | Sets the layout of map labels. |
+| [setQuartileCalculation(int value)](#setQuartileCalculation-int-) | Represents the statistical properties for the series. |
+| [setShowConnectorLines(boolean value)](#setShowConnectorLines-boolean-) | Indicates whether showing connector lines between data points. |
+| [setShowInnerPoints(boolean value)](#setShowInnerPoints-boolean-) | Indicates whether showing non-outlier data points. |
+| [setShowMeanLine(boolean value)](#setShowMeanLine-boolean-) | Indicates whether showing the line connecting all mean points. |
+| [setShowMeanMarker(boolean value)](#setShowMeanMarker-boolean-) | Indicates whether showing markers denoting the mean. |
+| [setShowOutlierPoints(boolean value)](#setShowOutlierPoints-boolean-) | Indicates whether showing outlier data points. |
+| [setSubtotals(int[] value)](#setSubtotals-int---) | Represents the index of a subtotal data point. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -88,7 +88,7 @@ public int getMapChartProjectionType()
 ```
 
 
-the projection type of the map.
+Gets the projection type of the map.
 
 **Returns:**
 int
@@ -98,7 +98,7 @@ public int getMapChartRegionType()
 ```
 
 
-the region type of the map.
+Gets the region type of the map.
 
 **Returns:**
 int
@@ -108,7 +108,7 @@ public int getMapLabelLayout()
 ```
 
 
-the layout of map labels.
+Gets the layout of map labels.
 
 **Returns:**
 int
@@ -214,7 +214,7 @@ public void setMapChartProjectionType(int value)
 ```
 
 
-For the description of this property, please see [getMapChartProjectionType()](../../com.aspose.cells/serieslayoutproperties\#getMapChartProjectionType--)
+Sets the projection type of the map.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -227,7 +227,7 @@ public void setMapChartRegionType(int value)
 ```
 
 
-For the description of this property, please see [getMapChartRegionType()](../../com.aspose.cells/serieslayoutproperties\#getMapChartRegionType--)
+Sets the region type of the map.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -240,7 +240,7 @@ public void setMapLabelLayout(int value)
 ```
 
 
-For the description of this property, please see [getMapLabelLayout()](../../com.aspose.cells/serieslayoutproperties\#getMapLabelLayout--)
+Sets the layout of map labels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -253,7 +253,7 @@ public void setQuartileCalculation(int value)
 ```
 
 
-For the description of this property, please see [getQuartileCalculation()](../../com.aspose.cells/serieslayoutproperties\#getQuartileCalculation--)
+Represents the statistical properties for the series.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -266,7 +266,7 @@ public void setShowConnectorLines(boolean value)
 ```
 
 
-For the description of this property, please see [getShowConnectorLines()](../../com.aspose.cells/serieslayoutproperties\#getShowConnectorLines--)
+Indicates whether showing connector lines between data points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -279,7 +279,7 @@ public void setShowInnerPoints(boolean value)
 ```
 
 
-For the description of this property, please see [getShowInnerPoints()](../../com.aspose.cells/serieslayoutproperties\#getShowInnerPoints--)
+Indicates whether showing non-outlier data points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -292,7 +292,7 @@ public void setShowMeanLine(boolean value)
 ```
 
 
-For the description of this property, please see [getShowMeanLine()](../../com.aspose.cells/serieslayoutproperties\#getShowMeanLine--)
+Indicates whether showing the line connecting all mean points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -305,7 +305,7 @@ public void setShowMeanMarker(boolean value)
 ```
 
 
-For the description of this property, please see [getShowMeanMarker()](../../com.aspose.cells/serieslayoutproperties\#getShowMeanMarker--)
+Indicates whether showing markers denoting the mean.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -318,7 +318,7 @@ public void setShowOutlierPoints(boolean value)
 ```
 
 
-For the description of this property, please see [getShowOutlierPoints()](../../com.aspose.cells/serieslayoutproperties\#getShowOutlierPoints--)
+Indicates whether showing outlier data points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -331,7 +331,7 @@ public void setSubtotals(int[] value)
 ```
 
 
-For the description of this property, please see [getSubtotals()](../../com.aspose.cells/serieslayoutproperties\#getSubtotals--)
+Represents the index of a subtotal data point.
 
 **Parameters:**
 | Parameter | Type | Description |

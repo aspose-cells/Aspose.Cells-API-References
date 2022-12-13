@@ -24,19 +24,19 @@ Specifies font settings
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDefaultFontName()](#getDefaultFontName--) | the default font name. |
+| [getDefaultFontName()](#getDefaultFontName--) | Gets the default font name. |
 | [getFontSources()](#getFontSources--) | Gets a copy of the array that contains the list of sources |
 | [getFontSubstitutes(String originalFontName)](#getFontSubstitutes-java.lang.String-) | Returns array containing font substitute names to be used if original font is not presented. |
 | [getPreferSystemFontSubstitutes()](#getPreferSystemFontSubstitutes--) | Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | For the description of this property, please see [getDefaultFontName()](../../com.aspose.cells/fontconfigs\#getDefaultFontName--) |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default font name. |
 | [setFontFolder(String fontFolder, boolean recursive)](#setFontFolder-java.lang.String-boolean-) | Sets the fonts folder |
 | [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the fonts folders |
 | [setFontSources(FontSourceBase[] sources)](#setFontSources-com.aspose.cells.FontSourceBase---) | Sets the fonts sources. |
 | [setFontSubstitutes(String originalFontName, String[] substituteFontNames)](#setFontSubstitutes-java.lang.String-java.lang.String---) | Font substitute names for given original font name. |
-| [setPreferSystemFontSubstitutes(boolean value)](#setPreferSystemFontSubstitutes-boolean-) | For the description of this property, please see [getPreferSystemFontSubstitutes()](../../com.aspose.cells/fontconfigs\#getPreferSystemFontSubstitutes--) |
+| [setPreferSystemFontSubstitutes(boolean value)](#setPreferSystemFontSubstitutes-boolean-) | Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -78,7 +78,7 @@ public static String getDefaultFontName()
 ```
 
 
-the default font name.
+Gets the default font name.
 
 **Returns:**
 java.lang.String
@@ -149,7 +149,7 @@ public static void setDefaultFontName(String value)
 ```
 
 
-For the description of this property, please see [getDefaultFontName()](../../com.aspose.cells/fontconfigs\#getDefaultFontName--)
+Sets the default font name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public static void setPreferSystemFontSubstitutes(boolean value)
 ```
 
 
-For the description of this property, please see [getPreferSystemFontSubstitutes()](../../com.aspose.cells/fontconfigs\#getPreferSystemFontSubstitutes--)
+Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

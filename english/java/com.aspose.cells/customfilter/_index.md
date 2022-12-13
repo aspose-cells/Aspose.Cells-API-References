@@ -19,14 +19,14 @@ Represents the custom filter.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCriteria()](#getCriteria--) | the criteria. |
-| [getFilterOperatorType()](#getFilterOperatorType--) | the filter operator type. |
+| [getCriteria()](#getCriteria--) | Gets the criteria. |
+| [getFilterOperatorType()](#getFilterOperatorType--) | Gets the filter operator type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCriteria(int filterOperator, Object criteria)](#setCriteria-int-java.lang.Object-) | Sets the filter criteria. |
-| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | For the description of this property, please see [getCriteria()](../../com.aspose.cells/customfilter\#getCriteria--) |
-| [setFilterOperatorType(int value)](#setFilterOperatorType-int-) | For the description of this property, please see [getFilterOperatorType()](../../com.aspose.cells/customfilter\#getFilterOperatorType--) |
+| [setCriteria(Object value)](#setCriteria-java.lang.Object-) | Sets the criteria. |
+| [setFilterOperatorType(int value)](#setFilterOperatorType-int-) | Sets the filter operator type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public Object getCriteria()
 ```
 
 
-the criteria.
+Gets the criteria.
 
 **Returns:**
 java.lang.Object
@@ -72,7 +72,7 @@ public int getFilterOperatorType()
 ```
 
 
-the filter operator type.
+Gets the filter operator type.
 
 **Returns:**
 int
@@ -122,7 +122,7 @@ public void setCriteria(Object value)
 ```
 
 
-For the description of this property, please see [getCriteria()](../../com.aspose.cells/customfilter\#getCriteria--)
+Sets the criteria.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -135,7 +135,7 @@ public void setFilterOperatorType(int value)
 ```
 
 
-For the description of this property, please see [getFilterOperatorType()](../../com.aspose.cells/customfilter\#getFilterOperatorType--)
+Sets the filter operator type.
 
 **Parameters:**
 | Parameter | Type | Description |

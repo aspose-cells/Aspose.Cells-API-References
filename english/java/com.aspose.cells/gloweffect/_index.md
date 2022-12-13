@@ -20,16 +20,16 @@ This class specifies a glow effect, in which a color blurred outline is added ou
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Gets the color of the glow effect. |
-| [getRadius()](#getRadius--) | the radius of the glow, in unit of points. |
-| [getSize()](#getSize--) | the radius of the glow, in unit of points. |
-| [getTransparency()](#getTransparency--) | the degree of transparency of the glow effect. |
+| [getRadius()](#getRadius--) | Gets the radius of the glow, in unit of points. |
+| [getSize()](#getSize--) | Gets the radius of the glow, in unit of points. |
+| [getTransparency()](#getTransparency--) | Gets the degree of transparency of the glow effect. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getColor()](../../com.aspose.cells/gloweffect\#getColor--) |
-| [setRadius(double value)](#setRadius-double-) | For the description of this property, please see [getRadius()](../../com.aspose.cells/gloweffect\#getRadius--) |
-| [setSize(double value)](#setSize-double-) | For the description of this property, please see [getSize()](../../com.aspose.cells/gloweffect\#getSize--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/gloweffect\#getTransparency--) |
+| [setColor(CellsColor value)](#setColor-com.aspose.cells.CellsColor-) | Gets the color of the glow effect. |
+| [setRadius(double value)](#setRadius-double-) | Sets the radius of the glow, in unit of points. |
+| [setSize(double value)](#setSize-double-) | Sets the radius of the glow, in unit of points. |
+| [setTransparency(double value)](#setTransparency-double-) | Sets the degree of transparency of the glow effect. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public double getRadius()
 ```
 
 
-the radius of the glow, in unit of points. NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property. This property will be removed 6 months later since September 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets the radius of the glow, in unit of points. NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property. This property will be removed 6 months later since September 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 double
@@ -85,7 +85,7 @@ public double getSize()
 ```
 
 
-the radius of the glow, in unit of points.
+Gets the radius of the glow, in unit of points.
 
 **Returns:**
 double
@@ -95,7 +95,7 @@ public double getTransparency()
 ```
 
 
-the degree of transparency of the glow effect. Range from 0.0 (opaque) to 1.0 (clear).
+Gets the degree of transparency of the glow effect. Range from 0.0 (opaque) to 1.0 (clear).
 
 **Returns:**
 double
@@ -131,7 +131,7 @@ public void setColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/gloweffect\#getColor--)
+Gets the color of the glow effect.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,7 +144,7 @@ public void setRadius(double value)
 ```
 
 
-For the description of this property, please see [getRadius()](../../com.aspose.cells/gloweffect\#getRadius--)
+Sets the radius of the glow, in unit of points. NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property. This property will be removed 6 months later since September 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setSize(double value)
 ```
 
 
-For the description of this property, please see [getSize()](../../com.aspose.cells/gloweffect\#getSize--)
+Sets the radius of the glow, in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/gloweffect\#getTransparency--)
+Sets the degree of transparency of the glow effect. Range from 0.0 (opaque) to 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -24,8 +24,8 @@ Represents an outline on a worksheet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSummaryColumnRight(boolean value)](#setSummaryColumnRight-boolean-) | For the description of this property, please see [getSummaryColumnRight()](../../com.aspose.cells/outline\#getSummaryColumnRight--) |
-| [setSummaryRowBelow(boolean value)](#setSummaryRowBelow-boolean-) | For the description of this property, please see [getSummaryRowBelow()](../../com.aspose.cells/outline\#getSummaryRowBelow--) |
+| [setSummaryColumnRight(boolean value)](#setSummaryColumnRight-boolean-) | Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
+| [setSummaryRowBelow(boolean value)](#setSummaryRowBelow-boolean-) | Indicates if the summary row will be positioned below the detail rows in the outline. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,7 +107,7 @@ public void setSummaryColumnRight(boolean value)
 ```
 
 
-For the description of this property, please see [getSummaryColumnRight()](../../com.aspose.cells/outline\#getSummaryColumnRight--)
+Indicates if the summary column will be positioned to the right of the detail columns in the outline.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +120,7 @@ public void setSummaryRowBelow(boolean value)
 ```
 
 
-For the description of this property, please see [getSummaryRowBelow()](../../com.aspose.cells/outline\#getSummaryRowBelow--)
+Indicates if the summary row will be positioned below the detail rows in the outline.
 
 **Parameters:**
 | Parameter | Type | Description |

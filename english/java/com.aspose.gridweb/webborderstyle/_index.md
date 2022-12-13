@@ -24,12 +24,12 @@ Encapsulates the style of web table or cell border. Please refer to .NET SDK doc
 | --- | --- |
 | [copyFrom(WebBorderStyle style)](#copyFrom-com.aspose.gridweb.WebBorderStyle-) | Copies from another style object. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBorderColor()](#getBorderColor--) | the color of the border. |
+| [getBorderColor()](#getBorderColor--) | Gets the color of the border. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getBorderColor()](../../com.aspose.gridweb/webborderstyle\#getBorderColor--) |
+| [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the color of the border. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -76,7 +76,7 @@ public Color getBorderColor()
 ```
 
 
-the color of the border. Please refer to System.Drawing.Color struct.
+Gets the color of the border. Please refer to System.Drawing.Color struct.
 
 **Returns:**
 [Color](../../com.aspose.gridweb/color)
@@ -122,7 +122,7 @@ public void setBorderColor(Color value)
 ```
 
 
-For the description of this property, please see [getBorderColor()](../../com.aspose.gridweb/webborderstyle\#getBorderColor--)
+Sets the color of the border. Please refer to System.Drawing.Color struct.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -56,7 +56,7 @@ Represents find options.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCaseSensitive()](#getCaseSensitive--) | Indicates if the searched string is case sensitive. |
 | [getClass()](#getClass--) |  |
-| [getConvertNumericData()](#getConvertNumericData--) | a value that indicates whether converting the searched string value to numeric data. |
+| [getConvertNumericData()](#getConvertNumericData--) | Gets a value that indicates whether converting the searched string value to numeric data. |
 | [getLookAtType()](#getLookAtType--) | Look at type. |
 | [getLookInType()](#getLookInType--) | Look in type. |
 | [getRange()](#getRange--) | Gets and sets the searched range. |
@@ -70,17 +70,17 @@ Represents find options.
 | [isRangeSet()](#isRangeSet--) | Indicates whether the searched range is set. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | For the description of this property, please see [getCaseSensitive()](../../com.aspose.cells/findoptions\#getCaseSensitive--) |
-| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | For the description of this property, please see [getConvertNumericData()](../../com.aspose.cells/findoptions\#getConvertNumericData--) |
-| [setLookAtType(int value)](#setLookAtType-int-) | For the description of this property, please see [getLookAtType()](../../com.aspose.cells/findoptions\#getLookAtType--) |
-| [setLookInType(int value)](#setLookInType-int-) | For the description of this property, please see [getLookInType()](../../com.aspose.cells/findoptions\#getLookInType--) |
+| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | Indicates if the searched string is case sensitive. |
+| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Sets a value that indicates whether converting the searched string value to numeric data. |
+| [setLookAtType(int value)](#setLookAtType-int-) | Look at type. |
+| [setLookInType(int value)](#setLookInType-int-) | Look in type. |
 | [setRange(CellArea ca)](#setRange-com.aspose.cells.CellArea-) | Sets the searched range. |
-| [setRegexKey(boolean value)](#setRegexKey-boolean-) | For the description of this property, please see [getRegexKey()](../../com.aspose.cells/findoptions\#getRegexKey--) |
-| [setSeachOrderByRows(boolean value)](#setSeachOrderByRows-boolean-) | For the description of this property, please see [getSeachOrderByRows()](../../com.aspose.cells/findoptions\#getSeachOrderByRows--) |
-| [setSearchBackward(boolean value)](#setSearchBackward-boolean-) | For the description of this property, please see [getSearchBackward()](../../com.aspose.cells/findoptions\#getSearchBackward--) |
-| [setSearchNext(boolean value)](#setSearchNext-boolean-) | For the description of this property, please see [getSearchNext()](../../com.aspose.cells/findoptions\#getSearchNext--) |
-| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | For the description of this property, please see [getStyle()](../../com.aspose.cells/findoptions\#getStyle--) |
-| [setValueTypeSensitive(boolean value)](#setValueTypeSensitive-boolean-) | For the description of this property, please see [getValueTypeSensitive()](../../com.aspose.cells/findoptions\#getValueTypeSensitive--) |
+| [setRegexKey(boolean value)](#setRegexKey-boolean-) | Indicates whether the searched key is regex. |
+| [setSeachOrderByRows(boolean value)](#setSeachOrderByRows-boolean-) | Indicates whether search order by rows or columns. |
+| [setSearchBackward(boolean value)](#setSearchBackward-boolean-) | Whether search backward for cells. |
+| [setSearchNext(boolean value)](#setSearchNext-boolean-) | Search order. |
+| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | The format to search for. |
+| [setValueTypeSensitive(boolean value)](#setValueTypeSensitive-boolean-) | Indicates whether searched cell value type should be same with the searched key. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public boolean getConvertNumericData()
 ```
 
 
-a value that indicates whether converting the searched string value to numeric data.
+Gets a value that indicates whether converting the searched string value to numeric data.
 
 **Returns:**
 boolean
@@ -268,7 +268,7 @@ public void setCaseSensitive(boolean value)
 ```
 
 
-For the description of this property, please see [getCaseSensitive()](../../com.aspose.cells/findoptions\#getCaseSensitive--)
+Indicates if the searched string is case sensitive.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setConvertNumericData(boolean value)
 ```
 
 
-For the description of this property, please see [getConvertNumericData()](../../com.aspose.cells/findoptions\#getConvertNumericData--)
+Sets a value that indicates whether converting the searched string value to numeric data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -294,7 +294,7 @@ public void setLookAtType(int value)
 ```
 
 
-For the description of this property, please see [getLookAtType()](../../com.aspose.cells/findoptions\#getLookAtType--)
+Look at type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -307,7 +307,7 @@ public void setLookInType(int value)
 ```
 
 
-For the description of this property, please see [getLookInType()](../../com.aspose.cells/findoptions\#getLookInType--)
+Look in type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -333,7 +333,7 @@ public void setRegexKey(boolean value)
 ```
 
 
-For the description of this property, please see [getRegexKey()](../../com.aspose.cells/findoptions\#getRegexKey--)
+Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,7 +346,7 @@ public void setSeachOrderByRows(boolean value)
 ```
 
 
-For the description of this property, please see [getSeachOrderByRows()](../../com.aspose.cells/findoptions\#getSeachOrderByRows--)
+Indicates whether search order by rows or columns.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -359,7 +359,7 @@ public void setSearchBackward(boolean value)
 ```
 
 
-For the description of this property, please see [getSearchBackward()](../../com.aspose.cells/findoptions\#getSearchBackward--)
+Whether search backward for cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -372,7 +372,7 @@ public void setSearchNext(boolean value)
 ```
 
 
-For the description of this property, please see [getSearchNext()](../../com.aspose.cells/findoptions\#getSearchNext--)
+Search order. True: search next. False: search previous. NOTE: This member is now obsolete. Instead, please use FindOptions.SearchBackward property. This property will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -385,7 +385,7 @@ public void setStyle(Style value)
 ```
 
 
-For the description of this property, please see [getStyle()](../../com.aspose.cells/findoptions\#getStyle--)
+The format to search for.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -398,7 +398,7 @@ public void setValueTypeSensitive(boolean value)
 ```
 
 
-For the description of this property, please see [getValueTypeSensitive()](../../com.aspose.cells/findoptions\#getValueTypeSensitive--)
+Indicates whether searched cell value type should be same with the searched key.
 
 **Parameters:**
 | Parameter | Type | Description |

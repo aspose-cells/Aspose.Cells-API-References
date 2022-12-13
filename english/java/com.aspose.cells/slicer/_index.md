@@ -82,7 +82,7 @@ Workbook book = new Workbook();
 | [getCaptionVisible()](#getCaptionVisible--) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
 | [getClass()](#getClass--) |  |
 | [getColumnWidth()](#getColumnWidth--) | Returns or sets the width, in points, of each column in the slicer. |
-| [getColumnWidthPixel()](#getColumnWidthPixel--) | the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d |
+| [getColumnWidthPixel()](#getColumnWidthPixel--) | Gets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d |
 | [getHeight()](#getHeight--) | Returns or sets the height of the specified slicer, in points. |
 | [getHeightPixel()](#getHeightPixel--) | Returns or sets the height of the specified slicer, in pixels. |
 | [getLeftPixel()](#getLeftPixel--) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
@@ -107,28 +107,28 @@ Workbook book = new Workbook();
 | [notifyAll()](#notifyAll--) |  |
 | [refresh()](#refresh--) | Refreshing the slicer.Meanwhile, Refreshing and Calculating relative PivotTables. |
 | [removePivotConnection(PivotTable pivot)](#removePivotConnection-com.aspose.cells.PivotTable-) | Removes PivotTable connection. |
-| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | For the description of this property, please see [getAlternativeText()](../../com.aspose.cells/slicer\#getAlternativeText--) |
-| [setCaption(String value)](#setCaption-java.lang.String-) | For the description of this property, please see [getCaption()](../../com.aspose.cells/slicer\#getCaption--) |
-| [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) | For the description of this property, please see [getCaptionVisible()](../../com.aspose.cells/slicer\#getCaptionVisible--) |
-| [setColumnWidth(double value)](#setColumnWidth-double-) | For the description of this property, please see [getColumnWidth()](../../com.aspose.cells/slicer\#getColumnWidth--) |
-| [setColumnWidthPixel(int value)](#setColumnWidthPixel-int-) | For the description of this property, please see [getColumnWidthPixel()](../../com.aspose.cells/slicer\#getColumnWidthPixel--) |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/slicer\#getHeight--) |
-| [setHeightPixel(int value)](#setHeightPixel-int-) | For the description of this property, please see [getHeightPixel()](../../com.aspose.cells/slicer\#getHeightPixel--) |
-| [setLeftPixel(int value)](#setLeftPixel-int-) | For the description of this property, please see [getLeftPixel()](../../com.aspose.cells/slicer\#getLeftPixel--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/slicer\#isLocked--) |
-| [setLockedAspectRatio(boolean value)](#setLockedAspectRatio-boolean-) | For the description of this property, please see [getLockedAspectRatio()](../../com.aspose.cells/slicer\#getLockedAspectRatio--) |
-| [setLockedPosition(boolean value)](#setLockedPosition-boolean-) | For the description of this property, please see [getLockedPosition()](../../com.aspose.cells/slicer\#getLockedPosition--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/slicer\#getName--) |
-| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | For the description of this property, please see [getNumberOfColumns()](../../com.aspose.cells/slicer\#getNumberOfColumns--) |
-| [setPlacement(int value)](#setPlacement-int-) | For the description of this property, please see [getPlacement()](../../com.aspose.cells/slicer\#getPlacement--) |
-| [setPrintable(boolean value)](#setPrintable-boolean-) | For the description of this property, please see [isPrintable()](../../com.aspose.cells/slicer\#isPrintable--) |
-| [setRowHeight(double value)](#setRowHeight-double-) | For the description of this property, please see [getRowHeight()](../../com.aspose.cells/slicer\#getRowHeight--) |
-| [setRowHeightPixel(int value)](#setRowHeightPixel-int-) | For the description of this property, please see [getRowHeightPixel()](../../com.aspose.cells/slicer\#getRowHeightPixel--) |
-| [setStyleType(int value)](#setStyleType-int-) | For the description of this property, please see [getStyleType()](../../com.aspose.cells/slicer\#getStyleType--) |
-| [setTitle(String value)](#setTitle-java.lang.String-) | For the description of this property, please see [getTitle()](../../com.aspose.cells/slicer\#getTitle--) |
-| [setTopPixel(int value)](#setTopPixel-int-) | For the description of this property, please see [getTopPixel()](../../com.aspose.cells/slicer\#getTopPixel--) |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/slicer\#getWidth--) |
-| [setWidthPixel(int value)](#setWidthPixel-int-) | For the description of this property, please see [getWidthPixel()](../../com.aspose.cells/slicer\#getWidthPixel--) |
+| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the descriptive (alternative) text string of the Slicer object. |
+| [setCaption(String value)](#setCaption-java.lang.String-) | Returns or sets the caption of the specified slicer. |
+| [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
+| [setColumnWidth(double value)](#setColumnWidth-double-) | Returns or sets the width, in points, of each column in the slicer. |
+| [setColumnWidthPixel(int value)](#setColumnWidthPixel-int-) | Sets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d |
+| [setHeight(double value)](#setHeight-double-) | Returns or sets the height of the specified slicer, in points. |
+| [setHeightPixel(int value)](#setHeightPixel-int-) | Returns or sets the height of the specified slicer, in pixels. |
+| [setLeftPixel(int value)](#setLeftPixel-int-) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether the slicer shape is locked. |
+| [setLockedAspectRatio(boolean value)](#setLockedAspectRatio-boolean-) | Indicates whether locking aspect ratio. |
+| [setLockedPosition(boolean value)](#setLockedPosition-boolean-) | Indicates whether the specified slicer can be moved or resized by using the user interface. |
+| [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the specified slicer |
+| [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | Returns or sets the number of columns in the specified slicer. |
+| [setPlacement(int value)](#setPlacement-int-) | Represents the way the drawing object is attached to the cells below it. |
+| [setPrintable(boolean value)](#setPrintable-boolean-) | Indicates whether the slicer object is printable. |
+| [setRowHeight(double value)](#setRowHeight-double-) | Returns or sets the height, in points, of each row in the specified slicer. |
+| [setRowHeightPixel(int value)](#setRowHeightPixel-int-) | Returns or sets the height, in pixels, of each row in the specified slicer. |
+| [setStyleType(int value)](#setStyleType-int-) | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Specifies the title of the current Slicer object. |
+| [setTopPixel(int value)](#setTopPixel-int-) | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
+| [setWidth(double value)](#setWidth-double-) | Returns or sets the width of the specified slicer, in points. |
+| [setWidthPixel(int value)](#setWidthPixel-int-) | Returns or sets the width of the specified slicer, in pixels. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -237,7 +237,7 @@ public int getColumnWidthPixel()
 ```
 
 
-the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
+Gets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
 
 ```
 slicer.setColumnWidthPixel(120);
@@ -572,7 +572,7 @@ public void setAlternativeText(String value)
 ```
 
 
-For the description of this property, please see [getAlternativeText()](../../com.aspose.cells/slicer\#getAlternativeText--)
+Returns or sets the descriptive (alternative) text string of the Slicer object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -585,7 +585,7 @@ public void setCaption(String value)
 ```
 
 
-For the description of this property, please see [getCaption()](../../com.aspose.cells/slicer\#getCaption--)
+Returns or sets the caption of the specified slicer.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -598,7 +598,7 @@ public void setCaptionVisible(boolean value)
 ```
 
 
-For the description of this property, please see [getCaptionVisible()](../../com.aspose.cells/slicer\#getCaptionVisible--)
+Returns or sets whether the header that displays the slicer Caption is visible the default value is true
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -611,7 +611,7 @@ public void setColumnWidth(double value)
 ```
 
 
-For the description of this property, please see [getColumnWidth()](../../com.aspose.cells/slicer\#getColumnWidth--)
+Returns or sets the width, in points, of each column in the slicer.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -624,7 +624,7 @@ public void setColumnWidthPixel(int value)
 ```
 
 
-For the description of this property, please see [getColumnWidthPixel()](../../com.aspose.cells/slicer\#getColumnWidthPixel--)
+Sets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -637,7 +637,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/slicer\#getHeight--)
+Returns or sets the height of the specified slicer, in points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -650,7 +650,7 @@ public void setHeightPixel(int value)
 ```
 
 
-For the description of this property, please see [getHeightPixel()](../../com.aspose.cells/slicer\#getHeightPixel--)
+Returns or sets the height of the specified slicer, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -663,7 +663,7 @@ public void setLeftPixel(int value)
 ```
 
 
-For the description of this property, please see [getLeftPixel()](../../com.aspose.cells/slicer\#getLeftPixel--)
+Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -676,7 +676,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.cells/slicer\#isLocked--)
+Indicates whether the slicer shape is locked.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -689,7 +689,7 @@ public void setLockedAspectRatio(boolean value)
 ```
 
 
-For the description of this property, please see [getLockedAspectRatio()](../../com.aspose.cells/slicer\#getLockedAspectRatio--)
+Indicates whether locking aspect ratio.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -702,7 +702,7 @@ public void setLockedPosition(boolean value)
 ```
 
 
-For the description of this property, please see [getLockedPosition()](../../com.aspose.cells/slicer\#getLockedPosition--)
+Indicates whether the specified slicer can be moved or resized by using the user interface.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -715,7 +715,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/slicer\#getName--)
+Returns or sets the name of the specified slicer
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -728,7 +728,7 @@ public void setNumberOfColumns(int value)
 ```
 
 
-For the description of this property, please see [getNumberOfColumns()](../../com.aspose.cells/slicer\#getNumberOfColumns--)
+Returns or sets the number of columns in the specified slicer.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -741,7 +741,7 @@ public void setPlacement(int value)
 ```
 
 
-For the description of this property, please see [getPlacement()](../../com.aspose.cells/slicer\#getPlacement--)
+Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -754,7 +754,7 @@ public void setPrintable(boolean value)
 ```
 
 
-For the description of this property, please see [isPrintable()](../../com.aspose.cells/slicer\#isPrintable--)
+Indicates whether the slicer object is printable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -767,7 +767,7 @@ public void setRowHeight(double value)
 ```
 
 
-For the description of this property, please see [getRowHeight()](../../com.aspose.cells/slicer\#getRowHeight--)
+Returns or sets the height, in points, of each row in the specified slicer.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -780,7 +780,7 @@ public void setRowHeightPixel(int value)
 ```
 
 
-For the description of this property, please see [getRowHeightPixel()](../../com.aspose.cells/slicer\#getRowHeightPixel--)
+Returns or sets the height, in pixels, of each row in the specified slicer.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -793,7 +793,7 @@ public void setStyleType(int value)
 ```
 
 
-For the description of this property, please see [getStyleType()](../../com.aspose.cells/slicer\#getStyleType--)
+Specify the type of Built-in slicer style the default type is SlicerStyleLight1
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -806,7 +806,7 @@ public void setTitle(String value)
 ```
 
 
-For the description of this property, please see [getTitle()](../../com.aspose.cells/slicer\#getTitle--)
+Specifies the title of the current Slicer object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -819,7 +819,7 @@ public void setTopPixel(int value)
 ```
 
 
-For the description of this property, please see [getTopPixel()](../../com.aspose.cells/slicer\#getTopPixel--)
+Returns or sets the vertical offset of slicer shape from its top row, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -832,7 +832,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/slicer\#getWidth--)
+Returns or sets the width of the specified slicer, in points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -845,7 +845,7 @@ public void setWidthPixel(int value)
 ```
 
 
-For the description of this property, please see [getWidthPixel()](../../com.aspose.cells/slicer\#getWidthPixel--)
+Returns or sets the width of the specified slicer, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |

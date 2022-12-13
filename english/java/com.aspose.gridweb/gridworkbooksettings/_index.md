@@ -31,30 +31,30 @@ GridWeb gridweb = new GridWeb();
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAuthor()](#getAuthor--) | the author of the file. |
-| [getCheckCustomNumberFormat()](#getCheckCustomNumberFormat--) | whether checking custom number format when setting Style.Custom. |
+| [getAuthor()](#getAuthor--) | Gets the author of the file. |
+| [getCheckCustomNumberFormat()](#getCheckCustomNumberFormat--) | Gets whether checking custom number format when setting Style.Custom. |
 | [getClass()](#getClass--) |  |
-| [getCreateCalcChain()](#getCreateCalcChain--) | whether create calculated formulas chain. |
-| [getDate1904()](#getDate1904--) | the value which represents if the workbook uses the 1904 date system. |
-| [getEnableMacros()](#getEnableMacros--) | whether enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
-| [getForceFullCalculate()](#getForceFullCalculate--) | whether fully calculates every time when a calculation is triggered. |
-| [getIteration()](#getIteration--) | whether use iteration to resolve circular references. |
-| [getMaxIteration()](#getMaxIteration--) | the maximum number of iterations to resolve a circular reference,the default value is 100. |
+| [getCreateCalcChain()](#getCreateCalcChain--) | Gets whether create calculated formulas chain. |
+| [getDate1904()](#getDate1904--) | Gets the value which represents if the workbook uses the 1904 date system. |
+| [getEnableMacros()](#getEnableMacros--) | Gets whether enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
+| [getForceFullCalculate()](#getForceFullCalculate--) | Gets whether fully calculates every time when a calculation is triggered. |
+| [getIteration()](#getIteration--) | Gets whether use iteration to resolve circular references. |
+| [getMaxIteration()](#getMaxIteration--) | Gets the maximum number of iterations to resolve a circular reference,the default value is 100. |
 | [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
-| [getReCalculateOnOpen()](#getReCalculateOnOpen--) | whether re-calculate all formulas on opening file. |
+| [getReCalculateOnOpen()](#getReCalculateOnOpen--) | Gets whether re-calculate all formulas on opening file. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see [getAuthor()](../../com.aspose.gridweb/gridworkbooksettings\#getAuthor--) |
-| [setCheckCustomNumberFormat(boolean value)](#setCheckCustomNumberFormat-boolean-) | For the description of this property, please see [getCheckCustomNumberFormat()](../../com.aspose.gridweb/gridworkbooksettings\#getCheckCustomNumberFormat--) |
-| [setCreateCalcChain(boolean value)](#setCreateCalcChain-boolean-) | For the description of this property, please see [getCreateCalcChain()](../../com.aspose.gridweb/gridworkbooksettings\#getCreateCalcChain--) |
-| [setDate1904(boolean value)](#setDate1904-boolean-) | For the description of this property, please see [getDate1904()](../../com.aspose.gridweb/gridworkbooksettings\#getDate1904--) |
-| [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | For the description of this property, please see [getEnableMacros()](../../com.aspose.gridweb/gridworkbooksettings\#getEnableMacros--) |
-| [setForceFullCalculate(boolean value)](#setForceFullCalculate-boolean-) | For the description of this property, please see [getForceFullCalculate()](../../com.aspose.gridweb/gridworkbooksettings\#getForceFullCalculate--) |
-| [setIteration(boolean value)](#setIteration-boolean-) | For the description of this property, please see [getIteration()](../../com.aspose.gridweb/gridworkbooksettings\#getIteration--) |
-| [setMaxIteration(int value)](#setMaxIteration-int-) | For the description of this property, please see [getMaxIteration()](../../com.aspose.gridweb/gridworkbooksettings\#getMaxIteration--) |
-| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | For the description of this property, please see [getPrecisionAsDisplayed()](../../com.aspose.gridweb/gridworkbooksettings\#getPrecisionAsDisplayed--) |
-| [setReCalculateOnOpen(boolean value)](#setReCalculateOnOpen-boolean-) | For the description of this property, please see [getReCalculateOnOpen()](../../com.aspose.gridweb/gridworkbooksettings\#getReCalculateOnOpen--) |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author of the file. |
+| [setCheckCustomNumberFormat(boolean value)](#setCheckCustomNumberFormat-boolean-) | Sets whether checking custom number format when setting Style.Custom. |
+| [setCreateCalcChain(boolean value)](#setCreateCalcChain-boolean-) | Sets whether create calculated formulas chain. |
+| [setDate1904(boolean value)](#setDate1904-boolean-) | Sets the value which represents if the workbook uses the 1904 date system. |
+| [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | Sets whether enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
+| [setForceFullCalculate(boolean value)](#setForceFullCalculate-boolean-) | Sets whether fully calculates every time when a calculation is triggered. |
+| [setIteration(boolean value)](#setIteration-boolean-) | Sets whether use iteration to resolve circular references. |
+| [setMaxIteration(int value)](#setMaxIteration-int-) | Sets the maximum number of iterations to resolve a circular reference,the default value is 100. |
+| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
+| [setReCalculateOnOpen(boolean value)](#setReCalculateOnOpen-boolean-) | Sets whether re-calculate all formulas on opening file. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -86,7 +86,7 @@ public String getAuthor()
 ```
 
 
-the author of the file.
+Gets the author of the file.
 
 **Returns:**
 java.lang.String
@@ -96,7 +96,7 @@ public boolean getCheckCustomNumberFormat()
 ```
 
 
-whether checking custom number format when setting Style.Custom.
+Gets whether checking custom number format when setting Style.Custom.
 
 **Returns:**
 boolean
@@ -116,7 +116,7 @@ public boolean getCreateCalcChain()
 ```
 
 
-whether create calculated formulas chain. Default is false.
+Gets whether create calculated formulas chain. Default is false.
 
 **Returns:**
 boolean
@@ -126,7 +126,7 @@ public boolean getDate1904()
 ```
 
 
-the value which represents if the workbook uses the 1904 date system.
+Gets the value which represents if the workbook uses the 1904 date system.
 
 **Returns:**
 boolean
@@ -136,7 +136,7 @@ public boolean getEnableMacros()
 ```
 
 
-whether enable macros; Now it only works when copying a worksheet to other worksheet in a workbook.
+Gets whether enable macros; Now it only works when copying a worksheet to other worksheet in a workbook.
 
 **Returns:**
 boolean
@@ -146,7 +146,7 @@ public boolean getForceFullCalculate()
 ```
 
 
-whether fully calculates every time when a calculation is triggered.
+Gets whether fully calculates every time when a calculation is triggered.
 
 **Returns:**
 boolean
@@ -156,7 +156,7 @@ public boolean getIteration()
 ```
 
 
-whether use iteration to resolve circular references.
+Gets whether use iteration to resolve circular references.
 
 **Returns:**
 boolean
@@ -166,7 +166,7 @@ public int getMaxIteration()
 ```
 
 
-the maximum number of iterations to resolve a circular reference,the default value is 100.
+Gets the maximum number of iterations to resolve a circular reference,the default value is 100.
 
 **Returns:**
 int
@@ -186,7 +186,7 @@ public boolean getReCalculateOnOpen()
 ```
 
 
-whether re-calculate all formulas on opening file.
+Gets whether re-calculate all formulas on opening file.
 
 **Returns:**
 boolean
@@ -222,7 +222,7 @@ public void setAuthor(String value)
 ```
 
 
-For the description of this property, please see [getAuthor()](../../com.aspose.gridweb/gridworkbooksettings\#getAuthor--)
+Sets the author of the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -235,7 +235,7 @@ public void setCheckCustomNumberFormat(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckCustomNumberFormat()](../../com.aspose.gridweb/gridworkbooksettings\#getCheckCustomNumberFormat--)
+Sets whether checking custom number format when setting Style.Custom.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -248,7 +248,7 @@ public void setCreateCalcChain(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateCalcChain()](../../com.aspose.gridweb/gridworkbooksettings\#getCreateCalcChain--)
+Sets whether create calculated formulas chain. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -261,7 +261,7 @@ public void setDate1904(boolean value)
 ```
 
 
-For the description of this property, please see [getDate1904()](../../com.aspose.gridweb/gridworkbooksettings\#getDate1904--)
+Sets the value which represents if the workbook uses the 1904 date system.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -274,7 +274,7 @@ public void setEnableMacros(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableMacros()](../../com.aspose.gridweb/gridworkbooksettings\#getEnableMacros--)
+Sets whether enable macros; Now it only works when copying a worksheet to other worksheet in a workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -287,7 +287,7 @@ public void setForceFullCalculate(boolean value)
 ```
 
 
-For the description of this property, please see [getForceFullCalculate()](../../com.aspose.gridweb/gridworkbooksettings\#getForceFullCalculate--)
+Sets whether fully calculates every time when a calculation is triggered.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -300,7 +300,7 @@ public void setIteration(boolean value)
 ```
 
 
-For the description of this property, please see [getIteration()](../../com.aspose.gridweb/gridworkbooksettings\#getIteration--)
+Sets whether use iteration to resolve circular references.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -313,7 +313,7 @@ public void setMaxIteration(int value)
 ```
 
 
-For the description of this property, please see [getMaxIteration()](../../com.aspose.gridweb/gridworkbooksettings\#getMaxIteration--)
+Sets the maximum number of iterations to resolve a circular reference,the default value is 100.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -326,7 +326,7 @@ public void setPrecisionAsDisplayed(boolean value)
 ```
 
 
-For the description of this property, please see [getPrecisionAsDisplayed()](../../com.aspose.gridweb/gridworkbooksettings\#getPrecisionAsDisplayed--)
+True if calculations in this workbook will be done using only the precision of the numbers as they're displayed
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -339,7 +339,7 @@ public void setReCalculateOnOpen(boolean value)
 ```
 
 
-For the description of this property, please see [getReCalculateOnOpen()](../../com.aspose.gridweb/gridworkbooksettings\#getReCalculateOnOpen--)
+Sets whether re-calculate all formulas on opening file.
 
 **Parameters:**
 | Parameter | Type | Description |

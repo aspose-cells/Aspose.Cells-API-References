@@ -18,29 +18,29 @@ Represents a CheckBox ActiveX control.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAccelerator()](#getAccelerator--) | the accelerator key for the control. |
-| [getAlignment()](#getAlignment--) | the position of the Caption relative to the control. |
-| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
-| [getCaption()](#getCaption--) | the descriptive text that appears on a control. |
+| [getAccelerator()](#getAccelerator--) | Gets the accelerator key for the control. |
+| [getAlignment()](#getAlignment--) | Gets the position of the Caption relative to the control. |
+| [getBackOleColor()](#getBackOleColor--) | Gets the ole color of the background. |
+| [getCaption()](#getCaption--) | Gets the descriptive text that appears on a control. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | the binary data of the control. |
+| [getData()](#getData--) | Gets the binary data of the control. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
-| [getGroupName()](#getGroupName--) | the group's name. |
-| [getHeight()](#getHeight--) | the height of the control in unit of points. |
-| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
-| [getListFillRange()](#getListFillRange--) | the list fill range. |
-| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
-| [getPicture()](#getPicture--) | the data of the picture. |
-| [getPicturePosition()](#getPicturePosition--) | the location of the control's picture relative to its caption. |
+| [getForeOleColor()](#getForeOleColor--) | Gets the ole color of the foreground. |
+| [getGroupName()](#getGroupName--) | Gets the group's name. |
+| [getHeight()](#getHeight--) | Gets the height of the control in unit of points. |
+| [getIMEMode()](#getIMEMode--) | Gets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getLinkedCell()](#getLinkedCell--) | Gets the linked cell. |
+| [getListFillRange()](#getListFillRange--) | Gets the list fill range. |
+| [getMouseIcon()](#getMouseIcon--) | Gets a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | Gets the type of icon displayed as the mouse pointer for the control. |
+| [getPicture()](#getPicture--) | Gets the data of the picture. |
+| [getPicturePosition()](#getPicturePosition--) | Gets the location of the control's picture relative to its caption. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
-| [getSpecialEffect()](#getSpecialEffect--) | the special effect of the control. |
+| [getSpecialEffect()](#getSpecialEffect--) | Gets the special effect of the control. |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
 | [getValue()](#getValue--) | Indicates if the control is checked or not. |
-| [getWidth()](#getWidth--) | the width of the control in unit of points. |
+| [getWidth()](#getWidth--) | Gets the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -52,32 +52,32 @@ Represents a CheckBox ActiveX control.
 | [isWordWrapped()](#isWordWrapped--) | Indicates whether the contents of the control automatically wrap at the end of a line. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAccelerator(char value)](#setAccelerator-char-) | For the description of this property, please see [getAccelerator()](../../com.aspose.cells/checkboxactivexcontrol\#getAccelerator--) |
-| [setAlignment(int value)](#setAlignment-int-) | For the description of this property, please see [getAlignment()](../../com.aspose.cells/checkboxactivexcontrol\#getAlignment--) |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--) |
-| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
-| [setCaption(String value)](#setCaption-java.lang.String-) | For the description of this property, please see [getCaption()](../../com.aspose.cells/checkboxactivexcontrol\#getCaption--) |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--) |
-| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
-| [setGroupName(String value)](#setGroupName-java.lang.String-) | For the description of this property, please see [getGroupName()](../../com.aspose.cells/checkboxactivexcontrol\#getGroupName--) |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
-| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--) |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--) |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
-| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
-| [setPicture(byte[] value)](#setPicture-byte---) | For the description of this property, please see [getPicture()](../../com.aspose.cells/checkboxactivexcontrol\#getPicture--) |
-| [setPicturePosition(int value)](#setPicturePosition-int-) | For the description of this property, please see [getPicturePosition()](../../com.aspose.cells/checkboxactivexcontrol\#getPicturePosition--) |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
-| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/checkboxactivexcontrol\#getSpecialEffect--) |
-| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--) |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--) |
-| [setTripleState(boolean value)](#setTripleState-boolean-) | For the description of this property, please see [isTripleState()](../../com.aspose.cells/checkboxactivexcontrol\#isTripleState--) |
-| [setValue(int value)](#setValue-int-) | For the description of this property, please see [getValue()](../../com.aspose.cells/checkboxactivexcontrol\#getValue--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
-| [setWordWrapped(boolean value)](#setWordWrapped-boolean-) | For the description of this property, please see [isWordWrapped()](../../com.aspose.cells/checkboxactivexcontrol\#isWordWrapped--) |
+| [setAccelerator(char value)](#setAccelerator-char-) | Sets the accelerator key for the control. |
+| [setAlignment(int value)](#setAlignment-int-) | Sets the position of the Caption relative to the control. |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates whether the control will automatically resize to display its entire contents. |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | Sets the ole color of the background. |
+| [setCaption(String value)](#setCaption-java.lang.String-) | Sets the descriptive text that appears on a control. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | Indicates whether the control can receive the focus and respond to user-generated events. |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | Sets the ole color of the foreground. |
+| [setGroupName(String value)](#setGroupName-java.lang.String-) | Sets the group's name. |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the control in unit of points. |
+| [setIMEMode(int value)](#setIMEMode-int-) | Sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the linked cell. |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | Sets the list fill range. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether data in the control is locked for editing. |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | Sets a custom icon to display as the mouse pointer for the control. |
+| [setMousePointer(int value)](#setMousePointer-int-) | Sets the type of icon displayed as the mouse pointer for the control. |
+| [setPicture(byte[] value)](#setPicture-byte---) | Sets the data of the picture. |
+| [setPicturePosition(int value)](#setPicturePosition-int-) | Sets the location of the control's picture relative to its caption. |
+| [setShadow(boolean value)](#setShadow-boolean-) | Indicates whether to show a shadow. |
+| [setSpecialEffect(int value)](#setSpecialEffect-int-) | Sets the special effect of the control. |
+| [setTextAlign(int value)](#setTextAlign-int-) | Represents how to align the text used by the control. |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | Indicates whether the control is transparent. |
+| [setTripleState(boolean value)](#setTripleState-boolean-) | Indicates how the specified control will display Null values. |
+| [setValue(int value)](#setValue-int-) | Indicates if the control is checked or not. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this control is visible. |
+| [setWidth(double value)](#setWidth-double-) | Sets the width of the control in unit of points. |
+| [setWordWrapped(boolean value)](#setWordWrapped-boolean-) | Indicates whether the contents of the control automatically wrap at the end of a line. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -103,7 +103,7 @@ public char getAccelerator()
 ```
 
 
-the accelerator key for the control.
+Gets the accelerator key for the control.
 
 **Returns:**
 char
@@ -113,7 +113,7 @@ public int getAlignment()
 ```
 
 
-the position of the Caption relative to the control.
+Gets the position of the Caption relative to the control.
 
 **Returns:**
 int
@@ -123,7 +123,7 @@ public int getBackOleColor()
 ```
 
 
-the ole color of the background.
+Gets the ole color of the background.
 
 **Returns:**
 int
@@ -133,7 +133,7 @@ public String getCaption()
 ```
 
 
-the descriptive text that appears on a control.
+Gets the descriptive text that appears on a control.
 
 **Returns:**
 java.lang.String
@@ -153,7 +153,7 @@ public byte[] getData()
 ```
 
 
-the binary data of the control.
+Gets the binary data of the control.
 
 **Returns:**
 byte[]
@@ -173,7 +173,7 @@ public int getForeOleColor()
 ```
 
 
-the ole color of the foreground. Not applies to Image control.
+Gets the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -183,7 +183,7 @@ public String getGroupName()
 ```
 
 
-the group's name.
+Gets the group's name.
 
 **Returns:**
 java.lang.String
@@ -193,7 +193,7 @@ public double getHeight()
 ```
 
 
-the height of the control in unit of points.
+Gets the height of the control in unit of points.
 
 **Returns:**
 double
@@ -203,7 +203,7 @@ public int getIMEMode()
 ```
 
 
-the default run-time mode of the Input Method Editor for the control as it receives focus.
+Gets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -213,7 +213,7 @@ public String getLinkedCell()
 ```
 
 
-the linked cell.
+Gets the linked cell.
 
 **Returns:**
 java.lang.String
@@ -223,7 +223,7 @@ public String getListFillRange()
 ```
 
 
-the list fill range.
+Gets the list fill range.
 
 **Returns:**
 java.lang.String
@@ -233,7 +233,7 @@ public byte[] getMouseIcon()
 ```
 
 
-a custom icon to display as the mouse pointer for the control.
+Gets a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -243,7 +243,7 @@ public int getMousePointer()
 ```
 
 
-the type of icon displayed as the mouse pointer for the control.
+Gets the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -253,7 +253,7 @@ public byte[] getPicture()
 ```
 
 
-the data of the picture.
+Gets the data of the picture.
 
 **Returns:**
 byte[]
@@ -263,7 +263,7 @@ public int getPicturePosition()
 ```
 
 
-the location of the control's picture relative to its caption.
+Gets the location of the control's picture relative to its caption.
 
 **Returns:**
 int
@@ -283,7 +283,7 @@ public int getSpecialEffect()
 ```
 
 
-the special effect of the control.
+Gets the special effect of the control.
 
 **Returns:**
 int
@@ -323,7 +323,7 @@ public double getWidth()
 ```
 
 
-the width of the control in unit of points.
+Gets the width of the control in unit of points.
 
 **Returns:**
 double
@@ -446,7 +446,7 @@ public void setAccelerator(char value)
 ```
 
 
-For the description of this property, please see [getAccelerator()](../../com.aspose.cells/checkboxactivexcontrol\#getAccelerator--)
+Sets the accelerator key for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -459,7 +459,7 @@ public void setAlignment(int value)
 ```
 
 
-For the description of this property, please see [getAlignment()](../../com.aspose.cells/checkboxactivexcontrol\#getAlignment--)
+Sets the position of the Caption relative to the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -472,7 +472,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--)
+Indicates whether the control will automatically resize to display its entire contents.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -485,7 +485,7 @@ public void setBackOleColor(int value)
 ```
 
 
-For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
+Sets the ole color of the background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -498,7 +498,7 @@ public void setCaption(String value)
 ```
 
 
-For the description of this property, please see [getCaption()](../../com.aspose.cells/checkboxactivexcontrol\#getCaption--)
+Sets the descriptive text that appears on a control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -511,7 +511,7 @@ public void setEnabled(boolean value)
 ```
 
 
-For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--)
+Indicates whether the control can receive the focus and respond to user-generated events.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -524,7 +524,7 @@ public void setForeOleColor(int value)
 ```
 
 
-For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
+Sets the ole color of the foreground. Not applies to Image control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -537,7 +537,7 @@ public void setGroupName(String value)
 ```
 
 
-For the description of this property, please see [getGroupName()](../../com.aspose.cells/checkboxactivexcontrol\#getGroupName--)
+Sets the group's name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -550,7 +550,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
+Sets the height of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -563,7 +563,7 @@ public void setIMEMode(int value)
 ```
 
 
-For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--)
+Sets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -576,7 +576,7 @@ public void setLinkedCell(String value)
 ```
 
 
-For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
+Sets the linked cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -589,7 +589,7 @@ public void setListFillRange(String value)
 ```
 
 
-For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
+Sets the list fill range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -602,7 +602,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--)
+Indicates whether data in the control is locked for editing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -615,7 +615,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
+Sets a custom icon to display as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -628,7 +628,7 @@ public void setMousePointer(int value)
 ```
 
 
-For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
+Sets the type of icon displayed as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -641,7 +641,7 @@ public void setPicture(byte[] value)
 ```
 
 
-For the description of this property, please see [getPicture()](../../com.aspose.cells/checkboxactivexcontrol\#getPicture--)
+Sets the data of the picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -654,7 +654,7 @@ public void setPicturePosition(int value)
 ```
 
 
-For the description of this property, please see [getPicturePosition()](../../com.aspose.cells/checkboxactivexcontrol\#getPicturePosition--)
+Sets the location of the control's picture relative to its caption.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -667,7 +667,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
+Indicates whether to show a shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -680,7 +680,7 @@ public void setSpecialEffect(int value)
 ```
 
 
-For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/checkboxactivexcontrol\#getSpecialEffect--)
+Sets the special effect of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -693,7 +693,7 @@ public void setTextAlign(int value)
 ```
 
 
-For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--)
+Represents how to align the text used by the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -706,7 +706,7 @@ public void setTransparent(boolean value)
 ```
 
 
-For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--)
+Indicates whether the control is transparent.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -719,7 +719,14 @@ public void setTripleState(boolean value)
 ```
 
 
-For the description of this property, please see [isTripleState()](../../com.aspose.cells/checkboxactivexcontrol\#isTripleState--)
+Indicates how the specified control will display Null values.
+
+    | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+    | Setting | Description                                                                                                                                     |
+    | True    | The control will cycle through states for Yes, No, and Null values. The control appears dimmed (grayed) when its Value property is set to Null. |
+    | False   | (Default) The control will cycle through states for Yes and No values. Null values display as if they were No values.                           |
+
+    |
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -732,7 +739,7 @@ public void setValue(int value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/checkboxactivexcontrol\#getValue--)
+Indicates if the control is checked or not.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -745,7 +752,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
+Indicates whether this control is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -758,7 +765,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
+Sets the width of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -771,7 +778,7 @@ public void setWordWrapped(boolean value)
 ```
 
 
-For the description of this property, please see [isWordWrapped()](../../com.aspose.cells/checkboxactivexcontrol\#isWordWrapped--)
+Indicates whether the contents of the control automatically wrap at the end of a line.
 
 **Parameters:**
 | Parameter | Type | Description |

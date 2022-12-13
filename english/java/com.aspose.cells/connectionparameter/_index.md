@@ -29,13 +29,13 @@ Specifies properties about any parameters used with external data connections Pa
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellReference(String value)](#setCellReference-java.lang.String-) | For the description of this property, please see [getCellReference()](../../com.aspose.cells/connectionparameter\#getCellReference--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/connectionparameter\#getName--) |
-| [setPrompt(String value)](#setPrompt-java.lang.String-) | For the description of this property, please see [getPrompt()](../../com.aspose.cells/connectionparameter\#getPrompt--) |
-| [setRefreshOnChange(boolean value)](#setRefreshOnChange-boolean-) | For the description of this property, please see [getRefreshOnChange()](../../com.aspose.cells/connectionparameter\#getRefreshOnChange--) |
-| [setSqlType(int value)](#setSqlType-int-) | For the description of this property, please see [getSqlType()](../../com.aspose.cells/connectionparameter\#getSqlType--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/connectionparameter\#getType--) |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/connectionparameter\#getValue--) |
+| [setCellReference(String value)](#setCellReference-java.lang.String-) | Cell reference indicating which cell's value to use for the query parameter. |
+| [setName(String value)](#setName-java.lang.String-) | The name of the parameter. |
+| [setPrompt(String value)](#setPrompt-java.lang.String-) | Prompt string for the parameter. |
+| [setRefreshOnChange(boolean value)](#setRefreshOnChange-boolean-) | Flag indicating whether the query should automatically refresh when the contents of a cell that provides the parameter value changes. |
+| [setSqlType(int value)](#setSqlType-int-) | SQL data type of the parameter. |
+| [setType(int value)](#setType-int-) | Type of parameter used. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Non-integer numeric value,Integer value,String value or Boolean value to use as the query parameter. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -167,7 +167,7 @@ public void setCellReference(String value)
 ```
 
 
-For the description of this property, please see [getCellReference()](../../com.aspose.cells/connectionparameter\#getCellReference--)
+Cell reference indicating which cell's value to use for the query parameter. Used only when parameterType is cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/connectionparameter\#getName--)
+The name of the parameter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setPrompt(String value)
 ```
 
 
-For the description of this property, please see [getPrompt()](../../com.aspose.cells/connectionparameter\#getPrompt--)
+Prompt string for the parameter. Presented to the spreadsheet user along with input UI to collect the parameter value before refreshing the external data. Used only when parameterType = prompt.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setRefreshOnChange(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshOnChange()](../../com.aspose.cells/connectionparameter\#getRefreshOnChange--)
+Flag indicating whether the query should automatically refresh when the contents of a cell that provides the parameter value changes. If true, then external data is refreshed using the new parameter value every time there's a change. If false, then external data is only refreshed when requested by the user, or some other event triggers refresh (e.g., workbook opened).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setSqlType(int value)
 ```
 
 
-For the description of this property, please see [getSqlType()](../../com.aspose.cells/connectionparameter\#getSqlType--)
+SQL data type of the parameter. Only valid for ODBC sources.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/connectionparameter\#getType--)
+Type of parameter used. If the parameterType=value, then the value from boolean, double, integer, or string will be used. In this case, it is expected that only one of \{boolean, double, integer, or string\} will be specified.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/connectionparameter\#getValue--)
+Non-integer numeric value,Integer value,String value or Boolean value to use as the query parameter. Used only when parameterType is value.
 
 **Parameters:**
 | Parameter | Type | Description |

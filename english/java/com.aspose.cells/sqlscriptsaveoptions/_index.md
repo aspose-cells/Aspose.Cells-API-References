@@ -29,54 +29,54 @@ Represents the options of saving sql.
 | [getCheckIfTableExists()](#getCheckIfTableExists--) | Check if the table name exists before creating |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
-| [getColumnTypeMap()](#getColumnTypeMap--) | the map of column type for different database. |
+| [getColumnTypeMap()](#getColumnTypeMap--) | Gets the map of column type for different database. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getCreateTable()](#getCreateTable--) | Indicates whether exporting sql of creating table. |
-| [getExportArea()](#getExportArea--) | the exporting range. |
+| [getExportArea()](#getExportArea--) | Gets the exporting range. |
 | [getExportAsString()](#getExportAsString--) | Indicates whether exporting all data as string value. |
-| [getIdName()](#getIdName--) | the name of id column. |
+| [getIdName()](#getIdName--) | Gets the name of id column. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [getOperatorType()](#getOperatorType--) | the operator type of sql. |
+| [getOperatorType()](#getOperatorType--) | Gets the operator type of sql. |
 | [getPrimaryKey()](#getPrimaryKey--) | Represents which column is primary key of the data table. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
-| [getSeparator()](#getSeparator--) | character separator of sql script. |
+| [getSeparator()](#getSeparator--) | Gets character separator of sql script. |
 | [getSheetIndexes()](#getSheetIndexes--) | Represents the indexes of exported sheets. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
-| [getStartId()](#getStartId--) | the start id. |
-| [getTableName()](#getTableName--) | the table name. |
+| [getStartId()](#getStartId--) | Gets the start id. |
+| [getTableName()](#getTableName--) | Gets the table name. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
 | [hasHeaderRow()](#hasHeaderRow--) | Indicates whether the range contains header row. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddBlankLineBetweenRows(boolean value)](#setAddBlankLineBetweenRows-boolean-) | For the description of this property, please see [getAddBlankLineBetweenRows()](../../com.aspose.cells/sqlscriptsaveoptions\#getAddBlankLineBetweenRows--) |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--) |
-| [setCheckAllDataForColumnType(boolean value)](#setCheckAllDataForColumnType-boolean-) | For the description of this property, please see [getCheckAllDataForColumnType()](../../com.aspose.cells/sqlscriptsaveoptions\#getCheckAllDataForColumnType--) |
-| [setCheckIfTableExists(boolean value)](#setCheckIfTableExists-boolean-) | For the description of this property, please see [getCheckIfTableExists()](../../com.aspose.cells/sqlscriptsaveoptions\#getCheckIfTableExists--) |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--) |
-| [setColumnTypeMap(SqlScriptColumnTypeMap value)](#setColumnTypeMap-com.aspose.cells.SqlScriptColumnTypeMap-) | For the description of this property, please see [getColumnTypeMap()](../../com.aspose.cells/sqlscriptsaveoptions\#getColumnTypeMap--) |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
-| [setCreateTable(boolean value)](#setCreateTable-boolean-) | For the description of this property, please see [getCreateTable()](../../com.aspose.cells/sqlscriptsaveoptions\#getCreateTable--) |
-| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see [getExportArea()](../../com.aspose.cells/sqlscriptsaveoptions\#getExportArea--) |
-| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see [getExportAsString()](../../com.aspose.cells/sqlscriptsaveoptions\#getExportAsString--) |
-| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | For the description of this property, please see [hasHeaderRow()](../../com.aspose.cells/sqlscriptsaveoptions\#hasHeaderRow--) |
-| [setIdName(String value)](#setIdName-java.lang.String-) | For the description of this property, please see [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
-| [setOperatorType(int value)](#setOperatorType-int-) | For the description of this property, please see [getOperatorType()](../../com.aspose.cells/sqlscriptsaveoptions\#getOperatorType--) |
-| [setPrimaryKey(int value)](#setPrimaryKey-int-) | For the description of this property, please see [getPrimaryKey()](../../com.aspose.cells/sqlscriptsaveoptions\#getPrimaryKey--) |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
-| [setSeparator(char value)](#setSeparator-char-) | For the description of this property, please see [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--) |
-| [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | For the description of this property, please see [getSheetIndexes()](../../com.aspose.cells/sqlscriptsaveoptions\#getSheetIndexes--) |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
-| [setStartId(int value)](#setStartId-int-) | For the description of this property, please see [getStartId()](../../com.aspose.cells/sqlscriptsaveoptions\#getStartId--) |
-| [setTableName(String value)](#setTableName-java.lang.String-) | For the description of this property, please see [getTableName()](../../com.aspose.cells/sqlscriptsaveoptions\#getTableName--) |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--) |
+| [setAddBlankLineBetweenRows(boolean value)](#setAddBlankLineBetweenRows-boolean-) | Insert blank line between each data. |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setCheckAllDataForColumnType(boolean value)](#setCheckAllDataForColumnType-boolean-) | Check all data to find columns' data type. |
+| [setCheckIfTableExists(boolean value)](#setCheckIfTableExists-boolean-) | Check if the table name exists before creating |
+| [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
+| [setColumnTypeMap(SqlScriptColumnTypeMap value)](#setColumnTypeMap-com.aspose.cells.SqlScriptColumnTypeMap-) | Sets the map of column type for different database. |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setCreateTable(boolean value)](#setCreateTable-boolean-) | Indicates whether exporting sql of creating table. |
+| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Sets the exporting range. |
+| [setExportAsString(boolean value)](#setExportAsString-boolean-) | Indicates whether exporting all data as string value. |
+| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Indicates whether the range contains header row. |
+| [setIdName(String value)](#setIdName-java.lang.String-) | Sets the name of id column. |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setOperatorType(int value)](#setOperatorType-int-) | Sets the operator type of sql. |
+| [setPrimaryKey(int value)](#setPrimaryKey-int-) | Represents which column is primary key of the data table. |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSeparator(char value)](#setSeparator-char-) | Sets character separator of sql script. |
+| [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | Represents the indexes of exported sheets. |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setStartId(int value)](#setStartId-int-) | Sets the start id. |
+| [setTableName(String value)](#setTableName-java.lang.String-) | Sets the table name. |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -171,7 +171,7 @@ public SqlScriptColumnTypeMap getColumnTypeMap()
 ```
 
 
-the map of column type for different database.
+Gets the map of column type for different database.
 
 **Returns:**
 [SqlScriptColumnTypeMap](../../com.aspose.cells/sqlscriptcolumntypemap)
@@ -201,7 +201,7 @@ public CellArea getExportArea()
 ```
 
 
-the exporting range.
+Gets the exporting range.
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)
@@ -221,7 +221,7 @@ public String getIdName()
 ```
 
 
-the name of id column. If this property is set , a column will be inserted with automatical increment int value.
+Gets the name of id column. If this property is set , a column will be inserted with automatical increment int value.
 
 **Returns:**
 java.lang.String
@@ -241,7 +241,7 @@ public int getOperatorType()
 ```
 
 
-the operator type of sql.
+Gets the operator type of sql.
 
 **Returns:**
 int
@@ -281,7 +281,7 @@ public char getSeparator()
 ```
 
 
-character separator of sql script. Only can be ' ' or '\\n'. If the
+Gets character separator of sql script. Only can be ' ' or '\\n'. If the
 
 **Returns:**
 char
@@ -321,7 +321,7 @@ public int getStartId()
 ```
 
 
-the start id. Only works when [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) is set.
+Gets the start id. Only works when [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) is set.
 
 **Returns:**
 int
@@ -331,7 +331,7 @@ public String getTableName()
 ```
 
 
-the table name.
+Gets the table name.
 
 **Returns:**
 java.lang.String
@@ -361,7 +361,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-warning callback.
+Sets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -407,7 +407,7 @@ public void setAddBlankLineBetweenRows(boolean value)
 ```
 
 
-For the description of this property, please see [getAddBlankLineBetweenRows()](../../com.aspose.cells/sqlscriptsaveoptions\#getAddBlankLineBetweenRows--)
+Insert blank line between each data. If [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--) is '\\n' , it's better to set this property as true to increase readability.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -420,7 +420,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--)
+The cached file folder is used to store some large data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -433,7 +433,7 @@ public void setCheckAllDataForColumnType(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckAllDataForColumnType()](../../com.aspose.cells/sqlscriptsaveoptions\#getCheckAllDataForColumnType--)
+Check all data to find columns' data type. The default value is false, we only check the first row for performance. If this property is true and the columns contains mixed value type, the columns' type will be text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -446,7 +446,7 @@ public void setCheckIfTableExists(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckIfTableExists()](../../com.aspose.cells/sqlscriptsaveoptions\#getCheckIfTableExists--)
+Check if the table name exists before creating
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -459,7 +459,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--)
+Make the workbook empty after saving the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -472,7 +472,7 @@ public void setColumnTypeMap(SqlScriptColumnTypeMap value)
 ```
 
 
-For the description of this property, please see [getColumnTypeMap()](../../com.aspose.cells/sqlscriptsaveoptions\#getColumnTypeMap--)
+Sets the map of column type for different database.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -485,7 +485,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--)
+If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -498,7 +498,7 @@ public void setCreateTable(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateTable()](../../com.aspose.cells/sqlscriptsaveoptions\#getCreateTable--)
+Indicates whether exporting sql of creating table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -511,7 +511,7 @@ public void setExportArea(CellArea value)
 ```
 
 
-For the description of this property, please see [getExportArea()](../../com.aspose.cells/sqlscriptsaveoptions\#getExportArea--)
+Sets the exporting range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -524,7 +524,7 @@ public void setExportAsString(boolean value)
 ```
 
 
-For the description of this property, please see [getExportAsString()](../../com.aspose.cells/sqlscriptsaveoptions\#getExportAsString--)
+Indicates whether exporting all data as string value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -537,7 +537,7 @@ public void setHasHeaderRow(boolean value)
 ```
 
 
-For the description of this property, please see [hasHeaderRow()](../../com.aspose.cells/sqlscriptsaveoptions\#hasHeaderRow--)
+Indicates whether the range contains header row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -550,7 +550,7 @@ public void setIdName(String value)
 ```
 
 
-For the description of this property, please see [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--)
+Sets the name of id column. If this property is set , a column will be inserted with automatical increment int value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -563,7 +563,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--)
+Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -576,7 +576,7 @@ public void setOperatorType(int value)
 ```
 
 
-For the description of this property, please see [getOperatorType()](../../com.aspose.cells/sqlscriptsaveoptions\#getOperatorType--)
+Sets the operator type of sql.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -589,7 +589,7 @@ public void setPrimaryKey(int value)
 ```
 
 
-For the description of this property, please see [getPrimaryKey()](../../com.aspose.cells/sqlscriptsaveoptions\#getPrimaryKey--)
+Represents which column is primary key of the data table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -602,7 +602,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--)
+Indicates whether refreshing chart cache data
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -615,7 +615,7 @@ public void setSeparator(char value)
 ```
 
 
-For the description of this property, please see [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--)
+Sets character separator of sql script. Only can be ' ' or '\\n'. If the
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -628,7 +628,7 @@ public void setSheetIndexes(int[] value)
 ```
 
 
-For the description of this property, please see [getSheetIndexes()](../../com.aspose.cells/sqlscriptsaveoptions\#getSheetIndexes--)
+Represents the indexes of exported sheets.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -641,7 +641,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--)
+Indicates whether sorting external defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -654,7 +654,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--)
+Indicates whether sorting defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -667,7 +667,7 @@ public void setStartId(int value)
 ```
 
 
-For the description of this property, please see [getStartId()](../../com.aspose.cells/sqlscriptsaveoptions\#getStartId--)
+Sets the start id. Only works when [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) is set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -680,7 +680,7 @@ public void setTableName(String value)
 ```
 
 
-For the description of this property, please see [getTableName()](../../com.aspose.cells/sqlscriptsaveoptions\#getTableName--)
+Sets the table name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -693,7 +693,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--)
+Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -706,7 +706,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--)
+Indicates whether validate merged cells before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

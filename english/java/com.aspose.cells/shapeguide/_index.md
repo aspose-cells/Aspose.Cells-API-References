@@ -19,11 +19,11 @@ Encapsulates a shape guide specifies the presence of a shape guide that will be 
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getValue()](#getValue--) | value of this guide |
+| [getValue()](#getValue--) | Gets value of this guide |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setValue(double value)](#setValue-double-) | For the description of this property, please see [getValue()](../../com.aspose.cells/shapeguide\#getValue--) |
+| [setValue(double value)](#setValue-double-) | Sets value of this guide |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ public double getValue()
 ```
 
 
-value of this guide
+Gets value of this guide
 
 **Returns:**
 double
@@ -95,7 +95,7 @@ public void setValue(double value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/shapeguide\#getValue--)
+Sets value of this guide
 
 **Parameters:**
 | Parameter | Type | Description |

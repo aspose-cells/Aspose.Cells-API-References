@@ -25,8 +25,8 @@ Represents the gradient stop.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPosition(double value)](#setPosition-double-) | For the description of this property, please see [getPosition()](../../com.aspose.cells/gradientstop\#getPosition--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/gradientstop\#getTransparency--) |
+| [setPosition(double value)](#setPosition-double-) | The position of the stop. |
+| [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -118,7 +118,7 @@ public void setPosition(double value)
 ```
 
 
-For the description of this property, please see [getPosition()](../../com.aspose.cells/gradientstop\#getPosition--)
+The position of the stop.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -131,7 +131,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/gradientstop\#getTransparency--)
+Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |

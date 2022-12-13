@@ -19,26 +19,26 @@ Encapsulates the object that represents a hyperlink.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAddress()](#getAddress--) | Represents the address of a hyperlink. |
-| [getAltText()](#getAltText--) | Alternate text for the image link,please note this is an extension attribute and can not keep in excel file |
+| [getAltText()](#getAltText--) | Gets Alternate text for the image link,please note this is an extension attribute and can not keep in excel file |
 | [getArea()](#getArea--) | Gets the range of hyperlink. |
 | [getClass()](#getClass--) |  |
 | [getCommand()](#getCommand--) | Returns or sets the self defined command value text for the specified hyperlink. |
 | [getDiscardInput()](#getDiscardInput--) | Indicates whether to discard user input at client browser when user click this CellCommand hyperlink. |
-| [getImageURL()](#getImageURL--) | Image URL for the link, there is no imageurl properties in hyperlink, so actually use TextToDisplay to record this value ,TextToDisplay will be set to <img src=value > so it will change the value of TextToDisplay |
+| [getImageURL()](#getImageURL--) | Gets Image URL for the link, there is no imageurl properties in hyperlink, so actually use TextToDisplay to record this value ,TextToDisplay will be set to <img src=value > so it will change the value of TextToDisplay |
 | [getScreenTip()](#getScreenTip--) | Returns or sets the ScreenTip text for the specified hyperlink. |
-| [getTarget()](#getTarget--) | web link target type,please note this is an extension attribute and can not keep in excel file |
+| [getTarget()](#getTarget--) | Gets web link target type,please note this is an extension attribute and can not keep in excel file |
 | [getTextToDisplay()](#getTextToDisplay--) | Represents the text to be displayed for the specified hyperlink. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddress(String value)](#setAddress-java.lang.String-) | For the description of this property, please see [getAddress()](../../com.aspose.gridweb/gridhyperlink\#getAddress--) |
-| [setAltText(String value)](#setAltText-java.lang.String-) | For the description of this property, please see [getAltText()](../../com.aspose.gridweb/gridhyperlink\#getAltText--) |
-| [setCommand(String value)](#setCommand-java.lang.String-) | For the description of this property, please see [getCommand()](../../com.aspose.gridweb/gridhyperlink\#getCommand--) |
-| [setDiscardInput(boolean value)](#setDiscardInput-boolean-) | For the description of this property, please see [getDiscardInput()](../../com.aspose.gridweb/gridhyperlink\#getDiscardInput--) |
-| [setImageURL(String value)](#setImageURL-java.lang.String-) | For the description of this property, please see [getImageURL()](../../com.aspose.gridweb/gridhyperlink\#getImageURL--) |
-| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | For the description of this property, please see [getScreenTip()](../../com.aspose.gridweb/gridhyperlink\#getScreenTip--) |
-| [setTarget(String value)](#setTarget-java.lang.String-) | For the description of this property, please see [getTarget()](../../com.aspose.gridweb/gridhyperlink\#getTarget--) |
-| [setTextToDisplay(String value)](#setTextToDisplay-java.lang.String-) | For the description of this property, please see [getTextToDisplay()](../../com.aspose.gridweb/gridhyperlink\#getTextToDisplay--) |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Represents the address of a hyperlink. |
+| [setAltText(String value)](#setAltText-java.lang.String-) | Sets Alternate text for the image link,please note this is an extension attribute and can not keep in excel file |
+| [setCommand(String value)](#setCommand-java.lang.String-) | Returns or sets the self defined command value text for the specified hyperlink. |
+| [setDiscardInput(boolean value)](#setDiscardInput-boolean-) | Indicates whether to discard user input at client browser when user click this CellCommand hyperlink. |
+| [setImageURL(String value)](#setImageURL-java.lang.String-) | Sets Image URL for the link, there is no imageurl properties in hyperlink, so actually use TextToDisplay to record this value ,TextToDisplay will be set to <img src=value > so it will change the value of TextToDisplay |
+| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | Returns or sets the ScreenTip text for the specified hyperlink. |
+| [setTarget(String value)](#setTarget-java.lang.String-) | Sets web link target type,please note this is an extension attribute and can not keep in excel file |
+| [setTextToDisplay(String value)](#setTextToDisplay-java.lang.String-) | Represents the text to be displayed for the specified hyperlink. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -74,7 +74,7 @@ public String getAltText()
 ```
 
 
-Alternate text for the image link,please note this is an extension attribute and can not keep in excel file
+Gets Alternate text for the image link,please note this is an extension attribute and can not keep in excel file
 
 **Returns:**
 java.lang.String
@@ -124,7 +124,7 @@ public String getImageURL()
 ```
 
 
-Image URL for the link, there is no imageurl properties in hyperlink, so actually use TextToDisplay to record this value ,TextToDisplay will be set to <img src=value > so it will change the value of TextToDisplay
+Gets Image URL for the link, there is no imageurl properties in hyperlink, so actually use TextToDisplay to record this value ,TextToDisplay will be set to <img src=value > so it will change the value of TextToDisplay
 
 **Returns:**
 java.lang.String
@@ -144,7 +144,7 @@ public String getTarget()
 ```
 
 
-web link target type,please note this is an extension attribute and can not keep in excel file
+Gets web link target type,please note this is an extension attribute and can not keep in excel file
 
 **Returns:**
 java.lang.String
@@ -190,7 +190,7 @@ public void setAddress(String value)
 ```
 
 
-For the description of this property, please see [getAddress()](../../com.aspose.gridweb/gridhyperlink\#getAddress--)
+Represents the address of a hyperlink.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -203,7 +203,7 @@ public void setAltText(String value)
 ```
 
 
-For the description of this property, please see [getAltText()](../../com.aspose.gridweb/gridhyperlink\#getAltText--)
+Sets Alternate text for the image link,please note this is an extension attribute and can not keep in excel file
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setCommand(String value)
 ```
 
 
-For the description of this property, please see [getCommand()](../../com.aspose.gridweb/gridhyperlink\#getCommand--)
+Returns or sets the self defined command value text for the specified hyperlink.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setDiscardInput(boolean value)
 ```
 
 
-For the description of this property, please see [getDiscardInput()](../../com.aspose.gridweb/gridhyperlink\#getDiscardInput--)
+Indicates whether to discard user input at client browser when user click this CellCommand hyperlink. Could be used as an "undo" action.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setImageURL(String value)
 ```
 
 
-For the description of this property, please see [getImageURL()](../../com.aspose.gridweb/gridhyperlink\#getImageURL--)
+Sets Image URL for the link, there is no imageurl properties in hyperlink, so actually use TextToDisplay to record this value ,TextToDisplay will be set to <img src=value > so it will change the value of TextToDisplay
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setScreenTip(String value)
 ```
 
 
-For the description of this property, please see [getScreenTip()](../../com.aspose.gridweb/gridhyperlink\#getScreenTip--)
+Returns or sets the ScreenTip text for the specified hyperlink.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setTarget(String value)
 ```
 
 
-For the description of this property, please see [getTarget()](../../com.aspose.gridweb/gridhyperlink\#getTarget--)
+Sets web link target type,please note this is an extension attribute and can not keep in excel file
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setTextToDisplay(String value)
 ```
 
 
-For the description of this property, please see [getTextToDisplay()](../../com.aspose.gridweb/gridhyperlink\#getTextToDisplay--)
+Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.
 
 **Parameters:**
 | Parameter | Type | Description |

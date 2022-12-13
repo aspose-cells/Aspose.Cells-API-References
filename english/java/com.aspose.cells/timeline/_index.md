@@ -82,12 +82,12 @@ Workbook book = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaption(String value)](#setCaption-java.lang.String-) | For the description of this property, please see [getCaption()](../../com.aspose.cells/timeline\#getCaption--) |
-| [setHeightPixel(int value)](#setHeightPixel-int-) | For the description of this property, please see [getHeightPixel()](../../com.aspose.cells/timeline\#getHeightPixel--) |
-| [setLeftPixel(int value)](#setLeftPixel-int-) | For the description of this property, please see [getLeftPixel()](../../com.aspose.cells/timeline\#getLeftPixel--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/timeline\#getName--) |
-| [setTopPixel(int value)](#setTopPixel-int-) | For the description of this property, please see [getTopPixel()](../../com.aspose.cells/timeline\#getTopPixel--) |
-| [setWidthPixel(int value)](#setWidthPixel-int-) | For the description of this property, please see [getWidthPixel()](../../com.aspose.cells/timeline\#getWidthPixel--) |
+| [setCaption(String value)](#setCaption-java.lang.String-) | Returns or sets the caption of the specified Timeline. |
+| [setHeightPixel(int value)](#setHeightPixel-int-) | Returns or sets the height of the specified timeline, in pixels. |
+| [setLeftPixel(int value)](#setLeftPixel-int-) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
+| [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the specified Timeline |
+| [setTopPixel(int value)](#setTopPixel-int-) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
+| [setWidthPixel(int value)](#setWidthPixel-int-) | Returns or sets the width of the specified timeline, in pixels. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -219,7 +219,7 @@ public void setCaption(String value)
 ```
 
 
-For the description of this property, please see [getCaption()](../../com.aspose.cells/timeline\#getCaption--)
+Returns or sets the caption of the specified Timeline.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setHeightPixel(int value)
 ```
 
 
-For the description of this property, please see [getHeightPixel()](../../com.aspose.cells/timeline\#getHeightPixel--)
+Returns or sets the height of the specified timeline, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setLeftPixel(int value)
 ```
 
 
-For the description of this property, please see [getLeftPixel()](../../com.aspose.cells/timeline\#getLeftPixel--)
+Returns or sets the horizontal offset of timeline shape from its left column, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/timeline\#getName--)
+Returns or sets the name of the specified Timeline
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public void setTopPixel(int value)
 ```
 
 
-For the description of this property, please see [getTopPixel()](../../com.aspose.cells/timeline\#getTopPixel--)
+Returns or sets the vertical offset of timeline shape from its top row, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -284,7 +284,7 @@ public void setWidthPixel(int value)
 ```
 
 
-For the description of this property, please see [getWidthPixel()](../../com.aspose.cells/timeline\#getWidthPixel--)
+Returns or sets the width of the specified timeline, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |

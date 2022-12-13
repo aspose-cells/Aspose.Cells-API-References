@@ -75,16 +75,16 @@ Describe the IconSet conditional formatting rule. This conditional formatting ru
 | [getCfIcons()](#getCfIcons--) | Get the[ConditionalFormattingIcon](../../com.aspose.cells/conditionalformattingicon) from the collection |
 | [getCfvos()](#getCfvos--) | Get the CFValueObjects instance. |
 | [getClass()](#getClass--) |  |
-| [getReverse()](#getReverse--) | the flag indicating whether to reverses the default order of the icons in this icon set. |
-| [getShowValue()](#getShowValue--) | the flag indicating whether to show the values of the cells on which this icon set is applied. |
-| [getType()](#getType--) | the icon set type to display. |
+| [getReverse()](#getReverse--) | Gets the flag indicating whether to reverses the default order of the icons in this icon set. |
+| [getShowValue()](#getShowValue--) | Gets the flag indicating whether to show the values of the cells on which this icon set is applied. |
+| [getType()](#getType--) | Gets the icon set type to display. |
 | [hashCode()](#hashCode--) |  |
 | [isCustom()](#isCustom--) | Indicates whether the icon set is custom. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setReverse(boolean value)](#setReverse-boolean-) | For the description of this property, please see [getReverse()](../../com.aspose.cells/iconset\#getReverse--) |
-| [setShowValue(boolean value)](#setShowValue-boolean-) | For the description of this property, please see [getShowValue()](../../com.aspose.cells/iconset\#getShowValue--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/iconset\#getType--) |
+| [setReverse(boolean value)](#setReverse-boolean-) | Sets the flag indicating whether to reverses the default order of the icons in this icon set. |
+| [setShowValue(boolean value)](#setShowValue-boolean-) | Sets the flag indicating whether to show the values of the cells on which this icon set is applied. |
+| [setType(int value)](#setType-int-) | Sets the icon set type to display. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -140,7 +140,7 @@ public boolean getReverse()
 ```
 
 
-the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false.
+Gets the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false.
 
 **Returns:**
 boolean
@@ -150,7 +150,7 @@ public boolean getShowValue()
 ```
 
 
-the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true.
+Gets the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true.
 
 **Returns:**
 boolean
@@ -160,7 +160,7 @@ public int getType()
 ```
 
 
-the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
+Gets the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
 
 **Returns:**
 int
@@ -206,7 +206,7 @@ public void setReverse(boolean value)
 ```
 
 
-For the description of this property, please see [getReverse()](../../com.aspose.cells/iconset\#getReverse--)
+Sets the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setShowValue(boolean value)
 ```
 
 
-For the description of this property, please see [getShowValue()](../../com.aspose.cells/iconset\#getShowValue--)
+Sets the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/iconset\#getType--)
+Sets the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
 
 **Parameters:**
 | Parameter | Type | Description |

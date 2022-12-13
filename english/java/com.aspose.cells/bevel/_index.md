@@ -19,15 +19,15 @@ Represents a bevel of a shape
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getHeight()](#getHeight--) | the height of the bevel, or how far above the shape it is applied. |
-| [getType()](#getType--) | the preset bevel type. |
-| [getWidth()](#getWidth--) | the width of the bevel, or how far into the shape it is applied. |
+| [getHeight()](#getHeight--) | Gets the height of the bevel, or how far above the shape it is applied. |
+| [getType()](#getType--) | Gets the preset bevel type. |
+| [getWidth()](#getWidth--) | Gets the width of the bevel, or how far into the shape it is applied. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/bevel\#getHeight--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/bevel\#getType--) |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/bevel\#getWidth--) |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the bevel, or how far above the shape it is applied. |
+| [setType(int value)](#setType-int-) | Sets the preset bevel type. |
+| [setWidth(double value)](#setWidth-double-) | Sets the width of the bevel, or how far into the shape it is applied. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -63,7 +63,7 @@ public double getHeight()
 ```
 
 
-the height of the bevel, or how far above the shape it is applied. In unit of Points.
+Gets the height of the bevel, or how far above the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -73,7 +73,7 @@ public int getType()
 ```
 
 
-the preset bevel type.
+Gets the preset bevel type.
 
 **Returns:**
 int
@@ -83,7 +83,7 @@ public double getWidth()
 ```
 
 
-the width of the bevel, or how far into the shape it is applied. In unit of Points.
+Gets the width of the bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -119,7 +119,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/bevel\#getHeight--)
+Sets the height of the bevel, or how far above the shape it is applied. In unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/bevel\#getType--)
+Sets the preset bevel type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/bevel\#getWidth--)
+Sets the width of the bevel, or how far into the shape it is applied. In unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |

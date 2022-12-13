@@ -25,10 +25,10 @@ Encapsulates the object that represents a name object.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setRefersTo(String value)](#setRefersTo-java.lang.String-) | For the description of this property, please see [getRefersTo()](../../com.aspose.gridweb/gridname\#getRefersTo--) |
-| [setSheetIndex(int value)](#setSheetIndex-int-) | For the description of this property, please see [getSheetIndex()](../../com.aspose.gridweb/gridname\#getSheetIndex--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.gridweb/gridname\#getText--) |
-| [toString()](#toString--) | Returns a string represents the current Range object. |
+| [setRefersTo(String value)](#setRefersTo-java.lang.String-) | Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
+| [setSheetIndex(int value)](#setSheetIndex-int-) | Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based) |
+| [setText(String value)](#setText-java.lang.String-) | Gets the name text of the object. |
+| [toString()](#toString--) | Gets the range if this name refers to a range. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -119,7 +119,7 @@ public void setRefersTo(String value)
 ```
 
 
-For the description of this property, please see [getRefersTo()](../../com.aspose.gridweb/gridname\#getRefersTo--)
+Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setSheetIndex(int value)
 ```
 
 
-For the description of this property, please see [getSheetIndex()](../../com.aspose.gridweb/gridname\#getSheetIndex--)
+Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise index to sheet (one-based)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.gridweb/gridname\#getText--)
+Gets the name text of the object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,10 +158,10 @@ public String toString()
 ```
 
 
-Returns a string represents the current Range object.
+Gets the range if this name refers to a range.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - The range.
 ### wait() {#wait--}
 ```
 public final void wait()

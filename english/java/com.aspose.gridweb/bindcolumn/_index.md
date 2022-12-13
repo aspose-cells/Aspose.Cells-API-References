@@ -23,39 +23,39 @@ BindColumn.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlternativeStyle()](#getAlternativeStyle--) | the alternative style of the column. |
+| [getAlternativeStyle()](#getAlternativeStyle--) | Gets the alternative style of the column. |
 | [getCaption()](#getCaption--) | The caption of the column. |
 | [getClass()](#getClass--) |  |
-| [getColumnHeaderStyle()](#getColumnHeaderStyle--) | the style of the column. |
+| [getColumnHeaderStyle()](#getColumnHeaderStyle--) | Gets the style of the column. |
 | [getCommandName()](#getCommandName--) | The command name of the column. |
 | [getCommandText()](#getCommandText--) | The displaying command text of the column. |
 | [getCustomFormat()](#getCustomFormat--) | The custom format string. |
-| [getDataField()](#getDataField--) | the data field name string. |
+| [getDataField()](#getDataField--) | Gets the data field name string. |
 | [getEnableSort()](#getEnableSort--) | Indicates whether the user can click the column header to sort by this field. |
 | [getImageUrl()](#getImageUrl--) | The image url of the command hyperlink. |
 | [getName()](#getName--) | Design time used only. |
-| [getNumberType()](#getNumberType--) | the number type of the column. |
-| [getStyle()](#getStyle--) | the style of the column. |
-| [getUseAlternativeStyle()](#getUseAlternativeStyle--) | whether to use the alternative style for the column. |
+| [getNumberType()](#getNumberType--) | Gets the number type of the column. |
+| [getStyle()](#getStyle--) | Gets the style of the column. |
+| [getUseAlternativeStyle()](#getUseAlternativeStyle--) | Gets whether to use the alternative style for the column. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoCreated()](#isAutoCreated--) | Indicates whether the column is created automatically. |
 | [isReadOnly()](#isReadOnly--) | Indicates whether the column is readonly. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlternativeStyle(GridTableItemStyle value)](#setAlternativeStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getAlternativeStyle()](../../com.aspose.gridweb/bindcolumn\#getAlternativeStyle--) |
-| [setAutoCreated(boolean value)](#setAutoCreated-boolean-) | For the description of this property, please see [isAutoCreated()](../../com.aspose.gridweb/bindcolumn\#isAutoCreated--) |
-| [setCaption(String value)](#setCaption-java.lang.String-) | For the description of this property, please see [getCaption()](../../com.aspose.gridweb/bindcolumn\#getCaption--) |
-| [setColumnHeaderStyle(GridTableItemStyle value)](#setColumnHeaderStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getColumnHeaderStyle()](../../com.aspose.gridweb/bindcolumn\#getColumnHeaderStyle--) |
-| [setCommandName(String value)](#setCommandName-java.lang.String-) | For the description of this property, please see [getCommandName()](../../com.aspose.gridweb/bindcolumn\#getCommandName--) |
-| [setCommandText(String value)](#setCommandText-java.lang.String-) | For the description of this property, please see [getCommandText()](../../com.aspose.gridweb/bindcolumn\#getCommandText--) |
-| [setCustomFormat(String value)](#setCustomFormat-java.lang.String-) | For the description of this property, please see [getCustomFormat()](../../com.aspose.gridweb/bindcolumn\#getCustomFormat--) |
-| [setDataField(String value)](#setDataField-java.lang.String-) | For the description of this property, please see [getDataField()](../../com.aspose.gridweb/bindcolumn\#getDataField--) |
-| [setEnableSort(boolean value)](#setEnableSort-boolean-) | For the description of this property, please see [getEnableSort()](../../com.aspose.gridweb/bindcolumn\#getEnableSort--) |
-| [setImageUrl(String value)](#setImageUrl-java.lang.String-) | For the description of this property, please see [getImageUrl()](../../com.aspose.gridweb/bindcolumn\#getImageUrl--) |
-| [setNumberType(int value)](#setNumberType-int-) | For the description of this property, please see [getNumberType()](../../com.aspose.gridweb/bindcolumn\#getNumberType--) |
-| [setReadOnly(boolean value)](#setReadOnly-boolean-) | For the description of this property, please see [isReadOnly()](../../com.aspose.gridweb/bindcolumn\#isReadOnly--) |
-| [setStyle(GridTableItemStyle value)](#setStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getStyle()](../../com.aspose.gridweb/bindcolumn\#getStyle--) |
-| [setUseAlternativeStyle(boolean value)](#setUseAlternativeStyle-boolean-) | For the description of this property, please see [getUseAlternativeStyle()](../../com.aspose.gridweb/bindcolumn\#getUseAlternativeStyle--) |
+| [setAlternativeStyle(GridTableItemStyle value)](#setAlternativeStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the alternative style of the column. |
+| [setAutoCreated(boolean value)](#setAutoCreated-boolean-) | Indicates whether the column is created automatically. |
+| [setCaption(String value)](#setCaption-java.lang.String-) | The caption of the column. |
+| [setColumnHeaderStyle(GridTableItemStyle value)](#setColumnHeaderStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the style of the column. |
+| [setCommandName(String value)](#setCommandName-java.lang.String-) | The command name of the column. |
+| [setCommandText(String value)](#setCommandText-java.lang.String-) | The displaying command text of the column. |
+| [setCustomFormat(String value)](#setCustomFormat-java.lang.String-) | The custom format string. |
+| [setDataField(String value)](#setDataField-java.lang.String-) | Sets the data field name string. |
+| [setEnableSort(boolean value)](#setEnableSort-boolean-) | Indicates whether the user can click the column header to sort by this field. |
+| [setImageUrl(String value)](#setImageUrl-java.lang.String-) | The image url of the command hyperlink. |
+| [setNumberType(int value)](#setNumberType-int-) | Sets the number type of the column. |
+| [setReadOnly(boolean value)](#setReadOnly-boolean-) | Indicates whether the column is readonly. |
+| [setStyle(GridTableItemStyle value)](#setStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the style of the column. |
+| [setUseAlternativeStyle(boolean value)](#setUseAlternativeStyle-boolean-) | Sets whether to use the alternative style for the column. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -89,7 +89,7 @@ public GridTableItemStyle getAlternativeStyle()
 ```
 
 
-the alternative style of the column.
+Gets the alternative style of the column.
 
 **Returns:**
 [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle)
@@ -119,7 +119,7 @@ public GridTableItemStyle getColumnHeaderStyle()
 ```
 
 
-the style of the column.
+Gets the style of the column.
 
 **Returns:**
 [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle)
@@ -159,7 +159,7 @@ public String getDataField()
 ```
 
 
-the data field name string.
+Gets the data field name string.
 
 **Returns:**
 java.lang.String
@@ -199,7 +199,7 @@ public int getNumberType()
 ```
 
 
-the number type of the column.
+Gets the number type of the column.
 
 **Returns:**
 int
@@ -209,7 +209,7 @@ public GridTableItemStyle getStyle()
 ```
 
 
-the style of the column.
+Gets the style of the column.
 
 **Returns:**
 [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle)
@@ -219,7 +219,7 @@ public boolean getUseAlternativeStyle()
 ```
 
 
-whether to use the alternative style for the column.
+Gets whether to use the alternative style for the column.
 
 **Returns:**
 boolean
@@ -275,7 +275,7 @@ public void setAlternativeStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getAlternativeStyle()](../../com.aspose.gridweb/bindcolumn\#getAlternativeStyle--)
+Sets the alternative style of the column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -288,7 +288,7 @@ public void setAutoCreated(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoCreated()](../../com.aspose.gridweb/bindcolumn\#isAutoCreated--)
+Indicates whether the column is created automatically. If true, the column will be deleted when user change the datasource in the design time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -301,7 +301,7 @@ public void setCaption(String value)
 ```
 
 
-For the description of this property, please see [getCaption()](../../com.aspose.gridweb/bindcolumn\#getCaption--)
+The caption of the column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -314,7 +314,7 @@ public void setColumnHeaderStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getColumnHeaderStyle()](../../com.aspose.gridweb/bindcolumn\#getColumnHeaderStyle--)
+Sets the style of the column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -327,7 +327,7 @@ public void setCommandName(String value)
 ```
 
 
-For the description of this property, please see [getCommandName()](../../com.aspose.gridweb/bindcolumn\#getCommandName--)
+The command name of the column. A CellCommand Hyperlink will be created in the bound cell if the CommandName property is set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -340,7 +340,7 @@ public void setCommandText(String value)
 ```
 
 
-For the description of this property, please see [getCommandText()](../../com.aspose.gridweb/bindcolumn\#getCommandText--)
+The displaying command text of the column. If set to null, the cell will use the field value as the command text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -353,7 +353,7 @@ public void setCustomFormat(String value)
 ```
 
 
-For the description of this property, please see [getCustomFormat()](../../com.aspose.gridweb/bindcolumn\#getCustomFormat--)
+The custom format string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -366,7 +366,7 @@ public void setDataField(String value)
 ```
 
 
-For the description of this property, please see [getDataField()](../../com.aspose.gridweb/bindcolumn\#getDataField--)
+Sets the data field name string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -379,7 +379,7 @@ public void setEnableSort(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableSort()](../../com.aspose.gridweb/bindcolumn\#getEnableSort--)
+Indicates whether the user can click the column header to sort by this field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -392,7 +392,7 @@ public void setImageUrl(String value)
 ```
 
 
-For the description of this property, please see [getImageUrl()](../../com.aspose.gridweb/bindcolumn\#getImageUrl--)
+The image url of the command hyperlink.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -405,7 +405,7 @@ public void setNumberType(int value)
 ```
 
 
-For the description of this property, please see [getNumberType()](../../com.aspose.gridweb/bindcolumn\#getNumberType--)
+Sets the number type of the column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -418,7 +418,7 @@ public void setReadOnly(boolean value)
 ```
 
 
-For the description of this property, please see [isReadOnly()](../../com.aspose.gridweb/bindcolumn\#isReadOnly--)
+Indicates whether the column is readonly.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -431,7 +431,7 @@ public void setStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getStyle()](../../com.aspose.gridweb/bindcolumn\#getStyle--)
+Sets the style of the column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -444,7 +444,7 @@ public void setUseAlternativeStyle(boolean value)
 ```
 
 
-For the description of this property, please see [getUseAlternativeStyle()](../../com.aspose.gridweb/bindcolumn\#getUseAlternativeStyle--)
+Sets whether to use the alternative style for the column.
 
 **Parameters:**
 | Parameter | Type | Description |

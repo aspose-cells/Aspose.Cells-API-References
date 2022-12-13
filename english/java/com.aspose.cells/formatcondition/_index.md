@@ -60,38 +60,38 @@ Represents conditional formatting condition.
 | [getClass()](#getClass--) |  |
 | [getColorScale()](#getColorScale--) | Get the conditional formatting's "ColorScale" instance. |
 | [getDataBar()](#getDataBar--) | Get the conditional formatting's "DataBar" instance. |
-| [getFormula1()](#getFormula1--) | the value or expression associated with conditional formatting. |
+| [getFormula1()](#getFormula1--) | Gets the value or expression associated with conditional formatting. |
 | [getFormula1(boolean isR1C1, boolean isLocal)](#getFormula1-boolean-boolean-) | Gets the value or expression associated with this format condition. |
 | [getFormula1(boolean isR1C1, boolean isLocal, int row, int column)](#getFormula1-boolean-boolean-int-int-) | Gets the value or expression of the conditional formatting of the cell. |
 | [getFormula1(int row, int column)](#getFormula1-int-int-) | Gets the formula of the conditional formatting of the cell. |
-| [getFormula2()](#getFormula2--) | the value or expression associated with conditional formatting. |
+| [getFormula2()](#getFormula2--) | Gets the value or expression associated with conditional formatting. |
 | [getFormula2(boolean isR1C1, boolean isLocal)](#getFormula2-boolean-boolean-) | Gets the value or expression associated with this format condition. |
 | [getFormula2(boolean isR1C1, boolean isLocal, int row, int column)](#getFormula2-boolean-boolean-int-int-) | Gets the value or expression of the conditional formatting of the cell. |
 | [getFormula2(int row, int column)](#getFormula2-int-int-) | Gets the formula of the conditional formatting of the cell. |
 | [getIconSet()](#getIconSet--) | Get the conditional formatting's "IconSet" instance. |
-| [getOperator()](#getOperator--) | the conditional format operator type. |
+| [getOperator()](#getOperator--) | Gets the conditional format operator type. |
 | [getPriority()](#getPriority--) | The priority of this conditional formatting rule. |
 | [getStopIfTrue()](#getStopIfTrue--) | True, no rules with lower priority may be applied over this rule, when this rule evaluates to true. |
 | [getStyle()](#getStyle--) | Gets or setts style of conditional formatted cell ranges. |
 | [getText()](#getText--) | The text value in a "text contains" conditional formatting rule. |
 | [getTimePeriod()](#getTimePeriod--) | The applicable time period in a "date occurring\\u9225? |
 | [getTop10()](#getTop10--) | Get the conditional formatting's "Top10" instance. |
-| [getType()](#getType--) | whether the conditional format Type. |
+| [getType()](#getType--) | Gets whether the conditional format Type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFormula1(String value)](#setFormula1-java.lang.String-) | For the description of this property, please see [getFormula1()](../../com.aspose.cells/formatcondition\#getFormula1--) |
+| [setFormula1(String value)](#setFormula1-java.lang.String-) | Sets the value or expression associated with conditional formatting. |
 | [setFormula1(String formula, boolean isR1C1, boolean isLocal)](#setFormula1-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this format condition. |
-| [setFormula2(String value)](#setFormula2-java.lang.String-) | For the description of this property, please see [getFormula2()](../../com.aspose.cells/formatcondition\#getFormula2--) |
+| [setFormula2(String value)](#setFormula2-java.lang.String-) | Sets the value or expression associated with conditional formatting. |
 | [setFormula2(String formula, boolean isR1C1, boolean isLocal)](#setFormula2-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this format condition. |
 | [setFormulas(String formula1, String formula2, boolean isR1C1, boolean isLocal)](#setFormulas-java.lang.String-java.lang.String-boolean-boolean-) | Sets the value or expression associated with this format condition. |
-| [setOperator(int value)](#setOperator-int-) | For the description of this property, please see [getOperator()](../../com.aspose.cells/formatcondition\#getOperator--) |
-| [setPriority(int value)](#setPriority-int-) | For the description of this property, please see [getPriority()](../../com.aspose.cells/formatcondition\#getPriority--) |
-| [setStopIfTrue(boolean value)](#setStopIfTrue-boolean-) | For the description of this property, please see [getStopIfTrue()](../../com.aspose.cells/formatcondition\#getStopIfTrue--) |
-| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | For the description of this property, please see [getStyle()](../../com.aspose.cells/formatcondition\#getStyle--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/formatcondition\#getText--) |
-| [setTimePeriod(int value)](#setTimePeriod-int-) | For the description of this property, please see [getTimePeriod()](../../com.aspose.cells/formatcondition\#getTimePeriod--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/formatcondition\#getType--) |
+| [setOperator(int value)](#setOperator-int-) | Sets the conditional format operator type. |
+| [setPriority(int value)](#setPriority-int-) | The priority of this conditional formatting rule. |
+| [setStopIfTrue(boolean value)](#setStopIfTrue-boolean-) | True, no rules with lower priority may be applied over this rule, when this rule evaluates to true. |
+| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | Gets or setts style of conditional formatted cell ranges. |
+| [setText(String value)](#setText-java.lang.String-) | The text value in a "text contains" conditional formatting rule. |
+| [setTimePeriod(int value)](#setTimePeriod-int-) | The applicable time period in a "date occurring\\u9225? |
+| [setType(int value)](#setType-int-) | Sets whether the conditional format Type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -157,7 +157,7 @@ public String getFormula1()
 ```
 
 
-the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
+Gets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Returns:**
 java.lang.String
@@ -217,7 +217,7 @@ public String getFormula2()
 ```
 
 
-the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
+Gets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Returns:**
 java.lang.String
@@ -287,7 +287,7 @@ public int getOperator()
 ```
 
 
-the conditional format operator type.
+Gets the conditional format operator type.
 
 **Returns:**
 int
@@ -357,7 +357,7 @@ public int getType()
 ```
 
 
-whether the conditional format Type.
+Gets whether the conditional format Type.
 
 **Returns:**
 int
@@ -393,7 +393,7 @@ public void setFormula1(String value)
 ```
 
 
-For the description of this property, please see [getFormula1()](../../com.aspose.cells/formatcondition\#getFormula1--)
+Sets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -421,7 +421,7 @@ public void setFormula2(String value)
 ```
 
 
-For the description of this property, please see [getFormula2()](../../com.aspose.cells/formatcondition\#getFormula2--)
+Sets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -465,7 +465,7 @@ public void setOperator(int value)
 ```
 
 
-For the description of this property, please see [getOperator()](../../com.aspose.cells/formatcondition\#getOperator--)
+Sets the conditional format operator type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -478,7 +478,7 @@ public void setPriority(int value)
 ```
 
 
-For the description of this property, please see [getPriority()](../../com.aspose.cells/formatcondition\#getPriority--)
+The priority of this conditional formatting rule. This value is used to determine which format should be evaluated and rendered. Lower numeric values are higher priority than higher numeric values, where '1' is the highest priority.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -491,7 +491,7 @@ public void setStopIfTrue(boolean value)
 ```
 
 
-For the description of this property, please see [getStopIfTrue()](../../com.aspose.cells/formatcondition\#getStopIfTrue--)
+True, no rules with lower priority may be applied over this rule, when this rule evaluates to true. Only applies for Excel 2007;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -504,7 +504,7 @@ public void setStyle(Style value)
 ```
 
 
-For the description of this property, please see [getStyle()](../../com.aspose.cells/formatcondition\#getStyle--)
+Gets or setts style of conditional formatted cell ranges.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -517,7 +517,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.cells/formatcondition\#getText--)
+The text value in a "text contains" conditional formatting rule. Valid only for type = containsText, notContainsText, beginsWith and endsWith. The default value is null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -530,7 +530,7 @@ public void setTimePeriod(int value)
 ```
 
 
-For the description of this property, please see [getTimePeriod()](../../com.aspose.cells/formatcondition\#getTimePeriod--)
+The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -543,7 +543,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/formatcondition\#getType--)
+Sets whether the conditional format Type.
 
 **Parameters:**
 | Parameter | Type | Description |

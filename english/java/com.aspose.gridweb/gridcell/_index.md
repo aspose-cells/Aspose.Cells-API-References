@@ -32,8 +32,8 @@ Represents a cell object.
 | [getDisplayStringValue()](#getDisplayStringValue--) | Gets the formatted string value of this cell. |
 | [getDoubleValue()](#getDoubleValue--) | Gets the double value contained in the cell. |
 | [getFloatValue()](#getFloatValue--) | Gets the float value contained in the cell. |
-| [getFormula()](#getFormula--) | a formula of the [GridCell](../../com.aspose.gridweb/gridcell). |
-| [getHtmlString()](#getHtmlString--) | the html string which contains data and some formattings in this cell. |
+| [getFormula()](#getFormula--) | Gets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). |
+| [getHtmlString()](#getHtmlString--) | Gets the html string which contains data and some formattings in this cell. |
 | [getIntValue()](#getIntValue--) | Gets the integer value contained in the cell. |
 | [getName()](#getName--) | Gets the name of the cell. |
 | [getRow()](#getRow--) | Gets row number (zero based) of the cell. |
@@ -61,12 +61,12 @@ Represents a cell object.
 | [removeValidation()](#removeValidation--) | Removes the validation object of the cell. |
 | [setBorder(WebBorderStyle borderStyle)](#setBorder-com.aspose.gridweb.WebBorderStyle-) | Sets borders(top,bottom,left and right) for a cell,all the borders have same borderstyle. |
 | [setCustom(String custom)](#setCustom-java.lang.String-) | sets the custom format, null or empty string means no custom format. |
-| [setFormula(String value)](#setFormula-java.lang.String-) | For the description of this property, please see [getFormula()](../../com.aspose.gridweb/gridcell\#getFormula--) |
-| [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Set the formula and the value of the formula. |
-| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | For the description of this property, please see [getHtmlString()](../../com.aspose.gridweb/gridcell\#getHtmlString--) |
+| [setFormula(String value)](#setFormula-java.lang.String-) | Sets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). |
+| [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Gets the parent worksheet. |
+| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | Sets the html string which contains data and some formattings in this cell. |
 | [setNumberType(int numbertype)](#setNumberType-int-) | set the display format of numbers and dates |
-| [setStyle(GridTableItemStyle value)](#setStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getStyle()](../../com.aspose.gridweb/gridcell\#getStyle--) |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.gridweb/gridcell\#getValue--) |
+| [setStyle(GridTableItemStyle value)](#setStyle-com.aspose.gridweb.GridTableItemStyle-) | Gets the copy of cell style. set the style for the cell. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Gets the value contained in this cell. |
 | [toString()](#toString--) | Returns a string represents the current Cell object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -257,7 +257,7 @@ public String getFormula()
 ```
 
 
-a formula of the [GridCell](../../com.aspose.gridweb/gridcell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimeter, such as "=SUM(A1, E1, H2)".
+Gets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimeter, such as "=SUM(A1, E1, H2)".
 
 User can set any formula in Workbook designer file. Aspose.Cells will keep all the formulas. If user use this property to set a formula to a cell, major part of Workbook built-in functions is supported. And more is coming. If you have any special need for Workbook built-in functions, please let us know.
 
@@ -273,7 +273,7 @@ public String getHtmlString()
 ```
 
 
-the html string which contains data and some formattings in this cell.
+Gets the html string which contains data and some formattings in this cell.
 
 **Returns:**
 java.lang.String
@@ -593,7 +593,9 @@ public void setFormula(String value)
 ```
 
 
-For the description of this property, please see [getFormula()](../../com.aspose.gridweb/gridcell\#getFormula--)
+Sets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimeter, such as "=SUM(A1, E1, H2)".
+
+User can set any formula in Workbook designer file. Aspose.Cells will keep all the formulas. If user use this property to set a formula to a cell, major part of Workbook built-in functions is supported. And more is coming. If you have any special need for Workbook built-in functions, please let us know.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -606,13 +608,13 @@ public void setFormula(String formula, Object value)
 ```
 
 
-Set the formula and the value of the formula.
+Gets the parent worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formula | java.lang.String | The formula. |
-| value | java.lang.Object | The value of the formula. |
+| formula | java.lang.String |  |
+| value | java.lang.Object |  |
 
 ### setHtmlString(String value) {#setHtmlString-java.lang.String-}
 ```
@@ -620,7 +622,7 @@ public void setHtmlString(String value)
 ```
 
 
-For the description of this property, please see [getHtmlString()](../../com.aspose.gridweb/gridcell\#getHtmlString--)
+Sets the html string which contains data and some formattings in this cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -646,7 +648,7 @@ public void setStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getStyle()](../../com.aspose.gridweb/gridcell\#getStyle--)
+Gets the copy of cell style. set the style for the cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -659,7 +661,19 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.gridweb/gridcell\#getValue--)
+Gets the value contained in this cell. Possible type:
+
+null,
+
+Boolean,
+
+DateTime,
+
+Double,
+
+Integer
+
+String.
 
 **Parameters:**
 | Parameter | Type | Description |

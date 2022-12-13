@@ -18,7 +18,7 @@ Represents the required data when calculating one function, such as function nam
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCalculatedValue()](#getCalculatedValue--) | the calculated value for this function. |
+| [getCalculatedValue()](#getCalculatedValue--) | Gets the calculated value for this function. |
 | [getCell()](#getCell--) | Gets the Cell object where the function is in. |
 | [getCellColumn()](#getCellColumn--) | Gets the column index of the cell where the function is in. |
 | [getCellRow()](#getCellRow--) | Gets the row index of the cell where the function is in. |
@@ -32,7 +32,7 @@ Represents the required data when calculating one function, such as function nam
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalculatedValue(Object value)](#setCalculatedValue-java.lang.Object-) | For the description of this property, please see [getCalculatedValue()](../../com.aspose.cells/calculationdata\#getCalculatedValue--) |
+| [setCalculatedValue(Object value)](#setCalculatedValue-java.lang.Object-) | Sets the calculated value for this function. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -58,7 +58,7 @@ public Object getCalculatedValue()
 ```
 
 
-the calculated value for this function. User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value can be any value of those objects that can be set to a Cell(Cell.Value). And it can also be array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting will make the function be calculated by the default calculation engine of Aspose.Cells and the calculated value will be returned.
+Gets the calculated value for this function. User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value can be any value of those objects that can be set to a Cell(Cell.Value). And it can also be array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting will make the function be calculated by the default calculation engine of Aspose.Cells and the calculated value will be returned.
 
 **Returns:**
 java.lang.Object
@@ -204,7 +204,7 @@ public void setCalculatedValue(Object value)
 ```
 
 
-For the description of this property, please see [getCalculatedValue()](../../com.aspose.cells/calculationdata\#getCalculatedValue--)
+Sets the calculated value for this function. User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value can be any value of those objects that can be set to a Cell(Cell.Value). And it can also be array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting will make the function be calculated by the default calculation engine of Aspose.Cells and the calculated value will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |

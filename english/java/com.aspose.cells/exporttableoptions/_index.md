@@ -28,7 +28,7 @@ Represents all export table options.
 | [getExportAsHtmlString()](#getExportAsHtmlString--) | Exports the html string value of the cells to the DataTable. |
 | [getExportAsString()](#getExportAsString--) | Exports the string value of the cells to the DataTable. |
 | [getExportColumnName()](#getExportColumnName--) | Indicates whether the data in the first row are exported to the column name of the DataTable. |
-| [getFormatStrategy()](#getFormatStrategy--) | the format strategy when exporting the value as string value. |
+| [getFormatStrategy()](#getFormatStrategy--) | Gets the format strategy when exporting the value as string value. |
 | [getIndexes()](#getIndexes--) | The indexes of columns/rows which should be exported out. |
 | [getPlotVisibleCells()](#getPlotVisibleCells--) | Only exports visible cells. |
 | [getPlotVisibleColumns()](#getPlotVisibleColumns--) | Only exports visible columns. |
@@ -39,18 +39,18 @@ Represents all export table options.
 | [isVertical()](#isVertical--) | True if a row in Workbook file represents a row in DataTable. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCheckMixedValueType(boolean value)](#setCheckMixedValueType-boolean-) | For the description of this property, please see [getCheckMixedValueType()](../../com.aspose.cells/exporttableoptions\#getCheckMixedValueType--) |
-| [setExportAsHtmlString(boolean value)](#setExportAsHtmlString-boolean-) | For the description of this property, please see [getExportAsHtmlString()](../../com.aspose.cells/exporttableoptions\#getExportAsHtmlString--) |
-| [setExportAsString(boolean value)](#setExportAsString-boolean-) | For the description of this property, please see [getExportAsString()](../../com.aspose.cells/exporttableoptions\#getExportAsString--) |
-| [setExportColumnName(boolean value)](#setExportColumnName-boolean-) | For the description of this property, please see [getExportColumnName()](../../com.aspose.cells/exporttableoptions\#getExportColumnName--) |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/exporttableoptions\#getFormatStrategy--) |
-| [setIndexes(int[] value)](#setIndexes-int---) | For the description of this property, please see [getIndexes()](../../com.aspose.cells/exporttableoptions\#getIndexes--) |
-| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | For the description of this property, please see [getPlotVisibleCells()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleCells--) |
-| [setPlotVisibleColumns(boolean value)](#setPlotVisibleColumns-boolean-) | For the description of this property, please see [getPlotVisibleColumns()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleColumns--) |
-| [setPlotVisibleRows(boolean value)](#setPlotVisibleRows-boolean-) | For the description of this property, please see [getPlotVisibleRows()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleRows--) |
-| [setRenameStrategy(int value)](#setRenameStrategy-int-) | For the description of this property, please see [getRenameStrategy()](../../com.aspose.cells/exporttableoptions\#getRenameStrategy--) |
-| [setSkipErrorValue(boolean value)](#setSkipErrorValue-boolean-) | For the description of this property, please see [getSkipErrorValue()](../../com.aspose.cells/exporttableoptions\#getSkipErrorValue--) |
-| [setVertical(boolean value)](#setVertical-boolean-) | For the description of this property, please see [isVertical()](../../com.aspose.cells/exporttableoptions\#isVertical--) |
+| [setCheckMixedValueType(boolean value)](#setCheckMixedValueType-boolean-) | False, Aspose.Cells will set the DataColumn's type by the value type of the first row for performance. |
+| [setExportAsHtmlString(boolean value)](#setExportAsHtmlString-boolean-) | Exports the html string value of the cells to the DataTable. |
+| [setExportAsString(boolean value)](#setExportAsString-boolean-) | Exports the string value of the cells to the DataTable. |
+| [setExportColumnName(boolean value)](#setExportColumnName-boolean-) | Indicates whether the data in the first row are exported to the column name of the DataTable. |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | Sets the format strategy when exporting the value as string value. |
+| [setIndexes(int[] value)](#setIndexes-int---) | The indexes of columns/rows which should be exported out. |
+| [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | Only exports visible cells. |
+| [setPlotVisibleColumns(boolean value)](#setPlotVisibleColumns-boolean-) | Only exports visible columns. |
+| [setPlotVisibleRows(boolean value)](#setPlotVisibleRows-boolean-) | Only exports visible rows. |
+| [setRenameStrategy(int value)](#setRenameStrategy-int-) | Strategy for duplicate names of columns. |
+| [setSkipErrorValue(boolean value)](#setSkipErrorValue-boolean-) | Indicates whether skip invalid value for the column. |
+| [setVertical(boolean value)](#setVertical-boolean-) | True if a row in Workbook file represents a row in DataTable. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,7 +132,7 @@ public int getFormatStrategy()
 ```
 
 
-the format strategy when exporting the value as string value.
+Gets the format strategy when exporting the value as string value.
 
 **Returns:**
 int
@@ -238,7 +238,7 @@ public void setCheckMixedValueType(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckMixedValueType()](../../com.aspose.cells/exporttableoptions\#getCheckMixedValueType--)
+False, Aspose.Cells will set the DataColumn's type by the value type of the first row for performance. True, Aspose.Cells will check whether the value type in the column are mixed before set the DataColumn's type And the value type are mixed, the DataColumn's type will be string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -251,7 +251,7 @@ public void setExportAsHtmlString(boolean value)
 ```
 
 
-For the description of this property, please see [getExportAsHtmlString()](../../com.aspose.cells/exporttableoptions\#getExportAsHtmlString--)
+Exports the html string value of the cells to the DataTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -264,7 +264,7 @@ public void setExportAsString(boolean value)
 ```
 
 
-For the description of this property, please see [getExportAsString()](../../com.aspose.cells/exporttableoptions\#getExportAsString--)
+Exports the string value of the cells to the DataTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -277,7 +277,7 @@ public void setExportColumnName(boolean value)
 ```
 
 
-For the description of this property, please see [getExportColumnName()](../../com.aspose.cells/exporttableoptions\#getExportColumnName--)
+Indicates whether the data in the first row are exported to the column name of the DataTable. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -290,7 +290,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/exporttableoptions\#getFormatStrategy--)
+Sets the format strategy when exporting the value as string value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -303,7 +303,7 @@ public void setIndexes(int[] value)
 ```
 
 
-For the description of this property, please see [getIndexes()](../../com.aspose.cells/exporttableoptions\#getIndexes--)
+The indexes of columns/rows which should be exported out.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -316,7 +316,7 @@ public void setPlotVisibleCells(boolean value)
 ```
 
 
-For the description of this property, please see [getPlotVisibleCells()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleCells--)
+Only exports visible cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -329,7 +329,7 @@ public void setPlotVisibleColumns(boolean value)
 ```
 
 
-For the description of this property, please see [getPlotVisibleColumns()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleColumns--)
+Only exports visible columns.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -342,7 +342,7 @@ public void setPlotVisibleRows(boolean value)
 ```
 
 
-For the description of this property, please see [getPlotVisibleRows()](../../com.aspose.cells/exporttableoptions\#getPlotVisibleRows--)
+Only exports visible rows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -355,7 +355,7 @@ public void setRenameStrategy(int value)
 ```
 
 
-For the description of this property, please see [getRenameStrategy()](../../com.aspose.cells/exporttableoptions\#getRenameStrategy--)
+Strategy for duplicate names of columns.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -368,7 +368,7 @@ public void setSkipErrorValue(boolean value)
 ```
 
 
-For the description of this property, please see [getSkipErrorValue()](../../com.aspose.cells/exporttableoptions\#getSkipErrorValue--)
+Indicates whether skip invalid value for the column. For example,if the column type is decimal ,the value is greater than decimal.MaxValue and this property is true,we will not throw exception again. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -381,7 +381,7 @@ public void setVertical(boolean value)
 ```
 
 
-For the description of this property, please see [isVertical()](../../com.aspose.cells/exporttableoptions\#isVertical--)
+True if a row in Workbook file represents a row in DataTable. False if a column in Workbook file represents a row in DataTable.
 
 **Parameters:**
 | Parameter | Type | Description |

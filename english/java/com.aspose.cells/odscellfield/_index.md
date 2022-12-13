@@ -19,17 +19,17 @@ Represents the cell field of ods.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) | the column index of the cell. |
+| [getColumn()](#getColumn--) | Gets the column index of the cell. |
 | [getCustomFormat()](#getCustomFormat--) | Represents the custom format of the field's value. |
-| [getFieldType()](#getFieldType--) | the type of the field. |
-| [getRow()](#getRow--) | the row index of the cell. |
+| [getFieldType()](#getFieldType--) | Gets the type of the field. |
+| [getRow()](#getRow--) | Gets the row index of the cell. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumn(int value)](#setColumn-int-) | For the description of this property, please see [getColumn()](../../com.aspose.cells/odscellfield\#getColumn--) |
-| [setCustomFormat(String value)](#setCustomFormat-java.lang.String-) | For the description of this property, please see [getCustomFormat()](../../com.aspose.cells/odscellfield\#getCustomFormat--) |
-| [setFieldType(int value)](#setFieldType-int-) | For the description of this property, please see [getFieldType()](../../com.aspose.cells/odscellfield\#getFieldType--) |
-| [setRow(int value)](#setRow-int-) | For the description of this property, please see [getRow()](../../com.aspose.cells/odscellfield\#getRow--) |
+| [setColumn(int value)](#setColumn-int-) | Sets the column index of the cell. |
+| [setCustomFormat(String value)](#setCustomFormat-java.lang.String-) | Represents the custom format of the field's value. |
+| [setFieldType(int value)](#setFieldType-int-) | Sets the type of the field. |
+| [setRow(int value)](#setRow-int-) | Sets the row index of the cell. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,7 @@ public int getColumn()
 ```
 
 
-the column index of the cell.
+Gets the column index of the cell.
 
 **Returns:**
 int
@@ -85,7 +85,7 @@ public int getFieldType()
 ```
 
 
-the type of the field.
+Gets the type of the field.
 
 **Returns:**
 int
@@ -95,7 +95,7 @@ public int getRow()
 ```
 
 
-the row index of the cell.
+Gets the row index of the cell.
 
 **Returns:**
 int
@@ -131,7 +131,7 @@ public void setColumn(int value)
 ```
 
 
-For the description of this property, please see [getColumn()](../../com.aspose.cells/odscellfield\#getColumn--)
+Sets the column index of the cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,7 +144,7 @@ public void setCustomFormat(String value)
 ```
 
 
-For the description of this property, please see [getCustomFormat()](../../com.aspose.cells/odscellfield\#getCustomFormat--)
+Represents the custom format of the field's value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setFieldType(int value)
 ```
 
 
-For the description of this property, please see [getFieldType()](../../com.aspose.cells/odscellfield\#getFieldType--)
+Sets the type of the field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +170,7 @@ public void setRow(int value)
 ```
 
 
-For the description of this property, please see [getRow()](../../com.aspose.cells/odscellfield\#getRow--)
+Sets the row index of the cell.
 
 **Parameters:**
 | Parameter | Type | Description |

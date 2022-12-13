@@ -89,14 +89,14 @@ Workbook book = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFormatConditions()](#getFormatConditions--) | Get formatconditions for the pivot table condition format . |
-| [getRuleType()](#getRuleType--) | rule type for the pivot table condition format . |
-| [getScopeType()](#getScopeType--) | scope type for the pivot table condition format . |
+| [getRuleType()](#getRuleType--) | Gets rule type for the pivot table condition format . |
+| [getScopeType()](#getScopeType--) | Gets scope type for the pivot table condition format . |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setConditionalAreas()](#setConditionalAreas--) | Sets conditional areas of PivotFormatCondition object. |
-| [setRuleType(int value)](#setRuleType-int-) | For the description of this property, please see [getRuleType()](../../com.aspose.cells/pivotformatcondition\#getRuleType--) |
-| [setScopeType(int value)](#setScopeType-int-) | For the description of this property, please see [getScopeType()](../../com.aspose.cells/pivotformatcondition\#getScopeType--) |
+| [setRuleType(int value)](#setRuleType-int-) | Sets rule type for the pivot table condition format . |
+| [setScopeType(int value)](#setScopeType-int-) | Sets scope type for the pivot table condition format . |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -220,7 +220,7 @@ public int getRuleType()
 ```
 
 
-rule type for the pivot table condition format .
+Gets rule type for the pivot table condition format .
 
 **Returns:**
 int
@@ -230,7 +230,7 @@ public int getScopeType()
 ```
 
 
-scope type for the pivot table condition format .
+Gets scope type for the pivot table condition format .
 
 **Returns:**
 int
@@ -274,7 +274,7 @@ public void setRuleType(int value)
 ```
 
 
-For the description of this property, please see [getRuleType()](../../com.aspose.cells/pivotformatcondition\#getRuleType--)
+Sets rule type for the pivot table condition format .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -287,7 +287,7 @@ public void setScopeType(int value)
 ```
 
 
-For the description of this property, please see [getScopeType()](../../com.aspose.cells/pivotformatcondition\#getScopeType--)
+Sets scope type for the pivot table condition format .
 
 **Parameters:**
 | Parameter | Type | Description |

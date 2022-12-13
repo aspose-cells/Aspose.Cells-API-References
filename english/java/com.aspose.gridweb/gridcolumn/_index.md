@@ -25,8 +25,8 @@ Represents a single column in a worksheet.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaption(String value)](#setCaption-java.lang.String-) | For the description of this property, please see [getCaption()](../../com.aspose.gridweb/gridcolumn\#getCaption--) |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [getHidden()](../../com.aspose.gridweb/gridcolumn\#getHidden--) |
+| [setCaption(String value)](#setCaption-java.lang.String-) |  |
+| [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the column is hidden. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -118,7 +118,7 @@ public void setCaption(String value)
 ```
 
 
-For the description of this property, please see [getCaption()](../../com.aspose.gridweb/gridcolumn\#getCaption--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -131,7 +131,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see [getHidden()](../../com.aspose.gridweb/gridcolumn\#getHidden--)
+Indicates whether the column is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |

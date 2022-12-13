@@ -74,9 +74,9 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | [getRowHeightPixel(int row)](#getRowHeightPixel-int-) | Gets the height of a specified row in unit of pixel. |
 | [getRowOutlineLevel(int rowIndex)](#getRowOutlineLevel-int-) | Gets the outline level of the row. |
 | [getRows()](#getRows--) |  |
-| [getStandardHeight()](#getStandardHeight--) | the default row height in this worksheet,in unit of points. |
-| [getStandardHeightPixels()](#getStandardHeightPixels--) | the default row height in this worksheet,in unit of pixels. |
-| [getStandardWidth()](#getStandardWidth--) | the default column width in the worksheet,in unit of characters. |
+| [getStandardHeight()](#getStandardHeight--) | Gets the default row height in this worksheet,in unit of points. |
+| [getStandardHeightPixels()](#getStandardHeightPixels--) | Gets the default row height in this worksheet,in unit of pixels. |
+| [getStandardWidth()](#getStandardWidth--) | Gets the default column width in the worksheet,in unit of characters. |
 | [getStandardWidthInch()](#getStandardWidthInch--) |  |
 | [getStandardWidthPixels()](#getStandardWidthPixels--) |  |
 | [getViewColumnWidthPixel(int column)](#getViewColumnWidthPixel-int-) | Get the width in different view type. |
@@ -112,15 +112,15 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | [setRowHeightInch(int row, double inches)](#setRowHeightInch-int-double-) | Sets row height in unit of inches. |
 | [setRowHeightPixel(int row, int pixels)](#setRowHeightPixel-int-int-) | Sets row height in unit of pixels. |
 | [setRowOutlineLevel(int rowIndex, int outlineLevel)](#setRowOutlineLevel-int-int-) | Sets the outline level of the row. |
-| [setStandardHeight(double value)](#setStandardHeight-double-) | For the description of this property, please see [getStandardHeight()](../../com.aspose.gridweb/gridcells\#getStandardHeight--) |
-| [setStandardHeightPixels(int value)](#setStandardHeightPixels-int-) | For the description of this property, please see [getStandardHeightPixels()](../../com.aspose.gridweb/gridcells\#getStandardHeightPixels--) |
-| [setStandardWidth(double value)](#setStandardWidth-double-) | For the description of this property, please see [getStandardWidth()](../../com.aspose.gridweb/gridcells\#getStandardWidth--) |
-| [setStandardWidthInch(double value)](#setStandardWidthInch-double-) | For the description of this property, please see [getStandardWidthInch()](../../com.aspose.gridweb/gridcells\#getStandardWidthInch--) |
-| [setStandardWidthPixels(int value)](#setStandardWidthPixels-int-) | For the description of this property, please see [getStandardWidthPixels()](../../com.aspose.gridweb/gridcells\#getStandardWidthPixels--) |
+| [setStandardHeight(double value)](#setStandardHeight-double-) | Sets the default row height in this worksheet,in unit of points. |
+| [setStandardHeightPixels(int value)](#setStandardHeightPixels-int-) | Sets the default row height in this worksheet,in unit of pixels. |
+| [setStandardWidth(double value)](#setStandardWidth-double-) | Sets the default column width in the worksheet,in unit of characters. |
+| [setStandardWidthInch(double value)](#setStandardWidthInch-double-) |  |
+| [setStandardWidthPixels(int value)](#setStandardWidthPixels-int-) |  |
 | [setStyle(int firstRow, int firstColumn, int rowNumber, int columnNumber, GridTableItemStyle style)](#setStyle-int-int-int-int-com.aspose.gridweb.GridTableItemStyle-) | Sets the style to a specified range of cells. |
 | [setStyle(String cellRange, GridTableItemStyle style)](#setStyle-java.lang.String-com.aspose.gridweb.GridTableItemStyle-) | Sets the style to a specified range of cells. |
 | [sort(int startRow, int startColumn, int rows, int columns, int index, boolean isAsending, boolean isCaseSensitive, boolean islefttoright)](#sort-int-int-int-int-int-boolean-boolean-boolean-) | Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. |
-| [sort(int startRow, int startColumn, int rows, int columns, int[] indexes, int[] orders, int orientation, boolean isCaseSensitive)](#sort-int-int-int-int-int---int---int-boolean-) |  |
+| [sort(int startRow, int startColumn, int rows, int columns, int[] indexes, int[] orders, int orientation, boolean isCaseSensitive)](#sort-int-int-int-int-int---int---int-boolean-) | Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. |
 | [toString()](#toString--) |  |
 | [unMerge(int firstRow, int firstColumn, int totalRows, int totalColumns)](#unMerge-int-int-int-int-) | Unmerges a specified range of merged cells. |
 | [ungroupColumns(int firstIndex, int lastIndex)](#ungroupColumns-int-int-) | Ungroups columns. |
@@ -863,7 +863,7 @@ public double getStandardHeight()
 ```
 
 
-the default row height in this worksheet,in unit of points.
+Gets the default row height in this worksheet,in unit of points.
 
 **Returns:**
 double
@@ -873,7 +873,7 @@ public int getStandardHeightPixels()
 ```
 
 
-the default row height in this worksheet,in unit of pixels.
+Gets the default row height in this worksheet,in unit of pixels.
 
 **Returns:**
 int
@@ -883,7 +883,7 @@ public double getStandardWidth()
 ```
 
 
-the default column width in the worksheet,in unit of characters.
+Gets the default column width in the worksheet,in unit of characters.
 
 **Returns:**
 double
@@ -1367,7 +1367,7 @@ public void setStandardHeight(double value)
 ```
 
 
-For the description of this property, please see [getStandardHeight()](../../com.aspose.gridweb/gridcells\#getStandardHeight--)
+Sets the default row height in this worksheet,in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1380,7 +1380,7 @@ public void setStandardHeightPixels(int value)
 ```
 
 
-For the description of this property, please see [getStandardHeightPixels()](../../com.aspose.gridweb/gridcells\#getStandardHeightPixels--)
+Sets the default row height in this worksheet,in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1393,7 +1393,7 @@ public void setStandardWidth(double value)
 ```
 
 
-For the description of this property, please see [getStandardWidth()](../../com.aspose.gridweb/gridcells\#getStandardWidth--)
+Sets the default column width in the worksheet,in unit of characters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1406,7 +1406,7 @@ public void setStandardWidthInch(double value)
 ```
 
 
-For the description of this property, please see [getStandardWidthInch()](../../com.aspose.gridweb/gridcells\#getStandardWidthInch--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1419,7 +1419,7 @@ public void setStandardWidthPixels(int value)
 ```
 
 
-For the description of this property, please see [getStandardWidthPixels()](../../com.aspose.gridweb/gridcells\#getStandardWidthPixels--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1488,19 +1488,19 @@ public void sort(int startRow, int startColumn, int rows, int columns, int[] ind
 ```
 
 
-
+Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. Sorts the datas ascend/decend left to right in a range of a Worksheet by specified row index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| startRow | int |  |
-| startColumn | int |  |
-| rows | int |  |
-| columns | int |  |
-| indexes | int[] |  |
-| orders | int[] |  |
-| orientation | int |  |
-| isCaseSensitive | boolean |  |
+| startRow | int | The row number of the first cell to sort. |
+| startColumn | int | The column number of the first cell to sort. |
+| rows | int | Number of rows to be imported. |
+| columns | int | Number of columns to be imported. |
+| indexes | int[] | The column index array that specifis the sort column. if the Orientation is top to bottom ,it stand for the column index that specifis the sort column. if the Orientation is from left to right,it stand for the row index that specifis the sort row. |
+| orders | int[] | the the sorting order array . |
+| orientation | int | sorting orientation |
+| isCaseSensitive | boolean | whether the sort is casesensitive . |
 
 ### toString() {#toString--}
 ```

@@ -26,12 +26,12 @@ Represents a item in a PivotField report.
 | [getStringValue()](#getStringValue--) | Gets the string value of the pivot item If the value is null, it will return "" |
 | [getValue()](#getValue--) | Gets the value of the pivot item |
 | [hashCode()](#hashCode--) |  |
-| [isHidden()](#isHidden--) | whether the pivot item is hidden. |
+| [isHidden()](#isHidden--) | Gets whether the pivot item is hidden. |
 | [move(int count)](#move-int-) | Moves the item up or down. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.gridweb/gridpivotitem\#isHidden--) |
-| [setIndex(int value)](#setIndex-int-) | For the description of this property, please see [getIndex()](../../com.aspose.gridweb/gridpivotitem\#getIndex--) |
+| [setHidden(boolean value)](#setHidden-boolean-) | Sets whether the pivot item is hidden. |
+| [setIndex(int value)](#setIndex-int-) | Gets the index of the pivot item in the pivot field |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -137,7 +137,7 @@ public boolean isHidden()
 ```
 
 
-whether the pivot item is hidden.
+Gets whether the pivot item is hidden.
 
 **Returns:**
 boolean
@@ -176,7 +176,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see [isHidden()](../../com.aspose.gridweb/gridpivotitem\#isHidden--)
+Sets whether the pivot item is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -189,7 +189,7 @@ public void setIndex(int value)
 ```
 
 
-For the description of this property, please see [getIndex()](../../com.aspose.gridweb/gridpivotitem\#getIndex--)
+Gets the index of the pivot item in the pivot field
 
 **Parameters:**
 | Parameter | Type | Description |

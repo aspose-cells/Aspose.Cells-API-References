@@ -32,23 +32,23 @@ GridWebBean GridWeb1=ExtPage.getInstance().getBean();
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getClientClickEvent()](#getClientClickEvent--) | the click event handler at client side. |
-| [getCommand()](#getCommand--) | the command name. |
-| [getCommandType()](#getCommandType--) | the rendering type of the command. |
+| [getClientClickEvent()](#getClientClickEvent--) | Gets the click event handler at client side. |
+| [getCommand()](#getCommand--) | Gets the command name. |
+| [getCommandType()](#getCommandType--) | Gets the rendering type of the command. |
 | [getDiscardInput()](#getDiscardInput--) | Indicates whether to discard user input at client browser when user click this button. |
-| [getImageUrl()](#getImageUrl--) | the command button's image url. |
-| [getText()](#getText--) | the alternative text of the command button. |
-| [getToolTip()](#getToolTip--) | the tooltip of the command button. |
+| [getImageUrl()](#getImageUrl--) | Gets the command button's image url. |
+| [getText()](#getText--) | Gets the alternative text of the command button. |
+| [getToolTip()](#getToolTip--) | Gets the tooltip of the command button. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setClientClickEvent(String value)](#setClientClickEvent-java.lang.String-) | For the description of this property, please see [getClientClickEvent()](../../com.aspose.gridweb/customcommandbutton\#getClientClickEvent--) |
-| [setCommand(String value)](#setCommand-java.lang.String-) | For the description of this property, please see [getCommand()](../../com.aspose.gridweb/customcommandbutton\#getCommand--) |
-| [setCommandType(int value)](#setCommandType-int-) | For the description of this property, please see [getCommandType()](../../com.aspose.gridweb/customcommandbutton\#getCommandType--) |
-| [setDiscardInput(boolean value)](#setDiscardInput-boolean-) | For the description of this property, please see [getDiscardInput()](../../com.aspose.gridweb/customcommandbutton\#getDiscardInput--) |
-| [setImageUrl(String value)](#setImageUrl-java.lang.String-) | For the description of this property, please see [getImageUrl()](../../com.aspose.gridweb/customcommandbutton\#getImageUrl--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.gridweb/customcommandbutton\#getText--) |
-| [setToolTip(String value)](#setToolTip-java.lang.String-) | For the description of this property, please see [getToolTip()](../../com.aspose.gridweb/customcommandbutton\#getToolTip--) |
+| [setClientClickEvent(String value)](#setClientClickEvent-java.lang.String-) | Sets the click event handler at client side. |
+| [setCommand(String value)](#setCommand-java.lang.String-) | Sets the command name. |
+| [setCommandType(int value)](#setCommandType-int-) | Sets the rendering type of the command. |
+| [setDiscardInput(boolean value)](#setDiscardInput-boolean-) | Indicates whether to discard user input at client browser when user click this button. |
+| [setImageUrl(String value)](#setImageUrl-java.lang.String-) | Sets the command button's image url. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the alternative text of the command button. |
+| [setToolTip(String value)](#setToolTip-java.lang.String-) | Sets the tooltip of the command button. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -92,7 +92,7 @@ public String getClientClickEvent()
 ```
 
 
-the click event handler at client side.
+Gets the click event handler at client side.
 
 **Returns:**
 java.lang.String
@@ -102,7 +102,7 @@ public String getCommand()
 ```
 
 
-the command name.
+Gets the command name.
 
 **Returns:**
 java.lang.String
@@ -112,7 +112,7 @@ public int getCommandType()
 ```
 
 
-the rendering type of the command. The type can be command button or context menu item.
+Gets the rendering type of the command. The type can be command button or context menu item.
 
 **Returns:**
 int
@@ -132,7 +132,7 @@ public String getImageUrl()
 ```
 
 
-the command button's image url. If sets to null or empty string, the button will only display it's text.
+Gets the command button's image url. If sets to null or empty string, the button will only display it's text.
 
 **Returns:**
 java.lang.String
@@ -142,7 +142,7 @@ public String getText()
 ```
 
 
-the alternative text of the command button.
+Gets the alternative text of the command button.
 
 **Returns:**
 java.lang.String
@@ -152,7 +152,7 @@ public String getToolTip()
 ```
 
 
-the tooltip of the command button.
+Gets the tooltip of the command button.
 
 **Returns:**
 java.lang.String
@@ -188,7 +188,7 @@ public void setClientClickEvent(String value)
 ```
 
 
-For the description of this property, please see [getClientClickEvent()](../../com.aspose.gridweb/customcommandbutton\#getClientClickEvent--)
+Sets the click event handler at client side.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -201,7 +201,7 @@ public void setCommand(String value)
 ```
 
 
-For the description of this property, please see [getCommand()](../../com.aspose.gridweb/customcommandbutton\#getCommand--)
+Sets the command name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -214,7 +214,7 @@ public void setCommandType(int value)
 ```
 
 
-For the description of this property, please see [getCommandType()](../../com.aspose.gridweb/customcommandbutton\#getCommandType--)
+Sets the rendering type of the command. The type can be command button or context menu item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -227,7 +227,7 @@ public void setDiscardInput(boolean value)
 ```
 
 
-For the description of this property, please see [getDiscardInput()](../../com.aspose.gridweb/customcommandbutton\#getDiscardInput--)
+Indicates whether to discard user input at client browser when user click this button. Could be used as an "undo" action.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -240,7 +240,7 @@ public void setImageUrl(String value)
 ```
 
 
-For the description of this property, please see [getImageUrl()](../../com.aspose.gridweb/customcommandbutton\#getImageUrl--)
+Sets the command button's image url. If sets to null or empty string, the button will only display it's text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -253,7 +253,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.gridweb/customcommandbutton\#getText--)
+Sets the alternative text of the command button.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -266,7 +266,7 @@ public void setToolTip(String value)
 ```
 
 
-For the description of this property, please see [getToolTip()](../../com.aspose.gridweb/customcommandbutton\#getToolTip--)
+Sets the tooltip of the command button.
 
 **Parameters:**
 | Parameter | Type | Description |

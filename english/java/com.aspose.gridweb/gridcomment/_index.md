@@ -35,17 +35,17 @@ Encapsulates the object that represents a cell comment.
 | [isVisible()](#isVisible--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see [getAuthor()](../../com.aspose.gridweb/gridcomment\#getAuthor--) |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [getAutoSize()](../../com.aspose.gridweb/gridcomment\#getAutoSize--) |
-| [setHeight(int value)](#setHeight-int-) | For the description of this property, please see [getHeight()](../../com.aspose.gridweb/gridcomment\#getHeight--) |
-| [setHeightCM(double value)](#setHeightCM-double-) | For the description of this property, please see [getHeightCM()](../../com.aspose.gridweb/gridcomment\#getHeightCM--) |
-| [setHeightInch(double value)](#setHeightInch-double-) | For the description of this property, please see [getHeightInch()](../../com.aspose.gridweb/gridcomment\#getHeightInch--) |
-| [setHtmlNote(String value)](#setHtmlNote-java.lang.String-) | For the description of this property, please see [getHtmlNote()](../../com.aspose.gridweb/gridcomment\#getHtmlNote--) |
-| [setNote(String value)](#setNote-java.lang.String-) | For the description of this property, please see [getNote()](../../com.aspose.gridweb/gridcomment\#getNote--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.gridweb/gridcomment\#isVisible--) |
-| [setWidth(int value)](#setWidth-int-) | For the description of this property, please see [getWidth()](../../com.aspose.gridweb/gridcomment\#getWidth--) |
-| [setWidthCM(double value)](#setWidthCM-double-) | For the description of this property, please see [getWidthCM()](../../com.aspose.gridweb/gridcomment\#getWidthCM--) |
-| [setWidthInch(double value)](#setWidthInch-double-) | For the description of this property, please see [getWidthInch()](../../com.aspose.gridweb/gridcomment\#getWidthInch--) |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) |  |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) |  |
+| [setHeight(int value)](#setHeight-int-) | Represents the Height of the comment, in unit of pixels. |
+| [setHeightCM(double value)](#setHeightCM-double-) |  |
+| [setHeightInch(double value)](#setHeightInch-double-) |  |
+| [setHtmlNote(String value)](#setHtmlNote-java.lang.String-) |  |
+| [setNote(String value)](#setNote-java.lang.String-) |  |
+| [setVisible(boolean value)](#setVisible-boolean-) |  |
+| [setWidth(int value)](#setWidth-int-) | Represents the width of the comment, in unit of pixels. |
+| [setWidthCM(double value)](#setWidthCM-double-) |  |
+| [setWidthInch(double value)](#setWidthInch-double-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -237,7 +237,7 @@ public void setAuthor(String value)
 ```
 
 
-For the description of this property, please see [getAuthor()](../../com.aspose.gridweb/gridcomment\#getAuthor--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -250,7 +250,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoSize()](../../com.aspose.gridweb/gridcomment\#getAutoSize--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -263,7 +263,7 @@ public void setHeight(int value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.gridweb/gridcomment\#getHeight--)
+Represents the Height of the comment, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -276,7 +276,7 @@ public void setHeightCM(double value)
 ```
 
 
-For the description of this property, please see [getHeightCM()](../../com.aspose.gridweb/gridcomment\#getHeightCM--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +289,7 @@ public void setHeightInch(double value)
 ```
 
 
-For the description of this property, please see [getHeightInch()](../../com.aspose.gridweb/gridcomment\#getHeightInch--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +302,7 @@ public void setHtmlNote(String value)
 ```
 
 
-For the description of this property, please see [getHtmlNote()](../../com.aspose.gridweb/gridcomment\#getHtmlNote--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +315,7 @@ public void setNote(String value)
 ```
 
 
-For the description of this property, please see [getNote()](../../com.aspose.gridweb/gridcomment\#getNote--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +328,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.gridweb/gridcomment\#isVisible--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +341,7 @@ public void setWidth(int value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.gridweb/gridcomment\#getWidth--)
+Represents the width of the comment, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +354,7 @@ public void setWidthCM(double value)
 ```
 
 
-For the description of this property, please see [getWidthCM()](../../com.aspose.gridweb/gridcomment\#getWidthCM--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,7 +367,7 @@ public void setWidthInch(double value)
 ```
 
 
-For the description of this property, please see [getWidthInch()](../../com.aspose.gridweb/gridcomment\#getWidthInch--)
+
 
 **Parameters:**
 | Parameter | Type | Description |

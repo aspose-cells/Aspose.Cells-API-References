@@ -25,24 +25,24 @@ Represents the options of json layout type.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArrayAsTable()](#getArrayAsTable--) | Processes Array as table. |
 | [getClass()](#getClass--) |  |
-| [getConvertNumericOrDate()](#getConvertNumericOrDate--) | a value that indicates whether the string in json is converted to numeric or date. |
-| [getDateFormat()](#getDateFormat--) | the format of date value. |
+| [getConvertNumericOrDate()](#getConvertNumericOrDate--) | Gets a value that indicates whether the string in json is converted to numeric or date. |
+| [getDateFormat()](#getDateFormat--) | Gets the format of date value. |
 | [getIgnoreArrayTitle()](#getIgnoreArrayTitle--) | Indicates whether ignore title if array is a property of object. |
 | [getIgnoreNull()](#getIgnoreNull--) | Indicates whether ignoring null value. |
 | [getIgnoreObjectTitle()](#getIgnoreObjectTitle--) | Indicates whether ignore title if object is a property of object. |
-| [getNumberFormat()](#getNumberFormat--) | the format of numeric value. |
-| [getTitleStyle()](#getTitleStyle--) | the style of the title. |
+| [getNumberFormat()](#getNumberFormat--) | Gets the format of numeric value. |
+| [getTitleStyle()](#getTitleStyle--) | Gets the style of the title. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArrayAsTable(boolean value)](#setArrayAsTable-boolean-) | For the description of this property, please see [getArrayAsTable()](../../com.aspose.cells/jsonlayoutoptions\#getArrayAsTable--) |
-| [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | For the description of this property, please see [getConvertNumericOrDate()](../../com.aspose.cells/jsonlayoutoptions\#getConvertNumericOrDate--) |
-| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | For the description of this property, please see [getDateFormat()](../../com.aspose.cells/jsonlayoutoptions\#getDateFormat--) |
-| [setIgnoreArrayTitle(boolean value)](#setIgnoreArrayTitle-boolean-) | For the description of this property, please see [getIgnoreArrayTitle()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreArrayTitle--) |
-| [setIgnoreNull(boolean value)](#setIgnoreNull-boolean-) | For the description of this property, please see [getIgnoreNull()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreNull--) |
-| [setIgnoreObjectTitle(boolean value)](#setIgnoreObjectTitle-boolean-) | For the description of this property, please see [getIgnoreObjectTitle()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreObjectTitle--) |
-| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/jsonlayoutoptions\#getNumberFormat--) |
-| [setTitleStyle(Style value)](#setTitleStyle-com.aspose.cells.Style-) | For the description of this property, please see [getTitleStyle()](../../com.aspose.cells/jsonlayoutoptions\#getTitleStyle--) |
+| [setArrayAsTable(boolean value)](#setArrayAsTable-boolean-) | Processes Array as table. |
+| [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | Sets a value that indicates whether the string in json is converted to numeric or date. |
+| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | Sets the format of date value. |
+| [setIgnoreArrayTitle(boolean value)](#setIgnoreArrayTitle-boolean-) | Indicates whether ignore title if array is a property of object. |
+| [setIgnoreNull(boolean value)](#setIgnoreNull-boolean-) | Indicates whether ignoring null value. |
+| [setIgnoreObjectTitle(boolean value)](#setIgnoreObjectTitle-boolean-) | Indicates whether ignore title if object is a property of object. |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Sets the format of numeric value. |
+| [setTitleStyle(Style value)](#setTitleStyle-com.aspose.cells.Style-) | Sets the style of the title. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -94,7 +94,7 @@ public boolean getConvertNumericOrDate()
 ```
 
 
-a value that indicates whether the string in json is converted to numeric or date.
+Gets a value that indicates whether the string in json is converted to numeric or date.
 
 **Returns:**
 boolean
@@ -104,7 +104,7 @@ public String getDateFormat()
 ```
 
 
-the format of date value.
+Gets the format of date value.
 
 **Returns:**
 java.lang.String
@@ -144,7 +144,7 @@ public String getNumberFormat()
 ```
 
 
-the format of numeric value.
+Gets the format of numeric value.
 
 **Returns:**
 java.lang.String
@@ -154,7 +154,7 @@ public Style getTitleStyle()
 ```
 
 
-the style of the title.
+Gets the style of the title.
 
 **Returns:**
 [Style](../../com.aspose.cells/style)
@@ -190,7 +190,7 @@ public void setArrayAsTable(boolean value)
 ```
 
 
-For the description of this property, please see [getArrayAsTable()](../../com.aspose.cells/jsonlayoutoptions\#getArrayAsTable--)
+Processes Array as table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -203,7 +203,7 @@ public void setConvertNumericOrDate(boolean value)
 ```
 
 
-For the description of this property, please see [getConvertNumericOrDate()](../../com.aspose.cells/jsonlayoutoptions\#getConvertNumericOrDate--)
+Sets a value that indicates whether the string in json is converted to numeric or date.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setDateFormat(String value)
 ```
 
 
-For the description of this property, please see [getDateFormat()](../../com.aspose.cells/jsonlayoutoptions\#getDateFormat--)
+Sets the format of date value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setIgnoreArrayTitle(boolean value)
 ```
 
 
-For the description of this property, please see [getIgnoreArrayTitle()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreArrayTitle--)
+Indicates whether ignore title if array is a property of object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setIgnoreNull(boolean value)
 ```
 
 
-For the description of this property, please see [getIgnoreNull()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreNull--)
+Indicates whether ignoring null value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setIgnoreObjectTitle(boolean value)
 ```
 
 
-For the description of this property, please see [getIgnoreObjectTitle()](../../com.aspose.cells/jsonlayoutoptions\#getIgnoreObjectTitle--)
+Indicates whether ignore title if object is a property of object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setNumberFormat(String value)
 ```
 
 
-For the description of this property, please see [getNumberFormat()](../../com.aspose.cells/jsonlayoutoptions\#getNumberFormat--)
+Sets the format of numeric value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setTitleStyle(Style value)
 ```
 
 
-For the description of this property, please see [getTitleStyle()](../../com.aspose.cells/jsonlayoutoptions\#getTitleStyle--)
+Sets the style of the title.
 
 **Parameters:**
 | Parameter | Type | Description |

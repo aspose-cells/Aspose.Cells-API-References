@@ -19,14 +19,14 @@ Warning info
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCorrectedObject()](#getCorrectedObject--) | the corrected object. |
+| [getCorrectedObject()](#getCorrectedObject--) | Gets the corrected object. |
 | [getDescription()](#getDescription--) | Get description of warning info. |
 | [getErrorObject()](#getErrorObject--) | The error object. |
 | [getWarningType()](#getWarningType--) | Get warning type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCorrectedObject(Object value)](#setCorrectedObject-java.lang.Object-) | For the description of this property, please see [getCorrectedObject()](../../com.aspose.cells/warninginfo\#getCorrectedObject--) |
+| [setCorrectedObject(Object value)](#setCorrectedObject-java.lang.Object-) | Sets the corrected object. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public Object getCorrectedObject()
 ```
 
 
-the corrected object.
+Gets the corrected object.
 
 **Returns:**
 java.lang.Object
@@ -128,7 +128,7 @@ public void setCorrectedObject(Object value)
 ```
 
 
-For the description of this property, please see [getCorrectedObject()](../../com.aspose.cells/warninginfo\#getCorrectedObject--)
+Sets the corrected object.
 
 **Parameters:**
 | Parameter | Type | Description |

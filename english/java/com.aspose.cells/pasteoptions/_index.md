@@ -25,18 +25,18 @@ Represents the paste special options.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getOnlyVisibleCells()](#getOnlyVisibleCells--) | True means only copying visible cells. |
-| [getOperationType()](#getOperationType--) | the operation type when pasting range. |
+| [getOperationType()](#getOperationType--) | Gets the operation type when pasting range. |
 | [getPasteType()](#getPasteType--) | The paste special type. |
 | [getSkipBlanks()](#getSkipBlanks--) | Indicates whether skips blank cells. |
 | [getTranspose()](#getTranspose--) | True to transpose rows and columns when the range is pasted. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setOnlyVisibleCells(boolean value)](#setOnlyVisibleCells-boolean-) | For the description of this property, please see [getOnlyVisibleCells()](../../com.aspose.cells/pasteoptions\#getOnlyVisibleCells--) |
-| [setOperationType(int value)](#setOperationType-int-) | For the description of this property, please see [getOperationType()](../../com.aspose.cells/pasteoptions\#getOperationType--) |
-| [setPasteType(int value)](#setPasteType-int-) | For the description of this property, please see [getPasteType()](../../com.aspose.cells/pasteoptions\#getPasteType--) |
-| [setSkipBlanks(boolean value)](#setSkipBlanks-boolean-) | For the description of this property, please see [getSkipBlanks()](../../com.aspose.cells/pasteoptions\#getSkipBlanks--) |
-| [setTranspose(boolean value)](#setTranspose-boolean-) | For the description of this property, please see [getTranspose()](../../com.aspose.cells/pasteoptions\#getTranspose--) |
+| [setOnlyVisibleCells(boolean value)](#setOnlyVisibleCells-boolean-) | True means only copying visible cells. |
+| [setOperationType(int value)](#setOperationType-int-) | Sets the operation type when pasting range. |
+| [setPasteType(int value)](#setPasteType-int-) | The paste special type. |
+| [setSkipBlanks(boolean value)](#setSkipBlanks-boolean-) | Indicates whether skips blank cells. |
+| [setTranspose(boolean value)](#setTranspose-boolean-) | True to transpose rows and columns when the range is pasted. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -88,7 +88,7 @@ public int getOperationType()
 ```
 
 
-the operation type when pasting range.
+Gets the operation type when pasting range.
 
 **Returns:**
 int
@@ -154,7 +154,7 @@ public void setOnlyVisibleCells(boolean value)
 ```
 
 
-For the description of this property, please see [getOnlyVisibleCells()](../../com.aspose.cells/pasteoptions\#getOnlyVisibleCells--)
+True means only copying visible cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public void setOperationType(int value)
 ```
 
 
-For the description of this property, please see [getOperationType()](../../com.aspose.cells/pasteoptions\#getOperationType--)
+Sets the operation type when pasting range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setPasteType(int value)
 ```
 
 
-For the description of this property, please see [getPasteType()](../../com.aspose.cells/pasteoptions\#getPasteType--)
+The paste special type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setSkipBlanks(boolean value)
 ```
 
 
-For the description of this property, please see [getSkipBlanks()](../../com.aspose.cells/pasteoptions\#getSkipBlanks--)
+Indicates whether skips blank cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setTranspose(boolean value)
 ```
 
 
-For the description of this property, please see [getTranspose()](../../com.aspose.cells/pasteoptions\#getTranspose--)
+True to transpose rows and columns when the range is pasted. The default value is False.
 
 **Parameters:**
 | Parameter | Type | Description |

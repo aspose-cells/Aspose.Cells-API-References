@@ -25,13 +25,13 @@ Represents automatic numbered bullet.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutonumberScheme()](#getAutonumberScheme--) | Represents the scheme of automatic number. |
 | [getClass()](#getClass--) |  |
-| [getStartAt()](#getStartAt--) | the starting number of the bullet. |
+| [getStartAt()](#getStartAt--) | Gets the starting number of the bullet. |
 | [getType()](#getType--) | Gets the type of the bullet. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutonumberScheme(int value)](#setAutonumberScheme-int-) | For the description of this property, please see [getAutonumberScheme()](../../com.aspose.cells/autonumberedbulletvalue\#getAutonumberScheme--) |
-| [setStartAt(int value)](#setStartAt-int-) | For the description of this property, please see [getStartAt()](../../com.aspose.cells/autonumberedbulletvalue\#getStartAt--) |
+| [setAutonumberScheme(int value)](#setAutonumberScheme-int-) | Represents the scheme of automatic number. |
+| [setStartAt(int value)](#setStartAt-int-) | Sets the starting number of the bullet. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -83,7 +83,7 @@ public int getStartAt()
 ```
 
 
-the starting number of the bullet.
+Gets the starting number of the bullet.
 
 **Returns:**
 int
@@ -129,7 +129,7 @@ public void setAutonumberScheme(int value)
 ```
 
 
-For the description of this property, please see [getAutonumberScheme()](../../com.aspose.cells/autonumberedbulletvalue\#getAutonumberScheme--)
+Represents the scheme of automatic number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -142,7 +142,7 @@ public void setStartAt(int value)
 ```
 
 
-For the description of this property, please see [getStartAt()](../../com.aspose.cells/autonumberedbulletvalue\#getStartAt--)
+Sets the starting number of the bullet.
 
 **Parameters:**
 | Parameter | Type | Description |

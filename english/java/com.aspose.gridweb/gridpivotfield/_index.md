@@ -30,11 +30,11 @@ Represents a field in a PivotTable report.
 | [isAutoSort()](#isAutoSort--) | Indicates whether the specified PivotTable field is automatically sorted. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAscendSort(boolean value)](#setAscendSort-boolean-) | For the description of this property, please see [isAscendSort()](../../com.aspose.gridweb/gridpivotfield\#isAscendSort--) |
-| [setAutoSort(boolean value)](#setAutoSort-boolean-) | For the description of this property, please see [isAutoSort()](../../com.aspose.gridweb/gridpivotfield\#isAutoSort--) |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | For the description of this property, please see [getDisplayName()](../../com.aspose.gridweb/gridpivotfield\#getDisplayName--) |
-| [setFunction(int value)](#setFunction-int-) | For the description of this property, please see [getFunction()](../../com.aspose.gridweb/gridpivotfield\#getFunction--) |
-| [setPosition(int value)](#setPosition-int-) | For the description of this property, please see [getPosition()](../../com.aspose.gridweb/gridpivotfield\#getPosition--) |
+| [setAscendSort(boolean value)](#setAscendSort-boolean-) | Indicates whether the specified PivotTable field is autosorted ascending. |
+| [setAutoSort(boolean value)](#setAutoSort-boolean-) | Indicates whether the specified PivotTable field is automatically sorted. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Represents the PivotField display name. |
+| [setFunction(int value)](#setFunction-int-) | Represents the function used to summarize the PivotTable data field. |
+| [setPosition(int value)](#setPosition-int-) | Represents the PivotField index in the PivotFields. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -188,7 +188,7 @@ public void setAscendSort(boolean value)
 ```
 
 
-For the description of this property, please see [isAscendSort()](../../com.aspose.gridweb/gridpivotfield\#isAscendSort--)
+Indicates whether the specified PivotTable field is autosorted ascending.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -201,7 +201,7 @@ public void setAutoSort(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoSort()](../../com.aspose.gridweb/gridpivotfield\#isAutoSort--)
+Indicates whether the specified PivotTable field is automatically sorted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -214,7 +214,7 @@ public void setDisplayName(String value)
 ```
 
 
-For the description of this property, please see [getDisplayName()](../../com.aspose.gridweb/gridpivotfield\#getDisplayName--)
+Represents the PivotField display name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -227,7 +227,7 @@ public void setFunction(int value)
 ```
 
 
-For the description of this property, please see [getFunction()](../../com.aspose.gridweb/gridpivotfield\#getFunction--)
+Represents the function used to summarize the PivotTable data field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -240,7 +240,7 @@ public void setPosition(int value)
 ```
 
 
-For the description of this property, please see [getPosition()](../../com.aspose.gridweb/gridpivotfield\#getPosition--)
+Represents the PivotField index in the PivotFields.
 
 **Parameters:**
 | Parameter | Type | Description |

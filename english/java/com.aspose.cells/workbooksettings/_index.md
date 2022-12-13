@@ -27,7 +27,7 @@ Workbook workbook = new Workbook();
 | --- | --- |
 | [dispose()](#dispose--) | Releases resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAuthor()](#getAuthor--) | the author of the file. |
+| [getAuthor()](#getAuthor--) | Gets the author of the file. |
 | [getAutoCompressPictures()](#getAutoCompressPictures--) | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
 | [getAutoRecover()](#getAutoRecover--) | Indicates whether the file is mark for auto-recovery. |
 | [getBuildVersion()](#getBuildVersion--) | Specifies the incremental public release of the application. |
@@ -42,26 +42,26 @@ Workbook workbook = new Workbook();
 | [getCrashSave()](#getCrashSave--) | indicates whether the application last saved the workbook file after a crash. |
 | [getCreateCalcChain()](#getCreateCalcChain--) | Whether creates calculated formulas chain. |
 | [getDataExtractLoad()](#getDataExtractLoad--) | indicates whether the application last opened the workbook for data recovery. |
-| [getDate1904()](#getDate1904--) | a value which represents if the workbook uses the 1904 date system. |
+| [getDate1904()](#getDate1904--) | Gets a value which represents if the workbook uses the 1904 date system. |
 | [getDisplayDrawingObjects()](#getDisplayDrawingObjects--) | Indicates whether and how to show objects in the workbook. |
 | [getEnableMacros()](#getEnableMacros--) | Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
-| [getFirstVisibleTab()](#getFirstVisibleTab--) | the first visible worksheet tab. |
+| [getFirstVisibleTab()](#getFirstVisibleTab--) | Gets the first visible worksheet tab. |
 | [getForceFullCalculate()](#getForceFullCalculate--) | Fully calculates every time when a calculation is triggered. |
 | [getFormulaSettings()](#getFormulaSettings--) | Gets the settings for formula-related features. |
-| [getGlobalizationSettings()](#getGlobalizationSettings--) | the globalization settings. |
-| [getHidePivotFieldList()](#getHidePivotFieldList--) | whether hide the field list for the PivotTable. |
+| [getGlobalizationSettings()](#getGlobalizationSettings--) | Gets the globalization settings. |
+| [getHidePivotFieldList()](#getHidePivotFieldList--) | Gets whether hide the field list for the PivotTable. |
 | [getIteration()](#getIteration--) | Indicates whether enable iterative calculation to resolve circular references. |
-| [getLanguageCode()](#getLanguageCode--) | the user interface language of the Workbook version based on CountryCode that has saved the file. |
-| [getLocale()](#getLocale--) | the Locale used by this workbook. |
+| [getLanguageCode()](#getLanguageCode--) | Gets the user interface language of the Workbook version based on CountryCode that has saved the file. |
+| [getLocale()](#getLocale--) | Gets the Locale used by this workbook. |
 | [getMaxChange()](#getMaxChange--) | Returns or sets the maximum number of change to resolve a circular reference. |
 | [getMaxColumn()](#getMaxColumn--) | Gets the max column index, zero-based. |
 | [getMaxIteration()](#getMaxIteration--) | Returns or sets the maximum number of iterations to resolve a circular reference. |
 | [getMaxRow()](#getMaxRow--) | Gets the max row index, zero-based. |
-| [getMaxRowsOfSharedFormula()](#getMaxRowsOfSharedFormula--) | the max row number of shared formula. |
-| [getMemorySetting()](#getMemorySetting--) | the memory usage options. |
-| [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | the decimal separator for formatting/parsing numeric values. |
-| [getNumberGroupSeparator()](#getNumberGroupSeparator--) | the character that separates groups of digits to the left of the decimal in numeric values. |
-| [getPaperSize()](#getPaperSize--) | the default print paper size. |
+| [getMaxRowsOfSharedFormula()](#getMaxRowsOfSharedFormula--) | Gets the max row number of shared formula. |
+| [getMemorySetting()](#getMemorySetting--) | Gets the memory usage options. |
+| [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | Gets the decimal separator for formatting/parsing numeric values. |
+| [getNumberGroupSeparator()](#getNumberGroupSeparator--) | Gets the character that separates groups of digits to the left of the decimal in numeric values. |
+| [getPaperSize()](#getPaperSize--) | Gets the default print paper size. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getPassword()](#getPassword--) | Represents Workbook file encryption password. |
 | [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed NOTE: This member is now obsolete. |
@@ -69,19 +69,19 @@ Workbook workbook = new Workbook();
 | [getQuotePrefixToStyle()](#getQuotePrefixToStyle--) | Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell |
 | [getReCalculateOnOpen()](#getReCalculateOnOpen--) | Indicates whether re-calculate all formulas on opening file. |
 | [getRecalculateBeforeSave()](#getRecalculateBeforeSave--) | Indicates whether to recalculate before saving the document. |
-| [getRegion()](#getRegion--) | the regional settings for workbook. 1. |
+| [getRegion()](#getRegion--) | Gets the regional settings for workbook. 1. |
 | [getRemovePersonalInformation()](#getRemovePersonalInformation--) | True if personal information can be removed from the specified workbook. |
 | [getRepairLoad()](#getRepairLoad--) | Indicates whether the application last opened the workbook in safe or repair mode. |
-| [getResourceProvider()](#getResourceProvider--) | the stream provider for external resource, such as loading image data for picture of type "LinkToFile". |
-| [getShared()](#getShared--) | a value that indicates whether the Workbook is shared. |
+| [getResourceProvider()](#getResourceProvider--) | Gets the stream provider for external resource, such as loading image data for picture of type "LinkToFile". |
+| [getShared()](#getShared--) | Gets a value that indicates whether the Workbook is shared. |
 | [getSheetTabBarWidth()](#getSheetTabBarWidth--) | Width of worksheet tab bar (in 1/1000 of window width). |
-| [getShowTabs()](#getShowTabs--) | a value whether the Workbook tabs are displayed. |
-| [getSignificantDigits()](#getSignificantDigits--) | the number of significant digits. |
-| [getStreamProvider()](#getStreamProvider--) | the stream provider for external resource. |
+| [getShowTabs()](#getShowTabs--) | Gets a value whether the Workbook tabs are displayed. |
+| [getSignificantDigits()](#getSignificantDigits--) | Gets the number of significant digits. |
+| [getStreamProvider()](#getStreamProvider--) | Gets the stream provider for external resource. |
 | [getThemeFont(int type)](#getThemeFont-int-) | Gets the default theme font name. |
 | [getUpdateAdjacentCellsBorder()](#getUpdateAdjacentCellsBorder--) | Indicates whether update adjacent cells' border. |
-| [getUpdateLinksType()](#getUpdateLinksType--) | how updates external links when the workbook is opened. |
-| [getWarningCallback()](#getWarningCallback--) | warning callback. |
+| [getUpdateLinksType()](#getUpdateLinksType--) | Gets how updates external links when the workbook is opened. |
+| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
 | [getWindowHeight()](#getWindowHeight--) | The height of the window, in unit of point. |
 | [getWindowHeightCM()](#getWindowHeightCM--) | The height of the window, in unit of centimeter. |
 | [getWindowHeightInch()](#getWindowHeightInch--) | The height of the window, in unit of inch. |
@@ -98,80 +98,80 @@ Workbook workbook = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [isDefaultEncrypted()](#isDefaultEncrypted--) | Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. |
 | [isEncrypted()](#isEncrypted--) | Gets a value that indicates whether a password is required to open this workbook. |
-| [isHScrollBarVisible()](#isHScrollBarVisible--) | a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. |
+| [isHScrollBarVisible()](#isHScrollBarVisible--) | Gets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. |
 | [isHidden()](#isHidden--) | Indicates whether this workbook is hidden. |
 | [isMinimized()](#isMinimized--) | Represents whether the generated spreadsheet will be opened Minimized. |
 | [isProtected()](#isProtected--) | Gets a value that indicates whether the structure or window of the Workbook is protected. |
-| [isVScrollBarVisible()](#isVScrollBarVisible--) | a value indicating whether the generated spreadsheet will contain a vertical scroll bar. |
+| [isVScrollBarVisible()](#isVScrollBarVisible--) | Gets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see [getAuthor()](../../com.aspose.cells/workbooksettings\#getAuthor--) |
-| [setAutoCompressPictures(boolean value)](#setAutoCompressPictures-boolean-) | For the description of this property, please see [getAutoCompressPictures()](../../com.aspose.cells/workbooksettings\#getAutoCompressPictures--) |
-| [setAutoRecover(boolean value)](#setAutoRecover-boolean-) | For the description of this property, please see [getAutoRecover()](../../com.aspose.cells/workbooksettings\#getAutoRecover--) |
-| [setBuildVersion(String value)](#setBuildVersion-java.lang.String-) | For the description of this property, please see [getBuildVersion()](../../com.aspose.cells/workbooksettings\#getBuildVersion--) |
-| [setCalcMode(int value)](#setCalcMode-int-) | For the description of this property, please see [getCalcMode()](../../com.aspose.cells/workbooksettings\#getCalcMode--) |
-| [setCalcStackSize(int value)](#setCalcStackSize-int-) | For the description of this property, please see [getCalcStackSize()](../../com.aspose.cells/workbooksettings\#getCalcStackSize--) |
-| [setCalculationId(String value)](#setCalculationId-java.lang.String-) | For the description of this property, please see [getCalculationId()](../../com.aspose.cells/workbooksettings\#getCalculationId--) |
-| [setCheckCompatibility(boolean value)](#setCheckCompatibility-boolean-) | For the description of this property, please see [getCheckCompatibility()](../../com.aspose.cells/workbooksettings\#getCheckCompatibility--) |
-| [setCheckCustomNumberFormat(boolean value)](#setCheckCustomNumberFormat-boolean-) | For the description of this property, please see [getCheckCustomNumberFormat()](../../com.aspose.cells/workbooksettings\#getCheckCustomNumberFormat--) |
-| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | For the description of this property, please see [getCheckExcelRestriction()](../../com.aspose.cells/workbooksettings\#getCheckExcelRestriction--) |
-| [setCompliance(int value)](#setCompliance-int-) | For the description of this property, please see [getCompliance()](../../com.aspose.cells/workbooksettings\#getCompliance--) |
-| [setCrashSave(boolean value)](#setCrashSave-boolean-) | For the description of this property, please see [getCrashSave()](../../com.aspose.cells/workbooksettings\#getCrashSave--) |
-| [setCreateCalcChain(boolean value)](#setCreateCalcChain-boolean-) | For the description of this property, please see [getCreateCalcChain()](../../com.aspose.cells/workbooksettings\#getCreateCalcChain--) |
-| [setDataExtractLoad(boolean value)](#setDataExtractLoad-boolean-) | For the description of this property, please see [getDataExtractLoad()](../../com.aspose.cells/workbooksettings\#getDataExtractLoad--) |
-| [setDate1904(boolean value)](#setDate1904-boolean-) | For the description of this property, please see [getDate1904()](../../com.aspose.cells/workbooksettings\#getDate1904--) |
-| [setDefaultEncrypted(boolean value)](#setDefaultEncrypted-boolean-) | For the description of this property, please see [isDefaultEncrypted()](../../com.aspose.cells/workbooksettings\#isDefaultEncrypted--) |
-| [setDisplayDrawingObjects(int value)](#setDisplayDrawingObjects-int-) | For the description of this property, please see [getDisplayDrawingObjects()](../../com.aspose.cells/workbooksettings\#getDisplayDrawingObjects--) |
-| [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | For the description of this property, please see [getEnableMacros()](../../com.aspose.cells/workbooksettings\#getEnableMacros--) |
-| [setFirstVisibleTab(int value)](#setFirstVisibleTab-int-) | For the description of this property, please see [getFirstVisibleTab()](../../com.aspose.cells/workbooksettings\#getFirstVisibleTab--) |
-| [setForceFullCalculate(boolean value)](#setForceFullCalculate-boolean-) | For the description of this property, please see [getForceFullCalculate()](../../com.aspose.cells/workbooksettings\#getForceFullCalculate--) |
-| [setGlobalizationSettings(GlobalizationSettings value)](#setGlobalizationSettings-com.aspose.cells.GlobalizationSettings-) | For the description of this property, please see [getGlobalizationSettings()](../../com.aspose.cells/workbooksettings\#getGlobalizationSettings--) |
-| [setHScrollBarVisible(boolean value)](#setHScrollBarVisible-boolean-) | For the description of this property, please see [isHScrollBarVisible()](../../com.aspose.cells/workbooksettings\#isHScrollBarVisible--) |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.cells/workbooksettings\#isHidden--) |
-| [setHidePivotFieldList(boolean value)](#setHidePivotFieldList-boolean-) | For the description of this property, please see [getHidePivotFieldList()](../../com.aspose.cells/workbooksettings\#getHidePivotFieldList--) |
-| [setIteration(boolean value)](#setIteration-boolean-) | For the description of this property, please see [getIteration()](../../com.aspose.cells/workbooksettings\#getIteration--) |
-| [setLanguageCode(int value)](#setLanguageCode-int-) | For the description of this property, please see [getLanguageCode()](../../com.aspose.cells/workbooksettings\#getLanguageCode--) |
-| [setLocale(Locale value)](#setLocale-java.util.Locale-) | For the description of this property, please see [getLocale()](../../com.aspose.cells/workbooksettings\#getLocale--) |
-| [setMaxChange(double value)](#setMaxChange-double-) | For the description of this property, please see [getMaxChange()](../../com.aspose.cells/workbooksettings\#getMaxChange--) |
-| [setMaxIteration(int value)](#setMaxIteration-int-) | For the description of this property, please see [getMaxIteration()](../../com.aspose.cells/workbooksettings\#getMaxIteration--) |
-| [setMaxRowsOfSharedFormula(int value)](#setMaxRowsOfSharedFormula-int-) | For the description of this property, please see [getMaxRowsOfSharedFormula()](../../com.aspose.cells/workbooksettings\#getMaxRowsOfSharedFormula--) |
-| [setMemorySetting(int value)](#setMemorySetting-int-) | For the description of this property, please see [getMemorySetting()](../../com.aspose.cells/workbooksettings\#getMemorySetting--) |
-| [setMinimized(boolean value)](#setMinimized-boolean-) | For the description of this property, please see [isMinimized()](../../com.aspose.cells/workbooksettings\#isMinimized--) |
-| [setNumberDecimalSeparator(char value)](#setNumberDecimalSeparator-char-) | For the description of this property, please see [getNumberDecimalSeparator()](../../com.aspose.cells/workbooksettings\#getNumberDecimalSeparator--) |
-| [setNumberGroupSeparator(char value)](#setNumberGroupSeparator-char-) | For the description of this property, please see [getNumberGroupSeparator()](../../com.aspose.cells/workbooksettings\#getNumberGroupSeparator--) |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author of the file. |
+| [setAutoCompressPictures(boolean value)](#setAutoCompressPictures-boolean-) | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
+| [setAutoRecover(boolean value)](#setAutoRecover-boolean-) | Indicates whether the file is mark for auto-recovery. |
+| [setBuildVersion(String value)](#setBuildVersion-java.lang.String-) | Specifies the incremental public release of the application. |
+| [setCalcMode(int value)](#setCalcMode-int-) | It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. |
+| [setCalcStackSize(int value)](#setCalcStackSize-int-) | Specifies the stack size for calculating cells recursively. |
+| [setCalculationId(String value)](#setCalculationId-java.lang.String-) | Specifies the version of the calculation engine used to calculate values in the workbook. |
+| [setCheckCompatibility(boolean value)](#setCheckCompatibility-boolean-) | Indicates whether check compatibility with earlier versions when saving workbook. |
+| [setCheckCustomNumberFormat(boolean value)](#setCheckCustomNumberFormat-boolean-) | Indicates whether checking custom number format when setting Style.Custom. |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
+| [setCompliance(int value)](#setCompliance-int-) | Specifies the OOXML version for the output document. |
+| [setCrashSave(boolean value)](#setCrashSave-boolean-) | indicates whether the application last saved the workbook file after a crash. |
+| [setCreateCalcChain(boolean value)](#setCreateCalcChain-boolean-) | Whether creates calculated formulas chain. |
+| [setDataExtractLoad(boolean value)](#setDataExtractLoad-boolean-) | indicates whether the application last opened the workbook for data recovery. |
+| [setDate1904(boolean value)](#setDate1904-boolean-) | Sets a value which represents if the workbook uses the 1904 date system. |
+| [setDefaultEncrypted(boolean value)](#setDefaultEncrypted-boolean-) | Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. |
+| [setDisplayDrawingObjects(int value)](#setDisplayDrawingObjects-int-) | Indicates whether and how to show objects in the workbook. |
+| [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
+| [setFirstVisibleTab(int value)](#setFirstVisibleTab-int-) | Sets the first visible worksheet tab. |
+| [setForceFullCalculate(boolean value)](#setForceFullCalculate-boolean-) | Fully calculates every time when a calculation is triggered. |
+| [setGlobalizationSettings(GlobalizationSettings value)](#setGlobalizationSettings-com.aspose.cells.GlobalizationSettings-) | Sets the globalization settings. |
+| [setHScrollBarVisible(boolean value)](#setHScrollBarVisible-boolean-) | Sets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. |
+| [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether this workbook is hidden. |
+| [setHidePivotFieldList(boolean value)](#setHidePivotFieldList-boolean-) | Sets whether hide the field list for the PivotTable. |
+| [setIteration(boolean value)](#setIteration-boolean-) | Indicates whether enable iterative calculation to resolve circular references. |
+| [setLanguageCode(int value)](#setLanguageCode-int-) | Sets the user interface language of the Workbook version based on CountryCode that has saved the file. |
+| [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the Locale used by this workbook. |
+| [setMaxChange(double value)](#setMaxChange-double-) | Returns or sets the maximum number of change to resolve a circular reference. |
+| [setMaxIteration(int value)](#setMaxIteration-int-) | Returns or sets the maximum number of iterations to resolve a circular reference. |
+| [setMaxRowsOfSharedFormula(int value)](#setMaxRowsOfSharedFormula-int-) | Sets the max row number of shared formula. |
+| [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage options. |
+| [setMinimized(boolean value)](#setMinimized-boolean-) | Represents whether the generated spreadsheet will be opened Minimized. |
+| [setNumberDecimalSeparator(char value)](#setNumberDecimalSeparator-char-) | Sets the decimal separator for formatting/parsing numeric values. |
+| [setNumberGroupSeparator(char value)](#setNumberGroupSeparator-char-) | Sets the character that separates groups of digits to the left of the decimal in numeric values. |
 | [setPageOrientationType(int pageOrientationType)](#setPageOrientationType-int-) | Set the type of print orientation for the whole workbook. |
-| [setPaperSize(int value)](#setPaperSize-int-) | For the description of this property, please see [getPaperSize()](../../com.aspose.cells/workbooksettings\#getPaperSize--) |
-| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | For the description of this property, please see [getParsingFormulaOnOpen()](../../com.aspose.cells/workbooksettings\#getParsingFormulaOnOpen--) |
-| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see [getPassword()](../../com.aspose.cells/workbooksettings\#getPassword--) |
-| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | For the description of this property, please see [getPrecisionAsDisplayed()](../../com.aspose.cells/workbooksettings\#getPrecisionAsDisplayed--) |
-| [setQuotePrefixToStyle(boolean value)](#setQuotePrefixToStyle-boolean-) | For the description of this property, please see [getQuotePrefixToStyle()](../../com.aspose.cells/workbooksettings\#getQuotePrefixToStyle--) |
-| [setReCalculateOnOpen(boolean value)](#setReCalculateOnOpen-boolean-) | For the description of this property, please see [getReCalculateOnOpen()](../../com.aspose.cells/workbooksettings\#getReCalculateOnOpen--) |
-| [setRecalculateBeforeSave(boolean value)](#setRecalculateBeforeSave-boolean-) | For the description of this property, please see [getRecalculateBeforeSave()](../../com.aspose.cells/workbooksettings\#getRecalculateBeforeSave--) |
-| [setRegion(int value)](#setRegion-int-) | For the description of this property, please see [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) |
-| [setRemovePersonalInformation(boolean value)](#setRemovePersonalInformation-boolean-) | For the description of this property, please see [getRemovePersonalInformation()](../../com.aspose.cells/workbooksettings\#getRemovePersonalInformation--) |
-| [setRepairLoad(boolean value)](#setRepairLoad-boolean-) | For the description of this property, please see [getRepairLoad()](../../com.aspose.cells/workbooksettings\#getRepairLoad--) |
-| [setResourceProvider(IStreamProvider value)](#setResourceProvider-com.aspose.cells.IStreamProvider-) | For the description of this property, please see [getResourceProvider()](../../com.aspose.cells/workbooksettings\#getResourceProvider--) |
-| [setShared(boolean value)](#setShared-boolean-) | For the description of this property, please see [getShared()](../../com.aspose.cells/workbooksettings\#getShared--) |
-| [setSheetTabBarWidth(int value)](#setSheetTabBarWidth-int-) | For the description of this property, please see [getSheetTabBarWidth()](../../com.aspose.cells/workbooksettings\#getSheetTabBarWidth--) |
-| [setShowTabs(boolean value)](#setShowTabs-boolean-) | For the description of this property, please see [getShowTabs()](../../com.aspose.cells/workbooksettings\#getShowTabs--) |
-| [setSignificantDigits(int value)](#setSignificantDigits-int-) | For the description of this property, please see [getSignificantDigits()](../../com.aspose.cells/workbooksettings\#getSignificantDigits--) |
-| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | For the description of this property, please see [getStreamProvider()](../../com.aspose.cells/workbooksettings\#getStreamProvider--) |
-| [setUpdateAdjacentCellsBorder(boolean value)](#setUpdateAdjacentCellsBorder-boolean-) | For the description of this property, please see [getUpdateAdjacentCellsBorder()](../../com.aspose.cells/workbooksettings\#getUpdateAdjacentCellsBorder--) |
-| [setUpdateLinksType(int value)](#setUpdateLinksType-int-) | For the description of this property, please see [getUpdateLinksType()](../../com.aspose.cells/workbooksettings\#getUpdateLinksType--) |
-| [setVScrollBarVisible(boolean value)](#setVScrollBarVisible-boolean-) | For the description of this property, please see [isVScrollBarVisible()](../../com.aspose.cells/workbooksettings\#isVScrollBarVisible--) |
+| [setPaperSize(int value)](#setPaperSize-int-) | Sets the default print paper size. |
+| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Represents Workbook file encryption password. |
+| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed NOTE: This member is now obsolete. |
+| [setQuotePrefixToStyle(boolean value)](#setQuotePrefixToStyle-boolean-) | Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell |
+| [setReCalculateOnOpen(boolean value)](#setReCalculateOnOpen-boolean-) | Indicates whether re-calculate all formulas on opening file. |
+| [setRecalculateBeforeSave(boolean value)](#setRecalculateBeforeSave-boolean-) | Indicates whether to recalculate before saving the document. |
+| [setRegion(int value)](#setRegion-int-) | Sets the regional settings for workbook. 1. |
+| [setRemovePersonalInformation(boolean value)](#setRemovePersonalInformation-boolean-) | True if personal information can be removed from the specified workbook. |
+| [setRepairLoad(boolean value)](#setRepairLoad-boolean-) | Indicates whether the application last opened the workbook in safe or repair mode. |
+| [setResourceProvider(IStreamProvider value)](#setResourceProvider-com.aspose.cells.IStreamProvider-) | Sets the stream provider for external resource, such as loading image data for picture of type "LinkToFile". |
+| [setShared(boolean value)](#setShared-boolean-) | Sets a value that indicates whether the Workbook is shared. |
+| [setSheetTabBarWidth(int value)](#setSheetTabBarWidth-int-) | Width of worksheet tab bar (in 1/1000 of window width). |
+| [setShowTabs(boolean value)](#setShowTabs-boolean-) | Sets a value whether the Workbook tabs are displayed. |
+| [setSignificantDigits(int value)](#setSignificantDigits-int-) | Sets the number of significant digits. |
+| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the stream provider for external resource. |
+| [setUpdateAdjacentCellsBorder(boolean value)](#setUpdateAdjacentCellsBorder-boolean-) | Indicates whether update adjacent cells' border. |
+| [setUpdateLinksType(int value)](#setUpdateLinksType-int-) | Sets how updates external links when the workbook is opened. |
+| [setVScrollBarVisible(boolean value)](#setVScrollBarVisible-boolean-) | Sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
-| [setWindowHeight(double value)](#setWindowHeight-double-) | For the description of this property, please see [getWindowHeight()](../../com.aspose.cells/workbooksettings\#getWindowHeight--) |
-| [setWindowHeightCM(double value)](#setWindowHeightCM-double-) | For the description of this property, please see [getWindowHeightCM()](../../com.aspose.cells/workbooksettings\#getWindowHeightCM--) |
-| [setWindowHeightInch(double value)](#setWindowHeightInch-double-) | For the description of this property, please see [getWindowHeightInch()](../../com.aspose.cells/workbooksettings\#getWindowHeightInch--) |
-| [setWindowLeft(double value)](#setWindowLeft-double-) | For the description of this property, please see [getWindowLeft()](../../com.aspose.cells/workbooksettings\#getWindowLeft--) |
-| [setWindowLeftCM(double value)](#setWindowLeftCM-double-) | For the description of this property, please see [getWindowLeftCM()](../../com.aspose.cells/workbooksettings\#getWindowLeftCM--) |
-| [setWindowLeftInch(double value)](#setWindowLeftInch-double-) | For the description of this property, please see [getWindowLeftInch()](../../com.aspose.cells/workbooksettings\#getWindowLeftInch--) |
-| [setWindowTop(double value)](#setWindowTop-double-) | For the description of this property, please see [getWindowTop()](../../com.aspose.cells/workbooksettings\#getWindowTop--) |
-| [setWindowTopCM(double value)](#setWindowTopCM-double-) | For the description of this property, please see [getWindowTopCM()](../../com.aspose.cells/workbooksettings\#getWindowTopCM--) |
-| [setWindowTopInch(double value)](#setWindowTopInch-double-) | For the description of this property, please see [getWindowTopInch()](../../com.aspose.cells/workbooksettings\#getWindowTopInch--) |
-| [setWindowWidth(double value)](#setWindowWidth-double-) | For the description of this property, please see [getWindowWidth()](../../com.aspose.cells/workbooksettings\#getWindowWidth--) |
-| [setWindowWidthCM(double value)](#setWindowWidthCM-double-) | For the description of this property, please see [getWindowWidthCM()](../../com.aspose.cells/workbooksettings\#getWindowWidthCM--) |
-| [setWindowWidthInch(double value)](#setWindowWidthInch-double-) | For the description of this property, please see [getWindowWidthInch()](../../com.aspose.cells/workbooksettings\#getWindowWidthInch--) |
+| [setWindowHeight(double value)](#setWindowHeight-double-) | The height of the window, in unit of point. |
+| [setWindowHeightCM(double value)](#setWindowHeightCM-double-) | The height of the window, in unit of centimeter. |
+| [setWindowHeightInch(double value)](#setWindowHeightInch-double-) | The height of the window, in unit of inch. |
+| [setWindowLeft(double value)](#setWindowLeft-double-) | The distance from the left edge of the client area to the left edge of the window, in unit of point. |
+| [setWindowLeftCM(double value)](#setWindowLeftCM-double-) | The distance from the left edge of the client area to the left edge of the window. |
+| [setWindowLeftInch(double value)](#setWindowLeftInch-double-) | The distance from the left edge of the client area to the left edge of the window. |
+| [setWindowTop(double value)](#setWindowTop-double-) | The distance from the top edge of the client area to the top edge of the window, in unit of point. |
+| [setWindowTopCM(double value)](#setWindowTopCM-double-) | The distance from the top edge of the client area to the top edge of the window, in unit of centimeter. |
+| [setWindowTopInch(double value)](#setWindowTopInch-double-) | The distance from the top edge of the client area to the top edge of the window, in unit of inch. |
+| [setWindowWidth(double value)](#setWindowWidth-double-) | The width of the window, in unit of point. |
+| [setWindowWidthCM(double value)](#setWindowWidthCM-double-) | The width of the window, in unit of centimeter. |
+| [setWindowWidthInch(double value)](#setWindowWidthInch-double-) | The width of the window, in unit of inch. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -205,7 +205,7 @@ public String getAuthor()
 ```
 
 
-the author of the file. It''s not set, check [BuiltInDocumentPropertyCollection.getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) first, then check the user of Environment.
+Gets the author of the file. It''s not set, check [BuiltInDocumentPropertyCollection.getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) first, then check the user of Environment.
 
 **Returns:**
 java.lang.String
@@ -355,7 +355,7 @@ public boolean getDate1904()
 ```
 
 
-a value which represents if the workbook uses the 1904 date system.
+Gets a value which represents if the workbook uses the 1904 date system.
 
 **Returns:**
 boolean
@@ -385,7 +385,7 @@ public int getFirstVisibleTab()
 ```
 
 
-the first visible worksheet tab.
+Gets the first visible worksheet tab.
 
 **Returns:**
 int
@@ -415,7 +415,7 @@ public GlobalizationSettings getGlobalizationSettings()
 ```
 
 
-the globalization settings.
+Gets the globalization settings.
 
 **Returns:**
 [GlobalizationSettings](../../com.aspose.cells/globalizationsettings)
@@ -425,7 +425,7 @@ public boolean getHidePivotFieldList()
 ```
 
 
-whether hide the field list for the PivotTable.
+Gets whether hide the field list for the PivotTable.
 
 **Returns:**
 boolean
@@ -445,7 +445,7 @@ public int getLanguageCode()
 ```
 
 
-the user interface language of the Workbook version based on CountryCode that has saved the file.
+Gets the user interface language of the Workbook version based on CountryCode that has saved the file.
 
 **Returns:**
 int
@@ -455,7 +455,7 @@ public Locale getLocale()
 ```
 
 
-the Locale used by this workbook. Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) is set.
+Gets the Locale used by this workbook. Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) is set.
 
 **Returns:**
 java.util.Locale
@@ -505,7 +505,7 @@ public int getMaxRowsOfSharedFormula()
 ```
 
 
-the max row number of shared formula. If the number is too large, the autofilter works very slow in MS Excel 2013.
+Gets the max row number of shared formula. If the number is too large, the autofilter works very slow in MS Excel 2013.
 
 **Returns:**
 int
@@ -515,7 +515,7 @@ public int getMemorySetting()
 ```
 
 
-the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
+Gets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
 
 **Returns:**
 int
@@ -525,7 +525,7 @@ public char getNumberDecimalSeparator()
 ```
 
 
-the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region.
+Gets the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region.
 
 **Returns:**
 char
@@ -535,7 +535,7 @@ public char getNumberGroupSeparator()
 ```
 
 
-the character that separates groups of digits to the left of the decimal in numeric values. Default is the group separator of current Region.
+Gets the character that separates groups of digits to the left of the decimal in numeric values. Default is the group separator of current Region.
 
 **Returns:**
 char
@@ -545,7 +545,7 @@ public int getPaperSize()
 ```
 
 
-the default print paper size. If there is no setting about paper size,MS Excel will use default printer's setting.
+Gets the default print paper size. If there is no setting about paper size,MS Excel will use default printer's setting.
 
 **Returns:**
 int
@@ -625,7 +625,7 @@ public int getRegion()
 ```
 
 
-the regional settings for workbook. 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
+Gets the regional settings for workbook. 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
 
 **Returns:**
 int
@@ -655,7 +655,7 @@ public IStreamProvider getResourceProvider()
 ```
 
 
-the stream provider for external resource, such as loading image data for picture of type "LinkToFile".
+Gets the stream provider for external resource, such as loading image data for picture of type "LinkToFile".
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -665,7 +665,7 @@ public boolean getShared()
 ```
 
 
-a value that indicates whether the Workbook is shared. The default value is false.
+Gets a value that indicates whether the Workbook is shared. The default value is false.
 
 **Returns:**
 boolean
@@ -685,7 +685,7 @@ public boolean getShowTabs()
 ```
 
 
-a value whether the Workbook tabs are displayed. The default value is true.
+Gets a value whether the Workbook tabs are displayed. The default value is true.
 
 ```
 // Hide the spreadsheet tabs.
@@ -700,7 +700,7 @@ public int getSignificantDigits()
 ```
 
 
-the number of significant digits. The default value is \{@link CellsHelper.getSignificantDigits()\}. Only could be 15 or 17 now.
+Gets the number of significant digits. The default value is \{@link CellsHelper.getSignificantDigits()\}. Only could be 15 or 17 now.
 
 **Returns:**
 int
@@ -710,7 +710,7 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-the stream provider for external resource. NOTE: This member is now obsolete. Instead, please use ResourceProvider property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
+Gets the stream provider for external resource. NOTE: This member is now obsolete. Instead, please use ResourceProvider property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -745,7 +745,7 @@ public int getUpdateLinksType()
 ```
 
 
-how updates external links when the workbook is opened.
+Gets how updates external links when the workbook is opened.
 
 **Returns:**
 int
@@ -755,7 +755,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-warning callback.
+Sets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -925,7 +925,7 @@ public boolean isHScrollBarVisible()
 ```
 
 
-a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. The default value is true.
+Gets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. The default value is true.
 
 ```
 // Hide the horizontal scroll bar of the Excel file.
@@ -970,7 +970,7 @@ public boolean isVScrollBarVisible()
 ```
 
 
-a value indicating whether the generated spreadsheet will contain a vertical scroll bar. The default value is true.
+Gets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. The default value is true.
 
 ```
 // Hide the vertical scroll bar of the Excel file.
@@ -1001,7 +1001,7 @@ public void setAuthor(String value)
 ```
 
 
-For the description of this property, please see [getAuthor()](../../com.aspose.cells/workbooksettings\#getAuthor--)
+Sets the author of the file. It''s not set, check [BuiltInDocumentPropertyCollection.getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) first, then check the user of Environment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1014,7 +1014,7 @@ public void setAutoCompressPictures(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoCompressPictures()](../../com.aspose.cells/workbooksettings\#getAutoCompressPictures--)
+Specifies a boolean value that indicates the application automatically compressed pictures in the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1027,7 +1027,7 @@ public void setAutoRecover(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoRecover()](../../com.aspose.cells/workbooksettings\#getAutoRecover--)
+Indicates whether the file is mark for auto-recovery.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1040,7 +1040,7 @@ public void setBuildVersion(String value)
 ```
 
 
-For the description of this property, please see [getBuildVersion()](../../com.aspose.cells/workbooksettings\#getBuildVersion--)
+Specifies the incremental public release of the application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1053,7 +1053,7 @@ public void setCalcMode(int value)
 ```
 
 
-For the description of this property, please see [getCalcMode()](../../com.aspose.cells/workbooksettings\#getCalcMode--)
+It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1066,7 +1066,7 @@ public void setCalcStackSize(int value)
 ```
 
 
-For the description of this property, please see [getCalcStackSize()](../../com.aspose.cells/workbooksettings\#getCalcStackSize--)
+Specifies the stack size for calculating cells recursively. The large value for this size will give better performance when there are lots of cells need to be calculated recursively. On the other hand, larger value will raise the risk of StackOverflowException. If user gets StackOverflowException when calculating formulas, this value should be decreased. NOTE: This member is now obsolete. Instead, please use CalculationOptions with the specified CalcStackSize when calculating formulas. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1079,7 +1079,7 @@ public void setCalculationId(String value)
 ```
 
 
-For the description of this property, please see [getCalculationId()](../../com.aspose.cells/workbooksettings\#getCalculationId--)
+Specifies the version of the calculation engine used to calculate values in the workbook. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationId. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1092,7 +1092,7 @@ public void setCheckCompatibility(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckCompatibility()](../../com.aspose.cells/workbooksettings\#getCheckCompatibility--)
+Indicates whether check compatibility with earlier versions when saving workbook. The default value is true. Only for Excel97-2003 xls or xlt files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1105,7 +1105,7 @@ public void setCheckCustomNumberFormat(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckCustomNumberFormat()](../../com.aspose.cells/workbooksettings\#getCheckCustomNumberFormat--)
+Indicates whether checking custom number format when setting Style.Custom.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1118,7 +1118,7 @@ public void setCheckExcelRestriction(boolean value)
 ```
 
 
-For the description of this property, please see [getCheckExcelRestriction()](../../com.aspose.cells/workbooksettings\#getCheckExcelRestriction--)
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1131,7 +1131,7 @@ public void setCompliance(int value)
 ```
 
 
-For the description of this property, please see [getCompliance()](../../com.aspose.cells/workbooksettings\#getCompliance--)
+Specifies the OOXML version for the output document. The default value is Ecma376\_2006. Only for .xlsx files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1144,7 +1144,7 @@ public void setCrashSave(boolean value)
 ```
 
 
-For the description of this property, please see [getCrashSave()](../../com.aspose.cells/workbooksettings\#getCrashSave--)
+indicates whether the application last saved the workbook file after a crash.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1157,7 +1157,7 @@ public void setCreateCalcChain(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateCalcChain()](../../com.aspose.cells/workbooksettings\#getCreateCalcChain--)
+Whether creates calculated formulas chain. Default is false. NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableCalculationChain. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1170,7 +1170,7 @@ public void setDataExtractLoad(boolean value)
 ```
 
 
-For the description of this property, please see [getDataExtractLoad()](../../com.aspose.cells/workbooksettings\#getDataExtractLoad--)
+indicates whether the application last opened the workbook for data recovery.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1183,7 +1183,7 @@ public void setDate1904(boolean value)
 ```
 
 
-For the description of this property, please see [getDate1904()](../../com.aspose.cells/workbooksettings\#getDate1904--)
+Sets a value which represents if the workbook uses the 1904 date system.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1196,7 +1196,7 @@ public void setDefaultEncrypted(boolean value)
 ```
 
 
-For the description of this property, please see [isDefaultEncrypted()](../../com.aspose.cells/workbooksettings\#isDefaultEncrypted--)
+Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. The default value is false now. It's same as MS Excel 2013.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1209,7 +1209,7 @@ public void setDisplayDrawingObjects(int value)
 ```
 
 
-For the description of this property, please see [getDisplayDrawingObjects()](../../com.aspose.cells/workbooksettings\#getDisplayDrawingObjects--)
+Indicates whether and how to show objects in the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1222,7 +1222,7 @@ public void setEnableMacros(boolean value)
 ```
 
 
-For the description of this property, please see [getEnableMacros()](../../com.aspose.cells/workbooksettings\#getEnableMacros--)
+Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1235,7 +1235,7 @@ public void setFirstVisibleTab(int value)
 ```
 
 
-For the description of this property, please see [getFirstVisibleTab()](../../com.aspose.cells/workbooksettings\#getFirstVisibleTab--)
+Sets the first visible worksheet tab.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1248,7 +1248,7 @@ public void setForceFullCalculate(boolean value)
 ```
 
 
-For the description of this property, please see [getForceFullCalculate()](../../com.aspose.cells/workbooksettings\#getForceFullCalculate--)
+Fully calculates every time when a calculation is triggered. NOTE: This member is now obsolete. Instead, please use FormulaSettings.ForceFullCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1261,7 +1261,7 @@ public void setGlobalizationSettings(GlobalizationSettings value)
 ```
 
 
-For the description of this property, please see [getGlobalizationSettings()](../../com.aspose.cells/workbooksettings\#getGlobalizationSettings--)
+Sets the globalization settings.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1274,7 +1274,7 @@ public void setHScrollBarVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isHScrollBarVisible()](../../com.aspose.cells/workbooksettings\#isHScrollBarVisible--)
+Sets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1287,7 +1287,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see [isHidden()](../../com.aspose.cells/workbooksettings\#isHidden--)
+Indicates whether this workbook is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1300,7 +1300,7 @@ public void setHidePivotFieldList(boolean value)
 ```
 
 
-For the description of this property, please see [getHidePivotFieldList()](../../com.aspose.cells/workbooksettings\#getHidePivotFieldList--)
+Sets whether hide the field list for the PivotTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1313,7 +1313,7 @@ public void setIteration(boolean value)
 ```
 
 
-For the description of this property, please see [getIteration()](../../com.aspose.cells/workbooksettings\#getIteration--)
+Indicates whether enable iterative calculation to resolve circular references. NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableIterativeCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1326,7 +1326,7 @@ public void setLanguageCode(int value)
 ```
 
 
-For the description of this property, please see [getLanguageCode()](../../com.aspose.cells/workbooksettings\#getLanguageCode--)
+Sets the user interface language of the Workbook version based on CountryCode that has saved the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1339,7 +1339,7 @@ public void setLocale(Locale value)
 ```
 
 
-For the description of this property, please see [getLocale()](../../com.aspose.cells/workbooksettings\#getLocale--)
+Sets the Locale used by this workbook. Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) is set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1352,7 +1352,7 @@ public void setMaxChange(double value)
 ```
 
 
-For the description of this property, please see [getMaxChange()](../../com.aspose.cells/workbooksettings\#getMaxChange--)
+Returns or sets the maximum number of change to resolve a circular reference. NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxChange. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1365,7 +1365,7 @@ public void setMaxIteration(int value)
 ```
 
 
-For the description of this property, please see [getMaxIteration()](../../com.aspose.cells/workbooksettings\#getMaxIteration--)
+Returns or sets the maximum number of iterations to resolve a circular reference. NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxIteration. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1378,7 +1378,7 @@ public void setMaxRowsOfSharedFormula(int value)
 ```
 
 
-For the description of this property, please see [getMaxRowsOfSharedFormula()](../../com.aspose.cells/workbooksettings\#getMaxRowsOfSharedFormula--)
+Sets the max row number of shared formula. If the number is too large, the autofilter works very slow in MS Excel 2013.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1391,7 +1391,7 @@ public void setMemorySetting(int value)
 ```
 
 
-For the description of this property, please see [getMemorySetting()](../../com.aspose.cells/workbooksettings\#getMemorySetting--)
+Sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1404,7 +1404,7 @@ public void setMinimized(boolean value)
 ```
 
 
-For the description of this property, please see [isMinimized()](../../com.aspose.cells/workbooksettings\#isMinimized--)
+Represents whether the generated spreadsheet will be opened Minimized.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1417,7 +1417,7 @@ public void setNumberDecimalSeparator(char value)
 ```
 
 
-For the description of this property, please see [getNumberDecimalSeparator()](../../com.aspose.cells/workbooksettings\#getNumberDecimalSeparator--)
+Sets the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1430,7 +1430,7 @@ public void setNumberGroupSeparator(char value)
 ```
 
 
-For the description of this property, please see [getNumberGroupSeparator()](../../com.aspose.cells/workbooksettings\#getNumberGroupSeparator--)
+Sets the character that separates groups of digits to the left of the decimal in numeric values. Default is the group separator of current Region.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1456,7 +1456,7 @@ public void setPaperSize(int value)
 ```
 
 
-For the description of this property, please see [getPaperSize()](../../com.aspose.cells/workbooksettings\#getPaperSize--)
+Sets the default print paper size. If there is no setting about paper size,MS Excel will use default printer's setting.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1469,7 +1469,7 @@ public void setParsingFormulaOnOpen(boolean value)
 ```
 
 
-For the description of this property, please see [getParsingFormulaOnOpen()](../../com.aspose.cells/workbooksettings\#getParsingFormulaOnOpen--)
+Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula. NOTE: This member is now obsolete. Instead, please use LoadOptions.ParsingFormulaOnOpen. This property will be removed 12 months later since January 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1482,7 +1482,7 @@ public void setPassword(String value)
 ```
 
 
-For the description of this property, please see [getPassword()](../../com.aspose.cells/workbooksettings\#getPassword--)
+Represents Workbook file encryption password.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1495,7 +1495,7 @@ public void setPrecisionAsDisplayed(boolean value)
 ```
 
 
-For the description of this property, please see [getPrecisionAsDisplayed()](../../com.aspose.cells/workbooksettings\#getPrecisionAsDisplayed--)
+True if calculations in this workbook will be done using only the precision of the numbers as they're displayed NOTE: This member is now obsolete. Instead, please use FormulaSettings.PrecisionAsDisplayed. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1508,7 +1508,7 @@ public void setQuotePrefixToStyle(boolean value)
 ```
 
 
-For the description of this property, please see [getQuotePrefixToStyle()](../../com.aspose.cells/workbooksettings\#getQuotePrefixToStyle--)
+Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1521,7 +1521,7 @@ public void setReCalculateOnOpen(boolean value)
 ```
 
 
-For the description of this property, please see [getReCalculateOnOpen()](../../com.aspose.cells/workbooksettings\#getReCalculateOnOpen--)
+Indicates whether re-calculate all formulas on opening file. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnOpen. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1534,7 +1534,7 @@ public void setRecalculateBeforeSave(boolean value)
 ```
 
 
-For the description of this property, please see [getRecalculateBeforeSave()](../../com.aspose.cells/workbooksettings\#getRecalculateBeforeSave--)
+Indicates whether to recalculate before saving the document. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnSave. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1547,7 +1547,7 @@ public void setRegion(int value)
 ```
 
 
-For the description of this property, please see [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--)
+Sets the regional settings for workbook. 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1560,7 +1560,7 @@ public void setRemovePersonalInformation(boolean value)
 ```
 
 
-For the description of this property, please see [getRemovePersonalInformation()](../../com.aspose.cells/workbooksettings\#getRemovePersonalInformation--)
+True if personal information can be removed from the specified workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1573,7 +1573,7 @@ public void setRepairLoad(boolean value)
 ```
 
 
-For the description of this property, please see [getRepairLoad()](../../com.aspose.cells/workbooksettings\#getRepairLoad--)
+Indicates whether the application last opened the workbook in safe or repair mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1586,7 +1586,7 @@ public void setResourceProvider(IStreamProvider value)
 ```
 
 
-For the description of this property, please see [getResourceProvider()](../../com.aspose.cells/workbooksettings\#getResourceProvider--)
+Sets the stream provider for external resource, such as loading image data for picture of type "LinkToFile".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1599,7 +1599,7 @@ public void setShared(boolean value)
 ```
 
 
-For the description of this property, please see [getShared()](../../com.aspose.cells/workbooksettings\#getShared--)
+Sets a value that indicates whether the Workbook is shared. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1612,7 +1612,7 @@ public void setSheetTabBarWidth(int value)
 ```
 
 
-For the description of this property, please see [getSheetTabBarWidth()](../../com.aspose.cells/workbooksettings\#getSheetTabBarWidth--)
+Width of worksheet tab bar (in 1/1000 of window width).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1625,7 +1625,7 @@ public void setShowTabs(boolean value)
 ```
 
 
-For the description of this property, please see [getShowTabs()](../../com.aspose.cells/workbooksettings\#getShowTabs--)
+Sets a value whether the Workbook tabs are displayed. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1638,7 +1638,7 @@ public void setSignificantDigits(int value)
 ```
 
 
-For the description of this property, please see [getSignificantDigits()](../../com.aspose.cells/workbooksettings\#getSignificantDigits--)
+Sets the number of significant digits. The default value is \{@link CellsHelper.getSignificantDigits()\}. Only could be 15 or 17 now.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1651,7 +1651,7 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-For the description of this property, please see [getStreamProvider()](../../com.aspose.cells/workbooksettings\#getStreamProvider--)
+Sets the stream provider for external resource. NOTE: This member is now obsolete. Instead, please use ResourceProvider property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1664,7 +1664,7 @@ public void setUpdateAdjacentCellsBorder(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateAdjacentCellsBorder()](../../com.aspose.cells/workbooksettings\#getUpdateAdjacentCellsBorder--)
+Indicates whether update adjacent cells' border. The default value is false. For example: the bottom border of the cell A1 is update, the top border of the cell A2 should be changed too.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1677,7 +1677,7 @@ public void setUpdateLinksType(int value)
 ```
 
 
-For the description of this property, please see [getUpdateLinksType()](../../com.aspose.cells/workbooksettings\#getUpdateLinksType--)
+Sets how updates external links when the workbook is opened.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1690,7 +1690,7 @@ public void setVScrollBarVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVScrollBarVisible()](../../com.aspose.cells/workbooksettings\#isVScrollBarVisible--)
+Sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1716,7 +1716,7 @@ public void setWindowHeight(double value)
 ```
 
 
-For the description of this property, please see [getWindowHeight()](../../com.aspose.cells/workbooksettings\#getWindowHeight--)
+The height of the window, in unit of point.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1729,7 +1729,7 @@ public void setWindowHeightCM(double value)
 ```
 
 
-For the description of this property, please see [getWindowHeightCM()](../../com.aspose.cells/workbooksettings\#getWindowHeightCM--)
+The height of the window, in unit of centimeter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1742,7 +1742,7 @@ public void setWindowHeightInch(double value)
 ```
 
 
-For the description of this property, please see [getWindowHeightInch()](../../com.aspose.cells/workbooksettings\#getWindowHeightInch--)
+The height of the window, in unit of inch.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1755,7 +1755,7 @@ public void setWindowLeft(double value)
 ```
 
 
-For the description of this property, please see [getWindowLeft()](../../com.aspose.cells/workbooksettings\#getWindowLeft--)
+The distance from the left edge of the client area to the left edge of the window, in unit of point.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1768,7 +1768,7 @@ public void setWindowLeftCM(double value)
 ```
 
 
-For the description of this property, please see [getWindowLeftCM()](../../com.aspose.cells/workbooksettings\#getWindowLeftCM--)
+The distance from the left edge of the client area to the left edge of the window. In unit of centimeter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1781,7 +1781,7 @@ public void setWindowLeftInch(double value)
 ```
 
 
-For the description of this property, please see [getWindowLeftInch()](../../com.aspose.cells/workbooksettings\#getWindowLeftInch--)
+The distance from the left edge of the client area to the left edge of the window. In unit of inch.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1794,7 +1794,7 @@ public void setWindowTop(double value)
 ```
 
 
-For the description of this property, please see [getWindowTop()](../../com.aspose.cells/workbooksettings\#getWindowTop--)
+The distance from the top edge of the client area to the top edge of the window, in unit of point.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1807,7 +1807,7 @@ public void setWindowTopCM(double value)
 ```
 
 
-For the description of this property, please see [getWindowTopCM()](../../com.aspose.cells/workbooksettings\#getWindowTopCM--)
+The distance from the top edge of the client area to the top edge of the window, in unit of centimeter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1820,7 +1820,7 @@ public void setWindowTopInch(double value)
 ```
 
 
-For the description of this property, please see [getWindowTopInch()](../../com.aspose.cells/workbooksettings\#getWindowTopInch--)
+The distance from the top edge of the client area to the top edge of the window, in unit of inch.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1833,7 +1833,7 @@ public void setWindowWidth(double value)
 ```
 
 
-For the description of this property, please see [getWindowWidth()](../../com.aspose.cells/workbooksettings\#getWindowWidth--)
+The width of the window, in unit of point.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1846,7 +1846,7 @@ public void setWindowWidthCM(double value)
 ```
 
 
-For the description of this property, please see [getWindowWidthCM()](../../com.aspose.cells/workbooksettings\#getWindowWidthCM--)
+The width of the window, in unit of centimeter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1859,7 +1859,7 @@ public void setWindowWidthInch(double value)
 ```
 
 
-For the description of this property, please see [getWindowWidthInch()](../../com.aspose.cells/workbooksettings\#getWindowWidthInch--)
+The width of the window, in unit of inch.
 
 **Parameters:**
 | Parameter | Type | Description |

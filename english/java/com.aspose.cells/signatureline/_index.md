@@ -47,26 +47,26 @@ Represent the signature line.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllowComments()](#getAllowComments--) | Indicates whether comments could be attached. |
 | [getClass()](#getClass--) |  |
-| [getEmail()](#getEmail--) | the email of singer. |
-| [getId()](#getId--) | identifier for this signature line. |
-| [getInstructions()](#getInstructions--) | the text shown to user at signing time. |
-| [getProviderId()](#getProviderId--) | the id of signature provider. |
+| [getEmail()](#getEmail--) | Gets the email of singer. |
+| [getId()](#getId--) | Gets identifier for this signature line. |
+| [getInstructions()](#getInstructions--) | Gets the text shown to user at signing time. |
+| [getProviderId()](#getProviderId--) | Gets the id of signature provider. |
 | [getShowSignedDate()](#getShowSignedDate--) | Indicates whether show signed date. |
-| [getSigner()](#getSigner--) | the signer. |
-| [getTitle()](#getTitle--) | the title of singer. |
+| [getSigner()](#getSigner--) | Gets the signer. |
+| [getTitle()](#getTitle--) | Gets the title of singer. |
 | [hashCode()](#hashCode--) |  |
 | [isLine()](#isLine--) | Indicates whether it is a signature line. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowComments(boolean value)](#setAllowComments-boolean-) | For the description of this property, please see [getAllowComments()](../../com.aspose.cells/signatureline\#getAllowComments--) |
-| [setEmail(String value)](#setEmail-java.lang.String-) | For the description of this property, please see [getEmail()](../../com.aspose.cells/signatureline\#getEmail--) |
-| [setId(UUID value)](#setId-java.util.UUID-) | For the description of this property, please see [getId()](../../com.aspose.cells/signatureline\#getId--) |
-| [setInstructions(String value)](#setInstructions-java.lang.String-) | For the description of this property, please see [getInstructions()](../../com.aspose.cells/signatureline\#getInstructions--) |
-| [setLine(boolean value)](#setLine-boolean-) | For the description of this property, please see [isLine()](../../com.aspose.cells/signatureline\#isLine--) |
-| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | For the description of this property, please see [getProviderId()](../../com.aspose.cells/signatureline\#getProviderId--) |
-| [setShowSignedDate(boolean value)](#setShowSignedDate-boolean-) | For the description of this property, please see [getShowSignedDate()](../../com.aspose.cells/signatureline\#getShowSignedDate--) |
-| [setSigner(String value)](#setSigner-java.lang.String-) | For the description of this property, please see [getSigner()](../../com.aspose.cells/signatureline\#getSigner--) |
-| [setTitle(String value)](#setTitle-java.lang.String-) | For the description of this property, please see [getTitle()](../../com.aspose.cells/signatureline\#getTitle--) |
+| [setAllowComments(boolean value)](#setAllowComments-boolean-) | Indicates whether comments could be attached. |
+| [setEmail(String value)](#setEmail-java.lang.String-) | Sets the email of singer. |
+| [setId(UUID value)](#setId-java.util.UUID-) | Sets identifier for this signature line. |
+| [setInstructions(String value)](#setInstructions-java.lang.String-) | Sets the text shown to user at signing time. |
+| [setLine(boolean value)](#setLine-boolean-) | Indicates whether it is a signature line. |
+| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | Sets the id of signature provider. |
+| [setShowSignedDate(boolean value)](#setShowSignedDate-boolean-) | Indicates whether show signed date. |
+| [setSigner(String value)](#setSigner-java.lang.String-) | Sets the signer. |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Sets the title of singer. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -125,7 +125,7 @@ public String getEmail()
 ```
 
 
-the email of singer.
+Gets the email of singer.
 
 ```
 // Create signature line object
@@ -141,7 +141,7 @@ public UUID getId()
 ```
 
 
-identifier for this signature line.
+Gets identifier for this signature line.
 
 ```
 // Create signature line object
@@ -157,7 +157,7 @@ public String getInstructions()
 ```
 
 
-the text shown to user at signing time.
+Gets the text shown to user at signing time.
 
 ```
 // Create signature line object
@@ -173,7 +173,7 @@ public UUID getProviderId()
 ```
 
 
-the id of signature provider. It's typically the CLSID of the provider com add-in.
+Gets the id of signature provider. It's typically the CLSID of the provider com add-in.
 
 ```
 // Create signature line object
@@ -206,7 +206,7 @@ public String getSigner()
 ```
 
 
-the signer.
+Gets the signer.
 
 ```
 // Create signature line object
@@ -222,7 +222,7 @@ public String getTitle()
 ```
 
 
-the title of singer.
+Gets the title of singer.
 
 ```
 // Create signature line object
@@ -281,7 +281,7 @@ public void setAllowComments(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowComments()](../../com.aspose.cells/signatureline\#getAllowComments--)
+Indicates whether comments could be attached.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -294,7 +294,7 @@ public void setEmail(String value)
 ```
 
 
-For the description of this property, please see [getEmail()](../../com.aspose.cells/signatureline\#getEmail--)
+Sets the email of singer.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -307,7 +307,7 @@ public void setId(UUID value)
 ```
 
 
-For the description of this property, please see [getId()](../../com.aspose.cells/signatureline\#getId--)
+Sets identifier for this signature line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -320,7 +320,7 @@ public void setInstructions(String value)
 ```
 
 
-For the description of this property, please see [getInstructions()](../../com.aspose.cells/signatureline\#getInstructions--)
+Sets the text shown to user at signing time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -333,7 +333,7 @@ public void setLine(boolean value)
 ```
 
 
-For the description of this property, please see [isLine()](../../com.aspose.cells/signatureline\#isLine--)
+Indicates whether it is a signature line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,7 +346,7 @@ public void setProviderId(UUID value)
 ```
 
 
-For the description of this property, please see [getProviderId()](../../com.aspose.cells/signatureline\#getProviderId--)
+Sets the id of signature provider. It's typically the CLSID of the provider com add-in.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -359,7 +359,7 @@ public void setShowSignedDate(boolean value)
 ```
 
 
-For the description of this property, please see [getShowSignedDate()](../../com.aspose.cells/signatureline\#getShowSignedDate--)
+Indicates whether show signed date.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -372,7 +372,7 @@ public void setSigner(String value)
 ```
 
 
-For the description of this property, please see [getSigner()](../../com.aspose.cells/signatureline\#getSigner--)
+Sets the signer.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -385,7 +385,7 @@ public void setTitle(String value)
 ```
 
 
-For the description of this property, please see [getTitle()](../../com.aspose.cells/signatureline\#getTitle--)
+Sets the title of singer.
 
 **Parameters:**
 | Parameter | Type | Description |

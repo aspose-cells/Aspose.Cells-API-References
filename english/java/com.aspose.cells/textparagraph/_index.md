@@ -18,23 +18,23 @@ Represents the text paragraph setting.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlignmentType()](#getAlignmentType--) | the text horizontal alignment type of the paragraph. |
+| [getAlignmentType()](#getAlignmentType--) | Gets the text horizontal alignment type of the paragraph. |
 | [getBullet()](#getBullet--) | Gets the bullet. |
 | [getChildren()](#getChildren--) | Gets all text runs in this paragraph. |
 | [getClass()](#getClass--) |  |
-| [getDefaultTabSize()](#getDefaultTabSize--) | the default size for a tab character within this paragraph. |
+| [getDefaultTabSize()](#getDefaultTabSize--) | Gets the default size for a tab character within this paragraph. |
 | [getFirstLineIndent()](#getFirstLineIndent--) | Specifies the indent size that will be applied to the first line of text in the paragraph. |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getFontAlignType()](#getFontAlignType--) | Determines where vertically on a line of text the actual words are positioned. |
 | [getLeftMargin()](#getLeftMargin--) | Specifies the left margin of the paragraph. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
-| [getLineSpace()](#getLineSpace--) | the amount of vertical white space that will be used within a paragraph. |
-| [getLineSpaceSizeType()](#getLineSpaceSizeType--) | the amount of vertical white space that will be used within a paragraph. |
+| [getLineSpace()](#getLineSpace--) | Gets the amount of vertical white space that will be used within a paragraph. |
+| [getLineSpaceSizeType()](#getLineSpaceSizeType--) | Gets the amount of vertical white space that will be used within a paragraph. |
 | [getRightMargin()](#getRightMargin--) | Specifies the right margin of the paragraph. |
-| [getSpaceAfter()](#getSpaceAfter--) | the amount of vertical white space that will be present after a paragraph. |
-| [getSpaceAfterSizeType()](#getSpaceAfterSizeType--) | the amount of vertical white space that will be present after a paragraph. |
-| [getSpaceBefore()](#getSpaceBefore--) | the amount of vertical white space that will be present before a paragraph. |
-| [getSpaceBeforeSizeType()](#getSpaceBeforeSizeType--) | the amount of vertical white space that will be present before a paragraph. |
+| [getSpaceAfter()](#getSpaceAfter--) | Gets the amount of vertical white space that will be present after a paragraph. |
+| [getSpaceAfterSizeType()](#getSpaceAfterSizeType--) | Gets the amount of vertical white space that will be present after a paragraph. |
+| [getSpaceBefore()](#getSpaceBefore--) | Gets the amount of vertical white space that will be present before a paragraph. |
+| [getSpaceBeforeSizeType()](#getSpaceBeforeSizeType--) | Gets the amount of vertical white space that will be present before a paragraph. |
 | [getStartIndex()](#getStartIndex--) | Gets the start index of the characters. |
 | [getStops()](#getStops--) | Gets tab stop list. |
 | [getTextOptions()](#getTextOptions--) | Returns the text options. |
@@ -45,21 +45,21 @@ Represents the text paragraph setting.
 | [isLatinLineBreak()](#isLatinLineBreak--) | Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignmentType(int value)](#setAlignmentType-int-) | For the description of this property, please see [getAlignmentType()](../../com.aspose.cells/textparagraph\#getAlignmentType--) |
-| [setDefaultTabSize(double value)](#setDefaultTabSize-double-) | For the description of this property, please see [getDefaultTabSize()](../../com.aspose.cells/textparagraph\#getDefaultTabSize--) |
-| [setEastAsianLineBreak(boolean value)](#setEastAsianLineBreak-boolean-) | For the description of this property, please see [isEastAsianLineBreak()](../../com.aspose.cells/textparagraph\#isEastAsianLineBreak--) |
-| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | For the description of this property, please see [getFirstLineIndent()](../../com.aspose.cells/textparagraph\#getFirstLineIndent--) |
-| [setFontAlignType(int value)](#setFontAlignType-int-) | For the description of this property, please see [getFontAlignType()](../../com.aspose.cells/textparagraph\#getFontAlignType--) |
-| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | For the description of this property, please see [isHangingPunctuation()](../../com.aspose.cells/textparagraph\#isHangingPunctuation--) |
-| [setLatinLineBreak(boolean value)](#setLatinLineBreak-boolean-) | For the description of this property, please see [isLatinLineBreak()](../../com.aspose.cells/textparagraph\#isLatinLineBreak--) |
-| [setLeftMargin(double value)](#setLeftMargin-double-) | For the description of this property, please see [getLeftMargin()](../../com.aspose.cells/textparagraph\#getLeftMargin--) |
-| [setLineSpace(double value)](#setLineSpace-double-) | For the description of this property, please see [getLineSpace()](../../com.aspose.cells/textparagraph\#getLineSpace--) |
-| [setLineSpaceSizeType(int value)](#setLineSpaceSizeType-int-) | For the description of this property, please see [getLineSpaceSizeType()](../../com.aspose.cells/textparagraph\#getLineSpaceSizeType--) |
-| [setRightMargin(double value)](#setRightMargin-double-) | For the description of this property, please see [getRightMargin()](../../com.aspose.cells/textparagraph\#getRightMargin--) |
-| [setSpaceAfter(double value)](#setSpaceAfter-double-) | For the description of this property, please see [getSpaceAfter()](../../com.aspose.cells/textparagraph\#getSpaceAfter--) |
-| [setSpaceAfterSizeType(int value)](#setSpaceAfterSizeType-int-) | For the description of this property, please see [getSpaceAfterSizeType()](../../com.aspose.cells/textparagraph\#getSpaceAfterSizeType--) |
-| [setSpaceBefore(double value)](#setSpaceBefore-double-) | For the description of this property, please see [getSpaceBefore()](../../com.aspose.cells/textparagraph\#getSpaceBefore--) |
-| [setSpaceBeforeSizeType(int value)](#setSpaceBeforeSizeType-int-) | For the description of this property, please see [getSpaceBeforeSizeType()](../../com.aspose.cells/textparagraph\#getSpaceBeforeSizeType--) |
+| [setAlignmentType(int value)](#setAlignmentType-int-) | Sets the text horizontal alignment type of the paragraph. |
+| [setDefaultTabSize(double value)](#setDefaultTabSize-double-) | Sets the default size for a tab character within this paragraph. |
+| [setEastAsianLineBreak(boolean value)](#setEastAsianLineBreak-boolean-) | Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added. |
+| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | Specifies the indent size that will be applied to the first line of text in the paragraph. |
+| [setFontAlignType(int value)](#setFontAlignType-int-) | Determines where vertically on a line of text the actual words are positioned. |
+| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text. |
+| [setLatinLineBreak(boolean value)](#setLatinLineBreak-boolean-) | Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added. |
+| [setLeftMargin(double value)](#setLeftMargin-double-) | Specifies the left margin of the paragraph. |
+| [setLineSpace(double value)](#setLineSpace-double-) | Sets the amount of vertical white space that will be used within a paragraph. |
+| [setLineSpaceSizeType(int value)](#setLineSpaceSizeType-int-) | Sets the amount of vertical white space that will be used within a paragraph. |
+| [setRightMargin(double value)](#setRightMargin-double-) | Specifies the right margin of the paragraph. |
+| [setSpaceAfter(double value)](#setSpaceAfter-double-) | Sets the amount of vertical white space that will be present after a paragraph. |
+| [setSpaceAfterSizeType(int value)](#setSpaceAfterSizeType-int-) | Sets the amount of vertical white space that will be present after a paragraph. |
+| [setSpaceBefore(double value)](#setSpaceBefore-double-) | Sets the amount of vertical white space that will be present before a paragraph. |
+| [setSpaceBeforeSizeType(int value)](#setSpaceBeforeSizeType-int-) | Sets the amount of vertical white space that will be present before a paragraph. |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -86,7 +86,7 @@ public int getAlignmentType()
 ```
 
 
-the text horizontal alignment type of the paragraph.
+Gets the text horizontal alignment type of the paragraph.
 
 **Returns:**
 int
@@ -126,7 +126,7 @@ public double getDefaultTabSize()
 ```
 
 
-the default size for a tab character within this paragraph.
+Gets the default size for a tab character within this paragraph.
 
 **Returns:**
 double
@@ -186,7 +186,7 @@ public double getLineSpace()
 ```
 
 
-the amount of vertical white space that will be used within a paragraph.
+Gets the amount of vertical white space that will be used within a paragraph.
 
 **Returns:**
 double
@@ -196,7 +196,7 @@ public int getLineSpaceSizeType()
 ```
 
 
-the amount of vertical white space that will be used within a paragraph.
+Gets the amount of vertical white space that will be used within a paragraph.
 
 **Returns:**
 int
@@ -216,7 +216,7 @@ public double getSpaceAfter()
 ```
 
 
-the amount of vertical white space that will be present after a paragraph.
+Gets the amount of vertical white space that will be present after a paragraph.
 
 **Returns:**
 double
@@ -226,7 +226,7 @@ public int getSpaceAfterSizeType()
 ```
 
 
-the amount of vertical white space that will be present after a paragraph.
+Gets the amount of vertical white space that will be present after a paragraph.
 
 **Returns:**
 int
@@ -236,7 +236,7 @@ public double getSpaceBefore()
 ```
 
 
-the amount of vertical white space that will be present before a paragraph.
+Gets the amount of vertical white space that will be present before a paragraph.
 
 **Returns:**
 double
@@ -246,7 +246,7 @@ public int getSpaceBeforeSizeType()
 ```
 
 
-the amount of vertical white space that will be present before a paragraph.
+Gets the amount of vertical white space that will be present before a paragraph.
 
 **Returns:**
 int
@@ -352,7 +352,7 @@ public void setAlignmentType(int value)
 ```
 
 
-For the description of this property, please see [getAlignmentType()](../../com.aspose.cells/textparagraph\#getAlignmentType--)
+Sets the text horizontal alignment type of the paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -365,7 +365,7 @@ public void setDefaultTabSize(double value)
 ```
 
 
-For the description of this property, please see [getDefaultTabSize()](../../com.aspose.cells/textparagraph\#getDefaultTabSize--)
+Sets the default size for a tab character within this paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -378,7 +378,7 @@ public void setEastAsianLineBreak(boolean value)
 ```
 
 
-For the description of this property, please see [isEastAsianLineBreak()](../../com.aspose.cells/textparagraph\#isEastAsianLineBreak--)
+Specifies whether an East Asian word can be broken in half and wrapped onto the next line without a hyphen being added.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -391,7 +391,7 @@ public void setFirstLineIndent(double value)
 ```
 
 
-For the description of this property, please see [getFirstLineIndent()](../../com.aspose.cells/textparagraph\#getFirstLineIndent--)
+Specifies the indent size that will be applied to the first line of text in the paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +404,7 @@ public void setFontAlignType(int value)
 ```
 
 
-For the description of this property, please see [getFontAlignType()](../../com.aspose.cells/textparagraph\#getFontAlignType--)
+Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -417,7 +417,7 @@ public void setHangingPunctuation(boolean value)
 ```
 
 
-For the description of this property, please see [isHangingPunctuation()](../../com.aspose.cells/textparagraph\#isHangingPunctuation--)
+Specifies whether punctuation is to be forcefully laid out on a line of text or put on a different line of text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -430,7 +430,7 @@ public void setLatinLineBreak(boolean value)
 ```
 
 
-For the description of this property, please see [isLatinLineBreak()](../../com.aspose.cells/textparagraph\#isLatinLineBreak--)
+Specifies whether a Latin word can be broken in half and wrapped onto the next line without a hyphen being added.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -443,7 +443,7 @@ public void setLeftMargin(double value)
 ```
 
 
-For the description of this property, please see [getLeftMargin()](../../com.aspose.cells/textparagraph\#getLeftMargin--)
+Specifies the left margin of the paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -456,7 +456,7 @@ public void setLineSpace(double value)
 ```
 
 
-For the description of this property, please see [getLineSpace()](../../com.aspose.cells/textparagraph\#getLineSpace--)
+Sets the amount of vertical white space that will be used within a paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +469,7 @@ public void setLineSpaceSizeType(int value)
 ```
 
 
-For the description of this property, please see [getLineSpaceSizeType()](../../com.aspose.cells/textparagraph\#getLineSpaceSizeType--)
+Sets the amount of vertical white space that will be used within a paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,7 +482,7 @@ public void setRightMargin(double value)
 ```
 
 
-For the description of this property, please see [getRightMargin()](../../com.aspose.cells/textparagraph\#getRightMargin--)
+Specifies the right margin of the paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -495,7 +495,7 @@ public void setSpaceAfter(double value)
 ```
 
 
-For the description of this property, please see [getSpaceAfter()](../../com.aspose.cells/textparagraph\#getSpaceAfter--)
+Sets the amount of vertical white space that will be present after a paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -508,7 +508,7 @@ public void setSpaceAfterSizeType(int value)
 ```
 
 
-For the description of this property, please see [getSpaceAfterSizeType()](../../com.aspose.cells/textparagraph\#getSpaceAfterSizeType--)
+Sets the amount of vertical white space that will be present after a paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -521,7 +521,7 @@ public void setSpaceBefore(double value)
 ```
 
 
-For the description of this property, please see [getSpaceBefore()](../../com.aspose.cells/textparagraph\#getSpaceBefore--)
+Sets the amount of vertical white space that will be present before a paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -534,7 +534,7 @@ public void setSpaceBeforeSizeType(int value)
 ```
 
 
-For the description of this property, please see [getSpaceBeforeSizeType()](../../com.aspose.cells/textparagraph\#getSpaceBeforeSizeType--)
+Sets the amount of vertical white space that will be present before a paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |

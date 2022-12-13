@@ -19,15 +19,15 @@ Represents the dynamic filter.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDynamicFilterType()](#getDynamicFilterType--) | the dynamic filter type. |
-| [getMaxValue()](#getMaxValue--) | the dynamic filter max value. |
-| [getValue()](#getValue--) | the dynamic filter value. |
+| [getDynamicFilterType()](#getDynamicFilterType--) | Gets the dynamic filter type. |
+| [getMaxValue()](#getMaxValue--) | Gets the dynamic filter max value. |
+| [getValue()](#getValue--) | Gets the dynamic filter value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDynamicFilterType(int value)](#setDynamicFilterType-int-) | For the description of this property, please see [getDynamicFilterType()](../../com.aspose.cells/dynamicfilter\#getDynamicFilterType--) |
-| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | For the description of this property, please see [getMaxValue()](../../com.aspose.cells/dynamicfilter\#getMaxValue--) |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/dynamicfilter\#getValue--) |
+| [setDynamicFilterType(int value)](#setDynamicFilterType-int-) | Sets the dynamic filter type. |
+| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | Sets the dynamic filter max value. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Sets the dynamic filter value. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -63,7 +63,7 @@ public int getDynamicFilterType()
 ```
 
 
-the dynamic filter type.
+Gets the dynamic filter type.
 
 **Returns:**
 int
@@ -73,7 +73,7 @@ public Object getMaxValue()
 ```
 
 
-the dynamic filter max value.
+Gets the dynamic filter max value.
 
 **Returns:**
 java.lang.Object
@@ -83,7 +83,7 @@ public Object getValue()
 ```
 
 
-the dynamic filter value.
+Gets the dynamic filter value.
 
 **Returns:**
 java.lang.Object
@@ -119,7 +119,7 @@ public void setDynamicFilterType(int value)
 ```
 
 
-For the description of this property, please see [getDynamicFilterType()](../../com.aspose.cells/dynamicfilter\#getDynamicFilterType--)
+Sets the dynamic filter type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public void setMaxValue(Object value)
 ```
 
 
-For the description of this property, please see [getMaxValue()](../../com.aspose.cells/dynamicfilter\#getMaxValue--)
+Sets the dynamic filter max value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/dynamicfilter\#getValue--)
+Sets the dynamic filter value.
 
 **Parameters:**
 | Parameter | Type | Description |

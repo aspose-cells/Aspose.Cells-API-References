@@ -29,16 +29,16 @@ Represents identifier information.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Returns or sets the name of the object. |
-| [getType()](#getType--) | the type of the property. |
+| [getType()](#getType--) | Gets the type of the property. |
 | [getValue()](#getValue--) | Returns or sets the value of the content type property. |
 | [hashCode()](#hashCode--) |  |
 | [isNillable()](#isNillable--) | Indicates whether the value could be empty. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/contenttypeproperty\#getName--) |
-| [setNillable(boolean value)](#setNillable-boolean-) | For the description of this property, please see [isNillable()](../../com.aspose.cells/contenttypeproperty\#isNillable--) |
-| [setType(String value)](#setType-java.lang.String-) | For the description of this property, please see [getType()](../../com.aspose.cells/contenttypeproperty\#getType--) |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/contenttypeproperty\#getValue--) |
+| [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the object. |
+| [setNillable(boolean value)](#setNillable-boolean-) | Indicates whether the value could be empty. |
+| [setType(String value)](#setType-java.lang.String-) | Sets the type of the property. |
+| [setValue(String value)](#setValue-java.lang.String-) | Returns or sets the value of the content type property. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -84,7 +84,7 @@ public String getType()
 ```
 
 
-the type of the property.
+Gets the type of the property.
 
 **Returns:**
 java.lang.String
@@ -140,7 +140,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/contenttypeproperty\#getName--)
+Returns or sets the name of the object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -153,7 +153,7 @@ public void setNillable(boolean value)
 ```
 
 
-For the description of this property, please see [isNillable()](../../com.aspose.cells/contenttypeproperty\#isNillable--)
+Indicates whether the value could be empty.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -166,7 +166,7 @@ public void setType(String value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/contenttypeproperty\#getType--)
+Sets the type of the property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -179,7 +179,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/contenttypeproperty\#getValue--)
+Returns or sets the value of the content type property.
 
 **Parameters:**
 | Parameter | Type | Description |

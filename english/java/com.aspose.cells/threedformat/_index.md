@@ -18,50 +18,50 @@ Represents a shape's three-dimensional formatting.
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getBottomBevelHeight()](#getBottomBevelHeight--) | the height of the bottom bevel, or how far into the shape it is applied. |
-| [getBottomBevelType()](#getBottomBevelType--) | the type of the bottom bevel, or how far into the shape it is applied. |
-| [getBottomBevelWidth()](#getBottomBevelWidth--) | the width of the bottom bevel, or how far into the shape it is applied. |
+| [getBottomBevelHeight()](#getBottomBevelHeight--) | Gets the height of the bottom bevel, or how far into the shape it is applied. |
+| [getBottomBevelType()](#getBottomBevelType--) | Gets the type of the bottom bevel, or how far into the shape it is applied. |
+| [getBottomBevelWidth()](#getBottomBevelWidth--) | Gets the width of the bottom bevel, or how far into the shape it is applied. |
 | [getClass()](#getClass--) |  |
-| [getContourColor()](#getContourColor--) | the contour color on a shape. |
-| [getContourWidth()](#getContourWidth--) | the contour width on the shape, in unit of points. |
+| [getContourColor()](#getContourColor--) | Gets the contour color on a shape. |
+| [getContourWidth()](#getContourWidth--) | Gets the contour width on the shape, in unit of points. |
 | [getExtrusionColor()](#getExtrusionColor--) | Gets the extrusion color on a shape. |
-| [getExtrusionHeight()](#getExtrusionHeight--) | the extrusion height of the applied to the shape, in unit of points. |
-| [getLightAngle()](#getLightAngle--) | the angle of the extrusion lights. |
-| [getLighting()](#getLighting--) | type of light rig. |
-| [getLightingDirection()](#getLightingDirection--) | the direction from which the light rig is oriented in relation to the scene. |
+| [getExtrusionHeight()](#getExtrusionHeight--) | Gets the extrusion height of the applied to the shape, in unit of points. |
+| [getLightAngle()](#getLightAngle--) | Gets the angle of the extrusion lights. |
+| [getLighting()](#getLighting--) | Gets type of light rig. |
+| [getLightingDirection()](#getLightingDirection--) | Gets the direction from which the light rig is oriented in relation to the scene. |
 | [getMaterial()](#getMaterial--) | Represents the preset material which is combined with the lighting properties to give the final look and feel of a shape. |
-| [getPerspective()](#getPerspective--) | the angle at which a ThreeDFormat object can be viewed. |
-| [getPresetCameraType()](#getPresetCameraType--) | the extrusion preset camera type. |
-| [getRotationX()](#getRotationX--) | the rotation of the extruded shape around the x-axis in degrees. |
-| [getRotationY()](#getRotationY--) | the rotation of the extruded shape around the y-axis in degrees. |
-| [getRotationZ()](#getRotationZ--) | the rotation of the extruded shape around the z-axis in degrees. |
-| [getTopBevelHeight()](#getTopBevelHeight--) | the height of the top bevel, or how far into the shape it is applied. |
-| [getTopBevelType()](#getTopBevelType--) | the type of the top bevel, or how far into the shape it is applied. |
-| [getTopBevelWidth()](#getTopBevelWidth--) | the width of the top bevel, or how far into the shape it is applied. |
+| [getPerspective()](#getPerspective--) | Gets the angle at which a ThreeDFormat object can be viewed. |
+| [getPresetCameraType()](#getPresetCameraType--) | Gets the extrusion preset camera type. |
+| [getRotationX()](#getRotationX--) | Gets the rotation of the extruded shape around the x-axis in degrees. |
+| [getRotationY()](#getRotationY--) | Gets the rotation of the extruded shape around the y-axis in degrees. |
+| [getRotationZ()](#getRotationZ--) | Gets the rotation of the extruded shape around the z-axis in degrees. |
+| [getTopBevelHeight()](#getTopBevelHeight--) | Gets the height of the top bevel, or how far into the shape it is applied. |
+| [getTopBevelType()](#getTopBevelType--) | Gets the type of the top bevel, or how far into the shape it is applied. |
+| [getTopBevelWidth()](#getTopBevelWidth--) | Gets the width of the top bevel, or how far into the shape it is applied. |
 | [getZ()](#getZ--) | Defines the distance from ground for the 3D shape. |
 | [hashCode()](#hashCode--) | Gets hashcode. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottomBevelHeight(double value)](#setBottomBevelHeight-double-) | For the description of this property, please see [getBottomBevelHeight()](../../com.aspose.cells/threedformat\#getBottomBevelHeight--) |
-| [setBottomBevelType(int value)](#setBottomBevelType-int-) | For the description of this property, please see [getBottomBevelType()](../../com.aspose.cells/threedformat\#getBottomBevelType--) |
-| [setBottomBevelWidth(double value)](#setBottomBevelWidth-double-) | For the description of this property, please see [getBottomBevelWidth()](../../com.aspose.cells/threedformat\#getBottomBevelWidth--) |
-| [setContourColor(CellsColor value)](#setContourColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getContourColor()](../../com.aspose.cells/threedformat\#getContourColor--) |
-| [setContourWidth(double value)](#setContourWidth-double-) | For the description of this property, please see [getContourWidth()](../../com.aspose.cells/threedformat\#getContourWidth--) |
-| [setExtrusionColor(CellsColor value)](#setExtrusionColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getExtrusionColor()](../../com.aspose.cells/threedformat\#getExtrusionColor--) |
-| [setExtrusionHeight(double value)](#setExtrusionHeight-double-) | For the description of this property, please see [getExtrusionHeight()](../../com.aspose.cells/threedformat\#getExtrusionHeight--) |
-| [setLightAngle(double value)](#setLightAngle-double-) | For the description of this property, please see [getLightAngle()](../../com.aspose.cells/threedformat\#getLightAngle--) |
-| [setLighting(int value)](#setLighting-int-) | For the description of this property, please see [getLighting()](../../com.aspose.cells/threedformat\#getLighting--) |
-| [setLightingDirection(int value)](#setLightingDirection-int-) | For the description of this property, please see [getLightingDirection()](../../com.aspose.cells/threedformat\#getLightingDirection--) |
-| [setMaterial(int value)](#setMaterial-int-) | For the description of this property, please see [getMaterial()](../../com.aspose.cells/threedformat\#getMaterial--) |
-| [setPerspective(double value)](#setPerspective-double-) | For the description of this property, please see [getPerspective()](../../com.aspose.cells/threedformat\#getPerspective--) |
-| [setPresetCameraType(int value)](#setPresetCameraType-int-) | For the description of this property, please see [getPresetCameraType()](../../com.aspose.cells/threedformat\#getPresetCameraType--) |
-| [setRotationX(double value)](#setRotationX-double-) | For the description of this property, please see [getRotationX()](../../com.aspose.cells/threedformat\#getRotationX--) |
-| [setRotationY(double value)](#setRotationY-double-) | For the description of this property, please see [getRotationY()](../../com.aspose.cells/threedformat\#getRotationY--) |
-| [setRotationZ(double value)](#setRotationZ-double-) | For the description of this property, please see [getRotationZ()](../../com.aspose.cells/threedformat\#getRotationZ--) |
-| [setTopBevelHeight(double value)](#setTopBevelHeight-double-) | For the description of this property, please see [getTopBevelHeight()](../../com.aspose.cells/threedformat\#getTopBevelHeight--) |
-| [setTopBevelType(int value)](#setTopBevelType-int-) | For the description of this property, please see [getTopBevelType()](../../com.aspose.cells/threedformat\#getTopBevelType--) |
-| [setTopBevelWidth(double value)](#setTopBevelWidth-double-) | For the description of this property, please see [getTopBevelWidth()](../../com.aspose.cells/threedformat\#getTopBevelWidth--) |
-| [setZ(double value)](#setZ-double-) | For the description of this property, please see [getZ()](../../com.aspose.cells/threedformat\#getZ--) |
+| [setBottomBevelHeight(double value)](#setBottomBevelHeight-double-) | Sets the height of the bottom bevel, or how far into the shape it is applied. |
+| [setBottomBevelType(int value)](#setBottomBevelType-int-) | Sets the type of the bottom bevel, or how far into the shape it is applied. |
+| [setBottomBevelWidth(double value)](#setBottomBevelWidth-double-) | Sets the width of the bottom bevel, or how far into the shape it is applied. |
+| [setContourColor(CellsColor value)](#setContourColor-com.aspose.cells.CellsColor-) | Sets the contour color on a shape. |
+| [setContourWidth(double value)](#setContourWidth-double-) | Sets the contour width on the shape, in unit of points. |
+| [setExtrusionColor(CellsColor value)](#setExtrusionColor-com.aspose.cells.CellsColor-) | Gets the extrusion color on a shape. |
+| [setExtrusionHeight(double value)](#setExtrusionHeight-double-) | Sets the extrusion height of the applied to the shape, in unit of points. |
+| [setLightAngle(double value)](#setLightAngle-double-) | Sets the angle of the extrusion lights. |
+| [setLighting(int value)](#setLighting-int-) | Sets type of light rig. |
+| [setLightingDirection(int value)](#setLightingDirection-int-) | Sets the direction from which the light rig is oriented in relation to the scene. |
+| [setMaterial(int value)](#setMaterial-int-) | Represents the preset material which is combined with the lighting properties to give the final look and feel of a shape. |
+| [setPerspective(double value)](#setPerspective-double-) | Sets the angle at which a ThreeDFormat object can be viewed. |
+| [setPresetCameraType(int value)](#setPresetCameraType-int-) | Sets the extrusion preset camera type. |
+| [setRotationX(double value)](#setRotationX-double-) | Sets the rotation of the extruded shape around the x-axis in degrees. |
+| [setRotationY(double value)](#setRotationY-double-) | Sets the rotation of the extruded shape around the y-axis in degrees. |
+| [setRotationZ(double value)](#setRotationZ-double-) | Sets the rotation of the extruded shape around the z-axis in degrees. |
+| [setTopBevelHeight(double value)](#setTopBevelHeight-double-) | Sets the height of the top bevel, or how far into the shape it is applied. |
+| [setTopBevelType(int value)](#setTopBevelType-int-) | Sets the type of the top bevel, or how far into the shape it is applied. |
+| [setTopBevelWidth(double value)](#setTopBevelWidth-double-) | Sets the width of the top bevel, or how far into the shape it is applied. |
+| [setZ(double value)](#setZ-double-) | Defines the distance from ground for the 3D shape. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -87,7 +87,7 @@ public double getBottomBevelHeight()
 ```
 
 
-the height of the bottom bevel, or how far into the shape it is applied. In unit of Points.
+Gets the height of the bottom bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -97,7 +97,7 @@ public int getBottomBevelType()
 ```
 
 
-the type of the bottom bevel, or how far into the shape it is applied. In unit of Points.
+Gets the type of the bottom bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 int
@@ -107,7 +107,7 @@ public double getBottomBevelWidth()
 ```
 
 
-the width of the bottom bevel, or how far into the shape it is applied. In unit of Points.
+Gets the width of the bottom bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -127,7 +127,7 @@ public CellsColor getContourColor()
 ```
 
 
-the contour color on a shape.
+Gets the contour color on a shape.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -137,7 +137,7 @@ public double getContourWidth()
 ```
 
 
-the contour width on the shape, in unit of points.
+Gets the contour width on the shape, in unit of points.
 
 **Returns:**
 double
@@ -157,7 +157,7 @@ public double getExtrusionHeight()
 ```
 
 
-the extrusion height of the applied to the shape, in unit of points.
+Gets the extrusion height of the applied to the shape, in unit of points.
 
 **Returns:**
 double
@@ -167,7 +167,7 @@ public double getLightAngle()
 ```
 
 
-the angle of the extrusion lights.
+Gets the angle of the extrusion lights.
 
 **Returns:**
 double
@@ -177,7 +177,7 @@ public int getLighting()
 ```
 
 
-type of light rig.
+Gets type of light rig.
 
 **Returns:**
 int
@@ -187,7 +187,7 @@ public int getLightingDirection()
 ```
 
 
-the direction from which the light rig is oriented in relation to the scene.
+Gets the direction from which the light rig is oriented in relation to the scene.
 
 **Returns:**
 int
@@ -207,7 +207,7 @@ public double getPerspective()
 ```
 
 
-the angle at which a ThreeDFormat object can be viewed.
+Gets the angle at which a ThreeDFormat object can be viewed.
 
 **Returns:**
 double
@@ -217,7 +217,7 @@ public int getPresetCameraType()
 ```
 
 
-the extrusion preset camera type.
+Gets the extrusion preset camera type.
 
 **Returns:**
 int
@@ -227,7 +227,7 @@ public double getRotationX()
 ```
 
 
-the rotation of the extruded shape around the x-axis in degrees.
+Gets the rotation of the extruded shape around the x-axis in degrees.
 
 **Returns:**
 double
@@ -237,7 +237,7 @@ public double getRotationY()
 ```
 
 
-the rotation of the extruded shape around the y-axis in degrees.
+Gets the rotation of the extruded shape around the y-axis in degrees.
 
 **Returns:**
 double
@@ -247,7 +247,7 @@ public double getRotationZ()
 ```
 
 
-the rotation of the extruded shape around the z-axis in degrees.
+Gets the rotation of the extruded shape around the z-axis in degrees.
 
 **Returns:**
 double
@@ -257,7 +257,7 @@ public double getTopBevelHeight()
 ```
 
 
-the height of the top bevel, or how far into the shape it is applied. In unit of Points.
+Gets the height of the top bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -267,7 +267,7 @@ public int getTopBevelType()
 ```
 
 
-the type of the top bevel, or how far into the shape it is applied. In unit of Points.
+Gets the type of the top bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 int
@@ -277,7 +277,7 @@ public double getTopBevelWidth()
 ```
 
 
-the width of the top bevel, or how far into the shape it is applied. In unit of Points.
+Gets the width of the top bevel, or how far into the shape it is applied. In unit of Points.
 
 **Returns:**
 double
@@ -323,7 +323,7 @@ public void setBottomBevelHeight(double value)
 ```
 
 
-For the description of this property, please see [getBottomBevelHeight()](../../com.aspose.cells/threedformat\#getBottomBevelHeight--)
+Sets the height of the bottom bevel, or how far into the shape it is applied. In unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -336,7 +336,7 @@ public void setBottomBevelType(int value)
 ```
 
 
-For the description of this property, please see [getBottomBevelType()](../../com.aspose.cells/threedformat\#getBottomBevelType--)
+Sets the type of the bottom bevel, or how far into the shape it is applied. In unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -349,7 +349,7 @@ public void setBottomBevelWidth(double value)
 ```
 
 
-For the description of this property, please see [getBottomBevelWidth()](../../com.aspose.cells/threedformat\#getBottomBevelWidth--)
+Sets the width of the bottom bevel, or how far into the shape it is applied. In unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -362,7 +362,7 @@ public void setContourColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getContourColor()](../../com.aspose.cells/threedformat\#getContourColor--)
+Sets the contour color on a shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -375,7 +375,7 @@ public void setContourWidth(double value)
 ```
 
 
-For the description of this property, please see [getContourWidth()](../../com.aspose.cells/threedformat\#getContourWidth--)
+Sets the contour width on the shape, in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -388,7 +388,7 @@ public void setExtrusionColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getExtrusionColor()](../../com.aspose.cells/threedformat\#getExtrusionColor--)
+Gets the extrusion color on a shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -401,7 +401,7 @@ public void setExtrusionHeight(double value)
 ```
 
 
-For the description of this property, please see [getExtrusionHeight()](../../com.aspose.cells/threedformat\#getExtrusionHeight--)
+Sets the extrusion height of the applied to the shape, in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -414,7 +414,7 @@ public void setLightAngle(double value)
 ```
 
 
-For the description of this property, please see [getLightAngle()](../../com.aspose.cells/threedformat\#getLightAngle--)
+Sets the angle of the extrusion lights.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -427,7 +427,7 @@ public void setLighting(int value)
 ```
 
 
-For the description of this property, please see [getLighting()](../../com.aspose.cells/threedformat\#getLighting--)
+Sets type of light rig.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -440,7 +440,7 @@ public void setLightingDirection(int value)
 ```
 
 
-For the description of this property, please see [getLightingDirection()](../../com.aspose.cells/threedformat\#getLightingDirection--)
+Sets the direction from which the light rig is oriented in relation to the scene.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -453,7 +453,7 @@ public void setMaterial(int value)
 ```
 
 
-For the description of this property, please see [getMaterial()](../../com.aspose.cells/threedformat\#getMaterial--)
+Represents the preset material which is combined with the lighting properties to give the final look and feel of a shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -466,7 +466,7 @@ public void setPerspective(double value)
 ```
 
 
-For the description of this property, please see [getPerspective()](../../com.aspose.cells/threedformat\#getPerspective--)
+Sets the angle at which a ThreeDFormat object can be viewed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -479,7 +479,7 @@ public void setPresetCameraType(int value)
 ```
 
 
-For the description of this property, please see [getPresetCameraType()](../../com.aspose.cells/threedformat\#getPresetCameraType--)
+Sets the extrusion preset camera type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -492,7 +492,7 @@ public void setRotationX(double value)
 ```
 
 
-For the description of this property, please see [getRotationX()](../../com.aspose.cells/threedformat\#getRotationX--)
+Sets the rotation of the extruded shape around the x-axis in degrees.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -505,7 +505,7 @@ public void setRotationY(double value)
 ```
 
 
-For the description of this property, please see [getRotationY()](../../com.aspose.cells/threedformat\#getRotationY--)
+Sets the rotation of the extruded shape around the y-axis in degrees.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -518,7 +518,7 @@ public void setRotationZ(double value)
 ```
 
 
-For the description of this property, please see [getRotationZ()](../../com.aspose.cells/threedformat\#getRotationZ--)
+Sets the rotation of the extruded shape around the z-axis in degrees.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -531,7 +531,7 @@ public void setTopBevelHeight(double value)
 ```
 
 
-For the description of this property, please see [getTopBevelHeight()](../../com.aspose.cells/threedformat\#getTopBevelHeight--)
+Sets the height of the top bevel, or how far into the shape it is applied. In unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -544,7 +544,7 @@ public void setTopBevelType(int value)
 ```
 
 
-For the description of this property, please see [getTopBevelType()](../../com.aspose.cells/threedformat\#getTopBevelType--)
+Sets the type of the top bevel, or how far into the shape it is applied. In unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -557,7 +557,7 @@ public void setTopBevelWidth(double value)
 ```
 
 
-For the description of this property, please see [getTopBevelWidth()](../../com.aspose.cells/threedformat\#getTopBevelWidth--)
+Sets the width of the top bevel, or how far into the shape it is applied. In unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -570,7 +570,7 @@ public void setZ(double value)
 ```
 
 
-For the description of this property, please see [getZ()](../../com.aspose.cells/threedformat\#getZ--)
+Defines the distance from ground for the 3D shape.
 
 **Parameters:**
 | Parameter | Type | Description |

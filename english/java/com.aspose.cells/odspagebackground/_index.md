@@ -24,22 +24,22 @@ Represents the page background of ods.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | the color of background. |
-| [getGraphicData()](#getGraphicData--) | the graphic data. |
-| [getGraphicPositionType()](#getGraphicPositionType--) | the background graphic position. |
-| [getGraphicType()](#getGraphicType--) | the page background graphic type. |
-| [getLinkedGraphic()](#getLinkedGraphic--) | the linked graphic path. |
-| [getType()](#getType--) | the page background type. |
+| [getColor()](#getColor--) | Gets the color of background. |
+| [getGraphicData()](#getGraphicData--) | Gets the graphic data. |
+| [getGraphicPositionType()](#getGraphicPositionType--) | Gets the background graphic position. |
+| [getGraphicType()](#getGraphicType--) | Gets the page background graphic type. |
+| [getLinkedGraphic()](#getLinkedGraphic--) | Gets the linked graphic path. |
+| [getType()](#getType--) | Gets the page background type. |
 | [hashCode()](#hashCode--) |  |
 | [isLink()](#isLink--) | Indicates whether it's a linked graphic. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/odspagebackground\#getColor--) |
-| [setGraphicData(byte[] value)](#setGraphicData-byte---) | For the description of this property, please see [getGraphicData()](../../com.aspose.cells/odspagebackground\#getGraphicData--) |
-| [setGraphicPositionType(int value)](#setGraphicPositionType-int-) | For the description of this property, please see [getGraphicPositionType()](../../com.aspose.cells/odspagebackground\#getGraphicPositionType--) |
-| [setGraphicType(int value)](#setGraphicType-int-) | For the description of this property, please see [getGraphicType()](../../com.aspose.cells/odspagebackground\#getGraphicType--) |
-| [setLinkedGraphic(String value)](#setLinkedGraphic-java.lang.String-) | For the description of this property, please see [getLinkedGraphic()](../../com.aspose.cells/odspagebackground\#getLinkedGraphic--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/odspagebackground\#getType--) |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets the color of background. |
+| [setGraphicData(byte[] value)](#setGraphicData-byte---) | Sets the graphic data. |
+| [setGraphicPositionType(int value)](#setGraphicPositionType-int-) | Sets the background graphic position. |
+| [setGraphicType(int value)](#setGraphicType-int-) | Sets the page background graphic type. |
+| [setLinkedGraphic(String value)](#setLinkedGraphic-java.lang.String-) | Sets the linked graphic path. |
+| [setType(int value)](#setType-int-) | Sets the page background type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -81,7 +81,7 @@ public Color getColor()
 ```
 
 
-the color of background.
+Gets the color of background.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -91,7 +91,7 @@ public byte[] getGraphicData()
 ```
 
 
-the graphic data.
+Gets the graphic data.
 
 **Returns:**
 byte[]
@@ -101,7 +101,7 @@ public int getGraphicPositionType()
 ```
 
 
-the background graphic position.
+Gets the background graphic position.
 
 **Returns:**
 int
@@ -111,7 +111,7 @@ public int getGraphicType()
 ```
 
 
-the page background graphic type.
+Gets the page background graphic type.
 
 **Returns:**
 int
@@ -121,7 +121,7 @@ public String getLinkedGraphic()
 ```
 
 
-the linked graphic path.
+Gets the linked graphic path.
 
 **Returns:**
 java.lang.String
@@ -131,7 +131,7 @@ public int getType()
 ```
 
 
-the page background type.
+Gets the page background type.
 
 **Returns:**
 int
@@ -177,7 +177,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/odspagebackground\#getColor--)
+Sets the color of background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -190,7 +190,7 @@ public void setGraphicData(byte[] value)
 ```
 
 
-For the description of this property, please see [getGraphicData()](../../com.aspose.cells/odspagebackground\#getGraphicData--)
+Sets the graphic data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -203,7 +203,7 @@ public void setGraphicPositionType(int value)
 ```
 
 
-For the description of this property, please see [getGraphicPositionType()](../../com.aspose.cells/odspagebackground\#getGraphicPositionType--)
+Sets the background graphic position.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setGraphicType(int value)
 ```
 
 
-For the description of this property, please see [getGraphicType()](../../com.aspose.cells/odspagebackground\#getGraphicType--)
+Sets the page background graphic type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setLinkedGraphic(String value)
 ```
 
 
-For the description of this property, please see [getLinkedGraphic()](../../com.aspose.cells/odspagebackground\#getLinkedGraphic--)
+Sets the linked graphic path.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/odspagebackground\#getType--)
+Sets the page background type.
 
 **Parameters:**
 | Parameter | Type | Description |

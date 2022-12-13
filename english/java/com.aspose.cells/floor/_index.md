@@ -66,11 +66,11 @@ Encapsulates the object that represents the floor of a 3-D chart.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackgroundColor()](#getBackgroundColor--) | the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
-| [getBorder()](#getBorder--) | the border [Line](../../com.aspose.cells/line). |
+| [getBackgroundColor()](#getBackgroundColor--) | Gets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
+| [getBorder()](#getBorder--) | Gets the border [Line](../../com.aspose.cells/line). |
 | [getClass()](#getClass--) |  |
 | [getFillFormat()](#getFillFormat--) | Represents a [getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified chart or shape. |
-| [getForegroundColor()](#getForegroundColor--) | the foreground [Color](../../com.aspose.cells/color). |
+| [getForegroundColor()](#getForegroundColor--) | Gets the foreground [Color](../../com.aspose.cells/color). |
 | [getFormatting()](#getFormatting--) | Represents the formatting of the area. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
@@ -80,12 +80,12 @@ Encapsulates the object that represents the floor of a 3-D chart.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAuto(boolean isAuto)](#setAuto-boolean-) | Sets whether Microsoft Workbook automatically determines the area pattern. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/area\#getBackgroundColor--) |
-| [setBorder(Line value)](#setBorder-com.aspose.cells.Line-) | For the description of this property, please see [getBorder()](../../com.aspose.cells/floor\#getBorder--) |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/area\#getForegroundColor--) |
-| [setFormatting(int value)](#setFormatting-int-) | For the description of this property, please see [getFormatting()](../../com.aspose.cells/area\#getFormatting--) |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | For the description of this property, please see [getInvertIfNegative()](../../com.aspose.cells/area\#getInvertIfNegative--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/area\#getTransparency--) |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
+| [setBorder(Line value)](#setBorder-com.aspose.cells.Line-) | Sets the border [Line](../../com.aspose.cells/line). |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Sets the foreground [Color](../../com.aspose.cells/color). |
+| [setFormatting(int value)](#setFormatting-int-) | Represents the formatting of the area. |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
+| [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -111,7 +111,7 @@ public Color getBackgroundColor()
 ```
 
 
-the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
+Gets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -121,7 +121,7 @@ public Line getBorder()
 ```
 
 
-the border [Line](../../com.aspose.cells/line).
+Gets the border [Line](../../com.aspose.cells/line).
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
@@ -151,7 +151,7 @@ public Color getForegroundColor()
 ```
 
 
-the foreground [Color](../../com.aspose.cells/color).
+Gets the foreground [Color](../../com.aspose.cells/color).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -279,7 +279,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/area\#getBackgroundColor--)
+Sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -292,7 +292,7 @@ public void setBorder(Line value)
 ```
 
 
-For the description of this property, please see [getBorder()](../../com.aspose.cells/floor\#getBorder--)
+Sets the border [Line](../../com.aspose.cells/line).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -305,7 +305,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/area\#getForegroundColor--)
+Sets the foreground [Color](../../com.aspose.cells/color).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -318,7 +318,7 @@ public void setFormatting(int value)
 ```
 
 
-For the description of this property, please see [getFormatting()](../../com.aspose.cells/area\#getFormatting--)
+Represents the formatting of the area.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -331,7 +331,7 @@ public void setInvertIfNegative(boolean value)
 ```
 
 
-For the description of this property, please see [getInvertIfNegative()](../../com.aspose.cells/area\#getInvertIfNegative--)
+If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -344,7 +344,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/area\#getTransparency--)
+Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |

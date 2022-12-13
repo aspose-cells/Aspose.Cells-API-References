@@ -25,7 +25,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlternativeText()](#getAlternativeText--) |  |
 | [getBorderLineColor()](#getBorderLineColor--) | Represents the [Color](../../com.aspose.cells/color) of the border line of a picture. |
-| [getBorderWeight()](#getBorderWeight--) | the weight of the border line of a picture in units of pt. |
+| [getBorderWeight()](#getBorderWeight--) | Gets the weight of the border line of a picture in units of pt. |
 | [getBottom()](#getBottom--) |  |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | Gets the data of the picture. |
@@ -33,20 +33,20 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [getHeightCM()](#getHeightCM--) | Represents the height of the shape, in unit of inches. |
 | [getHeightInch()](#getHeightInch--) | Represents the height of the shape, in unit of inches. |
 | [getHeightPt()](#getHeightPt--) | Represents the height of the shape, in unit of points. |
-| [getHeightScale()](#getHeightScale--) | the height scale,in unit of percent of the original picture height. |
-| [getHtmlText()](#getHtmlText--) | the html string which contains data and some formattings in this textbox. |
+| [getHeightScale()](#getHeightScale--) | Gets the height scale,in unit of percent of the original picture height. |
+| [getHtmlText()](#getHtmlText--) | Gets the html string which contains data and some formattings in this textbox. |
 | [getHyperlink()](#getHyperlink--) | Gets the hyperlink of the shape. |
-| [getID()](#getID--) | the ID of the picture. |
+| [getID()](#getID--) | Gets /Sets the ID of the picture. |
 | [getImageFormat()](#getImageFormat--) | Gets the image format of the picture. |
 | [getLeft()](#getLeft--) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [getLeftCM()](#getLeftCM--) | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
 | [getLeftInch()](#getLeftInch--) | Represents the horizontal offset of shape from its left column, in unit of inches. |
-| [getLinkedCell()](#getLinkedCell--) | the worksheet range linked to the control's value. |
-| [getLowerDeltaX()](#getLowerDeltaX--) | the shape's horizontal offset from its lower right corner column. |
-| [getLowerDeltaY()](#getLowerDeltaY--) | the shape's vertical offset from its lower right corner row. |
+| [getLinkedCell()](#getLinkedCell--) | Gets the worksheet range linked to the control's value. |
+| [getLowerDeltaX()](#getLowerDeltaX--) | Gets the shape's horizontal offset from its lower right corner column. |
+| [getLowerDeltaY()](#getLowerDeltaY--) | Gets the shape's vertical offset from its lower right corner row. |
 | [getLowerRightColumn()](#getLowerRightColumn--) | Represents lower right corner column index. |
 | [getLowerRightRow()](#getLowerRightRow--) | Represents lower right corner row index. |
-| [getName()](#getName--) | the name of the shape. |
+| [getName()](#getName--) | Gets the name of the shape. |
 | [getOriginalHeight()](#getOriginalHeight--) | Gets the original height of the picture. |
 | [getOriginalHeightCM()](#getOriginalHeightCM--) | Gets the original height of picture, in unit of centimeters. |
 | [getOriginalHeightInch()](#getOriginalHeightInch--) | Gets the original height of picture, in unit of inches. |
@@ -55,87 +55,87 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [getOriginalWidthInch()](#getOriginalWidthInch--) | Gets the original width of picture, in unit of inches. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--) | Indicates whether shape is relative to original picture size. |
 | [getRight()](#getRight--) | Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels. |
-| [getRotationAngle()](#getRotationAngle--) | the rotation of the shape. |
-| [getSourceFullName()](#getSourceFullName--) | the path and name of the source file for the linked image. |
+| [getRotationAngle()](#getRotationAngle--) | Gets the rotation of the shape. |
+| [getSourceFullName()](#getSourceFullName--) | Gets the path and name of the source file for the linked image. |
 | [getText()](#getText--) | Represents the string in this TextBox object. |
 | [getTitle()](#getTitle--) |  |
 | [getTop()](#getTop--) | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [getTopCM()](#getTopCM--) | Represents the vertical offset of shape from its top row, in unit of centimeters. |
 | [getTopInch()](#getTopInch--) | Represents the vertical offset of shape from its top row, in unit of inches. |
-| [getUpperDeltaX()](#getUpperDeltaX--) | the shape's horizontal offset from its upper left corner column. |
-| [getUpperDeltaY()](#getUpperDeltaY--) | the shape's vertical offset from its upper left corner row. |
+| [getUpperDeltaX()](#getUpperDeltaX--) | Gets the shape's horizontal offset from its upper left corner column. |
+| [getUpperDeltaY()](#getUpperDeltaY--) | Gets the shape's vertical offset from its upper left corner row. |
 | [getUpperLeftColumn()](#getUpperLeftColumn--) | Represents upper left corner column index. |
 | [getUpperLeftRow()](#getUpperLeftRow--) | Represents upper left corner row index. |
 | [getWidth()](#getWidth--) | Represents the width of shape, in unit of pixels. |
 | [getWidthCM()](#getWidthCM--) | Represents the width of the shape, in unit of centimeters. |
 | [getWidthInch()](#getWidthInch--) | Represents the width of the shape, in unit of inch. |
 | [getWidthPt()](#getWidthPt--) | Represents the width of the shape, in unit of point. |
-| [getWidthScale()](#getWidthScale--) | the width scale, in unit of percent of the original picture width. |
-| [getX()](#getX--) | the horizonal offset of shape from worksheet left border,in unit of pixels. |
-| [getY()](#getY--) | the vertical offset of shape from worksheet top border,in unit of pixels. |
+| [getWidthScale()](#getWidthScale--) | Gets the width scale, in unit of percent of the original picture width. |
+| [getX()](#getX--) | Gets the horizonal offset of shape from worksheet left border,in unit of pixels. |
+| [getY()](#getY--) | Gets the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [getZOrderPosition()](#getZOrderPosition--) | Returns the position of a shape in the z-order. |
-| [hasLine()](#hasLine--) | the line border of the shape is visible. |
+| [hasLine()](#hasLine--) | Gets the line border of the shape is visible. |
 | [hashCode()](#hashCode--) |  |
-| [isFlippedVertically()](#isFlippedVertically--) | whether shape is vertically flipped . |
+| [isFlippedVertically()](#isFlippedVertically--) | Gets whether shape is vertically flipped . |
 | [isGroup()](#isGroup--) | Indicates whether the shape is a group. |
 | [isHidden()](#isHidden--) | Indicates whether the object is visible. |
 | [isLockAspectRatio()](#isLockAspectRatio--) | True means that don't allow changes in aspect ratio. |
 | [isLocked()](#isLocked--) | True if the object is locked, False if the object can be modified when the sheet is protected. |
-| [isTextWrapped()](#isTextWrapped--) | the text wrapped type of the shape which contains text. |
+| [isTextWrapped()](#isTextWrapped--) | Gets the text wrapped type of the shape which contains text. |
 | [move(int upperLeftRow, int upperLeftColumn)](#move-int-int-) | Moves the picture to a specified location. |
 | [moveToRange(int param0_int, int param1_int, int param2_int, int param3_int)](#moveToRange-int-int-int-int-) | Moves the shape to a specified range. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeHyperlink()](#removeHyperlink--) | Remove the hyperlink of the shape. |
 | [saveToImage(InputStream s)](#saveToImage-java.io.InputStream-) | Creates the image and saves it to a stream . |
-| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | For the description of this property, please see [getAlternativeText()](../../com.aspose.gridweb/gridpicture\#getAlternativeText--) |
-| [setBorderLineColor(Color value)](#setBorderLineColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getBorderLineColor()](../../com.aspose.gridweb/gridpicture\#getBorderLineColor--) |
-| [setBorderWeight(double value)](#setBorderWeight-double-) | For the description of this property, please see [getBorderWeight()](../../com.aspose.gridweb/gridpicture\#getBorderWeight--) |
-| [setBottom(int value)](#setBottom-int-) | For the description of this property, please see [getBottom()](../../com.aspose.gridweb/gridpicture\#getBottom--) |
-| [setData(byte[] value)](#setData-byte---) | For the description of this property, please see [getData()](../../com.aspose.gridweb/gridpicture\#getData--) |
-| [setFlippedVertically(boolean value)](#setFlippedVertically-boolean-) | For the description of this property, please see [isFlippedVertically()](../../com.aspose.gridweb/gridpicture\#isFlippedVertically--) |
-| [setHasLine(boolean value)](#setHasLine-boolean-) | For the description of this property, please see [hasLine()](../../com.aspose.gridweb/gridpicture\#hasLine--) |
-| [setHeight(int value)](#setHeight-int-) | For the description of this property, please see [getHeight()](../../com.aspose.gridweb/gridpicture\#getHeight--) |
-| [setHeightCM(double value)](#setHeightCM-double-) | For the description of this property, please see [getHeightCM()](../../com.aspose.gridweb/gridpicture\#getHeightCM--) |
-| [setHeightInch(double value)](#setHeightInch-double-) | For the description of this property, please see [getHeightInch()](../../com.aspose.gridweb/gridpicture\#getHeightInch--) |
-| [setHeightPt(double value)](#setHeightPt-double-) | For the description of this property, please see [getHeightPt()](../../com.aspose.gridweb/gridpicture\#getHeightPt--) |
-| [setHeightScale(int value)](#setHeightScale-int-) | For the description of this property, please see [getHeightScale()](../../com.aspose.gridweb/gridpicture\#getHeightScale--) |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.gridweb/gridpicture\#isHidden--) |
-| [setHtmlText(String value)](#setHtmlText-java.lang.String-) | For the description of this property, please see [getHtmlText()](../../com.aspose.gridweb/gridpicture\#getHtmlText--) |
-| [setID(String value)](#setID-java.lang.String-) | For the description of this property, please see [getID()](../../com.aspose.gridweb/gridpicture\#getID--) |
-| [setLeft(int value)](#setLeft-int-) | For the description of this property, please see [getLeft()](../../com.aspose.gridweb/gridpicture\#getLeft--) |
-| [setLeftCM(double value)](#setLeftCM-double-) | For the description of this property, please see [getLeftCM()](../../com.aspose.gridweb/gridpicture\#getLeftCM--) |
-| [setLeftInch(double value)](#setLeftInch-double-) | For the description of this property, please see [getLeftInch()](../../com.aspose.gridweb/gridpicture\#getLeftInch--) |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see [getLinkedCell()](../../com.aspose.gridweb/gridpicture\#getLinkedCell--) |
-| [setLockAspectRatio(boolean value)](#setLockAspectRatio-boolean-) |  |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.gridweb/gridpicture\#isLocked--) |
-| [setLowerDeltaX(int value)](#setLowerDeltaX-int-) | For the description of this property, please see [getLowerDeltaX()](../../com.aspose.gridweb/gridpicture\#getLowerDeltaX--) |
-| [setLowerDeltaY(int value)](#setLowerDeltaY-int-) | For the description of this property, please see [getLowerDeltaY()](../../com.aspose.gridweb/gridpicture\#getLowerDeltaY--) |
-| [setLowerRightColumn(int value)](#setLowerRightColumn-int-) | For the description of this property, please see [getLowerRightColumn()](../../com.aspose.gridweb/gridpicture\#getLowerRightColumn--) |
-| [setLowerRightRow(int value)](#setLowerRightRow-int-) | For the description of this property, please see [getLowerRightRow()](../../com.aspose.gridweb/gridpicture\#getLowerRightRow--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.gridweb/gridpicture\#getName--) |
-| [setRelativeToOriginalPictureSize(boolean value)](#setRelativeToOriginalPictureSize-boolean-) | For the description of this property, please see [getRelativeToOriginalPictureSize()](../../com.aspose.gridweb/gridpicture\#getRelativeToOriginalPictureSize--) |
-| [setRight(int value)](#setRight-int-) | For the description of this property, please see [getRight()](../../com.aspose.gridweb/gridpicture\#getRight--) |
-| [setRotationAngle(double value)](#setRotationAngle-double-) | For the description of this property, please see [getRotationAngle()](../../com.aspose.gridweb/gridpicture\#getRotationAngle--) |
-| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | For the description of this property, please see [getSourceFullName()](../../com.aspose.gridweb/gridpicture\#getSourceFullName--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.gridweb/gridpicture\#getText--) |
-| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | For the description of this property, please see [isTextWrapped()](../../com.aspose.gridweb/gridpicture\#isTextWrapped--) |
-| [setTitle(String value)](#setTitle-java.lang.String-) | For the description of this property, please see [getTitle()](../../com.aspose.gridweb/gridpicture\#getTitle--) |
-| [setTop(int value)](#setTop-int-) | For the description of this property, please see [getTop()](../../com.aspose.gridweb/gridpicture\#getTop--) |
-| [setTopCM(double value)](#setTopCM-double-) | For the description of this property, please see [getTopCM()](../../com.aspose.gridweb/gridpicture\#getTopCM--) |
-| [setTopInch(double value)](#setTopInch-double-) | For the description of this property, please see [getTopInch()](../../com.aspose.gridweb/gridpicture\#getTopInch--) |
-| [setUpperDeltaX(int value)](#setUpperDeltaX-int-) | For the description of this property, please see [getUpperDeltaX()](../../com.aspose.gridweb/gridpicture\#getUpperDeltaX--) |
-| [setUpperDeltaY(int value)](#setUpperDeltaY-int-) | For the description of this property, please see [getUpperDeltaY()](../../com.aspose.gridweb/gridpicture\#getUpperDeltaY--) |
-| [setUpperLeftColumn(int value)](#setUpperLeftColumn-int-) | For the description of this property, please see [getUpperLeftColumn()](../../com.aspose.gridweb/gridpicture\#getUpperLeftColumn--) |
-| [setUpperLeftRow(int value)](#setUpperLeftRow-int-) | For the description of this property, please see [getUpperLeftRow()](../../com.aspose.gridweb/gridpicture\#getUpperLeftRow--) |
-| [setWidth(int value)](#setWidth-int-) | For the description of this property, please see [getWidth()](../../com.aspose.gridweb/gridpicture\#getWidth--) |
-| [setWidthCM(double value)](#setWidthCM-double-) | For the description of this property, please see [getWidthCM()](../../com.aspose.gridweb/gridpicture\#getWidthCM--) |
-| [setWidthInch(double value)](#setWidthInch-double-) | For the description of this property, please see [getWidthInch()](../../com.aspose.gridweb/gridpicture\#getWidthInch--) |
-| [setWidthPt(double value)](#setWidthPt-double-) | For the description of this property, please see [getWidthPt()](../../com.aspose.gridweb/gridpicture\#getWidthPt--) |
-| [setWidthScale(int value)](#setWidthScale-int-) | For the description of this property, please see [getWidthScale()](../../com.aspose.gridweb/gridpicture\#getWidthScale--) |
-| [setX(int value)](#setX-int-) | For the description of this property, please see [getX()](../../com.aspose.gridweb/gridpicture\#getX--) |
-| [setY(int value)](#setY-int-) | For the description of this property, please see [getY()](../../com.aspose.gridweb/gridpicture\#getY--) |
-| [setZOrderPosition(int value)](#setZOrderPosition-int-) | For the description of this property, please see [getZOrderPosition()](../../com.aspose.gridweb/gridpicture\#getZOrderPosition--) |
+| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) |  |
+| [setBorderLineColor(Color value)](#setBorderLineColor-com.aspose.gridweb.Color-) | Represents the [Color](../../com.aspose.cells/color) of the border line of a picture. |
+| [setBorderWeight(double value)](#setBorderWeight-double-) | Sets the weight of the border line of a picture in units of pt. |
+| [setBottom(int value)](#setBottom-int-) |  |
+| [setData(byte[] value)](#setData-byte---) | Gets the data of the picture. |
+| [setFlippedVertically(boolean value)](#setFlippedVertically-boolean-) | Sets whether shape is vertically flipped . |
+| [setHasLine(boolean value)](#setHasLine-boolean-) | Sets the line border of the shape is visible. |
+| [setHeight(int value)](#setHeight-int-) | Represents the height of shape, in unit of pixel. |
+| [setHeightCM(double value)](#setHeightCM-double-) | Represents the height of the shape, in unit of inches. |
+| [setHeightInch(double value)](#setHeightInch-double-) | Represents the height of the shape, in unit of inches. |
+| [setHeightPt(double value)](#setHeightPt-double-) | Represents the height of the shape, in unit of points. |
+| [setHeightScale(int value)](#setHeightScale-int-) | Sets the height scale,in unit of percent of the original picture height. |
+| [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the object is visible. |
+| [setHtmlText(String value)](#setHtmlText-java.lang.String-) | Sets the html string which contains data and some formattings in this textbox. |
+| [setID(String value)](#setID-java.lang.String-) | Gets /Sets the ID of the picture. |
+| [setLeft(int value)](#setLeft-int-) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
+| [setLeftCM(double value)](#setLeftCM-double-) | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
+| [setLeftInch(double value)](#setLeftInch-double-) | Represents the horizontal offset of shape from its left column, in unit of inches. |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the worksheet range linked to the control's value. |
+| [setLockAspectRatio(boolean value)](#setLockAspectRatio-boolean-) | True means that don't allow changes in aspect ratio. |
+| [setLocked(boolean value)](#setLocked-boolean-) | True if the object is locked, False if the object can be modified when the sheet is protected. |
+| [setLowerDeltaX(int value)](#setLowerDeltaX-int-) | Sets the shape's horizontal offset from its lower right corner column. |
+| [setLowerDeltaY(int value)](#setLowerDeltaY-int-) | Sets the shape's vertical offset from its lower right corner row. |
+| [setLowerRightColumn(int value)](#setLowerRightColumn-int-) | Represents lower right corner column index. |
+| [setLowerRightRow(int value)](#setLowerRightRow-int-) | Represents lower right corner row index. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the shape. |
+| [setRelativeToOriginalPictureSize(boolean value)](#setRelativeToOriginalPictureSize-boolean-) | Indicates whether shape is relative to original picture size. |
+| [setRight(int value)](#setRight-int-) | Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels. |
+| [setRotationAngle(double value)](#setRotationAngle-double-) | Sets the rotation of the shape. |
+| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Sets the path and name of the source file for the linked image. |
+| [setText(String value)](#setText-java.lang.String-) | Represents the string in this TextBox object. |
+| [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Sets the text wrapped type of the shape which contains text. |
+| [setTitle(String value)](#setTitle-java.lang.String-) |  |
+| [setTop(int value)](#setTop-int-) | Represents the vertical offset of shape from its top row, in unit of pixels. |
+| [setTopCM(double value)](#setTopCM-double-) | Represents the vertical offset of shape from its top row, in unit of centimeters. |
+| [setTopInch(double value)](#setTopInch-double-) | Represents the vertical offset of shape from its top row, in unit of inches. |
+| [setUpperDeltaX(int value)](#setUpperDeltaX-int-) | Sets the shape's horizontal offset from its upper left corner column. |
+| [setUpperDeltaY(int value)](#setUpperDeltaY-int-) | Sets the shape's vertical offset from its upper left corner row. |
+| [setUpperLeftColumn(int value)](#setUpperLeftColumn-int-) | Represents upper left corner column index. |
+| [setUpperLeftRow(int value)](#setUpperLeftRow-int-) | Represents upper left corner row index. |
+| [setWidth(int value)](#setWidth-int-) | Represents the width of shape, in unit of pixels. |
+| [setWidthCM(double value)](#setWidthCM-double-) | Represents the width of the shape, in unit of centimeters. |
+| [setWidthInch(double value)](#setWidthInch-double-) | Represents the width of the shape, in unit of inch. |
+| [setWidthPt(double value)](#setWidthPt-double-) | Represents the width of the shape, in unit of point. |
+| [setWidthScale(int value)](#setWidthScale-int-) | Sets the width scale, in unit of percent of the original picture width. |
+| [setX(int value)](#setX-int-) | Sets the horizonal offset of shape from worksheet left border,in unit of pixels. |
+| [setY(int value)](#setY-int-) | Sets the vertical offset of shape from worksheet top border,in unit of pixels. |
+| [setZOrderPosition(int value)](#setZOrderPosition-int-) | Returns the position of a shape in the z-order. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -210,7 +210,7 @@ public double getBorderWeight()
 ```
 
 
-the weight of the border line of a picture in units of pt.
+Gets the weight of the border line of a picture in units of pt.
 
 **Returns:**
 double
@@ -290,7 +290,7 @@ public int getHeightScale()
 ```
 
 
-the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
+Gets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
 
 **Returns:**
 int
@@ -300,7 +300,7 @@ public String getHtmlText()
 ```
 
 
-the html string which contains data and some formattings in this textbox.
+Gets the html string which contains data and some formattings in this textbox.
 
 **Returns:**
 java.lang.String
@@ -320,7 +320,7 @@ public String getID()
 ```
 
 
-the ID of the picture.
+Gets /Sets the ID of the picture.
 
 **Returns:**
 java.lang.String
@@ -370,7 +370,7 @@ public String getLinkedCell()
 ```
 
 
-the worksheet range linked to the control's value.
+Gets the worksheet range linked to the control's value.
 
 **Returns:**
 java.lang.String
@@ -380,7 +380,7 @@ public int getLowerDeltaX()
 ```
 
 
-the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
+Gets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
 
 **Returns:**
 int
@@ -390,7 +390,7 @@ public int getLowerDeltaY()
 ```
 
 
-the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
+Gets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
 
 **Returns:**
 int
@@ -420,7 +420,7 @@ public String getName()
 ```
 
 
-the name of the shape.
+Gets the name of the shape.
 
 **Returns:**
 java.lang.String
@@ -510,7 +510,7 @@ public double getRotationAngle()
 ```
 
 
-the rotation of the shape.
+Gets the rotation of the shape.
 
 **Returns:**
 double
@@ -520,7 +520,7 @@ public String getSourceFullName()
 ```
 
 
-the path and name of the source file for the linked image. The default value is an empty string. If SourceFullName is not an empty string, the image is linked. If SourceFullName is not an empty string, but Data is null, then the image is linked and not stored in the file.
+Gets the path and name of the source file for the linked image. The default value is an empty string. If SourceFullName is not an empty string, the image is linked. If SourceFullName is not an empty string, but Data is null, then the image is linked and not stored in the file.
 
 **Returns:**
 java.lang.String
@@ -580,7 +580,7 @@ public int getUpperDeltaX()
 ```
 
 
-the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
+Gets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
 
 **Returns:**
 int
@@ -590,7 +590,7 @@ public int getUpperDeltaY()
 ```
 
 
-the shape's vertical offset from its upper left corner row. The range of value is 0 to 256.
+Gets the shape's vertical offset from its upper left corner row. The range of value is 0 to 256.
 
 **Returns:**
 int
@@ -660,7 +660,7 @@ public int getWidthScale()
 ```
 
 
-the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
+Gets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
 
 **Returns:**
 int
@@ -670,7 +670,7 @@ public int getX()
 ```
 
 
-the horizonal offset of shape from worksheet left border,in unit of pixels.
+Gets the horizonal offset of shape from worksheet left border,in unit of pixels.
 
 **Returns:**
 int
@@ -680,7 +680,7 @@ public int getY()
 ```
 
 
-the vertical offset of shape from worksheet top border,in unit of pixels.
+Gets the vertical offset of shape from worksheet top border,in unit of pixels.
 
 **Returns:**
 int
@@ -700,7 +700,7 @@ public boolean hasLine()
 ```
 
 
-the line border of the shape is visible.
+Gets the line border of the shape is visible.
 
 **Returns:**
 boolean
@@ -720,7 +720,7 @@ public boolean isFlippedVertically()
 ```
 
 
-whether shape is vertically flipped .
+Gets whether shape is vertically flipped .
 
 **Returns:**
 boolean
@@ -770,7 +770,7 @@ public boolean isTextWrapped()
 ```
 
 
-the text wrapped type of the shape which contains text.
+Gets the text wrapped type of the shape which contains text.
 
 **Returns:**
 boolean
@@ -847,7 +847,7 @@ public void setAlternativeText(String value)
 ```
 
 
-For the description of this property, please see [getAlternativeText()](../../com.aspose.gridweb/gridpicture\#getAlternativeText--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -860,7 +860,7 @@ public void setBorderLineColor(Color value)
 ```
 
 
-For the description of this property, please see [getBorderLineColor()](../../com.aspose.gridweb/gridpicture\#getBorderLineColor--)
+Represents the [Color](../../com.aspose.cells/color) of the border line of a picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -873,7 +873,7 @@ public void setBorderWeight(double value)
 ```
 
 
-For the description of this property, please see [getBorderWeight()](../../com.aspose.gridweb/gridpicture\#getBorderWeight--)
+Sets the weight of the border line of a picture in units of pt.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -886,7 +886,7 @@ public void setBottom(int value)
 ```
 
 
-For the description of this property, please see [getBottom()](../../com.aspose.gridweb/gridpicture\#getBottom--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -899,7 +899,7 @@ public void setData(byte[] value)
 ```
 
 
-For the description of this property, please see [getData()](../../com.aspose.gridweb/gridpicture\#getData--)
+Gets the data of the picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -912,7 +912,7 @@ public void setFlippedVertically(boolean value)
 ```
 
 
-For the description of this property, please see [isFlippedVertically()](../../com.aspose.gridweb/gridpicture\#isFlippedVertically--)
+Sets whether shape is vertically flipped .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -925,7 +925,7 @@ public void setHasLine(boolean value)
 ```
 
 
-For the description of this property, please see [hasLine()](../../com.aspose.gridweb/gridpicture\#hasLine--)
+Sets the line border of the shape is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -938,7 +938,7 @@ public void setHeight(int value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.gridweb/gridpicture\#getHeight--)
+Represents the height of shape, in unit of pixel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -951,7 +951,7 @@ public void setHeightCM(double value)
 ```
 
 
-For the description of this property, please see [getHeightCM()](../../com.aspose.gridweb/gridpicture\#getHeightCM--)
+Represents the height of the shape, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -964,7 +964,7 @@ public void setHeightInch(double value)
 ```
 
 
-For the description of this property, please see [getHeightInch()](../../com.aspose.gridweb/gridpicture\#getHeightInch--)
+Represents the height of the shape, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -977,7 +977,7 @@ public void setHeightPt(double value)
 ```
 
 
-For the description of this property, please see [getHeightPt()](../../com.aspose.gridweb/gridpicture\#getHeightPt--)
+Represents the height of the shape, in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -990,7 +990,7 @@ public void setHeightScale(int value)
 ```
 
 
-For the description of this property, please see [getHeightScale()](../../com.aspose.gridweb/gridpicture\#getHeightScale--)
+Sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1003,7 +1003,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see [isHidden()](../../com.aspose.gridweb/gridpicture\#isHidden--)
+Indicates whether the object is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1016,7 +1016,7 @@ public void setHtmlText(String value)
 ```
 
 
-For the description of this property, please see [getHtmlText()](../../com.aspose.gridweb/gridpicture\#getHtmlText--)
+Sets the html string which contains data and some formattings in this textbox.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1029,7 +1029,7 @@ public void setID(String value)
 ```
 
 
-For the description of this property, please see [getID()](../../com.aspose.gridweb/gridpicture\#getID--)
+Gets /Sets the ID of the picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1042,7 +1042,7 @@ public void setLeft(int value)
 ```
 
 
-For the description of this property, please see [getLeft()](../../com.aspose.gridweb/gridpicture\#getLeft--)
+Represents the horizontal offset of shape from its left column, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1055,7 +1055,7 @@ public void setLeftCM(double value)
 ```
 
 
-For the description of this property, please see [getLeftCM()](../../com.aspose.gridweb/gridpicture\#getLeftCM--)
+Represents the horizontal offset of shape from its left column, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1068,7 +1068,7 @@ public void setLeftInch(double value)
 ```
 
 
-For the description of this property, please see [getLeftInch()](../../com.aspose.gridweb/gridpicture\#getLeftInch--)
+Represents the horizontal offset of shape from its left column, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1081,7 +1081,7 @@ public void setLinkedCell(String value)
 ```
 
 
-For the description of this property, please see [getLinkedCell()](../../com.aspose.gridweb/gridpicture\#getLinkedCell--)
+Sets the worksheet range linked to the control's value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1094,7 +1094,7 @@ public void setLockAspectRatio(boolean value)
 ```
 
 
-
+True means that don't allow changes in aspect ratio.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1107,7 +1107,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.gridweb/gridpicture\#isLocked--)
+True if the object is locked, False if the object can be modified when the sheet is protected.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1120,7 +1120,7 @@ public void setLowerDeltaX(int value)
 ```
 
 
-For the description of this property, please see [getLowerDeltaX()](../../com.aspose.gridweb/gridpicture\#getLowerDeltaX--)
+Sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1133,7 +1133,7 @@ public void setLowerDeltaY(int value)
 ```
 
 
-For the description of this property, please see [getLowerDeltaY()](../../com.aspose.gridweb/gridpicture\#getLowerDeltaY--)
+Sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1146,7 +1146,7 @@ public void setLowerRightColumn(int value)
 ```
 
 
-For the description of this property, please see [getLowerRightColumn()](../../com.aspose.gridweb/gridpicture\#getLowerRightColumn--)
+Represents lower right corner column index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1159,7 +1159,7 @@ public void setLowerRightRow(int value)
 ```
 
 
-For the description of this property, please see [getLowerRightRow()](../../com.aspose.gridweb/gridpicture\#getLowerRightRow--)
+Represents lower right corner row index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1172,7 +1172,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.gridweb/gridpicture\#getName--)
+Sets the name of the shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1185,7 +1185,7 @@ public void setRelativeToOriginalPictureSize(boolean value)
 ```
 
 
-For the description of this property, please see [getRelativeToOriginalPictureSize()](../../com.aspose.gridweb/gridpicture\#getRelativeToOriginalPictureSize--)
+Indicates whether shape is relative to original picture size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1198,7 +1198,7 @@ public void setRight(int value)
 ```
 
 
-For the description of this property, please see [getRight()](../../com.aspose.gridweb/gridpicture\#getRight--)
+Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1211,7 +1211,7 @@ public void setRotationAngle(double value)
 ```
 
 
-For the description of this property, please see [getRotationAngle()](../../com.aspose.gridweb/gridpicture\#getRotationAngle--)
+Sets the rotation of the shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1224,7 +1224,7 @@ public void setSourceFullName(String value)
 ```
 
 
-For the description of this property, please see [getSourceFullName()](../../com.aspose.gridweb/gridpicture\#getSourceFullName--)
+Sets the path and name of the source file for the linked image. The default value is an empty string. If SourceFullName is not an empty string, the image is linked. If SourceFullName is not an empty string, but Data is null, then the image is linked and not stored in the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1237,7 +1237,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.gridweb/gridpicture\#getText--)
+Represents the string in this TextBox object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1250,7 +1250,7 @@ public void setTextWrapped(boolean value)
 ```
 
 
-For the description of this property, please see [isTextWrapped()](../../com.aspose.gridweb/gridpicture\#isTextWrapped--)
+Sets the text wrapped type of the shape which contains text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1263,7 +1263,7 @@ public void setTitle(String value)
 ```
 
 
-For the description of this property, please see [getTitle()](../../com.aspose.gridweb/gridpicture\#getTitle--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1276,7 +1276,7 @@ public void setTop(int value)
 ```
 
 
-For the description of this property, please see [getTop()](../../com.aspose.gridweb/gridpicture\#getTop--)
+Represents the vertical offset of shape from its top row, in unit of pixels. If the shape is in the chart, represents the vertical offset of shape from its top border.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1289,7 +1289,7 @@ public void setTopCM(double value)
 ```
 
 
-For the description of this property, please see [getTopCM()](../../com.aspose.gridweb/gridpicture\#getTopCM--)
+Represents the vertical offset of shape from its top row, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1302,7 +1302,7 @@ public void setTopInch(double value)
 ```
 
 
-For the description of this property, please see [getTopInch()](../../com.aspose.gridweb/gridpicture\#getTopInch--)
+Represents the vertical offset of shape from its top row, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1315,7 +1315,7 @@ public void setUpperDeltaX(int value)
 ```
 
 
-For the description of this property, please see [getUpperDeltaX()](../../com.aspose.gridweb/gridpicture\#getUpperDeltaX--)
+Sets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1328,7 +1328,7 @@ public void setUpperDeltaY(int value)
 ```
 
 
-For the description of this property, please see [getUpperDeltaY()](../../com.aspose.gridweb/gridpicture\#getUpperDeltaY--)
+Sets the shape's vertical offset from its upper left corner row. The range of value is 0 to 256.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1341,7 +1341,7 @@ public void setUpperLeftColumn(int value)
 ```
 
 
-For the description of this property, please see [getUpperLeftColumn()](../../com.aspose.gridweb/gridpicture\#getUpperLeftColumn--)
+Represents upper left corner column index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1354,7 +1354,7 @@ public void setUpperLeftRow(int value)
 ```
 
 
-For the description of this property, please see [getUpperLeftRow()](../../com.aspose.gridweb/gridpicture\#getUpperLeftRow--)
+Represents upper left corner row index. If the shape is in the shape or in the group , UpperLeftRow will be ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1367,7 +1367,7 @@ public void setWidth(int value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.gridweb/gridpicture\#getWidth--)
+Represents the width of shape, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1380,7 +1380,7 @@ public void setWidthCM(double value)
 ```
 
 
-For the description of this property, please see [getWidthCM()](../../com.aspose.gridweb/gridpicture\#getWidthCM--)
+Represents the width of the shape, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1393,7 +1393,7 @@ public void setWidthInch(double value)
 ```
 
 
-For the description of this property, please see [getWidthInch()](../../com.aspose.gridweb/gridpicture\#getWidthInch--)
+Represents the width of the shape, in unit of inch.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1406,7 +1406,7 @@ public void setWidthPt(double value)
 ```
 
 
-For the description of this property, please see [getWidthPt()](../../com.aspose.gridweb/gridpicture\#getWidthPt--)
+Represents the width of the shape, in unit of point.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1419,7 +1419,7 @@ public void setWidthScale(int value)
 ```
 
 
-For the description of this property, please see [getWidthScale()](../../com.aspose.gridweb/gridpicture\#getWidthScale--)
+Sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1432,7 +1432,7 @@ public void setX(int value)
 ```
 
 
-For the description of this property, please see [getX()](../../com.aspose.gridweb/gridpicture\#getX--)
+Sets the horizonal offset of shape from worksheet left border,in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1445,7 +1445,7 @@ public void setY(int value)
 ```
 
 
-For the description of this property, please see [getY()](../../com.aspose.gridweb/gridpicture\#getY--)
+Sets the vertical offset of shape from worksheet top border,in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1458,7 +1458,7 @@ public void setZOrderPosition(int value)
 ```
 
 
-For the description of this property, please see [getZOrderPosition()](../../com.aspose.gridweb/gridpicture\#getZOrderPosition--)
+Returns the position of a shape in the z-order.
 
 **Parameters:**
 | Parameter | Type | Description |

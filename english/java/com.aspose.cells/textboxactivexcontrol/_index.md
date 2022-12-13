@@ -18,35 +18,35 @@ Represents a text box ActiveX control.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
-| [getBorderOleColor()](#getBorderOleColor--) | the ole color of the background. |
-| [getBorderStyle()](#getBorderStyle--) | the type of border used by the control. |
+| [getBackOleColor()](#getBackOleColor--) | Gets the ole color of the background. |
+| [getBorderOleColor()](#getBorderOleColor--) | Gets the ole color of the background. |
+| [getBorderStyle()](#getBorderStyle--) | Gets the type of border used by the control. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | the binary data of the control. |
+| [getData()](#getData--) | Gets the binary data of the control. |
 | [getDropButtonStyle()](#getDropButtonStyle--) | Specifies the symbol displayed on the drop button |
 | [getEnterFieldBehavior()](#getEnterFieldBehavior--) | Specifies selection behavior when entering the control. |
 | [getEnterKeyBehavior()](#getEnterKeyBehavior--) | Specifies the behavior of the ENTER key. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
-| [getHeight()](#getHeight--) | the height of the control in unit of points. |
+| [getForeOleColor()](#getForeOleColor--) | Gets the ole color of the foreground. |
+| [getHeight()](#getHeight--) | Gets the height of the control in unit of points. |
 | [getHideSelection()](#getHideSelection--) | Indicates whether selected text in the control appears highlighted when the control does not have focus. |
-| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getIMEMode()](#getIMEMode--) | Gets the default run-time mode of the Input Method Editor for the control as it receives focus. |
 | [getIntegralHeight()](#getIntegralHeight--) | Indicates whether the control will only show complete lines of text without showing any partial lines. |
-| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
-| [getListFillRange()](#getListFillRange--) | the list fill range. |
-| [getMaxLength()](#getMaxLength--) | the maximum number of characters |
-| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
-| [getPasswordChar()](#getPasswordChar--) | a character to be displayed in place of the characters entered. |
+| [getLinkedCell()](#getLinkedCell--) | Gets the linked cell. |
+| [getListFillRange()](#getListFillRange--) | Gets the list fill range. |
+| [getMaxLength()](#getMaxLength--) | Gets the maximum number of characters |
+| [getMouseIcon()](#getMouseIcon--) | Gets a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | Gets the type of icon displayed as the mouse pointer for the control. |
+| [getPasswordChar()](#getPasswordChar--) | Gets a character to be displayed in place of the characters entered. |
 | [getScrollBars()](#getScrollBars--) | Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
 | [getShowDropButtonTypeWhen()](#getShowDropButtonTypeWhen--) | Specifies the symbol displayed on the drop button |
-| [getSpecialEffect()](#getSpecialEffect--) | the special effect of the control. |
+| [getSpecialEffect()](#getSpecialEffect--) | Gets the special effect of the control. |
 | [getTabKeyBehavior()](#getTabKeyBehavior--) | Indicates whether tab characters are allowed in the text of the control. |
-| [getText()](#getText--) | text of the control. |
+| [getText()](#getText--) | Gets text of the control. |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getWidth()](#getWidth--) | the width of the control in unit of points. |
+| [getWidth()](#getWidth--) | Gets the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -62,42 +62,42 @@ Represents a text box ActiveX control.
 | [isWordWrapped()](#isWordWrapped--) | Indicates whether the contents of the control automatically wrap at the end of a line. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--) |
-| [setAutoTab(boolean value)](#setAutoTab-boolean-) | For the description of this property, please see [isAutoTab()](../../com.aspose.cells/textboxactivexcontrol\#isAutoTab--) |
-| [setAutoWordSelected(boolean value)](#setAutoWordSelected-boolean-) | For the description of this property, please see [isAutoWordSelected()](../../com.aspose.cells/textboxactivexcontrol\#isAutoWordSelected--) |
-| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
-| [setBorderOleColor(int value)](#setBorderOleColor-int-) | For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/textboxactivexcontrol\#getBorderOleColor--) |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/textboxactivexcontrol\#getBorderStyle--) |
-| [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | For the description of this property, please see [isDragBehaviorEnabled()](../../com.aspose.cells/textboxactivexcontrol\#isDragBehaviorEnabled--) |
-| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | For the description of this property, please see [getDropButtonStyle()](../../com.aspose.cells/textboxactivexcontrol\#getDropButtonStyle--) |
-| [setEditable(boolean value)](#setEditable-boolean-) | For the description of this property, please see [isEditable()](../../com.aspose.cells/textboxactivexcontrol\#isEditable--) |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--) |
-| [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | For the description of this property, please see [getEnterFieldBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getEnterFieldBehavior--) |
-| [setEnterKeyBehavior(boolean value)](#setEnterKeyBehavior-boolean-) | For the description of this property, please see [getEnterKeyBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getEnterKeyBehavior--) |
-| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
-| [setHideSelection(boolean value)](#setHideSelection-boolean-) | For the description of this property, please see [getHideSelection()](../../com.aspose.cells/textboxactivexcontrol\#getHideSelection--) |
-| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--) |
-| [setIntegralHeight(boolean value)](#setIntegralHeight-boolean-) | For the description of this property, please see [getIntegralHeight()](../../com.aspose.cells/textboxactivexcontrol\#getIntegralHeight--) |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--) |
-| [setMaxLength(int value)](#setMaxLength-int-) | For the description of this property, please see [getMaxLength()](../../com.aspose.cells/textboxactivexcontrol\#getMaxLength--) |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
-| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
-| [setMultiLine(boolean value)](#setMultiLine-boolean-) | For the description of this property, please see [isMultiLine()](../../com.aspose.cells/textboxactivexcontrol\#isMultiLine--) |
-| [setPasswordChar(char value)](#setPasswordChar-char-) | For the description of this property, please see [getPasswordChar()](../../com.aspose.cells/textboxactivexcontrol\#getPasswordChar--) |
-| [setScrollBars(int value)](#setScrollBars-int-) | For the description of this property, please see [getScrollBars()](../../com.aspose.cells/textboxactivexcontrol\#getScrollBars--) |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
-| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | For the description of this property, please see [getShowDropButtonTypeWhen()](../../com.aspose.cells/textboxactivexcontrol\#getShowDropButtonTypeWhen--) |
-| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/textboxactivexcontrol\#getSpecialEffect--) |
-| [setTabKeyBehavior(boolean value)](#setTabKeyBehavior-boolean-) | For the description of this property, please see [getTabKeyBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getTabKeyBehavior--) |
-| [setText(String value)](#setText-java.lang.String-) | For the description of this property, please see [getText()](../../com.aspose.cells/textboxactivexcontrol\#getText--) |
-| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--) |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
-| [setWordWrapped(boolean value)](#setWordWrapped-boolean-) | For the description of this property, please see [isWordWrapped()](../../com.aspose.cells/textboxactivexcontrol\#isWordWrapped--) |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates whether the control will automatically resize to display its entire contents. |
+| [setAutoTab(boolean value)](#setAutoTab-boolean-) | Indicates whether the focus will automatically move to the next control when the user enters the maximum number of characters. |
+| [setAutoWordSelected(boolean value)](#setAutoWordSelected-boolean-) | Specifies the basic unit used to extend a selection. |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | Sets the ole color of the background. |
+| [setBorderOleColor(int value)](#setBorderOleColor-int-) | Sets the ole color of the background. |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the type of border used by the control. |
+| [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | Indicates whether dragging and dropping is enabled for the control. |
+| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | Specifies the symbol displayed on the drop button |
+| [setEditable(boolean value)](#setEditable-boolean-) | Indicates whether the user can type into the control. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | Indicates whether the control can receive the focus and respond to user-generated events. |
+| [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | Specifies selection behavior when entering the control. |
+| [setEnterKeyBehavior(boolean value)](#setEnterKeyBehavior-boolean-) | Specifies the behavior of the ENTER key. |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | Sets the ole color of the foreground. |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the control in unit of points. |
+| [setHideSelection(boolean value)](#setHideSelection-boolean-) | Indicates whether selected text in the control appears highlighted when the control does not have focus. |
+| [setIMEMode(int value)](#setIMEMode-int-) | Sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [setIntegralHeight(boolean value)](#setIntegralHeight-boolean-) | Indicates whether the control will only show complete lines of text without showing any partial lines. |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the linked cell. |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | Sets the list fill range. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether data in the control is locked for editing. |
+| [setMaxLength(int value)](#setMaxLength-int-) | Sets the maximum number of characters |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | Sets a custom icon to display as the mouse pointer for the control. |
+| [setMousePointer(int value)](#setMousePointer-int-) | Sets the type of icon displayed as the mouse pointer for the control. |
+| [setMultiLine(boolean value)](#setMultiLine-boolean-) | Indicates whether the control can display more than one line of text. |
+| [setPasswordChar(char value)](#setPasswordChar-char-) | Sets a character to be displayed in place of the characters entered. |
+| [setScrollBars(int value)](#setScrollBars-int-) | Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
+| [setShadow(boolean value)](#setShadow-boolean-) | Indicates whether to show a shadow. |
+| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | Specifies the symbol displayed on the drop button |
+| [setSpecialEffect(int value)](#setSpecialEffect-int-) | Sets the special effect of the control. |
+| [setTabKeyBehavior(boolean value)](#setTabKeyBehavior-boolean-) | Indicates whether tab characters are allowed in the text of the control. |
+| [setText(String value)](#setText-java.lang.String-) | Sets text of the control. |
+| [setTextAlign(int value)](#setTextAlign-int-) | Represents how to align the text used by the control. |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | Indicates whether the control is transparent. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this control is visible. |
+| [setWidth(double value)](#setWidth-double-) | Sets the width of the control in unit of points. |
+| [setWordWrapped(boolean value)](#setWordWrapped-boolean-) | Indicates whether the contents of the control automatically wrap at the end of a line. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -123,7 +123,7 @@ public int getBackOleColor()
 ```
 
 
-the ole color of the background.
+Gets the ole color of the background.
 
 **Returns:**
 int
@@ -133,7 +133,7 @@ public int getBorderOleColor()
 ```
 
 
-the ole color of the background.
+Gets the ole color of the background.
 
 **Returns:**
 int
@@ -143,7 +143,7 @@ public int getBorderStyle()
 ```
 
 
-the type of border used by the control.
+Gets the type of border used by the control.
 
 **Returns:**
 int
@@ -163,7 +163,7 @@ public byte[] getData()
 ```
 
 
-the binary data of the control.
+Gets the binary data of the control.
 
 **Returns:**
 byte[]
@@ -213,7 +213,7 @@ public int getForeOleColor()
 ```
 
 
-the ole color of the foreground. Not applies to Image control.
+Gets the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -223,7 +223,7 @@ public double getHeight()
 ```
 
 
-the height of the control in unit of points.
+Gets the height of the control in unit of points.
 
 **Returns:**
 double
@@ -243,7 +243,7 @@ public int getIMEMode()
 ```
 
 
-the default run-time mode of the Input Method Editor for the control as it receives focus.
+Gets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -263,7 +263,7 @@ public String getLinkedCell()
 ```
 
 
-the linked cell.
+Gets the linked cell.
 
 **Returns:**
 java.lang.String
@@ -273,7 +273,7 @@ public String getListFillRange()
 ```
 
 
-the list fill range.
+Gets the list fill range.
 
 **Returns:**
 java.lang.String
@@ -283,7 +283,7 @@ public int getMaxLength()
 ```
 
 
-the maximum number of characters
+Gets the maximum number of characters
 
 **Returns:**
 int
@@ -293,7 +293,7 @@ public byte[] getMouseIcon()
 ```
 
 
-a custom icon to display as the mouse pointer for the control.
+Gets a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -303,7 +303,7 @@ public int getMousePointer()
 ```
 
 
-the type of icon displayed as the mouse pointer for the control.
+Gets the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -313,7 +313,7 @@ public char getPasswordChar()
 ```
 
 
-a character to be displayed in place of the characters entered.
+Gets a character to be displayed in place of the characters entered.
 
 **Returns:**
 char
@@ -353,7 +353,7 @@ public int getSpecialEffect()
 ```
 
 
-the special effect of the control.
+Gets the special effect of the control.
 
 **Returns:**
 int
@@ -373,7 +373,7 @@ public String getText()
 ```
 
 
-text of the control.
+Gets text of the control.
 
 **Returns:**
 java.lang.String
@@ -403,7 +403,7 @@ public double getWidth()
 ```
 
 
-the width of the control in unit of points.
+Gets the width of the control in unit of points.
 
 **Returns:**
 double
@@ -559,7 +559,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--)
+Indicates whether the control will automatically resize to display its entire contents.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -572,7 +572,7 @@ public void setAutoTab(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoTab()](../../com.aspose.cells/textboxactivexcontrol\#isAutoTab--)
+Indicates whether the focus will automatically move to the next control when the user enters the maximum number of characters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -585,7 +585,7 @@ public void setAutoWordSelected(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoWordSelected()](../../com.aspose.cells/textboxactivexcontrol\#isAutoWordSelected--)
+Specifies the basic unit used to extend a selection. True specifies that the basic unit is a single character. false specifies that the basic unit is a whole word.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -598,7 +598,7 @@ public void setBackOleColor(int value)
 ```
 
 
-For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
+Sets the ole color of the background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -611,7 +611,7 @@ public void setBorderOleColor(int value)
 ```
 
 
-For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/textboxactivexcontrol\#getBorderOleColor--)
+Sets the ole color of the background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -624,7 +624,7 @@ public void setBorderStyle(int value)
 ```
 
 
-For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/textboxactivexcontrol\#getBorderStyle--)
+Sets the type of border used by the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -637,7 +637,7 @@ public void setDragBehaviorEnabled(boolean value)
 ```
 
 
-For the description of this property, please see [isDragBehaviorEnabled()](../../com.aspose.cells/textboxactivexcontrol\#isDragBehaviorEnabled--)
+Indicates whether dragging and dropping is enabled for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -650,7 +650,7 @@ public void setDropButtonStyle(int value)
 ```
 
 
-For the description of this property, please see [getDropButtonStyle()](../../com.aspose.cells/textboxactivexcontrol\#getDropButtonStyle--)
+Specifies the symbol displayed on the drop button
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -663,7 +663,7 @@ public void setEditable(boolean value)
 ```
 
 
-For the description of this property, please see [isEditable()](../../com.aspose.cells/textboxactivexcontrol\#isEditable--)
+Indicates whether the user can type into the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -676,7 +676,7 @@ public void setEnabled(boolean value)
 ```
 
 
-For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--)
+Indicates whether the control can receive the focus and respond to user-generated events.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -689,7 +689,7 @@ public void setEnterFieldBehavior(boolean value)
 ```
 
 
-For the description of this property, please see [getEnterFieldBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getEnterFieldBehavior--)
+Specifies selection behavior when entering the control. True specifies that the selection remains unchanged from last time the control was active. False specifies that all the text in the control will be selected when entering the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -702,7 +702,7 @@ public void setEnterKeyBehavior(boolean value)
 ```
 
 
-For the description of this property, please see [getEnterKeyBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getEnterKeyBehavior--)
+Specifies the behavior of the ENTER key. True specifies that pressing ENTER will create a new line. False specifies that pressing ENTER will move the focus to the next object in the tab order.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -715,7 +715,7 @@ public void setForeOleColor(int value)
 ```
 
 
-For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
+Sets the ole color of the foreground. Not applies to Image control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -728,7 +728,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
+Sets the height of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -741,7 +741,7 @@ public void setHideSelection(boolean value)
 ```
 
 
-For the description of this property, please see [getHideSelection()](../../com.aspose.cells/textboxactivexcontrol\#getHideSelection--)
+Indicates whether selected text in the control appears highlighted when the control does not have focus.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -754,7 +754,7 @@ public void setIMEMode(int value)
 ```
 
 
-For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--)
+Sets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -767,7 +767,7 @@ public void setIntegralHeight(boolean value)
 ```
 
 
-For the description of this property, please see [getIntegralHeight()](../../com.aspose.cells/textboxactivexcontrol\#getIntegralHeight--)
+Indicates whether the control will only show complete lines of text without showing any partial lines.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -780,7 +780,7 @@ public void setLinkedCell(String value)
 ```
 
 
-For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
+Sets the linked cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -793,7 +793,7 @@ public void setListFillRange(String value)
 ```
 
 
-For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
+Sets the list fill range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -806,7 +806,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--)
+Indicates whether data in the control is locked for editing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -819,7 +819,7 @@ public void setMaxLength(int value)
 ```
 
 
-For the description of this property, please see [getMaxLength()](../../com.aspose.cells/textboxactivexcontrol\#getMaxLength--)
+Sets the maximum number of characters
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -832,7 +832,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
+Sets a custom icon to display as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -845,7 +845,7 @@ public void setMousePointer(int value)
 ```
 
 
-For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
+Sets the type of icon displayed as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -858,7 +858,7 @@ public void setMultiLine(boolean value)
 ```
 
 
-For the description of this property, please see [isMultiLine()](../../com.aspose.cells/textboxactivexcontrol\#isMultiLine--)
+Indicates whether the control can display more than one line of text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -871,7 +871,7 @@ public void setPasswordChar(char value)
 ```
 
 
-For the description of this property, please see [getPasswordChar()](../../com.aspose.cells/textboxactivexcontrol\#getPasswordChar--)
+Sets a character to be displayed in place of the characters entered.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -884,7 +884,7 @@ public void setScrollBars(int value)
 ```
 
 
-For the description of this property, please see [getScrollBars()](../../com.aspose.cells/textboxactivexcontrol\#getScrollBars--)
+Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -897,7 +897,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
+Indicates whether to show a shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -910,7 +910,7 @@ public void setShowDropButtonTypeWhen(int value)
 ```
 
 
-For the description of this property, please see [getShowDropButtonTypeWhen()](../../com.aspose.cells/textboxactivexcontrol\#getShowDropButtonTypeWhen--)
+Specifies the symbol displayed on the drop button
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -923,7 +923,7 @@ public void setSpecialEffect(int value)
 ```
 
 
-For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/textboxactivexcontrol\#getSpecialEffect--)
+Sets the special effect of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -936,7 +936,7 @@ public void setTabKeyBehavior(boolean value)
 ```
 
 
-For the description of this property, please see [getTabKeyBehavior()](../../com.aspose.cells/textboxactivexcontrol\#getTabKeyBehavior--)
+Indicates whether tab characters are allowed in the text of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -949,7 +949,7 @@ public void setText(String value)
 ```
 
 
-For the description of this property, please see [getText()](../../com.aspose.cells/textboxactivexcontrol\#getText--)
+Sets text of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -962,7 +962,7 @@ public void setTextAlign(int value)
 ```
 
 
-For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--)
+Represents how to align the text used by the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -975,7 +975,7 @@ public void setTransparent(boolean value)
 ```
 
 
-For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--)
+Indicates whether the control is transparent.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -988,7 +988,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
+Indicates whether this control is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1001,7 +1001,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
+Sets the width of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1014,7 +1014,7 @@ public void setWordWrapped(boolean value)
 ```
 
 
-For the description of this property, please see [isWordWrapped()](../../com.aspose.cells/textboxactivexcontrol\#isWordWrapped--)
+Indicates whether the contents of the control automatically wrap at the end of a line.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -18,24 +18,24 @@ Encapsulates the object that represents pattern fill format
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | / |
-| [getBackTransparency()](#getBackTransparency--) | the transparency of background color. |
-| [getBackgroundCellsColor()](#getBackgroundCellsColor--) | the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
-| [getBackgroundColor()](#getBackgroundColor--) | the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
+| [getBackTransparency()](#getBackTransparency--) | Gets the transparency of background color. |
+| [getBackgroundCellsColor()](#getBackgroundCellsColor--) | Gets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [getBackgroundColor()](#getBackgroundColor--) | Gets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
 | [getClass()](#getClass--) |  |
-| [getForeTransparency()](#getForeTransparency--) | the transparency of foreground color. |
-| [getForegroundCellsColor()](#getForegroundCellsColor--) | the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
-| [getForegroundColor()](#getForegroundColor--) | the foreground [Color](../../com.aspose.cells/color). |
-| [getPattern()](#getPattern--) | the fill pattern type |
+| [getForeTransparency()](#getForeTransparency--) | Gets the transparency of foreground color. |
+| [getForegroundCellsColor()](#getForegroundCellsColor--) | Gets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [getForegroundColor()](#getForegroundColor--) | Gets the foreground [Color](../../com.aspose.cells/color). |
+| [getPattern()](#getPattern--) | Gets the fill pattern type |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackTransparency(double value)](#setBackTransparency-double-) | For the description of this property, please see [getBackTransparency()](../../com.aspose.cells/patternfill\#getBackTransparency--) |
-| [setBackgroundCellsColor(CellsColor value)](#setBackgroundCellsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getBackgroundCellsColor()](../../com.aspose.cells/patternfill\#getBackgroundCellsColor--) |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/patternfill\#getBackgroundColor--) |
-| [setForeTransparency(double value)](#setForeTransparency-double-) | For the description of this property, please see [getForeTransparency()](../../com.aspose.cells/patternfill\#getForeTransparency--) |
-| [setForegroundCellsColor(CellsColor value)](#setForegroundCellsColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getForegroundCellsColor()](../../com.aspose.cells/patternfill\#getForegroundCellsColor--) |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/patternfill\#getForegroundColor--) |
-| [setPattern(int value)](#setPattern-int-) | For the description of this property, please see [getPattern()](../../com.aspose.cells/patternfill\#getPattern--) |
+| [setBackTransparency(double value)](#setBackTransparency-double-) | Sets the transparency of background color. |
+| [setBackgroundCellsColor(CellsColor value)](#setBackgroundCellsColor-com.aspose.cells.CellsColor-) | Sets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
+| [setForeTransparency(double value)](#setForeTransparency-double-) | Sets the transparency of foreground color. |
+| [setForegroundCellsColor(CellsColor value)](#setForegroundCellsColor-com.aspose.cells.CellsColor-) | Sets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Sets the foreground [Color](../../com.aspose.cells/color). |
+| [setPattern(int value)](#setPattern-int-) | Sets the fill pattern type |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public double getBackTransparency()
 ```
 
 
-the transparency of background color.
+Gets the transparency of background color.
 
 **Returns:**
 double
@@ -71,7 +71,7 @@ public CellsColor getBackgroundCellsColor()
 ```
 
 
-the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
+Gets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -81,7 +81,7 @@ public Color getBackgroundColor()
 ```
 
 
-the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
+Gets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -101,7 +101,7 @@ public double getForeTransparency()
 ```
 
 
-the transparency of foreground color.
+Gets the transparency of foreground color.
 
 **Returns:**
 double
@@ -111,7 +111,7 @@ public CellsColor getForegroundCellsColor()
 ```
 
 
-the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
+Gets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -121,7 +121,7 @@ public Color getForegroundColor()
 ```
 
 
-the foreground [Color](../../com.aspose.cells/color).
+Gets the foreground [Color](../../com.aspose.cells/color).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -131,7 +131,7 @@ public int getPattern()
 ```
 
 
-the fill pattern type
+Gets the fill pattern type
 
 **Returns:**
 int
@@ -167,7 +167,7 @@ public void setBackTransparency(double value)
 ```
 
 
-For the description of this property, please see [getBackTransparency()](../../com.aspose.cells/patternfill\#getBackTransparency--)
+Sets the transparency of background color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public void setBackgroundCellsColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getBackgroundCellsColor()](../../com.aspose.cells/patternfill\#getBackgroundCellsColor--)
+Sets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-For the description of this property, please see [getBackgroundColor()](../../com.aspose.cells/patternfill\#getBackgroundColor--)
+Sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setForeTransparency(double value)
 ```
 
 
-For the description of this property, please see [getForeTransparency()](../../com.aspose.cells/patternfill\#getForeTransparency--)
+Sets the transparency of foreground color.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setForegroundCellsColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getForegroundCellsColor()](../../com.aspose.cells/patternfill\#getForegroundCellsColor--)
+Sets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-For the description of this property, please see [getForegroundColor()](../../com.aspose.cells/patternfill\#getForegroundColor--)
+Sets the foreground [Color](../../com.aspose.cells/color).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setPattern(int value)
 ```
 
 
-For the description of this property, please see [getPattern()](../../com.aspose.cells/patternfill\#getPattern--)
+Sets the fill pattern type
 
 **Parameters:**
 | Parameter | Type | Description |

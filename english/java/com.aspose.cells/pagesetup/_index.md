@@ -67,7 +67,7 @@ Workbook workbook = new Workbook();
 | [getPicture(boolean isHeader, int section)](#getPicture-boolean-int-) | Gets the [Picture](../../com.aspose.cells/picture) object of the header / footer. |
 | [getPrintArea()](#getPrintArea--) | Represents the range to be printed. |
 | [getPrintComments()](#getPrintComments--) | Represents the way comments are printed with the sheet. |
-| [getPrintCopies()](#getPrintCopies--) | number of copies to print. |
+| [getPrintCopies()](#getPrintCopies--) | Gets number of copies to print. |
 | [getPrintDraft()](#getPrintDraft--) | Represents if the sheet will be printed without graphics. |
 | [getPrintErrors()](#getPrintErrors--) | Specifies the type of print error displayed. |
 | [getPrintGridlines()](#getPrintGridlines--) | Represents if cell gridlines are printed on the page. |
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook();
 | [getPrintQuality()](#getPrintQuality--) | Represents the print quality. |
 | [getPrintTitleColumns()](#getPrintTitleColumns--) | Represents the columns that contain the cells to be repeated on the left side of each page. |
 | [getPrintTitleRows()](#getPrintTitleRows--) | Represents the rows that contain the cells to be repeated at the top of each page. |
-| [getPrinterSettings()](#getPrinterSettings--) | the settings of the default printer. |
+| [getPrinterSettings()](#getPrinterSettings--) | Gets the settings of the default printer. |
 | [getRightMargin()](#getRightMargin--) | Represents the size of the right margin, in unit of centimeters. |
 | [getRightMarginInch()](#getRightMarginInch--) | Represents the size of the right margin, in unit of inches. |
 | [getTopMargin()](#getTopMargin--) | Represents the size of the top margin, in unit of centimeters. |
@@ -91,55 +91,55 @@ Workbook workbook = new Workbook();
 | [isPercentScale()](#isPercentScale--) | If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoFirstPageNumber(boolean value)](#setAutoFirstPageNumber-boolean-) | For the description of this property, please see [isAutoFirstPageNumber()](../../com.aspose.cells/pagesetup\#isAutoFirstPageNumber--) |
-| [setBlackAndWhite(boolean value)](#setBlackAndWhite-boolean-) | For the description of this property, please see [getBlackAndWhite()](../../com.aspose.cells/pagesetup\#getBlackAndWhite--) |
-| [setBottomMargin(double value)](#setBottomMargin-double-) | For the description of this property, please see [getBottomMargin()](../../com.aspose.cells/pagesetup\#getBottomMargin--) |
-| [setBottomMarginInch(double value)](#setBottomMarginInch-double-) | For the description of this property, please see [getBottomMarginInch()](../../com.aspose.cells/pagesetup\#getBottomMarginInch--) |
-| [setCenterHorizontally(boolean value)](#setCenterHorizontally-boolean-) | For the description of this property, please see [getCenterHorizontally()](../../com.aspose.cells/pagesetup\#getCenterHorizontally--) |
-| [setCenterVertically(boolean value)](#setCenterVertically-boolean-) | For the description of this property, please see [getCenterVertically()](../../com.aspose.cells/pagesetup\#getCenterVertically--) |
+| [setAutoFirstPageNumber(boolean value)](#setAutoFirstPageNumber-boolean-) | Indicates whether the first the page number is automatically assigned. |
+| [setBlackAndWhite(boolean value)](#setBlackAndWhite-boolean-) | Represents if elements of the document will be printed in black and white. |
+| [setBottomMargin(double value)](#setBottomMargin-double-) | Represents the size of the bottom margin, in unit of centimeters. |
+| [setBottomMarginInch(double value)](#setBottomMarginInch-double-) | Represents the size of the bottom margin, in unit of inches. |
+| [setCenterHorizontally(boolean value)](#setCenterHorizontally-boolean-) | Represent if the sheet is printed centered horizontally. |
+| [setCenterVertically(boolean value)](#setCenterVertically-boolean-) | Represent if the sheet is printed centered vertically. |
 | [setEvenFooter(int section, String footerScript)](#setEvenFooter-int-java.lang.String-) | Sets a script formatting the even page footer of an Excel file. |
 | [setEvenHeader(int section, String headerScript)](#setEvenHeader-int-java.lang.String-) | Sets a script formatting the even page header of an Excel file. |
 | [setFirstPageFooter(int section, String footerScript)](#setFirstPageFooter-int-java.lang.String-) | Sets a script formatting the first page footer of an Excel file. |
 | [setFirstPageHeader(int section, String headerScript)](#setFirstPageHeader-int-java.lang.String-) | Sets a script formatting the first page header of an Excel file. |
-| [setFirstPageNumber(int value)](#setFirstPageNumber-int-) | For the description of this property, please see [getFirstPageNumber()](../../com.aspose.cells/pagesetup\#getFirstPageNumber--) |
+| [setFirstPageNumber(int value)](#setFirstPageNumber-int-) | Represents the first page number that will be used when this sheet is printed. |
 | [setFitToPages(int wide, int tall)](#setFitToPages-int-int-) | Sets the number of pages the worksheet will be scaled to when it's printed. |
-| [setFitToPagesTall(int value)](#setFitToPagesTall-int-) | For the description of this property, please see [getFitToPagesTall()](../../com.aspose.cells/pagesetup\#getFitToPagesTall--) |
-| [setFitToPagesWide(int value)](#setFitToPagesWide-int-) | For the description of this property, please see [getFitToPagesWide()](../../com.aspose.cells/pagesetup\#getFitToPagesWide--) |
+| [setFitToPagesTall(int value)](#setFitToPagesTall-int-) | Represents the number of pages tall the worksheet will be scaled to when it's printed. |
+| [setFitToPagesWide(int value)](#setFitToPagesWide-int-) | Represents the number of pages wide the worksheet will be scaled to when it's printed. |
 | [setFooter(int section, String footerScript)](#setFooter-int-java.lang.String-) | Sets a script formatting the footer of an Excel file. |
-| [setFooterMargin(double value)](#setFooterMargin-double-) | For the description of this property, please see [getFooterMargin()](../../com.aspose.cells/pagesetup\#getFooterMargin--) |
-| [setFooterMarginInch(double value)](#setFooterMarginInch-double-) | For the description of this property, please see [getFooterMarginInch()](../../com.aspose.cells/pagesetup\#getFooterMarginInch--) |
+| [setFooterMargin(double value)](#setFooterMargin-double-) | Represents the distance from the bottom of the page to the footer, in unit of centimeters. |
+| [setFooterMarginInch(double value)](#setFooterMarginInch-double-) | Represents the distance from the bottom of the page to the footer, in unit of inches. |
 | [setFooterPicture(int section, byte[] footerPicture)](#setFooterPicture-int-byte---) | Sets an image in the footer of a worksheet. |
-| [setHFAlignMargins(boolean value)](#setHFAlignMargins-boolean-) | For the description of this property, please see [isHFAlignMargins()](../../com.aspose.cells/pagesetup\#isHFAlignMargins--) |
-| [setHFDiffFirst(boolean value)](#setHFDiffFirst-boolean-) | For the description of this property, please see [isHFDiffFirst()](../../com.aspose.cells/pagesetup\#isHFDiffFirst--) |
-| [setHFDiffOddEven(boolean value)](#setHFDiffOddEven-boolean-) | For the description of this property, please see [isHFDiffOddEven()](../../com.aspose.cells/pagesetup\#isHFDiffOddEven--) |
-| [setHFScaleWithDoc(boolean value)](#setHFScaleWithDoc-boolean-) | For the description of this property, please see [isHFScaleWithDoc()](../../com.aspose.cells/pagesetup\#isHFScaleWithDoc--) |
+| [setHFAlignMargins(boolean value)](#setHFAlignMargins-boolean-) | Indicates whether header and footer margins are aligned with the page margins. |
+| [setHFDiffFirst(boolean value)](#setHFDiffFirst-boolean-) | True means that the header/footer of the first page is different with other pages. |
+| [setHFDiffOddEven(boolean value)](#setHFDiffOddEven-boolean-) | True means that the header/footer of the odd pages is different with odd pages. |
+| [setHFScaleWithDoc(boolean value)](#setHFScaleWithDoc-boolean-) | Indicates whether header and footer are scaled with document scaling. |
 | [setHeader(int section, String headerScript)](#setHeader-int-java.lang.String-) | Sets a script formatting the header of an Excel file. |
-| [setHeaderMargin(double value)](#setHeaderMargin-double-) | For the description of this property, please see [getHeaderMargin()](../../com.aspose.cells/pagesetup\#getHeaderMargin--) |
-| [setHeaderMarginInch(double value)](#setHeaderMarginInch-double-) | For the description of this property, please see [getHeaderMarginInch()](../../com.aspose.cells/pagesetup\#getHeaderMarginInch--) |
+| [setHeaderMargin(double value)](#setHeaderMargin-double-) | Represents the distance from the top of the page to the header, in unit of centimeters. |
+| [setHeaderMarginInch(double value)](#setHeaderMarginInch-double-) | Represents the distance from the top of the page to the header, in unit of inches. |
 | [setHeaderPicture(int section, byte[] headerPicture)](#setHeaderPicture-int-byte---) | Sets an image in the header of a worksheet. |
-| [setLeftMargin(double value)](#setLeftMargin-double-) | For the description of this property, please see [getLeftMargin()](../../com.aspose.cells/pagesetup\#getLeftMargin--) |
-| [setLeftMarginInch(double value)](#setLeftMarginInch-double-) | For the description of this property, please see [getLeftMarginInch()](../../com.aspose.cells/pagesetup\#getLeftMarginInch--) |
-| [setOrder(int value)](#setOrder-int-) | For the description of this property, please see [getOrder()](../../com.aspose.cells/pagesetup\#getOrder--) |
-| [setOrientation(int value)](#setOrientation-int-) | For the description of this property, please see [getOrientation()](../../com.aspose.cells/pagesetup\#getOrientation--) |
-| [setPaperSize(int value)](#setPaperSize-int-) | For the description of this property, please see [getPaperSize()](../../com.aspose.cells/pagesetup\#getPaperSize--) |
-| [setPercentScale(boolean value)](#setPercentScale-boolean-) | For the description of this property, please see [isPercentScale()](../../com.aspose.cells/pagesetup\#isPercentScale--) |
+| [setLeftMargin(double value)](#setLeftMargin-double-) | Represents the size of the left margin, in unit of centimeters. |
+| [setLeftMarginInch(double value)](#setLeftMarginInch-double-) | Represents the size of the left margin, in unit of inches. |
+| [setOrder(int value)](#setOrder-int-) | Represents the order that Microsoft Excel uses to number pages when printing a large worksheet. |
+| [setOrientation(int value)](#setOrientation-int-) | Represents page print orientation. |
+| [setPaperSize(int value)](#setPaperSize-int-) | Represents the size of the paper. |
+| [setPercentScale(boolean value)](#setPercentScale-boolean-) | If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled. |
 | [setPicture(boolean isFirst, boolean isEven, boolean isHeader, int section, byte[] imageData)](#setPicture-boolean-boolean-boolean-int-byte---) | Sets an image in the header/footer of a worksheet. |
-| [setPrintArea(String value)](#setPrintArea-java.lang.String-) | For the description of this property, please see [getPrintArea()](../../com.aspose.cells/pagesetup\#getPrintArea--) |
-| [setPrintComments(int value)](#setPrintComments-int-) | For the description of this property, please see [getPrintComments()](../../com.aspose.cells/pagesetup\#getPrintComments--) |
-| [setPrintCopies(int value)](#setPrintCopies-int-) | For the description of this property, please see [getPrintCopies()](../../com.aspose.cells/pagesetup\#getPrintCopies--) |
-| [setPrintDraft(boolean value)](#setPrintDraft-boolean-) | For the description of this property, please see [getPrintDraft()](../../com.aspose.cells/pagesetup\#getPrintDraft--) |
-| [setPrintErrors(int value)](#setPrintErrors-int-) | For the description of this property, please see [getPrintErrors()](../../com.aspose.cells/pagesetup\#getPrintErrors--) |
-| [setPrintGridlines(boolean value)](#setPrintGridlines-boolean-) | For the description of this property, please see [getPrintGridlines()](../../com.aspose.cells/pagesetup\#getPrintGridlines--) |
-| [setPrintHeadings(boolean value)](#setPrintHeadings-boolean-) | For the description of this property, please see [getPrintHeadings()](../../com.aspose.cells/pagesetup\#getPrintHeadings--) |
-| [setPrintQuality(int value)](#setPrintQuality-int-) | For the description of this property, please see [getPrintQuality()](../../com.aspose.cells/pagesetup\#getPrintQuality--) |
-| [setPrintTitleColumns(String value)](#setPrintTitleColumns-java.lang.String-) | For the description of this property, please see [getPrintTitleColumns()](../../com.aspose.cells/pagesetup\#getPrintTitleColumns--) |
-| [setPrintTitleRows(String value)](#setPrintTitleRows-java.lang.String-) | For the description of this property, please see [getPrintTitleRows()](../../com.aspose.cells/pagesetup\#getPrintTitleRows--) |
-| [setPrinterSettings(byte[] value)](#setPrinterSettings-byte---) | For the description of this property, please see [getPrinterSettings()](../../com.aspose.cells/pagesetup\#getPrinterSettings--) |
-| [setRightMargin(double value)](#setRightMargin-double-) | For the description of this property, please see [getRightMargin()](../../com.aspose.cells/pagesetup\#getRightMargin--) |
-| [setRightMarginInch(double value)](#setRightMarginInch-double-) | For the description of this property, please see [getRightMarginInch()](../../com.aspose.cells/pagesetup\#getRightMarginInch--) |
-| [setTopMargin(double value)](#setTopMargin-double-) | For the description of this property, please see [getTopMargin()](../../com.aspose.cells/pagesetup\#getTopMargin--) |
-| [setTopMarginInch(double value)](#setTopMarginInch-double-) | For the description of this property, please see [getTopMarginInch()](../../com.aspose.cells/pagesetup\#getTopMarginInch--) |
-| [setZoom(int value)](#setZoom-int-) | For the description of this property, please see [getZoom()](../../com.aspose.cells/pagesetup\#getZoom--) |
+| [setPrintArea(String value)](#setPrintArea-java.lang.String-) | Represents the range to be printed. |
+| [setPrintComments(int value)](#setPrintComments-int-) | Represents the way comments are printed with the sheet. |
+| [setPrintCopies(int value)](#setPrintCopies-int-) | Sets number of copies to print. |
+| [setPrintDraft(boolean value)](#setPrintDraft-boolean-) | Represents if the sheet will be printed without graphics. |
+| [setPrintErrors(int value)](#setPrintErrors-int-) | Specifies the type of print error displayed. |
+| [setPrintGridlines(boolean value)](#setPrintGridlines-boolean-) | Represents if cell gridlines are printed on the page. |
+| [setPrintHeadings(boolean value)](#setPrintHeadings-boolean-) | Represents if row and column headings are printed with this page. |
+| [setPrintQuality(int value)](#setPrintQuality-int-) | Represents the print quality. |
+| [setPrintTitleColumns(String value)](#setPrintTitleColumns-java.lang.String-) | Represents the columns that contain the cells to be repeated on the left side of each page. |
+| [setPrintTitleRows(String value)](#setPrintTitleRows-java.lang.String-) | Represents the rows that contain the cells to be repeated at the top of each page. |
+| [setPrinterSettings(byte[] value)](#setPrinterSettings-byte---) | Sets the settings of the default printer. |
+| [setRightMargin(double value)](#setRightMargin-double-) | Represents the size of the right margin, in unit of centimeters. |
+| [setRightMarginInch(double value)](#setRightMarginInch-double-) | Represents the size of the right margin, in unit of inches. |
+| [setTopMargin(double value)](#setTopMargin-double-) | Represents the size of the top margin, in unit of centimeters. |
+| [setTopMarginInch(double value)](#setTopMarginInch-double-) | Represents the size of the top margin, in unit of inches. |
+| [setZoom(int value)](#setZoom-int-) | Represents the scaling factor in percent. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -570,7 +570,7 @@ public int getPrintCopies()
 ```
 
 
-number of copies to print.
+Gets number of copies to print.
 
 **Returns:**
 int
@@ -658,7 +658,7 @@ public byte[] getPrinterSettings()
 ```
 
 
-the settings of the default printer.
+Gets the settings of the default printer.
 
 **Returns:**
 byte[]
@@ -814,7 +814,7 @@ public void setAutoFirstPageNumber(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoFirstPageNumber()](../../com.aspose.cells/pagesetup\#isAutoFirstPageNumber--)
+Indicates whether the first the page number is automatically assigned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -827,7 +827,7 @@ public void setBlackAndWhite(boolean value)
 ```
 
 
-For the description of this property, please see [getBlackAndWhite()](../../com.aspose.cells/pagesetup\#getBlackAndWhite--)
+Represents if elements of the document will be printed in black and white.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -840,7 +840,7 @@ public void setBottomMargin(double value)
 ```
 
 
-For the description of this property, please see [getBottomMargin()](../../com.aspose.cells/pagesetup\#getBottomMargin--)
+Represents the size of the bottom margin, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -853,7 +853,7 @@ public void setBottomMarginInch(double value)
 ```
 
 
-For the description of this property, please see [getBottomMarginInch()](../../com.aspose.cells/pagesetup\#getBottomMarginInch--)
+Represents the size of the bottom margin, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -866,7 +866,7 @@ public void setCenterHorizontally(boolean value)
 ```
 
 
-For the description of this property, please see [getCenterHorizontally()](../../com.aspose.cells/pagesetup\#getCenterHorizontally--)
+Represent if the sheet is printed centered horizontally.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -879,7 +879,7 @@ public void setCenterVertically(boolean value)
 ```
 
 
-For the description of this property, please see [getCenterVertically()](../../com.aspose.cells/pagesetup\#getCenterVertically--)
+Represent if the sheet is printed centered vertically.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -948,7 +948,7 @@ public void setFirstPageNumber(int value)
 ```
 
 
-For the description of this property, please see [getFirstPageNumber()](../../com.aspose.cells/pagesetup\#getFirstPageNumber--)
+Represents the first page number that will be used when this sheet is printed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -975,7 +975,7 @@ public void setFitToPagesTall(int value)
 ```
 
 
-For the description of this property, please see [getFitToPagesTall()](../../com.aspose.cells/pagesetup\#getFitToPagesTall--)
+Represents the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1. You have to set FitToPagesWide as zero if you want to fit all rows on one page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -988,7 +988,7 @@ public void setFitToPagesWide(int value)
 ```
 
 
-For the description of this property, please see [getFitToPagesWide()](../../com.aspose.cells/pagesetup\#getFitToPagesWide--)
+Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1. You have to set FitToPagesTall as zero if you want to fit all columns on one page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1033,7 +1033,7 @@ public void setFooterMargin(double value)
 ```
 
 
-For the description of this property, please see [getFooterMargin()](../../com.aspose.cells/pagesetup\#getFooterMargin--)
+Represents the distance from the bottom of the page to the footer, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1046,7 +1046,7 @@ public void setFooterMarginInch(double value)
 ```
 
 
-For the description of this property, please see [getFooterMarginInch()](../../com.aspose.cells/pagesetup\#getFooterMarginInch--)
+Represents the distance from the bottom of the page to the footer, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1075,7 +1075,7 @@ public void setHFAlignMargins(boolean value)
 ```
 
 
-For the description of this property, please see [isHFAlignMargins()](../../com.aspose.cells/pagesetup\#isHFAlignMargins--)
+Indicates whether header and footer margins are aligned with the page margins. If this property is true, the left header and footer will be aligned with the left margin, and the right header and footer will be aligned with the right margin. This option is enabled by default.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1088,7 +1088,7 @@ public void setHFDiffFirst(boolean value)
 ```
 
 
-For the description of this property, please see [isHFDiffFirst()](../../com.aspose.cells/pagesetup\#isHFDiffFirst--)
+True means that the header/footer of the first page is different with other pages.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1101,7 +1101,7 @@ public void setHFDiffOddEven(boolean value)
 ```
 
 
-For the description of this property, please see [isHFDiffOddEven()](../../com.aspose.cells/pagesetup\#isHFDiffOddEven--)
+True means that the header/footer of the odd pages is different with odd pages.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1114,7 +1114,7 @@ public void setHFScaleWithDoc(boolean value)
 ```
 
 
-For the description of this property, please see [isHFScaleWithDoc()](../../com.aspose.cells/pagesetup\#isHFScaleWithDoc--)
+Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1159,7 +1159,7 @@ public void setHeaderMargin(double value)
 ```
 
 
-For the description of this property, please see [getHeaderMargin()](../../com.aspose.cells/pagesetup\#getHeaderMargin--)
+Represents the distance from the top of the page to the header, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1172,7 +1172,7 @@ public void setHeaderMarginInch(double value)
 ```
 
 
-For the description of this property, please see [getHeaderMarginInch()](../../com.aspose.cells/pagesetup\#getHeaderMarginInch--)
+Represents the distance from the top of the page to the header, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1201,7 +1201,7 @@ public void setLeftMargin(double value)
 ```
 
 
-For the description of this property, please see [getLeftMargin()](../../com.aspose.cells/pagesetup\#getLeftMargin--)
+Represents the size of the left margin, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1214,7 +1214,7 @@ public void setLeftMarginInch(double value)
 ```
 
 
-For the description of this property, please see [getLeftMarginInch()](../../com.aspose.cells/pagesetup\#getLeftMarginInch--)
+Represents the size of the left margin, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1227,7 +1227,7 @@ public void setOrder(int value)
 ```
 
 
-For the description of this property, please see [getOrder()](../../com.aspose.cells/pagesetup\#getOrder--)
+Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1240,7 +1240,7 @@ public void setOrientation(int value)
 ```
 
 
-For the description of this property, please see [getOrientation()](../../com.aspose.cells/pagesetup\#getOrientation--)
+Represents page print orientation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1253,7 +1253,7 @@ public void setPaperSize(int value)
 ```
 
 
-For the description of this property, please see [getPaperSize()](../../com.aspose.cells/pagesetup\#getPaperSize--)
+Represents the size of the paper.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1266,7 +1266,7 @@ public void setPercentScale(boolean value)
 ```
 
 
-For the description of this property, please see [isPercentScale()](../../com.aspose.cells/pagesetup\#isPercentScale--)
+If this property is False, the FitToPagesWide and FitToPagesTall properties control how the worksheet is scaled.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1298,7 +1298,7 @@ public void setPrintArea(String value)
 ```
 
 
-For the description of this property, please see [getPrintArea()](../../com.aspose.cells/pagesetup\#getPrintArea--)
+Represents the range to be printed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1311,7 +1311,7 @@ public void setPrintComments(int value)
 ```
 
 
-For the description of this property, please see [getPrintComments()](../../com.aspose.cells/pagesetup\#getPrintComments--)
+Represents the way comments are printed with the sheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1324,7 +1324,7 @@ public void setPrintCopies(int value)
 ```
 
 
-For the description of this property, please see [getPrintCopies()](../../com.aspose.cells/pagesetup\#getPrintCopies--)
+Sets number of copies to print.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1337,7 +1337,7 @@ public void setPrintDraft(boolean value)
 ```
 
 
-For the description of this property, please see [getPrintDraft()](../../com.aspose.cells/pagesetup\#getPrintDraft--)
+Represents if the sheet will be printed without graphics.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1350,7 +1350,7 @@ public void setPrintErrors(int value)
 ```
 
 
-For the description of this property, please see [getPrintErrors()](../../com.aspose.cells/pagesetup\#getPrintErrors--)
+Specifies the type of print error displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1363,7 +1363,7 @@ public void setPrintGridlines(boolean value)
 ```
 
 
-For the description of this property, please see [getPrintGridlines()](../../com.aspose.cells/pagesetup\#getPrintGridlines--)
+Represents if cell gridlines are printed on the page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1376,7 +1376,7 @@ public void setPrintHeadings(boolean value)
 ```
 
 
-For the description of this property, please see [getPrintHeadings()](../../com.aspose.cells/pagesetup\#getPrintHeadings--)
+Represents if row and column headings are printed with this page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1389,7 +1389,7 @@ public void setPrintQuality(int value)
 ```
 
 
-For the description of this property, please see [getPrintQuality()](../../com.aspose.cells/pagesetup\#getPrintQuality--)
+Represents the print quality.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1402,7 +1402,7 @@ public void setPrintTitleColumns(String value)
 ```
 
 
-For the description of this property, please see [getPrintTitleColumns()](../../com.aspose.cells/pagesetup\#getPrintTitleColumns--)
+Represents the columns that contain the cells to be repeated on the left side of each page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1415,7 +1415,7 @@ public void setPrintTitleRows(String value)
 ```
 
 
-For the description of this property, please see [getPrintTitleRows()](../../com.aspose.cells/pagesetup\#getPrintTitleRows--)
+Represents the rows that contain the cells to be repeated at the top of each page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1428,7 +1428,7 @@ public void setPrinterSettings(byte[] value)
 ```
 
 
-For the description of this property, please see [getPrinterSettings()](../../com.aspose.cells/pagesetup\#getPrinterSettings--)
+Sets the settings of the default printer.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1441,7 +1441,7 @@ public void setRightMargin(double value)
 ```
 
 
-For the description of this property, please see [getRightMargin()](../../com.aspose.cells/pagesetup\#getRightMargin--)
+Represents the size of the right margin, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1454,7 +1454,7 @@ public void setRightMarginInch(double value)
 ```
 
 
-For the description of this property, please see [getRightMarginInch()](../../com.aspose.cells/pagesetup\#getRightMarginInch--)
+Represents the size of the right margin, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1467,7 +1467,7 @@ public void setTopMargin(double value)
 ```
 
 
-For the description of this property, please see [getTopMargin()](../../com.aspose.cells/pagesetup\#getTopMargin--)
+Represents the size of the top margin, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1480,7 +1480,7 @@ public void setTopMarginInch(double value)
 ```
 
 
-For the description of this property, please see [getTopMarginInch()](../../com.aspose.cells/pagesetup\#getTopMarginInch--)
+Represents the size of the top margin, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1493,7 +1493,7 @@ public void setZoom(int value)
 ```
 
 
-For the description of this property, please see [getZoom()](../../com.aspose.cells/pagesetup\#getZoom--)
+Represents the scaling factor in percent. It should be between 10 and 400.
 
 **Parameters:**
 | Parameter | Type | Description |

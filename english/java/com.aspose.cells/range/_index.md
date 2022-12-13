@@ -54,13 +54,13 @@ Encapsulates the object that represents a range of cells within a spreadsheet.
 | [getHeight()](#getHeight--) | Gets the width of a range in points. |
 | [getHyperlinks()](#getHyperlinks--) | Gets all hyperlink in the range. |
 | [getLeft()](#getLeft--) | Gets the distance, in points, from the left edge of column A to the left edge of the range. |
-| [getName()](#getName--) | the name of the range. |
+| [getName()](#getName--) | Gets the name of the range. |
 | [getOffset(int rowOffset, int columnOffset)](#getOffset-int-int-) | Gets [Range](../../com.aspose.cells/range) range by offset. |
 | [getRefersTo()](#getRefersTo--) | Gets the range's refers to. |
 | [getRowCount()](#getRowCount--) | Gets the count of rows in the range. |
 | [getRowHeight()](#getRowHeight--) | Sets or gets the height of rows in this range |
 | [getTop()](#getTop--) | Gets the distance, in points, from the top edge of row 1 to the top edge of the range. |
-| [getValue()](#getValue--) | the value of the range. |
+| [getValue()](#getValue--) | Gets the value of the range. |
 | [getWidth()](#getWidth--) | Gets the width of a range in points. |
 | [getWorksheet()](#getWorksheet--) | Gets the [getWorksheet()](../../com.aspose.cells/range\#getWorksheet--)object which contains this range. |
 | [hashCode()](#hashCode--) |  |
@@ -72,18 +72,18 @@ Encapsulates the object that represents a range of cells within a spreadsheet.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [putValue(String stringValue, boolean isConverted, boolean setStyle)](#putValue-java.lang.String-boolean-boolean-) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
-| [setColumnWidth(double value)](#setColumnWidth-double-) | For the description of this property, please see [getColumnWidth()](../../com.aspose.cells/range\#getColumnWidth--) |
+| [setColumnWidth(double value)](#setColumnWidth-double-) | Sets or gets the column width of this range |
 | [setInsideBorders(int borderEdge, int lineStyle, CellsColor borderColor)](#setInsideBorders-int-int-com.aspose.cells.CellsColor-) | Set inside borders of the range. |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/range\#getName--) |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the range. |
 | [setOutlineBorder(int borderEdge, int borderStyle, CellsColor borderColor)](#setOutlineBorder-int-int-com.aspose.cells.CellsColor-) | Sets outline border around a range of cells. |
 | [setOutlineBorder(int borderEdge, int borderStyle, Color borderColor)](#setOutlineBorder-int-int-com.aspose.cells.Color-) | Sets outline border around a range of cells. |
 | [setOutlineBorders(int borderStyle, CellsColor borderColor)](#setOutlineBorders-int-com.aspose.cells.CellsColor-) | Sets the outline borders around a range of cells with same border style and color. |
 | [setOutlineBorders(int borderStyle, Color borderColor)](#setOutlineBorders-int-com.aspose.cells.Color-) | Sets the outline borders around a range of cells with same border style and color. |
 | [setOutlineBorders(int[] borderStyles, Color[] borderColors)](#setOutlineBorders-int---com.aspose.cells.Color---) | Sets out line borders around a range of cells. |
-| [setRowHeight(double value)](#setRowHeight-double-) | For the description of this property, please see [getRowHeight()](../../com.aspose.cells/range\#getRowHeight--) |
+| [setRowHeight(double value)](#setRowHeight-double-) | Sets or gets the height of rows in this range |
 | [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of the range. |
 | [setStyle(Style style, boolean explicitFlag)](#setStyle-com.aspose.cells.Style-boolean-) | Apply the cell style. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/range\#getValue--) |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Sets the value of the range. |
 | [toString()](#toString--) | Returns a string represents the current Range object. |
 | [unMerge()](#unMerge--) | Unmerges merged cells of this range. |
 | [union(Range range)](#union-com.aspose.cells.Range-) | Returns the union of two ranges. |
@@ -408,7 +408,7 @@ public String getName()
 ```
 
 
-the name of the range. Named range is supported. For example,
+Gets the name of the range. Named range is supported. For example,
 
 range.Name = "Sheet1!MyRange";
 
@@ -476,7 +476,7 @@ public Object getValue()
 ```
 
 
-the value of the range. If the range contains multiple cells, the returned/applied object should be Object[][].
+Gets the value of the range. If the range contains multiple cells, the returned/applied object should be Object[][].
 
 **Returns:**
 java.lang.Object
@@ -634,7 +634,7 @@ public void setColumnWidth(double value)
 ```
 
 
-For the description of this property, please see [getColumnWidth()](../../com.aspose.cells/range\#getColumnWidth--)
+Sets or gets the column width of this range
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -662,7 +662,9 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/range\#getName--)
+Sets the name of the range. Named range is supported. For example,
+
+range.Name = "Sheet1!MyRange";
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -747,7 +749,7 @@ public void setRowHeight(double value)
 ```
 
 
-For the description of this property, please see [getRowHeight()](../../com.aspose.cells/range\#getRowHeight--)
+Sets or gets the height of rows in this range
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -787,7 +789,7 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/range\#getValue--)
+Sets the value of the range. If the range contains multiple cells, the returned/applied object should be Object[][].
 
 **Parameters:**
 | Parameter | Type | Description |

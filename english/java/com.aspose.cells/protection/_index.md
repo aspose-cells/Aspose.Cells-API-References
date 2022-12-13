@@ -69,39 +69,39 @@ Represents the various types of protection options available for a worksheet.
 | [isUsingPivotTablesAllowed()](#isUsingPivotTablesAllowed--) | Represents if the user is allowed to manipulate pivot tables on a protected worksheet. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowDeletingColumn(boolean value)](#setAllowDeletingColumn-boolean-) | For the description of this property, please see [getAllowDeletingColumn()](../../com.aspose.cells/protection\#getAllowDeletingColumn--) |
-| [setAllowDeletingRow(boolean value)](#setAllowDeletingRow-boolean-) | For the description of this property, please see [getAllowDeletingRow()](../../com.aspose.cells/protection\#getAllowDeletingRow--) |
-| [setAllowEditingContent(boolean value)](#setAllowEditingContent-boolean-) | For the description of this property, please see [getAllowEditingContent()](../../com.aspose.cells/protection\#getAllowEditingContent--) |
-| [setAllowEditingObject(boolean value)](#setAllowEditingObject-boolean-) | For the description of this property, please see [getAllowEditingObject()](../../com.aspose.cells/protection\#getAllowEditingObject--) |
-| [setAllowEditingScenario(boolean value)](#setAllowEditingScenario-boolean-) | For the description of this property, please see [getAllowEditingScenario()](../../com.aspose.cells/protection\#getAllowEditingScenario--) |
-| [setAllowFiltering(boolean value)](#setAllowFiltering-boolean-) | For the description of this property, please see [getAllowFiltering()](../../com.aspose.cells/protection\#getAllowFiltering--) |
-| [setAllowFormattingCell(boolean value)](#setAllowFormattingCell-boolean-) | For the description of this property, please see [getAllowFormattingCell()](../../com.aspose.cells/protection\#getAllowFormattingCell--) |
-| [setAllowFormattingColumn(boolean value)](#setAllowFormattingColumn-boolean-) | For the description of this property, please see [getAllowFormattingColumn()](../../com.aspose.cells/protection\#getAllowFormattingColumn--) |
-| [setAllowFormattingRow(boolean value)](#setAllowFormattingRow-boolean-) | For the description of this property, please see [getAllowFormattingRow()](../../com.aspose.cells/protection\#getAllowFormattingRow--) |
-| [setAllowInsertingColumn(boolean value)](#setAllowInsertingColumn-boolean-) | For the description of this property, please see [getAllowInsertingColumn()](../../com.aspose.cells/protection\#getAllowInsertingColumn--) |
-| [setAllowInsertingHyperlink(boolean value)](#setAllowInsertingHyperlink-boolean-) | For the description of this property, please see [getAllowInsertingHyperlink()](../../com.aspose.cells/protection\#getAllowInsertingHyperlink--) |
-| [setAllowInsertingRow(boolean value)](#setAllowInsertingRow-boolean-) | For the description of this property, please see [getAllowInsertingRow()](../../com.aspose.cells/protection\#getAllowInsertingRow--) |
-| [setAllowSelectingLockedCell(boolean value)](#setAllowSelectingLockedCell-boolean-) | For the description of this property, please see [getAllowSelectingLockedCell()](../../com.aspose.cells/protection\#getAllowSelectingLockedCell--) |
-| [setAllowSelectingUnlockedCell(boolean value)](#setAllowSelectingUnlockedCell-boolean-) | For the description of this property, please see [getAllowSelectingUnlockedCell()](../../com.aspose.cells/protection\#getAllowSelectingUnlockedCell--) |
-| [setAllowSorting(boolean value)](#setAllowSorting-boolean-) | For the description of this property, please see [getAllowSorting()](../../com.aspose.cells/protection\#getAllowSorting--) |
-| [setAllowUsingPivotTable(boolean value)](#setAllowUsingPivotTable-boolean-) | For the description of this property, please see [getAllowUsingPivotTable()](../../com.aspose.cells/protection\#getAllowUsingPivotTable--) |
-| [setDeletingColumnsAllowed(boolean value)](#setDeletingColumnsAllowed-boolean-) | For the description of this property, please see [isDeletingColumnsAllowed()](../../com.aspose.cells/protection\#isDeletingColumnsAllowed--) |
-| [setDeletingRowsAllowed(boolean value)](#setDeletingRowsAllowed-boolean-) | For the description of this property, please see [isDeletingRowsAllowed()](../../com.aspose.cells/protection\#isDeletingRowsAllowed--) |
-| [setEditingContentsAllowed(boolean value)](#setEditingContentsAllowed-boolean-) | For the description of this property, please see [isEditingContentsAllowed()](../../com.aspose.cells/protection\#isEditingContentsAllowed--) |
-| [setEditingObjectsAllowed(boolean value)](#setEditingObjectsAllowed-boolean-) | For the description of this property, please see [isEditingObjectsAllowed()](../../com.aspose.cells/protection\#isEditingObjectsAllowed--) |
-| [setEditingScenariosAllowed(boolean value)](#setEditingScenariosAllowed-boolean-) | For the description of this property, please see [isEditingScenariosAllowed()](../../com.aspose.cells/protection\#isEditingScenariosAllowed--) |
-| [setFilteringAllowed(boolean value)](#setFilteringAllowed-boolean-) | For the description of this property, please see [isFilteringAllowed()](../../com.aspose.cells/protection\#isFilteringAllowed--) |
-| [setFormattingCellsAllowed(boolean value)](#setFormattingCellsAllowed-boolean-) | For the description of this property, please see [isFormattingCellsAllowed()](../../com.aspose.cells/protection\#isFormattingCellsAllowed--) |
-| [setFormattingColumnsAllowed(boolean value)](#setFormattingColumnsAllowed-boolean-) | For the description of this property, please see [isFormattingColumnsAllowed()](../../com.aspose.cells/protection\#isFormattingColumnsAllowed--) |
-| [setFormattingRowsAllowed(boolean value)](#setFormattingRowsAllowed-boolean-) | For the description of this property, please see [isFormattingRowsAllowed()](../../com.aspose.cells/protection\#isFormattingRowsAllowed--) |
-| [setInsertingColumnsAllowed(boolean value)](#setInsertingColumnsAllowed-boolean-) | For the description of this property, please see [isInsertingColumnsAllowed()](../../com.aspose.cells/protection\#isInsertingColumnsAllowed--) |
-| [setInsertingHyperlinksAllowed(boolean value)](#setInsertingHyperlinksAllowed-boolean-) | For the description of this property, please see [isInsertingHyperlinksAllowed()](../../com.aspose.cells/protection\#isInsertingHyperlinksAllowed--) |
-| [setInsertingRowsAllowed(boolean value)](#setInsertingRowsAllowed-boolean-) | For the description of this property, please see [isInsertingRowsAllowed()](../../com.aspose.cells/protection\#isInsertingRowsAllowed--) |
-| [setPassword(String value)](#setPassword-java.lang.String-) | For the description of this property, please see [getPassword()](../../com.aspose.cells/protection\#getPassword--) |
-| [setSelectingLockedCellsAllowed(boolean value)](#setSelectingLockedCellsAllowed-boolean-) | For the description of this property, please see [isSelectingLockedCellsAllowed()](../../com.aspose.cells/protection\#isSelectingLockedCellsAllowed--) |
-| [setSelectingUnlockedCellsAllowed(boolean value)](#setSelectingUnlockedCellsAllowed-boolean-) | For the description of this property, please see [isSelectingUnlockedCellsAllowed()](../../com.aspose.cells/protection\#isSelectingUnlockedCellsAllowed--) |
-| [setSortingAllowed(boolean value)](#setSortingAllowed-boolean-) | For the description of this property, please see [isSortingAllowed()](../../com.aspose.cells/protection\#isSortingAllowed--) |
-| [setUsingPivotTablesAllowed(boolean value)](#setUsingPivotTablesAllowed-boolean-) | For the description of this property, please see [isUsingPivotTablesAllowed()](../../com.aspose.cells/protection\#isUsingPivotTablesAllowed--) |
+| [setAllowDeletingColumn(boolean value)](#setAllowDeletingColumn-boolean-) | Represents if the deletion of columns is allowed on a protected worksheet. |
+| [setAllowDeletingRow(boolean value)](#setAllowDeletingRow-boolean-) | Represents if the deletion of rows is allowed on a protected worksheet. |
+| [setAllowEditingContent(boolean value)](#setAllowEditingContent-boolean-) | Represents if the user is allowed to edit contents of locked cells on a protected worksheet. |
+| [setAllowEditingObject(boolean value)](#setAllowEditingObject-boolean-) | Represents if the user is allowed to manipulate drawing objects on a protected worksheet. |
+| [setAllowEditingScenario(boolean value)](#setAllowEditingScenario-boolean-) | Represents if the user is allowed to edit scenarios on a protected worksheet. |
+| [setAllowFiltering(boolean value)](#setAllowFiltering-boolean-) | Represents if the user is allowed to make use of an AutoFilter that was created before the sheet was protected. |
+| [setAllowFormattingCell(boolean value)](#setAllowFormattingCell-boolean-) | Represents if the formatting of cells is allowed on a protected worksheet. |
+| [setAllowFormattingColumn(boolean value)](#setAllowFormattingColumn-boolean-) | Represents if the formatting of columns is allowed on a protected worksheet |
+| [setAllowFormattingRow(boolean value)](#setAllowFormattingRow-boolean-) | Represents if the formatting of rows is allowed on a protected worksheet |
+| [setAllowInsertingColumn(boolean value)](#setAllowInsertingColumn-boolean-) | Represents if the insertion of columns is allowed on a protected worksheet |
+| [setAllowInsertingHyperlink(boolean value)](#setAllowInsertingHyperlink-boolean-) | Represents if the insertion of hyperlinks is allowed on a protected worksheet |
+| [setAllowInsertingRow(boolean value)](#setAllowInsertingRow-boolean-) | Represents if the insertion of rows is allowed on a protected worksheet |
+| [setAllowSelectingLockedCell(boolean value)](#setAllowSelectingLockedCell-boolean-) | Represents if the user is allowed to select locked cells on a protected worksheet. |
+| [setAllowSelectingUnlockedCell(boolean value)](#setAllowSelectingUnlockedCell-boolean-) | Represents if the user is allowed to select unlocked cells on a protected worksheet. |
+| [setAllowSorting(boolean value)](#setAllowSorting-boolean-) | Represents if the sorting option is allowed on a protected worksheet. |
+| [setAllowUsingPivotTable(boolean value)](#setAllowUsingPivotTable-boolean-) | Represents if the user is allowed to manipulate pivot tables on a protected worksheet. |
+| [setDeletingColumnsAllowed(boolean value)](#setDeletingColumnsAllowed-boolean-) | Represents if the deletion of columns is allowed on a protected worksheet. |
+| [setDeletingRowsAllowed(boolean value)](#setDeletingRowsAllowed-boolean-) | Represents if the deletion of rows is allowed on a protected worksheet. |
+| [setEditingContentsAllowed(boolean value)](#setEditingContentsAllowed-boolean-) | Represents if the user is allowed to edit contents of locked cells on a protected worksheet. |
+| [setEditingObjectsAllowed(boolean value)](#setEditingObjectsAllowed-boolean-) | Represents if the user is allowed to manipulate drawing objects on a protected worksheet. |
+| [setEditingScenariosAllowed(boolean value)](#setEditingScenariosAllowed-boolean-) | Represents if the user is allowed to edit scenarios on a protected worksheet. |
+| [setFilteringAllowed(boolean value)](#setFilteringAllowed-boolean-) | Represents if the user is allowed to make use of an AutoFilter that was created before the sheet was protected. |
+| [setFormattingCellsAllowed(boolean value)](#setFormattingCellsAllowed-boolean-) | Represents if the formatting of cells is allowed on a protected worksheet. |
+| [setFormattingColumnsAllowed(boolean value)](#setFormattingColumnsAllowed-boolean-) | Represents if the formatting of columns is allowed on a protected worksheet NOTE: This member is now obsolete. |
+| [setFormattingRowsAllowed(boolean value)](#setFormattingRowsAllowed-boolean-) | Represents if the formatting of rows is allowed on a protected worksheet NOTE: This member is now obsolete. |
+| [setInsertingColumnsAllowed(boolean value)](#setInsertingColumnsAllowed-boolean-) | Represents if the insertion of columns is allowed on a protected worksheet NOTE: This member is now obsolete. |
+| [setInsertingHyperlinksAllowed(boolean value)](#setInsertingHyperlinksAllowed-boolean-) | Represents if the insertion of hyperlinks is allowed on a protected worksheet NOTE: This member is now obsolete. |
+| [setInsertingRowsAllowed(boolean value)](#setInsertingRowsAllowed-boolean-) | Represents if the insertion of rows is allowed on a protected worksheet NOTE: This member is now obsolete. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Represents the password to protect the worksheet. |
+| [setSelectingLockedCellsAllowed(boolean value)](#setSelectingLockedCellsAllowed-boolean-) | Represents if the user is allowed to select locked cells on a protected worksheet. |
+| [setSelectingUnlockedCellsAllowed(boolean value)](#setSelectingUnlockedCellsAllowed-boolean-) | Represents if the user is allowed to select unlocked cells on a protected worksheet. |
+| [setSortingAllowed(boolean value)](#setSortingAllowed-boolean-) | Represents if the sorting option is allowed on a protected worksheet. |
+| [setUsingPivotTablesAllowed(boolean value)](#setUsingPivotTablesAllowed-boolean-) | Represents if the user is allowed to manipulate pivot tables on a protected worksheet. |
 | [toString()](#toString--) |  |
 | [verifyPassword(String password)](#verifyPassword-java.lang.String-) | Verifies password. |
 | [wait()](#wait--) |  |
@@ -527,7 +527,7 @@ public void setAllowDeletingColumn(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowDeletingColumn()](../../com.aspose.cells/protection\#getAllowDeletingColumn--)
+Represents if the deletion of columns is allowed on a protected worksheet. The columns containing the cells to be deleted must be unlocked when the sheet is protected, and "Select unlocked cells" option must be enabled.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -540,7 +540,7 @@ public void setAllowDeletingRow(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowDeletingRow()](../../com.aspose.cells/protection\#getAllowDeletingRow--)
+Represents if the deletion of rows is allowed on a protected worksheet. The rows containing the cells to be deleted must be unlocked when the sheet is protected, and "Select unlocked cells" option must be enabled.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -553,7 +553,7 @@ public void setAllowEditingContent(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowEditingContent()](../../com.aspose.cells/protection\#getAllowEditingContent--)
+Represents if the user is allowed to edit contents of locked cells on a protected worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -566,7 +566,7 @@ public void setAllowEditingObject(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowEditingObject()](../../com.aspose.cells/protection\#getAllowEditingObject--)
+Represents if the user is allowed to manipulate drawing objects on a protected worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -579,7 +579,7 @@ public void setAllowEditingScenario(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowEditingScenario()](../../com.aspose.cells/protection\#getAllowEditingScenario--)
+Represents if the user is allowed to edit scenarios on a protected worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -592,7 +592,7 @@ public void setAllowFiltering(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowFiltering()](../../com.aspose.cells/protection\#getAllowFiltering--)
+Represents if the user is allowed to make use of an AutoFilter that was created before the sheet was protected.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -605,7 +605,7 @@ public void setAllowFormattingCell(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowFormattingCell()](../../com.aspose.cells/protection\#getAllowFormattingCell--)
+Represents if the formatting of cells is allowed on a protected worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -618,7 +618,7 @@ public void setAllowFormattingColumn(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowFormattingColumn()](../../com.aspose.cells/protection\#getAllowFormattingColumn--)
+Represents if the formatting of columns is allowed on a protected worksheet
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,7 +631,7 @@ public void setAllowFormattingRow(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowFormattingRow()](../../com.aspose.cells/protection\#getAllowFormattingRow--)
+Represents if the formatting of rows is allowed on a protected worksheet
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -644,7 +644,7 @@ public void setAllowInsertingColumn(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowInsertingColumn()](../../com.aspose.cells/protection\#getAllowInsertingColumn--)
+Represents if the insertion of columns is allowed on a protected worksheet
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -657,7 +657,7 @@ public void setAllowInsertingHyperlink(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowInsertingHyperlink()](../../com.aspose.cells/protection\#getAllowInsertingHyperlink--)
+Represents if the insertion of hyperlinks is allowed on a protected worksheet
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -670,7 +670,7 @@ public void setAllowInsertingRow(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowInsertingRow()](../../com.aspose.cells/protection\#getAllowInsertingRow--)
+Represents if the insertion of rows is allowed on a protected worksheet
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -683,7 +683,7 @@ public void setAllowSelectingLockedCell(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowSelectingLockedCell()](../../com.aspose.cells/protection\#getAllowSelectingLockedCell--)
+Represents if the user is allowed to select locked cells on a protected worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -696,7 +696,7 @@ public void setAllowSelectingUnlockedCell(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowSelectingUnlockedCell()](../../com.aspose.cells/protection\#getAllowSelectingUnlockedCell--)
+Represents if the user is allowed to select unlocked cells on a protected worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -709,7 +709,7 @@ public void setAllowSorting(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowSorting()](../../com.aspose.cells/protection\#getAllowSorting--)
+Represents if the sorting option is allowed on a protected worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -722,7 +722,7 @@ public void setAllowUsingPivotTable(boolean value)
 ```
 
 
-For the description of this property, please see [getAllowUsingPivotTable()](../../com.aspose.cells/protection\#getAllowUsingPivotTable--)
+Represents if the user is allowed to manipulate pivot tables on a protected worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -735,7 +735,7 @@ public void setDeletingColumnsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isDeletingColumnsAllowed()](../../com.aspose.cells/protection\#isDeletingColumnsAllowed--)
+Represents if the deletion of columns is allowed on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowDeletingColumn property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -748,7 +748,7 @@ public void setDeletingRowsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isDeletingRowsAllowed()](../../com.aspose.cells/protection\#isDeletingRowsAllowed--)
+Represents if the deletion of rows is allowed on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowDeletingRow property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -761,7 +761,7 @@ public void setEditingContentsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isEditingContentsAllowed()](../../com.aspose.cells/protection\#isEditingContentsAllowed--)
+Represents if the user is allowed to edit contents of locked cells on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowEditingContent property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -774,7 +774,7 @@ public void setEditingObjectsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isEditingObjectsAllowed()](../../com.aspose.cells/protection\#isEditingObjectsAllowed--)
+Represents if the user is allowed to manipulate drawing objects on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowEditingObject property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -787,7 +787,7 @@ public void setEditingScenariosAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isEditingScenariosAllowed()](../../com.aspose.cells/protection\#isEditingScenariosAllowed--)
+Represents if the user is allowed to edit scenarios on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowEditingScenario property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -800,7 +800,7 @@ public void setFilteringAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isFilteringAllowed()](../../com.aspose.cells/protection\#isFilteringAllowed--)
+Represents if the user is allowed to make use of an AutoFilter that was created before the sheet was protected. NOTE: This member is now obsolete. Instead, please use Protection.AllowFiltering property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -813,7 +813,7 @@ public void setFormattingCellsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isFormattingCellsAllowed()](../../com.aspose.cells/protection\#isFormattingCellsAllowed--)
+Represents if the formatting of cells is allowed on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowFormattingCell property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -826,7 +826,7 @@ public void setFormattingColumnsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isFormattingColumnsAllowed()](../../com.aspose.cells/protection\#isFormattingColumnsAllowed--)
+Represents if the formatting of columns is allowed on a protected worksheet NOTE: This member is now obsolete. Instead, please use Protection.AllowFormattingColumn property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -839,7 +839,7 @@ public void setFormattingRowsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isFormattingRowsAllowed()](../../com.aspose.cells/protection\#isFormattingRowsAllowed--)
+Represents if the formatting of rows is allowed on a protected worksheet NOTE: This member is now obsolete. Instead, please use Protection.AllowFormattingRow property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -852,7 +852,7 @@ public void setInsertingColumnsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isInsertingColumnsAllowed()](../../com.aspose.cells/protection\#isInsertingColumnsAllowed--)
+Represents if the insertion of columns is allowed on a protected worksheet NOTE: This member is now obsolete. Instead, please use Protection.AllowInsertingColumn property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -865,7 +865,7 @@ public void setInsertingHyperlinksAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isInsertingHyperlinksAllowed()](../../com.aspose.cells/protection\#isInsertingHyperlinksAllowed--)
+Represents if the insertion of hyperlinks is allowed on a protected worksheet NOTE: This member is now obsolete. Instead, please use Protection.AllowInsertingHyperlink property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -878,7 +878,7 @@ public void setInsertingRowsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isInsertingRowsAllowed()](../../com.aspose.cells/protection\#isInsertingRowsAllowed--)
+Represents if the insertion of rows is allowed on a protected worksheet NOTE: This member is now obsolete. Instead, please use Protection.AllowInsertingRow property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -891,7 +891,7 @@ public void setPassword(String value)
 ```
 
 
-For the description of this property, please see [getPassword()](../../com.aspose.cells/protection\#getPassword--)
+Represents the password to protect the worksheet. If password is set to null or blank string, you can unprotect the worksheet or workbook without using a password. Otherwise, you must specify the password to unprotect the worksheet or workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -904,7 +904,7 @@ public void setSelectingLockedCellsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isSelectingLockedCellsAllowed()](../../com.aspose.cells/protection\#isSelectingLockedCellsAllowed--)
+Represents if the user is allowed to select locked cells on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowSelectingLockedCell property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -917,7 +917,7 @@ public void setSelectingUnlockedCellsAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isSelectingUnlockedCellsAllowed()](../../com.aspose.cells/protection\#isSelectingUnlockedCellsAllowed--)
+Represents if the user is allowed to select unlocked cells on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowSelectingUnlockedCell property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -930,7 +930,7 @@ public void setSortingAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isSortingAllowed()](../../com.aspose.cells/protection\#isSortingAllowed--)
+Represents if the sorting option is allowed on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowSorting property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -943,7 +943,7 @@ public void setUsingPivotTablesAllowed(boolean value)
 ```
 
 
-For the description of this property, please see [isUsingPivotTablesAllowed()](../../com.aspose.cells/protection\#isUsingPivotTablesAllowed--)
+Represents if the user is allowed to manipulate pivot tables on a protected worksheet. NOTE: This member is now obsolete. Instead, please use Protection.AllowUsingPivotTable property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

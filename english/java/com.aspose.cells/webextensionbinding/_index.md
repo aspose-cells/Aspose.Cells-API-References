@@ -23,16 +23,16 @@ Represents a binding relationship between an Office Add-in and the data in the d
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAppref()](#getAppref--) | the binding key used to map the binding entry in this list with the bound data in the document. |
+| [getAppref()](#getAppref--) | Gets the binding key used to map the binding entry in this list with the bound data in the document. |
 | [getClass()](#getClass--) |  |
-| [getId()](#getId--) | the binding identifier. |
-| [getType()](#getType--) | the binding type. |
+| [getId()](#getId--) | Gets the binding identifier. |
+| [getType()](#getType--) | Gets the binding type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAppref(String value)](#setAppref-java.lang.String-) | For the description of this property, please see [getAppref()](../../com.aspose.cells/webextensionbinding\#getAppref--) |
-| [setId(String value)](#setId-java.lang.String-) | For the description of this property, please see [getId()](../../com.aspose.cells/webextensionbinding\#getId--) |
-| [setType(String value)](#setType-java.lang.String-) | For the description of this property, please see [getType()](../../com.aspose.cells/webextensionbinding\#getType--) |
+| [setAppref(String value)](#setAppref-java.lang.String-) | Sets the binding key used to map the binding entry in this list with the bound data in the document. |
+| [setId(String value)](#setId-java.lang.String-) | Sets the binding identifier. |
+| [setType(String value)](#setType-java.lang.String-) | Sets the binding type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -64,7 +64,7 @@ public String getAppref()
 ```
 
 
-the binding key used to map the binding entry in this list with the bound data in the document.
+Gets the binding key used to map the binding entry in this list with the bound data in the document.
 
 **Returns:**
 java.lang.String
@@ -84,7 +84,7 @@ public String getId()
 ```
 
 
-the binding identifier.
+Gets the binding identifier.
 
 **Returns:**
 java.lang.String
@@ -94,7 +94,7 @@ public String getType()
 ```
 
 
-the binding type.
+Gets the binding type.
 
 **Returns:**
 java.lang.String
@@ -130,7 +130,7 @@ public void setAppref(String value)
 ```
 
 
-For the description of this property, please see [getAppref()](../../com.aspose.cells/webextensionbinding\#getAppref--)
+Sets the binding key used to map the binding entry in this list with the bound data in the document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,7 +143,7 @@ public void setId(String value)
 ```
 
 
-For the description of this property, please see [getId()](../../com.aspose.cells/webextensionbinding\#getId--)
+Sets the binding identifier.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public void setType(String value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/webextensionbinding\#getType--)
+Sets the binding type.
 
 **Parameters:**
 | Parameter | Type | Description |

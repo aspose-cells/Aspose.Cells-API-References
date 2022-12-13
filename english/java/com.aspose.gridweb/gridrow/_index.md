@@ -22,20 +22,20 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [getCellByIndex(int index)](#getCellByIndex-int-) | Get the cell by specific index in the list. |
 | [getClass()](#getClass--) |  |
 | [getFirstCell()](#getFirstCell--) | Gets the first cell in the row. |
-| [getHeight()](#getHeight--) | the row height in unit of Points. |
+| [getHeight()](#getHeight--) | Gets the row height in unit of Points. |
 | [getHidden()](#getHidden--) | Indicates whether the row is hidden. |
 | [getIndex()](#getIndex--) | Gets the index of this row. |
 | [getLastCell()](#getLastCell--) | Gets the last cell in the row. |
 | [getLastDataCell()](#getLastDataCell--) | Gets the last cell in the row. |
-| [getOutlineLevel()](#getOutlineLevel--) | the outline level. |
+| [getOutlineLevel()](#getOutlineLevel--) | Gets the outline level. |
 | [hashCode()](#hashCode--) |  |
 | [isBlank()](#isBlank--) | Indicates whether the row contains any data |
 | [iterator()](#iterator--) | Gets the cells enumerator |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.gridweb/gridrow\#getHeight--) |
-| [setHidden(boolean value)](#setHidden-boolean-) |  |
-| [setOutlineLevel(byte value)](#setOutlineLevel-byte-) | For the description of this property, please see \{@link GridRow\#(getOutlineLevel() & 0xFF)\} |
+| [setHeight(double value)](#setHeight-double-) | Sets the row height in unit of Points. |
+| [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the row is hidden. |
+| [setOutlineLevel(byte value)](#setOutlineLevel-byte-) | Sets the outline level. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -111,7 +111,7 @@ public double getHeight()
 ```
 
 
-the row height in unit of Points.
+Gets the row height in unit of Points.
 
 **Returns:**
 double
@@ -161,7 +161,7 @@ public byte getOutlineLevel()
 ```
 
 
-the outline level.
+Gets the outline level.
 
 **Returns:**
 byte
@@ -217,7 +217,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.gridweb/gridrow\#getHeight--)
+Sets the row height in unit of Points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setHidden(boolean value)
 ```
 
 
-
+Indicates whether the row is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setOutlineLevel(byte value)
 ```
 
 
-For the description of this property, please see \{@link GridRow\#(getOutlineLevel() & 0xFF)\}
+Sets the outline level.
 
 **Parameters:**
 | Parameter | Type | Description |

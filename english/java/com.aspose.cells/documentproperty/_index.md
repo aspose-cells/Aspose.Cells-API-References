@@ -36,13 +36,13 @@ Represents a custom or built-in document property.
 | [getName()](#getName--) | Returns the name of the property. |
 | [getSource()](#getSource--) | The linked content source. |
 | [getType()](#getType--) | Gets the data type of the property. |
-| [getValue()](#getValue--) | the value of the property. |
+| [getValue()](#getValue--) | Gets the value of the property. |
 | [hashCode()](#hashCode--) |  |
 | [isGeneratedName()](#isGeneratedName--) | Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API. |
 | [isLinkedToContent()](#isLinkedToContent--) | Indicates whether this property is linked to content |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setValue(Object value)](#setValue-java.lang.Object-) | For the description of this property, please see [getValue()](../../com.aspose.cells/documentproperty\#getValue--) |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Sets the value of the property. |
 | [toBool()](#toBool--) | Returns the property value as bool. |
 | [toDateTime()](#toDateTime--) | Returns the property value as DateTime in local timezone. |
 | [toDouble()](#toDouble--) | Returns the property value as double. |
@@ -112,7 +112,7 @@ public Object getValue()
 ```
 
 
-the value of the property.
+Gets the value of the property.
 
 **Returns:**
 java.lang.Object
@@ -168,7 +168,7 @@ public void setValue(Object value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/documentproperty\#getValue--)
+Sets the value of the property.
 
 **Parameters:**
 | Parameter | Type | Description |

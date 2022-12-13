@@ -24,14 +24,14 @@ Represents all revision logs.
 | [get(int index)](#get-int-) | Gets [RevisionLog](../../com.aspose.cells/revisionlog) by index. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
-| [getDaysPreservingHistory()](#getDaysPreservingHistory--) | the number of days the spreadsheet application will keep the change history for this workbook. |
+| [getDaysPreservingHistory()](#getDaysPreservingHistory--) | Gets the number of days the spreadsheet application will keep the change history for this workbook. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setDaysPreservingHistory(int value)](#setDaysPreservingHistory-int-) | For the description of this property, please see [getDaysPreservingHistory()](../../com.aspose.cells/revisionlogcollection\#getDaysPreservingHistory--) |
+| [setDaysPreservingHistory(int value)](#setDaysPreservingHistory-int-) | Sets the number of days the spreadsheet application will keep the change history for this workbook. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -130,7 +130,7 @@ public int getDaysPreservingHistory()
 ```
 
 
-the number of days the spreadsheet application will keep the change history for this workbook.
+Gets the number of days the spreadsheet application will keep the change history for this workbook.
 
 **Returns:**
 int
@@ -204,7 +204,7 @@ public void setDaysPreservingHistory(int value)
 ```
 
 
-For the description of this property, please see [getDaysPreservingHistory()](../../com.aspose.cells/revisionlogcollection\#getDaysPreservingHistory--)
+Sets the number of days the spreadsheet application will keep the change history for this workbook.
 
 **Parameters:**
 | Parameter | Type | Description |

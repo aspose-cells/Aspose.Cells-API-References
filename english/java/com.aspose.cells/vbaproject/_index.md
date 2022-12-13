@@ -32,7 +32,7 @@ Represents the VBA project.
 | [getClass()](#getClass--) |  |
 | [getIslockedForViewing()](#getIslockedForViewing--) | Indicates whether this VBA project is locked for viewing. |
 | [getModules()](#getModules--) | Gets all [VbaModule](../../com.aspose.cells/vbamodule) objects. |
-| [getName()](#getName--) | the name of the VBA project. |
+| [getName()](#getName--) | Gets the name of the VBA project. |
 | [getReferences()](#getReferences--) | Gets all references of VBA project. |
 | [hashCode()](#hashCode--) |  |
 | [isProtected()](#isProtected--) | Indicates whether this VBA project is protected. |
@@ -41,7 +41,7 @@ Represents the VBA project.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [protect(boolean islockedForViewing, String password)](#protect-boolean-java.lang.String-) | Protects or unprotects this VBA project. |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/vbaproject\#getName--) |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the VBA project. |
 | [sign(DigitalSignature digitalSignature)](#sign-com.aspose.cells.DigitalSignature-) | Sign this VBA project by a DigitalSignature |
 | [toString()](#toString--) |  |
 | [validatePassword(String password)](#validatePassword-java.lang.String-) | Validates protection password. |
@@ -122,7 +122,7 @@ public String getName()
 ```
 
 
-the name of the VBA project.
+Gets the name of the VBA project.
 
 **Returns:**
 java.lang.String
@@ -212,7 +212,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/vbaproject\#getName--)
+Sets the name of the VBA project.
 
 **Parameters:**
 | Parameter | Type | Description |

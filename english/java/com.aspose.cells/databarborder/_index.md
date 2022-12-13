@@ -19,13 +19,13 @@ Represents the border of the data bars specified by a conditional formatting rul
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | the border's color of data bars specified by a conditional formatting rule. |
-| [getType()](#getType--) | the border's type of data bars specified by a conditional formatting rule. |
+| [getColor()](#getColor--) | Gets the border's color of data bars specified by a conditional formatting rule. |
+| [getType()](#getType--) | Gets the border's type of data bars specified by a conditional formatting rule. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/databarborder\#getColor--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/databarborder\#getType--) |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets the border's color of data bars specified by a conditional formatting rule. |
+| [setType(int value)](#setType-int-) | Sets the border's type of data bars specified by a conditional formatting rule. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public Color getColor()
 ```
 
 
-the border's color of data bars specified by a conditional formatting rule.
+Gets the border's color of data bars specified by a conditional formatting rule.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -71,7 +71,7 @@ public int getType()
 ```
 
 
-the border's type of data bars specified by a conditional formatting rule.
+Gets the border's type of data bars specified by a conditional formatting rule.
 
 **Returns:**
 int
@@ -107,7 +107,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/databarborder\#getColor--)
+Sets the border's color of data bars specified by a conditional formatting rule.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +120,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/databarborder\#getType--)
+Sets the border's type of data bars specified by a conditional formatting rule.
 
 **Parameters:**
 | Parameter | Type | Description |

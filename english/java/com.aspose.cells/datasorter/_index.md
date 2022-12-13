@@ -52,7 +52,7 @@ Summary description for DataSorter.
 | [addKey(int key, int order, String[] customList)](#addKey-int-int-java.lang.String---) | Adds sorted column index and sort order with custom sort list. |
 | [clear()](#clear--) | Clear all settings. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCaseSensitive()](#getCaseSensitive--) | whether case sensitive when comparing string. |
+| [getCaseSensitive()](#getCaseSensitive--) | Gets whether case sensitive when comparing string. |
 | [getClass()](#getClass--) |  |
 | [getKey1()](#getKey1--) | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
 | [getKey2()](#getKey2--) | Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
@@ -67,16 +67,16 @@ Summary description for DataSorter.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | For the description of this property, please see [getCaseSensitive()](../../com.aspose.cells/datasorter\#getCaseSensitive--) |
-| [setHasHeaders(boolean value)](#setHasHeaders-boolean-) | For the description of this property, please see [hasHeaders()](../../com.aspose.cells/datasorter\#hasHeaders--) |
-| [setKey1(int value)](#setKey1-int-) | For the description of this property, please see [getKey1()](../../com.aspose.cells/datasorter\#getKey1--) |
-| [setKey2(int value)](#setKey2-int-) | For the description of this property, please see [getKey2()](../../com.aspose.cells/datasorter\#getKey2--) |
-| [setKey3(int value)](#setKey3-int-) | For the description of this property, please see [getKey3()](../../com.aspose.cells/datasorter\#getKey3--) |
-| [setOrder1(int value)](#setOrder1-int-) | For the description of this property, please see [getOrder1()](../../com.aspose.cells/datasorter\#getOrder1--) |
-| [setOrder2(int value)](#setOrder2-int-) | For the description of this property, please see [getOrder2()](../../com.aspose.cells/datasorter\#getOrder2--) |
-| [setOrder3(int value)](#setOrder3-int-) | For the description of this property, please see [getOrder3()](../../com.aspose.cells/datasorter\#getOrder3--) |
-| [setSortAsNumber(boolean value)](#setSortAsNumber-boolean-) | For the description of this property, please see [getSortAsNumber()](../../com.aspose.cells/datasorter\#getSortAsNumber--) |
-| [setSortLeftToRight(boolean value)](#setSortLeftToRight-boolean-) | For the description of this property, please see [getSortLeftToRight()](../../com.aspose.cells/datasorter\#getSortLeftToRight--) |
+| [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | Sets whether case sensitive when comparing string. |
+| [setHasHeaders(boolean value)](#setHasHeaders-boolean-) | Represents whether the range has headers. |
+| [setKey1(int value)](#setKey1-int-) | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [setKey2(int value)](#setKey2-int-) | Represents second sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [setKey3(int value)](#setKey3-int-) | Represents third sorted column index(absolute position, column A is 0, B is 1, ...). |
+| [setOrder1(int value)](#setOrder1-int-) | Represents sort order of the first key. |
+| [setOrder2(int value)](#setOrder2-int-) | Represents sort order of the second key. |
+| [setOrder3(int value)](#setOrder3-int-) | Represents sort order of the third key. |
+| [setSortAsNumber(boolean value)](#setSortAsNumber-boolean-) | Indicates whether sorting anything that looks like a number. |
+| [setSortLeftToRight(boolean value)](#setSortLeftToRight-boolean-) | True means that sorting orientation is from left to right. |
 | [sort()](#sort--) | Sort the data in the range. |
 | [sort(Cells cells, CellArea area)](#sort-com.aspose.cells.Cells-com.aspose.cells.CellArea-) | Sort the data of the area. |
 | [sort(Cells cells, int startRow, int startColumn, int endRow, int endColumn)](#sort-com.aspose.cells.Cells-int-int-int-int-) | Sorts the data of the area. |
@@ -173,7 +173,7 @@ public boolean getCaseSensitive()
 ```
 
 
-whether case sensitive when comparing string.
+Gets whether case sensitive when comparing string.
 
 **Returns:**
 boolean
@@ -319,7 +319,7 @@ public void setCaseSensitive(boolean value)
 ```
 
 
-For the description of this property, please see [getCaseSensitive()](../../com.aspose.cells/datasorter\#getCaseSensitive--)
+Sets whether case sensitive when comparing string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -332,7 +332,7 @@ public void setHasHeaders(boolean value)
 ```
 
 
-For the description of this property, please see [hasHeaders()](../../com.aspose.cells/datasorter\#hasHeaders--)
+Represents whether the range has headers.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -345,7 +345,7 @@ public void setKey1(int value)
 ```
 
 
-For the description of this property, please see [getKey1()](../../com.aspose.cells/datasorter\#getKey1--)
+Represents first sorted column index(absolute position, column A is 0, B is 1, ...).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -358,7 +358,7 @@ public void setKey2(int value)
 ```
 
 
-For the description of this property, please see [getKey2()](../../com.aspose.cells/datasorter\#getKey2--)
+Represents second sorted column index(absolute position, column A is 0, B is 1, ...).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -371,7 +371,7 @@ public void setKey3(int value)
 ```
 
 
-For the description of this property, please see [getKey3()](../../com.aspose.cells/datasorter\#getKey3--)
+Represents third sorted column index(absolute position, column A is 0, B is 1, ...).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -384,7 +384,7 @@ public void setOrder1(int value)
 ```
 
 
-For the description of this property, please see [getOrder1()](../../com.aspose.cells/datasorter\#getOrder1--)
+Represents sort order of the first key.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -397,7 +397,7 @@ public void setOrder2(int value)
 ```
 
 
-For the description of this property, please see [getOrder2()](../../com.aspose.cells/datasorter\#getOrder2--)
+Represents sort order of the second key.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -410,7 +410,7 @@ public void setOrder3(int value)
 ```
 
 
-For the description of this property, please see [getOrder3()](../../com.aspose.cells/datasorter\#getOrder3--)
+Represents sort order of the third key.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -423,7 +423,7 @@ public void setSortAsNumber(boolean value)
 ```
 
 
-For the description of this property, please see [getSortAsNumber()](../../com.aspose.cells/datasorter\#getSortAsNumber--)
+Indicates whether sorting anything that looks like a number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -436,7 +436,7 @@ public void setSortLeftToRight(boolean value)
 ```
 
 
-For the description of this property, please see [getSortLeftToRight()](../../com.aspose.cells/datasorter\#getSortLeftToRight--)
+True means that sorting orientation is from left to right. False means that sorting orientation is from top to bottom. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

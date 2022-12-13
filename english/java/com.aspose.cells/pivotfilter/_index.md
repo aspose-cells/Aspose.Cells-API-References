@@ -88,12 +88,12 @@ Workbook book = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEvaluationOrder(int value)](#setEvaluationOrder-int-) | For the description of this property, please see [getEvaluationOrder()](../../com.aspose.cells/pivotfilter\#getEvaluationOrder--) |
-| [setMeasureFldIndex(int value)](#setMeasureFldIndex-int-) | For the description of this property, please see [getMeasureFldIndex()](../../com.aspose.cells/pivotfilter\#getMeasureFldIndex--) |
-| [setMemberPropertyFieldIndex(int value)](#setMemberPropertyFieldIndex-int-) | For the description of this property, please see [getMemberPropertyFieldIndex()](../../com.aspose.cells/pivotfilter\#getMemberPropertyFieldIndex--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/pivotfilter\#getName--) |
-| [setValue1(String value)](#setValue1-java.lang.String-) | For the description of this property, please see [getValue1()](../../com.aspose.cells/pivotfilter\#getValue1--) |
-| [setValue2(String value)](#setValue2-java.lang.String-) | For the description of this property, please see [getValue2()](../../com.aspose.cells/pivotfilter\#getValue2--) |
+| [setEvaluationOrder(int value)](#setEvaluationOrder-int-) | Gets the Evaluation Order of the pivot filter. |
+| [setMeasureFldIndex(int value)](#setMeasureFldIndex-int-) | Gets the measure field index of the pivot filter. |
+| [setMemberPropertyFieldIndex(int value)](#setMemberPropertyFieldIndex-int-) | Gets the member property field index of the pivot filter. |
+| [setName(String value)](#setName-java.lang.String-) | Gets the name of the pivot filter. |
+| [setValue1(String value)](#setValue1-java.lang.String-) | Gets the string value1 of the label pivot filter. |
+| [setValue2(String value)](#setValue2-java.lang.String-) | Gets the string value2 of the label pivot filter. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -245,7 +245,7 @@ public void setEvaluationOrder(int value)
 ```
 
 
-For the description of this property, please see [getEvaluationOrder()](../../com.aspose.cells/pivotfilter\#getEvaluationOrder--)
+Gets the Evaluation Order of the pivot filter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public void setMeasureFldIndex(int value)
 ```
 
 
-For the description of this property, please see [getMeasureFldIndex()](../../com.aspose.cells/pivotfilter\#getMeasureFldIndex--)
+Gets the measure field index of the pivot filter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public void setMemberPropertyFieldIndex(int value)
 ```
 
 
-For the description of this property, please see [getMemberPropertyFieldIndex()](../../com.aspose.cells/pivotfilter\#getMemberPropertyFieldIndex--)
+Gets the member property field index of the pivot filter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -284,7 +284,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/pivotfilter\#getName--)
+Gets the name of the pivot filter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -297,7 +297,7 @@ public void setValue1(String value)
 ```
 
 
-For the description of this property, please see [getValue1()](../../com.aspose.cells/pivotfilter\#getValue1--)
+Gets the string value1 of the label pivot filter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -310,7 +310,7 @@ public void setValue2(String value)
 ```
 
 
-For the description of this property, please see [getValue2()](../../com.aspose.cells/pivotfilter\#getValue2--)
+Gets the string value2 of the label pivot filter.
 
 **Parameters:**
 | Parameter | Type | Description |

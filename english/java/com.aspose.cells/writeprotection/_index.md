@@ -23,16 +23,16 @@ Specifies write protection settings for a workbook.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAuthor()](#getAuthor--) | the author. |
+| [getAuthor()](#getAuthor--) | Gets the author. |
 | [getClass()](#getClass--) |  |
 | [getRecommendReadOnly()](#getRecommendReadOnly--) | Indicates if the Read Only Recommended option is selected. |
 | [hashCode()](#hashCode--) |  |
 | [isWriteProtected()](#isWriteProtected--) | Indicates whether this workbook is write protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | For the description of this property, please see [getAuthor()](../../com.aspose.cells/writeprotection\#getAuthor--) |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the protected password to modify the file. |
-| [setRecommendReadOnly(boolean value)](#setRecommendReadOnly-boolean-) | For the description of this property, please see [getRecommendReadOnly()](../../com.aspose.cells/writeprotection\#getRecommendReadOnly--) |
+| [setRecommendReadOnly(boolean value)](#setRecommendReadOnly-boolean-) | Indicates if the Read Only Recommended option is selected. |
 | [toString()](#toString--) |  |
 | [validatePassword(String password)](#validatePassword-java.lang.String-) | Returns true if the specified password is the same as the write-protection password the file was protected with. |
 | [wait()](#wait--) |  |
@@ -65,7 +65,7 @@ public String getAuthor()
 ```
 
 
-the author.
+Gets the author.
 
 **Returns:**
 java.lang.String
@@ -131,7 +131,7 @@ public void setAuthor(String value)
 ```
 
 
-For the description of this property, please see [getAuthor()](../../com.aspose.cells/writeprotection\#getAuthor--)
+Sets the author.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public void setRecommendReadOnly(boolean value)
 ```
 
 
-For the description of this property, please see [getRecommendReadOnly()](../../com.aspose.cells/writeprotection\#getRecommendReadOnly--)
+Indicates if the Read Only Recommended option is selected.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -24,8 +24,8 @@ Represents tab stop.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setTabAlignment(int value)](#setTabAlignment-int-) | For the description of this property, please see [getTabAlignment()](../../com.aspose.cells/texttabstop\#getTabAlignment--) |
-| [setTabPosition(double value)](#setTabPosition-double-) | For the description of this property, please see [getTabPosition()](../../com.aspose.cells/texttabstop\#getTabPosition--) |
+| [setTabAlignment(int value)](#setTabAlignment-int-) | Specifies the alignment that is to be applied to text using this tab stop. |
+| [setTabPosition(double value)](#setTabPosition-double-) | Specifies the position of the tab stop relative to the left margin. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,7 +107,7 @@ public void setTabAlignment(int value)
 ```
 
 
-For the description of this property, please see [getTabAlignment()](../../com.aspose.cells/texttabstop\#getTabAlignment--)
+Specifies the alignment that is to be applied to text using this tab stop.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +120,7 @@ public void setTabPosition(double value)
 ```
 
 
-For the description of this property, please see [getTabPosition()](../../com.aspose.cells/texttabstop\#getTabPosition--)
+Specifies the position of the tab stop relative to the left margin.
 
 **Parameters:**
 | Parameter | Type | Description |

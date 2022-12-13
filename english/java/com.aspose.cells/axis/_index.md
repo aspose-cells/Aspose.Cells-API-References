@@ -106,37 +106,37 @@ Encapsulates the object that represents a chart's axis.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoCross()](#setAutoCross--) | Sets the axis crossing point as automatic. |
-| [setAutoTickLabelSpacing(boolean value)](#setAutoTickLabelSpacing-boolean-) | For the description of this property, please see [isAutoTickLabelSpacing()](../../com.aspose.cells/axis\#isAutoTickLabelSpacing--) |
-| [setAutomaticMajorUnit(boolean value)](#setAutomaticMajorUnit-boolean-) | For the description of this property, please see [isAutomaticMajorUnit()](../../com.aspose.cells/axis\#isAutomaticMajorUnit--) |
-| [setAutomaticMaxValue(boolean value)](#setAutomaticMaxValue-boolean-) | For the description of this property, please see [isAutomaticMaxValue()](../../com.aspose.cells/axis\#isAutomaticMaxValue--) |
-| [setAutomaticMinValue(boolean value)](#setAutomaticMinValue-boolean-) | For the description of this property, please see [isAutomaticMinValue()](../../com.aspose.cells/axis\#isAutomaticMinValue--) |
-| [setAutomaticMinorUnit(boolean value)](#setAutomaticMinorUnit-boolean-) | For the description of this property, please see [isAutomaticMinorUnit()](../../com.aspose.cells/axis\#isAutomaticMinorUnit--) |
-| [setAxisBetweenCategories(boolean value)](#setAxisBetweenCategories-boolean-) | For the description of this property, please see [getAxisBetweenCategories()](../../com.aspose.cells/axis\#getAxisBetweenCategories--) |
-| [setBaseUnitAuto(boolean value)](#setBaseUnitAuto-boolean-) | For the description of this property, please see [isBaseUnitAuto()](../../com.aspose.cells/axis\#isBaseUnitAuto--) |
-| [setBaseUnitScale(int value)](#setBaseUnitScale-int-) | For the description of this property, please see [getBaseUnitScale()](../../com.aspose.cells/axis\#getBaseUnitScale--) |
-| [setCategoryType(int value)](#setCategoryType-int-) | For the description of this property, please see [getCategoryType()](../../com.aspose.cells/axis\#getCategoryType--) |
-| [setCrossAt(double value)](#setCrossAt-double-) | For the description of this property, please see [getCrossAt()](../../com.aspose.cells/axis\#getCrossAt--) |
+| [setAutoTickLabelSpacing(boolean value)](#setAutoTickLabelSpacing-boolean-) | Indicates whether the spacing of tick label is automatic |
+| [setAutomaticMajorUnit(boolean value)](#setAutomaticMajorUnit-boolean-) | Indicates whether the major unit of the axis is automatically assigned. |
+| [setAutomaticMaxValue(boolean value)](#setAutomaticMaxValue-boolean-) | Indicates whether the max value is automatically assigned. |
+| [setAutomaticMinValue(boolean value)](#setAutomaticMinValue-boolean-) | Indicates whether the min value is automatically assigned. |
+| [setAutomaticMinorUnit(boolean value)](#setAutomaticMinorUnit-boolean-) | Indicates whether the minor unit of the axis is automatically assigned. |
+| [setAxisBetweenCategories(boolean value)](#setAxisBetweenCategories-boolean-) | Represents if the value axis crosses the category axis between categories. |
+| [setBaseUnitAuto(boolean value)](#setBaseUnitAuto-boolean-) | Represents whether the base unit is automatic. |
+| [setBaseUnitScale(int value)](#setBaseUnitScale-int-) | Represents the base unit scale for the category axis. |
+| [setCategoryType(int value)](#setCategoryType-int-) | Represents the category axis type. |
+| [setCrossAt(double value)](#setCrossAt-double-) | Represents the point on the value axis where the category axis crosses it. |
 | [setCrossAtMax(boolean isCrossAtMax)](#setCrossAtMax-boolean-) | Sets whether the axis crosses at the maximum value. |
-| [setCrossType(int value)](#setCrossType-int-) | For the description of this property, please see [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) |
-| [setCustUnit(int value)](#setCustUnit-int-) | For the description of this property, please see [getCustUnit()](../../com.aspose.cells/axis\#getCustUnit--) |
-| [setDisplayUnit(int value)](#setDisplayUnit-int-) | For the description of this property, please see [getDisplayUnit()](../../com.aspose.cells/axis\#getDisplayUnit--) |
-| [setDisplayUnitLabelShown(boolean value)](#setDisplayUnitLabelShown-boolean-) | For the description of this property, please see [isDisplayUnitLabelShown()](../../com.aspose.cells/axis\#isDisplayUnitLabelShown--) |
-| [setHasMultiLevelLabels(boolean value)](#setHasMultiLevelLabels-boolean-) | For the description of this property, please see [hasMultiLevelLabels()](../../com.aspose.cells/axis\#hasMultiLevelLabels--) |
-| [setLogBase(double value)](#setLogBase-double-) | For the description of this property, please see [getLogBase()](../../com.aspose.cells/axis\#getLogBase--) |
-| [setLogarithmic(boolean value)](#setLogarithmic-boolean-) | For the description of this property, please see [isLogarithmic()](../../com.aspose.cells/axis\#isLogarithmic--) |
-| [setMajorTickMark(int value)](#setMajorTickMark-int-) | For the description of this property, please see [getMajorTickMark()](../../com.aspose.cells/axis\#getMajorTickMark--) |
-| [setMajorUnit(double value)](#setMajorUnit-double-) | For the description of this property, please see [getMajorUnit()](../../com.aspose.cells/axis\#getMajorUnit--) |
-| [setMajorUnitScale(int value)](#setMajorUnitScale-int-) | For the description of this property, please see [getMajorUnitScale()](../../com.aspose.cells/axis\#getMajorUnitScale--) |
-| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | For the description of this property, please see [getMaxValue()](../../com.aspose.cells/axis\#getMaxValue--) |
-| [setMinValue(Object value)](#setMinValue-java.lang.Object-) | For the description of this property, please see [getMinValue()](../../com.aspose.cells/axis\#getMinValue--) |
-| [setMinorTickMark(int value)](#setMinorTickMark-int-) | For the description of this property, please see [getMinorTickMark()](../../com.aspose.cells/axis\#getMinorTickMark--) |
-| [setMinorUnit(double value)](#setMinorUnit-double-) | For the description of this property, please see [getMinorUnit()](../../com.aspose.cells/axis\#getMinorUnit--) |
-| [setMinorUnitScale(int value)](#setMinorUnitScale-int-) | For the description of this property, please see [getMinorUnitScale()](../../com.aspose.cells/axis\#getMinorUnitScale--) |
-| [setPlotOrderReversed(boolean value)](#setPlotOrderReversed-boolean-) | For the description of this property, please see [isPlotOrderReversed()](../../com.aspose.cells/axis\#isPlotOrderReversed--) |
-| [setTickLabelPosition(int value)](#setTickLabelPosition-int-) | For the description of this property, please see [getTickLabelPosition()](../../com.aspose.cells/axis\#getTickLabelPosition--) |
-| [setTickLabelSpacing(int value)](#setTickLabelSpacing-int-) | For the description of this property, please see [getTickLabelSpacing()](../../com.aspose.cells/axis\#getTickLabelSpacing--) |
-| [setTickMarkSpacing(int value)](#setTickMarkSpacing-int-) | For the description of this property, please see [getTickMarkSpacing()](../../com.aspose.cells/axis\#getTickMarkSpacing--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/axis\#isVisible--) |
+| [setCrossType(int value)](#setCrossType-int-) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
+| [setCustUnit(int value)](#setCustUnit-int-) | Specifies a custom value for the display unit. |
+| [setDisplayUnit(int value)](#setDisplayUnit-int-) | Represents the unit label for the specified axis. |
+| [setDisplayUnitLabelShown(boolean value)](#setDisplayUnitLabelShown-boolean-) | Represents if the display unit label is shown on the specified axis. |
+| [setHasMultiLevelLabels(boolean value)](#setHasMultiLevelLabels-boolean-) | Indicates whether the labels shall be shown as multi level. |
+| [setLogBase(double value)](#setLogBase-double-) | Represents the logarithmic base. |
+| [setLogarithmic(boolean value)](#setLogarithmic-boolean-) | Represents if the value axis scale type is logarithmic or not. |
+| [setMajorTickMark(int value)](#setMajorTickMark-int-) | Represents the type of major tick mark for the specified axis. |
+| [setMajorUnit(double value)](#setMajorUnit-double-) | Represents the major units for the axis. |
+| [setMajorUnitScale(int value)](#setMajorUnitScale-int-) | Represents the major unit scale for the category axis. |
+| [setMaxValue(Object value)](#setMaxValue-java.lang.Object-) | Represents the maximum value on the value axis. |
+| [setMinValue(Object value)](#setMinValue-java.lang.Object-) | Represents the minimum value on the value axis. |
+| [setMinorTickMark(int value)](#setMinorTickMark-int-) | Represents the type of minor tick mark for the specified axis. |
+| [setMinorUnit(double value)](#setMinorUnit-double-) | Represents the minor units for the axis. |
+| [setMinorUnitScale(int value)](#setMinorUnitScale-int-) | Represents the major unit scale for the category axis. |
+| [setPlotOrderReversed(boolean value)](#setPlotOrderReversed-boolean-) | Represents if Microsoft Excel plots data points from last to first. |
+| [setTickLabelPosition(int value)](#setTickLabelPosition-int-) | Represents the position of tick-mark labels on the specified axis. |
+| [setTickLabelSpacing(int value)](#setTickLabelSpacing-int-) | Represents the number of categories or series between tick-mark labels. |
+| [setTickMarkSpacing(int value)](#setTickMarkSpacing-int-) | Returns or sets the number of categories or series between tick marks. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Represents if the axis is visible. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -633,7 +633,7 @@ public void setAutoTickLabelSpacing(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoTickLabelSpacing()](../../com.aspose.cells/axis\#isAutoTickLabelSpacing--)
+Indicates whether the spacing of tick label is automatic
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -646,7 +646,7 @@ public void setAutomaticMajorUnit(boolean value)
 ```
 
 
-For the description of this property, please see [isAutomaticMajorUnit()](../../com.aspose.cells/axis\#isAutomaticMajorUnit--)
+Indicates whether the major unit of the axis is automatically assigned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -659,7 +659,7 @@ public void setAutomaticMaxValue(boolean value)
 ```
 
 
-For the description of this property, please see [isAutomaticMaxValue()](../../com.aspose.cells/axis\#isAutomaticMaxValue--)
+Indicates whether the max value is automatically assigned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -672,7 +672,7 @@ public void setAutomaticMinValue(boolean value)
 ```
 
 
-For the description of this property, please see [isAutomaticMinValue()](../../com.aspose.cells/axis\#isAutomaticMinValue--)
+Indicates whether the min value is automatically assigned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -685,7 +685,7 @@ public void setAutomaticMinorUnit(boolean value)
 ```
 
 
-For the description of this property, please see [isAutomaticMinorUnit()](../../com.aspose.cells/axis\#isAutomaticMinorUnit--)
+Indicates whether the minor unit of the axis is automatically assigned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -698,7 +698,7 @@ public void setAxisBetweenCategories(boolean value)
 ```
 
 
-For the description of this property, please see [getAxisBetweenCategories()](../../com.aspose.cells/axis\#getAxisBetweenCategories--)
+Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -711,7 +711,7 @@ public void setBaseUnitAuto(boolean value)
 ```
 
 
-For the description of this property, please see [isBaseUnitAuto()](../../com.aspose.cells/axis\#isBaseUnitAuto--)
+Represents whether the base unit is automatic.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -724,7 +724,7 @@ public void setBaseUnitScale(int value)
 ```
 
 
-For the description of this property, please see [getBaseUnitScale()](../../com.aspose.cells/axis\#getBaseUnitScale--)
+Represents the base unit scale for the category axis. Setting this property only takes effect when the CategoryType property is set to TimeScale.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -737,7 +737,7 @@ public void setCategoryType(int value)
 ```
 
 
-For the description of this property, please see [getCategoryType()](../../com.aspose.cells/axis\#getCategoryType--)
+Represents the category axis type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -750,7 +750,7 @@ public void setCrossAt(double value)
 ```
 
 
-For the description of this property, please see [getCrossAt()](../../com.aspose.cells/axis\#getCrossAt--)
+Represents the point on the value axis where the category axis crosses it. The number should be a integer when it applies to category axis. And the value must be between 1 and 31999.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -776,7 +776,7 @@ public void setCrossType(int value)
 ```
 
 
-For the description of this property, please see [getCrossType()](../../com.aspose.cells/axis\#getCrossType--)
+Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -789,7 +789,7 @@ public void setCustUnit(int value)
 ```
 
 
-For the description of this property, please see [getCustUnit()](../../com.aspose.cells/axis\#getCustUnit--)
+Specifies a custom value for the display unit.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -802,7 +802,7 @@ public void setDisplayUnit(int value)
 ```
 
 
-For the description of this property, please see [getDisplayUnit()](../../com.aspose.cells/axis\#getDisplayUnit--)
+Represents the unit label for the specified axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -815,7 +815,7 @@ public void setDisplayUnitLabelShown(boolean value)
 ```
 
 
-For the description of this property, please see [isDisplayUnitLabelShown()](../../com.aspose.cells/axis\#isDisplayUnitLabelShown--)
+Represents if the display unit label is shown on the specified axis. The default value is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -828,7 +828,7 @@ public void setHasMultiLevelLabels(boolean value)
 ```
 
 
-For the description of this property, please see [hasMultiLevelLabels()](../../com.aspose.cells/axis\#hasMultiLevelLabels--)
+Indicates whether the labels shall be shown as multi level. Only valid for category axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -841,7 +841,7 @@ public void setLogBase(double value)
 ```
 
 
-For the description of this property, please see [getLogBase()](../../com.aspose.cells/axis\#getLogBase--)
+Represents the logarithmic base. Default value is 10.Only applies for Excel2007.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -854,7 +854,7 @@ public void setLogarithmic(boolean value)
 ```
 
 
-For the description of this property, please see [isLogarithmic()](../../com.aspose.cells/axis\#isLogarithmic--)
+Represents if the value axis scale type is logarithmic or not.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -867,7 +867,7 @@ public void setMajorTickMark(int value)
 ```
 
 
-For the description of this property, please see [getMajorTickMark()](../../com.aspose.cells/axis\#getMajorTickMark--)
+Represents the type of major tick mark for the specified axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -880,7 +880,7 @@ public void setMajorUnit(double value)
 ```
 
 
-For the description of this property, please see [getMajorUnit()](../../com.aspose.cells/axis\#getMajorUnit--)
+Represents the major units for the axis. The major units must be greater than zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -893,7 +893,7 @@ public void setMajorUnitScale(int value)
 ```
 
 
-For the description of this property, please see [getMajorUnitScale()](../../com.aspose.cells/axis\#getMajorUnitScale--)
+Represents the major unit scale for the category axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -906,7 +906,7 @@ public void setMaxValue(Object value)
 ```
 
 
-For the description of this property, please see [getMaxValue()](../../com.aspose.cells/axis\#getMaxValue--)
+Represents the maximum value on the value axis. The maxValue type only can be double or DateTime
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -919,7 +919,7 @@ public void setMinValue(Object value)
 ```
 
 
-For the description of this property, please see [getMinValue()](../../com.aspose.cells/axis\#getMinValue--)
+Represents the minimum value on the value axis. The minValue type only can be double or DateTime
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -932,7 +932,7 @@ public void setMinorTickMark(int value)
 ```
 
 
-For the description of this property, please see [getMinorTickMark()](../../com.aspose.cells/axis\#getMinorTickMark--)
+Represents the type of minor tick mark for the specified axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -945,7 +945,7 @@ public void setMinorUnit(double value)
 ```
 
 
-For the description of this property, please see [getMinorUnit()](../../com.aspose.cells/axis\#getMinorUnit--)
+Represents the minor units for the axis. The minor units must be greater than zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -958,7 +958,7 @@ public void setMinorUnitScale(int value)
 ```
 
 
-For the description of this property, please see [getMinorUnitScale()](../../com.aspose.cells/axis\#getMinorUnitScale--)
+Represents the major unit scale for the category axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -971,7 +971,7 @@ public void setPlotOrderReversed(boolean value)
 ```
 
 
-For the description of this property, please see [isPlotOrderReversed()](../../com.aspose.cells/axis\#isPlotOrderReversed--)
+Represents if Microsoft Excel plots data points from last to first.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -984,7 +984,7 @@ public void setTickLabelPosition(int value)
 ```
 
 
-For the description of this property, please see [getTickLabelPosition()](../../com.aspose.cells/axis\#getTickLabelPosition--)
+Represents the position of tick-mark labels on the specified axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -997,7 +997,7 @@ public void setTickLabelSpacing(int value)
 ```
 
 
-For the description of this property, please see [getTickLabelSpacing()](../../com.aspose.cells/axis\#getTickLabelSpacing--)
+Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. The number must be between 1 and 31999.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1010,7 +1010,7 @@ public void setTickMarkSpacing(int value)
 ```
 
 
-For the description of this property, please see [getTickMarkSpacing()](../../com.aspose.cells/axis\#getTickMarkSpacing--)
+Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. The number must be between 1 and 31999.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1023,7 +1023,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/axis\#isVisible--)
+Represents if the axis is visible.
 
 **Parameters:**
 | Parameter | Type | Description |

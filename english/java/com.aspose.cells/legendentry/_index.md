@@ -19,21 +19,21 @@ Represents a legend entry in a chart legend.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | the display mode of the background NOTE: This member is now obsolete. |
-| [getBackgroundMode()](#getBackgroundMode--) | the display mode of the background |
+| [getBackground()](#getBackground--) | Gets the display mode of the background NOTE: This member is now obsolete. |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getClass()](#getClass--) |  |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified LegendEntry object. |
 | [hashCode()](#hashCode--) |  |
-| [isDeleted()](#isDeleted--) | whether the legend entry is deleted. |
-| [isTextNoFill()](#isTextNoFill--) | no fill of the text. |
+| [isDeleted()](#isDeleted--) | Gets whether the legend entry is deleted. |
+| [isTextNoFill()](#isTextNoFill--) | Gets no fill of the text. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/legendentry\#getAutoScaleFont--) |
-| [setBackground(int value)](#setBackground-int-) | For the description of this property, please see [getBackground()](../../com.aspose.cells/legendentry\#getBackground--) |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/legendentry\#getBackgroundMode--) |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see [isDeleted()](../../com.aspose.cells/legendentry\#isDeleted--) |
-| [setTextNoFill(boolean value)](#setTextNoFill-boolean-) | For the description of this property, please see [isTextNoFill()](../../com.aspose.cells/legendentry\#isTextNoFill--) |
+| [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background NOTE: This member is now obsolete. |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Sets whether the legend entry is deleted. |
+| [setTextNoFill(boolean value)](#setTextNoFill-boolean-) | Sets no fill of the text. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -69,7 +69,7 @@ public int getBackground()
 ```
 
 
-the display mode of the background NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the display mode of the background NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -79,7 +79,7 @@ public int getBackgroundMode()
 ```
 
 
-the display mode of the background
+Gets the display mode of the background
 
 **Returns:**
 int
@@ -129,7 +129,7 @@ public boolean isDeleted()
 ```
 
 
-whether the legend entry is deleted.
+Gets whether the legend entry is deleted.
 
 **Returns:**
 boolean
@@ -139,7 +139,7 @@ public boolean isTextNoFill()
 ```
 
 
-no fill of the text.
+Gets no fill of the text.
 
 **Returns:**
 boolean
@@ -165,7 +165,7 @@ public void setAutoScaleFont(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoScaleFont()](../../com.aspose.cells/legendentry\#getAutoScaleFont--)
+True if the text in the object changes font size when the object size changes. The default value is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -178,7 +178,7 @@ public void setBackground(int value)
 ```
 
 
-For the description of this property, please see [getBackground()](../../com.aspose.cells/legendentry\#getBackground--)
+Sets the display mode of the background NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -191,7 +191,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-For the description of this property, please see [getBackgroundMode()](../../com.aspose.cells/legendentry\#getBackgroundMode--)
+Sets the display mode of the background
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setDeleted(boolean value)
 ```
 
 
-For the description of this property, please see [isDeleted()](../../com.aspose.cells/legendentry\#isDeleted--)
+Sets whether the legend entry is deleted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setTextNoFill(boolean value)
 ```
 
 
-For the description of this property, please see [isTextNoFill()](../../com.aspose.cells/legendentry\#isTextNoFill--)
+Sets no fill of the text.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -60,10 +60,10 @@ Workbook workbook = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [freezePanes(int row, int column, int freezedRows, int freezedColumns)](#freezePanes-int-int-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [freezePanes(String cellName, int freezedRows, int freezedColumns)](#freezePanes-java.lang.String-int-int-) | Freezes panes at the specified cell in the worksheet. |
-| [getActiveCell()](#getActiveCell--) | the active cell in the worksheet. |
+| [getActiveCell()](#getActiveCell--) | Gets the active cell in the worksheet. |
 | [getAllowEditRanges()](#getAllowEditRanges--) | Gets the allow edit range collection in the worksheet. |
 | [getAutoFilter()](#getAutoFilter--) | Represents auto filter for the specified worksheet. |
-| [getBackgroundImage()](#getBackgroundImage--) | worksheet background image. |
+| [getBackgroundImage()](#getBackgroundImage--) | Gets worksheet background image. |
 | [getCellWatches()](#getCellWatches--) | Gets collection of cells on this worksheet being watched in the 'watch window'. |
 | [getCells()](#getCells--) | Gets the [Cells](../../com.aspose.cells/cells) collection. |
 | [getCharts()](#getCharts--) | Gets a [Chart](../../com.aspose.cells/chart) collection |
@@ -83,7 +83,7 @@ Workbook workbook = new Workbook();
 | [getHyperlinks()](#getHyperlinks--) | Gets the [HyperlinkCollection](../../com.aspose.cells/hyperlinkcollection) collection. |
 | [getIndex()](#getIndex--) | Gets the index of sheet in the worksheet collection. |
 | [getListObjects()](#getListObjects--) | Gets all ListObjects in this worksheet. |
-| [getName()](#getName--) | the name of the worksheet. |
+| [getName()](#getName--) | Gets the name of the worksheet. |
 | [getOleObjects()](#getOleObjects--) | Represents a collection of [OleObject](../../com.aspose.cells/oleobject) in a worksheet. |
 | [getOutline()](#getOutline--) | Gets the outline on this worksheet. |
 | [getPageSetup()](#getPageSetup--) | Represents the page setup description in this sheet. |
@@ -109,20 +109,20 @@ Workbook workbook = new Workbook();
 | [getTransitionEntry()](#getTransitionEntry--) | Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled. |
 | [getTransitionEvaluation()](#getTransitionEvaluation--) | Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled. |
 | [getType()](#getType--) | Represents worksheet type. |
-| [getUniqueId()](#getUniqueId--) | the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}. |
+| [getUniqueId()](#getUniqueId--) | Gets the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}. |
 | [getValidations()](#getValidations--) | Gets the data validation setting collection in the worksheet. |
 | [getVerticalPageBreaks()](#getVerticalPageBreaks--) | Gets the [VerticalPageBreakCollection](../../com.aspose.cells/verticalpagebreakcollection) collection. |
-| [getViewType()](#getViewType--) | the view type. |
+| [getViewType()](#getViewType--) | Gets the view type. |
 | [getVisibilityType()](#getVisibilityType--) | Indicates the visible state for this sheet. |
 | [getWorkbook()](#getWorkbook--) | Gets the workbook object which contains this sheet. |
 | [getZoom()](#getZoom--) | Represents the scaling factor in percentage. |
 | [hasAutofilter()](#hasAutofilter--) | Indicates whether this worksheet has auto filter. |
 | [hashCode()](#hashCode--) |  |
-| [isGridlinesVisible()](#isGridlinesVisible--) | a value indicating whether the gridlines are visible.Default is true. |
+| [isGridlinesVisible()](#isGridlinesVisible--) | Gets a value indicating whether the gridlines are visible.Default is true. |
 | [isOutlineShown()](#isOutlineShown--) | Indicates whether to show outline. |
 | [isPageBreakPreview()](#isPageBreakPreview--) | Indicates whether the specified worksheet is shown in normal view or page break preview. |
 | [isProtected()](#isProtected--) | Indicates if the worksheet is protected. |
-| [isRowColumnHeadersVisible()](#isRowColumnHeadersVisible--) | a value indicating whether the worksheet will display row and column headers. |
+| [isRowColumnHeadersVisible()](#isRowColumnHeadersVisible--) | Gets a value indicating whether the worksheet will display row and column headers. |
 | [isRulerVisible()](#isRulerVisible--) | Indicates whether the ruler is visible. |
 | [isSelected()](#isSelected--) | Indicates whether this worksheet is selected when the workbook is opened. |
 | [isVisible()](#isVisible--) | Represents if the worksheet is visible. |
@@ -137,33 +137,33 @@ Workbook workbook = new Workbook();
 | [removeSplit()](#removeSplit--) | Removes split window. |
 | [replace(String oldString, String newString)](#replace-java.lang.String-java.lang.String-) | Replaces all cells' text with a new string. |
 | [selectRange(int startRow, int startColumn, int totalRows, int totalColumns, boolean removeOthers)](#selectRange-int-int-int-int-boolean-) | Selects a range. |
-| [setActiveCell(String value)](#setActiveCell-java.lang.String-) | For the description of this property, please see [getActiveCell()](../../com.aspose.cells/worksheet\#getActiveCell--) |
+| [setActiveCell(String value)](#setActiveCell-java.lang.String-) | Sets the active cell in the worksheet. |
 | [setBackground(byte[] pictureData)](#setBackground-byte---) | Sets worksheet background image. |
-| [setBackgroundImage(byte[] value)](#setBackgroundImage-byte---) | For the description of this property, please see [getBackgroundImage()](../../com.aspose.cells/worksheet\#getBackgroundImage--) |
-| [setCodeName(String value)](#setCodeName-java.lang.String-) | For the description of this property, please see [getCodeName()](../../com.aspose.cells/worksheet\#getCodeName--) |
-| [setDisplayRightToLeft(boolean value)](#setDisplayRightToLeft-boolean-) | For the description of this property, please see [getDisplayRightToLeft()](../../com.aspose.cells/worksheet\#getDisplayRightToLeft--) |
-| [setDisplayZeros(boolean value)](#setDisplayZeros-boolean-) | For the description of this property, please see [getDisplayZeros()](../../com.aspose.cells/worksheet\#getDisplayZeros--) |
-| [setFirstVisibleColumn(int value)](#setFirstVisibleColumn-int-) | For the description of this property, please see [getFirstVisibleColumn()](../../com.aspose.cells/worksheet\#getFirstVisibleColumn--) |
-| [setFirstVisibleRow(int value)](#setFirstVisibleRow-int-) | For the description of this property, please see [getFirstVisibleRow()](../../com.aspose.cells/worksheet\#getFirstVisibleRow--) |
-| [setGridlinesVisible(boolean value)](#setGridlinesVisible-boolean-) | For the description of this property, please see [isGridlinesVisible()](../../com.aspose.cells/worksheet\#isGridlinesVisible--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/worksheet\#getName--) |
-| [setOutlineShown(boolean value)](#setOutlineShown-boolean-) | For the description of this property, please see [isOutlineShown()](../../com.aspose.cells/worksheet\#isOutlineShown--) |
-| [setPageBreakPreview(boolean value)](#setPageBreakPreview-boolean-) | For the description of this property, please see [isPageBreakPreview()](../../com.aspose.cells/worksheet\#isPageBreakPreview--) |
-| [setRowColumnHeadersVisible(boolean value)](#setRowColumnHeadersVisible-boolean-) | For the description of this property, please see [isRowColumnHeadersVisible()](../../com.aspose.cells/worksheet\#isRowColumnHeadersVisible--) |
-| [setRulerVisible(boolean value)](#setRulerVisible-boolean-) | For the description of this property, please see [isRulerVisible()](../../com.aspose.cells/worksheet\#isRulerVisible--) |
-| [setSelected(boolean value)](#setSelected-boolean-) | For the description of this property, please see [isSelected()](../../com.aspose.cells/worksheet\#isSelected--) |
-| [setShowFormulas(boolean value)](#setShowFormulas-boolean-) | For the description of this property, please see [getShowFormulas()](../../com.aspose.cells/worksheet\#getShowFormulas--) |
-| [setTabColor(Color value)](#setTabColor-com.aspose.cells.Color-) | For the description of this property, please see [getTabColor()](../../com.aspose.cells/worksheet\#getTabColor--) |
-| [setTabId(int value)](#setTabId-int-) | For the description of this property, please see [getTabId()](../../com.aspose.cells/worksheet\#getTabId--) |
-| [setTransitionEntry(boolean value)](#setTransitionEntry-boolean-) | For the description of this property, please see [getTransitionEntry()](../../com.aspose.cells/worksheet\#getTransitionEntry--) |
-| [setTransitionEvaluation(boolean value)](#setTransitionEvaluation-boolean-) | For the description of this property, please see [getTransitionEvaluation()](../../com.aspose.cells/worksheet\#getTransitionEvaluation--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/worksheet\#getType--) |
-| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | For the description of this property, please see [getUniqueId()](../../com.aspose.cells/worksheet\#getUniqueId--) |
-| [setViewType(int value)](#setViewType-int-) | For the description of this property, please see [getViewType()](../../com.aspose.cells/worksheet\#getViewType--) |
-| [setVisibilityType(int value)](#setVisibilityType-int-) | For the description of this property, please see [getVisibilityType()](../../com.aspose.cells/worksheet\#getVisibilityType--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/worksheet\#isVisible--) |
+| [setBackgroundImage(byte[] value)](#setBackgroundImage-byte---) | Sets worksheet background image. |
+| [setCodeName(String value)](#setCodeName-java.lang.String-) | Gets worksheet code name. |
+| [setDisplayRightToLeft(boolean value)](#setDisplayRightToLeft-boolean-) | Indicates if the specified worksheet is displayed from right to left instead of from left to right. |
+| [setDisplayZeros(boolean value)](#setDisplayZeros-boolean-) | True if zero values are displayed. |
+| [setFirstVisibleColumn(int value)](#setFirstVisibleColumn-int-) | Represents first visible column index. |
+| [setFirstVisibleRow(int value)](#setFirstVisibleRow-int-) | Represents first visible row index. |
+| [setGridlinesVisible(boolean value)](#setGridlinesVisible-boolean-) | Sets a value indicating whether the gridlines are visible.Default is true. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the worksheet. |
+| [setOutlineShown(boolean value)](#setOutlineShown-boolean-) | Indicates whether to show outline. |
+| [setPageBreakPreview(boolean value)](#setPageBreakPreview-boolean-) | Indicates whether the specified worksheet is shown in normal view or page break preview. |
+| [setRowColumnHeadersVisible(boolean value)](#setRowColumnHeadersVisible-boolean-) | Sets a value indicating whether the worksheet will display row and column headers. |
+| [setRulerVisible(boolean value)](#setRulerVisible-boolean-) | Indicates whether the ruler is visible. |
+| [setSelected(boolean value)](#setSelected-boolean-) | Indicates whether this worksheet is selected when the workbook is opened. |
+| [setShowFormulas(boolean value)](#setShowFormulas-boolean-) | Indicates whether to show formulas or their results. |
+| [setTabColor(Color value)](#setTabColor-com.aspose.cells.Color-) | Represents worksheet tab color. |
+| [setTabId(int value)](#setTabId-int-) | Specifies the internal identifier for the sheet. |
+| [setTransitionEntry(boolean value)](#setTransitionEntry-boolean-) | Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled. |
+| [setTransitionEvaluation(boolean value)](#setTransitionEvaluation-boolean-) | Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled. |
+| [setType(int value)](#setType-int-) | Represents worksheet type. |
+| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | Sets the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}. |
+| [setViewType(int value)](#setViewType-int-) | Sets the view type. |
+| [setVisibilityType(int value)](#setVisibilityType-int-) | Indicates the visible state for this sheet. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Represents if the worksheet is visible. |
 | [setVisible(boolean isVisible, boolean ignoreError)](#setVisible-boolean-boolean-) | Sets the visible options. |
-| [setZoom(int value)](#setZoom-int-) | For the description of this property, please see [getZoom()](../../com.aspose.cells/worksheet\#getZoom--) |
+| [setZoom(int value)](#setZoom-int-) | Represents the scaling factor in percentage. |
 | [split()](#split--) | Splits window. |
 | [startAccessCache(int opts)](#startAccessCache-int-) | Starts the session that uses caches to access the data in this worksheet. |
 | [toString()](#toString--) | Returns a string represents the current Worksheet object. |
@@ -610,7 +610,7 @@ public String getActiveCell()
 ```
 
 
-the active cell in the worksheet.
+Gets the active cell in the worksheet.
 
 **Returns:**
 java.lang.String
@@ -640,7 +640,7 @@ public byte[] getBackgroundImage()
 ```
 
 
-worksheet background image.
+Gets worksheet background image.
 
 **Returns:**
 byte[]
@@ -840,7 +840,7 @@ public String getName()
 ```
 
 
-the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
+Gets the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
 
 **Returns:**
 java.lang.String
@@ -1105,7 +1105,7 @@ public String getUniqueId()
 ```
 
 
-the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}.
+Gets the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}.
 
 **Returns:**
 java.lang.String
@@ -1135,7 +1135,7 @@ public int getViewType()
 ```
 
 
-the view type.
+Gets the view type.
 
 **Returns:**
 int
@@ -1195,7 +1195,7 @@ public boolean isGridlinesVisible()
 ```
 
 
-a value indicating whether the gridlines are visible.Default is true.
+Gets a value indicating whether the gridlines are visible.Default is true.
 
 **Returns:**
 boolean
@@ -1235,7 +1235,7 @@ public boolean isRowColumnHeadersVisible()
 ```
 
 
-a value indicating whether the worksheet will display row and column headers. Default is true.
+Gets a value indicating whether the worksheet will display row and column headers. Default is true.
 
 **Returns:**
 boolean
@@ -1409,7 +1409,7 @@ public void setActiveCell(String value)
 ```
 
 
-For the description of this property, please see [getActiveCell()](../../com.aspose.cells/worksheet\#getActiveCell--)
+Sets the active cell in the worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1435,7 +1435,7 @@ public void setBackgroundImage(byte[] value)
 ```
 
 
-For the description of this property, please see [getBackgroundImage()](../../com.aspose.cells/worksheet\#getBackgroundImage--)
+Sets worksheet background image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1448,7 +1448,7 @@ public void setCodeName(String value)
 ```
 
 
-For the description of this property, please see [getCodeName()](../../com.aspose.cells/worksheet\#getCodeName--)
+Gets worksheet code name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1461,7 +1461,7 @@ public void setDisplayRightToLeft(boolean value)
 ```
 
 
-For the description of this property, please see [getDisplayRightToLeft()](../../com.aspose.cells/worksheet\#getDisplayRightToLeft--)
+Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1474,7 +1474,7 @@ public void setDisplayZeros(boolean value)
 ```
 
 
-For the description of this property, please see [getDisplayZeros()](../../com.aspose.cells/worksheet\#getDisplayZeros--)
+True if zero values are displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1487,7 +1487,7 @@ public void setFirstVisibleColumn(int value)
 ```
 
 
-For the description of this property, please see [getFirstVisibleColumn()](../../com.aspose.cells/worksheet\#getFirstVisibleColumn--)
+Represents first visible column index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1500,7 +1500,7 @@ public void setFirstVisibleRow(int value)
 ```
 
 
-For the description of this property, please see [getFirstVisibleRow()](../../com.aspose.cells/worksheet\#getFirstVisibleRow--)
+Represents first visible row index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1513,7 +1513,7 @@ public void setGridlinesVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isGridlinesVisible()](../../com.aspose.cells/worksheet\#isGridlinesVisible--)
+Sets a value indicating whether the gridlines are visible.Default is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1526,7 +1526,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/worksheet\#getName--)
+Sets the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1539,7 +1539,7 @@ public void setOutlineShown(boolean value)
 ```
 
 
-For the description of this property, please see [isOutlineShown()](../../com.aspose.cells/worksheet\#isOutlineShown--)
+Indicates whether to show outline.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1552,7 +1552,7 @@ public void setPageBreakPreview(boolean value)
 ```
 
 
-For the description of this property, please see [isPageBreakPreview()](../../com.aspose.cells/worksheet\#isPageBreakPreview--)
+Indicates whether the specified worksheet is shown in normal view or page break preview.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1565,7 +1565,7 @@ public void setRowColumnHeadersVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isRowColumnHeadersVisible()](../../com.aspose.cells/worksheet\#isRowColumnHeadersVisible--)
+Sets a value indicating whether the worksheet will display row and column headers. Default is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1578,7 +1578,7 @@ public void setRulerVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isRulerVisible()](../../com.aspose.cells/worksheet\#isRulerVisible--)
+Indicates whether the ruler is visible. This property is only applied for page break preview.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1591,7 +1591,7 @@ public void setSelected(boolean value)
 ```
 
 
-For the description of this property, please see [isSelected()](../../com.aspose.cells/worksheet\#isSelected--)
+Indicates whether this worksheet is selected when the workbook is opened.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1604,7 +1604,7 @@ public void setShowFormulas(boolean value)
 ```
 
 
-For the description of this property, please see [getShowFormulas()](../../com.aspose.cells/worksheet\#getShowFormulas--)
+Indicates whether to show formulas or their results.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1617,7 +1617,7 @@ public void setTabColor(Color value)
 ```
 
 
-For the description of this property, please see [getTabColor()](../../com.aspose.cells/worksheet\#getTabColor--)
+Represents worksheet tab color. This feature is only supported in ExcelXP(Excel2002) and later versions. If you save file as Excel97 or Excel2000 format, it will be omitted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1630,7 +1630,7 @@ public void setTabId(int value)
 ```
 
 
-For the description of this property, please see [getTabId()](../../com.aspose.cells/worksheet\#getTabId--)
+Specifies the internal identifier for the sheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1643,7 +1643,7 @@ public void setTransitionEntry(boolean value)
 ```
 
 
-For the description of this property, please see [getTransitionEntry()](../../com.aspose.cells/worksheet\#getTransitionEntry--)
+Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1656,7 +1656,7 @@ public void setTransitionEvaluation(boolean value)
 ```
 
 
-For the description of this property, please see [getTransitionEvaluation()](../../com.aspose.cells/worksheet\#getTransitionEvaluation--)
+Indicates whether the Transition Formula Evaluation (Lotus compatibility) option is enabled.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1669,7 +1669,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/worksheet\#getType--)
+Represents worksheet type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1682,7 +1682,7 @@ public void setUniqueId(String value)
 ```
 
 
-For the description of this property, please see [getUniqueId()](../../com.aspose.cells/worksheet\#getUniqueId--)
+Sets the unique id, it is same as \{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F\}.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1695,7 +1695,7 @@ public void setViewType(int value)
 ```
 
 
-For the description of this property, please see [getViewType()](../../com.aspose.cells/worksheet\#getViewType--)
+Sets the view type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1708,7 +1708,7 @@ public void setVisibilityType(int value)
 ```
 
 
-For the description of this property, please see [getVisibilityType()](../../com.aspose.cells/worksheet\#getVisibilityType--)
+Indicates the visible state for this sheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1721,7 +1721,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/worksheet\#isVisible--)
+Represents if the worksheet is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1748,7 +1748,7 @@ public void setZoom(int value)
 ```
 
 
-For the description of this property, please see [getZoom()](../../com.aspose.cells/worksheet\#getZoom--)
+Represents the scaling factor in percentage. It should be between 10 and 400. Please set the view type first.
 
 **Parameters:**
 | Parameter | Type | Description |

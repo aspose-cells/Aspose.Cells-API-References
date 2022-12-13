@@ -21,15 +21,15 @@ Represents the threaded comment.
 | [getAuthor()](#getAuthor--) | Gets the author of the comment. |
 | [getClass()](#getClass--) |  |
 | [getColumn()](#getColumn--) | Gets the column index of the comment. |
-| [getCreatedTime()](#getCreatedTime--) | the created time of this threaded comment. |
-| [getNotes()](#getNotes--) | the text of the comment. |
+| [getCreatedTime()](#getCreatedTime--) | Gets the created time of this threaded comment. |
+| [getNotes()](#getNotes--) | Gets the text of the comment. |
 | [getRow()](#getRow--) | Gets the row index of the comment. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(ThreadedCommentAuthor value)](#setAuthor-com.aspose.cells.ThreadedCommentAuthor-) | For the description of this property, please see [getAuthor()](../../com.aspose.cells/threadedcomment\#getAuthor--) |
-| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | For the description of this property, please see [getCreatedTime()](../../com.aspose.cells/threadedcomment\#getCreatedTime--) |
-| [setNotes(String value)](#setNotes-java.lang.String-) | For the description of this property, please see [getNotes()](../../com.aspose.cells/threadedcomment\#getNotes--) |
+| [setAuthor(ThreadedCommentAuthor value)](#setAuthor-com.aspose.cells.ThreadedCommentAuthor-) | Gets the author of the comment. |
+| [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | Sets the created time of this threaded comment. |
+| [setNotes(String value)](#setNotes-java.lang.String-) | Sets the text of the comment. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -85,7 +85,7 @@ public DateTime getCreatedTime()
 ```
 
 
-the created time of this threaded comment.
+Gets the created time of this threaded comment.
 
 **Returns:**
 [DateTime](../../com.aspose.cells/datetime)
@@ -95,7 +95,7 @@ public String getNotes()
 ```
 
 
-the text of the comment.
+Gets the text of the comment.
 
 **Returns:**
 java.lang.String
@@ -141,7 +141,7 @@ public void setAuthor(ThreadedCommentAuthor value)
 ```
 
 
-For the description of this property, please see [getAuthor()](../../com.aspose.cells/threadedcomment\#getAuthor--)
+Gets the author of the comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ public void setCreatedTime(DateTime value)
 ```
 
 
-For the description of this property, please see [getCreatedTime()](../../com.aspose.cells/threadedcomment\#getCreatedTime--)
+Sets the created time of this threaded comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public void setNotes(String value)
 ```
 
 
-For the description of this property, please see [getNotes()](../../com.aspose.cells/threadedcomment\#getNotes--)
+Sets the text of the comment.
 
 **Parameters:**
 | Parameter | Type | Description |

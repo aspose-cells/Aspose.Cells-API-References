@@ -27,23 +27,23 @@ Represents the picture format.
 | [getRightCrop()](#getRightCrop--) | Represents the location of the right of the crop rectangle expressed, expressed as a ratio of the image's width. |
 | [getTopCrop()](#getTopCrop--) | Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getTransparentColor()](#getTransparentColor--) | the transparent color of the picture. |
+| [getTransparentColor()](#getTransparentColor--) | Gets the transparent color of the picture. |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [isBiLevel()](#isBiLevel--) | Indicates whether this picture should be displayed in two-color black and white. |
 | [isGray()](#isGray--) | Indicates whether this picture SHOULD be displayed in grayscale. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBiLevel(boolean value)](#setBiLevel-boolean-) | For the description of this property, please see [isBiLevel()](../../com.aspose.cells/msoformatpicture\#isBiLevel--) |
-| [setBottomCrop(double value)](#setBottomCrop-double-) | For the description of this property, please see [getBottomCrop()](../../com.aspose.cells/msoformatpicture\#getBottomCrop--) |
-| [setBrightness(double value)](#setBrightness-double-) | For the description of this property, please see [getBrightness()](../../com.aspose.cells/msoformatpicture\#getBrightness--) |
-| [setContrast(double value)](#setContrast-double-) | For the description of this property, please see [getContrast()](../../com.aspose.cells/msoformatpicture\#getContrast--) |
-| [setGamma(double value)](#setGamma-double-) | For the description of this property, please see [getGamma()](../../com.aspose.cells/msoformatpicture\#getGamma--) |
-| [setGray(boolean value)](#setGray-boolean-) | For the description of this property, please see [isGray()](../../com.aspose.cells/msoformatpicture\#isGray--) |
-| [setLeftCrop(double value)](#setLeftCrop-double-) | For the description of this property, please see [getLeftCrop()](../../com.aspose.cells/msoformatpicture\#getLeftCrop--) |
-| [setRightCrop(double value)](#setRightCrop-double-) | For the description of this property, please see [getRightCrop()](../../com.aspose.cells/msoformatpicture\#getRightCrop--) |
-| [setTopCrop(double value)](#setTopCrop-double-) | For the description of this property, please see [getTopCrop()](../../com.aspose.cells/msoformatpicture\#getTopCrop--) |
-| [setTransparency(double value)](#setTransparency-double-) | For the description of this property, please see [getTransparency()](../../com.aspose.cells/msoformatpicture\#getTransparency--) |
-| [setTransparentColor(CellsColor value)](#setTransparentColor-com.aspose.cells.CellsColor-) | For the description of this property, please see [getTransparentColor()](../../com.aspose.cells/msoformatpicture\#getTransparentColor--) |
+| [setBiLevel(boolean value)](#setBiLevel-boolean-) | Indicates whether this picture should be displayed in two-color black and white. |
+| [setBottomCrop(double value)](#setBottomCrop-double-) | Represents the location of the bottom of the crop rectangle expressed, expressed as a ratio of the image's height. |
+| [setBrightness(double value)](#setBrightness-double-) | Represents the brightness modification for the picture in unit of percentage. |
+| [setContrast(double value)](#setContrast-double-) | Represents the contrast modification for the picture.in unit of percentage. |
+| [setGamma(double value)](#setGamma-double-) | Represents gamma of the picture. |
+| [setGray(boolean value)](#setGray-boolean-) | Indicates whether this picture SHOULD be displayed in grayscale. |
+| [setLeftCrop(double value)](#setLeftCrop-double-) | Represents the location of the left of the crop rectangle expressed, expressed as a ratio of the image's width. |
+| [setRightCrop(double value)](#setRightCrop-double-) | Represents the location of the right of the crop rectangle expressed, expressed as a ratio of the image's width. |
+| [setTopCrop(double value)](#setTopCrop-double-) | Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height. |
+| [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setTransparentColor(CellsColor value)](#setTransparentColor-com.aspose.cells.CellsColor-) | Sets the transparent color of the picture. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -159,7 +159,7 @@ public CellsColor getTransparentColor()
 ```
 
 
-the transparent color of the picture.
+Gets the transparent color of the picture.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -215,7 +215,7 @@ public void setBiLevel(boolean value)
 ```
 
 
-For the description of this property, please see [isBiLevel()](../../com.aspose.cells/msoformatpicture\#isBiLevel--)
+Indicates whether this picture should be displayed in two-color black and white.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -228,7 +228,7 @@ public void setBottomCrop(double value)
 ```
 
 
-For the description of this property, please see [getBottomCrop()](../../com.aspose.cells/msoformatpicture\#getBottomCrop--)
+Represents the location of the bottom of the crop rectangle expressed, expressed as a ratio of the image's height.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,7 +241,7 @@ public void setBrightness(double value)
 ```
 
 
-For the description of this property, please see [getBrightness()](../../com.aspose.cells/msoformatpicture\#getBrightness--)
+Represents the brightness modification for the picture in unit of percentage. It is between -100% and 100%. It works same as Excel 2007 or above version.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +254,7 @@ public void setContrast(double value)
 ```
 
 
-For the description of this property, please see [getContrast()](../../com.aspose.cells/msoformatpicture\#getContrast--)
+Represents the contrast modification for the picture.in unit of percentage. It is between -100% and 100%. It works same as Excel 2007 or above version.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +267,7 @@ public void setGamma(double value)
 ```
 
 
-For the description of this property, please see [getGamma()](../../com.aspose.cells/msoformatpicture\#getGamma--)
+Represents gamma of the picture.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -280,7 +280,7 @@ public void setGray(boolean value)
 ```
 
 
-For the description of this property, please see [isGray()](../../com.aspose.cells/msoformatpicture\#isGray--)
+Indicates whether this picture SHOULD be displayed in grayscale.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -293,7 +293,7 @@ public void setLeftCrop(double value)
 ```
 
 
-For the description of this property, please see [getLeftCrop()](../../com.aspose.cells/msoformatpicture\#getLeftCrop--)
+Represents the location of the left of the crop rectangle expressed, expressed as a ratio of the image's width.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -306,7 +306,7 @@ public void setRightCrop(double value)
 ```
 
 
-For the description of this property, please see [getRightCrop()](../../com.aspose.cells/msoformatpicture\#getRightCrop--)
+Represents the location of the right of the crop rectangle expressed, expressed as a ratio of the image's width.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -319,7 +319,7 @@ public void setTopCrop(double value)
 ```
 
 
-For the description of this property, please see [getTopCrop()](../../com.aspose.cells/msoformatpicture\#getTopCrop--)
+Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -332,7 +332,7 @@ public void setTransparency(double value)
 ```
 
 
-For the description of this property, please see [getTransparency()](../../com.aspose.cells/msoformatpicture\#getTransparency--)
+Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -345,7 +345,7 @@ public void setTransparentColor(CellsColor value)
 ```
 
 
-For the description of this property, please see [getTransparentColor()](../../com.aspose.cells/msoformatpicture\#getTransparentColor--)
+Sets the transparent color of the picture.
 
 **Parameters:**
 | Parameter | Type | Description |

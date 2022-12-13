@@ -20,13 +20,13 @@ Represents the bullet.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBulletValue()](#getBulletValue--) | Gets bullet value |
 | [getClass()](#getClass--) |  |
-| [getFontName()](#getFontName--) | the name of the font. |
-| [getType()](#getType--) | the bullet type. |
+| [getFontName()](#getFontName--) | Gets the name of the font. |
+| [getType()](#getType--) | Gets the bullet type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFontName(String value)](#setFontName-java.lang.String-) | For the description of this property, please see [getFontName()](../../com.aspose.cells/bullet\#getFontName--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/bullet\#getType--) |
+| [setFontName(String value)](#setFontName-java.lang.String-) | Sets the name of the font. |
+| [setType(int value)](#setType-int-) | Sets the bullet type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -72,7 +72,7 @@ public String getFontName()
 ```
 
 
-the name of the font.
+Gets the name of the font.
 
 **Returns:**
 java.lang.String
@@ -82,7 +82,7 @@ public int getType()
 ```
 
 
-the bullet type.
+Gets the bullet type.
 
 **Returns:**
 int
@@ -118,7 +118,7 @@ public void setFontName(String value)
 ```
 
 
-For the description of this property, please see [getFontName()](../../com.aspose.cells/bullet\#getFontName--)
+Sets the name of the font.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -131,7 +131,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/bullet\#getType--)
+Sets the bullet type.
 
 **Parameters:**
 | Parameter | Type | Description |

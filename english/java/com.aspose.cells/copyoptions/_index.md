@@ -34,13 +34,13 @@ Represents the copy options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumnCharacterWidth(boolean value)](#setColumnCharacterWidth-boolean-) | For the description of this property, please see [getColumnCharacterWidth()](../../com.aspose.cells/copyoptions\#getColumnCharacterWidth--) |
-| [setCopyInvalidFormulasAsValues(boolean value)](#setCopyInvalidFormulasAsValues-boolean-) | For the description of this property, please see [getCopyInvalidFormulasAsValues()](../../com.aspose.cells/copyoptions\#getCopyInvalidFormulasAsValues--) |
-| [setCopyNames(boolean value)](#setCopyNames-boolean-) | For the description of this property, please see [getCopyNames()](../../com.aspose.cells/copyoptions\#getCopyNames--) |
-| [setExtendToAdjacentRange(boolean value)](#setExtendToAdjacentRange-boolean-) | For the description of this property, please see [getExtendToAdjacentRange()](../../com.aspose.cells/copyoptions\#getExtendToAdjacentRange--) |
-| [setKeepMacros(boolean value)](#setKeepMacros-boolean-) | For the description of this property, please see [getKeepMacros()](../../com.aspose.cells/copyoptions\#getKeepMacros--) |
-| [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) | For the description of this property, please see [getReferToDestinationSheet()](../../com.aspose.cells/copyoptions\#getReferToDestinationSheet--) |
-| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | For the description of this property, please see [getReferToSheetWithSameName()](../../com.aspose.cells/copyoptions\#getReferToSheetWithSameName--) |
+| [setColumnCharacterWidth(boolean value)](#setColumnCharacterWidth-boolean-) | Indicates whether copying column width in unit of characters. |
+| [setCopyInvalidFormulasAsValues(boolean value)](#setCopyInvalidFormulasAsValues-boolean-) | If the formula is not valid for the dest destination, only copy values. |
+| [setCopyNames(boolean value)](#setCopyNames-boolean-) | Indicates whether copying the names. |
+| [setExtendToAdjacentRange(boolean value)](#setExtendToAdjacentRange-boolean-) | Indicates whether extend ranges when copying the range to adjacent range. |
+| [setKeepMacros(boolean value)](#setKeepMacros-boolean-) | Indicates whether keeping macros; Only for copying workbook. |
+| [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. |
+| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel, the copied formulas should refer to source workbook. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -180,7 +180,7 @@ public void setColumnCharacterWidth(boolean value)
 ```
 
 
-For the description of this property, please see [getColumnCharacterWidth()](../../com.aspose.cells/copyoptions\#getColumnCharacterWidth--)
+Indicates whether copying column width in unit of characters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public void setCopyInvalidFormulasAsValues(boolean value)
 ```
 
 
-For the description of this property, please see [getCopyInvalidFormulasAsValues()](../../com.aspose.cells/copyoptions\#getCopyInvalidFormulasAsValues--)
+If the formula is not valid for the dest destination, only copy values.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setCopyNames(boolean value)
 ```
 
 
-For the description of this property, please see [getCopyNames()](../../com.aspose.cells/copyoptions\#getCopyNames--)
+Indicates whether copying the names.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public void setExtendToAdjacentRange(boolean value)
 ```
 
 
-For the description of this property, please see [getExtendToAdjacentRange()](../../com.aspose.cells/copyoptions\#getExtendToAdjacentRange--)
+Indicates whether extend ranges when copying the range to adjacent range. If it's true, only extends the range of the hyperlink,not adding a new hyperlink when copying hyperlinks to adjacent rows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public void setKeepMacros(boolean value)
 ```
 
 
-For the description of this property, please see [getKeepMacros()](../../com.aspose.cells/copyoptions\#getKeepMacros--)
+Indicates whether keeping macros; Only for copying workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public void setReferToDestinationSheet(boolean value)
 ```
 
 
-For the description of this property, please see [getReferToDestinationSheet()](../../com.aspose.cells/copyoptions\#getReferToDestinationSheet--)
+When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet. The default value is false, it works as MS Excel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public void setReferToSheetWithSameName(boolean value)
 ```
 
 
-For the description of this property, please see [getReferToSheetWithSameName()](../../com.aspose.cells/copyoptions\#getReferToSheetWithSameName--)
+When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel, the copied formulas should refer to source workbook. But sometimes we have copied other worksheets and we hope the copied formulas refer to other worksheets with the name in the same workbook, please set this property as true. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

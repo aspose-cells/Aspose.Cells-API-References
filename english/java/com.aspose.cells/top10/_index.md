@@ -49,15 +49,15 @@ Describe the Top10 conditional formatting rule. This conditional formatting rule
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getRank()](#getRank--) | the value of "n" in a "top/bottom n" conditional formatting rule. |
+| [getRank()](#getRank--) | Gets the value of "n" in a "top/bottom n" conditional formatting rule. |
 | [hashCode()](#hashCode--) |  |
-| [isBottom()](#isBottom--) | whether a "top/bottom n" rule is a "bottom n" rule. |
-| [isPercent()](#isPercent--) | whether a "top/bottom n" rule is a "top/bottom n percent" rule. |
+| [isBottom()](#isBottom--) | Gets whether a "top/bottom n" rule is a "bottom n" rule. |
+| [isPercent()](#isPercent--) | Gets whether a "top/bottom n" rule is a "top/bottom n percent" rule. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottom(boolean value)](#setBottom-boolean-) | For the description of this property, please see [isBottom()](../../com.aspose.cells/top10\#isBottom--) |
-| [setPercent(boolean value)](#setPercent-boolean-) | For the description of this property, please see [isPercent()](../../com.aspose.cells/top10\#isPercent--) |
-| [setRank(int value)](#setRank-int-) | For the description of this property, please see [getRank()](../../com.aspose.cells/top10\#getRank--) |
+| [setBottom(boolean value)](#setBottom-boolean-) | Sets whether a "top/bottom n" rule is a "bottom n" rule. |
+| [setPercent(boolean value)](#setPercent-boolean-) | Sets whether a "top/bottom n" rule is a "top/bottom n percent" rule. |
+| [setRank(int value)](#setRank-int-) | Sets the value of "n" in a "top/bottom n" conditional formatting rule. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -99,7 +99,7 @@ public int getRank()
 ```
 
 
-the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
+Gets the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
 
 **Returns:**
 int
@@ -119,7 +119,7 @@ public boolean isBottom()
 ```
 
 
-whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
+Gets whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
 
 **Returns:**
 boolean
@@ -129,7 +129,7 @@ public boolean isPercent()
 ```
 
 
-whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
+Gets whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
 
 **Returns:**
 boolean
@@ -155,7 +155,7 @@ public void setBottom(boolean value)
 ```
 
 
-For the description of this property, please see [isBottom()](../../com.aspose.cells/top10\#isBottom--)
+Sets whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -168,7 +168,7 @@ public void setPercent(boolean value)
 ```
 
 
-For the description of this property, please see [isPercent()](../../com.aspose.cells/top10\#isPercent--)
+Sets whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public void setRank(int value)
 ```
 
 
-For the description of this property, please see [getRank()](../../com.aspose.cells/top10\#getRank--)
+Sets the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
 
 **Parameters:**
 | Parameter | Type | Description |

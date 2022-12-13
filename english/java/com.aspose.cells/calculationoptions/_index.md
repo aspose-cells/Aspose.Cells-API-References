@@ -34,13 +34,13 @@ Represents options for calculation.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalcStackSize(int value)](#setCalcStackSize-int-) | For the description of this property, please see [getCalcStackSize()](../../com.aspose.cells/calculationoptions\#getCalcStackSize--) |
-| [setCalculationMonitor(AbstractCalculationMonitor value)](#setCalculationMonitor-com.aspose.cells.AbstractCalculationMonitor-) | For the description of this property, please see [getCalculationMonitor()](../../com.aspose.cells/calculationoptions\#getCalculationMonitor--) |
-| [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | For the description of this property, please see [getCustomEngine()](../../com.aspose.cells/calculationoptions\#getCustomEngine--) |
-| [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) | For the description of this property, please see [getCustomFunction()](../../com.aspose.cells/calculationoptions\#getCustomFunction--) |
-| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | For the description of this property, please see [getIgnoreError()](../../com.aspose.cells/calculationoptions\#getIgnoreError--) |
-| [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) | For the description of this property, please see [getPrecisionStrategy()](../../com.aspose.cells/calculationoptions\#getPrecisionStrategy--) |
-| [setRecursive(boolean value)](#setRecursive-boolean-) | For the description of this property, please see [getRecursive()](../../com.aspose.cells/calculationoptions\#getRecursive--) |
+| [setCalcStackSize(int value)](#setCalcStackSize-int-) | Specifies the stack size for calculating cells recursively. |
+| [setCalculationMonitor(AbstractCalculationMonitor value)](#setCalculationMonitor-com.aspose.cells.AbstractCalculationMonitor-) | The monitor for user to track the progress of formula calculation. |
+| [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
+| [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) | The custom formula calculation functions to extend the calculation engine. |
+| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error in calculating formulas. |
+| [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) | Specifies the strategy for processing precision of calculation. |
+| [setRecursive(boolean value)](#setRecursive-boolean-) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -178,7 +178,7 @@ public void setCalcStackSize(int value)
 ```
 
 
-For the description of this property, please see [getCalcStackSize()](../../com.aspose.cells/calculationoptions\#getCalcStackSize--)
+Specifies the stack size for calculating cells recursively. When there are large amount of cells need to be calculated recursively in the dependency tree, StackOverflowException may be caused in the calculation process. If so, user should specify smaller value for this property. For such situation, user should determine the proper value for this property according to the actual formulas and data. Too small value may cause performance degradation for the formula calculation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -191,7 +191,7 @@ public void setCalculationMonitor(AbstractCalculationMonitor value)
 ```
 
 
-For the description of this property, please see [getCalculationMonitor()](../../com.aspose.cells/calculationoptions\#getCalculationMonitor--)
+The monitor for user to track the progress of formula calculation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +204,7 @@ public void setCustomEngine(AbstractCalculationEngine value)
 ```
 
 
-For the description of this property, please see [getCustomEngine()](../../com.aspose.cells/calculationoptions\#getCustomEngine--)
+The custom formula calculation engine to extend the default calculation engine of Aspose.Cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public void setCustomFunction(ICustomFunction value)
 ```
 
 
-For the description of this property, please see [getCustomFunction()](../../com.aspose.cells/calculationoptions\#getCustomFunction--)
+The custom formula calculation functions to extend the calculation engine. NOTE: This member is now obsolete. Instead, please use CustomEngine property, AbstractCalculationEngine provides more convenient and flexible APIs for manipulating custom functions. This property will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public void setIgnoreError(boolean value)
 ```
 
 
-For the description of this property, please see [getIgnoreError()](../../com.aspose.cells/calculationoptions\#getIgnoreError--)
+Indicates if you need to hide the error in calculating formulas. The error may be unsupported function, external links, etc.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void setPrecisionStrategy(int value)
 ```
 
 
-For the description of this property, please see [getPrecisionStrategy()](../../com.aspose.cells/calculationoptions\#getPrecisionStrategy--)
+Specifies the strategy for processing precision of calculation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public void setRecursive(boolean value)
 ```
 
 
-For the description of this property, please see [getRecursive()](../../com.aspose.cells/calculationoptions\#getRecursive--)
+Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells.
 
 **Parameters:**
 | Parameter | Type | Description |

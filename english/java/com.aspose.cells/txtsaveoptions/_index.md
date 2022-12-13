@@ -29,51 +29,51 @@ Represents the save options for csv/tab delimited/other text format.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getEncoding()](#getEncoding--) | the default encoding. |
+| [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getExportAllSheets()](#getExportAllSheets--) | Indicates whether exporting all sheets to the text file. |
 | [getExportArea()](#getExportArea--) | The range of cells to be exported. |
 | [getExportQuotePrefix()](#getExportQuotePrefix--) | Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) is true for it. |
-| [getFormatStrategy()](#getFormatStrategy--) | the format strategy when exporting the cell value as string. |
+| [getFormatStrategy()](#getFormatStrategy--) | Gets the format strategy when exporting the cell value as string. |
 | [getKeepSeparatorsForBlankRow()](#getKeepSeparatorsForBlankRow--) | Indicates whether separators should be output for blank row. |
 | [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The Data provider to provide cells data for saving workbook in light mode. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
-| [getQuoteType()](#getQuoteType--) | how to quote values in the exported text file. |
+| [getQuoteType()](#getQuoteType--) | Gets how to quote values in the exported text file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
-| [getSeparator()](#getSeparator--) | char Delimiter of text file. |
-| [getSeparatorString()](#getSeparatorString--) | a string value as separator. |
+| [getSeparator()](#getSeparator--) | Gets char Delimiter of text file. |
+| [getSeparatorString()](#getSeparatorString--) | Gets a string value as separator. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getTrimLeadingBlankRowAndColumn()](#getTrimLeadingBlankRowAndColumn--) | Indicates whether leading blank rows and columns should be trimmed like what ms excel does. |
 | [getTrimTailingBlankCells()](#getTrimTailingBlankCells--) | Indicates whether tailing blank cells in one row should be trimmed. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlwaysQuoted(boolean value)](#setAlwaysQuoted-boolean-) | For the description of this property, please see [getAlwaysQuoted()](../../com.aspose.cells/txtsaveoptions\#getAlwaysQuoted--) |
-| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--) |
-| [setClearData(boolean value)](#setClearData-boolean-) | For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--) |
-| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--) |
-| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | For the description of this property, please see [getEncoding()](../../com.aspose.cells/txtsaveoptions\#getEncoding--) |
-| [setExportAllSheets(boolean value)](#setExportAllSheets-boolean-) | For the description of this property, please see [getExportAllSheets()](../../com.aspose.cells/txtsaveoptions\#getExportAllSheets--) |
-| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | For the description of this property, please see [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--) |
-| [setExportQuotePrefix(boolean value)](#setExportQuotePrefix-boolean-) | For the description of this property, please see [getExportQuotePrefix()](../../com.aspose.cells/txtsaveoptions\#getExportQuotePrefix--) |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/txtsaveoptions\#getFormatStrategy--) |
-| [setKeepSeparatorsForBlankRow(boolean value)](#setKeepSeparatorsForBlankRow-boolean-) | For the description of this property, please see [getKeepSeparatorsForBlankRow()](../../com.aspose.cells/txtsaveoptions\#getKeepSeparatorsForBlankRow--) |
-| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--) |
-| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--) |
-| [setQuoteType(int value)](#setQuoteType-int-) | For the description of this property, please see [getQuoteType()](../../com.aspose.cells/txtsaveoptions\#getQuoteType--) |
-| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--) |
-| [setSeparator(char value)](#setSeparator-char-) | For the description of this property, please see [getSeparator()](../../com.aspose.cells/txtsaveoptions\#getSeparator--) |
-| [setSeparatorString(String value)](#setSeparatorString-java.lang.String-) | For the description of this property, please see [getSeparatorString()](../../com.aspose.cells/txtsaveoptions\#getSeparatorString--) |
-| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--) |
-| [setSortNames(boolean value)](#setSortNames-boolean-) | For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--) |
-| [setTrimLeadingBlankRowAndColumn(boolean value)](#setTrimLeadingBlankRowAndColumn-boolean-) | For the description of this property, please see [getTrimLeadingBlankRowAndColumn()](../../com.aspose.cells/txtsaveoptions\#getTrimLeadingBlankRowAndColumn--) |
-| [setTrimTailingBlankCells(boolean value)](#setTrimTailingBlankCells-boolean-) | For the description of this property, please see [getTrimTailingBlankCells()](../../com.aspose.cells/txtsaveoptions\#getTrimTailingBlankCells--) |
-| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--) |
-| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--) |
+| [setAlwaysQuoted(boolean value)](#setAlwaysQuoted-boolean-) | Indicates whether always adding '"' for each field. |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
+| [setExportAllSheets(boolean value)](#setExportAllSheets-boolean-) | Indicates whether exporting all sheets to the text file. |
+| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | The range of cells to be exported. |
+| [setExportQuotePrefix(boolean value)](#setExportQuotePrefix-boolean-) | Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) is true for it. |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | Sets the format strategy when exporting the cell value as string. |
+| [setKeepSeparatorsForBlankRow(boolean value)](#setKeepSeparatorsForBlankRow-boolean-) | Indicates whether separators should be output for blank row. |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The Data provider to provide cells data for saving workbook in light mode. |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setQuoteType(int value)](#setQuoteType-int-) | Sets how to quote values in the exported text file. |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSeparator(char value)](#setSeparator-char-) | Sets char Delimiter of text file. |
+| [setSeparatorString(String value)](#setSeparatorString-java.lang.String-) | Sets a string value as separator. |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setTrimLeadingBlankRowAndColumn(boolean value)](#setTrimLeadingBlankRowAndColumn-boolean-) | Indicates whether leading blank rows and columns should be trimmed like what ms excel does. |
+| [setTrimTailingBlankCells(boolean value)](#setTrimTailingBlankCells-boolean-) | Indicates whether tailing blank cells in one row should be trimmed. |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -171,7 +171,7 @@ public Encoding getEncoding()
 ```
 
 
-the default encoding.
+Gets the default encoding.
 
 **Returns:**
 [Encoding](../../com.aspose.cells/encoding)
@@ -211,7 +211,7 @@ public int getFormatStrategy()
 ```
 
 
-the format strategy when exporting the cell value as string.
+Gets the format strategy when exporting the cell value as string.
 
 **Returns:**
 int
@@ -251,7 +251,7 @@ public int getQuoteType()
 ```
 
 
-how to quote values in the exported text file.
+Gets how to quote values in the exported text file.
 
 **Returns:**
 int
@@ -281,7 +281,7 @@ public char getSeparator()
 ```
 
 
-char Delimiter of text file.
+Gets char Delimiter of text file.
 
 **Returns:**
 char
@@ -291,7 +291,7 @@ public String getSeparatorString()
 ```
 
 
-a string value as separator.
+Gets a string value as separator.
 
 **Returns:**
 java.lang.String
@@ -361,7 +361,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-warning callback.
+Sets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -397,7 +397,7 @@ public void setAlwaysQuoted(boolean value)
 ```
 
 
-For the description of this property, please see [getAlwaysQuoted()](../../com.aspose.cells/txtsaveoptions\#getAlwaysQuoted--)
+Indicates whether always adding '"' for each field. If true then all values will be quoted; If false then values will only be quoted when needed(for example, when values contain special characters such as '"' , '\\n' or separator character). Default is false. NOTE: This member is now obsolete. Instead, please use QuoteType property instead. This property will be removed 12 months later since August 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -410,7 +410,7 @@ public void setCachedFileFolder(String value)
 ```
 
 
-For the description of this property, please see [getCachedFileFolder()](../../com.aspose.cells/saveoptions\#getCachedFileFolder--)
+The cached file folder is used to store some large data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -423,7 +423,7 @@ public void setClearData(boolean value)
 ```
 
 
-For the description of this property, please see [getClearData()](../../com.aspose.cells/saveoptions\#getClearData--)
+Make the workbook empty after saving the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -436,7 +436,7 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-For the description of this property, please see [getCreateDirectory()](../../com.aspose.cells/saveoptions\#getCreateDirectory--)
+If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -449,7 +449,7 @@ public void setEncoding(Encoding value)
 ```
 
 
-For the description of this property, please see [getEncoding()](../../com.aspose.cells/txtsaveoptions\#getEncoding--)
+Sets the default encoding.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -462,7 +462,7 @@ public void setExportAllSheets(boolean value)
 ```
 
 
-For the description of this property, please see [getExportAllSheets()](../../com.aspose.cells/txtsaveoptions\#getExportAllSheets--)
+Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. The defult value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -475,7 +475,7 @@ public void setExportArea(CellArea value)
 ```
 
 
-For the description of this property, please see [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--)
+The range of cells to be exported. If the exported area has been specified, [getTrimLeadingBlankRowAndColumn()](../../com.aspose.cells/txtsaveoptions\#getTrimLeadingBlankRowAndColumn--) will takes no effect.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -488,7 +488,7 @@ public void setExportQuotePrefix(boolean value)
 ```
 
 
-For the description of this property, please see [getExportQuotePrefix()](../../com.aspose.cells/txtsaveoptions\#getExportQuotePrefix--)
+Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) is true for it. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -501,7 +501,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/txtsaveoptions\#getFormatStrategy--)
+Sets the format strategy when exporting the cell value as string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -514,7 +514,7 @@ public void setKeepSeparatorsForBlankRow(boolean value)
 ```
 
 
-For the description of this property, please see [getKeepSeparatorsForBlankRow()](../../com.aspose.cells/txtsaveoptions\#getKeepSeparatorsForBlankRow--)
+Indicates whether separators should be output for blank row. Default value is false so by default the content for blank row will be empty.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -527,7 +527,7 @@ public void setLightCellsDataProvider(LightCellsDataProvider value)
 ```
 
 
-For the description of this property, please see [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--)
+The Data provider to provide cells data for saving workbook in light mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -540,7 +540,7 @@ public void setMergeAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getMergeAreas()](../../com.aspose.cells/saveoptions\#getMergeAreas--)
+Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -553,7 +553,7 @@ public void setQuoteType(int value)
 ```
 
 
-For the description of this property, please see [getQuoteType()](../../com.aspose.cells/txtsaveoptions\#getQuoteType--)
+Sets how to quote values in the exported text file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -566,7 +566,7 @@ public void setRefreshChartCache(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshChartCache()](../../com.aspose.cells/saveoptions\#getRefreshChartCache--)
+Indicates whether refreshing chart cache data
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -579,7 +579,7 @@ public void setSeparator(char value)
 ```
 
 
-For the description of this property, please see [getSeparator()](../../com.aspose.cells/txtsaveoptions\#getSeparator--)
+Sets char Delimiter of text file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -592,7 +592,7 @@ public void setSeparatorString(String value)
 ```
 
 
-For the description of this property, please see [getSeparatorString()](../../com.aspose.cells/txtsaveoptions\#getSeparatorString--)
+Sets a string value as separator.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -605,7 +605,7 @@ public void setSortExternalNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortExternalNames()](../../com.aspose.cells/saveoptions\#getSortExternalNames--)
+Indicates whether sorting external defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -618,7 +618,7 @@ public void setSortNames(boolean value)
 ```
 
 
-For the description of this property, please see [getSortNames()](../../com.aspose.cells/saveoptions\#getSortNames--)
+Indicates whether sorting defined names before saving file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,7 +631,7 @@ public void setTrimLeadingBlankRowAndColumn(boolean value)
 ```
 
 
-For the description of this property, please see [getTrimLeadingBlankRowAndColumn()](../../com.aspose.cells/txtsaveoptions\#getTrimLeadingBlankRowAndColumn--)
+Indicates whether leading blank rows and columns should be trimmed like what ms excel does. Default is true. Same with the rule in ms excel, a row/column will not be taken as blank if it has custom style, even if it contains no cell data. When saving with LightCells mode, this option takes no effect. User should control the output range by the implementation of [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--) or by speicifing [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -644,7 +644,7 @@ public void setTrimTailingBlankCells(boolean value)
 ```
 
 
-For the description of this property, please see [getTrimTailingBlankCells()](../../com.aspose.cells/txtsaveoptions\#getTrimTailingBlankCells--)
+Indicates whether tailing blank cells in one row should be trimmed. Default is false. When saving with LightCells mode and the [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--) has not been specified, this option takes no effect and one row will be extended to just the last cell provided by the implementation [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -657,7 +657,7 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateSmartArt()](../../com.aspose.cells/saveoptions\#getUpdateSmartArt--)
+Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -670,7 +670,7 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-For the description of this property, please see [getValidateMergedAreas()](../../com.aspose.cells/saveoptions\#getValidateMergedAreas--)
+Indicates whether validate merged cells before saving the file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

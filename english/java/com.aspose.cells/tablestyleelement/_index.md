@@ -26,7 +26,7 @@ Represents the element of the table style.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setElementStyle(Style style)](#setElementStyle-com.aspose.cells.Style-) | Sets the element style. |
-| [setSize(int value)](#setSize-int-) | For the description of this property, please see [getSize()](../../com.aspose.cells/tablestyleelement\#getSize--) |
+| [setSize(int value)](#setSize-int-) | Number of rows or columns in a single band of striping. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -131,7 +131,7 @@ public void setSize(int value)
 ```
 
 
-For the description of this property, please see [getSize()](../../com.aspose.cells/tablestyleelement\#getSize--)
+Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe, secondRowStripe, firstColumnStripe, or secondColumnStripe.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -24,25 +24,25 @@ Represents all auto fitter options.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoFitMergedCells()](#getAutoFitMergedCells--) | Indicates whether auto fit row height when the cells is merged in a row. |
-| [getAutoFitMergedCellsType()](#getAutoFitMergedCellsType--) | the type of auto fitting row height of merged cells. |
-| [getAutoFitWrappedTextType()](#getAutoFitWrappedTextType--) | the type of auto fitting wrapped text. |
+| [getAutoFitMergedCellsType()](#getAutoFitMergedCellsType--) | Gets the type of auto fitting row height of merged cells. |
+| [getAutoFitWrappedTextType()](#getAutoFitWrappedTextType--) | Gets the type of auto fitting wrapped text. |
 | [getClass()](#getClass--) |  |
-| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | default edit language. |
-| [getFormatStrategy()](#getFormatStrategy--) | the formatted strategy. |
+| [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets default edit language. |
+| [getFormatStrategy()](#getFormatStrategy--) | Gets the formatted strategy. |
 | [getIgnoreHidden()](#getIgnoreHidden--) | Ignores the hidden rows/columns. |
-| [getMaxRowHeight()](#getMaxRowHeight--) | the max row height(in unit of Point) when autofitting rows. |
+| [getMaxRowHeight()](#getMaxRowHeight--) | Gets the max row height(in unit of Point) when autofitting rows. |
 | [getOnlyAuto()](#getOnlyAuto--) | Indicates whether only fit the rows which height are not customed. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoFitMergedCells(boolean value)](#setAutoFitMergedCells-boolean-) | For the description of this property, please see [getAutoFitMergedCells()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCells--) |
-| [setAutoFitMergedCellsType(int value)](#setAutoFitMergedCellsType-int-) | For the description of this property, please see [getAutoFitMergedCellsType()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCellsType--) |
-| [setAutoFitWrappedTextType(int value)](#setAutoFitWrappedTextType-int-) | For the description of this property, please see [getAutoFitWrappedTextType()](../../com.aspose.cells/autofitteroptions\#getAutoFitWrappedTextType--) |
-| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | For the description of this property, please see [getDefaultEditLanguage()](../../com.aspose.cells/autofitteroptions\#getDefaultEditLanguage--) |
-| [setFormatStrategy(int value)](#setFormatStrategy-int-) | For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/autofitteroptions\#getFormatStrategy--) |
-| [setIgnoreHidden(boolean value)](#setIgnoreHidden-boolean-) | For the description of this property, please see [getIgnoreHidden()](../../com.aspose.cells/autofitteroptions\#getIgnoreHidden--) |
-| [setMaxRowHeight(double value)](#setMaxRowHeight-double-) | For the description of this property, please see [getMaxRowHeight()](../../com.aspose.cells/autofitteroptions\#getMaxRowHeight--) |
-| [setOnlyAuto(boolean value)](#setOnlyAuto-boolean-) | For the description of this property, please see [getOnlyAuto()](../../com.aspose.cells/autofitteroptions\#getOnlyAuto--) |
+| [setAutoFitMergedCells(boolean value)](#setAutoFitMergedCells-boolean-) | Indicates whether auto fit row height when the cells is merged in a row. |
+| [setAutoFitMergedCellsType(int value)](#setAutoFitMergedCellsType-int-) | Sets the type of auto fitting row height of merged cells. |
+| [setAutoFitWrappedTextType(int value)](#setAutoFitWrappedTextType-int-) | Sets the type of auto fitting wrapped text. |
+| [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
+| [setFormatStrategy(int value)](#setFormatStrategy-int-) | Sets the formatted strategy. |
+| [setIgnoreHidden(boolean value)](#setIgnoreHidden-boolean-) | Ignores the hidden rows/columns. |
+| [setMaxRowHeight(double value)](#setMaxRowHeight-double-) | Sets the max row height(in unit of Point) when autofitting rows. |
+| [setOnlyAuto(boolean value)](#setOnlyAuto-boolean-) | Indicates whether only fit the rows which height are not customed. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -84,7 +84,7 @@ public int getAutoFitMergedCellsType()
 ```
 
 
-the type of auto fitting row height of merged cells. Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
+Gets the type of auto fitting row height of merged cells. Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
 
 **Returns:**
 int
@@ -94,7 +94,7 @@ public int getAutoFitWrappedTextType()
 ```
 
 
-the type of auto fitting wrapped text.
+Gets the type of auto fitting wrapped text.
 
 **Returns:**
 int
@@ -114,7 +114,7 @@ public int getDefaultEditLanguage()
 ```
 
 
-default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+Gets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
 
 **Returns:**
 int
@@ -124,7 +124,7 @@ public int getFormatStrategy()
 ```
 
 
-the formatted strategy. The default value is CellStyle for performance.
+Gets the formatted strategy. The default value is CellStyle for performance.
 
 **Returns:**
 int
@@ -144,7 +144,7 @@ public double getMaxRowHeight()
 ```
 
 
-the max row height(in unit of Point) when autofitting rows.
+Gets the max row height(in unit of Point) when autofitting rows.
 
 **Returns:**
 double
@@ -190,7 +190,7 @@ public void setAutoFitMergedCells(boolean value)
 ```
 
 
-For the description of this property, please see [getAutoFitMergedCells()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCells--)
+Indicates whether auto fit row height when the cells is merged in a row. The default value is false. NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFitMergedCellsType property, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -203,7 +203,7 @@ public void setAutoFitMergedCellsType(int value)
 ```
 
 
-For the description of this property, please see [getAutoFitMergedCellsType()](../../com.aspose.cells/autofitteroptions\#getAutoFitMergedCellsType--)
+Sets the type of auto fitting row height of merged cells. Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setAutoFitWrappedTextType(int value)
 ```
 
 
-For the description of this property, please see [getAutoFitWrappedTextType()](../../com.aspose.cells/autofitteroptions\#getAutoFitWrappedTextType--)
+Sets the type of auto fitting wrapped text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-For the description of this property, please see [getDefaultEditLanguage()](../../com.aspose.cells/autofitteroptions\#getDefaultEditLanguage--)
+Sets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-For the description of this property, please see [getFormatStrategy()](../../com.aspose.cells/autofitteroptions\#getFormatStrategy--)
+Sets the formatted strategy. The default value is CellStyle for performance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public void setIgnoreHidden(boolean value)
 ```
 
 
-For the description of this property, please see [getIgnoreHidden()](../../com.aspose.cells/autofitteroptions\#getIgnoreHidden--)
+Ignores the hidden rows/columns.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public void setMaxRowHeight(double value)
 ```
 
 
-For the description of this property, please see [getMaxRowHeight()](../../com.aspose.cells/autofitteroptions\#getMaxRowHeight--)
+Sets the max row height(in unit of Point) when autofitting rows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void setOnlyAuto(boolean value)
 ```
 
 
-For the description of this property, please see [getOnlyAuto()](../../com.aspose.cells/autofitteroptions\#getOnlyAuto--)
+Indicates whether only fit the rows which height are not customed.
 
 **Parameters:**
 | Parameter | Type | Description |

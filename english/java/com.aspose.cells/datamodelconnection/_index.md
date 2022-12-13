@@ -39,31 +39,31 @@ Specifies a data model connection
 | [getSaveData()](#getSaveData--) | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
 | [getSavePassword()](#getSavePassword--) | True if the password is to be saved as part of the connection string; otherwise, False. |
 | [getSourceFile()](#getSourceFile--) | Used when the external data source is file-based. |
-| [getType()](#getType--) | the external connection DataSource type. |
+| [getType()](#getType--) | Gets the external connection DataSource type. |
 | [hashCode()](#hashCode--) |  |
 | [isDeleted()](#isDeleted--) | Indicates whether the associated workbook connection has been deleted. |
 | [isNew()](#isNew--) | True if the connection has not been refreshed for the first time; otherwise, false. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackgroundRefresh(boolean value)](#setBackgroundRefresh-boolean-) | For the description of this property, please see [getBackgroundRefresh()](../../com.aspose.cells/externalconnection\#getBackgroundRefresh--) |
-| [setConnectionDescription(String value)](#setConnectionDescription-java.lang.String-) | For the description of this property, please see [getConnectionDescription()](../../com.aspose.cells/externalconnection\#getConnectionDescription--) |
-| [setCredentials(int value)](#setCredentials-int-) | For the description of this property, please see [getCredentials()](../../com.aspose.cells/externalconnection\#getCredentials--) |
-| [setCredentialsMethodType(int value)](#setCredentialsMethodType-int-) | For the description of this property, please see [getCredentialsMethodType()](../../com.aspose.cells/externalconnection\#getCredentialsMethodType--) |
-| [setDeleted(boolean value)](#setDeleted-boolean-) | For the description of this property, please see [isDeleted()](../../com.aspose.cells/externalconnection\#isDeleted--) |
-| [setKeepAlive(boolean value)](#setKeepAlive-boolean-) | For the description of this property, please see [getKeepAlive()](../../com.aspose.cells/externalconnection\#getKeepAlive--) |
-| [setName(String value)](#setName-java.lang.String-) | For the description of this property, please see [getName()](../../com.aspose.cells/externalconnection\#getName--) |
-| [setNew(boolean value)](#setNew-boolean-) | For the description of this property, please see [isNew()](../../com.aspose.cells/externalconnection\#isNew--) |
-| [setOdcFile(String value)](#setOdcFile-java.lang.String-) | For the description of this property, please see [getOdcFile()](../../com.aspose.cells/externalconnection\#getOdcFile--) |
-| [setOnlyUseConnectionFile(boolean value)](#setOnlyUseConnectionFile-boolean-) | For the description of this property, please see [getOnlyUseConnectionFile()](../../com.aspose.cells/externalconnection\#getOnlyUseConnectionFile--) |
-| [setReconnectionMethod(int value)](#setReconnectionMethod-int-) | For the description of this property, please see [getReconnectionMethod()](../../com.aspose.cells/externalconnection\#getReconnectionMethod--) |
-| [setReconnectionMethodType(int value)](#setReconnectionMethodType-int-) | For the description of this property, please see [getReconnectionMethodType()](../../com.aspose.cells/externalconnection\#getReconnectionMethodType--) |
-| [setRefreshInternal(int value)](#setRefreshInternal-int-) | For the description of this property, please see [getRefreshInternal()](../../com.aspose.cells/externalconnection\#getRefreshInternal--) |
-| [setRefreshOnLoad(boolean value)](#setRefreshOnLoad-boolean-) | For the description of this property, please see [getRefreshOnLoad()](../../com.aspose.cells/externalconnection\#getRefreshOnLoad--) |
-| [setSSOId(String value)](#setSSOId-java.lang.String-) | For the description of this property, please see [getSSOId()](../../com.aspose.cells/externalconnection\#getSSOId--) |
-| [setSaveData(boolean value)](#setSaveData-boolean-) | For the description of this property, please see [getSaveData()](../../com.aspose.cells/externalconnection\#getSaveData--) |
-| [setSavePassword(boolean value)](#setSavePassword-boolean-) | For the description of this property, please see [getSavePassword()](../../com.aspose.cells/externalconnection\#getSavePassword--) |
-| [setSourceFile(String value)](#setSourceFile-java.lang.String-) | For the description of this property, please see [getSourceFile()](../../com.aspose.cells/externalconnection\#getSourceFile--) |
-| [setType(int value)](#setType-int-) | For the description of this property, please see [getType()](../../com.aspose.cells/externalconnection\#getType--) |
+| [setBackgroundRefresh(boolean value)](#setBackgroundRefresh-boolean-) | Indicates whether the connection can be refreshed in the background (asynchronously). |
+| [setConnectionDescription(String value)](#setConnectionDescription-java.lang.String-) | Specifies the user description for this connection |
+| [setCredentials(int value)](#setCredentials-int-) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
+| [setCredentialsMethodType(int value)](#setCredentialsMethodType-int-) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
+| [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether the associated workbook connection has been deleted. |
+| [setKeepAlive(boolean value)](#setKeepAlive-boolean-) | True when the spreadsheet application should make efforts to keep the connection open. |
+| [setName(String value)](#setName-java.lang.String-) | Specifies the name of the connection. |
+| [setNew(boolean value)](#setNew-boolean-) | True if the connection has not been refreshed for the first time; otherwise, false. |
+| [setOdcFile(String value)](#setOdcFile-java.lang.String-) | Specifies the full path to external connection file from which this connection was created. |
+| [setOnlyUseConnectionFile(boolean value)](#setOnlyUseConnectionFile-boolean-) | Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed. |
+| [setReconnectionMethod(int value)](#setReconnectionMethod-int-) | Specifies what the spreadsheet application should do when a connection fails. |
+| [setReconnectionMethodType(int value)](#setReconnectionMethodType-int-) | Specifies what the spreadsheet application should do when a connection fails. |
+| [setRefreshInternal(int value)](#setRefreshInternal-int-) | Specifies the number of minutes between automatic refreshes of the connection. |
+| [setRefreshOnLoad(boolean value)](#setRefreshOnLoad-boolean-) | True if this connection should be refreshed when opening the file; otherwise, false. |
+| [setSSOId(String value)](#setSSOId-java.lang.String-) | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
+| [setSaveData(boolean value)](#setSaveData-boolean-) | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
+| [setSavePassword(boolean value)](#setSavePassword-boolean-) | True if the password is to be saved as part of the connection string; otherwise, False. |
+| [setSourceFile(String value)](#setSourceFile-java.lang.String-) | Used when the external data source is file-based. |
+| [setType(int value)](#setType-int-) | Sets the external connection DataSource type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -299,7 +299,7 @@ public int getType()
 ```
 
 
-the external connection DataSource type.
+Gets the external connection DataSource type.
 
 **Returns:**
 int
@@ -355,7 +355,7 @@ public void setBackgroundRefresh(boolean value)
 ```
 
 
-For the description of this property, please see [getBackgroundRefresh()](../../com.aspose.cells/externalconnection\#getBackgroundRefresh--)
+Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -368,7 +368,7 @@ public void setConnectionDescription(String value)
 ```
 
 
-For the description of this property, please see [getConnectionDescription()](../../com.aspose.cells/externalconnection\#getConnectionDescription--)
+Specifies the user description for this connection
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -381,7 +381,7 @@ public void setCredentials(int value)
 ```
 
 
-For the description of this property, please see [getCredentials()](../../com.aspose.cells/externalconnection\#getCredentials--)
+Specifies the authentication method to be used when establishing (or re-establishing) the connection. NOTE: This property is now obsolete. Instead, please use ExternalConnection.CredentialsMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -394,7 +394,7 @@ public void setCredentialsMethodType(int value)
 ```
 
 
-For the description of this property, please see [getCredentialsMethodType()](../../com.aspose.cells/externalconnection\#getCredentialsMethodType--)
+Specifies the authentication method to be used when establishing (or re-establishing) the connection.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -407,7 +407,7 @@ public void setDeleted(boolean value)
 ```
 
 
-For the description of this property, please see [isDeleted()](../../com.aspose.cells/externalconnection\#isDeleted--)
+Indicates whether the associated workbook connection has been deleted. true if the connection has been deleted; otherwise, false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -420,7 +420,7 @@ public void setKeepAlive(boolean value)
 ```
 
 
-For the description of this property, please see [getKeepAlive()](../../com.aspose.cells/externalconnection\#getKeepAlive--)
+True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -433,7 +433,7 @@ public void setName(String value)
 ```
 
 
-For the description of this property, please see [getName()](../../com.aspose.cells/externalconnection\#getName--)
+Specifies the name of the connection. Each connection must have a unique name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -446,7 +446,7 @@ public void setNew(boolean value)
 ```
 
 
-For the description of this property, please see [isNew()](../../com.aspose.cells/externalconnection\#isNew--)
+True if the connection has not been refreshed for the first time; otherwise, false. This state can happen when the user saves the file before a query has finished returning.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -459,7 +459,7 @@ public void setOdcFile(String value)
 ```
 
 
-For the description of this property, please see [getOdcFile()](../../com.aspose.cells/externalconnection\#getOdcFile--)
+Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -472,7 +472,7 @@ public void setOnlyUseConnectionFile(boolean value)
 ```
 
 
-For the description of this property, please see [getOnlyUseConnectionFile()](../../com.aspose.cells/externalconnection\#getOnlyUseConnectionFile--)
+Indicates whether the spreadsheet application should always and only use the connection information in the external connection file indicated by the odcFile attribute when the connection is refreshed. If false, then the spreadsheet application should follow the procedure indicated by the reconnectionMethod attribute
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -485,7 +485,7 @@ public void setReconnectionMethod(int value)
 ```
 
 
-For the description of this property, please see [getReconnectionMethod()](../../com.aspose.cells/externalconnection\#getReconnectionMethod--)
+Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. NOTE: This property is now obsolete. Instead, please use ExternalConnection.ReconnectionMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -498,7 +498,7 @@ public void setReconnectionMethodType(int value)
 ```
 
 
-For the description of this property, please see [getReconnectionMethodType()](../../com.aspose.cells/externalconnection\#getReconnectionMethodType--)
+Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -511,7 +511,7 @@ public void setRefreshInternal(int value)
 ```
 
 
-For the description of this property, please see [getRefreshInternal()](../../com.aspose.cells/externalconnection\#getRefreshInternal--)
+Specifies the number of minutes between automatic refreshes of the connection.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -524,7 +524,7 @@ public void setRefreshOnLoad(boolean value)
 ```
 
 
-For the description of this property, please see [getRefreshOnLoad()](../../com.aspose.cells/externalconnection\#getRefreshOnLoad--)
+True if this connection should be refreshed when opening the file; otherwise, false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -537,7 +537,7 @@ public void setSSOId(String value)
 ```
 
 
-For the description of this property, please see [getSSOId()](../../com.aspose.cells/externalconnection\#getSSOId--)
+Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -550,7 +550,7 @@ public void setSaveData(boolean value)
 ```
 
 
-For the description of this property, please see [getSaveData()](../../com.aspose.cells/externalconnection\#getSaveData--)
+True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -563,7 +563,7 @@ public void setSavePassword(boolean value)
 ```
 
 
-For the description of this property, please see [getSavePassword()](../../com.aspose.cells/externalconnection\#getSavePassword--)
+True if the password is to be saved as part of the connection string; otherwise, False.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -576,7 +576,7 @@ public void setSourceFile(String value)
 ```
 
 
-For the description of this property, please see [getSourceFile()](../../com.aspose.cells/externalconnection\#getSourceFile--)
+Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -589,7 +589,7 @@ public void setType(int value)
 ```
 
 
-For the description of this property, please see [getType()](../../com.aspose.cells/externalconnection\#getType--)
+Sets the external connection DataSource type.
 
 **Parameters:**
 | Parameter | Type | Description |

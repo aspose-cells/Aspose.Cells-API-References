@@ -28,7 +28,7 @@ Represents the setting of deleting rows/columns.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | For the description of this property, please see [getUpdateReference()](../../com.aspose.cells/deleteoptions\#getUpdateReference--) |
+| [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if update references in other worksheets. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -106,7 +106,7 @@ public void setUpdateReference(boolean value)
 ```
 
 
-For the description of this property, please see [getUpdateReference()](../../com.aspose.cells/deleteoptions\#getUpdateReference--)
+Indicates if update references in other worksheets.
 
 **Parameters:**
 | Parameter | Type | Description |

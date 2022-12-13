@@ -49,23 +49,23 @@ ViewerStyleTemplate.
 | [parseFromString(String xmlStr)](#parseFromString-java.lang.String-) |  |
 | [persistToFile(String fileName)](#persistToFile-java.lang.String-) |  |
 | [persistToString()](#persistToString--) |  |
-| [setActiveCellBgColor(Color value)](#setActiveCellBgColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getActiveCellBgColor()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveCellBgColor--) |
-| [setActiveCellColor(Color value)](#setActiveCellColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getActiveCellColor()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveCellColor--) |
-| [setActiveHeaderBgColor(Color value)](#setActiveHeaderBgColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getActiveHeaderBgColor()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveHeaderBgColor--) |
-| [setActiveHeaderColor(Color value)](#setActiveHeaderColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getActiveHeaderColor()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveHeaderColor--) |
-| [setActiveTabStyle(GridTableItemStyle value)](#setActiveTabStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getActiveTabStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveTabStyle--) |
-| [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) | For the description of this property, please see [getBottomTableStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getBottomTableStyle--) |
-| [setDefaultGridLineColor(Color value)](#setDefaultGridLineColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getDefaultGridLineColor()](../../com.aspose.gridweb/viewerstyletemplate\#getDefaultGridLineColor--) |
-| [setFrameTableStyle(GridTableStyle value)](#setFrameTableStyle-com.aspose.gridweb.GridTableStyle-) | For the description of this property, please see [getFrameTableStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getFrameTableStyle--) |
-| [setHeaderBarStyle(GridTableItemStyle value)](#setHeaderBarStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getHeaderBarStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getHeaderBarStyle--) |
-| [setHeaderBarTableStyle(GridTableStyle value)](#setHeaderBarTableStyle-com.aspose.gridweb.GridTableStyle-) | For the description of this property, please see [getHeaderBarTableStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getHeaderBarTableStyle--) |
-| [setScrollBarArrowColor(Color value)](#setScrollBarArrowColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getScrollBarArrowColor()](../../com.aspose.gridweb/viewerstyletemplate\#getScrollBarArrowColor--) |
-| [setScrollBarBaseColor(Color value)](#setScrollBarBaseColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getScrollBarBaseColor()](../../com.aspose.gridweb/viewerstyletemplate\#getScrollBarBaseColor--) |
-| [setSelectCellBgColor(Color value)](#setSelectCellBgColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getSelectCellBgColor()](../../com.aspose.gridweb/viewerstyletemplate\#getSelectCellBgColor--) |
-| [setSelectCellColor(Color value)](#setSelectCellColor-com.aspose.gridweb.Color-) | For the description of this property, please see [getSelectCellColor()](../../com.aspose.gridweb/viewerstyletemplate\#getSelectCellColor--) |
+| [setActiveCellBgColor(Color value)](#setActiveCellBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the active cell. |
+| [setActiveCellColor(Color value)](#setActiveCellColor-com.aspose.gridweb.Color-) | Specifies the color of the active cell. |
+| [setActiveHeaderBgColor(Color value)](#setActiveHeaderBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the active row/column header. |
+| [setActiveHeaderColor(Color value)](#setActiveHeaderColor-com.aspose.gridweb.Color-) | Specifies the color of the active row/column header. |
+| [setActiveTabStyle(GridTableItemStyle value)](#setActiveTabStyle-com.aspose.gridweb.GridTableItemStyle-) |  |
+| [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) |  |
+| [setDefaultGridLineColor(Color value)](#setDefaultGridLineColor-com.aspose.gridweb.Color-) |  |
+| [setFrameTableStyle(GridTableStyle value)](#setFrameTableStyle-com.aspose.gridweb.GridTableStyle-) |  |
+| [setHeaderBarStyle(GridTableItemStyle value)](#setHeaderBarStyle-com.aspose.gridweb.GridTableItemStyle-) |  |
+| [setHeaderBarTableStyle(GridTableStyle value)](#setHeaderBarTableStyle-com.aspose.gridweb.GridTableStyle-) |  |
+| [setScrollBarArrowColor(Color value)](#setScrollBarArrowColor-com.aspose.gridweb.Color-) |  |
+| [setScrollBarBaseColor(Color value)](#setScrollBarBaseColor-com.aspose.gridweb.Color-) |  |
+| [setSelectCellBgColor(Color value)](#setSelectCellBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the selected cells in multi-select range. |
+| [setSelectCellColor(Color value)](#setSelectCellColor-com.aspose.gridweb.Color-) | Specifies the color of the selected cells in multi-select range. |
 | [setStylesForControl(MainWeb control)](#setStylesForControl-com.aspose.gridweb.MainWeb-) |  |
-| [setTabStyle(GridTableItemStyle value)](#setTabStyle-com.aspose.gridweb.GridTableItemStyle-) | For the description of this property, please see [getTabStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getTabStyle--) |
-| [setViewTableStyle(GridTableStyle value)](#setViewTableStyle-com.aspose.gridweb.GridTableStyle-) | For the description of this property, please see [getViewTableStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getViewTableStyle--) |
+| [setTabStyle(GridTableItemStyle value)](#setTabStyle-com.aspose.gridweb.GridTableItemStyle-) |  |
+| [setViewTableStyle(GridTableStyle value)](#setViewTableStyle-com.aspose.gridweb.GridTableStyle-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -370,7 +370,7 @@ public void setActiveCellBgColor(Color value)
 ```
 
 
-For the description of this property, please see [getActiveCellBgColor()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveCellBgColor--)
+Specifies the background color of the active cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -383,7 +383,7 @@ public void setActiveCellColor(Color value)
 ```
 
 
-For the description of this property, please see [getActiveCellColor()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveCellColor--)
+Specifies the color of the active cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -396,7 +396,7 @@ public void setActiveHeaderBgColor(Color value)
 ```
 
 
-For the description of this property, please see [getActiveHeaderBgColor()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveHeaderBgColor--)
+Specifies the background color of the active row/column header.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -409,7 +409,7 @@ public void setActiveHeaderColor(Color value)
 ```
 
 
-For the description of this property, please see [getActiveHeaderColor()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveHeaderColor--)
+Specifies the color of the active row/column header.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -422,7 +422,7 @@ public void setActiveTabStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getActiveTabStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getActiveTabStyle--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -435,7 +435,7 @@ public void setBottomTableStyle(GridTableStyle value)
 ```
 
 
-For the description of this property, please see [getBottomTableStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getBottomTableStyle--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -448,7 +448,7 @@ public void setDefaultGridLineColor(Color value)
 ```
 
 
-For the description of this property, please see [getDefaultGridLineColor()](../../com.aspose.gridweb/viewerstyletemplate\#getDefaultGridLineColor--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -461,7 +461,7 @@ public void setFrameTableStyle(GridTableStyle value)
 ```
 
 
-For the description of this property, please see [getFrameTableStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getFrameTableStyle--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -474,7 +474,7 @@ public void setHeaderBarStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getHeaderBarStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getHeaderBarStyle--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -487,7 +487,7 @@ public void setHeaderBarTableStyle(GridTableStyle value)
 ```
 
 
-For the description of this property, please see [getHeaderBarTableStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getHeaderBarTableStyle--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -500,7 +500,7 @@ public void setScrollBarArrowColor(Color value)
 ```
 
 
-For the description of this property, please see [getScrollBarArrowColor()](../../com.aspose.gridweb/viewerstyletemplate\#getScrollBarArrowColor--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -513,7 +513,7 @@ public void setScrollBarBaseColor(Color value)
 ```
 
 
-For the description of this property, please see [getScrollBarBaseColor()](../../com.aspose.gridweb/viewerstyletemplate\#getScrollBarBaseColor--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -526,7 +526,7 @@ public void setSelectCellBgColor(Color value)
 ```
 
 
-For the description of this property, please see [getSelectCellBgColor()](../../com.aspose.gridweb/viewerstyletemplate\#getSelectCellBgColor--)
+Specifies the background color of the selected cells in multi-select range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -539,7 +539,7 @@ public void setSelectCellColor(Color value)
 ```
 
 
-For the description of this property, please see [getSelectCellColor()](../../com.aspose.gridweb/viewerstyletemplate\#getSelectCellColor--)
+Specifies the color of the selected cells in multi-select range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -565,7 +565,7 @@ public void setTabStyle(GridTableItemStyle value)
 ```
 
 
-For the description of this property, please see [getTabStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getTabStyle--)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -578,7 +578,7 @@ public void setViewTableStyle(GridTableStyle value)
 ```
 
 
-For the description of this property, please see [getViewTableStyle()](../../com.aspose.gridweb/viewerstyletemplate\#getViewTableStyle--)
+
 
 **Parameters:**
 | Parameter | Type | Description |

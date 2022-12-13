@@ -36,7 +36,7 @@ Represents the custom filters.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
-| [setAnd(boolean value)](#setAnd-boolean-) | For the description of this property, please see [getAnd()](../../com.aspose.cells/customfiltercollection\#getAnd--) |
+| [setAnd(boolean value)](#setAnd-boolean-) | Indicates whether the two criteria have an "and" relationship. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -215,7 +215,7 @@ public void setAnd(boolean value)
 ```
 
 
-For the description of this property, please see [getAnd()](../../com.aspose.cells/customfiltercollection\#getAnd--)
+Indicates whether the two criteria have an "and" relationship.
 
 **Parameters:**
 | Parameter | Type | Description |

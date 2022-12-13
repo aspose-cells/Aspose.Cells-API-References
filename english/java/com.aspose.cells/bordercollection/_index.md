@@ -68,14 +68,14 @@ Encapsulates a collection of [Border](../../com.aspose.cells/border) objects.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getByBorderType(int borderType)](#getByBorderType-int-) | Gets the [Border](../../com.aspose.cells/border) element at the specified index. |
 | [getClass()](#getClass--) |  |
-| [getDiagonalColor()](#getDiagonalColor--) | the [Color](../../com.aspose.cells/color) of Diagonal lines. |
-| [getDiagonalStyle()](#getDiagonalStyle--) | the style of Diagonal lines. |
+| [getDiagonalColor()](#getDiagonalColor--) | Gets the [Color](../../com.aspose.cells/color) of Diagonal lines. |
+| [getDiagonalStyle()](#getDiagonalStyle--) | Gets the style of Diagonal lines. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setColor(Color color)](#setColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color) of all borders in the collection. |
-| [setDiagonalColor(Color value)](#setDiagonalColor-com.aspose.cells.Color-) | For the description of this property, please see [getDiagonalColor()](../../com.aspose.cells/bordercollection\#getDiagonalColor--) |
-| [setDiagonalStyle(int value)](#setDiagonalStyle-int-) | For the description of this property, please see [getDiagonalStyle()](../../com.aspose.cells/bordercollection\#getDiagonalStyle--) |
+| [setDiagonalColor(Color value)](#setDiagonalColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color) of Diagonal lines. |
+| [setDiagonalStyle(int value)](#setDiagonalStyle-int-) | Sets the style of Diagonal lines. |
 | [setStyle(int style)](#setStyle-int-) | Sets the style of all borders of the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -127,7 +127,7 @@ public Color getDiagonalColor()
 ```
 
 
-the [Color](../../com.aspose.cells/color) of Diagonal lines.
+Gets the [Color](../../com.aspose.cells/color) of Diagonal lines.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -137,7 +137,7 @@ public int getDiagonalStyle()
 ```
 
 
-the style of Diagonal lines.
+Gets the style of Diagonal lines.
 
 **Returns:**
 int
@@ -186,7 +186,7 @@ public void setDiagonalColor(Color value)
 ```
 
 
-For the description of this property, please see [getDiagonalColor()](../../com.aspose.cells/bordercollection\#getDiagonalColor--)
+Sets the [Color](../../com.aspose.cells/color) of Diagonal lines.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -199,7 +199,7 @@ public void setDiagonalStyle(int value)
 ```
 
 
-For the description of this property, please see [getDiagonalStyle()](../../com.aspose.cells/bordercollection\#getDiagonalStyle--)
+Sets the style of Diagonal lines.
 
 **Parameters:**
 | Parameter | Type | Description |

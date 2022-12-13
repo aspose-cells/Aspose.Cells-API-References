@@ -18,40 +18,40 @@ Represents a ComboBox ActiveX control.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackOleColor()](#getBackOleColor--) | the ole color of the background. |
-| [getBorderOleColor()](#getBorderOleColor--) | the ole color of the background. |
-| [getBorderStyle()](#getBorderStyle--) | the type of border used by the control. |
+| [getBackOleColor()](#getBackOleColor--) | Gets the ole color of the background. |
+| [getBorderOleColor()](#getBorderOleColor--) | Gets the ole color of the background. |
+| [getBorderStyle()](#getBorderStyle--) | Gets the type of border used by the control. |
 | [getBoundColumn()](#getBoundColumn--) | Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |
 | [getClass()](#getClass--) |  |
 | [getColumnCount()](#getColumnCount--) | Represents the number of columns to display in a ComboBox or ListBox. |
-| [getColumnWidths()](#getColumnWidths--) | the width of the column. |
-| [getData()](#getData--) | the binary data of the control. |
+| [getColumnWidths()](#getColumnWidths--) | Gets the width of the column. |
+| [getData()](#getData--) | Gets the binary data of the control. |
 | [getDropButtonStyle()](#getDropButtonStyle--) | Specifies the symbol displayed on the drop button |
 | [getEnterFieldBehavior()](#getEnterFieldBehavior--) | Specifies selection behavior when entering the control. |
 | [getFont()](#getFont--) | Represents the font of the control. |
-| [getForeOleColor()](#getForeOleColor--) | the ole color of the foreground. |
-| [getHeight()](#getHeight--) | the height of the control in unit of points. |
+| [getForeOleColor()](#getForeOleColor--) | Gets the ole color of the foreground. |
+| [getHeight()](#getHeight--) | Gets the height of the control in unit of points. |
 | [getHideSelection()](#getHideSelection--) | Indicates whether selected text in the control appears highlighted when the control does not have focus. |
-| [getIMEMode()](#getIMEMode--) | the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [getLinkedCell()](#getLinkedCell--) | the linked cell. |
-| [getListFillRange()](#getListFillRange--) | the list fill range. |
+| [getIMEMode()](#getIMEMode--) | Gets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [getLinkedCell()](#getLinkedCell--) | Gets the linked cell. |
+| [getListFillRange()](#getListFillRange--) | Gets the list fill range. |
 | [getListRows()](#getListRows--) | Represents the maximum number of rows to display in the list. |
-| [getListStyle()](#getListStyle--) | the visual appearance. |
-| [getListWidth()](#getListWidth--) | the width in unit of points. |
+| [getListStyle()](#getListStyle--) | Gets the visual appearance. |
+| [getListWidth()](#getListWidth--) | Gets the width in unit of points. |
 | [getMatchEntry()](#getMatchEntry--) | Indicates how a ListBox or ComboBox searches its list as the user types. |
-| [getMaxLength()](#getMaxLength--) | the maximum number of characters |
-| [getMouseIcon()](#getMouseIcon--) | a custom icon to display as the mouse pointer for the control. |
-| [getMousePointer()](#getMousePointer--) | the type of icon displayed as the mouse pointer for the control. |
+| [getMaxLength()](#getMaxLength--) | Gets the maximum number of characters |
+| [getMouseIcon()](#getMouseIcon--) | Gets a custom icon to display as the mouse pointer for the control. |
+| [getMousePointer()](#getMousePointer--) | Gets the type of icon displayed as the mouse pointer for the control. |
 | [getSelectionMargin()](#getSelectionMargin--) | Indicates whether the user can select a line of text by clicking in the region to the left of the text. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
 | [getShowColumnHeads()](#getShowColumnHeads--) | Indicates whether column headings are displayed. |
 | [getShowDropButtonTypeWhen()](#getShowDropButtonTypeWhen--) | Specifies the symbol displayed on the drop button |
-| [getSpecialEffect()](#getSpecialEffect--) | the special effect of the control. |
+| [getSpecialEffect()](#getSpecialEffect--) | Gets the special effect of the control. |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getTextColumn()](#getTextColumn--) | Represents the column in a ComboBox or ListBox to display to the user. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
-| [getValue()](#getValue--) | the value of the control. |
-| [getWidth()](#getWidth--) | the width of the control in unit of points. |
+| [getValue()](#getValue--) | Gets the value of the control. |
+| [getWidth()](#getWidth--) | Gets the width of the control in unit of points. |
 | [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
@@ -64,44 +64,44 @@ Represents a ComboBox ActiveX control.
 | [isVisible()](#isVisible--) | Indicates whether this control is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) | For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--) |
-| [setAutoWordSelected(boolean value)](#setAutoWordSelected-boolean-) | For the description of this property, please see [isAutoWordSelected()](../../com.aspose.cells/comboboxactivexcontrol\#isAutoWordSelected--) |
-| [setBackOleColor(int value)](#setBackOleColor-int-) | For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--) |
-| [setBorderOleColor(int value)](#setBorderOleColor-int-) | For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/comboboxactivexcontrol\#getBorderOleColor--) |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getBorderStyle--) |
-| [setBoundColumn(int value)](#setBoundColumn-int-) | For the description of this property, please see [getBoundColumn()](../../com.aspose.cells/comboboxactivexcontrol\#getBoundColumn--) |
-| [setColumnCount(int value)](#setColumnCount-int-) | For the description of this property, please see [getColumnCount()](../../com.aspose.cells/comboboxactivexcontrol\#getColumnCount--) |
-| [setColumnWidths(double value)](#setColumnWidths-double-) | For the description of this property, please see [getColumnWidths()](../../com.aspose.cells/comboboxactivexcontrol\#getColumnWidths--) |
-| [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | For the description of this property, please see [isDragBehaviorEnabled()](../../com.aspose.cells/comboboxactivexcontrol\#isDragBehaviorEnabled--) |
-| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | For the description of this property, please see [getDropButtonStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getDropButtonStyle--) |
-| [setEditable(boolean value)](#setEditable-boolean-) | For the description of this property, please see [isEditable()](../../com.aspose.cells/comboboxactivexcontrol\#isEditable--) |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--) |
-| [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | For the description of this property, please see [getEnterFieldBehavior()](../../com.aspose.cells/comboboxactivexcontrol\#getEnterFieldBehavior--) |
-| [setForeOleColor(int value)](#setForeOleColor-int-) | For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--) |
-| [setHeight(double value)](#setHeight-double-) | For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--) |
-| [setHideSelection(boolean value)](#setHideSelection-boolean-) | For the description of this property, please see [getHideSelection()](../../com.aspose.cells/comboboxactivexcontrol\#getHideSelection--) |
-| [setIMEMode(int value)](#setIMEMode-int-) | For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--) |
-| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--) |
-| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--) |
-| [setListRows(int value)](#setListRows-int-) | For the description of this property, please see [getListRows()](../../com.aspose.cells/comboboxactivexcontrol\#getListRows--) |
-| [setListStyle(int value)](#setListStyle-int-) | For the description of this property, please see [getListStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getListStyle--) |
-| [setListWidth(double value)](#setListWidth-double-) | For the description of this property, please see [getListWidth()](../../com.aspose.cells/comboboxactivexcontrol\#getListWidth--) |
-| [setLocked(boolean value)](#setLocked-boolean-) | For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--) |
-| [setMatchEntry(int value)](#setMatchEntry-int-) | For the description of this property, please see [getMatchEntry()](../../com.aspose.cells/comboboxactivexcontrol\#getMatchEntry--) |
-| [setMaxLength(int value)](#setMaxLength-int-) | For the description of this property, please see [getMaxLength()](../../com.aspose.cells/comboboxactivexcontrol\#getMaxLength--) |
-| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--) |
-| [setMousePointer(int value)](#setMousePointer-int-) | For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--) |
-| [setSelectionMargin(boolean value)](#setSelectionMargin-boolean-) | For the description of this property, please see [getSelectionMargin()](../../com.aspose.cells/comboboxactivexcontrol\#getSelectionMargin--) |
-| [setShadow(boolean value)](#setShadow-boolean-) | For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--) |
-| [setShowColumnHeads(boolean value)](#setShowColumnHeads-boolean-) | For the description of this property, please see [getShowColumnHeads()](../../com.aspose.cells/comboboxactivexcontrol\#getShowColumnHeads--) |
-| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | For the description of this property, please see [getShowDropButtonTypeWhen()](../../com.aspose.cells/comboboxactivexcontrol\#getShowDropButtonTypeWhen--) |
-| [setSpecialEffect(int value)](#setSpecialEffect-int-) | For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/comboboxactivexcontrol\#getSpecialEffect--) |
-| [setTextAlign(int value)](#setTextAlign-int-) | For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--) |
-| [setTextColumn(int value)](#setTextColumn-int-) | For the description of this property, please see [getTextColumn()](../../com.aspose.cells/comboboxactivexcontrol\#getTextColumn--) |
-| [setTransparent(boolean value)](#setTransparent-boolean-) | For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--) |
-| [setValue(String value)](#setValue-java.lang.String-) | For the description of this property, please see [getValue()](../../com.aspose.cells/comboboxactivexcontrol\#getValue--) |
-| [setVisible(boolean value)](#setVisible-boolean-) | For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--) |
-| [setWidth(double value)](#setWidth-double-) | For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--) |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates whether the control will automatically resize to display its entire contents. |
+| [setAutoWordSelected(boolean value)](#setAutoWordSelected-boolean-) | Specifies the basic unit used to extend a selection. |
+| [setBackOleColor(int value)](#setBackOleColor-int-) | Sets the ole color of the background. |
+| [setBorderOleColor(int value)](#setBorderOleColor-int-) | Sets the ole color of the background. |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the type of border used by the control. |
+| [setBoundColumn(int value)](#setBoundColumn-int-) | Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |
+| [setColumnCount(int value)](#setColumnCount-int-) | Represents the number of columns to display in a ComboBox or ListBox. |
+| [setColumnWidths(double value)](#setColumnWidths-double-) | Sets the width of the column. |
+| [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | Indicates whether dragging and dropping is enabled for the control. |
+| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | Specifies the symbol displayed on the drop button |
+| [setEditable(boolean value)](#setEditable-boolean-) | Indicates whether the user can type into the control. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | Indicates whether the control can receive the focus and respond to user-generated events. |
+| [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | Specifies selection behavior when entering the control. |
+| [setForeOleColor(int value)](#setForeOleColor-int-) | Sets the ole color of the foreground. |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the control in unit of points. |
+| [setHideSelection(boolean value)](#setHideSelection-boolean-) | Indicates whether selected text in the control appears highlighted when the control does not have focus. |
+| [setIMEMode(int value)](#setIMEMode-int-) | Sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
+| [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the linked cell. |
+| [setListFillRange(String value)](#setListFillRange-java.lang.String-) | Sets the list fill range. |
+| [setListRows(int value)](#setListRows-int-) | Represents the maximum number of rows to display in the list. |
+| [setListStyle(int value)](#setListStyle-int-) | Sets the visual appearance. |
+| [setListWidth(double value)](#setListWidth-double-) | Sets the width in unit of points. |
+| [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether data in the control is locked for editing. |
+| [setMatchEntry(int value)](#setMatchEntry-int-) | Indicates how a ListBox or ComboBox searches its list as the user types. |
+| [setMaxLength(int value)](#setMaxLength-int-) | Sets the maximum number of characters |
+| [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | Sets a custom icon to display as the mouse pointer for the control. |
+| [setMousePointer(int value)](#setMousePointer-int-) | Sets the type of icon displayed as the mouse pointer for the control. |
+| [setSelectionMargin(boolean value)](#setSelectionMargin-boolean-) | Indicates whether the user can select a line of text by clicking in the region to the left of the text. |
+| [setShadow(boolean value)](#setShadow-boolean-) | Indicates whether to show a shadow. |
+| [setShowColumnHeads(boolean value)](#setShowColumnHeads-boolean-) | Indicates whether column headings are displayed. |
+| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | Specifies the symbol displayed on the drop button |
+| [setSpecialEffect(int value)](#setSpecialEffect-int-) | Sets the special effect of the control. |
+| [setTextAlign(int value)](#setTextAlign-int-) | Represents how to align the text used by the control. |
+| [setTextColumn(int value)](#setTextColumn-int-) | Represents the column in a ComboBox or ListBox to display to the user. |
+| [setTransparent(boolean value)](#setTransparent-boolean-) | Indicates whether the control is transparent. |
+| [setValue(String value)](#setValue-java.lang.String-) | Sets the value of the control. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this control is visible. |
+| [setWidth(double value)](#setWidth-double-) | Sets the width of the control in unit of points. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -127,7 +127,7 @@ public int getBackOleColor()
 ```
 
 
-the ole color of the background.
+Gets the ole color of the background.
 
 **Returns:**
 int
@@ -137,7 +137,7 @@ public int getBorderOleColor()
 ```
 
 
-the ole color of the background.
+Gets the ole color of the background.
 
 **Returns:**
 int
@@ -147,7 +147,7 @@ public int getBorderStyle()
 ```
 
 
-the type of border used by the control.
+Gets the type of border used by the control.
 
 **Returns:**
 int
@@ -187,7 +187,7 @@ public double getColumnWidths()
 ```
 
 
-the width of the column.
+Gets the width of the column.
 
 **Returns:**
 double
@@ -197,7 +197,7 @@ public byte[] getData()
 ```
 
 
-the binary data of the control.
+Gets the binary data of the control.
 
 **Returns:**
 byte[]
@@ -237,7 +237,7 @@ public int getForeOleColor()
 ```
 
 
-the ole color of the foreground. Not applies to Image control.
+Gets the ole color of the foreground. Not applies to Image control.
 
 **Returns:**
 int
@@ -247,7 +247,7 @@ public double getHeight()
 ```
 
 
-the height of the control in unit of points.
+Gets the height of the control in unit of points.
 
 **Returns:**
 double
@@ -267,7 +267,7 @@ public int getIMEMode()
 ```
 
 
-the default run-time mode of the Input Method Editor for the control as it receives focus.
+Gets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Returns:**
 int
@@ -277,7 +277,7 @@ public String getLinkedCell()
 ```
 
 
-the linked cell.
+Gets the linked cell.
 
 **Returns:**
 java.lang.String
@@ -287,7 +287,7 @@ public String getListFillRange()
 ```
 
 
-the list fill range.
+Gets the list fill range.
 
 **Returns:**
 java.lang.String
@@ -307,7 +307,7 @@ public int getListStyle()
 ```
 
 
-the visual appearance.
+Gets the visual appearance.
 
 **Returns:**
 int
@@ -317,7 +317,7 @@ public double getListWidth()
 ```
 
 
-the width in unit of points.
+Gets the width in unit of points.
 
 **Returns:**
 double
@@ -337,7 +337,7 @@ public int getMaxLength()
 ```
 
 
-the maximum number of characters
+Gets the maximum number of characters
 
 **Returns:**
 int
@@ -347,7 +347,7 @@ public byte[] getMouseIcon()
 ```
 
 
-a custom icon to display as the mouse pointer for the control.
+Gets a custom icon to display as the mouse pointer for the control.
 
 **Returns:**
 byte[]
@@ -357,7 +357,7 @@ public int getMousePointer()
 ```
 
 
-the type of icon displayed as the mouse pointer for the control.
+Gets the type of icon displayed as the mouse pointer for the control.
 
 **Returns:**
 int
@@ -407,7 +407,7 @@ public int getSpecialEffect()
 ```
 
 
-the special effect of the control.
+Gets the special effect of the control.
 
 **Returns:**
 int
@@ -447,7 +447,7 @@ public String getValue()
 ```
 
 
-the value of the control.
+Gets the value of the control.
 
 **Returns:**
 java.lang.String
@@ -457,7 +457,7 @@ public double getWidth()
 ```
 
 
-the width of the control in unit of points.
+Gets the width of the control in unit of points.
 
 **Returns:**
 double
@@ -583,7 +583,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoSize()](../../com.aspose.cells/activexcontrol\#isAutoSize--)
+Indicates whether the control will automatically resize to display its entire contents.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -596,7 +596,7 @@ public void setAutoWordSelected(boolean value)
 ```
 
 
-For the description of this property, please see [isAutoWordSelected()](../../com.aspose.cells/comboboxactivexcontrol\#isAutoWordSelected--)
+Specifies the basic unit used to extend a selection. True specifies that the basic unit is a single character. false specifies that the basic unit is a whole word.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -609,7 +609,7 @@ public void setBackOleColor(int value)
 ```
 
 
-For the description of this property, please see [getBackOleColor()](../../com.aspose.cells/activexcontrolbase\#getBackOleColor--)
+Sets the ole color of the background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,7 +622,7 @@ public void setBorderOleColor(int value)
 ```
 
 
-For the description of this property, please see [getBorderOleColor()](../../com.aspose.cells/comboboxactivexcontrol\#getBorderOleColor--)
+Sets the ole color of the background.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -635,7 +635,7 @@ public void setBorderStyle(int value)
 ```
 
 
-For the description of this property, please see [getBorderStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getBorderStyle--)
+Sets the type of border used by the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -648,7 +648,7 @@ public void setBoundColumn(int value)
 ```
 
 
-For the description of this property, please see [getBoundColumn()](../../com.aspose.cells/comboboxactivexcontrol\#getBoundColumn--)
+Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -661,7 +661,7 @@ public void setColumnCount(int value)
 ```
 
 
-For the description of this property, please see [getColumnCount()](../../com.aspose.cells/comboboxactivexcontrol\#getColumnCount--)
+Represents the number of columns to display in a ComboBox or ListBox.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -674,7 +674,7 @@ public void setColumnWidths(double value)
 ```
 
 
-For the description of this property, please see [getColumnWidths()](../../com.aspose.cells/comboboxactivexcontrol\#getColumnWidths--)
+Sets the width of the column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -687,7 +687,7 @@ public void setDragBehaviorEnabled(boolean value)
 ```
 
 
-For the description of this property, please see [isDragBehaviorEnabled()](../../com.aspose.cells/comboboxactivexcontrol\#isDragBehaviorEnabled--)
+Indicates whether dragging and dropping is enabled for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -700,7 +700,7 @@ public void setDropButtonStyle(int value)
 ```
 
 
-For the description of this property, please see [getDropButtonStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getDropButtonStyle--)
+Specifies the symbol displayed on the drop button
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -713,7 +713,7 @@ public void setEditable(boolean value)
 ```
 
 
-For the description of this property, please see [isEditable()](../../com.aspose.cells/comboboxactivexcontrol\#isEditable--)
+Indicates whether the user can type into the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -726,7 +726,7 @@ public void setEnabled(boolean value)
 ```
 
 
-For the description of this property, please see [isEnabled()](../../com.aspose.cells/activexcontrol\#isEnabled--)
+Indicates whether the control can receive the focus and respond to user-generated events.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -739,7 +739,7 @@ public void setEnterFieldBehavior(boolean value)
 ```
 
 
-For the description of this property, please see [getEnterFieldBehavior()](../../com.aspose.cells/comboboxactivexcontrol\#getEnterFieldBehavior--)
+Specifies selection behavior when entering the control. True specifies that the selection remains unchanged from last time the control was active. False specifies that all the text in the control will be selected when entering the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -752,7 +752,7 @@ public void setForeOleColor(int value)
 ```
 
 
-For the description of this property, please see [getForeOleColor()](../../com.aspose.cells/activexcontrolbase\#getForeOleColor--)
+Sets the ole color of the foreground. Not applies to Image control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -765,7 +765,7 @@ public void setHeight(double value)
 ```
 
 
-For the description of this property, please see [getHeight()](../../com.aspose.cells/activexcontrolbase\#getHeight--)
+Sets the height of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -778,7 +778,7 @@ public void setHideSelection(boolean value)
 ```
 
 
-For the description of this property, please see [getHideSelection()](../../com.aspose.cells/comboboxactivexcontrol\#getHideSelection--)
+Indicates whether selected text in the control appears highlighted when the control does not have focus.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -791,7 +791,7 @@ public void setIMEMode(int value)
 ```
 
 
-For the description of this property, please see [getIMEMode()](../../com.aspose.cells/activexcontrol\#getIMEMode--)
+Sets the default run-time mode of the Input Method Editor for the control as it receives focus.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -804,7 +804,7 @@ public void setLinkedCell(String value)
 ```
 
 
-For the description of this property, please see [getLinkedCell()](../../com.aspose.cells/activexcontrolbase\#getLinkedCell--)
+Sets the linked cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -817,7 +817,7 @@ public void setListFillRange(String value)
 ```
 
 
-For the description of this property, please see [getListFillRange()](../../com.aspose.cells/activexcontrolbase\#getListFillRange--)
+Sets the list fill range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -830,7 +830,7 @@ public void setListRows(int value)
 ```
 
 
-For the description of this property, please see [getListRows()](../../com.aspose.cells/comboboxactivexcontrol\#getListRows--)
+Represents the maximum number of rows to display in the list.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -843,7 +843,7 @@ public void setListStyle(int value)
 ```
 
 
-For the description of this property, please see [getListStyle()](../../com.aspose.cells/comboboxactivexcontrol\#getListStyle--)
+Sets the visual appearance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -856,7 +856,7 @@ public void setListWidth(double value)
 ```
 
 
-For the description of this property, please see [getListWidth()](../../com.aspose.cells/comboboxactivexcontrol\#getListWidth--)
+Sets the width in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -869,7 +869,7 @@ public void setLocked(boolean value)
 ```
 
 
-For the description of this property, please see [isLocked()](../../com.aspose.cells/activexcontrol\#isLocked--)
+Indicates whether data in the control is locked for editing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -882,7 +882,7 @@ public void setMatchEntry(int value)
 ```
 
 
-For the description of this property, please see [getMatchEntry()](../../com.aspose.cells/comboboxactivexcontrol\#getMatchEntry--)
+Indicates how a ListBox or ComboBox searches its list as the user types.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -895,7 +895,7 @@ public void setMaxLength(int value)
 ```
 
 
-For the description of this property, please see [getMaxLength()](../../com.aspose.cells/comboboxactivexcontrol\#getMaxLength--)
+Sets the maximum number of characters
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -908,7 +908,7 @@ public void setMouseIcon(byte[] value)
 ```
 
 
-For the description of this property, please see [getMouseIcon()](../../com.aspose.cells/activexcontrolbase\#getMouseIcon--)
+Sets a custom icon to display as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -921,7 +921,7 @@ public void setMousePointer(int value)
 ```
 
 
-For the description of this property, please see [getMousePointer()](../../com.aspose.cells/activexcontrolbase\#getMousePointer--)
+Sets the type of icon displayed as the mouse pointer for the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -934,7 +934,7 @@ public void setSelectionMargin(boolean value)
 ```
 
 
-For the description of this property, please see [getSelectionMargin()](../../com.aspose.cells/comboboxactivexcontrol\#getSelectionMargin--)
+Indicates whether the user can select a line of text by clicking in the region to the left of the text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -947,7 +947,7 @@ public void setShadow(boolean value)
 ```
 
 
-For the description of this property, please see [getShadow()](../../com.aspose.cells/activexcontrolbase\#getShadow--)
+Indicates whether to show a shadow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -960,7 +960,7 @@ public void setShowColumnHeads(boolean value)
 ```
 
 
-For the description of this property, please see [getShowColumnHeads()](../../com.aspose.cells/comboboxactivexcontrol\#getShowColumnHeads--)
+Indicates whether column headings are displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -973,7 +973,7 @@ public void setShowDropButtonTypeWhen(int value)
 ```
 
 
-For the description of this property, please see [getShowDropButtonTypeWhen()](../../com.aspose.cells/comboboxactivexcontrol\#getShowDropButtonTypeWhen--)
+Specifies the symbol displayed on the drop button
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -986,7 +986,7 @@ public void setSpecialEffect(int value)
 ```
 
 
-For the description of this property, please see [getSpecialEffect()](../../com.aspose.cells/comboboxactivexcontrol\#getSpecialEffect--)
+Sets the special effect of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -999,7 +999,7 @@ public void setTextAlign(int value)
 ```
 
 
-For the description of this property, please see [getTextAlign()](../../com.aspose.cells/activexcontrol\#getTextAlign--)
+Represents how to align the text used by the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1012,7 +1012,7 @@ public void setTextColumn(int value)
 ```
 
 
-For the description of this property, please see [getTextColumn()](../../com.aspose.cells/comboboxactivexcontrol\#getTextColumn--)
+Represents the column in a ComboBox or ListBox to display to the user.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1025,7 +1025,7 @@ public void setTransparent(boolean value)
 ```
 
 
-For the description of this property, please see [isTransparent()](../../com.aspose.cells/activexcontrol\#isTransparent--)
+Indicates whether the control is transparent.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1038,7 +1038,7 @@ public void setValue(String value)
 ```
 
 
-For the description of this property, please see [getValue()](../../com.aspose.cells/comboboxactivexcontrol\#getValue--)
+Sets the value of the control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1051,7 +1051,7 @@ public void setVisible(boolean value)
 ```
 
 
-For the description of this property, please see [isVisible()](../../com.aspose.cells/activexcontrolbase\#isVisible--)
+Indicates whether this control is visible.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1064,7 +1064,7 @@ public void setWidth(double value)
 ```
 
 
-For the description of this property, please see [getWidth()](../../com.aspose.cells/activexcontrolbase\#getWidth--)
+Sets the width of the control in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -32,18 +32,18 @@ Workbook workbook = new Workbook();
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArgbColor()](#getArgbColor--) | the color with a 32-bit ARGB value. |
+| [getArgbColor()](#getArgbColor--) | Gets the color with a 32-bit ARGB value. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | the [Color](../../com.aspose.cells/color) of the border. |
-| [getLineStyle()](#getLineStyle--) | the cell border type. |
-| [getThemeColor()](#getThemeColor--) | the theme color of the border. |
+| [getColor()](#getColor--) | Gets the [Color](../../com.aspose.cells/color) of the border. |
+| [getLineStyle()](#getLineStyle--) | Gets the cell border type. |
+| [getThemeColor()](#getThemeColor--) | Gets the theme color of the border. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArgbColor(int value)](#setArgbColor-int-) | For the description of this property, please see [getArgbColor()](../../com.aspose.cells/border\#getArgbColor--) |
-| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | For the description of this property, please see [getColor()](../../com.aspose.cells/border\#getColor--) |
-| [setLineStyle(int value)](#setLineStyle-int-) | For the description of this property, please see [getLineStyle()](../../com.aspose.cells/border\#getLineStyle--) |
-| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | For the description of this property, please see [getThemeColor()](../../com.aspose.cells/border\#getThemeColor--) |
+| [setArgbColor(int value)](#setArgbColor-int-) | Sets the color with a 32-bit ARGB value. |
+| [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color) of the border. |
+| [setLineStyle(int value)](#setLineStyle-int-) | Sets the cell border type. |
+| [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | Sets the theme color of the border. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -69,7 +69,7 @@ public int getArgbColor()
 ```
 
 
-the color with a 32-bit ARGB value.
+Gets the color with a 32-bit ARGB value.
 
 **Returns:**
 int
@@ -89,7 +89,7 @@ public Color getColor()
 ```
 
 
-the [Color](../../com.aspose.cells/color) of the border.
+Gets the [Color](../../com.aspose.cells/color) of the border.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -99,7 +99,7 @@ public int getLineStyle()
 ```
 
 
-the cell border type.
+Gets the cell border type.
 
 **Returns:**
 int
@@ -109,7 +109,7 @@ public ThemeColor getThemeColor()
 ```
 
 
-the theme color of the border.
+Gets the theme color of the border.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -145,7 +145,7 @@ public void setArgbColor(int value)
 ```
 
 
-For the description of this property, please see [getArgbColor()](../../com.aspose.cells/border\#getArgbColor--)
+Sets the color with a 32-bit ARGB value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public void setColor(Color value)
 ```
 
 
-For the description of this property, please see [getColor()](../../com.aspose.cells/border\#getColor--)
+Sets the [Color](../../com.aspose.cells/color) of the border.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public void setLineStyle(int value)
 ```
 
 
-For the description of this property, please see [getLineStyle()](../../com.aspose.cells/border\#getLineStyle--)
+Sets the cell border type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -184,7 +184,7 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-For the description of this property, please see [getThemeColor()](../../com.aspose.cells/border\#getThemeColor--)
+Sets the theme color of the border.
 
 **Parameters:**
 | Parameter | Type | Description |

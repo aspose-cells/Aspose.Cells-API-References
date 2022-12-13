@@ -27,14 +27,14 @@ Represents a item in a PivotField report.
 | [getValue()](#getValue--) | Gets the value of the pivot item |
 | [hashCode()](#hashCode--) |  |
 | [hide(boolean value)](#hide-boolean-) | Sets whether the pivot item is hidden. |
-| [isHidden()](#isHidden--) | whether the pivot item is hidden. |
-| [isHideDetail()](#isHideDetail--) | whether the pivot item hides detail. |
+| [isHidden()](#isHidden--) | Gets whether the pivot item is hidden. |
+| [isHideDetail()](#isHideDetail--) | Gets whether the pivot item hides detail. |
 | [move(int count, boolean isSameParent)](#move-int-boolean-) | Moves the item up or down |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) | For the description of this property, please see [isHidden()](../../com.aspose.cells/pivotitem\#isHidden--) |
-| [setHideDetail(boolean value)](#setHideDetail-boolean-) | For the description of this property, please see [isHideDetail()](../../com.aspose.cells/pivotitem\#isHideDetail--) |
-| [setIndex(int value)](#setIndex-int-) | For the description of this property, please see [getIndex()](../../com.aspose.cells/pivotitem\#getIndex--) |
+| [setHidden(boolean value)](#setHidden-boolean-) | Sets whether the pivot item is hidden. |
+| [setHideDetail(boolean value)](#setHideDetail-boolean-) | Sets whether the pivot item hides detail. |
+| [setIndex(int value)](#setIndex-int-) | Gets the index of the pivot item in the pivot field |
 | [setPosition(int value)](#setPosition-int-) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
 | [setPositionInSameParentNode(int value)](#setPositionInSameParentNode-int-) | Specifying the position index in the PivotItems under the same parent node. |
 | [toString()](#toString--) |  |
@@ -155,7 +155,7 @@ public boolean isHidden()
 ```
 
 
-whether the pivot item is hidden.
+Gets whether the pivot item is hidden.
 
 **Returns:**
 boolean
@@ -165,7 +165,7 @@ public boolean isHideDetail()
 ```
 
 
-whether the pivot item hides detail.
+Gets whether the pivot item hides detail.
 
 **Returns:**
 boolean
@@ -205,7 +205,7 @@ public void setHidden(boolean value)
 ```
 
 
-For the description of this property, please see [isHidden()](../../com.aspose.cells/pivotitem\#isHidden--)
+Sets whether the pivot item is hidden.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public void setHideDetail(boolean value)
 ```
 
 
-For the description of this property, please see [isHideDetail()](../../com.aspose.cells/pivotitem\#isHideDetail--)
+Sets whether the pivot item hides detail.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public void setIndex(int value)
 ```
 
 
-For the description of this property, please see [getIndex()](../../com.aspose.cells/pivotitem\#getIndex--)
+Gets the index of the pivot item in the pivot field
 
 **Parameters:**
 | Parameter | Type | Description |

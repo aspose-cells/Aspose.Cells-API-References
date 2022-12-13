@@ -86,7 +86,7 @@ Workbook book = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCrossFilterType(int value)](#setCrossFilterType-int-) | For the description of this property, please see [getCrossFilterType()](../../com.aspose.cells/slicercache\#getCrossFilterType--) |
+| [setCrossFilterType(int value)](#setCrossFilterType-int-) | Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -218,7 +218,7 @@ public void setCrossFilterType(int value)
 ```
 
 
-For the description of this property, please see [getCrossFilterType()](../../com.aspose.cells/slicercache\#getCrossFilterType--)
+Returns or sets whether a slicer is participating in cross filtering with other slicers that share the same slicer cache, and how cross filtering is displayed. Read/write
 
 **Parameters:**
 | Parameter | Type | Description |

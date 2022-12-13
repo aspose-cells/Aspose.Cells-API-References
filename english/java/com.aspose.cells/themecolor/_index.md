@@ -40,13 +40,13 @@ Represents a theme color.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColorType()](#getColorType--) | the theme type. |
-| [getTint()](#getTint--) | the tint value. |
+| [getColorType()](#getColorType--) | Gets the theme type. |
+| [getTint()](#getTint--) | Gets the tint value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColorType(int value)](#setColorType-int-) | For the description of this property, please see [getColorType()](../../com.aspose.cells/themecolor\#getColorType--) |
-| [setTint(double value)](#setTint-double-) | For the description of this property, please see [getTint()](../../com.aspose.cells/themecolor\#getTint--) |
+| [setColorType(int value)](#setColorType-int-) | Sets the theme type. |
+| [setTint(double value)](#setTint-double-) | Sets the tint value. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -96,7 +96,7 @@ public int getColorType()
 ```
 
 
-the theme type.
+Gets the theme type.
 
 **Returns:**
 int
@@ -106,7 +106,7 @@ public double getTint()
 ```
 
 
-the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
+Gets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
 
 **Returns:**
 double
@@ -142,7 +142,7 @@ public void setColorType(int value)
 ```
 
 
-For the description of this property, please see [getColorType()](../../com.aspose.cells/themecolor\#getColorType--)
+Sets the theme type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -155,7 +155,7 @@ public void setTint(double value)
 ```
 
 
-For the description of this property, please see [getTint()](../../com.aspose.cells/themecolor\#getTint--)
+Sets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
 
 **Parameters:**
 | Parameter | Type | Description |
