@@ -37,7 +37,7 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isTemplate()](#isTemplate--) | Indicates whether saving a template file. |
 | [notify()](#notify--) |  |
@@ -54,7 +54,7 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 | [setTemplate(boolean value)](#setTemplate-boolean-) | Indicates whether saving a template file. |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
 | [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -231,7 +231,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Sets warning callback.
+Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -433,7 +433,7 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-
+Sets warning callback.
 
 **Parameters:**
 | Parameter | Type | Description |

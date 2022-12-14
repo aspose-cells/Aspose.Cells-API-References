@@ -81,7 +81,7 @@ Workbook workbook = new Workbook();
 | [getThemeFont(int type)](#getThemeFont-int-) | Gets the default theme font name. |
 | [getUpdateAdjacentCellsBorder()](#getUpdateAdjacentCellsBorder--) | Indicates whether update adjacent cells' border. |
 | [getUpdateLinksType()](#getUpdateLinksType--) | Gets how updates external links when the workbook is opened. |
-| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [getWindowHeight()](#getWindowHeight--) | The height of the window, in unit of point. |
 | [getWindowHeightCM()](#getWindowHeightCM--) | The height of the window, in unit of centimeter. |
 | [getWindowHeightInch()](#getWindowHeightInch--) | The height of the window, in unit of inch. |
@@ -159,7 +159,7 @@ Workbook workbook = new Workbook();
 | [setUpdateAdjacentCellsBorder(boolean value)](#setUpdateAdjacentCellsBorder-boolean-) | Indicates whether update adjacent cells' border. |
 | [setUpdateLinksType(int value)](#setUpdateLinksType-int-) | Sets how updates external links when the workbook is opened. |
 | [setVScrollBarVisible(boolean value)](#setVScrollBarVisible-boolean-) | Sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [setWindowHeight(double value)](#setWindowHeight-double-) | The height of the window, in unit of point. |
 | [setWindowHeightCM(double value)](#setWindowHeightCM-double-) | The height of the window, in unit of centimeter. |
 | [setWindowHeightInch(double value)](#setWindowHeightInch-double-) | The height of the window, in unit of inch. |
@@ -755,7 +755,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Sets warning callback.
+Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -1703,7 +1703,7 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-
+Sets warning callback.
 
 **Parameters:**
 | Parameter | Type | Description |

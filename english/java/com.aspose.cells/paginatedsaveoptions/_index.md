@@ -38,8 +38,8 @@ Represents the options for pagination.
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getOnePagePerSheet()](#getOnePagePerSheet--) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
 | [getOutputBlankPageWhenNothingToPrint()](#getOutputBlankPageWhenNothingToPrint--) | Indicates whether to output a blank page when there is nothing to print. |
-| [getPageCount()](#getPageCount--) | Sets the number of pages to save. |
-| [getPageIndex()](#getPageIndex--) | Sets the 0-based index of the first page to save. |
+| [getPageCount()](#getPageCount--) | Gets the number of pages to save. |
+| [getPageIndex()](#getPageIndex--) | Gets the 0-based index of the first page to save. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
@@ -50,7 +50,7 @@ Represents the options for pagination.
 | [getTextCrossType()](#getTextCrossType--) | Gets displaying text type when the text width is larger than cell width. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
-| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isFontSubstitutionCharGranularity()](#isFontSubstitutionCharGranularity--) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [notify()](#notify--) |  |
@@ -70,8 +70,8 @@ Represents the options for pagination.
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setOnePagePerSheet(boolean value)](#setOnePagePerSheet-boolean-) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
 | [setOutputBlankPageWhenNothingToPrint(boolean value)](#setOutputBlankPageWhenNothingToPrint-boolean-) | Indicates whether to output a blank page when there is nothing to print. |
-| [setPageCount(int value)](#setPageCount-int-) |  |
-| [setPageIndex(int value)](#setPageIndex-int-) |  |
+| [setPageCount(int value)](#setPageCount-int-) | Sets the number of pages to save. |
+| [setPageIndex(int value)](#setPageIndex-int-) | Sets the 0-based index of the first page to save. |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Control/Indicate progress of page saving process. |
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
@@ -81,7 +81,7 @@ Represents the options for pagination.
 | [setTextCrossType(int value)](#setTextCrossType-int-) | Sets displaying text type when the text width is larger than cell width. |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
 | [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -263,7 +263,7 @@ public int getPageCount()
 ```
 
 
-Sets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
+Gets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
 
 ```
 //Open an Excel file
@@ -289,7 +289,7 @@ public int getPageIndex()
 ```
 
 
-Sets the 0-based index of the first page to save. Default is 0.
+Gets the 0-based index of the first page to save. Default is 0.
 
 ```
 //Open an Excel file
@@ -443,7 +443,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Sets warning callback.
+Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -684,7 +684,7 @@ public void setPageCount(int value)
 ```
 
 
-
+Sets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -697,7 +697,7 @@ public void setPageIndex(int value)
 ```
 
 
-
+Sets the 0-based index of the first page to save. Default is 0.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -827,7 +827,7 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-
+Sets warning callback.
 
 **Parameters:**
 | Parameter | Type | Description |

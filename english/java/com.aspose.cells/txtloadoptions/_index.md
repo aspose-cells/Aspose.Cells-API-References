@@ -58,7 +58,7 @@ Represents the options for loading text file.
 | [getTextQualifier()](#getTextQualifier--) | Specifies the text qualifier for cell values. |
 | [getTreatConsecutiveDelimitersAsOne()](#getTreatConsecutiveDelimitersAsOne--) | Whether consecutive delimiters should be treated as one. |
 | [getTreatQuotePrefixAsValue()](#getTreatQuotePrefixAsValue--) | Indicates whether the leading single quote sign should be taken as part of the value of one cell. |
-| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hasFormula()](#hasFormula--) | Indicates whether the text is formula if it starts with "=". |
 | [hasTextQualifier()](#hasTextQualifier--) | Whether there is text qualifier for cell value. |
 | [hashCode()](#hashCode--) |  |
@@ -100,7 +100,7 @@ Represents the options for loading text file.
 | [setTextQualifier(char value)](#setTextQualifier-char-) | Specifies the text qualifier for cell values. |
 | [setTreatConsecutiveDelimitersAsOne(boolean value)](#setTreatConsecutiveDelimitersAsOne-boolean-) | Whether consecutive delimiters should be treated as one. |
 | [setTreatQuotePrefixAsValue(boolean value)](#setTreatQuotePrefixAsValue-boolean-) | Indicates whether the leading single quote sign should be taken as part of the value of one cell. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -487,7 +487,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Sets warning callback.
+Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -1008,7 +1008,7 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-
+Sets warning callback.
 
 **Parameters:**
 | Parameter | Type | Description |

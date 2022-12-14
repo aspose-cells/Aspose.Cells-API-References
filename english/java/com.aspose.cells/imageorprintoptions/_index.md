@@ -57,21 +57,21 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getOnePagePerSheet()](#getOnePagePerSheet--) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
 | [getOnlyArea()](#getOnlyArea--) | If this property is true , one Area will be output, and no scale will take effect. |
 | [getOutputBlankPageWhenNothingToPrint()](#getOutputBlankPageWhenNothingToPrint--) | Indicates whether to output a blank page when there is nothing to print. |
-| [getPageCount()](#getPageCount--) | Sets the number of pages to save. |
-| [getPageIndex()](#getPageIndex--) | Sets the 0-based index of the first page to save. |
+| [getPageCount()](#getPageCount--) | Gets the number of pages to save. |
+| [getPageIndex()](#getPageIndex--) | Gets the 0-based index of the first page to save. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPrintWithStatusDialog()](#getPrintWithStatusDialog--) | If PrintWithStatusDialog = true , there will be a dialog that shows current print status. |
 | [getPrintingPage()](#getPrintingPage--) | Indicates which pages will not be printed. |
 | [getQuality()](#getQuality--) | Gets a value determining the quality of the generated images to apply only when saving pages to the Jpeg format. |
 | [getSVGFitToViewPort()](#getSVGFitToViewPort--) | if this property is true, the generated svg will fit to view port. |
-| [getSaveFormat()](#getSaveFormat--) | Sets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. |
+| [getSaveFormat()](#getSaveFormat--) | Gets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getTextCrossType()](#getTextCrossType--) | Gets displaying text type when the text width is larger than cell width. |
 | [getTiffColorDepth()](#getTiffColorDepth--) | Gets bit depth to apply only when saving pages to the Tiff format. |
 | [getTiffCompression()](#getTiffCompression--) | Gets the type of compression to apply only when saving pages to the Tiff format. |
 | [getTransparent()](#getTransparent--) | Indicates if the background of generated image should be transparent. |
 | [getVerticalResolution()](#getVerticalResolution--) | Gets the vertical resolution for generated images, in dots per inch. |
-| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isCellAutoFit()](#isCellAutoFit--) | Indicates whether the width and height of the cells is automatically fitted by cell value. |
 | [isFontSubstitutionCharGranularity()](#isFontSubstitutionCharGranularity--) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
@@ -95,22 +95,22 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setOnlyArea(boolean value)](#setOnlyArea-boolean-) | If this property is true , one Area will be output, and no scale will take effect. |
 | [setOptimized(boolean value)](#setOptimized-boolean-) | Indicates whether to optimize the output elements. |
 | [setOutputBlankPageWhenNothingToPrint(boolean value)](#setOutputBlankPageWhenNothingToPrint-boolean-) | Indicates whether to output a blank page when there is nothing to print. |
-| [setPageCount(int value)](#setPageCount-int-) |  |
-| [setPageIndex(int value)](#setPageIndex-int-) |  |
+| [setPageCount(int value)](#setPageCount-int-) | Sets the number of pages to save. |
+| [setPageIndex(int value)](#setPageIndex-int-) | Sets the 0-based index of the first page to save. |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Control/Indicate progress of page saving process. |
 | [setPrintWithStatusDialog(boolean value)](#setPrintWithStatusDialog-boolean-) | If PrintWithStatusDialog = true , there will be a dialog that shows current print status. |
 | [setPrintingPage(int value)](#setPrintingPage-int-) | Indicates which pages will not be printed. |
 | [setQuality(int value)](#setQuality-int-) | Sets a value determining the quality of the generated images to apply only when saving pages to the Jpeg format. |
 | [setRenderingHint(RenderingHints.Key key, Object value)](#setRenderingHint-java.awt.RenderingHints.Key-java.lang.Object-) | Sets the value of a single preference for the rendering algorithms. |
 | [setSVGFitToViewPort(boolean value)](#setSVGFitToViewPort-boolean-) | if this property is true, the generated svg will fit to view port. |
-| [setSaveFormat(int value)](#setSaveFormat-int-) |  |
+| [setSaveFormat(int value)](#setSaveFormat-int-) | Sets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setTextCrossType(int value)](#setTextCrossType-int-) | Sets displaying text type when the text width is larger than cell width. |
 | [setTiffColorDepth(int value)](#setTiffColorDepth-int-) | Sets bit depth to apply only when saving pages to the Tiff format. |
 | [setTiffCompression(int value)](#setTiffCompression-int-) | Sets the type of compression to apply only when saving pages to the Tiff format. |
 | [setTransparent(boolean value)](#setTransparent-boolean-) | Indicates if the background of generated image should be transparent. |
 | [setVerticalResolution(int value)](#setVerticalResolution-int-) | Sets the vertical resolution for generated images, in dots per inch. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -282,7 +282,7 @@ public int getPageCount()
 ```
 
 
-Sets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered.
+Gets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered.
 
 **Returns:**
 int
@@ -292,7 +292,7 @@ public int getPageIndex()
 ```
 
 
-Sets the 0-based index of the first page to save. Default is 0.
+Gets the 0-based index of the first page to save. Default is 0.
 
 **Returns:**
 int
@@ -352,7 +352,7 @@ public int getSaveFormat()
 ```
 
 
-Sets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+Gets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -422,7 +422,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Sets warning callback.
+Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -710,7 +710,7 @@ public void setPageCount(int value)
 ```
 
 
-
+Sets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -723,7 +723,7 @@ public void setPageIndex(int value)
 ```
 
 
-
+Sets the 0-based index of the first page to save. Default is 0.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -815,7 +815,7 @@ public void setSaveFormat(int value)
 ```
 
 
-
+Sets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -906,7 +906,7 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-
+Sets warning callback.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -48,7 +48,7 @@ Represents the options of loading xml.
 | [getStandardFont()](#getStandardFont--) | Sets the default standard font name NOTE: This member is now obsolete. |
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
 | [getStartCell()](#getStartCell--) | Gets the start cell. |
-| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [isXmlMap()](#isXmlMap--) | Indicates whether mapping xml to Excel. |
 | [notify()](#notify--) |  |
@@ -75,7 +75,7 @@ Represents the options of loading xml.
 | [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Sets the default standard font name NOTE: This member is now obsolete. |
 | [setStandardFontSize(double value)](#setStandardFontSize-double-) | Sets the default standard font size. |
 | [setStartCell(String value)](#setStartCell-java.lang.String-) | Sets the start cell. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [setXmlMap(boolean value)](#setXmlMap-boolean-) | Indicates whether mapping xml to Excel. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -363,7 +363,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Sets warning callback.
+Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -695,7 +695,7 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-
+Sets warning callback.
 
 **Parameters:**
 | Parameter | Type | Description |

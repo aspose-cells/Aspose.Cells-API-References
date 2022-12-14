@@ -59,7 +59,7 @@ Represents options when importing a html file.
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
 | [getStreamProvider()](#getStreamProvider--) | Gets the StreamProviderImportHtmlFile for importing objects. |
 | [getSupportDivTag()](#getSupportDivTag--) | Indicates whether support the layout of <div> tag when the html file contains <div> tags. |
-| [getWarningCallback()](#getWarningCallback--) | Sets warning callback. |
+| [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -95,7 +95,7 @@ Represents options when importing a html file.
 | [setStandardFontSize(double value)](#setStandardFontSize-double-) | Sets the default standard font size. |
 | [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the StreamProviderImportHtmlFile for importing objects. |
 | [setSupportDivTag(boolean value)](#setSupportDivTag-boolean-) | Indicates whether support the layout of <div> tag when the html file contains <div> tags. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -492,7 +492,7 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Sets warning callback.
+Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
@@ -944,7 +944,7 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-
+Sets warning callback.
 
 **Parameters:**
 | Parameter | Type | Description |
