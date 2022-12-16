@@ -119,7 +119,7 @@ Workbook book = new Workbook();
 | [getCustomListSort()](#getCustomListSort--) | Indicates whether consider built-in custom list when sort data |
 | [getDataBodyRange()](#getDataBodyRange--) | Returns a CellArea object that represents the range that contains the data area in the list between the header row and the insert row. |
 | [getDataField()](#getDataField--) | Gets a PivotField object that represents all the data fields in a PivotTable. |
-| [getDataFieldHeaderName()](#getDataFieldHeaderName--) | Gets the name of the value area field header in the PivotTable.. |
+| [getDataFieldHeaderName()](#getDataFieldHeaderName--) | Gets the name of the value area field header in the PivotTable. |
 | [getDataFields()](#getDataFields--) | Gets a PivotField object that represents all the data fields in a PivotTable. |
 | [getDataSource()](#getDataSource--) | Gets the data source of the pivot table. |
 | [getDisplayErrorString()](#getDisplayErrorString--) | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
@@ -202,7 +202,7 @@ Workbook book = new Workbook();
 | [setColumnGrand(boolean value)](#setColumnGrand-boolean-) | Indicates whether the PivotTable report shows grand totals for columns. |
 | [setColumnHeaderCaption(String value)](#setColumnHeaderCaption-java.lang.String-) | Gets the Column Header Caption of the PivotTable. |
 | [setCustomListSort(boolean value)](#setCustomListSort-boolean-) | Indicates whether consider built-in custom list when sort data |
-| [setDataFieldHeaderName(String value)](#setDataFieldHeaderName-java.lang.String-) | Sets the name of the value area field header in the PivotTable.. |
+| [setDataFieldHeaderName(String value)](#setDataFieldHeaderName-java.lang.String-) | Sets the name of the value area field header in the PivotTable. |
 | [setDataSource(String[] value)](#setDataSource-java.lang.String---) | Sets the data source of the pivot table. |
 | [setDisplayErrorString(boolean value)](#setDisplayErrorString-boolean-) | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
 | [setDisplayImmediateItems(boolean value)](#setDisplayImmediateItems-boolean-) | Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. |
@@ -627,7 +627,7 @@ public String getDataFieldHeaderName()
 ```
 
 
-Gets the name of the value area field header in the PivotTable..
+Gets the name of the value area field header in the PivotTable.
 
 **Returns:**
 java.lang.String
@@ -1497,7 +1497,7 @@ public void setDataFieldHeaderName(String value)
 ```
 
 
-Sets the name of the value area field header in the PivotTable..
+Sets the name of the value area field header in the PivotTable.
 
 **Parameters:**
 | Parameter | Type | Description |
