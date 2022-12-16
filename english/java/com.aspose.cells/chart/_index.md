@@ -517,7 +517,7 @@ public boolean getPlotVisibleCells()
 ```
 
 
-Indicates whether only plot visible cells.
+Indicates whether only plot visible cells. NOTE: This member is now obsolete. Instead, please use PlotVisibleCellsOnly property. This method will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -1009,7 +1009,7 @@ public void setPlotVisibleCells(boolean value)
 ```
 
 
-Indicates whether only plot visible cells.
+Indicates whether only plot visible cells. NOTE: This member is now obsolete. Instead, please use PlotVisibleCellsOnly property. This method will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -20,7 +20,6 @@ Provides helper functions.
 | [addAddInFunction(String function, int minCountOfParameters, int maxCountOfParameters, int[] paramersType, int functionValueType)](#addAddInFunction-java.lang.String-int-int-int---int-) | Add addin function. |
 | [cellIndexToName(int row, int column)](#cellIndexToName-int-int-) | Gets cell name according to its row and column indexes. |
 | [cellNameToIndex(String cellName)](#cellNameToIndex-java.lang.String-) | Gets the cell row and column indexes according to its name. |
-| [cellNameToIndex(String cellName, int row, int column)](#cellNameToIndex-java.lang.String-int-int-) | Gets the cell row and column indexes according to its name. |
 | [columnIndexToName(int column)](#columnIndexToName-int-) | Gets column name according to column index. |
 | [columnNameToIndex(String columnName)](#columnNameToIndex-java.lang.String-) | Gets column index according to column name. |
 | [convertA1FormulaToR1C1(String formula, int row, int column)](#convertA1FormulaToR1C1-java.lang.String-int-int-) | Converts A1 formula of the cell to the r1c1 formula. |
@@ -106,21 +105,6 @@ Gets the cell row and column indexes according to its name.
 
 **Returns:**
 int[] - [0] is the row index and [1] is the column index.
-### cellNameToIndex(String cellName, int row, int column) {#cellNameToIndex-java.lang.String-int-int-}
-```
-public static void cellNameToIndex(String cellName, int row, int column)
-```
-
-
-Gets the cell row and column indexes according to its name.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cellName | java.lang.String | Name of cell. |
-| row | int | Output row index |
-| column | int | Output column index |
-
 ### columnIndexToName(int column) {#columnIndexToName-int-}
 ```
 public static String columnIndexToName(int column)

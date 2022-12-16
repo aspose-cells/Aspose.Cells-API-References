@@ -29,6 +29,7 @@ Font configs for each [Workbook](../../com.aspose.cells/workbook) object.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setFontExclusiveSources(FontSourceBase[] exclusiveSources)](#setFontExclusiveSources-com.aspose.cells.FontSourceBase---) | Sets the fonts exclusive sources. |
 | [setFontFolder(String fontFolder, boolean recursive)](#setFontFolder-java.lang.String-boolean-) | Sets the fonts folder |
 | [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the fonts folders |
 | [setFontSources(FontSourceBase[] sources)](#setFontSources-com.aspose.cells.FontSourceBase---) | Sets the fonts sources. |
@@ -120,6 +121,19 @@ public final native void notifyAll()
 
 
 
+
+### setFontExclusiveSources(FontSourceBase[] exclusiveSources) {#setFontExclusiveSources-com.aspose.cells.FontSourceBase---}
+```
+public void setFontExclusiveSources(FontSourceBase[] exclusiveSources)
+```
+
+
+Sets the fonts exclusive sources. Only fonts in the sources will be used. System.setProperty("Aspose.Cells.FontDirExc", "fontExclusiveFolder") will be ignored if this is set.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| exclusiveSources | [FontSourceBase\[\]](../../com.aspose.cells/fontsourcebase) | An array of sources that contain TrueType fonts. |
 
 ### setFontFolder(String fontFolder, boolean recursive) {#setFontFolder-java.lang.String-boolean-}
 ```

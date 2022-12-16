@@ -121,7 +121,6 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ConnectionParameterCollection](../com.aspose.cells/connectionparametercollection) | Specifies the [ConnectionParameter](../com.aspose.cells/connectionparameter) collection |
 | [ConnectionParameterType](../com.aspose.cells/connectionparametertype) | Specifies the parameter type of external connection |
 | [ConsolidationFunction](../com.aspose.cells/consolidationfunction) | Represents consolidation function. |
-| [ContentDisposition](../com.aspose.cells/contentdisposition) | The content disposition type. |
 | [ContentTypeProperty](../com.aspose.cells/contenttypeproperty) | Represents identifier information. |
 | [ContentTypePropertyCollection](../com.aspose.cells/contenttypepropertycollection) | A collection of [ContentTypeProperty](../com.aspose.cells/contenttypeproperty) objects that represent additional information. |
 | [ControlBorderType](../com.aspose.cells/controlbordertype) | Represents the border type of the ActiveX control. |

@@ -27,7 +27,6 @@ Specifies font settings
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the default font name. |
 | [getFontSources()](#getFontSources--) | Gets a copy of the array that contains the list of sources |
 | [getFontSubstitutes(String originalFontName)](#getFontSubstitutes-java.lang.String-) | Returns array containing font substitute names to be used if original font is not presented. |
-| [getPreferSystemFontSubstitutes()](#getPreferSystemFontSubstitutes--) | Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -37,7 +36,6 @@ Specifies font settings
 | [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the fonts folders |
 | [setFontSources(FontSourceBase[] sources)](#setFontSources-com.aspose.cells.FontSourceBase---) | Sets the fonts sources. |
 | [setFontSubstitutes(String originalFontName, String[] substituteFontNames)](#setFontSubstitutes-java.lang.String-java.lang.String---) | Font substitute names for given original font name. |
-| [setPreferSystemFontSubstitutes(boolean value)](#setPreferSystemFontSubstitutes-boolean-) | Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,16 +106,6 @@ Returns array containing font substitute names to be used if original font is no
 
 **Returns:**
 java.lang.String[] - An array containing font substitute names to be used if original font is not presented.
-### getPreferSystemFontSubstitutes() {#getPreferSystemFontSubstitutes--}
-```
-public static boolean getPreferSystemFontSubstitutes()
-```
-
-
-Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false.
-
-**Returns:**
-boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -224,19 +212,6 @@ Font substitute names for given original font name.
 | --- | --- | --- |
 | originalFontName | java.lang.String | Original font name. |
 | substituteFontNames | java.lang.String[] | List of font substitute names to be used if original font is not presented. |
-
-### setPreferSystemFontSubstitutes(boolean value) {#setPreferSystemFontSubstitutes-boolean-}
-```
-public static void setPreferSystemFontSubstitutes(boolean value)
-```
-
-
-Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### toString() {#toString--}
 ```

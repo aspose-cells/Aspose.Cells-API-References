@@ -51,7 +51,6 @@ Workbook book = new Workbook();
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDataRange(String value)](#setDataRange-java.lang.String-) | Represents the data range of the sparkline. |
-| [toImage(InputStream stream, ImageOrPrintOptions options)](#toImage-java.io.InputStream-com.aspose.cells.ImageOrPrintOptions-) | Converts a sparkline to an image. |
 | [toImage(OutputStream stream, ImageOrPrintOptions options)](#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) | Converts a sparkline to an image. |
 | [toImage(String fileName, ImageOrPrintOptions options)](#toImage-java.lang.String-com.aspose.cells.ImageOrPrintOptions-) | Converts a sparkline to an image. |
 | [toString()](#toString--) |  |
@@ -151,20 +150,6 @@ Represents the data range of the sparkline.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### toImage(InputStream stream, ImageOrPrintOptions options) {#toImage-java.io.InputStream-com.aspose.cells.ImageOrPrintOptions-}
-```
-public void toImage(InputStream stream, ImageOrPrintOptions options)
-```
-
-
-Converts a sparkline to an image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The image stream. |
-| options | [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) | The image options. |
 
 ### toImage(OutputStream stream, ImageOrPrintOptions options) {#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-}
 ```
