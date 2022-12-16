@@ -1,0 +1,1639 @@
+---
+title: Cell
+second_title: Aspose.Cells for Java API Reference
+description: Encapsulates the object that represents a single Workbook cell.
+type: docs
+url: /java/com.aspose.cells/cell/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public class Cell
+```
+
+Encapsulates the object that represents a single Workbook cell.
+
+```
+Workbook excel = new Workbook();
+         Cells cells = excel.getWorksheets().get(0).getCells();
+ 
+         //Put a string into a cell
+         Cell cell = cells.get(0, 0);
+         cell.putValue("Hello");
+ 
+         String first = cell.getStringValue();
+ 
+         //Put an integer into a cell
+         cell = cells.get("B1");
+         cell.putValue(12);
+ 
+         int second = cell.getIntValue();
+ 
+         //Put a double into a cell
+         cell = cells.get(0, 2);
+         cell.putValue(-1.234);
+ 
+         double third = cell.getDoubleValue();
+ 
+         //Put a formula into a cell
+         cell = cells.get("D1");
+         cell.setFormula("=B1 + C1");
+ 
+         //Put a combined formula: "sum(average(b1,c1), b1)" to cell at b2
+         cell = cells.get("b2");
+         cell.setFormula("=sum(average(b1,c1), b1)");
+ 
+         //Set style of a cell
+         Style style = cell.getStyle();
+         //Set background color
+         style.setBackgroundColor(Color.getYellow());
+         //Set format of a cell
+         style.getFont().setName("Courier New");
+         style.setVerticalAlignment(TextAlignmentType.TOP);
+          cell.setStyle(style);
+```
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [calculate(boolean ignoreError, ICustomFunction customFunction)](#calculate-boolean-com.aspose.cells.ICustomFunction-) | Calculates the formula of the cell. |
+| [calculate(CalculationOptions options)](#calculate-com.aspose.cells.CalculationOptions-) | Calculates the formula of the cell. |
+| [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the cell text. |
+| [containsExternalLink()](#containsExternalLink--) | Indicates whether this cell contains an external link. |
+| [copy(Cell cell)](#copy-com.aspose.cells.Cell-) | Copies data from a source cell. |
+| [equals(Cell cell)](#equals-com.aspose.cells.Cell-) | Checks whether this object refers to the same cell with another cell object. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Checks whether this object refers to the same cell with another. |
+| [getArrayRange()](#getArrayRange--) | Gets the array range if the cell's formula is an array formula. |
+| [getBoolValue()](#getBoolValue--) | Gets the boolean value contained in the cell. |
+| [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the cell text. |
+| [getCharacters(boolean flag)](#getCharacters-boolean-) | Returns all Characters objects that represents a range of characters within the cell text. |
+| [getClass()](#getClass--) |  |
+| [getColumn()](#getColumn--) | Gets column number (zero based) of the cell. |
+| [getComment()](#getComment--) | Gets the comment of this cell. |
+| [getConditionalFormattingResult()](#getConditionalFormattingResult--) | Get the result of the conditional formatting. |
+| [getDateTimeValue()](#getDateTimeValue--) | Gets the DateTime value contained in the cell. |
+| [getDependents(boolean isAll)](#getDependents-boolean-) | Get all cells whose formula references to this cell directly. |
+| [getDependentsInCalculation(boolean recursive)](#getDependentsInCalculation-boolean-) | Gets all cells whose calculated result depends on this cell. |
+| [getDisplayStringValue()](#getDisplayStringValue--) | Gets the formatted string value of this cell by cell's display style. |
+| [getDisplayStyle()](#getDisplayStyle--) | Gets the display style of the cell. |
+| [getDisplayStyle(boolean includeMergedBorders)](#getDisplayStyle-boolean-) | Gets the display style of the cell. |
+| [getDoubleValue()](#getDoubleValue--) | Gets the double value contained in the cell. |
+| [getFloatValue()](#getFloatValue--) | Gets the float value contained in the cell. |
+| [getFormatConditions()](#getFormatConditions--) | Gets format conditions which applies to this cell. |
+| [getFormula()](#getFormula--) | Gets a formula of the [Cell](../../com.aspose.cells/cell). |
+| [getFormula(boolean isR1C1, boolean isLocal)](#getFormula-boolean-boolean-) | Get the formula of this cell. |
+| [getFormulaLocal()](#getFormulaLocal--) | Get the locale formatted formula of the cell. |
+| [getHeightOfValue()](#getHeightOfValue--) | Gets the height of the value in unit of pixels. |
+| [getHtmlString()](#getHtmlString--) | Gets the html string which contains data and some formats in this cell. |
+| [getHtmlString(boolean html5)](#getHtmlString-boolean-) | Gets the html string which contains data and some formats in this cell. |
+| [getIntValue()](#getIntValue--) | Gets the integer value contained in the cell. |
+| [getLeafs()](#getLeafs--) | Get all cells which reference to this cell directly and need to be updated when this cell is modified. |
+| [getLeafs(boolean recursive)](#getLeafs-boolean-) | Get all cells which will be updated when this cell is modified. |
+| [getMergedRange()](#getMergedRange--) | Returns a [Range](../../com.aspose.cells/range) object which represents a merged range. |
+| [getName()](#getName--) | Gets the name of the cell. |
+| [getNumberCategoryType()](#getNumberCategoryType--) | Represents the category type of this cell's number formatting. |
+| [getPrecedents()](#getPrecedents--) | Gets all references appearing in this cell's formula. |
+| [getPrecedentsInCalculation()](#getPrecedentsInCalculation--) | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
+| [getR1C1Formula()](#getR1C1Formula--) | Gets a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
+| [getRow()](#getRow--) | Gets row number (zero based) of the cell. |
+| [getSharedStyleIndex()](#getSharedStyleIndex--) | Gets cell's shared style index in the style pool. |
+| [getStringValue()](#getStringValue--) | Gets the string value contained in the cell. |
+| [getStringValue(int formatStrategy)](#getStringValue-int-) | Gets the string value by specific formatted strategy. |
+| [getStringValueWithoutFormat()](#getStringValueWithoutFormat--) | Gets cell's value as string without any format. |
+| [getStyle()](#getStyle--) | Gets the cell style. |
+| [getStyle(boolean checkBorders)](#getStyle-boolean-) | If checkBorders is true, check whether other cells' borders will effect the style of this cell. |
+| [getTable()](#getTable--) | Gets the table which contains this cell. |
+| [getType()](#getType--) | Represents cell value type. |
+| [getValidation()](#getValidation--) | Gets the validation applied to this cell. |
+| [getValidationValue()](#getValidationValue--) | Gets the value of validation which applied to this cell. |
+| [getValue()](#getValue--) | Gets the value contained in this cell. |
+| [getWidthOfValue()](#getWidthOfValue--) | Gets the width of the value in unit of pixels. |
+| [getWorksheet()](#getWorksheet--) | Gets the parent worksheet. |
+| [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
+| [isArrayFormula()](#isArrayFormula--) | Indicates whether the cell formula is an array formula. |
+| [isArrayHeader()](#isArrayHeader--) | Indicates the cell's formula is and array formula and it is the first cell of the array. |
+| [isDynamicArrayFormula()](#isDynamicArrayFormula--) | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
+| [isErrorValue()](#isErrorValue--) | Checks if the value of this cell is an error. |
+| [isFormula()](#isFormula--) | Represents if the specified cell contains formula. |
+| [isInArray()](#isInArray--) | Indicates whether the cell formula is an array formula. |
+| [isInTable()](#isInTable--) | Indicates whether this cell is part of table formula. |
+| [isMerged()](#isMerged--) | Checks if a cell is part of a merged range or not. |
+| [isNumericValue()](#isNumericValue--) | Indicates whether the inner value of this cell is numeric(int, double and datetime) Also applies to formula cell to check the calculated result |
+| [isRichText()](#isRichText--) | Indicates whether the cell string value is a rich text. |
+| [isSharedFormula()](#isSharedFormula--) | Indicates whether the cell formula is part of shared formula. |
+| [isStyleSet()](#isStyleSet--) | Indicates if the cell's style is set. |
+| [isTableFormula()](#isTableFormula--) | Indicates whether this cell is part of table formula. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [putValue(boolean boolValue)](#putValue-boolean-) | Puts a boolean value into the cell. |
+| [putValue(DateTime dateTime)](#putValue-com.aspose.cells.DateTime-) | Puts a DateTime value into the cell. |
+| [putValue(double doubleValue)](#putValue-double-) | Puts a double value into the cell. |
+| [putValue(int intValue)](#putValue-int-) | Puts an integer value into the cell. |
+| [putValue(Object objectValue)](#putValue-java.lang.Object-) | Puts an object value into the cell. |
+| [putValue(String stringValue)](#putValue-java.lang.String-) | Puts a string value into the cell. |
+| [putValue(String stringValue, boolean isConverted)](#putValue-java.lang.String-boolean-) | Puts a string value into the cell and converts the value to other data type if appropriate. |
+| [putValue(String stringValue, boolean isConverted, boolean setStyle)](#putValue-java.lang.String-boolean-boolean-) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
+| [removeArrayFormula(boolean leaveNormalFormula)](#removeArrayFormula-boolean-) | Remove array formula. |
+| [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber)](#setArrayFormula-java.lang.String-int-int-) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
+| [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal)](#setArrayFormula-java.lang.String-int-int-boolean-boolean-) | Sets an array formula to a range of cells. |
+| [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options)](#setArrayFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-) | Sets an array formula to a range of cells. |
+| [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options, Object[][] values)](#setArrayFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-java.lang.Object-----) | Sets an array formula to a range of cells. |
+| [setCharacters(FontSetting[] characters)](#setCharacters-com.aspose.cells.FontSetting---) | Sets rich text format of the cell. |
+| [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue, CalculationOptions copts)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-com.aspose.cells.CalculationOptions-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [setFormula(String value)](#setFormula-java.lang.String-) | Sets a formula of the [Cell](../../com.aspose.cells/cell). |
+| [setFormula(String formula, boolean isR1C1, boolean isLocal, Object value)](#setFormula-java.lang.String-boolean-boolean-java.lang.Object-) | Set the formula and the value of the formula. |
+| [setFormula(String formula, FormulaParseOptions options, Object value)](#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-) | Set the formula and the value of the formula. |
+| [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Set the formula and the value of the formula. |
+| [setFormulaLocal(String value)](#setFormulaLocal-java.lang.String-) | Get the locale formatted formula of the cell. |
+| [setHtmlString(String value)](#setHtmlString-java.lang.String-) | Sets the html string which contains data and some formats in this cell. |
+| [setR1C1Formula(String value)](#setR1C1Formula-java.lang.String-) | Sets a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
+| [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber)](#setSharedFormula-java.lang.String-int-int-) | Sets shared formulas to a range of cells. |
+| [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal)](#setSharedFormula-java.lang.String-int-int-boolean-boolean-) | Sets a formula to a range of cells. |
+| [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options)](#setSharedFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-) | Sets shared formulas to a range of cells. |
+| [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options, Object[][] values)](#setSharedFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-java.lang.Object-----) | Sets shared formulas to a range of cells. |
+| [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the cell style. |
+| [setStyle(Style style, boolean explicitFlag)](#setStyle-com.aspose.cells.Style-boolean-) | Apply the cell style. |
+| [setStyle(Style style, StyleFlag flag)](#setStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) | Apply the cell style. |
+| [setTableFormula(int rowNumber, int columnNumber, int rowIndexOfInputCell, int columnIndexOfInputCell, boolean isRowInput, Object[][] values)](#setTableFormula-int-int-int-int-boolean-java.lang.Object-----) | Create one-variable data table for given range starting from this cell. |
+| [setTableFormula(int rowNumber, int columnNumber, int rowIndexOfRowInputCell, int columnIndexOfRowInputCell, int rowIndexOfColumnInputCell, int columnIndexOfColumnInputCell, Object[][] values)](#setTableFormula-int-int-int-int-int-int-java.lang.Object-----) | Create two-variable data table for given range starting from this cell. |
+| [setTableFormula(int rowNumber, int columnNumber, String inputCell, boolean isRowInput, Object[][] values)](#setTableFormula-int-int-java.lang.String-boolean-java.lang.Object-----) | Create one-variable data table for given range starting from this cell. |
+| [setTableFormula(int rowNumber, int columnNumber, String rowInputCell, String columnInputCell, Object[][] values)](#setTableFormula-int-int-java.lang.String-java.lang.String-java.lang.Object-----) | Create two-variable data table for given range starting from this cell. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Gets the value contained in this cell. |
+| [toString()](#toString--) | Returns a string represents the current Cell object. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### calculate(boolean ignoreError, ICustomFunction customFunction) {#calculate-boolean-com.aspose.cells.ICustomFunction-}
+```
+public void calculate(boolean ignoreError, ICustomFunction customFunction)
+```
+
+
+Calculates the formula of the cell. NOTE: This member is now obsolete. Instead, please use Calculate(CalculationOptions) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ignoreError | boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
+| customFunction | [ICustomFunction](../../com.aspose.cells/icustomfunction) | The custom formula calculation functions to extend the calculation engine. |
+
+### calculate(CalculationOptions options) {#calculate-com.aspose.cells.CalculationOptions-}
+```
+public void calculate(CalculationOptions options)
+```
+
+
+Calculates the formula of the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [CalculationOptions](../../com.aspose.cells/calculationoptions) | Options for calculation |
+
+### characters(int startIndex, int length) {#characters-int-int-}
+```
+public FontSetting characters(int startIndex, int length)
+```
+
+
+Returns a Characters object that represents a range of characters within the cell text. This method only works on cell with string value.
+
+```
+Workbook excel = new Workbook();
+         	Cells cells = excel.getWorksheets().get(0).getCells();
+         cells.get("A1").putValue("Helloworld");
+         cells.get("A1").characters(5, 5).getFont().setBold(true);
+         cells.get("A1").characters(5, 5).getFont().setColor(Color.getBlue());
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | int | The index of the start of the character. |
+| length | int | The number of characters. |
+
+**Returns:**
+[FontSetting](../../com.aspose.cells/fontsetting) - Characters object.
+### containsExternalLink() {#containsExternalLink--}
+```
+public boolean containsExternalLink()
+```
+
+
+Indicates whether this cell contains an external link. Only applies when the cell is a formula cell.
+
+**Returns:**
+boolean
+### copy(Cell cell) {#copy-com.aspose.cells.Cell-}
+```
+public void copy(Cell cell)
+```
+
+
+Copies data from a source cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cell | [Cell](../../com.aspose.cells/cell) | Source [Cell](../../com.aspose.cells/cell) object. |
+
+### equals(Cell cell) {#equals-com.aspose.cells.Cell-}
+```
+public boolean equals(Cell cell)
+```
+
+
+Checks whether this object refers to the same cell with another cell object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cell | [Cell](../../com.aspose.cells/cell) | another cell object |
+
+**Returns:**
+boolean - true if two cell objects refers to the same cell.
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Checks whether this object refers to the same cell with another.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | another object |
+
+**Returns:**
+boolean - true if two objects refers to the same cell.
+### getArrayRange() {#getArrayRange--}
+```
+public CellArea getArrayRange()
+```
+
+
+Gets the array range if the cell's formula is an array formula. Only applies when the cell's formula is an array formula
+
+**Returns:**
+[CellArea](../../com.aspose.cells/cellarea) - The array range.
+### getBoolValue() {#getBoolValue--}
+```
+public boolean getBoolValue()
+```
+
+
+Gets the boolean value contained in the cell.
+
+**Returns:**
+boolean
+### getCharacters() {#getCharacters--}
+```
+public FontSetting[] getCharacters()
+```
+
+
+Returns all Characters objects that represents a range of characters within the cell text.
+
+**Returns:**
+com.aspose.cells.FontSetting[] - All Characters objects
+### getCharacters(boolean flag) {#getCharacters-boolean-}
+```
+public FontSetting[] getCharacters(boolean flag)
+```
+
+
+Returns all Characters objects that represents a range of characters within the cell text.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| flag | boolean | Indicates whether applying table style to the cell if the cell is in the table. |
+
+**Returns:**
+com.aspose.cells.FontSetting[] - All Characters objects
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getColumn() {#getColumn--}
+```
+public int getColumn()
+```
+
+
+Gets column number (zero based) of the cell.
+
+**Returns:**
+int
+### getComment() {#getComment--}
+```
+public Comment getComment()
+```
+
+
+Gets the comment of this cell. If there is no comment applies to the cell, returns null.
+
+**Returns:**
+[Comment](../../com.aspose.cells/comment)
+### getConditionalFormattingResult() {#getConditionalFormattingResult--}
+```
+public ConditionalFormattingResult getConditionalFormattingResult()
+```
+
+
+Get the result of the conditional formatting. Returns null if no conditional formatting is applied to this cell,
+
+**Returns:**
+[ConditionalFormattingResult](../../com.aspose.cells/conditionalformattingresult)
+### getDateTimeValue() {#getDateTimeValue--}
+```
+public DateTime getDateTimeValue()
+```
+
+
+Gets the DateTime value contained in the cell.
+
+**Returns:**
+[DateTime](../../com.aspose.cells/datetime)
+### getDependents(boolean isAll) {#getDependents-boolean-}
+```
+public Cell[] getDependents(boolean isAll)
+```
+
+
+Get all cells whose formula references to this cell directly.
+
+ *  If one reference containing this cell appears in one cell's formula, that cell will be taken as the dependent of this cell, no matter the reference or this cell is used or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, this formula is still be taken as A2's dependent.
+ *  To get those formulas whose calculated results depend on this cell, please use .
+ *  When tracing dependents for one cell, all formulas in the workbook or worksheet will be analized and checked. So it is a time consumed process. If user need to trace dependents for lots of cells, using this method will cause poor performance. For performance consideration, user should use  instead. Or, user may gather precedents map of all cells by  firstly, and then build the dependents map according to the precedents map.
+
+```
+Workbook workbook = new Workbook();
+         Cells cells = workbook.getWorksheets().get(0).getCells();
+         cells.get("A1").setFormula("=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2");
+         cells.get("A2").setFormula("=IF(TRUE,B2,B1)");
+         Cell[] dependents = cells.get("B1").getDependents(true);
+         for (int i = 0; i <dependents.length; i++)
+         {
+              System.out.println(dependents[i].getName());
+         }
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isAll | boolean | Indicates whether check formulas in other worksheets |
+
+**Returns:**
+com.aspose.cells.Cell[]
+### getDependentsInCalculation(boolean recursive) {#getDependentsInCalculation-boolean-}
+```
+public Iterator getDependentsInCalculation(boolean recursive)
+```
+
+
+Gets all cells whose calculated result depends on this cell. To use this method, please make sure the workbook has been set with true value for [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned.
+
+```
+Workbook workbook = new Workbook();
+         Cells cells = workbook.getWorksheets().get(0).getCells();
+         cells.get("A1").setFormula("=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2");
+         cells.get("A2").setFormula("=IF(TRUE,B2,B1)");
+         workbook.getSettings().getFormulaSettings().setEnableCalculationChain(true);
+         workbook.calculateFormula();
+         Iterator en = cells.get("B1").getDependentsInCalculation(false);
+         System.out.println("B1's calculation dependents:");
+         while(en.hasNext())
+         {
+             Cell c = (Cell)en.next();
+             System.out.println(c.getName());
+         }
+         en = cells.get("B2").getDependentsInCalculation(false);
+         System.out.println("B2's calculation dependents:");
+         while(en.hasNext())
+         {
+             Cell c = (Cell)en.next();
+             System.out.println(c.getName());
+         }
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| recursive | boolean | Whether returns those dependents which do not reference to this cell directly but reference to other leafs of this cell |
+
+**Returns:**
+java.util.Iterator - Enumerator to enumerate all dependents(Cell objects)
+### getDisplayStringValue() {#getDisplayStringValue--}
+```
+public String getDisplayStringValue()
+```
+
+
+Gets the formatted string value of this cell by cell's display style.
+
+**Returns:**
+java.lang.String
+### getDisplayStyle() {#getDisplayStyle--}
+```
+public Style getDisplayStyle()
+```
+
+
+Gets the display style of the cell. If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from cell.GetStyle().
+
+**Returns:**
+[Style](../../com.aspose.cells/style)
+### getDisplayStyle(boolean includeMergedBorders) {#getDisplayStyle-boolean-}
+```
+public Style getDisplayStyle(boolean includeMergedBorders)
+```
+
+
+Gets the display style of the cell. If the cell is conditional formatted, the display style is not same as the cell.GetStyle().
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| includeMergedBorders | boolean | Indicates whether checking borders of the merged cells. |
+
+**Returns:**
+[Style](../../com.aspose.cells/style)
+### getDoubleValue() {#getDoubleValue--}
+```
+public double getDoubleValue()
+```
+
+
+Gets the double value contained in the cell.
+
+**Returns:**
+double
+### getFloatValue() {#getFloatValue--}
+```
+public float getFloatValue()
+```
+
+
+Gets the float value contained in the cell.
+
+**Returns:**
+float
+### getFormatConditions() {#getFormatConditions--}
+```
+public FormatConditionCollection[] getFormatConditions()
+```
+
+
+Gets format conditions which applies to this cell.
+
+**Returns:**
+com.aspose.cells.FormatConditionCollection[] - Returns [FormatConditionCollection](../../com.aspose.cells/formatconditioncollection) object
+### getFormula() {#getFormula--}
+```
+public String getFormula()
+```
+
+
+Gets a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+
+```
+Workbook excel = new Workbook();
+         Cells cells = excel.getWorksheets().get(0).getCells();
+         cells.get("B6").setFormula("=SUM(B2:B5, E1) + sheet1!A1");
+```
+
+**Returns:**
+java.lang.String
+### getFormula(boolean isR1C1, boolean isLocal) {#getFormula-boolean-boolean-}
+```
+public String getFormula(boolean isR1C1, boolean isLocal)
+```
+
+
+Get the formula of this cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isR1C1 | boolean | Whether the formula needs to be formatted as R1C1. |
+| isLocal | boolean | Whether the formula needs to be formatted by locale. |
+
+**Returns:**
+java.lang.String - the formula of this cell.
+### getFormulaLocal() {#getFormulaLocal--}
+```
+public String getFormulaLocal()
+```
+
+
+Get the locale formatted formula of the cell.
+
+**Returns:**
+java.lang.String
+### getHeightOfValue() {#getHeightOfValue--}
+```
+public int getHeightOfValue()
+```
+
+
+Gets the height of the value in unit of pixels.
+
+**Returns:**
+int - 
+### getHtmlString() {#getHtmlString--}
+```
+public String getHtmlString()
+```
+
+
+Gets the html string which contains data and some formats in this cell.
+
+**Returns:**
+java.lang.String
+### getHtmlString(boolean html5) {#getHtmlString-boolean-}
+```
+public String getHtmlString(boolean html5)
+```
+
+
+Gets the html string which contains data and some formats in this cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| html5 | boolean | Indicates whether the value is compatible for html5 |
+
+**Returns:**
+java.lang.String - 
+### getIntValue() {#getIntValue--}
+```
+public int getIntValue()
+```
+
+
+Gets the integer value contained in the cell.
+
+**Returns:**
+int
+### getLeafs() {#getLeafs--}
+```
+public Iterator getLeafs()
+```
+
+
+Get all cells which reference to this cell directly and need to be updated when this cell is modified. NOTE: This class is now obsolete. Instead, please use Cell.GetDependentsInCalculation(bool) to get all dependents in calculation chain. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+java.util.Iterator - Enumerator to enumerate all dependents(Cell)
+### getLeafs(boolean recursive) {#getLeafs-boolean-}
+```
+public Iterator getLeafs(boolean recursive)
+```
+
+
+Get all cells which will be updated when this cell is modified. NOTE: This class is now obsolete. Instead, please use Cell.GetDependentsInCalculation(bool) to get all dependents in calculation chain. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| recursive | boolean | Whether returns those leafs that do not reference to this cell directly but reference to other leafs of this cell |
+
+**Returns:**
+java.util.Iterator - Enumerator to enumerate all dependents(Cell)
+### getMergedRange() {#getMergedRange--}
+```
+public Range getMergedRange()
+```
+
+
+Returns a [Range](../../com.aspose.cells/range) object which represents a merged range.
+
+**Returns:**
+[Range](../../com.aspose.cells/range) - [Range](../../com.aspose.cells/range) object. Null if this cell is not merged.
+### getName() {#getName--}
+```
+public String getName()
+```
+
+
+Gets the name of the cell. A cell name includes its column letter and row number. For example, the name of a cell in row 0 and column 0 is A1.
+
+**Returns:**
+java.lang.String
+### getNumberCategoryType() {#getNumberCategoryType--}
+```
+public int getNumberCategoryType()
+```
+
+
+Represents the category type of this cell's number formatting.
+
+**Returns:**
+int
+### getPrecedents() {#getPrecedents--}
+```
+public ReferredAreaCollection getPrecedents()
+```
+
+
+Gets all references appearing in this cell's formula.
+
+ *  Returns null if this is not a formula cell.
+ *  All references appearing in this cell's formula will be returned no matter they are referenced or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, it is still taken as the formula's precedents.
+ *  To get those references which influence the calculation only, please use .
+
+```
+Workbook workbook = new Workbook();
+         Cells cells = workbook.getWorksheets().get(0).getCells();
+         cells.get("A1").setFormula("=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1");
+         ReferredAreaCollection areas = cells.get("A1").getPrecedents();
+         for (int i = 0; i <areas.getCount(); i++)
+         {
+              ReferredArea area = areas.get(i);
+              StringBuilder stringBuilder = new StringBuilder();
+              if (area.isExternalLink())
+              {
+                  stringBuilder.append("[");
+                  stringBuilder.append(area.getExternalFileName());
+                  stringBuilder.append("]");
+              }
+              stringBuilder.append(area.getSheetName());
+              stringBuilder.append("!");
+              stringBuilder.append(CellsHelper.cellIndexToName(area.getStartRow(), area.getStartColumn()));
+              if (area.isArea())
+              {
+                  stringBuilder.append(":");
+                  stringBuilder.append(CellsHelper.cellIndexToName(area.getEndRow(), area.getEndColumn()));
+              }
+              System.out.println(stringBuilder.toString());
+         }
+```
+
+**Returns:**
+[ReferredAreaCollection](../../com.aspose.cells/referredareacollection) - Collection of all references appearing in this cell's formula.
+### getPrecedentsInCalculation() {#getPrecedentsInCalculation--}
+```
+public Iterator getPrecedentsInCalculation()
+```
+
+
+Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. This method can only work with the situation that [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) is true for the workbook and the workbook has been fully calculated. If this cell is not a formula or it does not reference to any other cells, null will be returned.
+
+```
+Workbook workbook = new Workbook();
+         Cells cells = workbook.getWorksheets().get(0).getCells();
+         cells.get("A2").setFormula("=IF(TRUE,B2,B1)");
+         workbook.getSettings().getFormulaSettings().setEnableCalculationChain(true);
+         workbook.calculateFormula();
+         Iterator en = cells.get("A2").getPrecedentsInCalculation();
+         System.out.println("A2's calculation precedents:");
+         while(en.hasNext())
+         {
+             ReferredArea r = (ReferredArea)en.next();
+             System.out.println(r);
+         }
+```
+
+**Returns:**
+java.util.Iterator - Enumerator to enumerate all references(ReferredArea)
+### getR1C1Formula() {#getR1C1Formula--}
+```
+public String getR1C1Formula()
+```
+
+
+Gets a R1C1 formula of the [Cell](../../com.aspose.cells/cell).
+
+**Returns:**
+java.lang.String
+### getRow() {#getRow--}
+```
+public int getRow()
+```
+
+
+Gets row number (zero based) of the cell.
+
+**Returns:**
+int
+### getSharedStyleIndex() {#getSharedStyleIndex--}
+```
+public int getSharedStyleIndex()
+```
+
+
+Gets cell's shared style index in the style pool.
+
+**Returns:**
+int
+### getStringValue() {#getStringValue--}
+```
+public String getStringValue()
+```
+
+
+Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv).
+
+**Returns:**
+java.lang.String
+### getStringValue(int formatStrategy) {#getStringValue-int-}
+```
+public String getStringValue(int formatStrategy)
+```
+
+
+Gets the string value by specific formatted strategy.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formatStrategy | int | The formatted strategy. |
+
+**Returns:**
+java.lang.String - 
+### getStringValueWithoutFormat() {#getStringValueWithoutFormat--}
+```
+public String getStringValueWithoutFormat()
+```
+
+
+Gets cell's value as string without any format. NOTE: This method is now obsolete. Instead, User should get the value object and format it according to the value type and the specific requirement. This property will be removed 12 months later since December 2020. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+java.lang.String
+### getStyle() {#getStyle--}
+```
+public Style getStyle()
+```
+
+
+Gets the cell style. To change the style of the cell, please call Cell.SetStyle() method after changing the style.
+
+**Returns:**
+[Style](../../com.aspose.cells/style) - Style object.
+### getStyle(boolean checkBorders) {#getStyle-boolean-}
+```
+public Style getStyle(boolean checkBorders)
+```
+
+
+If checkBorders is true, check whether other cells' borders will effect the style of this cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| checkBorders | boolean | Check other cells' borders |
+
+**Returns:**
+[Style](../../com.aspose.cells/style) - Style object.
+### getTable() {#getTable--}
+```
+public ListObject getTable()
+```
+
+
+Gets the table which contains this cell.
+
+**Returns:**
+[ListObject](../../com.aspose.cells/listobject) - 
+### getType() {#getType--}
+```
+public int getType()
+```
+
+
+Represents cell value type.
+
+**Returns:**
+int
+### getValidation() {#getValidation--}
+```
+public Validation getValidation()
+```
+
+
+Gets the validation applied to this cell.
+
+**Returns:**
+[Validation](../../com.aspose.cells/validation) - 
+### getValidationValue() {#getValidationValue--}
+```
+public boolean getValidationValue()
+```
+
+
+Gets the value of validation which applied to this cell.
+
+**Returns:**
+boolean - 
+### getValue() {#getValue--}
+```
+public Object getValue()
+```
+
+
+Gets the value contained in this cell. Possible type:
+
+null,
+
+Boolean,
+
+DateTime,
+
+Double,
+
+Integer
+
+String.
+
+For int value, it may be returned as an Integer object or a Double object. And there is no guarantee that the returned value will be kept as the same type of object always.
+
+**Returns:**
+java.lang.Object
+### getWidthOfValue() {#getWidthOfValue--}
+```
+public int getWidthOfValue()
+```
+
+
+Gets the width of the value in unit of pixels.
+
+**Returns:**
+int - 
+### getWorksheet() {#getWorksheet--}
+```
+public Worksheet getWorksheet()
+```
+
+
+Gets the parent worksheet.
+
+**Returns:**
+[Worksheet](../../com.aspose.cells/worksheet)
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Serves as a hash function for a particular type.
+
+**Returns:**
+int - A hash code for current Cell object.
+### isArrayFormula() {#isArrayFormula--}
+```
+public boolean isArrayFormula()
+```
+
+
+Indicates whether the cell formula is an array formula.
+
+**Returns:**
+boolean
+### isArrayHeader() {#isArrayHeader--}
+```
+public boolean isArrayHeader()
+```
+
+
+Indicates the cell's formula is and array formula and it is the first cell of the array.
+
+**Returns:**
+boolean
+### isDynamicArrayFormula() {#isDynamicArrayFormula--}
+```
+public boolean isDynamicArrayFormula()
+```
+
+
+Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false).
+
+**Returns:**
+boolean
+### isErrorValue() {#isErrorValue--}
+```
+public boolean isErrorValue()
+```
+
+
+Checks if the value of this cell is an error. Also applies to formula cell to check whether the calculated result is an error.
+
+**Returns:**
+boolean
+### isFormula() {#isFormula--}
+```
+public boolean isFormula()
+```
+
+
+Represents if the specified cell contains formula.
+
+**Returns:**
+boolean
+### isInArray() {#isInArray--}
+```
+public boolean isInArray()
+```
+
+
+Indicates whether the cell formula is an array formula. NOTE: This class is now obsolete. Instead, please use Cell.IsArrayFormula to check whether the cell formula is an array formula. This property will be removed 12 months later since May 2018. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+boolean
+### isInTable() {#isInTable--}
+```
+public boolean isInTable()
+```
+
+
+Indicates whether this cell is part of table formula. NOTE: This class is now obsolete. Instead, please use Cell.IsTableFormula to check whether the cell formula is part of table formula. This property will be removed 12 months later since May 2018. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+boolean
+### isMerged() {#isMerged--}
+```
+public boolean isMerged()
+```
+
+
+Checks if a cell is part of a merged range or not.
+
+**Returns:**
+boolean
+### isNumericValue() {#isNumericValue--}
+```
+public boolean isNumericValue()
+```
+
+
+Indicates whether the inner value of this cell is numeric(int, double and datetime) Also applies to formula cell to check the calculated result
+
+**Returns:**
+boolean
+### isRichText() {#isRichText--}
+```
+public boolean isRichText()
+```
+
+
+Indicates whether the cell string value is a rich text.
+
+**Returns:**
+boolean
+### isSharedFormula() {#isSharedFormula--}
+```
+public boolean isSharedFormula()
+```
+
+
+Indicates whether the cell formula is part of shared formula.
+
+**Returns:**
+boolean
+### isStyleSet() {#isStyleSet--}
+```
+public boolean isStyleSet()
+```
+
+
+Indicates if the cell's style is set. If return false, it means this cell has a default cell format.
+
+**Returns:**
+boolean
+### isTableFormula() {#isTableFormula--}
+```
+public boolean isTableFormula()
+```
+
+
+Indicates whether this cell is part of table formula.
+
+**Returns:**
+boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### putValue(boolean boolValue) {#putValue-boolean-}
+```
+public void putValue(boolean boolValue)
+```
+
+
+Puts a boolean value into the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| boolValue | boolean |  |
+
+### putValue(DateTime dateTime) {#putValue-com.aspose.cells.DateTime-}
+```
+public void putValue(DateTime dateTime)
+```
+
+
+Puts a DateTime value into the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dateTime | [DateTime](../../com.aspose.cells/datetime) | Input value |
+
+### putValue(double doubleValue) {#putValue-double-}
+```
+public void putValue(double doubleValue)
+```
+
+
+Puts a double value into the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doubleValue | double | Input value |
+
+### putValue(int intValue) {#putValue-int-}
+```
+public void putValue(int intValue)
+```
+
+
+Puts an integer value into the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| intValue | int | Input value |
+
+### putValue(Object objectValue) {#putValue-java.lang.Object-}
+```
+public void putValue(Object objectValue)
+```
+
+
+Puts an object value into the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| objectValue | java.lang.Object | input value |
+
+### putValue(String stringValue) {#putValue-java.lang.String-}
+```
+public void putValue(String stringValue)
+```
+
+
+Puts a string value into the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stringValue | java.lang.String | Input value |
+
+### putValue(String stringValue, boolean isConverted) {#putValue-java.lang.String-boolean-}
+```
+public void putValue(String stringValue, boolean isConverted)
+```
+
+
+Puts a string value into the cell and converts the value to other data type if appropriate.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stringValue | java.lang.String | Input value |
+| isConverted | boolean | True: converted to other data type if appropriate. |
+
+### putValue(String stringValue, boolean isConverted, boolean setStyle) {#putValue-java.lang.String-boolean-boolean-}
+```
+public void putValue(String stringValue, boolean isConverted, boolean setStyle)
+```
+
+
+Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stringValue | java.lang.String | Input value |
+| isConverted | boolean | True: converted to other data type if appropriate. |
+| setStyle | boolean | True: set the number format to cell's style when converting to other data type |
+
+### removeArrayFormula(boolean leaveNormalFormula) {#removeArrayFormula-boolean-}
+```
+public void removeArrayFormula(boolean leaveNormalFormula)
+```
+
+
+Remove array formula.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| leaveNormalFormula | boolean | True represents converting the array formula to normal formula. |
+
+### setArrayFormula(String arrayFormula, int rowNumber, int columnNumber) {#setArrayFormula-java.lang.String-int-int-}
+```
+public void setArrayFormula(String arrayFormula, int rowNumber, int columnNumber)
+```
+
+
+Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrayFormula | java.lang.String | Array formula. |
+| rowNumber | int | Number of rows to populate result of the array formula. |
+| columnNumber | int | Number of columns to populate result of the array formula. |
+
+### setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal) {#setArrayFormula-java.lang.String-int-int-boolean-boolean-}
+```
+public void setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal)
+```
+
+
+Sets an array formula to a range of cells. NOTE: This class is now obsolete. Instead, please use Cell.SetArrayFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrayFormula | java.lang.String | Array formula. |
+| rowNumber | int | Number of rows to populate result of the array formula. |
+| columnNumber | int | Number of columns to populate result of the array formula. |
+| isR1C1 | boolean | whether the formula is R1C1 formula |
+| isLocal | boolean | whether the formula is locale formatted |
+
+### setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options) {#setArrayFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-}
+```
+public void setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options)
+```
+
+
+Sets an array formula to a range of cells.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrayFormula | java.lang.String | Array formula. |
+| rowNumber | int | Number of rows to populate result of the array formula. |
+| columnNumber | int | Number of columns to populate result of the array formula. |
+| options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | Options for parsing the formula. |
+
+### setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options, Object[][] values) {#setArrayFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-java.lang.Object-----}
+```
+public void setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options, Object[][] values)
+```
+
+
+Sets an array formula to a range of cells.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrayFormula | java.lang.String | Array formula. |
+| rowNumber | int | Number of rows to populate result of the array formula. |
+| columnNumber | int | Number of columns to populate result of the array formula. |
+| options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | Options for parsing the formula. |
+| values | java.lang.Object[][] | values for those cells with given array formula |
+
+### setCharacters(FontSetting[] characters) {#setCharacters-com.aspose.cells.FontSetting---}
+```
+public void setCharacters(FontSetting[] characters)
+```
+
+
+Sets rich text format of the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| characters | [FontSetting\[\]](../../com.aspose.cells/fontsetting) | All Characters objects. |
+
+### setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, boolean calculateValue) {#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-boolean-}
+```
+public CellArea setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, boolean calculateValue)
+```
+
+
+Sets dynamic array formula and make the formula spill into neighboring cells if possible.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrayFormula | java.lang.String | the formula expression |
+| options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | options to parse formula. "Parse" option will be ignored and the formula will always be parsed immediately |
+| calculateValue | boolean | whether calculate this dynamic array formula for those cells in the spilled range. |
+
+**Returns:**
+[CellArea](../../com.aspose.cells/cellarea) - the range that the formula should spill into.
+### setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue) {#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-}
+```
+public CellArea setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue)
+```
+
+
+Sets dynamic array formula and make the formula spill into neighboring cells if possible.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrayFormula | java.lang.String | the formula expression |
+| options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | options to parse formula. "Parse" option will be ignored and the formula will always be parsed immediately |
+| values | java.lang.Object[][] | values for those cells with given dynamic array formula |
+| calculateRange | boolean | Whether calculate the spilled range for this dynamic array formula. If the "values" parameter is not null and this flag is false, then the spilled range's height will be values.Length and width will be values[0].Length. |
+| calculateValue | boolean | whether calculate this dynamic array formula for those cells in the spilled range when "values" is null or corresponding item in "values" for one cell is null. |
+
+**Returns:**
+[CellArea](../../com.aspose.cells/cellarea) - the range that the formula should spill into.
+### setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue, CalculationOptions copts) {#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-com.aspose.cells.CalculationOptions-}
+```
+public CellArea setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue, CalculationOptions copts)
+```
+
+
+Sets dynamic array formula and make the formula spill into neighboring cells if possible.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrayFormula | java.lang.String | the formula expression |
+| options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | options to parse formula. "Parse" option will be ignored and the formula will always be parsed immediately |
+| values | java.lang.Object[][] | values for those cells with given dynamic array formula |
+| calculateRange | boolean | Whether calculate the spilled range for this dynamic array formula. If the "values" parameter is not null and this flag is false, then the spilled range's height will be values.Length and width will be values[0].Length. |
+| calculateValue | boolean | whether calculate this dynamic array formula for those cells in the spilled range when "values" is null or corresponding item in "values" for one cell is null. |
+| copts | [CalculationOptions](../../com.aspose.cells/calculationoptions) | The options for calculating formula. Commonly, for performance consideration, the [CalculationOptions.getRecursive()](../../com.aspose.cells/calculationoptions\#getRecursive--) property should be false. |
+
+**Returns:**
+[CellArea](../../com.aspose.cells/cellarea) - the range that the formula should spill into.
+### setFormula(String value) {#setFormula-java.lang.String-}
+```
+public void setFormula(String value)
+```
+
+
+Sets a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setFormula(String formula, boolean isR1C1, boolean isLocal, Object value) {#setFormula-java.lang.String-boolean-boolean-java.lang.Object-}
+```
+public void setFormula(String formula, boolean isR1C1, boolean isLocal, Object value)
+```
+
+
+Set the formula and the value of the formula. NOTE: This class is now obsolete. Instead, please use Cell.SetFormula(string,FormulaParseOptions,object). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | java.lang.String | The formula. |
+| isR1C1 | boolean | Whether the formula is R1C1 formula. |
+| isLocal | boolean | Whether the formula is locale formatted. |
+| value | java.lang.Object | The value of the formula. |
+
+### setFormula(String formula, FormulaParseOptions options, Object value) {#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-}
+```
+public void setFormula(String formula, FormulaParseOptions options, Object value)
+```
+
+
+Set the formula and the value of the formula.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | java.lang.String | The formula. |
+| options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | Options for parsing the formula. |
+| value | java.lang.Object | The value of the formula. |
+
+### setFormula(String formula, Object value) {#setFormula-java.lang.String-java.lang.Object-}
+```
+public void setFormula(String formula, Object value)
+```
+
+
+Set the formula and the value of the formula.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | java.lang.String | The formula. |
+| value | java.lang.Object | The value of the formula. |
+
+### setFormulaLocal(String value) {#setFormulaLocal-java.lang.String-}
+```
+public void setFormulaLocal(String value)
+```
+
+
+Get the locale formatted formula of the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setHtmlString(String value) {#setHtmlString-java.lang.String-}
+```
+public void setHtmlString(String value)
+```
+
+
+Sets the html string which contains data and some formats in this cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setR1C1Formula(String value) {#setR1C1Formula-java.lang.String-}
+```
+public void setR1C1Formula(String value)
+```
+
+
+Sets a R1C1 formula of the [Cell](../../com.aspose.cells/cell).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setSharedFormula(String sharedFormula, int rowNumber, int columnNumber) {#setSharedFormula-java.lang.String-int-int-}
+```
+public void setSharedFormula(String sharedFormula, int rowNumber, int columnNumber)
+```
+
+
+Sets shared formulas to a range of cells.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sharedFormula | java.lang.String | Shared formula. |
+| rowNumber | int | Number of rows to populate the formula. |
+| columnNumber | int | Number of columns to populate the formula. |
+
+### setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal) {#setSharedFormula-java.lang.String-int-int-boolean-boolean-}
+```
+public void setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal)
+```
+
+
+Sets a formula to a range of cells. NOTE: This class is now obsolete. Instead, please use Cell.SetSharedFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sharedFormula | java.lang.String | Shared formula. |
+| rowNumber | int | Number of rows to populate the formula. |
+| columnNumber | int | Number of columns to populate the formula. |
+| isR1C1 | boolean | whether the formula is R1C1 formula |
+| isLocal | boolean | whether the formula is locale formatted |
+
+### setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options) {#setSharedFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-}
+```
+public void setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options)
+```
+
+
+Sets shared formulas to a range of cells.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sharedFormula | java.lang.String | Shared formula. |
+| rowNumber | int | Number of rows to populate the formula. |
+| columnNumber | int | Number of columns to populate the formula. |
+| options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | Options for parsing the formula. |
+
+### setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options, Object[][] values) {#setSharedFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-java.lang.Object-----}
+```
+public void setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options, Object[][] values)
+```
+
+
+Sets shared formulas to a range of cells.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sharedFormula | java.lang.String | Shared formula. |
+| rowNumber | int | Number of rows to populate the formula. |
+| columnNumber | int | Number of columns to populate the formula. |
+| options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | Options for parsing the formula. |
+| values | java.lang.Object[][] | values for those cells with given shared formula |
+
+### setStyle(Style style) {#setStyle-com.aspose.cells.Style-}
+```
+public void setStyle(Style style)
+```
+
+
+Sets the cell style. If the border settings are changed, the border of adjust cells will be updated too.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | [Style](../../com.aspose.cells/style) | The cell style. |
+
+### setStyle(Style style, boolean explicitFlag) {#setStyle-com.aspose.cells.Style-boolean-}
+```
+public void setStyle(Style style, boolean explicitFlag)
+```
+
+
+Apply the cell style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | [Style](../../com.aspose.cells/style) | The cell style. |
+| explicitFlag | boolean | True, only overwriting formatting which is explicitly set. |
+
+### setStyle(Style style, StyleFlag flag) {#setStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-}
+```
+public void setStyle(Style style, StyleFlag flag)
+```
+
+
+Apply the cell style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | [Style](../../com.aspose.cells/style) | The cell style. |
+| flag | [StyleFlag](../../com.aspose.cells/styleflag) | The style flag. |
+
+### setTableFormula(int rowNumber, int columnNumber, int rowIndexOfInputCell, int columnIndexOfInputCell, boolean isRowInput, Object[][] values) {#setTableFormula-int-int-int-int-boolean-java.lang.Object-----}
+```
+public void setTableFormula(int rowNumber, int columnNumber, int rowIndexOfInputCell, int columnIndexOfInputCell, boolean isRowInput, Object[][] values)
+```
+
+
+Create one-variable data table for given range starting from this cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowNumber | int | Number of rows to populate the formula. |
+| columnNumber | int | Number of columns to populate the formula. |
+| rowIndexOfInputCell | int | row index of the input cell |
+| columnIndexOfInputCell | int | column index of the input cell |
+| isRowInput | boolean | Indicates whether the input cell is a row input cell(true) or a column input cell(false). |
+| values | java.lang.Object[][] | values for cells in table formula range |
+
+### setTableFormula(int rowNumber, int columnNumber, int rowIndexOfRowInputCell, int columnIndexOfRowInputCell, int rowIndexOfColumnInputCell, int columnIndexOfColumnInputCell, Object[][] values) {#setTableFormula-int-int-int-int-int-int-java.lang.Object-----}
+```
+public void setTableFormula(int rowNumber, int columnNumber, int rowIndexOfRowInputCell, int columnIndexOfRowInputCell, int rowIndexOfColumnInputCell, int columnIndexOfColumnInputCell, Object[][] values)
+```
+
+
+Create two-variable data table for given range starting from this cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowNumber | int | Number of rows to populate the formula. |
+| columnNumber | int | Number of columns to populate the formula. |
+| rowIndexOfRowInputCell | int | row index of the row input cell |
+| columnIndexOfRowInputCell | int | column index of the row input cell |
+| rowIndexOfColumnInputCell | int | row index of the column input cell |
+| columnIndexOfColumnInputCell | int | column index of the column input cell |
+| values | java.lang.Object[][] | values for cells in table formula range |
+
+### setTableFormula(int rowNumber, int columnNumber, String inputCell, boolean isRowInput, Object[][] values) {#setTableFormula-int-int-java.lang.String-boolean-java.lang.Object-----}
+```
+public void setTableFormula(int rowNumber, int columnNumber, String inputCell, boolean isRowInput, Object[][] values)
+```
+
+
+Create one-variable data table for given range starting from this cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowNumber | int | Number of rows to populate the formula. |
+| columnNumber | int | Number of columns to populate the formula. |
+| inputCell | java.lang.String | the input cell |
+| isRowInput | boolean | Indicates whether the input cell is a row input cell(true) or a column input cell(false). |
+| values | java.lang.Object[][] | values for cells in table formula range |
+
+### setTableFormula(int rowNumber, int columnNumber, String rowInputCell, String columnInputCell, Object[][] values) {#setTableFormula-int-int-java.lang.String-java.lang.String-java.lang.Object-----}
+```
+public void setTableFormula(int rowNumber, int columnNumber, String rowInputCell, String columnInputCell, Object[][] values)
+```
+
+
+Create two-variable data table for given range starting from this cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowNumber | int | Number of rows to populate the formula. |
+| columnNumber | int | Number of columns to populate the formula. |
+| rowInputCell | java.lang.String | the row input cell |
+| columnInputCell | java.lang.String | the column input cell |
+| values | java.lang.Object[][] | values for cells in table formula range |
+
+### setValue(Object value) {#setValue-java.lang.Object-}
+```
+public void setValue(Object value)
+```
+
+
+Gets the value contained in this cell. Possible type:
+
+null,
+
+Boolean,
+
+DateTime,
+
+Double,
+
+Integer
+
+String.
+
+For int value, it may be returned as an Integer object or a Double object. And there is no guarantee that the returned value will be kept as the same type of object always.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.Object |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns a string represents the current Cell object.
+
+**Returns:**
+java.lang.String - 
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
