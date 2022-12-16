@@ -57,7 +57,7 @@ Workbook workbook = new Workbook();
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle. |
 | [getShrinkToFit()](#getShrinkToFit--) | Represents if text automatically shrinks to fit in the available column width. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
-| [getTwoColorGradient(Color color1, Color color2, int gradientStyleType, int variant)](#getTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Get the two-color gradient setting. |
+| [getTwoColorGradient()](#getTwoColorGradient--) | Get the two-color gradient setting. |
 | [getVerticalAlignment()](#getVerticalAlignment--) | Gets the vertical alignment type of the text in a cell. |
 | [hasBorders()](#hasBorders--) | Checks whether there are borders have been set for the style. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a Style object. |
@@ -411,22 +411,16 @@ Represents text reading order.
 
 **Returns:**
 int
-### getTwoColorGradient(Color color1, Color color2, int gradientStyleType, int variant) {#getTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-}
+### getTwoColorGradient() {#getTwoColorGradient--}
 ```
-public void getTwoColorGradient(Color color1, Color color2, int gradientStyleType, int variant)
+public Object[] getTwoColorGradient()
 ```
 
 
-Get the two-color gradient setting.
+Get the two-color gradient setting. If this is not gradient fill,return null;
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| color1 | [Color](../../com.aspose.cells/color) | One gradient color. |
-| color2 | [Color](../../com.aspose.cells/color) | Two gradient color. |
-| gradientStyleType | int | Gradient shading style. |
-| variant | int | The gradient variant. |
-
+**Returns:**
+java.lang.Object[] - Returns all setting about two-color gradient [0] : Color1 [1] : Color2 [2] : GradientStyleType [3] : Variant
 ### getVerticalAlignment() {#getVerticalAlignment--}
 ```
 public int getVerticalAlignment()

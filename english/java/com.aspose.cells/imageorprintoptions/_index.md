@@ -69,6 +69,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getTextCrossType()](#getTextCrossType--) | Gets displaying text type when the text width is larger than cell width. |
 | [getTiffColorDepth()](#getTiffColorDepth--) | Gets bit depth to apply only when saving pages to the Tiff format. |
 | [getTiffCompression()](#getTiffCompression--) | Gets the type of compression to apply only when saving pages to the Tiff format. |
+| [getTiffPhotometricInterpretation()](#getTiffPhotometricInterpretation--) | Gets the type of PhotometricInterpretation to apply only when saving pages to the Tiff format. |
 | [getTransparent()](#getTransparent--) | Indicates if the background of generated image should be transparent. |
 | [getVerticalResolution()](#getVerticalResolution--) | Gets the vertical resolution for generated images, in dots per inch. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
@@ -108,6 +109,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setTextCrossType(int value)](#setTextCrossType-int-) | Sets displaying text type when the text width is larger than cell width. |
 | [setTiffColorDepth(int value)](#setTiffColorDepth-int-) | Sets bit depth to apply only when saving pages to the Tiff format. |
 | [setTiffCompression(int value)](#setTiffCompression-int-) | Sets the type of compression to apply only when saving pages to the Tiff format. |
+| [setTiffPhotometricInterpretation(int value)](#setTiffPhotometricInterpretation-int-) | Sets the type of PhotometricInterpretation to apply only when saving pages to the Tiff format. |
 | [setTransparent(boolean value)](#setTransparent-boolean-) | Indicates if the background of generated image should be transparent. |
 | [setVerticalResolution(int value)](#setVerticalResolution-int-) | Sets the vertical resolution for generated images, in dots per inch. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
@@ -393,6 +395,16 @@ public int getTiffCompression()
 
 
 Gets the type of compression to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. The default value is Lzw.
+
+**Returns:**
+int
+### getTiffPhotometricInterpretation() {#getTiffPhotometricInterpretation--}
+```
+public int getTiffPhotometricInterpretation()
+```
+
+
+Gets the type of PhotometricInterpretation to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. The default value is -1, represent no PhotometricInterpretation is applied.
 
 **Returns:**
 int
@@ -868,6 +880,19 @@ public void setTiffCompression(int value)
 
 
 Sets the type of compression to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. The default value is Lzw.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setTiffPhotometricInterpretation(int value) {#setTiffPhotometricInterpretation-int-}
+```
+public void setTiffPhotometricInterpretation(int value)
+```
+
+
+Sets the type of PhotometricInterpretation to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. The default value is -1, represent no PhotometricInterpretation is applied.
 
 **Parameters:**
 | Parameter | Type | Description |

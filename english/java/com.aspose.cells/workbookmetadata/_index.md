@@ -25,7 +25,6 @@ MetadataOptions options = new MetadataOptions(MetadataType.DOCUMENT_PROPERTIES);
 | Constructor | Description |
 | --- | --- |
 | [WorkbookMetadata(String fileName, MetadataOptions options)](#WorkbookMetadata-java.lang.String-com.aspose.cells.MetadataOptions-) | Create the meta data object. |
-| [WorkbookMetadata(InputStream stream, MetadataOptions options)](#WorkbookMetadata-java.io.InputStream-com.aspose.cells.MetadataOptions-) | Create the meta data object. |
 ## Methods
 
 | Method | Description |
@@ -38,7 +37,6 @@ MetadataOptions options = new MetadataOptions(MetadataType.DOCUMENT_PROPERTIES);
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [save(InputStream stream)](#save-java.io.InputStream-) | Save the modified metadata to the stream. |
 | [save(String fileName)](#save-java.lang.String-) | Save the modified metadata to the file. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -56,20 +54,6 @@ Create the meta data object.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String |  |
-| options | [MetadataOptions](../../com.aspose.cells/metadataoptions) |  |
-
-### WorkbookMetadata(InputStream stream, MetadataOptions options) {#WorkbookMetadata-java.io.InputStream-com.aspose.cells.MetadataOptions-}
-```
-public WorkbookMetadata(InputStream stream, MetadataOptions options)
-```
-
-
-Create the meta data object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream |  |
 | options | [MetadataOptions](../../com.aspose.cells/metadataoptions) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -152,19 +136,6 @@ public final native void notifyAll()
 
 
 
-
-### save(InputStream stream) {#save-java.io.InputStream-}
-```
-public void save(InputStream stream)
-```
-
-
-Save the modified metadata to the stream.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The stream. |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
