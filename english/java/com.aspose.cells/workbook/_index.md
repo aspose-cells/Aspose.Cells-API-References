@@ -123,8 +123,6 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
 | [replace(String placeHolder, String newValue)](#replace-java.lang.String-java.lang.String-) | Replaces a cell's value with a new string. |
 | [replace(String placeHolder, String newValue, ReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.cells.ReplaceOptions-) | Replaces a cell's value with a new string. |
 | [replace(String placeHolder, String[] newValues, boolean isVertical)](#replace-java.lang.String-java.lang.String---boolean-) | Replaces a cell's value with a new string array. |
-| [save(InputStream stream, SaveOptions saveOptions)](#save-java.io.InputStream-com.aspose.cells.SaveOptions-) | Saves the workbook to the stream. |
-| [save(InputStream stream, int saveFormat)](#save-java.io.InputStream-int-) | Saves the workbook to the stream. |
 | [save(OutputStream stream, SaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) | Save the workbook to the stream. |
 | [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Save the workbook to the stream. |
 | [save(String fileName)](#save-java.lang.String-) | Save the workbook to the disk. |
@@ -1375,34 +1373,6 @@ Workbook workbook = new Workbook();
 
 **Returns:**
 int
-### save(InputStream stream, SaveOptions saveOptions) {#save-java.io.InputStream-com.aspose.cells.SaveOptions-}
-```
-public void save(InputStream stream, SaveOptions saveOptions)
-```
-
-
-Saves the workbook to the stream.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The file stream. |
-| saveOptions | [SaveOptions](../../com.aspose.cells/saveoptions) | The save options. |
-
-### save(InputStream stream, int saveFormat) {#save-java.io.InputStream-int-}
-```
-public void save(InputStream stream, int saveFormat)
-```
-
-
-Saves the workbook to the stream.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The file stream. |
-| saveFormat | int | The save file format type. |
-
 ### save(OutputStream stream, SaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.cells.SaveOptions-}
 ```
 public void save(OutputStream stream, SaveOptions saveOptions)
