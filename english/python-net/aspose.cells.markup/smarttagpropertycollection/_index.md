@@ -1,40 +1,47 @@
----
-title: SmartTagPropertyCollection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: SmartTagPropertyCollection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 70
 url: /python-net/aspose.cells.markup/smarttagpropertycollection/
+is_root: false
 ---
 
 ## SmartTagPropertyCollection class
 
 Represents all properties of cell smart tag.
 
+
+
 The SmartTagPropertyCollection type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|SmartTagPropertyCollection()|Initializes a new instance of the SmartTagPropertyCollection class|
-## Properties
-| Name | Description |
+| [SmartTagPropertyCollection()](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|capacity|  |
-## Methods
-| Name | Description |
+| [capacity](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/capacity) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|copy_to(array)|  |
-|copy_to(index, array, array_index, count)|  |
-|index_of(item, index)|  |
-|index_of(item, index, count)|  |
-|last_index_of(item)|  |
-|last_index_of(item, index)|  |
-|last_index_of(item, index, count)|  |
-|add(name, value)|Adds a property of cell's smart tag.|
-|binary_search(item)|  |
+| [copy_to(array)](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/copy_to/#list) |  |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/copy_to/#int-list-int-int) |  |
+| [index_of(item, index)](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/index_of/#SmartTagProperty-int) |  |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/index_of/#SmartTagProperty-int-int) |  |
+| [last_index_of(item)](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/last_index_of/#SmartTagProperty) |  |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/last_index_of/#SmartTagProperty-int) |  |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/last_index_of/#SmartTagProperty-int-int) |  |
+| [add(name, value)](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/add/#str-str) | Adds a property of cell's smart tag. |
+| [binary_search(item)](/cells/python-net/aspose.cells.markup/smarttagpropertycollection/binary_search/#SmartTagProperty) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.markup](/cells/python-net/aspose.cells.markup/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.markup](../)

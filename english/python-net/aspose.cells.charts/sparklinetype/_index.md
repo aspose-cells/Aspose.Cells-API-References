@@ -1,25 +1,29 @@
----
-title: SparklineType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: SparklineType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 630
 url: /python-net/aspose.cells.charts/sparklinetype/
+is_root: false
 ---
 
 ## SparklineType enumeration
 
 Represents the sparkline types.
 
-## Members
-| Member name | Description |
+
+
+The SparklineType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|LINE|Line sparkline.|
-|COLUMN|Column sparkline.|
-|STACKED|Win/Loss sparkline.|
+| LINE | Line sparkline. |
+| COLUMN | Column sparkline. |
+| STACKED | Win/Loss sparkline. |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

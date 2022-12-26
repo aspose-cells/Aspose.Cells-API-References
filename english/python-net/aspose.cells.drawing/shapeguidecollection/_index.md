@@ -1,40 +1,47 @@
----
-title: ShapeGuideCollection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ShapeGuideCollection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 560
 url: /python-net/aspose.cells.drawing/shapeguidecollection/
+is_root: false
 ---
 
 ## ShapeGuideCollection class
 
 Encapsulates a collection of shape guide
 
+
+
 The ShapeGuideCollection type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|ShapeGuideCollection()|Initializes a new instance of the ShapeGuideCollection class|
-## Properties
-| Name | Description |
+| [ShapeGuideCollection()](/cells/python-net/aspose.cells.drawing/shapeguidecollection/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|capacity|  |
-## Methods
-| Name | Description |
+| [capacity](/cells/python-net/aspose.cells.drawing/shapeguidecollection/capacity) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|copy_to(array)|  |
-|copy_to(index, array, array_index, count)|  |
-|index_of(item, index)|  |
-|index_of(item, index, count)|  |
-|last_index_of(item)|  |
-|last_index_of(item, index)|  |
-|last_index_of(item, index, count)|  |
-|add(name, val)|Adds a shape guide.(Important: This feature is currently only available for Excel07 and above)|
-|binary_search(item)|  |
+| [copy_to(array)](/cells/python-net/aspose.cells.drawing/shapeguidecollection/copy_to/#list) |  |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells.drawing/shapeguidecollection/copy_to/#int-list-int-int) |  |
+| [index_of(item, index)](/cells/python-net/aspose.cells.drawing/shapeguidecollection/index_of/#ShapeGuide-int) |  |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells.drawing/shapeguidecollection/index_of/#ShapeGuide-int-int) |  |
+| [last_index_of(item)](/cells/python-net/aspose.cells.drawing/shapeguidecollection/last_index_of/#ShapeGuide) |  |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells.drawing/shapeguidecollection/last_index_of/#ShapeGuide-int) |  |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells.drawing/shapeguidecollection/last_index_of/#ShapeGuide-int-int) |  |
+| [add(name, val)](/cells/python-net/aspose.cells.drawing/shapeguidecollection/add/#str-float) | Adds a shape guide.(Important: This feature is currently only available for Excel07 and above) |
+| [binary_search(item)](/cells/python-net/aspose.cells.drawing/shapeguidecollection/binary_search/#ShapeGuide) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

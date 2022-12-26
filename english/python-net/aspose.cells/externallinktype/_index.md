@@ -1,24 +1,28 @@
----
-title: ExternalLinkType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ExternalLinkType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4560
+weight: 2020
 url: /python-net/aspose.cells/externallinktype/
+is_root: false
 ---
 
 ## ExternalLinkType enumeration
 
 Represents the type of external link.
 
-## Members
-| Member name | Description |
+
+
+The ExternalLinkType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|DDE_LINK|Represents the DDE link.|
-|EXTERNAL|Represents external link.|
+| DDE_LINK | Represents the DDE link. |
+| EXTERNAL | Represents external link. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

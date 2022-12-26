@@ -1,29 +1,33 @@
----
-title: DataLabelsSeparatorType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: DataLabelsSeparatorType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 470
 url: /python-net/aspose.cells.charts/datalabelsseparatortype/
+is_root: false
 ---
 
 ## DataLabelsSeparatorType enumeration
 
 Represents the separator type of DataLabels.
 
-## Members
-| Member name | Description |
+
+
+The DataLabelsSeparatorType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTO|Represents automatic separator|
-|SPACE|Represents space(" ")|
-|COMMA|Represents comma(",")|
-|SEMICOLON|Represents semicolon(";")|
-|PERIOD|Represents period(".")|
-|NEW_LINE|Represents newline("\n")|
-|CUSTOM|Represents custom separator|
+| AUTO | Represents automatic separator |
+| SPACE | Represents space(" ") |
+| COMMA | Represents comma(",") |
+| SEMICOLON | Represents semicolon(";") |
+| PERIOD | Represents period(".") |
+| NEW_LINE | Represents newline("\n") |
+| CUSTOM | Represents custom separator |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

@@ -1,26 +1,30 @@
----
-title: ChartLineFormattingType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ChartLineFormattingType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 410
 url: /python-net/aspose.cells.charts/chartlineformattingtype/
+is_root: false
 ---
 
 ## ChartLineFormattingType enumeration
 
 Represents line format type of chart line.
 
-## Members
-| Member name | Description |
+
+
+The ChartLineFormattingType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC|Represents automatic formatting type.|
-|SOLID|Represents solid formatting type.|
-|NONE|Represents none formatting type.|
-|GRADIENT|Gradient|
+| AUTOMATIC | Represents automatic formatting type. |
+| SOLID | Represents solid formatting type. |
+| NONE | Represents none formatting type. |
+| GRADIENT | Gradient |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

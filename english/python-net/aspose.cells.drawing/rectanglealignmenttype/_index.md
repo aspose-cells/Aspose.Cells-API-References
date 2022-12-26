@@ -1,31 +1,35 @@
----
-title: RectangleAlignmentType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: RectangleAlignmentType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1380
+weight: 1110
 url: /python-net/aspose.cells.drawing/rectanglealignmenttype/
+is_root: false
 ---
 
 ## RectangleAlignmentType enumeration
 
 Represents how to position two rectangles relative to each other.
 
-## Members
-| Member name | Description |
+
+
+The RectangleAlignmentType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|BOTTOM|Bottom|
-|BOTTOM_LEFT|BottomLeft|
-|BOTTOM_RIGHT|BottomRight|
-|CENTER|Center|
-|LEFT|Left|
-|RIGHT|Right|
-|TOP|Top|
-|TOP_LEFT|TopLeft|
-|TOP_RIGHT|TopRight|
+| BOTTOM | Bottom |
+| BOTTOM_LEFT | BottomLeft |
+| BOTTOM_RIGHT | BottomRight |
+| CENTER | Center |
+| LEFT | Left |
+| RIGHT | Right |
+| TOP | Top |
+| TOP_LEFT | TopLeft |
+| TOP_RIGHT | TopRight |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

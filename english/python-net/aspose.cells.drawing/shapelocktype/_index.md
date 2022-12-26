@@ -1,35 +1,39 @@
----
-title: ShapeLockType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ShapeLockType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1420
+weight: 1150
 url: /python-net/aspose.cells.drawing/shapelocktype/
+is_root: false
 ---
 
 ## ShapeLockType enumeration
 
 Represents type of the property to be locked.
 
-## Members
-| Member name | Description |
+
+
+The ShapeLockType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|GROUP|Group|
-|ADJUST_HANDLES|AdjustHandles|
-|TEXT|Text|
-|POINTS|Points|
-|CROP|Crop|
-|SELECTION|Selection|
-|MOVE|Move|
-|ASPECT_RATIO|AspectRatio|
-|ROTATION|Rotation|
-|UNGROUP|Ungroup|
-|RESIZE|Resize|
-|SHAPE_TYPE|ShapeType|
-|ARROWHEAD|Arrowhead|
+| GROUP | Group |
+| ADJUST_HANDLES | AdjustHandles |
+| TEXT | Text |
+| POINTS | Points |
+| CROP | Crop |
+| SELECTION | Selection |
+| MOVE | Move |
+| ASPECT_RATIO | AspectRatio |
+| ROTATION | Rotation |
+| UNGROUP | Ungroup |
+| RESIZE | Resize |
+| SHAPE_TYPE | ShapeType |
+| ARROWHEAD | Arrowhead |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

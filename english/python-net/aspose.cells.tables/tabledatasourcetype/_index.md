@@ -1,26 +1,30 @@
----
-title: TableDataSourceType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TableDataSourceType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 100
 url: /python-net/aspose.cells.tables/tabledatasourcetype/
+is_root: false
 ---
 
 ## TableDataSourceType enumeration
 
 Represents the table's data source type.
 
-## Members
-| Member name | Description |
+
+
+The TableDataSourceType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|WORKSHEET|Excel Worksheet Table|
-|SHARE_POINT|Read-write SharePoint linked List|
-|XML|XML mapper Table|
-|QUERY_TABLE|Query Table|
+| WORKSHEET | Excel Worksheet Table |
+| SHARE_POINT | Read-write SharePoint linked List |
+| XML | XML mapper Table |
+| QUERY_TABLE | Query Table |
+
 
 ### See Also
 
-* namespace [aspose.cells.tables](/cells/python-net/aspose.cells.tables/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.tables](../)

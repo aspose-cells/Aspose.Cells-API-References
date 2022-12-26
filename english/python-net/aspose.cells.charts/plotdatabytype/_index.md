@@ -1,24 +1,28 @@
----
-title: PlotDataByType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PlotDataByType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 580
 url: /python-net/aspose.cells.charts/plotdatabytype/
+is_root: false
 ---
 
 ## PlotDataByType enumeration
 
 Represents the type of data plot by row or column.
 
-## Members
-| Member name | Description |
+
+
+The PlotDataByType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|ROW|By row.|
-|COLUMN|By column.|
+| ROW | By row. |
+| COLUMN | By column. |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

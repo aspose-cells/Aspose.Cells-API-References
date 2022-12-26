@@ -1,35 +1,40 @@
----
-title: LegendEntryCollection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: LegendEntryCollection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 190
 url: /python-net/aspose.cells.charts/legendentrycollection/
+is_root: false
 ---
 
 ## LegendEntryCollection class
 
-Represents a collection of all the [LegendEntry](/cells/python-net/aspose.cells.charts/legendentry/) objects in the specified chart legend.
+Represents a collection of all the [LegendEntry](/cells/python-net/aspose.cells.charts/legendentry) objects in the specified chart legend.
+
+
 
 The LegendEntryCollection type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|capacity|  |
-## Methods
-| Name | Description |
+| [capacity](/cells/python-net/aspose.cells.charts/legendentrycollection/capacity) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|copy_to(array)|  |
-|copy_to(index, array, array_index, count)|  |
-|index_of(item, index)|  |
-|index_of(item, index, count)|  |
-|last_index_of(item)|  |
-|last_index_of(item, index)|  |
-|last_index_of(item, index, count)|  |
-|binary_search(item)|  |
+| [copy_to(array)](/cells/python-net/aspose.cells.charts/legendentrycollection/copy_to/#list) |  |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells.charts/legendentrycollection/copy_to/#int-list-int-int) |  |
+| [index_of(item, index)](/cells/python-net/aspose.cells.charts/legendentrycollection/index_of/#LegendEntry-int) |  |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells.charts/legendentrycollection/index_of/#LegendEntry-int-int) |  |
+| [last_index_of(item)](/cells/python-net/aspose.cells.charts/legendentrycollection/last_index_of/#LegendEntry) |  |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells.charts/legendentrycollection/last_index_of/#LegendEntry-int) |  |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells.charts/legendentrycollection/last_index_of/#LegendEntry-int-int) |  |
+| [binary_search(item)](/cells/python-net/aspose.cells.charts/legendentrycollection/binary_search/#LegendEntry) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

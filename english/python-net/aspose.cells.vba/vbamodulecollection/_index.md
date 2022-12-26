@@ -1,39 +1,44 @@
----
-title: VbaModuleCollection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: VbaModuleCollection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 20
 url: /python-net/aspose.cells.vba/vbamodulecollection/
+is_root: false
 ---
 
 ## VbaModuleCollection class
 
-Represents the list of [VbaModule](/cells/python-net/aspose.cells.vba/vbamodule/)
+Represents the list of [VbaModule](/cells/python-net/aspose.cells.vba/vbamodule)
+
+
 
 The VbaModuleCollection type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|capacity|  |
-## Methods
-| Name | Description |
+| [capacity](/cells/python-net/aspose.cells.vba/vbamodulecollection/capacity) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|add(sheet)|Adds module for a worksheet.|
-|add(type, name)|Adds module.|
-|copy_to(array)|  |
-|copy_to(index, array, array_index, count)|  |
-|index_of(item, index)|  |
-|index_of(item, index, count)|  |
-|last_index_of(item)|  |
-|last_index_of(item, index)|  |
-|last_index_of(item, index, count)|  |
-|add_designer_storage(name, data)|  |
-|get_designer_storage(name)|Represents the data of Designer.|
-|binary_search(item)|  |
+| [add(sheet)](/cells/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) | Adds module for a worksheet. |
+| [add(type, name)](/cells/python-net/aspose.cells.vba/vbamodulecollection/add/#VbaModuleType-str) | Adds module. |
+| [copy_to(array)](/cells/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#list) |  |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#int-list-int-int) |  |
+| [index_of(item, index)](/cells/python-net/aspose.cells.vba/vbamodulecollection/index_of/#VbaModule-int) |  |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells.vba/vbamodulecollection/index_of/#VbaModule-int-int) |  |
+| [last_index_of(item)](/cells/python-net/aspose.cells.vba/vbamodulecollection/last_index_of/#VbaModule) |  |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells.vba/vbamodulecollection/last_index_of/#VbaModule-int) |  |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells.vba/vbamodulecollection/last_index_of/#VbaModule-int-int) |  |
+| [add_designer_storage(name, data)](/cells/python-net/aspose.cells.vba/vbamodulecollection/add_designer_storage/#str-bytes) |  |
+| [get_designer_storage(name)](/cells/python-net/aspose.cells.vba/vbamodulecollection/get_designer_storage/#str) | Represents the data of Designer. |
+| [binary_search(item)](/cells/python-net/aspose.cells.vba/vbamodulecollection/binary_search/#VbaModule) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.vba](/cells/python-net/aspose.cells.vba/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.vba](../)

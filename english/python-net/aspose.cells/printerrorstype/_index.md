@@ -1,26 +1,30 @@
----
-title: PrintErrorsType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PrintErrorsType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4910
+weight: 2370
 url: /python-net/aspose.cells/printerrorstype/
+is_root: false
 ---
 
 ## PrintErrorsType enumeration
 
 Represents print errors constants.
 
-## Members
-| Member name | Description |
+
+
+The PrintErrorsType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|PRINT_ERRORS_BLANK|Represents not to print errors.|
-|PRINT_ERRORS_DASH|Represents to print errors as "--".|
-|PRINT_ERRORS_DISPLAYED|Represents to print errors as displayed.|
-|PRINT_ERRORS_NA|Represents to print errors as "#N/A".|
+| PRINT_ERRORS_BLANK | Represents not to print errors. |
+| PRINT_ERRORS_DASH | Represents to print errors as "--". |
+| PRINT_ERRORS_DISPLAYED | Represents to print errors as displayed. |
+| PRINT_ERRORS_NA | Represents to print errors as "#N/A". |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

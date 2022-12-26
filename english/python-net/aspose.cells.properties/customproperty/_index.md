@@ -1,30 +1,35 @@
----
-title: CustomProperty
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: CustomProperty class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 50
 url: /python-net/aspose.cells.properties/customproperty/
+is_root: false
 ---
 
 ## CustomProperty class
 
 Represents identifier information.
 
+
+
 The CustomProperty type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|CustomProperty()|Initializes a new instance of the CustomProperty class|
-## Properties
-| Name | Description |
+| [CustomProperty()](/cells/python-net/aspose.cells.properties/customproperty/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|name|Returns or sets the name of the object.|
-|string_value|Returns or sets the value of the custom property.|
-|value|Returns or sets the value of the custom property.|
+| [name](/cells/python-net/aspose.cells.properties/customproperty/name) | Returns or sets the name of the object. |
+| [string_value](/cells/python-net/aspose.cells.properties/customproperty/string_value) | Returns or sets the value of the custom property. |
+| [value](/cells/python-net/aspose.cells.properties/customproperty/value) | Returns or sets the value of the custom property. |
+
 
 ### See Also
 
-* namespace [aspose.cells.properties](/cells/python-net/aspose.cells.properties/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.properties](../)

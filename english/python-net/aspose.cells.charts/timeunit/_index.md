@@ -1,25 +1,29 @@
----
-title: TimeUnit
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TimeUnit enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 660
 url: /python-net/aspose.cells.charts/timeunit/
+is_root: false
 ---
 
 ## TimeUnit enumeration
 
 Represents the base unit for the category axis.
 
-## Members
-| Member name | Description |
+
+
+The TimeUnit type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|DAYS|Days|
-|MONTHS|Months|
-|YEARS|Years|
+| DAYS | Days |
+| MONTHS | Months |
+| YEARS | Years |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

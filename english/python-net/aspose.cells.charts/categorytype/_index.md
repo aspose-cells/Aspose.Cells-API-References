@@ -1,25 +1,29 @@
----
-title: CategoryType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: CategoryType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 400
 url: /python-net/aspose.cells.charts/categorytype/
+is_root: false
 ---
 
 ## CategoryType enumeration
 
 Represents the category axis type.
 
-## Members
-| Member name | Description |
+
+
+The CategoryType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC_SCALE|AutomaticScale|
-|CATEGORY_SCALE|CategoryScale|
-|TIME_SCALE|TimeScale|
+| AUTOMATIC_SCALE | AutomaticScale |
+| CATEGORY_SCALE | CategoryScale |
+| TIME_SCALE | TimeScale |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

@@ -1,25 +1,29 @@
----
-title: FontSourceType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: FontSourceType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4610
+weight: 2070
 url: /python-net/aspose.cells/fontsourcetype/
+is_root: false
 ---
 
 ## FontSourceType enumeration
 
 Specifies the type of a font source.
 
-## Members
-| Member name | Description |
+
+
+The FontSourceType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|FONT_FILE|represents single font file.|
-|FONTS_FOLDER|represents folder with font files.|
-|MEMORY_FONT|represents single font in memory.|
+| FONT_FILE | represents single font file. |
+| FONTS_FOLDER | represents folder with font files. |
+| MEMORY_FONT | represents single font in memory. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

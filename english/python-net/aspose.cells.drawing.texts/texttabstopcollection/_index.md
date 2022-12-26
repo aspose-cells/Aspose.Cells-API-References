@@ -1,40 +1,47 @@
----
-title: TextTabStopCollection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TextTabStopCollection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 130
 url: /python-net/aspose.cells.drawing.texts/texttabstopcollection/
+is_root: false
 ---
 
 ## TextTabStopCollection class
 
 Represents the list of all tab stops.
 
+
+
 The TextTabStopCollection type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|TextTabStopCollection()|Initializes a new instance of the TextTabStopCollection class|
-## Properties
-| Name | Description |
+| [TextTabStopCollection()](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|capacity|  |
-## Methods
-| Name | Description |
+| [capacity](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/capacity) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|copy_to(array)|  |
-|copy_to(index, array, array_index, count)|  |
-|index_of(item, index)|  |
-|index_of(item, index, count)|  |
-|last_index_of(item)|  |
-|last_index_of(item, index)|  |
-|last_index_of(item, index, count)|  |
-|add(tab_alignment, tab_position)|Adds a tab stop.|
-|binary_search(item)|  |
+| [copy_to(array)](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/copy_to/#list) |  |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/copy_to/#int-list-int-int) |  |
+| [index_of(item, index)](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/index_of/#TextTabStop-int) |  |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/index_of/#TextTabStop-int-int) |  |
+| [last_index_of(item)](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/last_index_of/#TextTabStop) |  |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/last_index_of/#TextTabStop-int) |  |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/last_index_of/#TextTabStop-int-int) |  |
+| [add(tab_alignment, tab_position)](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/add/#TextTabAlignmentType-float) | Adds a tab stop. |
+| [binary_search(item)](/cells/python-net/aspose.cells.drawing.texts/texttabstopcollection/binary_search/#TextTabStop) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing.texts](../)

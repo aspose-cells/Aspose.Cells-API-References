@@ -1,25 +1,29 @@
----
-title: FormattingType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: FormattingType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 520
 url: /python-net/aspose.cells.charts/formattingtype/
+is_root: false
 ---
 
 ## FormattingType enumeration
 
-Represents the type of formatting applied to an [Area](/cells/python-net/aspose.cells.drawing/area/) object or a [Line](/cells/python-net/aspose.cells.drawing/line/) object.
+Represents the type of formatting applied to an [Area](/cells/python-net/aspose.cells.drawing/area) object or a [Line](/cells/python-net/aspose.cells.drawing/line) object.
 
-## Members
-| Member name | Description |
+
+
+The FormattingType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC|Represents automatic formatting type.|
-|CUSTOM|Represents custom formatting type.|
-|NONE|Represents none formatting type.|
+| AUTOMATIC | Represents automatic formatting type. |
+| CUSTOM | Represents custom formatting type. |
+| NONE | Represents none formatting type. |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

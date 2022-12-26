@@ -1,25 +1,29 @@
----
-title: TextDirectionType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TextDirectionType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5080
+weight: 2540
 url: /python-net/aspose.cells/textdirectiontype/
+is_root: false
 ---
 
 ## TextDirectionType enumeration
 
 Represents the direction of the text flow for this paragraph.
 
-## Members
-| Member name | Description |
+
+
+The TextDirectionType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|CONTEXT||
-|LEFT_TO_RIGHT||
-|RIGHT_TO_LEFT||
+| CONTEXT |  |
+| LEFT_TO_RIGHT |  |
+| RIGHT_TO_LEFT |  |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

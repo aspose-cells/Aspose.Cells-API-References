@@ -1,25 +1,29 @@
----
-title: FontSchemeType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: FontSchemeType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4600
+weight: 2060
 url: /python-net/aspose.cells/fontschemetype/
+is_root: false
 ---
 
 ## FontSchemeType enumeration
 
 Represents the scheme type of the font.
 
-## Members
-| Member name | Description |
+
+
+The FontSchemeType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|None|
-|MAJOR|Major scheme.|
-|MINOR|Minor scheme.|
+| NONE | None |
+| MAJOR | Major scheme. |
+| MINOR | Minor scheme. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

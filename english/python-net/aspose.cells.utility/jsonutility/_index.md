@@ -1,29 +1,35 @@
----
-title: JsonUtility
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: JsonUtility class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 30
 url: /python-net/aspose.cells.utility/jsonutility/
+is_root: false
 ---
 
 ## JsonUtility class
 
 Represents the utility class of processing json.
 
+
+
 The JsonUtility type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|JsonUtility()|Initializes a new instance of the JsonUtility class|
-## Methods
-| Name | Description |
+| [JsonUtility()](/cells/python-net/aspose.cells.utility/jsonutility/__init__/#) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|import_data(json, cells, row, column, option)|Import the json string.|
-|export_range_to_json(range, options)|Exporting the range to json file.|
+| [export_range_to_json(range, options)](/cells/python-net/aspose.cells.utility/jsonutility/export_range_to_json/#Range-ExportRangeToJsonOptions) | Exporting the range to json file. |
+| [export_range_to_json(range, options)](/cells/python-net/aspose.cells.utility/jsonutility/export_range_to_json/#Range-JsonSaveOptions) | Exporting the range to json file. |
+| [import_data(json, cells, row, column, option)](/cells/python-net/aspose.cells.utility/jsonutility/import_data/#str-Cells-int-int-JsonLayoutOptions) | Import the json string. |
+
 
 ### See Also
 
-* namespace [aspose.cells.utility](/cells/python-net/aspose.cells.utility/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.utility](../)

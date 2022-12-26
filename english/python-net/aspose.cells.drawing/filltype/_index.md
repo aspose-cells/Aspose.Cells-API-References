@@ -1,29 +1,33 @@
----
-title: FillType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: FillType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1100
+weight: 830
 url: /python-net/aspose.cells.drawing/filltype/
+is_root: false
 ---
 
 ## FillType enumeration
 
 Fill format type.
 
-## Members
-| Member name | Description |
+
+
+The FillType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC|Represents automatic formatting type.|
-|NONE|Represents none formatting type.|
-|SOLID|Solid fill format.|
-|GRADIENT|Gradient fill format.|
-|TEXTURE|Texture fill format(includes picture fill).|
-|PATTERN|Pattern fill format.|
-|GROUP|Inherit the fill properties of the group.|
+| AUTOMATIC | Represents automatic formatting type. |
+| NONE | Represents none formatting type. |
+| SOLID | Solid fill format. |
+| GRADIENT | Gradient fill format. |
+| TEXTURE | Texture fill format(includes picture fill). |
+| PATTERN | Pattern fill format. |
+| GROUP | Inherit the fill properties of the group. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

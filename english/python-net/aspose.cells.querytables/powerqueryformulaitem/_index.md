@@ -1,25 +1,28 @@
----
-title: PowerQueryFormulaItem
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PowerQueryFormulaItem class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 50
 url: /python-net/aspose.cells.querytables/powerqueryformulaitem/
+is_root: false
 ---
 
 ## PowerQueryFormulaItem class
 
 Represents the item of the power query formula.
 
+
+
 The PowerQueryFormulaItem type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|name|Gets the name of the item.|
-|value|Gets the value of the item.|
+| [name](/cells/python-net/aspose.cells.querytables/powerqueryformulaitem/name) | Gets the name of the item. |
+| [value](/cells/python-net/aspose.cells.querytables/powerqueryformulaitem/value) | Gets the value of the item. |
+
 
 ### See Also
 
-* namespace [aspose.cells.querytables](/cells/python-net/aspose.cells.querytables/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.querytables](../)

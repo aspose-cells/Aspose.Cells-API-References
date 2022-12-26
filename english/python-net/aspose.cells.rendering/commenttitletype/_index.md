@@ -1,24 +1,28 @@
----
-title: CommentTitleType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: CommentTitleType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 160
+weight: 150
 url: /python-net/aspose.cells.rendering/commenttitletype/
+is_root: false
 ---
 
 ## CommentTitleType enumeration
 
 Represents comment title type while rendering when comment is set to display at end of sheet.
 
-## Members
-| Member name | Description |
+
+
+The CommentTitleType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|CELL|Represents comment title cell.|
-|COMMENT|Represents comment title comment.|
+| CELL | Represents comment title cell. |
+| COMMENT | Represents comment title comment. |
+
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.rendering](../)

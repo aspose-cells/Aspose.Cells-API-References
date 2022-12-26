@@ -1,29 +1,32 @@
----
-title: Scenario
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: Scenario class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 1330
 url: /python-net/aspose.cells/scenario/
+is_root: false
 ---
 
 ## Scenario class
 
 Represents an individual scenario.
 
+
+
 The Scenario type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|comment|Gets and sets the comment of scenario.|
-|name|Gets and sets the name of scenario.|
-|user|Gets name of user who last changed the scenario.|
-|is_hidden|Indicates whether scenario is hidden.|
-|is_locked|Indicates whether scenario is locked for editing when the sheet is protected.|
-|input_cells|Gets the input cells of scenario.|
+| [comment](/cells/python-net/aspose.cells/scenario/comment) | Gets and sets the comment of scenario. |
+| [name](/cells/python-net/aspose.cells/scenario/name) | Gets and sets the name of scenario. |
+| [user](/cells/python-net/aspose.cells/scenario/user) | Gets name of user who last changed the scenario. |
+| [is_hidden](/cells/python-net/aspose.cells/scenario/is_hidden) | Indicates whether scenario is hidden. |
+| [is_locked](/cells/python-net/aspose.cells/scenario/is_locked) | Indicates whether scenario is locked for editing when the sheet is protected. |
+| [input_cells](/cells/python-net/aspose.cells/scenario/input_cells) | Gets the input cells of scenario. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

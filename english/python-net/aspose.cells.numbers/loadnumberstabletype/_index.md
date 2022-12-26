@@ -1,25 +1,29 @@
----
-title: LoadNumbersTableType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: LoadNumbersTableType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 20
 url: /python-net/aspose.cells.numbers/loadnumberstabletype/
+is_root: false
 ---
 
 ## LoadNumbersTableType enumeration
 
 Indicates type of loading tables when some tables are in a sheet.
 
-## Members
-| Member name | Description |
+
+
+The LoadNumbersTableType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|ONE_TABLE_PER_SHEET||
-|OVERRIDE_OTHER_TABLES||
-|TILE_TABLES||
+| ONE_TABLE_PER_SHEET |  |
+| OVERRIDE_OTHER_TABLES |  |
+| TILE_TABLES |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.numbers](/cells/python-net/aspose.cells.numbers/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.numbers](../)

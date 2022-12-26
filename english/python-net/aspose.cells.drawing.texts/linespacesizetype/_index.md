@@ -1,24 +1,28 @@
----
-title: LineSpaceSizeType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: LineSpaceSizeType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 150
 url: /python-net/aspose.cells.drawing.texts/linespacesizetype/
+is_root: false
 ---
 
 ## LineSpaceSizeType enumeration
 
 Represents the unit type of line space size.
 
-## Members
-| Member name | Description |
+
+
+The LineSpaceSizeType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|PERCENTAGE|Represents in unit of a percentage of the text size.|
-|POINTS|Represents in unit of points.|
+| PERCENTAGE | Represents in unit of a percentage of the text size. |
+| POINTS | Represents in unit of points. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing.texts](../)

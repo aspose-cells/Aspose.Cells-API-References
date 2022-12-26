@@ -1,24 +1,28 @@
----
-title: PdfCustomPropertiesExport
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PdfCustomPropertiesExport enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 200
+weight: 190
 url: /python-net/aspose.cells.rendering/pdfcustompropertiesexport/
+is_root: false
 ---
 
 ## PdfCustomPropertiesExport enumeration
 
-Specifies the way [CustomDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/customdocumentpropertycollection/) are exported to PDF file.
+Specifies the way [CustomDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/customdocumentpropertycollection) are exported to PDF file.
 
-## Members
-| Member name | Description |
+
+
+The PdfCustomPropertiesExport type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|No custom properties are exported.|
-|STANDARD|Custom properties are exported as entries in Info dictionary.|
+| NONE | No custom properties are exported. |
+| STANDARD | Custom properties are exported as entries in Info dictionary. |
+
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.rendering](../)

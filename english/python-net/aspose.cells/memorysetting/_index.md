@@ -1,24 +1,28 @@
----
-title: MemorySetting
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: MemorySetting enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4770
+weight: 2230
 url: /python-net/aspose.cells/memorysetting/
+is_root: false
 ---
 
 ## MemorySetting enumeration
 
 Memory usage options.
 
-## Members
-| Member name | Description |
+
+
+The MemorySetting type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NORMAL|Default option for cells model.|
-|MEMORY_PREFERENCE|Memory performance preferrable.<br/>            With this option the data will be held in compact format so for common scenarios it may give lower memory cost.<br/>            However, this option also may degrade R/W performance a bit in some special cases.|
+| NORMAL | Default option for cells model. |
+| MEMORY_PREFERENCE | Memory performance preferrable.<br/>With this option the data will be held in compact format so for common scenarios it may give lower memory cost.<br/>However, this option also may degrade R/W performance a bit in some special cases. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

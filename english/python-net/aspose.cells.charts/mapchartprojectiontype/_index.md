@@ -1,26 +1,30 @@
----
-title: MapChartProjectionType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: MapChartProjectionType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 560
 url: /python-net/aspose.cells.charts/mapchartprojectiontype/
+is_root: false
 ---
 
 ## MapChartProjectionType enumeration
 
 Represents projection type of the map chart.
 
-## Members
-| Member name | Description |
+
+
+The MapChartProjectionType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC|Automatic|
-|MERCATOR|Mercator|
-|MILLER|Miller|
-|ALBERS|Albers|
+| AUTOMATIC | Automatic |
+| MERCATOR | Mercator |
+| MILLER | Miller |
+| ALBERS | Albers |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

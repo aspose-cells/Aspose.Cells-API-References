@@ -1,29 +1,33 @@
----
-title: WebExtensionStoreType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: WebExtensionStoreType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 110
 url: /python-net/aspose.cells.webextensions/webextensionstoretype/
+is_root: false
 ---
 
 ## WebExtensionStoreType enumeration
 
 Represents the store type of web extension.
 
-## Members
-| Member name | Description |
+
+
+The WebExtensionStoreType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|OMEX|Specifies that the store type is Office.com.|
-|SP_CATALOG|Specifies that the store type is SharePoint corporate catalog.|
-|SP_APP|Specifies that the store type is a SharePoint web application.|
-|EXCHANGE|Specifies that the store type is an Exchange server.|
-|FILE_SYSTEM|Specifies that the store type is a file system share.|
-|REGISTRY|Specifies that the store type is the system registry.|
-|EX_CATALOG|Specifies that the store type is Centralized Deployment via Exchange.|
+| OMEX | Specifies that the store type is Office.com. |
+| SP_CATALOG | Specifies that the store type is SharePoint corporate catalog. |
+| SP_APP | Specifies that the store type is a SharePoint web application. |
+| EXCHANGE | Specifies that the store type is an Exchange server. |
+| FILE_SYSTEM | Specifies that the store type is a file system share. |
+| REGISTRY | Specifies that the store type is the system registry. |
+| EX_CATALOG | Specifies that the store type is Centralized Deployment via Exchange. |
+
 
 ### See Also
 
-* namespace [aspose.cells.webextensions](/cells/python-net/aspose.cells.webextensions/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.webextensions](../)

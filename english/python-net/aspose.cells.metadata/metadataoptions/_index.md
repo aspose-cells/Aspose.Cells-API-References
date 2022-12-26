@@ -1,30 +1,35 @@
----
-title: MetadataOptions
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: MetadataOptions class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 10
 url: /python-net/aspose.cells.metadata/metadataoptions/
+is_root: false
 ---
 
 ## MetadataOptions class
 
 Represents the options of loading metadata of the file.
 
+
+
 The MetadataOptions type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|MetadataOptions(metadata_type)|Initializes a new instance of the MetadataOptions class|
-## Properties
-| Name | Description |
+| [MetadataOptions(metadata_type)](/cells/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Creates an options of loading the metadata. |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|metadata_type|Gets and sets the type of the metadata which is loading.|
-|password|Represents Workbook file encryption password.|
-|key_length|The key length.|
+| [metadata_type](/cells/python-net/aspose.cells.metadata/metadataoptions/metadata_type) | Gets and sets the type of the metadata which is loading. |
+| [password](/cells/python-net/aspose.cells.metadata/metadataoptions/password) | Represents Workbook file encryption password. |
+| [key_length](/cells/python-net/aspose.cells.metadata/metadataoptions/key_length) | The key length. |
+
 
 ### See Also
 
-* namespace [aspose.cells.metadata](/cells/python-net/aspose.cells.metadata/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.metadata](../)

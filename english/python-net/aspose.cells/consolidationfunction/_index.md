@@ -1,34 +1,38 @@
----
-title: ConsolidationFunction
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ConsolidationFunction enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4400
+weight: 1860
 url: /python-net/aspose.cells/consolidationfunction/
+is_root: false
 ---
 
 ## ConsolidationFunction enumeration
 
 Represents consolidation function.
 
-## Members
-| Member name | Description |
+
+
+The ConsolidationFunction type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|SUM|Represents Sum function.|
-|COUNT|Represents Count function.|
-|AVERAGE|Represents Average function.|
-|MAX|Represents Max function.|
-|MIN|Represents Min function.|
-|PRODUCT|Represents Product function.|
-|COUNT_NUMS|Represents Count Nums function.|
-|STD_DEV|Represents StdDev function.|
-|STD_DEVP|Represents StdDevp function.|
-|VAR|Represents Var function.|
-|VARP|Represents Varp function.|
-|DISTINCT_COUNT|Represents Distinct Count function.|
+| SUM | Represents Sum function. |
+| COUNT | Represents Count function. |
+| AVERAGE | Represents Average function. |
+| MAX | Represents Max function. |
+| MIN | Represents Min function. |
+| PRODUCT | Represents Product function. |
+| COUNT_NUMS | Represents Count Nums function. |
+| STD_DEV | Represents StdDev function. |
+| STD_DEVP | Represents StdDevp function. |
+| VAR | Represents Var function. |
+| VARP | Represents Varp function. |
+| DISTINCT_COUNT | Represents Distinct Count function. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

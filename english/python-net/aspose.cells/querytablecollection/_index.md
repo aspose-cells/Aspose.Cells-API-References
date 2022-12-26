@@ -1,35 +1,40 @@
----
-title: QueryTableCollection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: QueryTableCollection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 1240
 url: /python-net/aspose.cells/querytablecollection/
+is_root: false
 ---
 
 ## QueryTableCollection class
 
-A collection of [QueryTableCollection](/cells/python-net/aspose.cells/querytablecollection/) objects that represent QueryTable collection information.
+A collection of [QueryTableCollection](/cells/python-net/aspose.cells/querytablecollection) objects that represent QueryTable collection information.
+
+
 
 The QueryTableCollection type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|capacity|  |
-## Methods
-| Name | Description |
+| [capacity](/cells/python-net/aspose.cells/querytablecollection/capacity) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|copy_to(array)|  |
-|copy_to(index, array, array_index, count)|  |
-|index_of(item, index)|  |
-|index_of(item, index, count)|  |
-|last_index_of(item)|  |
-|last_index_of(item, index)|  |
-|last_index_of(item, index, count)|  |
-|binary_search(item)|  |
+| [copy_to(array)](/cells/python-net/aspose.cells/querytablecollection/copy_to/#list) |  |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells/querytablecollection/copy_to/#int-list-int-int) |  |
+| [index_of(item, index)](/cells/python-net/aspose.cells/querytablecollection/index_of/#QueryTable-int) |  |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells/querytablecollection/index_of/#QueryTable-int-int) |  |
+| [last_index_of(item)](/cells/python-net/aspose.cells/querytablecollection/last_index_of/#QueryTable) |  |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells/querytablecollection/last_index_of/#QueryTable-int) |  |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells/querytablecollection/last_index_of/#QueryTable-int-int) |  |
+| [binary_search(item)](/cells/python-net/aspose.cells/querytablecollection/binary_search/#QueryTable) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

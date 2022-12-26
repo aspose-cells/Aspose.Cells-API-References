@@ -1,26 +1,30 @@
----
-title: TickMarkType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TickMarkType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 650
 url: /python-net/aspose.cells.charts/tickmarktype/
+is_root: false
 ---
 
 ## TickMarkType enumeration
 
 Represents the tick mark type for the specified axis.
 
-## Members
-| Member name | Description |
+
+
+The TickMarkType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|CROSS|Tick mark type is Cross.|
-|INSIDE|Tick mark type is Inside.|
-|NONE|Tick mark type is None.|
-|OUTSIDE|Tick mark type is Outside|
+| CROSS | Tick mark type is Cross. |
+| INSIDE | Tick mark type is Inside. |
+| NONE | Tick mark type is None. |
+| OUTSIDE | Tick mark type is Outside |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

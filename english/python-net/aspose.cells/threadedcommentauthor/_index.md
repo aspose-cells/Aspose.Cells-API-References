@@ -1,26 +1,29 @@
----
-title: ThreadedCommentAuthor
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ThreadedCommentAuthor class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 1450
 url: /python-net/aspose.cells/threadedcommentauthor/
+is_root: false
 ---
 
 ## ThreadedCommentAuthor class
 
 Represents the person who creates the threaded comments;
 
+
+
 The ThreadedCommentAuthor type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|name|Gets and sets the name.|
-|user_id|Gets and sets the id of the user.|
-|provider_id|Gets the id of the provider.|
+| [name](/cells/python-net/aspose.cells/threadedcommentauthor/name) | Gets and sets the name. |
+| [user_id](/cells/python-net/aspose.cells/threadedcommentauthor/user_id) | Gets and sets the id of the user. |
+| [provider_id](/cells/python-net/aspose.cells/threadedcommentauthor/provider_id) | Gets the id of the provider. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

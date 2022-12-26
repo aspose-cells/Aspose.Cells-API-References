@@ -1,26 +1,30 @@
----
-title: MapChartRegionType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: MapChartRegionType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 570
 url: /python-net/aspose.cells.charts/mapchartregiontype/
+is_root: false
 ---
 
 ## MapChartRegionType enumeration
 
 Represents the region type of the map chart.
 
-## Members
-| Member name | Description |
+
+
+The MapChartRegionType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC|Automatic|
-|DATA_ONLY|Only Data.|
-|COUNTRY_REGION_LIST|Country region list.|
-|WORLD|World.|
+| AUTOMATIC | Automatic |
+| DATA_ONLY | Only Data. |
+| COUNTRY_REGION_LIST | Country region list. |
+| WORLD | World. |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

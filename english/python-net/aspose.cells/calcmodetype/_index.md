@@ -1,25 +1,33 @@
----
-title: CalcModeType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: CalcModeType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4340
+weight: 1800
 url: /python-net/aspose.cells/calcmodetype/
+is_root: false
 ---
 
 ## CalcModeType enumeration
 
 Represents the mode type of calculating formulas.
 
-## Members
-| Member name | Description |
-| :- | :- |
-|AUTOMATIC||
-|AUTOMATIC_EXCEPT_TABLE||
-|MANUAL||
 
+
+The CalcModeType type exposes the following members:
+
+### Fields
+| Field | Description |
+| :- | :- |
+| AUTOMATIC |  |
+| AUTOMATIC_EXCEPT_TABLE |  |
+| MANUAL |  |
+
+
+### Remarks 
+
+
+Only sets for MS Excel.
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

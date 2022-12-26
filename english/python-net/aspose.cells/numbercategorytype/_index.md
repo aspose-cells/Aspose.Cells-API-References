@@ -1,29 +1,33 @@
----
-title: NumberCategoryType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: NumberCategoryType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4790
+weight: 2250
 url: /python-net/aspose.cells/numbercategorytype/
+is_root: false
 ---
 
 ## NumberCategoryType enumeration
 
 Represents category type of cell's number formatting.
 
-## Members
-| Member name | Description |
+
+
+The NumberCategoryType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|GENERAL|General|
-|TEXT|Text|
-|NUMBER|Number|
-|DATE|Date or Date and Time|
-|TIME|Time|
-|FRACTION|Fraction|
-|SCIENTIFIC|Scientific|
+| GENERAL | General |
+| TEXT | Text |
+| NUMBER | Number |
+| DATE | Date or Date and Time |
+| TIME | Time |
+| FRACTION | Fraction |
+| SCIENTIFIC | Scientific |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

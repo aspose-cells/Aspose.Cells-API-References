@@ -1,25 +1,28 @@
----
-title: ShapePathPoint
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ShapePathPoint class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 590
 url: /python-net/aspose.cells.drawing/shapepathpoint/
+is_root: false
 ---
 
 ## ShapePathPoint class
 
 Represents an x-y coordinate within the path coordinate space.
 
+
+
 The ShapePathPoint type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|x|Gets and sets x coordinate for this position coordinate.|
-|y|Gets y coordinate for this position coordinate.|
+| [x](/cells/python-net/aspose.cells.drawing/shapepathpoint/x) | Gets and sets x coordinate for this position coordinate. |
+| [y](/cells/python-net/aspose.cells.drawing/shapepathpoint/y) | Gets y coordinate for this position coordinate. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

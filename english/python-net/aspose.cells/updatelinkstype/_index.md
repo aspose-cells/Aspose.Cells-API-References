@@ -1,25 +1,29 @@
----
-title: UpdateLinksType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: UpdateLinksType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5150
+weight: 2610
 url: /python-net/aspose.cells/updatelinkstype/
+is_root: false
 ---
 
 ## UpdateLinksType enumeration
 
 Represents how to update links to other workbooks when the workbook is opened.
 
-## Members
-| Member name | Description |
+
+
+The UpdateLinksType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|USER_SET|Prompt user to update.|
-|NEVER|Do not update, and do not prompt user.|
-|ALWAYS|Always update.|
+| USER_SET | Prompt user to update. |
+| NEVER | Do not update, and do not prompt user. |
+| ALWAYS | Always update. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

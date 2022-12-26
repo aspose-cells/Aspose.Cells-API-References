@@ -1,28 +1,33 @@
----
-title: TableToRangeOptions
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TableToRangeOptions class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 90
 url: /python-net/aspose.cells.tables/tabletorangeoptions/
+is_root: false
 ---
 
 ## TableToRangeOptions class
 
 Represents the options when converting table to range.
 
+
+
 The TableToRangeOptions type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|TableToRangeOptions()|Initializes a new instance of the TableToRangeOptions class|
-## Properties
-| Name | Description |
+| [TableToRangeOptions()](/cells/python-net/aspose.cells.tables/tabletorangeoptions/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|last_row|Gets and sets the last row index of the table.|
+| [last_row](/cells/python-net/aspose.cells.tables/tabletorangeoptions/last_row) | Gets and sets the last row index of the table. |
+
 
 ### See Also
 
-* namespace [aspose.cells.tables](/cells/python-net/aspose.cells.tables/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.tables](../)

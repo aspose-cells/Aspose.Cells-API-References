@@ -1,25 +1,29 @@
----
-title: TextStrikeType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TextStrikeType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5100
+weight: 2560
 url: /python-net/aspose.cells/textstriketype/
+is_root: false
 ---
 
 ## TextStrikeType enumeration
 
 This type specifies the strike type.
 
-## Members
-| Member name | Description |
+
+
+The TextStrikeType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|SINGLE|A single strikethrough applied on the text.|
-|DOUBLE|A double strikethrough applied on the text.|
-|NONE|No strike is applied to the text.|
+| SINGLE | A single strikethrough applied on the text. |
+| DOUBLE | A double strikethrough applied on the text. |
+| NONE | No strike is applied to the text. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

@@ -1,25 +1,28 @@
----
-title: TextTabStop
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TextTabStop class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 120
 url: /python-net/aspose.cells.drawing.texts/texttabstop/
+is_root: false
 ---
 
 ## TextTabStop class
 
 Represents tab stop.
 
+
+
 The TextTabStop type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|tab_alignment|Specifies the alignment that is to be applied to text using this tab stop.|
-|tab_position|Specifies the position of the tab stop relative to the left margin.|
+| [tab_alignment](/cells/python-net/aspose.cells.drawing.texts/texttabstop/tab_alignment) | Specifies the alignment that is to be applied to text using this tab stop. |
+| [tab_position](/cells/python-net/aspose.cells.drawing.texts/texttabstop/tab_position) | Specifies the position of the tab stop relative to the left margin. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing.texts](../)

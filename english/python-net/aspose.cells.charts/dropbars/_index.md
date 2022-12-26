@@ -1,25 +1,28 @@
----
-title: DropBars
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: DropBars class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 140
 url: /python-net/aspose.cells.charts/dropbars/
+is_root: false
 ---
 
 ## DropBars class
 
 Represents the up/down bars in a chart.
 
+
+
 The DropBars type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|border|Gets the border [Line](/cells/python-net/aspose.cells.drawing/line/).|
-|area|Gets the [area](/cells/python-net/aspose.cells.charts/dropbars/).|
+| [border](/cells/python-net/aspose.cells.charts/dropbars/border) | Gets the border [Line](/cells/python-net/aspose.cells.drawing/line). |
+| [area](/cells/python-net/aspose.cells.charts/dropbars/area) | Gets the [DropBars.area](/cells/python-net/aspose.cells.charts/dropbars#area). |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

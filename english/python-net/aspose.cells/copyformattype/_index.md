@@ -1,25 +1,29 @@
----
-title: CopyFormatType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: CopyFormatType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4410
+weight: 1870
 url: /python-net/aspose.cells/copyformattype/
+is_root: false
 ---
 
 ## CopyFormatType enumeration
 
 Represents type of copying format when inserting rows.
 
-## Members
-| Member name | Description |
+
+
+The CopyFormatType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|SAME_AS_ABOVE|Formats same as above row.|
-|SAME_AS_BELOW|Formats same as below row.|
-|CLEAR|Clears formatting.|
+| SAME_AS_ABOVE | Formats same as above row. |
+| SAME_AS_BELOW | Formats same as below row. |
+| CLEAR | Clears formatting. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

@@ -1,26 +1,30 @@
----
-title: SortOnType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: SortOnType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5010
+weight: 2470
 url: /python-net/aspose.cells/sortontype/
+is_root: false
 ---
 
 ## SortOnType enumeration
 
 Sorted value type.
 
-## Members
-| Member name | Description |
+
+
+The SortOnType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|VALUE|Sorts by cells' value.|
-|CELL_COLOR|Sorts by cells' color.|
-|FONT_COLOR|Sorts by cells' font color.|
-|ICON|Sorts by conditional icon.|
+| VALUE | Sorts by cells' value. |
+| CELL_COLOR | Sorts by cells' color. |
+| FONT_COLOR | Sorts by cells' font color. |
+| ICON | Sorts by conditional icon. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

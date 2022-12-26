@@ -1,26 +1,30 @@
----
-title: PdfCompressionCore
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PdfCompressionCore enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 190
+weight: 180
 url: /python-net/aspose.cells.rendering/pdfcompressioncore/
+is_root: false
 ---
 
 ## PdfCompressionCore enumeration
 
 Specifies a type of compression applied to all content in the PDF file except images.
 
-## Members
-| Member name | Description |
+
+
+The PdfCompressionCore type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|None|
-|RLE|Rle|
-|LZW|Lzw|
-|FLATE|Flate|
+| NONE | None |
+| RLE | Rle |
+| LZW | Lzw |
+| FLATE | Flate |
+
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.rendering](../)

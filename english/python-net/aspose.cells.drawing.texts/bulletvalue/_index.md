@@ -1,24 +1,27 @@
----
-title: BulletValue
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: BulletValue class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 30
 url: /python-net/aspose.cells.drawing.texts/bulletvalue/
+is_root: false
 ---
 
 ## BulletValue class
 
 Represents the value of the bullet.
 
+
+
 The BulletValue type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|type|Gets the type of the bullet's value.|
+| [type](/cells/python-net/aspose.cells.drawing.texts/bulletvalue/type) | Gets the type of the bullet's value. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing.texts](../)

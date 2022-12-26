@@ -1,32 +1,36 @@
----
-title: LabelPositionType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: LabelPositionType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 530
 url: /python-net/aspose.cells.charts/labelpositiontype/
+is_root: false
 ---
 
 ## LabelPositionType enumeration
 
 Represents data label position type.
 
-## Members
-| Member name | Description |
+
+
+The LabelPositionType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|CENTER|Applies only to bar, 2d/3d pie charts|
-|INSIDE_BASE|Applies only to bar, 2d/3d pie charts|
-|INSIDE_END|Applies only to bar charts|
-|OUTSIDE_END|Applies only to bar, 2d/3d pie charts|
-|ABOVE|Applies only to line charts|
-|BELOW|Applies only to line charts|
-|LEFT|Applies only to line charts|
-|RIGHT|Applies only to line charts|
-|BEST_FIT|Applies only to 2d/3d pie charts|
-|MOVED|User moved the data labels, Only for reading chart from template file.|
+| CENTER | Applies only to bar, 2d/3d pie charts |
+| INSIDE_BASE | Applies only to bar, 2d/3d pie charts |
+| INSIDE_END | Applies only to bar charts |
+| OUTSIDE_END | Applies only to bar, 2d/3d pie charts |
+| ABOVE | Applies only to line charts |
+| BELOW | Applies only to line charts |
+| LEFT | Applies only to line charts |
+| RIGHT | Applies only to line charts |
+| BEST_FIT | Applies only to 2d/3d pie charts |
+| MOVED | User moved the data labels, Only for reading chart from template file. |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

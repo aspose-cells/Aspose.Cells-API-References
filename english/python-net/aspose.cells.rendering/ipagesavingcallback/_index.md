@@ -1,25 +1,28 @@
----
-title: IPageSavingCallback
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: IPageSavingCallback class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 30
 url: /python-net/aspose.cells.rendering/ipagesavingcallback/
+is_root: false
 ---
 
 ## IPageSavingCallback class
 
 Control/Indicate progress of page saving process.
 
+
+
 The IPageSavingCallback type exposes the following members:
-## Methods
-| Name | Description |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|page_start_saving(args)|Control/Indicate a page starts to be output.|
-|page_end_saving(args)|Control/Indicate a page ends to be output.|
+| [page_start_saving(args)](/cells/python-net/aspose.cells.rendering/ipagesavingcallback/page_start_saving/#PageStartSavingArgs) | Control/Indicate a page starts to be output. |
+| [page_end_saving(args)](/cells/python-net/aspose.cells.rendering/ipagesavingcallback/page_end_saving/#PageEndSavingArgs) | Control/Indicate a page ends to be output. |
+
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.rendering](../)

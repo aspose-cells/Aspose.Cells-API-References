@@ -1,25 +1,29 @@
----
-title: ParameterType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ParameterType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4870
+weight: 2330
 url: /python-net/aspose.cells/parametertype/
+is_root: false
 ---
 
 ## ParameterType enumeration
 
 Represents all parameters' type or return value type of function.
 
-## Members
-| Member name | Description |
+
+
+The ParameterType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|REFERENCE||
-|VALUE||
-|ARRAY||
+| REFERENCE |  |
+| VALUE |  |
+| ARRAY |  |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

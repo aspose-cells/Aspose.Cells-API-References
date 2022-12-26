@@ -1,26 +1,30 @@
----
-title: MirrorType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: MirrorType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1230
+weight: 960
 url: /python-net/aspose.cells.drawing/mirrortype/
+is_root: false
 ---
 
 ## MirrorType enumeration
 
 Represents mirror type of texture fill
 
-## Members
-| Member name | Description |
+
+
+The MirrorType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|None|
-|HORIZONAL|Horizonal|
-|VERTICAL|Vertical|
-|BOTH|Both|
+| NONE | None |
+| HORIZONAL | Horizonal |
+| VERTICAL | Vertical |
+| BOTH | Both |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)
