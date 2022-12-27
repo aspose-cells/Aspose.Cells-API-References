@@ -3,6 +3,7 @@ title: GetInstance
 second_title: Aspose.Cells for .NET API Reference
 description: Creates ICellsDataTable from given sequence of int values.
 type: docs
+weight: 10
 url: /net/aspose.cells/cellsdatatablefactory/getinstance/
 ---
 ## GetInstance(int[], string[]) {#getinstance_5}

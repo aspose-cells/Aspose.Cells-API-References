@@ -3,6 +3,7 @@ title: OutputBlankPageWhenNothingToPrint
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to output a blank page when there is nothing to print.
 type: docs
+weight: 200
 url: /net/aspose.cells.rendering/imageorprintoptions/outputblankpagewhennothingtoprint/
 ---
 ## ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint property

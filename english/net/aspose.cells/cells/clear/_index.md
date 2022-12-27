@@ -3,6 +3,7 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clears all cell and row objects.
 type: docs
+weight: 390
 url: /net/aspose.cells/cells/clear/
 ---
 ## Cells.Clear method

@@ -3,6 +3,7 @@ title: Size
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the size of the shadow. Range from 0 to 2.0. Meaningless in inner shadow.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing/shadoweffect/size/
 ---
 ## ShadowEffect.Size property

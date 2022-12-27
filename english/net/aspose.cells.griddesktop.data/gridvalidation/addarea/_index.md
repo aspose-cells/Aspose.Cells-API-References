@@ -3,6 +3,7 @@ title: AddArea
 second_title: Aspose.Cells for .NET API Reference
 description: Applies the validation to the area.
 type: docs
+weight: 220
 url: /net/aspose.cells.griddesktop.data/gridvalidation/addarea/
 ---
 ## GridValidation.AddArea method

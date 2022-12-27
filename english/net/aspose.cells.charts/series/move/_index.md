@@ -3,6 +3,7 @@ title: Move
 second_title: Aspose.Cells for .NET API Reference
 description: Moves the series up or down.
 type: docs
+weight: 520
 url: /net/aspose.cells.charts/series/move/
 ---
 ## Series.Move method

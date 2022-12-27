@@ -3,6 +3,7 @@ title: ThreeDFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets 3d format of the shape.
 type: docs
+weight: 800
 url: /net/aspose.cells.drawing/shape/threedformat/
 ---
 ## Shape.ThreeDFormat property

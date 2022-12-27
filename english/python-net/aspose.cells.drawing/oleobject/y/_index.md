@@ -1,0 +1,18 @@
+﻿---
+title: y property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 1410
+url: /python-net/aspose.cells.drawing/oleobject/y/
+is_root: false
+---
+
+## y property
+
+
+Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels.
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [OleObject](/cells/python-net/aspose.cells.drawing/oleobject)

@@ -3,6 +3,7 @@ title: CellRangeEventHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the method that intend to handle cellrange events.
 type: docs
+weight: 210
 url: /net/aspose.cells.griddesktop/cellrangeeventhandler/
 ---
 ## CellRangeEventHandler delegate

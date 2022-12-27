@@ -3,6 +3,7 @@ title: XValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the X value of the chart point.
 type: docs
+weight: 300
 url: /net/aspose.cells.charts/chartpoint/xvalue/
 ---
 ## ChartPoint.XValue property

@@ -1,27 +1,31 @@
----
-title: ColorType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ColorType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4390
+weight: 1850
 url: /python-net/aspose.cells/colortype/
+is_root: false
 ---
 
 ## ColorType enumeration
 
 Represents all color type
 
-## Members
-| Member name | Description |
+
+
+The ColorType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC|Automatic color.|
-|AUTOMATIC_INDEX|It's automatic color,but the displayed color depends the setting of the OS System.|
-|RGB|The RGB color.|
-|INDEXED_COLOR|The color index in the color palette.|
-|THEME|The theme color.|
+| AUTOMATIC | Automatic color. |
+| AUTOMATIC_INDEX | It's automatic color,but the displayed color depends the setting of the OS System. |
+| RGB | The RGB color. |
+| INDEXED_COLOR | The color index in the color palette. |
+| THEME | The theme color. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

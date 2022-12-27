@@ -1,37 +1,42 @@
----
-title: CustomXmlPartCollection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: CustomXmlPartCollection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 20
 url: /python-net/aspose.cells.markup/customxmlpartcollection/
+is_root: false
 ---
 
 ## CustomXmlPartCollection class
 
 Represents a Custom XML Data Storage Part (custom XML data within a package).
 
+
+
 The CustomXmlPartCollection type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|capacity|  |
-## Methods
-| Name | Description |
+| [capacity](/cells/python-net/aspose.cells.markup/customxmlpartcollection/capacity) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|copy_to(array)|  |
-|copy_to(index, array, array_index, count)|  |
-|index_of(item, index)|  |
-|index_of(item, index, count)|  |
-|last_index_of(item)|  |
-|last_index_of(item, index)|  |
-|last_index_of(item, index, count)|  |
-|add(data, shema_data)|Adds an item to the collection.|
-|select_by_id(id)|Gets an item by id.|
-|binary_search(item)|  |
+| [copy_to(array)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/copy_to/#list) |  |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/copy_to/#int-list-int-int) |  |
+| [index_of(item, index)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/index_of/#CustomXmlPart-int) |  |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/index_of/#CustomXmlPart-int-int) |  |
+| [last_index_of(item)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/last_index_of/#CustomXmlPart) |  |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/last_index_of/#CustomXmlPart-int) |  |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/last_index_of/#CustomXmlPart-int-int) |  |
+| [add(data, shema_data)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/add/#bytes-bytes) |  |
+| [select_by_id(id)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/select_by_id/#str) | Gets an item by id. |
+| [binary_search(item)](/cells/python-net/aspose.cells.markup/customxmlpartcollection/binary_search/#CustomXmlPart) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.markup](/cells/python-net/aspose.cells.markup/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.markup](../)

@@ -3,6 +3,7 @@ title: Font
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a Fontaspose.cells.charts/chartarea/font object of the specified chartarea object.
 type: docs
+weight: 10
 url: /net/aspose.cells.charts/chartarea/font/
 ---
 ## ChartArea.Font property

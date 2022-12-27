@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Name element at the specified index.
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop.data/gridnamecollection/item/
 ---
 ## GridNameCollection indexer

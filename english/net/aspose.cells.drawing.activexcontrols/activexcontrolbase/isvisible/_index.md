@@ -3,6 +3,7 @@ title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this control is visible.
 type: docs
+weight: 50
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible/
 ---
 ## ActiveXControlBase.IsVisible property

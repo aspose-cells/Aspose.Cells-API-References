@@ -3,6 +3,7 @@ title: MarkersColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the color of points in each line sparkline in the sparkline group.
 type: docs
+weight: 90
 url: /net/aspose.cells.charts/sparklinegroup/markerscolor/
 ---
 ## SparklineGroup.MarkersColor property

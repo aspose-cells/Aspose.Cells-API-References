@@ -3,6 +3,7 @@ title: PivotFields
 second_title: Aspose.Cells for .NET API Reference
 description: Repesents all fields in PivotTable report.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/pivottable/pivotfields/
 ---
 ## PivotTable.PivotFields property

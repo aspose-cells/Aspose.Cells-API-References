@@ -3,6 +3,7 @@ title: SaveToExcelFile
 second_title: Aspose.Cells for .NET API Reference
 description: Saves the worksheets to the sreambaseed on the origin file format .
 type: docs
+weight: 140
 url: /net/aspose.cells.gridjs/gridjsworkbook/savetoexcelfile/
 ---
 ## SaveToExcelFile(Stream) {#savetoexcelfile}

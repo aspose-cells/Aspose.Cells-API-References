@@ -3,6 +3,7 @@ title: IsMultipleItemSelectionAllowed
 second_title: Aspose.Cells for .NET API Reference
 description: indicates whether the field can have multiple items selected in the page field The default value is false.
 type: docs
+weight: 260
 url: /net/aspose.cells.pivot/pivotfield/ismultipleitemselectionallowed/
 ---
 ## PivotField.IsMultipleItemSelectionAllowed property

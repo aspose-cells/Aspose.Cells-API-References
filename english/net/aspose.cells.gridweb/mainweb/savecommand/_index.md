@@ -3,6 +3,7 @@ title: SaveCommand
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the save button is clicked.
 type: docs
+weight: 1310
 url: /net/aspose.cells.gridweb/mainweb/savecommand/
 ---
 ## MainWeb.SaveCommand event

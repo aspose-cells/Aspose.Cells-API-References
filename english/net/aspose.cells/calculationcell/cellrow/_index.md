@@ -3,6 +3,7 @@ title: CellRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the row index of the cell.
 type: docs
+weight: 30
 url: /net/aspose.cells/calculationcell/cellrow/
 ---
 ## CalculationCell.CellRow property

@@ -3,6 +3,7 @@ title: CopyOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the copy options.
 type: docs
+weight: 1200
 url: /net/aspose.cells/copyoptions/
 ---
 ## CopyOptions class

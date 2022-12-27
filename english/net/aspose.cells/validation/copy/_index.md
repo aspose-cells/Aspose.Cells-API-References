@@ -3,6 +3,7 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copy validation.
 type: docs
+weight: 190
 url: /net/aspose.cells/validation/copy/
 ---
 ## Validation.Copy method

@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets an element of the table style by the index.
 type: docs
+weight: 10
 url: /net/aspose.cells.tables/tablestyleelementcollection/item/
 ---
 ## TableStyleElementCollection indexer (1 of 2)

@@ -1,27 +1,30 @@
----
-title: TickLabelItem
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TickLabelItem class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 300
 url: /python-net/aspose.cells.charts/ticklabelitem/
+is_root: false
 ---
 
 ## TickLabelItem class
 
 Include information of a Ticklabel item
 
+
+
 The TickLabelItem type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|x|X coordinates of Ticklabel item in ratio of chart width.|
-|y|Y coordinates of Ticklabel item in ratio of chart height.|
-|width|Width of Ticklabel item in ratio of chart width.|
-|height|Height of Ticklabel item in ratio of chart height.|
+| [x](/cells/python-net/aspose.cells.charts/ticklabelitem/x) | X coordinates of Ticklabel item in ratio of chart width. |
+| [y](/cells/python-net/aspose.cells.charts/ticklabelitem/y) | Y coordinates of Ticklabel item in ratio of chart height. |
+| [width](/cells/python-net/aspose.cells.charts/ticklabelitem/width) | Width of Ticklabel item in ratio of chart width. |
+| [height](/cells/python-net/aspose.cells.charts/ticklabelitem/height) | Height of Ticklabel item in ratio of chart height. |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

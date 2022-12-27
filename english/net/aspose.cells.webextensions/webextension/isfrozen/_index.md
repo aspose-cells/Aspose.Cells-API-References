@@ -1,8 +1,9 @@
 ---
 title: IsFrozen
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether the user can interact with the Office Addin or not.
+description: Indicates whether the user can interact with the Office Add-in or not.
 type: docs
+weight: 40
 url: /net/aspose.cells.webextensions/webextension/isfrozen/
 ---
 ## WebExtension.IsFrozen property

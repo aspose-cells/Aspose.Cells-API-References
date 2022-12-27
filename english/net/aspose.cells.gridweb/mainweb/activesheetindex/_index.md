@@ -3,6 +3,7 @@ title: ActiveSheetIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the active sheet index. Equal to the WebWorksheets.ActiveSheetIndex.
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb/mainweb/activesheetindex/
 ---
 ## MainWeb.ActiveSheetIndex property

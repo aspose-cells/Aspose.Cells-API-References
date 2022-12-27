@@ -3,6 +3,7 @@ title: TickMarkSpacing
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the number of categories or series between tick marks. Applies only to category and series axes.
 type: docs
+weight: 370
 url: /net/aspose.cells.charts/axis/tickmarkspacing/
 ---
 ## Axis.TickMarkSpacing property

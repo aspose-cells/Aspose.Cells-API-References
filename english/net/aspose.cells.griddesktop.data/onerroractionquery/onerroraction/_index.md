@@ -3,6 +3,7 @@ title: OnErrorAction
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or set the action type.
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop.data/onerroractionquery/onerroraction/
 ---
 ## OnErrorActionQuery.OnErrorAction property

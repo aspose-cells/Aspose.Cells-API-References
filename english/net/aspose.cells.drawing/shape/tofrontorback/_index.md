@@ -3,6 +3,7 @@ title: ToFrontOrBack
 second_title: Aspose.Cells for .NET API Reference
 description: Brings the shape to the front or sends the shape to back.
 type: docs
+weight: 1200
 url: /net/aspose.cells.drawing/shape/tofrontorback/
 ---
 ## Shape.ToFrontOrBack method

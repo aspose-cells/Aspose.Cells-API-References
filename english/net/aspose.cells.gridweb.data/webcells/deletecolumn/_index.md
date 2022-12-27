@@ -3,6 +3,7 @@ title: DeleteColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes a column.
 type: docs
+weight: 120
 url: /net/aspose.cells.gridweb.data/webcells/deletecolumn/
 ---
 ## WebCells.DeleteColumn method

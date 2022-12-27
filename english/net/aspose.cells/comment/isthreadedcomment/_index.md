@@ -3,6 +3,7 @@ title: IsThreadedComment
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this comment is a threaded comment.
 type: docs
+weight: 100
 url: /net/aspose.cells/comment/isthreadedcomment/
 ---
 ## Comment.IsThreadedComment property

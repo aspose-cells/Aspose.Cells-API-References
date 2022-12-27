@@ -3,6 +3,7 @@ title: IsArrayFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the cell formula is an array formula.
 type: docs
+weight: 130
 url: /net/aspose.cells/cell/isarrayformula/
 ---
 ## Cell.IsArrayFormula property

@@ -3,6 +3,7 @@ title: VmlShapeGuide
 second_title: Aspose.Cells for .NET API Reference
 description: just for vml Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape
 type: docs
+weight: 3110
 url: /net/aspose.cells.drawing/vmlshapeguide/
 ---
 ## VmlShapeGuide class

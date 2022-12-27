@@ -3,6 +3,7 @@ title: AddIdentify
 second_title: Aspose.Cells for .NET API Reference
 description: Sets which item label in each page field to use to identify the data range. The pageItemIndex.Length must be equal to PageFieldCount so please add the page field first.
 type: docs
+weight: 30
 url: /net/aspose.cells.pivot/pivotpagefields/addidentify/
 ---
 ## PivotPageFields.AddIdentify method

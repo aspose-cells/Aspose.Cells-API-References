@@ -3,6 +3,7 @@ title: RevisionNumber
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the document revision number.
 type: docs
+weight: 280
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/revisionnumber/
 ---
 ## BuiltInDocumentPropertyCollection.RevisionNumber property

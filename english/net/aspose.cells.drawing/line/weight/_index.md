@@ -3,6 +3,7 @@ title: Weight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the WeightTypeaspose.cells.drawing/weighttype of the line.
 type: docs
+weight: 200
 url: /net/aspose.cells.drawing/line/weight/
 ---
 ## Line.Weight property

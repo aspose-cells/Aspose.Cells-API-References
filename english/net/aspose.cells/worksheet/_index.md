@@ -3,6 +3,7 @@ title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single worksheet.
 type: docs
+weight: 6540
 url: /net/aspose.cells/worksheet/
 ---
 ## Worksheet class
@@ -61,8 +62,7 @@ public class Worksheet : IDisposable
 | [ShowFormulas](../../aspose.cells/worksheet/showformulas) { get; set; } | Indicates whether to show formulas or their results. |
 | [Slicers](../../aspose.cells/worksheet/slicers) { get; } | Get the Slicer collection in the worksheet |
 | [SmartTagSetting](../../aspose.cells/worksheet/smarttagsetting) { get; } | Gets all [`SmartTagCollection`](../../aspose.cells.markup/smarttagcollection) objects of the worksheet. |
-| [SparklineGroupCollection](../../aspose.cells/worksheet/sparklinegroupcollection) { get; } | (**Obsolete.**) Gets the sparkline group collection in the worksheet. |
-| [SparklineGroups](../../aspose.cells/worksheet/sparklinegroups) { get; } | Gets the sparkline groups in the worksheet. |
+| [SparklineGroupCollection](../../aspose.cells/worksheet/sparklinegroupcollection) { get; } | Gets the sparkline group collection in the worksheet. |
 | [TabColor](../../aspose.cells/worksheet/tabcolor) { get; set; } | Represents worksheet tab color. |
 | [TabId](../../aspose.cells/worksheet/tabid) { get; set; } | Specifies the internal identifier for the sheet. |
 | [TextBoxes](../../aspose.cells/worksheet/textboxes) { get; } | Gets a [`TextBox`](../../aspose.cells.drawing/textbox) collection. |
@@ -104,7 +104,7 @@ public class Worksheet : IDisposable
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula)(string) | Calculates a formula. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula_2)(CalculationOptions, bool) | Calculates all formulas in this worksheet. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula_1)(string, CalculationOptions) | Calculates a formula. |
-| [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula_3)(bool, bool, ICustomFunction) | (**Obsolete.**) Calculates all formulas in this worksheet. |
+| [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula_3)(bool, bool, ICustomFunction) | Calculates all formulas in this worksheet. |
 | [ClearComments](../../aspose.cells/worksheet/clearcomments)() | Clears all comments in designer spreadsheet. |
 | [CloseAccessCache](../../aspose.cells/worksheet/closeaccesscache)(AccessCacheOptions) | Closes the session that uses caches to access the data in this worksheet. |
 | [Copy](../../aspose.cells/worksheet/copy#copy)(Worksheet) | Copies contents and formats from another worksheet. |
@@ -125,7 +125,7 @@ public class Worksheet : IDisposable
 | [RemoveSplit](../../aspose.cells/worksheet/removesplit)() | Removes split window. |
 | [Replace](../../aspose.cells/worksheet/replace)(string, string) | Replaces all cells' text with a new string. |
 | [SelectRange](../../aspose.cells/worksheet/selectrange)(int, int, int, int, bool) | Selects a range. |
-| [SetBackground](../../aspose.cells/worksheet/setbackground)(byte[]) | (**Obsolete.**) Sets worksheet background image. |
+| [SetBackground](../../aspose.cells/worksheet/setbackground)(byte[]) | Sets worksheet background image. |
 | [SetVisible](../../aspose.cells/worksheet/setvisible)(bool, bool) | Sets the visible options. |
 | [Split](../../aspose.cells/worksheet/split)() | Splits window. |
 | [StartAccessCache](../../aspose.cells/worksheet/startaccesscache)(AccessCacheOptions) | Starts the session that uses caches to access the data in this worksheet. |

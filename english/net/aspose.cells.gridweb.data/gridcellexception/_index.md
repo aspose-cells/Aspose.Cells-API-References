@@ -3,6 +3,7 @@ title: GridCellException
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a cell operation error.
 type: docs
+weight: 190
 url: /net/aspose.cells.gridweb.data/gridcellexception/
 ---
 ## GridCellException class

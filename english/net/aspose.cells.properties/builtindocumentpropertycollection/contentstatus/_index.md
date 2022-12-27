@@ -3,6 +3,7 @@ title: ContentStatus
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the content status of the document.
 type: docs
+weight: 80
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/contentstatus/
 ---
 ## BuiltInDocumentPropertyCollection.ContentStatus property

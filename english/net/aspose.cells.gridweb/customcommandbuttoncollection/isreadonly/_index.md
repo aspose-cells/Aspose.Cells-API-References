@@ -3,6 +3,7 @@ title: IsReadOnly
 second_title: Aspose.Cells for .NET API Reference
 description: Internal used only.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/isreadonly/
 ---
 ## CustomCommandButtonCollection.IsReadOnly property

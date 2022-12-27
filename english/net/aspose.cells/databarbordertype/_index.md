@@ -3,6 +3,7 @@ title: DataBarBorderType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the border type of a data bar.
 type: docs
+weight: 1280
 url: /net/aspose.cells/databarbordertype/
 ---
 ## DataBarBorderType enumeration

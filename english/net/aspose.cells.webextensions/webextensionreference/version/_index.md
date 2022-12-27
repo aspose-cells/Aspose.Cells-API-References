@@ -3,6 +3,7 @@ title: Version
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the version.
 type: docs
+weight: 40
 url: /net/aspose.cells.webextensions/webextensionreference/version/
 ---
 ## WebExtensionReference.Version property

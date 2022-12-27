@@ -3,6 +3,7 @@ title: AlternativeText
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the alternative text.
 type: docs
+weight: 20
 url: /net/aspose.cells.tables/listobject/alternativetext/
 ---
 ## ListObject.AlternativeText property

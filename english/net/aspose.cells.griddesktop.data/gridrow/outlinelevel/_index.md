@@ -3,6 +3,7 @@ title: OutlineLevel
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 80
 url: /net/aspose.cells.griddesktop.data/gridrow/outlinelevel/
 ---
 ## GridRow.OutlineLevel property

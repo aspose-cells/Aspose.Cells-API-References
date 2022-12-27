@@ -3,6 +3,7 @@ title: ImageURL
 second_title: Aspose.Cells for .NET API Reference
 description: Get or Set Image URL for the link there is no imageurl properties in hyperlink so actually use TextToDisplay to record this value TextToDisplay will be set to ltimg srcvalue gt so it will change the value of TextToDisplay
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/gridhyperlink/imageurl/
 ---
 ## GridHyperlink.ImageURL property

@@ -3,6 +3,7 @@ title: AutoFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Gets auto filter.
 type: docs
+weight: 30
 url: /net/aspose.cells.tables/listobject/autofilter/
 ---
 ## ListObject.AutoFilter property

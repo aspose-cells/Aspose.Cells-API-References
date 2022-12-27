@@ -3,6 +3,7 @@ title: Command
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the command name.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb/customcommandbutton/command/
 ---
 ## CustomCommandButton.Command property

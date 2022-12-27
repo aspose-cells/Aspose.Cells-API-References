@@ -3,6 +3,7 @@ title: ImageUrl
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the hyperlinks image url. If sets to null or empty string the hyperlink will only display its text.
 type: docs
+weight: 50
 url: /net/aspose.cells.gridweb.data/hyperlink/imageurl/
 ---
 ## Hyperlink.ImageUrl property

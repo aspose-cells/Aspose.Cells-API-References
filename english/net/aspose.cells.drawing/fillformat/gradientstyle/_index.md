@@ -3,6 +3,7 @@ title: GradientStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the gradient style for the specified fill.
 type: docs
+weight: 70
 url: /net/aspose.cells.drawing/fillformat/gradientstyle/
 ---
 ## FillFormat.GradientStyle property

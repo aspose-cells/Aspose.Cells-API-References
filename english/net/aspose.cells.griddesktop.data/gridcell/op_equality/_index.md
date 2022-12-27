@@ -3,6 +3,7 @@ title: op_Equality
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 440
 url: /net/aspose.cells.griddesktop.data/gridcell/op_equality/
 ---
 ## GridCell Equality operator

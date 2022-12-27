@@ -3,6 +3,7 @@ title: DataDisplayFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Represents how to display the values contained in a data field.
 type: docs
+weight: 90
 url: /net/aspose.cells.pivot/pivotfield/datadisplayformat/
 ---
 ## PivotField.DataDisplayFormat property

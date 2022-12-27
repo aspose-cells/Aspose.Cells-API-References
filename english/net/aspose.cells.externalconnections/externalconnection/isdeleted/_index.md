@@ -3,6 +3,7 @@ title: IsDeleted
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the associated workbook connection has been deleted. true if the connection has been deleted otherwise false.
 type: docs
+weight: 70
 url: /net/aspose.cells.externalconnections/externalconnection/isdeleted/
 ---
 ## ExternalConnection.IsDeleted property

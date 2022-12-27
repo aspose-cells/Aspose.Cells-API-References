@@ -3,6 +3,7 @@ title: InputMessage
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the data validation input message.
 type: docs
+weight: 90
 url: /net/aspose.cells/validation/inputmessage/
 ---
 ## Validation.InputMessage property

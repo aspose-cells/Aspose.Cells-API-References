@@ -3,6 +3,7 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the value of the control.
 type: docs
+weight: 230
 url: /net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/value/
 ---
 ## ComboBoxActiveXControl.Value property

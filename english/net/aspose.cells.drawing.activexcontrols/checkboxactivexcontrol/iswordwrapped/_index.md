@@ -3,6 +3,7 @@ title: IsWordWrapped
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the contents of the control automatically wrap at the end of a line.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/iswordwrapped/
 ---
 ## CheckBoxActiveXControl.IsWordWrapped property

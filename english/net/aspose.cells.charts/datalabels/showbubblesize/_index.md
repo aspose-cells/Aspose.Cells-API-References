@@ -3,6 +3,7 @@ title: ShowBubbleSize
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a specified charts data label percentage value display behavior. True displays the percentage value. False to hide.
 type: docs
+weight: 170
 url: /net/aspose.cells.charts/datalabels/showbubblesize/
 ---
 ## DataLabels.ShowBubbleSize property

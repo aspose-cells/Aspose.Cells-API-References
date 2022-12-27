@@ -3,6 +3,7 @@ title: IsDeletingColumnsAllowed
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the deletion of columns is allowed on a protected worksheet.
 type: docs
+weight: 170
 url: /net/aspose.cells/protection/isdeletingcolumnsallowed/
 ---
 ## Protection.IsDeletingColumnsAllowed property

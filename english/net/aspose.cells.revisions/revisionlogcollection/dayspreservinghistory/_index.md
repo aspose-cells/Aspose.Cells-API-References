@@ -3,6 +3,7 @@ title: DaysPreservingHistory
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the number of days the spreadsheet application will keep the change history for this workbook.
 type: docs
+weight: 10
 url: /net/aspose.cells.revisions/revisionlogcollection/dayspreservinghistory/
 ---
 ## RevisionLogCollection.DaysPreservingHistory property

@@ -1,26 +1,30 @@
----
-title: BulletType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: BulletType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 140
 url: /python-net/aspose.cells.drawing.texts/bullettype/
+is_root: false
 ---
 
 ## BulletType enumeration
 
 Represents the type of the bullet.
 
-## Members
-| Member name | Description |
+
+
+The BulletType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|No bullet.|
-|CHARACTER|Character bullet.|
-|PICTURE|Image bullet.|
-|AUTO_NUMBERED|Automatic numbered bullet.|
+| NONE | No bullet. |
+| CHARACTER | Character bullet. |
+| PICTURE | Image bullet. |
+| AUTO_NUMBERED | Automatic numbered bullet. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing.texts](../)

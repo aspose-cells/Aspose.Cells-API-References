@@ -3,6 +3,7 @@ title: FontUnderline
 second_title: Aspose.Cells for .NET API Reference
 description: Font underline setting will be applied.
 type: docs
+weight: 170
 url: /net/aspose.cells/styleflag/fontunderline/
 ---
 ## StyleFlag.FontUnderline property

@@ -3,6 +3,7 @@ title: StandardWidthPixels
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 210
 url: /net/aspose.cells.griddesktop.data/gridcells/standardwidthpixels/
 ---
 ## GridCells.StandardWidthPixels property

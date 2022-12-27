@@ -3,6 +3,7 @@ title: Category
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the category of the document.
 type: docs
+weight: 30
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/category/
 ---
 ## BuiltInDocumentPropertyCollection.Category property

@@ -3,6 +3,7 @@ title: RegEx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the regular expression string.
 type: docs
+weight: 160
 url: /net/aspose.cells.griddesktop.data/gridvalidation/regex/
 ---
 ## GridValidation.RegEx property

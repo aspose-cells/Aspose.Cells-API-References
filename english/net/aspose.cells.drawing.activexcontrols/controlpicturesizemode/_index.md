@@ -3,6 +3,7 @@ title: ControlPictureSizeMode
 second_title: Aspose.Cells for .NET API Reference
 description: Represents how to display the picture.
 type: docs
+weight: 1590
 url: /net/aspose.cells.drawing.activexcontrols/controlpicturesizemode/
 ---
 ## ControlPictureSizeMode enumeration

@@ -3,6 +3,7 @@ title: GridMemorySetting
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets memory option.
 type: docs
+weight: 150
 url: /net/aspose.cells.griddesktop/griddesktop/gridmemorysetting/
 ---
 ## GridDesktop.GridMemorySetting property

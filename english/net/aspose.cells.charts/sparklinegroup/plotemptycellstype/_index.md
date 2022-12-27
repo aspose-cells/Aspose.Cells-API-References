@@ -3,6 +3,7 @@ title: PlotEmptyCellsType
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates how to plot empty cells.
 type: docs
+weight: 110
 url: /net/aspose.cells.charts/sparklinegroup/plotemptycellstype/
 ---
 ## SparklineGroup.PlotEmptyCellsType property

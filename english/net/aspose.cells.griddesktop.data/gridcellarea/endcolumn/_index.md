@@ -3,6 +3,7 @@ title: EndColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the end column of this area.
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop.data/gridcellarea/endcolumn/
 ---
 ## GridCellArea.EndColumn field

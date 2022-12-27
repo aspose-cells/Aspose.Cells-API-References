@@ -3,6 +3,7 @@ title: FirstVisibleColumnOfRightPane
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the first visible column of the right pane.
 type: docs
+weight: 20
 url: /net/aspose.cells/panecollection/firstvisiblecolumnofrightpane/
 ---
 ## PaneCollection.FirstVisibleColumnOfRightPane property

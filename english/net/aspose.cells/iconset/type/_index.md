@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Get or Set the icon set type to display. Setting the type will auto check if the current Cfvoss count is accord with the new type. If not accord old Cfvos will be cleaned and default Cfvos will be added.
 type: docs
+weight: 60
 url: /net/aspose.cells/iconset/type/
 ---
 ## IconSet.Type property

@@ -3,6 +3,7 @@ title: SetStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the style of the range.
 type: docs
+weight: 200
 url: /net/aspose.cells/unionrange/setstyle/
 ---
 ## UnionRange.SetStyle method

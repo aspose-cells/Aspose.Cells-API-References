@@ -3,6 +3,7 @@ title: IsVerticalScrollBarVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Sets visible statue for Vertical ScrollBar.
 type: docs
+weight: 170
 url: /net/aspose.cells.griddesktop/griddesktop/isverticalscrollbarvisible/
 ---
 ## GridDesktop.IsVerticalScrollBarVisible property

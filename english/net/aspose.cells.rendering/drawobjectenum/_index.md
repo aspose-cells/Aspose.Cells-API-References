@@ -3,6 +3,7 @@ title: DrawObjectEnum
 second_title: Aspose.Cells for .NET API Reference
 description: Indicate Cell or Image of DrawObject.
 type: docs
+weight: 5140
 url: /net/aspose.cells.rendering/drawobjectenum/
 ---
 ## DrawObjectEnum enumeration

@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the preset bevel type.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/bevel/type/
 ---
 ## Bevel.Type property

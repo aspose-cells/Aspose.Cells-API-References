@@ -3,6 +3,7 @@ title: GetLinkedCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the range linked to the controls value.
 type: docs
+weight: 1100
 url: /net/aspose.cells.drawing/shape/getlinkedcell/
 ---
 ## Shape.GetLinkedCell method

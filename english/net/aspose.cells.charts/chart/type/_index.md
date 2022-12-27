@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a charts type.
 type: docs
+weight: 460
 url: /net/aspose.cells.charts/chart/type/
 ---
 ## Chart.Type property

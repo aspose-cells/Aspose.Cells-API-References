@@ -3,6 +3,7 @@ title: Shared
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value that indicates whether the Workbook is shared.
 type: docs
+weight: 530
 url: /net/aspose.cells/workbooksettings/shared/
 ---
 ## WorkbookSettings.Shared property

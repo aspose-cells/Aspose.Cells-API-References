@@ -3,6 +3,7 @@ title: FilterRows
 second_title: Aspose.Cells for .NET API Reference
 description: Filters data by specified column and filter index.
 type: docs
+weight: 10
 url: /net/aspose.cells.gridweb.data/icustomfilter/filterrows/
 ---
 ## ICustomFilter.FilterRows method

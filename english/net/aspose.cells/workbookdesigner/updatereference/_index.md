@@ -3,6 +3,7 @@ title: UpdateReference
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if references in other worksheets will be updated.
 type: docs
+weight: 70
 url: /net/aspose.cells/workbookdesigner/updatereference/
 ---
 ## WorkbookDesigner.UpdateReference property

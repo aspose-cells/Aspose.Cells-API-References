@@ -3,6 +3,7 @@ title: GetDependents
 second_title: Aspose.Cells for .NET API Reference
 description: Get all cells which refer to the specific cell.
 type: docs
+weight: 720
 url: /net/aspose.cells/cells/getdependents/
 ---
 ## Cells.GetDependents method

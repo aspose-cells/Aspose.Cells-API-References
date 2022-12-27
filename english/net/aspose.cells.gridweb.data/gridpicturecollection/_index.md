@@ -1,13 +1,14 @@
 ---
 title: GridPictureCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Encapsulates a collection of GridPicture./gridpicture objects.
+description: Encapsulates a collection of Picture objects.
 type: docs
+weight: 350
 url: /net/aspose.cells.gridweb.data/gridpicturecollection/
 ---
 ## GridPictureCollection class
 
-Encapsulates a collection of [`GridPicture`](../gridpicture) objects.
+Encapsulates a collection of Picture objects.
 
 ```csharp
 public class GridPictureCollection
@@ -18,7 +19,7 @@ public class GridPictureCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridpicturecollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridpicturecollection/item) { get; } | Gets the [`GridPicture`](../gridpicture) element at the specified index. |
+| [Item](../../aspose.cells.gridweb.data/gridpicturecollection/item) { get; } | Gets the Picture element at the specified index. |
 
 ## Methods
 

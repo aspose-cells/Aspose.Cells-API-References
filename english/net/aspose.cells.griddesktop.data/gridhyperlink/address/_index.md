@@ -3,6 +3,7 @@ title: Address
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the address of a hyperlink.
 type: docs
+weight: 10
 url: /net/aspose.cells.griddesktop.data/gridhyperlink/address/
 ---
 ## GridHyperlink.Address property

@@ -3,6 +3,7 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the custom command button object.
 type: docs
+weight: 140
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/remove/
 ---
 ## CustomCommandButtonCollection.Remove method

@@ -3,6 +3,7 @@ title: Shadow
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to show a shadow.
 type: docs
+weight: 100
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow/
 ---
 ## ActiveXControlBase.Shadow property

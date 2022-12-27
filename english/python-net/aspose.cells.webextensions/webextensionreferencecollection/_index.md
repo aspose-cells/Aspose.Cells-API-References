@@ -1,40 +1,47 @@
----
-title: WebExtensionReferenceCollection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: WebExtensionReferenceCollection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 80
 url: /python-net/aspose.cells.webextensions/webextensionreferencecollection/
+is_root: false
 ---
 
 ## WebExtensionReferenceCollection class
 
 Represents the list of web extension reference.
 
+
+
 The WebExtensionReferenceCollection type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|WebExtensionReferenceCollection()|Initializes a new instance of the WebExtensionReferenceCollection class|
-## Properties
-| Name | Description |
+| [WebExtensionReferenceCollection()](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|capacity|  |
-## Methods
-| Name | Description |
+| [capacity](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/capacity) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|copy_to(array)|  |
-|copy_to(index, array, array_index, count)|  |
-|index_of(item, index)|  |
-|index_of(item, index, count)|  |
-|last_index_of(item)|  |
-|last_index_of(item, index)|  |
-|last_index_of(item, index, count)|  |
-|add()|Adds an empty reference of web extension.|
-|binary_search(item)|  |
+| [copy_to(array)](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/copy_to/#list) |  |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/copy_to/#int-list-int-int) |  |
+| [index_of(item, index)](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/index_of/#WebExtensionReference-int) |  |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/index_of/#WebExtensionReference-int-int) |  |
+| [last_index_of(item)](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/last_index_of/#WebExtensionReference) |  |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/last_index_of/#WebExtensionReference-int) |  |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/last_index_of/#WebExtensionReference-int-int) |  |
+| [add()](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/add/#) | Adds an empty reference of web extension. |
+| [binary_search(item)](/cells/python-net/aspose.cells.webextensions/webextensionreferencecollection/binary_search/#WebExtensionReference) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.webextensions](/cells/python-net/aspose.cells.webextensions/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.webextensions](../)

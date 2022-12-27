@@ -3,6 +3,7 @@ title: CheckBox
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a cell checkbox control.
 type: docs
+weight: 260
 url: /net/aspose.cells.griddesktop/checkbox/
 ---
 ## CheckBox class
@@ -18,7 +19,7 @@ public class CheckBox : CellControl
 | Name | Description |
 | --- | --- |
 | [Checked](../../aspose.cells.griddesktop/checkbox/checked) { get; set; } | Gets or set a value indicating whether the check box is in the checked state. |
-| [Text](../../aspose.cells.griddesktop/cellcontrol/text) { get; set; } | Gets or sets the text associated with this control.(Inherited from [`CellControl`](../cellcontrol).) |
+| [Text](../../aspose.cells.griddesktop/cellcontrol/text) { get; set; } | Gets or sets the text associated with this control. |
 
 ### See Also
 

@@ -3,6 +3,7 @@ title: GetFocusedCellLocation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a cell location which is focused.
 type: docs
+weight: 740
 url: /net/aspose.cells.griddesktop/worksheet/getfocusedcelllocation/
 ---
 ## Worksheet.GetFocusedCellLocation method

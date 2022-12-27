@@ -3,6 +3,7 @@ title: IsCollapse
 second_title: Aspose.Cells for .NET API Reference
 description: When this property is true the bookmarkentry will collapse otherwise it will expand.
 type: docs
+weight: 40
 url: /net/aspose.cells.rendering/pdfbookmarkentry/iscollapse/
 ---
 ## PdfBookmarkEntry.IsCollapse property

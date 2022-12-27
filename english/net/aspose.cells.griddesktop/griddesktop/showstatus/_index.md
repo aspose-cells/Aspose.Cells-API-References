@@ -3,6 +3,7 @@ title: ShowStatus
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether to show the calculate status The default value is true.
 type: docs
+weight: 280
 url: /net/aspose.cells.griddesktop/griddesktop/showstatus/
 ---
 ## GridDesktop.ShowStatus property

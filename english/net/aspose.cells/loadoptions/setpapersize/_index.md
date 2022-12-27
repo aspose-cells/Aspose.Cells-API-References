@@ -3,6 +3,7 @@ title: SetPaperSize
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the default print paper size from default printers setting.
 type: docs
+weight: 240
 url: /net/aspose.cells/loadoptions/setpapersize/
 ---
 ## LoadOptions.SetPaperSize method

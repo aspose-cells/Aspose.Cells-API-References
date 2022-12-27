@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Worksheetaspose.cells/worksheet element at the specified index.
 type: docs
+weight: 80
 url: /net/aspose.cells/worksheetcollection/item/
 ---
 ## WorksheetCollection indexer (1 of 2)

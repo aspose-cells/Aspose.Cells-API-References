@@ -3,6 +3,7 @@ title: DataTable
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the data source of System.Data.DataTable for the PivotTable report.
 type: docs
+weight: 10
 url: /net/aspose.cells.gridweb.data/pivotcache/datatable/
 ---
 ## PivotCache.DataTable property

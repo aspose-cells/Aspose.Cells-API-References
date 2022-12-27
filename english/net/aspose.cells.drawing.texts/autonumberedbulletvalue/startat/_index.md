@@ -3,6 +3,7 @@ title: StartAt
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the starting number of the bullet.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing.texts/autonumberedbulletvalue/startat/
 ---
 ## AutoNumberedBulletValue.StartAt property

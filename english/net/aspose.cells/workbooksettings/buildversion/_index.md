@@ -3,6 +3,7 @@ title: BuildVersion
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the incremental public release of the application.
 type: docs
+weight: 40
 url: /net/aspose.cells/workbooksettings/buildversion/
 ---
 ## WorkbookSettings.BuildVersion property

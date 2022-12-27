@@ -3,6 +3,7 @@ title: Calculate
 second_title: Aspose.Cells for .NET API Reference
 description: Calculates one function with given data.
 type: docs
+weight: 10
 url: /net/aspose.cells.gridweb.data/gridabstractcalculationengine/calculate/
 ---
 ## GridAbstractCalculationEngine.Calculate method

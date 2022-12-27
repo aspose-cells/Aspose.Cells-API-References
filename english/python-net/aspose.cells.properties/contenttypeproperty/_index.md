@@ -1,27 +1,30 @@
----
-title: ContentTypeProperty
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ContentTypeProperty class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 20
 url: /python-net/aspose.cells.properties/contenttypeproperty/
+is_root: false
 ---
 
 ## ContentTypeProperty class
 
 Represents identifier information.
 
+
+
 The ContentTypeProperty type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|name|Returns or sets the name of the object.|
-|value|Returns or sets the value of the content type property.|
-|type|Gets and sets the type of the property.|
-|is_nillable|Indicates whether the value could be empty.|
+| [name](/cells/python-net/aspose.cells.properties/contenttypeproperty/name) | Returns or sets the name of the object. |
+| [value](/cells/python-net/aspose.cells.properties/contenttypeproperty/value) | Returns or sets the value of the content type property. |
+| [type](/cells/python-net/aspose.cells.properties/contenttypeproperty/type) | Gets and sets the type of the property. |
+| [is_nillable](/cells/python-net/aspose.cells.properties/contenttypeproperty/is_nillable) | Indicates whether the value could be empty. |
+
 
 ### See Also
 
-* namespace [aspose.cells.properties](/cells/python-net/aspose.cells.properties/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.properties](../)

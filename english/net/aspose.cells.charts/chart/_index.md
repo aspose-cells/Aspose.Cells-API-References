@@ -3,6 +3,7 @@ title: Chart
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single Excel chart.
 type: docs
+weight: 430
 url: /net/aspose.cells.charts/chart/
 ---
 ## Chart class
@@ -17,7 +18,7 @@ public class Chart
 
 | Name | Description |
 | --- | --- |
-| [ActualChartSize](../../aspose.cells.charts/chart/actualchartsize) { get; } | (**Obsolete.**) Gets actual size of chart in unit of pixels. |
+| [ActualChartSize](../../aspose.cells.charts/chart/actualchartsize) { get; } | Gets actual size of chart in unit of pixels. |
 | [AutoScaling](../../aspose.cells.charts/chart/autoscaling) { get; set; } | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. The RightAngleAxes property must be True. |
 | [BackWall](../../aspose.cells.charts/chart/backwall) { get; } | Returns a [`Walls`](./walls) object that represents the back wall of a 3-D chart. |
 | [CategoryAxis](../../aspose.cells.charts/chart/categoryaxis) { get; } | Gets the chart's X axis. |
@@ -47,8 +48,7 @@ public class Chart
 | [PlotArea](../../aspose.cells.charts/chart/plotarea) { get; } | Gets the chart's plot area which includes axis tick labels. |
 | [PlotBy](../../aspose.cells.charts/chart/plotby) { get; } | Gets and sets whether plot by row or column. |
 | [PlotEmptyCellsType](../../aspose.cells.charts/chart/plotemptycellstype) { get; set; } | Gets and sets how to plot the empty cells. |
-| [PlotVisibleCells](../../aspose.cells.charts/chart/plotvisiblecells) { get; set; } | (**Obsolete.**) Indicates whether only plot visible cells. |
-| [PlotVisibleCellsOnly](../../aspose.cells.charts/chart/plotvisiblecellsonly) { get; set; } | Indicates whether plot visible cells only. |
+| [PlotVisibleCells](../../aspose.cells.charts/chart/plotvisiblecells) { get; set; } | Indicates whether only plot visible cells. |
 | [PrintSize](../../aspose.cells.charts/chart/printsize) { get; set; } | Gets and sets the printed chart size. |
 | [RightAngleAxes](../../aspose.cells.charts/chart/rightangleaxes) { get; set; } | True if the chart axes are at right angles. Applies only for 3-D charts(except Column3D and 3-D Pie Charts). |
 | [RotationAngle](../../aspose.cells.charts/chart/rotationangle) { get; set; } | Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). |
@@ -74,7 +74,6 @@ public class Chart
 | Name | Description |
 | --- | --- |
 | [Calculate](../../aspose.cells.charts/chart/calculate)() | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
-| [ChangeTemplate](../../aspose.cells.charts/chart/changetemplate)(byte[]) | Change chart type with preset template. |
 | [GetActualSize](../../aspose.cells.charts/chart/getactualsize)() | Gets actual size of chart in unit of pixels. |
 | [GetChartDataRange](../../aspose.cells.charts/chart/getchartdatarange)() | Gets the data source range of the chart. |
 | [HasAxis](../../aspose.cells.charts/chart/hasaxis)(AxisType, bool) | Returns which axes exist on the chart. |
@@ -85,15 +84,13 @@ public class Chart
 | [SwitchRowColumn](../../aspose.cells.charts/chart/switchrowcolumn)() | Switches row/column. |
 | [ToImage](../../aspose.cells.charts/chart/toimage#toimage)() | Gets a 32-bit `Bitmap` object of the chart. |
 | [ToImage](../../aspose.cells.charts/chart/toimage#toimage_1)(ImageOrPrintOptions) | Gets a 32-bit `Bitmap` object of the chart. `ImageOrPrintOptions.ImageFormat`, ImageOrPrintOptions.TiffCompression and ImageOrPrintOptions.Quality attributes are ignored. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_6)(string) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_5)(Stream, ImageFormat) | (**Obsolete.**) Creates the chart image and saves it to a stream in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_3)(Stream, ImageOrPrintOptions) | Creates the chart image and saves it to a stream in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_2)(Stream, ImageType) | Creates the chart image and saves it to a stream in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_4)(Stream, long) | Creates the chart image and saves it to a stream in the Jpeg format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_10)(string, ImageFormat) | (**Obsolete.**) Creates the chart image and saves it to a file in the specified format. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_8)(string, ImageOrPrintOptions) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_7)(string, ImageType) | Creates the chart image and saves it to a file in the specified image type. |
-| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_9)(string, long) | Creates the chart image and saves it to a file in the Jpeg format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_5)(string) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_4)(Stream, ImageFormat) | Creates the chart image and saves it to a stream in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_2)(Stream, ImageOrPrintOptions) | Creates the chart image and saves it to a stream in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_3)(Stream, long) | Creates the chart image and saves it to a stream in the Jpeg format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_8)(string, ImageFormat) | Creates the chart image and saves it to a file in the specified format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_6)(string, ImageOrPrintOptions) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
+| [ToImage](../../aspose.cells.charts/chart/toimage#toimage_7)(string, long) | Creates the chart image and saves it to a file in the Jpeg format. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf#topdf)(Stream) | Creates the chart pdf and saves it to a stream. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf#topdf_2)(string) | Saves the chart to a pdf file. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf#topdf_1)(Stream, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) | Creates the chart pdf and saves it to a stream. |

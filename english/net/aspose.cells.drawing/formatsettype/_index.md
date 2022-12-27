@@ -3,6 +3,7 @@ title: FormatSetType
 second_title: Aspose.Cells for .NET API Reference
 description: Fill format set type.
 type: docs
+weight: 2030
 url: /net/aspose.cells.drawing/formatsettype/
 ---
 ## FormatSetType enumeration

@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a worksheet to the collection.
 type: docs
+weight: 170
 url: /net/aspose.cells/worksheetcollection/add/
 ---
 ## Add(SheetType) {#add_2}

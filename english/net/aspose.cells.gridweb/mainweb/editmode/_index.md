@@ -3,6 +3,7 @@ title: EditMode
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the controls edit mode.
 type: docs
+weight: 220
 url: /net/aspose.cells.gridweb/mainweb/editmode/
 ---
 ## MainWeb.EditMode property

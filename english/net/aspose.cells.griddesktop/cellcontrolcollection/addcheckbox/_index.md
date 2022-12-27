@@ -3,6 +3,7 @@ title: AddCheckBox
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a checkbox to a specified cell at row column index.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/
 ---
 ## AddCheckBox(int, int, bool) {#addcheckbox}

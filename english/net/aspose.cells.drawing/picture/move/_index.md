@@ -3,6 +3,7 @@ title: Move
 second_title: Aspose.Cells for .NET API Reference
 description: Moves the picture to a specified location.
 type: docs
+weight: 200
 url: /net/aspose.cells.drawing/picture/move/
 ---
 ## Picture.Move method

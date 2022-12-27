@@ -1,26 +1,30 @@
----
-title: TargetModeType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TargetModeType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5040
+weight: 2500
 url: /python-net/aspose.cells/targetmodetype/
+is_root: false
 ---
 
 ## TargetModeType enumeration
 
 Represents the type of target mode.
 
-## Members
-| Member name | Description |
+
+
+The TargetModeType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|EXTERNAL|External link|
-|FILE_PATH|Local and full paths to files or folders.|
-|EMAIL|Email.|
-|CELL_REFERENCE|Link on cell or named range.|
+| EXTERNAL | External link |
+| FILE_PATH | Local and full paths to files or folders. |
+| EMAIL | Email. |
+| CELL_REFERENCE | Link on cell or named range. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

@@ -3,6 +3,7 @@ title: IsCollapsed
 second_title: Aspose.Cells for .NET API Reference
 description: whether the column is collapsed
 type: docs
+weight: 30
 url: /net/aspose.cells/column/iscollapsed/
 ---
 ## Column.IsCollapsed property

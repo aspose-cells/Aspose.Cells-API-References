@@ -3,6 +3,7 @@ title: IsColorInPalette
 second_title: Aspose.Cells for .NET API Reference
 description: Checks if a color is in the palette for the spreadsheet.
 type: docs
+weight: 490
 url: /net/aspose.cells/workbook/iscolorinpalette/
 ---
 ## Workbook.IsColorInPalette method

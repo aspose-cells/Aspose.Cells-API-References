@@ -3,6 +3,7 @@ title: RemoveFormulas
 second_title: Aspose.Cells for .NET API Reference
 description: Removes all formula and replaces with the value of the formula.
 type: docs
+weight: 610
 url: /net/aspose.cells.griddesktop.data/gridcells/removeformulas/
 ---
 ## GridCells.RemoveFormulas method

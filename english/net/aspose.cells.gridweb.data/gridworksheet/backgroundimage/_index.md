@@ -3,6 +3,7 @@ title: BackgroundImage
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets worksheet background image.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb.data/gridworksheet/backgroundimage/
 ---
 ## GridWorksheet.BackgroundImage property

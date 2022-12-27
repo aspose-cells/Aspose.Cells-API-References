@@ -1,20 +1,27 @@
----
-title: AutomaticFill
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: AutomaticFill class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 30
 url: /python-net/aspose.cells.drawing/automaticfill/
+is_root: false
 ---
 
 ## AutomaticFill class
 
 represents automatic fill.
 
+
+
+**Inheritance:** [AutomaticFill](/cells/python-net/aspose.cells.drawing/automaticfill) → 
+[Fill](/cells/python-net/aspose.cells.drawing/fill)
+
+
+
 The AutomaticFill type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)
+* class [Fill](/cells/python-net/aspose.cells.drawing/fill)

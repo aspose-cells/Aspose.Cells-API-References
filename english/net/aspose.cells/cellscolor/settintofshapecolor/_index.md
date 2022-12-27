@@ -3,6 +3,7 @@ title: SetTintOfShapeColor
 second_title: Aspose.Cells for .NET API Reference
 description: Set the tint of the shape color
 type: docs
+weight: 80
 url: /net/aspose.cells/cellscolor/settintofshapecolor/
 ---
 ## CellsColor.SetTintOfShapeColor method

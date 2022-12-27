@@ -3,6 +3,7 @@ title: ImageType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the format of the generated images. default value PNG.
 type: docs
+weight: 140
 url: /net/aspose.cells.rendering/imageorprintoptions/imagetype/
 ---
 ## ImageOrPrintOptions.ImageType property

@@ -3,6 +3,7 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the height of the bevel or how far above the shape it is applied. In unit of Points.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/bevel/height/
 ---
 ## Bevel.Height property

@@ -3,6 +3,7 @@ title: SetBorderPosition
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the border position to be set of a cells range.
 type: docs
+weight: 1110
 url: /net/aspose.cells.gridweb/setborderposition/
 ---
 ## SetBorderPosition enumeration
@@ -31,11 +32,10 @@ public enum SetBorderPosition
 
 ```csharp
 [C#]
-    GridWeb GridWeb1=new GridWeb();
-	GridWeb1.WorkSheets[0].Cells.SetBorders(0, 0, 5, 8, SetBorderPosition.Outline, borderStyle1);
+	GridWeb1.WebWorksheets[0].Cells.SetBorders(0, 0, 5, 8, SetBorderPosition.Outline, borderStyle1);
 
 [VB]
-	GridWeb1.WorkSheets(0).Cells.SetBorders(0, 0, 5, 8, SetBorderPosition.Outline, borderStyle1)
+	GridWeb1.WebWorksheets(0).Cells.SetBorders(0, 0, 5, 8, SetBorderPosition.Outline, borderStyle1)
 ```
 
 ### See Also

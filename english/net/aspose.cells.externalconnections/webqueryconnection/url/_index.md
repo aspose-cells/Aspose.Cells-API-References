@@ -3,6 +3,7 @@ title: Url
 second_title: Aspose.Cells for .NET API Reference
 description: URL to use to refresh external data.
 type: docs
+weight: 140
 url: /net/aspose.cells.externalconnections/webqueryconnection/url/
 ---
 ## WebQueryConnection.Url property

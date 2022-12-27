@@ -3,6 +3,7 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets value of the input cell.
 type: docs
+weight: 50
 url: /net/aspose.cells/scenarioinputcell/value/
 ---
 ## ScenarioInputCell.Value property

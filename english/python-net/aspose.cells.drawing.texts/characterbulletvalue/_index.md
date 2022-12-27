@@ -1,29 +1,40 @@
----
-title: CharacterBulletValue
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: CharacterBulletValue class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 40
 url: /python-net/aspose.cells.drawing.texts/characterbulletvalue/
+is_root: false
 ---
 
 ## CharacterBulletValue class
 
 Represents the character bullet.
 
+
+
+**Inheritance:** [CharacterBulletValue](/cells/python-net/aspose.cells.drawing.texts/characterbulletvalue) → 
+[BulletValue](/cells/python-net/aspose.cells.drawing.texts/bulletvalue)
+
+
+
 The CharacterBulletValue type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|CharacterBulletValue()|Initializes a new instance of the CharacterBulletValue class|
-## Properties
-| Name | Description |
+| [CharacterBulletValue()](/cells/python-net/aspose.cells.drawing.texts/characterbulletvalue/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|type|Gets the type of the bullet.|
-|character|Gets and sets character of the bullet.|
+| [type](/cells/python-net/aspose.cells.drawing.texts/characterbulletvalue/type) | Gets the type of the bullet. |
+| [character](/cells/python-net/aspose.cells.drawing.texts/characterbulletvalue/character) | Gets and sets character of the bullet. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing.texts](../)
+* class [BulletValue](/cells/python-net/aspose.cells.drawing.texts/bulletvalue)

@@ -3,6 +3,7 @@ title: LeftCrop
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the location of the left of the crop rectangle expressed expressed as a ratio of the images width.
 type: docs
+weight: 70
 url: /net/aspose.cells.drawing/msoformatpicture/leftcrop/
 ---
 ## MsoFormatPicture.LeftCrop property

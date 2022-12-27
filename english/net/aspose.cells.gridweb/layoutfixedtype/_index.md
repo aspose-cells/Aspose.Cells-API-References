@@ -3,6 +3,7 @@ title: LayoutFixedType
 second_title: Aspose.Cells for .NET API Reference
 description: Layout fixed type of a table object.
 type: docs
+weight: 1040
 url: /net/aspose.cells.gridweb/layoutfixedtype/
 ---
 ## LayoutFixedType enumeration

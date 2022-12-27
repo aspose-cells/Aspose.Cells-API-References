@@ -3,6 +3,7 @@ title: HideGroupDetail
 second_title: Aspose.Cells for .NET API Reference
 description: Collapses the grouped rows/columns.
 type: docs
+weight: 920
 url: /net/aspose.cells/cells/hidegroupdetail/
 ---
 ## Cells.HideGroupDetail method

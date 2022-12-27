@@ -3,6 +3,7 @@ title: Separator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets character separator of text file.
 type: docs
+weight: 70
 url: /net/aspose.cells/txtloadoptions/separator/
 ---
 ## TxtLoadOptions.Separator property

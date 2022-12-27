@@ -3,6 +3,7 @@ title: Argument
 second_title: Aspose.Cells for .NET API Reference
 description: The argument of the event.
 type: docs
+weight: 10
 url: /net/aspose.cells.griddesktop/rowcolumneventargs/argument/
 ---
 ## RowColumnEventArgs.Argument property

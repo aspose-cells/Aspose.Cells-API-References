@@ -1,8 +1,9 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Cells for .NET API Reference
-description: Gets a value indicating if access to the ICollection is synchronized threadsafe.
+description: Gets a value indicating if access to the ICollection is synchronized thread-safe.
 type: docs
+weight: 50
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/issynchronized/
 ---
 ## GridWorksheetCollection.IsSynchronized property

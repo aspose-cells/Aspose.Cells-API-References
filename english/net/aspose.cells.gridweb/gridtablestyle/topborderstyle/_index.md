@@ -3,6 +3,7 @@ title: TopBorderStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the style of top border of the table.
 type: docs
+weight: 120
 url: /net/aspose.cells.gridweb/gridtablestyle/topborderstyle/
 ---
 ## GridTableStyle.TopBorderStyle property

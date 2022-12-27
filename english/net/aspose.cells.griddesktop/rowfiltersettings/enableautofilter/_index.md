@@ -3,6 +3,7 @@ title: EnableAutoFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Enables auto filtering. The HeaderRow will display dropdown buttons to let user select the columns value to be filtered.
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop/rowfiltersettings/enableautofilter/
 ---
 ## RowFilterSettings.EnableAutoFilter property

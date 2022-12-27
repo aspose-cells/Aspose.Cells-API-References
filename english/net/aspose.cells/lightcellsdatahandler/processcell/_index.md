@@ -3,6 +3,7 @@ title: ProcessCell
 second_title: Aspose.Cells for .NET API Reference
 description: Starts to process one cell.
 type: docs
+weight: 10
 url: /net/aspose.cells/lightcellsdatahandler/processcell/
 ---
 ## LightCellsDataHandler.ProcessCell method

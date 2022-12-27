@@ -3,6 +3,7 @@ title: Save
 second_title: Aspose.Cells for .NET API Reference
 description: Save the modified metadata to the file.
 type: docs
+weight: 50
 url: /net/aspose.cells.metadata/workbookmetadata/save/
 ---
 ## Save(string) {#save_1}

@@ -3,6 +3,7 @@ title: Column
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a single column in a worksheet.
 type: docs
+weight: 1070
 url: /net/aspose.cells/column/
 ---
 ## Column class

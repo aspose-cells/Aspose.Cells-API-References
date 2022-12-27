@@ -3,6 +3,7 @@ title: PaperHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the height of the paper in unit of inches  considered page orientation.
 type: docs
+weight: 250
 url: /net/aspose.cells/pagesetup/paperheight/
 ---
 ## PageSetup.PaperHeight property

@@ -3,6 +3,7 @@ title: BottomTableStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the style of the bottom bar of the control.
 type: docs
+weight: 130
 url: /net/aspose.cells.gridweb/mainweb/bottomtablestyle/
 ---
 ## MainWeb.BottomTableStyle property

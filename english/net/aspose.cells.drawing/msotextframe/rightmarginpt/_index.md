@@ -3,6 +3,7 @@ title: RightMarginPt
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the right margin in unit of Points
 type: docs
+weight: 50
 url: /net/aspose.cells.drawing/msotextframe/rightmarginpt/
 ---
 ## MsoTextFrame.RightMarginPt property

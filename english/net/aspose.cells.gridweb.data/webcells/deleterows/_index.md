@@ -3,6 +3,7 @@ title: DeleteRows
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes a number of rows. This method is much faster than DeleteRow when doing a batch row deleting.
 type: docs
+weight: 140
 url: /net/aspose.cells.gridweb.data/webcells/deleterows/
 ---
 ## WebCells.DeleteRows method

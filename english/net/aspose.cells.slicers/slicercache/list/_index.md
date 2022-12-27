@@ -1,8 +1,9 @@
 ---
 title: List
 second_title: Aspose.Cells for .NET API Reference
-description: Returns whether the slicer associated with the specified slicer cache is based on an NonOLAP data source. Readonly
+description: Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only
 type: docs
+weight: 20
 url: /net/aspose.cells.slicers/slicercache/list/
 ---
 ## SlicerCache.List property

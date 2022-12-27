@@ -3,6 +3,7 @@ title: SetFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Set the formula and the value of the formula.
 type: docs
+weight: 350
 url: /net/aspose.cells.gridweb.data/gridcell/setformula/
 ---
 ## GridCell.SetFormula method

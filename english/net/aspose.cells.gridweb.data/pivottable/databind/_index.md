@@ -3,6 +3,7 @@ title: DataBind
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 40
 url: /net/aspose.cells.gridweb.data/pivottable/databind/
 ---
 ## PivotTable.DataBind method

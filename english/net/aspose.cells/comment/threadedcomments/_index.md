@@ -3,6 +3,7 @@ title: ThreadedComments
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the list of threaded comments
 type: docs
+weight: 170
 url: /net/aspose.cells/comment/threadedcomments/
 ---
 ## Comment.ThreadedComments property

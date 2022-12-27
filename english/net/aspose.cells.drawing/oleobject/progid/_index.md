@@ -3,6 +3,7 @@ title: ProgID
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the ProgID of the OLE object.
 type: docs
+weight: 150
 url: /net/aspose.cells.drawing/oleobject/progid/
 ---
 ## OleObject.ProgID property

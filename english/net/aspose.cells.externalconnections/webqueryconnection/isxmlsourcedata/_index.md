@@ -3,6 +3,7 @@ title: IsXmlSourceData
 second_title: Aspose.Cells for .NET API Reference
 description: Flag indicating that XML source data should be imported instead of the HTML table itself.
 type: docs
+weight: 120
 url: /net/aspose.cells.externalconnections/webqueryconnection/isxmlsourcedata/
 ---
 ## WebQueryConnection.IsXmlSourceData property

@@ -3,6 +3,7 @@ title: BeginChanges
 second_title: Aspose.Cells for .NET API Reference
 description: Begins to record changes.
 type: docs
+weight: 50
 url: /net/aspose.cells.griddesktop/undomanager/beginchanges/
 ---
 ## UndoManager.BeginChanges method

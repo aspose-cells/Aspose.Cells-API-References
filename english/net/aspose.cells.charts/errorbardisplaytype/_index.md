@@ -3,6 +3,7 @@ title: ErrorBarDisplayType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents error bar display type.
 type: docs
+weight: 650
 url: /net/aspose.cells.charts/errorbardisplaytype/
 ---
 ## ErrorBarDisplayType enumeration

@@ -1,8 +1,9 @@
 ---
 title: GetLocalBuiltInName
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the locale dependent text for builtin Name according to given standard text.
+description: Gets the locale dependent text for built-in Name according to given standard text.
 type: docs
+weight: 140
 url: /net/aspose.cells/globalizationsettings/getlocalbuiltinname/
 ---
 ## GlobalizationSettings.GetLocalBuiltInName method

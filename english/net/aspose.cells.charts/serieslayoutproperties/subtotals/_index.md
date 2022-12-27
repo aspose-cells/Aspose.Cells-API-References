@@ -3,6 +3,7 @@ title: Subtotals
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the index of a subtotal data point.
 type: docs
+weight: 110
 url: /net/aspose.cells.charts/serieslayoutproperties/subtotals/
 ---
 ## SeriesLayoutProperties.Subtotals property

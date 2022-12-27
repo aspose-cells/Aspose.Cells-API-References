@@ -3,6 +3,7 @@ title: Insert
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts a sheet to the index.
 type: docs
+weight: 230
 url: /net/aspose.cells.gridweb.data/webworksheets/insert/
 ---
 ## WebWorksheets.Insert method

@@ -3,6 +3,7 @@ title: IsPercent
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the items is percent.
 type: docs
+weight: 20
 url: /net/aspose.cells/top10filter/ispercent/
 ---
 ## Top10Filter.IsPercent property

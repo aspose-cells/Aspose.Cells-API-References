@@ -3,6 +3,7 @@ title: AddButton
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a button to the column.
 type: docs
+weight: 90
 url: /net/aspose.cells.griddesktop.data/gridcolumn/addbutton/
 ---
 ## GridColumn.AddButton method

@@ -3,6 +3,7 @@ title: GraphicPositionType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and set the background graphic position.
 type: docs
+weight: 40
 url: /net/aspose.cells.ods/odspagebackground/graphicpositiontype/
 ---
 ## OdsPageBackground.GraphicPositionType property

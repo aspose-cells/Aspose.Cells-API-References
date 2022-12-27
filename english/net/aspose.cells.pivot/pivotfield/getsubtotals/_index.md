@@ -3,6 +3,7 @@ title: GetSubtotals
 second_title: Aspose.Cells for .NET API Reference
 description: Gets whether the specified field shows that subtotals.
 type: docs
+weight: 450
 url: /net/aspose.cells.pivot/pivotfield/getsubtotals/
 ---
 ## PivotField.GetSubtotals method

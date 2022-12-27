@@ -3,6 +3,7 @@ title: CreateRange
 second_title: Aspose.Cells for .NET API Reference
 description: Creates a Rangeaspose.cells/range object from a range of cells.
 type: docs
+weight: 490
 url: /net/aspose.cells/cells/createrange/
 ---
 ## CreateRange(string, string) {#createrange_3}

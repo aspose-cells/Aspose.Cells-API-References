@@ -3,6 +3,7 @@ title: Equals
 second_title: Aspose.Cells for .NET API Reference
 description: Test if the object equals to another WebCellArea object.
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/gridcellarea/equals/
 ---
 ## GridCellArea.Equals method

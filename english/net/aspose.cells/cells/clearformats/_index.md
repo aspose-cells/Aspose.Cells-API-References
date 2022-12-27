@@ -3,6 +3,7 @@ title: ClearFormats
 second_title: Aspose.Cells for .NET API Reference
 description: Clears formatting of a range.
 type: docs
+weight: 410
 url: /net/aspose.cells/cells/clearformats/
 ---
 ## ClearFormats(CellArea) {#clearformats}

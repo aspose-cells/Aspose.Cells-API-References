@@ -3,6 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the vertical alignment type of the text in a cell.
 type: docs
+weight: 310
 url: /net/aspose.cells/style/verticalalignment/
 ---
 ## Style.VerticalAlignment property

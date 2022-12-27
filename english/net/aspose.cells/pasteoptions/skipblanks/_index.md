@@ -3,6 +3,7 @@ title: SkipBlanks
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether skips blank cells.
 type: docs
+weight: 50
 url: /net/aspose.cells/pasteoptions/skipblanks/
 ---
 ## PasteOptions.SkipBlanks property

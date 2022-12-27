@@ -3,6 +3,7 @@ title: GetLastSelection
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the cell range of last selected.
 type: docs
+weight: 770
 url: /net/aspose.cells.griddesktop/worksheet/getlastselection/
 ---
 ## Worksheet.GetLastSelection method

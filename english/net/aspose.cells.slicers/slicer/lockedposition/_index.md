@@ -3,6 +3,7 @@ title: LockedPosition
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified slicer can be moved or resized by using the user interface.
 type: docs
+weight: 120
 url: /net/aspose.cells.slicers/slicer/lockedposition/
 ---
 ## Slicer.LockedPosition property

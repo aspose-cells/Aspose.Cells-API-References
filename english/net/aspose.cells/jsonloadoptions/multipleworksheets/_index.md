@@ -3,6 +3,7 @@ title: MultipleWorksheets
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether importing each attribute of JsonObject object as one worksheet when all child nodes are array nodes.
 type: docs
+weight: 30
 url: /net/aspose.cells/jsonloadoptions/multipleworksheets/
 ---
 ## JsonLoadOptions.MultipleWorksheets property

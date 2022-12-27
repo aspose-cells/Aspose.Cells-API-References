@@ -3,6 +3,7 @@ title: ExportGridLines
 second_title: Aspose.Cells for .NET API Reference
 description: Indicating whether exporting the gridlines.The default value is false.
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/exportgridlines/
 ---
 ## GridHtmlSaveOptions.ExportGridLines property

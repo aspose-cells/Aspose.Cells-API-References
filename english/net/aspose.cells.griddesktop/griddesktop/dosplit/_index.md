@@ -3,6 +3,7 @@ title: DoSplit
 second_title: Aspose.Cells for .NET API Reference
 description: Sets Split view.
 type: docs
+weight: 670
 url: /net/aspose.cells.griddesktop/griddesktop/dosplit/
 ---
 ## GridDesktop.DoSplit method

@@ -3,6 +3,7 @@ title: PicFormatOption
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets picture format option.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing/texturefill/picformatoption/
 ---
 ## TextureFill.PicFormatOption property

@@ -1,16 +1,17 @@
 ---
 title: GridWorksheetCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Encapsulates a collection of GridWorksheet./gridworksheet objects.
+description: Collects the  objects that represent the individual rows in a worksheet.
 type: docs
+weight: 590
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/
 ---
 ## GridWorksheetCollection class
 
-Encapsulates a collection of [`GridWorksheet`](../gridworksheet) objects.
+Collects the  objects that represent the individual rows in a worksheet.
 
 ```csharp
-public class GridWorksheetCollection : CollectionBase, ISerializable
+public class GridWorksheetCollection : ICollection, ISerializable
 ```
 
 ## Properties
@@ -22,7 +23,7 @@ public class GridWorksheetCollection : CollectionBase, ISerializable
 | [DefaultFontName](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontname) { get; set; } | Gets or sets the control's default font name. |
 | [DefaultFontSize](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontsize) { get; set; } | Gets or sets the control's default font size. |
 | [IsSynchronized](../../aspose.cells.gridweb.data/gridworksheetcollection/issynchronized) { get; } | Gets a value indicating if access to the ICollection is synchronized (thread-safe). |
-| [Item](../../aspose.cells.gridweb.data/gridworksheetcollection/item) { get; } | Gets the [`GridWorksheet`](../gridworksheet) element at the specified index. (2 indexers) |
+| [Item](../../aspose.cells.gridweb.data/gridworksheetcollection/item) { get; } | Gets the Worksheet element at the specified index. (2 indexers) |
 | [Names](../../aspose.cells.gridweb.data/gridworksheetcollection/names) { get; } | Gets the collection of all the Name objects in the spreadsheet. |
 | [NumberDecimalSeparator](../../aspose.cells.gridweb.data/gridworksheetcollection/numberdecimalseparator) { get; set; } | Gets or sets the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region. |
 | [SyncRoot](../../aspose.cells.gridweb.data/gridworksheetcollection/syncroot) { get; } | Gets an object that can be used to synchronize access to the ICollection. |
@@ -37,14 +38,14 @@ public class GridWorksheetCollection : CollectionBase, ISerializable
 | [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy)(int) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy_1)(string) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheetcollection/calculateformula)() | Calculates the result of formulas. |
-| [Clear](../../aspose.cells.gridweb.data/gridworksheetcollection/clear#clear)() | Clear all worksheets. |
+| [Clear](../../aspose.cells.gridweb.data/gridworksheetcollection/clear)() | Clear all worksheets. |
 | [CopyTo](../../aspose.cells.gridweb.data/gridworksheetcollection/copyto)(Array, int) | Copys contents to an array. |
-| [GetEnumerator](../../aspose.cells.gridweb.data/gridworksheetcollection/getenumerator#getenumerator)() | Gets the rows enumerator |
+| [GetEnumerator](../../aspose.cells.gridweb.data/gridworksheetcollection/getenumerator)() | Gets the rows enumerator |
 | [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview#importdataview)(DataView, TableItemStyle, TableItemStyle) | Imports from a DataView. Creates a sheet with the DataView's table name automatically. |
 | [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview#importdataview_1)(DataView, TableItemStyle, TableItemStyle, string, int, int) | Imports from a DataView to the specified sheet and position. |
 | [Insert](../../aspose.cells.gridweb.data/gridworksheetcollection/insert)(int, string) |  |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat#removeat)(int) | Removes the element at a specified index. |
-| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat#removeat_2)(string) | Removes the element at a specified name. |
+| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat#removeat_1)(string) | Removes the element at a specified name. |
 | [SetVisible](../../aspose.cells.gridweb.data/gridworksheetcollection/setvisible)(string, bool) | Sets the visible options. |
 | [SwapSheet](../../aspose.cells.gridweb.data/gridworksheetcollection/swapsheet)(int, int) | Swaps the two sheets. |
 

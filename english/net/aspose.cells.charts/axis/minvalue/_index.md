@@ -3,6 +3,7 @@ title: MinValue
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the minimum value on the value axis.
 type: docs
+weight: 330
 url: /net/aspose.cells.charts/axis/minvalue/
 ---
 ## Axis.MinValue property

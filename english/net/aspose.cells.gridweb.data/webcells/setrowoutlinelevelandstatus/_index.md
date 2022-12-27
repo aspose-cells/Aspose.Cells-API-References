@@ -3,6 +3,7 @@ title: SetRowOutlineLevelAndStatus
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the outline level of the row.
 type: docs
+weight: 380
 url: /net/aspose.cells.gridweb.data/webcells/setrowoutlinelevelandstatus/
 ---
 ## WebCells.SetRowOutlineLevelAndStatus method

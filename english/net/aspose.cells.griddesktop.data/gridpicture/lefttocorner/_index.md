@@ -3,6 +3,7 @@ title: LeftToCorner
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 280
 url: /net/aspose.cells.griddesktop.data/gridpicture/lefttocorner/
 ---
 ## GridPicture.LeftToCorner property

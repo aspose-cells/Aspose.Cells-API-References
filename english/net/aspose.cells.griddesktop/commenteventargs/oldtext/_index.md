@@ -3,6 +3,7 @@ title: OldText
 second_title: Aspose.Cells for .NET API Reference
 description: Gets old text data of comment
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop/commenteventargs/oldtext/
 ---
 ## CommentEventArgs.OldText property

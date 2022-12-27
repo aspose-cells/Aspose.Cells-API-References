@@ -3,6 +3,7 @@ title: CellsDataTableFactory
 second_title: Aspose.Cells for .NET API Reference
 description: Utility to build ICellsDataTable from custom objects for users convenience.
 type: docs
+weight: 320
 url: /net/aspose.cells/cellsdatatablefactory/
 ---
 ## CellsDataTableFactory class

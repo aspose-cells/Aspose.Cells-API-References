@@ -3,6 +3,7 @@ title: BackgroundColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the background Color of the Areaaspose.cells.drawing/area.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/patternfill/backgroundcolor/
 ---
 ## PatternFill.BackgroundColor property

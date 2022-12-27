@@ -3,6 +3,7 @@ title: ScopeType
 second_title: Aspose.Cells for .NET API Reference
 description: Get and set scope type for the pivot table condition format .
 type: docs
+weight: 30
 url: /net/aspose.cells.pivot/pivotformatcondition/scopetype/
 ---
 ## PivotFormatCondition.ScopeType property

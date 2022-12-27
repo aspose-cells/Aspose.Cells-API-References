@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the name of the trendline.
 type: docs
+weight: 90
 url: /net/aspose.cells.charts/trendline/name/
 ---
 ## Trendline.Name property

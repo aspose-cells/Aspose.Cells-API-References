@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets ErrorCheckOptionaspose.cells/errorcheckoption object by the given index.
 type: docs
+weight: 10
 url: /net/aspose.cells/errorcheckoptioncollection/item/
 ---
 ## ErrorCheckOptionCollection indexer

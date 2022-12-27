@@ -3,6 +3,7 @@ title: SetDesiredSize
 second_title: Aspose.Cells for .NET API Reference
 description: Sets desired width and height of image.
 type: docs
+weight: 380
 url: /net/aspose.cells.rendering/imageorprintoptions/setdesiredsize/
 ---
 ## ImageOrPrintOptions.SetDesiredSize method

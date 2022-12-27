@@ -3,6 +3,7 @@ title: TextOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the text options.
 type: docs
+weight: 3000
 url: /net/aspose.cells.drawing.texts/textoptions/
 ---
 ## TextOptions class
@@ -17,40 +18,39 @@ public class TextOptions : Font
 
 | Name | Description |
 | --- | --- |
-| [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | Gets and sets the color with a 32-bit ARGB value.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [CapsType](../../aspose.cells/font/capstype) { get; set; } | Gets and sets the text caps type.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [Charset](../../aspose.cells/font/charset) { get; set; } | Represent the character set.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [Color](../../aspose.cells/font/color) { get; set; } | Gets or sets the Color of the font.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | Gets and sets the double size of the font.(Inherited from [`Font`](../../aspose.cells/font).) |
+| [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | Gets and sets the color with a 32-bit ARGB value. |
+| [CapsType](../../aspose.cells/font/capstype) { get; set; } | Gets and sets the text caps type. |
+| [Charset](../../aspose.cells/font/charset) { get; set; } | Represent the character set. |
+| [Color](../../aspose.cells/font/color) { get; set; } | Gets or sets the Color of the font. |
+| [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | Gets and sets the double size of the font. |
 | [FarEastName](../../aspose.cells.drawing.texts/textoptions/fareastname) { get; set; } | Gets and sets the FarEast name. |
 | [Fill](../../aspose.cells.drawing.texts/textoptions/fill) { get; } | Represents the fill format of the text. |
-| [IsBold](../../aspose.cells/font/isbold) { get; set; } | Gets or sets a value indicating whether the font is bold.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | Gets or sets a value indicating whether the font is italic.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | Indicates whether the normalization of height that is to be applied to the text run.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [IsStrikeout](../../aspose.cells/font/isstrikeout) { get; set; } | Gets or sets a value indicating whether the font is single strikeout.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | Gets or sets a value indicating whether the font is subscript.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | Gets or sets a value indicating whether the font is super script.(Inherited from [`Font`](../../aspose.cells/font).) |
+| [IsBold](../../aspose.cells/font/isbold) { get; set; } | Gets or sets a value indicating whether the font is bold. |
+| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | Gets or sets a value indicating whether the font is italic. |
+| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | Indicates whether the normalization of height that is to be applied to the text run. |
+| [IsStrikeout](../../aspose.cells/font/isstrikeout) { get; set; } | Gets or sets a value indicating whether the font is single strikeout. |
+| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | Gets or sets a value indicating whether the font is subscript. |
+| [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | Gets or sets a value indicating whether the font is super script. |
 | [Kerning](../../aspose.cells.drawing.texts/textoptions/kerning) { get; set; } | Specifies the minimum font size at which character kerning will occur for this text run. |
-| [LanguageCode](../../aspose.cells.drawing.texts/textoptions/languagecode) { get; set; } | Gets and sets the user interface language. |
 | [LatinName](../../aspose.cells.drawing.texts/textoptions/latinname) { get; set; } | Gets and sets the latin name. |
 | override [Name](../../aspose.cells.drawing.texts/textoptions/name) { get; set; } | Gets and sets the name of the shape. |
 | [Outline](../../aspose.cells.drawing.texts/textoptions/outline) { get; } | Represents the outline format of the text. |
-| [SchemeType](../../aspose.cells/font/schemetype) { get; set; } | Gets and sets the scheme type of the font.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | Gets and sets the script offset,in unit of percentage(Inherited from [`Font`](../../aspose.cells/font).) |
+| [SchemeType](../../aspose.cells/font/schemetype) { get; set; } | Gets and sets the scheme type of the font. |
+| [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | Gets and sets the script offset,in unit of percentage |
 | [Shadow](../../aspose.cells.drawing.texts/textoptions/shadow) { get; } | Represents a  object that specifies shadow effect for the chart element or shape. |
-| [Size](../../aspose.cells/font/size) { get; set; } | Gets or sets the size of the font.(Inherited from [`Font`](../../aspose.cells/font).) |
+| [Size](../../aspose.cells/font/size) { get; set; } | Gets or sets the size of the font. |
 | [Spacing](../../aspose.cells.drawing.texts/textoptions/spacing) { get; set; } | Specifies the spacing between characters within a text run. |
-| [StrikeType](../../aspose.cells/font/striketype) { get; set; } | Gets the strike type of the text.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [ThemeColor](../../aspose.cells/font/themecolor) { get; set; } | Gets and sets the theme color.(Inherited from [`Font`](../../aspose.cells/font).) |
-| [Underline](../../aspose.cells/font/underline) { get; set; } | Gets or sets the font underline type.(Inherited from [`Font`](../../aspose.cells/font).) |
+| [StrikeType](../../aspose.cells/font/striketype) { get; set; } | Gets the strike type of the text. |
+| [ThemeColor](../../aspose.cells/font/themecolor) { get; set; } | Gets and sets the theme color. |
+| [Underline](../../aspose.cells/font/underline) { get; set; } | Gets or sets the font underline type. |
 | [UnderlineColor](../../aspose.cells.drawing.texts/textoptions/underlinecolor) { get; set; } | Gets or sets the color of underline. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.cells/font/equals)(Font) | Checks if two fonts are equals.(Inherited from [`Font`](../../aspose.cells/font).) |
-| override [ToString](../../aspose.cells/font/tostring)() | Returns a string represents the current Cell object.(Inherited from [`Font`](../../aspose.cells/font).) |
+| [Equals](../../aspose.cells/font/equals)(Font) | Checks if two fonts are equals. |
+| override [ToString](../../aspose.cells/font/tostring)() | Returns a string represents the current Cell object. |
 
 ### See Also
 

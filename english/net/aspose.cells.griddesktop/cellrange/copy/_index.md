@@ -3,6 +3,7 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copies from another CellRange object.
 type: docs
+weight: 100
 url: /net/aspose.cells.griddesktop/cellrange/copy/
 ---
 ## CellRange.Copy method

@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a PivotField Object to the specific type PivotFields.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/gridpivotfieldcollection/add/
 ---
 ## GridPivotFieldCollection.Add method

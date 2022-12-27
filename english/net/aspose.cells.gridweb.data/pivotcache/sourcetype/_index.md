@@ -3,6 +3,7 @@ title: SourceType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of the source data
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb.data/pivotcache/sourcetype/
 ---
 ## PivotCache.SourceType property

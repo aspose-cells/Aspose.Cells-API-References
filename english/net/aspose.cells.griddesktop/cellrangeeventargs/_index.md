@@ -3,6 +3,7 @@ title: CellRangeEventArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Provides data for grid cellrange events.
 type: docs
+weight: 200
 url: /net/aspose.cells.griddesktop/cellrangeeventargs/
 ---
 ## CellRangeEventArgs class

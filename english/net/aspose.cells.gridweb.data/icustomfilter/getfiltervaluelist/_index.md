@@ -3,6 +3,7 @@ title: GetFilterValueList
 second_title: Aspose.Cells for .NET API Reference
 description: Provides a value list to the specified column for filtering.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb.data/icustomfilter/getfiltervaluelist/
 ---
 ## ICustomFilter.GetFilterValueList method

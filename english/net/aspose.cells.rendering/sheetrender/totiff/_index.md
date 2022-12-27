@@ -3,6 +3,7 @@ title: ToTiff
 second_title: Aspose.Cells for .NET API Reference
 description: Render whole worksheet as Tiff Image to stream.
 type: docs
+weight: 90
 url: /net/aspose.cells.rendering/sheetrender/totiff/
 ---
 ## ToTiff(Stream) {#totiff}

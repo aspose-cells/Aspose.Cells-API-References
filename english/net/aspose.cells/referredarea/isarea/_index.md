@@ -3,6 +3,7 @@ title: IsArea
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this is an area.
 type: docs
+weight: 40
 url: /net/aspose.cells/referredarea/isarea/
 ---
 ## ReferredArea.IsArea property

@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets PowerQueryFormulaItemaspose.cells.querytables/powerqueryformulaitem by the index in the list.
 type: docs
+weight: 10
 url: /net/aspose.cells.querytables/powerqueryformulaitemcollection/item/
 ---
 ## PowerQueryFormulaItemCollection indexer (1 of 2)

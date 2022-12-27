@@ -3,6 +3,7 @@ title: AfterInsertColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs after new column is inserted.
 type: docs
+weight: 350
 url: /net/aspose.cells.griddesktop/griddesktop/afterinsertcolumns/
 ---
 ## GridDesktop.AfterInsertColumns event

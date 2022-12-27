@@ -3,6 +3,7 @@ title: Buffer
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Buffer of object.
 type: docs
+weight: 10
 url: /net/aspose.cells.gridweb.data/gridshape/buffer/
 ---
 ## GridShape.Buffer property

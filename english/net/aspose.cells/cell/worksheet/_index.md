@@ -3,6 +3,7 @@ title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the parent worksheet.
 type: docs
+weight: 330
 url: /net/aspose.cells/cell/worksheet/
 ---
 ## Cell.Worksheet property

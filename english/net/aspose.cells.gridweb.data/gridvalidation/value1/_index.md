@@ -3,6 +3,7 @@ title: Value1
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the value associated with the data validation.
 type: docs
+weight: 160
 url: /net/aspose.cells.gridweb.data/gridvalidation/value1/
 ---
 ## GridValidation.Value1 property

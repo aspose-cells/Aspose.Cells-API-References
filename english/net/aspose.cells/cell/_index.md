@@ -3,6 +3,7 @@ title: Cell
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single Workbook cell.
 type: docs
+weight: 230
 url: /net/aspose.cells/cell/
 ---
 ## Cell class
@@ -31,11 +32,10 @@ public class Cell
 | [IntValue](../../aspose.cells/cell/intvalue) { get; } | Gets the integer value contained in the cell. |
 | [IsArrayFormula](../../aspose.cells/cell/isarrayformula) { get; } | Indicates whether the cell formula is an array formula. |
 | [IsArrayHeader](../../aspose.cells/cell/isarrayheader) { get; } | Indicates the cell's formula is and array formula and it is the first cell of the array. |
-| [IsDynamicArrayFormula](../../aspose.cells/cell/isdynamicarrayformula) { get; } | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
 | [IsErrorValue](../../aspose.cells/cell/iserrorvalue) { get; } | Checks if the value of this cell is an error. |
 | [IsFormula](../../aspose.cells/cell/isformula) { get; } | Represents if the specified cell contains formula. |
-| [IsInArray](../../aspose.cells/cell/isinarray) { get; } | (**Obsolete.**) Indicates whether the cell formula is an array formula. |
-| [IsInTable](../../aspose.cells/cell/isintable) { get; } | (**Obsolete.**) Indicates whether this cell is part of table formula. |
+| [IsInArray](../../aspose.cells/cell/isinarray) { get; } | Indicates whether the cell formula is an array formula. |
+| [IsInTable](../../aspose.cells/cell/isintable) { get; } | Indicates whether this cell is part of table formula. |
 | [IsMerged](../../aspose.cells/cell/ismerged) { get; } | Checks if a cell is part of a merged range or not. |
 | [IsNumericValue](../../aspose.cells/cell/isnumericvalue) { get; } | Indicates whether the inner value of this cell is numeric(int, double and datetime) |
 | [IsSharedFormula](../../aspose.cells/cell/issharedformula) { get; } | Indicates whether the cell formula is part of shared formula. |
@@ -47,7 +47,7 @@ public class Cell
 | [Row](../../aspose.cells/cell/row) { get; } | Gets row number (zero based) of the cell. |
 | [SharedStyleIndex](../../aspose.cells/cell/sharedstyleindex) { get; } | Gets cell's shared style index in the style pool. |
 | [StringValue](../../aspose.cells/cell/stringvalue) { get; } | Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv). |
-| [StringValueWithoutFormat](../../aspose.cells/cell/stringvaluewithoutformat) { get; } | (**Obsolete.**) Gets cell's value as string without any format. |
+| [StringValueWithoutFormat](../../aspose.cells/cell/stringvaluewithoutformat) { get; } | Gets cell's value as string without any format. |
 | [Type](../../aspose.cells/cell/type) { get; } | Represents cell value type. |
 | [Value](../../aspose.cells/cell/value) { get; set; } | Gets the value contained in this cell. |
 | [Worksheet](../../aspose.cells/cell/worksheet) { get; } | Gets the parent worksheet. |
@@ -57,7 +57,7 @@ public class Cell
 | Name | Description |
 | --- | --- |
 | [Calculate](../../aspose.cells/cell/calculate#calculate)(CalculationOptions) | Calculates the formula of the cell. |
-| [Calculate](../../aspose.cells/cell/calculate#calculate_1)(bool, ICustomFunction) | (**Obsolete.**) Calculates the formula of the cell. |
+| [Calculate](../../aspose.cells/cell/calculate#calculate_1)(bool, ICustomFunction) | Calculates the formula of the cell. |
 | [Characters](../../aspose.cells/cell/characters)(int, int) | Returns a Characters object that represents a range of characters within the cell text. |
 | [Copy](../../aspose.cells/cell/copy)(Cell) | Copies data from a source cell. |
 | [Equals](../../aspose.cells/cell/equals#equals)(Cell) | Checks whether this object refers to the same cell with another cell object. |
@@ -75,8 +75,8 @@ public class Cell
 | override [GetHashCode](../../aspose.cells/cell/gethashcode)() | Serves as a hash function for a particular type. |
 | [GetHeightOfValue](../../aspose.cells/cell/getheightofvalue)() | Gets the height of the value in unit of pixels. |
 | [GetHtmlString](../../aspose.cells/cell/gethtmlstring)(bool) | Gets the html string which contains data and some formats in this cell. |
-| [GetLeafs](../../aspose.cells/cell/getleafs#getleafs)() | (**Obsolete.**) Get all cells which reference to this cell directly and need to be updated when this cell is modified. |
-| [GetLeafs](../../aspose.cells/cell/getleafs#getleafs_1)(bool) | (**Obsolete.**) Get all cells which will be updated when this cell is modified. |
+| [GetLeafs](../../aspose.cells/cell/getleafs#getleafs)() | Get all cells which reference to this cell directly and need to be updated when this cell is modified. |
+| [GetLeafs](../../aspose.cells/cell/getleafs#getleafs_1)(bool) | Get all cells which will be updated when this cell is modified. |
 | [GetMergedRange](../../aspose.cells/cell/getmergedrange)() | Returns a [`Range`](../range) object which represents a merged range. |
 | [GetPrecedents](../../aspose.cells/cell/getprecedents)() | Gets all references appearing in this cell's formula. |
 | [GetPrecedentsInCalculation](../../aspose.cells/cell/getprecedentsincalculation)() | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
@@ -99,26 +99,21 @@ public class Cell
 | [RemoveArrayFormula](../../aspose.cells/cell/removearrayformula)(bool) | Remove array formula. |
 | [SetArrayFormula](../../aspose.cells/cell/setarrayformula#setarrayformula)(string, int, int) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
 | [SetArrayFormula](../../aspose.cells/cell/setarrayformula#setarrayformula_1)(string, int, int, FormulaParseOptions) | Sets an array formula to a range of cells. |
-| [SetArrayFormula](../../aspose.cells/cell/setarrayformula#setarrayformula_3)(string, int, int, bool, bool) | (**Obsolete.**) Sets an array formula to a range of cells. |
+| [SetArrayFormula](../../aspose.cells/cell/setarrayformula#setarrayformula_3)(string, int, int, bool, bool) | Sets an array formula to a range of cells. |
 | [SetArrayFormula](../../aspose.cells/cell/setarrayformula#setarrayformula_2)(string, int, int, FormulaParseOptions, object[][]) | Sets an array formula to a range of cells. |
 | [SetCharacters](../../aspose.cells/cell/setcharacters)(FontSetting[]) | Sets rich text format of the cell. |
 | [SetDynamicArrayFormula](../../aspose.cells/cell/setdynamicarrayformula#setdynamicarrayformula)(string, FormulaParseOptions, bool) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetDynamicArrayFormula](../../aspose.cells/cell/setdynamicarrayformula#setdynamicarrayformula_1)(string, FormulaParseOptions, object[][], bool, bool) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
-| [SetDynamicArrayFormula](../../aspose.cells/cell/setdynamicarrayformula#setdynamicarrayformula_2)(string, FormulaParseOptions, object[][], bool, bool, CalculationOptions) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetFormula](../../aspose.cells/cell/setformula#setformula_2)(string, object) | Set the formula and the value of the formula. |
 | [SetFormula](../../aspose.cells/cell/setformula#setformula)(string, FormulaParseOptions, object) | Set the formula and the value of the formula. |
-| [SetFormula](../../aspose.cells/cell/setformula#setformula_1)(string, bool, bool, object) | (**Obsolete.**) Set the formula and the value of the formula. |
-| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula)(string, int, int) | Sets shared formulas to a range of cells. |
-| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_1)(string, int, int, FormulaParseOptions) | Sets shared formulas to a range of cells. |
-| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_3)(string, int, int, bool, bool) | (**Obsolete.**) Sets a formula to a range of cells. |
-| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_2)(string, int, int, FormulaParseOptions, object[][]) | Sets shared formulas to a range of cells. |
+| [SetFormula](../../aspose.cells/cell/setformula#setformula_1)(string, bool, bool, object) | Set the formula and the value of the formula. |
+| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula)(string, int, int) | Sets a formula to a range of cells. |
+| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_1)(string, int, int, FormulaParseOptions) | Sets a formula to a range of cells. |
+| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_3)(string, int, int, bool, bool) | Sets a formula to a range of cells. |
+| [SetSharedFormula](../../aspose.cells/cell/setsharedformula#setsharedformula_2)(string, int, int, FormulaParseOptions, object[][]) | Sets a formula to a range of cells. |
 | [SetStyle](../../aspose.cells/cell/setstyle#setstyle)(Style) | Sets the cell style. |
 | [SetStyle](../../aspose.cells/cell/setstyle#setstyle_2)(Style, bool) | Apply the cell style. |
 | [SetStyle](../../aspose.cells/cell/setstyle#setstyle_1)(Style, StyleFlag) | Apply the cell style. |
-| [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula_2)(int, int, string, bool, object[][]) | Create one-variable data table for given range starting from this cell. |
-| [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula_3)(int, int, string, string, object[][]) | Create two-variable data table for given range starting from this cell. |
-| [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula)(int, int, int, int, bool, object[][]) | Create one-variable data table for given range starting from this cell. |
-| [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula_1)(int, int, int, int, int, int, object[][]) | Create two-variable data table for given range starting from this cell. |
 | override [ToString](../../aspose.cells/cell/tostring)() | Returns a string represents the current Cell object. |
 
 ### Examples

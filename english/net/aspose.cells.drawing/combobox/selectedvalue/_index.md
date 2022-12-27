@@ -3,6 +3,7 @@ title: SelectedValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the selected value of the combox box.
 type: docs
+weight: 40
 url: /net/aspose.cells.drawing/combobox/selectedvalue/
 ---
 ## ComboBox.SelectedValue property

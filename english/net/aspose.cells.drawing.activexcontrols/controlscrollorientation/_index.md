@@ -3,6 +3,7 @@ title: ControlScrollOrientation
 second_title: Aspose.Cells for .NET API Reference
 description: Represents type of scroll orientation
 type: docs
+weight: 1610
 url: /net/aspose.cells.drawing.activexcontrols/controlscrollorientation/
 ---
 ## ControlScrollOrientation enumeration

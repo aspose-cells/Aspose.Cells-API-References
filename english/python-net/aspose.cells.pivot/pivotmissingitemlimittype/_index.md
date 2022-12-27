@@ -1,25 +1,29 @@
----
-title: PivotMissingItemLimitType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PivotMissingItemLimitType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 210
 url: /python-net/aspose.cells.pivot/pivotmissingitemlimittype/
+is_root: false
 ---
 
 ## PivotMissingItemLimitType enumeration
 
 Represents number of items to retain per field.
 
-## Members
-| Member name | Description |
+
+
+The PivotMissingItemLimitType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC|The default number of unique items per PivotField allowed.|
-|MAX|The maximum number of unique items per PivotField allowed (>32,500).|
-|NONE|No unique items per PivotField allowed.|
+| AUTOMATIC | The default number of unique items per PivotField allowed. |
+| MAX | The maximum number of unique items per PivotField allowed (>32,500). |
+| NONE | No unique items per PivotField allowed. |
+
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.pivot](../)

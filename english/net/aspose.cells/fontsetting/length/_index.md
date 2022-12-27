@@ -3,6 +3,7 @@ title: Length
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the length of the characters.
 type: docs
+weight: 30
 url: /net/aspose.cells/fontsetting/length/
 ---
 ## FontSetting.Length property

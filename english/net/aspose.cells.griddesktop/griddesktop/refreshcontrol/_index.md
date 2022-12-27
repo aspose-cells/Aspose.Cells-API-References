@@ -3,6 +3,7 @@ title: RefreshControl
 second_title: Aspose.Cells for .NET API Reference
 description: Refresh the GridDesktop control.
 type: docs
+weight: 760
 url: /net/aspose.cells.griddesktop/griddesktop/refreshcontrol/
 ---
 ## GridDesktop.RefreshControl method

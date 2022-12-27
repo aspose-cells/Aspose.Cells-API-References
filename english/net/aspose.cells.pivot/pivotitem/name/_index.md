@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of the pivot item.
 type: docs
+weight: 40
 url: /net/aspose.cells.pivot/pivotitem/name/
 ---
 ## PivotItem.Name property

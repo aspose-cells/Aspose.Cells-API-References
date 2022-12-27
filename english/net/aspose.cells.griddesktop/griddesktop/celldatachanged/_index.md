@@ -3,6 +3,7 @@ title: CellDataChanged
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the grid cell data property is changed.
 type: docs
+weight: 430
 url: /net/aspose.cells.griddesktop/griddesktop/celldatachanged/
 ---
 ## GridDesktop.CellDataChanged event

@@ -3,6 +3,7 @@ title: SetProtected
 second_title: Aspose.Cells for .NET API Reference
 description: Sets cellRange whether it is protected.this is an extended method used only in Grid. This method has nothing to do with the cell.Style.CellLocked property It will not take affect after save to excel file.
 type: docs
+weight: 1090
 url: /net/aspose.cells.griddesktop/worksheet/setprotected/
 ---
 ## Worksheet.SetProtected method

@@ -3,6 +3,7 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a single row in a worksheet.
 type: docs
+weight: 5530
 url: /net/aspose.cells/row/
 ---
 ## Row class
@@ -39,7 +40,7 @@ public class Row : IEnumerable
 | [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Copy settings of row, such as style, height, visibility, ...etc. |
 | [Equals](../../aspose.cells/row/equals#equals_1)(object) | Checks whether this object refers to the same row with another. |
 | [Equals](../../aspose.cells/row/equals#equals)(Row) | Checks whether this object refers to the same row with another row object. |
-| [GetCellByIndex](../../aspose.cells/row/getcellbyindex)(int) | (**Obsolete.**) Get the cell by specific index in the list. |
+| [GetCellByIndex](../../aspose.cells/row/getcellbyindex)(int) | Get the cell by specific index in the list. |
 | [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Gets the cell or null in the specific index. |
 | [GetEnumerator](../../aspose.cells/row/getenumerator)() | Gets the cells enumerator |
 

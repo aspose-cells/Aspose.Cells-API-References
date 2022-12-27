@@ -3,6 +3,7 @@ title: CustomFormat
 second_title: Aspose.Cells for .NET API Reference
 description: The custom format string.
 type: docs
+weight: 70
 url: /net/aspose.cells.gridweb/bindcolumn/customformat/
 ---
 ## BindColumn.CustomFormat property

@@ -3,6 +3,7 @@ title: GradientDirectionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all direction type of gradient.
 type: docs
+weight: 2070
 url: /net/aspose.cells.drawing/gradientdirectiontype/
 ---
 ## GradientDirectionType enumeration

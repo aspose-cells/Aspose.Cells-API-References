@@ -3,6 +3,7 @@ title: BackColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the border line back color.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/msolineformathelper/backcolor/
 ---
 ## MsoLineFormatHelper.BackColor property

@@ -3,6 +3,7 @@ title: MaxDisplayRange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the max range which includes data merged cells and shapes.
 type: docs
+weight: 120
 url: /net/aspose.cells/cells/maxdisplayrange/
 ---
 ## Cells.MaxDisplayRange property

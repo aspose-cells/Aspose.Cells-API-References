@@ -3,6 +3,7 @@ title: IsAutoEnd
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies a boolean value that indicates whether the application will use the source data to set the end range value.
 type: docs
+weight: 40
 url: /net/aspose.cells.pivot/sxrng/isautoend/
 ---
 ## SxRng.IsAutoEnd property

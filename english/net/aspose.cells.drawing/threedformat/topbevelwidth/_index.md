@@ -3,6 +3,7 @@ title: TopBevelWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the width of the top bevel or how far into the shape it is applied. In unit of Points.
 type: docs
+weight: 190
 url: /net/aspose.cells.drawing/threedformat/topbevelwidth/
 ---
 ## ThreeDFormat.TopBevelWidth property

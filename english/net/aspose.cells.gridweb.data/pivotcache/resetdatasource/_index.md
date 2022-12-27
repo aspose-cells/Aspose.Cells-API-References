@@ -3,6 +3,7 @@ title: ResetDataSource
 second_title: Aspose.Cells for .NET API Reference
 description: Resets the source data
 type: docs
+weight: 120
 url: /net/aspose.cells.gridweb.data/pivotcache/resetdatasource/
 ---
 ## ResetDataSource(DataTable) {#resetdatasource_1}

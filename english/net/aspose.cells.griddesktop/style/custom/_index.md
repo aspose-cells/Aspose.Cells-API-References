@@ -3,6 +3,7 @@ title: Custom
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 50
 url: /net/aspose.cells.griddesktop/style/custom/
 ---
 ## Style.Custom property

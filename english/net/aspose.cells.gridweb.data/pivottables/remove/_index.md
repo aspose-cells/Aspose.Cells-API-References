@@ -3,6 +3,7 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the specified PivotTable object from the PivotTables and the related PivotCache if it is not used by other PivotTable
 type: docs
+weight: 130
 url: /net/aspose.cells.gridweb.data/pivottables/remove/
 ---
 ## PivotTables.Remove method

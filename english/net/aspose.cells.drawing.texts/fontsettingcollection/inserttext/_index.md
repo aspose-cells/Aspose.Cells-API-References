@@ -3,6 +3,7 @@ title: InsertText
 second_title: Aspose.Cells for .NET API Reference
 description: Insert index at the position.
 type: docs
+weight: 130
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/inserttext/
 ---
 ## FontSettingCollection.InsertText method

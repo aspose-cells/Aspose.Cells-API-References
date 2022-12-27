@@ -3,6 +3,7 @@ title: PaneState
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the pane has horizontal or vertical splits and whether those splits are frozen.
 type: docs
+weight: 350
 url: /net/aspose.cells/worksheet/panestate/
 ---
 ## Worksheet.PaneState property

@@ -3,6 +3,7 @@ title: Separator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the separator type used for the data labels on a chart.
 type: docs
+weight: 130
 url: /net/aspose.cells.charts/datalabels/separator/
 ---
 ## DataLabels.Separator property

@@ -1,8 +1,9 @@
 ---
 title: DropDownLines
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the number of list lines displayed in the dropdown portion of a combo box.
+description: Gets or sets the number of list lines displayed in the drop-down portion of a combo box.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/combobox/dropdownlines/
 ---
 ## ComboBox.DropDownLines property

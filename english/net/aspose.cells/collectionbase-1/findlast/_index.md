@@ -3,6 +3,7 @@ title: FindLast
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 120
 url: /net/aspose.cells/collectionbase-1/findlast/
 ---
 ## CollectionBase&lt;T&gt;.FindLast method

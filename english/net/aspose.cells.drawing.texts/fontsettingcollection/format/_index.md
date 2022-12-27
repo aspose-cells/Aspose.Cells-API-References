@@ -3,6 +3,7 @@ title: Format
 second_title: Aspose.Cells for .NET API Reference
 description: Format the text with font setting.
 type: docs
+weight: 100
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/format/
 ---
 ## FontSettingCollection.Format method

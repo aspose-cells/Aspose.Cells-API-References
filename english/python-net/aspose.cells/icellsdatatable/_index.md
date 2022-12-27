@@ -1,34 +1,47 @@
----
-title: ICellsDataTable
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ICellsDataTable class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 810
 url: /python-net/aspose.cells/icellsdatatable/
+is_root: false
 ---
 
 ## ICellsDataTable class
 
 Represents data table.
 
+
+
 The ICellsDataTable type exposes the following members:
-## Properties
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [columns](/cells/python-net/aspose.cells/icellsdatatable/columns) | Gets the columns' name. |
+| [count](/cells/python-net/aspose.cells/icellsdatatable/count) | Gets the count of the records. -1 for unknown records count. |
+
+
+
+Gets the data stored in the column specified by index.
+### Indexer
 | Name | Description |
 | :- | :- |
-|columns|Gets the columns' name.|
-|count|Gets the count of the records. -1 for unknown records count.|
-## Indexer
-| Name | Description |
+| [index] | The zero-based index of the column. |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|[index]|Gets the data stored in the column specified by index.|
-## Methods
-| Name | Description |
-| :- | :- |
-|before_first()|Move the cursor to the front of this object, just before the first row.|
-|next()|Moves the cursor down one row from its current position.|
+| [before_first()](/cells/python-net/aspose.cells/icellsdatatable/before_first/#) | Move the cursor to the front of this object, just before the first row. |
+| [next()](/cells/python-net/aspose.cells/icellsdatatable/next/#) | Moves the cursor down one row from its current position. |
+
+
+### Remarks 
+
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

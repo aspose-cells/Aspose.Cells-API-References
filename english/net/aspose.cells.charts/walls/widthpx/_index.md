@@ -3,6 +3,7 @@ title: WidthPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the width of left to right in units of pixels after calls Chart.Calculate method.
 type: docs
+weight: 100
 url: /net/aspose.cells.charts/walls/widthpx/
 ---
 ## Walls.WidthPx property

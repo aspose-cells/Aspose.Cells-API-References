@@ -3,6 +3,7 @@ title: OriginalHeightInch
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the original height of picture in unit of inches.
 type: docs
+weight: 120
 url: /net/aspose.cells.drawing/picture/originalheightinch/
 ---
 ## Picture.OriginalHeightInch property

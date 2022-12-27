@@ -3,6 +3,7 @@ title: ConvertNumericData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value that indicates whether the string value should be converted to numeric or date value.
 type: docs
+weight: 50
 url: /net/aspose.cells/importtableoptions/convertnumericdata/
 ---
 ## ImportTableOptions.ConvertNumericData property

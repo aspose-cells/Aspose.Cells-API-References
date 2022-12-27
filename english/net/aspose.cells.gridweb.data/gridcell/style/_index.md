@@ -3,6 +3,7 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the copy of cell style. set the style for the cell.
 type: docs
+weight: 140
 url: /net/aspose.cells.gridweb.data/gridcell/style/
 ---
 ## GridCell.Style property

@@ -1,8 +1,9 @@
 ---
 title: DocumentProperty
 second_title: Aspose.Cells for .NET API Reference
-description: Represents a custom or builtin document property.
+description: Represents a custom or built-in document property.
 type: docs
+weight: 4890
 url: /net/aspose.cells.properties/documentproperty/
 ---
 ## DocumentProperty class

@@ -3,6 +3,7 @@ title: ColInMerged
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a value that indicates whether the specified column in merges.
 type: docs
+weight: 590
 url: /net/aspose.cells.griddesktop/worksheet/colinmerged/
 ---
 ## Worksheet.ColInMerged method

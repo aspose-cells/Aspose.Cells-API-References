@@ -3,6 +3,7 @@ title: CustomColumnCaption
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the custom column caption for the worksheet.
 type: docs
+weight: 100
 url: /net/aspose.cells.griddesktop/worksheet/customcolumncaption/
 ---
 ## Worksheet.CustomColumnCaption property

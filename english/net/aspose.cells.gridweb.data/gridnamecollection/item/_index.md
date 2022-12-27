@@ -1,13 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the GridNameaspose.cells.gridweb.data/gridname element at the specified index.
+description: Gets the Name element at the specified index.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb.data/gridnamecollection/item/
 ---
 ## GridNameCollection indexer
 
-Gets the [`GridName`](../../gridname) element at the specified index.
+Gets the Name element at the specified index.
 
 ```csharp
 public GridName this[int index] { get; }

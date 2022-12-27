@@ -3,6 +3,7 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name text of the object.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/gridname/text/
 ---
 ## GridName.Text property

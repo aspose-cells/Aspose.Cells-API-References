@@ -3,6 +3,7 @@ title: CalculateRange
 second_title: Aspose.Cells for .NET API Reference
 description: Calculates pivottables range.
 type: docs
+weight: 770
 url: /net/aspose.cells.pivot/pivottable/calculaterange/
 ---
 ## PivotTable.CalculateRange method

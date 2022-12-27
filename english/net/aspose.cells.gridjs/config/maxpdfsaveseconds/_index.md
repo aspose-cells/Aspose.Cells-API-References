@@ -3,6 +3,7 @@ title: MaxPdfSaveSeconds
 second_title: Aspose.Cells for .NET API Reference
 description: Sets /Gets the max timed out seconds when save to pdf
 type: docs
+weight: 80
 url: /net/aspose.cells.gridjs/config/maxpdfsaveseconds/
 ---
 ## Config.MaxPdfSaveSeconds property

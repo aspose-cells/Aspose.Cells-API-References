@@ -3,6 +3,7 @@ title: ConditionalFormattingIcon
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the custom icon of conditional formatting rule.
 type: docs
+weight: 1120
 url: /net/aspose.cells/conditionalformattingicon/
 ---
 ## ConditionalFormattingIcon class
@@ -25,7 +26,6 @@ public class ConditionalFormattingIcon
 
 | Name | Description |
 | --- | --- |
-| [GetImageData](../../aspose.cells/conditionalformattingicon/getimagedata)(Cell) | Gets the image data with the setting of cell. |
 | static [GetIconImageData](../../aspose.cells/conditionalformattingicon/geticonimagedata)(IconSetType, int) | Get the icon set data |
 
 ### See Also

@@ -3,6 +3,7 @@ title: CustomCommandButtons
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 160
 url: /net/aspose.cells.gridweb/mainweb/customcommandbuttons/
 ---
 ## MainWeb.CustomCommandButtons property

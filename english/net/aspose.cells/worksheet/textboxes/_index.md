@@ -3,6 +3,7 @@ title: TextBoxes
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a TextBoxaspose.cells.drawing/textbox collection.
 type: docs
+weight: 480
 url: /net/aspose.cells/worksheet/textboxes/
 ---
 ## Worksheet.TextBoxes property

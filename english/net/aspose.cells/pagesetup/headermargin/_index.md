@@ -3,6 +3,7 @@ title: HeaderMargin
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the distance from the top of the page to the header in unit of centimeters.
 type: docs
+weight: 110
 url: /net/aspose.cells/pagesetup/headermargin/
 ---
 ## PageSetup.HeaderMargin property

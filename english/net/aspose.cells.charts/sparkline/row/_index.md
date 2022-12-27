@@ -3,6 +3,7 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the row index of the sparkline.
 type: docs
+weight: 30
 url: /net/aspose.cells.charts/sparkline/row/
 ---
 ## Sparkline.Row property

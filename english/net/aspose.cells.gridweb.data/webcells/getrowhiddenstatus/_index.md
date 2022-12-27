@@ -3,6 +3,7 @@ title: GetRowHiddenStatus
 second_title: Aspose.Cells for .NET API Reference
 description: Get hidden status of a specified row.
 type: docs
+weight: 230
 url: /net/aspose.cells.gridweb.data/webcells/getrowhiddenstatus/
 ---
 ## WebCells.GetRowHiddenStatus method

@@ -3,6 +3,7 @@ title: ShowHeaderBar
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 920
 url: /net/aspose.cells.gridweb/mainweb/showheaderbar/
 ---
 ## MainWeb.ShowHeaderBar property

@@ -3,6 +3,7 @@ title: TopBevel
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the  object that holds the properties associated with defining a bevel on the top or front face of a shape.
 type: docs
+weight: 40
 url: /net/aspose.cells.drawing/format3d/topbevel/
 ---
 ## Format3D.TopBevel property

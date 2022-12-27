@@ -3,6 +3,7 @@ title: DataSorter
 second_title: Aspose.Cells for .NET API Reference
 description: Summary description for DataSorter.
 type: docs
+weight: 1310
 url: /net/aspose.cells/datasorter/
 ---
 ## DataSorter class

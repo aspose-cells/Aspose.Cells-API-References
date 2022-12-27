@@ -3,6 +3,7 @@ title: ExportImagesAsBase64
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies whether images are saved in Base64 format to HTML MHTML or EPUB.
 type: docs
+weight: 110
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/exportimagesasbase64/
 ---
 ## GridHtmlSaveOptions.ExportImagesAsBase64 property

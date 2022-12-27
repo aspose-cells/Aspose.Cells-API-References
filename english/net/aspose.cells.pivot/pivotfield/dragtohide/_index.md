@@ -3,6 +3,7 @@ title: DragToHide
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified field can be dragged to the hide position. The default value is true.
 type: docs
+weight: 130
 url: /net/aspose.cells.pivot/pivotfield/dragtohide/
 ---
 ## PivotField.DragToHide property

@@ -3,6 +3,7 @@ title: RecalculateFormulas
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether to recalculate all the cells formula when a cells value changed. The default value is true.
 type: docs
+weight: 220
 url: /net/aspose.cells.griddesktop/griddesktop/recalculateformulas/
 ---
 ## GridDesktop.RecalculateFormulas property

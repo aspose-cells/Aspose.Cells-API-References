@@ -3,6 +3,7 @@ title: ScaleX
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the X scale for tiling picture.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing/tilepicoption/scalex/
 ---
 ## TilePicOption.ScaleX property

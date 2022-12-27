@@ -3,6 +3,7 @@ title: GradientColorType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the gradient color type for the specified fill.
 type: docs
+weight: 2060
 url: /net/aspose.cells.drawing/gradientcolortype/
 ---
 ## GradientColorType enumeration

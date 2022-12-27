@@ -3,6 +3,7 @@ title: UpdateColumnName
 second_title: Aspose.Cells for .NET API Reference
 description: Update all column name of the tables.
 type: docs
+weight: 30
 url: /net/aspose.cells.tables/listobjectcollection/updatecolumnname/
 ---
 ## ListObjectCollection.UpdateColumnName method

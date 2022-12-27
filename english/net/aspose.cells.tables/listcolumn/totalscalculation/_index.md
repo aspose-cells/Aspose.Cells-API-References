@@ -3,6 +3,7 @@ title: TotalsCalculation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the type of calculation in the Totals row of the list column.
 type: docs
+weight: 40
 url: /net/aspose.cells.tables/listcolumn/totalscalculation/
 ---
 ## ListColumn.TotalsCalculation property

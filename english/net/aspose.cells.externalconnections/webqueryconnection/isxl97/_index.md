@@ -3,6 +3,7 @@ title: IsXl97
 second_title: Aspose.Cells for .NET API Reference
 description: This flag exists for backward compatibility with older existing spreadsheet files and is set to true if this web query was created in Microsoft Excel 97. This is an optional attribute that can be ignored.
 type: docs
+weight: 100
 url: /net/aspose.cells.externalconnections/webqueryconnection/isxl97/
 ---
 ## WebQueryConnection.IsXl97 property

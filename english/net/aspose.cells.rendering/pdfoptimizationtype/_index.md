@@ -3,6 +3,7 @@ title: PdfOptimizationType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies a type of optimization.
 type: docs
+weight: 5260
 url: /net/aspose.cells.rendering/pdfoptimizationtype/
 ---
 ## PdfOptimizationType enumeration

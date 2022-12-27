@@ -1,13 +1,14 @@
 ---
 title: GridNameCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Encapsulates a collection of GridName./gridname objects.
+description: Encapsulates a collection of Name objects.
 type: docs
+weight: 320
 url: /net/aspose.cells.gridweb.data/gridnamecollection/
 ---
 ## GridNameCollection class
 
-Encapsulates a collection of [`GridName`](../gridname) objects.
+Encapsulates a collection of Name objects.
 
 ```csharp
 public class GridNameCollection
@@ -18,7 +19,7 @@ public class GridNameCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridnamecollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridnamecollection/item) { get; } | Gets the [`GridName`](../gridname) element at the specified index. |
+| [Item](../../aspose.cells.gridweb.data/gridnamecollection/item) { get; } | Gets the Name element at the specified index. |
 
 ## Methods
 

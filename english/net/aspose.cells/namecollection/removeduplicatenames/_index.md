@@ -3,6 +3,7 @@ title: RemoveDuplicateNames
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the duplicate defined names
 type: docs
+weight: 70
 url: /net/aspose.cells/namecollection/removeduplicatenames/
 ---
 ## NameCollection.RemoveDuplicateNames method

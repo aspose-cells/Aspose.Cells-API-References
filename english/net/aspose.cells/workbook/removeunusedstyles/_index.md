@@ -3,6 +3,7 @@ title: RemoveUnusedStyles
 second_title: Aspose.Cells for .NET API Reference
 description: Remove all unused styles.
 type: docs
+weight: 580
 url: /net/aspose.cells/workbook/removeunusedstyles/
 ---
 ## Workbook.RemoveUnusedStyles method

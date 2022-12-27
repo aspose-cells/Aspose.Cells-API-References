@@ -3,6 +3,7 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the specified Slicer
 type: docs
+weight: 30
 url: /net/aspose.cells.slicers/slicercollection/remove/
 ---
 ## SlicerCollection.Remove method

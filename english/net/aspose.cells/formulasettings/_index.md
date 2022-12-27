@@ -3,6 +3,7 @@ title: FormulaSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Settings of formulas and calculation.
 type: docs
+weight: 3630
 url: /net/aspose.cells/formulasettings/
 ---
 ## FormulaSettings class

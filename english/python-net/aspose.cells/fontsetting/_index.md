@@ -1,36 +1,43 @@
----
-title: FontSetting
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: FontSetting class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 670
 url: /python-net/aspose.cells/fontsetting/
+is_root: false
 ---
 
 ## FontSetting class
 
 Represents a range of characters within the cell text.
 
+
+
 The FontSetting type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|FontSetting(start_index, length, sheets)|Initializes a new instance of the FontSetting class|
-## Properties
-| Name | Description |
+| [FontSetting(start_index, length, sheets)](/cells/python-net/aspose.cells/fontsetting/__init__/#int-int-WorksheetCollection) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|type|Gets the type of text node.|
-|start_index|Gets the start index of the characters.|
-|length|Gets the length of the characters.|
-|font|Returns the font of this object.|
-|text_options|Returns the text options.|
-## Methods
-| Name | Description |
+| [type](/cells/python-net/aspose.cells/fontsetting/type) | Gets the type of text node. |
+| [start_index](/cells/python-net/aspose.cells/fontsetting/start_index) | Gets the start index of the characters. |
+| [length](/cells/python-net/aspose.cells/fontsetting/length) | Gets the length of the characters. |
+| [font](/cells/python-net/aspose.cells/fontsetting/font) | Returns the font of this object. |
+| [text_options](/cells/python-net/aspose.cells/fontsetting/text_options) | Returns the text options. |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|set_word_art_style(style)|Sets the preset WordArt style.|
+| [set_word_art_style(style)](/cells/python-net/aspose.cells/fontsetting/set_word_art_style/#aspose.cells.drawing.PresetWordArtStyle) | Sets the preset WordArt style. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

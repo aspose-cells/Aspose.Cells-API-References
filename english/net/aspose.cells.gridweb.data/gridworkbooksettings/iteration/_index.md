@@ -3,6 +3,7 @@ title: Iteration
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether use iteration to resolve circular references.
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb.data/gridworkbooksettings/iteration/
 ---
 ## GridWorkbookSettings.Iteration property

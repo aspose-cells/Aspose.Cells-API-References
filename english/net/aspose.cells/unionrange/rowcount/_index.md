@@ -3,6 +3,7 @@ title: RowCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the count of rows in the range.
 type: docs
+weight: 110
 url: /net/aspose.cells/unionrange/rowcount/
 ---
 ## UnionRange.RowCount property

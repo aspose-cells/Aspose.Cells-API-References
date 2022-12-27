@@ -3,6 +3,7 @@ title: LoadOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of loading the file.
 type: docs
+weight: 4030
 url: /net/aspose.cells/loadoptions/
 ---
 ## LoadOptions class
@@ -30,7 +31,7 @@ public class LoadOptions
 | [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
 | [CultureInfo](../../aspose.cells/loadoptions/cultureinfo) { get; set; } | Gets or sets the system culture info at the time the file was loaded. |
 | [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | Gets the default style settings for initializing styles of the workbook |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load. |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.&gt; |
 | [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignore the data which are not printed if directly printing the file |
 | [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | Gets and sets the interrupt monitor. |
 | [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata) { get; set; } | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. |
@@ -43,8 +44,8 @@ public class LoadOptions
 | [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
 | [Password](../../aspose.cells/loadoptions/password) { get; set; } | Gets and set the password of the workbook. |
 | [Region](../../aspose.cells/loadoptions/region) { get; set; } | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
-| [StandardFont](../../aspose.cells/loadoptions/standardfont) { get; set; } | (**Obsolete.**) Sets the default standard font name |
-| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize) { get; set; } | (**Obsolete.**) Sets the default standard font size. |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont) { get; set; } | Sets the default standard font name |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize) { get; set; } | Sets the default standard font size. |
 | [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | Gets or sets warning callback. |
 
 ## Methods

@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a horizontal page break to the collection.
 type: docs
+weight: 20
 url: /net/aspose.cells/horizontalpagebreakcollection/add/
 ---
 ## Add(int, int, int) {#add_2}

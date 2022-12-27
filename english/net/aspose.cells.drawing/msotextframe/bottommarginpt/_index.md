@@ -3,6 +3,7 @@ title: BottomMarginPt
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the bottom margin in unit of Points
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/msotextframe/bottommarginpt/
 ---
 ## MsoTextFrame.BottomMarginPt property

@@ -3,6 +3,7 @@ title: IsChecked
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the radiobutton is checked or not.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/radiobutton/ischecked/
 ---
 ## RadioButton.IsChecked property

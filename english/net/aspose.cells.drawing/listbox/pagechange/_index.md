@@ -3,6 +3,7 @@ title: PageChange
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the amount by which the controls value is changed when the user clicks on the scrollbars page up or page down region.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/listbox/pagechange/
 ---
 ## ListBox.PageChange property

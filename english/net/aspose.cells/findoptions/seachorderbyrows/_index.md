@@ -3,6 +3,7 @@ title: SeachOrderByRows
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether search order by rows or columns.
 type: docs
+weight: 90
 url: /net/aspose.cells/findoptions/seachorderbyrows/
 ---
 ## FindOptions.SeachOrderByRows property

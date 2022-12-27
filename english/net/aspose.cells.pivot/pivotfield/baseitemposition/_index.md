@@ -3,6 +3,7 @@ title: BaseItemPosition
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the item in the base field for a custom calculation. Valid only for data fields. Because PivotItemPosition.Custom is only for readif you need to set PivotItemPosition.Custom please set PivotField.BaseItemIndex attribute.
 type: docs
+weight: 70
 url: /net/aspose.cells.pivot/pivotfield/baseitemposition/
 ---
 ## PivotField.BaseItemPosition property

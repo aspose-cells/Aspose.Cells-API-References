@@ -3,6 +3,7 @@ title: ChartDataTable
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a chart data table.
 type: docs
+weight: 460
 url: /net/aspose.cells.charts/chartdatatable/
 ---
 ## ChartDataTable class
@@ -18,7 +19,7 @@ public class ChartDataTable
 | Name | Description |
 | --- | --- |
 | [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [Background](../../aspose.cells.charts/chartdatatable/background) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background |
+| [Background](../../aspose.cells.charts/chartdatatable/background) { get; set; } | Gets and sets the display mode of the background |
 | [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode) { get; set; } | Gets and sets the display mode of the background |
 | [Border](../../aspose.cells.charts/chartdatatable/border) { get; } | Returns a Border object that represents the border of the object |
 | [Font](../../aspose.cells.charts/chartdatatable/font) { get; } | Gets a [`Font`](./font) object which represents the font setting of the specified chart data table. |

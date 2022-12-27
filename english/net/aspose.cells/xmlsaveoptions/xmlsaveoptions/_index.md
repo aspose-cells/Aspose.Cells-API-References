@@ -3,6 +3,7 @@ title: XmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Creates options for saving xml file.
 type: docs
+weight: 10
 url: /net/aspose.cells/xmlsaveoptions/xmlsaveoptions/
 ---
 ## XmlSaveOptions constructor

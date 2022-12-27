@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the texture type
 type: docs
+weight: 80
 url: /net/aspose.cells.drawing/texturefill/type/
 ---
 ## TextureFill.Type property

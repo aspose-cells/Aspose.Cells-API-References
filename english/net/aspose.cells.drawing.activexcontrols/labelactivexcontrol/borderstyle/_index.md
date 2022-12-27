@@ -3,6 +3,7 @@ title: BorderStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and set the type of border used by the control.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/borderstyle/
 ---
 ## LabelActiveXControl.BorderStyle property

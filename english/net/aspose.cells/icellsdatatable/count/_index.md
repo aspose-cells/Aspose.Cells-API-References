@@ -1,8 +1,9 @@
 ---
 title: Count
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the count of the records. 1 for unknown records count.
+description: Gets the count of the records. -1 for unknown records count.
 type: docs
+weight: 20
 url: /net/aspose.cells/icellsdatatable/count/
 ---
 ## ICellsDataTable.Count property

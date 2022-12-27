@@ -3,6 +3,7 @@ title: ThemeColor
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a theme color.
 type: docs
+weight: 1000
 url: /net/aspose.cells.griddesktop/themecolor/
 ---
 ## ThemeColor class

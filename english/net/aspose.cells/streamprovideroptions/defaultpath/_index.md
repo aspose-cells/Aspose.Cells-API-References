@@ -3,6 +3,7 @@ title: DefaultPath
 second_title: Aspose.Cells for .NET API Reference
 description: The default pathURL saved in generated html file for the referred source. For example the sheet data saved in xxx_files/sheet001.htm the url used in the main html file should be like srcxxx_files/sheet001.htm
 type: docs
+weight: 30
 url: /net/aspose.cells/streamprovideroptions/defaultpath/
 ---
 ## StreamProviderOptions.DefaultPath property

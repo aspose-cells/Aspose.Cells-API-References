@@ -3,6 +3,7 @@ title: Parameters
 second_title: Aspose.Cells for .NET API Reference
 description: Gets ConnectionParameterCollectionaspose.cells.externalconnections/connectionparametercollection for an ODBC or web query.
 type: docs
+weight: 130
 url: /net/aspose.cells.externalconnections/externalconnection/parameters/
 ---
 ## ExternalConnection.Parameters property

@@ -3,6 +3,7 @@ title: BlackAndWhite
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if elements of the document will be printed in black and white.
 type: docs
+weight: 10
 url: /net/aspose.cells/pagesetup/blackandwhite/
 ---
 ## PageSetup.BlackAndWhite property

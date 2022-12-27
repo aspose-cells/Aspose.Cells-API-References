@@ -3,6 +3,7 @@ title: AlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the alignment for tiling.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/tilepicoption/alignmenttype/
 ---
 ## TilePicOption.AlignmentType property

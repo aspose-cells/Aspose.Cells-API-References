@@ -1,0 +1,18 @@
+﻿---
+title: is_printable property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 630
+url: /python-net/aspose.cells.drawing/listbox/is_printable/
+is_root: false
+---
+
+## is_printable property
+
+
+True if the object is printable
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [ListBox](/cells/python-net/aspose.cells.drawing/listbox)

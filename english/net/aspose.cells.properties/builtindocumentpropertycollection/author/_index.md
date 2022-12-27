@@ -3,6 +3,7 @@ title: Author
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the name of the documents author.
 type: docs
+weight: 10
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/author/
 ---
 ## BuiltInDocumentPropertyCollection.Author property

@@ -3,6 +3,7 @@ title: EmbedOoxmlAsOleObject
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether embedding Ooxml files of OleObject as ole object.
 type: docs
+weight: 30
 url: /net/aspose.cells/ooxmlsaveoptions/embedooxmlasoleobject/
 ---
 ## OoxmlSaveOptions.EmbedOoxmlAsOleObject property

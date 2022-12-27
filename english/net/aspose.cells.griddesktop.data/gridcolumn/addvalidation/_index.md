@@ -3,6 +3,7 @@ title: AddValidation
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 120
 url: /net/aspose.cells.griddesktop.data/gridcolumn/addvalidation/
 ---
 ## AddValidation(ICustomValidation) {#addvalidation}

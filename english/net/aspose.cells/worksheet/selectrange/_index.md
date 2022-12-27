@@ -3,6 +3,7 @@ title: SelectRange
 second_title: Aspose.Cells for .NET API Reference
 description: Selects a range.
 type: docs
+weight: 830
 url: /net/aspose.cells/worksheet/selectrange/
 ---
 ## Worksheet.SelectRange method

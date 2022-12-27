@@ -3,6 +3,7 @@ title: IsBlank
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the row contains any data
 type: docs
+weight: 60
 url: /net/aspose.cells/row/isblank/
 ---
 ## Row.IsBlank property

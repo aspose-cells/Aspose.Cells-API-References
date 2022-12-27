@@ -1,13 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the GridValidationaspose.cells.gridweb.data/gridvalidation element at the specified index.
+description: Gets the Hyperlinkaspose.cells.gridweb.data/hyperlink element at the specified index.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb.data/gridvalidationcollection/item/
 ---
 ## GridValidationCollection indexer
 
-Gets the [`GridValidation`](../../gridvalidation) element at the specified index.
+Gets the [`Hyperlink`](../../hyperlink) element at the specified index.
 
 ```csharp
 public GridValidation this[int index] { get; }

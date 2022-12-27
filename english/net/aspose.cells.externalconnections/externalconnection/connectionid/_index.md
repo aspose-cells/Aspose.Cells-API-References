@@ -3,6 +3,7 @@ title: ConnectionId
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies The unique identifier of this connection.
 type: docs
+weight: 30
 url: /net/aspose.cells.externalconnections/externalconnection/connectionid/
 ---
 ## ExternalConnection.ConnectionId property

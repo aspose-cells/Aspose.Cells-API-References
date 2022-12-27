@@ -1,24 +1,28 @@
----
-title: DrawObjectEnum
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: DrawObjectEnum enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 170
+weight: 160
 url: /python-net/aspose.cells.rendering/drawobjectenum/
+is_root: false
 ---
 
 ## DrawObjectEnum enumeration
 
 Indicate Cell or Image of DrawObject.
 
-## Members
-| Member name | Description |
+
+
+The DrawObjectEnum type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|IMAGE|Indicate DrawObject is an Image|
-|CELL|indicate DrawObject is an Cell|
+| IMAGE | Indicate DrawObject is an Image |
+| CELL | indicate DrawObject is an Cell |
+
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.rendering](../)

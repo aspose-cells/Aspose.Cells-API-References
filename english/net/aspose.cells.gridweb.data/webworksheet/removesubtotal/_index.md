@@ -3,6 +3,7 @@ title: RemoveSubtotal
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 320
 url: /net/aspose.cells.gridweb.data/webworksheet/removesubtotal/
 ---
 ## WebWorksheet.RemoveSubtotal method

@@ -3,6 +3,7 @@ title: IsDynamicDataExchange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether dynamic data exchange
 type: docs
+weight: 80
 url: /net/aspose.cells.drawing/picture/isdynamicdataexchange/
 ---
 ## Picture.IsDynamicDataExchange property

@@ -3,6 +3,7 @@ title: MenuItemAvailable_DeleteColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item DeleteColumn is available.
 type: docs
+weight: 80
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_deletecolumn/
 ---
 ## ContextMenuManager.MenuItemAvailable_DeleteColumn property

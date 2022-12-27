@@ -3,6 +3,7 @@ title: Items
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the items of the filter.
 type: docs
+weight: 40
 url: /net/aspose.cells/top10filter/items/
 ---
 ## Top10Filter.Items property

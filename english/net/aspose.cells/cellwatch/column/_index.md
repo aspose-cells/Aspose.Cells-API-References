@@ -3,6 +3,7 @@ title: Column
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the column of the cell.
 type: docs
+weight: 30
 url: /net/aspose.cells/cellwatch/column/
 ---
 ## CellWatch.Column property

@@ -3,6 +3,7 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all worksheets.
 type: docs
+weight: 160
 url: /net/aspose.cells.gridweb.data/webworksheets/clear/
 ---
 ## WebWorksheets.Clear method

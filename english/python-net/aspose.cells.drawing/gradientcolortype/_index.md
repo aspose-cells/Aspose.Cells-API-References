@@ -1,26 +1,30 @@
----
-title: GradientColorType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: GradientColorType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1120
+weight: 850
 url: /python-net/aspose.cells.drawing/gradientcolortype/
+is_root: false
 ---
 
 ## GradientColorType enumeration
 
 Represents the gradient color type for the specified fill.
 
-## Members
-| Member name | Description |
+
+
+The GradientColorType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|No gradient color|
-|ONE_COLOR|One gradient color|
-|PRESET_COLORS|Preset gradient colors|
-|TWO_COLORS|Two gradient colors|
+| NONE | No gradient color |
+| ONE_COLOR | One gradient color |
+| PRESET_COLORS | Preset gradient colors |
+| TWO_COLORS | Two gradient colors |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

@@ -3,6 +3,7 @@ title: ImportExcelFile
 second_title: Aspose.Cells for .NET API Reference
 description: Imports from an excel file stream including disk file stream or memory stream.
 type: docs
+weight: 730
 url: /net/aspose.cells.griddesktop/griddesktop/importexcelfile/
 ---
 ## ImportExcelFile(Stream) {#importexcelfile}

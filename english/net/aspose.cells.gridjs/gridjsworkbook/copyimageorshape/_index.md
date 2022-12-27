@@ -3,6 +3,7 @@ title: CopyImageOrShape
 second_title: Aspose.Cells for .NET API Reference
 description: copy image or shape in the worksheet
 type: docs
+weight: 40
 url: /net/aspose.cells.gridjs/gridjsworkbook/copyimageorshape/
 ---
 ## GridJsWorkbook.CopyImageOrShape method

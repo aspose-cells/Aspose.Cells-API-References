@@ -3,6 +3,7 @@ title: FirstColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the index of the first column of the range.
 type: docs
+weight: 80
 url: /net/aspose.cells/range/firstcolumn/
 ---
 ## Range.FirstColumn property

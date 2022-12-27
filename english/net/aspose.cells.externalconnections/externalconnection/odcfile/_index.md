@@ -3,6 +3,7 @@ title: OdcFile
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the full path to external connection file from which this connection was created. If a connection fails during an attempt to refresh data and reconnectionMethod1 then the spreadsheet application will try again using information from the external connection file instead of the connection object embedded within the workbook.
 type: docs
+weight: 110
 url: /net/aspose.cells.externalconnections/externalconnection/odcfile/
 ---
 ## ExternalConnection.OdcFile property

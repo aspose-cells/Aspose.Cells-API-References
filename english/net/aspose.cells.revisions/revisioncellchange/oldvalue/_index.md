@@ -3,6 +3,7 @@ title: OldValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets old value of the cell.
 type: docs
+weight: 100
 url: /net/aspose.cells.revisions/revisioncellchange/oldvalue/
 ---
 ## RevisionCellChange.OldValue property

@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of the pivot filter.
 type: docs
+weight: 70
 url: /net/aspose.cells.pivot/pivotfilter/name/
 ---
 ## PivotFilter.Name property

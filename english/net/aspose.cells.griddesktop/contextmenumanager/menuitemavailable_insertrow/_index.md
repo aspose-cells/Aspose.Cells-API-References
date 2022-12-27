@@ -3,6 +3,7 @@ title: MenuItemAvailable_InsertRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item InsertRow is available.
 type: docs
+weight: 180
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_insertrow/
 ---
 ## ContextMenuManager.MenuItemAvailable_InsertRow property

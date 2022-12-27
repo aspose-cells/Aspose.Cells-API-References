@@ -3,6 +3,7 @@ title: TextDirection
 second_title: Aspose.Cells for .NET API Reference
 description: Text direction setting will be applied.
 type: docs
+weight: 280
 url: /net/aspose.cells/styleflag/textdirection/
 ---
 ## StyleFlag.TextDirection property

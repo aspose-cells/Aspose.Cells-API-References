@@ -3,6 +3,7 @@ title: ActiveSheetName
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the name of active worksheet when the spreadsheet is opened.
 type: docs
+weight: 20
 url: /net/aspose.cells/worksheetcollection/activesheetname/
 ---
 ## WorksheetCollection.ActiveSheetName property

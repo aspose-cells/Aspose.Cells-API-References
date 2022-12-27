@@ -3,6 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the rows enumerator
 type: docs
+weight: 100
 url: /net/aspose.cells.griddesktop/worksheetcollection/getenumerator/
 ---
 ## WorksheetCollection.GetEnumerator method

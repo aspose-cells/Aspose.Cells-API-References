@@ -3,6 +3,7 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the element at the specified index.
 type: docs
+weight: 40
 url: /net/aspose.cells.drawing/oleobjectcollection/removeat/
 ---
 ## OleObjectCollection.RemoveAt method

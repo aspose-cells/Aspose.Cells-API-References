@@ -3,6 +3,7 @@ title: UpdateLinkedRange
 second_title: Aspose.Cells for .NET API Reference
 description: Update custom document property value to linked range.
 type: docs
+weight: 40
 url: /net/aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange/
 ---
 ## CustomDocumentPropertyCollection.UpdateLinkedRange method

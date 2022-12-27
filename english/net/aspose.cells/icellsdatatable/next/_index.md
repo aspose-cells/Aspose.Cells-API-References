@@ -3,6 +3,7 @@ title: Next
 second_title: Aspose.Cells for .NET API Reference
 description: Moves the cursor down one row from its current position.
 type: docs
+weight: 50
 url: /net/aspose.cells/icellsdatatable/next/
 ---
 ## ICellsDataTable.Next method

@@ -3,6 +3,7 @@ title: ShowReportFilterPageByName
 second_title: Aspose.Cells for .NET API Reference
 description: Show all the report filter pages according to PivotFields name the PivotField must be located in the PageFields.
 type: docs
+weight: 1010
 url: /net/aspose.cells.pivot/pivottable/showreportfilterpagebyname/
 ---
 ## PivotTable.ShowReportFilterPageByName method

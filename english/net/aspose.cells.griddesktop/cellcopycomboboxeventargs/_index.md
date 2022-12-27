@@ -3,6 +3,7 @@ title: CellCopyComboBoxEventArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Provides data for cell copy ComboBox events.
 type: docs
+weight: 100
 url: /net/aspose.cells.griddesktop/cellcopycomboboxeventargs/
 ---
 ## CellCopyComboBoxEventArgs class

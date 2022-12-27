@@ -1,8 +1,9 @@
 ---
 title: AbstractInterruptMonitor
 second_title: Aspose.Cells for .NET API Reference
-description: Monitor for interruption requests in all timeconsuming operations.
+description: Monitor for interruption requests in all time-consuming operations.
 type: docs
+weight: 50
 url: /net/aspose.cells/abstractinterruptmonitor/
 ---
 ## AbstractInterruptMonitor class

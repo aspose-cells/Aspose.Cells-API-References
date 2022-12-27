@@ -1,34 +1,38 @@
----
-title: ChartMarkerType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ChartMarkerType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 420
 url: /python-net/aspose.cells.charts/chartmarkertype/
+is_root: false
 ---
 
 ## ChartMarkerType enumeration
 
 Represents the marker style in a line chart, scatter chart, or radar chart.
 
-## Members
-| Member name | Description |
+
+
+The ChartMarkerType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC|Automatic markers.|
-|CIRCLE|Circular markers.|
-|DASH|Long bar markers|
-|DIAMOND|Diamond-shaped markers.|
-|DOT|Short bar markers.|
-|NONE|No markers.|
-|SQUARE_PLUS|Square markers with a plus sign.|
-|SQUARE|Square markers.|
-|SQUARE_STAR|Square markers with an asterisk.|
-|TRIANGLE|Triangular markers.|
-|SQUARE_X|Square markers with an X.|
-|PICTURE|Picture|
+| AUTOMATIC | Automatic markers. |
+| CIRCLE | Circular markers. |
+| DASH | Long bar markers |
+| DIAMOND | Diamond-shaped markers. |
+| DOT | Short bar markers. |
+| NONE | No markers. |
+| SQUARE_PLUS | Square markers with a plus sign. |
+| SQUARE | Square markers. |
+| SQUARE_STAR | Square markers with an asterisk. |
+| TRIANGLE | Triangular markers. |
+| SQUARE_X | Square markers with an X. |
+| PICTURE | Picture |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

@@ -3,6 +3,7 @@ title: SetImageResample
 second_title: Aspose.Cells for .NET API Reference
 description: Sets desired PPIpixels per inch of resample images and jpeg quality. All images will be converted to JPEG with the specified quality setting and images that are greater than the specified PPI pixels per inch will be resampled.
 type: docs
+weight: 330
 url: /net/aspose.cells/pdfsaveoptions/setimageresample/
 ---
 ## PdfSaveOptions.SetImageResample method

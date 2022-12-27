@@ -3,6 +3,7 @@ title: LoadPostData
 second_title: Aspose.Cells for .NET API Reference
 description: Internal used only.
 type: docs
+weight: 120
 url: /net/aspose.cells.gridweb/gridwebform/loadpostdata/
 ---
 ## GridWebForm.LoadPostData method

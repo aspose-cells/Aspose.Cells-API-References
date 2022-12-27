@@ -3,6 +3,7 @@ title: Operator
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the operator for the data validation.
 type: docs
+weight: 150
 url: /net/aspose.cells.griddesktop.data/gridvalidation/operator/
 ---
 ## GridValidation.Operator property

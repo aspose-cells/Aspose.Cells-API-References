@@ -3,6 +3,7 @@ title: NumberFormats
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the number formats
 type: docs
+weight: 120
 url: /net/aspose.cells/importtableoptions/numberformats/
 ---
 ## ImportTableOptions.NumberFormats property

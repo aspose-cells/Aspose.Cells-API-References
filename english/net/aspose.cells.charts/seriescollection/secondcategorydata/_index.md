@@ -3,6 +3,7 @@ title: SecondCategoryData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the range of second category Axis values. It can be a range of cells such as d1e10 or a sequence of values such as26810. Only effects when some ASerieses plot on the second axis.
 type: docs
+weight: 40
 url: /net/aspose.cells.charts/seriescollection/secondcategorydata/
 ---
 ## SeriesCollection.SecondCategoryData property

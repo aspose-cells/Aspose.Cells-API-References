@@ -3,6 +3,7 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clears the collection.
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/clear/
 ---
 ## CustomCommandButtonCollection.Clear method

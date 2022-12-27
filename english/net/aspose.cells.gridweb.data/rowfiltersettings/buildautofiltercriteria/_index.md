@@ -3,6 +3,7 @@ title: BuildAutoFilterCriteria
 second_title: Aspose.Cells for .NET API Reference
 description: Builds criteria string from auto filter settings.
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/rowfiltersettings/buildautofiltercriteria/
 ---
 ## RowFilterSettings.BuildAutoFilterCriteria method

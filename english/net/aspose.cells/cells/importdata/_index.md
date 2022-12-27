@@ -3,6 +3,7 @@ title: ImportData
 second_title: Aspose.Cells for .NET API Reference
 description: Imports data from a IDataReader object.
 type: docs
+weight: 1000
 url: /net/aspose.cells/cells/importdata/
 ---
 ## ImportData(IDataReader, int, int) {#importdata_3}

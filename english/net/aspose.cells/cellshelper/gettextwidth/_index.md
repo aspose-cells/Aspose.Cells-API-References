@@ -3,6 +3,7 @@ title: GetTextWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Get width of text in unit of points.
 type: docs
+weight: 180
 url: /net/aspose.cells/cellshelper/gettextwidth/
 ---
 ## CellsHelper.GetTextWidth method

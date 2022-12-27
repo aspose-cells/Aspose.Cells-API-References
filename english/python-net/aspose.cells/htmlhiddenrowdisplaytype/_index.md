@@ -1,24 +1,28 @@
----
-title: HtmlHiddenRowDisplayType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: HtmlHiddenRowDisplayType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4700
+weight: 2160
 url: /python-net/aspose.cells/htmlhiddenrowdisplaytype/
+is_root: false
 ---
 
 ## HtmlHiddenRowDisplayType enumeration
 
 Represents two types of showing the hidden rows in html.
 
-## Members
-| Member name | Description |
+
+
+The HtmlHiddenRowDisplayType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|HIDDEN|Hidden the hidden rows in html page.|
-|REMOVE|Remove the hidden rows in html page.|
+| HIDDEN | Hidden the hidden rows in html page. |
+| REMOVE | Remove the hidden rows in html page. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

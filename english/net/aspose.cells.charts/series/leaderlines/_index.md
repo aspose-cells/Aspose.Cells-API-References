@@ -3,6 +3,7 @@ title: LeaderLines
 second_title: Aspose.Cells for .NET API Reference
 description: Represents leader lines on a chart. Leader lines connect data labels to data points. This object isnt a collection theres no object that represents a single leader line.
 type: docs
+weight: 280
 url: /net/aspose.cells.charts/series/leaderlines/
 ---
 ## Series.LeaderLines property

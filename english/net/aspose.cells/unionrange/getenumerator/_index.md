@@ -3,6 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the enumerator for cells in this Range.
 type: docs
+weight: 150
 url: /net/aspose.cells/unionrange/getenumerator/
 ---
 ## UnionRange.GetEnumerator method

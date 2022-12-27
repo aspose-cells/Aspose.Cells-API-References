@@ -3,6 +3,7 @@ title: SelectedCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the selected cell in the input range of the combo box.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/combobox/selectedcell/
 ---
 ## ComboBox.SelectedCell property

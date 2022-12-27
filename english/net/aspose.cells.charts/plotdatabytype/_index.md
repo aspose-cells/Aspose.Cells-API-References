@@ -3,6 +3,7 @@ title: PlotDataByType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of data plot by row or column.
 type: docs
+weight: 800
 url: /net/aspose.cells.charts/plotdatabytype/
 ---
 ## PlotDataByType enumeration

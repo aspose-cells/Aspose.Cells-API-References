@@ -1,26 +1,30 @@
----
-title: LineJoinType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: LineJoinType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1210
+weight: 940
 url: /python-net/aspose.cells.drawing/linejointype/
+is_root: false
 ---
 
 ## LineJoinType enumeration
 
 Represents the join styles of a line.
 
-## Members
-| Member name | Description |
+
+
+The LineJoinType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|ROUND|Round joint|
-|BEVEL|Bevel joint|
-|MITER|Miter joint|
-|NONE|None joint|
+| ROUND | Round joint |
+| BEVEL | Bevel joint |
+| MITER | Miter joint |
+| NONE | None joint |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

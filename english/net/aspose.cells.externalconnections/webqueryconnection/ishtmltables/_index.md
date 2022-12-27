@@ -3,6 +3,7 @@ title: IsHtmlTables
 second_title: Aspose.Cells for .NET API Reference
 description: Flag indicating whether web queries should only work on HTML tables.
 type: docs
+weight: 50
 url: /net/aspose.cells.externalconnections/webqueryconnection/ishtmltables/
 ---
 ## WebQueryConnection.IsHtmlTables property

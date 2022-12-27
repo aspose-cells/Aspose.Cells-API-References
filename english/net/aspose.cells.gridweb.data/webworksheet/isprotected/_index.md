@@ -3,6 +3,7 @@ title: IsProtected
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether the worksheet is protected. When a worksheet is protected all the cells can not be edit except the cell whose IsLocked property is false.
 type: docs
+weight: 150
 url: /net/aspose.cells.gridweb.data/webworksheet/isprotected/
 ---
 ## WebWorksheet.IsProtected property

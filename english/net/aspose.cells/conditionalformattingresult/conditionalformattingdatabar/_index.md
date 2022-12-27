@@ -3,6 +3,7 @@ title: ConditionalFormattingDataBar
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the DataBar object.
 type: docs
+weight: 30
 url: /net/aspose.cells/conditionalformattingresult/conditionalformattingdatabar/
 ---
 ## ConditionalFormattingResult.ConditionalFormattingDataBar property

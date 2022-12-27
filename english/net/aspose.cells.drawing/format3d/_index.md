@@ -3,6 +3,7 @@ title: Format3D
 second_title: Aspose.Cells for .NET API Reference
 description: This class specifies the 3D shape properties for a chart element or shape.
 type: docs
+weight: 2020
 url: /net/aspose.cells.drawing/format3d/
 ---
 ## Format3D class

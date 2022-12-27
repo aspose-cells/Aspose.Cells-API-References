@@ -3,6 +3,7 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the comment at the specified row column index of the cell.
 type: docs
+weight: 60
 url: /net/aspose.cells.griddesktop.data/gridcommentcollection/remove/
 ---
 ## GridCommentCollection.Remove method

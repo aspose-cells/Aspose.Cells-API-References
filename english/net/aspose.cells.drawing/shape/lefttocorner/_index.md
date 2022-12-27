@@ -3,6 +3,7 @@ title: LeftToCorner
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the horizonal offset of shape from worksheet left border.
 type: docs
+weight: 470
 url: /net/aspose.cells.drawing/shape/lefttocorner/
 ---
 ## Shape.LeftToCorner property

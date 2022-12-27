@@ -3,6 +3,7 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the control is checked or not.
 type: docs
+weight: 110
 url: /net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/value/
 ---
 ## CheckBoxActiveXControl.Value property

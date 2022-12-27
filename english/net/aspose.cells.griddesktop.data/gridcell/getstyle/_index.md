@@ -3,6 +3,7 @@ title: GetStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets cell style. When change the styleyou should invoke SetStyle method to set style to cell.
 type: docs
+weight: 280
 url: /net/aspose.cells.griddesktop.data/gridcell/getstyle/
 ---
 ## GridCell.GetStyle method

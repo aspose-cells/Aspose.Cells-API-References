@@ -3,6 +3,7 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copy VBA project from other file.
 type: docs
+weight: 90
 url: /net/aspose.cells.vba/vbaproject/copy/
 ---
 ## VbaProject.Copy method

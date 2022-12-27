@@ -3,6 +3,7 @@ title: Fields
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the specific fields by the field type.
 type: docs
+weight: 820
 url: /net/aspose.cells.pivot/pivottable/fields/
 ---
 ## PivotTable.Fields method

@@ -1,8 +1,9 @@
 ---
 title: RotationY
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets the rotation of the extruded shape around the yaxis in degrees.
+description: Gets and sets the rotation of the extruded shape around the y-axis in degrees.
 type: docs
+weight: 150
 url: /net/aspose.cells.drawing/threedformat/rotationy/
 ---
 ## ThreeDFormat.RotationY property

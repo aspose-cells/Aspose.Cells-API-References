@@ -3,6 +3,7 @@ title: RibbonXml
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the XML file that defines the Ribbon UI.
 type: docs
+weight: 220
 url: /net/aspose.cells/workbook/ribbonxml/
 ---
 ## Workbook.RibbonXml property

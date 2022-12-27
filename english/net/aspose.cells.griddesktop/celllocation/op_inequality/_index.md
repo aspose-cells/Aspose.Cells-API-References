@@ -3,6 +3,7 @@ title: op_Inequality
 second_title: Aspose.Cells for .NET API Reference
 description: Overload opertor 
 type: docs
+weight: 80
 url: /net/aspose.cells.griddesktop/celllocation/op_inequality/
 ---
 ## CellLocation Inequality operator

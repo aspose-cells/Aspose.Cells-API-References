@@ -3,6 +3,7 @@ title: DataRange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the data range of the ListObject.
 type: docs
+weight: 50
 url: /net/aspose.cells.tables/listobject/datarange/
 ---
 ## ListObject.DataRange property

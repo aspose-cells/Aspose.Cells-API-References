@@ -3,6 +3,7 @@ title: Size
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the radius of the glow in unit of points.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing/gloweffect/size/
 ---
 ## GlowEffect.Size property

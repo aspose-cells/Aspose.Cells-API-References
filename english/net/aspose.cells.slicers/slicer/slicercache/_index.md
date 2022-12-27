@@ -1,8 +1,9 @@
 ---
 title: SlicerCache
 second_title: Aspose.Cells for .NET API Reference
-description: Returns the SlicerCache object associated with the slicer. Readonly.
+description: Returns the SlicerCache object associated with the slicer. Read-only.
 type: docs
+weight: 190
 url: /net/aspose.cells.slicers/slicer/slicercache/
 ---
 ## Slicer.SlicerCache property

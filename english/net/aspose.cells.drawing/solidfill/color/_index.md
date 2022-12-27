@@ -3,6 +3,7 @@ title: Color
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the Color.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/solidfill/color/
 ---
 ## SolidFill.Color property

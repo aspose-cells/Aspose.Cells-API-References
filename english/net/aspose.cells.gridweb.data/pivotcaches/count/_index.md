@@ -3,6 +3,7 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the number of elements contained in the PivotCaches instance
 type: docs
+weight: 10
 url: /net/aspose.cells.gridweb.data/pivotcaches/count/
 ---
 ## PivotCaches.Count property

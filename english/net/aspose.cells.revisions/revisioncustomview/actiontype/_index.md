@@ -3,6 +3,7 @@ title: ActionType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the type of action.
 type: docs
+weight: 10
 url: /net/aspose.cells.revisions/revisioncustomview/actiontype/
 ---
 ## RevisionCustomView.ActionType property

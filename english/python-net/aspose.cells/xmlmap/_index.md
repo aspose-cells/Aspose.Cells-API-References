@@ -1,26 +1,29 @@
----
-title: XmlMap
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: XmlMap class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 1690
 url: /python-net/aspose.cells/xmlmap/
+is_root: false
 ---
 
 ## XmlMap class
 
 Represents Xml map information.
 
+
+
 The XmlMap type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|name|Returns or sets the name of the object.|
-|root_element_name|Gets root element name.|
-|data_binding|Gets an [XmlDataBinding](/cells/python-net/aspose.cells/xmldatabinding/) of this map.|
+| [name](/cells/python-net/aspose.cells/xmlmap/name) | Returns or sets the name of the object. |
+| [root_element_name](/cells/python-net/aspose.cells/xmlmap/root_element_name) | Gets root element name. |
+| [data_binding](/cells/python-net/aspose.cells/xmlmap/data_binding) | Gets an [XmlDataBinding](/cells/python-net/aspose.cells/xmldatabinding) of this map. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

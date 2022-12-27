@@ -3,6 +3,7 @@ title: DateTimeGroupItem
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the datetimes group setting.
 type: docs
+weight: 1340
 url: /net/aspose.cells/datetimegroupitem/
 ---
 ## DateTimeGroupItem class

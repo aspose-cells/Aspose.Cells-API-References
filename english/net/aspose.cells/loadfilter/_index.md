@@ -3,6 +3,7 @@ title: LoadFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the filter that provides options for loading data when loading workbook from template.
 type: docs
+weight: 4010
 url: /net/aspose.cells/loadfilter/
 ---
 ## LoadFilter class
@@ -43,9 +44,7 @@ The following example shows how to determine the filter options according to wor
 
 ```csharp
 [C#]
-LoadOptions opts = new LoadOptions();
-opts.LoadFilter = new LoadFilterSheet();
-Workbook wb = new Workbook("template.xlsx", opts);
+Workbook wb = new Workbook(template, new LoadOptions() { LoadFilter = new LoadFilterSheet() });
 //Custom LoadFilter implementation
 class LoadFilterSheet : LoadFilter
 {
@@ -53,11 +52,11 @@ class LoadFilterSheet : LoadFilter
     {
         if (sheet.Name == "Sheet1")
         {
-            LoadDataFilterOptions = LoadDataFilterOptions.All;
+            LoadDataFilterOptions = Aspose.Cells.LoadDataFilterOptions.All;
         }
         else
         {
-            LoadDataFilterOptions = LoadDataFilterOptions.Structure;
+            LoadDataFilterOptions = Aspose.Cells.LoadDataFilterOptions.None;
         }
     }
 }

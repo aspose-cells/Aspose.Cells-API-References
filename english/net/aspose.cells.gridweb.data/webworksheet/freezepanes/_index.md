@@ -3,6 +3,7 @@ title: FreezePanes
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 300
 url: /net/aspose.cells.gridweb.data/webworksheet/freezepanes/
 ---
 ## WebWorksheet.FreezePanes method

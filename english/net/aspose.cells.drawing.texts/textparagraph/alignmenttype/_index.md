@@ -3,6 +3,7 @@ title: AlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text horizontal alignment type of the paragraph.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing.texts/textparagraph/alignmenttype/
 ---
 ## TextParagraph.AlignmentType property

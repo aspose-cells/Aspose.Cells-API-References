@@ -3,6 +3,7 @@ title: UpdateFieldsValue
 second_title: Aspose.Cells for .NET API Reference
 description: Update fields value to the cells.
 type: docs
+weight: 30
 url: /net/aspose.cells.ods/odscellfieldcollection/updatefieldsvalue/
 ---
 ## OdsCellFieldCollection.UpdateFieldsValue method

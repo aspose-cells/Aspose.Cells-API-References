@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: return the cell value type the meaning can see GridCellValueType.java
 type: docs
+weight: 170
 url: /net/aspose.cells.griddesktop.data/gridcell/type/
 ---
 ## GridCell.Type property

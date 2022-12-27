@@ -3,6 +3,7 @@ title: FreezePanes
 second_title: Aspose.Cells for .NET API Reference
 description: Freezes panes at the specified cell in the worksheet.
 type: docs
+weight: 540
 url: /net/aspose.cells.gridweb.data/gridworksheet/freezepanes/
 ---
 ## FreezePanes(string, int, int) {#freezepanes_1}

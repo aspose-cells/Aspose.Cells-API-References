@@ -3,6 +3,7 @@ title: StartColumn
 second_title: Aspose.Cells for .NET API Reference
 description: The start row number of the filter range.
 type: docs
+weight: 50
 url: /net/aspose.cells.gridweb.data/rowfiltersettings/startcolumn/
 ---
 ## RowFilterSettings.StartColumn property

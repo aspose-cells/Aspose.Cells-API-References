@@ -3,6 +3,7 @@ title: SaveToHtml
 second_title: Aspose.Cells for .NET API Reference
 description: Saves the worksheets to the file paththe save format is html
 type: docs
+weight: 150
 url: /net/aspose.cells.gridjs/gridjsworkbook/savetohtml/
 ---
 ## SaveToHtml(string) {#savetohtml_1}

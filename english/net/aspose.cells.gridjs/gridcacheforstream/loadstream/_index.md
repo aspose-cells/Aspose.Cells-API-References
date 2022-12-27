@@ -3,6 +3,7 @@ title: LoadStream
 second_title: Aspose.Cells for .NET API Reference
 description: Implement this method to load cache with the key uidreturn the stream from the cache.
 type: docs
+weight: 40
 url: /net/aspose.cells.gridjs/gridcacheforstream/loadstream/
 ---
 ## GridCacheForStream.LoadStream method

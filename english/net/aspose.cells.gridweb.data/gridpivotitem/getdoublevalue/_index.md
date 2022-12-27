@@ -3,6 +3,7 @@ title: GetDoubleValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the double value of the pivot item If the value is null or not number it will return 0
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/gridpivotitem/getdoublevalue/
 ---
 ## GridPivotItem.GetDoubleValue method

@@ -3,6 +3,7 @@ title: Position
 second_title: Aspose.Cells for .NET API Reference
 description: Specifying the position index in all the PivotItemsnot the PivotItems under the same parent node.
 type: docs
+weight: 50
 url: /net/aspose.cells.pivot/pivotitem/position/
 ---
 ## PivotItem.Position property

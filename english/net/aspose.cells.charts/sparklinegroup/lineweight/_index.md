@@ -3,6 +3,7 @@ title: LineWeight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the line weight in each line sparkline in the sparkline group in the unit of points.
 type: docs
+weight: 70
 url: /net/aspose.cells.charts/sparklinegroup/lineweight/
 ---
 ## SparklineGroup.LineWeight property

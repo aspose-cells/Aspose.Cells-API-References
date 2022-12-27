@@ -3,6 +3,7 @@ title: ClientValidationValue2
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the operator target value 2
 type: docs
+weight: 50
 url: /net/aspose.cells.gridweb/validation/clientvalidationvalue2/
 ---
 ## Validation.ClientValidationValue2 property

@@ -3,6 +3,7 @@ title: XAdESType
 second_title: Aspose.Cells for .NET API Reference
 description: Type of XML Advanced Electronic Signature XAdES.
 type: docs
+weight: 1420
 url: /net/aspose.cells.digitalsignatures/xadestype/
 ---
 ## XAdESType enumeration

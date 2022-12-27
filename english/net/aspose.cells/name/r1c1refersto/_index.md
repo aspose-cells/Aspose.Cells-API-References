@@ -3,6 +3,7 @@ title: R1C1RefersTo
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a R1C1 reference of the Nameaspose.cells/name.
 type: docs
+weight: 50
 url: /net/aspose.cells/name/r1c1refersto/
 ---
 ## Name.R1C1RefersTo property

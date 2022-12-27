@@ -3,6 +3,7 @@ title: MapChartProjectionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents projection type of the map chart.
 type: docs
+weight: 750
 url: /net/aspose.cells.charts/mapchartprojectiontype/
 ---
 ## MapChartProjectionType enumeration

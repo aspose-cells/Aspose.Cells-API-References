@@ -3,6 +3,7 @@ title: TextVerticalAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text vertical alignment type of the shape.
 type: docs
+weight: 780
 url: /net/aspose.cells.drawing/shape/textverticalalignment/
 ---
 ## Shape.TextVerticalAlignment property

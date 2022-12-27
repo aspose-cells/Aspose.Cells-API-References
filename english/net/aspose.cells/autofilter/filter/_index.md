@@ -3,6 +3,7 @@ title: Filter
 second_title: Aspose.Cells for .NET API Reference
 description: Filters a list with specified criteria.
 type: docs
+weight: 120
 url: /net/aspose.cells/autofilter/filter/
 ---
 ## AutoFilter.Filter method

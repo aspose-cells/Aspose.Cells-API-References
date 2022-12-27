@@ -3,6 +3,7 @@ title: ScaleY
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the Y scale for tiling picture.
 type: docs
+weight: 70
 url: /net/aspose.cells.drawing/tilepicoption/scaley/
 ---
 ## TilePicOption.ScaleY property

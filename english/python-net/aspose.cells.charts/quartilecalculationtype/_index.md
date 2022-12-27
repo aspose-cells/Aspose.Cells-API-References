@@ -1,24 +1,28 @@
----
-title: QuartileCalculationType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: QuartileCalculationType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 600
 url: /python-net/aspose.cells.charts/quartilecalculationtype/
+is_root: false
 ---
 
 ## QuartileCalculationType enumeration
 
 Represents quartile calculation methods.
 
-## Members
-| Member name | Description |
+
+
+The QuartileCalculationType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|EXCLUSIVE|The quartile calculation includes the median when splitting the dataset into quartiles.|
-|INCLUSIVE|The quartile calculation excludes the median when splitting the dataset into quartiles.|
+| EXCLUSIVE | The quartile calculation includes the median when splitting the dataset into quartiles. |
+| INCLUSIVE | The quartile calculation excludes the median when splitting the dataset into quartiles. |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

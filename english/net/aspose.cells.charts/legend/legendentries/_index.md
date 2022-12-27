@@ -3,6 +3,7 @@ title: LegendEntries
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a collection of all the LegendEntry objects in the specified chart legend. Setting the legend entries of the surface chart is not supported. So it will return null if the chart type is surface chart type.
 type: docs
+weight: 20
 url: /net/aspose.cells.charts/legend/legendentries/
 ---
 ## Legend.LegendEntries property

@@ -3,6 +3,7 @@ title: FilterRows
 second_title: Aspose.Cells for .NET API Reference
 description: Filters rows using criteria string.
 type: docs
+weight: 80
 url: /net/aspose.cells.griddesktop/rowfiltersettings/filterrows/
 ---
 ## RowFilterSettings.FilterRows method

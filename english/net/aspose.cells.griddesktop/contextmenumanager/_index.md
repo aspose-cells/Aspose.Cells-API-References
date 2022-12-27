@@ -3,6 +3,7 @@ title: ContextMenuManager
 second_title: Aspose.Cells for .NET API Reference
 description: Represents context menu items available status.
 type: docs
+weight: 300
 url: /net/aspose.cells.griddesktop/contextmenumanager/
 ---
 ## ContextMenuManager class

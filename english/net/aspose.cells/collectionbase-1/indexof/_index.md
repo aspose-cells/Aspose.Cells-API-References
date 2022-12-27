@@ -3,6 +3,7 @@ title: IndexOf
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 150
 url: /net/aspose.cells/collectionbase-1/indexof/
 ---
 ## IndexOf(T) {#indexof}

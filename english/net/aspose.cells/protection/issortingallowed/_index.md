@@ -3,6 +3,7 @@ title: IsSortingAllowed
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the sorting option is allowed on a protected worksheet.
 type: docs
+weight: 320
 url: /net/aspose.cells/protection/issortingallowed/
 ---
 ## Protection.IsSortingAllowed property

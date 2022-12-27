@@ -3,6 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: Returns an IEnumerator for the PivotTables.
 type: docs
+weight: 100
 url: /net/aspose.cells.gridweb.data/pivottables/getenumerator/
 ---
 ## PivotTables.GetEnumerator method

@@ -3,6 +3,7 @@ title: GetAllName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of All label in the PivotTable.
 type: docs
+weight: 60
 url: /net/aspose.cells/globalizationsettings/getallname/
 ---
 ## GlobalizationSettings.GetAllName method

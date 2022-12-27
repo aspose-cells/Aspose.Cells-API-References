@@ -3,6 +3,7 @@ title: FilterTop10
 second_title: Aspose.Cells for .NET API Reference
 description: Filter the top 10 item in the list
 type: docs
+weight: 130
 url: /net/aspose.cells/autofilter/filtertop10/
 ---
 ## AutoFilter.FilterTop10 method

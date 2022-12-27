@@ -3,6 +3,7 @@ title: AddACell
 second_title: Aspose.Cells for .NET API Reference
 description: add the validation settings in the cell.
 type: docs
+weight: 190
 url: /net/aspose.cells.gridweb.data/gridvalidation/addacell/
 ---
 ## AddACell(int, int) {#addacell}

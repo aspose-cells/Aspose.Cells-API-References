@@ -3,6 +3,7 @@ title: LeftMarginInch
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the size of the left margin in unit of inches.
 type: docs
+weight: 210
 url: /net/aspose.cells/pagesetup/leftmargininch/
 ---
 ## PageSetup.LeftMarginInch property

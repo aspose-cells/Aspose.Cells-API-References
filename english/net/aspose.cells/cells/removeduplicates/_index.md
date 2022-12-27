@@ -3,6 +3,7 @@ title: RemoveDuplicates
 second_title: Aspose.Cells for .NET API Reference
 description: Removes duplicate rows in the sheet.
 type: docs
+weight: 1250
 url: /net/aspose.cells/cells/removeduplicates/
 ---
 ## RemoveDuplicates() {#removeduplicates}

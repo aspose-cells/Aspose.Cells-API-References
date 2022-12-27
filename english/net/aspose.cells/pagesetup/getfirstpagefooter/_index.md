@@ -3,6 +3,7 @@ title: GetFirstPageFooter
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a script formatting the first page footer of an Excel file.
 type: docs
+weight: 500
 url: /net/aspose.cells/pagesetup/getfirstpagefooter/
 ---
 ## PageSetup.GetFirstPageFooter method
@@ -15,7 +16,7 @@ public string GetFirstPageFooter(int section)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
+| section | Int32 | 0:Left Section. |
 
 ### See Also
 

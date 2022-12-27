@@ -3,6 +3,7 @@ title: Font
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the new font.
 type: docs
+weight: 10
 url: /net/aspose.cells.griddesktop/cellformateventargs/font/
 ---
 ## CellFormatEventArgs.Font property

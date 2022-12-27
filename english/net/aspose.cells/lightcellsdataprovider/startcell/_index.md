@@ -3,6 +3,7 @@ title: StartCell
 second_title: Aspose.Cells for .NET API Reference
 description: Starts to save data of one cell.
 type: docs
+weight: 40
 url: /net/aspose.cells/lightcellsdataprovider/startcell/
 ---
 ## LightCellsDataProvider.StartCell method

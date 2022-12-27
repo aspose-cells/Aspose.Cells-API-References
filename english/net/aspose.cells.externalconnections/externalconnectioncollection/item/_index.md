@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ExternalConnectionaspose.cells.externalconnections/externalconnection element at the specified index.
 type: docs
+weight: 10
 url: /net/aspose.cells.externalconnections/externalconnectioncollection/item/
 ---
 ## ExternalConnectionCollection indexer (1 of 2)

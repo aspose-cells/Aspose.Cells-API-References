@@ -3,6 +3,7 @@ title: FormName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the forms name.
 type: docs
+weight: 40
 url: /net/aspose.cells.gridweb/gridwebform/formname/
 ---
 ## GridWebForm.FormName property

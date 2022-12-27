@@ -1,33 +1,42 @@
----
-title: PivotPageFields
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PivotPageFields class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 90
 url: /python-net/aspose.cells.pivot/pivotpagefields/
+is_root: false
 ---
 
 ## PivotPageFields class
 
-Represents the pivot page field items <br/>            if the pivot table data source is consolidation ranges.<br/>            It only can contain up to 4 fields.
+Represents the pivot page field items 
+if the pivot table data source is consolidation ranges.
+It only can contain up to 4 fields.
+
+
 
 The PivotPageFields type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|PivotPageFields()|Represents the pivot page field items.|
-## Properties
-| Name | Description |
+| [PivotPageFields()](/cells/python-net/aspose.cells.pivot/pivotpagefields/__init__/#) | Represents the pivot page field items. |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|page_field_count|Gets the number of page fields.|
-## Methods
-| Name | Description |
+| [page_field_count](/cells/python-net/aspose.cells.pivot/pivotpagefields/page_field_count) | Gets the number of page fields. |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|add_page_field(page_items)|Adds a page field.|
-|add_identify(range_index, page_item_index)|Sets which item label in each page field to use to identify the data range.<br/>            The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first.|
+| [add_page_field(page_items)](/cells/python-net/aspose.cells.pivot/pivotpagefields/add_page_field/#list) |  |
+| [add_identify(range_index, page_item_index)](/cells/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.pivot](../)

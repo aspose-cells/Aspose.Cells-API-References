@@ -3,6 +3,7 @@ title: PageSetup
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the page setup description in this sheet.
 type: docs
+weight: 340
 url: /net/aspose.cells/worksheet/pagesetup/
 ---
 ## Worksheet.PageSetup property

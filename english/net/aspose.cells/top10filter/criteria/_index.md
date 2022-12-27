@@ -3,6 +3,7 @@ title: Criteria
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 10
 url: /net/aspose.cells/top10filter/criteria/
 ---
 ## Top10Filter.Criteria property

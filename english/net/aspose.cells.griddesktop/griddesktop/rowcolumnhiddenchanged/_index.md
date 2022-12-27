@@ -3,6 +3,7 @@ title: RowColumnHiddenChanged
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the row/column hide status changed.
 type: docs
+weight: 570
 url: /net/aspose.cells.griddesktop/griddesktop/rowcolumnhiddenchanged/
 ---
 ## GridDesktop.RowColumnHiddenChanged event

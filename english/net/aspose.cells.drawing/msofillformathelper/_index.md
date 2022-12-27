@@ -3,6 +3,7 @@ title: MsoFillFormatHelper
 second_title: Aspose.Cells for .NET API Reference
 description: Represents fill formatting for a shape.
 type: docs
+weight: 2340
 url: /net/aspose.cells.drawing/msofillformathelper/
 ---
 ## MsoFillFormatHelper class

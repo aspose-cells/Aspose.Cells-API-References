@@ -1,30 +1,39 @@
----
-title: PatternFill
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PatternFill class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 430
 url: /python-net/aspose.cells.drawing/patternfill/
+is_root: false
 ---
 
 ## PatternFill class
 
 Encapsulates the object that represents pattern fill format
 
+
+
+**Inheritance:** [PatternFill](/cells/python-net/aspose.cells.drawing/patternfill) → 
+[Fill](/cells/python-net/aspose.cells.drawing/fill)
+
+
+
 The PatternFill type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|pattern|Gets or sets the fill pattern type|
-|background_color|Gets or sets the background aspose.pydrawing.Color of the [Area](/cells/python-net/aspose.cells.drawing/area/).|
-|background_cells_color|Gets and sets the foreground [CellsColor](/cells/python-net/aspose.cells/cellscolor/) object.|
-|foreground_color|Gets or sets the foreground aspose.pydrawing.Color.|
-|foreground_cells_color|Gets and sets the foreground [CellsColor](/cells/python-net/aspose.cells/cellscolor/) object.|
-|fore_transparency|Gets or sets the transparency of foreground color.|
-|back_transparency|Gets or sets the transparency of background color.|
+| [pattern](/cells/python-net/aspose.cells.drawing/patternfill/pattern) | Gets or sets the fill pattern type |
+| [background_color](/cells/python-net/aspose.cells.drawing/patternfill/background_color) | Gets or sets the background Color of the [Area](/cells/python-net/aspose.cells.drawing/area). |
+| [background_cells_color](/cells/python-net/aspose.cells.drawing/patternfill/background_cells_color) | Gets and sets the foreground [CellsColor](/cells/python-net/aspose.cells/cellscolor) object. |
+| [foreground_color](/cells/python-net/aspose.cells.drawing/patternfill/foreground_color) | Gets or sets the foreground Color. |
+| [foreground_cells_color](/cells/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) | Gets and sets the foreground [CellsColor](/cells/python-net/aspose.cells/cellscolor) object. |
+| [fore_transparency](/cells/python-net/aspose.cells.drawing/patternfill/fore_transparency) | Gets or sets the transparency of foreground color. |
+| [back_transparency](/cells/python-net/aspose.cells.drawing/patternfill/back_transparency) | Gets or sets the transparency of background color. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)
+* class [Fill](/cells/python-net/aspose.cells.drawing/fill)

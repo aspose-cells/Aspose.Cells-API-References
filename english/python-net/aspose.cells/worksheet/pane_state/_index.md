@@ -1,0 +1,18 @@
+﻿---
+title: pane_state property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 670
+url: /python-net/aspose.cells/worksheet/pane_state/
+is_root: false
+---
+
+## pane_state property
+
+
+Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen.
+
+### See Also
+* module [aspose.cells](../../)
+* class [Worksheet](/cells/python-net/aspose.cells/worksheet)

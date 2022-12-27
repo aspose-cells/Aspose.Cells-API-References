@@ -3,6 +3,7 @@ title: CellWatch
 second_title: Aspose.Cells for .NET API Reference
 description: Represents Cell Watch Item in the watch window.
 type: docs
+weight: 280
 url: /net/aspose.cells/cellwatch/
 ---
 ## CellWatch class

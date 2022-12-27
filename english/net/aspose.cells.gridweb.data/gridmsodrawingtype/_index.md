@@ -3,6 +3,7 @@ title: GridMsoDrawingType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents office drawing objects type.
 type: docs
+weight: 300
 url: /net/aspose.cells.gridweb.data/gridmsodrawingtype/
 ---
 ## GridMsoDrawingType enumeration

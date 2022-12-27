@@ -3,6 +3,7 @@ title: ShowInOutlineForm
 second_title: Aspose.Cells for .NET API Reference
 description: Layouts the PivotTable in outline form.
 type: docs
+weight: 970
 url: /net/aspose.cells.pivot/pivottable/showinoutlineform/
 ---
 ## PivotTable.ShowInOutlineForm method

@@ -3,6 +3,7 @@ title: Move
 second_title: Aspose.Cells for .NET API Reference
 description: Moves the item up or down
 type: docs
+weight: 110
 url: /net/aspose.cells.pivot/pivotitem/move/
 ---
 ## PivotItem.Move method

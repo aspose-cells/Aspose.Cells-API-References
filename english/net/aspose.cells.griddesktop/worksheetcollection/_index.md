@@ -3,6 +3,7 @@ title: WorksheetCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Collects the  objects that represent the individual rows in a worksheet.
 type: docs
+weight: 1090
 url: /net/aspose.cells.griddesktop/worksheetcollection/
 ---
 ## WorksheetCollection class

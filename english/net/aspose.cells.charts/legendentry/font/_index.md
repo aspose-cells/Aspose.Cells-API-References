@@ -3,6 +3,7 @@ title: Font
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a Fontaspose.cells.charts/legendentry/font object of the specified ChartFrame object.
 type: docs
+weight: 40
 url: /net/aspose.cells.charts/legendentry/font/
 ---
 ## LegendEntry.Font property

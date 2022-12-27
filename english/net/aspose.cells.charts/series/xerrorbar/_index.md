@@ -3,6 +3,7 @@ title: XErrorBar
 second_title: Aspose.Cells for .NET API Reference
 description: Represents X direction error bar of the series.
 type: docs
+weight: 490
 url: /net/aspose.cells.charts/series/xerrorbar/
 ---
 ## Series.XErrorBar property

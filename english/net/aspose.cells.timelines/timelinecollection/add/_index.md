@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Add a new Timeline using PivotTable as data source
 type: docs
+weight: 20
 url: /net/aspose.cells.timelines/timelinecollection/add/
 ---
 ## Add(PivotTable, int, int, string) {#add_2}

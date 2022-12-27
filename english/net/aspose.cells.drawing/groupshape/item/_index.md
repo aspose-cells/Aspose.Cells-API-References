@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the child shape by index.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/groupshape/item/
 ---
 ## GroupShape indexer

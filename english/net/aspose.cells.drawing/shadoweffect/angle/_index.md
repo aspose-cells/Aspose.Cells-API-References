@@ -3,6 +3,7 @@ title: Angle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the lighting angle. Range from 0 to 359.9 degrees.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/shadoweffect/angle/
 ---
 ## ShadowEffect.Angle property

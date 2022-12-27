@@ -3,6 +3,7 @@ title: ActionType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the action type of this revision.
 type: docs
+weight: 10
 url: /net/aspose.cells.revisions/revisioninsertdelete/actiontype/
 ---
 ## RevisionInsertDelete.ActionType property

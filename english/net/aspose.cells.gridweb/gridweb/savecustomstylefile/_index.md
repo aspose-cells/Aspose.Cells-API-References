@@ -3,6 +3,7 @@ title: SaveCustomStyleFile
 second_title: Aspose.Cells for .NET API Reference
 description: Saves current style data of the control to an xml file. Can be used to create your customized style file.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb/gridweb/savecustomstylefile/
 ---
 ## GridWeb.SaveCustomStyleFile method

@@ -3,6 +3,7 @@ title: ReconnectionMethod
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
 type: docs
+weight: 150
 url: /net/aspose.cells.externalconnections/externalconnection/reconnectionmethod/
 ---
 ## ExternalConnection.ReconnectionMethod property

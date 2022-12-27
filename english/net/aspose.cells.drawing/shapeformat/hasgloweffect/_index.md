@@ -3,6 +3,7 @@ title: HasGlowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 140
 url: /net/aspose.cells.drawing/shapeformat/hasgloweffect/
 ---
 ## ShapeFormat.HasGlowEffect method

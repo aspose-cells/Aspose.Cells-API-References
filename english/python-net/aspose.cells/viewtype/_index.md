@@ -1,25 +1,29 @@
----
-title: ViewType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ViewType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5180
+weight: 2640
 url: /python-net/aspose.cells/viewtype/
+is_root: false
 ---
 
 ## ViewType enumeration
 
 Represents the view type of the worksheet.
 
-## Members
-| Member name | Description |
+
+
+The ViewType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NORMAL_VIEW||
-|PAGE_BREAK_PREVIEW||
-|PAGE_LAYOUT_VIEW||
+| NORMAL_VIEW |  |
+| PAGE_BREAK_PREVIEW |  |
+| PAGE_LAYOUT_VIEW |  |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

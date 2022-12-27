@@ -3,6 +3,7 @@ title: SummaryColumnRight
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the summary column will be positioned to the right of the detail columns in the outline.
 type: docs
+weight: 10
 url: /net/aspose.cells/outline/summarycolumnright/
 ---
 ## Outline.SummaryColumnRight property

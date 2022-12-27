@@ -3,6 +3,7 @@ title: ClearMergedCells
 second_title: Aspose.Cells for .NET API Reference
 description: Clears all merged ranges.
 type: docs
+weight: 420
 url: /net/aspose.cells/cells/clearmergedcells/
 ---
 ## Cells.ClearMergedCells method

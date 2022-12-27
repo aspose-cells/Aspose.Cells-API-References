@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the type of the font source.
 type: docs
+weight: 10
 url: /net/aspose.cells/fontsourcebase/type/
 ---
 ## FontSourceBase.Type property

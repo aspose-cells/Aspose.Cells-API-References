@@ -3,6 +3,7 @@ title: TextParagraphCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all text paragraph.
 type: docs
+weight: 3020
 url: /net/aspose.cells.drawing.texts/textparagraphcollection/
 ---
 ## TextParagraphCollection class

@@ -3,6 +3,7 @@ title: HeightInch
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 60
 url: /net/aspose.cells.griddesktop.data/gridcomment/heightinch/
 ---
 ## GridComment.HeightInch property

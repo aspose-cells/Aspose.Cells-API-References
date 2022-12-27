@@ -1,0 +1,18 @@
+﻿---
+title: height_inch property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 460
+url: /python-net/aspose.cells.drawing/combobox/height_inch/
+is_root: false
+---
+
+## height_inch property
+
+
+Represents the height of the shape, in unit of inches.
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [ComboBox](/cells/python-net/aspose.cells.drawing/combobox)

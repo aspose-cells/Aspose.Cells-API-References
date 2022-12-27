@@ -3,6 +3,7 @@ title: FloatValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the float value contained in the cell.
 type: docs
+weight: 60
 url: /net/aspose.cells.griddesktop.data/gridcell/floatvalue/
 ---
 ## GridCell.FloatValue property

@@ -3,6 +3,7 @@ title: OriginalWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the original width of the picture.
 type: docs
+weight: 380
 url: /net/aspose.cells.griddesktop.data/gridpicture/originalwidth/
 ---
 ## GridPicture.OriginalWidth property

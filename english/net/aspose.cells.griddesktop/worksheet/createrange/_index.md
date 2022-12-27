@@ -3,6 +3,7 @@ title: CreateRange
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 620
 url: /net/aspose.cells.griddesktop/worksheet/createrange/
 ---
 ## CreateRange(string, string) {#createrange_1}

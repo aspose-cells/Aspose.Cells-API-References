@@ -3,6 +3,7 @@ title: FontName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets/Sets the default font name for the workbook
 type: docs
+weight: 10
 url: /net/aspose.cells/defaultstylesettings/fontname/
 ---
 ## DefaultStyleSettings.FontName property

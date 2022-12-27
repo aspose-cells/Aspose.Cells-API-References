@@ -3,6 +3,7 @@ title: SetProtect
 second_title: Aspose.Cells for .NET API Reference
 description: Protects worksheet.
 type: docs
+weight: 770
 url: /net/aspose.cells.gridweb.data/gridworksheet/setprotect/
 ---
 ## GridWorksheet.SetProtect method

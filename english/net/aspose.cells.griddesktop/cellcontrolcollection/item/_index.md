@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the cell control at specified row and column index.
 type: docs
+weight: 10
 url: /net/aspose.cells.griddesktop/cellcontrolcollection/item/
 ---
 ## CellControlCollection indexer (1 of 2)

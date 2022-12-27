@@ -3,6 +3,7 @@ title: ConvertNumericData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value that indicates whether the string in text file is converted to numeric data.
 type: docs
+weight: 20
 url: /net/aspose.cells/abstracttextloadoptions/convertnumericdata/
 ---
 ## AbstractTextLoadOptions.ConvertNumericData property

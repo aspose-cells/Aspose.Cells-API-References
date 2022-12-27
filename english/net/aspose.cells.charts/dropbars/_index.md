@@ -3,6 +3,7 @@ title: DropBars
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the up/down bars in a chart.
 type: docs
+weight: 630
 url: /net/aspose.cells.charts/dropbars/
 ---
 ## DropBars class

@@ -3,6 +3,7 @@ title: RemoveCellControl
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the CellControl object of the column.
 type: docs
+weight: 140
 url: /net/aspose.cells.griddesktop.data/gridcolumn/removecellcontrol/
 ---
 ## GridColumn.RemoveCellControl method

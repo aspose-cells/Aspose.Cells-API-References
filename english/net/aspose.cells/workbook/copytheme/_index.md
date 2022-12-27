@@ -3,6 +3,7 @@ title: CopyTheme
 second_title: Aspose.Cells for .NET API Reference
 description: Copies the theme from another workbook.
 type: docs
+weight: 340
 url: /net/aspose.cells/workbook/copytheme/
 ---
 ## Workbook.CopyTheme method

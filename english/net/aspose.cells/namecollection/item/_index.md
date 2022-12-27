@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Nameaspose.cells/name element at the specified index.
 type: docs
+weight: 10
 url: /net/aspose.cells/namecollection/item/
 ---
 ## NameCollection indexer (1 of 2)

@@ -3,6 +3,7 @@ title: PrintArea
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the range to be printed.
 type: docs
+weight: 280
 url: /net/aspose.cells/pagesetup/printarea/
 ---
 ## PageSetup.PrintArea property

@@ -3,6 +3,7 @@ title: Note
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 10
 url: /net/aspose.cells.gridweb.data/webcomment/note/
 ---
 ## WebComment.Note property

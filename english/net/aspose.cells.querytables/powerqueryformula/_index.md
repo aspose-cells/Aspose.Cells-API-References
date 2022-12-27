@@ -3,6 +3,7 @@ title: PowerQueryFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the definition of power query formula.
 type: docs
+weight: 4990
 url: /net/aspose.cells.querytables/powerqueryformula/
 ---
 ## PowerQueryFormula class

@@ -3,6 +3,7 @@ title: Caption
 second_title: Aspose.Cells for .NET API Reference
 description: The caption of the column.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb/bindcolumn/caption/
 ---
 ## BindColumn.Caption property

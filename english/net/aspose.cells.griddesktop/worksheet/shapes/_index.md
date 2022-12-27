@@ -3,6 +3,7 @@ title: Shapes
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a Picturesaspose.cells.griddesktop/worksheet/pictures collection.
 type: docs
+weight: 360
 url: /net/aspose.cells.griddesktop/worksheet/shapes/
 ---
 ## Worksheet.Shapes property

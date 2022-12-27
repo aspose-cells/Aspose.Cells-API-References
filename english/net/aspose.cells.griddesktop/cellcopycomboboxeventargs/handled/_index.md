@@ -3,6 +3,7 @@ title: Handled
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the value indicating whether the event should be handled.
 type: docs
+weight: 40
 url: /net/aspose.cells.griddesktop/cellcopycomboboxeventargs/handled/
 ---
 ## CellCopyComboBoxEventArgs.Handled property

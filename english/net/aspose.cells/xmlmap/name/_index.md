@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the name of the object.
 type: docs
+weight: 20
 url: /net/aspose.cells/xmlmap/name/
 ---
 ## XmlMap.Name property

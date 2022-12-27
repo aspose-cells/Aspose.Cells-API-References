@@ -3,6 +3,7 @@ title: Column
 second_title: Aspose.Cells for .NET API Reference
 description: Get and sets the column index of the cell.
 type: docs
+weight: 10
 url: /net/aspose.cells.ods/odscellfield/column/
 ---
 ## OdsCellField.Column property

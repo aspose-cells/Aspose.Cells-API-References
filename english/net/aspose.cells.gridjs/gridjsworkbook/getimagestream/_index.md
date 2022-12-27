@@ -3,6 +3,7 @@ title: GetImageStream
 second_title: Aspose.Cells for .NET API Reference
 description: Get Stream of Image from workbook
 type: docs
+weight: 240
 url: /net/aspose.cells.gridjs/gridjsworkbook/getimagestream/
 ---
 ## GridJsWorkbook.GetImageStream method

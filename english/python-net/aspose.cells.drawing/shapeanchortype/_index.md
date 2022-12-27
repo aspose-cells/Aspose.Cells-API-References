@@ -1,24 +1,28 @@
----
-title: ShapeAnchorType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ShapeAnchorType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1410
+weight: 1140
 url: /python-net/aspose.cells.drawing/shapeanchortype/
+is_root: false
 ---
 
 ## ShapeAnchorType enumeration
 
 Represents the anchor type.
 
-## Members
-| Member name | Description |
+
+
+The ShapeAnchorType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|TWO_CELL_ANCHOR|Represents a two cell anchor placeholder|
-|ONE_CELL_ANCHOR|Represents a one cell anchor placeholder|
+| TWO_CELL_ANCHOR | Represents a two cell anchor placeholder |
+| ONE_CELL_ANCHOR | Represents a one cell anchor placeholder |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

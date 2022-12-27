@@ -3,6 +3,7 @@ title: SetBorders
 second_title: Aspose.Cells for .NET API Reference
 description: Sets borders for a cells range.
 type: docs
+weight: 650
 url: /net/aspose.cells.gridweb.data/gridcells/setborders/
 ---
 ## GridCells.SetBorders method
@@ -27,9 +28,7 @@ public void SetBorders(int firstRow, int firstColumn, int rowNumber, int columnN
 
 ```csharp
 [C#]
-  GridWeb GridWeb1 = new GridWeb();
-  WebBorderStyle borderStyle1 = new WebBorderStyle();
- GridWeb1.WorkSheets[0].Cells.SetBorders(0, 0, 5, 8, SetBorderPosition.Outline, borderStyle1);
+	GridWeb1.WebWorksheets[0].Cells.SetBorders(0, 0, 5, 8, SetBorderPosition.Outline, borderStyle1);
 
 [VB]
 	GridWeb1.WebWorksheets(0).Cells.SetBorders(0, 0, 5, 8, SetBorderPosition.Outline, borderStyle1)

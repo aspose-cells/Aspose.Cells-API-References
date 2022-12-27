@@ -3,6 +3,7 @@ title: X
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets x coordinate for this position coordinate.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/shapepathpoint/x/
 ---
 ## ShapePathPoint.X property

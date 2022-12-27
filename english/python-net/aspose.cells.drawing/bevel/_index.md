@@ -1,26 +1,29 @@
----
-title: Bevel
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: Bevel class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 50
 url: /python-net/aspose.cells.drawing/bevel/
+is_root: false
 ---
 
 ## Bevel class
 
 Represents a bevel of a shape
 
+
+
 The Bevel type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|width|Gets and sets the width of the bevel, or how far into the shape it is applied.<br/>            In unit of Points.|
-|height|Gets and sets the height of the bevel, or how far above the shape it is applied.<br/>            In unit of Points.|
-|type|Gets and sets the preset bevel type.|
+| [width](/cells/python-net/aspose.cells.drawing/bevel/width) | Gets and sets the width of the bevel, or how far into the shape it is applied.<br/>In unit of Points. |
+| [height](/cells/python-net/aspose.cells.drawing/bevel/height) | Gets and sets the height of the bevel, or how far above the shape it is applied.<br/>In unit of Points. |
+| [type](/cells/python-net/aspose.cells.drawing/bevel/type) | Gets and sets the preset bevel type. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

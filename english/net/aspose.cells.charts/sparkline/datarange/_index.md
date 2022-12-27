@@ -3,6 +3,7 @@ title: DataRange
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the data range of the sparkline.
 type: docs
+weight: 20
 url: /net/aspose.cells.charts/sparkline/datarange/
 ---
 ## Sparkline.DataRange property

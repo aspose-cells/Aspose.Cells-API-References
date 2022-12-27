@@ -3,6 +3,7 @@ title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 80
 url: /net/aspose.cells.griddesktop.data/gridcomment/isvisible/
 ---
 ## GridComment.IsVisible property

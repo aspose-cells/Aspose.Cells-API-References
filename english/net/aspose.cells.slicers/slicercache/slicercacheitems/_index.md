@@ -1,8 +1,9 @@
 ---
 title: SlicerCacheItems
 second_title: Aspose.Cells for .NET API Reference
-description: Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Readonly
+description: Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only
 type: docs
+weight: 40
 url: /net/aspose.cells.slicers/slicercache/slicercacheitems/
 ---
 ## SlicerCache.SlicerCacheItems property

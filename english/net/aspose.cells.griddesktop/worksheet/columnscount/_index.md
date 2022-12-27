@@ -3,6 +3,7 @@ title: ColumnsCount
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 70
 url: /net/aspose.cells.griddesktop/worksheet/columnscount/
 ---
 ## Worksheet.ColumnsCount property

@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the name of the connection. Each connection must have a unique name.
 type: docs
+weight: 100
 url: /net/aspose.cells.externalconnections/externalconnection/name/
 ---
 ## ExternalConnection.Name property

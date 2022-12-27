@@ -3,6 +3,7 @@ title: HorizontalAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the horizontal alignment type of the text in a cell.
 type: docs
+weight: 130
 url: /net/aspose.cells/style/horizontalalignment/
 ---
 ## Style.HorizontalAlignment property

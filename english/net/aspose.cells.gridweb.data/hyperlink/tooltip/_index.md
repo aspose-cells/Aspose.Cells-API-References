@@ -3,6 +3,7 @@ title: ToolTip
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the tooltip of the hyperlink.
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb.data/hyperlink/tooltip/
 ---
 ## Hyperlink.ToolTip property

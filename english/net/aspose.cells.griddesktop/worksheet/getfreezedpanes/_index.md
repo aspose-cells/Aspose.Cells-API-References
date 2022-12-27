@@ -3,6 +3,7 @@ title: GetFreezedPanes
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the freeze panes.
 type: docs
+weight: 750
 url: /net/aspose.cells.griddesktop/worksheet/getfreezedpanes/
 ---
 ## Worksheet.GetFreezedPanes method

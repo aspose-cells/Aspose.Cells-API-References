@@ -3,6 +3,7 @@ title: Label
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the display label of the linked ole object.
 type: docs
+weight: 120
 url: /net/aspose.cells.drawing/oleobject/label/
 ---
 ## OleObject.Label property

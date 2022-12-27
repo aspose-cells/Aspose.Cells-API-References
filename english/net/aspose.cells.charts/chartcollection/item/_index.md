@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Chartaspose.cells.charts/chart element at the specified index.
 type: docs
+weight: 10
 url: /net/aspose.cells.charts/chartcollection/item/
 ---
 ## ChartCollection indexer (1 of 2)

@@ -1,25 +1,29 @@
----
-title: MetadataType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: MetadataType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 30
 url: /python-net/aspose.cells.metadata/metadatatype/
+is_root: false
 ---
 
 ## MetadataType enumeration
 
 Represents the type of metadata.
 
-## Members
-| Member name | Description |
+
+
+The MetadataType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|ENCRYPTION|Encrypts the file.|
-|DECRYPTION|Decrypts the file.|
-|DOCUMENT_PROPERTIES|Load the properties of the file.|
+| ENCRYPTION | Encrypts the file. |
+| DECRYPTION | Decrypts the file. |
+| DOCUMENT_PROPERTIES | Load the properties of the file. |
+
 
 ### See Also
 
-* namespace [aspose.cells.metadata](/cells/python-net/aspose.cells.metadata/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.metadata](../)

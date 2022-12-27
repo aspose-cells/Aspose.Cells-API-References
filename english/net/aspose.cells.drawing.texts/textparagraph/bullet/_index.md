@@ -3,6 +3,7 @@ title: Bullet
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the bullet.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing.texts/textparagraph/bullet/
 ---
 ## TextParagraph.Bullet property

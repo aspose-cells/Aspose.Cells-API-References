@@ -3,6 +3,7 @@ title: Bottom
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the bottom offset for stretching picture.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/picformatoption/bottom/
 ---
 ## PicFormatOption.Bottom property

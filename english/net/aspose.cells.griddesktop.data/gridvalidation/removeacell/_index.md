@@ -3,6 +3,7 @@ title: RemoveACell
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the validation settings in the cell.
 type: docs
+weight: 230
 url: /net/aspose.cells.griddesktop.data/gridvalidation/removeacell/
 ---
 ## GridValidation.RemoveACell method

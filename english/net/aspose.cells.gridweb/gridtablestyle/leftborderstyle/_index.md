@@ -3,6 +3,7 @@ title: LeftBorderStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the style of left border of the table.
 type: docs
+weight: 100
 url: /net/aspose.cells.gridweb/gridtablestyle/leftborderstyle/
 ---
 ## GridTableStyle.LeftBorderStyle property

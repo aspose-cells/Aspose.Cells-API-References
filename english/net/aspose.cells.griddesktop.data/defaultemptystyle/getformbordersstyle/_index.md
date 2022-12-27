@@ -3,6 +3,7 @@ title: GetFormBordersStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 100
 url: /net/aspose.cells.griddesktop.data/defaultemptystyle/getformbordersstyle/
 ---
 ## DefaultEmptyStyle.GetFormBordersStyle method

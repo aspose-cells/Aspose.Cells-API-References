@@ -3,6 +3,7 @@ title: ChartTextDirectionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the text direction type of the chart.
 type: docs
+weight: 540
 url: /net/aspose.cells.charts/charttextdirectiontype/
 ---
 ## ChartTextDirectionType enumeration

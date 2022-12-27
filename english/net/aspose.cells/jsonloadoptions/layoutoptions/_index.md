@@ -3,6 +3,7 @@ title: LayoutOptions
 second_title: Aspose.Cells for .NET API Reference
 description: The options of import json.
 type: docs
+weight: 20
 url: /net/aspose.cells/jsonloadoptions/layoutoptions/
 ---
 ## JsonLoadOptions.LayoutOptions property

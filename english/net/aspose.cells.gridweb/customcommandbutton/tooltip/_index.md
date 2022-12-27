@@ -3,6 +3,7 @@ title: ToolTip
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the tooltip of the command button.
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb/customcommandbutton/tooltip/
 ---
 ## CustomCommandButton.ToolTip property

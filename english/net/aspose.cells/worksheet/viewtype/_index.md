@@ -3,6 +3,7 @@ title: ViewType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the view type.
 type: docs
+weight: 560
 url: /net/aspose.cells/worksheet/viewtype/
 ---
 ## Worksheet.ViewType property

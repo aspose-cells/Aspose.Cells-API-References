@@ -3,6 +3,7 @@ title: IsLine
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether it is a signature line.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing/signatureline/isline/
 ---
 ## SignatureLine.IsLine property

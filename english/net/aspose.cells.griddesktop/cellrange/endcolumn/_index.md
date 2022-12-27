@@ -3,6 +3,7 @@ title: EndColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the index of the end column of the range.
 type: docs
+weight: 40
 url: /net/aspose.cells.griddesktop/cellrange/endcolumn/
 ---
 ## CellRange.EndColumn property

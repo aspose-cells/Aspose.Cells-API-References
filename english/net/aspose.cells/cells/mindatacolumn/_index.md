@@ -3,6 +3,7 @@ title: MinDataColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Minimum column index of cell which contains data.
 type: docs
+weight: 170
 url: /net/aspose.cells/cells/mindatacolumn/
 ---
 ## Cells.MinDataColumn property

@@ -3,6 +3,7 @@ title: LegendEntry
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the legend entry according to this trendline
 type: docs
+weight: 80
 url: /net/aspose.cells.charts/trendline/legendentry/
 ---
 ## Trendline.LegendEntry property

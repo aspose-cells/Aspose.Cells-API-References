@@ -3,6 +3,7 @@ title: SetColumnWidthInch
 second_title: Aspose.Cells for .NET API Reference
 description: Sets column width in unit of inches.
 type: docs
+weight: 630
 url: /net/aspose.cells.griddesktop.data/gridcells/setcolumnwidthinch/
 ---
 ## GridCells.SetColumnWidthInch method

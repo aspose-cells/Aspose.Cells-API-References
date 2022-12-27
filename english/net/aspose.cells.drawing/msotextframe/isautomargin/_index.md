@@ -3,6 +3,7 @@ title: IsAutoMargin
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the margin is auto calculated.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing/msotextframe/isautomargin/
 ---
 ## MsoTextFrame.IsAutoMargin property

@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the PivotTable report by index.
 type: docs
+weight: 10
 url: /net/aspose.cells.pivot/pivottablecollection/item/
 ---
 ## PivotTableCollection indexer (1 of 3)

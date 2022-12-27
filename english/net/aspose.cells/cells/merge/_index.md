@@ -3,6 +3,7 @@ title: Merge
 second_title: Aspose.Cells for .NET API Reference
 description: Merges a specified range of cells into a single cell.
 type: docs
+weight: 1230
 url: /net/aspose.cells/cells/merge/
 ---
 ## Merge(int, int, int, int) {#merge}

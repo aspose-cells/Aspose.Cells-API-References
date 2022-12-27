@@ -3,6 +3,7 @@ title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Workbook object where the function is in.
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/gridcalculationdata/worksheet/
 ---
 ## GridCalculationData.Worksheet property

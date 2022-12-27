@@ -3,6 +3,7 @@ title: MemberPropertyFieldIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the member property field index of the pivot filter.
 type: docs
+weight: 60
 url: /net/aspose.cells.pivot/pivotfilter/memberpropertyfieldindex/
 ---
 ## PivotFilter.MemberPropertyFieldIndex property

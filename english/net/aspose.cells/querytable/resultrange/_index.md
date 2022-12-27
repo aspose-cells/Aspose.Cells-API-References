@@ -3,6 +3,7 @@ title: ResultRange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the range of the result.
 type: docs
+weight: 60
 url: /net/aspose.cells/querytable/resultrange/
 ---
 ## QueryTable.ResultRange property

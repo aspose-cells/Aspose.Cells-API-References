@@ -3,6 +3,7 @@ title: GetObjectData
 second_title: Aspose.Cells for .NET API Reference
 description: Internal used only.
 type: docs
+weight: 100
 url: /net/aspose.cells.gridweb/customcommandbutton/getobjectdata/
 ---
 ## CustomCommandButton.GetObjectData method

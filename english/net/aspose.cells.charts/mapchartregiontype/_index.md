@@ -3,6 +3,7 @@ title: MapChartRegionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the region type of the map chart.
 type: docs
+weight: 760
 url: /net/aspose.cells.charts/mapchartregiontype/
 ---
 ## MapChartRegionType enumeration

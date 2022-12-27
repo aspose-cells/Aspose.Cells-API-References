@@ -3,6 +3,7 @@ title: Visible
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to show the form control. This property is controlled by the control itself. Do not modify it manually.
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb/gridwebform/visible/
 ---
 ## GridWebForm.Visible property

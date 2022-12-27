@@ -3,6 +3,7 @@ title: Bottom
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 40
 url: /net/aspose.cells.gridweb.data/gridpicture/bottom/
 ---
 ## GridPicture.Bottom property

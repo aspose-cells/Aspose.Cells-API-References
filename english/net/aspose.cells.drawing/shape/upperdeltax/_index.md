@@ -1,21 +1,18 @@
 ---
 title: UpperDeltaX
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the shapes horizontal offset from its upper left corner column.
+description: Gets or sets the shapes horizontal offset from its upper left corner column. The range of value is 0 to 1024.
 type: docs
+weight: 880
 url: /net/aspose.cells.drawing/shape/upperdeltax/
 ---
 ## Shape.UpperDeltaX property
 
-Gets or sets the shape's horizontal offset from its upper left corner column.
+Gets or sets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
 
 ```csharp
 public int UpperDeltaX { get; set; }
 ```
-
-### Remarks
-
-The range of value is 0 to 1024.
 
 ### Examples
 

@@ -3,6 +3,7 @@ title: Replace
 second_title: Aspose.Cells for .NET API Reference
 description: Replaces a cells value with a new string.
 type: docs
+weight: 590
 url: /net/aspose.cells/workbook/replace/
 ---
 ## Replace(string, string) {#replace_7}
@@ -24,14 +25,14 @@ public int Replace(string placeHolder, string newValue)
 [C#]
 
 Workbook workbook = new Workbook();
-//......
+......
 workbook.Replace("AnOldValue", "NewValue");
 
 [Visual Basic]
 
 Dim workbook As Workbook =  New Workbook() 
-'........
-workbook.Replace("AnOldValue", "NewValue")
+ ........
+orkbook.Replace("AnOldValue", "NewValue")
 ```
 
 ### See Also
@@ -61,16 +62,16 @@ public int Replace(string placeHolder, int newValue)
 [C#]
 
 Workbook workbook = new Workbook();
-//......
+......
 int newValue = 100;
 workbook.Replace("AnOldValue", newValue);
 
 [Visual Basic]
 
 Dim workbook As Workbook =  New Workbook() 
-'.........
-Dim NewValue As Integer =  100 
-workbook.Replace("AnOldValue", NewValue)
+........
+im NewValue As Integer =  100 
+orkbook.Replace("AnOldValue", NewValue)
 ```
 
 ### See Also
@@ -101,7 +102,7 @@ public int Replace(string placeHolder, double newValue)
 [C#]
 
 Workbook workbook = new Workbook();
-//......
+......
 double newValue = 100.0;
 workbook.Replace("AnOldValue", newValue);
 
@@ -109,9 +110,9 @@ workbook.Replace("AnOldValue", newValue);
 [Visual Basic]
 
 Dim workbook As Workbook =  New Workbook() 
-'.........
-Dim NewValue As Double =  100.0
-workbook.Replace("AnOldValue", NewValue)
+........
+im NewValue As Double =  100.0
+orkbook.Replace("AnOldValue", NewValue)
 ```
 
 ### See Also
@@ -143,16 +144,16 @@ public int Replace(string placeHolder, string[] newValues, bool isVertical)
 [C#]
 
 Workbook workbook = new Workbook();
-//......
+......
 string[] newValues = new string[]{"Tom", "Alice", "Jerry"};
 workbook.Replace("AnOldValue", newValues, true);
 
 [Visual Basic]
 
 Dim workbook As Workbook =  New Workbook() 
-'.............
-Dim NewValues() As String =  New String() {"Tom", "Alice", "Jerry"}		
-workbook.Replace("AnOldValue", NewValues, True)
+.............
+im NewValues() As String =  New String() {"Tom", "Alice", "Jerry"}		
+orkbook.Replace("AnOldValue", NewValues, True)
 ```
 
 ### See Also
@@ -183,16 +184,16 @@ public int Replace(string placeHolder, int[] newValues, bool isVertical)
 [C#]
 
 Workbook workbook = new Workbook();
-//......
+......
 int[] newValues = new int[]{1, 2, 3};
 workbook.Replace("AnOldValue", newValues, true);
 
 [Visual Basic]
 
 Dim workbook As Workbook =  New Workbook() 
-'...........
-Dim NewValues() As Integer =  New Integer() {1, 2, 3}
-workbook.Replace("AnOldValue", NewValues, True)
+..........
+im NewValues() As Integer =  New Integer() {1, 2, 3}
+orkbook.Replace("AnOldValue", NewValues, True)
 ```
 
 ### See Also
@@ -224,14 +225,14 @@ public int Replace(string placeHolder, double[] newValues, bool isVertical)
 [C#]
 
 Workbook workbook = new Workbook();
-//......
+......
 double[] newValues = new double[]{1.23, 2.56, 3.14159};
 workbook.Replace("AnOldValue", newValues, true);
 
 [Visual Basic]
 
 Dim workbook As Workbook =  New Workbook() 
-'...........
+...........
 Dim NewValues() As Double =  New Double() {1.23, 2.56, 3.14159}
 workbook.Replace("AnOldValue", NewValues, True)
 ```
@@ -265,7 +266,7 @@ public int Replace(string placeHolder, DataTable insertTable)
 Workbook workbook = new Workbook();
 DataTable myDataTable = new DataTable("Customers");
 // Adds data to myDataTable
-//........
+........
 workbook.Replace("AnOldValue", myDataTable);
 
 [Visual Basic]
@@ -273,7 +274,7 @@ workbook.Replace("AnOldValue", myDataTable);
 Dim workbook As Workbook =  New Workbook() 
 Dim myDataTable As DataTable =  New DataTable("Customers") 
 ' Adds data to myDataTable
-'.............
+............
 workbook.Replace("AnOldValue", myDataTable)
 ```
 

@@ -3,6 +3,7 @@ title: PlotVisibleColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Only exports visible columns.
 type: docs
+weight: 110
 url: /net/aspose.cells/exporttableoptions/plotvisiblecolumns/
 ---
 ## ExportTableOptions.PlotVisibleColumns property

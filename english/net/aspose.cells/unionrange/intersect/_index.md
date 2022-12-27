@@ -3,6 +3,7 @@ title: Intersect
 second_title: Aspose.Cells for .NET API Reference
 description: Intersects another range.
 type: docs
+weight: 160
 url: /net/aspose.cells/unionrange/intersect/
 ---
 ## Intersect(string) {#intersect_2}

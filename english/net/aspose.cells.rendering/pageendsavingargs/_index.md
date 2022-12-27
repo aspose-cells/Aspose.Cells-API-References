@@ -3,6 +3,7 @@ title: PageEndSavingArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Info for a page ends saving process.
 type: docs
+weight: 5180
 url: /net/aspose.cells.rendering/pageendsavingargs/
 ---
 ## PageEndSavingArgs class
@@ -18,8 +19,8 @@ public class PageEndSavingArgs : PageSavingArgs
 | Name | Description |
 | --- | --- |
 | [HasMorePages](../../aspose.cells.rendering/pageendsavingargs/hasmorepages) { get; set; } | Gets or sets a value indicating whether having more pages to be output. The default value is true. |
-| [PageCount](../../aspose.cells.rendering/pagesavingargs/pagecount) { get; } | Total page count.(Inherited from [`PageSavingArgs`](../pagesavingargs).) |
-| [PageIndex](../../aspose.cells.rendering/pagesavingargs/pageindex) { get; } | Current page index, zero based.(Inherited from [`PageSavingArgs`](../pagesavingargs).) |
+| [PageCount](../../aspose.cells.rendering/pagesavingargs/pagecount) { get; } | Total page count. |
+| [PageIndex](../../aspose.cells.rendering/pagesavingargs/pageindex) { get; } | Current page index, zero based. |
 
 ### See Also
 

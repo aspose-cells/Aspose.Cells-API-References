@@ -3,6 +3,7 @@ title: Minute
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the minute of the grouped date time.
 type: docs
+weight: 50
 url: /net/aspose.cells/datetimegroupitem/minute/
 ---
 ## DateTimeGroupItem.Minute property

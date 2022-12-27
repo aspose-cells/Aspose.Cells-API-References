@@ -3,6 +3,7 @@ title: GetLegendDecreaseName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of Decrease for Legend.
 type: docs
+weight: 50
 url: /net/aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename/
 ---
 ## ChartGlobalizationSettings.GetLegendDecreaseName method

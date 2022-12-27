@@ -3,6 +3,7 @@ title: ShowInput
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range.
 type: docs
+weight: 130
 url: /net/aspose.cells/validation/showinput/
 ---
 ## Validation.ShowInput property

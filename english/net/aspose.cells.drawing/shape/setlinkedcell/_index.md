@@ -3,6 +3,7 @@ title: SetLinkedCell
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the range linked to the controls value.
 type: docs
+weight: 1180
 url: /net/aspose.cells.drawing/shape/setlinkedcell/
 ---
 ## Shape.SetLinkedCell method

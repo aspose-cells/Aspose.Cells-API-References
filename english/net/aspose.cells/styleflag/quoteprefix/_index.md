@@ -3,6 +3,7 @@ title: QuotePrefix
 second_title: Aspose.Cells for .NET API Reference
 description: Hide formula setting will be applied.
 type: docs
+weight: 240
 url: /net/aspose.cells/styleflag/quoteprefix/
 ---
 ## StyleFlag.QuotePrefix property

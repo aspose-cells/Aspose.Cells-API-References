@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ExternalLinkaspose.cells/externallink element at the specified index.
 type: docs
+weight: 20
 url: /net/aspose.cells/externallinkcollection/item/
 ---
 ## ExternalLinkCollection indexer

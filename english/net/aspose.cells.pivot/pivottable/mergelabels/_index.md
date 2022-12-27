@@ -1,8 +1,9 @@
 ---
 title: MergeLabels
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether the specified PivotTable reports outerrow item column item subtotal and grand total labels use merged cells.
+description: Indicates whether the specified PivotTable reports outer-row item column item subtotal and grand total labels use merged cells.
 type: docs
+weight: 350
 url: /net/aspose.cells.pivot/pivottable/mergelabels/
 ---
 ## PivotTable.MergeLabels property

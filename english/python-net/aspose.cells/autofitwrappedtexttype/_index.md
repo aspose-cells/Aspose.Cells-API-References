@@ -1,24 +1,28 @@
----
-title: AutoFitWrappedTextType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: AutoFitWrappedTextType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4300
+weight: 1760
 url: /python-net/aspose.cells/autofitwrappedtexttype/
+is_root: false
 ---
 
 ## AutoFitWrappedTextType enumeration
 
 Represents the type of auto fitting wrapped text.
 
-## Members
-| Member name | Description |
+
+
+The AutoFitWrappedTextType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|DEFAULT|Works as MS Excel.|
-|PARAGRAPH|Auto fit width with the longest paragraph.|
+| DEFAULT | Works as MS Excel. |
+| PARAGRAPH | Auto fit width with the longest paragraph. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

@@ -3,6 +3,7 @@ title: Legend
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the chart legend.
 type: docs
+weight: 190
 url: /net/aspose.cells.charts/chart/legend/
 ---
 ## Chart.Legend property

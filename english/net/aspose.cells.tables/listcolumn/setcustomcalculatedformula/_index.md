@@ -3,6 +3,7 @@ title: SetCustomCalculatedFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the formula for this list column.
 type: docs
+weight: 70
 url: /net/aspose.cells.tables/listcolumn/setcustomcalculatedformula/
 ---
 ## ListColumn.SetCustomCalculatedFormula method

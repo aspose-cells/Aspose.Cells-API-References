@@ -3,6 +3,7 @@ title: GetCellArea
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the CellAreaaspose.cells/cellarea where the specified AutoFilter applies to.
 type: docs
+weight: 140
 url: /net/aspose.cells/autofilter/getcellarea/
 ---
 ## AutoFilter.GetCellArea method

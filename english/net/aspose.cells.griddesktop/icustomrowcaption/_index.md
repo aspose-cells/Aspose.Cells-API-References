@@ -3,6 +3,7 @@ title: ICustomRowCaption
 second_title: Aspose.Cells for .NET API Reference
 description: Interface for custom row caption.
 type: docs
+weight: 880
 url: /net/aspose.cells.griddesktop/icustomrowcaption/
 ---
 ## ICustomRowCaption interface

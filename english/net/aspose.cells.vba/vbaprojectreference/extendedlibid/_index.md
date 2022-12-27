@@ -3,6 +3,7 @@ title: ExtendedLibid
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the extended Libid of the reference.
 type: docs
+weight: 10
 url: /net/aspose.cells.vba/vbaprojectreference/extendedlibid/
 ---
 ## VbaProjectReference.ExtendedLibid property

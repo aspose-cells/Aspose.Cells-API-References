@@ -3,6 +3,7 @@ title: PdfSecurityOptions
 second_title: Aspose.Cells for .NET API Reference
 description: The constructor of PdfSecurityOptions
 type: docs
+weight: 10
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/pdfsecurityoptions/
 ---
 ## PdfSecurityOptions constructor

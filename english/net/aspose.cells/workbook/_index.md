@@ -3,6 +3,7 @@ title: Workbook
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a root object to create an Excel spreadsheet.
 type: docs
+weight: 6510
 url: /net/aspose.cells/workbook/
 ---
 ## Workbook class
@@ -63,7 +64,7 @@ public class Workbook : IDisposable
 | [CalculateFormula](../../aspose.cells/workbook/calculateformula#calculateformula)() | Calculates the result of formulas. |
 | [CalculateFormula](../../aspose.cells/workbook/calculateformula#calculateformula_2)(bool) | Calculates the result of formulas. |
 | [CalculateFormula](../../aspose.cells/workbook/calculateformula#calculateformula_1)(CalculationOptions) | Calculating formulas in this workbook. |
-| [CalculateFormula](../../aspose.cells/workbook/calculateformula#calculateformula_3)(bool, ICustomFunction) | (**Obsolete.**) Calculates the result of formulas. |
+| [CalculateFormula](../../aspose.cells/workbook/calculateformula#calculateformula_3)(bool, ICustomFunction) | Calculates the result of formulas. |
 | [ChangePalette](../../aspose.cells/workbook/changepalette)(Color, int) | Changes the palette for the spreadsheet in the specified index. |
 | [CloseAccessCache](../../aspose.cells/workbook/closeaccesscache)(AccessCacheOptions) | Closes the session that uses caches to access data. |
 | [Combine](../../aspose.cells/workbook/combine)(Workbook) | Combines another Workbook object. |
@@ -83,17 +84,16 @@ public class Workbook : IDisposable
 | [GetNamedStyle](../../aspose.cells/workbook/getnamedstyle)(string) | Gets the named style in the style pool. |
 | [GetStyleInPool](../../aspose.cells/workbook/getstyleinpool)(int) | Gets the style in the style pool. All styles in the workbook will be gathered into a pool. There is only a simple reference index in the cells. |
 | [GetThemeColor](../../aspose.cells/workbook/getthemecolor)(ThemeColorType) | Gets theme color. |
-| [HasExernalLinks](../../aspose.cells/workbook/hasexernallinks)() | (**Obsolete.**) Indicates whether this workbook contains external links to other data sources. |
+| [HasExernalLinks](../../aspose.cells/workbook/hasexernallinks)() | Indicates whether this workbook contains external links to other data sources. |
 | [ImportXml](../../aspose.cells/workbook/importxml#importxml)(Stream, string, int, int) | Imports/Updates an XML data file into the workbook. |
 | [ImportXml](../../aspose.cells/workbook/importxml#importxml_1)(string, string, int, int) | Imports/Updates an XML data file into the workbook. |
 | [IsColorInPalette](../../aspose.cells/workbook/iscolorinpalette)(Color) | Checks if a color is in the palette for the spreadsheet. |
 | [ParseFormulas](../../aspose.cells/workbook/parseformulas)(bool) | Parses all formulas which have not been parsed when they were loaded from template file or set to a cell. |
 | [Protect](../../aspose.cells/workbook/protect)(ProtectionType, string) | Protects a workbook. |
 | [ProtectSharedWorkbook](../../aspose.cells/workbook/protectsharedworkbook)(string) | Protects a shared workbook. |
-| [RefreshDynamicArrayFormulas](../../aspose.cells/workbook/refreshdynamicarrayformulas#refreshdynamicarrayformulas)(bool) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas. |
-| [RefreshDynamicArrayFormulas](../../aspose.cells/workbook/refreshdynamicarrayformulas#refreshdynamicarrayformulas_1)(bool, CalculationOptions) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) |
+| [RefreshDynamicArrayFormulas](../../aspose.cells/workbook/refreshdynamicarrayformulas)(bool) | Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) |
 | [RemoveDigitalSignature](../../aspose.cells/workbook/removedigitalsignature)() | Removes digital signature from this spreadsheet. |
-| [RemoveExternalLinks](../../aspose.cells/workbook/removeexternallinks)() | (**Obsolete.**) Removes all external links in the workbook. |
+| [RemoveExternalLinks](../../aspose.cells/workbook/removeexternallinks)() | Removes all external links in the workbook. |
 | [RemoveMacro](../../aspose.cells/workbook/removemacro)() | Removes VBA/macro from this spreadsheet. |
 | [RemovePersonalInformation](../../aspose.cells/workbook/removepersonalinformation)() | Removes personal information. |
 | [RemoveUnusedStyles](../../aspose.cells/workbook/removeunusedstyles)() | Remove all unused styles. |

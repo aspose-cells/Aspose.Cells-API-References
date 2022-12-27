@@ -3,6 +3,7 @@ title: DataExtractLoad
 second_title: Aspose.Cells for .NET API Reference
 description: indicates whether the application last opened the workbook for data recovery.
 type: docs
+weight: 150
 url: /net/aspose.cells/workbooksettings/dataextractload/
 ---
 ## WorkbookSettings.DataExtractLoad property

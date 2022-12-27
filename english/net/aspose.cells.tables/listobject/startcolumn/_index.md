@@ -3,6 +3,7 @@ title: StartColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the start column of the range.
 type: docs
+weight: 180
 url: /net/aspose.cells.tables/listobject/startcolumn/
 ---
 ## ListObject.StartColumn property

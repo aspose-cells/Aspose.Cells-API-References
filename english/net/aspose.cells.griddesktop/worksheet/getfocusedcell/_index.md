@@ -3,6 +3,7 @@ title: GetFocusedCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the focused cell.
 type: docs
+weight: 730
 url: /net/aspose.cells.griddesktop/worksheet/getfocusedcell/
 ---
 ## Worksheet.GetFocusedCell method

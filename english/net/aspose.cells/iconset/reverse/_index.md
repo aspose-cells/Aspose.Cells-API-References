@@ -3,6 +3,7 @@ title: Reverse
 second_title: Aspose.Cells for .NET API Reference
 description: Get or set the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false.
 type: docs
+weight: 40
 url: /net/aspose.cells/iconset/reverse/
 ---
 ## IconSet.Reverse property

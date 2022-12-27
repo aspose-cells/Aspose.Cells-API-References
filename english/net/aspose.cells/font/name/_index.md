@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the name of the Fontaspose.cells/font.
 type: docs
+weight: 120
 url: /net/aspose.cells/font/name/
 ---
 ## Font.Name property

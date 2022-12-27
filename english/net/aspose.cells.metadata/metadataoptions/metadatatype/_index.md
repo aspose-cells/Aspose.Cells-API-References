@@ -3,6 +3,7 @@ title: MetadataType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the type of the metadata which is loading.
 type: docs
+weight: 30
 url: /net/aspose.cells.metadata/metadataoptions/metadatatype/
 ---
 ## MetadataOptions.MetadataType property

@@ -3,6 +3,7 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the hyperlink at the specified area.
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/gridhyperlinkcollection/remove/
 ---
 ## GridHyperlinkCollection.Remove method

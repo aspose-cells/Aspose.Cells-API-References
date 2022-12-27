@@ -3,6 +3,7 @@ title: Inside
 second_title: Aspose.Cells for .NET API Reference
 description: check whether current CellRange is inside in the target CellRange
 type: docs
+weight: 120
 url: /net/aspose.cells.griddesktop/cellrange/inside/
 ---
 ## CellRange.Inside method

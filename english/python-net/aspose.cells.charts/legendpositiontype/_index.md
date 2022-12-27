@@ -1,28 +1,32 @@
----
-title: LegendPositionType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: LegendPositionType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 540
 url: /python-net/aspose.cells.charts/legendpositiontype/
+is_root: false
 ---
 
 ## LegendPositionType enumeration
 
 Enumerates the legend position types.
 
-## Members
-| Member name | Description |
+
+
+The LegendPositionType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|BOTTOM|Displays the legend to the bottom of the chart's plot area.|
-|CORNER|Displays the legend to the corner of the chart's plot area.|
-|LEFT|Displays the legend to the left of the chart's plot area.|
-|NOT_DOCKED|Represents that the legend is not docked.|
-|RIGHT|Displays the legend to the right of the chart's plot area.|
-|TOP|Displays the legend to the top of the chart's plot area.|
+| BOTTOM | Displays the legend to the bottom of the chart's plot area. |
+| CORNER | Displays the legend to the corner of the chart's plot area. |
+| LEFT | Displays the legend to the left of the chart's plot area. |
+| NOT_DOCKED | Represents that the legend is not docked. |
+| RIGHT | Displays the legend to the right of the chart's plot area. |
+| TOP | Displays the legend to the top of the chart's plot area. |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

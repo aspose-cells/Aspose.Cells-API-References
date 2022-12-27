@@ -3,6 +3,7 @@ title: GetThemeFont
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the default theme font name.
 type: docs
+weight: 750
 url: /net/aspose.cells/workbooksettings/getthemefont/
 ---
 ## WorkbookSettings.GetThemeFont method

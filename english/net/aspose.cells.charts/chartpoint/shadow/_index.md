@@ -3,6 +3,7 @@ title: Shadow
 second_title: Aspose.Cells for .NET API Reference
 description: True if the chartpoint has a shadow.
 type: docs
+weight: 190
 url: /net/aspose.cells.charts/chartpoint/shadow/
 ---
 ## ChartPoint.Shadow property

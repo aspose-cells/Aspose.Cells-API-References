@@ -3,6 +3,7 @@ title: Second
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the second of the grouped date time.
 type: docs
+weight: 80
 url: /net/aspose.cells/datetimegroupitem/second/
 ---
 ## DateTimeGroupItem.Second property

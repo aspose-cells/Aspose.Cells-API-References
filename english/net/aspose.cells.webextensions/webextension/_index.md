@@ -1,8 +1,9 @@
 ---
 title: WebExtension
 second_title: Aspose.Cells for .NET API Reference
-description: Represents an Office Addin instance.
+description: Represents an Office Add-in instance.
 type: docs
+weight: 6400
 url: /net/aspose.cells.webextensions/webextension/
 ---
 ## WebExtension class

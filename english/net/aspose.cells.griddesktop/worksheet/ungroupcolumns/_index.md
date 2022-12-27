@@ -3,6 +3,7 @@ title: UngroupColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Ungroups columns.
 type: docs
+weight: 1120
 url: /net/aspose.cells.griddesktop/worksheet/ungroupcolumns/
 ---
 ## UngroupColumns(int, int) {#ungroupcolumns}

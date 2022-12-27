@@ -3,6 +3,7 @@ title: SummaryRowBelow
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the summary row will be positioned below the detail rows in the outline.
 type: docs
+weight: 20
 url: /net/aspose.cells/outline/summaryrowbelow/
 ---
 ## Outline.SummaryRowBelow property

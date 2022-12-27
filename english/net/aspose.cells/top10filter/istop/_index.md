@@ -3,6 +3,7 @@ title: IsTop
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether its top filter.
 type: docs
+weight: 30
 url: /net/aspose.cells/top10filter/istop/
 ---
 ## Top10Filter.IsTop property

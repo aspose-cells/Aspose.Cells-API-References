@@ -3,6 +3,7 @@ title: FontScript
 second_title: Aspose.Cells for .NET API Reference
 description: Font script setting will be applied.
 type: docs
+weight: 140
 url: /net/aspose.cells/styleflag/fontscript/
 ---
 ## StyleFlag.FontScript property

@@ -3,6 +3,7 @@ title: MaxColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the maximum display column indexzero based of the web sheet. The control uses the greater value of MaxColumn and sheet datas max column.
 type: docs
+weight: 460
 url: /net/aspose.cells.gridweb/mainweb/maxcolumn/
 ---
 ## MainWeb.MaxColumn property

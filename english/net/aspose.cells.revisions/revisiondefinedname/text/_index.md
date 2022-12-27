@@ -3,6 +3,7 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the text of the defined name.
 type: docs
+weight: 30
 url: /net/aspose.cells.revisions/revisiondefinedname/text/
 ---
 ## RevisionDefinedName.Text property

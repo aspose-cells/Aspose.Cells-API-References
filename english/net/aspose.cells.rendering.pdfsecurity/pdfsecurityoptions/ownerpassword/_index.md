@@ -3,6 +3,7 @@ title: OwnerPassword
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the owner password of the document
 type: docs
+weight: 100
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/ownerpassword/
 ---
 ## PdfSecurityOptions.OwnerPassword property

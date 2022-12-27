@@ -3,6 +3,7 @@ title: Value1
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the first value associated with the data validation.
 type: docs
+weight: 150
 url: /net/aspose.cells/validation/value1/
 ---
 ## Validation.Value1 property

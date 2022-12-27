@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Scenarioaspose.cells/scenario object by the index.
 type: docs
+weight: 20
 url: /net/aspose.cells/scenariocollection/item/
 ---
 ## ScenarioCollection indexer

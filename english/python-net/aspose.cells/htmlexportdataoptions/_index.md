@@ -1,24 +1,28 @@
----
-title: HtmlExportDataOptions
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: HtmlExportDataOptions enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4680
+weight: 2140
 url: /python-net/aspose.cells/htmlexportdataoptions/
+is_root: false
 ---
 
 ## HtmlExportDataOptions enumeration
 
 Represents the options for exporting html data.
 
-## Members
-| Member name | Description |
+
+
+The HtmlExportDataOptions type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|TABLE|Export file to html which only contains table part.|
-|ALL|Export all the data to html.|
+| TABLE | Export file to html which only contains table part. |
+| ALL | Export all the data to html. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

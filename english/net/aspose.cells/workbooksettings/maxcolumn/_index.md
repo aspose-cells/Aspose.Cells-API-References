@@ -1,8 +1,9 @@
 ---
 title: MaxColumn
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the max column index zerobased.
+description: Gets the max column index zero-based.
 type: docs
+weight: 340
 url: /net/aspose.cells/workbooksettings/maxcolumn/
 ---
 ## WorkbookSettings.MaxColumn property

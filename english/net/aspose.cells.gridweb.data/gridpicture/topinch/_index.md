@@ -3,6 +3,7 @@ title: TopInch
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the vertical offset of shape from its top row in unit of inches.
 type: docs
+weight: 450
 url: /net/aspose.cells.gridweb.data/gridpicture/topinch/
 ---
 ## GridPicture.TopInch property

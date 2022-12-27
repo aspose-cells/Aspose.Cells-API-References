@@ -3,6 +3,7 @@ title: GroupLevel
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the group level of the row.
 type: docs
+weight: 30
 url: /net/aspose.cells/row/grouplevel/
 ---
 ## Row.GroupLevel property

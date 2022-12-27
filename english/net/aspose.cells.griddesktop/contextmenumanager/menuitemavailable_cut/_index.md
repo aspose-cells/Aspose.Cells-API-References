@@ -3,6 +3,7 @@ title: MenuItemAvailable_Cut
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item Cut is available.
 type: docs
+weight: 60
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_cut/
 ---
 ## ContextMenuManager.MenuItemAvailable_Cut property

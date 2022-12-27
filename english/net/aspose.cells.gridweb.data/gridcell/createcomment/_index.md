@@ -3,6 +3,7 @@ title: CreateComment
 second_title: Aspose.Cells for .NET API Reference
 description: Creates a comment object for a cell.
 type: docs
+weight: 200
 url: /net/aspose.cells.gridweb.data/gridcell/createcomment/
 ---
 ## GridCell.CreateComment method

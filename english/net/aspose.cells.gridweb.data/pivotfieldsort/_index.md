@@ -3,6 +3,7 @@ title: PivotFieldSort
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the order used to sort the specified PivotTable field.
 type: docs
+weight: 730
 url: /net/aspose.cells.gridweb.data/pivotfieldsort/
 ---
 ## PivotFieldSort enumeration

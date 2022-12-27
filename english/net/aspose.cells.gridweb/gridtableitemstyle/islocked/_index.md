@@ -3,6 +3,7 @@ title: IsLocked
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether a cell can be modified or not when its worksheet is protected. When its worksheet is protected and IsLocked is true the cell can not be edit. When its worksheet is protected and IsLocked is false the cell can be edit.
 type: docs
+weight: 70
 url: /net/aspose.cells.gridweb/gridtableitemstyle/islocked/
 ---
 ## GridTableItemStyle.IsLocked property

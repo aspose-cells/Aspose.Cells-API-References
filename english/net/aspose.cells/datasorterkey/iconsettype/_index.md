@@ -3,6 +3,7 @@ title: IconSetType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the icon set type.
 type: docs
+weight: 30
 url: /net/aspose.cells/datasorterkey/iconsettype/
 ---
 ## DataSorterKey.IconSetType property

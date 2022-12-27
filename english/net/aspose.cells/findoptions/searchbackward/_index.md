@@ -3,6 +3,7 @@ title: SearchBackward
 second_title: Aspose.Cells for .NET API Reference
 description: Whether search backward for cells.
 type: docs
+weight: 100
 url: /net/aspose.cells/findoptions/searchbackward/
 ---
 ## FindOptions.SearchBackward property

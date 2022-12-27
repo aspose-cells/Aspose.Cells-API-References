@@ -3,6 +3,7 @@ title: HideColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Hide multiple columns.
 type: docs
+weight: 910
 url: /net/aspose.cells/cells/hidecolumns/
 ---
 ## Cells.HideColumns method

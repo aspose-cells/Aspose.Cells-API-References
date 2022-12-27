@@ -3,6 +3,7 @@ title: CreatePivotTable
 second_title: Aspose.Cells for .NET API Reference
 description: Creates PivotTable report to a new Sheet.
 type: docs
+weight: 90
 url: /net/aspose.cells.gridweb.data/pivotcache/createpivottable/
 ---
 ## CreatePivotTable() {#createpivottable}

@@ -3,6 +3,7 @@ title: Worksheets
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Worksheets.
 type: docs
+weight: 300
 url: /net/aspose.cells.griddesktop/griddesktop/worksheets/
 ---
 ## GridDesktop.Worksheets property

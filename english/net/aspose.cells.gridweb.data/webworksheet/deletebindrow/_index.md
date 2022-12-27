@@ -3,6 +3,7 @@ title: DeleteBindRow
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes a bind row.
 type: docs
+weight: 290
 url: /net/aspose.cells.gridweb.data/webworksheet/deletebindrow/
 ---
 ## WebWorksheet.DeleteBindRow method

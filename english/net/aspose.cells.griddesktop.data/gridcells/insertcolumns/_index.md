@@ -3,6 +3,7 @@ title: InsertColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts some columns into the worksheet.
 type: docs
+weight: 540
 url: /net/aspose.cells.griddesktop.data/gridcells/insertcolumns/
 ---
 ## InsertColumns(int, int) {#insertcolumns}

@@ -3,6 +3,7 @@ title: WidthScale
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the width scale in unit of percent of the original picture width. If the shape is not picture the WidthScale property only returns 100
 type: docs
+weight: 610
 url: /net/aspose.cells.griddesktop.data/gridpicture/widthscale/
 ---
 ## GridPicture.WidthScale property

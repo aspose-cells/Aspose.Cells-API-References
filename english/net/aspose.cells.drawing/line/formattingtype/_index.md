@@ -3,6 +3,7 @@ title: FormattingType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets format type.
 type: docs
+weight: 110
 url: /net/aspose.cells.drawing/line/formattingtype/
 ---
 ## Line.FormattingType property

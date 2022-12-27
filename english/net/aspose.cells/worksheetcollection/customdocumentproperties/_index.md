@@ -3,6 +3,7 @@ title: CustomDocumentProperties
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a DocumentPropertyaspose.cells.properties/documentproperty collection that represents all the custom document properties of the spreadsheet.
 type: docs
+weight: 40
 url: /net/aspose.cells/worksheetcollection/customdocumentproperties/
 ---
 ## WorksheetCollection.CustomDocumentProperties property

@@ -3,6 +3,7 @@ title: RefreshDate
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the date when the PivotTable was last refreshed.
 type: docs
+weight: 510
 url: /net/aspose.cells.pivot/pivottable/refreshdate/
 ---
 ## PivotTable.RefreshDate property

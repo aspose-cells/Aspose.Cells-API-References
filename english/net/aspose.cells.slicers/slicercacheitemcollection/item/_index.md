@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the SlicerCacheItem object by index.
 type: docs
+weight: 20
 url: /net/aspose.cells.slicers/slicercacheitemcollection/item/
 ---
 ## SlicerCacheItemCollection indexer

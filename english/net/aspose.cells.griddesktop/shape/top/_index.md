@@ -3,6 +3,7 @@ title: Top
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the vertical offset of shape from its top row in unit of pixels.
 type: docs
+weight: 130
 url: /net/aspose.cells.griddesktop/shape/top/
 ---
 ## Shape.Top property

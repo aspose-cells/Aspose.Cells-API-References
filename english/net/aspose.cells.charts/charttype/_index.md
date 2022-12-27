@@ -3,6 +3,7 @@ title: ChartType
 second_title: Aspose.Cells for .NET API Reference
 description: Enumerates all chart types used in Excel.
 type: docs
+weight: 560
 url: /net/aspose.cells.charts/charttype/
 ---
 ## ChartType enumeration

@@ -3,6 +3,7 @@ title: Outline
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 50
 url: /net/aspose.cells.drawing/shapeformat/outline/
 ---
 ## ShapeFormat.Outline property

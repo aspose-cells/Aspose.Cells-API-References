@@ -3,6 +3,7 @@ title: CellSelectedIndexChanged
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the cell combobox SelectedIndex property has changed.
 type: docs
+weight: 470
 url: /net/aspose.cells.griddesktop/griddesktop/cellselectedindexchanged/
 ---
 ## GridDesktop.CellSelectedIndexChanged event

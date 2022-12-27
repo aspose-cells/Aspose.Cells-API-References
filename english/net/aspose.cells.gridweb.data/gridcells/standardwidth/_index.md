@@ -3,6 +3,7 @@ title: StandardWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the default column width in the worksheetin unit of characters.
 type: docs
+weight: 190
 url: /net/aspose.cells.gridweb.data/gridcells/standardwidth/
 ---
 ## GridCells.StandardWidth property

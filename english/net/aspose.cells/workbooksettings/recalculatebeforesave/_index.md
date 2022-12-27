@@ -3,6 +3,7 @@ title: RecalculateBeforeSave
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to recalculate before saving the document.
 type: docs
+weight: 470
 url: /net/aspose.cells/workbooksettings/recalculatebeforesave/
 ---
 ## WorkbookSettings.RecalculateBeforeSave property

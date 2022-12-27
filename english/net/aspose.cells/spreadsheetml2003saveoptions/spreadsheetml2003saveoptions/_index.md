@@ -3,6 +3,7 @@ title: SpreadsheetML2003SaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Creates the options for saving Excel 2003 spreadml file.
 type: docs
+weight: 10
 url: /net/aspose.cells/spreadsheetml2003saveoptions/spreadsheetml2003saveoptions/
 ---
 ## SpreadsheetML2003SaveOptions() {#constructor}
@@ -27,7 +28,6 @@ Creates the options for saving Excel 2003 spreadml file.
 
 ```csharp
 [Obsolete("Use SpreadsheetML2003SaveOptions() constructor instead.")]
-[EditorBrowsable(EditorBrowsableState.Never)]
 public SpreadsheetML2003SaveOptions(SaveFormat saveFormat)
 ```
 

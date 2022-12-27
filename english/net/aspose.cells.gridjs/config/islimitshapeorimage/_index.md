@@ -3,6 +3,7 @@ title: IslimitShapeOrImage
 second_title: Aspose.Cells for .NET API Reference
 description: Sets whether to limit the total display shape/image count inside one worksheet if set to true GridJs will limit the total display shape/image size inside one worksheet to MaxShapeOrImageCount the default value is true
 type: docs
+weight: 70
 url: /net/aspose.cells.gridjs/config/islimitshapeorimage/
 ---
 ## Config.IslimitShapeOrImage property

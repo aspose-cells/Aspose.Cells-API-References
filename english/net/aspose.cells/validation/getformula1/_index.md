@@ -3,6 +3,7 @@ title: GetFormula1
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the value or expression associated with this validation.
 type: docs
+weight: 200
 url: /net/aspose.cells/validation/getformula1/
 ---
 ## GetFormula1(bool, bool) {#getformula1}

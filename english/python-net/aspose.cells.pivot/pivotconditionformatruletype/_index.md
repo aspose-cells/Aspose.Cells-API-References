@@ -1,26 +1,30 @@
----
-title: PivotConditionFormatRuleType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PivotConditionFormatRuleType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 130
 url: /python-net/aspose.cells.pivot/pivotconditionformatruletype/
+is_root: false
 ---
 
 ## PivotConditionFormatRuleType enumeration
 
 Represents PivotTable condition formatting rule type.
 
-## Members
-| Member name | Description |
+
+
+The PivotConditionFormatRuleType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|Indicates that Top N conditional formatting is not evaluated|
-|ALL|Indicates that Top N conditional formatting is <br/>            evaluated across the entire scope range.|
-|ROW|Indicates that Top N conditional formatting is evaluated for each row.|
-|COLUMN|Indicates that Top N conditional formatting is <br/>            evaluated for each column.|
+| NONE | Indicates that Top N conditional formatting is not evaluated |
+| ALL | Indicates that Top N conditional formatting is <br/>evaluated across the entire scope range. |
+| ROW | Indicates that Top N conditional formatting is evaluated for each row. |
+| COLUMN | Indicates that Top N conditional formatting is <br/>evaluated for each column. |
+
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.pivot](../)

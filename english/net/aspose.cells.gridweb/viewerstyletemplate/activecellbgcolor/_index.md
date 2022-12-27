@@ -3,6 +3,7 @@ title: ActiveCellBgColor
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the background color of the active cell.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb/viewerstyletemplate/activecellbgcolor/
 ---
 ## ViewerStyleTemplate.ActiveCellBgColor property

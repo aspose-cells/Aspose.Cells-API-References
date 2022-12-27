@@ -3,6 +3,7 @@ title: Zoom
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 350
 url: /net/aspose.cells.gridweb.data/gridworksheet/zoom/
 ---
 ## GridWorksheet.Zoom property

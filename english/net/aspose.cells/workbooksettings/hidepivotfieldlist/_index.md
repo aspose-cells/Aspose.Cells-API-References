@@ -3,6 +3,7 @@ title: HidePivotFieldList
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets whether hide the field list for the PivotTable.
 type: docs
+weight: 230
 url: /net/aspose.cells/workbooksettings/hidepivotfieldlist/
 ---
 ## WorkbookSettings.HidePivotFieldList property

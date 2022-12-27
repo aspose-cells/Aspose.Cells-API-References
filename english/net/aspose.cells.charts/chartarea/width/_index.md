@@ -3,6 +3,7 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the horizontal offset from its lower right corner column.
 type: docs
+weight: 30
 url: /net/aspose.cells.charts/chartarea/width/
 ---
 ## ChartArea.Width property

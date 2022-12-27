@@ -3,6 +3,7 @@ title: CellRange
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a range of cells within a spreadsheet.
 type: docs
+weight: 190
 url: /net/aspose.cells.griddesktop/cellrange/
 ---
 ## CellRange class

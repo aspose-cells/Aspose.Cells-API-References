@@ -3,6 +3,7 @@ title: RowsCount
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 340
 url: /net/aspose.cells.griddesktop/worksheet/rowscount/
 ---
 ## Worksheet.RowsCount property

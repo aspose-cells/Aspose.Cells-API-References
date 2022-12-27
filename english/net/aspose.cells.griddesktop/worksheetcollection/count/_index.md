@@ -3,6 +3,7 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop/worksheetcollection/count/
 ---
 ## WorksheetCollection.Count property

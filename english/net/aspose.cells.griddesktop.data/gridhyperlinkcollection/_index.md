@@ -3,6 +3,7 @@ title: GridHyperlinkCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of Hyperlink objects.
 type: docs
+weight: 490
 url: /net/aspose.cells.griddesktop.data/gridhyperlinkcollection/
 ---
 ## GridHyperlinkCollection class

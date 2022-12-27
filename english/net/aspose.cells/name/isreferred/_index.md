@@ -3,6 +3,7 @@ title: IsReferred
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this name is referred by other formulas.
 type: docs
+weight: 30
 url: /net/aspose.cells/name/isreferred/
 ---
 ## Name.IsReferred property

@@ -1,27 +1,31 @@
----
-title: ShiftType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ShiftType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5000
+weight: 2460
 url: /python-net/aspose.cells/shifttype/
+is_root: false
 ---
 
 ## ShiftType enumeration
 
 Represent the shift options when deleting a range of cells.
 
-## Members
-| Member name | Description |
+
+
+The ShiftType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|DOWN|Shift cells down.|
-|LEFT|Shift cells left.|
-|NONE|Do not shift cells.|
-|RIGHT|Shift cells right.|
-|UP|Shift cells up.|
+| DOWN | Shift cells down. |
+| LEFT | Shift cells left. |
+| NONE | Do not shift cells. |
+| RIGHT | Shift cells right. |
+| UP | Shift cells up. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

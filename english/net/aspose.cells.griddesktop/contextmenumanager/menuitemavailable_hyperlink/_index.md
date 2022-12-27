@@ -3,6 +3,7 @@ title: MenuItemAvailable_Hyperlink
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item Hyperlink is available.
 type: docs
+weight: 140
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_hyperlink/
 ---
 ## ContextMenuManager.MenuItemAvailable_Hyperlink property

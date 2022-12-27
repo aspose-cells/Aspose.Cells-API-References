@@ -3,6 +3,7 @@ title: By
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the interval object for the group range.
 type: docs
+weight: 10
 url: /net/aspose.cells.pivot/sxrng/by/
 ---
 ## SxRng.By property

@@ -3,6 +3,7 @@ title: UngroupRows
 second_title: Aspose.Cells for .NET API Reference
 description: Ungroups rows.
 type: docs
+weight: 1130
 url: /net/aspose.cells.griddesktop/worksheet/ungrouprows/
 ---
 ## UngroupRows(int, int) {#ungrouprows}

@@ -3,6 +3,7 @@ title: HideItemDetail
 second_title: Aspose.Cells for .NET API Reference
 description: Sets whether the specific PivotItem in a pivot field is hidden detail.
 type: docs
+weight: 480
 url: /net/aspose.cells.pivot/pivotfield/hideitemdetail/
 ---
 ## PivotField.HideItemDetail method

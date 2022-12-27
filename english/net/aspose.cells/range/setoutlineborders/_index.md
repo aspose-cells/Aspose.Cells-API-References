@@ -3,32 +3,10 @@ title: SetOutlineBorders
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the outline borders around a range of cells with same border style and color.
 type: docs
+weight: 360
 url: /net/aspose.cells/range/setoutlineborders/
 ---
-## SetOutlineBorders(CellBorderType, CellsColor) {#setoutlineborders}
-
-Sets the outline borders around a range of cells with same border style and color.
-
-```csharp
-public void SetOutlineBorders(CellBorderType borderStyle, CellsColor borderColor)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| borderStyle | CellBorderType | Border style. |
-| borderColor | CellsColor | Border color. |
-
-### See Also
-
-* enum [CellBorderType](../../cellbordertype)
-* class [CellsColor](../../cellscolor)
-* class [Range](../../range)
-* namespace [Aspose.Cells](../../range)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## SetOutlineBorders(CellBorderType, Color) {#setoutlineborders_1}
+## SetOutlineBorders(CellBorderType, Color) {#setoutlineborders}
 
 Sets the outline borders around a range of cells with same border style and color.
 
@@ -50,7 +28,7 @@ public void SetOutlineBorders(CellBorderType borderStyle, Color borderColor)
 
 ---
 
-## SetOutlineBorders(CellBorderType[], Color[]) {#setoutlineborders_2}
+## SetOutlineBorders(CellBorderType[], Color[]) {#setoutlineborders_1}
 
 Sets out line borders around a range of cells.
 

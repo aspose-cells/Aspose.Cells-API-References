@@ -1,27 +1,30 @@
----
-title: WebExtensionReference
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: WebExtensionReference class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 70
 url: /python-net/aspose.cells.webextensions/webextensionreference/
+is_root: false
 ---
 
 ## WebExtensionReference class
 
 Represents identify the provider location and version of the extension.
 
+
+
 The WebExtensionReference type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|id|Gets and sets the identifier associated with the Office Add-in within a catalog provider.<br/>            The identifier MUST be unique within a catalog provider.|
-|version|Gets and sets the version.|
-|store_name|Gets and sets the instance of the marketplace where the Office Add-in is stored. .|
-|store_type|Gets and sets the type of marketplace that the store attribute identifies.|
+| [id](/cells/python-net/aspose.cells.webextensions/webextensionreference/id) | Gets and sets the identifier associated with the Office Add-in within a catalog provider.<br/>The identifier MUST be unique within a catalog provider. |
+| [version](/cells/python-net/aspose.cells.webextensions/webextensionreference/version) | Gets and sets the version. |
+| [store_name](/cells/python-net/aspose.cells.webextensions/webextensionreference/store_name) | Gets and sets the instance of the marketplace where the Office Add-in is stored. . |
+| [store_type](/cells/python-net/aspose.cells.webextensions/webextensionreference/store_type) | Gets and sets the type of marketplace that the store attribute identifies. |
+
 
 ### See Also
 
-* namespace [aspose.cells.webextensions](/cells/python-net/aspose.cells.webextensions/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.webextensions](../)

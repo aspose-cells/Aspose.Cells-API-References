@@ -3,6 +3,7 @@ title: AddRectangle
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a RectangleShape to the worksheet.
 type: docs
+weight: 240
 url: /net/aspose.cells.drawing/shapecollection/addrectangle/
 ---
 ## ShapeCollection.AddRectangle method

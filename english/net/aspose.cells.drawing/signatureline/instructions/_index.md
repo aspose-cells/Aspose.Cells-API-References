@@ -3,6 +3,7 @@ title: Instructions
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text shown to user at signing time.
 type: docs
+weight: 50
 url: /net/aspose.cells.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property

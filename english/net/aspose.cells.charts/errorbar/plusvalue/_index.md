@@ -3,6 +3,7 @@ title: PlusValue
 second_title: Aspose.Cells for .NET API Reference
 description: Represents positive error amount when error bar type is Custom.
 type: docs
+weight: 40
 url: /net/aspose.cells.charts/errorbar/plusvalue/
 ---
 ## ErrorBar.PlusValue property

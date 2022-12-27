@@ -3,6 +3,7 @@ title: GetCommentTitleName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the locale dependent comment title name according to comment title type.
 type: docs
+weight: 100
 url: /net/aspose.cells/globalizationsettings/getcommenttitlename/
 ---
 ## GlobalizationSettings.GetCommentTitleName method

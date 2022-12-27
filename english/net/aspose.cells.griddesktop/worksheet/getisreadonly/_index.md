@@ -3,6 +3,7 @@ title: GetIsReadonly
 second_title: Aspose.Cells for .NET API Reference
 description: Gets whether the cell is readonly.this is an extended attribute of GridWeb it will not keep in actual excel file
 type: docs
+weight: 760
 url: /net/aspose.cells.griddesktop/worksheet/getisreadonly/
 ---
 ## Worksheet.GetIsReadonly method

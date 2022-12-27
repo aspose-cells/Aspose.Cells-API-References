@@ -3,6 +3,7 @@ title: EndArrowheadLength
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the end arrow length type of the line.
 type: docs
+weight: 70
 url: /net/aspose.cells.drawing/lineformat/endarrowheadlength/
 ---
 ## LineFormat.EndArrowheadLength property

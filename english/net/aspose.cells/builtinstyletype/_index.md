@@ -1,13 +1,14 @@
 ---
 title: BuiltinStyleType
 second_title: Aspose.Cells for .NET API Reference
-description: Represents all builtin style types.
+description: Represents all built-in style type
 type: docs
+weight: 170
 url: /net/aspose.cells/builtinstyletype/
 ---
 ## BuiltinStyleType enumeration
 
-Represents all built-in style types.
+Represents all built-in style type
 
 ```csharp
 public enum BuiltinStyleType

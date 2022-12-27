@@ -3,6 +3,7 @@ title: GetByIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the column object by the index.
 type: docs
+weight: 20
 url: /net/aspose.cells/columncollection/getbyindex/
 ---
 ## ColumnCollection.GetByIndex method

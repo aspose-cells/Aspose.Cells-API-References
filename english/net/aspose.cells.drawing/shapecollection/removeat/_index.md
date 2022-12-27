@@ -3,6 +3,7 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the shape.
 type: docs
+weight: 430
 url: /net/aspose.cells.drawing/shapecollection/removeat/
 ---
 ## ShapeCollection.RemoveAt method

@@ -3,6 +3,7 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the applied style.
 type: docs
+weight: 20
 url: /net/aspose.cells.revisions/revisionformat/style/
 ---
 ## RevisionFormat.Style property

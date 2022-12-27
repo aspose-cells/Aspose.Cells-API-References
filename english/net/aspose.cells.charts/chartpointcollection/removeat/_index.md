@@ -3,6 +3,7 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Removes point at the index of the series..
 type: docs
+weight: 50
 url: /net/aspose.cells.charts/chartpointcollection/removeat/
 ---
 ## ChartPointCollection.RemoveAt method

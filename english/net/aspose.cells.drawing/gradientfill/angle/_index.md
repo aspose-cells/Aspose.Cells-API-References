@@ -3,6 +3,7 @@ title: Angle
 second_title: Aspose.Cells for .NET API Reference
 description: The angle of linear fill.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/gradientfill/angle/
 ---
 ## GradientFill.Angle property

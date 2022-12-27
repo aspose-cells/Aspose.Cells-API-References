@@ -3,6 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 190
 url: /net/aspose.cells.gridweb.data/webworksheets/getenumerator/
 ---
 ## WebWorksheets.GetEnumerator method

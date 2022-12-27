@@ -3,6 +3,7 @@ title: HyperlinkBase
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the hyperlinkbase property.
 type: docs
+weight: 130
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/hyperlinkbase/
 ---
 ## BuiltInDocumentPropertyCollection.HyperlinkBase property

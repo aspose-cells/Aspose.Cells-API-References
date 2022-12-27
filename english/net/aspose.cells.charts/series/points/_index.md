@@ -3,6 +3,7 @@ title: Points
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the collection of points in a series in a chart.
 type: docs
+weight: 340
 url: /net/aspose.cells.charts/series/points/
 ---
 ## Series.Points property

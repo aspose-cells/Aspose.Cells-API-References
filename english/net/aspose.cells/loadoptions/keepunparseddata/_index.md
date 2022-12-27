@@ -3,6 +3,7 @@ title: KeepUnparsedData
 second_title: Aspose.Cells for .NET API Reference
 description: Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true.
 type: docs
+weight: 110
 url: /net/aspose.cells/loadoptions/keepunparseddata/
 ---
 ## LoadOptions.KeepUnparsedData property

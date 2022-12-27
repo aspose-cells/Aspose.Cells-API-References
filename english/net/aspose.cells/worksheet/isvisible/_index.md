@@ -3,6 +3,7 @@ title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the worksheet is visible.
 type: docs
+weight: 290
 url: /net/aspose.cells/worksheet/isvisible/
 ---
 ## Worksheet.IsVisible property

@@ -3,6 +3,7 @@ title: EmfType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets an EmfType that specifies the format of the Metafile.. The default value is EmfPlusDual.
 type: docs
+weight: 110
 url: /net/aspose.cells.rendering/imageorprintoptions/emftype/
 ---
 ## ImageOrPrintOptions.EmfType property

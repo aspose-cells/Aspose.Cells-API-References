@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds CellWatchaspose.cells/cellwatch with row and column.
 type: docs
+weight: 30
 url: /net/aspose.cells/cellwatchcollection/add/
 ---
 ## Add(int, int) {#add}

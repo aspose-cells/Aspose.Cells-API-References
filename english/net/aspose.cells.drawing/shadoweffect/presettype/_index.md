@@ -3,6 +3,7 @@ title: PresetType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the preset shadow type of the shadow.
 type: docs
+weight: 50
 url: /net/aspose.cells.drawing/shadoweffect/presettype/
 ---
 ## ShadowEffect.PresetType property

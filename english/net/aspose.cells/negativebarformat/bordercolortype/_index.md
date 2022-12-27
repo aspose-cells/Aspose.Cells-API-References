@@ -3,6 +3,7 @@ title: BorderColorType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets whether to use the same border color as positive data bars.
 type: docs
+weight: 20
 url: /net/aspose.cells/negativebarformat/bordercolortype/
 ---
 ## NegativeBarFormat.BorderColorType property

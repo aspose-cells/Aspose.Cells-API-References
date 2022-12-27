@@ -3,6 +3,7 @@ title: Compare
 second_title: Aspose.Cells for .NET API Reference
 description: internal uses only.
 type: docs
+weight: 60
 url: /net/aspose.cells.griddesktop/rowfiltersettings/compare/
 ---
 ## RowFilterSettings.Compare method

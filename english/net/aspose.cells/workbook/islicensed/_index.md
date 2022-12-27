@@ -3,6 +3,7 @@ title: IsLicensed
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether license is set.
 type: docs
+weight: 200
 url: /net/aspose.cells/workbook/islicensed/
 ---
 ## Workbook.IsLicensed property

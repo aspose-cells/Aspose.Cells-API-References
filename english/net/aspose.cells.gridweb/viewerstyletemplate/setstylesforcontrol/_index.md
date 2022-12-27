@@ -3,6 +3,7 @@ title: SetStylesForControl
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 260
 url: /net/aspose.cells.gridweb/viewerstyletemplate/setstylesforcontrol/
 ---
 ## ViewerStyleTemplate.SetStylesForControl method

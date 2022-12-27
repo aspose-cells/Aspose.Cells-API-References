@@ -3,6 +3,7 @@ title: CopyTo
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 70
 url: /net/aspose.cells/collectionbase-1/copyto/
 ---
 ## CopyTo(T[]) {#copyto_1}

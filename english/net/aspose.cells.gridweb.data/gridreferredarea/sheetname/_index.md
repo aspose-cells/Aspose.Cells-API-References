@@ -3,6 +3,7 @@ title: SheetName
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates which sheet this is in
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/gridreferredarea/sheetname/
 ---
 ## GridReferredArea.SheetName property

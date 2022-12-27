@@ -3,6 +3,7 @@ title: GetFormula2
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the value or expression associated with this format condition.
 type: docs
+weight: 160
 url: /net/aspose.cells/formatcondition/getformula2/
 ---
 ## GetFormula2(bool, bool) {#getformula2}

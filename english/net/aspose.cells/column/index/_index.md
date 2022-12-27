@@ -3,6 +3,7 @@ title: Index
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the index of this column.
 type: docs
+weight: 20
 url: /net/aspose.cells/column/index/
 ---
 ## Column.Index property

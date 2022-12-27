@@ -3,6 +3,7 @@ title: CreateMemoryStream
 second_title: Aspose.Cells for .NET API Reference
 description: Create one instance of MemoryStream or custom implementation of MemoryStream.
 type: docs
+weight: 30
 url: /net/aspose.cells/customimplementationfactory/creatememorystream/
 ---
 ## CreateMemoryStream() {#creatememorystream}

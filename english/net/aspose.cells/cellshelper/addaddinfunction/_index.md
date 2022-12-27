@@ -3,6 +3,7 @@ title: AddAddInFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Add addin function.
 type: docs
+weight: 80
 url: /net/aspose.cells/cellshelper/addaddinfunction/
 ---
 ## CellsHelper.AddAddInFunction method

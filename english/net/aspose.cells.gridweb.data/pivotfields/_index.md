@@ -3,6 +3,7 @@ title: PivotFields
 second_title: Aspose.Cells for .NET API Reference
 description: Reprents A collection of all the PivotField./pivotfield objects in a PivotTable report.
 type: docs
+weight: 740
 url: /net/aspose.cells.gridweb.data/pivotfields/
 ---
 ## PivotFields class

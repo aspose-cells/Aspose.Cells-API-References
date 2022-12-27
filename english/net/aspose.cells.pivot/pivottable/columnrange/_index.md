@@ -1,8 +1,9 @@
 ---
 title: ColumnRange
 second_title: Aspose.Cells for .NET API Reference
-description: Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Readonly.
+description: Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only.
 type: docs
+weight: 80
 url: /net/aspose.cells.pivot/pivottable/columnrange/
 ---
 ## PivotTable.ColumnRange property

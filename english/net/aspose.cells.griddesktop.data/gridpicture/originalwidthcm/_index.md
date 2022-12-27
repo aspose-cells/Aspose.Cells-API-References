@@ -3,6 +3,7 @@ title: OriginalWidthCM
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the original width of picture in unit of centimeters.
 type: docs
+weight: 390
 url: /net/aspose.cells.griddesktop.data/gridpicture/originalwidthcm/
 ---
 ## GridPicture.OriginalWidthCM property

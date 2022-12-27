@@ -3,6 +3,7 @@ title: HtmlString
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the html string which contains data and some formats in this cell.
 type: docs
+weight: 110
 url: /net/aspose.cells/cell/htmlstring/
 ---
 ## Cell.HtmlString property

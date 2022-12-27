@@ -3,6 +3,7 @@ title: PivotFieldType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents PivotTable field type.
 type: docs
+weight: 4600
 url: /net/aspose.cells.pivot/pivotfieldtype/
 ---
 ## PivotFieldType enumeration

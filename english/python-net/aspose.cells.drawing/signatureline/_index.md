@@ -1,36 +1,41 @@
----
-title: SignatureLine
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: SignatureLine class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 640
 url: /python-net/aspose.cells.drawing/signatureline/
+is_root: false
 ---
 
 ## SignatureLine class
 
 Represent the signature line.
 
+
+
 The SignatureLine type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|SignatureLine()|Initializes a new instance of the SignatureLine class|
-## Properties
-| Name | Description |
+| [SignatureLine()](/cells/python-net/aspose.cells.drawing/signatureline/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|id|Gets or sets identifier for this signature line.|
-|provider_id|Gets and sets the id of signature provider.|
-|signer|Gets and sets the signer.|
-|title|Gets and sets the title of singer.|
-|email|Gets and sets the email of singer.|
-|is_line|Indicates whether it is a signature line.|
-|allow_comments|Indicates whether comments could be attached.|
-|show_signed_date|Indicates whether show signed date.|
-|instructions|Gets and sets the text shown to user at signing time.|
+| [id](/cells/python-net/aspose.cells.drawing/signatureline/id) | Gets or sets identifier for this signature line. |
+| [provider_id](/cells/python-net/aspose.cells.drawing/signatureline/provider_id) | Gets and sets the id of signature provider. |
+| [signer](/cells/python-net/aspose.cells.drawing/signatureline/signer) | Gets and sets the signer. |
+| [title](/cells/python-net/aspose.cells.drawing/signatureline/title) | Gets and sets the title of singer. |
+| [email](/cells/python-net/aspose.cells.drawing/signatureline/email) | Gets and sets the email of singer. |
+| [is_line](/cells/python-net/aspose.cells.drawing/signatureline/is_line) | Indicates whether it is a signature line. |
+| [allow_comments](/cells/python-net/aspose.cells.drawing/signatureline/allow_comments) | Indicates whether comments could be attached. |
+| [show_signed_date](/cells/python-net/aspose.cells.drawing/signatureline/show_signed_date) | Indicates whether show signed date. |
+| [instructions](/cells/python-net/aspose.cells.drawing/signatureline/instructions) | Gets and sets the text shown to user at signing time. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

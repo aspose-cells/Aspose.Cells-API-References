@@ -3,6 +3,7 @@ title: InnerHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the height of plot area in units of 1/4000 of the chart area.
 type: docs
+weight: 20
 url: /net/aspose.cells.charts/plotarea/innerheight/
 ---
 ## PlotArea.InnerHeight property

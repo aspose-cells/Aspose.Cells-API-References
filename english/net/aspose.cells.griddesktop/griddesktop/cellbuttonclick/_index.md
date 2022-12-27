@@ -3,6 +3,7 @@ title: CellButtonClick
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the cell button clicked.
 type: docs
+weight: 390
 url: /net/aspose.cells.griddesktop/griddesktop/cellbuttonclick/
 ---
 ## GridDesktop.CellButtonClick event

@@ -3,6 +3,7 @@ title: TreatConsecutiveDelimitersAsOne
 second_title: Aspose.Cells for .NET API Reference
 description: Whether consecutive delimiters should be treated as one.
 type: docs
+weight: 100
 url: /net/aspose.cells/txtloadoptions/treatconsecutivedelimitersasone/
 ---
 ## TxtLoadOptions.TreatConsecutiveDelimitersAsOne property

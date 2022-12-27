@@ -3,6 +3,7 @@ title: PrintTitleRows
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the rows that contain the cells to be repeated at the top of each page.
 type: docs
+weight: 380
 url: /net/aspose.cells/pagesetup/printtitlerows/
 ---
 ## PageSetup.PrintTitleRows property

@@ -1,24 +1,28 @@
----
-title: OdsGeneratorType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: OdsGeneratorType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 50
 url: /python-net/aspose.cells.ods/odsgeneratortype/
+is_root: false
 ---
 
 ## OdsGeneratorType enumeration
 
 Represents the type of ODS generator.
 
-## Members
-| Member name | Description |
+
+
+The OdsGeneratorType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|LIBRE_OFFICE|Libre Office|
-|OPEN_OFFICE|Open Office|
+| LIBRE_OFFICE | Libre Office |
+| OPEN_OFFICE | Open Office |
+
 
 ### See Also
 
-* namespace [aspose.cells.ods](/cells/python-net/aspose.cells.ods/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.ods](../)

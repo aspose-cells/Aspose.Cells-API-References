@@ -3,6 +3,7 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Remove all setting of the chart points.
 type: docs
+weight: 30
 url: /net/aspose.cells.charts/chartpointcollection/clear/
 ---
 ## ChartPointCollection.Clear method

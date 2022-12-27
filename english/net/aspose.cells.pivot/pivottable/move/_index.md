@@ -3,6 +3,7 @@ title: Move
 second_title: Aspose.Cells for .NET API Reference
 description: Moves the PivotTable to a different location in the worksheet.
 type: docs
+weight: 900
 url: /net/aspose.cells.pivot/pivottable/move/
 ---
 ## Move(int, int) {#move}

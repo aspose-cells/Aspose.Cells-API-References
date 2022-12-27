@@ -3,6 +3,7 @@ title: Children
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all text runs in this paragraph. If this paragraph is empty return paragraph itself.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing.texts/textparagraph/children/
 ---
 ## TextParagraph.Children property

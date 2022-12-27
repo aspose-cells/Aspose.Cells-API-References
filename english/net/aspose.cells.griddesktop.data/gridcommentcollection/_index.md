@@ -3,6 +3,7 @@ title: GridCommentCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of Comment objects.
 type: docs
+weight: 450
 url: /net/aspose.cells.griddesktop.data/gridcommentcollection/
 ---
 ## GridCommentCollection class

@@ -3,6 +3,7 @@ title: CellRelativeCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Internal use only.
 type: docs
+weight: 230
 url: /net/aspose.cells.griddesktop/cellrelativecollection/
 ---
 ## CellRelativeCollection class

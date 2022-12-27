@@ -3,6 +3,7 @@ title: CustomMsgForStopEdit
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the custom message to show when user edits invalid value.
 type: docs
+weight: 40
 url: /net/aspose.cells.griddesktop.data/gridvalidation/custommsgforstopedit/
 ---
 ## GridValidation.CustomMsgForStopEdit property

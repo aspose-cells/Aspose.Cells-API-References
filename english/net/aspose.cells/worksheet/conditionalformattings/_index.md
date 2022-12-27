@@ -3,6 +3,7 @@ title: ConditionalFormattings
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ConditionalFormattings in the worksheet.
 type: docs
+weight: 110
 url: /net/aspose.cells/worksheet/conditionalformattings/
 ---
 ## Worksheet.ConditionalFormattings property

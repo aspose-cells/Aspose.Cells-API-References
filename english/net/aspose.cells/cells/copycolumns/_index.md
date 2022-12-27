@@ -3,6 +3,7 @@ title: CopyColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Copies data and formats of a whole column.
 type: docs
+weight: 460
 url: /net/aspose.cells/cells/copycolumns/
 ---
 ## CopyColumns(Cells, int, int, int, PasteOptions) {#copycolumns_1}

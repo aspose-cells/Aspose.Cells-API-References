@@ -3,6 +3,7 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the number of elements contained in the PivotTables instance
 type: docs
+weight: 10
 url: /net/aspose.cells.gridweb.data/pivottables/count/
 ---
 ## PivotTables.Count property

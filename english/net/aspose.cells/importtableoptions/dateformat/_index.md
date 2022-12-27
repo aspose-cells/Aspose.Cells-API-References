@@ -3,6 +3,7 @@ title: DateFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets date format string for cells with imported datetime values.
 type: docs
+weight: 60
 url: /net/aspose.cells/importtableoptions/dateformat/
 ---
 ## ImportTableOptions.DateFormat property

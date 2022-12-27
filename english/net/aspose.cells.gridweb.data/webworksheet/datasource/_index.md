@@ -3,6 +3,7 @@ title: DataSource
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the DataSource. Generally its a DataSet object.
 type: docs
+weight: 110
 url: /net/aspose.cells.gridweb.data/webworksheet/datasource/
 ---
 ## WebWorksheet.DataSource property

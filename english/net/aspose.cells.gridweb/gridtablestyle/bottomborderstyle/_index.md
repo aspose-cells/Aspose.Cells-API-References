@@ -3,6 +3,7 @@ title: BottomBorderStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the style of bottom border of the table.
 type: docs
+weight: 40
 url: /net/aspose.cells.gridweb/gridtablestyle/bottomborderstyle/
 ---
 ## GridTableStyle.BottomBorderStyle property

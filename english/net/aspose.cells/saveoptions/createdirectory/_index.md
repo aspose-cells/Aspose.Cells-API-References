@@ -3,6 +3,7 @@ title: CreateDirectory
 second_title: Aspose.Cells for .NET API Reference
 description: If true and the directory does not exist the directory will be automatically created before saving the file.
 type: docs
+weight: 30
 url: /net/aspose.cells/saveoptions/createdirectory/
 ---
 ## SaveOptions.CreateDirectory property

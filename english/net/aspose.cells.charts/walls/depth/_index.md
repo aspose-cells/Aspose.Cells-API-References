@@ -3,6 +3,7 @@ title: Depth
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the depth front to back in units of 1/4000 of charts width after calls Chart.Calculate method.
 type: docs
+weight: 50
 url: /net/aspose.cells.charts/walls/depth/
 ---
 ## Walls.Depth property

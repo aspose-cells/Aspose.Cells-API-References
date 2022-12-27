@@ -3,6 +3,7 @@ title: op_Inequality
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 450
 url: /net/aspose.cells.griddesktop.data/gridcell/op_inequality/
 ---
 ## GridCell Inequality operator

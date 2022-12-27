@@ -3,6 +3,7 @@ title: PositionInSameParentNode
 second_title: Aspose.Cells for .NET API Reference
 description: Specifying the position index in the PivotItems under the same parent node.
 type: docs
+weight: 60
 url: /net/aspose.cells.pivot/pivotitem/positioninsameparentnode/
 ---
 ## PivotItem.PositionInSameParentNode property

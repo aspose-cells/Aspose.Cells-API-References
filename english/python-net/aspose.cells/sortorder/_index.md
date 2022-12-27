@@ -1,24 +1,28 @@
----
-title: SortOrder
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: SortOrder enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5020
+weight: 2480
 url: /python-net/aspose.cells/sortorder/
+is_root: false
 ---
 
 ## SortOrder enumeration
 
 Represents sort order for the data range.
 
-## Members
-| Member name | Description |
+
+
+The SortOrder type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|ASCENDING||
-|DESCENDING||
+| ASCENDING |  |
+| DESCENDING |  |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

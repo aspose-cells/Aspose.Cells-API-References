@@ -3,6 +3,7 @@ title: Email
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the email of singer.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property

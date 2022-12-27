@@ -3,6 +3,7 @@ title: SourceCellArea
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the range of the data source using with SourceSheet.
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/pivotcache/sourcecellarea/
 ---
 ## PivotCache.SourceCellArea property

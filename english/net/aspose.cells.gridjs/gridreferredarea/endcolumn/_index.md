@@ -3,6 +3,7 @@ title: EndColumn
 second_title: Aspose.Cells for .NET API Reference
 description: The end column of the area.
 type: docs
+weight: 10
 url: /net/aspose.cells.gridjs/gridreferredarea/endcolumn/
 ---
 ## GridReferredArea.EndColumn property

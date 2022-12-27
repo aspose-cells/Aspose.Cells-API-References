@@ -3,6 +3,7 @@ title: PivotOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a complex type that specifies the pivot controls that appear on the chart
 type: docs
+weight: 780
 url: /net/aspose.cells.charts/pivotoptions/
 ---
 ## PivotOptions class

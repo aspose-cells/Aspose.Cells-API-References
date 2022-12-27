@@ -3,6 +3,7 @@ title: PlacementType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the way the drawing object is attached to the cells below it.
 type: docs
+weight: 2510
 url: /net/aspose.cells.drawing/placementtype/
 ---
 ## PlacementType enumeration

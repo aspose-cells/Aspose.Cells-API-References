@@ -3,6 +3,7 @@ title: GridWorkbookSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Represents settings of the workbook.
 type: docs
+weight: 110
 url: /net/aspose.cells.gridjs/gridworkbooksettings/
 ---
 ## GridWorkbookSettings class

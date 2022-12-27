@@ -1,24 +1,28 @@
----
-title: XAdESType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: XAdESType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 30
 url: /python-net/aspose.cells.digitalsignatures/xadestype/
+is_root: false
 ---
 
 ## XAdESType enumeration
 
 Type of XML Advanced Electronic Signature (XAdES).
 
-## Members
-| Member name | Description |
+
+
+The XAdESType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|XAdES is off.|
-|X_AD_ES|Basic XAdES.|
+| NONE | XAdES is off. |
+| X_AD_ES | Basic XAdES. |
+
 
 ### See Also
 
-* namespace [aspose.cells.digitalsignatures](/cells/python-net/aspose.cells.digitalsignatures/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.digitalsignatures](../)

@@ -3,6 +3,7 @@ title: OldName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the old name of the worksheet.
 type: docs
+weight: 20
 url: /net/aspose.cells.revisions/revisionrenamesheet/oldname/
 ---
 ## RevisionRenameSheet.OldName property

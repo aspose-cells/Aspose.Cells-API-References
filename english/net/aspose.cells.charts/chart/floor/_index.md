@@ -1,8 +1,9 @@
 ---
 title: Floor
 second_title: Aspose.Cells for .NET API Reference
-description: Returns a Flooraspose.cells.charts/chart/floor object that represents the walls of a 3D chart.
+description: Returns a Flooraspose.cells.charts/chart/floor object that represents the walls of a 3-D chart.
 type: docs
+weight: 120
 url: /net/aspose.cells.charts/chart/floor/
 ---
 ## Chart.Floor property

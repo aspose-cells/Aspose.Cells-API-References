@@ -3,6 +3,7 @@ title: ConditionalStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the conditional result style.
 type: docs
+weight: 50
 url: /net/aspose.cells/conditionalformattingresult/conditionalstyle/
 ---
 ## ConditionalFormattingResult.ConditionalStyle property

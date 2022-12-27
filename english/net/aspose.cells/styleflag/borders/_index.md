@@ -3,6 +3,7 @@ title: Borders
 second_title: Aspose.Cells for .NET API Reference
 description: All borders settings will be applied.
 type: docs
+weight: 40
 url: /net/aspose.cells/styleflag/borders/
 ---
 ## StyleFlag.Borders property

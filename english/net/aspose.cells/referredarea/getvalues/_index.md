@@ -3,6 +3,7 @@ title: GetValues
 second_title: Aspose.Cells for .NET API Reference
 description: Gets cell values in this area.
 type: docs
+weight: 100
 url: /net/aspose.cells/referredarea/getvalues/
 ---
 ## GetValues() {#getvalues}

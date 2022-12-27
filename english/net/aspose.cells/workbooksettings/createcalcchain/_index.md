@@ -3,6 +3,7 @@ title: CreateCalcChain
 second_title: Aspose.Cells for .NET API Reference
 description: Whether creates calculated formulas chain. Default is false.
 type: docs
+weight: 130
 url: /net/aspose.cells/workbooksettings/createcalcchain/
 ---
 ## WorkbookSettings.CreateCalcChain property

@@ -3,6 +3,7 @@ title: ImportData
 second_title: Aspose.Cells for .NET API Reference
 description: Import the json string.
 type: docs
+weight: 30
 url: /net/aspose.cells.utility/jsonutility/importdata/
 ---
 ## JsonUtility.ImportData method

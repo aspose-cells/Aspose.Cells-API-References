@@ -3,6 +3,7 @@ title: ClearFormats
 second_title: Aspose.Cells for .NET API Reference
 description: Clears formatting of a range.
 type: docs
+weight: 240
 url: /net/aspose.cells.gridweb.data/gridcells/clearformats/
 ---
 ## ClearFormats(int, int, int, int) {#clearformats_1}

@@ -3,6 +3,7 @@ title: MaxDataRow
 second_title: Aspose.Cells for .NET API Reference
 description: Maximum row index of cell which contains data.
 type: docs
+weight: 110
 url: /net/aspose.cells/cells/maxdatarow/
 ---
 ## Cells.MaxDataRow property

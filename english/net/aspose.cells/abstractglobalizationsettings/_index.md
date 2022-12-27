@@ -3,6 +3,7 @@ title: AbstractGlobalizationSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the globalization settings.
 type: docs
+weight: 40
 url: /net/aspose.cells/abstractglobalizationsettings/
 ---
 ## AbstractGlobalizationSettings class

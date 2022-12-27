@@ -3,6 +3,7 @@ title: Alignment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and set the position of the Caption relative to the control.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/alignment/
 ---
 ## CheckBoxActiveXControl.Alignment property

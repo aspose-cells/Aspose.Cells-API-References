@@ -3,6 +3,7 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the width of frame in units of 1/4000 of the chart area.
 type: docs
+weight: 180
 url: /net/aspose.cells.charts/chartframe/width/
 ---
 ## ChartFrame.Width property

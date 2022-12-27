@@ -3,6 +3,7 @@ title: SetElementStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the element style.
 type: docs
+weight: 40
 url: /net/aspose.cells.tables/tablestyleelement/setelementstyle/
 ---
 ## TableStyleElement.SetElementStyle method

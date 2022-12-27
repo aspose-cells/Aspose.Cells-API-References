@@ -3,6 +3,7 @@ title: OnlyVisibleCells
 second_title: Aspose.Cells for .NET API Reference
 description: True means only copying visible cells.
 type: docs
+weight: 20
 url: /net/aspose.cells/pasteoptions/onlyvisiblecells/
 ---
 ## PasteOptions.OnlyVisibleCells property

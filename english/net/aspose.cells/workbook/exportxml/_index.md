@@ -3,6 +3,7 @@ title: ExportXml
 second_title: Aspose.Cells for .NET API Reference
 description: Export XML data linked by the specified XML map.
 type: docs
+weight: 400
 url: /net/aspose.cells/workbook/exportxml/
 ---
 ## ExportXml(string, string) {#exportxml_1}

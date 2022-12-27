@@ -3,6 +3,7 @@ title: MaxLength
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the max length of data bar .
 type: docs
+weight: 80
 url: /net/aspose.cells/databar/maxlength/
 ---
 ## DataBar.MaxLength property

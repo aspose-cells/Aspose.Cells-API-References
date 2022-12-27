@@ -3,6 +3,7 @@ title: TabId
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the internal identifier for the sheet.
 type: docs
+weight: 470
 url: /net/aspose.cells/worksheet/tabid/
 ---
 ## Worksheet.TabId property

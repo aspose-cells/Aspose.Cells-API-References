@@ -3,6 +3,7 @@ title: ChartPointCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a collection that contains all the points in one series.
 type: docs
+weight: 520
 url: /net/aspose.cells.charts/chartpointcollection/
 ---
 ## ChartPointCollection class
@@ -65,7 +66,7 @@ Chart chart = worksheet.Charts[chartIndex];
 chart.NSeries.Add("A1:B3", true);
 
 //Show Data Labels 
-chart.NSeries[0].DataLabels.ShowValue = true;
+chart.NSeries[0].DataLabels.IsValueShown = true;
 
 ChartPointCollection points = chart.NSeries[0].Points;
 
@@ -118,7 +119,7 @@ Dim chart As Chart = worksheet.Charts(chartIndex)
 chart.NSeries.Add("A1:B3", True)
 
 'Show Data Labels 
-chart.NSeries(0).DataLabels.ShowValue = True
+chart.NSeries(0).DataLabels.IsValueShown = True
 
 Dim points As ChartPointCollection = chart.NSeries(0).Points
 

@@ -3,6 +3,7 @@ title: GetHyperlink
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the cells Hyperlink object. If there is no Hyperlink of the cell returns null.
 type: docs
+weight: 50
 url: /net/aspose.cells.gridweb.data/gridhyperlinkcollection/gethyperlink/
 ---
 ## GetHyperlink(GridCell) {#gethyperlink}

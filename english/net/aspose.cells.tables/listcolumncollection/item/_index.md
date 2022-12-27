@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ListColumn by the index.
 type: docs
+weight: 10
 url: /net/aspose.cells.tables/listcolumncollection/item/
 ---
 ## ListColumnCollection indexer (1 of 2)

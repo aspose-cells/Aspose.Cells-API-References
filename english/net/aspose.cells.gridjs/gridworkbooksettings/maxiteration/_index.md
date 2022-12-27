@@ -3,6 +3,7 @@ title: MaxIteration
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the maximum number of iterations to resolve a circular referencethe default value is 100.
 type: docs
+weight: 90
 url: /net/aspose.cells.gridjs/gridworkbooksettings/maxiteration/
 ---
 ## GridWorkbookSettings.MaxIteration property

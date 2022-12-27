@@ -3,6 +3,7 @@ title: PivotField
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a field in a PivotTable report.
 type: docs
+weight: 4560
 url: /net/aspose.cells.pivot/pivotfield/
 ---
 ## PivotField class
@@ -47,7 +48,6 @@ public class PivotField
 | [ItemCount](../../aspose.cells.pivot/pivotfield/itemcount) { get; } | Gets the base item count of this pivot field. |
 | [Items](../../aspose.cells.pivot/pivotfield/items) { get; } | Get all base items; |
 | [Name](../../aspose.cells.pivot/pivotfield/name) { get; } | Represents the PivotField name. |
-| [NonAutoSortDefault](../../aspose.cells.pivot/pivotfield/nonautosortdefault) { get; set; } | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [Number](../../aspose.cells.pivot/pivotfield/number) { get; set; } | Represents the built-in display format of numbers and dates. |
 | [NumberFormat](../../aspose.cells.pivot/pivotfield/numberformat) { get; set; } | Represents the custom display format of numbers and dates. |
 | [OriginalItems](../../aspose.cells.pivot/pivotfield/originalitems) { get; } | Get the original base items; |

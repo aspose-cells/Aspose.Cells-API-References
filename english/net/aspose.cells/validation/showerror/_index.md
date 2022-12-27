@@ -3,6 +3,7 @@ title: ShowError
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the data validation error message will be displayed whenever the user enters invalid data.
 type: docs
+weight: 120
 url: /net/aspose.cells/validation/showerror/
 ---
 ## Validation.ShowError property

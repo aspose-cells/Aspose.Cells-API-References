@@ -3,6 +3,7 @@ title: TextToDisplay
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.
 type: docs
+weight: 80
 url: /net/aspose.cells.griddesktop.data/gridhyperlink/texttodisplay/
 ---
 ## GridHyperlink.TextToDisplay property

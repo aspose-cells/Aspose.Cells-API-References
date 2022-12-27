@@ -3,6 +3,7 @@ title: Insert
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts a button at the index.
 type: docs
+weight: 130
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/insert/
 ---
 ## CustomCommandButtonCollection.Insert method

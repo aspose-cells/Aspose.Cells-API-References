@@ -3,6 +3,7 @@ title: UseAlternativeStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to use the alternative style for the column.
 type: docs
+weight: 160
 url: /net/aspose.cells.gridweb/bindcolumn/usealternativestyle/
 ---
 ## BindColumn.UseAlternativeStyle property

@@ -3,6 +3,7 @@ title: PageFieldCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the number of page fields.
 type: docs
+weight: 20
 url: /net/aspose.cells.pivot/pivotpagefields/pagefieldcount/
 ---
 ## PivotPageFields.PageFieldCount property

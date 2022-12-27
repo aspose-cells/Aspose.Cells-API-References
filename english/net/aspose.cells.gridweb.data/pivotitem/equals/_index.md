@@ -3,6 +3,7 @@ title: Equals
 second_title: Aspose.Cells for .NET API Reference
 description: Determines whether two Object instances are equal.
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/pivotitem/equals/
 ---
 ## PivotItem.Equals method

@@ -3,6 +3,7 @@ title: StartId
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the start id.
 type: docs
+weight: 150
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/startid/
 ---
 ## SqlScriptSaveOptions.StartId property

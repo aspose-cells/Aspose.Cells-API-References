@@ -3,6 +3,7 @@ title: FormatConditionType
 second_title: Aspose.Cells for .NET API Reference
 description: Conditional format rule type.
 type: docs
+weight: 820
 url: /net/aspose.cells.griddesktop/formatconditiontype/
 ---
 ## FormatConditionType enumeration

@@ -1,25 +1,29 @@
----
-title: AxisType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: AxisType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 360
 url: /python-net/aspose.cells.charts/axistype/
+is_root: false
 ---
 
 ## AxisType enumeration
 
 Represents the axis type.
 
-## Members
-| Member name | Description |
+
+
+The AxisType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|CATEGORY|Category axis|
-|VALUE|Value axis|
-|SERIES|Series axis|
+| CATEGORY | Category axis |
+| VALUE | Value axis |
+| SERIES | Series axis |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

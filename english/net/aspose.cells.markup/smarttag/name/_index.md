@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of the smart tag.
 type: docs
+weight: 20
 url: /net/aspose.cells.markup/smarttag/name/
 ---
 ## SmartTag.Name property

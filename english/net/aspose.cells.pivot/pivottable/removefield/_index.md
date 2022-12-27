@@ -3,6 +3,7 @@ title: RemoveField
 second_title: Aspose.Cells for .NET API Reference
 description: Removes a field from specific field area
 type: docs
+weight: 920
 url: /net/aspose.cells.pivot/pivottable/removefield/
 ---
 ## RemoveField(PivotFieldType, string) {#removefield_2}
@@ -59,7 +60,7 @@ public void RemoveField(PivotFieldType fieldType, PivotField pivotField)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | PivotFieldType | the fields area type. |
+| fieldType | PivotFieldType | the fields area type.It could be one of the following values: PivotFieldType.RowPivotFieldType.ColumnPivotFieldType.DataPivotFieldType.Page |
 | pivotField | PivotField | the field in the base fields. |
 
 ### See Also

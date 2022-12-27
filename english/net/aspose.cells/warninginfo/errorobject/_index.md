@@ -3,6 +3,7 @@ title: ErrorObject
 second_title: Aspose.Cells for .NET API Reference
 description: The error object.
 type: docs
+weight: 30
 url: /net/aspose.cells/warninginfo/errorobject/
 ---
 ## WarningInfo.ErrorObject property

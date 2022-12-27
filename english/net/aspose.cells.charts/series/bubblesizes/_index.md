@@ -3,6 +3,7 @@ title: BubbleSizes
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the bubble sizes values of the chart series.
 type: docs
+weight: 60
 url: /net/aspose.cells.charts/series/bubblesizes/
 ---
 ## Series.BubbleSizes property

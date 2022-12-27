@@ -3,6 +3,7 @@ title: TextureFill
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents texture fill format
 type: docs
+weight: 3070
 url: /net/aspose.cells.drawing/texturefill/
 ---
 ## TextureFill class
@@ -30,8 +31,8 @@ public class TextureFill : Fill
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | /(Inherited from [`Fill`](../fill).) |
-| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code.(Inherited from [`Fill`](../fill).) |
+| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | / |
+| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code. |
 
 ### See Also
 

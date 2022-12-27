@@ -3,6 +3,7 @@ title: Outline
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the outline on this worksheet.
 type: docs
+weight: 330
 url: /net/aspose.cells/worksheet/outline/
 ---
 ## Worksheet.Outline property

@@ -3,6 +3,7 @@ title: Weight
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the weight of the line in units of pt.
 type: docs
+weight: 70
 url: /net/aspose.cells.drawing/msolineformat/weight/
 ---
 ## MsoLineFormat.Weight property

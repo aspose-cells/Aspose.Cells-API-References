@@ -3,6 +3,7 @@ title: OriginalWidthInch
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the original width of picture in unit of inches.
 type: docs
+weight: 150
 url: /net/aspose.cells.drawing/picture/originalwidthinch/
 ---
 ## Picture.OriginalWidthInch property

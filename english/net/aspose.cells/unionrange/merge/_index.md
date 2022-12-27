@@ -3,6 +3,7 @@ title: Merge
 second_title: Aspose.Cells for .NET API Reference
 description: Combines a range of cells into a single cell.
 type: docs
+weight: 170
 url: /net/aspose.cells/unionrange/merge/
 ---
 ## UnionRange.Merge method

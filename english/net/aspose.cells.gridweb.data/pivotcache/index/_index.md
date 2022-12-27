@@ -3,6 +3,7 @@ title: Index
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the index of this object in Parent
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/pivotcache/index/
 ---
 ## PivotCache.Index property

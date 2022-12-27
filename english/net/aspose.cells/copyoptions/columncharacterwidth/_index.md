@@ -3,6 +3,7 @@ title: ColumnCharacterWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether copying column width in unit of characters.
 type: docs
+weight: 20
 url: /net/aspose.cells/copyoptions/columncharacterwidth/
 ---
 ## CopyOptions.ColumnCharacterWidth property

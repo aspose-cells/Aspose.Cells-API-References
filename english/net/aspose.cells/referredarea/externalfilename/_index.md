@@ -3,6 +3,7 @@ title: ExternalFileName
 second_title: Aspose.Cells for .NET API Reference
 description: Get the external file name if this is an external reference.
 type: docs
+weight: 30
 url: /net/aspose.cells/referredarea/externalfilename/
 ---
 ## ReferredArea.ExternalFileName property

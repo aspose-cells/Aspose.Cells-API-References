@@ -3,6 +3,7 @@ title: MsoLineFormatHelper
 second_title: Aspose.Cells for .NET API Reference
 description: Represents line and arrowhead formatting.
 type: docs
+weight: 2380
 url: /net/aspose.cells.drawing/msolineformathelper/
 ---
 ## MsoLineFormatHelper class

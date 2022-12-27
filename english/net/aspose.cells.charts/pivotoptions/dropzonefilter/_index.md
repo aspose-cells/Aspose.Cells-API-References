@@ -3,6 +3,7 @@ title: DropZoneFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies whether a control for each PivotTable field on the PivotTable page axis of the source PivotTable appears on the chart when dropZonesVisible is set to true.
 type: docs
+weight: 30
 url: /net/aspose.cells.charts/pivotoptions/dropzonefilter/
 ---
 ## PivotOptions.DropZoneFilter property

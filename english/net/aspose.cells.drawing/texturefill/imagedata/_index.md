@@ -3,6 +3,7 @@ title: ImageData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the image data of the fill.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/texturefill/imagedata/
 ---
 ## TextureFill.ImageData property

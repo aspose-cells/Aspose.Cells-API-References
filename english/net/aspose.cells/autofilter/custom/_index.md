@@ -3,6 +3,7 @@ title: Custom
 second_title: Aspose.Cells for .NET API Reference
 description: Filters a list with a custom criteria.
 type: docs
+weight: 100
 url: /net/aspose.cells/autofilter/custom/
 ---
 ## Custom(int, FilterOperatorType, object) {#custom}

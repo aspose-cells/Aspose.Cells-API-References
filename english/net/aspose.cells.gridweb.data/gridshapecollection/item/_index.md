@@ -1,13 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the GridShapeaspose.cells.gridweb.data/gridshape element at the specified index.
+description: Gets the Picture element at the specified index.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb.data/gridshapecollection/item/
 ---
 ## GridShapeCollection indexer
 
-Gets the [`GridShape`](../../gridshape) element at the specified index.
+Gets the Picture element at the specified index.
 
 ```csharp
 public GridShape this[int index] { get; }

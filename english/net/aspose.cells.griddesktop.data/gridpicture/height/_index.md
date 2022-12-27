@@ -3,6 +3,7 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the height of shape in unit of pixel.
 type: docs
+weight: 90
 url: /net/aspose.cells.griddesktop.data/gridpicture/height/
 ---
 ## GridPicture.Height property

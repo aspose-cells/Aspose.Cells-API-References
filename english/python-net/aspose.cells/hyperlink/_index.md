@@ -1,32 +1,37 @@
----
-title: Hyperlink
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: Hyperlink class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 790
 url: /python-net/aspose.cells/hyperlink/
+is_root: false
 ---
 
 ## Hyperlink class
 
 Encapsulates the object that represents a hyperlink.
 
+
+
 The Hyperlink type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|address|Represents the address of a hyperlink.|
-|text_to_display|Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink.|
-|area|Gets the range of hyperlink.|
-|screen_tip|Returns or sets the ScreenTip text for the specified hyperlink.|
-|link_type|Gets the link type.|
-## Methods
-| Name | Description |
+| [address](/cells/python-net/aspose.cells/hyperlink/address) | Represents the address of a hyperlink. |
+| [text_to_display](/cells/python-net/aspose.cells/hyperlink/text_to_display) | Represents the text to be displayed for the specified hyperlink. The default value is the address of the hyperlink. |
+| [area](/cells/python-net/aspose.cells/hyperlink/area) | Gets the range of hyperlink. |
+| [screen_tip](/cells/python-net/aspose.cells/hyperlink/screen_tip) | Returns or sets the ScreenTip text for the specified hyperlink. |
+| [link_type](/cells/python-net/aspose.cells/hyperlink/link_type) | Gets the link type. |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|delete()|Deletes this hyperlink|
+| [delete()](/cells/python-net/aspose.cells/hyperlink/delete/#) | Deletes this hyperlink |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

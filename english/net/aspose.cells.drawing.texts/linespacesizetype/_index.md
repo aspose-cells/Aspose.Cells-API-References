@@ -3,6 +3,7 @@ title: LineSpaceSizeType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the unit type of line space size.
 type: docs
+weight: 2930
 url: /net/aspose.cells.drawing.texts/linespacesizetype/
 ---
 ## LineSpaceSizeType enumeration

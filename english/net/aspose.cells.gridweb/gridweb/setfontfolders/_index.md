@@ -3,6 +3,7 @@ title: SetFontFolders
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the fonts folders
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb/gridweb/setfontfolders/
 ---
 ## GridWeb.SetFontFolders method

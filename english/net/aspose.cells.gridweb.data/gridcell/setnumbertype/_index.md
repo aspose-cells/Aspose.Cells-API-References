@@ -3,6 +3,7 @@ title: SetNumberType
 second_title: Aspose.Cells for .NET API Reference
 description: set the display format of numbers and dates
 type: docs
+weight: 360
 url: /net/aspose.cells.gridweb.data/gridcell/setnumbertype/
 ---
 ## GridCell.SetNumberType method

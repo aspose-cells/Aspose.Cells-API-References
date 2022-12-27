@@ -3,6 +3,7 @@ title: FontSize
 second_title: Aspose.Cells for .NET API Reference
 description: Font size setting will be applied.
 type: docs
+weight: 150
 url: /net/aspose.cells/styleflag/fontsize/
 ---
 ## StyleFlag.FontSize property

@@ -3,6 +3,7 @@ title: NewValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the new value set to cell.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop/cellvalidationeventargs/newvalue/
 ---
 ## CellValidationEventArgs.NewValue property

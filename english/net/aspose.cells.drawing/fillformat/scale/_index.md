@@ -3,6 +3,7 @@ title: Scale
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the picture format scale.
 type: docs
+weight: 140
 url: /net/aspose.cells.drawing/fillformat/scale/
 ---
 ## FillFormat.Scale property

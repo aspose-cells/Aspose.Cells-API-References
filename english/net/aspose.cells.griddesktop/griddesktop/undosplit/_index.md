@@ -3,6 +3,7 @@ title: UnDoSplit
 second_title: Aspose.Cells for .NET API Reference
 description: Unset Split view.
 type: docs
+weight: 810
 url: /net/aspose.cells.griddesktop/griddesktop/undosplit/
 ---
 ## GridDesktop.UnDoSplit method

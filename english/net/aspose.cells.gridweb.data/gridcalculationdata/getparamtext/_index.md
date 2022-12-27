@@ -3,6 +3,7 @@ title: GetParamText
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the literal text of the parameter at given index.
 type: docs
+weight: 70
 url: /net/aspose.cells.gridweb.data/gridcalculationdata/getparamtext/
 ---
 ## GridCalculationData.GetParamText method

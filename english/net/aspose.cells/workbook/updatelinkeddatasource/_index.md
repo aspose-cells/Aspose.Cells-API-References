@@ -3,6 +3,7 @@ title: UpdateLinkedDataSource
 second_title: Aspose.Cells for .NET API Reference
 description: If this workbook contains external links to other data source Aspose.Cells will attempt to retrieve the latest data.
 type: docs
+weight: 680
 url: /net/aspose.cells/workbook/updatelinkeddatasource/
 ---
 ## Workbook.UpdateLinkedDataSource method

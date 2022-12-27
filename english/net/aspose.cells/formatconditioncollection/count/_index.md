@@ -3,6 +3,7 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the count of the conditions.
 type: docs
+weight: 10
 url: /net/aspose.cells/formatconditioncollection/count/
 ---
 ## FormatConditionCollection.Count property

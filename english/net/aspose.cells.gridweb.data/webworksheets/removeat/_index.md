@@ -3,6 +3,7 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Removes a sheet at the index.
 type: docs
+weight: 280
 url: /net/aspose.cells.gridweb.data/webworksheets/removeat/
 ---
 ## RemoveAt(int) {#removeat}

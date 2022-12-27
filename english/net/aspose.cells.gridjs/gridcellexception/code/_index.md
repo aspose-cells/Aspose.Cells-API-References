@@ -3,6 +3,7 @@ title: Code
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the exception code.
 type: docs
+weight: 10
 url: /net/aspose.cells.gridjs/gridcellexception/code/
 ---
 ## GridCellException.Code property

@@ -3,6 +3,7 @@ title: GetBuiltinTableStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the builtin table style
 type: docs
+weight: 40
 url: /net/aspose.cells.tables/tablestylecollection/getbuiltintablestyle/
 ---
 ## TableStyleCollection.GetBuiltinTableStyle method

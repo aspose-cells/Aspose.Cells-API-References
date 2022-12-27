@@ -1,24 +1,28 @@
----
-title: PageOrientationType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PageOrientationType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4840
+weight: 2300
 url: /python-net/aspose.cells/pageorientationtype/
+is_root: false
 ---
 
 ## PageOrientationType enumeration
 
 Represents print orientation constants.
 
-## Members
-| Member name | Description |
+
+
+The PageOrientationType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|LANDSCAPE|Landscape orientation|
-|PORTRAIT|Portrait orientation|
+| LANDSCAPE | Landscape orientation |
+| PORTRAIT | Portrait orientation |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

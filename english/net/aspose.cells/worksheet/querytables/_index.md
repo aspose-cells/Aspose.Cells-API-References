@@ -3,6 +3,7 @@ title: QueryTables
 second_title: Aspose.Cells for .NET API Reference
 description: Gets QueryTableCollectionaspose.cells/querytablecollection in the worksheet.
 type: docs
+weight: 390
 url: /net/aspose.cells/worksheet/querytables/
 ---
 ## Worksheet.QueryTables property

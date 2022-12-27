@@ -3,6 +3,7 @@ title: ShowDefaultGridLine
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to show the default grid lines of the cells.
 type: docs
+weight: 910
 url: /net/aspose.cells.gridweb/mainweb/showdefaultgridline/
 ---
 ## MainWeb.ShowDefaultGridLine property

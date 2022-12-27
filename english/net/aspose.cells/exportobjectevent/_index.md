@@ -3,6 +3,7 @@ title: ExportObjectEvent
 second_title: Aspose.Cells for .NET API Reference
 description: The event triggered when exporting an object such as Picture.
 type: docs
+weight: 3230
 url: /net/aspose.cells/exportobjectevent/
 ---
 ## ExportObjectEvent class

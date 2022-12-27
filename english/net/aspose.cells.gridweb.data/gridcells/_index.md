@@ -1,13 +1,14 @@
 ---
 title: GridCells
 second_title: Aspose.Cells for .NET API Reference
-description: Encapsulates a collection of GridCell./gridcell objects.
+description: Encapsulates a collection of Cell objects.
 type: docs
+weight: 200
 url: /net/aspose.cells.gridweb.data/gridcells/
 ---
 ## GridCells class
 
-Encapsulates a collection of [`GridCell`](../gridcell) objects.
+Encapsulates a collection of Cell objects.
 
 ```csharp
 public class GridCells : IEnumerable
@@ -20,7 +21,7 @@ public class GridCells : IEnumerable
 | [Columns](../../aspose.cells.gridweb.data/gridcells/columns) { get; } |  |
 | [Count](../../aspose.cells.gridweb.data/gridcells/count) { get; } | Gets the number of cells. |
 | [FirstCell](../../aspose.cells.gridweb.data/gridcells/firstcell) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridcells/item) { get; } | Gets [`GridCell`](../gridcell) item within the worksheet (3 indexers) |
+| [Item](../../aspose.cells.gridweb.data/gridcells/item) { get; } | Gets Cell item within the worksheet (3 indexers) |
 | [LastCell](../../aspose.cells.gridweb.data/gridcells/lastcell) { get; } |  |
 | [MaxColumn](../../aspose.cells.gridweb.data/gridcells/maxcolumn) { get; } | Maximum column index of cell which contains data or style. |
 | [MaxDataColumn](../../aspose.cells.gridweb.data/gridcells/maxdatacolumn) { get; } |  |
@@ -64,13 +65,13 @@ public class GridCells : IEnumerable
 | [DeleteRows](../../aspose.cells.gridweb.data/gridcells/deleterows#deleterows)(int, int) | Deletes several rows. |
 | [DeleteRows](../../aspose.cells.gridweb.data/gridcells/deleterows#deleterows_1)(int, int, bool) | Deletes multiple rows in the worksheet. |
 | [Export](../../aspose.cells.gridweb.data/gridcells/export)(int, int, int, int, bool, bool) | Exports data in the Cells collection of a WebWorksheet to a new DataTable object |
-| [ExportArray](../../aspose.cells.gridweb.data/gridcells/exportarray)(int, int, int, int) | Exports data in the [`GridCells`](../gridcells) collection to a two-dimension array object. |
-| [GetCell](../../aspose.cells.gridweb.data/gridcells/getcell)(int, int) | Gets the [`GridCell`](../gridcell) element or null at the specified cell row index and column index. |
+| [ExportArray](../../aspose.cells.gridweb.data/gridcells/exportarray)(int, int, int, int) | Exports data in the Cells collection to a two-dimension array object. |
+| [GetCell](../../aspose.cells.gridweb.data/gridcells/getcell)(int, int) | Gets the Cell element or null at the specified cell row index and column index. |
 | [GetColumnWidth](../../aspose.cells.gridweb.data/gridcells/getcolumnwidth)(int) | Gets the width of the specified column |
 | [GetColumnWidthInch](../../aspose.cells.gridweb.data/gridcells/getcolumnwidthinch)(int) | Gets the width of the specified column, in units of inches. |
 | [GetColumnWidthPixel](../../aspose.cells.gridweb.data/gridcells/getcolumnwidthpixel)(int) | Gets the width of the specified column, in units of pixel. |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridcells/getenumerator)() | Gets the rows enumerator |
-| [GetRow](../../aspose.cells.gridweb.data/gridcells/getrow)(int) | Gets the [`GridRow`](../gridrow) element or at the specified cell row index. |
+| [GetRow](../../aspose.cells.gridweb.data/gridcells/getrow)(int) | Gets the Row element or at the specified cell row index. |
 | [GetRowHeight](../../aspose.cells.gridweb.data/gridcells/getrowheight)(int) | Gets the height of a specified row. |
 | [GetRowHeightInch](../../aspose.cells.gridweb.data/gridcells/getrowheightinch)(int) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel](../../aspose.cells.gridweb.data/gridcells/getrowheightpixel)(int) | Gets the height of a specified row in unit of pixel. |
@@ -107,7 +108,7 @@ public class GridCells : IEnumerable
 | [SetStyle](../../aspose.cells.gridweb.data/gridcells/setstyle#setstyle_1)(string, GridTableItemStyle) | Sets the style to a specified range of cells. |
 | [SetStyle](../../aspose.cells.gridweb.data/gridcells/setstyle#setstyle)(int, int, int, int, GridTableItemStyle) | Sets the style to a specified range of cells. |
 | [Sort](../../aspose.cells.gridweb.data/gridcells/sort#sort)(int, int, int, int, int, bool, bool, bool) | Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. Sorts the datas ascend/decend left to right in a range of a Worksheet by specified row index. |
-| [Sort](../../aspose.cells.gridweb.data/gridcells/sort#sort_1)(int, int, int, int, int[], SortByOrder[], SortOrientation, bool) |  |
+| [Sort](../../aspose.cells.gridweb.data/gridcells/sort#sort_1)(int, int, int, int, int[], SortOrder[], SortOrientation, bool) |  |
 | [UngroupColumns](../../aspose.cells.gridweb.data/gridcells/ungroupcolumns)(int, int) | Ungroups columns. |
 | [UngroupRows](../../aspose.cells.gridweb.data/gridcells/ungrouprows)(int, int) | Ungroups rows. |
 | [UnhideColumn](../../aspose.cells.gridweb.data/gridcells/unhidecolumn)(int, double) | Unhides a column |

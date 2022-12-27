@@ -3,6 +3,7 @@ title: LastRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the last row index of the table.
 type: docs
+weight: 20
 url: /net/aspose.cells.tables/tabletorangeoptions/lastrow/
 ---
 ## TableToRangeOptions.LastRow property

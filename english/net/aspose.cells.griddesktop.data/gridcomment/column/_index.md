@@ -3,6 +3,7 @@ title: Column
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop.data/gridcomment/column/
 ---
 ## GridComment.Column property

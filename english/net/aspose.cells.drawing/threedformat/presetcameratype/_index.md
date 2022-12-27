@@ -3,6 +3,7 @@ title: PresetCameraType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the extrusion preset camera type.
 type: docs
+weight: 130
 url: /net/aspose.cells.drawing/threedformat/presetcameratype/
 ---
 ## ThreeDFormat.PresetCameraType property

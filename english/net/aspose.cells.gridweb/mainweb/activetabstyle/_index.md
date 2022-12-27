@@ -3,6 +3,7 @@ title: ActiveTabStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the style of the active tab.
 type: docs
+weight: 90
 url: /net/aspose.cells.gridweb/mainweb/activetabstyle/
 ---
 ## MainWeb.ActiveTabStyle property

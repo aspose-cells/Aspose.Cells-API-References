@@ -3,6 +3,7 @@ title: CellControlEventArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Provides data for cell control events.
 type: docs
+weight: 80
 url: /net/aspose.cells.griddesktop/cellcontroleventargs/
 ---
 ## CellControlEventArgs class

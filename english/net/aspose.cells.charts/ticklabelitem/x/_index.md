@@ -3,6 +3,7 @@ title: X
 second_title: Aspose.Cells for .NET API Reference
 description: X coordinates of Ticklabel item in ratio of chart width.
 type: docs
+weight: 30
 url: /net/aspose.cells.charts/ticklabelitem/x/
 ---
 ## TickLabelItem.X property

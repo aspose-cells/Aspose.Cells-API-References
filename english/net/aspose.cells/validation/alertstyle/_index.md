@@ -3,6 +3,7 @@ title: AlertStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the validation alert style.
 type: docs
+weight: 10
 url: /net/aspose.cells/validation/alertstyle/
 ---
 ## Validation.AlertStyle property

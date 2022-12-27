@@ -3,6 +3,7 @@ title: IsLocked
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether scenario is locked for editing when the sheet is protected.
 type: docs
+weight: 40
 url: /net/aspose.cells/scenario/islocked/
 ---
 ## Scenario.IsLocked property

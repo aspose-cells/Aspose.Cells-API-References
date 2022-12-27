@@ -3,6 +3,7 @@ title: SizeWithWindow
 second_title: Aspose.Cells for .NET API Reference
 description: True if Microsoft Excel resizes the chart to match the size of the chart sheet window.
 type: docs
+weight: 420
 url: /net/aspose.cells.charts/chart/sizewithwindow/
 ---
 ## Chart.SizeWithWindow property

@@ -3,6 +3,7 @@ title: ConvertDateTimeData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value that indicates whether the string in text file is converted to date data.
 type: docs
+weight: 10
 url: /net/aspose.cells/abstracttextloadoptions/convertdatetimedata/
 ---
 ## AbstractTextLoadOptions.ConvertDateTimeData property

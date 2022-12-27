@@ -3,6 +3,7 @@ title: CheckAddIn
 second_title: Aspose.Cells for .NET API Reference
 description: Whether check addins in existing external links of current workbook for user defined function without external link. Default is trueif user defined function matches one addin in existing external links then take it as the addin.
 type: docs
+weight: 20
 url: /net/aspose.cells/formulaparseoptions/checkaddin/
 ---
 ## FormulaParseOptions.CheckAddIn property

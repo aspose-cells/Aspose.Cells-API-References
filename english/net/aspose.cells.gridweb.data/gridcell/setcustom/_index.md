@@ -3,6 +3,7 @@ title: SetCustom
 second_title: Aspose.Cells for .NET API Reference
 description: sets the custom format null or empty string means no custom format.
 type: docs
+weight: 340
 url: /net/aspose.cells.gridweb.data/gridcell/setcustom/
 ---
 ## GridCell.SetCustom method

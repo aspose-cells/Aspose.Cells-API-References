@@ -3,6 +3,7 @@ title: ValidationType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the validation type.
 type: docs
+weight: 150
 url: /net/aspose.cells.gridweb.data/gridvalidation/validationtype/
 ---
 ## GridValidation.ValidationType property

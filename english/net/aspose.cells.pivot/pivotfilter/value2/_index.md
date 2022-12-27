@@ -3,6 +3,7 @@ title: Value2
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the string value2 of the label pivot filter.
 type: docs
+weight: 90
 url: /net/aspose.cells.pivot/pivotfilter/value2/
 ---
 ## PivotFilter.Value2 property

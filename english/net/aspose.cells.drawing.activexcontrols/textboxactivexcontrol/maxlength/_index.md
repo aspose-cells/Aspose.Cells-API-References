@@ -3,6 +3,7 @@ title: MaxLength
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the maximum number of characters
 type: docs
+weight: 140
 url: /net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/maxlength/
 ---
 ## TextBoxActiveXControl.MaxLength property

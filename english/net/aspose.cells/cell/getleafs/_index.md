@@ -3,6 +3,7 @@ title: GetLeafs
 second_title: Aspose.Cells for .NET API Reference
 description: Get all cells which reference to this cell directly and need to be updated when this cell is modified.
 type: docs
+weight: 490
 url: /net/aspose.cells/cell/getleafs/
 ---
 ## GetLeafs() {#getleafs}

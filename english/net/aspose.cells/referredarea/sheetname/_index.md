@@ -3,6 +3,7 @@ title: SheetName
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates which sheet this reference is in.
 type: docs
+weight: 60
 url: /net/aspose.cells/referredarea/sheetname/
 ---
 ## ReferredArea.SheetName property

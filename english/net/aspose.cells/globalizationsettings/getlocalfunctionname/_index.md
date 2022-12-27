@@ -3,6 +3,7 @@ title: GetLocalFunctionName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the locale dependent function name according to given standard function name.
 type: docs
+weight: 150
 url: /net/aspose.cells/globalizationsettings/getlocalfunctionname/
 ---
 ## GlobalizationSettings.GetLocalFunctionName method

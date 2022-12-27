@@ -3,6 +3,7 @@ title: Y
 second_title: Aspose.Cells for .NET API Reference
 description: Y coordinates of Ticklabel item in ratio of chart height.
 type: docs
+weight: 40
 url: /net/aspose.cells.charts/ticklabelitem/y/
 ---
 ## TickLabelItem.Y property

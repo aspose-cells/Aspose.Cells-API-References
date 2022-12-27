@@ -3,6 +3,7 @@ title: HtmlLinkTargetType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of target attribute in HTML  tag.
 type: docs
+weight: 3740
 url: /net/aspose.cells/htmllinktargettype/
 ---
 ## HtmlLinkTargetType enumeration

@@ -3,6 +3,7 @@ title: RevisionCellMove
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a revision record on a cells that moved.
 type: docs
+weight: 5400
 url: /net/aspose.cells.revisions/revisioncellmove/
 ---
 ## RevisionCellMove class
@@ -18,11 +19,11 @@ public class RevisionCellMove : Revision
 | Name | Description |
 | --- | --- |
 | [DestinationArea](../../aspose.cells.revisions/revisioncellmove/destinationarea) { get; } | Gets the destination area. |
-| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision.(Inherited from [`Revision`](../revision).) |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
 | [SourceArea](../../aspose.cells.revisions/revisioncellmove/sourcearea) { get; } | Gets the source area. |
 | [SourceWorksheet](../../aspose.cells.revisions/revisioncellmove/sourceworksheet) { get; } | Gets the source worksheet. |
 | override [Type](../../aspose.cells.revisions/revisioncellmove/type) { get; } | Represents the type of revision. |
-| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision).) |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

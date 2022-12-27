@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds an OleObject to the collection.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/oleobjectcollection/add/
 ---
 ## Add(int, int, int, int, byte[]) {#add}

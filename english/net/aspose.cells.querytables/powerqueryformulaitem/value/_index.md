@@ -3,6 +3,7 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the value of the item.
 type: docs
+weight: 20
 url: /net/aspose.cells.querytables/powerqueryformulaitem/value/
 ---
 ## PowerQueryFormulaItem.Value property

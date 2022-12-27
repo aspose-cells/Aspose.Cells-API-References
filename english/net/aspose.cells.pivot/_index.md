@@ -3,6 +3,7 @@ title: Aspose.Cells.Pivot
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of PivotTable.
 type: docs
+weight: 110
 url: /net/aspose.cells.pivot/
 ---
 Contains all classes of PivotTable.

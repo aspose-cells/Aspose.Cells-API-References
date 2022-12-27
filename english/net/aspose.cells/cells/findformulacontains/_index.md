@@ -3,6 +3,7 @@ title: FindFormulaContains
 second_title: Aspose.Cells for .NET API Reference
 description: Finds the cell with formula which contains the input string.
 type: docs
+weight: 660
 url: /net/aspose.cells/cells/findformulacontains/
 ---
 ## Cells.FindFormulaContains method

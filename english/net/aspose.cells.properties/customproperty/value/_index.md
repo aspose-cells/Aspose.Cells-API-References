@@ -3,6 +3,7 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the value of the custom property.
 type: docs
+weight: 40
 url: /net/aspose.cells.properties/customproperty/value/
 ---
 ## CustomProperty.Value property

@@ -1,8 +1,9 @@
 ---
 title: TickLabels
 second_title: Aspose.Cells for .NET API Reference
-description: Returns a TickLabelsaspose.cells.charts/axis/ticklabels object that represents the tickmark labels for the specified axis.
+description: Returns a TickLabelsaspose.cells.charts/axis/ticklabels object that represents the tick-mark labels for the specified axis.
 type: docs
+weight: 350
 url: /net/aspose.cells.charts/axis/ticklabels/
 ---
 ## Axis.TickLabels property

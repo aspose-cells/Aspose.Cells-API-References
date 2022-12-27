@@ -1,28 +1,32 @@
----
-title: TrendlineType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TrendlineType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 670
 url: /python-net/aspose.cells.charts/trendlinetype/
+is_root: false
 ---
 
 ## TrendlineType enumeration
 
 Represents the trendline type.
 
-## Members
-| Member name | Description |
+
+
+The TrendlineType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|EXPONENTIAL|Exponential|
-|LINEAR|Linear|
-|LOGARITHMIC|Logarithmic|
-|MOVING_AVERAGE|MovingAverage|
-|POLYNOMIAL|Polynomial|
-|POWER|Power|
+| EXPONENTIAL | Exponential |
+| LINEAR | Linear |
+| LOGARITHMIC | Logarithmic |
+| MOVING_AVERAGE | MovingAverage |
+| POLYNOMIAL | Polynomial |
+| POWER | Power |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

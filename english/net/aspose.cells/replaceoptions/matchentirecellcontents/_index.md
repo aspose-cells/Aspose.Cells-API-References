@@ -3,6 +3,7 @@ title: MatchEntireCellContents
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to match entire cells contents
 type: docs
+weight: 30
 url: /net/aspose.cells/replaceoptions/matchentirecellcontents/
 ---
 ## ReplaceOptions.MatchEntireCellContents property

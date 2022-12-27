@@ -3,6 +3,7 @@ title: AddRange
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a range object reference to cells
 type: docs
+weight: 320
 url: /net/aspose.cells/cells/addrange/
 ---
 ## Cells.AddRange method

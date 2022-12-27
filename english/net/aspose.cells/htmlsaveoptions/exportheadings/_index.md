@@ -1,23 +1,18 @@
 ---
 title: ExportHeadings
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether exports sheets row and column headings when saving to HTML files.
+description: Indicates whether exporting headings when saving file to html.The default value is false. If you want to import the html file to excel please keep the default value.
 type: docs
+weight: 200
 url: /net/aspose.cells/htmlsaveoptions/exportheadings/
 ---
 ## HtmlSaveOptions.ExportHeadings property
 
-Indicates whether exports sheet's row and column headings when saving to HTML files.
+Indicates whether exporting headings when saving file to html.The default value is false. If you want to import the html file to excel, please keep the default value.
 
 ```csharp
-[Obsolete("Use HtmlSaveOptions.ExportRowColumnHeadings instead.")]
-[EditorBrowsable(EditorBrowsableState.Never)]
 public bool ExportHeadings { get; set; }
 ```
-
-### Remarks
-
-NOTE: This member is now obsolete. Instead, please use HtmlSaveOptions.ExportRowColumnHeadings property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

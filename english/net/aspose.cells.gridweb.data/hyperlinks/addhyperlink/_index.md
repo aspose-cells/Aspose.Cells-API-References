@@ -3,6 +3,7 @@ title: AddHyperlink
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb.data/hyperlinks/addhyperlink/
 ---
 ## AddHyperlink(string) {#addhyperlink_1}

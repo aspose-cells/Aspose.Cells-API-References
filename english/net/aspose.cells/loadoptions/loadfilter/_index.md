@@ -3,6 +3,7 @@ title: LoadFilter
 second_title: Aspose.Cells for .NET API Reference
 description: The filter to denote how to load data.
 type: docs
+weight: 140
 url: /net/aspose.cells/loadoptions/loadfilter/
 ---
 ## LoadOptions.LoadFilter property

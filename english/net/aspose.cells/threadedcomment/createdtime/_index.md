@@ -3,6 +3,7 @@ title: CreatedTime
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the created time of this threaded comment.
 type: docs
+weight: 30
 url: /net/aspose.cells/threadedcomment/createdtime/
 ---
 ## ThreadedComment.CreatedTime property

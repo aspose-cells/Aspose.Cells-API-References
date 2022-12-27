@@ -3,6 +3,7 @@ title: UpdateZoom
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled.
 type: docs
+weight: 70
 url: /net/aspose.cells/ooxmlsaveoptions/updatezoom/
 ---
 ## OoxmlSaveOptions.UpdateZoom property

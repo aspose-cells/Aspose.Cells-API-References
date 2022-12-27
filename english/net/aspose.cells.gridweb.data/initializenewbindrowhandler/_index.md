@@ -3,6 +3,7 @@ title: InitializeNewBindRowHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the method that intend to handle InitializeNewBindRow event. sender The worksheet object. bindObject The new created bind object. Generally its a DataRowView object.
 type: docs
+weight: 640
 url: /net/aspose.cells.gridweb.data/initializenewbindrowhandler/
 ---
 ## InitializeNewBindRowHandler delegate

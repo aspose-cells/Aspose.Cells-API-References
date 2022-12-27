@@ -3,6 +3,7 @@ title: AddPicture
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a picture to the collection.
 type: docs
+weight: 210
 url: /net/aspose.cells.drawing/shapecollection/addpicture/
 ---
 ## AddPicture(int, int, int, int, Stream) {#addpicture}

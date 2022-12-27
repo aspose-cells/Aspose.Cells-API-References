@@ -3,6 +3,7 @@ title: FontData
 second_title: Aspose.Cells for .NET API Reference
 description: Binary font data.
 type: docs
+weight: 20
 url: /net/aspose.cells/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property

@@ -3,6 +3,7 @@ title: SessionLoaded
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 800
 url: /net/aspose.cells.gridweb/mainweb/sessionloaded/
 ---
 ## MainWeb.SessionLoaded property

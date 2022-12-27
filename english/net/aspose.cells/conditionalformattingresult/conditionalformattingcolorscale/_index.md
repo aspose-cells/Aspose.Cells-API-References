@@ -3,6 +3,7 @@ title: ConditionalFormattingColorScale
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ColorScale object.
 type: docs
+weight: 20
 url: /net/aspose.cells/conditionalformattingresult/conditionalformattingcolorscale/
 ---
 ## ConditionalFormattingResult.ConditionalFormattingColorScale property

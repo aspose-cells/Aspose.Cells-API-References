@@ -3,6 +3,7 @@ title: GetStylesFromControl
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 200
 url: /net/aspose.cells.gridweb/viewerstyletemplate/getstylesfromcontrol/
 ---
 ## ViewerStyleTemplate.GetStylesFromControl method

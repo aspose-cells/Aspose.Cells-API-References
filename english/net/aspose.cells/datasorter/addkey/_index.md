@@ -3,6 +3,7 @@ title: AddKey
 second_title: Aspose.Cells for .NET API Reference
 description: Adds sorted column index and sort order.
 type: docs
+weight: 120
 url: /net/aspose.cells/datasorter/addkey/
 ---
 ## AddKey(int, SortOrder) {#addkey_1}

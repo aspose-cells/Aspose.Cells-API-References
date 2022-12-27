@@ -3,6 +3,7 @@ title: EndColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the end column index of this horizontal page break.
 type: docs
+weight: 10
 url: /net/aspose.cells/horizontalpagebreak/endcolumn/
 ---
 ## HorizontalPageBreak.EndColumn property

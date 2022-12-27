@@ -3,6 +3,7 @@ title: Title
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the title of the current Slicer object.
 type: docs
+weight: 210
 url: /net/aspose.cells.slicers/slicer/title/
 ---
 ## Slicer.Title property

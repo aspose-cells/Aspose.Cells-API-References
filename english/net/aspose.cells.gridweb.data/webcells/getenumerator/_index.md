@@ -3,6 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the cells enumerator
 type: docs
+weight: 200
 url: /net/aspose.cells.gridweb.data/webcells/getenumerator/
 ---
 ## WebCells.GetEnumerator method

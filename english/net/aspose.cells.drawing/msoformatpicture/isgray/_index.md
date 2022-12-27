@@ -3,6 +3,7 @@ title: IsGray
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this picture SHOULD be displayed in grayscale.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing/msoformatpicture/isgray/
 ---
 ## MsoFormatPicture.IsGray property

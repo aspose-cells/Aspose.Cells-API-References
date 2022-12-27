@@ -3,6 +3,7 @@ title: PageIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Current page index zero based.
 type: docs
+weight: 20
 url: /net/aspose.cells.rendering/pagesavingargs/pageindex/
 ---
 ## PageSavingArgs.PageIndex property

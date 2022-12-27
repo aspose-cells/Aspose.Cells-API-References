@@ -3,6 +3,7 @@ title: PutValue
 second_title: Aspose.Cells for .NET API Reference
 description: Puts a DateTime value into the cell.
 type: docs
+weight: 340
 url: /net/aspose.cells.griddesktop.data/gridcell/putvalue/
 ---
 ## PutValue(DateTime) {#putvalue_3}

@@ -1,13 +1,12 @@
 ---
 title: ReflectionEffectType
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the effect type of reflection.
+description: 
 type: docs
+weight: 2600
 url: /net/aspose.cells.drawing/reflectioneffecttype/
 ---
 ## ReflectionEffectType enumeration
-
-Represents the effect type of reflection.
 
 ```csharp
 public enum ReflectionEffectType

@@ -1,8 +1,9 @@
 ---
 title: Shadow
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether the combobox has 3D shading.
+description: Indicates whether the combobox has 3-D shading.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing/listbox/shadow/
 ---
 ## ListBox.Shadow property

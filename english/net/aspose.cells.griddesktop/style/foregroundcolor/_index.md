@@ -3,6 +3,7 @@ title: ForegroundColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a styles foreground color.
 type: docs
+weight: 60
 url: /net/aspose.cells.griddesktop/style/foregroundcolor/
 ---
 ## Style.ForegroundColor property

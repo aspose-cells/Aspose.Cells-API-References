@@ -3,6 +3,7 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the default width value for this taskpane instance.
 type: docs
+weight: 60
 url: /net/aspose.cells.webextensions/webextensiontaskpane/width/
 ---
 ## WebExtensionTaskPane.Width property

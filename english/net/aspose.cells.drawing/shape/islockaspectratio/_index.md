@@ -3,6 +3,7 @@ title: IsLockAspectRatio
 second_title: Aspose.Cells for .NET API Reference
 description: True means that dont allow changes in aspect ratio.
 type: docs
+weight: 360
 url: /net/aspose.cells.drawing/shape/islockaspectratio/
 ---
 ## Shape.IsLockAspectRatio property

@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ProtectedRangeaspose.cells/protectedrange element at the specified index.
 type: docs
+weight: 10
 url: /net/aspose.cells/protectedrangecollection/item/
 ---
 ## ProtectedRangeCollection indexer

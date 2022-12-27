@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets CellWatchaspose.cells/cellwatch by index.
 type: docs
+weight: 20
 url: /net/aspose.cells/cellwatchcollection/item/
 ---
 ## CellWatchCollection indexer (1 of 2)

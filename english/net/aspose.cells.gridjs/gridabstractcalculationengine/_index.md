@@ -3,6 +3,7 @@ title: GridAbstractCalculationEngine
 second_title: Aspose.Cells for .NET API Reference
 description: Represents users custom calculation engine to extend the default calculation engine of Aspose.Cells.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridjs/gridabstractcalculationengine/
 ---
 ## GridAbstractCalculationEngine class

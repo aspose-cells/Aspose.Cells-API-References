@@ -3,6 +3,7 @@ title: MidCfvo
 second_title: Aspose.Cells for .NET API Reference
 description: Get or set this ColorScales mid value object. Cannot set CFValueObject with type FormatConditionValueType.Max or FormatConditionValueType.Min to it.
 type: docs
+weight: 40
 url: /net/aspose.cells/colorscale/midcfvo/
 ---
 ## ColorScale.MidCfvo property

@@ -3,6 +3,7 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the name at the specific index.
 type: docs
+weight: 70
 url: /net/aspose.cells.griddesktop.data/gridnamecollection/removeat/
 ---
 ## GridNameCollection.RemoveAt method

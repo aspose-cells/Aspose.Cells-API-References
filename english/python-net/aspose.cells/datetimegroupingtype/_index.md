@@ -1,28 +1,32 @@
----
-title: DateTimeGroupingType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: DateTimeGroupingType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4470
+weight: 1930
 url: /python-net/aspose.cells/datetimegroupingtype/
+is_root: false
 ---
 
 ## DateTimeGroupingType enumeration
 
 Specifies how to group dateTime values.
 
-## Members
-| Member name | Description |
+
+
+The DateTimeGroupingType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|DAY|Group by day.|
-|HOUR|Group by hour.|
-|MINUTE|Group by Minute.|
-|MONTH|Group by Month.|
-|SECOND|Group by Second.|
-|YEAR|Group by Year.|
+| DAY | Group by day. |
+| HOUR | Group by hour. |
+| MINUTE | Group by Minute. |
+| MONTH | Group by Month. |
+| SECOND | Group by Second. |
+| YEAR | Group by Year. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

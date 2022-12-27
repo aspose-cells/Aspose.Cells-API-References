@@ -3,6 +3,7 @@ title: Area
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the background area of Series object.
 type: docs
+weight: 10
 url: /net/aspose.cells.charts/series/area/
 ---
 ## Series.Area property

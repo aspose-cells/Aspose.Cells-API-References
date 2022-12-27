@@ -3,6 +3,7 @@ title: RemovePivotConnection
 second_title: Aspose.Cells for .NET API Reference
 description: Removes PivotTable connection.
 type: docs
+weight: 270
 url: /net/aspose.cells.slicers/slicer/removepivotconnection/
 ---
 ## Slicer.RemovePivotConnection method

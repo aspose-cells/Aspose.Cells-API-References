@@ -3,6 +3,7 @@ title: PageFieldOrder
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the order in which page fields are added to the PivotTable reports layout.
 type: docs
+weight: 390
 url: /net/aspose.cells.pivot/pivottable/pagefieldorder/
 ---
 ## PivotTable.PageFieldOrder property

@@ -3,6 +3,7 @@ title: MsoPresetTextEffectShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents preset text effect shape type of WordArt.
 type: docs
+weight: 2410
 url: /net/aspose.cells.drawing/msopresettexteffectshape/
 ---
 ## MsoPresetTextEffectShape enumeration

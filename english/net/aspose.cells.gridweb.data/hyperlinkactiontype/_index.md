@@ -3,6 +3,7 @@ title: HyperlinkActionType
 second_title: Aspose.Cells for .NET API Reference
 description: Hyperlink has two action type UrlLink and CellCommand. UrlLink type hyperlink is an anchor in a cell click it will navigate to another page or open a new browser window. CellCommand type hyperlink is an command button in a cell click it will generate a server side event.
 type: docs
+weight: 610
 url: /net/aspose.cells.gridweb.data/hyperlinkactiontype/
 ---
 ## HyperlinkActionType enumeration

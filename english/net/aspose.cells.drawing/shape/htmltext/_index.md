@@ -3,6 +3,7 @@ title: HtmlText
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the html string which contains data and some formats in this textbox.
 type: docs
+weight: 250
 url: /net/aspose.cells.drawing/shape/htmltext/
 ---
 ## Shape.HtmlText property
@@ -18,11 +19,8 @@ public string HtmlText { get; set; }
 ```csharp
 
 [C#]
-string html = shape.HtmlText;
-if(html == null || html == "")
-{
-    shape.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>";
-}
+if(shape.HtmlText == null || shape.HtmlText == "")
+    shape.HtmlText = "<Font Style="FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;">This is a <b>test</b>.</Font>";
 ```
 
 ### See Also

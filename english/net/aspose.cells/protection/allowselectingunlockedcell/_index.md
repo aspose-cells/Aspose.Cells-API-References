@@ -3,6 +3,7 @@ title: AllowSelectingUnlockedCell
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the user is allowed to select unlocked cells on a protected worksheet.
 type: docs
+weight: 140
 url: /net/aspose.cells/protection/allowselectingunlockedcell/
 ---
 ## Protection.AllowSelectingUnlockedCell property

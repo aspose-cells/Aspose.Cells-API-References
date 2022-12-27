@@ -3,6 +3,7 @@ title: ShowAddButton
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to show the add worksheet button.
 type: docs
+weight: 860
 url: /net/aspose.cells.gridweb/mainweb/showaddbutton/
 ---
 ## MainWeb.ShowAddButton property

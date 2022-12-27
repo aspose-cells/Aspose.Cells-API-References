@@ -3,6 +3,7 @@ title: Transparency
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets transparency as a value from 0.0 opaque through 1.0 clear.
 type: docs
+weight: 60
 url: /net/aspose.cells/cellscolor/transparency/
 ---
 ## CellsColor.Transparency property

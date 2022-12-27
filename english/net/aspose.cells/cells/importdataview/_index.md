@@ -3,6 +3,7 @@ title: ImportDataView
 second_title: Aspose.Cells for .NET API Reference
 description: Imports a DataView into a worksheet.
 type: docs
+weight: 1060
 url: /net/aspose.cells/cells/importdataview/
 ---
 ## ImportDataView(DataView, int, int) {#importdataview_3}
@@ -33,24 +34,11 @@ Total number of rows imported
 
 ## ImportDataView(DataView, int, int, bool) {#importdataview_4}
 
-Imports a DataView into a worksheet.
-
 ```csharp
 [Obsolete("Use Cells.ImportData(DataView,int,int,ImportTableOptions) method instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public int ImportDataView(DataView dataView, int firstRow, int firstColumn, bool insertRows)
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataView | DataView | The DataView object to be imported. |
-| firstRow | Int32 | The row number of the first cell to import in. |
-| firstColumn | Int32 | The column number of the first cell to import in. |
-| insertRows | Boolean | Indicates whether extra rows are added to fit data. |
-
-### Return Value
-
-Total number of rows imported
 
 ### Remarks
 

@@ -3,6 +3,7 @@ title: SubmitCommand
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the submit button is clicked.
 type: docs
+weight: 1350
 url: /net/aspose.cells.gridweb/mainweb/submitcommand/
 ---
 ## MainWeb.SubmitCommand event

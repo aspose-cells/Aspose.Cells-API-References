@@ -3,6 +3,7 @@ title: GridCell
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a cell object.
 type: docs
+weight: 370
 url: /net/aspose.cells.griddesktop.data/gridcell/
 ---
 ## GridCell class

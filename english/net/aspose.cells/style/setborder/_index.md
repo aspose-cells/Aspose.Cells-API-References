@@ -3,59 +3,31 @@ title: SetBorder
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the borders of the style.
 type: docs
+weight: 370
 url: /net/aspose.cells/style/setborder/
 ---
-## SetBorder(BorderType, CellBorderType, Color) {#setborder_1}
+## Style.SetBorder method
 
 Sets the borders of the style.
 
 ```csharp
-public bool SetBorder(BorderType borderType, CellBorderType borderStyle, Color borderColor)
+public bool SetBorder(BorderType borderEdge, CellBorderType borderStyle, Color borderColor)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderType | BorderType | The border(s) to be set, can be combination of [`BorderType`](../../bordertype). |
+| borderEdge | BorderType | The type fo the border. |
 | borderStyle | CellBorderType | The style of the border. |
 | borderColor | Color | The color of the border. |
 
 ### Return Value
 
-Whether current border settings have been changed.
+Returns whether changing the current borders.
 
 ### See Also
 
 * enum [BorderType](../../bordertype)
 * enum [CellBorderType](../../cellbordertype)
-* class [Style](../../style)
-* namespace [Aspose.Cells](../../style)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## SetBorder(BorderType, CellBorderType, CellsColor) {#setborder}
-
-Sets the borders of the style.
-
-```csharp
-public bool SetBorder(BorderType borderType, CellBorderType borderStyle, CellsColor borderColor)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| borderType | BorderType | The border(s) to be set, can be combination of [`BorderType`](../../bordertype). |
-| borderStyle | CellBorderType | The style of the border. |
-| borderColor | CellsColor | The color of the border. |
-
-### Return Value
-
-Whether current border settings have been changed.
-
-### See Also
-
-* enum [BorderType](../../bordertype)
-* enum [CellBorderType](../../cellbordertype)
-* class [CellsColor](../../cellscolor)
 * class [Style](../../style)
 * namespace [Aspose.Cells](../../style)
 * assembly [Aspose.Cells](../../../)

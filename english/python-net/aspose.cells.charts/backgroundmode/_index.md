@@ -1,25 +1,29 @@
----
-title: BackgroundMode
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: BackgroundMode enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 370
 url: /python-net/aspose.cells.charts/backgroundmode/
+is_root: false
 ---
 
 ## BackgroundMode enumeration
 
 Represents the display mode of the background.
 
-## Members
-| Member name | Description |
+
+
+The BackgroundMode type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|AUTOMATIC|Automatic|
-|OPAQUE|Opaque|
-|TRANSPARENT|Transparent|
+| AUTOMATIC | Automatic |
+| OPAQUE | Opaque |
+| TRANSPARENT | Transparent |
+
 
 ### See Also
 
-* namespace [aspose.cells.charts](/cells/python-net/aspose.cells.charts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.charts](../)

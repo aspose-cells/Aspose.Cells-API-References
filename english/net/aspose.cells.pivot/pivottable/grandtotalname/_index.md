@@ -3,6 +3,7 @@ title: GrandTotalName
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the text string label that is displayed in the grand total column or row heading. The default value is the string Grand Total.
 type: docs
+weight: 250
 url: /net/aspose.cells.pivot/pivottable/grandtotalname/
 ---
 ## PivotTable.GrandTotalName property

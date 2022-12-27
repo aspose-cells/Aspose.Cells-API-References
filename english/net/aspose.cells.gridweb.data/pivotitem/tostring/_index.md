@@ -3,6 +3,7 @@ title: ToString
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a String that represents the current Object
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb.data/pivotitem/tostring/
 ---
 ## PivotItem.ToString method

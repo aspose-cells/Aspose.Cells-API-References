@@ -3,6 +3,7 @@ title: FrozenRows
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets Worksheets frozen row count. Frozen will start at first row.
 type: docs
+weight: 190
 url: /net/aspose.cells.griddesktop/worksheet/frozenrows/
 ---
 ## Worksheet.FrozenRows property

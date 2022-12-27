@@ -3,6 +3,7 @@ title: DataBar
 second_title: Aspose.Cells for .NET API Reference
 description: Describe the DataBar conditional formatting rule. This conditional formatting rule displays a gradated data bar in the range of cells.
 type: docs
+weight: 1250
 url: /net/aspose.cells/databar/
 ---
 ## DataBar class

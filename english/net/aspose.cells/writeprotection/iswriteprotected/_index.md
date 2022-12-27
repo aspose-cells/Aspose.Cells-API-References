@@ -3,6 +3,7 @@ title: IsWriteProtected
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this workbook is write protected.
 type: docs
+weight: 30
 url: /net/aspose.cells/writeprotection/iswriteprotected/
 ---
 ## WriteProtection.IsWriteProtected property

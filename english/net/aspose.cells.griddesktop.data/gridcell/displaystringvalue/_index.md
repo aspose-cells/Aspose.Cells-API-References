@@ -3,6 +3,7 @@ title: DisplayStringValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the formatted string value of this cell.
 type: docs
+weight: 40
 url: /net/aspose.cells.griddesktop.data/gridcell/displaystringvalue/
 ---
 ## GridCell.DisplayStringValue property

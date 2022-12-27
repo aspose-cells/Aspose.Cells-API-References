@@ -3,6 +3,7 @@ title: SheetEvents
 second_title: Aspose.Cells for .NET API Reference
 description: Gets event category.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop/worksheeteventargs/sheetevents/
 ---
 ## WorksheetEventArgs.SheetEvents property

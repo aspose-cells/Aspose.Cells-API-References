@@ -3,6 +3,7 @@ title: Border
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents the cell border.
 type: docs
+weight: 140
 url: /net/aspose.cells/border/
 ---
 ## Border class

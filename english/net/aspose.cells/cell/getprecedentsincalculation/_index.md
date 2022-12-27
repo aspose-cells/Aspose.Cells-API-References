@@ -3,6 +3,7 @@ title: GetPrecedentsInCalculation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all precedentsreference to cells in current workbook used by this cells formula while calculating it.
 type: docs
+weight: 520
 url: /net/aspose.cells/cell/getprecedentsincalculation/
 ---
 ## Cell.GetPrecedentsInCalculation method
@@ -29,14 +30,11 @@ This method can only work with the situation that [`EnableCalculationChain`](../
 Workbook workbook = new Workbook();
 Cells cells = workbook.Worksheets[0].Cells;
 cells["A2"].Formula = "=IF(TRUE,B2,B1)";
-workbook.Settings.FormulaSettings.EnableCalculationChain = true;
-workbook.CalculateFormula();
 IEnumerator en = cells["A2"].GetPrecedentsInCalculation();
-Console.WriteLine("A2's calculation precedents:");
 while(en.MoveNext())
 {
-    ReferredArea r = (ReferredArea)en.Current;
-    Console.WriteLine(r);
+     ReferredArea r = (ReferredArea)en.Current;
+     Console.WriteLine(r.SheetName + "!" + CellsHelper.CellIndexToName(r.StartRow, r.StartColumn));
 }
 ```
 

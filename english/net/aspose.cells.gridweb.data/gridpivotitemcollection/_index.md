@@ -1,13 +1,14 @@
 ---
 title: GridPivotItemCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Encapsulates a collection of GridPivotItem./gridpivotitem objects.
+description: Encapsulates a collection of PivotItem./pivotitem objects.
 type: docs
+weight: 410
 url: /net/aspose.cells.gridweb.data/gridpivotitemcollection/
 ---
 ## GridPivotItemCollection class
 
-Encapsulates a collection of [`GridPivotItem`](../gridpivotitem) objects.
+Encapsulates a collection of [`PivotItem`](../pivotitem) objects.
 
 ```csharp
 public class GridPivotItemCollection
@@ -18,7 +19,7 @@ public class GridPivotItemCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridpivotitemcollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridpivotitemcollection/item) { get; } | Gets the [`GridPivotItem`](../gridpivotitem) element at the specified index. |
+| [Item](../../aspose.cells.gridweb.data/gridpivotitemcollection/item) { get; } | Gets the [`PivotItem`](../pivotitem) element at the specified index. |
 
 ## Methods
 

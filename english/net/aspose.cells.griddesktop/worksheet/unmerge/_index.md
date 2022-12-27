@@ -3,6 +3,7 @@ title: Unmerge
 second_title: Aspose.Cells for .NET API Reference
 description: Unmerges a specified range of cells into a single cell.
 type: docs
+weight: 1140
 url: /net/aspose.cells.griddesktop/worksheet/unmerge/
 ---
 ## Unmerge(CellRange) {#unmerge_1}

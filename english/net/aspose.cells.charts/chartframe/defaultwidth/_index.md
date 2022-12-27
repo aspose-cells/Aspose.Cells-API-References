@@ -3,6 +3,7 @@ title: DefaultWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Represents width of default position
 type: docs
+weight: 70
 url: /net/aspose.cells.charts/chartframe/defaultwidth/
 ---
 ## ChartFrame.DefaultWidth property

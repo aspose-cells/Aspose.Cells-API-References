@@ -3,6 +3,7 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets row number zero based of the cell.
 type: docs
+weight: 120
 url: /net/aspose.cells.gridweb.data/gridcell/row/
 ---
 ## GridCell.Row property

@@ -1,0 +1,18 @@
+﻿---
+title: height property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 480
+url: /python-net/aspose.cells.drawing/lineshape/height/
+is_root: false
+---
+
+## height property
+
+
+Represents the height of shape, in unit of pixel.
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [LineShape](/cells/python-net/aspose.cells.drawing/lineshape)

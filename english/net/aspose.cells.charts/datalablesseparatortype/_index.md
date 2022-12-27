@@ -3,6 +3,7 @@ title: DataLablesSeparatorType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the separator type of DataLabels.
 type: docs
+weight: 600
 url: /net/aspose.cells.charts/datalablesseparatortype/
 ---
 ## DataLablesSeparatorType enumeration

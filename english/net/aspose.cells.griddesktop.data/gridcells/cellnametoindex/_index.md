@@ -3,6 +3,7 @@ title: CellNameToIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the cell row and column indexes according to its name
 type: docs
+weight: 760
 url: /net/aspose.cells.griddesktop.data/gridcells/cellnametoindex/
 ---
 ## GridCells.CellNameToIndex method

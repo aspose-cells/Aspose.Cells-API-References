@@ -3,6 +3,7 @@ title: OldStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the old style of the cell.
 type: docs
+weight: 90
 url: /net/aspose.cells.revisions/revisioncellchange/oldstyle/
 ---
 ## RevisionCellChange.OldStyle property

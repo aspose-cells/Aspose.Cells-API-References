@@ -3,6 +3,7 @@ title: Cell
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the Cell object when rendering. All properties of cell can be accessed.
 type: docs
+weight: 10
 url: /net/aspose.cells.rendering/drawobject/cell/
 ---
 ## DrawObject.Cell property

@@ -3,6 +3,7 @@ title: PreferSystemFontSubstitutes
 second_title: Aspose.Cells for .NET API Reference
 description: Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu Arial font is generally substituted by Liberation Sans. Default value is false.
 type: docs
+weight: 30
 url: /net/aspose.cells/fontconfigs/prefersystemfontsubstitutes/
 ---
 ## FontConfigs.PreferSystemFontSubstitutes property

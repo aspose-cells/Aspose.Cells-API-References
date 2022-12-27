@@ -3,6 +3,7 @@ title: CustomPaperSize
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the custom paper size in unit of inches.
 type: docs
+weight: 460
 url: /net/aspose.cells/pagesetup/custompapersize/
 ---
 ## PageSetup.CustomPaperSize method

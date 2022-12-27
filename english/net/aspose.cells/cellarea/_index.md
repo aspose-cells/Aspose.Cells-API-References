@@ -3,6 +3,7 @@ title: CellArea
 second_title: Aspose.Cells for .NET API Reference
 description: Represent an area of cells.
 type: docs
+weight: 240
 url: /net/aspose.cells/cellarea/
 ---
 ## CellArea structure
@@ -19,8 +20,8 @@ public struct CellArea : IComparable
 | --- | --- |
 | static [CreateCellArea](../../aspose.cells/cellarea/createcellarea#createcellarea_1)(string, string) | Creates a cell area. |
 | static [CreateCellArea](../../aspose.cells/cellarea/createcellarea#createcellarea)(int, int, int, int) | Creates a cell area. |
-| [CompareTo](../../aspose.cells/cellarea/compareto)(object) | Compare two CellArea objects according to their top-left corner. |
-| override [ToString](../../aspose.cells/cellarea/tostring)() | Returns a string represents the current cell area object. |
+| [CompareTo](../../aspose.cells/cellarea/compareto)(object) | Internal use only. |
+| override [ToString](../../aspose.cells/cellarea/tostring)() | Returns a string represents the current Worksheet object. |
 
 ## Fields
 

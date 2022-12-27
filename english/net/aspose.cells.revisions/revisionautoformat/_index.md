@@ -3,6 +3,7 @@ title: RevisionAutoFormat
 second_title: Aspose.Cells for .NET API Reference
 description: represents a revision record of information about a formatting change.
 type: docs
+weight: 5370
 url: /net/aspose.cells.revisions/revisionautoformat/
 ---
 ## RevisionAutoFormat class
@@ -18,9 +19,9 @@ public class RevisionAutoFormat : Revision
 | Name | Description |
 | --- | --- |
 | [CellArea](../../aspose.cells.revisions/revisionautoformat/cellarea) { get; } | Gets the location where the formatting was applied. |
-| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision.(Inherited from [`Revision`](../revision).) |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
 | override [Type](../../aspose.cells.revisions/revisionautoformat/type) { get; } | Gets the type of the revision. |
-| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision).) |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

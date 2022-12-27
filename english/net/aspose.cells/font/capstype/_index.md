@@ -3,6 +3,7 @@ title: CapsType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text caps type.
 type: docs
+weight: 20
 url: /net/aspose.cells/font/capstype/
 ---
 ## Font.CapsType property

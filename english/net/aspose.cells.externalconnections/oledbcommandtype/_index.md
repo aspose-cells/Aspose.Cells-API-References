@@ -3,6 +3,7 @@ title: OLEDBCommandType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the OLE DB command type.
 type: docs
+weight: 3340
 url: /net/aspose.cells.externalconnections/oledbcommandtype/
 ---
 ## OLEDBCommandType enumeration

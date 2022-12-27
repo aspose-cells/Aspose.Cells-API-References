@@ -3,6 +3,7 @@ title: SeriesColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the color of the sparklines in the sparkline group.
 type: docs
+weight: 140
 url: /net/aspose.cells.charts/sparklinegroup/seriescolor/
 ---
 ## SparklineGroup.SeriesColor property

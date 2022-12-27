@@ -3,6 +3,7 @@ title: BorderStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb/webborderstyle/borderstyle/
 ---
 ## WebBorderStyle.BorderStyle property

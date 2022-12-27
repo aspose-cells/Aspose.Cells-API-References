@@ -3,6 +3,7 @@ title: ShowFormulas
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to show formulas or their results.
 type: docs
+weight: 420
 url: /net/aspose.cells/worksheet/showformulas/
 ---
 ## Worksheet.ShowFormulas property

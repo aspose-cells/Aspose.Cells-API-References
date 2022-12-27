@@ -3,6 +3,7 @@ title: IsCustom
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the icon set is custom. Default value is false.
 type: docs
+weight: 30
 url: /net/aspose.cells/iconset/iscustom/
 ---
 ## IconSet.IsCustom property

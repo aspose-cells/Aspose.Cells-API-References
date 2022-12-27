@@ -3,6 +3,7 @@ title: AutoFitRow
 second_title: Aspose.Cells for .NET API Reference
 description: Autofits the row height.
 type: docs
+weight: 640
 url: /net/aspose.cells/worksheet/autofitrow/
 ---
 ## AutoFitRow(int, int, int) {#autofitrow_1}

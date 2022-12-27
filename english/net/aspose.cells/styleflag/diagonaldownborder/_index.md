@@ -3,6 +3,7 @@ title: DiagonalDownBorder
 second_title: Aspose.Cells for .NET API Reference
 description: Diagonal down border settings will be applied.
 type: docs
+weight: 70
 url: /net/aspose.cells/styleflag/diagonaldownborder/
 ---
 ## StyleFlag.DiagonalDownBorder property

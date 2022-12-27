@@ -3,6 +3,7 @@ title: Data
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the data of the picture.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing/picture/data/
 ---
 ## Picture.Data property

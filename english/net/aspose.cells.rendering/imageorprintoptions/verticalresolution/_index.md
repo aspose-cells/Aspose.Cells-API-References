@@ -3,6 +3,7 @@ title: VerticalResolution
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the vertical resolution for generated images in dots per inch. Applies generating image method except Emf format image.
 type: docs
+weight: 360
 url: /net/aspose.cells.rendering/imageorprintoptions/verticalresolution/
 ---
 ## ImageOrPrintOptions.VerticalResolution property

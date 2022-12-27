@@ -1,28 +1,33 @@
----
-title: CellsFactory
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: CellsFactory class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 220
 url: /python-net/aspose.cells/cellsfactory/
+is_root: false
 ---
 
 ## CellsFactory class
 
 Utility for instantiating classes of Cells model.
 
+
+
 The CellsFactory type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|CellsFactory()|Initializes a new instance of the CellsFactory class|
-## Methods
-| Name | Description |
+| [CellsFactory()](/cells/python-net/aspose.cells/cellsfactory/__init__/#) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|create_style()|Creates a new style.|
+| [create_style()](/cells/python-net/aspose.cells/cellsfactory/create_style/#) | Creates a new style. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

@@ -3,6 +3,7 @@ title: GridCell
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a cell object.
 type: docs
+weight: 160
 url: /net/aspose.cells.gridweb.data/gridcell/
 ---
 ## GridCell class
@@ -23,7 +24,7 @@ public class GridCell
 | [DisplayStringValue](../../aspose.cells.gridweb.data/gridcell/displaystringvalue) { get; } | Gets the formatted string value of this cell. |
 | [DoubleValue](../../aspose.cells.gridweb.data/gridcell/doublevalue) { get; } | Gets the double value contained in the cell. |
 | [FloatValue](../../aspose.cells.gridweb.data/gridcell/floatvalue) { get; } | Gets the float value contained in the cell. |
-| [Formula](../../aspose.cells.gridweb.data/gridcell/formula) { get; set; } | Gets or sets a formula of the [`GridCell`](../gridcell). |
+| [Formula](../../aspose.cells.gridweb.data/gridcell/formula) { get; set; } | Gets or sets a formula of the Cell. |
 | [HtmlString](../../aspose.cells.gridweb.data/gridcell/htmlstring) { get; set; } | Gets and sets the html string which contains data and some formattings in this cell. |
 | [IntValue](../../aspose.cells.gridweb.data/gridcell/intvalue) { get; } | Gets the integer value contained in the cell. |
 | [IsStyleSet](../../aspose.cells.gridweb.data/gridcell/isstyleset) { get; } | Indicates if the cell's style is set. If return false, it means this cell has a default cell format. |

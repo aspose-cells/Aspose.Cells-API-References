@@ -1,28 +1,32 @@
----
-title: GradientDirectionType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: GradientDirectionType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1130
+weight: 860
 url: /python-net/aspose.cells.drawing/gradientdirectiontype/
+is_root: false
 ---
 
 ## GradientDirectionType enumeration
 
 Represents all direction type of gradient.
 
-## Members
-| Member name | Description |
+
+
+The GradientDirectionType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|FROM_UPPER_LEFT_CORNER|FromUpperLeftCorner|
-|FROM_UPPER_RIGHT_CORNER|FromUpperRightCorner|
-|FROM_LOWER_LEFT_CORNER|FromLowerLeftCorner|
-|FROM_LOWER_RIGHT_CORNER|FromLowerRightCorner|
-|FROM_CENTER|FromCenter|
-|UNKNOWN|Unknown|
+| FROM_UPPER_LEFT_CORNER | FromUpperLeftCorner |
+| FROM_UPPER_RIGHT_CORNER | FromUpperRightCorner |
+| FROM_LOWER_LEFT_CORNER | FromLowerLeftCorner |
+| FROM_LOWER_RIGHT_CORNER | FromLowerRightCorner |
+| FROM_CENTER | FromCenter |
+| UNKNOWN | Unknown |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

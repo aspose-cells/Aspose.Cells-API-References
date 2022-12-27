@@ -3,6 +3,7 @@ title: ConvertStringToNumericValue
 second_title: Aspose.Cells for .NET API Reference
 description: Converts string data in cells to numeric value if possible.
 type: docs
+weight: 440
 url: /net/aspose.cells/cells/convertstringtonumericvalue/
 ---
 ## Cells.ConvertStringToNumericValue method

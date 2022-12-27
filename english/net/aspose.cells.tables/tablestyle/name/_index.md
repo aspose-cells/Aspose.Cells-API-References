@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of table style.
 type: docs
+weight: 10
 url: /net/aspose.cells.tables/tablestyle/name/
 ---
 ## TableStyle.Name property

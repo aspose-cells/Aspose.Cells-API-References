@@ -3,6 +3,7 @@ title: GridCellException
 second_title: Aspose.Cells for .NET API Reference
 description: The exception that is thrown when GridJs specified error occurs.
 type: docs
+weight: 50
 url: /net/aspose.cells.gridjs/gridcellexception/
 ---
 ## GridCellException class

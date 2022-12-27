@@ -3,6 +3,7 @@ title: PageRows
 second_title: Aspose.Cells for .NET API Reference
 description: Sets or Gets row size for Pagination.the maximum of PageRows supported is 100000the maximum of page number supported is 5000.
 type: docs
+weight: 190
 url: /net/aspose.cells.griddesktop/griddesktop/pagerows/
 ---
 ## GridDesktop.PageRows property

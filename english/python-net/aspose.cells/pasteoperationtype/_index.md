@@ -1,27 +1,31 @@
----
-title: PasteOperationType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PasteOperationType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4880
+weight: 2340
 url: /python-net/aspose.cells/pasteoperationtype/
+is_root: false
 ---
 
 ## PasteOperationType enumeration
 
 Represents operation type when pasting range.
 
-## Members
-| Member name | Description |
+
+
+The PasteOperationType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|No operation.|
-|ADD|Add|
-|SUBTRACT|Subtract|
-|MULTIPLY|Multiply|
-|DIVIDE|Divide|
+| NONE | No operation. |
+| ADD | Add |
+| SUBTRACT | Subtract |
+| MULTIPLY | Multiply |
+| DIVIDE | Divide |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

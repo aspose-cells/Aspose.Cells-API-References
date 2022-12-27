@@ -1,34 +1,41 @@
----
-title: WriteProtection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: WriteProtection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 1630
 url: /python-net/aspose.cells/writeprotection/
+is_root: false
 ---
 
 ## WriteProtection class
 
 Specifies write protection settings for a workbook.
 
+
+
 The WriteProtection type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|WriteProtection()|Initializes a new instance of the WriteProtection class|
-## Properties
-| Name | Description |
+| [WriteProtection()](/cells/python-net/aspose.cells/writeprotection/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|author|Gets and sets the author.|
-|recommend_read_only|Indicates if the Read Only Recommended option is selected.|
-|is_write_protected|Indicates whether this workbook is write protected.|
-## Methods
-| Name | Description |
+| [author](/cells/python-net/aspose.cells/writeprotection/author) | Gets and sets the author. |
+| [recommend_read_only](/cells/python-net/aspose.cells/writeprotection/recommend_read_only) | Indicates if the Read Only Recommended option is selected. |
+| [is_write_protected](/cells/python-net/aspose.cells/writeprotection/is_write_protected) | Indicates whether this workbook is write protected. |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|validate_password(password)|Returns true if the specified password is the same as the write-protection password the file was protected with.|
+| [validate_password(password)](/cells/python-net/aspose.cells/writeprotection/validate_password/#str) | Returns true if the specified password is the same as the write-protection password the file was protected with. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

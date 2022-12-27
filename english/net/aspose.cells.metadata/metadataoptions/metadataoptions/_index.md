@@ -3,6 +3,7 @@ title: MetadataOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Creates an options of loading the metadata.
 type: docs
+weight: 10
 url: /net/aspose.cells.metadata/metadataoptions/metadataoptions/
 ---
 ## MetadataOptions constructor

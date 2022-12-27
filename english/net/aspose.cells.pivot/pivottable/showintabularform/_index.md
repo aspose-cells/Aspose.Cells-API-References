@@ -3,6 +3,7 @@ title: ShowInTabularForm
 second_title: Aspose.Cells for .NET API Reference
 description: Layouts the PivotTable in tabular form.
 type: docs
+weight: 980
 url: /net/aspose.cells.pivot/pivottable/showintabularform/
 ---
 ## PivotTable.ShowInTabularForm method

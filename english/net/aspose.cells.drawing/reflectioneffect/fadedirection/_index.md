@@ -3,6 +3,7 @@ title: FadeDirection
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the direction to offset the reflection.
 type: docs
+weight: 40
 url: /net/aspose.cells.drawing/reflectioneffect/fadedirection/
 ---
 ## ReflectionEffect.FadeDirection property

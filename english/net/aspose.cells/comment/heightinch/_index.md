@@ -3,6 +3,7 @@ title: HeightInch
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the height of the comment in unit of inches.
 type: docs
+weight: 80
 url: /net/aspose.cells/comment/heightinch/
 ---
 ## Comment.HeightInch property

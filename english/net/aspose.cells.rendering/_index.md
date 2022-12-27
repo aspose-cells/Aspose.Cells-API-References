@@ -3,6 +3,7 @@ title: Aspose.Cells.Rendering
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of Rendering image and pdf.
 type: docs
+weight: 140
 url: /net/aspose.cells.rendering/
 ---
 Contains all classes of Rendering image and pdf.
@@ -20,7 +21,6 @@ Contains all classes of Rendering image and pdf.
 | [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level. |
 | [SheetPrintingPreview](./sheetprintingpreview) | Worksheet printing preview. |
 | [SheetRender](./sheetrender) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style. |
-| [SheetSet](./sheetset) | Describes a set of sheets. |
 | [WorkbookPrintingPreview](./workbookprintingpreview) | Workbook printing preview. |
 | [WorkbookRender](./workbookrender) | Represents a Workbook render. The constructor of this class , must be used after modification of pagesetup, cell style. |
 ## Interfaces

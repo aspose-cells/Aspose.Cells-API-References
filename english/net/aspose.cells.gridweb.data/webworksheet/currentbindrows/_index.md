@@ -1,8 +1,9 @@
 ---
 title: CurrentBindRows
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the binding rows number in databinding mode.
+description: Gets the binding rows number in data-binding mode.
 type: docs
+weight: 90
 url: /net/aspose.cells.gridweb.data/webworksheet/currentbindrows/
 ---
 ## WebWorksheet.CurrentBindRows property

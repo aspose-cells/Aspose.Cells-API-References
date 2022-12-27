@@ -3,6 +3,7 @@ title: RevisionCustomView
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a revision record of adding or removing a custom view to the workbook
 type: docs
+weight: 5420
 url: /net/aspose.cells.revisions/revisioncustomview/
 ---
 ## RevisionCustomView class
@@ -19,9 +20,9 @@ public class RevisionCustomView : Revision
 | --- | --- |
 | [ActionType](../../aspose.cells.revisions/revisioncustomview/actiontype) { get; } | Gets the type of action. |
 | [Guid](../../aspose.cells.revisions/revisioncustomview/guid) { get; } | Gets the globally unique identifier of the custom view. |
-| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision.(Inherited from [`Revision`](../revision).) |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
 | override [Type](../../aspose.cells.revisions/revisioncustomview/type) { get; } | Gets the type of revision. |
-| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision).) |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
 
 ### See Also
 

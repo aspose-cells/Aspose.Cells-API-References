@@ -3,6 +3,7 @@ title: InsertColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts a new column.
 type: docs
+weight: 840
 url: /net/aspose.cells.griddesktop/worksheet/insertcolumn/
 ---
 ## Worksheet.InsertColumn method

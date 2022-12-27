@@ -3,6 +3,7 @@ title: DEFAULT_ROWSCOUNT
 second_title: Aspose.Cells for .NET API Reference
 description: Default rows count of worksheet.
 type: docs
+weight: 1170
 url: /net/aspose.cells.griddesktop/worksheet/default_rowscount/
 ---
 ## Worksheet.DEFAULT_ROWSCOUNT field

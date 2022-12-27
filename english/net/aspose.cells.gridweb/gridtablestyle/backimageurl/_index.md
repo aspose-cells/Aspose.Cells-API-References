@@ -3,6 +3,7 @@ title: BackImageUrl
 second_title: Aspose.Cells for .NET API Reference
 description: Background image url.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb/gridtablestyle/backimageurl/
 ---
 ## GridTableStyle.BackImageUrl property

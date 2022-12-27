@@ -1,28 +1,33 @@
----
-title: WorkbookPrintingPreview
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: WorkbookPrintingPreview class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 120
 url: /python-net/aspose.cells.rendering/workbookprintingpreview/
+is_root: false
 ---
 
 ## WorkbookPrintingPreview class
 
 Workbook printing preview.
 
+
+
 The WorkbookPrintingPreview type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|WorkbookPrintingPreview(workbook, options)|Initializes a new instance of the WorkbookPrintingPreview class|
-## Properties
-| Name | Description |
+| [WorkbookPrintingPreview(workbook, options)](/cells/python-net/aspose.cells.rendering/workbookprintingpreview/__init__/#Workbook-ImageOrPrintOptions) | The construct of WorkbookPrintingPreview |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|evaluated_page_count|Evaluate the total page count of this workbook|
+| [evaluated_page_count](/cells/python-net/aspose.cells.rendering/workbookprintingpreview/evaluated_page_count) | Evaluate the total page count of this workbook |
+
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.rendering](../)

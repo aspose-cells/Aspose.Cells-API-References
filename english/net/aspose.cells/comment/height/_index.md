@@ -3,6 +3,7 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the Height of the comment in unit of pixels.
 type: docs
+weight: 60
 url: /net/aspose.cells/comment/height/
 ---
 ## Comment.Height property

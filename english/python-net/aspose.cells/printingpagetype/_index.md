@@ -1,25 +1,29 @@
----
-title: PrintingPageType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PrintingPageType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4940
+weight: 2400
 url: /python-net/aspose.cells/printingpagetype/
+is_root: false
 ---
 
 ## PrintingPageType enumeration
 
 Indicates which pages will not be printed.
 
-## Members
-| Member name | Description |
+
+
+The PrintingPageType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|DEFAULT|Prints all pages.|
-|IGNORE_BLANK|Don't print the pages which the cells are blank.|
-|IGNORE_STYLE|Don't print the pages which cells only contain styles.|
+| DEFAULT | Prints all pages. |
+| IGNORE_BLANK | Don't print the pages which the cells are blank. |
+| IGNORE_STYLE | Don't print the pages which cells only contain styles. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

@@ -3,6 +3,7 @@ title: LoadFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the detected load format.
 type: docs
+weight: 50
 url: /net/aspose.cells/fileformatinfo/loadformat/
 ---
 ## FileFormatInfo.LoadFormat property

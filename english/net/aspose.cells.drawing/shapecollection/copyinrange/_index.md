@@ -3,6 +3,7 @@ title: CopyInRange
 second_title: Aspose.Cells for .NET API Reference
 description: Copy shapes in the range to destination range.
 type: docs
+weight: 380
 url: /net/aspose.cells.drawing/shapecollection/copyinrange/
 ---
 ## ShapeCollection.CopyInRange method

@@ -3,6 +3,7 @@ title: Scenarios
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the collection of Scenarioaspose.cells/scenario.
 type: docs
+weight: 400
 url: /net/aspose.cells/worksheet/scenarios/
 ---
 ## Worksheet.Scenarios property

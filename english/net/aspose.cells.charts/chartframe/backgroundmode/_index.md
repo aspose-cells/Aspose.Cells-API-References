@@ -3,6 +3,7 @@ title: BackgroundMode
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the display mode of the background
 type: docs
+weight: 40
 url: /net/aspose.cells.charts/chartframe/backgroundmode/
 ---
 ## ChartFrame.BackgroundMode property

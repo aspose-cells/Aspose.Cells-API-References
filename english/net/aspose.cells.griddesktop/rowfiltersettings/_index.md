@@ -3,6 +3,7 @@ title: RowFilterSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Summary description for RowFilter.
 type: docs
+weight: 930
 url: /net/aspose.cells.griddesktop/rowfiltersettings/
 ---
 ## RowFilterSettings class

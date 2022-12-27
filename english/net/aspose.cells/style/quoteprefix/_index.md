@@ -3,6 +3,7 @@ title: QuotePrefix
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the cells value starts with single quote mark.
 type: docs
+weight: 270
 url: /net/aspose.cells/style/quoteprefix/
 ---
 ## Style.QuotePrefix property

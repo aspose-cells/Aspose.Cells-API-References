@@ -3,6 +3,7 @@ title: ParentStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the parent style of this style.
 type: docs
+weight: 250
 url: /net/aspose.cells/style/parentstyle/
 ---
 ## Style.ParentStyle property

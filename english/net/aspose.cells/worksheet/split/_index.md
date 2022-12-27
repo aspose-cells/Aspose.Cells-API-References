@@ -3,6 +3,7 @@ title: Split
 second_title: Aspose.Cells for .NET API Reference
 description: Splits window.
 type: docs
+weight: 860
 url: /net/aspose.cells/worksheet/split/
 ---
 ## Worksheet.Split method

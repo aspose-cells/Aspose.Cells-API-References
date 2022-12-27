@@ -3,6 +3,7 @@ title: Format
 second_title: Aspose.Cells for .NET API Reference
 description: Format the cell in the pivottable area
 type: docs
+weight: 830
 url: /net/aspose.cells.pivot/pivottable/format/
 ---
 ## PivotTable.Format method

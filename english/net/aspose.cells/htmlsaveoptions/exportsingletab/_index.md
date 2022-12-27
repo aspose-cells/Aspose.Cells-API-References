@@ -3,6 +3,7 @@ title: ExportSingleTab
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether exporting the single tab when the file only has one worksheet. The default value is false.
 type: docs
+weight: 260
 url: /net/aspose.cells/htmlsaveoptions/exportsingletab/
 ---
 ## HtmlSaveOptions.ExportSingleTab property

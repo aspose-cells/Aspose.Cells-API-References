@@ -3,6 +3,7 @@ title: IsWordArt
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this shape is a word art.
 type: docs
+weight: 420
 url: /net/aspose.cells.drawing/shape/iswordart/
 ---
 ## Shape.IsWordArt property

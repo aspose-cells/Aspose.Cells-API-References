@@ -3,6 +3,7 @@ title: Color
 second_title: Aspose.Cells for .NET API Reference
 description: Get or set this DataBars Color.
 type: docs
+weight: 50
 url: /net/aspose.cells/databar/color/
 ---
 ## DataBar.Color property

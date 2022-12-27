@@ -1,8 +1,9 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Cells for .NET API Reference
-description: Represents a shapes threedimensional formatting.
+description: Represents a shapes three-dimensional formatting.
 type: docs
+weight: 3090
 url: /net/aspose.cells.drawing/threedformat/
 ---
 ## ThreeDFormat class

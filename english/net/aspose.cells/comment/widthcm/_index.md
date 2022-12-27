@@ -3,6 +3,7 @@ title: WidthCM
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the width of the comment in unit of centimeters.
 type: docs
+weight: 190
 url: /net/aspose.cells/comment/widthcm/
 ---
 ## Comment.WidthCM property

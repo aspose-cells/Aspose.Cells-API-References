@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a item by index.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/pivotitems/item/
 ---
 ## PivotItems indexer (1 of 2)

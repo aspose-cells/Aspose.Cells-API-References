@@ -3,6 +3,7 @@ title: Bytes
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an estimate of the number of bytes in the document.
 type: docs
+weight: 20
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/bytes/
 ---
 ## BuiltInDocumentPropertyCollection.Bytes property

@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds one thread comment person.
 type: docs
+weight: 40
 url: /net/aspose.cells/threadedcommentauthorcollection/add/
 ---
 ## ThreadedCommentAuthorCollection.Add method

@@ -3,6 +3,7 @@ title: Order2
 second_title: Aspose.Cells for .NET API Reference
 description: Represents sort order of the second key.
 type: docs
+weight: 80
 url: /net/aspose.cells/datasorter/order2/
 ---
 ## DataSorter.Order2 property

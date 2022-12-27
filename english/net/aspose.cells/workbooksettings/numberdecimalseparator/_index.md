@@ -3,6 +3,7 @@ title: NumberDecimalSeparator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the decimal separator for formatting/parsing numeric values. Default is the decimal separator of current Region.
 type: docs
+weight: 390
 url: /net/aspose.cells/workbooksettings/numberdecimalseparator/
 ---
 ## WorkbookSettings.NumberDecimalSeparator property

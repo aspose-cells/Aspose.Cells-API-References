@@ -3,6 +3,7 @@ title: Keywords
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the document keywords.
 type: docs
+weight: 150
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/keywords/
 ---
 ## BuiltInDocumentPropertyCollection.Keywords property

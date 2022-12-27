@@ -3,6 +3,7 @@ title: FirstRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the index of the first row of the range.
 type: docs
+weight: 90
 url: /net/aspose.cells/range/firstrow/
 ---
 ## Range.FirstRow property

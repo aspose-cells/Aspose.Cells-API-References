@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets PivotCache object by index.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/pivotcaches/item/
 ---
 ## PivotCaches indexer (1 of 2)

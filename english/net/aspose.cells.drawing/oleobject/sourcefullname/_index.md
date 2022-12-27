@@ -3,6 +3,7 @@ title: SourceFullName
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the source full name of the source file for the linked OLE object.
 type: docs
+weight: 160
 url: /net/aspose.cells.drawing/oleobject/sourcefullname/
 ---
 ## OleObject.SourceFullName property

@@ -3,6 +3,7 @@ title: DataUnbind
 second_title: Aspose.Cells for .NET API Reference
 description: Unbind data from data source object with Worksheet object.
 type: docs
+weight: 640
 url: /net/aspose.cells.griddesktop/worksheet/dataunbind/
 ---
 ## Worksheet.DataUnbind method

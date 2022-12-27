@@ -3,6 +3,7 @@ title: GetFileUrl
 second_title: Aspose.Cells for .NET API Reference
 description: Implement this method to get the file url from the cache.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridjs/gridcacheforstream/getfileurl/
 ---
 ## GridCacheForStream.GetFileUrl method

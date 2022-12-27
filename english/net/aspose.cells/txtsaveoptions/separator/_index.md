@@ -3,6 +3,7 @@ title: Separator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets char Delimiter of text file.
 type: docs
+weight: 110
 url: /net/aspose.cells/txtsaveoptions/separator/
 ---
 ## TxtSaveOptions.Separator property

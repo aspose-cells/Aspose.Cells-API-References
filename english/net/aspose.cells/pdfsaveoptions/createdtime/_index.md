@@ -3,6 +3,7 @@ title: CreatedTime
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the time of generating the pdf document.
 type: docs
+weight: 80
 url: /net/aspose.cells/pdfsaveoptions/createdtime/
 ---
 ## PdfSaveOptions.CreatedTime property

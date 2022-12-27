@@ -3,6 +3,7 @@ title: CustomFunction
 second_title: Aspose.Cells for .NET API Reference
 description: The custom formula calculation functions to extend the calculation engine.
 type: docs
+weight: 50
 url: /net/aspose.cells/calculationoptions/customfunction/
 ---
 ## CalculationOptions.CustomFunction property

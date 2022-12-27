@@ -3,6 +3,7 @@ title: SourceSheet
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the data source of WebWorksheet for the PivotTable report.
 type: docs
+weight: 70
 url: /net/aspose.cells.gridweb.data/pivotcache/sourcesheet/
 ---
 ## PivotCache.SourceSheet property

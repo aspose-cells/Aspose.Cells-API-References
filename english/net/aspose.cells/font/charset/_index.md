@@ -3,6 +3,7 @@ title: Charset
 second_title: Aspose.Cells for .NET API Reference
 description: Represent the character set.
 type: docs
+weight: 30
 url: /net/aspose.cells/font/charset/
 ---
 ## Font.Charset property

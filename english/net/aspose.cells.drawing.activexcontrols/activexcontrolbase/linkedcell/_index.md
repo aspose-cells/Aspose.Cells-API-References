@@ -3,6 +3,7 @@ title: LinkedCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the linked cell.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell/
 ---
 ## ActiveXControlBase.LinkedCell property

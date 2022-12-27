@@ -3,6 +3,7 @@ title: ClearPivottables
 second_title: Aspose.Cells for .NET API Reference
 description: Clears pivot tables from the spreadsheet.
 type: docs
+weight: 200
 url: /net/aspose.cells/worksheetcollection/clearpivottables/
 ---
 ## WorksheetCollection.ClearPivottables method

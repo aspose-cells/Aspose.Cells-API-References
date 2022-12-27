@@ -3,6 +3,7 @@ title: ToImage
 second_title: Aspose.Cells for .NET API Reference
 description: Converts a sparkline to an image.
 type: docs
+weight: 40
 url: /net/aspose.cells.charts/sparkline/toimage/
 ---
 ## ToImage(ImageOrPrintOptions) {#toimage}

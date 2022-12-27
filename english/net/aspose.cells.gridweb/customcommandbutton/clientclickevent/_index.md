@@ -3,6 +3,7 @@ title: ClientClickEvent
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the click event handler at client side.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb/customcommandbutton/clientclickevent/
 ---
 ## CustomCommandButton.ClientClickEvent property

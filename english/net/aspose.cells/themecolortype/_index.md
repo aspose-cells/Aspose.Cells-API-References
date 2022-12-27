@@ -3,6 +3,7 @@ title: ThemeColorType
 second_title: Aspose.Cells for .NET API Reference
 description: Enumerates the theme color types.
 type: docs
+weight: 6040
 url: /net/aspose.cells/themecolortype/
 ---
 ## ThemeColorType enumeration

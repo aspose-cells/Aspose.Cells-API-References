@@ -3,6 +3,7 @@ title: CellColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the column index of the cell where the function is in.
 type: docs
+weight: 30
 url: /net/aspose.cells/calculationdata/cellcolumn/
 ---
 ## CalculationData.CellColumn property

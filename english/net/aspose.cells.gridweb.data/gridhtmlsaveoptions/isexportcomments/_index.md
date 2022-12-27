@@ -3,6 +3,7 @@ title: IsExportComments
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if exporting comments when saving file to html the default value is false.
 type: docs
+weight: 140
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/isexportcomments/
 ---
 ## GridHtmlSaveOptions.IsExportComments property

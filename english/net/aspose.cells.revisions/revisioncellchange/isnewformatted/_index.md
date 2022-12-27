@@ -3,6 +3,7 @@ title: IsNewFormatted
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this cell is new formatted.
 type: docs
+weight: 30
 url: /net/aspose.cells.revisions/revisioncellchange/isnewformatted/
 ---
 ## RevisionCellChange.IsNewFormatted property

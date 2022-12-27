@@ -3,6 +3,7 @@ title: ShrinkToFit
 second_title: Aspose.Cells for .NET API Reference
 description: Shrink to fit setting will be applied.
 type: docs
+weight: 270
 url: /net/aspose.cells/styleflag/shrinktofit/
 ---
 ## StyleFlag.ShrinkToFit property

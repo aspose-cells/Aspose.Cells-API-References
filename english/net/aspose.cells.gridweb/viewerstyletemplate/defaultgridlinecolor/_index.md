@@ -3,6 +3,7 @@ title: DefaultGridLineColor
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb/viewerstyletemplate/defaultgridlinecolor/
 ---
 ## ViewerStyleTemplate.DefaultGridLineColor property

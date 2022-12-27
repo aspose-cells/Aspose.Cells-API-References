@@ -3,6 +3,7 @@ title: ActiveCellColor
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the color of the active cell.
 type: docs
+weight: 40
 url: /net/aspose.cells.gridweb/mainweb/activecellcolor/
 ---
 ## MainWeb.ActiveCellColor property

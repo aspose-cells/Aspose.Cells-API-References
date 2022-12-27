@@ -3,6 +3,7 @@ title: PrintComments
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the way comments are printed with the sheet.
 type: docs
+weight: 290
 url: /net/aspose.cells/pagesetup/printcomments/
 ---
 ## PageSetup.PrintComments property

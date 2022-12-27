@@ -3,6 +3,7 @@ title: StandardWidthInch
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 200
 url: /net/aspose.cells.griddesktop.data/gridcells/standardwidthinch/
 ---
 ## GridCells.StandardWidthInch property

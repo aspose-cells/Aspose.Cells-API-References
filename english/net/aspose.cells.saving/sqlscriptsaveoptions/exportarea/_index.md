@@ -3,6 +3,7 @@ title: ExportArea
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the exporting range.
 type: docs
+weight: 70
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/exportarea/
 ---
 ## SqlScriptSaveOptions.ExportArea property

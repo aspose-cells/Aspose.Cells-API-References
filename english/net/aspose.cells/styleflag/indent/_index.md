@@ -3,6 +3,7 @@ title: Indent
 second_title: Aspose.Cells for .NET API Reference
 description: Indent level setting will be applied.
 type: docs
+weight: 200
 url: /net/aspose.cells/styleflag/indent/
 ---
 ## StyleFlag.Indent property

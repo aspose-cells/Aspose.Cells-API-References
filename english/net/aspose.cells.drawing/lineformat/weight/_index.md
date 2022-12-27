@@ -3,6 +3,7 @@ title: Weight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the weight of the line in unit of points.
 type: docs
+weight: 110
 url: /net/aspose.cells.drawing/lineformat/weight/
 ---
 ## LineFormat.Weight property

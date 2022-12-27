@@ -3,6 +3,7 @@ title: ComboBox
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a cell combobox control.
 type: docs
+weight: 270
 url: /net/aspose.cells.griddesktop/combobox/
 ---
 ## ComboBox class
@@ -21,7 +22,7 @@ public class ComboBox : CellControl
 | [IsInputable](../../aspose.cells.griddesktop/combobox/isinputable) { get; set; } | Indicates if the user can input text to the combobox. The inputted text will be saved as the cell's value. The default value is "false". |
 | [Items](../../aspose.cells.griddesktop/combobox/items) { get; } | Gets an object representing the collection of the items contained in this ComboBox. |
 | [SelectedIndex](../../aspose.cells.griddesktop/combobox/selectedindex) { get; set; } | Gets or sets the index specifying the currently selected item. Setting the index will call GridDesktop.RunAllFormulas method automatic if GridDesktop.RecalculateFormulas property is true. |
-| [Text](../../aspose.cells.griddesktop/cellcontrol/text) { get; set; } | Gets or sets the text associated with this control.(Inherited from [`CellControl`](../cellcontrol).) |
+| [Text](../../aspose.cells.griddesktop/cellcontrol/text) { get; set; } | Gets or sets the text associated with this control. |
 | [Values](../../aspose.cells.griddesktop/combobox/values) { get; } | Gets an object representing the collection of the values contained in this ComboBox. |
 | [Width](../../aspose.cells.griddesktop/combobox/width) { get; set; } | Gets or sets the width of the list control. |
 

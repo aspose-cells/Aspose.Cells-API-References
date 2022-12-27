@@ -3,6 +3,7 @@ title: CharactersWithSpaces
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an estimate of the number of characters including spaces in the document.
 type: docs
+weight: 50
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/characterswithspaces/
 ---
 ## BuiltInDocumentPropertyCollection.CharactersWithSpaces property

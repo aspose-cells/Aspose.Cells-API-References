@@ -3,6 +3,7 @@ title: IsCellFocused
 second_title: Aspose.Cells for .NET API Reference
 description: Determines whether the cell is focused.
 type: docs
+weight: 860
 url: /net/aspose.cells.griddesktop/worksheet/iscellfocused/
 ---
 ## Worksheet.IsCellFocused method

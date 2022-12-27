@@ -3,6 +3,7 @@ title: Background
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the display mode of the background
 type: docs
+weight: 20
 url: /net/aspose.cells.charts/legendentry/background/
 ---
 ## LegendEntry.Background property

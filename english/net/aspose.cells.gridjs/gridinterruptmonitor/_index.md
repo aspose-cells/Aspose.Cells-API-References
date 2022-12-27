@@ -3,6 +3,7 @@ title: GridInterruptMonitor
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all operator about the interrupt.
 type: docs
+weight: 70
 url: /net/aspose.cells.gridjs/gridinterruptmonitor/
 ---
 ## GridInterruptMonitor class

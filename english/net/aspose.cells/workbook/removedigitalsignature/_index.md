@@ -3,6 +3,7 @@ title: RemoveDigitalSignature
 second_title: Aspose.Cells for .NET API Reference
 description: Removes digital signature from this spreadsheet.
 type: docs
+weight: 540
 url: /net/aspose.cells/workbook/removedigitalsignature/
 ---
 ## Workbook.RemoveDigitalSignature method

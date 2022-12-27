@@ -3,6 +3,7 @@ title: IgnoreObjectTitle
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether ignore title if object is a property of object.
 type: docs
+weight: 70
 url: /net/aspose.cells.utility/jsonlayoutoptions/ignoreobjecttitle/
 ---
 ## JsonLayoutOptions.IgnoreObjectTitle property

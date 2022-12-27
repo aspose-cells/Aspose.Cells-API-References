@@ -3,6 +3,7 @@ title: TextAlign
 second_title: Aspose.Cells for .NET API Reference
 description: Represents how to align the text used by the control.
 type: docs
+weight: 80
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrol/textalign/
 ---
 ## ActiveXControl.TextAlign property

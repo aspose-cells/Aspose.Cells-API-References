@@ -3,6 +3,7 @@ title: HeaderBarWidth
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 130
 url: /net/aspose.cells.gridweb/viewerstyletemplate/headerbarwidth/
 ---
 ## ViewerStyleTemplate.HeaderBarWidth property

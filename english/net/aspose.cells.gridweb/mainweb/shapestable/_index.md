@@ -3,6 +3,7 @@ title: ShapesTable
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 850
 url: /net/aspose.cells.gridweb/mainweb/shapestable/
 ---
 ## MainWeb.ShapesTable property

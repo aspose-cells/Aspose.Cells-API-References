@@ -3,6 +3,7 @@ title: AddCopy
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a worksheet to the collection and copies data from an existed worksheet.
 type: docs
+weight: 150
 url: /net/aspose.cells.gridweb.data/webworksheets/addcopy/
 ---
 ## AddCopy(int) {#addcopy_1}

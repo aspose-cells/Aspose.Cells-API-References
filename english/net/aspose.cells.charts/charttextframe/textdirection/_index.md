@@ -3,6 +3,7 @@ title: TextDirection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents text reading order.
 type: docs
+weight: 100
 url: /net/aspose.cells.charts/charttextframe/textdirection/
 ---
 ## ChartTextFrame.TextDirection property

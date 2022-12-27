@@ -3,6 +3,7 @@ title: PictureFormatType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the picture format type.
 type: docs
+weight: 120
 url: /net/aspose.cells.drawing/fillformat/pictureformattype/
 ---
 ## FillFormat.PictureFormatType property

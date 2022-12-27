@@ -3,6 +3,7 @@ title: Equals
 second_title: Aspose.Cells for .NET API Reference
 description: Checks whether this object refers to the same row with another.
 type: docs
+weight: 160
 url: /net/aspose.cells/row/equals/
 ---
 ## Equals(object) {#equals_1}

@@ -3,6 +3,7 @@ title: GridValidationCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of GridValidation./gridvalidation objects.
 type: docs
+weight: 720
 url: /net/aspose.cells.griddesktop.data/gridvalidationcollection/
 ---
 ## GridValidationCollection class

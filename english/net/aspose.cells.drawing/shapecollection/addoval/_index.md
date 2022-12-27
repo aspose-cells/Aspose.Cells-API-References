@@ -3,6 +3,7 @@ title: AddOval
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a Oval to the worksheet.
 type: docs
+weight: 200
 url: /net/aspose.cells.drawing/shapecollection/addoval/
 ---
 ## ShapeCollection.AddOval method

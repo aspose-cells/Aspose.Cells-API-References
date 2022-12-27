@@ -3,6 +3,7 @@ title: ClassIdentifier
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the class identifier of the embedded object. It means which application opens the embedded file.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing/oleobject/classidentifier/
 ---
 ## OleObject.ClassIdentifier property

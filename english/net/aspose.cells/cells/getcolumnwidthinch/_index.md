@@ -3,6 +3,7 @@ title: GetColumnWidthInch
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the width of the specified column in normal view in units of inches.
 type: docs
+weight: 700
 url: /net/aspose.cells/cells/getcolumnwidthinch/
 ---
 ## Cells.GetColumnWidthInch method

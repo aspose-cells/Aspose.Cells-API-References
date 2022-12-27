@@ -3,6 +3,7 @@ title: FromOleColor
 second_title: Aspose.Cells for .NET API Reference
 description: Convert OLE_COLOR.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/colorhelper/fromolecolor/
 ---
 ## ColorHelper.FromOleColor method

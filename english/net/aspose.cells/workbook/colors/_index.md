@@ -3,6 +3,7 @@ title: Colors
 second_title: Aspose.Cells for .NET API Reference
 description: Returns colors in the palette for the spreadsheet.
 type: docs
+weight: 50
 url: /net/aspose.cells/workbook/colors/
 ---
 ## Workbook.Colors property

@@ -3,6 +3,7 @@ title: TabColor
 second_title: Aspose.Cells for .NET API Reference
 description: Represents worksheet tab color.
 type: docs
+weight: 460
 url: /net/aspose.cells/worksheet/tabcolor/
 ---
 ## Worksheet.TabColor property

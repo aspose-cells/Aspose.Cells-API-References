@@ -3,6 +3,7 @@ title: Y
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the vertical offset of shape from worksheet top borderin unit of pixels.
 type: docs
+weight: 560
 url: /net/aspose.cells.gridweb.data/gridpicture/y/
 ---
 ## GridPicture.Y property

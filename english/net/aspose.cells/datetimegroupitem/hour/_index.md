@@ -3,6 +3,7 @@ title: Hour
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the hour of the grouped date time.
 type: docs
+weight: 40
 url: /net/aspose.cells/datetimegroupitem/hour/
 ---
 ## DateTimeGroupItem.Hour property

@@ -1,8 +1,9 @@
 ---
 title: ZOrderPosition
 second_title: Aspose.Cells for .NET API Reference
-description: Returns the position of a shape in the zorder.
+description: Returns the position of a shape in the z-order.
 type: docs
+weight: 110
 url: /net/aspose.cells.gridweb.data/gridshape/zorderposition/
 ---
 ## GridShape.ZOrderPosition property

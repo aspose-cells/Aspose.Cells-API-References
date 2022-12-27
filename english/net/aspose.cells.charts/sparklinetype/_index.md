@@ -3,6 +3,7 @@ title: SparklineType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the sparkline types.
 type: docs
+weight: 920
 url: /net/aspose.cells.charts/sparklinetype/
 ---
 ## SparklineType enumeration

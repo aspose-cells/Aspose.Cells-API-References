@@ -3,6 +3,7 @@ title: GridWebControl
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the linked GridWeb control.
 type: docs
+weight: 50
 url: /net/aspose.cells.gridweb/gridwebform/gridwebcontrol/
 ---
 ## GridWebForm.GridWebControl property

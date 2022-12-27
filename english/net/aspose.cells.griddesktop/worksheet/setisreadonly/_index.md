@@ -3,6 +3,7 @@ title: SetIsReadonly
 second_title: Aspose.Cells for .NET API Reference
 description: Sets whether the cell is readonly.this is an extended attribute it will not keep in actual excel file
 type: docs
+weight: 1070
 url: /net/aspose.cells.griddesktop/worksheet/setisreadonly/
 ---
 ## Worksheet.SetIsReadonly method

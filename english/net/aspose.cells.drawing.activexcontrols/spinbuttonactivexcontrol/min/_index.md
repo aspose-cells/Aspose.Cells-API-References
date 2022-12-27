@@ -3,6 +3,7 @@ title: Min
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the minimum acceptable value.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/min/
 ---
 ## SpinButtonActiveXControl.Min property

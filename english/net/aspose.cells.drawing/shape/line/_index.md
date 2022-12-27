@@ -3,6 +3,7 @@ title: Line
 second_title: Aspose.Cells for .NET API Reference
 description: Gets line style
 type: docs
+weight: 480
 url: /net/aspose.cells.drawing/shape/line/
 ---
 ## Shape.Line property

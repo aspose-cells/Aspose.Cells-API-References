@@ -3,6 +3,7 @@ title: AddFieldToArea
 second_title: Aspose.Cells for .NET API Reference
 description: Adds the field to the specific area.
 type: docs
+weight: 750
 url: /net/aspose.cells.pivot/pivottable/addfieldtoarea/
 ---
 ## AddFieldToArea(PivotFieldType, string) {#addfieldtoarea_2}
@@ -67,7 +68,7 @@ public int AddFieldToArea(PivotFieldType fieldType, PivotField pivotField)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | PivotFieldType | the fields area type. |
+| fieldType | PivotFieldType | the fields area type.It could be one of the following values: PivotFieldType.RowPivotFieldType.ColumnPivotFieldType.DataPivotFieldType.Page |
 | pivotField | PivotField | the field in the base fields. |
 
 ### Return Value

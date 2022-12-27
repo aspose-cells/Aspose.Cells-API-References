@@ -1,25 +1,29 @@
----
-title: TextCapsType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: TextCapsType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5060
+weight: 2520
 url: /python-net/aspose.cells/textcapstype/
+is_root: false
 ---
 
 ## TextCapsType enumeration
 
 This type specifies the cap types of the text.
 
-## Members
-| Member name | Description |
+
+
+The TextCapsType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|None caps|
-|ALL|Apply all caps on the text.|
-|SMALL|Apply small caps to the text.|
+| NONE | None caps |
+| ALL | Apply all caps on the text. |
+| SMALL | Apply small caps to the text. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

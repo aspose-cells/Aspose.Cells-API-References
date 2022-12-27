@@ -3,6 +3,7 @@ title: DeleteRow
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes a row.
 type: docs
+weight: 130
 url: /net/aspose.cells.gridweb.data/webcells/deleterow/
 ---
 ## WebCells.DeleteRow method

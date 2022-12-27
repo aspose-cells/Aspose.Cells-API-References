@@ -3,6 +3,7 @@ title: IconSetType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets which icon set is used in the filter criteria.
 type: docs
+weight: 20
 url: /net/aspose.cells/iconfilter/iconsettype/
 ---
 ## IconFilter.IconSetType property

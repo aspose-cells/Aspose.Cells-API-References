@@ -3,6 +3,7 @@ title: SeparatorString
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets a string value as separator.
 type: docs
+weight: 120
 url: /net/aspose.cells/txtsaveoptions/separatorstring/
 ---
 ## TxtSaveOptions.SeparatorString property

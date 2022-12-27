@@ -3,6 +3,7 @@ title: Hidden
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the row is hidden.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/gridrow/hidden/
 ---
 ## GridRow.Hidden property

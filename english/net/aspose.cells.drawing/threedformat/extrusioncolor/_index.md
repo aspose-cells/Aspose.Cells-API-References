@@ -3,6 +3,7 @@ title: ExtrusionColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the extrusion color on a shape.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing/threedformat/extrusioncolor/
 ---
 ## ThreeDFormat.ExtrusionColor property

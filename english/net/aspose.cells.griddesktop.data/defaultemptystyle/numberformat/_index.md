@@ -3,6 +3,7 @@ title: NumberFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 50
 url: /net/aspose.cells.griddesktop.data/defaultemptystyle/numberformat/
 ---
 ## DefaultEmptyStyle.NumberFormat field

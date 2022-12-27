@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: DateTimeGroupItem or a simple object.
 type: docs
+weight: 20
 url: /net/aspose.cells/multiplefiltercollection/item/
 ---
 ## MultipleFilterCollection indexer

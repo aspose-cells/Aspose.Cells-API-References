@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of the revision.
 type: docs
+weight: 30
 url: /net/aspose.cells.revisions/revisionrenamesheet/type/
 ---
 ## RevisionRenameSheet.Type property

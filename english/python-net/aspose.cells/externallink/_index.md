@@ -1,32 +1,37 @@
----
-title: ExternalLink
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ExternalLink class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 560
 url: /python-net/aspose.cells/externallink/
+is_root: false
 ---
 
 ## ExternalLink class
 
 Represents an external link in a workbook.
 
+
+
 The ExternalLink type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|type|Gets the type of external link.|
-|original_data_source|Represents stored data source of the external link.|
-|data_source|Represents data source of the external link.|
-|is_referred|Indicates whether this external link is referenced by others.|
-|is_visible|Indicates whether this external link is visible in MS Excel.|
-## Methods
-| Name | Description |
+| [type](/cells/python-net/aspose.cells/externallink/type) | Gets the type of external link. |
+| [original_data_source](/cells/python-net/aspose.cells/externallink/original_data_source) | Represents stored data source of the external link. |
+| [data_source](/cells/python-net/aspose.cells/externallink/data_source) | Represents data source of the external link. |
+| [is_referred](/cells/python-net/aspose.cells/externallink/is_referred) | Indicates whether this external link is referenced by others. |
+| [is_visible](/cells/python-net/aspose.cells/externallink/is_visible) | Indicates whether this external link is visible in MS Excel. |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|add_external_name(text, refer_to)|Adds an external name.|
+| [add_external_name(text, refer_to)](/cells/python-net/aspose.cells/externallink/add_external_name/#str-str) | Adds an external name. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

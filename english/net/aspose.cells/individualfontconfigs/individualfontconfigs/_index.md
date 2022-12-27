@@ -3,6 +3,7 @@ title: IndividualFontConfigs
 second_title: Aspose.Cells for .NET API Reference
 description: Ctor.
 type: docs
+weight: 10
 url: /net/aspose.cells/individualfontconfigs/individualfontconfigs/
 ---
 ## IndividualFontConfigs constructor

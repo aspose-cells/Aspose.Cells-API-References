@@ -3,6 +3,7 @@ title: AddSvg
 second_title: Aspose.Cells for .NET API Reference
 description: Adds svg image.
 type: docs
+weight: 300
 url: /net/aspose.cells.drawing/shapecollection/addsvg/
 ---
 ## ShapeCollection.AddSvg method

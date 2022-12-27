@@ -3,6 +3,7 @@ title: StartupPath
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the startup path which is referred to by some external formula references.
 type: docs
+weight: 70
 url: /net/aspose.cells/cellshelper/startuppath/
 ---
 ## CellsHelper.StartupPath property

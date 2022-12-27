@@ -3,6 +3,7 @@ title: ClearContents
 second_title: Aspose.Cells for .NET API Reference
 description: Clears contents of a range.
 type: docs
+weight: 400
 url: /net/aspose.cells/cells/clearcontents/
 ---
 ## ClearContents(CellArea) {#clearcontents}

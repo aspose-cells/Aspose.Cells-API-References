@@ -3,6 +3,7 @@ title: HasHeaderRow
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the range contains header row.
 type: docs
+weight: 90
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/hasheaderrow/
 ---
 ## SqlScriptSaveOptions.HasHeaderRow property

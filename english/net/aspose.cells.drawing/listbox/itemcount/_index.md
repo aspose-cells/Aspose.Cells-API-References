@@ -3,6 +3,7 @@ title: ItemCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the number of items in the list box.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/listbox/itemcount/
 ---
 ## ListBox.ItemCount property

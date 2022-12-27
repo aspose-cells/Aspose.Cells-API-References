@@ -3,6 +3,7 @@ title: CommentDataChanged
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the comment data has changed.
 type: docs
+weight: 520
 url: /net/aspose.cells.griddesktop/griddesktop/commentdatachanged/
 ---
 ## GridDesktop.CommentDataChanged event

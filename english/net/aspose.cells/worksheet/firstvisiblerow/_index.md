@@ -3,6 +3,7 @@ title: FirstVisibleRow
 second_title: Aspose.Cells for .NET API Reference
 description: Represents first visible row index.
 type: docs
+weight: 170
 url: /net/aspose.cells/worksheet/firstvisiblerow/
 ---
 ## Worksheet.FirstVisibleRow property

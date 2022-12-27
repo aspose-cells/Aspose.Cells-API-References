@@ -1,25 +1,29 @@
----
-title: SelectionType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: SelectionType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1400
+weight: 1130
 url: /python-net/aspose.cells.drawing/selectiontype/
+is_root: false
 ---
 
 ## SelectionType enumeration
 
 The selection type of list box.
 
-## Members
-| Member name | Description |
+
+
+The SelectionType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|SINGLE|Sigle selection type.|
-|MULTI|Multiple selection type.|
-|EXTEND|Extend selection type.|
+| SINGLE | Sigle selection type. |
+| MULTI | Multiple selection type. |
+| EXTEND | Extend selection type. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

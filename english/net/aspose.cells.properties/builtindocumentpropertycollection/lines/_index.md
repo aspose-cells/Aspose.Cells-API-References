@@ -3,6 +3,7 @@ title: Lines
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an estimate of the number of lines in the document.
 type: docs
+weight: 220
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/lines/
 ---
 ## BuiltInDocumentPropertyCollection.Lines property

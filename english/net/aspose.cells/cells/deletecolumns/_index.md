@@ -3,6 +3,7 @@ title: DeleteColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes several columns.
 type: docs
+weight: 530
 url: /net/aspose.cells/cells/deletecolumns/
 ---
 ## Cells.DeleteColumns method

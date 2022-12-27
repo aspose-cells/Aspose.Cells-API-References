@@ -1,28 +1,39 @@
----
-title: NoneBulletValue
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: NoneBulletValue class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 60
 url: /python-net/aspose.cells.drawing.texts/nonebulletvalue/
+is_root: false
 ---
 
 ## NoneBulletValue class
 
 Represents no bullet.
 
+
+
+**Inheritance:** [NoneBulletValue](/cells/python-net/aspose.cells.drawing.texts/nonebulletvalue) → 
+[BulletValue](/cells/python-net/aspose.cells.drawing.texts/bulletvalue)
+
+
+
 The NoneBulletValue type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|NoneBulletValue()|Initializes a new instance of the NoneBulletValue class|
-## Properties
-| Name | Description |
+| [NoneBulletValue()](/cells/python-net/aspose.cells.drawing.texts/nonebulletvalue/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|type|Gets the type of the bullet's value.|
+| [type](/cells/python-net/aspose.cells.drawing.texts/nonebulletvalue/type) | Gets the type of the bullet's value. |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing.texts](../)
+* class [BulletValue](/cells/python-net/aspose.cells.drawing.texts/bulletvalue)

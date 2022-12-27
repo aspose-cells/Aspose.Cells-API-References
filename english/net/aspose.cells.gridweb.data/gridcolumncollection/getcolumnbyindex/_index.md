@@ -1,13 +1,14 @@
 ---
 title: GetColumnByIndex
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the GridColumnaspose.cells.gridweb.data/gridcolumn object by the position in the list.
+description: Gets the Column object by the position in the list.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/gridcolumncollection/getcolumnbyindex/
 ---
 ## GridColumnCollection.GetColumnByIndex method
 
-Gets the [`GridColumn`](../../gridcolumn) object by the position in the list.
+Gets the Column object by the position in the list.
 
 ```csharp
 public GridColumn GetColumnByIndex(int index)

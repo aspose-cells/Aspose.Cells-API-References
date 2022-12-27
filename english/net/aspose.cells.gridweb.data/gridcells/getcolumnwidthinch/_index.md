@@ -3,6 +3,7 @@ title: GetColumnWidthInch
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the width of the specified column in units of inches.
 type: docs
+weight: 410
 url: /net/aspose.cells.gridweb.data/gridcells/getcolumnwidthinch/
 ---
 ## GridCells.GetColumnWidthInch method

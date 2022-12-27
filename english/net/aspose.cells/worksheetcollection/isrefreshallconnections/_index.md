@@ -3,6 +3,7 @@ title: IsRefreshAllConnections
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether refresh all connections on opening file in MS Excel.
 type: docs
+weight: 70
 url: /net/aspose.cells/worksheetcollection/isrefreshallconnections/
 ---
 ## WorksheetCollection.IsRefreshAllConnections property

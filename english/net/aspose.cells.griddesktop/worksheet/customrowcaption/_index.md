@@ -3,6 +3,7 @@ title: CustomRowCaption
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the custom row caption for the worksheet.
 type: docs
+weight: 110
 url: /net/aspose.cells.griddesktop/worksheet/customrowcaption/
 ---
 ## Worksheet.CustomRowCaption property

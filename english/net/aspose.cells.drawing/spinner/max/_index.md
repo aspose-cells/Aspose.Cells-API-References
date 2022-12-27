@@ -3,6 +3,7 @@ title: Max
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the maximum value of a scroll bar or spinner range.
 type: docs
+weight: 40
 url: /net/aspose.cells.drawing/spinner/max/
 ---
 ## Spinner.Max property

@@ -3,6 +3,7 @@ title: IsReferred
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this external link is referenced by others.
 type: docs
+weight: 20
 url: /net/aspose.cells/externallink/isreferred/
 ---
 ## ExternalLink.IsReferred property

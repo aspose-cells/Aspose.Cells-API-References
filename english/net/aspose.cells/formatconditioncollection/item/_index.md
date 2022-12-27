@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the formatting condition by index.
 type: docs
+weight: 20
 url: /net/aspose.cells/formatconditioncollection/item/
 ---
 ## FormatConditionCollection indexer

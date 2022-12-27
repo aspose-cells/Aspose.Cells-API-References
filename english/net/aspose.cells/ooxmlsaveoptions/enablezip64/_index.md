@@ -3,6 +3,7 @@ title: EnableZip64
 second_title: Aspose.Cells for .NET API Reference
 description: Always use ZIP64 extensions when writing zip archives even when unnecessary.
 type: docs
+weight: 40
 url: /net/aspose.cells/ooxmlsaveoptions/enablezip64/
 ---
 ## OoxmlSaveOptions.EnableZip64 property

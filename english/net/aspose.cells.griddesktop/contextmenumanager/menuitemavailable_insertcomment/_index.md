@@ -3,6 +3,7 @@ title: MenuItemAvailable_InsertComment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item InsertComment is available.
 type: docs
+weight: 170
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_insertcomment/
 ---
 ## ContextMenuManager.MenuItemAvailable_InsertComment property

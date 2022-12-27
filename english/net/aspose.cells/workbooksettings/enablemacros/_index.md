@@ -3,6 +3,7 @@ title: EnableMacros
 second_title: Aspose.Cells for .NET API Reference
 description: Enable macros
 type: docs
+weight: 180
 url: /net/aspose.cells/workbooksettings/enablemacros/
 ---
 ## WorkbookSettings.EnableMacros property

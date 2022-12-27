@@ -3,6 +3,7 @@ title: GetComment
 second_title: Aspose.Cells for .NET API Reference
 description: Get comment object on this cell
 type: docs
+weight: 240
 url: /net/aspose.cells.gridweb.data/gridcell/getcomment/
 ---
 ## GridCell.GetComment method

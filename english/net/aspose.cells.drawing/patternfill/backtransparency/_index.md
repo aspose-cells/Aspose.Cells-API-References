@@ -3,6 +3,7 @@ title: BackTransparency
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the transparency of background color.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing/patternfill/backtransparency/
 ---
 ## PatternFill.BackTransparency property

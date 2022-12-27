@@ -3,6 +3,7 @@ title: Aspose.Cells.GridDesktop.Data
 second_title: Aspose.Cells for .NET API Reference
 description: The namespace of basic data represented classes of GridDesktop.
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop.data/
 ---
 The namespace of basic data represented classes of GridDesktop.

@@ -3,6 +3,7 @@ title: IsHScrollBarVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar.
 type: docs
+weight: 270
 url: /net/aspose.cells/workbooksettings/ishscrollbarvisible/
 ---
 ## WorkbookSettings.IsHScrollBarVisible property

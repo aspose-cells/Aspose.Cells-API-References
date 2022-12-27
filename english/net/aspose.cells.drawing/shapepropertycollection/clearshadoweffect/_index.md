@@ -3,6 +3,7 @@ title: ClearShadowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: Clears the shadow effect of the chart element or shape.
 type: docs
+weight: 70
 url: /net/aspose.cells.drawing/shapepropertycollection/clearshadoweffect/
 ---
 ## ShapePropertyCollection.ClearShadowEffect method

@@ -3,6 +3,7 @@ title: NumberCategoryType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents category type of cells number formatting.
 type: docs
+weight: 4270
 url: /net/aspose.cells/numbercategorytype/
 ---
 ## NumberCategoryType enumeration

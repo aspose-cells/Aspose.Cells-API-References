@@ -3,6 +3,7 @@ title: UngroupColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Ungroups columns.
 type: docs
+weight: 700
 url: /net/aspose.cells.griddesktop.data/gridcells/ungroupcolumns/
 ---
 ## GridCells.UngroupColumns method

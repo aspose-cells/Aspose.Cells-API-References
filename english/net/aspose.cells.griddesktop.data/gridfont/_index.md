@@ -3,6 +3,7 @@ title: GridFont
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the font object used in a spreadsheet.
 type: docs
+weight: 470
 url: /net/aspose.cells.griddesktop.data/gridfont/
 ---
 ## GridFont class

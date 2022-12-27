@@ -3,6 +3,7 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all shapes.
 type: docs
+weight: 360
 url: /net/aspose.cells.drawing/shapecollection/clear/
 ---
 ## ShapeCollection.Clear method

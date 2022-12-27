@@ -3,6 +3,7 @@ title: IsTripleState
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates how the specified control will display Null values.
 type: docs
+weight: 50
 url: /net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/istriplestate/
 ---
 ## CheckBoxActiveXControl.IsTripleState property
@@ -15,10 +16,7 @@ public bool IsTripleState { get; set; }
 
 ### Remarks
 
-| **Setting** | **Description** |
-| --- | --- |
-| True | The control will cycle through states for Yes, No, and Null values. The control appears dimmed (grayed) when its Value property is set to Null. |
-| False | (Default) The control will cycle through states for Yes and No values. Null values display as if they were No values. |
+///**Setting** **Description** TrueThe control will cycle through states for Yes, No, and Null values. The control appears dimmed (grayed) when its Value property is set to Null.False(Default) The control will cycle through states for Yes and No values. Null values display as if they were No values.
 
 ### See Also
 

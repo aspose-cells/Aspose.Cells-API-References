@@ -3,6 +3,7 @@ title: IsNew
 second_title: Aspose.Cells for .NET API Reference
 description: True if the connection has not been refreshed for the first time otherwise false. This state can happen when the user saves the file before a query has finished returning.
 type: docs
+weight: 80
 url: /net/aspose.cells.externalconnections/externalconnection/isnew/
 ---
 ## ExternalConnection.IsNew property

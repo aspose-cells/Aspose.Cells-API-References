@@ -1,21 +1,25 @@
----
+﻿---
 title: aspose.cells.metadata
-second_title: Aspose.Cells for Python via .NET API Reference
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 90
+weight: 10
 url: /python-net/aspose.cells.metadata/
+is_root: false
 ---
 
+Contains all classes of loading and saving metadata of the files.s
 
-Contains all classes of loading and saving metadata of the files.
-
-## Classes
+### Classes
 | Class | Description |
 | :- | :- |
-|[MetadataOptions](/cells/python-net/aspose.cells.metadata/metadataoptions/)|Represents the options of loading metadata of the file.|
-|[WorkbookMetadata](/cells/python-net/aspose.cells.metadata/workbookmetadata/)|Represents the meta data.|
-## Enumerations
+| [MetadataOptions](/cells/python-net/aspose.cells.metadata/metadataoptions) | Represents the options of loading metadata of the file. |
+| [WorkbookMetadata](/cells/python-net/aspose.cells.metadata/workbookmetadata) | Represents the meta data. |
+
+
+### Enumerations
 | Enumeration | Description |
 | :- | :- |
-|[MetadataType](/cells/python-net/aspose.cells.metadata/metadatatype/)|Represents the type of metadata.|
+| [MetadataType](/cells/python-net/aspose.cells.metadata/metadatatype) | Represents the type of metadata. |
+
+

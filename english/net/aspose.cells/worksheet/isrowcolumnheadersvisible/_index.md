@@ -3,6 +3,7 @@ title: IsRowColumnHeadersVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true.
 type: docs
+weight: 260
 url: /net/aspose.cells/worksheet/isrowcolumnheadersvisible/
 ---
 ## Worksheet.IsRowColumnHeadersVisible property

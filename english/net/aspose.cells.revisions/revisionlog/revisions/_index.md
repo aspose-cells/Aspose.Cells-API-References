@@ -3,6 +3,7 @@ title: Revisions
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all revisions in this log.
 type: docs
+weight: 10
 url: /net/aspose.cells.revisions/revisionlog/revisions/
 ---
 ## RevisionLog.Revisions property

@@ -3,6 +3,7 @@ title: IsReadonly
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether the cell is readonly.this is an extended attribute of GridWeb it will not keep in actual excel file
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/webcell/isreadonly/
 ---
 ## WebCell.IsReadonly property

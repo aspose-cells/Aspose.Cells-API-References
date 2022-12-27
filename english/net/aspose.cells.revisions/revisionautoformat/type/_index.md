@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the type of the revision.
 type: docs
+weight: 20
 url: /net/aspose.cells.revisions/revisionautoformat/type/
 ---
 ## RevisionAutoFormat.Type property

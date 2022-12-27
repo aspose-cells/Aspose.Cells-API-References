@@ -3,6 +3,7 @@ title: DashStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the dash style for the specified line.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/msolineformat/dashstyle/
 ---
 ## MsoLineFormat.DashStyle property

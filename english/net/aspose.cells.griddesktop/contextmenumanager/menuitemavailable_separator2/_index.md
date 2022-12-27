@@ -3,6 +3,7 @@ title: MenuItemAvailable_Separator2
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item separator Separator2 is available.
 type: docs
+weight: 230
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_separator2/
 ---
 ## ContextMenuManager.MenuItemAvailable_Separator2 property

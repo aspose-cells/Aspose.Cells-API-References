@@ -1,8 +1,9 @@
 ---
 title: DataBodyRange
 second_title: Aspose.Cells for .NET API Reference
-description: Returns a CellArea object that represents the range that contains the data area in the list between the header row and the insert row. Readonly.
+description: Returns a CellArea object that represents the range that contains the data area in the list between the header row and the insert row. Read-only.
 type: docs
+weight: 100
 url: /net/aspose.cells.pivot/pivottable/databodyrange/
 ---
 ## PivotTable.DataBodyRange property

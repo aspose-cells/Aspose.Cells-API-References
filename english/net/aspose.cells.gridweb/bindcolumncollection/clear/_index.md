@@ -3,6 +3,7 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clears the colleciton.
 type: docs
+weight: 80
 url: /net/aspose.cells.gridweb/bindcolumncollection/clear/
 ---
 ## BindColumnCollection.Clear method

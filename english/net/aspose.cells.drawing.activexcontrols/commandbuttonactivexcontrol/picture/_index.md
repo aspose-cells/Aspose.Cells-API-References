@@ -3,6 +3,7 @@ title: Picture
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the data of the picture.
 type: docs
+weight: 40
 url: /net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/picture/
 ---
 ## CommandButtonActiveXControl.Picture property

@@ -3,6 +3,7 @@ title: MenuItemAvailable_UnHide
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item UnHide is available.
 type: docs
+weight: 250
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_unhide/
 ---
 ## ContextMenuManager.MenuItemAvailable_UnHide property

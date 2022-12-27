@@ -3,6 +3,7 @@ title: GetStringType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets string type in the database.
 type: docs
+weight: 30
 url: /net/aspose.cells.saving/sqlscriptcolumntypemap/getstringtype/
 ---
 ## SqlScriptColumnTypeMap.GetStringType method

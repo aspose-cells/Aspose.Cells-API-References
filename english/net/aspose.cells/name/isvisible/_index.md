@@ -3,6 +3,7 @@ title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the name is visible.
 type: docs
+weight: 40
 url: /net/aspose.cells/name/isvisible/
 ---
 ## Name.IsVisible property

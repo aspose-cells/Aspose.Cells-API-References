@@ -3,6 +3,7 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the shape.
 type: docs
+weight: 40
 url: /net/aspose.cells.griddesktop.data/gridshapecollection/removeat/
 ---
 ## GridShapeCollection.RemoveAt method

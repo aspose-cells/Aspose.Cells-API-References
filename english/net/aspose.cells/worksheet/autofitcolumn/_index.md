@@ -3,6 +3,7 @@ title: AutoFitColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Autofits the column width.
 type: docs
+weight: 620
 url: /net/aspose.cells/worksheet/autofitcolumn/
 ---
 ## AutoFitColumn(int, int, int) {#autofitcolumn_1}

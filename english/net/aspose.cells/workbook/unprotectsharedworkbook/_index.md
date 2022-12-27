@@ -3,6 +3,7 @@ title: UnprotectSharedWorkbook
 second_title: Aspose.Cells for .NET API Reference
 description: Unprotects a shared workbook.
 type: docs
+weight: 670
 url: /net/aspose.cells/workbook/unprotectsharedworkbook/
 ---
 ## Workbook.UnprotectSharedWorkbook method

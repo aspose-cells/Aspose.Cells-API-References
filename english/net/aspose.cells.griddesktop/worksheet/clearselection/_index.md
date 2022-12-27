@@ -3,6 +3,7 @@ title: ClearSelection
 second_title: Aspose.Cells for .NET API Reference
 description: Clear the selection in Worksheet.
 type: docs
+weight: 580
 url: /net/aspose.cells.griddesktop/worksheet/clearselection/
 ---
 ## Worksheet.ClearSelection method

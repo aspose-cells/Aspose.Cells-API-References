@@ -3,6 +3,7 @@ title: WorksheetScalable
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if zooming in or out the html via worksheet zoom level when saving file to html the default value is false.
 type: docs
+weight: 490
 url: /net/aspose.cells/htmlsaveoptions/worksheetscalable/
 ---
 ## HtmlSaveOptions.WorksheetScalable property

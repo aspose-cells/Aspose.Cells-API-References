@@ -3,6 +3,7 @@ title: BeginArrowheadStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the begin arrow type of the line.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing/lineformat/beginarrowheadstyle/
 ---
 ## LineFormat.BeginArrowheadStyle property

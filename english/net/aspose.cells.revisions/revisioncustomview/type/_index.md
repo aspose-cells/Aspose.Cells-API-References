@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the type of revision.
 type: docs
+weight: 30
 url: /net/aspose.cells.revisions/revisioncustomview/type/
 ---
 ## RevisionCustomView.Type property

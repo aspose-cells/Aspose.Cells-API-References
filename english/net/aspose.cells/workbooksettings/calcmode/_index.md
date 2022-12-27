@@ -3,6 +3,7 @@ title: CalcMode
 second_title: Aspose.Cells for .NET API Reference
 description: It specifies whether to calculate formulas manually automatically or automatically except for multiple table operations.
 type: docs
+weight: 50
 url: /net/aspose.cells/workbooksettings/calcmode/
 ---
 ## WorkbookSettings.CalcMode property

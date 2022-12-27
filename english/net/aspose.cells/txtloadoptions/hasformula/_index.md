@@ -3,6 +3,7 @@ title: HasFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the text is formula if it starts with .
 type: docs
+weight: 30
 url: /net/aspose.cells/txtloadoptions/hasformula/
 ---
 ## TxtLoadOptions.HasFormula property

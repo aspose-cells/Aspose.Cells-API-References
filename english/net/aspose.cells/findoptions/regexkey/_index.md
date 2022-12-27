@@ -1,13 +1,14 @@
 ---
 title: RegexKey
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
+description: Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
 type: docs
+weight: 80
 url: /net/aspose.cells/findoptions/regexkey/
 ---
 ## FindOptions.RegexKey property
 
-Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
+Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
 
 ```csharp
 public bool RegexKey { get; set; }

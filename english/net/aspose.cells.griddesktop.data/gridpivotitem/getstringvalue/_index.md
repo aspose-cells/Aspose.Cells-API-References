@@ -3,6 +3,7 @@ title: GetStringValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the string value of the pivot item If the value is null it will return 
 type: docs
+weight: 70
 url: /net/aspose.cells.griddesktop.data/gridpivotitem/getstringvalue/
 ---
 ## GridPivotItem.GetStringValue method

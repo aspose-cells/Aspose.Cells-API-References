@@ -3,6 +3,7 @@ title: AddLabelInChart
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a label to the chart.
 type: docs
+weight: 140
 url: /net/aspose.cells.drawing/shapecollection/addlabelinchart/
 ---
 ## ShapeCollection.AddLabelInChart method

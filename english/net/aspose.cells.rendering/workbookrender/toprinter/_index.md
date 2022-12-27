@@ -3,6 +3,7 @@ title: ToPrinter
 second_title: Aspose.Cells for .NET API Reference
 description: Render workbook to Printer
 type: docs
+weight: 70
 url: /net/aspose.cells.rendering/workbookrender/toprinter/
 ---
 ## ToPrinter(string) {#toprinter_2}

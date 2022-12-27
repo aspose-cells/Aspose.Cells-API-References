@@ -3,6 +3,7 @@ title: TextOrientationType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text orientation type of the comment.
 type: docs
+weight: 150
 url: /net/aspose.cells/comment/textorientationtype/
 ---
 ## Comment.TextOrientationType property

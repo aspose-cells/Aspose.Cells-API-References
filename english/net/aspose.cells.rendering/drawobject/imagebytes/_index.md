@@ -3,6 +3,7 @@ title: ImageBytes
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates image bytes of rendered Chart Shape when rendering.
 type: docs
+weight: 30
 url: /net/aspose.cells.rendering/drawobject/imagebytes/
 ---
 ## DrawObject.ImageBytes property

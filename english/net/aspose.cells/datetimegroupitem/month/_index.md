@@ -3,6 +3,7 @@ title: Month
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the month of the grouped date time.
 type: docs
+weight: 70
 url: /net/aspose.cells/datetimegroupitem/month/
 ---
 ## DateTimeGroupItem.Month property

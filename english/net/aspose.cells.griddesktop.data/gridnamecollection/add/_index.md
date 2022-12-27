@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Defines a new global name.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop.data/gridnamecollection/add/
 ---
 ## Add(string, string) {#add_1}

@@ -3,6 +3,7 @@ title: IsOptimized
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to optimize the output elements.
 type: docs
+weight: 170
 url: /net/aspose.cells.rendering/imageorprintoptions/isoptimized/
 ---
 ## ImageOrPrintOptions.IsOptimized property

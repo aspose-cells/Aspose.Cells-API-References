@@ -3,6 +3,7 @@ title: Header
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop.data/gridcolumn/header/
 ---
 ## GridColumn.Header property

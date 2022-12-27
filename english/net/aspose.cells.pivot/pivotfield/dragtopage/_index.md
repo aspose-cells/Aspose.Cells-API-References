@@ -3,6 +3,7 @@ title: DragToPage
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified field can be dragged to the page position. The default value is true.
 type: docs
+weight: 140
 url: /net/aspose.cells.pivot/pivotfield/dragtopage/
 ---
 ## PivotField.DragToPage property

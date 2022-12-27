@@ -1,25 +1,28 @@
----
-title: SlicerCacheItem
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: SlicerCacheItem class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 30
 url: /python-net/aspose.cells.slicers/slicercacheitem/
+is_root: false
 ---
 
 ## SlicerCacheItem class
 
 Represent slicer data source item
 
+
+
 The SlicerCacheItem type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|selected|Specifies whether the SlicerItem is selected or not.|
-|value|Returns the label text for the slicer item. Read-only.|
+| [selected](/cells/python-net/aspose.cells.slicers/slicercacheitem/selected) | Specifies whether the SlicerItem is selected or not. |
+| [value](/cells/python-net/aspose.cells.slicers/slicercacheitem/value) | Returns the label text for the slicer item. Read-only. |
+
 
 ### See Also
 
-* namespace [aspose.cells.slicers](/cells/python-net/aspose.cells.slicers/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.slicers](../)

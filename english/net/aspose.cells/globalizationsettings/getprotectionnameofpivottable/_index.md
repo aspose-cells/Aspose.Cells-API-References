@@ -3,6 +3,7 @@ title: GetProtectionNameOfPivotTable
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the protection name in the PivotTable.
 type: docs
+weight: 200
 url: /net/aspose.cells/globalizationsettings/getprotectionnameofpivottable/
 ---
 ## GlobalizationSettings.GetProtectionNameOfPivotTable method

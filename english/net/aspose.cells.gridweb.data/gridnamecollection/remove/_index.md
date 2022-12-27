@@ -3,6 +3,7 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Remove an array of name
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/gridnamecollection/remove/
 ---
 ## GridNameCollection.Remove method

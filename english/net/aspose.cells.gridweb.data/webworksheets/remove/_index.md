@@ -3,6 +3,7 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Removes a sheet.
 type: docs
+weight: 270
 url: /net/aspose.cells.gridweb.data/webworksheets/remove/
 ---
 ## WebWorksheets.Remove method

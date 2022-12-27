@@ -3,6 +3,7 @@ title: PicFormatOption
 second_title: Aspose.Cells for .NET API Reference
 description: Represents picture format option
 type: docs
+weight: 2480
 url: /net/aspose.cells.drawing/picformatoption/
 ---
 ## PicFormatOption class

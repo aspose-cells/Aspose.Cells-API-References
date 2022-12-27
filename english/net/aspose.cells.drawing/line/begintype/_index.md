@@ -3,6 +3,7 @@ title: BeginType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies an arrowhead for the begin of a line.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing/line/begintype/
 ---
 ## Line.BeginType property

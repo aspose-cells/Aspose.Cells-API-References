@@ -1,8 +1,9 @@
 ---
 title: MaxRow
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the max row index zerobased.
+description: Gets the max row index zero-based.
 type: docs
+weight: 360
 url: /net/aspose.cells/workbooksettings/maxrow/
 ---
 ## WorkbookSettings.MaxRow property

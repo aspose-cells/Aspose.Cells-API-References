@@ -3,6 +3,7 @@ title: Column
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the column index of the sparkline.
 type: docs
+weight: 10
 url: /net/aspose.cells.charts/sparkline/column/
 ---
 ## Sparkline.Column property

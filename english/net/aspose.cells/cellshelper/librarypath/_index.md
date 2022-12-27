@@ -3,6 +3,7 @@ title: LibraryPath
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the library path which is referred to by some external formula references.
 type: docs
+weight: 50
 url: /net/aspose.cells/cellshelper/librarypath/
 ---
 ## CellsHelper.LibraryPath property

@@ -1,24 +1,28 @@
----
-title: PdfOptimizationType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PdfOptimizationType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 220
+weight: 210
 url: /python-net/aspose.cells.rendering/pdfoptimizationtype/
+is_root: false
 ---
 
 ## PdfOptimizationType enumeration
 
 Specifies a type of optimization.
 
-## Members
-| Member name | Description |
+
+
+The PdfOptimizationType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|STANDARD|High print quality|
-|MINIMUM_SIZE|File size is more important than print quality|
+| STANDARD | High print quality |
+| MINIMUM_SIZE | File size is more important than print quality |
+
 
 ### See Also
 
-* namespace [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.rendering](../)

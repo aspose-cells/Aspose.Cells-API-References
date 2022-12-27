@@ -1,8 +1,9 @@
 ---
 title: StoreName
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets the instance of the marketplace where the Office Addin is stored. .
+description: Gets and sets the instance of the marketplace where the Office Add-in is stored. .
 type: docs
+weight: 20
 url: /net/aspose.cells.webextensions/webextensionreference/storename/
 ---
 ## WebExtensionReference.StoreName property

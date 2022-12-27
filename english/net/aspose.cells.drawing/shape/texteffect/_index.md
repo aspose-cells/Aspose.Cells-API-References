@@ -1,8 +1,9 @@
 ---
 title: TextEffect
 second_title: Aspose.Cells for .NET API Reference
-description: Returns a TextEffectFormat object that contains texteffect formatting properties for the specified shape. Applies to Shape objects that represent WordArt.
+description: Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt.
 type: docs
+weight: 710
 url: /net/aspose.cells.drawing/shape/texteffect/
 ---
 ## Shape.TextEffect property

@@ -3,6 +3,7 @@ title: Items
 second_title: Aspose.Cells for .NET API Reference
 description: Gets an object representing the collection of the items contained in this ComboBox.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop/combobox/items/
 ---
 ## ComboBox.Items property

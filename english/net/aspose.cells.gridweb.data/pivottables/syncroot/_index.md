@@ -3,6 +3,7 @@ title: SyncRoot
 second_title: Aspose.Cells for .NET API Reference
 description: Gets an object that can be used to synchronize access to the PivotTables.
 type: docs
+weight: 50
 url: /net/aspose.cells.gridweb.data/pivottables/syncroot/
 ---
 ## PivotTables.SyncRoot property

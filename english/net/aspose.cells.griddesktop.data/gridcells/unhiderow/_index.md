@@ -3,6 +3,7 @@ title: UnhideRow
 second_title: Aspose.Cells for .NET API Reference
 description: Unhides a row.
 type: docs
+weight: 730
 url: /net/aspose.cells.griddesktop.data/gridcells/unhiderow/
 ---
 ## GridCells.UnhideRow method

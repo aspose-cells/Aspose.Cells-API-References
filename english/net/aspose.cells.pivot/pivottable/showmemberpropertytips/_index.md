@@ -3,6 +3,7 @@ title: ShowMemberPropertyTips
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips.
 type: docs
+weight: 620
 url: /net/aspose.cells.pivot/pivottable/showmemberpropertytips/
 ---
 ## PivotTable.ShowMemberPropertyTips property

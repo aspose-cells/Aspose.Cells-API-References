@@ -3,6 +3,7 @@ title: GridCalculationData
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the required data when calculating one function such as function name parameters ...etc.
 type: docs
+weight: 150
 url: /net/aspose.cells.gridweb.data/gridcalculationdata/
 ---
 ## GridCalculationData class

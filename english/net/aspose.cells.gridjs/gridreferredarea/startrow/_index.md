@@ -3,6 +3,7 @@ title: StartRow
 second_title: Aspose.Cells for .NET API Reference
 description: The start row of the area.
 type: docs
+weight: 80
 url: /net/aspose.cells.gridjs/gridreferredarea/startrow/
 ---
 ## GridReferredArea.StartRow property

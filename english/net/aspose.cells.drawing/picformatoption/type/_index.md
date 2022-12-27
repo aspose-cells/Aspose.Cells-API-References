@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the picture fill type.
 type: docs
+weight: 70
 url: /net/aspose.cells.drawing/picformatoption/type/
 ---
 ## PicFormatOption.Type property

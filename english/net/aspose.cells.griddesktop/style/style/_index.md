@@ -3,6 +3,7 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 10
 url: /net/aspose.cells.griddesktop/style/style/
 ---
 ## Style constructor

@@ -3,6 +3,7 @@ title: ClearGlowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 90
 url: /net/aspose.cells.drawing/shapeformat/cleargloweffect/
 ---
 ## ShapeFormat.ClearGlowEffect method

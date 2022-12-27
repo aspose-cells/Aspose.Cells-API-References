@@ -3,6 +3,7 @@ title: Validation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the validation object of the column.
 type: docs
+weight: 170
 url: /net/aspose.cells.gridweb/bindcolumn/validation/
 ---
 ## BindColumn.Validation property

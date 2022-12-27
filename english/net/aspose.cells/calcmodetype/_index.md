@@ -3,6 +3,7 @@ title: CalcModeType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the mode type of calculating formulas.
 type: docs
+weight: 180
 url: /net/aspose.cells/calcmodetype/
 ---
 ## CalcModeType enumeration

@@ -3,6 +3,7 @@ title: KeepMacros
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether keeping macros
 type: docs
+weight: 60
 url: /net/aspose.cells/copyoptions/keepmacros/
 ---
 ## CopyOptions.KeepMacros property

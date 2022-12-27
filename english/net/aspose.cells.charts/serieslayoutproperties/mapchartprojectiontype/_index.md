@@ -3,6 +3,7 @@ title: MapChartProjectionType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the projection type of the map.
 type: docs
+weight: 20
 url: /net/aspose.cells.charts/serieslayoutproperties/mapchartprojectiontype/
 ---
 ## SeriesLayoutProperties.MapChartProjectionType property

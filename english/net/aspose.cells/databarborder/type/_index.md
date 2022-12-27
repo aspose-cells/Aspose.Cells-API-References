@@ -3,6 +3,7 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the borders type of data bars specified by a conditional formatting rule.
 type: docs
+weight: 20
 url: /net/aspose.cells/databarborder/type/
 ---
 ## DataBarBorder.Type property

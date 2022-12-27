@@ -3,6 +3,7 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the number of cells.
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop.data/gridcells/count/
 ---
 ## GridCells.Count property

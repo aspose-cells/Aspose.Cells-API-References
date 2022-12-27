@@ -1,27 +1,31 @@
----
-title: PresetThemeGradientType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PresetThemeGradientType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1360
+weight: 1090
 url: /python-net/aspose.cells.drawing/presetthemegradienttype/
+is_root: false
 ---
 
 ## PresetThemeGradientType enumeration
 
 Represents the preset theme gradient type.
 
-## Members
-| Member name | Description |
+
+
+The PresetThemeGradientType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|LIGHT_GRADIENT|Light gradient|
-|TOP_SPOTLIGHT|Top spotlight|
-|MEDIUM_GRADIENT|Medium gradient|
-|BOTTOM_SPOTLIGHT|Bottom spotlight|
-|RADIAL_GRADIENT|Radial gradient|
+| LIGHT_GRADIENT | Light gradient |
+| TOP_SPOTLIGHT | Top spotlight |
+| MEDIUM_GRADIENT | Medium gradient |
+| BOTTOM_SPOTLIGHT | Bottom spotlight |
+| RADIAL_GRADIENT | Radial gradient |
+
 
 ### See Also
 
-* namespace [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.drawing](../)

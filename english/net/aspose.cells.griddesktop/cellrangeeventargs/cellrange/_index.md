@@ -3,6 +3,7 @@ title: CellRange
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a cellrange object.
 type: docs
+weight: 10
 url: /net/aspose.cells.griddesktop/cellrangeeventargs/cellrange/
 ---
 ## CellRangeEventArgs.CellRange property

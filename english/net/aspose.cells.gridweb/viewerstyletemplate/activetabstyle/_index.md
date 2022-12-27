@@ -3,6 +3,7 @@ title: ActiveTabStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb/viewerstyletemplate/activetabstyle/
 ---
 ## ViewerStyleTemplate.ActiveTabStyle property

@@ -3,6 +3,7 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copies the setting of the page setup.
 type: docs
+weight: 450
 url: /net/aspose.cells/pagesetup/copy/
 ---
 ## PageSetup.Copy method

@@ -3,6 +3,7 @@ title: RowColumnType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the row/column type of the row/column events.
 type: docs
+weight: 1090
 url: /net/aspose.cells.gridweb/rowcolumntype/
 ---
 ## RowColumnType enumeration

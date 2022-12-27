@@ -1,8 +1,9 @@
 ---
 title: GetTwoColorGradient
 second_title: Aspose.Cells for .NET API Reference
-description: Get the twocolor gradient setting.
+description: Get the two-color gradient setting.
 type: docs
+weight: 350
 url: /net/aspose.cells/style/gettwocolorgradient/
 ---
 ## Style.GetTwoColorGradient method

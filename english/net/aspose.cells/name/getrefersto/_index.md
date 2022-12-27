@@ -3,6 +3,7 @@ title: GetRefersTo
 second_title: Aspose.Cells for .NET API Reference
 description: Get the reference of this Name.
 type: docs
+weight: 120
 url: /net/aspose.cells/name/getrefersto/
 ---
 ## GetRefersTo(bool, bool) {#getrefersto}

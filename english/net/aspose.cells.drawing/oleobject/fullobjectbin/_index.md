@@ -3,6 +3,7 @@ title: FullObjectBin
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the full embedded ole object binary data in the template file.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing/oleobject/fullobjectbin/
 ---
 ## OleObject.FullObjectBin property

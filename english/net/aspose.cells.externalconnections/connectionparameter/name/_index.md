@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: The name of the parameter.
 type: docs
+weight: 20
 url: /net/aspose.cells.externalconnections/connectionparameter/name/
 ---
 ## ConnectionParameter.Name property

@@ -1,13 +1,14 @@
 ---
 title: MaxColor
 second_title: Aspose.Cells for .NET API Reference
-description: Get or set the gradient color for the maximum value in the range.
+description: Get or set the max value objects corresponding color.
 type: docs
+weight: 30
 url: /net/aspose.cells/colorscale/maxcolor/
 ---
 ## ColorScale.MaxColor property
 
-Get or set the gradient color for the maximum value in the range.
+Get or set the max value object's corresponding color.
 
 ```csharp
 public Color MaxColor { get; set; }

@@ -3,6 +3,7 @@ title: SecondValueAxis
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the charts second Y axis.
 type: docs
+weight: 360
 url: /net/aspose.cells.charts/chart/secondvalueaxis/
 ---
 ## Chart.SecondValueAxis property

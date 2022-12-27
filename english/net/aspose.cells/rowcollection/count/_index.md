@@ -3,6 +3,7 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the number of rows in this collection.
 type: docs
+weight: 10
 url: /net/aspose.cells/rowcollection/count/
 ---
 ## RowCollection.Count property

@@ -3,6 +3,7 @@ title: AllowEditingScenario
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the user is allowed to edit scenarios on a protected worksheet.
 type: docs
+weight: 50
 url: /net/aspose.cells/protection/alloweditingscenario/
 ---
 ## Protection.AllowEditingScenario property

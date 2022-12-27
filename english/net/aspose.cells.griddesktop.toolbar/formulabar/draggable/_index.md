@@ -3,6 +3,7 @@ title: Draggable
 second_title: Aspose.Cells for .NET API Reference
 description: get set Draggable for Formula Boxdefault value is false.
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop.toolbar/formulabar/draggable/
 ---
 ## FormulaBar.Draggable property

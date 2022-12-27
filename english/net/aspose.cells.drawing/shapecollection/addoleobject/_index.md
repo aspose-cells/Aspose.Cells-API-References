@@ -3,6 +3,7 @@ title: AddOleObject
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 180
 url: /net/aspose.cells.drawing/shapecollection/addoleobject/
 ---
 ## ShapeCollection.AddOleObject method

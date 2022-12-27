@@ -3,6 +3,7 @@ title: EmbedSmartTags
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether saving smart tags with the workbook.
 type: docs
+weight: 20
 url: /net/aspose.cells.markup/smarttagoptions/embedsmarttags/
 ---
 ## SmartTagOptions.EmbedSmartTags property

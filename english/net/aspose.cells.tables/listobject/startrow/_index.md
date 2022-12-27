@@ -3,6 +3,7 @@ title: StartRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the start row of the range.
 type: docs
+weight: 190
 url: /net/aspose.cells.tables/listobject/startrow/
 ---
 ## ListObject.StartRow property

@@ -3,6 +3,7 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the count of the chart point.
 type: docs
+weight: 10
 url: /net/aspose.cells.charts/chartpointcollection/count/
 ---
 ## ChartPointCollection.Count property

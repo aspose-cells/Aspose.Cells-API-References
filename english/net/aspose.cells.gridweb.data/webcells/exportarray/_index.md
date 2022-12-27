@@ -1,8 +1,9 @@
 ---
 title: ExportArray
 second_title: Aspose.Cells for .NET API Reference
-description: Exports data in the Cells collection to a twodimension array object.
+description: Exports data in the Cells collection to a two-dimension array object.
 type: docs
+weight: 160
 url: /net/aspose.cells.gridweb.data/webcells/exportarray/
 ---
 ## WebCells.ExportArray method

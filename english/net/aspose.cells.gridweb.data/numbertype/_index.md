@@ -3,6 +3,7 @@ title: NumberType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the number or datetime format type.
 type: docs
+weight: 650
 url: /net/aspose.cells.gridweb.data/numbertype/
 ---
 ## NumberType enumeration

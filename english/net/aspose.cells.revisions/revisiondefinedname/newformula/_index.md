@@ -3,6 +3,7 @@ title: NewFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the formula.
 type: docs
+weight: 10
 url: /net/aspose.cells.revisions/revisiondefinedname/newformula/
 ---
 ## RevisionDefinedName.NewFormula property

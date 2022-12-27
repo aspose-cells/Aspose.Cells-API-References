@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a new PivotTable cache to a PivotCaches collection.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/gridpivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_3}

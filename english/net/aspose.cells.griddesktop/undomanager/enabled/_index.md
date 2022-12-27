@@ -3,6 +3,7 @@ title: Enabled
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the Undo function is enabled. The default value is false.
 type: docs
+weight: 10
 url: /net/aspose.cells.griddesktop/undomanager/enabled/
 ---
 ## UndoManager.Enabled property

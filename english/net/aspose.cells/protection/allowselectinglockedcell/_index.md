@@ -3,6 +3,7 @@ title: AllowSelectingLockedCell
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the user is allowed to select locked cells on a protected worksheet.
 type: docs
+weight: 130
 url: /net/aspose.cells/protection/allowselectinglockedcell/
 ---
 ## Protection.AllowSelectingLockedCell property

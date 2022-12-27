@@ -3,6 +3,7 @@ title: ClientValidationOpType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the validation op type Between/NotBetween/Equal/NotEqual/Greater/GreaterOrEqual/Less/LessOrEqual.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb/validation/clientvalidationoptype/
 ---
 ## Validation.ClientValidationOpType property

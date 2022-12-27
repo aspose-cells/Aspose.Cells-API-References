@@ -3,6 +3,7 @@ title: ShowColumnHeads
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether column headings are displayed.
 type: docs
+weight: 120
 url: /net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/showcolumnheads/
 ---
 ## ListBoxActiveXControl.ShowColumnHeads property

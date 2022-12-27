@@ -3,6 +3,7 @@ title: Comment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the comment of this cell.
 type: docs
+weight: 30
 url: /net/aspose.cells/cell/comment/
 ---
 ## Cell.Comment property

@@ -3,6 +3,7 @@ title: BorderStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the border style for the control.
 type: docs
+weight: 50
 url: /net/aspose.cells.griddesktop/griddesktop/borderstyle/
 ---
 ## GridDesktop.BorderStyle property

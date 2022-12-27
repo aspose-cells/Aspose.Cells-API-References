@@ -3,6 +3,7 @@ title: GetWidthOfValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the width of the value in unit of pixels.
 type: docs
+weight: 260
 url: /net/aspose.cells.gridweb.data/gridcell/getwidthofvalue/
 ---
 ## GridCell.GetWidthOfValue method

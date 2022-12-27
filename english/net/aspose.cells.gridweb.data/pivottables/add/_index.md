@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a PivotTable object from the specified PivotCache to a new worksheet
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/pivottables/add/
 ---
 ## Add(PivotCache) {#add}

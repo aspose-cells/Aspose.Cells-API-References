@@ -3,6 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the save options for markdown.
 type: docs
+weight: 4060
 url: /net/aspose.cells/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
@@ -23,21 +24,23 @@ public class MarkdownSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data. |
+| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file. |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [EnableHTTPCompression](../../aspose.cells/saveoptions/enablehttpcompression) { get; set; } | Indicates if http compression is to be used in user's IIS. |
 | [Encoding](../../aspose.cells/markdownsaveoptions/encoding) { get; set; } | Gets and sets the default encoding. |
 | [FormatStrategy](../../aspose.cells/markdownsaveoptions/formatstrategy) { get; set; } | Gets and sets the format strategy when exporting the cell value as string. |
 | [LightCellsDataProvider](../../aspose.cells/markdownsaveoptions/lightcellsdataprovider) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
 | [LineSeparator](../../aspose.cells/markdownsaveoptions/lineseparator) { get; set; } | Gets and sets the line separator. |
-| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions).) |
-| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indicates whether updating smart art setting. The default value is false.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions).) |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [PdfExportImagesFolder](../../aspose.cells/saveoptions/pdfexportimagesfolder) { get; set; } | The physical folder where images will be saved when exporting a workbook to Aspose.Pdf XML format. Default is an empty string. |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format. |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file. |
+| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file. |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indicates whether updating smart art setting. The default value is false. |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Indicates whether validate merged cells before saving the file. |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Gets or sets warning callback. |
 
 ### See Also
 

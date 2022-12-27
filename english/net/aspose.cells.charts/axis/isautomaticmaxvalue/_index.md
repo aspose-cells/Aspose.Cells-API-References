@@ -3,6 +3,7 @@ title: IsAutomaticMaxValue
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the max value is automatically assigned.
 type: docs
+weight: 150
 url: /net/aspose.cells.charts/axis/isautomaticmaxvalue/
 ---
 ## Axis.IsAutomaticMaxValue property

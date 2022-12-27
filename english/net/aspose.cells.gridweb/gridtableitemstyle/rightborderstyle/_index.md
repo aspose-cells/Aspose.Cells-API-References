@@ -3,6 +3,7 @@ title: RightBorderStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the style of the cells right border.
 type: docs
+weight: 100
 url: /net/aspose.cells.gridweb/gridtableitemstyle/rightborderstyle/
 ---
 ## GridTableItemStyle.RightBorderStyle property

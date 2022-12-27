@@ -1,8 +1,9 @@
 ---
 title: InputMethodEditorMode
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the default runtime mode of the Input Method Editor.
+description: Represents the default run-time mode of the Input Method Editor.
 type: docs
+weight: 1660
 url: /net/aspose.cells.drawing.activexcontrols/inputmethodeditormode/
 ---
 ## InputMethodEditorMode enumeration

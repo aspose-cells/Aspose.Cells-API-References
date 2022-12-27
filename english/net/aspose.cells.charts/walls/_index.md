@@ -1,8 +1,9 @@
 ---
 title: Walls
 second_title: Aspose.Cells for .NET API Reference
-description: Encapsulates the object that represents the walls of a 3D chart.
+description: Encapsulates the object that represents the walls of a 3-D chart.
 type: docs
+weight: 1020
 url: /net/aspose.cells.charts/walls/
 ---
 ## Walls class
@@ -17,21 +18,21 @@ public class Walls : Floor
 
 | Name | Description |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Gets or sets the background Color of the [`Area`](../../aspose.cells.drawing/area).(Inherited from [`Area`](../../aspose.cells.drawing/area).) |
-| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Gets or sets the border [`Line`](../../aspose.cells.drawing/line).(Inherited from [`Floor`](../floor).) |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Gets or sets the background Color of the [`Area`](../../aspose.cells.drawing/area). |
+| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Gets or sets the border [`Line`](../../aspose.cells.drawing/line). |
 | [CenterX](../../aspose.cells.charts/walls/centerx) { get; } | Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [CenterXPx](../../aspose.cells.charts/walls/centerxpx) { get; } | Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
 | [CenterY](../../aspose.cells.charts/walls/centery) { get; } | Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
 | [CenterYPx](../../aspose.cells.charts/walls/centerypx) { get; } | Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
 | [Depth](../../aspose.cells.charts/walls/depth) { get; } | Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [DepthPx](../../aspose.cells.charts/walls/depthpx) { get; } | Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Represents a  object that contains fill formatting properties for the specified chart or shape.(Inherited from [`Area`](../../aspose.cells.drawing/area).) |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Gets or sets the foreground Color.(Inherited from [`Area`](../../aspose.cells.drawing/area).) |
-| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Represents the formatting of the area.(Inherited from [`Area`](../../aspose.cells.drawing/area).) |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Represents a  object that contains fill formatting properties for the specified chart or shape. |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Gets or sets the foreground Color. |
+| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Represents the formatting of the area. |
 | [Height](../../aspose.cells.charts/walls/height) { get; } | Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
 | [HeightPx](../../aspose.cells.charts/walls/heightpx) { get; } | Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method. |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.(Inherited from [`Area`](../../aspose.cells.drawing/area).) |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear).(Inherited from [`Area`](../../aspose.cells.drawing/area).) |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
+| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [Width](../../aspose.cells.charts/walls/width) { get; } | Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [WidthPx](../../aspose.cells.charts/walls/widthpx) { get; } | Gets the width of left to right in units of pixels after calls Chart.Calculate() method. |
 

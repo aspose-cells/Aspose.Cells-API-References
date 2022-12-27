@@ -3,6 +3,7 @@ title: IsEditingContentsAllowed
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the user is allowed to edit contents of locked cells on a protected worksheet.
 type: docs
+weight: 190
 url: /net/aspose.cells/protection/iseditingcontentsallowed/
 ---
 ## Protection.IsEditingContentsAllowed property

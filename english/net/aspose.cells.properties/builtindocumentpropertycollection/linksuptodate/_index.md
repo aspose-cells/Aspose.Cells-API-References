@@ -1,8 +1,9 @@
 ---
 title: LinksUpToDate
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether hyperlinks in a document are uptodate.
+description: Indicates whether hyperlinks in a document are up-to-date.
 type: docs
+weight: 230
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/linksuptodate/
 ---
 ## BuiltInDocumentPropertyCollection.LinksUpToDate property

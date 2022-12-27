@@ -3,6 +3,7 @@ title: ToPdf
 second_title: Aspose.Cells for .NET API Reference
 description: Saves the chart to a pdf file.
 type: docs
+weight: 610
 url: /net/aspose.cells.charts/chart/topdf/
 ---
 ## ToPdf(string) {#topdf_2}

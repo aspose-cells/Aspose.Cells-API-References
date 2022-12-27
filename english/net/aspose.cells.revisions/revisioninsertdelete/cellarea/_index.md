@@ -3,6 +3,7 @@ title: CellArea
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the inserting/deleting range.
 type: docs
+weight: 20
 url: /net/aspose.cells.revisions/revisioninsertdelete/cellarea/
 ---
 ## RevisionInsertDelete.CellArea property

@@ -3,6 +3,7 @@ title: ShapeYPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the y coordinate of the upper left corner in units of pixels after calls Chart.Calculate method.
 type: docs
+weight: 280
 url: /net/aspose.cells.charts/chartpoint/shapeypx/
 ---
 ## ChartPoint.ShapeYPx property

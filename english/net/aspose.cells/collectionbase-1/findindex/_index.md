@@ -3,6 +3,7 @@ title: FindIndex
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 110
 url: /net/aspose.cells/collectionbase-1/findindex/
 ---
 ## FindIndex(Predicate&lt;T&gt;) {#findindex_2}

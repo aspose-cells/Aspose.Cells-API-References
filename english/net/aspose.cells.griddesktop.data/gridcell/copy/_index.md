@@ -3,6 +3,7 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copies data from a source cell.
 type: docs
+weight: 210
 url: /net/aspose.cells.griddesktop.data/gridcell/copy/
 ---
 ## GridCell.Copy method

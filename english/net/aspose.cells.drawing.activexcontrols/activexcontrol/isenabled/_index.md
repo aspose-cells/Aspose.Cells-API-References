@@ -1,8 +1,9 @@
 ---
 title: IsEnabled
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether the control can receive the focus and respond to usergenerated events.
+description: Indicates whether the control can receive the focus and respond to user-generated events.
 type: docs
+weight: 50
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrol/isenabled/
 ---
 ## ActiveXControl.IsEnabled property

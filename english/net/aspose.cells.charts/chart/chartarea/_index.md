@@ -3,6 +3,7 @@ title: ChartArea
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the chart area in the worksheet.
 type: docs
+weight: 50
 url: /net/aspose.cells.charts/chart/chartarea/
 ---
 ## Chart.ChartArea property

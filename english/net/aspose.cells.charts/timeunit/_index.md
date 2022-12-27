@@ -3,6 +3,7 @@ title: TimeUnit
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the base unit for the category axis.
 type: docs
+weight: 970
 url: /net/aspose.cells.charts/timeunit/
 ---
 ## TimeUnit enumeration

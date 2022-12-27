@@ -3,6 +3,7 @@ title: PrintPermission
 second_title: Aspose.Cells for .NET API Reference
 description: Permission to print pdf document
 type: docs
+weight: 110
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/printpermission/
 ---
 ## PdfSecurityOptions.PrintPermission property

@@ -3,6 +3,7 @@ title: InterruptMonitor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the interrupt monitor.
 type: docs
+weight: 180
 url: /net/aspose.cells/workbook/interruptmonitor/
 ---
 ## Workbook.InterruptMonitor property

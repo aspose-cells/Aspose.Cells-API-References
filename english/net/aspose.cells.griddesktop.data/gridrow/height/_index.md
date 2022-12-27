@@ -3,6 +3,7 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the height of row object.in unit of pixel
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop.data/gridrow/height/
 ---
 ## GridRow.Height property

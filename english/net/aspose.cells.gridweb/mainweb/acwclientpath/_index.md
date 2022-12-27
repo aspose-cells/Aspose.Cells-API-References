@@ -3,6 +3,7 @@ title: ACWClientPath
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the web path of the script/image files of the control. For example http//localhost/acw_client. You may also set this value in the web.config file. Add this section to the ltconfigurationgt section ltappSettingsgtltadd keyaspose.cells.gridweb.acw_client_path value/acw_client/ /gtlt/appSettingsgt
 type: docs
+weight: 100
 url: /net/aspose.cells.gridweb/mainweb/acwclientpath/
 ---
 ## MainWeb.ACWClientPath property

@@ -3,6 +3,7 @@ title: WrapText
 second_title: Aspose.Cells for .NET API Reference
 description: Wrap text setting will be applied.
 type: docs
+weight: 310
 url: /net/aspose.cells/styleflag/wraptext/
 ---
 ## StyleFlag.WrapText property

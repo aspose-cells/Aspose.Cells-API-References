@@ -3,6 +3,7 @@ title: Character
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets character of the bullet.
 type: docs
+weight: 20
 url: /net/aspose.cells.drawing.texts/characterbulletvalue/character/
 ---
 ## CharacterBulletValue.Character property

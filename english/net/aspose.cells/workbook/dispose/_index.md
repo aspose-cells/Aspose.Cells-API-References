@@ -1,8 +1,9 @@
 ---
 title: Dispose
 second_title: Aspose.Cells for .NET API Reference
-description: Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources.
+description: Performs application-defined tasks associated with freeing releasing or resetting unmanaged resources.
 type: docs
+weight: 390
 url: /net/aspose.cells/workbook/dispose/
 ---
 ## Workbook.Dispose method

@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a hyperlink to a specified cell or a range of cells.
 type: docs
+weight: 20
 url: /net/aspose.cells/hyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}

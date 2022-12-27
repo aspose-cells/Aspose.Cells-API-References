@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds ConditionalFormattingIconaspose.cells/conditionalformattingicon object.
 type: docs
+weight: 20
 url: /net/aspose.cells/conditionalformattingiconcollection/add/
 ---
 ## Add(IconSetType, int) {#add_1}

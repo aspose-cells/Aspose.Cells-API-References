@@ -3,6 +3,7 @@ title: PivotFieldOrientation
 second_title: Aspose.Cells for .NET API Reference
 description: Represents The location of the field in the specified PivotTable report.
 type: docs
+weight: 720
 url: /net/aspose.cells.gridweb.data/pivotfieldorientation/
 ---
 ## PivotFieldOrientation enumeration

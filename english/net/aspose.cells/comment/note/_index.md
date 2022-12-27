@@ -3,6 +3,7 @@ title: Note
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the content of comment.
 type: docs
+weight: 120
 url: /net/aspose.cells/comment/note/
 ---
 ## Comment.Note property

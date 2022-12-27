@@ -3,6 +3,7 @@ title: Caption
 second_title: Aspose.Cells for .NET API Reference
 description: The label text for the pivot field show in report. By default show the name.
 type: docs
+weight: 10
 url: /net/aspose.cells.gridweb.data/pivotfield/caption/
 ---
 ## PivotField.Caption property

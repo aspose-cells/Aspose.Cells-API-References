@@ -3,6 +3,7 @@ title: IsFilteringAllowed
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the user is allowed to make use of an AutoFilter that was created before the sheet was protected.
 type: docs
+weight: 220
 url: /net/aspose.cells/protection/isfilteringallowed/
 ---
 ## Protection.IsFilteringAllowed property

@@ -3,6 +3,7 @@ title: PivotTables
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the pivotTables in the worksheet.
 type: docs
+weight: 300
 url: /net/aspose.cells.griddesktop/worksheet/pivottables/
 ---
 ## Worksheet.PivotTables property

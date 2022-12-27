@@ -3,6 +3,7 @@ title: RemoveArea
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the validation settings in the range.
 type: docs
+weight: 240
 url: /net/aspose.cells.griddesktop.data/gridvalidation/removearea/
 ---
 ## GridValidation.RemoveArea method

@@ -3,6 +3,7 @@ title: HasShadowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the shape has shadow effect data.
 type: docs
+weight: 100
 url: /net/aspose.cells.drawing/shapepropertycollection/hasshadoweffect/
 ---
 ## ShapePropertyCollection.HasShadowEffect method

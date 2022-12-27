@@ -3,6 +3,7 @@ title: VerifyPassword
 second_title: Aspose.Cells for .NET API Reference
 description: Detects and returns the information about a format of an excel stored in a stream.
 type: docs
+weight: 90
 url: /net/aspose.cells/fileformatutil/verifypassword/
 ---
 ## FileFormatUtil.VerifyPassword method

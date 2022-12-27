@@ -3,6 +3,7 @@ title: SortAsNumber
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether sorting anything that looks like a number.
 type: docs
+weight: 100
 url: /net/aspose.cells/datasorter/sortasnumber/
 ---
 ## DataSorter.SortAsNumber property

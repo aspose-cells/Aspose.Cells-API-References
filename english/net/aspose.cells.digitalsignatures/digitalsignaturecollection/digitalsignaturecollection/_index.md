@@ -3,6 +3,7 @@ title: DigitalSignatureCollection
 second_title: Aspose.Cells for .NET API Reference
 description: The constructor of DigitalSignatureCollection.
 type: docs
+weight: 10
 url: /net/aspose.cells.digitalsignatures/digitalsignaturecollection/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection constructor

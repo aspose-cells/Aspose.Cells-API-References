@@ -3,6 +3,7 @@ title: IsAutoFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the PivotTable report is automatically formatted. Checkbox autoformat table  which is in pivottable option for Excel 2003 Checkbox autofit column width on update which is in pivot table Options Layout Format for Excel 2007
 type: docs
+weight: 280
 url: /net/aspose.cells.pivot/pivottable/isautoformat/
 ---
 ## PivotTable.IsAutoFormat property

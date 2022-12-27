@@ -3,6 +3,7 @@ title: SourceArea
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the source area.
 type: docs
+weight: 20
 url: /net/aspose.cells.revisions/revisioncellmove/sourcearea/
 ---
 ## RevisionCellMove.SourceArea property

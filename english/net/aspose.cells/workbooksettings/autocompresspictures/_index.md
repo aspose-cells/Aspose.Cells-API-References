@@ -3,6 +3,7 @@ title: AutoCompressPictures
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies a boolean value that indicates the application automatically compressed pictures in the workbook.
 type: docs
+weight: 20
 url: /net/aspose.cells/workbooksettings/autocompresspictures/
 ---
 ## WorkbookSettings.AutoCompressPictures property

@@ -3,6 +3,7 @@ title: PivotTableStyleName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the pivottable style name.
 type: docs
+weight: 440
 url: /net/aspose.cells.pivot/pivottable/pivottablestylename/
 ---
 ## PivotTable.PivotTableStyleName property

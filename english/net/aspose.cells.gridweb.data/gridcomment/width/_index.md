@@ -3,6 +3,7 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the width of the comment in unit of pixels.
 type: docs
+weight: 110
 url: /net/aspose.cells.gridweb.data/gridcomment/width/
 ---
 ## GridComment.Width property

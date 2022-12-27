@@ -3,6 +3,7 @@ title: SlicerCacheItemCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represent the collection of SlicerCacheItem
 type: docs
+weight: 5700
 url: /net/aspose.cells.slicers/slicercacheitemcollection/
 ---
 ## SlicerCacheItemCollection class
@@ -17,41 +18,41 @@ public class SlicerCacheItemCollection : CollectionBase<SlicerCacheItem>
 
 | Name | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
 | [Count](../../aspose.cells.slicers/slicercacheitemcollection/count) { get; } | Gets the count of the SlicerCacheItem. |
 | [Item](../../aspose.cells.slicers/slicercacheitemcollection/item) { get; } | Gets the SlicerCacheItem object by index. |
-| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
+| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(SlicerCacheItem) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(SlicerCacheItem, IComparer&lt;SlicerCacheItem&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, SlicerCacheItem, IComparer&lt;SlicerCacheItem&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase-1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase-1/contains)(SlicerCacheItem) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(SlicerCacheItem[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(SlicerCacheItem[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, SlicerCacheItem[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;SlicerCacheItem&gt;) |  |
-| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;SlicerCacheItem&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;SlicerCacheItem&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;SlicerCacheItem&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;SlicerCacheItem&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;SlicerCacheItem&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;SlicerCacheItem&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;SlicerCacheItem&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;SlicerCacheItem&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;SlicerCacheItem&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(SlicerCacheItem) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(SlicerCacheItem, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(SlicerCacheItem, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(SlicerCacheItem) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(SlicerCacheItem, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(SlicerCacheItem, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase-1/removeat)(int) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(SlicerCacheItem) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(SlicerCacheItem, IComparer&lt;SlicerCacheItem&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, SlicerCacheItem, IComparer&lt;SlicerCacheItem&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
+| [Contains](../../aspose.cells/collectionbase`1/contains)(SlicerCacheItem) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(SlicerCacheItem[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(SlicerCacheItem[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, SlicerCacheItem[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;SlicerCacheItem&gt;) |  |
+| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;SlicerCacheItem&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;SlicerCacheItem&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;SlicerCacheItem&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;SlicerCacheItem&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;SlicerCacheItem&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;SlicerCacheItem&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;SlicerCacheItem&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;SlicerCacheItem&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;SlicerCacheItem&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(SlicerCacheItem) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(SlicerCacheItem, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(SlicerCacheItem, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(SlicerCacheItem) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(SlicerCacheItem, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(SlicerCacheItem, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
 
 ### Examples
 

@@ -3,6 +3,7 @@ title: ReferredAreaCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all referred cells and areas.
 type: docs
+weight: 5090
 url: /net/aspose.cells/referredareacollection/
 ---
 ## ReferredAreaCollection class
@@ -17,41 +18,41 @@ public class ReferredAreaCollection : CollectionBase<ReferredArea>
 
 | Name | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
+| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
 | [Item](../../aspose.cells/referredareacollection/item) { get; } |  |
-| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
+| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(ReferredArea) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(ReferredArea, IComparer&lt;ReferredArea&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, ReferredArea, IComparer&lt;ReferredArea&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase-1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase-1/contains)(ReferredArea) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(ReferredArea[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(ReferredArea[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, ReferredArea[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;ReferredArea&gt;) |  |
-| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;ReferredArea&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;ReferredArea&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;ReferredArea&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;ReferredArea&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;ReferredArea&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;ReferredArea&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;ReferredArea&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;ReferredArea&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;ReferredArea&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(ReferredArea) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(ReferredArea, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(ReferredArea, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(ReferredArea) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(ReferredArea, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(ReferredArea, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase-1/removeat)(int) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ReferredArea) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ReferredArea, IComparer&lt;ReferredArea&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ReferredArea, IComparer&lt;ReferredArea&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
+| [Contains](../../aspose.cells/collectionbase`1/contains)(ReferredArea) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(ReferredArea[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(ReferredArea[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, ReferredArea[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;ReferredArea&gt;) |  |
+| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;ReferredArea&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;ReferredArea&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;ReferredArea&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;ReferredArea&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;ReferredArea&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;ReferredArea&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;ReferredArea&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;ReferredArea&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;ReferredArea&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ReferredArea) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ReferredArea, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ReferredArea, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ReferredArea) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ReferredArea, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ReferredArea, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
 
 ### See Also
 

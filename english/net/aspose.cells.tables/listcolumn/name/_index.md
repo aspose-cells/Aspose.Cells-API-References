@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the name of the column.
 type: docs
+weight: 20
 url: /net/aspose.cells.tables/listcolumn/name/
 ---
 ## ListColumn.Name property

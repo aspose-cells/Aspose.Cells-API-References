@@ -3,6 +3,7 @@ title: FirstPageNumber
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the first page number that will be used when this sheet is printed.
 type: docs
+weight: 60
 url: /net/aspose.cells/pagesetup/firstpagenumber/
 ---
 ## PageSetup.FirstPageNumber property

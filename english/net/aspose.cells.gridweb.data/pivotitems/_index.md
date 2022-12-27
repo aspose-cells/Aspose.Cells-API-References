@@ -3,6 +3,7 @@ title: PivotItems
 second_title: Aspose.Cells for .NET API Reference
 description: Represents A collection of all the PivotItem objects in a PivotTable field. The items are the individual data entries in a field category.
 type: docs
+weight: 760
 url: /net/aspose.cells.gridweb.data/pivotitems/
 ---
 ## PivotItems class

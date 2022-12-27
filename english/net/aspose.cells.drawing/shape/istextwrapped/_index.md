@@ -3,6 +3,7 @@ title: IsTextWrapped
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text wrapped type of the shape which contains text.
 type: docs
+weight: 410
 url: /net/aspose.cells.drawing/shape/istextwrapped/
 ---
 ## Shape.IsTextWrapped property

@@ -3,6 +3,7 @@ title: IsProtectedByRMS
 second_title: Aspose.Cells for .NET API Reference
 description: Gets whether the file is protected by Microsoft Rights Management Server.
 type: docs
+weight: 40
 url: /net/aspose.cells/fileformatinfo/isprotectedbyrms/
 ---
 ## FileFormatInfo.IsProtectedByRMS property

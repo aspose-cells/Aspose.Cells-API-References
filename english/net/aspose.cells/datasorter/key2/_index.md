@@ -3,6 +3,7 @@ title: Key2
 second_title: Aspose.Cells for .NET API Reference
 description: Represents second sorted column indexabsolute position column A is 0 B is 1 ....
 type: docs
+weight: 40
 url: /net/aspose.cells/datasorter/key2/
 ---
 ## DataSorter.Key2 property

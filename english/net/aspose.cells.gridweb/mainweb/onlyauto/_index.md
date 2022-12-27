@@ -3,6 +3,7 @@ title: OnlyAuto
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether only fit the rows which height are not customedthe default value is false
 type: docs
+weight: 660
 url: /net/aspose.cells.gridweb/mainweb/onlyauto/
 ---
 ## MainWeb.OnlyAuto property

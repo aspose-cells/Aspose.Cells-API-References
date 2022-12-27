@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a threaded comment
 type: docs
+weight: 20
 url: /net/aspose.cells/threadedcommentcollection/add/
 ---
 ## ThreadedCommentCollection.Add method

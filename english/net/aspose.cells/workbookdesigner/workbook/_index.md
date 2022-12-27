@@ -3,6 +3,7 @@ title: Workbook
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the Workbookaspose.cells/workbookdesigner/workbook object.
 type: docs
+weight: 80
 url: /net/aspose.cells/workbookdesigner/workbook/
 ---
 ## WorkbookDesigner.Workbook property

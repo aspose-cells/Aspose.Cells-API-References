@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Add a creation path.
 type: docs
+weight: 30
 url: /net/aspose.cells.drawing/shapepathcollection/add/
 ---
 ## ShapePathCollection.Add method

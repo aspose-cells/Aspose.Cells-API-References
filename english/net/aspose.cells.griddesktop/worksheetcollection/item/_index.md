@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Worksheetaspose.cells.griddesktop/worksheet element at the specified index.
 type: docs
+weight: 40
 url: /net/aspose.cells.griddesktop/worksheetcollection/item/
 ---
 ## WorksheetCollection indexer (1 of 2)

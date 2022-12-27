@@ -1,30 +1,35 @@
----
-title: WebExtensionBinding
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: WebExtensionBinding class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 20
 url: /python-net/aspose.cells.webextensions/webextensionbinding/
+is_root: false
 ---
 
 ## WebExtensionBinding class
 
 Represents a binding relationship between an Office Add-in and the data in the document.
 
+
+
 The WebExtensionBinding type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|WebExtensionBinding()|Initializes a new instance of the WebExtensionBinding class|
-## Properties
-| Name | Description |
+| [WebExtensionBinding()](/cells/python-net/aspose.cells.webextensions/webextensionbinding/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|id|Gets and sets the binding identifier.|
-|type|Gets and sets the binding type.|
-|appref|Gets and sets the binding key used to map the binding entry in this list with the bound data in the document.|
+| [id](/cells/python-net/aspose.cells.webextensions/webextensionbinding/id) | Gets and sets the binding identifier. |
+| [type](/cells/python-net/aspose.cells.webextensions/webextensionbinding/type) | Gets and sets the binding type. |
+| [appref](/cells/python-net/aspose.cells.webextensions/webextensionbinding/appref) | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
+
 
 ### See Also
 
-* namespace [aspose.cells.webextensions](/cells/python-net/aspose.cells.webextensions/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.webextensions](../)

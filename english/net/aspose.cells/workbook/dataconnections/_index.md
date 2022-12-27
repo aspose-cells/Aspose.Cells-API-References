@@ -3,6 +3,7 @@ title: DataConnections
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ExternalConnectionaspose.cells.externalconnections/externalconnection collection.
 type: docs
+weight: 100
 url: /net/aspose.cells/workbook/dataconnections/
 ---
 ## Workbook.DataConnections property

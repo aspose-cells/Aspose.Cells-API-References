@@ -3,6 +3,7 @@ title: PresetStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the preset style or an GridWeb control. By far we provide 7 preset styles.
 type: docs
+weight: 1070
 url: /net/aspose.cells.gridweb/presetstyle/
 ---
 ## PresetStyle enumeration

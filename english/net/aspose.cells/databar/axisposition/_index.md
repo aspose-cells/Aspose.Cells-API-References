@@ -3,6 +3,7 @@ title: AxisPosition
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the position of the axis of the data bars specified by a conditional formatting rule.
 type: docs
+weight: 20
 url: /net/aspose.cells/databar/axisposition/
 ---
 ## DataBar.AxisPosition property

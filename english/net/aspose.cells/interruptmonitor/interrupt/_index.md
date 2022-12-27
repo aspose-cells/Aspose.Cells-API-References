@@ -3,6 +3,7 @@ title: Interrupt
 second_title: Aspose.Cells for .NET API Reference
 description: Interrupt the current operator.
 type: docs
+weight: 30
 url: /net/aspose.cells/interruptmonitor/interrupt/
 ---
 ## InterruptMonitor.Interrupt method

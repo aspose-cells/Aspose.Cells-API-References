@@ -3,6 +3,7 @@ title: ShowTableStyleFirstColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the first column in the table should have the style applied.
 type: docs
+weight: 140
 url: /net/aspose.cells.tables/listobject/showtablestylefirstcolumn/
 ---
 ## ListObject.ShowTableStyleFirstColumn property

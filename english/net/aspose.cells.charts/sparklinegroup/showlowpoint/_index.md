@@ -3,6 +3,7 @@ title: ShowLowPoint
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to highlight the lowest points of data in the sparkline group.
 type: docs
+weight: 190
 url: /net/aspose.cells.charts/sparklinegroup/showlowpoint/
 ---
 ## SparklineGroup.ShowLowPoint property

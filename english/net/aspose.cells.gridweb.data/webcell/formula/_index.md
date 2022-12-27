@@ -3,6 +3,7 @@ title: Formula
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the formula string of the cell. Returns null when the cell doesnt contain a formula.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb.data/webcell/formula/
 ---
 ## WebCell.Formula property

@@ -1,35 +1,40 @@
----
-title: PowerQueryFormulaItemCollection
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PowerQueryFormulaItemCollection class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 60
 url: /python-net/aspose.cells.querytables/powerqueryformulaitemcollection/
+is_root: false
 ---
 
 ## PowerQueryFormulaItemCollection class
 
 Represents all item of the power query formula.
 
+
+
 The PowerQueryFormulaItemCollection type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|capacity|  |
-## Methods
-| Name | Description |
+| [capacity](/cells/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/capacity) |  |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|copy_to(array)|  |
-|copy_to(index, array, array_index, count)|  |
-|index_of(item, index)|  |
-|index_of(item, index, count)|  |
-|last_index_of(item)|  |
-|last_index_of(item, index)|  |
-|last_index_of(item, index, count)|  |
-|binary_search(item)|  |
+| [copy_to(array)](/cells/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/copy_to/#list) |  |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/copy_to/#int-list-int-int) |  |
+| [index_of(item, index)](/cells/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/index_of/#PowerQueryFormulaItem-int) |  |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/index_of/#PowerQueryFormulaItem-int-int) |  |
+| [last_index_of(item)](/cells/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/last_index_of/#PowerQueryFormulaItem) |  |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/last_index_of/#PowerQueryFormulaItem-int) |  |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/last_index_of/#PowerQueryFormulaItem-int-int) |  |
+| [binary_search(item)](/cells/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/binary_search/#PowerQueryFormulaItem) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells.querytables](/cells/python-net/aspose.cells.querytables/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.querytables](../)

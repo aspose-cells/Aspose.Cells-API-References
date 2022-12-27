@@ -3,6 +3,7 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the element at a specified index.
 type: docs
+weight: 180
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/removeat/
 ---
 ## RemoveAt(int) {#removeat}
@@ -25,7 +26,7 @@ public void RemoveAt(int index)
 
 ---
 
-## RemoveAt(string) {#removeat_2}
+## RemoveAt(string) {#removeat_1}
 
 Removes the element at a specified name.
 

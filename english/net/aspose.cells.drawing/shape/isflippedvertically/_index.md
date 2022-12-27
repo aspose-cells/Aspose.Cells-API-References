@@ -3,6 +3,7 @@ title: IsFlippedVertically
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets whether shape is vertically flipped .
 type: docs
+weight: 320
 url: /net/aspose.cells.drawing/shape/isflippedvertically/
 ---
 ## Shape.IsFlippedVertically property

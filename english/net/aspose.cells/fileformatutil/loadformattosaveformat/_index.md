@@ -3,6 +3,7 @@ title: LoadFormatToSaveFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Converts a LoadFormat value to a SaveFormat value if possible.
 type: docs
+weight: 60
 url: /net/aspose.cells/fileformatutil/loadformattosaveformat/
 ---
 ## FileFormatUtil.LoadFormatToSaveFormat method

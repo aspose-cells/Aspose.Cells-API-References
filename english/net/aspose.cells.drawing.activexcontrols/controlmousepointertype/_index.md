@@ -3,6 +3,7 @@ title: ControlMousePointerType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of icon displayed as the mouse pointer for the control.
 type: docs
+weight: 1560
 url: /net/aspose.cells.drawing.activexcontrols/controlmousepointertype/
 ---
 ## ControlMousePointerType enumeration

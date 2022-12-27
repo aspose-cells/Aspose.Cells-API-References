@@ -3,6 +3,7 @@ title: Image
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the background image.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop/button/image/
 ---
 ## Button.Image property

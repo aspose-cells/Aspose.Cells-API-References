@@ -3,6 +3,7 @@ title: AddColumnAreaCondition
 second_title: Aspose.Cells for .NET API Reference
 description: Adds PivotTable conditional format limit in the column fields.
 type: docs
+weight: 40
 url: /net/aspose.cells.pivot/pivotformatcondition/addcolumnareacondition/
 ---
 ## AddColumnAreaCondition(string) {#addcolumnareacondition_1}

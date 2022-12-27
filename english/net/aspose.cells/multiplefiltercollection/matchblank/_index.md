@@ -3,6 +3,7 @@ title: MatchBlank
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to filter by blank.
 type: docs
+weight: 30
 url: /net/aspose.cells/multiplefiltercollection/matchblank/
 ---
 ## MultipleFilterCollection.MatchBlank property

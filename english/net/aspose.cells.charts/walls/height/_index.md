@@ -3,6 +3,7 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the height of top to bottom in units of 1/4000 of charts height after calls Chart.Calculate method.
 type: docs
+weight: 70
 url: /net/aspose.cells.charts/walls/height/
 ---
 ## Walls.Height property

@@ -1,8 +1,9 @@
 ---
 title: ExportTypeArray
 second_title: Aspose.Cells for .NET API Reference
-description: Exports cell value type in the Cellsaspose.cells/cells collection to a twodimension array object.
+description: Exports cell value type in the Cellsaspose.cells/cells collection to a two-dimension array object.
 type: docs
+weight: 630
 url: /net/aspose.cells/cells/exporttypearray/
 ---
 ## Cells.ExportTypeArray method

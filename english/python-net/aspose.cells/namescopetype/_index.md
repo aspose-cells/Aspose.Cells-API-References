@@ -1,25 +1,29 @@
----
-title: NameScopeType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: NameScopeType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4780
+weight: 2240
 url: /python-net/aspose.cells/namescopetype/
+is_root: false
 ---
 
 ## NameScopeType enumeration
 
 Represents the scope type of defined names.
 
-## Members
-| Member name | Description |
+
+
+The NameScopeType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|ALL|All defined names.|
-|WORKBOOK|The defined names in the workbook.|
-|WORKSHEET|The defined names in a worksheet or all worksheets.|
+| ALL | All defined names. |
+| WORKBOOK | The defined names in the workbook. |
+| WORKSHEET | The defined names in a worksheet or all worksheets. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

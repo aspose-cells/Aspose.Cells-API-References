@@ -3,6 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the enumerator for cells in this Range.
 type: docs
+weight: 270
 url: /net/aspose.cells/range/getenumerator/
 ---
 ## Range.GetEnumerator method

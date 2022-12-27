@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Add a GridValidationaspose.cells.gridweb.data/gridvalidation to the collection.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/gridvalidationcollection/add/
 ---
 ## Add(GridValidation) {#add_4}

@@ -3,6 +3,7 @@ title: UnfreezePanes
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 370
 url: /net/aspose.cells.gridweb.data/webworksheet/unfreezepanes/
 ---
 ## WebWorksheet.UnfreezePanes method

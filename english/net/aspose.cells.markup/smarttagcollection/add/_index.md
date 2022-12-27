@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a smart tag.
 type: docs
+weight: 40
 url: /net/aspose.cells.markup/smarttagcollection/add/
 ---
 ## SmartTagCollection.Add method

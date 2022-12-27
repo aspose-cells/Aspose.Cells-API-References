@@ -3,6 +3,7 @@ title: Refresh
 second_title: Aspose.Cells for .NET API Reference
 description: ReDataBinds data source to the PivotTable report.
 type: docs
+weight: 110
 url: /net/aspose.cells.gridweb.data/pivottables/refresh/
 ---
 ## PivotTables.Refresh method

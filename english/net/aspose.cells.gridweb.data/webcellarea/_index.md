@@ -3,6 +3,7 @@ title: WebCellArea
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 870
 url: /net/aspose.cells.gridweb.data/webcellarea/
 ---
 ## WebCellArea class

@@ -3,6 +3,7 @@ title: IsEditingObjectsAllowed
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the user is allowed to manipulate drawing objects on a protected worksheet.
 type: docs
+weight: 200
 url: /net/aspose.cells/protection/iseditingobjectsallowed/
 ---
 ## Protection.IsEditingObjectsAllowed property

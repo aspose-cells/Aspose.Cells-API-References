@@ -3,6 +3,7 @@ title: RelativeLibid
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the referenced VBA projects identifier with an relative path.
 type: docs
+weight: 40
 url: /net/aspose.cells.vba/vbaprojectreference/relativelibid/
 ---
 ## VbaProjectReference.RelativeLibid property

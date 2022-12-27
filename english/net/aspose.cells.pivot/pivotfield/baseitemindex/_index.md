@@ -3,6 +3,7 @@ title: BaseItemIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the item in the base field for a custom calculation. Valid only for data fields.
 type: docs
+weight: 60
 url: /net/aspose.cells.pivot/pivotfield/baseitemindex/
 ---
 ## PivotField.BaseItemIndex property

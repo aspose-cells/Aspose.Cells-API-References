@@ -3,6 +3,7 @@ title: GroupFill
 second_title: Aspose.Cells for .NET API Reference
 description: Represents this fill format should inherit the fill properties of the group.
 type: docs
+weight: 2150
 url: /net/aspose.cells.drawing/groupfill/
 ---
 ## GroupFill class
@@ -17,8 +18,8 @@ public class GroupFill : Fill
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | /(Inherited from [`Fill`](../fill).) |
-| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code.(Inherited from [`Fill`](../fill).) |
+| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | / |
+| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code. |
 
 ### See Also
 

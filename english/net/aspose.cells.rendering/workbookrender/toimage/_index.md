@@ -3,6 +3,7 @@ title: ToImage
 second_title: Aspose.Cells for .NET API Reference
 description: Render whole workbook as Tiff Image to stream.
 type: docs
+weight: 60
 url: /net/aspose.cells.rendering/workbookrender/toimage/
 ---
 ## ToImage(Stream) {#toimage_3}

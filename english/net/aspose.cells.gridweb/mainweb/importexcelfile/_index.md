@@ -3,30 +3,10 @@ title: ImportExcelFile
 second_title: Aspose.Cells for .NET API Reference
 description: Imports from an excel file.
 type: docs
+weight: 1400
 url: /net/aspose.cells.gridweb/mainweb/importexcelfile/
 ---
-## ImportExcelFile(string, string) {#importexcelfile_3}
-
-Imports from an excel file.
-
-```csharp
-public void ImportExcelFile(string fileName, string passwordtoOpen)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | String | The excel file's name. |
-| passwordtoOpen | String | the open password for the file which is encrypted . |
-
-### See Also
-
-* class [MainWeb](../../mainweb)
-* namespace [Aspose.Cells.GridWeb](../../mainweb)
-* assembly [Aspose.Cells.GridWeb](../../../)
-
----
-
-## ImportExcelFile(string) {#importexcelfile_2}
+## ImportExcelFile(string) {#importexcelfile_1}
 
 Imports from an excel file.
 
@@ -37,27 +17,6 @@ public void ImportExcelFile(string fileName)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | String | The excel file's name. |
-
-### See Also
-
-* class [MainWeb](../../mainweb)
-* namespace [Aspose.Cells.GridWeb](../../mainweb)
-* assembly [Aspose.Cells.GridWeb](../../../)
-
----
-
-## ImportExcelFile(Stream, string) {#importexcelfile_1}
-
-Imports from an excel file stream, including disk file stream or memory stream.
-
-```csharp
-public void ImportExcelFile(Stream stream, string passwordtoOpen)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | The excel file's stream, including disk file stream or memory stream. |
-| passwordtoOpen | String | the open password for the file which is encrypted . |
 
 ### See Also
 

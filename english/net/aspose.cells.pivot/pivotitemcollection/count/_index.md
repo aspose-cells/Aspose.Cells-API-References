@@ -3,6 +3,7 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the count of the pivot items.
 type: docs
+weight: 10
 url: /net/aspose.cells.pivot/pivotitemcollection/count/
 ---
 ## PivotItemCollection.Count property

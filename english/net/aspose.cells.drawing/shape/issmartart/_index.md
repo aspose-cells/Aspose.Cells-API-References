@@ -3,6 +3,7 @@ title: IsSmartArt
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the shape is smart art.
 type: docs
+weight: 400
 url: /net/aspose.cells.drawing/shape/issmartart/
 ---
 ## Shape.IsSmartArt property

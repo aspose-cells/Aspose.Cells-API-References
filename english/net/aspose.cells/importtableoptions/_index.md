@@ -3,6 +3,7 @@ title: ImportTableOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options of importing data into cells.
 type: docs
+weight: 3910
 url: /net/aspose.cells/importtableoptions/
 ---
 ## ImportTableOptions class
@@ -29,7 +30,6 @@ public class ImportTableOptions
 | [ConvertNumericData](../../aspose.cells/importtableoptions/convertnumericdata) { get; set; } | Gets or sets a value that indicates whether the string value should be converted to numeric or date value. |
 | [DateFormat](../../aspose.cells/importtableoptions/dateformat) { get; set; } | Gets or sets date format string for cells with imported datetime values. |
 | [DefaultValues](../../aspose.cells/importtableoptions/defaultvalues) { get; set; } | Default value for the value in the table is null. |
-| [ExportCaptionAsFieldName](../../aspose.cells/importtableoptions/exportcaptionasfieldname) { get; set; } | Indicates whether exporting caption as field name |
 | [InsertRows](../../aspose.cells/importtableoptions/insertrows) { get; set; } | Indicates whether new rows should be added for importing data records. |
 | [IsFieldNameShown](../../aspose.cells/importtableoptions/isfieldnameshown) { get; set; } | Indicates whether field name should be imported. |
 | [IsFormulas](../../aspose.cells/importtableoptions/isformulas) { get; set; } | Indicates whether the data are formulas. |

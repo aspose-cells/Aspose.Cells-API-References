@@ -3,6 +3,7 @@ title: GetChildren
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Children Pivot Tables which use this PivotTable data as data source.
 type: docs
+weight: 870
 url: /net/aspose.cells.pivot/pivottable/getchildren/
 ---
 ## PivotTable.GetChildren method

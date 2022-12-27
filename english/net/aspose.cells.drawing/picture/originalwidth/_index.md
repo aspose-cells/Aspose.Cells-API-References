@@ -3,6 +3,7 @@ title: OriginalWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the original width of the picture.
 type: docs
+weight: 130
 url: /net/aspose.cells.drawing/picture/originalwidth/
 ---
 ## Picture.OriginalWidth property

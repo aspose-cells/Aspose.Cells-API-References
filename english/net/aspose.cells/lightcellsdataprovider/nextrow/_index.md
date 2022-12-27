@@ -3,6 +3,7 @@ title: NextRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the next row to be saved.
 type: docs
+weight: 30
 url: /net/aspose.cells/lightcellsdataprovider/nextrow/
 ---
 ## LightCellsDataProvider.NextRow method

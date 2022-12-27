@@ -1,30 +1,34 @@
----
-title: PivotGroupByType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: PivotGroupByType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 190
 url: /python-net/aspose.cells.pivot/pivotgroupbytype/
+is_root: false
 ---
 
 ## PivotGroupByType enumeration
 
 Represents PivotTable groupby type.
 
-## Members
-| Member name | Description |
+
+
+The PivotGroupByType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|RANGE_OF_VALUES|Presents range of values groupby type.|
-|SECONDS|Presents Seconds groupby type.|
-|MINUTES|Presents Minutes groupby type.|
-|HOURS|Presents Hours groupby type.|
-|DAYS|Presents Days groupby type.|
-|MONTHS|Presents Months groupby type.|
-|QUARTERS|Presents Quarters groupby type.|
-|YEARS|Presents Years groupby type.|
+| RANGE_OF_VALUES | Presents range of values groupby type. |
+| SECONDS | Presents Seconds groupby type. |
+| MINUTES | Presents Minutes groupby type. |
+| HOURS | Presents Hours groupby type. |
+| DAYS | Presents Days groupby type. |
+| MONTHS | Presents Months groupby type. |
+| QUARTERS | Presents Quarters groupby type. |
+| YEARS | Presents Years groupby type. |
+
 
 ### See Also
 
-* namespace [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells.pivot](../)

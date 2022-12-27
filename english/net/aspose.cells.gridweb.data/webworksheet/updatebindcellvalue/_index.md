@@ -3,6 +3,7 @@ title: UpdateBindCellValue
 second_title: Aspose.Cells for .NET API Reference
 description: Updates the binding datasource records property value according to the cells value.
 type: docs
+weight: 390
 url: /net/aspose.cells.gridweb.data/webworksheet/updatebindcellvalue/
 ---
 ## WebWorksheet.UpdateBindCellValue method

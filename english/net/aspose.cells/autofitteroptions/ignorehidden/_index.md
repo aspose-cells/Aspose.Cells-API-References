@@ -3,6 +3,7 @@ title: IgnoreHidden
 second_title: Aspose.Cells for .NET API Reference
 description: Ignores the hidden rows/columns.
 type: docs
+weight: 70
 url: /net/aspose.cells/autofitteroptions/ignorehidden/
 ---
 ## AutoFitterOptions.IgnoreHidden property

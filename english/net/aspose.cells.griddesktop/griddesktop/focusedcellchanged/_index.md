@@ -3,6 +3,7 @@ title: FocusedCellChanged
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the focused cell is changed.
 type: docs
+weight: 560
 url: /net/aspose.cells.griddesktop/griddesktop/focusedcellchanged/
 ---
 ## GridDesktop.FocusedCellChanged event

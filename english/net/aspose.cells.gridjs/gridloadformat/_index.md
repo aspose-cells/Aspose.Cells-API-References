@@ -3,6 +3,7 @@ title: GridLoadFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the load file format.
 type: docs
+weight: 90
 url: /net/aspose.cells.gridjs/gridloadformat/
 ---
 ## GridLoadFormat enumeration

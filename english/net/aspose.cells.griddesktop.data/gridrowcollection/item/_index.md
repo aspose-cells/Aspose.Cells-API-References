@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a  object by given row index. The Row object of given row index will be instantiated if it does not exist before.
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop.data/gridrowcollection/item/
 ---
 ## GridRowCollection indexer

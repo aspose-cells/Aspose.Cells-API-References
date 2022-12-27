@@ -1,8 +1,9 @@
 ---
 title: Value
 second_title: Aspose.Cells for .NET API Reference
-description: Returns the label text for the slicer item. Readonly.
+description: Returns the label text for the slicer item. Read-only.
 type: docs
+weight: 20
 url: /net/aspose.cells.slicers/slicercacheitem/value/
 ---
 ## SlicerCacheItem.Value property

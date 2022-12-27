@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets web extension by the specific index.
 type: docs
+weight: 20
 url: /net/aspose.cells.webextensions/webextensionreferencecollection/item/
 ---
 ## WebExtensionReferenceCollection indexer

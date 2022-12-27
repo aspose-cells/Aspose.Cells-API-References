@@ -3,6 +3,7 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the width of axis bin
 type: docs
+weight: 70
 url: /net/aspose.cells.charts/axisbins/width/
 ---
 ## AxisBins.Width property

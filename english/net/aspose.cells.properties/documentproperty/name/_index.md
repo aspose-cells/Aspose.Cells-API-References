@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the name of the property.
 type: docs
+weight: 30
 url: /net/aspose.cells.properties/documentproperty/name/
 ---
 ## DocumentProperty.Name property

@@ -3,6 +3,7 @@ title: IconId
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the id of the icon set type.
 type: docs
+weight: 20
 url: /net/aspose.cells/datasorterkey/iconid/
 ---
 ## DataSorterKey.IconId property

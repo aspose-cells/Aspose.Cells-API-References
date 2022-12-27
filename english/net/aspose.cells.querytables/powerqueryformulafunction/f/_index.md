@@ -3,6 +3,7 @@ title: F
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the definition of function.
 type: docs
+weight: 10
 url: /net/aspose.cells.querytables/powerqueryformulafunction/f/
 ---
 ## PowerQueryFormulaFunction.F property

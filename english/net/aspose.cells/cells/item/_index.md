@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets Cellaspose.cells/cell item within the worksheet
 type: docs
+weight: 70
 url: /net/aspose.cells/cells/item/
 ---
 ## Cells indexer (1 of 3)

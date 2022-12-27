@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Borderaspose.cells/border element at the specified index.
 type: docs
+weight: 30
 url: /net/aspose.cells/bordercollection/item/
 ---
 ## BorderCollection indexer

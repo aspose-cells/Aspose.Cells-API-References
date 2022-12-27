@@ -3,6 +3,7 @@ title: OnlyAuto
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether only fit the rows which height are not customed.
 type: docs
+weight: 90
 url: /net/aspose.cells/autofitteroptions/onlyauto/
 ---
 ## AutoFitterOptions.OnlyAuto property

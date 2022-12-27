@@ -3,6 +3,7 @@ title: HideItem
 second_title: Aspose.Cells for .NET API Reference
 description: Sets whether the specific PivotItem in a data field is hidden.
 type: docs
+weight: 60
 url: /net/aspose.cells.gridweb.data/gridpivotfield/hideitem/
 ---
 ## GridPivotField.HideItem method

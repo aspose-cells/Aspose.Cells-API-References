@@ -1,25 +1,29 @@
----
-title: ValidationAlertType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ValidationAlertType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 5160
+weight: 2620
 url: /python-net/aspose.cells/validationalerttype/
+is_root: false
 ---
 
 ## ValidationAlertType enumeration
 
 Represents the data validation alert style.
 
-## Members
-| Member name | Description |
+
+
+The ValidationAlertType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|INFORMATION|Information alert style.|
-|STOP|Stop alert style.|
-|WARNING|Warning alert style.|
+| INFORMATION | Information alert style. |
+| STOP | Stop alert style. |
+| WARNING | Warning alert style. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

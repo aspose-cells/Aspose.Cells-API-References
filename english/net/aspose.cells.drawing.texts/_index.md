@@ -1,11 +1,12 @@
 ---
 title: Aspose.Cells.Drawing.Texts
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes for setting of drawing texts.
+description: Contains all classes of Texts.
 type: docs
+weight: 60
 url: /net/aspose.cells.drawing.texts/
 ---
-Contains all classes for setting of drawing texts.
+Contains all classes of Texts.
 
 ## Classes
 

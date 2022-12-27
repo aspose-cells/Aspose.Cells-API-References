@@ -3,6 +3,7 @@ title: Lighting
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets type of light rig.
 type: docs
+weight: 90
 url: /net/aspose.cells.drawing/threedformat/lighting/
 ---
 ## ThreeDFormat.Lighting property

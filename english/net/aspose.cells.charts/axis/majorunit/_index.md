@@ -3,6 +3,7 @@ title: MajorUnit
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the major units for the axis.
 type: docs
+weight: 260
 url: /net/aspose.cells.charts/axis/majorunit/
 ---
 ## Axis.MajorUnit property

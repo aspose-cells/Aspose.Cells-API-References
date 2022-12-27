@@ -3,6 +3,7 @@ title: Max
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the maximum acceptable value.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/max/
 ---
 ## SpinButtonActiveXControl.Max property

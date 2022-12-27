@@ -3,6 +3,7 @@ title: Characters
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a Characters object that represents a range of characters within the text.
 type: docs
+weight: 1050
 url: /net/aspose.cells.drawing/shape/characters/
 ---
 ## Shape.Characters method

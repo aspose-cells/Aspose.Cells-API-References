@@ -3,6 +3,7 @@ title: ErrorMessage
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the data validation error message.
 type: docs
+weight: 30
 url: /net/aspose.cells/validation/errormessage/
 ---
 ## Validation.ErrorMessage property

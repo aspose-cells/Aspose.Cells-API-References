@@ -3,6 +3,7 @@ title: HasRadarAxisLabels
 second_title: Aspose.Cells for .NET API Reference
 description: True if a radar chart has category axis labels. Applies only to radar charts.
 type: docs
+weight: 200
 url: /net/aspose.cells.charts/series/hasradaraxislabels/
 ---
 ## Series.HasRadarAxisLabels property

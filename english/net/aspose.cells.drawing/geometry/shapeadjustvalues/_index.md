@@ -3,6 +3,7 @@ title: ShapeAdjustValues
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a collection of shape adjust value
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/geometry/shapeadjustvalues/
 ---
 ## Geometry.ShapeAdjustValues property

@@ -3,6 +3,7 @@ title: PutValue
 second_title: Aspose.Cells for .NET API Reference
 description: Puts a value into the range if appropriate the value will be converted to other data type and cells number format will be reset.
 type: docs
+weight: 180
 url: /net/aspose.cells/unionrange/putvalue/
 ---
 ## UnionRange.PutValue method

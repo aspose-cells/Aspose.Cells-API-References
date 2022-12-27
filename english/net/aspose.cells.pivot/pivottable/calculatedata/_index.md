@@ -3,6 +3,7 @@ title: CalculateData
 second_title: Aspose.Cells for .NET API Reference
 description: Calculates pivottables data to cells.
 type: docs
+weight: 760
 url: /net/aspose.cells.pivot/pivottable/calculatedata/
 ---
 ## PivotTable.CalculateData method

@@ -3,6 +3,7 @@ title: GetSource
 second_title: Aspose.Cells for .NET API Reference
 description: Get pivottables source data.
 type: docs
+weight: 890
 url: /net/aspose.cells.pivot/pivottable/getsource/
 ---
 ## PivotTable.GetSource method

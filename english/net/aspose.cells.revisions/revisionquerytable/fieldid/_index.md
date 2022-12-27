@@ -3,6 +3,7 @@ title: FieldId
 second_title: Aspose.Cells for .NET API Reference
 description: Gets ID of the specific query table field that was removed.
 type: docs
+weight: 20
 url: /net/aspose.cells.revisions/revisionquerytable/fieldid/
 ---
 ## RevisionQueryTable.FieldId property

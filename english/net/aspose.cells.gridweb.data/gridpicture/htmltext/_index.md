@@ -3,6 +3,7 @@ title: HtmlText
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the html string which contains data and some formattings in this textbox.
 type: docs
+weight: 120
 url: /net/aspose.cells.gridweb.data/gridpicture/htmltext/
 ---
 ## GridPicture.HtmlText property

@@ -3,6 +3,7 @@ title: ClearStack
 second_title: Aspose.Cells for .NET API Reference
 description: Clears the Undo and Redo stacks.
 type: docs
+weight: 70
 url: /net/aspose.cells.griddesktop/undomanager/clearstack/
 ---
 ## UndoManager.ClearStack method

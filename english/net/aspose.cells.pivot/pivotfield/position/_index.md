@@ -3,6 +3,7 @@ title: Position
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the PivotField index in the PivotFields.
 type: docs
+weight: 350
 url: /net/aspose.cells.pivot/pivotfield/position/
 ---
 ## PivotField.Position property

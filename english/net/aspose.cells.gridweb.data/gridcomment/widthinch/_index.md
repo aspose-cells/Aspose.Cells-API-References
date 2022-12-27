@@ -3,6 +3,7 @@ title: WidthInch
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 130
 url: /net/aspose.cells.gridweb.data/gridcomment/widthinch/
 ---
 ## GridComment.WidthInch property

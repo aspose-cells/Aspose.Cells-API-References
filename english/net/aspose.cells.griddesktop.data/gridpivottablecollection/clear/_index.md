@@ -3,6 +3,7 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clears all PivotTables.
 type: docs
+weight: 40
 url: /net/aspose.cells.griddesktop.data/gridpivottablecollection/clear/
 ---
 ## GridPivotTableCollection.Clear method

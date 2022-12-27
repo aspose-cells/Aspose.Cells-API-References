@@ -3,6 +3,7 @@ title: Exists
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 80
 url: /net/aspose.cells/collectionbase-1/exists/
 ---
 ## CollectionBase&lt;T&gt;.Exists method

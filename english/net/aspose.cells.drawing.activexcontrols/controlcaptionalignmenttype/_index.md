@@ -3,6 +3,7 @@ title: ControlCaptionAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the position of the Caption relative to the control.
 type: docs
+weight: 1530
 url: /net/aspose.cells.drawing.activexcontrols/controlcaptionalignmenttype/
 ---
 ## ControlCaptionAlignmentType enumeration

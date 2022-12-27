@@ -3,6 +3,7 @@ title: CalcStackSize
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the stack size for calculating cells recursively. The large value for this size will give better performance when there are lots of cells need to be calculated recursively. On the other hand larger value will raise the risk of StackOverflowException. If user gets StackOverflowException when calculating formulas this value should be decreased.
 type: docs
+weight: 60
 url: /net/aspose.cells/workbooksettings/calcstacksize/
 ---
 ## WorkbookSettings.CalcStackSize property

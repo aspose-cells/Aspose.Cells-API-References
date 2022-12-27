@@ -1,28 +1,31 @@
----
-title: FilterColumn
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: FilterColumn class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 610
 url: /python-net/aspose.cells/filtercolumn/
+is_root: false
 ---
 
 ## FilterColumn class
 
 Represents a filter for a single column. The Filter object is a member of the Filters collection
 
+
+
 The FilterColumn type exposes the following members:
-## Properties
-| Name | Description |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|is_dropdown_visible|Indicates whether the AutoFilter button for this column is visible.|
-|visibledropdown|Indicates whether the AutoFilter button for this column is visible.|
-|filter|  |
-|filter_type|  |
-|field_index|  |
+| [is_dropdown_visible](/cells/python-net/aspose.cells/filtercolumn/is_dropdown_visible) | Indicates whether the AutoFilter button for this column is visible. |
+| [visibledropdown](/cells/python-net/aspose.cells/filtercolumn/visibledropdown) | Indicates whether the AutoFilter button for this column is visible. |
+| [filter](/cells/python-net/aspose.cells/filtercolumn/filter) |  |
+| [filter_type](/cells/python-net/aspose.cells/filtercolumn/filter_type) |  |
+| [field_index](/cells/python-net/aspose.cells/filtercolumn/field_index) |  |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

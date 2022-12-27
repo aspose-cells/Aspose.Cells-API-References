@@ -1,8 +1,9 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Cells for .NET API Reference
-description: Gets a value indicating whether access to the PivotCaches is synchronized threadsafe.
+description: Gets a value indicating whether access to the PivotCaches is synchronized thread-safe.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb.data/pivotcaches/issynchronized/
 ---
 ## PivotCaches.IsSynchronized property

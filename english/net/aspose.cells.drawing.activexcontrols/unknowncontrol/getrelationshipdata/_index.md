@@ -3,6 +3,7 @@ title: GetRelationshipData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the related data.
 type: docs
+weight: 40
 url: /net/aspose.cells.drawing.activexcontrols/unknowncontrol/getrelationshipdata/
 ---
 ## UnknownControl.GetRelationshipData method

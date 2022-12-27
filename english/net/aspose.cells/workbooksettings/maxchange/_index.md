@@ -3,6 +3,7 @@ title: MaxChange
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the maximum number of change to resolve a circular reference.
 type: docs
+weight: 330
 url: /net/aspose.cells/workbooksettings/maxchange/
 ---
 ## WorkbookSettings.MaxChange property

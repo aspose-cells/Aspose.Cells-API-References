@@ -3,6 +3,7 @@ title: CheckMergedCells
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether checking merged cells.
 type: docs
+weight: 20
 url: /net/aspose.cells/importtableoptions/checkmergedcells/
 ---
 ## ImportTableOptions.CheckMergedCells property

@@ -3,6 +3,7 @@ title: LineSpace
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the amount of vertical white space that will be used within a paragraph.
 type: docs
+weight: 110
 url: /net/aspose.cells.drawing.texts/textparagraph/linespace/
 ---
 ## TextParagraph.LineSpace property

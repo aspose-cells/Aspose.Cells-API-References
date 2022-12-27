@@ -3,6 +3,7 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 40
 url: /net/aspose.cells.griddesktop.data/gridpicturecollection/clear/
 ---
 ## GridPictureCollection.Clear method

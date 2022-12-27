@@ -3,6 +3,7 @@ title: HasBorderOutline
 second_title: Aspose.Cells for .NET API Reference
 description: True if the chart data table has outline borders
 type: docs
+weight: 70
 url: /net/aspose.cells.charts/chartdatatable/hasborderoutline/
 ---
 ## ChartDataTable.HasBorderOutline property

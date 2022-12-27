@@ -3,6 +3,7 @@ title: ImageFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the image format of the picture.
 type: docs
+weight: 30
 url: /net/aspose.cells.gridweb.data/gridshape/imageformat/
 ---
 ## GridShape.ImageFormat property
@@ -10,12 +11,11 @@ url: /net/aspose.cells.gridweb.data/gridshape/imageformat/
 Gets the image format of the picture.
 
 ```csharp
-public GridImageType ImageFormat { get; }
+public ImageFormat ImageFormat { get; }
 ```
 
 ### See Also
 
-* enum [GridImageType](../../gridimagetype)
 * class [GridShape](../../gridshape)
 * namespace [Aspose.Cells.GridWeb.Data](../../gridshape)
 * assembly [Aspose.Cells.GridWeb](../../../)

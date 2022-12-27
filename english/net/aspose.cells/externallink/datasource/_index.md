@@ -3,6 +3,7 @@ title: DataSource
 second_title: Aspose.Cells for .NET API Reference
 description: Represents data source of the external link.
 type: docs
+weight: 10
 url: /net/aspose.cells/externallink/datasource/
 ---
 ## ExternalLink.DataSource property

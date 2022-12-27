@@ -3,6 +3,7 @@ title: SetFontSubstitutes
 second_title: Aspose.Cells for .NET API Reference
 description: Font substitute names for given original font name.
 type: docs
+weight: 90
 url: /net/aspose.cells/fontconfigs/setfontsubstitutes/
 ---
 ## FontConfigs.SetFontSubstitutes method

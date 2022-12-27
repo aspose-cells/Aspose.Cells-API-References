@@ -3,6 +3,7 @@ title: GetPasswordHash
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the hash of current password.
 type: docs
+weight: 360
 url: /net/aspose.cells/protection/getpasswordhash/
 ---
 ## Protection.GetPasswordHash method

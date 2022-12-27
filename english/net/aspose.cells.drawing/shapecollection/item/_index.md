@@ -3,6 +3,7 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the shape object at the specific index.
 type: docs
+weight: 10
 url: /net/aspose.cells.drawing/shapecollection/item/
 ---
 ## ShapeCollection indexer (1 of 2)

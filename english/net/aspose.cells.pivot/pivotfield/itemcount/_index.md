@@ -3,6 +3,7 @@ title: ItemCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the base item count of this pivot field.
 type: docs
+weight: 280
 url: /net/aspose.cells.pivot/pivotfield/itemcount/
 ---
 ## PivotField.ItemCount property

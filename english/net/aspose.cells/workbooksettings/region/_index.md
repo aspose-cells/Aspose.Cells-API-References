@@ -3,6 +3,7 @@ title: Region
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the regional settings for workbook.
 type: docs
+weight: 490
 url: /net/aspose.cells/workbooksettings/region/
 ---
 ## WorkbookSettings.Region property

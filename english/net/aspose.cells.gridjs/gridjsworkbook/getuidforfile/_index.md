@@ -3,6 +3,7 @@ title: GetUidForFile
 second_title: Aspose.Cells for .NET API Reference
 description: Generate the uid for the file
 type: docs
+weight: 260
 url: /net/aspose.cells.gridjs/gridjsworkbook/getuidforfile/
 ---
 ## GridJsWorkbook.GetUidForFile method

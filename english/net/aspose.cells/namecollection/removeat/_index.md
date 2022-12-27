@@ -3,6 +3,7 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the name at the specific index.
 type: docs
+weight: 60
 url: /net/aspose.cells/namecollection/removeat/
 ---
 ## NameCollection.RemoveAt method

@@ -1,0 +1,18 @@
+﻿---
+title: height_pt property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 530
+url: /python-net/aspose.cells.drawing/picture/height_pt/
+is_root: false
+---
+
+## height_pt property
+
+
+Represents the height of the shape, in unit of points.
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)

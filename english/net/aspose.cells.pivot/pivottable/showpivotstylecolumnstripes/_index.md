@@ -3,6 +3,7 @@ title: ShowPivotStyleColumnStripes
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether column stripe formatting is applied.
 type: docs
+weight: 640
 url: /net/aspose.cells.pivot/pivottable/showpivotstylecolumnstripes/
 ---
 ## PivotTable.ShowPivotStyleColumnStripes property

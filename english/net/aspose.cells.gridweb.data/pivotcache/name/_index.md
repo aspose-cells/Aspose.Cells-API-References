@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the name of PivotCache.Re
 type: docs
+weight: 40
 url: /net/aspose.cells.gridweb.data/pivotcache/name/
 ---
 ## PivotCache.Name property

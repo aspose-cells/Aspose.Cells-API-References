@@ -3,6 +3,7 @@ title: EvaluatedPageCount
 second_title: Aspose.Cells for .NET API Reference
 description: Evaluate the total page count of this worksheet
 type: docs
+weight: 20
 url: /net/aspose.cells.rendering/sheetprintingpreview/evaluatedpagecount/
 ---
 ## SheetPrintingPreview.EvaluatedPageCount property

@@ -3,6 +3,7 @@ title: GetFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the formatting pattern corresponding to the parsed value by last invocation of ParseObjectaspose.cells/icustomparser/parseobject.
 type: docs
+weight: 10
 url: /net/aspose.cells/icustomparser/getformat/
 ---
 ## ICustomParser.GetFormat method

@@ -3,6 +3,7 @@ title: Sort
 second_title: Aspose.Cells for .NET API Reference
 description: Sorts the datas ascend in the range by index.
 type: docs
+weight: 20
 url: /net/aspose.cells.griddesktop/sortrange/sort/
 ---
 ## Sort(int) {#sort}

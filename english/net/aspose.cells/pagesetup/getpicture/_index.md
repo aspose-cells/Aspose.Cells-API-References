@@ -3,6 +3,7 @@ title: GetPicture
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Pictureaspose.cells.drawing/picture object of the header / footer.
 type: docs
+weight: 540
 url: /net/aspose.cells/pagesetup/getpicture/
 ---
 ## GetPicture(bool, int) {#getpicture_1}
@@ -16,7 +17,7 @@ public Picture GetPicture(bool isHeader, int section)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | isHeader | Boolean | Indicates whether it is in the header or footer. |
-| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
+| section | Int32 | 0:Left Section. |
 
 ### Return Value
 
@@ -44,7 +45,7 @@ public Picture GetPicture(bool isFirst, bool isEven, bool isHeader, int section)
 | isFirst | Boolean | Indicates whether getting the picture of first page header/footer. |
 | isEven | Boolean | Indicates whether getting the picture of even page header/footer. |
 | isHeader | Boolean | Indicates whether getting the picture of header/footer. |
-| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
+| section | Int32 | 0:Left Section. |
 
 ### Return Value
 

@@ -3,6 +3,7 @@ title: ValueList
 second_title: Aspose.Cells for .NET API Reference
 description: Gets/Sets the value list object.
 type: docs
+weight: 170
 url: /net/aspose.cells.gridweb.data/gridvalidation/valuelist/
 ---
 ## GridValidation.ValueList property

@@ -3,6 +3,7 @@ title: Checked
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or set a value indicating whether the check box is in the checked state.
 type: docs
+weight: 10
 url: /net/aspose.cells.griddesktop/checkbox/checked/
 ---
 ## CheckBox.Checked property

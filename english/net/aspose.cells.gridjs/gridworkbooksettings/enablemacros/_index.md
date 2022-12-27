@@ -3,6 +3,7 @@ title: EnableMacros
 second_title: Aspose.Cells for .NET API Reference
 description: Enable macros Now it only works when copying a worksheet to other worksheet in a workbook.
 type: docs
+weight: 60
 url: /net/aspose.cells.gridjs/gridworkbooksettings/enablemacros/
 ---
 ## GridWorkbookSettings.EnableMacros property

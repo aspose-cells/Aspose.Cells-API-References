@@ -3,6 +3,7 @@ title: AttachedFilesDirectory
 second_title: Aspose.Cells for .NET API Reference
 description: The directory that the attached files will be saved to. Only for saving to html stream.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/attachedfilesdirectory/
 ---
 ## GridHtmlSaveOptions.AttachedFilesDirectory property

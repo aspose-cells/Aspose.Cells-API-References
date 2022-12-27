@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a picture to the collection.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}

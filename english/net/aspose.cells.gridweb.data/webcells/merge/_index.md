@@ -3,6 +3,7 @@ title: Merge
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 290
 url: /net/aspose.cells.gridweb.data/webcells/merge/
 ---
 ## WebCells.Merge method

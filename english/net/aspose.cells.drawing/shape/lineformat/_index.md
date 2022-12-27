@@ -3,6 +3,7 @@ title: LineFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a MsoLineFormat object that contains line formatting properties for the specified shape.
 type: docs
+weight: 490
 url: /net/aspose.cells.drawing/shape/lineformat/
 ---
 ## Shape.LineFormat property

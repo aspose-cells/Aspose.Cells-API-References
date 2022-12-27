@@ -3,6 +3,7 @@ title: AddShape
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a Shape to the worksheet.
 type: docs
+weight: 260
 url: /net/aspose.cells.drawing/shapecollection/addshape/
 ---
 ## ShapeCollection.AddShape method

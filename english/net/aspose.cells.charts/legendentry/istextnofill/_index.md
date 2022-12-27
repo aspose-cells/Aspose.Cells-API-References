@@ -3,6 +3,7 @@ title: IsTextNoFill
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets no fill of the text.
 type: docs
+weight: 60
 url: /net/aspose.cells.charts/legendentry/istextnofill/
 ---
 ## LegendEntry.IsTextNoFill property

@@ -3,6 +3,7 @@ title: CalculationMonitor
 second_title: Aspose.Cells for .NET API Reference
 description: The monitor for user to track the progress of formula calculation.
 type: docs
+weight: 30
 url: /net/aspose.cells/calculationoptions/calculationmonitor/
 ---
 ## CalculationOptions.CalculationMonitor property

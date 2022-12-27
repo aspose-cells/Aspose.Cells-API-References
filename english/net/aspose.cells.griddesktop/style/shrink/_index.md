@@ -3,6 +3,7 @@ title: Shrink
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 130
 url: /net/aspose.cells.griddesktop/style/shrink/
 ---
 ## Style.Shrink property

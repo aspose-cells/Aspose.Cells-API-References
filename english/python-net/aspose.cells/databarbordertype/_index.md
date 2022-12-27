@@ -1,24 +1,28 @@
----
-title: DataBarBorderType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: DataBarBorderType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4440
+weight: 1900
 url: /python-net/aspose.cells/databarbordertype/
+is_root: false
 ---
 
 ## DataBarBorderType enumeration
 
 Specifies the border type of a data bar.
 
-## Members
-| Member name | Description |
+
+
+The DataBarBorderType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|NONE|The data bar has no border.|
-|SOLID|The data bar has a solid border.|
+| NONE | The data bar has no border. |
+| SOLID | The data bar has a solid border. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

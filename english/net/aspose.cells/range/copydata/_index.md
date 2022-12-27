@@ -3,6 +3,7 @@ title: CopyData
 second_title: Aspose.Cells for .NET API Reference
 description: Copies cell data including formulas from a source range.
 type: docs
+weight: 210
 url: /net/aspose.cells/range/copydata/
 ---
 ## Range.CopyData method

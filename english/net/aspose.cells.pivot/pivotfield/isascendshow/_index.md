@@ -3,6 +3,7 @@ title: IsAscendShow
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified PivotTable field is autoshown ascending.
 type: docs
+weight: 180
 url: /net/aspose.cells.pivot/pivotfield/isascendshow/
 ---
 ## PivotField.IsAscendShow property

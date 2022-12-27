@@ -3,6 +3,7 @@ title: GridPivotItemCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of PivotItem objects.
 type: docs
+weight: 640
 url: /net/aspose.cells.griddesktop.data/gridpivotitemcollection/
 ---
 ## GridPivotItemCollection class

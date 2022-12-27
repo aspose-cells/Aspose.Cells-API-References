@@ -3,6 +3,7 @@ title: DEFAULT_WIDTH
 second_title: Aspose.Cells for .NET API Reference
 description: Default width of gridcolumn.
 type: docs
+weight: 160
 url: /net/aspose.cells.griddesktop.data/gridcolumn/default_width/
 ---
 ## GridColumn.DEFAULT_WIDTH field

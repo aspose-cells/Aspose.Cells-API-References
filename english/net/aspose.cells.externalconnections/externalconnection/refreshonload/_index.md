@@ -3,6 +3,7 @@ title: RefreshOnLoad
 second_title: Aspose.Cells for .NET API Reference
 description: True if this connection should be refreshed when opening the file otherwise false.
 type: docs
+weight: 180
 url: /net/aspose.cells.externalconnections/externalconnection/refreshonload/
 ---
 ## ExternalConnection.RefreshOnLoad property

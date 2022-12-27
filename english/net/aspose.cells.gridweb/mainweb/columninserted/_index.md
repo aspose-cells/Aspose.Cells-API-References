@@ -1,8 +1,9 @@
 ---
 title: ColumnInserted
 second_title: Aspose.Cells for .NET API Reference
-description: Occurs when user insert a column from clientside menu.
+description: Occurs when user insert a column from client-side menu.
 type: docs
+weight: 1230
 url: /net/aspose.cells.gridweb/mainweb/columninserted/
 ---
 ## MainWeb.ColumnInserted event

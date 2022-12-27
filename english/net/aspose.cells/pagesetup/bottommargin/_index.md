@@ -3,6 +3,7 @@ title: BottomMargin
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the size of the bottom margin in unit of centimeters.
 type: docs
+weight: 20
 url: /net/aspose.cells/pagesetup/bottommargin/
 ---
 ## PageSetup.BottomMargin property

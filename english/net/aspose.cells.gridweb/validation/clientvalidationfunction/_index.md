@@ -3,6 +3,7 @@ title: ClientValidationFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the client validation javascript function name.
 type: docs
+weight: 20
 url: /net/aspose.cells.gridweb/validation/clientvalidationfunction/
 ---
 ## Validation.ClientValidationFunction property

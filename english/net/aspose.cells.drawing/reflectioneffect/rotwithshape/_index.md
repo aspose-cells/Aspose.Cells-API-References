@@ -3,6 +3,7 @@ title: RotWithShape
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets if the reflection should rotate with the shape.
 type: docs
+weight: 50
 url: /net/aspose.cells.drawing/reflectioneffect/rotwithshape/
 ---
 ## ReflectionEffect.RotWithShape property

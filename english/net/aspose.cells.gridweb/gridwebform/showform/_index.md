@@ -3,6 +3,7 @@ title: ShowForm
 second_title: Aspose.Cells for .NET API Reference
 description: Hides the GridWeb control and shows the GridWebForm control.
 type: docs
+weight: 150
 url: /net/aspose.cells.gridweb/gridwebform/showform/
 ---
 ## GridWebForm.ShowForm method

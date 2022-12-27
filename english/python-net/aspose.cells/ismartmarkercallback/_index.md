@@ -1,24 +1,27 @@
----
-title: ISmartMarkerCallBack
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: ISmartMarkerCallBack class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 860
 url: /python-net/aspose.cells/ismartmarkercallback/
+is_root: false
 ---
 
 ## ISmartMarkerCallBack class
 
 Represents callback interface of processing smartmarker.
 
+
+
 The ISmartMarkerCallBack type exposes the following members:
-## Methods
-| Name | Description |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|process(sheet_index, row_index, col_index, table_name, column_name)|Callback for processing a smart marker.|
+| [process(sheet_index, row_index, col_index, table_name, column_name)](/cells/python-net/aspose.cells/ismartmarkercallback/process/#int-int-int-str-str) | Callback for processing a smart marker. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

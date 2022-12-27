@@ -1,24 +1,28 @@
----
-title: GridlineType
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: GridlineType enumeration
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 4650
+weight: 2110
 url: /python-net/aspose.cells/gridlinetype/
+is_root: false
 ---
 
 ## GridlineType enumeration
 
 Enumerates grid line Type.
 
-## Members
-| Member name | Description |
+
+
+The GridlineType type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|DOTTED|Represents dotted line.|
-|HAIR|Represents hair line.|
+| DOTTED | Represents dotted line. |
+| HAIR | Represents hair line. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

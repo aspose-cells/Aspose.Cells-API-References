@@ -3,6 +3,7 @@ title: CalculatedValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the newly calculated value of the cell. Should be used only in AfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate.
 type: docs
+weight: 10
 url: /net/aspose.cells/abstractcalculationmonitor/calculatedvalue/
 ---
 ## AbstractCalculationMonitor.CalculatedValue property

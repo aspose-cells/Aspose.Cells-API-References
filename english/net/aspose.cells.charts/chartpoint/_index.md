@@ -3,6 +3,7 @@ title: ChartPoint
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a single point in a series in a chart.
 type: docs
+weight: 510
 url: /net/aspose.cells.charts/chartpoint/
 ---
 ## ChartPoint class
@@ -105,7 +106,7 @@ Chart chart = worksheet.Charts[chartIndex];
 chart.NSeries.Add("A1:B3", true);
 
 //Show Data Labels 
-chart.NSeries[0].DataLabels.ShowValue = true;
+chart.NSeries[0].DataLabels.IsValueShown = true;
 
 for (int i = 0; i  < chart.NSeries[0].Points.Count; i++)
 {

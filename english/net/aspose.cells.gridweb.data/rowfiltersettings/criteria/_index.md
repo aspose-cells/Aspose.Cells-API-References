@@ -3,6 +3,7 @@ title: Criteria
 second_title: Aspose.Cells for .NET API Reference
 description: The filter criteria string.
 type: docs
+weight: 10
 url: /net/aspose.cells.gridweb.data/rowfiltersettings/criteria/
 ---
 ## RowFilterSettings.Criteria property

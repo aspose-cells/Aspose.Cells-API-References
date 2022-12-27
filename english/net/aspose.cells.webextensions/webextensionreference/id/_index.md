@@ -1,8 +1,9 @@
 ---
 title: Id
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets the identifier associated with the Office Addin within a catalog provider. The identifier MUST be unique within a catalog provider.
+description: Gets and sets the identifier associated with the Office Add-in within a catalog provider. The identifier MUST be unique within a catalog provider.
 type: docs
+weight: 10
 url: /net/aspose.cells.webextensions/webextensionreference/id/
 ---
 ## WebExtensionReference.Id property

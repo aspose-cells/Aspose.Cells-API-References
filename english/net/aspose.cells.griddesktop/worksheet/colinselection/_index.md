@@ -3,6 +3,7 @@ title: ColInSelection
 second_title: Aspose.Cells for .NET API Reference
 description: Determines whether the specified column at index is in selected.
 type: docs
+weight: 600
 url: /net/aspose.cells.griddesktop/worksheet/colinselection/
 ---
 ## Worksheet.ColInSelection method

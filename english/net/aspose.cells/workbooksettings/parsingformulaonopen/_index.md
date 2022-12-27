@@ -3,6 +3,7 @@ title: ParsingFormulaOnOpen
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether parsing the formula when reading the file.
 type: docs
+weight: 420
 url: /net/aspose.cells/workbooksettings/parsingformulaonopen/
 ---
 ## WorkbookSettings.ParsingFormulaOnOpen property

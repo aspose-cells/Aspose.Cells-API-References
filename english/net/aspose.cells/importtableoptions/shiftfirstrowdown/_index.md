@@ -3,6 +3,7 @@ title: ShiftFirstRowDown
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether shifting the first row down when inserting rows.
 type: docs
+weight: 130
 url: /net/aspose.cells/importtableoptions/shiftfirstrowdown/
 ---
 ## ImportTableOptions.ShiftFirstRowDown property

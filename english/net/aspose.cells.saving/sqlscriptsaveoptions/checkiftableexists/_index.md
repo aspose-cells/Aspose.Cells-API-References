@@ -3,6 +3,7 @@ title: CheckIfTableExists
 second_title: Aspose.Cells for .NET API Reference
 description: Check if the table name exists before creating
 type: docs
+weight: 40
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/checkiftableexists/
 ---
 ## SqlScriptSaveOptions.CheckIfTableExists property

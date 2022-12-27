@@ -3,6 +3,7 @@ title: MinusValue
 second_title: Aspose.Cells for .NET API Reference
 description: Represents negative error amount when error bar type is Custom.
 type: docs
+weight: 30
 url: /net/aspose.cells.charts/errorbar/minusvalue/
 ---
 ## ErrorBar.MinusValue property

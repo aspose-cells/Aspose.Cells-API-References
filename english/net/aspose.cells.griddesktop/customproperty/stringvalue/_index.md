@@ -3,6 +3,7 @@ title: StringValue
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the value of the custom property.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop/customproperty/stringvalue/
 ---
 ## CustomProperty.StringValue property

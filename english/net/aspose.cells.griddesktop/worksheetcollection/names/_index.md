@@ -3,6 +3,7 @@ title: Names
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the collection of all the Name objects in the spreadsheet.
 type: docs
+weight: 50
 url: /net/aspose.cells.griddesktop/worksheetcollection/names/
 ---
 ## WorksheetCollection.Names property

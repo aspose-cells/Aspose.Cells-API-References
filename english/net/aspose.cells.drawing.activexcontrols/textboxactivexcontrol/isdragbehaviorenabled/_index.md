@@ -3,6 +3,7 @@ title: IsDragBehaviorEnabled
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether dragging and dropping is enabled for the control.
 type: docs
+weight: 100
 url: /net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/isdragbehaviorenabled/
 ---
 ## TextBoxActiveXControl.IsDragBehaviorEnabled property

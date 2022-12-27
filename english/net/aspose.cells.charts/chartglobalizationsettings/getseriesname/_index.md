@@ -3,6 +3,7 @@ title: GetSeriesName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of Series in the Chart.
 type: docs
+weight: 90
 url: /net/aspose.cells.charts/chartglobalizationsettings/getseriesname/
 ---
 ## ChartGlobalizationSettings.GetSeriesName method

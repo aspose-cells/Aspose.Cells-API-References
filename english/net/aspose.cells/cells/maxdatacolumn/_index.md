@@ -3,6 +3,7 @@ title: MaxDataColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Maximum column index of cell which contains data.
 type: docs
+weight: 100
 url: /net/aspose.cells/cells/maxdatacolumn/
 ---
 ## Cells.MaxDataColumn property

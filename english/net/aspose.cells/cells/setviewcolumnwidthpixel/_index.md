@@ -3,6 +3,7 @@ title: SetViewColumnWidthPixel
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the width of the column in different view.
 type: docs
+weight: 1340
 url: /net/aspose.cells/cells/setviewcolumnwidthpixel/
 ---
 ## Cells.SetViewColumnWidthPixel method

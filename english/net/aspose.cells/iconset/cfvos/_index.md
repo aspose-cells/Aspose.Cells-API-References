@@ -3,6 +3,7 @@ title: Cfvos
 second_title: Aspose.Cells for .NET API Reference
 description: Get the CFValueObjects instance.
 type: docs
+weight: 20
 url: /net/aspose.cells/iconset/cfvos/
 ---
 ## IconSet.Cfvos property

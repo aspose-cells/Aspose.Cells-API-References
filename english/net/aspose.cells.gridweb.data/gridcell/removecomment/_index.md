@@ -3,6 +3,7 @@ title: RemoveComment
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the comment object of the cell.
 type: docs
+weight: 310
 url: /net/aspose.cells.gridweb.data/gridcell/removecomment/
 ---
 ## GridCell.RemoveComment method

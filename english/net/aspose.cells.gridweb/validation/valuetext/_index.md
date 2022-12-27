@@ -3,6 +3,7 @@ title: ValueText
 second_title: Aspose.Cells for .NET API Reference
 description: Design time used only.
 type: docs
+weight: 110
 url: /net/aspose.cells.gridweb/validation/valuetext/
 ---
 ## Validation.ValueText property

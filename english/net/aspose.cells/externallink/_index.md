@@ -3,6 +3,7 @@ title: ExternalLink
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an external link in a workbook.
 type: docs
+weight: 3380
 url: /net/aspose.cells/externallink/
 ---
 ## ExternalLink class

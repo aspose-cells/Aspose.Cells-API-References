@@ -3,6 +3,7 @@ title: PrintDraft
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the sheet will be printed without graphics.
 type: docs
+weight: 310
 url: /net/aspose.cells/pagesetup/printdraft/
 ---
 ## PageSetup.PrintDraft property

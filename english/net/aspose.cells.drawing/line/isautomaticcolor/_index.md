@@ -3,6 +3,7 @@ title: IsAutomaticColor
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the color of line is automatic assigned.
 type: docs
+weight: 140
 url: /net/aspose.cells.drawing/line/isautomaticcolor/
 ---
 ## Line.IsAutomaticColor property

@@ -3,6 +3,7 @@ title: CopyRow
 second_title: Aspose.Cells for .NET API Reference
 description: Copies data and formattings of a whole row.
 type: docs
+weight: 280
 url: /net/aspose.cells.gridweb.data/gridcells/copyrow/
 ---
 ## GridCells.CopyRow method

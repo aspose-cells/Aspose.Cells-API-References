@@ -3,6 +3,7 @@ title: ColorDepth
 second_title: Aspose.Cells for .NET API Reference
 description: Enumerates Bit Depth Type for tiff image.
 type: docs
+weight: 5110
 url: /net/aspose.cells.rendering/colordepth/
 ---
 ## ColorDepth enumeration

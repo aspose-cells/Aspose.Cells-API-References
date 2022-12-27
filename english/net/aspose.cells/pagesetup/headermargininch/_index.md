@@ -3,6 +3,7 @@ title: HeaderMarginInch
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the distance from the top of the page to the header in unit of inches.
 type: docs
+weight: 120
 url: /net/aspose.cells/pagesetup/headermargininch/
 ---
 ## PageSetup.HeaderMarginInch property

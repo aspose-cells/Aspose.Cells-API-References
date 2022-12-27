@@ -3,6 +3,7 @@ title: IgnoreArrayTitle
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether ignore title if array is a property of object.
 type: docs
+weight: 50
 url: /net/aspose.cells.utility/jsonlayoutoptions/ignorearraytitle/
 ---
 ## JsonLayoutOptions.IgnoreArrayTitle property

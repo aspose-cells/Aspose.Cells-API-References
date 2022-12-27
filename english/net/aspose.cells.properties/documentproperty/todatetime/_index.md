@@ -3,6 +3,7 @@ title: ToDateTime
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the property value as DateTime in local timezone.
 type: docs
+weight: 80
 url: /net/aspose.cells.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method

@@ -3,6 +3,7 @@ title: CancelNewBindRow
 second_title: Aspose.Cells for .NET API Reference
 description: Cancels and deletes the new added bind row.
 type: docs
+weight: 430
 url: /net/aspose.cells.gridweb.data/gridworksheet/cancelnewbindrow/
 ---
 ## GridWorksheet.CancelNewBindRow method

@@ -3,6 +3,7 @@ title: Columns
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop/cellrange/columns/
 ---
 ## CellRange.Columns property

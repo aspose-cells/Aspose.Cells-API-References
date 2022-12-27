@@ -3,6 +3,7 @@ title: GetLegendTotalName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of Total for Legend.
 type: docs
+weight: 70
 url: /net/aspose.cells.charts/chartglobalizationsettings/getlegendtotalname/
 ---
 ## ChartGlobalizationSettings.GetLegendTotalName method

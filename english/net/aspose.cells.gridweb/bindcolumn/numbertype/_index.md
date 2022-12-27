@@ -3,6 +3,7 @@ title: NumberType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the number type of the column.
 type: docs
+weight: 140
 url: /net/aspose.cells.gridweb/bindcolumn/numbertype/
 ---
 ## BindColumn.NumberType property

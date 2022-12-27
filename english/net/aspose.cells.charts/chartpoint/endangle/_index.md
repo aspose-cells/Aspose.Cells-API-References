@@ -1,8 +1,9 @@
 ---
 title: EndAngle
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the ending angle for the pie section measured in degrees clockwise from the xaxis after calls Chart.Calculate method. Applies to Pie chart.
+description: Gets the ending angle for the pie section measured in degrees clockwise from the x-axis after calls Chart.Calculate method. Applies to Pie chart.
 type: docs
+weight: 90
 url: /net/aspose.cells.charts/chartpoint/endangle/
 ---
 ## ChartPoint.EndAngle property

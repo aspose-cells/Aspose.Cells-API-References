@@ -3,6 +3,7 @@ title: PreferredParsers
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets preferred value parsers for loading text file.
 type: docs
+weight: 60
 url: /net/aspose.cells/txtloadoptions/preferredparsers/
 ---
 ## TxtLoadOptions.PreferredParsers property

@@ -3,6 +3,7 @@ title: SetStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the style to a specified range of cells.
 type: docs
+weight: 400
 url: /net/aspose.cells.gridweb.data/webcells/setstyle/
 ---
 ## SetStyle(int, int, int, int, TableItemStyle) {#setstyle}

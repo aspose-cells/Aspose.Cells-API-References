@@ -3,6 +3,7 @@ title: WebExtensionTaskPane
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a persisted taskpane object.
 type: docs
+weight: 6490
 url: /net/aspose.cells.webextensions/webextensiontaskpane/
 ---
 ## WebExtensionTaskPane class

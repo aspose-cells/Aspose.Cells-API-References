@@ -3,6 +3,7 @@ title: NSeries
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a SeriesCollectionaspose.cells.charts/seriescollection collection representing the data series in the chart.
 type: docs
+weight: 220
 url: /net/aspose.cells.charts/chart/nseries/
 ---
 ## Chart.NSeries property

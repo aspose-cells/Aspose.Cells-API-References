@@ -1,28 +1,33 @@
----
-title: DeleteOptions
-second_title: Aspose.Cells for Python via .NET API Reference
+﻿---
+title: DeleteOptions class
+second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
 weight: 470
 url: /python-net/aspose.cells/deleteoptions/
+is_root: false
 ---
 
 ## DeleteOptions class
 
 Represents the setting of deleting rows/columns.
 
+
+
 The DeleteOptions type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|DeleteOptions()|Initializes a new instance of the DeleteOptions class|
-## Properties
-| Name | Description |
+| [DeleteOptions()](/cells/python-net/aspose.cells/deleteoptions/__init__/#) |  |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|update_reference|Indicates if update references in other worksheets.|
+| [update_reference](/cells/python-net/aspose.cells/deleteoptions/update_reference) | Indicates if update references in other worksheets. |
+
 
 ### See Also
 
-* namespace [aspose.cells](/cells/python-net/aspose.cells/)
-* assembly [Aspose.Cells](/cells/python-net/)
-
+* module [aspose.cells](../)

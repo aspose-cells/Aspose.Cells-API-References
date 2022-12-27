@@ -3,6 +3,7 @@ title: DisplayZeros
 second_title: Aspose.Cells for .NET API Reference
 description: True if zero values are displayed.
 type: docs
+weight: 140
 url: /net/aspose.cells.gridweb.data/gridworksheet/displayzeros/
 ---
 ## GridWorksheet.DisplayZeros property

@@ -3,6 +3,7 @@ title: UndoStackSize
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the undo/redo stack size. The default value is 300.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop/undomanager/undostacksize/
 ---
 ## UndoManager.UndoStackSize property

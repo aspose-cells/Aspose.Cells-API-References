@@ -3,6 +3,7 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of the pivot item.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop.data/gridpivotitem/name/
 ---
 ## GridPivotItem.Name property

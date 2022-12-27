@@ -3,6 +3,7 @@ title: BackgroundColor
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the marker background color in a line chart scatter chart or radar chart.
 type: docs
+weight: 20
 url: /net/aspose.cells.charts/marker/backgroundcolor/
 ---
 ## Marker.BackgroundColor property

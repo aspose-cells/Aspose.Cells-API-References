@@ -3,6 +3,7 @@ title: CompoundType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the line compound type.
 type: docs
+weight: 50
 url: /net/aspose.cells.drawing/lineformat/compoundtype/
 ---
 ## LineFormat.CompoundType property

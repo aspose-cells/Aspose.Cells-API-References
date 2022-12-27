@@ -3,6 +3,7 @@ title: Pattern
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an areas display pattern.
 type: docs
+weight: 100
 url: /net/aspose.cells.drawing/fillformat/pattern/
 ---
 ## FillFormat.Pattern property

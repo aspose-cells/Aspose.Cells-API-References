@@ -3,6 +3,7 @@ title: TextDirection
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets text direction attribute.
 type: docs
+weight: 140
 url: /net/aspose.cells.griddesktop/style/textdirection/
 ---
 ## Style.TextDirection property

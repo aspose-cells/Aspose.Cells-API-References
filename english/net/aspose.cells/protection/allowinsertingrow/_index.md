@@ -3,6 +3,7 @@ title: AllowInsertingRow
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the insertion of rows is allowed on a protected worksheet
 type: docs
+weight: 120
 url: /net/aspose.cells/protection/allowinsertingrow/
 ---
 ## Protection.AllowInsertingRow property

@@ -3,6 +3,7 @@ title: BeforeLoadFile
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs before workbook loaded from file.
 type: docs
+weight: 380
 url: /net/aspose.cells.griddesktop/griddesktop/beforeloadfile/
 ---
 ## GridDesktop.BeforeLoadFile event

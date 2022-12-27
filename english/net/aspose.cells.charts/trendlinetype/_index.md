@@ -3,6 +3,7 @@ title: TrendlineType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the trendline type.
 type: docs
+weight: 1010
 url: /net/aspose.cells.charts/trendlinetype/
 ---
 ## TrendlineType enumeration

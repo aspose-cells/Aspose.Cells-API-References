@@ -3,6 +3,7 @@ title: UndoCommand
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the undo button is clicked.
 type: docs
+weight: 1360
 url: /net/aspose.cells.gridweb/mainweb/undocommand/
 ---
 ## MainWeb.UndoCommand event

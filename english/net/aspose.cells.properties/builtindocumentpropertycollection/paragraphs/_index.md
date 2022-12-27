@@ -3,6 +3,7 @@ title: Paragraphs
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an estimate of the number of paragraphs in the document.
 type: docs
+weight: 270
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/paragraphs/
 ---
 ## BuiltInDocumentPropertyCollection.Paragraphs property

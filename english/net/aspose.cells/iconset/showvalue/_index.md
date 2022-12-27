@@ -3,6 +3,7 @@ title: ShowValue
 second_title: Aspose.Cells for .NET API Reference
 description: Get or set the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true.
 type: docs
+weight: 50
 url: /net/aspose.cells/iconset/showvalue/
 ---
 ## IconSet.ShowValue property

@@ -3,6 +3,7 @@ title: IsGroup
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the shape is a group.
 type: docs
+weight: 330
 url: /net/aspose.cells.drawing/shape/isgroup/
 ---
 ## Shape.IsGroup property

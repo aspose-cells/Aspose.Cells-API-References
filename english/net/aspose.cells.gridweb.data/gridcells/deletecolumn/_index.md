@@ -3,6 +3,7 @@ title: DeleteColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes a column.
 type: docs
+weight: 320
 url: /net/aspose.cells.gridweb.data/gridcells/deletecolumn/
 ---
 ## DeleteColumn(int) {#deletecolumn}

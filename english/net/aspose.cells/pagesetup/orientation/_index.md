@@ -3,6 +3,7 @@ title: Orientation
 second_title: Aspose.Cells for .NET API Reference
 description: Represents page print orientation.
 type: docs
+weight: 240
 url: /net/aspose.cells/pagesetup/orientation/
 ---
 ## PageSetup.Orientation property

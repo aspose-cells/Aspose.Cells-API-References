@@ -3,6 +3,7 @@ title: SetCharacters
 second_title: Aspose.Cells for .NET API Reference
 description: Sets rich text format of the cell.
 type: docs
+weight: 630
 url: /net/aspose.cells/cell/setcharacters/
 ---
 ## Cell.SetCharacters method

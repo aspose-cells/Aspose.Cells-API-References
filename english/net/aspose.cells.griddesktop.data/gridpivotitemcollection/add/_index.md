@@ -3,6 +3,7 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a PivotItem Object to the specific type PivotItems.
 type: docs
+weight: 30
 url: /net/aspose.cells.griddesktop.data/gridpivotitemcollection/add/
 ---
 ## GridPivotItemCollection.Add method

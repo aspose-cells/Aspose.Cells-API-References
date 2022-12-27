@@ -1,8 +1,9 @@
 ---
 title: PivotTableStyleType
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets the builtin pivot table style.
+description: Gets and sets the built-in pivot table style.
 type: docs
+weight: 450
 url: /net/aspose.cells.pivot/pivottable/pivottablestyletype/
 ---
 ## PivotTable.PivotTableStyleType property

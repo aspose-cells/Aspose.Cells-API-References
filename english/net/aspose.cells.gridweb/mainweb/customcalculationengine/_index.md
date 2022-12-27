@@ -3,6 +3,7 @@ title: CustomCalculationEngine
 second_title: Aspose.Cells for .NET API Reference
 description: Represents users custom calculation engine to extend the default calculation engine of Aspose.Cells.
 type: docs
+weight: 150
 url: /net/aspose.cells.gridweb/mainweb/customcalculationengine/
 ---
 ## MainWeb.CustomCalculationEngine property
