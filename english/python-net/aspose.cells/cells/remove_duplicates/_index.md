@@ -1,0 +1,68 @@
+﻿---
+title: remove_duplicates method
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 810
+url: /python-net/aspose.cells/cells/remove_duplicates/
+is_root: false
+---
+
+## remove_duplicates() {#}
+
+Removes duplicate rows in the sheet.
+
+
+
+```python
+def remove_duplicates(self):
+    ...
+```
+
+
+
+
+## remove_duplicates(start_row, start_column, end_row, end_column) {#int-int-int-int}
+
+Removes duplicate values in the range.
+
+
+
+```python
+def remove_duplicates(self, start_row, start_column, end_row, end_column):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| start_row | int | The start row. |
+| start_column | int | The start column |
+| end_row | int | The end row index. |
+| end_column | int | The end column index. |
+
+
+## remove_duplicates(start_row, start_column, end_row, end_column, has_headers, column_offsets) {#int-int-int-int-bool-list}
+
+
+
+```python
+def remove_duplicates(self, start_row, start_column, end_row, end_column, has_headers, column_offsets):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| start_row | int |  |
+| start_column | int |  |
+| end_row | int |  |
+| end_column | int |  |
+| has_headers | bool |  |
+| column_offsets | list |  |
+
+
+
+### See Also
+* module [aspose.cells](../../)
+* class [Cells](/cells/python-net/aspose.cells/cells)

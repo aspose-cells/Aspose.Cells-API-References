@@ -1,0 +1,71 @@
+﻿---
+title: to_image method
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 210
+url: /python-net/aspose.cells.drawing/groupbox/to_image/
+is_root: false
+---
+
+## to_image(stream, image_type) {#io.RawIOBase-ImageType}
+
+Creates the shape image and saves it to a stream in the specified format.
+
+
+
+```python
+def to_image(self, stream, image_type):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| stream | io.RawIOBase | The output stream. |
+| image_type | [ImageType](/cells/python-net/aspose.cells.drawing/imagetype) | The type in which to save the image. |
+### Remarks
+
+The following formats are supported: 
+.bmp, .gif, .jpg, .jpeg, .tiff, .emf.
+
+## to_image(image_file, options) {#str-aspose.cells.rendering.ImageOrPrintOptions}
+
+Saves the shape to a file.
+
+
+
+```python
+def to_image(self, image_file, options):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| image_file | str |  |
+| options | aspose.cells.rendering.ImageOrPrintOptions |  |
+
+
+## to_image(stream, options) {#io.RawIOBase-aspose.cells.rendering.ImageOrPrintOptions}
+
+Saves the shape to a stream.
+
+
+
+```python
+def to_image(self, stream, options):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| stream | io.RawIOBase |  |
+| options | aspose.cells.rendering.ImageOrPrintOptions |  |
+
+
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [GroupBox](/cells/python-net/aspose.cells.drawing/groupbox)

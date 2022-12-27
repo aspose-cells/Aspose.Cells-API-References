@@ -1,0 +1,18 @@
+﻿---
+title: rotation_angle property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 880
+url: /python-net/aspose.cells.drawing/checkbox/rotation_angle/
+is_root: false
+---
+
+## rotation_angle property
+
+
+Gets and sets the rotation of the shape.
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [CheckBox](/cells/python-net/aspose.cells.drawing/checkbox)

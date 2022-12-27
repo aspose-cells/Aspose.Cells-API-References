@@ -1,0 +1,18 @@
+﻿---
+title: height_percent property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 290
+url: /python-net/aspose.cells.charts/chart/height_percent/
+is_root: false
+---
+
+## height_percent property
+
+
+Returns or sets the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent).
+
+### See Also
+* module [aspose.cells.charts](../../)
+* class [Chart](/cells/python-net/aspose.cells.charts/chart)

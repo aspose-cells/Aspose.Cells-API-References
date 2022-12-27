@@ -1,0 +1,36 @@
+﻿---
+title: get_precedents_in_calculation method
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 190
+url: /python-net/aspose.cells/cell/get_precedents_in_calculation/
+is_root: false
+---
+
+## get_precedents_in_calculation() {#}
+
+Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it.
+
+### Returns 
+
+
+Enumerator to enumerate all references(ReferredArea)
+
+
+```python
+def get_precedents_in_calculation(self):
+    ...
+```
+
+
+### Remarks
+
+This method can only work with the situation that [FormulaSettings.enable_calculation_chain](/cells/python-net/aspose.cells/formulasettings#enable_calculation_chain)
+is true for the workbook and the workbook has been fully calculated.
+If this cell is not a formula or it does not reference to any other cells, null will be returned.
+
+
+### See Also
+* module [aspose.cells](../../)
+* class [Cell](/cells/python-net/aspose.cells/cell)

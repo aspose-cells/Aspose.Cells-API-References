@@ -1,0 +1,28 @@
+﻿---
+title: remove_active_x_control method
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 160
+url: /python-net/aspose.cells.drawing/listbox/remove_active_x_control/
+is_root: false
+---
+
+## remove_active_x_control() {#}
+
+Remove activeX control.
+
+
+
+```python
+def remove_active_x_control(self):
+    ...
+```
+
+
+
+
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [ListBox](/cells/python-net/aspose.cells.drawing/listbox)

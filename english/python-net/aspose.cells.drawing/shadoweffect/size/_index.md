@@ -1,0 +1,19 @@
+﻿---
+title: size property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 80
+url: /python-net/aspose.cells.drawing/shadoweffect/size/
+is_root: false
+---
+
+## size property
+
+
+Gets and sets the size of the shadow. Range from 0 to 2.0. 
+Meaningless in inner shadow.
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)

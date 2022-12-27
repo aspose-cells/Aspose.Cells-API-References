@@ -1,0 +1,18 @@
+﻿---
+title: bottom property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 330
+url: /python-net/aspose.cells.drawing/picture/bottom/
+is_root: false
+---
+
+## bottom property
+
+
+Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)

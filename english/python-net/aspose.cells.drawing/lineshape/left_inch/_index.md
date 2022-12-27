@@ -1,0 +1,18 @@
+﻿---
+title: left_inch property
+second_title: Aspose.Cells for Python via .NET API References
+description: 
+type: docs
+weight: 750
+url: /python-net/aspose.cells.drawing/lineshape/left_inch/
+is_root: false
+---
+
+## left_inch property
+
+
+Represents the horizontal offset of shape from its left column, in unit of inches.
+
+### See Also
+* module [aspose.cells.drawing](../../)
+* class [LineShape](/cells/python-net/aspose.cells.drawing/lineshape)
