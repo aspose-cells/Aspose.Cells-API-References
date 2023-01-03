@@ -40,9 +40,7 @@ Represents the setting of shape's text alignment;
 | [getTextVerticalOverflow()](#getTextVerticalOverflow--) | Gets the text vertical overflow type of the text box. |
 | [getTextVerticalType()](#getTextVerticalType--) | Gets the text direction. |
 | [getTopMarginPt()](#getTopMarginPt--) | Returns the top margin in unit of Points |
-| [hashCode()](#hashCode--) | ```
-int hashCode = shapeTextAlignment.hashCode();
-``` |
+| [hashCode()](#hashCode--) |  |
 | [isAutoMargin()](#isAutoMargin--) | Indicates whether the margin of the text frame is automatic. |
 | [isTextWrapped()](#isTextWrapped--) | Gets the text wrapped type of the shape which contains text. |
 | [notify()](#notify--) |  |
@@ -547,3 +545,5 @@ public final void wait(long arg0, int arg1)
 | arg0 | long |  |
 | arg1 | int |  |
 
+
+```
