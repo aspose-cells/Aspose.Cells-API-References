@@ -10,6 +10,8 @@ is_root: false
 
 ## ExportTableOptions() {#}
 
+Constructs a new instance of ExportTableOptions
+
 
 
 ```python

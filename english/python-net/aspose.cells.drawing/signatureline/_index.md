@@ -19,7 +19,7 @@ The SignatureLine type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [SignatureLine()](/cells/python-net/aspose.cells.drawing/signatureline/__init__/#) |  |
+| [SignatureLine()](/cells/python-net/aspose.cells.drawing/signatureline/__init__/#) | Constructs a new instance of SignatureLine |
 
 
 ### Properties

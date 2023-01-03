@@ -86,8 +86,8 @@ The Worksheet type exposes the following members:
 | :- | :- |
 | [freeze_panes(row, column, freezed_rows, freezed_columns)](/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) | Freezes panes at the specified cell in the worksheet. |
 | [freeze_panes(cell_name, freezed_rows, freezed_columns)](/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) | Freezes panes at the specified cell in the worksheet. |
-| [copy(source_sheet)](/cells/python-net/aspose.cells/worksheet/copy/#Worksheet) |  |
-| [copy(source_sheet, copy_options)](/cells/python-net/aspose.cells/worksheet/copy/#Worksheet-CopyOptions) |  |
+| [copy(source_sheet)](/cells/python-net/aspose.cells/worksheet/copy/#Worksheet) | Copies contents and formats from another worksheet. |
+| [copy(source_sheet, copy_options)](/cells/python-net/aspose.cells/worksheet/copy/#Worksheet-CopyOptions) | Copies contents and formats from another worksheet. |
 | [auto_fit_column(column_index, first_row, last_row)](/cells/python-net/aspose.cells/worksheet/auto_fit_column/#int-int-int) | Autofits the column width. |
 | [auto_fit_column(column_index)](/cells/python-net/aspose.cells/worksheet/auto_fit_column/#int) | Autofits the column width. |
 | [auto_fit_columns()](/cells/python-net/aspose.cells/worksheet/auto_fit_columns/#) | Autofits all columns in this worksheet. |
@@ -114,7 +114,7 @@ The Worksheet type exposes the following members:
 | [calculate_formula(recursive, ignore_error, custom_function)](/cells/python-net/aspose.cells/worksheet/calculate_formula/#bool-bool-ICustomFunction) | Calculates all formulas in this worksheet. |
 | [calculate_formula(options, recursive)](/cells/python-net/aspose.cells/worksheet/calculate_formula/#CalculationOptions-bool) | Calculates all formulas in this worksheet. |
 | [get_panes()](/cells/python-net/aspose.cells/worksheet/get_panes/#) | Gets the window panes. |
-| [get_freezed_panes(row, column, freezed_rows, freezed_columns)](/cells/python-net/aspose.cells/worksheet/get_freezed_panes/#any-any-any-any) |  |
+| [get_freezed_panes(row, column, freezed_rows, freezed_columns)](/cells/python-net/aspose.cells/worksheet/get_freezed_panes/#any-any-any-any) | Gets the freeze panes. |
 | [split()](/cells/python-net/aspose.cells/worksheet/split/#) | Splits window. |
 | [un_freeze_panes()](/cells/python-net/aspose.cells/worksheet/un_freeze_panes/#) | Unfreezes panes in the worksheet. |
 | [remove_split()](/cells/python-net/aspose.cells/worksheet/remove_split/#) | Removes split window. |
@@ -128,7 +128,7 @@ The Worksheet type exposes the following members:
 | [move_to(index)](/cells/python-net/aspose.cells/worksheet/move_to/#int) | Moves the sheet to another location in the spreadsheet. |
 | [replace(old_string, new_string)](/cells/python-net/aspose.cells/worksheet/replace/#str-str) | Replaces all cells' text with a new string. |
 | [get_selected_ranges()](/cells/python-net/aspose.cells/worksheet/get_selected_ranges/#) | Gets selected ranges of cells in the designer spreadsheet. |
-| [set_background(picture_data)](/cells/python-net/aspose.cells/worksheet/set_background/#bytes) |  |
+| [set_background(picture_data)](/cells/python-net/aspose.cells/worksheet/set_background/#bytes) | Sets worksheet background image. |
 | [get_printing_page_breaks(options)](/cells/python-net/aspose.cells/worksheet/get_printing_page_breaks/#aspose.cells.rendering.ImageOrPrintOptions) | Gets automatic page breaks. |
 | [start_access_cache(opts)](/cells/python-net/aspose.cells/worksheet/start_access_cache/#AccessCacheOptions) | Starts the session that uses caches to access the data in this worksheet. |
 | [close_access_cache(opts)](/cells/python-net/aspose.cells/worksheet/close_access_cache/#AccessCacheOptions) | Closes the session that uses caches to access the data in this worksheet. |

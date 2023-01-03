@@ -52,6 +52,12 @@ def union(self, union_range):
 
 ## union(ranges) {#list}
 
+Union the ranges.
+
+### Returns 
+
+
+
 
 
 ```python
@@ -62,7 +68,7 @@ def union(self, ranges):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ranges | list |  |
+| ranges | list | The ranges. |
 
 
 

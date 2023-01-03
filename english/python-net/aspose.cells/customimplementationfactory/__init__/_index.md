@@ -10,6 +10,8 @@ is_root: false
 
 ## CustomImplementationFactory() {#}
 
+Constructs a new instance of CustomImplementationFactory
+
 
 
 ```python

@@ -19,7 +19,7 @@ The SqlScriptColumnTypeMap type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [SqlScriptColumnTypeMap()](/cells/python-net/aspose.cells.saving/sqlscriptcolumntypemap/__init__/#) |  |
+| [SqlScriptColumnTypeMap()](/cells/python-net/aspose.cells.saving/sqlscriptcolumntypemap/__init__/#) | Constructs a new instance of SqlScriptColumnTypeMap |
 
 
 ### Methods

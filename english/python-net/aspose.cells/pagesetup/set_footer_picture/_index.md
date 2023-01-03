@@ -10,6 +10,12 @@ is_root: false
 
 ## set_footer_picture(section, footer_picture) {#int-bytes}
 
+Sets an image in the footer of a worksheet.
+
+### Returns 
+
+
+Returns [Picture](/cells/python-net/aspose.cells.drawing/picture) object.
 
 
 ```python
@@ -20,8 +26,8 @@ def set_footer_picture(self, section, footer_picture):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| section | int |  |
-| footer_picture | bytes |  |
+| section | int | 0: Left Section, 1: Center Section, 2: Right Section. |
+| footer_picture | bytes | Image data. |
 
 
 

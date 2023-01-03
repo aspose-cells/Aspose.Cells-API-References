@@ -10,6 +10,8 @@ is_root: false
 
 ## get_two_color_gradient(color1, color2, gradient_style_type, variant) {#aspose.pydrawing.Color&-aspose.pydrawing.Color&-any-any}
 
+Get the two-color gradient setting.
+
 
 
 ```python
@@ -20,10 +22,10 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color1 | aspose.pydrawing.Color& |  |
-| color2 | aspose.pydrawing.Color& |  |
-| gradient_style_type | any |  |
-| variant | any |  |
+| color1 | aspose.pydrawing.Color& | One gradient color. |
+| color2 | aspose.pydrawing.Color& | Two gradient color. |
+| gradient_style_type | any | Gradient shading style. |
+| variant | any | The gradient variant. |
 
 
 

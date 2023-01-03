@@ -10,6 +10,8 @@ is_root: false
 
 ## AxisBins() {#}
 
+Constructs a new instance of AxisBins
+
 
 
 ```python

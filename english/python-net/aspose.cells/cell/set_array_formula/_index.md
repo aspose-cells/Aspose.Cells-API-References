@@ -75,6 +75,8 @@ Aspose apologizes for any inconvenience you may have experienced.
 
 ## set_array_formula(array_formula, row_number, column_number, options, values) {#str-int-int-FormulaParseOptions-list}
 
+Sets an array formula to a range of cells.
+
 
 
 ```python
@@ -85,11 +87,11 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| array_formula | str |  |
-| row_number | int |  |
-| column_number | int |  |
-| options | [FormulaParseOptions](/cells/python-net/aspose.cells/formulaparseoptions) |  |
-| values | list |  |
+| array_formula | str | Array formula. |
+| row_number | int | Number of rows to populate result of the array formula. |
+| column_number | int | Number of columns to populate result of the array formula. |
+| options | [FormulaParseOptions](/cells/python-net/aspose.cells/formulaparseoptions) | Options for parsing the formula. |
+| values | list | values for those cells with given array formula |
 
 
 

@@ -19,7 +19,7 @@ The ChartGlobalizationSettings type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [ChartGlobalizationSettings()](/cells/python-net/aspose.cells.charts/chartglobalizationsettings/__init__/#) |  |
+| [ChartGlobalizationSettings()](/cells/python-net/aspose.cells.charts/chartglobalizationsettings/__init__/#) | Constructs a new instance of ChartGlobalizationSettings |
 
 
 ### Methods

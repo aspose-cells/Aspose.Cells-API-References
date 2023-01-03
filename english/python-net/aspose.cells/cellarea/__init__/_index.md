@@ -10,6 +10,8 @@ is_root: false
 
 ## CellArea() {#}
 
+Constructs a new instance of CellArea
+
 
 
 ```python

@@ -171,7 +171,7 @@ The Picture type exposes the following members:
 | [get_characters()](/cells/python-net/aspose.cells.drawing/picture/get_characters/#) | Returns all Characters objects <br/>that represents a range of characters within the text . |
 | [remove_active_x_control()](/cells/python-net/aspose.cells.drawing/picture/remove_active_x_control/#) | Remove activeX control. |
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/picture/is_same_setting/#any) | Returns whether the shape is same. |
-| [copy(source, options)](/cells/python-net/aspose.cells.drawing/picture/copy/#Picture-CopyOptions) |  |
+| [copy(source, options)](/cells/python-net/aspose.cells.drawing/picture/copy/#Picture-CopyOptions) | Copy the picture. |
 | [move(upper_left_row, upper_left_column)](/cells/python-net/aspose.cells.drawing/picture/move/#int-int) | Moves the picture to a specified location. |
 
 

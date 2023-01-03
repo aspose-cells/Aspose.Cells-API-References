@@ -19,7 +19,7 @@ The JsonLayoutOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [JsonLayoutOptions()](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/__init__/#) |  |
+| [JsonLayoutOptions()](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/__init__/#) | Constructs a new instance of JsonLayoutOptions |
 
 
 ### Properties

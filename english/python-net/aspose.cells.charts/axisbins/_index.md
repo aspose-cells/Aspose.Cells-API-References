@@ -19,7 +19,7 @@ The AxisBins type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [AxisBins()](/cells/python-net/aspose.cells.charts/axisbins/__init__/#) |  |
+| [AxisBins()](/cells/python-net/aspose.cells.charts/axisbins/__init__/#) | Constructs a new instance of AxisBins |
 
 
 ### Properties

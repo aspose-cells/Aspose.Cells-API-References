@@ -10,6 +10,8 @@ is_root: false
 
 ## MultipleFilterCollection() {#}
 
+Constructs a new instance of MultipleFilterCollection
+
 
 
 ```python

@@ -10,6 +10,8 @@ is_root: false
 
 ## OdsPageBackground() {#}
 
+Constructs a new instance of OdsPageBackground
+
 
 
 ```python

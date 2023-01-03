@@ -19,7 +19,7 @@ The AutoFitterOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [AutoFitterOptions()](/cells/python-net/aspose.cells/autofitteroptions/__init__/#) |  |
+| [AutoFitterOptions()](/cells/python-net/aspose.cells/autofitteroptions/__init__/#) | Constructs a new instance of AutoFitterOptions |
 
 
 ### Properties

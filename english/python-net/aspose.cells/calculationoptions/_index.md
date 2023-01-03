@@ -19,7 +19,7 @@ The CalculationOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [CalculationOptions()](/cells/python-net/aspose.cells/calculationoptions/__init__/#) |  |
+| [CalculationOptions()](/cells/python-net/aspose.cells/calculationoptions/__init__/#) | Constructs a new instance of CalculationOptions |
 
 
 ### Properties

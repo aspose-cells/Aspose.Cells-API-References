@@ -10,6 +10,8 @@ is_root: false
 
 ## set_background(picture_data) {#bytes}
 
+Sets worksheet background image.
+
 
 
 ```python
@@ -20,8 +22,13 @@ def set_background(self, picture_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| picture_data | bytes |  |
+| picture_data | bytes | Picture data. |
+### Remarks
 
+NOTE: This member is now obsolete. Instead, 
+please use Worksheet.BackgroundImage property.
+This property will be removed 12 months later since August 2016. 
+Aspose apologizes for any inconvenience you may have experienced.
 
 
 ### See Also

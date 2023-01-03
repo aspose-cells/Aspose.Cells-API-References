@@ -10,6 +10,8 @@ is_root: false
 
 ## AutoNumberedBulletValue() {#}
 
+Constructs a new instance of AutoNumberedBulletValue
+
 
 
 ```python

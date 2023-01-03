@@ -11,6 +11,8 @@ is_root: false
 ## is_auto property
 
 
+Indicates whether this line style is auto assigned.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

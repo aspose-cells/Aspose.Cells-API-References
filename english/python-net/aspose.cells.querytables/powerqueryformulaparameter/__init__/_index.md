@@ -10,6 +10,8 @@ is_root: false
 
 ## PowerQueryFormulaParameter() {#}
 
+Constructs a new instance of PowerQueryFormulaParameter
+
 
 
 ```python

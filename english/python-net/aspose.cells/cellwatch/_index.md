@@ -19,7 +19,7 @@ The CellWatch type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [CellWatch()](/cells/python-net/aspose.cells/cellwatch/__init__/#) |  |
+| [CellWatch()](/cells/python-net/aspose.cells/cellwatch/__init__/#) | Constructs a new instance of CellWatch |
 
 
 ### Properties

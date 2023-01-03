@@ -68,14 +68,14 @@ The Workbook type exposes the following members:
 | [replace(place_holder, new_value)](/cells/python-net/aspose.cells/workbook/replace/#str-str) | Replaces a cell's value with a new string. |
 | [replace(place_holder, new_value)](/cells/python-net/aspose.cells/workbook/replace/#str-int) | Replaces a cell's value with a new integer. |
 | [replace(place_holder, new_value)](/cells/python-net/aspose.cells/workbook/replace/#str-float) | Replaces a cell's value with a new double. |
-| [replace(place_holder, new_values, is_vertical)](/cells/python-net/aspose.cells/workbook/replace/#str-list-bool) |  |
-| [replace(place_holder, new_values, is_vertical)](/cells/python-net/aspose.cells/workbook/replace/#str-list-bool) |  |
-| [replace(place_holder, new_values, is_vertical)](/cells/python-net/aspose.cells/workbook/replace/#str-list-bool) |  |
+| [replace(place_holder, new_values, is_vertical)](/cells/python-net/aspose.cells/workbook/replace/#str-list-bool) | Replaces a cell's value with a new string array. |
+| [replace(place_holder, new_values, is_vertical)](/cells/python-net/aspose.cells/workbook/replace/#str-list-bool) | Replaces cells' values with an integer array. |
+| [replace(place_holder, new_values, is_vertical)](/cells/python-net/aspose.cells/workbook/replace/#str-list-bool) | Replaces cells' values with a double array. |
 | [replace(bool_value, new_value)](/cells/python-net/aspose.cells/workbook/replace/#bool-any) | Replaces cells' values with new data. |
 | [replace(int_value, new_value)](/cells/python-net/aspose.cells/workbook/replace/#int-any) | Replaces cells' values with new data. |
 | [replace(place_holder, new_value, options)](/cells/python-net/aspose.cells/workbook/replace/#str-str-ReplaceOptions) | Replaces a cell's value with a new string. |
-| [copy(source, copy_options)](/cells/python-net/aspose.cells/workbook/copy/#Workbook-CopyOptions) |  |
-| [copy(source)](/cells/python-net/aspose.cells/workbook/copy/#Workbook) |  |
+| [copy(source, copy_options)](/cells/python-net/aspose.cells/workbook/copy/#Workbook-CopyOptions) | Copies data from a source Workbook object. |
+| [copy(source)](/cells/python-net/aspose.cells/workbook/copy/#Workbook) | Copies data from a source Workbook object. |
 | [calculate_formula()](/cells/python-net/aspose.cells/workbook/calculate_formula/#) | Calculates the result of formulas. |
 | [calculate_formula(ignore_error)](/cells/python-net/aspose.cells/workbook/calculate_formula/#bool) | Calculates the result of formulas. |
 | [calculate_formula(ignore_error, custom_function)](/cells/python-net/aspose.cells/workbook/calculate_formula/#bool-ICustomFunction) | Calculates the result of formulas. |
@@ -93,7 +93,7 @@ The Workbook type exposes the following members:
 | [create_style()](/cells/python-net/aspose.cells/workbook/create_style/#) | Creates a new style. |
 | [create_builtin_style(type)](/cells/python-net/aspose.cells/workbook/create_builtin_style/#BuiltinStyleType) | Creates built-in style by given type. |
 | [create_cells_color()](/cells/python-net/aspose.cells/workbook/create_cells_color/#) | Creates a [CellsColor](/cells/python-net/aspose.cells/cellscolor) object. |
-| [combine(second_workbook)](/cells/python-net/aspose.cells/workbook/combine/#Workbook) |  |
+| [combine(second_workbook)](/cells/python-net/aspose.cells/workbook/combine/#Workbook) | Combines another Workbook object. |
 | [get_style_in_pool(index)](/cells/python-net/aspose.cells/workbook/get_style_in_pool/#int) | Gets the style in the style pool.<br/>All styles in the workbook will be gathered into a pool.<br/>There is only a simple reference index in the cells. |
 | [get_fonts()](/cells/python-net/aspose.cells/workbook/get_fonts/#) | Gets all fonts in the style pool. |
 | [get_named_style(name)](/cells/python-net/aspose.cells/workbook/get_named_style/#str) | Gets the named style in the style pool. |
@@ -102,9 +102,9 @@ The Workbook type exposes the following members:
 | [get_matching_color(raw_color)](/cells/python-net/aspose.cells/workbook/get_matching_color/#aspose.pydrawing.Color) | Find best matching Color in current palette. |
 | [set_encryption_options(encryption_type, key_length)](/cells/python-net/aspose.cells/workbook/set_encryption_options/#EncryptionType-int) | Set Encryption Options. |
 | [protect(protection_type, password)](/cells/python-net/aspose.cells/workbook/protect/#ProtectionType-str) | Protects a workbook. |
-| [protect_shared_workbook(password)](/cells/python-net/aspose.cells/workbook/protect_shared_workbook/#str) |  |
+| [protect_shared_workbook(password)](/cells/python-net/aspose.cells/workbook/protect_shared_workbook/#str) | Protects a shared workbook. |
 | [unprotect(password)](/cells/python-net/aspose.cells/workbook/unprotect/#str) | Unprotects a workbook. |
-| [unprotect_shared_workbook(password)](/cells/python-net/aspose.cells/workbook/unprotect_shared_workbook/#str) |  |
+| [unprotect_shared_workbook(password)](/cells/python-net/aspose.cells/workbook/unprotect_shared_workbook/#str) | Unprotects a shared workbook. |
 | [remove_macro()](/cells/python-net/aspose.cells/workbook/remove_macro/#) | Removes VBA/macro from this spreadsheet. |
 | [remove_digital_signature()](/cells/python-net/aspose.cells/workbook/remove_digital_signature/#) | Removes digital signature from this spreadsheet. |
 | [accept_all_revisions()](/cells/python-net/aspose.cells/workbook/accept_all_revisions/#) | Accepts all tracked changes in the workbook. |
@@ -112,9 +112,9 @@ The Workbook type exposes the following members:
 | [get_theme_color(type)](/cells/python-net/aspose.cells/workbook/get_theme_color/#ThemeColorType) | Gets theme color. |
 | [set_theme_color(type, color)](/cells/python-net/aspose.cells/workbook/set_theme_color/#ThemeColorType-aspose.pydrawing.Color) | Sets the theme color |
 | [custom_theme(theme_name, colors)](/cells/python-net/aspose.cells/workbook/custom_theme/#str-aspose.pydrawing.Color[]) | Customs the theme. |
-| [copy_theme(source)](/cells/python-net/aspose.cells/workbook/copy_theme/#Workbook) |  |
+| [copy_theme(source)](/cells/python-net/aspose.cells/workbook/copy_theme/#Workbook) | Copies the theme from another workbook. |
 | [has_exernal_links()](/cells/python-net/aspose.cells/workbook/has_exernal_links/#) | Indicates whether this workbook contains external links to other data sources. |
-| [update_linked_data_source(external_workbooks)](/cells/python-net/aspose.cells/workbook/update_linked_data_source/#list) |  |
+| [update_linked_data_source(external_workbooks)](/cells/python-net/aspose.cells/workbook/update_linked_data_source/#list) | If this workbook contains external links to other data source,<br/>Aspose.Cells will attempt to retrieve the latest data. |
 | [set_digital_signature(digital_signature_collection)](/cells/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Sets digital signature to an spreadsheet file (Excel2007 and later). |
 | [add_digital_signature(digital_signature_collection)](/cells/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Adds digital signature to an OOXML spreadsheet file (Excel2007 and later). |
 | [get_digital_signature()](/cells/python-net/aspose.cells/workbook/get_digital_signature/#) | Gets digital signature from file. |

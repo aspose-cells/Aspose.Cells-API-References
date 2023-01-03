@@ -10,6 +10,8 @@ is_root: false
 
 ## InterruptMonitor() {#}
 
+Constructs a new instance of InterruptMonitor
+
 
 
 ```python

@@ -10,6 +10,8 @@ is_root: false
 
 ## set_characters(characters) {#list}
 
+Sets rich text format of the cell.
+
 
 
 ```python
@@ -20,7 +22,7 @@ def set_characters(self, characters):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| characters | list |  |
+| characters | list | All Characters objects. |
 
 
 

@@ -10,6 +10,8 @@ is_root: false
 
 ## FindOptions() {#}
 
+Constructs a new instance of FindOptions
+
 
 
 ```python

@@ -11,6 +11,8 @@ is_root: false
 ## is_visible property
 
 
+Represents whether the line is visible.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

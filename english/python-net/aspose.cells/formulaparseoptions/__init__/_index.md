@@ -10,6 +10,8 @@ is_root: false
 
 ## FormulaParseOptions() {#}
 
+Constructs a new instance of FormulaParseOptions
+
 
 
 ```python

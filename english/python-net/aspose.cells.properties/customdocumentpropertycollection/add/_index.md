@@ -54,6 +54,12 @@ def add(self, name, value):
 
 ## add(name, value) {#str-DateTime}
 
+Creates a new custom document property of the **PropertyType.DateTime**  data type.
+
+### Returns 
+
+
+The newly created property object.
 
 
 ```python
@@ -64,8 +70,8 @@ def add(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | str |  |
-| value | DateTime |  |
+| name | str | The name of the property. |
+| value | DateTime | The value of the property. |
 
 
 ## add(name, value) {#str-bool}

@@ -10,6 +10,8 @@ is_root: false
 
 ## JsonUtility() {#}
 
+Constructs a new instance of JsonUtility
+
 
 
 ```python

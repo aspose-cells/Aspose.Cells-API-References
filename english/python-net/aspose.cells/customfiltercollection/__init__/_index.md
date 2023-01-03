@@ -10,6 +10,8 @@ is_root: false
 
 ## CustomFilterCollection() {#}
 
+Constructs a new instance of CustomFilterCollection
+
 
 
 ```python

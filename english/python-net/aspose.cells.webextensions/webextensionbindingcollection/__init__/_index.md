@@ -10,6 +10,8 @@ is_root: false
 
 ## WebExtensionBindingCollection() {#}
 
+Constructs a new instance of WebExtensionBindingCollection
+
 
 
 ```python

@@ -19,7 +19,7 @@ The ImageOrPrintOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [ImageOrPrintOptions()](/cells/python-net/aspose.cells.rendering/imageorprintoptions/__init__/#) |  |
+| [ImageOrPrintOptions()](/cells/python-net/aspose.cells.rendering/imageorprintoptions/__init__/#) | Constructs a new instance of ImageOrPrintOptions |
 
 
 ### Properties

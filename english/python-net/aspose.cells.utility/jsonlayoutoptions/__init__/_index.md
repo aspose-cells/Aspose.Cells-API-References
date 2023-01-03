@@ -10,6 +10,8 @@ is_root: false
 
 ## JsonLayoutOptions() {#}
 
+Constructs a new instance of JsonLayoutOptions
+
 
 
 ```python

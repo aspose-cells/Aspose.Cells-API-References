@@ -86,16 +86,16 @@ The Chart type exposes the following members:
 | [to_pdf(file_name, desired_page_width, desired_page_height, h_alignment_type, v_alignment_type)](/cells/python-net/aspose.cells.charts/chart/to_pdf/#str-float-float-PageLayoutAlignmentType-PageLayoutAlignmentType) | Saves the chart to a pdf file. |
 | [to_pdf(stream)](/cells/python-net/aspose.cells.charts/chart/to_pdf/#io.RawIOBase) | Creates the chart pdf and saves it to a stream. |
 | [to_pdf(stream, desired_page_width, desired_page_height, h_alignment_type, v_alignment_type)](/cells/python-net/aspose.cells.charts/chart/to_pdf/#io.RawIOBase-float-float-PageLayoutAlignmentType-PageLayoutAlignmentType) | Creates the chart pdf and saves it to a stream. |
-| [is_chart_data_changed()](/cells/python-net/aspose.cells.charts/chart/is_chart_data_changed/#) |  |
+| [is_chart_data_changed()](/cells/python-net/aspose.cells.charts/chart/is_chart_data_changed/#) | Detects if a chart's data source has changed. |
 | [refresh_pivot_data()](/cells/python-net/aspose.cells.charts/chart/refresh_pivot_data/#) | Refreshes pivot chart's data  from it's pivot data source. |
-| [change_template(data)](/cells/python-net/aspose.cells.charts/chart/change_template/#bytes) |  |
+| [change_template(data)](/cells/python-net/aspose.cells.charts/chart/change_template/#bytes) | Change chart type with preset template. |
 | [move(upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/python-net/aspose.cells.charts/chart/move/#int-int-int-int) | Moves the chart to a specified location. |
 | [calculate()](/cells/python-net/aspose.cells.charts/chart/calculate/#) | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
 | [get_actual_size()](/cells/python-net/aspose.cells.charts/chart/get_actual_size/#) | Gets actual size of chart in unit of pixels. |
 | [has_axis(aixs_type, is_primary)](/cells/python-net/aspose.cells.charts/chart/has_axis/#AxisType-bool) | Returns which axes exist on the chart. |
 | [switch_row_column()](/cells/python-net/aspose.cells.charts/chart/switch_row_column/#) | Switches row/column. |
-| [get_chart_data_range()](/cells/python-net/aspose.cells.charts/chart/get_chart_data_range/#) |  |
-| [set_chart_data_range(area, is_vertical)](/cells/python-net/aspose.cells.charts/chart/set_chart_data_range/#str-bool) |  |
+| [get_chart_data_range()](/cells/python-net/aspose.cells.charts/chart/get_chart_data_range/#) | Gets the data source range of the chart. |
+| [set_chart_data_range(area, is_vertical)](/cells/python-net/aspose.cells.charts/chart/set_chart_data_range/#str-bool) | Specifies data range for a chart. |
 
 
 ### See Also

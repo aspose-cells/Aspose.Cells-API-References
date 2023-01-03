@@ -77,6 +77,8 @@ Aspose apologizes for any inconvenience you may have experienced.
 
 ## set_shared_formula(shared_formula, row_number, column_number, options, values) {#str-int-int-FormulaParseOptions-list}
 
+Sets shared formulas to a range of cells.
+
 
 
 ```python
@@ -87,11 +89,11 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shared_formula | str |  |
-| row_number | int |  |
-| column_number | int |  |
-| options | [FormulaParseOptions](/cells/python-net/aspose.cells/formulaparseoptions) |  |
-| values | list |  |
+| shared_formula | str | Shared formula. |
+| row_number | int | Number of rows to populate the formula. |
+| column_number | int | Number of columns to populate the formula. |
+| options | [FormulaParseOptions](/cells/python-net/aspose.cells/formulaparseoptions) | Options for parsing the formula. |
+| values | list | values for those cells with given shared formula |
 
 
 

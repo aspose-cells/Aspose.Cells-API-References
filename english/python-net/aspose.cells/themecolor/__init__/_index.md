@@ -12,6 +12,8 @@ is_root: false
 
 
 
+
+
 ```python
 def __init__(self, type, tint):
     ...
@@ -20,8 +22,8 @@ def __init__(self, type, tint):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ThemeColorType](/cells/python-net/aspose.cells/themecolortype) |  |
-| tint | float |  |
+| type | [ThemeColorType](/cells/python-net/aspose.cells/themecolortype) | The theme type. |
+| tint | float | The tint value. |
 
 
 

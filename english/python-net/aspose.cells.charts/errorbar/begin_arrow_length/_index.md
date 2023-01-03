@@ -11,6 +11,8 @@ is_root: false
 ## begin_arrow_length property
 
 
+Specifies the length of the arrowhead for the begin of a line.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ErrorBar](/cells/python-net/aspose.cells.charts/errorbar)

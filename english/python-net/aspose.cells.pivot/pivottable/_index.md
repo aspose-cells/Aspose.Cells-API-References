@@ -112,16 +112,16 @@ The PivotTable type exposes the following members:
 | [set_auto_group_field(pivot_field)](/cells/python-net/aspose.cells.pivot/pivottable/set_auto_group_field/#PivotField) | Sets auto field group by the PivotTable. |
 | [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float) | Sets manual field group by the PivotTable. |
 | [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-float-float-list-float) | Sets manual field group by the PivotTable. |
-| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-DateTime-DateTime-list-int) |  |
-| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-DateTime-DateTime-list-int) |  |
+| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-DateTime-DateTime-list-int) | Sets manual field group by the PivotTable. |
+| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-DateTime-DateTime-list-int) | Sets manual field group by the PivotTable. |
 | [set_ungroup(base_field_index)](/cells/python-net/aspose.cells.pivot/pivottable/set_ungroup/#int) | Sets ungroup by the PivotTable |
 | [set_ungroup(pivot_field)](/cells/python-net/aspose.cells.pivot/pivottable/set_ungroup/#PivotField) | Sets ungroup by the PivotTable |
-| [copy_style(pivot_table)](/cells/python-net/aspose.cells.pivot/pivottable/copy_style/#PivotTable) |  |
+| [copy_style(pivot_table)](/cells/python-net/aspose.cells.pivot/pivottable/copy_style/#PivotTable) | Copies named style from another pivot table. |
 | [show_report_filter_page(page_field)](/cells/python-net/aspose.cells.pivot/pivottable/show_report_filter_page/#PivotField) | Show all the report filter pages according to PivotField, the PivotField must be located in the PageFields. |
 | [show_report_filter_page_by_name(field_name)](/cells/python-net/aspose.cells.pivot/pivottable/show_report_filter_page_by_name/#str) | Show all the report filter pages according to PivotField's name, the PivotField must be located in the PageFields. |
 | [show_report_filter_page_by_index(pos_index)](/cells/python-net/aspose.cells.pivot/pivottable/show_report_filter_page_by_index/#int) | Show all the report filter pages according to the position index in the PageFields |
 | [fields(field_type)](/cells/python-net/aspose.cells.pivot/pivottable/fields/#PivotFieldType) | Gets the specific fields by the field type. |
-| [change_data_source(source)](/cells/python-net/aspose.cells.pivot/pivottable/change_data_source/#list) |  |
+| [change_data_source(source)](/cells/python-net/aspose.cells.pivot/pivottable/change_data_source/#list) | Set pivottable's source data.<br/>Sheet1!$A$1:$C$3 |
 | [get_source()](/cells/python-net/aspose.cells.pivot/pivottable/get_source/#) | Get pivottable's source data. |
 | [refresh_data()](/cells/python-net/aspose.cells.pivot/pivottable/refresh_data/#) | Refreshes pivottable's data and setting from it's data source. |
 | [calculate_data()](/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#) | Calculates pivottable's data to cells. |

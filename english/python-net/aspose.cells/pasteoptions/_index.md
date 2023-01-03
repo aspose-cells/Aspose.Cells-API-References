@@ -19,7 +19,7 @@ The PasteOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [PasteOptions()](/cells/python-net/aspose.cells/pasteoptions/__init__/#) |  |
+| [PasteOptions()](/cells/python-net/aspose.cells/pasteoptions/__init__/#) | Constructs a new instance of PasteOptions |
 
 
 ### Properties

@@ -70,7 +70,7 @@ The PageSetup type exposes the following members:
 | :- | :- |
 | [get_picture(is_header, section)](/cells/python-net/aspose.cells/pagesetup/get_picture/#bool-int) | Gets the [Picture](/cells/python-net/aspose.cells.drawing/picture) object of the header / footer. |
 | [get_picture(is_first, is_even, is_header, section)](/cells/python-net/aspose.cells/pagesetup/get_picture/#bool-bool-bool-int) | Gets the [Picture](/cells/python-net/aspose.cells.drawing/picture) object of the header / footer. |
-| [copy(source, copy_options)](/cells/python-net/aspose.cells/pagesetup/copy/#PageSetup-CopyOptions) |  |
+| [copy(source, copy_options)](/cells/python-net/aspose.cells/pagesetup/copy/#PageSetup-CopyOptions) | Copies the setting of the page setup. |
 | [set_fit_to_pages(wide, tall)](/cells/python-net/aspose.cells/pagesetup/set_fit_to_pages/#int-int) | Sets the number of pages the worksheet will be scaled to when it's printed. |
 | [custom_paper_size(width, height)](/cells/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) | Sets the custom paper size, in unit of inches. |
 | [clear_header_footer()](/cells/python-net/aspose.cells/pagesetup/clear_header_footer/#) | Clears header and footer setting. |
@@ -87,9 +87,9 @@ The PageSetup type exposes the following members:
 | [get_first_page_header(section)](/cells/python-net/aspose.cells/pagesetup/get_first_page_header/#int) | Gets a script formatting the first page header of an Excel file. |
 | [set_first_page_footer(section, footer_script)](/cells/python-net/aspose.cells/pagesetup/set_first_page_footer/#int-str) | Sets a script formatting the first page footer of an Excel file. |
 | [get_first_page_footer(section)](/cells/python-net/aspose.cells/pagesetup/get_first_page_footer/#int) | Gets a script formatting the first page footer of an Excel file. |
-| [set_header_picture(section, header_picture)](/cells/python-net/aspose.cells/pagesetup/set_header_picture/#int-bytes) |  |
-| [set_footer_picture(section, footer_picture)](/cells/python-net/aspose.cells/pagesetup/set_footer_picture/#int-bytes) |  |
-| [set_picture(is_first, is_even, is_header, section, image_data)](/cells/python-net/aspose.cells/pagesetup/set_picture/#bool-bool-bool-int-bytes) |  |
+| [set_header_picture(section, header_picture)](/cells/python-net/aspose.cells/pagesetup/set_header_picture/#int-bytes) | Sets an image in the header of a worksheet. |
+| [set_footer_picture(section, footer_picture)](/cells/python-net/aspose.cells/pagesetup/set_footer_picture/#int-bytes) | Sets an image in the footer of a worksheet. |
+| [set_picture(is_first, is_even, is_header, section, image_data)](/cells/python-net/aspose.cells/pagesetup/set_picture/#bool-bool-bool-int-bytes) | Sets an image in the header/footer of a worksheet. |
 
 
 ### See Also

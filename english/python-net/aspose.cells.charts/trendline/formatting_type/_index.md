@@ -11,6 +11,8 @@ is_root: false
 ## formatting_type property
 
 
+Gets or sets format type.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

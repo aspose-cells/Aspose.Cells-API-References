@@ -11,6 +11,8 @@ is_root: false
 ## is_automatic_color property
 
 
+Indicates whether the color of line is automatic assigned.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ErrorBar](/cells/python-net/aspose.cells.charts/errorbar)

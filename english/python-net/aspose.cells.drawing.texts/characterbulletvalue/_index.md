@@ -24,7 +24,7 @@ The CharacterBulletValue type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [CharacterBulletValue()](/cells/python-net/aspose.cells.drawing.texts/characterbulletvalue/__init__/#) |  |
+| [CharacterBulletValue()](/cells/python-net/aspose.cells.drawing.texts/characterbulletvalue/__init__/#) | Constructs a new instance of CharacterBulletValue |
 
 
 ### Properties

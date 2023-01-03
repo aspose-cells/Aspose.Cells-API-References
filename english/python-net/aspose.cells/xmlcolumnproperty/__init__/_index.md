@@ -10,6 +10,8 @@ is_root: false
 
 ## XmlColumnProperty() {#}
 
+Constructs a new instance of XmlColumnProperty
+
 
 
 ```python

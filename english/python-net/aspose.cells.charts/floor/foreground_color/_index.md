@@ -11,6 +11,8 @@ is_root: false
 ## foreground_color property
 
 
+Gets or sets the foreground Color.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Floor](/cells/python-net/aspose.cells.charts/floor)

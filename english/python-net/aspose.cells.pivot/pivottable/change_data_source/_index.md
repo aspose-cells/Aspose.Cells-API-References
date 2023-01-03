@@ -10,6 +10,9 @@ is_root: false
 
 ## change_data_source(source) {#list}
 
+Set pivottable's source data.
+Sheet1!$A$1:$C$3
+
 
 
 ```python

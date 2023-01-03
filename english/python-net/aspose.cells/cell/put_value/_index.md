@@ -78,6 +78,8 @@ def put_value(self, string_value):
 
 ## put_value(date_time) {#DateTime}
 
+Puts a DateTime value into the cell.
+
 
 
 ```python
@@ -88,7 +90,7 @@ def put_value(self, date_time):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| date_time | DateTime |  |
+| date_time | DateTime | Input value |
 
 
 ## put_value(object_value) {#any}

@@ -10,6 +10,8 @@ is_root: false
 
 ## FileFormatInfo() {#}
 
+Constructs a new instance of FileFormatInfo
+
 
 
 ```python

@@ -10,6 +10,8 @@ is_root: false
 
 ## MemoryFontSource(font_data) {#bytes}
 
+Ctor.
+
 
 
 ```python
@@ -20,7 +22,7 @@ def __init__(self, font_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_data | bytes |  |
+| font_data | bytes | Binary font data. |
 
 
 

@@ -10,6 +10,8 @@ is_root: false
 
 ## PictureBulletValue() {#}
 
+Constructs a new instance of PictureBulletValue
+
 
 
 ```python

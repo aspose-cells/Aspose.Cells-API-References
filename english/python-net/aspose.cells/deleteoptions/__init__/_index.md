@@ -10,6 +10,8 @@ is_root: false
 
 ## DeleteOptions() {#}
 
+Constructs a new instance of DeleteOptions
+
 
 
 ```python

@@ -10,6 +10,8 @@ is_root: false
 
 ## SmartTagOptions() {#}
 
+Constructs a new instance of SmartTagOptions
+
 
 
 ```python

@@ -48,6 +48,8 @@ If the two union ranges are not intersected, returns null.
 
 ## intersect(ranges) {#list}
 
+Intersects another range.
+
 
 
 ```python
@@ -58,8 +60,10 @@ def intersect(self, ranges):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ranges | list |  |
+| ranges | list | The range. |
+### Remarks
 
+If the two union ranges are not intersected, returns null.
 
 
 ### See Also

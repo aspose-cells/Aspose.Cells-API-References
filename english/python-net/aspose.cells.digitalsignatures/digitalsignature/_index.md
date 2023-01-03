@@ -19,7 +19,7 @@ The DigitalSignature type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) |  |
+| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | Constructor of digitalSignature. Uses Bouncy Castle implementation. |
 
 
 ### Properties

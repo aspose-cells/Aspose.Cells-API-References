@@ -19,7 +19,7 @@ The CellsFactory type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [CellsFactory()](/cells/python-net/aspose.cells/cellsfactory/__init__/#) |  |
+| [CellsFactory()](/cells/python-net/aspose.cells/cellsfactory/__init__/#) | Constructs a new instance of CellsFactory |
 
 
 ### Methods

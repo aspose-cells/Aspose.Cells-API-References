@@ -11,6 +11,8 @@ is_root: false
 ## weight_px property
 
 
+Gets or sets the weight of the line in unit of pixels.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

@@ -12,6 +12,8 @@ is_root: false
 
 
 
+
+
 ```python
 def clear_glow_effect(self):
     ...

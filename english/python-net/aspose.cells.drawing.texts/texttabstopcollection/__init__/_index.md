@@ -10,6 +10,8 @@ is_root: false
 
 ## TextTabStopCollection() {#}
 
+Constructs a new instance of TextTabStopCollection
+
 
 
 ```python

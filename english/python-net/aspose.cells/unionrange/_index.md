@@ -36,20 +36,20 @@ The UnionRange type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_outline_borders(border_styles, border_colors)](/cells/python-net/aspose.cells/unionrange/set_outline_borders/#list-aspose.pydrawing.Color[]) |  |
+| [set_outline_borders(border_styles, border_colors)](/cells/python-net/aspose.cells/unionrange/set_outline_borders/#list-aspose.pydrawing.Color[]) | Sets out line borders around a range of cells. |
 | [set_outline_borders(border_style, border_color)](/cells/python-net/aspose.cells/unionrange/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Sets the outline borders around a range of cells with same border style and color. |
 | [intersect(range)](/cells/python-net/aspose.cells/unionrange/intersect/#str) | Intersects another range. |
-| [intersect(union_range)](/cells/python-net/aspose.cells/unionrange/intersect/#UnionRange) |  |
-| [intersect(ranges)](/cells/python-net/aspose.cells/unionrange/intersect/#list) |  |
+| [intersect(union_range)](/cells/python-net/aspose.cells/unionrange/intersect/#UnionRange) | Intersects another range. |
+| [intersect(ranges)](/cells/python-net/aspose.cells/unionrange/intersect/#list) | Intersects another range. |
 | [union(range)](/cells/python-net/aspose.cells/unionrange/union/#str) | Union another range. |
-| [union(union_range)](/cells/python-net/aspose.cells/unionrange/union/#UnionRange) |  |
-| [union(ranges)](/cells/python-net/aspose.cells/unionrange/union/#list) |  |
+| [union(union_range)](/cells/python-net/aspose.cells/unionrange/union/#UnionRange) | Union another range. |
+| [union(ranges)](/cells/python-net/aspose.cells/unionrange/union/#list) | Union the ranges. |
 | [merge()](/cells/python-net/aspose.cells/unionrange/merge/#) | Combines a range of cells into a single cell. |
 | [un_merge()](/cells/python-net/aspose.cells/unionrange/un_merge/#) | Unmerges merged cells of this range. |
 | [put_value(string_value, is_converted, set_style)](/cells/python-net/aspose.cells/unionrange/put_value/#str-bool-bool) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [set_style(style)](/cells/python-net/aspose.cells/unionrange/set_style/#Style) | Sets the style of the range. |
 | [apply_style(style, flag)](/cells/python-net/aspose.cells/unionrange/apply_style/#Style-StyleFlag) | Applies formats for a whole range. |
-| [copy(range, options)](/cells/python-net/aspose.cells/unionrange/copy/#UnionRange-PasteOptions) |  |
+| [copy(range, options)](/cells/python-net/aspose.cells/unionrange/copy/#UnionRange-PasteOptions) | Copying the range with paste special options. |
 | [get_enumerator()](/cells/python-net/aspose.cells/unionrange/get_enumerator/#) | Gets the enumerator for cells in this Range. |
 
 

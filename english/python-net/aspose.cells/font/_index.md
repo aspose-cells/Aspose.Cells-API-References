@@ -42,7 +42,7 @@ The Font type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [equals(font)](/cells/python-net/aspose.cells/font/equals/#Font) |  |
+| [equals(font)](/cells/python-net/aspose.cells/font/equals/#Font) | Checks if two fonts are equals. |
 
 
 ### See Also

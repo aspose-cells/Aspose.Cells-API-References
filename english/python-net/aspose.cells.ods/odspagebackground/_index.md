@@ -19,7 +19,7 @@ The OdsPageBackground type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [OdsPageBackground()](/cells/python-net/aspose.cells.ods/odspagebackground/__init__/#) |  |
+| [OdsPageBackground()](/cells/python-net/aspose.cells.ods/odspagebackground/__init__/#) | Constructs a new instance of OdsPageBackground |
 
 
 ### Properties

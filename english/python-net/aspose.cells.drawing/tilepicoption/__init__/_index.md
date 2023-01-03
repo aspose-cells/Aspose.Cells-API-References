@@ -10,6 +10,8 @@ is_root: false
 
 ## TilePicOption() {#}
 
+Constructs a new instance of TilePicOption
+
 
 
 ```python

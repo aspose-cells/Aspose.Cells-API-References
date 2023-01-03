@@ -12,6 +12,8 @@ is_root: false
 
 
 
+
+
 ```python
 def clear_format_3d(self):
     ...

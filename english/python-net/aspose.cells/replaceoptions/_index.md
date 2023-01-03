@@ -19,7 +19,7 @@ The ReplaceOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [ReplaceOptions()](/cells/python-net/aspose.cells/replaceoptions/__init__/#) |  |
+| [ReplaceOptions()](/cells/python-net/aspose.cells/replaceoptions/__init__/#) | Constructs a new instance of ReplaceOptions |
 
 
 ### Properties

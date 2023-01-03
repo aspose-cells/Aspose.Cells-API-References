@@ -10,6 +10,8 @@ is_root: false
 
 ## ReplaceOptions() {#}
 
+Constructs a new instance of ReplaceOptions
+
 
 
 ```python

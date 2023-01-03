@@ -10,6 +10,8 @@ is_root: false
 
 ## PicFormatOption() {#}
 
+Constructs a new instance of PicFormatOption
+
 
 
 ```python

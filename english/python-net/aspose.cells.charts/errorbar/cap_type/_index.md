@@ -11,6 +11,8 @@ is_root: false
 ## cap_type property
 
 
+Specifies the ending caps.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ErrorBar](/cells/python-net/aspose.cells.charts/errorbar)
