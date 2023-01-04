@@ -58,7 +58,7 @@ The Protection type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [copy(source)](/cells/python-net/aspose.cells/protection/copy/#Protection) |  |
+| [copy(source)](/cells/python-net/aspose.cells/protection/copy/#Protection) | Copy protection info. |
 | [get_password_hash()](/cells/python-net/aspose.cells/protection/get_password_hash/#) | Gets the hash of current password. |
 | [verify_password(password)](/cells/python-net/aspose.cells/protection/verify_password/#str) | Verifies password. |
 

@@ -10,6 +10,8 @@ is_root: false
 
 ## ShapePathPointCollection() {#}
 
+Constructs a new instance of ShapePathPointCollection
+
 
 
 ```python

@@ -10,6 +10,8 @@ is_root: false
 
 ## add_page_field(page_items) {#list}
 
+Adds a page field.
+
 
 
 ```python
@@ -20,7 +22,7 @@ def add_page_field(self, page_items):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_items | list |  |
+| page_items | list | Page field item label |
 
 
 

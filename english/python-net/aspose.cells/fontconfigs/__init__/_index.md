@@ -10,6 +10,8 @@ is_root: false
 
 ## FontConfigs() {#}
 
+Constructs a new instance of FontConfigs
+
 
 
 ```python

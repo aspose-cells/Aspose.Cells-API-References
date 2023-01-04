@@ -10,6 +10,12 @@ is_root: false
 
 ## add_free_floating_shape(type, top, left, height, width, image_data, is_original_size) {#MsoDrawingType-int-int-int-int-bytes-bool}
 
+Adds a free floating shape to the worksheet.Only applies for line/image shape.
+
+### Returns 
+
+
+
 
 
 ```python
@@ -20,13 +26,13 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [MsoDrawingType](/cells/python-net/aspose.cells.drawing/msodrawingtype) |  |
-| top | int |  |
-| left | int |  |
-| height | int |  |
-| width | int |  |
-| image_data | bytes |  |
-| is_original_size | bool |  |
+| type | [MsoDrawingType](/cells/python-net/aspose.cells.drawing/msodrawingtype) | The shape type. |
+| top | int | Represents the vertical  offset of shape from the worksheet's top row, in unit of pixel. |
+| left | int | Represents the horizontal offset of shape from the worksheet's left column, in unit of pixel. |
+| height | int | Represents the height of LineShape, in unit of pixel. |
+| width | int | Represents the width of LineShape, in unit of pixel. |
+| image_data | bytes | The image data,only applies for the picture. |
+| is_original_size | bool | Whether the shape use original size if the shape is image. |
 
 
 

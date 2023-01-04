@@ -44,6 +44,8 @@ def remove_duplicates(self, start_row, start_column, end_row, end_column):
 
 ## remove_duplicates(start_row, start_column, end_row, end_column, has_headers, column_offsets) {#int-int-int-int-bool-list}
 
+Removes duplicate data of the range.
+
 
 
 ```python
@@ -54,12 +56,12 @@ def remove_duplicates(self, start_row, start_column, end_row, end_column, has_he
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_row | int |  |
-| start_column | int |  |
-| end_row | int |  |
-| end_column | int |  |
-| has_headers | bool |  |
-| column_offsets | list |  |
+| start_row | int | The start row. |
+| start_column | int | The start column |
+| end_row | int | The end row index. |
+| end_column | int | The end column index. |
+| has_headers | bool | Indicates whether the range contains headers. |
+| column_offsets | list | The column offsets. |
 
 
 

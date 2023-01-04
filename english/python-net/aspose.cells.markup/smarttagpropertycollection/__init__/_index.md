@@ -10,6 +10,8 @@ is_root: false
 
 ## SmartTagPropertyCollection() {#}
 
+Constructs a new instance of SmartTagPropertyCollection
+
 
 
 ```python

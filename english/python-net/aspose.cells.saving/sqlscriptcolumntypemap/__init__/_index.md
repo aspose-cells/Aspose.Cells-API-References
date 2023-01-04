@@ -10,6 +10,8 @@ is_root: false
 
 ## SqlScriptColumnTypeMap() {#}
 
+Constructs a new instance of SqlScriptColumnTypeMap
+
 
 
 ```python

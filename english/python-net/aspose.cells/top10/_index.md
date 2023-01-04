@@ -21,7 +21,7 @@ The Top10 type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [Top10()](/cells/python-net/aspose.cells/top10/__init__/#) |  |
+| [Top10()](/cells/python-net/aspose.cells/top10/__init__/#) | Constructs a new instance of Top10 |
 
 
 ### Properties

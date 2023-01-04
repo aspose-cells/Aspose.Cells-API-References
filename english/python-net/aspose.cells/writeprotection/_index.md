@@ -19,7 +19,7 @@ The WriteProtection type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [WriteProtection()](/cells/python-net/aspose.cells/writeprotection/__init__/#) |  |
+| [WriteProtection()](/cells/python-net/aspose.cells/writeprotection/__init__/#) | Constructs a new instance of WriteProtection |
 
 
 ### Properties

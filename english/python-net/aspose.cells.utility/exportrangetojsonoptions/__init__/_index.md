@@ -10,6 +10,8 @@ is_root: false
 
 ## ExportRangeToJsonOptions() {#}
 
+Constructs a new instance of ExportRangeToJsonOptions
+
 
 
 ```python

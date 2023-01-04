@@ -10,6 +10,8 @@ is_root: false
 
 ## ShapeGuideCollection() {#}
 
+Constructs a new instance of ShapeGuideCollection
+
 
 
 ```python

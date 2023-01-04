@@ -24,7 +24,7 @@ The MemoryFontSource type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [MemoryFontSource(font_data)](/cells/python-net/aspose.cells/memoryfontsource/__init__/#bytes) |  |
+| [MemoryFontSource(font_data)](/cells/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Ctor. |
 
 
 ### Properties

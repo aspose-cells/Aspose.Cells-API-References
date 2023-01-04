@@ -11,6 +11,12 @@ is_root: false
 ## theme_color property
 
 
+Gets and sets the theme color.
+### Remarks 
+
+
+If the foreground color is not a theme color, NULL will be returned.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ErrorBar](/cells/python-net/aspose.cells.charts/errorbar)

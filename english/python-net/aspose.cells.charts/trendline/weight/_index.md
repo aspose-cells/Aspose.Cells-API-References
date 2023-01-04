@@ -11,6 +11,8 @@ is_root: false
 ## weight property
 
 
+Gets or sets the [WeightType](/cells/python-net/aspose.cells.drawing/weighttype) of the line.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

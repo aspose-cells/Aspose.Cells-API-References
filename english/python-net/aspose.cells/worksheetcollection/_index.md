@@ -34,7 +34,7 @@ The WorksheetCollection type exposes the following members:
 | [external_links](/cells/python-net/aspose.cells/worksheetcollection/external_links) | Represents external links in a workbook. |
 | [table_styles](/cells/python-net/aspose.cells/worksheetcollection/table_styles) | Gets [WorksheetCollection.table_styles](/cells/python-net/aspose.cells/worksheetcollection#table_styles) object. |
 | [revision_logs](/cells/python-net/aspose.cells/worksheetcollection/revision_logs) | Represents revision logs. |
-| [capacity](/cells/python-net/aspose.cells/worksheetcollection/capacity) |  |
+| [capacity](/cells/python-net/aspose.cells/worksheetcollection/capacity) | Gets or sets the number of elements that the array list can contain. |
 
 
 ### Methods
@@ -51,13 +51,13 @@ The WorksheetCollection type exposes the following members:
 | [add_copy(sheet_index)](/cells/python-net/aspose.cells/worksheetcollection/add_copy/#int) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [get_range_by_name(range_name)](/cells/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str) | Gets Range object by pre-defined name. |
 | [get_range_by_name(range_name, current_sheet_index, include_table)](/cells/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str-int-bool) | Gets [Range](/cells/python-net/aspose.cells/range) by pre-defined name or table's name |
-| [copy_to(array)](/cells/python-net/aspose.cells/worksheetcollection/copy_to/#list) |  |
-| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells/worksheetcollection/copy_to/#int-list-int-int) |  |
-| [index_of(item, index)](/cells/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int) |  |
-| [index_of(item, index, count)](/cells/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int-int) |  |
-| [last_index_of(item)](/cells/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet) |  |
-| [last_index_of(item, index)](/cells/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int) |  |
-| [last_index_of(item, index, count)](/cells/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int-int) |  |
+| [copy_to(array)](/cells/python-net/aspose.cells/worksheetcollection/copy_to/#list) | Copies the entire array list to a compatible one-dimensional array list, starting at the beginning of the target array list. |
+| [copy_to(index, array, array_index, count)](/cells/python-net/aspose.cells/worksheetcollection/copy_to/#int-list-int-int) | Copies a range of elements from the array list to a compatible one-dimensional array list, starting at the specified index of the target array list. |
+| [index_of(item, index)](/cells/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int) | Searches for the specified object and returns the zero-based index of the first occurrence within the range of elements in the array list that extends from the specified index to the last element. |
+| [index_of(item, index, count)](/cells/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int-int) | Searches for the specified object and returns the zero-based index of the first occurrence within the range of elements in the array list that starts at the specified index and contains the specified number of elements. |
+| [last_index_of(item)](/cells/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet) | Searches for the specified object and returns the zero-based index of the last occurrence within the entire array list. |
+| [last_index_of(item, index)](/cells/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int) | Searches for the specified object and returns the zero-based index of the last occurrence within the range of elements in the array list that extends from the first element to the specified index. |
+| [last_index_of(item, index, count)](/cells/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int-int) | Searches for the specified object and returns the zero-based index of the last occurrence within the range of elements in the array list that contains the specified number of elements and ends at the specified index. |
 | [create_range(address, sheet_index)](/cells/python-net/aspose.cells/worksheetcollection/create_range/#str-int) | Creates a [Range](/cells/python-net/aspose.cells/range) object from an address of the range. |
 | [create_union_range(address, sheet_index)](/cells/python-net/aspose.cells/worksheetcollection/create_union_range/#str-int) | Creates a [Range](/cells/python-net/aspose.cells/range) object from an address of the range. |
 | [get_sheet_by_code_name(code_name)](/cells/python-net/aspose.cells/worksheetcollection/get_sheet_by_code_name/#str) | Gets the worksheet by the code name. |
@@ -69,7 +69,7 @@ The WorksheetCollection type exposes the following members:
 | [set_ole_size(start_row, end_row, start_column, end_column)](/cells/python-net/aspose.cells/worksheetcollection/set_ole_size/#int-int-int-int) | Sets displayed size when Workbook file is used as an Ole object. |
 | [clear_pivottables()](/cells/python-net/aspose.cells/worksheetcollection/clear_pivottables/#) | Clears pivot tables from the spreadsheet. |
 | [refresh_pivot_tables()](/cells/python-net/aspose.cells/worksheetcollection/refresh_pivot_tables/#) | Refreshes all the PivotTables in the WorksheetCollection. |
-| [binary_search(item)](/cells/python-net/aspose.cells/worksheetcollection/binary_search/#Worksheet) |  |
+| [binary_search(item)](/cells/python-net/aspose.cells/worksheetcollection/binary_search/#Worksheet) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
 ### See Also

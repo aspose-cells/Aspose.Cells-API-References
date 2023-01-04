@@ -10,6 +10,8 @@ is_root: false
 
 ## CellWatchCollection() {#}
 
+Constructs a new instance of CellWatchCollection
+
 
 
 ```python

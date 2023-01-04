@@ -10,6 +10,8 @@ is_root: false
 
 ## WebExtensionReferenceCollection() {#}
 
+Constructs a new instance of WebExtensionReferenceCollection
+
 
 
 ```python

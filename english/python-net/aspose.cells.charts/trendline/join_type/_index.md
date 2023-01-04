@@ -11,6 +11,8 @@ is_root: false
 ## join_type property
 
 
+Specifies the joining caps.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

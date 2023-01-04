@@ -19,7 +19,7 @@ The InsertOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [InsertOptions()](/cells/python-net/aspose.cells/insertoptions/__init__/#) |  |
+| [InsertOptions()](/cells/python-net/aspose.cells/insertoptions/__init__/#) | Constructs a new instance of InsertOptions |
 
 
 ### Properties

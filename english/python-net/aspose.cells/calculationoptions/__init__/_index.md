@@ -10,6 +10,8 @@ is_root: false
 
 ## CalculationOptions() {#}
 
+Constructs a new instance of CalculationOptions
+
 
 
 ```python

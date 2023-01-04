@@ -33,8 +33,8 @@ Gets the [ExternalLink](/cells/python-net/aspose.cells/externallink) element at 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add(file_name, sheet_names)](/cells/python-net/aspose.cells/externallinkcollection/add/#str-list) |  |
-| [add(directory_type, file_name, sheet_names)](/cells/python-net/aspose.cells/externallinkcollection/add/#DirectoryType-str-list) |  |
+| [add(file_name, sheet_names)](/cells/python-net/aspose.cells/externallinkcollection/add/#str-list) | Adds an external link. |
+| [add(directory_type, file_name, sheet_names)](/cells/python-net/aspose.cells/externallinkcollection/add/#DirectoryType-str-list) | Add an external link . |
 | [clear()](/cells/python-net/aspose.cells/externallinkcollection/clear/#) | Removes all external links. |
 | [clear(update_references_as_local)](/cells/python-net/aspose.cells/externallinkcollection/clear/#bool) | Removes all external links. |
 | [remove_at(index)](/cells/python-net/aspose.cells/externallinkcollection/remove_at/#int) | Removes the specified external link from the workbook. |

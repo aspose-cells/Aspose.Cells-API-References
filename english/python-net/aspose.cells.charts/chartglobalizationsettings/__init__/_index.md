@@ -10,6 +10,8 @@ is_root: false
 
 ## ChartGlobalizationSettings() {#}
 
+Constructs a new instance of ChartGlobalizationSettings
+
 
 
 ```python

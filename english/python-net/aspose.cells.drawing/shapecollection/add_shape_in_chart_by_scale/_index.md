@@ -32,6 +32,8 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom)
 
 ## add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data) {#MsoDrawingType-PlacementType-float-float-float-float-bytes}
 
+Add a shape to chart .All unit is 1/4000 of chart area.
+
 
 
 ```python
@@ -42,13 +44,13 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom,
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [MsoDrawingType](/cells/python-net/aspose.cells.drawing/msodrawingtype) |  |
-| placement | [PlacementType](/cells/python-net/aspose.cells.drawing/placementtype) |  |
-| left | float |  |
-| top | float |  |
-| right | float |  |
-| bottom | float |  |
-| image_data | bytes |  |
+| type | [MsoDrawingType](/cells/python-net/aspose.cells.drawing/msodrawingtype) | The drawing type. |
+| placement | [PlacementType](/cells/python-net/aspose.cells.drawing/placementtype) | the placement type. |
+| left | float | Unit is percent scale of chart area width. |
+| top | float | Unit is percent scale of chart area height. |
+| right | float | Unit is percent scale of chart area width. |
+| bottom | float | Unit is percent scale of chart area height. |
+| image_data | bytes | If the shape is not a picture or ole object,imageData should be null. |
 
 
 

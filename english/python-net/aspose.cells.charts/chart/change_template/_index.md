@@ -10,6 +10,8 @@ is_root: false
 
 ## change_template(data) {#bytes}
 
+Change chart type with preset template.
+
 
 
 ```python
@@ -20,7 +22,7 @@ def change_template(self, data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | bytes |  |
+| data | bytes | The data of chart template file(.crtx). |
 
 
 

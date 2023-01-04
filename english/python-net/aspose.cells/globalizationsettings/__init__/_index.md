@@ -10,6 +10,8 @@ is_root: false
 
 ## GlobalizationSettings() {#}
 
+Constructs a new instance of GlobalizationSettings
+
 
 
 ```python

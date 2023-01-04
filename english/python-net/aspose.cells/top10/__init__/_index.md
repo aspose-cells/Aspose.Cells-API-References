@@ -10,6 +10,8 @@ is_root: false
 
 ## Top10() {#}
 
+Constructs a new instance of Top10
+
 
 
 ```python

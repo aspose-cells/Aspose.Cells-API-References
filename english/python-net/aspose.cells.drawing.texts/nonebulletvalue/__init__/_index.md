@@ -10,6 +10,8 @@ is_root: false
 
 ## NoneBulletValue() {#}
 
+Constructs a new instance of NoneBulletValue
+
 
 
 ```python

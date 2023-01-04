@@ -10,6 +10,8 @@ is_root: false
 
 ## PasteOptions() {#}
 
+Constructs a new instance of PasteOptions
+
 
 
 ```python

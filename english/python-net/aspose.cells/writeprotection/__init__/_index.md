@@ -10,6 +10,8 @@ is_root: false
 
 ## WriteProtection() {#}
 
+Constructs a new instance of WriteProtection
+
 
 
 ```python

@@ -11,6 +11,8 @@ is_root: false
 ## start_row property
 
 
+Gets or set the start row of this area.
+
 ### See Also
 * module [aspose.cells](../../)
 * class [CellArea](/cells/python-net/aspose.cells/cellarea)

@@ -12,6 +12,8 @@ is_root: false
 
 
 
+
+
 ```python
 def calculate_custom_function(self, function_name, params_list, context_objects):
     ...

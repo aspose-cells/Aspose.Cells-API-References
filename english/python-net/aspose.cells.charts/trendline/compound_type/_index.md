@@ -11,6 +11,8 @@ is_root: false
 ## compound_type property
 
 
+Specifies the compound line type
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

@@ -11,6 +11,8 @@ is_root: false
 ## end_row property
 
 
+Gets or set the end row of this area.
+
 ### See Also
 * module [aspose.cells](../../)
 * class [CellArea](/cells/python-net/aspose.cells/cellarea)

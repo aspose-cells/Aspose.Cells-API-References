@@ -10,6 +10,8 @@ is_root: false
 
 ## merge_files(files, cached_file, dest_file) {#list-str-str}
 
+Merges some large xls files to a xls file.
+
 
 
 ```python
@@ -20,10 +22,13 @@ def merge_files(self, files, cached_file, dest_file):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| files | list |  |
-| cached_file | str |  |
-| dest_file | str |  |
+| files | list | The files. |
+| cached_file | str | The cached file. |
+| dest_file | str | The dest file. |
+### Remarks
 
+This method only supports merging data, style and formulas to the new file.
+The cached file is used to store some temporary data.
 
 
 ### See Also

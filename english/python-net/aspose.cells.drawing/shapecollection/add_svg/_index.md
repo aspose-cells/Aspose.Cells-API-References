@@ -10,6 +10,12 @@ is_root: false
 
 ## add_svg(upper_left_row, top, upper_left_column, left, height, width, svg_data, compatible_image_data) {#int-int-int-int-int-int-bytes-bytes}
 
+Adds svg image.
+
+### Returns 
+
+
+
 
 
 ```python
@@ -20,14 +26,14 @@ def add_svg(self, upper_left_row, top, upper_left_column, left, height, width, s
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| upper_left_row | int |  |
-| top | int |  |
-| upper_left_column | int |  |
-| left | int |  |
-| height | int |  |
-| width | int |  |
-| svg_data | bytes |  |
-| compatible_image_data | bytes |  |
+| upper_left_row | int | Upper left row index. |
+| top | int | Represents the vertical  offset of shape from its left row, in unit of pixel. |
+| upper_left_column | int | Upper left column index. |
+| left | int | The horizontal offset of shape from its left column, in unit of pixel. |
+| height | int | The height of shape, in unit of pixel. |
+| width | int | The width of shape, in unit of pixel. |
+| svg_data | bytes | The svg image data. |
+| compatible_image_data | bytes | Converted image data from svg in order to be compatible with Excel 2016 or lower versions. |
 
 
 

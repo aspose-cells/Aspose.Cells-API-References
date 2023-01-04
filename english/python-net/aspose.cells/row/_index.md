@@ -45,10 +45,10 @@ Gets the cell.
 | Method | Description |
 | :- | :- |
 | [equals(obj)](/cells/python-net/aspose.cells/row/equals/#any) | Checks whether this object refers to the same row with another. |
-| [equals(row)](/cells/python-net/aspose.cells/row/equals/#Row) |  |
+| [equals(row)](/cells/python-net/aspose.cells/row/equals/#Row) | Checks whether this object refers to the same row with another row object. |
 | [get_cell_by_index(index)](/cells/python-net/aspose.cells/row/get_cell_by_index/#int) | Get the cell by specific index in the list. |
 | [get_cell_or_null(column)](/cells/python-net/aspose.cells/row/get_cell_or_null/#int) | Gets the cell or null in the specific index. |
-| [copy_settings(source, check_style)](/cells/python-net/aspose.cells/row/copy_settings/#Row-bool) |  |
+| [copy_settings(source, check_style)](/cells/python-net/aspose.cells/row/copy_settings/#Row-bool) | Copy settings of row, such as style, height, visibility, ...etc. |
 | [apply_style(style, flag)](/cells/python-net/aspose.cells/row/apply_style/#Style-StyleFlag) | Applies formats for a whole row. |
 
 

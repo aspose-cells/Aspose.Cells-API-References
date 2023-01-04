@@ -24,7 +24,7 @@ The InterruptMonitor type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [InterruptMonitor()](/cells/python-net/aspose.cells/interruptmonitor/__init__/#) |  |
+| [InterruptMonitor()](/cells/python-net/aspose.cells/interruptmonitor/__init__/#) | Constructs a new instance of InterruptMonitor |
 
 
 ### Properties

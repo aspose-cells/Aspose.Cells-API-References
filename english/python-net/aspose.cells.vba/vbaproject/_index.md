@@ -34,7 +34,7 @@ The VbaProject type exposes the following members:
 | :- | :- |
 | [sign(digital_signature)](/cells/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | Sign this VBA project by a DigitalSignature |
 | [protect(islocked_for_viewing, password)](/cells/python-net/aspose.cells.vba/vbaproject/protect/#bool-str) | Protects or unprotects this VBA project. |
-| [copy(source)](/cells/python-net/aspose.cells.vba/vbaproject/copy/#VbaProject) |  |
+| [copy(source)](/cells/python-net/aspose.cells.vba/vbaproject/copy/#VbaProject) | Copy VBA project from other file. |
 | [validate_password(password)](/cells/python-net/aspose.cells.vba/vbaproject/validate_password/#str) | Validates protection password. |
 
 

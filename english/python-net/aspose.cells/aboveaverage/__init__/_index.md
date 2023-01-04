@@ -10,6 +10,8 @@ is_root: false
 
 ## AboveAverage() {#}
 
+Constructs a new instance of AboveAverage
+
 
 
 ```python

@@ -47,6 +47,8 @@ def add_key(self, key, order, custom_list):
 
 ## add_key(key, order, custom_list) {#int-SortOrder-list}
 
+Adds sorted column index and sort order with custom sort list.
+
 
 
 ```python
@@ -57,9 +59,9 @@ def add_key(self, key, order, custom_list):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| key | int |  |
-| order | [SortOrder](/cells/python-net/aspose.cells/sortorder) |  |
-| custom_list | list |  |
+| key | int | The sorted column index(absolute position, column A is 0, B is 1, ...) |
+| order | [SortOrder](/cells/python-net/aspose.cells/sortorder) | The sort order. |
+| custom_list | list | The custom sort list. |
 
 
 ## add_key(key, type, order, custom_list) {#int-SortOnType-SortOrder-any}

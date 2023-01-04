@@ -10,6 +10,12 @@ is_root: false
 
 ## get_freezed_panes(row, column, freezed_rows, freezed_columns) {#any-any-any-any}
 
+Gets the freeze panes.
+
+### Returns 
+
+
+Return whether the worksheet is frozen
 
 
 ```python
@@ -20,10 +26,10 @@ def get_freezed_panes(self, row, column, freezed_rows, freezed_columns):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| row | any |  |
-| column | any |  |
-| freezed_rows | any |  |
-| freezed_columns | any |  |
+| row | any | Row index. |
+| column | any | Column index. |
+| freezed_rows | any | Number of visible rows in top pane, no more than row index. |
+| freezed_columns | any | Number of visible columns in left pane, no more than column index. |
 
 
 

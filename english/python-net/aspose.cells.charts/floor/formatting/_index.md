@@ -11,6 +11,8 @@ is_root: false
 ## formatting property
 
 
+Represents the formatting of the area.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Floor](/cells/python-net/aspose.cells.charts/floor)

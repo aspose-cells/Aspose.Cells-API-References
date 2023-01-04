@@ -19,7 +19,7 @@ The FindOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [FindOptions()](/cells/python-net/aspose.cells/findoptions/__init__/#) |  |
+| [FindOptions()](/cells/python-net/aspose.cells/findoptions/__init__/#) | Constructs a new instance of FindOptions |
 
 
 ### Properties

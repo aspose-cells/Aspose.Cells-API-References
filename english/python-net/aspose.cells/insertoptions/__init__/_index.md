@@ -10,6 +10,8 @@ is_root: false
 
 ## InsertOptions() {#}
 
+Constructs a new instance of InsertOptions
+
 
 
 ```python

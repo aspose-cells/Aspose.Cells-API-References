@@ -10,6 +10,8 @@ is_root: false
 
 ## AutoFitterOptions() {#}
 
+Constructs a new instance of AutoFitterOptions
+
 
 
 ```python

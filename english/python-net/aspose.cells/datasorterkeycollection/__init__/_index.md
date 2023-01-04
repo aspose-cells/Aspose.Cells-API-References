@@ -10,6 +10,8 @@ is_root: false
 
 ## DataSorterKeyCollection() {#}
 
+Constructs a new instance of DataSorterKeyCollection
+
 
 
 ```python

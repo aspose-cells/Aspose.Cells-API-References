@@ -11,6 +11,8 @@ is_root: false
 ## style property
 
 
+Represents the style of the line.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ErrorBar](/cells/python-net/aspose.cells.charts/errorbar)

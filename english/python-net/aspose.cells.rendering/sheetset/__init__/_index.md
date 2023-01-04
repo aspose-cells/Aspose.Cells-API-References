@@ -10,6 +10,8 @@ is_root: false
 
 ## SheetSet(sheets) {#list}
 
+Creates a sheet set based on exact sheet indexes.
+
 
 
 ```python
@@ -20,8 +22,10 @@ def __init__(self, sheets):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| sheets | list |  |
+| sheets | list | zero based sheet indexes. |
+### Remarks
 
+If a sheet is encountered that is not in the workbook, an exception will be thrown during rendering.
 
 
 ### See Also

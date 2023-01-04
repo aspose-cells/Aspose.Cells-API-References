@@ -10,6 +10,8 @@ is_root: false
 
 ## ShapeSegmentPathCollection() {#}
 
+Constructs a new instance of ShapeSegmentPathCollection
+
 
 
 ```python

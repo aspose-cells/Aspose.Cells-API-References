@@ -10,6 +10,8 @@ is_root: false
 
 ## SeriesLayoutProperties() {#}
 
+Constructs a new instance of SeriesLayoutProperties
+
 
 
 ```python

@@ -12,6 +12,12 @@ is_root: false
 
 
 
+### Returns 
+
+
+
+
+
 ```python
 def add_ole_object(self, upper_left_row, top, upper_left_column, left, height, width, image_data):
     ...

@@ -11,6 +11,8 @@ is_root: false
 ## dash_type property
 
 
+Specifies the dash line type
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ErrorBar](/cells/python-net/aspose.cells.charts/errorbar)

@@ -11,6 +11,8 @@ is_root: false
 ## end_arrow_length property
 
 
+Specifies the length of the arrowhead for the end of a line.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

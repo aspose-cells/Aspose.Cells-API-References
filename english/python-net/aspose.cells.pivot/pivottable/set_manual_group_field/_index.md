@@ -52,6 +52,8 @@ def set_manual_group_field(self, pivot_field, start_val, end_val, group_by_list,
 
 ## set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num) {#int-DateTime-DateTime-list-int}
 
+Sets manual field group by the PivotTable.
+
 
 
 ```python
@@ -62,14 +64,16 @@ def set_manual_group_field(self, base_field_index, start_val, end_val, group_by_
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| base_field_index | int |  |
-| start_val | DateTime |  |
-| end_val | DateTime |  |
-| group_by_list | list |  |
-| interval_num | int |  |
+| base_field_index | int | The row or column field index in the base fields |
+| start_val | DateTime | Specifies the starting value for date grouping. |
+| end_val | DateTime | Specifies the ending value for date grouping. |
+| group_by_list | list | Specifies the grouping type list. Specified by PivotTableGroupType |
+| interval_num | int | Specifies the interval number group by in days grouping.The number of days must be positive integer of nonzero |
 
 
 ## set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num) {#PivotField-DateTime-DateTime-list-int}
+
+Sets manual field group by the PivotTable.
 
 
 
@@ -81,11 +85,11 @@ def set_manual_group_field(self, pivot_field, start_val, end_val, group_by_list,
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pivot_field | [PivotField](/cells/python-net/aspose.cells.pivot/pivotfield) |  |
-| start_val | DateTime |  |
-| end_val | DateTime |  |
-| group_by_list | list |  |
-| interval_num | int |  |
+| pivot_field | [PivotField](/cells/python-net/aspose.cells.pivot/pivotfield) | The row or column field in the base fields |
+| start_val | DateTime | Specifies the starting value for date grouping. |
+| end_val | DateTime | Specifies the ending value for date grouping. |
+| group_by_list | list | Specifies the grouping type list. Specified by PivotTableGroupType |
+| interval_num | int | Specifies the interval number group by in days grouping.The number of days must be positive integer of nonzero |
 
 
 

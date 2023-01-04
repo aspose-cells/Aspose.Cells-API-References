@@ -24,7 +24,7 @@ The GlobalizationSettings type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [GlobalizationSettings()](/cells/python-net/aspose.cells/globalizationsettings/__init__/#) |  |
+| [GlobalizationSettings()](/cells/python-net/aspose.cells/globalizationsettings/__init__/#) | Constructs a new instance of GlobalizationSettings |
 
 
 ### Properties

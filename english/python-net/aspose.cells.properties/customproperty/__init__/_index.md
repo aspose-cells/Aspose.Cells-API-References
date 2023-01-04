@@ -10,6 +10,8 @@ is_root: false
 
 ## CustomProperty() {#}
 
+Constructs a new instance of CustomProperty
+
 
 
 ```python

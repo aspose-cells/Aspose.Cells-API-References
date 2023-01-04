@@ -10,6 +10,8 @@ is_root: false
 
 ## SignatureLine() {#}
 
+Constructs a new instance of SignatureLine
+
 
 
 ```python

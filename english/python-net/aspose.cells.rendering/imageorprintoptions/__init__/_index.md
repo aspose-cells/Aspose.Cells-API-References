@@ -10,6 +10,8 @@ is_root: false
 
 ## ImageOrPrintOptions() {#}
 
+Constructs a new instance of ImageOrPrintOptions
+
 
 
 ```python

@@ -66,6 +66,12 @@ Aspose apologizes for any inconvenience you may have experienced.
 
 ## add(data, data_range, is_vertical, top_row, left_column, right_row, bottom_column) {#bytes-str-bool-int-int-int-int}
 
+Adds a chart with preset template.
+
+### Returns 
+
+
+[Chart](/cells/python-net/aspose.cells.charts/chart) object index.
 
 
 ```python
@@ -76,13 +82,13 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | bytes |  |
-| data_range | str |  |
-| is_vertical | bool |  |
-| top_row | int |  |
-| left_column | int |  |
-| right_row | int |  |
-| bottom_column | int |  |
+| data | bytes | The data of chart template file(.crtx). |
+| data_range | str | Specifies the data range of the chart |
+| is_vertical | bool | Specifies whether to plot the series from a range of cell values by row or by column. |
+| top_row | int | Upper left row index. |
+| left_column | int | Upper left column index. |
+| right_row | int | Lower right row index |
+| bottom_column | int | Lower right column index |
 
 
 ## add(type, data_range, is_vertical, top_row, left_column, right_row, bottom_column) {#ChartType-str-bool-int-int-int-int}

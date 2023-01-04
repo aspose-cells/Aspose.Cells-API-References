@@ -10,6 +10,8 @@ is_root: false
 
 ## ThreadedCommentAuthorCollection() {#}
 
+Constructs a new instance of ThreadedCommentAuthorCollection
+
 
 
 ```python

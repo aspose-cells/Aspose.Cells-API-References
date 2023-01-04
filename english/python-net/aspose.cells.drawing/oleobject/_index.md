@@ -151,8 +151,8 @@ The OleObject type exposes the following members:
 | [to_image(stream, options)](/cells/python-net/aspose.cells.drawing/oleobject/to_image/#io.RawIOBase-aspose.cells.rendering.ImageOrPrintOptions) | Saves the shape to a stream. |
 | [format_characters(start_index, length, font, flag)](/cells/python-net/aspose.cells.drawing/oleobject/format_characters/#int-int-Font-StyleFlag) | Formats some characters with the font setting. |
 | [format_characters(start_index, length, font)](/cells/python-net/aspose.cells.drawing/oleobject/format_characters/#int-int-Font) | Formats some characters with the font setting. |
-| [set_embedded_object(link_to_file, object_data, source_file_name, display_as_icon, label)](/cells/python-net/aspose.cells.drawing/oleobject/set_embedded_object/#bool-bytes-str-bool-str) |  |
-| [set_embedded_object(link_to_file, object_data, source_file_name, display_as_icon, label, update_icon)](/cells/python-net/aspose.cells.drawing/oleobject/set_embedded_object/#bool-bytes-str-bool-str-bool) |  |
+| [set_embedded_object(link_to_file, object_data, source_file_name, display_as_icon, label)](/cells/python-net/aspose.cells.drawing/oleobject/set_embedded_object/#bool-bytes-str-bool-str) | Sets embedded object data. |
+| [set_embedded_object(link_to_file, object_data, source_file_name, display_as_icon, label, update_icon)](/cells/python-net/aspose.cells.drawing/oleobject/set_embedded_object/#bool-bytes-str-bool-str-bool) | Sets embedded object data. |
 | [get_result_of_smart_art()](/cells/python-net/aspose.cells.drawing/oleobject/get_result_of_smart_art/#) | Converting smart art to grouped shapes. |
 | [to_front_or_back(orders)](/cells/python-net/aspose.cells.drawing/oleobject/to_front_or_back/#int) | Brings the shape to the front or sends the shape to back. |
 | [get_locked_property(type)](/cells/python-net/aspose.cells.drawing/oleobject/get_locked_property/#ShapeLockType) | Gets the value of locked property. |

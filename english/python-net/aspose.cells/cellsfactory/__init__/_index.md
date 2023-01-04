@@ -10,6 +10,8 @@ is_root: false
 
 ## CellsFactory() {#}
 
+Constructs a new instance of CellsFactory
+
 
 
 ```python

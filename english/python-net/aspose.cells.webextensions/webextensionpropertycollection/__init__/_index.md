@@ -10,6 +10,8 @@ is_root: false
 
 ## WebExtensionPropertyCollection() {#}
 
+Constructs a new instance of WebExtensionPropertyCollection
+
 
 
 ```python

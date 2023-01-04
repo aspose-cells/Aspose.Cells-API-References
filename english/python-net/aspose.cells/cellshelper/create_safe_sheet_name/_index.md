@@ -34,6 +34,15 @@ def create_safe_sheet_name(self, name_proposal):
 
 ## create_safe_sheet_name(name_proposal, replace_char) {#str-char}
 
+Checks given sheet name and create a valid one when needed.
+If given sheet name conforms to the rules of excel sheet name, then return it.
+Otherwise string will be truncated if length exceeds the limit
+and invalid characters will be replaced with given character, then return the rebuilt string value.
+
+### Returns 
+
+
+
 
 
 ```python
@@ -44,8 +53,8 @@ def create_safe_sheet_name(self, name_proposal, replace_char):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name_proposal | str |  |
-| replace_char | char |  |
+| name_proposal | str | sheet name to be used |
+| replace_char | char | character which will be used to replace invalid characters in given sheet name |
 
 
 

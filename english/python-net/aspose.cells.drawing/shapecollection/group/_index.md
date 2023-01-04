@@ -10,6 +10,12 @@ is_root: false
 
 ## group(group_items) {#list}
 
+Group the shapes.
+
+### Returns 
+
+
+Return the group shape.
 
 
 ```python
@@ -20,8 +26,11 @@ def group(self, group_items):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| group_items | list |  |
+| group_items | list | the group items. |
+### Remarks
 
+The shape in the groupItems should not be grouped.
+The shape must be in this Shapes collection.
 
 
 ### See Also

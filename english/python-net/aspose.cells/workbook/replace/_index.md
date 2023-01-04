@@ -100,6 +100,8 @@ def replace(self, int_value, new_value):
 
 ## replace(place_holder, new_values, is_vertical) {#str-list-bool}
 
+Replaces a cell's value with a new string array.
+
 
 
 ```python
@@ -110,13 +112,15 @@ def replace(self, place_holder, new_values, is_vertical):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| place_holder | str |  |
-| new_values | list |  |
-| is_vertical | bool |  |
+| place_holder | str | Cell placeholder |
+| new_values | list | String array to replace |
+| is_vertical | bool | True - Vertical, False - Horizontal |
 
 
 ## replace(place_holder, new_values, is_vertical) {#str-list-bool}
 
+Replaces cells' values with an integer array.
+
 
 
 ```python
@@ -127,13 +131,15 @@ def replace(self, place_holder, new_values, is_vertical):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| place_holder | str |  |
-| new_values | list |  |
-| is_vertical | bool |  |
+| place_holder | str | Cell placeholder |
+| new_values | list | Integer array to replace |
+| is_vertical | bool | True - Vertical, False - Horizontal |
 
 
 ## replace(place_holder, new_values, is_vertical) {#str-list-bool}
 
+Replaces cells' values with a double array.
+
 
 
 ```python
@@ -144,9 +150,9 @@ def replace(self, place_holder, new_values, is_vertical):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| place_holder | str |  |
-| new_values | list |  |
-| is_vertical | bool |  |
+| place_holder | str | Cell placeholder |
+| new_values | list | Double array to replace |
+| is_vertical | bool | True - Vertical, False - Horizontal |
 
 
 ## replace(place_holder, new_value, options) {#str-str-ReplaceOptions}

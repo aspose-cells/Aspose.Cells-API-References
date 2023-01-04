@@ -12,6 +12,8 @@ is_root: false
 
 
 
+
+
 ```python
 def has_shadow_effect(self):
     ...

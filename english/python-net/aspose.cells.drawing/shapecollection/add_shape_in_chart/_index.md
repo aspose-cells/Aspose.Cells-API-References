@@ -32,6 +32,8 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom):
 
 ## add_shape_in_chart(type, placement, left, top, right, bottom, image_data) {#MsoDrawingType-PlacementType-int-int-int-int-bytes}
 
+Add a shape to chart .All unit is 1/4000 of chart area.
+
 
 
 ```python
@@ -42,13 +44,13 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom, image_da
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [MsoDrawingType](/cells/python-net/aspose.cells.drawing/msodrawingtype) |  |
-| placement | [PlacementType](/cells/python-net/aspose.cells.drawing/placementtype) |  |
-| left | int |  |
-| top | int |  |
-| right | int |  |
-| bottom | int |  |
-| image_data | bytes |  |
+| type | [MsoDrawingType](/cells/python-net/aspose.cells.drawing/msodrawingtype) | The drawing type. |
+| placement | [PlacementType](/cells/python-net/aspose.cells.drawing/placementtype) | the placement type. |
+| left | int | In unit of 1/4000 chart area width. |
+| top | int | In unit of 1/4000 chart area height. |
+| right | int | In unit of 1/4000 chart area width. |
+| bottom | int | In unit of 1/4000 chart area height. |
+| image_data | bytes | If the shape is not a picture or ole object,imageData should be null. |
 
 
 

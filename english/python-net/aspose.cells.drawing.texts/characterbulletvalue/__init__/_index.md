@@ -10,6 +10,8 @@ is_root: false
 
 ## CharacterBulletValue() {#}
 
+Constructs a new instance of CharacterBulletValue
+
 
 
 ```python

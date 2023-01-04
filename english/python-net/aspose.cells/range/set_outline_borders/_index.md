@@ -46,6 +46,8 @@ def set_outline_borders(self, border_style, border_color):
 
 ## set_outline_borders(border_styles, border_colors) {#list-aspose.pydrawing.Color[]}
 
+Sets out line borders around a range of cells.
+
 
 
 ```python
@@ -56,9 +58,12 @@ def set_outline_borders(self, border_styles, border_colors):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| border_styles | list |  |
-| border_colors | aspose.pydrawing.Color[] |  |
+| border_styles | list | Border styles. |
+| border_colors | aspose.pydrawing.Color[] | Border colors. |
+### Remarks
 
+Both the length of borderStyles and borderStyles must be 4.
+The order of borderStyles and borderStyles must be top,bottom,left,right
 
 
 ### See Also

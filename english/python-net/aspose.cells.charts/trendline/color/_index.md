@@ -11,6 +11,8 @@ is_root: false
 ## color property
 
 
+Represents the Color of the line.
+
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

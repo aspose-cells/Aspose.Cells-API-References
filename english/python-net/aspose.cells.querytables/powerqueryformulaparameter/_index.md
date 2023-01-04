@@ -19,7 +19,7 @@ The PowerQueryFormulaParameter type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [PowerQueryFormulaParameter()](/cells/python-net/aspose.cells.querytables/powerqueryformulaparameter/__init__/#) |  |
+| [PowerQueryFormulaParameter()](/cells/python-net/aspose.cells.querytables/powerqueryformulaparameter/__init__/#) | Constructs a new instance of PowerQueryFormulaParameter |
 
 
 ### Properties

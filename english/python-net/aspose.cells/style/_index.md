@@ -64,12 +64,12 @@ The Style type exposes the following members:
 | [set_border(border_type, border_style, border_color)](/cells/python-net/aspose.cells/style/set_border/#BorderType-CellBorderType-aspose.pydrawing.Color) | Sets the borders of the style. |
 | [set_border(border_type, border_style, border_color)](/cells/python-net/aspose.cells/style/set_border/#BorderType-CellBorderType-CellsColor) | Sets the borders of the style. |
 | [set_pattern_color(pattern, color1, color2)](/cells/python-net/aspose.cells/style/set_pattern_color/#BackgroundType-aspose.pydrawing.Color-aspose.pydrawing.Color) | Sets the background color. |
-| [copy(style)](/cells/python-net/aspose.cells/style/copy/#Style) |  |
+| [copy(style)](/cells/python-net/aspose.cells/style/copy/#Style) | Copies data from another style object |
 | [update()](/cells/python-net/aspose.cells/style/update/#) | Apply the named style to the styles of the cells which use this named style.<br/>It works like clicking the "ok" button after you finished modifying the style.<br/>Only applies for named style. |
-| [is_modified(modify_flag)](/cells/python-net/aspose.cells/style/is_modified/#StyleModifyFlag) |  |
+| [is_modified(modify_flag)](/cells/python-net/aspose.cells/style/is_modified/#StyleModifyFlag) | Checks whether the specified properties of the style have been modified.<br/>Used for style of ConditionalFormattings to check whether the specified properties of this style should be used when applying the ConditionalFormattings on a cell. |
 | [set_custom(custom, builtin_preference)](/cells/python-net/aspose.cells/style/set_custom/#str-bool) | Sets the Custom number format string of a cell. |
-| [set_two_color_gradient(color1, color2, gradient_style_type, variant)](/cells/python-net/aspose.cells/style/set_two_color_gradient/#aspose.pydrawing.Color-aspose.pydrawing.Color-aspose.cells.drawing.GradientStyleType-int) |  |
-| [get_two_color_gradient(color1, color2, gradient_style_type, variant)](/cells/python-net/aspose.cells/style/get_two_color_gradient/#aspose.pydrawing.Color&-aspose.pydrawing.Color&-any-any) |  |
+| [set_two_color_gradient(color1, color2, gradient_style_type, variant)](/cells/python-net/aspose.cells/style/set_two_color_gradient/#aspose.pydrawing.Color-aspose.pydrawing.Color-aspose.cells.drawing.GradientStyleType-int) | Sets the specified fill to a two-color gradient. |
+| [get_two_color_gradient(color1, color2, gradient_style_type, variant)](/cells/python-net/aspose.cells/style/get_two_color_gradient/#aspose.pydrawing.Color&-aspose.pydrawing.Color&-any-any) | Get the two-color gradient setting. |
 
 
 ### See Also

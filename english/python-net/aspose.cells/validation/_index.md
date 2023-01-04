@@ -49,11 +49,11 @@ The Validation type exposes the following members:
 | [set_formula1(formula, is_r1c1, is_local)](/cells/python-net/aspose.cells/validation/set_formula1/#str-bool-bool) | Sets the value or expression associated with this validation. |
 | [set_formula2(formula, is_r1c1, is_local)](/cells/python-net/aspose.cells/validation/set_formula2/#str-bool-bool) | Sets the value or expression associated with this validation. |
 | [get_list_value(row, column)](/cells/python-net/aspose.cells/validation/get_list_value/#int-int) | Get the value for list of the validation for the specified cell. |
-| [add_areas(areas, check_intersection, check_edge)](/cells/python-net/aspose.cells/validation/add_areas/#list-bool-bool) |  |
+| [add_areas(areas, check_intersection, check_edge)](/cells/python-net/aspose.cells/validation/add_areas/#list-bool-bool) | Applies the validation to given areas. |
 | [remove_area(cell_area)](/cells/python-net/aspose.cells/validation/remove_area/#CellArea) | Remove the validation settings in the range. |
-| [remove_areas(areas)](/cells/python-net/aspose.cells/validation/remove_areas/#list) |  |
+| [remove_areas(areas)](/cells/python-net/aspose.cells/validation/remove_areas/#list) | Removes this validation from given areas. |
 | [remove_a_cell(row, column)](/cells/python-net/aspose.cells/validation/remove_a_cell/#int-int) | Remove the validation settings in the cell. |
-| [copy(source, copy_option)](/cells/python-net/aspose.cells/validation/copy/#Validation-CopyOptions) |  |
+| [copy(source, copy_option)](/cells/python-net/aspose.cells/validation/copy/#Validation-CopyOptions) | Copy validation. |
 
 
 ### See Also

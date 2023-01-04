@@ -132,8 +132,8 @@ The Shape type exposes the following members:
 | [format_characters(start_index, length, font)](/cells/python-net/aspose.cells.drawing/shape/format_characters/#int-int-Font) | Formats some characters with the font setting. |
 | [get_result_of_smart_art()](/cells/python-net/aspose.cells.drawing/shape/get_result_of_smart_art/#) | Converting smart art to grouped shapes. |
 | [to_front_or_back(orders)](/cells/python-net/aspose.cells.drawing/shape/to_front_or_back/#int) | Brings the shape to the front or sends the shape to back. |
-| [get_locked_property(type)](/cells/python-net/aspose.cells.drawing/shape/get_locked_property/#ShapeLockType) |  |
-| [set_locked_property(type, value)](/cells/python-net/aspose.cells.drawing/shape/set_locked_property/#ShapeLockType-bool) |  |
+| [get_locked_property(type)](/cells/python-net/aspose.cells.drawing/shape/get_locked_property/#ShapeLockType) | Gets the value of locked property. |
+| [set_locked_property(type, value)](/cells/python-net/aspose.cells.drawing/shape/set_locked_property/#ShapeLockType-bool) | Set the locked property. |
 | [add_hyperlink(address)](/cells/python-net/aspose.cells.drawing/shape/add_hyperlink/#str) | Adds a hyperlink to the shape. |
 | [remove_hyperlink()](/cells/python-net/aspose.cells.drawing/shape/remove_hyperlink/#) | Remove the hyperlink of the shape. |
 | [move_to_range(upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/python-net/aspose.cells.drawing/shape/move_to_range/#int-int-int-int) | Moves the shape to a specified range. |

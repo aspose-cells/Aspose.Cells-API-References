@@ -19,7 +19,7 @@ The JsonUtility type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [JsonUtility()](/cells/python-net/aspose.cells.utility/jsonutility/__init__/#) |  |
+| [JsonUtility()](/cells/python-net/aspose.cells.utility/jsonutility/__init__/#) | Constructs a new instance of JsonUtility |
 
 
 ### Methods

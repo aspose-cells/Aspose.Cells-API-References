@@ -19,7 +19,7 @@ The MultipleFilterCollection type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [MultipleFilterCollection()](/cells/python-net/aspose.cells/multiplefiltercollection/__init__/#) |  |
+| [MultipleFilterCollection()](/cells/python-net/aspose.cells/multiplefiltercollection/__init__/#) | Constructs a new instance of MultipleFilterCollection |
 
 
 ### Properties
