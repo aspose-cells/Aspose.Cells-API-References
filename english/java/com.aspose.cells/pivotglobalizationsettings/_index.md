@@ -1,0 +1,250 @@
+---
+title: PivotGlobalizationSettings
+second_title: Aspose.Cells for Java API Reference
+description: Represents the globalization settings for pivot tables.
+type: docs
+url: /java/com.aspose.cells/pivotglobalizationsettings/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public class PivotGlobalizationSettings
+```
+
+Represents the globalization settings for pivot tables.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PivotGlobalizationSettings()](#PivotGlobalizationSettings--) |  |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getTextOfAll()](#getTextOfAll--) | Gets the text of "(All)" label in the PivotTable. |
+| [getTextOfColumnLabels()](#getTextOfColumnLabels--) | Gets the text of "Column Labels" label in the PivotTable. |
+| [getTextOfDataFieldHeader()](#getTextOfDataFieldHeader--) | Gets the the text of the value area field header in the PivotTable. |
+| [getTextOfEmptyData()](#getTextOfEmptyData--) | Gets the text of "(blank)" label in the PivotTable. |
+| [getTextOfGrandTotal()](#getTextOfGrandTotal--) | Gets the text of "Grand Total" label in the PivotTable. |
+| [getTextOfMultipleItems()](#getTextOfMultipleItems--) | Gets the text of "(Multiple Items)" label in the PivotTable. |
+| [getTextOfProtection()](#getTextOfProtection--) | Gets the protection name in the PivotTable. |
+| [getTextOfRowLabels()](#getTextOfRowLabels--) | Gets the text of "Row Labels" label in the PivotTable. |
+| [getTextOfSubTotal(int subTotalType)](#getTextOfSubTotal-int-) | Gets the text of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type in the PivotTable. |
+| [getTextOfTotal()](#getTextOfTotal--) | Gets the text of "Total" label in the PivotTable. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### PivotGlobalizationSettings() {#PivotGlobalizationSettings--}
+```
+public PivotGlobalizationSettings()
+```
+
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getTextOfAll() {#getTextOfAll--}
+```
+public String getTextOfAll()
+```
+
+
+Gets the text of "(All)" label in the PivotTable.
+
+**Returns:**
+java.lang.String - The text of "(All)" label
+### getTextOfColumnLabels() {#getTextOfColumnLabels--}
+```
+public String getTextOfColumnLabels()
+```
+
+
+Gets the text of "Column Labels" label in the PivotTable.
+
+**Returns:**
+java.lang.String - The text of column labels
+### getTextOfDataFieldHeader() {#getTextOfDataFieldHeader--}
+```
+public String getTextOfDataFieldHeader()
+```
+
+
+Gets the the text of the value area field header in the PivotTable.
+
+**Returns:**
+java.lang.String - The text of data field header name
+### getTextOfEmptyData() {#getTextOfEmptyData--}
+```
+public String getTextOfEmptyData()
+```
+
+
+Gets the text of "(blank)" label in the PivotTable.
+
+**Returns:**
+java.lang.String - The text of empty data
+### getTextOfGrandTotal() {#getTextOfGrandTotal--}
+```
+public String getTextOfGrandTotal()
+```
+
+
+Gets the text of "Grand Total" label in the PivotTable.
+
+**Returns:**
+java.lang.String - The text of "Grand Total" label
+### getTextOfMultipleItems() {#getTextOfMultipleItems--}
+```
+public String getTextOfMultipleItems()
+```
+
+
+Gets the text of "(Multiple Items)" label in the PivotTable.
+
+**Returns:**
+java.lang.String - The text of "(Multiple Items)" label
+### getTextOfProtection() {#getTextOfProtection--}
+```
+public String getTextOfProtection()
+```
+
+
+Gets the protection name in the PivotTable.
+
+**Returns:**
+java.lang.String - The protection name of PivotTable
+### getTextOfRowLabels() {#getTextOfRowLabels--}
+```
+public String getTextOfRowLabels()
+```
+
+
+Gets the text of "Row Labels" label in the PivotTable.
+
+**Returns:**
+java.lang.String - The text of row labels
+### getTextOfSubTotal(int subTotalType) {#getTextOfSubTotal-int-}
+```
+public String getTextOfSubTotal(int subTotalType)
+```
+
+
+Gets the text of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subTotalType | int | The [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) |
+
+**Returns:**
+java.lang.String - The text of given type
+### getTextOfTotal() {#getTextOfTotal--}
+```
+public String getTextOfTotal()
+```
+
+
+Gets the text of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area.
+
+**Returns:**
+java.lang.String - The text of "Total" label
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
