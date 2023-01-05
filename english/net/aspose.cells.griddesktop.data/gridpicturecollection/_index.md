@@ -3,7 +3,6 @@ title: GridPictureCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of Picture objects.
 type: docs
-weight: 580
 url: /net/aspose.cells.griddesktop.data/gridpicturecollection/
 ---
 ## GridPictureCollection class

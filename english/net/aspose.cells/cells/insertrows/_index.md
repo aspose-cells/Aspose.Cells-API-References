@@ -3,7 +3,6 @@ title: InsertRows
 second_title: Aspose.Cells for .NET API Reference
 description: Inserts multiple rows into the worksheet.
 type: docs
-weight: 1170
 url: /net/aspose.cells/cells/insertrows/
 ---
 ## InsertRows(int, int, bool) {#insertrows_2}

@@ -3,7 +3,6 @@ title: PageCount
 second_title: Aspose.Cells for .NET API Reference
 description: Total page count.
 type: docs
-weight: 10
 url: /net/aspose.cells.rendering/pagesavingargs/pagecount/
 ---
 ## PageSavingArgs.PageCount property

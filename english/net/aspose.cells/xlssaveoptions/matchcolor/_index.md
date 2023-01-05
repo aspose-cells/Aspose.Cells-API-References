@@ -3,7 +3,6 @@ title: MatchColor
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether matching font color because there are 56 colors in the standard color palette.
 type: docs
-weight: 40
 url: /net/aspose.cells/xlssaveoptions/matchcolor/
 ---
 ## XlsSaveOptions.MatchColor property

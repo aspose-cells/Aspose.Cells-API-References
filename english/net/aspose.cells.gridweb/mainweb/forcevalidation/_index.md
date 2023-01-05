@@ -3,7 +3,6 @@ title: ForceValidation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to force customer side validation.
 type: docs
-weight: 350
 url: /net/aspose.cells.gridweb/mainweb/forcevalidation/
 ---
 ## MainWeb.ForceValidation property

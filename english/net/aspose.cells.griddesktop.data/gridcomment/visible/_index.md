@@ -3,7 +3,6 @@ title: Visible
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 120
 url: /net/aspose.cells.griddesktop.data/gridcomment/visible/
 ---
 ## GridComment.Visible property

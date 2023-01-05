@@ -3,7 +3,6 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the displayed text of the hyperlink.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb.data/hyperlink/text/
 ---
 ## Hyperlink.Text property

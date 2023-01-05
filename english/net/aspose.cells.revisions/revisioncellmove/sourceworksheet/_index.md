@@ -3,7 +3,6 @@ title: SourceWorksheet
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the source worksheet.
 type: docs
-weight: 30
 url: /net/aspose.cells.revisions/revisioncellmove/sourceworksheet/
 ---
 ## RevisionCellMove.SourceWorksheet property

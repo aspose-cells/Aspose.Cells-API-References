@@ -3,7 +3,6 @@ title: CapType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the ending caps.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/line/captype/
 ---
 ## Line.CapType property

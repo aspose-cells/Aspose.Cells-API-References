@@ -3,7 +3,6 @@ title: StandardFont
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the default standard font name
 type: docs
-weight: 210
 url: /net/aspose.cells/loadoptions/standardfont/
 ---
 ## LoadOptions.StandardFont property

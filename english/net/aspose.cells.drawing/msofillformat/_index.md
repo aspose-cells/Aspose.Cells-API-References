@@ -3,7 +3,6 @@ title: MsoFillFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Represents fill formatting for a shape.
 type: docs
-weight: 2330
 url: /net/aspose.cells.drawing/msofillformat/
 ---
 ## MsoFillFormat class

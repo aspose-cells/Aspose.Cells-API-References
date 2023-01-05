@@ -3,7 +3,6 @@ title: WebCell
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 860
 url: /net/aspose.cells.gridweb.data/webcell/
 ---
 ## WebCell class
@@ -31,7 +30,6 @@ public class WebCell
 
 | Name | Description |
 | --- | --- |
-| [CreateValidation](../../aspose.cells.gridweb.data/webcell/createvalidation)(ValidationType, bool) | Creates a validation object for a cell. |
 | [GetStyle](../../aspose.cells.gridweb.data/webcell/getstyle)() |  |
 | [PutValue](../../aspose.cells.gridweb.data/webcell/putvalue#putvalue)(bool) | Puts a boolean value into the cell. |
 | [PutValue](../../aspose.cells.gridweb.data/webcell/putvalue#putvalue_3)(DateTime) | Puts a DateTime value into the cell. |

@@ -3,7 +3,6 @@ title: Workbook
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 410
 url: /net/aspose.cells.griddesktop/worksheet/workbook/
 ---
 ## Worksheet.Workbook property

@@ -3,7 +3,6 @@ title: Line
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents the line format.
 type: docs
-weight: 2210
 url: /net/aspose.cells.drawing/line/
 ---
 ## Line class

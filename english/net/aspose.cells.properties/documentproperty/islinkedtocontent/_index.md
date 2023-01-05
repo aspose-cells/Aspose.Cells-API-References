@@ -3,7 +3,6 @@ title: IsLinkedToContent
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this property is linked to content
 type: docs
-weight: 20
 url: /net/aspose.cells.properties/documentproperty/islinkedtocontent/
 ---
 ## DocumentProperty.IsLinkedToContent property

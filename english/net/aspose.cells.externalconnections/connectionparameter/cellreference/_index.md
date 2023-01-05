@@ -3,7 +3,6 @@ title: CellReference
 second_title: Aspose.Cells for .NET API Reference
 description: Cell reference indicating which cells value to use for the query parameter. Used only when parameterType is cell.
 type: docs
-weight: 10
 url: /net/aspose.cells.externalconnections/connectionparameter/cellreference/
 ---
 ## ConnectionParameter.CellReference property

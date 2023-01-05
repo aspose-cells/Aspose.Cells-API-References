@@ -3,7 +3,6 @@ title: IntValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the integer value contained in the cell.
 type: docs
-weight: 120
 url: /net/aspose.cells/cell/intvalue/
 ---
 ## Cell.IntValue property

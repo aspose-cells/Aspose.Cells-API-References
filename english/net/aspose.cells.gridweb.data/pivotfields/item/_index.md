@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a PivotField by index.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/pivotfields/item/
 ---
 ## PivotFields indexer (1 of 2)

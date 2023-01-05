@@ -1,9 +1,8 @@
 ---
 title: FormulaSettings
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the settings for formula-related features.
+description: Gets the settings for formularelated features.
 type: docs
-weight: 210
 url: /net/aspose.cells/workbooksettings/formulasettings/
 ---
 ## WorkbookSettings.FormulaSettings property

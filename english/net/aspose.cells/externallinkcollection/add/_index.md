@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds an external link.
 type: docs
-weight: 30
 url: /net/aspose.cells/externallinkcollection/add/
 ---
 ## Add(string, string[]) {#add_1}

@@ -3,7 +3,6 @@ title: BevelPresetType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a preset for a type of bevel which can be applied to a shape in 3D.
 type: docs
-weight: 1820
 url: /net/aspose.cells.drawing/bevelpresettype/
 ---
 ## BevelPresetType enumeration

@@ -3,7 +3,6 @@ title: ICustomFunction
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 3800
 url: /net/aspose.cells/icustomfunction/
 ---
 ## ICustomFunction interface

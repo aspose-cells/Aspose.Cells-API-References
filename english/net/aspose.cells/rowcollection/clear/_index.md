@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all rows and cells.
 type: docs
-weight: 30
 url: /net/aspose.cells/rowcollection/clear/
 ---
 ## RowCollection.Clear method

@@ -3,7 +3,6 @@ title: Format
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the setting of the shapes formatting.
 type: docs
-weight: 130
 url: /net/aspose.cells.drawing/shape/format/
 ---
 ## Shape.Format property

@@ -3,7 +3,6 @@ title: IsSynchronized
 second_title: Aspose.Cells for .NET API Reference
 description: Internal used only.
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/issynchronized/
 ---
 ## CustomCommandButtonCollection.IsSynchronized property

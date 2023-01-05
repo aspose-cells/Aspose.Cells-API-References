@@ -3,7 +3,6 @@ title: IsSameSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Flag indicating whether to parse all tables inside a PRE block with the same width settings as the first row.
 type: docs
-weight: 70
 url: /net/aspose.cells.externalconnections/webqueryconnection/issamesettings/
 ---
 ## WebQueryConnection.IsSameSettings property

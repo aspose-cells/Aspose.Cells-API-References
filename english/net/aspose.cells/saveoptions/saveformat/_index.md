@@ -3,7 +3,6 @@ title: SaveFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the save file format.
 type: docs
-weight: 80
 url: /net/aspose.cells/saveoptions/saveformat/
 ---
 ## SaveOptions.SaveFormat property

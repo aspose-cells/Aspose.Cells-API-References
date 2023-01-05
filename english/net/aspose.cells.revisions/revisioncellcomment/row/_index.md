@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the row index of the which contains a comment.
 type: docs
-weight: 70
 url: /net/aspose.cells.revisions/revisioncellcomment/row/
 ---
 ## RevisionCellComment.Row property

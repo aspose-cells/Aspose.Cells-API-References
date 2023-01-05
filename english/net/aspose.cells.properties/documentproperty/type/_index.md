@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the data type of the property.
 type: docs
-weight: 50
 url: /net/aspose.cells.properties/documentproperty/type/
 ---
 ## DocumentProperty.Type property

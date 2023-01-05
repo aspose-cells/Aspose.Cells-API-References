@@ -3,7 +3,6 @@ title: EnableWizard
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the PivotTable Wizard is available.
 type: docs
-weight: 210
 url: /net/aspose.cells.pivot/pivottable/enablewizard/
 ---
 ## PivotTable.EnableWizard property

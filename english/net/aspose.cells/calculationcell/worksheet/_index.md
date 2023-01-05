@@ -3,7 +3,6 @@ title: Worksheet
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Worksheet object where the cell is in.
 type: docs
-weight: 50
 url: /net/aspose.cells/calculationcell/worksheet/
 ---
 ## CalculationCell.Worksheet property

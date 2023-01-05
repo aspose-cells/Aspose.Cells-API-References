@@ -3,7 +3,6 @@ title: ValidationsTable
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1030
 url: /net/aspose.cells.gridweb/mainweb/validationstable/
 ---
 ## MainWeb.ValidationsTable property

@@ -3,7 +3,6 @@ title: Marker
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the markeraspose.cells.charts/series/marker.
 type: docs
-weight: 300
 url: /net/aspose.cells.charts/series/marker/
 ---
 ## Series.Marker property

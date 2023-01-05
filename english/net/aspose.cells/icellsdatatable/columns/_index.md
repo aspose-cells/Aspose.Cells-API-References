@@ -3,7 +3,6 @@ title: Columns
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the columns name.
 type: docs
-weight: 10
 url: /net/aspose.cells/icellsdatatable/columns/
 ---
 ## ICellsDataTable.Columns property

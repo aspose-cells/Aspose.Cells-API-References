@@ -3,7 +3,6 @@ title: Warning
 second_title: Aspose.Cells for .NET API Reference
 description: Our callback only needs to implement the Warning method.
 type: docs
-weight: 10
 url: /net/aspose.cells/iwarningcallback/warning/
 ---
 ## IWarningCallback.Warning method

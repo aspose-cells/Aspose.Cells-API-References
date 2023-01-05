@@ -3,7 +3,6 @@ title: Trendline
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a trendline in a chart.
 type: docs
-weight: 990
 url: /net/aspose.cells.charts/trendline/
 ---
 ## Trendline class
@@ -18,40 +17,40 @@ public class Trendline : Line
 
 | Name | Description |
 | --- | --- |
-| [Backward](../../aspose.cells.charts/trendline/backward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than and equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
-| [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength) { get; set; } | Specifies the length of the arrowhead for the begin of a line. |
-| [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth) { get; set; } | Specifies the width of the arrowhead for the begin of a line. |
-| [BeginType](../../aspose.cells.drawing/line/begintype) { get; set; } | Specifies an arrowhead for the begin of a line. |
-| [CapType](../../aspose.cells.drawing/line/captype) { get; set; } | Specifies the ending caps. |
-| [Color](../../aspose.cells.drawing/line/color) { get; set; } | Represents the Color of the line. |
-| [CompoundType](../../aspose.cells.drawing/line/compoundtype) { get; set; } | Specifies the compound line type |
-| [DashType](../../aspose.cells.drawing/line/dashtype) { get; set; } | Specifies the dash line type |
-| [DataLabels](../../aspose.cells.charts/trendline/datalabels) { get; } | Represents the DataLabels object for the specified ASeries. |
+| [Backward](../../aspose.cells.charts/trendline/backward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5 |
+| [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength) { get; set; } | Specifies the length of the arrowhead for the begin of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth) { get; set; } | Specifies the width of the arrowhead for the begin of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [BeginType](../../aspose.cells.drawing/line/begintype) { get; set; } | Specifies an arrowhead for the begin of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [CapType](../../aspose.cells.drawing/line/captype) { get; set; } | Specifies the ending caps.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [Color](../../aspose.cells.drawing/line/color) { get; set; } | Represents the Color of the line.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [CompoundType](../../aspose.cells.drawing/line/compoundtype) { get; set; } | Specifies the compound line type(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [DashType](../../aspose.cells.drawing/line/dashtype) { get; set; } | Specifies the dash line type(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [DataLabels](../../aspose.cells.charts/trendline/datalabels) { get; } | Represents the DataLabels object for the specified series. |
 | [DisplayEquation](../../aspose.cells.charts/trendline/displayequation) { get; set; } | Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels. |
 | [DisplayRSquared](../../aspose.cells.charts/trendline/displayrsquared) { get; set; } | Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels. |
-| [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength) { get; set; } | Specifies the length of the arrowhead for the end of a line. |
-| [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth) { get; set; } | Specifies the width of the arrowhead for the end of a line. |
-| [EndType](../../aspose.cells.drawing/line/endtype) { get; set; } | Specifies an arrowhead for the end of a line. |
-| [FormattingType](../../aspose.cells.drawing/line/formattingtype) { get; set; } | Gets or sets format type. |
-| [Forward](../../aspose.cells.charts/trendline/forward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than and equal to zero. |
-| [GradientFill](../../aspose.cells.drawing/line/gradientfill) { get; } | Represents gradient fill. |
+| [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength) { get; set; } | Specifies the length of the arrowhead for the end of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth) { get; set; } | Specifies the width of the arrowhead for the end of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [EndType](../../aspose.cells.drawing/line/endtype) { get; set; } | Specifies an arrowhead for the end of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [FormattingType](../../aspose.cells.drawing/line/formattingtype) { get; set; } | Gets or sets format type.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [Forward](../../aspose.cells.charts/trendline/forward) { get; set; } | Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero. |
+| [GradientFill](../../aspose.cells.drawing/line/gradientfill) { get; } | Represents gradient fill.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
 | [Intercept](../../aspose.cells.charts/trendline/intercept) { get; set; } | Returns or sets the point where the trendline crosses the value axis. |
-| [IsAuto](../../aspose.cells.drawing/line/isauto) { get; set; } | Indicates whether this line style is auto assigned. |
-| [IsAutomaticColor](../../aspose.cells.drawing/line/isautomaticcolor) { get; } | Indicates whether the color of line is automatic assigned. |
+| [IsAuto](../../aspose.cells.drawing/line/isauto) { get; set; } | Indicates whether this line style is auto assigned.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [IsAutomaticColor](../../aspose.cells.drawing/line/isautomaticcolor) { get; } | Indicates whether the color of line is automatic assigned.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
 | [IsNameAuto](../../aspose.cells.charts/trendline/isnameauto) { get; set; } | Returns if Microsoft Excel automatically determines the name of the trendline. |
-| [IsVisible](../../aspose.cells.drawing/line/isvisible) { get; set; } | Represents whether the line is visible. |
-| [JoinType](../../aspose.cells.drawing/line/jointype) { get; set; } | Specifies the joining caps. |
+| [IsVisible](../../aspose.cells.drawing/line/isvisible) { get; set; } | Represents whether the line is visible.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [JoinType](../../aspose.cells.drawing/line/jointype) { get; set; } | Specifies the joining caps.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
 | [LegendEntry](../../aspose.cells.charts/trendline/legendentry) { get; } | Gets the legend entry according to this trendline |
 | [Name](../../aspose.cells.charts/trendline/name) { get; set; } | Returns the name of the trendline. |
 | [Order](../../aspose.cells.charts/trendline/order) { get; set; } | Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6. |
 | [Period](../../aspose.cells.charts/trendline/period) { get; set; } | Returns or sets the period for the moving-average trendline. |
-| [Style](../../aspose.cells.drawing/line/style) { get; set; } | Represents the style of the line. |
-| [ThemeColor](../../aspose.cells.drawing/line/themecolor) { get; set; } | Gets and sets the theme color. |
-| [Transparency](../../aspose.cells.drawing/line/transparency) { get; set; } | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
+| [Style](../../aspose.cells.drawing/line/style) { get; set; } | Represents the style of the line.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [ThemeColor](../../aspose.cells.drawing/line/themecolor) { get; set; } | Gets and sets the theme color.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [Transparency](../../aspose.cells.drawing/line/transparency) { get; set; } | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
 | [Type](../../aspose.cells.charts/trendline/type) { get; } | Returns the trendline type. |
-| [Weight](../../aspose.cells.drawing/line/weight) { get; set; } | Gets or sets the [`WeightType`](../../aspose.cells.drawing/weighttype) of the line. |
-| [WeightPt](../../aspose.cells.drawing/line/weightpt) { get; set; } | Gets or sets the weight of the line in unit of points. |
-| [WeightPx](../../aspose.cells.drawing/line/weightpx) { get; set; } | Gets or sets the weight of the line in unit of pixels. |
+| [Weight](../../aspose.cells.drawing/line/weight) { get; set; } | Gets or sets the [`WeightType`](../../aspose.cells.drawing/weighttype) of the line.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [WeightPt](../../aspose.cells.drawing/line/weightpt) { get; set; } | Gets or sets the weight of the line in unit of points.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
+| [WeightPx](../../aspose.cells.drawing/line/weightpx) { get; set; } | Gets or sets the weight of the line in unit of pixels.(Inherited from [`Line`](../../aspose.cells.drawing/line).) |
 
 ### Examples
 

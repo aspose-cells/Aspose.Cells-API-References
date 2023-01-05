@@ -3,7 +3,6 @@ title: AbstractCalculationEngine
 second_title: Aspose.Cells for .NET API Reference
 description: Represents users custom calculation engine to extend the default calculation engine of Aspose.Cells.
 type: docs
-weight: 20
 url: /net/aspose.cells/abstractcalculationengine/
 ---
 ## AbstractCalculationEngine class
@@ -35,7 +34,12 @@ User should not modify any part of the Workbook directly in this implementation(
 
 ```csharp
 [C#]
-public class MyEngine : AbstractCalculationEngine
+Workbook wb = new Workbook("custom_calc.xlsx");
+CalculationOptions opts = new CalculationOptions();
+opts.CustomEngine = new MyEngine();
+wb.CalculateFormula(opts);
+
+class MyEngine : AbstractCalculationEngine
 {
     public override void Calculate(CalculationData data)
     {

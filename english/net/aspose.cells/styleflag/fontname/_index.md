@@ -3,7 +3,6 @@ title: FontName
 second_title: Aspose.Cells for .NET API Reference
 description: Font name setting will be applied.
 type: docs
-weight: 130
 url: /net/aspose.cells/styleflag/fontname/
 ---
 ## StyleFlag.FontName property

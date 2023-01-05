@@ -3,7 +3,6 @@ title: HasFormat3D
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 130
 url: /net/aspose.cells.drawing/shapeformat/hasformat3d/
 ---
 ## ShapeFormat.HasFormat3D method

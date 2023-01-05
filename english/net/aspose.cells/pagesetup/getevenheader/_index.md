@@ -3,7 +3,6 @@ title: GetEvenHeader
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a script formatting the even header of an Excel file.
 type: docs
-weight: 490
 url: /net/aspose.cells/pagesetup/getevenheader/
 ---
 ## PageSetup.GetEvenHeader method
@@ -16,7 +15,7 @@ public string GetEvenHeader(int section)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section. |
+| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 
 ### See Also
 

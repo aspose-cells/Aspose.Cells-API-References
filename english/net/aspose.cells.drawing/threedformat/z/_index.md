@@ -3,7 +3,6 @@ title: Z
 second_title: Aspose.Cells for .NET API Reference
 description: Defines the distance from ground for the 3D shape.
 type: docs
-weight: 200
 url: /net/aspose.cells.drawing/threedformat/z/
 ---
 ## ThreeDFormat.Z property

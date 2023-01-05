@@ -3,7 +3,6 @@ title: PivotTable
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a PivotTable report on a worksheet. The PivotTable object is a member of the PivotTables./pivottables collection. The PivotTables collection contains all the PivotTable objects on a control.
 type: docs
-weight: 780
 url: /net/aspose.cells.gridweb.data/pivottable/
 ---
 ## PivotTable class

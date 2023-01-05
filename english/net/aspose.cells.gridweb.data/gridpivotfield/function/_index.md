@@ -3,7 +3,6 @@ title: Function
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the function used to summarize the PivotTable data field.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/gridpivotfield/function/
 ---
 ## GridPivotField.Function property

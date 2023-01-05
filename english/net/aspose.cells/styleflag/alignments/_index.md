@@ -3,7 +3,6 @@ title: Alignments
 second_title: Aspose.Cells for .NET API Reference
 description: Alignment setting will be applied.
 type: docs
-weight: 20
 url: /net/aspose.cells/styleflag/alignments/
 ---
 ## StyleFlag.Alignments property

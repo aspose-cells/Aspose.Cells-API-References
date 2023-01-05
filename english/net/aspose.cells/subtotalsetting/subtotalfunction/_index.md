@@ -3,7 +3,6 @@ title: SubtotalFunction
 second_title: Aspose.Cells for .NET API Reference
 description: The subtotal function.
 type: docs
-weight: 20
 url: /net/aspose.cells/subtotalsetting/subtotalfunction/
 ---
 ## SubtotalSetting.SubtotalFunction property

@@ -3,7 +3,6 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Removes module for a worksheet.
 type: docs
-weight: 50
 url: /net/aspose.cells.vba/vbamodulecollection/remove/
 ---
 ## Remove(Worksheet) {#remove}

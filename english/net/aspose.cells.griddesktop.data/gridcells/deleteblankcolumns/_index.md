@@ -3,7 +3,6 @@ title: DeleteBlankColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Delete all blank columns which do not contain any data.
 type: docs
-weight: 310
 url: /net/aspose.cells.griddesktop.data/gridcells/deleteblankcolumns/
 ---
 ## GridCells.DeleteBlankColumns method

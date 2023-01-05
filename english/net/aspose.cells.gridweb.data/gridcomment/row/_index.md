@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 100
 url: /net/aspose.cells.gridweb.data/gridcomment/row/
 ---
 ## GridComment.Row property

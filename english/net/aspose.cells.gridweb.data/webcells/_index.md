@@ -3,7 +3,6 @@ title: WebCells
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 900
 url: /net/aspose.cells.gridweb.data/webcells/
 ---
 ## WebCells class
@@ -65,8 +64,8 @@ public class WebCells
 | [SetStyle](../../aspose.cells.gridweb.data/webcells/setstyle#setstyle)(int, int, int, int, TableItemStyle) | Sets the style to a specified range of cells. |
 | [Sort](../../aspose.cells.gridweb.data/webcells/sort#sort)(int, int, int, int, int) | Sorts the datas ascend top to bottom in a range of a WebWorksheet by specified column index. |
 | [Sort](../../aspose.cells.gridweb.data/webcells/sort#sort_2)(int, int, int, int, int[]) | Sorts the datas ascend top to bottom in a range of a WebWorksheet by some field that are specifed by column indexes array. |
-| [Sort](../../aspose.cells.gridweb.data/webcells/sort#sort_1)(int, int, int, int, int, SortOrder, SortOrientation, bool) | Sorts the datas ascend top to bottom in a range of a WebWorksheet by specified column index. |
-| [Sort](../../aspose.cells.gridweb.data/webcells/sort#sort_3)(int, int, int, int, int[], SortOrder[], SortOrientation, bool) | Sorts the datas ascend in a range of a WebWorksheet by some field that are specifed by indexes array. |
+| [Sort](../../aspose.cells.gridweb.data/webcells/sort#sort_1)(int, int, int, int, int, SortByOrder, SortOrientation, bool) | Sorts the datas ascend top to bottom in a range of a WebWorksheet by specified column index. |
+| [Sort](../../aspose.cells.gridweb.data/webcells/sort#sort_3)(int, int, int, int, int[], SortByOrder[], SortOrientation, bool) | Sorts the datas ascend in a range of a WebWorksheet by some field that are specifed by indexes array. |
 | [UnMerge](../../aspose.cells.gridweb.data/webcells/unmerge)(int, int, int, int) | Unmerges a specified range of merged cells. |
 | static [CellIndexToName](../../aspose.cells.gridweb.data/webcells/cellindextoname)(int, int) | Gets cell name according to its row and column indexes. |
 | static [CellNameToIndex](../../aspose.cells.gridweb.data/webcells/cellnametoindex)(string, out int, out int) | Gets the cell row and column indexes according to its name |

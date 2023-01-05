@@ -3,7 +3,6 @@ title: LastPrintedUniversalTime
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the Universal time when the document was last printed.
 type: docs
-weight: 180
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/lastprinteduniversaltime/
 ---
 ## BuiltInDocumentPropertyCollection.LastPrintedUniversalTime property

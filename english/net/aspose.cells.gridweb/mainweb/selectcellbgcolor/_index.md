@@ -1,9 +1,8 @@
 ---
 title: SelectCellBgColor
 second_title: Aspose.Cells for .NET API Reference
-description: Specifies the background color of the selected cells in multi-select range.
+description: Specifies the background color of the selected cells in multiselect range.
 type: docs
-weight: 780
 url: /net/aspose.cells.gridweb/mainweb/selectcellbgcolor/
 ---
 ## MainWeb.SelectCellBgColor property

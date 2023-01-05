@@ -3,7 +3,6 @@ title: LeftPixel
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the horizontal offset of timeline shape from its left column in pixels.
 type: docs
-weight: 30
 url: /net/aspose.cells.timelines/timeline/leftpixel/
 ---
 ## Timeline.LeftPixel property

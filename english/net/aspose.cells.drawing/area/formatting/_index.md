@@ -3,7 +3,6 @@ title: Formatting
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the formatting of the area.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/area/formatting/
 ---
 ## Area.Formatting property

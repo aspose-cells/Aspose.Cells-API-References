@@ -3,7 +3,6 @@ title: ControlPictureAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the alignment of the picture inside the Form or Image.
 type: docs
-weight: 1570
 url: /net/aspose.cells.drawing.activexcontrols/controlpicturealignmenttype/
 ---
 ## ControlPictureAlignmentType enumeration

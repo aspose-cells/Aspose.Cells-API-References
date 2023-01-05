@@ -3,7 +3,6 @@ title: Zoom
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the scaling factor in percentage. It should be between 10 and 400.
 type: docs
-weight: 590
 url: /net/aspose.cells/worksheet/zoom/
 ---
 ## Worksheet.Zoom property

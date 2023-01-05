@@ -1,9 +1,8 @@
 ---
 title: ShowInnerPoints
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether showing non-outlier data points.
+description: Indicates whether showing nonoutlier data points.
 type: docs
-weight: 70
 url: /net/aspose.cells.charts/serieslayoutproperties/showinnerpoints/
 ---
 ## SeriesLayoutProperties.ShowInnerPoints property

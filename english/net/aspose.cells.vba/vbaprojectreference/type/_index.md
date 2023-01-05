@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the type of this reference.
 type: docs
-weight: 60
 url: /net/aspose.cells.vba/vbaprojectreference/type/
 ---
 ## VbaProjectReference.Type property

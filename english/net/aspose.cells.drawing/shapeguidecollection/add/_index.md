@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a shape guide.Important This feature is currently only available for Excel07 and above
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/shapeguidecollection/add/
 ---
 ## ShapeGuideCollection.Add method

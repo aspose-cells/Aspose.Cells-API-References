@@ -3,7 +3,6 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copy the picture.
 type: docs
-weight: 180
 url: /net/aspose.cells.drawing/picture/copy/
 ---
 ## Picture.Copy method

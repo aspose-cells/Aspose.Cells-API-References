@@ -3,7 +3,6 @@ title: GetRange
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the range if this name refers to a range.
 type: docs
-weight: 90
 url: /net/aspose.cells/name/getrange/
 ---
 ## GetRange() {#getrange}

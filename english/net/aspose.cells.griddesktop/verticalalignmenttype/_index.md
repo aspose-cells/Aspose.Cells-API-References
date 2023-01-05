@@ -3,7 +3,6 @@ title: VerticalAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies how a gridcell is vertically aligned.
 type: docs
-weight: 1040
 url: /net/aspose.cells.griddesktop/verticalalignmenttype/
 ---
 ## VerticalAlignmentType enumeration

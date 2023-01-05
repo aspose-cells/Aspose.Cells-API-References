@@ -3,7 +3,6 @@ title: GridAbstractCalculationEngine
 second_title: Aspose.Cells for .NET API Reference
 description: Represents users custom calculation engine to extend the default calculation engine of Aspose.Cells.
 type: docs
-weight: 140
 url: /net/aspose.cells.gridweb.data/gridabstractcalculationengine/
 ---
 ## GridAbstractCalculationEngine class
@@ -24,7 +23,7 @@ public abstract class GridAbstractCalculationEngine
 
 ```csharp
 [C#]
-public class MyEngine : GridAbstractCalculationEngine
+ class MyEngine : GridAbstractCalculationEngine
 {
     public override void Calculate(GridCalculationData data)
     {
@@ -37,9 +36,9 @@ public class MyEngine : GridAbstractCalculationEngine
             for (int i = 0; i < count; i++)
             {
                 object pv = data.GetParamValue(i);
-                if (pv is ReferredArea)
+                if (pv is GridReferredArea)
                 {
-                    ReferredArea ra = (ReferredArea)pv;
+                    GridReferredArea ra = (GridReferredArea)pv;
                     pv = ra.GetValue(0, 0);
                 }
                 //process the parameter here

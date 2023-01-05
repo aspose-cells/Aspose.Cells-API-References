@@ -3,7 +3,6 @@ title: GetRowOutlineLevel
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the outline level of the row.
 type: docs
-weight: 240
 url: /net/aspose.cells.gridweb.data/webcells/getrowoutlinelevel/
 ---
 ## WebCells.GetRowOutlineLevel method

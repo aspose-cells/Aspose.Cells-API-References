@@ -3,7 +3,6 @@ title: ShapeWidthPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the width in units of pixels after calls Chart.Calculate method.
 type: docs
-weight: 240
 url: /net/aspose.cells.charts/chartpoint/shapewidthpx/
 ---
 ## ChartPoint.ShapeWidthPx property

@@ -3,7 +3,6 @@ title: DownBars
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a DropBarsaspose.cells.charts/dropbars object that represents the down bars on a line chart. Applies only to line charts.
 type: docs
-weight: 110
 url: /net/aspose.cells.charts/series/downbars/
 ---
 ## Series.DownBars property

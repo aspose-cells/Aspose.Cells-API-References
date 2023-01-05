@@ -3,7 +3,6 @@ title: TextHorizontalAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text horizontal alignment type of the comment.
 type: docs
-weight: 140
 url: /net/aspose.cells/comment/texthorizontalalignment/
 ---
 ## Comment.TextHorizontalAlignment property

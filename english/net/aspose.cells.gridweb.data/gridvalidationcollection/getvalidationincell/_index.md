@@ -3,7 +3,6 @@ title: GetValidationInCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the validation applied to given cell.
 type: docs
-weight: 50
 url: /net/aspose.cells.gridweb.data/gridvalidationcollection/getvalidationincell/
 ---
 ## GridValidationCollection.GetValidationInCell method
@@ -21,7 +20,7 @@ public GridValidation GetValidationInCell(int row, int column)
 
 ### Return Value
 
-Returns a [`Validation`](../../../aspose.cells.gridweb/validation) object or null if there is no validation for given cell
+Returns a [`GridValidation`](../../gridvalidation) object or null if there is no validation for given cell
 
 ### See Also
 

@@ -3,7 +3,6 @@ title: GridDesktop
 second_title: Aspose.Cells for .NET API Reference
 description: Gets Sheets GridDesktop object.
 type: docs
-weight: 200
 url: /net/aspose.cells.griddesktop/worksheet/griddesktop/
 ---
 ## Worksheet.GridDesktop property

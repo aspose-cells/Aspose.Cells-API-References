@@ -3,7 +3,6 @@ title: MirrorType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the mirror type for tiling.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/tilepicoption/mirrortype/
 ---
 ## TilePicOption.MirrorType property

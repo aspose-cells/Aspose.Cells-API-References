@@ -3,7 +3,6 @@ title: RotationAngle
 second_title: Aspose.Cells for .NET API Reference
 description: Represents text rotation angle in clockwise.
 type: docs
-weight: 120
 url: /net/aspose.cells.charts/ticklabels/rotationangle/
 ---
 ## TickLabels.RotationAngle property

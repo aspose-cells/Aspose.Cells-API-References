@@ -3,7 +3,6 @@ title: HasLine
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the line border of the shape is visible.
 type: docs
-weight: 180
 url: /net/aspose.cells.drawing/shape/hasline/
 ---
 ## Shape.HasLine property

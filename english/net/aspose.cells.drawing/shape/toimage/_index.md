@@ -3,14 +3,14 @@ title: ToImage
 second_title: Aspose.Cells for .NET API Reference
 description: Creates the shape image and saves it to a stream in the specified format.
 type: docs
-weight: 1210
 url: /net/aspose.cells.drawing/shape/toimage/
 ---
-## ToImage(Stream, ImageFormat) {#toimage_2}
+## ToImage(Stream, ImageFormat) {#toimage_3}
 
 Creates the shape image and saves it to a stream in the specified format.
 
 ```csharp
+[Obsolete("Use Shape.ToImage(Stream, ImageType) method instead.")]
 public void ToImage(Stream stream, ImageFormat imageFormat)
 ```
 
@@ -18,6 +18,31 @@ public void ToImage(Stream stream, ImageFormat imageFormat)
 | --- | --- | --- |
 | stream | Stream | The output stream. |
 | imageFormat | ImageFormat | The format in which to save the image. |
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use Shape.ToImage(Stream, ImageType) method. This property will be removed 12 months later since July 2022. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* class [Shape](../../shape)
+* namespace [Aspose.Cells.Drawing](../../shape)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ToImage(Stream, ImageType) {#toimage_1}
+
+Creates the shape image and saves it to a stream in the specified format.
+
+```csharp
+public void ToImage(Stream stream, ImageType imageType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The output stream. |
+| imageType | ImageType | The type in which to save the image. |
 
 ### Remarks
 
@@ -29,18 +54,19 @@ The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 [C#]
 MemoryStream imageStream = new MemoryStream();
-shape.ToImage(imageStream, System.Drawing.Imaging.ImageFormat.Png);
+shape.ToImage(imageStream, ImageType.Png);
 ```
 
 ### See Also
 
+* enum [ImageType](../../imagetype)
 * class [Shape](../../shape)
 * namespace [Aspose.Cells.Drawing](../../shape)
 * assembly [Aspose.Cells](../../../)
 
 ---
 
-## ToImage(string, ImageOrPrintOptions) {#toimage_3}
+## ToImage(string, ImageOrPrintOptions) {#toimage_4}
 
 Saves the shape to a file.
 
@@ -66,7 +92,7 @@ shape.ToImage("exmaple.png", op);
 
 ---
 
-## ToImage(Stream, ImageOrPrintOptions) {#toimage_1}
+## ToImage(Stream, ImageOrPrintOptions) {#toimage_2}
 
 Saves the shape to a stream.
 

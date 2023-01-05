@@ -3,7 +3,6 @@ title: ClearSparklines
 second_title: Aspose.Cells for .NET API Reference
 description: Clears the sparklines that is inside an area of cells.
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/sparklinegroupcollection/clearsparklines/
 ---
 ## SparklineGroupCollection.ClearSparklines method

@@ -3,7 +3,6 @@ title: GapWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the space between bar or column clusters as a percentage of the bar or column width. The value of this property must be between 0 and 500.
 type: docs
-weight: 150
 url: /net/aspose.cells.charts/series/gapwidth/
 ---
 ## Series.GapWidth property

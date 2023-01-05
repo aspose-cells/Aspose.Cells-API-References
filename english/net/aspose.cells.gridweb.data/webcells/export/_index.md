@@ -3,7 +3,6 @@ title: Export
 second_title: Aspose.Cells for .NET API Reference
 description: Exports data in the Cells collection of a WebWorksheet to a new DataTable object
 type: docs
-weight: 150
 url: /net/aspose.cells.gridweb.data/webcells/export/
 ---
 ## WebCells.Export method

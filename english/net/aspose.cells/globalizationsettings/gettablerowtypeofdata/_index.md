@@ -3,7 +3,6 @@ title: GetTableRowTypeOfData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the type name of table rows that consists of data region of referenced table. Default is Data so in formula Data represents the data region of the table.
 type: docs
-weight: 290
 url: /net/aspose.cells/globalizationsettings/gettablerowtypeofdata/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfData method

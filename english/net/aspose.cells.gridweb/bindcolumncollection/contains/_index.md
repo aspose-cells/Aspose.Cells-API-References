@@ -3,7 +3,6 @@ title: Contains
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the bind column is in the collection.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb/bindcolumncollection/contains/
 ---
 ## BindColumnCollection.Contains method

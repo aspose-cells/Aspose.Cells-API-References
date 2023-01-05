@@ -3,7 +3,6 @@ title: SetManualGroupField
 second_title: Aspose.Cells for .NET API Reference
 description: Sets manual field group by the PivotTable.
 type: docs
-weight: 940
 url: /net/aspose.cells.pivot/pivottable/setmanualgroupfield/
 ---
 ## SetManualGroupField(int, double, double, ArrayList, double) {#setmanualgroupfield_2}

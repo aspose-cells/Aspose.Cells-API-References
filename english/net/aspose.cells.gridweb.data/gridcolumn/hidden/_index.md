@@ -3,7 +3,6 @@ title: Hidden
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the column is hidden.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/gridcolumn/hidden/
 ---
 ## GridColumn.Hidden property

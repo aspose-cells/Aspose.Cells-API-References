@@ -3,7 +3,6 @@ title: All
 second_title: Aspose.Cells for .NET API Reference
 description: All properties will be applied.
 type: docs
-weight: 30
 url: /net/aspose.cells/styleflag/all/
 ---
 ## StyleFlag.All property

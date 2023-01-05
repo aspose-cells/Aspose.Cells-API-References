@@ -3,7 +3,6 @@ title: TextDirection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents text reading order.
 type: docs
-weight: 300
 url: /net/aspose.cells/style/textdirection/
 ---
 ## Style.TextDirection property

@@ -3,7 +3,6 @@ title: LeftPixel
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the horizontal offset of slicer shape from its left column in pixels.
 type: docs
-weight: 100
 url: /net/aspose.cells.slicers/slicer/leftpixel/
 ---
 ## Slicer.LeftPixel property

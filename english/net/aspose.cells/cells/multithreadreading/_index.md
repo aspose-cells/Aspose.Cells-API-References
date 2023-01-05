@@ -1,9 +1,8 @@
 ---
 title: MultiThreadReading
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false.
+description: Gets or sets whether the cells data model should support MultiThread reading. Default value of this property is false.
 type: docs
-weight: 200
 url: /net/aspose.cells/cells/multithreadreading/
 ---
 ## Cells.MultiThreadReading property

@@ -1,9 +1,8 @@
 ---
 title: Period
 second_title: Aspose.Cells for .NET API Reference
-description: Returns or sets the period for the moving-average trendline.
+description: Returns or sets the period for the movingaverage trendline.
 type: docs
-weight: 110
 url: /net/aspose.cells.charts/trendline/period/
 ---
 ## Trendline.Period property

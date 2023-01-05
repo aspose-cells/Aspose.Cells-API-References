@@ -3,7 +3,6 @@ title: CustomProperty
 second_title: Aspose.Cells for .NET API Reference
 description: Represents identifier information.
 type: docs
-weight: 4870
 url: /net/aspose.cells.properties/customproperty/
 ---
 ## CustomProperty class
@@ -25,7 +24,7 @@ public class CustomProperty
 | Name | Description |
 | --- | --- |
 | [Name](../../aspose.cells.properties/customproperty/name) { get; set; } | Returns or sets the name of the object. |
-| [StringValue](../../aspose.cells.properties/customproperty/stringvalue) { get; set; } | Returns or sets the value of the custom property. |
+| [StringValue](../../aspose.cells.properties/customproperty/stringvalue) { get; set; } | (**Obsolete.**) Returns or sets the value of the custom property. |
 | [Value](../../aspose.cells.properties/customproperty/value) { get; set; } | Returns or sets the value of the custom property. |
 
 ### See Also

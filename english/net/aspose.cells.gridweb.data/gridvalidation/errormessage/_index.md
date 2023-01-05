@@ -3,7 +3,6 @@ title: ErrorMessage
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the data validation error message.
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb.data/gridvalidation/errormessage/
 ---
 ## GridValidation.ErrorMessage property

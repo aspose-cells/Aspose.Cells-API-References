@@ -3,7 +3,6 @@ title: ExportDataTable
 second_title: Aspose.Cells for .NET API Reference
 description: Exports data in this range to a DataTable object.
 type: docs
-weight: 240
 url: /net/aspose.cells/range/exportdatatable/
 ---
 ## ExportDataTable() {#exportdatatable}

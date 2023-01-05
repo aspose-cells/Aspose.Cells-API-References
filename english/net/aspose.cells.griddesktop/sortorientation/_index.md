@@ -3,7 +3,6 @@ title: SortOrientation
 second_title: Aspose.Cells for .NET API Reference
 description: Represents sorting orientation
 type: docs
-weight: 960
 url: /net/aspose.cells.griddesktop/sortorientation/
 ---
 ## SortOrientation enumeration

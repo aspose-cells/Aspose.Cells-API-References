@@ -3,7 +3,6 @@ title: TopBevelHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the height of the top bevel or how far into the shape it is applied. In unit of Points.
 type: docs
-weight: 170
 url: /net/aspose.cells.drawing/threedformat/topbevelheight/
 ---
 ## ThreeDFormat.TopBevelHeight property

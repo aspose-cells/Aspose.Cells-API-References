@@ -3,7 +3,6 @@ title: MergesCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the count of the merges
 type: docs
-weight: 260
 url: /net/aspose.cells.griddesktop/worksheet/mergescount/
 ---
 ## Worksheet.MergesCount property

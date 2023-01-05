@@ -3,7 +3,6 @@ title: RectangleAlignmentType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents how to position two rectangles relative to each other.
 type: docs
-weight: 2570
 url: /net/aspose.cells.drawing/rectanglealignmenttype/
 ---
 ## RectangleAlignmentType enumeration

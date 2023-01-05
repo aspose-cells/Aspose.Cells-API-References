@@ -3,7 +3,6 @@ title: Settings
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the workbook settings.
 type: docs
-weight: 840
 url: /net/aspose.cells.gridweb/mainweb/settings/
 ---
 ## MainWeb.Settings property

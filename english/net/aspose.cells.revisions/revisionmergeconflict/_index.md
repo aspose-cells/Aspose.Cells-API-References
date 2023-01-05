@@ -3,7 +3,6 @@ title: RevisionMergeConflict
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a revision record which indicates that there was a merge conflict.
 type: docs
-weight: 5490
 url: /net/aspose.cells.revisions/revisionmergeconflict/
 ---
 ## RevisionMergeConflict class
@@ -18,9 +17,9 @@ public class RevisionMergeConflict : Revision
 
 | Name | Description |
 | --- | --- |
-| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision.(Inherited from [`Revision`](../revision).) |
 | override [Type](../../aspose.cells.revisions/revisionmergeconflict/type) { get; } | Gets the type of revision. |
-| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision).) |
 
 ### See Also
 

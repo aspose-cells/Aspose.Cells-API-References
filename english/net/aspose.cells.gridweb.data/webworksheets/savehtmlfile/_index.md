@@ -3,7 +3,6 @@ title: SaveHTMLFile
 second_title: Aspose.Cells for .NET API Reference
 description: Saves data to a HTML file.
 type: docs
-weight: 310
 url: /net/aspose.cells.gridweb.data/webworksheets/savehtmlfile/
 ---
 ## SaveHTMLFile(string) {#savehtmlfile_1}

@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the icon set type.
 type: docs
-weight: 30
 url: /net/aspose.cells/conditionalformattingicon/type/
 ---
 ## ConditionalFormattingIcon.Type property

@@ -3,7 +3,6 @@ title: GetSeriesByOrder
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Seriesaspose.cells.charts/series element by order.
 type: docs
-weight: 90
 url: /net/aspose.cells.charts/seriescollection/getseriesbyorder/
 ---
 ## SeriesCollection.GetSeriesByOrder method

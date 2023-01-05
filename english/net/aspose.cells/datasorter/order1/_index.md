@@ -3,7 +3,6 @@ title: Order1
 second_title: Aspose.Cells for .NET API Reference
 description: Represents sort order of the first key.
 type: docs
-weight: 70
 url: /net/aspose.cells/datasorter/order1/
 ---
 ## DataSorter.Order1 property

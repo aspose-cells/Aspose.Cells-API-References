@@ -1,9 +1,8 @@
 ---
 title: RotationAngle
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the rotation of the 3-D chart view the rotation of the plot area around the z-axis in degrees.
+description: Represents the rotation of the 3D chart view the rotation of the plot area around the zaxis in degrees.
 type: docs
-weight: 340
 url: /net/aspose.cells.charts/chart/rotationangle/
 ---
 ## Chart.RotationAngle property

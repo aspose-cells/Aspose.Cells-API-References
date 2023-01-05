@@ -3,7 +3,6 @@ title: LeftCM
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the horizontal offset of shape from its left column in unit of centimeters.
 type: docs
-weight: 440
 url: /net/aspose.cells.drawing/shape/leftcm/
 ---
 ## Shape.LeftCM property

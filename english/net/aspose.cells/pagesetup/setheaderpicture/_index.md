@@ -3,7 +3,6 @@ title: SetHeaderPicture
 second_title: Aspose.Cells for .NET API Reference
 description: Sets an image in the header of a worksheet.
 type: docs
-weight: 630
 url: /net/aspose.cells/pagesetup/setheaderpicture/
 ---
 ## PageSetup.SetHeaderPicture method
@@ -16,7 +15,7 @@ public Picture SetHeaderPicture(int section, byte[] headerPicture)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section. |
+| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 | headerPicture | Byte[] | Image data. |
 
 ### Return Value

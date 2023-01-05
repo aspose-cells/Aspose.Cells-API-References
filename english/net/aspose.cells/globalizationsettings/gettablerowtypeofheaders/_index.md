@@ -3,7 +3,6 @@ title: GetTableRowTypeOfHeaders
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the type name of table rows that consists of the table header. Default is Headers so in formula Headers represents the table header.
 type: docs
-weight: 300
 url: /net/aspose.cells/globalizationsettings/gettablerowtypeofheaders/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfHeaders method

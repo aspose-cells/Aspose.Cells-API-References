@@ -3,7 +3,6 @@ title: DEFAULT_HEIGHT
 second_title: Aspose.Cells for .NET API Reference
 description: Default height of gridrow.
 type: docs
-weight: 120
 url: /net/aspose.cells.griddesktop.data/gridrow/default_height/
 ---
 ## GridRow.DEFAULT_HEIGHT field

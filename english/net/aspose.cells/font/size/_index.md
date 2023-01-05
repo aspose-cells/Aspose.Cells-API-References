@@ -3,7 +3,6 @@ title: Size
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the size of the font.
 type: docs
-weight: 150
 url: /net/aspose.cells/font/size/
 ---
 ## Font.Size property

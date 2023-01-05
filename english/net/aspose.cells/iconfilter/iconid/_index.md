@@ -1,9 +1,8 @@
 ---
 title: IconId
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets Zero-based index of an icon in an icon set.
+description: Gets and sets Zerobased index of an icon in an icon set.
 type: docs
-weight: 10
 url: /net/aspose.cells/iconfilter/iconid/
 ---
 ## IconFilter.IconId property

@@ -1,9 +1,8 @@
 ---
 title: CustomImplementationFactory
 second_title: Aspose.Cells for .NET API Reference
-description: Factory to create some instances which may be re-implemented by user for special purpose.
+description: Factory to create some instances which may be reimplemented by user for special purpose.
 type: docs
-weight: 1240
 url: /net/aspose.cells/customimplementationfactory/
 ---
 ## CustomImplementationFactory class

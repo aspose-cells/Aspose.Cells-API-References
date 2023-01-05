@@ -1,9 +1,8 @@
 ---
 title: TickLabels
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the tick-mark labels associated with tick marks on a chart axis.
+description: Represents the tickmark labels associated with tick marks on a chart axis.
 type: docs
-weight: 950
 url: /net/aspose.cells.charts/ticklabels/
 ---
 ## TickLabels class
@@ -30,7 +29,7 @@ public class TickLabels
 | [Offset](../../aspose.cells.charts/ticklabels/offset) { get; set; } | Gets and sets the distance of labels from the axis. |
 | [ReadingOrder](../../aspose.cells.charts/ticklabels/readingorder) { get; set; } | Represents text reading order. |
 | [RotationAngle](../../aspose.cells.charts/ticklabels/rotationangle) { get; set; } | Represents text rotation angle in clockwise. |
-| [TextDirection](../../aspose.cells.charts/ticklabels/textdirection) { get; set; } | Represents text reading order. |
+| [TextDirection](../../aspose.cells.charts/ticklabels/textdirection) { get; set; } | (**Obsolete.**) Represents text reading order. |
 | [TickLabelItems](../../aspose.cells.charts/ticklabels/ticklabelitems) { get; } | Gets the items' info of TickLabel. |
 
 ### See Also

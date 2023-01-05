@@ -3,7 +3,6 @@ title: ExternalLinks
 second_title: Aspose.Cells for .NET API Reference
 description: Represents external links in a workbook.
 type: docs
-weight: 60
 url: /net/aspose.cells/worksheetcollection/externallinks/
 ---
 ## WorksheetCollection.ExternalLinks property

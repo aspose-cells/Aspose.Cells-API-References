@@ -3,7 +3,6 @@ title: MenuItemAvailable_Delete
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item Delete is available.
 type: docs
-weight: 70
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_delete/
 ---
 ## ContextMenuManager.MenuItemAvailable_Delete property

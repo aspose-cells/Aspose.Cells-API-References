@@ -3,7 +3,6 @@ title: ODSPageBackground
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the background of ODS.
 type: docs
-weight: 220
 url: /net/aspose.cells/pagesetup/odspagebackground/
 ---
 ## PageSetup.ODSPageBackground property

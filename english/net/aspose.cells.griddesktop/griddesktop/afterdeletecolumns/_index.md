@@ -3,7 +3,6 @@ title: AfterDeleteColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs after column is deleted.
 type: docs
-weight: 330
 url: /net/aspose.cells.griddesktop/griddesktop/afterdeletecolumns/
 ---
 ## GridDesktop.AfterDeleteColumns event

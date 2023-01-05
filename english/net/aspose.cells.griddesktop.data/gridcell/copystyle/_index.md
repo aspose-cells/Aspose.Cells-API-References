@@ -3,7 +3,6 @@ title: CopyStyle
 second_title: Aspose.Cells for .NET API Reference
 description: copy the style and set the style for the cell
 type: docs
-weight: 220
 url: /net/aspose.cells.griddesktop.data/gridcell/copystyle/
 ---
 ## GridCell.CopyStyle method

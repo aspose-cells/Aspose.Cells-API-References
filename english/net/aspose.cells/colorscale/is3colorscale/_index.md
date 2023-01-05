@@ -3,7 +3,6 @@ title: Is3ColorScale
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether conditional formatting is 3 color scale.
 type: docs
-weight: 10
 url: /net/aspose.cells/colorscale/is3colorscale/
 ---
 ## ColorScale.Is3ColorScale property

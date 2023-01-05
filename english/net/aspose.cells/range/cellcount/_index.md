@@ -3,7 +3,6 @@ title: CellCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all cell count in the range.
 type: docs
-weight: 20
 url: /net/aspose.cells/range/cellcount/
 ---
 ## Range.CellCount property

@@ -3,7 +3,6 @@ title: X
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the horizonal offset of shape from worksheet left borderin unit of pixels.
 type: docs
-weight: 550
 url: /net/aspose.cells.gridweb.data/gridpicture/x/
 ---
 ## GridPicture.X property

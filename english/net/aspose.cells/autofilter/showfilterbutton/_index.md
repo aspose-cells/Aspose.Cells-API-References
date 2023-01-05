@@ -3,7 +3,6 @@ title: ShowFilterButton
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the AutoFilter button for this column is visible.
 type: docs
-weight: 30
 url: /net/aspose.cells/autofilter/showfilterbutton/
 ---
 ## AutoFilter.ShowFilterButton property

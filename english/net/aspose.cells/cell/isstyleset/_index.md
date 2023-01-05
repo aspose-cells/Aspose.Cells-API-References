@@ -3,7 +3,6 @@ title: IsStyleSet
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the cells style is set. If return false it means this cell has a default cell format.
 type: docs
-weight: 220
 url: /net/aspose.cells/cell/isstyleset/
 ---
 ## Cell.IsStyleSet property

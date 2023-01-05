@@ -3,7 +3,6 @@ title: ToPrinter
 second_title: Aspose.Cells for .NET API Reference
 description: Render worksheet to Printer
 type: docs
-weight: 80
 url: /net/aspose.cells.rendering/sheetrender/toprinter/
 ---
 ## ToPrinter(string) {#toprinter_2}

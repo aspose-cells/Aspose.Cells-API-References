@@ -3,7 +3,6 @@ title: Controls
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the cell control collection.
 type: docs
-weight: 90
 url: /net/aspose.cells.griddesktop/worksheet/controls/
 ---
 ## Worksheet.Controls property

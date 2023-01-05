@@ -3,7 +3,6 @@ title: CalculateFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to calculate formulas before saving pdf file.
 type: docs
-weight: 40
 url: /net/aspose.cells/pdfsaveoptions/calculateformula/
 ---
 ## PdfSaveOptions.CalculateFormula property

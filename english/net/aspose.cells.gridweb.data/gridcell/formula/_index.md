@@ -1,14 +1,13 @@
 ---
 title: Formula
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets a formula of the Cell.
+description: Gets or sets a formula of the GridCellaspose.cells.gridweb.data/gridcell.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb.data/gridcell/formula/
 ---
 ## GridCell.Formula property
 
-Gets or sets a formula of the Cell.
+Gets or sets a formula of the [`GridCell`](../../gridcell).
 
 ```csharp
 public string Formula { get; set; }

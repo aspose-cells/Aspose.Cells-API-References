@@ -3,7 +3,6 @@ title: SpecialEffect
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the special effect of the control.
 type: docs
-weight: 80
 url: /net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/specialeffect/
 ---
 ## ImageActiveXControl.SpecialEffect property

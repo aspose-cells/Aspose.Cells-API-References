@@ -3,7 +3,6 @@ title: WorkbookRender
 second_title: Aspose.Cells for .NET API Reference
 description: The construct of WorkbookRender
 type: docs
-weight: 10
 url: /net/aspose.cells.rendering/workbookrender/workbookrender/
 ---
 ## WorkbookRender constructor

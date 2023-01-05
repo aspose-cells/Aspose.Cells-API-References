@@ -3,7 +3,6 @@ title: FailLoadFile
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 530
 url: /net/aspose.cells.griddesktop/griddesktop/failloadfile/
 ---
 ## GridDesktop.FailLoadFile event

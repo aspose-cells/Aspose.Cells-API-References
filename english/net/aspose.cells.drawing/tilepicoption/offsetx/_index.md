@@ -3,7 +3,6 @@ title: OffsetX
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the X offset for tiling picture.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/tilepicoption/offsetx/
 ---
 ## TilePicOption.OffsetX property

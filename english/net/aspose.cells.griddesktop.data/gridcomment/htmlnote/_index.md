@@ -3,7 +3,6 @@ title: HtmlNote
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 70
 url: /net/aspose.cells.griddesktop.data/gridcomment/htmlnote/
 ---
 ## GridComment.HtmlNote property

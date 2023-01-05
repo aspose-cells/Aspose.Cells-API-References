@@ -3,7 +3,6 @@ title: ProtectedRange
 second_title: Aspose.Cells for .NET API Reference
 description: A specified range to be allowed to edit when the sheet protection is ON.
 type: docs
-weight: 4920
 url: /net/aspose.cells/protectedrange/
 ---
 ## ProtectedRange class
@@ -19,6 +18,7 @@ public class ProtectedRange
 | Name | Description |
 | --- | --- |
 | [CellArea](../../aspose.cells/protectedrange/cellarea) { get; } | Gets the [`CellArea`](./cellarea) object represents the cell area to be protected. |
+| [IsProtectedWithPassword](../../aspose.cells/protectedrange/isprotectedwithpassword) { get; } | Indicates whether the worksheets is protected with password. |
 | [Name](../../aspose.cells/protectedrange/name) { get; set; } | Gets the Range title. This is used as a descriptor, not as a named range definition. |
 | [Password](../../aspose.cells/protectedrange/password) { get; set; } | Represents the password to protect the range. |
 | [SecurityDescriptor](../../aspose.cells/protectedrange/securitydescriptor) { get; set; } | The security descriptor defines user accounts who may edit this range without providing a password to access the range. |

@@ -3,7 +3,6 @@ title: NumberFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the format string for the TickLabels object.
 type: docs
-weight: 80
 url: /net/aspose.cells.charts/ticklabels/numberformat/
 ---
 ## TickLabels.NumberFormat property

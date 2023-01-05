@@ -3,10 +3,9 @@ title: Replace
 second_title: Aspose.Cells for .NET API Reference
 description: Replace the text.
 type: docs
-weight: 140
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/replace/
 ---
-## FontSettingCollection.Replace method
+## Replace(int, int, string) {#replace}
 
 Replace the text.
 
@@ -19,6 +18,27 @@ public void Replace(int index, int count, string text)
 | index | Int32 | The start index. |
 | count | Int32 | The count of characters. |
 | text | String | The text. |
+
+### See Also
+
+* class [FontSettingCollection](../../fontsettingcollection)
+* namespace [Aspose.Cells.Drawing.Texts](../../fontsettingcollection)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Replace(string, string) {#replace_1}
+
+Replace the text.
+
+```csharp
+public void Replace(string oldValue, string newValue)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| oldValue | String | The old text. |
+| newValue | String | The new text. |
 
 ### See Also
 

@@ -3,7 +3,6 @@ title: ShowTabBar
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 970
 url: /net/aspose.cells.gridweb/mainweb/showtabbar/
 ---
 ## MainWeb.ShowTabBar property

@@ -3,7 +3,6 @@ title: Kerning
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the minimum font size at which character kerning will occur for this text run.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing.texts/textoptions/kerning/
 ---
 ## TextOptions.Kerning property

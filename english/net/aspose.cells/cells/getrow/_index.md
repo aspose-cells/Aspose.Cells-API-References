@@ -3,7 +3,6 @@ title: GetRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Rowaspose.cells/row element at the specified cell row index.
 type: docs
-weight: 790
 url: /net/aspose.cells/cells/getrow/
 ---
 ## Cells.GetRow method

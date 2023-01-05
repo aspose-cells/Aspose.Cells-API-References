@@ -3,7 +3,6 @@ title: VbaProject
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the VbaProjectaspose.cells/workbook/vbaproject in a spreadsheet.
 type: docs
-weight: 250
 url: /net/aspose.cells/workbook/vbaproject/
 ---
 ## Workbook.VbaProject property

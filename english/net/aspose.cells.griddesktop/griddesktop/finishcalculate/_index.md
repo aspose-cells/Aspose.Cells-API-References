@@ -3,7 +3,6 @@ title: FinishCalculate
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs after calculate formula in workbook.
 type: docs
-weight: 540
 url: /net/aspose.cells.griddesktop/griddesktop/finishcalculate/
 ---
 ## GridDesktop.FinishCalculate event

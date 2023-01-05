@@ -3,7 +3,6 @@ title: Color
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the cell shading color. when pattern is none it return Color.Empty when pattern is BackgroundType.Solidit return ForegroundColor others it return BackgroundColor
 type: docs
-weight: 40
 url: /net/aspose.cells.griddesktop/style/color/
 ---
 ## Style.Color property

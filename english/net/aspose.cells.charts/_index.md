@@ -3,7 +3,6 @@ title: Aspose.Cells.Charts
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of chart and sparkline.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/
 ---
 Contains all classes of chart and sparkline.
@@ -36,7 +35,7 @@ Contains all classes of chart and sparkline.
 | [PlotArea](./plotarea) | Encapsulates the object that represents the plot area in a chart. |
 | [Series](./series) | Encapsulates the object that represents a single data series in a chart. |
 | [SeriesCollection](./seriescollection) | Encapsulates a collection of [`Series`](../aspose.cells.charts/series) objects. |
-| [SeriesLayoutProperties](./serieslayoutproperties) |  |
+| [SeriesLayoutProperties](./serieslayoutproperties) | Represents the properties of series layout. |
 | [Sparkline](./sparkline) | A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data. |
 | [SparklineCollection](./sparklinecollection) | Encapsulates a collection of [`Sparkline`](../aspose.cells.charts/sparkline) objects. |
 | [SparklineGroup](./sparklinegroup) | [`Sparkline`](../aspose.cells.charts/sparkline) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |

@@ -3,7 +3,6 @@ title: LineByLine
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether processing the smart marker line by line.
 type: docs
-weight: 40
 url: /net/aspose.cells/workbookdesigner/linebyline/
 ---
 ## WorkbookDesigner.LineByLine property
@@ -16,7 +15,7 @@ public bool LineByLine { get; set; }
 
 ### Remarks
 
-The default value is false. If False, the template file must contain a range which is named as "_CellsSmartMarkers".
+The default value is true. If False, the template file must contain a range which is named as "_CellsSmartMarkers".
 
 ### See Also
 

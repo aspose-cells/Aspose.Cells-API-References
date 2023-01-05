@@ -3,7 +3,6 @@ title: RenderHiddenRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether the hidden row is rendered in GridControlthe default value is false. if you need to unhide the hidden row latter you shall set it as true
 type: docs
-weight: 750
 url: /net/aspose.cells.gridweb/mainweb/renderhiddenrow/
 ---
 ## MainWeb.RenderHiddenRow property

@@ -1,9 +1,8 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Cells for .NET API Reference
-description: Gets a value indicating whether access to the PivotFields is synchronized thread-safe.
+description: Gets a value indicating whether access to the PivotFields is synchronized threadsafe.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/pivotfields/issynchronized/
 ---
 ## PivotFields.IsSynchronized property

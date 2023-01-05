@@ -3,7 +3,6 @@ title: HeightPixel
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the height of the specified slicer in pixels.
 type: docs
-weight: 70
 url: /net/aspose.cells.slicers/slicer/heightpixel/
 ---
 ## Slicer.HeightPixel property

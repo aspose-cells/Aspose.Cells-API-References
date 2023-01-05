@@ -3,7 +3,6 @@ title: Protect
 second_title: Aspose.Cells for .NET API Reference
 description: Protects or unprotects this VBA project.
 type: docs
-weight: 100
 url: /net/aspose.cells.vba/vbaproject/protect/
 ---
 ## VbaProject.Protect method

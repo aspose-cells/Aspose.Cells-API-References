@@ -3,7 +3,6 @@ title: Aspose.Cells.ExternalConnections
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of external connections.
 type: docs
-weight: 70
 url: /net/aspose.cells.externalconnections/
 ---
 Contains all classes of external connections.
@@ -14,6 +13,7 @@ Contains all classes of external connections.
 | --- | --- |
 | [ConnectionParameter](./connectionparameter) | Specifies properties about any parameters used with external data connections Parameters are valid for ODBC and web queries. |
 | [ConnectionParameterCollection](./connectionparametercollection) | Specifies the [`ConnectionParameter`](../aspose.cells.externalconnections/connectionparameter) collection |
+| [DataModelConnection](./datamodelconnection) | Specifies a data model connection |
 | [DBConnection](./dbconnection) | Specifies all properties associated with an ODBC or OLE DB external data connection. |
 | [ExternalConnection](./externalconnection) | Specifies an external data connection |
 | [ExternalConnectionCollection](./externalconnectioncollection) | Specifies the [`ExternalConnection`](../aspose.cells.externalconnections/externalconnection) collection |

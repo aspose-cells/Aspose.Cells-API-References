@@ -3,7 +3,6 @@ title: GridColumnCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Collects the  objects that represent the individual columns in a worksheet.
 type: docs
-weight: 430
 url: /net/aspose.cells.griddesktop.data/gridcolumncollection/
 ---
 ## GridColumnCollection class

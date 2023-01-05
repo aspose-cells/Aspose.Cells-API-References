@@ -3,7 +3,6 @@ title: Visible
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this sheets name is shown in the sheet tabs of the control.
 type: docs
-weight: 190
 url: /net/aspose.cells.gridweb.data/webworksheet/visible/
 ---
 ## WebWorksheet.Visible property

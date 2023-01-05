@@ -1,14 +1,11 @@
 ---
 title: MainWeb
 second_title: Aspose.Cells for .NET API Reference
-description: Parent class of GridWeb control.Internal use only.
+description: 
 type: docs
-weight: 1060
 url: /net/aspose.cells.gridweb/mainweb/
 ---
 ## MainWeb class
-
-Parent class of GridWeb control.Internal use only.
 
 ```csharp
 public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler, 
@@ -66,6 +63,7 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [HeaderBarTableStyle](../../aspose.cells.gridweb/mainweb/headerbartablestyle) { get; set; } | Gets or sets the header bar style of the control. |
 | [HeaderBarWidth](../../aspose.cells.gridweb/mainweb/headerbarwidth) { get; set; } | Gets or sets the width( System.Web.UI.WebControl.Unit ) or the left header bar of the control. |
 | override [Height](../../aspose.cells.gridweb/mainweb/height) { get; set; } | Gets or sets the height( System.Web.UI.WebControl.Unit ) of the control. |
+| [IgnoreStyleWithNoData](../../aspose.cells.gridweb/mainweb/ignorestylewithnodata) { get; set; } | Gets or sets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. If set to true, the performance will be better. The default value is false, which means that if the last consecutive row/column has no cell values but is styled, we will still display them. This option is only valid when EnableAsync is false. This option has no effect when EnableAsync is true, which means GridWeb will show all rows/columns with style. |
 | [IsCalculateFormula](../../aspose.cells.gridweb/mainweb/iscalculateformula) { get; set; } | Gets or sets whether to calculate formula after cell value changes or after import File. The default value is true. |
 | [IsPostBack](../../aspose.cells.gridweb/mainweb/ispostback) { get; } | Gets a value indicating whether gridweb is being loaded in response to a client postback, or if it is being loaded and accessed for the first time. |
 | [LinksTable](../../aspose.cells.gridweb/mainweb/linkstable) { get; } |  |
@@ -144,7 +142,9 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | override [DataBind](../../aspose.cells.gridweb/mainweb/databind)() | Bind the control and all its child contorls to the its datasource. |
 | override [Dispose](../../aspose.cells.gridweb/mainweb/dispose)() |  |
 | [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile)(Stream) | Imports from an excel file stream, including disk file stream or memory stream. |
-| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile_1)(string) | Imports from an excel file. |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile_2)(string) | Imports from an excel file. |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile_1)(Stream, string) | Imports from an excel file stream, including disk file stream or memory stream. |
+| [ImportExcelFile](../../aspose.cells.gridweb/mainweb/importexcelfile#importexcelfile_3)(string, string) | Imports from an excel file. |
 | [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile#loadcsvfile)(Stream) | Loads data from a CSV file stream. |
 | [LoadCSVFile](../../aspose.cells.gridweb/mainweb/loadcsvfile#loadcsvfile_1)(string) | Loads data from a CSV file. |
 | [LoadHTMLFile](../../aspose.cells.gridweb/mainweb/loadhtmlfile#loadhtmlfile)(Stream) | Loads data from a HTML file stream. |

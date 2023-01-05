@@ -3,7 +3,6 @@ title: Formula
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the data of the formula.
 type: docs
-weight: 50
 url: /net/aspose.cells.drawing/picture/formula/
 ---
 ## Picture.Formula property

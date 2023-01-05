@@ -3,7 +3,6 @@ title: HasDropLines
 second_title: Aspose.Cells for .NET API Reference
 description: True if the chart has drop lines. Applies only to line chart or area charts.
 type: docs
-weight: 170
 url: /net/aspose.cells.charts/series/hasdroplines/
 ---
 ## Series.HasDropLines property

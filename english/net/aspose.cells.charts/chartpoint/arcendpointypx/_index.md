@@ -3,7 +3,6 @@ title: ArcEndPointYPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the y coordinate of ending point for the pie section after calls Chart.Calculate method. Applies to Pie and Doughnut chart.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/chartpoint/arcendpointypx/
 ---
 ## ChartPoint.ArcEndPointYPx property

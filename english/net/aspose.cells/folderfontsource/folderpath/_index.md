@@ -3,7 +3,6 @@ title: FolderPath
 second_title: Aspose.Cells for .NET API Reference
 description: Path to fonts folder.
 type: docs
-weight: 20
 url: /net/aspose.cells/folderfontsource/folderpath/
 ---
 ## FolderFontSource.FolderPath property

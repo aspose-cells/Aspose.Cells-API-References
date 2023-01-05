@@ -3,7 +3,6 @@ title: SetVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the visible options.
 type: docs
-weight: 850
 url: /net/aspose.cells/worksheet/setvisible/
 ---
 ## Worksheet.SetVisible method

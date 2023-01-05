@@ -3,7 +3,6 @@ title: MarkerSize
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the marker size in unit of points. Applies to line chart scatter chart or radar chart.
 type: docs
-weight: 70
 url: /net/aspose.cells.charts/marker/markersize/
 ---
 ## Marker.MarkerSize property

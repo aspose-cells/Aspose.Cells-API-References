@@ -3,7 +3,6 @@ title: Combine
 second_title: Aspose.Cells for .NET API Reference
 description: Combines another Workbook object.
 type: docs
-weight: 320
 url: /net/aspose.cells/workbook/combine/
 ---
 ## Workbook.Combine method

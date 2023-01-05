@@ -3,7 +3,6 @@ title: IsLocked
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether data in the control is locked for editing.
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrol/islocked/
 ---
 ## ActiveXControl.IsLocked property

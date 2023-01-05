@@ -3,7 +3,6 @@ title: ConvertToRange
 second_title: Aspose.Cells for .NET API Reference
 description: Convert the table to range.
 type: docs
-weight: 240
 url: /net/aspose.cells.tables/listobject/converttorange/
 ---
 ## ConvertToRange() {#converttorange}

@@ -3,7 +3,6 @@ title: IsAutoSort
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified PivotTable field is automatically sorted.
 type: docs
-weight: 210
 url: /net/aspose.cells.pivot/pivotfield/isautosort/
 ---
 ## PivotField.IsAutoSort property

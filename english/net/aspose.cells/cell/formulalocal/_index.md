@@ -3,7 +3,6 @@ title: FormulaLocal
 second_title: Aspose.Cells for .NET API Reference
 description: Get the locale formatted formula of the cell.
 type: docs
-weight: 100
 url: /net/aspose.cells/cell/formulalocal/
 ---
 ## Cell.FormulaLocal property

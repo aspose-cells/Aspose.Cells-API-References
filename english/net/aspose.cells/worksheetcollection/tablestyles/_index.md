@@ -3,7 +3,6 @@ title: TableStyles
 second_title: Aspose.Cells for .NET API Reference
 description: Gets TableStylesaspose.cells/worksheetcollection/tablestyles object.
 type: docs
-weight: 120
 url: /net/aspose.cells/worksheetcollection/tablestyles/
 ---
 ## WorksheetCollection.TableStyles property

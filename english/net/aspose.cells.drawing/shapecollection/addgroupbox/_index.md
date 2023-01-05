@@ -3,7 +3,6 @@ title: AddGroupBox
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a GroupBox to the worksheet.
 type: docs
-weight: 110
 url: /net/aspose.cells.drawing/shapecollection/addgroupbox/
 ---
 ## ShapeCollection.AddGroupBox method

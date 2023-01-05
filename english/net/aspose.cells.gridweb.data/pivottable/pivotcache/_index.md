@@ -3,7 +3,6 @@ title: PivotCache
 second_title: Aspose.Cells for .NET API Reference
 description: Gets PivotCache object that the report used.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/pivottable/pivotcache/
 ---
 ## PivotTable.PivotCache property

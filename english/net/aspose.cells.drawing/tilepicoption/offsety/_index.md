@@ -3,7 +3,6 @@ title: OffsetY
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the Y offset for tiling picture.
 type: docs
-weight: 50
 url: /net/aspose.cells.drawing/tilepicoption/offsety/
 ---
 ## TilePicOption.OffsetY property

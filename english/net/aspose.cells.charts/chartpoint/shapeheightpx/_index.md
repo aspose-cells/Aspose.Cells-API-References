@@ -3,7 +3,6 @@ title: ShapeHeightPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the height in units of pixels after calls Chart.Calculate method.
 type: docs
-weight: 210
 url: /net/aspose.cells.charts/chartpoint/shapeheightpx/
 ---
 ## ChartPoint.ShapeHeightPx property

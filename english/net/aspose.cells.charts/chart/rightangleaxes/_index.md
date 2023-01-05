@@ -1,9 +1,8 @@
 ---
 title: RightAngleAxes
 second_title: Aspose.Cells for .NET API Reference
-description: True if the chart axes are at right angles. Applies only for 3-D chartsexcept Column3D and 3-D Pie Charts.
+description: True if the chart axes are at right angles. Applies only for 3D chartsexcept Column3D and 3D Pie Charts.
 type: docs
-weight: 330
 url: /net/aspose.cells.charts/chart/rightangleaxes/
 ---
 ## Chart.RightAngleAxes property

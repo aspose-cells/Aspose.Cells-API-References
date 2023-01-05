@@ -3,7 +3,6 @@ title: HtmlString
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the html string which contains data and some formattings in this cell.
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb.data/gridcell/htmlstring/
 ---
 ## GridCell.HtmlString property

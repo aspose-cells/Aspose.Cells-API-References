@@ -3,7 +3,6 @@ title: GridImageType
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the type format of an image.
 type: docs
-weight: 290
 url: /net/aspose.cells.gridweb.data/gridimagetype/
 ---
 ## GridImageType enumeration

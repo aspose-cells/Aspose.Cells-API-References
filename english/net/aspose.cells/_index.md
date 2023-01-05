@@ -3,7 +3,6 @@ title: Aspose.Cells
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all basic classes of Aspose.Cells.
 type: docs
-weight: 10
 url: /net/aspose.cells/
 ---
 Contains all basic classes of Aspose.Cells.
@@ -94,7 +93,7 @@ Contains all basic classes of Aspose.Cells.
 | [HyperlinkCollection](./hyperlinkcollection) | Encapsulates a collection of [`Hyperlink`](../aspose.cells/hyperlink) objects. |
 | [IconFilter](./iconfilter) | Represents icon filter. |
 | [IconSet](./iconset) | Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values. |
-| [ImageSaveOptions](./imagesaveoptions) | Represents image save options |
+| [ImageSaveOptions](./imagesaveoptions) | Represents image save options. For advanced usage, please use [`WorkbookRender`](../aspose.cells.rendering/workbookrender) or [`SheetRender`](../aspose.cells.rendering/sheetrender). |
 | [ImportTableOptions](./importtableoptions) | Represents the options of importing data into cells. |
 | [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [`Workbook`](../aspose.cells/workbook) object. |
 | [InsertOptions](./insertoptions) | Represents the options of inserting. |
@@ -116,6 +115,7 @@ Contains all basic classes of Aspose.Cells.
 | [OoxmlSaveOptions](./ooxmlsaveoptions) | Represents the options of saving office open xml file. |
 | [Outline](./outline) | Represents an outline on a worksheet. |
 | [PageSetup](./pagesetup) | Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options. |
+| [PaginatedSaveOptions](./paginatedsaveoptions) | Represents the options for pagination. |
 | [PaneCollection](./panecollection) | Represents all Pane objects shown in the specified window. |
 | [PasteOptions](./pasteoptions) | Represents the paste special options. |
 | [PdfSaveOptions](./pdfsaveoptions) | Represents the options for saving pdf file. |
@@ -139,10 +139,10 @@ Contains all basic classes of Aspose.Cells.
 | [ScenarioInputCellCollection](./scenarioinputcellcollection) | Represents the list of the scenario's input cells. |
 | [SpreadsheetML2003SaveOptions](./spreadsheetml2003saveoptions) | Represents the options for saving Excel 2003 spreadml file. |
 | [StreamProviderOptions](./streamprovideroptions) | Represents the stream options. |
-| [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. |
+| [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties. |
 | [StyleFlag](./styleflag) | Represents flags which indicates applied formatting properties. |
 | [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
-| [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options |
+| [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options. For advanced usage, please use [`WorkbookRender`](../aspose.cells.rendering/workbookrender) or [`SheetRender`](../aspose.cells.rendering/sheetrender). |
 | [ThemeColor](./themecolor) | Represents a theme color. |
 | [ThreadedComment](./threadedcomment) | Represents the threaded comment. |
 | [ThreadedCommentAuthor](./threadedcommentauthor) | Represents the person who creates the threaded comments; |
@@ -197,7 +197,7 @@ Contains all basic classes of Aspose.Cells.
 | [AutoFitWrappedTextType](./autofitwrappedtexttype) | Represents the type of auto fitting wrapped text. |
 | [BackgroundType](./backgroundtype) | Enumerates cell background pattern types. |
 | [BorderType](./bordertype) | Enumerates the border line and diagonal line types. |
-| [BuiltinStyleType](./builtinstyletype) | Represents all built-in style type |
+| [BuiltinStyleType](./builtinstyletype) | Represents all built-in style types. |
 | [CalcModeType](./calcmodetype) | Represents the mode type of calculating formulas. |
 | [CalculationPrecisionStrategy](./calculationprecisionstrategy) | Enumerates strategies for handling calculation precision. Because of the precision issue of IEEE 754 Floating-Point Arithmetic, some "seemingly simple" formulas may not be calculated as the expected result. Such as formula "=-0.45+0.43+0.02", when calculating operands by '+' operator directly, the result is not zero. For such kind of precision issue, some special strategies may give the expected result. |
 | [CellBorderType](./cellbordertype) | Enumerates a cell's border type. |

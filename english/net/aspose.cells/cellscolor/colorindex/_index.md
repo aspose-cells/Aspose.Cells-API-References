@@ -3,7 +3,6 @@ title: ColorIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the color index in the color palette. Only applies of indexed color.
 type: docs
-weight: 30
 url: /net/aspose.cells/cellscolor/colorindex/
 ---
 ## CellsColor.ColorIndex property

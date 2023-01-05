@@ -1,9 +1,8 @@
 ---
 title: RowDeleting
 second_title: Aspose.Cells for .NET API Reference
-description: Occurs when user is trying to delete a row from the client-side menu. You may handle this event and throw a RejectDeleteException exception to cancel a deleting operation.
+description: Occurs when user is trying to delete a row from the clientside menu. You may handle this event and throw a RejectDeleteException exception to cancel a deleting operation.
 type: docs
-weight: 1280
 url: /net/aspose.cells.gridweb/mainweb/rowdeleting/
 ---
 ## MainWeb.RowDeleting event

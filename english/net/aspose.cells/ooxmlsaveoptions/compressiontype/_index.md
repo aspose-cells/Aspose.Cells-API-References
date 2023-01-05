@@ -3,7 +3,6 @@ title: CompressionType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the compression type for ooxml file.
 type: docs
-weight: 20
 url: /net/aspose.cells/ooxmlsaveoptions/compressiontype/
 ---
 ## OoxmlSaveOptions.CompressionType property

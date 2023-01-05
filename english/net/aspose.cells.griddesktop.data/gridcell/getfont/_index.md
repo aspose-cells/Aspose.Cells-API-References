@@ -3,7 +3,6 @@ title: GetFont
 second_title: Aspose.Cells for .NET API Reference
 description: Gets cell font. When change the font you should invoke SetFont method to set font to cell.
 type: docs
-weight: 250
 url: /net/aspose.cells.griddesktop.data/gridcell/getfont/
 ---
 ## GridCell.GetFont method

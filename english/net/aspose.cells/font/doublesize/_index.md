@@ -3,7 +3,6 @@ title: DoubleSize
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the double size of the font.
 type: docs
-weight: 50
 url: /net/aspose.cells/font/doublesize/
 ---
 ## Font.DoubleSize property

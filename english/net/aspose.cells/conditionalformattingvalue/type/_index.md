@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Get or set the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set Value to null.
 type: docs
-weight: 20
 url: /net/aspose.cells/conditionalformattingvalue/type/
 ---
 ## ConditionalFormattingValue.Type property

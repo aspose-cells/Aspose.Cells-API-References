@@ -3,7 +3,6 @@ title: ChartLineFormattingType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents line format type of chart line.
 type: docs
-weight: 490
 url: /net/aspose.cells.charts/chartlineformattingtype/
 ---
 ## ChartLineFormattingType enumeration

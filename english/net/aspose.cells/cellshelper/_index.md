@@ -3,7 +3,6 @@ title: CellsHelper
 second_title: Aspose.Cells for .NET API Reference
 description: Provides helper functions.
 type: docs
-weight: 350
 url: /net/aspose.cells/cellshelper/
 ---
 ## CellsHelper class
@@ -30,7 +29,7 @@ public class CellsHelper
 
 | Name | Description |
 | --- | --- |
-| static [AddAddInFunction](../../aspose.cells/cellshelper/addaddinfunction)(string, int, int, ParameterType[], ParameterType) | Add addin function. |
+| static [AddAddInFunction](../../aspose.cells/cellshelper/addaddinfunction)(string, int, int, ParameterType[], ParameterType) | (**Obsolete.**) Add addin function. |
 | static [CellIndexToName](../../aspose.cells/cellshelper/cellindextoname)(int, int) | Gets cell name according to its row and column indexes. |
 | static [CellNameToIndex](../../aspose.cells/cellshelper/cellnametoindex)(string, out int, out int) | Gets the cell row and column indexes according to its name. |
 | static [ColumnIndexToName](../../aspose.cells/cellshelper/columnindextoname)(int) | Gets column name according to column index. |

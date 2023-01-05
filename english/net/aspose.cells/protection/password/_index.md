@@ -3,7 +3,6 @@ title: Password
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the password to protect the worksheet.
 type: docs
-weight: 340
 url: /net/aspose.cells/protection/password/
 ---
 ## Protection.Password property

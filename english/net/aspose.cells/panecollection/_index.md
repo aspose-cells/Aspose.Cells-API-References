@@ -3,7 +3,6 @@ title: PaneCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all Pane objects shown in the specified window.
 type: docs
-weight: 4460
 url: /net/aspose.cells/panecollection/
 ---
 ## PaneCollection class

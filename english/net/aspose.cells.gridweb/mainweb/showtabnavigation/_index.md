@@ -3,7 +3,6 @@ title: ShowTabNavigation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether the tab navigation button is showthe default value is true.
 type: docs
-weight: 980
 url: /net/aspose.cells.gridweb/mainweb/showtabnavigation/
 ---
 ## MainWeb.ShowTabNavigation property

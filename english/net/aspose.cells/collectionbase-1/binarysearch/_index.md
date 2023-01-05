@@ -3,7 +3,6 @@ title: BinarySearch
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 40
 url: /net/aspose.cells/collectionbase-1/binarysearch/
 ---
 ## BinarySearch(T) {#binarysearch_1}

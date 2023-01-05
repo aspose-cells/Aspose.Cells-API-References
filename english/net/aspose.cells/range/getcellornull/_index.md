@@ -3,7 +3,6 @@ title: GetCellOrNull
 second_title: Aspose.Cells for .NET API Reference
 description: Gets Cellaspose.cells/cell object or null in this range.
 type: docs
-weight: 260
 url: /net/aspose.cells/range/getcellornull/
 ---
 ## Range.GetCellOrNull method

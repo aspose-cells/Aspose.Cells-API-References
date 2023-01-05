@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds an empty reference of web extension.
 type: docs
-weight: 30
 url: /net/aspose.cells.webextensions/webextensionreferencecollection/add/
 ---
 ## WebExtensionReferenceCollection.Add method

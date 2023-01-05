@@ -3,7 +3,6 @@ title: DEFAULT_COLUMNSCOUNT
 second_title: Aspose.Cells for .NET API Reference
 description: Default columns count of worksheet.
 type: docs
-weight: 1160
 url: /net/aspose.cells.griddesktop/worksheet/default_columnscount/
 ---
 ## Worksheet.DEFAULT_COLUMNSCOUNT field

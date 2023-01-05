@@ -3,7 +3,6 @@ title: Selected
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies whether the SlicerItem is selected or not.
 type: docs
-weight: 10
 url: /net/aspose.cells.slicers/slicercacheitem/selected/
 ---
 ## SlicerCacheItem.Selected property

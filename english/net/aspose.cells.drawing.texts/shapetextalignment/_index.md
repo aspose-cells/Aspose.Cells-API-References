@@ -3,7 +3,6 @@ title: ShapeTextAlignment
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the setting of shapes text alignment
 type: docs
-weight: 2960
 url: /net/aspose.cells.drawing.texts/shapetextalignment/
 ---
 ## ShapeTextAlignment class
@@ -23,6 +22,7 @@ public class ShapeTextAlignment
 | [IsAutoMargin](../../aspose.cells.drawing.texts/shapetextalignment/isautomargin) { get; set; } | Indicates whether the margin of the text frame is automatic. |
 | [IsTextWrapped](../../aspose.cells.drawing.texts/shapetextalignment/istextwrapped) { get; set; } | Gets and sets the text wrapped type of the shape which contains text. |
 | [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt) { get; set; } | Returns the left margin in unit of Points |
+| [NumberOfColumns](../../aspose.cells.drawing.texts/shapetextalignment/numberofcolumns) { get; set; } | Gets and sets the number of columns of text in the bounding rectangle. |
 | [RightMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/rightmarginpt) { get; set; } | Returns the right margin in unit of Points |
 | [RotateTextWithShape](../../aspose.cells.drawing.texts/shapetextalignment/rotatetextwithshape) { get; set; } | Indicates whether rotating text with shape. |
 | [RotationAngle](../../aspose.cells.drawing.texts/shapetextalignment/rotationangle) { get; set; } | Gets and sets the rotation of the shape. |

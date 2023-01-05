@@ -3,7 +3,6 @@ title: FileFormatUtil
 second_title: Aspose.Cells for .NET API Reference
 description: Provides utility methods for converting file format enums to strings or file extensions and back.
 type: docs
-weight: 3440
 url: /net/aspose.cells/fileformatutil/
 ---
 ## FileFormatUtil class

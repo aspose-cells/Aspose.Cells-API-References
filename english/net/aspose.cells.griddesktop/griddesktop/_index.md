@@ -3,7 +3,6 @@ title: GridDesktop
 second_title: Aspose.Cells for .NET API Reference
 description: Aspose GridDesktop class Represents a root object to create an GridDesktop control. To use this control simply drag it from your toolbox to a form or usercontrol.
 type: docs
-weight: 840
 url: /net/aspose.cells.griddesktop/griddesktop/
 ---
 ## GridDesktop class

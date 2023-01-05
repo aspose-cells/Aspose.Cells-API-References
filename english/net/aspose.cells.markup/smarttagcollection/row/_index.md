@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the row of the cell smart tags.
 type: docs
-weight: 30
 url: /net/aspose.cells.markup/smarttagcollection/row/
 ---
 ## SmartTagCollection.Row property

@@ -3,7 +3,6 @@ title: GetTableRowTypeOfAll
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the type name of table rows that consists of all rows in referenced table. Default is All so in formula All represents all rows in referenced table.
 type: docs
-weight: 270
 url: /net/aspose.cells/globalizationsettings/gettablerowtypeofall/
 ---
 ## GlobalizationSettings.GetTableRowTypeOfAll method

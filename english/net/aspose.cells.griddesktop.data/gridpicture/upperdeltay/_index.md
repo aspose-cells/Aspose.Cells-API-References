@@ -3,7 +3,6 @@ title: UpperDeltaY
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the shapes vertical offset from its upper left corner row. The range of value is 0 to 256.
 type: docs
-weight: 540
 url: /net/aspose.cells.griddesktop.data/gridpicture/upperdeltay/
 ---
 ## GridPicture.UpperDeltaY property

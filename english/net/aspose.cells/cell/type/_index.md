@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Represents cell value type.
 type: docs
-weight: 310
 url: /net/aspose.cells/cell/type/
 ---
 ## Cell.Type property

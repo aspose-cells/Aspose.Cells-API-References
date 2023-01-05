@@ -3,7 +3,6 @@ title: Shape
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the Shape object when rendering. All properties of shape can be accessed.
 type: docs
-weight: 40
 url: /net/aspose.cells.rendering/drawobject/shape/
 ---
 ## DrawObject.Shape property

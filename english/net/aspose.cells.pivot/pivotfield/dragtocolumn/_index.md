@@ -3,7 +3,6 @@ title: DragToColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified field can be dragged to the column position. The default value is true.
 type: docs
-weight: 110
 url: /net/aspose.cells.pivot/pivotfield/dragtocolumn/
 ---
 ## PivotField.DragToColumn property

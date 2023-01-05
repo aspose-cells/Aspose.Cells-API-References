@@ -1,9 +1,8 @@
 ---
 title: Y
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or gets the y coordinate of the upper top corner of plot-area bounding box in units of 1/4000 of the chart area.
+description: Gets or gets the y coordinate of the upper top corner of plotarea bounding box in units of 1/4000 of the chart area.
 type: docs
-weight: 90
 url: /net/aspose.cells.charts/plotarea/y/
 ---
 ## PlotArea.Y property

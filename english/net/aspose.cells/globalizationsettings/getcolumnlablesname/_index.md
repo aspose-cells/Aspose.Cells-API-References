@@ -3,7 +3,6 @@ title: GetColumnLablesName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of Column Labels label in the PivotTable.
 type: docs
-weight: 90
 url: /net/aspose.cells/globalizationsettings/getcolumnlablesname/
 ---
 ## GlobalizationSettings.GetColumnLablesName method

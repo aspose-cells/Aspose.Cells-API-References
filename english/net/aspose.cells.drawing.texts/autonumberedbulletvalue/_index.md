@@ -3,7 +3,6 @@ title: AutoNumberedBulletValue
 second_title: Aspose.Cells for .NET API Reference
 description: Represents automatic numbered bullet.
 type: docs
-weight: 2870
 url: /net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 ---
 ## AutoNumberedBulletValue class

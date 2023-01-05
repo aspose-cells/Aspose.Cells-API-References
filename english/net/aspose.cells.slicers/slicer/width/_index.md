@@ -3,7 +3,6 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the width of the specified slicer in points.
 type: docs
-weight: 230
 url: /net/aspose.cells.slicers/slicer/width/
 ---
 ## Slicer.Width property

@@ -1,9 +1,8 @@
 ---
 title: GetOnCategoryAxisPointXPx
 second_title: Aspose.Cells for .NET API Reference
-description: Gets x-coordinate of the point on category axis after calls Chart.Calculate method. Only applies to Area chart.
+description: Gets xcoordinate of the point on category axis after calls Chart.Calculate method. Only applies to Area chart.
 type: docs
-weight: 380
 url: /net/aspose.cells.charts/chartpoint/getoncategoryaxispointxpx/
 ---
 ## ChartPoint.GetOnCategoryAxisPointXPx method

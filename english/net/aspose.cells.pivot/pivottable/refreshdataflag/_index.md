@@ -3,7 +3,6 @@ title: RefreshDataFlag
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether Refresh Data or not.
 type: docs
-weight: 490
 url: /net/aspose.cells.pivot/pivottable/refreshdataflag/
 ---
 ## PivotTable.RefreshDataFlag property

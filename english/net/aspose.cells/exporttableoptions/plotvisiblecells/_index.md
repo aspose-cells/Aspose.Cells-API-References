@@ -3,7 +3,6 @@ title: PlotVisibleCells
 second_title: Aspose.Cells for .NET API Reference
 description: Only exports visible cells.
 type: docs
-weight: 100
 url: /net/aspose.cells/exporttableoptions/plotvisiblecells/
 ---
 ## ExportTableOptions.PlotVisibleCells property

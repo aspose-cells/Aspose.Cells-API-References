@@ -3,7 +3,6 @@ title: GridHtmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Creates options for saving html file.
 type: docs
-weight: 10
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/gridhtmlsaveoptions/
 ---
 ## GridHtmlSaveOptions() {#constructor}

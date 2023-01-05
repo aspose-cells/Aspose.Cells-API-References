@@ -3,7 +3,6 @@ title: ConnectionPoints
 second_title: Aspose.Cells for .NET API Reference
 description: Get the connection points
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing/shape/connectionpoints/
 ---
 ## Shape.ConnectionPoints property

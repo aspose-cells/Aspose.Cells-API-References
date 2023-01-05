@@ -3,7 +3,6 @@ title: Area
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Areaaspose.cells.charts/axis/area.
 type: docs
-weight: 10
 url: /net/aspose.cells.charts/axis/area/
 ---
 ## Axis.Area property

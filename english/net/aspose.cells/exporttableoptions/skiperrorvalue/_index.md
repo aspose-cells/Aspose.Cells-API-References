@@ -3,7 +3,6 @@ title: SkipErrorValue
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether skip invalid value for the column. For exampleif the column type is decimal the value is greater than decimal.MaxValue and this property is truewe will not throw exception again. The default value is false.
 type: docs
-weight: 140
 url: /net/aspose.cells/exporttableoptions/skiperrorvalue/
 ---
 ## ExportTableOptions.SkipErrorValue property

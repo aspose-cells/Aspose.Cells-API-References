@@ -3,7 +3,6 @@ title: HasBorderVertical
 second_title: Aspose.Cells for .NET API Reference
 description: True if the chart data table has vertical cell borders
 type: docs
-weight: 80
 url: /net/aspose.cells.charts/chartdatatable/hasbordervertical/
 ---
 ## ChartDataTable.HasBorderVertical property

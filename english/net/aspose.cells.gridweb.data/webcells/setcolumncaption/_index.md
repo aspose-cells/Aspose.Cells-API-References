@@ -3,7 +3,6 @@ title: SetColumnCaption
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the caption for the column.please note this is an extension attribute and can not keep in excel file
 type: docs
-weight: 310
 url: /net/aspose.cells.gridweb.data/webcells/setcolumncaption/
 ---
 ## WebCells.SetColumnCaption method

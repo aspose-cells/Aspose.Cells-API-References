@@ -3,7 +3,6 @@ title: RemoveAutoFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the auto filter of the worksheet.
 type: docs
-weight: 920
 url: /net/aspose.cells.griddesktop/worksheet/removeautofilter/
 ---
 ## Worksheet.RemoveAutoFilter method

@@ -3,7 +3,6 @@ title: Password
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the protected password to modify the file.
 type: docs
-weight: 40
 url: /net/aspose.cells/writeprotection/password/
 ---
 ## WriteProtection.Password property

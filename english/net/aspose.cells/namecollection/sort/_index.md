@@ -3,7 +3,6 @@ title: Sort
 second_title: Aspose.Cells for .NET API Reference
 description: Sorts defined names.
 type: docs
-weight: 80
 url: /net/aspose.cells/namecollection/sort/
 ---
 ## NameCollection.Sort method

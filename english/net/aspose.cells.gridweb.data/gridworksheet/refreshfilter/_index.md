@@ -3,7 +3,6 @@ title: RefreshFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Refresh auto filters to hide or unhide the rows.
 type: docs
-weight: 660
 url: /net/aspose.cells.gridweb.data/gridworksheet/refreshfilter/
 ---
 ## GridWorksheet.RefreshFilter method

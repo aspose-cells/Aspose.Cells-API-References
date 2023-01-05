@@ -1,9 +1,8 @@
 ---
 title: CreateBuiltinStyle
 second_title: Aspose.Cells for .NET API Reference
-description: Creates built-in style by given type.
+description: Creates builtin style by given type.
 type: docs
-weight: 350
 url: /net/aspose.cells/workbook/createbuiltinstyle/
 ---
 ## Workbook.CreateBuiltinStyle method

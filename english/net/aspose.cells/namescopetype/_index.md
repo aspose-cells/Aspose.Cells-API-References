@@ -3,7 +3,6 @@ title: NameScopeType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the scope type of defined names.
 type: docs
-weight: 4250
 url: /net/aspose.cells/namescopetype/
 ---
 ## NameScopeType enumeration

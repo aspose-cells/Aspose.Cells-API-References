@@ -3,7 +3,6 @@ title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Represents whether the line is visible.
 type: docs
-weight: 150
 url: /net/aspose.cells.drawing/line/isvisible/
 ---
 ## Line.IsVisible property

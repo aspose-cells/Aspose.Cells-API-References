@@ -3,7 +3,6 @@ title: RevisionRenameSheet
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a revision of renaming sheet.
 type: docs
-weight: 5510
 url: /net/aspose.cells.revisions/revisionrenamesheet/
 ---
 ## RevisionRenameSheet class
@@ -18,11 +17,11 @@ public class RevisionRenameSheet : Revision
 
 | Name | Description |
 | --- | --- |
-| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision.(Inherited from [`Revision`](../revision).) |
 | [NewName](../../aspose.cells.revisions/revisionrenamesheet/newname) { get; } | Gets the new name of the worksheet. |
 | [OldName](../../aspose.cells.revisions/revisionrenamesheet/oldname) { get; } | Gets the old name of the worksheet. |
 | override [Type](../../aspose.cells.revisions/revisionrenamesheet/type) { get; } | Represents the type of the revision. |
-| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision).) |
 
 ### See Also
 

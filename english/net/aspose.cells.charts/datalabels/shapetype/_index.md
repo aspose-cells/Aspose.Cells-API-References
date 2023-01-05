@@ -3,7 +3,6 @@ title: ShapeType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets shape type of data label.
 type: docs
-weight: 160
 url: /net/aspose.cells.charts/datalabels/shapetype/
 ---
 ## DataLabels.ShapeType property

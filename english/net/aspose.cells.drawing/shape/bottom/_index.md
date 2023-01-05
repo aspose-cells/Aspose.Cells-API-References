@@ -3,7 +3,6 @@ title: Bottom
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the width of the shapes vertical offset from its lower bottom corner row in unit of pixels.
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing/shape/bottom/
 ---
 ## Shape.Bottom property

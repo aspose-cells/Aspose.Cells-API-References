@@ -3,7 +3,6 @@ title: ClearRange
 second_title: Aspose.Cells for .NET API Reference
 description: Clears contents and formatting of a range.
 type: docs
-weight: 430
 url: /net/aspose.cells/cells/clearrange/
 ---
 ## ClearRange(CellArea) {#clearrange}

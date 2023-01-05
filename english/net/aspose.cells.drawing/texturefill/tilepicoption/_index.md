@@ -3,7 +3,6 @@ title: TilePicOption
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets tile picture option.
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing/texturefill/tilepicoption/
 ---
 ## TextureFill.TilePicOption property

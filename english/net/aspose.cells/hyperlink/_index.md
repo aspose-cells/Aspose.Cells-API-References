@@ -3,7 +3,6 @@ title: Hyperlink
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a hyperlink.
 type: docs
-weight: 3770
 url: /net/aspose.cells/hyperlink/
 ---
 ## Hyperlink class

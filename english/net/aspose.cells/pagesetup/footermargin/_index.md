@@ -3,7 +3,6 @@ title: FooterMargin
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the distance from the bottom of the page to the footer in unit of centimeters.
 type: docs
-weight: 90
 url: /net/aspose.cells/pagesetup/footermargin/
 ---
 ## PageSetup.FooterMargin property

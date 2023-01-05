@@ -3,7 +3,6 @@ title: Protect
 second_title: Aspose.Cells for .NET API Reference
 description: Protects a workbook.
 type: docs
-weight: 510
 url: /net/aspose.cells/workbook/protect/
 ---
 ## Workbook.Protect method

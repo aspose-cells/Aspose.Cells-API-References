@@ -3,7 +3,6 @@ title: InnerWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the width of plot area in units of 1/4000 of the chart area.
 type: docs
-weight: 30
 url: /net/aspose.cells.charts/plotarea/innerwidth/
 ---
 ## PlotArea.InnerWidth property

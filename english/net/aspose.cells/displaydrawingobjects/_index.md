@@ -3,7 +3,6 @@ title: DisplayDrawingObjects
 second_title: Aspose.Cells for .NET API Reference
 description: Represents whether and how to show objects in the workbook.
 type: docs
-weight: 1440
 url: /net/aspose.cells/displaydrawingobjects/
 ---
 ## DisplayDrawingObjects enumeration

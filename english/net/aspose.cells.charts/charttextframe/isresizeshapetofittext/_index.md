@@ -1,9 +1,8 @@
 ---
 title: IsResizeShapeToFitText
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
+description: Gets or sets whether a shape should be autofit to fully contain the text described within it. Autofitting is when text within a shape is scaled in order to contain all the text inside.
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/charttextframe/isresizeshapetofittext/
 ---
 ## ChartTextFrame.IsResizeShapeToFitText property

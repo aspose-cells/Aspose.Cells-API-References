@@ -3,7 +3,6 @@ title: SetErrorCheck
 second_title: Aspose.Cells for .NET API Reference
 description: Sets whether given error type will be checked.
 type: docs
-weight: 60
 url: /net/aspose.cells/errorcheckoption/seterrorcheck/
 ---
 ## ErrorCheckOption.SetErrorCheck method

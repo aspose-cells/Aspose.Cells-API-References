@@ -3,7 +3,6 @@ title: TimePeriod
 second_title: Aspose.Cells for .NET API Reference
 description: The applicable time period in a date occurring conditional formatting rule. Valid only for type  timePeriod. The default value is TimePeriodType.Today.
 type: docs
-weight: 120
 url: /net/aspose.cells/formatcondition/timeperiod/
 ---
 ## FormatCondition.TimePeriod property

@@ -3,7 +3,6 @@ title: QueryTable
 second_title: Aspose.Cells for .NET API Reference
 description: Represents QueryTable information.
 type: docs
-weight: 4960
 url: /net/aspose.cells/querytable/
 ---
 ## QueryTable class

@@ -3,7 +3,6 @@ title: ExportAllSheets
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether exporting all sheets to the text file. If it is false only export the activesheet just like MS Excel.
 type: docs
-weight: 40
 url: /net/aspose.cells/txtsaveoptions/exportallsheets/
 ---
 ## TxtSaveOptions.ExportAllSheets property

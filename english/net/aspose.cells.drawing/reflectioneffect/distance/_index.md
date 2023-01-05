@@ -3,7 +3,6 @@ title: Distance
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets how far to distance the shadowin unit of points.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/reflectioneffect/distance/
 ---
 ## ReflectionEffect.Distance property

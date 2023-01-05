@@ -3,7 +3,6 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copies contents and formats from another worksheet.
 type: docs
-weight: 460
 url: /net/aspose.cells.gridweb.data/gridworksheet/copy/
 ---
 ## GridWorksheet.Copy method

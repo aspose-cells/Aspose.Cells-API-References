@@ -3,7 +3,6 @@ title: ErrorCheckOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Gets error check setting applied on certain ranges.
 type: docs
-weight: 150
 url: /net/aspose.cells/worksheet/errorcheckoptions/
 ---
 ## Worksheet.ErrorCheckOptions property

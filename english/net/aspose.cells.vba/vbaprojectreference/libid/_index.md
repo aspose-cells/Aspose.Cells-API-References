@@ -3,7 +3,6 @@ title: Libid
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the Libid of the reference.
 type: docs
-weight: 20
 url: /net/aspose.cells.vba/vbaprojectreference/libid/
 ---
 ## VbaProjectReference.Libid property

@@ -3,7 +3,6 @@ title: FontStrike
 second_title: Aspose.Cells for .NET API Reference
 description: Font strikeout setting will be applied.
 type: docs
-weight: 160
 url: /net/aspose.cells/styleflag/fontstrike/
 ---
 ## StyleFlag.FontStrike property

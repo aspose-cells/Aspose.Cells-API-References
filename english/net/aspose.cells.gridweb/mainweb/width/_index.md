@@ -3,7 +3,6 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the width System.Web.UI.WebControl.Unit  of the control.
 type: docs
-weight: 1080
 url: /net/aspose.cells.gridweb/mainweb/width/
 ---
 ## MainWeb.Width property

@@ -3,7 +3,6 @@ title: QuartileCalculationType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents quartile calculation methods.
 type: docs
-weight: 820
 url: /net/aspose.cells.charts/quartilecalculationtype/
 ---
 ## QuartileCalculationType enumeration

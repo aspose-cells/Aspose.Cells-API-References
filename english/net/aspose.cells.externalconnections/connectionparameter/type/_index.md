@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Type of parameter used. If the parameterTypevalue then the value from boolean double integer or string will be used. In this case it is expected that only one of boolean double integer or string will be specified.
 type: docs
-weight: 60
 url: /net/aspose.cells.externalconnections/connectionparameter/type/
 ---
 ## ConnectionParameter.Type property

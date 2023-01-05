@@ -3,7 +3,6 @@ title: PlotOnSecondAxis
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if this series is plotted on second value axis.
 type: docs
-weight: 330
 url: /net/aspose.cells.charts/series/plotonsecondaxis/
 ---
 ## Series.PlotOnSecondAxis property

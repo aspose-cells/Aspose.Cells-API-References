@@ -3,7 +3,6 @@ title: WebExtension
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the web extension part associated with the taskpane instance
 type: docs
-weight: 50
 url: /net/aspose.cells.webextensions/webextensiontaskpane/webextension/
 ---
 ## WebExtensionTaskPane.WebExtension property

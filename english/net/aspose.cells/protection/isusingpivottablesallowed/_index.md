@@ -3,7 +3,6 @@ title: IsUsingPivotTablesAllowed
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the user is allowed to manipulate pivot tables on a protected worksheet.
 type: docs
-weight: 330
 url: /net/aspose.cells/protection/isusingpivottablesallowed/
 ---
 ## Protection.IsUsingPivotTablesAllowed property

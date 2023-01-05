@@ -3,7 +3,6 @@ title: OperationType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the operation type when pasting range.
 type: docs
-weight: 30
 url: /net/aspose.cells/pasteoptions/operationtype/
 ---
 ## PasteOptions.OperationType property

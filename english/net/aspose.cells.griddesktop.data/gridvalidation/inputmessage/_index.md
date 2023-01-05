@@ -3,7 +3,6 @@ title: InputMessage
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the data validation error message.
 type: docs
-weight: 120
 url: /net/aspose.cells.griddesktop.data/gridvalidation/inputmessage/
 ---
 ## GridValidation.InputMessage property

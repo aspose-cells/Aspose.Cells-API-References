@@ -3,7 +3,6 @@ title: CopyTo
 second_title: Aspose.Cells for .NET API Reference
 description: Copies the collection to an array.
 type: docs
-weight: 100
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/copyto/
 ---
 ## CustomCommandButtonCollection.CopyTo method

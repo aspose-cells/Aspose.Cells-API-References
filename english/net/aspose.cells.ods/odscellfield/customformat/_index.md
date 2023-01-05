@@ -3,7 +3,6 @@ title: CustomFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the custom format of the fields value.
 type: docs
-weight: 20
 url: /net/aspose.cells.ods/odscellfield/customformat/
 ---
 ## OdsCellField.CustomFormat property

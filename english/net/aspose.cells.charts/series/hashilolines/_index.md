@@ -1,9 +1,8 @@
 ---
 title: HasHiLoLines
 second_title: Aspose.Cells for .NET API Reference
-description: True if the line chart has high-low lines. Applies only to line charts.
+description: True if the line chart has highlow lines. Applies only to line charts.
 type: docs
-weight: 180
 url: /net/aspose.cells.charts/series/hashilolines/
 ---
 ## Series.HasHiLoLines property

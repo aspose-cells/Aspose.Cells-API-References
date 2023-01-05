@@ -3,7 +3,6 @@ title: SetArrayFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Sets an array formula to a range of cells.
 type: docs
-weight: 620
 url: /net/aspose.cells/cell/setarrayformula/
 ---
 ## SetArrayFormula(string, int, int, bool, bool) {#setarrayformula_3}
@@ -28,6 +27,28 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 ### Remarks
 
 NOTE: This class is now obsolete. Instead, please use Cell.SetArrayFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* class [Cell](../../cell)
+* namespace [Aspose.Cells](../../cell)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SetArrayFormula(string, int, int) {#setarrayformula}
+
+Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells.
+
+```csharp
+public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrayFormula | String | Array formula. |
+| rowNumber | Int32 | Number of rows to populate result of the array formula. |
+| columnNumber | Int32 | Number of columns to populate result of the array formula. |
 
 ### See Also
 
@@ -82,28 +103,6 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 ### See Also
 
 * class [FormulaParseOptions](../../formulaparseoptions)
-* class [Cell](../../cell)
-* namespace [Aspose.Cells](../../cell)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## SetArrayFormula(string, int, int) {#setarrayformula}
-
-Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells.
-
-```csharp
-public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arrayFormula | String | Array formula. |
-| rowNumber | Int32 | Number of rows to populate result of the array formula. |
-| columnNumber | Int32 | Number of columns to populate result of the array formula. |
-
-### See Also
-
 * class [Cell](../../cell)
 * namespace [Aspose.Cells](../../cell)
 * assembly [Aspose.Cells](../../../)

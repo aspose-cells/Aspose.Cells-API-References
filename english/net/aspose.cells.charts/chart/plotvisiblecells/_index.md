@@ -1,16 +1,15 @@
 ---
 title: PlotVisibleCells
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether only plot visible cells.
+description: 
 type: docs
-weight: 310
 url: /net/aspose.cells.charts/chart/plotvisiblecells/
 ---
 ## Chart.PlotVisibleCells property
 
-Indicates whether only plot visible cells.
-
 ```csharp
+[Obsolete("Use PlotVisibleCellsOnly property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool PlotVisibleCells { get; set; }
 ```
 

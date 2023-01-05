@@ -3,7 +3,6 @@ title: CopyFormatType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents type of copying format when inserting rows.
 type: docs
-weight: 1190
 url: /net/aspose.cells/copyformattype/
 ---
 ## CopyFormatType enumeration

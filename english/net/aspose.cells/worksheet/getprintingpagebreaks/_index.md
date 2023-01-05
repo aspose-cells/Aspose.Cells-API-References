@@ -3,7 +3,6 @@ title: GetPrintingPageBreaks
 second_title: Aspose.Cells for .NET API Reference
 description: Gets automatic page breaks.
 type: docs
-weight: 740
 url: /net/aspose.cells/worksheet/getprintingpagebreaks/
 ---
 ## Worksheet.GetPrintingPageBreaks method

@@ -3,7 +3,6 @@ title: GridShapeCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of GridShape./gridshape objects.
 type: docs
-weight: 500
 url: /net/aspose.cells.gridweb.data/gridshapecollection/
 ---
 ## GridShapeCollection class
@@ -19,7 +18,7 @@ public class GridShapeCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridshapecollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridshapecollection/item) { get; } | Gets the Picture element at the specified index. |
+| [Item](../../aspose.cells.gridweb.data/gridshapecollection/item) { get; } | Gets the [`GridShape`](../gridshape) element at the specified index. |
 
 ## Methods
 

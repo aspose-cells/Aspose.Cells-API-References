@@ -3,7 +3,6 @@ title: GetFirstPageHeader
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a script formatting the first page header of an Excel file.
 type: docs
-weight: 510
 url: /net/aspose.cells/pagesetup/getfirstpageheader/
 ---
 ## PageSetup.GetFirstPageHeader method
@@ -16,7 +15,7 @@ public string GetFirstPageHeader(int section)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section. |
+| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 
 ### See Also
 

@@ -3,7 +3,6 @@ title: SetGradient
 second_title: Aspose.Cells for .NET API Reference
 description: Set the gradient fill type and direction.
 type: docs
-weight: 50
 url: /net/aspose.cells.drawing/gradientfill/setgradient/
 ---
 ## GradientFill.SetGradient method

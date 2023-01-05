@@ -3,7 +3,6 @@ title: DisplayUnitType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of display unit.
 type: docs
-weight: 620
 url: /net/aspose.cells.charts/displayunittype/
 ---
 ## DisplayUnitType enumeration

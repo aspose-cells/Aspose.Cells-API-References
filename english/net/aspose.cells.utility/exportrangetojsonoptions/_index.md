@@ -3,7 +3,6 @@ title: ExportRangeToJsonOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the options that exporting range to json.
 type: docs
-weight: 6200
 url: /net/aspose.cells.utility/exportrangetojsonoptions/
 ---
 ## ExportRangeToJsonOptions class
@@ -25,6 +24,7 @@ public class ExportRangeToJsonOptions
 | Name | Description |
 | --- | --- |
 | [ExportAsString](../../aspose.cells.utility/exportrangetojsonoptions/exportasstring) { get; set; } | Exports the string value of the cells to json. |
+| [ExportEmptyCells](../../aspose.cells.utility/exportrangetojsonoptions/exportemptycells) { get; set; } | Indicates whether exporting empty cells as null. |
 | [HasHeaderRow](../../aspose.cells.utility/exportrangetojsonoptions/hasheaderrow) { get; set; } | Indicates whether the range contains header row. |
 | [Indent](../../aspose.cells.utility/exportrangetojsonoptions/indent) { get; set; } | Indicates the indent. |
 

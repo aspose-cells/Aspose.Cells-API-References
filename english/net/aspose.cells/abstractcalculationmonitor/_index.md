@@ -3,7 +3,6 @@ title: AbstractCalculationMonitor
 second_title: Aspose.Cells for .NET API Reference
 description: Monitor for user to track the progress of formula calculation.
 type: docs
-weight: 30
 url: /net/aspose.cells/abstractcalculationmonitor/
 ---
 ## AbstractCalculationMonitor class
@@ -34,15 +33,20 @@ public abstract class AbstractCalculationMonitor
 
 ```csharp
 [C#]
-//Custom monitor to check possibility of StackOverflowException
-public class MyCalculationMonitor : AbstractCalculationMonitor
+Workbook wb = new Workbook("calc.xlsx");
+CalculationOptions opts = new CalculationOptions();
+opts.CalculationMonitor = new MyCalculationMonitor();
+wb.CalculateFormula(opts);
+
+class MyCalculationMonitor : AbstractCalculationMonitor
 {
     public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
     {
-        if(new StackTrace(false).FrameCount > 1000)
+        if(sheetIndex!=0 || rowIndex!=0 || colIndex!=0)
         {
-            throw new Exception("Stop the formula calculation because risk of StackOverflowException");
+            return;
         }
+        Console.WriteLine("Cell A1 will be calculated.");
     }
 }
 ```

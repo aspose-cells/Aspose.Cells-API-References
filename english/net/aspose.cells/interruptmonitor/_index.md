@@ -3,7 +3,6 @@ title: InterruptMonitor
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all operator about the interrupt.
 type: docs
-weight: 3940
 url: /net/aspose.cells/interruptmonitor/
 ---
 ## InterruptMonitor class
@@ -25,7 +24,7 @@ public class InterruptMonitor : AbstractInterruptMonitor
 | Name | Description |
 | --- | --- |
 | override [IsInterruptionRequested](../../aspose.cells/interruptmonitor/isinterruptionrequested) { get; } | Mark the monitor as requesting interruption |
-| virtual [TerminateWithoutException](../../aspose.cells/abstractinterruptmonitor/terminatewithoutexception) { get; } | When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [`IsInterruptionRequested`](../abstractinterruptmonitor/isinterruptionrequested) is true, a [`CellsException`](../cellsexception) with code Interrupted will be thrown. |
+| virtual [TerminateWithoutException](../../aspose.cells/abstractinterruptmonitor/terminatewithoutexception) { get; } | When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [`IsInterruptionRequested`](../abstractinterruptmonitor/isinterruptionrequested) is true, a [`CellsException`](../cellsexception) with code Interrupted will be thrown.(Inherited from [`AbstractInterruptMonitor`](../abstractinterruptmonitor).) |
 
 ## Methods
 

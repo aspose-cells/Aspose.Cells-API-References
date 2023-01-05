@@ -3,7 +3,6 @@ title: RowNameToIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets row index according to row name.
 type: docs
-weight: 230
 url: /net/aspose.cells/cellshelper/rownametoindex/
 ---
 ## CellsHelper.RowNameToIndex method

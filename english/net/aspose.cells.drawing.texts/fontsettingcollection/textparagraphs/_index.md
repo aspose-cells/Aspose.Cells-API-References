@@ -3,7 +3,6 @@ title: TextParagraphs
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all paragraphs.
 type: docs
-weight: 50
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/textparagraphs/
 ---
 ## FontSettingCollection.TextParagraphs property

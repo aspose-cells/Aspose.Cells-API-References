@@ -3,7 +3,6 @@ title: SubtotalFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Represents subtotal function type. Used in the GridWorksheet.CreateSubtotal method.
 type: docs
-weight: 850
 url: /net/aspose.cells.gridweb.data/subtotalfunction/
 ---
 ## SubtotalFunction enumeration

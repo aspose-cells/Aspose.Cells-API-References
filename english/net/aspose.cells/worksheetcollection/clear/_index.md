@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all worksheets.
 type: docs
-weight: 190
 url: /net/aspose.cells/worksheetcollection/clear/
 ---
 ## WorksheetCollection.Clear method

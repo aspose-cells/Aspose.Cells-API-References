@@ -3,7 +3,6 @@ title: SetStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 150
 url: /net/aspose.cells.griddesktop.data/gridcolumn/setstyle/
 ---
 ## GridColumn.SetStyle method

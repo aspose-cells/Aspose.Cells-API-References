@@ -3,7 +3,6 @@ title: CustomCommandButton
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a custom command button in the tab bar of the GridWeb control.
 type: docs
-weight: 50
 url: /net/aspose.cells.gridweb/customcommandbutton/
 ---
 ## CustomCommandButton class
@@ -43,6 +42,7 @@ public class CustomCommandButton : Control, ISerializable
 
 ```csharp
 [C#]
+GridWebBean GridWeb1=ExtPage.getInstance().getBean();
 CustomCommandButton button = new CustomCommandButton();
 button.Command = "MyCommand";
 button.ImageUrl = "images/button1.gif";

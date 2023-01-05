@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the name of the data series.
 type: docs
-weight: 310
 url: /net/aspose.cells.charts/series/name/
 ---
 ## Series.Name property

@@ -3,7 +3,6 @@ title: VerticalAxisMaxValueType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the vertical axis maximum value type.
 type: docs
-weight: 250
 url: /net/aspose.cells.charts/sparklinegroup/verticalaxismaxvaluetype/
 ---
 ## SparklineGroup.VerticalAxisMaxValueType property

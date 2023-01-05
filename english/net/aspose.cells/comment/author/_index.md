@@ -3,7 +3,6 @@ title: Author
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets Name of the original comment author
 type: docs
-weight: 10
 url: /net/aspose.cells/comment/author/
 ---
 ## Comment.Author property

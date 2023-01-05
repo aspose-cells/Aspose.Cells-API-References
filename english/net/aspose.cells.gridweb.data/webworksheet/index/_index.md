@@ -1,14 +1,13 @@
 ---
 title: Index
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the index of itself within the WebWorksheetsaspose.cells.gridweb.data/webworksheets.
+description: Gets the index of itself within the worksheets.
 type: docs
-weight: 140
 url: /net/aspose.cells.gridweb.data/webworksheet/index/
 ---
 ## WebWorksheet.Index property
 
-Gets the index of itself within the [`WebWorksheets`](../../webworksheets).
+Gets the index of itself within the worksheets.
 
 ```csharp
 public int Index { get; }

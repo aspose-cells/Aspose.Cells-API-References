@@ -3,7 +3,6 @@ title: ControlPicturePositionType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the location of the controls picture relative to its caption.
 type: docs
-weight: 1580
 url: /net/aspose.cells.drawing.activexcontrols/controlpicturepositiontype/
 ---
 ## ControlPicturePositionType enumeration

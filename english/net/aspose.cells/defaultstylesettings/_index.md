@@ -3,7 +3,6 @@ title: DefaultStyleSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Settings for the default values of workbooks style properties.
 type: docs
-weight: 1370
 url: /net/aspose.cells/defaultstylesettings/
 ---
 ## DefaultStyleSettings class

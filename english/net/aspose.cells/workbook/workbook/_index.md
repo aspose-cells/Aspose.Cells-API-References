@@ -3,7 +3,6 @@ title: Workbook
 second_title: Aspose.Cells for .NET API Reference
 description: Initializes a new instance of the Workbookaspose.cells/workbook class.
 type: docs
-weight: 10
 url: /net/aspose.cells/workbook/workbook/
 ---
 ## Workbook() {#constructor}
@@ -16,7 +15,7 @@ public Workbook()
 
 ### Remarks
 
-The default file format type is Excel97To2003.If want create other format file type, please call Workbook(FileFormatType fileFormatType).
+The default file format type is Xlsx. To create other format file type, please use Workbook(FileFormatType).
 
 ### Examples
 

@@ -3,7 +3,6 @@ title: ExportDataTableAsString
 second_title: Aspose.Cells for .NET API Reference
 description: Exports data in the Cellsaspose.cells/cells collection to a DataTable object.
 type: docs
-weight: 620
 url: /net/aspose.cells/cells/exportdatatableasstring/
 ---
 ## ExportDataTableAsString(int, int, int, int) {#exportdatatableasstring}

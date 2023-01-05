@@ -3,7 +3,6 @@ title: Shadow
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a  object that specifies shadow effect for the chart element or shape.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing.texts/textoptions/shadow/
 ---
 ## TextOptions.Shadow property

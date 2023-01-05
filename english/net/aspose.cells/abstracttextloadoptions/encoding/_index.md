@@ -3,7 +3,6 @@ title: Encoding
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the default encoding. Only applies for csv file.
 type: docs
-weight: 30
 url: /net/aspose.cells/abstracttextloadoptions/encoding/
 ---
 ## AbstractTextLoadOptions.Encoding property

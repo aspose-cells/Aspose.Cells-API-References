@@ -3,7 +3,6 @@ title: RegexKey
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
 type: docs
-weight: 40
 url: /net/aspose.cells/replaceoptions/regexkey/
 ---
 ## ReplaceOptions.RegexKey property

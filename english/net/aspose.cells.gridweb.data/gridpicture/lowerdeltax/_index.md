@@ -3,7 +3,6 @@ title: LowerDeltaX
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the shapes horizontal offset from its lower right corner column. The range of value is 0 to 1024.
 type: docs
-weight: 260
 url: /net/aspose.cells.gridweb.data/gridpicture/lowerdeltax/
 ---
 ## GridPicture.LowerDeltaX property

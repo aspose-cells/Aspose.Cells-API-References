@@ -3,7 +3,6 @@ title: AlternativeText
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the descriptive alternative text string of the Shapeaspose.cells.drawing/shape object.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/shape/alternativetext/
 ---
 ## Shape.AlternativeText property

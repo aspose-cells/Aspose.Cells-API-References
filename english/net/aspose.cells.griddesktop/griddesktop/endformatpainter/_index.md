@@ -3,7 +3,6 @@ title: EndFormatPainter
 second_title: Aspose.Cells for .NET API Reference
 description: Notifies GridDesktop to end FormatPainter.
 type: docs
-weight: 680
 url: /net/aspose.cells.griddesktop/griddesktop/endformatpainter/
 ---
 ## GridDesktop.EndFormatPainter method

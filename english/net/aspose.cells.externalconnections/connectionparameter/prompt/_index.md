@@ -3,7 +3,6 @@ title: Prompt
 second_title: Aspose.Cells for .NET API Reference
 description: Prompt string for the parameter. Presented to the spreadsheet user along with input UI to collect the parameter value before refreshing the external data. Used only when parameterType  prompt.
 type: docs
-weight: 30
 url: /net/aspose.cells.externalconnections/connectionparameter/prompt/
 ---
 ## ConnectionParameter.Prompt property

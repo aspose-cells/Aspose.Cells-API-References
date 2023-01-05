@@ -3,7 +3,6 @@ title: MaxDataRow
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb.data/gridcells/maxdatarow/
 ---
 ## GridCells.MaxDataRow property

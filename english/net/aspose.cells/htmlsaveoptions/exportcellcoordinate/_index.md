@@ -3,7 +3,6 @@ title: ExportCellCoordinate
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether exporting excel coordinate of nonblank cells when saving file to html. The default value is false. If you want to import the output html to excel please keep the default value.
 type: docs
-weight: 130
 url: /net/aspose.cells/htmlsaveoptions/exportcellcoordinate/
 ---
 ## HtmlSaveOptions.ExportCellCoordinate property

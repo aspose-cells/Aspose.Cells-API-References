@@ -3,7 +3,6 @@ title: HasFormat3D
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the shape has 3d format data.
 type: docs
-weight: 80
 url: /net/aspose.cells.drawing/shapepropertycollection/hasformat3d/
 ---
 ## ShapePropertyCollection.HasFormat3D method

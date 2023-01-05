@@ -3,7 +3,6 @@ title: Refresh
 second_title: Aspose.Cells for .NET API Reference
 description: Refresh auto filters to hide or unhide the rows.
 type: docs
-weight: 170
 url: /net/aspose.cells/autofilter/refresh/
 ---
 ## Refresh() {#refresh}

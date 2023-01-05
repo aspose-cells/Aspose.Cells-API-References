@@ -3,7 +3,6 @@ title: MenuItemAvailable_Paste
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item Paste is available.
 type: docs
-weight: 200
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_paste/
 ---
 ## ContextMenuManager.MenuItemAvailable_Paste property

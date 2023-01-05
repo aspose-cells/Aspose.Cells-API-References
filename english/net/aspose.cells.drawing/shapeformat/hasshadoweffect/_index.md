@@ -3,7 +3,6 @@ title: HasShadowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 150
 url: /net/aspose.cells.drawing/shapeformat/hasshadoweffect/
 ---
 ## ShapeFormat.HasShadowEffect method

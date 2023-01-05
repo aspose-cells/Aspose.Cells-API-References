@@ -3,7 +3,6 @@ title: LookAtType
 second_title: Aspose.Cells for .NET API Reference
 description: Look at type.
 type: docs
-weight: 60
 url: /net/aspose.cells/findoptions/lookattype/
 ---
 ## FindOptions.LookAtType property

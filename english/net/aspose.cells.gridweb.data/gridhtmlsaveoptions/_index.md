@@ -3,7 +3,6 @@ title: GridHtmlSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options for saving html file.
 type: docs
-weight: 260
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/
 ---
 ## GridHtmlSaveOptions class
@@ -27,9 +26,9 @@ public class GridHtmlSaveOptions : GridSaveOptions
 | --- | --- |
 | [AttachedFilesDirectory](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/attachedfilesdirectory) { get; set; } | The directory that the attached files will be saved to. Only for saving to html stream. |
 | [AttachedFilesUrlPrefix](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/attachedfilesurlprefix) { get; set; } | Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream. |
-| [CachedFileFolder](../../aspose.cells.gridweb.data/gridsaveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data. |
-| [ClearData](../../aspose.cells.gridweb.data/gridsaveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file. |
-| [CreateDirectory](../../aspose.cells.gridweb.data/gridsaveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [CachedFileFolder](../../aspose.cells.gridweb.data/gridsaveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data.(Inherited from [`GridSaveOptions`](../gridsaveoptions).) |
+| [ClearData](../../aspose.cells.gridweb.data/gridsaveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`GridSaveOptions`](../gridsaveoptions).) |
+| [CreateDirectory](../../aspose.cells.gridweb.data/gridsaveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`GridSaveOptions`](../gridsaveoptions).) |
 | [DefaultFontName](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/defaultfontname) { get; set; } | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [Encoding](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/encoding) { get; set; } | If not set,use Encoding.UTF8 as default enconding type. |
 | [ExportActiveWorksheetOnly](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportactiveworksheetonly) { get; set; } | Indicates if exporting the whole workbook to html file. |
@@ -42,14 +41,14 @@ public class GridHtmlSaveOptions : GridSaveOptions
 | [ExportSingleTab](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/exportsingletab) { get; set; } | Indicates whether exporting the single tab when the file only has one worksheet. The default value is false. |
 | [IsExportComments](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/isexportcomments) { get; set; } | Indicates if exporting comments when saving file to html, the default value is false. |
 | [IsFullPathLink](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/isfullpathlink) { get; set; } | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false. |
-| [MergeAreas](../../aspose.cells.gridweb.data/gridsaveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [MergeAreas](../../aspose.cells.gridweb.data/gridsaveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`GridSaveOptions`](../gridsaveoptions).) |
 | [PageTitle](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/pagetitle) { get; set; } | The title of the html page. Only for saving to html stream. |
 | [ParseHtmlTagInCell](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/parsehtmltagincell) { get; set; } | Parse html tag in cell,like ,as cell value,or as html tag,default is true |
 | [PresentationPreference](../../aspose.cells.gridweb.data/gridhtmlsaveoptions/presentationpreference) { get; set; } | Indicating if html or mht file is presentation preference.The default value is false.if you want to get more beautiful presentation,please set the value to true. |
-| [RefreshChartCache](../../aspose.cells.gridweb.data/gridsaveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data |
-| [SaveFormat](../../aspose.cells.gridweb.data/gridsaveoptions/saveformat) { get; } | Gets the save file format. |
-| [SortNames](../../aspose.cells.gridweb.data/gridsaveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file. |
-| [ValidateMergedAreas](../../aspose.cells.gridweb.data/gridsaveoptions/validatemergedareas) { get; set; } | Indicates whether validate merged cells before saving the file. |
+| [RefreshChartCache](../../aspose.cells.gridweb.data/gridsaveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`GridSaveOptions`](../gridsaveoptions).) |
+| [SaveFormat](../../aspose.cells.gridweb.data/gridsaveoptions/saveformat) { get; } | Gets the save file format.(Inherited from [`GridSaveOptions`](../gridsaveoptions).) |
+| [SortNames](../../aspose.cells.gridweb.data/gridsaveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file.(Inherited from [`GridSaveOptions`](../gridsaveoptions).) |
+| [ValidateMergedAreas](../../aspose.cells.gridweb.data/gridsaveoptions/validatemergedareas) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`GridSaveOptions`](../gridsaveoptions).) |
 
 ### See Also
 

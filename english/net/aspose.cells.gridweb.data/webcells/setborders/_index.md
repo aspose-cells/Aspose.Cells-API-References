@@ -3,7 +3,6 @@ title: SetBorders
 second_title: Aspose.Cells for .NET API Reference
 description: Sets borders for a cells range.
 type: docs
-weight: 300
 url: /net/aspose.cells.gridweb.data/webcells/setborders/
 ---
 ## WebCells.SetBorders method

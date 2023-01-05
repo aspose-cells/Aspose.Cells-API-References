@@ -3,7 +3,6 @@ title: DropLines
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a Lineaspose.cells.drawing/line object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts.
 type: docs
-weight: 120
 url: /net/aspose.cells.charts/series/droplines/
 ---
 ## Series.DropLines property

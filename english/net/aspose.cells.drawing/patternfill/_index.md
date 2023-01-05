@@ -3,7 +3,6 @@ title: PatternFill
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents pattern fill format
 type: docs
-weight: 2470
 url: /net/aspose.cells.drawing/patternfill/
 ---
 ## PatternFill class
@@ -30,8 +29,8 @@ public class PatternFill : Fill
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | / |
-| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code. |
+| override [Equals](../../aspose.cells.drawing/fill/equals)(object) | /(Inherited from [`Fill`](../fill).) |
+| override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode)() | Gets the hash code.(Inherited from [`Fill`](../fill).) |
 
 ### See Also
 

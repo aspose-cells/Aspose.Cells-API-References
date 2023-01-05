@@ -3,7 +3,6 @@ title: GlobalizationSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the globalization settings.
 type: docs
-weight: 3640
 url: /net/aspose.cells/globalizationsettings/
 ---
 ## GlobalizationSettings class
@@ -33,13 +32,14 @@ public class GlobalizationSettings : AbstractGlobalizationSettings
 
 | Name | Description |
 | --- | --- |
-| virtual [Compare](../../aspose.cells/abstractglobalizationsettings/compare)(string, string, bool) | Compares two string values according to certain collation rules. |
+| virtual [Compare](../../aspose.cells/abstractglobalizationsettings/compare)(string, string, bool) | Compares two string values according to certain collation rules.(Inherited from [`AbstractGlobalizationSettings`](../abstractglobalizationsettings).) |
 | virtual [GetAllName](../../aspose.cells/globalizationsettings/getallname)() | Gets the name of "(All)" label in the PivotTable. |
 | virtual [GetBooleanValueString](../../aspose.cells/globalizationsettings/getbooleanvaluestring)(bool) | Gets the display string value for cell's boolean value |
-| virtual [GetCollationKey](../../aspose.cells/abstractglobalizationsettings/getcollationkey)(string, bool) | Transforms the string into a comparable object according to certain collation rules. |
+| virtual [GetCollationKey](../../aspose.cells/abstractglobalizationsettings/getcollationkey)(string, bool) | Transforms the string into a comparable object according to certain collation rules.(Inherited from [`AbstractGlobalizationSettings`](../abstractglobalizationsettings).) |
 | virtual [GetColumnLabelsOfPivotTable](../../aspose.cells/globalizationsettings/getcolumnlabelsofpivottable)() | Gets the name of "Column Labels" label in the PivotTable. |
-| virtual [GetColumnLablesName](../../aspose.cells/globalizationsettings/getcolumnlablesname)() | Gets the name of "Column Labels" label in the PivotTable. |
+| virtual [GetColumnLablesName](../../aspose.cells/globalizationsettings/getcolumnlablesname)() | (**Obsolete.**) Gets the name of "Column Labels" label in the PivotTable. |
 | virtual [GetCommentTitleName](../../aspose.cells/globalizationsettings/getcommenttitlename)(CommentTitleType) | Gets the locale dependent comment title name according to comment title type. |
+| virtual [GetDataFieldHeaderNameOfPivotTable](../../aspose.cells/globalizationsettings/getdatafieldheadernameofpivottable)() | Gets the the name of the value area field header in the PivotTable. |
 | virtual [GetEmptyDataName](../../aspose.cells/globalizationsettings/getemptydataname)() | Gets the name of "(blank)" label in the PivotTable. |
 | virtual [GetErrorValueString](../../aspose.cells/globalizationsettings/geterrorvaluestring)(string) | Gets the display string value for cell's error value |
 | virtual [GetGrandTotalName](../../aspose.cells/globalizationsettings/getgrandtotalname)(ConsolidationFunction) | Gets the grand total name of the function. |
@@ -51,7 +51,7 @@ public class GlobalizationSettings : AbstractGlobalizationSettings
 | virtual [GetPivotTotalName](../../aspose.cells/globalizationsettings/getpivottotalname)() | Gets the name of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area. |
 | virtual [GetProtectionNameOfPivotTable](../../aspose.cells/globalizationsettings/getprotectionnameofpivottable)() | Gets the protection name in the PivotTable. |
 | virtual [GetRowLabelsNameOfPivotTable](../../aspose.cells/globalizationsettings/getrowlabelsnameofpivottable)() | Gets the name of "Row Labels" label in the PivotTable. |
-| virtual [GetRowLablesName](../../aspose.cells/globalizationsettings/getrowlablesname)() | Gets the name of "Row Labels" label in the PivotTable. |
+| virtual [GetRowLablesName](../../aspose.cells/globalizationsettings/getrowlablesname)() | (**Obsolete.**) Gets the name of "Row Labels" label in the PivotTable. |
 | virtual [GetStandardBuiltInName](../../aspose.cells/globalizationsettings/getstandardbuiltinname)(string) | Gets the standard text of built-in Name according to given locale dependent text. |
 | virtual [GetStandardFunctionName](../../aspose.cells/globalizationsettings/getstandardfunctionname)(string) | Gets the standard function name according to given locale dependent function name. |
 | virtual [GetStandardHeaderFooterFontStyleName](../../aspose.cells/globalizationsettings/getstandardheaderfooterfontstylename)(string) | Gets standard English font style name(Regular, Bold, Italic) for Header/Footer according to given locale font style name. |

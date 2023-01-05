@@ -3,7 +3,6 @@ title: Language
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the documents language.
 type: docs
-weight: 160
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/language/
 ---
 ## BuiltInDocumentPropertyCollection.Language property

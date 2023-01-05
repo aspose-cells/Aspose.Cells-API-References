@@ -3,7 +3,6 @@ title: AddCondition
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a formatting condition.
 type: docs
-weight: 60
 url: /net/aspose.cells/formatconditioncollection/addcondition/
 ---
 ## AddCondition(FormatConditionType, OperatorType, string, string) {#addcondition_1}

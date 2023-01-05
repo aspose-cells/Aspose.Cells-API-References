@@ -3,7 +3,6 @@ title: RefreshValidation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to refresh validation value after cell value changes.
 type: docs
-weight: 740
 url: /net/aspose.cells.gridweb/mainweb/refreshvalidation/
 ---
 ## MainWeb.RefreshValidation property

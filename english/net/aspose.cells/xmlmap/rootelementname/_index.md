@@ -3,7 +3,6 @@ title: RootElementName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets root element name.
 type: docs
-weight: 30
 url: /net/aspose.cells/xmlmap/rootelementname/
 ---
 ## XmlMap.RootElementName property

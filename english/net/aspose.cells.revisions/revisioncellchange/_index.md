@@ -3,7 +3,6 @@ title: RevisionCellChange
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the revision that changing cells.
 type: docs
-weight: 5380
 url: /net/aspose.cells.revisions/revisioncellchange/
 ---
 ## RevisionCellChange class
@@ -20,7 +19,7 @@ public class RevisionCellChange : Revision
 | --- | --- |
 | [CellName](../../aspose.cells.revisions/revisioncellchange/cellname) { get; } | Gets the name of the cell. |
 | [Column](../../aspose.cells.revisions/revisioncellchange/column) { get; } | Gets the column index of the cell. |
-| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision.(Inherited from [`Revision`](../revision).) |
 | [IsNewFormatted](../../aspose.cells.revisions/revisioncellchange/isnewformatted) { get; } | Indicates whether this cell is new formatted. |
 | [IsOldFormatted](../../aspose.cells.revisions/revisioncellchange/isoldformatted) { get; } | Indicates whether this cell is old formatted. |
 | [NewFormula](../../aspose.cells.revisions/revisioncellchange/newformula) { get; } | Gets the old formula. |
@@ -31,7 +30,7 @@ public class RevisionCellChange : Revision
 | [OldValue](../../aspose.cells.revisions/revisioncellchange/oldvalue) { get; } | Gets old value of the cell. |
 | [Row](../../aspose.cells.revisions/revisioncellchange/row) { get; } | Gets the row index of the cell. |
 | override [Type](../../aspose.cells.revisions/revisioncellchange/type) { get; } | Represents the type of revision. |
-| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision).) |
 
 ### See Also
 

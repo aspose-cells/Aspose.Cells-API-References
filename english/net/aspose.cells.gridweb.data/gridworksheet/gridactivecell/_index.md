@@ -3,7 +3,6 @@ title: GridActiveCell
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 180
 url: /net/aspose.cells.gridweb.data/gridworksheet/gridactivecell/
 ---
 ## GridWorksheet.GridActiveCell property

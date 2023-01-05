@@ -3,7 +3,6 @@ title: FileFormatType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the file type of the embedded ole object data
 type: docs
-weight: 50
 url: /net/aspose.cells.drawing/oleobject/fileformattype/
 ---
 ## OleObject.FileFormatType property

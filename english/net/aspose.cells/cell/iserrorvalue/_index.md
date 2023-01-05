@@ -3,7 +3,6 @@ title: IsErrorValue
 second_title: Aspose.Cells for .NET API Reference
 description: Checks if the value of this cell is an error.
 type: docs
-weight: 150
 url: /net/aspose.cells/cell/iserrorvalue/
 ---
 ## Cell.IsErrorValue property

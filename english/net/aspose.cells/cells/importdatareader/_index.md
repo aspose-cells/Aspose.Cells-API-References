@@ -3,7 +3,6 @@ title: ImportDataReader
 second_title: Aspose.Cells for .NET API Reference
 description: Imports data from a SqlDataReader object.
 type: docs
-weight: 1030
 url: /net/aspose.cells/cells/importdatareader/
 ---
 ## ImportDataReader(SqlDataReader, int, int, bool) {#importdatareader_6}

@@ -3,7 +3,6 @@ title: Aspose.Cells.Markup
 second_title: Aspose.Cells for .NET API Reference
 description: Contains all classes of smart tag.
 type: docs
-weight: 80
 url: /net/aspose.cells.markup/
 ---
 Contains all classes of smart tag.

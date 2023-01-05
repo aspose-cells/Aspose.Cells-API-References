@@ -1,9 +1,8 @@
 ---
 title: GetCubePointYPx
 second_title: Aspose.Cells for .NET API Reference
-description: Gets y-coordinate of the apex point of walls cube after calls Chart.Calculate method. The number of apex points of walls cube is eight.
+description: Gets ycoordinate of the apex point of walls cube after calls Chart.Calculate method. The number of apex points of walls cube is eight.
 type: docs
-weight: 130
 url: /net/aspose.cells.charts/walls/getcubepointypx/
 ---
 ## Walls.GetCubePointYPx method

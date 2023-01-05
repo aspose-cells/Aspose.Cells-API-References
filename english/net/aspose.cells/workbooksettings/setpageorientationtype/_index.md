@@ -3,7 +3,6 @@ title: SetPageOrientationType
 second_title: Aspose.Cells for .NET API Reference
 description: Set the type of print orientation for the whole workbook.
 type: docs
-weight: 760
 url: /net/aspose.cells/workbooksettings/setpageorientationtype/
 ---
 ## WorkbookSettings.SetPageOrientationType method

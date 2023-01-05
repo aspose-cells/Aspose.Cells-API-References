@@ -3,7 +3,6 @@ title: GetRowCaption
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the row caption. If the caption is not set returns empty string.
 type: docs
-weight: 210
 url: /net/aspose.cells.gridweb.data/webcells/getrowcaption/
 ---
 ## WebCells.GetRowCaption method

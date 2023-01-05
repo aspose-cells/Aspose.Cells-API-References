@@ -3,7 +3,6 @@ title: IsHidden
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the object is visible.
 type: docs
-weight: 190
 url: /net/aspose.cells.griddesktop.data/gridpicture/ishidden/
 ---
 ## GridPicture.IsHidden property

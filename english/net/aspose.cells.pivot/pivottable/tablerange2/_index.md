@@ -1,9 +1,8 @@
 ---
 title: TableRange2
 second_title: Aspose.Cells for .NET API Reference
-description: Returns a CellArea object that represents the range containing the entire PivotTable report includes page fields. Read-only.
+description: Returns a CellArea object that represents the range containing the entire PivotTable report includes page fields. Readonly.
 type: docs
-weight: 720
 url: /net/aspose.cells.pivot/pivottable/tablerange2/
 ---
 ## PivotTable.TableRange2 property

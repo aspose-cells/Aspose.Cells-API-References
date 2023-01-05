@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the header/footer command type .
 type: docs
-weight: 30
 url: /net/aspose.cells/headerfootercommand/type/
 ---
 ## HeaderFooterCommand.Type property

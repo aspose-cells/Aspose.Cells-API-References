@@ -3,7 +3,6 @@ title: EnableSort
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the user can click the column header to sort by this field.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb/bindcolumn/enablesort/
 ---
 ## BindColumn.EnableSort property

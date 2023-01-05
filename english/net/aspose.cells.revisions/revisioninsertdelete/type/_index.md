@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of revision.
 type: docs
-weight: 40
 url: /net/aspose.cells.revisions/revisioninsertdelete/type/
 ---
 ## RevisionInsertDelete.Type property

@@ -3,7 +3,6 @@ title: PrintQuality
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the print quality.
 type: docs
-weight: 360
 url: /net/aspose.cells/pagesetup/printquality/
 ---
 ## PageSetup.PrintQuality property

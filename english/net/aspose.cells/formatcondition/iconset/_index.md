@@ -3,7 +3,6 @@ title: IconSet
 second_title: Aspose.Cells for .NET API Reference
 description: Get the conditional formattings IconSet instance. The default instances IconSetType is TrafficLights31. Valid only for type  IconSet.
 type: docs
-weight: 60
 url: /net/aspose.cells/formatcondition/iconset/
 ---
 ## FormatCondition.IconSet property

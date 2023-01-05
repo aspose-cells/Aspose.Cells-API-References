@@ -3,7 +3,6 @@ title: AddCalculatedItem
 second_title: Aspose.Cells for .NET API Reference
 description: Add a calculated item to the pivot field.
 type: docs
-weight: 410
 url: /net/aspose.cells.pivot/pivotfield/addcalculateditem/
 ---
 ## PivotField.AddCalculatedItem method

@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of the item.
 type: docs
-weight: 10
 url: /net/aspose.cells.querytables/powerqueryformulaitem/name/
 ---
 ## PowerQueryFormulaItem.Name property

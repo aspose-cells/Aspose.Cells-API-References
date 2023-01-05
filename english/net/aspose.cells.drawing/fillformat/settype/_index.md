@@ -3,7 +3,6 @@ title: SetType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the fill format set type.
 type: docs
-weight: 150
 url: /net/aspose.cells.drawing/fillformat/settype/
 ---
 ## FillFormat.SetType property

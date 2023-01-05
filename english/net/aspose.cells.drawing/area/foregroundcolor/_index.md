@@ -3,7 +3,6 @@ title: ForegroundColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the foreground Color.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/area/foregroundcolor/
 ---
 ## Area.ForegroundColor property

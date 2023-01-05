@@ -3,7 +3,6 @@ title: GradientDegree
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the gradient degree for the specified fill. Only applies for Excel 2007.
 type: docs
-weight: 50
 url: /net/aspose.cells.drawing/fillformat/gradientdegree/
 ---
 ## FillFormat.GradientDegree property

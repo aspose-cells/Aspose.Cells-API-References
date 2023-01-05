@@ -3,7 +3,6 @@ title: CellModifiedOnAjax
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the cell is modified in ajaxcall.
 type: docs
-weight: 1190
 url: /net/aspose.cells.gridweb/mainweb/cellmodifiedonajax/
 ---
 ## MainWeb.CellModifiedOnAjax event

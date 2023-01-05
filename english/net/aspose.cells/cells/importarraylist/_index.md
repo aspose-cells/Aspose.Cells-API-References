@@ -3,7 +3,6 @@ title: ImportArrayList
 second_title: Aspose.Cells for .NET API Reference
 description: Imports an arraylist of data into a worksheet.
 type: docs
-weight: 970
 url: /net/aspose.cells/cells/importarraylist/
 ---
 ## Cells.ImportArrayList method

@@ -3,7 +3,6 @@ title: IsRichText
 second_title: Aspose.Cells for .NET API Reference
 description: Whether or not the text is rich text.
 type: docs
-weight: 390
 url: /net/aspose.cells.drawing/shape/isrichtext/
 ---
 ## Shape.IsRichText property

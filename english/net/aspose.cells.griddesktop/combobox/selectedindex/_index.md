@@ -3,7 +3,6 @@ title: SelectedIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the index specifying the currently selected item. Setting the index will call GridDesktop.RunAllFormulas method automatic if GridDesktop.RecalculateFormulas property is true.
 type: docs
-weight: 40
 url: /net/aspose.cells.griddesktop/combobox/selectedindex/
 ---
 ## ComboBox.SelectedIndex property

@@ -1,9 +1,8 @@
 ---
 title: AlignTopRightCorner
 second_title: Aspose.Cells for .NET API Reference
-description: Moves the picture to the top-right corner.
+description: Moves the picture to the topright corner.
 type: docs
-weight: 590
 url: /net/aspose.cells.gridweb.data/gridpicture/aligntoprightcorner/
 ---
 ## GridPicture.AlignTopRightCorner method

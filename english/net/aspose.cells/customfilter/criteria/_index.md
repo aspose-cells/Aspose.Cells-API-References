@@ -3,7 +3,6 @@ title: Criteria
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the criteria.
 type: docs
-weight: 10
 url: /net/aspose.cells/customfilter/criteria/
 ---
 ## CustomFilter.Criteria property

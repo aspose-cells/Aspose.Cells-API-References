@@ -3,7 +3,6 @@ title: CommentEventHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the method that intend to handle comment events.
 type: docs
-weight: 290
 url: /net/aspose.cells.griddesktop/commenteventhandler/
 ---
 ## CommentEventHandler delegate

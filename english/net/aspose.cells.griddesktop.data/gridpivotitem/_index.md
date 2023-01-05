@@ -3,7 +3,6 @@ title: GridPivotItem
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a item in a PivotField report.
 type: docs
-weight: 630
 url: /net/aspose.cells.griddesktop.data/gridpivotitem/
 ---
 ## GridPivotItem class

@@ -3,7 +3,6 @@ title: RowFields
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a PivotFields object that are currently shown as row fields.
 type: docs
-weight: 530
 url: /net/aspose.cells.pivot/pivottable/rowfields/
 ---
 ## PivotTable.RowFields property

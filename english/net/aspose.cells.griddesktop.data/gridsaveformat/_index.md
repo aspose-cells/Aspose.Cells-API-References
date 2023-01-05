@@ -3,7 +3,6 @@ title: GridSaveFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Enumerates supported file format types.
 type: docs
-weight: 690
 url: /net/aspose.cells.griddesktop.data/gridsaveformat/
 ---
 ## GridSaveFormat enumeration

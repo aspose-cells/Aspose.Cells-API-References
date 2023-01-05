@@ -3,7 +3,6 @@ title: FontName
 second_title: Aspose.Cells for .NET API Reference
 description: The name of the font used in the WordArt.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/texteffectformat/fontname/
 ---
 ## TextEffectFormat.FontName property

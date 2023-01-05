@@ -3,7 +3,6 @@ title: IsRequired
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether the cell value is required.
 type: docs
-weight: 60
 url: /net/aspose.cells.gridweb/validation/isrequired/
 ---
 ## Validation.IsRequired property

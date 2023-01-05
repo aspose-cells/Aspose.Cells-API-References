@@ -3,7 +3,6 @@ title: ClearFilter
 second_title: Aspose.Cells for .NET API Reference
 description: Clears all filter settings and display all rows.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb.data/rowfiltersettings/clearfilter/
 ---
 ## RowFilterSettings.ClearFilter method

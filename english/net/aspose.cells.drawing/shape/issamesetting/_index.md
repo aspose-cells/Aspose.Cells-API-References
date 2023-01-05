@@ -3,7 +3,6 @@ title: IsSameSetting
 second_title: Aspose.Cells for .NET API Reference
 description: Returns whether the shape is same.
 type: docs
-weight: 1130
 url: /net/aspose.cells.drawing/shape/issamesetting/
 ---
 ## Shape.IsSameSetting method

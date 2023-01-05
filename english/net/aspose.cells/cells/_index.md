@@ -3,7 +3,6 @@ title: Cells
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of cell relevant objects such as Cell./cell Row./row ...etc.
 type: docs
-weight: 300
 url: /net/aspose.cells/cells/
 ---
 ## Cells class
@@ -107,14 +106,15 @@ public class Cells : IDisposable, IEnumerable
 | [ExportTypeArray](../../aspose.cells/cells/exporttypearray)(int, int, int, int) | Exports cell value type in the [`Cells`](../cells) collection to a two-dimension array object. |
 | [Find](../../aspose.cells/cells/find#find)(object, Cell) | Finds the cell containing with the input object. |
 | [Find](../../aspose.cells/cells/find#find_1)(object, Cell, FindOptions) | Finds the cell containing with the input object. |
-| [FindFormula](../../aspose.cells/cells/findformula)(string, Cell) | Finds the cell with the input string. |
-| [FindFormulaContains](../../aspose.cells/cells/findformulacontains)(string, Cell) | Finds the cell with formula which contains the input string. |
+| [FindFormula](../../aspose.cells/cells/findformula)(string, Cell) | (**Obsolete.**) Finds the cell with the input string. |
+| [FindFormulaContains](../../aspose.cells/cells/findformulacontains)(string, Cell) | (**Obsolete.**) Finds the cell with formula which contains the input string. |
 | [GetCell](../../aspose.cells/cells/getcell)(int, int) | Gets the [`Cell`](../cell) element or null at the specified cell row index and column index. |
 | [GetCellStyle](../../aspose.cells/cells/getcellstyle)(int, int) | Get the style of given cell. |
 | [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth)(int) | Gets the width of the specified column in normal view |
 | [GetColumnWidthInch](../../aspose.cells/cells/getcolumnwidthinch)(int) | Gets the width of the specified column in normal view, in units of inches. |
 | [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel)(int) | Gets the width of the specified column in normal view, in units of pixel. |
 | [GetDependents](../../aspose.cells/cells/getdependents)(bool, int, int) | Get all cells which refer to the specific cell. |
+| [GetDependentsInCalculation](../../aspose.cells/cells/getdependentsincalculation)(int, int, bool) | Gets all cells whose calculated result depends on specific cell. |
 | [GetEnumerator](../../aspose.cells/cells/getenumerator)() | Gets the cells enumerator. |
 | [GetGroupedColumnOutlineLevel](../../aspose.cells/cells/getgroupedcolumnoutlinelevel)(int) | Gets the outline level (zero-based) of the column. |
 | [GetGroupedRowOutlineLevel](../../aspose.cells/cells/getgroupedrowoutlinelevel)(int) | Gets the outline level (zero-based) of the row. |
@@ -139,7 +139,7 @@ public class Cells : IDisposable, IEnumerable
 | [HideGroupDetail](../../aspose.cells/cells/hidegroupdetail)(bool, int) | Collapses the grouped rows/columns. |
 | [HideRow](../../aspose.cells/cells/hiderow)(int) | Hides a row. |
 | [HideRows](../../aspose.cells/cells/hiderows)(int, int) | Hides multiple rows. |
-| [Import](../../aspose.cells/cells/import)(IDataReader, int, int, ImportTableOptions) | Import data from data view. |
+| [Import](../../aspose.cells/cells/import)(IDataReader, int, int, ImportTableOptions) | (**Obsolete.**) Import data from data view. |
 | [ImportArray](../../aspose.cells/cells/importarray#importarray)(double[], int, int) |  |
 | [ImportArray](../../aspose.cells/cells/importarray#importarray_2)(int[], int, int) |  |
 | [ImportArray](../../aspose.cells/cells/importarray#importarray_4)(string[], int, int) |  |
@@ -162,36 +162,36 @@ public class Cells : IDisposable, IEnumerable
 | [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid_1)(DataGrid, int, int, int, int, bool) | Imports a DataGrid into a worksheet. |
 | [ImportDataGrid](../../aspose.cells/cells/importdatagrid#importdatagrid_2)(DataGrid, int, int, int, int, bool, bool) | Imports a DataGrid into a worksheet. |
 | [ImportDataGridAsString](../../aspose.cells/cells/importdatagridasstring)(DataGrid, int, int, bool) | Imports a DataGrid into a worksheet. This method doesn't try to convert text into numeric values. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_3)(OleDbDataReader, int, int, bool) | Imports data from a OleDbDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_6)(SqlDataReader, int, int, bool) | Imports data from a SqlDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_1)(OleDbDataReader, bool, int, int, bool) | Imports data from a OleDbDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_4)(SqlDataReader, bool, int, int, bool) | Imports data from a SqlDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader)(IDataReader, bool, int, int, bool, string, bool) | Imports data from a IDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_2)(OleDbDataReader, bool, int, int, bool, string, bool) | Imports data from a OleDbDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_5)(SqlDataReader, bool, int, int, bool, string, bool) | Imports data from a SqlDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_3)(OleDbDataReader, int, int, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_6)(SqlDataReader, int, int, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_1)(OleDbDataReader, bool, int, int, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_4)(SqlDataReader, bool, int, int, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader)(IDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a IDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_2)(OleDbDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
+| [ImportDataReader](../../aspose.cells/cells/importdatareader#importdatareader_5)(SqlDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
 | [ImportDataRow](../../aspose.cells/cells/importdatarow)(DataRow, int, int) | Imports a DataRow into the Excel file. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_7)(DataTable, bool, string) | Imports a DataTable object into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable)(DataTable, bool, int, int) | Imports a DataTable object into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_1)(DataTable, bool, int, int, bool) | Imports a DataTable object into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_2)(DataTable, bool, int, int, bool, bool) | Imports a DataTable object into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_3)(DataTable, bool, int, int, int, int) | Imports a DataTable into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_4)(DataTable, bool, int, int, int, int, bool) | Imports a DataTable into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_5)(DataTable, bool, int, int, int, int, bool, string) | Imports a DataTable into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_6)(DataTable, bool, int, int, int, int, bool, string, bool) | Imports a DataTable into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_7)(DataTable, bool, string) | (**Obsolete.**) Imports a DataTable object into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable)(DataTable, bool, int, int) | (**Obsolete.**) Imports a DataTable object into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_1)(DataTable, bool, int, int, bool) | (**Obsolete.**) Imports a DataTable object into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_2)(DataTable, bool, int, int, bool, bool) | (**Obsolete.**) Imports a DataTable object into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_3)(DataTable, bool, int, int, int, int) | (**Obsolete.**) Imports a DataTable into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_4)(DataTable, bool, int, int, int, int, bool) | (**Obsolete.**) Imports a DataTable into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_5)(DataTable, bool, int, int, int, int, bool, string) | (**Obsolete.**) Imports a DataTable into a worksheet. |
+| [ImportDataTable](../../aspose.cells/cells/importdatatable#importdatatable_6)(DataTable, bool, int, int, int, int, bool, string, bool) | (**Obsolete.**) Imports a DataTable into a worksheet. |
 | [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_3)(DataView, int, int) | Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_4)(DataView, int, int, bool) |  |
-| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview)(DataView, bool, int, int, bool) | Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_5)(DataView, int, int, int, int) | Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_6)(DataView, int, int, int, int, bool) | Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_1)(DataView, bool, int, int, int, int, bool) | Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_2)(DataView, bool, int, int, int, int, bool, string) | Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_4)(DataView, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview)(DataView, bool, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_5)(DataView, int, int, int, int) | (**Obsolete.**) Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_6)(DataView, int, int, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_1)(DataView, bool, int, int, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview#importdataview_2)(DataView, bool, int, int, int, int, bool, string) | (**Obsolete.**) Imports a DataView into a worksheet. |
 | [ImportFormulaArray](../../aspose.cells/cells/importformulaarray)(string[], int, int, bool) | Imports an array of formula into a worksheet. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_2)(OleDbDataReader, int, int, bool) | Imports data from a OleDbDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_5)(SqlDataReader, int, int, bool) | Imports data from a SqlDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader)(OleDbDataReader, bool, int, int, bool) | Imports data from a OleDbDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_3)(SqlDataReader, bool, int, int, bool) | Imports data from a SqlDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_1)(OleDbDataReader, bool, int, int, bool, string, bool) | Imports data from a OleDbDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_4)(SqlDataReader, bool, int, int, bool, string, bool) | Imports data from a SqlDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_2)(OleDbDataReader, int, int, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_5)(SqlDataReader, int, int, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader)(OleDbDataReader, bool, int, int, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_3)(SqlDataReader, bool, int, int, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_1)(OleDbDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
+| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader#importfromdatareader_4)(SqlDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
 | [ImportGridView](../../aspose.cells/cells/importgridview)(GridView, int, int, ImportTableOptions) | Imports a grid view to this cells. |
 | [ImportObjectArray](../../aspose.cells/cells/importobjectarray#importobjectarray)(object[], int, int, bool) | Imports an array of data into a worksheet. |
 | [ImportObjectArray](../../aspose.cells/cells/importobjectarray#importobjectarray_1)(object[], int, int, bool, int) | Imports an array of data into a worksheet. |

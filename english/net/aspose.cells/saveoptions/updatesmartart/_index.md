@@ -3,7 +3,6 @@ title: UpdateSmartArt
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether updating smart art setting. The default value is false.
 type: docs
-weight: 110
 url: /net/aspose.cells/saveoptions/updatesmartart/
 ---
 ## SaveOptions.UpdateSmartArt property

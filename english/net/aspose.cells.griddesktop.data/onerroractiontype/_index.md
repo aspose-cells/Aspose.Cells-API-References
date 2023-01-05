@@ -3,7 +3,6 @@ title: OnErrorActionType
 second_title: Aspose.Cells for .NET API Reference
 description: Used in CellError event of the GridWeb. User set the OnErrorActionQuery.OnErrorAction to tell the control Stop processing or Ignore error.
 type: docs
-weight: 770
 url: /net/aspose.cells.griddesktop.data/onerroractiontype/
 ---
 ## OnErrorActionType enumeration

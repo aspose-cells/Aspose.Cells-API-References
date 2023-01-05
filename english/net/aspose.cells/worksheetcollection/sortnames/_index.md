@@ -3,7 +3,6 @@ title: SortNames
 second_title: Aspose.Cells for .NET API Reference
 description: Sorts the defined names.
 type: docs
-weight: 320
 url: /net/aspose.cells/worksheetcollection/sortnames/
 ---
 ## WorksheetCollection.SortNames method

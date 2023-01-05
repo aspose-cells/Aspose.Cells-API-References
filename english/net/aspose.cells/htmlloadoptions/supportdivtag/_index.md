@@ -3,7 +3,6 @@ title: SupportDivTag
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether support the layout of ltdivgt tag when the html file contains ltdivgt tags. The default value is false.
 type: docs
-weight: 90
 url: /net/aspose.cells/htmlloadoptions/supportdivtag/
 ---
 ## HtmlLoadOptions.SupportDivTag property

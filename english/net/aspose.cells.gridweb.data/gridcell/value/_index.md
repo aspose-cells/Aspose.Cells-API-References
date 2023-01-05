@@ -3,7 +3,6 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the value contained in this cell.
 type: docs
-weight: 160
 url: /net/aspose.cells.gridweb.data/gridcell/value/
 ---
 ## GridCell.Value property

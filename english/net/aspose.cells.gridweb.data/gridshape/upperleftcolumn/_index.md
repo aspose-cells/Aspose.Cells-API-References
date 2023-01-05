@@ -3,7 +3,6 @@ title: UpperLeftColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Represents upper left corner column index.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb.data/gridshape/upperleftcolumn/
 ---
 ## GridShape.UpperLeftColumn property

@@ -3,7 +3,6 @@ title: ShowInput
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 180
 url: /net/aspose.cells.griddesktop.data/gridvalidation/showinput/
 ---
 ## GridValidation.ShowInput property

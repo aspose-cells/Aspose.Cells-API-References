@@ -3,7 +3,6 @@ title: IsDeleted
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether input cell is deleted.
 type: docs
-weight: 20
 url: /net/aspose.cells/scenarioinputcell/isdeleted/
 ---
 ## ScenarioInputCell.IsDeleted property

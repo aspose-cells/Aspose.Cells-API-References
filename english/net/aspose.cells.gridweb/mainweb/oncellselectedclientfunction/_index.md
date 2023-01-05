@@ -3,7 +3,6 @@ title: OnCellSelectedClientFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the client side function to be called when a cell is selected. The client function should be declared like this function MyOnSelectCellcell  GridWeb1.setCellValueByCellcell test Note You may use the this pointer in the client function to point the grid control which fires the event.
 type: docs
-weight: 590
 url: /net/aspose.cells.gridweb/mainweb/oncellselectedclientfunction/
 ---
 ## MainWeb.OnCellSelectedClientFunction property

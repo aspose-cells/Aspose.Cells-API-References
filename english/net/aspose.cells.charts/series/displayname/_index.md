@@ -3,7 +3,6 @@ title: DisplayName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the seriess name that displays on the chart graph.
 type: docs
-weight: 90
 url: /net/aspose.cells.charts/series/displayname/
 ---
 ## Series.DisplayName property

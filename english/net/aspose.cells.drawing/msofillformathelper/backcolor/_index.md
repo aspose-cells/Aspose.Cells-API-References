@@ -3,7 +3,6 @@ title: BackColor
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the file back color.
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing/msofillformathelper/backcolor/
 ---
 ## MsoFillFormatHelper.BackColor property

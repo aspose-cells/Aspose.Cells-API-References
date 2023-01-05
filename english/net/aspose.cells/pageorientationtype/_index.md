@@ -3,7 +3,6 @@ title: PageOrientationType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents print orientation constants.
 type: docs
-weight: 4440
 url: /net/aspose.cells/pageorientationtype/
 ---
 ## PageOrientationType enumeration

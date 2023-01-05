@@ -3,7 +3,6 @@ title: Index
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the sorted column indexabsolute position column A is 0 B is 1 ....
 type: docs
-weight: 40
 url: /net/aspose.cells/datasorterkey/index/
 ---
 ## DataSorterKey.Index property

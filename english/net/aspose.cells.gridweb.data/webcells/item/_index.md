@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets Cell item within the worksheet
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/webcells/item/
 ---
 ## WebCells indexer (1 of 3)

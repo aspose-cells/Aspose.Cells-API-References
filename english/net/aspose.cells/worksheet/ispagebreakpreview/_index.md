@@ -3,7 +3,6 @@ title: IsPageBreakPreview
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the specified worksheet is shown in normal view or page break preview.
 type: docs
-weight: 240
 url: /net/aspose.cells/worksheet/ispagebreakpreview/
 ---
 ## Worksheet.IsPageBreakPreview property

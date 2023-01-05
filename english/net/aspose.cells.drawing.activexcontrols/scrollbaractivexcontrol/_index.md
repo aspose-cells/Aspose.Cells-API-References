@@ -3,7 +3,6 @@ title: ScrollBarActiveXControl
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the ScrollBar control.
 type: docs
-weight: 1700
 url: /net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/
 ---
 ## ScrollBarActiveXControl class
@@ -18,32 +17,32 @@ public class ScrollBarActiveXControl : SpinButtonActiveXControl
 
 | Name | Description |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background. |
-| override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Gets and sets the binary data of the control. |
-| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Represents the font of the control. |
-| virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | Gets and sets the ole color of the foreground. |
-| virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | Gets and sets the height of the control in unit of points. |
-| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Indicates whether the control will automatically resize to display its entire contents. |
-| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Indicates whether the control can receive the focus and respond to user-generated events. |
-| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | Indicates whether data in the control is locked for editing. |
-| [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent) { get; set; } | Indicates whether the control is transparent. |
-| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | Indicates whether this control is visible. |
+| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Gets and sets the binary data of the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |
+| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Represents the font of the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |
+| virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | Gets and sets the ole color of the foreground.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | Gets and sets the height of the control in unit of points.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | Gets and sets the default run-time mode of the Input Method Editor for the control as it receives focus.(Inherited from [`ActiveXControl`](../activexcontrol).) |
+| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Indicates whether the control will automatically resize to display its entire contents.(Inherited from [`ActiveXControl`](../activexcontrol).) |
+| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Indicates whether the control can receive the focus and respond to user-generated events.(Inherited from [`ActiveXControl`](../activexcontrol).) |
+| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | Indicates whether data in the control is locked for editing.(Inherited from [`ActiveXControl`](../activexcontrol).) |
+| [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent) { get; set; } | Indicates whether the control is transparent.(Inherited from [`ActiveXControl`](../activexcontrol).) |
+| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | Indicates whether this control is visible.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [LargeChange](../../aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/largechange) { get; set; } | Gets and sets the amount by which the Position property changes |
-| [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell) { get; set; } | Gets and sets the linked cell. |
-| [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | Gets and sets the list fill range. |
-| [Max](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/max) { get; set; } | Gets and sets the maximum acceptable value. |
-| [Min](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/min) { get; set; } | Gets and sets the minimum acceptable value. |
-| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | Gets and sets the type of icon displayed as the mouse pointer for the control. |
-| [Orientation](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/orientation) { get; set; } | Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
-| [Position](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/position) { get; set; } | Gets and sets the value. |
-| virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow) { get; set; } | Indicates whether to show a shadow. |
-| [SmallChange](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/smallchange) { get; set; } | Gets and sets the amount by which the Position property changes |
-| [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | Represents how to align the text used by the control. |
+| [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell) { get; set; } | Gets and sets the linked cell.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | Gets and sets the list fill range.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| [Max](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/max) { get; set; } | Gets and sets the maximum acceptable value.(Inherited from [`SpinButtonActiveXControl`](../spinbuttonactivexcontrol).) |
+| [Min](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/min) { get; set; } | Gets and sets the minimum acceptable value.(Inherited from [`SpinButtonActiveXControl`](../spinbuttonactivexcontrol).) |
+| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Gets and sets a custom icon to display as the mouse pointer for the control.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | Gets and sets the type of icon displayed as the mouse pointer for the control.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| [Orientation](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/orientation) { get; set; } | Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally.(Inherited from [`SpinButtonActiveXControl`](../spinbuttonactivexcontrol).) |
+| [Position](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/position) { get; set; } | Gets and sets the value.(Inherited from [`SpinButtonActiveXControl`](../spinbuttonactivexcontrol).) |
+| virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow) { get; set; } | Indicates whether to show a shadow.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| [SmallChange](../../aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/smallchange) { get; set; } | Gets and sets the amount by which the Position property changes(Inherited from [`SpinButtonActiveXControl`](../spinbuttonactivexcontrol).) |
+| [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | Represents how to align the text used by the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |
 | override [Type](../../aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/type) { get; } | Gets the type of the ActiveX control. |
-| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Gets and sets the width of the control in unit of points. |
-| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Gets the [`Workbook`](../activexcontrolbase/workbook) object. |
+| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Gets and sets the width of the control in unit of points.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Gets the [`Workbook`](../activexcontrolbase/workbook) object.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 
 ### See Also
 

@@ -1,9 +1,8 @@
 ---
 title: ReCalculateOnOpen
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether re-calculate all formulas on opening file.
+description: Indicates whether recalculate all formulas on opening file.
 type: docs
-weight: 110
 url: /net/aspose.cells.gridjs/gridworkbooksettings/recalculateonopen/
 ---
 ## GridWorkbookSettings.ReCalculateOnOpen property

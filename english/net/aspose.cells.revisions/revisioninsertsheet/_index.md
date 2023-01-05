@@ -3,7 +3,6 @@ title: RevisionInsertSheet
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a revision record of a sheet that was inserted.
 type: docs
-weight: 5460
 url: /net/aspose.cells.revisions/revisioninsertsheet/
 ---
 ## RevisionInsertSheet class
@@ -19,11 +18,11 @@ public class RevisionInsertSheet : Revision
 | Name | Description |
 | --- | --- |
 | [ActionType](../../aspose.cells.revisions/revisioninsertsheet/actiontype) { get; } | Gets the action type of the revision. |
-| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision.(Inherited from [`Revision`](../revision).) |
 | [Name](../../aspose.cells.revisions/revisioninsertsheet/name) { get; } | Gets the name of the worksheet. |
 | [SheetPosition](../../aspose.cells.revisions/revisioninsertsheet/sheetposition) { get; } | Gets the zero based position of the new sheet in the sheet tab bar. |
 | override [Type](../../aspose.cells.revisions/revisioninsertsheet/type) { get; } | Gets the type of revision. |
-| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision).) |
 
 ### See Also
 

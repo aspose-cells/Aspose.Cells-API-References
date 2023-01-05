@@ -3,7 +3,6 @@ title: IsMultiEncoded
 second_title: Aspose.Cells for .NET API Reference
 description: True means that the file contains several encoding.
 type: docs
-weight: 50
 url: /net/aspose.cells/txtloadoptions/ismultiencoded/
 ---
 ## TxtLoadOptions.IsMultiEncoded property

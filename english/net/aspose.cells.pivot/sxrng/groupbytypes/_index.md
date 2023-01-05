@@ -3,7 +3,6 @@ title: GroupByTypes
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the group type for the group range. rangeofvalue Seconds Minutes Hours Days Months Quarters Years
 type: docs
-weight: 30
 url: /net/aspose.cells.pivot/sxrng/groupbytypes/
 ---
 ## SxRng.GroupByTypes property

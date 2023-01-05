@@ -3,7 +3,6 @@ title: DeleteColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes several columns.
 type: docs
-weight: 340
 url: /net/aspose.cells.griddesktop.data/gridcells/deletecolumns/
 ---
 ## GridCells.DeleteColumns method

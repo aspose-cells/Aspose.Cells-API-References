@@ -3,7 +3,6 @@ title: CellEventArgs
 second_title: Aspose.Cells for .NET API Reference
 description: Provides data for cell events.
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb/celleventargs/
 ---
 ## CellEventArgs class

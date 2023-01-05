@@ -3,7 +3,6 @@ title: ExportColumnIndexOfCell
 second_title: Aspose.Cells for .NET API Reference
 description: The default value is false it means that column index will be ignored if the cell is contiguous to the previous cell.
 type: docs
-weight: 20
 url: /net/aspose.cells/spreadsheetml2003saveoptions/exportcolumnindexofcell/
 ---
 ## SpreadsheetML2003SaveOptions.ExportColumnIndexOfCell property

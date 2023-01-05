@@ -3,7 +3,6 @@ title: AddTextBoxInChart
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a textbox to the chart.
 type: docs
-weight: 320
 url: /net/aspose.cells.drawing/shapecollection/addtextboxinchart/
 ---
 ## ShapeCollection.AddTextBoxInChart method

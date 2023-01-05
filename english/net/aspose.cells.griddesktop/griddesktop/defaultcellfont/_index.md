@@ -3,7 +3,6 @@ title: DefaultCellFont
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the default font of the cell
 type: docs
-weight: 90
 url: /net/aspose.cells.griddesktop/griddesktop/defaultcellfont/
 ---
 ## GridDesktop.DefaultCellFont property

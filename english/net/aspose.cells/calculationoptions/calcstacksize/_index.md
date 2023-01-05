@@ -3,7 +3,6 @@ title: CalcStackSize
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the stack size for calculating cells recursively.
 type: docs
-weight: 20
 url: /net/aspose.cells/calculationoptions/calcstacksize/
 ---
 ## CalculationOptions.CalcStackSize property

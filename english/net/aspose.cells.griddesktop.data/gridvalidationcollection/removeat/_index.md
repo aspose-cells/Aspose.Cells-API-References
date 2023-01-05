@@ -3,7 +3,6 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Remove the validation at the specified index.
 type: docs
-weight: 50
 url: /net/aspose.cells.griddesktop.data/gridvalidationcollection/removeat/
 ---
 ## GridValidationCollection.RemoveAt method

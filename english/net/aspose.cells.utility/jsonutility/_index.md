@@ -3,7 +3,6 @@ title: JsonUtility
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the utility class of processing json.
 type: docs
-weight: 6220
 url: /net/aspose.cells.utility/jsonutility/
 ---
 ## JsonUtility class
@@ -24,7 +23,8 @@ public class JsonUtility
 
 | Name | Description |
 | --- | --- |
-| static [ExportRangeToJson](../../aspose.cells.utility/jsonutility/exportrangetojson)(Range, ExportRangeToJsonOptions) | Exporting the range to json file. |
+| static [ExportRangeToJson](../../aspose.cells.utility/jsonutility/exportrangetojson#exportrangetojson_1)(Range, ExportRangeToJsonOptions) | (**Obsolete.**) Exporting the range to json file. |
+| static [ExportRangeToJson](../../aspose.cells.utility/jsonutility/exportrangetojson#exportrangetojson)(Range, JsonSaveOptions) | Exporting the range to json file. |
 | static [ImportData](../../aspose.cells.utility/jsonutility/importdata)(string, Cells, int, int, JsonLayoutOptions) | Import the json string. |
 
 ### See Also

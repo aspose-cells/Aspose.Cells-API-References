@@ -3,7 +3,6 @@ title: Comment
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the comment of the name. Only applies for Excel 2007.
 type: docs
-weight: 10
 url: /net/aspose.cells/name/comment/
 ---
 ## Name.Comment property

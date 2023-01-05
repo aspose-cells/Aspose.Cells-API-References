@@ -3,7 +3,6 @@ title: Cell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the relative cell of the object.
 type: docs
-weight: 10
 url: /net/aspose.cells.gridweb.data/cellattachobject/cell/
 ---
 ## CellAttachObject.Cell property

@@ -3,7 +3,6 @@ title: IsFormattingCellsAllowed
 second_title: Aspose.Cells for .NET API Reference
 description: Represents if the formatting of cells is allowed on a protected worksheet.
 type: docs
-weight: 230
 url: /net/aspose.cells/protection/isformattingcellsallowed/
 ---
 ## Protection.IsFormattingCellsAllowed property

@@ -3,7 +3,6 @@ title: NoneBulletValue
 second_title: Aspose.Cells for .NET API Reference
 description: The default constructor.
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing.texts/nonebulletvalue/nonebulletvalue/
 ---
 ## NoneBulletValue constructor

@@ -3,7 +3,6 @@ title: XlsbSaveOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Creates xlsb file save options.
 type: docs
-weight: 10
 url: /net/aspose.cells/xlsbsaveoptions/xlsbsaveoptions/
 ---
 ## XlsbSaveOptions() {#constructor}
@@ -28,6 +27,7 @@ Creates xlsb file save options.
 
 ```csharp
 [Obsolete("Use XlsbSaveOptions() constructor instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public XlsbSaveOptions(SaveFormat saveFormat)
 ```
 

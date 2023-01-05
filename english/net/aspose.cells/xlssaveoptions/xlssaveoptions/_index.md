@@ -1,9 +1,8 @@
 ---
 title: XlsSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Creates options for saving Excel 97-2003 xls/xlt file.
+description: Creates options for saving Excel 972003 xls/xlt file.
 type: docs
-weight: 10
 url: /net/aspose.cells/xlssaveoptions/xlssaveoptions/
 ---
 ## XlsSaveOptions() {#constructor}

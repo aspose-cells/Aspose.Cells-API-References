@@ -3,7 +3,6 @@ title: SetCustomStyle
 second_title: Aspose.Cells for .NET API Reference
 description: sets the custom style file from stream including disk file stream or memory stream.
 type: docs
-weight: 1510
 url: /net/aspose.cells.gridweb/mainweb/setcustomstyle/
 ---
 ## MainWeb.SetCustomStyle method

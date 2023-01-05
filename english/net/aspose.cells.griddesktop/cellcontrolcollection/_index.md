@@ -3,7 +3,6 @@ title: CellControlCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of cell control.
 type: docs
-weight: 70
 url: /net/aspose.cells.griddesktop/cellcontrolcollection/
 ---
 ## CellControlCollection class
@@ -34,8 +33,8 @@ public class CellControlCollection : CellRelativeCollection
 | [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox)(int, int, ICollection) | Adds a combobox to a specified cell at row column index. |
 | [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_3)(string, ICollection, ICollection) | Adds a combobox to a specified cell by cell name. |
 | [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_1)(int, int, ICollection, ICollection) | Adds a combobox to a specified cell at row column index. |
-| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(string) | Removes the item by cell name. |
-| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(int, int) | Removes the item at the specified row column index of the cell. |
+| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(string) | Removes the item by cell name.(Inherited from [`CellRelativeCollection`](../cellrelativecollection).) |
+| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(int, int) | Removes the item at the specified row column index of the cell.(Inherited from [`CellRelativeCollection`](../cellrelativecollection).) |
 
 ### See Also
 

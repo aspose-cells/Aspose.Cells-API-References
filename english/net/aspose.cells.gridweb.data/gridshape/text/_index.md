@@ -3,7 +3,6 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the string in this TextBox object.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb.data/gridshape/text/
 ---
 ## GridShape.Text property

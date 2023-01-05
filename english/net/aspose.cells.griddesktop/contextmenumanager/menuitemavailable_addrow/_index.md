@@ -3,7 +3,6 @@ title: MenuItemAvailable_AddRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the context menu item AddRow is available.
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop/contextmenumanager/menuitemavailable_addrow/
 ---
 ## ContextMenuManager.MenuItemAvailable_AddRow property

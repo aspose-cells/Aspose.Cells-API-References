@@ -3,7 +3,6 @@ title: TableName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the table name.
 type: docs
-weight: 160
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/tablename/
 ---
 ## SqlScriptSaveOptions.TableName property

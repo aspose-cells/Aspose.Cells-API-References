@@ -3,7 +3,6 @@ title: Text
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the text of actual signature in the digital signature. Default value is Empty.
 type: docs
-weight: 90
 url: /net/aspose.cells.digitalsignatures/digitalsignature/text/
 ---
 ## DigitalSignature.Text property

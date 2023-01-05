@@ -3,7 +3,6 @@ title: DeleteOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the setting of deleting rows/columns.
 type: docs
-weight: 1380
 url: /net/aspose.cells/deleteoptions/
 ---
 ## DeleteOptions class

@@ -1,9 +1,8 @@
 ---
 title: TotalRows
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets total row count to import from data source. -1 means all rows of given data source.
+description: Gets or sets total row count to import from data source. 1 means all rows of given data source.
 type: docs
-weight: 150
 url: /net/aspose.cells/importtableoptions/totalrows/
 ---
 ## ImportTableOptions.TotalRows property

@@ -3,7 +3,6 @@ title: AlterReferences
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a list of alter references.
 type: docs
-weight: 10
 url: /net/aspose.cells.webextensions/webextension/alterreferences/
 ---
 ## WebExtension.AlterReferences property

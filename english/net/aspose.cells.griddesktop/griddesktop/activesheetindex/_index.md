@@ -3,7 +3,6 @@ title: ActiveSheetIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the selected sheet index.
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop/griddesktop/activesheetindex/
 ---
 ## GridDesktop.ActiveSheetIndex property

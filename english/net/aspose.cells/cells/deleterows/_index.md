@@ -3,7 +3,6 @@ title: DeleteRows
 second_title: Aspose.Cells for .NET API Reference
 description: Deletes several rows.
 type: docs
-weight: 560
 url: /net/aspose.cells/cells/deleterows/
 ---
 ## DeleteRows(int, int) {#deleterows}

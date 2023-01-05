@@ -3,7 +3,6 @@ title: ToOleColor
 second_title: Aspose.Cells for .NET API Reference
 description: Convert color to OLE_COLOR
 type: docs
-weight: 20
 url: /net/aspose.cells.drawing/colorhelper/toolecolor/
 ---
 ## ColorHelper.ToOleColor method

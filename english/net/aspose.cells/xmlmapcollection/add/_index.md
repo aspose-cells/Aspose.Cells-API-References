@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Add a XmlMapaspose.cells/xmlmap by the url/path of a xml/xsd file.
 type: docs
-weight: 20
 url: /net/aspose.cells/xmlmapcollection/add/
 ---
 ## XmlMapCollection.Add method
@@ -24,17 +23,17 @@ public int Add(string url)
 
 ### Examples
 
-The following code adds two [`XmlMap`](../../xmlmap) by a xsd file and a xml file.
+The following code adds two XmlMaps by a xsd file and a xml file.
 
 ```csharp
 Workbook wb = new Workbook();
 
 XmlMapCollection xmlMapCollection = wb.Worksheets.XmlMaps;
 
-//Add a  by a xsd file.
+//Add a XmlMap by a xsd file.
 xmlMapCollection.Add("schema.xsd");
 
-//Add a  by a xml file.
+//Add a XmlMap by a xml file.
 xmlMapCollection.Add("xml.xml");
 
 wb.Save("twoXmlMaps.xlsx");

@@ -3,7 +3,6 @@ title: SetSelectedIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the Selected index of the ComboBox. This will not calculate formula. To calculate formulaneed to call GridDesktop.RunAllFormulas manually. It will not auto calculate formulas in any case even GridDesktop.RecalculateFormulas is true.
 type: docs
-weight: 70
 url: /net/aspose.cells.griddesktop/combobox/setselectedindex/
 ---
 ## ComboBox.SetSelectedIndex method

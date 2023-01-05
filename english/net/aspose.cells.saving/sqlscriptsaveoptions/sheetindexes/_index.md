@@ -3,7 +3,6 @@ title: SheetIndexes
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the indexes of exported sheets.
 type: docs
-weight: 140
 url: /net/aspose.cells.saving/sqlscriptsaveoptions/sheetindexes/
 ---
 ## SqlScriptSaveOptions.SheetIndexes property

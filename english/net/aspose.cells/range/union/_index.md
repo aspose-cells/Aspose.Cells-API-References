@@ -3,7 +3,6 @@ title: Union
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the union of two ranges.
 type: docs
-weight: 390
 url: /net/aspose.cells/range/union/
 ---
 ## Range.Union method

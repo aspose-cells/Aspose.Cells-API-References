@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the name of the specified slicer
 type: docs
-weight: 130
 url: /net/aspose.cells.slicers/slicer/name/
 ---
 ## Slicer.Name property

@@ -3,7 +3,6 @@ title: GridWorkbookSettings
 second_title: Aspose.Cells for .NET API Reference
 description: Represents settings of the workbook.
 type: docs
-weight: 570
 url: /net/aspose.cells.gridweb.data/gridworkbooksettings/
 ---
 ## GridWorkbookSettings class
@@ -41,7 +40,7 @@ public class GridWorkbookSettings
 [C#]
 
  
-
+GridWeb gridweb = new GridWeb();
 GridWorkbookSettings gsettings = new GridWorkbookSettings();
 gridweb.Settings=gsettings;
 
@@ -51,7 +50,7 @@ gridweb.Settings=gsettings;
 
 
 Dim gsettings as GridWorkbookSettings = new GridWorkbookSettings()
- gridweb..Settings=gsettings;
+ gridweb.Settings=gsettings;
  
 'do your business
 ```

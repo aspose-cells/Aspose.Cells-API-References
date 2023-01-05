@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the path segment type
 type: docs
-weight: 20
 url: /net/aspose.cells.drawing/shapesegmentpath/type/
 ---
 ## ShapeSegmentPath.Type property

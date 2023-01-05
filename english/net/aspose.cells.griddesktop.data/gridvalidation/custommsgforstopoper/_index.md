@@ -3,7 +3,6 @@ title: CustomMsgForStopOper
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the custom message to show when users operation brings invalid value.
 type: docs
-weight: 50
 url: /net/aspose.cells.griddesktop.data/gridvalidation/custommsgforstopoper/
 ---
 ## GridValidation.CustomMsgForStopOper property

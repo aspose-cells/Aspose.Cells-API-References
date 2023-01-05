@@ -3,7 +3,6 @@ title: ShapeFormat
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 2670
 url: /net/aspose.cells.drawing/shapeformat/
 ---
 ## ShapeFormat class
@@ -19,10 +18,10 @@ public class ShapeFormat
 | Name | Description |
 | --- | --- |
 | [Fill](../../aspose.cells.drawing/shapeformat/fill) { get; } |  |
-| [FillFormat](../../aspose.cells.drawing/shapeformat/fillformat) { get; } |  |
+| [FillFormat](../../aspose.cells.drawing/shapeformat/fillformat) { get; } | (**Obsolete.**)  |
 | [GlowEffect](../../aspose.cells.drawing/shapeformat/gloweffect) { get; } |  |
 | [Line](../../aspose.cells.drawing/shapeformat/line) { get; } |  |
-| [Outline](../../aspose.cells.drawing/shapeformat/outline) { get; } |  |
+| [Outline](../../aspose.cells.drawing/shapeformat/outline) { get; } | (**Obsolete.**)  |
 | [ShadowEffect](../../aspose.cells.drawing/shapeformat/shadoweffect) { get; } |  |
 | [SoftEdgeRadius](../../aspose.cells.drawing/shapeformat/softedgeradius) { get; set; } |  |
 

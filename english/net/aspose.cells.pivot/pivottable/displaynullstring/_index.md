@@ -3,7 +3,6 @@ title: DisplayNullString
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the PivotTable report displays a custom string in cells that contain null values.
 type: docs
-weight: 160
 url: /net/aspose.cells.pivot/pivottable/displaynullstring/
 ---
 ## PivotTable.DisplayNullString property

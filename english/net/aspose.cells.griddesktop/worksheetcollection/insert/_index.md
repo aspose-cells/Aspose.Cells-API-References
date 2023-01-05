@@ -3,7 +3,6 @@ title: Insert
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 120
 url: /net/aspose.cells.griddesktop/worksheetcollection/insert/
 ---
 ## Insert(int, string) {#insert}

@@ -3,7 +3,6 @@ title: R1C1
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the control using R1C1 reference style.
 type: docs
-weight: 210
 url: /net/aspose.cells.griddesktop/griddesktop/r1c1/
 ---
 ## GridDesktop.R1C1 property

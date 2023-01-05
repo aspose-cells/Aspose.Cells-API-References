@@ -1,9 +1,8 @@
 ---
 title: Height
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the height of plot-area bounding box in units of 1/4000 of the chart area.
+description: Gets or sets the height of plotarea bounding box in units of 1/4000 of the chart area.
 type: docs
-weight: 10
 url: /net/aspose.cells.charts/plotarea/height/
 ---
 ## PlotArea.Height property

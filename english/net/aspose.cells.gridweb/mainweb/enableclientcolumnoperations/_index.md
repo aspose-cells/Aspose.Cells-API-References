@@ -3,7 +3,6 @@ title: EnableClientColumnOperations
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to enable the client side column operations.
 type: docs
-weight: 250
 url: /net/aspose.cells.gridweb/mainweb/enableclientcolumnoperations/
 ---
 ## MainWeb.EnableClientColumnOperations property

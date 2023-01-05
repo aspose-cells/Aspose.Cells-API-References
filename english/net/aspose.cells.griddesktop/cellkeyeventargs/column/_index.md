@@ -3,7 +3,6 @@ title: Column
 second_title: Aspose.Cells for .NET API Reference
 description: Gets column index of worksheet.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop/cellkeyeventargs/column/
 ---
 ## CellKeyEventArgs.Column property

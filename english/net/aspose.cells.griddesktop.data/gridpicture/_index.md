@@ -3,7 +3,6 @@ title: GridPicture
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents a single picture in a spreadsheet.
 type: docs
-weight: 570
 url: /net/aspose.cells.griddesktop.data/gridpicture/
 ---
 ## GridPicture class

@@ -3,7 +3,6 @@ title: RowInSelection
 second_title: Aspose.Cells for .NET API Reference
 description: Determines whether the specified row at index is in selected.
 type: docs
-weight: 980
 url: /net/aspose.cells.griddesktop/worksheet/rowinselection/
 ---
 ## Worksheet.RowInSelection method

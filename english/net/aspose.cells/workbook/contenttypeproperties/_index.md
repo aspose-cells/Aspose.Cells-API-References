@@ -3,7 +3,6 @@ title: ContentTypeProperties
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the list of ContentTypePropertyaspose.cells.properties/contenttypeproperty objects in the workbook.
 type: docs
-weight: 60
 url: /net/aspose.cells/workbook/contenttypeproperties/
 ---
 ## Workbook.ContentTypeProperties property

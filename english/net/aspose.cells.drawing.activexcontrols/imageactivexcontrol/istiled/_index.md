@@ -3,7 +3,6 @@ title: IsTiled
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the picture is tiled across the background.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/istiled/
 ---
 ## ImageActiveXControl.IsTiled property

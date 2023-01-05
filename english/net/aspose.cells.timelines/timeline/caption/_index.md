@@ -3,7 +3,6 @@ title: Caption
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the caption of the specified Timeline.
 type: docs
-weight: 10
 url: /net/aspose.cells.timelines/timeline/caption/
 ---
 ## Timeline.Caption property

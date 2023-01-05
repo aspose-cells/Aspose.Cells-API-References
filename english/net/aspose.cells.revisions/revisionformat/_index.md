@@ -3,7 +3,6 @@ title: RevisionFormat
 second_title: Aspose.Cells for .NET API Reference
 description: represents a revision record of information about a formatting change.
 type: docs
-weight: 5440
 url: /net/aspose.cells.revisions/revisionformat/
 ---
 ## RevisionFormat class
@@ -19,10 +18,10 @@ public class RevisionFormat : Revision
 | Name | Description |
 | --- | --- |
 | [Areas](../../aspose.cells.revisions/revisionformat/areas) { get; } | The range to which this formatting was applied. |
-| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision. |
+| [Id](../../aspose.cells.revisions/revision/id) { get; } | Gets the number of this revision.(Inherited from [`Revision`](../revision).) |
 | [Style](../../aspose.cells.revisions/revisionformat/style) { get; } | Gets the applied style. |
 | override [Type](../../aspose.cells.revisions/revisionformat/type) { get; } | Gets the type of revision. |
-| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet. |
+| [Worksheet](../../aspose.cells.revisions/revision/worksheet) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision).) |
 
 ### See Also
 

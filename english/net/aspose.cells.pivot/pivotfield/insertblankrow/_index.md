@@ -3,7 +3,6 @@ title: InsertBlankRow
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether inserting blank line after each item.
 type: docs
-weight: 170
 url: /net/aspose.cells.pivot/pivotfield/insertblankrow/
 ---
 ## PivotField.InsertBlankRow property

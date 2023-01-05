@@ -3,7 +3,6 @@ title: LoadDataFilterOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the options to filter data when loading workbook from template.
 type: docs
-weight: 4000
 url: /net/aspose.cells/loaddatafilteroptions/
 ---
 ## LoadDataFilterOptions enumeration

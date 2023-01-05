@@ -3,7 +3,6 @@ title: PivotSource
 second_title: Aspose.Cells for .NET API Reference
 description: The source is the data of the pivotTable. If PivotSource is not empty the chart is PivotChart.
 type: docs
-weight: 260
 url: /net/aspose.cells.charts/chart/pivotsource/
 ---
 ## Chart.PivotSource property

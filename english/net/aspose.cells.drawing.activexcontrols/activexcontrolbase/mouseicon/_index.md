@@ -3,7 +3,6 @@ title: MouseIcon
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets a custom icon to display as the mouse pointer for the control.
 type: docs
-weight: 80
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon/
 ---
 ## ActiveXControlBase.MouseIcon property

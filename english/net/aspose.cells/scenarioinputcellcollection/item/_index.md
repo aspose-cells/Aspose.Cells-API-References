@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets ScenarioInputCellaspose.cells/scenarioinputcell by index in the list.
 type: docs
-weight: 10
 url: /net/aspose.cells/scenarioinputcellcollection/item/
 ---
 ## ScenarioInputCellCollection indexer

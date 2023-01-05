@@ -3,7 +3,6 @@ title: FooterMarginInch
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the distance from the bottom of the page to the footer in unit of inches.
 type: docs
-weight: 100
 url: /net/aspose.cells/pagesetup/footermargininch/
 ---
 ## PageSetup.FooterMarginInch property

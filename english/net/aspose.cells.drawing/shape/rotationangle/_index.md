@@ -3,7 +3,6 @@ title: RotationAngle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the rotation of the shape.
 type: docs
-weight: 630
 url: /net/aspose.cells.drawing/shape/rotationangle/
 ---
 ## Shape.RotationAngle property

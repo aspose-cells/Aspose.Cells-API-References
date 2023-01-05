@@ -3,7 +3,6 @@ title: ClearShadowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 100
 url: /net/aspose.cells.drawing/shapeformat/clearshadoweffect/
 ---
 ## ShapeFormat.ClearShadowEffect method

@@ -3,7 +3,6 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the count of paths
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing/shapepathcollection/count/
 ---
 ## ShapePathCollection.Count property

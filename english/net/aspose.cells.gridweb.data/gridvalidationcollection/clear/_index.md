@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clears all validations.
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb.data/gridvalidationcollection/clear/
 ---
 ## GridValidationCollection.Clear method

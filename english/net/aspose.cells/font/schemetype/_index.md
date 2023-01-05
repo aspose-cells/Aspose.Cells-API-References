@@ -3,7 +3,6 @@ title: SchemeType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the scheme type of the font.
 type: docs
-weight: 130
 url: /net/aspose.cells/font/schemetype/
 ---
 ## Font.SchemeType property

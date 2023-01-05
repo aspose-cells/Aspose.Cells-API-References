@@ -3,7 +3,6 @@ title: Words
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an estimate of the number of words in the document.
 type: docs
-weight: 350
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/words/
 ---
 ## BuiltInDocumentPropertyCollection.Words property

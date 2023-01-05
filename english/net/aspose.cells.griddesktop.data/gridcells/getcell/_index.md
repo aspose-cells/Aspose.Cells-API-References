@@ -3,7 +3,6 @@ title: GetCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Cell element or null at the specified cell row index and column index.
 type: docs
-weight: 370
 url: /net/aspose.cells.griddesktop.data/gridcells/getcell/
 ---
 ## GridCells.GetCell method

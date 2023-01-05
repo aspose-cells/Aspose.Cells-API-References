@@ -3,7 +3,6 @@ title: CellControlEventHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the method that intend to handle cell control events.
 type: docs
-weight: 90
 url: /net/aspose.cells.griddesktop/cellcontroleventhandler/
 ---
 ## CellControlEventHandler delegate

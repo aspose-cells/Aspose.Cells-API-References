@@ -3,7 +3,6 @@ title: HeightCM
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the height of the shape in unit of inches.
 type: docs
-weight: 100
 url: /net/aspose.cells.griddesktop.data/gridpicture/heightcm/
 ---
 ## GridPicture.HeightCM property

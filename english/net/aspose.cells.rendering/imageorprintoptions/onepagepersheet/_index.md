@@ -3,7 +3,6 @@ title: OnePagePerSheet
 second_title: Aspose.Cells for .NET API Reference
 description: If OnePagePerSheet is true  all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid and the other settings of pagesetup will still take effect.
 type: docs
-weight: 180
 url: /net/aspose.cells.rendering/imageorprintoptions/onepagepersheet/
 ---
 ## ImageOrPrintOptions.OnePagePerSheet property

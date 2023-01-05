@@ -3,7 +3,6 @@ title: Visibledropdown
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the AutoFilter button for this column is visible.
 type: docs
-weight: 50
 url: /net/aspose.cells/filtercolumn/visibledropdown/
 ---
 ## FilterColumn.Visibledropdown property

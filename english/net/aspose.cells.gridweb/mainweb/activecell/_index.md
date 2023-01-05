@@ -3,7 +3,6 @@ title: ActiveCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the active cell of the current sheet. Changed to be writable since version 1.9.0.1.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb/mainweb/activecell/
 ---
 ## MainWeb.ActiveCell property

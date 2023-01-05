@@ -3,7 +3,6 @@ title: Formula1
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the value or expression associated with conditional formatting.
 type: docs
-weight: 40
 url: /net/aspose.cells/formatcondition/formula1/
 ---
 ## FormatCondition.Formula1 property

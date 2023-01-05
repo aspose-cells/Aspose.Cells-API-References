@@ -3,7 +3,6 @@ title: WeightPx
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the weight of the line in unit of pixels.
 type: docs
-weight: 220
 url: /net/aspose.cells.drawing/line/weightpx/
 ---
 ## Line.WeightPx property

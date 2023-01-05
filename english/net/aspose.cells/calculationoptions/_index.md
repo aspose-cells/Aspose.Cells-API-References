@@ -3,7 +3,6 @@ title: CalculationOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents options for calculation.
 type: docs
-weight: 210
 url: /net/aspose.cells/calculationoptions/
 ---
 ## CalculationOptions class
@@ -27,7 +26,7 @@ public class CalculationOptions
 | [CalcStackSize](../../aspose.cells/calculationoptions/calcstacksize) { get; set; } | Specifies the stack size for calculating cells recursively. |
 | [CalculationMonitor](../../aspose.cells/calculationoptions/calculationmonitor) { get; set; } | The monitor for user to track the progress of formula calculation. |
 | [CustomEngine](../../aspose.cells/calculationoptions/customengine) { get; set; } | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
-| [CustomFunction](../../aspose.cells/calculationoptions/customfunction) { get; set; } | The custom formula calculation functions to extend the calculation engine. |
+| [CustomFunction](../../aspose.cells/calculationoptions/customfunction) { get; set; } | (**Obsolete.**) The custom formula calculation functions to extend the calculation engine. |
 | [IgnoreError](../../aspose.cells/calculationoptions/ignoreerror) { get; set; } | Indicates if you need to hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
 | [PrecisionStrategy](../../aspose.cells/calculationoptions/precisionstrategy) { get; set; } | Specifies the strategy for processing precision of calculation. |
 | [Recursive](../../aspose.cells/calculationoptions/recursive) { get; set; } | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |

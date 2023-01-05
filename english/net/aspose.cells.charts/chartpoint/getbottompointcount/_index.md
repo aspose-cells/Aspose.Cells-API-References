@@ -3,7 +3,6 @@ title: GetBottomPointCount
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the number of bottom points after calls Chart.Calculate method.
 type: docs
-weight: 340
 url: /net/aspose.cells.charts/chartpoint/getbottompointcount/
 ---
 ## ChartPoint.GetBottomPointCount method

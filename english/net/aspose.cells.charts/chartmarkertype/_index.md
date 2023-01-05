@@ -3,7 +3,6 @@ title: ChartMarkerType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the marker style in a line chart scatter chart or radar chart.
 type: docs
-weight: 500
 url: /net/aspose.cells.charts/chartmarkertype/
 ---
 ## ChartMarkerType enumeration

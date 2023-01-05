@@ -3,7 +3,6 @@ title: SetFirstPageHeader
 second_title: Aspose.Cells for .NET API Reference
 description: Sets a script formatting the first page header of an Excel file. Only effect in Excel 2007 when IsHFDiffFirst is true.
 type: docs
-weight: 580
 url: /net/aspose.cells/pagesetup/setfirstpageheader/
 ---
 ## PageSetup.SetFirstPageHeader method
@@ -16,7 +15,7 @@ public void SetFirstPageHeader(int section, string headerScript)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section. |
+| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 | headerScript | String | Header format script. |
 
 ### See Also

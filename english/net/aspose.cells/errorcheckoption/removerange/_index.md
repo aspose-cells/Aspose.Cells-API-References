@@ -3,7 +3,6 @@ title: RemoveRange
 second_title: Aspose.Cells for .NET API Reference
 description: Removes one range by given index.
 type: docs
-weight: 50
 url: /net/aspose.cells/errorcheckoption/removerange/
 ---
 ## ErrorCheckOption.RemoveRange method

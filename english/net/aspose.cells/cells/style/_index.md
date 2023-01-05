@@ -3,7 +3,6 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the default style.
 type: docs
-weight: 310
 url: /net/aspose.cells/cells/style/
 ---
 ## Cells.Style property

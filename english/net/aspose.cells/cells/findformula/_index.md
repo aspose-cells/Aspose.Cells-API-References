@@ -3,7 +3,6 @@ title: FindFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Finds the cell with the input string.
 type: docs
-weight: 650
 url: /net/aspose.cells/cells/findformula/
 ---
 ## Cells.FindFormula method

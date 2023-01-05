@@ -3,7 +3,6 @@ title: FirstVisibleTab
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the first visible worksheet tab.
 type: docs
-weight: 190
 url: /net/aspose.cells/workbooksettings/firstvisibletab/
 ---
 ## WorkbookSettings.FirstVisibleTab property

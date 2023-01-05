@@ -3,7 +3,6 @@ title: CellValidationEventHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the method that intend to handle cell validation events.
 type: docs
-weight: 250
 url: /net/aspose.cells.griddesktop/cellvalidationeventhandler/
 ---
 ## CellValidationEventHandler delegate

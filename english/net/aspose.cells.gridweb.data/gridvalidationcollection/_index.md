@@ -3,7 +3,6 @@ title: GridValidationCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a collection of GridValidation./gridvalidation objects.
 type: docs
-weight: 530
 url: /net/aspose.cells.gridweb.data/gridvalidationcollection/
 ---
 ## GridValidationCollection class
@@ -19,13 +18,13 @@ public class GridValidationCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridvalidationcollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridvalidationcollection/item) { get; } | Gets the [`Hyperlink`](../hyperlink) element at the specified index. |
+| [Item](../../aspose.cells.gridweb.data/gridvalidationcollection/item) { get; } | Gets the [`GridValidation`](../gridvalidation) element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add)() | Add a [`GridValidation`](../gridvalidation) to the collection. |
+| [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add)() | (**Obsolete.**) Add a [`GridValidation`](../gridvalidation) to the collection. |
 | [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add_1)(GridCellArea) | Adds a data validation to the collection. |
 | [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add_4)(GridValidation) | Add a [`GridValidation`](../gridvalidation) to the collection. |
 | [Add](../../aspose.cells.gridweb.data/gridvalidationcollection/add#add_3)(string) | Add a [`GridValidation`](../gridvalidation) to the collection.the validation is applied to the specificed cell. |

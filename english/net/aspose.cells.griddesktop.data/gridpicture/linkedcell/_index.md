@@ -3,7 +3,6 @@ title: LinkedCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the worksheet range linked to the controls value.
 type: docs
-weight: 290
 url: /net/aspose.cells.griddesktop.data/gridpicture/linkedcell/
 ---
 ## GridPicture.LinkedCell property

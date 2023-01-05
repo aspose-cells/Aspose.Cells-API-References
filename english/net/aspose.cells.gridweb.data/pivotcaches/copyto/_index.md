@@ -1,9 +1,8 @@
 ---
 title: CopyTo
 second_title: Aspose.Cells for .NET API Reference
-description: Copies the entire PivotCache to a compatible one-dimensional Array starting at the specified index of the target array
+description: Copies the entire PivotCache to a compatible onedimensional Array starting at the specified index of the target array
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb.data/pivotcaches/copyto/
 ---
 ## PivotCaches.CopyTo method

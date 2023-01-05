@@ -3,7 +3,6 @@ title: AddAutoShape
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a AutoShape to the worksheet.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/shapecollection/addautoshape/
 ---
 ## ShapeCollection.AddAutoShape method

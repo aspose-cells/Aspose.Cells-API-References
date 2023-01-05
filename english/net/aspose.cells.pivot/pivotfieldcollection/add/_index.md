@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a PivotField Object to the specific type PivotFields.
 type: docs
-weight: 40
 url: /net/aspose.cells.pivot/pivotfieldcollection/add/
 ---
 ## PivotFieldCollection.Add method

@@ -3,7 +3,6 @@ title: BackgroundRefresh
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the connection can be refreshed in the background asynchronously. true if preferred usage of the connection is to refresh asynchronously in the background false if preferred usage of the connection is to refresh synchronously in the foreground.
 type: docs
-weight: 10
 url: /net/aspose.cells.externalconnections/externalconnection/backgroundrefresh/
 ---
 ## ExternalConnection.BackgroundRefresh property

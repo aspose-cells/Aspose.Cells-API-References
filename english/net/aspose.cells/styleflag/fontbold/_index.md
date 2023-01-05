@@ -3,7 +3,6 @@ title: FontBold
 second_title: Aspose.Cells for .NET API Reference
 description: Font bold setting will be applied.
 type: docs
-weight: 100
 url: /net/aspose.cells/styleflag/fontbold/
 ---
 ## StyleFlag.FontBold property

@@ -3,7 +3,6 @@ title: Position
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the legend position type.
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/legend/position/
 ---
 ## Legend.Position property

@@ -3,7 +3,6 @@ title: CellName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of the cell.
 type: docs
-weight: 10
 url: /net/aspose.cells.revisions/revisioncellchange/cellname/
 ---
 ## RevisionCellChange.CellName property

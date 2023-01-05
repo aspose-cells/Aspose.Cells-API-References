@@ -3,7 +3,6 @@ title: Height
 second_title: Aspose.Cells for .NET API Reference
 description: Get or set the height of the comment. Default value is 120. The input value should between 20 and 1000. It will be set to 20 if a value less than 20 is inputted. It will be set to 1000 if a value greater than 1000 is inputed.
 type: docs
-weight: 40
 url: /net/aspose.cells.griddesktop.data/gridcomment/height/
 ---
 ## GridComment.Height property

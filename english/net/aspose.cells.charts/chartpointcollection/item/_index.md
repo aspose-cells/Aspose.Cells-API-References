@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the ChartPointaspose.cells.charts/chartpoint element at the specified index in the series.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/chartpointcollection/item/
 ---
 ## ChartPointCollection indexer

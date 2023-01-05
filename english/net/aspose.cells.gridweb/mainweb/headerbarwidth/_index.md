@@ -3,7 +3,6 @@ title: HeaderBarWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the width System.Web.UI.WebControl.Unit  or the left header bar of the control.
 type: docs
-weight: 410
 url: /net/aspose.cells.gridweb/mainweb/headerbarwidth/
 ---
 ## MainWeb.HeaderBarWidth property

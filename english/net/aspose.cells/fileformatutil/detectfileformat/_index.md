@@ -3,7 +3,6 @@ title: DetectFileFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Detects and returns the information about a format of an excel stored in a stream.
 type: docs
-weight: 10
 url: /net/aspose.cells/fileformatutil/detectfileformat/
 ---
 ## DetectFileFormat(Stream) {#detectfileformat}

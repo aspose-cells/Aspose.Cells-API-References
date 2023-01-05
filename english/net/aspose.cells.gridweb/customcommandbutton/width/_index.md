@@ -3,7 +3,6 @@ title: Width
 second_title: Aspose.Cells for .NET API Reference
 description: Width of the button.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb/customcommandbutton/width/
 ---
 ## CustomCommandButton.Width property

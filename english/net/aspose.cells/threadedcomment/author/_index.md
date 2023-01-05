@@ -3,7 +3,6 @@ title: Author
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the author of the comment.
 type: docs
-weight: 10
 url: /net/aspose.cells/threadedcomment/author/
 ---
 ## ThreadedComment.Author property

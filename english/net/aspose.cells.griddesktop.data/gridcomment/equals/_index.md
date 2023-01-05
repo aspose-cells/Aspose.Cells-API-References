@@ -3,7 +3,6 @@ title: Equals
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 160
 url: /net/aspose.cells.griddesktop.data/gridcomment/equals/
 ---
 ## GridComment.Equals method

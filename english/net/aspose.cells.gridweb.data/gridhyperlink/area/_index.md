@@ -3,7 +3,6 @@ title: Area
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the range of hyperlink.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/gridhyperlink/area/
 ---
 ## GridHyperlink.Area property

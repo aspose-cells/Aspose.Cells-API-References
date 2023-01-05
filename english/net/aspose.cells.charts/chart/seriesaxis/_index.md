@@ -3,7 +3,6 @@ title: SeriesAxis
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the charts series axis.
 type: docs
-weight: 370
 url: /net/aspose.cells.charts/chart/seriesaxis/
 ---
 ## Chart.SeriesAxis property

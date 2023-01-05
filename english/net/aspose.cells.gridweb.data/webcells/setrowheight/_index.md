@@ -3,7 +3,6 @@ title: SetRowHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the height of the specified row.the accepted width type is PointPixel or Inch
 type: docs
-weight: 350
 url: /net/aspose.cells.gridweb.data/webcells/setrowheight/
 ---
 ## WebCells.SetRowHeight method

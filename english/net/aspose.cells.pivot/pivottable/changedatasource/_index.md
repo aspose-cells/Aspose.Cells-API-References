@@ -3,7 +3,6 @@ title: ChangeDataSource
 second_title: Aspose.Cells for .NET API Reference
 description: Set pivottables source data. Sheet1A1C3
 type: docs
-weight: 780
 url: /net/aspose.cells.pivot/pivottable/changedatasource/
 ---
 ## PivotTable.ChangeDataSource method

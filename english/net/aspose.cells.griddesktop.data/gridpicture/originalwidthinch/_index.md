@@ -3,7 +3,6 @@ title: OriginalWidthInch
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the original width of picture in unit of inches.
 type: docs
-weight: 400
 url: /net/aspose.cells.griddesktop.data/gridpicture/originalwidthinch/
 ---
 ## GridPicture.OriginalWidthInch property

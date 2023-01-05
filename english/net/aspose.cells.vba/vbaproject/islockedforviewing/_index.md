@@ -3,7 +3,6 @@ title: IslockedForViewing
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this VBA project is locked for viewing.
 type: docs
-weight: 20
 url: /net/aspose.cells.vba/vbaproject/islockedforviewing/
 ---
 ## VbaProject.IslockedForViewing property

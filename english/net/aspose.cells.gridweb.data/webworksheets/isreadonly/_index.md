@@ -1,9 +1,8 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Cells for .NET API Reference
-description: Gets a value indicating whether the IList is read-only.
+description: Gets a value indicating whether the IList is readonly.
 type: docs
-weight: 80
 url: /net/aspose.cells.gridweb.data/webworksheets/isreadonly/
 ---
 ## WebWorksheets.IsReadOnly property

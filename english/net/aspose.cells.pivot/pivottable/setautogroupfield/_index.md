@@ -3,7 +3,6 @@ title: SetAutoGroupField
 second_title: Aspose.Cells for .NET API Reference
 description: Sets auto field group by the PivotTable.
 type: docs
-weight: 930
 url: /net/aspose.cells.pivot/pivottable/setautogroupfield/
 ---
 ## SetAutoGroupField(int) {#setautogroupfield_1}

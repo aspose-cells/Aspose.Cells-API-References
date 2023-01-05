@@ -3,7 +3,6 @@ title: PersistenceType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the persistence method to persist an ActiveX control.
 type: docs
-weight: 20
 url: /net/aspose.cells.drawing.activexcontrols/unknowncontrol/persistencetype/
 ---
 ## UnknownControl.PersistenceType property

@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all charts.
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/chartcollection/clear/
 ---
 ## ChartCollection.Clear method

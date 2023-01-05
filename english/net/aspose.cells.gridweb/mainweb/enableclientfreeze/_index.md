@@ -3,7 +3,6 @@ title: EnableClientFreeze
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to enable the client side freezing operations.
 type: docs
-weight: 260
 url: /net/aspose.cells.gridweb/mainweb/enableclientfreeze/
 ---
 ## MainWeb.EnableClientFreeze property

@@ -3,7 +3,6 @@ title: SheetsInLoadingOrder
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the sheetsindices and order to be loaded. Default is null that denotes to load all sheets in the default order in template file. If not null and some sheets index is not in the returned array then the sheet will not be loaded.
 type: docs
-weight: 30
 url: /net/aspose.cells/loadfilter/sheetsinloadingorder/
 ---
 ## LoadFilter.SheetsInLoadingOrder property

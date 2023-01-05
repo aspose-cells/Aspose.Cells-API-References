@@ -3,7 +3,6 @@ title: Filter
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all defined name by scope.
 type: docs
-weight: 40
 url: /net/aspose.cells/namecollection/filter/
 ---
 ## NameCollection.Filter method

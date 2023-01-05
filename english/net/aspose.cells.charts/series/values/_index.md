@@ -3,7 +3,6 @@ title: Values
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the data of the chart series.
 type: docs
-weight: 470
 url: /net/aspose.cells.charts/series/values/
 ---
 ## Series.Values property

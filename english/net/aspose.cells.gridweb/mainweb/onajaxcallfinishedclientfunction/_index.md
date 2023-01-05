@@ -3,7 +3,6 @@ title: OnAjaxCallFinishedClientFunction
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the client side function name to be called when ajaxcall finished. The client function should be declared like this function GridAjaxcallFinished  alertthis.id ajaxcall finished  Note You may use the this pointer in the client function to point the grid control which fires the event.
 type: docs
-weight: 560
 url: /net/aspose.cells.gridweb/mainweb/onajaxcallfinishedclientfunction/
 ---
 ## MainWeb.OnAjaxCallFinishedClientFunction property

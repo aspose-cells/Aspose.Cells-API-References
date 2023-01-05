@@ -3,7 +3,6 @@ title: StyleModifyFlag
 second_title: Aspose.Cells for .NET API Reference
 description: The style modified flags.
 type: docs
-weight: 5800
 url: /net/aspose.cells/stylemodifyflag/
 ---
 ## StyleModifyFlag enumeration

@@ -3,7 +3,6 @@ title: TotalPages
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates total pages in current rendering.
 type: docs
-weight: 60
 url: /net/aspose.cells.rendering/drawobject/totalpages/
 ---
 ## DrawObject.TotalPages property

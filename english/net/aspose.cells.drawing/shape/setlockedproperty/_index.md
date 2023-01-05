@@ -3,7 +3,6 @@ title: SetLockedProperty
 second_title: Aspose.Cells for .NET API Reference
 description: Set the locked property.
 type: docs
-weight: 1190
 url: /net/aspose.cells.drawing/shape/setlockedproperty/
 ---
 ## Shape.SetLockedProperty method

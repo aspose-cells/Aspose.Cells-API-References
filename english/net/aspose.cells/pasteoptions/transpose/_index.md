@@ -3,7 +3,6 @@ title: Transpose
 second_title: Aspose.Cells for .NET API Reference
 description: True to transpose rows and columns when the range is pasted. The default value is False.
 type: docs
-weight: 60
 url: /net/aspose.cells/pasteoptions/transpose/
 ---
 ## PasteOptions.Transpose property

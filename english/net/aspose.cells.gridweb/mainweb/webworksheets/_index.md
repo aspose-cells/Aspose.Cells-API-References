@@ -3,7 +3,6 @@ title: WebWorksheets
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 1070
 url: /net/aspose.cells.gridweb/mainweb/webworksheets/
 ---
 ## MainWeb.WebWorksheets property

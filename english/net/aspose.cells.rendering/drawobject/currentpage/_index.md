@@ -3,7 +3,6 @@ title: CurrentPage
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the page index of DrawObject. Page index is based on zero. One Sheet contains several pages when rendering.
 type: docs
-weight: 20
 url: /net/aspose.cells.rendering/drawobject/currentpage/
 ---
 ## DrawObject.CurrentPage property

@@ -3,7 +3,6 @@ title: CopyTo
 second_title: Aspose.Cells for .NET API Reference
 description: Copys contents to an array.
 type: docs
-weight: 180
 url: /net/aspose.cells.gridweb.data/webworksheets/copyto/
 ---
 ## WebWorksheets.CopyTo method

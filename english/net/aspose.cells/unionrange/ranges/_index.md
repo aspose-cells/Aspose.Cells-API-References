@@ -3,7 +3,6 @@ title: Ranges
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all union ranges.
 type: docs
-weight: 90
 url: /net/aspose.cells/unionrange/ranges/
 ---
 ## UnionRange.Ranges property

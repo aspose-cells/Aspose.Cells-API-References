@@ -3,7 +3,6 @@ title: LayoutProperties
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the properties of layout.
 type: docs
-weight: 270
 url: /net/aspose.cells.charts/series/layoutproperties/
 ---
 ## Series.LayoutProperties property

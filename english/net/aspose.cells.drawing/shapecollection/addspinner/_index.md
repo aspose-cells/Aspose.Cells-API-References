@@ -3,7 +3,6 @@ title: AddSpinner
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a Spinner to the worksheet.
 type: docs
-weight: 290
 url: /net/aspose.cells.drawing/shapecollection/addspinner/
 ---
 ## ShapeCollection.AddSpinner method

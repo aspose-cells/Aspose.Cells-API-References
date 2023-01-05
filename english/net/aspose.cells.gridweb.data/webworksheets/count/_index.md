@@ -3,7 +3,6 @@ title: Count
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb.data/webworksheets/count/
 ---
 ## WebWorksheets.Count property

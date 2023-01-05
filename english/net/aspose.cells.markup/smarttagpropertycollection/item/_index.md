@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a SmartTagPropertyaspose.cells.markup/smarttagproperty object.
 type: docs
-weight: 20
 url: /net/aspose.cells.markup/smarttagpropertycollection/item/
 ---
 ## SmartTagPropertyCollection indexer (1 of 2)

@@ -3,7 +3,6 @@ title: SetLink
 second_title: Aspose.Cells for .NET API Reference
 description: Change the name and the namespace URI of the smart tag.
 type: docs
-weight: 50
 url: /net/aspose.cells.markup/smarttag/setlink/
 ---
 ## SmartTag.SetLink method

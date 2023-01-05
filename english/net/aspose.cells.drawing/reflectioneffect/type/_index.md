@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the preset reflection effect.
 type: docs
-weight: 80
 url: /net/aspose.cells.drawing/reflectioneffect/type/
 ---
 ## ReflectionEffect.Type property

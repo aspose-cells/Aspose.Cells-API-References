@@ -3,7 +3,6 @@ title: StringValue
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 60
 url: /net/aspose.cells.gridweb.data/webcell/stringvalue/
 ---
 ## WebCell.StringValue property

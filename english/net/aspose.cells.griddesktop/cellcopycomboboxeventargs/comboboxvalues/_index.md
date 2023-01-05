@@ -3,7 +3,6 @@ title: comboBoxValues
 second_title: Aspose.Cells for .NET API Reference
 description: Gets an object representing the collection of the values contained in this ComboBox.
 type: docs
-weight: 30
 url: /net/aspose.cells.griddesktop/cellcopycomboboxeventargs/comboboxvalues/
 ---
 ## CellCopyComboBoxEventArgs.comboBoxValues property

@@ -1,14 +1,13 @@
 ---
 title: Timeline
 second_title: Aspose.Cells for .NET API Reference
-description: summary description of Timeline View
+description: Summary description of Timeline View Due to MS Excel Excel 2003 does not support Timeline
 type: docs
-weight: 6100
 url: /net/aspose.cells.timelines/timeline/
 ---
 ## Timeline class
 
-summary description of Timeline View
+Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline
 
 ```csharp
 public class Timeline
@@ -78,11 +77,10 @@ sheet.Timelines.Add(pivot, 10, 5, "date");
 //Get Timeline object
 Timeline timelineObj = sheet.Timelines[0];
 
-
+//do your business
 
 book.Save("out.xlsx");
 
-//do your business
 ```
 
 ### See Also

@@ -3,7 +3,6 @@ title: EnableDataValueEditing
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
 type: docs
-weight: 170
 url: /net/aspose.cells.pivot/pivottable/enabledatavalueediting/
 ---
 ## PivotTable.EnableDataValueEditing property

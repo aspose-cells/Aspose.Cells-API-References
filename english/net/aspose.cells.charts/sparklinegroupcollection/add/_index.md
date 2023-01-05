@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds an SparklineGroupaspose.cells.charts/sparklinegroup item to the collection.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/sparklinegroupcollection/add/
 ---
 ## SparklineGroupCollection.Add method

@@ -3,7 +3,6 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the value contained in this cell.
 type: docs
-weight: 320
 url: /net/aspose.cells/cell/value/
 ---
 ## Cell.Value property

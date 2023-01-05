@@ -3,7 +3,6 @@ title: GetActualSize
 second_title: Aspose.Cells for .NET API Reference
 description: Gets actual size of chart in unit of pixels.
 type: docs
-weight: 520
 url: /net/aspose.cells.charts/chart/getactualsize/
 ---
 ## Chart.GetActualSize method

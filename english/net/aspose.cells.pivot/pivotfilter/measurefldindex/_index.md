@@ -3,7 +3,6 @@ title: MeasureFldIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the measure field index of the pivot filter.
 type: docs
-weight: 50
 url: /net/aspose.cells.pivot/pivotfilter/measurefldindex/
 ---
 ## PivotFilter.MeasureFldIndex property

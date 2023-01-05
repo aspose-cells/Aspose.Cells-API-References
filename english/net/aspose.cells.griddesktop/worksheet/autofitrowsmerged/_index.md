@@ -3,7 +3,6 @@ title: AutoFitRowsMerged
 second_title: Aspose.Cells for .NET API Reference
 description: Autofits all rows in this worksheet.It will also auto fit row height when the cells is merged in a row.
 type: docs
-weight: 520
 url: /net/aspose.cells.griddesktop/worksheet/autofitrowsmerged/
 ---
 ## Worksheet.AutoFitRowsMerged method

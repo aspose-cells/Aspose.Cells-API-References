@@ -3,7 +3,6 @@ title: SetFooter
 second_title: Aspose.Cells for .NET API Reference
 description: Sets a script formatting the footer of an Excel file.
 type: docs
-weight: 600
 url: /net/aspose.cells/pagesetup/setfooter/
 ---
 ## PageSetup.SetFooter method
@@ -16,14 +15,28 @@ public void SetFooter(int section, string footerScript)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | Int32 | 0:Left Section. |
+| section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 | footerScript | String | Footer format script. |
 
 ### Remarks
 
 Script commands:
 
-**Command** **Description** &amp;PCurrent page number &amp;NPage count &amp;DCurrent date &amp;TCurrent time&amp;ASheet name&amp;FFile name without path&amp;"&lt;FontName&gt;"Font name, for example: &amp;"Arial"&amp;"&lt;FontName&gt;, &lt;FontStyle&gt;"Font name and font style, for example: &amp;"Arial,Bold"&amp;&lt;FontSize&gt;Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character.&amp;GImage script For example: "&amp;Arial,Bold&amp;8Footer Note"
+| **Command** | **Description** |
+| --- | --- |
+| &amp;P | Current page number |
+| &amp;N | Page count |
+| &amp;D | Current date |
+| &amp;T | Current time |
+| &amp;A | Sheet name |
+| &amp;F | File name without path |
+| &amp;"&lt;FontName&gt;" | Font name, for example: &amp;"Arial" |
+| &amp;"&lt;FontName&gt;, &lt;FontStyle&gt;" | Font name and font style, for example: &amp;"Arial,Bold" |
+| &amp;&lt;FontSize&gt; | Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. |
+| &amp;K&lt;RRGGBB&gt; | Font color, for example(RED): &amp;KFF0000 |
+| &amp;G | Image script |
+
+For example: "&amp;Arial,Bold&amp;8Footer Note"
 
 ### See Also
 

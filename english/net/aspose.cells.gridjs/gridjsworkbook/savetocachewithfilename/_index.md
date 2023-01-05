@@ -3,7 +3,6 @@ title: SaveToCacheWithFileName
 second_title: Aspose.Cells for .NET API Reference
 description: Saves the worksheets to the cache save format is baseed on the file extension of filename .
 type: docs
-weight: 130
 url: /net/aspose.cells.gridjs/gridjsworkbook/savetocachewithfilename/
 ---
 ## GridJsWorkbook.SaveToCacheWithFileName method

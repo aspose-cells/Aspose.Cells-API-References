@@ -3,7 +3,6 @@ title: OverLay
 second_title: Aspose.Cells for .NET API Reference
 description: Represents overlay centered title on chart without resizing chart.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/title/overlay/
 ---
 ## Title.OverLay property

@@ -3,7 +3,6 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the builtin style.
 type: docs
-weight: 430
 url: /net/aspose.cells.charts/chart/style/
 ---
 ## Chart.Style property

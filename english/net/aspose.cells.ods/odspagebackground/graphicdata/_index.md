@@ -3,7 +3,6 @@ title: GraphicData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the graphic data.
 type: docs
-weight: 30
 url: /net/aspose.cells.ods/odspagebackground/graphicdata/
 ---
 ## OdsPageBackground.GraphicData property

@@ -3,7 +3,6 @@ title: FormatCharacters
 second_title: Aspose.Cells for .NET API Reference
 description: Formats some characters with the font setting.
 type: docs
-weight: 1060
 url: /net/aspose.cells.drawing/shape/formatcharacters/
 ---
 ## FormatCharacters(int, int, Font, StyleFlag) {#formatcharacters_1}

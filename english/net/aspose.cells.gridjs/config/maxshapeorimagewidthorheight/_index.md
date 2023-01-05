@@ -3,7 +3,6 @@ title: MaxShapeOrImageWidthOrHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Sets /Gets the max width or height for a shape/image GridJs will ignore the shape/image with the width or height larger than this it will take affec when IslimitShapestrue
 type: docs
-weight: 100
 url: /net/aspose.cells.gridjs/config/maxshapeorimagewidthorheight/
 ---
 ## Config.MaxShapeOrImageWidthOrHeight property

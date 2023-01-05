@@ -3,7 +3,6 @@ title: AltText
 second_title: Aspose.Cells for .NET API Reference
 description: Get or Set Alternate text for the image linkplease note this is an extension attribute and can not keep in excel file
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/gridhyperlink/alttext/
 ---
 ## GridHyperlink.AltText property

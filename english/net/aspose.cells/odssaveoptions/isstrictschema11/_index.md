@@ -3,7 +3,6 @@ title: IsStrictSchema11
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the ods file should be saved as ODF format version 1.1. Default is false.
 type: docs
-weight: 30
 url: /net/aspose.cells/odssaveoptions/isstrictschema11/
 ---
 ## OdsSaveOptions.IsStrictSchema11 property

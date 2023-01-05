@@ -3,7 +3,6 @@ title: CaseSensitive
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if the searched string is case sensitive.
 type: docs
-weight: 20
 url: /net/aspose.cells/replaceoptions/casesensitive/
 ---
 ## ReplaceOptions.CaseSensitive property

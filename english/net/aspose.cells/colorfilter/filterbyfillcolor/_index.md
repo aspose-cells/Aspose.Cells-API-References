@@ -3,7 +3,6 @@ title: FilterByFillColor
 second_title: Aspose.Cells for .NET API Reference
 description: Flag indicating whether filter by the cells fill color.
 type: docs
-weight: 10
 url: /net/aspose.cells/colorfilter/filterbyfillcolor/
 ---
 ## ColorFilter.FilterByFillColor property

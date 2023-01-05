@@ -3,7 +3,6 @@ title: Right
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the width of the shapes horizontal offset from its lower right corner column in unit of pixels.
 type: docs
-weight: 380
 url: /net/aspose.cells.gridweb.data/gridpicture/right/
 ---
 ## GridPicture.Right property

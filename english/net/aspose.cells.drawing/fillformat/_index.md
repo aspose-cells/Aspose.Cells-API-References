@@ -3,7 +3,6 @@ title: FillFormat
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates the object that represents fill formatting for a shape.
 type: docs
-weight: 1980
 url: /net/aspose.cells.drawing/fillformat/
 ---
 ## FillFormat class
@@ -32,12 +31,12 @@ public class FillFormat
 | [PictureFormatType](../../aspose.cells.drawing/fillformat/pictureformattype) { get; set; } | Gets and sets the picture format type. |
 | [PresetColor](../../aspose.cells.drawing/fillformat/presetcolor) { get; } | Returns the gradient preset color for the specified fill. |
 | [Scale](../../aspose.cells.drawing/fillformat/scale) { get; set; } | Gets and sets the picture format scale. |
-| [SetType](../../aspose.cells.drawing/fillformat/settype) { get; set; } | Gets the fill format set type. |
+| [SetType](../../aspose.cells.drawing/fillformat/settype) { get; set; } | (**Obsolete.**) Gets the fill format set type. |
 | [SolidFill](../../aspose.cells.drawing/fillformat/solidfill) { get; } | Gets [`SolidFill`](./solidfill) object. |
 | [Texture](../../aspose.cells.drawing/fillformat/texture) { get; set; } | Represents the texture type for the specified fill. |
 | [TextureFill](../../aspose.cells.drawing/fillformat/texturefill) { get; } | Gets [`TextureFill`](./texturefill) object. |
 | [Transparency](../../aspose.cells.drawing/fillformat/transparency) { get; set; } | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [Type](../../aspose.cells.drawing/fillformat/type) { get; set; } | Gets and sets the fill type. |
+| [Type](../../aspose.cells.drawing/fillformat/type) { get; set; } | (**Obsolete.**) Gets and sets the fill type. |
 
 ## Methods
 

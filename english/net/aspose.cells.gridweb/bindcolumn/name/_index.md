@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Design time used only.
 type: docs
-weight: 130
 url: /net/aspose.cells.gridweb/bindcolumn/name/
 ---
 ## BindColumn.Name property

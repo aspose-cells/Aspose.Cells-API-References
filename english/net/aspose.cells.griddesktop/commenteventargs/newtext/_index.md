@@ -3,7 +3,6 @@ title: NewText
 second_title: Aspose.Cells for .NET API Reference
 description: Gets new text data of comment
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop/commenteventargs/newtext/
 ---
 ## CommentEventArgs.NewText property

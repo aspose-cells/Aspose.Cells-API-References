@@ -3,7 +3,6 @@ title: CreateValidation
 second_title: Aspose.Cells for .NET API Reference
 description: Creates a validation object for a cell.
 type: docs
-weight: 210
 url: /net/aspose.cells.gridweb.data/gridcell/createvalidation/
 ---
 ## GridCell.CreateValidation method

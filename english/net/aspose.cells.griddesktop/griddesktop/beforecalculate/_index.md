@@ -3,7 +3,6 @@ title: BeforeCalculate
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs before calculate formula in workbook.
 type: docs
-weight: 370
 url: /net/aspose.cells.griddesktop/griddesktop/beforecalculate/
 ---
 ## GridDesktop.BeforeCalculate event

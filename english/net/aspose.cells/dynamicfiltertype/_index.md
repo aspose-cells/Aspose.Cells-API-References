@@ -3,7 +3,6 @@ title: DynamicFilterType
 second_title: Aspose.Cells for .NET API Reference
 description: Dynamic filter type.
 type: docs
-weight: 3160
 url: /net/aspose.cells/dynamicfiltertype/
 ---
 ## DynamicFilterType enumeration

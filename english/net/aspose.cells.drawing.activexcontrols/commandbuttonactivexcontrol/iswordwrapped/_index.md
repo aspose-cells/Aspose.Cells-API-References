@@ -3,7 +3,6 @@ title: IsWordWrapped
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the contents of the control automatically wrap at the end of a line.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/iswordwrapped/
 ---
 ## CommandButtonActiveXControl.IsWordWrapped property

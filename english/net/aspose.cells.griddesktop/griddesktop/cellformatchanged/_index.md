@@ -3,7 +3,6 @@ title: CellFormatChanged
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the cell format is changed via Format Cells dialog box.
 type: docs
-weight: 450
 url: /net/aspose.cells.griddesktop/griddesktop/cellformatchanged/
 ---
 ## GridDesktop.CellFormatChanged event

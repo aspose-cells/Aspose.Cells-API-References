@@ -3,7 +3,6 @@ title: SetFormula1
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the value or expression associated with this format condition.
 type: docs
-weight: 170
 url: /net/aspose.cells/formatcondition/setformula1/
 ---
 ## FormatCondition.SetFormula1 method

@@ -3,7 +3,6 @@ title: MemorySetting
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the memory usage options.
 type: docs
-weight: 160
 url: /net/aspose.cells/loadoptions/memorysetting/
 ---
 ## LoadOptions.MemorySetting property

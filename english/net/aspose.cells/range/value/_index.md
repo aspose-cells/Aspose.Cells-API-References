@@ -3,7 +3,6 @@ title: Value
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the value of the range.
 type: docs
-weight: 160
 url: /net/aspose.cells/range/value/
 ---
 ## Range.Value property
@@ -16,7 +15,7 @@ public object Value { get; set; }
 
 ### Remarks
 
-If the range contains multiple cells, return a two-dimension Array object. If applies object array to the range, it should be a two-dimension Array object.
+If the range contains multiple cells, the returned/applied object should be a two-dimension Array object.
 
 ### See Also
 

@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Add a new Slicer using PivotTable as data source
 type: docs
-weight: 20
 url: /net/aspose.cells.slicers/slicercollection/add/
 ---
 ## Add(PivotTable, string, string) {#add_5}

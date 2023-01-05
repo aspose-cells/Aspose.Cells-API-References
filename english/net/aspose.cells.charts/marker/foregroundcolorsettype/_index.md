@@ -3,7 +3,6 @@ title: ForegroundColorSetType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the marker foreground color set type.
 type: docs
-weight: 60
 url: /net/aspose.cells.charts/marker/foregroundcolorsettype/
 ---
 ## Marker.ForegroundColorSetType property

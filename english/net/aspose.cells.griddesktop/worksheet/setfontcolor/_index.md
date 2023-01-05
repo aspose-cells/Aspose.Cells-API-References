@@ -3,7 +3,6 @@ title: SetFontColor
 second_title: Aspose.Cells for .NET API Reference
 description: Sets font color to cellRange.
 type: docs
-weight: 1060
 url: /net/aspose.cells.griddesktop/worksheet/setfontcolor/
 ---
 ## Worksheet.SetFontColor method

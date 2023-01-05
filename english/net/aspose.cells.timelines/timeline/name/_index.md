@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the name of the specified Timeline
 type: docs
-weight: 40
 url: /net/aspose.cells.timelines/timeline/name/
 ---
 ## Timeline.Name property

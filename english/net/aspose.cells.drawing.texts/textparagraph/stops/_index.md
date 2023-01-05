@@ -3,7 +3,6 @@ title: Stops
 second_title: Aspose.Cells for .NET API Reference
 description: Gets tab stop list.
 type: docs
-weight: 180
 url: /net/aspose.cells.drawing.texts/textparagraph/stops/
 ---
 ## TextParagraph.Stops property

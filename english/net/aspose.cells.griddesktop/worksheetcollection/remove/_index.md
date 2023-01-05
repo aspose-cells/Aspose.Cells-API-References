@@ -3,7 +3,6 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the worksheet at the specified index of the WorksheetCollection. If the specific sheet is the last sheetafter removes sheetwill add a new sheet to the WorksheetCollection.
 type: docs
-weight: 140
 url: /net/aspose.cells.griddesktop/worksheetcollection/remove/
 ---
 ## WorksheetCollection.Remove method

@@ -3,7 +3,6 @@ title: CalculateTextSize
 second_title: Aspose.Cells for .NET API Reference
 description: Recalculate the text area
 type: docs
-weight: 1040
 url: /net/aspose.cells.drawing/shape/calculatetextsize/
 ---
 ## Shape.CalculateTextSize method

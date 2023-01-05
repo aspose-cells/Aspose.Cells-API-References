@@ -1,9 +1,8 @@
 ---
 title: CenterY
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of charts height after calls Chart.Calculate method.
+description: Gets the y coordinate of the leftbottom corner of Wall center in units of 1/4000 of charts height after calls Chart.Calculate method.
 type: docs
-weight: 30
 url: /net/aspose.cells.charts/walls/centery/
 ---
 ## Walls.CenterY property

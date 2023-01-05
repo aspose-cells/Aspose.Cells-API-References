@@ -3,7 +3,6 @@ title: RefreshAll
 second_title: Aspose.Cells for .NET API Reference
 description: ReDataBinds data source to all PivotTable report.
 type: docs
-weight: 120
 url: /net/aspose.cells.gridweb.data/pivottables/refreshall/
 ---
 ## PivotTables.RefreshAll method

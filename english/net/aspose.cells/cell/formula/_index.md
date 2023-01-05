@@ -3,7 +3,6 @@ title: Formula
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a formula of the Cellaspose.cells/cell.
 type: docs
-weight: 90
 url: /net/aspose.cells/cell/formula/
 ---
 ## Cell.Formula property

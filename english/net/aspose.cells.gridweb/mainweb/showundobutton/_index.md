@@ -3,7 +3,6 @@ title: ShowUndoButton
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether to show the undo button.
 type: docs
-weight: 990
 url: /net/aspose.cells.gridweb/mainweb/showundobutton/
 ---
 ## MainWeb.ShowUndoButton property

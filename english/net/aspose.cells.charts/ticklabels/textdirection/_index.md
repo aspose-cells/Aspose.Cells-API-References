@@ -3,7 +3,6 @@ title: TextDirection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents text reading order.
 type: docs
-weight: 130
 url: /net/aspose.cells.charts/ticklabels/textdirection/
 ---
 ## TickLabels.TextDirection property

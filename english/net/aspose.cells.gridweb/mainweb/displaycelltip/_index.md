@@ -3,7 +3,6 @@ title: DisplayCellTip
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 210
 url: /net/aspose.cells.gridweb/mainweb/displaycelltip/
 ---
 ## MainWeb.DisplayCellTip property

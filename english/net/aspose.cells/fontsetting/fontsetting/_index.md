@@ -3,7 +3,6 @@ title: FontSetting
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 10
 url: /net/aspose.cells/fontsetting/fontsetting/
 ---
 ## FontSetting constructor

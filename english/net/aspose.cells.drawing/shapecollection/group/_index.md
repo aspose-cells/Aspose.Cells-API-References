@@ -3,7 +3,6 @@ title: Group
 second_title: Aspose.Cells for .NET API Reference
 description: Group the shapes.
 type: docs
-weight: 410
 url: /net/aspose.cells.drawing/shapecollection/group/
 ---
 ## ShapeCollection.Group method

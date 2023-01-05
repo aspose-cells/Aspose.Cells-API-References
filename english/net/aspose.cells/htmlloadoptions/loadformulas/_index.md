@@ -3,7 +3,6 @@ title: LoadFormulas
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether importing formulas if the original html file contains formulas
 type: docs
-weight: 60
 url: /net/aspose.cells/htmlloadoptions/loadformulas/
 ---
 ## HtmlLoadOptions.LoadFormulas property

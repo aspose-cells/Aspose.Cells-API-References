@@ -3,7 +3,6 @@ title: DefaultFontName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the controls default font name.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/defaultfontname/
 ---
 ## GridWorksheetCollection.DefaultFontName property
@@ -18,6 +17,7 @@ public string DefaultFontName { get; set; }
 
 ```csharp
 [C#]
+    GridWeb GridWeb1=new GridWeb();
 	GridWeb1.DefaultFontName = "Arial";
 
 [Visual Basic]

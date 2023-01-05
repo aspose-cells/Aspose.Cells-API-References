@@ -3,7 +3,6 @@ title: MinValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the min value.
 type: docs
-weight: 60
 url: /net/aspose.cells/datetimegroupitem/minvalue/
 ---
 ## DateTimeGroupItem.MinValue property

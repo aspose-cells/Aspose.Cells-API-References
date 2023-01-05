@@ -3,7 +3,6 @@ title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
 description: Get an enumerator that iterates through this collection.
 type: docs
-weight: 50
 url: /net/aspose.cells/externallinkcollection/getenumerator/
 ---
 ## ExternalLinkCollection.GetEnumerator method

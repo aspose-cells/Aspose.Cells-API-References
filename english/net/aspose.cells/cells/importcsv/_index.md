@@ -3,7 +3,6 @@ title: ImportCSV
 second_title: Aspose.Cells for .NET API Reference
 description: Import a CSV file to the cells.
 type: docs
-weight: 980
 url: /net/aspose.cells/cells/importcsv/
 ---
 ## ImportCSV(string, string, bool, int, int) {#importcsv_3}

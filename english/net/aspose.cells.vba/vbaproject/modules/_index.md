@@ -3,7 +3,6 @@ title: Modules
 second_title: Aspose.Cells for .NET API Reference
 description: Gets all VbaModuleaspose.cells.vba/vbamodule objects.
 type: docs
-weight: 60
 url: /net/aspose.cells.vba/vbaproject/modules/
 ---
 ## VbaProject.Modules property

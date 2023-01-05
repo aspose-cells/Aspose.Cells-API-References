@@ -3,7 +3,6 @@ title: ToStream
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 720
 url: /net/aspose.cells.griddesktop.data/gridpicture/tostream/
 ---
 ## GridPicture.ToStream method

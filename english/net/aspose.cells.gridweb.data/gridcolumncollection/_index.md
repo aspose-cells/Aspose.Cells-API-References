@@ -3,7 +3,6 @@ title: GridColumnCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Collects the  objects that represent the individual columns in a worksheet.
 type: docs
-weight: 220
 url: /net/aspose.cells.gridweb.data/gridcolumncollection/
 ---
 ## GridColumnCollection class
@@ -25,7 +24,7 @@ public class GridColumnCollection
 
 | Name | Description |
 | --- | --- |
-| [GetColumnByIndex](../../aspose.cells.gridweb.data/gridcolumncollection/getcolumnbyindex)(int) | Gets the Column object by the position in the list. |
+| [GetColumnByIndex](../../aspose.cells.gridweb.data/gridcolumncollection/getcolumnbyindex)(int) | Gets the [`GridColumn`](../gridcolumn) object by the position in the list. |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridcolumncollection/getenumerator)() | Gets the columns enumerator |
 
 ### See Also

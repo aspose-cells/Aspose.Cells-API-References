@@ -3,7 +3,6 @@ title: ShapePropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: This class specifies the visual shape properties for a chart element or shape.
 type: docs
-weight: 2760
 url: /net/aspose.cells.drawing/shapepropertycollection/
 ---
 ## ShapePropertyCollection class

@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the type of the ActiveX control.
 type: docs
-weight: 210
 url: /net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/type/
 ---
 ## TextBoxActiveXControl.Type property

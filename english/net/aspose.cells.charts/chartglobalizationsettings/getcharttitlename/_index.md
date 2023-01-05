@@ -3,7 +3,6 @@ title: GetChartTitleName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name of Chart Title.
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/chartglobalizationsettings/getcharttitlename/
 ---
 ## ChartGlobalizationSettings.GetChartTitleName method

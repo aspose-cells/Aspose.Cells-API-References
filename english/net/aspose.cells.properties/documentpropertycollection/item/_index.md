@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Returns a DocumentPropertyaspose.cells.properties/documentproperty object by the name of the property.
 type: docs
-weight: 20
 url: /net/aspose.cells.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)

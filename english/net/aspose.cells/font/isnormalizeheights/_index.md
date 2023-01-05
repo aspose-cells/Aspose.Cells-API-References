@@ -3,7 +3,6 @@ title: IsNormalizeHeights
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the normalization of height that is to be applied to the text run.
 type: docs
-weight: 80
 url: /net/aspose.cells/font/isnormalizeheights/
 ---
 ## Font.IsNormalizeHeights property

@@ -3,7 +3,6 @@ title: Rows
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the collection of Rowaspose.cells/row objects that represents the individual rows in this worksheet.
 type: docs
-weight: 240
 url: /net/aspose.cells/cells/rows/
 ---
 ## Cells.Rows property

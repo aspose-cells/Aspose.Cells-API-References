@@ -3,7 +3,6 @@ title: IsAutomatic
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the axis bins are automatic.
 type: docs
-weight: 30
 url: /net/aspose.cells.charts/axisbins/isautomatic/
 ---
 ## AxisBins.IsAutomatic property

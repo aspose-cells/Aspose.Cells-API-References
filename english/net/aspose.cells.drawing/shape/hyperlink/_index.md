@@ -3,7 +3,6 @@ title: Hyperlink
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the hyperlink of the shape.
 type: docs
-weight: 260
 url: /net/aspose.cells.drawing/shape/hyperlink/
 ---
 ## Shape.Hyperlink property

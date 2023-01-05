@@ -3,7 +3,6 @@ title: ReadingOrder
 second_title: Aspose.Cells for .NET API Reference
 description: Represents text reading order.
 type: docs
-weight: 70
 url: /net/aspose.cells.charts/charttextframe/readingorder/
 ---
 ## ChartTextFrame.ReadingOrder property

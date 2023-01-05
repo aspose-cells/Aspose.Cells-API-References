@@ -3,7 +3,6 @@ title: ID
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the id of the custom xml part.
 type: docs
-weight: 20
 url: /net/aspose.cells.markup/customxmlpart/id/
 ---
 ## CustomXmlPart.ID property

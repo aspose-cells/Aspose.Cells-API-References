@@ -3,7 +3,6 @@ title: OldFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the old formula.
 type: docs
-weight: 80
 url: /net/aspose.cells.revisions/revisioncellchange/oldformula/
 ---
 ## RevisionCellChange.OldFormula property

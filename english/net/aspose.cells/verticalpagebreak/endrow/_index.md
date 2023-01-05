@@ -3,7 +3,6 @@ title: EndRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the end row index of the vertical page break.
 type: docs
-weight: 20
 url: /net/aspose.cells/verticalpagebreak/endrow/
 ---
 ## VerticalPageBreak.EndRow property

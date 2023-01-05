@@ -1,14 +1,13 @@
 ---
 title: FontConfigs
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets individual font configs. Only works for the Workbookaspose.cells/workbook which uses this LoadOptionsaspose.cells/loadoptions to load.gt
+description: Gets and sets individual font configs. Only works for the Workbookaspose.cells/workbook which uses this LoadOptionsaspose.cells/loadoptions to load.
 type: docs
-weight: 80
 url: /net/aspose.cells/loadoptions/fontconfigs/
 ---
 ## LoadOptions.FontConfigs property
 
-Gets and sets individual font configs. Only works for the [`Workbook`](../../workbook) which uses this [`LoadOptions`](../../loadoptions) to load.&gt;
+Gets and sets individual font configs. Only works for the [`Workbook`](../../workbook) which uses this [`LoadOptions`](../../loadoptions) to load.
 
 ```csharp
 public IndividualFontConfigs FontConfigs { get; set; }

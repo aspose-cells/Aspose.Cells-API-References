@@ -3,7 +3,6 @@ title: CellKeyPressed
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when a key is pressed while a cell has focus.
 type: docs
-weight: 460
 url: /net/aspose.cells.griddesktop/griddesktop/cellkeypressed/
 ---
 ## GridDesktop.CellKeyPressed event

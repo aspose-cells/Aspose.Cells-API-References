@@ -3,7 +3,6 @@ title: GridTableItemStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell.
 type: docs
-weight: 990
 url: /net/aspose.cells.gridweb/gridtableitemstyle/
 ---
 ## GridTableItemStyle class
@@ -11,7 +10,7 @@ url: /net/aspose.cells.gridweb/gridtableitemstyle/
 Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell.
 
 ```csharp
-public class GridTableItemStyle : TableItemStyle
+public class GridTableItemStyle : TableItemStyle, ISerializable
 ```
 
 ## Constructors

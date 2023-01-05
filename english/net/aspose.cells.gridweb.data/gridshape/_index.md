@@ -3,7 +3,6 @@ title: GridShape
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a shape object.
 type: docs
-weight: 490
 url: /net/aspose.cells.gridweb.data/gridshape/
 ---
 ## GridShape class

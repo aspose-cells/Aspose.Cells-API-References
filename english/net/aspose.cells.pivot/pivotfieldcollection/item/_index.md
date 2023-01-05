@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the PivotField Object at the specific index.
 type: docs
-weight: 20
 url: /net/aspose.cells.pivot/pivotfieldcollection/item/
 ---
 ## PivotFieldCollection indexer (1 of 2)

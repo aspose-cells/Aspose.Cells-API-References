@@ -3,7 +3,6 @@ title: Filter
 second_title: Aspose.Cells for .NET API Reference
 description: Filter the table.
 type: docs
-weight: 250
 url: /net/aspose.cells.tables/listobject/filter/
 ---
 ## ListObject.Filter method

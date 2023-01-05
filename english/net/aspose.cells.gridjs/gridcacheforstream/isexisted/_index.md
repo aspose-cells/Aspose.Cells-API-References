@@ -3,7 +3,6 @@ title: IsExisted
 second_title: Aspose.Cells for .NET API Reference
 description: check whether the cache with uid is existed
 type: docs
-weight: 30
 url: /net/aspose.cells.gridjs/gridcacheforstream/isexisted/
 ---
 ## GridCacheForStream.IsExisted method

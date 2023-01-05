@@ -3,7 +3,6 @@ title: IsLocked
 second_title: Aspose.Cells for .NET API Reference
 description: True if the object is locked False if the object can be modified when the sheet is protected.
 type: docs
-weight: 210
 url: /net/aspose.cells.griddesktop.data/gridpicture/islocked/
 ---
 ## GridPicture.IsLocked property

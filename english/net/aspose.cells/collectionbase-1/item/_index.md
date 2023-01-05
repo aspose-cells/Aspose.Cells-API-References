@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the element at the specified index.
 type: docs
-weight: 30
 url: /net/aspose.cells/collectionbase-1/item/
 ---
 ## CollectionBase&lt;T&gt; indexer

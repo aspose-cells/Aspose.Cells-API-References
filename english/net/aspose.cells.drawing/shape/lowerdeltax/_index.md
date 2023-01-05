@@ -1,18 +1,21 @@
 ---
 title: LowerDeltaX
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the shapes horizontal offset from its lower right corner column. The range of value is 0 to 1024.
+description: Gets or sets the shapes horizontal offset from its lower right corner column.
 type: docs
-weight: 510
 url: /net/aspose.cells.drawing/shape/lowerdeltax/
 ---
 ## Shape.LowerDeltaX property
 
-Gets or sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
+Gets or sets the shape's horizontal offset from its lower right corner column.
 
 ```csharp
 public int LowerDeltaX { get; set; }
 ```
+
+### Remarks
+
+The range of value is 0 to 1024.
 
 ### Examples
 

@@ -1,9 +1,8 @@
 ---
 title: GetValue
 second_title: Aspose.Cells for .NET API Reference
-description: Gets cell value with given offset from the top-left of this area.
+description: Gets cell value with given offset from the topleft of this area.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb.data/gridreferredarea/getvalue/
 ---
 ## GridReferredArea.GetValue method

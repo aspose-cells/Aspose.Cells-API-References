@@ -3,7 +3,6 @@ title: TopBorder
 second_title: Aspose.Cells for .NET API Reference
 description: Top border settings will be applied.
 type: docs
-weight: 290
 url: /net/aspose.cells/styleflag/topborder/
 ---
 ## StyleFlag.TopBorder property

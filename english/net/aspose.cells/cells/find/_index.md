@@ -3,7 +3,6 @@ title: Find
 second_title: Aspose.Cells for .NET API Reference
 description: Finds the cell containing with the input object.
 type: docs
-weight: 640
 url: /net/aspose.cells/cells/find/
 ---
 ## Find(object, Cell) {#find}

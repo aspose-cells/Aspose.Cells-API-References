@@ -3,7 +3,6 @@ title: BeforeCalculate
 second_title: Aspose.Cells for .NET API Reference
 description: Implement this method to do business before calculating one cell.
 type: docs
-weight: 50
 url: /net/aspose.cells/abstractcalculationmonitor/beforecalculate/
 ---
 ## AbstractCalculationMonitor.BeforeCalculate method

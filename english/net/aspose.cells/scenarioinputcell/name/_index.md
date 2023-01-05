@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the input cell address.
 type: docs
-weight: 30
 url: /net/aspose.cells/scenarioinputcell/name/
 ---
 ## ScenarioInputCell.Name property

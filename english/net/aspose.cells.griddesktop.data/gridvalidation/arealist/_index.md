@@ -3,7 +3,6 @@ title: AreaList
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a collection of CellArea which contains the data validation settings.
 type: docs
-weight: 20
 url: /net/aspose.cells.griddesktop.data/gridvalidation/arealist/
 ---
 ## GridValidation.AreaList property

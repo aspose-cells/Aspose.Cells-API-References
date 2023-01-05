@@ -3,7 +3,6 @@ title: CopyInvalidFormulasAsValues
 second_title: Aspose.Cells for .NET API Reference
 description: If the formula is not valid for the dest destination only copy values.
 type: docs
-weight: 30
 url: /net/aspose.cells/copyoptions/copyinvalidformulasasvalues/
 ---
 ## CopyOptions.CopyInvalidFormulasAsValues property

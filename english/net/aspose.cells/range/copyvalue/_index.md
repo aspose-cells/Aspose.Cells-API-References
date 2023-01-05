@@ -3,7 +3,6 @@ title: CopyValue
 second_title: Aspose.Cells for .NET API Reference
 description: Copies cell value from a source range.
 type: docs
-weight: 230
 url: /net/aspose.cells/range/copyvalue/
 ---
 ## Range.CopyValue method

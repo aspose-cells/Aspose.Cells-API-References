@@ -3,7 +3,6 @@ title: CustomDocumentPropertyCollection
 second_title: Aspose.Cells for .NET API Reference
 description: A collection of custom document properties.
 type: docs
-weight: 4860
 url: /net/aspose.cells.properties/customdocumentpropertycollection/
 ---
 ## CustomDocumentPropertyCollection class
@@ -18,9 +17,11 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Gets number of items in the collection. |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index. |
-| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
 
 ## Methods
 
@@ -32,12 +33,35 @@ public class CustomDocumentPropertyCollection : DocumentPropertyCollection
 | [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_2)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
 | [Add](../../aspose.cells.properties/customdocumentpropertycollection/add#add_4)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
 | [AddLinkToContent](../../aspose.cells.properties/customdocumentpropertycollection/addlinktocontent)(string, string) | Creates a new custom document property which links to content. |
-| [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Removes all properties from the collection. |
-| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection. |
-| [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
-| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Gets the index of a property by name. |
-| [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
-| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(DocumentProperty) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(DocumentProperty, IComparer&lt;DocumentProperty&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, DocumentProperty, IComparer&lt;DocumentProperty&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains)(DocumentProperty) |  |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(DocumentProperty[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(DocumentProperty[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, DocumentProperty[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;DocumentProperty&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;DocumentProperty&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(DocumentProperty) |  |
+| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Gets the index of a property by name.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(DocumentProperty, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(DocumentProperty, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(DocumentProperty) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(DocumentProperty, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(DocumentProperty, int, int) |  |
+| [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection.(Inherited from [`DocumentPropertyCollection`](../documentpropertycollection).) |
+| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. (2 methods) |
 | [UpdateLinkedPropertyValue](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedpropertyvalue)() | Update custom document property value which links to content. |
 | [UpdateLinkedRange](../../aspose.cells.properties/customdocumentpropertycollection/updatelinkedrange)() | Update custom document property value to linked range. |
 

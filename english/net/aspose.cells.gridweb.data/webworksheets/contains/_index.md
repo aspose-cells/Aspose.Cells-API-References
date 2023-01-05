@@ -3,7 +3,6 @@ title: Contains
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the collection contains the sheet.
 type: docs
-weight: 170
 url: /net/aspose.cells.gridweb.data/webworksheets/contains/
 ---
 ## WebWorksheets.Contains method

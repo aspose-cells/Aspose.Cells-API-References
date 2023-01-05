@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Commentaspose.cells/comment element at the specified index.
 type: docs
-weight: 10
 url: /net/aspose.cells/commentcollection/item/
 ---
 ## CommentCollection indexer (1 of 3)

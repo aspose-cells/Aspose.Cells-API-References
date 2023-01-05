@@ -3,7 +3,6 @@ title: LineType
 second_title: Aspose.Cells for .NET API Reference
 description: Enumerates the type of Picture./picture border or Chart../aspose.cells.charts/chart line.
 type: docs
-weight: 2260
 url: /net/aspose.cells.drawing/linetype/
 ---
 ## LineType enumeration

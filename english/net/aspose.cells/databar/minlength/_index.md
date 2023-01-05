@@ -3,7 +3,6 @@ title: MinLength
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the min length of data bar .
 type: docs
-weight: 100
 url: /net/aspose.cells/databar/minlength/
 ---
 ## DataBar.MinLength property

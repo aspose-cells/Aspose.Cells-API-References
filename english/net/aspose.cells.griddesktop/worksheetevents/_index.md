@@ -3,7 +3,6 @@ title: WorksheetEvents
 second_title: Aspose.Cells for .NET API Reference
 description: Worksheet Events category.
 type: docs
-weight: 1120
 url: /net/aspose.cells.griddesktop/worksheetevents/
 ---
 ## WorksheetEvents enumeration

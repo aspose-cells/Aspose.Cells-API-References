@@ -3,7 +3,6 @@ title: Name
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the name
 type: docs
-weight: 10
 url: /net/aspose.cells.gridweb.data/pivotitem/name/
 ---
 ## PivotItem.Name property

@@ -3,7 +3,6 @@ title: Message
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 480
 url: /net/aspose.cells.gridweb/mainweb/message/
 ---
 ## MainWeb.Message property

@@ -3,7 +3,6 @@ title: DefaultY
 second_title: Aspose.Cells for .NET API Reference
 description: Represents y of default position
 type: docs
-weight: 90
 url: /net/aspose.cells.charts/chartframe/defaulty/
 ---
 ## ChartFrame.DefaultY property

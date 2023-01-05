@@ -3,7 +3,6 @@ title: LastSavedTime
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the time of the last save in local timezone.
 type: docs
-weight: 200
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/lastsavedtime/
 ---
 ## BuiltInDocumentPropertyCollection.LastSavedTime property

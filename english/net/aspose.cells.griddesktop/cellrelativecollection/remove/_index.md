@@ -3,7 +3,6 @@ title: Remove
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the item at the specified row column index of the cell.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop/cellrelativecollection/remove/
 ---
 ## Remove(int, int) {#remove}

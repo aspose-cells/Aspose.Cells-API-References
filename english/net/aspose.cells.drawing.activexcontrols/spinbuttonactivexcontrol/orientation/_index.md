@@ -3,7 +3,6 @@ title: Orientation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally.
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/orientation/
 ---
 ## SpinButtonActiveXControl.Orientation property

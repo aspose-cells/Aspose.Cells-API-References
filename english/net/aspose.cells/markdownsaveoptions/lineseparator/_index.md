@@ -3,7 +3,6 @@ title: LineSeparator
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the line separator.
 type: docs
-weight: 50
 url: /net/aspose.cells/markdownsaveoptions/lineseparator/
 ---
 ## MarkdownSaveOptions.LineSeparator property

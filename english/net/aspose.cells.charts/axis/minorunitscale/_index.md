@@ -3,7 +3,6 @@ title: MinorUnitScale
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the major unit scale for the category axis.
 type: docs
-weight: 320
 url: /net/aspose.cells.charts/axis/minorunitscale/
 ---
 ## Axis.MinorUnitScale property

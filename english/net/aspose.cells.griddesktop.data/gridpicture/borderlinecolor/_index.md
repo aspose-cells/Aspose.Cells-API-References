@@ -3,7 +3,6 @@ title: BorderLineColor
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the Color of the border line of a picture.
 type: docs
-weight: 40
 url: /net/aspose.cells.griddesktop.data/gridpicture/borderlinecolor/
 ---
 ## GridPicture.BorderLineColor property

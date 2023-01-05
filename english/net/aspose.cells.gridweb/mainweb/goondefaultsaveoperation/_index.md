@@ -3,7 +3,6 @@ title: GoonDefaultSaveOperation
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether GridWeb will do the default save operation the default value is true.
 type: docs
-weight: 370
 url: /net/aspose.cells.gridweb/mainweb/goondefaultsaveoperation/
 ---
 ## MainWeb.GoonDefaultSaveOperation property

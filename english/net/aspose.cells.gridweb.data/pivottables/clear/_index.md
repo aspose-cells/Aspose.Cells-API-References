@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Removes all PivotTable objects and all PivotCache objects in the control.
 type: docs
-weight: 70
 url: /net/aspose.cells.gridweb.data/pivottables/clear/
 ---
 ## PivotTables.Clear method

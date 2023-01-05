@@ -3,7 +3,6 @@ title: TrimLeadingBlankRowAndColumn
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether leading blank rows and columns should be trimmed like what ms excel does. Default is true.
 type: docs
-weight: 130
 url: /net/aspose.cells/txtsaveoptions/trimleadingblankrowandcolumn/
 ---
 ## TxtSaveOptions.TrimLeadingBlankRowAndColumn property

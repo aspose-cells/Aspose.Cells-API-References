@@ -3,7 +3,6 @@ title: AutoRefreshChart
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets whether the Chart image is updated while updating the cell value.the default is true
 type: docs
-weight: 120
 url: /net/aspose.cells.gridweb/mainweb/autorefreshchart/
 ---
 ## MainWeb.AutoRefreshChart property

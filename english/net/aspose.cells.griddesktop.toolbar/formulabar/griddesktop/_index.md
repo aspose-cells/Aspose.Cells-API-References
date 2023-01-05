@@ -3,7 +3,6 @@ title: GridDesktop
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a GridDesktop control that this FormalBar will apply to.
 type: docs
-weight: 30
 url: /net/aspose.cells.griddesktop.toolbar/formulabar/griddesktop/
 ---
 ## FormulaBar.GridDesktop property

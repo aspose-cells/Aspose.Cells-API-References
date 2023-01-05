@@ -3,7 +3,6 @@ title: GetVersion
 second_title: Aspose.Cells for .NET API Reference
 description: Get the release version.
 type: docs
-weight: 40
 url: /net/aspose.cells.gridweb/gridweb/getversion/
 ---
 ## GridWeb.GetVersion method

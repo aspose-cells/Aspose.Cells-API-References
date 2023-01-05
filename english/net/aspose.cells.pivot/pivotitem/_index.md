@@ -3,7 +3,6 @@ title: PivotItem
 second_title: Aspose.Cells for .NET API Reference
 description: Represents a item in a PivotField report.
 type: docs
-weight: 4670
 url: /net/aspose.cells.pivot/pivotitem/
 ---
 ## PivotItem class

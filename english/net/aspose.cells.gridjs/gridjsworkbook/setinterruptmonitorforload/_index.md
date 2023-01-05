@@ -3,7 +3,6 @@ title: SetInterruptMonitorForLoad
 second_title: Aspose.Cells for .NET API Reference
 description: set InterruptMonitor for load operation for workbook
 type: docs
-weight: 180
 url: /net/aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforload/
 ---
 ## GridJsWorkbook.SetInterruptMonitorForLoad method

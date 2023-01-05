@@ -3,7 +3,6 @@ title: Intercept
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the point where the trendline crosses the value axis.
 type: docs
-weight: 60
 url: /net/aspose.cells.charts/trendline/intercept/
 ---
 ## Trendline.Intercept property

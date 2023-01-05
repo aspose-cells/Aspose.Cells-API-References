@@ -3,7 +3,6 @@ title: Equals
 second_title: Aspose.Cells for .NET API Reference
 description: Determines whether this instance has the same value as another specified LineFormataspose.cells.drawing/lineformat object.
 type: docs
-weight: 120
 url: /net/aspose.cells.drawing/lineformat/equals/
 ---
 ## LineFormat.Equals method

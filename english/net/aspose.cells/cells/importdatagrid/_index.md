@@ -3,7 +3,6 @@ title: ImportDataGrid
 second_title: Aspose.Cells for .NET API Reference
 description: Imports a DataGrid into a worksheet.
 type: docs
-weight: 1010
 url: /net/aspose.cells/cells/importdatagrid/
 ---
 ## ImportDataGrid(DataGrid, int, int, bool) {#importdatagrid}

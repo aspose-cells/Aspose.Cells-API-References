@@ -3,7 +3,6 @@ title: IsOpen
 second_title: Aspose.Cells for .NET API Reference
 description: When this property is true the bookmarkentry will expand otherwise it will collapse.
 type: docs
-weight: 50
 url: /net/aspose.cells.rendering/pdfbookmarkentry/isopen/
 ---
 ## PdfBookmarkEntry.IsOpen property

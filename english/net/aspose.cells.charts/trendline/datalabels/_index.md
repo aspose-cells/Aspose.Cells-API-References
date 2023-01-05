@@ -1,14 +1,13 @@
 ---
 title: DataLabels
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the DataLabels object for the specified ASeries.
+description: Represents the DataLabels object for the specified series.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/trendline/datalabels/
 ---
 ## Trendline.DataLabels property
 
-Represents the DataLabels object for the specified ASeries.
+Represents the DataLabels object for the specified series.
 
 ```csharp
 public DataLabels DataLabels { get; }

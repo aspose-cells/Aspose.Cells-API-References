@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a  object by its index.
 type: docs
-weight: 10
 url: /net/aspose.cells.charts/trendlinecollection/item/
 ---
 ## TrendlineCollection indexer

@@ -3,14 +3,15 @@ title: ExportRangeToJson
 second_title: Aspose.Cells for .NET API Reference
 description: Exporting the range to json file.
 type: docs
-weight: 20
 url: /net/aspose.cells.utility/jsonutility/exportrangetojson/
 ---
-## JsonUtility.ExportRangeToJson method
+## ExportRangeToJson(Range, ExportRangeToJsonOptions) {#exportrangetojson_1}
 
 Exporting the range to json file.
 
 ```csharp
+[Obsolete("Use ExportRangeToJson(Range range, JsonSaveOptions options) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public static string ExportRangeToJson(Range range, ExportRangeToJsonOptions options)
 ```
 
@@ -27,6 +28,33 @@ The json string value.
 
 * class [Range](../../../aspose.cells/range)
 * class [ExportRangeToJsonOptions](../../exportrangetojsonoptions)
+* class [JsonUtility](../../jsonutility)
+* namespace [Aspose.Cells.Utility](../../jsonutility)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ExportRangeToJson(Range, JsonSaveOptions) {#exportrangetojson}
+
+Exporting the range to json file.
+
+```csharp
+public static string ExportRangeToJson(Range range, JsonSaveOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| range | Range | The range. |
+| options | JsonSaveOptions | The options of exporting. |
+
+### Return Value
+
+The json string value.
+
+### See Also
+
+* class [Range](../../../aspose.cells/range)
+* class [JsonSaveOptions](../../../aspose.cells/jsonsaveoptions)
 * class [JsonUtility](../../jsonutility)
 * namespace [Aspose.Cells.Utility](../../jsonutility)
 * assembly [Aspose.Cells](../../../)

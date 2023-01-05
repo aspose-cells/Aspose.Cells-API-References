@@ -3,7 +3,6 @@ title: GridOperatorType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the operator type of conditional format and data validation.
 type: docs
-weight: 550
 url: /net/aspose.cells.griddesktop.data/gridoperatortype/
 ---
 ## GridOperatorType enumeration

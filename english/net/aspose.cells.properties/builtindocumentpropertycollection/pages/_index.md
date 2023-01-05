@@ -3,7 +3,6 @@ title: Pages
 second_title: Aspose.Cells for .NET API Reference
 description: Represents an estimate of the number of pages in the document.
 type: docs
-weight: 260
 url: /net/aspose.cells.properties/builtindocumentpropertycollection/pages/
 ---
 ## BuiltInDocumentPropertyCollection.Pages property

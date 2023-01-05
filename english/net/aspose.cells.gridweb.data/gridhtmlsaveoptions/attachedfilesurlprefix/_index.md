@@ -3,7 +3,6 @@ title: AttachedFilesUrlPrefix
 second_title: Aspose.Cells for .NET API Reference
 description: Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/gridhtmlsaveoptions/attachedfilesurlprefix/
 ---
 ## GridHtmlSaveOptions.AttachedFilesUrlPrefix property

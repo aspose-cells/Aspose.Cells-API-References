@@ -3,7 +3,6 @@ title: ValueAxis
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the charts Y axis.
 type: docs
-weight: 470
 url: /net/aspose.cells.charts/chart/valueaxis/
 ---
 ## Chart.ValueAxis property

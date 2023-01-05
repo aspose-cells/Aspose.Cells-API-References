@@ -3,7 +3,6 @@ title: IsAutoSize
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the control will automatically resize to display its entire contents.
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing.activexcontrols/activexcontrol/isautosize/
 ---
 ## ActiveXControl.IsAutoSize property

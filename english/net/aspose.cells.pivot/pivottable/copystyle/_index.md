@@ -3,7 +3,6 @@ title: CopyStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Copies named style from another pivot table.
 type: docs
-weight: 800
 url: /net/aspose.cells.pivot/pivottable/copystyle/
 ---
 ## PivotTable.CopyStyle method

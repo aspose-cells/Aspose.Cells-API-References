@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a hyperlink to a specified cell or a range of cells.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/gridhyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
@@ -24,24 +23,7 @@ public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, s
 
 ### Return Value
 
-[`Hyperlink`](../../hyperlink) object index.
-
-### Examples
-
-```csharp
-[C#]
-
-Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
-
-[Visual Basic]
-
-Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
-
-```
+[`GridHyperlink`](../../gridhyperlink) object index.
 
 ### See Also
 

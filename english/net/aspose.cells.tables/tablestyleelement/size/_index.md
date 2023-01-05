@@ -3,7 +3,6 @@ title: Size
 second_title: Aspose.Cells for .NET API Reference
 description: Number of rows or columns in a single band of striping. Applies only when type is firstRowStripe secondRowStripe firstColumnStripe or secondColumnStripe.
 type: docs
-weight: 10
 url: /net/aspose.cells.tables/tablestyleelement/size/
 ---
 ## TableStyleElement.Size property

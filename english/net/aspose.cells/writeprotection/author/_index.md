@@ -3,7 +3,6 @@ title: Author
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the author.
 type: docs
-weight: 20
 url: /net/aspose.cells/writeprotection/author/
 ---
 ## WriteProtection.Author property

@@ -3,7 +3,6 @@ title: SaveAsSingleFile
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether save the html as single file. The default value is false.
 type: docs
-weight: 450
 url: /net/aspose.cells/htmlsaveoptions/saveassinglefile/
 ---
 ## HtmlSaveOptions.SaveAsSingleFile property

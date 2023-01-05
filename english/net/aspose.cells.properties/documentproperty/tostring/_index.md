@@ -3,7 +3,6 @@ title: ToString
 second_title: Aspose.Cells for .NET API Reference
 description: Returns the property value as a string.
 type: docs
-weight: 110
 url: /net/aspose.cells.properties/documentproperty/tostring/
 ---
 ## DocumentProperty.ToString method

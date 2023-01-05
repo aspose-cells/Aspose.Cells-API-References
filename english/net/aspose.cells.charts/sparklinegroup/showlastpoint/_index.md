@@ -3,7 +3,6 @@ title: ShowLastPoint
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether to highlight the last point of data in the sparkline group.
 type: docs
-weight: 180
 url: /net/aspose.cells.charts/sparklinegroup/showlastpoint/
 ---
 ## SparklineGroup.ShowLastPoint property

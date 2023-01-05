@@ -3,7 +3,6 @@ title: OriginalValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the old value of the calculated cell. Should be used only in BeforeCalculateaspose.cells/abstractcalculationmonitor/beforecalculate and AfterCalculateaspose.cells/abstractcalculationmonitor/aftercalculate.
 type: docs
-weight: 20
 url: /net/aspose.cells/abstractcalculationmonitor/originalvalue/
 ---
 ## AbstractCalculationMonitor.OriginalValue property

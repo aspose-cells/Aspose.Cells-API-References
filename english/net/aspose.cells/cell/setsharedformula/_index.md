@@ -3,7 +3,6 @@ title: SetSharedFormula
 second_title: Aspose.Cells for .NET API Reference
 description: Sets a formula to a range of cells.
 type: docs
-weight: 660
 url: /net/aspose.cells/cell/setsharedformula/
 ---
 ## SetSharedFormula(string, int, int, bool, bool) {#setsharedformula_3}
@@ -37,9 +36,31 @@ NOTE: This class is now obsolete. Instead, please use Cell.SetSharedFormula(stri
 
 ---
 
+## SetSharedFormula(string, int, int) {#setsharedformula}
+
+Sets shared formulas to a range of cells.
+
+```csharp
+public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sharedFormula | String | Shared formula. |
+| rowNumber | Int32 | Number of rows to populate the formula. |
+| columnNumber | Int32 | Number of columns to populate the formula. |
+
+### See Also
+
+* class [Cell](../../cell)
+* namespace [Aspose.Cells](../../cell)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## SetSharedFormula(string, int, int, FormulaParseOptions) {#setsharedformula_1}
 
-Sets a formula to a range of cells.
+Sets shared formulas to a range of cells.
 
 ```csharp
 public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber, 
@@ -64,7 +85,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 
 ## SetSharedFormula(string, int, int, FormulaParseOptions, object[][]) {#setsharedformula_2}
 
-Sets a formula to a range of cells.
+Sets shared formulas to a range of cells.
 
 ```csharp
 public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber, 
@@ -82,28 +103,6 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 ### See Also
 
 * class [FormulaParseOptions](../../formulaparseoptions)
-* class [Cell](../../cell)
-* namespace [Aspose.Cells](../../cell)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## SetSharedFormula(string, int, int) {#setsharedformula}
-
-Sets a formula to a range of cells.
-
-```csharp
-public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumber)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sharedFormula | String | Shared formula. |
-| rowNumber | Int32 | Number of rows to populate the formula. |
-| columnNumber | Int32 | Number of columns to populate the formula. |
-
-### See Also
-
 * class [Cell](../../cell)
 * namespace [Aspose.Cells](../../cell)
 * assembly [Aspose.Cells](../../../)

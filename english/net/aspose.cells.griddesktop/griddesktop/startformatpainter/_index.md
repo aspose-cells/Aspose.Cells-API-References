@@ -3,7 +3,6 @@ title: StartFormatPainter
 second_title: Aspose.Cells for .NET API Reference
 description: Notifies GridDesktop to start FormatPainter.
 type: docs
-weight: 800
 url: /net/aspose.cells.griddesktop/griddesktop/startformatpainter/
 ---
 ## GridDesktop.StartFormatPainter method

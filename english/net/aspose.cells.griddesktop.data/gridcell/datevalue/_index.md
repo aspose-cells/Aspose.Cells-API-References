@@ -3,7 +3,6 @@ title: DateValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the DateTime value contained in the cell.
 type: docs
-weight: 30
 url: /net/aspose.cells.griddesktop.data/gridcell/datevalue/
 ---
 ## GridCell.DateValue property

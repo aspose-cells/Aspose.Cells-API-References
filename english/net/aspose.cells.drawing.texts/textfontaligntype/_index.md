@@ -3,7 +3,6 @@ title: TextFontAlignType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the different types of font alignment.
 type: docs
-weight: 2980
 url: /net/aspose.cells.drawing.texts/textfontaligntype/
 ---
 ## TextFontAlignType enumeration

@@ -1,9 +1,8 @@
 ---
 title: AutoSortField
 second_title: Aspose.Cells for .NET API Reference
-description: Represents auto sort field index. -1 means PivotField itselfothers means the position of the data fields.
+description: Represents auto sort field index. 1 means PivotField itselfothers means the position of the data fields.
 type: docs
-weight: 30
 url: /net/aspose.cells.pivot/pivotfield/autosortfield/
 ---
 ## PivotField.AutoSortField property

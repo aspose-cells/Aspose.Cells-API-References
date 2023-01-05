@@ -3,7 +3,6 @@ title: GetCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the Cellaspose.cells/cell element or null at the specified cell row index and column index.
 type: docs
-weight: 670
 url: /net/aspose.cells/cells/getcell/
 ---
 ## Cells.GetCell method

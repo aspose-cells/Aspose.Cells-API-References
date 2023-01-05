@@ -3,7 +3,6 @@ title: AddProjectRefrernce
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a reference to an external VBA project.
 type: docs
-weight: 30
 url: /net/aspose.cells.vba/vbaprojectreferencecollection/addprojectrefrernce/
 ---
 ## VbaProjectReferenceCollection.AddProjectRefrernce method

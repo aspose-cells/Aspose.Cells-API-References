@@ -3,7 +3,6 @@ title: DefaultFontName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the controls default font name.
 type: docs
-weight: 180
 url: /net/aspose.cells.gridweb/mainweb/defaultfontname/
 ---
 ## MainWeb.DefaultFontName property

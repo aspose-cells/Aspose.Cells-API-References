@@ -3,7 +3,6 @@ title: HasMacro
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if this spreadsheet contains macro/VBA.
 type: docs
-weight: 160
 url: /net/aspose.cells/workbook/hasmacro/
 ---
 ## Workbook.HasMacro property

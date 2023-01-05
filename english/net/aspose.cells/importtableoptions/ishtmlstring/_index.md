@@ -3,7 +3,6 @@ title: IsHtmlString
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the value contains html tags.
 type: docs
-weight: 110
 url: /net/aspose.cells/importtableoptions/ishtmlstring/
 ---
 ## ImportTableOptions.IsHtmlString property

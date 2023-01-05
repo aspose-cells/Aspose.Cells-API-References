@@ -3,7 +3,6 @@ title: Add
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a PivotFilter Object to the specific type
 type: docs
-weight: 20
 url: /net/aspose.cells.pivot/pivotfiltercollection/add/
 ---
 ## PivotFilterCollection.Add method

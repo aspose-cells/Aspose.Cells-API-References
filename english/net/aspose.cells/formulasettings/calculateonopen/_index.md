@@ -3,7 +3,6 @@ title: CalculateOnOpen
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the application is required to perform a full calculation when the workbook is opened.
 type: docs
-weight: 10
 url: /net/aspose.cells/formulasettings/calculateonopen/
 ---
 ## FormulaSettings.CalculateOnOpen property

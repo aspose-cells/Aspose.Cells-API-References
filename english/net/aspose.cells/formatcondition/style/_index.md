@@ -3,7 +3,6 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or setts style of conditional formatted cell ranges.
 type: docs
-weight: 100
 url: /net/aspose.cells/formatcondition/style/
 ---
 ## FormatCondition.Style property

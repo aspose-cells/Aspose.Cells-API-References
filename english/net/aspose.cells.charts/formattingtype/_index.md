@@ -3,7 +3,6 @@ title: FormattingType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the type of formatting applied to an Area../aspose.cells.drawing/area object or a Line../aspose.cells.drawing/line object.
 type: docs
-weight: 680
 url: /net/aspose.cells.charts/formattingtype/
 ---
 ## FormattingType enumeration

@@ -3,7 +3,6 @@ title: SoftEdgeRadius
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing/shapeformat/softedgeradius/
 ---
 ## ShapeFormat.SoftEdgeRadius property

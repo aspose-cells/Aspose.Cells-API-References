@@ -3,7 +3,6 @@ title: TextHorizontalOverflow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text horizontal overflow type of the text box.
 type: docs
-weight: 90
 url: /net/aspose.cells.drawing.texts/shapetextalignment/texthorizontaloverflow/
 ---
 ## ShapeTextAlignment.TextHorizontalOverflow property

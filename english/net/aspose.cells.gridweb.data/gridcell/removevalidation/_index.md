@@ -3,7 +3,6 @@ title: RemoveValidation
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the validation object of the cell.
 type: docs
-weight: 320
 url: /net/aspose.cells.gridweb.data/gridcell/removevalidation/
 ---
 ## GridCell.RemoveValidation method

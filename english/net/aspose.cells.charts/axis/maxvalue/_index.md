@@ -3,7 +3,6 @@ title: MaxValue
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the maximum value on the value axis.
 type: docs
-weight: 280
 url: /net/aspose.cells.charts/axis/maxvalue/
 ---
 ## Axis.MaxValue property

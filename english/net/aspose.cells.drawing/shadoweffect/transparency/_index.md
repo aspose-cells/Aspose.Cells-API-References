@@ -3,7 +3,6 @@ title: Transparency
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the degree of transparency of the shadow. Range from 0.0 opaque to 1.0 clear.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing/shadoweffect/transparency/
 ---
 ## ShadowEffect.Transparency property

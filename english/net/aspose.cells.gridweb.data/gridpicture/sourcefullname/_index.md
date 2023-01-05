@@ -3,7 +3,6 @@ title: SourceFullName
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the path and name of the source file for the linked image.
 type: docs
-weight: 400
 url: /net/aspose.cells.gridweb.data/gridpicture/sourcefullname/
 ---
 ## GridPicture.SourceFullName property

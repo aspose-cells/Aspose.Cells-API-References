@@ -3,7 +3,6 @@ title: SparklineAxisMinMaxType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the minimum and maximum value types for the sparkline vertical axis.
 type: docs
-weight: 870
 url: /net/aspose.cells.charts/sparklineaxisminmaxtype/
 ---
 ## SparklineAxisMinMaxType enumeration

@@ -3,7 +3,6 @@ title: Number
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the format number for the TickLabels object.
 type: docs
-weight: 70
 url: /net/aspose.cells.charts/ticklabels/number/
 ---
 ## TickLabels.Number property

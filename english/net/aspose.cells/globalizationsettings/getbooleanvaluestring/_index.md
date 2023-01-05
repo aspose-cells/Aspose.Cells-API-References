@@ -3,7 +3,6 @@ title: GetBooleanValueString
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the display string value for cells boolean value
 type: docs
-weight: 70
 url: /net/aspose.cells/globalizationsettings/getbooleanvaluestring/
 ---
 ## GlobalizationSettings.GetBooleanValueString method

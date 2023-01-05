@@ -3,7 +3,6 @@ title: ContainsExternalLink
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates wether this cell contains an external link. Only applies when the cell is a formula cell.
 type: docs
-weight: 200
 url: /net/aspose.cells.griddesktop.data/gridcell/containsexternallink/
 ---
 ## GridCell.ContainsExternalLink method

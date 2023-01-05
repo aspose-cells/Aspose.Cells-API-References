@@ -3,7 +3,6 @@ title: StringValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the string value contained in the cell.
 type: docs
-weight: 130
 url: /net/aspose.cells.gridweb.data/gridcell/stringvalue/
 ---
 ## GridCell.StringValue property

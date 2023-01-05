@@ -3,7 +3,6 @@ title: IsAutoText
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates the text is auto generated.
 type: docs
-weight: 20
 url: /net/aspose.cells.charts/charttextframe/isautotext/
 ---
 ## ChartTextFrame.IsAutoText property

@@ -3,7 +3,6 @@ title: ActiveIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets which scenario is selected.
 type: docs
-weight: 10
 url: /net/aspose.cells/scenariocollection/activeindex/
 ---
 ## ScenarioCollection.ActiveIndex property

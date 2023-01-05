@@ -3,7 +3,6 @@ title: GeneratorType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the generator of the ods file.
 type: docs
-weight: 20
 url: /net/aspose.cells/odssaveoptions/generatortype/
 ---
 ## OdsSaveOptions.GeneratorType property

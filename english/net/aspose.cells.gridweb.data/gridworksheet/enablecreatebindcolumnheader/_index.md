@@ -1,9 +1,8 @@
 ---
 title: EnableCreateBindColumnHeader
 second_title: Aspose.Cells for .NET API Reference
-description: In data-binding mode indicates whether to create bind column header captions in the sheet.
+description: In databinding mode indicates whether to create bind column header captions in the sheet.
 type: docs
-weight: 150
 url: /net/aspose.cells.gridweb.data/gridworksheet/enablecreatebindcolumnheader/
 ---
 ## GridWorksheet.EnableCreateBindColumnHeader property

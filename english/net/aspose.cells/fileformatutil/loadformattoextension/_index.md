@@ -3,7 +3,6 @@ title: LoadFormatToExtension
 second_title: Aspose.Cells for .NET API Reference
 description: Converts a load format enumerated value into a file extension.
 type: docs
-weight: 50
 url: /net/aspose.cells/fileformatutil/loadformattoextension/
 ---
 ## FileFormatUtil.LoadFormatToExtension method

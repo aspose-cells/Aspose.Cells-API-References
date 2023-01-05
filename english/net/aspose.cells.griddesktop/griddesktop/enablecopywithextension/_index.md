@@ -3,7 +3,6 @@ title: EnableCopyWithExtension
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the copy operation will extend the number of rows or columns.
 type: docs
-weight: 120
 url: /net/aspose.cells.griddesktop/griddesktop/enablecopywithextension/
 ---
 ## GridDesktop.EnableCopyWithExtension property

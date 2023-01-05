@@ -3,7 +3,6 @@ title: GlowEffect
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 30
 url: /net/aspose.cells.drawing/shapeformat/gloweffect/
 ---
 ## ShapeFormat.GlowEffect property

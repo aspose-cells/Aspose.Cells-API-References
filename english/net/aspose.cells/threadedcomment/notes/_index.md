@@ -3,7 +3,6 @@ title: Notes
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the text of the comment.
 type: docs
-weight: 40
 url: /net/aspose.cells/threadedcomment/notes/
 ---
 ## ThreadedComment.Notes property

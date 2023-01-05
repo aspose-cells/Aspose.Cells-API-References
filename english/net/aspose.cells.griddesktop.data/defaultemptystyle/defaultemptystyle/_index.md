@@ -3,7 +3,6 @@ title: DefaultEmptyStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Style Constructor.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop.data/defaultemptystyle/defaultemptystyle/
 ---
 ## DefaultEmptyStyle constructor

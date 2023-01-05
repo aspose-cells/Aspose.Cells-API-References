@@ -3,7 +3,6 @@ title: ContextMenu
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the shortcut menu associated with the control.
 type: docs
-weight: 10
 url: /net/aspose.cells.griddesktop/contextmenumanager/contextmenu/
 ---
 ## ContextMenuManager.ContextMenu property

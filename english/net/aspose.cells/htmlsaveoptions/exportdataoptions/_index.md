@@ -3,7 +3,6 @@ title: ExportDataOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Indicating the rule of exporting html file data.The default value is All.
 type: docs
-weight: 140
 url: /net/aspose.cells/htmlsaveoptions/exportdataoptions/
 ---
 ## HtmlSaveOptions.ExportDataOptions property

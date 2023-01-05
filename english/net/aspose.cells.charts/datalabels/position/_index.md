@@ -3,7 +3,6 @@ title: Position
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the position of the data label.
 type: docs
-weight: 120
 url: /net/aspose.cells.charts/datalabels/position/
 ---
 ## DataLabels.Position property

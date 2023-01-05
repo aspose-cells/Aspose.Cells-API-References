@@ -3,7 +3,6 @@ title: CalculatedValue
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the calculated value for this function.
 type: docs
-weight: 10
 url: /net/aspose.cells/calculationdata/calculatedvalue/
 ---
 ## CalculationData.CalculatedValue property

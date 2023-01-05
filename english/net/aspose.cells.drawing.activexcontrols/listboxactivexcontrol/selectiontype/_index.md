@@ -3,7 +3,6 @@ title: SelectionType
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the control permits multiple selections.
 type: docs
-weight: 110
 url: /net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/selectiontype/
 ---
 ## ListBoxActiveXControl.SelectionType property

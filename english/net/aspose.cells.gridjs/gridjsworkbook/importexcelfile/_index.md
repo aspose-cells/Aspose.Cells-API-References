@@ -3,7 +3,6 @@ title: ImportExcelFile
 second_title: Aspose.Cells for .NET API Reference
 description: Imports from an excel file.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridjs/gridjsworkbook/importexcelfile/
 ---
 ## ImportExcelFile(string, string, string) {#importexcelfile_8}

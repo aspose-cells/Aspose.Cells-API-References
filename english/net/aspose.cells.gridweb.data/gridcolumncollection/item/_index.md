@@ -3,7 +3,6 @@ title: Item
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a  object by column index. The Column object of given column index will be instantiated if it does not exist before.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb.data/gridcolumncollection/item/
 ---
 ## GridColumnCollection indexer

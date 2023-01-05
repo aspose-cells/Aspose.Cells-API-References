@@ -1,12 +1,11 @@
 ---
 title: Aspose.Cells.Drawing
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of shapes and fill format.
+description: Contains all classes of drawing objects such as Images Forms Lines etc..
 type: docs
-weight: 40
 url: /net/aspose.cells.drawing/
 ---
-Contains all classes of shapes and fill format.
+Contains all classes of drawing objects, such as Images, Forms, Lines etc..
 
 ## Classes
 
@@ -15,7 +14,7 @@ Contains all classes of shapes and fill format.
 | [ArcShape](./arcshape) | Represents the arc shape. |
 | [Area](./area) | Encapsulates the object that represents an area format. |
 | [AutomaticFill](./automaticfill) | represents automatic fill. |
-| [BaseShapeGuide](./baseshapeguide) |  |
+| [BaseShapeGuide](./baseshapeguide) | Represents the shape guide. |
 | [Bevel](./bevel) | Represents a bevel of a shape |
 | [Button](./button) | Represents the Forms control: Button |
 | [CellsDrawing](./cellsdrawing) | Represents the auto shape and drawing object. |
@@ -124,9 +123,10 @@ Contains all classes of shapes and fill format.
 | [PresetCameraType](./presetcameratype) | Represent different algorithmic methods for setting all camera properties, including position. |
 | [PresetMaterialType](./presetmaterialtype) | Describes surface appearance of a shape. |
 | [PresetShadowType](./presetshadowtype) | Represents preset shadow type. |
+| [PresetThemeGradientType](./presetthemegradienttype) | Represents the preset theme gradient type. |
 | [PresetWordArtStyle](./presetwordartstyle) | Represents the preset WordArt styles. |
 | [RectangleAlignmentType](./rectanglealignmenttype) | Represents how to position two rectangles relative to each other. |
-| [ReflectionEffectType](./reflectioneffecttype) |  |
+| [ReflectionEffectType](./reflectioneffecttype) | Represents the effect type of reflection. |
 | [SelectionType](./selectiontype) | The selection type of list box. |
 | [ShapeAnchorType](./shapeanchortype) | Represents the anchor type. |
 | [ShapeLockType](./shapelocktype) | Represents type of the property to be locked. |

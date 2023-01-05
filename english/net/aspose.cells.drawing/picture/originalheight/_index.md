@@ -3,7 +3,6 @@ title: OriginalHeight
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the original height of the picture.
 type: docs
-weight: 100
 url: /net/aspose.cells.drawing/picture/originalheight/
 ---
 ## Picture.OriginalHeight property

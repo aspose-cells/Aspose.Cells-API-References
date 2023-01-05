@@ -3,7 +3,6 @@ title: PrintingPage
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates which pages will not be printed.
 type: docs
-weight: 250
 url: /net/aspose.cells.rendering/imageorprintoptions/printingpage/
 ---
 ## ImageOrPrintOptions.PrintingPage property

@@ -3,7 +3,6 @@ title: GetValidationInCell
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the validation applied to given cell.
 type: docs
-weight: 30
 url: /net/aspose.cells/validationcollection/getvalidationincell/
 ---
 ## ValidationCollection.GetValidationInCell method

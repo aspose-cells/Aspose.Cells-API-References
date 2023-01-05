@@ -3,7 +3,6 @@ title: CellCheckedChanged
 second_title: Aspose.Cells for .NET API Reference
 description: Occurs when the cell checkbox Checked property is changed.
 type: docs
-weight: 400
 url: /net/aspose.cells.griddesktop/griddesktop/cellcheckedchanged/
 ---
 ## GridDesktop.CellCheckedChanged event

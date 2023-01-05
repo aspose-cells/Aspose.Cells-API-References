@@ -3,7 +3,6 @@ title: ExportTableOptions
 second_title: Aspose.Cells for .NET API Reference
 description: Represents all export table options.
 type: docs
-weight: 3240
 url: /net/aspose.cells/exporttableoptions/
 ---
 ## ExportTableOptions class

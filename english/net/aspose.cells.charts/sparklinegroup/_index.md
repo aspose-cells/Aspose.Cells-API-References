@@ -3,7 +3,6 @@ title: SparklineGroup
 second_title: Aspose.Cells for .NET API Reference
 description: Sparkline./sparkline is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type display settings and axis settings for the sparklines.
 type: docs
-weight: 890
 url: /net/aspose.cells.charts/sparklinegroup/
 ---
 ## SparklineGroup class
@@ -39,7 +38,8 @@ public class SparklineGroup
 | [ShowLowPoint](../../aspose.cells.charts/sparklinegroup/showlowpoint) { get; set; } | Indicates whether to highlight the lowest points of data in the sparkline group. |
 | [ShowMarkers](../../aspose.cells.charts/sparklinegroup/showmarkers) { get; set; } | Indicates whether to highlight each point in each line sparkline in the sparkline group. |
 | [ShowNegativePoints](../../aspose.cells.charts/sparklinegroup/shownegativepoints) { get; set; } | Indicates whether to highlight the negative values on the sparkline group with a different color or marker. |
-| [SparklineCollection](../../aspose.cells.charts/sparklinegroup/sparklinecollection) { get; } | Gets the [`SparklineCollection`](./sparklinecollection) object of the sparkline group. |
+| [SparklineCollection](../../aspose.cells.charts/sparklinegroup/sparklinecollection) { get; } | (**Obsolete.**) Gets the collection of [`Sparkline`](../sparkline) object. |
+| [Sparklines](../../aspose.cells.charts/sparklinegroup/sparklines) { get; } | Gets the collection of [`Sparkline`](../sparkline) object. |
 | [Type](../../aspose.cells.charts/sparklinegroup/type) { get; set; } | Indicates the sparkline type of the sparkline group. |
 | [VerticalAxisMaxValue](../../aspose.cells.charts/sparklinegroup/verticalaxismaxvalue) { get; set; } | Gets and sets the custom maximum value for the vertical axis. |
 | [VerticalAxisMaxValueType](../../aspose.cells.charts/sparklinegroup/verticalaxismaxvaluetype) { get; set; } | Represents the vertical axis maximum value type. |

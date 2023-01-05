@@ -3,7 +3,6 @@ title: IgnoreNull
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether ignoring null value.
 type: docs
-weight: 60
 url: /net/aspose.cells.utility/jsonlayoutoptions/ignorenull/
 ---
 ## JsonLayoutOptions.IgnoreNull property

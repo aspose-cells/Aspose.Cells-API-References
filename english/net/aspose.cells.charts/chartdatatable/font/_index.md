@@ -3,7 +3,6 @@ title: Font
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a Fontaspose.cells.charts/chartdatatable/font object which represents the font setting of the specified chart data table.
 type: docs
-weight: 50
 url: /net/aspose.cells.charts/chartdatatable/font/
 ---
 ## ChartDataTable.Font property

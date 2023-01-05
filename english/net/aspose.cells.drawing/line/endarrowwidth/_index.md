@@ -3,7 +3,6 @@ title: EndArrowWidth
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the width of the arrowhead for the end of a line.
 type: docs
-weight: 90
 url: /net/aspose.cells.drawing/line/endarrowwidth/
 ---
 ## Line.EndArrowWidth property

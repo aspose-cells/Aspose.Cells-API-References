@@ -3,7 +3,6 @@ title: Style
 second_title: Aspose.Cells for .NET API Reference
 description: The format to search for.
 type: docs
-weight: 120
 url: /net/aspose.cells/findoptions/style/
 ---
 ## FindOptions.Style property

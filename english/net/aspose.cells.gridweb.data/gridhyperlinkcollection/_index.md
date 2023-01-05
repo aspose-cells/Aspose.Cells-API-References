@@ -1,14 +1,13 @@
 ---
 title: GridHyperlinkCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Encapsulates a collection of Hyperlink./hyperlink objects.
+description: Encapsulates a collection of GridHyperlink./gridhyperlink objects.
 type: docs
-weight: 280
 url: /net/aspose.cells.gridweb.data/gridhyperlinkcollection/
 ---
 ## GridHyperlinkCollection class
 
-Encapsulates a collection of [`Hyperlink`](../hyperlink) objects.
+Encapsulates a collection of [`GridHyperlink`](../gridhyperlink) objects.
 
 ```csharp
 public class GridHyperlinkCollection
@@ -19,7 +18,7 @@ public class GridHyperlinkCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/gridhyperlinkcollection/count) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridhyperlinkcollection/item) { get; } | Gets the [`Hyperlink`](../hyperlink) element at the specified index. |
+| [Item](../../aspose.cells.gridweb.data/gridhyperlinkcollection/item) { get; } | Gets the [`GridHyperlink`](../gridhyperlink) element at the specified index. |
 
 ## Methods
 

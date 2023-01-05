@@ -3,7 +3,6 @@ title: IsVisible
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 250
 url: /net/aspose.cells.griddesktop/worksheet/isvisible/
 ---
 ## Worksheet.IsVisible property

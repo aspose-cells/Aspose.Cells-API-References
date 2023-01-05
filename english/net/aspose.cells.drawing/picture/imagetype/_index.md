@@ -3,7 +3,6 @@ title: ImageType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the image format of the picture.
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing/picture/imagetype/
 ---
 ## Picture.ImageType property

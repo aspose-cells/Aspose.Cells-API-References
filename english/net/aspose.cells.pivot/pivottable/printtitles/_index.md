@@ -3,7 +3,6 @@ title: PrintTitles
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false.
 type: docs
-weight: 480
 url: /net/aspose.cells.pivot/pivottable/printtitles/
 ---
 ## PivotTable.PrintTitles property

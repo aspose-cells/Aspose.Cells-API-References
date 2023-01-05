@@ -3,7 +3,6 @@ title: Copy
 second_title: Aspose.Cells for .NET API Reference
 description: Copies data from another style object
 type: docs
-weight: 320
 url: /net/aspose.cells/style/copy/
 ---
 ## Style.Copy method

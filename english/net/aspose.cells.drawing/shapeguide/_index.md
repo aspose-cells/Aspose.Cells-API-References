@@ -3,7 +3,6 @@ title: ShapeGuide
 second_title: Aspose.Cells for .NET API Reference
 description: Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape
 type: docs
-weight: 2680
 url: /net/aspose.cells.drawing/shapeguide/
 ---
 ## ShapeGuide class

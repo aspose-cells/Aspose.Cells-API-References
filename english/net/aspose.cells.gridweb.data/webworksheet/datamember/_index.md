@@ -1,9 +1,8 @@
 ---
 title: DataMember
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the DataMember from the multi-member DataSource. Generally it represents a DataTable object of a DataSet.
+description: Gets or sets the DataMember from the multimember DataSource. Generally it represents a DataTable object of a DataSet.
 type: docs
-weight: 100
 url: /net/aspose.cells.gridweb.data/webworksheet/datamember/
 ---
 ## WebWorksheet.DataMember property

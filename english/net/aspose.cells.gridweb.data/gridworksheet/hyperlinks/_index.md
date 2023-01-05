@@ -1,14 +1,13 @@
 ---
 title: Hyperlinks
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the HyperlinkCollection collection.
+description: Gets the GridHyperlinkCollectionaspose.cells.gridweb.data/gridhyperlinkcollection collection.
 type: docs
-weight: 190
 url: /net/aspose.cells.gridweb.data/gridworksheet/hyperlinks/
 ---
 ## GridWorksheet.Hyperlinks property
 
-Gets the HyperlinkCollection collection.
+Gets the [`GridHyperlinkCollection`](../../gridhyperlinkcollection) collection.
 
 ```csharp
 public GridHyperlinkCollection Hyperlinks { get; }

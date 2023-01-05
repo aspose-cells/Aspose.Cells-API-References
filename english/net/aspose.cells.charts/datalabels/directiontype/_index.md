@@ -3,7 +3,6 @@ title: DirectionType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the direction of text.
 type: docs
-weight: 40
 url: /net/aspose.cells.charts/datalabels/directiontype/
 ---
 ## DataLabels.DirectionType property

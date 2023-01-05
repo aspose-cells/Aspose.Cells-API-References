@@ -3,7 +3,6 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 70
 url: /net/aspose.cells.griddesktop.data/gridpicturecollection/removeat/
 ---
 ## GridPictureCollection.RemoveAt method

@@ -3,7 +3,6 @@ title: Shadow
 second_title: Aspose.Cells for .NET API Reference
 description: True if the series has a shadow.
 type: docs
-weight: 370
 url: /net/aspose.cells.charts/series/shadow/
 ---
 ## Series.Shadow property

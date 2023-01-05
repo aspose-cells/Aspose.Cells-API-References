@@ -3,7 +3,6 @@ title: TableDataSourceType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the tables data source type.
 type: docs
-weight: 5870
 url: /net/aspose.cells.tables/tabledatasourcetype/
 ---
 ## TableDataSourceType enumeration

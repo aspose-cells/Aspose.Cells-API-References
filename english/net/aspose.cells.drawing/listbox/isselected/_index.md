@@ -3,7 +3,6 @@ title: IsSelected
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the item is selected.
 type: docs
-weight: 70
 url: /net/aspose.cells.drawing/listbox/isselected/
 ---
 ## ListBox.IsSelected method

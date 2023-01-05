@@ -3,7 +3,6 @@ title: FindLastIndex
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 130
 url: /net/aspose.cells/collectionbase-1/findlastindex/
 ---
 ## FindLastIndex(Predicate&lt;T&gt;) {#findlastindex_2}

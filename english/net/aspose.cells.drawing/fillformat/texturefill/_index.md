@@ -3,7 +3,6 @@ title: TextureFill
 second_title: Aspose.Cells for .NET API Reference
 description: Gets TextureFillaspose.cells.drawing/fillformat/texturefill object.
 type: docs
-weight: 180
 url: /net/aspose.cells.drawing/fillformat/texturefill/
 ---
 ## FillFormat.TextureFill property

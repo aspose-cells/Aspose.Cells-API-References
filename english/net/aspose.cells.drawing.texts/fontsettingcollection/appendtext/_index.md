@@ -3,7 +3,6 @@ title: AppendText
 second_title: Aspose.Cells for .NET API Reference
 description: Appends the text.
 type: docs
-weight: 60
 url: /net/aspose.cells.drawing.texts/fontsettingcollection/appendtext/
 ---
 ## FontSettingCollection.AppendText method

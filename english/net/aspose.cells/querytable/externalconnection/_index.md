@@ -3,7 +3,6 @@ title: ExternalConnection
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the relate external connection.
 type: docs
-weight: 30
 url: /net/aspose.cells/querytable/externalconnection/
 ---
 ## QueryTable.ExternalConnection property

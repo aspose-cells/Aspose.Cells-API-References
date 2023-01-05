@@ -3,7 +3,6 @@ title: ImportXml
 second_title: Aspose.Cells for .NET API Reference
 description: Imports/Updates an XML data file into the workbook.
 type: docs
-weight: 480
 url: /net/aspose.cells/workbook/importxml/
 ---
 ## ImportXml(string, string, int, int) {#importxml_1}

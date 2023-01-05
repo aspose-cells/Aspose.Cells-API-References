@@ -3,7 +3,6 @@ title: EndRow
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or set the end row of this area.
 type: docs
-weight: 30
 url: /net/aspose.cells/cellarea/endrow/
 ---
 ## CellArea.EndRow field

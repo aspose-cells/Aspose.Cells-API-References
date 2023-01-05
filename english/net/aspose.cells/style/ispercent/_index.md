@@ -3,7 +3,6 @@ title: IsPercent
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the number format is a percent format.
 type: docs
-weight: 210
 url: /net/aspose.cells/style/ispercent/
 ---
 ## Style.IsPercent property

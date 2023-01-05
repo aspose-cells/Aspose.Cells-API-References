@@ -3,7 +3,6 @@ title: RowInMerged
 second_title: Aspose.Cells for .NET API Reference
 description: Gets a value that indicates whether the specified row in merges.
 type: docs
-weight: 970
 url: /net/aspose.cells.griddesktop/worksheet/rowinmerged/
 ---
 ## Worksheet.RowInMerged method

@@ -3,7 +3,6 @@ title: MsoArrowheadStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Enumerates the line end type of the shape border line.
 type: docs
-weight: 2300
 url: /net/aspose.cells.drawing/msoarrowheadstyle/
 ---
 ## MsoArrowheadStyle enumeration

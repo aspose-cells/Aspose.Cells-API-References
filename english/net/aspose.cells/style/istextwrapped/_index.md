@@ -3,7 +3,6 @@ title: IsTextWrapped
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value indicating whether the text within a cell is wrapped.
 type: docs
-weight: 220
 url: /net/aspose.cells/style/istextwrapped/
 ---
 ## Style.IsTextWrapped property

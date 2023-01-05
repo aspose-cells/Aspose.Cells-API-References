@@ -3,7 +3,6 @@ title: Title
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the charts title.
 type: docs
-weight: 450
 url: /net/aspose.cells.charts/chart/title/
 ---
 ## Chart.Title property

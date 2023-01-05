@@ -3,7 +3,6 @@ title: Function
 second_title: Aspose.Cells for .NET API Reference
 description: Represents function used to summarize the PivotTable field data fields only. The default function is Count.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb.data/pivotfield/function/
 ---
 ## PivotField.Function property

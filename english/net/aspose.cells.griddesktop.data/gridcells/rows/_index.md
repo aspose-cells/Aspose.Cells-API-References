@@ -3,7 +3,6 @@ title: Rows
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the collection of GridRowaspose.cells.griddesktop.data/gridrow objects that represents the individual rows in this worksheet.
 type: docs
-weight: 160
 url: /net/aspose.cells.griddesktop.data/gridcells/rows/
 ---
 ## GridCells.Rows property

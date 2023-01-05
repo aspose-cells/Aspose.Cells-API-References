@@ -3,7 +3,6 @@ title: Order
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the trendline order an integer greater than 1 when the trendline type is Polynomial. The order must be between 2 and 6.
 type: docs
-weight: 100
 url: /net/aspose.cells.charts/trendline/order/
 ---
 ## Trendline.Order property

@@ -3,7 +3,6 @@ title: GetResultOfSmartArt
 second_title: Aspose.Cells for .NET API Reference
 description: Converting smart art to grouped shapes.
 type: docs
-weight: 10
 url: /net/aspose.cells.drawing/smartartshape/getresultofsmartart/
 ---
 ## SmartArtShape.GetResultOfSmartArt method

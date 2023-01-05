@@ -3,7 +3,6 @@ title: CopyColumns
 second_title: Aspose.Cells for .NET API Reference
 description: Copies data and formattings of a whole column.
 type: docs
-weight: 270
 url: /net/aspose.cells.gridweb.data/gridcells/copycolumns/
 ---
 ## GridCells.CopyColumns method

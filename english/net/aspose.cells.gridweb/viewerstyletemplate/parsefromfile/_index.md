@@ -3,7 +3,6 @@ title: ParseFromFile
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 220
 url: /net/aspose.cells.gridweb/viewerstyletemplate/parsefromfile/
 ---
 ## ViewerStyleTemplate.ParseFromFile method

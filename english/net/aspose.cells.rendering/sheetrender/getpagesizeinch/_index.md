@@ -3,7 +3,6 @@ title: GetPageSizeInch
 second_title: Aspose.Cells for .NET API Reference
 description: Get page size in inch of output image.
 type: docs
-weight: 60
 url: /net/aspose.cells.rendering/sheetrender/getpagesizeinch/
 ---
 ## SheetRender.GetPageSizeInch method

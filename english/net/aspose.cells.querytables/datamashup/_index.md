@@ -3,7 +3,6 @@ title: DataMashup
 second_title: Aspose.Cells for .NET API Reference
 description: Represents mashup data.
 type: docs
-weight: 4980
 url: /net/aspose.cells.querytables/datamashup/
 ---
 ## DataMashup class

@@ -3,7 +3,6 @@ title: TopMarginInch
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the size of the top margin in unit of inches.
 type: docs
-weight: 420
 url: /net/aspose.cells/pagesetup/topmargininch/
 ---
 ## PageSetup.TopMarginInch property

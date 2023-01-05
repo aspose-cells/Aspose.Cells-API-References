@@ -3,7 +3,6 @@ title: SetBackground
 second_title: Aspose.Cells for .NET API Reference
 description: Sets worksheet background image.
 type: docs
-weight: 840
 url: /net/aspose.cells/worksheet/setbackground/
 ---
 ## Worksheet.SetBackground method

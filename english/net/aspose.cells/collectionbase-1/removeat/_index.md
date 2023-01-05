@@ -3,7 +3,6 @@ title: RemoveAt
 second_title: Aspose.Cells for .NET API Reference
 description: Removes the element at the specified index.
 type: docs
-weight: 170
 url: /net/aspose.cells/collectionbase-1/removeat/
 ---
 ## CollectionBase&lt;T&gt;.RemoveAt method

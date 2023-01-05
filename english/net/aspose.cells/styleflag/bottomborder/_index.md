@@ -3,7 +3,6 @@ title: BottomBorder
 second_title: Aspose.Cells for .NET API Reference
 description: Bottom border settings will be applied.
 type: docs
-weight: 50
 url: /net/aspose.cells/styleflag/bottomborder/
 ---
 ## StyleFlag.BottomBorder property

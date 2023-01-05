@@ -3,7 +3,6 @@ title: HeightPixel
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets the height of the specified timeline in pixels.
 type: docs
-weight: 20
 url: /net/aspose.cells.timelines/timeline/heightpixel/
 ---
 ## Timeline.HeightPixel property

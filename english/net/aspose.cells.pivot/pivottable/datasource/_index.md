@@ -3,7 +3,6 @@ title: DataSource
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the data source of the pivot table.
 type: docs
-weight: 130
 url: /net/aspose.cells.pivot/pivottable/datasource/
 ---
 ## PivotTable.DataSource property

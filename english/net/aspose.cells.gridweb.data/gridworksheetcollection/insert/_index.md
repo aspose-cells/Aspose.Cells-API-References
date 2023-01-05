@@ -3,7 +3,6 @@ title: Insert
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 170
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/insert/
 ---
 ## GridWorksheetCollection.Insert method

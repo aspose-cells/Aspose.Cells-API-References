@@ -3,7 +3,6 @@ title: HtmlCrossType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents five types of html cross string.
 type: docs
-weight: 3700
 url: /net/aspose.cells/htmlcrosstype/
 ---
 ## HtmlCrossType enumeration

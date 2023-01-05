@@ -3,7 +3,6 @@ title: IsPrintable
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the slicer object is printable.
 type: docs
-weight: 90
 url: /net/aspose.cells.slicers/slicer/isprintable/
 ---
 ## Slicer.IsPrintable property

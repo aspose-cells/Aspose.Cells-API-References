@@ -3,7 +3,6 @@ title: GetCellByIndex
 second_title: Aspose.Cells for .NET API Reference
 description: Get the cell by specific index in the list.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb.data/gridrow/getcellbyindex/
 ---
 ## GridRow.GetCellByIndex method

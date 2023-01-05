@@ -3,7 +3,6 @@ title: FontEncoding
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets embedded font encoding in pdf.
 type: docs
-weight: 170
 url: /net/aspose.cells/pdfsaveoptions/fontencoding/
 ---
 ## PdfSaveOptions.FontEncoding property

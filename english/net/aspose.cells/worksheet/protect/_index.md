@@ -3,7 +3,6 @@ title: Protect
 second_title: Aspose.Cells for .NET API Reference
 description: Protects worksheet.
 type: docs
-weight: 770
 url: /net/aspose.cells/worksheet/protect/
 ---
 ## Protect(ProtectionType) {#protect}

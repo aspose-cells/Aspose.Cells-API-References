@@ -3,7 +3,6 @@ title: KeepPrecision
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether not parsing a string value if the length is 15.
 type: docs
-weight: 40
 url: /net/aspose.cells/abstracttextloadoptions/keepprecision/
 ---
 ## AbstractTextLoadOptions.KeepPrecision property

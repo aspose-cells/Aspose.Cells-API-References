@@ -3,7 +3,6 @@ title: AfterCalculate
 second_title: Aspose.Cells for .NET API Reference
 description: Implement this method to do business after one cell has been calculated.
 type: docs
-weight: 40
 url: /net/aspose.cells/abstractcalculationmonitor/aftercalculate/
 ---
 ## AbstractCalculationMonitor.AfterCalculate method

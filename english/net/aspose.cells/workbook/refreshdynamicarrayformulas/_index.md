@@ -1,14 +1,13 @@
 ---
 title: RefreshDynamicArrayFormulas
 second_title: Aspose.Cells for .NET API Reference
-description: Refreshes dynamic array formulasspill into new range of neighboring cells according to current data
+description: Refreshes dynamic array formulasspill into new range of neighboring cells according to current data Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas.
 type: docs
-weight: 530
 url: /net/aspose.cells/workbook/refreshdynamicarrayformulas/
 ---
-## Workbook.RefreshDynamicArrayFormulas method
+## RefreshDynamicArrayFormulas(bool) {#refreshdynamicarrayformulas}
 
-Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data)
+Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas.
 
 ```csharp
 public void RefreshDynamicArrayFormulas(bool calculate)
@@ -16,10 +15,32 @@ public void RefreshDynamicArrayFormulas(bool calculate)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| calculate | Boolean | Whether calculates and update cell values for those dynamic array formulas when the spilled range changes. |
+| calculate | Boolean | Whether calculates and updates cell values for those dynamic array formulas |
 
 ### See Also
 
+* class [Workbook](../../workbook)
+* namespace [Aspose.Cells](../../workbook)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## RefreshDynamicArrayFormulas(bool, CalculationOptions) {#refreshdynamicarrayformulas_1}
+
+Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data)
+
+```csharp
+public void RefreshDynamicArrayFormulas(bool calculate, CalculationOptions copts)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| calculate | Boolean | Whether calculates and updates cell values for those dynamic array formulas |
+| copts | CalculationOptions | The options for calculating formulas |
+
+### See Also
+
+* class [CalculationOptions](../../calculationoptions)
 * class [Workbook](../../workbook)
 * namespace [Aspose.Cells](../../workbook)
 * assembly [Aspose.Cells](../../../)

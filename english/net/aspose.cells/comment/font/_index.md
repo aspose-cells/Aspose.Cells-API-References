@@ -3,7 +3,6 @@ title: Font
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the font of comment.
 type: docs
-weight: 50
 url: /net/aspose.cells/comment/font/
 ---
 ## Comment.Font property

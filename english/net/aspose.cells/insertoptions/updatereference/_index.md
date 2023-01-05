@@ -3,7 +3,6 @@ title: UpdateReference
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates if references in other worksheets will be updated.
 type: docs
-weight: 30
 url: /net/aspose.cells/insertoptions/updatereference/
 ---
 ## InsertOptions.UpdateReference property

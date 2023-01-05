@@ -3,7 +3,6 @@ title: BorderCollapse
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the border collapse feature.
 type: docs
-weight: 30
 url: /net/aspose.cells.gridweb/gridtablestyle/bordercollapse/
 ---
 ## GridTableStyle.BorderCollapse property

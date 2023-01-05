@@ -3,7 +3,6 @@ title: LanguageCode
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the user interface language of the Workbook version based on CountryCode that has saved the file.
 type: docs
-weight: 120
 url: /net/aspose.cells/loadoptions/languagecode/
 ---
 ## LoadOptions.LanguageCode property

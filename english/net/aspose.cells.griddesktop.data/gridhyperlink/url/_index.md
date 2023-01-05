@@ -3,7 +3,6 @@ title: Url
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 90
 url: /net/aspose.cells.griddesktop.data/gridhyperlink/url/
 ---
 ## GridHyperlink.Url property

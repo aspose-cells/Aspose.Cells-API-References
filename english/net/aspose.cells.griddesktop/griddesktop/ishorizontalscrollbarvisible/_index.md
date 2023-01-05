@@ -3,7 +3,6 @@ title: IsHorizontalScrollBarVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Sets visible statue for Horizontal ScrollBar.
 type: docs
-weight: 160
 url: /net/aspose.cells.griddesktop/griddesktop/ishorizontalscrollbarvisible/
 ---
 ## GridDesktop.IsHorizontalScrollBarVisible property

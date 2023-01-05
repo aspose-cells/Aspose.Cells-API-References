@@ -3,7 +3,6 @@ title: AlternativeStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the alternative style of the column.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridweb/bindcolumn/alternativestyle/
 ---
 ## BindColumn.AlternativeStyle property
@@ -11,12 +10,12 @@ url: /net/aspose.cells.gridweb/bindcolumn/alternativestyle/
 Gets or sets the alternative style of the column.
 
 ```csharp
-public TableItemStyle AlternativeStyle { get; set; }
+public GridTableItemStyle AlternativeStyle { get; set; }
 ```
 
 ### See Also
 
-* class [TableItemStyle](../../tableitemstyle)
+* class [GridTableItemStyle](../../gridtableitemstyle)
 * class [BindColumn](../../bindcolumn)
 * namespace [Aspose.Cells.GridWeb](../../bindcolumn)
 * assembly [Aspose.Cells.GridWeb](../../../)

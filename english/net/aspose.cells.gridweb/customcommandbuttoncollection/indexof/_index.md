@@ -3,7 +3,6 @@ title: IndexOf
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the index of the button.
 type: docs
-weight: 120
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/indexof/
 ---
 ## CustomCommandButtonCollection.IndexOf method

@@ -3,7 +3,6 @@ title: AddLinkedPicture
 second_title: Aspose.Cells for .NET API Reference
 description: Add a linked picture.
 type: docs
-weight: 160
 url: /net/aspose.cells.drawing/shapecollection/addlinkedpicture/
 ---
 ## ShapeCollection.AddLinkedPicture method

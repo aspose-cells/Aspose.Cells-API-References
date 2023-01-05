@@ -3,7 +3,6 @@ title: Shadow
 second_title: Aspose.Cells for .NET API Reference
 description: True if the frame has a shadow.
 type: docs
-weight: 150
 url: /net/aspose.cells.charts/chartframe/shadow/
 ---
 ## ChartFrame.Shadow property

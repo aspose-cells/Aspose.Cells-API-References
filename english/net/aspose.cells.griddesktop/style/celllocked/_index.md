@@ -3,7 +3,6 @@ title: CellLocked
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 30
 url: /net/aspose.cells.griddesktop/style/celllocked/
 ---
 ## Style.CellLocked property

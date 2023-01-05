@@ -3,7 +3,6 @@ title: Indent
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the m_IndentLevel level for the cell or range. Can only be an integer from 0 to 15.
 type: docs
-weight: 80
 url: /net/aspose.cells.griddesktop/style/indent/
 ---
 ## Style.Indent property

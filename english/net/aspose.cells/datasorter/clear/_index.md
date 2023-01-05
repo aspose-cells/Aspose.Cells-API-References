@@ -3,7 +3,6 @@ title: Clear
 second_title: Aspose.Cells for .NET API Reference
 description: Clear all settings.
 type: docs
-weight: 130
 url: /net/aspose.cells/datasorter/clear/
 ---
 ## DataSorter.Clear method

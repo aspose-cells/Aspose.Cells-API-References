@@ -1,9 +1,8 @@
 ---
 title: AutoShowField
 second_title: Aspose.Cells for .NET API Reference
-description: Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
+description: Represents auto show field index. 1 means PivotField itself. It should be the index of the data fields.
 type: docs
-weight: 20
 url: /net/aspose.cells.pivot/pivotfield/autoshowfield/
 ---
 ## PivotField.AutoShowField property

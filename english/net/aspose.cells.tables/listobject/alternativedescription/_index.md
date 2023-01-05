@@ -3,7 +3,6 @@ title: AlternativeDescription
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the alternative description.
 type: docs
-weight: 10
 url: /net/aspose.cells.tables/listobject/alternativedescription/
 ---
 ## ListObject.AlternativeDescription property

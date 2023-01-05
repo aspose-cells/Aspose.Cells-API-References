@@ -3,7 +3,6 @@ title: Indexes
 second_title: Aspose.Cells for .NET API Reference
 description: The indexes of columns/rows which should be exported out.
 type: docs
-weight: 80
 url: /net/aspose.cells/exporttableoptions/indexes/
 ---
 ## ExportTableOptions.Indexes property

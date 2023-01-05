@@ -3,7 +3,6 @@ title: OnCircular
 second_title: Aspose.Cells for .NET API Reference
 description: Implement this method to do business when calculating formulas with circular references.
 type: docs
-weight: 60
 url: /net/aspose.cells/abstractcalculationmonitor/oncircular/
 ---
 ## AbstractCalculationMonitor.OnCircular method

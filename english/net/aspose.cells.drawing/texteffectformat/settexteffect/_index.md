@@ -3,7 +3,6 @@ title: SetTextEffect
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the preset text effect.
 type: docs
-weight: 80
 url: /net/aspose.cells.drawing/texteffectformat/settexteffect/
 ---
 ## TextEffectFormat.SetTextEffect method

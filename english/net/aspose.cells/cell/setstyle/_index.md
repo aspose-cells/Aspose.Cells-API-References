@@ -3,7 +3,6 @@ title: SetStyle
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the cell style.
 type: docs
-weight: 670
 url: /net/aspose.cells/cell/setstyle/
 ---
 ## SetStyle(Style) {#setstyle}

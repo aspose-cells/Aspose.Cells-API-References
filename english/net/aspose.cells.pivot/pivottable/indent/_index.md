@@ -3,7 +3,6 @@ title: Indent
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form.
 type: docs
-weight: 270
 url: /net/aspose.cells.pivot/pivottable/indent/
 ---
 ## PivotTable.Indent property

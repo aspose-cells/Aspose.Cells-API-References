@@ -3,7 +3,6 @@ title: PlotArea
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the charts plot area which includes axis tick labels.
 type: docs
-weight: 280
 url: /net/aspose.cells.charts/chart/plotarea/
 ---
 ## Chart.PlotArea property

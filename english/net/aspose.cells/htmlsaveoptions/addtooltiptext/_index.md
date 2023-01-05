@@ -3,7 +3,6 @@ title: AddTooltipText
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether adding tooltip text when the data cant be fully displayed. The default value is false.
 type: docs
-weight: 20
 url: /net/aspose.cells/htmlsaveoptions/addtooltiptext/
 ---
 ## HtmlSaveOptions.AddTooltipText property

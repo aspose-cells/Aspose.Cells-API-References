@@ -3,7 +3,6 @@ title: FirstLineIndent
 second_title: Aspose.Cells for .NET API Reference
 description: Specifies the indent size that will be applied to the first line of text in the paragraph.
 type: docs
-weight: 50
 url: /net/aspose.cells.drawing.texts/textparagraph/firstlineindent/
 ---
 ## TextParagraph.FirstLineIndent property

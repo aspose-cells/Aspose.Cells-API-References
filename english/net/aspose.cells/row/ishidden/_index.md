@@ -3,7 +3,6 @@ title: IsHidden
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether the row is hidden.
 type: docs
-weight: 90
 url: /net/aspose.cells/row/ishidden/
 ---
 ## Row.IsHidden property

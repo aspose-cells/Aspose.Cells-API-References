@@ -3,7 +3,6 @@ title: Type
 second_title: Aspose.Cells for .NET API Reference
 description: Gets the auto shape type.
 type: docs
-weight: 870
 url: /net/aspose.cells.drawing/shape/type/
 ---
 ## Shape.Type property

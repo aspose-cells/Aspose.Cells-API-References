@@ -3,7 +3,6 @@ title: IndentLevel
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the indent level for the cell or range. Can only be an integer from 0 to 250.
 type: docs
-weight: 140
 url: /net/aspose.cells/style/indentlevel/
 ---
 ## Style.IndentLevel property

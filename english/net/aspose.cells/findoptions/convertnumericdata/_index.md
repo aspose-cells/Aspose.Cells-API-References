@@ -3,7 +3,6 @@ title: ConvertNumericData
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets a value that indicates whether converting the searched string value to numeric data.
 type: docs
-weight: 30
 url: /net/aspose.cells/findoptions/convertnumericdata/
 ---
 ## FindOptions.ConvertNumericData property

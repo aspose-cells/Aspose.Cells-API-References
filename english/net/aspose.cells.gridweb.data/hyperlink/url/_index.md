@@ -3,7 +3,6 @@ title: Url
 second_title: Aspose.Cells for .NET API Reference
 description: Gets or sets the URL string.
 type: docs
-weight: 90
 url: /net/aspose.cells.gridweb.data/hyperlink/url/
 ---
 ## Hyperlink.Url property

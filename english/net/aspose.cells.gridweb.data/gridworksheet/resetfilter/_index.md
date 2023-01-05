@@ -3,7 +3,6 @@ title: ResetFilter
 second_title: Aspose.Cells for .NET API Reference
 description: The integer offset of the field on which you want to apply based on the first filter column from the left of the list the leftmost field is field 0.
 type: docs
-weight: 690
 url: /net/aspose.cells.gridweb.data/gridworksheet/resetfilter/
 ---
 ## GridWorksheet.ResetFilter method

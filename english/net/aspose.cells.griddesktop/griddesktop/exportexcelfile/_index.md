@@ -3,7 +3,6 @@ title: ExportExcelFile
 second_title: Aspose.Cells for .NET API Reference
 description: Exports to an excel file.
 type: docs
-weight: 690
 url: /net/aspose.cells.griddesktop/griddesktop/exportexcelfile/
 ---
 ## ExportExcelFile(string) {#exportexcelfile_2}

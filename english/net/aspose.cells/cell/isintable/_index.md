@@ -3,7 +3,6 @@ title: IsInTable
 second_title: Aspose.Cells for .NET API Reference
 description: Indicates whether this cell is part of table formula.
 type: docs
-weight: 180
 url: /net/aspose.cells/cell/isintable/
 ---
 ## Cell.IsInTable property

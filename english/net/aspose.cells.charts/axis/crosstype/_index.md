@@ -3,7 +3,6 @@ title: CrossType
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the CrossTypeaspose.cells.charts/axis/crosstype on the specified axis where the other axis crosses.
 type: docs
-weight: 90
 url: /net/aspose.cells.charts/axis/crosstype/
 ---
 ## Axis.CrossType property

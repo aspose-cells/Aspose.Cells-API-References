@@ -3,7 +3,6 @@ title: SetFitToPages
 second_title: Aspose.Cells for .NET API Reference
 description: Sets the number of pages the worksheet will be scaled to when its printed.
 type: docs
-weight: 590
 url: /net/aspose.cells/pagesetup/setfittopages/
 ---
 ## PageSetup.SetFitToPages method

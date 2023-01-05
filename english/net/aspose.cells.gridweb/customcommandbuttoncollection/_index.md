@@ -3,7 +3,6 @@ title: CustomCommandButtonCollection
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the collection of CustomCommandButton.
 type: docs
-weight: 60
 url: /net/aspose.cells.gridweb/customcommandbuttoncollection/
 ---
 ## CustomCommandButtonCollection class
@@ -11,7 +10,7 @@ url: /net/aspose.cells.gridweb/customcommandbuttoncollection/
 Represents the collection of CustomCommandButton.
 
 ```csharp
-public class CustomCommandButtonCollection : IList
+public class CustomCommandButtonCollection : CollectionBase
 ```
 
 ## Properties
@@ -30,14 +29,14 @@ public class CustomCommandButtonCollection : IList
 | Name | Description |
 | --- | --- |
 | [Add](../../aspose.cells.gridweb/customcommandbuttoncollection/add)(object) | Add a custom command button object to the collection. |
-| [Clear](../../aspose.cells.gridweb/customcommandbuttoncollection/clear)() | Clears the collection. |
+| [Clear](../../aspose.cells.gridweb/customcommandbuttoncollection/clear#clear)() | Clears the collection. |
 | [Contains](../../aspose.cells.gridweb/customcommandbuttoncollection/contains)(object) | Indicates whether the custom command button object is in the collection. |
 | [CopyTo](../../aspose.cells.gridweb/customcommandbuttoncollection/copyto)(Array, int) | Copies the collection to an array. |
-| [GetEnumerator](../../aspose.cells.gridweb/customcommandbuttoncollection/getenumerator)() | Gets a IEnumerator object of the collection. |
+| [GetEnumerator](../../aspose.cells.gridweb/customcommandbuttoncollection/getenumerator#getenumerator)() | Gets a IEnumerator object of the collection. |
 | [IndexOf](../../aspose.cells.gridweb/customcommandbuttoncollection/indexof)(object) | Gets the index of the button. |
 | [Insert](../../aspose.cells.gridweb/customcommandbuttoncollection/insert)(int, object) | Inserts a button at the index. |
 | [Remove](../../aspose.cells.gridweb/customcommandbuttoncollection/remove)(object) | Removes the custom command button object. |
-| [RemoveAt](../../aspose.cells.gridweb/customcommandbuttoncollection/removeat)(int) | Removes at the index. |
+| [RemoveAt](../../aspose.cells.gridweb/customcommandbuttoncollection/removeat#removeat)(int) | Removes at the index. |
 
 ### Examples
 

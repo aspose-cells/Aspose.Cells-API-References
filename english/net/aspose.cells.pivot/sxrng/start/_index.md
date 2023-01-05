@@ -3,7 +3,6 @@ title: Start
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the start object for the group range.
 type: docs
-weight: 60
 url: /net/aspose.cells.pivot/sxrng/start/
 ---
 ## SxRng.Start property

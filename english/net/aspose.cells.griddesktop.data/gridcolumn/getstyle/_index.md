@@ -3,7 +3,6 @@ title: GetStyle
 second_title: Aspose.Cells for .NET API Reference
 description: 
 type: docs
-weight: 130
 url: /net/aspose.cells.griddesktop.data/gridcolumn/getstyle/
 ---
 ## GridColumn.GetStyle method

@@ -3,7 +3,6 @@ title: SheetEventHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the interface that intend to handle sheet events.
 type: docs
-weight: 820
 url: /net/aspose.cells.gridweb.data/sheeteventhandler/
 ---
 ## SheetEventHandler delegate

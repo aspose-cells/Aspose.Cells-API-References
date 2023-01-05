@@ -3,7 +3,6 @@ title: CaptionVisible
 second_title: Aspose.Cells for .NET API Reference
 description: Returns or sets whether the header that displays the slicer Caption is visible the default value is true
 type: docs
-weight: 30
 url: /net/aspose.cells.slicers/slicer/captionvisible/
 ---
 ## Slicer.CaptionVisible property

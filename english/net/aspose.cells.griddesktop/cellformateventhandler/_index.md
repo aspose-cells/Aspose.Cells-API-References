@@ -3,7 +3,6 @@ title: CellFormatEventHandler
 second_title: Aspose.Cells for .NET API Reference
 description: Represents the method that intend to handle cell format events.
 type: docs
-weight: 150
 url: /net/aspose.cells.griddesktop/cellformateventhandler/
 ---
 ## CellFormatEventHandler delegate

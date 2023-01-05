@@ -3,7 +3,6 @@ title: GetNumbericType
 second_title: Aspose.Cells for .NET API Reference
 description: Gets numeric type in the database.
 type: docs
-weight: 20
 url: /net/aspose.cells.saving/sqlscriptcolumntypemap/getnumberictype/
 ---
 ## SqlScriptColumnTypeMap.GetNumbericType method

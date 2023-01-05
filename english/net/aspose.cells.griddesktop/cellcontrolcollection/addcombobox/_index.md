@@ -3,7 +3,6 @@ title: AddComboBox
 second_title: Aspose.Cells for .NET API Reference
 description: Adds a combobox to a specified cell at row column index.
 type: docs
-weight: 40
 url: /net/aspose.cells.griddesktop/cellcontrolcollection/addcombobox/
 ---
 ## AddComboBox(int, int, ICollection) {#addcombobox}

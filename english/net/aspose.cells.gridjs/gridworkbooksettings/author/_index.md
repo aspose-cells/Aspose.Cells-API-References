@@ -3,7 +3,6 @@ title: Author
 second_title: Aspose.Cells for .NET API Reference
 description: Gets and sets the author of the file.
 type: docs
-weight: 20
 url: /net/aspose.cells.gridjs/gridworkbooksettings/author/
 ---
 ## GridWorkbookSettings.Author property
