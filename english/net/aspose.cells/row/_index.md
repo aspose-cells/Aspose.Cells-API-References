@@ -20,6 +20,7 @@ public class Row : IEnumerable
 | [FirstCell](../../aspose.cells/row/firstcell) { get; } | Gets the first cell object in the row. |
 | [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | Gets the first non-blank cell in the row. |
 | [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | Gets the group level of the row. |
+| [HasCustomStyle](../../aspose.cells/row/hascustomstyle) { get; } | Indicates whether this row has custom style settings(different from the default one inherited from workbook). |
 | [Height](../../aspose.cells/row/height) { get; set; } | Gets and sets the row height in unit of Points. |
 | [Index](../../aspose.cells/row/index) { get; } | Gets the index of this row. |
 | [IsBlank](../../aspose.cells/row/isblank) { get; } | Indicates whether the row contains any data |
@@ -29,7 +30,7 @@ public class Row : IEnumerable
 | [Item](../../aspose.cells/row/item) { get; } | Gets the cell. |
 | [LastCell](../../aspose.cells/row/lastcell) { get; } | Gets the last cell object in the row. |
 | [LastDataCell](../../aspose.cells/row/lastdatacell) { get; } | Gets the last non-blank cell in the row. |
-| [Style](../../aspose.cells/row/style) { get; } | Represents the style of this row. |
+| [Style](../../aspose.cells/row/style) { get; } | (**Obsolete.**) Represents the style of this row. |
 
 ## Methods
 
@@ -37,11 +38,13 @@ public class Row : IEnumerable
 | --- | --- |
 | [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | Applies formats for a whole row. |
 | [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Copy settings of row, such as style, height, visibility, ...etc. |
-| [Equals](../../aspose.cells/row/equals#equals_1)(object) | Checks whether this object refers to the same row with another. |
+| override [Equals](../../aspose.cells/row/equals#equals_1)(object) | Checks whether this object refers to the same row with another. |
 | [Equals](../../aspose.cells/row/equals#equals)(Row) | Checks whether this object refers to the same row with another row object. |
 | [GetCellByIndex](../../aspose.cells/row/getcellbyindex)(int) | (**Obsolete.**) Get the cell by specific index in the list. |
 | [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Gets the cell or null in the specific index. |
 | [GetEnumerator](../../aspose.cells/row/getenumerator)() | Gets the cells enumerator |
+| [GetStyle](../../aspose.cells/row/getstyle)() | Gets the style of this row. |
+| [SetStyle](../../aspose.cells/row/setstyle)(Style) | Sets the style of this row. |
 
 ### Examples
 

@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Tables
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of TableList Object.
+description: The Aspose.Cells.Tables namespace contains classes that represent tables rows cells and their formatting for Excel Spreadsheet files.
 type: docs
 url: /net/aspose.cells.tables/
 ---
-Contains all classes of Table(List Object).
+The **Aspose.Cells.Tables** namespace contains classes that represent tables, rows, cells and their formatting for Excel Spreadsheet files.
 
 ## Classes
 

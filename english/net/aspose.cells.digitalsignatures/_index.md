@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.DigitalSignatures
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of DigitalSignature.
+description: The Aspose.Cells.DigitalSignatures namespace provides classes to sign documents and verify signatures.
 type: docs
 url: /net/aspose.cells.digitalsignatures/
 ---
-Contains all classes of DigitalSignature.
+The **Aspose.Cells.DigitalSignatures** namespace provides classes to sign documents and verify signatures.
 
 ## Classes
 

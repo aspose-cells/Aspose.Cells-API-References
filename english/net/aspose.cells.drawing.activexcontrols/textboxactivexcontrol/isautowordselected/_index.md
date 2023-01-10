@@ -13,6 +13,16 @@ Specifies the basic unit used to extend a selection. True specifies that the bas
 public virtual bool IsAutoWordSelected { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.IsAutoWordSelected)
+{
+    activeXControl.IsAutoWordSelected = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

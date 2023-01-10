@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.GridWeb.Data
 second_title: Aspose.Cells for .NET API Reference
-description: The namespace of basic data represented classes of GridWeb.
+description: The Aspose.Cells.GridWeb.Data namespace contains classes of data control objects such WebWorksheet GridRow GridCell GridPicture GridPivotTable and more.
 type: docs
 url: /net/aspose.cells.gridweb.data/
 ---
-The namespace of basic data represented classes of GridWeb.
+The **Aspose.Cells.GridWeb.Data** namespace contains classes of data control objects such WebWorksheet, GridRow, GridCell, GridPicture, GridPivotTable and more.
 
 ## Classes
 

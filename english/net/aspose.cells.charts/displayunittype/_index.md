@@ -29,6 +29,7 @@ public enum DisplayUnitType
 | Trillions | `9` | Specifies the values on the chart shall be divided by 1,000,000,000,000. |
 | Percentage | `10` | The values on the chart shall be divided by 0.01. |
 | Cust | `11` | specifies a custom value for the display unit. |
+| Custom | `12` | specifies a custom value for the display unit. |
 
 ### See Also
 

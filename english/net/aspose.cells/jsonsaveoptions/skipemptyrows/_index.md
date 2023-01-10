@@ -1,13 +1,13 @@
 ---
 title: SkipEmptyRows
 second_title: Aspose.Cells for .NET API Reference
-description: Indicates whether skpping emtpy rows
+description: Indicates whether skipping emtpy rows.
 type: docs
 url: /net/aspose.cells/jsonsaveoptions/skipemptyrows/
 ---
 ## JsonSaveOptions.SkipEmptyRows property
 
-Indicates whether skpping emtpy rows
+Indicates whether skipping emtpy rows.
 
 ```csharp
 public bool SkipEmptyRows { get; set; }

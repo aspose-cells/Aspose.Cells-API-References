@@ -45,6 +45,24 @@ public class ToggleButtonActiveXControl : ActiveXControl
 | virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Gets and sets the width of the control in unit of points.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Gets the [`Workbook`](../activexcontrolbase/workbook) object.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 
+### Examples
+
+```csharp
+
+[C#]
+//Initialize a new workbook.
+Workbook book = new Workbook();
+
+//Add a ToggleButtonActiveXControl.
+Shape shape = book.Worksheets[0].Shapes.AddActiveXControl(ControlType.ToggleButton, 1, 0, 1, 0, 100, 50);
+ToggleButtonActiveXControl activeXControl = (ToggleButtonActiveXControl)shape.ActiveXControl;
+
+//do your business
+
+//Save the excel file.
+book.Save("exmaple.xlsx");
+```
+
 ### See Also
 
 * class [ActiveXControl](../activexcontrol)

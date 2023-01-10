@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.GridDesktop
 second_title: Aspose.Cells for .NET API Reference
-description: The basic namespace of GridDesktop.
+description: The Aspose.Cells.GridDesktop namespace contains classes of GUI based desktop control that can be embedded in windows application projects.
 type: docs
 url: /net/aspose.cells.griddesktop/
 ---
-The basic namespace of GridDesktop.
+The **Aspose.Cells.GridDesktop** namespace contains classes of GUI based desktop control that can be embedded in windows application projects.
 
 ## Classes
 

@@ -13,6 +13,16 @@ Indicates whether the control can display more than one line of text.
 public bool IsMultiLine { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.IsMultiLine)
+{
+    activeXControl.IsMultiLine = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

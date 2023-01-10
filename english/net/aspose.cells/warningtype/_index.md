@@ -26,6 +26,7 @@ public enum WarningType
 | IO | `6` | The file is corrupted. |
 | Limitation | `7` | Out of MS Excel limitation error. |
 | InvalidData | `8` | Invalid data. |
+| Formula | `9` | Invalid formula. |
 
 ### See Also
 

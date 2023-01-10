@@ -36,6 +36,7 @@ public class GridJsWorkbook
 | [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson#exporttojson_1)(string) | Get json from workbook |
 | [ExportToJsonStringBuilder](../../aspose.cells.gridjs/gridjsworkbook/exporttojsonstringbuilder)(string) | Get json from workbook |
 | [GetJsonByUid](../../aspose.cells.gridjs/gridjsworkbook/getjsonbyuid)(string, string) | get the json from cache by uid |
+| [GetOle](../../aspose.cells.gridjs/gridjsworkbook/getole)(string, string, int, out string) | get the source of the embedded ole object data |
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile#importexcelfile_3)(string) | Imports from an excel file. |
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile#importexcelfile)(Workbook) | Imports from Workbook. |
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile#importexcelfile_1)(Stream, GridLoadFormat) | Imports from an excel file stream.must provide loadformat and can set GridJsWorkbook.CacheImp to implement stream cache |

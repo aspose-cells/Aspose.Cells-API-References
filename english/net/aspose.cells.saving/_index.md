@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Saving
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all options classes of saving files.
+description: The Aspose.Cells.Saving namespace provides options classes of saving files.
 type: docs
 url: /net/aspose.cells.saving/
 ---
-Contains all options classes of saving files.
+The **Aspose.Cells.Saving** namespace provides options classes of saving files.
 
 ## Classes
 

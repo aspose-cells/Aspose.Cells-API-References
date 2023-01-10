@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Metadata
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of loading and saving metadata of the files.s
+description: The Aspose.Cells.Metadata namespace contains all classes of loading and saving metadata of Spreadsheets.
 type: docs
 url: /net/aspose.cells.metadata/
 ---
-Contains all classes of loading and saving metadata of the files.s
+The **Aspose.Cells.Metadata** namespace contains all classes of loading and saving metadata of Spreadsheets.
 
 ## Classes
 

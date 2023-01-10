@@ -13,6 +13,16 @@ Gets the type of the ActiveX control.
 public override ControlType Type { get; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(activeXControl.Type == Aspose.Cells.Drawing.ActiveXControls.ControlType.RadioButton)
+{
+    //do something
+}
+```
+
 ### See Also
 
 * enum [ControlType](../../controltype)

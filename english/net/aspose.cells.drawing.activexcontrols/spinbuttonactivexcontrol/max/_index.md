@@ -13,6 +13,13 @@ Gets and sets the maximum acceptable value.
 public int Max { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.Min = 100;
+```
+
 ### See Also
 
 * class [SpinButtonActiveXControl](../../spinbuttonactivexcontrol)

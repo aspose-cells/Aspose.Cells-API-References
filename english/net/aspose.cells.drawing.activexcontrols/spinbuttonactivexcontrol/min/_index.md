@@ -13,6 +13,13 @@ Gets and sets the minimum acceptable value.
 public int Min { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.Min = 0;
+```
+
 ### See Also
 
 * class [SpinButtonActiveXControl](../../spinbuttonactivexcontrol)

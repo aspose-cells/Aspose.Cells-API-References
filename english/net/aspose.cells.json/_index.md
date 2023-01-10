@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Json
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of JSON.
+description: The Aspose.Cells.Json namespace contains all classes of JSON.
 type: docs
 url: /net/aspose.cells.json/
 ---
-Contains all classes of JSON.
+The **Aspose.Cells.Json** namespace contains all classes of JSON.
 
 ## Enumeration
 

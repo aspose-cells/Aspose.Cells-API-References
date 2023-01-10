@@ -1,13 +1,13 @@
 ---
 title: ChartSettings
 second_title: Aspose.Cells for .NET API Reference
-description: Gets or sets the Chart of thisChartGlobalizationSettingsaspose.cells.charts/chartglobalizationsettings
+description: Gets or sets the globalization settings for Chart.
 type: docs
 url: /net/aspose.cells/globalizationsettings/chartsettings/
 ---
 ## GlobalizationSettings.ChartSettings property
 
-Gets or sets the Chart of this[`ChartGlobalizationSettings`](../../../aspose.cells.charts/chartglobalizationsettings)
+Gets or sets the globalization settings for Chart.
 
 ```csharp
 public ChartGlobalizationSettings ChartSettings { get; set; }

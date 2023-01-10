@@ -13,6 +13,18 @@ Gets and sets the data of the picture.
 public byte[] Picture { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+//e.g byte[] data = File.ReadAllBytes("image.png");
+byte[] data = null;
+if(activeXControl.Picture != null)
+{
+    activeXControl.Picture = data;
+}
+```
+
 ### See Also
 
 * class [ToggleButtonActiveXControl](../../togglebuttonactivexcontrol)

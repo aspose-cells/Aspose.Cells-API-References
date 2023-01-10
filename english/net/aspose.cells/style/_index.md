@@ -61,7 +61,8 @@ public class Style
 | [Copy](../../aspose.cells/style/copy)(Style) | Copies data from another style object |
 | override [Equals](../../aspose.cells/style/equals)(object) | Determines whether two Style instances are equal. |
 | override [GetHashCode](../../aspose.cells/style/gethashcode)() | Serves as a hash function for a Style object. |
-| [GetTwoColorGradient](../../aspose.cells/style/gettwocolorgradient)(out Color, out Color, out GradientStyleType, out int) | Get the two-color gradient setting. |
+| [GetTwoColorGradient](../../aspose.cells/style/gettwocolorgradient)(out Color, out Color, out GradientStyleType, out int) | (**Obsolete.**) Get the two-color gradient setting. |
+| [GetTwoColorGradientSetting](../../aspose.cells/style/gettwocolorgradientsetting)() | Get the two-color gradient setting. |
 | [IsModified](../../aspose.cells/style/ismodified)(StyleModifyFlag) | Checks whether the specified properties of the style have been modified. Used for style of ConditionalFormattings to check whether the specified properties of this style should be used when applying the ConditionalFormattings on a cell. |
 | [SetBorder](../../aspose.cells/style/setborder#setborder)(BorderType, CellBorderType, CellsColor) | Sets the borders of the style. |
 | [SetBorder](../../aspose.cells/style/setborder#setborder_1)(BorderType, CellBorderType, Color) | Sets the borders of the style. |

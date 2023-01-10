@@ -13,6 +13,16 @@ Specifies selection behavior when entering the control. True specifies that the 
 public bool EnterFieldBehavior { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.EnterFieldBehavior)
+{
+    activeXControl.EnterFieldBehavior = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

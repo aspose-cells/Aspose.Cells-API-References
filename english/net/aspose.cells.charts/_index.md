@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Charts
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of chart and sparkline.
+description: The Aspose.Cells.Charts namespace provides classes that allow to access and drawing charts and sparkline in Microsoft Excel spreadsheets.
 type: docs
 url: /net/aspose.cells.charts/
 ---
-Contains all classes of chart and sparkline.
+The **Aspose.Cells.Charts** namespace provides classes that allow to access and drawing charts and sparkline in Microsoft Excel spreadsheets.
 
 ## Classes
 

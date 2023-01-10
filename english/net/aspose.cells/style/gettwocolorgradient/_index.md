@@ -10,6 +10,8 @@ url: /net/aspose.cells/style/gettwocolorgradient/
 Get the two-color gradient setting.
 
 ```csharp
+[Obsolete("Use Style.GetTwoColorGradientSetting() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void GetTwoColorGradient(out Color color1, out Color color2, 
     out GradientStyleType gradientStyleType, out int variant)
 ```
@@ -20,6 +22,10 @@ public void GetTwoColorGradient(out Color color1, out Color color2,
 | color2 | Color& | Two gradient color. |
 | gradientStyleType | GradientStyleType& | Gradient shading style. |
 | variant | Int32& | The gradient variant. |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use Style.GetTwoColorGradientSetting() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

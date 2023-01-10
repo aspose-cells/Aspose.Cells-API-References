@@ -13,6 +13,13 @@ Specifies the symbol displayed on the drop button
 public DropButtonStyle DropButtonStyle { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.DropButtonStyle = Aspose.Cells.Drawing.ActiveXControls.DropButtonStyle.Arrow;
+```
+
 ### See Also
 
 * enum [DropButtonStyle](../../dropbuttonstyle)

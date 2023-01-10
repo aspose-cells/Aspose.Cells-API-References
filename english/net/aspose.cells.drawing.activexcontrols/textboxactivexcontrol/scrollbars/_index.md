@@ -13,6 +13,13 @@ Indicates specifies whether the control has vertical scroll bars, horizontal scr
 public ControlScrollBarType ScrollBars { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.ScrollBars = Aspose.Cells.Drawing.ActiveXControls.ControlScrollBarType.BarsVertical;
+```
+
 ### See Also
 
 * enum [ControlScrollBarType](../../controlscrollbartype)

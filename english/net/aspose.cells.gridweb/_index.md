@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.GridWeb
 second_title: Aspose.Cells for .NET API Reference
-description: The basic namespace of GridWeb.
+description: The Aspose.Cells.GridWeb namespace contains core classes of web control that can be embeded in ASP.NET web forms to integrate spreadsheet manipulation capabilities without Microsoft Excel.
 type: docs
 url: /net/aspose.cells.gridweb/
 ---
-The basic namespace of GridWeb.
+The **Aspose.Cells.GridWeb** namespace contains core classes of web control that can be embeded in ASP.NET web forms to integrate spreadsheet manipulation capabilities without Microsoft Excel.
 
 ## Classes
 

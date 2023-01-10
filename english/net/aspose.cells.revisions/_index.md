@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Revisions
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of Revision.
+description: The Aspose.Cells.Revisions namespace provides classes to access revisions of Excel Spreadsheet files.
 type: docs
 url: /net/aspose.cells.revisions/
 ---
-Contains all classes of Revision.
+The **Aspose.Cells.Revisions** namespace provides classes to access revisions of Excel Spreadsheet files.
 
 ## Classes
 
@@ -19,7 +19,8 @@ Contains all classes of Revision.
 | [RevisionCollection](./revisioncollection) | Represents all revision logs. |
 | [RevisionCustomView](./revisioncustomview) | Represents a revision record of adding or removing a custom view to the workbook |
 | [RevisionDefinedName](./revisiondefinedname) | Represents a revision record of a defined name change. |
-| [RevisionFormat](./revisionformat) | represents a revision record of information about a formatting change. |
+| [RevisionFormat](./revisionformat) | Represents a revision record of information about a formatting change. |
+| [RevisionHeader](./revisionheader) | Represents a list of specific changes that have taken place for this workbook. |
 | [RevisionInsertDelete](./revisioninsertdelete) | Represents a revision record of a row/column insert/delete action. |
 | [RevisionInsertSheet](./revisioninsertsheet) | Represents a revision record of a sheet that was inserted. |
 | [RevisionLog](./revisionlog) | Represents the revision log. |

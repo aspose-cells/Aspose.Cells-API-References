@@ -32,7 +32,7 @@ Returns the position of this item in the collection.
 
 ## Add(string) {#add_1}
 
-Adds
+Adds [`CellWatch`](../../cellwatch) with the name the of cell.
 
 ```csharp
 public int Add(string cellName)
@@ -40,7 +40,7 @@ public int Add(string cellName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellName | String |  |
+| cellName | String | The name of the cell. |
 
 ### See Also
 

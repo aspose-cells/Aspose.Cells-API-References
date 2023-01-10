@@ -18,10 +18,11 @@ public class Column
 | Name | Description |
 | --- | --- |
 | [GroupLevel](../../aspose.cells/column/grouplevel) { get; } | Gets the group level of the column. |
+| [HasCustomStyle](../../aspose.cells/column/hascustomstyle) { get; } | Indicates whether this column has custom style settings(different from the default one inherited from workbook). |
 | [Index](../../aspose.cells/column/index) { get; } | Gets the index of this column. |
 | [IsCollapsed](../../aspose.cells/column/iscollapsed) { get; set; } | whether the column is collapsed |
 | [IsHidden](../../aspose.cells/column/ishidden) { get; set; } | Indicates whether the column is hidden. |
-| [Style](../../aspose.cells/column/style) { get; } | Gets the style of this column. |
+| [Style](../../aspose.cells/column/style) { get; } | (**Obsolete.**) Gets the style of this column. |
 | [Width](../../aspose.cells/column/width) { get; set; } | Gets and sets the column width in unit of characters. |
 
 ## Methods
@@ -29,6 +30,8 @@ public class Column
 | Name | Description |
 | --- | --- |
 | [ApplyStyle](../../aspose.cells/column/applystyle)(Style, StyleFlag) | Applies formats for a whole column. |
+| [GetStyle](../../aspose.cells/column/getstyle)() | Gets the style of this column. |
+| [SetStyle](../../aspose.cells/column/setstyle)(Style) | Sets the style of this column. |
 
 ### Examples
 

@@ -10,12 +10,17 @@ url: /net/aspose.cells/globalizationsettings/getdatafieldheadernameofpivottable/
 Gets the the name of the value area field header in the PivotTable.
 
 ```csharp
+[Obsolete("Use PivotGlobalizationSettings.GetTextOfDataFieldHeader() method instead.")]
 public virtual string GetDataFieldHeaderNameOfPivotTable()
 ```
 
 ### Return Value
 
 The name of data field header name
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

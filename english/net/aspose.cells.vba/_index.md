@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Vba
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of VBA project.
+description: The Aspose.Cells.Vba namespace contains classes to access Visual Basic Analysis projects and modules in Excel Spreadsheet files.
 type: docs
 url: /net/aspose.cells.vba/
 ---
-Contains all classes of VBA project.
+The **Aspose.Cells.Vba** namespace contains classes to access Visual Basic Analysis projects and modules in Excel Spreadsheet files.
 
 ## Classes
 

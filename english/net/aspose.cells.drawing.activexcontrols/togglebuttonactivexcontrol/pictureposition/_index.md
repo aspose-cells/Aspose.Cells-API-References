@@ -13,6 +13,13 @@ Gets and set the location of the control's picture relative to its caption.
 public ControlPicturePositionType PicturePosition { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.PicturePosition = Aspose.Cells.Drawing.ActiveXControls.ControlPicturePositionType.AboveLeft;
+```
+
 ### See Also
 
 * enum [ControlPicturePositionType](../../controlpicturepositiontype)

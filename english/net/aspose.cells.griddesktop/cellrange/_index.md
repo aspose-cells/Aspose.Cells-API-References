@@ -26,10 +26,10 @@ public class CellRange
 | Name | Description |
 | --- | --- |
 | [Address](../../aspose.cells.griddesktop/cellrange/address) { get; } | Gets the address of CellRange object. |
-| [Columns](../../aspose.cells.griddesktop/cellrange/columns) { get; } |  |
+| [Columns](../../aspose.cells.griddesktop/cellrange/columns) { get; } | Gets total columns of CellRange object. |
 | [EndColumn](../../aspose.cells.griddesktop/cellrange/endcolumn) { get; set; } | Gets or sets the index of the end column of the range. |
 | [EndRow](../../aspose.cells.griddesktop/cellrange/endrow) { get; set; } | Gets or sets the index of the end row of the range. |
-| [Rows](../../aspose.cells.griddesktop/cellrange/rows) { get; } |  |
+| [Rows](../../aspose.cells.griddesktop/cellrange/rows) { get; } | Gets total rows of CellRange object. |
 | [StartColumn](../../aspose.cells.griddesktop/cellrange/startcolumn) { get; set; } | Gets or sets the index of the start column of the range. |
 | [StartRow](../../aspose.cells.griddesktop/cellrange/startrow) { get; set; } | Gets or sets the index of the start row of the range. |
 | [Worksheet](../../aspose.cells.griddesktop/cellrange/worksheet) { get; } | Gets worksheet object. |

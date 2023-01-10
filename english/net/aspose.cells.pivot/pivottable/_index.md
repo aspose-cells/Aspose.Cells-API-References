@@ -28,7 +28,7 @@ public class PivotTable : IDisposable
 | [CustomListSort](../../aspose.cells.pivot/pivottable/customlistsort) { get; set; } | Indicates whether consider built-in custom list when sort data |
 | [DataBodyRange](../../aspose.cells.pivot/pivottable/databodyrange) { get; } | Returns a CellArea object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
 | [DataField](../../aspose.cells.pivot/pivottable/datafield) { get; } | Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
-| [DataFieldHeaderName](../../aspose.cells.pivot/pivottable/datafieldheadername) { get; set; } | Gets and sets the name of the value area field header in the PivotTable.. |
+| [DataFieldHeaderName](../../aspose.cells.pivot/pivottable/datafieldheadername) { get; set; } | Gets and sets the name of the value area field header in the PivotTable. |
 | [DataFields](../../aspose.cells.pivot/pivottable/datafields) { get; } | Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
 | [DataSource](../../aspose.cells.pivot/pivottable/datasource) { get; set; } | Gets and sets the data source of the pivot table. |
 | [DisplayErrorString](../../aspose.cells.pivot/pivottable/displayerrorstring) { get; set; } | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |

@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Rendering.PdfSecurity
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all security options of Rendering pdf.
+description: The Aspose.Cells.Rendering.PdfSecurity namespace provides classes security options of Rendering pdf.
 type: docs
 url: /net/aspose.cells.rendering.pdfsecurity/
 ---
-Contains all security options of Rendering pdf.
+The **Aspose.Cells.Rendering.PdfSecurity** namespace provides classes security options of Rendering pdf.
 
 ## Classes
 

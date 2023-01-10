@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.GridDesktop.Data
 second_title: Aspose.Cells for .NET API Reference
-description: The namespace of basic data represented classes of GridDesktop.
+description: The Aspose.Cells.GridDesktop.Data namespace contains classes of GridWorkbook GridRow GridCell GridPicture GridPivotTable and other objects of GridDesktop.
 type: docs
 url: /net/aspose.cells.griddesktop.data/
 ---
-The namespace of basic data represented classes of GridDesktop.
+The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook, GridRow, GridCell, GridPicture, GridPivotTable and other objects of GridDesktop.
 
 ## Classes
 
@@ -14,7 +14,6 @@ The namespace of basic data represented classes of GridDesktop.
 | [CellEventHandler](./celleventhandler) | Represents the interface that intend to handle cell events. |
 | [CellEventStringHandler](./celleventstringhandler) | Represents the method that intend to handle cell events. same as CellEventHandler interface,but return string result |
 | [CustomCommandEventHandler](./customcommandeventhandler) | Represents the interface that intend to handle Custom Command events. |
-| [DefaultEmptyStyle](./defaultemptystyle) |  |
 | [GridCell](./gridcell) | Represents a cell object. |
 | [GridCellArea](./gridcellarea) | Represents an area of cells. |
 | [GridCellException](./gridcellexception) | Represents a cell operation error. |

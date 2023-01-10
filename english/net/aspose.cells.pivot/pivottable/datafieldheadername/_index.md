@@ -1,13 +1,13 @@
 ---
 title: DataFieldHeaderName
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets the name of the value area field header in the PivotTable..
+description: Gets and sets the name of the value area field header in the PivotTable.
 type: docs
 url: /net/aspose.cells.pivot/pivottable/datafieldheadername/
 ---
 ## PivotTable.DataFieldHeaderName property
 
-Gets and sets the name of the value area field header in the PivotTable..
+Gets and sets the name of the value area field header in the PivotTable.
 
 ```csharp
 public string DataFieldHeaderName { get; set; }

@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Markup
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of smart tag.
+description: The Aspose.Cells.Markup namespace contains classes that represent customer defined semantics in a document smart tags custom XML and more markup tags.
 type: docs
 url: /net/aspose.cells.markup/
 ---
-Contains all classes of smart tag.
+The **Aspose.Cells.Markup** namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and more markup tags.
 
 ## Classes
 

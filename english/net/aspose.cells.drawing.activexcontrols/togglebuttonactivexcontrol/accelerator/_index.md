@@ -13,6 +13,16 @@ Gets and sets the accelerator key for the control.
 public char Accelerator { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if ('\0' != activeXControl.Accelerator)
+{
+    activeXControl.Accelerator = '\0';
+}
+```
+
 ### See Also
 
 * class [ToggleButtonActiveXControl](../../togglebuttonactivexcontrol)

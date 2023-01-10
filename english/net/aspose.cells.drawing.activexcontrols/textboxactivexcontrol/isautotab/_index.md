@@ -13,6 +13,16 @@ Indicates whether the focus will automatically move to the next control when the
 public bool IsAutoTab { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.IsAutoTab)
+{
+    activeXControl.IsAutoTab = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

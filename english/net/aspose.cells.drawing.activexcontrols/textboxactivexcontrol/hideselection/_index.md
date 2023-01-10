@@ -13,6 +13,16 @@ Indicates whether selected text in the control appears highlighted when the cont
 public bool HideSelection { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.HideSelection)
+{
+    activeXControl.HideSelection = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

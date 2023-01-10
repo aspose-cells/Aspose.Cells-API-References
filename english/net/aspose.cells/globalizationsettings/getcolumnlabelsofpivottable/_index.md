@@ -10,12 +10,17 @@ url: /net/aspose.cells/globalizationsettings/getcolumnlabelsofpivottable/
 Gets the name of "Column Labels" label in the PivotTable.
 
 ```csharp
+[Obsolete("Use PivotGlobalizationSettings.GetTextOfColumnLabels() method instead.")]
 public virtual string GetColumnLabelsOfPivotTable()
 ```
 
 ### Return Value
 
 The name of column labels
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

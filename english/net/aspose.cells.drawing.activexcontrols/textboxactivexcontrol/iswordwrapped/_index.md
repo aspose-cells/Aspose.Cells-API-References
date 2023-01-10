@@ -13,6 +13,16 @@ Indicates whether the contents of the control automatically wrap at the end of a
 public bool IsWordWrapped { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.IsWordWrapped)
+{
+    activeXControl.IsWordWrapped = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

@@ -17,6 +17,7 @@ public class RevisionLog
 
 | Name | Description |
 | --- | --- |
+| [MetadataTable](../../aspose.cells.revisions/revisionlog/metadatatable) { get; } | Gets table that contains metadata about a list of specific changes that have taken place for this workbook. |
 | [Revisions](../../aspose.cells.revisions/revisionlog/revisions) { get; } | Gets all revisions in this log. |
 
 ### See Also

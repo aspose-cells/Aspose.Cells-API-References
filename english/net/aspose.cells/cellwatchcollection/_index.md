@@ -32,7 +32,7 @@ public class CellWatchCollection : CollectionBase<CellWatch>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells/cellwatchcollection/add#add_1)(string) | Adds |
+| [Add](../../aspose.cells/cellwatchcollection/add#add_1)(string) | Adds [`CellWatch`](../cellwatch) with the name the of cell. |
 | [Add](../../aspose.cells/cellwatchcollection/add#add)(int, int) | Adds [`CellWatch`](../cellwatch) with row and column. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(CellWatch) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(CellWatch, IComparer&lt;CellWatch&gt;) |  |

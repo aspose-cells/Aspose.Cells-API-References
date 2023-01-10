@@ -13,6 +13,16 @@ Indicates whether dragging and dropping is enabled for the control.
 public bool IsDragBehaviorEnabled { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.IsDragBehaviorEnabled)
+{
+    activeXControl.IsDragBehaviorEnabled = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

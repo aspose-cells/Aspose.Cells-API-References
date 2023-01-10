@@ -13,6 +13,16 @@ Indicates whether the control will only show complete lines of text without show
 public bool IntegralHeight { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.IntegralHeight)
+{
+    activeXControl.IntegralHeight = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Rendering
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of Rendering image and pdf.
+description: The Aspose.Cells.Rendering namespace provides classes for rendering image and pdf.
 type: docs
 url: /net/aspose.cells.rendering/
 ---
-Contains all classes of Rendering image and pdf.
+The **Aspose.Cells.Rendering** namespace provides classes for rendering image and pdf.
 
 ## Classes
 

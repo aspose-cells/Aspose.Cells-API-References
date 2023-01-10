@@ -10,12 +10,18 @@ url: /net/aspose.cells/globalizationsettings/getpivottotalname/
 Gets the name of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area.
 
 ```csharp
+[Obsolete("Use PivotGlobalizationSettings.GetTextOfTotal() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public virtual string GetPivotTotalName()
 ```
 
 ### Return Value
 
 The name of "Total" label
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

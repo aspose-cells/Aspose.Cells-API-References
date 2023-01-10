@@ -13,6 +13,13 @@ Gets and set the type of border used by the control.
 public ControlBorderType BorderStyle { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.BorderStyle = Aspose.Cells.Drawing.ActiveXControls.ControlBorderType.Single;
+```
+
 ### See Also
 
 * enum [ControlBorderType](../../controlbordertype)

@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Drawing.Texts
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes for setting of drawing texts.
+description: The Aspose.Cells.Drawing.Texts namespace provides classes that draw and format texts objects such paragraph bullet and more.
 type: docs
 url: /net/aspose.cells.drawing.texts/
 ---
-Contains all classes for setting of drawing texts.
+The **Aspose.Cells.Drawing.Texts** namespace provides classes that draw and format texts objects such paragraph, bullet and more.
 
 ## Classes
 

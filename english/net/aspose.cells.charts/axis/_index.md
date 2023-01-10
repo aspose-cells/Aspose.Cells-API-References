@@ -26,7 +26,8 @@ public class Axis
 | [CategoryType](../../aspose.cells.charts/axis/categorytype) { get; set; } | Represents the category axis type. |
 | [CrossAt](../../aspose.cells.charts/axis/crossat) { get; set; } | Represents the point on the value axis where the category axis crosses it. |
 | [CrossType](../../aspose.cells.charts/axis/crosstype) { get; set; } | Represents the [`CrossType`](./crosstype) on the specified axis where the other axis crosses. |
-| [CustUnit](../../aspose.cells.charts/axis/custunit) { get; set; } | Specifies a custom value for the display unit. |
+| [CustomUnit](../../aspose.cells.charts/axis/customunit) { get; set; } | Specifies a custom value for the display unit. |
+| [CustUnit](../../aspose.cells.charts/axis/custunit) { get; set; } | (**Obsolete.**) Specifies a custom value for the display unit. |
 | [DisplayUnit](../../aspose.cells.charts/axis/displayunit) { get; set; } | Represents the unit label for the specified axis. |
 | [DisplayUnitLabel](../../aspose.cells.charts/axis/displayunitlabel) { get; } | Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
 | [HasMultiLevelLabels](../../aspose.cells.charts/axis/hasmultilevellabels) { get; set; } | Indicates whether the labels shall be shown as multi level. |

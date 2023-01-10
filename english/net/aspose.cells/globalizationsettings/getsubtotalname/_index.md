@@ -10,6 +10,7 @@ url: /net/aspose.cells/globalizationsettings/getsubtotalname/
 Gets the name of [`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype) type in the PivotTable.
 
 ```csharp
+[Obsolete("Use PivotGlobalizationSettings.GetTextOfSubTotal() method instead.")]
 public virtual string GetSubTotalName(PivotFieldSubtotalType subTotalType)
 ```
 
@@ -20,6 +21,10 @@ public virtual string GetSubTotalName(PivotFieldSubtotalType subTotalType)
 ### Return Value
 
 The name of [`PivotFieldSubtotalType`](../../../aspose.cells.pivot/pivotfieldsubtotaltype) type
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

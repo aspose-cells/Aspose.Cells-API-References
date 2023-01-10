@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Ods
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes about Ods files.
+description: The Aspose.Cells.Ods namespace contains all classes of loading and converting OpenDocument Spreadsheet files.
 type: docs
 url: /net/aspose.cells.ods/
 ---
-Contains all classes about Ods files.
+The **Aspose.Cells.Ods** namespace contains all classes of loading and converting OpenDocument Spreadsheet files.
 
 ## Classes
 

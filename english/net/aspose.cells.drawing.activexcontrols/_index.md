@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Drawing.ActiveXControls
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of ActiveXControl.
+description: The Aspose.Cells.Drawing.ActiveXControls namespace provides classes that allow to draw and access ActiveXControl.
 type: docs
 url: /net/aspose.cells.drawing.activexcontrols/
 ---
-Contains all classes of ActiveXControl.
+The **Aspose.Cells.Drawing.ActiveXControls** namespace provides classes that allow to draw and access ActiveXControl.
 
 ## Classes
 

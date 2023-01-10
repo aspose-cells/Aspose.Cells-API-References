@@ -13,6 +13,14 @@ Gets and sets the ole color of the background.
 public int BorderOleColor { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+//excel default color system 12 or green(0x0000FF00)
+activeXControl.BorderOleColor = unchecked((int)0x80000012);
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

@@ -42,7 +42,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | [AddLine](../../aspose.cells.drawing/shapecollection/addline)(int, int, int, int, int, int) | Adds a LineShape to the worksheet. |
 | [AddLinkedPicture](../../aspose.cells.drawing/shapecollection/addlinkedpicture)(int, int, int, int, string) | Add a linked picture. |
 | [AddListBox](../../aspose.cells.drawing/shapecollection/addlistbox)(int, int, int, int, int, int) | Adds a ListBox to the worksheet. |
-| [AddOleObject](../../aspose.cells.drawing/shapecollection/addoleobject)(int, int, int, int, int, int, byte[]) |  |
+| [AddOleObject](../../aspose.cells.drawing/shapecollection/addoleobject)(int, int, int, int, int, int, byte[]) | Adds an OleObject. |
 | [AddOleObjectWithLinkedImage](../../aspose.cells.drawing/shapecollection/addoleobjectwithlinkedimage)(int, int, int, int, string) | Add a linked picture. |
 | [AddOval](../../aspose.cells.drawing/shapecollection/addoval)(int, int, int, int, int, int) | Adds a Oval to the worksheet. |
 | [AddPicture](../../aspose.cells.drawing/shapecollection/addpicture#addpicture)(int, int, int, int, Stream) | Adds a picture to the collection. |

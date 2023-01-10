@@ -13,6 +13,16 @@ Indicates whether tab characters are allowed in the text of the control.
 public bool TabKeyBehavior { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.TabKeyBehavior)
+{
+    activeXControl.TabKeyBehavior = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

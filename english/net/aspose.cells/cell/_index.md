@@ -27,6 +27,7 @@ public class Cell
 | [FloatValue](../../aspose.cells/cell/floatvalue) { get; } | Gets the float value contained in the cell. |
 | [Formula](../../aspose.cells/cell/formula) { get; set; } | Gets or sets a formula of the [`Cell`](../cell). |
 | [FormulaLocal](../../aspose.cells/cell/formulalocal) { get; set; } | Get the locale formatted formula of the cell. |
+| [HasCustomStyle](../../aspose.cells/cell/hascustomstyle) { get; } | Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [HtmlString](../../aspose.cells/cell/htmlstring) { get; set; } | Gets and sets the html string which contains data and some formats in this cell. |
 | [IntValue](../../aspose.cells/cell/intvalue) { get; } | Gets the integer value contained in the cell. |
 | [IsArrayFormula](../../aspose.cells/cell/isarrayformula) { get; } | Indicates whether the cell formula is an array formula. |

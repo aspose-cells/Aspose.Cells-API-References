@@ -13,6 +13,13 @@ Gets and sets the special effect of the control.
 public ControlSpecialEffectType SpecialEffect { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.SpecialEffect = Aspose.Cells.Drawing.ActiveXControls.ControlSpecialEffectType.Bump;
+```
+
 ### See Also
 
 * enum [ControlSpecialEffectType](../../controlspecialeffecttype)

@@ -13,6 +13,13 @@ Gets and set the descriptive text that appears on a control.
 public string Caption { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.Caption = "ExampleButton";
+```
+
 ### See Also
 
 * class [ToggleButtonActiveXControl](../../togglebuttonactivexcontrol)

@@ -13,6 +13,16 @@ Gets and sets the maximum number of characters
 public int MaxLength { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(activeXControl.MaxLength == 0)
+{
+    activeXControl.MaxLength = 30;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

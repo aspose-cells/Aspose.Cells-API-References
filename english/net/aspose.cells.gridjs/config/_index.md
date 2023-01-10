@@ -36,7 +36,7 @@ public class Config
 | static [PageSize](../../aspose.cells.gridjs/config/pagesize) { get; set; } | Sets whether to do pagination GridJs will limit the row size based on the PageSize,if PageSize is -1,it will not do pagination the default value is -1 |
 | static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory) { get; set; } | Sets/Gets the cache directory for pictures |
 | static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting) { get; set; } | Sets whether to check if picture has same source,the default is true the default value is true |
-| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip) { get; set; } | Sets whether to save html file as zip archive,the default is false the default value is true |
+| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip) { get; set; } | Sets whether to save html file as zip archive,the default is false |
 
 ## Methods
 

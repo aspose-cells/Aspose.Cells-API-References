@@ -1,11 +1,13 @@
 ---
 title: Shrink
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Represents if text automatically shrinks to fit in the available column width.
 type: docs
 url: /net/aspose.cells.griddesktop/style/shrink/
 ---
 ## Style.Shrink property
+
+Represents if text automatically shrinks to fit in the available column width.
 
 ```csharp
 public bool Shrink { get; set; }

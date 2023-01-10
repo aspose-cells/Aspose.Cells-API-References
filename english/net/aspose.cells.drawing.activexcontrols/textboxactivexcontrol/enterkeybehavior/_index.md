@@ -13,6 +13,16 @@ Specifies the behavior of the ENTER key. True specifies that pressing ENTER will
 public bool EnterKeyBehavior { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.EnterKeyBehavior)
+{
+    activeXControl.EnterKeyBehavior = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

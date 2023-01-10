@@ -13,6 +13,13 @@ Gets and set text of the control.
 public string Text { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.Text = "This is a test.";
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

@@ -10,12 +10,12 @@ url: /net/aspose.cells.gridweb/bindcolumn/validation/
 Gets or sets the validation object of the column.
 
 ```csharp
-public Validation Validation { get; set; }
+public GridValidation Validation { get; set; }
 ```
 
 ### See Also
 
-* class [Validation](../../validation)
+* class [GridValidation](../../../aspose.cells.gridweb.data/gridvalidation)
 * class [BindColumn](../../bindcolumn)
 * namespace [Aspose.Cells.GridWeb](../../bindcolumn)
 * assembly [Aspose.Cells.GridWeb](../../../)

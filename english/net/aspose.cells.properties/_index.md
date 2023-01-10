@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Properties
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of document properties.
+description: The Aspose.Cells.Properties namespace provides classes to work with custom and builtin Spreadsheet properties such as title keywords company etc.
 type: docs
 url: /net/aspose.cells.properties/
 ---
-Contains all classes of document properties.
+The **Aspose.Cells.Properties** namespace provides classes to work with custom and built-in Spreadsheet properties such as title, keywords, company etc.
 
 ## Classes
 

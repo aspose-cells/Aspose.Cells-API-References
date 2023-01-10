@@ -13,6 +13,13 @@ Specifies the symbol displayed on the drop button
 public ShowDropButtonType ShowDropButtonTypeWhen { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.ShowDropButtonTypeWhen = Aspose.Cells.Drawing.ActiveXControls.ShowDropButtonType.Focus;
+```
+
 ### See Also
 
 * enum [ShowDropButtonType](../../showdropbuttontype)

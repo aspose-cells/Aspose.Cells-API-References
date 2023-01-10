@@ -13,6 +13,13 @@ Gets and sets the group's name.
 public string GroupName { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.GroupName = "GroupName123";
+```
+
 ### See Also
 
 * class [RadioButtonActiveXControl](../../radiobuttonactivexcontrol)

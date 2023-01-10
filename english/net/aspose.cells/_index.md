@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all basic classes of Aspose.Cells.
+description: The Aspose.Cells namespace provides fundamental classes and base classes for generating converting modifying rendering and printing Spreadsheets without utilizing Microsoft Excel.
 type: docs
 url: /net/aspose.cells/
 ---
-Contains all basic classes of Aspose.Cells.
+The **Aspose.Cells** namespace provides fundamental classes and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel.
 
 ## Classes
 
@@ -150,6 +150,7 @@ Contains all basic classes of Aspose.Cells.
 | [ThreadedCommentCollection](./threadedcommentcollection) | Represents the list of threaded comments. |
 | [Top10](./top10) | Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified. |
 | [Top10Filter](./top10filter) | Represents the top 10 filter. |
+| [TwoColorGradient](./twocolorgradient) | Represents two color gradient. |
 | [TxtLoadOptions](./txtloadoptions) | Represents the options for loading text file. |
 | [TxtSaveOptions](./txtsaveoptions) | Represents the save options for csv/tab delimited/other text format. |
 | [UnionRange](./unionrange) | Represents union range. |

@@ -17,16 +17,16 @@ public class Style
 
 | Name | Description |
 | --- | --- |
-| [Style](style)(GridDesktop) |  |
+| [Style](style)(GridDesktop) | create a new Style for the control |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [BackgroundColor](../../aspose.cells.griddesktop/style/backgroundcolor) { get; set; } | Gets or sets the cell background color,if style pattern is not set to solid,then it will take affect |
-| [CellLocked](../../aspose.cells.griddesktop/style/celllocked) { get; set; } |  |
+| [CellLocked](../../aspose.cells.griddesktop/style/celllocked) { get; set; } | Gets or sets a value indicating whether a cell can be modified or not. |
 | [Color](../../aspose.cells.griddesktop/style/color) { get; set; } | Gets or sets the cell shading color. when pattern is none ,it return Color.Empty; when pattern is BackgroundType.Solid,it return ForegroundColor; others it return BackgroundColor |
-| [Custom](../../aspose.cells.griddesktop/style/custom) { get; set; } |  |
+| [Custom](../../aspose.cells.griddesktop/style/custom) { get; set; } | Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. |
 | [ForegroundColor](../../aspose.cells.griddesktop/style/foregroundcolor) { get; set; } | Gets or sets a style's foreground color. |
 | [HAlignment](../../aspose.cells.griddesktop/style/halignment) { get; set; } | Gets or sets horizontal alignment attribute. |
 | [Indent](../../aspose.cells.griddesktop/style/indent) { get; set; } | Represents the m_IndentLevel level for the cell or range. Can only be an integer from 0 to 15. |
@@ -34,7 +34,7 @@ public class Style
 | [NumberType](../../aspose.cells.griddesktop/style/numbertype) { get; set; } | same as NumberFormat |
 | [Pattern](../../aspose.cells.griddesktop/style/pattern) { get; set; } | Gets or sets the cell background pattern type. |
 | [Rotation](../../aspose.cells.griddesktop/style/rotation) { get; set; } | Represents text rotation angle. |
-| [Shrink](../../aspose.cells.griddesktop/style/shrink) { get; set; } |  |
+| [Shrink](../../aspose.cells.griddesktop/style/shrink) { get; set; } | Represents if text automatically shrinks to fit in the available column width. |
 | [TextDirection](../../aspose.cells.griddesktop/style/textdirection) { get; set; } | Gets or sets text direction attribute. |
 | [TextWrapped](../../aspose.cells.griddesktop/style/textwrapped) { get; set; } | Gets or sets a value indicating whether the text within a cell is wrapped. |
 | [VAlignment](../../aspose.cells.griddesktop/style/valignment) { get; set; } | Gets or sets vertical alignment attribute. |

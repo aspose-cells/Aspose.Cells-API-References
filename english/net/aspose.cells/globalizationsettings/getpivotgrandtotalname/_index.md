@@ -10,12 +10,18 @@ url: /net/aspose.cells/globalizationsettings/getpivotgrandtotalname/
 Gets the name of "Grand Total" label in the PivotTable.
 
 ```csharp
+[Obsolete("Use PivotGlobalizationSettings.GetTextOfGrandTotal() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public virtual string GetPivotGrandTotalName()
 ```
 
 ### Return Value
 
 The name of "Grand Total" label
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

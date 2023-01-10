@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Numbers
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of Mac Apple Numbers files.
+description: The Aspose.Cells.Numbers namespace contains all classes of loading and converting Apple Numbers files.
 type: docs
 url: /net/aspose.cells.numbers/
 ---
-Contains all classes of Mac Apple Numbers files.
+The **Aspose.Cells.Numbers** namespace contains all classes of loading and converting Apple Numbers files.
 
 ## Classes
 

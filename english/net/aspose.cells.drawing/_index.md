@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Drawing
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of drawing objects such as Images Forms Lines etc..
+description: The Aspose.Cells.Drawing namespace provides classes that allow to create and modify drawing shapes form controls and more advanced drawing objects.
 type: docs
 url: /net/aspose.cells.drawing/
 ---
-Contains all classes of drawing objects, such as Images, Forms, Lines etc..
+The **Aspose.Cells.Drawing** namespace provides classes that allow to create and modify drawing shapes, form controls, and more advanced drawing objects.
 
 ## Classes
 

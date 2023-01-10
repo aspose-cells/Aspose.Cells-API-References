@@ -10,7 +10,7 @@ url: /net/aspose.cells/row/equals/
 Checks whether this object refers to the same row with another.
 
 ```csharp
-public bool Equals(object obj)
+public override bool Equals(object obj)
 ```
 
 | Parameter | Type | Description |

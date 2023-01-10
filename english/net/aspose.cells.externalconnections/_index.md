@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.ExternalConnections
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of external connections.
+description: The Aspose.Cells.ExternalConnections namespace provides classes for external connections to retrieve data from external sources such as Databases and the Web.
 type: docs
 url: /net/aspose.cells.externalconnections/
 ---
-Contains all classes of external connections.
+The **Aspose.Cells.ExternalConnections** namespace provides classes for external connections to retrieve data from external sources such as Databases and the Web.
 
 ## Classes
 

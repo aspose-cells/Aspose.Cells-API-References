@@ -10,12 +10,14 @@ url: /net/aspose.cells/column/style/
 Gets the style of this column.
 
 ```csharp
+[Obsolete("Use Column.GetStyle() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public Style Style { get; }
 ```
 
 ### Remarks
 
-You have to call Column.ApplyStyle() method to save your changing with the row style, otherwise it will not effect.
+NOTE: This member is now obsolete. Instead, please use Column.GetStyle() method to get the default style of this column. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Timelines
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of Timeline.
+description: The Aspose.Cells.Timelines namespace contains classes that allow to access and draw timelines in Excel Spreadsheet files.
 type: docs
 url: /net/aspose.cells.timelines/
 ---
-Contains all classes of Timeline.
+The **Aspose.Cells.Timelines** namespace contains classes that allow to access and draw timelines in Excel Spreadsheet files.
 
 ## Classes
 

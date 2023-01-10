@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.WebExtensions
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of WebExtension.
+description: The Aspose.Cells.WebExtensions namespace contains classes to access Office Addin in Excel Files.
 type: docs
 url: /net/aspose.cells.webextensions/
 ---
-Contains all classes of WebExtension.
+The **Aspose.Cells.WebExtensions** namespace contains classes to access Office Add-in in Excel Files.
 
 ## Classes
 

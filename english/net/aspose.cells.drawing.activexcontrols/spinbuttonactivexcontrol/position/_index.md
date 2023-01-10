@@ -13,6 +13,13 @@ Gets and sets the value.
 public int Position { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.Position = 30;
+```
+
 ### See Also
 
 * class [SpinButtonActiveXControl](../../spinbuttonactivexcontrol)

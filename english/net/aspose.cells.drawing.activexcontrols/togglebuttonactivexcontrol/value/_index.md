@@ -13,6 +13,16 @@ Indicates if the control is checked or not.
 public CheckValueType Value { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(activeXControl.Value == CheckValueType.UnChecked)
+{
+    activeXControl.Value = CheckValueType.Checked;
+}
+```
+
 ### See Also
 
 * enum [CheckValueType](../../../aspose.cells.drawing/checkvaluetype)

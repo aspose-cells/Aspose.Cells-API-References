@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Pivot
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of PivotTable.
+description: The Aspose.Cells.Pivot namespace contains all classes of rendering and manipulating PivotTable in Excel Spreadsheet files.
 type: docs
 url: /net/aspose.cells.pivot/
 ---
-Contains all classes of PivotTable.
+The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manipulating PivotTable in Excel Spreadsheet files.
 
 ## Classes
 

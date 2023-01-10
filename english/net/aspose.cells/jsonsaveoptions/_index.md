@@ -23,6 +23,7 @@ public class JsonSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
+| [AlwaysExportAsJsonObject](../../aspose.cells/jsonsaveoptions/alwaysexportasjsonobject) { get; set; } | Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
@@ -37,7 +38,7 @@ public class JsonSaveOptions : SaveOptions
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SheetIndexes](../../aspose.cells/jsonsaveoptions/sheetindexes) { get; set; } | Represents the indexes of exported sheets. |
-| [SkipEmptyRows](../../aspose.cells/jsonsaveoptions/skipemptyrows) { get; set; } | Indicates whether skpping emtpy rows |
+| [SkipEmptyRows](../../aspose.cells/jsonsaveoptions/skipemptyrows) { get; set; } | Indicates whether skipping emtpy rows. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indicates whether updating smart art setting. The default value is false.(Inherited from [`SaveOptions`](../saveoptions).) |

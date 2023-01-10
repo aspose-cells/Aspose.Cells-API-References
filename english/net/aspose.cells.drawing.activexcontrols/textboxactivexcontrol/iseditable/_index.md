@@ -13,6 +13,16 @@ Indicates whether the user can type into the control.
 public bool IsEditable { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+if(!activeXControl.IsEditable)
+{
+    activeXControl.IsEditable = true;
+}
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)

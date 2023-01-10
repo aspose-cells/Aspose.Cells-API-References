@@ -13,6 +13,13 @@ Gets and sets the amount by which the Position property changes
 public int LargeChange { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.SmallChange = 5;
+```
+
 ### See Also
 
 * class [ScrollBarActiveXControl](../../scrollbaractivexcontrol)

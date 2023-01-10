@@ -11,14 +11,6 @@ url: /net/aspose.cells.drawing.texts/shapetextalignment/gethashcode/
 public override int GetHashCode()
 ```
 
-### Examples
-
-```csharp
-
-[C#]
-int hashCode = shapeTextAlignment.GetHashCode();
-```
-
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment)

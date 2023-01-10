@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Slicers
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of Pivot Table Slicer.
+description: The Aspose.Cells.Slicers namespace provides all classes for Pivot Table Slicer options for Excel Spreadsheet files.
 type: docs
 url: /net/aspose.cells.slicers/
 ---
-Contains all classes of Pivot Table Slicer.
+The **Aspose.Cells.Slicers** namespace provides all classes for Pivot Table Slicer options for Excel Spreadsheet files.
 
 ## Classes
 

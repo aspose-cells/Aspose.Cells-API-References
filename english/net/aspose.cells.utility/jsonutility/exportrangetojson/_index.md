@@ -24,6 +24,10 @@ public static string ExportRangeToJson(Range range, ExportRangeToJsonOptions opt
 
 The json string value.
 
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use ExportRangeToJson(Range range, JsonSaveOptions options) method. This property will be removed 6 months later since November 2022. Aspose apologizes for any inconvenience you may have experienced.
+
 ### See Also
 
 * class [Range](../../../aspose.cells/range)

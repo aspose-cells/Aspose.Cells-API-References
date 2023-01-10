@@ -13,6 +13,13 @@ Gets and sets a character to be displayed in place of the characters entered.
 public char PasswordChar { get; set; }
 ```
 
+### Examples
+
+```csharp
+[C#]
+activeXControl.PasswordChar = 'a';
+```
+
 ### See Also
 
 * class [TextBoxActiveXControl](../../textboxactivexcontrol)
