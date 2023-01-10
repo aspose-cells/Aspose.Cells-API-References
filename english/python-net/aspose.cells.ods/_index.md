@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.ods/
 is_root: false
 ---
 
-Contains all classes about Ods files.
+The **Aspose.Cells.Ods**  namespace contains all classes of loading and converting OpenDocument Spreadsheet files.
 
 ### Classes
 | Class | Description |

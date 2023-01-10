@@ -3,7 +3,7 @@ title: TextCapsType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2520
+weight: 2530
 url: /python-net/aspose.cells/textcapstype/
 is_root: false
 ---

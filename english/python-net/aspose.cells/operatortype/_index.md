@@ -3,7 +3,7 @@ title: OperatorType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2280
+weight: 2290
 url: /python-net/aspose.cells/operatortype/
 is_root: false
 ---

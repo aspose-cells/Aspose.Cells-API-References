@@ -3,7 +3,7 @@ title: has_borders property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.cells/style/has_borders/
 is_root: false
 ---

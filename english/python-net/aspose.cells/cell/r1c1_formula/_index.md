@@ -3,7 +3,7 @@ title: r1c1_formula property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 630
+weight: 640
 url: /python-net/aspose.cells/cell/r1c1_formula/
 is_root: false
 ---

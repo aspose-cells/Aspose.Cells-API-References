@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.saving/
 is_root: false
 ---
 
-Contains all options classes of saving files.
+The **Aspose.Cells.Saving**  namespace provides options classes of saving files.
 
 ### Classes
 | Class | Description |

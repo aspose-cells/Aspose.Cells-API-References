@@ -8,7 +8,7 @@ url: /python-net/aspose.cells/
 is_root: false
 ---
 
-Contains all basic classes of Aspose.Cells.
+The **Aspose.Cells**  namespace provides fundamental classes and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel.
 
 ### Classes
 | Class | Description |
@@ -162,6 +162,7 @@ Contains all basic classes of Aspose.Cells.
 | [ThreadedCommentCollection](/cells/python-net/aspose.cells/threadedcommentcollection) | Represents the list of threaded comments. |
 | [Top10](/cells/python-net/aspose.cells/top10) | Describe the Top10 conditional formatting rule. <br/>This conditional formatting rule highlights cells whose<br/>values fall in the top N or bottom N bracket, as specified. |
 | [Top10Filter](/cells/python-net/aspose.cells/top10filter) | Represents the top 10 filter. |
+| [TwoColorGradient](/cells/python-net/aspose.cells/twocolorgradient) | Represents two color gradient. |
 | [TxtLoadOptions](/cells/python-net/aspose.cells/txtloadoptions) | Represents the options for loading text file. |
 | [TxtSaveOptions](/cells/python-net/aspose.cells/txtsaveoptions) | Represents the save options for csv/tab delimited/other text format. |
 | [UnionRange](/cells/python-net/aspose.cells/unionrange) | Represents union range. |

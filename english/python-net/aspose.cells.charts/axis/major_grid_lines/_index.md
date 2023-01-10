@@ -3,7 +3,7 @@ title: major_grid_lines property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.cells.charts/axis/major_grid_lines/
 is_root: false
 ---

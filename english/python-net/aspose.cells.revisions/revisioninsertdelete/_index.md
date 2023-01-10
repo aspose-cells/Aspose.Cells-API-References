@@ -3,7 +3,7 @@ title: RevisionInsertDelete class
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.cells.revisions/revisioninsertdelete/
 is_root: false
 ---

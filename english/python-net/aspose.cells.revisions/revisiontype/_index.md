@@ -3,7 +3,7 @@ title: RevisionType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.cells.revisions/revisiontype/
 is_root: false
 ---

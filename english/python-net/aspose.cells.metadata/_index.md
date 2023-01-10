@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.metadata/
 is_root: false
 ---
 
-Contains all classes of loading and saving metadata of the files.s
+The **Aspose.Cells.Metadata**  namespace contains all classes of loading and saving metadata of Spreadsheets.
 
 ### Classes
 | Class | Description |

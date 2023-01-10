@@ -3,7 +3,7 @@ title: is_visible property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.cells.charts/axis/is_visible/
 is_root: false
 ---

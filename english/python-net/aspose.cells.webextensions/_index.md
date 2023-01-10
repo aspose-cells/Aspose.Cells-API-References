@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.webextensions/
 is_root: false
 ---
 
-Contains all classes of WebExtension.
+The **Aspose.Cells.WebExtensions**  namespace contains classes to access Office Add-in in Excel Files.
 
 ### Classes
 | Class | Description |

@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.revisions/
 is_root: false
 ---
 
-Contains all classes of Revision.
+The **Aspose.Cells.Revisions**  namespace provides classes to access revisions of Excel Spreadsheet files.
 
 ### Classes
 | Class | Description |
@@ -21,7 +21,8 @@ Contains all classes of Revision.
 | [RevisionCollection](/cells/python-net/aspose.cells.revisions/revisioncollection) | Represents all revision logs. |
 | [RevisionCustomView](/cells/python-net/aspose.cells.revisions/revisioncustomview) | Represents a revision record of adding or removing a custom view to the workbook |
 | [RevisionDefinedName](/cells/python-net/aspose.cells.revisions/revisiondefinedname) | Represents a revision record of a defined name change. |
-| [RevisionFormat](/cells/python-net/aspose.cells.revisions/revisionformat) | represents a revision record of information about a formatting change. |
+| [RevisionFormat](/cells/python-net/aspose.cells.revisions/revisionformat) | Represents a revision record of information about a formatting change. |
+| [RevisionHeader](/cells/python-net/aspose.cells.revisions/revisionheader) | Represents a list of specific changes that have taken place for this workbook. |
 | [RevisionInsertDelete](/cells/python-net/aspose.cells.revisions/revisioninsertdelete) | Represents a revision record of a row/column insert/delete action. |
 | [RevisionInsertSheet](/cells/python-net/aspose.cells.revisions/revisioninsertsheet) | Represents a revision record of a sheet that was inserted. |
 | [RevisionLog](/cells/python-net/aspose.cells.revisions/revisionlog) | Represents the revision log. |

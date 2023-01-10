@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.querytables/
 is_root: false
 ---
 
-Contains all classes of Query Table.
+The **Aspose.Cells.QueryTables**  namespace provides classes to access and update worksheet table built from data returned from an external data source, such as a SQL server or a Microsoft Access database.
 
 ### Classes
 | Class | Description |

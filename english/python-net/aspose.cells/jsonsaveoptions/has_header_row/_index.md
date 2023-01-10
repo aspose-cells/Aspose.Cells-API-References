@@ -3,7 +3,7 @@ title: has_header_row property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.cells/jsonsaveoptions/has_header_row/
 is_root: false
 ---

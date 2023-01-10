@@ -3,7 +3,7 @@ title: get_pivot_total_name method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 170
+weight: 150
 url: /python-net/aspose.cells/globalizationsettings/get_pivot_total_name/
 is_root: false
 ---
@@ -25,7 +25,12 @@ def get_pivot_total_name(self):
 ```
 
 
+### Remarks
 
+NOTE: This member is now obsolete. Instead, 
+please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method.
+This property will be removed 12 months later since December 2022. 
+Aspose apologizes for any inconvenience you may have experienced.
 
 
 ### See Also

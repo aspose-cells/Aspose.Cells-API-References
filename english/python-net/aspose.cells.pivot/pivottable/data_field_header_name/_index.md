@@ -11,7 +11,7 @@ is_root: false
 ## data_field_header_name property
 
 
-Gets and sets the name of the value area field header in the PivotTable..
+Gets and sets the name of the value area field header in the PivotTable.
 
 ### See Also
 * module [aspose.cells.pivot](../../)

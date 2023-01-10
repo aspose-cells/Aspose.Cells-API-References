@@ -3,7 +3,7 @@ title: WarningType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2660
+weight: 2670
 url: /python-net/aspose.cells/warningtype/
 is_root: false
 ---
@@ -28,6 +28,7 @@ The WarningType type exposes the following members:
 | IO | The file is corrupted. |
 | LIMITATION | Out of MS Excel limitation error. |
 | INVALID_DATA | Invalid data. |
+| FORMULA | Invalid formula. |
 
 
 ### See Also

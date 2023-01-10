@@ -3,7 +3,7 @@ title: FilterOperatorType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2040
+weight: 2050
 url: /python-net/aspose.cells/filteroperatortype/
 is_root: false
 ---

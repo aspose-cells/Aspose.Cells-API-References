@@ -3,7 +3,7 @@ title: WorkbookDesigner class
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1590
+weight: 1600
 url: /python-net/aspose.cells/workbookdesigner/
 is_root: false
 ---

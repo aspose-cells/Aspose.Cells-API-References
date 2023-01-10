@@ -3,7 +3,7 @@ title: update method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.cells/style/update/
 is_root: false
 ---

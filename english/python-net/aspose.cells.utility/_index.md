@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.utility/
 is_root: false
 ---
 
-Contains all utility classes.
+The **Aspose.Cells.Utility**  namespace contains utility classes processing JSON formats for Excel Spreadsheet files.
 
 ### Classes
 | Class | Description |

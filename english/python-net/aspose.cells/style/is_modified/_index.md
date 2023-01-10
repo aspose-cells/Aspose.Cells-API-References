@@ -3,7 +3,7 @@ title: is_modified method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.cells/style/is_modified/
 is_root: false
 ---

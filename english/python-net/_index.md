@@ -11,30 +11,31 @@ is_root: true
 ### Modules
 | Module | Description |
 | :- | :- |
-| [aspose.cells](/cells/python-net/aspose.cells) | Contains all basic classes of Aspose.Cells. |
-| [aspose.cells.charts](/cells/python-net/aspose.cells.charts) | Contains all classes of chart and sparkline. |
-| [aspose.cells.digitalsignatures](/cells/python-net/aspose.cells.digitalsignatures) | Contains all classes of DigitalSignature. |
-| [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing) | Contains all classes of drawing objects, such as Images, Forms, Lines etc.. |
-| [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols) | Contains all classes of ActiveXControl. |
-| [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts) | Contains all classes for setting of drawing texts. |
-| [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections) | Contains all classes of external connections. |
-| [aspose.cells.json](/cells/python-net/aspose.cells.json) | Contains all classes of JSON. |
-| [aspose.cells.markup](/cells/python-net/aspose.cells.markup) | Contains all classes of smart tag. |
-| [aspose.cells.metadata](/cells/python-net/aspose.cells.metadata) | Contains all classes of loading and saving metadata of the files.s |
-| [aspose.cells.numbers](/cells/python-net/aspose.cells.numbers) | Contains all classes of Mac Apple Numbers files. |
-| [aspose.cells.ods](/cells/python-net/aspose.cells.ods) | Contains all classes about Ods files. |
-| [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot) | Contains all classes of PivotTable. |
-| [aspose.cells.properties](/cells/python-net/aspose.cells.properties) | Contains all classes of document properties. |
-| [aspose.cells.querytables](/cells/python-net/aspose.cells.querytables) | Contains all classes of Query Table. |
-| [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering) | Contains all classes of Rendering image and pdf. |
-| [aspose.cells.rendering.pdfsecurity](/cells/python-net/aspose.cells.rendering.pdfsecurity) | Contains all security options of Rendering pdf. |
-| [aspose.cells.revisions](/cells/python-net/aspose.cells.revisions) | Contains all classes of Revision. |
-| [aspose.cells.saving](/cells/python-net/aspose.cells.saving) | Contains all options classes of saving files. |
-| [aspose.cells.slicers](/cells/python-net/aspose.cells.slicers) | Contains all classes of Pivot Table Slicer. |
-| [aspose.cells.tables](/cells/python-net/aspose.cells.tables) | Contains all classes of Table(List Object). |
-| [aspose.cells.timelines](/cells/python-net/aspose.cells.timelines) | Contains all classes of Timeline. |
-| [aspose.cells.utility](/cells/python-net/aspose.cells.utility) | Contains all utility classes. |
-| [aspose.cells.vba](/cells/python-net/aspose.cells.vba) | Contains all classes of VBA project. |
-| [aspose.cells.webextensions](/cells/python-net/aspose.cells.webextensions) | Contains all classes of WebExtension. |
+| [aspose.cells](/cells/python-net/aspose.cells) | The **Aspose.Cells**  namespace provides fundamental classes and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel. |
+| [aspose.cells.charts](/cells/python-net/aspose.cells.charts) | The **Aspose.Cells.Charts**  namespace provides classes that allow to access and drawing charts and sparkline in Microsoft Excel spreadsheets. |
+| [aspose.cells.digitalsignatures](/cells/python-net/aspose.cells.digitalsignatures) | The **Aspose.Cells.DigitalSignatures**  namespace provides classes to sign documents and verify signatures. |
+| [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing) | The **Aspose.Cells.Drawing**  namespace provides classes that allow to create and modify drawing shapes, form controls, and more advanced drawing objects. |
+| [aspose.cells.drawing.activexcontrols](/cells/python-net/aspose.cells.drawing.activexcontrols) | The **Aspose.Cells.Drawing.ActiveXControls**  namespace provides classes that allow to draw and access ActiveXControl. |
+| [aspose.cells.drawing.texts](/cells/python-net/aspose.cells.drawing.texts) | The **Aspose.Cells.Drawing.Texts**  namespace provides classes that draw and format texts objects such paragraph, bullet and more. |
+| [aspose.cells.externalconnections](/cells/python-net/aspose.cells.externalconnections) | The **Aspose.Cells.ExternalConnections**  namespace provides classes for external connections to retrieve data from external sources such as Databases and the Web. |
+| [aspose.cells.json](/cells/python-net/aspose.cells.json) | The **Aspose.Cells.Json**  namespace contains all classes of JSON. |
+| [aspose.cells.markup](/cells/python-net/aspose.cells.markup) | The **Aspose.Cells.Markup**  namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and more markup tags. |
+| [aspose.cells.metadata](/cells/python-net/aspose.cells.metadata) | The **Aspose.Cells.Metadata**  namespace contains all classes of loading and saving metadata of Spreadsheets. |
+| [aspose.cells.numbers](/cells/python-net/aspose.cells.numbers) | The **Aspose.Cells.Numbers**  namespace contains all classes of loading and converting Apple Numbers files. |
+| [aspose.cells.ods](/cells/python-net/aspose.cells.ods) | The **Aspose.Cells.Ods**  namespace contains all classes of loading and converting OpenDocument Spreadsheet files. |
+| [aspose.cells.pivot](/cells/python-net/aspose.cells.pivot) | The **Aspose.Cells.Pivot**  namespace contains all classes of rendering and manipulating PivotTable in Excel Spreadsheet files. |
+| [aspose.cells.properties](/cells/python-net/aspose.cells.properties) | The **Aspose.Cells.Properties**  namespace provides classes to work with custom and built-in Spreadsheet properties such as title, keywords, company etc. |
+| [aspose.cells.querytables](/cells/python-net/aspose.cells.querytables) | The **Aspose.Cells.QueryTables**  namespace provides classes to access and update worksheet table built from data returned from an external data source, such as a SQL server or a Microsoft Access database. |
+| [aspose.cells.rendering](/cells/python-net/aspose.cells.rendering) | The **Aspose.Cells.Rendering**  namespace provides classes for rendering image and pdf. |
+| [aspose.cells.rendering.pdfsecurity](/cells/python-net/aspose.cells.rendering.pdfsecurity) | The **Aspose.Cells.Rendering.PdfSecurity**  namespace provides classes security options of Rendering pdf. |
+| [aspose.cells.revisions](/cells/python-net/aspose.cells.revisions) | The **Aspose.Cells.Revisions**  namespace provides classes to access revisions of Excel Spreadsheet files. |
+| [aspose.cells.saving](/cells/python-net/aspose.cells.saving) | The **Aspose.Cells.Saving**  namespace provides options classes of saving files. |
+| [aspose.cells.settings](/cells/python-net/aspose.cells.settings) |  |
+| [aspose.cells.slicers](/cells/python-net/aspose.cells.slicers) | The **Aspose.Cells.Slicers**  namespace provides all classes for Pivot Table Slicer options for Excel Spreadsheet files. |
+| [aspose.cells.tables](/cells/python-net/aspose.cells.tables) | The **Aspose.Cells.Tables**  namespace contains classes that represent tables, rows, cells and their formatting for Excel Spreadsheet files. |
+| [aspose.cells.timelines](/cells/python-net/aspose.cells.timelines) | The **Aspose.Cells.Timelines**  namespace contains classes that allow to access and draw timelines in Excel Spreadsheet files. |
+| [aspose.cells.utility](/cells/python-net/aspose.cells.utility) | The **Aspose.Cells.Utility**  namespace contains utility classes processing JSON formats for Excel Spreadsheet files. |
+| [aspose.cells.vba](/cells/python-net/aspose.cells.vba) | The **Aspose.Cells.Vba**  namespace contains classes to access Visual Basic Analysis projects and modules in Excel Spreadsheet files. |
+| [aspose.cells.webextensions](/cells/python-net/aspose.cells.webextensions) | The **Aspose.Cells.WebExtensions**  namespace contains classes to access Office Add-in in Excel Files. |
 
 

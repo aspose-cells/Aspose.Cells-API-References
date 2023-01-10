@@ -3,7 +3,7 @@ title: get_standard_built_in_name method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 210
+weight: 180
 url: /python-net/aspose.cells/globalizationsettings/get_standard_built_in_name/
 is_root: false
 ---

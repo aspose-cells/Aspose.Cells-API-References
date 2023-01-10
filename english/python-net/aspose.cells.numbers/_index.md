@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.numbers/
 is_root: false
 ---
 
-Contains all classes of Mac Apple Numbers files.
+The **Aspose.Cells.Numbers**  namespace contains all classes of loading and converting Apple Numbers files.
 
 ### Classes
 | Class | Description |

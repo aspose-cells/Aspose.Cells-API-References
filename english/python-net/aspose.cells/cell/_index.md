@@ -36,6 +36,7 @@ The Cell type exposes the following members:
 | [double_value](/cells/python-net/aspose.cells/cell/double_value) | Gets the double value contained in the cell. |
 | [float_value](/cells/python-net/aspose.cells/cell/float_value) | Gets the float value contained in the cell. |
 | [bool_value](/cells/python-net/aspose.cells/cell/bool_value) | Gets the boolean value contained in the cell. |
+| [has_custom_style](/cells/python-net/aspose.cells/cell/has_custom_style) | Indicates whether this cell has custom style settings(different from the default one inherited<br/>from corresponding row, column, or workbook). |
 | [shared_style_index](/cells/python-net/aspose.cells/cell/shared_style_index) | Gets cell's shared style index in the style pool. |
 | [formula](/cells/python-net/aspose.cells/cell/formula) | Gets or sets a formula of the [Cell](/cells/python-net/aspose.cells/cell). |
 | [formula_local](/cells/python-net/aspose.cells/cell/formula_local) | Get the locale formatted formula of the cell. |

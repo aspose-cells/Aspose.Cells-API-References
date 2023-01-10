@@ -3,7 +3,7 @@ title: custom property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.cells/style/custom/
 is_root: false
 ---

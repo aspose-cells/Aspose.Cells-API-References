@@ -3,7 +3,7 @@ title: DisplayDrawingObjects enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1960
+weight: 1970
 url: /python-net/aspose.cells/displaydrawingobjects/
 is_root: false
 ---

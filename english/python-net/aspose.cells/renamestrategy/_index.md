@@ -3,7 +3,7 @@ title: RenameStrategy enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2420
+weight: 2430
 url: /python-net/aspose.cells/renamestrategy/
 is_root: false
 ---

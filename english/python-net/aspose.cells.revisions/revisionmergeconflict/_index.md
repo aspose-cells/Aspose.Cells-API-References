@@ -3,7 +3,7 @@ title: RevisionMergeConflict class
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.cells.revisions/revisionmergeconflict/
 is_root: false
 ---

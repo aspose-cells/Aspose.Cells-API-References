@@ -12,6 +12,13 @@ is_root: false
 
 
 Specifies a custom value for the display unit.
+### Remarks 
+
+
+NOTE: This property is now obsolete. Instead, 
+please use Axis.CustomUnit property.
+This property will be removed 12 months later since January 2023. 
+Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 * module [aspose.cells.charts](../../)

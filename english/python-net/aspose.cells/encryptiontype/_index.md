@@ -3,7 +3,7 @@ title: EncryptionType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1990
+weight: 2000
 url: /python-net/aspose.cells/encryptiontype/
 is_root: false
 ---

@@ -3,7 +3,7 @@ title: ViewType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2640
+weight: 2650
 url: /python-net/aspose.cells/viewtype/
 is_root: false
 ---

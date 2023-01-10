@@ -26,7 +26,12 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 | color2 | aspose.pydrawing.Color& | Two gradient color. |
 | gradient_style_type | any | Gradient shading style. |
 | variant | any | The gradient variant. |
+### Remarks
 
+NOTE: This method is now obsolete. 
+Instead, please use Style.GetTwoColorGradientSetting() method.
+This property will be removed 12 months later since December 2022. 
+Aspose apologizes for any inconvenience you may have experienced.
 
 
 ### See Also

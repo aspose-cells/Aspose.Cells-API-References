@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.externalconnections/
 is_root: false
 ---
 
-Contains all classes of external connections.
+The **Aspose.Cells.ExternalConnections**  namespace provides classes for external connections to retrieve data from external sources such as Databases and the Web.
 
 ### Classes
 | Class | Description |

@@ -44,6 +44,7 @@ The Axis type exposes the following members:
 | [tick_mark_spacing](/cells/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |
 | [display_unit](/cells/python-net/aspose.cells.charts/axis/display_unit) | Represents the unit label for the specified axis. |
 | [cust_unit](/cells/python-net/aspose.cells.charts/axis/cust_unit) | Specifies a custom value for the display unit. |
+| [custom_unit](/cells/python-net/aspose.cells.charts/axis/custom_unit) | Specifies a custom value for the display unit. |
 | [display_unit_label](/cells/python-net/aspose.cells.charts/axis/display_unit_label) | Represents a unit label on an axis in the specified chart. <br/>Unit labels are useful for charting large values— for example, in the millions or billions. |
 | [is_display_unit_label_shown](/cells/python-net/aspose.cells.charts/axis/is_display_unit_label_shown) | Represents if the display unit label is shown on the specified axis. |
 | [title](/cells/python-net/aspose.cells.charts/axis/title) | Gets the axis' title. |

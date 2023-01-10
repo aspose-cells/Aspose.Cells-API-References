@@ -3,7 +3,7 @@ title: tick_mark_spacing property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 390
+weight: 400
 url: /python-net/aspose.cells.charts/axis/tick_mark_spacing/
 is_root: false
 ---

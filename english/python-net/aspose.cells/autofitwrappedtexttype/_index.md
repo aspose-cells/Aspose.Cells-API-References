@@ -3,7 +3,7 @@ title: AutoFitWrappedTextType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1760
+weight: 1770
 url: /python-net/aspose.cells/autofitwrappedtexttype/
 is_root: false
 ---

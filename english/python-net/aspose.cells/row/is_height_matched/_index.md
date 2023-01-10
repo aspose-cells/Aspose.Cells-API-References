@@ -3,7 +3,7 @@ title: is_height_matched property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 150
+weight: 180
 url: /python-net/aspose.cells/row/is_height_matched/
 is_root: false
 ---

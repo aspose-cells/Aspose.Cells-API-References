@@ -3,7 +3,7 @@ title: get_table_row_type_of_headers method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 280
+weight: 250
 url: /python-net/aspose.cells/globalizationsettings/get_table_row_type_of_headers/
 is_root: false
 ---

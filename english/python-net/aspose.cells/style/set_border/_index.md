@@ -3,7 +3,7 @@ title: set_border method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.cells/style/set_border/
 is_root: false
 ---

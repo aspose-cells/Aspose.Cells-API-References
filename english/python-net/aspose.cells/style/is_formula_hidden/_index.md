@@ -3,7 +3,7 @@ title: is_formula_hidden property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.cells/style/is_formula_hidden/
 is_root: false
 ---

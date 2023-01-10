@@ -3,7 +3,7 @@ title: ParameterType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2330
+weight: 2340
 url: /python-net/aspose.cells/parametertype/
 is_root: false
 ---

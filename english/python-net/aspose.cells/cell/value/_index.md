@@ -3,7 +3,7 @@ title: value property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 690
+weight: 700
 url: /python-net/aspose.cells/cell/value/
 is_root: false
 ---

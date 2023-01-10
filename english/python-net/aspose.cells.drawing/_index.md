@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.drawing/
 is_root: false
 ---
 
-Contains all classes of drawing objects, such as Images, Forms, Lines etc..
+The **Aspose.Cells.Drawing**  namespace provides classes that allow to create and modify drawing shapes, form controls, and more advanced drawing objects.
 
 ### Classes
 | Class | Description |

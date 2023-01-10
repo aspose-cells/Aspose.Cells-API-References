@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.rendering/
 is_root: false
 ---
 
-Contains all classes of Rendering image and pdf.
+The **Aspose.Cells.Rendering**  namespace provides classes for rendering image and pdf.
 
 ### Classes
 | Class | Description |

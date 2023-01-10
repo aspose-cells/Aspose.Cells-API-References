@@ -3,7 +3,7 @@ title: RevisionQueryTable class
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.cells.revisions/revisionquerytable/
 is_root: false
 ---

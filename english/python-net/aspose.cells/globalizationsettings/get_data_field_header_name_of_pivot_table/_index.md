@@ -3,7 +3,7 @@ title: get_data_field_header_name_of_pivot_table method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /python-net/aspose.cells/globalizationsettings/get_data_field_header_name_of_pivot_table/
 is_root: false
 ---
@@ -24,7 +24,12 @@ def get_data_field_header_name_of_pivot_table(self):
 ```
 
 
+### Remarks
 
+NOTE: This member is now obsolete. Instead, 
+please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method.
+This property will be removed 12 months later since December 2022. 
+Aspose apologizes for any inconvenience you may have experienced.
 
 
 ### See Also

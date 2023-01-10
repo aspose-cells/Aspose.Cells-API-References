@@ -3,7 +3,7 @@ title: is_gradient property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 270
+weight: 280
 url: /python-net/aspose.cells/style/is_gradient/
 is_root: false
 ---

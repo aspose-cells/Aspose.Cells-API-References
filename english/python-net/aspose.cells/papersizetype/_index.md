@@ -3,7 +3,7 @@ title: PaperSizeType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2320
+weight: 2330
 url: /python-net/aspose.cells/papersizetype/
 is_root: false
 ---

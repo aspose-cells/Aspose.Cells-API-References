@@ -3,7 +3,7 @@ title: is_dynamic_array_formula property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 510
+weight: 520
 url: /python-net/aspose.cells/cell/is_dynamic_array_formula/
 is_root: false
 ---

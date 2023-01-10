@@ -68,7 +68,7 @@ The ShapeCollection type exposes the following members:
 | [add_linked_picture(upper_left_row, upper_left_column, height, width, source_full_name)](/cells/python-net/aspose.cells.drawing/shapecollection/add_linked_picture/#int-int-int-int-str) | Add a linked picture. |
 | [add_ole_object_with_linked_image(upper_left_row, upper_left_column, height, width, source_full_name)](/cells/python-net/aspose.cells.drawing/shapecollection/add_ole_object_with_linked_image/#int-int-int-int-str) | Add a linked picture. |
 | [add_picture_in_chart(top, left, stream, width_scale, height_scale)](/cells/python-net/aspose.cells.drawing/shapecollection/add_picture_in_chart/#int-int-io.RawIOBase-int-int) | Adds a picture to the chart. |
-| [add_ole_object(upper_left_row, top, upper_left_column, left, height, width, image_data)](/cells/python-net/aspose.cells.drawing/shapecollection/add_ole_object/#int-int-int-int-int-int-bytes) |  |
+| [add_ole_object(upper_left_row, top, upper_left_column, left, height, width, image_data)](/cells/python-net/aspose.cells.drawing/shapecollection/add_ole_object/#int-int-int-int-int-int-bytes) | Adds an OleObject. |
 | [copy_comments_in_range(shapes, ca, dest_row, dest_column)](/cells/python-net/aspose.cells.drawing/shapecollection/copy_comments_in_range/#ShapeCollection-CellArea-int-int) | Copy all comments in the range. |
 | [copy_in_range(source_shapes, ca, dest_row, dest_column, is_contained)](/cells/python-net/aspose.cells.drawing/shapecollection/copy_in_range/#ShapeCollection-CellArea-int-int-bool) | Copy shapes in the range to destination range. |
 | [delete_in_range(ca)](/cells/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Delete shapes in the range.Comment shapes will not be deleted. |

@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.digitalsignatures/
 is_root: false
 ---
 
-Contains all classes of DigitalSignature.
+The **Aspose.Cells.DigitalSignatures**  namespace provides classes to sign documents and verify signatures.
 
 ### Classes
 | Class | Description |

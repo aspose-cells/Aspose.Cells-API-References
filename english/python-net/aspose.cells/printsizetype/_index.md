@@ -3,7 +3,7 @@ title: PrintSizeType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2390
+weight: 2400
 url: /python-net/aspose.cells/printsizetype/
 is_root: false
 ---

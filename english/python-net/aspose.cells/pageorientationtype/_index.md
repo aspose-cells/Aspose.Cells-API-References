@@ -3,7 +3,7 @@ title: PageOrientationType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2300
+weight: 2310
 url: /python-net/aspose.cells/pageorientationtype/
 is_root: false
 ---

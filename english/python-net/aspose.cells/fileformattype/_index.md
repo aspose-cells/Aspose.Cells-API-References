@@ -3,7 +3,7 @@ title: FileFormatType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2030
+weight: 2040
 url: /python-net/aspose.cells/fileformattype/
 is_root: false
 ---

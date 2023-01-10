@@ -3,7 +3,7 @@ title: group_level property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /python-net/aspose.cells/column/group_level/
 is_root: false
 ---

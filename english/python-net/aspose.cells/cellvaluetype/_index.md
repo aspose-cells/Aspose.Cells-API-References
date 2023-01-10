@@ -3,7 +3,7 @@ title: CellValueType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1840
+weight: 1850
 url: /python-net/aspose.cells/cellvaluetype/
 is_root: false
 ---

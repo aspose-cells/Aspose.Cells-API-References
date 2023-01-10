@@ -3,7 +3,7 @@ title: get_grand_total_name method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 110
+weight: 100
 url: /python-net/aspose.cells/globalizationsettings/get_grand_total_name/
 is_root: false
 ---

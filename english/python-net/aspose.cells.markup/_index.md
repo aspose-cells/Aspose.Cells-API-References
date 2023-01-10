@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.markup/
 is_root: false
 ---
 
-Contains all classes of smart tag.
+The **Aspose.Cells.Markup**  namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and more markup tags.
 
 ### Classes
 | Class | Description |

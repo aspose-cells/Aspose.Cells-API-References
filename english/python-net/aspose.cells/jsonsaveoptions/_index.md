@@ -42,7 +42,7 @@ The JsonSaveOptions type exposes the following members:
 | [warning_callback](/cells/python-net/aspose.cells/jsonsaveoptions/warning_callback) | Gets or sets warning callback. |
 | [update_smart_art](/cells/python-net/aspose.cells/jsonsaveoptions/update_smart_art) | Indicates whether updating smart art setting.<br/>The default value is false. |
 | [export_hyperlink_type](/cells/python-net/aspose.cells/jsonsaveoptions/export_hyperlink_type) | Represents the type of exporting hyperlink to json. |
-| [skip_empty_rows](/cells/python-net/aspose.cells/jsonsaveoptions/skip_empty_rows) | Indicates whether skpping emtpy rows |
+| [skip_empty_rows](/cells/python-net/aspose.cells/jsonsaveoptions/skip_empty_rows) | Indicates whether skipping emtpy rows. |
 | [sheet_indexes](/cells/python-net/aspose.cells/jsonsaveoptions/sheet_indexes) | Represents the indexes of exported sheets. |
 | [export_area](/cells/python-net/aspose.cells/jsonsaveoptions/export_area) | Gets or sets the exporting range. |
 | [has_header_row](/cells/python-net/aspose.cells/jsonsaveoptions/has_header_row) | Indicates whether the range contains header row. |
@@ -50,6 +50,7 @@ The JsonSaveOptions type exposes the following members:
 | [indent](/cells/python-net/aspose.cells/jsonsaveoptions/indent) | Indicates the indent. |
 | [export_nested_structure](/cells/python-net/aspose.cells/jsonsaveoptions/export_nested_structure) | Exported as parent-child hierarchy Json structure. |
 | [export_empty_cells](/cells/python-net/aspose.cells/jsonsaveoptions/export_empty_cells) | Indicates whether exporting empty cells as null. |
+| [always_export_as_json_object](/cells/python-net/aspose.cells/jsonsaveoptions/always_export_as_json_object) | Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
 
 
 ### See Also

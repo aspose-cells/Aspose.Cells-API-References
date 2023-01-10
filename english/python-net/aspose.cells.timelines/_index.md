@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.timelines/
 is_root: false
 ---
 
-Contains all classes of Timeline.
+The **Aspose.Cells.Timelines**  namespace contains classes that allow to access and draw timelines in Excel Spreadsheet files.
 
 ### Classes
 | Class | Description |

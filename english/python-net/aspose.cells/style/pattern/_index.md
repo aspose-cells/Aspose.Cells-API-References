@@ -3,7 +3,7 @@ title: pattern property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 350
+weight: 360
 url: /python-net/aspose.cells/style/pattern/
 is_root: false
 ---

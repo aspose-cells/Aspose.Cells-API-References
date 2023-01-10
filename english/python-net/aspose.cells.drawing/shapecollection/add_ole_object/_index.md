@@ -10,7 +10,7 @@ is_root: false
 
 ## add_ole_object(upper_left_row, top, upper_left_column, left, height, width, image_data) {#int-int-int-int-int-int-bytes}
 
-
+Adds an OleObject.
 
 ### Returns 
 

@@ -3,7 +3,7 @@ title: LoadFormat enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2200
+weight: 2210
 url: /python-net/aspose.cells/loadformat/
 is_root: false
 ---

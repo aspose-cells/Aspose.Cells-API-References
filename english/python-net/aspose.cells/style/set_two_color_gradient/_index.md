@@ -3,7 +3,7 @@ title: set_two_color_gradient method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.cells/style/set_two_color_gradient/
 is_root: false
 ---

@@ -3,7 +3,7 @@ title: HtmlExportDataOptions enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2140
+weight: 2150
 url: /python-net/aspose.cells/htmlexportdataoptions/
 is_root: false
 ---

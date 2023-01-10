@@ -42,7 +42,7 @@ The PivotTable type exposes the following members:
 | [display_null_string](/cells/python-net/aspose.cells.pivot/pivottable/display_null_string) | Indicates whether the PivotTable report displays a custom string<br/>in cells that contain null values. |
 | [null_string](/cells/python-net/aspose.cells.pivot/pivottable/null_string) | Gets the string displayed in cells that contain null values<br/>when the DisplayNullString property is true.The default value is an empty string. |
 | [display_error_string](/cells/python-net/aspose.cells.pivot/pivottable/display_error_string) | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
-| [data_field_header_name](/cells/python-net/aspose.cells.pivot/pivottable/data_field_header_name) | Gets and sets the name of the value area field header in the PivotTable.. |
+| [data_field_header_name](/cells/python-net/aspose.cells.pivot/pivottable/data_field_header_name) | Gets and sets the name of the value area field header in the PivotTable. |
 | [error_string](/cells/python-net/aspose.cells.pivot/pivottable/error_string) | Gets the string displayed in cells that contain errors<br/>when the DisplayErrorString property is true.The default value is an empty string. |
 | [is_auto_format](/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format) | Indicates whether the PivotTable report is automatically formatted.<br/>Checkbox "autoformat table " which is in pivottable option for Excel 2003<br/>Checkbox "autofit column width on update" which is in pivot table Options :Layout Format for Excel 2007 |
 | [auto_format_type](/cells/python-net/aspose.cells.pivot/pivottable/auto_format_type) | Gets the PivotTable auto format type. |

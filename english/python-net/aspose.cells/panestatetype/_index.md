@@ -3,7 +3,7 @@ title: PaneStateType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2310
+weight: 2320
 url: /python-net/aspose.cells/panestatetype/
 is_root: false
 ---

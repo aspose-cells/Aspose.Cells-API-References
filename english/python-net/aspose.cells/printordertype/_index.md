@@ -3,7 +3,7 @@ title: PrintOrderType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2380
+weight: 2390
 url: /python-net/aspose.cells/printordertype/
 is_root: false
 ---

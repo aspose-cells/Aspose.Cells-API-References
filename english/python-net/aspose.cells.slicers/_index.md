@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.slicers/
 is_root: false
 ---
 
-Contains all classes of Pivot Table Slicer.
+The **Aspose.Cells.Slicers**  namespace provides all classes for Pivot Table Slicer options for Excel Spreadsheet files.
 
 ### Classes
 | Class | Description |

@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.drawing.activexcontrols/
 is_root: false
 ---
 
-Contains all classes of ActiveXControl.
+The **Aspose.Cells.Drawing.ActiveXControls**  namespace provides classes that allow to draw and access ActiveXControl.
 
 ### Classes
 | Class | Description |

@@ -3,7 +3,7 @@ title: ValidationType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2630
+weight: 2640
 url: /python-net/aspose.cells/validationtype/
 is_root: false
 ---

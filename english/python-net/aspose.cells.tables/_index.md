@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.tables/
 is_root: false
 ---
 
-Contains all classes of Table(List Object).
+The **Aspose.Cells.Tables**  namespace contains classes that represent tables, rows, cells and their formatting for Excel Spreadsheet files.
 
 ### Classes
 | Class | Description |

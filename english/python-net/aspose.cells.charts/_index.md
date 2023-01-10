@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.charts/
 is_root: false
 ---
 
-Contains all classes of chart and sparkline.
+The **Aspose.Cells.Charts**  namespace provides classes that allow to access and drawing charts and sparkline in Microsoft Excel spreadsheets.
 
 ### Classes
 | Class | Description |

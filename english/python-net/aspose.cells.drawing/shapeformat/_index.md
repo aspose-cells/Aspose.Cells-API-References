@@ -17,9 +17,7 @@ The ShapeFormat type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [fill_format](/cells/python-net/aspose.cells.drawing/shapeformat/fill_format) |  |
 | [fill](/cells/python-net/aspose.cells.drawing/shapeformat/fill) |  |
-| [outline](/cells/python-net/aspose.cells.drawing/shapeformat/outline) |  |
 | [line](/cells/python-net/aspose.cells.drawing/shapeformat/line) |  |
 | [shadow_effect](/cells/python-net/aspose.cells.drawing/shapeformat/shadow_effect) |  |
 | [glow_effect](/cells/python-net/aspose.cells.drawing/shapeformat/glow_effect) |  |

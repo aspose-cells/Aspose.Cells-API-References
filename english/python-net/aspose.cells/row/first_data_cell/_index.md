@@ -3,7 +3,7 @@ title: first_data_cell property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 90
+weight: 110
 url: /python-net/aspose.cells/row/first_data_cell/
 is_root: false
 ---

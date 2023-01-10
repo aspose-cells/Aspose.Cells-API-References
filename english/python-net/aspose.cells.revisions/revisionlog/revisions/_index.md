@@ -3,7 +3,7 @@ title: revisions property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.cells.revisions/revisionlog/revisions/
 is_root: false
 ---

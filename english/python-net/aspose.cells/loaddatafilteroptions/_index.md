@@ -3,7 +3,7 @@ title: LoadDataFilterOptions enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2190
+weight: 2200
 url: /python-net/aspose.cells/loaddatafilteroptions/
 is_root: false
 ---

@@ -70,6 +70,7 @@ The Style type exposes the following members:
 | [set_custom(custom, builtin_preference)](/cells/python-net/aspose.cells/style/set_custom/#str-bool) | Sets the Custom number format string of a cell. |
 | [set_two_color_gradient(color1, color2, gradient_style_type, variant)](/cells/python-net/aspose.cells/style/set_two_color_gradient/#aspose.pydrawing.Color-aspose.pydrawing.Color-aspose.cells.drawing.GradientStyleType-int) | Sets the specified fill to a two-color gradient. |
 | [get_two_color_gradient(color1, color2, gradient_style_type, variant)](/cells/python-net/aspose.cells/style/get_two_color_gradient/#aspose.pydrawing.Color&-aspose.pydrawing.Color&-any-any) | Get the two-color gradient setting. |
+| [get_two_color_gradient_setting()](/cells/python-net/aspose.cells/style/get_two_color_gradient_setting/#) | Get the two-color gradient setting. |
 
 
 ### See Also

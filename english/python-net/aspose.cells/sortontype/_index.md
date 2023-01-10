@@ -3,7 +3,7 @@ title: SortOnType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2470
+weight: 2480
 url: /python-net/aspose.cells/sortontype/
 is_root: false
 ---

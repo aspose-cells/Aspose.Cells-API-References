@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.pivot/
 is_root: false
 ---
 
-Contains all classes of PivotTable.
+The **Aspose.Cells.Pivot**  namespace contains all classes of rendering and manipulating PivotTable in Excel Spreadsheet files.
 
 ### Classes
 | Class | Description |

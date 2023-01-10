@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.properties/
 is_root: false
 ---
 
-Contains all classes of document properties.
+The **Aspose.Cells.Properties**  namespace provides classes to work with custom and built-in Spreadsheet properties such as title, keywords, company etc.
 
 ### Classes
 | Class | Description |

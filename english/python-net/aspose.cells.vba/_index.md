@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.vba/
 is_root: false
 ---
 
-Contains all classes of VBA project.
+The **Aspose.Cells.Vba**  namespace contains classes to access Visual Basic Analysis projects and modules in Excel Spreadsheet files.
 
 ### Classes
 | Class | Description |

@@ -3,7 +3,7 @@ title: get_table_row_type_of_current method
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 260
+weight: 230
 url: /python-net/aspose.cells/globalizationsettings/get_table_row_type_of_current/
 is_root: false
 ---

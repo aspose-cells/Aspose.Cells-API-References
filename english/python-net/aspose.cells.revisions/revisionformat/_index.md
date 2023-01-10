@@ -10,7 +10,7 @@ is_root: false
 
 ## RevisionFormat class
 
-represents a revision record of information about a formatting change.
+Represents a revision record of information about a formatting change.
 
 
 

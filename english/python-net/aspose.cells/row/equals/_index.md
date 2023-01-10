@@ -8,27 +8,6 @@ url: /python-net/aspose.cells/row/equals/
 is_root: false
 ---
 
-## equals(obj) {#any}
-
-Checks whether this object refers to the same row with another.
-
-### Returns 
-
-
-true if two objects refers to the same row.
-
-
-```python
-def equals(self, obj):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| obj | any | another object |
-
-
 ## equals(row) {#Row}
 
 Checks whether this object refers to the same row with another row object.

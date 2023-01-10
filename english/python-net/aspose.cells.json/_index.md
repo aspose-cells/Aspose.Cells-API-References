@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.json/
 is_root: false
 ---
 
-Contains all classes of JSON.
+The **Aspose.Cells.Json**  namespace contains all classes of JSON.
 
 ### Enumerations
 | Enumeration | Description |

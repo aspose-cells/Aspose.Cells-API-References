@@ -3,7 +3,7 @@ title: is_array_header property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 500
+weight: 510
 url: /python-net/aspose.cells/cell/is_array_header/
 is_root: false
 ---

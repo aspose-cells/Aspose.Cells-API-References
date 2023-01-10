@@ -3,7 +3,7 @@ title: RevisionRenameSheet class
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.cells.revisions/revisionrenamesheet/
 is_root: false
 ---

@@ -10,7 +10,7 @@ is_root: false
 
 ## add(cell_name) {#str}
 
-Adds
+Adds [CellWatch](/cells/python-net/aspose.cells/cellwatch) with the name the of cell.
 
 ### Returns 
 
@@ -26,7 +26,7 @@ def add(self, cell_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cell_name | str |  |
+| cell_name | str | The name of the cell. |
 
 
 ## add(row, column) {#int-int}

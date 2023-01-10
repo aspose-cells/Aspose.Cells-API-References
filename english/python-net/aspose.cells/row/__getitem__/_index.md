@@ -3,7 +3,7 @@ title: Row indexer
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /python-net/aspose.cells/row/__getitem__/
 is_root: false
 ---

@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.rendering.pdfsecurity/
 is_root: false
 ---
 
-Contains all security options of Rendering pdf.
+The **Aspose.Cells.Rendering.PdfSecurity**  namespace provides classes security options of Rendering pdf.
 
 ### Classes
 | Class | Description |

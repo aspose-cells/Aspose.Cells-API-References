@@ -3,7 +3,7 @@ title: display_unit property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.cells.charts/axis/display_unit/
 is_root: false
 ---

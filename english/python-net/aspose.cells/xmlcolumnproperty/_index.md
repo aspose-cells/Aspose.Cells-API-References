@@ -3,7 +3,7 @@ title: XmlColumnProperty class
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 1660
+weight: 1670
 url: /python-net/aspose.cells/xmlcolumnproperty/
 is_root: false
 ---

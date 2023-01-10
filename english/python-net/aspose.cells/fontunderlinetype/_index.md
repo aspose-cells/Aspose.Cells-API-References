@@ -3,7 +3,7 @@ title: FontUnderlineType enumeration
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 2080
+weight: 2090
 url: /python-net/aspose.cells/fontunderlinetype/
 is_root: false
 ---

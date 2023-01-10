@@ -31,6 +31,7 @@ The DisplayUnitType type exposes the following members:
 | TRILLIONS | Specifies the values on the chart shall be divided by 1,000,000,000,000. |
 | PERCENTAGE | The values on the chart shall be divided by 0.01. |
 | CUST | specifies a custom value for the display unit. |
+| CUSTOM | specifies a custom value for the display unit. |
 
 
 ### See Also
