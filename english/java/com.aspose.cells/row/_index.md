@@ -67,7 +67,8 @@ Represents a single row in a worksheet.
 | [getIndex()](#getIndex--) | Gets the index of this row. |
 | [getLastCell()](#getLastCell--) | Gets the last cell object in the row. |
 | [getLastDataCell()](#getLastDataCell--) | Gets the last non-blank cell in the row. |
-| [getStyle()](#getStyle--) | Represents the style of this row. |
+| [getStyle()](#getStyle--) | Gets the style of this row. |
+| [hasCustomStyle()](#hasCustomStyle--) | Indicates whether this row has custom style settings(different from the default one inherited from workbook). |
 | [hashCode()](#hashCode--) |  |
 | [isBlank()](#isBlank--) | Indicates whether the row contains any data |
 | [isCollapsed()](#isCollapsed--) | whether the row is collapsed |
@@ -80,6 +81,7 @@ Represents a single row in a worksheet.
 | [setHeight(double value)](#setHeight-double-) | Sets the row height in unit of Points. |
 | [setHeightMatched(boolean value)](#setHeightMatched-boolean-) | Indicates that row height and default font height matches. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the row is hidden. |
+| [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of this row. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -273,10 +275,22 @@ public Style getStyle()
 ```
 
 
-Represents the style of this row. You have to call Row.ApplyStyle() method to save your changing with the row style, otherwise it will not effect.
+Gets the style of this row. Modifying the returned style object directly takes no effect for this row or any cells in this row. You have to call [Column.applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-) or [Column.setStyle(Style)](../../com.aspose.cells/column\#setStyle-Style-) method to apply the change to this row.
+
+Row's style is the style which will be inherited by cells in this row(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
 
 **Returns:**
 [Style](../../com.aspose.cells/style)
+### hasCustomStyle() {#hasCustomStyle--}
+```
+public boolean hasCustomStyle()
+```
+
+
+Indicates whether this row has custom style settings(different from the default one inherited from workbook).
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -416,6 +430,19 @@ Indicates whether the row is hidden.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setStyle(Style style) {#setStyle-com.aspose.cells.Style-}
+```
+public void setStyle(Style style)
+```
+
+
+Sets the style of this row. This method only sets the given style as the default style for this row, without changing the style settings for existing cells in this row. To update style settings of existing cells to the specified style at the same time, please use [Column.applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | [Style](../../com.aspose.cells/style) | the style to be used as the default style for cells in this row. |
 
 ### toString() {#toString--}
 ```

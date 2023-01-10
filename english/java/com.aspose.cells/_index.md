@@ -476,7 +476,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [RevisionCollection](../com.aspose.cells/revisioncollection) | Represents all revision logs. |
 | [RevisionCustomView](../com.aspose.cells/revisioncustomview) | Represents a revision record of adding or removing a custom view to the workbook |
 | [RevisionDefinedName](../com.aspose.cells/revisiondefinedname) | Represents a revision record of a defined name change. |
-| [RevisionFormat](../com.aspose.cells/revisionformat) | represents a revision record of information about a formatting change. |
+| [RevisionFormat](../com.aspose.cells/revisionformat) | Represents a revision record of information about a formatting change. |
+| [RevisionHeader](../com.aspose.cells/revisionheader) | Represents a list of specific changes that have taken place for this workbook. |
 | [RevisionInsertDelete](../com.aspose.cells/revisioninsertdelete) | Represents a revision record of a row/column insert/delete action. |
 | [RevisionInsertSheet](../com.aspose.cells/revisioninsertsheet) | Represents a revision record of a sheet that was inserted. |
 | [RevisionLog](../com.aspose.cells/revisionlog) | Represents the revision log. |
@@ -620,6 +621,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Trendline](../com.aspose.cells/trendline) | Represents a trendline in a chart. |
 | [TrendlineCollection](../com.aspose.cells/trendlinecollection) | Represents a collection of all the [Trendline](../com.aspose.cells/trendline) objects for the specified data series. |
 | [TrendlineType](../com.aspose.cells/trendlinetype) | Represents the trendline type. |
+| [TwoColorGradient](../com.aspose.cells/twocolorgradient) | Represents two color gradient. |
 | [TxtLoadOptions](../com.aspose.cells/txtloadoptions) | Represents the options for loading text file. |
 | [TxtLoadStyleStrategy](../com.aspose.cells/txtloadstylestrategy) | Specifies how to apply style for parsed values when converting string value to number or datetime. |
 | [TxtSaveOptions](../com.aspose.cells/txtsaveoptions) | Represents the save options for csv/tab delimited/other text format. |

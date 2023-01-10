@@ -71,6 +71,7 @@ Encapsulates the object that represents a chart's axis.
 | [getCrossAt()](#getCrossAt--) | Represents the point on the value axis where the category axis crosses it. |
 | [getCrossType()](#getCrossType--) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
 | [getCustUnit()](#getCustUnit--) | Specifies a custom value for the display unit. |
+| [getCustomUnit()](#getCustomUnit--) | Specifies a custom value for the display unit. |
 | [getDisplayUnit()](#getDisplayUnit--) | Represents the unit label for the specified axis. |
 | [getDisplayUnitLabel()](#getDisplayUnitLabel--) | Represents a unit label on an axis in the specified chart. |
 | [getLogBase()](#getLogBase--) | Represents the logarithmic base. |
@@ -119,6 +120,7 @@ Encapsulates the object that represents a chart's axis.
 | [setCrossAtMax(boolean isCrossAtMax)](#setCrossAtMax-boolean-) | Sets whether the axis crosses at the maximum value. |
 | [setCrossType(int value)](#setCrossType-int-) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
 | [setCustUnit(int value)](#setCustUnit-int-) | Specifies a custom value for the display unit. |
+| [setCustomUnit(int value)](#setCustomUnit-int-) | Specifies a custom value for the display unit. |
 | [setDisplayUnit(int value)](#setDisplayUnit-int-) | Represents the unit label for the specified axis. |
 | [setDisplayUnitLabelShown(boolean value)](#setDisplayUnitLabelShown-boolean-) | Represents if the display unit label is shown on the specified axis. |
 | [setHasMultiLevelLabels(boolean value)](#setHasMultiLevelLabels-boolean-) | Indicates whether the labels shall be shown as multi level. |
@@ -259,6 +261,16 @@ int
 ### getCustUnit() {#getCustUnit--}
 ```
 public int getCustUnit()
+```
+
+
+Specifies a custom value for the display unit. NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit property. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+int
+### getCustomUnit() {#getCustomUnit--}
+```
+public int getCustomUnit()
 ```
 
 
@@ -786,6 +798,19 @@ Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on 
 ### setCustUnit(int value) {#setCustUnit-int-}
 ```
 public void setCustUnit(int value)
+```
+
+
+Specifies a custom value for the display unit. NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit property. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setCustomUnit(int value) {#setCustomUnit-int-}
+```
+public void setCustomUnit(int value)
 ```
 
 

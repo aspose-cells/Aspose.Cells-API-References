@@ -19,6 +19,7 @@ Represents the type of display unit.
 | --- | --- |
 | [BILLIONS](#BILLIONS) | Specifies the values on the chart shall be divided by 1,000,000,000. |
 | [CUST](#CUST) | specifies a custom value for the display unit. |
+| [CUSTOM](#CUSTOM) | specifies a custom value for the display unit. |
 | [HUNDREDS](#HUNDREDS) | Specifies the values on the chart shall be divided by 100. |
 | [HUNDRED_MILLIONS](#HUNDRED-MILLIONS) | Specifies the values on the chart shall be divided by 100,000,000. |
 | [HUNDRED_THOUSANDS](#HUNDRED-THOUSANDS) | Specifies the values on the chart shall be divided by 100,000. |
@@ -53,6 +54,14 @@ Specifies the values on the chart shall be divided by 1,000,000,000.
 ### CUST {#CUST}
 ```
 public static final int CUST
+```
+
+
+specifies a custom value for the display unit. NOTE: This member is now obsolete. Instead, please use DisplayUnitType.Custom. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+### CUSTOM {#CUSTOM}
+```
+public static final int CUSTOM
 ```
 
 

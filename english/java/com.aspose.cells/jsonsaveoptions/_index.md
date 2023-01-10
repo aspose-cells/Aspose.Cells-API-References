@@ -23,6 +23,7 @@ Represents the options of saving the workbook as a json file.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAlwaysExportAsJsonObject()](#getAlwaysExportAsJsonObject--) | Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
@@ -47,6 +48,7 @@ Represents the options of saving the workbook as a json file.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAlwaysExportAsJsonObject(boolean value)](#setAlwaysExportAsJsonObject-boolean-) | Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -90,6 +92,16 @@ public boolean equals(Object arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAlwaysExportAsJsonObject() {#getAlwaysExportAsJsonObject--}
+```
+public boolean getAlwaysExportAsJsonObject()
+```
+
+
+Indicates whether always exporting excel to json as object, even there is only a worksheet in the file.
 
 **Returns:**
 boolean
@@ -328,6 +340,19 @@ public final native void notifyAll()
 
 
 
+
+### setAlwaysExportAsJsonObject(boolean value) {#setAlwaysExportAsJsonObject-boolean-}
+```
+public void setAlwaysExportAsJsonObject(boolean value)
+```
+
+
+Indicates whether always exporting excel to json as object, even there is only a worksheet in the file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setCachedFileFolder(String value) {#setCachedFileFolder-java.lang.String-}
 ```

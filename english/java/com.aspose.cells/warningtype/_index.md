@@ -19,6 +19,7 @@ WaringType
 | --- | --- |
 | [DUPLICATE_DEFINED_NAME](#DUPLICATE-DEFINED-NAME) | Duplicate defined name is found in the file. |
 | [FONT_SUBSTITUTION](#FONT-SUBSTITUTION) | Font substitution warning type when a font has not been found, this warning type can be get. |
+| [FORMULA](#FORMULA) | Invalid formula. |
 | [INVALID_AUTO_FILTER_RANGE](#INVALID-AUTO-FILTER-RANGE) | Invalid autofilter range. |
 | [INVALID_DATA](#INVALID-DATA) | Invalid data. |
 | [INVALID_FONT_NAME](#INVALID-FONT-NAME) | Invalid the font name. |
@@ -54,6 +55,14 @@ public static final int FONT_SUBSTITUTION
 
 
 Font substitution warning type when a font has not been found, this warning type can be get.
+
+### FORMULA {#FORMULA}
+```
+public static final int FORMULA
+```
+
+
+Invalid formula.
 
 ### INVALID_AUTO_FILTER_RANGE {#INVALID-AUTO-FILTER-RANGE}
 ```

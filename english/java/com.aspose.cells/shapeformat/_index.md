@@ -23,10 +23,8 @@ Represents the format of the shape or text. NOTE: This member is now obsolete. I
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFill()](#getFill--) | Gets fill format |
-| [getFillFormat()](#getFillFormat--) | Gets fill format NOTE: This member is now obsolete. |
 | [getGlowEffect()](#getGlowEffect--) | Represents a [getGlowEffect()](../../com.aspose.cells/shapeformat\#getGlowEffect--) object that specifies glow effect for the chart element or shape. |
 | [getLine()](#getLine--) | Gets line style |
-| [getOutline()](#getOutline--) | Gets line style NOTE: This member is now obsolete. |
 | [getShadowEffect()](#getShadowEffect--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
 | [getSoftEdgeRadius()](#getSoftEdgeRadius--) | Gets the radius of blur to apply to the edges, in unit of points. |
 | [hasFormat3D()](#hasFormat3D--) | Indicates if the shape has 3d format data. |
@@ -99,16 +97,6 @@ Gets fill format
 
 **Returns:**
 [FillFormat](../../com.aspose.cells/fillformat)
-### getFillFormat() {#getFillFormat--}
-```
-public FillFormat getFillFormat()
-```
-
-
-Gets fill format NOTE: This member is now obsolete. Instead, please use ShapeFormat.Fill property. This property will be removed 6 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-[FillFormat](../../com.aspose.cells/fillformat)
 ### getGlowEffect() {#getGlowEffect--}
 ```
 public GlowEffect getGlowEffect()
@@ -126,16 +114,6 @@ public LineFormat getLine()
 
 
 Gets line style
-
-**Returns:**
-[LineFormat](../../com.aspose.cells/lineformat)
-### getOutline() {#getOutline--}
-```
-public LineFormat getOutline()
-```
-
-
-Gets line style NOTE: This member is now obsolete. Instead, please use ShapeFormat.Line property. This property will be removed 6 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [LineFormat](../../com.aspose.cells/lineformat)

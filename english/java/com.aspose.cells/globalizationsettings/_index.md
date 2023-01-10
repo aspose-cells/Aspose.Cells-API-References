@@ -7,9 +7,9 @@ url: /java/com.aspose.cells/globalizationsettings/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.cells.AbstractGlobalizationSettings](../../com.aspose.cells/abstractglobalizationsettings)
+java.lang.Object
 ```
-public class GlobalizationSettings extends AbstractGlobalizationSettings
+public class GlobalizationSettings
 ```
 
 Represents the globalization settings.
@@ -26,11 +26,10 @@ Represents the globalization settings.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllName()](#getAllName--) | Gets the name of "(All)" label in the PivotTable. |
 | [getBooleanValueString(boolean bv)](#getBooleanValueString-boolean-) | Gets the display string value for cell's boolean value |
-| [getChartSettings()](#getChartSettings--) | Gets the Chart of this[ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings) |
+| [getChartSettings()](#getChartSettings--) | Gets the globalization settings for Chart. |
 | [getClass()](#getClass--) |  |
 | [getCollationKey(String v, boolean ignoreCase)](#getCollationKey-java.lang.String-boolean-) | Transforms the string into a comparable object according to certain collation rules. |
 | [getColumnLabelsOfPivotTable()](#getColumnLabelsOfPivotTable--) | Gets the name of "Column Labels" label in the PivotTable. |
-| [getColumnLablesName()](#getColumnLablesName--) | Gets the name of "Column Labels" label in the PivotTable. |
 | [getColumnSeparatorOfFormulaArray()](#getColumnSeparatorOfFormulaArray--) | Gets the separator for the items in array's row data in formula. |
 | [getCommentTitleName(int type)](#getCommentTitleName-int-) | Gets the locale dependent comment title name according to comment title type. |
 | [getDataFieldHeaderNameOfPivotTable()](#getDataFieldHeaderNameOfPivotTable--) | Gets the the name of the value area field header in the PivotTable. |
@@ -41,12 +40,11 @@ Represents the globalization settings.
 | [getLocalBuiltInName(String standardName)](#getLocalBuiltInName-java.lang.String-) | Gets the locale dependent text for built-in Name according to given standard text. |
 | [getLocalFunctionName(String standardName)](#getLocalFunctionName-java.lang.String-) | Gets the locale dependent function name according to given standard function name. |
 | [getMultipleItemsName()](#getMultipleItemsName--) | Gets the name of "(Multiple Items)" label in the PivotTable. |
-| [getOtherName()](#getOtherName--) | Gets the name of "Other" labels for Pie charts. |
 | [getPivotGrandTotalName()](#getPivotGrandTotalName--) | Gets the name of "Grand Total" label in the PivotTable. |
+| [getPivotSettings()](#getPivotSettings--) | Gets the globalization settings for pivot table. |
 | [getPivotTotalName()](#getPivotTotalName--) | Gets the name of "Total" label in the PivotTable. |
 | [getProtectionNameOfPivotTable()](#getProtectionNameOfPivotTable--) | Gets the protection name in the PivotTable. |
 | [getRowLabelsNameOfPivotTable()](#getRowLabelsNameOfPivotTable--) | Gets the name of "Row Labels" label in the PivotTable. |
-| [getRowLablesName()](#getRowLablesName--) | Gets the name of "Row Labels" label in the PivotTable. |
 | [getRowSeparatorOfFormulaArray()](#getRowSeparatorOfFormulaArray--) | Gets the separator for rows in array data in formula. |
 | [getStandardBuiltInName(String localName)](#getStandardBuiltInName-java.lang.String-) | Gets the standard text of built-in Name according to given locale dependent text. |
 | [getStandardFunctionName(String localName)](#getStandardFunctionName-java.lang.String-) | Gets the standard function name according to given locale dependent function name. |
@@ -61,7 +59,8 @@ Represents the globalization settings.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setChartSettings(ChartGlobalizationSettings value)](#setChartSettings-com.aspose.cells.ChartGlobalizationSettings-) | Sets the Chart of this[ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings) |
+| [setChartSettings(ChartGlobalizationSettings value)](#setChartSettings-com.aspose.cells.ChartGlobalizationSettings-) | Sets the globalization settings for Chart. |
+| [setPivotSettings(PivotGlobalizationSettings value)](#setPivotSettings-com.aspose.cells.PivotGlobalizationSettings-) | Sets the globalization settings for pivot table. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -110,7 +109,7 @@ public String getAllName()
 ```
 
 
-Gets the name of "(All)" label in the PivotTable.
+Gets the name of "(All)" label in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The name of "(All)" label
@@ -135,7 +134,7 @@ public ChartGlobalizationSettings getChartSettings()
 ```
 
 
-Gets the Chart of this[ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings)
+Gets the globalization settings for Chart.
 
 **Returns:**
 [ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings)
@@ -171,17 +170,7 @@ public String getColumnLabelsOfPivotTable()
 ```
 
 
-Gets the name of "Column Labels" label in the PivotTable.
-
-**Returns:**
-java.lang.String - The name of column labels
-### getColumnLablesName() {#getColumnLablesName--}
-```
-public String getColumnLablesName()
-```
-
-
-Gets the name of "Column Labels" label in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
+Gets the name of "Column Labels" label in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The name of column labels
@@ -216,7 +205,7 @@ public String getDataFieldHeaderNameOfPivotTable()
 ```
 
 
-Gets the the name of the value area field header in the PivotTable.
+Gets the the name of the value area field header in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The name of data field header name
@@ -226,7 +215,7 @@ public String getEmptyDataName()
 ```
 
 
-Gets the name of "(blank)" label in the PivotTable.
+Gets the name of "(blank)" label in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The name of empty data
@@ -306,37 +295,37 @@ public String getMultipleItemsName()
 ```
 
 
-Gets the name of "(Multiple Items)" label in the PivotTable.
+Gets the name of "(Multiple Items)" label in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The name of "(Multiple Items)" label
-### getOtherName() {#getOtherName--}
-```
-public String getOtherName()
-```
-
-
-Gets the name of "Other" labels for Pie charts.
-
-**Returns:**
-java.lang.String - 
 ### getPivotGrandTotalName() {#getPivotGrandTotalName--}
 ```
 public String getPivotGrandTotalName()
 ```
 
 
-Gets the name of "Grand Total" label in the PivotTable.
+Gets the name of "Grand Total" label in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The name of "Grand Total" label
+### getPivotSettings() {#getPivotSettings--}
+```
+public PivotGlobalizationSettings getPivotSettings()
+```
+
+
+Gets the globalization settings for pivot table.
+
+**Returns:**
+[PivotGlobalizationSettings](../../com.aspose.cells/pivotglobalizationsettings)
 ### getPivotTotalName() {#getPivotTotalName--}
 ```
 public String getPivotTotalName()
 ```
 
 
-Gets the name of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area.
+Gets the name of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The name of "Total" label
@@ -346,7 +335,7 @@ public String getProtectionNameOfPivotTable()
 ```
 
 
-Gets the protection name in the PivotTable.
+Gets the protection name in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The protection name of PivotTable
@@ -356,17 +345,7 @@ public String getRowLabelsNameOfPivotTable()
 ```
 
 
-Gets the name of "Row Labels" label in the PivotTable.
-
-**Returns:**
-java.lang.String - The name of row labels
-### getRowLablesName() {#getRowLablesName--}
-```
-public String getRowLablesName()
-```
-
-
-Gets the name of "Row Labels" label in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetRowLabelsOfPivotTable() method. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
+Gets the name of "Row Labels" label in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The name of row labels
@@ -431,7 +410,7 @@ public String getSubTotalName(int subTotalType)
 ```
 
 
-Gets the name of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type in the PivotTable.
+Gets the name of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type in the PivotTable. NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.GetColumnLabelsOfPivotTable() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -537,12 +516,25 @@ public void setChartSettings(ChartGlobalizationSettings value)
 ```
 
 
-Sets the Chart of this[ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings)
+Sets the globalization settings for Chart.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ChartGlobalizationSettings](../../com.aspose.cells/chartglobalizationsettings) |  |
+
+### setPivotSettings(PivotGlobalizationSettings value) {#setPivotSettings-com.aspose.cells.PivotGlobalizationSettings-}
+```
+public void setPivotSettings(PivotGlobalizationSettings value)
+```
+
+
+Sets the globalization settings for pivot table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PivotGlobalizationSettings](../../com.aspose.cells/pivotglobalizationsettings) |  |
 
 ### toString() {#toString--}
 ```

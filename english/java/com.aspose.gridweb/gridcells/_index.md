@@ -22,6 +22,7 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | --- | --- |
 | [cellIndexToName(int row, int column)](#cellIndexToName-int-int-) | Gets cell name according to its row and column indexes. |
 | [cellNameToIndex(String cellName, int row, int column)](#cellNameToIndex-java.lang.String-int-int-) | Gets the cell row and column indexes according to its name |
+| [checkCell(int row, int column)](#checkCell-int-int-) | Gets the Cell element or null at the specified cell row index and column index. |
 | [clear()](#clear--) | Clear all cells in the collection. |
 | [clearContents(GridCellArea range)](#clearContents-com.aspose.gridweb.GridCellArea-) | Clears contents of a range. |
 | [clearContents(int startRow, int startColumn, int endRow, int endColumn)](#clearContents-int-int-int-int-) | Clears contents of a range. |
@@ -161,6 +162,22 @@ Gets the cell row and column indexes according to its name
 | row | int | Output row index |
 | column | int | Output column index |
 
+### checkCell(int row, int column) {#checkCell-int-int-}
+```
+public GridCell checkCell(int row, int column)
+```
+
+
+Gets the Cell element or null at the specified cell row index and column index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | Row index |
+| column | int | Column index |
+
+**Returns:**
+[GridCell](../../com.aspose.gridweb/gridcell) - Return Cell object if a Cell object exists. Return null if the cell does not exist.
 ### clear() {#clear--}
 ```
 public void clear()

@@ -1,7 +1,7 @@
 ---
 title: RevisionFormat
 second_title: Aspose.Cells for Java API Reference
-description: represents a revision record of information about a formatting change.
+description: Represents a revision record of information about a formatting change.
 type: docs
 url: /java/com.aspose.cells/revisionformat/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.Revision](../../com.aspose.cells/revision)
 public class RevisionFormat extends Revision
 ```
 
-represents a revision record of information about a formatting change.
+Represents a revision record of information about a formatting change.
 ## Methods
 
 | Method | Description |

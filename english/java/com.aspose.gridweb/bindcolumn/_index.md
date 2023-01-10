@@ -37,6 +37,7 @@ BindColumn.
 | [getNumberType()](#getNumberType--) | Gets the number type of the column. |
 | [getStyle()](#getStyle--) | Gets the style of the column. |
 | [getUseAlternativeStyle()](#getUseAlternativeStyle--) | Gets whether to use the alternative style for the column. |
+| [getValidation()](#getValidation--) | Gets the validation object of the column. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoCreated()](#isAutoCreated--) | Indicates whether the column is created automatically. |
 | [isReadOnly()](#isReadOnly--) | Indicates whether the column is readonly. |
@@ -56,6 +57,7 @@ BindColumn.
 | [setReadOnly(boolean value)](#setReadOnly-boolean-) | Indicates whether the column is readonly. |
 | [setStyle(GridTableItemStyle value)](#setStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the style of the column. |
 | [setUseAlternativeStyle(boolean value)](#setUseAlternativeStyle-boolean-) | Sets whether to use the alternative style for the column. |
+| [setValidation(GridValidation value)](#setValidation-com.aspose.gridweb.GridValidation-) | Sets the validation object of the column. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -223,6 +225,16 @@ Gets whether to use the alternative style for the column.
 
 **Returns:**
 boolean
+### getValidation() {#getValidation--}
+```
+public GridValidation getValidation()
+```
+
+
+Gets the validation object of the column.
+
+**Returns:**
+[GridValidation](../../com.aspose.gridweb/gridvalidation)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -450,6 +462,19 @@ Sets whether to use the alternative style for the column.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setValidation(GridValidation value) {#setValidation-com.aspose.gridweb.GridValidation-}
+```
+public void setValidation(GridValidation value)
+```
+
+
+Sets the validation object of the column.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [GridValidation](../../com.aspose.gridweb/gridvalidation) |  |
 
 ### toString() {#toString--}
 ```

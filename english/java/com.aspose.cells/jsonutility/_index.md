@@ -61,7 +61,7 @@ public static String exportRangeToJson(Range range, ExportRangeToJsonOptions opt
 ```
 
 
-Exporting the range to json file.
+Exporting the range to json file. NOTE: This member is now obsolete. Instead, please use ExportRangeToJson(Range range, JsonSaveOptions options) method. This property will be removed 6 months later since November 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

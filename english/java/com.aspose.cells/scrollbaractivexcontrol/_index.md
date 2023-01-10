@@ -13,6 +13,20 @@ public class ScrollBarActiveXControl extends SpinButtonActiveXControl
 ```
 
 Represents the ScrollBar control.
+
+```
+//Initialize a new workbook.
+         Workbook book = new Workbook();
+ 
+         //Add a ToggleButtonActiveXControl.
+         Shape shape = book.getWorksheets().get(0).getShapes().addActiveXControl(ControlType.SCROLL_BAR, 1, 0, 1, 0, 100, 50);
+         ScrollBarActiveXControl activeXControl = (ScrollBarActiveXControl)shape.getActiveXControl();
+ 
+         //do your business
+ 
+         //Save the excel file.
+         book.save("exmaple.xlsx");
+```
 ## Methods
 
 | Method | Description |
@@ -167,6 +181,10 @@ public int getLargeChange()
 
 Gets the amount by which the Position property changes
 
+```
+activeXControl.setSmallChange(5);
+```
+
 **Returns:**
 int
 ### getLinkedCell() {#getLinkedCell--}
@@ -197,6 +215,10 @@ public int getMax()
 
 Gets the maximum acceptable value.
 
+```
+activeXControl.setMin(100);
+```
+
 **Returns:**
 int
 ### getMin() {#getMin--}
@@ -206,6 +228,10 @@ public int getMin()
 
 
 Gets the minimum acceptable value.
+
+```
+activeXControl.setMin(0);
+```
 
 **Returns:**
 int
@@ -237,6 +263,13 @@ public int getOrientation()
 
 Gets whether the SpinButton or ScrollBar is oriented vertically or horizontally.
 
+```
+if(activeXControl.getOrientation() == com.aspose.cells.ControlScrollOrientation.AUTO)
+         {
+             activeXControl.setOrientation(com.aspose.cells.ControlScrollOrientation.HORIZONTAL);
+         }
+```
+
 **Returns:**
 int
 ### getPosition() {#getPosition--}
@@ -246,6 +279,10 @@ public int getPosition()
 
 
 Gets the value.
+
+```
+activeXControl.setPosition(30);
+```
 
 **Returns:**
 int
@@ -267,6 +304,10 @@ public int getSmallChange()
 
 Gets the amount by which the Position property changes
 
+```
+activeXControl.setSmallChange(5);
+```
+
 **Returns:**
 int
 ### getTextAlign() {#getTextAlign--}
@@ -286,6 +327,13 @@ public int getType()
 
 
 Gets the type of the ActiveX control.
+
+```
+if(activeXControl.getType() == com.aspose.cells.ControlType.SCROLL_BAR)
+         {
+             //do something
+         }
+```
 
 **Returns:**
 int

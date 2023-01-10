@@ -33,7 +33,7 @@ Represents the collection of cells on this worksheet being watched in the 'watch
 | --- | --- |
 | [add(int row, int column)](#add-int-int-) | Adds [CellWatch](../../com.aspose.cells/cellwatch) with row and column. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String cellName)](#add-java.lang.String-) | Adds |
+| [add(String cellName)](#add-java.lang.String-) | Adds [CellWatch](../../com.aspose.cells/cellwatch) with the name the of cell. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -94,12 +94,12 @@ public int add(String cellName)
 ```
 
 
-Adds
+Adds [CellWatch](../../com.aspose.cells/cellwatch) with the name the of cell.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellName | java.lang.String |  |
+| cellName | java.lang.String | The name of the cell. |
 
 **Returns:**
 int - 

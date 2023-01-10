@@ -110,6 +110,7 @@ Workbook excel = new Workbook();
 | [getValue()](#getValue--) | Gets the value contained in this cell. |
 | [getWidthOfValue()](#getWidthOfValue--) | Gets the width of the value in unit of pixels. |
 | [getWorksheet()](#getWorksheet--) | Gets the parent worksheet. |
+| [hasCustomStyle()](#hasCustomStyle--) | Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [isArrayFormula()](#isArrayFormula--) | Indicates whether the cell formula is an array formula. |
 | [isArrayHeader()](#isArrayHeader--) | Indicates the cell's formula is and array formula and it is the first cell of the array. |
@@ -881,6 +882,16 @@ Gets the parent worksheet.
 
 **Returns:**
 [Worksheet](../../com.aspose.cells/worksheet)
+### hasCustomStyle() {#hasCustomStyle--}
+```
+public boolean hasCustomStyle()
+```
+
+
+Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook).
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

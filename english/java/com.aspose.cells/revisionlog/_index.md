@@ -19,6 +19,7 @@ Represents the revision log.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getMetadataTable()](#getMetadataTable--) | Gets table that contains metadata about a list of specific changes that have taken place for this workbook. |
 | [getRevisions()](#getRevisions--) | Gets all revisions in this log. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -52,6 +53,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getMetadataTable() {#getMetadataTable--}
+```
+public RevisionHeader getMetadataTable()
+```
+
+
+Gets table that contains metadata about a list of specific changes that have taken place for this workbook.
+
+**Returns:**
+[RevisionHeader](../../com.aspose.cells/revisionheader)
 ### getRevisions() {#getRevisions--}
 ```
 public RevisionCollection getRevisions()

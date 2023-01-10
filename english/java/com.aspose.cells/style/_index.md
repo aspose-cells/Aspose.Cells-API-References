@@ -58,6 +58,7 @@ Workbook workbook = new Workbook();
 | [getShrinkToFit()](#getShrinkToFit--) | Represents if text automatically shrinks to fit in the available column width. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
 | [getTwoColorGradient()](#getTwoColorGradient--) | Get the two-color gradient setting. |
+| [getTwoColorGradientSetting()](#getTwoColorGradientSetting--) | Get the two-color gradient setting. |
 | [getVerticalAlignment()](#getVerticalAlignment--) | Gets the vertical alignment type of the text in a cell. |
 | [hasBorders()](#hasBorders--) | Checks whether there are borders have been set for the style. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a Style object. |
@@ -417,10 +418,20 @@ public Object[] getTwoColorGradient()
 ```
 
 
-Get the two-color gradient setting. If this is not gradient fill,return null;
+Get the two-color gradient setting. NOTE: This method is now obsolete. Instead, please use Style.GetTwoColorGradientSetting() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.Object[] - Returns all setting about two-color gradient [0] : Color1 [1] : Color2 [2] : GradientStyleType [3] : Variant
+### getTwoColorGradientSetting() {#getTwoColorGradientSetting--}
+```
+public TwoColorGradient getTwoColorGradientSetting()
+```
+
+
+Get the two-color gradient setting.
+
+**Returns:**
+[TwoColorGradient](../../com.aspose.cells/twocolorgradient)
 ### getVerticalAlignment() {#getVerticalAlignment--}
 ```
 public int getVerticalAlignment()

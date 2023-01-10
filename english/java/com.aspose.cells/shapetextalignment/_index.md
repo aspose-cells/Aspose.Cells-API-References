@@ -268,9 +268,7 @@ public int hashCode()
 ```
 
 
-```
-int hashCode = shapeTextAlignment.hashCode();
-```
+
 
 **Returns:**
 int - 

@@ -57,6 +57,7 @@ Represents a single column in a worksheet.
 | [getIndex()](#getIndex--) | Gets the index of this column. |
 | [getStyle()](#getStyle--) | Gets the style of this column. |
 | [getWidth()](#getWidth--) | Gets the column width in unit of characters. |
+| [hasCustomStyle()](#hasCustomStyle--) | Indicates whether this column has custom style settings(different from the default one inherited from workbook). |
 | [hashCode()](#hashCode--) |  |
 | [isCollapsed()](#isCollapsed--) | whether the column is collapsed |
 | [isHidden()](#isHidden--) | Indicates whether the column is hidden. |
@@ -64,6 +65,7 @@ Represents a single column in a worksheet.
 | [notifyAll()](#notifyAll--) |  |
 | [setCollapsed(boolean value)](#setCollapsed-boolean-) | whether the column is collapsed |
 | [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the column is hidden. |
+| [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of this column. |
 | [setWidth(double value)](#setWidth-double-) | Sets the column width in unit of characters. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -134,7 +136,9 @@ public Style getStyle()
 ```
 
 
-Gets the style of this column. You have to call Column.ApplyStyle() method to save your changing with the row style, otherwise it will not effect.
+Gets the style of this column. Modifying the returned style object directly takes no effect for this column or any cells in this column. You have to call [applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-) or [setStyle(Style)](../../com.aspose.cells/column\#setStyle-Style-) method to apply the change to this column.
+
+Column's style is the style which will be inherited by cells in this column(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
 
 **Returns:**
 [Style](../../com.aspose.cells/style)
@@ -148,6 +152,16 @@ Gets the column width in unit of characters.
 
 **Returns:**
 double
+### hasCustomStyle() {#hasCustomStyle--}
+```
+public boolean hasCustomStyle()
+```
+
+
+Indicates whether this column has custom style settings(different from the default one inherited from workbook).
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -219,6 +233,19 @@ Indicates whether the column is hidden.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setStyle(Style style) {#setStyle-com.aspose.cells.Style-}
+```
+public void setStyle(Style style)
+```
+
+
+Sets the style of this column. This method only sets the given style as the default style for this column, without changing the style settings for existing cells in this column. To update style settings of existing cells to the specified style at the same time, please use [applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | [Style](../../com.aspose.cells/style) | the style to be used as the default style for cells in this column. |
 
 ### setWidth(double value) {#setWidth-double-}
 ```

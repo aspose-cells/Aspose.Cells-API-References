@@ -47,7 +47,7 @@ Represents all the shape in a worksheet/chart.
 | [addLine(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addLine-int-int-int-int-int-int-) | Adds a LineShape to the worksheet. |
 | [addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, String sourceFullName)](#addLinkedPicture-int-int-int-int-java.lang.String-) | Add a linked picture. |
 | [addListBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addListBox-int-int-int-int-int-int-) | Adds a ListBox to the worksheet. |
-| [addOleObject(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageData)](#addOleObject-int-int-int-int-int-int-byte---) |  |
+| [addOleObject(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageData)](#addOleObject-int-int-int-int-int-int-byte---) | Adds an OleObject. |
 | [addOleObjectWithLinkedImage(int upperLeftRow, int upperLeftColumn, int height, int width, String sourceFullName)](#addOleObjectWithLinkedImage-int-int-int-int-java.lang.String-) | Add a linked picture. |
 | [addOval(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addOval-int-int-int-int-int-int-) | Adds a Oval to the worksheet. |
 | [addPicture(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream)](#addPicture-int-int-int-int-java.io.InputStream-) | Adds a picture to the collection. |
@@ -519,6 +519,8 @@ Adds a ListBox to the worksheet.
 public OleObject addOleObject(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageData)
 ```
 
+
+Adds an OleObject.
 
 ```
 FileInputStream fs = new FileInputStream("image.jpg");

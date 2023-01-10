@@ -13,6 +13,20 @@ public class TextBoxActiveXControl extends ActiveXControl
 ```
 
 Represents a text box ActiveX control.
+
+```
+//Initialize a new workbook.
+         Workbook book = new Workbook();
+ 
+         //Add a TextBoxActiveXControl.
+         Shape shape = book.getWorksheets().get(0).getShapes().addActiveXControl(ControlType.TEXT_BOX, 1, 0, 1, 0, 100, 50);
+         TextBoxActiveXControl activeXControl = (TextBoxActiveXControl)shape.getActiveXControl();
+ 
+         //do your business
+ 
+         //Save the excel file.
+         book.save("exmaple.xlsx");
+```
 ## Methods
 
 | Method | Description |
@@ -135,6 +149,11 @@ public int getBorderOleColor()
 
 Gets the ole color of the background.
 
+```
+//excel default color system 12 or green(0x0000FF00)
+         activeXControl.setBorderOleColor(/*unchecked*/((int)0x80000012L));
+```
+
 **Returns:**
 int
 ### getBorderStyle() {#getBorderStyle--}
@@ -144,6 +163,10 @@ public int getBorderStyle()
 
 
 Gets the type of border used by the control.
+
+```
+activeXControl.setBorderStyle(com.aspose.cells.ControlBorderType.SINGLE);
+```
 
 **Returns:**
 int
@@ -175,6 +198,10 @@ public int getDropButtonStyle()
 
 Specifies the symbol displayed on the drop button
 
+```
+activeXControl.setDropButtonStyle(com.aspose.cells.DropButtonStyle.ARROW);
+```
+
 **Returns:**
 int
 ### getEnterFieldBehavior() {#getEnterFieldBehavior--}
@@ -185,6 +212,13 @@ public boolean getEnterFieldBehavior()
 
 Specifies selection behavior when entering the control. True specifies that the selection remains unchanged from last time the control was active. False specifies that all the text in the control will be selected when entering the control.
 
+```
+if(!activeXControl.getEnterFieldBehavior())
+         {
+             activeXControl.setEnterFieldBehavior(true);
+         }
+```
+
 **Returns:**
 boolean
 ### getEnterKeyBehavior() {#getEnterKeyBehavior--}
@@ -194,6 +228,13 @@ public boolean getEnterKeyBehavior()
 
 
 Specifies the behavior of the ENTER key. True specifies that pressing ENTER will create a new line. False specifies that pressing ENTER will move the focus to the next object in the tab order.
+
+```
+if(!activeXControl.getEnterKeyBehavior())
+         {
+             activeXControl.setEnterKeyBehavior(true);
+         }
+```
 
 **Returns:**
 boolean
@@ -235,6 +276,13 @@ public boolean getHideSelection()
 
 Indicates whether selected text in the control appears highlighted when the control does not have focus.
 
+```
+if(!activeXControl.getHideSelection())
+         {
+             activeXControl.setHideSelection(true);
+         }
+```
+
 **Returns:**
 boolean
 ### getIMEMode() {#getIMEMode--}
@@ -254,6 +302,13 @@ public boolean getIntegralHeight()
 
 
 Indicates whether the control will only show complete lines of text without showing any partial lines.
+
+```
+if(!activeXControl.getIntegralHeight())
+         {
+             activeXControl.setIntegralHeight(true);
+         }
+```
 
 **Returns:**
 boolean
@@ -285,6 +340,13 @@ public int getMaxLength()
 
 Gets the maximum number of characters
 
+```
+if(activeXControl.getMaxLength() == 0)
+         {
+             activeXControl.setMaxLength(30);
+         }
+```
+
 **Returns:**
 int
 ### getMouseIcon() {#getMouseIcon--}
@@ -315,6 +377,10 @@ public char getPasswordChar()
 
 Gets a character to be displayed in place of the characters entered.
 
+```
+activeXControl.setPasswordChar('a');
+```
+
 **Returns:**
 char
 ### getScrollBars() {#getScrollBars--}
@@ -324,6 +390,10 @@ public int getScrollBars()
 
 
 Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
+
+```
+activeXControl.setScrollBars(com.aspose.cells.ControlScrollBarType.BARS_VERTICAL);
+```
 
 **Returns:**
 int
@@ -345,6 +415,10 @@ public int getShowDropButtonTypeWhen()
 
 Specifies the symbol displayed on the drop button
 
+```
+activeXControl.setShowDropButtonTypeWhen(com.aspose.cells.ShowDropButtonType.FOCUS);
+```
+
 **Returns:**
 int
 ### getSpecialEffect() {#getSpecialEffect--}
@@ -354,6 +428,10 @@ public int getSpecialEffect()
 
 
 Gets the special effect of the control.
+
+```
+activeXControl.setSpecialEffect(com.aspose.cells.ControlSpecialEffectType.BUMP);
+```
 
 **Returns:**
 int
@@ -365,6 +443,13 @@ public boolean getTabKeyBehavior()
 
 Indicates whether tab characters are allowed in the text of the control.
 
+```
+if(!activeXControl.getTabKeyBehavior())
+         {
+             activeXControl.setTabKeyBehavior(true);
+         }
+```
+
 **Returns:**
 boolean
 ### getText() {#getText--}
@@ -374,6 +459,10 @@ public String getText()
 
 
 Gets text of the control.
+
+```
+activeXControl.setText("This is a test.");
+```
 
 **Returns:**
 java.lang.String
@@ -394,6 +483,10 @@ public int getType()
 
 
 Gets the type of the ActiveX control.
+
+```
+/*Aspose.Cells.Drawing.ActiveXControls.ControlType*/int type = activeXControl.getType();
+```
 
 **Returns:**
 int
@@ -445,6 +538,13 @@ public boolean isAutoTab()
 
 Indicates whether the focus will automatically move to the next control when the user enters the maximum number of characters.
 
+```
+if(!activeXControl.isAutoTab())
+         {
+             activeXControl.setAutoTab(true);
+         }
+```
+
 **Returns:**
 boolean
 ### isAutoWordSelected() {#isAutoWordSelected--}
@@ -454,6 +554,13 @@ public boolean isAutoWordSelected()
 
 
 Specifies the basic unit used to extend a selection. True specifies that the basic unit is a single character. false specifies that the basic unit is a whole word.
+
+```
+if(!activeXControl.isAutoWordSelected())
+         {
+             activeXControl.setAutoWordSelected(true);
+         }
+```
 
 **Returns:**
 boolean
@@ -465,6 +572,13 @@ public boolean isDragBehaviorEnabled()
 
 Indicates whether dragging and dropping is enabled for the control.
 
+```
+if(!activeXControl.isDragBehaviorEnabled())
+         {
+             activeXControl.setDragBehaviorEnabled(true);
+         }
+```
+
 **Returns:**
 boolean
 ### isEditable() {#isEditable--}
@@ -474,6 +588,13 @@ public boolean isEditable()
 
 
 Indicates whether the user can type into the control.
+
+```
+if(!activeXControl.isEditable())
+         {
+             activeXControl.setEditable(true);
+         }
+```
 
 **Returns:**
 boolean
@@ -505,6 +626,13 @@ public boolean isMultiLine()
 
 Indicates whether the control can display more than one line of text.
 
+```
+if(!activeXControl.isMultiLine())
+         {
+             activeXControl.setMultiLine(true);
+         }
+```
+
 **Returns:**
 boolean
 ### isTransparent() {#isTransparent--}
@@ -534,6 +662,13 @@ public boolean isWordWrapped()
 
 
 Indicates whether the contents of the control automatically wrap at the end of a line.
+
+```
+if(!activeXControl.isWordWrapped())
+         {
+             activeXControl.setWordWrapped(true);
+         }
+```
 
 **Returns:**
 boolean
