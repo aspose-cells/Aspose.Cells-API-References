@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells.Settings
 second_title: Aspose.Cells for .NET API Reference
-description: The **Aspose.Cells.Settings** namespace provides settings for Aspose.Cells.
+description: The Aspose.Cells.Settings namespace provides settings for Aspose.Cells.
 type: docs
 url: /net/aspose.cells.settings/
 ---
