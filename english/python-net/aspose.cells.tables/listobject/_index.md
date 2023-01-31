@@ -57,6 +57,34 @@ The ListObject type exposes the following members:
 | [apply_style_to_range()](/cells/python-net/aspose.cells.tables/listobject/apply_style_to_range/#) | Apply the table style to the range. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.tables import TotalsCalculation
+
+workbook = Workbook()
+cells = workbook.worksheets[0].cells
+for i in range(5):
+    cells.get(0, i).put_value(CellsHelper.column_index_to_name(i))
+
+
+for row in range(1, 10):
+    for column in range(5):
+        cells.get(row, column).put_value(row*column)
+
+    
+
+
+tables = workbook.worksheets[0].list_objects
+index = tables.add(0, 0, 9, 4, True)
+table = tables[0]
+table.show_totals = True
+table.list_columns[4].totals_calculation = TotalsCalculation.SUM
+workbook.save(r"Book1.xlsx")
+
+```
 ### See Also
 
 * module [aspose.cells.tables](../)

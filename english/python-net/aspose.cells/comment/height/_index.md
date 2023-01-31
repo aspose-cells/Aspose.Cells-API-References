@@ -12,6 +12,10 @@ is_root: false
 
 
 Represents the Height of the comment, in unit of pixels.
+### Example 
+
+
+`comment1.Height = 10;`
 
 ### See Also
 * module [aspose.cells](../../)

@@ -164,6 +164,61 @@ The ListBox type exposes the following members:
 | [is_selected(item_index)](/cells/python-net/aspose.cells.drawing/listbox/is_selected/#int) | Indicates whether the item is selected. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.drawing import PlacementType, SelectionType
+
+# Create a new Workbook.
+workbook = Workbook()
+
+# Get the first worksheet.
+sheet = workbook.worksheets[0]
+
+# Get the worksheet cells collection.
+cells = sheet.cells
+
+# Input a value.
+cells.get("B3").put_value("Choose Dept:")
+
+# Set it bold.
+style = cells.get("B3").get_style()
+style.font.is_bold = True
+cells.get("B3").set_style(style)
+
+# Input some values that denote the input range
+# for the list box.
+cells.get("A2").put_value("Sales")
+cells.get("A3").put_value("Finance")
+cells.get("A4").put_value("MIS")
+cells.get("A5").put_value("R&D")
+cells.get("A6").put_value("Marketing")
+cells.get("A7").put_value("HRA")
+
+# Add a new list box.
+listBox = sheet.shapes.add_list_box(2, 0, 3, 0, 122, 100)
+
+# Set the placement type.
+listBox.placement = PlacementType.FREE_FLOATING
+
+# Set the linked cell.
+listBox.linked_cell = "A1"
+
+# Set the input range.
+listBox.input_range = "A2:A7"
+
+# Set the selection style.
+listBox.selection_type = SelectionType.SINGLE
+
+# Set the list box with 3-D shading.
+listBox.shadow = True
+
+# Saves the file.
+workbook.save(r"tstlistbox.xls")
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

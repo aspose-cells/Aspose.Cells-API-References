@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns or sets the name of the specified slicer
+### Example 
+
+
+`slicer.Name = "slicer name";`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

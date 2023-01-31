@@ -162,6 +162,56 @@ The LineShape type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/lineshape/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.drawing import MsoLineDashStyle, PlacementType
+
+# Instantiate a new Workbook.
+workbook = Workbook()
+
+# Get the first worksheet in the book.
+worksheet = workbook.worksheets[0]
+
+# Add a new line to the worksheet.
+line1 = worksheet.shapes.add_line(5, 0, 1, 0, 0, 250)
+
+# Set the line dash style
+line1.line.dash_style = MsoLineDashStyle.SOLID
+
+# Set the placement.
+line1.placement = PlacementType.FREE_FLOATING
+
+# Add another line to the worksheet.
+line2 = worksheet.shapes.add_line(7, 0, 1, 0, 85, 250)
+
+# Set the line dash style.
+line2.line.dash_style = MsoLineDashStyle.DASH_LONG_DASH
+
+# Set the weight of the line.
+line2.line.weight = 4
+
+# Set the placement.
+line2.placement = PlacementType.FREE_FLOATING
+
+# Add the third line to the worksheet.
+line3 = worksheet.shapes.add_line(13, 0, 1, 0, 0, 250)
+
+# Set the line dash style
+line3.line.dash_style = MsoLineDashStyle.SOLID
+
+# Set the placement.
+line3.placement = PlacementType.FREE_FLOATING
+
+# Make the gridlines invisible in the first worksheet.
+workbook.worksheets[0].is_gridlines_visible = False
+
+# Save the excel file.
+workbook.save("tstlines.xls")
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

@@ -150,7 +150,40 @@ in the PNG format. The following file extensions are recognized:
 
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
-Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.
+Please refer to [Supported Charts List](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) for more details.### Example 
+
+
+Saves to Tiff with 300 dpi and CCITT4 compression.
+
+```
+from aspose.cells import Workbook
+from aspose.cells.rendering import ImageOrPrintOptions, TiffCompression
+
+options = ImageOrPrintOptions()
+options.horizontal_resolution = 300
+options.vertical_resolution = 300
+options.tiff_compression = TiffCompression.COMPRESSION_CCITT4
+book = Workbook(r"test.xls")
+book.worksheets[0].charts[0].to_image(r"chart.Tiff", options)
+
+```
+
+
+Saves to Jpeg with 300 dpi and 80 image quality.
+
+```
+from aspose.cells import Workbook
+from aspose.cells.rendering import ImageOrPrintOptions
+
+options = ImageOrPrintOptions()
+options.horizontal_resolution = 300
+options.vertical_resolution = 300
+options.quality = 80
+book = Workbook(r"test.xls")
+book.worksheets[0].charts[0].to_image(r"chart.Jpeg", options)
+
+```
+
 
 ## to_image(stream, options) {#io.RawIOBase-aspose.cells.rendering.ImageOrPrintOptions}
 

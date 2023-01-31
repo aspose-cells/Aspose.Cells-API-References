@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns the SlicerCache object associated with the slicer. Read-only.
+### Example 
+
+
+`SlicerCache slicerCache = slicer.SlicerCache;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

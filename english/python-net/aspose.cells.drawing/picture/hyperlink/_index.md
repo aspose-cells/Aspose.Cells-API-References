@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets the hyperlink of the shape.
+### Example 
+
+
+`Aspose.Cells.Hyperlink hyperlink = shape.Hyperlink;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

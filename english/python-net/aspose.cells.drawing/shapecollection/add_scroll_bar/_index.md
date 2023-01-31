@@ -32,6 +32,15 @@ def add_scroll_bar(self, upper_left_row, top, upper_left_column, left, height, w
 | left | int | Represents the horizontal offset of ScrollBar from its left column, in unit of pixel. |
 | height | int | Represents the height of ScrollBar, in unit of pixel. |
 | width | int | Represents the width of ScrollBar, in unit of pixel. |
+### Example 
+
+
+```
+
+# add a scroll bar
+scrollBar = shapes.add_scroll_bar(1, 0, 1, 0, 100, 50)
+
+```
 
 
 

@@ -12,6 +12,10 @@ is_root: false
 
 
 Specifies the line join type.
+### Example 
+
+
+`lineFmt.JoinType = LineJoinType.Round;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

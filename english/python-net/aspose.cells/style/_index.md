@@ -73,6 +73,22 @@ The Style type exposes the following members:
 | [get_two_color_gradient_setting()](/cells/python-net/aspose.cells/style/get_two_color_gradient_setting/#) | Get the two-color gradient setting. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.pydrawing import Color
+
+workbook = Workbook()
+sheets = workbook.worksheets
+cell = sheets[0].cells.get("A1")
+style = cell.get_style()
+style.font.name = "Times New Roman"
+style.font.color = Color.blue
+cell.set_style(style)
+
+```
 ### See Also
 
 * module [aspose.cells](../)

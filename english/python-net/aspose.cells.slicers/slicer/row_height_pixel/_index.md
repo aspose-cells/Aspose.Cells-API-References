@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns or sets the height, in pixels, of each row in the specified slicer.
+### Example 
+
+
+`slicer.RowHeightPixel = 30;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

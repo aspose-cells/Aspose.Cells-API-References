@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets the data of control.
+### Example 
+
+
+```
+
+if shape.control_data==None:
+    print("No data.")
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

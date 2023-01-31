@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the end arrow type of the line.
+### Example 
+
+
+`lineFmt.EndArrowheadStyle = MsoArrowheadStyle.ArrowOpen;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and set the location of the control's picture relative to its caption.
+### Example 
+
+
+`activeXControl.PicturePosition = Aspose.Cells.Drawing.ActiveXControls.ControlPicturePositionType.AboveLeft;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

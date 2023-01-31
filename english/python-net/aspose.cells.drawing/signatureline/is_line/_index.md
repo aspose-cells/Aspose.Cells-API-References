@@ -12,6 +12,16 @@ is_root: false
 
 
 Indicates whether it is a signature line.
+### Example 
+
+
+```
+
+if s.is_line:
+    pass
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -54,6 +54,40 @@ The ErrorBar type exposes the following members:
 | [minus_value](/cells/python-net/aspose.cells.charts/errorbar/minus_value) | Represents negative error amount when error bar type is Custom. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.charts import ChartType, ErrorBarDisplayType, ErrorBarType
+
+workbook = Workbook()
+cells = workbook.worksheets[0].cells
+cells.get("a1").put_value(2)
+cells.get("a2").put_value(5)
+cells.get("a3").put_value(3)
+cells.get("a4").put_value(6)
+cells.get("b1").put_value(4)
+cells.get("b2").put_value(3)
+cells.get("b3").put_value(6)
+cells.get("b4").put_value(7)
+cells.get("C1").put_value("Q1")
+cells.get("C2").put_value("Q2")
+cells.get("C3").put_value("Y1")
+cells.get("C4").put_value("Y2")
+chartIndex = workbook.worksheets[0].charts.add(ChartType.COLUMN, 11, 0, 27, 10)
+chart = workbook.worksheets[0].charts[chartIndex]
+chart.n_series.add("A1:B4", True)
+chart.n_series.category_data = "C1:C4"
+for i in range(len(chart.NSeries)):
+    aseries = chart.n_series[i]
+aseries.y_error_bar.display_type = ErrorBarDisplayType.MINUS
+aseries.y_error_bar.type = ErrorBarType.FIXED_VALUE
+aseries.y_error_bar.amount = 5
+
+
+
+```
 ### See Also
 
 * module [aspose.cells.charts](../)

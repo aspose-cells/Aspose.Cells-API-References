@@ -16,6 +16,17 @@ Gets or sets the shape's horizontal offset from its upper left corner column.
 
 
 The range of value is 0 to 1024.
+### Example 
+
+
+```
+
+if shape.upper_delta_x==3:
+    shape.upper_delta_x = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

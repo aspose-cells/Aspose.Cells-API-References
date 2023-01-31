@@ -156,6 +156,46 @@ The Button type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/button/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.drawing import PlacementType
+from aspose.pydrawing import Color
+
+# Create a new Workbook.
+workbook = Workbook()
+
+# Get the first worksheet in the workbook.
+sheet = workbook.worksheets[0]
+
+# Add a new button to the worksheet.
+button = sheet.shapes.add_button(2, 0, 2, 0, 28, 80)
+
+# Set the caption of the button.
+button.text = "Aspose"
+
+# Set the Placement Type, the way the
+# button is attached to the cells.
+button.placement = PlacementType.FREE_FLOATING
+
+# Set the font name.
+button.font.name = "Tahoma"
+
+# Set the caption string bold.
+button.font.is_bold = True
+
+# Set the color to blue.
+button.font.color = Color.blue
+
+# Set the hyperlink for the button.
+button.add_hyperlink("http://www.aspose.com/")
+
+# Saves the file.
+workbook.save(r"tstbutton.xls")
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

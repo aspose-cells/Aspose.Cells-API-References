@@ -36,6 +36,22 @@ The CheckBoxCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.drawing/checkboxcollection/binary_search/#CheckBox) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Create a new Workbook.
+workbook = Workbook()
+
+# Get the first worksheet in the workbook.
+sheet = workbook.worksheets[0]
+index = sheet.check_boxes.add(15, 15, 20, 100)
+checkBox = sheet.check_boxes[index]
+checkBox.text = "Check Box 1"
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

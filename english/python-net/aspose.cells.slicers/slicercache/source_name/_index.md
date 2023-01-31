@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns the name of cache field
+### Example 
+
+
+```
+
+# get the name of cache field.
+print(slicerCache.source_name)
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

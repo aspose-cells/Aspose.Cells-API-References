@@ -60,6 +60,69 @@ The Axis type exposes the following members:
 | [bins](/cells/python-net/aspose.cells.charts/axis/bins) | Represents bins on a chart(Histogram/Pareto) axis |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.charts import ChartType, CrossType
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# Adding a new worksheet to the Excel object
+sheetIndex = workbook.worksheets.add()
+
+# Obtaining the reference of the newly added worksheet by passing its sheet index
+worksheet = workbook.worksheets[sheetIndex]
+
+# Adding a sample value to "A1" cell
+worksheet.cells.get("A1").put_value(50)
+
+# Adding a sample value to "A2" cell
+worksheet.cells.get("A2").put_value(100)
+
+# Adding a sample value to "A3" cell
+worksheet.cells.get("A3").put_value(150)
+
+# Adding a sample value to "B1" cell
+worksheet.cells.get("B1").put_value(4)
+
+# Adding a sample value to "B2" cell
+worksheet.cells.get("B2").put_value(20)
+
+# Adding a sample value to "B3" cell
+worksheet.cells.get("B3").put_value(50)
+
+# Adding a chart to the worksheet
+chartIndex = worksheet.charts.add(ChartType.COLUMN, 5, 0, 25, 5)
+
+# Accessing the instance of the newly added chart
+chart = worksheet.charts[chartIndex]
+
+# Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.n_series.add("A1:B3", True)
+
+# Set the max value of value axis
+chart.value_axis.max_value = 200
+
+# Set the min value of value axis
+chart.value_axis.min_value = 0
+
+# Set the major unit
+chart.value_axis.major_unit = 25
+
+# Category(X) axis crosses at the maxinum value.
+chart.value_axis.cross_type = CrossType.MAXIMUM
+
+# Set he number of categories or series between tick-mark labels.
+chart.category_axis.tick_label_spacing = 2
+
+# do your business
+# Saving the Excel file
+workbook.save("book1.xlsx")
+
+```
 ### See Also
 
 * module [aspose.cells.charts](../)

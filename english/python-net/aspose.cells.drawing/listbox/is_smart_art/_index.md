@@ -16,6 +16,17 @@ Indicates whether the shape is smart art.
 
 
 Only for ooxml file.
+### Example 
+
+
+```
+
+# if true,the shape is smart art.
+if shape.is_smart_art:
+    pass
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

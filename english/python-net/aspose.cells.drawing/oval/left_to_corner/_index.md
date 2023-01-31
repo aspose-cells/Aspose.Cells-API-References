@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets and sets the horizonal offset of shape from worksheet left border.
+### Example 
+
+
+```
+
+if shape.left_to_corner==3:
+    shape.left_to_corner = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

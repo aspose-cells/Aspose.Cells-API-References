@@ -12,6 +12,18 @@ is_root: false
 
 
 Gets and sets the auto shape type.
+### Example 
+
+
+```
+from aspose.cells.drawing import AutoShapeType
+
+if shape.auto_shape_type==AutoShapeType.UNKNOWN:
+    shape.auto_shape_type = AutoShapeType.RECTANGLE
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

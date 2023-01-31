@@ -36,6 +36,35 @@ The SignatureLine type exposes the following members:
 | [instructions](/cells/python-net/aspose.cells.drawing/signatureline/instructions) | Gets and sets the text shown to user at signing time. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.drawing import SignatureLine
+
+# Instantiating a Workbook object
+workbook = Workbook()
+worksheet = workbook.worksheets[0]
+
+# Adding a picture
+imgIndex = worksheet.pictures.add(1, 1, "sample.png")
+pic = worksheet.pictures[imgIndex]
+
+#  Create signature line object
+s = SignatureLine()
+s.signer = "Simon Zhao"
+s.title = "Development Lead"
+s.email = "Simon.Zhao@aspose.com"
+
+#  Assign the signature line object to Picture.SignatureLine property
+pic.signature_line = s
+
+# do your business
+# Save the excel file.
+workbook.save("result.xlsx")
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

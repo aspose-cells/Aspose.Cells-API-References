@@ -12,6 +12,17 @@ is_root: false
 
 
 True if the object is locked, False if the object can be modified when the sheet is protected.
+### Example 
+
+
+```
+
+if shape.is_locked:
+    shape.is_locked = False
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

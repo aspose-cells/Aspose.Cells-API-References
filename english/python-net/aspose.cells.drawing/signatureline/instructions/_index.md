@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets and sets the text shown to user at signing time.
+### Example 
+
+
+```
+from aspose.cells.drawing import SignatureLine
+
+#  Create signature line object
+s6 = SignatureLine()
+s6.instructions = "Just do it."
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

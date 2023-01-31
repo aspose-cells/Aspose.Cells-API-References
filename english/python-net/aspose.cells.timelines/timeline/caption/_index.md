@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the caption of the specified Timeline.
+### Example 
+
+
+```
+
+# Set the caption of the specified Timeline.
+timelineObj.caption = "timeline caption test"
+
+```
 
 ### See Also
 * module [aspose.cells.timelines](../../)

@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns or sets the width of the specified slicer, in points.
+### Example 
+
+
+`slicer.Width = 100;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

@@ -25,6 +25,10 @@ def get_characters(self):
 ```
 
 
+### Example 
+
+
+`ArrayList list = shape.GetCharacters();`
 
 
 

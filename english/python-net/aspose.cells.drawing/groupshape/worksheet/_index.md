@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets the [Shape.worksheet](/cells/python-net/aspose.cells.drawing/shape#worksheet) object which contains this shape.
+### Example 
+
+
+`Aspose.Cells.Worksheet worksheet = shape.Worksheet;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

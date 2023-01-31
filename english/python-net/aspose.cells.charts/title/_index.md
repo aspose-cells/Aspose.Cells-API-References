@@ -70,6 +70,40 @@ The Title type exposes the following members:
 | [set_position_auto()](/cells/python-net/aspose.cells.charts/title/set_position_auto/#) | Set position of the frame to automatic |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.charts import ChartType
+from aspose.pydrawing import Color
+
+workbook = Workbook()
+sheet = workbook.worksheets[0]
+cells = sheet.cells
+cells.get(0, 1).put_value("Income")
+cells.get(1, 0).put_value("Company A")
+cells.get(2, 0).put_value("Company B")
+cells.get(3, 0).put_value("Company C")
+cells.get(1, 1).put_value(10000)
+cells.get(2, 1).put_value(20000)
+cells.get(3, 1).put_value(30000)
+chartIndex = sheet.charts.add(ChartType.COLUMN, 9, 9, 21, 15)
+chart = sheet.charts[chartIndex]
+
+# Setting the title of a chart
+chart.title.text = "Title"
+
+# Setting the font color of the chart title to blue
+chart.title.font.color = Color.blue
+
+# Setting the title of category axis of the chart
+chart.category_axis.title.text = "Category"
+
+# Setting the title of value axis of the chart
+chart.value_axis.title.text = "Value"
+
+```
 ### See Also
 
 * module [aspose.cells.charts](../)

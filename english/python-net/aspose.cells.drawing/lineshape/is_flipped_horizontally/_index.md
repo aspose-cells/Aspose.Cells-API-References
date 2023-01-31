@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets and sets whether shape is horizontally flipped .
+### Example 
+
+
+```
+
+if shape.is_flipped_horizontally==False:
+    shape.is_flipped_horizontally = True
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

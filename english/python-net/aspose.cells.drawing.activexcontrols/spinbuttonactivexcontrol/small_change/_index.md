@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the amount by which the Position property changes
+### Example 
+
+
+`activeXControl.SmallChange = 5;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

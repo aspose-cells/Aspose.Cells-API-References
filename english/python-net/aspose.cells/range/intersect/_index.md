@@ -29,7 +29,28 @@ def intersect(self, range):
 | range | [Range](/cells/python-net/aspose.cells/range) | The intersecting range. |
 ### Remarks
 
-If the two ranges are not intersected, returns null.
+If the two ranges are not intersected, returns null.### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+#  Get the first Worksheet Cells.
+cells = workbook.worksheets[0].cells
+range1 = cells.create_range("A1:A5")
+range2 = cells.create_range("A3:A10")
+
+# Get intersected range of the two ranges.
+intersectRange = range1.intersect(range2)
+
+# Save the Excel file
+workbook.save("book1.xlsm")
+
+```
+
 
 
 ### See Also

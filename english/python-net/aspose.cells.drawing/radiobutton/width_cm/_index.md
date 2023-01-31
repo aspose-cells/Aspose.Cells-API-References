@@ -12,6 +12,17 @@ is_root: false
 
 
 Represents the width of the shape, in unit of centimeters.
+### Example 
+
+
+```
+
+if shape.width_cm==3:
+    shape.width_cm = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns the name of the slicer cache.
+### Example 
+
+
+```
+
+# get the name of the slicer cache.
+print(slicerCache.name)
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

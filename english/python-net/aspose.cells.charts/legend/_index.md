@@ -71,6 +71,41 @@ The Legend type exposes the following members:
 | [characters(start_index, length)](/cells/python-net/aspose.cells.charts/legend/characters/#int-int) | Returns a Characters object that represents a range of characters within the text. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.charts import ChartType, LegendPositionType
+
+workbook = Workbook()
+sheet = workbook.worksheets[0]
+cells = sheet.cells
+cells.get(0, 1).put_value("Income")
+cells.get(1, 0).put_value("Company A")
+cells.get(2, 0).put_value("Company B")
+cells.get(3, 0).put_value("Company C")
+cells.get(1, 1).put_value(10000)
+cells.get(2, 1).put_value(20000)
+cells.get(3, 1).put_value(30000)
+chartIndex = sheet.charts.add(ChartType.COLUMN, 9, 9, 21, 15)
+chart = sheet.charts[chartIndex]
+chart.set_chart_data_range("A1:B4", True)
+
+# Set Legend's width and height
+legend = chart.legend
+
+# Legend is at right side of chart by default.
+# If the legend is at left or right side of the chart, setting Legend.X property will not take effect.
+# If the legend is at top or bottom side of the chart, setting Legend.Y property will not take effect.
+legend.y = 1500
+legend.width = 50
+legend.height = 50
+
+# Set legend's position
+legend.position = LegendPositionType.LEFT
+
+```
 ### See Also
 
 * module [aspose.cells.charts](../)

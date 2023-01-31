@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets and sets the title of singer.
+### Example 
+
+
+```
+from aspose.cells.drawing import SignatureLine
+
+#  Create signature line object
+s4 = SignatureLine()
+s4.title = "Development Lead"
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

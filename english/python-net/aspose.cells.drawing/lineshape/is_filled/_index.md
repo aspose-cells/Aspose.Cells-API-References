@@ -12,6 +12,17 @@ is_root: false
 
 
 Indicates whether the fill format is visible.
+### Example 
+
+
+```
+
+if shape.is_filled==False:
+    shape.is_filled = True
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

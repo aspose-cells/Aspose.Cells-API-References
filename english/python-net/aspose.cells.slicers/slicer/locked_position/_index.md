@@ -12,6 +12,10 @@ is_root: false
 
 
 Indicates whether the specified slicer can be moved or resized by using the user interface.
+### Example 
+
+
+`slicer.LockedPosition = false;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

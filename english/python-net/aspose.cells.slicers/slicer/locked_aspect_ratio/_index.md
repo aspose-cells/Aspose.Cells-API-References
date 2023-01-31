@@ -12,6 +12,10 @@ is_root: false
 
 
 Indicates whether locking aspect ratio.
+### Example 
+
+
+`slicer.LockedAspectRatio = true;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

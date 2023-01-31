@@ -24,6 +24,25 @@ The HorizontalPageBreak type exposes the following members:
 | [row](/cells/python-net/aspose.cells/horizontalpagebreak/row) | Gets the zero based row index. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# Obtaining the reference of the newly added worksheet by passing its sheet index
+worksheet = workbook.worksheets[0]
+
+# Add a page break at cell Y30
+Index = worksheet.horizontal_page_breaks.add("Y30")
+
+# get the newly added horizontal page break
+hPageBreak = worksheet.horizontal_page_breaks[Index]
+
+```
 ### See Also
 
 * module [aspose.cells](../)

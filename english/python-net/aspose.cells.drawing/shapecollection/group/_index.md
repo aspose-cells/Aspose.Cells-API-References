@@ -30,7 +30,21 @@ def group(self, group_items):
 ### Remarks
 
 The shape in the groupItems should not be grouped.
-The shape must be in this Shapes collection.
+The shape must be in this Shapes collection.### Example 
+
+
+```
+
+# add first shape
+shapes.add_rectangle(2, 0, 2, 0, 50, 50)
+
+# add second shape
+shapes.add_rectangle(6, 0, 2, 0, 30, 30)
+shapesArr = [shapes[0], shapes[1]]
+groupShape = shapes.group(shapesArr)
+
+```
+
 
 
 ### See Also

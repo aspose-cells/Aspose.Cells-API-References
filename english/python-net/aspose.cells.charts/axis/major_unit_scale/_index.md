@@ -12,6 +12,17 @@ is_root: false
 
 
 Represents the major unit scale for the category axis.
+### Example 
+
+
+```
+from aspose.cells.charts import CategoryType, TimeUnit
+
+chart.category_axis.category_type = CategoryType.TIME_SCALE
+chart.category_axis.major_unit_scale = TimeUnit.MONTHS
+chart.category_axis.major_unit = 2
+
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

@@ -31,6 +31,18 @@ def add_picture(self, upper_left_row, upper_left_column, lower_right_row, lower_
 | lower_right_row | int | Lower right row index |
 | lower_right_column | int | Lower right column index |
 | stream | io.RawIOBase | Stream object which contains the image data. |
+### Example 
+
+
+```
+
+# add a picture
+with open("image.jpg", "rb") as fs:
+    picture = shapes.add_picture(1, 0, 1, 0, fs)
+
+
+
+```
 
 
 ## add_picture(upper_left_row, upper_left_column, stream, width_scale, height_scale) {#int-int-io.RawIOBase-int-int}
@@ -56,6 +68,18 @@ def add_picture(self, upper_left_row, upper_left_column, stream, width_scale, he
 | stream | io.RawIOBase | Stream object which contains the image data. |
 | width_scale | int | Scale of image width, a percentage. |
 | height_scale | int | Scale of image height, a percentage. |
+### Example 
+
+
+```
+
+# add a picture
+with open("image.jpg", "rb") as fs:
+    picture = shapes.add_picture(1, 1, fs, 50, 60)
+
+
+
+```
 
 
 

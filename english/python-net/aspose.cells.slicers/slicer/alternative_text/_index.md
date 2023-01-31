@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns or sets the descriptive (alternative) text string of the Slicer object.
+### Example 
+
+
+`slicer.AlternativeText = "AlternativeText test";`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

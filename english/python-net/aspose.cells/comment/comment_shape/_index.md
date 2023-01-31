@@ -12,6 +12,16 @@ is_root: false
 
 
 Get a Shape object that represents the shape attached to the specified comment.
+### Example 
+
+
+```
+
+shape = comment1.comment_shape
+w = shape.width
+h = shape.height
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

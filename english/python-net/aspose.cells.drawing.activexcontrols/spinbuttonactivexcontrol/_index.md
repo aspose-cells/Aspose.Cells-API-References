@@ -52,6 +52,26 @@ The SpinButtonActiveXControl type exposes the following members:
 | [orientation](/cells/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/orientation) | Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
 
 
+### Example 
+
+
+```
+from aspose import pycore
+from aspose.cells import Workbook
+from aspose.cells.drawing.activexcontrols import ControlType
+
+# Initialize a new workbook.
+book = Workbook()
+
+# Add a ToggleButtonActiveXControl.
+shape = book.worksheets[0].shapes.add_active_x_control(ControlType.SPIN_BUTTON, 1, 0, 1, 0, 100, 50)
+activeXControl = pycore.cast(Aspose.Cells.Drawing.ActiveXControls.SpinButtonActiveXControl, shape.active_x_control)
+
+# do your business
+# Save the excel file.
+book.save("exmaple.xlsx")
+
+```
 ### See Also
 
 * module [aspose.cells.drawing.activexcontrols](../)

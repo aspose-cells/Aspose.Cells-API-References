@@ -24,6 +24,21 @@ def export_xml(self, map_name, path):
 | :- | :- | :- |
 | map_name | str | name of the XML map that need to be exported |
 | path | str | the export path |
+### Example 
+
+
+The following code exported the data linked by the first XmlMap.
+
+```
+from aspose.cells import Workbook
+
+wb = Workbook("Book1.xlsx")
+
+# Make sure that the source xlsx file contains a XmlMap.
+xmlMap = wb.worksheets.xml_maps[0]
+wb.export_xml(xmlMap.name, "output.xml")
+
+```
 
 
 ## export_xml(map_name, stream) {#str-io.RawIOBase}

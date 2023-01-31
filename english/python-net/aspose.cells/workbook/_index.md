@@ -127,6 +127,30 @@ The Workbook type exposes the following members:
 The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets.
 The basic feature of the class is to open and save native excel files.
 The class has some advanced features like copying data from other Workbooks, combining two Workbooks and protecting the Excel spreadsheet.
+### Example 
+
+
+The following example loads a Workbook from a file named designer.xls and makes the horizontal and vertical scroll bars invisible for the Workbook. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally sends the updated file to the client browser. 
+
+```
+from aspose.cells import Workbook
+
+# Open a designer file
+designerFile = "designer.xls"
+workbook = Workbook(designerFile)
+
+# Set scroll bars
+workbook.settings.is_h_scroll_bar_visible = False
+workbook.settings.is_v_scroll_bar_visible = False
+
+# Replace the placeholder string with new values
+newInt = 100
+workbook.replace("OldInt", newInt)
+newString = "Hello!"
+workbook.replace("OldString", newString)
+workbook.save("result.xls")
+
+```
 ### See Also
 
 * module [aspose.cells](../)

@@ -12,6 +12,17 @@ is_root: false
 
 
 Represents the width of shape, in unit of pixels.
+### Example 
+
+
+```
+
+if shape.width==3:
+    shape.width = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

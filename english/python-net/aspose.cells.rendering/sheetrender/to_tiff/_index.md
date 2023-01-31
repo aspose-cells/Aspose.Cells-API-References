@@ -40,6 +40,29 @@ def to_tiff(self, filename):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | filename | str | the filename of the output image |
+### Example 
+
+
+The following code outputs all the pages of the first sheet to Tiff image.
+
+```
+from aspose.cells import SaveFormat, Workbook
+from aspose.cells.rendering import ImageOrPrintOptions, SheetRender
+
+# load the source file with images.
+wb = Workbook("Book1.xlsx")
+imgOpt = ImageOrPrintOptions()
+
+# set output image type.
+imgOpt.save_format = SaveFormat.TIFF
+
+# render the first sheet.
+sr = SheetRender(wb.worksheets[0], imgOpt)
+
+# output all the pages of the sheet to Tiff image.
+sr.to_tiff("output.tiff")
+
+```
 
 
 

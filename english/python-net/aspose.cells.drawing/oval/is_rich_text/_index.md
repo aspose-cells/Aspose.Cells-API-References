@@ -12,6 +12,17 @@ is_root: false
 
 
 Whether or not the text is rich text.
+### Example 
+
+
+```
+
+if shape.is_rich_text:
+    print("The text is rich text.")
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

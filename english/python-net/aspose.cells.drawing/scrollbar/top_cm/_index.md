@@ -12,6 +12,17 @@ is_root: false
 
 
 Represents the vertical offset of shape from its top row, in unit of centimeters.
+### Example 
+
+
+```
+
+if shape.top_cm==3:
+    shape.top_cm = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

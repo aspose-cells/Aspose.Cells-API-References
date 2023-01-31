@@ -42,6 +42,16 @@ The ChartCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.charts/chartcollection/binary_search/#Chart) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+workbook = Workbook()
+charts = workbook.worksheets[0].charts
+
+```
 ### See Also
 
 * module [aspose.cells.charts](../)

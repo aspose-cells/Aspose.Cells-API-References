@@ -12,6 +12,24 @@ is_root: false
 
 
 Gets or sets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.visible](/cells/python-net/aspose.cells.rendering/sheetset#visible).
+### Example 
+
+
+The following code only renders active sheet to pdf.
+
+```
+from aspose.cells import PdfSaveOptions, Workbook
+from aspose.cells.rendering import SheetSet
+
+workbook = Workbook("Book1.xlsx")
+activeSheetIndex = workbook.worksheets.active_sheet_index
+pdfSaveOptions = PdfSaveOptions()
+
+# set active sheet index to sheet set.
+pdfSaveOptions.sheet_set = SheetSet([activeSheetIndex])
+workbook.save("output.pdf", pdfSaveOptions)
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

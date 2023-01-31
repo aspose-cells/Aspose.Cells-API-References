@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets and sets the rotation of the shape.
+### Example 
+
+
+```
+
+if shape.rotation_angle==45:
+    shape.rotation_angle = 60
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets 3d format of the shape.
+### Example 
+
+
+`Aspose.Cells.Drawing.ThreeDFormat threeDFormat = shape.ThreeDFormat;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -12,6 +12,18 @@ is_root: false
 
 
 Gets and sets the text vertical overflow type of the shape which contains text.
+### Example 
+
+
+```
+from aspose.cells.drawing import TextOverflowType
+
+if shape.text_vertical_overflow==TextOverflowType.CLIP:
+    shape.text_vertical_overflow = TextOverflowType.OVERFLOW
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

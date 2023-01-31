@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the begin arrow width type of the line.
+### Example 
+
+
+`lineFmt.BeginArrowheadWidth = MsoArrowheadWidth.Medium;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -12,6 +12,18 @@ is_root: false
 
 
 Gets or sets identifier for this signature line.
+### Example 
+
+
+```
+from aspose.cells.drawing import SignatureLine
+from uuid import uuid4
+
+#  Create signature line object
+s1 = SignatureLine()
+s1.id = uuid4()
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

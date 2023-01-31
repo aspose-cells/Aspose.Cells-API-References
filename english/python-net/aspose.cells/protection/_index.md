@@ -63,6 +63,23 @@ The Protection type exposes the following members:
 | [verify_password(password)](/cells/python-net/aspose.cells/protection/verify_password/#str) | Verifies password. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+workbook = Workbook()
+worksheet = workbook.worksheets[0]
+
+# Allowing users to select locked cells of the worksheet
+worksheet.protection.allow_selecting_locked_cell = True
+
+# Allowing users to select unlocked cells of the worksheet
+worksheet.protection.allow_selecting_unlocked_cell = True
+
+```
 ### See Also
 
 * module [aspose.cells](../)

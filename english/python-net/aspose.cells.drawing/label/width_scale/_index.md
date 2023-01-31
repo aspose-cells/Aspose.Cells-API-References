@@ -13,6 +13,17 @@ is_root: false
 
 Gets and sets the width scale, in unit of percent of the original picture width.
 If the shape is not picture ,the WidthScale property only returns 100;
+### Example 
+
+
+```
+
+if shape.width_scale==3:
+    shape.width_scale = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

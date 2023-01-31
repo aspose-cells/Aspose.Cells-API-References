@@ -12,6 +12,23 @@ is_root: false
 
 
 Represents error bar amount type.
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.charts import ErrorBarType
+
+wb = Workbook("chart.xlsx")
+chart = wb.worksheets[0].charts[0]
+aseries = chart.n_series[0]
+
+# Sets custom error bar type
+aseries.y_error_bar.type = ErrorBarType.CUSTOM
+aseries.y_error_bar.plus_value = "=Sheet1!A1"
+aseries.y_error_bar.minus_value = "=Sheet1!A2"
+
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

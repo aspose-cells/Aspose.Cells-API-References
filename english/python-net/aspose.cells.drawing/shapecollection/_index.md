@@ -79,6 +79,23 @@ The ShapeCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.drawing/shapecollection/binary_search/#Shape) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# get ShapeCollection
+shapes = workbook.worksheets[0].shapes
+
+# do your business
+# Save the excel file.
+workbook.save("result.xlsx")
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

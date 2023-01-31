@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and set the descriptive text that appears on a control.
+### Example 
+
+
+`activeXControl.Caption = "ExampleButton";`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

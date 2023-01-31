@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the setting of the shape's text.
+### Example 
+
+
+```
+
+fontSettingCollection = shape.text_body
+fontSettingCollection.text = "This is a test."
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

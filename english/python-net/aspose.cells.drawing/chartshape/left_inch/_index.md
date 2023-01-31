@@ -12,6 +12,17 @@ is_root: false
 
 
 Represents the horizontal offset of shape from its left column, in unit of inches.
+### Example 
+
+
+```
+
+if shape.left_inch==3:
+    shape.left_inch = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -55,6 +55,19 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_rows | int | Number of rows in this hyperlink range. |
 | total_columns | int | Number of columns of this hyperlink range. |
 | address | str | Address of the hyperlink. |
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+excel = Workbook()
+worksheet = excel.worksheets[0]
+worksheet.hyperlinks.add("A4", 1, 1, "http://www.aspose.com")
+worksheet.hyperlinks.add("A5", 1, 1, "c:\\book1.xls")
+
+```
 
 
 ## add(start_cell_name, end_cell_name, address, text_to_display, screen_tip) {#str-str-str-str-str}

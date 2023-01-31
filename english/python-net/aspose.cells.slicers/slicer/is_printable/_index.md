@@ -12,6 +12,10 @@ is_root: false
 
 
 Indicates whether the slicer object is printable.
+### Example 
+
+
+`slicer.IsPrintable = true;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

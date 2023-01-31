@@ -67,6 +67,26 @@ The TextBoxActiveXControl type exposes the following members:
 | [show_drop_button_type_when](/cells/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/show_drop_button_type_when) | Specifies the symbol displayed on the drop button |
 
 
+### Example 
+
+
+```
+from aspose import pycore
+from aspose.cells import Workbook
+from aspose.cells.drawing.activexcontrols import ControlType
+
+# Initialize a new workbook.
+book = Workbook()
+
+# Add a TextBoxActiveXControl.
+shape = book.worksheets[0].shapes.add_active_x_control(ControlType.TEXT_BOX, 1, 0, 1, 0, 100, 50)
+activeXControl = pycore.cast(Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl, shape.active_x_control)
+
+# do your business
+# Save the excel file.
+book.save("exmaple.xlsx")
+
+```
 ### See Also
 
 * module [aspose.cells.drawing.activexcontrols](../)

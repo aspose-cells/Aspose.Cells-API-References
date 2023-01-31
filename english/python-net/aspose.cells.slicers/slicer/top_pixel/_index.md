@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns or sets the vertical offset of slicer shape from its top row, in pixels.
+### Example 
+
+
+`slicer.TopPixel = 6;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

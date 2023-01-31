@@ -43,6 +43,28 @@ The Name type exposes the following members:
 | [get_referred_areas(recalculate)](/cells/python-net/aspose.cells/name/get_referred_areas/#bool) | Gets all references referred by this name. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# Accessing the first worksheet in the Excel file
+worksheet = workbook.worksheets[0]
+
+# Creating a named range
+range = worksheet.cells.create_range("B4", "G14")
+
+# Setting the name of the named range
+range.name = "TestRange"
+
+# Saving the modified Excel file in default (that is Excel 2000) format
+workbook.save("output.xls")
+
+```
 ### See Also
 
 * module [aspose.cells](../)

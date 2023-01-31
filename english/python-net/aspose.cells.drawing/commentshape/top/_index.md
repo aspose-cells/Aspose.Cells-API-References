@@ -16,6 +16,17 @@ Represents the vertical offset of shape from its top row, in unit of pixels.
 
 
 If the shape is in the chart, represents the vertical offset of shape from its top border.
+### Example 
+
+
+```
+
+if shape.top==3:
+    shape.top = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

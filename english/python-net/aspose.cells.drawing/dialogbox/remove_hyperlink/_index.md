@@ -20,6 +20,10 @@ def remove_hyperlink(self):
 ```
 
 
+### Example 
+
+
+`shape.RemoveHyperlink();`
 
 
 

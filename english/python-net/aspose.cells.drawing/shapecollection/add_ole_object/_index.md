@@ -33,6 +33,21 @@ def add_ole_object(self, upper_left_row, top, upper_left_column, left, height, w
 | height | int |  |
 | width | int |  |
 | image_data | bytes |  |
+### Example 
+
+
+```
+from aspose import pycore
+
+with open("image.jpg", "rb") as fs:
+    len = pycore.cast(System.Int32, utils.filesize(fs))
+imageData = bytearray(len)
+fs.readinto(imageData)
+oleObject = shapes.add_ole_object(4, 0, 5, 0, 300, 500, imageData)
+
+
+
+```
 
 
 

@@ -32,6 +32,15 @@ def add_combo_box(self, upper_left_row, top, upper_left_column, left, height, wi
 | left | int | Represents the horizontal offset of ComboBox from its left column, in unit of pixel. |
 | height | int | Represents the height of ComboBox, in unit of pixel. |
 | width | int | Represents the width of ComboBox, in unit of pixel. |
+### Example 
+
+
+```
+
+# add a combo box
+comboBox = shapes.add_combo_box(1, 0, 1, 0, 100, 50)
+
+```
 
 
 

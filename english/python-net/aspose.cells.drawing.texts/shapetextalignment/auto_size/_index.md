@@ -12,6 +12,10 @@ is_root: false
 
 
 Indicates if size of shape is adjusted automatically according to its content.
+### Example 
+
+
+`shapeTextAlignment.AutoSize = false;`
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

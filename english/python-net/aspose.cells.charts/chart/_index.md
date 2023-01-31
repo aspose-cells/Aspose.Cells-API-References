@@ -98,6 +98,30 @@ The Chart type exposes the following members:
 | [set_chart_data_range(area, is_vertical)](/cells/python-net/aspose.cells.charts/chart/set_chart_data_range/#str-bool) | Specifies data range for a chart. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.charts import ChartType
+
+workbook = Workbook()
+sheet = workbook.worksheets[0]
+cells = sheet.cells
+cells.get(0, 1).put_value("Income")
+cells.get(1, 0).put_value("Company A")
+cells.get(2, 0).put_value("Company B")
+cells.get(3, 0).put_value("Company C")
+cells.get(1, 1).put_value(10000)
+cells.get(2, 1).put_value(20000)
+cells.get(3, 1).put_value(30000)
+chartIndex = sheet.charts.add(ChartType.COLUMN, 9, 9, 21, 15)
+chart = sheet.charts[chartIndex]
+chart.set_chart_data_range("A1:B4", True)
+chart.show_legend = True
+chart.title.text = "Income Analysis"
+
+```
 ### See Also
 
 * module [aspose.cells.charts](../)

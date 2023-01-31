@@ -27,6 +27,19 @@ def get_threaded_comments(self, cell_name):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | cell_name | str | The name of the cell. |
+### Example 
+
+
+```
+
+threadedComments2 = comments.get_threaded_comments("B2")
+for i in range(len(threadedComments2)):
+    tc = threadedComments2[i]
+note = tc.notes
+
+
+
+```
 
 
 ## get_threaded_comments(row, column) {#int-int}
@@ -49,6 +62,19 @@ def get_threaded_comments(self, row, column):
 | :- | :- | :- |
 | row | int | The row index. |
 | column | int | The column index. |
+### Example 
+
+
+```
+
+threadedComments1 = comments.get_threaded_comments(1, 1)
+for i in range(len(threadedComments1)):
+    tc = threadedComments1[i]
+note = tc.notes
+
+
+
+```
 
 
 

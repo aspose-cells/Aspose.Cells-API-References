@@ -17,6 +17,17 @@ in unit of 1/4000 of height of the parent shape.
 
 
 Only Applies when this shape in the group or chart.
+### Example 
+
+
+```
+
+if shape.top_in_shape==8000:
+    shape.top_in_shape = 4000
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

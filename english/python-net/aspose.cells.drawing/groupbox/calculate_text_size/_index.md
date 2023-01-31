@@ -24,6 +24,15 @@ def calculate_text_size(self):
 ```
 
 
+### Example 
+
+
+```
+
+# The size of the text area is:w=size[0],h=size[1]
+size = shape.calculate_text_size()
+
+```
 
 
 

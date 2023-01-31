@@ -16,6 +16,16 @@ Indicates whether this shape is a word art.
 
 
 Only for the Legacy Shape of xls file.
+### Example 
+
+
+```
+
+if shape.is_word_art:
+    pass
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

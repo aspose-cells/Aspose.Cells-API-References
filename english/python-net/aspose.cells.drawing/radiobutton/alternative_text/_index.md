@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns or sets the descriptive (alternative) text string of the [Shape](/cells/python-net/aspose.cells.drawing/shape) object.
+### Example 
+
+
+`shape.AlternativeText = "a rectangle";`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

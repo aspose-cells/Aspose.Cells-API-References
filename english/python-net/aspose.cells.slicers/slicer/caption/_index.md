@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns or sets the caption of the specified slicer.
+### Example 
+
+
+`slicer.Caption = "slicer caption";`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

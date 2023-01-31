@@ -33,6 +33,16 @@ def add_active_x_control(self, type, top_row, top, left_column, left, width, hei
 | left | int | Represents the horizontal offset of Shape from its left column, in unit of pixel. |
 | width | int | Represents the width of Shape, in unit of pixel. |
 | height | int | Represents the height of Shape, in unit of pixel. |
+### Example 
+
+
+```
+from aspose.cells.drawing.activexcontrols import ControlType
+
+# add an ActiveX control
+activeXControl = shapes.add_active_x_control(ControlType.CHECK_BOX, 1, 0, 1, 0, 100, 50)
+
+```
 
 
 

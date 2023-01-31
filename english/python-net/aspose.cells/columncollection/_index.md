@@ -41,6 +41,52 @@ The ColumnCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/columncollection/binary_search/#Column) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+### Example 
+
+
+```
+from aspose.cells import BackgroundType, StyleFlag, Workbook
+from aspose.pydrawing import Color
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# Obtaining the reference of the first worksheet
+worksheet = workbook.worksheets[0]
+
+# Add new Style to Workbook
+style = workbook.create_style()
+
+# Setting the background color to Blue
+style.foreground_color = Color.blue
+
+# setting Background Pattern
+style.pattern = BackgroundType.SOLID
+
+# New Style Flag
+styleFlag = StyleFlag()
+
+# Set All Styles
+styleFlag.all = True
+
+# Change the default width of first ten columns
+for i in range(10):
+    worksheet.cells.columns[i].width = 20
+
+
+
+# Get the Column with non default formatting
+columns = worksheet.cells.columns
+for column in columns:
+    # Apply Style to first ten Columns
+    column.apply_style(style, styleFlag)
+
+
+
+# Saving the Excel file
+workbook.save("book1.xls")
+
+```
 ### See Also
 
 * module [aspose.cells](../)

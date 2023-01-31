@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the begin arrow type of the line.
+### Example 
+
+
+`lineFmt.BeginArrowheadStyle = MsoArrowheadStyle.ArrowOpen;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

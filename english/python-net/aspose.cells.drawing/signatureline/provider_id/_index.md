@@ -16,6 +16,18 @@ Gets and sets the id of signature provider.
 
 
 It's typically the CLSID of the provider com add-in.
+### Example 
+
+
+```
+from aspose.cells.drawing import SignatureLine
+from uuid import uuid4
+
+#  Create signature line object
+s2 = SignatureLine()
+s2.provider_id = uuid4()
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

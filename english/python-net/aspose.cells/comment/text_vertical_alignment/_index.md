@@ -12,6 +12,18 @@ is_root: false
 
 
 Gets and sets the text vertical alignment type of the comment.
+### Example 
+
+
+```
+from aspose.cells import TextAlignmentType
+
+if comment1.text_vertical_alignment==TextAlignmentType.FILL:
+    comment1.text_vertical_alignment = TextAlignmentType.CENTER
+
+
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

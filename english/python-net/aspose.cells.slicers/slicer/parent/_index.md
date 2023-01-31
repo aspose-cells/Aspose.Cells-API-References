@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns the Worksheet object that represents the sheet that contains the slicer. Read-only.
+### Example 
+
+
+`Worksheet currSheet = slicer.Parent;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

@@ -16,6 +16,17 @@ Get or sets a value whether the Workbook tabs are displayed.
 
 
 The default value is true.
+### Example 
+
+
+The following code hides the Sheet Tabs and Tab Scrolling Buttons for the spreadsheet.
+
+```
+
+#  Hide the spreadsheet tabs.
+workbook.settings.show_tabs = False
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

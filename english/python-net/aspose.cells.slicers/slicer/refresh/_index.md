@@ -20,6 +20,10 @@ def refresh(self):
 ```
 
 
+### Example 
+
+
+`slicer.Refresh();`
 
 
 

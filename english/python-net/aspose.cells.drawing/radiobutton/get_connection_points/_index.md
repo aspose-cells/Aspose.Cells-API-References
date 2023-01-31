@@ -24,6 +24,10 @@ def get_connection_points(self):
 ```
 
 
+### Example 
+
+
+`float[][] points = shape.GetConnectionPoints();`
 
 
 

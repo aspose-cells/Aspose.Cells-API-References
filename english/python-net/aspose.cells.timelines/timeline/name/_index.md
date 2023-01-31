@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the name of the specified Timeline
+### Example 
+
+
+```
+
+# Set the name of the specified Timeline.
+timelineObj.name = "timeline name test"
+
+```
 
 ### See Also
 * module [aspose.cells.timelines](../../)

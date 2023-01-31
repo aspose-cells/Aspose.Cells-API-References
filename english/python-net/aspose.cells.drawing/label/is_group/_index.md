@@ -12,6 +12,16 @@ is_root: false
 
 
 Indicates whether the shape is a group.
+### Example 
+
+
+```
+
+if shape.is_group:
+    pass
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

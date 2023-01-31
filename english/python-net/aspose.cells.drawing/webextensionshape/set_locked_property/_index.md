@@ -24,6 +24,10 @@ def set_locked_property(self, type, value):
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/python-net/aspose.cells.drawing/shapelocktype) | The locked type. |
 | value | bool | The value of the property. |
+### Example 
+
+
+`shape.SetLockedProperty(ShapeLockType.AdjustHandles, true);`
 
 
 

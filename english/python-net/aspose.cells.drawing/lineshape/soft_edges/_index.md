@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the radius of blur to apply to the edges, in unit of points.
+### Example 
+
+
+`shape.SoftEdges = 0.5d;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

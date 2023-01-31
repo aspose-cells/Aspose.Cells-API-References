@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the minimum acceptable value.
+### Example 
+
+
+`activeXControl.Min = 0;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

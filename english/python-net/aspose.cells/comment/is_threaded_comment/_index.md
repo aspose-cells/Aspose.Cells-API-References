@@ -12,6 +12,16 @@ is_root: false
 
 
 Indicates whether this comment is a threaded comment.
+### Example 
+
+
+```
+
+if comment1.is_threaded_comment:
+    pass
+
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

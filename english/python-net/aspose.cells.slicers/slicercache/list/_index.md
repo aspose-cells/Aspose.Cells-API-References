@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only
+### Example 
+
+
+`Console.WriteLine(slicerCache.List);`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

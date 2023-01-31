@@ -12,6 +12,16 @@ is_root: false
 
 
 Represents if the comment is visible or not.
+### Example 
+
+
+```
+
+if comment1.is_visible:
+    pass
+
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

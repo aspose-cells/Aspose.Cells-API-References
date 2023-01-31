@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets the type of the ActiveX control.
+### Example 
+
+
+`Aspose.Cells.Drawing.ActiveXControls.ControlType type = activeXControl.Type;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

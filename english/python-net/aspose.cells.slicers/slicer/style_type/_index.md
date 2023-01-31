@@ -13,6 +13,10 @@ is_root: false
 
 Specify the type of Built-in slicer style
 the default type is SlicerStyleLight1
+### Example 
+
+
+`slicer.StyleType = SlicerStyleType.SlicerStyleLight2;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

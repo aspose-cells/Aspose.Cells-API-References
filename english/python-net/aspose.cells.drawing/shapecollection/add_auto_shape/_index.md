@@ -35,7 +35,17 @@ def add_auto_shape(self, type, upper_left_row, top, upper_left_column, left, hei
 | width | int | Represents the width of Shape, in unit of pixel. |
 ### Remarks
 
-The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
+The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox### Example 
+
+
+```
+from aspose.cells.drawing import AutoShapeType
+
+# Adds a AutoShape to the worksheet.
+autoShape = shapes.add_auto_shape(AutoShapeType.CUBE, 1, 0, 1, 0, 100, 50)
+
+```
+
 
 
 ### See Also

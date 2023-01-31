@@ -12,6 +12,10 @@ is_root: false
 
 
 Specifies the ending caps.
+### Example 
+
+
+`lineFmt.CapType = LineCapType.Flat;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

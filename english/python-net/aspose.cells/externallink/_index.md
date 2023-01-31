@@ -32,6 +32,22 @@ The ExternalLink type exposes the following members:
 | [add_external_name(text, refer_to)](/cells/python-net/aspose.cells/externallink/add_external_name/#str-str) | Adds an external name. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Open a file with external links
+workbook = Workbook("book1.xls")
+
+# Get External Link
+externalLink = workbook.worksheets.external_links[0]
+
+# Change External Link's Data Source
+externalLink.data_source = "d:\\link.xls"
+
+```
 ### See Also
 
 * module [aspose.cells](../)

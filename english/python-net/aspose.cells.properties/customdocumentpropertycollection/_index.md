@@ -53,6 +53,19 @@ The CustomDocumentPropertyCollection type exposes the following members:
 
 
 Each [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty) object represents a custom property of a container document.
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiate a Workbook object
+workbook = Workbook("book1.xls")
+
+# Retrieve a list of all custom document properties of the Excel file
+customProperties = workbook.worksheets.custom_document_properties
+
+```
 ### See Also
 
 * module [aspose.cells.properties](../)

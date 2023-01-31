@@ -43,6 +43,39 @@ The Line type exposes the following members:
 | [gradient_fill](/cells/python-net/aspose.cells.drawing/line/gradient_fill) | Represents gradient fill. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.charts import ChartMarkerType, ChartType
+from aspose.cells.drawing import LineType, WeightType
+from aspose.pydrawing import Color
+
+workbook = Workbook()
+sheet = workbook.worksheets[0]
+cells = sheet.cells
+cells.get(0, 1).put_value("Income")
+cells.get(1, 0).put_value("Company A")
+cells.get(2, 0).put_value("Company B")
+cells.get(3, 0).put_value("Company C")
+cells.get(1, 1).put_value(10000)
+cells.get(2, 1).put_value(20000)
+cells.get(3, 1).put_value(30000)
+chartIndex = sheet.charts.add(ChartType.LINE, 9, 9, 21, 15)
+chart = sheet.charts[chartIndex]
+
+# Applying a dotted line style on the lines of an NSeries
+chart.n_series[0].border.style = LineType.DOT
+chart.n_series[0].border.color = Color.red
+
+# Applying a triangular marker style on the data markers of an NSeries
+chart.n_series[0].marker.marker_style = ChartMarkerType.TRIANGLE
+
+# Setting the weight of all lines in an NSeries to medium
+chart.n_series[0].border.weight = WeightType.MEDIUM_LINE
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

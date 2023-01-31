@@ -12,6 +12,17 @@ is_root: false
 
 
 Represents the height of the shape, in unit of centimeters.
+### Example 
+
+
+```
+
+if shape.height_cm==3:
+    shape.height_cm = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

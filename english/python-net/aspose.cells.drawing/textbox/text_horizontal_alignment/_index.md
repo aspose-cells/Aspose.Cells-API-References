@@ -12,6 +12,18 @@ is_root: false
 
 
 Gets and sets the text horizontal alignment type of the shape.
+### Example 
+
+
+```
+from aspose.cells import TextAlignmentType
+
+if shape.text_horizontal_alignment==TextAlignmentType.BOTTOM:
+    shape.text_horizontal_alignment = TextAlignmentType.CENTER
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

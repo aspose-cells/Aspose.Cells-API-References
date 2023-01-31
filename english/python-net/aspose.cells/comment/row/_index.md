@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets the row index of the comment.
+### Example 
+
+
+`int row = comment1.Row;`
 
 ### See Also
 * module [aspose.cells](../../)

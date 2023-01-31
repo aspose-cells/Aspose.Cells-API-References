@@ -24,6 +24,10 @@ def align_top_right_corner(self, top_row, right_column):
 | :- | :- | :- |
 | top_row | int | the row index. |
 | right_column | int | the column index. |
+### Example 
+
+
+`shape.AlignTopRightCorner(2, 5);`
 
 
 

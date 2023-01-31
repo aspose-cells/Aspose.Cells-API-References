@@ -35,7 +35,17 @@ def add_shape(self, type, upper_left_row, top, upper_left_column, left, height, 
 | width | int | Represents the width of Shape, in unit of pixel. |
 ### Remarks
 
-The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
+The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox### Example 
+
+
+```
+from aspose.cells.drawing import MsoDrawingType
+
+# Add a shape of the specified type
+shapeByType = shapes.add_shape(MsoDrawingType.CELLS_DRAWING, 1, 0, 1, 0, 100, 50)
+
+```
+
 
 
 ### See Also

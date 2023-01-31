@@ -12,6 +12,16 @@ is_root: false
 
 
 Indicates whether show signed date.
+### Example 
+
+
+```
+
+if s.show_signed_date:
+    pass
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

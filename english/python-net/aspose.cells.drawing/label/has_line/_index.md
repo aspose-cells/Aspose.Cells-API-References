@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets and sets the line border of the shape is visible.
+### Example 
+
+
+```
+
+if shape.has_line==False:
+    shape.has_line = True
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

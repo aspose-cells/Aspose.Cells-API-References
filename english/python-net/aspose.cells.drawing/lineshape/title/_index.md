@@ -12,6 +12,10 @@ is_root: false
 
 
 Specifies the title (caption) of the current shape object.
+### Example 
+
+
+`shape.Title = "title1";`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

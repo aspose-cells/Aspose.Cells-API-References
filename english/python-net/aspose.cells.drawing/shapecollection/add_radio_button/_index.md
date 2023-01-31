@@ -32,6 +32,15 @@ def add_radio_button(self, upper_left_row, top, upper_left_column, left, height,
 | left | int | Represents the horizontal offset of RadioButton from its left column, in unit of pixel. |
 | height | int | Represents the height of RadioButton, in unit of pixel. |
 | width | int | Represents the width of RadioButton, in unit of pixel. |
+### Example 
+
+
+```
+
+# add a radio button
+radioButton = shapes.add_radio_button(1, 0, 1, 0, 100, 50)
+
+```
 
 
 

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the name of macro.
+### Example 
+
+
+```
+
+# Sets the name of macro.
+shape.macro_name = "DoWork()"
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

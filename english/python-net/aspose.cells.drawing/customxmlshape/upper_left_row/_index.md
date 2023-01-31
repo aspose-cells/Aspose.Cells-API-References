@@ -16,6 +16,17 @@ Represents upper left corner row index.
 
 
 If the shape is in the shape or in the group , UpperLeftRow will be ignored.
+### Example 
+
+
+```
+
+if shape.upper_left_row==3:
+    shape.upper_left_row = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

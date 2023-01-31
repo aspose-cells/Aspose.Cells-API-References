@@ -38,6 +38,20 @@ The WorkbookMetadata type exposes the following members:
 | [save(stream)](/cells/python-net/aspose.cells.metadata/workbookmetadata/save/#io.RawIOBase) | Save the modified metadata to the stream. |
 
 
+### Example 
+
+
+The following example creates a WorkbookMetadata.
+
+```
+from aspose.cells.metadata import MetadataOptions, MetadataType, WorkbookMetadata
+
+options = MetadataOptions(MetadataType.DOCUMENT_PROPERTIES)
+meta = WorkbookMetadata("book1.xlsx", options)
+meta.custom_document_properties.add("test", "test")
+meta.save("book2.xlsx")
+
+```
 ### See Also
 
 * module [aspose.cells.metadata](../)

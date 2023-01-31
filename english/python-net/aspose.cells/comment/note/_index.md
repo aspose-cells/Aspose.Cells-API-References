@@ -16,6 +16,10 @@ Represents the content of comment.
 
 
 If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+### Example 
+
+
+`comment1.Note = "First note.";`
 
 ### See Also
 * module [aspose.cells](../../)

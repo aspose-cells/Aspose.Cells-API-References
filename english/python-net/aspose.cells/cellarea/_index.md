@@ -39,6 +39,20 @@ The CellArea type exposes the following members:
 | [compare_to(obj)](/cells/python-net/aspose.cells/cellarea/compare_to/#any) | Compare two CellArea objects according to their top-left corner. |
 
 
+### Example 
+
+
+```
+from aspose.cells import CellArea
+
+# Create Cell Area
+ca = CellArea()
+ca.start_row = 0
+ca.end_row = 0
+ca.start_column = 0
+ca.end_column = 0
+
+```
 ### See Also
 
 * module [aspose.cells](../)

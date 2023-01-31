@@ -32,6 +32,15 @@ def add_check_box(self, upper_left_row, top, upper_left_column, left, height, wi
 | left | int | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | int | Height of textbox, in unit of pixel. |
 | width | int | Width of textbox, in unit of pixel. |
+### Example 
+
+
+```
+
+# add a CheckBox
+checkBox = shapes.add_check_box(1, 0, 1, 0, 100, 50)
+
+```
 
 
 

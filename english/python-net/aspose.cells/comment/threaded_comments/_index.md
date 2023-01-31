@@ -12,6 +12,19 @@ is_root: false
 
 
 Gets the list of threaded comments;
+### Example 
+
+
+```
+
+threadedComments = comment1.threaded_comments
+for i in range(len(threadedComments)):
+    tc = threadedComments[i]
+note = tc.notes
+
+
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

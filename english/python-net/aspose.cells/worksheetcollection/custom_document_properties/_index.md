@@ -12,6 +12,16 @@ is_root: false
 
 
 Returns a [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty) collection that represents all the custom document properties of the spreadsheet.
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+workbook = Workbook()
+workbook.worksheets.custom_document_properties.add("Checked by", "Jane")
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

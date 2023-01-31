@@ -13,6 +13,10 @@ is_root: false
 
 Represents the way the drawing object is attached to the cells below it.
 The property controls the placement of an object on a worksheet.
+### Example 
+
+
+`slicer.Placement = PlacementType.FreeFloating;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

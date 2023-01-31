@@ -32,6 +32,15 @@ def add_button(self, upper_left_row, top, upper_left_column, left, height, width
 | left | int | Represents the horizontal offset of Button from its left column, in unit of pixel. |
 | height | int | Represents the height of Button, in unit of pixel. |
 | width | int | Represents the width of Button, in unit of pixel. |
+### Example 
+
+
+```
+
+# add a button
+button = shapes.add_button(1, 0, 1, 0, 100, 50)
+
+```
 
 
 

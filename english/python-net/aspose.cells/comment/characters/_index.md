@@ -28,6 +28,10 @@ def characters(self, start_index, length):
 | :- | :- | :- |
 | start_index | int | The index of the start of the character. |
 | length | int | The number of characters. |
+### Example 
+
+
+`Aspose.Cells.FontSetting fontSetting = comment1.Characters(0, 4);`
 
 
 

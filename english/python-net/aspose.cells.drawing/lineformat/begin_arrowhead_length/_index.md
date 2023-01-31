@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the begin arrow length type of the line.
+### Example 
+
+
+`lineFmt.BeginArrowheadLength = MsoArrowheadLength.Long;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

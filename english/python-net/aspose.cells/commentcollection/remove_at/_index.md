@@ -23,6 +23,10 @@ def remove_at(self, cell_name):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | cell_name | str | The name of cell which contains a comment. |
+### Example 
+
+
+`comments.RemoveAt("B2");`
 
 
 ## remove_at(row, column) {#int-int}
@@ -41,6 +45,10 @@ def remove_at(self, row, column):
 | :- | :- | :- |
 | row | int | The row index. |
 | column | int | the column index. |
+### Example 
+
+
+`comments.RemoveAt(1,1);`
 
 
 

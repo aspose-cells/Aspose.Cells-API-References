@@ -13,6 +13,10 @@ is_root: false
 
 Returns or sets whether the header that displays the slicer Caption is visible
 the default value is true
+### Example 
+
+
+`slicer.CaptionVisible = true;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

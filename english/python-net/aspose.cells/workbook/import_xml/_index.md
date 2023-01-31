@@ -26,6 +26,19 @@ def import_xml(self, url, sheet_name, row, col):
 | sheet_name | str | the destination sheet name. |
 | row | int | the destination row |
 | col | int | the destination column |
+### Example 
+
+
+The following code imports xml data into worksheet 'Sheet 1' at Cell A1.
+
+```
+from aspose.cells import Workbook
+
+wb = Workbook("Book1.xlsx")
+wb.import_xml("xml.xml", "Sheet1", 0, 0)
+wb.save("output.xlsx")
+
+```
 
 
 ## import_xml(stream, sheet_name, row, col) {#io.RawIOBase-str-int-int}

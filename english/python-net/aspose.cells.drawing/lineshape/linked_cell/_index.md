@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets or sets the worksheet range linked to the control's value.
+### Example 
+
+
+```
+
+if shape.linked_cell=="$B$6":
+    shape.linked_cell = "A1"
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

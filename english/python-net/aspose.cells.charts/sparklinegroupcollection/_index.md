@@ -38,6 +38,32 @@ The SparklineGroupCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.charts/sparklinegroupcollection/binary_search/#SparklineGroup) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+### Example 
+
+
+```
+from aspose.cells import CellArea, SaveFormat, Workbook
+from aspose.cells.charts import SparklineType
+
+book = Workbook()
+sheet = book.worksheets[0]
+sheet.cells.get("A1").put_value(5)
+sheet.cells.get("B1").put_value(2)
+sheet.cells.get("C1").put_value(1)
+sheet.cells.get("D1").put_value(3)
+
+#  Define the CellArea
+ca = CellArea()
+ca.start_column = 4
+ca.end_column = 4
+ca.start_row = 0
+ca.end_row = 0
+idx = sheet.sparkline_group_collection.add(SparklineType.LINE, "A1:D1", False, ca)
+group = sheet.sparkline_group_collection[idx]
+group.sparkline_collection.add(sheet.name+"!A1:D1", 0, 4)
+book.save("output.xlsx", SaveFormat.XLSX)
+
+```
 ### See Also
 
 * module [aspose.cells.charts](../)

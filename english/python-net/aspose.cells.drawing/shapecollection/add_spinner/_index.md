@@ -32,6 +32,15 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 | left | int | Represents the horizontal offset of Spinner from its left column, in unit of pixel. |
 | height | int | Represents the height of Spinner, in unit of pixel. |
 | width | int | Represents the width of Spinner, in unit of pixel. |
+### Example 
+
+
+```
+
+# add a spinner
+spinner = shapes.add_spinner(1, 0, 1, 0, 100, 50)
+
+```
 
 
 

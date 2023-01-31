@@ -16,6 +16,17 @@ Represents the vertical offset of shape from the top border of the parent shape,
 
 
 Only Applies when this shape in the group or chart.
+### Example 
+
+
+```
+
+if shape.upper_delta_y==4000:
+    shape.upper_delta_y = 2000
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

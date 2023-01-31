@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the value.
+### Example 
+
+
+`activeXControl.Position = 30;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

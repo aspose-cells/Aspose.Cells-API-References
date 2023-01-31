@@ -12,6 +12,16 @@ is_root: false
 
 
 Indicates whether comments could be attached.
+### Example 
+
+
+```
+
+if s.allow_comments:
+    pass
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

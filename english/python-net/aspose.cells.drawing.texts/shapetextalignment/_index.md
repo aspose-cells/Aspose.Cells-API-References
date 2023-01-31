@@ -35,6 +35,18 @@ The ShapeTextAlignment type exposes the following members:
 | [number_of_columns](/cells/python-net/aspose.cells.drawing.texts/shapetextalignment/number_of_columns) | Gets and sets the number of columns of text in the bounding rectangle. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+workbook = Workbook()
+shape = workbook.worksheets[0].shapes.add_rectangle(1, 0, 1, 0, 50, 100)
+shapeTextAlignment = shape.text_body.text_alignment
+
+```
 ### See Also
 
 * module [aspose.cells.drawing.texts](../)

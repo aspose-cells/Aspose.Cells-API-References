@@ -60,6 +60,87 @@ The Trendline type exposes the following members:
 | [legend_entry](/cells/python-net/aspose.cells.charts/trendline/legend_entry) | Gets the legend entry according to this trendline |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.charts import ChartType, TrendlineType
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# Adding a new worksheet to the Excel object
+sheetIndex = workbook.worksheets.add()
+
+# Obtaining the reference of the newly added worksheet by passing its sheet index
+worksheet = workbook.worksheets[sheetIndex]
+
+# Adding a sample value to "A1" cell
+worksheet.cells.get("A1").put_value(50)
+
+# Adding a sample value to "A2" cell
+worksheet.cells.get("A2").put_value(100)
+
+# Adding a sample value to "A3" cell
+worksheet.cells.get("A3").put_value(150)
+
+# Adding a sample value to "A4" cell
+worksheet.cells.get("A4").put_value(200)
+
+# Adding a sample value to "B1" cell
+worksheet.cells.get("B1").put_value(60)
+
+# Adding a sample value to "B2" cell
+worksheet.cells.get("B2").put_value(32)
+
+# Adding a sample value to "B3" cell
+worksheet.cells.get("B3").put_value(50)
+
+# Adding a sample value to "B4" cell
+worksheet.cells.get("B4").put_value(40)
+
+# Adding a sample value to "C1" cell as category data
+worksheet.cells.get("C1").put_value("Q1")
+
+# Adding a sample value to "C2" cell as category data
+worksheet.cells.get("C2").put_value("Q2")
+
+# Adding a sample value to "C3" cell as category data
+worksheet.cells.get("C3").put_value("Y1")
+
+# Adding a sample value to "C4" cell as category data
+worksheet.cells.get("C4").put_value("Y2")
+
+# Adding a chart to the worksheet
+chartIndex = worksheet.charts.add(ChartType.COLUMN, 5, 0, 15, 5)
+
+# Accessing the instance of the newly added chart
+chart = worksheet.charts[chartIndex]
+
+# Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+chart.n_series.add("A1:B4", True)
+
+# Setting the data source for the category data of NSeries
+chart.n_series.category_data = "C1:C4"
+
+# adding a linear trendline
+index = chart.n_series[0].trend_lines.add(TrendlineType.LINEAR)
+trendline = chart.n_series[0].trend_lines[index]
+
+# Setting the custom name of the trendline.
+trendline.name = "Linear"
+
+# Displaying the equation on chart
+trendline.display_equation = True
+
+# Displaying the R-Squared value on chart
+trendline.display_r_squared = True
+
+# Saving the Excel file
+workbook.save("book1.xls")
+
+```
 ### See Also
 
 * module [aspose.cells.charts](../)

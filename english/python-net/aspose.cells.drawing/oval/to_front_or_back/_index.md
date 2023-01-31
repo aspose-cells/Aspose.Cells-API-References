@@ -23,6 +23,14 @@ def to_front_or_back(self, orders):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | orders | int | If it's less than zero, sets the shape to back.<br/>If it's greater than zero, brings the shape to front. |
+### Example 
+
+
+```
+
+shape.to_front_or_back(2)
+
+```
 
 
 

@@ -30,7 +30,21 @@ def characters(self, start_index, length):
 | length | int | The number of characters. |
 ### Remarks
 
-This method only works on cell with string value.
+This method only works on cell with string value.### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.pydrawing import Color
+
+excel = Workbook()
+cells = excel.worksheets[0].cells
+cells.get("A1").put_value("Helloworld")
+cells.get("A1").characters(5, 5).font.is_bold = True
+cells.get("A1").characters(5, 5).font.color = Color.blue
+
+```
+
 
 
 ### See Also

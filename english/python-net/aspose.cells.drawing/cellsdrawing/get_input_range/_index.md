@@ -28,6 +28,14 @@ def get_input_range(self, is_r1c1, is_local):
 | :- | :- | :- |
 | is_r1c1 | bool | Whether the formula needs to be formatted as R1C1. |
 | is_local | bool | Whether the formula needs to be formatted by locale. |
+### Example 
+
+
+```
+
+range = shape.get_input_range(False, True)
+
+```
 
 
 

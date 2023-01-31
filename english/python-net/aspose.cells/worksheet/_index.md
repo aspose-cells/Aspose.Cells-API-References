@@ -136,6 +136,22 @@ The Worksheet type exposes the following members:
 | [refresh_pivot_tables()](/cells/python-net/aspose.cells/worksheet/refresh_pivot_tables/#) | Refreshes all the PivotTables in this Worksheet. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+workbook = Workbook()
+sheet = workbook.worksheets[0]
+
+# Freeze panes at "AS40" with 10 rows and 10 columns
+sheet.freeze_panes("AS40", 10, 10)
+
+# Add a hyperlink in Cell A1
+sheet.hyperlinks.add("A1", 1, 1, "http://www.aspose.com")
+
+```
 ### See Also
 
 * module [aspose.cells](../)

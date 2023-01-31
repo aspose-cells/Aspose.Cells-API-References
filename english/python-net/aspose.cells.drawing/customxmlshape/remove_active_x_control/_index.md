@@ -20,6 +20,10 @@ def remove_active_x_control(self):
 ```
 
 
+### Example 
+
+
+`shape.RemoveActiveXControl();`
 
 
 

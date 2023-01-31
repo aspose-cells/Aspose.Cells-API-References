@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and set the type of border used by the control.
+### Example 
+
+
+`activeXControl.BorderStyle = Aspose.Cells.Drawing.ActiveXControls.ControlBorderType.Single;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

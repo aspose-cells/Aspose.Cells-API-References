@@ -32,6 +32,15 @@ def add_rectangle(self, upper_left_row, top, upper_left_column, left, height, wi
 | left | int | Represents the horizontal offset of RectangleShape from its left column, in unit of pixel. |
 | height | int | Represents the height of RectangleShape, in unit of pixel. |
 | width | int | Represents the width of RectangleShape, in unit of pixel. |
+### Example 
+
+
+```
+
+#  add a rectangle
+rectangleShape = shapes.add_rectangle(2, 0, 2, 0, 130, 130)
+
+```
 
 
 

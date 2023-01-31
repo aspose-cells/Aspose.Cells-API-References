@@ -38,6 +38,22 @@ Gets a [Row](/cells/python-net/aspose.cells/row) object by given row index. The 
 | [remove_at(index)](/cells/python-net/aspose.cells/rowcollection/remove_at/#int) | Remove the row at the specified index |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# Obtaining the reference of the first worksheet
+worksheet = workbook.worksheets[0]
+
+# Get first row
+row = worksheet.cells.rows[0]
+
+```
 ### See Also
 
 * module [aspose.cells](../)

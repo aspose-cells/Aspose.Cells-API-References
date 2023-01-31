@@ -50,6 +50,29 @@ The AutoFilter type exposes the following members:
 | [show_all()](/cells/python-net/aspose.cells/autofilter/show_all/#) | Unhide all rows. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Creating a file stream containing the Excel file to be opened
+# Instantiating a Workbook object
+workbook = Workbook("template.xlsx")
+
+# Accessing the first worksheet in the Excel file
+worksheet = workbook.worksheets[0]
+
+# Creating AutoFilter by giving the cells range of the heading row
+worksheet.auto_filter.range = "A1:B1"
+
+# Filtering columns with specified values
+worksheet.auto_filter.filter(1, "Bananas")
+
+# Saving the modified Excel file.
+workbook.save("output.xls")
+
+```
 ### See Also
 
 * module [aspose.cells](../)

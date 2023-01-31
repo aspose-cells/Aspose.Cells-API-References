@@ -34,6 +34,16 @@ def add_word_art(self, style, text, upper_left_row, top, upper_left_column, left
 | left | int | Represents the horizontal offset of shape from its left column, in unit of pixel. |
 | height | int | Represents the height of shape, in unit of pixel. |
 | width | int | Represents the width of shape, in unit of pixel. |
+### Example 
+
+
+```
+from aspose.cells.drawing import PresetWordArtStyle
+
+# add a WordArt
+wordArt2 = shapes.add_word_art(PresetWordArtStyle.WORD_ART_STYLE1, "WordArt", 3, 0, 3, 0, 50, 200)
+
+```
 
 
 

@@ -30,6 +30,19 @@ The Metered type exposes the following members:
 | [get_consumption_credit()](/cells/python-net/aspose.cells/metered/get_consumption_credit/#) | Gets consumption credit |
 
 
+### Example 
+
+
+In this example, an attempt will be made to set metered public and private key
+
+
+```
+from aspose.cells import Metered
+
+matered = Metered()
+matered.set_metered_key("PublicKey", "PrivateKey")
+
+```
 ### See Also
 
 * module [aspose.cells](../)

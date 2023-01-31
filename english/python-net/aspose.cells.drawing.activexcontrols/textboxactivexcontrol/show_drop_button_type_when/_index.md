@@ -12,6 +12,10 @@ is_root: false
 
 
 Specifies the symbol displayed on the drop button
+### Example 
+
+
+`activeXControl.ShowDropButtonTypeWhen = Aspose.Cells.Drawing.ActiveXControls.ShowDropButtonType.Focus;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

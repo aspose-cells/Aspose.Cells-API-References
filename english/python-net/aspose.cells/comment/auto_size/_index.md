@@ -12,6 +12,18 @@ is_root: false
 
 
 Indicates if size of comment is adjusted automatically according to its content.
+### Example 
+
+
+```
+
+if !comment1.auto_size:
+    # The size of the comment varies with the content
+    comment1.auto_size = True
+
+
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -27,6 +27,10 @@ def add_hyperlink(self, address):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | address | str | Address of the hyperlink. |
+### Example 
+
+
+`Aspose.Cells.Hyperlink hyperlink = shape.AddHyperlink("https://www.aspose.com/");`
 
 
 

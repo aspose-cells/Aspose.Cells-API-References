@@ -12,6 +12,17 @@ is_root: false
 
 
 Represents the string in this TextBox object.
+### Example 
+
+
+```
+
+if shape.text==None:
+    shape.text = "This is a test."
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

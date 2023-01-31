@@ -32,6 +32,15 @@ def add_oval(self, upper_left_row, top, upper_left_column, left, height, width):
 | left | int | Represents the horizontal offset of Oval from its left column, in unit of pixel. |
 | height | int | Represents the height of Oval, in unit of pixel. |
 | width | int | Represents the width of Oval, in unit of pixel. |
+### Example 
+
+
+```
+
+# add a oval
+oval = shapes.add_oval(1, 0, 1, 0, 50, 50)
+
+```
 
 
 

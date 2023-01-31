@@ -13,6 +13,18 @@ is_root: false
 
 Represents the way the drawing object is attached to the cells below it.
 The property controls the placement of an object on a worksheet.
+### Example 
+
+
+```
+from aspose.cells.drawing import PlacementType
+
+if shape.placement==PlacementType.MOVE:
+    shape.placement = PlacementType.MOVE_AND_SIZE
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

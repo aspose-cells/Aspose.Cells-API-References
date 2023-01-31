@@ -37,6 +37,42 @@ The TrendlineCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.charts/trendlinecollection/binary_search/#Trendline) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.charts import ChartType, TrendlineType
+from aspose.pydrawing import Color
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# Adding a new worksheet to the Excel object
+sheetIndex = workbook.worksheets.add()
+
+# Obtaining the reference of the newly added worksheet by passing its sheet index
+worksheet = workbook.worksheets[sheetIndex]
+worksheet.cells.get("A1").put_value(50)
+worksheet.cells.get("A2").put_value(100)
+worksheet.cells.get("A3").put_value(150)
+worksheet.cells.get("A4").put_value(200)
+worksheet.cells.get("B1").put_value(60)
+worksheet.cells.get("B2").put_value(32)
+worksheet.cells.get("B3").put_value(50)
+worksheet.cells.get("B4").put_value(40)
+
+# Adding a chart to the worksheet
+chartIndex = workbook.worksheets[0].charts.add(ChartType.COLUMN, 3, 3, 15, 10)
+chart = workbook.worksheets[0].charts[chartIndex]
+chart.n_series.add("A1:a3", True)
+chart.n_series[0].trend_lines.add(TrendlineType.LINEAR, "MyTrendLine")
+line = chart.n_series[0].trend_lines[0]
+line.display_equation = True
+line.display_r_squared = True
+line.color = Color.red
+
+```
 ### See Also
 
 * module [aspose.cells.charts](../)

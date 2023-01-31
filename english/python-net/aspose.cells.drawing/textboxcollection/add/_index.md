@@ -30,6 +30,15 @@ def add(self, upper_left_row, upper_left_column, height, width):
 | upper_left_column | int | Upper left column index. |
 | height | int | Height of textbox, in unit of pixel. |
 | width | int | Width of textbox, in unit of pixel. |
+### Example 
+
+
+```
+
+# add a TextBox
+index2 = textBoxCollection.add(1, 1, 50, 100)
+
+```
 
 
 

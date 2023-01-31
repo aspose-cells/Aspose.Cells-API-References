@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels.
+### Example 
+
+
+```
+
+if shape.y==3:
+    shape.y = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

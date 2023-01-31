@@ -35,6 +35,40 @@ The PdfBookmarkEntry type exposes the following members:
 | [is_collapse](/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/is_collapse) | When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
 
 
+### Example 
+
+
+```
+from aspose.cells import PdfSaveOptions, Workbook
+from aspose.cells.rendering import PdfBookmarkEntry
+
+workbook = Workbook()
+workbook.worksheets.add()
+workbook.worksheets.add()
+cellInPage1 = workbook.worksheets[0].cells.get("A1")
+cellInPage2 = workbook.worksheets[1].cells.get("A1")
+cellInPage3 = workbook.worksheets[2].cells.get("A1")
+cellInPage1.put_value("page1")
+cellInPage2.put_value("page2")
+cellInPage3.put_value("page3")
+pbeRoot = PdfBookmarkEntry()
+pbeRoot.text = "root"
+pbeRoot.destination = cellInPage1
+pbeRoot.sub_entry = []
+pbeRoot.is_open = False
+subPbe1 = PdfBookmarkEntry()
+subPbe1.text = "section1"
+subPbe1.destination = cellInPage2
+subPbe2 = PdfBookmarkEntry()
+subPbe2.text = "section2"
+subPbe2.destination = cellInPage3
+pbeRoot.sub_entry.append(subPbe1)
+pbeRoot.sub_entry.append(subPbe2)
+saveOptions = PdfSaveOptions()
+saveOptions.bookmark = pbeRoot
+workbook.save("output_bookmark.pdf", saveOptions)
+
+```
 ### See Also
 
 * module [aspose.cells.rendering](../)

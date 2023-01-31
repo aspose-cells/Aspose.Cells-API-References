@@ -43,6 +43,16 @@ The CommentCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/commentcollection/binary_search/#Comment) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+workbook = Workbook()
+comments = workbook.worksheets[0].comments
+
+```
 ### See Also
 
 * module [aspose.cells](../)

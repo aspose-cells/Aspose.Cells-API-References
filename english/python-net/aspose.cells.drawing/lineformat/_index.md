@@ -66,6 +66,19 @@ The LineFormat type exposes the following members:
 | [set_preset_color_gradient(preset_color, style, variant)](/cells/python-net/aspose.cells.drawing/lineformat/set_preset_color_gradient/#GradientPresetType-GradientStyleType-int) | Sets the specified fill to a preset-color gradient.<br/>Only applies for Excel 2007. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+workbook = Workbook()
+shapes = workbook.worksheets[0].shapes
+shape = shapes.add_rectangle(1, 0, 1, 0, 50, 100)
+lineFmt = shape.line
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

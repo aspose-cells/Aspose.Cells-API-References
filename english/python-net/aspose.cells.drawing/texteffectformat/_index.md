@@ -34,6 +34,22 @@ The TextEffectFormat type exposes the following members:
 | [set_text_effect(effect)](/cells/python-net/aspose.cells.drawing/texteffectformat/set_text_effect/#MsoPresetTextEffect) | Sets the preset text effect. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+from aspose.cells.drawing import MsoPresetTextEffect
+
+# Instantiating a Workbook object
+workbook = Workbook()
+shapes = workbook.worksheets[0].shapes
+shapes.add_text_effect(MsoPresetTextEffect.TEXT_EFFECT1, "Aspose", "Arial", 30, False, False, 0, 0, 0, 0, 100, 200)
+textEffectFormat = shapes[0].text_effect
+textEffectFormat.set_text_effect(MsoPresetTextEffect.TEXT_EFFECT10)
+workbook.save("Book1.xls")
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

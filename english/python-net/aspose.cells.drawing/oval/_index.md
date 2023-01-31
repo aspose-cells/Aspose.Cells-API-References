@@ -156,6 +156,26 @@ The Oval type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/oval/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# get ShapeCollection
+shapes = workbook.worksheets[0].shapes
+
+# add a oval
+oval = shapes.add_oval(1, 0, 1, 0, 50, 50)
+
+# do your business
+# Save the excel file.
+workbook.save("result.xlsx")
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

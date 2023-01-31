@@ -13,6 +13,10 @@ is_root: false
 
 Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. 
 Applies to Shape objects that represent WordArt.
+### Example 
+
+
+`Aspose.Cells.Drawing.TextEffectFormat textEffectFormat = shape.TextEffect;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

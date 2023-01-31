@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets mso drawing type.
+### Example 
+
+
+`Aspose.Cells.Drawing.MsoDrawingType msoDrawingType = shape.MsoDrawingType;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

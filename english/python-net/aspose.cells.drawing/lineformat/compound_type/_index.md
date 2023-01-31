@@ -12,6 +12,10 @@ is_root: false
 
 
 Specifies the line compound type.
+### Example 
+
+
+`lineFmt.CompoundType = MsoLineStyle.Single;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

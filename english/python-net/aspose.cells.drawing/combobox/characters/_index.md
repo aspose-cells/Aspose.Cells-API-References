@@ -30,7 +30,11 @@ def characters(self, start_index, length):
 | length | int | The number of characters. |
 ### Remarks
 
-This method only works on shape with title.
+This method only works on shape with title.### Example 
+
+
+`Aspose.Cells.FontSetting fontSetting = shape.Characters(0, 4);`
+
 
 
 ### See Also

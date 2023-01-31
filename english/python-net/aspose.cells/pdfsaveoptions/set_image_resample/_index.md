@@ -26,6 +26,23 @@ def set_image_resample(self, desired_ppi, jpeg_quality):
 | :- | :- | :- |
 | desired_ppi | int | Desired pixels per inch. 220 high quality. 150 screen quality. 96 email quality. |
 | jpeg_quality | int | 0 - 100% JPEG quality. |
+### Example 
+
+
+The following code sets desired PPI as 96 and jpeg quality as 80 for images in the output pdf.
+
+```
+from aspose.cells import PdfSaveOptions, Workbook
+
+# load the source file with images.
+wb = Workbook("Book1.xlsx")
+pdfSaveOptions = PdfSaveOptions()
+
+# set desired PPI as 96 and jpeg quality as 80.
+pdfSaveOptions.set_image_resample(96, 80)
+wb.save("output.pdf", pdfSaveOptions)
+
+```
 
 
 

@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the end arrow length type of the line.
+### Example 
+
+
+`lineFmt.EndArrowheadLength = MsoArrowheadLength.Long;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

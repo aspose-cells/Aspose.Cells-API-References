@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets and sets the email of singer.
+### Example 
+
+
+```
+from aspose.cells.drawing import SignatureLine
+
+#  Create signature line object
+s5 = SignatureLine()
+s5.email = "Simon.Zhao@aspose.com"
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

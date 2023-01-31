@@ -12,6 +12,10 @@ is_root: false
 
 
 Represents the width of the comment, in unit of centimeters.
+### Example 
+
+
+`comment1.WidthCM = 1.0;`
 
 ### See Also
 * module [aspose.cells](../../)

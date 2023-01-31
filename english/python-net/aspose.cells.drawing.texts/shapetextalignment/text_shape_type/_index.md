@@ -12,6 +12,16 @@ is_root: false
 
 
 Gets and set the transform type of text.
+### Example 
+
+
+```
+from aspose.cells.drawing import AutoShapeType
+
+# Usually do not modify this value unless you know exactly what the modification will result in
+shapeTextAlignment.text_shape_type = AutoShapeType.TEXT_BOX
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

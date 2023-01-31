@@ -12,6 +12,10 @@ is_root: false
 
 
 Specifies the title of the current Slicer object.
+### Example 
+
+
+`slicer.Title = "slicer title";`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

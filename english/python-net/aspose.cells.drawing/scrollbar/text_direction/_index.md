@@ -12,6 +12,18 @@ is_root: false
 
 
 Gets/Sets the direction of the text flow for this object.
+### Example 
+
+
+```
+from aspose.cells import TextDirectionType
+
+if shape.text_direction==TextDirectionType.CONTEXT:
+    shape.text_direction = TextDirectionType.LEFT_TO_RIGHT
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

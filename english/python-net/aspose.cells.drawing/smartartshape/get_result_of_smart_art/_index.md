@@ -20,6 +20,17 @@ def get_result_of_smart_art(self):
 ```
 
 
+### Example 
+
+
+```
+
+groupShape = shape.get_result_of_smart_art()
+if groupShape!=None:
+    pass
+
+
+```
 
 
 

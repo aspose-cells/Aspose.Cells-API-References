@@ -12,6 +12,10 @@ is_root: false
 
 
 Returns the position of a shape in the z-order.
+### Example 
+
+
+`shape.ZOrderPosition = 3;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

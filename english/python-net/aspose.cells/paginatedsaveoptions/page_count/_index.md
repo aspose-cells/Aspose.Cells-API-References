@@ -16,6 +16,29 @@ Gets or sets the number of pages to save.
 
 
 Default is System.Int32.MaxValue which means all pages will be rendered..
+### Example 
+
+
+The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
+
+```
+from aspose.cells import PdfSaveOptions, Workbook
+
+# Open an Excel file
+wb = Workbook("Book1.xlsx")
+options = PdfSaveOptions()
+
+# Print only Page 3 and Page 4 in the output PDF
+# Starting page index (0-based index)
+options.page_index = 3
+
+# Number of pages to be printed
+options.page_count = 2
+
+# Save the PDF file
+wb.save("output.pdf", options)
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

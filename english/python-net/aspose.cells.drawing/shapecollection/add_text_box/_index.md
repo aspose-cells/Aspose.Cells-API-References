@@ -32,6 +32,15 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 | left | int | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | int | Represents the height of textbox, in unit of pixel. |
 | width | int | Represents the width of textbox, in unit of pixel. |
+### Example 
+
+
+```
+
+# add a TextBox
+textBox = shapes.add_text_box(1, 0, 1, 0, 100, 50)
+
+```
 
 
 

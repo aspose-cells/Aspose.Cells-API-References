@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the columns that contain the cells to be repeated on the left side of each page.
+### Example 
+
+
+```
+
+pageSetup.print_title_columns = "$A:$A"
+pageSetup.print_title_columns = "$A:$A"
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

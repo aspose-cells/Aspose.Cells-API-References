@@ -12,6 +12,17 @@ is_root: false
 
 
 Represents upper left corner column index.
+### Example 
+
+
+```
+
+if shape.upper_left_column==3:
+    shape.upper_left_column = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

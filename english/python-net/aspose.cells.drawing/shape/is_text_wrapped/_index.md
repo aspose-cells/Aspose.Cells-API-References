@@ -12,6 +12,17 @@ is_root: false
 
 
 Gets and sets the text wrapped type of the shape which contains text.
+### Example 
+
+
+```
+
+if shape.is_text_wrapped:
+    shape.is_text_wrapped = !shape.is_text_wrapped
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -41,6 +41,19 @@ Gets the [ExternalLink](/cells/python-net/aspose.cells/externallink) element at 
 | [remove_at(index, update_references_as_local)](/cells/python-net/aspose.cells/externallinkcollection/remove_at/#int-bool) | Removes the specified external link from the workbook. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+# Open a file with external links
+workbook = Workbook("book1.xls")
+
+# Change external link data source
+workbook.worksheets.external_links[0].data_source = "d:\\link.xls"
+
+```
 ### See Also
 
 * module [aspose.cells](../)

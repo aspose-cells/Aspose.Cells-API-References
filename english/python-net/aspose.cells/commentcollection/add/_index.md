@@ -27,6 +27,17 @@ def add(self, cell_name):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | cell_name | str | Cell name. |
+### Example 
+
+
+```
+
+commentIndex2 = comments.add("B2")
+comment2 = comments[commentIndex2]
+comment2.note = "Second note."
+comment2.font.name = "Times New Roman"
+
+```
 
 
 ## add(row, column) {#int-int}
@@ -49,6 +60,17 @@ def add(self, row, column):
 | :- | :- | :- |
 | row | int | Cell row index. |
 | column | int | Cell column index. |
+### Example 
+
+
+```
+
+commentIndex1 = comments.add(0, 0)
+comment1 = comments[commentIndex1]
+comment1.note = "First note."
+comment1.font.name = "Times New Roman"
+
+```
 
 
 

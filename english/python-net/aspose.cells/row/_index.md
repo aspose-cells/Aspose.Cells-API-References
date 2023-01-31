@@ -54,6 +54,45 @@ Gets the cell.
 | [equals(row)](/cells/python-net/aspose.cells/row/equals/#Row) | Checks whether this object refers to the same row with another row object. |
 
 
+### Example 
+
+
+```
+from aspose.cells import BackgroundType, StyleFlag, Workbook
+from aspose.pydrawing import Color
+
+# Instantiating a Workbook object
+workbook = Workbook()
+
+# Obtaining the reference of the first worksheet
+worksheet = workbook.worksheets[0]
+style = workbook.create_style()
+
+# Setting the background color to Blue
+style.background_color = Color.blue
+
+# Setting the foreground color to Red
+style.foreground_color = Color.red
+
+# setting Background Pattern
+style.pattern = BackgroundType.DIAGONAL_STRIPE
+
+# New Style Flag
+styleFlag = StyleFlag()
+
+# Set All Styles
+styleFlag.all = True
+
+# Get first row
+row = worksheet.cells.rows[0]
+
+# Apply Style to first row
+row.apply_style(style, styleFlag)
+
+# Saving the Excel file
+workbook.save("book1.xls")
+
+```
 ### See Also
 
 * module [aspose.cells](../)

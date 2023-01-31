@@ -27,6 +27,17 @@ def is_same_setting(self, obj):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | obj | any |  |
+### Example 
+
+
+```
+
+if shape.is_same_setting(shape):
+    print("Two objects the same.")
+
+
+
+```
 
 
 

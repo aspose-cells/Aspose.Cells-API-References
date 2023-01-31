@@ -16,6 +16,17 @@ Gets or sets the shape's vertical offset from its lower right corner row.
 
 
 The range of value is 0 to 256.
+### Example 
+
+
+```
+
+if shape.lower_delta_y==3:
+    shape.lower_delta_y = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

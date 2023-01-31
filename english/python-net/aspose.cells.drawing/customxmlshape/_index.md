@@ -156,6 +156,29 @@ The CustomXmlShape type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/customxmlshape/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+### Example 
+
+
+```
+from aspose import pycore
+from aspose.cells import Workbook
+from aspose.cells.drawing import MsoDrawingType
+
+# Instantiating a Workbook object
+workbook = Workbook()
+shapes = workbook.worksheets[0].shapes
+
+# add a CustomXmlShape
+# Shape shape = shapes.AddShape(MsoDrawingType.CustomXml, 3, 0, 3, 0, 50, 150);
+# Check if a shape is CustomXmlShape
+customXmlShape = None
+if shapes[0].mso_drawing_type==MsoDrawingType.CUSTOM_XML:
+    # is CustomXmlShape
+    customXmlShape = pycore.cast(Aspose.Cells.Drawing.CustomXmlShape, shapes[0])
+
+
+
+```
 ### See Also
 
 * module [aspose.cells.drawing](../)

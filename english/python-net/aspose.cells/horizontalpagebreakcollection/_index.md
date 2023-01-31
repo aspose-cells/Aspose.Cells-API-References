@@ -39,6 +39,19 @@ The HorizontalPageBreakCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/horizontalpagebreakcollection/binary_search/#HorizontalPageBreak) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+### Example 
+
+
+```
+from aspose.cells import Workbook
+
+excel = Workbook()
+
+# Add a pagebreak at G5
+excel.worksheets[0].horizontal_page_breaks.add("G5")
+excel.worksheets[0].vertical_page_breaks.add("G5")
+
+```
 ### See Also
 
 * module [aspose.cells](../)

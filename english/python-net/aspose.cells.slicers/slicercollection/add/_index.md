@@ -29,6 +29,10 @@ def add(self, pivot, dest_cell_name, base_field_name):
 | pivot | aspose.cells.pivot.PivotTable | PivotTable object |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
 | base_field_name | str | The name of PivotField in PivotTable.BaseFields |
+### Example 
+
+
+`slicers.Add(pivot, "E3", "fruit");`
 
 
 ## add(pivot, dest_cell_name, base_field_index) {#aspose.cells.pivot.PivotTable-str-int}
@@ -52,6 +56,10 @@ def add(self, pivot, dest_cell_name, base_field_index):
 | pivot | aspose.cells.pivot.PivotTable | PivotTable object |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
 | base_field_index | int | The index of PivotField in PivotTable.BaseFields |
+### Example 
+
+
+`slicers.Add(pivot, "E20", 0);`
 
 
 ## add(pivot, dest_cell_name, base_field) {#aspose.cells.pivot.PivotTable-str-aspose.cells.pivot.PivotField}
@@ -75,6 +83,10 @@ def add(self, pivot, dest_cell_name, base_field):
 | pivot | aspose.cells.pivot.PivotTable | PivotTable object |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
 | base_field | aspose.cells.pivot.PivotField | The PivotField in PivotTable.BaseFields |
+### Example 
+
+
+`slicers.Add(pivot, "I3", pivot.BaseFields[0]);`
 
 
 ## add(table, index, dest_cell_name) {#aspose.cells.tables.ListObject-int-str}
@@ -98,6 +110,10 @@ def add(self, table, index, dest_cell_name):
 | table | aspose.cells.tables.ListObject | ListObject object |
 | index | int | The index of ListColumn in ListObject.ListColumns |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
+### Example 
+
+
+`slicers.Add(table, 1, "E38");`
 
 
 ## add(table, list_column, dest_cell_name) {#aspose.cells.tables.ListObject-aspose.cells.tables.ListColumn-str}
@@ -121,6 +137,10 @@ def add(self, table, list_column, dest_cell_name):
 | table | aspose.cells.tables.ListObject | ListObject object |
 | list_column | aspose.cells.tables.ListColumn | The ListColumn in ListObject.ListColumns |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
+### Example 
+
+
+`slicers.Add(table, table.ListColumns[1], "I38");`
 
 
 ## add(pivot, row, column, base_field_name) {#aspose.cells.pivot.PivotTable-int-int-str}
@@ -145,6 +165,10 @@ def add(self, pivot, row, column, base_field_name):
 | row | int | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | int | Column index of the cell in the upper-left corner of the Slicer range. |
 | base_field_name | str | The name of PivotField in PivotTable.BaseFields |
+### Example 
+
+
+`slicers.Add(pivot, 20, 12, "fruit");`
 
 
 ## add(pivot, row, column, base_field_index) {#aspose.cells.pivot.PivotTable-int-int-int}
@@ -169,6 +193,10 @@ def add(self, pivot, row, column, base_field_index):
 | row | int | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | int | Column index of the cell in the upper-left corner of the Slicer range. |
 | base_field_index | int | The index of PivotField in PivotTable.BaseFields |
+### Example 
+
+
+`slicers.Add(pivot, 20, 8, 0);`
 
 
 ## add(pivot, row, column, base_field) {#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField}
@@ -193,6 +221,10 @@ def add(self, pivot, row, column, base_field):
 | row | int | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | int | Column index of the cell in the upper-left corner of the Slicer range. |
 | base_field | aspose.cells.pivot.PivotField | The PivotField in PivotTable.BaseFields |
+### Example 
+
+
+`slicers.Add(pivot, 3, 12, pivot.BaseFields[0]);`
 
 
 ## add(table, list_column, row, column) {#aspose.cells.tables.ListObject-aspose.cells.tables.ListColumn-int-int}
@@ -217,6 +249,10 @@ def add(self, table, list_column, row, column):
 | list_column | aspose.cells.tables.ListColumn | The ListColumn in ListObject.ListColumns |
 | row | int | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | int | Column index of the cell in the upper-left corner of the Slicer range. |
+### Example 
+
+
+`slicers.Add(table, table.ListColumns[1], 38, 12);`
 
 
 

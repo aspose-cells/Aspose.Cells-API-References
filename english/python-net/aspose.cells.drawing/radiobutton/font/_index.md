@@ -12,6 +12,18 @@ is_root: false
 
 
 Represents the font of shape.
+### Example 
+
+
+```
+from aspose.pydrawing import Color
+
+font = shape.font
+font.name = "Arial"
+font.size = 12
+font.color = Color.red
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets Name of the original comment author
+### Example 
+
+
+`comment1.Author = "Carl.Yang";`
 
 ### See Also
 * module [aspose.cells](../../)

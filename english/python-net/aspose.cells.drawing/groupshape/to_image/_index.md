@@ -27,7 +27,18 @@ def to_image(self, stream, image_type):
 ### Remarks
 
 The following formats are supported: 
-.bmp, .gif, .jpg, .jpeg, .tiff, .emf.
+.bmp, .gif, .jpg, .jpeg, .tiff, .emf.### Example 
+
+
+```
+from aspose.cells.drawing import ImageType
+from io import BytesIO
+
+imageStream = BytesIO()
+shape.to_image(imageStream, ImageType.PNG)
+
+```
+
 
 ## to_image(image_file, options) {#str-aspose.cells.rendering.ImageOrPrintOptions}
 
@@ -45,6 +56,16 @@ def to_image(self, image_file, options):
 | :- | :- | :- |
 | image_file | str |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
+### Example 
+
+
+```
+from aspose.cells.rendering import ImageOrPrintOptions
+
+op = ImageOrPrintOptions()
+shape.to_image("exmaple.png", op)
+
+```
 
 
 ## to_image(stream, options) {#io.RawIOBase-aspose.cells.rendering.ImageOrPrintOptions}
@@ -63,6 +84,18 @@ def to_image(self, stream, options):
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
+### Example 
+
+
+```
+from aspose.cells.rendering import ImageOrPrintOptions
+from io import BytesIO
+
+imageStream = BytesIO()
+op = ImageOrPrintOptions()
+shape.to_image(imageStream, op)
+
+```
 
 
 

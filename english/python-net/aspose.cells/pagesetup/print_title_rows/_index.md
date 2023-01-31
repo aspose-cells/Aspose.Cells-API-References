@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the rows that contain the cells to be repeated at the top of each page.
+### Example 
+
+
+```
+
+pageSetup.print_title_rows = "$1:$1"
+pageSetup.print_title_rows = "$1:$1"
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

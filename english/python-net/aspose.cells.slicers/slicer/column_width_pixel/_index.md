@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets or sets the width in unit of pixels for each column of the slicer.
+### Example 
+
+
+`slicer.ColumnWidthPixel = 120;`
 
 ### See Also
 * module [aspose.cells.slicers](../../)

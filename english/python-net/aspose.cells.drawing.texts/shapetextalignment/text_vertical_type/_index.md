@@ -12,6 +12,10 @@ is_root: false
 
 
 Gets and sets the text direction.
+### Example 
+
+
+`shapeTextAlignment.TextVerticalType = Aspose.Cells.Drawing.Texts.TextVerticalType.Horizontal;`
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

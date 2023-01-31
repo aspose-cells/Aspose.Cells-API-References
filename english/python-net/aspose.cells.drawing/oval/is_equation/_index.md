@@ -12,6 +12,17 @@ is_root: false
 
 
 Indicates whether the shape only contains an equation.
+### Example 
+
+
+```
+
+# If true,the shape only contains an equation.
+if shape.is_equation:
+    pass
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

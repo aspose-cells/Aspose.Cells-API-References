@@ -12,6 +12,17 @@ is_root: false
 
 
 Indicates whether shape is relative to original picture size.
+### Example 
+
+
+```
+
+if shape.relative_to_original_picture_size:
+    shape.relative_to_original_picture_size = False
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

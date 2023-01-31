@@ -12,6 +12,10 @@ is_root: false
 
 
 Get the actual bottom row.
+### Example 
+
+
+`int rRow = shape.ActualLowerRightRow;`
 
 ### See Also
 * module [aspose.cells.drawing](../../)

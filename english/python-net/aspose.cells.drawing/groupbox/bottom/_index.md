@@ -12,6 +12,17 @@ is_root: false
 
 
 Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
+### Example 
+
+
+```
+
+if shape.bottom==3:
+    shape.bottom = 1
+
+
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
