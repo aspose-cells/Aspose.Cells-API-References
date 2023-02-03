@@ -12,6 +12,7 @@ is_root: false
 
 Gets the [Column](/cells/python-net/aspose.cells/column) object by the position in the list.
 
+
 ### Returns 
 
 

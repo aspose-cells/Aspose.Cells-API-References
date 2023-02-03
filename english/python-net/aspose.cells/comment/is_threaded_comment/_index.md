@@ -12,14 +12,14 @@ is_root: false
 
 
 Indicates whether this comment is a threaded comment.
+
 ### Example 
 
 
-```
+```python
 
 if comment1.is_threaded_comment:
     pass
-
 
 ```
 

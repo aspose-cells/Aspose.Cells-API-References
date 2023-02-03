@@ -23,11 +23,12 @@ The TableStyle type exposes the following members:
 | [table_style_elements](/cells/python-net/aspose.cells.tables/tablestyle/table_style_elements) | Gets all elements of the table style. |
 
 
+
 ### Example 
 
 
-```
-from aspose.cells import BackgroundType, Workbook
+```python
+from aspose.cells import BackgroundType, CellsHelper, Workbook
 from aspose.cells.tables import TableStyleElementType
 from aspose.pydrawing import Color
 
@@ -53,15 +54,9 @@ element.set_element_style(lastColumnStyle)
 cells = workbook.worksheets[0].cells
 for i in range(5):
     cells.get(0, i).put_value(CellsHelper.column_index_to_name(i))
-
-
 for row in range(1, 10):
     for column in range(5):
-        cells.get(row, column).put_value(row*column)
-
-    
-
-
+        cells.get(row, column).put_value(row * column)
 tables = workbook.worksheets[0].list_objects
 index = tables.add(0, 0, 9, 4, True)
 table = tables[0]

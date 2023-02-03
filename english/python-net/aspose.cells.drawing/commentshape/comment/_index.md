@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets the comment object.
+
 ### Example 
 
 
-`Comment comment = commentShape.Comment;`
+```python
+
+comment = commentShape.comment
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

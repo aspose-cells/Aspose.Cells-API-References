@@ -12,14 +12,14 @@ is_root: false
 
 
 Indicates whether it is a signature line.
+
 ### Example 
 
 
-```
+```python
 
 if s.is_line:
     pass
-
 
 ```
 

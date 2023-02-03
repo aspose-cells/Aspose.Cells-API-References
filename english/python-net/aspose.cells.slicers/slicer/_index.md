@@ -53,10 +53,11 @@ The Slicer type exposes the following members:
 | [refresh()](/cells/python-net/aspose.cells.slicers/slicer/refresh/#) | Refreshing the slicer.Meanwhile, Refreshing and Calculating  relative PivotTables. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.pivot import PivotFieldType, PivotTableStyleType
 from aspose.cells.slicers import SlicerStyleType
@@ -107,7 +108,6 @@ slicer.style_type = SlicerStyleType.SLICER_STYLE_LIGHT2
 items = slicer.slicer_cache.slicer_cache_items
 item = items[0]
 item.selected = False
-
 # do your business
 book.save("out.xlsx")
 

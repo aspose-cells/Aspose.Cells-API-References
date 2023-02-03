@@ -12,6 +12,7 @@ is_root: false
 
 Gets the locale dependent function name according to given standard function name.
 
+
 ### Returns 
 
 

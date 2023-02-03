@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets what the bubble size represents on a bubble chart.
+
 ### Remarks 
 
 

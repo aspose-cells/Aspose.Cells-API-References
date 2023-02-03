@@ -26,6 +26,7 @@ The LightCellsDataHandler type exposes the following members:
 | [process_cell(cell)](/cells/python-net/aspose.cells/lightcellsdatahandler/process_cell/#Cell) | Starts to process one cell. |
 
 
+
 ### Remarks 
 
 

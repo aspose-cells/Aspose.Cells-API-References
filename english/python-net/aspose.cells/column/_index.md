@@ -36,41 +36,33 @@ The Column type exposes the following members:
 | [set_style(style)](/cells/python-net/aspose.cells/column/set_style/#Style) | Sets the style of this column. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook
 from aspose.pydrawing import Color
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # Obtaining the reference of the first worksheet
 worksheet = workbook.worksheets[0]
 style = workbook.create_style()
-
 # Setting the background color to Blue
 style.background_color = Color.blue
-
 # Setting the foreground color to Red
 style.foreground_color = Color.red
-
 # setting Background Pattern
 style.pattern = BackgroundType.DIAGONAL_STRIPE
-
 # New Style Flag
 styleFlag = StyleFlag()
-
 # Set All Styles
 styleFlag.all = True
-
 # Get first Column
 column = worksheet.cells.columns[0]
-
 # Apply Style to first Column
 column.apply_style(style, styleFlag)
-
 # Saving the Excel file
 workbook.save("book1.xls")
 

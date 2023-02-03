@@ -39,22 +39,20 @@ The VbaModuleCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.vba/vbamodulecollection/binary_search/#VbaModule) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.vba import VbaModuleType
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 #  Init VBA project.
 vbaProject = workbook.vba_project
-
 #  Add a new module.
 vbaProject.modules.add(VbaModuleType.CLASS, "test")
-
 # Saving the Excel file
 workbook.save("book1.xlsm")
 

@@ -12,15 +12,14 @@ is_root: false
 
 
 Represents the horizontal offset of shape from its left column, in unit of centimeters.
+
 ### Example 
 
 
-```
+```python
 
-if shape.left_cm==3:
+if shape.left_cm == 3:
     shape.left_cm = 1
-
-
 
 ```
 

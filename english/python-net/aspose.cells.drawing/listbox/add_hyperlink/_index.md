@@ -12,6 +12,7 @@ is_root: false
 
 Adds a hyperlink to the shape.
 
+
 ### Returns 
 
 
@@ -27,10 +28,15 @@ def add_hyperlink(self, address):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | address | str | Address of the hyperlink. |
+
 ### Example 
 
 
-`Aspose.Cells.Hyperlink hyperlink = shape.AddHyperlink("https://www.aspose.com/");`
+```python
+
+hyperlink = shape.add_hyperlink("https://www.aspose.com/")
+
+```
 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents if the insertion of columns is allowed on a protected worksheet
+
 ### Remarks 
 
 

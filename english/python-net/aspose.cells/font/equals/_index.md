@@ -12,6 +12,7 @@ is_root: false
 
 Checks if two fonts are equals.
 
+
 ### Returns 
 
 

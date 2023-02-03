@@ -12,6 +12,7 @@ is_root: false
 
 Gets the string value by specific formatted strategy.
 
+
 ### Returns 
 
 

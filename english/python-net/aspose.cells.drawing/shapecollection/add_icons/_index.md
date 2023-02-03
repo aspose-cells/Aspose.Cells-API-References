@@ -12,6 +12,7 @@ is_root: false
 
 Adds svg image.
 
+
 ### Returns 
 
 
@@ -34,20 +35,19 @@ def add_icons(self, upper_left_row, top, upper_left_column, left, height, width,
 | width | int | The width of shape, in unit of pixel. |
 | image_byte_data | bytes | The image byte data. |
 | compatible_image_data | bytes | Converted image data from svg in order to be compatible with Excel 2016 or lower versions. |
+
 ### Example 
 
 
-```
-from aspose import pycore
+```python
+import aspose.pycore
 
 # add icon
 with open("icon.svg", "rb") as fs:
-    len = pycore.cast(System.Int32, utils.filesize(fs))
-imageData = bytearray(len)
-fs.readinto(imageData)
-picture = shapes.add_svg(4, 0, 5, 0, -1, -1, imageData, None)
-
-
+    len = aspose.pycore.cast(System.Int32, utils.filesize(fs))
+    imageData = bytearray(len)
+    fs.readinto(imageData)
+    picture = shapes.add_svg(4, 0, 5, 0, -1, -1, imageData, None)
 
 ```
 

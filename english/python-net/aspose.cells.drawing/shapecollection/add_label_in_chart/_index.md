@@ -12,6 +12,7 @@ is_root: false
 
 Adds a label to the chart.
 
+
 ### Returns 
 
 

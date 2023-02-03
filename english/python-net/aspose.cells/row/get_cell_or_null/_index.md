@@ -12,6 +12,7 @@ is_root: false
 
 Gets the cell or null in the specific index.
 
+
 ### Returns 
 
 

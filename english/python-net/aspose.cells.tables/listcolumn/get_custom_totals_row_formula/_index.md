@@ -12,6 +12,7 @@ is_root: false
 
 Gets the formula of totals row of this list column.
 
+
 ### Returns 
 
 

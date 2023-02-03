@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets the 3D shape type used with the 3-D bar or column chart.
+
 ### Remarks 
 
 

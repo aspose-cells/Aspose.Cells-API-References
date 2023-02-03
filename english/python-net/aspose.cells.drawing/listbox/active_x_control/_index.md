@@ -12,14 +12,14 @@ is_root: false
 
 
 Gets the ActiveX control.
+
 ### Example 
 
 
-```
-from aspose import pycore
+```python
+import aspose.pycore
 
-checkBox1 = pycore.cast(Aspose.Cells.Drawing.ActiveXControls.CheckBoxActiveXControl, shape.active_x_control)
-
+checkBox1 = aspose.pycore.cast(Aspose.Cells.Drawing.ActiveXControls.CheckBoxActiveXControl, shape.active_x_control)
 # The font name of CheckBox
 fontName = checkBox1.font.name
 

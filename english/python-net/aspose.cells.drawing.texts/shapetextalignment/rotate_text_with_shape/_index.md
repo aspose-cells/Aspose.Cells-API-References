@@ -12,10 +12,15 @@ is_root: false
 
 
 Indicates whether rotating text with shape.
+
 ### Example 
 
 
-`shapeTextAlignment.RotateTextWithShape = true;`
+```python
+
+shapeTextAlignment.rotate_text_with_shape = True
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

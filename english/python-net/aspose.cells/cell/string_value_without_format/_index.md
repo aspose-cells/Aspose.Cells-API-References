@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets cell's value as string without any format.
+
 ### Remarks 
 
 

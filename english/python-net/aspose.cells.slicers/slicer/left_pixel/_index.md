@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
+
 ### Example 
 
 
-`slicer.LeftPixel = 2;`
+```python
+
+slicer.left_pixel = 2
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

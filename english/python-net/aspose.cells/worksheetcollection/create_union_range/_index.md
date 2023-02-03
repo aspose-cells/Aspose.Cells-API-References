@@ -12,6 +12,7 @@ is_root: false
 
 Creates a [Range](/cells/python-net/aspose.cells/range) object from an address of the range.
 
+
 ### Returns 
 
 

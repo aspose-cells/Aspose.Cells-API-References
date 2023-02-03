@@ -12,6 +12,7 @@ is_root: false
 
 Get all cells which reference to this cell directly and need to be updated when this cell is modified.
 
+
 ### Returns 
 
 
@@ -34,6 +35,7 @@ Aspose apologizes for any inconvenience you may have experienced.
 ## get_leafs(recursive) {#bool}
 
 Get all cells which will be updated when this cell is modified.
+
 
 ### Returns 
 

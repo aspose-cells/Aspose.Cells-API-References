@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns the left margin in unit of Points
+
 ### Example 
 
 
-`shapeTextAlignment.LeftMarginPt = 2.0d;`
+```python
+
+shapeTextAlignment.left_margin_pt = 2.0
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

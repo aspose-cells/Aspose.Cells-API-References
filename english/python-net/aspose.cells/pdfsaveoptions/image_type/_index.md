@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the image type when converting the chart and shape .
+
 ### Remarks 
 
 

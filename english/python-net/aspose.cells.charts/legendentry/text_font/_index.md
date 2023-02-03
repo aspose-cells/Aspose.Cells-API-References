@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets a [LegendEntry.font](/cells/python-net/aspose.cells.charts/legendentry#font) object of the specified LegendEntry object.
+
 ### Remarks 
 
 

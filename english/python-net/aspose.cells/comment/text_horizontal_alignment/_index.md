@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets and sets the text horizontal alignment type of the comment.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import TextAlignmentType
 
-if comment1.text_horizontal_alignment==TextAlignmentType.FILL:
+if comment1.text_horizontal_alignment == TextAlignmentType.FILL:
     comment1.text_horizontal_alignment = TextAlignmentType.CENTER
-
-
 
 ```
 

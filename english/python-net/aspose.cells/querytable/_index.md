@@ -27,21 +27,19 @@ The QueryTable type exposes the following members:
 | [adjust_column_width](/cells/python-net/aspose.cells/querytable/adjust_column_width) | Returns or sets the AdjustColumnWidth of the object. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # Obtaining the reference of the first worksheet
 worksheet = workbook.worksheets[0]
-
 # Getting the first query table in the worksheet
 qt = worksheet.query_tables[0]
-
 # Getting display address of the query table.
 address = qt.result_range.address
 

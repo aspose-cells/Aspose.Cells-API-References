@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets and sets the text wrapped type of the shape which contains text.
+
 ### Example 
 
 
-`shapeTextAlignment.IsTextWrapped = true;`
+```python
+
+shapeTextAlignment.is_text_wrapped = True
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

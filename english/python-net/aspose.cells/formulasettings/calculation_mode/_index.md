@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets the mode for workbook calculation in ms excel.
+
 ### Remarks 
 
 

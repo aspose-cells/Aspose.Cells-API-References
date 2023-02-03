@@ -12,6 +12,7 @@ is_root: false
 
 Get the formula of this cell.
 
+
 ### Returns 
 
 

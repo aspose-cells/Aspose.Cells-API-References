@@ -12,6 +12,7 @@ is_root: false
 
 
 Specifies the text qualifier for cell values. Default qualifier is '"'.
+
 ### Remarks 
 
 

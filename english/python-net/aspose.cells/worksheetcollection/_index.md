@@ -72,21 +72,19 @@ The WorksheetCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/worksheetcollection/binary_search/#Worksheet) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
 sheets = workbook.worksheets
-
 # Add a worksheet
 sheets.add()
-
 # Change the name of a worksheet
 sheets[0].name = "First Sheet"
-
 # Set the active sheet to the second worksheet
 sheets.active_sheet_index = 1
 

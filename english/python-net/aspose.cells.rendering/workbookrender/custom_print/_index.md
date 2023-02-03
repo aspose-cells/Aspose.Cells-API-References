@@ -12,6 +12,7 @@ is_root: false
 
 Client can control page setting of printer when print each page using this function.
 
+
 ### Returns 
 
 

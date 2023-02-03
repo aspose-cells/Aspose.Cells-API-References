@@ -12,6 +12,7 @@ is_root: false
 
 Gets the [Row](/cells/python-net/aspose.cells/row) element or at the specified cell row index.
 
+
 ### Returns 
 
 

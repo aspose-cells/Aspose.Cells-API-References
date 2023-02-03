@@ -12,6 +12,7 @@ is_root: false
 
 Gets the influenced range of this setting by given index.
 
+
 ### Returns 
 
 

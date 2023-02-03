@@ -12,6 +12,7 @@ is_root: false
 
 Adds the [SeriesCollection](/cells/python-net/aspose.cells.charts/seriescollection) collection to a chart.
 
+
 ### Returns 
 
 

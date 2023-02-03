@@ -12,6 +12,7 @@ is_root: false
 
 Gets consumption credit
 
+
 ### Returns 
 
 

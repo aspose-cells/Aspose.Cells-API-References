@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the style of this row.
+
 ### Remarks 
 
 

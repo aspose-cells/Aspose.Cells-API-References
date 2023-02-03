@@ -12,6 +12,7 @@ is_root: false
 
 Gets Range object by pre-defined name.
 
+
 ### Returns 
 
 
@@ -35,6 +36,7 @@ def get_range_by_name(self, range_name):
 ## get_range_by_name(range_name, current_sheet_index, include_table) {#str-int-bool}
 
 Gets [Range](/cells/python-net/aspose.cells/range) by pre-defined name or table's name
+
 
 ### Returns 
 

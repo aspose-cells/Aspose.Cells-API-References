@@ -24,28 +24,24 @@ The VbaModule type exposes the following members:
 | [codes](/cells/python-net/aspose.cells.vba/vbamodule/codes) | Gets and sets the codes of module. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.vba import VbaModuleType
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 #  Init VBA project.
 vbaProject = workbook.vba_project
-
 #  Add a new module.
 index = vbaProject.modules.add(VbaModuleType.CLASS, "test")
-
 #  Get vba module
 vbaModule = vbaProject.modules[index]
-
 #  Set codes
 vbaModule.codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub"
-
 # Saving the Excel file
 workbook.save("book1.xlsm")
 

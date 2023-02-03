@@ -26,10 +26,15 @@ def move_to_range(self, upper_left_row, upper_left_column, lower_right_row, lowe
 | upper_left_column | int | Upper left column index. |
 | lower_right_row | int | Lower right row index |
 | lower_right_column | int | Lower right column index |
+
 ### Example 
 
 
-`shape.MoveToRange(12, 3, 13, 5);`
+```python
+
+shape.move_to_range(12, 3, 13, 5)
+
+```
 
 
 

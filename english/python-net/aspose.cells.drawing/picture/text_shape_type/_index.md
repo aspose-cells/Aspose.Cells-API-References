@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets and sets the preset text shape type.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells.drawing import AutoShapeType
 
-if shape.text_shape_type==AutoShapeType.UNKNOWN:
+if shape.text_shape_type == AutoShapeType.UNKNOWN:
     shape.text_shape_type = AutoShapeType.RECTANGLE
-
-
 
 ```
 

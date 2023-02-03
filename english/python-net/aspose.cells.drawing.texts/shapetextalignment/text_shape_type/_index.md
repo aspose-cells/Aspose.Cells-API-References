@@ -12,10 +12,11 @@ is_root: false
 
 
 Gets and set the transform type of text.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells.drawing import AutoShapeType
 
 # Usually do not modify this value unless you know exactly what the modification will result in

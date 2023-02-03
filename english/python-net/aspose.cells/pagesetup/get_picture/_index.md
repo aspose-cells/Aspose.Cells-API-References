@@ -12,6 +12,7 @@ is_root: false
 
 Gets the [Picture](/cells/python-net/aspose.cells.drawing/picture) object of the header / footer.
 
+
 ### Returns 
 
 
@@ -34,6 +35,7 @@ def get_picture(self, is_header, section):
 ## get_picture(is_first, is_even, is_header, section) {#bool-bool-bool-int}
 
 Gets the [Picture](/cells/python-net/aspose.cells.drawing/picture) object of the header / footer.
+
 
 ### Returns 
 

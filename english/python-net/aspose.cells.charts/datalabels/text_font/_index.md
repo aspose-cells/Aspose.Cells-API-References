@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets a [ChartFrame.font](/cells/python-net/aspose.cells.charts/chartframe#font) object of the specified ChartFrame object.
+
 ### Remarks 
 
 

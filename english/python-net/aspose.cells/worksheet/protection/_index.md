@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version.
+
 ### Remarks 
 
 

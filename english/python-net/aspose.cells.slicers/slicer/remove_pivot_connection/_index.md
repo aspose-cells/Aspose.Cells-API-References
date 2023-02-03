@@ -23,10 +23,15 @@ def remove_pivot_connection(self, pivot):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | The PivotTable object |
+
 ### Example 
 
 
-`slicer.RemovePivotConnection(pivot);`
+```python
+
+slicer.remove_pivot_connection(pivot)
+
+```
 
 
 

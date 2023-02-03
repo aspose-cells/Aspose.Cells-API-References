@@ -12,6 +12,7 @@ is_root: false
 
 Returns a Characters object that represents a range of characters within the cell text.
 
+
 ### Returns 
 
 
@@ -30,10 +31,11 @@ def characters(self, start_index, length):
 | length | int | The number of characters. |
 ### Remarks
 
-This method only works on cell with string value.### Example 
+This method only works on cell with string value.
+### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.pydrawing import Color
 

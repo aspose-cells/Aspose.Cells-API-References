@@ -12,15 +12,15 @@ is_root: false
 
 
 Indicates whether the shape only contains an equation.
+
 ### Example 
 
 
-```
+```python
 
 # If true,the shape only contains an equation.
 if shape.is_equation:
     pass
-
 
 ```
 

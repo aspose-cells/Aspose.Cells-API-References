@@ -38,18 +38,17 @@ The VbaProject type exposes the following members:
 | [validate_password(password)](/cells/python-net/aspose.cells.vba/vbaproject/validate_password/#str) | Validates protection password. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 #  Init VBA project.
 vbaProject = workbook.vba_project
-
 # Saving the Excel file
 workbook.save("book1.xlsm")
 

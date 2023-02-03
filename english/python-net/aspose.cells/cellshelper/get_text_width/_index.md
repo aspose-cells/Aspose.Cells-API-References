@@ -12,6 +12,7 @@ is_root: false
 
 Get width of text in unit of points.
 
+
 ### Returns 
 
 

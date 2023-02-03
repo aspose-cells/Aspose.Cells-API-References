@@ -12,6 +12,7 @@ is_root: false
 
 Sets dynamic array formula and make the formula spill into neighboring cells if possible.
 
+
 ### Returns 
 
 
@@ -34,6 +35,7 @@ def set_dynamic_array_formula(self, array_formula, options, calculate_value):
 ## set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value) {#str-FormulaParseOptions-list-bool-bool}
 
 Sets dynamic array formula and make the formula spill into neighboring cells if possible.
+
 
 ### Returns 
 
@@ -59,6 +61,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ## set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts) {#str-FormulaParseOptions-list-bool-bool-CalculationOptions}
 
 Sets dynamic array formula and make the formula spill into neighboring cells if possible.
+
 
 ### Returns 
 

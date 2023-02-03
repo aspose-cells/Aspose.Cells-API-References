@@ -12,6 +12,7 @@ is_root: false
 
 Adds a threaded comment.
 
+
 ### Returns 
 
 
@@ -34,6 +35,7 @@ def add_threaded_comment(self, cell_name, text, author):
 ## add_threaded_comment(row, column, text, author) {#int-int-str-ThreadedCommentAuthor}
 
 Adds a threaded comment.
+
 
 ### Returns 
 

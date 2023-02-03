@@ -38,24 +38,21 @@ The HyperlinkCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/hyperlinkcollection/binary_search/#Hyperlink) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # Obtaining the reference of the newly added worksheet by passing its sheet index
 worksheet = workbook.worksheets[0]
-
 # Get Hyperlinks Collection
 hyperlinks = worksheet.hyperlinks
-
 # Adding a hyperlink to a URL at "A1" cell
 hyperlinks.add("A1", 1, 1, "http://www.aspose.com")
-
 # Saving the Excel file
 workbook.save("book1.xls")
 

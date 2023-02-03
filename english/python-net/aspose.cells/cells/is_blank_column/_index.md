@@ -12,6 +12,7 @@ is_root: false
 
 Checks whether given column is blank(does not contain any data).
 
+
 ### Returns 
 
 

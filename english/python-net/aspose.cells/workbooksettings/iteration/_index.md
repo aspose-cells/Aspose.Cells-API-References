@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether enable iterative calculation to resolve circular references.
+
 ### Remarks 
 
 

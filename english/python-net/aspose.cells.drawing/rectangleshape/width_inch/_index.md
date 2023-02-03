@@ -12,15 +12,14 @@ is_root: false
 
 
 Represents the width of the shape, in unit of inch.
+
 ### Example 
 
 
-```
+```python
 
-if shape.width_inch==3:
+if shape.width_inch == 3:
     shape.width_inch = 1
-
-
 
 ```
 

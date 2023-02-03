@@ -72,24 +72,21 @@ The Range type exposes the following members:
 | [get_offset(row_offset, column_offset)](/cells/python-net/aspose.cells/range/get_offset/#int-int) | Gets [Range](/cells/python-net/aspose.cells/range) range by offset. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 #  Get the first Worksheet Cells.
 cells = workbook.worksheets[0].cells
-
 #  Create a range (A1:D3).
 range = cells.create_range("A1", "D3")
-
 #  Set value to the range.
 range.value = "Hello"
-
 # Save the Excel file
 workbook.save("book1.xlsm")
 

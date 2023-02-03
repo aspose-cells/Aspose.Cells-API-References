@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and set the type of auto fitting row height of merged cells.
+
 ### Remarks 
 
 

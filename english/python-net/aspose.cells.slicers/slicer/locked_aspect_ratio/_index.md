@@ -12,10 +12,15 @@ is_root: false
 
 
 Indicates whether locking aspect ratio.
+
 ### Example 
 
 
-`slicer.LockedAspectRatio = true;`
+```python
+
+slicer.locked_aspect_ratio = True
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

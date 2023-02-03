@@ -13,6 +13,7 @@ is_root: false
 
 Gets or sets whether the cells data model should support Multi-Thread reading.
 Default value of this property is false.
+
 ### Remarks 
 
 

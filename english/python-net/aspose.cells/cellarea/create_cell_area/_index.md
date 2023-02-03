@@ -12,6 +12,7 @@ is_root: false
 
 Creates a cell area.
 
+
 ### Returns 
 
 
@@ -33,6 +34,7 @@ def create_cell_area(self, start_cell_name, end_cell_name):
 ## create_cell_area(start_row, start_column, end_row, end_column) {#int-int-int-int}
 
 Creates a cell area.
+
 
 ### Returns 
 

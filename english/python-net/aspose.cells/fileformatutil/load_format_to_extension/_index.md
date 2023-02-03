@@ -12,6 +12,7 @@ is_root: false
 
 Converts a load format enumerated value into a file extension.
 
+
 ### Returns 
 
 

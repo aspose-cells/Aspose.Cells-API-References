@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets bit depth to apply only when saving pages to the `Tiff` format.
+
 ### Remarks 
 
 

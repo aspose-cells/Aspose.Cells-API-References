@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets the max range which includes data, merged cells and shapes.
+
 ### Remarks 
 
 

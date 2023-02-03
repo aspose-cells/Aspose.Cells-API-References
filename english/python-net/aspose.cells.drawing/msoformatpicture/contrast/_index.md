@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the contrast modification for the picture.in unit of percentage.
+
 ### Remarks 
 
 

@@ -160,10 +160,11 @@ The CheckBox type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/checkbox/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiate a new Workbook.
@@ -171,7 +172,6 @@ excel = Workbook()
 index = excel.worksheets[0].check_boxes.add(15, 15, 20, 100)
 checkBox = excel.worksheets[0].check_boxes[index]
 checkBox.text = "Check Box 1"
-
 # Save the excel file.
 excel.save("checkBox.xlsx")
 

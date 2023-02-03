@@ -13,6 +13,7 @@ is_root: false
 
 Indicates whether updating smart art setting.
 The default value is false.
+
 ### Remarks 
 
 

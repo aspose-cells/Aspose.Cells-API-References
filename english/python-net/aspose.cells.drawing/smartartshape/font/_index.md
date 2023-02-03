@@ -12,10 +12,11 @@ is_root: false
 
 
 Represents the font of shape.
+
 ### Example 
 
 
-```
+```python
 from aspose.pydrawing import Color
 
 font = shape.font

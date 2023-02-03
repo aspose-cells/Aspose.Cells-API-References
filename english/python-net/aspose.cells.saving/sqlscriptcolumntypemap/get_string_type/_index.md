@@ -12,6 +12,7 @@ is_root: false
 
 Gets string type in the database.
 
+
 ### Returns 
 
 

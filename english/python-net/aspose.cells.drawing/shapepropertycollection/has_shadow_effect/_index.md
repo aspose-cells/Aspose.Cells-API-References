@@ -12,6 +12,7 @@ is_root: false
 
 Indicates if the shape has shadow effect data.
 
+
 ### Returns 
 
 

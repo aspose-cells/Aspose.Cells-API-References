@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the number of categories or series between tick-mark labels. Applies only to category and series axes.
+
 ### Remarks 
 
 

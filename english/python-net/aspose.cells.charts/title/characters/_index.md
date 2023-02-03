@@ -12,6 +12,7 @@ is_root: false
 
 Gets rich text formatting of this Title.
 
+
 ### Returns 
 
 
@@ -29,6 +30,7 @@ def characters(self):
 ## characters(start_index, length) {#int-int}
 
 Returns a Characters object that represents a range of characters within the text.
+
 
 ### Returns 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Adds a worksheet to the collection and copies data from an existed worksheet.
 
+
 ### Returns 
 
 
@@ -38,6 +39,7 @@ def add_copy(self, sheet_name):
 ## add_copy(sheet_index) {#int}
 
 Adds a worksheet to the collection and copies data from an existed worksheet.
+
 
 ### Returns 
 

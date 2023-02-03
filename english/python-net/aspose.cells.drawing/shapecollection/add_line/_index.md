@@ -12,6 +12,7 @@ is_root: false
 
 Adds a LineShape to the worksheet.
 
+
 ### Returns 
 
 
@@ -32,10 +33,11 @@ def add_line(self, upper_left_row, top, upper_left_column, left, height, width):
 | left | int | Represents the horizontal offset of LineShape from its left column, in unit of pixel. |
 | height | int | Represents the height of LineShape, in unit of pixel. |
 | width | int | Represents the width of LineShape, in unit of pixel. |
+
 ### Example 
 
 
-```
+```python
 
 #  add a line object
 lineShape = shapes.add_line(1, 0, 1, 0, 100, 50)

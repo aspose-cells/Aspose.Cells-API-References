@@ -12,10 +12,11 @@ is_root: false
 
 
 Gets and the built-in table style.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.tables import TableStyleType
 

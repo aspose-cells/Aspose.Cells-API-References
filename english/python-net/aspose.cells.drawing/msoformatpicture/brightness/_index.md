@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the brightness modification for the picture in unit of percentage.
+
 ### Remarks 
 
 

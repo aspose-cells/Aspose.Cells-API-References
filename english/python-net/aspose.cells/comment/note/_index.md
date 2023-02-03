@@ -12,14 +12,20 @@ is_root: false
 
 
 Represents the content of comment.
+
 ### Remarks 
 
 
 If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+
 ### Example 
 
 
-`comment1.Note = "First note.";`
+```python
+
+comment1.note = "First note."
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

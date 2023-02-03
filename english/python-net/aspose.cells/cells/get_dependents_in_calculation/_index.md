@@ -12,6 +12,7 @@ is_root: false
 
 Gets all cells whose calculated result depends on specific cell.
 
+
 ### Returns 
 
 

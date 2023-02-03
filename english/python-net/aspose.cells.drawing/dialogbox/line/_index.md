@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets line style
+
 ### Example 
 
 
-`Aspose.Cells.Drawing.LineFormat lineFmt = shape.Line;`
+```python
+
+lineFmt = shape.line
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

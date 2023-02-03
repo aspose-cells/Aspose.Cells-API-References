@@ -12,6 +12,7 @@ is_root: false
 
 Gets all pre-defined named ranges in the spreadsheet.
 
+
 ### Returns 
 
 

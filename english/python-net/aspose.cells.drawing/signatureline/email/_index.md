@@ -12,10 +12,11 @@ is_root: false
 
 
 Gets and sets the email of singer.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells.drawing import SignatureLine
 
 #  Create signature line object

@@ -12,6 +12,7 @@ is_root: false
 
 Compares two string values according to certain collation rules.
 
+
 ### Returns 
 
 

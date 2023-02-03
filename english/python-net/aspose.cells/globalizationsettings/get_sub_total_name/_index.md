@@ -12,6 +12,7 @@ is_root: false
 
 Gets the name of [PivotFieldSubtotalType](/cells/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) type in the PivotTable.
 
+
 ### Returns 
 
 

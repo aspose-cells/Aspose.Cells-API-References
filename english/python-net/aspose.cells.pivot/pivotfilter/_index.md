@@ -30,10 +30,11 @@ The PivotFilter type exposes the following members:
 | [evaluation_order](/cells/python-net/aspose.cells.pivot/pivotfilter/evaluation_order) | Gets the Evaluation Order of the pivot filter. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.pivot import PivotFieldType, PivotFilterType, PivotTableStyleType
 
@@ -74,14 +75,12 @@ pivot.add_field_to_area(PivotFieldType.ROW, "fruit")
 pivot.add_field_to_area(PivotFieldType.COLUMN, "year")
 pivot.add_field_to_area(PivotFieldType.DATA, "amount")
 pivot.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM10
-
 # Add PivotFilter
 index = pivot.pivot_filters.add(0, PivotFilterType.COUNT)
 filter = pivot.pivot_filters[index]
 filter.auto_filter.filter_top10(0, False, False, 2)
 pivot.refresh_data()
 pivot.calculate_data()
-
 # do your business
 book.save("out.xlsx")
 

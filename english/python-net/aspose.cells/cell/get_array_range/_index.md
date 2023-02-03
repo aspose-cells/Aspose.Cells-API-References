@@ -12,6 +12,7 @@ is_root: false
 
 Gets the array range if the cell's formula is an array formula.
 
+
 ### Returns 
 
 

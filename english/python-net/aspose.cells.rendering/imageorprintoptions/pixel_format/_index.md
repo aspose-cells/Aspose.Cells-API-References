@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets the pixel format for the generated images.
+
 ### Remarks 
 
 

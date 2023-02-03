@@ -12,6 +12,7 @@ is_root: false
 
 Adds an OleObject to the collection.
 
+
 ### Returns 
 
 
@@ -36,6 +37,7 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 ## add(upper_left_row, upper_left_column, height, width, image_data, linked_file) {#int-int-int-int-bytes-str}
 
 Adds a linked OleObject to the collection.
+
 
 ### Returns 
 

@@ -12,10 +12,15 @@ is_root: false
 
 
 Represents a [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect) object that specifies shadow effect for the chart element or shape.
+
 ### Example 
 
 
-`Aspose.Cells.Drawing.ShadowEffect shadowEffect = shape.ShadowEffect;`
+```python
+
+shadowEffect = shape.shadow_effect
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

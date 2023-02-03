@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether parsing the formula when reading the file.
+
 ### Remarks 
 
 

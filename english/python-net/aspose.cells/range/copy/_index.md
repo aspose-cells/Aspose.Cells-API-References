@@ -23,23 +23,21 @@ def copy(self, range):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | range | [Range](/cells/python-net/aspose.cells/range) | Source [Range](/cells/python-net/aspose.cells/range) object. |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 #  Get the first Worksheet Cells.
 cells = workbook.worksheets[0].cells
 range1 = cells.create_range("A1:A5")
 range2 = cells.create_range("A6:A10")
-
 # Copy the range.
 range1.copy(range2)
-
 # Save the Excel file
 workbook.save("book1.xlsm")
 

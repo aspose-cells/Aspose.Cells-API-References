@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether extend ranges when copying the range to adjacent range.
+
 ### Remarks 
 
 

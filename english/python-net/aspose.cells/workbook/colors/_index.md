@@ -12,6 +12,7 @@ is_root: false
 
 
 Returns colors in the palette for the spreadsheet.
+
 ### Remarks 
 
 

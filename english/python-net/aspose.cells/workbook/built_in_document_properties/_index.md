@@ -12,6 +12,7 @@ is_root: false
 
 
 Returns a [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty) collection that represents all the built-in document properties of the spreadsheet.
+
 ### Remarks 
 
 

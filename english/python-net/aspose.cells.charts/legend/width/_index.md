@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets the width of frame in units of 1/4000 of the chart area.
+
 ### Remarks 
 
 

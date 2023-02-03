@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets a value that indicates whether the Workbook is shared.
+
 ### Remarks 
 
 

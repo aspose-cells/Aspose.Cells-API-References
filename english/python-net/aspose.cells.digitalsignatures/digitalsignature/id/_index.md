@@ -13,6 +13,7 @@ is_root: false
 
 Specifies a GUID which can be cross-referenced with the GUID of the signature line stored in the document content.
 Default value is Empty (all zeroes) Guid.
+
 ### Remarks 
 
 

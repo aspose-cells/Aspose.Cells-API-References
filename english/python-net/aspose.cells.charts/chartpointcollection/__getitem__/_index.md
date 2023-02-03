@@ -18,6 +18,7 @@ Gets the [ChartPoint](/cells/python-net/aspose.cells.charts/chartpoint) element 
 | index | The index of chart point in the series. |
 
 
+
 ### Returns 
 
 

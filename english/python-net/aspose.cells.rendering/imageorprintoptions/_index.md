@@ -68,29 +68,25 @@ The ImageOrPrintOptions type exposes the following members:
 | [set_desired_size(desired_width, desired_height)](/cells/python-net/aspose.cells.rendering/imageorprintoptions/set_desired_size/#int-int) | Sets desired width and height of image. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing import ImageType
 from aspose.cells.rendering import ImageOrPrintOptions
 
 # Set Image Or Print Options
 options = ImageOrPrintOptions()
-
 # Set output image format
 options.image_type = ImageType.PNG
-
 # Set Horizontal resolution
 options.horizontal_resolution = 300
-
 # Set Vertical Resolution
 options.vertical_resolution = 300
-
 # Instantiate Workbook
 book = Workbook("test.xls")
-
 # Save chart as Image using ImageOrPrint Options
 book.worksheets[0].charts[0].to_image("chart.png", options)
 

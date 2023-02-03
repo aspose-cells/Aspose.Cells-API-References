@@ -12,6 +12,7 @@ is_root: false
 
 Gets the name of "Column Labels" label in the PivotTable.
 
+
 ### Returns 
 
 

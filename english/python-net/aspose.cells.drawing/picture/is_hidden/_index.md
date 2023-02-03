@@ -12,10 +12,15 @@ is_root: false
 
 
 Indicates whether the object is visible.
+
 ### Example 
 
 
-`shape.IsHidden = false;`
+```python
+
+shape.is_hidden = False
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

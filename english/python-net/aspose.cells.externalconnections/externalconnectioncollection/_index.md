@@ -36,10 +36,11 @@ The ExternalConnectionCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.externalconnections/externalconnectioncollection/binary_search/#ExternalConnection) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 wb = Workbook("connection.xlsx")
@@ -47,11 +48,8 @@ dataConns = wb.data_connections
 dataConn = None
 for i in range(len(dataConns)):
     dataConn = dataConns[i]
-
     # get external connection id
     print(dataConn.connection_id)
-
-
 
 ```
 ### See Also

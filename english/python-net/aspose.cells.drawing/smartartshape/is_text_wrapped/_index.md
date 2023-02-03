@@ -12,15 +12,14 @@ is_root: false
 
 
 Gets and sets the text wrapped type of the shape which contains text.
+
 ### Example 
 
 
-```
+```python
 
 if shape.is_text_wrapped:
     shape.is_text_wrapped = !shape.is_text_wrapped
-
-
 
 ```
 

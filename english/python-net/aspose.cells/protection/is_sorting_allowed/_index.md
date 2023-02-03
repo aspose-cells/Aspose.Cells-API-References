@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents if the sorting option is allowed on a protected worksheet.
+
 ### Remarks 
 
 

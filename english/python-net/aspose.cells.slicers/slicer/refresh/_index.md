@@ -20,10 +20,15 @@ def refresh(self):
 ```
 
 
+
 ### Example 
 
 
-`slicer.Refresh();`
+```python
+
+slicer.refresh()
+
+```
 
 
 

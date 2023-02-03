@@ -12,16 +12,18 @@ is_root: false
 
 
 Gets or sets the default [Style](/cells/python-net/aspose.cells/style) object of the workbook.
+
 ### Remarks 
 
 
 The DefaultStyle property is useful to implement a Style for the whole Workbook.
+
 ### Example 
 
 
 The following code creates and instantiates a new Workbook and sets a default [Style](/cells/python-net/aspose.cells/style) to it.
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()

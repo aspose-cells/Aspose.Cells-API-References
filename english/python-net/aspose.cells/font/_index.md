@@ -45,35 +45,29 @@ The Font type exposes the following members:
 | [equals(font)](/cells/python-net/aspose.cells/font/equals/#Font) | Checks if two fonts are equals. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.pydrawing import Color
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # Obtaining the reference of the newly added worksheet by passing its sheet index
 worksheet = workbook.worksheets[0]
-
 # Accessing the "A1" cell from the worksheet
 cell = worksheet.cells.get("A1")
-
 # Adding some value to the "A1" cell
 cell.put_value("Hello Aspose!")
 font = cell.get_style().font
-
 # Setting the font name to "Times New Roman"
 font.name = "Times New Roman"
-
 # Setting font size to 14
 font.size = 14
-
 # setting font color as Red
 font.color = Color.red
-
 # Saving the Excel file
 workbook.save(r"dest.xls")
 

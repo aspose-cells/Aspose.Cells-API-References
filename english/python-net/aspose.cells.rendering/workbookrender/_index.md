@@ -45,6 +45,7 @@ The WorkbookRender type exposes the following members:
 | [custom_print(next_page_after_print, print_page_event_args)](/cells/python-net/aspose.cells.rendering/workbookrender/custom_print/#bool-aspose.pydrawing.printing.PrintPageEventArgs) | Client can control page setting of printer when print each page using this function. |
 
 
+
 ### Remarks 
 
 

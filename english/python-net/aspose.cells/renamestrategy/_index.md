@@ -24,6 +24,7 @@ The RenameStrategy type exposes the following members:
 | LETTER | Named with letter.. Duplicated names will become ...A, ...B, etc. |
 
 
+
 ### Remarks 
 
 

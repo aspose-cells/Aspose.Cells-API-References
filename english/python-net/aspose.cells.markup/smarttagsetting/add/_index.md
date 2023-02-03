@@ -12,6 +12,7 @@ is_root: false
 
 Add a cell smart tags.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def add(self, cell_name):
 ## add(row, column) {#int-int}
 
 Adds a [SmartTagCollection](/cells/python-net/aspose.cells.markup/smarttagcollection) object to a cell.
+
 
 ### Returns 
 

@@ -12,15 +12,14 @@ is_root: false
 
 
 Whether or not the text is rich text.
+
 ### Example 
 
 
-```
+```python
 
 if shape.is_rich_text:
     print("The text is rich text.")
-
-
 
 ```
 

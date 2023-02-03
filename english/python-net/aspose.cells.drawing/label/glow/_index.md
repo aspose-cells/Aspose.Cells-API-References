@@ -12,10 +12,15 @@ is_root: false
 
 
 Represents a [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect) object that specifies glow effect for the chart element or shape.
+
 ### Example 
 
 
-`Aspose.Cells.Drawing.GlowEffect glowEffect = shape.Glow;`
+```python
+
+glowEffect = shape.glow
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

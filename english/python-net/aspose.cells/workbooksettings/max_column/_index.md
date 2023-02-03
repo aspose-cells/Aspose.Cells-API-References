@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets the max column index, zero-based.
+
 ### Remarks 
 
 

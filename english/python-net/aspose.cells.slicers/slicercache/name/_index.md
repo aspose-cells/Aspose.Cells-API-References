@@ -12,10 +12,11 @@ is_root: false
 
 
 Returns the name of the slicer cache.
+
 ### Example 
 
 
-```
+```python
 
 # get the name of the slicer cache.
 print(slicerCache.name)

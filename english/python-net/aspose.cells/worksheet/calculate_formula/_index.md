@@ -12,6 +12,7 @@ is_root: false
 
 Calculates a formula.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def calculate_formula(self, formula):
 ## calculate_formula(formula, opts) {#str-CalculationOptions}
 
 Calculates a formula.
+
 
 ### Returns 
 

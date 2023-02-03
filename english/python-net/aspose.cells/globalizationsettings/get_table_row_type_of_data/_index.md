@@ -13,6 +13,7 @@ is_root: false
 Gets the type name of table rows that consists of data region of referenced table.
 Default is "Data", so in formula "#Data" represents the data region of the table.
 
+
 ### Returns 
 
 

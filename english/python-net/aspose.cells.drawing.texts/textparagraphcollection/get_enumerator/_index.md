@@ -12,6 +12,7 @@ is_root: false
 
 Gets the enumerator of the paragraphs.
 
+
 ### Returns 
 
 

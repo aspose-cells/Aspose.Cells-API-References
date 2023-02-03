@@ -12,10 +12,11 @@ is_root: false
 
 
 Gets and sets the name of macro.
+
 ### Example 
 
 
-```
+```python
 
 # Sets the name of macro.
 shape.macro_name = "DoWork()"

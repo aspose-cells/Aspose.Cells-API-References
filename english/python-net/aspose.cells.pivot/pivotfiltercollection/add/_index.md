@@ -12,6 +12,7 @@ is_root: false
 
 Adds a PivotFilter Object to the specific type
 
+
 ### Returns 
 
 

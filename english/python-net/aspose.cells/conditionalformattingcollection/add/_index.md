@@ -12,6 +12,7 @@ is_root: false
 
 Adds a FormatConditions to the collection.
 
+
 ### Returns 
 
 

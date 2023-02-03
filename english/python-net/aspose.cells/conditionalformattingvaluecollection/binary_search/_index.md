@@ -12,6 +12,7 @@ is_root: false
 
 Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element.
 
+
 ### Returns 
 
 

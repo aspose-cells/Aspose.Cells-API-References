@@ -53,10 +53,11 @@ To get those formulas whose calculated results depend on this cell, please use [
 So it is a time consumed process. If user need to trace dependents for lots of cells, using this method will
 cause poor performance. For performance consideration, user should use [Cell.get_dependents_in_calculation(recursive)](/cells/python-net/aspose.cells/cell/get_dependents_in_calculation) instead.
 Or, user may gather precedents map of all cells by [Cell.get_precedents()](/cells/python-net/aspose.cells/cell/get_precedents) firstly,
-and then build the dependents map according to the precedents map.### Example 
+and then build the dependents map according to the precedents map.
+### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
@@ -66,8 +67,6 @@ cells.get("A2").formula = "=IF(TRUE,B2,B1)"
 dependents = cells.get("B1").get_dependents(True)
 for i in range(len(dependents)):
     print(dependents[i].name)
-
-
 
 ```
 

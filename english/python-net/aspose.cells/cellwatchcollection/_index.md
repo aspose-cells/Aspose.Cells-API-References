@@ -43,18 +43,17 @@ The CellWatchCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/cellwatchcollection/binary_search/#CellWatch) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 #  Get the first Worksheet.
 sheet = workbook.worksheets[0]
-
 #  Add Cell Watch Item into the watch window
 sheet.cell_watches.add("B2")
 

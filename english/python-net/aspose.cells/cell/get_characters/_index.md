@@ -13,6 +13,7 @@ is_root: false
 Returns all Characters objects 
 that represents a range of characters within the cell text.
 
+
 ### Returns 
 
 
@@ -31,6 +32,7 @@ def get_characters(self):
 
 Returns all Characters objects 
 that represents a range of characters within the cell text.
+
 
 ### Returns 
 

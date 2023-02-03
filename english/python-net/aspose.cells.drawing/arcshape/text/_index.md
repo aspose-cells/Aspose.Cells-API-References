@@ -12,15 +12,14 @@ is_root: false
 
 
 Represents the string in this TextBox object.
+
 ### Example 
 
 
-```
+```python
 
-if shape.text==None:
+if shape.text == None:
     shape.text = "This is a test."
-
-
 
 ```
 

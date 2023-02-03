@@ -12,6 +12,7 @@ is_root: false
 
 Gets [Cell](/cells/python-net/aspose.cells/cell) object or null in this range.
 
+
 ### Returns 
 
 

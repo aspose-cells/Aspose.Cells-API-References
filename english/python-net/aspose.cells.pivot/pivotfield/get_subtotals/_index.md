@@ -12,6 +12,7 @@ is_root: false
 
 Gets whether the specified field shows that subtotals.
 
+
 ### Returns 
 
 

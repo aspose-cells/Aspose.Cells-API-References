@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets and sets the text orientation type of the shape.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import TextOrientationType
 
-if shape.text_orientation_type==TextOrientationType.NO_ROTATION:
+if shape.text_orientation_type == TextOrientationType.NO_ROTATION:
     shape.text_orientation_type = TextOrientationType.TOP_TO_BOTTOM
-
-
 
 ```
 

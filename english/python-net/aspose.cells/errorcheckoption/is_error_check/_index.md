@@ -12,6 +12,7 @@ is_root: false
 
 Checks whether given error type will be checked.
 
+
 ### Returns 
 
 

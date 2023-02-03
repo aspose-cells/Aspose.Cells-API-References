@@ -12,6 +12,7 @@ is_root: false
 
 Gets the width of the value in unit of pixels.
 
+
 ### Returns 
 
 

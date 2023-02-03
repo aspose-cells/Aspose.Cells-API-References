@@ -12,6 +12,7 @@ is_root: false
 
 
 Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape.
+
 ### Remarks 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets the collection of [Sparkline](/cells/python-net/aspose.cells.charts/sparkline) object.
+
 ### Remarks 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Gets all ranges referred by this name.
 
+
 ### Returns 
 
 
@@ -29,6 +30,7 @@ def get_ranges(self):
 ## get_ranges(recalculate) {#bool}
 
 Gets all ranges referred by this name.
+
 
 ### Returns 
 

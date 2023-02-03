@@ -12,19 +12,19 @@ is_root: false
 
 
 Gets or sets the shape's horizontal  offset from its lower right corner column.
+
 ### Remarks 
 
 
 The range of value is 0 to 1024.
+
 ### Example 
 
 
-```
+```python
 
-if shape.lower_delta_x==3:
+if shape.lower_delta_x == 3:
     shape.lower_delta_x = 1
-
-
 
 ```
 

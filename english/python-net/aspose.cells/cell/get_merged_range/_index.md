@@ -12,6 +12,7 @@ is_root: false
 
 Returns a [Range](/cells/python-net/aspose.cells/range) object which represents a merged range.
 
+
 ### Returns 
 
 

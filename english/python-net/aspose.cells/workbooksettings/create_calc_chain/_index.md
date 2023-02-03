@@ -12,6 +12,7 @@ is_root: false
 
 
 Whether creates calculated formulas chain. Default is false.
+
 ### Remarks 
 
 

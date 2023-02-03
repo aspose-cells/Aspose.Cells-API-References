@@ -56,16 +56,17 @@ The Validation type exposes the following members:
 | [copy(source, copy_option)](/cells/python-net/aspose.cells/validation/copy/#Validation-CopyOptions) | Copy validation. |
 
 
+
 ### Example 
 
 
-```
-from aspose.cells import OperatorType, ValidationType, Workbook
+```python
+from aspose.cells import CellArea, OperatorType, ValidationType, Workbook
 
 workbook = Workbook()
 validations = workbook.worksheets[0].validations
 area = CellArea.create_cell_area(0, 0, 1, 1)
-validation = validations[validations.Add(area)]
+validation = validations[validations.add(area)]
 validation.type = ValidationType.WHOLE_NUMBER
 validation.operator = OperatorType.BETWEEN
 validation.formula1 = "3"

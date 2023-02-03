@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns the right margin in unit of Points
+
 ### Example 
 
 
-`shapeTextAlignment.RightMarginPt = 2.0d;`
+```python
+
+shapeTextAlignment.right_margin_pt = 2.0
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

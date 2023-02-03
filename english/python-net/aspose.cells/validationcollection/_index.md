@@ -40,16 +40,17 @@ The ValidationCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/validationcollection/binary_search/#Validation) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
-from aspose.cells import ValidationType, Workbook
+```python
+from aspose.cells import CellArea, ValidationType, Workbook
 
 workbook = Workbook()
 validations = workbook.worksheets[0].validations
 area = CellArea.create_cell_area(0, 0, 1, 1)
-validation = validations[validations.Add(area)]
+validation = validations[validations.add(area)]
 validation.type = ValidationType.LIST
 validation.formula1 = "a,b,c,d"
 

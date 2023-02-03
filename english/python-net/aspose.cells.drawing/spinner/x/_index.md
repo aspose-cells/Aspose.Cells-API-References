@@ -12,15 +12,14 @@ is_root: false
 
 
 Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels.
+
 ### Example 
 
 
-```
+```python
 
-if shape.x==3:
+if shape.x == 3:
     shape.x = 1
-
-
 
 ```
 

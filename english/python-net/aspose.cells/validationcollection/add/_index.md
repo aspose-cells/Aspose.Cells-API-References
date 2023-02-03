@@ -12,6 +12,7 @@ is_root: false
 
 Adds a data validation to the collection.
 
+
 ### Returns 
 
 
@@ -34,6 +35,7 @@ Aspose apologizes for any inconvenience you may have experienced.
 ## add(ca) {#CellArea}
 
 Adds a data validation to the collection.
+
 
 ### Returns 
 

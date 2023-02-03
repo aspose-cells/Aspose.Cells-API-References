@@ -12,18 +12,19 @@ is_root: false
 
 
 Indicates whether this shape is a word art.
+
 ### Remarks 
 
 
 Only for the Legacy Shape of xls file.
+
 ### Example 
 
 
-```
+```python
 
 if shape.is_word_art:
     pass
-
 
 ```
 

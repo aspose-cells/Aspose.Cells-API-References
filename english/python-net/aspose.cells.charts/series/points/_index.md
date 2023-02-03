@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets the collection of points in a series in a chart.
+
 ### Remarks 
 
 

@@ -29,6 +29,7 @@ def remove_area(self, index):
 
 Remove conditional formatting int the range.
 
+
 ### Returns 
 
 

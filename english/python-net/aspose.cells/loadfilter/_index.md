@@ -36,6 +36,7 @@ The LoadFilter type exposes the following members:
 | [start_sheet(sheet)](/cells/python-net/aspose.cells/loadfilter/start_sheet/#Worksheet) | Prepares filter options before loading given worksheet.<br/>User's implementation of LoadFilter can change the LoadDataFilterOptions here<br/>to denote how to load data for this worksheet. |
 
 
+
 ### Remarks 
 
 

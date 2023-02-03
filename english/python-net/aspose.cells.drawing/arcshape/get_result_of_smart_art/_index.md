@@ -20,10 +20,15 @@ def get_result_of_smart_art(self):
 ```
 
 
+
 ### Example 
 
 
-`Aspose.Cells.Drawing.GroupShape groupShape = shape.GetResultOfSmartArt();`
+```python
+
+groupShape = shape.get_result_of_smart_art()
+
+```
 
 
 

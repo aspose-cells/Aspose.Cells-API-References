@@ -12,6 +12,7 @@ is_root: false
 
 Finds the cell with formula which contains the input string.
 
+
 ### Returns 
 
 

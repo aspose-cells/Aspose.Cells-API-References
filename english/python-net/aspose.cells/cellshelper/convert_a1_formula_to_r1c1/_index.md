@@ -12,6 +12,7 @@ is_root: false
 
 Converts A1 formula of the cell to the r1c1 formula.
 
+
 ### Returns 
 
 

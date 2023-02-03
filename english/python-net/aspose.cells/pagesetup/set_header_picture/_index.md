@@ -12,6 +12,7 @@ is_root: false
 
 Sets an image in the header of a worksheet.
 
+
 ### Returns 
 
 

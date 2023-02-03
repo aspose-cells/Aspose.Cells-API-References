@@ -46,36 +46,31 @@ The FindOptions type exposes the following members:
 | [set_range(ca)](/cells/python-net/aspose.cells/findoptions/set_range/#CellArea) | Sets the searched range. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import CellArea, FindOptions, LookInType, Workbook
 
 # Instantiate the workbook object
 workbook = Workbook("book1.xls")
-
 # Get Cells collection
 cells = workbook.worksheets[0].cells
-
 # Instantiate FindOptions Object
 findOptions = FindOptions()
-
 # Create a Cells Area
 ca = CellArea()
 ca.start_row = 8
 ca.start_column = 2
 ca.end_row = 17
 ca.end_column = 13
-
 # Set cells area for find options
 findOptions.set_range(ca)
-
 # Set searching properties
 findOptions.search_backward = False
 findOptions.seach_order_by_rows = True
 findOptions.look_in_type = LookInType.VALUES
-
 # Find the cell with 0 value
 cell = cells.find(0, None, findOptions)
 

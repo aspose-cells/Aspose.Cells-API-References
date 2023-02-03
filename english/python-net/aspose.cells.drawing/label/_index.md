@@ -156,34 +156,29 @@ The Label type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/label/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing import FillType, PlacementType
 from aspose.pydrawing import Color
 
 # Create a new Workbook.
 workbook = Workbook()
-
 # Get the first worksheet in the workbook.
 sheet = workbook.worksheets[0]
-
 # Add a new label to the worksheet.
 label = sheet.shapes.add_label(2, 0, 2, 0, 60, 120)
-
 # Set the caption of the label.
 label.text = "This is a Label"
-
 # Set the Placement Type, the way the
 # label is attached to the cells.
 label.placement = PlacementType.FREE_FLOATING
-
 # Set the fill color of the label.
 label.fill.fill_type = FillType.SOLID
 label.fill.solid_fill.color = Color.yellow
-
 # Saves the file.
 workbook.save("tstlabel.xls")
 

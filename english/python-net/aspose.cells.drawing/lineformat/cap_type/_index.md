@@ -12,10 +12,16 @@ is_root: false
 
 
 Specifies the ending caps.
+
 ### Example 
 
 
-`lineFmt.CapType = LineCapType.Flat;`
+```python
+from aspose.cells.drawing import LineCapType
+
+lineFmt.cap_type = LineCapType.FLAT
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

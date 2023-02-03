@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets the legend position type.
+
 ### Remarks 
 
 

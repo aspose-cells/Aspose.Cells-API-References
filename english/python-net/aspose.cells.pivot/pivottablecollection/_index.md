@@ -44,10 +44,11 @@ The PivotTableCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.pivot/pivottablecollection/binary_search/#PivotTable) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook
 from aspose.cells.pivot import PivotFieldType, PivotFilterType, PivotTableStyleType
 from aspose.pydrawing import Color
@@ -89,16 +90,13 @@ pivot.add_field_to_area(PivotFieldType.ROW, "fruit")
 pivot.add_field_to_area(PivotFieldType.COLUMN, "year")
 pivot.add_field_to_area(PivotFieldType.DATA, "amount")
 pivot.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM10
-
 # Change PivotField's attributes
 rowField = pivot.row_fields[0]
 rowField.display_name = "custom display name"
-
 # Add PivotFilter
 index = pivot.pivot_filters.add(0, PivotFilterType.COUNT)
 filter = pivot.pivot_filters[index]
 filter.auto_filter.filter_top10(0, False, False, 2)
-
 # Add PivotFormatCondition
 formatIndex = pivot.pivot_format_conditions.add()
 pfc = pivot.pivot_format_conditions[formatIndex]
@@ -111,7 +109,6 @@ fc.operator = OperatorType.GREATER_OR_EQUAL
 fc.style.background_color = Color.red
 pivot.refresh_data()
 pivot.calculate_data()
-
 # do your business
 book.save("out.xlsx")
 

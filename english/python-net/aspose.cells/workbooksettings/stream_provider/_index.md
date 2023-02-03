@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the stream provider for external resource.
+
 ### Remarks 
 
 

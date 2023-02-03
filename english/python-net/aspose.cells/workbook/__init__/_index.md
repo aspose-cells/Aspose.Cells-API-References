@@ -22,11 +22,18 @@ def __init__(self):
 
 ### Remarks
 
-The default file format type is Xlsx. To create other format file type, please use Workbook(FileFormatType).### Example 
+The default file format type is Xlsx. To create other format file type, please use Workbook(FileFormatType).
+### Example 
 
 
 The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
-`Workbook workbook = new Workbook();`
+
+```python
+from aspose.cells import Workbook
+
+workbook = Workbook()
+
+```
 
 
 ## Workbook(file_format_type) {#FileFormatType}
@@ -46,11 +53,18 @@ def __init__(self, file_format_type):
 | file_format_type | [FileFormatType](/cells/python-net/aspose.cells/fileformattype) | The new file format. |
 ### Remarks
 
-The default file format type is Excel97To2003.### Example 
+The default file format type is Excel97To2003.
+### Example 
 
 
 The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
-`Workbook workbook = new Workbook(FileFormatType.Xlsx);`
+
+```python
+from aspose.cells import FileFormatType, Workbook
+
+workbook = Workbook(FileFormatType.XLSX)
+
+```
 
 
 ## Workbook(file) {#str}

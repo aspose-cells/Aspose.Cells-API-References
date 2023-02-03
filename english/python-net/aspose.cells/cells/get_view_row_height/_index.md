@@ -12,6 +12,7 @@ is_root: false
 
 Gets the height of a specified row.
 
+
 ### Returns 
 
 

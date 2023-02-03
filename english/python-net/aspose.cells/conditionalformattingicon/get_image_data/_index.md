@@ -12,6 +12,7 @@ is_root: false
 
 Gets the image data with the setting of cell.
 
+
 ### Returns 
 
 

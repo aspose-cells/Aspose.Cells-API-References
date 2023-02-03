@@ -42,13 +42,14 @@ The TimelineCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.timelines/timelinecollection/binary_search/#Timeline) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import CellsFactory, Workbook
 from aspose.cells.pivot import PivotFieldType, PivotTableStyleType
-from datetime import datetime
+import datetime
 
 book = Workbook()
 sheet = book.worksheets[0]
@@ -58,7 +59,6 @@ cells.get(1, 0).value = "grape"
 cells.get(2, 0).value = "blueberry"
 cells.get(3, 0).value = "kiwi"
 cells.get(4, 0).value = "cherry"
-
 # Create date style
 dateStyle = CellsFactory().create_style()
 dateStyle.custom = "m/d/yyyy"
@@ -67,7 +67,6 @@ cells.get(1, 1).value = datetime(2021, 2, 5)
 cells.get(2, 1).value = datetime(2022, 3, 8)
 cells.get(3, 1).value = datetime(2023, 4, 10)
 cells.get(4, 1).value = datetime(2024, 5, 16)
-
 # Set date style
 cells.get(1, 1).set_style(dateStyle)
 cells.get(2, 1).set_style(dateStyle)
@@ -79,7 +78,6 @@ cells.get(2, 2).value = 60
 cells.get(3, 2).value = 70
 cells.get(4, 2).value = 80
 pivots = sheet.pivot_tables
-
 # Add a PivotTable
 pivotIndex = pivots.add("=Sheet1!A1:C5", "A12", "TestPivotTable")
 pivot = pivots[pivotIndex]
@@ -87,11 +85,9 @@ pivot.add_field_to_area(PivotFieldType.ROW, "fruit")
 pivot.add_field_to_area(PivotFieldType.COLUMN, "date")
 pivot.add_field_to_area(PivotFieldType.DATA, "amount")
 pivot.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM10
-
 # Refresh PivotTable data
 pivot.refresh_data()
 pivot.calculate_data()
-
 # do your business
 book.save("out.xlsx")
 

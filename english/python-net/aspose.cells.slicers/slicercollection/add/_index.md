@@ -12,6 +12,7 @@ is_root: false
 
 Add a new Slicer using PivotTable as data source
 
+
 ### Returns 
 
 
@@ -29,15 +30,21 @@ def add(self, pivot, dest_cell_name, base_field_name):
 | pivot | aspose.cells.pivot.PivotTable | PivotTable object |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
 | base_field_name | str | The name of PivotField in PivotTable.BaseFields |
+
 ### Example 
 
 
-`slicers.Add(pivot, "E3", "fruit");`
+```python
+
+slicers.add(pivot, "E3", "fruit")
+
+```
 
 
 ## add(pivot, dest_cell_name, base_field_index) {#aspose.cells.pivot.PivotTable-str-int}
 
 Add a new Slicer using PivotTable as data source
+
 
 ### Returns 
 
@@ -56,15 +63,21 @@ def add(self, pivot, dest_cell_name, base_field_index):
 | pivot | aspose.cells.pivot.PivotTable | PivotTable object |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
 | base_field_index | int | The index of PivotField in PivotTable.BaseFields |
+
 ### Example 
 
 
-`slicers.Add(pivot, "E20", 0);`
+```python
+
+slicers.add(pivot, "E20", 0)
+
+```
 
 
 ## add(pivot, dest_cell_name, base_field) {#aspose.cells.pivot.PivotTable-str-aspose.cells.pivot.PivotField}
 
 Add a new Slicer using PivotTable as data source
+
 
 ### Returns 
 
@@ -83,15 +96,21 @@ def add(self, pivot, dest_cell_name, base_field):
 | pivot | aspose.cells.pivot.PivotTable | PivotTable object |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
 | base_field | aspose.cells.pivot.PivotField | The PivotField in PivotTable.BaseFields |
+
 ### Example 
 
 
-`slicers.Add(pivot, "I3", pivot.BaseFields[0]);`
+```python
+
+slicers.add(pivot, "I3", pivot.base_fields[0])
+
+```
 
 
 ## add(table, index, dest_cell_name) {#aspose.cells.tables.ListObject-int-str}
 
 Add a new Slicer using ListObjet as data source
+
 
 ### Returns 
 
@@ -110,15 +129,21 @@ def add(self, table, index, dest_cell_name):
 | table | aspose.cells.tables.ListObject | ListObject object |
 | index | int | The index of ListColumn in ListObject.ListColumns |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
+
 ### Example 
 
 
-`slicers.Add(table, 1, "E38");`
+```python
+
+slicers.add(table, 1, "E38")
+
+```
 
 
 ## add(table, list_column, dest_cell_name) {#aspose.cells.tables.ListObject-aspose.cells.tables.ListColumn-str}
 
 Add a new Slicer using ListObjet as data source
+
 
 ### Returns 
 
@@ -137,15 +162,21 @@ def add(self, table, list_column, dest_cell_name):
 | table | aspose.cells.tables.ListObject | ListObject object |
 | list_column | aspose.cells.tables.ListColumn | The ListColumn in ListObject.ListColumns |
 | dest_cell_name | str | The cell in the upper-left corner of the Slicer range. |
+
 ### Example 
 
 
-`slicers.Add(table, table.ListColumns[1], "I38");`
+```python
+
+slicers.add(table, table.list_columns[1], "I38")
+
+```
 
 
 ## add(pivot, row, column, base_field_name) {#aspose.cells.pivot.PivotTable-int-int-str}
 
 Add a new Slicer using PivotTable as data source
+
 
 ### Returns 
 
@@ -165,15 +196,21 @@ def add(self, pivot, row, column, base_field_name):
 | row | int | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | int | Column index of the cell in the upper-left corner of the Slicer range. |
 | base_field_name | str | The name of PivotField in PivotTable.BaseFields |
+
 ### Example 
 
 
-`slicers.Add(pivot, 20, 12, "fruit");`
+```python
+
+slicers.add(pivot, 20, 12, "fruit")
+
+```
 
 
 ## add(pivot, row, column, base_field_index) {#aspose.cells.pivot.PivotTable-int-int-int}
 
 Add a new Slicer using PivotTable as data source
+
 
 ### Returns 
 
@@ -193,15 +230,21 @@ def add(self, pivot, row, column, base_field_index):
 | row | int | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | int | Column index of the cell in the upper-left corner of the Slicer range. |
 | base_field_index | int | The index of PivotField in PivotTable.BaseFields |
+
 ### Example 
 
 
-`slicers.Add(pivot, 20, 8, 0);`
+```python
+
+slicers.add(pivot, 20, 8, 0)
+
+```
 
 
 ## add(pivot, row, column, base_field) {#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField}
 
 Add a new Slicer using PivotTable as data source
+
 
 ### Returns 
 
@@ -221,15 +264,21 @@ def add(self, pivot, row, column, base_field):
 | row | int | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | int | Column index of the cell in the upper-left corner of the Slicer range. |
 | base_field | aspose.cells.pivot.PivotField | The PivotField in PivotTable.BaseFields |
+
 ### Example 
 
 
-`slicers.Add(pivot, 3, 12, pivot.BaseFields[0]);`
+```python
+
+slicers.add(pivot, 3, 12, pivot.base_fields[0])
+
+```
 
 
 ## add(table, list_column, row, column) {#aspose.cells.tables.ListObject-aspose.cells.tables.ListColumn-int-int}
 
 Add a new Slicer using ListObjet as data source
+
 
 ### Returns 
 
@@ -249,10 +298,15 @@ def add(self, table, list_column, row, column):
 | list_column | aspose.cells.tables.ListColumn | The ListColumn in ListObject.ListColumns |
 | row | int | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | int | Column index of the cell in the upper-left corner of the Slicer range. |
+
 ### Example 
 
 
-`slicers.Add(table, table.ListColumns[1], 38, 12);`
+```python
+
+slicers.add(table, table.list_columns[1], 38, 12)
+
+```
 
 
 

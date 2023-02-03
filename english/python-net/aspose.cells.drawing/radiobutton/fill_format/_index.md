@@ -12,6 +12,7 @@ is_root: false
 
 
 Returns a MsoFillFormat object that contains fill formatting properties for the specified shape.
+
 ### Remarks 
 
 

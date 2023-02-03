@@ -12,10 +12,6 @@ is_root: false
 
 
 Gets and set text of the control.
-### Example 
-
-
-`activeXControl.Text = "This is a test.";`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

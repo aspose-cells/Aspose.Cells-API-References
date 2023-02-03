@@ -24,14 +24,14 @@ def replace(self, place_holder, new_value):
 | :- | :- | :- |
 | place_holder | str | Cell placeholder |
 | new_value | str | String value to replace |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
-
 # ......
 workbook.replace("AnOldValue", "NewValue")
 
@@ -54,14 +54,14 @@ def replace(self, place_holder, new_value):
 | :- | :- | :- |
 | place_holder | str | Cell placeholder |
 | new_value | int | Integer value to replace |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
-
 # ......
 newValue = 100
 workbook.replace("AnOldValue", newValue)
@@ -85,14 +85,14 @@ def replace(self, place_holder, new_value):
 | :- | :- | :- |
 | place_holder | str | Cell placeholder |
 | new_value | float | Double value to replace |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
-
 # ......
 newValue = 100.0
 workbook.replace("AnOldValue", newValue)
@@ -153,14 +153,14 @@ def replace(self, place_holder, new_values, is_vertical):
 | place_holder | str | Cell placeholder |
 | new_values | list | String array to replace |
 | is_vertical | bool | True - Vertical, False - Horizontal |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
-
 # ......
 newValues = ["Tom", "Alice", "Jerry"]
 workbook.replace("AnOldValue", newValues, True)
@@ -185,14 +185,14 @@ def replace(self, place_holder, new_values, is_vertical):
 | place_holder | str | Cell placeholder |
 | new_values | list | Integer array to replace |
 | is_vertical | bool | True - Vertical, False - Horizontal |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
-
 # ......
 newValues = [1, 2, 3]
 workbook.replace("AnOldValue", newValues, True)
@@ -217,14 +217,14 @@ def replace(self, place_holder, new_values, is_vertical):
 | place_holder | str | Cell placeholder |
 | new_values | list | Double array to replace |
 | is_vertical | bool | True - Vertical, False - Horizontal |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
-
 # ......
 newValues = [1.23, 2.56, 3.14159]
 workbook.replace("AnOldValue", newValues, True)

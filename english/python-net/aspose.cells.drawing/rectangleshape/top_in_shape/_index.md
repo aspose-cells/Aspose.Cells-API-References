@@ -13,19 +13,19 @@ is_root: false
 
 Represents the vertical offset of shape from the top border of the parent shape, 
 in unit of 1/4000 of height of the parent shape.
+
 ### Remarks 
 
 
 Only Applies when this shape in the group or chart.
+
 ### Example 
 
 
-```
+```python
 
-if shape.top_in_shape==8000:
+if shape.top_in_shape == 8000:
     shape.top_in_shape = 4000
-
-
 
 ```
 

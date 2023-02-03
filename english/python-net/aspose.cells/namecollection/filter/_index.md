@@ -12,6 +12,7 @@ is_root: false
 
 Gets all defined name by scope.
 
+
 ### Returns 
 
 

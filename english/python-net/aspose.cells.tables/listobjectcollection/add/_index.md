@@ -12,6 +12,7 @@ is_root: false
 
 Adds a ListObject to the worksheet.
 
+
 ### Returns 
 
 
@@ -34,6 +35,7 @@ def add(self, start_cell, end_cell, has_headers):
 ## add(start_row, start_column, end_row, end_column, has_headers) {#int-int-int-int-bool}
 
 Adds a ListObject to the worksheet.
+
 
 ### Returns 
 

@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets the chart's plot area which includes axis tick labels.
+
 ### Remarks 
 
 

@@ -12,15 +12,14 @@ is_root: false
 
 
 Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels.
+
 ### Example 
 
 
-```
+```python
 
-if shape.y==3:
+if shape.y == 3:
     shape.y = 1
-
-
 
 ```
 

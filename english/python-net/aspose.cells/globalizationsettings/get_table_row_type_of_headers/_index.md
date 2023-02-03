@@ -13,6 +13,7 @@ is_root: false
 Gets the type name of table rows that consists of the table header.
 Default is "Headers", so in formula "#Headers" represents the table header.
 
+
 ### Returns 
 
 

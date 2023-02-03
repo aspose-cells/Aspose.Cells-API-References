@@ -100,10 +100,11 @@ The WorkbookSettings type exposes the following members:
 | [set_page_orientation_type(page_orientation_type)](/cells/python-net/aspose.cells/workbooksettings/set_page_orientation_type/#PageOrientationType) | Set the type of  print orientation for the whole workbook. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()

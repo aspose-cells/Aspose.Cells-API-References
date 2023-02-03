@@ -12,6 +12,7 @@ is_root: false
 
 Checks if a color is in the palette for the spreadsheet.
 
+
 ### Returns 
 
 

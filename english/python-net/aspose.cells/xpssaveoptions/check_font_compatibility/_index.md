@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether to check font compatibility for every character in text.
+
 ### Remarks 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Detects if a chart's data source has changed.
 
+
 ### Returns 
 
 

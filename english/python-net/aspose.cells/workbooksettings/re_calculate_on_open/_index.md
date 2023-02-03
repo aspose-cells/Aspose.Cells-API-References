@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether re-calculate all formulas on opening file.
+
 ### Remarks 
 
 

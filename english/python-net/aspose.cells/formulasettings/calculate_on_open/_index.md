@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether the application is required to perform a full calculation when the workbook is opened.
+
 ### Remarks 
 
 

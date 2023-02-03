@@ -12,6 +12,7 @@ is_root: false
 
 Returns a Characters object that represents a range of characters within the text.
 
+
 ### Returns 
 
 

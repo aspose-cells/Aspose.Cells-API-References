@@ -12,6 +12,7 @@ is_root: false
 
 Checks whether a column at given index is hidden.
 
+
 ### Returns 
 
 

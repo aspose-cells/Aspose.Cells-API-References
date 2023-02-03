@@ -12,15 +12,14 @@ is_root: false
 
 
 Gets and sets whether shape is vertically flipped .
+
 ### Example 
 
 
-```
+```python
 
-if shape.is_flipped_vertically==False:
+if shape.is_flipped_vertically == False:
     shape.is_flipped_vertically = True
-
-
 
 ```
 

@@ -12,6 +12,7 @@ is_root: false
 
 Gets the named style in the style pool.
 
+
 ### Returns 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Creates a new custom document property of the **PropertyType.String**  data type.
 
+
 ### Returns 
 
 
@@ -33,6 +34,7 @@ def add(self, name, value):
 ## add(name, value) {#str-int}
 
 Creates a new custom document property of the **PropertyType.Number**  data type.
+
 
 ### Returns 
 
@@ -56,6 +58,7 @@ def add(self, name, value):
 
 Creates a new custom document property of the **PropertyType.DateTime**  data type.
 
+
 ### Returns 
 
 
@@ -78,6 +81,7 @@ def add(self, name, value):
 
 Creates a new custom document property of the **PropertyType.Boolean**  data type.
 
+
 ### Returns 
 
 
@@ -99,6 +103,7 @@ def add(self, name, value):
 ## add(name, value) {#str-float}
 
 Creates a new custom document property of the **PropertyType.Float**  data type.
+
 
 ### Returns 
 

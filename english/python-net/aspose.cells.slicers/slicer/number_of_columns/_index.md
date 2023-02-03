@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns or sets the number of columns in the specified slicer.
+
 ### Example 
 
 
-`slicer.NumberOfColumns = 1;`
+```python
+
+slicer.number_of_columns = 1
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

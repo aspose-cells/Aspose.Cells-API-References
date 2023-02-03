@@ -12,6 +12,7 @@ is_root: false
 
 Gets the validation applied to this cell.
 
+
 ### Returns 
 
 

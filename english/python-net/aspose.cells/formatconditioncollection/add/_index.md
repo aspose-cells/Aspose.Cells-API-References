@@ -14,6 +14,7 @@ Adds a formatting condition and effected cell rang to the FormatConditions
 The FormatConditions can contain up to three conditional formats.
 References to the other sheets are not allowed in the formulas of conditional formatting.
 
+
 ### Returns 
 
 

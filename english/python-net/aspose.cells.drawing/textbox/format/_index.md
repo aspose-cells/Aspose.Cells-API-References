@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the setting of the shape's formatting.
+
 ### Remarks 
 
 

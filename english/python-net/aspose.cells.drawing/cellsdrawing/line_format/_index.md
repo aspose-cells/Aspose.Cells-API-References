@@ -12,6 +12,7 @@ is_root: false
 
 
 Returns a MsoLineFormat object that contains line formatting properties for the specified shape.
+
 ### Remarks 
 
 

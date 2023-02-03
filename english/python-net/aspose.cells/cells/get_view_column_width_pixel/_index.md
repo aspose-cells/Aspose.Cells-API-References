@@ -12,6 +12,7 @@ is_root: false
 
 Get the width in different view type.
 
+
 ### Returns 
 
 

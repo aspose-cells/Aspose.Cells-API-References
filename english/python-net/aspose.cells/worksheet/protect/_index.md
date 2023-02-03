@@ -46,21 +46,19 @@ def protect(self, type, password, old_password):
 | old_password | str | If the worksheet is already protected by a password, please supply the old password.<br/>Otherwise, you can set a null value or blank string to this parameter. |
 ### Remarks
 
-This method can protect worksheet in all versions of Excel file.### Example 
+This method can protect worksheet in all versions of Excel file.
+### Example 
 
 
-```
+```python
 from aspose.cells import ProtectionType, Workbook
 
 # Instantiating a Workbook object
 excel = Workbook("template.xlsx")
-
 # Accessing the first worksheet in the Excel file
 worksheet = excel.worksheets[0]
-
 # Protecting the worksheet with a password
 worksheet.protect(ProtectionType.ALL, "aspose", None)
-
 # Saving the modified Excel file in default (that is Excel 20003) format
 excel.save("output.xls")
 

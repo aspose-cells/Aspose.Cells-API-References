@@ -12,6 +12,7 @@ is_root: false
 
 
 Checks if the value of this cell is an error.
+
 ### Remarks 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether the window's title bar should display the document title.
+
 ### Remarks 
 
 

@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets or sets the weight of the line in unit of points.
+
 ### Example 
 
 
-`lineFmt.Weight = 2.0d;`
+```python
+
+lineFmt.weight = 2.0
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

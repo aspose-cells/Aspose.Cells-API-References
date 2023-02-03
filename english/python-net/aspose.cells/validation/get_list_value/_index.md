@@ -12,6 +12,7 @@ is_root: false
 
 Get the value for list of the validation for the specified cell.
 
+
 ### Returns 
 
 

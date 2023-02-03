@@ -12,15 +12,14 @@ is_root: false
 
 
 True if the object is printable
+
 ### Example 
 
 
-```
+```python
 
 if shape.is_printable:
     shape.is_printable = False
-
-
 
 ```
 

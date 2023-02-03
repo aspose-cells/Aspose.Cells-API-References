@@ -18,6 +18,7 @@ Gets the [TextParagraph](/cells/python-net/aspose.cells.drawing.texts/textparagr
 | index | The index. |
 
 
+
 ### Returns 
 
 

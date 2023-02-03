@@ -12,6 +12,7 @@ is_root: false
 
 Check whether the range could be deleted.
 
+
 ### Returns 
 
 

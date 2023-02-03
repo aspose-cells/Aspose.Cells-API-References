@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates if the background of generated image should be transparent.
+
 ### Remarks 
 
 

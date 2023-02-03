@@ -12,15 +12,14 @@ is_root: false
 
 
 Gets the geometry
+
 ### Example 
 
 
-```
+```python
 
-if len(shape.Geometry.ShapeAdjustValues)==0:
+if len(shape.Geometry.ShapeAdjustValues) == 0:
     print("No geometry path.")
-
-
 
 ```
 

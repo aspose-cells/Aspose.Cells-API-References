@@ -12,6 +12,7 @@ is_root: false
 
 Adds an external link.
 
+
 ### Returns 
 
 
@@ -33,6 +34,7 @@ def add(self, file_name, sheet_names):
 ## add(directory_type, file_name, sheet_names) {#DirectoryType-str-list}
 
 Add an external link .
+
 
 ### Returns 
 

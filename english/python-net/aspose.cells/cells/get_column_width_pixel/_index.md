@@ -12,6 +12,7 @@ is_root: false
 
 Gets the width of the specified column in normal view, in units of pixel.
 
+
 ### Returns 
 
 

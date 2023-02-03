@@ -12,6 +12,7 @@ is_root: false
 
 Returns true if the specified password is the same as the write-protection password the file was protected with.
 
+
 ### Returns 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Creates built-in style by given type.
 
+
 ### Returns 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Adds and copy a shape to the worksheet.
 
+
 ### Returns 
 
 
@@ -31,14 +32,14 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 | top | int | Represents the vertical  offset of checkbox from its left row, in unit of pixel. |
 | upper_left_column | int | Upper left column index. |
 | left | int | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
+
 ### Example 
 
 
-```
+```python
 
 # add a shape
 rectangle = shapes.add_rectangle(2, 0, 2, 0, 130, 130)
-
 # copy
 shapes.add_copy(rectangle, 7, 0, 7, 0)
 

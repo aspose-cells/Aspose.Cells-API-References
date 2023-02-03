@@ -156,81 +156,60 @@ The TextBox type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/textbox/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing import MsoLineDashStyle, MsoLineStyle, PlacementType
 from aspose.pydrawing import Color
 
 # Instantiate a new Workbook.
 workbook = Workbook()
-
 # Get the first worksheet in the book.
 worksheet = workbook.worksheets[0]
-
 # Add a new textbox to the collection.
 textboxIndex = worksheet.text_boxes.add(2, 1, 160, 200)
-
 # Get the textbox object.
 textbox0 = worksheet.text_boxes[textboxIndex]
-
 # Fill the text.
 textbox0.text = "ASPOSE______The .NET and JAVA Component Publisher!"
-
 # Set the textbox to adjust it according to its contents.
 textbox0.text_body.text_alignment.auto_size = True
-
 # Set the placement.
 textbox0.placement = PlacementType.FREE_FLOATING
-
 # Set the font color.
 textbox0.font.color = Color.blue
-
 # Set the font to bold.
 textbox0.font.is_bold = True
-
 # Set the font size.
 textbox0.font.size = 14
-
 # Set font attribute to italic.
 textbox0.font.is_italic = True
-
 # Add a hyperlink to the textbox.
 textbox0.add_hyperlink("http://www.aspose.com/")
-
 # Get the filformat of the textbox.
 fillformat = textbox0.fill
-
 # Set the fillcolor.
 fillformat.solid_fill.color = Color.silver
-
 # Get the lineformat type of the textbox.
 lineformat = textbox0.line
-
 # Set the line style.
 lineformat.compound_type = MsoLineStyle.THIN_THICK
-
 # Set the line weight.
 lineformat.weight = 6
-
 # Set the dash style to squaredot.
 lineformat.dash_style = MsoLineDashStyle.SQUARE_DOT
-
 # Add another textbox.
 textboxIndex = worksheet.text_boxes.add(15, 4, 85, 120)
-
 # Get the second textbox.
 textbox1 = worksheet.text_boxes[textboxIndex]
-
 # Input some text to it.
 textbox1.text = "This is another simple text box"
-
 # Set the placement type as the textbox will move and
 # resize with cells.
 textbox1.placement = PlacementType.MOVE_AND_SIZE
-
 # Save the excel file.
 workbook.save("tsttextboxes.xlsx")
 

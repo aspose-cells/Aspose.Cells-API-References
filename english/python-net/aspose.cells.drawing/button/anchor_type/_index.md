@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets and set the shape anchor placeholder.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells.drawing import ShapeAnchorType
 
-if shape.anchor_type==ShapeAnchorType.ONE_CELL_ANCHOR:
+if shape.anchor_type == ShapeAnchorType.ONE_CELL_ANCHOR:
     shape.anchor_type = ShapeAnchorType.TWO_CELL_ANCHOR
-
-
 
 ```
 

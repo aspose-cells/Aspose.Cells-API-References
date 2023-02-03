@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents if the value axis crosses the category axis between categories.
+
 ### Remarks 
 
 

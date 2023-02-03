@@ -47,18 +47,17 @@ The WorkbookDesigner type exposes the following members:
 | [get_smart_markers()](/cells/python-net/aspose.cells/workbookdesigner/get_smart_markers/#) | Returns a collection of smart markers in a spreadsheet. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook, WorkbookDesigner
 
 # Create WorkbookDesigner object.
 wd = WorkbookDesigner()
-
 # Open the template file (which contains smart markers).
 wd.workbook = Workbook("SmartMarker_Designer.xls")
-
 # Initialize your data from data source
 # DataSet ds = new DataSet();
 # ...
@@ -66,7 +65,6 @@ wd.workbook = Workbook("SmartMarker_Designer.xls")
 # wd.SetDataSource(dt);
 # Process the smart markers to fill the data into the worksheets.
 wd.process(True)
-
 # Save the excel file.
 wd.workbook.save("outSmartMarker_Designer.xls")
 

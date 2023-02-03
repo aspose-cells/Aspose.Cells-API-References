@@ -12,10 +12,16 @@ is_root: false
 
 
 Gets and sets the text horizontal overflow type of the text box.
+
 ### Example 
 
 
-`shapeTextAlignment.TextHorizontalOverflow = TextOverflowType.Clip;`
+```python
+from aspose.cells.drawing import TextOverflowType
+
+shapeTextAlignment.text_horizontal_overflow = TextOverflowType.CLIP
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

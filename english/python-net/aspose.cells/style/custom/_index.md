@@ -13,6 +13,7 @@ is_root: false
 
 Represents the custom number format string of this style object.
 If the custom number format is not set(For example, the number format is builtin), "" will be returned.
+
 ### Remarks 
 
 

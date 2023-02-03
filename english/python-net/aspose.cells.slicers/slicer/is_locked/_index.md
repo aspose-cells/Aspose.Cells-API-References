@@ -12,10 +12,15 @@ is_root: false
 
 
 Indicates whether the slicer shape is locked.
+
 ### Example 
 
 
-`slicer.IsLocked = false;`
+```python
+
+slicer.is_locked = False
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

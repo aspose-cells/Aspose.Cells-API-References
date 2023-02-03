@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets and sets the text vertical alignment type of the shape.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import TextAlignmentType
 
-if shape.text_vertical_alignment==TextAlignmentType.BOTTOM:
+if shape.text_vertical_alignment == TextAlignmentType.BOTTOM:
     shape.text_vertical_alignment = TextAlignmentType.CENTER
-
-
 
 ```
 

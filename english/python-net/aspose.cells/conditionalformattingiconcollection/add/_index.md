@@ -29,6 +29,7 @@ def add(self, cficon):
 
 Adds [ConditionalFormattingIcon](/cells/python-net/aspose.cells/conditionalformattingicon) object.
 
+
 ### Returns 
 
 

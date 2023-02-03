@@ -12,10 +12,11 @@ is_root: false
 
 
 Gets the font of comment.
+
 ### Example 
 
 
-```
+```python
 
 font = comment1.font
 font.size = 12

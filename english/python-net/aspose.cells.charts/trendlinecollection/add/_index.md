@@ -12,6 +12,7 @@ is_root: false
 
 Adds a [Trendline](/cells/python-net/aspose.cells.charts/trendline) object to this collection with specified type.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def add(self, type):
 ## add(type, name) {#TrendlineType-str}
 
 Adds a [Trendline](/cells/python-net/aspose.cells.charts/trendline) object to this collection with specified type and name.
+
 
 ### Returns 
 

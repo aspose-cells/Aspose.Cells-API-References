@@ -12,6 +12,7 @@ is_root: false
 
 Convert color to OLE_COLOR
 
+
 ### Returns 
 
 

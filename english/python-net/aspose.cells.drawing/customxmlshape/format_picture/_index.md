@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets and sets the options of the picture format.
+
 ### Example 
 
 
-`Aspose.Cells.Drawing.MsoFormatPicture msoFormatPicture = shape.FormatPicture;`
+```python
+
+msoFormatPicture = shape.format_picture
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

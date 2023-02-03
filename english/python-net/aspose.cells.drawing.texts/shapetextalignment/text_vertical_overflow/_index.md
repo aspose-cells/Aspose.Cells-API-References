@@ -12,10 +12,16 @@ is_root: false
 
 
 Gets and sets the text vertical overflow type of the text box.
+
 ### Example 
 
 
-`shapeTextAlignment.TextVerticalOverflow = TextOverflowType.Clip;`
+```python
+from aspose.cells.drawing import TextOverflowType
+
+shapeTextAlignment.text_vertical_overflow = TextOverflowType.CLIP
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

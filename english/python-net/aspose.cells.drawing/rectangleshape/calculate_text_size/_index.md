@@ -12,6 +12,7 @@ is_root: false
 
 Recalculate the text area
 
+
 ### Returns 
 
 
@@ -24,10 +25,11 @@ def calculate_text_size(self):
 ```
 
 
+
 ### Example 
 
 
-```
+```python
 
 # The size of the text area is:w=size[0],h=size[1]
 size = shape.calculate_text_size()

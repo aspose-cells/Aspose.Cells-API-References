@@ -12,6 +12,7 @@ is_root: false
 
 Get the style of given cell.
 
+
 ### Returns 
 
 

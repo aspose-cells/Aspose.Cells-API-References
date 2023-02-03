@@ -12,6 +12,7 @@ is_root: false
 
 Creates a [Range](/cells/python-net/aspose.cells/range) object from an address of the range.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def create_range(self, address):
 ## create_range(upper_left_cell, lower_right_cell) {#str-str}
 
 Creates a [Range](/cells/python-net/aspose.cells/range) object from a range of cells.
+
 
 ### Returns 
 
@@ -55,6 +57,7 @@ def create_range(self, upper_left_cell, lower_right_cell):
 
 Creates a [Range](/cells/python-net/aspose.cells/range) object from rows of cells or columns of cells.
 
+
 ### Returns 
 
 
@@ -77,6 +80,7 @@ def create_range(self, first_index, number, is_vertical):
 ## create_range(first_row, first_column, total_rows, total_columns) {#int-int-int-int}
 
 Creates a [Range](/cells/python-net/aspose.cells/range) object from a range of cells.
+
 
 ### Returns 
 

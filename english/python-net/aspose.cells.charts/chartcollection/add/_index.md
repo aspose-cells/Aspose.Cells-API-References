@@ -12,6 +12,7 @@ is_root: false
 
 Adds a chart to the collection.
 
+
 ### Returns 
 
 
@@ -36,6 +37,7 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 ## add(type, data_range, top_row, left_column, right_row, bottom_column) {#ChartType-str-int-int-int-int}
 
 Adds a chart to the collection.
+
 
 ### Returns 
 
@@ -68,6 +70,7 @@ Aspose apologizes for any inconvenience you may have experienced.
 
 Adds a chart with preset template.
 
+
 ### Returns 
 
 
@@ -94,6 +97,7 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 ## add(type, data_range, is_vertical, top_row, left_column, right_row, bottom_column) {#ChartType-str-bool-int-int-int-int}
 
 Adds a chart to the collection.
+
 
 ### Returns 
 

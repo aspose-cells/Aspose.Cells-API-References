@@ -14,6 +14,7 @@ Gets the style in the style pool.
 All styles in the workbook will be gathered into a pool.
 There is only a simple reference index in the cells.
 
+
 ### Returns 
 
 

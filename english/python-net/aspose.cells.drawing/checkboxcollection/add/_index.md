@@ -12,6 +12,7 @@ is_root: false
 
 Adds a checkBox to the collection.
 
+
 ### Returns 
 
 

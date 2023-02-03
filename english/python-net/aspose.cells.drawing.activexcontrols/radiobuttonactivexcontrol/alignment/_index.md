@@ -12,10 +12,6 @@ is_root: false
 
 
 Gets and set the position of the Caption relative to the control.
-### Example 
-
-
-`activeXControl.Alignment = Aspose.Cells.Drawing.ActiveXControls.ControlCaptionAlignmentType.Left;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

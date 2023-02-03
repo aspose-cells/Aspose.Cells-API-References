@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets the paths of a custom geometric shape.
+
 ### Example 
 
 
-```
+```python
 
 # Returns non-null if there is a path to the custom geometry
-if shape.paths==None:
+if shape.paths == None:
     print("No custom geometry path.")
-
-
 
 ```
 

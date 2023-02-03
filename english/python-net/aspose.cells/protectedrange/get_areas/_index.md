@@ -12,6 +12,7 @@ is_root: false
 
 Gets all referred areas.
 
+
 ### Returns 
 
 

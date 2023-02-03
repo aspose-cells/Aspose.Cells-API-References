@@ -12,6 +12,7 @@ is_root: false
 
 Refresh auto filters to hide or unhide the rows.
 
+
 ### Returns 
 
 
@@ -29,6 +30,7 @@ def refresh(self):
 ## refresh(hide_rows) {#bool}
 
 Gets all hidden rows' indexes.
+
 
 ### Returns 
 

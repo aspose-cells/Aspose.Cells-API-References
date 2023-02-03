@@ -80,10 +80,11 @@ The PivotField type exposes the following members:
 | [add_calculated_item(name, formula)](/cells/python-net/aspose.cells.pivot/pivotfield/add_calculated_item/#str-str) | Add a calculated item to the pivot field. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.pivot import PivotFieldType, PivotTableStyleType
 
@@ -124,13 +125,11 @@ pivot.add_field_to_area(PivotFieldType.ROW, "fruit")
 pivot.add_field_to_area(PivotFieldType.COLUMN, "year")
 pivot.add_field_to_area(PivotFieldType.DATA, "amount")
 pivot.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM10
-
 # Change PivotField's attributes
 rowField = pivot.row_fields[0]
 rowField.display_name = "custom display name"
 pivot.refresh_data()
 pivot.calculate_data()
-
 # do your business
 book.save("out.xlsx")
 

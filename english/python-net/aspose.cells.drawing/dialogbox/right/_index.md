@@ -12,15 +12,14 @@ is_root: false
 
 
 Represents the width of the shape's horizontal  offset from its lower right corner column, in unit of pixels.
+
 ### Example 
 
 
-```
+```python
 
-if shape.right==3:
+if shape.right == 3:
     shape.right = 1
-
-
 
 ```
 

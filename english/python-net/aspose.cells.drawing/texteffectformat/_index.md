@@ -34,10 +34,11 @@ The TextEffectFormat type exposes the following members:
 | [set_text_effect(effect)](/cells/python-net/aspose.cells.drawing/texteffectformat/set_text_effect/#MsoPresetTextEffect) | Sets the preset text effect. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing import MsoPresetTextEffect
 

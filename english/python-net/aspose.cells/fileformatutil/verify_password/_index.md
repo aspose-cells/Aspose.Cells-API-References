@@ -12,6 +12,7 @@ is_root: false
 
 Detects and returns the information about a format of an excel stored in a stream.
 
+
 ### Returns 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets character separator of sql script.
+
 ### Remarks 
 
 

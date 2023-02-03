@@ -12,6 +12,7 @@ is_root: false
 
 Adds a Shape to the worksheet.
 
+
 ### Returns 
 
 
@@ -35,10 +36,11 @@ def add_shape(self, type, upper_left_row, top, upper_left_column, left, height, 
 | width | int | Represents the width of Shape, in unit of pixel. |
 ### Remarks
 
-The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox### Example 
+The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
+### Example 
 
 
-```
+```python
 from aspose.cells.drawing import MsoDrawingType
 
 # Add a shape of the specified type

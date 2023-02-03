@@ -12,6 +12,7 @@ is_root: false
 
 Gets a copy of the array that contains the list of sources
 
+
 ### Returns 
 
 

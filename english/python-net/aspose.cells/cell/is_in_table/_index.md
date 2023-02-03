@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether this cell is part of table formula.
+
 ### Remarks 
 
 

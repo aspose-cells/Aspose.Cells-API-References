@@ -12,19 +12,19 @@ is_root: false
 
 
 Represents the vertical offset of shape from its top row, in unit of pixels.
+
 ### Remarks 
 
 
 If the shape is in the chart, represents the vertical offset of shape from its top border.
+
 ### Example 
 
 
-```
+```python
 
-if shape.top==3:
+if shape.top == 3:
     shape.top = 1
-
-
 
 ```
 

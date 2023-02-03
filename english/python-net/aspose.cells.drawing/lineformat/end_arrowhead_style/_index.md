@@ -12,10 +12,16 @@ is_root: false
 
 
 Gets and sets the end arrow type of the line.
+
 ### Example 
 
 
-`lineFmt.EndArrowheadStyle = MsoArrowheadStyle.ArrowOpen;`
+```python
+from aspose.cells.drawing import MsoArrowheadStyle
+
+lineFmt.end_arrowhead_style = MsoArrowheadStyle.ARROW_OPEN
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

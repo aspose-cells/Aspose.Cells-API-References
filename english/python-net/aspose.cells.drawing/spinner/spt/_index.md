@@ -12,10 +12,15 @@ is_root: false
 
 
 Specifies an optional number that an application can use to associate the particular shape with a defined shape type.
+
 ### Example 
 
 
-`int spt = shape.Spt;`
+```python
+
+spt = shape.spt
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

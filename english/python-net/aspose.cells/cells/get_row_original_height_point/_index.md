@@ -12,6 +12,7 @@ is_root: false
 
 Gets original row's height in unit of point if the row is hidden
 
+
 ### Returns 
 
 

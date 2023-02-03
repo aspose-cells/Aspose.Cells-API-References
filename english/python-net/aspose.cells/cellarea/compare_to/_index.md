@@ -12,6 +12,7 @@ is_root: false
 
 Compare two CellArea objects according to their top-left corner.
 
+
 ### Returns 
 
 

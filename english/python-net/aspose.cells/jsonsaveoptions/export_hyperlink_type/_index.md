@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the type of exporting hyperlink to json.
+
 ### Remarks 
 
 

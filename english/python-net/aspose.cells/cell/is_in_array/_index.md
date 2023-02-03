@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether the cell formula is an array formula.
+
 ### Remarks 
 
 

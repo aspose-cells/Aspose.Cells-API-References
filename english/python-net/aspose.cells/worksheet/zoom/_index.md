@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the scaling factor in percentage. It should be between 10 and 400.
+
 ### Remarks 
 
 

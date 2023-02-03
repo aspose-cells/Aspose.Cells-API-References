@@ -45,23 +45,21 @@ Gets the formatting condition by index.
 | [remove_condition(index)](/cells/python-net/aspose.cells/formatconditioncollection/remove_condition/#int) | Removes the formatting condition by index. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook
 from aspose.pydrawing import Color
 
 # Create a new Workbook.
 workbook = Workbook()
-
 # Get the first worksheet.
 sheet = workbook.worksheets[0]
-
 # Adds an empty conditional formatting
 index = sheet.conditional_formattings.add()
 fcs = sheet.conditional_formattings[index]
-
 # Sets the conditional format range.
 ca = CellArea()
 ca.start_row = 0
@@ -75,17 +73,13 @@ ca.end_row = 1
 ca.start_column = 1
 ca.end_column = 1
 fcs.add_area(ca)
-
 # Adds condition.
 conditionIndex = fcs.add_condition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "=A2", "100")
-
 # Adds condition.
 conditionIndex2 = fcs.add_condition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "50", "100")
-
 # Sets the background color.
 fc = fcs[conditionIndex]
 fc.style.background_color = Color.red
-
 # Saving the Excel file
 workbook.save("output.xls")
 

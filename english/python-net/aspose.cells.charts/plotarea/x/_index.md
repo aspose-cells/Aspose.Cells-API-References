@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or gets the x coordinate of the upper left corner of plot-area bounding box in units of 1/4000 of the chart area.
+
 ### Remarks 
 
 

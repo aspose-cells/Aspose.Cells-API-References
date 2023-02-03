@@ -83,10 +83,11 @@ The DataLabels type exposes the following members:
 | [characters(start_index, length)](/cells/python-net/aspose.cells.charts/datalabels/characters/#int-int) | Returns a Characters object that represents a range of characters within the text. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.charts import LabelPositionType
 
@@ -95,23 +96,16 @@ wb = Workbook("chart.xlsx")
 chart = wb.worksheets[0].charts[0]
 for i in range(len(chart.NSeries)):
     datalabels = chart.n_series[i].data_labels
-
     # Set the position of DataLabels
     datalabels.position = LabelPositionType.INSIDE_BASE
-
     # Show the category name in the DataLabels
     datalabels.show_category_name = True
-
     # Show the value in the DataLabels
     datalabels.show_value = True
-
     # Not show the percentage in the DataLabels
     datalabels.show_percentage = False
-
     # Not show the legend key.
     datalabels.show_legend_key = False
-
-
 
 ```
 ### See Also

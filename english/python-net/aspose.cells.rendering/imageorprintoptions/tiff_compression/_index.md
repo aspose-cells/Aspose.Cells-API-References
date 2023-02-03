@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets the type of compression to apply only when saving pages to the `Tiff` format.
+
 ### Remarks 
 
 

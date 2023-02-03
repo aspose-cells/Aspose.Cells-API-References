@@ -12,6 +12,7 @@ is_root: false
 
 Returns a Characters object that represents a range of characters within the comment text.
 
+
 ### Returns 
 
 
@@ -28,10 +29,15 @@ def characters(self, start_index, length):
 | :- | :- | :- |
 | start_index | int | The index of the start of the character. |
 | length | int | The number of characters. |
+
 ### Example 
 
 
-`Aspose.Cells.FontSetting fontSetting = comment1.Characters(0, 4);`
+```python
+
+fontSetting = comment1.characters(0, 4)
+
+```
 
 
 

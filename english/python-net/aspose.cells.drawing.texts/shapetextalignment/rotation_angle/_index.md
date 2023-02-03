@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets and sets the rotation of the shape.
+
 ### Example 
 
 
-`shapeTextAlignment.RotationAngle = 90;`
+```python
+
+shapeTextAlignment.rotation_angle = 90
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

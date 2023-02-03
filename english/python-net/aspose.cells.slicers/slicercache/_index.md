@@ -26,10 +26,11 @@ The SlicerCache type exposes the following members:
 | [source_name](/cells/python-net/aspose.cells.slicers/slicercache/source_name) | Returns the name of cache field |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.pivot import PivotFieldType, PivotTableStyleType
 from aspose.cells.slicers import SlicerStyleType
@@ -77,10 +78,8 @@ slicers = sheet.slicers
 slicerIndex = slicers.add(pivot, "E12", "fruit")
 slicer = slicers[slicerIndex]
 slicer.style_type = SlicerStyleType.SLICER_STYLE_LIGHT2
-
 # Get SlicerCache object of current slicer
 slicerCache = slicer.slicer_cache
-
 # do your business
 book.save("out.xlsx")
 

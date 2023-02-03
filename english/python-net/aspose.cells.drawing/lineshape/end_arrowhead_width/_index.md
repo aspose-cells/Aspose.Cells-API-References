@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the end arrow head width of the line.
+
 ### Remarks 
 
 

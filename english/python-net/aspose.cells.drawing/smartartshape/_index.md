@@ -156,30 +156,24 @@ The SmartArtShape type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/smartartshape/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing import MsoDrawingType
 
 # Initialize a new workbook.
 book = Workbook("YourFile.xlsx")
-
 # Gets a SmartArt shape.
 shape = None
 shapes = book.worksheets[0].shapes
 for s in shapes:
-    if s.mso_drawing_type==MsoDrawingType.SMART_ART:
+    if s.mso_drawing_type == MsoDrawingType.SMART_ART:
         # is SmartArt Shape
         # do what you want
         break
-        
-
-    
-
-
-
 # do your business
 # Save the excel file.
 book.save("exmaple.xlsx")

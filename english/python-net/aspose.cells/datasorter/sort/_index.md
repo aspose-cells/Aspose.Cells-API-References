@@ -12,6 +12,7 @@ is_root: false
 
 Sort the data in the range.
 
+
 ### Returns 
 
 
@@ -30,6 +31,7 @@ def sort(self):
 ## sort(cells, area) {#Cells-CellArea}
 
 Sort the data of the area.
+
 
 ### Returns 
 
@@ -53,6 +55,7 @@ def sort(self, cells, area):
 ## sort(cells, start_row, start_column, end_row, end_column) {#Cells-int-int-int-int}
 
 Sorts the data of the area.
+
 
 ### Returns 
 

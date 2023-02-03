@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates if the searched string is case sensitive.
+
 ### Remarks 
 
 

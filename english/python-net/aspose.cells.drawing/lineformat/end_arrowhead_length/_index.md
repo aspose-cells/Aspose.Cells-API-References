@@ -12,10 +12,16 @@ is_root: false
 
 
 Gets and sets the end arrow length type of the line.
+
 ### Example 
 
 
-`lineFmt.EndArrowheadLength = MsoArrowheadLength.Long;`
+```python
+from aspose.cells.drawing import MsoArrowheadLength
+
+lineFmt.end_arrowhead_length = MsoArrowheadLength.LONG
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

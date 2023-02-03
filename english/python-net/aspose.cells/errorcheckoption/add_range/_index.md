@@ -12,6 +12,7 @@ is_root: false
 
 Adds one influenced range by this setting.
 
+
 ### Returns 
 
 

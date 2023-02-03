@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+
 ### Remarks 
 
 

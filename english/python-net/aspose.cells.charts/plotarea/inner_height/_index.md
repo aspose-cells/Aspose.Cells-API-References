@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets the height of plot area in units of 1/4000 of the chart area.
+
 ### Remarks 
 
 

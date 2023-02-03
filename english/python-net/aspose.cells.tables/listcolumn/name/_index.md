@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the name of the column.
+
 ### Remarks 
 
 

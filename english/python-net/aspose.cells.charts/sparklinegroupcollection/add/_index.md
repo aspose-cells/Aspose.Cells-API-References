@@ -12,6 +12,7 @@ is_root: false
 
 Adds an [SparklineGroup](/cells/python-net/aspose.cells.charts/sparklinegroup) item to the collection.
 
+
 ### Returns 
 
 

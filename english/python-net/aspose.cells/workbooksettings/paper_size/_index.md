@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the default print paper size.
+
 ### Remarks 
 
 

@@ -12,14 +12,14 @@ is_root: false
 
 
 Indicates whether comments could be attached.
+
 ### Example 
 
 
-```
+```python
 
 if s.allow_comments:
     pass
-
 
 ```
 

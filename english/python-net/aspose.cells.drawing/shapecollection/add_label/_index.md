@@ -12,6 +12,7 @@ is_root: false
 
 Adds a Label to the worksheet.
 
+
 ### Returns 
 
 
@@ -32,10 +33,11 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 | left | int | Represents the horizontal offset of Label from its left column, in unit of pixel. |
 | height | int | Represents the height of Label, in unit of pixel. |
 | width | int | Represents the width of Label, in unit of pixel. |
+
 ### Example 
 
 
-```
+```python
 
 # add a label
 label = shapes.add_label(1, 0, 1, 0, 100, 50)

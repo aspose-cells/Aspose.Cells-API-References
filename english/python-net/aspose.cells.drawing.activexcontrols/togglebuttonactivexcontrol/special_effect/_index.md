@@ -12,10 +12,6 @@ is_root: false
 
 
 Gets and sets the special effect of the control.
-### Example 
-
-
-`activeXControl.SpecialEffect = Aspose.Cells.Drawing.ActiveXControls.ControlSpecialEffectType.Bump;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

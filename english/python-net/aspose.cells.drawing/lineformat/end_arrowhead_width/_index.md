@@ -12,10 +12,16 @@ is_root: false
 
 
 Gets and sets the end arrow width type of the line.
+
 ### Example 
 
 
-`lineFmt.EndArrowheadWidth = MsoArrowheadWidth.Medium;`
+```python
+from aspose.cells.drawing import MsoArrowheadWidth
+
+lineFmt.end_arrowhead_width = MsoArrowheadWidth.MEDIUM
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

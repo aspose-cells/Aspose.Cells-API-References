@@ -12,6 +12,7 @@ is_root: false
 
 Gets selected ranges of cells in the designer spreadsheet.
 
+
 ### Returns 
 
 

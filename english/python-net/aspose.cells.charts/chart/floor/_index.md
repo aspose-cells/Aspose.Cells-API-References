@@ -12,6 +12,7 @@ is_root: false
 
 
 Returns a [Chart.floor](/cells/python-net/aspose.cells.charts/chart#floor) object that represents the walls of a 3-D chart.
+
 ### Remarks 
 
 

@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets and sets the auto shape type.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells.drawing import AutoShapeType
 
-if shape.auto_shape_type==AutoShapeType.UNKNOWN:
+if shape.auto_shape_type == AutoShapeType.UNKNOWN:
     shape.auto_shape_type = AutoShapeType.RECTANGLE
-
-
 
 ```
 

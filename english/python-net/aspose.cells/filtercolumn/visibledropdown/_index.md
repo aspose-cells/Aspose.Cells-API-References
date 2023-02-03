@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether the AutoFilter button for this column is visible.
+
 ### Remarks 
 
 

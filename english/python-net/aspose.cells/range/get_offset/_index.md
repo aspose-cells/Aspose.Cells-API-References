@@ -12,6 +12,7 @@ is_root: false
 
 Gets [Range](/cells/python-net/aspose.cells/range) range by offset.
 
+
 ### Returns 
 
 

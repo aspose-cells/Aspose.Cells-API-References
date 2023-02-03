@@ -175,25 +175,22 @@ The Picture type exposes the following members:
 | [move(upper_left_row, upper_left_column)](/cells/python-net/aspose.cells.drawing/picture/move/#int-int) | Moves the picture to a specified location. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import SaveFormat, Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # Adding a new worksheet to the Workbook object
 sheetIndex = workbook.worksheets.add()
-
 # Obtaining the reference of the newly added worksheet by passing its sheet index
 worksheet = workbook.worksheets[sheetIndex]
-
 # Adding a picture at the location of a cell whose row and column indices
 # are 5 in the worksheet. It is "F6" cell
 worksheet.pictures.add(5, 5, "image.gif")
-
 # Saving the Excel file
 workbook.save("book1.xls", SaveFormat.EXCEL_97_TO_2003)
 

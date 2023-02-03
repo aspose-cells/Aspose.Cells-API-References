@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns or sets the height, in points, of each row in the specified slicer.
+
 ### Example 
 
 
-`slicer.RowHeight = 20;`
+```python
+
+slicer.row_height = 20
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

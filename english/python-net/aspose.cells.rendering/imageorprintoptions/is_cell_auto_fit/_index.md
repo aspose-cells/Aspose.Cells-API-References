@@ -13,6 +13,7 @@ is_root: false
 
 Indicates whether the width and height of the cells is automatically fitted by cell value. 
 The default value is false.
+
 ### Remarks 
 
 

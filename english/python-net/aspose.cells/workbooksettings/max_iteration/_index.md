@@ -12,6 +12,7 @@ is_root: false
 
 
 Returns or sets the maximum number of iterations to resolve a circular reference.
+
 ### Remarks 
 
 

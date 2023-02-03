@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and set the color which should apply to cell or shape.
+
 ### Remarks 
 
 

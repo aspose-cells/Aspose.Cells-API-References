@@ -175,55 +175,42 @@ The OleObject type exposes the following members:
 | [set_native_source_full_name(source_full_name)](/cells/python-net/aspose.cells.drawing/oleobject/set_native_source_full_name/#str) | Sets the ole native source full file name with path. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiate a new Workbook.
 workbook = Workbook()
-
 # Get the first worksheet.
 sheet = workbook.worksheets[0]
-
 # Define a string variable to store the image path.
 ImageUrl = "school.jpg"
-
 # Get the picture into the streams.
 fs = open(ImageUrl, "rb")
-
 # Define a byte array.
 imageData = bytearray(utils.filesize(fs))
-
 # Obtain the picture into the array of bytes from streams.
 fs.readinto(imageData)
-
 # Close the stream.
 fs.close()
-
 # Get an excel file path in a variable.
 path = "Book1.xls"
-
 # Get the file into the streams.
 fs = open(path, "rb")
-
 # Define an array of bytes.
 objectData = bytearray(utils.filesize(fs))
-
 # Store the file from streams.
 fs.readinto(objectData)
-
 # Close the stream.
 fs.close()
-
 # Add an Ole object into the worksheet with the image
 # shown in MS Excel.
 sheet.ole_objects.add(14, 3, 200, 220, imageData)
-
 # Set embedded ole object data.
 sheet.ole_objects[0].object_data = objectData
-
 # Save the excel file
 workbook.save(r"oleobjects.xls")
 

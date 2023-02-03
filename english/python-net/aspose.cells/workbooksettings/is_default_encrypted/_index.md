@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked.
+
 ### Remarks 
 
 

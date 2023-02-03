@@ -12,6 +12,7 @@ is_root: false
 
 Returns the union of two ranges.
 
+
 ### Returns 
 
 

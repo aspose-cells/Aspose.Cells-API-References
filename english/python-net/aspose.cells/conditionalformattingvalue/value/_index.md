@@ -13,6 +13,7 @@ is_root: false
 
 Get or set the value of this conditional formatting value object.
 It should be used in conjunction with Type.
+
 ### Remarks 
 
 

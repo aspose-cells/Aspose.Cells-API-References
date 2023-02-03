@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents the base unit scale for the category axis.
+
 ### Remarks 
 
 

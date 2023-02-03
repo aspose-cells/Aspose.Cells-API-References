@@ -38,6 +38,7 @@ Gets the data stored in the column specified by index.
 | [next()](/cells/python-net/aspose.cells/icellsdatatable/next/#) | Moves the cursor down one row from its current position. |
 
 
+
 ### Remarks 
 
 

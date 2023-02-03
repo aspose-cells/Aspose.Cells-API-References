@@ -12,10 +12,16 @@ is_root: false
 
 
 Specifies the line dash type.
+
 ### Example 
 
 
-`lineFmt.DashStyle = MsoLineDashStyle.Solid;`
+```python
+from aspose.cells.drawing import MsoLineDashStyle
+
+lineFmt.dash_style = MsoLineDashStyle.SOLID
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

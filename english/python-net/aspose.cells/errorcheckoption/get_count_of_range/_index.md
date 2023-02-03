@@ -12,6 +12,7 @@ is_root: false
 
 Gets the count of ranges that influenced by this setting.
 
+
 ### Returns 
 
 

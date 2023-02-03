@@ -12,6 +12,7 @@ is_root: false
 
 Gets the last cell in this column.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def end_cell_in_column(self, column_index):
 ## end_cell_in_column(start_row, end_row, start_column, end_column) {#int-int-int-int}
 
 Gets the last cell with maximum column index in this range.
+
 
 ### Returns 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Implement this method to do business when calculating formulas with circular references.
 
+
 ### Returns 
 
 

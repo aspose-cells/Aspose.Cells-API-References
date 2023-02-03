@@ -12,6 +12,7 @@ is_root: false
 
 Indicates whether the range is intersect.
 
+
 ### Returns 
 
 

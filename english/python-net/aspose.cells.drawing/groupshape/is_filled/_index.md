@@ -12,15 +12,14 @@ is_root: false
 
 
 Indicates whether the fill format is visible.
+
 ### Example 
 
 
-```
+```python
 
-if shape.is_filled==False:
+if shape.is_filled == False:
     shape.is_filled = True
-
-
 
 ```
 

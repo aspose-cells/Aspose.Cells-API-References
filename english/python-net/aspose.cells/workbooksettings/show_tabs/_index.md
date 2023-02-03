@@ -12,16 +12,18 @@ is_root: false
 
 
 Get or sets a value whether the Workbook tabs are displayed.
+
 ### Remarks 
 
 
 The default value is true.
+
 ### Example 
 
 
 The following code hides the Sheet Tabs and Tab Scrolling Buttons for the spreadsheet.
 
-```
+```python
 
 #  Hide the spreadsheet tabs.
 workbook.settings.show_tabs = False

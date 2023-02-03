@@ -12,6 +12,7 @@ is_root: false
 
 Add a format condition.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def add_condition(self, type):
 ## add_condition(type, operator_type, formula1, formula2) {#FormatConditionType-OperatorType-str-str}
 
 Adds a formatting condition.
+
 
 ### Returns 
 

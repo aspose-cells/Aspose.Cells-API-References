@@ -12,6 +12,7 @@ is_root: false
 
 Gets all cells whose calculated result depends on this cell.
 
+
 ### Returns 
 
 
@@ -31,10 +32,11 @@ def get_dependents_in_calculation(self, recursive):
 
 To use this method, please make sure the workbook has been set with true value for
 [FormulaSettings.enable_calculation_chain](/cells/python-net/aspose.cells/formulasettings#enable_calculation_chain) and has been fully calculated with this setting.
-If there is no formula reference to this cell, null will be returned.### Example 
+If there is no formula reference to this cell, null will be returned.
+### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
@@ -47,14 +49,10 @@ en = cells.get("B1").get_dependents_in_calculation(False)
 print("B1's calculation dependents:")
 for c in en:
     print(c.name)
-
-
 en = cells.get("B2").get_dependents_in_calculation(False)
 print("B2's calculation dependents:")
 for c in en:
     print(c.name)
-
-
 
 ```
 

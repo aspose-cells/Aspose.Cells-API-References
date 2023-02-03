@@ -12,10 +12,16 @@ is_root: false
 
 
 Specifies the line compound type.
+
 ### Example 
 
 
-`lineFmt.CompoundType = MsoLineStyle.Single;`
+```python
+from aspose.cells.drawing import MsoLineStyle
+
+lineFmt.compound_type = MsoLineStyle.SINGLE
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

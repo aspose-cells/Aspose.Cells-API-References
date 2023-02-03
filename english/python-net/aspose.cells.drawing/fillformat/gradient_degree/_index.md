@@ -13,6 +13,7 @@ is_root: false
 
 Returns the gradient degree for the specified fill.
 Only applies for Excel 2007.
+
 ### Remarks 
 
 

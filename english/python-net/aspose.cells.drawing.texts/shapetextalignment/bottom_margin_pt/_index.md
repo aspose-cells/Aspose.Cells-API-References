@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns the bottom margin in unit of Points
+
 ### Example 
 
 
-`shapeTextAlignment.BottomMarginPt = 2.0d;`
+```python
+
+shapeTextAlignment.bottom_margin_pt = 2.0
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

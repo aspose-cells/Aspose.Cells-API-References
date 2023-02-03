@@ -12,6 +12,7 @@ is_root: false
 
 Group the shapes.
 
+
 ### Returns 
 
 
@@ -30,14 +31,14 @@ def group(self, group_items):
 ### Remarks
 
 The shape in the groupItems should not be grouped.
-The shape must be in this Shapes collection.### Example 
+The shape must be in this Shapes collection.
+### Example 
 
 
-```
+```python
 
 # add first shape
 shapes.add_rectangle(2, 0, 2, 0, 50, 50)
-
 # add second shape
 shapes.add_rectangle(6, 0, 2, 0, 30, 30)
 shapesArr = [shapes[0], shapes[1]]

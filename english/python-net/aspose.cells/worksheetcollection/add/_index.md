@@ -12,6 +12,7 @@ is_root: false
 
 Adds a worksheet to the collection.
 
+
 ### Returns 
 
 
@@ -30,6 +31,7 @@ def add(self):
 
 Adds a worksheet to the collection.
 
+
 ### Returns 
 
 
@@ -45,10 +47,11 @@ def add(self, type):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | type | [SheetType](/cells/python-net/aspose.cells/sheettype) | Worksheet type. |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import SheetType, Workbook
 from aspose.cells.charts import ChartType
 
@@ -71,6 +74,7 @@ chart.n_series.add("Sheet1!C2:C6", True)
 ## add(sheet_name) {#str}
 
 Adds a worksheet to the collection.
+
 
 ### Returns 
 

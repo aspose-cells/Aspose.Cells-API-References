@@ -12,6 +12,7 @@ is_root: false
 
 Gets the [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection) element with the specified id.
 
+
 ### Returns 
 
 

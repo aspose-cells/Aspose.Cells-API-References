@@ -13,6 +13,7 @@ is_root: false
 
 Gets or sets the horizontal resolution for generated images, in dots per inch.
 Applies generating image method except Emf format images.
+
 ### Remarks 
 
 

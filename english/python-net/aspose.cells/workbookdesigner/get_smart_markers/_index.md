@@ -12,6 +12,7 @@ is_root: false
 
 Returns a collection of smart markers in a spreadsheet.
 
+
 ### Returns 
 
 

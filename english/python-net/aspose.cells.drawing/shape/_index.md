@@ -151,18 +151,17 @@ The Shape type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/shape/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Initialize a new workbook.
 book = Workbook()
-
 # Add a shape.(e.g rectangle)
 shape = book.worksheets[0].shapes.add_rectangle(2, 0, 2, 0, 130, 130)
-
 # do your business
 # Save the excel file.
 book.save("exmaple.xlsx")

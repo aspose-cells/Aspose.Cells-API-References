@@ -38,21 +38,19 @@ The VbaProjectReferenceCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.vba/vbaprojectreferencecollection/binary_search/#VbaProjectReference) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 #  Init VBA project.
 vbaProject = workbook.vba_project
-
 #  Add vba project reference
 vbaProject.references.add_registered_reference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation")
-
 # Saving the Excel file
 workbook.save("book1.xlsm")
 

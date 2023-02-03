@@ -20,10 +20,15 @@ def remove_hyperlink(self):
 ```
 
 
+
 ### Example 
 
 
-`shape.RemoveHyperlink();`
+```python
+
+shape.remove_hyperlink()
+
+```
 
 
 

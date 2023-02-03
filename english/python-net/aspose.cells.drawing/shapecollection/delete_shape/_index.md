@@ -23,17 +23,16 @@ def delete_shape(self, shape):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | shape | [Shape](/cells/python-net/aspose.cells.drawing/shape) |  |
+
 ### Example 
 
 
-```
+```python
 
 # add first shape
 firstShape = shapes.add_rectangle(2, 0, 2, 0, 50, 50)
-
 # add second shape
 secondShape = shapes.add_rectangle(6, 0, 2, 0, 30, 30)
-
 # del
 shapes.delete_shape(firstShape)
 

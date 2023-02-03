@@ -122,45 +122,38 @@ The Cell type exposes the following members:
 | [get_table()](/cells/python-net/aspose.cells/cell/get_table/#) | Gets the table which contains this cell. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import TextAlignmentType, Workbook
 from aspose.pydrawing import Color
 
 excel = Workbook()
 cells = excel.worksheets[0].cells
-
 # Put a string into a cell
 cell = cells.get(0, 0)
 cell.put_value("Hello")
 first = cell.string_value
-
 # Put an integer into a cell
 cell = cells.get("B1")
 cell.put_value(12)
 second = cell.int_value
-
 # Put a double into a cell
 cell = cells.get(0, 2)
 cell.put_value(-1.234)
 third = cell.double_value
-
 # Put a formula into a cell
 cell = cells.get("D1")
 cell.formula = "=B1 + C1"
-
 # Put a combined formula: "sum(average(b1,c1), b1)" to cell at b2
 cell = cells.get("b2")
 cell.formula = "=sum(average(b1,c1), b1)"
-
 # Set style of a cell
 style = cell.get_style()
-
 # Set background color
 style.background_color = Color.yellow
-
 # Set format of a cell
 style.font.name = "Courier New"
 style.vertical_alignment = TextAlignmentType.TOP

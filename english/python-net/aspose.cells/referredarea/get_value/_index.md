@@ -12,6 +12,7 @@ is_root: false
 
 Gets cell value with given offset from the top-left of this area.
 
+
 ### Returns 
 
 
@@ -35,6 +36,7 @@ def get_value(self, row_offset, col_offset):
 ## get_value(row_offset, col_offset, calculate_formulas) {#int-int-bool}
 
 Gets cell value with given offset from the top-left of this area.
+
 
 ### Returns 
 

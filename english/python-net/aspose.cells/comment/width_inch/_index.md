@@ -12,10 +12,15 @@ is_root: false
 
 
 Represents the width of the comment, in unit of inches.
+
 ### Example 
 
 
-`comment1.WidthInch = 1.0;`
+```python
+
+comment1.width_inch = 1.0
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

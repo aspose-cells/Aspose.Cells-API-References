@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents if the user is allowed to make use of an AutoFilter that was created before the sheet was protected.
+
 ### Remarks 
 
 

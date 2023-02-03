@@ -12,6 +12,7 @@ is_root: false
 
 Sets the borders of the style.
 
+
 ### Returns 
 
 
@@ -34,6 +35,7 @@ def set_border(self, border_type, border_style, border_color):
 ## set_border(border_type, border_style, border_color) {#BorderType-CellBorderType-CellsColor}
 
 Sets the borders of the style.
+
 
 ### Returns 
 

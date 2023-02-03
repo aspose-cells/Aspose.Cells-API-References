@@ -12,6 +12,7 @@ is_root: false
 
 Gets the [CellArea](/cells/python-net/aspose.cells/cellarea) where the specified AutoFilter applies to.
 
+
 ### Returns 
 
 

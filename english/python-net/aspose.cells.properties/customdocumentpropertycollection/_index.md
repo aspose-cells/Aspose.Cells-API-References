@@ -49,19 +49,20 @@ The CustomDocumentPropertyCollection type exposes the following members:
 | [update_linked_range()](/cells/python-net/aspose.cells.properties/customdocumentpropertycollection/update_linked_range/#) | Update custom document property value to linked range. |
 
 
+
 ### Remarks 
 
 
 Each [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty) object represents a custom property of a container document.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiate a Workbook object
 workbook = Workbook("book1.xls")
-
 # Retrieve a list of all custom document properties of the Excel file
 customProperties = workbook.worksheets.custom_document_properties
 

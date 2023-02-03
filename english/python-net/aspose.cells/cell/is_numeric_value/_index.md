@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether the inner value of this cell is numeric(int, double and datetime)
+
 ### Remarks 
 
 

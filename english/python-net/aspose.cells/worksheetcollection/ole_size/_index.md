@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and Sets displayed size when Workbook file is used as an Ole object.
+
 ### Remarks 
 
 

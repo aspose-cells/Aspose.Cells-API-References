@@ -12,15 +12,14 @@ is_root: false
 
 
 Gets and sets the line border of the shape is visible.
+
 ### Example 
 
 
-```
+```python
 
-if shape.has_line==False:
+if shape.has_line == False:
     shape.has_line = True
-
-
 
 ```
 

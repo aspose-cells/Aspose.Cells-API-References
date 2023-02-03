@@ -12,6 +12,7 @@ is_root: false
 
 Creates ICellsDataTable from given collection.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def get_instance(self, collection):
 ## get_instance(vals, column_names) {#list-list}
 
 Creates ICellsDataTable from given sequence of int values.
+
 
 ### Returns 
 
@@ -55,6 +57,7 @@ def get_instance(self, vals, column_names):
 
 Creates ICellsDataTable from given sequence of int values.
 
+
 ### Returns 
 
 
@@ -76,6 +79,7 @@ def get_instance(self, vals, vertial):
 ## get_instance(vals, column_names) {#list-list}
 
 Creates ICellsDataTable from given sequence of double values.
+
 
 ### Returns 
 
@@ -99,6 +103,7 @@ def get_instance(self, vals, column_names):
 
 Creates ICellsDataTable from given sequence of double values.
 
+
 ### Returns 
 
 
@@ -121,6 +126,7 @@ def get_instance(self, vals, vertial):
 
 Creates ICellsDataTable from given sequence of objects.
 
+
 ### Returns 
 
 
@@ -142,6 +148,7 @@ def get_instance(self, vals, column_names):
 ## get_instance(vals, vertial) {#list-bool}
 
 Creates ICellsDataTable from given sequence of objects.
+
 
 ### Returns 
 

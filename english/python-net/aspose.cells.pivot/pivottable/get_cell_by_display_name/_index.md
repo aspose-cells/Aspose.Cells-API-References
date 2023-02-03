@@ -12,6 +12,7 @@ is_root: false
 
 Gets the Cell object by the DisplayName of PivotField
 
+
 ### Returns 
 
 

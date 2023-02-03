@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the ole color of the foreground.
+
 ### Remarks 
 
 

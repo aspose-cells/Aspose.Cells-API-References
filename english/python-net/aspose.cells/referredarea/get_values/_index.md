@@ -12,6 +12,7 @@ is_root: false
 
 Gets cell values in this area.
 
+
 ### Returns 
 
 
@@ -31,6 +32,7 @@ def get_values(self):
 ## get_values(calculate_formulas) {#bool}
 
 Gets cell values in this area.
+
 
 ### Returns 
 

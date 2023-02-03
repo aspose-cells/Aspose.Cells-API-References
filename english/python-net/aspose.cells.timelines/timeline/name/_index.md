@@ -12,10 +12,11 @@ is_root: false
 
 
 Returns or sets the name of the specified Timeline
+
 ### Example 
 
 
-```
+```python
 
 # Set the name of the specified Timeline.
 timelineObj.name = "timeline name test"

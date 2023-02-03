@@ -13,6 +13,7 @@ is_root: false
 
 Specifies the class ID of the signature provider.
 Default value is Empty (all zeroes) Guid.
+
 ### Remarks 
 
 

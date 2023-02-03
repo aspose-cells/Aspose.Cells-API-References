@@ -12,10 +12,11 @@ is_root: false
 
 
 Gets and sets the setting of the shape's text.
+
 ### Example 
 
 
-```
+```python
 
 fontSettingCollection = shape.text_body
 fontSettingCollection.text = "This is a test."

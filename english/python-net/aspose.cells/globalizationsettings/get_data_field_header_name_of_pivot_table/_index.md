@@ -12,6 +12,7 @@ is_root: false
 
 Gets the the name of the value area field header in the PivotTable.
 
+
 ### Returns 
 
 

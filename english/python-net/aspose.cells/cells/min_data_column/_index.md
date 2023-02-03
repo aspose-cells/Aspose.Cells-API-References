@@ -12,6 +12,7 @@ is_root: false
 
 
 Minimum column index of cell which contains data.
+
 ### Remarks 
 
 

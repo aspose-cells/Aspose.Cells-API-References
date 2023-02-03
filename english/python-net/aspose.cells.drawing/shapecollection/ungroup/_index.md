@@ -25,21 +25,19 @@ def ungroup(self, group):
 | group | [GroupShape](/cells/python-net/aspose.cells.drawing/groupshape) | The group shape. |
 ### Remarks
 
-If the group shape is grouped by another group shape,nothing will be done.### Example 
+If the group shape is grouped by another group shape,nothing will be done.
+### Example 
 
 
-```
+```python
 
 # add first shape
 shapes.add_rectangle(2, 0, 2, 0, 50, 50)
-
 # add second shape
 shapes.add_rectangle(6, 0, 2, 0, 30, 30)
-
 # group
 shapesArr = [shapes[0], shapes[1]]
 groupShape = shapes.group(shapesArr)
-
 # ungroup
 shapes.ungroup(groupShape)
 

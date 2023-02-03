@@ -37,18 +37,17 @@ The ContentTypePropertyCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.properties/contenttypepropertycollection/binary_search/#ContentTypeProperty) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # Add a new property.
 workbook.content_type_properties.add("Admin", "Aspose", "text")
-
 # Save the Excel file
 workbook.save("book1.xlsm")
 

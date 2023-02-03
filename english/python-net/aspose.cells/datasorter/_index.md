@@ -45,48 +45,37 @@ The DataSorter type exposes the following members:
 | [clear()](/cells/python-net/aspose.cells/datasorter/clear/#) | Clear all settings. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import CellArea, SortOrder, Workbook
 
 # Instantiate a new Workbook object.
 workbook = Workbook("Book1.xls")
-
 # Get the workbook datasorter object.
 sorter = workbook.data_sorter
-
 # Set the first order for datasorter object.
 sorter.order1 = SortOrder.DESCENDING
-
 # Define the first key.
 sorter.key1 = 0
-
 # Set the second order for datasorter object.
 sorter.order2 = SortOrder.ASCENDING
-
 # Define the second key.
 sorter.key2 = 1
-
 # Create a cells area (range).
 ca = CellArea()
-
 # Specify the start row index.
 ca.start_row = 0
-
 # Specify the start column index.
 ca.start_column = 0
-
 # Specify the last row index.
 ca.end_row = 13
-
 # Specify the last column index.
 ca.end_column = 1
-
 # Sort data in the specified data range (A1:B14)
 sorter.sort(workbook.worksheets[0].cells, ca)
-
 # Save the excel file.
 workbook.save("outBook.xls")
 

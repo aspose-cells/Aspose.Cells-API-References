@@ -37,20 +37,19 @@ The TrendlineCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.charts/trendlinecollection/binary_search/#Trendline) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.charts import ChartType, TrendlineType
 from aspose.pydrawing import Color
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # Adding a new worksheet to the Excel object
 sheetIndex = workbook.worksheets.add()
-
 # Obtaining the reference of the newly added worksheet by passing its sheet index
 worksheet = workbook.worksheets[sheetIndex]
 worksheet.cells.get("A1").put_value(50)
@@ -61,7 +60,6 @@ worksheet.cells.get("B1").put_value(60)
 worksheet.cells.get("B2").put_value(32)
 worksheet.cells.get("B3").put_value(50)
 worksheet.cells.get("B4").put_value(40)
-
 # Adding a chart to the worksheet
 chartIndex = workbook.worksheets[0].charts.add(ChartType.COLUMN, 3, 3, 15, 10)
 chart = workbook.worksheets[0].charts[chartIndex]

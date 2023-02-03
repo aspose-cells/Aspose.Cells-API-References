@@ -12,6 +12,7 @@ is_root: false
 
 Gets the index of a property by name.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def index_of(self, name):
 ## index_of(item, index) {#DocumentProperty-int}
 
 Searches for the specified object and returns the zero-based index of the first occurrence within the range of elements in the array list that extends from the specified index to the last element.
+
 
 ### Returns 
 
@@ -54,6 +56,7 @@ def index_of(self, item, index):
 ## index_of(item, index, count) {#DocumentProperty-int-int}
 
 Searches for the specified object and returns the zero-based index of the first occurrence within the range of elements in the array list that starts at the specified index and contains the specified number of elements.
+
 
 ### Returns 
 

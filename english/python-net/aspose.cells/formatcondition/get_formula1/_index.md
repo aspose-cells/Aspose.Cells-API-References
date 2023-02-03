@@ -12,6 +12,7 @@ is_root: false
 
 Gets the value or expression associated with this format condition.
 
+
 ### Returns 
 
 
@@ -34,6 +35,7 @@ def get_formula1(self, is_r1c1, is_local):
 
 Gets the formula of the conditional formatting of the cell.
 
+
 ### Returns 
 
 
@@ -55,6 +57,7 @@ def get_formula1(self, row, column):
 ## get_formula1(is_r1c1, is_local, row, column) {#bool-bool-int-int}
 
 Gets the value or expression of the conditional formatting of the cell.
+
 
 ### Returns 
 

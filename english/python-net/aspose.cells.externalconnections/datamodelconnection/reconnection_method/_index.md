@@ -13,6 +13,7 @@ is_root: false
 
 Specifies what the spreadsheet application should do when a connection fails.
 The default value is ReConnectionMethodType.Required.
+
 ### Remarks 
 
 

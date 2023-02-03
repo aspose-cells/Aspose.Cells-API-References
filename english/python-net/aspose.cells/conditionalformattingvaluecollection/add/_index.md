@@ -12,6 +12,7 @@ is_root: false
 
 Adds [ConditionalFormattingValue](/cells/python-net/aspose.cells/conditionalformattingvalue) object.
 
+
 ### Returns 
 
 

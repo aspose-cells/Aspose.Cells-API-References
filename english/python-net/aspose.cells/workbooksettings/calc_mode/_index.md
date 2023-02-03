@@ -13,6 +13,7 @@ is_root: false
 
 It specifies whether to calculate formulas manually,
 automatically or automatically except for multiple table operations.
+
 ### Remarks 
 
 

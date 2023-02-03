@@ -12,10 +12,11 @@ is_root: false
 
 
 Get a Shape object that represents the shape attached to the specified comment.
+
 ### Example 
 
 
-```
+```python
 
 shape = comment1.comment_shape
 w = shape.width

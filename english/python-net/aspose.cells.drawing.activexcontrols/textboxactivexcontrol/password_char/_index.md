@@ -12,10 +12,6 @@ is_root: false
 
 
 Gets and sets a character to be displayed in place of the characters entered.
-### Example 
-
-
-`activeXControl.PasswordChar = 'a';`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

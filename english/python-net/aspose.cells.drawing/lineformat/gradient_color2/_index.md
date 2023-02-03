@@ -12,6 +12,7 @@ is_root: false
 
 
 Returns the gradient color 2 for the specified fill.
+
 ### Remarks 
 
 

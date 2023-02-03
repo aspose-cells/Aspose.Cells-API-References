@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether calculates all formulas every time when a calculation is triggered.
+
 ### Remarks 
 
 

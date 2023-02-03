@@ -12,6 +12,7 @@ is_root: false
 
 Gets the data source range of the chart.
 
+
 ### Returns 
 
 

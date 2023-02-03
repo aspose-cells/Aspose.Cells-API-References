@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns the top margin in unit of Points
+
 ### Example 
 
 
-`shapeTextAlignment.TopMarginPt = 2.0d;`
+```python
+
+shapeTextAlignment.top_margin_pt = 2.0
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

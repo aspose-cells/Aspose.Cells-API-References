@@ -12,6 +12,7 @@ is_root: false
 
 Adds an empty reference of web extension.
 
+
 ### Returns 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Gets the cell style.
 
+
 ### Returns 
 
 
@@ -31,6 +32,7 @@ To change the style of the cell, please call Cell.SetStyle() method after changi
 ## get_style(check_borders) {#bool}
 
 If checkBorders is true, check whether other cells' borders will effect the style of this cell.
+
 
 ### Returns 
 

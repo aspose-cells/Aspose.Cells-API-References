@@ -13,6 +13,7 @@ is_root: false
 
 Indicates whether parsing pivot cached records when loading the file.
 The default value is false.
+
 ### Remarks 
 
 

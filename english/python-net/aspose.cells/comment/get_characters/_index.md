@@ -13,6 +13,7 @@ is_root: false
 Returns all Characters objects 
 that represents a range of characters within the comment text.
 
+
 ### Returns 
 
 
@@ -25,10 +26,15 @@ def get_characters(self):
 ```
 
 
+
 ### Example 
 
 
-`ArrayList list = comment1.GetCharacters();`
+```python
+
+list = comment1.get_characters()
+
+```
 
 
 

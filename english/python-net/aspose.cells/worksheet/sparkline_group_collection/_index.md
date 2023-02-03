@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets the sparkline group collection in the worksheet.
+
 ### Remarks 
 
 

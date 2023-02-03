@@ -73,10 +73,11 @@ The Style type exposes the following members:
 | [get_two_color_gradient_setting()](/cells/python-net/aspose.cells/style/get_two_color_gradient_setting/#) | Get the two-color gradient setting. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.pydrawing import Color
 

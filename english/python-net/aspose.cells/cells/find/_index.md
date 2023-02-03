@@ -12,6 +12,7 @@ is_root: false
 
 Finds the cell containing with the input object.
 
+
 ### Returns 
 
 
@@ -35,6 +36,7 @@ Returns null (Nothing) if no cell is found.
 ## find(what, previous_cell, find_options) {#any-Cell-FindOptions}
 
 Finds the cell containing with the input object.
+
 
 ### Returns 
 

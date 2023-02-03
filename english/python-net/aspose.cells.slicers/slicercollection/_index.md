@@ -44,10 +44,11 @@ The SlicerCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.slicers/slicercollection/binary_search/#Slicer) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.pivot import PivotFieldType, PivotTableStyleType
 
@@ -93,7 +94,6 @@ pivot.calculate_data()
 slicers = sheet.slicers
 tableIndex = sheet.list_objects.add("A1", "C9", True)
 table = sheet.list_objects[tableIndex]
-
 # do your business
 book.save("out.xlsx")
 

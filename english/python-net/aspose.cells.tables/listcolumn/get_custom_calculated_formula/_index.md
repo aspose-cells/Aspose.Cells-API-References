@@ -12,6 +12,7 @@ is_root: false
 
 Gets the formula of this list column.
 
+
 ### Returns 
 
 

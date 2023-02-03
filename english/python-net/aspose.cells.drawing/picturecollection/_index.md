@@ -41,18 +41,17 @@ The PictureCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.drawing/picturecollection/binary_search/#Picture) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # get PictureCollection
 pictures = workbook.worksheets[0].pictures
-
 # do your business
 # Save the excel file.
 workbook.save("result.xlsx")

@@ -12,10 +12,6 @@ is_root: false
 
 
 Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
-### Example 
-
-
-`activeXControl.ScrollBars = Aspose.Cells.Drawing.ActiveXControls.ControlScrollBarType.BarsVertical;`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

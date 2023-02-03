@@ -12,6 +12,7 @@ is_root: false
 
 Get the connection points
 
+
 ### Returns 
 
 
@@ -24,10 +25,15 @@ def get_connection_points(self):
 ```
 
 
+
 ### Example 
 
 
-`float[][] points = shape.GetConnectionPoints();`
+```python
+
+points = shape.get_connection_points()
+
+```
 
 
 

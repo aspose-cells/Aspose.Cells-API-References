@@ -12,6 +12,7 @@ is_root: false
 
 Exporting the range to json file.
 
+
 ### Returns 
 
 
@@ -38,6 +39,7 @@ Aspose apologizes for any inconvenience you may have experienced.
 ## export_range_to_json(range, options) {#Range-JsonSaveOptions}
 
 Exporting the range to json file.
+
 
 ### Returns 
 

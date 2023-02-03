@@ -12,6 +12,7 @@ is_root: false
 
 Render data bar in cell to image byte array.
 
+
 ### Returns 
 
 

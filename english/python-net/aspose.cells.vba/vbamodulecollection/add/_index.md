@@ -12,6 +12,7 @@ is_root: false
 
 Adds module for a worksheet.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def add(self, sheet):
 ## add(type, name) {#VbaModuleType-str}
 
 Adds module.
+
 
 ### Returns 
 

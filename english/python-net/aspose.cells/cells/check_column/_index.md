@@ -12,6 +12,7 @@ is_root: false
 
 Gets the [Column](/cells/python-net/aspose.cells/column) element or null at the specified column index.
 
+
 ### Returns 
 
 

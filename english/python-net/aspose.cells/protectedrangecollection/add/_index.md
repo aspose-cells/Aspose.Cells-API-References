@@ -12,6 +12,7 @@ is_root: false
 
 Adds a [ProtectedRange](/cells/python-net/aspose.cells/protectedrange) item to the collection.
 
+
 ### Returns 
 
 

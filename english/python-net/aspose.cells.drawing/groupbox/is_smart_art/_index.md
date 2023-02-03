@@ -12,19 +12,20 @@ is_root: false
 
 
 Indicates whether the shape is smart art.
+
 ### Remarks 
 
 
 Only for ooxml file.
+
 ### Example 
 
 
-```
+```python
 
 # if true,the shape is smart art.
 if shape.is_smart_art:
     pass
-
 
 ```
 

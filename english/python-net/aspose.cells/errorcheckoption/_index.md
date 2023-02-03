@@ -27,11 +27,12 @@ The ErrorCheckOption type exposes the following members:
 | [remove_range(index)](/cells/python-net/aspose.cells/errorcheckoption/remove_range/#int) | Removes one range by given index. |
 
 
+
 ### Example 
 
 
-```
-from aspose.cells import ErrorCheckType, Workbook
+```python
+from aspose.cells import CellArea, ErrorCheckType, Workbook
 
 workbook = Workbook()
 opts = workbook.worksheets[0].error_check_options

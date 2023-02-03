@@ -37,26 +37,23 @@ The ConditionalFormattingCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/conditionalformattingcollection/binary_search/#FormatConditionCollection) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook
 from aspose.pydrawing import Color
 
 # Instantiating a Workbook object
 workbook = Workbook()
 sheet = workbook.worksheets[0]
-
 # Get Conditional Formatting
 cformattings = sheet.conditional_formattings
-
 # Adds an empty conditional formatting
 index = cformattings.add()
-
 # Get newly added Conditional formatting
 fcs = cformattings[index]
-
 # Sets the conditional format range.
 ca = CellArea()
 ca.start_row = 0
@@ -70,17 +67,13 @@ ca.end_row = 1
 ca.start_column = 1
 ca.end_column = 1
 fcs.add_area(ca)
-
 # Add condition.
 conditionIndex = fcs.add_condition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "=A2", "100")
-
 # Add condition.
 conditionIndex2 = fcs.add_condition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "50", "100")
-
 # Sets the background color.
 fc = fcs[conditionIndex]
 fc.style.background_color = Color.red
-
 # Saving the Excel file
 workbook.save("output.xls")
 

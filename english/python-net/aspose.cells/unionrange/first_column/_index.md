@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets the index of the first column of the range.
+
 ### Remarks 
 
 

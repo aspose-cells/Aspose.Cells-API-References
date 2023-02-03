@@ -12,6 +12,7 @@ is_root: false
 
 Adds a conditional formatted cell range.
 
+
 ### Returns 
 
 

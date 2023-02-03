@@ -12,15 +12,14 @@ is_root: false
 
 
 Represents the height of the shape, in unit of inches.
+
 ### Example 
 
 
-```
+```python
 
-if shape.height_inch==3:
+if shape.height_inch == 3:
     shape.height_inch = 1
-
-
 
 ```
 

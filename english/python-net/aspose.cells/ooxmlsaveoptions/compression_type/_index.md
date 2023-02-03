@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the compression type for ooxml file.
+
 ### Remarks 
 
 

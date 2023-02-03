@@ -162,6 +162,7 @@ The Spinner type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/spinner/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Remarks 
 
 

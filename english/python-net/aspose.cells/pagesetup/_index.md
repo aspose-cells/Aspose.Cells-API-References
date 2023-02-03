@@ -92,15 +92,15 @@ The PageSetup type exposes the following members:
 | [set_picture(is_first, is_even, is_header, section, image_data)](/cells/python-net/aspose.cells/pagesetup/set_picture/#bool-bool-bool-int-bytes) | Sets an image in the header/footer of a worksheet. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook()
 sheets = workbook.worksheets
-
 # Add a worksheet
 sheets.add()
 sheet = sheets[1]

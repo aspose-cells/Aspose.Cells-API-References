@@ -12,6 +12,7 @@ is_root: false
 
 Creates a [CellsColor](/cells/python-net/aspose.cells/cellscolor) object.
 
+
 ### Returns 
 
 

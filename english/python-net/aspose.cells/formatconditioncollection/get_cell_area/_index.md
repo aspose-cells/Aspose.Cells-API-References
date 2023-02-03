@@ -12,6 +12,7 @@ is_root: false
 
 Gets the conditional formatted cell range by index.
 
+
 ### Returns 
 
 

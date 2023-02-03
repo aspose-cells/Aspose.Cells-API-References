@@ -12,10 +12,15 @@ is_root: false
 
 
 Represents the width of the comment, in unit of pixels.
+
 ### Example 
 
 
-`comment1.Width = 10;`
+```python
+
+comment1.width = 10
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

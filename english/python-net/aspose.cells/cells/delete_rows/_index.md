@@ -33,6 +33,7 @@ the ranged could not be deleted and nothing will be done.It works as MS Excel.
 
 Deletes multiple rows in the worksheet.
 
+
 ### Returns 
 
 

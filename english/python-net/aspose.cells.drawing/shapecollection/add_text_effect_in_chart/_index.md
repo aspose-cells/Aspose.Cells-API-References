@@ -12,6 +12,7 @@ is_root: false
 
 Inserts a WordArt object to the chart
 
+
 ### Returns 
 
 

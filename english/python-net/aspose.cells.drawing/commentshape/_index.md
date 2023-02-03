@@ -157,28 +157,25 @@ The CommentShape type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/commentshape/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
-from aspose import pycore
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing import MsoDrawingType
+import aspose.pycore
 
 # source file
 fileName = ""
-
 # Instantiating a Workbook object
 workbook = Workbook(fileName)
 shapes = workbook.worksheets[0].shapes
-
 # Check if a shape is CommentShape
 commentShape = None
-if shapes[0].mso_drawing_type==MsoDrawingType.COMMENT:
+if shapes[0].mso_drawing_type == MsoDrawingType.COMMENT:
     # Represents the shape of the comment.
-    commentShape = pycore.cast(Aspose.Cells.Drawing.CommentShape, shapes[0])
-
-
+    commentShape = aspose.pycore.cast(Aspose.Cells.Drawing.CommentShape, shapes[0])
 
 ```
 ### See Also

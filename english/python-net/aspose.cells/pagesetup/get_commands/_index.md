@@ -12,6 +12,7 @@ is_root: false
 
 Gets all commands of header or footer.
 
+
 ### Returns 
 
 

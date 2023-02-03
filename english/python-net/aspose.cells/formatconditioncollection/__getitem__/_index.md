@@ -18,6 +18,7 @@ Gets the formatting condition by index.
 | index | the index of the formatting condition to return. |
 
 
+
 ### Returns 
 
 

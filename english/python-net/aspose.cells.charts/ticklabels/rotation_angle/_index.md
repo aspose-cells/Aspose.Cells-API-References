@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents text rotation angle in clockwise.
+
 ### Remarks 
 
 

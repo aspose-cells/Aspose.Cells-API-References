@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or set checkbox' value.
+
 ### Remarks 
 
 

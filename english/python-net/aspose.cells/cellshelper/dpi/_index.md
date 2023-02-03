@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets the DPI of the machine.
+
 ### Remarks 
 
 

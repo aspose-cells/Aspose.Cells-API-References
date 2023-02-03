@@ -36,10 +36,11 @@ The PivotFormatCondition type exposes the following members:
 | [set_conditional_areas()](/cells/python-net/aspose.cells.pivot/pivotformatcondition/set_conditional_areas/#) | Sets conditional areas of PivotFormatCondition object. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook
 from aspose.cells.pivot import PivotFieldType, PivotTableStyleType
 from aspose.pydrawing import Color
@@ -81,7 +82,6 @@ pivot.add_field_to_area(PivotFieldType.ROW, "fruit")
 pivot.add_field_to_area(PivotFieldType.COLUMN, "year")
 pivot.add_field_to_area(PivotFieldType.DATA, "amount")
 pivot.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM10
-
 # Add PivotFormatCondition
 formatIndex = pivot.pivot_format_conditions.add()
 pfc = pivot.pivot_format_conditions[formatIndex]
@@ -94,7 +94,6 @@ fc.operator = OperatorType.GREATER_OR_EQUAL
 fc.style.background_color = Color.red
 pivot.refresh_data()
 pivot.calculate_data()
-
 # do your business
 book.save("out.xlsx")
 

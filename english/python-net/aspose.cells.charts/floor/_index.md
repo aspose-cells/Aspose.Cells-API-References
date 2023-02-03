@@ -33,10 +33,11 @@ The Floor type exposes the following members:
 | [border](/cells/python-net/aspose.cells.charts/floor/border) | Gets or sets the border [Line](/cells/python-net/aspose.cells.drawing/line). |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import License, Workbook
 from aspose.cells.charts import ChartType
 from aspose.cells.drawing import GradientPresetType, GradientStyleType
@@ -44,45 +45,32 @@ from aspose.pydrawing import Color
 
 # Instantiate the License class
 license = License()
-
 # Pass only the name of the license file embedded in the assembly
 license.set_license("Aspose.Cells.lic")
-
 # Instantiate the workbook object
 workbook = Workbook()
-
 # Get cells collection
 cells = workbook.worksheets[0].cells
-
 # Put values in cells
 cells.get("A1").put_value(1)
 cells.get("A2").put_value(2)
 cells.get("A3").put_value(3)
-
 # get charts colletion
 charts = workbook.worksheets[0].charts
-
 # add a new chart
 index = charts.add(ChartType.COLUMN_3D_STACKED, 5, 0, 15, 5)
-
 # get the newly added chart
 chart = charts[index]
-
 # set charts nseries
 chart.n_series.add("A1:A3", True)
-
 # Show data labels
 chart.n_series[0].data_labels.show_value = True
-
 # Get chart's floor
 floor = chart.floor
-
 # set floor's border as red
 floor.border.color = Color.red
-
 # set fill format
 floor.fill_format.set_preset_color_gradient(GradientPresetType.CALM_WATER, GradientStyleType.DIAGONAL_DOWN, 2)
-
 # save the file
 workbook.save(r"dest.xls")
 

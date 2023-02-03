@@ -12,6 +12,7 @@ is_root: false
 
 Adds addin function into the workbook
 
+
 ### Returns 
 
 
@@ -33,6 +34,7 @@ def register_add_in_function(self, id, function_name):
 ## register_add_in_function(add_in_file, function_name, lib) {#str-str-bool}
 
 Adds addin function into the workbook
+
 
 ### Returns 
 

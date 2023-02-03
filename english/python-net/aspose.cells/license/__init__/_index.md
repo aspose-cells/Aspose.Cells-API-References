@@ -20,6 +20,7 @@ def __init__(self):
 ```
 
 
+
 ### Example 
 
 
@@ -30,7 +31,7 @@ in the folder that contains
 the component, in the folder that contains the calling assembly,
 in the folder of the entry assembly and then in the embedded resources of the calling assembly.
 
-```
+```python
 from aspose.cells import License
 
 license = License()

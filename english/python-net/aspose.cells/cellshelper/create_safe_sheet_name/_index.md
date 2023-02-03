@@ -15,6 +15,7 @@ If given sheet name conforms to the rules of excel sheet name, then return it.
 Otherwise string will be truncated if length exceeds the limit
 and invalid characters will be replaced with ' ', then return the rebuilt string value.
 
+
 ### Returns 
 
 
@@ -38,6 +39,7 @@ Checks given sheet name and create a valid one when needed.
 If given sheet name conforms to the rules of excel sheet name, then return it.
 Otherwise string will be truncated if length exceeds the limit
 and invalid characters will be replaced with given character, then return the rebuilt string value.
+
 
 ### Returns 
 

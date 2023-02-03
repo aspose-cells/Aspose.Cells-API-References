@@ -12,6 +12,7 @@ is_root: false
 
 
 Returns or sets the period for the moving-average trendline.
+
 ### Remarks 
 
 

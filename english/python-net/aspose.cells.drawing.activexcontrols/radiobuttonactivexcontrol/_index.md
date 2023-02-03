@@ -58,21 +58,20 @@ The RadioButtonActiveXControl type exposes the following members:
 | [is_word_wrapped](/cells/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/is_word_wrapped) | Indicates whether the contents of the control automatically wrap at the end of a line. |
 
 
+
 ### Example 
 
 
-```
-from aspose import pycore
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing.activexcontrols import ControlType
+import aspose.pycore
 
 # Initialize a new workbook.
 book = Workbook()
-
 # Add a ToggleButtonActiveXControl.
 shape = book.worksheets[0].shapes.add_active_x_control(ControlType.RADIO_BUTTON, 1, 0, 1, 0, 100, 50)
-activeXControl = pycore.cast(Aspose.Cells.Drawing.ActiveXControls.RadioButtonActiveXControl, shape.active_x_control)
-
+activeXControl = aspose.pycore.cast(Aspose.Cells.Drawing.ActiveXControls.RadioButtonActiveXControl, shape.active_x_control)
 # do your business
 # Save the excel file.
 book.save("exmaple.xlsx")

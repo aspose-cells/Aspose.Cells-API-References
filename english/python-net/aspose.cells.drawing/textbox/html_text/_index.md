@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets and sets the html string which contains data and some formats in this textbox.
+
 ### Example 
 
 
-```
+```python
 
 html = shape.html_text
-if html==null ||html=="":
+if html == null  || html == "":
     shape.html_text = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>"
-
-
 
 ```
 

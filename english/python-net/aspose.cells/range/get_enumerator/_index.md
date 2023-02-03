@@ -12,6 +12,7 @@ is_root: false
 
 Gets the enumerator for cells in this Range.
 
+
 ### Returns 
 
 
@@ -28,19 +29,18 @@ def get_enumerator(self):
 
 When traversing elements by the returned Enumerator, the cells collection
 should not be modified(such as operations that will cause new Cell/Row be instantiated or existing Cell/Row be deleted).
-Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).### Example 
+Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).
+### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 workbook = Workbook("template.xlsx")
 cells = workbook.worksheets[0].cells
 en = cells.create_range("B2:C3").get_enumerator()
 for cell in en:
-    print(cell.name+": " +cell.value)
-
-
+    print(cell.name + ": "  + str(cell.value))
 
 ```
 

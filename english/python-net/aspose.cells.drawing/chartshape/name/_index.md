@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets and sets the name of the shape.
+
 ### Example 
 
 
-`shape.Name = "shape1";`
+```python
+
+shape.name = "shape1"
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

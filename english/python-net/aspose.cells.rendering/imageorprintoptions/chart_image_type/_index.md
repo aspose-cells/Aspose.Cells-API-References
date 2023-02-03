@@ -13,6 +13,7 @@ is_root: false
 
 Indicate the chart imagetype when converting.
 default value: PNG.
+
 ### Remarks 
 
 

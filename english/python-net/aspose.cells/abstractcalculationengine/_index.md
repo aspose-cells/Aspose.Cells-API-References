@@ -29,6 +29,7 @@ The AbstractCalculationEngine type exposes the following members:
 | [calculate(data)](/cells/python-net/aspose.cells/abstractcalculationengine/calculate/#CalculationData) | Calculates one function with given data. |
 
 
+
 ### Remarks 
 
 

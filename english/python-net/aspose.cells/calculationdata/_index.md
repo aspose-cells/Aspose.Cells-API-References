@@ -36,6 +36,7 @@ The CalculationData type exposes the following members:
 | [get_param_text(index)](/cells/python-net/aspose.cells/calculationdata/get_param_text/#int) | Gets the literal text of the parameter at given index. |
 
 
+
 ### Remarks 
 
 

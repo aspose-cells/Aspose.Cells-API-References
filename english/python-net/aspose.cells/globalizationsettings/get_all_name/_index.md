@@ -12,6 +12,7 @@ is_root: false
 
 Gets the name of "(All)" label in the PivotTable.
 
+
 ### Returns 
 
 

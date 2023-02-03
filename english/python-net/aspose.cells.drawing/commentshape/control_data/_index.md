@@ -12,15 +12,14 @@ is_root: false
 
 
 Gets the data of control.
+
 ### Example 
 
 
-```
+```python
 
-if shape.control_data==None:
+if shape.control_data == None:
     print("No data.")
-
-
 
 ```
 

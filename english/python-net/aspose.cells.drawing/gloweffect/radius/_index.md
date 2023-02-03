@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the radius of the glow, in unit of points.
+
 ### Remarks 
 
 

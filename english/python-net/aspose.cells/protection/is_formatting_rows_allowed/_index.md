@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents if the formatting of rows is allowed on a protected worksheet
+
 ### Remarks 
 
 

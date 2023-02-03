@@ -12,14 +12,14 @@ is_root: false
 
 
 Indicates whether the shape is a group.
+
 ### Example 
 
 
-```
+```python
 
 if shape.is_group:
     pass
-
 
 ```
 

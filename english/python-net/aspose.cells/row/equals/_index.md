@@ -12,6 +12,7 @@ is_root: false
 
 Checks whether this object refers to the same row with another row object.
 
+
 ### Returns 
 
 

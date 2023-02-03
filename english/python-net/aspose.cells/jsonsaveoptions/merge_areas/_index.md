@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
 ### Remarks 
 
 

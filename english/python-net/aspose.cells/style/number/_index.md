@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions.
+
 ### Remarks 
 
 

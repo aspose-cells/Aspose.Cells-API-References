@@ -12,6 +12,7 @@ is_root: false
 
 Adds a horizontal page break to the collection.
 
+
 ### Returns 
 
 
@@ -35,6 +36,7 @@ Please set a horizontal page break and a vertical page break concurrently.
 ## add(cell_name) {#str}
 
 Adds a horizontal page break to the collection.
+
 
 ### Returns 
 
@@ -60,6 +62,7 @@ Please set a horizontal page break and a vertical page break concurrently.
 
 Adds a horizontal page break to the collection.
 
+
 ### Returns 
 
 
@@ -84,6 +87,7 @@ Please set a horizontal page break and a vertical page break concurrently.
 ## add(row, start_column, end_column) {#int-int-int}
 
 Adds a horizontal page break to the collection.
+
 
 ### Returns 
 

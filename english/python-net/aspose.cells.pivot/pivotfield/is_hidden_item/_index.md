@@ -12,6 +12,7 @@ is_root: false
 
 Indicates whether the specific PivotItem is hidden.
 
+
 ### Returns 
 
 

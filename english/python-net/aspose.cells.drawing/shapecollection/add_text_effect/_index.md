@@ -12,6 +12,7 @@ is_root: false
 
 Inserts a WordArt object.
 
+
 ### Returns 
 
 
@@ -38,10 +39,11 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | left | int | Represents the horizontal offset of shape from its left column, in unit of pixel. |
 | height | int | Represents the height of shape, in unit of pixel. |
 | width | int | Represents the width of shape, in unit of pixel. |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells.drawing import MsoPresetTextEffect
 
 # add a WordArt

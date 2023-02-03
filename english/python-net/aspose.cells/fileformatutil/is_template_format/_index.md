@@ -12,6 +12,7 @@ is_root: false
 
 Returns true if the extension is .xlt, .xltX, .xltm,.ots.
 
+
 ### Returns 
 
 

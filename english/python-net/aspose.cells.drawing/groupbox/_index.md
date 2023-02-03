@@ -157,26 +157,23 @@ The GroupBox type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/groupbox/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing import PlacementType
 
 # Instantiate a new Workbook.
 excelbook = Workbook()
-
 # Add a group box to the first worksheet.
 box = excelbook.worksheets[0].shapes.add_group_box(1, 0, 1, 0, 300, 250)
-
 # Set the caption of the group box.
 box.text = "Age Groups"
 box.placement = PlacementType.FREE_FLOATING
-
 # Make it 2-D box.
 box.shadow = False
-
 # Save the excel file.
 excelbook.save("groupbox.xls")
 

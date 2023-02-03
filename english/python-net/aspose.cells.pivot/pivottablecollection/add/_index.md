@@ -12,6 +12,7 @@ is_root: false
 
 Adds a new PivotTable cache to a PivotCaches collection.
 
+
 ### Returns 
 
 
@@ -35,6 +36,7 @@ def add(self, source_data, dest_cell_name, table_name):
 
 Adds a new PivotTable Object to the collection from another PivotTable.
 
+
 ### Returns 
 
 
@@ -57,6 +59,7 @@ def add(self, pivot_table, dest_cell_name, table_name):
 ## add(source_data, dest_cell_name, table_name, use_same_source) {#str-str-str-bool}
 
 Adds a new PivotTable cache to a PivotCaches collection.
+
 
 ### Returns 
 
@@ -82,6 +85,7 @@ def add(self, source_data, dest_cell_name, table_name, use_same_source):
 
 Adds a new PivotTable cache to a PivotCaches collection.
 
+
 ### Returns 
 
 
@@ -106,6 +110,7 @@ def add(self, source_data, row, column, table_name):
 
 Adds a new PivotTable Object to the collection from another PivotTable.
 
+
 ### Returns 
 
 
@@ -129,6 +134,7 @@ def add(self, pivot_table, row, column, table_name):
 ## add(source_data, row, column, table_name, use_same_source) {#str-int-int-str-bool}
 
 Adds a new PivotTable cache to a PivotCaches collection.
+
 
 ### Returns 
 
@@ -155,6 +161,7 @@ def add(self, source_data, row, column, table_name, use_same_source):
 
 Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
 
+
 ### Returns 
 
 
@@ -179,6 +186,7 @@ def add(self, source_data, is_auto_page, page_fields, dest_cell_name, table_name
 ## add(source_data, is_auto_page, page_fields, row, column, table_name) {#list-bool-PivotPageFields-int-int-str}
 
 Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
+
 
 ### Returns 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Adds web extension property.
 
+
 ### Returns 
 
 

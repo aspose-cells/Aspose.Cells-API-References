@@ -12,6 +12,7 @@ is_root: false
 
 Validates protection password.
 
+
 ### Returns 
 
 

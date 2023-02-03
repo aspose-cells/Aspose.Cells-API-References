@@ -12,10 +12,16 @@ is_root: false
 
 
 Specifies the line join type.
+
 ### Example 
 
 
-`lineFmt.JoinType = LineJoinType.Round;`
+```python
+from aspose.cells.drawing import LineJoinType
+
+lineFmt.join_type = LineJoinType.ROUND
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

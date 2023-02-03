@@ -12,6 +12,7 @@ is_root: false
 
 Query cell areas that mapped/linked to the specific path of xml map.
 
+
 ### Returns 
 
 

@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns or sets the height of the specified slicer, in pixels.
+
 ### Example 
 
 
-`slicer.HeightPixel = 150;`
+```python
+
+slicer.height_pixel = 150
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

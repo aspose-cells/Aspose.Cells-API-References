@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets the column index of the comment.
+
 ### Example 
 
 
-`int column = comment1.Column;`
+```python
+
+column = comment1.column
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

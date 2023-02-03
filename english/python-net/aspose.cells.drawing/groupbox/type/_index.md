@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets the auto shape type.
+
 ### Example 
 
 
-`Aspose.Cells.Drawing.AutoShapeType autoShapeType = shape.Type;`
+```python
+
+autoShapeType = shape.type
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

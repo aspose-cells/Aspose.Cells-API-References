@@ -12,6 +12,7 @@ is_root: false
 
 Union another range.
 
+
 ### Returns 
 
 
@@ -33,6 +34,7 @@ def union(self, range):
 
 Union another range.
 
+
 ### Returns 
 
 
@@ -53,6 +55,7 @@ def union(self, union_range):
 ## union(ranges) {#list}
 
 Union the ranges.
+
 
 ### Returns 
 

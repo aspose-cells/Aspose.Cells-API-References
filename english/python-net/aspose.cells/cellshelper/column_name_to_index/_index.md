@@ -12,6 +12,7 @@ is_root: false
 
 Gets column index according to column name.
 
+
 ### Returns 
 
 

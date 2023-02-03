@@ -12,6 +12,7 @@ is_root: false
 
 Gets the standard text of built-in Name according to given locale dependent text.
 
+
 ### Returns 
 
 

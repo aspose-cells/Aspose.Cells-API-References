@@ -12,6 +12,7 @@ is_root: false
 
 Gets the name of "Other" labels for Chart.
 
+
 ### Returns 
 
 

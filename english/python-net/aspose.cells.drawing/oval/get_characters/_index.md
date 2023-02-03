@@ -13,6 +13,7 @@ is_root: false
 Returns all Characters objects 
 that represents a range of characters within the text .
 
+
 ### Returns 
 
 
@@ -25,10 +26,15 @@ def get_characters(self):
 ```
 
 
+
 ### Example 
 
 
-`ArrayList list = shape.GetCharacters();`
+```python
+
+list = shape.get_characters()
+
+```
 
 
 

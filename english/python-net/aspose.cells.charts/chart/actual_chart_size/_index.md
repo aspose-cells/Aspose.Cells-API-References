@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets actual size of chart in unit of pixels.
+
 ### Remarks 
 
 

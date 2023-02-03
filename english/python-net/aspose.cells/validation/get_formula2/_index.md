@@ -12,6 +12,7 @@ is_root: false
 
 Gets the value or expression associated with this validation.
 
+
 ### Returns 
 
 
@@ -33,6 +34,7 @@ def get_formula2(self, is_r1c1, is_local):
 ## get_formula2(is_r1c1, is_local, row, column) {#bool-bool-int-int}
 
 Gets the value or expression associated with this validation for specific cell.
+
 
 ### Returns 
 

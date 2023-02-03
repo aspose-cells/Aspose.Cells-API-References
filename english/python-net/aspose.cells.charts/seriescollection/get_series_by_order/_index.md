@@ -12,6 +12,7 @@ is_root: false
 
 Gets the [Series](/cells/python-net/aspose.cells.charts/series) element by order.
 
+
 ### Returns 
 
 

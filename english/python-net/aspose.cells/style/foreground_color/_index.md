@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets a style's foreground color.
+
 ### Remarks 
 
 

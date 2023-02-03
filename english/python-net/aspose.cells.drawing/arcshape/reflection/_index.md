@@ -12,10 +12,15 @@ is_root: false
 
 
 Represents a [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect) object that specifies reflection effect for the chart element or shape.
+
 ### Example 
 
 
-`Aspose.Cells.Drawing.ReflectionEffect reflectionEffect = shape.Reflection;`
+```python
+
+reflectionEffect = shape.reflection
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -20,15 +20,15 @@ def get_result_of_smart_art(self):
 ```
 
 
+
 ### Example 
 
 
-```
+```python
 
 groupShape = shape.get_result_of_smart_art()
-if groupShape!=None:
+if groupShape != None:
     pass
-
 
 ```
 

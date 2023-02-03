@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets and sets the text orientation type of the comment.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import TextOrientationType
 
-if comment1.text_orientation_type==TextOrientationType.NO_ROTATION:
+if comment1.text_orientation_type == TextOrientationType.NO_ROTATION:
     comment1.text_orientation_type = TextOrientationType.TOP_TO_BOTTOM
-
-
 
 ```
 

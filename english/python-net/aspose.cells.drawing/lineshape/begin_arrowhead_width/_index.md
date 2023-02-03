@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the begin arrow head width of the line.
+
 ### Remarks 
 
 

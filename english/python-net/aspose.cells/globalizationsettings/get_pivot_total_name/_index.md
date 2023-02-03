@@ -13,6 +13,7 @@ is_root: false
 Gets the name of "Total" label in the PivotTable.
 You need to override this method when the PivotTable contains two or more PivotFields in the data area.
 
+
 ### Returns 
 
 

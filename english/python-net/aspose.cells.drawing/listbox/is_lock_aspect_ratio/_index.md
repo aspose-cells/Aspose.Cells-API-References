@@ -12,10 +12,15 @@ is_root: false
 
 
 True means that don't allow changes in aspect ratio.
+
 ### Example 
 
 
-`shape.IsLockAspectRatio = false;`
+```python
+
+shape.is_lock_aspect_ratio = False
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

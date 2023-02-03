@@ -12,10 +12,15 @@ is_root: false
 
 
 Indicates whether the margin of the text frame is automatic.
+
 ### Example 
 
 
-`shapeTextAlignment.IsAutoMargin = true;`
+```python
+
+shapeTextAlignment.is_auto_margin = True
+
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

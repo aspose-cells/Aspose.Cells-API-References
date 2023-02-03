@@ -12,6 +12,7 @@ is_root: false
 
 Gets the grand total name of the function.
 
+
 ### Returns 
 
 

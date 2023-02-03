@@ -12,15 +12,14 @@ is_root: false
 
 
 Represents the vertical offset of shape from its top row, in unit of centimeters.
+
 ### Example 
 
 
-```
+```python
 
-if shape.top_cm==3:
+if shape.top_cm == 3:
     shape.top_cm = 1
-
-
 
 ```
 

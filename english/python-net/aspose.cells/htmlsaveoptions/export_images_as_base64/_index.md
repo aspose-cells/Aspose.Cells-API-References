@@ -12,6 +12,7 @@ is_root: false
 
 
 Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB.
+
 ### Remarks 
 
 

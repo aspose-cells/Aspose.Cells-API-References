@@ -161,29 +161,25 @@ The ComboBox type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/combobox/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Create a new Workbook.
 workbook = Workbook()
-
 # Get the first worksheet.
 sheet = workbook.worksheets[0]
-
 # Get the worksheet cells collection.
 cells = sheet.cells
-
 # Input a value.
 cells.get("B3").put_value("Employee:")
-
 # Set it bold.
 style = cells.get("B3").get_style()
 style.font.is_bold = True
 cells.get("B3").set_style(style)
-
 # Input some values that denote the input range
 # for the combo box.
 cells.get("A2").put_value("Emp001")
@@ -192,26 +188,19 @@ cells.get("A4").put_value("Emp003")
 cells.get("A5").put_value("Emp004")
 cells.get("A6").put_value("Emp005")
 cells.get("A7").put_value("Emp006")
-
 # Add a new combo box.
 comboBox = sheet.shapes.add_combo_box(2, 0, 2, 0, 22, 100)
-
 # Set the linked cell;
 comboBox.linked_cell = "A1"
-
 # Set the input range.
 comboBox.input_range = "A2:A7"
-
 # Set no. of list lines displayed in the combo
 # box's list portion.
 comboBox.drop_down_lines = 5
-
 # Set the combo box with 3-D shading.
 comboBox.shadow = True
-
 # AutoFit Columns
 sheet.auto_fit_columns()
-
 # Saves the file.
 workbook.save(r"tstcombobox.xls")
 

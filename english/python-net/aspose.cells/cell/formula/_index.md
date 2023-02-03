@@ -12,15 +12,17 @@ is_root: false
 
 
 Gets or sets a formula of the [Cell](/cells/python-net/aspose.cells/cell).
+
 ### Remarks 
 
 
 A formula string always begins with an equal sign (=). 
 And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 excel = Workbook()

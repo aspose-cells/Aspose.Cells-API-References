@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents if the user is allowed to edit scenarios on a protected worksheet.
+
 ### Remarks 
 
 

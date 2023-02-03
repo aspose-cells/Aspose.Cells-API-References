@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether tailing blank cells in one row should be trimmed. Default is false.
+
 ### Remarks 
 
 

@@ -162,59 +162,46 @@ The ArcShape type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/arcshape/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing import FillType, MsoLineDashStyle, MsoLineStyle, PlacementType
 from aspose.pydrawing import Color
 
 # Instantiate a new Workbook.
 excelbook = Workbook()
-
 # Add an arc shape.
 arc1 = excelbook.worksheets[0].shapes.add_arc(2, 0, 2, 0, 130, 130)
-
 # Set the placement of the arc.
 arc1.placement = PlacementType.FREE_FLOATING
-
 # Set the fill format.
 arc1.fill.fill_type = FillType.SOLID
 arc1.fill.solid_fill.color = Color.blue
-
 # Set the line style.
 arc1.line.compound_type = MsoLineStyle.SINGLE
-
 # Set the line weight.
 arc1.line.weight = 2
-
 # Set the color of the arc line.
 arc1.line.fill_type = FillType.SOLID
 arc1.line.solid_fill.color = Color.red
-
 # Set the dash style of the arc.
 arc1.line.dash_style = MsoLineDashStyle.SOLID
-
 # Add another arc shape.
 arc2 = excelbook.worksheets[0].shapes.add_arc(9, 0, 2, 0, 130, 130)
-
 # Set the placement of the arc.
 arc2.placement = PlacementType.FREE_FLOATING
-
 # Set the line style.
 arc2.line.compound_type = MsoLineStyle.SINGLE
-
 # Set the line weight.
 arc2.line.weight = 1
-
 # Set the color of the arc line.
 arc2.line.fill_type = FillType.SOLID
 arc2.line.solid_fill.color = Color.blue
-
 # Set the dash style of the arc.
 arc2.line.dash_style = MsoLineDashStyle.SOLID
-
 # Save the excel file.
 excelbook.save("tstarcs.xls")
 

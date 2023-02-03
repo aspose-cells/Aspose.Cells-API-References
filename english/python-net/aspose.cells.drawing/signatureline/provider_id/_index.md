@@ -12,14 +12,16 @@ is_root: false
 
 
 Gets and sets the id of signature provider.
+
 ### Remarks 
 
 
 It's typically the CLSID of the provider com add-in.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells.drawing import SignatureLine
 from uuid import uuid4
 

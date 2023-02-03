@@ -54,21 +54,20 @@ The ToggleButtonActiveXControl type exposes the following members:
 | [is_triple_state](/cells/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/is_triple_state) | Indicates how the specified control will display Null values. |
 
 
+
 ### Example 
 
 
-```
-from aspose import pycore
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing.activexcontrols import ControlType
+import aspose.pycore
 
 # Initialize a new workbook.
 book = Workbook()
-
 # Add a ToggleButtonActiveXControl.
 shape = book.worksheets[0].shapes.add_active_x_control(ControlType.TOGGLE_BUTTON, 1, 0, 1, 0, 100, 50)
-activeXControl = pycore.cast(Aspose.Cells.Drawing.ActiveXControls.ToggleButtonActiveXControl, shape.active_x_control)
-
+activeXControl = aspose.pycore.cast(Aspose.Cells.Drawing.ActiveXControls.ToggleButtonActiveXControl, shape.active_x_control)
 # do your business
 # Save the excel file.
 book.save("exmaple.xlsx")

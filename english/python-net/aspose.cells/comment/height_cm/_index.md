@@ -12,10 +12,15 @@ is_root: false
 
 
 Represents the height of the comment, in unit of centimeters.
+
 ### Example 
 
 
-`comment1.HeightCM = 1.0;`
+```python
+
+comment1.height_cm = 1.0
+
+```
 
 ### See Also
 * module [aspose.cells](../../)

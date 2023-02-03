@@ -12,6 +12,7 @@ is_root: false
 
 Gets the text of "Grand Total" label in the PivotTable.
 
+
 ### Returns 
 
 

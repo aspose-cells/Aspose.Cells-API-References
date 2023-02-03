@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the value or expression associated with conditional formatting.
+
 ### Remarks 
 
 

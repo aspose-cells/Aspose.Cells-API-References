@@ -12,6 +12,7 @@ is_root: false
 
 Adds the field to the specific area.
 
+
 ### Returns 
 
 
@@ -34,6 +35,7 @@ def add_field_to_area(self, field_type, field_name):
 
 Adds the field to the specific area.
 
+
 ### Returns 
 
 
@@ -55,6 +57,7 @@ def add_field_to_area(self, field_type, base_field_index):
 ## add_field_to_area(field_type, pivot_field) {#PivotFieldType-PivotField}
 
 Adds the field to the specific area.
+
 
 ### Returns 
 

@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets and sets the display mode of the background
+
 ### Remarks 
 
 

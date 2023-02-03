@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets the identifier of this shape.
+
 ### Example 
 
 
-`int id = shape.Id;`
+```python
+
+id = shape.id
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

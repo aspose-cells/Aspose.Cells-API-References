@@ -12,6 +12,7 @@ is_root: false
 
 Gets the range if this name refers to a range.
 
+
 ### Returns 
 
 
@@ -29,6 +30,7 @@ def get_range(self):
 ## get_range(recalculate) {#bool}
 
 Gets the range if this name refers to a range
+
 
 ### Returns 
 
@@ -51,6 +53,7 @@ def get_range(self, recalculate):
 
 Gets the range if this name refers to a range.
 If the reference of this name is not absolute, the range may be different for different cell.
+
 
 ### Returns 
 

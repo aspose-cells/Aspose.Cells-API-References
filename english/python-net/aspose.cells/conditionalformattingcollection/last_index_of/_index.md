@@ -12,6 +12,7 @@ is_root: false
 
 Searches for the specified object and returns the zero-based index of the last occurrence within the entire array list.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def last_index_of(self, item):
 ## last_index_of(item, index) {#FormatConditionCollection-int}
 
 Searches for the specified object and returns the zero-based index of the last occurrence within the range of elements in the array list that extends from the first element to the specified index.
+
 
 ### Returns 
 
@@ -54,6 +56,7 @@ def last_index_of(self, item, index):
 ## last_index_of(item, index, count) {#FormatConditionCollection-int-int}
 
 Searches for the specified object and returns the zero-based index of the last occurrence within the range of elements in the array list that contains the specified number of elements and ends at the specified index.
+
 
 ### Returns 
 

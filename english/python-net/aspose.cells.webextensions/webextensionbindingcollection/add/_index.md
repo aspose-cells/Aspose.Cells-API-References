@@ -12,6 +12,7 @@ is_root: false
 
 Adds an a binding relationship between an Office Add-in and the data in the document.
 
+
 ### Returns 
 
 

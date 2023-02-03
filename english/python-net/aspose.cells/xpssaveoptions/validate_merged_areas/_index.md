@@ -12,6 +12,7 @@ is_root: false
 
 
 Indicates whether validate merged cells before saving the file.
+
 ### Remarks 
 
 

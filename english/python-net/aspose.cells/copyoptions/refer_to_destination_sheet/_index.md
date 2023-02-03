@@ -14,6 +14,7 @@ is_root: false
 When copying the range in the same file and the chart refers to the source sheet,
 False means the copied chart's data source will not be changed.
 True means the copied chart's data source refers to the destination sheet.
+
 ### Remarks 
 
 

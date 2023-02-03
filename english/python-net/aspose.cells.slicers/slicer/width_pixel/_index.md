@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns or sets the width of the specified slicer, in pixels.
+
 ### Example 
 
 
-`slicer.WidthPixel = 120;`
+```python
+
+slicer.width_pixel = 120
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

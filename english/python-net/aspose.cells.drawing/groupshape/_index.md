@@ -166,132 +166,94 @@ Gets the child shape by index.
 | [get_grouped_shapes()](/cells/python-net/aspose.cells.drawing/groupshape/get_grouped_shapes/#) | Gets the shapes grouped by this shape. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.drawing import MsoLineDashStyle, MsoLineStyle, PlacementType
 from aspose.pydrawing import Color
 
 # Instantiate a new Workbook.
 excelbook = Workbook()
-
 # Add a group box to the first worksheet.
 box = excelbook.worksheets[0].shapes.add_group_box(1, 0, 1, 0, 300, 250)
-
 # Set the caption of the group box.
 box.text = "Age Groups"
 box.placement = PlacementType.FREE_FLOATING
-
 # Make it 2-D box.
 box.shadow = False
-
 # Add a radio button.
 radio1 = excelbook.worksheets[0].shapes.add_radio_button(3, 0, 2, 0, 30, 110)
-
 # Set its text string.
 radio1.text = "20-29"
-
 # Set A1 cell as a linked cell for the radio button.
 radio1.linked_cell = "A1"
-
 # Make the radio button 3-D.
 radio1.shadow = True
-
 # Set the foreground color of the radio button.
 radio1.fill_format.fore_color = Color.light_green
-
 # Set the line style of the radio button.
 radio1.line_format.style = MsoLineStyle.THICK_THIN
-
 # Set the weight of the radio button.
 radio1.line_format.weight = 4
-
 # Set the line color of the radio button.
 radio1.line_format.fore_color = Color.blue
-
 # Set the dash style of the radio button.
 radio1.line_format.dash_style = MsoLineDashStyle.SOLID
-
 # Make the line format visible.
 radio1.line_format.is_visible = True
-
 # Make the fill format visible.
 radio1.fill_format.is_visible = True
-
 # Add another radio button.
 radio2 = excelbook.worksheets[0].shapes.add_radio_button(6, 0, 2, 0, 30, 110)
-
 # Set its text string.
 radio2.text = "30-39"
-
 # Set A1 cell as a linked cell for the radio button.
 radio2.linked_cell = "A1"
-
 # Make the radio button 3-D.
 radio2.shadow = True
-
 # Set the foreground color of the radio button.
 radio2.fill_format.fore_color = Color.light_green
-
 # Set the line style of the radio button.
 radio2.line_format.style = MsoLineStyle.THICK_THIN
-
 # Set the weight of the radio button.
 radio2.line_format.weight = 4
-
 # Set the line color of the radio button.
 radio2.line_format.fore_color = Color.blue
-
 # Set the dash style of the radio button.
 radio2.line_format.dash_style = MsoLineDashStyle.SOLID
-
 # Make the line format visible.
 radio2.line_format.is_visible = True
-
 # Make the fill format visible.
 radio2.fill_format.is_visible = True
-
 # Add another radio button.
 radio3 = excelbook.worksheets[0].shapes.add_radio_button(9, 0, 2, 0, 30, 110)
-
 # Set its text string.
 radio3.text = "40-49"
-
 # Set A1 cell as a linked cell for the radio button.
 radio3.linked_cell = "A1"
-
 # Make the radio button 3-D.
 radio3.shadow = True
-
 # Set the foreground color of the radio button.
 radio3.fill_format.fore_color = Color.light_green
-
 # Set the line style of the radio button.
 radio3.line_format.style = MsoLineStyle.THICK_THIN
-
 # Set the weight of the radio button.
 radio3.line_format.weight = 4
-
 # Set the line color of the radio button.
 radio3.line_format.fore_color = Color.blue
-
 # Set the dash style of the radio button.
 radio3.line_format.dash_style = MsoLineDashStyle.SOLID
-
 # Make the line format visible.
 radio3.line_format.is_visible = True
-
 # Make the fill format visible.
 radio3.fill_format.is_visible = True
-
 # Get the shapes.
 shapeobjects = [box, radio1, radio2, radio3]
-
 # Group the shapes.
 group = excelbook.worksheets[0].shapes.group(shapeobjects)
-
 # Save the excel file.
 excelbook.save("groupshapes.xls")
 

@@ -13,6 +13,7 @@ is_root: false
 
 Indicates whether auto fit row height when the cells is merged in a row.
 The default value is false.
+
 ### Remarks 
 
 

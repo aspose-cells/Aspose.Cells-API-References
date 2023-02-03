@@ -12,10 +12,11 @@ is_root: false
 
 
 Represents major gridlines on a chart axis.
+
 ### Example 
 
 
-```
+```python
 
 chart.value_axis.major_grid_lines.is_visible = False
 chart.category_axis.major_grid_lines.is_visible = True

@@ -12,10 +12,6 @@ is_root: false
 
 
 Gets and sets the group's name.
-### Example 
-
-
-`activeXControl.GroupName = "GroupName123";`
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

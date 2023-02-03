@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets the count of rows in the range.
+
 ### Remarks 
 
 

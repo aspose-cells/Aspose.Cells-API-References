@@ -12,6 +12,7 @@ is_root: false
 
 Checks whether the current string value of cell needs to be gathered into a global pool.
 
+
 ### Returns 
 
 

@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns a [Shape.fill_format](/cells/python-net/aspose.cells.drawing/shape#fill_format) object that contains fill formatting properties for the specified shape.
+
 ### Example 
 
 
-`Aspose.Cells.Drawing.FillFormat fillFmt = shape.Fill;`
+```python
+
+fillFmt = shape.fill
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

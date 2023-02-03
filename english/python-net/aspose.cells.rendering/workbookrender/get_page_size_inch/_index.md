@@ -12,6 +12,7 @@ is_root: false
 
 Get page size in inch of output image.
 
+
 ### Returns 
 
 

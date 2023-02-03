@@ -13,6 +13,7 @@ is_root: false
 
 Indicates whether update scaling factor before saving the file 
 if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled.
+
 ### Remarks 
 
 

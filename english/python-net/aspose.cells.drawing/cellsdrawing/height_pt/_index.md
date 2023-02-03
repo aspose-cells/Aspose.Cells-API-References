@@ -12,15 +12,14 @@ is_root: false
 
 
 Represents the height of the shape, in unit of points.
+
 ### Example 
 
 
-```
+```python
 
-if shape.height_pt==3:
+if shape.height_pt == 3:
     shape.height_pt = 1
-
-
 
 ```
 

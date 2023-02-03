@@ -12,15 +12,14 @@ is_root: false
 
 
 Represents upper left corner column index.
+
 ### Example 
 
 
-```
+```python
 
-if shape.upper_left_column==3:
+if shape.upper_left_column == 3:
     shape.upper_left_column = 1
-
-
 
 ```
 

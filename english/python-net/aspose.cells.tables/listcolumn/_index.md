@@ -34,26 +34,21 @@ The ListColumn type exposes the following members:
 | [set_custom_calculated_formula(formula, is_r1c1, is_local)](/cells/python-net/aspose.cells.tables/listcolumn/set_custom_calculated_formula/#str-bool-bool) | Sets the formula for this list column. |
 
 
+
 ### Example 
 
 
-```
-from aspose.cells import Workbook
+```python
+from aspose.cells import CellsHelper, Workbook
 from aspose.cells.tables import TotalsCalculation
 
 workbook = Workbook()
 cells = workbook.worksheets[0].cells
 for i in range(5):
     cells.get(0, i).put_value(CellsHelper.column_index_to_name(i))
-
-
 for row in range(1, 10):
     for column in range(4):
-        cells.get(row, column).put_value(row*column)
-
-    
-
-
+        cells.get(row, column).put_value(row * column)
 tables = workbook.worksheets[0].list_objects
 index = tables.add(0, 0, 9, 4, True)
 table = tables[0]

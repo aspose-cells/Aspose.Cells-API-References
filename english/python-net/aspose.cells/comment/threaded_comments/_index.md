@@ -12,17 +12,16 @@ is_root: false
 
 
 Gets the list of threaded comments;
+
 ### Example 
 
 
-```
+```python
 
 threadedComments = comment1.threaded_comments
 for i in range(len(threadedComments)):
     tc = threadedComments[i]
-note = tc.notes
-
-
+    note = tc.notes
 
 ```
 

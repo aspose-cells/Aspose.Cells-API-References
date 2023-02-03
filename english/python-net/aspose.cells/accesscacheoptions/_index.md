@@ -31,6 +31,7 @@ The AccessCacheOptions type exposes the following members:
 | VALIDATION | Apply possible optimization for getting validation result.<br/>All data and settings which may affect the result of validation(settings of the validation,<br/>dependent cell values, etc.) should not be changed during the optimized access. |
 
 
+
 ### Remarks 
 
 

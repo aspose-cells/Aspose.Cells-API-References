@@ -12,6 +12,7 @@ is_root: false
 
 Gets standard English font style name(Regular, Bold, Italic) for Header/Footer according to given locale font style name.
 
+
 ### Returns 
 
 

@@ -49,7 +49,8 @@ Tries to find the license in the following locations:
 1. Explicit path.
 
 
-2. An embedded resource in the client's calling assembly.### Example 
+2. An embedded resource in the client's calling assembly.
+### Example 
 
 
 In this example, an attempt will be made to find a license file named MyLicense.lic
@@ -59,7 +60,7 @@ in the folder that contains
 the component, in the folder that contains the calling assembly,
 in the folder of the entry assembly and then in the embedded resources of the calling assembly.
 
-```
+```python
 from aspose.cells import License
 
 license = License()
@@ -87,10 +88,11 @@ def set_license(self, stream):
 | stream | io.RawIOBase | A stream that contains the license. |
 ### Remarks
 
-Use this method to load a license from a stream.### Example 
+Use this method to load a license from a stream.
+### Example 
 
 
-```
+```python
 from aspose.cells import License
 
 license = License()

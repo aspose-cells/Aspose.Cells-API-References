@@ -12,10 +12,11 @@ is_root: false
 
 
 Represents the text options of the shape.
+
 ### Example 
 
 
-```
+```python
 from aspose.pydrawing import Color
 
 opt = shape.text_options

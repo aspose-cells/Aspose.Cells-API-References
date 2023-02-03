@@ -12,6 +12,7 @@ is_root: false
 
 Adds a free floating shape to the worksheet.Only applies for line/image shape.
 
+
 ### Returns 
 
 
@@ -33,24 +34,22 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 | width | int | Represents the width of LineShape, in unit of pixel. |
 | image_data | bytes | The image data,only applies for the picture. |
 | is_original_size | bool | Whether the shape use original size if the shape is image. |
+
 ### Example 
 
 
-```
-from aspose import pycore
+```python
 from aspose.cells.drawing import MsoDrawingType
+import aspose.pycore
 
 # add a line
 floatingShape_Line = shapes.add_free_floating_shape(MsoDrawingType.LINE, 100, 100, 100, 50, None, False)
-
 # add a picture
 imageData = None
 with open("image.jpg", "rb") as fs:
-    len = pycore.cast(System.Int32, utils.filesize(fs))
-imageData = bytearray(len)
-fs.readinto(imageData)
-
-
+    len = aspose.pycore.cast(System.Int32, utils.filesize(fs))
+    imageData = bytearray(len)
+    fs.readinto(imageData)
 floatingShape_Picture = shapes.add_free_floating_shape(MsoDrawingType.PICTURE, 200, 100, 100, 50, imageData, False)
 
 ```

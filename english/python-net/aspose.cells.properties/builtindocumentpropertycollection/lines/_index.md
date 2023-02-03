@@ -12,6 +12,7 @@ is_root: false
 
 
 Represents an estimate of the number of lines in the document.
+
 ### Remarks 
 
 

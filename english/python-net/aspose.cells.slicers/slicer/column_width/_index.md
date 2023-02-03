@@ -12,10 +12,15 @@ is_root: false
 
 
 Returns or sets the width, in points, of each column in the slicer.
+
 ### Example 
 
 
-`slicer.ColumnWidth = 80;`
+```python
+
+slicer.column_width = 80
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

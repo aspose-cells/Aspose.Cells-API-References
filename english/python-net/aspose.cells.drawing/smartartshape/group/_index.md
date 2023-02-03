@@ -12,10 +12,15 @@ is_root: false
 
 
 Gets the group shape which contains this shape.
+
 ### Example 
 
 
-`Aspose.Cells.Drawing.GroupShape groupShape = shape.Group;`
+```python
+
+groupShape = shape.group
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

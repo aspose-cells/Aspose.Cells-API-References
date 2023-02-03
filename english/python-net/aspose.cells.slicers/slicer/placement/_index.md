@@ -13,10 +13,16 @@ is_root: false
 
 Represents the way the drawing object is attached to the cells below it.
 The property controls the placement of an object on a worksheet.
+
 ### Example 
 
 
-`slicer.Placement = PlacementType.FreeFloating;`
+```python
+from aspose.cells.drawing import PlacementType
+
+slicer.placement = PlacementType.FREE_FLOATING
+
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

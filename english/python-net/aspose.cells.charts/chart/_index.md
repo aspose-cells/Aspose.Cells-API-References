@@ -98,10 +98,11 @@ The Chart type exposes the following members:
 | [set_chart_data_range(area, is_vertical)](/cells/python-net/aspose.cells.charts/chart/set_chart_data_range/#str-bool) | Specifies data range for a chart. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.charts import ChartType
 

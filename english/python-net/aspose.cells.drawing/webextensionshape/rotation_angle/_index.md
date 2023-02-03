@@ -12,15 +12,14 @@ is_root: false
 
 
 Gets and sets the rotation of the shape.
+
 ### Example 
 
 
-```
+```python
 
-if shape.rotation_angle==45:
+if shape.rotation_angle == 45:
     shape.rotation_angle = 60
-
-
 
 ```
 

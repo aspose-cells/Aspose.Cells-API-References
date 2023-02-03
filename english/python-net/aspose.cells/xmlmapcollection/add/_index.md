@@ -12,6 +12,7 @@ is_root: false
 
 Add a [XmlMap](/cells/python-net/aspose.cells/xmlmap) by the url/path of a xml/xsd file.
 
+
 ### Returns 
 
 
@@ -27,20 +28,19 @@ def add(self, url):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | url | str | url/path of a xml/xsd file. |
+
 ### Example 
 
 
 The following code adds two XmlMaps by a xsd file and a xml file.
 
-```
+```python
 from aspose.cells import Workbook
 
 wb = Workbook()
 xmlMapCollection = wb.worksheets.xml_maps
-
 # Add a XmlMap by a xsd file.
 xmlMapCollection.add("schema.xsd")
-
 # Add a XmlMap by a xml file.
 xmlMapCollection.add("xml.xml")
 wb.save("twoXmlMaps.xlsx")

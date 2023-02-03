@@ -78,84 +78,63 @@ The Series type exposes the following members:
 | [move(count)](/cells/python-net/aspose.cells.charts/series/move/#int) | Moves the series up or down. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 from aspose.cells.charts import ChartMarkerType, ChartType, FormattingType
 from aspose.pydrawing import Color
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # Adding a new worksheet to the Excel object
 sheetIndex = workbook.worksheets.add()
-
 # Obtaining the reference of the newly added worksheet by passing its sheet index
 worksheet = workbook.worksheets[sheetIndex]
-
 # Adding a sample value to "A1" cell
 worksheet.cells.get("A1").put_value(50)
-
 # Adding a sample value to "A2" cell
 worksheet.cells.get("A2").put_value(100)
-
 # Adding a sample value to "A3" cell
 worksheet.cells.get("A3").put_value(150)
-
 # Adding a sample value to "A4" cell
 worksheet.cells.get("A4").put_value(200)
-
 # Adding a sample value to "B1" cell
 worksheet.cells.get("B1").put_value(60)
-
 # Adding a sample value to "B2" cell
 worksheet.cells.get("B2").put_value(32)
-
 # Adding a sample value to "B3" cell
 worksheet.cells.get("B3").put_value(50)
-
 # Adding a sample value to "B4" cell
 worksheet.cells.get("B4").put_value(40)
-
 # Adding a sample value to "C1" cell as category data
 worksheet.cells.get("C1").put_value("Q1")
-
 # Adding a sample value to "C2" cell as category data
 worksheet.cells.get("C2").put_value("Q2")
-
 # Adding a sample value to "C3" cell as category data
 worksheet.cells.get("C3").put_value("Y1")
-
 # Adding a sample value to "C4" cell as category data
 worksheet.cells.get("C4").put_value("Y2")
-
 # Adding a chart to the worksheet
 chartIndex = worksheet.charts.add(ChartType.COLUMN, 5, 0, 15, 5)
-
 # Accessing the instance of the newly added chart
 chart = worksheet.charts[chartIndex]
-
 # Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
 seriesIndex = chart.n_series.add("A1:B4", True)
-
 # Setting the data source for the category data of NSeries
 chart.n_series.category_data = "C1:C4"
 series = chart.n_series[seriesIndex]
-
 # Setting the values of the series.
 series.values = "=B1:B4"
-
 # Changing the chart type of the series.
 series.type = ChartType.LINE
-
 # Setting marker properties.
 series.marker.marker_style = ChartMarkerType.CIRCLE
 series.marker.foreground_color_set_type = FormattingType.AUTOMATIC
 series.marker.foreground_color = Color.black
 series.marker.background_color_set_type = FormattingType.AUTOMATIC
-
 # do your business
 # Saving the Excel file
 workbook.save("book1.xls")

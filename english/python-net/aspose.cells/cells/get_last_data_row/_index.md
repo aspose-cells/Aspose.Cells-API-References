@@ -12,6 +12,7 @@ is_root: false
 
 Gets the last row index of cell which contains data in the specified column.
 
+
 ### Returns 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 Gets the max grouped column outline level (zero-based).
 
+
 ### Returns 
 
 

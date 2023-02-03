@@ -12,6 +12,7 @@ is_root: false
 
 Adds a smart tag.
 
+
 ### Returns 
 
 

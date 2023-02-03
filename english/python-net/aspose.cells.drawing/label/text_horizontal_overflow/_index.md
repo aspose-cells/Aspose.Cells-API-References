@@ -12,16 +12,15 @@ is_root: false
 
 
 Gets and sets the text horizontal overflow type of the shape which contains text.
+
 ### Example 
 
 
-```
+```python
 from aspose.cells.drawing import TextOverflowType
 
-if shape.text_horizontal_overflow==TextOverflowType.CLIP:
+if shape.text_horizontal_overflow == TextOverflowType.CLIP:
     shape.text_horizontal_overflow = TextOverflowType.OVERFLOW
-
-
 
 ```
 

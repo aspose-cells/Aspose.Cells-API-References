@@ -12,6 +12,7 @@ is_root: false
 
 Indicates if the shape has glow effect data.
 
+
 ### Returns 
 
 

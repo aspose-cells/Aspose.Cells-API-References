@@ -156,21 +156,19 @@ The RectangleShape type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/rectangleshape/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
 workbook = Workbook()
-
 # get ShapeCollection
 shapes = workbook.worksheets[0].shapes
-
 # add a rectangle
 rectangle = shapes.add_rectangle(2, 0, 2, 0, 130, 130)
-
 # do your business
 # Save the excel file.
 workbook.save("result.xlsx")

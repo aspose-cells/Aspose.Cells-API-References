@@ -163,6 +163,7 @@ The ScrollBar type exposes the following members:
 | [is_same_setting(obj)](/cells/python-net/aspose.cells.drawing/scrollbar/is_same_setting/#any) | Returns whether the shape is same. |
 
 
+
 ### Remarks 
 
 

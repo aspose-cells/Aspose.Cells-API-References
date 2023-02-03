@@ -12,6 +12,7 @@ is_root: false
 
 Adds a hyperlink to a specified cell or a range of cells.
 
+
 ### Returns 
 
 
@@ -36,6 +37,7 @@ def add(self, cell_name, total_rows, total_columns, address):
 
 Adds a hyperlink to a specified cell or a range of cells.
 
+
 ### Returns 
 
 
@@ -55,10 +57,11 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_rows | int | Number of rows in this hyperlink range. |
 | total_columns | int | Number of columns of this hyperlink range. |
 | address | str | Address of the hyperlink. |
+
 ### Example 
 
 
-```
+```python
 from aspose.cells import Workbook
 
 # Instantiating a Workbook object
@@ -73,6 +76,7 @@ worksheet.hyperlinks.add("A5", 1, 1, "c:\\book1.xls")
 ## add(start_cell_name, end_cell_name, address, text_to_display, screen_tip) {#str-str-str-str-str}
 
 Adds a hyperlink to a specified cell or a range of cells.
+
 
 ### Returns 
 

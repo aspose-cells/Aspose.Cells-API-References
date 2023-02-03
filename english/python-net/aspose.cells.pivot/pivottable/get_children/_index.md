@@ -12,6 +12,7 @@ is_root: false
 
 Gets the Children Pivot Tables which use this PivotTable data as data source.
 
+
 ### Returns 
 
 

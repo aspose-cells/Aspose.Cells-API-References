@@ -12,6 +12,7 @@ is_root: false
 
 Returns a Characters object that represents a range of characters within the text.
 
+
 ### Returns 
 
 
@@ -30,10 +31,15 @@ def characters(self, start_index, length):
 | length | int | The number of characters. |
 ### Remarks
 
-This method only works on shape with title.### Example 
+This method only works on shape with title.
+### Example 
 
 
-`Aspose.Cells.FontSetting fontSetting = shape.Characters(0, 4);`
+```python
+
+fontSetting = shape.characters(0, 4)
+
+```
 
 
 

@@ -12,6 +12,7 @@ is_root: false
 
 
 Gets or sets a value indicating whether a cell can be modified or not.
+
 ### Remarks 
 
 

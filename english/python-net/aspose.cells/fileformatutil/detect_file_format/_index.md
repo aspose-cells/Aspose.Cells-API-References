@@ -12,6 +12,7 @@ is_root: false
 
 Detects and returns the information about a format of an excel stored in a stream.
 
+
 ### Returns 
 
 
@@ -32,6 +33,7 @@ def detect_file_format(self, stream):
 ## detect_file_format(file_path) {#str}
 
 Detects and returns the information about a format of an excel stored in a file.
+
 
 ### Returns 
 
@@ -54,6 +56,7 @@ def detect_file_format(self, file_path):
 
 Detects and returns the information about a format of an excel stored in a stream.
 
+
 ### Returns 
 
 
@@ -75,6 +78,7 @@ def detect_file_format(self, stream, password):
 ## detect_file_format(file_path, password) {#str-str}
 
 Detects and returns the information about a format of an excel stored in a file.
+
 
 ### Returns 
 

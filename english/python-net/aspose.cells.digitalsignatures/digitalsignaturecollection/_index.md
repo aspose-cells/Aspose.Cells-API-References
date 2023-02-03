@@ -28,28 +28,25 @@ The DigitalSignatureCollection type exposes the following members:
 | [add(digital_signature)](/cells/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Add one signature to DigitalSignatureCollection. |
 
 
+
 ### Example 
 
 
 The following example shows how to validate digital signature.
 
-```
+```python
 from aspose.cells import Workbook
 
 # workbook from a signed source file
 signedWorkbook = Workbook(r"signedFile.xlsx")
-
 # wb.IsDigitallySigned is true when the workbook is signed already.
 print(signedWorkbook.is_digitally_signed)
-
 # get digitalSignature collection from workbook
 existingDsc = signedWorkbook.get_digital_signature()
 for existingDs in existingDsc:
     print(existingDs.comments)
-print(existingDs.sign_time)
-print(existingDs.is_valid)
-
-
+    print(existingDs.sign_time)
+    print(existingDs.is_valid)
 
 ```
 ### See Also

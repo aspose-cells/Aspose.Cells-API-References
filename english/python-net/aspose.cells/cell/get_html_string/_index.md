@@ -12,6 +12,7 @@ is_root: false
 
 Gets the html string which contains data and some formats in this cell.
 
+
 ### Returns 
 
 

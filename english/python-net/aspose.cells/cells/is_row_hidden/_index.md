@@ -12,6 +12,7 @@ is_root: false
 
 Checks whether a row at given index is hidden.
 
+
 ### Returns 
 
 

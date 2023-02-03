@@ -12,6 +12,7 @@ is_root: false
 
 Gets format conditions which applies to this cell.
 
+
 ### Returns 
 
 

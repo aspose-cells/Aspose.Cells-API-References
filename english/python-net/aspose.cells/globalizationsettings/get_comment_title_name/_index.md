@@ -12,6 +12,7 @@ is_root: false
 
 Gets the locale dependent comment title name according to comment title type.
 
+
 ### Returns 
 
 

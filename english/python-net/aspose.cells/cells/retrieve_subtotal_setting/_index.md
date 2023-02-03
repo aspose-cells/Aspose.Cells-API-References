@@ -12,6 +12,7 @@ is_root: false
 
 Retrieves subtotals setting of the range.
 
+
 ### Returns 
 
 

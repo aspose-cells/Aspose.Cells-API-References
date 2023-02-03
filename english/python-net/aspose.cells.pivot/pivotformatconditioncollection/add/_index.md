@@ -12,6 +12,7 @@ is_root: false
 
 Adds a pivot FormatCondition to the collection.
 
+
 ### Returns 
 
 

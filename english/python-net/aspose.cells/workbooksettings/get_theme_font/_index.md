@@ -12,6 +12,7 @@ is_root: false
 
 Gets the default theme font name.
 
+
 ### Returns 
 
 

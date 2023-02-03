@@ -12,10 +12,15 @@ is_root: false
 
 
 Specifies an optional string that an application can use to Identify the particular shape.
+
 ### Example 
 
 
-`string spid = shape.Spid;`
+```python
+
+spid = shape.spid
+
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

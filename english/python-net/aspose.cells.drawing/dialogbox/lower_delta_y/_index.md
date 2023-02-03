@@ -12,19 +12,19 @@ is_root: false
 
 
 Gets or sets the shape's vertical offset from its lower right corner row.
+
 ### Remarks 
 
 
 The range of value is 0 to 256.
+
 ### Example 
 
 
-```
+```python
 
-if shape.lower_delta_y==3:
+if shape.lower_delta_y == 3:
     shape.lower_delta_y = 1
-
-
 
 ```
 
