@@ -27,6 +27,6 @@ The CalculationPrecisionStrategy type exposes the following members:
 | DECIMAL | Uses decimal as operands when possible.<br/>Most inefficient for performance. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -18,7 +18,17 @@ Gets or sets the IStreamProvider for exporting objects.
 
 If saving as SVG or Tiff, this property is ignored .
 Otherwise, if more than one image should be saving, we will write other images by this.
+### Definition:
+```python
+@property
+def stream_provider(self):
+    ...
+@stream_provider.setter
+def stream_provider(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [IStreamProvider](/cells/python-net/aspose.cells/istreamprovider)
 * class [SvgSaveOptions](/cells/python-net/aspose.cells/svgsaveoptions)

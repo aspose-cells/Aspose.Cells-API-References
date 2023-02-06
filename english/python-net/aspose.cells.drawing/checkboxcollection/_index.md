@@ -52,6 +52,7 @@ checkBox = sheet.check_boxes[index]
 checkBox.text = "Check Box 1"
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [CheckBox](/cells/python-net/aspose.cells.drawing/checkbox)

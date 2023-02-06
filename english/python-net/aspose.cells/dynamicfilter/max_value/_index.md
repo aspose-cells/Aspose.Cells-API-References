@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the dynamic filter max value.
+### Definition:
+```python
+@property
+def max_value(self):
+    ...
+@max_value.setter
+def max_value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

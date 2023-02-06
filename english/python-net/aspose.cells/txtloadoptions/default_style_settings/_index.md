@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the default style settings for initializing styles of the workbook
+### Definition:
+```python
+@property
+def default_style_settings(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [DefaultStyleSettings](/cells/python-net/aspose.cells/defaultstylesettings)
 * class [TxtLoadOptions](/cells/python-net/aspose.cells/txtloadoptions)

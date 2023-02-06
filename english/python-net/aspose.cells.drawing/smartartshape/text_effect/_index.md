@@ -22,7 +22,14 @@ Applies to Shape objects that represent WordArt.
 textEffectFormat = shape.text_effect
 
 ```
+### Definition:
+```python
+@property
+def text_effect(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [SmartArtShape](/cells/python-net/aspose.cells.drawing/smartartshape)
+* class [TextEffectFormat](/cells/python-net/aspose.cells.drawing/texteffectformat)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and set the descriptive text that appears on a control.
+### Definition:
+```python
+@property
+def caption(self):
+    ...
+@caption.setter
+def caption(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

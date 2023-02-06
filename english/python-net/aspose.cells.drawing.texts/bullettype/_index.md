@@ -25,6 +25,6 @@ The BulletType type exposes the following members:
 | AUTO_NUMBERED | Automatic numbered bullet. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

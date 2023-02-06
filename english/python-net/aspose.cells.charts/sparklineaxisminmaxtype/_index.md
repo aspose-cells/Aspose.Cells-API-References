@@ -24,6 +24,6 @@ The SparklineAxisMinMaxType type exposes the following members:
 | CUSTOM | Custom value for sparkline. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

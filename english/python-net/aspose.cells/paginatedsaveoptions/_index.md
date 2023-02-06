@@ -54,7 +54,8 @@ The PaginatedSaveOptions type exposes the following members:
 | [page_saving_callback](/cells/python-net/aspose.cells/paginatedsaveoptions/page_saving_callback) | Control/Indicate progress of page saving process. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [PaginatedSaveOptions](/cells/python-net/aspose.cells/paginatedsaveoptions)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)

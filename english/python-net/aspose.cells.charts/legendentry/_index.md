@@ -28,6 +28,6 @@ The LegendEntry type exposes the following members:
 | [background_mode](/cells/python-net/aspose.cells.charts/legendentry/background_mode) | Gets and sets the display mode of the background |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

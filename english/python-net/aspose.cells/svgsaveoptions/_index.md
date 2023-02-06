@@ -49,7 +49,11 @@ The SvgSaveOptions type exposes the following members:
 | [sheet_index](/cells/python-net/aspose.cells/svgsaveoptions/sheet_index) | Gets and sets which worksheet should be exported.<br/>If the value is -1, the active  worksheet will be exported. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
 * class [ImageSaveOptions](/cells/python-net/aspose.cells/imagesaveoptions)
+* class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)
+* class [SheetRender](/cells/python-net/aspose.cells.rendering/sheetrender)
+* class [SvgSaveOptions](/cells/python-net/aspose.cells/svgsaveoptions)
+* class [WorkbookRender](/cells/python-net/aspose.cells.rendering/workbookrender)

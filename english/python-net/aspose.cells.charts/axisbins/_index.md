@@ -40,6 +40,6 @@ The AxisBins type exposes the following members:
 | [reset_underflow()](/cells/python-net/aspose.cells.charts/axisbins/reset_underflow/#) | Reset the underflow |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

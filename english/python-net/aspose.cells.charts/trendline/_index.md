@@ -119,7 +119,9 @@ trendline.display_r_squared = True
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
-* class [Line](/cells/python-net/aspose.cells.charts/line)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)
+* class [Trendline](/cells/python-net/aspose.cells.charts/trendline)
+* class [WeightType](/cells/python-net/aspose.cells.drawing/weighttype)

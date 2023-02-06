@@ -22,6 +22,12 @@ Returns the name of cache field
 print(slicerCache.source_name)
 
 ```
+### Definition:
+```python
+@property
+def source_name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

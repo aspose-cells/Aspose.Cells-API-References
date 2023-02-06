@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether column stripe formatting is applied.
+### Definition:
+```python
+@property
+def show_pivot_style_column_stripes(self):
+    ...
+@show_pivot_style_column_stripes.setter
+def show_pivot_style_column_stripes(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

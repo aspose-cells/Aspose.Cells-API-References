@@ -36,6 +36,6 @@ The PresetMaterialType type exposes the following members:
 | WARM_MATTE | Warm matte |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

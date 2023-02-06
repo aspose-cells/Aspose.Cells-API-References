@@ -34,4 +34,5 @@ def add(self, type, value):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [ConditionalFormattingValue](/cells/python-net/aspose.cells/conditionalformattingvalue)
 * class [ConditionalFormattingValueCollection](/cells/python-net/aspose.cells/conditionalformattingvaluecollection)

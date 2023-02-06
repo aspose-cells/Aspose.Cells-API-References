@@ -12,6 +12,15 @@ is_root: false
 
 
 Whether there is text qualifier for cell value. Default is true.
+### Definition:
+```python
+@property
+def has_text_qualifier(self):
+    ...
+@has_text_qualifier.setter
+def has_text_qualifier(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

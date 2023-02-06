@@ -23,6 +23,6 @@ The PlotDataByType type exposes the following members:
 | COLUMN | By column. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

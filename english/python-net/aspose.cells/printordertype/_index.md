@@ -23,6 +23,6 @@ The PrintOrderType type exposes the following members:
 | OVER_THEN_DOWN | Over, then down |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

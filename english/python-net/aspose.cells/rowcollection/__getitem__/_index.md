@@ -21,4 +21,5 @@ Gets a [Row](/cells/python-net/aspose.cells/row) object by given row index. The 
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Row](/cells/python-net/aspose.cells/row)
 * class [RowCollection](/cells/python-net/aspose.cells/rowcollection)

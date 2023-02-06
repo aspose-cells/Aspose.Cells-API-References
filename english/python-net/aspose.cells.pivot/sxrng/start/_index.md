@@ -12,6 +12,12 @@ is_root: false
 
 
 Represents the start object for the group range.
+### Definition:
+```python
+@property
+def start(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

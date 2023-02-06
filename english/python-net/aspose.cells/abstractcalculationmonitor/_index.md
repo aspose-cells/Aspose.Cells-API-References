@@ -32,6 +32,6 @@ The AbstractCalculationMonitor type exposes the following members:
 | [on_circular(circular_cells_data)](/cells/python-net/aspose.cells/abstractcalculationmonitor/on_circular/#collections.abc.Iterator) | Implement this method to do business when calculating formulas with circular references. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

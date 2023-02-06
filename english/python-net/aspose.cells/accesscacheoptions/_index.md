@@ -48,6 +48,6 @@ And performance of accessing data depends on many aspects, the use of caching me
 does not guarantee that performance will be improved. For some situations,
 such as the dataset to be accessed is small, using cache may cause even more time because
 caching itself also needs certain extra time.
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

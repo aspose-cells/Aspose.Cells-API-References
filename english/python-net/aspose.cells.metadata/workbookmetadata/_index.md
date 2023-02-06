@@ -53,6 +53,7 @@ meta.custom_document_properties.add("test", "test")
 meta.save("book2.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.metadata](../)
+### See Also
+* module [aspose.cells.metadata](..)
+* class [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty)

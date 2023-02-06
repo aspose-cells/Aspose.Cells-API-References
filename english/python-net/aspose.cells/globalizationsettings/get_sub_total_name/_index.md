@@ -39,3 +39,4 @@ Aspose apologizes for any inconvenience you may have experienced.
 ### See Also
 * module [aspose.cells](../../)
 * class [GlobalizationSettings](/cells/python-net/aspose.cells/globalizationsettings)
+* class [PivotFieldSubtotalType](/cells/python-net/aspose.cells.pivot/pivotfieldsubtotaltype)

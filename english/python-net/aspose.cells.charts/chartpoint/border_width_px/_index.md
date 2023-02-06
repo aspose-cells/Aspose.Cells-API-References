@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the width of border in units of pixels after calls Chart.Calculate() method.
+### Definition:
+```python
+@property
+def border_width_px(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

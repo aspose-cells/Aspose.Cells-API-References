@@ -12,6 +12,12 @@ is_root: false
 
 
 Specifies The unique identifier of this connection.
+### Definition:
+```python
+@property
+def connection_id(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

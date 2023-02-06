@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the length of the characters.
+### Definition:
+```python
+@property
+def length(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

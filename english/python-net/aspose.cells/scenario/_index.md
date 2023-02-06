@@ -27,6 +27,6 @@ The Scenario type exposes the following members:
 | [input_cells](/cells/python-net/aspose.cells/scenario/input_cells) | Gets the input cells of scenario. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

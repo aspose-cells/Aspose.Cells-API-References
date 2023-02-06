@@ -25,6 +25,6 @@ The TextOrientationType type exposes the following members:
 | TOP_TO_BOTTOM | Displays text from top to bottom of the cell. Stacked text. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -35,6 +35,6 @@ The DigitalSignature type exposes the following members:
 | [x_ad_es_type](/cells/python-net/aspose.cells.digitalsignatures/digitalsignature/x_ad_es_type) | XAdES type.<br/>Default value is None(XAdES is off). |
 
 
-### See Also
 
-* module [aspose.cells.digitalsignatures](../)
+### See Also
+* module [aspose.cells.digitalsignatures](..)

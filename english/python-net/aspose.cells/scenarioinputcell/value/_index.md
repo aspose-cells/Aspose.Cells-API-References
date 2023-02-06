@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets value of the input cell.
+### Definition:
+```python
+@property
+def value(self):
+    ...
+@value.setter
+def value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

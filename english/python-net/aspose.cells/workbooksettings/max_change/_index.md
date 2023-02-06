@@ -19,6 +19,15 @@ Returns or sets the maximum number of change to resolve a circular reference.
 NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxChange.
 This property will be removed 12 months later since February 2022. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def max_change(self):
+    ...
+@max_change.setter
+def max_change(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

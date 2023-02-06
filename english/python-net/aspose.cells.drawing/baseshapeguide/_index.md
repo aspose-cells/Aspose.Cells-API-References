@@ -16,6 +16,6 @@ Represents the shape guide.
 
 The BaseShapeGuide type exposes the following members:
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

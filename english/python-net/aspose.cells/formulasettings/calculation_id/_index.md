@@ -23,6 +23,15 @@ with the application that opens the resultant file, the application will recalcu
 on this workbook immediately after loading the file.
 For performance consideration for most users' applications, we do not calculate any formula on the workbook automatically,
 no matter what value has been set for this property.
+### Definition:
+```python
+@property
+def calculation_id(self):
+    ...
+@calculation_id.setter
+def calculation_id(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -28,6 +28,6 @@ The ProtectionType type exposes the following members:
 | NONE | Represents no protection. Only for Reading property. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

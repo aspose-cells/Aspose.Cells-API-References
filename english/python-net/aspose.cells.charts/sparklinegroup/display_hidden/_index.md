@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether to show data in hidden rows and columns.
+### Definition:
+```python
+@property
+def display_hidden(self):
+    ...
+@display_hidden.setter
+def display_hidden(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

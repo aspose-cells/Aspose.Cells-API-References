@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies a boolean value that indicates the application automatically compressed pictures in the workbook.
+### Definition:
+```python
+@property
+def auto_compress_pictures(self):
+    ...
+@auto_compress_pictures.setter
+def auto_compress_pictures(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

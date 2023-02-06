@@ -3,7 +3,7 @@ title: date_time_value property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.cells/cell/date_time_value/
 is_root: false
 ---
@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the DateTime value contained in the cell.
+### Definition:
+```python
+@property
+def date_time_value(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

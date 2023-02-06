@@ -23,6 +23,7 @@ The DropBars type exposes the following members:
 | [area](/cells/python-net/aspose.cells.charts/dropbars/area) | Gets the [DropBars.area](/cells/python-net/aspose.cells.charts/dropbars#area). |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)

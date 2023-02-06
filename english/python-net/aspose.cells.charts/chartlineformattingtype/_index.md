@@ -25,6 +25,6 @@ The ChartLineFormattingType type exposes the following members:
 | GRADIENT | Gradient |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

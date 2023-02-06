@@ -208,7 +208,11 @@ listBox.shadow = True
 workbook.save(r"tstlistbox.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
+* class [ListBox](/cells/python-net/aspose.cells.drawing/listbox)
+* class [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 * class [Shape](/cells/python-net/aspose.cells.drawing/shape)

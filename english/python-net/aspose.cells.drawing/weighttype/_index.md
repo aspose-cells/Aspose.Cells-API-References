@@ -25,6 +25,6 @@ The WeightType type exposes the following members:
 | WIDE_LINE | Represents the weight of wide line. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

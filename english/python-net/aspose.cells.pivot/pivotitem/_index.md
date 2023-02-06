@@ -35,6 +35,6 @@ The PivotItem type exposes the following members:
 | [get_date_time_value()](/cells/python-net/aspose.cells.pivot/pivotitem/get_date_time_value/#) | Gets the date time value of the pivot item<br/>If the value is null ,it will return DateTime.MinValue |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

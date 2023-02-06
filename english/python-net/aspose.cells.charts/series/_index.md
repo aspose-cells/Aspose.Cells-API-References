@@ -140,6 +140,9 @@ series.marker.background_color_set_type = FormattingType.AUTOMATIC
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [DropBars](/cells/python-net/aspose.cells.charts/dropbars)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)
+* class [ShapePropertyCollection](/cells/python-net/aspose.cells.drawing/shapepropertycollection)

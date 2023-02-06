@@ -12,6 +12,15 @@ is_root: false
 
 
 Locked setting will be applied.
+### Definition:
+```python
+@property
+def locked(self):
+    ...
+@locked.setter
+def locked(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

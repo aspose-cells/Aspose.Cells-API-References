@@ -57,7 +57,8 @@ The TxtSaveOptions type exposes the following members:
 | [export_all_sheets](/cells/python-net/aspose.cells/txtsaveoptions/export_all_sheets) | Indicates whether exporting all sheets to the text file.<br/>If it is false, only export the activesheet, just like MS Excel. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)
+* class [TxtSaveOptions](/cells/python-net/aspose.cells/txtsaveoptions)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Get or set this DataBar's Color.
+### Definition:
+```python
+@property
+def color(self):
+    ...
+@color.setter
+def color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

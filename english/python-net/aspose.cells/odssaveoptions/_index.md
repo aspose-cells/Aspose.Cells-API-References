@@ -46,7 +46,8 @@ The OdsSaveOptions type exposes the following members:
 | [is_strict_schema11](/cells/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [OdsSaveOptions](/cells/python-net/aspose.cells/odssaveoptions)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)

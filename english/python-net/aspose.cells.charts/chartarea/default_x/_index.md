@@ -12,6 +12,12 @@ is_root: false
 
 
 Represents x of default position
+### Definition:
+```python
+@property
+def default_x(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

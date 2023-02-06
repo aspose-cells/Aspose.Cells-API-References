@@ -168,7 +168,11 @@ The ScrollBar type exposes the following members:
 
 
 Scroll value must be between 0 and 30000.
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
+* class [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect)
+* class [ScrollBar](/cells/python-net/aspose.cells.drawing/scrollbar)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 * class [Shape](/cells/python-net/aspose.cells.drawing/shape)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the count of columns in the range.
+### Definition:
+```python
+@property
+def column_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

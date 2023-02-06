@@ -82,7 +82,11 @@ The PdfSaveOptions type exposes the following members:
 | [set_image_resample(desired_ppi, jpeg_quality)](/cells/python-net/aspose.cells/pdfsaveoptions/set_image_resample/#int-int) | Sets desired PPI(pixels per inch) of resample images and jpeg quality.  <br/>All images will be converted to JPEG with the specified quality setting, <br/>and images that are greater than the specified PPI (pixels per inch) will be resampled. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [CustomDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/customdocumentpropertycollection)
 * class [PaginatedSaveOptions](/cells/python-net/aspose.cells/paginatedsaveoptions)
+* class [PdfBookmarkEntry](/cells/python-net/aspose.cells.rendering/pdfbookmarkentry)
+* class [PdfSaveOptions](/cells/python-net/aspose.cells/pdfsaveoptions)
+* class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)

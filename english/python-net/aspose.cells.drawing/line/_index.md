@@ -74,6 +74,7 @@ chart.n_series[0].marker.marker_style = ChartMarkerType.TRIANGLE
 chart.n_series[0].border.weight = WeightType.MEDIUM_LINE
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [WeightType](/cells/python-net/aspose.cells.drawing/weighttype)

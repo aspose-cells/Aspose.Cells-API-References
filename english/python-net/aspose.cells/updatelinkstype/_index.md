@@ -24,6 +24,6 @@ The UpdateLinksType type exposes the following members:
 | ALWAYS | Always update. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -21,11 +21,11 @@ The FilterColumn type exposes the following members:
 | :- | :- |
 | [is_dropdown_visible](/cells/python-net/aspose.cells/filtercolumn/is_dropdown_visible) | Indicates whether the AutoFilter button for this column is visible. |
 | [visibledropdown](/cells/python-net/aspose.cells/filtercolumn/visibledropdown) | Indicates whether the AutoFilter button for this column is visible. |
-| [filter](/cells/python-net/aspose.cells/filtercolumn/filter) |  |
-| [filter_type](/cells/python-net/aspose.cells/filtercolumn/filter_type) |  |
-| [field_index](/cells/python-net/aspose.cells/filtercolumn/field_index) |  |
+| [filter](/cells/python-net/aspose.cells/filtercolumn/filter) | Gets and sets the condition of filtering data. |
+| [filter_type](/cells/python-net/aspose.cells/filtercolumn/filter_type) | Gets and sets the type fo filtering data. |
+| [field_index](/cells/python-net/aspose.cells/filtercolumn/field_index) | Gets and sets the column offset in the range. |
+
 
 
 ### See Also
-
-* module [aspose.cells](../)
+* module [aspose.cells](..)

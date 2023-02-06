@@ -12,6 +12,12 @@ is_root: false
 
 
 The error object.
+### Definition:
+```python
+@property
+def error_object(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

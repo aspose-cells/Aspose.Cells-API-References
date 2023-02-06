@@ -24,6 +24,6 @@ The DisplayDrawingObjects type exposes the following members:
 | HIDE | Hide all shapes. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

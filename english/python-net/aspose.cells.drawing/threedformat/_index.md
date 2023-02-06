@@ -41,6 +41,6 @@ The ThreeDFormat type exposes the following members:
 | [preset_camera_type](/cells/python-net/aspose.cells.drawing/threedformat/preset_camera_type) | Gets and sets the extrusion preset camera type. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -23,6 +23,6 @@ The QuartileCalculationType type exposes the following members:
 | INCLUSIVE | The quartile calculation excludes the median when splitting the dataset into quartiles. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

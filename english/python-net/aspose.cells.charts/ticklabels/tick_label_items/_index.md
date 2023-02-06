@@ -17,6 +17,12 @@ Gets the items' info of TickLabel.
 
 
 Only exists after calling [Chart.calculate()](/cells/python-net/aspose.cells.charts/chart/calculate) method.
+### Definition:
+```python
+@property
+def tick_label_items(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

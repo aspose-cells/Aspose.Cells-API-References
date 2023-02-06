@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the size of the bottom margin, in unit of inches.
+### Definition:
+```python
+@property
+def bottom_margin_inch(self):
+    ...
+@bottom_margin_inch.setter
+def bottom_margin_inch(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

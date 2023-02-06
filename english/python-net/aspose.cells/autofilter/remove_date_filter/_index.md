@@ -39,3 +39,4 @@ If DateTiemGroupingType is Month, only the param year and month effect.
 ### See Also
 * module [aspose.cells](../../)
 * class [AutoFilter](/cells/python-net/aspose.cells/autofilter)
+* class [DateTimeGroupingType](/cells/python-net/aspose.cells/datetimegroupingtype)

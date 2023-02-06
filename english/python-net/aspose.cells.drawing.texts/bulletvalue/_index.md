@@ -22,6 +22,6 @@ The BulletValue type exposes the following members:
 | [type](/cells/python-net/aspose.cells.drawing.texts/bulletvalue/type) | Gets the type of the bullet's value. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

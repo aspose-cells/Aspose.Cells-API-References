@@ -33,4 +33,5 @@ def get_text_of_sub_total(self, sub_total_type):
 
 ### See Also
 * module [aspose.cells.settings](../../)
+* class [PivotFieldSubtotalType](/cells/python-net/aspose.cells.pivot/pivotfieldsubtotaltype)
 * class [PivotGlobalizationSettings](/cells/python-net/aspose.cells.settings/pivotglobalizationsettings)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the rotation angle is automatic
+### Definition:
+```python
+@property
+def is_automatic_rotation(self):
+    ...
+@is_automatic_rotation.setter
+def is_automatic_rotation(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

@@ -38,6 +38,15 @@ options.page_count = 2
 wb.save("output.pdf", options)
 
 ```
+### Definition:
+```python
+@property
+def page_index(self):
+    ...
+@page_index.setter
+def page_index(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -57,6 +57,7 @@ pictures = workbook.worksheets[0].pictures
 workbook.save("result.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)

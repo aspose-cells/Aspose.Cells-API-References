@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents an estimate of the number of words in the document.
+### Definition:
+```python
+@property
+def words(self):
+    ...
+@words.setter
+def words(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

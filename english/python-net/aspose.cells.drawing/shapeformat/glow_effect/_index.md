@@ -10,7 +10,14 @@ is_root: false
 
 ## glow_effect property
 
+### Definition:
+```python
+@property
+def glow_effect(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
 * class [ShapeFormat](/cells/python-net/aspose.cells.drawing/shapeformat)

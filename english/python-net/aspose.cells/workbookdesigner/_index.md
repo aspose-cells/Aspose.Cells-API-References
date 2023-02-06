@@ -69,6 +69,8 @@ wd.process(True)
 wd.workbook.save("outSmartMarker_Designer.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [ICellsDataTable](/cells/python-net/aspose.cells/icellsdatatable)
+* class [WorkbookDesigner](/cells/python-net/aspose.cells/workbookdesigner)

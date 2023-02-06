@@ -24,6 +24,6 @@ The TextOverflowType type exposes the following members:
 | OVERFLOW | Overflow the text and pay no attention to top and bottom barriers. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

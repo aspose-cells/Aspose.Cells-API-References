@@ -35,6 +35,6 @@ The DateTimeGroupItem type exposes the following members:
 | [second](/cells/python-net/aspose.cells/datetimegroupitem/second) | Gets and sets the second of the grouped date time. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

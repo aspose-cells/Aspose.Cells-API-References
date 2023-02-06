@@ -59,7 +59,9 @@ The TextOptions type exposes the following members:
 | [equals(font)](/cells/python-net/aspose.cells.drawing.texts/textoptions/equals/#Font) | Checks if two fonts are equals. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
-* class [Font](/cells/python-net/aspose.cells.drawing.texts/font)
+### See Also
+* module [aspose.cells.drawing.texts](..)
+* class [Font](/cells/python-net/aspose.cells/font)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
+* class [TextOptions](/cells/python-net/aspose.cells.drawing.texts/textoptions)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets the title of the altertext
+### Definition:
+```python
+@property
+def alt_text_title(self):
+    ...
+@alt_text_title.setter
+def alt_text_title(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -47,6 +47,6 @@ The IconSetType type exposes the following members:
 | COLOR_SMILIES3 | 3 color smilies.<br/>Only for .ods. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

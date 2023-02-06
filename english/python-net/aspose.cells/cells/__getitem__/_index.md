@@ -29,4 +29,5 @@ Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Cell](/cells/python-net/aspose.cells/cell)
 * class [Cells](/cells/python-net/aspose.cells/cells)

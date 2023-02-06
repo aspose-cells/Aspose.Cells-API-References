@@ -22,6 +22,12 @@ if comment1.is_threaded_comment:
     pass
 
 ```
+### Definition:
+```python
+@property
+def is_threaded_comment(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

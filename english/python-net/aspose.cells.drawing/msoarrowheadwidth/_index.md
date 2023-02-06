@@ -24,6 +24,6 @@ The MsoArrowheadWidth type exposes the following members:
 | WIDE | Wide line end width. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

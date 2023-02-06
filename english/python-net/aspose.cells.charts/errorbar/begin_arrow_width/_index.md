@@ -12,7 +12,17 @@ is_root: false
 
 
 Specifies the width of the arrowhead for the begin of a line.
+### Definition:
+```python
+@property
+def begin_arrow_width(self):
+    ...
+@begin_arrow_width.setter
+def begin_arrow_width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ErrorBar](/cells/python-net/aspose.cells.charts/errorbar)
+* class [MsoArrowheadWidth](/cells/python-net/aspose.cells.drawing/msoarrowheadwidth)

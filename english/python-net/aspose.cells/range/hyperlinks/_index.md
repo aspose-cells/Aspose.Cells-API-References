@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets all hyperlink in the range.
+### Definition:
+```python
+@property
+def hyperlinks(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

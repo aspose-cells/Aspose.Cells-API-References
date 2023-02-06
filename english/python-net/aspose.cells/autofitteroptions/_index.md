@@ -35,6 +35,6 @@ The AutoFitterOptions type exposes the following members:
 | [format_strategy](/cells/python-net/aspose.cells/autofitteroptions/format_strategy) | Gets and sets the formatted strategy. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -21,6 +21,15 @@ Indicates whether the object is visible.
 shape.is_hidden = False
 
 ```
+### Definition:
+```python
+@property
+def is_hidden(self):
+    ...
+@is_hidden.setter
+def is_hidden(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

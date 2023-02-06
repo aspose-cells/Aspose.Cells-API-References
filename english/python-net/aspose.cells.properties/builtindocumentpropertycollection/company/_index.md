@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the company property.
+### Definition:
+```python
+@property
+def company(self):
+    ...
+@company.setter
+def company(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

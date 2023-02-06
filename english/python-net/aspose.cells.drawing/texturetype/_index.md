@@ -46,6 +46,6 @@ The TextureType type exposes the following members:
 | UNKNOWN | Represents Unknown texture type. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -12,7 +12,17 @@ is_root: false
 
 
 Get and set rule type for the pivot table condition format .
+### Definition:
+```python
+@property
+def rule_type(self):
+    ...
+@rule_type.setter
+def rule_type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)
+* class [PivotConditionFormatRuleType](/cells/python-net/aspose.cells.pivot/pivotconditionformatruletype)
 * class [PivotFormatCondition](/cells/python-net/aspose.cells.pivot/pivotformatcondition)

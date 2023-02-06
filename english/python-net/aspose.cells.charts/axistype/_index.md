@@ -24,6 +24,6 @@ The AxisType type exposes the following members:
 | SERIES | Series axis |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

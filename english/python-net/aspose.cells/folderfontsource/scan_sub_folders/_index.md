@@ -12,6 +12,12 @@ is_root: false
 
 
 Determines whether or not to scan the subfolders.
+### Definition:
+```python
+@property
+def scan_sub_folders(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

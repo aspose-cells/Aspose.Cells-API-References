@@ -13,6 +13,15 @@ is_root: false
 
 Represents auto sort field index. 
 -1 means PivotField itself,others means the position of the data fields.
+### Definition:
+```python
+@property
+def auto_sort_field(self):
+    ...
+@auto_sort_field.setter
+def auto_sort_field(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

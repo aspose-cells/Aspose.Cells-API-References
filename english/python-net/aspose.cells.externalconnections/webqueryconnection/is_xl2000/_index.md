@@ -15,6 +15,15 @@ This flag exists for backward compatibility with older existing spreadsheet file
 to true if this web query was refreshed in a spreadsheet application newer than or equal
 to Microsoft Excel 2000.
 This is an optional attribute that can be ignored.
+### Definition:
+```python
+@property
+def is_xl2000(self):
+    ...
+@is_xl2000.setter
+def is_xl2000(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

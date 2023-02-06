@@ -35,3 +35,4 @@ def set_footer_picture(self, section, footer_picture):
 ### See Also
 * module [aspose.cells](../../)
 * class [PageSetup](/cells/python-net/aspose.cells/pagesetup)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)

@@ -21,6 +21,15 @@ Returns or sets the name of the specified slicer
 slicer.name = "slicer name"
 
 ```
+### Definition:
+```python
+@property
+def name(self):
+    ...
+@name.setter
+def name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

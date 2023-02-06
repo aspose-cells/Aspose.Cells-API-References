@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the PivotTable Wizard is available.
+### Definition:
+```python
+@property
+def enable_wizard(self):
+    ...
+@enable_wizard.setter
+def enable_wizard(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

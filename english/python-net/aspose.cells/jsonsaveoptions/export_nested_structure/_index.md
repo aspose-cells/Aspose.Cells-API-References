@@ -17,6 +17,15 @@ Exported as parent-child hierarchy Json structure.
 
 
 
+### Definition:
+```python
+@property
+def export_nested_structure(self):
+    ...
+@export_nested_structure.setter
+def export_nested_structure(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

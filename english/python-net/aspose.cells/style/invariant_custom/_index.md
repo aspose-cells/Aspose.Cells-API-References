@@ -3,7 +3,7 @@ title: invariant_custom property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /python-net/aspose.cells/style/invariant_custom/
 is_root: false
 ---
@@ -23,6 +23,12 @@ such as, for some locales it returns "m/d/y" and for some other locales it retur
 The difference from [Style.culture_custom](/cells/python-net/aspose.cells/style#culture_custom) is(that is also what culture-independent means):
 the format specifiers and separators are kept as standard, such as '/' will always be used as datetime separator
 and  "y" will always be used as the "year" part no matter what other special character is used for the specific locale.
+### Definition:
+```python
+@property
+def invariant_custom(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

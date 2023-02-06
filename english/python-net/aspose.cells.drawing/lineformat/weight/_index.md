@@ -21,6 +21,15 @@ Gets or sets the weight of the line in unit of points.
 lineFmt.weight = 2.0
 
 ```
+### Definition:
+```python
+@property
+def weight(self):
+    ...
+@weight.setter
+def weight(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

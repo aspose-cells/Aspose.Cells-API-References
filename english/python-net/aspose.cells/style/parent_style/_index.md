@@ -3,7 +3,7 @@ title: parent_style property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 350
+weight: 360
 url: /python-net/aspose.cells/style/parent_style/
 is_root: false
 ---
@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the parent style of this style.
+### Definition:
+```python
+@property
+def parent_style(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

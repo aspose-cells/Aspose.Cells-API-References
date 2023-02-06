@@ -12,7 +12,17 @@ is_root: false
 
 
 Gets and sets the interrupt monitor.
+### Definition:
+```python
+@property
+def interrupt_monitor(self):
+    ...
+@interrupt_monitor.setter
+def interrupt_monitor(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [AbstractInterruptMonitor](/cells/python-net/aspose.cells/abstractinterruptmonitor)
 * class [JsonLoadOptions](/cells/python-net/aspose.cells/jsonloadoptions)

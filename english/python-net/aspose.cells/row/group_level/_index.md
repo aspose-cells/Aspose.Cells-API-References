@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the group level of the row.
+### Definition:
+```python
+@property
+def group_level(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns true if the OleObject links to the file.
+### Definition:
+```python
+@property
+def is_link(self):
+    ...
+@is_link.setter
+def is_link(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

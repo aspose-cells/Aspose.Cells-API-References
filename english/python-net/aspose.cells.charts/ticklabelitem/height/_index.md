@@ -12,6 +12,12 @@ is_root: false
 
 
 Height of Ticklabel item in ratio of chart height.
+### Definition:
+```python
+@property
+def height(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

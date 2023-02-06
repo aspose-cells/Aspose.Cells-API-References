@@ -21,7 +21,8 @@ Represents this fill format should inherit the fill properties of the group.
 
 The GroupFill type exposes the following members:
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
 * class [Fill](/cells/python-net/aspose.cells.drawing/fill)
+* class [GroupFill](/cells/python-net/aspose.cells.drawing/groupfill)

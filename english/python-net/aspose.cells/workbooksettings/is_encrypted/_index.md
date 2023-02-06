@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets a value that indicates whether a password is required to open this workbook.
+### Definition:
+```python
+@property
+def is_encrypted(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

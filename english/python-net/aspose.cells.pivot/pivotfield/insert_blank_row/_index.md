@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether inserting blank line after each item.
+### Definition:
+```python
+@property
+def insert_blank_row(self):
+    ...
+@insert_blank_row.setter
+def insert_blank_row(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

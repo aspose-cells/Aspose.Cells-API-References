@@ -68,6 +68,7 @@ cell3.put_value(260)
 workbook.save("book1.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [ConditionalFormattingIcon](/cells/python-net/aspose.cells/conditionalformattingicon)

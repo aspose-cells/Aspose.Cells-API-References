@@ -53,6 +53,7 @@ workbook = Workbook()
 charts = workbook.worksheets[0].charts
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Chart](/cells/python-net/aspose.cells.charts/chart)

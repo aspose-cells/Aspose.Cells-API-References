@@ -96,4 +96,5 @@ def add(self, sheet_name):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Worksheet](/cells/python-net/aspose.cells/worksheet)
 * class [WorksheetCollection](/cells/python-net/aspose.cells/worksheetcollection)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether this VBA project is protected.
+### Definition:
+```python
+@property
+def is_protected(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.vba](../../)

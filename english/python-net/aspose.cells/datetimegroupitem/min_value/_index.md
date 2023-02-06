@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the min value.
+### Definition:
+```python
+@property
+def min_value(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

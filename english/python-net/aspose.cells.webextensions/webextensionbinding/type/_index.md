@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the binding type.
+### Definition:
+```python
+@property
+def type(self):
+    ...
+@type.setter
+def type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.webextensions](../../)

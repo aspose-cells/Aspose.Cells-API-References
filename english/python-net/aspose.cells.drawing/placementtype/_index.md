@@ -24,6 +24,6 @@ The PlacementType type exposes the following members:
 | MOVE_AND_SIZE | Move and size with cells. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

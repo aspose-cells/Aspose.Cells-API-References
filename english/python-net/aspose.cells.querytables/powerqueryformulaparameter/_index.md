@@ -30,6 +30,6 @@ The PowerQueryFormulaParameter type exposes the following members:
 | [parameter_definition](/cells/python-net/aspose.cells.querytables/powerqueryformulaparameter/parameter_definition) | Gets the definition of the parameter. |
 
 
-### See Also
 
-* module [aspose.cells.querytables](../)
+### See Also
+* module [aspose.cells.querytables](..)

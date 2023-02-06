@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the load format.
+### Definition:
+```python
+@property
+def load_format(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [JsonLoadOptions](/cells/python-net/aspose.cells/jsonloadoptions)
+* class [LoadFormat](/cells/python-net/aspose.cells/loadformat)

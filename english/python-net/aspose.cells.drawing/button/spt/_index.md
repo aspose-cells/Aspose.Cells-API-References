@@ -21,6 +21,12 @@ Specifies an optional number that an application can use to associate the partic
 spt = shape.spt
 
 ```
+### Definition:
+```python
+@property
+def spt(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

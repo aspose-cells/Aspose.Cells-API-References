@@ -35,4 +35,5 @@ Name cannot include spaces and cannot look like cell references.
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Name](/cells/python-net/aspose.cells/name)
 * class [NameCollection](/cells/python-net/aspose.cells/namecollection)

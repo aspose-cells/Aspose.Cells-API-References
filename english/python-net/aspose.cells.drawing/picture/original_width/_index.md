@@ -32,6 +32,12 @@ picWidth = pic.original_width
 workbook.save("result.xlsx")
 
 ```
+### Definition:
+```python
+@property
+def original_width(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

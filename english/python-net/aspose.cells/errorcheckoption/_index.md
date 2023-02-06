@@ -47,6 +47,6 @@ opt.add_range(CellArea.create_cell_area("A1", "B10"))
 workbook.save(r"Book1.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

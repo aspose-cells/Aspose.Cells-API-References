@@ -22,6 +22,15 @@ if shape.width_inch == 3:
     shape.width_inch = 1
 
 ```
+### Definition:
+```python
+@property
+def width_inch(self):
+    ...
+@width_inch.setter
+def width_inch(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

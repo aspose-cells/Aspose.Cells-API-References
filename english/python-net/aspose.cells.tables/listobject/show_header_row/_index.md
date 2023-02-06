@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets whether this ListObject show header row.
+### Definition:
+```python
+@property
+def show_header_row(self):
+    ...
+@show_header_row.setter
+def show_header_row(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.tables](../../)

@@ -32,6 +32,6 @@ The ReflectionEffectType type exposes the following members:
 | FULL_REFLECTION_8_PT_OFFSET | Full reflection, 8 pt offset. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

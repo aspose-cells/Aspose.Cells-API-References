@@ -22,6 +22,15 @@ if shape.top_inch == 3:
     shape.top_inch = 1
 
 ```
+### Definition:
+```python
+@property
+def top_inch(self):
+    ...
+@top_inch.setter
+def top_inch(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

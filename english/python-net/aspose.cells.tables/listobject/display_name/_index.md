@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the display name.
+### Definition:
+```python
+@property
+def display_name(self):
+    ...
+@display_name.setter
+def display_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.tables](../../)

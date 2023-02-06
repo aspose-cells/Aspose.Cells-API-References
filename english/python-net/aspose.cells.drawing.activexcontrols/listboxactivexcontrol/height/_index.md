@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the height of the control in unit of points.
+### Definition:
+```python
+@property
+def height(self):
+    ...
+@height.setter
+def height(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

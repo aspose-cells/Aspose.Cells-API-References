@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the linked cell.
+### Definition:
+```python
+@property
+def linked_cell(self):
+    ...
+@linked_cell.setter
+def linked_cell(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

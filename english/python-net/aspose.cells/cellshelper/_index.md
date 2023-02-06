@@ -51,6 +51,6 @@ The CellsHelper type exposes the following members:
 | [init_for_dot_net_core()](/cells/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) | Do the initialization for .NetCore programme.<br/>We suggest you to call this method for all .NetCore initialization first. <br/>For example:<br/>CellsHelper.InitForDotNetCore();<br/>Workbook wb = new Workbook(); |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

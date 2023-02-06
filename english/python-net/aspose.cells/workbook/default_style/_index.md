@@ -32,7 +32,17 @@ defaultStyle.font.name = "Tahoma"
 workbook.default_style = defaultStyle
 
 ```
+### Definition:
+```python
+@property
+def default_style(self):
+    ...
+@default_style.setter
+def default_style(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Style](/cells/python-net/aspose.cells/style)
 * class [Workbook](/cells/python-net/aspose.cells/workbook)

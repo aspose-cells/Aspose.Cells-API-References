@@ -32,6 +32,6 @@ The MsoFormatPicture type exposes the following members:
 | [is_gray](/cells/python-net/aspose.cells.drawing/msoformatpicture/is_gray) | Indicates whether this picture SHOULD be displayed in grayscale. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

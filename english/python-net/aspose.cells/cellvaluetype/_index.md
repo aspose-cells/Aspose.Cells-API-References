@@ -28,6 +28,6 @@ The CellValueType type exposes the following members:
 | IS_UNKNOWN | Cell value type is unknown. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

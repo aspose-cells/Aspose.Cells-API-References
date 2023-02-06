@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets source url of this data binding.
+### Definition:
+```python
+@property
+def url(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

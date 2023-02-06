@@ -46,7 +46,8 @@ The XlsbSaveOptions type exposes the following members:
 | [export_all_column_indexes](/cells/python-net/aspose.cells/xlsbsaveoptions/export_all_column_indexes) | Indicates whether exporting all column indexes for cells. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)
+* class [XlsbSaveOptions](/cells/python-net/aspose.cells/xlsbsaveoptions)

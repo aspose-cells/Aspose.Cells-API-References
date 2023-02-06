@@ -12,6 +12,12 @@ is_root: false
 
 
 Specifies a boolean value that indicates whether the application will use the source data to set the beginning range value.
+### Definition:
+```python
+@property
+def is_auto_start(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

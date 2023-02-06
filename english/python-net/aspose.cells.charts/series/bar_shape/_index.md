@@ -20,7 +20,17 @@ NOTE: This member is now obsolete. Instead,
 please use ASeries.Bar3DShapeType property. 
 This property will be removed 12 months later since June 2010. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def bar_shape(self):
+    ...
+@bar_shape.setter
+def bar_shape(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [Bar3DShapeType](/cells/python-net/aspose.cells.charts/bar3dshapetype)
 * class [Series](/cells/python-net/aspose.cells.charts/series)

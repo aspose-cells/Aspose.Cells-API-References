@@ -29,7 +29,8 @@ The PageStartSavingArgs type exposes the following members:
 | [is_to_output](/cells/python-net/aspose.cells.rendering/pagestartsavingargs/is_to_output) | Gets or sets a value indicating whether the page should be output. <br/>The default value is true. |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)
 * class [PageSavingArgs](/cells/python-net/aspose.cells.rendering/pagesavingargs)
+* class [PageStartSavingArgs](/cells/python-net/aspose.cells.rendering/pagestartsavingargs)

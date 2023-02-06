@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the ole color of the background.
+### Definition:
+```python
+@property
+def back_ole_color(self):
+    ...
+@back_ole_color.setter
+def back_ole_color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

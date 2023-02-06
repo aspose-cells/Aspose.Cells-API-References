@@ -12,6 +12,12 @@ is_root: false
 
 
 Returns the gradient color 1 for the specified fill.
+### Definition:
+```python
+@property
+def gradient_color1(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

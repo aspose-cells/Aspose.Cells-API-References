@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether data for the PivotTable report is saved with the workbook.
+### Definition:
+```python
+@property
+def save_data(self):
+    ...
+@save_data.setter
+def save_data(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

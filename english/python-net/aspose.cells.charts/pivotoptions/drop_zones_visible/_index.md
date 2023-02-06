@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies whether any pivot controls can appear on the pivot chart.
+### Definition:
+```python
+@property
+def drop_zones_visible(self):
+    ...
+@drop_zones_visible.setter
+def drop_zones_visible(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

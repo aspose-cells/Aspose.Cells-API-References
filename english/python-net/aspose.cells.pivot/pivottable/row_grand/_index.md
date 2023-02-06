@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the PivotTable report shows grand totals for rows.
+### Definition:
+```python
+@property
+def row_grand(self):
+    ...
+@row_grand.setter
+def row_grand(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents an estimate of the number of pages in the document.
+### Definition:
+```python
+@property
+def pages(self):
+    ...
+@pages.setter
+def pages(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

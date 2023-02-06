@@ -23,6 +23,6 @@ The SlicerCacheItemSortType type exposes the following members:
 | DESCENDING | Descending sort type |
 
 
-### See Also
 
-* module [aspose.cells.slicers](../)
+### See Also
+* module [aspose.cells.slicers](..)

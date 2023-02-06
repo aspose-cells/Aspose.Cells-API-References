@@ -33,3 +33,4 @@ So this is a memory-consuming method. Please use it carefully.
 ### See Also
 * module [aspose.cells](../../)
 * class [Range](/cells/python-net/aspose.cells/range)
+* class [Style](/cells/python-net/aspose.cells/style)

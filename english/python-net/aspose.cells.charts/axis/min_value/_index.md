@@ -17,6 +17,15 @@ Represents the minimum value on the value axis.
 
 
 The minValue type only can be double or DateTime
+### Definition:
+```python
+@property
+def min_value(self):
+    ...
+@min_value.setter
+def min_value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

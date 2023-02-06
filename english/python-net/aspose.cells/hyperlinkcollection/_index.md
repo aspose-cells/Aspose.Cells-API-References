@@ -57,6 +57,7 @@ hyperlinks.add("A1", 1, 1, "http://www.aspose.com")
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Hyperlink](/cells/python-net/aspose.cells/hyperlink)

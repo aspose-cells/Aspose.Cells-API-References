@@ -21,6 +21,15 @@ Indicates whether the margin of the text frame is automatic.
 shapeTextAlignment.is_auto_margin = True
 
 ```
+### Definition:
+```python
+@property
+def is_auto_margin(self):
+    ...
+@is_auto_margin.setter
+def is_auto_margin(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

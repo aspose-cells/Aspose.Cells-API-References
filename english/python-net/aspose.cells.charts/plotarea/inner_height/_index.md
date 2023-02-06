@@ -27,6 +27,15 @@ If you want to get actual size of plot area, you should call **InnerX** , **Inne
 
 
 For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
+### Definition:
+```python
+@property
+def inner_height(self):
+    ...
+@inner_height.setter
+def inner_height(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

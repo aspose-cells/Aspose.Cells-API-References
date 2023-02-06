@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets page change
+### Definition:
+```python
+@property
+def page_change(self):
+    ...
+@page_change.setter
+def page_change(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

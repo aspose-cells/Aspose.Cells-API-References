@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether Refresh Data or not.
+### Definition:
+```python
+@property
+def refresh_data_flag(self):
+    ...
+@refresh_data_flag.setter
+def refresh_data_flag(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

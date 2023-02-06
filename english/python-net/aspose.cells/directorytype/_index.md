@@ -25,6 +25,6 @@ The DirectoryType type exposes the following members:
 | UP_DIRECTORY | Indicates that the source workbook is in the parent directory of the current directory. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

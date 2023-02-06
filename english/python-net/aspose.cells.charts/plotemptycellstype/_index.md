@@ -24,6 +24,6 @@ The PlotEmptyCellsType type exposes the following members:
 | INTERPOLATED | Interpolated |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and set the width in unit of points.
+### Definition:
+```python
+@property
+def list_width(self):
+    ...
+@list_width.setter
+def list_width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

@@ -24,6 +24,6 @@ The FontSourceType type exposes the following members:
 | MEMORY_FONT | represents single font in memory. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

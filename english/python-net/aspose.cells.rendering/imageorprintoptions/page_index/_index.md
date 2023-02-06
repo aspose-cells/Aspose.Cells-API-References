@@ -17,6 +17,15 @@ Gets or sets the 0-based index of the first page to save.
 
 
 Default is 0.
+### Definition:
+```python
+@property
+def page_index(self):
+    ...
+@page_index.setter
+def page_index(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

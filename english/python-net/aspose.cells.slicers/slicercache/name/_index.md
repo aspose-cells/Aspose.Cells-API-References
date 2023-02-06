@@ -22,6 +22,12 @@ Returns the name of the slicer cache.
 print(slicerCache.name)
 
 ```
+### Definition:
+```python
+@property
+def name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

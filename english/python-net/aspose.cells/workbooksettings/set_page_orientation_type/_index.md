@@ -28,4 +28,5 @@ def set_page_orientation_type(self, page_orientation_type):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [PageOrientationType](/cells/python-net/aspose.cells/pageorientationtype)
 * class [WorkbookSettings](/cells/python-net/aspose.cells/workbooksettings)

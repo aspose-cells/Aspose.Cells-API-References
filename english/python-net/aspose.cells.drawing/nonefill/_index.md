@@ -21,7 +21,8 @@ Represents no fill.
 
 The NoneFill type exposes the following members:
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
 * class [Fill](/cells/python-net/aspose.cells.drawing/fill)
+* class [NoneFill](/cells/python-net/aspose.cells.drawing/nonefill)

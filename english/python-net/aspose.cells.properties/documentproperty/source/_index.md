@@ -12,6 +12,12 @@ is_root: false
 
 
 The linked content source.
+### Definition:
+```python
+@property
+def source(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

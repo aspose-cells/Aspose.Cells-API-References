@@ -12,6 +12,15 @@ is_root: false
 
 
 Get and sets number of copies to print.
+### Definition:
+```python
+@property
+def print_copies(self):
+    ...
+@print_copies.setter
+def print_copies(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

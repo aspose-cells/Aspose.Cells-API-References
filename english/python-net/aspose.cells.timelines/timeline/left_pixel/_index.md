@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the horizontal offset of timeline shape from its left column, in pixels.
+### Definition:
+```python
+@property
+def left_pixel(self):
+    ...
+@left_pixel.setter
+def left_pixel(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.timelines](../../)

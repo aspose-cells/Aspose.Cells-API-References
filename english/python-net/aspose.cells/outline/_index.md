@@ -23,6 +23,6 @@ The Outline type exposes the following members:
 | [summary_column_right](/cells/python-net/aspose.cells/outline/summary_column_right) | Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -17,6 +17,15 @@ Gets or sets a value that indicates whether the Workbook is shared.
 
 
 The default value is false.
+### Definition:
+```python
+@property
+def shared(self):
+    ...
+@shared.setter
+def shared(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

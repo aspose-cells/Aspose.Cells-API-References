@@ -25,6 +25,6 @@ The GradientColorType type exposes the following members:
 | TWO_COLORS | Two gradient colors |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

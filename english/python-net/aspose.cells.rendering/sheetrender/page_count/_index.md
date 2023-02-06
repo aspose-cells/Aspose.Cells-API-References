@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the total page count of current worksheet.
+### Definition:
+```python
+@property
+def page_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

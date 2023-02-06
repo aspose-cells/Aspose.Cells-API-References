@@ -30,6 +30,6 @@ The CustomProperty type exposes the following members:
 | [value](/cells/python-net/aspose.cells.properties/customproperty/value) | Returns or sets the value of the custom property. |
 
 
-### See Also
 
-* module [aspose.cells.properties](../)
+### See Also
+* module [aspose.cells.properties](..)

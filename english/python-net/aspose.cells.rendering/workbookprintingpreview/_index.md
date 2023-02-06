@@ -28,6 +28,6 @@ The WorkbookPrintingPreview type exposes the following members:
 | [evaluated_page_count](/cells/python-net/aspose.cells.rendering/workbookprintingpreview/evaluated_page_count) | Evaluate the total page count of this workbook |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

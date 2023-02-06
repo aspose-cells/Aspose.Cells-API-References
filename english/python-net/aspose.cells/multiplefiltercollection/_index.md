@@ -34,6 +34,6 @@ The MultipleFilterCollection type exposes the following members:
 | [add(filter)](/cells/python-net/aspose.cells/multiplefiltercollection/add/#str) | Adds string filter. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -63,21 +63,24 @@ The RadioButtonActiveXControl type exposes the following members:
 
 
 ```python
+from aspose import pycore
 from aspose.cells import Workbook
-from aspose.cells.drawing.activexcontrols import ControlType
-import aspose.pycore
+from aspose.cells.drawing.activexcontrols import ControlType, RadioButtonActiveXControl
 
 # Initialize a new workbook.
 book = Workbook()
 # Add a ToggleButtonActiveXControl.
 shape = book.worksheets[0].shapes.add_active_x_control(ControlType.RADIO_BUTTON, 1, 0, 1, 0, 100, 50)
-activeXControl = aspose.pycore.cast(Aspose.Cells.Drawing.ActiveXControls.RadioButtonActiveXControl, shape.active_x_control)
+activeXControl = pycore.cast(RadioButtonActiveXControl, shape.active_x_control)
 # do your business
 # Save the excel file.
 book.save("exmaple.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)
+* class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
+* class [ActiveXControlBase](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase)
+* class [RadioButtonActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol)
 * class [ToggleButtonActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol)

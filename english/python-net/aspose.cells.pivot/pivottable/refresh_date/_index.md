@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the date when the PivotTable was last refreshed.
+### Definition:
+```python
+@property
+def refresh_date(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

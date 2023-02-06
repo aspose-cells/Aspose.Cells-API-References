@@ -22,6 +22,6 @@ The Geometry type exposes the following members:
 | [shape_adjust_values](/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values) | Gets a collection of shape adjust value |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

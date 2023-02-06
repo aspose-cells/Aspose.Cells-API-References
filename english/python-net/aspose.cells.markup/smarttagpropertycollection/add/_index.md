@@ -34,4 +34,5 @@ def add(self, name, value):
 
 ### See Also
 * module [aspose.cells.markup](../../)
+* class [SmartTagProperty](/cells/python-net/aspose.cells.markup/smarttagproperty)
 * class [SmartTagPropertyCollection](/cells/python-net/aspose.cells.markup/smarttagpropertycollection)

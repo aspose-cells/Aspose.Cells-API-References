@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the icon set data.
+### Definition:
+```python
+@property
+def image_data(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

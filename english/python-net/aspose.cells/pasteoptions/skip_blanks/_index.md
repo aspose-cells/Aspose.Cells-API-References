@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether skips blank cells.
+### Definition:
+```python
+@property
+def skip_blanks(self):
+    ...
+@skip_blanks.setter
+def skip_blanks(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -58,6 +58,7 @@ sheet = workbook.worksheets[0]
 sheet.cell_watches.add("B2")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [CellWatch](/cells/python-net/aspose.cells/cellwatch)

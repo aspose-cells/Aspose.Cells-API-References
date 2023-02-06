@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets the id of the provider.
+### Definition:
+```python
+@property
+def provider_id(self):
+    ...
+@provider_id.setter
+def provider_id(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

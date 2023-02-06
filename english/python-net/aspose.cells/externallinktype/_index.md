@@ -23,6 +23,6 @@ The ExternalLinkType type exposes the following members:
 | EXTERNAL | Represents external link. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

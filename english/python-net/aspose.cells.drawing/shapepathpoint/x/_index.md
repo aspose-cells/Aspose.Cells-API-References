@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets x coordinate for this position coordinate.
+### Definition:
+```python
+@property
+def x(self):
+    ...
+@x.setter
+def x(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

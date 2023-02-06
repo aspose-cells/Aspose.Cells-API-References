@@ -21,7 +21,8 @@ represents automatic fill.
 
 The AutomaticFill type exposes the following members:
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [AutomaticFill](/cells/python-net/aspose.cells.drawing/automaticfill)
 * class [Fill](/cells/python-net/aspose.cells.drawing/fill)

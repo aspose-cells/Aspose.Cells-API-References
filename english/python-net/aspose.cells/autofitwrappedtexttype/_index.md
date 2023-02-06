@@ -23,6 +23,6 @@ The AutoFitWrappedTextType type exposes the following members:
 | PARAGRAPH | Auto fit width with the longest paragraph. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

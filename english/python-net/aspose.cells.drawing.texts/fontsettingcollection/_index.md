@@ -47,6 +47,7 @@ The FontSettingCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.drawing.texts/fontsettingcollection/binary_search/#FontSetting) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)
+* class [FontSetting](/cells/python-net/aspose.cells/fontsetting)

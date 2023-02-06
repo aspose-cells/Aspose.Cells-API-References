@@ -12,6 +12,12 @@ is_root: false
 
 
 The range to which this formatting was applied.
+### Definition:
+```python
+@property
+def areas(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

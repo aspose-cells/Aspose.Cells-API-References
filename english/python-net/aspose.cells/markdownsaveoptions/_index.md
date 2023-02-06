@@ -47,7 +47,8 @@ The MarkdownSaveOptions type exposes the following members:
 | [line_separator](/cells/python-net/aspose.cells/markdownsaveoptions/line_separator) | Gets and sets the line separator. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [MarkdownSaveOptions](/cells/python-net/aspose.cells/markdownsaveoptions)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)

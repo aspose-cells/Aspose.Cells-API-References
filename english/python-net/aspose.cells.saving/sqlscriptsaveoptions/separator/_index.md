@@ -18,6 +18,15 @@ Gets and sets character separator of sql script.
 
 Only can be ' ' or '\n'.
 If the
+### Definition:
+```python
+@property
+def separator(self):
+    ...
+@separator.setter
+def separator(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.saving](../../)

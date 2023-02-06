@@ -54,6 +54,6 @@ ca.start_column = 0
 ca.end_column = 0
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

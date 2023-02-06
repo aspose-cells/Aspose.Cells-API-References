@@ -25,7 +25,17 @@ font.size = 12
 font.color = Color.red
 
 ```
+### Definition:
+```python
+@property
+def font(self):
+    ...
+@font.setter
+def font(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [CustomXmlShape](/cells/python-net/aspose.cells.drawing/customxmlshape)
+* class [Font](/cells/python-net/aspose.cells/font)

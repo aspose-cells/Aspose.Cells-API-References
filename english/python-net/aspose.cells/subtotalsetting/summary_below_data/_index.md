@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether add summary below data.
+### Definition:
+```python
+@property
+def summary_below_data(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

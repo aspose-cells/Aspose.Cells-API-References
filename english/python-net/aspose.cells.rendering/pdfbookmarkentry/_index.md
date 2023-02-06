@@ -70,6 +70,6 @@ saveOptions.bookmark = pbeRoot
 workbook.save("output_bookmark.pdf", saveOptions)
 
 ```
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

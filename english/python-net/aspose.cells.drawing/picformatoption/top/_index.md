@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the top offset for stretching picture.
+### Definition:
+```python
+@property
+def top(self):
+    ...
+@top.setter
+def top(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

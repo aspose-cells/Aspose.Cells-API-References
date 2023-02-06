@@ -25,7 +25,8 @@ def update_selected_value(self):
 
 
 ```python
-import aspose.pycore
+from aspose import pycore
+from aspose.cells.drawing import ListBox
 
 # Initialize a new workbook.
 # Workbook book = new Workbook();
@@ -42,7 +43,7 @@ listBox = book.worksheets[0].shapes.add_list_box(2, 0, 2, 0, 130, 130)
 listBox.set_input_range("$A$1:$A$6", False, False)
 # Sets the range linked to the control's value.
 listBox.set_linked_cell("$A$12", False, True)
-listbx = aspose.pycore.cast(Aspose.Cells.Drawing.ListBox, listBox)
+listbx = pycore.cast(ListBox, listBox)
 # Set the value of cell A12
 cell = book.worksheets[0].cells.get(11, 0)
 cell.value = 3

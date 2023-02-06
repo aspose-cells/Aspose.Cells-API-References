@@ -12,6 +12,15 @@ is_root: false
 
 
 Hide formula setting will be applied.
+### Definition:
+```python
+@property
+def quote_prefix(self):
+    ...
+@quote_prefix.setter
+def quote_prefix(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

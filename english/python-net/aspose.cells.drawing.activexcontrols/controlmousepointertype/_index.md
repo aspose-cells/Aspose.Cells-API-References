@@ -36,6 +36,6 @@ The ControlMousePointerType type exposes the following members:
 | CUSTOM | Uses the icon specified by the MouseIcon property. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

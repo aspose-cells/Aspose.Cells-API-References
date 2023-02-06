@@ -125,4 +125,5 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [Chart](/cells/python-net/aspose.cells.charts/chart)
 * class [ChartCollection](/cells/python-net/aspose.cells.charts/chartcollection)

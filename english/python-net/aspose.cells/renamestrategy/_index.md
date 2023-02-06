@@ -32,6 +32,6 @@ When processing data with headers, some scenarios require the headers to be no d
 For example, when exporting data to a datatable and the header is required to be taken as datatable's column name,
 duplicated values of the header are invalid.
 For such kind of situations, user may determine how to handle them by specifying this strategy.
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

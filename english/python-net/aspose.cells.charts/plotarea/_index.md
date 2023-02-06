@@ -57,7 +57,9 @@ The PlotArea type exposes the following members:
 | [set_position_auto()](/cells/python-net/aspose.cells.charts/plotarea/set_position_auto/#) | Set position of the plot area to automatic |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
 * class [ChartFrame](/cells/python-net/aspose.cells.charts/chartframe)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)
+* class [PlotArea](/cells/python-net/aspose.cells.charts/plotarea)

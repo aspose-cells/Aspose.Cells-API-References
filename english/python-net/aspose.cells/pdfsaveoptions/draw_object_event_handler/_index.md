@@ -12,7 +12,17 @@ is_root: false
 
 
 Implements this interface to get DrawObject and Bound when rendering.
+### Definition:
+```python
+@property
+def draw_object_event_handler(self):
+    ...
+@draw_object_event_handler.setter
+def draw_object_event_handler(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [DrawObjectEventHandler](/cells/python-net/aspose.cells.rendering/drawobjecteventhandler)
 * class [PdfSaveOptions](/cells/python-net/aspose.cells/pdfsaveoptions)

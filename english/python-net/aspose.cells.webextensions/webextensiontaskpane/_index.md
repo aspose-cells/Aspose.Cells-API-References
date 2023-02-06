@@ -27,6 +27,6 @@ The WebExtensionTaskPane type exposes the following members:
 | [row](/cells/python-net/aspose.cells.webextensions/webextensiontaskpane/row) | Gets and sets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
 
 
-### See Also
 
-* module [aspose.cells.webextensions](../)
+### See Also
+* module [aspose.cells.webextensions](..)

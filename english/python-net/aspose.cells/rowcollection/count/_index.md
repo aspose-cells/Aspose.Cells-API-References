@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the number of rows in this collection.
+### Definition:
+```python
+@property
+def count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

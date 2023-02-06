@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the title of the data-validation input dialog box.
+### Definition:
+```python
+@property
+def input_title(self):
+    ...
+@input_title.setter
+def input_title(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

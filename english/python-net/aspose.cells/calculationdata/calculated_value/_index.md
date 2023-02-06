@@ -21,6 +21,15 @@ and the set value will be returned when getting this property later.
 The set value can be any value of those objects that can be set to a Cell(Cell.Value).
 And it can also be array of such kind of values, or a Range, Name, ReferredArea.
 Getting this property before setting will make the function be calculated by the default calculation engine of Aspose.Cells and the calculated value will be returned.
+### Definition:
+```python
+@property
+def calculated_value(self):
+    ...
+@calculated_value.setter
+def calculated_value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -25,6 +25,6 @@ The LookAtType type exposes the following members:
 | ENTIRE_CONTENT | Cell value is same as the find object. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

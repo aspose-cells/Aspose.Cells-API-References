@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets whether case sensitive when comparing string.
+### Definition:
+```python
+@property
+def case_sensitive(self):
+    ...
+@case_sensitive.setter
+def case_sensitive(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -25,6 +25,6 @@ The TickMarkType type exposes the following members:
 | OUTSIDE | Tick mark type is Outside |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

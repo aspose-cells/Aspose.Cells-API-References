@@ -23,6 +23,6 @@ The RevisionLog type exposes the following members:
 | [revisions](/cells/python-net/aspose.cells.revisions/revisionlog/revisions) | Gets all revisions in this log. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)

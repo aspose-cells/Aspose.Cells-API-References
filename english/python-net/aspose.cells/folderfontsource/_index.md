@@ -35,7 +35,8 @@ The FolderFontSource type exposes the following members:
 | [scan_sub_folders](/cells/python-net/aspose.cells/folderfontsource/scan_sub_folders) | Determines whether or not to scan the subfolders. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [FolderFontSource](/cells/python-net/aspose.cells/folderfontsource)
 * class [FontSourceBase](/cells/python-net/aspose.cells/fontsourcebase)

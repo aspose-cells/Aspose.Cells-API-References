@@ -23,6 +23,6 @@ The IconFilter type exposes the following members:
 | [icon_id](/cells/python-net/aspose.cells/iconfilter/icon_id) | Gets and sets Zero-based index of an icon in an icon set. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

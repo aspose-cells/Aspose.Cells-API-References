@@ -34,7 +34,8 @@ The CharacterBulletValue type exposes the following members:
 | [character](/cells/python-net/aspose.cells.drawing.texts/characterbulletvalue/character) | Gets and sets character of the bullet. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)
 * class [BulletValue](/cells/python-net/aspose.cells.drawing.texts/bulletvalue)
+* class [CharacterBulletValue](/cells/python-net/aspose.cells.drawing.texts/characterbulletvalue)

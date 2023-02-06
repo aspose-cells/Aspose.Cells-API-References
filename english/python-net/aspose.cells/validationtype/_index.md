@@ -29,6 +29,6 @@ The ValidationType type exposes the following members:
 | CUSTOM | Custom validation type. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

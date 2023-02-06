@@ -17,6 +17,15 @@ True if personal information can be removed from the specified workbook.
 
 
 
+### Definition:
+```python
+@property
+def remove_personal_information(self):
+    ...
+@remove_personal_information.setter
+def remove_personal_information(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

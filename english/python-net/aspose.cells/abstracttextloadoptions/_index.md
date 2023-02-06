@@ -58,7 +58,9 @@ The AbstractTextLoadOptions type exposes the following members:
 | [set_paper_size(type)](/cells/python-net/aspose.cells/abstracttextloadoptions/set_paper_size/#PaperSizeType) | Sets the default print paper size from default printer's setting. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [AbstractTextLoadOptions](/cells/python-net/aspose.cells/abstracttextloadoptions)
 * class [LoadOptions](/cells/python-net/aspose.cells/loadoptions)
+* class [Workbook](/cells/python-net/aspose.cells/workbook)

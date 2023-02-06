@@ -22,6 +22,15 @@ if shape.left == 3:
     shape.left = 1
 
 ```
+### Definition:
+```python
+@property
+def left(self):
+    ...
+@left.setter
+def left(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

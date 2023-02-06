@@ -34,7 +34,8 @@ The MemoryFontSource type exposes the following members:
 | [font_data](/cells/python-net/aspose.cells/memoryfontsource/font_data) | Binary font data. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
 * class [FontSourceBase](/cells/python-net/aspose.cells/fontsourcebase)
+* class [MemoryFontSource](/cells/python-net/aspose.cells/memoryfontsource)

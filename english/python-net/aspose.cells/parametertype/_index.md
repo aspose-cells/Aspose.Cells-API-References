@@ -24,6 +24,6 @@ The ParameterType type exposes the following members:
 | ARRAY |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

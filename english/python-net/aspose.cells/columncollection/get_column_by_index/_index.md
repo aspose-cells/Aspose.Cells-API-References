@@ -33,4 +33,5 @@ def get_column_by_index(self, index):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Column](/cells/python-net/aspose.cells/column)
 * class [ColumnCollection](/cells/python-net/aspose.cells/columncollection)

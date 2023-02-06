@@ -27,6 +27,6 @@ The RevisionActionType type exposes the following members:
 | INSERT_ROW | Row insert revision. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)

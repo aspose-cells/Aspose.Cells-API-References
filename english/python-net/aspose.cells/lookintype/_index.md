@@ -27,6 +27,6 @@ The LookInType type exposes the following members:
 | ORIGINAL_VALUES | Only find object from the original values. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

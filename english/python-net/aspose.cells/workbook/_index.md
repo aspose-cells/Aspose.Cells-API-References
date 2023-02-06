@@ -151,6 +151,13 @@ workbook.replace("OldString", newString)
 workbook.save("result.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [CellsColor](/cells/python-net/aspose.cells/cellscolor)
+* class [ContentTypeProperty](/cells/python-net/aspose.cells.properties/contenttypeproperty)
+* class [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty)
+* class [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection)
+* class [Style](/cells/python-net/aspose.cells/style)
+* class [Workbook](/cells/python-net/aspose.cells/workbook)
+* class [WorksheetCollection](/cells/python-net/aspose.cells/worksheetcollection)

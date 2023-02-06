@@ -56,4 +56,5 @@ def add(self, row, column):
 
 ### See Also
 * module [aspose.cells.markup](../../)
+* class [SmartTagCollection](/cells/python-net/aspose.cells.markup/smarttagcollection)
 * class [SmartTagSetting](/cells/python-net/aspose.cells.markup/smarttagsetting)

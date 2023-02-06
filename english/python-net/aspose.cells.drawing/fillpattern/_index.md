@@ -72,6 +72,6 @@ The FillPattern type exposes the following members:
 | UNKNOWN | Represents unknown pattern. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -30,6 +30,7 @@ The Marker type exposes the following members:
 | [background_color_set_type](/cells/python-net/aspose.cells.charts/marker/background_color_set_type) | Gets or sets the marker background color set type. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)

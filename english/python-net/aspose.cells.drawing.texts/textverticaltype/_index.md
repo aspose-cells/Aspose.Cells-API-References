@@ -28,6 +28,6 @@ The TextVerticalType type exposes the following members:
 | STACKED_RIGHT_TO_LEFT | Specifies that vertical WordArt should be shown from right to left rather than left to right. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

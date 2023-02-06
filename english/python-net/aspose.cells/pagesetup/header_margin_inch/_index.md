@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the distance from the top of the page to the header, in unit of inches.
+### Definition:
+```python
+@property
+def header_margin_inch(self):
+    ...
+@header_margin_inch.setter
+def header_margin_inch(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -23,6 +23,6 @@ The ColorHelper type exposes the following members:
 | [to_ole_color(color, workbook)](/cells/python-net/aspose.cells.drawing/colorhelper/to_ole_color/#aspose.pydrawing.Color-Workbook) | Convert color to OLE_COLOR |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

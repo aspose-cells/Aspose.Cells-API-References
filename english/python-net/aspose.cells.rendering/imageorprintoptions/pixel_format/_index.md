@@ -17,6 +17,15 @@ Gets or sets the pixel format for the generated images.
 
 
 The default value is PixelFormat.Format32bppArgb.
+### Definition:
+```python
+@property
+def pixel_format(self):
+    ...
+@pixel_format.setter
+def pixel_format(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

@@ -54,7 +54,9 @@ The ImageActiveXControl type exposes the following members:
 | [is_tiled](/cells/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/is_tiled) | Indicates whether the picture is tiled across the background. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)
 * class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
+* class [ActiveXControlBase](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase)
+* class [ImageActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol)

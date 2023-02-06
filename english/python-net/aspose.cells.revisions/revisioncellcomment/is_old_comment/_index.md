@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether it's an  old comment.
+### Definition:
+```python
+@property
+def is_old_comment(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

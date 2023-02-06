@@ -97,7 +97,8 @@ The HtmlSaveOptions type exposes the following members:
 | [link_target_type](/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type) | Indicating the type of  target attribute in <a> link,The default value is HtmlLinkTargetType.Parent. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [HtmlSaveOptions](/cells/python-net/aspose.cells/htmlsaveoptions)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)

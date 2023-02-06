@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the row index of the which contains a comment.
+### Definition:
+```python
+@property
+def row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

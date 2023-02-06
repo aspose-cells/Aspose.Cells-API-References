@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the latin name.
+### Definition:
+```python
+@property
+def latin_name(self):
+    ...
+@latin_name.setter
+def latin_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

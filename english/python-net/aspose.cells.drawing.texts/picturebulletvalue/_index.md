@@ -34,7 +34,8 @@ The PictureBulletValue type exposes the following members:
 | [image_data](/cells/python-net/aspose.cells.drawing.texts/picturebulletvalue/image_data) | Gets and sets image data of the bullet. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)
 * class [BulletValue](/cells/python-net/aspose.cells.drawing.texts/bulletvalue)
+* class [PictureBulletValue](/cells/python-net/aspose.cells.drawing.texts/picturebulletvalue)

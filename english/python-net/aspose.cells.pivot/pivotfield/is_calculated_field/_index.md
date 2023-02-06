@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the specified PivotTable field is calculated field.
+### Definition:
+```python
+@property
+def is_calculated_field(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the index of this column.
+### Definition:
+```python
+@property
+def index(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

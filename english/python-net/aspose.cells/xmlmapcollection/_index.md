@@ -36,6 +36,7 @@ The XmlMapCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/xmlmapcollection/binary_search/#XmlMap) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [XmlMap](/cells/python-net/aspose.cells/xmlmap)

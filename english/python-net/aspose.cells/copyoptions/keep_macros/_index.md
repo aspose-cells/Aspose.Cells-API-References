@@ -17,6 +17,15 @@ Indicates whether keeping macros;
 
 
 Only for copying workbook.
+### Definition:
+```python
+@property
+def keep_macros(self):
+    ...
+@keep_macros.setter
+def keep_macros(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

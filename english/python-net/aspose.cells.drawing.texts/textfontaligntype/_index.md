@@ -26,6 +26,6 @@ The TextFontAlignType type exposes the following members:
 | TOP | The letters are anchored to the top baseline of a single line. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

@@ -21,6 +21,12 @@ Specifies an optional string that an application can use to Identify the particu
 spid = shape.spid
 
 ```
+### Definition:
+```python
+@property
+def spid(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

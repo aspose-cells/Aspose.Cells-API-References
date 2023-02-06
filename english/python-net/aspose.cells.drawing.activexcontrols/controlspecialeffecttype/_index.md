@@ -26,6 +26,6 @@ The ControlSpecialEffectType type exposes the following members:
 | BUMP | Bump |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

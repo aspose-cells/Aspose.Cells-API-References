@@ -24,6 +24,15 @@ s5 = SignatureLine()
 s5.email = "Simon.Zhao@aspose.com"
 
 ```
+### Definition:
+```python
+@property
+def email(self):
+    ...
+@email.setter
+def email(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

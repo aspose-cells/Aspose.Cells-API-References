@@ -23,6 +23,6 @@ The ShapeAnchorType type exposes the following members:
 | ONE_CELL_ANCHOR | Represents a one cell anchor placeholder |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

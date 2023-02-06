@@ -26,6 +26,6 @@ The ChartTextDirectionType type exposes the following members:
 | STACKED | Stacked text. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Parse html tag in cell,like ,as cell value,or as html tag,default is true
+### Definition:
+```python
+@property
+def parse_html_tag_in_cell(self):
+    ...
+@parse_html_tag_in_cell.setter
+def parse_html_tag_in_cell(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

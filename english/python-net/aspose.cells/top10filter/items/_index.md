@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the items of the filter.
+### Definition:
+```python
+@property
+def items(self):
+    ...
+@items.setter
+def items(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

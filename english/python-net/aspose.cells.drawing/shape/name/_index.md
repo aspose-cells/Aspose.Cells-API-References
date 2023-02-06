@@ -21,6 +21,15 @@ Gets and sets the name of the shape.
 shape.name = "shape1"
 
 ```
+### Definition:
+```python
+@property
+def name(self):
+    ...
+@name.setter
+def name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

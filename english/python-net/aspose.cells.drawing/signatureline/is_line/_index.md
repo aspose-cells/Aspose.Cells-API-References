@@ -22,6 +22,15 @@ if s.is_line:
     pass
 
 ```
+### Definition:
+```python
+@property
+def is_line(self):
+    ...
+@is_line.setter
+def is_line(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

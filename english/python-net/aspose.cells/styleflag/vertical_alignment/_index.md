@@ -12,6 +12,15 @@ is_root: false
 
 
 Vertical alignment setting will be applied.
+### Definition:
+```python
+@property
+def vertical_alignment(self):
+    ...
+@vertical_alignment.setter
+def vertical_alignment(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

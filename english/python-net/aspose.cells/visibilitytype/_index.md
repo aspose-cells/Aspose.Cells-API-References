@@ -24,6 +24,6 @@ The VisibilityType type exposes the following members:
 | VERY_HIDDEN | Indicates the sheet is hidden and cannot be shown in the user interface (UI). <br/>This state is only available programmatically. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -23,6 +23,6 @@ The GridlineType type exposes the following members:
 | HAIR | Represents hair line. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -33,6 +33,6 @@ The ConsolidationFunction type exposes the following members:
 | DISTINCT_COUNT | Represents Distinct Count function. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

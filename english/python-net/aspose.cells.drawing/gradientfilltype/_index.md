@@ -25,6 +25,6 @@ The GradientFillType type exposes the following members:
 | PATH | Path |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -51,4 +51,5 @@ def add(self, type, index):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [ConditionalFormattingIcon](/cells/python-net/aspose.cells/conditionalformattingicon)
 * class [ConditionalFormattingIconCollection](/cells/python-net/aspose.cells/conditionalformattingiconcollection)

@@ -24,6 +24,6 @@ The PrintCommentsType type exposes the following members:
 | PRINT_SHEET_END | Represents to print comments at end of sheet. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

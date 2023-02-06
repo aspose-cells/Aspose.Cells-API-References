@@ -21,6 +21,15 @@ Represents the Height of the comment, in unit of pixels.
 comment1.height = 10
 
 ```
+### Definition:
+```python
+@property
+def height(self):
+    ...
+@height.setter
+def height(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

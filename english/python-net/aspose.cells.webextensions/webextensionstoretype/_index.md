@@ -28,6 +28,6 @@ The WebExtensionStoreType type exposes the following members:
 | EX_CATALOG | Specifies that the store type is Centralized Deployment via Exchange. |
 
 
-### See Also
 
-* module [aspose.cells.webextensions](../)
+### See Also
+* module [aspose.cells.webextensions](..)

@@ -62,6 +62,7 @@ range.name = "TestRange"
 workbook.save("output.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Name](/cells/python-net/aspose.cells/name)

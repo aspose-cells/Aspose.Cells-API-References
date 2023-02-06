@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the user password
+### Definition:
+```python
+@property
+def user_password(self):
+    ...
+@user_password.setter
+def user_password(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering.pdfsecurity](../../)

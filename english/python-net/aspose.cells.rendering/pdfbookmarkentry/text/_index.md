@@ -12,6 +12,15 @@ is_root: false
 
 
 Title of a bookmark.
+### Definition:
+```python
+@property
+def text(self):
+    ...
+@text.setter
+def text(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

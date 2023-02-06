@@ -12,6 +12,12 @@ is_root: false
 
 
 Path to fonts folder.
+### Definition:
+```python
+@property
+def folder_path(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

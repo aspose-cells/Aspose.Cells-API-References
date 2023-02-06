@@ -12,7 +12,17 @@ is_root: false
 
 
 Gets and sets the default style.
+### Definition:
+```python
+@property
+def style(self):
+    ...
+@style.setter
+def style(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [Cells](/cells/python-net/aspose.cells/cells)
+* class [Style](/cells/python-net/aspose.cells/style)

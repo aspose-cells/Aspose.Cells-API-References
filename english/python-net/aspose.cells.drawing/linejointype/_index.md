@@ -25,6 +25,6 @@ The LineJoinType type exposes the following members:
 | NONE | None joint |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -25,6 +25,6 @@ The ErrorBarDisplayType type exposes the following members:
 | PLUS | Plus |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

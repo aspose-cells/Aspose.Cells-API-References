@@ -37,4 +37,5 @@ def add(self, name, start_row, start_column, end_row, end_column):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [ProtectedRange](/cells/python-net/aspose.cells/protectedrange)
 * class [ProtectedRangeCollection](/cells/python-net/aspose.cells/protectedrangecollection)

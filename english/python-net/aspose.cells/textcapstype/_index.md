@@ -24,6 +24,6 @@ The TextCapsType type exposes the following members:
 | SMALL | Apply small caps to the text. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

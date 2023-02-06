@@ -24,7 +24,17 @@ opt.color = Color.blue
 opt.size = 8
 
 ```
+### Definition:
+```python
+@property
+def text_options(self):
+    ...
+@text_options.setter
+def text_options(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [SmartArtShape](/cells/python-net/aspose.cells.drawing/smartartshape)
+* class [TextOptions](/cells/python-net/aspose.cells.drawing.texts/textoptions)

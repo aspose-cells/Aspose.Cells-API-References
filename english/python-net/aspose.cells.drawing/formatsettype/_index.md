@@ -25,6 +25,6 @@ The FormatSetType type exposes the following members:
 | IS_PATTERN_SET | Pattern fill format. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

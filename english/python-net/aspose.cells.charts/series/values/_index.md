@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the data of the chart series.
+### Definition:
+```python
+@property
+def values(self):
+    ...
+@values.setter
+def values(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

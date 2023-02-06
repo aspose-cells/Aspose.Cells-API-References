@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether this worksheet has auto filter.
+### Definition:
+```python
+@property
+def has_autofilter(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Always use ZIP64 extensions when writing zip archives, even when unnecessary.
+### Definition:
+```python
+@property
+def enable_zip64(self):
+    ...
+@enable_zip64.setter
+def enable_zip64(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -23,6 +23,15 @@ NOTE: This property is now obsolete. Instead,
 please use WebQueryConnection.EditWebPage property.
 This property will be removed 12 months later since October 2017. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def edit_page(self):
+    ...
+@edit_page.setter
+def edit_page(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

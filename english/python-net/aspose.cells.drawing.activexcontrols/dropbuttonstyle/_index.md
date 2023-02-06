@@ -25,6 +25,6 @@ The DropButtonStyle type exposes the following members:
 | REDUCE | Displays a button with a horizontal line like an underscore character. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

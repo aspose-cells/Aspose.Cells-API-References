@@ -51,6 +51,7 @@ The DataLabels type exposes the following members:
 | [text_horizontal_alignment](/cells/python-net/aspose.cells.charts/datalabels/text_horizontal_alignment) | Gets and sets the text horizontal alignment. |
 | [text_vertical_alignment](/cells/python-net/aspose.cells.charts/datalabels/text_vertical_alignment) | Gets or sets the text vertical alignment of text. |
 | [rotation_angle](/cells/python-net/aspose.cells.charts/datalabels/rotation_angle) | Represents text rotation angle. |
+| [is_automatic_rotation](/cells/python-net/aspose.cells.charts/datalabels/is_automatic_rotation) | Indicates whether the text of the chart is automatically rotated. |
 | [text](/cells/python-net/aspose.cells.charts/datalabels/text) | Gets or sets the text of data label. |
 | [linked_source](/cells/python-net/aspose.cells.charts/datalabels/linked_source) | Gets and sets a reference to the worksheet. |
 | [text_direction](/cells/python-net/aspose.cells.charts/datalabels/text_direction) | Represents text reading order. |
@@ -108,7 +109,10 @@ for i in range(len(chart.NSeries)):
     datalabels.show_legend_key = False
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [ChartFrame](/cells/python-net/aspose.cells.charts/chartframe)
 * class [ChartTextFrame](/cells/python-net/aspose.cells.charts/charttextframe)
+* class [DataLabels](/cells/python-net/aspose.cells.charts/datalabels)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)

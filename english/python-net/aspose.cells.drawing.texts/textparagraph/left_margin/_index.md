@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies the left margin of the paragraph.
+### Definition:
+```python
+@property
+def left_margin(self):
+    ...
+@left_margin.setter
+def left_margin(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

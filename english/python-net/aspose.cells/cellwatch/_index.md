@@ -30,6 +30,6 @@ The CellWatch type exposes the following members:
 | [cell_name](/cells/python-net/aspose.cells/cellwatch/cell_name) | Gets and sets the name of the cell. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

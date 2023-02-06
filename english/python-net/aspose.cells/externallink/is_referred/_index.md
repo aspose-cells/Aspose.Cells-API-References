@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether this external link is referenced by others.
+### Definition:
+```python
+@property
+def is_referred(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

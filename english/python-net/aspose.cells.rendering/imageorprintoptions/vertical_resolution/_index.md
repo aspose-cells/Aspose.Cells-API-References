@@ -18,6 +18,15 @@ Applies generating image method except Emf format image.
 
 
 The default value is 96.
+### Definition:
+```python
+@property
+def vertical_resolution(self):
+    ...
+@vertical_resolution.setter
+def vertical_resolution(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

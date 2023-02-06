@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the persistence method to persist an ActiveX control.
+### Definition:
+```python
+@property
+def persistence_type(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)
+* class [ActiveXPersistenceType](/cells/python-net/aspose.cells.drawing.activexcontrols/activexpersistencetype)
 * class [UnknownControl](/cells/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol)

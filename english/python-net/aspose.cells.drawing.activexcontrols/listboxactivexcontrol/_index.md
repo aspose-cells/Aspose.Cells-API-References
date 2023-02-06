@@ -62,7 +62,9 @@ The ListBoxActiveXControl type exposes the following members:
 | [column_widths](/cells/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/column_widths) | Gets and sets the width of the column. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)
 * class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
+* class [ActiveXControlBase](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase)
+* class [ListBoxActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol)

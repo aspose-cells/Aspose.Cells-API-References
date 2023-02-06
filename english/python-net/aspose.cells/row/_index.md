@@ -85,6 +85,6 @@ row.apply_style(style, styleFlag)
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

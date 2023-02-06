@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the control is transparent.
+### Definition:
+```python
+@property
+def is_transparent(self):
+    ...
+@is_transparent.setter
+def is_transparent(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

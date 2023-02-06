@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the value or expression associated with the data validation.
+### Definition:
+```python
+@property
+def formula2(self):
+    ...
+@formula2.setter
+def formula2(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

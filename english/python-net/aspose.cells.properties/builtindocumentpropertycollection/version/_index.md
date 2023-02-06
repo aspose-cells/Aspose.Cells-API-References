@@ -17,6 +17,15 @@ Represents the version number of the application that created the document.
 
 
 It's format is "00.0000",for example : 12.0000
+### Definition:
+```python
+@property
+def version(self):
+    ...
+@version.setter
+def version(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Flag indicating whether consecutive delimiters should be treated as just one delimiter.
+### Definition:
+```python
+@property
+def is_consecutive(self):
+    ...
+@is_consecutive.setter
+def is_consecutive(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

@@ -20,6 +20,15 @@ If the document was never printed, this property will return DateTime.MinValue.
 
 
 Aspose.Cells does not update this property when you modify the document.
+### Definition:
+```python
+@property
+def last_printed(self):
+    ...
+@last_printed.setter
+def last_printed(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies the minimum font size at which character kerning will occur for this text run.
+### Definition:
+```python
+@property
+def kerning(self):
+    ...
+@kerning.setter
+def kerning(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

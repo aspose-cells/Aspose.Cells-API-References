@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the amount of vertical white space that will be present after a paragraph.
+### Definition:
+```python
+@property
+def space_after(self):
+    ...
+@space_after.setter
+def space_after(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

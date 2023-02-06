@@ -25,6 +25,6 @@ The TickLabelPositionType type exposes the following members:
 | NONE | Position type is none. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

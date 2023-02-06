@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the x coordinate of the upper left corner in units of pixels after calls Chart.Calculate() method.
+### Definition:
+```python
+@property
+def shape_x_px(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

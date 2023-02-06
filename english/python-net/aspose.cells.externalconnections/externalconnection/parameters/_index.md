@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets [ConnectionParameterCollection](/cells/python-net/aspose.cells.externalconnections/connectionparametercollection) for an ODBC or web query.
+### Definition:
+```python
+@property
+def parameters(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)
+* class [ConnectionParameterCollection](/cells/python-net/aspose.cells.externalconnections/connectionparametercollection)
 * class [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection)

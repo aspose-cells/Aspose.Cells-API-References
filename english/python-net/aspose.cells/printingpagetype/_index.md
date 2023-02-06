@@ -24,6 +24,6 @@ The PrintingPageType type exposes the following members:
 | IGNORE_STYLE | Don't print the pages which cells only contain styles. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

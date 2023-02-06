@@ -30,3 +30,4 @@ def add_font_color_filter(self, field_index, color):
 ### See Also
 * module [aspose.cells](../../)
 * class [AutoFilter](/cells/python-net/aspose.cells/autofilter)
+* class [CellsColor](/cells/python-net/aspose.cells/cellscolor)

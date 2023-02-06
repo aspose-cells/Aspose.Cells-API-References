@@ -12,6 +12,15 @@ is_root: false
 
 
 The width of the window, in unit of inch.
+### Definition:
+```python
+@property
+def window_width_inch(self):
+    ...
+@window_width_inch.setter
+def window_width_inch(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

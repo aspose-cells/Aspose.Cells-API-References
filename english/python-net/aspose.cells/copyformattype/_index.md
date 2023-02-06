@@ -24,6 +24,6 @@ The CopyFormatType type exposes the following members:
 | CLEAR | Clears formatting. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

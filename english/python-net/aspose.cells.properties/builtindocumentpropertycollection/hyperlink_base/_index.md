@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the hyperlinkbase property.
+### Definition:
+```python
+@property
+def hyperlink_base(self):
+    ...
+@hyperlink_base.setter
+def hyperlink_base(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

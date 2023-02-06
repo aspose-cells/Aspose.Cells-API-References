@@ -22,6 +22,6 @@ The XmlColumnProperty type exposes the following members:
 | [XmlColumnProperty()](/cells/python-net/aspose.cells/xmlcolumnproperty/__init__/#) | Constructs a new instance of XmlColumnProperty |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

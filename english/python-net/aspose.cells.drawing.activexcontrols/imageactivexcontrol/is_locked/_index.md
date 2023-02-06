@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether data in the control is locked for editing.
+### Definition:
+```python
+@property
+def is_locked(self):
+    ...
+@is_locked.setter
+def is_locked(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

@@ -28,6 +28,6 @@ The ColorFilter type exposes the following members:
 | [get_color(sheets)](/cells/python-net/aspose.cells/colorfilter/get_color/#WorksheetCollection) |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

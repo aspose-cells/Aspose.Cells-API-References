@@ -12,7 +12,17 @@ is_root: false
 
 
 Gets or sets the memory usage options.
+### Definition:
+```python
+@property
+def memory_setting(self):
+    ...
+@memory_setting.setter
+def memory_setting(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [AbstractTextLoadOptions](/cells/python-net/aspose.cells/abstracttextloadoptions)
+* class [MemorySetting](/cells/python-net/aspose.cells/memorysetting)

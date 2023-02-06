@@ -29,6 +29,6 @@ The LightRigDirectionType type exposes the following members:
 | TOP_RIGHT | Top Right. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

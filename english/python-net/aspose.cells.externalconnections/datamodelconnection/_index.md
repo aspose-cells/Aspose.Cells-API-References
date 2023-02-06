@@ -49,7 +49,9 @@ The DataModelConnection type exposes the following members:
 | [parameters](/cells/python-net/aspose.cells.externalconnections/datamodelconnection/parameters) | Gets [ConnectionParameterCollection](/cells/python-net/aspose.cells.externalconnections/connectionparametercollection) for an ODBC or web query. |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)
+* class [ConnectionParameterCollection](/cells/python-net/aspose.cells.externalconnections/connectionparametercollection)
+* class [DataModelConnection](/cells/python-net/aspose.cells.externalconnections/datamodelconnection)
 * class [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection)

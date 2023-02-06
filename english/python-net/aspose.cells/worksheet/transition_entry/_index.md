@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the Transition Formula Entry (Lotus compatibility) option is enabled.
+### Definition:
+```python
+@property
+def transition_entry(self):
+    ...
+@transition_entry.setter
+def transition_entry(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

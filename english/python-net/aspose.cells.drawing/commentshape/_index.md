@@ -162,9 +162,9 @@ The CommentShape type exposes the following members:
 
 
 ```python
+from aspose import pycore
 from aspose.cells import Workbook
-from aspose.cells.drawing import MsoDrawingType
-import aspose.pycore
+from aspose.cells.drawing import CommentShape, MsoDrawingType
 
 # source file
 fileName = ""
@@ -175,10 +175,14 @@ shapes = workbook.worksheets[0].shapes
 commentShape = None
 if shapes[0].mso_drawing_type == MsoDrawingType.COMMENT:
     # Represents the shape of the comment.
-    commentShape = aspose.pycore.cast(Aspose.Cells.Drawing.CommentShape, shapes[0])
+    commentShape = pycore.cast(CommentShape, shapes[0])
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [CommentShape](/cells/python-net/aspose.cells.drawing/commentshape)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
+* class [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 * class [Shape](/cells/python-net/aspose.cells.drawing/shape)

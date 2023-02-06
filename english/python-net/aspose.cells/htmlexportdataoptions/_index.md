@@ -23,6 +23,6 @@ The HtmlExportDataOptions type exposes the following members:
 | ALL | Export all the data to html. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

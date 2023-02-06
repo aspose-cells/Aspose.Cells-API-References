@@ -22,6 +22,15 @@ if shape.is_printable:
     shape.is_printable = False
 
 ```
+### Definition:
+```python
+@property
+def is_printable(self):
+    ...
+@is_printable.setter
+def is_printable(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

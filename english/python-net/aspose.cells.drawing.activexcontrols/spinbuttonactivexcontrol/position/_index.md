@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the value.
+### Definition:
+```python
+@property
+def position(self):
+    ...
+@position.setter
+def position(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

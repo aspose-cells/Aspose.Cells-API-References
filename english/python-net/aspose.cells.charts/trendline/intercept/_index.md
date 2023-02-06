@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the point where the trendline crosses the value axis.
+### Definition:
+```python
+@property
+def intercept(self):
+    ...
+@intercept.setter
+def intercept(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

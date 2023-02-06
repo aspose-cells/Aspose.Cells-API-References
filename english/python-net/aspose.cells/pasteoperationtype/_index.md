@@ -26,6 +26,6 @@ The PasteOperationType type exposes the following members:
 | DIVIDE | Divide |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

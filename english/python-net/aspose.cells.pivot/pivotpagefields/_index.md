@@ -37,6 +37,6 @@ The PivotPageFields type exposes the following members:
 | [add_identify(range_index, page_item_index)](/cells/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) | Sets which item label in each page field to use to identify the data range.<br/>The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

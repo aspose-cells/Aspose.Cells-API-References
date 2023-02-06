@@ -47,6 +47,6 @@ license = License()
 license.set_license("MyLicense.lic")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

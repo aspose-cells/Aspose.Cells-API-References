@@ -26,6 +26,6 @@ The ConditionalFormattingResult type exposes the following members:
 | [color_scale_result](/cells/python-net/aspose.cells/conditionalformattingresult/color_scale_result) | Gets the display color of color scale. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

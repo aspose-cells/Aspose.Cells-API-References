@@ -3,7 +3,7 @@ title: text property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /python-net/aspose.cells.charts/displayunitlabel/text/
 is_root: false
 ---
@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the text of display unit label.
+### Definition:
+```python
+@property
+def text(self):
+    ...
+@text.setter
+def text(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

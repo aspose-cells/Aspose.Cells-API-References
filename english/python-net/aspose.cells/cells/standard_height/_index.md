@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the default row height in this worksheet, in unit of points.
+### Definition:
+```python
+@property
+def standard_height(self):
+    ...
+@standard_height.setter
+def standard_height(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

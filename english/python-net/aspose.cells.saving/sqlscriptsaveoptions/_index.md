@@ -58,7 +58,8 @@ The SqlScriptSaveOptions type exposes the following members:
 | [has_header_row](/cells/python-net/aspose.cells.saving/sqlscriptsaveoptions/has_header_row) | Indicates whether the range contains header row. |
 
 
-### See Also
 
-* module [aspose.cells.saving](../)
-* class [SaveOptions](/cells/python-net/aspose.cells.saving/saveoptions)
+### See Also
+* module [aspose.cells.saving](..)
+* class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)
+* class [SqlScriptSaveOptions](/cells/python-net/aspose.cells.saving/sqlscriptsaveoptions)

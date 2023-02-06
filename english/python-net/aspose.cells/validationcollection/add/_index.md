@@ -57,4 +57,5 @@ def add(self, ca):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Validation](/cells/python-net/aspose.cells/validation)
 * class [ValidationCollection](/cells/python-net/aspose.cells/validationcollection)

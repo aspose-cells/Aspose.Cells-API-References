@@ -27,6 +27,15 @@ if shape.top == 3:
     shape.top = 1
 
 ```
+### Definition:
+```python
+@property
+def top(self):
+    ...
+@top.setter
+def top(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

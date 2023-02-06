@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the height of top to bottom in units of pixels after calls Chart.Calculate() method.
+### Definition:
+```python
+@property
+def height_px(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

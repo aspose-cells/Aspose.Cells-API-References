@@ -18,6 +18,15 @@ Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the
 
 How to convert units of 1/4000 to pixels? 
 X In Pixels = X * Chart.ChartObject.Width / 4000;
+### Definition:
+```python
+@property
+def x(self):
+    ...
+@x.setter
+def x(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

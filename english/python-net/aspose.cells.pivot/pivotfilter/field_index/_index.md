@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the field index of the pivot filter.
+### Definition:
+```python
+@property
+def field_index(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

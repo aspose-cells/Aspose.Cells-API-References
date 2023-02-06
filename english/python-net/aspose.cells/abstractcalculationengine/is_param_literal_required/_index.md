@@ -18,6 +18,12 @@ Indicates whether this engine needs the literal text of parameter while doing ca
 
 If this custom calculation engine requires the parameter's literal text, more stacks will be required to cache the literal text for parameters and Calculate() method may be called recursively to calculate the parameter's value.
 Commonly the literal text is not needed for calculating formulas and this method should return false for most implementations to get better performance.
+### Definition:
+```python
+@property
+def is_param_literal_required(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

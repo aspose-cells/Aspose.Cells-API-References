@@ -12,6 +12,15 @@ is_root: false
 
 
 whether the column is collapsed
+### Definition:
+```python
+@property
+def is_collapsed(self):
+    ...
+@is_collapsed.setter
+def is_collapsed(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets the color of the axis for cells with conditional formatting as data bars.
+### Definition:
+```python
+@property
+def axis_color(self):
+    ...
+@axis_color.setter
+def axis_color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

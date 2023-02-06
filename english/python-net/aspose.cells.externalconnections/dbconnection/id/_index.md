@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the id of the connection.
+### Definition:
+```python
+@property
+def id(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

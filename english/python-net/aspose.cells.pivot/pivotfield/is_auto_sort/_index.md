@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the specified PivotTable field is automatically sorted.
+### Definition:
+```python
+@property
+def is_auto_sort(self):
+    ...
+@is_auto_sort.setter
+def is_auto_sort(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

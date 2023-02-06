@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the rotation of the extruded shape around the y-axis in degrees.
+### Definition:
+```python
+@property
+def rotation_y(self):
+    ...
+@rotation_y.setter
+def rotation_y(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

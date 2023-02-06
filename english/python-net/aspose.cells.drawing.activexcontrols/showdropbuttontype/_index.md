@@ -24,6 +24,6 @@ The ShowDropButtonType type exposes the following members:
 | ALWAYS | Always show the drop button. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

@@ -24,6 +24,6 @@ The BackgroundMode type exposes the following members:
 | TRANSPARENT | Transparent |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

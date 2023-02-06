@@ -56,4 +56,5 @@ def get(self, row, column):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Cell](/cells/python-net/aspose.cells/cell)
 * class [Cells](/cells/python-net/aspose.cells/cells)

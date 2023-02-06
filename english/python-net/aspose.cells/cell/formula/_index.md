@@ -3,7 +3,7 @@ title: formula property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.cells/cell/formula/
 is_root: false
 ---
@@ -29,6 +29,15 @@ excel = Workbook()
 cells = excel.worksheets[0].cells
 cells.get("B6").formula = "=SUM(B2:B5, E1) + sheet1!A1"
 
+```
+### Definition:
+```python
+@property
+def formula(self):
+    ...
+@formula.setter
+def formula(self, value):
+    ...
 ```
 
 ### See Also

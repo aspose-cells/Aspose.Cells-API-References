@@ -31,7 +31,8 @@ The RevisionCustomView type exposes the following members:
 | [guid](/cells/python-net/aspose.cells.revisions/revisioncustomview/guid) | Gets the globally unique identifier of the custom view. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionCustomView](/cells/python-net/aspose.cells.revisions/revisioncustomview)

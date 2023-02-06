@@ -24,6 +24,6 @@ The TextNodeType type exposes the following members:
 | EQUATION | Represents the equation text. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

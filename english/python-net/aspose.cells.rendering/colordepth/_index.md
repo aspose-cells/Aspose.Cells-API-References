@@ -27,6 +27,6 @@ The ColorDepth type exposes the following members:
 | FORMAT_32BPP | 32 bits per pixel |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

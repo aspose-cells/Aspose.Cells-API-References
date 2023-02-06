@@ -23,6 +23,6 @@ The ICustomParser type exposes the following members:
 | [get_format()](/cells/python-net/aspose.cells/icustomparser/get_format/#) | Gets the formatting pattern corresponding to the parsed value by last invocation of [ICustomParser.parse_object(value)](/cells/python-net/aspose.cells/icustomparser/parse_object). |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -94,7 +94,9 @@ chartArea.shadow = True
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [ChartArea](/cells/python-net/aspose.cells.charts/chartarea)
 * class [ChartFrame](/cells/python-net/aspose.cells.charts/chartframe)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)

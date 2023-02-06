@@ -17,6 +17,15 @@ Gets and sets the time of generating the pdf document.
 
 
 if it is not be set, it will be the time of generating the pdf.
+### Definition:
+```python
+@property
+def created_time(self):
+    ...
+@created_time.setter
+def created_time(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -24,6 +24,6 @@ The HtmlFormatHandlingType type exposes the following members:
 | RTF | Translate HTML formatting to rich text formatting on the data brought into the worksheet. |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)

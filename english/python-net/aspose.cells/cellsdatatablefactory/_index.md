@@ -28,6 +28,6 @@ The CellsDataTableFactory type exposes the following members:
 | [get_instance(collection)](/cells/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Creates ICellsDataTable from given collection. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

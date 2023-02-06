@@ -81,7 +81,9 @@ The BuiltInDocumentPropertyCollection type exposes the following members:
 
 Provides access to [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty) objects by their names (using an indexer) and
 via a set of typed properties that return values of appropriate types.
-### See Also
 
-* module [aspose.cells.properties](../)
+### See Also
+* module [aspose.cells.properties](..)
+* class [BuiltInDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection)
+* class [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty)
 * class [DocumentPropertyCollection](/cells/python-net/aspose.cells.properties/documentpropertycollection)

@@ -25,6 +25,15 @@ s1 = SignatureLine()
 s1.id = uuid4()
 
 ```
+### Definition:
+```python
+@property
+def id(self):
+    ...
+@id.setter
+def id(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -22,6 +22,15 @@ if s.show_signed_date:
     pass
 
 ```
+### Definition:
+```python
+@property
+def show_signed_date(self):
+    ...
+@show_signed_date.setter
+def show_signed_date(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

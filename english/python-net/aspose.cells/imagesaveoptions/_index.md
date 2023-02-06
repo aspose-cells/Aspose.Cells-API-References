@@ -47,7 +47,10 @@ The ImageSaveOptions type exposes the following members:
 | [stream_provider](/cells/python-net/aspose.cells/imagesaveoptions/stream_provider) | Gets or sets the IStreamProvider for exporting objects. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [ImageSaveOptions](/cells/python-net/aspose.cells/imagesaveoptions)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)
+* class [SheetRender](/cells/python-net/aspose.cells.rendering/sheetrender)
+* class [WorkbookRender](/cells/python-net/aspose.cells.rendering/workbookrender)

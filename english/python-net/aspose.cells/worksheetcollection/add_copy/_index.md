@@ -61,4 +61,6 @@ def add_copy(self, sheet_index):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [CellsException](/cells/python-net/aspose.cells/cellsexception)
+* class [Worksheet](/cells/python-net/aspose.cells/worksheet)
 * class [WorksheetCollection](/cells/python-net/aspose.cells/worksheetcollection)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Get all base items;
+### Definition:
+```python
+@property
+def items(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

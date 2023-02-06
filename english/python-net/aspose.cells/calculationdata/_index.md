@@ -43,6 +43,6 @@ The CalculationData type exposes the following members:
 All objects provided by this class are for "read" purpose only.
 User should not change any data in the Workbook during the formula calculation process,
 Otherwise unexpected result or Exception may be caused.
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

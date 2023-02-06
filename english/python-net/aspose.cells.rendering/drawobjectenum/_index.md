@@ -23,6 +23,6 @@ The DrawObjectEnum type exposes the following members:
 | CELL | indicate DrawObject is an Cell |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

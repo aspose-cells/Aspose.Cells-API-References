@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the default row height in this worksheet, in unit of pixels.
+### Definition:
+```python
+@property
+def standard_height_pixels(self):
+    ...
+@standard_height_pixels.setter
+def standard_height_pixels(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

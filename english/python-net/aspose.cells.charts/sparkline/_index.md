@@ -60,6 +60,6 @@ print("Saprkline data range: "  + line.data_range + ", row: "  + str(line.row) +
 line.to_image("output.png", ImageOrPrintOptions())
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

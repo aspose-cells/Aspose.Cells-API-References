@@ -35,6 +35,6 @@ The TickLabels type exposes the following members:
 | [tick_label_items](/cells/python-net/aspose.cells.charts/ticklabels/tick_label_items) | Gets the items' info of TickLabel. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

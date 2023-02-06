@@ -24,6 +24,6 @@ The PivotConditionFormatScopeType type exposes the following members:
 | SELECTION | Indicates that conditional formatting is applied to the selected cells. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

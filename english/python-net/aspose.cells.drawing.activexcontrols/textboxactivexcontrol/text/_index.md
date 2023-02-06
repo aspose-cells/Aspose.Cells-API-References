@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and set text of the control.
+### Definition:
+```python
+@property
+def text(self):
+    ...
+@text.setter
+def text(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

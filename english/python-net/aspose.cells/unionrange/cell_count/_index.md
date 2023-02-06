@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets all cell count in the range.
+### Definition:
+```python
+@property
+def cell_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

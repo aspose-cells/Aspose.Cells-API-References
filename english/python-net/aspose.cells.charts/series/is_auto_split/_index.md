@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the threshold value is automatic.
+### Definition:
+```python
+@property
+def is_auto_split(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

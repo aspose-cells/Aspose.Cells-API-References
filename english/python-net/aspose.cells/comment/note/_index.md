@@ -26,6 +26,15 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 comment1.note = "First note."
 
 ```
+### Definition:
+```python
+@property
+def note(self):
+    ...
+@note.setter
+def note(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

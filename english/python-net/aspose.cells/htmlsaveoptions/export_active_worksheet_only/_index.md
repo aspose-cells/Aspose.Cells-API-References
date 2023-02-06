@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates if exporting the whole workbook to html file.
+### Definition:
+```python
+@property
+def export_active_worksheet_only(self):
+    ...
+@export_active_worksheet_only.setter
+def export_active_worksheet_only(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

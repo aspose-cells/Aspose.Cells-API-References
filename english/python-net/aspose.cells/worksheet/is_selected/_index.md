@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether this worksheet is selected when the workbook is opened.
+### Definition:
+```python
+@property
+def is_selected(self):
+    ...
+@is_selected.setter
+def is_selected(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

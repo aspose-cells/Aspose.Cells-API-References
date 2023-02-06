@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the width of the control in unit of points.
+### Definition:
+```python
+@property
+def width(self):
+    ...
+@width.setter
+def width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

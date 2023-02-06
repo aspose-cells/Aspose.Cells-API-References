@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the column of the cell smart tags.
+### Definition:
+```python
+@property
+def column(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.markup](../../)

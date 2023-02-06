@@ -56,6 +56,6 @@ The DynamicFilterType type exposes the following members:
 | YESTERDAY | Shows yesterday's dates. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

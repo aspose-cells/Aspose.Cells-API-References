@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the format number for the TickLabels object.
+### Definition:
+```python
+@property
+def number(self):
+    ...
+@number.setter
+def number(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

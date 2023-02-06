@@ -12,6 +12,12 @@ is_root: false
 
 
 Y coordinates of Ticklabel item in ratio of chart height.
+### Definition:
+```python
+@property
+def y(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

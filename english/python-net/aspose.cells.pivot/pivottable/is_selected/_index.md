@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the PivotTable is selected.
+### Definition:
+```python
+@property
+def is_selected(self):
+    ...
+@is_selected.setter
+def is_selected(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

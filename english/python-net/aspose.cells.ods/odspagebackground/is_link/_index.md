@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether it's a linked graphic.
+### Definition:
+```python
+@property
+def is_link(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.ods](../../)

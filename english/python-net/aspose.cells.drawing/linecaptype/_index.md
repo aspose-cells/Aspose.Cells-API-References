@@ -25,6 +25,6 @@ The LineCapType type exposes the following members:
 | NONE | None cap |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -30,6 +30,7 @@ The BorderCollection type exposes the following members:
 | [set_style(style)](/cells/python-net/aspose.cells/bordercollection/set_style/#CellBorderType) | Sets the style of all borders of the collection. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Border](/cells/python-net/aspose.cells/border)

@@ -58,6 +58,6 @@ The SparklinePresetStyleType type exposes the following members:
 | CUSTOM | No preset style. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

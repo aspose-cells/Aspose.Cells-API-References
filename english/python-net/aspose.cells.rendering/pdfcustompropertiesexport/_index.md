@@ -23,6 +23,7 @@ The PdfCustomPropertiesExport type exposes the following members:
 | STANDARD | Custom properties are exported as entries in Info dictionary. |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)
+* class [CustomDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/customdocumentpropertycollection)

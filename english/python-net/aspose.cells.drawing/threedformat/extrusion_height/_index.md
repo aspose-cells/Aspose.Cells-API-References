@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the extrusion height of the applied to the shape, in unit of points.
+### Definition:
+```python
+@property
+def extrusion_height(self):
+    ...
+@extrusion_height.setter
+def extrusion_height(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

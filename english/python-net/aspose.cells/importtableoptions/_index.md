@@ -42,6 +42,6 @@ The ImportTableOptions type exposes the following members:
 | [check_merged_cells](/cells/python-net/aspose.cells/importtableoptions/check_merged_cells) | Indicates whether checking merged cells. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

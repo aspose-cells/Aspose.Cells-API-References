@@ -22,6 +22,15 @@ if shape.width == 3:
     shape.width = 1
 
 ```
+### Definition:
+```python
+@property
+def width(self):
+    ...
+@width.setter
+def width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

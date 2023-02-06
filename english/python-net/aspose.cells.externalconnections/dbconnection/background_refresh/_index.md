@@ -14,6 +14,15 @@ is_root: false
 Indicates whether the connection can be refreshed in the background (asynchronously). 
 true if preferred usage of the connection is to refresh asynchronously in the background; 
 false if preferred usage of the connection is to refresh synchronously in the foreground.
+### Definition:
+```python
+@property
+def background_refresh(self):
+    ...
+@background_refresh.setter
+def background_refresh(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

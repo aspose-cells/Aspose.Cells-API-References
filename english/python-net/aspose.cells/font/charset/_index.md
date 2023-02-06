@@ -12,6 +12,15 @@ is_root: false
 
 
 Represent the character set.
+### Definition:
+```python
+@property
+def charset(self):
+    ...
+@charset.setter
+def charset(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

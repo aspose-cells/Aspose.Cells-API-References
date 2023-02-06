@@ -37,6 +37,6 @@ If a row needs to be processed, properties of this row will be read firstly and 
 if row's cells need to be processed too, then [LightCellsDataHandler.process_row(row)](/cells/python-net/aspose.cells/lightcellsdatahandler/process_row) should returns true and then [LightCellsDataHandler.start_cell(column_index)](/cells/python-net/aspose.cells/lightcellsdatahandler/start_cell) will be
 called for every existing cell in this row to check whether one cell need to be processed. If one cell needs to be processed,
 then [LightCellsDataHandler.process_cell(cell)](/cells/python-net/aspose.cells/lightcellsdatahandler/process_cell) will be called to process the cell by the implementation of this interface.
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

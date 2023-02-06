@@ -12,6 +12,15 @@ is_root: false
 
 
 True if gridlines are drawn two-dimensionally on a 3-D chart.
+### Definition:
+```python
+@property
+def walls_and_gridlines_2d(self):
+    ...
+@walls_and_gridlines_2d.setter
+def walls_and_gridlines_2d(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

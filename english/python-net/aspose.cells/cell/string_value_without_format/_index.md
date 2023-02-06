@@ -3,7 +3,7 @@ title: string_value_without_format property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 680
+weight: 690
 url: /python-net/aspose.cells/cell/string_value_without_format/
 is_root: false
 ---
@@ -20,6 +20,12 @@ NOTE: This method is now obsolete. Instead,
 User should get the value object and format it according to the value type and the specific requirement.
 This property will be removed 12 months later since December 2020.
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def string_value_without_format(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

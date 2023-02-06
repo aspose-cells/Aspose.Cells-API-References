@@ -92,6 +92,6 @@ items = slicer.slicer_cache.slicer_cache_items
 book.save("out.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.slicers](../)
+### See Also
+* module [aspose.cells.slicers](..)

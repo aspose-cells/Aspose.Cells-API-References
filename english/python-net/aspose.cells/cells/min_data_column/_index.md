@@ -19,6 +19,12 @@ Minimum column index of cell which contains data.
 -1 will be returned if there is no cell which contains data.
 This property needs to iterate and check all cells in a worksheet,
 so it is a time-consumed progress and should not be invoked repeatedly.
+### Definition:
+```python
+@property
+def min_data_column(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

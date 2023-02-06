@@ -21,7 +21,14 @@ Returns a [Shape.fill_format](/cells/python-net/aspose.cells.drawing/shape#fill_
 fillFmt = shape.fill
 
 ```
+### Definition:
+```python
+@property
+def fill(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [Button](/cells/python-net/aspose.cells.drawing/button)
+* class [FillFormat](/cells/python-net/aspose.cells.drawing/fillformat)

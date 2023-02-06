@@ -23,6 +23,6 @@ The CommentTitleType type exposes the following members:
 | COMMENT | Represents comment title comment. |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the Cell object where the function is in.
+### Definition:
+```python
+@property
+def cell(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [CalculationData](/cells/python-net/aspose.cells/calculationdata)
+* class [Cell](/cells/python-net/aspose.cells/cell)

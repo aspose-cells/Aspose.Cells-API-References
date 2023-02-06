@@ -25,6 +25,6 @@ The WebExtensionReference type exposes the following members:
 | [store_type](/cells/python-net/aspose.cells.webextensions/webextensionreference/store_type) | Gets and sets the type of marketplace that the store attribute identifies. |
 
 
-### See Also
 
-* module [aspose.cells.webextensions](../)
+### See Also
+* module [aspose.cells.webextensions](..)

@@ -24,6 +24,15 @@ NOTE: This member is now obsolete. Instead,
 please use QuoteType property instead.
 This property will be removed 12 months later since August 2012. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def always_quoted(self):
+    ...
+@always_quoted.setter
+def always_quoted(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

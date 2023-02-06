@@ -72,6 +72,7 @@ font.color = Color.red
 workbook.save(r"dest.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Font](/cells/python-net/aspose.cells/font)

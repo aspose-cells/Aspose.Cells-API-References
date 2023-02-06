@@ -12,6 +12,15 @@ is_root: false
 
 
 Bottom border settings will be applied.
+### Definition:
+```python
+@property
+def bottom_border(self):
+    ...
+@bottom_border.setter
+def bottom_border(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

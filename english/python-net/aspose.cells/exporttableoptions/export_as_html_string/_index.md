@@ -12,6 +12,15 @@ is_root: false
 
 
 Exports the html string value of the cells to the DataTable.
+### Definition:
+```python
+@property
+def export_as_html_string(self):
+    ...
+@export_as_html_string.setter
+def export_as_html_string(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

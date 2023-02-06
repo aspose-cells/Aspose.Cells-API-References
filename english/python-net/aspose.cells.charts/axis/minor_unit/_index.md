@@ -17,6 +17,15 @@ Represents the minor units for the axis.
 
 
 The minor units must be greater than zero.
+### Definition:
+```python
+@property
+def minor_unit(self):
+    ...
+@minor_unit.setter
+def minor_unit(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the first gradient color.
+### Definition:
+```python
+@property
+def color1(self):
+    ...
+@color1.setter
+def color1(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

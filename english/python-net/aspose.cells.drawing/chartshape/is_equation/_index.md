@@ -23,6 +23,12 @@ if shape.is_equation:
     pass
 
 ```
+### Definition:
+```python
+@property
+def is_equation(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

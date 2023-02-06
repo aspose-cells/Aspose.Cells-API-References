@@ -18,6 +18,15 @@ Zero-based.
 
 
 -1 presents no item is selected.
+### Definition:
+```python
+@property
+def selected_index(self):
+    ...
+@selected_index.setter
+def selected_index(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

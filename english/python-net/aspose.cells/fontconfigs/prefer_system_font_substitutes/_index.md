@@ -14,6 +14,15 @@ is_root: false
 Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set.
 e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans".
 Default value is false.
+### Definition:
+```python
+@property
+def prefer_system_font_substitutes(self):
+    ...
+@prefer_system_font_substitutes.setter
+def prefer_system_font_substitutes(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

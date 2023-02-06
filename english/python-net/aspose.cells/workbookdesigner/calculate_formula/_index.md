@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether formulas should be calculated.
+### Definition:
+```python
+@property
+def calculate_formula(self):
+    ...
+@calculate_formula.setter
+def calculate_formula(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

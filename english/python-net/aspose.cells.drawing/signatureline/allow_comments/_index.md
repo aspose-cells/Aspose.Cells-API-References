@@ -22,6 +22,15 @@ if s.allow_comments:
     pass
 
 ```
+### Definition:
+```python
+@property
+def allow_comments(self):
+    ...
+@allow_comments.setter
+def allow_comments(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

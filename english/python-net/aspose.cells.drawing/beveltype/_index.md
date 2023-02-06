@@ -34,6 +34,6 @@ The BevelType type exposes the following members:
 | SOFT_ROUND | Soft round |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

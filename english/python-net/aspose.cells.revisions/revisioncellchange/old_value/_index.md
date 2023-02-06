@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets old value of the cell.
+### Definition:
+```python
+@property
+def old_value(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

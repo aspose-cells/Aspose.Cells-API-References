@@ -25,6 +25,6 @@ The PrintErrorsType type exposes the following members:
 | PRINT_ERRORS_NA | Represents to print errors as "#N/A". |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

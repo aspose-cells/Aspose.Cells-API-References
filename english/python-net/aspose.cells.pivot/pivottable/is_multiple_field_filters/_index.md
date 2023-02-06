@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+### Definition:
+```python
+@property
+def is_multiple_field_filters(self):
+    ...
+@is_multiple_field_filters.setter
+def is_multiple_field_filters(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

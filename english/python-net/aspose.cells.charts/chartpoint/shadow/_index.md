@@ -12,6 +12,15 @@ is_root: false
 
 
 True if the chartpoint has a shadow.
+### Definition:
+```python
+@property
+def shadow(self):
+    ...
+@shadow.setter
+def shadow(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

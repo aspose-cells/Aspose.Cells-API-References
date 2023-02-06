@@ -37,6 +37,6 @@ The SeriesLayoutProperties type exposes the following members:
 | [map_chart_projection_type](/cells/python-net/aspose.cells.charts/serieslayoutproperties/map_chart_projection_type) | Gets and sets the projection type of the map. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

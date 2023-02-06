@@ -21,6 +21,15 @@ Gets and sets the rotation of the shape.
 shapeTextAlignment.rotation_angle = 90
 
 ```
+### Definition:
+```python
+@property
+def rotation_angle(self):
+    ...
+@rotation_angle.setter
+def rotation_angle(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

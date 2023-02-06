@@ -36,4 +36,5 @@ def add(self, type, data_range, is_vertical, location_range):
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [SparklineGroup](/cells/python-net/aspose.cells.charts/sparklinegroup)
 * class [SparklineGroupCollection](/cells/python-net/aspose.cells.charts/sparklinegroupcollection)

@@ -36,6 +36,6 @@ NOTE: This member is now obsolete. Instead,
 please use DataLabelsSeparatorType enum.
 This property will be removed 12 months later since September 2020. 
 Aspose apologizes for any inconvenience you may have experienced.
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

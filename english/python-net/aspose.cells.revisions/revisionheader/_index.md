@@ -29,6 +29,6 @@ The RevisionHeader type exposes the following members:
 | [user_name](/cells/python-net/aspose.cells.revisions/revisionheader/user_name) | Gets and sets the name of the user making the revision. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)

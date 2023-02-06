@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the maximum acceptable value.
+### Definition:
+```python
+@property
+def max(self):
+    ...
+@max.setter
+def max(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

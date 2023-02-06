@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the range to be printed.
+### Definition:
+```python
+@property
+def print_area(self):
+    ...
+@print_area.setter
+def print_area(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

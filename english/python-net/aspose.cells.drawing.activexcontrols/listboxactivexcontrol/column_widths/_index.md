@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the width of the column.
+### Definition:
+```python
+@property
+def column_widths(self):
+    ...
+@column_widths.setter
+def column_widths(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

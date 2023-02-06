@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the vertical offset of timeline shape from its top row, in pixels.
+### Definition:
+```python
+@property
+def top_pixel(self):
+    ...
+@top_pixel.setter
+def top_pixel(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.timelines](../../)

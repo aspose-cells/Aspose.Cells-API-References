@@ -53,6 +53,6 @@ The UnionRange type exposes the following members:
 | [get_enumerator()](/cells/python-net/aspose.cells/unionrange/get_enumerator/#) | Gets the enumerator for cells in this Range. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

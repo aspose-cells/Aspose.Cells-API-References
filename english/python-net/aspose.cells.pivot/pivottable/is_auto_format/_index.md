@@ -14,6 +14,15 @@ is_root: false
 Indicates whether the PivotTable report is automatically formatted.
 Checkbox "autoformat table " which is in pivottable option for Excel 2003
 Checkbox "autofit column width on update" which is in pivot table Options :Layout Format for Excel 2007
+### Definition:
+```python
+@property
+def is_auto_format(self):
+    ...
+@is_auto_format.setter
+def is_auto_format(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -46,6 +46,6 @@ The GradientPresetType type exposes the following members:
 | UNKNOWN | Unknown preset color.<br/>Only for the preset color (which is not same as any known preset color) in the template workbook. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

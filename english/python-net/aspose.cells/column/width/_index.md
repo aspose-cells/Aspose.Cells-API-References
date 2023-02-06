@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the column width in unit of characters.
+### Definition:
+```python
+@property
+def width(self):
+    ...
+@width.setter
+def width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

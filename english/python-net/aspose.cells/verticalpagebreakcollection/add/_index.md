@@ -113,4 +113,5 @@ This method is used to add a vertical pagebreak within a print area.
 
 ### See Also
 * module [aspose.cells](../../)
+* class [VerticalPageBreak](/cells/python-net/aspose.cells/verticalpagebreak)
 * class [VerticalPageBreakCollection](/cells/python-net/aspose.cells/verticalpagebreakcollection)

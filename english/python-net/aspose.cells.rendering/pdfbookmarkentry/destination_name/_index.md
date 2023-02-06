@@ -17,6 +17,15 @@ Gets or sets name of destination.
 
 
 If destination name is set, the destination will be defined as a named destination with this name.
+### Definition:
+```python
+@property
+def destination_name(self):
+    ...
+@destination_name.setter
+def destination_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

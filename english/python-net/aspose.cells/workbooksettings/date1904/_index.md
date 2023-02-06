@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets a value which represents if the workbook uses the 1904 date system.
+### Definition:
+```python
+@property
+def date1904(self):
+    ...
+@date1904.setter
+def date1904(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

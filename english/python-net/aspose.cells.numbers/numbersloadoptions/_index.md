@@ -60,7 +60,9 @@ The NumbersLoadOptions type exposes the following members:
 | [set_paper_size(type)](/cells/python-net/aspose.cells.numbers/numbersloadoptions/set_paper_size/#PaperSizeType) | Sets the default print paper size from default printer's setting. |
 
 
-### See Also
 
-* module [aspose.cells.numbers](../)
-* class [LoadOptions](/cells/python-net/aspose.cells.numbers/loadoptions)
+### See Also
+* module [aspose.cells.numbers](..)
+* class [LoadOptions](/cells/python-net/aspose.cells/loadoptions)
+* class [NumbersLoadOptions](/cells/python-net/aspose.cells.numbers/numbersloadoptions)
+* class [Workbook](/cells/python-net/aspose.cells/workbook)

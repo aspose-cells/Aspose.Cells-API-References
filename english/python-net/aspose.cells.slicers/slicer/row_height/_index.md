@@ -21,6 +21,15 @@ Returns or sets the height, in points, of each row in the specified slicer.
 slicer.row_height = 20
 
 ```
+### Definition:
+```python
+@property
+def row_height(self):
+    ...
+@row_height.setter
+def row_height(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

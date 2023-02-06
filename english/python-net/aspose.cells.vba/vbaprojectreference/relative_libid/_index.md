@@ -17,6 +17,15 @@ Gets and sets the referenced VBA project's identifier with an relative path.
 
 
 Only for project reference.
+### Definition:
+```python
+@property
+def relative_libid(self):
+    ...
+@relative_libid.setter
+def relative_libid(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.vba](../../)

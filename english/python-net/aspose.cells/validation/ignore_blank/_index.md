@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether blank values are permitted by the range data validation.
+### Definition:
+```python
+@property
+def ignore_blank(self):
+    ...
+@ignore_blank.setter
+def ignore_blank(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -22,6 +22,15 @@ if shape.left_cm == 3:
     shape.left_cm = 1
 
 ```
+### Definition:
+```python
+@property
+def left_cm(self):
+    ...
+@left_cm.setter
+def left_cm(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

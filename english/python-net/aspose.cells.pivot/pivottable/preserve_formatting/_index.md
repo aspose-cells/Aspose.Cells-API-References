@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
+### Definition:
+```python
+@property
+def preserve_formatting(self):
+    ...
+@preserve_formatting.setter
+def preserve_formatting(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

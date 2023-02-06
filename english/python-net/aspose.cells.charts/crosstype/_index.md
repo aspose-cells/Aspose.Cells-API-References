@@ -25,6 +25,6 @@ The CrossType type exposes the following members:
 | CUSTOM | The axis crosses at the custom value. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

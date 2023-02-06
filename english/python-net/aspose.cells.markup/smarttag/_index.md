@@ -31,6 +31,6 @@ The SmartTag type exposes the following members:
 | [set_link(uri, name)](/cells/python-net/aspose.cells.markup/smarttag/set_link/#str-str) | Change the name and  the namespace URI of the smart tag. |
 
 
-### See Also
 
-* module [aspose.cells.markup](../)
+### See Also
+* module [aspose.cells.markup](..)

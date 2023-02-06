@@ -27,6 +27,6 @@ The SxRng type exposes the following members:
 | [group_by_types](/cells/python-net/aspose.cells.pivot/sxrng/group_by_types) | Represents the group type for the group range.<br/>rangeofvalue Seconds Minutes Hours Days Months Quarters Years |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

@@ -24,6 +24,6 @@ The SqlScriptOperatorType type exposes the following members:
 | DELETE | Delete data. |
 
 
-### See Also
 
-* module [aspose.cells.saving](../)
+### See Also
+* module [aspose.cells.saving](..)

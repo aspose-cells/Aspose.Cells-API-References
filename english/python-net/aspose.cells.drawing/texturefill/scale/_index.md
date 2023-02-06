@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the picture format scale.
+### Definition:
+```python
+@property
+def scale(self):
+    ...
+@scale.setter
+def scale(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

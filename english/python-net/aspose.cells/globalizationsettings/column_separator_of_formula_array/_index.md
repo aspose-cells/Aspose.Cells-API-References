@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the separator for the items in array's row data in formula.
+### Definition:
+```python
+@property
+def column_separator_of_formula_array(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

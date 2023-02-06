@@ -21,6 +21,15 @@ Returns or sets the height of the specified slicer, in points.
 slicer.height = 120
 
 ```
+### Definition:
+```python
+@property
+def height(self):
+    ...
+@height.setter
+def height(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

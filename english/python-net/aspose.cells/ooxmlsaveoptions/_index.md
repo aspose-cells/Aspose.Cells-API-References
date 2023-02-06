@@ -50,7 +50,8 @@ The OoxmlSaveOptions type exposes the following members:
 | [compression_type](/cells/python-net/aspose.cells/ooxmlsaveoptions/compression_type) | Gets and sets the compression type for ooxml file. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [OoxmlSaveOptions](/cells/python-net/aspose.cells/ooxmlsaveoptions)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)

@@ -18,6 +18,15 @@ The default value is 1.
 
 
 You have to set FitToPagesWide as zero if you want to fit all rows on one page.
+### Definition:
+```python
+@property
+def fit_to_pages_tall(self):
+    ...
+@fit_to_pages_tall.setter
+def fit_to_pages_tall(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

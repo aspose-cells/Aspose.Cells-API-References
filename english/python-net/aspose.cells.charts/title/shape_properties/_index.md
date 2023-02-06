@@ -3,7 +3,7 @@ title: shape_properties property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 300
+weight: 310
 url: /python-net/aspose.cells.charts/title/shape_properties/
 is_root: false
 ---
@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the [ChartFrame.shape_properties](/cells/python-net/aspose.cells.charts/chartframe#shape_properties) object.
+### Definition:
+```python
+@property
+def shape_properties(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [ShapePropertyCollection](/cells/python-net/aspose.cells.drawing/shapepropertycollection)
 * class [Title](/cells/python-net/aspose.cells.charts/title)

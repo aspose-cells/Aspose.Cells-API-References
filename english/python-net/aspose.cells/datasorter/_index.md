@@ -80,6 +80,6 @@ sorter.sort(workbook.worksheets[0].cells, ca)
 workbook.save("outBook.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

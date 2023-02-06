@@ -226,4 +226,5 @@ pictures.add(1, 1, "image.jpg", 50, 50)
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)
 * class [PictureCollection](/cells/python-net/aspose.cells.drawing/picturecollection)

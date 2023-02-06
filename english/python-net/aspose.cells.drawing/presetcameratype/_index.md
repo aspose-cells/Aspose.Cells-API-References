@@ -83,6 +83,6 @@ The PresetCameraType type exposes the following members:
 | PERSPECTIVE_RIGHT |  |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

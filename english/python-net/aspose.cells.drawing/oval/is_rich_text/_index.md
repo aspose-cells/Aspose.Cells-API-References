@@ -22,6 +22,12 @@ if shape.is_rich_text:
     print("The text is rich text.")
 
 ```
+### Definition:
+```python
+@property
+def is_rich_text(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

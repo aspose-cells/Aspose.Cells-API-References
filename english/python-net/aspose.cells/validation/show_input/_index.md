@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range.
+### Definition:
+```python
+@property
+def show_input(self):
+    ...
+@show_input.setter
+def show_input(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the two criteria have an "and" relationship.
+### Definition:
+```python
+@property
+def both(self):
+    ...
+@both.setter
+def both(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

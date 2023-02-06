@@ -23,6 +23,15 @@ if !comment1.auto_size:
     comment1.auto_size = True
 
 ```
+### Definition:
+```python
+@property
+def auto_size(self):
+    ...
+@auto_size.setter
+def auto_size(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

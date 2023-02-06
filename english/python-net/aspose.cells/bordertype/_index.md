@@ -29,6 +29,6 @@ The BorderType type exposes the following members:
 | VERTICAL | Only for dynamic style,such as conditional formatting. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

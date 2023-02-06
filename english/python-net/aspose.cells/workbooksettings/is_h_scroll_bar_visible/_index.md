@@ -29,6 +29,15 @@ The following code makes the horizontal scroll bar invisible for the spreadsheet
 settings.is_h_scroll_bar_visible = False
 
 ```
+### Definition:
+```python
+@property
+def is_h_scroll_bar_visible(self):
+    ...
+@is_h_scroll_bar_visible.setter
+def is_h_scroll_bar_visible(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

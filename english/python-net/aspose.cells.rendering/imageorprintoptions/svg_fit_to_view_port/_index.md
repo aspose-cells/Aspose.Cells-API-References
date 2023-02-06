@@ -12,6 +12,15 @@ is_root: false
 
 
 if this property is true, the generated svg will fit to view port.
+### Definition:
+```python
+@property
+def svg_fit_to_view_port(self):
+    ...
+@svg_fit_to_view_port.setter
+def svg_fit_to_view_port(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

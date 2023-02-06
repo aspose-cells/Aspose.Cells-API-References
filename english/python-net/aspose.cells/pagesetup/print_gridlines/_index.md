@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents if cell gridlines are printed on the page.
+### Definition:
+```python
+@property
+def print_gridlines(self):
+    ...
+@print_gridlines.setter
+def print_gridlines(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

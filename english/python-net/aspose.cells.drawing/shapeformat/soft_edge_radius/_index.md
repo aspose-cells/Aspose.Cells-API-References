@@ -10,6 +10,15 @@ is_root: false
 
 ## soft_edge_radius property
 
+### Definition:
+```python
+@property
+def soft_edge_radius(self):
+    ...
+@soft_edge_radius.setter
+def soft_edge_radius(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

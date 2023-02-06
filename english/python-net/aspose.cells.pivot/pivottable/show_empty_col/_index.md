@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies a boolean value that indicates whether to include empty columns in the table
+### Definition:
+```python
+@property
+def show_empty_col(self):
+    ...
+@show_empty_col.setter
+def show_empty_col(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

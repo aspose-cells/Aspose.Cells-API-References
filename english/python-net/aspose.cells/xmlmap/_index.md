@@ -24,6 +24,7 @@ The XmlMap type exposes the following members:
 | [data_binding](/cells/python-net/aspose.cells/xmlmap/data_binding) | Gets an [XmlDataBinding](/cells/python-net/aspose.cells/xmldatabinding) of this map. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [XmlDataBinding](/cells/python-net/aspose.cells/xmldatabinding)

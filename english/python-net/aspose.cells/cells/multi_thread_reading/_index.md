@@ -23,6 +23,15 @@ Supporting Multi-Thread reading may degrade the performance for accessing Row/Ce
 Please note, some features cannot support Multi-Thread reading,
 such as formatting values(by [Cell.string_value](/cells/python-net/aspose.cells/cell#string_value), [Cell.display_string_value](/cells/python-net/aspose.cells/cell#display_string_value), .etc.).
 So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
+### Definition:
+```python
+@property
+def multi_thread_reading(self):
+    ...
+@multi_thread_reading.setter
+def multi_thread_reading(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

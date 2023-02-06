@@ -33,6 +33,6 @@ The PicFormatOption type exposes the following members:
 | [right](/cells/python-net/aspose.cells.drawing/picformatoption/right) | Gets or sets the right offset for stretching picture. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

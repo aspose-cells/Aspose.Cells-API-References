@@ -30,6 +30,15 @@ s2 = SignatureLine()
 s2.provider_id = uuid4()
 
 ```
+### Definition:
+```python
+@property
+def provider_id(self):
+    ...
+@provider_id.setter
+def provider_id(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

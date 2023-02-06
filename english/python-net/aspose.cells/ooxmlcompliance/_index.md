@@ -23,6 +23,6 @@ The OoxmlCompliance type exposes the following members:
 | ISO_29500_2008_STRICT | ISO/IEC 29500:2008 Strict compliance level. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

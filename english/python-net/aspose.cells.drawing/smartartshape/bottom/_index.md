@@ -22,6 +22,15 @@ if shape.bottom == 3:
     shape.bottom = 1
 
 ```
+### Definition:
+```python
+@property
+def bottom(self):
+    ...
+@bottom.setter
+def bottom(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

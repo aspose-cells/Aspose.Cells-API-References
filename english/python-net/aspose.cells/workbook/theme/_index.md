@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the theme name.
+### Definition:
+```python
+@property
+def theme(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

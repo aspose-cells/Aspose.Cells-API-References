@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and Sets whether the pivot item hides detail.
+### Definition:
+```python
+@property
+def is_hide_detail(self):
+    ...
+@is_hide_detail.setter
+def is_hide_detail(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

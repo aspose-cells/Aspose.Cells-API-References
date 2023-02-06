@@ -12,6 +12,15 @@ is_root: false
 
 
 The width of the window, in unit of point.
+### Definition:
+```python
+@property
+def window_width(self):
+    ...
+@window_width.setter
+def window_width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates if the radiobutton is checked or not.
+### Definition:
+```python
+@property
+def is_checked(self):
+    ...
+@is_checked.setter
+def is_checked(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

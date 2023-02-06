@@ -21,6 +21,12 @@ Returns whether the slicer associated with the specified slicer cache is based o
 print(slicerCache.list)
 
 ```
+### Definition:
+```python
+@property
+def list(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

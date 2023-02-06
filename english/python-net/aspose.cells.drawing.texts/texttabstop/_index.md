@@ -23,6 +23,6 @@ The TextTabStop type exposes the following members:
 | [tab_position](/cells/python-net/aspose.cells.drawing.texts/texttabstop/tab_position) | Specifies the position of the tab stop relative to the left margin. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

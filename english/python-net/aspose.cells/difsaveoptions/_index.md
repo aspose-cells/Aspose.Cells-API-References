@@ -43,7 +43,8 @@ The DifSaveOptions type exposes the following members:
 | [update_smart_art](/cells/python-net/aspose.cells/difsaveoptions/update_smart_art) | Indicates whether updating smart art setting.<br/>The default value is false. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [DifSaveOptions](/cells/python-net/aspose.cells/difsaveoptions)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)

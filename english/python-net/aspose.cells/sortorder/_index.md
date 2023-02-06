@@ -23,6 +23,6 @@ The SortOrder type exposes the following members:
 | DESCENDING |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

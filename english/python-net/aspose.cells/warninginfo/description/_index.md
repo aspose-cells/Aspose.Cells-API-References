@@ -12,6 +12,12 @@ is_root: false
 
 
 Get description of warning info.
+### Definition:
+```python
+@property
+def description(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

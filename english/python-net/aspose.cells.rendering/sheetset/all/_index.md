@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets a set with all sheets of the workbook in their original order.
+### Definition:
+```python
+@property
+def all(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

@@ -33,6 +33,6 @@ The TilePicOption type exposes the following members:
 | [alignment_type](/cells/python-net/aspose.cells.drawing/tilepicoption/alignment_type) | Gets or sets the alignment for tiling. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

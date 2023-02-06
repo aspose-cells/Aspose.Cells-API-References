@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the globally unique identifier of the custom view.
+### Definition:
+```python
+@property
+def guid(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

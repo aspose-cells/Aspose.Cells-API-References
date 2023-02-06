@@ -40,6 +40,6 @@ The BackgroundType type exposes the following members:
 | VERTICAL_STRIPE | Represents vertical stripe pattern. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

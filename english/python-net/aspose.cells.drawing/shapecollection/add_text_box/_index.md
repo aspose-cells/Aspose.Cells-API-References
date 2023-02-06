@@ -49,3 +49,4 @@ textBox = shapes.add_text_box(1, 0, 1, 0, 100, 50)
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [ShapeCollection](/cells/python-net/aspose.cells.drawing/shapecollection)
+* class [TextBox](/cells/python-net/aspose.cells.drawing/textbox)

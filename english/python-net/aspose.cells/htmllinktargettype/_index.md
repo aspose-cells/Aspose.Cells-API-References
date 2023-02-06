@@ -25,6 +25,6 @@ The HtmlLinkTargetType type exposes the following members:
 | TOP | Opens the linked document in the full body of the window |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -107,6 +107,6 @@ chart.category_axis.tick_label_spacing = 2
 workbook.save("book1.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

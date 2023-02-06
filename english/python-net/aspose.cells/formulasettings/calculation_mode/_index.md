@@ -23,7 +23,17 @@ no matter what mode has been set for this property.
 If user needs to calculate formulas, please always call methods on different objects according to requirement:
 [Workbook.calculate_formula()](/cells/python-net/aspose.cells/workbook/calculate_formula), [Worksheet.calculate_formula(formula)](/cells/python-net/aspose.cells/worksheet/calculate_formula),
 [Cell.calculate(options)](/cells/python-net/aspose.cells/cell/calculate), ...etc.
+### Definition:
+```python
+@property
+def calculation_mode(self):
+    ...
+@calculation_mode.setter
+def calculation_mode(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [CalcModeType](/cells/python-net/aspose.cells/calcmodetype)
 * class [FormulaSettings](/cells/python-net/aspose.cells/formulasettings)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets and sets the display number format of tick labels.
+### Definition:
+```python
+@property
+def display_number_format(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the end column of the range.
+### Definition:
+```python
+@property
+def end_column(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.tables](../../)

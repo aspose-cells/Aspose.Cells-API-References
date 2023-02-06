@@ -23,6 +23,6 @@ The PdfOptimizationType type exposes the following members:
 | MINIMUM_SIZE | File size is more important than print quality |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

@@ -36,6 +36,6 @@ The ShapePropertyCollection type exposes the following members:
 | [has_shadow_effect()](/cells/python-net/aspose.cells.drawing/shapepropertycollection/has_shadow_effect/#) | Indicates if the shape has shadow effect data. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

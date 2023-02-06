@@ -3,7 +3,7 @@ title: quote_prefix property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 370
+weight: 380
 url: /python-net/aspose.cells/style/quote_prefix/
 is_root: false
 ---
@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the cell's value starts with single quote mark.
+### Definition:
+```python
+@property
+def quote_prefix(self):
+    ...
+@quote_prefix.setter
+def quote_prefix(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the linked graphic path.
+### Definition:
+```python
+@property
+def linked_graphic(self):
+    ...
+@linked_graphic.setter
+def linked_graphic(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.ods](../../)

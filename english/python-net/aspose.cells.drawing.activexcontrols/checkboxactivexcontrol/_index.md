@@ -57,7 +57,9 @@ The CheckBoxActiveXControl type exposes the following members:
 | [is_triple_state](/cells/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_triple_state) | Indicates how the specified control will display Null values. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)
 * class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
+* class [ActiveXControlBase](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase)
+* class [CheckBoxActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol)

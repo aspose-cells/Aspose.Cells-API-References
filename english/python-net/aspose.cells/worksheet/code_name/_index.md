@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets worksheet code name.
+### Definition:
+```python
+@property
+def code_name(self):
+    ...
+@code_name.setter
+def code_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

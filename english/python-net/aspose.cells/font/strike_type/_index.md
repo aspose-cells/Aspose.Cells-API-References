@@ -12,7 +12,17 @@ is_root: false
 
 
 Gets the strike type of the text.
+### Definition:
+```python
+@property
+def strike_type(self):
+    ...
+@strike_type.setter
+def strike_type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [Font](/cells/python-net/aspose.cells/font)
+* class [TextStrikeType](/cells/python-net/aspose.cells/textstriketype)

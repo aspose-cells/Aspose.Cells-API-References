@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the margin is auto calculated.
+### Definition:
+```python
+@property
+def is_auto_margin(self):
+    ...
+@is_auto_margin.setter
+def is_auto_margin(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

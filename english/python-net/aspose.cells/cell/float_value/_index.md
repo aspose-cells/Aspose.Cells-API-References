@@ -3,7 +3,7 @@ title: float_value property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.cells/cell/float_value/
 is_root: false
 ---
@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the float value contained in the cell.
+### Definition:
+```python
+@property
+def float_value(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -19,6 +19,15 @@ Indicates whether to recalculate before saving the document.
 NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnSave.
 This property will be removed 12 months later since February 2022. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def recalculate_before_save(self):
+    ...
+@recalculate_before_save.setter
+def recalculate_before_save(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

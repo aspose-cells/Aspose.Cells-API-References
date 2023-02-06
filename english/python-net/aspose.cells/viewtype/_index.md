@@ -24,6 +24,6 @@ The ViewType type exposes the following members:
 | PAGE_LAYOUT_VIEW |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

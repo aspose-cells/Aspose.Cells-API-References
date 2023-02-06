@@ -26,6 +26,6 @@ The ControlPictureAlignmentType type exposes the following members:
 | BOTTOM_RIGHT | The bottom right corner. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

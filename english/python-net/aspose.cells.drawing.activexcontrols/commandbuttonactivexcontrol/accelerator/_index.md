@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the accelerator key for the control.
+### Definition:
+```python
+@property
+def accelerator(self):
+    ...
+@accelerator.setter
+def accelerator(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

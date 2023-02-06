@@ -23,6 +23,7 @@ The SmartTagSetting type exposes the following members:
 | [add(cell_name)](/cells/python-net/aspose.cells.markup/smarttagsetting/add/#str) | Add a cell smart tags. |
 
 
-### See Also
 
-* module [aspose.cells.markup](../)
+### See Also
+* module [aspose.cells.markup](..)
+* class [SmartTagCollection](/cells/python-net/aspose.cells.markup/smarttagcollection)

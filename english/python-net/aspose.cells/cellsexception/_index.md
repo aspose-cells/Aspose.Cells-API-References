@@ -22,6 +22,6 @@ The CellsException type exposes the following members:
 | [code](/cells/python-net/aspose.cells/cellsexception/code) | Represents custom exception code. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

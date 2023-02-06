@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies whether the link to the OleObject is automatically updated or not.
+### Definition:
+```python
+@property
+def auto_update(self):
+    ...
+@auto_update.setter
+def auto_update(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

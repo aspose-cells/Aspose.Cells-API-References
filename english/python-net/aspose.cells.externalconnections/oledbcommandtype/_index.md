@@ -27,6 +27,6 @@ The OLEDBCommandType type exposes the following members:
 | WEB_BASED_LIST | Specifies a query which is against a web based List Data Provider. |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)

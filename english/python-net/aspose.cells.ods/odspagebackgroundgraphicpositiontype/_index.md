@@ -30,6 +30,6 @@ The OdsPageBackgroundGraphicPositionType type exposes the following members:
 | BOTTOM_RIGHT | Bottom right. |
 
 
-### See Also
 
-* module [aspose.cells.ods](../)
+### See Also
+* module [aspose.cells.ods](..)

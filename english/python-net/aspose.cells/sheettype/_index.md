@@ -28,6 +28,6 @@ The SheetType type exposes the following members:
 | DIALOG | Dialog worksheet |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

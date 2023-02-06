@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets whether expand/collapse buttons is shown.
+### Definition:
+```python
+@property
+def show_drill(self):
+    ...
+@show_drill.setter
+def show_drill(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

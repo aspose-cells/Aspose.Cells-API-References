@@ -28,6 +28,6 @@ The FilterType type exposes the following members:
 | NONE | No filter. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

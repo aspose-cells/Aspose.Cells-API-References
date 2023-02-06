@@ -23,6 +23,6 @@ The EmfRenderSetting type exposes the following members:
 | EMF_PLUS_PREFER | Prefer rendering EmfPlus records. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

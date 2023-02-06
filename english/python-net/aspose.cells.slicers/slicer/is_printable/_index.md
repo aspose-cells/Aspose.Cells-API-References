@@ -21,6 +21,15 @@ Indicates whether the slicer object is printable.
 slicer.is_printable = True
 
 ```
+### Definition:
+```python
+@property
+def is_printable(self):
+    ...
+@is_printable.setter
+def is_printable(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

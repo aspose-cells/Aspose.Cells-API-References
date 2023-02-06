@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets ID of the specific query table field that was removed.
+### Definition:
+```python
+@property
+def field_id(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

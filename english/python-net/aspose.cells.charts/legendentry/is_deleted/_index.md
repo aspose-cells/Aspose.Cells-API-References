@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets whether the legend entry is deleted.
+### Definition:
+```python
+@property
+def is_deleted(self):
+    ...
+@is_deleted.setter
+def is_deleted(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

@@ -40,6 +40,6 @@ The LoadFormat type exposes the following members:
 | JSON | Json |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -34,6 +34,6 @@ The CellsColor type exposes the following members:
 | [set_tint_of_shape_color(tint)](/cells/python-net/aspose.cells/cellscolor/set_tint_of_shape_color/#float) | Set the tint of the shape color |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

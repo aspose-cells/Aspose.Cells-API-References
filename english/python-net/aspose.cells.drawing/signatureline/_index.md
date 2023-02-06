@@ -62,6 +62,6 @@ pic.signature_line = s
 workbook.save("result.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

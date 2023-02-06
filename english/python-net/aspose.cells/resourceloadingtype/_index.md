@@ -24,6 +24,6 @@ The ResourceLoadingType type exposes the following members:
 | USER_PROVIDED | Use stream provided by user |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

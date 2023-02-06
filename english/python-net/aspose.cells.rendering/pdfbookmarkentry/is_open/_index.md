@@ -12,6 +12,15 @@ is_root: false
 
 
 When this property is true, the bookmarkentry will expand, otherwise it will collapse.
+### Definition:
+```python
+@property
+def is_open(self):
+    ...
+@is_open.setter
+def is_open(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

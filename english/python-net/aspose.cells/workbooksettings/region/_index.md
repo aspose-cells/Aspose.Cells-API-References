@@ -29,7 +29,17 @@ The applied regional settings here can take effect only at runtime with Aspose.C
 Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel,
 the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running,
 not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
+### Definition:
+```python
+@property
+def region(self):
+    ...
+@region.setter
+def region(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [CountryCode](/cells/python-net/aspose.cells/countrycode)
 * class [WorkbookSettings](/cells/python-net/aspose.cells/workbooksettings)

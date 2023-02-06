@@ -25,6 +25,6 @@ The WarningInfo type exposes the following members:
 | [corrected_object](/cells/python-net/aspose.cells/warninginfo/corrected_object) | Gets and sets the corrected object. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

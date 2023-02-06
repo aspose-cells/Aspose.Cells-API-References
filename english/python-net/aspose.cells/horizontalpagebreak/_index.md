@@ -41,6 +41,6 @@ Index = worksheet.horizontal_page_breaks.add("Y30")
 hPageBreak = worksheet.horizontal_page_breaks[Index]
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

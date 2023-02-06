@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the paper size is automatic.
+### Definition:
+```python
+@property
+def is_automatic_paper_size(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

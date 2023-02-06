@@ -40,11 +40,11 @@ def add_icons(self, upper_left_row, top, upper_left_column, left, height, width,
 
 
 ```python
-import aspose.pycore
+from aspose import pycore
 
 # add icon
 with open("icon.svg", "rb") as fs:
-    len = aspose.pycore.cast(System.Int32, utils.filesize(fs))
+    len = pycore.cast(int, utils.filesize(fs))
     imageData = bytearray(len)
     fs.readinto(imageData)
     picture = shapes.add_svg(4, 0, 5, 0, -1, -1, imageData, None)

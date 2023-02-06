@@ -30,7 +30,8 @@ The RevisionAutoFormat type exposes the following members:
 | [cell_area](/cells/python-net/aspose.cells.revisions/revisionautoformat/cell_area) | Gets the location where the formatting was applied. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionAutoFormat](/cells/python-net/aspose.cells.revisions/revisionautoformat)

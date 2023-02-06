@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the Universal time when the document was last printed.
+### Definition:
+```python
+@property
+def last_printed_universal_time(self):
+    ...
+@last_printed_universal_time.setter
+def last_printed_universal_time(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

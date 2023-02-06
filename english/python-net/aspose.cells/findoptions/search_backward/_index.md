@@ -12,6 +12,15 @@ is_root: false
 
 
 Whether search backward for cells.
+### Definition:
+```python
+@property
+def search_backward(self):
+    ...
+@search_backward.setter
+def search_backward(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 The text in the WordArt.
+### Definition:
+```python
+@property
+def text(self):
+    ...
+@text.setter
+def text(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

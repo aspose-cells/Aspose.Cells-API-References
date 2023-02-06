@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates if formatting error bars with a T-top.
+### Definition:
+```python
+@property
+def show_marker_t_top(self):
+    ...
+@show_marker_t_top.setter
+def show_marker_t_top(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

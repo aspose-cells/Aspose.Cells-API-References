@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether VBAcode is signed or not.
+### Definition:
+```python
+@property
+def is_signed(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.vba](../../)

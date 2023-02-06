@@ -20,6 +20,12 @@ NOTE: This member is now obsolete. Instead,
 please use GetConnectionPoints() method.
 This method will be removed 12 months later since April 2022. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def connection_points(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

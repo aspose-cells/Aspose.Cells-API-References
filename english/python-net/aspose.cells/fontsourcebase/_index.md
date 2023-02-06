@@ -22,6 +22,6 @@ The FontSourceBase type exposes the following members:
 | [type](/cells/python-net/aspose.cells/fontsourcebase/type) | Returns the type of the font source. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

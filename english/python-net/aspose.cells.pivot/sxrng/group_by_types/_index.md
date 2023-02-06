@@ -13,6 +13,12 @@ is_root: false
 
 Represents the group type for the group range.
 rangeofvalue Seconds Minutes Hours Days Months Quarters Years
+### Definition:
+```python
+@property
+def group_by_types(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

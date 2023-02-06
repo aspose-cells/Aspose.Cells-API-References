@@ -23,6 +23,6 @@ The PowerQueryFormulaItem type exposes the following members:
 | [value](/cells/python-net/aspose.cells.querytables/powerqueryformulaitem/value) | Gets the value of the item. |
 
 
-### See Also
 
-* module [aspose.cells.querytables](../)
+### See Also
+* module [aspose.cells.querytables](..)

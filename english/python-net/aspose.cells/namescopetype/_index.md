@@ -24,6 +24,6 @@ The NameScopeType type exposes the following members:
 | WORKSHEET | The defined names in a worksheet or all worksheets. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -55,6 +55,6 @@ validation.type = ValidationType.LIST
 validation.formula1 = "a,b,c,d"
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

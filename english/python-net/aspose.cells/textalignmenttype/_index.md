@@ -33,6 +33,6 @@ The TextAlignmentType type exposes the following members:
 | THAI_DISTRIBUTED | Distributes Thai text specially, because each character is treated as a word. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

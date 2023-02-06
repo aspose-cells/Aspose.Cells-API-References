@@ -24,6 +24,6 @@ The ConnectionParameterType type exposes the following members:
 | VALUE | Use a constant value on each refresh for the parameter value. |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)

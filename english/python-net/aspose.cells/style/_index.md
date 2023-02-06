@@ -71,6 +71,7 @@ The Style type exposes the following members:
 | [set_two_color_gradient(color1, color2, gradient_style_type, variant)](/cells/python-net/aspose.cells/style/set_two_color_gradient/#aspose.pydrawing.Color-aspose.pydrawing.Color-aspose.cells.drawing.GradientStyleType-int) | Sets the specified fill to a two-color gradient. |
 | [get_two_color_gradient(color1, color2, gradient_style_type, variant)](/cells/python-net/aspose.cells/style/get_two_color_gradient/#aspose.pydrawing.Color&-aspose.pydrawing.Color&-any-any) | Get the two-color gradient setting. |
 | [get_two_color_gradient_setting()](/cells/python-net/aspose.cells/style/get_two_color_gradient_setting/#) | Get the two-color gradient setting. |
+| [to_json()](/cells/python-net/aspose.cells/style/to_json/#) | Convert [Style](/cells/python-net/aspose.cells/style) to JSON struct data. |
 
 
 
@@ -90,6 +91,8 @@ style.font.color = Color.blue
 cell.set_style(style)
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [BorderCollection](/cells/python-net/aspose.cells/bordercollection)
+* class [Style](/cells/python-net/aspose.cells/style)

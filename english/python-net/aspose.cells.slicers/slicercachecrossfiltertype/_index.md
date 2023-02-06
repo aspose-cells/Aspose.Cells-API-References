@@ -24,6 +24,6 @@ The SlicerCacheCrossFilterType type exposes the following members:
 | SHOW_ITEMS_WITH_NO_DATA | The table style element of the slicer style for slicer items with no data <br/>is applied to slicer items with no data, and slicer items with no data <br/>are not sorted separately in the list of slicer items in the slicer view. |
 
 
-### See Also
 
-* module [aspose.cells.slicers](../)
+### See Also
+* module [aspose.cells.slicers](..)

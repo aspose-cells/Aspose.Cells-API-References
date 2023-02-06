@@ -30,6 +30,6 @@ The OoxmlCompressionType type exposes the following members:
 | LEVEL9 | The "best" compression, where best means greatest reduction in size of the input data stream.<br/>This is also the slowest compression. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

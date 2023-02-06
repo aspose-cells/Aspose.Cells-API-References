@@ -27,6 +27,6 @@ The MsoArrowheadStyle type exposes the following members:
 | ARROW_OPEN | Arrow Open line end type. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

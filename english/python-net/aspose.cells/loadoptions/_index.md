@@ -55,6 +55,8 @@ The LoadOptions type exposes the following members:
 | [set_paper_size(type)](/cells/python-net/aspose.cells/loadoptions/set_paper_size/#PaperSizeType) | Sets the default print paper size from default printer's setting. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [LoadOptions](/cells/python-net/aspose.cells/loadoptions)
+* class [Workbook](/cells/python-net/aspose.cells/workbook)

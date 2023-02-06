@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether showing non-outlier data points.
+### Definition:
+```python
+@property
+def show_inner_points(self):
+    ...
+@show_inner_points.setter
+def show_inner_points(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

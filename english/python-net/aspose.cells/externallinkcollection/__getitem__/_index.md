@@ -26,4 +26,5 @@ The element at the specified index.
 
 ### See Also
 * module [aspose.cells](../../)
+* class [ExternalLink](/cells/python-net/aspose.cells/externallink)
 * class [ExternalLinkCollection](/cells/python-net/aspose.cells/externallinkcollection)

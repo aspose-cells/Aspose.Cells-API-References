@@ -23,7 +23,14 @@ if shape.paths == None:
     print("No custom geometry path.")
 
 ```
+### Definition:
+```python
+@property
+def paths(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [Label](/cells/python-net/aspose.cells.drawing/label)
+* class [ShapePathCollection](/cells/python-net/aspose.cells.drawing/shapepathcollection)

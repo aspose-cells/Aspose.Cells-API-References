@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the location of the bottom of the crop rectangle expressed, expressed as a ratio of the image's height.
+### Definition:
+```python
+@property
+def bottom_crop(self):
+    ...
+@bottom_crop.setter
+def bottom_crop(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

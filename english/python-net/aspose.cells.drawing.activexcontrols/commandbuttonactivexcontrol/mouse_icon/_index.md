@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets a custom icon to display as the mouse pointer for the control.
+### Definition:
+```python
+@property
+def mouse_icon(self):
+    ...
+@mouse_icon.setter
+def mouse_icon(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

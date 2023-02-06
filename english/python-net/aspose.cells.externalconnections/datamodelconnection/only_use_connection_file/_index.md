@@ -15,6 +15,15 @@ Indicates whether the spreadsheet application should always and only use the
 connection information in the external connection file indicated by the odcFile attribute 
 when the connection is refreshed.  If false, then the spreadsheet application 
 should follow the procedure indicated by the reconnectionMethod attribute
+### Definition:
+```python
+@property
+def only_use_connection_file(self):
+    ...
+@only_use_connection_file.setter
+def only_use_connection_file(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

@@ -55,7 +55,9 @@ The LabelActiveXControl type exposes the following members:
 | [is_word_wrapped](/cells/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/is_word_wrapped) | Indicates whether the contents of the control automatically wrap at the end of a line. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)
 * class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
+* class [ActiveXControlBase](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase)
+* class [LabelActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol)

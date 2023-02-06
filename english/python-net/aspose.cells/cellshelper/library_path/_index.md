@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the library path which is referred to by some external formula references.
+### Definition:
+```python
+@property
+def library_path(self):
+    ...
+@library_path.setter
+def library_path(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

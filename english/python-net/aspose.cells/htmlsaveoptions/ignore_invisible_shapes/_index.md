@@ -17,6 +17,15 @@ Indicate whether exporting those not visible shapes
 
 
 The default values is false.
+### Definition:
+```python
+@property
+def ignore_invisible_shapes(self):
+    ...
+@ignore_invisible_shapes.setter
+def ignore_invisible_shapes(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

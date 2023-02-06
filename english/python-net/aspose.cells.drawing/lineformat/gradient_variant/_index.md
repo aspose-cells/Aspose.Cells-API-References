@@ -18,6 +18,12 @@ Only applies for Excel 2007.
 
 
 Can only be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2.
+### Definition:
+```python
+@property
+def gradient_variant(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

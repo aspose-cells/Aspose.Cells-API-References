@@ -13,6 +13,12 @@ is_root: false
 
 Indicates whether the icon set is custom.
 Default value is false.
+### Definition:
+```python
+@property
+def is_custom(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

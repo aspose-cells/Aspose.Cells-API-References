@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets name of user who last changed the scenario.
+### Definition:
+```python
+@property
+def user(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

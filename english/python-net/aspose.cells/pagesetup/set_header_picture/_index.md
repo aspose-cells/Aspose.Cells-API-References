@@ -35,3 +35,4 @@ def set_header_picture(self, section, header_picture):
 ### See Also
 * module [aspose.cells](../../)
 * class [PageSetup](/cells/python-net/aspose.cells/pagesetup)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)

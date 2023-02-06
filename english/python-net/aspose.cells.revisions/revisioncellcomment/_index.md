@@ -36,7 +36,8 @@ The RevisionCellComment type exposes the following members:
 | [new_length](/cells/python-net/aspose.cells.revisions/revisioncellcomment/new_length) | Gets Length of the comment before this revision was made. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionCellComment](/cells/python-net/aspose.cells.revisions/revisioncellcomment)

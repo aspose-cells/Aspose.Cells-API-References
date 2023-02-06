@@ -24,6 +24,6 @@ The TextStrikeType type exposes the following members:
 | NONE | No strike is applied to the text. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

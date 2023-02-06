@@ -28,6 +28,6 @@ The CellsFactory type exposes the following members:
 | [create_style()](/cells/python-net/aspose.cells/cellsfactory/create_style/#) | Creates a new style. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

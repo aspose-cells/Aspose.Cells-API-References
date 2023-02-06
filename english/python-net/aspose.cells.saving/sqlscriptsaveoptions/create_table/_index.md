@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether exporting sql of creating table.
+### Definition:
+```python
+@property
+def create_table(self):
+    ...
+@create_table.setter
+def create_table(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.saving](../../)

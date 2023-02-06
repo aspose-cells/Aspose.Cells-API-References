@@ -80,7 +80,8 @@ shape = shapes.add_rectangle(1, 0, 1, 0, 50, 100)
 lineFmt = shape.line
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
 * class [FillFormat](/cells/python-net/aspose.cells.drawing/fillformat)
+* class [LineFormat](/cells/python-net/aspose.cells.drawing/lineformat)

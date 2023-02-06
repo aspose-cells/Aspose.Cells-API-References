@@ -35,6 +35,6 @@ The CellBorderType type exposes the following members:
 | THIN | Represents thin line. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether to match entire cells contents
+### Definition:
+```python
+@property
+def match_entire_cell_contents(self):
+    ...
+@match_entire_cell_contents.setter
+def match_entire_cell_contents(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

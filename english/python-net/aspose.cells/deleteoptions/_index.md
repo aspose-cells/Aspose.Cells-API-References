@@ -28,6 +28,6 @@ The DeleteOptions type exposes the following members:
 | [update_reference](/cells/python-net/aspose.cells/deleteoptions/update_reference) | Indicates if update references in other worksheets. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -34,4 +34,5 @@ def xml_map_query(self, path, xml_map):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [CellArea](/cells/python-net/aspose.cells/cellarea)
 * class [Worksheet](/cells/python-net/aspose.cells/worksheet)

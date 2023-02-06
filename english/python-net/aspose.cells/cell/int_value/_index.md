@@ -3,7 +3,7 @@ title: int_value property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /python-net/aspose.cells/cell/int_value/
 is_root: false
 ---
@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the integer value contained in the cell.
+### Definition:
+```python
+@property
+def int_value(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

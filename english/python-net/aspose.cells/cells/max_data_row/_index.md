@@ -17,6 +17,12 @@ Maximum row index of cell which contains data.
 
 
 Return -1 if there is no cell which contains data.
+### Definition:
+```python
+@property
+def max_data_row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether this is a horizontal scroll bar.
+### Definition:
+```python
+@property
+def is_horizontal(self):
+    ...
+@is_horizontal.setter
+def is_horizontal(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

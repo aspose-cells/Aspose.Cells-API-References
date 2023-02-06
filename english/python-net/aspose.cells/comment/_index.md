@@ -49,6 +49,6 @@ The Comment type exposes the following members:
 | [get_characters()](/cells/python-net/aspose.cells/comment/get_characters/#) | Returns all Characters objects <br/>that represents a range of characters within the comment text. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the type of the ActiveX control.
+### Definition:
+```python
+@property
+def type(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)
 * class [ActiveXControlBase](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase)
+* class [ControlType](/cells/python-net/aspose.cells.drawing.activexcontrols/controltype)

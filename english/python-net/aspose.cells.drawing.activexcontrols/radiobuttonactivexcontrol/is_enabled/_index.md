@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the control can receive the focus and respond to user-generated events.
+### Definition:
+```python
+@property
+def is_enabled(self):
+    ...
+@is_enabled.setter
+def is_enabled(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

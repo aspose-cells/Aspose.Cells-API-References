@@ -50,6 +50,6 @@ The WorkbookRender type exposes the following members:
 
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

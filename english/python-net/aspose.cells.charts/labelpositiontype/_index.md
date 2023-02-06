@@ -31,6 +31,6 @@ The LabelPositionType type exposes the following members:
 | MOVED | User moved the data labels, Only for reading chart from template file. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

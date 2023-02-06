@@ -32,6 +32,7 @@ The StreamProviderOptions type exposes the following members:
 | [stream](/cells/python-net/aspose.cells/streamprovideroptions/stream) | Gets/Sets the stream |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [StreamProviderOptions](/cells/python-net/aspose.cells/streamprovideroptions)

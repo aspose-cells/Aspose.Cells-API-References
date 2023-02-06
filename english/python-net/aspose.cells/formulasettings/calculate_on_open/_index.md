@@ -20,6 +20,15 @@ This property is only for saving the settings to resultant spreadsheet file
 so that other applications(such as ms excel) may act accordingly when loading the resultant file.
 For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically,
 no matter what value has been set for this property.
+### Definition:
+```python
+@property
+def calculate_on_open(self):
+    ...
+@calculate_on_open.setter
+def calculate_on_open(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

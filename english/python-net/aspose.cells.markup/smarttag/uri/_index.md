@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the namespace URI of the smart tag.
+### Definition:
+```python
+@property
+def uri(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.markup](../../)

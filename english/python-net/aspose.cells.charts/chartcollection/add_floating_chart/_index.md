@@ -37,4 +37,5 @@ def add_floating_chart(self, type, left, top, width, height):
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [Chart](/cells/python-net/aspose.cells.charts/chart)
 * class [ChartCollection](/cells/python-net/aspose.cells.charts/chartcollection)

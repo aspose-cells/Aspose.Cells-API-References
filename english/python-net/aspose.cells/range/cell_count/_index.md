@@ -20,6 +20,12 @@ NOTE: This property is now obsolete.
 Instead, please use RowCount and ColumnCount to get total cells count.
 This property will be removed 12 months later since February 2021. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def cell_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -23,7 +23,17 @@ if shape.text_horizontal_overflow == TextOverflowType.CLIP:
     shape.text_horizontal_overflow = TextOverflowType.OVERFLOW
 
 ```
+### Definition:
+```python
+@property
+def text_horizontal_overflow(self):
+    ...
+@text_horizontal_overflow.setter
+def text_horizontal_overflow(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [TextBox](/cells/python-net/aspose.cells.drawing/textbox)
+* class [TextOverflowType](/cells/python-net/aspose.cells.drawing/textoverflowtype)

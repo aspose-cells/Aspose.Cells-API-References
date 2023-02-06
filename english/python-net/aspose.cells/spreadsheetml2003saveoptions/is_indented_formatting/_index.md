@@ -18,6 +18,15 @@ Causes child elements to be indented.
 
 The default value is true.
 If the value is false, it will reduce the size of the xml file
+### Definition:
+```python
+@property
+def is_indented_formatting(self):
+    ...
+@is_indented_formatting.setter
+def is_indented_formatting(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

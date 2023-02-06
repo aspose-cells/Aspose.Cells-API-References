@@ -12,6 +12,12 @@ is_root: false
 
 
 Represents width of default position
+### Definition:
+```python
+@property
+def default_width(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

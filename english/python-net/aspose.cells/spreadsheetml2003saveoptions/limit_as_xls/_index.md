@@ -12,6 +12,15 @@ is_root: false
 
 
 Limit as xls, the max row index is 65535 and the max column index is 255.
+### Definition:
+```python
+@property
+def limit_as_xls(self):
+    ...
+@limit_as_xls.setter
+def limit_as_xls(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

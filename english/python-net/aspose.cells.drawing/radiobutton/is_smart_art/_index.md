@@ -28,6 +28,12 @@ if shape.is_smart_art:
     pass
 
 ```
+### Definition:
+```python
+@property
+def is_smart_art(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the maximum number of rows to display in the list.
+### Definition:
+```python
+@property
+def list_rows(self):
+    ...
+@list_rows.setter
+def list_rows(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

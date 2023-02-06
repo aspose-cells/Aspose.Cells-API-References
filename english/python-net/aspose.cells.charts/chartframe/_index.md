@@ -48,6 +48,7 @@ The ChartFrame type exposes the following members:
 | [set_position_auto()](/cells/python-net/aspose.cells.charts/chartframe/set_position_auto/#) | Set position of the frame to automatic |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)

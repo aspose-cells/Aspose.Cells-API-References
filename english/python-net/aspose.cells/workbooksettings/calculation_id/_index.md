@@ -19,6 +19,15 @@ Specifies the version of the calculation engine used to calculate values in the 
 NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationId.
 This property will be removed 12 months later since February 2022. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def calculation_id(self):
+    ...
+@calculation_id.setter
+def calculation_id(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

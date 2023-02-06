@@ -63,6 +63,7 @@ The GlobalizationSettings type exposes the following members:
 | [compare(v1, v2, ignore_case)](/cells/python-net/aspose.cells/globalizationsettings/compare/#str-str-bool) | Compares two string values according to certain collation rules. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [PivotFieldSubtotalType](/cells/python-net/aspose.cells.pivot/pivotfieldsubtotaltype)

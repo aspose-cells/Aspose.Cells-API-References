@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets address of the range.
+### Definition:
+```python
+@property
+def address(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

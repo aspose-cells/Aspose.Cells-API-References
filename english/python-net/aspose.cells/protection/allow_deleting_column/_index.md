@@ -18,6 +18,15 @@ Represents if the deletion of columns is allowed on a protected worksheet.
 
 The columns containing the cells to be deleted must be unlocked when the sheet is protected,
 and "Select unlocked cells" option must be enabled.
+### Definition:
+```python
+@property
+def allow_deleting_column(self):
+    ...
+@allow_deleting_column.setter
+def allow_deleting_column(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

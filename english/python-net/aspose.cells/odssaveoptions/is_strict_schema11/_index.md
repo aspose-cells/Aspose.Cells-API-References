@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the ods file should be saved as ODF format version 1.1. Default is false.
+### Definition:
+```python
+@property
+def is_strict_schema11(self):
+    ...
+@is_strict_schema11.setter
+def is_strict_schema11(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -200,7 +200,11 @@ chartShape.lower_delta_x = 1024
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [ChartShape](/cells/python-net/aspose.cells.drawing/chartshape)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
+* class [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 * class [Shape](/cells/python-net/aspose.cells.drawing/shape)

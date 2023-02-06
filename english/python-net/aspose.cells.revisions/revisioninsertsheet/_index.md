@@ -32,7 +32,8 @@ The RevisionInsertSheet type exposes the following members:
 | [sheet_position](/cells/python-net/aspose.cells.revisions/revisioninsertsheet/sheet_position) | Gets the zero based position of the new sheet in the sheet tab bar. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionInsertSheet](/cells/python-net/aspose.cells.revisions/revisioninsertsheet)

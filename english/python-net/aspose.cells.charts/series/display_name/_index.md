@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the series's name that displays on the chart graph.
+### Definition:
+```python
+@property
+def display_name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

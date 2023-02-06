@@ -24,6 +24,6 @@ The MetadataType type exposes the following members:
 | DOCUMENT_PROPERTIES | Load the properties of the file. |
 
 
-### See Also
 
-* module [aspose.cells.metadata](../)
+### See Also
+* module [aspose.cells.metadata](..)

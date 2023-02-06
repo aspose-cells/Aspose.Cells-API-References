@@ -95,6 +95,6 @@ shapes = workbook.worksheets[0].shapes
 workbook.save("result.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

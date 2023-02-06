@@ -12,6 +12,15 @@ is_root: false
 
 
 The key length.
+### Definition:
+```python
+@property
+def key_length(self):
+    ...
+@key_length.setter
+def key_length(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.metadata](../../)

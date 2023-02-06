@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether to export document structure.
+### Definition:
+```python
+@property
+def export_document_structure(self):
+    ...
+@export_document_structure.setter
+def export_document_structure(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

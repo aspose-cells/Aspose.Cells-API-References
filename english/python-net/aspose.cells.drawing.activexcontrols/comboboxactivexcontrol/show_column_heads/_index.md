@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether column headings are displayed.
+### Definition:
+```python
+@property
+def show_column_heads(self):
+    ...
+@show_column_heads.setter
+def show_column_heads(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets Length of the comment before this revision was made.
+### Definition:
+```python
+@property
+def new_length(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

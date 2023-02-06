@@ -27,6 +27,6 @@ The WebExtension type exposes the following members:
 | [bindings](/cells/python-net/aspose.cells.webextensions/webextension/bindings) | Gets all bindings relationship between an Office Add-in and the data in the document. |
 
 
-### See Also
 
-* module [aspose.cells.webextensions](../)
+### See Also
+* module [aspose.cells.webextensions](..)

@@ -21,7 +21,17 @@ please use CustomEngine property, AbstractCalculationEngine provides more conven
 for manipulating custom functions.
 This property will be removed 12 months later since August 2020. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def custom_function(self):
+    ...
+@custom_function.setter
+def custom_function(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [CalculationOptions](/cells/python-net/aspose.cells/calculationoptions)
+* class [ICustomFunction](/cells/python-net/aspose.cells/icustomfunction)

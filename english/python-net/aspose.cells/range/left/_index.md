@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the distance, in points, from the left edge of column A to the left edge of the range.
+### Definition:
+```python
+@property
+def left(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

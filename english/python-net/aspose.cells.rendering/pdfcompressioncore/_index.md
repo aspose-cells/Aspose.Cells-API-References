@@ -25,6 +25,6 @@ The PdfCompressionCore type exposes the following members:
 | FLATE | Flate |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

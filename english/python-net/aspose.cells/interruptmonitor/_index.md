@@ -40,7 +40,9 @@ The InterruptMonitor type exposes the following members:
 | [interrupt()](/cells/python-net/aspose.cells/interruptmonitor/interrupt/#) | Interrupt the current operator. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
 * class [AbstractInterruptMonitor](/cells/python-net/aspose.cells/abstractinterruptmonitor)
+* class [CellsException](/cells/python-net/aspose.cells/cellsexception)
+* class [InterruptMonitor](/cells/python-net/aspose.cells/interruptmonitor)

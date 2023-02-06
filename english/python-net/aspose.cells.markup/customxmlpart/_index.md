@@ -24,6 +24,6 @@ The CustomXmlPart type exposes the following members:
 | [id](/cells/python-net/aspose.cells.markup/customxmlpart/id) | Gets and sets the id of the custom xml part. |
 
 
-### See Also
 
-* module [aspose.cells.markup](../)
+### See Also
+* module [aspose.cells.markup](..)

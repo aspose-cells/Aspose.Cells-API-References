@@ -22,6 +22,15 @@ Gets and sets the name of macro.
 shape.macro_name = "DoWork()"
 
 ```
+### Definition:
+```python
+@property
+def macro_name(self):
+    ...
+@macro_name.setter
+def macro_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

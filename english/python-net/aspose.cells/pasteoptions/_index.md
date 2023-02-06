@@ -32,6 +32,6 @@ The PasteOptions type exposes the following members:
 | [operation_type](/cells/python-net/aspose.cells/pasteoptions/operation_type) | Gets and sets the operation type when pasting range. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

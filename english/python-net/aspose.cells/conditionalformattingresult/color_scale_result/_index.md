@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the display color of color scale.
+### Definition:
+```python
+@property
+def color_scale_result(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

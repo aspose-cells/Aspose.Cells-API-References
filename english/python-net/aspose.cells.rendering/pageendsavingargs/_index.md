@@ -29,7 +29,8 @@ The PageEndSavingArgs type exposes the following members:
 | [has_more_pages](/cells/python-net/aspose.cells.rendering/pageendsavingargs/has_more_pages) | Gets or sets a value indicating whether having more pages to be output.<br/>The default value is true. |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)
+* class [PageEndSavingArgs](/cells/python-net/aspose.cells.rendering/pageendsavingargs)
 * class [PageSavingArgs](/cells/python-net/aspose.cells.rendering/pagesavingargs)

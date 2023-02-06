@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the first value associated with the data validation.
+### Definition:
+```python
+@property
+def value1(self):
+    ...
+@value1.setter
+def value1(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

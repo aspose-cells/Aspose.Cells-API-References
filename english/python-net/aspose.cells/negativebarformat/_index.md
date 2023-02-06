@@ -25,6 +25,6 @@ The NegativeBarFormat type exposes the following members:
 | [color_type](/cells/python-net/aspose.cells/negativebarformat/color_type) | Gets or sets whether to use the same fill color as positive data bars. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

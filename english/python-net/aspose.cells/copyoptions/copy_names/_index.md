@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether copying the names.
+### Definition:
+```python
+@property
+def copy_names(self):
+    ...
+@copy_names.setter
+def copy_names(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets whether the file is protected by Microsoft Rights Management Server.
+### Definition:
+```python
+@property
+def is_protected_by_rms(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

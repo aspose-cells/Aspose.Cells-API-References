@@ -3,7 +3,7 @@ title: is_resize_shape_to_fit_text property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 220
+weight: 230
 url: /python-net/aspose.cells.charts/title/is_resize_shape_to_fit_text/
 is_root: false
 ---
@@ -13,6 +13,15 @@ is_root: false
 
 Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is
 when text within a shape is scaled in order to contain all the text inside.
+### Definition:
+```python
+@property
+def is_resize_shape_to_fit_text(self):
+    ...
+@is_resize_shape_to_fit_text.setter
+def is_resize_shape_to_fit_text(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

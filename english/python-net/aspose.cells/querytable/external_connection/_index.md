@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the relate external connection.
+### Definition:
+```python
+@property
+def external_connection(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection)
 * class [QueryTable](/cells/python-net/aspose.cells/querytable)

@@ -47,6 +47,6 @@ externalLink = workbook.worksheets.external_links[0]
 externalLink.data_source = "d:\\link.xls"
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

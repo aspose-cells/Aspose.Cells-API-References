@@ -36,6 +36,7 @@ The ProtectedRangeCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells/protectedrangecollection/binary_search/#ProtectedRange) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [ProtectedRange](/cells/python-net/aspose.cells/protectedrange)

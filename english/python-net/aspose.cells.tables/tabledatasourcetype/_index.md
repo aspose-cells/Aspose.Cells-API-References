@@ -25,6 +25,6 @@ The TableDataSourceType type exposes the following members:
 | QUERY_TABLE | Query Table |
 
 
-### See Also
 
-* module [aspose.cells.tables](../)
+### See Also
+* module [aspose.cells.tables](..)

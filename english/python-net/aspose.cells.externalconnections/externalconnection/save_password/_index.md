@@ -12,6 +12,15 @@ is_root: false
 
 
 True if the password is to be saved as part of the connection string; otherwise, False.
+### Definition:
+```python
+@property
+def save_password(self):
+    ...
+@save_password.setter
+def save_password(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

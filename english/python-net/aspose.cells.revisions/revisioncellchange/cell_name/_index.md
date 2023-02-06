@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the name of the cell.
+### Definition:
+```python
+@property
+def cell_name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

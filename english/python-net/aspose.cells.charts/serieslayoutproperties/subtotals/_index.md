@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the index of a subtotal data point.
+### Definition:
+```python
+@property
+def subtotals(self):
+    ...
+@subtotals.setter
+def subtotals(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

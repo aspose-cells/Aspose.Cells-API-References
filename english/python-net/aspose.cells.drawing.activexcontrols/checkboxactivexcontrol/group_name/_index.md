@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the group's name.
+### Definition:
+```python
+@property
+def group_name(self):
+    ...
+@group_name.setter
+def group_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

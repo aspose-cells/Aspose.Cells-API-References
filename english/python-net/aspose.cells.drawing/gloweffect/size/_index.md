@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the radius of the glow, in unit of points.
+### Definition:
+```python
+@property
+def size(self):
+    ...
+@size.setter
+def size(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

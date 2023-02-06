@@ -12,6 +12,15 @@ is_root: false
 
 
 The time when the document was signed.
+### Definition:
+```python
+@property
+def sign_time(self):
+    ...
+@sign_time.setter
+def sign_time(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.digitalsignatures](../../)

@@ -17,6 +17,12 @@ Gets the max row index, zero-based.
 
 
 Returns 65535 if the file format is Excel97-2003;
+### Definition:
+```python
+@property
+def max_row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

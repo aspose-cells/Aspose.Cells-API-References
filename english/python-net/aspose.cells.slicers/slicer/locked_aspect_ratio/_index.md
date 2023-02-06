@@ -21,6 +21,15 @@ Indicates whether locking aspect ratio.
 slicer.locked_aspect_ratio = True
 
 ```
+### Definition:
+```python
+@property
+def locked_aspect_ratio(self):
+    ...
+@locked_aspect_ratio.setter
+def locked_aspect_ratio(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

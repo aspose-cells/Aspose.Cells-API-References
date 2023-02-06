@@ -31,3 +31,4 @@ def get_merged_range(self):
 ### See Also
 * module [aspose.cells](../../)
 * class [Cell](/cells/python-net/aspose.cells/cell)
+* class [Range](/cells/python-net/aspose.cells/range)

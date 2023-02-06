@@ -22,6 +22,15 @@ the default value is true
 slicer.caption_visible = True
 
 ```
+### Definition:
+```python
+@property
+def caption_visible(self):
+    ...
+@caption_visible.setter
+def caption_visible(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

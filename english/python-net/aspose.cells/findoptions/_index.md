@@ -75,6 +75,6 @@ findOptions.look_in_type = LookInType.VALUES
 cell = cells.find(0, None, findOptions)
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

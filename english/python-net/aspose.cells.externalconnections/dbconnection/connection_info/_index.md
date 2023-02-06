@@ -12,6 +12,15 @@ is_root: false
 
 
 The connection information string is used to make contact with an OLE DB or ODBC data source.
+### Definition:
+```python
+@property
+def connection_info(self):
+    ...
+@connection_info.setter
+def connection_info(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

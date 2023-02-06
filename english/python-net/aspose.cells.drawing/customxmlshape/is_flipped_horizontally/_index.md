@@ -22,6 +22,15 @@ if shape.is_flipped_horizontally == False:
     shape.is_flipped_horizontally = True
 
 ```
+### Definition:
+```python
+@property
+def is_flipped_horizontally(self):
+    ...
+@is_flipped_horizontally.setter
+def is_flipped_horizontally(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

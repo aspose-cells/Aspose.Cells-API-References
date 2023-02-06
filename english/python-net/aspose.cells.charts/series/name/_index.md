@@ -24,6 +24,15 @@ chart.n_series[0].name = "=A1"
 chart.n_series[0].name = "First Series"
 
 ```
+### Definition:
+```python
+@property
+def name(self):
+    ...
+@name.setter
+def name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

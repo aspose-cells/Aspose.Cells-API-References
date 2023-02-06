@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the searched range is set.
+### Definition:
+```python
+@property
+def is_range_set(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

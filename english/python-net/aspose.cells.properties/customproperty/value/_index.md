@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the value of the custom property.
+### Definition:
+```python
+@property
+def value(self):
+    ...
+@value.setter
+def value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the range to which the specified AutoFilter applies.
+### Definition:
+```python
+@property
+def range(self):
+    ...
+@range.setter
+def range(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

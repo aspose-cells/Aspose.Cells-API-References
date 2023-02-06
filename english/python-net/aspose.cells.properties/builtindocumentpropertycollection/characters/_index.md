@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents an estimate of the number of characters in the document.
+### Definition:
+```python
+@property
+def characters(self):
+    ...
+@characters.setter
+def characters(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

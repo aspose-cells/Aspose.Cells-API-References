@@ -17,6 +17,15 @@ Indicates whether embedding Ooxml files of OleObject as ole object.
 
 
 Only for OleObject.
+### Definition:
+```python
+@property
+def embed_ooxml_as_ole_object(self):
+    ...
+@embed_ooxml_as_ole_object.setter
+def embed_ooxml_as_ole_object(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

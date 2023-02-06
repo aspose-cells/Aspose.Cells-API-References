@@ -23,6 +23,6 @@ The PageOrientationType type exposes the following members:
 | PORTRAIT | Portrait orientation |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

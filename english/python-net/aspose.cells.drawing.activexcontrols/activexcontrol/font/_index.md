@@ -12,7 +12,14 @@ is_root: false
 
 
 Represents the font of the control.
+### Definition:
+```python
+@property
+def font(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)
 * class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
+* class [Font](/cells/python-net/aspose.cells/font)

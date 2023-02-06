@@ -24,6 +24,6 @@ The OdsPageBackgroundType type exposes the following members:
 | GRAPHIC | Formats the background with image. |
 
 
-### See Also
 
-* module [aspose.cells.ods](../)
+### See Also
+* module [aspose.cells.ods](..)

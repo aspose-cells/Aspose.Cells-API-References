@@ -16,6 +16,15 @@ If this property is true, extra data will be extended to next sheet behind curre
 new sheet will be appended to current workbook).
 If this property is false, the data exceeds limit will be ignored.
 Default is false;
+### Definition:
+```python
+@property
+def extend_to_next_sheet(self):
+    ...
+@extend_to_next_sheet.setter
+def extend_to_next_sheet(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

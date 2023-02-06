@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether to show outline.
+### Definition:
+```python
+@property
+def is_outline_shown(self):
+    ...
+@is_outline_shown.setter
+def is_outline_shown(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

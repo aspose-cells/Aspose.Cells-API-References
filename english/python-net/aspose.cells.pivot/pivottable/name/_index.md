@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets the name of the PivotTable
+### Definition:
+```python
+@property
+def name(self):
+    ...
+@name.setter
+def name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

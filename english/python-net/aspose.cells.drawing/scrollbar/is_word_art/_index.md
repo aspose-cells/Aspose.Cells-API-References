@@ -27,6 +27,12 @@ if shape.is_word_art:
     pass
 
 ```
+### Definition:
+```python
+@property
+def is_word_art(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

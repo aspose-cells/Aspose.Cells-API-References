@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the Y scale for tiling picture.
+### Definition:
+```python
+@property
+def scale_y(self):
+    ...
+@scale_y.setter
+def scale_y(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

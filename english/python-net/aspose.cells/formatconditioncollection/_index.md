@@ -84,6 +84,6 @@ fc.style.background_color = Color.red
 workbook.save("output.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

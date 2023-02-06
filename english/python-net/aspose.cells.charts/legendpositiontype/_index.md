@@ -27,6 +27,6 @@ The LegendPositionType type exposes the following members:
 | TOP | Displays the legend to the top of the chart's plot area. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

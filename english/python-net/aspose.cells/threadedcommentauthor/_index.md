@@ -24,6 +24,6 @@ The ThreadedCommentAuthor type exposes the following members:
 | [provider_id](/cells/python-net/aspose.cells/threadedcommentauthor/provider_id) | Gets the id of the provider. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

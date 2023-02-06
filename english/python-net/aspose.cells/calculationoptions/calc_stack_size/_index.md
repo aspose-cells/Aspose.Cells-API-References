@@ -21,6 +21,15 @@ StackOverflowException may be caused in the calculation process.
 If so, user should specify smaller value for this property.
 For such situation, user should determine the proper value for this property according to the actual formulas and data.
 Too small value may cause performance degradation for the formula calculation.
+### Definition:
+```python
+@property
+def calc_stack_size(self):
+    ...
+@calc_stack_size.setter
+def calc_stack_size(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

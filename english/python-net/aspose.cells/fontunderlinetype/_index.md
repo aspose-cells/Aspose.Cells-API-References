@@ -41,6 +41,6 @@ The FontUnderlineType type exposes the following members:
 | WORDS | Represents Underline Non-Space Characters Only |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

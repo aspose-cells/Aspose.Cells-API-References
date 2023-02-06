@@ -20,6 +20,15 @@ to apply only when saving pages to the `Jpeg` format. The default value is 100
 Has effect only when saving to JPEG.
 The value must be between 0 and 100.
 The default value is 100.
+### Definition:
+```python
+@property
+def quality(self):
+    ...
+@quality.setter
+def quality(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

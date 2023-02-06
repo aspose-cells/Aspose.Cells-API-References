@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the file is mark for auto-recovery.
+### Definition:
+```python
+@property
+def auto_recover(self):
+    ...
+@auto_recover.setter
+def auto_recover(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

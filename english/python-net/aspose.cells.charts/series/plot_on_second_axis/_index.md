@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates if this series is plotted on second value axis.
+### Definition:
+```python
+@property
+def plot_on_second_axis(self):
+    ...
+@plot_on_second_axis.setter
+def plot_on_second_axis(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

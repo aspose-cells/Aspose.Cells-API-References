@@ -25,6 +25,6 @@ The MapChartRegionType type exposes the following members:
 | WORLD | World. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

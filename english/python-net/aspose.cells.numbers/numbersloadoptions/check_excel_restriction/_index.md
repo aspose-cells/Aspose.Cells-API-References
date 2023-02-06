@@ -18,6 +18,15 @@ If this property is false, we will accept your input string value as the cell's 
 you can output the complete string value for other file formats such as CSV.
 However, if you have set such kind of value that is invalid for excel file format,
 you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file.
+### Definition:
+```python
+@property
+def check_excel_restriction(self):
+    ...
+@check_excel_restriction.setter
+def check_excel_restriction(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.numbers](../../)

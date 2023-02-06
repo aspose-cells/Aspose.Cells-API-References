@@ -72,6 +72,7 @@ chart.n_series[0].points[0].area.foreground_color = Color.cyan
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [Area](/cells/python-net/aspose.cells.drawing/area)

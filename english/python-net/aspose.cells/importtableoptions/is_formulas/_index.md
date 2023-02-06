@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the data are formulas.
+### Definition:
+```python
+@property
+def is_formulas(self):
+    ...
+@is_formulas.setter
+def is_formulas(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

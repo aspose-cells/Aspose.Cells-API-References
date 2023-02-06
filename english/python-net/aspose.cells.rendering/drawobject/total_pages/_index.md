@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates total pages in current rendering.
+### Definition:
+```python
+@property
+def total_pages(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

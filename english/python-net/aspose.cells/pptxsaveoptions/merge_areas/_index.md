@@ -3,7 +3,7 @@ title: merge_areas property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 60
+weight: 150
 url: /python-net/aspose.cells/pptxsaveoptions/merge_areas/
 is_root: false
 ---
@@ -17,6 +17,15 @@ Indicates whether merge the areas of conditional formatting and validation befor
 
 
 The default value is false.
+### Definition:
+```python
+@property
+def merge_areas(self):
+    ...
+@merge_areas.setter
+def merge_areas(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns the top margin in unit of Points
+### Definition:
+```python
+@property
+def top_margin_pt(self):
+    ...
+@top_margin_pt.setter
+def top_margin_pt(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the corrected object.
+### Definition:
+```python
+@property
+def corrected_object(self):
+    ...
+@corrected_object.setter
+def corrected_object(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

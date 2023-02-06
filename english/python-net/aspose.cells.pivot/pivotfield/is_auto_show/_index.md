@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003.
+### Definition:
+```python
+@property
+def is_auto_show(self):
+    ...
+@is_auto_show.setter
+def is_auto_show(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -24,6 +24,6 @@ The PdfCompliance type exposes the following members:
 | PDF_A1A | Pdf format compatible with PDFA-1a |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

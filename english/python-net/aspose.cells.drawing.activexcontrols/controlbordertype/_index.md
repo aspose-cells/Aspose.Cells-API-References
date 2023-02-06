@@ -23,6 +23,6 @@ The ControlBorderType type exposes the following members:
 | SINGLE | The single line. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

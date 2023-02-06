@@ -34,6 +34,6 @@ The ThemeColorType type exposes the following members:
 | STYLE_COLOR | Inner used.<br/>A color used in theme definitions which means to use the color of the style. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

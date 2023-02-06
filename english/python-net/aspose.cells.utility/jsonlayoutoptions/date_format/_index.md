@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the format of date value.
+### Definition:
+```python
+@property
+def date_format(self):
+    ...
+@date_format.setter
+def date_format(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.utility](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets root element name.
+### Definition:
+```python
+@property
+def root_element_name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

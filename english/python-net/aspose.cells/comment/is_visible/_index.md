@@ -22,6 +22,15 @@ if comment1.is_visible:
     pass
 
 ```
+### Definition:
+```python
+@property
+def is_visible(self):
+    ...
+@is_visible.setter
+def is_visible(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

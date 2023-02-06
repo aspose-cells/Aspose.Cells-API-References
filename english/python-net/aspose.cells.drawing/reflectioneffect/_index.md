@@ -29,6 +29,6 @@ The ReflectionEffect type exposes the following members:
 | [rot_with_shape](/cells/python-net/aspose.cells.drawing/reflectioneffect/rot_with_shape) | Gets and sets if the reflection should rotate with the shape. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

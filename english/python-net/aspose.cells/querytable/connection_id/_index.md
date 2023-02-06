@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the connection id of the query table.
+### Definition:
+```python
+@property
+def connection_id(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

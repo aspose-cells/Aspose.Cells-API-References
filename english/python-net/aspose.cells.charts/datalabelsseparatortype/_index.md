@@ -28,6 +28,6 @@ The DataLabelsSeparatorType type exposes the following members:
 | CUSTOM | Represents custom separator |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

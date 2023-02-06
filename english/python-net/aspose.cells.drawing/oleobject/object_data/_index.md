@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents embedded ole object data as byte array.
+### Definition:
+```python
+@property
+def object_data(self):
+    ...
+@object_data.setter
+def object_data(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

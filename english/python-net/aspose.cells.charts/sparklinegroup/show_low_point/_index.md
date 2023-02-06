@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether to highlight the lowest points of data in the sparkline group.
+### Definition:
+```python
+@property
+def show_low_point(self):
+    ...
+@show_low_point.setter
+def show_low_point(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

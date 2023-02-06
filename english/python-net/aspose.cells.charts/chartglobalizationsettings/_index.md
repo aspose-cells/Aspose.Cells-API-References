@@ -35,6 +35,6 @@ The ChartGlobalizationSettings type exposes the following members:
 | [get_axis_unit_name(type)](/cells/python-net/aspose.cells.charts/chartglobalizationsettings/get_axis_unit_name/#DisplayUnitType) | Gets the Name of Axis Unit. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

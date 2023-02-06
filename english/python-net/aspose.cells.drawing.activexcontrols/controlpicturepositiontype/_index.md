@@ -34,6 +34,6 @@ The ControlPicturePositionType type exposes the following members:
 | CENTER | The picture appears in the center of the control.<br/>The caption is centered horizontally and vertically on top of the picture. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

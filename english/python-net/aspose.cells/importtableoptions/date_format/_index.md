@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets date format string for cells with imported datetime values.
+### Definition:
+```python
+@property
+def date_format(self):
+    ...
+@date_format.setter
+def date_format(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the formula.
+### Definition:
+```python
+@property
+def new_formula(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

@@ -36,6 +36,6 @@ The PivotFieldDataDisplayFormat type exposes the following members:
 | RANK_LARGEST_TO_SMALLEST | Represents largest to smallest display format. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

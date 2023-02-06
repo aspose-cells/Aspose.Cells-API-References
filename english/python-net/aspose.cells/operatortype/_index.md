@@ -30,6 +30,6 @@ The OperatorType type exposes the following members:
 | NOT_EQUAL | Represents NotEqual operator of conditional format and data validation. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

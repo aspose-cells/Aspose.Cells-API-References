@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the built-in display format of numbers and dates.
+### Definition:
+```python
+@property
+def number(self):
+    ...
+@number.setter
+def number(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

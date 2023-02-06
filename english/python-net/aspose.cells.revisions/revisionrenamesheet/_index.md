@@ -31,7 +31,8 @@ The RevisionRenameSheet type exposes the following members:
 | [new_name](/cells/python-net/aspose.cells.revisions/revisionrenamesheet/new_name) | Gets the new name of the worksheet. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionRenameSheet](/cells/python-net/aspose.cells.revisions/revisionrenamesheet)

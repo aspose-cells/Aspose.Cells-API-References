@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the title of the document.
+### Definition:
+```python
+@property
+def title(self):
+    ...
+@title.setter
+def title(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

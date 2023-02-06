@@ -23,6 +23,6 @@ The SlicerCacheItem type exposes the following members:
 | [value](/cells/python-net/aspose.cells.slicers/slicercacheitem/value) | Returns the label text for the slicer item. Read-only. |
 
 
-### See Also
 
-* module [aspose.cells.slicers](../)
+### See Also
+* module [aspose.cells.slicers](..)

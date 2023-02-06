@@ -24,6 +24,6 @@ The ControlScrollOrientation type exposes the following members:
 | HORIZONTAL | Control is rendered horizontally. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

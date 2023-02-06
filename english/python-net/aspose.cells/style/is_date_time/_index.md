@@ -3,7 +3,7 @@ title: is_date_time property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.cells/style/is_date_time/
 is_root: false
 ---
@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the number format is a date format.
+### Definition:
+```python
+@property
+def is_date_time(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

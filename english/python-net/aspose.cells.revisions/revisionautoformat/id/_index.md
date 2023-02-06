@@ -17,6 +17,12 @@ Gets the number of this revision.
 
 
 Zero means this revision does not contains id.
+### Definition:
+```python
+@property
+def id(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

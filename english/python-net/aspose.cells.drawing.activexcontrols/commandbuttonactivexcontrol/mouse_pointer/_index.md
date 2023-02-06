@@ -12,7 +12,17 @@ is_root: false
 
 
 Gets and sets the type of icon displayed as the mouse pointer for the control.
+### Definition:
+```python
+@property
+def mouse_pointer(self):
+    ...
+@mouse_pointer.setter
+def mouse_pointer(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)
 * class [CommandButtonActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol)
+* class [ControlMousePointerType](/cells/python-net/aspose.cells.drawing.activexcontrols/controlmousepointertype)

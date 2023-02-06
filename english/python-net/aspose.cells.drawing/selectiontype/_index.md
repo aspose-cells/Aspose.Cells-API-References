@@ -24,6 +24,6 @@ The SelectionType type exposes the following members:
 | EXTEND | Extend selection type. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

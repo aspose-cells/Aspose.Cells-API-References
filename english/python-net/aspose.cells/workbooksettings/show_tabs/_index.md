@@ -29,6 +29,15 @@ The following code hides the Sheet Tabs and Tab Scrolling Buttons for the spread
 workbook.settings.show_tabs = False
 
 ```
+### Definition:
+```python
+@property
+def show_tabs(self):
+    ...
+@show_tabs.setter
+def show_tabs(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

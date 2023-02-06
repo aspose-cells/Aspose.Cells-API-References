@@ -25,6 +25,6 @@ The Top10Filter type exposes the following members:
 | [criteria](/cells/python-net/aspose.cells/top10filter/criteria) |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

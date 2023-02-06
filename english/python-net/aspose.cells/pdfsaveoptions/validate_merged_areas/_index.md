@@ -17,6 +17,15 @@ Indicates whether validate merged cells before saving the file.
 
 
 The default value is false.
+### Definition:
+```python
+@property
+def validate_merged_areas(self):
+    ...
+@validate_merged_areas.setter
+def validate_merged_areas(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

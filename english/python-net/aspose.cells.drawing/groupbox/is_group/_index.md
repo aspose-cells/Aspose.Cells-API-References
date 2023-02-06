@@ -22,6 +22,12 @@ if shape.is_group:
     pass
 
 ```
+### Definition:
+```python
+@property
+def is_group(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

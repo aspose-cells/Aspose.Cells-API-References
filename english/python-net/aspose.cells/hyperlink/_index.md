@@ -55,6 +55,6 @@ hyperlink.text_to_display = "Aspose"
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

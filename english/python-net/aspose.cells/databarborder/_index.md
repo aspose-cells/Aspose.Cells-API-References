@@ -23,6 +23,6 @@ The DataBarBorder type exposes the following members:
 | [type](/cells/python-net/aspose.cells/databarborder/type) | Gets or sets the border's type of data bars specified by a conditional formatting rule. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

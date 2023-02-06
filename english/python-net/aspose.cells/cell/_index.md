@@ -115,6 +115,7 @@ The Cell type exposes the following members:
 | [set_characters(characters)](/cells/python-net/aspose.cells/cell/set_characters/#list) | Sets rich text format of the cell. |
 | [get_merged_range()](/cells/python-net/aspose.cells/cell/get_merged_range/#) | Returns a [Range](/cells/python-net/aspose.cells/range) object which represents a merged range. |
 | [get_html_string(html5)](/cells/python-net/aspose.cells/cell/get_html_string/#bool) | Gets the html string which contains data and some formats in this cell. |
+| [to_json()](/cells/python-net/aspose.cells/cell/to_json/#) | Convert [Cell](/cells/python-net/aspose.cells/cell) to JSON struct data. |
 | [equals(cell)](/cells/python-net/aspose.cells/cell/equals/#Cell) | Checks whether this object refers to the same cell with another cell object. |
 | [get_conditional_formatting_result()](/cells/python-net/aspose.cells/cell/get_conditional_formatting_result/#) | Get the result of the conditional formatting. |
 | [get_validation()](/cells/python-net/aspose.cells/cell/get_validation/#) | Gets the validation applied to this cell. |
@@ -160,6 +161,8 @@ style.vertical_alignment = TextAlignmentType.TOP
 cell.set_style(style)
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Cell](/cells/python-net/aspose.cells/cell)
+* class [Range](/cells/python-net/aspose.cells/range)

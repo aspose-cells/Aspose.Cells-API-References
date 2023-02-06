@@ -17,7 +17,14 @@ Gets the sorted color.
 
 
 Only effects when [SortOnType](/cells/python-net/aspose.cells/sortontype)  is SortOnType.CellColor or SortOnType.FontColor.
+### Definition:
+```python
+@property
+def color(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [DataSorterKey](/cells/python-net/aspose.cells/datasorterkey)
+* class [SortOnType](/cells/python-net/aspose.cells/sortontype)

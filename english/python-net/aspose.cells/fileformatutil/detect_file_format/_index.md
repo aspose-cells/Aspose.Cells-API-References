@@ -101,4 +101,5 @@ def detect_file_format(self, file_path, password):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [FileFormatInfo](/cells/python-net/aspose.cells/fileformatinfo)
 * class [FileFormatUtil](/cells/python-net/aspose.cells/fileformatutil)

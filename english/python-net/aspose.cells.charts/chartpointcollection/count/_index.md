@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the count of the chart point.
+### Definition:
+```python
+@property
+def count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

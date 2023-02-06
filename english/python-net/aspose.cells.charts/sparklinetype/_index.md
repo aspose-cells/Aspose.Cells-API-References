@@ -24,6 +24,6 @@ The SparklineType type exposes the following members:
 | STACKED | Win/Loss sparkline. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

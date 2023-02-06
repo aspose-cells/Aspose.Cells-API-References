@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the default font name.
+### Definition:
+```python
+@property
+def default_font_name(self):
+    ...
+@default_font_name.setter
+def default_font_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

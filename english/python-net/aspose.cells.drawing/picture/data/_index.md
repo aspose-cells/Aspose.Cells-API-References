@@ -36,6 +36,15 @@ pic2.data = pic1.data
 workbook.save("result.xlsx")
 
 ```
+### Definition:
+```python
+@property
+def data(self):
+    ...
+@data.setter
+def data(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

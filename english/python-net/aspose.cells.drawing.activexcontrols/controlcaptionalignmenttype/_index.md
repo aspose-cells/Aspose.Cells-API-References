@@ -23,6 +23,6 @@ The ControlCaptionAlignmentType type exposes the following members:
 | RIGHT | The right of the control. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

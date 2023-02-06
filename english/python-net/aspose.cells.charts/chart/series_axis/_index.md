@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the chart's series axis.
+### Definition:
+```python
+@property
+def series_axis(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [Axis](/cells/python-net/aspose.cells.charts/axis)
 * class [Chart](/cells/python-net/aspose.cells.charts/chart)

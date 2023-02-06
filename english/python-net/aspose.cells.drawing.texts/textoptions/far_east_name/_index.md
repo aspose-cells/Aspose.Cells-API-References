@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the FarEast name.
+### Definition:
+```python
+@property
+def far_east_name(self):
+    ...
+@far_east_name.setter
+def far_east_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

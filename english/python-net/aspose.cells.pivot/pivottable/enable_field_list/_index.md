@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets whether enable the field list for the PivotTable.
+### Definition:
+```python
+@property
+def enable_field_list(self):
+    ...
+@enable_field_list.setter
+def enable_field_list(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

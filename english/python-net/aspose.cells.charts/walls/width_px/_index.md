@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the width of left to right in units of pixels after calls Chart.Calculate() method.
+### Definition:
+```python
+@property
+def width_px(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

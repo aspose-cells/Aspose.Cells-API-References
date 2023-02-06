@@ -36,6 +36,6 @@ Gets the PivotItem Object at the specific index.
 | [changeitems_order(source_index, dest_index)](/cells/python-net/aspose.cells.pivot/pivotitemcollection/changeitems_order/#int-int) | Directly changes the orders of the two items. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

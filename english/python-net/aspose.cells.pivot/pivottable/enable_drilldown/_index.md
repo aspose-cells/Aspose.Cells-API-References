@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets whether drilldown is enabled.
+### Definition:
+```python
+@property
+def enable_drilldown(self):
+    ...
+@enable_drilldown.setter
+def enable_drilldown(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -17,6 +17,15 @@ Represents the index of active worksheet when the spreadsheet is opened.
 
 
 Sheet index is zero based.
+### Definition:
+```python
+@property
+def active_sheet_index(self):
+    ...
+@active_sheet_index.setter
+def active_sheet_index(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

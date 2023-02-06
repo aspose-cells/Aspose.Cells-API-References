@@ -46,4 +46,5 @@ index2 = textBoxCollection.add(1, 1, 50, 100)
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [TextBox](/cells/python-net/aspose.cells.drawing/textbox)
 * class [TextBoxCollection](/cells/python-net/aspose.cells.drawing/textboxcollection)

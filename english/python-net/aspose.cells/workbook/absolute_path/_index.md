@@ -17,6 +17,15 @@ Gets and sets the absolute path of the file.
 
 
 Only used for external links.
+### Definition:
+```python
+@property
+def absolute_path(self):
+    ...
+@absolute_path.setter
+def absolute_path(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

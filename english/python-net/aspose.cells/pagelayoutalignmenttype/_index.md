@@ -26,6 +26,6 @@ The PageLayoutAlignmentType type exposes the following members:
 | TOP | Represents top page layout alignment. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

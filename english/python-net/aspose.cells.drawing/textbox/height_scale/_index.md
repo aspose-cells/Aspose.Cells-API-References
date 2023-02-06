@@ -23,6 +23,15 @@ if shape.height_scale == 3:
     shape.height_scale = 1
 
 ```
+### Definition:
+```python
+@property
+def height_scale(self):
+    ...
+@height_scale.setter
+def height_scale(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

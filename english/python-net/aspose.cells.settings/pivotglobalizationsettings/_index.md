@@ -37,6 +37,7 @@ The PivotGlobalizationSettings type exposes the following members:
 | [get_text_of_sub_total(sub_total_type)](/cells/python-net/aspose.cells.settings/pivotglobalizationsettings/get_text_of_sub_total/#aspose.cells.pivot.PivotFieldSubtotalType) | Gets the text of [PivotFieldSubtotalType](/cells/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) type in the PivotTable. |
 
 
-### See Also
 
-* module [aspose.cells.settings](../)
+### See Also
+* module [aspose.cells.settings](..)
+* class [PivotFieldSubtotalType](/cells/python-net/aspose.cells.pivot/pivotfieldsubtotaltype)

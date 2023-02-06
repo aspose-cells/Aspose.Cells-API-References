@@ -19,6 +19,15 @@ It should be used in conjunction with Type.
 
 If the value is string and start with "=", it will be processed as a formula,
 otherwise we will process it as a simple value.
+### Definition:
+```python
+@property
+def value(self):
+    ...
+@value.setter
+def value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

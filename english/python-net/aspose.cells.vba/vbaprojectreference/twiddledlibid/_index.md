@@ -17,6 +17,15 @@ Gets and sets the twiddled Libid of the reference.
 
 
 Only for control reference.
+### Definition:
+```python
+@property
+def twiddledlibid(self):
+    ...
+@twiddledlibid.setter
+def twiddledlibid(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.vba](../../)

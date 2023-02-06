@@ -46,7 +46,8 @@ The ActiveXControl type exposes the following members:
 | [text_align](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/text_align) | Represents how to align the text used by the control. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)
+* class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
 * class [ActiveXControlBase](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase)

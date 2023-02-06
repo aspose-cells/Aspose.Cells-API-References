@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the Color of Diagonal lines.
+### Definition:
+```python
+@property
+def diagonal_color(self):
+    ...
+@diagonal_color.setter
+def diagonal_color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

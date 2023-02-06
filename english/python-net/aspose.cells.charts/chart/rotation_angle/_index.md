@@ -18,6 +18,15 @@ Represents the rotation of the 3-D chart view (the rotation of the plot area aro
 
 The value of this property must be from 0 to 360, except for 3-D bar charts, where the value must be from 0 to 44. 
 The default value is 20. Applies only to 3-D charts.
+### Definition:
+```python
+@property
+def rotation_angle(self):
+    ...
+@rotation_angle.setter
+def rotation_angle(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

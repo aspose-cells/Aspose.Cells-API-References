@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the size of the top margin, in unit of inches.
+### Definition:
+```python
+@property
+def top_margin_inch(self):
+    ...
+@top_margin_inch.setter
+def top_margin_inch(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents if the sheet will be printed without graphics.
+### Definition:
+```python
+@property
+def print_draft(self):
+    ...
+@print_draft.setter
+def print_draft(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

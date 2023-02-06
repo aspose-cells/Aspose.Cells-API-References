@@ -33,7 +33,10 @@ The PatternFill type exposes the following members:
 | [back_transparency](/cells/python-net/aspose.cells.drawing/patternfill/back_transparency) | Gets or sets the transparency of background color. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [Area](/cells/python-net/aspose.cells.drawing/area)
+* class [CellsColor](/cells/python-net/aspose.cells/cellscolor)
 * class [Fill](/cells/python-net/aspose.cells.drawing/fill)
+* class [PatternFill](/cells/python-net/aspose.cells.drawing/patternfill)

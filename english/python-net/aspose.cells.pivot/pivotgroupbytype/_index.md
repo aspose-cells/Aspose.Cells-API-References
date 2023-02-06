@@ -29,6 +29,6 @@ The PivotGroupByType type exposes the following members:
 | YEARS | Presents Years groupby type. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

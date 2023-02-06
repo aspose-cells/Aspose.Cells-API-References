@@ -113,6 +113,6 @@ pivot.calculate_data()
 book.save("out.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

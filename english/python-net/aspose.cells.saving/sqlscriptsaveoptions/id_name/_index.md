@@ -17,6 +17,15 @@ Gets and sets the name of id column.
 
 
 If this property is set , a column will be inserted with automatical increment int value.
+### Definition:
+```python
+@property
+def id_name(self):
+    ...
+@id_name.setter
+def id_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.saving](../../)

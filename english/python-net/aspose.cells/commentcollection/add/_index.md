@@ -80,4 +80,5 @@ comment1.font.name = "Times New Roman"
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Comment](/cells/python-net/aspose.cells/comment)
 * class [CommentCollection](/cells/python-net/aspose.cells/commentcollection)

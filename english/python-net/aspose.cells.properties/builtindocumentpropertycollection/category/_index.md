@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the category of the document.
+### Definition:
+```python
+@property
+def category(self):
+    ...
+@category.setter
+def category(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

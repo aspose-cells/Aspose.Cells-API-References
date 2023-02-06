@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the document's language.
+### Definition:
+```python
+@property
+def language(self):
+    ...
+@language.setter
+def language(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

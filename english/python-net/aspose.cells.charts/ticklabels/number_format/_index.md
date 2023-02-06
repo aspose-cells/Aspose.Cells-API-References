@@ -17,6 +17,15 @@ Represents the format string for the TickLabels object.
 
 
 The formatting string is same as a custom format string setting to a cell. For example, "$0".
+### Definition:
+```python
+@property
+def number_format(self):
+    ...
+@number_format.setter
+def number_format(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

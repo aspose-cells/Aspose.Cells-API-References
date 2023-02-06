@@ -24,6 +24,6 @@ The TimeUnit type exposes the following members:
 | YEARS | Years |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

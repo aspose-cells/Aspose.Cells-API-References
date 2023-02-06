@@ -24,6 +24,6 @@ The ConditionalFormattingValue type exposes the following members:
 | [is_gte](/cells/python-net/aspose.cells/conditionalformattingvalue/is_gte) | Get or set the Greater Than Or Equal flag. <br/>Use only for icon sets, determines whether this threshold value uses <br/>the greater than or equal to operator. <br/>'false' indicates 'greater than' is used instead of 'greater than or equal to'.<br/>Default value is true. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

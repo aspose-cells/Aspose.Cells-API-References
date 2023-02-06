@@ -25,6 +25,6 @@ The SubtotalSetting type exposes the following members:
 | [summary_below_data](/cells/python-net/aspose.cells/subtotalsetting/summary_below_data) | Indicates whether add summary below data. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

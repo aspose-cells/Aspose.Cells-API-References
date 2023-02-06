@@ -24,6 +24,15 @@ s4 = SignatureLine()
 s4.title = "Development Lead"
 
 ```
+### Definition:
+```python
+@property
+def title(self):
+    ...
+@title.setter
+def title(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

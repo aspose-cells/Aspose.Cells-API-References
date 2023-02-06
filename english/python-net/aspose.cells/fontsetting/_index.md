@@ -66,6 +66,6 @@ charactor.font.color = Color.blue
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

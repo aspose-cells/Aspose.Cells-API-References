@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the start index of the characters.
+### Definition:
+```python
+@property
+def start_index(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

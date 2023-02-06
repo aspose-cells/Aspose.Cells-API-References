@@ -20,6 +20,15 @@ please set this property as true.
 
 
 The default value is true.
+### Definition:
+```python
+@property
+def refer_to_sheet_with_same_name(self):
+    ...
+@refer_to_sheet_with_same_name.setter
+def refer_to_sheet_with_same_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

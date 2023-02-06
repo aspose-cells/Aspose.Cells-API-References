@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the definition of the parameter.
+### Definition:
+```python
+@property
+def parameter_definition(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.querytables](../../)

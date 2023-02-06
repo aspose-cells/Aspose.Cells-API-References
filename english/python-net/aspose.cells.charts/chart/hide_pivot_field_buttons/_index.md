@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether hide the pivot chart field buttons only when the chart is PivotChart.
+### Definition:
+```python
+@property
+def hide_pivot_field_buttons(self):
+    ...
+@hide_pivot_field_buttons.setter
+def hide_pivot_field_buttons(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

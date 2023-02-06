@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether skipping emtpy rows.
+### Definition:
+```python
+@property
+def skip_empty_rows(self):
+    ...
+@skip_empty_rows.setter
+def skip_empty_rows(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

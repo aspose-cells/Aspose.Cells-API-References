@@ -18,7 +18,17 @@ Default value is Empty (all zeroes) Guid.
 
 
 When set, it associates [SignatureLine](/cells/python-net/aspose.cells.drawing/signatureline) with corresponding [DigitalSignature](/cells/python-net/aspose.cells.digitalsignatures/digitalsignature).
+### Definition:
+```python
+@property
+def id(self):
+    ...
+@id.setter
+def id(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.digitalsignatures](../../)
 * class [DigitalSignature](/cells/python-net/aspose.cells.digitalsignatures/digitalsignature)
+* class [SignatureLine](/cells/python-net/aspose.cells.drawing/signatureline)

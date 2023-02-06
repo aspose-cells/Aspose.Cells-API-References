@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets the measure field index of the pivot filter.
+### Definition:
+```python
+@property
+def measure_fld_index(self):
+    ...
+@measure_fld_index.setter
+def measure_fld_index(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

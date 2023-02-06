@@ -26,6 +26,6 @@ The PivotFieldType type exposes the following members:
 | DATA | Presents data pivot field type. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

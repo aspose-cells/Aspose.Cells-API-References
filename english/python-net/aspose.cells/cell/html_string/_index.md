@@ -3,7 +3,7 @@ title: html_string property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 480
+weight: 490
 url: /python-net/aspose.cells/cell/html_string/
 is_root: false
 ---
@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the html string which contains data and some formats in this cell.
+### Definition:
+```python
+@property
+def html_string(self):
+    ...
+@html_string.setter
+def html_string(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

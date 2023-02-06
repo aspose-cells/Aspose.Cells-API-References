@@ -24,6 +24,6 @@ The FontSchemeType type exposes the following members:
 | MINOR | Minor scheme. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

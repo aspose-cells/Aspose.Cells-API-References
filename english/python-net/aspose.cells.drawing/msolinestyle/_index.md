@@ -26,6 +26,6 @@ The MsoLineStyle type exposes the following members:
 | THIN_THIN | Double lines of equal width |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

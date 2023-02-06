@@ -29,6 +29,6 @@ The SmartTagOptions type exposes the following members:
 | [show_type](/cells/python-net/aspose.cells.markup/smarttagoptions/show_type) | Represents the show type of smart tag. |
 
 
-### See Also
 
-* module [aspose.cells.markup](../)
+### See Also
+* module [aspose.cells.markup](..)

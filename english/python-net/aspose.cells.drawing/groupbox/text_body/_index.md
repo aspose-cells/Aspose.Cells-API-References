@@ -22,7 +22,14 @@ fontSettingCollection = shape.text_body
 fontSettingCollection.text = "This is a test."
 
 ```
+### Definition:
+```python
+@property
+def text_body(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [FontSettingCollection](/cells/python-net/aspose.cells.drawing.texts/fontsettingcollection)
 * class [GroupBox](/cells/python-net/aspose.cells.drawing/groupbox)

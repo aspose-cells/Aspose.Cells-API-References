@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or gets the horizontal offset from its upper left corner column.
+### Definition:
+```python
+@property
+def x(self):
+    ...
+@x.setter
+def x(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

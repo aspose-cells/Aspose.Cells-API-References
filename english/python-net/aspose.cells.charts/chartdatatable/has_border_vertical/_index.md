@@ -12,6 +12,15 @@ is_root: false
 
 
 True if the chart data table has vertical cell borders
+### Definition:
+```python
+@property
+def has_border_vertical(self):
+    ...
+@has_border_vertical.setter
+def has_border_vertical(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

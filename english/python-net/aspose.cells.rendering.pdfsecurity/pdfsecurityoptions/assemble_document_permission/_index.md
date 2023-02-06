@@ -12,6 +12,15 @@ is_root: false
 
 
 Permission to insert, rotate, or delete pages and create bookmarks or thumbnail images even if ModifyDocumentPermission is not set.
+### Definition:
+```python
+@property
+def assemble_document_permission(self):
+    ...
+@assemble_document_permission.setter
+def assemble_document_permission(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering.pdfsecurity](../../)

@@ -34,6 +34,6 @@ The CalculationOptions type exposes the following members:
 | [recursive](/cells/python-net/aspose.cells/calculationoptions/recursive) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

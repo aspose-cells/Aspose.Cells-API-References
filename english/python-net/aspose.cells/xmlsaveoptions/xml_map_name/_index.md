@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether exporting xml map in the file.
+### Definition:
+```python
+@property
+def xml_map_name(self):
+    ...
+@xml_map_name.setter
+def xml_map_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

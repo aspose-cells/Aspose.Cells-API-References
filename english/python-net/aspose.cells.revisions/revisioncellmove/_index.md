@@ -32,7 +32,8 @@ The RevisionCellMove type exposes the following members:
 | [source_worksheet](/cells/python-net/aspose.cells.revisions/revisioncellmove/source_worksheet) | Gets the source worksheet. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionCellMove](/cells/python-net/aspose.cells.revisions/revisioncellmove)

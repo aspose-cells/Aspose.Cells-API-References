@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the data source of the pivot table.
+### Definition:
+```python
+@property
+def data_source(self):
+    ...
+@data_source.setter
+def data_source(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

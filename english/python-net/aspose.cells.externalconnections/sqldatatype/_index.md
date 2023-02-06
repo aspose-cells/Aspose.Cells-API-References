@@ -60,6 +60,6 @@ The SqlDataType type exposes the following members:
 | SQL_INTERVAL_MINUTE_TO_SECOND | sql interval minute to second |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)

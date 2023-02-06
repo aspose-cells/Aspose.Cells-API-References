@@ -12,6 +12,12 @@ is_root: false
 
 
 Returns true if the document is encrypted and requires a password to open.
+### Definition:
+```python
+@property
+def is_encrypted(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

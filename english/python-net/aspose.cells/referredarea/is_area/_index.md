@@ -17,6 +17,12 @@ Indicates whether this is an area.
 
 
 If this is not an area, only StartRow and StartColumn effect.
+### Definition:
+```python
+@property
+def is_area(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

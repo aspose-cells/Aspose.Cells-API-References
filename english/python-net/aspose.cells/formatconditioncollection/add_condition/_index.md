@@ -59,3 +59,5 @@ def add_condition(self, type, operator_type, formula1, formula2):
 ### See Also
 * module [aspose.cells](../../)
 * class [FormatConditionCollection](/cells/python-net/aspose.cells/formatconditioncollection)
+* class [FormatConditionType](/cells/python-net/aspose.cells/formatconditiontype)
+* class [OperatorType](/cells/python-net/aspose.cells/operatortype)

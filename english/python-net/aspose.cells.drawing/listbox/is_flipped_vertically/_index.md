@@ -22,6 +22,15 @@ if shape.is_flipped_vertically == False:
     shape.is_flipped_vertically = True
 
 ```
+### Definition:
+```python
+@property
+def is_flipped_vertically(self):
+    ...
+@is_flipped_vertically.setter
+def is_flipped_vertically(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

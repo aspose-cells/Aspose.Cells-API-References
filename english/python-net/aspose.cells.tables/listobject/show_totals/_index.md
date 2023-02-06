@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets whether this ListObject show total row.
+### Definition:
+```python
+@property
+def show_totals(self):
+    ...
+@show_totals.setter
+def show_totals(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.tables](../../)

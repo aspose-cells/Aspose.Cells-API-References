@@ -25,6 +25,6 @@ The SortOnType type exposes the following members:
 | ICON | Sorts by conditional icon. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

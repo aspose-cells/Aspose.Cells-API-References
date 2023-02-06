@@ -24,6 +24,6 @@ The OdsPageBackgroundGraphicType type exposes the following members:
 | TILE | Repeat and repeat the image. |
 
 
-### See Also
 
-* module [aspose.cells.ods](../)
+### See Also
+* module [aspose.cells.ods](..)

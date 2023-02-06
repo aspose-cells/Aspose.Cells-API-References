@@ -39,6 +39,6 @@ The FormatConditionType type exposes the following members:
 | ABOVE_AVERAGE | This conditional formatting rule highlights cells that<br/>are above or below the average for all values in the<br/>range. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

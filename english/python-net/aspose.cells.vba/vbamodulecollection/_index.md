@@ -57,6 +57,7 @@ vbaProject.modules.add(VbaModuleType.CLASS, "test")
 workbook.save("book1.xlsm")
 
 ```
-### See Also
 
-* module [aspose.cells.vba](../)
+### See Also
+* module [aspose.cells.vba](..)
+* class [VbaModule](/cells/python-net/aspose.cells.vba/vbamodule)

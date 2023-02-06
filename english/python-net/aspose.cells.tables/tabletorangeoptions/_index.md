@@ -28,6 +28,6 @@ The TableToRangeOptions type exposes the following members:
 | [last_row](/cells/python-net/aspose.cells.tables/tabletorangeoptions/last_row) | Gets and sets the last row index of the table. |
 
 
-### See Also
 
-* module [aspose.cells.tables](../)
+### See Also
+* module [aspose.cells.tables](..)

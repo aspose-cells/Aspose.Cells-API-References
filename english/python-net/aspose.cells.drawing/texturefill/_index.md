@@ -34,7 +34,8 @@ The TextureFill type exposes the following members:
 | [transparency](/cells/python-net/aspose.cells.drawing/texturefill/transparency) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
 * class [Fill](/cells/python-net/aspose.cells.drawing/fill)
+* class [TextureFill](/cells/python-net/aspose.cells.drawing/texturefill)

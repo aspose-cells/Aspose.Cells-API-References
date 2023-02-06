@@ -25,6 +25,6 @@ The TickLabelItem type exposes the following members:
 | [height](/cells/python-net/aspose.cells.charts/ticklabelitem/height) | Height of Ticklabel item in ratio of chart height. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

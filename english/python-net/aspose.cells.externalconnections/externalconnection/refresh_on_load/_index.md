@@ -12,6 +12,15 @@ is_root: false
 
 
 True if this connection should be refreshed when opening the file; otherwise, false.
+### Definition:
+```python
+@property
+def refresh_on_load(self):
+    ...
+@refresh_on_load.setter
+def refresh_on_load(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

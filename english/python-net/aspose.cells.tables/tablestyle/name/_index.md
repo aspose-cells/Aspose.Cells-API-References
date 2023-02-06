@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the name of table style.
+### Definition:
+```python
+@property
+def name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.tables](../../)

@@ -34,6 +34,6 @@ The PivotFieldSubtotalType type exposes the following members:
 | VARP | Represents Varp subtotal type. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

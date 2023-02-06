@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether this workbook is write protected.
+### Definition:
+```python
+@property
+def is_write_protected(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

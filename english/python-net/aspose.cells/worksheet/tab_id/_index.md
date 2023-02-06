@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies the internal identifier for the sheet.
+### Definition:
+```python
+@property
+def tab_id(self):
+    ...
+@tab_id.setter
+def tab_id(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

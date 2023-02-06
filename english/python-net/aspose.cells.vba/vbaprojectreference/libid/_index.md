@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the Libid of the reference.
+### Definition:
+```python
+@property
+def libid(self):
+    ...
+@libid.setter
+def libid(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.vba](../../)

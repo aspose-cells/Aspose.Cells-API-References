@@ -13,6 +13,12 @@ is_root: false
 
 Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method.
 Applies to Pie and Doughnut  chart.
+### Definition:
+```python
+@property
+def arc_start_point_y_px(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

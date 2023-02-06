@@ -26,6 +26,6 @@ The PivotOptions type exposes the following members:
 | [drop_zones_visible](/cells/python-net/aspose.cells.charts/pivotoptions/drop_zones_visible) | Specifies whether any pivot controls can appear on the pivot chart. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

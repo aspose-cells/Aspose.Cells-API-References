@@ -22,6 +22,15 @@ if shape.top_cm == 3:
     shape.top_cm = 1
 
 ```
+### Definition:
+```python
+@property
+def top_cm(self):
+    ...
+@top_cm.setter
+def top_cm(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

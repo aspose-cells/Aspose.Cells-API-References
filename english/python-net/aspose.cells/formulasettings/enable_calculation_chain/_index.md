@@ -23,6 +23,15 @@ and it also requires a bit more cpu time for some other operations such as chang
 After changing this property from false to true, the calculation chain will be analyzed and built
 at the time of first calculation for the workbook, so the required time for the first calculation
 may be more than normal calculation without chain.
+### Definition:
+```python
+@property
+def enable_calculation_chain(self):
+    ...
+@enable_calculation_chain.setter
+def enable_calculation_chain(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

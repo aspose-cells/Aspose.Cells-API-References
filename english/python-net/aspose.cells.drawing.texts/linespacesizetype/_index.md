@@ -23,6 +23,6 @@ The LineSpaceSizeType type exposes the following members:
 | POINTS | Represents in unit of points. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

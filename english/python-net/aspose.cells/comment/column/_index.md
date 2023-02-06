@@ -21,6 +21,12 @@ Gets the column index of the comment.
 column = comment1.column
 
 ```
+### Definition:
+```python
+@property
+def column(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

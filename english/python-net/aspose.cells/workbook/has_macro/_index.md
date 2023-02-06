@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates if this spreadsheet contains macro/VBA.
+### Definition:
+```python
+@property
+def has_macro(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

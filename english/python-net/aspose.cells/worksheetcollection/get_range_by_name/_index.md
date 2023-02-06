@@ -60,4 +60,5 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Range](/cells/python-net/aspose.cells/range)
 * class [WorksheetCollection](/cells/python-net/aspose.cells/worksheetcollection)

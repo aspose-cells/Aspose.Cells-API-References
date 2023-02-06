@@ -14,6 +14,15 @@ is_root: false
 The text value in a "text contains" conditional formatting rule. 
 Valid only for type = containsText, notContainsText, beginsWith and endsWith.
 The default value is null.
+### Definition:
+```python
+@property
+def text(self):
+    ...
+@text.setter
+def text(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

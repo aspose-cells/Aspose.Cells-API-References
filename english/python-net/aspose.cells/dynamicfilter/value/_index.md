@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the dynamic filter value.
+### Definition:
+```python
+@property
+def value(self):
+    ...
+@value.setter
+def value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 True if the chart data table has outline borders
+### Definition:
+```python
+@property
+def has_border_outline(self):
+    ...
+@has_border_outline.setter
+def has_border_outline(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

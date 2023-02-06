@@ -34,6 +34,6 @@ The OdsPageBackground type exposes the following members:
 | [graphic_data](/cells/python-net/aspose.cells.ods/odspagebackground/graphic_data) | Gets and sets the graphic data. |
 
 
-### See Also
 
-* module [aspose.cells.ods](../)
+### See Also
+* module [aspose.cells.ods](..)

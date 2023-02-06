@@ -23,7 +23,17 @@ if comment1.text_vertical_alignment == TextAlignmentType.FILL:
     comment1.text_vertical_alignment = TextAlignmentType.CENTER
 
 ```
+### Definition:
+```python
+@property
+def text_vertical_alignment(self):
+    ...
+@text_vertical_alignment.setter
+def text_vertical_alignment(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [Comment](/cells/python-net/aspose.cells/comment)
+* class [TextAlignmentType](/cells/python-net/aspose.cells/textalignmenttype)

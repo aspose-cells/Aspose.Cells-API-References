@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets bullet value
+### Definition:
+```python
+@property
+def bullet_value(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)
 * class [Bullet](/cells/python-net/aspose.cells.drawing.texts/bullet)
+* class [BulletValue](/cells/python-net/aspose.cells.drawing.texts/bulletvalue)

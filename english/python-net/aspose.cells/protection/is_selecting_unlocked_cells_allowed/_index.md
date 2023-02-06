@@ -20,6 +20,15 @@ NOTE: This member is now obsolete. Instead,
 please use Protection.AllowSelectingUnlockedCell property. 
 This property will be removed 12 months later since June 2010. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def is_selecting_unlocked_cells_allowed(self):
+    ...
+@is_selecting_unlocked_cells_allowed.setter
+def is_selecting_unlocked_cells_allowed(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

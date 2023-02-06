@@ -32,7 +32,8 @@ The RevisionInsertDelete type exposes the following members:
 | [revisions](/cells/python-net/aspose.cells.revisions/revisioninsertdelete/revisions) | Gets revision list by this operation. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionInsertDelete](/cells/python-net/aspose.cells.revisions/revisioninsertdelete)

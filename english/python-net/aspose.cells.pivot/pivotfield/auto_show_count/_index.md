@@ -13,6 +13,15 @@ is_root: false
 
 Represent the number of top or bottom items
 that are automatically shown in the specified PivotTable field.
+### Definition:
+```python
+@property
+def auto_show_count(self):
+    ...
+@auto_show_count.setter
+def auto_show_count(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -75,6 +75,7 @@ for column in columns:
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Column](/cells/python-net/aspose.cells/column)

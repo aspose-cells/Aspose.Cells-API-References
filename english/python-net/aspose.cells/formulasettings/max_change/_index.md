@@ -12,6 +12,15 @@ is_root: false
 
 
 The maximum change to resolve a circular reference.
+### Definition:
+```python
+@property
+def max_change(self):
+    ...
+@max_change.setter
+def max_change(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the second of the grouped date time.
+### Definition:
+```python
+@property
+def second(self):
+    ...
+@second.setter
+def second(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

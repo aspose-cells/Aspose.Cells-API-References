@@ -39,6 +39,6 @@ then a Row object representing this row will be provided for implementation to s
 For one row, [LightCellsDataProvider.next_cell()](/cells/python-net/aspose.cells/lightcellsdataprovider/next_cell) will be checked firstly. If a valid column index be returned(the column index must be in ascending order for all cells of one row to be saved),
 then a Cell object representing this cell will be provided for implementation to set its data and properties by [LightCellsDataProvider.start_cell(cell)](/cells/python-net/aspose.cells/lightcellsdataprovider/start_cell).
 After data of this cell is set, this cell will be saved directly to the generated spreadsheet file and the next cell will be checked and processed.
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

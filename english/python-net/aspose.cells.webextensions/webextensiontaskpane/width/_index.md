@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the default width value for this taskpane instance.
+### Definition:
+```python
+@property
+def width(self):
+    ...
+@width.setter
+def width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.webextensions](../../)

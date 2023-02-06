@@ -12,6 +12,15 @@ is_root: false
 
 
 True means that the header/footer of the first page is different with other pages.
+### Definition:
+```python
+@property
+def is_hf_diff_first(self):
+    ...
+@is_hf_diff_first.setter
+def is_hf_diff_first(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

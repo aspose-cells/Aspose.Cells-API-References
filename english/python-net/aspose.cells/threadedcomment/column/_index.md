@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the column index of the comment.
+### Definition:
+```python
+@property
+def column(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

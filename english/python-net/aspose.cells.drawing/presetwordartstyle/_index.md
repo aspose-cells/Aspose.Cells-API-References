@@ -41,6 +41,6 @@ The PresetWordArtStyle type exposes the following members:
 | WORD_ART_STYLE20 | Pattern Fill - Blue-Gray, Text 2, Dark Upward Diagonal, Hard Shadow - Text 2 |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

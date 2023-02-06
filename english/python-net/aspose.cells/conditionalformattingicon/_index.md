@@ -31,6 +31,6 @@ The ConditionalFormattingIcon type exposes the following members:
 | [get_image_data(cell)](/cells/python-net/aspose.cells/conditionalformattingicon/get_image_data/#Cell) | Gets the image data with the setting of cell. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

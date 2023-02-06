@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the default encoding.
+### Definition:
+```python
+@property
+def encoding(self):
+    ...
+@encoding.setter
+def encoding(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

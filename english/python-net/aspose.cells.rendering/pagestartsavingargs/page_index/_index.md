@@ -12,6 +12,12 @@ is_root: false
 
 
 Current page index, zero based.
+### Definition:
+```python
+@property
+def page_index(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

@@ -22,6 +22,6 @@ The ExportObjectEvent type exposes the following members:
 | [get_source()](/cells/python-net/aspose.cells/exportobjectevent/get_source/#) | Gets the object to be exported. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

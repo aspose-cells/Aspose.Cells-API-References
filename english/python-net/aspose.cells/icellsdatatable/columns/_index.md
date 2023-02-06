@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the columns' name.
+### Definition:
+```python
+@property
+def columns(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

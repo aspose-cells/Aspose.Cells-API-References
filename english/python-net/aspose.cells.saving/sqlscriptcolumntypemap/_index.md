@@ -29,6 +29,6 @@ The SqlScriptColumnTypeMap type exposes the following members:
 | [get_numberic_type()](/cells/python-net/aspose.cells.saving/sqlscriptcolumntypemap/get_numberic_type/#) | Gets numeric type in the database. |
 
 
-### See Also
 
-* module [aspose.cells.saving](../)
+### See Also
+* module [aspose.cells.saving](..)

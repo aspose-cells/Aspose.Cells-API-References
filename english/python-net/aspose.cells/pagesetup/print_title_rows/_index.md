@@ -22,6 +22,15 @@ pageSetup.print_title_rows = "$1:$1"
 pageSetup.print_title_rows = "$1:$1"
 
 ```
+### Definition:
+```python
+@property
+def print_title_rows(self):
+    ...
+@print_title_rows.setter
+def print_title_rows(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

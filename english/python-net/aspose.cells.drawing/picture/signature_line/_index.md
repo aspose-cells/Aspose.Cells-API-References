@@ -38,7 +38,17 @@ pic.signature_line = s
 workbook.save("result.xlsx")
 
 ```
+### Definition:
+```python
+@property
+def signature_line(self):
+    ...
+@signature_line.setter
+def signature_line(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [Picture](/cells/python-net/aspose.cells.drawing/picture)
+* class [SignatureLine](/cells/python-net/aspose.cells.drawing/signatureline)

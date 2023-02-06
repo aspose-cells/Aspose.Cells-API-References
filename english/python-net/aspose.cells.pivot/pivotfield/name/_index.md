@@ -12,6 +12,12 @@ is_root: false
 
 
 Represents the PivotField name.
+### Definition:
+```python
+@property
+def name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

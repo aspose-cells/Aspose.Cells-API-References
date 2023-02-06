@@ -92,6 +92,6 @@ pivot.calculate_data()
 book.save("out.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.timelines](../)
+### See Also
+* module [aspose.cells.timelines](..)

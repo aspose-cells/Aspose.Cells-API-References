@@ -17,6 +17,12 @@ Gets the index of the first row of the range.
 
 
 Only effects when it only contains one range.
+### Definition:
+```python
+@property
+def first_row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

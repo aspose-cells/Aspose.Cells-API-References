@@ -31,7 +31,8 @@ The RevisionQueryTable type exposes the following members:
 | [field_id](/cells/python-net/aspose.cells.revisions/revisionquerytable/field_id) | Gets ID of the specific query table field that was removed. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionQueryTable](/cells/python-net/aspose.cells.revisions/revisionquerytable)

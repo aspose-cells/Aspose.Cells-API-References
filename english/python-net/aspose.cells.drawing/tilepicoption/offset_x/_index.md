@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the X offset for tiling picture.
+### Definition:
+```python
+@property
+def offset_x(self):
+    ...
+@offset_x.setter
+def offset_x(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

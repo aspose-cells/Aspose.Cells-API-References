@@ -21,7 +21,14 @@ Gets line style
 lineFmt = shape.line
 
 ```
+### Definition:
+```python
+@property
+def line(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [GroupShape](/cells/python-net/aspose.cells.drawing/groupshape)
+* class [LineFormat](/cells/python-net/aspose.cells.drawing/lineformat)

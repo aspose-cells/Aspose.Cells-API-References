@@ -34,6 +34,6 @@ The DisplayUnitType type exposes the following members:
 | CUSTOM | specifies a custom value for the display unit. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

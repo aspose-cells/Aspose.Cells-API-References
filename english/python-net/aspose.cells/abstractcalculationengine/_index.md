@@ -37,6 +37,6 @@ User should not modify any part of the Workbook directly in this implementation(
 Otherwise unexpected result or Exception may be caused.
 If user needs to change other data than calculated result in the implementation for some custom functions,
 for example, change cell's formula, style, ...etc., user should gather those data in this implementation and change them out of the scope of formula calculation.
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

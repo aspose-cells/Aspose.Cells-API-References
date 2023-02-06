@@ -38,7 +38,17 @@ pdfSaveOptions.security_options = pdfSecurityOptions
 wb.save("output.pdf", pdfSaveOptions)
 
 ```
+### Definition:
+```python
+@property
+def security_options(self):
+    ...
+@security_options.setter
+def security_options(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [PdfSaveOptions](/cells/python-net/aspose.cells/pdfsaveoptions)
+* class [PdfSecurityOptions](/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions)

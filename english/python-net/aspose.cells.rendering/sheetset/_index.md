@@ -29,6 +29,6 @@ The SheetSet type exposes the following members:
 | [all](/cells/python-net/aspose.cells.rendering/sheetset/all) | Gets a set with all sheets of the workbook in their original order. |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

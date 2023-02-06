@@ -18,6 +18,15 @@ The default value is false.
 
 
 Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+### Definition:
+```python
+@property
+def update_smart_art(self):
+    ...
+@update_smart_art.setter
+def update_smart_art(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

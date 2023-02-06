@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the author.
+### Definition:
+```python
+@property
+def author(self):
+    ...
+@author.setter
+def author(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

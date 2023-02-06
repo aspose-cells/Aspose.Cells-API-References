@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the data source is vertical.
+### Definition:
+```python
+@property
+def is_vertical_values(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

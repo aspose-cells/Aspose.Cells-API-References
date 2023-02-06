@@ -22,6 +22,15 @@ if shape.is_locked:
     shape.is_locked = False
 
 ```
+### Definition:
+```python
+@property
+def is_locked(self):
+    ...
+@is_locked.setter
+def is_locked(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

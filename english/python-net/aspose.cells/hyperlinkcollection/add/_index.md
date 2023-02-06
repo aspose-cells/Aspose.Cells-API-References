@@ -102,4 +102,5 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Hyperlink](/cells/python-net/aspose.cells/hyperlink)
 * class [HyperlinkCollection](/cells/python-net/aspose.cells/hyperlinkcollection)

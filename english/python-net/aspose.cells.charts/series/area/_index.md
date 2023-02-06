@@ -12,7 +12,14 @@ is_root: false
 
 
 Represents the background area of Series object.
+### Definition:
+```python
+@property
+def area(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [Area](/cells/python-net/aspose.cells.drawing/area)
 * class [Series](/cells/python-net/aspose.cells.charts/series)

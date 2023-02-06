@@ -53,7 +53,8 @@ The JsonSaveOptions type exposes the following members:
 | [always_export_as_json_object](/cells/python-net/aspose.cells/jsonsaveoptions/always_export_as_json_object) | Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [JsonSaveOptions](/cells/python-net/aspose.cells/jsonsaveoptions)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)

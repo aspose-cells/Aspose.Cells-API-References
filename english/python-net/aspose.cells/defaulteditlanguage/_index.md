@@ -24,6 +24,6 @@ The DefaultEditLanguage type exposes the following members:
 | CJK | Represents Chinese, Japanese, Korean language. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

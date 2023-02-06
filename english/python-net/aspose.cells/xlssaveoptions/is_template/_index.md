@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether saving a template file.
+### Definition:
+```python
+@property
+def is_template(self):
+    ...
+@is_template.setter
+def is_template(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

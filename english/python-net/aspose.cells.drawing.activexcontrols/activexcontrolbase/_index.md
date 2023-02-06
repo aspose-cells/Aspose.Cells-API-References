@@ -34,6 +34,6 @@ The ActiveXControlBase type exposes the following members:
 | [data](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/data) | Gets and sets the binary data of the control. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

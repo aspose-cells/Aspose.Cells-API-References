@@ -3,7 +3,7 @@ title: value property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 700
+weight: 710
 url: /python-net/aspose.cells/cell/value/
 is_root: false
 ---
@@ -38,6 +38,15 @@ String.
 
 For int value, it may be returned as an Integer object or a Double object.
 And there is no guarantee that the returned value will be kept as the same type of object always.
+### Definition:
+```python
+@property
+def value(self):
+    ...
+@value.setter
+def value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

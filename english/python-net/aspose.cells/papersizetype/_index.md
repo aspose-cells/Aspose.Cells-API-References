@@ -141,6 +141,6 @@ The PaperSizeType type exposes the following members:
 | CUSTOM | Represents the custom paper size. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Represents the interval object for the group range.
+### Definition:
+```python
+@property
+def by(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

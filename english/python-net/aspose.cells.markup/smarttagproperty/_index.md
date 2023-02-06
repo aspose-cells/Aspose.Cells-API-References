@@ -23,6 +23,6 @@ The SmartTagProperty type exposes the following members:
 | [value](/cells/python-net/aspose.cells.markup/smarttagproperty/value) | Gets and sets the value of the property. |
 
 
-### See Also
 
-* module [aspose.cells.markup](../)
+### See Also
+* module [aspose.cells.markup](..)

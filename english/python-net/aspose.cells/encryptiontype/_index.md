@@ -27,6 +27,6 @@ The EncryptionType type exposes the following members:
 | STRONG_CRYPTOGRAPHIC_PROVIDER |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

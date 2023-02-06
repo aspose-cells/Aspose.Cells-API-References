@@ -59,21 +59,24 @@ The ScrollBarActiveXControl type exposes the following members:
 
 
 ```python
+from aspose import pycore
 from aspose.cells import Workbook
-from aspose.cells.drawing.activexcontrols import ControlType
-import aspose.pycore
+from aspose.cells.drawing.activexcontrols import ControlType, ScrollBarActiveXControl
 
 # Initialize a new workbook.
 book = Workbook()
 # Add a ToggleButtonActiveXControl.
 shape = book.worksheets[0].shapes.add_active_x_control(ControlType.SCROLL_BAR, 1, 0, 1, 0, 100, 50)
-activeXControl = aspose.pycore.cast(Aspose.Cells.Drawing.ActiveXControls.ScrollBarActiveXControl, shape.active_x_control)
+activeXControl = pycore.cast(ScrollBarActiveXControl, shape.active_x_control)
 # do your business
 # Save the excel file.
 book.save("exmaple.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)
+* class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
+* class [ActiveXControlBase](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase)
+* class [ScrollBarActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol)
 * class [SpinButtonActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol)

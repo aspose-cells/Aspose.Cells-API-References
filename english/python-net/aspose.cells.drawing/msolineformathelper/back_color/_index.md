@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the border line back color.
+### Definition:
+```python
+@property
+def back_color(self):
+    ...
+@back_color.setter
+def back_color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

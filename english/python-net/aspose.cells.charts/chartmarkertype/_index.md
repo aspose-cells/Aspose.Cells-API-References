@@ -33,6 +33,6 @@ The ChartMarkerType type exposes the following members:
 | PICTURE | Picture |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

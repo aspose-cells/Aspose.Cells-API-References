@@ -113,4 +113,5 @@ This method is used to add a horizontal pagebreak within a print area.
 
 ### See Also
 * module [aspose.cells](../../)
+* class [HorizontalPageBreak](/cells/python-net/aspose.cells/horizontalpagebreak)
 * class [HorizontalPageBreakCollection](/cells/python-net/aspose.cells/horizontalpagebreakcollection)

@@ -12,7 +12,17 @@ is_root: false
 
 
 Look at type.
+### Definition:
+```python
+@property
+def look_at_type(self):
+    ...
+@look_at_type.setter
+def look_at_type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [FindOptions](/cells/python-net/aspose.cells/findoptions)
+* class [LookAtType](/cells/python-net/aspose.cells/lookattype)

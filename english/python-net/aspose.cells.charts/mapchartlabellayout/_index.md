@@ -24,6 +24,6 @@ The MapChartLabelLayout type exposes the following members:
 | NONE | No labels. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

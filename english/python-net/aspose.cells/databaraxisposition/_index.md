@@ -24,6 +24,6 @@ The DataBarAxisPosition type exposes the following members:
 | NONE | No axis is displayed, and both positive and negative values are displayed in the left-to-right direction. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

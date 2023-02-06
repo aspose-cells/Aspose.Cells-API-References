@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the height of the specified timeline, in pixels.
+### Definition:
+```python
+@property
+def height_pixel(self):
+    ...
+@height_pixel.setter
+def height_pixel(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.timelines](../../)

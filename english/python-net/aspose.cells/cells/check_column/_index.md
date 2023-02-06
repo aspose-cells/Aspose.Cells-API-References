@@ -34,3 +34,4 @@ def check_column(self, column_index):
 ### See Also
 * module [aspose.cells](../../)
 * class [Cells](/cells/python-net/aspose.cells/cells)
+* class [Column](/cells/python-net/aspose.cells/column)

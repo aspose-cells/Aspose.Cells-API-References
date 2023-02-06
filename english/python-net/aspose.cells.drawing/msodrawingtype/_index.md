@@ -50,6 +50,6 @@ The MsoDrawingType type exposes the following members:
 | MODEL_3D | 3D Model |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the width of the specified timeline, in pixels.
+### Definition:
+```python
+@property
+def width_pixel(self):
+    ...
+@width_pixel.setter
+def width_pixel(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.timelines](../../)

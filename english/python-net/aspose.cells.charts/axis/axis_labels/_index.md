@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the labels of the axis after call Chart.Calculate() method.
+### Definition:
+```python
+@property
+def axis_labels(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

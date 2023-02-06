@@ -23,7 +23,8 @@ guide that will be used to govern the geometry of the specified shape
 
 The VmlShapeGuide type exposes the following members:
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
 * class [BaseShapeGuide](/cells/python-net/aspose.cells.drawing/baseshapeguide)
+* class [VmlShapeGuide](/cells/python-net/aspose.cells.drawing/vmlshapeguide)

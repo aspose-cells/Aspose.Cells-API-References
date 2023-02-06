@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether importing xml as multiple worksheets.
+### Definition:
+```python
+@property
+def contains_multiple_worksheets(self):
+    ...
+@contains_multiple_worksheets.setter
+def contains_multiple_worksheets(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

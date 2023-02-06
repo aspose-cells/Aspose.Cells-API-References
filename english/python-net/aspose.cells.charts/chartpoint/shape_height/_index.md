@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the height in units of 1/4000 of chart's height after calls Chart.Calculate() method.
+### Definition:
+```python
+@property
+def shape_height(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

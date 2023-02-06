@@ -3,7 +3,7 @@ title: over_lay property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.cells.charts/title/over_lay/
 is_root: false
 ---
@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents overlay centered title on chart without resizing chart.
+### Definition:
+```python
+@property
+def over_lay(self):
+    ...
+@over_lay.setter
+def over_lay(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

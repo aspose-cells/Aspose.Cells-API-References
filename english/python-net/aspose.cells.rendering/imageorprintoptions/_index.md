@@ -91,6 +91,6 @@ book = Workbook("test.xls")
 book.worksheets[0].charts[0].to_image("chart.png", options)
 
 ```
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

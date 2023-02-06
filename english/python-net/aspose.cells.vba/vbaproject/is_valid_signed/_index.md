@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the signature of VBA project is valid or not.
+### Definition:
+```python
+@property
+def is_valid_signed(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.vba](../../)

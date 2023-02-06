@@ -21,6 +21,15 @@ Indicates whether the specified slicer can be moved or resized by using the user
 slicer.locked_position = False
 
 ```
+### Definition:
+```python
+@property
+def locked_position(self):
+    ...
+@locked_position.setter
+def locked_position(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

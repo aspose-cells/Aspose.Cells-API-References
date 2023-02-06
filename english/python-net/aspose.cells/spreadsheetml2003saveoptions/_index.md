@@ -47,7 +47,8 @@ The SpreadsheetML2003SaveOptions type exposes the following members:
 | [export_column_index_of_cell](/cells/python-net/aspose.cells/spreadsheetml2003saveoptions/export_column_index_of_cell) | The default value is false, it means that column index  will be ignored if the cell is contiguous to the previous cell. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)
+* class [SpreadsheetML2003SaveOptions](/cells/python-net/aspose.cells/spreadsheetml2003saveoptions)

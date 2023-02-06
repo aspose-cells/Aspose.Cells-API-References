@@ -12,6 +12,15 @@ is_root: false
 
 
 The height of the window, in unit of point.
+### Definition:
+```python
+@property
+def window_height(self):
+    ...
+@window_height.setter
+def window_height(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

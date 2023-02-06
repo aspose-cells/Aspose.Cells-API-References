@@ -51,6 +51,6 @@ The MsoPresetTextEffect type exposes the following members:
 | TEXT_EFFECT30 | TextEffect30 |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

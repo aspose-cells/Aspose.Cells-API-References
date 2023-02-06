@@ -33,6 +33,6 @@ The ControlType type exposes the following members:
 | UNKNOWN | Unknown |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

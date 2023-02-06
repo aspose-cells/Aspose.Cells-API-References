@@ -66,6 +66,6 @@ table.table_style_name = tableStyleName
 workbook.save(r"Book1.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.tables](../)
+### See Also
+* module [aspose.cells.tables](..)

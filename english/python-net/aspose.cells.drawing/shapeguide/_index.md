@@ -28,7 +28,8 @@ The ShapeGuide type exposes the following members:
 | [value](/cells/python-net/aspose.cells.drawing/shapeguide/value) | Gets or sets value of this guide |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
 * class [BaseShapeGuide](/cells/python-net/aspose.cells.drawing/baseshapeguide)
+* class [ShapeGuide](/cells/python-net/aspose.cells.drawing/shapeguide)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Permission to copy or extract content Obsoleted according to PDF reference.
+### Definition:
+```python
+@property
+def extract_content_permission_obsolete(self):
+    ...
+@extract_content_permission_obsolete.setter
+def extract_content_permission_obsolete(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering.pdfsecurity](../../)

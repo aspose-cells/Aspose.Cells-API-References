@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the graphic data.
+### Definition:
+```python
+@property
+def graphic_data(self):
+    ...
+@graphic_data.setter
+def graphic_data(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.ods](../../)

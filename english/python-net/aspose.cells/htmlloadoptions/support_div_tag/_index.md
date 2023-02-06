@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether support the layout of <div> tag when the html file contains <div> tags. The default value is false.
+### Definition:
+```python
+@property
+def support_div_tag(self):
+    ...
+@support_div_tag.setter
+def support_div_tag(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

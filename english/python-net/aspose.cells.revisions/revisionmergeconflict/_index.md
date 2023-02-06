@@ -29,7 +29,8 @@ The RevisionMergeConflict type exposes the following members:
 | [id](/cells/python-net/aspose.cells.revisions/revisionmergeconflict/id) | Gets the number of this revision. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionMergeConflict](/cells/python-net/aspose.cells.revisions/revisionmergeconflict)

@@ -26,6 +26,6 @@ The ColorType type exposes the following members:
 | THEME | The theme color. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

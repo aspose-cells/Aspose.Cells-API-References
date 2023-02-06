@@ -12,6 +12,15 @@ is_root: false
 
 
 
+### Definition:
+```python
+@property
+def criteria(self):
+    ...
+@criteria.setter
+def criteria(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

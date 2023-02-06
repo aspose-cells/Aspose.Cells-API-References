@@ -24,6 +24,6 @@ The PowerQueryFormula type exposes the following members:
 | [power_query_formula_items](/cells/python-net/aspose.cells.querytables/powerqueryformula/power_query_formula_items) | Gets all items of power query formula. |
 
 
-### See Also
 
-* module [aspose.cells.querytables](../)
+### See Also
+* module [aspose.cells.querytables](..)

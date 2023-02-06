@@ -21,7 +21,14 @@ Gets and sets 3d format of the shape.
 threeDFormat = shape.three_d_format
 
 ```
+### Definition:
+```python
+@property
+def three_d_format(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [TextBox](/cells/python-net/aspose.cells.drawing/textbox)
+* class [ThreeDFormat](/cells/python-net/aspose.cells.drawing/threedformat)

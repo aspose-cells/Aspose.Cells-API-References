@@ -52,6 +52,7 @@ workbook.content_type_properties.add("Admin", "Aspose", "text")
 workbook.save("book1.xlsm")
 
 ```
-### See Also
 
-* module [aspose.cells.properties](../)
+### See Also
+* module [aspose.cells.properties](..)
+* class [ContentTypeProperty](/cells/python-net/aspose.cells.properties/contenttypeproperty)

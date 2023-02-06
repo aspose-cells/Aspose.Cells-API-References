@@ -22,6 +22,15 @@ if shape.relative_to_original_picture_size:
     shape.relative_to_original_picture_size = False
 
 ```
+### Definition:
+```python
+@property
+def relative_to_original_picture_size(self):
+    ...
+@relative_to_original_picture_size.setter
+def relative_to_original_picture_size(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

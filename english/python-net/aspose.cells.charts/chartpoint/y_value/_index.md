@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the Y value of the chart point.
+### Definition:
+```python
+@property
+def y_value(self):
+    ...
+@y_value.setter
+def y_value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

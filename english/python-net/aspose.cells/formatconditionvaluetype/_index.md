@@ -29,6 +29,6 @@ The FormatConditionValueType type exposes the following members:
 | AUTOMATIC_MIN | Indicates that the Automatic minimum value in the range shall be<br/>used as the Automatic minimum value for the gradient. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -71,6 +71,7 @@ line.display_r_squared = True
 line.color = Color.red
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

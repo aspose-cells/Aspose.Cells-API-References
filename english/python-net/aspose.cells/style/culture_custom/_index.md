@@ -3,7 +3,7 @@ title: culture_custom property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.cells/style/culture_custom/
 is_root: false
 ---
@@ -24,6 +24,15 @@ some locales is using character other than 'y' to represent the year part for da
 are culture-dependent;
 For user specified custom format, only format specifiers are changed according to the culture,
 other parts of the formatting pattern will not be modified.
+### Definition:
+```python
+@property
+def culture_custom(self):
+    ...
+@culture_custom.setter
+def culture_custom(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

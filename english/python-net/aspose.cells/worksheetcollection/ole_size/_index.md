@@ -17,6 +17,15 @@ Gets and Sets displayed size when Workbook file is used as an Ole object.
 
 
 Null means no ole size setting.
+### Definition:
+```python
+@property
+def ole_size(self):
+    ...
+@ole_size.setter
+def ole_size(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

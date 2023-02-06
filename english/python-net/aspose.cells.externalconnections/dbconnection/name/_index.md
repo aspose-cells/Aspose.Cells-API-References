@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies the name of the connection. Each connection must have a unique name.
+### Definition:
+```python
+@property
+def name(self):
+    ...
+@name.setter
+def name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

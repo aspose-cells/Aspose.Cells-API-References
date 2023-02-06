@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the minor unit of the axis is automatically assigned.
+### Definition:
+```python
+@property
+def is_automatic_minor_unit(self):
+    ...
+@is_automatic_minor_unit.setter
+def is_automatic_minor_unit(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

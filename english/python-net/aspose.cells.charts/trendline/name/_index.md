@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns the name of the trendline.
+### Definition:
+```python
+@property
+def name(self):
+    ...
+@name.setter
+def name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

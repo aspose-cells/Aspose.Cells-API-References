@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the searched key is regex. If true then the searched key will be taken as regex.
+### Definition:
+```python
+@property
+def regex_key(self):
+    ...
+@regex_key.setter
+def regex_key(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

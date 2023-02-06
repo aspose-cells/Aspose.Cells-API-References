@@ -73,6 +73,7 @@ validation.formula1 = "3"
 validation.formula2 = "1234"
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [CellArea](/cells/python-net/aspose.cells/cellarea)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Hide formula setting will be applied.
+### Definition:
+```python
+@property
+def hide_formula(self):
+    ...
+@hide_formula.setter
+def hide_formula(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

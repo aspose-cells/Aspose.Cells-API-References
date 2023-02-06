@@ -12,6 +12,15 @@ is_root: false
 
 
 Font strikeout setting will be applied.
+### Definition:
+```python
+@property
+def font_strike(self):
+    ...
+@font_strike.setter
+def font_strike(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

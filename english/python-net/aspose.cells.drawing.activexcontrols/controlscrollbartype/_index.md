@@ -25,6 +25,6 @@ The ControlScrollBarType type exposes the following members:
 | BARS_BOTH | Displays both a horizontal and a vertical scroll bar. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

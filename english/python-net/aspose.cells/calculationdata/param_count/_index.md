@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the count of parameters
+### Definition:
+```python
+@property
+def param_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

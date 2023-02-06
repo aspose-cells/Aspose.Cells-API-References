@@ -36,6 +36,7 @@ Gets the [TextParagraph](/cells/python-net/aspose.cells.drawing.texts/textparagr
 | [get_enumerator()](/cells/python-net/aspose.cells.drawing.texts/textparagraphcollection/get_enumerator/#) | Gets the enumerator of the paragraphs. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)
+* class [TextParagraph](/cells/python-net/aspose.cells.drawing.texts/textparagraph)

@@ -48,6 +48,6 @@ shape = workbook.worksheets[0].shapes.add_rectangle(1, 0, 1, 0, 50, 100)
 shapeTextAlignment = shape.text_body.text_alignment
 
 ```
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

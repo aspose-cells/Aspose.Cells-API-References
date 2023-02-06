@@ -24,6 +24,6 @@ The ControlPictureSizeMode type exposes the following members:
 | ZOOM | Enlarges the picture, but does not distort the picture in either the horizontal or vertical direction. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

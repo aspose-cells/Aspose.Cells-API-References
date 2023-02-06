@@ -25,6 +25,6 @@ The MirrorType type exposes the following members:
 | BOTH | Both |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

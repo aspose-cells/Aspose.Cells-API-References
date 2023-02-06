@@ -27,6 +27,15 @@ if shape.upper_delta_y == 3:
     shape.upper_delta_y = 1
 
 ```
+### Definition:
+```python
+@property
+def upper_delta_y(self):
+    ...
+@upper_delta_y.setter
+def upper_delta_y(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 indicates whether the application last saved the workbook file after a crash.
+### Definition:
+```python
+@property
+def crash_save(self):
+    ...
+@crash_save.setter
+def crash_save(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

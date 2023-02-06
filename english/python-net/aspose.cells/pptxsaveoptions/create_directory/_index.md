@@ -3,7 +3,7 @@ title: create_directory property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 50
+weight: 80
 url: /python-net/aspose.cells/pptxsaveoptions/create_directory/
 is_root: false
 ---
@@ -17,6 +17,15 @@ If true and the directory does not exist, the directory will be automatically cr
 
 
 The default value is false.
+### Definition:
+```python
+@property
+def create_directory(self):
+    ...
+@create_directory.setter
+def create_directory(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -21,6 +21,15 @@ Indicates if size of shape is adjusted automatically according to its content.
 shapeTextAlignment.auto_size = False
 
 ```
+### Definition:
+```python
+@property
+def auto_size(self):
+    ...
+@auto_size.setter
+def auto_size(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

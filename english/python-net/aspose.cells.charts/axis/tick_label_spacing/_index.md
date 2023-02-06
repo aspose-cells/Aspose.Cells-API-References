@@ -17,6 +17,15 @@ Represents the number of categories or series between tick-mark labels. Applies 
 
 
 The number must be between 1 and 31999.
+### Definition:
+```python
+@property
+def tick_label_spacing(self):
+    ...
+@tick_label_spacing.setter
+def tick_label_spacing(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

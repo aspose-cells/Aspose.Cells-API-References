@@ -17,6 +17,15 @@ Gets and sets the start cell.
 
 
 Only works when the file is not speadsheetML or mapping xml to Excel.
+### Definition:
+```python
+@property
+def start_cell(self):
+    ...
+@start_cell.setter
+def start_cell(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

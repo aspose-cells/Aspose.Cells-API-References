@@ -54,6 +54,7 @@ workbook = Workbook("book1.xls")
 workbook.worksheets.external_links[0].data_source = "d:\\link.xls"
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [ExternalLink](/cells/python-net/aspose.cells/externallink)

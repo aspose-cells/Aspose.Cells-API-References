@@ -53,6 +53,7 @@ worksheet = workbook.worksheets[0]
 row = worksheet.cells.rows[0]
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Row](/cells/python-net/aspose.cells/row)

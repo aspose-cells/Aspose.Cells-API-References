@@ -21,6 +21,15 @@ Returns the right margin in unit of Points
 shapeTextAlignment.right_margin_pt = 2.0
 
 ```
+### Definition:
+```python
+@property
+def right_margin_pt(self):
+    ...
+@right_margin_pt.setter
+def right_margin_pt(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

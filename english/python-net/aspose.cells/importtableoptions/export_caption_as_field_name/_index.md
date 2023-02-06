@@ -17,6 +17,15 @@ Indicates whether exporting caption as field name
 
 
 Only works for DataTable.
+### Definition:
+```python
+@property
+def export_caption_as_field_name(self):
+    ...
+@export_caption_as_field_name.setter
+def export_caption_as_field_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

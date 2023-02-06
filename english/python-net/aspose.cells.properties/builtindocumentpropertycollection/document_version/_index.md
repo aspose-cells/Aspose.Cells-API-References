@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the version of the file.
+### Definition:
+```python
+@property
+def document_version(self):
+    ...
+@document_version.setter
+def document_version(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether to highlight the negative values on the sparkline group with a different color or marker.
+### Definition:
+```python
+@property
+def show_negative_points(self):
+    ...
+@show_negative_points.setter
+def show_negative_points(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

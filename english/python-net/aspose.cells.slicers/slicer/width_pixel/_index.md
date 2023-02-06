@@ -21,6 +21,15 @@ Returns or sets the width of the specified slicer, in pixels.
 slicer.width_pixel = 120
 
 ```
+### Definition:
+```python
+@property
+def width_pixel(self):
+    ...
+@width_pixel.setter
+def width_pixel(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

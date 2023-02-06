@@ -34,4 +34,5 @@ def create_range(self, address, sheet_index):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Range](/cells/python-net/aspose.cells/range)
 * class [WorksheetCollection](/cells/python-net/aspose.cells/worksheetcollection)

@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the group range of the pivot field
+### Definition:
+```python
+@property
+def range(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)
 * class [PivotField](/cells/python-net/aspose.cells.pivot/pivotfield)
+* class [SxRng](/cells/python-net/aspose.cells.pivot/sxrng)

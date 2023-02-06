@@ -12,6 +12,15 @@ is_root: false
 
 
 The purpose to signature.
+### Definition:
+```python
+@property
+def comments(self):
+    ...
+@comments.setter
+def comments(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.digitalsignatures](../../)

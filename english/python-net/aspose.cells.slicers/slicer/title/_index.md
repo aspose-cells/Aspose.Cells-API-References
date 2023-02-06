@@ -21,6 +21,15 @@ Specifies the title of the current Slicer object.
 slicer.title = "slicer title"
 
 ```
+### Definition:
+```python
+@property
+def title(self):
+    ...
+@title.setter
+def title(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

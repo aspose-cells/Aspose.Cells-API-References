@@ -17,6 +17,15 @@ Gets and sets the ole color of the foreground.
 
 
 Not applies to Image control.
+### Definition:
+```python
+@property
+def fore_ole_color(self):
+    ...
+@fore_ole_color.setter
+def fore_ole_color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

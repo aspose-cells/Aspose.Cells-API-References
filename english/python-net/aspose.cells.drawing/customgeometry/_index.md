@@ -28,7 +28,8 @@ The CustomGeometry type exposes the following members:
 | [paths](/cells/python-net/aspose.cells.drawing/customgeometry/paths) | Gets path collection information when shape is a NotPrimitive autoshape |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [CustomGeometry](/cells/python-net/aspose.cells.drawing/customgeometry)
 * class [Geometry](/cells/python-net/aspose.cells.drawing/geometry)

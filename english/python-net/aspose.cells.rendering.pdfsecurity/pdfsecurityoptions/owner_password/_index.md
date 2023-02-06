@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the owner password of the document
+### Definition:
+```python
+@property
+def owner_password(self):
+    ...
+@owner_password.setter
+def owner_password(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering.pdfsecurity](../../)

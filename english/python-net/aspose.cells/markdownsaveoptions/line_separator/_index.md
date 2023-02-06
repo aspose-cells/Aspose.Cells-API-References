@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the line separator.
+### Definition:
+```python
+@property
+def line_separator(self):
+    ...
+@line_separator.setter
+def line_separator(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

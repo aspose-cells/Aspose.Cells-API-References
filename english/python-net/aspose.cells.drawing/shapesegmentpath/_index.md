@@ -23,6 +23,6 @@ The ShapeSegmentPath type exposes the following members:
 | [points](/cells/python-net/aspose.cells.drawing/shapesegmentpath/points) | Gets the points in path segment |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -19,6 +19,15 @@ Fully calculates every time when a calculation is triggered.
 NOTE: This member is now obsolete. Instead, please use FormulaSettings.ForceFullCalculation.
 This property will be removed 12 months later since February 2022. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def force_full_calculate(self):
+    ...
+@force_full_calculate.setter
+def force_full_calculate(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

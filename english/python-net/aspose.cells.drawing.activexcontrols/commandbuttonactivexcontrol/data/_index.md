@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets and sets the binary data of the control.
+### Definition:
+```python
+@property
+def data(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates which sheet this reference is in.
+### Definition:
+```python
+@property
+def sheet_name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

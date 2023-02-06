@@ -24,6 +24,6 @@ The Bevel type exposes the following members:
 | [type](/cells/python-net/aspose.cells.drawing/bevel/type) | Gets and sets the preset bevel type. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

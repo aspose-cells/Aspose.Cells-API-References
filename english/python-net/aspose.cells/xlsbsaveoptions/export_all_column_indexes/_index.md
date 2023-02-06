@@ -17,6 +17,15 @@ Indicates whether exporting all column indexes for cells.
 
 
 The default value is true.
+### Definition:
+```python
+@property
+def export_all_column_indexes(self):
+    ...
+@export_all_column_indexes.setter
+def export_all_column_indexes(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

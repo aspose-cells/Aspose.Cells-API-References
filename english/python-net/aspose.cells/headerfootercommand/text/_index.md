@@ -17,6 +17,12 @@ Gets the text of the command.
 
 
 Only valid for HeaderFooterCommandType.Text.
+### Definition:
+```python
+@property
+def text(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

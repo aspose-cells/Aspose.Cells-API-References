@@ -30,7 +30,17 @@ pdfSaveOptions.sheet_set = SheetSet([activeSheetIndex])
 workbook.save("output.pdf", pdfSaveOptions)
 
 ```
+### Definition:
+```python
+@property
+def sheet_set(self):
+    ...
+@sheet_set.setter
+def sheet_set(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [PaginatedSaveOptions](/cells/python-net/aspose.cells/paginatedsaveoptions)
+* class [SheetSet](/cells/python-net/aspose.cells.rendering/sheetset)

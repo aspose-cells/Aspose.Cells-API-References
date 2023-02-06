@@ -57,6 +57,6 @@ The StyleFlag type exposes the following members:
 | [quote_prefix](/cells/python-net/aspose.cells/styleflag/quote_prefix) | Hide formula setting will be applied. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

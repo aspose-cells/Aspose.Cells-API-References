@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the hour of the grouped date time.
+### Definition:
+```python
+@property
+def hour(self):
+    ...
+@hour.setter
+def hour(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

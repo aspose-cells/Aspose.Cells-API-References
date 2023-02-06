@@ -13,6 +13,15 @@ is_root: false
 
 Indicate the filename of embedded image in svg. 
 This should be full path with directory like "c:\\xpsEmbedded"
+### Definition:
+```python
+@property
+def embeded_image_name_in_svg(self):
+    ...
+@embeded_image_name_in_svg.setter
+def embeded_image_name_in_svg(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

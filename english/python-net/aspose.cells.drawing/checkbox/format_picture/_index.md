@@ -21,7 +21,14 @@ Gets and sets the options of the picture format.
 msoFormatPicture = shape.format_picture
 
 ```
+### Definition:
+```python
+@property
+def format_picture(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [CheckBox](/cells/python-net/aspose.cells.drawing/checkbox)
+* class [MsoFormatPicture](/cells/python-net/aspose.cells.drawing/msoformatpicture)

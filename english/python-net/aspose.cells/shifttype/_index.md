@@ -26,6 +26,6 @@ The ShiftType type exposes the following members:
 | UP | Shift cells up. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

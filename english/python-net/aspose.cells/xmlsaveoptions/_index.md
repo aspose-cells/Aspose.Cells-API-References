@@ -47,7 +47,8 @@ The XmlSaveOptions type exposes the following members:
 | [xml_map_name](/cells/python-net/aspose.cells/xmlsaveoptions/xml_map_name) | Indicates whether exporting xml map in the file. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)
+* class [XmlSaveOptions](/cells/python-net/aspose.cells/xmlsaveoptions)

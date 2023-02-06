@@ -3,7 +3,7 @@ title: name property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 330
+weight: 340
 url: /python-net/aspose.cells/style/name/
 is_root: false
 ---
@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the name of the style.
+### Definition:
+```python
+@property
+def name(self):
+    ...
+@name.setter
+def name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

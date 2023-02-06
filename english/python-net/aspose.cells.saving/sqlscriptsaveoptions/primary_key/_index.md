@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents which column is primary key of the data table.
+### Definition:
+```python
+@property
+def primary_key(self):
+    ...
+@primary_key.setter
+def primary_key(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.saving](../../)

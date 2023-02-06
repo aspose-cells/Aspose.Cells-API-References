@@ -12,6 +12,12 @@ is_root: false
 
 
 Binary font data.
+### Definition:
+```python
+@property
+def font_data(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

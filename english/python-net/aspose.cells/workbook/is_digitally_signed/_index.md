@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates if this spreadsheet is digitally signed.
+### Definition:
+```python
+@property
+def is_digitally_signed(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -22,6 +22,15 @@ if shape.y == 3:
     shape.y = 1
 
 ```
+### Definition:
+```python
+@property
+def y(self):
+    ...
+@y.setter
+def y(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

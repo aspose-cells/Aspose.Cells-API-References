@@ -32,6 +32,12 @@ picHeightCM = pic.original_height_cm
 workbook.save("result.xlsx")
 
 ```
+### Definition:
+```python
+@property
+def original_height_cm(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

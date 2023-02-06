@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the worksheets is protected with password.
+### Definition:
+```python
+@property
+def is_protected_with_password(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

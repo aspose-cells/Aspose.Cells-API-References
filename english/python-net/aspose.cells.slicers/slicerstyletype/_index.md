@@ -36,6 +36,6 @@ The SlicerStyleType type exposes the following members:
 | CUSTOM | user-defined style, unsupported for now |
 
 
-### See Also
 
-* module [aspose.cells.slicers](../)
+### See Also
+* module [aspose.cells.slicers](..)

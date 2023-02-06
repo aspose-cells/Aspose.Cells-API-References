@@ -25,6 +25,6 @@ The AutoFitMergedCellsType type exposes the following members:
 | EACH_LINE | Only expands the height of each row. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -24,6 +24,6 @@ The DynamicFilter type exposes the following members:
 | [max_value](/cells/python-net/aspose.cells/dynamicfilter/max_value) | Gets and sets the dynamic filter max value. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

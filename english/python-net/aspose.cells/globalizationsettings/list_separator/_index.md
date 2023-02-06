@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the separator for list, parameters of function, ...etc.
+### Definition:
+```python
+@property
+def list_separator(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

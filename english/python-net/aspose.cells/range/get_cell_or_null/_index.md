@@ -34,4 +34,5 @@ def get_cell_or_null(self, row_offset, column_offset):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Cell](/cells/python-net/aspose.cells/cell)
 * class [Range](/cells/python-net/aspose.cells/range)

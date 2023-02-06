@@ -22,6 +22,15 @@ if shape.text == None:
     shape.text = "This is a test."
 
 ```
+### Definition:
+```python
+@property
+def text(self):
+    ...
+@text.setter
+def text(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

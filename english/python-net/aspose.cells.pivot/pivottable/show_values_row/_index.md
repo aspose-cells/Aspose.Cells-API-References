@@ -13,6 +13,15 @@ is_root: false
 
 Specifies a boolean value that indicates whether show values row.
 show the values row
+### Definition:
+```python
+@property
+def show_values_row(self):
+    ...
+@show_values_row.setter
+def show_values_row(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

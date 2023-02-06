@@ -30,6 +30,6 @@ The MsoLineDashStyle type exposes the following members:
 | CUSTOM | Custom dash style. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -46,6 +46,6 @@ vbaModule.codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub
 workbook.save("book1.xlsm")
 
 ```
-### See Also
 
-* module [aspose.cells.vba](../)
+### See Also
+* module [aspose.cells.vba](..)

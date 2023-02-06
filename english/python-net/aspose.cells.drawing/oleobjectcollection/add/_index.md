@@ -64,4 +64,5 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [OleObject](/cells/python-net/aspose.cells.drawing/oleobject)
 * class [OleObjectCollection](/cells/python-net/aspose.cells.drawing/oleobjectcollection)

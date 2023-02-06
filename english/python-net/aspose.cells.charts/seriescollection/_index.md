@@ -94,6 +94,8 @@ chart.n_series.category_data = "C1:C4"
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Series](/cells/python-net/aspose.cells.charts/series)
+* class [SeriesCollection](/cells/python-net/aspose.cells.charts/seriescollection)

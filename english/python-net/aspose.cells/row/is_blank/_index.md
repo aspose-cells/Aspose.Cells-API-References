@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the row contains any data
+### Definition:
+```python
+@property
+def is_blank(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

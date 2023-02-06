@@ -12,6 +12,15 @@ is_root: false
 
 
 True if zero values are displayed.
+### Definition:
+```python
+@property
+def display_zeros(self):
+    ...
+@display_zeros.setter
+def display_zeros(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -174,7 +174,11 @@ rectangle = shapes.add_rectangle(2, 0, 2, 0, 130, 130)
 workbook.save("result.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
+* class [RectangleShape](/cells/python-net/aspose.cells.drawing/rectangleshape)
+* class [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 * class [Shape](/cells/python-net/aspose.cells.drawing/shape)

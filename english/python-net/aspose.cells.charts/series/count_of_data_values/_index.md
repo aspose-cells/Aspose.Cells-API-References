@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the number of the data values.
+### Definition:
+```python
+@property
+def count_of_data_values(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

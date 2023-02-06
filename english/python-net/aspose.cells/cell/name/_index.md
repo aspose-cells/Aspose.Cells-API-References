@@ -3,7 +3,7 @@ title: name property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 620
+weight: 630
 url: /python-net/aspose.cells/cell/name/
 is_root: false
 ---
@@ -17,6 +17,12 @@ Gets the name of the cell.
 
 
 A cell name includes its column letter and row number. For example, the name of a cell in row 0 and column 0 is A1.
+### Definition:
+```python
+@property
+def name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

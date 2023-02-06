@@ -12,6 +12,15 @@ is_root: false
 
 
 Permission to print pdf document
+### Definition:
+```python
+@property
+def print_permission(self):
+    ...
+@print_permission.setter
+def print_permission(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering.pdfsecurity](../../)

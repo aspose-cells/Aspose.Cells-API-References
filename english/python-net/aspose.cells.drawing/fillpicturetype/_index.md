@@ -24,6 +24,6 @@ The FillPictureType type exposes the following members:
 | STACK_AND_SCALE | StackAndScale |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

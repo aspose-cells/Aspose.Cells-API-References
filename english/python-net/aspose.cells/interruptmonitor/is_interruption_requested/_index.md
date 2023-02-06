@@ -12,6 +12,12 @@ is_root: false
 
 
 Mark the monitor as requesting interruption
+### Definition:
+```python
+@property
+def is_interruption_requested(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

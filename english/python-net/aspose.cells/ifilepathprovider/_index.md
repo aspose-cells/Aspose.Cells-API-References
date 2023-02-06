@@ -22,6 +22,6 @@ The IFilePathProvider type exposes the following members:
 | [get_full_name(sheet_name)](/cells/python-net/aspose.cells/ifilepathprovider/get_full_name/#str) | Gets the full path of the file by Worksheet name when exporting Worksheet to html separately.<br/>So the references among the Worksheets can be exported correctly. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -50,6 +50,15 @@ chart.n_series[0].area.background_color = Color.yellow
 workbook.save("book1.xls")
 
 ```
+### Definition:
+```python
+@property
+def invert_if_negative(self):
+    ...
+@invert_if_negative.setter
+def invert_if_negative(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

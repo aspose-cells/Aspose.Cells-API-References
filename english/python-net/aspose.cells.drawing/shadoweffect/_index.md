@@ -28,6 +28,6 @@ The ShadowEffect type exposes the following members:
 | [distance](/cells/python-net/aspose.cells.drawing/shadoweffect/distance) | Gets and sets the distance of the shadow. Range from 0 to 200 points. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

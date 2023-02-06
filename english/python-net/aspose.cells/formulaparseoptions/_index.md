@@ -31,6 +31,6 @@ The FormulaParseOptions type exposes the following members:
 | [parse](/cells/python-net/aspose.cells/formulaparseoptions/parse) | Whether parse given formula. Default is true.<br/>If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them<br/>or parsed formula data is required by other operations such as calculating formulas. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

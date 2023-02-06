@@ -19,6 +19,15 @@ Returns or sets the maximum number of iterations to resolve a circular reference
 NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxIteration.
 This property will be removed 12 months later since February 2022. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def max_iteration(self):
+    ...
+@max_iteration.setter
+def max_iteration(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

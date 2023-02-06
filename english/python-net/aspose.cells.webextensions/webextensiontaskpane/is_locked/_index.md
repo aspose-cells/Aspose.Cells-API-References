@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the taskpane is locked to the document in the UI and cannot be closed by the user.
+### Definition:
+```python
+@property
+def is_locked(self):
+    ...
+@is_locked.setter
+def is_locked(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.webextensions](../../)

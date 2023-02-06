@@ -25,6 +25,6 @@ The TxtValueQuoteType type exposes the following members:
 | NEVER | All values will not be quoted. The exported text file with this type may not be read back correctly because the needed quotation marks being absent. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

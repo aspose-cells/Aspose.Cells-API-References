@@ -61,6 +61,6 @@ top10.rank = 5
 workbook.save("output.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

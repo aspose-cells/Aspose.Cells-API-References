@@ -44,6 +44,6 @@ qt = worksheet.query_tables[0]
 address = qt.result_range.address
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

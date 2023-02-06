@@ -51,6 +51,6 @@ cells.get("A1").set_style(style)
 workbook.save("book1.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

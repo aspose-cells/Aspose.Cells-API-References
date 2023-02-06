@@ -25,6 +25,6 @@ The TargetModeType type exposes the following members:
 | CELL_REFERENCE | Link on cell or named range. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

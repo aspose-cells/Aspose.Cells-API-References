@@ -28,6 +28,15 @@ if shape.top_in_shape == 8000:
     shape.top_in_shape = 4000
 
 ```
+### Definition:
+```python
+@property
+def top_in_shape(self):
+    ...
+@top_in_shape.setter
+def top_in_shape(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

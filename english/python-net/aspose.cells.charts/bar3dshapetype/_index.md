@@ -27,6 +27,6 @@ The Bar3DShapeType type exposes the following members:
 | CONE_TO_MAX | ConeToMax |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

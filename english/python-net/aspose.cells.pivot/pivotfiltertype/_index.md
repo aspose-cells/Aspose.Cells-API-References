@@ -87,6 +87,6 @@ The PivotFilterType type exposes the following members:
 | YESTERDAY | Indicates the "yesterday" filter for date values. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

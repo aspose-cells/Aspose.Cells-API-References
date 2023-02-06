@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the number of items in the list box.
+### Definition:
+```python
+@property
+def item_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

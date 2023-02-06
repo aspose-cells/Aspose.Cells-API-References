@@ -36,6 +36,6 @@ The WebExtensionTaskPaneCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.webextensions/webextensiontaskpanecollection/binary_search/#WebExtensionTaskPane) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
-### See Also
 
-* module [aspose.cells.webextensions](../)
+### See Also
+* module [aspose.cells.webextensions](..)

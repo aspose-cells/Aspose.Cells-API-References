@@ -61,3 +61,4 @@ def get_picture(self, is_first, is_even, is_header, section):
 ### See Also
 * module [aspose.cells](../../)
 * class [PageSetup](/cells/python-net/aspose.cells/pagesetup)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)

@@ -12,7 +12,17 @@ is_root: false
 
 
 Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+### Definition:
+```python
+@property
+def credentials_method_type(self):
+    ...
+@credentials_method_type.setter
+def credentials_method_type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)
+* class [CredentialsMethodType](/cells/python-net/aspose.cells.externalconnections/credentialsmethodtype)
 * class [WebQueryConnection](/cells/python-net/aspose.cells.externalconnections/webqueryconnection)

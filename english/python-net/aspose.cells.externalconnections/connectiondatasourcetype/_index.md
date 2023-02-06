@@ -35,6 +35,6 @@ The ConnectionDataSourceType type exposes the following members:
 | UNKNOWN | Text data source created by the Spreadsheet Data Model. |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)

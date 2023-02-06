@@ -41,6 +41,6 @@ The LoadFilter type exposes the following members:
 
 
 User may specify the filter options or implement their own LoadFilter to specify how to load data.
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -22,6 +22,6 @@ The IExportObjectListener type exposes the following members:
 | [export_object(e)](/cells/python-net/aspose.cells/iexportobjectlistener/export_object/#ExportObjectEvent) | Export one object. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

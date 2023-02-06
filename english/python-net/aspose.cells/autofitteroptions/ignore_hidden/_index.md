@@ -12,6 +12,15 @@ is_root: false
 
 
 Ignores the hidden rows/columns.
+### Definition:
+```python
+@property
+def ignore_hidden(self):
+    ...
+@ignore_hidden.setter
+def ignore_hidden(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

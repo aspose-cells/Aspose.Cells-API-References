@@ -21,6 +21,12 @@ Get the actual bottom row.
 rRow = shape.actual_lower_right_row
 
 ```
+### Definition:
+```python
+@property
+def actual_lower_right_row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

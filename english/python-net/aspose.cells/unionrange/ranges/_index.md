@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets all union ranges.
+### Definition:
+```python
+@property
+def ranges(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

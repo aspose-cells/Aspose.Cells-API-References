@@ -91,6 +91,8 @@ range.value = "Hello"
 workbook.save("book1.xlsm")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Cell](/cells/python-net/aspose.cells/cell)
+* class [Range](/cells/python-net/aspose.cells/range)

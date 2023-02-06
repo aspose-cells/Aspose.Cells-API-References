@@ -3,7 +3,7 @@ title: is_inner_mode property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.cells.charts/legend/is_inner_mode/
 is_root: false
 ---
@@ -18,6 +18,15 @@ False specifies that the size shall determine the size of the plot area, the tic
 
 
 Only for Xlsx file.
+### Definition:
+```python
+@property
+def is_inner_mode(self):
+    ...
+@is_inner_mode.setter
+def is_inner_mode(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

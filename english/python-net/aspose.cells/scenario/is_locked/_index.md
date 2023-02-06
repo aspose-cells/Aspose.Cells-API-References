@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether scenario is locked for editing when the sheet is protected.
+### Definition:
+```python
+@property
+def is_locked(self):
+    ...
+@is_locked.setter
+def is_locked(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

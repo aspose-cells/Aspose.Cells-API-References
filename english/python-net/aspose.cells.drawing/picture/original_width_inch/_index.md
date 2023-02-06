@@ -32,6 +32,12 @@ picWidthInch = pic.original_width_inch
 workbook.save("result.xlsx")
 
 ```
+### Definition:
+```python
+@property
+def original_width_inch(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

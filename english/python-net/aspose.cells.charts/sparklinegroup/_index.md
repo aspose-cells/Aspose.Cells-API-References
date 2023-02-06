@@ -94,6 +94,7 @@ group.line_weight = 1.0
 book.save("output.xlsx", SaveFormat.XLSX)
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Sparkline](/cells/python-net/aspose.cells.charts/sparkline)

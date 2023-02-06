@@ -30,6 +30,6 @@ The RectangleAlignmentType type exposes the following members:
 | TOP_RIGHT | TopRight |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

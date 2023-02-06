@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the axis bins are automatic.
+### Definition:
+```python
+@property
+def is_automatic(self):
+    ...
+@is_automatic.setter
+def is_automatic(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

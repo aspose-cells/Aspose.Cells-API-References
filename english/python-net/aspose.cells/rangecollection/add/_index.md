@@ -33,4 +33,5 @@ def add(self, range):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Range](/cells/python-net/aspose.cells/range)
 * class [RangeCollection](/cells/python-net/aspose.cells/rangecollection)

@@ -23,7 +23,15 @@ excel = Workbook()
 excel.custom_document_properties.add("Checked by", "Jane")
 
 ```
+### Definition:
+```python
+@property
+def custom_document_properties(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [CustomDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/customdocumentpropertycollection)
+* class [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty)
 * class [Workbook](/cells/python-net/aspose.cells/workbook)

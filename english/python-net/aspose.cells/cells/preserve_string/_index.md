@@ -13,6 +13,15 @@ is_root: false
 
 Gets or sets a value indicating whether all worksheet values are preserved as strings. 
 Default is false.
+### Definition:
+```python
+@property
+def preserve_string(self):
+    ...
+@preserve_string.setter
+def preserve_string(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

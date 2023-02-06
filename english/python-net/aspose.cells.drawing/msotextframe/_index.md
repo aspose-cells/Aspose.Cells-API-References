@@ -28,6 +28,6 @@ The MsoTextFrame type exposes the following members:
 | [bottom_margin_pt](/cells/python-net/aspose.cells.drawing/msotextframe/bottom_margin_pt) | Returns the bottom margin in unit of Points |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

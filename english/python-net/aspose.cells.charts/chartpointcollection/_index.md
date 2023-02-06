@@ -83,6 +83,8 @@ for i in range(points.count):
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [ChartPoint](/cells/python-net/aspose.cells.charts/chartpoint)
+* class [ChartPointCollection](/cells/python-net/aspose.cells.charts/chartpointcollection)

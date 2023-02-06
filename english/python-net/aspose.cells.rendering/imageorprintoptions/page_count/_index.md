@@ -17,6 +17,15 @@ Gets or sets the number of pages to save.
 
 
 Default is System.Int32.MaxValue which means all pages will be rendered.
+### Definition:
+```python
+@property
+def page_count(self):
+    ...
+@page_count.setter
+def page_count(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

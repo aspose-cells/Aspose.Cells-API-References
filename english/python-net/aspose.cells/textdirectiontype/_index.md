@@ -24,6 +24,6 @@ The TextDirectionType type exposes the following members:
 | RIGHT_TO_LEFT |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

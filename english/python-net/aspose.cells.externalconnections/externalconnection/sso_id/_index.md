@@ -13,6 +13,15 @@ is_root: false
 
 Identifier for Single Sign On (SSO) used for authentication between an intermediate 
 spreadsheetML server and the external data source.
+### Definition:
+```python
+@property
+def sso_id(self):
+    ...
+@sso_id.setter
+def sso_id(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

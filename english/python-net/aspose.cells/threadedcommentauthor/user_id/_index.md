@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the id of the user.
+### Definition:
+```python
+@property
+def user_id(self):
+    ...
+@user_id.setter
+def user_id(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

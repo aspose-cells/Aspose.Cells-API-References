@@ -30,6 +30,6 @@ The MetadataOptions type exposes the following members:
 | [key_length](/cells/python-net/aspose.cells.metadata/metadataoptions/key_length) | The key length. |
 
 
-### See Also
 
-* module [aspose.cells.metadata](../)
+### See Also
+* module [aspose.cells.metadata](..)

@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the load format.
+### Definition:
+```python
+@property
+def load_format(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.numbers](../../)
+* class [LoadFormat](/cells/python-net/aspose.cells/loadformat)
 * class [NumbersLoadOptions](/cells/python-net/aspose.cells.numbers/numbersloadoptions)

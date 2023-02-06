@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets the Column Header Caption of the PivotTable.
+### Definition:
+```python
+@property
+def column_header_caption(self):
+    ...
+@column_header_caption.setter
+def column_header_caption(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

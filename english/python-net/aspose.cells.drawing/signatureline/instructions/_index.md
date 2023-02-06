@@ -24,6 +24,15 @@ s6 = SignatureLine()
 s6.instructions = "Just do it."
 
 ```
+### Definition:
+```python
+@property
+def instructions(self):
+    ...
+@instructions.setter
+def instructions(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

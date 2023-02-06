@@ -23,6 +23,6 @@ The HtmlHiddenRowDisplayType type exposes the following members:
 | REMOVE | Remove the hidden rows in html page. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

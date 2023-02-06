@@ -65,7 +65,9 @@ The WebQueryConnection type exposes the following members:
 | [is_consecutive](/cells/python-net/aspose.cells.externalconnections/webqueryconnection/is_consecutive) | Flag indicating whether consecutive delimiters should be treated as just one delimiter. |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)
+* class [ConnectionParameterCollection](/cells/python-net/aspose.cells.externalconnections/connectionparametercollection)
 * class [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection)
+* class [WebQueryConnection](/cells/python-net/aspose.cells.externalconnections/webqueryconnection)

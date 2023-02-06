@@ -29,6 +29,6 @@ The InsertOptions type exposes the following members:
 | [update_reference](/cells/python-net/aspose.cells/insertoptions/update_reference) | Indicates if references in other worksheets will be updated. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

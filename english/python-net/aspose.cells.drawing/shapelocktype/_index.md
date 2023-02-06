@@ -34,6 +34,6 @@ The ShapeLockType type exposes the following members:
 | ARROWHEAD | Arrowhead |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -35,7 +35,8 @@ The AutoNumberedBulletValue type exposes the following members:
 | [autonumber_scheme](/cells/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/autonumber_scheme) | Represents the scheme of automatic number. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)
+* class [AutoNumberedBulletValue](/cells/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue)
 * class [BulletValue](/cells/python-net/aspose.cells.drawing.texts/bulletvalue)

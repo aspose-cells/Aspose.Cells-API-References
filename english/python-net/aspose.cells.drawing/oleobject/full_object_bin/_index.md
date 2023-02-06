@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the full embedded ole object binary data in the template file.
+### Definition:
+```python
+@property
+def full_object_bin(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

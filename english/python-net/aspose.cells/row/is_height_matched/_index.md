@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates that row height and default font height matches.
+### Definition:
+```python
+@property
+def is_height_matched(self):
+    ...
+@is_height_matched.setter
+def is_height_matched(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

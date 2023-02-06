@@ -23,6 +23,6 @@ The ControlListStyle type exposes the following members:
 | OPTION | Displays a list in which an option button or a checkbox next to each entry displays the selection state of that item. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

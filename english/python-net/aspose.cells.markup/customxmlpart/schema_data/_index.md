@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the XML content of this Custom XML Schema Data Storage Part.
+### Definition:
+```python
+@property
+def schema_data(self):
+    ...
+@schema_data.setter
+def schema_data(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.markup](../../)

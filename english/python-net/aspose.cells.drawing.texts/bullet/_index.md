@@ -24,6 +24,6 @@ The Bullet type exposes the following members:
 | [font_name](/cells/python-net/aspose.cells.drawing.texts/bullet/font_name) | Get and sets the name of the font. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets the description of the alt text
+### Definition:
+```python
+@property
+def alt_text_description(self):
+    ...
+@alt_text_description.setter
+def alt_text_description(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -215,7 +215,11 @@ sheet.ole_objects[0].object_data = objectData
 workbook.save(r"oleobjects.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
+* class [OleObject](/cells/python-net/aspose.cells.drawing/oleobject)
+* class [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 * class [Shape](/cells/python-net/aspose.cells.drawing/shape)

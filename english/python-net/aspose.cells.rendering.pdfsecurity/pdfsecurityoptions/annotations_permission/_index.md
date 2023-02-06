@@ -12,6 +12,15 @@ is_root: false
 
 
 Permission to comment on the document.
+### Definition:
+```python
+@property
+def annotations_permission(self):
+    ...
+@annotations_permission.setter
+def annotations_permission(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering.pdfsecurity](../../)

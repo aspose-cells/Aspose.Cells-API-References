@@ -19,6 +19,15 @@ True if calculations in this workbook will be done using only the precision of t
 NOTE: This member is now obsolete. Instead, please use FormulaSettings.PrecisionAsDisplayed.
 This property will be removed 12 months later since February 2022. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def precision_as_displayed(self):
+    ...
+@precision_as_displayed.setter
+def precision_as_displayed(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

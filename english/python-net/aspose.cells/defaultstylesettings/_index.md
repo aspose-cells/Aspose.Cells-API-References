@@ -25,6 +25,6 @@ The DefaultStyleSettings type exposes the following members:
 | [vertical_alignment](/cells/python-net/aspose.cells/defaultstylesettings/vertical_alignment) | Gets/Sets the default value for vertical alignment |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

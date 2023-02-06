@@ -34,6 +34,6 @@ The InputMethodEditorMode type exposes the following members:
 | HANZI | IME on with Half-width hanzi mode. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

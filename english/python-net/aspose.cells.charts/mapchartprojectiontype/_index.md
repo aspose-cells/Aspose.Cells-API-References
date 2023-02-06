@@ -25,6 +25,6 @@ The MapChartProjectionType type exposes the following members:
 | ALBERS | Albers |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

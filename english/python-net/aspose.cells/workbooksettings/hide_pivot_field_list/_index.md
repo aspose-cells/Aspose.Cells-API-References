@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets whether hide the field list for the PivotTable.
+### Definition:
+```python
+@property
+def hide_pivot_field_list(self):
+    ...
+@hide_pivot_field_list.setter
+def hide_pivot_field_list(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

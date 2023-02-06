@@ -33,4 +33,5 @@ def get_series_by_order(self, order):
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [Series](/cells/python-net/aspose.cells.charts/series)
 * class [SeriesCollection](/cells/python-net/aspose.cells.charts/seriescollection)

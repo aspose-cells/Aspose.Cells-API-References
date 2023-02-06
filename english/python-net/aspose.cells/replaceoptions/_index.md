@@ -30,6 +30,6 @@ The ReplaceOptions type exposes the following members:
 | [regex_key](/cells/python-net/aspose.cells/replaceoptions/regex_key) | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

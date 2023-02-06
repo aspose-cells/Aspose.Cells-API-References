@@ -24,6 +24,15 @@ s3 = SignatureLine()
 s3.signer = "Mr xxx"
 
 ```
+### Definition:
+```python
+@property
+def signer(self):
+    ...
+@signer.setter
+def signer(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

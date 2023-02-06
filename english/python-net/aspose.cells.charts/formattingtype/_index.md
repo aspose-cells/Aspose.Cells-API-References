@@ -24,6 +24,8 @@ The FormattingType type exposes the following members:
 | NONE | Represents none formatting type. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Area](/cells/python-net/aspose.cells.drawing/area)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)

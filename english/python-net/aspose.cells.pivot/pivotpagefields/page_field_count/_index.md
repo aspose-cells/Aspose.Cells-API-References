@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the number of page fields.
+### Definition:
+```python
+@property
+def page_field_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

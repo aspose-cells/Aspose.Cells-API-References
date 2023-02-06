@@ -31,6 +31,6 @@ The TotalsCalculation type exposes the following members:
 | CUSTOM | Represents custom calculation. |
 
 
-### See Also
 
-* module [aspose.cells.tables](../)
+### See Also
+* module [aspose.cells.tables](..)

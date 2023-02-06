@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether this cell is new formatted.
+### Definition:
+```python
+@property
+def is_new_formatted(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

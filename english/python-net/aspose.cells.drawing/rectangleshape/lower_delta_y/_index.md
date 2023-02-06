@@ -27,6 +27,15 @@ if shape.lower_delta_y == 3:
     shape.lower_delta_y = 1
 
 ```
+### Definition:
+```python
+@property
+def lower_delta_y(self):
+    ...
+@lower_delta_y.setter
+def lower_delta_y(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

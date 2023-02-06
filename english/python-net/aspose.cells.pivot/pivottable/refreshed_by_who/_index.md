@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the name of the user who last refreshed the PivotTable
+### Definition:
+```python
+@property
+def refreshed_by_who(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -3,7 +3,7 @@ title: column property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 380
+weight: 390
 url: /python-net/aspose.cells/cell/column/
 is_root: false
 ---
@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets column number (zero based) of the cell.
+### Definition:
+```python
+@property
+def column(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

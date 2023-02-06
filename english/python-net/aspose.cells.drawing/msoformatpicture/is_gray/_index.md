@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether this picture SHOULD be displayed in grayscale.
+### Definition:
+```python
+@property
+def is_gray(self):
+    ...
+@is_gray.setter
+def is_gray(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

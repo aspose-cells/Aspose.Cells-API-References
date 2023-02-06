@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the total editing time in minutes.
+### Definition:
+```python
+@property
+def total_editing_time(self):
+    ...
+@total_editing_time.setter
+def total_editing_time(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the list fill range.
+### Definition:
+```python
+@property
+def list_fill_range(self):
+    ...
+@list_fill_range.setter
+def list_fill_range(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

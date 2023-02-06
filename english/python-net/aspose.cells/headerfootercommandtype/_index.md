@@ -30,6 +30,6 @@ The HeaderFooterCommandType type exposes the following members:
 | PICTURE | Picture |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

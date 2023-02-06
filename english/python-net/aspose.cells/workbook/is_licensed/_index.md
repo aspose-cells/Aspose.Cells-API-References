@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether license is set.
+### Definition:
+```python
+@property
+def is_licensed(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

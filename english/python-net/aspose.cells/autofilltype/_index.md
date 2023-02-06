@@ -26,6 +26,6 @@ The AutoFillType type exposes the following members:
 | VALUES | Copies only the value of the source area to the target area, |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

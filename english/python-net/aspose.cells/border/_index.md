@@ -25,6 +25,6 @@ The Border type exposes the following members:
 | [line_style](/cells/python-net/aspose.cells/border/line_style) | Gets or sets the cell border type. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

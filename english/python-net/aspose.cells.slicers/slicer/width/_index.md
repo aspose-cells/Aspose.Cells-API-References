@@ -21,6 +21,15 @@ Returns or sets the width of the specified slicer, in points.
 slicer.width = 100
 
 ```
+### Definition:
+```python
+@property
+def width(self):
+    ...
+@width.setter
+def width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

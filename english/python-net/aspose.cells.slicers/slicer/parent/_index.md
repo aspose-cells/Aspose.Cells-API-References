@@ -21,7 +21,14 @@ Returns the Worksheet object that represents the sheet that contains the slicer.
 currSheet = slicer.parent
 
 ```
+### Definition:
+```python
+@property
+def parent(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)
 * class [Slicer](/cells/python-net/aspose.cells.slicers/slicer)
+* class [Worksheet](/cells/python-net/aspose.cells/worksheet)

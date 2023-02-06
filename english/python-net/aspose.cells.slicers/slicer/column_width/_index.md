@@ -21,6 +21,15 @@ Returns or sets the width, in points, of each column in the slicer.
 slicer.column_width = 80
 
 ```
+### Definition:
+```python
+@property
+def column_width(self):
+    ...
+@column_width.setter
+def column_width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

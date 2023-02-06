@@ -33,4 +33,5 @@ def get_external_connection_by_id(self, conn_id):
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)
+* class [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection)
 * class [ExternalConnectionCollection](/cells/python-net/aspose.cells.externalconnections/externalconnectioncollection)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the transparency of background color.
+### Definition:
+```python
+@property
+def back_transparency(self):
+    ...
+@back_transparency.setter
+def back_transparency(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

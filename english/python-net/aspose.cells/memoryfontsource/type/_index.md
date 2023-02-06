@@ -12,7 +12,14 @@ is_root: false
 
 
 Returns the type of the font source.
+### Definition:
+```python
+@property
+def type(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [FontSourceType](/cells/python-net/aspose.cells/fontsourcetype)
 * class [MemoryFontSource](/cells/python-net/aspose.cells/memoryfontsource)

@@ -25,6 +25,6 @@ The OdsCellField type exposes the following members:
 | [column](/cells/python-net/aspose.cells.ods/odscellfield/column) | Get and sets the column index of the cell. |
 
 
-### See Also
 
-* module [aspose.cells.ods](../)
+### See Also
+* module [aspose.cells.ods](..)

@@ -52,7 +52,10 @@ The Walls type exposes the following members:
 | [get_cube_point_y_px(index)](/cells/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) | Gets y-coordinate of the apex point of walls cube after calls Chart.Calculate() method.<br/>The number of apex points of walls cube is eight. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Area](/cells/python-net/aspose.cells.drawing/area)
 * class [Floor](/cells/python-net/aspose.cells.charts/floor)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)
+* class [Walls](/cells/python-net/aspose.cells.charts/walls)

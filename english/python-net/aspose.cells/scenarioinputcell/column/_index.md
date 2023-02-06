@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets and sets the column index of the input cell.
+### Definition:
+```python
+@property
+def column(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

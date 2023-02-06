@@ -17,6 +17,12 @@ Gets the count of rows in the range.
 
 
 Only effects when it only contains one range.
+### Definition:
+```python
+@property
+def row_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

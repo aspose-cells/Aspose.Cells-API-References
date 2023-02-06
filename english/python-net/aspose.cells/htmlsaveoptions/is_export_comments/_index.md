@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates if exporting comments when saving file to html, the default value is false.
+### Definition:
+```python
+@property
+def is_export_comments(self):
+    ...
+@is_export_comments.setter
+def is_export_comments(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

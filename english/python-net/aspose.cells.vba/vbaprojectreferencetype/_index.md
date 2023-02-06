@@ -24,6 +24,6 @@ The VbaProjectReferenceType type exposes the following members:
 | PROJECT | Specifies a reference to an external VBA project. |
 
 
-### See Also
 
-* module [aspose.cells.vba](../)
+### See Also
+* module [aspose.cells.vba](..)

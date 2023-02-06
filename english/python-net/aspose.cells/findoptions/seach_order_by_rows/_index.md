@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether search order by rows or columns.
+### Definition:
+```python
+@property
+def seach_order_by_rows(self):
+    ...
+@seach_order_by_rows.setter
+def seach_order_by_rows(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

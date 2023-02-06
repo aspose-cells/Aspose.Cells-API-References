@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether this VBA project is locked for viewing.
+### Definition:
+```python
+@property
+def islocked_for_viewing(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.vba](../../)

@@ -26,6 +26,6 @@ The TiffCompression type exposes the following members:
 | COMPRESSION_CCITT4 | Specifies the CCITT4 compression scheme. |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

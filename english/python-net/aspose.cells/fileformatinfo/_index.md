@@ -31,6 +31,7 @@ The FileFormatInfo type exposes the following members:
 | [load_format](/cells/python-net/aspose.cells/fileformatinfo/load_format) | Gets the detected load format. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [FileFormatUtil](/cells/python-net/aspose.cells/fileformatutil)

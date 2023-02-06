@@ -21,6 +21,15 @@ Represents the width of the comment, in unit of pixels.
 comment1.width = 10
 
 ```
+### Definition:
+```python
+@property
+def width(self):
+    ...
+@width.setter
+def width(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates image bytes of rendered Chart, Shape when rendering.
+### Definition:
+```python
+@property
+def image_bytes(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

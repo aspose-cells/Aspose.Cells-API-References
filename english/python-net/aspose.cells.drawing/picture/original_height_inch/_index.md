@@ -32,6 +32,12 @@ picHeightInch = pic.original_height_inch
 workbook.save("result.xlsx")
 
 ```
+### Definition:
+```python
+@property
+def original_height_inch(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

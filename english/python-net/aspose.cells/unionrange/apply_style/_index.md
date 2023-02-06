@@ -32,4 +32,5 @@ So this is a memory-consuming method. Please use it carefully.
 
 ### See Also
 * module [aspose.cells](../../)
+* class [Style](/cells/python-net/aspose.cells/style)
 * class [UnionRange](/cells/python-net/aspose.cells/unionrange)

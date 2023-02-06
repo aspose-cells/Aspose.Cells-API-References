@@ -34,7 +34,8 @@ The FileFontSource type exposes the following members:
 | [file_path](/cells/python-net/aspose.cells/filefontsource/file_path) | Path to font file. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [FileFontSource](/cells/python-net/aspose.cells/filefontsource)
 * class [FontSourceBase](/cells/python-net/aspose.cells/fontsourcebase)

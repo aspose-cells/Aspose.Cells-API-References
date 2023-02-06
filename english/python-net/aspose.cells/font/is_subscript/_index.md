@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets a value indicating whether the font is subscript.
+### Definition:
+```python
+@property
+def is_subscript(self):
+    ...
+@is_subscript.setter
+def is_subscript(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

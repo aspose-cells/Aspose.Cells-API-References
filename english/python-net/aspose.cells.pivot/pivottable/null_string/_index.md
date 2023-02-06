@@ -13,6 +13,15 @@ is_root: false
 
 Gets the string displayed in cells that contain null values
 when the DisplayNullString property is true.The default value is an empty string.
+### Definition:
+```python
+@property
+def null_string(self):
+    ...
+@null_string.setter
+def null_string(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

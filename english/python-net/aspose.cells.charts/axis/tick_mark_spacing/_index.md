@@ -17,6 +17,15 @@ Returns or sets the number of categories or series between tick marks. Applies o
 
 
 The number must be between 1 and 31999.
+### Definition:
+```python
+@property
+def tick_mark_spacing(self):
+    ...
+@tick_mark_spacing.setter
+def tick_mark_spacing(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

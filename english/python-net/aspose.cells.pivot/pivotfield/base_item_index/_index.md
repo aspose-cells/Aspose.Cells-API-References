@@ -13,6 +13,15 @@ is_root: false
 
 Represents the item in the base field for a custom calculation.
 Valid only for data fields.
+### Definition:
+```python
+@property
+def base_item_index(self):
+    ...
+@base_item_index.setter
+def base_item_index(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

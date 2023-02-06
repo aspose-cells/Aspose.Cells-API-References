@@ -3,7 +3,7 @@ title: is_in_array property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 550
+weight: 560
 url: /python-net/aspose.cells/cell/is_in_array/
 is_root: false
 ---
@@ -20,6 +20,12 @@ NOTE: This class is now obsolete. Instead,
 please use Cell.IsArrayFormula to check whether the cell formula is an array formula.
 This property will be removed 12 months later since May 2018.
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def is_in_array(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

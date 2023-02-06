@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the [ActiveXControlBase.workbook](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook) object.
+### Definition:
+```python
+@property
+def workbook(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)
 * class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
+* class [Workbook](/cells/python-net/aspose.cells/workbook)

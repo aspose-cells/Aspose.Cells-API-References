@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the base item count of this pivot field.
+### Definition:
+```python
+@property
+def item_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

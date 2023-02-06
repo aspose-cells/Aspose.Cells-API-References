@@ -25,6 +25,6 @@ The CredentialsMethodType type exposes the following members:
 | STORED | Stored Credentials |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)

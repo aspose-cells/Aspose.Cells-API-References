@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents gamma of the picture.
+### Definition:
+```python
+@property
+def gamma(self):
+    ...
+@gamma.setter
+def gamma(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

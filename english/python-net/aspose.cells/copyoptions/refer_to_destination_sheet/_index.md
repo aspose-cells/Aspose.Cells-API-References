@@ -19,6 +19,15 @@ True means the copied chart's data source refers to the destination sheet.
 
 
 The default value is false, it works as MS Excel.
+### Definition:
+```python
+@property
+def refer_to_destination_sheet(self):
+    ...
+@refer_to_destination_sheet.setter
+def refer_to_destination_sheet(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

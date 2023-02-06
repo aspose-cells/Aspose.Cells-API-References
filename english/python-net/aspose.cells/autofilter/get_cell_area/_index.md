@@ -31,3 +31,4 @@ def get_cell_area(self):
 ### See Also
 * module [aspose.cells](../../)
 * class [AutoFilter](/cells/python-net/aspose.cells/autofilter)
+* class [CellArea](/cells/python-net/aspose.cells/cellarea)

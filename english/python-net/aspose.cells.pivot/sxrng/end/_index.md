@@ -12,6 +12,12 @@ is_root: false
 
 
 Represents the end object for the group range.
+### Definition:
+```python
+@property
+def end(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -52,6 +52,7 @@ excel.worksheets[0].horizontal_page_breaks.add("G5")
 excel.worksheets[0].vertical_page_breaks.add("G5")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [HorizontalPageBreak](/cells/python-net/aspose.cells/horizontalpagebreak)

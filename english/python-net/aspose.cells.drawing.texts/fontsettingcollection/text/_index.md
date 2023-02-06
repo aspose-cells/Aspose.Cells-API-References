@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the text of the shape.
+### Definition:
+```python
+@property
+def text(self):
+    ...
+@text.setter
+def text(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

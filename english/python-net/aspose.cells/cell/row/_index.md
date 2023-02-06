@@ -3,7 +3,7 @@ title: row property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 650
+weight: 660
 url: /python-net/aspose.cells/cell/row/
 is_root: false
 ---
@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets row number (zero based) of the cell.
+### Definition:
+```python
+@property
+def row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether conditional formatting is 3 color scale.
+### Definition:
+```python
+@property
+def is_3_color_scale(self):
+    ...
+@is_3_color_scale.setter
+def is_3_color_scale(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

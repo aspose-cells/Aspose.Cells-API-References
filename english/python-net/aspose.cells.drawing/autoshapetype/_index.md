@@ -275,6 +275,6 @@ The AutoShapeType type exposes the following members:
 | UNKNOWN |  |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -13,6 +13,15 @@ is_root: false
 
 Indicates if you need to hide the error while rendering.
 The error can be error in shape, image, chart rendering, etc.
+### Definition:
+```python
+@property
+def ignore_error(self):
+    ...
+@ignore_error.setter
+def ignore_error(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the width of the paper in unit of inches, considered page orientation.
+### Definition:
+```python
+@property
+def paper_width(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

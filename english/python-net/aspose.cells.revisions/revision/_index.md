@@ -24,6 +24,6 @@ The Revision type exposes the following members:
 | [id](/cells/python-net/aspose.cells.revisions/revision/id) | Gets the number of this revision. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)

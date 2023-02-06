@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether this name is referred by other formulas.
+### Definition:
+```python
+@property
+def is_referred(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -24,6 +24,6 @@ The PaneCollection type exposes the following members:
 | [acitve_pane_type](/cells/python-net/aspose.cells/panecollection/acitve_pane_type) | Gets and sets the active pane. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

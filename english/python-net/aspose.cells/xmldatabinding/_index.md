@@ -22,6 +22,6 @@ The XmlDataBinding type exposes the following members:
 | [url](/cells/python-net/aspose.cells/xmldatabinding/url) | Gets source url of this data binding. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

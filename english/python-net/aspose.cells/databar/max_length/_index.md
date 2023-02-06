@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the max length of data bar .
+### Definition:
+```python
+@property
+def max_length(self):
+    ...
+@max_length.setter
+def max_length(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

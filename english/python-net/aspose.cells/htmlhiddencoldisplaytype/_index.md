@@ -23,6 +23,6 @@ The HtmlHiddenColDisplayType type exposes the following members:
 | REMOVE | Remove the hidden columns in html page. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether to show formulas or their results.
+### Definition:
+```python
+@property
+def show_formulas(self):
+    ...
+@show_formulas.setter
+def show_formulas(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

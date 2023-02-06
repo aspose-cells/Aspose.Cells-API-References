@@ -25,6 +25,6 @@ The ActiveXPersistenceType type exposes the following members:
 | STREAM_INIT | The data is stored as a streaminit binary data. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

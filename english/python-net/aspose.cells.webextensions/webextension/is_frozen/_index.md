@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the user can interact with the Office Add-in or not.
+### Definition:
+```python
+@property
+def is_frozen(self):
+    ...
+@is_frozen.setter
+def is_frozen(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.webextensions](../../)

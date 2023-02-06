@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the text of the defined name.
+### Definition:
+```python
+@property
+def text(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

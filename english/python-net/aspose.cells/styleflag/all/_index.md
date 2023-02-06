@@ -12,6 +12,15 @@ is_root: false
 
 
 All properties will be applied.
+### Definition:
+```python
+@property
+def all(self):
+    ...
+@all.setter
+def all(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

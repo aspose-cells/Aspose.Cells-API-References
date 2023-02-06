@@ -40,6 +40,6 @@ The FontConfigs type exposes the following members:
 | [get_font_sources()](/cells/python-net/aspose.cells/fontconfigs/get_font_sources/#) | Gets a copy of the array that contains the list of sources |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

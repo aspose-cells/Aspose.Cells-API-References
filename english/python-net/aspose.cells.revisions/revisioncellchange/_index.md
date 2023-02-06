@@ -40,7 +40,8 @@ The RevisionCellChange type exposes the following members:
 | [old_style](/cells/python-net/aspose.cells.revisions/revisioncellchange/old_style) | Gets the old style of the cell. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionCellChange](/cells/python-net/aspose.cells.revisions/revisioncellchange)

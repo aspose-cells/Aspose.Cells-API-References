@@ -12,7 +12,14 @@ is_root: false
 
 
 Returns a DataLabels object that represents the data label associated with the point.
+### Definition:
+```python
+@property
+def data_labels(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ChartPoint](/cells/python-net/aspose.cells.charts/chartpoint)
+* class [DataLabels](/cells/python-net/aspose.cells.charts/datalabels)

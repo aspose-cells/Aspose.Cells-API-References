@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies the number of minutes between automatic refreshes of the connection.
+### Definition:
+```python
+@property
+def refresh_internal(self):
+    ...
+@refresh_internal.setter
+def refresh_internal(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

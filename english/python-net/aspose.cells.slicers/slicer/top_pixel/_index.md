@@ -21,6 +21,15 @@ Returns or sets the vertical offset of slicer shape from its top row, in pixels.
 slicer.top_pixel = 6
 
 ```
+### Definition:
+```python
+@property
+def top_pixel(self):
+    ...
+@top_pixel.setter
+def top_pixel(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

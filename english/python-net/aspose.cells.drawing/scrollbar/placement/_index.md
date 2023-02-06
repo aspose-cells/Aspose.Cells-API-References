@@ -24,7 +24,17 @@ if shape.placement == PlacementType.MOVE:
     shape.placement = PlacementType.MOVE_AND_SIZE
 
 ```
+### Definition:
+```python
+@property
+def placement(self):
+    ...
+@placement.setter
+def placement(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [PlacementType](/cells/python-net/aspose.cells.drawing/placementtype)
 * class [ScrollBar](/cells/python-net/aspose.cells.drawing/scrollbar)

@@ -12,6 +12,15 @@ is_root: false
 
 
 URL to use to refresh external data.
+### Definition:
+```python
+@property
+def url(self):
+    ...
+@url.setter
+def url(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

@@ -21,6 +21,15 @@ Returns or sets the horizontal offset of slicer shape from its left column, in p
 slicer.left_pixel = 2
 
 ```
+### Definition:
+```python
+@property
+def left_pixel(self):
+    ...
+@left_pixel.setter
+def left_pixel(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

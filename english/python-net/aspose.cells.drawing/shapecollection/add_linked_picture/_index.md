@@ -37,4 +37,5 @@ def add_linked_picture(self, upper_left_row, upper_left_column, height, width, s
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)
 * class [ShapeCollection](/cells/python-net/aspose.cells.drawing/shapecollection)

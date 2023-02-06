@@ -12,6 +12,15 @@ is_root: false
 
 
 The distance from the top edge of the client area to the top edge of the window, in unit of point.
+### Definition:
+```python
+@property
+def window_top(self):
+    ...
+@window_top.setter
+def window_top(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

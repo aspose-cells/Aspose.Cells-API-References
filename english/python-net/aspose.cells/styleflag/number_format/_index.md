@@ -12,6 +12,15 @@ is_root: false
 
 
 Number format setting will be applied.
+### Definition:
+```python
+@property
+def number_format(self):
+    ...
+@number_format.setter
+def number_format(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

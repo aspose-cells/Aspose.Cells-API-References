@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the count of the pivotFields.
+### Definition:
+```python
+@property
+def count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

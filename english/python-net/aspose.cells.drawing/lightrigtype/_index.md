@@ -49,6 +49,6 @@ The LightRigType type exposes the following members:
 | NONE | No light rig. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

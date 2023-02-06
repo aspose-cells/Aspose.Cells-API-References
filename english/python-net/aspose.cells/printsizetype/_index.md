@@ -24,6 +24,6 @@ The PrintSizeType type exposes the following members:
 | CUSTOM | Custom. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

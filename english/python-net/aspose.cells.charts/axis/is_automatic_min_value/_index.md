@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the min value is automatically assigned.
+### Definition:
+```python
+@property
+def is_automatic_min_value(self):
+    ...
+@is_automatic_min_value.setter
+def is_automatic_min_value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

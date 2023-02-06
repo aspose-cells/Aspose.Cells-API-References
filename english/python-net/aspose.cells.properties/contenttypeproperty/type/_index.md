@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the type of the property.
+### Definition:
+```python
+@property
+def type(self):
+    ...
+@type.setter
+def type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

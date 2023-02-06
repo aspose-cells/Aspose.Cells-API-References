@@ -63,6 +63,6 @@ The TextAutonumberScheme type exposes the following members:
 | THAI_NUM_PERIOD | Thai numerical period |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

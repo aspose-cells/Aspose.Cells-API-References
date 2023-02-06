@@ -24,6 +24,6 @@ The LoadNumbersTableType type exposes the following members:
 | TILE_TABLES |  |
 
 
-### See Also
 
-* module [aspose.cells.numbers](../)
+### See Also
+* module [aspose.cells.numbers](..)

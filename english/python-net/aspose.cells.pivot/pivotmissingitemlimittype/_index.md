@@ -24,6 +24,6 @@ The PivotMissingItemLimitType type exposes the following members:
 | NONE | No unique items per PivotField allowed. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

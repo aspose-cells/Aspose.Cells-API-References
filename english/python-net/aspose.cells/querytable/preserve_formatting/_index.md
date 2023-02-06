@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the PreserveFormatting of the object.
+### Definition:
+```python
+@property
+def preserve_formatting(self):
+    ...
+@preserve_formatting.setter
+def preserve_formatting(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

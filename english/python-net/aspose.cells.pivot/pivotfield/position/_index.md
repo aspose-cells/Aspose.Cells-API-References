@@ -12,6 +12,12 @@ is_root: false
 
 
 Represents the PivotField index in the PivotFields.
+### Definition:
+```python
+@property
+def position(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

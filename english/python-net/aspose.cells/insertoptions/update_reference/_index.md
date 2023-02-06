@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates if references in other worksheets will be updated.
+### Definition:
+```python
+@property
+def update_reference(self):
+    ...
+@update_reference.setter
+def update_reference(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

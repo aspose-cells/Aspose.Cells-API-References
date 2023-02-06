@@ -30,6 +30,6 @@ The TableStyleElement type exposes the following members:
 | [set_element_style(style)](/cells/python-net/aspose.cells.tables/tablestyleelement/set_element_style/#Style) | Sets the element style. |
 
 
-### See Also
 
-* module [aspose.cells.tables](../)
+### See Also
+* module [aspose.cells.tables](..)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates current sheet index of DrawObject.
+### Definition:
+```python
+@property
+def sheet_index(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

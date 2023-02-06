@@ -103,6 +103,6 @@ The ChartType type exposes the following members:
 | RADIAL_HISTOGRAM | The series is laid out as a radial historgram. It is used only for rendering |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

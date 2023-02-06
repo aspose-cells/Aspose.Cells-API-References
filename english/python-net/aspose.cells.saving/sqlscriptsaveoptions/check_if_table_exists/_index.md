@@ -12,6 +12,15 @@ is_root: false
 
 
 Check if the table name exists before creating
+### Definition:
+```python
+@property
+def check_if_table_exists(self):
+    ...
+@check_if_table_exists.setter
+def check_if_table_exists(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.saving](../../)

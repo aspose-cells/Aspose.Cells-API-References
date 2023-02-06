@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the row index of the cell.
+### Definition:
+```python
+@property
+def cell_row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

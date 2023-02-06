@@ -19,6 +19,15 @@ Indicates whether enable iterative calculation to resolve circular references.
 NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableIterativeCalculation.
 This property will be removed 12 months later since February 2022. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def iteration(self):
+    ...
+@iteration.setter
+def iteration(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

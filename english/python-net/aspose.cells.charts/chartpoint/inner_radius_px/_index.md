@@ -13,6 +13,12 @@ is_root: false
 
 Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method.
 Applies to Doughnut chart.
+### Definition:
+```python
+@property
+def inner_radius_px(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

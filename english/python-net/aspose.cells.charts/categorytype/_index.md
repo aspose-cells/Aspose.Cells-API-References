@@ -24,6 +24,6 @@ The CategoryType type exposes the following members:
 | TIME_SCALE | TimeScale |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

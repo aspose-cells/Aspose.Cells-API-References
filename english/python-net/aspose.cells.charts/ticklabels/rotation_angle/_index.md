@@ -17,6 +17,15 @@ Represents text rotation angle in clockwise.
 
 
 
+### Definition:
+```python
+@property
+def rotation_angle(self):
+    ...
+@rotation_angle.setter
+def rotation_angle(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

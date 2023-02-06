@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets total row count to import from data source. -1 means all rows of given data source.
+### Definition:
+```python
+@property
+def total_rows(self):
+    ...
+@total_rows.setter
+def total_rows(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

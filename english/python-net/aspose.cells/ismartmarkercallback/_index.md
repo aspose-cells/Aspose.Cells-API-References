@@ -22,6 +22,6 @@ The ISmartMarkerCallBack type exposes the following members:
 | [process(sheet_index, row_index, col_index, table_name, column_name)](/cells/python-net/aspose.cells/ismartmarkercallback/process/#int-int-int-str-str) | Callback for processing a smart marker. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

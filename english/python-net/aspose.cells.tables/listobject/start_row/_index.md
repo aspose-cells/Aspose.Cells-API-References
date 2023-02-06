@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the start row of the range.
+### Definition:
+```python
+@property
+def start_row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.tables](../../)

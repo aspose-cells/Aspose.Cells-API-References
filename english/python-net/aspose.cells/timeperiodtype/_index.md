@@ -36,6 +36,6 @@ The TimePeriodType type exposes the following members:
 | NEXT_YEAR | A date occurring next year.<br/>Only for .ods. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

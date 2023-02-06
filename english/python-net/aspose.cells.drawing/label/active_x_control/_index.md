@@ -17,14 +17,22 @@ Gets the ActiveX control.
 
 
 ```python
-import aspose.pycore
+from aspose import pycore
+from aspose.cells.drawing.activexcontrols import CheckBoxActiveXControl
 
-checkBox1 = aspose.pycore.cast(Aspose.Cells.Drawing.ActiveXControls.CheckBoxActiveXControl, shape.active_x_control)
+checkBox1 = pycore.cast(CheckBoxActiveXControl, shape.active_x_control)
 # The font name of CheckBox
 fontName = checkBox1.font.name
 
 ```
+### Definition:
+```python
+@property
+def active_x_control(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [ActiveXControl](/cells/python-net/aspose.cells.drawing.activexcontrols/activexcontrol)
 * class [Label](/cells/python-net/aspose.cells.drawing/label)

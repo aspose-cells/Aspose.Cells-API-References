@@ -3,7 +3,7 @@ title: is_formula property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 540
+weight: 550
 url: /python-net/aspose.cells/cell/is_formula/
 is_root: false
 ---
@@ -12,6 +12,12 @@ is_root: false
 
 
 Represents if the specified cell contains formula.
+### Definition:
+```python
+@property
+def is_formula(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -87,7 +87,9 @@ for i in range(len(chart.NSeries)):
     aseries.y_error_bar.amount = 5
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
-* class [Line](/cells/python-net/aspose.cells.charts/line)
+### See Also
+* module [aspose.cells.charts](..)
+* class [ErrorBar](/cells/python-net/aspose.cells.charts/errorbar)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)
+* class [WeightType](/cells/python-net/aspose.cells.drawing/weighttype)

@@ -61,3 +61,4 @@ def add_threaded_comment(self, row, column, text, author):
 ### See Also
 * module [aspose.cells](../../)
 * class [CommentCollection](/cells/python-net/aspose.cells/commentcollection)
+* class [ThreadedComment](/cells/python-net/aspose.cells/threadedcomment)

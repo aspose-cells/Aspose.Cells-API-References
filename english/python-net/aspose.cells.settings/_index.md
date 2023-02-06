@@ -8,7 +8,7 @@ url: /python-net/aspose.cells.settings/
 is_root: false
 ---
 
-
+The **Aspose.Cells.Settings**  namespace contains classes that define settings for different features.
 
 ### Classes
 | Class | Description |

@@ -35,6 +35,15 @@ pic.border_weight = 3
 workbook.save("result.xlsx")
 
 ```
+### Definition:
+```python
+@property
+def border_weight(self):
+    ...
+@border_weight.setter
+def border_weight(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

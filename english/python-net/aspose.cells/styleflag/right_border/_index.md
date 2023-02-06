@@ -12,6 +12,15 @@ is_root: false
 
 
 Right border settings will be applied.
+### Definition:
+```python
+@property
+def right_border(self):
+    ...
+@right_border.setter
+def right_border(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

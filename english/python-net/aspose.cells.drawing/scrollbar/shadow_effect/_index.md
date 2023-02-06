@@ -21,7 +21,14 @@ Represents a [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 shadowEffect = shape.shadow_effect
 
 ```
+### Definition:
+```python
+@property
+def shadow_effect(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [ScrollBar](/cells/python-net/aspose.cells.drawing/scrollbar)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)

@@ -20,6 +20,15 @@ NOTE: This member is now obsolete. Instead,
 please use Protection.AllowFormattingCell property. 
 This property will be removed 12 months later since June 2010. 
 Aspose apologizes for any inconvenience you may have experienced.
+### Definition:
+```python
+@property
+def is_formatting_cells_allowed(self):
+    ...
+@is_formatting_cells_allowed.setter
+def is_formatting_cells_allowed(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

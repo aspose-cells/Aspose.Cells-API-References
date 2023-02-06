@@ -27,6 +27,6 @@ The DataSorterKey type exposes the following members:
 | [color](/cells/python-net/aspose.cells/datasorterkey/color) | Gets the sorted color. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

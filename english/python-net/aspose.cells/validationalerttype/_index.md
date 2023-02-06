@@ -24,6 +24,6 @@ The ValidationAlertType type exposes the following members:
 | WARNING | Warning alert style. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

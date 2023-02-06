@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the foreground Color.
+### Definition:
+```python
+@property
+def foreground_color(self):
+    ...
+@foreground_color.setter
+def foreground_color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

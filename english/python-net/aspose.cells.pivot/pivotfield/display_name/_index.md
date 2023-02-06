@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the PivotField display name.
+### Definition:
+```python
+@property
+def display_name(self):
+    ...
+@display_name.setter
+def display_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the data range of the sparkline.
+### Definition:
+```python
+@property
+def data_range(self):
+    ...
+@data_range.setter
+def data_range(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

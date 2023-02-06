@@ -12,6 +12,12 @@ is_root: false
 
 
 Minimum row index of cell which contains data.
+### Definition:
+```python
+@property
+def min_data_row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

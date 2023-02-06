@@ -23,6 +23,6 @@ The XAdESType type exposes the following members:
 | X_AD_ES | Basic XAdES. |
 
 
-### See Also
 
-* module [aspose.cells.digitalsignatures](../)
+### See Also
+* module [aspose.cells.digitalsignatures](..)

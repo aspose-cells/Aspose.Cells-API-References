@@ -21,6 +21,15 @@ Gets or sets the width in unit of pixels for each column of the slicer.
 slicer.column_width_pixel = 120
 
 ```
+### Definition:
+```python
+@property
+def column_width_pixel(self):
+    ...
+@column_width_pixel.setter
+def column_width_pixel(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies whether the SlicerItem is selected or not.
+### Definition:
+```python
+@property
+def selected(self):
+    ...
+@selected.setter
+def selected(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.slicers](../../)

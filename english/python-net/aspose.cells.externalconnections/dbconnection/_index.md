@@ -53,7 +53,9 @@ The DBConnection type exposes the following members:
 | [sever_command](/cells/python-net/aspose.cells.externalconnections/dbconnection/sever_command) | Specifies a second command text string that is persisted when PivotTable server-based <br/>page fields are in use. <br/>For ODBC connections, serverCommand is usually a broader query than command (no <br/>WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand),<br/>parameter UI can be populated and parameterized queries can be constructed |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)
+* class [ConnectionParameterCollection](/cells/python-net/aspose.cells.externalconnections/connectionparametercollection)
+* class [DBConnection](/cells/python-net/aspose.cells.externalconnections/dbconnection)
 * class [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection)

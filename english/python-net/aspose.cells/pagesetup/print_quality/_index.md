@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the print quality.
+### Definition:
+```python
+@property
+def print_quality(self):
+    ...
+@print_quality.setter
+def print_quality(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

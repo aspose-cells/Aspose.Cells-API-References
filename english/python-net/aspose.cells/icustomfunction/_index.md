@@ -20,6 +20,6 @@ The ICustomFunction type exposes the following members:
 | [calculate_custom_function(function_name, params_list, context_objects)](/cells/python-net/aspose.cells/icustomfunction/calculate_custom_function/#str-list-list) |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

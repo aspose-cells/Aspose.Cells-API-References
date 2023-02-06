@@ -29,6 +29,6 @@ The CalcModeType type exposes the following members:
 
 
 Only sets for MS Excel.
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

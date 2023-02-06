@@ -82,6 +82,6 @@ timelineObj = sheet.timelines[0]
 book.save("out.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.timelines](../)
+### See Also
+* module [aspose.cells.timelines](..)

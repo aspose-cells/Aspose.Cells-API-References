@@ -89,6 +89,9 @@ sheets[0].name = "First Sheet"
 sheets.active_sheet_index = 1
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty)
+* class [Range](/cells/python-net/aspose.cells/range)
+* class [Worksheet](/cells/python-net/aspose.cells/worksheet)

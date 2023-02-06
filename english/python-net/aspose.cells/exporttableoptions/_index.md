@@ -39,6 +39,6 @@ The ExportTableOptions type exposes the following members:
 | [rename_strategy](/cells/python-net/aspose.cells/exporttableoptions/rename_strategy) | Strategy for duplicate names of columns. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

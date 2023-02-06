@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the definition of the power query formula.
+### Definition:
+```python
+@property
+def formula_definition(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.querytables](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether this external link is visible in MS Excel.
+### Definition:
+```python
+@property
+def is_visible(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

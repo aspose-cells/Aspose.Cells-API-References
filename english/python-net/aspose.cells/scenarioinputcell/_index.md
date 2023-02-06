@@ -26,6 +26,6 @@ The ScenarioInputCell type exposes the following members:
 | [is_deleted](/cells/python-net/aspose.cells/scenarioinputcell/is_deleted) | Indicates whether input cell is deleted. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

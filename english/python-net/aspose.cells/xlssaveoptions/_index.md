@@ -47,7 +47,8 @@ The XlsSaveOptions type exposes the following members:
 | [match_color](/cells/python-net/aspose.cells/xlssaveoptions/match_color) | Indicates whether matching font color because there are 56 colors in the standard color palette. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
 * class [SaveOptions](/cells/python-net/aspose.cells/saveoptions)
+* class [XlsSaveOptions](/cells/python-net/aspose.cells/xlssaveoptions)

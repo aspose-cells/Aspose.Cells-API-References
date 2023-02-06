@@ -32,6 +32,6 @@ The AboveAverage type exposes the following members:
 | [std_dev](/cells/python-net/aspose.cells/aboveaverage/std_dev) | Get or set the number of standard deviations to include above or below the average in the<br/>conditional formatting rule. <br/>The input value must between 0 and 3 (include 0 and 3). <br/>Setting this value to 0 means stdDev is not set.<br/>The default value is 0. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

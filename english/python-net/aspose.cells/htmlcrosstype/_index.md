@@ -26,6 +26,6 @@ The HtmlCrossType type exposes the following members:
 | FIT_TO_CELL | Only displaying the string within the width of cell. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

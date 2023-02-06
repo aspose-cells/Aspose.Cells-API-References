@@ -51,6 +51,6 @@ textEffectFormat.set_text_effect(MsoPresetTextEffect.TEXT_EFFECT10)
 workbook.save("Book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

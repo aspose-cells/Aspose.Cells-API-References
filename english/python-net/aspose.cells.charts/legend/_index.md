@@ -51,6 +51,7 @@ The Legend type exposes the following members:
 | [text_horizontal_alignment](/cells/python-net/aspose.cells.charts/legend/text_horizontal_alignment) | Gets and sets the text horizontal alignment. |
 | [text_vertical_alignment](/cells/python-net/aspose.cells.charts/legend/text_vertical_alignment) | Gets or sets the text vertical alignment of text. |
 | [rotation_angle](/cells/python-net/aspose.cells.charts/legend/rotation_angle) | Represents text rotation angle. |
+| [is_automatic_rotation](/cells/python-net/aspose.cells.charts/legend/is_automatic_rotation) | Indicates whether the text of the chart is automatically rotated. |
 | [text](/cells/python-net/aspose.cells.charts/legend/text) | Gets or sets the text of a frame's title. |
 | [linked_source](/cells/python-net/aspose.cells.charts/legend/linked_source) | Gets and sets a reference to the worksheet. |
 | [text_direction](/cells/python-net/aspose.cells.charts/legend/text_direction) | Represents text reading order. |
@@ -104,7 +105,10 @@ legend.height = 50
 legend.position = LegendPositionType.LEFT
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [ChartFrame](/cells/python-net/aspose.cells.charts/chartframe)
 * class [ChartTextFrame](/cells/python-net/aspose.cells.charts/charttextframe)
+* class [Legend](/cells/python-net/aspose.cells.charts/legend)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)

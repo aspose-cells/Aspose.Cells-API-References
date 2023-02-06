@@ -30,6 +30,6 @@ The ErrorCheckType type exposes the following members:
 | CALCULATED_COLUMN | Ignore errors when cells contain a value different from a calculated column formula. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

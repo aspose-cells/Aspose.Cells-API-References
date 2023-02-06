@@ -14,7 +14,14 @@ is_root: false
 When procedure is interrupted, whether terminate the procedure quietly or throw an Exception.
 Default is false, that is, when [AbstractInterruptMonitor.is_interruption_requested](/cells/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) is true,
 a [CellsException](/cells/python-net/aspose.cells/cellsexception) with code [ExceptionType.INTERRUPTED](/cells/python-net/aspose.cells/exceptiontype#INTERRUPTED) will be thrown.
+### Definition:
+```python
+@property
+def terminate_without_exception(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [AbstractInterruptMonitor](/cells/python-net/aspose.cells/abstractinterruptmonitor)
+* class [CellsException](/cells/python-net/aspose.cells/cellsexception)

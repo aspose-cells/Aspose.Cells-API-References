@@ -34,6 +34,6 @@ The CopyOptions type exposes the following members:
 | [refer_to_destination_sheet](/cells/python-net/aspose.cells/copyoptions/refer_to_destination_sheet) | When copying the range in the same file and the chart refers to the source sheet,<br/>False means the copied chart's data source will not be changed.<br/>True means the copied chart's data source refers to the destination sheet. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -70,6 +70,7 @@ worksheet.auto_filter.filter(1, "Bananas")
 workbook.save("output.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [CellArea](/cells/python-net/aspose.cells/cellarea)

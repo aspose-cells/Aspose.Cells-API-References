@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets which scenario is selected.
+### Definition:
+```python
+@property
+def active_index(self):
+    ...
+@active_index.setter
+def active_index(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

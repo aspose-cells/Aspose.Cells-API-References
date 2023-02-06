@@ -34,3 +34,4 @@ def check_row(self, row):
 ### See Also
 * module [aspose.cells](../../)
 * class [Cells](/cells/python-net/aspose.cells/cells)
+* class [Row](/cells/python-net/aspose.cells/row)

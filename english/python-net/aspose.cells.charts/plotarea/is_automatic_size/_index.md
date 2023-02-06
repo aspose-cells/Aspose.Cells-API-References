@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the plot area is automatic sized.
+### Definition:
+```python
+@property
+def is_automatic_size(self):
+    ...
+@is_automatic_size.setter
+def is_automatic_size(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

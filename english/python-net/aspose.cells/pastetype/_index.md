@@ -35,6 +35,6 @@ The PasteType type exposes the following members:
 | VALUES_AND_NUMBER_FORMATS |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

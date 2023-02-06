@@ -26,6 +26,6 @@ The ErrorBarType type exposes the following members:
 | ST_ERROR | Standard error type. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

@@ -101,7 +101,15 @@ Number of Hidden Slides
 
 
 Number of Multimedia Clips
+### Definition:
+```python
+@property
+def built_in_document_properties(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [BuiltInDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection)
+* class [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty)
 * class [WorksheetCollection](/cells/python-net/aspose.cells/worksheetcollection)

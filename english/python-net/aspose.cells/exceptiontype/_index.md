@@ -45,6 +45,6 @@ The ExceptionType type exposes the following members:
 | FILE_CORRUPTED | File content is corrupted. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

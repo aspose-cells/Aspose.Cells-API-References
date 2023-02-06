@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the range's refers to.
+### Definition:
+```python
+@property
+def refers_to(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

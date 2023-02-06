@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents whether the generated spreadsheet will be opened Minimized.
+### Definition:
+```python
+@property
+def is_minimized(self):
+    ...
+@is_minimized.setter
+def is_minimized(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

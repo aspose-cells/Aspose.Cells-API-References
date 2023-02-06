@@ -68,6 +68,6 @@ The StyleModifyFlag type exposes the following members:
 | ALL | Indicates whether one or more properties have been modified for the style. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

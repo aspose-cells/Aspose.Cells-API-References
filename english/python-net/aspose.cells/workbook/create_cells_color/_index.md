@@ -30,4 +30,5 @@ def create_cells_color(self):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [CellsColor](/cells/python-net/aspose.cells/cellscolor)
 * class [Workbook](/cells/python-net/aspose.cells/workbook)

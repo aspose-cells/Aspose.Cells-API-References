@@ -27,6 +27,6 @@ The PropertyType type exposes the following members:
 | BLOB | The property is a byte array. |
 
 
-### See Also
 
-* module [aspose.cells.properties](../)
+### See Also
+* module [aspose.cells.properties](..)

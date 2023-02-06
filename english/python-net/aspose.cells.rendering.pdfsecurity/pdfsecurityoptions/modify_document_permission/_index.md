@@ -12,6 +12,15 @@ is_root: false
 
 
 Permission to modify pdf document
+### Definition:
+```python
+@property
+def modify_document_permission(self):
+    ...
+@modify_document_permission.setter
+def modify_document_permission(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering.pdfsecurity](../../)

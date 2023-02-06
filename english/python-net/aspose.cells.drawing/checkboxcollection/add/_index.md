@@ -36,4 +36,5 @@ def add(self, upper_left_row, upper_left_column, height, width):
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [CheckBox](/cells/python-net/aspose.cells.drawing/checkbox)
 * class [CheckBoxCollection](/cells/python-net/aspose.cells.drawing/checkboxcollection)

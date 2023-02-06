@@ -29,6 +29,6 @@ The ColorScale type exposes the following members:
 | [max_color](/cells/python-net/aspose.cells/colorscale/max_color) | Get or set the gradient color for the maximum value in the range. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

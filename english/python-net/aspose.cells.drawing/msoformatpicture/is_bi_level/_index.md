@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether this picture should be displayed in two-color black and white.
+### Definition:
+```python
+@property
+def is_bi_level(self):
+    ...
+@is_bi_level.setter
+def is_bi_level(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -25,6 +25,6 @@ The VbaModuleType type exposes the following members:
 | DESIGNER | Represents a designer module. |
 
 
-### See Also
 
-* module [aspose.cells.vba](../)
+### See Also
+* module [aspose.cells.vba](..)

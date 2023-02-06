@@ -31,7 +31,8 @@ The RevisionFormat type exposes the following members:
 | [style](/cells/python-net/aspose.cells.revisions/revisionformat/style) | Gets the applied style. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionFormat](/cells/python-net/aspose.cells.revisions/revisionformat)

@@ -111,6 +111,6 @@ workbook = Workbook()
 settings = workbook.settings
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

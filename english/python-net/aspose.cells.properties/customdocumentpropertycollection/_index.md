@@ -67,7 +67,9 @@ workbook = Workbook("book1.xls")
 customProperties = workbook.worksheets.custom_document_properties
 
 ```
-### See Also
 
-* module [aspose.cells.properties](../)
+### See Also
+* module [aspose.cells.properties](..)
+* class [CustomDocumentPropertyCollection](/cells/python-net/aspose.cells.properties/customdocumentpropertycollection)
+* class [DocumentProperty](/cells/python-net/aspose.cells.properties/documentproperty)
 * class [DocumentPropertyCollection](/cells/python-net/aspose.cells.properties/documentpropertycollection)

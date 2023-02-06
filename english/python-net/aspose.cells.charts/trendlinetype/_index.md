@@ -27,6 +27,6 @@ The TrendlineType type exposes the following members:
 | POWER | Power |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

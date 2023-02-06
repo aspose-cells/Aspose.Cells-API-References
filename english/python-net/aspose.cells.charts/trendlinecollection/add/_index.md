@@ -56,4 +56,5 @@ def add(self, type, name):
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [Trendline](/cells/python-net/aspose.cells.charts/trendline)
 * class [TrendlineCollection](/cells/python-net/aspose.cells.charts/trendlinecollection)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the control takes the focus when clicked.
+### Definition:
+```python
+@property
+def take_focus_on_click(self):
+    ...
+@take_focus_on_click.setter
+def take_focus_on_click(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

@@ -23,6 +23,6 @@ The DataBarBorderType type exposes the following members:
 | SOLID | The data bar has a solid border. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -21,7 +21,14 @@ Represents a [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect) obj
 glowEffect = shape.glow
 
 ```
+### Definition:
+```python
+@property
+def glow(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
 * class [ListBox](/cells/python-net/aspose.cells.drawing/listbox)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets if the workbook has any tracked changes
+### Definition:
+```python
+@property
+def has_revisions(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

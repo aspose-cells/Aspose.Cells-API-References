@@ -23,7 +23,17 @@ if shape.text_vertical_overflow == TextOverflowType.CLIP:
     shape.text_vertical_overflow = TextOverflowType.OVERFLOW
 
 ```
+### Definition:
+```python
+@property
+def text_vertical_overflow(self):
+    ...
+@text_vertical_overflow.setter
+def text_vertical_overflow(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [CommentShape](/cells/python-net/aspose.cells.drawing/commentshape)
+* class [TextOverflowType](/cells/python-net/aspose.cells.drawing/textoverflowtype)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether refresh all connections on opening file in MS Excel.
+### Definition:
+```python
+@property
+def is_refresh_all_connections(self):
+    ...
+@is_refresh_all_connections.setter
+def is_refresh_all_connections(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

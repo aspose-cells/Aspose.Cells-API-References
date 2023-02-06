@@ -21,6 +21,15 @@ Gets and sets the text wrapped type of the shape which contains text.
 shapeTextAlignment.is_text_wrapped = True
 
 ```
+### Definition:
+```python
+@property
+def is_text_wrapped(self):
+    ...
+@is_text_wrapped.setter
+def is_text_wrapped(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

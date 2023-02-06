@@ -23,6 +23,6 @@ The ShapePathPoint type exposes the following members:
 | [y](/cells/python-net/aspose.cells.drawing/shapepathpoint/y) | Gets y coordinate for this position coordinate. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

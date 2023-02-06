@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the value of the pivot item
+### Definition:
+```python
+@property
+def value(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

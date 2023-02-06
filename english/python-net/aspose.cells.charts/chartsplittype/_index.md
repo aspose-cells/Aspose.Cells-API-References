@@ -26,6 +26,6 @@ The ChartSplitType type exposes the following members:
 | AUTO | Represents the data points shall be split using the default<br/>mechanism for this chart type. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

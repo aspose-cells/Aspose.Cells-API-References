@@ -13,6 +13,12 @@ is_root: false
 
 Gets the program id of creating the file.
 Only for MHT files.
+### Definition:
+```python
+@property
+def prog_id(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

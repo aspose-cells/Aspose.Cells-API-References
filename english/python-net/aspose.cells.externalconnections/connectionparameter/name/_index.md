@@ -12,6 +12,15 @@ is_root: false
 
 
 The name of the parameter.
+### Definition:
+```python
+@property
+def name(self):
+    ...
+@name.setter
+def name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.externalconnections](../../)

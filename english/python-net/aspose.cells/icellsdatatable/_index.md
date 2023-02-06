@@ -43,6 +43,6 @@ Gets the data stored in the column specified by index.
 
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

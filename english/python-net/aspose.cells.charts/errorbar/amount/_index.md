@@ -13,6 +13,15 @@ is_root: false
 
 Represents amount of error bar.
  The amount must be greater than or equal to zero.
+### Definition:
+```python
+@property
+def amount(self):
+    ...
+@amount.setter
+def amount(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

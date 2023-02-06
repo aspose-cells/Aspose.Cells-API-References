@@ -17,6 +17,15 @@ If true and the directory does not exist, the directory will be automatically cr
 
 
 The default value is false.
+### Definition:
+```python
+@property
+def create_directory(self):
+    ...
+@create_directory.setter
+def create_directory(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.saving](../../)

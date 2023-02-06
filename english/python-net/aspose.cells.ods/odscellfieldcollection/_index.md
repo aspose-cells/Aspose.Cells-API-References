@@ -37,6 +37,6 @@ The OdsCellFieldCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.ods/odscellfieldcollection/binary_search/#OdsCellField) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
-### See Also
 
-* module [aspose.cells.ods](../)
+### See Also
+* module [aspose.cells.ods](..)

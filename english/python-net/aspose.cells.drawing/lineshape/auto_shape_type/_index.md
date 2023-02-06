@@ -23,7 +23,17 @@ if shape.auto_shape_type == AutoShapeType.UNKNOWN:
     shape.auto_shape_type = AutoShapeType.RECTANGLE
 
 ```
+### Definition:
+```python
+@property
+def auto_shape_type(self):
+    ...
+@auto_shape_type.setter
+def auto_shape_type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [AutoShapeType](/cells/python-net/aspose.cells.drawing/autoshapetype)
 * class [LineShape](/cells/python-net/aspose.cells.drawing/lineshape)

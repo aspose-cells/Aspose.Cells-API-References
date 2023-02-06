@@ -35,6 +35,6 @@ The RevisionType type exposes the following members:
 | UNKNOWN | Unknown. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)

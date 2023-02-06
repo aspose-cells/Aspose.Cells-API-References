@@ -12,7 +12,17 @@ is_root: false
 
 
 Gets or sets the globalization settings for Chart.
+### Definition:
+```python
+@property
+def chart_settings(self):
+    ...
+@chart_settings.setter
+def chart_settings(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [ChartGlobalizationSettings](/cells/python-net/aspose.cells.charts/chartglobalizationsettings)
 * class [GlobalizationSettings](/cells/python-net/aspose.cells/globalizationsettings)

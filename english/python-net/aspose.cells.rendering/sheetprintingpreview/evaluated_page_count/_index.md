@@ -28,6 +28,12 @@ sheetPrintingPreview = SheetPrintingPreview(workbook.worksheets[0], ImageOrPrint
 print(sheetPrintingPreview.evaluated_page_count)
 
 ```
+### Definition:
+```python
+@property
+def evaluated_page_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

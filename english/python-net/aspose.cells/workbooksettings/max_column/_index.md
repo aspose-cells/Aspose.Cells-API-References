@@ -17,6 +17,12 @@ Gets the max column index, zero-based.
 
 
 Returns 255 if the file format is Excel97-2003;
+### Definition:
+```python
+@property
+def max_column(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

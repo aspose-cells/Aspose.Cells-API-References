@@ -24,6 +24,6 @@ The HeaderFooterCommand type exposes the following members:
 | [text](/cells/python-net/aspose.cells/headerfootercommand/text) | Gets the text of the command. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

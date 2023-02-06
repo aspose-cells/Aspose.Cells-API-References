@@ -108,6 +108,7 @@ pageSetup = sheet.page_setup
 pageSetup.print_area = "D1:K13"
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)

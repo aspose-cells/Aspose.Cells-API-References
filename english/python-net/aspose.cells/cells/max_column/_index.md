@@ -18,6 +18,12 @@ where style is defined for the whole column but no cell has been instantiated in
 
 
 Return -1 if there is no cell.
+### Definition:
+```python
+@property
+def max_column(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

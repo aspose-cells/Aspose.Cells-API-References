@@ -3,7 +3,7 @@ title: display_string_value property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 420
+weight: 430
 url: /python-net/aspose.cells/cell/display_string_value/
 is_root: false
 ---
@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the formatted string value of this cell by cell's display style.
+### Definition:
+```python
+@property
+def display_string_value(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -40,6 +40,6 @@ Gets the PivotField Object at the specific index.
 | [clear()](/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#) | clear all fields of PivotFieldCollection |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

@@ -59,4 +59,5 @@ def set_border(self, border_type, border_style, border_color):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [BorderType](/cells/python-net/aspose.cells/bordertype)
 * class [Style](/cells/python-net/aspose.cells/style)

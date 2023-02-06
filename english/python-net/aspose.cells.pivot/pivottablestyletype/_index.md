@@ -107,6 +107,6 @@ The PivotTableStyleType type exposes the following members:
 | CUSTOM |  |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

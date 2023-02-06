@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the vertical offset from its lower right corner row.
+### Definition:
+```python
+@property
+def height(self):
+    ...
+@height.setter
+def height(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

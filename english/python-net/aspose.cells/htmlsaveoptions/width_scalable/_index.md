@@ -13,6 +13,15 @@ is_root: false
 
 Indicates whether using scalable unit to describe the column width when exporting file to html.
 The default value is false.
+### Definition:
+```python
+@property
+def width_scalable(self):
+    ...
+@width_scalable.setter
+def width_scalable(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

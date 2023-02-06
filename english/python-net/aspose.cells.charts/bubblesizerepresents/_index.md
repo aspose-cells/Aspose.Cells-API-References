@@ -23,6 +23,6 @@ The BubbleSizeRepresents type exposes the following members:
 | SIZE_IS_WIDTH | Represents the value of [Series.bubble_sizes](/cells/python-net/aspose.cells.charts/series#bubble_sizes) is width of the bubble. |
 
 
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

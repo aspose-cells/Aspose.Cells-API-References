@@ -123,6 +123,7 @@ chart.show_legend = True
 chart.title.text = "Income Analysis"
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [SeriesCollection](/cells/python-net/aspose.cells.charts/seriescollection)

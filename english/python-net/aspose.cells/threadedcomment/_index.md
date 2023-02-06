@@ -26,6 +26,6 @@ The ThreadedComment type exposes the following members:
 | [created_time](/cells/python-net/aspose.cells/threadedcomment/created_time) | Gets and sets the created time of this threaded comment. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether scenario is hidden.
+### Definition:
+```python
+@property
+def is_hidden(self):
+    ...
+@is_hidden.setter
+def is_hidden(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -30,4 +30,5 @@ def get_element_style(self):
 
 ### See Also
 * module [aspose.cells.tables](../../)
+* class [Style](/cells/python-net/aspose.cells/style)
 * class [TableStyleElement](/cells/python-net/aspose.cells.tables/tablestyleelement)

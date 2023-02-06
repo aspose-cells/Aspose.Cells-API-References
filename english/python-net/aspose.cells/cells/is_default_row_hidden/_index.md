@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the row is default hidden.
+### Definition:
+```python
+@property
+def is_default_row_hidden(self):
+    ...
+@is_default_row_hidden.setter
+def is_default_row_hidden(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

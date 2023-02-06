@@ -21,6 +21,15 @@ True means that don't allow changes in aspect ratio.
 shape.is_lock_aspect_ratio = False
 
 ```
+### Definition:
+```python
+@property
+def is_lock_aspect_ratio(self):
+    ...
+@is_lock_aspect_ratio.setter
+def is_lock_aspect_ratio(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

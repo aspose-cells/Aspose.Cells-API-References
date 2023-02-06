@@ -37,7 +37,17 @@ pdfSaveOptions.printing_page_type = PrintingPageType.IGNORE_STYLE
 wb.save("output_ignore_blank_and_style_page.pdf", pdfSaveOptions)
 
 ```
+### Definition:
+```python
+@property
+def printing_page_type(self):
+    ...
+@printing_page_type.setter
+def printing_page_type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [PaginatedSaveOptions](/cells/python-net/aspose.cells/paginatedsaveoptions)
+* class [PrintingPageType](/cells/python-net/aspose.cells/printingpagetype)

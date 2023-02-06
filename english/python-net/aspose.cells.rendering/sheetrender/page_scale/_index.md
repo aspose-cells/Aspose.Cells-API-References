@@ -27,6 +27,12 @@ sheetRender = SheetRender(wb.worksheets[0], ImageOrPrintOptions())
 pageScale = sheetRender.page_scale
 
 ```
+### Definition:
+```python
+@property
+def page_scale(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

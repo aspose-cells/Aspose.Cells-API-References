@@ -52,6 +52,7 @@ for i in range(len(dataConns)):
     print(dataConn.connection_id)
 
 ```
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)
+* class [ExternalConnection](/cells/python-net/aspose.cells.externalconnections/externalconnection)

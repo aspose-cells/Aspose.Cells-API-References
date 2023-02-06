@@ -51,6 +51,6 @@ The TableStyleElementType type exposes the following members:
 | WHOLE_TABLE | Table style element that applies to table's entire content. |
 
 
-### See Also
 
-* module [aspose.cells.tables](../)
+### See Also
+* module [aspose.cells.tables](..)

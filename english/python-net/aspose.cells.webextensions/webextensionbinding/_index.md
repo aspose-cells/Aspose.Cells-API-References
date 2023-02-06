@@ -30,6 +30,6 @@ The WebExtensionBinding type exposes the following members:
 | [appref](/cells/python-net/aspose.cells.webextensions/webextensionbinding/appref) | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
 
 
-### See Also
 
-* module [aspose.cells.webextensions](../)
+### See Also
+* module [aspose.cells.webextensions](..)

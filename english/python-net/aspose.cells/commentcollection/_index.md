@@ -54,6 +54,7 @@ workbook = Workbook()
 comments = workbook.worksheets[0].comments
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Comment](/cells/python-net/aspose.cells/comment)

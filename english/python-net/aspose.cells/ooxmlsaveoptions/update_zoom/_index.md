@@ -18,6 +18,15 @@ if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control 
 
 
 The default value is false for performance.
+### Definition:
+```python
+@property
+def update_zoom(self):
+    ...
+@update_zoom.setter
+def update_zoom(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

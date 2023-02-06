@@ -23,6 +23,6 @@ The OdsGeneratorType type exposes the following members:
 | OPEN_OFFICE | Open Office |
 
 
-### See Also
 
-* module [aspose.cells.ods](../)
+### See Also
+* module [aspose.cells.ods](..)

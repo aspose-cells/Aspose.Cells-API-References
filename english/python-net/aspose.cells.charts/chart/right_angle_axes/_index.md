@@ -17,6 +17,15 @@ True if the chart axes are at right angles. Applies only for 3-D charts(except C
 
 
 If this property is True, the Perspective property is ignored.
+### Definition:
+```python
+@property
+def right_angle_axes(self):
+    ...
+@right_angle_axes.setter
+def right_angle_axes(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

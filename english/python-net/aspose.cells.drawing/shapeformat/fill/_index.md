@@ -10,7 +10,14 @@ is_root: false
 
 ## fill property
 
+### Definition:
+```python
+@property
+def fill(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [FillFormat](/cells/python-net/aspose.cells.drawing/fillformat)
 * class [ShapeFormat](/cells/python-net/aspose.cells.drawing/shapeformat)

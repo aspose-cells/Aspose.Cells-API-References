@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the selected value of the combox box.
+### Definition:
+```python
+@property
+def selected_value(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

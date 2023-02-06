@@ -12,7 +12,14 @@ is_root: false
 
 
 Represents gradient fill.
+### Definition:
+```python
+@property
+def gradient_fill(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)
+* class [GradientFill](/cells/python-net/aspose.cells.drawing/gradientfill)
 * class [Trendline](/cells/python-net/aspose.cells.charts/trendline)

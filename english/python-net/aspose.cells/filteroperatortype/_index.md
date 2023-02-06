@@ -32,6 +32,6 @@ The FilterOperatorType type exposes the following members:
 | NOT_CONTAINS | Not contains the text. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

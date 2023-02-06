@@ -35,6 +35,7 @@ The ListColumnCollection type exposes the following members:
 | [binary_search(item)](/cells/python-net/aspose.cells.tables/listcolumncollection/binary_search/#ListColumn) | Searches the entire sorted array list for an element using the default comparer and returns the zero-based index of the element. |
 
 
-### See Also
 
-* module [aspose.cells.tables](../)
+### See Also
+* module [aspose.cells.tables](..)
+* class [ListColumn](/cells/python-net/aspose.cells.tables/listcolumn)

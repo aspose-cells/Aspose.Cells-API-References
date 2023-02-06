@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents negative error amount when error bar type is Custom.
+### Definition:
+```python
+@property
+def minus_value(self):
+    ...
+@minus_value.setter
+def minus_value(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

@@ -46,6 +46,6 @@ The PresetShadowType type exposes the following members:
 | PERSPECTIVE_DIAGONAL_LOWER_RIGHT | Outer shadow perspective diagonal lower right. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

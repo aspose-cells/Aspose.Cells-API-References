@@ -17,6 +17,15 @@ Gets and sets the extended Libid of the reference.
 
 
 Only for control reference.
+### Definition:
+```python
+@property
+def extended_libid(self):
+    ...
+@extended_libid.setter
+def extended_libid(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.vba](../../)

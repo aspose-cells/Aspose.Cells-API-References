@@ -3,7 +3,7 @@ title: number property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 340
+weight: 350
 url: /python-net/aspose.cells/style/number/
 is_root: false
 ---
@@ -55,6 +55,15 @@ For example, the formatting patterns represented by numbers for en_US region:
 | 47| Time |
 | 48| Scientific |
 | 49| Text |
+### Definition:
+```python
+@property
+def number(self):
+    ...
+@number.setter
+def number(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

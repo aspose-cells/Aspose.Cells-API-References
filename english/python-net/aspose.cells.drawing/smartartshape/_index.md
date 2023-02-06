@@ -179,7 +179,11 @@ for s in shapes:
 book.save("exmaple.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
+* class [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 * class [Shape](/cells/python-net/aspose.cells.drawing/shape)
+* class [SmartArtShape](/cells/python-net/aspose.cells.drawing/smartartshape)

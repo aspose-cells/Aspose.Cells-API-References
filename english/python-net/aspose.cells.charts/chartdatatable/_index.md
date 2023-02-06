@@ -72,6 +72,6 @@ chartTable.show_legend_key = False
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)

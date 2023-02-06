@@ -27,6 +27,15 @@ if shape.upper_delta_y == 2000:
     shape.upper_delta_y = 4000
 
 ```
+### Definition:
+```python
+@property
+def width_in_shape(self):
+    ...
+@width_in_shape.setter
+def width_in_shape(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

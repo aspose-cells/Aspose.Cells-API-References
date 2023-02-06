@@ -23,6 +23,6 @@ The DataBarFillType type exposes the following members:
 | GRADIENT | The data bar is filled with a color gradient. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

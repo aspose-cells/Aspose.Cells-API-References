@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the size of the left margin, in unit of centimeters.
+### Definition:
+```python
+@property
+def left_margin(self):
+    ...
+@left_margin.setter
+def left_margin(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

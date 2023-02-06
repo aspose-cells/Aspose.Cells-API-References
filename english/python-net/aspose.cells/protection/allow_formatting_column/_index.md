@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents if the formatting of columns is allowed on a protected worksheet
+### Definition:
+```python
+@property
+def allow_formatting_column(self):
+    ...
+@allow_formatting_column.setter
+def allow_formatting_column(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

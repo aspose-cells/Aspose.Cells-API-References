@@ -12,6 +12,15 @@ is_root: false
 
 
 Make the workbook empty after saving the file.
+### Definition:
+```python
+@property
+def clear_data(self):
+    ...
+@clear_data.setter
+def clear_data(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.saving](../../)

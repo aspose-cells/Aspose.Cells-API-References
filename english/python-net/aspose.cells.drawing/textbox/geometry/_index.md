@@ -22,7 +22,14 @@ if len(shape.Geometry.ShapeAdjustValues) == 0:
     print("No geometry path.")
 
 ```
+### Definition:
+```python
+@property
+def geometry(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [Geometry](/cells/python-net/aspose.cells.drawing/geometry)
 * class [TextBox](/cells/python-net/aspose.cells.drawing/textbox)

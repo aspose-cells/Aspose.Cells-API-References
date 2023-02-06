@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the end row index of the vertical page break.
+### Definition:
+```python
+@property
+def end_row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

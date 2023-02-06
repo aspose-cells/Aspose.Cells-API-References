@@ -23,6 +23,6 @@ The WebExtensionProperty type exposes the following members:
 | [value](/cells/python-net/aspose.cells.webextensions/webextensionproperty/value) | Gets and sets a custom property value. |
 
 
-### See Also
 
-* module [aspose.cells.webextensions](../)
+### See Also
+* module [aspose.cells.webextensions](..)

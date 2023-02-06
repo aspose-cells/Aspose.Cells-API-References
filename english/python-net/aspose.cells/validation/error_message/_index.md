@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the data validation error message.
+### Definition:
+```python
+@property
+def error_message(self):
+    ...
+@error_message.setter
+def error_message(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

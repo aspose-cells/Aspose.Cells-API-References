@@ -17,6 +17,15 @@ Gets or sets the Universal time of the document creation.
 
 
 Aspose.Cells does not update this property when you modify the document.
+### Definition:
+```python
+@property
+def created_universal_time(self):
+    ...
+@created_universal_time.setter
+def created_universal_time(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

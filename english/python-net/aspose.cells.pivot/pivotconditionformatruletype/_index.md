@@ -25,6 +25,6 @@ The PivotConditionFormatRuleType type exposes the following members:
 | COLUMN | Indicates that Top N conditional formatting is <br/>evaluated for each column. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

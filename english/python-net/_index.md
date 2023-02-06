@@ -11,7 +11,7 @@ is_root: true
 ### Modules
 | Module | Description |
 | :- | :- |
-| [aspose.cells](/cells/python-net/aspose.cells) | The **Aspose.Cells**  namespace provides fundamental classes and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel. |
+| [aspose.cells](/cells/python-net/aspose.cells) | The **Aspose.Cells**  namespace provides fundamental and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel.<br/>For example, [Workbook](/cells/python-net/aspose.cells/workbook) class is the main entry to create or load and then manipulate a spreadsheet file,<br/>[Cells](/cells/python-net/aspose.cells/cells) class is the main class to manipulate all data and properties in a sheet, ...etc. |
 | [aspose.cells.charts](/cells/python-net/aspose.cells.charts) | The **Aspose.Cells.Charts**  namespace provides classes that allow to access and drawing charts and sparkline in Microsoft Excel spreadsheets. |
 | [aspose.cells.digitalsignatures](/cells/python-net/aspose.cells.digitalsignatures) | The **Aspose.Cells.DigitalSignatures**  namespace provides classes to sign documents and verify signatures. |
 | [aspose.cells.drawing](/cells/python-net/aspose.cells.drawing) | The **Aspose.Cells.Drawing**  namespace provides classes that allow to create and modify drawing shapes, form controls, and more advanced drawing objects. |
@@ -30,7 +30,7 @@ is_root: true
 | [aspose.cells.rendering.pdfsecurity](/cells/python-net/aspose.cells.rendering.pdfsecurity) | The **Aspose.Cells.Rendering.PdfSecurity**  namespace provides classes security options of Rendering pdf. |
 | [aspose.cells.revisions](/cells/python-net/aspose.cells.revisions) | The **Aspose.Cells.Revisions**  namespace provides classes to access revisions of Excel Spreadsheet files. |
 | [aspose.cells.saving](/cells/python-net/aspose.cells.saving) | The **Aspose.Cells.Saving**  namespace provides options classes of saving files. |
-| [aspose.cells.settings](/cells/python-net/aspose.cells.settings) |  |
+| [aspose.cells.settings](/cells/python-net/aspose.cells.settings) | The **Aspose.Cells.Settings**  namespace contains classes that define settings for different features. |
 | [aspose.cells.slicers](/cells/python-net/aspose.cells.slicers) | The **Aspose.Cells.Slicers**  namespace provides all classes for Pivot Table Slicer options for Excel Spreadsheet files. |
 | [aspose.cells.tables](/cells/python-net/aspose.cells.tables) | The **Aspose.Cells.Tables**  namespace contains classes that represent tables, rows, cells and their formatting for Excel Spreadsheet files. |
 | [aspose.cells.timelines](/cells/python-net/aspose.cells.timelines) | The **Aspose.Cells.Timelines**  namespace contains classes that allow to access and draw timelines in Excel Spreadsheet files. |

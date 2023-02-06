@@ -72,6 +72,6 @@ The BuiltinStyleType type exposes the following members:
 | COLUMN_LEVEL |  |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -28,6 +28,6 @@ The GradientStyleType type exposes the following members:
 | UNKNOWN | Unknown shading style.Only for the shading style(which is not for any member of the GradientStyleType) in the template file. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

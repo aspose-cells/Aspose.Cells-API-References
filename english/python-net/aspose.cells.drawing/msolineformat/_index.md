@@ -28,6 +28,6 @@ The MsoLineFormat type exposes the following members:
 | [weight](/cells/python-net/aspose.cells.drawing/msolineformat/weight) | Returns or sets the weight of the line ,in units of pt. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

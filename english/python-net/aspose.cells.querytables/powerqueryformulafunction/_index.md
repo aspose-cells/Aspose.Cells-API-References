@@ -30,7 +30,8 @@ The PowerQueryFormulaFunction type exposes the following members:
 | [f](/cells/python-net/aspose.cells.querytables/powerqueryformulafunction/f) | Gets and sets the definition of function. |
 
 
-### See Also
 
-* module [aspose.cells.querytables](../)
+### See Also
+* module [aspose.cells.querytables](..)
 * class [PowerQueryFormula](/cells/python-net/aspose.cells.querytables/powerqueryformula)
+* class [PowerQueryFormulaFunction](/cells/python-net/aspose.cells.querytables/powerqueryformulafunction)

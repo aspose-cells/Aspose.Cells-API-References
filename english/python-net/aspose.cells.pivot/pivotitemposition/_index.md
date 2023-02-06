@@ -24,6 +24,6 @@ The PivotItemPosition type exposes the following members:
 | CUSTOM | Represents a pivot item index, as specified by Pivot Items, that specifies a pivot item in the PivotField.<br/>only read |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

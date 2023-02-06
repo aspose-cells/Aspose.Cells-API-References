@@ -29,6 +29,6 @@ The CustomFilter type exposes the following members:
 | [set_criteria(filter_operator, criteria)](/cells/python-net/aspose.cells/customfilter/set_criteria/#FilterOperatorType-any) | Sets the filter criteria. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

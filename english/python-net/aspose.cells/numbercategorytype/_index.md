@@ -28,6 +28,6 @@ The NumberCategoryType type exposes the following members:
 | SCIENTIFIC | Scientific |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

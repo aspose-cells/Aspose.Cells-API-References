@@ -28,6 +28,8 @@ The ShapePath type exposes the following members:
 | [path_segement_list](/cells/python-net/aspose.cells.drawing/shapepath/path_segement_list) | Gets [ShapeSegmentPathCollection](/cells/python-net/aspose.cells.drawing/shapesegmentpathcollection) list |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [ShapePath](/cells/python-net/aspose.cells.drawing/shapepath)
+* class [ShapeSegmentPathCollection](/cells/python-net/aspose.cells.drawing/shapesegmentpathcollection)

@@ -27,6 +27,6 @@ The DateTimeGroupingType type exposes the following members:
 | YEAR | Group by Year. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

@@ -28,6 +28,6 @@ The SheetPrintingPreview type exposes the following members:
 | [evaluated_page_count](/cells/python-net/aspose.cells.rendering/sheetprintingpreview/evaluated_page_count) | Evaluate the total page count of this worksheet |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

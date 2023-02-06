@@ -12,6 +12,15 @@ is_root: false
 
 
 Indent level setting will be applied.
+### Definition:
+```python
+@property
+def indent(self):
+    ...
+@indent.setter
+def indent(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

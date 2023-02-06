@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the name of the pivot item.
+### Definition:
+```python
+@property
+def name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

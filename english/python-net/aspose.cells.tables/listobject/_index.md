@@ -80,6 +80,6 @@ table.list_columns[4].totals_calculation = TotalsCalculation.SUM
 workbook.save(r"Book1.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.tables](../)
+### See Also
+* module [aspose.cells.tables](..)

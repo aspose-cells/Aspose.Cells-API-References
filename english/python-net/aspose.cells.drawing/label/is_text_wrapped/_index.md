@@ -22,6 +22,15 @@ if shape.is_text_wrapped:
     shape.is_text_wrapped = !shape.is_text_wrapped
 
 ```
+### Definition:
+```python
+@property
+def is_text_wrapped(self):
+    ...
+@is_text_wrapped.setter
+def is_text_wrapped(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

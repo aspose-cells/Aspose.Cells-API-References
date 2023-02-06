@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the number of columns to display in a ComboBox or ListBox.
+### Definition:
+```python
+@property
+def column_count(self):
+    ...
+@column_count.setter
+def column_count(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.activexcontrols](../../)

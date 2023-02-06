@@ -24,6 +24,6 @@ The JsonExportHyperlinkType type exposes the following members:
 | HTML_STRING | Export as html string. |
 
 
-### See Also
 
-* module [aspose.cells.json](../)
+### See Also
+* module [aspose.cells.json](..)

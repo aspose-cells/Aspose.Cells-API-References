@@ -22,6 +22,15 @@ if shape.x == 3:
     shape.x = 1
 
 ```
+### Definition:
+```python
+@property
+def x(self):
+    ...
+@x.setter
+def x(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

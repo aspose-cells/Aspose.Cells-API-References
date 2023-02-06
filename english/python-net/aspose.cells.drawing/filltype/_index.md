@@ -28,6 +28,6 @@ The FillType type exposes the following members:
 | GROUP | Inherit the fill properties of the group. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

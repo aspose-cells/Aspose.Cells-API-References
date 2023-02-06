@@ -21,6 +21,12 @@ Gets the row index of the comment.
 row = comment1.row
 
 ```
+### Definition:
+```python
+@property
+def row(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

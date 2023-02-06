@@ -18,6 +18,15 @@ The default value is [CellsHelper.significant_digits](/cells/python-net/aspose.c
 
 
 Only could be 15 or 17 now.
+### Definition:
+```python
+@property
+def significant_digits(self):
+    ...
+@significant_digits.setter
+def significant_digits(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

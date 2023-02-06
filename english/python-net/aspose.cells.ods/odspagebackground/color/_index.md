@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the color of background.
+### Definition:
+```python
+@property
+def color(self):
+    ...
+@color.setter
+def color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.ods](../../)

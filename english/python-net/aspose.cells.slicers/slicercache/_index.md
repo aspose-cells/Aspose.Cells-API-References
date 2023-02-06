@@ -84,6 +84,6 @@ slicerCache = slicer.slicer_cache
 book.save("out.xlsx")
 
 ```
-### See Also
 
-* module [aspose.cells.slicers](../)
+### See Also
+* module [aspose.cells.slicers](..)

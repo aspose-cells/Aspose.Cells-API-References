@@ -26,6 +26,6 @@ The PresetThemeGradientType type exposes the following members:
 | RADIAL_GRADIENT | Radial gradient |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

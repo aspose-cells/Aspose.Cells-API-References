@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether the smart tag is deleted.
+### Definition:
+```python
+@property
+def deleted(self):
+    ...
+@deleted.setter
+def deleted(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.markup](../../)

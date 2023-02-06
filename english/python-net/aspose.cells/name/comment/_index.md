@@ -13,6 +13,15 @@ is_root: false
 
 Gets and sets the comment of the name.
 Only applies for Excel 2007.
+### Definition:
+```python
+@property
+def comment(self):
+    ...
+@comment.setter
+def comment(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

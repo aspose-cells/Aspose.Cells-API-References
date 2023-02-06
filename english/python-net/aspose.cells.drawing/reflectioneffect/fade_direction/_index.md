@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the direction to offset the reflection.
+### Definition:
+```python
+@property
+def fade_direction(self):
+    ...
+@fade_direction.setter
+def fade_direction(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

@@ -85,6 +85,7 @@ cfIcon2.index = 2
 workbook.save("output.xls")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [ConditionalFormattingIcon](/cells/python-net/aspose.cells/conditionalformattingicon)

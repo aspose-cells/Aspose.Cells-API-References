@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the row of the cell.
+### Definition:
+```python
+@property
+def row(self):
+    ...
+@row.setter
+def row(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

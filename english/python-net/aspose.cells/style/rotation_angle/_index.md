@@ -3,7 +3,7 @@ title: rotation_angle property
 second_title: Aspose.Cells for Python via .NET API References
 description: 
 type: docs
-weight: 380
+weight: 390
 url: /python-net/aspose.cells/style/rotation_angle/
 is_root: false
 ---
@@ -29,6 +29,15 @@ Represents text rotation angle.
 
 
 You can set 255 or value ranged from -90 to 90.
+### Definition:
+```python
+@property
+def rotation_angle(self):
+    ...
+@rotation_angle.setter
+def rotation_angle(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

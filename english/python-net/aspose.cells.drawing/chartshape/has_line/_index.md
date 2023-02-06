@@ -22,6 +22,15 @@ if shape.has_line == False:
     shape.has_line = True
 
 ```
+### Definition:
+```python
+@property
+def has_line(self):
+    ...
+@has_line.setter
+def has_line(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

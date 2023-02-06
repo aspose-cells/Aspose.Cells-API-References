@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates which scenario was last selected by the user to be run/shown.
+### Definition:
+```python
+@property
+def last_selected(self):
+    ...
+@last_selected.setter
+def last_selected(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -40,7 +40,8 @@ The GradientFill type exposes the following members:
 | [set_one_color_gradient(color, degree, style, variant)](/cells/python-net/aspose.cells.drawing/gradientfill/set_one_color_gradient/#aspose.pydrawing.Color-float-GradientStyleType-int) | Sets the specified fill to a one-color gradient.<br/>Only applies for Excel 2007. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
 * class [Fill](/cells/python-net/aspose.cells.drawing/fill)
+* class [GradientFill](/cells/python-net/aspose.cells.drawing/gradientfill)

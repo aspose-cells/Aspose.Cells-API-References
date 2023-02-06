@@ -39,15 +39,15 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 
 
 ```python
+from aspose import pycore
 from aspose.cells.drawing import MsoDrawingType
-import aspose.pycore
 
 # add a line
 floatingShape_Line = shapes.add_free_floating_shape(MsoDrawingType.LINE, 100, 100, 100, 50, None, False)
 # add a picture
 imageData = None
 with open("image.jpg", "rb") as fs:
-    len = aspose.pycore.cast(System.Int32, utils.filesize(fs))
+    len = pycore.cast(int, utils.filesize(fs))
     imageData = bytearray(len)
     fs.readinto(imageData)
 floatingShape_Picture = shapes.add_free_floating_shape(MsoDrawingType.PICTURE, 200, 100, 100, 50, imageData, False)

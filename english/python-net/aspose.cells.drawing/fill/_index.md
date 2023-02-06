@@ -16,6 +16,6 @@ Represents the fill format of the shape.
 
 The Fill type exposes the following members:
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

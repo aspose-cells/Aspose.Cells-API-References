@@ -112,6 +112,8 @@ for i in range(chart.n_series[0].points.count):
 workbook.save("book1.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)
+* class [ShapePropertyCollection](/cells/python-net/aspose.cells.drawing/shapepropertycollection)

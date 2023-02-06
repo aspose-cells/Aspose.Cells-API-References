@@ -12,6 +12,15 @@ is_root: false
 
 
 Flag indicating whether filter by the cell's fill color.
+### Definition:
+```python
+@property
+def filter_by_fill_color(self):
+    ...
+@filter_by_fill_color.setter
+def filter_by_fill_color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -12,6 +12,15 @@ is_root: false
 
 
 SubEntry of a bookmark.
+### Definition:
+```python
+@property
+def sub_entry(self):
+    ...
+@sub_entry.setter
+def sub_entry(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

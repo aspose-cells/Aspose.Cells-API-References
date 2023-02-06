@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets the new name of the worksheet.
+### Definition:
+```python
+@property
+def new_name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.revisions](../../)

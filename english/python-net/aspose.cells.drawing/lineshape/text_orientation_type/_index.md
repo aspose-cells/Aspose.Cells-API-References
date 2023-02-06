@@ -23,7 +23,17 @@ if shape.text_orientation_type == TextOrientationType.NO_ROTATION:
     shape.text_orientation_type = TextOrientationType.TOP_TO_BOTTOM
 
 ```
+### Definition:
+```python
+@property
+def text_orientation_type(self):
+    ...
+@text_orientation_type.setter
+def text_orientation_type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
 * class [LineShape](/cells/python-net/aspose.cells.drawing/lineshape)
+* class [TextOrientationType](/cells/python-net/aspose.cells/textorientationtype)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Total page count.
+### Definition:
+```python
+@property
+def page_count(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

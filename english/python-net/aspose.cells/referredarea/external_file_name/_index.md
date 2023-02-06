@@ -12,6 +12,12 @@ is_root: false
 
 
 Get the external file name if this is an external reference.
+### Definition:
+```python
+@property
+def external_file_name(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

@@ -202,6 +202,10 @@ Gets [Cell](/cells/python-net/aspose.cells/cell) item within the worksheet
 | [get_cell_style(row, column)](/cells/python-net/aspose.cells/cells/get_cell_style/#int-int) | Get the style of given cell. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Cell](/cells/python-net/aspose.cells/cell)
+* class [Column](/cells/python-net/aspose.cells/column)
+* class [Range](/cells/python-net/aspose.cells/range)
+* class [Row](/cells/python-net/aspose.cells/row)

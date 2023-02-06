@@ -29,6 +29,6 @@ The ShapePathType type exposes the following members:
 | UNKNOWN | Unknown |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

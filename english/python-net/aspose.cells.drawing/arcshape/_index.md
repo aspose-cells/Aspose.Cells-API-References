@@ -206,7 +206,11 @@ arc2.line.dash_style = MsoLineDashStyle.SOLID
 excelbook.save("tstarcs.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [ArcShape](/cells/python-net/aspose.cells.drawing/arcshape)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
+* class [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 * class [Shape](/cells/python-net/aspose.cells.drawing/shape)

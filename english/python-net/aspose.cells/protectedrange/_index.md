@@ -33,6 +33,6 @@ The ProtectedRange type exposes the following members:
 | [add_area(start_row, start_column, end_row, end_column)](/cells/python-net/aspose.cells/protectedrange/add_area/#int-int-int-int) | Adds a referred area to this |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

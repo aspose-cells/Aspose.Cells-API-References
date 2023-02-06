@@ -12,6 +12,15 @@ is_root: false
 
 
 The width of the window, in unit of centimeter.
+### Definition:
+```python
+@property
+def window_width_cm(self):
+    ...
+@window_width_cm.setter
+def window_width_cm(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

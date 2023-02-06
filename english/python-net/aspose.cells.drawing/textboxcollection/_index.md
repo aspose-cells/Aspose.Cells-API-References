@@ -53,6 +53,7 @@ for tbox in textBoxCollection:
     pass
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [TextBox](/cells/python-net/aspose.cells.drawing/textbox)

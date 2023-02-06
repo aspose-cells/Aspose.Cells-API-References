@@ -43,6 +43,6 @@ The PivotTableAutoFormatType type exposes the following members:
 | TABLE10 | Represents Table10 format type. |
 
 
-### See Also
 
-* module [aspose.cells.pivot](../)
+### See Also
+* module [aspose.cells.pivot](..)

@@ -21,6 +21,15 @@ Specifies the title (caption) of the current shape object.
 shape.title = "title1"
 
 ```
+### Definition:
+```python
+@property
+def title(self):
+    ...
+@title.setter
+def title(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

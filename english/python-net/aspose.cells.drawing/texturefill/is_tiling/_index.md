@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether tile picture as texture.
+### Definition:
+```python
+@property
+def is_tiling(self):
+    ...
+@is_tiling.setter
+def is_tiling(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

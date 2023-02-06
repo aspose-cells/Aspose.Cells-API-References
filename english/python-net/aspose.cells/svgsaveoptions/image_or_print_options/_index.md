@@ -12,7 +12,14 @@ is_root: false
 
 
 Additional image creation options
+### Definition:
+```python
+@property
+def image_or_print_options(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
+* class [ImageOrPrintOptions](/cells/python-net/aspose.cells.rendering/imageorprintoptions)
 * class [SvgSaveOptions](/cells/python-net/aspose.cells/svgsaveoptions)

@@ -21,6 +21,15 @@ Returns the bottom margin in unit of Points
 shapeTextAlignment.bottom_margin_pt = 2.0
 
 ```
+### Definition:
+```python
+@property
+def bottom_margin_pt(self):
+    ...
+@bottom_margin_pt.setter
+def bottom_margin_pt(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

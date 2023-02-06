@@ -25,6 +25,6 @@ The TextCrossType type exposes the following members:
 | STRICT_IN_CELL | Only display the text within the width of cell. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

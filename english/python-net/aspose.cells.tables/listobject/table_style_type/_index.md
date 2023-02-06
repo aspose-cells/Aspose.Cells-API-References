@@ -28,7 +28,17 @@ table.table_style_type = TableStyleType.TABLE_STYLE_DARK2
 workbook.save("TableStyle.xlsx")
 
 ```
+### Definition:
+```python
+@property
+def table_style_type(self):
+    ...
+@table_style_type.setter
+def table_style_type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.tables](../../)
 * class [ListObject](/cells/python-net/aspose.cells.tables/listobject)
+* class [TableStyleType](/cells/python-net/aspose.cells.tables/tablestyletype)

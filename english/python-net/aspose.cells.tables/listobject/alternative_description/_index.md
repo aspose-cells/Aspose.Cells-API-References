@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets and sets the alternative description.
+### Definition:
+```python
+@property
+def alternative_description(self):
+    ...
+@alternative_description.setter
+def alternative_description(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.tables](../../)

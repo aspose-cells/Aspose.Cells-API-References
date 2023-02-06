@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether the chart is a 3d chart.
+### Definition:
+```python
+@property
+def is_3d(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

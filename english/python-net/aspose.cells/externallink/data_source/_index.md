@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents data source of the external link.
+### Definition:
+```python
+@property
+def data_source(self):
+    ...
+@data_source.setter
+def data_source(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

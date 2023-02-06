@@ -24,6 +24,6 @@ The OdsCellFieldType type exposes the following members:
 | TITLE | The name of the file. |
 
 
-### See Also
 
-* module [aspose.cells.ods](../)
+### See Also
+* module [aspose.cells.ods](..)

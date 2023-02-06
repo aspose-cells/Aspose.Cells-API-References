@@ -24,6 +24,6 @@ The ReConnectionMethodType type exposes the following members:
 | NEVER | Never get updated connection information from the external connection file <br/>even if it is available and even if the existing connection information is invalid |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)

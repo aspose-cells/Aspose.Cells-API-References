@@ -12,6 +12,15 @@ is_root: false
 
 
 Permission to fill the form fields.
+### Definition:
+```python
+@property
+def fill_forms_permission(self):
+    ...
+@fill_forms_permission.setter
+def fill_forms_permission(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering.pdfsecurity](../../)

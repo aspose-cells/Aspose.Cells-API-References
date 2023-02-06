@@ -22,6 +22,6 @@ The IWarningCallback type exposes the following members:
 | [warning(warning_info)](/cells/python-net/aspose.cells/iwarningcallback/warning/#WarningInfo) | Our callback only needs to implement the "Warning" method. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

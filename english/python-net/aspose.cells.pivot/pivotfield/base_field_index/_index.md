@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the base field for a custom calculation.
+### Definition:
+```python
+@property
+def base_field_index(self):
+    ...
+@base_field_index.setter
+def base_field_index(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)

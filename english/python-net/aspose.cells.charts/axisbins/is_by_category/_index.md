@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether grouping data by category
+### Definition:
+```python
+@property
+def is_by_category(self):
+    ...
+@is_by_category.setter
+def is_by_category(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

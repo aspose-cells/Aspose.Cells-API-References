@@ -24,6 +24,6 @@ The CheckValueType type exposes the following members:
 | MIXED | Mixed |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

@@ -38,6 +38,6 @@ The PdfSecurityOptions type exposes the following members:
 | [full_quality_print_permission](/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/full_quality_print_permission) | Permission to print in high quality. |
 
 
-### See Also
 
-* module [aspose.cells.rendering.pdfsecurity](../)
+### See Also
+* module [aspose.cells.rendering.pdfsecurity](..)

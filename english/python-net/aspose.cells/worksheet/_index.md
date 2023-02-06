@@ -151,6 +151,18 @@ sheet.freeze_panes("AS40", 10, 10)
 sheet.hyperlinks.add("A1", 1, 1, "http://www.aspose.com")
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)
+* class [Chart](/cells/python-net/aspose.cells.charts/chart)
+* class [CheckBox](/cells/python-net/aspose.cells.drawing/checkbox)
+* class [Comment](/cells/python-net/aspose.cells/comment)
+* class [HorizontalPageBreakCollection](/cells/python-net/aspose.cells/horizontalpagebreakcollection)
+* class [HyperlinkCollection](/cells/python-net/aspose.cells/hyperlinkcollection)
+* class [OleObject](/cells/python-net/aspose.cells.drawing/oleobject)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)
+* class [QueryTableCollection](/cells/python-net/aspose.cells/querytablecollection)
+* class [Scenario](/cells/python-net/aspose.cells/scenario)
+* class [SmartTagCollection](/cells/python-net/aspose.cells.markup/smarttagcollection)
+* class [TextBox](/cells/python-net/aspose.cells.drawing/textbox)
+* class [VerticalPageBreakCollection](/cells/python-net/aspose.cells/verticalpagebreakcollection)

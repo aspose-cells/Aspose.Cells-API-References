@@ -35,6 +35,6 @@ The ShapeFormat type exposes the following members:
 | [has_shadow_effect()](/cells/python-net/aspose.cells.drawing/shapeformat/has_shadow_effect/#) |  |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

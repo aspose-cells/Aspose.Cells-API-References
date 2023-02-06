@@ -31,6 +31,6 @@ The TwoColorGradient type exposes the following members:
 | [variant](/cells/python-net/aspose.cells/twocolorgradient/variant) | Gets and sets the gradient variant. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

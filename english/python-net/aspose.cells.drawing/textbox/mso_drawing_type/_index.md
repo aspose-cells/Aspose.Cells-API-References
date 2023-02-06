@@ -21,7 +21,14 @@ Gets mso drawing type.
 msoDrawingType = shape.mso_drawing_type
 
 ```
+### Definition:
+```python
+@property
+def mso_drawing_type(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [MsoDrawingType](/cells/python-net/aspose.cells.drawing/msodrawingtype)
 * class [TextBox](/cells/python-net/aspose.cells.drawing/textbox)

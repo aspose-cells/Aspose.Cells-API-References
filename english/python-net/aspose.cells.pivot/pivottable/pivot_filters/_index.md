@@ -12,7 +12,14 @@ is_root: false
 
 
 Returns a PivotFilterCollection object.
+### Definition:
+```python
+@property
+def pivot_filters(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.pivot](../../)
+* class [PivotFilterCollection](/cells/python-net/aspose.cells.pivot/pivotfiltercollection)
 * class [PivotTable](/cells/python-net/aspose.cells.pivot/pivottable)

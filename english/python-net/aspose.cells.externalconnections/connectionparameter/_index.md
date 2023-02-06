@@ -29,6 +29,6 @@ The ConnectionParameter type exposes the following members:
 | [value](/cells/python-net/aspose.cells.externalconnections/connectionparameter/value) | Non-integer numeric value,Integer value,String value or Boolean value<br/>to use as the query parameter. Used only when parameterType is value. |
 
 
-### See Also
 
-* module [aspose.cells.externalconnections](../)
+### See Also
+* module [aspose.cells.externalconnections](..)

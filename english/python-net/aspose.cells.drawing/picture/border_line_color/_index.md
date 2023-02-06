@@ -33,6 +33,15 @@ pic.border_line_color = Color.red
 workbook.save("result.xlsx")
 
 ```
+### Definition:
+```python
+@property
+def border_line_color(self):
+    ...
+@border_line_color.setter
+def border_line_color(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

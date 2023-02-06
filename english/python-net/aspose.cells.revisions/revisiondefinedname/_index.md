@@ -32,7 +32,8 @@ The RevisionDefinedName type exposes the following members:
 | [new_formula](/cells/python-net/aspose.cells.revisions/revisiondefinedname/new_formula) | Gets the formula. |
 
 
-### See Also
 
-* module [aspose.cells.revisions](../)
+### See Also
+* module [aspose.cells.revisions](..)
 * class [Revision](/cells/python-net/aspose.cells.revisions/revision)
+* class [RevisionDefinedName](/cells/python-net/aspose.cells.revisions/revisiondefinedname)

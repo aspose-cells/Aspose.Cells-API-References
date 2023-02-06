@@ -12,6 +12,15 @@ is_root: false
 
 
 The cached file folder is used to store some large data.
+### Definition:
+```python
+@property
+def cached_file_folder(self):
+    ...
+@cached_file_folder.setter
+def cached_file_folder(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

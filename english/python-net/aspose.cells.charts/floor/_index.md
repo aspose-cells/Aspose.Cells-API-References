@@ -75,7 +75,9 @@ floor.fill_format.set_preset_color_gradient(GradientPresetType.CALM_WATER, Gradi
 workbook.save(r"dest.xls")
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
-* class [Area](/cells/python-net/aspose.cells.charts/area)
+### See Also
+* module [aspose.cells.charts](..)
+* class [Area](/cells/python-net/aspose.cells.drawing/area)
+* class [Floor](/cells/python-net/aspose.cells.charts/floor)
+* class [Line](/cells/python-net/aspose.cells.drawing/line)

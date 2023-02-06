@@ -31,6 +31,6 @@ The FormulaSettings type exposes the following members:
 | [enable_calculation_chain](/cells/python-net/aspose.cells/formulasettings/enable_calculation_chain) | Whether enable calculation chain for formulas. Default is false. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

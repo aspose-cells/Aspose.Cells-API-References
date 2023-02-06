@@ -47,4 +47,5 @@ def set_data_source(self, variable, data):
 
 ### See Also
 * module [aspose.cells](../../)
+* class [ICellsDataTable](/cells/python-net/aspose.cells/icellsdatatable)
 * class [WorkbookDesigner](/cells/python-net/aspose.cells/workbookdesigner)

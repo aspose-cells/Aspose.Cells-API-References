@@ -12,6 +12,15 @@ is_root: false
 
 
 Only exports visible rows.
+### Definition:
+```python
+@property
+def plot_visible_rows(self):
+    ...
+@plot_visible_rows.setter
+def plot_visible_rows(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

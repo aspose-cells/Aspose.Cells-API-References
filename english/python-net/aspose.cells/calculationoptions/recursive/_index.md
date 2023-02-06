@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells.
+### Definition:
+```python
+@property
+def recursive(self):
+    ...
+@recursive.setter
+def recursive(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

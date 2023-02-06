@@ -12,6 +12,15 @@ is_root: false
 
 
 Indicates whether showing connector lines between data points.
+### Definition:
+```python
+@property
+def show_connector_lines(self):
+    ...
+@show_connector_lines.setter
+def show_connector_lines(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

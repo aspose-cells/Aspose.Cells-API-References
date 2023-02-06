@@ -8,7 +8,9 @@ url: /python-net/aspose.cells/
 is_root: false
 ---
 
-The **Aspose.Cells**  namespace provides fundamental classes and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel.
+The **Aspose.Cells**  namespace provides fundamental and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel.
+For example, [Workbook](/cells/python-net/aspose.cells/workbook) class is the main entry to create or load and then manipulate a spreadsheet file,
+[Cells](/cells/python-net/aspose.cells/cells) class is the main class to manipulate all data and properties in a sheet, ...etc.
 
 ### Classes
 | Class | Description |

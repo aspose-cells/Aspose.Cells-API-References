@@ -12,6 +12,15 @@ is_root: false
 
 
 Returns or sets the ScreenTip text for the specified hyperlink.
+### Definition:
+```python
+@property
+def screen_tip(self):
+    ...
+@screen_tip.setter
+def screen_tip(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

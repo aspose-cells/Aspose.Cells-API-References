@@ -51,4 +51,5 @@ wb.save("twoXmlMaps.xlsx")
 
 ### See Also
 * module [aspose.cells](../../)
+* class [XmlMap](/cells/python-net/aspose.cells/xmlmap)
 * class [XmlMapCollection](/cells/python-net/aspose.cells/xmlmapcollection)

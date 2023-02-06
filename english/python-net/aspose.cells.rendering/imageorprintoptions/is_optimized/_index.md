@@ -17,6 +17,15 @@ Indicates whether to optimize the output elements.
 
 
 Default value is false. Currently only the border lines are optimized when this property is set to true.
+### Definition:
+```python
+@property
+def is_optimized(self):
+    ...
+@is_optimized.setter
+def is_optimized(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering](../../)

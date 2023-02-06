@@ -29,7 +29,17 @@ aseries.y_error_bar.plus_value = "=Sheet1!A1"
 aseries.y_error_bar.minus_value = "=Sheet1!A2"
 
 ```
+### Definition:
+```python
+@property
+def type(self):
+    ...
+@type.setter
+def type(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ErrorBar](/cells/python-net/aspose.cells.charts/errorbar)
+* class [ErrorBarType](/cells/python-net/aspose.cells.charts/errorbartype)

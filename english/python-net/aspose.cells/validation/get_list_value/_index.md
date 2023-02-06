@@ -39,4 +39,5 @@ otherwise null will be returned.
 
 ### See Also
 * module [aspose.cells](../../)
+* class [ReferredArea](/cells/python-net/aspose.cells/referredarea)
 * class [Validation](/cells/python-net/aspose.cells/validation)

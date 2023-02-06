@@ -23,6 +23,6 @@ The DataBarNegativeColorType type exposes the following members:
 | SAME_AS_POSITIVE | Use the same color as positive data bars. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

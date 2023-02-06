@@ -25,6 +25,6 @@ The TextTabAlignmentType type exposes the following members:
 | RIGHT | The text at this tab stop is right aligned. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.texts](../)
+### See Also
+* module [aspose.cells.drawing.texts](..)

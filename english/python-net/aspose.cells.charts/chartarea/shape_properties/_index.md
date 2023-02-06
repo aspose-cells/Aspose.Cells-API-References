@@ -12,7 +12,14 @@ is_root: false
 
 
 Gets the [ChartFrame.shape_properties](/cells/python-net/aspose.cells.charts/chartframe#shape_properties) object.
+### Definition:
+```python
+@property
+def shape_properties(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)
 * class [ChartArea](/cells/python-net/aspose.cells.charts/chartarea)
+* class [ShapePropertyCollection](/cells/python-net/aspose.cells.drawing/shapepropertycollection)

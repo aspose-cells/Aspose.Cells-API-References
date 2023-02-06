@@ -12,7 +12,17 @@ is_root: false
 
 
 Gets or sets the factory for creating instances with special implementation.
+### Definition:
+```python
+@property
+def custom_implementation_factory(self):
+    ...
+@custom_implementation_factory.setter
+def custom_implementation_factory(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)
 * class [CellsHelper](/cells/python-net/aspose.cells/cellshelper)
+* class [CustomImplementationFactory](/cells/python-net/aspose.cells/customimplementationfactory)

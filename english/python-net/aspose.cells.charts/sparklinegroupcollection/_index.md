@@ -64,6 +64,7 @@ group.sparkline_collection.add(sheet.name + "!A1:D1", 0, 4)
 book.save("output.xlsx", SaveFormat.XLSX)
 
 ```
-### See Also
 
-* module [aspose.cells.charts](../)
+### See Also
+* module [aspose.cells.charts](..)
+* class [SparklineGroup](/cells/python-net/aspose.cells.charts/sparklinegroup)

@@ -12,6 +12,12 @@ is_root: false
 
 
 The field to group by, as a zero-based integer offset
+### Definition:
+```python
+@property
+def group_by(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

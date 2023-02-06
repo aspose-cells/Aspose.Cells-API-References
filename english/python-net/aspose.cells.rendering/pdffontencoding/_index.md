@@ -23,6 +23,6 @@ The PdfFontEncoding type exposes the following members:
 | ANSI_PREFER | Represents prefer to use WinAnsiEncoding for TrueType fonts with characters 32-127,<br/>otherwise, Identity-H encoding will be used for embedded fonts in pdf. |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

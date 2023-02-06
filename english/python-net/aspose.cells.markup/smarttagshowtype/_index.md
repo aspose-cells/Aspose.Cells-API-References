@@ -24,6 +24,6 @@ The SmartTagShowType type exposes the following members:
 | NONE | Indicates that smart tags are disabled and not displayed. |
 
 
-### See Also
 
-* module [aspose.cells.markup](../)
+### See Also
+* module [aspose.cells.markup](..)

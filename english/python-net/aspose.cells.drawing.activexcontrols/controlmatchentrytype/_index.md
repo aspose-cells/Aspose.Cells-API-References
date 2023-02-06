@@ -24,6 +24,6 @@ The ControlMatchEntryType type exposes the following members:
 | NONE | The list will not be searched when characters are typed. |
 
 
-### See Also
 
-* module [aspose.cells.drawing.activexcontrols](../)
+### See Also
+* module [aspose.cells.drawing.activexcontrols](..)

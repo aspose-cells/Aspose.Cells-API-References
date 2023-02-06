@@ -28,6 +28,6 @@ The DrawObject type exposes the following members:
 | [sheet_index](/cells/python-net/aspose.cells.rendering/drawobject/sheet_index) | Indicates current sheet index of DrawObject. |
 
 
-### See Also
 
-* module [aspose.cells.rendering](../)
+### See Also
+* module [aspose.cells.rendering](..)

@@ -12,6 +12,15 @@ is_root: false
 
 
 Permission to print in high quality.
+### Definition:
+```python
+@property
+def full_quality_print_permission(self):
+    ...
+@full_quality_print_permission.setter
+def full_quality_print_permission(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.rendering.pdfsecurity](../../)

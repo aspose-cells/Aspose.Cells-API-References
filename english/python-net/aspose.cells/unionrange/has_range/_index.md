@@ -12,6 +12,12 @@ is_root: false
 
 
 Indicates whether this has range.
+### Definition:
+```python
+@property
+def has_range(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

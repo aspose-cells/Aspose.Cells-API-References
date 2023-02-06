@@ -195,7 +195,11 @@ worksheet.pictures.add(5, 5, "image.gif")
 workbook.save("book1.xls", SaveFormat.EXCEL_97_TO_2003)
 
 ```
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [GlowEffect](/cells/python-net/aspose.cells.drawing/gloweffect)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)
+* class [ReflectionEffect](/cells/python-net/aspose.cells.drawing/reflectioneffect)
+* class [ShadowEffect](/cells/python-net/aspose.cells.drawing/shadoweffect)
 * class [Shape](/cells/python-net/aspose.cells.drawing/shape)

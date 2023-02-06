@@ -12,6 +12,15 @@ is_root: false
 
 
 Represents the distance from the bottom of the page to the footer, in unit of inches.
+### Definition:
+```python
+@property
+def footer_margin_inch(self):
+    ...
+@footer_margin_inch.setter
+def footer_margin_inch(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

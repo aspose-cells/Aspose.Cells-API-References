@@ -21,6 +21,15 @@ Returns the left margin in unit of Points
 shapeTextAlignment.left_margin_pt = 2.0
 
 ```
+### Definition:
+```python
+@property
+def left_margin_pt(self):
+    ...
+@left_margin_pt.setter
+def left_margin_pt(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing.texts](../../)

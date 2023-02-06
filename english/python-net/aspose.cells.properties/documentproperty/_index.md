@@ -36,6 +36,6 @@ The DocumentProperty type exposes the following members:
 | [to_bool()](/cells/python-net/aspose.cells.properties/documentproperty/to_bool/#) | Returns the property value as bool. |
 
 
-### See Also
 
-* module [aspose.cells.properties](../)
+### See Also
+* module [aspose.cells.properties](..)

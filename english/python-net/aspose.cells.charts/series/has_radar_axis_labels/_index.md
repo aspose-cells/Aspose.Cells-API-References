@@ -12,6 +12,15 @@ is_root: false
 
 
 True if a radar chart has category axis labels. Applies only to radar charts.
+### Definition:
+```python
+@property
+def has_radar_axis_labels(self):
+    ...
+@has_radar_axis_labels.setter
+def has_radar_axis_labels(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

@@ -12,6 +12,12 @@ is_root: false
 
 
 Represents height of default position
+### Definition:
+```python
+@property
+def default_height(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

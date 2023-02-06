@@ -13,6 +13,15 @@ is_root: false
 
 Gets and sets the class identifier of the embedded object. 
 It means which application opens the embedded file.
+### Definition:
+```python
+@property
+def class_identifier(self):
+    ...
+@class_identifier.setter
+def class_identifier(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

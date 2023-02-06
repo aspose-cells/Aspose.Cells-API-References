@@ -12,6 +12,15 @@ is_root: false
 
 
 Gets or sets the informational name of the document template.
+### Definition:
+```python
+@property
+def template(self):
+    ...
+@template.setter
+def template(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.properties](../../)

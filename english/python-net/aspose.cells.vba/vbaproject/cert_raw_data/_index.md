@@ -12,6 +12,12 @@ is_root: false
 
 
 Gets certificate raw data if this VBA project is signed.
+### Definition:
+```python
+@property
+def cert_raw_data(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.vba](../../)

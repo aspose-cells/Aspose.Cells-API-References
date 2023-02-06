@@ -36,6 +36,6 @@ The DataLabelShapeType type exposes the following members:
 | LINE | This type is only used for special file processing |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)

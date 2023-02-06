@@ -23,6 +23,6 @@ The IStreamProvider type exposes the following members:
 | [close_stream(options)](/cells/python-net/aspose.cells/istreamprovider/close_stream/#StreamProviderOptions) | Closes the stream. |
 
 
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

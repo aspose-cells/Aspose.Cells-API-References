@@ -12,6 +12,12 @@ is_root: false
 
 
 Width of Ticklabel item in ratio of chart width.
+### Definition:
+```python
+@property
+def width(self):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

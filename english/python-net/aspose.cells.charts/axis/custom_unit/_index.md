@@ -12,6 +12,15 @@ is_root: false
 
 
 Specifies a custom value for the display unit.
+### Definition:
+```python
+@property
+def custom_unit(self):
+    ...
+@custom_unit.setter
+def custom_unit(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.charts](../../)

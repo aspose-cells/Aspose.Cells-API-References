@@ -29,6 +29,8 @@ The LineType type exposes the following members:
 | SOLID | Represent a solid line. |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
+* class [Chart](/cells/python-net/aspose.cells.charts/chart)
+* class [Picture](/cells/python-net/aspose.cells.drawing/picture)

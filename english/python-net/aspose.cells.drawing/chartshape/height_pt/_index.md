@@ -22,6 +22,15 @@ if shape.height_pt == 3:
     shape.height_pt = 1
 
 ```
+### Definition:
+```python
+@property
+def height_pt(self):
+    ...
+@height_pt.setter
+def height_pt(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells.drawing](../../)

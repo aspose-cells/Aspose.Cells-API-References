@@ -33,4 +33,5 @@ def add(self, type):
 
 ### See Also
 * module [aspose.cells.drawing](../../)
+* class [ShapeSegmentPath](/cells/python-net/aspose.cells.drawing/shapesegmentpath)
 * class [ShapeSegmentPathCollection](/cells/python-net/aspose.cells.drawing/shapesegmentpathcollection)

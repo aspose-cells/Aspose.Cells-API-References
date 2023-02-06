@@ -106,3 +106,4 @@ def create_range(self, first_row, first_column, total_rows, total_columns):
 ### See Also
 * module [aspose.cells](../../)
 * class [Cells](/cells/python-net/aspose.cells/cells)
+* class [Range](/cells/python-net/aspose.cells/range)

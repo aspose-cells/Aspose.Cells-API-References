@@ -79,6 +79,6 @@ worksheet.protection.allow_selecting_locked_cell = True
 worksheet.protection.allow_selecting_unlocked_cell = True
 
 ```
-### See Also
 
-* module [aspose.cells](../)
+### See Also
+* module [aspose.cells](..)

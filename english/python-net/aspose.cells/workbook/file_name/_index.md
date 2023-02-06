@@ -18,6 +18,15 @@ Gets and sets the current file name.
 
 If the file is opened by stream and there are some external formula references,
 please set the file name.
+### Definition:
+```python
+@property
+def file_name(self):
+    ...
+@file_name.setter
+def file_name(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

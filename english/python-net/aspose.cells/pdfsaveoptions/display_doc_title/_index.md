@@ -18,6 +18,15 @@ Indicates whether the window's title bar should display the document title.
 
 If false, the title bar should instead display the name of the PDF file.
 Default value is false.
+### Definition:
+```python
+@property
+def display_doc_title(self):
+    ...
+@display_doc_title.setter
+def display_doc_title(self, value):
+    ...
+```
 
 ### See Also
 * module [aspose.cells](../../)

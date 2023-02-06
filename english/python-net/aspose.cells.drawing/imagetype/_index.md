@@ -35,6 +35,6 @@ The ImageType type exposes the following members:
 | WEB_P | Weppy image format |
 
 
-### See Also
 
-* module [aspose.cells.drawing](../)
+### See Also
+* module [aspose.cells.drawing](..)
