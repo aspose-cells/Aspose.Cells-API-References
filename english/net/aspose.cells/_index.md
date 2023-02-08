@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells
 second_title: Aspose.Cells for .NET API Reference
-description: The Aspose.Cells namespace provides fundamental classes and base classes for generating converting modifying rendering and printing Spreadsheets without utilizing Microsoft Excel.
+description: The Aspose.Cells namespace provides fundamental and base classes for generating converting modifying rendering and printing Spreadsheets without utilizing Microsoft Excel. For example Workbookaspose.cells/workbook class is the main entry to create or load and then manipulate a spreadsheet file Cellsaspose.cells/cells class is the main class to manipulate all data and properties in a sheet ...etc.
 type: docs
 url: /net/aspose.cells/
 ---
-The **Aspose.Cells** namespace provides fundamental classes and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel.
+The **Aspose.Cells** namespace provides fundamental and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel. For example, [`Workbook`](aspose.cells/workbook) class is the main entry to create or load and then manipulate a spreadsheet file, [`Cells`](aspose.cells/cells) class is the main class to manipulate all data and properties in a sheet, ...etc.
 
 ## Classes
 

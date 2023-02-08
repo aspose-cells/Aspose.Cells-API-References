@@ -120,6 +120,7 @@ public class Cell
 | [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula_3)(int, int, string, string, object[][]) | Create two-variable data table for given range starting from this cell. |
 | [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula)(int, int, int, int, bool, object[][]) | Create one-variable data table for given range starting from this cell. |
 | [SetTableFormula](../../aspose.cells/cell/settableformula#settableformula_1)(int, int, int, int, int, int, object[][]) | Create two-variable data table for given range starting from this cell. |
+| [ToJson](../../aspose.cells/cell/tojson)() | Convert [`Cell`](../cell) to JSON struct data. |
 | override [ToString](../../aspose.cells/cell/tostring)() | Returns a string represents the current Cell object. |
 
 ### Examples

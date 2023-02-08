@@ -29,6 +29,7 @@ public class Legend : ChartTextFrame
 | virtual [DirectionType](../../aspose.cells.charts/charttextframe/directiontype) { get; set; } | Gets and sets the direction of text.(Inherited from [`ChartTextFrame`](../charttextframe).) |
 | virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | Gets a [`Font`](../chartframe/font) object of the specified ChartFrame object.(Inherited from [`ChartFrame`](../chartframe).) |
 | virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | Gets or sets the height of frame in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe).) |
+| [IsAutomaticRotation](../../aspose.cells.charts/charttextframe/isautomaticrotation) { get; } | Indicates whether the text of the chart is automatically rotated.(Inherited from [`ChartTextFrame`](../charttextframe).) |
 | virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | Indicates whether the chart frame is automatic sized.(Inherited from [`ChartFrame`](../chartframe).) |
 | virtual [IsAutoText](../../aspose.cells.charts/charttextframe/isautotext) { get; set; } | Indicates the text is auto generated.(Inherited from [`ChartTextFrame`](../charttextframe).) |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.(Inherited from [`ChartFrame`](../chartframe).) |

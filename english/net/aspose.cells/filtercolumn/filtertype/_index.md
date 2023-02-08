@@ -1,11 +1,13 @@
 ---
 title: FilterType
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the type fo filtering data.
 type: docs
 url: /net/aspose.cells/filtercolumn/filtertype/
 ---
 ## FilterColumn.FilterType property
+
+Gets and sets the type fo filtering data.
 
 ```csharp
 public FilterType FilterType { get; set; }

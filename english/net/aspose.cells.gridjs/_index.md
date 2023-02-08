@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.GridJs
 second_title: Aspose.Cells for .NET API Reference
-description: Contains all classes of of GridJs.
+description: The Aspose.Cells.GridJs namespace contains all classes of GridJs which provide basic operations for managing spreadsheets without utilizing Microsoft Excel .
 type: docs
 url: /net/aspose.cells.gridjs/
 ---
-Contains all classes of of GridJs.
+The **Aspose.Cells.GridJs** namespace contains all classes of GridJs which provide basic operations for managing spreadsheets without utilizing Microsoft Excel .
 
 ## Classes
 

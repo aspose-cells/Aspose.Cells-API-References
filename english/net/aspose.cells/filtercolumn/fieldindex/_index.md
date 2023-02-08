@@ -1,11 +1,13 @@
 ---
 title: FieldIndex
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the column offset in the range.
 type: docs
 url: /net/aspose.cells/filtercolumn/fieldindex/
 ---
 ## FilterColumn.FieldIndex property
+
+Gets and sets the column offset in the range.
 
 ```csharp
 public int FieldIndex { get; set; }

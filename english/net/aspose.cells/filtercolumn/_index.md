@@ -17,9 +17,9 @@ public class FilterColumn
 
 | Name | Description |
 | --- | --- |
-| [FieldIndex](../../aspose.cells/filtercolumn/fieldindex) { get; set; } |  |
-| [Filter](../../aspose.cells/filtercolumn/filter) { get; set; } |  |
-| [FilterType](../../aspose.cells/filtercolumn/filtertype) { get; set; } |  |
+| [FieldIndex](../../aspose.cells/filtercolumn/fieldindex) { get; set; } | Gets and sets the column offset in the range. |
+| [Filter](../../aspose.cells/filtercolumn/filter) { get; set; } | Gets and sets the condition of filtering data. |
+| [FilterType](../../aspose.cells/filtercolumn/filtertype) { get; set; } | Gets and sets the type fo filtering data. |
 | [IsDropdownVisible](../../aspose.cells/filtercolumn/isdropdownvisible) { get; set; } | Indicates whether the AutoFilter button for this column is visible. |
 | [Visibledropdown](../../aspose.cells/filtercolumn/visibledropdown) { get; set; } | (**Obsolete.**) Indicates whether the AutoFilter button for this column is visible. |
 

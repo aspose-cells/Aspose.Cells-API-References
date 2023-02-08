@@ -1,11 +1,13 @@
 ---
 title: Filter
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Gets and sets the condition of filtering data.
 type: docs
 url: /net/aspose.cells/filtercolumn/filter/
 ---
 ## FilterColumn.Filter property
+
+Gets and sets the condition of filtering data.
 
 ```csharp
 public object Filter { get; set; }

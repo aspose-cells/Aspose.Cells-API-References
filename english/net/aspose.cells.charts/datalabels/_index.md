@@ -29,6 +29,7 @@ public class DataLabels : ChartTextFrame
 | override [DirectionType](../../aspose.cells.charts/datalabels/directiontype) { get; set; } | Gets and sets the direction of text. |
 | override [Font](../../aspose.cells.charts/datalabels/font) { get; } | Gets the font of the DataLabels; |
 | virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | Gets or sets the height of frame in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe).) |
+| [IsAutomaticRotation](../../aspose.cells.charts/charttextframe/isautomaticrotation) { get; } | Indicates whether the text of the chart is automatically rotated.(Inherited from [`ChartTextFrame`](../charttextframe).) |
 | virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | Indicates whether the chart frame is automatic sized.(Inherited from [`ChartFrame`](../chartframe).) |
 | override [IsAutoText](../../aspose.cells.charts/datalabels/isautotext) { get; set; } | Indicates the text is auto generated. |
 | [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.(Inherited from [`ChartFrame`](../chartframe).) |

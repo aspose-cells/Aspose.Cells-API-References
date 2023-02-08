@@ -69,6 +69,7 @@ public class Style
 | [SetCustom](../../aspose.cells/style/setcustom)(string, bool) | Sets the Custom number format string of a cell. |
 | [SetPatternColor](../../aspose.cells/style/setpatterncolor)(BackgroundType, Color, Color) | Sets the background color. |
 | [SetTwoColorGradient](../../aspose.cells/style/settwocolorgradient)(Color, Color, GradientStyleType, int) | Sets the specified fill to a two-color gradient. |
+| [ToJson](../../aspose.cells/style/tojson)() | Convert [`Style`](../style) to JSON struct data. |
 | [Update](../../aspose.cells/style/update)() | Apply the named style to the styles of the cells which use this named style. It works like clicking the "ok" button after you finished modifying the style. Only applies for named style. |
 
 ### Examples

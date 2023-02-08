@@ -1,16 +1,16 @@
 ---
-title: IgnoreArrayTitle
+title: IgnoreTitle
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Ingores titles of attributes
 type: docs
-url: /net/aspose.cells.utility/jsonlayoutoptions/ignorearraytitle/
+url: /net/aspose.cells.utility/jsonlayoutoptions/ignoretitle/
 ---
-## JsonLayoutOptions.IgnoreArrayTitle property
+## JsonLayoutOptions.IgnoreTitle property
+
+Ingores titles of attributes
 
 ```csharp
-[Obsolete("Use JsonLayoutOptions.IgnoreTitle property instead.")]
-[EditorBrowsable(EditorBrowsableState.Never)]
-public bool IgnoreArrayTitle { get; set; }
+public bool IgnoreTitle { get; set; }
 ```
 
 ### See Also
