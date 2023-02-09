@@ -100,6 +100,7 @@ Workbook workbook = new Workbook();
 | [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Sets a value indicating whether the text within a cell is wrapped. |
 | [setTwoColorGradient(Color color1, Color color2, int gradientStyleType, int variant)](#setTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-) | Sets the specified fill to a two-color gradient. |
 | [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Sets the vertical alignment type of the text in a cell. |
+| [toJson()](#toJson--) | Convert [Style](../../com.aspose.cells/style) to JSON struct data. |
 | [toString()](#toString--) |  |
 | [update()](#update--) | Apply the named style to the styles of the cells which use this named style. |
 | [wait()](#wait--) |  |
@@ -992,6 +993,16 @@ Sets the vertical alignment type of the text in a cell.
 | --- | --- | --- |
 | value | int |  |
 
+### toJson() {#toJson--}
+```
+public String toJson()
+```
+
+
+Convert [Style](../../com.aspose.cells/style) to JSON struct data.
+
+**Returns:**
+java.lang.String - 
 ### toString() {#toString--}
 ```
 public String toString()

@@ -19,18 +19,18 @@ Represents a filter for a single column. The Filter object is a member of the Fi
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFieldIndex()](#getFieldIndex--) |  |
-| [getFilter()](#getFilter--) |  |
-| [getFilterType()](#getFilterType--) |  |
+| [getFieldIndex()](#getFieldIndex--) | Gets the column offset in the range. |
+| [getFilter()](#getFilter--) | Gets the condition of filtering data. |
+| [getFilterType()](#getFilterType--) | Gets the type fo filtering data. |
 | [getVisibledropdown()](#getVisibledropdown--) | Indicates whether the AutoFilter button for this column is visible. |
 | [hashCode()](#hashCode--) |  |
 | [isDropdownVisible()](#isDropdownVisible--) | Indicates whether the AutoFilter button for this column is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDropdownVisible(boolean value)](#setDropdownVisible-boolean-) | Indicates whether the AutoFilter button for this column is visible. |
-| [setFieldIndex(int value)](#setFieldIndex-int-) |  |
-| [setFilter(Object value)](#setFilter-java.lang.Object-) |  |
-| [setFilterType(int value)](#setFilterType-int-) |  |
+| [setFieldIndex(int value)](#setFieldIndex-int-) | Sets the column offset in the range. |
+| [setFilter(Object value)](#setFilter-java.lang.Object-) | Sets the condition of filtering data. |
+| [setFilterType(int value)](#setFilterType-int-) | Sets the type fo filtering data. |
 | [setVisibledropdown(boolean value)](#setVisibledropdown-boolean-) | Indicates whether the AutoFilter button for this column is visible. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -67,7 +67,7 @@ public int getFieldIndex()
 ```
 
 
-
+Gets the column offset in the range.
 
 **Returns:**
 int
@@ -77,7 +77,7 @@ public Object getFilter()
 ```
 
 
-
+Gets the condition of filtering data.
 
 **Returns:**
 java.lang.Object
@@ -87,7 +87,7 @@ public int getFilterType()
 ```
 
 
-
+Gets the type fo filtering data.
 
 **Returns:**
 int
@@ -156,7 +156,7 @@ public void setFieldIndex(int value)
 ```
 
 
-
+Sets the column offset in the range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public void setFilter(Object value)
 ```
 
 
-
+Sets the condition of filtering data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public void setFilterType(int value)
 ```
 
 
-
+Sets the type fo filtering data.
 
 **Parameters:**
 | Parameter | Type | Description |

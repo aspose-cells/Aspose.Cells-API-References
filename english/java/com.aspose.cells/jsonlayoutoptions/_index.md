@@ -30,6 +30,7 @@ Represents the options of json layout type.
 | [getIgnoreArrayTitle()](#getIgnoreArrayTitle--) | Indicates whether ignore title if array is a property of object. |
 | [getIgnoreNull()](#getIgnoreNull--) | Indicates whether ignoring null value. |
 | [getIgnoreObjectTitle()](#getIgnoreObjectTitle--) | Indicates whether ignore title if object is a property of object. |
+| [getIgnoreTitle()](#getIgnoreTitle--) | Ingores titles of attributes |
 | [getNumberFormat()](#getNumberFormat--) | Gets the format of numeric value. |
 | [getTitleStyle()](#getTitleStyle--) | Gets the style of the title. |
 | [hashCode()](#hashCode--) |  |
@@ -41,6 +42,7 @@ Represents the options of json layout type.
 | [setIgnoreArrayTitle(boolean value)](#setIgnoreArrayTitle-boolean-) | Indicates whether ignore title if array is a property of object. |
 | [setIgnoreNull(boolean value)](#setIgnoreNull-boolean-) | Indicates whether ignoring null value. |
 | [setIgnoreObjectTitle(boolean value)](#setIgnoreObjectTitle-boolean-) | Indicates whether ignore title if object is a property of object. |
+| [setIgnoreTitle(boolean value)](#setIgnoreTitle-boolean-) | Ingores titles of attributes |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Sets the format of numeric value. |
 | [setTitleStyle(Style value)](#setTitleStyle-com.aspose.cells.Style-) | Sets the style of the title. |
 | [toString()](#toString--) |  |
@@ -134,7 +136,17 @@ public boolean getIgnoreObjectTitle()
 ```
 
 
-Indicates whether ignore title if object is a property of object.
+Indicates whether ignore title if object is a property of object. NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+boolean
+### getIgnoreTitle() {#getIgnoreTitle--}
+```
+public boolean getIgnoreTitle()
+```
+
+
+Ingores titles of attributes
 
 **Returns:**
 boolean
@@ -255,7 +267,20 @@ public void setIgnoreObjectTitle(boolean value)
 ```
 
 
-Indicates whether ignore title if object is a property of object.
+Indicates whether ignore title if object is a property of object. NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setIgnoreTitle(boolean value) {#setIgnoreTitle-boolean-}
+```
+public void setIgnoreTitle(boolean value)
+```
+
+
+Ingores titles of attributes
 
 **Parameters:**
 | Parameter | Type | Description |

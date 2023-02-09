@@ -85,6 +85,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getY()](#getY--) | Gets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoText()](#isAutoText--) | Indicates the text is auto generated. |
+| [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the text of the chart is automatically rotated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [isDeleted()](#isDeleted--) | Indicates whether this data labels is deleted. |
@@ -623,6 +624,16 @@ public boolean isAutoText()
 
 
 Indicates the text is auto generated.
+
+**Returns:**
+boolean
+### isAutomaticRotation() {#isAutomaticRotation--}
+```
+public boolean isAutomaticRotation()
+```
+
+
+Indicates whether the text of the chart is automatically rotated.
 
 **Returns:**
 boolean
