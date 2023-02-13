@@ -27,9 +27,9 @@ The JsonLayoutOptions type exposes the following members:
 | :- | :- |
 | [array_as_table](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/array_as_table) | Processes Array as table. |
 | [ignore_null](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_null) | Indicates whether ignoring null value. |
-| [ignore_array_title0](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_array_title0) |  |
-| [ignore_object_title0](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_object_title0) | Indicates whether ignore title if object is a property of object. |
-| [ignore_title](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_title) | Ingore titles of attributes |
+| [ignore_array_title](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_array_title) | Indicates whether ignore title if array is a property of object. |
+| [ignore_object_title](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_object_title) | Indicates whether ignore title if object is a property of object. |
+| [ignore_title](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_title) | Ingores titles of attributes |
 | [convert_numeric_or_date](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/convert_numeric_or_date) | Gets or sets a value that indicates whether the string in json is converted to numeric or date. |
 | [number_format](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/number_format) | Gets and sets the format of numeric value. |
 | [date_format](/cells/python-net/aspose.cells.utility/jsonlayoutoptions/date_format) | Gets and sets the format of date value. |

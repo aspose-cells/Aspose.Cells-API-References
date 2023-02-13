@@ -11,7 +11,7 @@ is_root: false
 ## ignore_title property
 
 
-Ingore titles of attributes
+Ingores titles of attributes
 ### Definition:
 ```python
 @property
