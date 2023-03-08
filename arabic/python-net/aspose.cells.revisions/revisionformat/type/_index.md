@@ -1,0 +1,23 @@
+﻿---
+title: type الملكية
+second_title: Aspose.Cells for Python via .NET API المراجع
+description:
+type: docs
+weight: 60
+url: /ar/python-net/aspose.cells.revisions/revisionformat/type/
+is_root: false
+---
+##  type الملكية
+
+يحصل على type من المراجعة.
+###  تعريف:
+```python
+@property
+def type(self):
+    ...
+```
+
+###  أنظر أيضا
+* وحدة [aspose.cells.revisions](../../)
+* فئة [RevisionFormat](/cells/ar/python-net/aspose.cells.revisions/revisionformat)
+* فئة [RevisionType](/cells/ar/python-net/aspose.cells.revisions/revisiontype)

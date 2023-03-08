@@ -1,0 +1,30 @@
+﻿---
+title: compression_type الملكية
+second_title: Aspose.Cells for Python via .NET API المراجع
+description:
+type: docs
+weight: 50
+url: /ar/python-net/aspose.cells/xlsbsaveoptions/compression_type/
+is_root: false
+---
+##  compression_type الملكية
+
+الحصول على نوع الضغط لملف ooxml وتعيينه.
+
+###  ملاحظات
+
+القيمة الافتراضية هي OoxmlCompressionType.Level6.
+###  تعريف:
+```python
+@property
+def compression_type(self):
+    ...
+@compression_type.setter
+def compression_type(self, value):
+    ...
+```
+
+###  أنظر أيضا
+* وحدة [aspose.cells](../../)
+* فئة [OoxmlCompressionType](/cells/ar/python-net/aspose.cells/ooxmlcompressiontype)
+* فئة [XlsbSaveOptions](/cells/ar/python-net/aspose.cells/xlsbsaveoptions)
