@@ -1,0 +1,25 @@
+﻿---
+title: is_locked 属性
+second_title: Aspose.Cells for Python via .NET API 参考资料
+description:
+type: docs
+weight: 150
+url: /zh/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/is_locked/
+is_root: false
+---
+## is_locked 属性
+
+指示控件中的数据是否已锁定以供编辑。
+### 定义：
+```python
+@property
+def is_locked(self):
+    ...
+@is_locked.setter
+def is_locked(self, value):
+    ...
+```
+
+### 也可以看看
+* 模块 [aspose.cells.drawing.activexcontrols](../../)
+* 类 [RadioButtonActiveXControl](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol)

@@ -1,0 +1,30 @@
+﻿---
+title: get_legend_decrease_name Methode
+second_title: Aspose.Cells for Python via .NET API Referenzen
+description:
+type: docs
+weight: 50
+url: /de/python-net/aspose.cells.charts/chartglobalizationsettings/get_legend_decrease_name/
+is_root: false
+---
+##  get_legend_decrease_name() {#}
+Ruft den Namen von Decrease for Legend ab.
+
+
+###  Kehrt zurück
+
+
+
+
+```python
+def get_legend_decrease_name(self):
+    ...
+```
+
+
+
+
+
+###  Siehe auch
+* Modul [aspose.cells.charts](../../)
+* Klasse [ChartGlobalizationSettings](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings)
