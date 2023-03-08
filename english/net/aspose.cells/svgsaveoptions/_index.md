@@ -1,15 +1,15 @@
 ---
 title: SvgSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Represents Svg save options. For advanced usage please use WorkbookRender../aspose.cells.rendering/workbookrender or SheetRender../aspose.cells.rendering/sheetrender.
+description: 
 type: docs
 url: /net/aspose.cells/svgsaveoptions/
 ---
 ## SvgSaveOptions class
 
-Represents Svg save options. For advanced usage, please use [`WorkbookRender`](../../aspose.cells.rendering/workbookrender) or [`SheetRender`](../../aspose.cells.rendering/sheetrender).
-
 ```csharp
+[Obsolete("Use ImageSaveOptions class instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public class SvgSaveOptions : ImageSaveOptions
 ```
 
@@ -17,8 +17,8 @@ public class SvgSaveOptions : ImageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [SvgSaveOptions](svgsaveoptions#constructor)() | Creates the options for saving svg file. |
-| [SvgSaveOptions](svgsaveoptions#constructor_1)(SaveFormat) | (**Obsolete.**) Creates the options for saving svg file. |
+| [SvgSaveOptions](svgsaveoptions#constructor)() | (**Obsolete.**) The default constructor. |
+| [SvgSaveOptions](svgsaveoptions#constructor_1)(SaveFormat) | (**Obsolete.**)  |
 
 ## Properties
 
@@ -27,11 +27,11 @@ public class SvgSaveOptions : ImageSaveOptions
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | The cached file folder is used to store some large data.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [ImageOrPrintOptions](../../aspose.cells/imagesaveoptions/imageorprintoptions) { get; } | Additional image creation options(Inherited from [`ImageSaveOptions`](../imagesaveoptions).) |
+| [ImageOrPrintOptions](../../aspose.cells/imagesaveoptions/imageorprintoptions) { get; } | Additional image creation options.(Inherited from [`ImageSaveOptions`](../imagesaveoptions).) |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions).) |
-| [SheetIndex](../../aspose.cells/svgsaveoptions/sheetindex) { get; set; } | Gets and sets which worksheet should be exported. If the value is -1, the active worksheet will be exported. |
+| [SheetIndex](../../aspose.cells/svgsaveoptions/sheetindex) { get; set; } | (**Obsolete.**)  |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indicates whether sorting external defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indicates whether sorting defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [StreamProvider](../../aspose.cells/imagesaveoptions/streamprovider) { get; set; } | Gets or sets the IStreamProvider for exporting objects.(Inherited from [`ImageSaveOptions`](../imagesaveoptions).) |

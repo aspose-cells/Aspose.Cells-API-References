@@ -28,8 +28,9 @@ public class CalculationOptions
 | [CustomEngine](../../aspose.cells/calculationoptions/customengine) { get; set; } | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [CustomFunction](../../aspose.cells/calculationoptions/customfunction) { get; set; } | (**Obsolete.**) The custom formula calculation functions to extend the calculation engine. |
 | [IgnoreError](../../aspose.cells/calculationoptions/ignoreerror) { get; set; } | Indicates if you need to hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
+| [LinkedDataSources](../../aspose.cells/calculationoptions/linkeddatasources) { get; set; } | Specifies the data sources for external links used in formulas. |
 | [PrecisionStrategy](../../aspose.cells/calculationoptions/precisionstrategy) { get; set; } | Specifies the strategy for processing precision of calculation. |
-| [Recursive](../../aspose.cells/calculationoptions/recursive) { get; set; } | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |
+| [Recursive](../../aspose.cells/calculationoptions/recursive) { get; set; } | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value if true. |
 
 ### See Also
 

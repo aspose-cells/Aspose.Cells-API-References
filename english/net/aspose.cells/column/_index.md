@@ -17,7 +17,7 @@ public class Column
 
 | Name | Description |
 | --- | --- |
-| [GroupLevel](../../aspose.cells/column/grouplevel) { get; } | Gets the group level of the column. |
+| [GroupLevel](../../aspose.cells/column/grouplevel) { get; set; } | Gets the group level of the column. |
 | [HasCustomStyle](../../aspose.cells/column/hascustomstyle) { get; } | Indicates whether this column has custom style settings(different from the default one inherited from workbook). |
 | [Index](../../aspose.cells/column/index) { get; } | Gets the index of this column. |
 | [IsCollapsed](../../aspose.cells/column/iscollapsed) { get; set; } | whether the column is collapsed |

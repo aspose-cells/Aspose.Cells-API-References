@@ -23,6 +23,7 @@ public class SheetSet
 
 | Name | Description |
 | --- | --- |
+| static [Active](../../aspose.cells.rendering/sheetset/active) { get; } | Gets a set with active sheet of the workbook. |
 | static [All](../../aspose.cells.rendering/sheetset/all) { get; } | Gets a set with all sheets of the workbook in their original order. |
 | static [Visible](../../aspose.cells.rendering/sheetset/visible) { get; } | Gets a set with visible sheets of the workbook in their original order. |
 

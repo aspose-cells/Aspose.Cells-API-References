@@ -26,7 +26,7 @@ public class JsonLayoutOptions
 | [ArrayAsTable](../../aspose.cells.utility/jsonlayoutoptions/arrayastable) { get; set; } | Processes Array as table. |
 | [ConvertNumericOrDate](../../aspose.cells.utility/jsonlayoutoptions/convertnumericordate) { get; set; } | Gets or sets a value that indicates whether the string in json is converted to numeric or date. |
 | [DateFormat](../../aspose.cells.utility/jsonlayoutoptions/dateformat) { get; set; } | Gets and sets the format of date value. |
-| [IgnoreArrayTitle](../../aspose.cells.utility/jsonlayoutoptions/ignorearraytitle) { get; set; } | (**Obsolete.**)  |
+| [IgnoreArrayTitle](../../aspose.cells.utility/jsonlayoutoptions/ignorearraytitle) { get; set; } | (**Obsolete.**) Indicates whether ignore title if array is a property of object. |
 | [IgnoreNull](../../aspose.cells.utility/jsonlayoutoptions/ignorenull) { get; set; } | Indicates whether ignoring null value. |
 | [IgnoreObjectTitle](../../aspose.cells.utility/jsonlayoutoptions/ignoreobjecttitle) { get; set; } | (**Obsolete.**) Indicates whether ignore title if object is a property of object. |
 | [IgnoreTitle](../../aspose.cells.utility/jsonlayoutoptions/ignoretitle) { get; set; } | Ingores titles of attributes |

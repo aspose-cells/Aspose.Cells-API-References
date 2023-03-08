@@ -1,11 +1,34 @@
 ---
 title: Format
 second_title: Aspose.Cells for .NET API Reference
-description: Format the cell in the pivottable area
+description: Formats selected area of the PivotTable.
 type: docs
 url: /net/aspose.cells.pivot/pivottable/format/
 ---
-## PivotTable.Format method
+## Format(PivotArea, Style) {#format}
+
+Formats selected area of the PivotTable.
+
+```csharp
+public void Format(PivotArea pivotArea, Style style)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivotArea | PivotArea |  |
+| style | Style |  |
+
+### See Also
+
+* class [PivotArea](../../pivotarea)
+* class [Style](../../../aspose.cells/style)
+* class [PivotTable](../../pivottable)
+* namespace [Aspose.Cells.Pivot](../../pivottable)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Format(int, int, Style) {#format_1}
 
 Format the cell in the pivottable area
 

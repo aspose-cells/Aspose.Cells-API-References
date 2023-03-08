@@ -1,15 +1,15 @@
 ---
 title: SheetIndex
 second_title: Aspose.Cells for .NET API Reference
-description: Gets and sets which worksheet should be exported. If the value is 1 the active worksheet will be exported.
+description: 
 type: docs
 url: /net/aspose.cells/svgsaveoptions/sheetindex/
 ---
 ## SvgSaveOptions.SheetIndex property
 
-Gets and sets which worksheet should be exported. If the value is -1, the active worksheet will be exported.
-
 ```csharp
+[Obsolete("Use ImageSaveOptions.ImageOrPrintOptions.SheetSet instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int SheetIndex { get; set; }
 ```
 

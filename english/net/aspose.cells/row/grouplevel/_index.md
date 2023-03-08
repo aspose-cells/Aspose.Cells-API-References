@@ -10,7 +10,7 @@ url: /net/aspose.cells/row/grouplevel/
 Gets the group level of the row.
 
 ```csharp
-public byte GroupLevel { get; }
+public byte GroupLevel { get; set; }
 ```
 
 ### See Also

@@ -19,7 +19,7 @@ public class Row : IEnumerable
 | --- | --- |
 | [FirstCell](../../aspose.cells/row/firstcell) { get; } | Gets the first cell object in the row. |
 | [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | Gets the first non-blank cell in the row. |
-| [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | Gets the group level of the row. |
+| [GroupLevel](../../aspose.cells/row/grouplevel) { get; set; } | Gets the group level of the row. |
 | [HasCustomStyle](../../aspose.cells/row/hascustomstyle) { get; } | Indicates whether this row has custom style settings(different from the default one inherited from workbook). |
 | [Height](../../aspose.cells/row/height) { get; set; } | Gets and sets the row height in unit of Points. |
 | [Index](../../aspose.cells/row/index) { get; } | Gets the index of this row. |

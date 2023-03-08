@@ -27,6 +27,7 @@ public enum WarningType
 | Limitation | `7` | Out of MS Excel limitation error. |
 | InvalidData | `8` | Invalid data. |
 | Formula | `9` | Invalid formula. |
+| InvalidOperator | `10` | Invalid operator. |
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: DisplayUnitType
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the type of display unit.
+description: Represents the type of display unit of charts axis.
 type: docs
 url: /net/aspose.cells.charts/displayunittype/
 ---
 ## DisplayUnitType enumeration
 
-Represents the type of display unit.
+Represents the type of display unit of chart's axis.
 
 ```csharp
 public enum DisplayUnitType

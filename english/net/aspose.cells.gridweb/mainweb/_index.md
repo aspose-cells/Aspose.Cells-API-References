@@ -67,6 +67,7 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [IsCalculateFormula](../../aspose.cells.gridweb/mainweb/iscalculateformula) { get; set; } | Gets or sets whether to calculate formula after cell value changes or after import File. The default value is true. |
 | [IsPostBack](../../aspose.cells.gridweb/mainweb/ispostback) { get; } | Gets a value indicating whether gridweb is being loaded in response to a client postback, or if it is being loaded and accessed for the first time. |
 | [LinksTable](../../aspose.cells.gridweb/mainweb/linkstable) { get; } |  |
+| [LoadOptions](../../aspose.cells.gridweb/mainweb/loadoptions) { get; set; } | Represents the loadoptions. |
 | [MaxColumn](../../aspose.cells.gridweb/mainweb/maxcolumn) { get; set; } | Gets or sets the maximum display column index(zero based) of the web sheet. The control uses the greater value of MaxColumn and sheet data's max column. |
 | [MaxRow](../../aspose.cells.gridweb/mainweb/maxrow) { get; set; } | Gets or sets the maximum display row index(zero based) of the web sheet. The control uses the greater value of MaxRow and sheet data's max row. |
 | [Message](../../aspose.cells.gridweb/mainweb/message) { get; set; } |  |
@@ -97,12 +98,13 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [PresetStyle](../../aspose.cells.gridweb/mainweb/presetstyle) { get; set; } | Gets or sets the preset style. |
 | [RefreshValidation](../../aspose.cells.gridweb/mainweb/refreshvalidation) { get; set; } | Gets or sets whether to refresh validation value after cell value changes. |
 | [RenderHiddenRow](../../aspose.cells.gridweb/mainweb/renderhiddenrow) { get; set; } | Gets or sets whether the hidden row is rendered in GridControl,the default value is false. if you need to unhide the hidden row latter ,you shall set it as true |
+| [RowHeightForCSV](../../aspose.cells.gridweb/mainweb/rowheightforcsv) { get; set; } | Get or Set the row height value in point for csv file ,default value is 14.5. |
 | [ScrollBarArrowColor](../../aspose.cells.gridweb/mainweb/scrollbararrowcolor) { get; set; } | Specifies the color of the scrollbar's arrow button. |
 | [ScrollBarBaseColor](../../aspose.cells.gridweb/mainweb/scrollbarbasecolor) { get; set; } | Specifies the color of the scroll bar of the control. |
 | [SelectCellBgColor](../../aspose.cells.gridweb/mainweb/selectcellbgcolor) { get; set; } | Specifies the background color of the selected cells in multi-select range. |
 | [SelectCellColor](../../aspose.cells.gridweb/mainweb/selectcellcolor) { get; set; } | Specifies the color of the selected cells in multi-select range. |
 | [SessionLoaded](../../aspose.cells.gridweb/mainweb/sessionloaded) { get; set; } |  |
-| [SessionMode](../../aspose.cells.gridweb/mainweb/sessionmode) { get; set; } | Gets or sets the session mode of the grid. There are 4 type of session mode: 1. Session(default): Use system session to store sheet data. Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state. 2. ViewState: Use page's viewstate to store sheet data. 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data. 4. File: store/recover sheet data in SessionStorePath. |
+| [SessionMode](../../aspose.cells.gridweb/mainweb/sessionmode) { get; set; } | Gets or sets the session mode of the grid. There are 4 type of session mode: 1. Session(default): Use system session to store sheet data. Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state. 2. ViewState: Use page's viewstate to store sheet data. 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data. 4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always |
 | [SessionSaved](../../aspose.cells.gridweb/mainweb/sessionsaved) { get; set; } |  |
 | [SessionStorePath](../../aspose.cells.gridweb/mainweb/sessionstorepath) { get; set; } | Gets or sets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
 | [Settings](../../aspose.cells.gridweb/mainweb/settings) { get; set; } | Represents the workbook settings. |

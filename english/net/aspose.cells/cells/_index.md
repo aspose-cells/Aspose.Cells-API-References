@@ -25,7 +25,7 @@ public class Cells : IDisposable, IEnumerable
 | [IsDefaultRowHidden](../../aspose.cells/cells/isdefaultrowhidden) { get; set; } | Indicates whether the row is default hidden. |
 | [Item](../../aspose.cells/cells/item) { get; } | Gets [`Cell`](../cell) item within the worksheet (3 indexers) |
 | [LastCell](../../aspose.cells/cells/lastcell) { get; } | Gets the last cell in this worksheet. |
-| [MaxColumn](../../aspose.cells/cells/maxcolumn) { get; } | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
+| [MaxColumn](../../aspose.cells/cells/maxcolumn) { get; } | Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
 | [MaxDataColumn](../../aspose.cells/cells/maxdatacolumn) { get; } | Maximum column index of cell which contains data. |
 | [MaxDataRow](../../aspose.cells/cells/maxdatarow) { get; } | Maximum row index of cell which contains data. |
 | [MaxDisplayRange](../../aspose.cells/cells/maxdisplayrange) { get; } | Gets the max range which includes data, merged cells and shapes. |

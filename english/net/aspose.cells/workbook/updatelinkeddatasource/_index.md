@@ -1,13 +1,13 @@
 ---
 title: UpdateLinkedDataSource
 second_title: Aspose.Cells for .NET API Reference
-description: If this workbook contains external links to other data source Aspose.Cells will attempt to retrieve the latest data.
+description: If this workbook contains external links to other data source Aspose.Cells will attempt to retrieve the latest data from give sources.
 type: docs
 url: /net/aspose.cells/workbook/updatelinkeddatasource/
 ---
 ## Workbook.UpdateLinkedDataSource method
 
-If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data.
+If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data from give sources.
 
 ```csharp
 public void UpdateLinkedDataSource(Workbook[] externalWorkbooks)
@@ -15,11 +15,11 @@ public void UpdateLinkedDataSource(Workbook[] externalWorkbooks)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| externalWorkbooks | Workbook[] | External workbooks are referenced by this workbook. If it's null, we will directly open the external linked files.. If it's not null, we will check whether the external link in the array first; if not, we will open the external linked files again. |
+| externalWorkbooks | Workbook[] | Workbooks that will be used to update data of external links referenced by this workbook. The match of those workbooks with external links is determined by [`FileName`](../filename) and [`DataSource`](../../externallink/datasource). So please make sure [`FileName`](../filename) has been specified with the proper value for every workbook so they can be linked to corresponding external link. |
 
 ### Remarks
 
-If the method is not called before calculating formulas, Aspose.Cells will use the previous information(cached in the file); Please set CellsHelper.StartupPath,CellsHelper.AltStartPath,CellsHelper.LibraryPath. And please set Workbook.FilePath if this workbook is from a stream, otherwise Aspose.Cells could not get the external link full path sometimes.
+If corresponding external link cannot be found for one workbook, then this workbook will be ignored. So when you set a formula later with one new external link which you intend to make the ignored workbook be linked to it, the link cannot be performed until you call this this method again with those workbooks.
 
 ### See Also
 

@@ -108,7 +108,8 @@ public class PivotTable : IDisposable
 | [CopyStyle](../../aspose.cells.pivot/pivottable/copystyle)(PivotTable) | Copies named style from another pivot table. |
 | [Dispose](../../aspose.cells.pivot/pivottable/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [Fields](../../aspose.cells.pivot/pivottable/fields)(PivotFieldType) | Gets the specific fields by the field type. |
-| [Format](../../aspose.cells.pivot/pivottable/format)(int, int, Style) | Format the cell in the pivottable area |
+| [Format](../../aspose.cells.pivot/pivottable/format#format)(PivotArea, Style) | Formats selected area of the PivotTable. |
+| [Format](../../aspose.cells.pivot/pivottable/format#format_1)(int, int, Style) | Format the cell in the pivottable area |
 | [FormatAll](../../aspose.cells.pivot/pivottable/formatall)(Style) | Format all the cell in the pivottable area |
 | [FormatRow](../../aspose.cells.pivot/pivottable/formatrow)(int, Style) | Format the row data in the pivottable area |
 | [GetCellByDisplayName](../../aspose.cells.pivot/pivottable/getcellbydisplayname)(string) | Gets the Cell object by the DisplayName of PivotField |

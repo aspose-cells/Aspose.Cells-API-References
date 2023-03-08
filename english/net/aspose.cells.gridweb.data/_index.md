@@ -30,6 +30,7 @@ The **Aspose.Cells.GridWeb.Data** namespace contains classes of data control obj
 | [GridHtmlSaveOptions](./gridhtmlsaveoptions) | Represents the options for saving html file. |
 | [GridHyperlink](./gridhyperlink) | Encapsulates the object that represents a hyperlink. |
 | [GridHyperlinkCollection](./gridhyperlinkcollection) | Encapsulates a collection of [`GridHyperlink`](../aspose.cells.gridweb.data/gridhyperlink) objects. |
+| [GridLoadOptions](./gridloadoptions) | Represents the options of loading the file. |
 | [GridName](./gridname) | Encapsulates the object that represents a name object. |
 | [GridNameCollection](./gridnamecollection) | Encapsulates a collection of [`GridName`](../aspose.cells.gridweb.data/gridname) objects. |
 | [GridPicture](./gridpicture) | Encapsulates the object that represents a single picture in a spreadsheet. |
@@ -46,6 +47,7 @@ The **Aspose.Cells.GridWeb.Data** namespace contains classes of data control obj
 | [GridSaveOptions](./gridsaveoptions) | Represents all save options |
 | [GridShape](./gridshape) | Represents a shape object. |
 | [GridShapeCollection](./gridshapecollection) | Encapsulates a collection of [`GridShape`](../aspose.cells.gridweb.data/gridshape) objects. |
+| [GridTxtLoadOptions](./gridtxtloadoptions) | Represents the options for loading text file. |
 | [GridValidation](./gridvalidation) | Represents data validation.settings. |
 | [GridValidationCollection](./gridvalidationcollection) | Encapsulates a collection of [`GridValidation`](../aspose.cells.gridweb.data/gridvalidation) objects. |
 | [GridWebException](./gridwebexception) | The exception that is thrown when Aspose.Cells.GridWeb specified error occurs. |

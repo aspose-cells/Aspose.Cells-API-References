@@ -13,6 +13,10 @@ Creates the options for saving image file.
 public ImageSaveOptions()
 ```
 
+### Remarks
+
+The default type is Tiff.
+
 ### See Also
 
 * class [ImageSaveOptions](../../imagesaveoptions)
@@ -31,7 +35,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | SaveFormat | The file format. It must be tiff or svg. |
+| saveFormat | SaveFormat | The file format. It must be Tiff , Svg, Bmp, Png, Jpg, Emf and Gif. |
 
 ### See Also
 

@@ -1,15 +1,17 @@
 ---
 title: SvgSaveOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Creates the options for saving svg file.
+description: The default constructor.
 type: docs
 url: /net/aspose.cells/svgsaveoptions/svgsaveoptions/
 ---
 ## SvgSaveOptions() {#constructor}
 
-Creates the options for saving svg file.
+The default constructor.
 
 ```csharp
+[Obsolete("Use ImageSaveOptions(SaveFormat.Svg) instead and set ImageSaveOptions.ImageOrPrintOptions.OnePagePerSheet to true.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public SvgSaveOptions()
 ```
 
@@ -23,20 +25,10 @@ public SvgSaveOptions()
 
 ## SvgSaveOptions(SaveFormat) {#constructor_1}
 
-Creates the options for saving svg file.
-
 ```csharp
 [Obsolete("Use SvgSaveOptions() constructor instead.")]
 public SvgSaveOptions(SaveFormat saveFormat)
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| saveFormat | SaveFormat | The file format. It must be svg. |
-
-### Remarks
-
-NOTE: This constructor is now obsolete. Instead, please use SvgSaveOptions() constructor. This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

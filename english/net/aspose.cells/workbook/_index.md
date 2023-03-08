@@ -121,7 +121,7 @@ public class Workbook : IDisposable
 | [StartAccessCache](../../aspose.cells/workbook/startaccesscache)(AccessCacheOptions) | Starts the session that uses caches to access data. |
 | [Unprotect](../../aspose.cells/workbook/unprotect)(string) | Unprotects a workbook. |
 | [UnprotectSharedWorkbook](../../aspose.cells/workbook/unprotectsharedworkbook)(string) | Unprotects a shared workbook. |
-| [UpdateLinkedDataSource](../../aspose.cells/workbook/updatelinkeddatasource)(Workbook[]) | If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data. |
+| [UpdateLinkedDataSource](../../aspose.cells/workbook/updatelinkeddatasource)(Workbook[]) | If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data from give sources. |
 
 ### Remarks
 

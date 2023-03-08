@@ -1,13 +1,13 @@
 ---
 title: CheckCell
 second_title: Aspose.Cells for .NET API Reference
-description: Gets the Cell element or null at the specified cell row index and column index.
+description: Gets the GridCellaspose.cells.gridweb.data/gridcell element or null at the specified cell row index and column index.
 type: docs
 url: /net/aspose.cells.gridweb.data/gridcells/checkcell/
 ---
 ## GridCells.CheckCell method
 
-Gets the Cell element or null at the specified cell row index and column index.
+Gets the [`GridCell`](../../gridcell) element or null at the specified cell row index and column index.
 
 ```csharp
 public GridCell CheckCell(int row, int column)
@@ -20,7 +20,7 @@ public GridCell CheckCell(int row, int column)
 
 ### Return Value
 
-Return Cell object if a Cell object exists. Return null if the cell does not exist.
+Return GridCell object if a GridCell object exists. Return null if the GridCell does not exist.
 
 ### See Also
 

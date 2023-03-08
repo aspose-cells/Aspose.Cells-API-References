@@ -142,7 +142,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties. |
 | [StyleFlag](./styleflag) | Represents flags which indicates applied formatting properties. |
 | [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
-| [SvgSaveOptions](./svgsaveoptions) | Represents Svg save options. For advanced usage, please use [`WorkbookRender`](../aspose.cells.rendering/workbookrender) or [`SheetRender`](../aspose.cells.rendering/sheetrender). |
+| [SvgSaveOptions](./svgsaveoptions) |  |
 | [ThemeColor](./themecolor) | Represents a theme color. |
 | [ThreadedComment](./threadedcomment) | Represents the threaded comment. |
 | [ThreadedCommentAuthor](./threadedcommentauthor) | Represents the person who creates the threaded comments; |

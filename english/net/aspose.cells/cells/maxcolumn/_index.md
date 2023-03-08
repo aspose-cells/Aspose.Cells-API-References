@@ -1,13 +1,13 @@
 ---
 title: MaxColumn
 second_title: Aspose.Cells for .NET API Reference
-description: Minimum column index of those cells that have been instantiated in the collectiondoes not include the column where style is defined for the whole column but no cell has been instantiated in it.
+description: Maximum column index of those cells that have been instantiated in the collectiondoes not include the column where style is defined for the whole column but no cell has been instantiated in it.
 type: docs
 url: /net/aspose.cells/cells/maxcolumn/
 ---
 ## Cells.MaxColumn property
 
-Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
+Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
 
 ```csharp
 public int MaxColumn { get; }

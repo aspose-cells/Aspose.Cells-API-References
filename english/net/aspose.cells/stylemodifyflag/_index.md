@@ -62,8 +62,9 @@ public enum StyleModifyFlag
 | FontKerning | `16` | unused. |
 | FontEqualize | `17` | unused. |
 | FontCap | `18` | unused. |
-| Font | `19` | Indicates whether one or more properties have been modified for the font of the style. |
-| All | `234881011` | Indicates whether one or more properties have been modified for the style. |
+| FontVerticalText | `19` |  |
+| Font | `20` | Indicates whether one or more properties have been modified for the font of the style. |
+| All | `234881012` | Indicates whether one or more properties have been modified for the style. |
 
 ### See Also
 

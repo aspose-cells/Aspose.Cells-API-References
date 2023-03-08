@@ -63,7 +63,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow to access and 
 | [CrossType](./crosstype) | Represents the axis cross type. |
 | [DataLabelsSeparatorType](./datalabelsseparatortype) | Represents the separator type of DataLabels. |
 | [DataLablesSeparatorType](./datalablesseparatortype) | Represents the separator type of DataLabels. |
-| [DisplayUnitType](./displayunittype) | Represents the type of display unit. |
+| [DisplayUnitType](./displayunittype) | Represents the type of display unit of chart's axis. |
 | [ErrorBarDisplayType](./errorbardisplaytype) | Represents error bar display type. |
 | [ErrorBarType](./errorbartype) | Represents error bar amount type. |
 | [FormattingType](./formattingtype) | Represents the type of formatting applied to an [`Area`](../aspose.cells.drawing/area) object or a [`Line`](../aspose.cells.drawing/line) object. |

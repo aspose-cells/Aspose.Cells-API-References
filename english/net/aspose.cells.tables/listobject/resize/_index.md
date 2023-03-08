@@ -19,7 +19,7 @@ public void Resize(int startRow, int startColumn, int endRow, int endColumn, boo
 | startColumn | Int32 | The start column index of the new range. |
 | endRow | Int32 | The end row index of the new range. |
 | endColumn | Int32 | The end column index of the new range. |
-| hasHeaders | Boolean | Whether the ListObject has headers. |
+| hasHeaders | Boolean | Whether this table has headers. |
 
 ### See Also
 
