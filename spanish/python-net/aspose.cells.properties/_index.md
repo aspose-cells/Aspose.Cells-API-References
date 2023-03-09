@@ -23,8 +23,8 @@ is_root: false
 
 
 ###  enumeraciones
-| Enumeración| Descripción|
+|Enumeración| Descripción|
 | :- | :- |
-| [PropertyType](/cells/es/python-net/aspose.cells.properties/propertytype) | Especifica el tipo de datos de una propiedad de documento.|
+| [PropertyType](/cells/es/python-net/aspose.cells.properties/propertytype) |Especifica el tipo de datos de una propiedad de documento.|
 
 

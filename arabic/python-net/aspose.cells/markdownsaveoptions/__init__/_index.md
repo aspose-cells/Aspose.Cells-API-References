@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/markdownsaveoptions/__init__/
 is_root: false
 ---
 ##  MarkdownSaveOptions() {#}
-ينشئ خيارات لحفظ مستند تخفيض السعر
+ينشئ خيارات لحفظ مستندات التخفيضات
 
 
 

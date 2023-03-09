@@ -18,11 +18,11 @@ def to_front_or_back(self, orders):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| orders | int | Sıfırdan küçükse, şekli geri ayarlar.<br/> Sıfırdan büyükse şekli öne getirir.|
+| orders | int | Sıfırdan küçükse, şekli geri ayarlar.<br/>Sıfırdan büyükse şekli öne getirir.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

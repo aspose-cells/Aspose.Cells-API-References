@@ -17,7 +17,7 @@ El tipo ColorFilter expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [filter_by_fill_color](/cells/es/python-net/aspose.cells/colorfilter/filter_by_fill_color) |Marca que indica si se filtra por el color de relleno de la celda.|
+| [filter_by_fill_color](/cells/es/python-net/aspose.cells/colorfilter/filter_by_fill_color) | Marca que indica si se filtra por el color de relleno de la celda.|
 
 
 ###  Métodos

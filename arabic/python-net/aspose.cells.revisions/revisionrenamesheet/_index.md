@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.revisions/revisionrenamesheet/
 is_root: false
 ---
 ##  RevisionRenameSheet الدرجة
-يمثل مراجعة لإعادة تسمية الورقة.
+يمثل مراجعة لورقة إعادة التسمية.
 
 
 

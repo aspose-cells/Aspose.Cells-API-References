@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hi_lo_lines mülk
 
- Çizgi grafiğindeki bir seri için yüksek-düşük çizgileri temsil eden bir HiLoLines nesnesi döndürür.
+Çizgi grafiğindeki bir seri için yüksek-düşük çizgileri temsil eden bir HiLoLines nesnesi döndürür.
 Yalnızca çizgi grafikler için geçerlidir.
 ###  Tanım:
 ```python

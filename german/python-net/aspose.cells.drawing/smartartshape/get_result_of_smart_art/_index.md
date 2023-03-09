@@ -19,7 +19,7 @@ def get_result_of_smart_art(self):
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

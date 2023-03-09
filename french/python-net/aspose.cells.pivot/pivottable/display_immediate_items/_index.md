@@ -10,7 +10,7 @@ is_root: false
 ##  display_immediate_items propriété
 
 Indique si les éléments des zones de ligne et de colonne sont visibles
-lorsque la zone de données du tableau croisé dynamique est vide. La valeur par défaut est true.
+lorsque la zone de données du tableau croisé dynamique est vide.
 ###  Définition:
 ```python
 @property

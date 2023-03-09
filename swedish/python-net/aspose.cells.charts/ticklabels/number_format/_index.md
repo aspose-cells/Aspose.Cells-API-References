@@ -13,7 +13,7 @@ Representerar formatsträngen för TickLabels-objektet.
 
 ###  Anmärkningar
 
-Formateringssträngen är samma som en anpassad formatsträngsinställning för en cell. Till exempel "$0".
+Formateringssträngen är densamma som en anpassad formatsträngsinställning för en cell, till exempel "$0".
 ###  Definition:
 ```python
 @property

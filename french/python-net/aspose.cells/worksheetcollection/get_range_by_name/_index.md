@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range_name | str | Nom de la gamme.|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range_name | str | Nom de plage ou nom de table.|
-| current_sheet_index | int | L'index de la feuille. -1 représente global .|
+| current_sheet_index | int | L'indice de feuille -1 représente global.|
 | include_table | bool | Indique s'il vérifie toutes les tables.|
 
 

@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/it/python-net/aspose.cells/protectiontype) | Tipo di protezione.|
 ###  Osservazioni
 
-Questo metodo protegge il foglio di lavoro senza password. Può protect foglio di lavoro in tutte le versioni del file Excel.
+Questo metodo protegge il foglio di lavoro senza password.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/it/python-net/aspose.cells/protectiontype) | Tipo di protezione.|
 | password | str | Parola d'ordine.|
@@ -45,7 +45,7 @@ def protect(self, type, password, old_password):
 ###  Osservazioni
 
 Questo metodo può protect foglio di lavoro in tutte le versioni del file Excel.
-###  Esempio
+###  Esempi
 
 
 ```python

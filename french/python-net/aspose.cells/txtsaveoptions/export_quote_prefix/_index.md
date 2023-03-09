@@ -10,7 +10,7 @@ is_root: false
 ##  export_quote_prefix propriété
 
 Indique si le guillemet simple doit être exporté dans le cadre de la valeur d'une cellule
-quand [Style.quote_prefix](/cells/fr/python-net/aspose.cells/style#quote_prefix) est vrai pour cela. La valeur par défaut est false.
+lorsque [Style.quote_prefix](/cells/fr/python-net/aspose.cells/style#quote_prefix) est vrai. La valeur par défaut est false.
 ###  Définition:
 ```python
 @property

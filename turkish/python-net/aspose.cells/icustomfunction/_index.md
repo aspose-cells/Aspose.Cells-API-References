@@ -1,5 +1,5 @@
 ﻿---
-title: ICustomFunction sınıf
+title: ICustomFunction sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 820
 url: /tr/python-net/aspose.cells/icustomfunction/
 is_root: false
 ---
-##  ICustomFunction sınıf
+##  ICustomFunction sınıfı
 
 
 ICustomFunction türü aşağıdaki üyeleri gösterir:

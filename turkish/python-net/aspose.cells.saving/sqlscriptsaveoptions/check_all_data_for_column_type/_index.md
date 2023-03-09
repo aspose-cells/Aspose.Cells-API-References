@@ -14,7 +14,7 @@ Sütunların veri türünü bulmak için tüm verileri kontrol edin.
 ###  Notlar
 
 Varsayılan değer false'tur, performans için yalnızca ilk satırı kontrol ederiz.
-Bu özellik true ise ve sütunlar karma değer türü içeriyorsa, sütunların türü metin olacaktır.
+Bu özellik true ise ve sütunlar karışık değer türü içeriyorsa, sütunların türü metin olacaktır.
 ###  Tanım:
 ```python
 @property

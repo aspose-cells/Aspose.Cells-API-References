@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el rango de la hoja de cálculo utilizado para llenar el cuadro combinado especificado.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

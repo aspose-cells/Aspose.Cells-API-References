@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_height fastighet
 
-Hämtar eller ställer in standardradhöjden i detta kalkylblad, i poängenhet.
+Hämtar eller ställer in standardradhöjden i detta kalkylblad, i poängenheter.
 ###  Definition:
 ```python
 @property

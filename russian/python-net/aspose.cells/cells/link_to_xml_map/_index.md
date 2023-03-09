@@ -18,7 +18,7 @@ def link_to_xml_map(self, map_name, row, column, path):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | map_name | str | имя xml-карты|
 | row | int | строка ячейки назначения|

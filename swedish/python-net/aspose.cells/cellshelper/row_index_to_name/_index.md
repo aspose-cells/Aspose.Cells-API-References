@@ -22,7 +22,7 @@ def row_index_to_name(self, row):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 

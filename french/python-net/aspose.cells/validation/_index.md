@@ -24,7 +24,7 @@ Le type Validation expose les membres suivants :
 | [input_title](/cells/fr/python-net/aspose.cells/validation/input_title) | Représente le titre de la boîte de dialogue d'entrée de validation des données.|
 | [error_message](/cells/fr/python-net/aspose.cells/validation/error_message) | Représente le message d'erreur de validation des données.|
 | [error_title](/cells/fr/python-net/aspose.cells/validation/error_title) | Représente le titre de la boîte de dialogue d'erreur de validation des données.|
-| [show_input](/cells/fr/python-net/aspose.cells/validation/show_input) | Indique si le message d'entrée de validation des données s'affiche chaque fois que l'utilisateur sélectionne une cellule dans la plage de validation des données.|
+| [show_input](/cells/fr/python-net/aspose.cells/validation/show_input) |Indique si le message d'entrée de validation des données s'affiche chaque fois que l'utilisateur sélectionne une cellule dans la plage de validation des données.|
 | [show_error](/cells/fr/python-net/aspose.cells/validation/show_error) | Indique si le message d'erreur de validation des données s'affichera chaque fois que l'utilisateur saisira des données non valides.|
 | [ignore_blank](/cells/fr/python-net/aspose.cells/validation/ignore_blank) | Indique si les valeurs vides sont autorisées par la validation des données de plage.|
 | [formula1](/cells/fr/python-net/aspose.cells/validation/formula1) | Représente la valeur ou l'expression associée à la validation des données.|
@@ -39,9 +39,9 @@ Le type Validation expose les membres suivants :
 | Méthode| Description|
 | :- | :- |
 | [get_formula1(is_r1c1, is_local)](/cells/fr/python-net/aspose.cells/validation/get_formula1/#bool-bool) | Obtient la valeur ou l'expression associée à cette validation.|
-| [get_formula1(is_r1c1, is_local, row, column)](/cells/fr/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Obtient la valeur ou l'expression associée à cette validation pour une cellule spécifique.|
+| [get_formula1(is_r1c1, is_local, row, column)](/cells/fr/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Obtient la valeur ou l'expression associée à cette validation pour la cellule spécifique.|
 | [get_formula2(is_r1c1, is_local)](/cells/fr/python-net/aspose.cells/validation/get_formula2/#bool-bool) | Obtient la valeur ou l'expression associée à cette validation.|
-| [get_formula2(is_r1c1, is_local, row, column)](/cells/fr/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Obtient la valeur ou l'expression associée à cette validation pour une cellule spécifique.|
+| [get_formula2(is_r1c1, is_local, row, column)](/cells/fr/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Obtient la valeur ou l'expression associée à cette validation pour la cellule spécifique.|
 | [add_area(cell_area)](/cells/fr/python-net/aspose.cells/validation/add_area/#CellArea) | Applique la validation à la zone.|
 | [add_area(cell_area, check_intersection, check_edge)](/cells/fr/python-net/aspose.cells/validation/add_area/#CellArea-bool-bool) | Applique la validation à la zone.|
 | [set_formula1(formula, is_r1c1, is_local)](/cells/fr/python-net/aspose.cells/validation/set_formula1/#str-bool-bool) | Définit la valeur ou l'expression associée à cette validation.|
@@ -55,7 +55,7 @@ Le type Validation expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import CellArea, OperatorType, ValidationType, Workbook

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain propiedad
 
-Si habilita la cadena de cálculo para fórmulas. El valor predeterminado es falso.
+Si habilita la cadena de cálculo para fórmulas.
 
 ###  Observaciones
 

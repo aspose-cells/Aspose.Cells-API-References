@@ -11,7 +11,7 @@ is_root: false
 
 Indica si el formato de relleno es visible.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

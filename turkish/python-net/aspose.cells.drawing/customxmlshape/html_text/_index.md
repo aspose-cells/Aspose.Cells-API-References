@@ -11,7 +11,7 @@ is_root: false
 
 Bu metin kutusundaki verileri ve bazı biçimleri içeren html dizesini alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

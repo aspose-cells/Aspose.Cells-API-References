@@ -18,7 +18,7 @@ def copy_row(self, source_cells, source_row_index, destination_row_index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_row_index | int | Индекс исходной строки.|

@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | file_name | str |  |
 
@@ -34,7 +34,7 @@ def save(self, file_name, save_format):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | file_name | str | Le nom du fichier.|
 | save_format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) | Le type de format d'enregistrement.|
@@ -51,7 +51,7 @@ def save(self, file_name, save_options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | file_name | str | Le nom du fichier.|
 | save_options | [SaveOptions](/cells/fr/python-net/aspose.cells/saveoptions) | Les options de sauvegarde.|
@@ -68,7 +68,7 @@ def save(self, stream, save_format):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux de fichiers.|
 | save_format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) | Le type de format de fichier de sauvegarde.|
@@ -85,7 +85,7 @@ def save(self, stream, save_options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux de fichiers.|
 | save_options | [SaveOptions](/cells/fr/python-net/aspose.cells/saveoptions) | Les options de sauvegarde.|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range propiedad
 
-Obtiene el rango del resultado.
+Obtiene el rango de los resultados.
 ###  Definición:
 ```python
 @property

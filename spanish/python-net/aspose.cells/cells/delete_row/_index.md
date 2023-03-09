@@ -18,7 +18,7 @@ def delete_row(self, row_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row_index | int | Índice de fila.|
 

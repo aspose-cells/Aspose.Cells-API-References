@@ -15,7 +15,7 @@ Se il formato del numero è incorporato, verrà restituita la stringa del modell
 
 ###  Osservazioni
 
-Per i formati numerici incorporati, il contenuto del modello restituito è ancora dipendente dalla cultura,
+Per i formati numerici incorporati, il contenuto del pattern restituito è ancora dipendente dalla cultura,
 ad esempio, per alcune locali restituisce "m/d/y" e per alcune altre locali restituisce "d/m/y".
 La differenza rispetto a [Style.culture_custom](/cells/it/python-net/aspose.cells/style#culture_custom) è (questo è anche ciò che significa indipendente dalla cultura):
 gli identificatori di formato e i separatori sono mantenuti come standard, ad esempio '/' verrà sempre utilizzato come separatore di data e ora

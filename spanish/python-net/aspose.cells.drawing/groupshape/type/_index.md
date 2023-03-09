@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene la forma automática type.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

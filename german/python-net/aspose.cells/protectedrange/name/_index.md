@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name Eigentum
 
-Ruft den Range-Titel ab. Dies wird als Deskriptor verwendet, nicht als benannte Bereichsdefinition.
+Ruft den Range-Titel ab.
 ###  Definition:
 ```python
 @property

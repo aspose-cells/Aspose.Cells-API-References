@@ -10,7 +10,7 @@ is_root: false
 ##  auto_scaling fastighet
 
  Sant om Microsoft Excel skalar ett 3D-diagram så att det i storlek är närmare motsvarande 2D-diagram.
-Egenskapen RightAngleAxes måste vara True.
+Egenskapen Right Angle Axes måste vara True.
 ###  Definition:
 ```python
 @property

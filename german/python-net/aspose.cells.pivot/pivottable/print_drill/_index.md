@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill Eigentum
 
 Gibt einen booleschen Wert an, der angibt, ob Bohrindikatoren gedruckt werden sollen.
-Schaltflächen zum Erweitern/Reduzieren drucken, wenn sie auf Pivottable angezeigt werden.
+Schaltflächen zum Erweitern/Reduzieren drucken, wenn sie in der Pivot-Tabelle angezeigt werden.
 ###  Definition:
 ```python
 @property

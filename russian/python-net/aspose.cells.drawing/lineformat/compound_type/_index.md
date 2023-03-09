@@ -11,7 +11,7 @@ is_root: false
 
 Указывает тип составной линии.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import MsoLineStyle

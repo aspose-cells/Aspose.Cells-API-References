@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing mülk
 
-Onay işaretleri arasındaki kategorilerin veya serilerin sayısını döndürür veya ayarlar. Yalnızca kategori ve seri eksenleri için geçerlidir.
+Onay işaretleri arasındaki kategorilerin veya serilerin sayısını döndürür veya ayarlar.
 
 ###  Notlar
 

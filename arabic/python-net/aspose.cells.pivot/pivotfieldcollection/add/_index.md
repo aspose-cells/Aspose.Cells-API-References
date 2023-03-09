@@ -22,7 +22,7 @@ def add(self, pivot_field):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) | كائن PivotField.|
 

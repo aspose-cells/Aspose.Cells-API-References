@@ -18,7 +18,7 @@ Typen BackgroundMode avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | AUTOMATIC | Automatisk|
-| OPAQUE | Ogenomskinlig|
+| OPAQUE |Ogenomskinlig|
 | TRANSPARENT | Transparent|
 
 

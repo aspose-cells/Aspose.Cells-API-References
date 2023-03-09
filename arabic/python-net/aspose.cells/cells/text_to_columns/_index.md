@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/text_to_columns/
 is_root: false
 ---
 ##  text_to_columns(row, column, total_rows, options) {#int-int-int-TxtLoadOptions}
-يقسم النص في العمود إلى أعمدة.
+يقسم النص في الأعمدة إلى أعمدة.
 
 
 
@@ -18,7 +18,7 @@ def text_to_columns(self, row, column, total_rows, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | column | int | فهرس العمود.|

@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
 ##  AutoNumberedBulletValue класс
-Представляет автоматически пронумерованный маркер.
+Представляет автоматически пронумерованные маркеры.
 
 
 

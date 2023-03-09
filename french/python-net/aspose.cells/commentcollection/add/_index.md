@@ -22,11 +22,11 @@ def add(self, cell_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | cell_name | str | Cell nom.|
 
-###  Exemple
+###  Exemples
 
 ```python
 
@@ -53,12 +53,12 @@ def add(self, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Cell index de ligne.|
 | column | int | Cell index de colonne.|
 
-###  Exemple
+###  Exemples
 
 ```python
 

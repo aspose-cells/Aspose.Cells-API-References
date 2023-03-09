@@ -60,7 +60,7 @@ is_root: false
 | LEBANON | لبنان|
 | JORDAN | الأردن|
 | SYRIA | سوريا|
-| IRAQ |العراق|
+| IRAQ | العراق|
 | KUWAIT | الكويت|
 | SAUDI | المملكة العربية السعودية|
 | UNITED_ARAB_EMIRATES | الإمارات العربية المتحدة|

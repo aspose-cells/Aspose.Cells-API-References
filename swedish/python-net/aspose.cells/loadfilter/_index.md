@@ -25,13 +25,13 @@ Typen LoadFilter avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [load_data_filter_options](/cells/sv/python-net/aspose.cells/loadfilter/load_data_filter_options) | Filteralternativen för att ange vilken data som ska laddas.|
-| [sheets_in_loading_order](/cells/sv/python-net/aspose.cells/loadfilter/sheets_in_loading_order) | Anger ark(index) och ordning som ska laddas.<br/>Standard är null, vilket anger att alla ark ska laddas i standardordningen i mallfilen.<br/> Om inte null och vissa arks index inte finns i den returnerade arrayen, kommer arket inte att laddas.|
+| [sheets_in_loading_order](/cells/sv/python-net/aspose.cells/loadfilter/sheets_in_loading_order) | Anger ark (index) och ordning som ska laddas.<br/>Standard är null, vilket anger att alla ark ska laddas i standardordningen i mallfilen.<br/> Om inte null och vissa arks index inte finns i den returnerade arrayen, kommer arket inte att laddas.|
 
 
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [start_sheet(sheet)](/cells/sv/python-net/aspose.cells/loadfilter/start_sheet/#Worksheet) | Förbereder filteralternativ innan du laddar ett visst kalkylblad.<br/>Användarens implementering av LoadFilter kan ändra LoadDataFilterOptions här<br/> för att ange hur man laddar data för detta kalkylblad.|
+| [start_sheet(sheet)](/cells/sv/python-net/aspose.cells/loadfilter/start_sheet/#Worksheet) | Förbereder filteralternativ innan ett visst kalkylblad laddas.<br/>Användarens implementering av LoadFilter kan ändra LoadDataFilterOptions här<br/> för att ange hur man laddar data för detta kalkylblad.|
 
 
 

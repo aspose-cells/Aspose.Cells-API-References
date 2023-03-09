@@ -18,7 +18,7 @@ def __init__(self, type, year, month, day, hour, minute, second):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [DateTimeGroupingType](/cells/sv/python-net/aspose.cells/datetimegroupingtype) |  |
 | year | int |  |

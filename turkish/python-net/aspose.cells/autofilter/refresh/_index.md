@@ -39,7 +39,7 @@ def refresh(self, hide_rows):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | hide_rows | bool | Doğruysa, filtrelenmiş satırları gizleyin.|
 

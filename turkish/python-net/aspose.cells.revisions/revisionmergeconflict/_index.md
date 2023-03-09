@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionMergeConflict sınıf
+title: RevisionMergeConflict sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 150
 url: /tr/python-net/aspose.cells.revisions/revisionmergeconflict/
 is_root: false
 ---
-##  RevisionMergeConflict sınıf
+##  RevisionMergeConflict sınıfı
 Bir birleştirme çakışması olduğunu gösteren bir revizyon kaydını temsil eder.
 
 

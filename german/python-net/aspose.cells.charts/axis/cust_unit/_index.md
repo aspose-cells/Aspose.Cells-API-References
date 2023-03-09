@@ -13,7 +13,7 @@ Gibt einen benutzerdefinierten Wert für die Anzeigeeinheit an.
 
 ###  Bemerkungen
 
- HINWEIS: Diese Eigenschaft ist jetzt veraltet. Stattdessen,
+ HINWEIS: Diese Eigenschaft ist jetzt veraltet.
 Bitte verwenden Sie die Eigenschaft Axis.CustomUnit.
  Diese Property wird 12 Monate später seit Januar 2023 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

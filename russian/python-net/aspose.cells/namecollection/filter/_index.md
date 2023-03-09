@@ -22,7 +22,7 @@ def filter(self, type, sheet_index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [NameScopeType](/cells/ru/python-net/aspose.cells/namescopetype) | Тип области.|
 | sheet_index | int | Индекс листа.<br/>Эффекты только при типе прицела [NameScopeType.WORKSHEET](/cells/ru/python-net/aspose.cells/namescopetype#WORKSHEET) |

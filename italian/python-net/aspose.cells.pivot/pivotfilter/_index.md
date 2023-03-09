@@ -17,9 +17,9 @@ Il tipo PivotFilter espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [auto_filter](/cells/it/python-net/aspose.cells.pivot/pivotfilter/auto_filter) |Ottiene il filtro automatico del filtro pivot.|
+| [auto_filter](/cells/it/python-net/aspose.cells.pivot/pivotfilter/auto_filter) | Ottiene il filtro automatico del filtro pivot.|
 | [filter_type](/cells/it/python-net/aspose.cells.pivot/pivotfilter/filter_type) | Ottiene il tipo di filtro automatico del filtro pivot.|
-| [field_index](/cells/it/python-net/aspose.cells.pivot/pivotfilter/field_index) | Ottiene l'indice del campo del filtro pivot.|
+| [field_index](/cells/it/python-net/aspose.cells.pivot/pivotfilter/field_index) |Ottiene l'indice del campo del filtro pivot.|
 | [value1](/cells/it/python-net/aspose.cells.pivot/pivotfilter/value1) | Ottiene la stringa value1 del filtro pivot dell'etichetta.|
 | [value2](/cells/it/python-net/aspose.cells.pivot/pivotfilter/value2) | Ottiene la stringa value2 del filtro pivot dell'etichetta.|
 | [measure_fld_index](/cells/it/python-net/aspose.cells.pivot/pivotfilter/measure_fld_index) | Ottiene l'indice del campo di misura del filtro pivot.|
@@ -29,7 +29,7 @@ Il tipo PivotFilter espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

@@ -22,7 +22,7 @@ def get_freezed_panes(self, row, column, freezed_rows, freezed_columns):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | any | فهرس الصف.|
 | column | any | فهرس العمود.|

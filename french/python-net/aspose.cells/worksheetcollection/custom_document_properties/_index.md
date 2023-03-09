@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie une collection [DocumentProperty](/cells/fr/python-net/aspose.cells.properties/documentproperty) qui représente toutes les propriétés de document personnalisées de la feuille de calcul.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

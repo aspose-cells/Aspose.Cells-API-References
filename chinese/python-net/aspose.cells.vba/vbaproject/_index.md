@@ -1,13 +1,13 @@
 ﻿---
 title: VbaProject类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
 url: /zh/python-net/aspose.cells.vba/vbaproject/
 is_root: false
 ---
-##  VbaProject类
+## VbaProject类
 表示 VBA 项目。
 
 
@@ -30,7 +30,7 @@ VbaProject 类型公开了以下成员：
 ### 方法
 |方法|描述|
 | :- | :- |
-| [sign(digital_signature)](/cells/zh/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) |通过 DigitalSignature 签署此 VBA 项目|
+| [sign(digital_signature)](/cells/zh/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) |通过数字签名签署此 VBA 项目|
 | [protect(islocked_for_viewing, password)](/cells/zh/python-net/aspose.cells.vba/vbaproject/protect/#bool-str) |保护或取消保护此 VBA 项目。|
 | [copy(source)](/cells/zh/python-net/aspose.cells.vba/vbaproject/copy/#VbaProject) |从其他文件复制 VBA 项目。|
 | [validate_password(password)](/cells/zh/python-net/aspose.cells.vba/vbaproject/validate_password/#str) |验证保护密码。|

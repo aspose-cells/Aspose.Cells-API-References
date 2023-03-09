@@ -22,7 +22,7 @@ def add(self, range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range | [Range](/cells/es/python-net/aspose.cells/range) | Objeto de rango|
 

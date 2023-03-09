@@ -14,7 +14,7 @@ Dosyaları yüklerken verilerin otomatik olarak filtrelenip filtrelenmediğini g
 ###  Notlar
 
 Bazen otomatik filtreleme ayarlanmış olmasına rağmen, ilgili satırlar dosyada gizlenmez.
-Artık yalnızca SpreadSheetML dosyası için çalışır.
+Artık yalnızca SpreadSheetML dosyaları için çalışır.
 ###  Tanım:
 ```python
 @property

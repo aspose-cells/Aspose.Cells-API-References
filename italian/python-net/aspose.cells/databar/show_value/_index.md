@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value proprietà
 
-Ottenere o impostare il flag che indica se mostrare i valori delle celle su cui è applicata questa barra dei dati.
+Ottieni o imposta il flag che indica se mostrare i valori delle celle su cui è applicata questa barra dati.
 Il valore predefinito è vero.
 ###  Definizione:
 ```python

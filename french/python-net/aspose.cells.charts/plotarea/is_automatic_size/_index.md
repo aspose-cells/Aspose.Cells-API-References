@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size propriété
 
-Indique si la zone de traçage est dimensionnée automatiquement.
+Indique si la zone de traçage est automatiquement dimensionnée.
 ###  Définition:
 ```python
 @property

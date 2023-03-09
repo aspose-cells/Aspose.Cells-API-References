@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  underflow недвижимость
 
-Получает или задает underflow бинов осей
+Получает или задает underflow интервалов оси.
 ###  Определение:
 ```python
 @property

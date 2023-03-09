@@ -1,13 +1,13 @@
 ﻿---
 title: SlicerCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
 url: /zh/python-net/aspose.cells.slicers/slicercollection/
 is_root: false
 ---
-##  SlicerCollection类
+## SlicerCollection类
 指定指定工作表上所有 Slicer 对象的集合。
 
 

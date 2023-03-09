@@ -1,5 +1,5 @@
 ﻿---
-title: ChartArea sınıf
+title: ChartArea sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 40
 url: /tr/python-net/aspose.cells.charts/chartarea/
 is_root: false
 ---
-##  ChartArea sınıf
+##  ChartArea sınıfı
 Çalışma sayfasındaki grafik alanını temsil eden nesneyi kapsüller.
 
 
@@ -28,12 +28,12 @@ ChartArea türü aşağıdaki üyeleri gösterir:
 | [text_font](/cells/tr/python-net/aspose.cells.charts/chartarea/text_font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
 | [text_options](/cells/tr/python-net/aspose.cells.charts/chartarea/text_options) | Metnin seçeneklerini alır ve ayarlar.|
 | [font](/cells/tr/python-net/aspose.cells.charts/chartarea/font) | Belirtilen chartarea nesnesinin [ChartArea.font](/cells/tr/python-net/aspose.cells.charts/chartarea#font) nesnesini alır.|
-| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/chartarea/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur.|
+| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/chartarea/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.|
 | [background_mode](/cells/tr/python-net/aspose.cells.charts/chartarea/background_mode) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [background](/cells/tr/python-net/aspose.cells.charts/chartarea/background) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [is_automatic_size](/cells/tr/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Grafik çerçevesinin otomatik boyutlandırılıp boyutlandırılmadığını gösterir.|
 | [x](/cells/tr/python-net/aspose.cells.charts/chartarea/x) | Sol üst köşe sütunundan yatay uzaklığı alır veya alır.|
-| [y](/cells/tr/python-net/aspose.cells.charts/chartarea/y) | Sol üst köşe satırından dikey uzaklığı alır veya alır.|
+| [y](/cells/tr/python-net/aspose.cells.charts/chartarea/y) |Sol üst köşe satırından dikey uzaklığı alır veya alır.|
 | [height](/cells/tr/python-net/aspose.cells.charts/chartarea/height) | Sağ alt köşe satırından dikey uzaklığı alır veya ayarlar.|
 | [width](/cells/tr/python-net/aspose.cells.charts/chartarea/width) | Sağ alt köşe sütunundan yatay uzaklığı alır veya ayarlar.|
 | [shadow](/cells/tr/python-net/aspose.cells.charts/chartarea/shadow) | Çerçevede gölge varsa doğrudur.|
@@ -52,7 +52,7 @@ ChartArea türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

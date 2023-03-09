@@ -18,13 +18,13 @@ El tipo ShapeLockType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | GROUP | Grupo|
-| ADJUST_HANDLES | Asas de ajuste|
+| ADJUST_HANDLES | Ajuste las manijas|
 | TEXT | Texto|
-| POINTS | Puntos|
-| CROP | Cultivo|
+| POINTS | puntos|
+| CROP |Cultivo|
 | SELECTION | Selección|
 | MOVE | Mover|
-| ASPECT_RATIO | relación de aspecto|
+| ASPECT_RATIO | Relación de aspecto|
 | ROTATION | Rotación|
 | UNGROUP | Desagrupar|
 | RESIZE | Redimensionar|

@@ -18,7 +18,7 @@ def link_to_xml_map(self, map_name, row, column, path):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | map_name | str | nombre del mapa xml|
 | row | int | fila de la celda de destino|

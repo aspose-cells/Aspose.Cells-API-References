@@ -18,7 +18,7 @@ def show_report_filter_page(self, page_field):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | page_field | [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) | كائن PivotField|
 

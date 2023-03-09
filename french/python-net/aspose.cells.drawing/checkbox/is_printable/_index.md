@@ -11,7 +11,7 @@ is_root: false
 
 Vrai si l'objet est imprimable
 
-###  Exemple
+###  Exemples
 
 ```python
 

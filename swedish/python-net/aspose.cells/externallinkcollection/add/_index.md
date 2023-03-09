@@ -22,7 +22,7 @@ def add(self, file_name, sheet_names):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | file_name | str | Det externa filnamnet.|
 | sheet_names | list | Alla arknamn för den externa filen.|
@@ -43,9 +43,9 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| directory_type | [DirectoryType](/cells/sv/python-net/aspose.cells/directorytype) | Katalogtypen för filnamnet.|
+| directory_type | [DirectoryType](/cells/sv/python-net/aspose.cells/directorytype) |Katalogtypen för filnamnet.|
 | file_name | str | filnamnet.|
 | sheet_names | list | Alla arknamn för den externa filen.|
 

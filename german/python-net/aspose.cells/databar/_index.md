@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  DataBar Klasse
  Beschreiben Sie die bedingte Formatierungsregel DataBar.
-Diese bedingte Formatierungsregel zeigt ein abgestuftes an
+Diese bedingte Formatierungsregel zeigt ein benotetes an
 Datenleiste im Bereich der Zellen.
 
 
@@ -22,13 +22,13 @@ Der Typ DataBar macht die folgenden Member verfügbar:
 | [axis_color](/cells/de/python-net/aspose.cells/databar/axis_color) | Ruft die Farbe der Achse für Zellen mit bedingter Formatierung als Datenbalken ab.|
 | [axis_position](/cells/de/python-net/aspose.cells/databar/axis_position) | Ruft die Position der Achse der Datenbalken ab, die durch eine bedingte Formatierungsregel angegeben ist, oder legt diese fest.|
 | [bar_fill_type](/cells/de/python-net/aspose.cells/databar/bar_fill_type) | Ruft ab oder legt fest, wie ein Datenbalken mit Farbe gefüllt wird.|
-| [direction](/cells/de/python-net/aspose.cells/databar/direction) | Ruft die Richtung ab, in der die Datenleiste angezeigt wird, oder legt diese fest.|
+| [direction](/cells/de/python-net/aspose.cells/databar/direction) |Ruft die Richtung ab, in der die Datenleiste angezeigt wird, oder legt diese fest.|
 | [bar_border](/cells/de/python-net/aspose.cells/databar/bar_border) | Ruft ein Objekt ab, das den Rahmen eines Datenbalkens angibt.|
 | [negative_bar_format](/cells/de/python-net/aspose.cells/databar/negative_bar_format) | Ruft das NegativeBarFormat-Objekt ab, das einer bedingten Formatierungsregel für Datenbalken zugeordnet ist.|
 | [min_cfvo](/cells/de/python-net/aspose.cells/databar/min_cfvo) | Rufen Sie das Mindestwertobjekt dieses DataBar ab oder legen Sie es fest.<br/> Es kann nicht null oder CFValueObject mit dem Typ FormatConditionValueType.Max darauf gesetzt werden.|
 | [max_cfvo](/cells/de/python-net/aspose.cells/databar/max_cfvo) | Rufen Sie das Objekt für den maximalen Wert dieses DataBar ab oder legen Sie es fest.<br/> Es kann nicht null oder CFValueObject mit dem Typ FormatConditionValueType.Min darauf gesetzt werden.|
 | [color](/cells/de/python-net/aspose.cells/databar/color) | Rufen Sie die Farbe dieses DataBar ab oder legen Sie sie fest.|
-| [min_length](/cells/de/python-net/aspose.cells/databar/min_length) | Repräsentiert die Mindestlänge des Datenbalkens .|
+| [min_length](/cells/de/python-net/aspose.cells/databar/min_length) | Repräsentiert die Mindestlänge des Datenbalkens.|
 | [max_length](/cells/de/python-net/aspose.cells/databar/max_length) | Repräsentiert die maximale Länge des Datenbalkens.|
 | [show_value](/cells/de/python-net/aspose.cells/databar/show_value) | Holen oder setzen Sie das Flag, das angibt, ob die Werte der Zellen angezeigt werden sollen, auf die dieser Datenbalken angewendet wird.<br/> Der Standardwert ist wahr.|
 
@@ -40,7 +40,7 @@ Der Typ DataBar macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

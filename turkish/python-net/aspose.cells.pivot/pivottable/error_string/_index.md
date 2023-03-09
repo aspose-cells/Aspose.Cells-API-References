@@ -10,7 +10,7 @@ is_root: false
 ##  error_string mülk
 
 Hata içeren hücrelerde görüntülenen dizeyi alır
-DisplayErrorString özelliği true olduğunda. Varsayılan değer boş bir dizedir.
+DisplayErrorString özelliği true olduğunda Varsayılan değer boş bir dizedir.
 ###  Tanım:
 ```python
 @property

@@ -14,7 +14,7 @@ Gibt an, ob der Rand benachbarter Zellen aktualisiert wird.
 ###  Bemerkungen
 
 Der Standardwert ist falsch.
-Zum Beispiel: Der untere Rand der Zelle A1 ist Update,
+ Beispiel: Der untere Rand der Zelle A1 wird aktualisiert,
 der obere Rand der Zelle A2 sollte ebenfalls geändert werden.
 ###  Definition:
 ```python

@@ -18,7 +18,7 @@ def set_row_height(self, row, height):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Indice de ligne.|
 | height | float | Hauteur de ligne.En unité de point Elle doit être comprise entre 0 et 409,5.|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  alignment Eigentum
 
-Ruft die Position der Caption relativ zum Steuerelement ab und legt sie fest.
+Ruft die Position der Caption relativ zum Steuerelement ab und legt diese fest.
 ###  Definition:
 ```python
 @property

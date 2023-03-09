@@ -11,7 +11,7 @@ is_root: false
 
 Anger om ett ogiltigt värde för kolumnen hoppar över.
  Till exempel, om kolumntypen är decimal , är värdet större än decimal.MaxValue
-och den här egenskapen är sann, vi kommer inte att kasta undantag igen.
+och denna egenskap är sant, vi kommer inte att kasta undantag igen.
 Standardvärdet är falskt.
 ###  Definition:
 ```python

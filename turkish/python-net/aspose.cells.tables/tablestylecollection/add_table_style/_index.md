@@ -22,7 +22,7 @@ def add_table_style(self, name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Tablo stili adı.|
 

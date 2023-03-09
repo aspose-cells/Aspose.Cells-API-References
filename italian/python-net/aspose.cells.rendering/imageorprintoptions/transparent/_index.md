@@ -13,7 +13,7 @@ Indica se lo sfondo dell'immagine generata deve essere transparent.
 
 ###  Osservazioni
 
-Il valore predefinito è falso. Ciò significa che lo sfondo delle immagini generate è bianco.
+Il valore predefinito è falso.
 ###  Definizione:
 ```python
 @property

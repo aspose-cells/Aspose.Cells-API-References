@@ -22,7 +22,7 @@ def save_format_to_load_format(self, save_format):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/it/python-net/aspose.cells/saveformat) | Il formato di salvataggio.|
 

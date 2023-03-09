@@ -18,7 +18,7 @@ def set_column_width_inch(self, column, inches):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Kolumnindex.|
 | inches | float | Antal tum.|

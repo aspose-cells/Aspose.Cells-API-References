@@ -18,7 +18,7 @@ Der Typ BackgroundMode macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | AUTOMATIC | Automatisch|
-| OPAQUE | Undurchsichtig|
+| OPAQUE |Undurchsichtig|
 | TRANSPARENT | Transparent|
 
 

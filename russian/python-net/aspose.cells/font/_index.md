@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [charset](/cells/ru/python-net/aspose.cells/font/charset) | Представлять набор символов.|
 | [is_italic](/cells/ru/python-net/aspose.cells/font/is_italic) | Получает или задает значение, указывающее, является ли шрифт курсивным.|
-| [is_bold](/cells/ru/python-net/aspose.cells/font/is_bold) | Получает или задает значение, указывающее, является ли шрифт полужирным.|
+| [is_bold](/cells/ru/python-net/aspose.cells/font/is_bold) |Получает или задает значение, указывающее, является ли шрифт полужирным.|
 | [caps_type](/cells/ru/python-net/aspose.cells/font/caps_type) | Получает и задает тип прописных букв.|
 | [strike_type](/cells/ru/python-net/aspose.cells/font/strike_type) | Получает тип забастовки текста.|
 | [is_strikeout](/cells/ru/python-net/aspose.cells/font/is_strikeout) | Получает или задает значение, указывающее, является ли шрифт одинарным перечеркнутым.|
@@ -44,7 +44,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

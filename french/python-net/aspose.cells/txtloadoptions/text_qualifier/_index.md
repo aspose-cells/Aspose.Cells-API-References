@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_qualifier propriété
 
-Spécifie le qualificateur de texte pour les valeurs de cellule. Le qualificateur par défaut est '"'.
+Spécifie le qualificatif de texte pour les valeurs de cellule. Le qualificatif par défaut est '"'.
 
 ###  Remarques
 

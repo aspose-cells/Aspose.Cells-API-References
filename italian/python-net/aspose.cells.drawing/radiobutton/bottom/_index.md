@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta la larghezza dell'offset verticale della forma dalla relativa riga d'angolo inferiore bottom, in unità di pixel.
 
-###  Esempio
+###  Esempi
 
 ```python
 

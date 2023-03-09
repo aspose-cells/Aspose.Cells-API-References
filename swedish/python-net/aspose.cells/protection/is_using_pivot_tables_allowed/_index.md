@@ -13,8 +13,8 @@ Representerar om användaren tillåts manipulera pivottabeller på ett skyddat k
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
- använd egenskapen Protection.AllowUsingPivotTable.
+ OBS: Denna medlem är nu föråldrad.
+ vänligen använd skydd. Tillåt att använda PivotTable-egenskapen.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

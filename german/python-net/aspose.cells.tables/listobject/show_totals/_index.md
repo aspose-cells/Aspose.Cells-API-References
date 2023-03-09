@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals Eigentum
 
-Ruft ab und legt fest, ob dieses ListObject die Gesamtzeile anzeigt.
+Ruft ab und legt fest, ob dieses ListObject die Gesamtzahl der Zeilen anzeigt.
 ###  Definition:
 ```python
 @property

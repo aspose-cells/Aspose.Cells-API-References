@@ -18,7 +18,7 @@ def add_page_field(self, page_items):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | page_items | list | تسمية عنصر حقل الصفحة|
 

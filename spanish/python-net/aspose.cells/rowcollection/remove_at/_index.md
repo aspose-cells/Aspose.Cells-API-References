@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | índice de fila de base cero|
 

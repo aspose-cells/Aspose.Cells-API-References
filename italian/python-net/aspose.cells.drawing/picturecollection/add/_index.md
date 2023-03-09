@@ -22,13 +22,13 @@ def add(self, upper_left_row, upper_left_column, stream):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | stream | io.RawIOBase | Oggetto Stream che contiene i dati dell'immagine.|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -54,13 +54,13 @@ def add(self, upper_left_row, upper_left_column, file_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | file_name | str | Nome file immagine.|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -85,15 +85,15 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | lower_right_row | int | Indice riga in basso a destra|
 | lower_right_column | int | Indice colonna in basso a destra|
 | stream | io.RawIOBase | Oggetto Stream che contiene i dati dell'immagine.|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -119,15 +119,15 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | lower_right_row | int | Indice riga in basso a destra|
 | lower_right_column | int | Indice colonna in basso a destra|
 | file_name | str | Nome file immagine.|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -152,15 +152,15 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | stream | io.RawIOBase | Oggetto Stream che contiene i dati dell'immagine.|
 | width_scale | int | Scala della larghezza dell'immagine, una percentuale.|
 | height_scale | int | Scala dell'altezza dell'immagine, una percentuale.|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -186,15 +186,15 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | file_name | str | Nome file immagine.|
 | width_scale | int | Scala della larghezza dell'immagine, una percentuale.|
 | height_scale | int | Scala dell'altezza dell'immagine, una percentuale.|
 
-###  Esempio
+###  Esempi
 
 ```python
 

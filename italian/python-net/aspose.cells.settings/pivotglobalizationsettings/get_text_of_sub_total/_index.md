@@ -13,7 +13,7 @@ Ottiene il testo di tipo [PivotFieldSubtotalType](/cells/it/python-net/aspose.ce
 
 ###  ritorna
 
-Il testo di un determinato tipo
+Il testo di un dato tipo
 
 
 ```python
@@ -22,7 +22,7 @@ def get_text_of_sub_total(self, sub_total_type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | sub_total_type | aspose.cells.pivot.PivotFieldSubtotalType | Il [PivotFieldSubtotalType](/cells/it/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |
 

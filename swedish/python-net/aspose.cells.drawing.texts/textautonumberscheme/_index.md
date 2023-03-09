@@ -25,7 +25,7 @@ Typen TextAutonumberScheme avslöjar följande medlemmar:
 | ALPHA_UC_PAREN_R | A), B), C), …|
 | ALPHA_UC_PERIOD | A., B., C., …|
 | ARABIC_1_MINUS | Bidi Arabic 1 (AraAlpha) med ANSI minussymbol|
-| ARABIC_2_MINUS | Bidi Arabic 2 (AraAbjad) med ANSI minussymbol|
+| ARABIC_2_MINUS |Bidi Arabic 2 (AraAbjad) med ANSI minussymbol|
 | ARABIC_DB_PERIOD | Dbl-byte arabiska siffror med dubbelbyte period|
 | ARABIC_DB_PLAIN | Dbl-byte arabiska tal|
 | ARABIC_PAREN_BOTH | (1), (2), (3), … |
@@ -38,7 +38,7 @@ Typen TextAutonumberScheme avslöjar följande medlemmar:
 | EA_1_CHS_PERIOD | EA: Förenklad kinesiska med enkelbyteperiod|
 | EA_1_CHS_PLAIN | EA: Förenklad kinesiska (TypeA 1-99, TypeC 100-)|
 | EA_1_CHT_PERIOD | EA: Traditionell kinesiska med enkelbyteperiod|
-| EA_1_CHT_PLAIN |EA: Traditionell kinesiska (TypA 1-19, TypeC 20-)|
+| EA_1_CHT_PLAIN | EA: Traditionell kinesiska (TypA 1-19, TypeC 20-)|
 | EA_1_JPN_CHS_DB_PERIOD | EA: Japanska med dubbelbyteperiod|
 | EA_1_JPN_KOR_PERIOD | EA: Japanska/koreanska med enkelbyteperiod|
 | EA_1_JPN_KOR_PLAIN | EA: japanska/koreanska (TypeC 1-)|
@@ -52,7 +52,7 @@ Typen TextAutonumberScheme avslöjar följande medlemmar:
 | ROMAN_LC_PERIOD | i., ii., iii., …|
 | ROMAN_UC_PAREN_BOTH | (I), (II), (III), …|
 | ROMAN_UC_PAREN_R | I), II), III), …|
-| ROMAN_UC_PERIOD | I., II., III., …|
+| ROMAN_UC_PERIOD |I., II., III., …|
 | THAI_ALPHA_PAREN_BOTH | Det thailändska alfabetet parentes - båda|
 | THAI_ALPHA_PAREN_R | Det thailändska alfabetet parentes - höger|
 | THAI_ALPHA_PERIOD | Thailändska alfabetet period|

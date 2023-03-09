@@ -17,7 +17,7 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [is_auto_start](/cells/ru/python-net/aspose.cells.pivot/sxrng/is_auto_start) |Указывает логическое значение, указывающее, будет ли приложение использовать исходные данные для установки значения начального диапазона.|
+| [is_auto_start](/cells/ru/python-net/aspose.cells.pivot/sxrng/is_auto_start) | Указывает логическое значение, указывающее, будет ли приложение использовать исходные данные для установки значения начального диапазона.|
 | [is_auto_end](/cells/ru/python-net/aspose.cells.pivot/sxrng/is_auto_end) | Указывает логическое значение, указывающее, будет ли приложение использовать исходные данные для установки конечного значения диапазона.|
 | [start](/cells/ru/python-net/aspose.cells.pivot/sxrng/start) | Представляет начальный объект для диапазона группы.|
 | [end](/cells/ru/python-net/aspose.cells.pivot/sxrng/end) | Представляет конечный объект для диапазона группы.|

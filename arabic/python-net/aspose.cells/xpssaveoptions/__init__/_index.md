@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/xpssaveoptions/__init__/
 is_root: false
 ---
 ##  XpsSaveOptions() {#}
-يخلق خيارات لحفظ ملف xps.
+ينشئ خيارات لحفظ ملفات xps.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  XpsSaveOptions(save_format) {#SaveFormat}
-يخلق خيارات لحفظ ملف xps.
+ينشئ خيارات لحفظ ملفات xps.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | يجب أن يكون تنسيق الحفظ بتنسيق xps.|
 ###  ملاحظات

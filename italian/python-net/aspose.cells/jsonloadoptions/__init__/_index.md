@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/jsonloadoptions/__init__/
 is_root: false
 ---
 ##  JsonLoadOptions() {#}
-Crea un'opzione di caricamento del file.
+Crea un'opzione per caricare il file.
 
 
 

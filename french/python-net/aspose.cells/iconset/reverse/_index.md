@@ -10,7 +10,7 @@ is_root: false
 ##  reverse propriété
 
 Obtenez ou définissez l'indicateur indiquant s'il faut inverser l'ordre par défaut des icônes dans ce jeu d'icônes.
-La valeur par défaut est faux.
+La valeur par défaut est false.
 ###  Définition:
 ```python
 @property

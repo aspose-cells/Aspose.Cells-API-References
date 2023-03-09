@@ -17,7 +17,7 @@ El valor por defecto es verdadero.
 Deshabilitar esta propiedad puede dar un mejor rendimiento.
 Pero cuando la fuente predeterminada o especificada de texto/carácter no se puede usar para representarlo,
 Es posible que aparezcan caracteres ilegibles (como un bloque) en el pdf generado.
-Para tal situación, el usuario debe mantener esta propiedad como verdadera para que
+Para tales situaciones, el usuario debe mantener esta propiedad como verdadera para que
 se puede buscar una fuente alternativa y usarla para representar el texto en su lugar;
 ###  Definición:
 ```python

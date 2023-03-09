@@ -13,7 +13,7 @@ Ottiene e imposta lo stile iniziale della punta della freccia della linea.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
  si prega di utilizzare la proprietà Shape.Line.BeginArrowheadStyle.
  Questa proprietà verrà rimossa 12 mesi dopo da agosto 2016.
 Aspose si scusa per gli eventuali disagi causati.

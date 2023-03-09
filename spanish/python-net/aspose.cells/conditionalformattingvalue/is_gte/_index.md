@@ -10,7 +10,7 @@ is_root: false
 ##  is_gte propiedad
 
  Obtenga o establezca el indicador Mayor que o igual.
-Usar solo para conjuntos de íconos, determina si este valor de umbral usa
+ Usar solo para conjuntos de íconos, determina si este valor de umbral usa
  el operador mayor o igual que.
 falso' indica que se usa 'mayor que' en lugar de 'mayor que o igual a'.
 El valor predeterminado es verdadero.

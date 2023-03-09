@@ -18,7 +18,7 @@ def put_cell_value(self, row_offset, column_offset, value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | row_offset | int | Смещение строки.|
 | column_offset | int | Смещение столбца.|

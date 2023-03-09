@@ -22,7 +22,7 @@ def create_cell_area(self, start_cell_name, end_cell_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_cell_name | str | La cella in alto a sinistra dell'intervallo.|
 | end_cell_name | str | La cella in basso a destra dell'intervallo.|
@@ -43,7 +43,7 @@ def create_cell_area(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | La fila di partenza.|
 | start_column | int | La colonna iniziale.|

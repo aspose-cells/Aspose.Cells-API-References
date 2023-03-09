@@ -22,7 +22,7 @@ def add_r1c1(self, area, is_vertical):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | area | str | Spécifie les valeurs à partir desquelles tracer la série de données|
 | is_vertical | bool | Spécifie s'il faut tracer la série à partir d'une plage de valeurs de cellule par ligne ou par colonne.|

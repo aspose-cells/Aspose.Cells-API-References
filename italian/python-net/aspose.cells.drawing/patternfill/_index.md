@@ -24,10 +24,10 @@ Il tipo PatternFill espone i membri seguenti:
 | :- | :- |
 | [pattern](/cells/it/python-net/aspose.cells.drawing/patternfill/pattern) | Ottiene o imposta il tipo di motivo di riempimento|
 | [background_color](/cells/it/python-net/aspose.cells.drawing/patternfill/background_color) | Ottiene o imposta il colore di sfondo di [Area](/cells/it/python-net/aspose.cells.drawing/area).|
-| [background_cells_color](/cells/it/python-net/aspose.cells.drawing/patternfill/background_cells_color) | Ottiene e imposta l'oggetto [CellsColor](/cells/it/python-net/aspose.cells/cellscolor) in primo piano.|
+| [background_cells_color](/cells/it/python-net/aspose.cells.drawing/patternfill/background_cells_color) |Ottiene e imposta l'oggetto [CellsColor](/cells/it/python-net/aspose.cells/cellscolor) in primo piano.|
 | [foreground_color](/cells/it/python-net/aspose.cells.drawing/patternfill/foreground_color) | Ottiene o imposta il Color in primo piano.|
-| [foreground_cells_color](/cells/it/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) | Ottiene e imposta l'oggetto [CellsColor](/cells/it/python-net/aspose.cells/cellscolor) in primo piano.|
-| [fore_transparency](/cells/it/python-net/aspose.cells.drawing/patternfill/fore_transparency) |Ottiene o imposta la trasparenza del colore di primo piano.|
+| [foreground_cells_color](/cells/it/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) |Ottiene e imposta l'oggetto [CellsColor](/cells/it/python-net/aspose.cells/cellscolor) in primo piano.|
+| [fore_transparency](/cells/it/python-net/aspose.cells.drawing/patternfill/fore_transparency) | Ottiene o imposta la trasparenza del colore di primo piano.|
 | [back_transparency](/cells/it/python-net/aspose.cells.drawing/patternfill/back_transparency) | Ottiene o imposta la trasparenza del colore di sfondo.|
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Bezeichner dieser Form ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

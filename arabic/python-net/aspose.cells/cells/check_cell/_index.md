@@ -23,7 +23,7 @@ def check_cell(self, row, column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف|
 | column | int | فهرس العمود|

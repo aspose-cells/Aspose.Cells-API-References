@@ -11,7 +11,7 @@ is_root: false
 
 Évaluer le nombre total de pages de ce classeur
 
-###  Exemple
+###  Exemples
 
 Le code suivant montre le moyen le plus rapide d'obtenir le nombre de pages d'un classeur.
 

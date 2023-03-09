@@ -39,11 +39,11 @@ def add(self, type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [SheetType](/cells/it/python-net/aspose.cells/sheettype) | Tipo di foglio di lavoro.|
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import SheetType, Workbook
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_name | str | Nome del foglio di lavoro|
 

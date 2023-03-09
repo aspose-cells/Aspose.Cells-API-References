@@ -18,14 +18,14 @@ El tipo ChartType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | AREA | Representa el gráfico de área.|
-| AREA_STACKED |Representa el gráfico de áreas apiladas.|
+| AREA_STACKED | Representa el gráfico de áreas apiladas.|
 | AREA_100_PERCENT_STACKED | Representa un gráfico de áreas apiladas al 100 %.|
 | AREA_3D | Representa el gráfico de área 3D.|
 | AREA_3D_STACKED | Representa el gráfico de áreas apiladas en 3D.|
 | AREA_3D100_PERCENT_STACKED | Representa un gráfico de áreas apiladas al 100 % en 3D.|
 | BAR | Representa el gráfico de barras: gráfico de barras agrupadas.|
 | BAR_STACKED | Representa el gráfico de barras apiladas.|
-| BAR_100_PERCENT_STACKED | Representa un gráfico de barras apiladas al 100 %.|
+| BAR_100_PERCENT_STACKED |Representa un gráfico de barras apiladas al 100 %.|
 | BAR_3D_CLUSTERED | Representa el gráfico de barras agrupadas en 3D.|
 | BAR_3D_STACKED | Representa el gráfico de barras apiladas en 3D.|
 | BAR_3D100_PERCENT_STACKED | Representa un gráfico de barras apiladas al 100 % en 3D.|
@@ -44,12 +44,12 @@ El tipo ChartType expone los siguientes miembros:
 | CONICAL_BAR | Representa el gráfico de barras cónicas.|
 | CONICAL_BAR_STACKED | Representa el gráfico de barras cónicas apiladas.|
 | CONICAL_BAR_100_PERCENT_STACKED | Representa un gráfico de barras cónicas apiladas al 100 %.|
-| CONICAL_COLUMN_3D |Representa el gráfico de columnas cónicas 3D.|
+| CONICAL_COLUMN_3D | Representa el gráfico de columnas cónicas 3D.|
 | CYLINDER | Representa el gráfico de cilindros.|
 | CYLINDER_STACKED | Representa el gráfico de cilindros apilados.|
 | CYLINDER_100_PERCENT_STACKED | Representa el gráfico de cilindros 100 % apilados.|
 | CYLINDRICAL_BAR | Representa el gráfico de barras cilíndricas.|
-| CYLINDRICAL_BAR_STACKED | Representa el gráfico de barras cilíndricas apiladas.|
+| CYLINDRICAL_BAR_STACKED |Representa el gráfico de barras cilíndricas apiladas.|
 | CYLINDRICAL_BAR_100_PERCENT_STACKED | Representa un gráfico de barras cilíndricas apiladas al 100 %.|
 | CYLINDRICAL_COLUMN_3D | Representa el gráfico de columnas cilíndricas en 3D.|
 | DOUGHNUT | Representa el gráfico de anillos.|
@@ -62,10 +62,10 @@ El tipo ChartType expone los siguientes miembros:
 | LINE_100_PERCENT_STACKED_WITH_DATA_MARKERS | Representa un gráfico de líneas apiladas al 100 % con marcadores de datos.|
 | LINE_3D | Representa el gráfico de líneas 3D.|
 | PIE | Representa el gráfico circular.|
-| PIE_3D | Representa el gráfico circular 3D.|
+| PIE_3D | Representa gráficos circulares en 3D.|
 | PIE_PIE | Representa un gráfico circular de un gráfico circular.|
 | PIE_EXPLODED | Representa el gráfico circular despiezado.|
-| PIE_3D_EXPLODED |Representa un gráfico circular explotado en 3D.|
+| PIE_3D_EXPLODED | Representa un gráfico circular explotado en 3D.|
 | PIE_BAR | Representa la barra del gráfico circular.|
 | PYRAMID | Representa el gráfico piramidal.|
 | PYRAMID_STACKED | Representa el gráfico de pirámide apilada.|
@@ -73,7 +73,7 @@ El tipo ChartType expone los siguientes miembros:
 | PYRAMID_BAR | Representa el gráfico de barras de la pirámide.|
 | PYRAMID_BAR_STACKED | Representa el gráfico de barras de pirámides apiladas.|
 | PYRAMID_BAR_100_PERCENT_STACKED | Representa un gráfico de barras piramidal 100 % apilado.|
-| PYRAMID_COLUMN_3D | Representa el gráfico de columnas de pirámide 3D.|
+| PYRAMID_COLUMN_3D |Representa el gráfico de columnas de pirámide 3D.|
 | RADAR | Representa el gráfico de radar.|
 | RADAR_WITH_DATA_MARKERS | Representa el gráfico de radar con marcadores de datos.|
 | RADAR_FILLED | Representa el gráfico de radar lleno.|
@@ -83,7 +83,7 @@ El tipo ChartType expone los siguientes miembros:
 | SCATTER_CONNECTED_BY_LINES_WITH_DATA_MARKER | Representa el gráfico de dispersión conectado por líneas, con marcadores de datos.|
 | SCATTER_CONNECTED_BY_LINES_WITHOUT_DATA_MARKER | Representa el gráfico de dispersión conectado por líneas, sin marcadores de datos.|
 | STOCK_HIGH_LOW_CLOSE | Representa el gráfico de cotizaciones máximo-mínimo-cierre.|
-| STOCK_OPEN_HIGH_LOW_CLOSE |Representa el gráfico de acciones abierto-alto-bajo-cierre.|
+| STOCK_OPEN_HIGH_LOW_CLOSE | Representa el gráfico de acciones abierto-alto-bajo-cierre.|
 | STOCK_VOLUME_HIGH_LOW_CLOSE | Representa el gráfico de acciones Volumen-Alto-Bajo-Cierre.|
 | STOCK_VOLUME_OPEN_HIGH_LOW_CLOSE | Representa el gráfico de cotizaciones Volumen-Apertura-Alto-Bajo-Cierre.|
 | SURFACE_3D | Representa gráfico de superficie: gráfico de superficie 3D.|
@@ -93,12 +93,12 @@ El tipo ChartType expone los siguientes miembros:
 | BOX_WHISKER | La serie se presenta como caja y bigotes.|
 | FUNNEL | La serie se presenta como un embudo.|
 | PARETO_LINE | La serie se presenta como líneas de Pareto.|
-| SUNBURST | La serie se presenta como un rayo de sol.|
+| SUNBURST |La serie se presenta como un rayo de sol.|
 | TREEMAP | La serie se presenta como un diagrama de árbol.|
 | WATERFALL | La serie se presenta como una cascada.|
 | HISTOGRAM | La serie se presenta como un histograma.|
 | MAP | La serie se presenta como un mapa de la región.|
-| RADIAL_HISTOGRAM | La serie se presenta como un historgrama radial. Se usa solo para renderizar.|
+| RADIAL_HISTOGRAM | La serie se presenta como un histograma radial.|
 
 
 

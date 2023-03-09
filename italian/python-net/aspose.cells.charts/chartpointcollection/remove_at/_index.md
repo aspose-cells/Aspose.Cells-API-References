@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int | L'indice del punto.|
 

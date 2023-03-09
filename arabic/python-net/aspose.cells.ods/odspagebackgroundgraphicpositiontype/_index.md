@@ -20,7 +20,7 @@ is_root: false
 | TOP_LEFT | أعلى اليسار.|
 | TOP_CENTER | مركز أعلى.|
 | TOP_RIGHT | اعلى اليمين.|
-| CENTER_LEFT |يسار الوسط.|
+| CENTER_LEFT | يسار الوسط.|
 | CENTER_CENTER | مركز.|
 | CENTER_RIGHT | يمين الوسط.|
 | BOTTOM_LEFT | أسفل اليسار.|

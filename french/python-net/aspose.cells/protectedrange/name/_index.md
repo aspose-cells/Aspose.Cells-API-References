@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name propriété
 
-Obtient le titre de la plage. Ceci est utilisé comme descripteur, pas comme une définition de plage nommée.
+Obtient le titre de la plage.
 ###  Définition:
 ```python
 @property

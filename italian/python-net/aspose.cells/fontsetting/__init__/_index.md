@@ -18,7 +18,7 @@ def __init__(self, start_index, length, sheets):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_index | int |  |
 | length | int |  |

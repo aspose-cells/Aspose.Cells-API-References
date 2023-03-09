@@ -22,16 +22,16 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
-| top | int |Representa el desplazamiento vertical del cuadro de texto desde su fila izquierda, en unidades de píxel.|
-| upper_left_column | int |Índice de la columna superior izquierda.|
+| top | int | Representa el desplazamiento vertical del cuadro de texto desde su fila izquierda, en unidades de píxel.|
+| upper_left_column | int | Índice de la columna superior izquierda.|
 | left | int | Representa el desplazamiento horizontal del cuadro de texto desde su columna izquierda, en unidades de píxel.|
 | height | int | Representa la altura del cuadro de texto, en unidades de píxel.|
 | width | int | Representa el ancho del cuadro de texto, en unidades de píxel.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

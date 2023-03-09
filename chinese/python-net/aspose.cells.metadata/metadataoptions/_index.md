@@ -1,13 +1,13 @@
 ﻿---
 title: MetadataOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.metadata/metadataoptions/
 is_root: false
 ---
-##  MetadataOptions类
+## MetadataOptions类
 表示加载文件元数据的选项。
 
 

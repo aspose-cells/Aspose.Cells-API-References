@@ -1,6 +1,6 @@
 ﻿---
 title: copy_rows方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
@@ -18,7 +18,7 @@ def copy_rows(self, source_cells, source_row_index, destination_row_index, row_n
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/zh/python-net/aspose.cells/cells) |源 Cells 对象包含要复制的数据和格式。|
 | source_row_index | int |源行索引。|
@@ -37,7 +37,7 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/zh/python-net/aspose.cells/cells) |源 Cells 对象包含要复制的数据和格式。|
 | source_row_index | int |源行索引。|
@@ -57,7 +57,7 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/zh/python-net/aspose.cells/cells) |源 Cells 对象包含要复制的数据和格式。|
 | source_row_index | int |源行索引。|

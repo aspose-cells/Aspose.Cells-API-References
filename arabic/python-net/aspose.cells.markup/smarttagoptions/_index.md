@@ -23,7 +23,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [embed_smart_tags](/cells/ar/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) |يشير إلى ما إذا كان يتم حفظ العلامات الذكية في المصنف أم لا.|
+| [embed_smart_tags](/cells/ar/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) | يشير إلى ما إذا كان يتم حفظ العلامات الذكية في المصنف أم لا.|
 | [show_type](/cells/ar/python-net/aspose.cells.markup/smarttagoptions/show_type) | يمثل نوع العرض من العلامة الذكية.|
 
 

@@ -25,7 +25,7 @@ Der Typ PresetWordArtStyle macht die folgenden Member verfügbar:
 | WORD_ART_STYLE6 | Verlaufsfüllung - Grau|
 | WORD_ART_STYLE7 | Verlaufsfüllung - Blau, Akzent 1, Reflexion|
 | WORD_ART_STYLE8 | Verlaufsfüllung – Gold, Akzent 4, Kontur – Akzent 4|
-| WORD_ART_STYLE9 | Füllung – Weiß, Kontur – Akzent 1, Glühen – Akzent 1|
+| WORD_ART_STYLE9 |Füllung – Weiß, Kontur – Akzent 1, Glühen – Akzent 1|
 | WORD_ART_STYLE10 | Füllung – Grau – 50 %, Akzent 3, scharfe Abschrägung|
 | WORD_ART_STYLE11 | Füllung – Schwarz, Text 1, Kontur – Hintergrund 1, Harter Schatten – Hintergrund 1|
 | WORD_ART_STYLE12 | Füllung – Schwarz, Text 1, Umriss – Hintergrund 1, Harter Schatten – Akzent 1|
@@ -36,7 +36,7 @@ Der Typ PresetWordArtStyle macht die folgenden Member verfügbar:
 | WORD_ART_STYLE17 | Musterfüllung – Grau – 50 %, Akzent 3, schmal horizontal, innerer Schatten|
 | WORD_ART_STYLE18 | Füllung – Blau, Akzent 1, 50 %, Harter Schatten – Akzent 1|
 | WORD_ART_STYLE19 | Musterfüllung – Blau, Akzent 1, leichte Diagonale nach unten, Umriss – Akzent 1|
-| WORD_ART_STYLE20 |Musterfüllung - Blaugrau, Text 2, Dunkle Diagonale nach oben, Harter Schatten - Text 2|
+| WORD_ART_STYLE20 | Musterfüllung - Blaugrau, Text 2, Dunkle Diagonale nach oben, Harter Schatten - Text 2|
 
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_numeric_value mülk
 
-Bu hücrenin iç değerinin sayısal olup olmadığını gösterir(int, double ve tarihsaat)
+Bu hücrenin iç değerinin sayısal (int, double ve datetime) olup olmadığını gösterir.
 
 ###  Notlar
 

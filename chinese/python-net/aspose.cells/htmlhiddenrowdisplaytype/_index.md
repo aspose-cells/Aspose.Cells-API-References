@@ -1,13 +1,13 @@
 ﻿---
 title: HtmlHiddenRowDisplayType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2170
 url: /zh/python-net/aspose.cells/htmlhiddenrowdisplaytype/
 is_root: false
 ---
-##  HtmlHiddenRowDisplayType枚举
+## HtmlHiddenRowDisplayType枚举
 表示在html中显示隐藏行的两种类型。
 
 

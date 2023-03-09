@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/sv/python-net/aspose.cells/workbook) | Mallarbetsboksfilen.|
 

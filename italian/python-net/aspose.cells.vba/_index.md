@@ -15,12 +15,12 @@ is_root: false
 | [VbaModule](/cells/it/python-net/aspose.cells.vba/vbamodule) | Rappresenta il modulo nel progetto VBA.|
 | [VbaModuleCollection](/cells/it/python-net/aspose.cells.vba/vbamodulecollection) | Rappresenta la lista di [VbaModule](/cells/it/python-net/aspose.cells.vba/vbamodule) |
 | [VbaProject](/cells/it/python-net/aspose.cells.vba/vbaproject) | Rappresenta il progetto VBA.|
-| [VbaProjectReference](/cells/it/python-net/aspose.cells.vba/vbaprojectreference) | Rappresenta il riferimento del progetto VBA.|
-| [VbaProjectReferenceCollection](/cells/it/python-net/aspose.cells.vba/vbaprojectreferencecollection) | Rappresenta tutti i riferimenti del progetto VBA.|
+| [VbaProjectReference](/cells/it/python-net/aspose.cells.vba/vbaprojectreference) |Rappresenta il riferimento del progetto VBA.|
+| [VbaProjectReferenceCollection](/cells/it/python-net/aspose.cells.vba/vbaprojectreferencecollection) | Rappresenta tutti i riferimenti dei progetti VBA.|
 
 
 ###  Enumerazioni
-| Enumerazione| Descrizione|
+|Enumerazione| Descrizione|
 | :- | :- |
 | [VbaModuleType](/cells/it/python-net/aspose.cells.vba/vbamoduletype) | Rappresenta il tipo di modulo VBA.|
 | [VbaProjectReferenceType](/cells/it/python-net/aspose.cells.vba/vbaprojectreferencetype) | Rappresenta il tipo di riferimento al progetto VBA.|

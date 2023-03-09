@@ -18,7 +18,7 @@ def clear_range(self, range):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Räckvidd ska rensas.|
 
@@ -34,7 +34,7 @@ def clear_range(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Starta radindex.|
 | start_column | int | Starta kolumnindex.|

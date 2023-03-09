@@ -1,5 +1,5 @@
 ﻿---
-title: HeaderFooterCommand sınıf
+title: HeaderFooterCommand sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 740
 url: /tr/python-net/aspose.cells/headerfootercommand/
 is_root: false
 ---
-##  HeaderFooterCommand sınıf
+##  HeaderFooterCommand sınıfı
 Üstbilgi/altbilgi komutunu temsil eder
 
 

@@ -22,7 +22,7 @@ def calculate_formula(self, formula):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | formula | str | Formula da calcolare.|
 
@@ -42,7 +42,7 @@ def calculate_formula(self, formula, opts):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | formula | str | Formula da calcolare.|
 | opts | [CalculationOptions](/cells/it/python-net/aspose.cells/calculationoptions) | Opzioni per il calcolo della formula|
@@ -59,7 +59,7 @@ def calculate_formula(self, options, recursive):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/it/python-net/aspose.cells/calculationoptions) | Opzioni per il calcolo|
 | recursive | bool | Vero significa che se le celle del foglio di lavoro dipendono dalle celle di altri fogli di lavoro,<br/>verranno calcolate anche le celle dipendenti in altri fogli di lavoro.<br/> Falso significa che tutte le formule nel foglio di lavoro sono state calcolate e i valori sono corretti.|
@@ -76,14 +76,14 @@ def calculate_formula(self, recursive, ignore_error, custom_function):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | recursive | bool | Vero significa che se le celle del foglio di lavoro dipendono dalle celle di altri fogli di lavoro,<br/>verranno calcolate anche le celle dipendenti in altri fogli di lavoro.<br/> Falso significa che tutte le formule nel foglio di lavoro sono state calcolate e i valori sono corretti.|
-| ignore_error | bool | Indica se nascondere l'errore nel calcolo delle formule.<br/> L'errore potrebbe essere una funzione non supportata, collegamenti esterni, ecc.|
+| ignore_error | bool | Indica se nascondere l'errore nel calcolo delle formule.<br/> L'errore potrebbe essere dovuto a funzioni non supportate, collegamenti esterni e così via.|
 | custom_function | [ICustomFunction](/cells/it/python-net/aspose.cells/icustomfunction) | Il calcolo della formula personalizzata funziona per estendere il motore di calcolo.|
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+NOTA: questo membro è ora obsoleto.
 si prega di utilizzare il metodo CalculateFormula(CalculationOptions, bool).
  Questo metodo verrà rimosso 12 mesi dopo da agosto 2020.
 Aspose si scusa per gli eventuali disagi causati.

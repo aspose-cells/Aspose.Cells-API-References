@@ -22,7 +22,7 @@ OLEDBCommandType türü aşağıdaki üyeleri gösterir:
 | SQL_STATEMENT | Bir SQL deyimi belirtir|
 | TABLE_NAME | Bir tablo adı belirtir|
 | DEFAULT_INFORMATION | Varsayılan bilgilerin verildiğini belirtir ve nasıl yorumlanacağı sağlayıcıya bağlıdır.|
-| WEB_BASED_LIST | Web tabanlı bir Liste Veri Sağlayıcısına karşı bir sorgu belirtir.|
+| WEB_BASED_LIST |Web tabanlı bir Liste Veri Sağlayıcısına karşı bir sorgu belirtir.|
 
 
 

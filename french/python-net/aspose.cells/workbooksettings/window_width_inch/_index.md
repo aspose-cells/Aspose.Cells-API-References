@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_inch propriété
 
-La largeur de la fenêtre, en unité de pouce.
+La largeur de la fenêtre, en unités de pouces.
 ###  Définition:
 ```python
 @property

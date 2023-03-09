@@ -17,7 +17,7 @@ Typen PivotFormatCondition avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [scope_type](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) |Hämta och ställ in omfattningstyp för pivottabellens villkorsformat.|
+| [scope_type](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) | Hämta och ställ in omfattningstyp för pivottabellens villkorsformat.|
 | [rule_type](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/rule_type) | Hämta och ställ in regeltyp för villkorsformatet för pivottabellen.|
 | [format_conditions](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | Hämta formatvillkor för pivottabellens villkorsformat.|
 
@@ -29,8 +29,8 @@ Typen PivotFormatCondition avslöjar följande medlemmar:
 | [add_data_area_condition(data_field)](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/add_data_area_condition/#PivotField) | Lägger till PivotTable-villkorlig formatgräns i datafälten.|
 | [add_row_area_condition(field_name)](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#str) | Lägger till PivotTable-villkorlig formatgräns i radfälten.|
 | [add_row_area_condition(row_field)](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#PivotField) | Lägger till PivotTable-villkorlig formatgräns i radfälten.|
-| [add_column_area_condition(field_name)](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) |Lägger till PivotTable-villkorlig formatgräns i kolumnfälten.|
-| [add_column_area_condition(column_field)](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) |Lägger till PivotTable-villkorlig formatgräns i kolumnfälten.|
+| [add_column_area_condition(field_name)](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) | Lägger till PivotTable-villkorlig formatgräns i kolumnfälten.|
+| [add_column_area_condition(column_field)](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) | Lägger till PivotTable-villkorlig formatgräns i kolumnfälten.|
 | [set_conditional_areas()](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition/set_conditional_areas/#) | Ställer in villkorliga områden för PivotFormatCondition-objektet.|
 
 

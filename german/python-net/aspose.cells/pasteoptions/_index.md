@@ -26,8 +26,8 @@ Der Typ PasteOptions macht die folgenden Member verfügbar:
 | [paste_type](/cells/de/python-net/aspose.cells/pasteoptions/paste_type) | Der Paste-Spezialtyp.|
 | [skip_blanks](/cells/de/python-net/aspose.cells/pasteoptions/skip_blanks) | Gibt an, ob leere Zellen übersprungen werden.|
 | [only_visible_cells](/cells/de/python-net/aspose.cells/pasteoptions/only_visible_cells) | True bedeutet, dass nur sichtbare Zellen kopiert werden.|
-| [transpose](/cells/de/python-net/aspose.cells/pasteoptions/transpose) | True, um Zeilen und Spalten zu transponieren, wenn der Bereich eingefügt wird. Der Standardwert ist False.|
-| [operation_type](/cells/de/python-net/aspose.cells/pasteoptions/operation_type) | Ruft den Vorgangstyp beim Einfügen des Bereichs ab und legt ihn fest.|
+| [transpose](/cells/de/python-net/aspose.cells/pasteoptions/transpose) | True, um Zeilen und Spalten zu transponieren, wenn der Bereich eingefügt wird.|
+| [operation_type](/cells/de/python-net/aspose.cells/pasteoptions/operation_type) |Ruft den Vorgangstyp beim Einfügen des Bereichs ab und legt ihn fest.|
 
 
 

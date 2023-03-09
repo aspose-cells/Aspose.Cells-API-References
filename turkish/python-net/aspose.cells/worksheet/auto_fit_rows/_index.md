@@ -31,9 +31,9 @@ def auto_fit_rows(self, only_auto):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| only_auto | bool | Doğru, yalnızca satır yüksekliği özelleştirilmediğinde satır yüksekliğini otomatik olarak sığdırır.|
+| only_auto | bool |Doğru, yalnızca satır yüksekliği özelleştirilmediğinde satır yüksekliğini otomatik olarak sığdırır.|
 
 
 ##  auto_fit_rows(options) {#AutoFitterOptions}
@@ -47,7 +47,7 @@ def auto_fit_rows(self, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/tr/python-net/aspose.cells/autofitteroptions) | Otomatik tesisatçı seçenekleri|
 
@@ -63,7 +63,7 @@ def auto_fit_rows(self, start_row, end_row):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Satır dizini başlat.|
 | end_row | int | Son satır dizini.|
@@ -80,7 +80,7 @@ def auto_fit_rows(self, start_row, end_row, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Satır dizini başlat.|
 | end_row | int | Son satır dizini.|

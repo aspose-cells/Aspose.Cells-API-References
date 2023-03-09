@@ -18,12 +18,12 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [start_column](/cells/ar/python-net/aspose.cells/horizontalpagebreak/start_column) | الحصول على فهرس عمود البداية لفاصل الصفحات الأفقي هذا.|
-| [end_column](/cells/ar/python-net/aspose.cells/horizontalpagebreak/end_column) |يحصل على فهرس عمود نهاية فاصل الصفحات الأفقي هذا.|
+| [end_column](/cells/ar/python-net/aspose.cells/horizontalpagebreak/end_column) | يحصل على فهرس عمود نهاية فاصل الصفحات الأفقي هذا.|
 | [row](/cells/ar/python-net/aspose.cells/horizontalpagebreak/row) | يحصل على فهرس الصف الصفري.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

@@ -19,7 +19,7 @@ Il tipo TotalsCalculation espone i membri seguenti:
 | :- | :- |
 | SUM | Rappresenta il calcolo dei totali della somma.|
 | COUNT | Rappresenta il calcolo dei totali del conteggio.|
-| AVERAGE | Rappresenta il calcolo dei totali medi.|
+| AVERAGE |Rappresenta il calcolo dei totali medi.|
 | MAX | Rappresenta il calcolo dei totali massimi.|
 | MIN | Rappresenta il calcolo dei totali minimi.|
 | VAR | Rappresenta il calcolo dei totali Var.|

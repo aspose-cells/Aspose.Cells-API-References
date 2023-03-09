@@ -18,7 +18,7 @@ def add_key(self, key, order):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | key | int | Det sorterade kolumnindexet (absolut position, kolumn A är 0, B är 1, ...)|
 | order | [SortOrder](/cells/sv/python-net/aspose.cells/sortorder) | Sorteringsordningen|
@@ -35,7 +35,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | key | int | Det sorterade kolumnindexet (absolut position, kolumn A är 0, B är 1, ...)|
 | order | [SortOrder](/cells/sv/python-net/aspose.cells/sortorder) | Sorteringsordningen.|
@@ -53,7 +53,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | key | int | Det sorterade kolumnindexet (absolut position, kolumn A är 0, B är 1, ...)|
 | order | [SortOrder](/cells/sv/python-net/aspose.cells/sortorder) | Sorteringsordningen.|
@@ -71,7 +71,7 @@ def add_key(self, key, type, order, custom_list):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | key | int | Det sorterade kolumnindexet (absolut position, kolumn A är 0, B är 1, ...)|
 | type | [SortOnType](/cells/sv/python-net/aspose.cells/sortontype) | Den sorterade värdetypen.|

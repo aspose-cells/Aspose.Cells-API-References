@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_subtotals mülk
 
-Belirtilen alanın otomatik alt toplamları gösterip göstermediğini gösterir. Varsayılan doğrudur.
+Belirtilen alanın otomatik alt toplamları gösterip göstermediğini gösterir.Varsayılan değer doğrudur.
 ###  Tanım:
 ```python
 @property

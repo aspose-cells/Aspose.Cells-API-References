@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/ar/python-net/aspose.cells.charts/trendlinetype) | نوع خط الاتجاه.|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/ar/python-net/aspose.cells.charts/trendlinetype) | نوع خط الاتجاه.|
 | name | str | اسم خط الاتجاه.|

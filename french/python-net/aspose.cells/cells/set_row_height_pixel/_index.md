@@ -18,7 +18,7 @@ def set_row_height_pixel(self, row, pixels):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Indice de ligne.|
 | pixels | int | Nombre de pixels.|

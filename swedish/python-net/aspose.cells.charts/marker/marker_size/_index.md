@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_size fastighet
 
-Representerar markörstorleken i punktenhet. Gäller linjediagram, punktdiagram eller radardiagram.
+Representerar markörstorleken i punktenheter. Gäller linjediagram, punktdiagram eller radardiagram.
 ###  Definition:
 ```python
 @property

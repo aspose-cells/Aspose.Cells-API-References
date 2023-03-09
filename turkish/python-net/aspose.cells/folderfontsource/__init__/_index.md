@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/folderfontsource/__init__/
 is_root: false
 ---
 ##  FolderFontSource(folder_path, scan_subfolders) {#str-bool}
-Ctor.
+Müdür.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, folder_path, scan_subfolders):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | folder_path | str | yazı tipi klasörüne giden yol|
 | scan_subfolders | bool | Alt klasörlerin taranıp taranmayacağını belirler.|

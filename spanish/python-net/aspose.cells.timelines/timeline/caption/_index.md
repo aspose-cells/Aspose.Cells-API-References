@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el caption de la línea de tiempo especificada.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

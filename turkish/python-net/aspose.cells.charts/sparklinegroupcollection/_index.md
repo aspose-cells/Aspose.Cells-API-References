@@ -1,5 +1,5 @@
 ﻿---
-title: SparklineGroupCollection sınıf
+title: SparklineGroupCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 290
 url: /tr/python-net/aspose.cells.charts/sparklinegroupcollection/
 is_root: false
 ---
-##  SparklineGroupCollection sınıf
+##  SparklineGroupCollection sınıfı
 [SparklineGroup](/cells/tr/python-net/aspose.cells.charts/sparklinegroup) nesne koleksiyonunu kapsüller.
 
 
@@ -24,20 +24,20 @@ SparklineGroupCollection türü aşağıdaki üyeleri gösterir:
 | Yöntem| Tanım|
 | :- | :- |
 | [copy_to(array)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/copy_to/#list) | Hedef dizi listesinin başından başlayarak tüm dizi listesini uyumlu bir tek boyutlu dizi listesine kopyalar.|
-| [copy_to(index, array, array_index, count)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/copy_to/#int-list-int-int) | Dizi listesindeki bir dizi öğeyi, hedef dizi listesinin belirtilen dizininden başlayarak uyumlu bir tek boyutlu dizi listesine kopyalar.|
+| [copy_to(index, array, array_index, count)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/copy_to/#int-list-int-int) |Dizi listesindeki bir dizi öğeyi, hedef dizi listesinin belirtilen dizininden başlayarak uyumlu bir tek boyutlu dizi listesine kopyalar.|
 | [index_of(item, index)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/index_of/#SparklineGroup-int) | Belirtilen nesneyi arar ve belirtilen dizinden son öğeye uzanan dizi listesindeki öğelerin aralığındaki ilk oluşumun sıfır tabanlı dizinini döndürür.|
 | [index_of(item, index, count)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/index_of/#SparklineGroup-int-int) | Belirtilen nesneyi arar ve belirtilen dizinde başlayan ve belirtilen sayıda öğe içeren dizi listesindeki öğe aralığı içindeki ilk oluşumun sıfır tabanlı dizinini döndürür.|
 | [last_index_of(item)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup) | Belirtilen nesneyi arar ve tüm dizi listesindeki son oluşumun sıfır tabanlı dizinini döndürür.|
-| [last_index_of(item, index)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int) |Belirtilen nesneyi arar ve ilk öğeden belirtilen dizine kadar uzanan dizi listesindeki öğe aralığı içindeki son oluşumun sıfır tabanlı dizinini döndürür.|
-| [last_index_of(item, index, count)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int-int) | Belirtilen nesneyi arar ve belirtilen sayıda öğeyi içeren ve belirtilen dizinde biten dizi listesindeki öğe aralığındaki son oluşumun sıfır tabanlı dizinini döndürür.|
+| [last_index_of(item, index)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int) | Belirtilen nesneyi arar ve ilk öğeden belirtilen dizine kadar uzanan dizi listesindeki öğe aralığı içindeki son oluşumun sıfır tabanlı dizinini döndürür.|
+| [last_index_of(item, index, count)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int-int) |Belirtilen nesneyi arar ve belirtilen sayıda öğeyi içeren ve belirtilen dizinde biten dizi listesindeki öğe aralığındaki son oluşumun sıfır tabanlı dizinini döndürür.|
 | [add(type, data_range, is_vertical, location_range)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/add/#SparklineType-str-bool-CellArea) | Koleksiyona bir [SparklineGroup](/cells/tr/python-net/aspose.cells.charts/sparklinegroup) öğe ekler.|
-| [clear_sparklines(cell_area)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Bir hücre alanı içindeki küçük çizgileri temizler.|
-| [clear_sparkline_groups(cell_area)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Bir hücre alanıyla çakışan mini grafik gruplarını temizler.|
+| [clear_sparklines(cell_area)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Bir hücre alanı içindeki mini çizgileri temizler.|
+| [clear_sparkline_groups(cell_area)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Bir hücre alanıyla örtüşen mini grafik gruplarını temizler.|
 | [binary_search(item)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/binary_search/#SparklineGroup) | Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tamamında bir öğe arar ve öğenin sıfır tabanlı dizinini döndürür.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

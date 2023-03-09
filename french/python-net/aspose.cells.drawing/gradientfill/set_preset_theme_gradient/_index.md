@@ -18,7 +18,7 @@ def set_preset_theme_gradient(self, gradient_type, theme_color_type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | gradient_type | [PresetThemeGradientType](/cells/fr/python-net/aspose.cells.drawing/presetthemegradienttype) | Le type de dégradé prédéfini.|
 | theme_color_type | [ThemeColorType](/cells/fr/python-net/aspose.cells/themecolortype) | Le type de couleur du thème.|

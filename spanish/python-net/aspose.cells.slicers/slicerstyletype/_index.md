@@ -20,9 +20,9 @@ El tipo SlicerStyleType expone los siguientes miembros:
 | SLICER_STYLE_LIGHT1 | luz incorporada estilo uno|
 | SLICER_STYLE_LIGHT2 | luz incorporada estilo dos|
 | SLICER_STYLE_LIGHT3 | luz incorporada estilo tres|
-| SLICER_STYLE_LIGHT4 |luz incorporada estilo cuatro|
+| SLICER_STYLE_LIGHT4 | luz incorporada estilo cuatro|
 | SLICER_STYLE_LIGHT5 | luz incorporada estilo cinco|
-| SLICER_STYLE_LIGHT6 | luz incorporada estilo seis|
+| SLICER_STYLE_LIGHT6 |luz incorporada estilo seis|
 | SLICER_STYLE_OTHER1 | estilo incorporado otro|
 | SLICER_STYLE_OTHER2 | estilo incorporado otros dos|
 | SLICER_STYLE_DARK1 | estilo oscuro incorporado uno|

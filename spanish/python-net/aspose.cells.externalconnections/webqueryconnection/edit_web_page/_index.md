@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  edit_web_page propiedad
 
-La URL de la página web orientada al usuario que muestra los datos de la consulta web. Esta URL se conserva
+La URL de la página web orientada al usuario que muestra los datos de la consulta web.
 en el caso de que sourceData="true" y url hayan sido redirigidos para hacer referencia a un archivo XML.
 Luego, la página orientada al usuario se puede mostrar en la interfaz de usuario y los datos XML se pueden recuperar.
 entre bastidores.

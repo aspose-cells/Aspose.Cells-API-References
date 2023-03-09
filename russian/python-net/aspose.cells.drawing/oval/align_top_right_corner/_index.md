@@ -18,12 +18,12 @@ def align_top_right_corner(self, top_row, right_column):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | top_row | int | индекс строки.|
 | right_column | int | индекс столбца.|
 
-###  Пример
+###  Примеры
 
 ```python
 

@@ -1,13 +1,13 @@
 ﻿---
 title: ResourceLoadingType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2440
 url: /zh/python-net/aspose.cells/resourceloadingtype/
 is_root: false
 ---
-##  ResourceLoadingType枚举
+## ResourceLoadingType枚举
 表示如何加载链接的资源。
 
 

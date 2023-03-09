@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type mülk
 
-PivotFields type'i alır.
+Pivot Alanları type'i alır.
 ###  Tanım:
 ```python
 @property

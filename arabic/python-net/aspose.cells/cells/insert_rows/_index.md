@@ -18,7 +18,7 @@ def insert_rows(self, row_index, total_rows):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 | total_rows | int | عدد الصفوف المراد ادراجها.|
@@ -35,11 +35,11 @@ def insert_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 | total_rows | int | عدد الصفوف المراد ادراجها.|
-| update_reference | bool | يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
+| update_reference | bool |يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
 
 
 ##  insert_rows(row_index, total_rows, options) {#int-int-InsertOptions}
@@ -53,11 +53,11 @@ def insert_rows(self, row_index, total_rows, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 | total_rows | int | عدد الصفوف المراد ادراجها.|
-| options | [InsertOptions](/cells/ar/python-net/aspose.cells/insertoptions) | يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
+| options | [InsertOptions](/cells/ar/python-net/aspose.cells/insertoptions) |يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
 
 
 

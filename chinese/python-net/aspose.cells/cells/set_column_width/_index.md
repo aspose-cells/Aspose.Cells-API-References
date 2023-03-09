@@ -1,6 +1,6 @@
 ﻿---
 title: set_column_width方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 840
@@ -18,7 +18,7 @@ def set_column_width(self, column, width):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | column | int |列索引。|
 | width | float |列宽。列宽必须在 0 到 255 之间。|

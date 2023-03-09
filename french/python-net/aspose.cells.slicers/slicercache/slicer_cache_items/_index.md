@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache_items propriété
 
-Renvoie une collection SlicerCacheItem qui contient la collection de tous les éléments du cache du segment. Lecture seulement
+Renvoie une collection SlicerCacheItem qui contient la collection de tous les éléments du cache du segment.
 
-###  Exemple
+###  Exemples
 
 ```python
 

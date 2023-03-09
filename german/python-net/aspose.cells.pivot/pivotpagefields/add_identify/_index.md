@@ -21,7 +21,7 @@ def add_identify(self, range_index, page_item_index):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| range_index | int | Der Konsolidierungsdatenbereichsindex.|
+| range_index | int |Der Konsolidierungsdatenbereichsindex.|
 | page_item_index | list | Der Seitenelementindex in jedem Seitenfeld.<br/>pageItemIndex[2] = 1 bedeutet das zweite Element im dritten Feld, das verwendet wird, um diesen Bereich zu identifizieren.<br/> pageItemIndex[1] = -1 bedeutet, dass kein Element im zweiten Feld vorhanden ist, um diesen Bereich zu identifizieren<br/> und MS erstellt automatisch ein "leeres" Element im zweiten Feld, um diesen Bereich zu identifizieren.|
 
 

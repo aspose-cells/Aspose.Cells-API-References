@@ -13,8 +13,8 @@ Returnerar ett MsoFillFormat-objekt som innehåller fyllningsformateringsegenska
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
- använd egenskapen Shape.Fill.
+ OBS: Denna medlem är nu föråldrad.
+ Använd egenskapen Shape.Fill.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juli 2016.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

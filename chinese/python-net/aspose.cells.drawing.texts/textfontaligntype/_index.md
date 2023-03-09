@@ -1,13 +1,13 @@
 ﻿---
 title: TextFontAlignType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 170
 url: /zh/python-net/aspose.cells.drawing.texts/textfontaligntype/
 is_root: false
 ---
-##  TextFontAlignType枚举
+## TextFontAlignType枚举
 表示不同类型的字体对齐方式。
 
 

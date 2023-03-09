@@ -18,9 +18,9 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| row_number | int | Numero di righe per popolare la formula.|
+| row_number | int |Numero di righe per popolare la formula.|
 | column_number | int | Numero di colonne per popolare la formula.|
 | row_input_cell | str | la cella di input della riga|
 | column_input_cell | str | la cella di input della colonna|
@@ -38,9 +38,9 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| row_number | int | Numero di righe per popolare la formula.|
+| row_number | int |Numero di righe per popolare la formula.|
 | column_number | int | Numero di colonne per popolare la formula.|
 | input_cell | str | la cella di input|
 | is_row_input | bool | Indica se la cella di input è una cella di input di riga (true) o una cella di input di colonna (false).|
@@ -58,9 +58,9 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| row_number | int | Numero di righe per popolare la formula.|
+| row_number | int |Numero di righe per popolare la formula.|
 | column_number | int | Numero di colonne per popolare la formula.|
 | row_index_of_input_cell | int | indice di riga della cella di input|
 | column_index_of_input_cell | int | indice di colonna della cella di input|
@@ -79,12 +79,12 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| row_number | int | Numero di righe per popolare la formula.|
+| row_number | int |Numero di righe per popolare la formula.|
 | column_number | int | Numero di colonne per popolare la formula.|
-| row_index_of_row_input_cell | int | indice di riga della cella di input della riga|
-| column_index_of_row_input_cell | int |indice di colonna della cella di input della riga|
+| row_index_of_row_input_cell | int |indice di riga della cella di input della riga|
+| column_index_of_row_input_cell | int | indice di colonna della cella di input della riga|
 | row_index_of_column_input_cell | int | indice di riga della cella di input della colonna|
 | column_index_of_column_input_cell | int | indice di colonna della cella di input della colonna|
 | values | list | valori per le celle nell'intervallo della formula della tabella|

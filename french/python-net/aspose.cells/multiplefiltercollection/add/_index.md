@@ -18,7 +18,7 @@ def add(self, filter):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | filter | str | Les données du filtre.|
 

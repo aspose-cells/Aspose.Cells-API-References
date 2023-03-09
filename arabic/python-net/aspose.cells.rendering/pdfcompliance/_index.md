@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.rendering/pdfcompliance/
 is_root: false
 ---
 ##  العد PdfCompliance
-السماح للمستخدم بتعيين توافق التحويل PDF
+السماح للمستخدم بضبط توافق التحويل PDF
 
 
 

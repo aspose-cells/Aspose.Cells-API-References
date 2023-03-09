@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/markdownsaveoptions/__init__/
 is_root: false
 ---
 ##  MarkdownSaveOptions() {#}
-İşaretleme belgesini kaydetmek için seçenekler oluşturur
+İşaretleme belgelerini kaydetmek için seçenekler oluşturur
 
 
 

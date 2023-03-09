@@ -11,8 +11,8 @@ is_root: false
 
  İkinci kategori Eksen değerlerinin aralığını alır veya ayarlar.
  Bir hücre aralığı olabilir ("d1:e10" gibi),
- veya bir değer dizisi ("{2,6,8,10}" gibi).
-Yalnızca bazı ASeries'ler ikinci eksende çizildiğinde etki eder.
+ veya bir dizi değer ("{2,6,8,10}" gibi).
+Yalnızca bazı ASeries ikinci eksende çizildiğinde etki eder.
 ###  Tanım:
 ```python
 @property

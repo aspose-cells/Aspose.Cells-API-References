@@ -17,9 +17,9 @@ Typen ProtectedRange avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [name](/cells/sv/python-net/aspose.cells/protectedrange/name) | Får Range-titeln. Detta används som en deskriptor, inte som en namngiven intervalldefinition.|
-| [cell_area](/cells/sv/python-net/aspose.cells/protectedrange/cell_area) | Hämtar objektet [ProtectedRange.cell_area](/cells/sv/python-net/aspose.cells/protectedrange#cell_area) representerar cellområdet som ska skyddas.|
-| [is_protected_with_password](/cells/sv/python-net/aspose.cells/protectedrange/is_protected_with_password) | Indikerar om kalkylbladen är skyddade med lösenord.|
+| [name](/cells/sv/python-net/aspose.cells/protectedrange/name) | Får Range-titeln.|
+| [cell_area](/cells/sv/python-net/aspose.cells/protectedrange/cell_area) | Hämtar objektet [ProtectedRange.cell_area](/cells/sv/python-net/aspose.cells/protectedrange#cell_area) som representerar cellområdet som ska skyddas.|
+| [is_protected_with_password](/cells/sv/python-net/aspose.cells/protectedrange/is_protected_with_password) |Anger om kalkylbladen är skyddade med lösenord.|
 | [password](/cells/sv/python-net/aspose.cells/protectedrange/password) | Representerar lösenordet för att skydda intervallet.|
 | [security_descriptor](/cells/sv/python-net/aspose.cells/protectedrange/security_descriptor) | Säkerhetsbeskrivningen definierar användarkonton som kan redigera detta intervall utan att ange ett lösenord för att komma åt intervallet.|
 

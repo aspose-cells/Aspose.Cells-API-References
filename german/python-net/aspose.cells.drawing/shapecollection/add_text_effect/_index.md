@@ -32,12 +32,12 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | font_italic | bool | Gibt an, ob die Schriftart kursiv ist.|
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz der Form von der linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
-| left | int | Stellt den horizontalen Versatz der Form von der linken Spalte in Pixeleinheiten dar.|
+| upper_left_column | int | Spaltenindex oben links.|
+| left | int |Stellt den horizontalen Versatz der Form von der linken Spalte in Pixeleinheiten dar.|
 | height | int | Stellt die Höhe der Form in Pixeleinheiten dar.|
 | width | int | Stellt die Breite der Form in Pixeleinheiten dar.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import MsoPresetTextEffect

@@ -18,7 +18,7 @@ def set_font_folder(self, font_folder, recursive):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | font_folder | str | Le dossier qui contient les polices TrueType.|
 | recursive | bool | Détermine s'il faut analyser ou non les sous-dossiers.|

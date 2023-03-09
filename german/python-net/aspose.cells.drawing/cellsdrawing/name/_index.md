@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die name der Form ab und legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trend_lines Eigentum
 
-Gibt ein Objekt zurück, das eine Sammlung aller Trendlinien für die Serie darstellt.
+Gibt ein Objekt zurück, das eine Sammlung aller Trendlinien für die Reihe darstellt.
 ###  Definition:
 ```python
 @property

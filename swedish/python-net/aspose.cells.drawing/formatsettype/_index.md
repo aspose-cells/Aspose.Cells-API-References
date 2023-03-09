@@ -17,7 +17,7 @@ Typen FormatSetType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| NONE |Inget fyllningsformat.|
+| NONE | Inget fyllningsformat.|
 | IS_GRADIENT_SET | Gradientfyllningsformat.|
 | IS_TEXTURE_SET | Texturfyllningsformat.|
 | IS_PATTERN_SET | Mönsterfyllningsformat.|

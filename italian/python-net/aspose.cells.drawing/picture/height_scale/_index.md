@@ -12,7 +12,7 @@ is_root: false
 Ottiene e imposta la scala dell'altezza, in unità di percentuale dell'altezza dell'immagine originale.
 Se la forma non è picture , la proprietà HeightScale restituisce solo 100;
 
-###  Esempio
+###  Esempi
 
 ```python
 

@@ -22,7 +22,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [page_index](/cells/ar/python-net/aspose.cells.rendering/pageendsavingargs/page_index) | فهرس الصفحة الحالية ، على أساس الصفر.|
+| [page_index](/cells/ar/python-net/aspose.cells.rendering/pageendsavingargs/page_index) | فهرس الصفحة الحالية ، قائم على الصفر.|
 | [page_count](/cells/ar/python-net/aspose.cells.rendering/pageendsavingargs/page_count) | إجمالي عدد الصفحات.|
 | [has_more_pages](/cells/ar/python-net/aspose.cells.rendering/pageendsavingargs/has_more_pages) | الحصول على أو تحديد قيمة تشير إلى ما إذا كان سيتم إخراج المزيد من الصفحات أم لا.<br/> القيمة الافتراضية هي الحقيقية.|
 

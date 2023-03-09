@@ -13,7 +13,7 @@ Indique si l'arrière-plan de l'image générée doit être transparent.
 
 ###  Remarques
 
-La valeur par défaut est faux. Cela signifie que l'arrière-plan des images générées est blanc.
+La valeur par défaut est faux.
 ###  Définition:
 ```python
 @property

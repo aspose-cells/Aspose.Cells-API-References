@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el name de la segmentación especificada
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

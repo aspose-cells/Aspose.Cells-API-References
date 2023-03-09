@@ -17,8 +17,8 @@ DynamicFilterType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| ABOVE_AVERAGE | Ortalamanın üzerinde olan değerleri gösterir.|
-| BELOW_AVERAGE | Ortalamanın altındaki değerleri gösterir.|
+| ABOVE_AVERAGE | Ortalamanın üzerinde değerler gösterir.|
+| BELOW_AVERAGE | Ortalamanın altında olan değerleri gösterir.|
 | LAST_MONTH | Geçen ayın tarihlerini gösterir.|
 | LAST_QUARTER | Son çeyreğin tarihlerini gösterir.|
 | LAST_WEEK | Geçen haftanın tarihlerini gösterir.|
@@ -26,8 +26,8 @@ DynamicFilterType türü aşağıdaki üyeleri gösterir:
 | JANUARY | Yıldan bağımsız olarak Ocak ayına ait tarihleri gösterir.|
 | OCTOBER | Yıldan bağımsız olarak Ekim ayına ait tarihleri gösterir.|
 | NOVEMBER | Yıldan bağımsız olarak Kasım ayına ait tarihleri gösterir.|
-| DECEMBER | Yıldan bağımsız olarak Aralık ayına ait tarihleri gösterir.|
-| FEBRUARY |Yıldan bağımsız olarak Şubat ayına ait tarihleri gösterir.|
+| DECEMBER |Yıldan bağımsız olarak Aralık ayına ait tarihleri gösterir.|
+| FEBRUARY | Yıldan bağımsız olarak Şubat ayına ait tarihleri gösterir.|
 | MARCH | Yıldan bağımsız olarak Mart ayına ait tarihleri gösterir.|
 | APRIL | Yıldan bağımsız olarak Nisan ayına ait tarihleri gösterir.|
 | MAY | Yıldan bağımsız olarak Mayıs ayına ait tarihleri gösterir.|
@@ -42,8 +42,8 @@ DynamicFilterType türü aşağıdaki üyeleri gösterir:
 | NONE | Hiçbiri.|
 | QUARTER1 | Yıldan bağımsız olarak 1. çeyrekteki tarihleri gösterir.|
 | QUARTER2 | Yıldan bağımsız olarak 2. çeyrekteki tarihleri gösterir.|
-| QUARTER3 |Yıldan bağımsız olarak 3. çeyrekteki tarihleri gösterir.|
-| QUARTER4 | Yıldan bağımsız olarak 4. çeyrekteki tarihleri gösterir.|
+| QUARTER3 | Yıldan bağımsız olarak 3. çeyrekteki tarihleri gösterir.|
+| QUARTER4 |Yıldan bağımsız olarak 4. çeyrekteki tarihleri gösterir.|
 | THIS_MONTH | Bu ayın tarihlerini gösterir.|
 | THIS_QUARTER | Bu çeyreğin tarihlerini gösterir.|
 | THIS_WEEK | Bu haftanın tarihlerini gösterir.|

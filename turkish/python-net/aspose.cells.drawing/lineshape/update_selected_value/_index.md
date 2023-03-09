@@ -19,7 +19,7 @@ def update_selected_value(self):
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose import pycore

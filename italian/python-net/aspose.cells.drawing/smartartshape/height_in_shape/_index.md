@@ -15,7 +15,7 @@ Rappresenta l'offset verticale della forma dal bordo superiore della forma padre
 
 Si applica solo quando questa forma è nel gruppo o nel grafico.
 
-###  Esempio
+###  Esempi
 
 ```python
 

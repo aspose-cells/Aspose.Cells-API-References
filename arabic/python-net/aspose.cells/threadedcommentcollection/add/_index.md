@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | text | str | نص التعليق المترابط.|
 | author | [ThreadedCommentAuthor](/cells/ar/python-net/aspose.cells/threadedcommentauthor) | مؤلف التعليق المترابط|

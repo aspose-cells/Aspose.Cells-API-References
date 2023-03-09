@@ -17,10 +17,10 @@ Le type LabelPositionType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| CENTER | S'applique uniquement aux diagrammes à barres, camemberts 2d/3d|
-| INSIDE_BASE | S'applique uniquement aux diagrammes à barres, camemberts 2d/3d|
+| CENTER |S'applique uniquement aux diagrammes à barres, camemberts 2d/3d|
+| INSIDE_BASE |S'applique uniquement aux diagrammes à barres, camemberts 2d/3d|
 | INSIDE_END | S'applique uniquement aux graphiques à barres|
-| OUTSIDE_END | S'applique uniquement aux diagrammes à barres, camemberts 2d/3d|
+| OUTSIDE_END |S'applique uniquement aux diagrammes à barres, camemberts 2d/3d|
 | ABOVE | S'applique uniquement aux graphiques en courbes|
 | BELOW | S'applique uniquement aux graphiques en courbes|
 | LEFT | S'applique uniquement aux graphiques en courbes|

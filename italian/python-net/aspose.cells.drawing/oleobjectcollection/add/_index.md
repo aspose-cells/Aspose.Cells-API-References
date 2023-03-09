@@ -22,11 +22,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
-| height | int |Altezza di oleObject, in unità di pixel.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
+| height | int | Altezza di oleObject, in unità di pixel.|
 | width | int | Larghezza di oleObject, in unità di pixel.|
 | image_data | bytes | Immagine di un oggetto ole come array di byte.|
 
@@ -46,11 +46,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
-| height | int |Altezza di oleObject, in unità di pixel.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
+| height | int | Altezza di oleObject, in unità di pixel.|
 | width | int | Larghezza di oleObject, in unità di pixel.|
 | image_data | bytes | Immagine di un oggetto ole come array di byte.|
 | linked_file | str |  |

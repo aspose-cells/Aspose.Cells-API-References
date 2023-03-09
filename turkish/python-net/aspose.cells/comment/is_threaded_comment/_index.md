@@ -11,7 +11,7 @@ is_root: false
 
 Bu yorumun zincirleme bir yorum olup olmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

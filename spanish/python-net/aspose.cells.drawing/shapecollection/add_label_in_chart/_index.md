@@ -22,11 +22,11 @@ def add_label_in_chart(self, top, left, height, width):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | top | int | Representa el desplazamiento vertical de la etiqueta desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.|
 | left | int | Representa el desplazamiento vertical de la etiqueta desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.|
-| height | int |Representa la altura de la etiqueta, en unidades de 1/4000 del área del gráfico.|
+| height | int | Representa la altura de la etiqueta, en unidades de 1/4000 del área del gráfico.|
 | width | int | Representa el ancho de la etiqueta, en unidades de 1/4000 del área del gráfico.|
 
 

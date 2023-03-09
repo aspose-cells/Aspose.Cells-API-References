@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  re_calculate_on_open propiedad
 
-Indica si se vuelven a calcular todas las fórmulas al abrir el archivo.
+Indica si se deben volver a calcular todas las fórmulas al abrir el archivo.
 
 ###  Observaciones
 

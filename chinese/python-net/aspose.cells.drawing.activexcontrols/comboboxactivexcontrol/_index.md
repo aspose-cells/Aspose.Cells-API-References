@@ -1,13 +1,13 @@
 ﻿---
 title: ComboBoxActiveXControl类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/
 is_root: false
 ---
-##  ComboBoxActiveXControl类
+## ComboBoxActiveXControl类
 表示 ComboBox ActiveX 控件。
 
 
@@ -44,7 +44,7 @@ ComboBoxActiveXControl 类型公开了以下成员：
 | [font](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/font) |表示控件的字体。|
 | [text_align](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_align) |表示如何对齐控件使用的文本。|
 | [max_length](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/max_length) |获取和设置最大字符数|
-| [list_width](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) |获取和设置以点为单位的宽度。|
+| [list_width](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) |以点为单位获取和设置宽度。|
 | [bound_column](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/bound_column) |表示如何确定 ComboBox 或 ListBox 的 Value 属性<br/>当 MultiSelect 属性值为 (fmMultiSelectSingle) 时。|
 | [text_column](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_column) |表示 ComboBox 或 ListBox 中要显示给用户的列。|
 | [column_count](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/column_count) |表示要在 ComboBox 或 ListBox 中显示的列数。|
@@ -59,7 +59,7 @@ ComboBoxActiveXControl 类型公开了以下成员：
 | [is_editable](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/is_editable) |指示用户是否可以在控件中键入内容。|
 | [show_column_heads](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/show_column_heads) |指示是否显示列标题。|
 | [is_drag_behavior_enabled](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/is_drag_behavior_enabled) |指示是否为控件启用拖放。|
-| [enter_field_behavior](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/enter_field_behavior) |指定进入控件时的选择行为。<br/> True 指定选择与上次控件处于活动状态时保持不变。<br/>False 指定进入控件时将选中控件中的所有文本。|
+| [enter_field_behavior](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/enter_field_behavior) |指定进入控件时的选择行为。<br/> True 指定选择与上次控件处于活动状态时保持不变。<br/> False 指定进入控件时将选中控件中的所有文本。|
 | [is_auto_word_selected](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/is_auto_word_selected) |指定用于扩展选择的基本单位。<br/>True 指定基本单位是单个字符。<br/> false 指定基本单位是一个完整的单词。|
 | [selection_margin](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/selection_margin) |指示用户是否可以通过单击文本左侧的区域来选择一行文本。|
 | [value](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/value) |获取和设置控件的值。|

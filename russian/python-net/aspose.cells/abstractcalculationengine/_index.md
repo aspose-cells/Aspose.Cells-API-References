@@ -17,8 +17,8 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [is_param_literal_required](/cells/ru/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) | Указывает, нужен ли этому движку буквальный текст параметра при выполнении вычислений. Значение по умолчанию — ложь.|
-| [process_built_in_functions](/cells/ru/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) | Должны ли встроенные функции, поддерживаемые встроенным механизмом, проверяться и обрабатываться этой реализацией.<br/>Значение по умолчанию — ложь.<br/>Если пользователю необходимо изменить логику расчета некоторых встроенных функций, это свойство должно быть установлено как true.|
+| [is_param_literal_required](/cells/ru/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) | Указывает, нужен ли этому движку литеральный текст параметра при выполнении расчета.Значение по умолчанию — false.|
+| [process_built_in_functions](/cells/ru/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) | Должны ли встроенные функции, поддерживаемые встроенным механизмом, проверяться и обрабатываться этой реализацией.<br/>Значение по умолчанию — ложь.<br/> Если пользователю необходимо изменить логику расчета некоторых встроенных функций, это свойство должно быть установлено как true.|
 
 
 ###  Методы

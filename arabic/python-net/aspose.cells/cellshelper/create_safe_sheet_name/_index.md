@@ -25,7 +25,7 @@ def create_safe_sheet_name(self, name_proposal):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | name_proposal | str | اسم الورقة المطلوب استخدامه|
 
@@ -48,7 +48,7 @@ def create_safe_sheet_name(self, name_proposal, replace_char):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | name_proposal | str | اسم الورقة المطلوب استخدامه|
 | replace_char | char | الحرف الذي سيتم استخدامه لاستبدال الأحرف غير الصالحة في اسم الورقة المحدد|

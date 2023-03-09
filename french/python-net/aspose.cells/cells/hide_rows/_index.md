@@ -18,7 +18,7 @@ def hide_rows(self, row, total_rows):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | L'index de ligne.|
 | total_rows | int | Le numéro de ligne.|

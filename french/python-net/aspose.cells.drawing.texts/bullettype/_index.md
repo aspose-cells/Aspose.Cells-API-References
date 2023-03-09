@@ -20,7 +20,7 @@ Le type BulletType expose les membres suivants :
 | NONE | Pas de balle.|
 | CHARACTER | Balle de caractère.|
 | PICTURE | Puce d'image.|
-| AUTO_NUMBERED | Puce numérotée automatique.|
+| AUTO_NUMBERED | Puces numérotées automatiques.|
 
 
 

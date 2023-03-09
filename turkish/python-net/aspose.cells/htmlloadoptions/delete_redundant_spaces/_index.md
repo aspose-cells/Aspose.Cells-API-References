@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  delete_redundant_spaces mülk
 
- Metin, kullanarak satırları kaydırdığında gereksiz boşlukların silinip silinmeyeceğini gösterir.<br>tag.Varsayılan değer yanlıştır.
+ Metin satırları kullanarak kaydırdığında gereksiz boşlukların silinip silinmeyeceğini belirtir.<br>etiketi.Varsayılan değer yanlıştır.
 ###  Tanım:
 ```python
 @property

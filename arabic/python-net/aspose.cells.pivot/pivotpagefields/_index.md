@@ -32,7 +32,7 @@ is_root: false
 | طريقة| وصف|
 | :- | :- |
 | [add_page_field(page_items)](/cells/ar/python-net/aspose.cells.pivot/pivotpagefields/add_page_field/#list) | يضيف حقل صفحة.|
-| [add_identify(range_index, page_item_index)](/cells/ar/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) |يعيّن تسمية العنصر في كل حقل صفحة لاستخدامه في تحديد نطاق البيانات.<br/> يجب أن تكون قيمة pageItemIndex.Length مساوية لـ PageFieldCount ، لذا يُرجى إضافة حقل الصفحة أولاً.|
+| [add_identify(range_index, page_item_index)](/cells/ar/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) | يعيّن تسمية العنصر في كل حقل صفحة لاستخدامه في تحديد نطاق البيانات.<br/> يجب أن تكون قيمة pageItemIndex.Length مساوية لـ PageFieldCount ، لذا يُرجى إضافة حقل الصفحة أولاً.|
 
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: set_fit_to_pages方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 170
@@ -18,7 +18,7 @@ def set_fit_to_pages(self, wide, tall):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | wide | int |页面宽。|
 | tall | int |页面高。|

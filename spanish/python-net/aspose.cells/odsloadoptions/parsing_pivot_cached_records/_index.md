@@ -14,7 +14,7 @@ El valor predeterminado es falso.
 
 ###  Observaciones
 
-Solo aplica para archivo Excel Xlsx, Xltx, Xltm, Xlsm y xlsb
+Solo aplica para archivos Excel Xlsx, Xltx, Xltm, Xlsm y xlsb
 ###  Definición:
 ```python
 @property

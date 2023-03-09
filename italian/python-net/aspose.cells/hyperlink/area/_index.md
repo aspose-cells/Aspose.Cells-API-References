@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  area proprietà
 
-Ottiene l'intervallo del collegamento ipertestuale.
+Ottiene l'intervallo di collegamenti ipertestuali.
 ###  Definizione:
 ```python
 @property

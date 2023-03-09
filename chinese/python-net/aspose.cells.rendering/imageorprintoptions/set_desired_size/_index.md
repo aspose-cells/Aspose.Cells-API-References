@@ -1,6 +1,6 @@
 ﻿---
 title: set_desired_size方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def set_desired_size(self, desired_width, desired_height):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | desired_width | int |以像素为单位的所需宽度|
 | desired_height | int |以像素为单位的所需高度|

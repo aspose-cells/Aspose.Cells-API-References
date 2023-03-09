@@ -1,13 +1,13 @@
 ﻿---
 title: ScrollBar类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 500
 url: /zh/python-net/aspose.cells.drawing/scrollbar/
 is_root: false
 ---
-##  ScrollBar类
+## ScrollBar类
 表示滚动条对象。
 
 

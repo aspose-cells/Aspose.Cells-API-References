@@ -22,9 +22,9 @@ def get_builtin_table_style(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| type | [TableStyleType](/cells/sv/python-net/aspose.cells.tables/tablestyletype) | Den inbyggda tabellstilstypen.|
+| type | [TableStyleType](/cells/sv/python-net/aspose.cells.tables/tablestyletype) | Den inbyggda bordsstilstypen.|
 
 
 

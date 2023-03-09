@@ -18,7 +18,7 @@ def set_visible(self, is_visible, ignore_error):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_visible | bool | Çalışma sayfasının görünür olup olmadığı|
 | ignore_error | bool | Bu seçenek geçerli değilse hatanın göz ardı edilip edilmeyeceği.|

@@ -18,7 +18,7 @@ def auto_fit_column(self, column_index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | Индекс столбца.|
 ###  Примечания
@@ -37,7 +37,7 @@ def auto_fit_column(self, column_index, first_row, last_row):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | Индекс столбца.|
 | first_row | int | Индекс первой строки.|

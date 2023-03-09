@@ -1,6 +1,6 @@
 ﻿---
 title: set_paper_size方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def set_paper_size(self, type):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [PaperSizeType](/cells/zh/python-net/aspose.cells/papersizetype) |默认纸张尺寸。|
 ### 评论

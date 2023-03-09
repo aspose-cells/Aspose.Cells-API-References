@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size Eigentum
 
-Ruft die Endposition (entlang der Alpha-Gradientenrampe) des Alpha-Endwerts in Prozent ab und legt sie fest
+Ruft die Endposition (entlang der Alpha-Gradientenrampe) des Alpha-Endwerts in Prozenteinheiten ab und legt sie fest
 ###  Definition:
 ```python
 @property

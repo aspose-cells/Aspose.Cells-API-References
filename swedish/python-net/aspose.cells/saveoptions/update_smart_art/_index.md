@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  update_smart_art fastighet
 
-Indikerar om inställningen för smart konst uppdateras.
+Anger om inställningen för smart konst uppdateras.
 Standardvärdet är falskt.
 
 ###  Anmärkningar

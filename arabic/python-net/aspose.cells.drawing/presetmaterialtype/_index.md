@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | CLEAR | واضح|
-| DARK_EDGE | حافة مظلمة|
+| DARK_EDGE | حواف داكنة|
 | FLAT | مستوي|
 | LEGACY_MATTE | تراث ماتي|
 | LEGACY_METAL | معدن قديم|
@@ -28,7 +28,7 @@ is_root: false
 | METAL | معدن|
 | PLASTIC | بلاستيك|
 | POWDER | مسحوق|
-| SOFT_EDGE | حافة ناعمة|
+| SOFT_EDGE | حواف ناعمة|
 | SOFT_METAL | معدن ناعم|
 | TRANSLUCENT_POWDER | مسحوق شفاف|
 | WARM_MATTE | ماتي دافئ|

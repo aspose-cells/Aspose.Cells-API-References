@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value propiedad
 
-Representa el comportamiento de visualización de los valores de la etiqueta de datos de un gráfico especificado. True muestra los valores. Falso para ocultar.
+Representa el comportamiento de visualización de los valores de la etiqueta de datos de un gráfico especificado. True muestra los valores. False para ocultar.
 ###  Definición:
 ```python
 @property

@@ -21,7 +21,7 @@ def __init__(self):
 ###  Observaciones
 
 El tipo de formato de archivo predeterminado es Xlsx. Para crear otro tipo de archivo de formato, utilice Workbook (FileFormatType).
-###  Ejemplo
+###  Ejemplos
 
 
 El siguiente código muestra cómo usar el constructor Workbook para crear e inicializar una nueva instancia de la clase.
@@ -45,13 +45,13 @@ def __init__(self, file_format_type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file_format_type | [FileFormatType](/cells/es/python-net/aspose.cells/fileformattype) | El nuevo formato de archivo.|
 ###  Observaciones
 
 El tipo de formato de archivo predeterminado es Excel97To2003.
-###  Ejemplo
+###  Ejemplos
 
 
 El siguiente código muestra cómo usar el constructor Workbook para crear e inicializar una nueva instancia de la clase.
@@ -75,7 +75,7 @@ def __init__(self, file):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file | str | El nombre del archivo.|
 
@@ -91,7 +91,7 @@ def __init__(self, stream):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | La corriente.|
 
@@ -107,7 +107,7 @@ def __init__(self, file, load_options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file | str | El nombre del archivo.|
 | load_options | [LoadOptions](/cells/es/python-net/aspose.cells/loadoptions) | Las opciones de carga|
@@ -124,7 +124,7 @@ def __init__(self, stream, load_options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | La corriente.|
 | load_options | [LoadOptions](/cells/es/python-net/aspose.cells/loadoptions) | Las opciones de carga|

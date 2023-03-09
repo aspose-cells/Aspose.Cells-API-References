@@ -20,7 +20,7 @@ def delete_rows(self, row_index, total_rows):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| row_index | int | Der erste zu löschende Zeilenindex.|
+| row_index | int |Der erste zu löschende Zeilenindex.|
 | total_rows | int | Anzahl der zu löschenden Zeilen.|
 ###  Bemerkungen
 

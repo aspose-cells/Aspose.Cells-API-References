@@ -13,7 +13,7 @@ Indique s'il faut recalculer avant d'enregistrer le document.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Utilisez plutôt FormulaSettings.CalculateOnSave.
+REMARQUE : ce membre est désormais obsolète.
  Cette propriété sera supprimée 12 mois plus tard depuis février 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

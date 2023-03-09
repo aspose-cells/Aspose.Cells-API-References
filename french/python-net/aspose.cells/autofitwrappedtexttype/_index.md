@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/autofitwrappedtexttype/
 is_root: false
 ---
 ##  AutoFitWrappedTextType dénombrement
-Représente le type de texte ajusté automatiquement.
+Représente le type de texte enveloppé d'ajustement automatique.
 
 
 

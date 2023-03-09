@@ -22,12 +22,12 @@ def get_sub_total_name(self, sub_total_type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sub_total_type | aspose.cells.pivot.PivotFieldSubtotalType | [PivotFieldSubtotalType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) tipi|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+NOT: Bu üye artık kullanılmıyor.
 lütfen GlobalizationSettings.GetColumnLabelsOfPivotTable() yöntemini kullanın.
  Bu mülk, Aralık 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

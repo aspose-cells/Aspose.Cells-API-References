@@ -1,13 +1,13 @@
 ﻿---
 title: RadioButton类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 470
 url: /zh/python-net/aspose.cells.drawing/radiobutton/
 is_root: false
 ---
-##  RadioButton类
+## RadioButton类
 代表一个单选按钮。
 
 

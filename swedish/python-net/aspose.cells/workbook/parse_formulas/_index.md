@@ -18,9 +18,9 @@ def parse_formulas(self, ignore_error):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| ignore_error | bool | om ignorera fel för ogiltig formel.<br/>För en ogiltig formel, om ignorera felet kommer denna formel att ignoreras<br/>och processen kommer att fortsätta att analysera andra formler, annars kommer undantag att kastas.|
+| ignore_error | bool | om ignorera fel för ogiltig formel.<br/>För en ogiltig formel, om ignorera felet kommer denna formel att ignoreras<br/> och processen kommer att fortsätta att analysera andra formler, annars kommer ett undantag att skapas.|
 
 
 

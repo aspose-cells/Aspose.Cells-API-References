@@ -12,7 +12,7 @@ is_root: false
 Çizim nesnesinin altındaki hücrelere iliştirilme şeklini temsil eder.
 Özellik, çalışma sayfasındaki bir nesnenin placement'ini denetler.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import PlacementType

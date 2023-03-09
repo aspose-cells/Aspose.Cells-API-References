@@ -18,7 +18,7 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/ru/python-net/aspose.cells.drawing/msodrawingtype) | Тип рисунка.|
 | placement | [PlacementType](/cells/ru/python-net/aspose.cells.drawing/placementtype) | тип размещения.|
@@ -39,7 +39,7 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom, image_da
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/ru/python-net/aspose.cells.drawing/msodrawingtype) | Тип рисунка.|
 | placement | [PlacementType](/cells/ru/python-net/aspose.cells.drawing/placementtype) | тип размещения.|
@@ -47,7 +47,7 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom, image_da
 | top | int | В единицах 1/4000 высоты области диаграммы.|
 | right | int | В единицах 1/4000 ширины области диаграммы.|
 | bottom | int | В единицах 1/4000 высоты области диаграммы.|
-| image_data | bytes | Если фигура не является изображением или оле-объектом, значение imageData должно быть нулевым.|
+| image_data | bytes | Если фигура не является изображением или оле-объектом, imageData должен иметь значение null.|
 
 
 

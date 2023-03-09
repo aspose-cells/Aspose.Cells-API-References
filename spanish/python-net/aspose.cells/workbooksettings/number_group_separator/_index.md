@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_group_separator propiedad
 
-Obtiene o establece el carácter que separa grupos de dígitos a la izquierda del decimal en valores numéricos. El valor predeterminado es el separador de grupo de la Región actual.
+Obtiene o establece el carácter que separa los grupos de dígitos a la izquierda del decimal en valores numéricos. El valor predeterminado es el separador de grupos de la región actual.
 ###  Definición:
 ```python
 @property

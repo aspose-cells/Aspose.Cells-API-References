@@ -1,13 +1,13 @@
 ﻿---
 title: Picture类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 450
 url: /zh/python-net/aspose.cells.drawing/picture/
 is_root: false
 ---
-##  Picture类
+## Picture类
 封装表示电子表格中单个图片的对象。
 
 

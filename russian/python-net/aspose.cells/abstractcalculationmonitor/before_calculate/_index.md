@@ -18,7 +18,7 @@ def before_calculate(self, sheet_index, row_index, col_index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | sheet_index | int | Индекс листа, которому принадлежит ячейка.|
 | row_index | int | Индекс строки ячейки|

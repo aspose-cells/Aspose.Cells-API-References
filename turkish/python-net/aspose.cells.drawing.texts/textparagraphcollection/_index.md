@@ -1,5 +1,5 @@
 ﻿---
-title: TextParagraphCollection sınıf
+title: TextParagraphCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,8 +7,8 @@ weight: 110
 url: /tr/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
-##  TextParagraphCollection sınıf
-Tüm metin paragrafını temsil eder.
+##  TextParagraphCollection sınıfı
+Tüm metin paragraflarını temsil eder.
 
 
 

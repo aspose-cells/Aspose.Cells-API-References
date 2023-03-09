@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/set_view_column_width_pixel/
 is_root: false
 ---
 ##  set_view_column_width_pixel(column, pixels) {#int-int}
-Legt die Breite der Spalte in einer anderen Ansicht fest.
+Legt die Breite der Spalte in verschiedenen Ansichten fest.
 
 
 

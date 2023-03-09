@@ -25,9 +25,9 @@ Typen FontSetting avslöjar följande medlemmar:
 | :- | :- |
 | [type](/cells/sv/python-net/aspose.cells/fontsetting/type) | Hämtar typen av textnod.|
 | [start_index](/cells/sv/python-net/aspose.cells/fontsetting/start_index) | Hämtar startindex för tecknen.|
-| [length](/cells/sv/python-net/aspose.cells/fontsetting/length) | Får längden på karaktärerna.|
+| [length](/cells/sv/python-net/aspose.cells/fontsetting/length) |Får längden på karaktärerna.|
 | [font](/cells/sv/python-net/aspose.cells/fontsetting/font) | Returnerar teckensnittet för detta objekt.|
-| [text_options](/cells/sv/python-net/aspose.cells/fontsetting/text_options) |Returnerar textalternativen.|
+| [text_options](/cells/sv/python-net/aspose.cells/fontsetting/text_options) | Returnerar textalternativen.|
 
 
 ###  Metoder

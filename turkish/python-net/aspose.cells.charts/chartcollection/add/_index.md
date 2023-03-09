@@ -22,11 +22,11 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [ChartType](/cells/tr/python-net/aspose.cells.charts/charttype) | Grafik tipi|
 | upper_left_row | int | Sol üst sıra dizini.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| upper_left_column | int | Sol üst sütun dizini.|
 | lower_right_row | int | Sağ alt sıra dizini|
 | lower_right_column | int | Sağ alt sütun dizini|
 
@@ -46,19 +46,19 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [ChartType](/cells/tr/python-net/aspose.cells.charts/charttype) | Grafik tipi|
-| data_range | str |Grafiğin veri aralığını belirtir|
+| data_range | str | Grafiğin veri aralığını belirtir|
 | top_row | int | Sol üst sıra dizini.|
-| left_column | int |Sol üst sütun dizini.|
+| left_column | int | Sol üst sütun dizini.|
 | right_row | int | Sağ alt sıra dizini|
 | bottom_column | int | Sağ alt sütun dizini|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+NOT: Bu üye artık kullanılmıyor.
 lütfen [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/tr/python-net/aspose.cells.charts/chartcollection/add) özelliğini kullanın.
-Bu mülk, Mayıs 2022'den itibaren 12 ay sonra kaldırılacaktır.
+ Bu mülk, Mayıs 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 
 ##  add(data, data_range, is_vertical, top_row, left_column, right_row, bottom_column) {#bytes-str-bool-int-int-int-int}
@@ -76,13 +76,13 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | data | bytes | Grafik şablonu dosyasının (.crtx) verileri.|
-| data_range | str |Grafiğin veri aralığını belirtir|
-| is_vertical | bool | Bir dizi hücre değeri aralığından serinin satıra mı yoksa sütuna göre mi çizileceğini belirtir.|
+| data_range | str | Grafiğin veri aralığını belirtir|
+| is_vertical | bool | Serinin bir dizi hücre değeri aralığından satıra mı yoksa sütuna göre mi çizileceğini belirtir.|
 | top_row | int | Sol üst sıra dizini.|
-| left_column | int |Sol üst sütun dizini.|
+| left_column | int | Sol üst sütun dizini.|
 | right_row | int | Sağ alt sıra dizini|
 | bottom_column | int | Sağ alt sütun dizini|
 
@@ -102,13 +102,13 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [ChartType](/cells/tr/python-net/aspose.cells.charts/charttype) | Grafik tipi|
-| data_range | str |Grafiğin veri aralığını belirtir|
-| is_vertical | bool | Bir dizi hücre değeri aralığından serinin satıra mı yoksa sütuna göre mi çizileceğini belirtir.|
+| data_range | str | Grafiğin veri aralığını belirtir|
+| is_vertical | bool | Serinin bir dizi hücre değeri aralığından satıra mı yoksa sütuna göre mi çizileceğini belirtir.|
 | top_row | int | Sol üst sıra dizini.|
-| left_column | int |Sol üst sütun dizini.|
+| left_column | int | Sol üst sütun dizini.|
 | right_row | int | Sağ alt sıra dizini|
 | bottom_column | int | Sağ alt sütun dizini|
 

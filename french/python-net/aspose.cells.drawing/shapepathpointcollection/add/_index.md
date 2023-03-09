@@ -18,7 +18,7 @@ def add(self, x, y):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | x | int | La coordonnée x.|
 | y | int | La coordonnée y.|

@@ -18,7 +18,7 @@ El tipo HtmlHiddenRowDisplayType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | HIDDEN | Ocultó las filas ocultas en la página html.|
-| REMOVE | Elimina las filas ocultas en la página html.|
+| REMOVE | Elimina las filas ocultas en las páginas html.|
 
 
 

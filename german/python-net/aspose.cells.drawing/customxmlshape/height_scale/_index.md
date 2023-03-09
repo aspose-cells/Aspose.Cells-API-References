@@ -10,9 +10,9 @@ is_root: false
 ##  height_scale Eigentum
 
 Ruft die Höhenskala in Prozent der ursprünglichen Bildhöhe ab und legt sie fest.
-Wenn es sich bei der Form nicht um ein Bild handelt, gibt die Eigenschaft HeightScale nur 100 zurück;
+Wenn die Form nicht picture ist, gibt die Eigenschaft HeightScale nur 100 zurück;
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

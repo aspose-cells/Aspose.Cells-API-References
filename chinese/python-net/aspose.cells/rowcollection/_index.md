@@ -1,13 +1,13 @@
 ﻿---
 title: RowCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1310
 url: /zh/python-net/aspose.cells/rowcollection/
 is_root: false
 ---
-##  RowCollection类
+## RowCollection类
 收集代表工作表中各行的 [Row](/cells/zh/python-net/aspose.cells/row) 对象。
 
 
@@ -21,7 +21,7 @@ RowCollection 类型公开了以下成员：
 
 
 
-通过给定的行索引获取 [Row](/cells/zh/python-net/aspose.cells/row) 对象。如果给定行索引的 Row 对象之前不存在，则将其实例化。
+通过给定的行索引获取 [Row](/cells/zh/python-net/aspose.cells/row) 对象。
 ### 索引器
 |名称|描述|
 | :- | :- |

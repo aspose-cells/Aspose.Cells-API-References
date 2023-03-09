@@ -1,5 +1,5 @@
 ﻿---
-title: AbstractCalculationMonitor sınıf
+title: AbstractCalculationMonitor sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /tr/python-net/aspose.cells/abstractcalculationmonitor/
 is_root: false
 ---
-##  AbstractCalculationMonitor sınıf
+##  AbstractCalculationMonitor sınıfı
 Kullanıcının formül hesaplamasının ilerlemesini izlemesini izleyin.
 
 

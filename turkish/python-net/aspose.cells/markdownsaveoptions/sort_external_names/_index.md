@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sort_external_names mülk
 
-Dosyayı kaydetmeden önce harici tanımlı adların sıralanıp sıralanmadığını gösterir.
+Dosyayı kaydetmeden önce harici olarak tanımlanmış adların sıralanıp sıralanmadığını gösterir.
 ###  Tanım:
 ```python
 @property

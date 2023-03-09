@@ -18,12 +18,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/it/python-net/aspose.cells/cells) | L'oggetto sorgente Cells contiene dati e formati da copiare.|
 | source_column_index | int | Indice della colonna di origine.|
-| destination_column_index | int |Indice della colonna di destinazione.|
-| column_number | int | Il numero di colonna copiato.|
+| destination_column_index | int | Indice della colonna di destinazione.|
+| column_number | int | I numeri di colonna copiati.|
 
 
 ##  copy_columns(source_cells0, source_column_index, destination_column_index, column_number, paste_options) {#Cells-int-int-int-PasteOptions}
@@ -37,12 +37,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/it/python-net/aspose.cells/cells) | L'oggetto sorgente Cells contiene dati e formati da copiare.|
 | source_column_index | int | Indice della colonna di origine.|
-| destination_column_index | int |Indice della colonna di destinazione.|
-| column_number | int | Il numero di colonna copiato.|
+| destination_column_index | int | Indice della colonna di destinazione.|
+| column_number | int | I numeri di colonna copiati.|
 | paste_options | [PasteOptions](/cells/it/python-net/aspose.cells/pasteoptions) | le opzioni di incollare.|
 
 
@@ -57,12 +57,12 @@ def copy_columns(self, source_cells, source_column_index, source_total_columns, 
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/it/python-net/aspose.cells/cells) | L'oggetto sorgente Cells contiene dati e formati da copiare.|
 | source_column_index | int | Indice della colonna di origine.|
 | source_total_columns | int | Il numero delle colonne di origine.|
-| destination_column_index | int |Indice della colonna di destinazione.|
+| destination_column_index | int | Indice della colonna di destinazione.|
 | destination_total_columns | int | Il numero delle colonne di destinazione.|
 
 

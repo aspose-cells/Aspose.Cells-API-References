@@ -22,7 +22,7 @@ def copy(self, range):
 | :- | :- | :- |
 | range | [Range](/cells/de/python-net/aspose.cells/range) | Quelle [Range](/cells/de/python-net/aspose.cells/range) Objekt.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

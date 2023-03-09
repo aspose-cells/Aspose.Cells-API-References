@@ -18,7 +18,7 @@ def warning(self, warning_info):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | warning_info | [WarningInfo](/cells/ar/python-net/aspose.cells/warninginfo) | معلومات التحذير|
 

@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta il Colore della linea di confine di un'immagine.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

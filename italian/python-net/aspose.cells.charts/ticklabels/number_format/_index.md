@@ -13,7 +13,7 @@ Rappresenta la stringa di formato per l'oggetto TickLabels.
 
 ###  Osservazioni
 
-La stringa di formattazione è uguale all'impostazione di una stringa di formato personalizzata per una cella. Ad esempio, "$0".
+La stringa di formattazione è uguale all'impostazione di una stringa di formato personalizzata per una cella, ad esempio "$0".
 ###  Definizione:
 ```python
 @property

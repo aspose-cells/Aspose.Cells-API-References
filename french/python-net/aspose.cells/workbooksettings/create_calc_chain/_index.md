@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  create_calc_chain propriété
 
-Crée une chaîne de formules calculées. La valeur par défaut est false.
+Crée ou non une chaîne de formules calculées. La valeur par défaut est false.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Au lieu de cela, veuillez utiliser FormulaSettings.EnableCalculationChain.
+REMARQUE : ce membre est désormais obsolète. Utilisez plutôt FormulaSettings.EnableCalculationChain.
  Cette propriété sera supprimée 12 mois plus tard depuis février 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

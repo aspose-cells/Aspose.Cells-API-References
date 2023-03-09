@@ -23,11 +23,11 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [id](/cells/ar/python-net/aspose.cells.drawing/signatureline/id) | الحصول على أو تعيين معرف لسطر التوقيع هذا.|
+| [id](/cells/ar/python-net/aspose.cells.drawing/signatureline/id) | الحصول على أو تحديد معرف لسطر التوقيع هذا.|
 | [provider_id](/cells/ar/python-net/aspose.cells.drawing/signatureline/provider_id) | الحصول على معرف موفر التوقيع وتعيينه.|
 | [signer](/cells/ar/python-net/aspose.cells.drawing/signatureline/signer) | يحصل على الموقع ويعينه.|
 | [title](/cells/ar/python-net/aspose.cells.drawing/signatureline/title) | يحصل على لقب المغني ويحدده.|
-| [email](/cells/ar/python-net/aspose.cells.drawing/signatureline/email) |يحصل ويضبط البريد الإلكتروني للمغني.|
+| [email](/cells/ar/python-net/aspose.cells.drawing/signatureline/email) | يحصل ويضبط البريد الإلكتروني للمغني.|
 | [is_line](/cells/ar/python-net/aspose.cells.drawing/signatureline/is_line) | يشير إلى ما إذا كان سطر توقيع.|
 | [allow_comments](/cells/ar/python-net/aspose.cells.drawing/signatureline/allow_comments) | يشير إلى إمكانية إرفاق التعليقات.|
 | [show_signed_date](/cells/ar/python-net/aspose.cells.drawing/signatureline/show_signed_date) | يشير إلى ما إذا كان إظهار التاريخ الموقع.|
@@ -35,7 +35,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

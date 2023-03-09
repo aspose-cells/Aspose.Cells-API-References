@@ -1,13 +1,13 @@
 ﻿---
 title: DropButtonStyle枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 280
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/dropbuttonstyle/
 is_root: false
 ---
-##  DropButtonStyle枚举
+## DropButtonStyle枚举
 表示显示在下拉按钮上的符号。
 
 

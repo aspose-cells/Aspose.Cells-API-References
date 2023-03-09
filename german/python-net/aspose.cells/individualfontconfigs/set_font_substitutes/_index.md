@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/individualfontconfigs/set_font_substitutes/
 is_root: false
 ---
 ##  set_font_substitutes(original_font_name, substitute_font_names) {#str-list}
-Schriftart-Ersatznamen für den angegebenen ursprünglichen Schriftartnamen.
+Font-Ersatznamen für gegebene Original-Fontnamen.
 
 
 

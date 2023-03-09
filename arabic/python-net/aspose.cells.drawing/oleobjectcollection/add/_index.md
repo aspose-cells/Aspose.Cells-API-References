@@ -22,11 +22,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
-| height | int |ارتفاع oleObject ، بوحدة البكسل.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
+| height | int | ارتفاع oleObject ، بوحدة البكسل.|
 | width | int | عرض oleObject ، بوحدة البكسل.|
 | image_data | bytes | صورة كائن أول كمصفوفة بايت.|
 
@@ -46,11 +46,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
-| height | int |ارتفاع oleObject ، بوحدة البكسل.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
+| height | int | ارتفاع oleObject ، بوحدة البكسل.|
 | width | int | عرض oleObject ، بوحدة البكسل.|
 | image_data | bytes | صورة كائن أول كمصفوفة بايت.|
 | linked_file | str |  |

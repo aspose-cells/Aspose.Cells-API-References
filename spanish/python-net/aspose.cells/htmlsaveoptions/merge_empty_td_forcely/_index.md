@@ -10,7 +10,7 @@ is_root: false
 ##  merge_empty_td_forcely propiedad
 
  Indica si se fusiona el elemento TD vacío a la fuerza al exportar el archivo a html.
- El tamaño del archivo html se reducirá significativamente después de establecer el valor en verdadero. El valor predeterminado es falso.
+ El tamaño del archivo html se reducirá significativamente después de establecer el valor en verdadero.
  Si desea importar el archivo html para sobresalir o exportar líneas de cuadrícula perfectas al guardar el archivo en html,
 por favor, mantenga el valor predeterminado.
 ###  Definición:

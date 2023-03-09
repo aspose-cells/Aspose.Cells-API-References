@@ -11,7 +11,7 @@ is_root: false
 
 Indica si la forma de segmentación está bloqueada.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

@@ -28,9 +28,9 @@ Il tipo ImageType espone i membri seguenti:
 | TIFF | TIFF|
 | SVG | SVG|
 | SVM | Svm|
-| GLTF | glTF|
+| GLTF | glTFAltro|
 | OFFICE_COMPATIBLE_EMF | Windows Enhanced Metafile che è più compatibile con Office.|
-| WEB_P | Formato immagine Weppy|
+| WEB_P |Formato immagine Weppy|
 
 
 

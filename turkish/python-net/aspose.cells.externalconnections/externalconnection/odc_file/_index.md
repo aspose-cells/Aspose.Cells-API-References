@@ -10,7 +10,7 @@ is_root: false
 ##  odc_file mülk
 
  Bu bağlantının yapıldığı harici bağlantı dosyasının tam yolunu belirtir.
- oluşturuldu. Verileri yenileme girişimi sırasında bir bağlantı başarısız olursa ve reconnectionMethod=1,
+ Verileri yenileme girişimi sırasında bir bağlantı başarısız olursa ve reconnectionMethod=1,
  ardından elektronik tablo uygulaması, harici bağlantı dosyasındaki bilgileri kullanarak tekrar deneyecektir.
 çalışma kitabına katıştırılmış bağlantı nesnesi yerine.
 ###  Tanım:

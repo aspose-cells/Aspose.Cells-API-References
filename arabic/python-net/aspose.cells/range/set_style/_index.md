@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | كائن النمط.|
 
@@ -34,7 +34,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | نمط الخلية.|
 | explicit_flag | bool | صحيح ، الكتابة فوق التنسيق الذي تم تعيينه صراحةً فقط.|

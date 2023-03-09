@@ -18,11 +18,11 @@ def format_characters(self, start_index, length, font, flag):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_index | int | فهرس البداية.|
 | length | int | الطول.|
-| font | [Font](/cells/ar/python-net/aspose.cells/font) |إعداد الخط.|
+| font | [Font](/cells/ar/python-net/aspose.cells/font) | إعداد الخط.|
 | flag | [StyleFlag](/cells/ar/python-net/aspose.cells/styleflag) | علم إعداد الخط.|
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  diagonal_style Eigentum
 
-Ruft den Stil von diagonalen Linien ab oder legt diesen fest.
+Ruft den Stil diagonaler Linien ab oder legt diesen fest.
 ###  Definition:
 ```python
 @property

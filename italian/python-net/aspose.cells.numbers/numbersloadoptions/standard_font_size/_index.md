@@ -13,7 +13,7 @@ Imposta la dimensione del carattere standard predefinita.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Utilizzare invece DefaultStyleSettings.
+NOTA: questo membro è ora obsoleto.
  Questa proprietà verrà rimossa 12 mesi dopo da marzo 2022.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

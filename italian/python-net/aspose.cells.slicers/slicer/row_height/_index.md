@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta l'altezza, in punti, di ogni riga nell'affettatrice specificata.
 
-###  Esempio
+###  Esempi
 
 ```python
 

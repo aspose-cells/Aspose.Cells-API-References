@@ -19,7 +19,7 @@ def set_two_color_gradient(self, color1, color2, style, variant):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color | En gradientfärg.|
 | color2 | aspose.pydrawing.Color | Två gradientfärger.|
@@ -39,7 +39,7 @@ def set_two_color_gradient(self, color1, transparency1, color2, transparency2, s
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color | En gradientfärg.|
 | transparency1 | float | Graden av genomskinlighet för färgen1 som ett värde från 0,0 (opak) till 1,0 (klar).|

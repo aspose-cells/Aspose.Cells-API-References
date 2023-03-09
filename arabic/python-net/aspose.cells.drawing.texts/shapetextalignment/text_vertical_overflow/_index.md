@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع تجاوز النص العمودي لمربع النص وتعيينه.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import TextOverflowType

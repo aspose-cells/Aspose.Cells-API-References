@@ -1,13 +1,13 @@
 ﻿---
 title: HorizontalPageBreak类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 750
 url: /zh/python-net/aspose.cells/horizontalpagebreak/
 is_root: false
 ---
-##  HorizontalPageBreak类
+## HorizontalPageBreak类
 封装表示水平分页符的对象。
 
 

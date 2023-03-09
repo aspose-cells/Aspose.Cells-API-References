@@ -11,7 +11,7 @@ is_root: false
 
 Satırın başlangıç oku genişlik türünü alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import MsoArrowheadWidth

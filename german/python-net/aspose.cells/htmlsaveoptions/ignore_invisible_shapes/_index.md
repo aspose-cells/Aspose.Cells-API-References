@@ -13,7 +13,7 @@ Geben Sie an, ob diese nicht sichtbaren Formen exportiert werden
 
 ###  Bemerkungen
 
-Der Standardwert ist false.
+Die Standardwerte sind falsch.
 ###  Definition:
 ```python
 @property

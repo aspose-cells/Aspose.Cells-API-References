@@ -17,7 +17,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [MetadataOptions(metadata_type)](/cells/ar/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | ينشئ خيارات لتحميل البيانات الوصفية.|
+| [MetadataOptions(metadata_type)](/cells/ar/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | ينشئ خيارًا لتحميل البيانات الوصفية.|
 
 
 ###  ملكيات

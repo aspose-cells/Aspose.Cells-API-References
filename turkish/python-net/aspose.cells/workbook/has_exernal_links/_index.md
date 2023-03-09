@@ -24,7 +24,7 @@ def has_exernal_links(self):
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+NOT: Bu üye artık kullanılmıyor.
 lütfen bu çalışma kitabında harici bağlantılar olup olmadığını kontrol etmek için ExternalLinkCollection.Count'u kullanın.
  Bu yöntem Aralık 2021'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

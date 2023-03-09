@@ -11,7 +11,7 @@ is_root: false
 
 Representa el ancho del comentario, en unidades de centímetros.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

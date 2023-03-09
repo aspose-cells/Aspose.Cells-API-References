@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  العد GridlineType
-تعداد نوع خط الشبكة.
+تعداد أنواع خطوط الشبكة.
 
 
 

@@ -18,7 +18,7 @@ Der Typ LineSpaceSizeType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | PERCENTAGE | Stellt die Einheit eines Prozentsatzes der Textgröße dar.|
-| POINTS | Repräsentiert in der Einheit von Punkten.|
+| POINTS | Repräsentiert in Einheiten von Punkten.|
 
 
 

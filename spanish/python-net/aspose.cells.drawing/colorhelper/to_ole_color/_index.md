@@ -22,7 +22,7 @@ def to_ole_color(self, color, workbook):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | El objeto Color.|
 | workbook | [Workbook](/cells/es/python-net/aspose.cells/workbook) |  |

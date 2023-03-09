@@ -22,7 +22,7 @@ def add_condition(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/sv/python-net/aspose.cells/formatconditiontype) | Formatvillkorstyp.|
 
@@ -42,12 +42,12 @@ def add_condition(self, type, operator_type, formula1, formula2):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/sv/python-net/aspose.cells/formatconditiontype) | [FormatConditionType](/cells/sv/python-net/aspose.cells/formatconditiontype) för villkorlig formatering.<br/> Det kan vara en av medlemmarna i FormatConditionType.|
 | operator_type | [OperatorType](/cells/sv/python-net/aspose.cells/operatortype) | Jämförelsen [OperatorType](/cells/sv/python-net/aspose.cells/operatortype).<br/> Det kan vara en av medlemmarna i OperatorType.|
-| formula1 | str |Värdet eller uttrycket som är kopplat till villkorlig formatering.<br/>Om inmatningsvärdet börjar med '=' kommer det att tas som formel.<br/>Annars kommer det att tas som vanligt värde (text, nummer, bool).<br/> För textvärde som börjar med '=' kan användaren mata in det som formel i formatet: "=\"=...\"".|
-| formula2 | str |Värdet eller uttrycket som är kopplat till villkorlig formatering.<br/> Inmatningsformatet är detsamma som formel1|
+| formula1 | str | Värdet eller uttrycket som är kopplat till villkorlig formatering.<br/>Om inmatningsvärdet börjar med '=' kommer det att tas som formel.<br/>Annars kommer det att tas som vanligt värde (text, nummer, bool).<br/> För textvärde som börjar med '=' kan användaren mata in det som formel i formatet: "=\"=...\"".|
+| formula2 | str | Värdet eller uttrycket som är kopplat till villkorlig formatering.<br/>Inmatningsformatet är detsamma som formel1|
 
 
 

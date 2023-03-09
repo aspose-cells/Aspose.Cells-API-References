@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  alignment propiedad
 
-Obtiene y establece la posición del Caption en relación con el control.
+Obtiene y establece la posición de Caption en relación con el control.
 ###  Definición:
 ```python
 @property

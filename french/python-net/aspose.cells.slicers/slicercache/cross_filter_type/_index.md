@@ -10,7 +10,7 @@ is_root: false
 ##  cross_filter_type propriété
 
 Renvoie ou définit si un segment participe au filtrage croisé avec d'autres segments
-qui partagent le même cache de trancheur et comment le filtrage croisé est affiché. Lire écrire
+qui partagent le même cache de trancheur et comment le filtrage croisé est affiché.
 ###  Définition:
 ```python
 @property

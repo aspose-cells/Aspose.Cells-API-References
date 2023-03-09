@@ -1,13 +1,13 @@
 ﻿---
 title: RevisionDefinedName类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
 url: /zh/python-net/aspose.cells.revisions/revisiondefinedname/
 is_root: false
 ---
-##  RevisionDefinedName类
+## RevisionDefinedName类
 表示已定义名称更改的修订记录。
 
 

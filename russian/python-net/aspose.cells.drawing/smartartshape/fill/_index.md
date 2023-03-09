@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает объект [Shape.fill_format](/cells/ru/python-net/aspose.cells.drawing/shape#fill_format), содержащий fill свойств форматирования для указанной фигуры.
 
-###  Пример
+###  Примеры
 
 ```python
 

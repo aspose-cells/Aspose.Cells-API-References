@@ -1,13 +1,13 @@
 ﻿---
 title: MsoDrawingType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1000
 url: /zh/python-net/aspose.cells.drawing/msodrawingtype/
 is_root: false
 ---
-##  MsoDrawingType枚举
+## MsoDrawingType枚举
 表示办公室绘图对象类型。
 
 

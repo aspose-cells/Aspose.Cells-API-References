@@ -22,15 +22,15 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Menzil.|
 | options | [ExportRangeToJsonOptions](/cells/tr/python-net/aspose.cells.utility/exportrangetojsonoptions) | Dışa aktarma seçenekleri.|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+NOT: Bu üye artık kullanılmıyor.
 lütfen ExportRangeToJson(Aralık aralığı, JsonSaveOptions seçenekleri) yöntemini kullanın.
-Bu mülk, Kasım 2022'den itibaren 6 ay sonra kaldırılacaktır.
+ Bu mülk, Kasım 2022'den itibaren 6 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 
 ##  export_range_to_json(range, options) {#Range-JsonSaveOptions}
@@ -48,7 +48,7 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Menzil.|
 | options | [JsonSaveOptions](/cells/tr/python-net/aspose.cells/jsonsaveoptions) | Dışa aktarma seçenekleri.|

@@ -22,10 +22,10 @@ def get_offset(self, row_offset, column_offset):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row_offset | int | Bu aralıktaki satır ofseti, sıfır tabanlı.|
-| column_offset | int | Sütun ofseti bu aralıkta, sıfır tabanlı.|
+| column_offset | int |Sütun ofseti bu aralıkta, sıfır tabanlı.|
 
 
 

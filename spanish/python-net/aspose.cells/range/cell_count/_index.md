@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  cell_count propiedad
 
-Obtiene todo el recuento de celdas en el rango.
+Obtiene todos los recuentos de celdas en el rango.
 
 ###  Observaciones
 
  NOTA: Esta propiedad ahora está obsoleta.
 En su lugar, use RowCount y ColumnCount para obtener el recuento total de celdas.
-Esta propiedad se eliminará 12 meses después desde febrero de 2021.
+ Esta propiedad se eliminará 12 meses después desde febrero de 2021.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:
 ```python

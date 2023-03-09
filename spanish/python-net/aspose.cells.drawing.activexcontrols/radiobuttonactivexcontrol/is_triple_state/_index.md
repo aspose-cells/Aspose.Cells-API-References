@@ -13,10 +13,10 @@ Indica cómo el control especificado mostrará valores nulos.
 
 ###  Observaciones
 
-| Configuración| Descripción|
+| Ajustes| Descripción|
 | :- | :- |
-| Verdadero| El control recorrerá los estados para los valores Sí, No y Nulo. El control aparece atenuado (en gris) cuando su propiedad Valor se establece en Nulo.|
-| FALSO| (Predeterminado) El control recorrerá los estados para los valores Sí y No. Los valores nulos se muestran como si no fueran valores.|
+| Verdadero| El control recorrerá los estados para los valores Sí, No y Nulo.|
+| FALSO|(Predeterminado) El control recorrerá los estados para los valores Sí y No.|
 ###  Definición:
 ```python
 @property

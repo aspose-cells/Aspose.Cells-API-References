@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.charts/chartglobalizationsettings/
 is_root: false
 ---
 ##  ChartGlobalizationSettings Klasse
-Stellt die Globalisierungseinstellungen für das Diagramm dar.
+Stellt die Globalisierungseinstellungen für Diagramme dar.
 
 
 
@@ -24,12 +24,12 @@ Der Typ ChartGlobalizationSettings macht die folgenden Member verfügbar:
 | Methode| Beschreibung|
 | :- | :- |
 | [get_series_name()](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_series_name/#) | Ruft den Namen der Reihe im Diagramm ab.|
-| [get_chart_title_name()](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_chart_title_name/#) |Ruft den Namen des Diagrammtitels ab.|
+| [get_chart_title_name()](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_chart_title_name/#) | Ruft den Namen des Diagrammtitels ab.|
 | [get_legend_increase_name()](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_legend_increase_name/#) | Ruft den Namen der Erhöhung für Legend ab.|
 | [get_legend_decrease_name()](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_legend_decrease_name/#) | Ruft den Namen von Decrease for Legend ab.|
 | [get_legend_total_name()](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_legend_total_name/#) | Ruft den Namen von Total for Legend ab.|
 | [get_axis_title_name()](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_axis_title_name/#) | Ruft den Namen des Titels für die Achse ab.|
-| [get_other_name()](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_other_name/#) | Ruft den Namen von "Anderen" Beschriftungen für Diagramm ab.|
+| [get_other_name()](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_other_name/#) |Ruft den Namen von "Anderen" Beschriftungen für Diagramm ab.|
 | [get_axis_unit_name(type)](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings/get_axis_unit_name/#DisplayUnitType) | Ruft den Namen der Achseneinheit ab.|
 
 

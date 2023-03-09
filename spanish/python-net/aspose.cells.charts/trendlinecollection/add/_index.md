@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/es/python-net/aspose.cells.charts/trendlinetype) | Tipo de línea de tendencia.|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/es/python-net/aspose.cells.charts/trendlinetype) | Tipo de línea de tendencia.|
 | name | str | Nombre de la línea de tendencia.|

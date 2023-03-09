@@ -1,6 +1,6 @@
 ﻿---
 title: right_crop 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## right_crop 属性
 
-表示裁剪矩形右边的位置表示，表示为图像宽度的比例。
+表示裁剪矩形右侧的位置，表示为图像宽度的比率。
 ### 定义：
 ```python
 @property

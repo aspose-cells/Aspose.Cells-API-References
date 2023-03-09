@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size propriété
 
-Obtient et définit le rayon de la lueur, en unité de points.
+Obtient et définit le rayon de la lueur, en unités de points.
 ###  Définition:
 ```python
 @property

@@ -22,7 +22,7 @@ def save_format_to_load_format(self, save_format):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | تنسيق الحفظ.|
 

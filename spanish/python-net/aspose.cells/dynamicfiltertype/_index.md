@@ -17,7 +17,7 @@ El tipo DynamicFilterType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| ABOVE_AVERAGE | Muestra valores que están por encima del promedio.|
+| ABOVE_AVERAGE | Muestra valores que están por encima de la media.|
 | BELOW_AVERAGE | Muestra valores que están por debajo del promedio.|
 | LAST_MONTH | Muestra las fechas del último mes.|
 | LAST_QUARTER | Muestra las fechas del último trimestre.|
@@ -26,8 +26,8 @@ El tipo DynamicFilterType expone los siguientes miembros:
 | JANUARY | Muestra las fechas que están en enero, independientemente del año.|
 | OCTOBER | Muestra las fechas que están en octubre, independientemente del año.|
 | NOVEMBER | Muestra las fechas que están en noviembre, independientemente del año.|
-| DECEMBER | Muestra las fechas que están en diciembre, independientemente del año.|
-| FEBRUARY |Muestra las fechas que están en febrero, independientemente del año.|
+| DECEMBER |Muestra las fechas que están en diciembre, independientemente del año.|
+| FEBRUARY | Muestra las fechas que están en febrero, independientemente del año.|
 | MARCH | Muestra las fechas que están en marzo, independientemente del año.|
 | APRIL | Muestra las fechas que están en abril, independientemente del año.|
 | MAY | Muestra las fechas que están en mayo, independientemente del año.|
@@ -42,8 +42,8 @@ El tipo DynamicFilterType expone los siguientes miembros:
 | NONE | Ninguno.|
 | QUARTER1 | Muestra las fechas que están en el 1er trimestre, independientemente del año.|
 | QUARTER2 | Muestra las fechas que están en el segundo trimestre, independientemente del año.|
-| QUARTER3 |Muestra las fechas que están en el tercer trimestre, independientemente del año.|
-| QUARTER4 | Muestra las fechas que están en el cuarto trimestre, independientemente del año.|
+| QUARTER3 | Muestra las fechas que están en el tercer trimestre, independientemente del año.|
+| QUARTER4 |Muestra las fechas que están en el cuarto trimestre, independientemente del año.|
 | THIS_MONTH | Muestra las fechas de este mes.|
 | THIS_QUARTER | Muestra las fechas de este trimestre.|
 | THIS_WEEK | Muestra las fechas de esta semana.|

@@ -1,5 +1,5 @@
 ﻿---
-title: SheetPrintingPreview sınıf
+title: SheetPrintingPreview sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 90
 url: /tr/python-net/aspose.cells.rendering/sheetprintingpreview/
 is_root: false
 ---
-##  SheetPrintingPreview sınıf
+##  SheetPrintingPreview sınıfı
 Çalışma sayfası yazdırma önizlemesi.
 
 

@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_co
 is_root: false
 ---
 ##  get_on_category_axis_point_count() {#}
-Obtiene el número de puntos en el eje de categoría después de llamar al método Chart.Calculate(). Solo se aplica al gráfico de área.
+Obtiene el número de puntos en el eje de categoría después de llamar al método Chart.Calculate() Solo se aplica al gráfico de áreas.
 
 
 

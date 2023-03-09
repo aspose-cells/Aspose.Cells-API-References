@@ -25,9 +25,9 @@ def add_linked_picture(self, upper_left_row, upper_left_column, height, width, s
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
-| height | int | Die Höhe der Form. In Pixeleinheiten|
-| width | int | Die Breite der Form. In Pixeleinheiten|
+| upper_left_column | int | Spaltenindex oben links.|
+| height | int | Die Höhe der Form.|
+| width | int | Die Breite der Form.|
 | source_full_name | str | Der Pfad und Name der Quelldatei für das verknüpfte Bild|
 
 

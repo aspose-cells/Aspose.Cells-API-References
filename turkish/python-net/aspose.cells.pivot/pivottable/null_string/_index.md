@@ -10,7 +10,7 @@ is_root: false
 ##  null_string mülk
 
 Boş değerler içeren hücrelerde görüntülenen dizeyi alır
-DisplayNullString özelliği true olduğunda. Varsayılan değer boş bir dizedir.
+DisplayNullString özelliği doğru olduğunda.
 ###  Tanım:
 ```python
 @property

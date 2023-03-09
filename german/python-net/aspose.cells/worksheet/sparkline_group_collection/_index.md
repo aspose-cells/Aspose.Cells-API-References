@@ -13,7 +13,7 @@ Ruft die Sparkline-Gruppenauflistung im Arbeitsblatt ab.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen die Eigenschaft Worksheet.SparklineGroups.
+HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen die Eigenschaft Worksheet.SparklineGroups.
  Diese Property wird 12 Monate später seit November 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

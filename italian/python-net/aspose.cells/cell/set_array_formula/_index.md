@@ -18,10 +18,10 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | Formula matrice.|
-| row_number | int | Numero di righe da popolare risultato della formula di matrice.|
+| row_number | int |Numero di righe da popolare risultato della formula di matrice.|
 | column_number | int | Numero di colonne da popolare risultato della formula di matrice.|
 
 
@@ -36,10 +36,10 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | Formula matrice.|
-| row_number | int | Numero di righe da popolare risultato della formula di matrice.|
+| row_number | int |Numero di righe da popolare risultato della formula di matrice.|
 | column_number | int | Numero di colonne da popolare risultato della formula di matrice.|
 | options | [FormulaParseOptions](/cells/it/python-net/aspose.cells/formulaparseoptions) | Opzioni per l'analisi della formula.|
 
@@ -55,16 +55,16 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | Formula matrice.|
-| row_number | int | Numero di righe da popolare risultato della formula di matrice.|
+| row_number | int |Numero di righe da popolare risultato della formula di matrice.|
 | column_number | int | Numero di colonne da popolare risultato della formula di matrice.|
 | is_r1c1 | bool | se la formula è la formula R1C1|
 | is_local | bool | se la formula è in formato locale|
 ###  Osservazioni
 
-NOTA: questa classe è ora obsoleta. Invece,
+NOTA: questa classe è ora obsoleta.
 si prega di utilizzare Cell.SetArrayFormula(string,int,int,FormulaParseOptions).
 Questa proprietà verrà rimossa 12 mesi dopo da dicembre 2019.
 Aspose si scusa per gli eventuali disagi causati.
@@ -80,10 +80,10 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | Formula matrice.|
-| row_number | int | Numero di righe da popolare risultato della formula di matrice.|
+| row_number | int |Numero di righe da popolare risultato della formula di matrice.|
 | column_number | int | Numero di colonne da popolare risultato della formula di matrice.|
 | options | [FormulaParseOptions](/cells/it/python-net/aspose.cells/formulaparseoptions) | Opzioni per l'analisi della formula.|
 | values | list | valori per quelle celle con una data formula di matrice|

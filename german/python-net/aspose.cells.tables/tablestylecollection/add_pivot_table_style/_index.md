@@ -24,7 +24,7 @@ def add_pivot_table_style(self, name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| name | str | Der Stilname der Pivot-Tabelle.|
+| name | str |Der Stilname der Pivot-Tabelle.|
 
 
 

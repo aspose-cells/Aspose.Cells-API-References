@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count proprietà
 
-Ottiene lo count dei record. -1 per record sconosciuti count.
+Ottiene lo count dei record. -1 per i record sconosciuti count.
 ###  Definizione:
 ```python
 @property

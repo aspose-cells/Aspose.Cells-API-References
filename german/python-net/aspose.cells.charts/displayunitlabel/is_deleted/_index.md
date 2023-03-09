@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted Eigentum
 
-Gibt an, ob diese Datenbeschriftungen gelöscht werden.
+Gibt an, ob diese Datenbeschriftung gelöscht wird.
 ###  Definition:
 ```python
 @property

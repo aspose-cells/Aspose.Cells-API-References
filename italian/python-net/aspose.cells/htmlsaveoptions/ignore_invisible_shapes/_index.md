@@ -13,7 +13,7 @@ Indicare se esportare quelle forme non visibili
 
 ###  Osservazioni
 
-Il valore predefinito è false.
+I valori predefiniti sono false.
 ###  Definizione:
 ```python
 @property

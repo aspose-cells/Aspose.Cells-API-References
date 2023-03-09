@@ -20,7 +20,7 @@ Le type CellValueType expose les membres suivants :
 | IS_BOOL | La valeur Cell est booléenne.|
 | IS_DATE_TIME | La valeur Cell est datetime.|
 | IS_ERROR | Cell contient une valeur d'erreur|
-| IS_NULL | Cellule vide.|
+| IS_NULL | Cellules vides.|
 | IS_NUMERIC | La valeur Cell est numérique.|
 | IS_STRING | Cell la valeur est une chaîne.|
 | IS_UNKNOWN | Le type de valeur Cell est inconnu.|

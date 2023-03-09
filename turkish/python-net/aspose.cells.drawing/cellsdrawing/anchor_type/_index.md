@@ -11,7 +11,7 @@ is_root: false
 
 Şekil bağlantı yer tutucusunu alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

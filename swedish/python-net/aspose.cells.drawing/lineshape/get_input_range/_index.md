@@ -22,7 +22,7 @@ def get_input_range(self, is_r1c1, is_local):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_r1c1 | bool | Om formeln behöver formateras som R1C1.|
 | is_local | bool | Huruvida formeln behöver formateras efter språk.|

@@ -18,13 +18,13 @@ def set_column_width(self, column, width):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 | width | float | Sütun genişliği. Sütun genişliği 0 ile 255 arasında olmalıdır.|
 ###  Notlar
 
-Bir sütunu gizlemek için sütun genişliğini sıfıra ayarlar.
+Bir sütunu gizlemek için sütun genişliğini sıfır olarak ayarlayın.
 
 
 ###  Ayrıca bakınız

@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.metadata/metadataoptions/__init__/
 is_root: false
 ---
 ##  MetadataOptions(metadata_type) {#MetadataType}
-Erstellt Optionen zum Laden der Metadaten.
+Erstellt eine Option zum Laden der Metadaten.
 
 
 

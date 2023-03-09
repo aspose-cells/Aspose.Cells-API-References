@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/walls/get_cube_point_x_px/
 is_root: false
 ---
 ##  get_cube_point_x_px(index) {#int}
-Obtiene la coordenada x del punto de vértice del cubo de las paredes después de llamar al método Chart.Calculate().
+Obtiene las coordenadas x del punto de vértice del cubo de las paredes después de llamar al método Chart.Calculate().
 El número de puntos de vértice de las paredes del cubo es ocho.
 
 
@@ -19,7 +19,7 @@ def get_cube_point_x_px(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int |  |
 

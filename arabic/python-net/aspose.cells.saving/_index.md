@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
 | [SqlScriptOperatorType](/cells/ar/python-net/aspose.cells.saving/sqlscriptoperatortype) | يمثل نوع بيانات التشغيل.|
 

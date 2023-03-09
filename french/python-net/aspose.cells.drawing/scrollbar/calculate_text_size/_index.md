@@ -23,7 +23,7 @@ def calculate_text_size(self):
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 

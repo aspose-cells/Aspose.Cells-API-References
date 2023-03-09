@@ -13,7 +13,7 @@ Representa la cadena de formato del objeto TickLabels.
 
 ###  Observaciones
 
-La cadena de formato es la misma que una configuración de cadena de formato personalizado para una celda. Por ejemplo, "$0".
+La cadena de formato es la misma que una configuración de cadena de formato personalizado para una celda, por ejemplo, "$0".
 ###  Definición:
 ```python
 @property

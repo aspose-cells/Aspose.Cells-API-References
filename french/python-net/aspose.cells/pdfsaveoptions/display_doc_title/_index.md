@@ -14,7 +14,7 @@ Indique si la barre de titre de la fenêtre doit afficher le titre du document.
 ###  Remarques
 
 Si false, la barre de titre doit afficher à la place le nom du fichier PDF.
-La valeur par défaut est faux.
+La valeur par défaut est false.
 ###  Définition:
 ```python
 @property

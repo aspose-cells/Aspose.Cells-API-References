@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style propriété
 
-Représente le style de cette ligne.
+Représente le style de cette rangée.
 
 ###  Remarques
 

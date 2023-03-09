@@ -24,7 +24,7 @@ Le type ContentTypeProperty expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

@@ -17,7 +17,7 @@ Il tipo MetadataOptions espone i membri seguenti:
 ###  Costruttori
 | Costruttore| Descrizione|
 | :- | :- |
-| [MetadataOptions(metadata_type)](/cells/it/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Crea un'opzione di caricamento dei metadati.|
+| [MetadataOptions(metadata_type)](/cells/it/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Crea un'opzione per caricare i metadati.|
 
 
 ###  Proprietà

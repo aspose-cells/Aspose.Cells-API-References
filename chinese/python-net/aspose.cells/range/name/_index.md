@@ -1,6 +1,6 @@
 ﻿---
 title: name 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 350
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-支持命名范围。例如，
+支持命名范围。
 
 range.Name = "Sheet1!MyRange";
 ### 定义：

@@ -13,9 +13,9 @@ Ottiene il valore della cella con un determinato offset dall'angolo in alto a si
 
 ###  ritorna
 
-"#RIF!" se quest'area non è valida;
+"#REF!" se quest'area non è valida;
 "#N/A" se viene specificato l'offset al di fuori di quest'area;
-Altrimenti restituisce il valore della cella in una determinata posizione.
+Altrimenti restituisce il valore della cella in una data posizione.
 
 
 ```python
@@ -24,10 +24,10 @@ def get_value(self, row_offset, col_offset):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row_offset | int | scostamento riga dalla riga iniziale di quest'area|
-| col_offset | int | scostamento di colonna dalla riga iniziale di quest'area|
+| col_offset | int |scostamento di colonna dalla riga iniziale di quest'area|
 
 
 ##  get_value(row_offset, col_offset, calculate_formulas) {#int-int-bool}
@@ -36,9 +36,9 @@ Ottiene il valore della cella con un determinato offset dall'angolo in alto a si
 
 ###  ritorna
 
-"#RIF!" se quest'area non è valida;
+"#REF!" se quest'area non è valida;
 "#N/A" se viene specificato l'offset al di fuori di quest'area;
-Altrimenti restituisce il valore della cella in una determinata posizione.
+Altrimenti restituisce il valore della cella in una data posizione.
 
 
 ```python
@@ -47,11 +47,11 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row_offset | int | scostamento riga dalla riga iniziale di quest'area|
-| col_offset | int | scostamento di colonna dalla riga iniziale di quest'area|
-| calculate_formulas | bool | Indica se calcolarlo in modo ricorsivo se il riferimento specificato è una formula|
+| col_offset | int |scostamento di colonna dalla riga iniziale di quest'area|
+| calculate_formulas | bool | Se lo calcola in modo ricorsivo se il riferimento specificato è una formula|
 
 
 

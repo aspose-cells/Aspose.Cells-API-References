@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type de texte enveloppé de la forme qui contient du texte.
 
-###  Exemple
+###  Exemples
 
 ```python
 

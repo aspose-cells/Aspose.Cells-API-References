@@ -1,13 +1,13 @@
 ﻿---
 title: Sparkline类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 260
 url: /zh/python-net/aspose.cells.charts/sparkline/
 is_root: false
 ---
-##  Sparkline类
+## Sparkline类
 迷你图表示工作表单元格中提供数据可视化表示的微小图表或图形。
 
 

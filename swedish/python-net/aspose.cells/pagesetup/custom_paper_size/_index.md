@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/pagesetup/custom_paper_size/
 is_root: false
 ---
 ##  custom_paper_size(width, height) {#float-float}
-Ställer in den anpassade pappersstorleken, i enhet tum.
+Ställer in den anpassade pappersstorleken, i enheter av tum.
 
 
 
@@ -18,7 +18,7 @@ def custom_paper_size(self, width, height):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | width | float | Papperets bredd.|
 | height | float | Höjden på papperet.|

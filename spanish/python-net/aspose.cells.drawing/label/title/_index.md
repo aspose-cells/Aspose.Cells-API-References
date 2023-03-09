@@ -11,7 +11,7 @@ is_root: false
 
 Especifica el title (título) del objeto de forma actual.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

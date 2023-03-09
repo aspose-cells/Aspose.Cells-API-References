@@ -18,13 +18,13 @@ def has_axis(self, aixs_type, is_primary):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | aixs_type | [AxisType](/cells/ar/python-net/aspose.cells.charts/axistype) |  |
 | is_primary | bool |  |
 ###  ملاحظات
 
-عادةً ، Pie ، PieExploded ، PiePie ، PieBar ، Pie3D ، Pie3DExploded ، Donut ، DoughnutExploded ليس محورًا.
+عادةً ، Pie ، PieExploded ، PiePie ، PieBar ، Pie3D ، Pie3DExploded ، Donut ، DonutExploded ليس محورًا.
 
 
 ###  أنظر أيضا

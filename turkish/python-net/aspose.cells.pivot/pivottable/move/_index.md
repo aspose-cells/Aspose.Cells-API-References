@@ -18,7 +18,7 @@ def move(self, dest_cell_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | dest_cell_name | str | hedef hücre adı.|
 
@@ -34,7 +34,7 @@ def move(self, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | satır dizini|
 | column | int | sütun indeksi.|

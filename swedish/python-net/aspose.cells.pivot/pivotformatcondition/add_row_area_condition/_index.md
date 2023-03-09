@@ -18,7 +18,7 @@ def add_row_area_condition(self, field_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | field_name | str | Namnet på PivotField.|
 
@@ -34,9 +34,9 @@ def add_row_area_condition(self, row_field):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| row_field | [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) | Pivotfältet i radfälten.|
+| row_field | [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) |Pivotfältet i radfälten.|
 
 
 

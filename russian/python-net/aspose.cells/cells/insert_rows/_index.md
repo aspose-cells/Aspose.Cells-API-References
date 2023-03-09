@@ -18,7 +18,7 @@ def insert_rows(self, row_index, total_rows):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 | total_rows | int | Количество вставляемых строк.|
@@ -35,11 +35,11 @@ def insert_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 | total_rows | int | Количество вставляемых строк.|
-| update_reference | bool | Указывает, будут ли обновлены ссылки на других рабочих листах.|
+| update_reference | bool |Указывает, будут ли обновлены ссылки на других рабочих листах.|
 
 
 ##  insert_rows(row_index, total_rows, options) {#int-int-InsertOptions}
@@ -53,11 +53,11 @@ def insert_rows(self, row_index, total_rows, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 | total_rows | int | Количество вставляемых строк.|
-| options | [InsertOptions](/cells/ru/python-net/aspose.cells/insertoptions) | Указывает, будут ли обновлены ссылки на других рабочих листах.|
+| options | [InsertOptions](/cells/ru/python-net/aspose.cells/insertoptions) |Указывает, будут ли обновлены ссылки на других рабочих листах.|
 
 
 

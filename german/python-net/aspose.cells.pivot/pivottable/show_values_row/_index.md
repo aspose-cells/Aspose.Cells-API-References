@@ -10,7 +10,7 @@ is_root: false
 ##  show_values_row Eigentum
 
 Gibt einen booleschen Wert an, der angibt, ob die Wertezeile angezeigt wird.
-Zeigen Sie die Wertezeile an
+Wertezeile anzeigen
 ###  Definition:
 ```python
 @property

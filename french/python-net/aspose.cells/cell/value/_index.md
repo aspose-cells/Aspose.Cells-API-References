@@ -18,7 +18,7 @@ Type possible :
 nul,
 
 
-Booléen,
+booléen,
 
 
 DateHeure,

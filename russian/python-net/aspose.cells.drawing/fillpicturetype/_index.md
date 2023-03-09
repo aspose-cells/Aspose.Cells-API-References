@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | STRETCH | Потягиваться|
 | STACK | Куча|
-| STACK_AND_SCALE | стек и масштаб|
+| STACK_AND_SCALE | Стек и масштаб|
 
 
 

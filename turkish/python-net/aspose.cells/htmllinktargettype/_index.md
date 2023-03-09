@@ -17,7 +17,7 @@ HtmlLinkTargetType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| BLANK | Bağlı belgeyi yeni bir pencerede veya sekmede açar|
+| BLANK |Bağlı belgeyi yeni bir pencerede veya sekmede açar|
 | PARENT | Bağlı belgeyi üst çerçevede açar|
 | SELF | Bağlantılı belgeyi tıklandığı çerçevede açar (bu varsayılandır)|
 | TOP | Bağlantılı belgeyi pencerenin tam gövdesinde açar|

@@ -13,9 +13,9 @@ is_root: false
 
 ###  Notlar
 
-Yalnızca ooxml dosyası için.
+Yalnızca ooxml dosyaları için.
 
-###  Örnek
+###  örnekler
 
 ```python
 

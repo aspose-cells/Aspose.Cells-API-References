@@ -18,7 +18,7 @@ def set_encryption_options(self, encryption_type, key_length):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | encryption_type | [EncryptionType](/cells/ru/python-net/aspose.cells/encryptiontype) | Тип шифрования.|
 | key_length | int | Длина ключа.|

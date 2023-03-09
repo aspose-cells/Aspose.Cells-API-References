@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name Eigentum
 
-Ruft den FarEast-Namen ab und legt ihn fest.
+Ruft den Fernost-Namen ab und legt ihn fest.
 ###  Definition:
 ```python
 @property

@@ -1,6 +1,6 @@
 ﻿---
 title: has_radar_axis_labels 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 230
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## has_radar_axis_labels 属性
 
-如果雷达图具有类别轴标签，则为真。仅适用于雷达图。
+如果雷达图具有类别轴标签，则为真。
 ### 定义：
 ```python
 @property

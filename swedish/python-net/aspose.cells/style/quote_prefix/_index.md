@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_prefix fastighet
 
-Anger om cellens värde börjar med enkla citattecken.
+Anger om cellens värde börjar med ett enda citattecken.
 ###  Definition:
 ```python
 @property

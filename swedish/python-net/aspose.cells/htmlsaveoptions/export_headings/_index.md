@@ -13,7 +13,7 @@ Anger om arkets rad- och kolumnrubriker exporteras när du sparar till HTML-file
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
 använd egenskapen HtmlSaveOptions.ExportRowColumnHeadings.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

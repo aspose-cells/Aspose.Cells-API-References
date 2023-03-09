@@ -18,7 +18,7 @@ def set_error_check(self, error_check_type, is_check):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/ar/python-net/aspose.cells/errorchecktype) | يمكن التحقق من نوع الخطأ.|
 | is_check | bool | صحيح إذا كان يلزم التحقق من نوع الخطأ المحدد (سيظهر المثلث الأخضر للخلية إذا فشل التحقق).|

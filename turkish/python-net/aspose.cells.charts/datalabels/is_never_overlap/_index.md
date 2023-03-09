@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_never_overlap mülk
 
-Veri etiketlerinin ekranının hiçbir zaman çakışıp çakışmadığını gösterir. (Pasta grafiği için)
+Veri etiketlerinin ekranının hiçbir zaman çakışıp çakışmadığını gösterir (Pasta grafik için)
 ###  Tanım:
 ```python
 @property

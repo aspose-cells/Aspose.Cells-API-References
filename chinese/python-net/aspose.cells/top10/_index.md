@@ -1,16 +1,16 @@
 ﻿---
 title: Top10类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1480
 url: /zh/python-net/aspose.cells/top10/
 is_root: false
 ---
-##  Top10类
+## Top10类
 描述 Top10 条件格式规则。
 此条件格式规则突出显示其单元格
-值落在顶部 N 或底部 N 括号中，如指定的那样。
+值落在前 N 个或后 N 个括号中，如指定的那样。
 
 
 

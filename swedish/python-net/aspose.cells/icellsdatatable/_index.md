@@ -18,7 +18,7 @@ Typen ICellsDataTable avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [columns](/cells/sv/python-net/aspose.cells/icellsdatatable/columns) | Hämtar kolumnernas namn.|
-| [count](/cells/sv/python-net/aspose.cells/icellsdatatable/count) | Får räkningen av posterna. -1 för okända poster räknas.|
+| [count](/cells/sv/python-net/aspose.cells/icellsdatatable/count) | -1 för okända poster räknas.|
 
 
 
@@ -26,7 +26,7 @@ Hämtar data som lagras i kolumnen som anges av index.
 ###  Indexerare
 | namn| Beskrivning|
 | :- | :- |
-| [index] |Det nollbaserade indexet för kolumnen.|
+| [index] | Det nollbaserade indexet för kolumnen.|
 
 
 ###  Metoder

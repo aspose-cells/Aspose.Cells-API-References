@@ -22,7 +22,7 @@ def is_template_format(self, extension):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | extension | str |  |
 

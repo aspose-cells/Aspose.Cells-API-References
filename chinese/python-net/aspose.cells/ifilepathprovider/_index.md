@@ -1,13 +1,13 @@
 ﻿---
 title: IFilePathProvider类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 850
 url: /zh/python-net/aspose.cells/ifilepathprovider/
 is_root: false
 ---
-##  IFilePathProvider类
+## IFilePathProvider类
 表示导出的文件路径提供程序。
 
 

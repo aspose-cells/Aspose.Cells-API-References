@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/unhide_column/
 is_root: false
 ---
 ##  unhide_column(column, width) {#int-float}
-Blendet eine Spalte ein
+Eine Spalte einblenden
 
 
 

@@ -22,7 +22,7 @@ def validate_password(self, password):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | password | str | كلمة المرور المحددة.|
 

@@ -18,7 +18,7 @@ def insert_rows(self, row_index, total_rows):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row_index | int | Índice de fila.|
 | total_rows | int | Número de filas a insertar.|
@@ -35,11 +35,11 @@ def insert_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row_index | int | Índice de fila.|
 | total_rows | int | Número de filas a insertar.|
-| update_reference | bool | Indica si se actualizarán las referencias en otras hojas de trabajo.|
+| update_reference | bool |Indica si se actualizarán las referencias en otras hojas de trabajo.|
 
 
 ##  insert_rows(row_index, total_rows, options) {#int-int-InsertOptions}
@@ -53,11 +53,11 @@ def insert_rows(self, row_index, total_rows, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row_index | int | Índice de fila.|
 | total_rows | int | Número de filas a insertar.|
-| options | [InsertOptions](/cells/es/python-net/aspose.cells/insertoptions) | Indica si se actualizarán las referencias en otras hojas de trabajo.|
+| options | [InsertOptions](/cells/es/python-net/aspose.cells/insertoptions) |Indica si se actualizarán las referencias en otras hojas de trabajo.|
 
 
 

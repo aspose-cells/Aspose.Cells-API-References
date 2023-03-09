@@ -15,12 +15,12 @@ is_root: false
 | [VbaModule](/cells/sv/python-net/aspose.cells.vba/vbamodule) | Representerar modulen i VBA-projekt.|
 | [VbaModuleCollection](/cells/sv/python-net/aspose.cells.vba/vbamodulecollection) | Representerar listan med [VbaModule](/cells/sv/python-net/aspose.cells.vba/vbamodule) |
 | [VbaProject](/cells/sv/python-net/aspose.cells.vba/vbaproject) | Representerar VBA-projektet.|
-| [VbaProjectReference](/cells/sv/python-net/aspose.cells.vba/vbaprojectreference) | Representerar referensen för VBA-projektet.|
+| [VbaProjectReference](/cells/sv/python-net/aspose.cells.vba/vbaprojectreference) |Representerar referensen för VBA-projektet.|
 | [VbaProjectReferenceCollection](/cells/sv/python-net/aspose.cells.vba/vbaprojectreferencecollection) | Representerar alla referenser till VBA-projekt.|
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
 | [VbaModuleType](/cells/sv/python-net/aspose.cells.vba/vbamoduletype) | Representerar typen av VBA-modul.|
 | [VbaProjectReferenceType](/cells/sv/python-net/aspose.cells.vba/vbaprojectreferencetype) | Representerar typen av VBA-projektreferens.|

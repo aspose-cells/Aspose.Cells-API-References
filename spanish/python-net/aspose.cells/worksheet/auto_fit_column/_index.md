@@ -18,7 +18,7 @@ def auto_fit_column(self, column_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | Índice de columnas.|
 ###  Observaciones
@@ -37,7 +37,7 @@ def auto_fit_column(self, column_index, first_row, last_row):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | Índice de columnas.|
 | first_row | int | Índice de la primera fila.|

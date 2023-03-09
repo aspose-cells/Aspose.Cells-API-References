@@ -18,7 +18,7 @@ def replace(self, old_value, new_value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | old_value | str | النص القديم.|
 | new_value | str | النص الجديد.|
@@ -35,7 +35,7 @@ def replace(self, index, count, text):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس البداية.|
 | count | int | عدد الشخصيات.|

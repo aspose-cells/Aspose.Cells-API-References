@@ -20,7 +20,7 @@ RevisionActionType türü aşağıdaki üyeleri gösterir:
 | ADD | Revizyon ekle.|
 | DELETE | Düzeltmeyi sil.|
 | DELETE_COLUMN | Sütun silme revizyonu.|
-| DELETE_ROW |Satır silme revizyonu.|
+| DELETE_ROW | Satır silme revizyonu.|
 | INSERT_COLUMN | Sütun ekleme revizyonu.|
 | INSERT_ROW | Satır ekleme revizyonu.|
 

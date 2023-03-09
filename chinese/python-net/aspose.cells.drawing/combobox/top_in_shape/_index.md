@@ -1,6 +1,6 @@
 ﻿---
 title: top_in_shape 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1120
@@ -14,7 +14,7 @@ is_root: false
 
 ### 评论
 
-仅当此形状位于组或图表中时适用。
+仅当此形状位于组或图表中时才适用。
 
 ### 例子
 

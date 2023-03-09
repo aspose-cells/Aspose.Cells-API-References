@@ -18,7 +18,7 @@ def resize(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية للنطاق الجديد.|
 | start_column | int | فهرس عمود البداية للنطاق الجديد.|

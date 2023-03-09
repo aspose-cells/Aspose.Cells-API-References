@@ -13,7 +13,7 @@ Obtiene o establece el tipo de forma 3D que se usa con el gráfico de barras o c
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
  utilice la propiedad ASeries.Bar3DShapeType.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

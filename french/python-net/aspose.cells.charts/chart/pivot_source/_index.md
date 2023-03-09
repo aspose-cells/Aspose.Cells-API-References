@@ -16,7 +16,7 @@ Si PivotSource n'est pas vide, le graphique est PivotChart.
 
 Si le tableau croisé dynamique "PivotTable1" dans la feuille de calcul "Sheet1" dans le fichier "Book1.xls".
 Le pivotSource peut être "[Book1.xls]Sheet1!PivotTable1" si le graphique et le tableau croisé dynamique ne se trouvent pas dans le même classeur.
-Si vous définissez cette propriété, le paramètre de source de données précédent sera perdu.
+Si vous définissez cette propriété , le paramètre de source de données précédent sera perdu.
 ###  Définition:
 ```python
 @property

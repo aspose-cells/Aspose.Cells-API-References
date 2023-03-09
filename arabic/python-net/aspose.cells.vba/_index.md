@@ -15,12 +15,12 @@ is_root: false
 | [VbaModule](/cells/ar/python-net/aspose.cells.vba/vbamodule) | يمثل الوحدة في مشروع VBA.|
 | [VbaModuleCollection](/cells/ar/python-net/aspose.cells.vba/vbamodulecollection) | تمثل قائمة [VbaModule](/cells/ar/python-net/aspose.cells.vba/vbamodule) |
 | [VbaProject](/cells/ar/python-net/aspose.cells.vba/vbaproject) | يمثل مشروع VBA.|
-| [VbaProjectReference](/cells/ar/python-net/aspose.cells.vba/vbaprojectreference) | يمثل مرجع مشروع VBA.|
-| [VbaProjectReferenceCollection](/cells/ar/python-net/aspose.cells.vba/vbaprojectreferencecollection) | يمثل جميع مراجع مشروع VBA.|
+| [VbaProjectReference](/cells/ar/python-net/aspose.cells.vba/vbaprojectreference) |يمثل مرجع مشروع VBA.|
+| [VbaProjectReferenceCollection](/cells/ar/python-net/aspose.cells.vba/vbaprojectreferencecollection) | يمثل جميع مراجع مشاريع VBA.|
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
 | [VbaModuleType](/cells/ar/python-net/aspose.cells.vba/vbamoduletype) | يمثل نوع وحدة VBA.|
 | [VbaProjectReferenceType](/cells/ar/python-net/aspose.cells.vba/vbaprojectreferencetype) | يمثل نوع مرجع مشروع VBA.|

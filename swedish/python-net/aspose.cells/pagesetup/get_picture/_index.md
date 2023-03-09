@@ -23,10 +23,10 @@ def get_picture(self, is_header, section):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_header | bool | Indikerar om det finns i sidhuvudet eller sidfoten.|
-| section | int |0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
+| section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
 
 
 ##  get_picture(is_first, is_even, is_header, section) {#bool-bool-bool-int}
@@ -44,12 +44,12 @@ def get_picture(self, is_first, is_even, is_header, section):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_first | bool | Indikerar om bilden av första sidans sidhuvud/sidfot hämtas.|
 | is_even | bool | Indikerar om bilden av sidhuvud/sidfot på jämna sidor.|
-| is_header | bool |Indikerar om bilden av sidhuvud/sidfot hämtas.|
-| section | int |0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
+| is_header | bool | Indikerar om bilden av sidhuvud/sidfot hämtas.|
+| section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
 
 
 

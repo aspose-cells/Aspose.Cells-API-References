@@ -23,7 +23,7 @@ def is_modified(self, modify_flag):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | modify_flag | [StyleModifyFlag](/cells/fr/python-net/aspose.cells/stylemodifyflag) | Drapeaux modifiés de style|
 

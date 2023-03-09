@@ -23,7 +23,7 @@ def replace(self, place_holder, new_value):
 | place_holder | str | Cell Platzhalter|
 | new_value | str | Zu ersetzender Zeichenfolgenwert|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook
@@ -51,7 +51,7 @@ def replace(self, place_holder, new_value):
 | place_holder | str | Cell Platzhalter|
 | new_value | int | Zu ersetzender ganzzahliger Wert|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook
@@ -80,7 +80,7 @@ def replace(self, place_holder, new_value):
 | place_holder | str | Cell Platzhalter|
 | new_value | float | Doppelter Wert zum Ersetzen|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook
@@ -107,7 +107,7 @@ def replace(self, bool_value, new_value):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | bool_value | bool | Der zu ersetzende boolesche Wert.|
-| new_value | any |Neuer Wert. Kann ein String-, Integer-, Double- oder DateTime-Wert sein.|
+| new_value | any | Neuer Wert. Kann ein String-, Integer-, Double- oder DateTime-Wert sein.|
 
 
 ##  replace(int_value, new_value) {#int-any}
@@ -124,7 +124,7 @@ def replace(self, int_value, new_value):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | int_value | int | Der zu ersetzende ganzzahlige Wert.|
-| new_value | any |Neuer Wert. Kann ein String-, Integer-, Double- oder DateTime-Wert sein.|
+| new_value | any | Neuer Wert. Kann ein String-, Integer-, Double- oder DateTime-Wert sein.|
 
 
 ##  replace(place_holder, new_values, is_vertical) {#str-list-bool}
@@ -142,9 +142,9 @@ def replace(self, place_holder, new_values, is_vertical):
 | :- | :- | :- |
 | place_holder | str | Cell Platzhalter|
 | new_values | list | Zu ersetzendes String-Array|
-| is_vertical | bool | True – Vertikal, False – Horizontal|
+| is_vertical | bool | Wahr-Vertikal, Falsch-Horizontal|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook
@@ -172,9 +172,9 @@ def replace(self, place_holder, new_values, is_vertical):
 | :- | :- | :- |
 | place_holder | str | Cell Platzhalter|
 | new_values | list | Zu ersetzendes Integer-Array|
-| is_vertical | bool | True – Vertikal, False – Horizontal|
+| is_vertical | bool | Wahr-Vertikal, Falsch-Horizontal|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook
@@ -202,9 +202,9 @@ def replace(self, place_holder, new_values, is_vertical):
 | :- | :- | :- |
 | place_holder | str | Cell Platzhalter|
 | new_values | list | Double-Array zu ersetzen|
-| is_vertical | bool | True – Vertikal, False – Horizontal|
+| is_vertical | bool | Wahr-Vertikal, Falsch-Horizontal|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

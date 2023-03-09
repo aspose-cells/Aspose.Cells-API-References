@@ -11,7 +11,7 @@ is_root: false
 
 Yorumun row dizinini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

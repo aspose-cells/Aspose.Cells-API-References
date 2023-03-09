@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.pivot/pivottable/remove_field/
 is_root: false
 ---
 ##  remove_field(field_type, field_name) {#PivotFieldType-str}
-يزيل حقل من منطقة حقل معينة
+يزيل حقلاً من منطقة حقل معينة
 
 
 
@@ -18,14 +18,14 @@ def remove_field(self, field_type, field_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldtype) | نوع منطقة الحقول.|
-| field_name | str |الاسم في الحقول الأساسية.|
+| field_name | str | الاسم في الحقول الأساسية.|
 
 
 ##  remove_field(field_type, base_field_index) {#PivotFieldType-int}
-يزيل حقل من منطقة حقل معينة
+يزيل حقلاً من منطقة حقل معينة
 
 
 
@@ -35,7 +35,7 @@ def remove_field(self, field_type, base_field_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldtype) | نوع منطقة الحقول.|
 | base_field_index | int | فهرس المجال في الحقول الأساسية.|
@@ -52,7 +52,7 @@ def remove_field(self, field_type, pivot_field):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldtype) | نوع منطقة الحقول.|
 | pivot_field | [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) | الحقل في الحقول الأساسية.|

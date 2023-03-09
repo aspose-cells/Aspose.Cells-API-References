@@ -1,6 +1,6 @@
 ﻿---
 title: put_value方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
@@ -18,7 +18,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | string_value | str |输入值|
 | is_converted | bool | True：如果合适，转换为其他数据类型。|

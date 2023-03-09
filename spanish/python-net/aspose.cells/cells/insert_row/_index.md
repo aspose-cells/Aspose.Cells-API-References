@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/cells/insert_row/
 is_root: false
 ---
 ##  insert_row(row_index) {#int}
-Inserta una nueva fila en la hoja de trabajo.
+Inserta una nueva fila en la hoja de cálculo.
 
 
 
@@ -18,7 +18,7 @@ def insert_row(self, row_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row_index | int | Índice de fila.|
 

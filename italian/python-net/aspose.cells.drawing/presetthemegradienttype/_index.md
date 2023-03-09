@@ -21,7 +21,7 @@ Il tipo PresetThemeGradientType espone i membri seguenti:
 | TOP_SPOTLIGHT | In primo piano|
 | MEDIUM_GRADIENT | Pendenza media|
 | BOTTOM_SPOTLIGHT | Riflettore inferiore|
-| RADIAL_GRADIENT |Gradiente radiale|
+| RADIAL_GRADIENT | Gradiente radiale|
 
 
 

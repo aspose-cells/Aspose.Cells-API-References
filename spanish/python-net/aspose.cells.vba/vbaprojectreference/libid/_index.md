@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  libid propiedad
 
-Obtiene y establece la Libid de la referencia.
+Obtiene y establece la libido de la referencia.
 ###  Definición:
 ```python
 @property

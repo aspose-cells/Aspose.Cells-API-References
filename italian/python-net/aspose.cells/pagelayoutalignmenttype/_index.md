@@ -19,7 +19,7 @@ Il tipo PageLayoutAlignmentType espone i membri seguenti:
 | :- | :- |
 | BOTTOM | Rappresenta l'allineamento del layout di pagina inferiore.|
 | CENTER | Rappresenta l'allineamento del layout della pagina centrale.|
-| LEFT | Rappresenta l'allineamento del layout di pagina a sinistra.|
+| LEFT |Rappresenta l'allineamento del layout di pagina a sinistra.|
 | RIGHT | Rappresenta l'allineamento del layout di pagina a destra.|
 | TOP | Rappresenta l'allineamento del layout della pagina superiore.|
 

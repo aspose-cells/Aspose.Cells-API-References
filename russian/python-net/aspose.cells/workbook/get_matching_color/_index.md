@@ -22,7 +22,7 @@ def get_matching_color(self, raw_color):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | raw_color | aspose.pydrawing.Color | Сырой цвет.|
 

@@ -24,10 +24,10 @@ Der Typ WorkbookDesigner macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [workbook](/cells/de/python-net/aspose.cells/workbookdesigner/workbook) | Ruft das Objekt [WorkbookDesigner.workbook](/cells/de/python-net/aspose.cells/workbookdesigner#workbook) ab und legt es fest.|
-| [repeat_formulas_with_subtotal](/cells/de/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Gibt an, ob sich Formeln mit Zwischensummenzeile wiederholen.|
+| [workbook](/cells/de/python-net/aspose.cells/workbookdesigner/workbook) |Ruft das Objekt [WorkbookDesigner.workbook](/cells/de/python-net/aspose.cells/workbookdesigner#workbook) ab und legt es fest.|
+| [repeat_formulas_with_subtotal](/cells/de/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Gibt an, ob Formeln mit Zwischensummenzeilen wiederholt werden.|
 | [update_empty_string_as_null](/cells/de/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | Wenn TRUE, wird Null eingefügt, wenn der Wert "" ist;|
-| [update_reference](/cells/de/python-net/aspose.cells/workbookdesigner/update_reference) | Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
+| [update_reference](/cells/de/python-net/aspose.cells/workbookdesigner/update_reference) |Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
 | [calculate_formula](/cells/de/python-net/aspose.cells/workbookdesigner/calculate_formula) | Gibt an, ob Formeln berechnet werden sollen.|
 | [call_back](/cells/de/python-net/aspose.cells/workbookdesigner/call_back) | Ruft die Callback-Schnittstelle der Smartmarker-Verarbeitung ab und legt sie fest.|
 | [line_by_line](/cells/de/python-net/aspose.cells/workbookdesigner/line_by_line) | Gibt an, ob die intelligente Markierung Zeile für Zeile verarbeitet wird.|
@@ -46,7 +46,7 @@ Der Typ WorkbookDesigner macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook, WorkbookDesigner

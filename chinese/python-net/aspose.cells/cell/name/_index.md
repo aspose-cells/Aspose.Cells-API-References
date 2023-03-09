@@ -1,6 +1,6 @@
 ﻿---
 title: name 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 630
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-单元格 name 包括其列字母和行号。例如0行0列的单元格name为A1。
+name单元格包括它的列字母和行号，例如0行0列的单元格name是A1。
 ### 定义：
 ```python
 @property

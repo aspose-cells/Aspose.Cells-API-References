@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/colortype/
 is_root: false
 ---
 ##  ColorType enumeración
-Representa todo tipo de color.
+Representa todos los tipos de color.
 
 
 

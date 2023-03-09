@@ -11,7 +11,7 @@ is_root: false
 
 Représente le décalage horizontal de la forme par rapport à sa colonne left, en pixels.
 
-###  Exemple
+###  Exemples
 
 ```python
 

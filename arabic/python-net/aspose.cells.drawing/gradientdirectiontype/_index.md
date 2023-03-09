@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | FROM_UPPER_LEFT_CORNER | FromUpperLeftCorner|
-| FROM_UPPER_RIGHT_CORNER | FromUpperRightCorner|
+| FROM_UPPER_RIGHT_CORNER | من الزاوية اليمنى العليا|
 | FROM_LOWER_LEFT_CORNER | FromLowerLeftCorner|
 | FROM_LOWER_RIGHT_CORNER | FromLowerRightCorner|
 | FROM_CENTER | FromCenter|

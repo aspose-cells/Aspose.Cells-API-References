@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-يضيف وحدة لورقة العمل.
+يضيف وحدات نمطية لورقة العمل.
 
 
 ###  عائدات
@@ -22,7 +22,7 @@ def add(self, sheet):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) | ورقة العمل|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [VbaModuleType](/cells/ar/python-net/aspose.cells.vba/vbamoduletype) | نوع الوحدة.|
 | name | str | اسم الوحدة.|

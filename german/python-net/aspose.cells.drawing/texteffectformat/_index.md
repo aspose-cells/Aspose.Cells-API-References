@@ -33,7 +33,7 @@ Der Typ TextEffectFormat macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

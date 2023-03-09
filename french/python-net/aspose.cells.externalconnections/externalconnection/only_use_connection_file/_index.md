@@ -11,7 +11,7 @@ is_root: false
 
  Indique si le tableur doit toujours et uniquement utiliser le
  informations de connexion dans le fichier de connexion externe indiqué par l'attribut odcFile
- lorsque la connexion est actualisée. Si false, alors l'application de feuille de calcul
+ lors de l'actualisation de la connexion. Si false, l'application de tableur
 doit suivre la procédure indiquée par l'attribut reconnectionMethod
 ###  Définition:
 ```python

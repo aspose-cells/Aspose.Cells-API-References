@@ -1,5 +1,5 @@
 ﻿---
-title: PowerQueryFormulaParameter sınıf
+title: PowerQueryFormulaParameter sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 70
 url: /tr/python-net/aspose.cells.querytables/powerqueryformulaparameter/
 is_root: false
 ---
-##  PowerQueryFormulaParameter sınıf
+##  PowerQueryFormulaParameter sınıfı
 Güç sorgu formülünün parametresini temsil eder.
 
 

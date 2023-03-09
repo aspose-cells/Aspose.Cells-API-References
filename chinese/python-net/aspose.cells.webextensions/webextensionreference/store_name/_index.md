@@ -1,6 +1,6 @@
 ﻿---
 title: store_name 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## store_name 属性
 
-获取和设置存储 Office 加载项的市场实例。 .
+获取和设置存储 Office 加载项的市场实例。
 ### 定义：
 ```python
 @property

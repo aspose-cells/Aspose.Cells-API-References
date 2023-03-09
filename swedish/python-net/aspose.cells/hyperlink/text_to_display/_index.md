@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display fastighet
 
-Representerar texten som ska visas för den angivna hyperlänken. Standardvärdet är adressen till hyperlänken.
+Representerar texten som ska visas för den angivna hyperlänken.
 ###  Definition:
 ```python
 @property

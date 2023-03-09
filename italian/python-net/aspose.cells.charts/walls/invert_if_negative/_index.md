@@ -12,7 +12,7 @@ is_root: false
 Se la proprietà è vera e il valore del punto del grafico è un numero negativo,
 il colore di primo piano e il colore di sfondo verranno scambiati.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

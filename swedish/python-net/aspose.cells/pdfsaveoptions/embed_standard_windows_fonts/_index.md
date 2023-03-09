@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  embed_standard_windows_fonts fastighet
 
- True att bädda in true type-teckensnitt.
+True att bädda in true type-teckensnitt.
 Påverkar endast ASCII-tecken 32-127.
 Teckensnitt för teckenkoder större än 127 är alltid inbäddade.
 Teckensnitt är alltid inbäddade för PDF/A-1a, PDF/A-1b standard.

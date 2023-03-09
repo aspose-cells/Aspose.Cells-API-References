@@ -19,20 +19,20 @@ is_root: false
 | [RevisionCellMove](/cells/it/python-net/aspose.cells.revisions/revisioncellmove) | Rappresenta un record di revisione su una o più celle che sono state spostate.|
 | [RevisionCollection](/cells/it/python-net/aspose.cells.revisions/revisioncollection) | Rappresenta tutti i registri di revisione.|
 | [RevisionCustomView](/cells/it/python-net/aspose.cells.revisions/revisioncustomview) | Rappresenta un record di revisione dell'aggiunta o rimozione di una visualizzazione personalizzata alla cartella di lavoro|
-| [RevisionDefinedName](/cells/it/python-net/aspose.cells.revisions/revisiondefinedname) |Rappresenta un record di revisione di una modifica di nome definita.|
+| [RevisionDefinedName](/cells/it/python-net/aspose.cells.revisions/revisiondefinedname) | Rappresenta un record di revisione di una modifica di nome definita.|
 | [RevisionFormat](/cells/it/python-net/aspose.cells.revisions/revisionformat) | Rappresenta un record di revisione delle informazioni su una modifica della formattazione.|
 | [RevisionHeader](/cells/it/python-net/aspose.cells.revisions/revisionheader) | Rappresenta un elenco di modifiche specifiche apportate a questa cartella di lavoro.|
 | [RevisionInsertDelete](/cells/it/python-net/aspose.cells.revisions/revisioninsertdelete) | Rappresenta un record di revisione di un'azione di inserimento/eliminazione riga/colonna.|
 | [RevisionInsertSheet](/cells/it/python-net/aspose.cells.revisions/revisioninsertsheet) | Rappresenta un record di revisione di un foglio che è stato inserito.|
-| [RevisionLog](/cells/it/python-net/aspose.cells.revisions/revisionlog) | Rappresenta il registro delle revisioni.|
+| [RevisionLog](/cells/it/python-net/aspose.cells.revisions/revisionlog) |Rappresenta il registro delle revisioni.|
 | [RevisionLogCollection](/cells/it/python-net/aspose.cells.revisions/revisionlogcollection) | Rappresenta tutti i registri di revisione.|
 | [RevisionMergeConflict](/cells/it/python-net/aspose.cells.revisions/revisionmergeconflict) | Rappresenta un record di revisione che indica che si è verificato un conflitto di unione.|
 | [RevisionQueryTable](/cells/it/python-net/aspose.cells.revisions/revisionquerytable) | Rappresenta una revisione di una modifica del campo della tabella di query.|
-| [RevisionRenameSheet](/cells/it/python-net/aspose.cells.revisions/revisionrenamesheet) | Rappresenta una revisione della ridenominazione del foglio.|
+| [RevisionRenameSheet](/cells/it/python-net/aspose.cells.revisions/revisionrenamesheet) | Rappresenta una revisione del foglio di ridenominazione.|
 
 
 ###  Enumerazioni
-| Enumerazione| Descrizione|
+|Enumerazione| Descrizione|
 | :- | :- |
 | [RevisionActionType](/cells/it/python-net/aspose.cells.revisions/revisionactiontype) | Rappresenta il tipo di azione di revisione.|
 | [RevisionType](/cells/it/python-net/aspose.cells.revisions/revisiontype) | Rappresenta il tipo di revisione.|

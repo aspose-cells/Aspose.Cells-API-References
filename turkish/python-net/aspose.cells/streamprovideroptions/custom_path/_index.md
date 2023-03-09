@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  custom_path mülk
 
-Başvurulan kaynak için oluşturulan html dosyasına kaydedilen kullanıcı özel yolu (URL). Kullanıcı tarafından tanımlanmamışsa, DefaultPath kullanılacaktır.
+Başvurulan kaynak için oluşturulan html dosyasına kaydedilen kullanıcı özel yolu (URL).
 Örneğin, sayfa verileri kullanıcı tarafından d:/sheet001.htm'ye kaydedilecek, ana html dosyasında kullanılan url "d:/sheet001.htm" veya ana html tarafından erişilebilen diğer geçerli göreli yol olmalıdır. dosya.
 ###  Tanım:
 ```python

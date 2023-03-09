@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_reference propriété
 
-Cell référence indiquant quelle valeur de cellule utiliser pour le paramètre de requête. Utilisé uniquement lorsque parameterType est cell.
+Référence Cell indiquant la valeur de cellule à utiliser pour le paramètre de requête. Utilisé uniquement lorsque type de paramètre est cellule.
 ###  Définition:
 ```python
 @property

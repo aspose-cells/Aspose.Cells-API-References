@@ -11,7 +11,7 @@ is_root: false
 
 Indica se i margini dell'intestazione e del piè di pagina sono allineati ai margini della pagina.
 Se questa proprietà è true, l'intestazione e il piè di pagina di sinistra saranno allineati con il margine sinistro,
-e l'intestazione e il piè di pagina di destra saranno allineati con il margine destro.
+l'intestazione e il piè di pagina di destra saranno allineati con il margine destro.
 Questa opzione è abilitata per impostazione predefinita.
 ###  Definizione:
 ```python

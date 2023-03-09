@@ -10,7 +10,7 @@ is_root: false
 ##  column_range fastighet
 
 Returnerar ett CellArea-objekt som representerar intervallet
-som innehåller kolumnområdet i pivottabellrapporten. Skrivskyddad.
+som innehåller kolumnområdet i pivottabellrapporten.
 ###  Definition:
 ```python
 @property

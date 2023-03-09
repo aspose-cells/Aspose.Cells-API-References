@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die ursprüngliche Breite des Bildes ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

@@ -24,7 +24,7 @@ Der Typ InsertOptions macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [copy_format_type](/cells/de/python-net/aspose.cells/insertoptions/copy_format_type) |  |
-| [update_reference](/cells/de/python-net/aspose.cells/insertoptions/update_reference) | Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
+| [update_reference](/cells/de/python-net/aspose.cells/insertoptions/update_reference) |Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
 
 
 

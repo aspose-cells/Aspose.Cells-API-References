@@ -18,9 +18,9 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | NONE | Не форматируется.|
-| CELL_STYLE |Отформатировано только в исходном стиле ячейки.|
+| CELL_STYLE | Отформатировано только в исходном стиле ячейки.|
 | DISPLAY_STYLE | Форматируется в соответствии со стилем отображения ячейки.|
-| DISPLAY_STRING | Получает отображаемую строку, показанную в MS Excel.<br/>Основное отличие от [CellValueFormatStrategy.DISPLAY_STYLE](/cells/ru/python-net/aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE) в том, что этот параметр также учитывает влияние ширины столбца.<br/>Если ширина столбца слишком мала для полного отображения отформатированной строки,<br/> Может отображаться «#», как это делает ms excel.|
+| DISPLAY_STRING | Получает отображаемую строку, показанную в MS Excel.<br/>Основное отличие от [CellValueFormatStrategy.DISPLAY_STYLE](/cells/ru/python-net/aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE) в том, что этот параметр также учитывает влияние ширины столбца.<br/>Если ширина столбца слишком мала для полного отображения отформатированной строки,<br/>Может отображаться «#», как это делает ms excel.|
 
 
 

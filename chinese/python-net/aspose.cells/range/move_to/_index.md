@@ -1,6 +1,6 @@
 ﻿---
 title: move_to方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 140
@@ -18,7 +18,7 @@ def move_to(self, dest_row, dest_column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | dest_row | int |目标范围的起始行。|
 | dest_column | int |目标范围的起始列。|

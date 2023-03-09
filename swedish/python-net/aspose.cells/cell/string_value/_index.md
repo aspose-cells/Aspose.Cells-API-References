@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  string_value fastighet
 
-Hämtar strängvärdet som finns i cellen. Om typen av denna cell är sträng, returnera själva strängvärdet.
+Hämtar strängvärdet som finns i cellen.
 För andra celltyper kommer det formaterade strängvärdet (formaterat med den angivna stilen för denna cell) att returneras.
-Det formaterade cellvärdet är samma som det du kan få från Excel när du kopierar en cell som text (t.ex
+Det formaterade cellvärdet är detsamma som det du kan få från excel när du kopierar en cell som text (t.ex
 kopiera cell till textredigerare eller exportera till csv).
 ###  Definition:
 ```python

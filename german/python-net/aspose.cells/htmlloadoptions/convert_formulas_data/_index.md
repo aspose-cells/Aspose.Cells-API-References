@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_formulas_data Eigentum
 
-Wenn wahr, String in Formel umwandeln, wenn der Stringwert mit dem Zeichen „=“ beginnt, der Standardwert ist „false“.
+Wenn wahr, Zeichenfolge in Formel konvertieren, wenn der Zeichenfolgenwert mit dem Zeichen „=“ beginnt, ist der Standardwert falsch.
 ###  Definition:
 ```python
 @property

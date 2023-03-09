@@ -25,7 +25,7 @@ def get_enumerator(self):
 ###  Osservazioni
 
 Quando si attraversano gli elementi dall'enumeratore restituito, la raccolta di celle
-non deve essere modificato (come le operazioni che provocheranno la creazione di un'istanza del nuovo Cell/Row o l'eliminazione di Cell/Row esistente).
+non deve essere modificato (come le operazioni che causeranno la creazione di un'istanza del nuovo Cell/Row o l'eliminazione di Cell/Row esistente).
 In caso contrario, l'enumeratore potrebbe non essere in grado di attraversare correttamente tutte le celle (alcuni elementi potrebbero essere attraversati ripetutamente o ignorati).
 
 

@@ -13,7 +13,7 @@ Ottiene o imposta il valore della casella di controllo.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
  si prega di utilizzare la proprietà CheckBox.CheckValueType.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.

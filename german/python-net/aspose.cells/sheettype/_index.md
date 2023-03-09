@@ -17,13 +17,13 @@ Der Typ SheetType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| VB | Visual Basic-Modul|
+| VB | Visual Basic-Module|
 | WORKSHEET |  |
 | CHART | Diagramm|
 | BIFF4_MACRO | BIFF4-Makroblatt|
 | INTERNATIONAL_MACRO | Internationales Makroblatt|
 | OTHER |  |
-| DIALOG | Dialogarbeitsblatt|
+| DIALOG |Arbeitsblatt Dialog|
 
 
 

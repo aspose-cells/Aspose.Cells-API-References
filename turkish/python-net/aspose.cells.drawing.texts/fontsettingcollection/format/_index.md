@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/
 is_root: false
 ---
 ##  format(start_index, length, font, flag) {#int-int-Font-StyleFlag}
-Metni yazı tipi ayarıyla biçimlendirin.
+Metni yazı tipi ayarlarıyla biçimlendirin.
 
 
 
@@ -18,7 +18,7 @@ def format(self, start_index, length, font, flag):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_index | int | Başlangıç dizini.|
 | length | int | Uzunluk.|

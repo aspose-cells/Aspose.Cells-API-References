@@ -17,9 +17,9 @@ Il tipo CopyFormatType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| SAME_AS_ABOVE | Formati come la riga precedente.|
+| SAME_AS_ABOVE |Formati come la riga precedente.|
 | SAME_AS_BELOW | Formati come sotto la riga.|
-| CLEAR | Cancella la formattazione.|
+| CLEAR | Formattazione chiara.|
 
 
 

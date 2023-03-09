@@ -13,7 +13,7 @@ Gibt den vollständigen Quellnamen der Quelldatei für das verknüpfte OLE-Objek
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die OleObject.ObjectSourceFullName-Eigenschaft.
  Diese Property wird 12 Monate später seit November 2013 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

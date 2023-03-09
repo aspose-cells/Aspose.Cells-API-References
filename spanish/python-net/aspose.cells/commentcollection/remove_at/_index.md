@@ -18,11 +18,11 @@ def remove_at(self, cell_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | cell_name | str | El nombre de la celda que contiene un comentario.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 
@@ -42,12 +42,12 @@ def remove_at(self, row, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | El índice de fila.|
 | column | int | el índice de la columna.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

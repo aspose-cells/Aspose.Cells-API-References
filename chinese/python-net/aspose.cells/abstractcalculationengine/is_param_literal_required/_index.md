@@ -1,6 +1,6 @@
 ﻿---
 title: is_param_literal_required 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_param_literal_required 属性
 
-指示该引擎在计算时是否需要参数的文字文本。默认值为假。
+指示该引擎在计算时是否需要参数的文字文本。默认值为false。
 
 ### 评论
 

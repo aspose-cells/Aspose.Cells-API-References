@@ -22,9 +22,9 @@ def equals(self, font):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| font | [Font](/cells/tr/python-net/aspose.cells/font) | Karşılaştırılan yazı tipi nesnesi.|
+| font | [Font](/cells/tr/python-net/aspose.cells/font) |Karşılaştırılan yazı tipi nesneleri.|
 
 
 

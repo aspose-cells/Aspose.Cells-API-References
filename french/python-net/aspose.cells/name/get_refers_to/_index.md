@@ -18,7 +18,7 @@ def get_refers_to(self, is_r1c1, is_local):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_r1c1 | bool | Indique si la référence doit être formatée en tant que R1C1.|
 | is_local | bool | Indique si la référence doit être formatée par les paramètres régionaux.|
@@ -35,11 +35,11 @@ def get_refers_to(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_r1c1 | bool | Indique si la référence doit être formatée en tant que R1C1.|
 | is_local | bool | Indique si la référence doit être formatée par les paramètres régionaux.|
-| row | int |Index de ligne de la cellule.|
+| row | int | Index de ligne de la cellule.|
 | column | int | Index de colonne de la cellule.|
 
 

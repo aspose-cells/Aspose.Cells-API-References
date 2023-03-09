@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_inch propiedad
 
-La altura de la ventana, en unidades de pulgada.
+La altura de la ventana, en unidades de pulgadas.
 ###  Definición:
 ```python
 @property

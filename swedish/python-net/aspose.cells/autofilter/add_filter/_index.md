@@ -18,7 +18,7 @@ def add_filter(self, field_index, criteria):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | field_index | int | Heltalsoffset för fältet som du vill basera filtret på<br/> (från vänster i listan; fältet längst till vänster är fält 0).|
 | criteria | str | De angivna kriterierna (en sträng; till exempel "101").<br/> Det kan bara vara null eller vara ett av cellernas värde i den här kolumnen.|

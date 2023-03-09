@@ -28,7 +28,7 @@ Le type ThemeColor expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import BackgroundType, ThemeColor, ThemeColorType, Workbook

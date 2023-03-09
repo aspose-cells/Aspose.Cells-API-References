@@ -31,7 +31,7 @@ def delete_blank_columns(self, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/sv/python-net/aspose.cells/deleteoptions) | Alternativen för att ta bort intervall.|
 

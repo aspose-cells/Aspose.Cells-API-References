@@ -11,7 +11,7 @@ is_root: false
 
 Bir resmin kenar çizgisinin ağırlığını pt birimi cinsinden alır veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

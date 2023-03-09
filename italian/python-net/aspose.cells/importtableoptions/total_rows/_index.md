@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_rows proprietà
 
-Ottiene o imposta il conteggio totale delle righe da importare dall'origine dati. -1 indica tutte le righe di una determinata origine dati.
+-1 indica tutte le righe di una determinata origine dati.
 ###  Definizione:
 ```python
 @property

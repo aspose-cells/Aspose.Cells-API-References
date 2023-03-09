@@ -13,7 +13,7 @@ Bir çalışma sayfasını kaydetmeye başlar.
 
 ###  İadeler
 
-true bu sağlayıcı verilen sayfa için veri sağlayacaksa; false eğer verilen sayfa normal veri modelini kullanmalıdır(Cells).
+Bu sağlayıcı verilen sayfa için veri sağlayacaksa true ; verilen sayfanın normal veri modelini kullanması gerekiyorsa false (Cells).
 
 
 ```python
@@ -22,7 +22,7 @@ def start_sheet(self, sheet_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet_index | int | kaydedilecek geçerli sayfanın dizini.|
 ###  Notlar

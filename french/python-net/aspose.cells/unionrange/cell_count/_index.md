@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_count propriété
 
-Obtient tout le nombre de cellules dans la plage.
+Obtient tous les nombres de cellules dans la plage.
 ###  Définition:
 ```python
 @property

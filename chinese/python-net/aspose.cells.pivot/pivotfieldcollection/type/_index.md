@@ -1,6 +1,6 @@
 ﻿---
 title: type 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## type 属性
 
-获取 PivotFields type。
+获取数据透视字段 type。
 ### 定义：
 ```python
 @property

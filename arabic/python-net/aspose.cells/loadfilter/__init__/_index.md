@@ -31,7 +31,7 @@ def __init__(self, opts):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | opts | [LoadDataFilterOptions](/cells/ar/python-net/aspose.cells/loaddatafilteroptions) | خيارات التصفية الافتراضية|
 

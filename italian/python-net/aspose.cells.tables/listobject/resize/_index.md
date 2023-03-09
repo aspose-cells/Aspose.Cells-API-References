@@ -18,7 +18,7 @@ def resize(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | L'indice di riga iniziale del nuovo intervallo.|
 | start_column | int | L'indice di colonna iniziale del nuovo intervallo.|

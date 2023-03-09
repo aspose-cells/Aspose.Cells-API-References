@@ -13,8 +13,8 @@ Indica se l'utente è autorizzato a manipolare le tabelle pivot in un foglio di 
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
- utilizzare la proprietà Protection.AllowUsingPivotTable.
+ NOTA: questo membro è ora obsoleto.
+ si prega di utilizzare la protezione Consenti l'utilizzo della proprietà PivotTable.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

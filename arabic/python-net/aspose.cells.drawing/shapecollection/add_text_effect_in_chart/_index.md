@@ -22,16 +22,16 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| effect | [MsoPresetTextEffect](/cells/ar/python-net/aspose.cells.drawing/msopresettexteffect) | نوع تأثير النص المعين مسبقًا mso.|
+| effect | [MsoPresetTextEffect](/cells/ar/python-net/aspose.cells.drawing/msopresettexteffect) | نوع تأثير النص المعد مسبقًا mso.|
 | text | str | نص WordArt.|
 | font_name | str | اسم الخط.|
 | size | int | حجم الخط|
 | font_bold | bool | يشير إلى ما إذا كان الخط غامقًا أم لا.|
 | font_italic | bool | يشير إلى ما إذا كان الخط مائلاً.|
-| top | int | يمثل الإزاحة الرأسية للشكل من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.|
-| left | int | يمثل الإزاحة الرأسية للشكل من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.|
+| top | int |يمثل الإزاحة الرأسية للشكل من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.|
+| left | int |يمثل الإزاحة الرأسية للشكل من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.|
 | height | int | يمثل ارتفاع الشكل بوحدات 1/4000 من منطقة المخطط.|
 | width | int | يمثل عرض الشكل بوحدات 1/4000 من مساحة الرسم البياني.|
 

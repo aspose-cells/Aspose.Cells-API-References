@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene la lista de comentarios encadenados;
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

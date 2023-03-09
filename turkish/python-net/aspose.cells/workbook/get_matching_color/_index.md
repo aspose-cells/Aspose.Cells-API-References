@@ -22,7 +22,7 @@ def get_matching_color(self, raw_color):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | raw_color | aspose.pydrawing.Color | Ham renk.|
 

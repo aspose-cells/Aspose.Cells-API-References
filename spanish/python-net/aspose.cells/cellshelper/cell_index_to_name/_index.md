@@ -22,7 +22,7 @@ def cell_index_to_name(self, row, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila.|
 | column | int | Índice de columnas.|

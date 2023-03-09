@@ -14,7 +14,7 @@ Varsayılan değer yanlıştır.
 
 ###  Notlar
 
-Yalnızca Excel Xlsx, Xltx, Xltm , Xlsm ve xlsb dosyası için geçerlidir
+Yalnızca Excel Xlsx, Xltx, Xltm , Xlsm ve xlsb dosyaları için geçerlidir
 ###  Tanım:
 ```python
 @property

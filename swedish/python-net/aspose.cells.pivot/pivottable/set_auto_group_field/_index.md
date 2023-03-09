@@ -18,7 +18,7 @@ def set_auto_group_field(self, base_field_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | base_field_index | int | Rad- eller kolumnfältindex i basfälten|
 
@@ -34,7 +34,7 @@ def set_auto_group_field(self, pivot_field):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) | Rad- eller kolumnfältet i de specifika fälten|
 

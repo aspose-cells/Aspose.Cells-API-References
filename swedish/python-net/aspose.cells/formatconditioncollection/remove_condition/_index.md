@@ -18,7 +18,7 @@ def remove_condition(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Indexet för formateringsvillkoret som ska tas bort.|
 

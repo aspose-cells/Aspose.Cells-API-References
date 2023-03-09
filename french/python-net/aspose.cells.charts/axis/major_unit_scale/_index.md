@@ -11,7 +11,7 @@ is_root: false
 
 Représente l'échelle des unités principales pour l'axe des abscisses.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

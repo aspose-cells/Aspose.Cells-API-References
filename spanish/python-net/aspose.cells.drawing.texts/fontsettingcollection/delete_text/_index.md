@@ -18,7 +18,7 @@ def delete_text(self, index, count):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | El índice de inicio.|
 | count | int | El recuento de caracteres.|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preferred_parsers fastighet
 
-Hämtar och ställer in föredragna värdeparsers för att ladda textfil.
+Hämtar och ställer in föredragna värdeparsers för att ladda textfiler.
 
 ###  Anmärkningar
 

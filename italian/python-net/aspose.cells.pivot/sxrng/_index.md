@@ -17,7 +17,7 @@ Il tipo SxRng espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [is_auto_start](/cells/it/python-net/aspose.cells.pivot/sxrng/is_auto_start) |Specifica un valore booleano che indica se l'applicazione utilizzerà i dati di origine per impostare il valore dell'intervallo iniziale.|
+| [is_auto_start](/cells/it/python-net/aspose.cells.pivot/sxrng/is_auto_start) | Specifica un valore booleano che indica se l'applicazione utilizzerà i dati di origine per impostare il valore dell'intervallo iniziale.|
 | [is_auto_end](/cells/it/python-net/aspose.cells.pivot/sxrng/is_auto_end) | Specifica un valore booleano che indica se l'applicazione utilizzerà i dati di origine per impostare il valore dell'intervallo finale.|
 | [start](/cells/it/python-net/aspose.cells.pivot/sxrng/start) | Rappresenta l'oggetto iniziale per l'intervallo di gruppi.|
 | [end](/cells/it/python-net/aspose.cells.pivot/sxrng/end) | Rappresenta l'oggetto finale per l'intervallo di gruppi.|

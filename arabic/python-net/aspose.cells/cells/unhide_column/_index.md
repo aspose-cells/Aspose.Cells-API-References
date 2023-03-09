@@ -18,7 +18,7 @@ def unhide_column(self, column, width):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود.|
 | width | float | عرض العمود.|

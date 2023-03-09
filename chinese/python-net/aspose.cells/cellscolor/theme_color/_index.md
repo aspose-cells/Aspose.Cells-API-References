@@ -1,6 +1,6 @@
 ﻿---
 title: theme_color 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## theme_color 属性
 
-获取主题颜色。仅适用于主题颜色类型。
+获取主题颜色。
 ### 定义：
 ```python
 @property

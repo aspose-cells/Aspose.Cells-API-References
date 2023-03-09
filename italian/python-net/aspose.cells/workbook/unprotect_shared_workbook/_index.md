@@ -18,7 +18,7 @@ def unprotect_shared_workbook(self, password):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | password | str | Password per rimuovere la protezione della cartella di lavoro.|
 

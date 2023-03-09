@@ -18,9 +18,9 @@ def remove_a_cell(self, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| row | int |Cellens radindex.|
+| row | int | Cellens radindex.|
 | column | int | Kolumnindex för cellen.|
 
 

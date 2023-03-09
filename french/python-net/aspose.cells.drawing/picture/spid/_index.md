@@ -11,7 +11,7 @@ is_root: false
 
 Spécifie une chaîne facultative qu'une application peut utiliser pour identifier la forme particulière.
 
-###  Exemple
+###  Exemples
 
 ```python
 

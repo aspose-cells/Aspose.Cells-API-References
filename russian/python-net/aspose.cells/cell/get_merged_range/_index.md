@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-[Range](/cells/ru/python-net/aspose.cells/range) объект. Null, если эта ячейка не объединена.
+Объект [Range](/cells/ru/python-net/aspose.cells/range). Нулевой, если эта ячейка не объединена.
 
 
 ```python

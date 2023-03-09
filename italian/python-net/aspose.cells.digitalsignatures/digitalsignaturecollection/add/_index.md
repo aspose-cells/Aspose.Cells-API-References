@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/ad
 is_root: false
 ---
 ##  add(digital_signature) {#DigitalSignature}
-Aggiungi una firma a DigitalSignatureCollection.
+Aggiungi una firma alla raccolta firme digitali.
 
 
 
@@ -18,7 +18,7 @@ def add(self, digital_signature):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | digital_signature | [DigitalSignature](/cells/it/python-net/aspose.cells.digitalsignatures/digitalsignature) | Firma digitale in collezione.|
 

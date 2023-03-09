@@ -1,6 +1,6 @@
 ﻿---
 title: get_icon_image_data方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def get_icon_image_data(self, type, index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [IconSetType](/cells/zh/python-net/aspose.cells/iconsettype) |图标的类型|
 | index | int |图标索引|

@@ -67,7 +67,7 @@ def create_range(self, first_index, number, is_vertical):
 | :- | :- | :- |
 | first_index | int | Index der ersten Zeile oder Index der ersten Spalte, nullbasiert.|
 | number | int | Gesamtzahl der Zeilen oder Spalten, basierend auf einer.|
-| is_vertical | bool | True – Bereich, der aus Zellenspalten erstellt wurde. False – Bereich, der aus Zeilen von Zellen erstellt wurde.|
+| is_vertical | bool | True – Bereich, der aus Zellenspalten erstellt wurde.|
 
 
 ##  create_range(first_row, first_column, total_rows, total_columns) {#int-int-int-int}

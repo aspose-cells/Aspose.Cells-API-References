@@ -15,7 +15,7 @@ Représente le décalage vertical de la forme par rapport à sa ligne top, en pi
 
 Si la forme est dans le graphique, représente le décalage vertical de la forme par rapport à sa bordure top.
 
-###  Exemple
+###  Exemples
 
 ```python
 

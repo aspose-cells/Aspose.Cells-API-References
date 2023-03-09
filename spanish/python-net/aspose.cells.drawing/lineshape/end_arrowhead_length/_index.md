@@ -13,7 +13,7 @@ Obtiene y establece la longitud de la punta de flecha final de la línea.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
  utilice la propiedad Shape.Line.EndArrowheadLength.
  Esta propiedad se eliminará 12 meses después desde agosto de 2016.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

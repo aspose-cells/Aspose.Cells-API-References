@@ -31,7 +31,7 @@ Le type LoadFilter expose les membres suivants :
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [start_sheet(sheet)](/cells/fr/python-net/aspose.cells/loadfilter/start_sheet/#Worksheet) | Prépare les options de filtre avant de charger la feuille de calcul donnée.<br/>L'implémentation de LoadFilter par l'utilisateur peut modifier les LoadDataFilterOptions ici<br/> pour indiquer comment charger les données pour cette feuille de calcul.|
+| [start_sheet(sheet)](/cells/fr/python-net/aspose.cells/loadfilter/start_sheet/#Worksheet) | Prépare les options de filtre avant de charger une feuille de calcul donnée.<br/>L'implémentation de LoadFilter par l'utilisateur peut modifier les LoadDataFilterOptions ici<br/> pour indiquer comment charger les données pour cette feuille de calcul.|
 
 
 

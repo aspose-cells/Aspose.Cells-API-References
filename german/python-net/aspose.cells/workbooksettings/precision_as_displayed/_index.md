@@ -13,7 +13,7 @@ True, wenn Berechnungen in dieser Arbeitsmappe nur mit der Genauigkeit der angez
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte FormulaSettings.PrecisionAsDisplayed.
+HINWEIS: Dieser Member ist jetzt veraltet. Verwenden Sie stattdessen FormulaSettings.PrecisionAsDisplayed.
  Diese Property wird 12 Monate später seit Februar 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

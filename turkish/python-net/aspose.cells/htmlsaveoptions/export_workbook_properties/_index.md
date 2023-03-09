@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_workbook_properties mülk
 
-Çalışma kitabı özelliklerinin dışa aktarılıp aktarılmadığını belirtir. Varsayılan değer true'dur. Almak istiyorsanız
+ Çalışma kitabı özelliklerinin dışa aktarılıp aktarılmadığını belirtir. Varsayılan değer true'dur. Almak istiyorsanız
 html veya mht dosyasını excel'e gönderirken, lütfen varsayılan değeri koruyun.
 ###  Tanım:
 ```python

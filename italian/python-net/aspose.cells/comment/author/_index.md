@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il nome del commento originale author
 
-###  Esempio
+###  Esempi
 
 ```python
 

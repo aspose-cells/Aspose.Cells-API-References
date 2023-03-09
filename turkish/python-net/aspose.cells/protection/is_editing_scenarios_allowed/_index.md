@@ -13,8 +13,8 @@ Kullanıcının korumalı bir çalışma sayfasındaki senaryoları düzenlemesi
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
- lütfen Protection.AllowEditingScenario özelliğini kullanın.
+ NOT: Bu üye artık kullanılmıyor.
+ lütfen Koruma Senaryo Düzenlemeye İzin Ver özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

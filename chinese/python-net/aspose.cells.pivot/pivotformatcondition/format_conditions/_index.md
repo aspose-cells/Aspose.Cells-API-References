@@ -1,6 +1,6 @@
 ﻿---
 title: format_conditions 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## format_conditions 属性
 
-获取数据透视表条件格式的格式条件。
+获取数据透视表条件 format 的格式条件。
 ### 定义：
 ```python
 @property

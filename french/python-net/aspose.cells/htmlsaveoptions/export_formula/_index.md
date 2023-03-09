@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_formula propriété
 
-Indique si la formule est exportée lors de l'enregistrement du fichier au format HTML. La valeur par défaut est true.
+Indique si la formule est exportée lors de l'enregistrement du fichier au format HTML.
 Si vous souhaitez importer la sortie html vers Excel, veuillez conserver la valeur par défaut.
 ###  Définition:
 ```python

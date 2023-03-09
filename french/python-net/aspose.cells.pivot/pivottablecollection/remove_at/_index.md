@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | l'index de position dans la collection PivotTable|
 | keep_data | bool | Si vous souhaitez conserver les données du tableau croisé dynamique|

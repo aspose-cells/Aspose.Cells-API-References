@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece la configuración del texto de la forma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

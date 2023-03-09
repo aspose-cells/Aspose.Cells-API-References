@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.drawing/gradientfilltype/
 is_root: false
 ---
 ##  GradientFillType enumerazione
-Rappresenta tutto il tipo di riempimento sfumato.
+Rappresenta tutti i tipi di riempimento sfumato.
 
 
 

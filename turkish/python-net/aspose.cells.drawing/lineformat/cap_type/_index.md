@@ -11,7 +11,7 @@ is_root: false
 
 Bitiş büyük harflerini belirtir.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import LineCapType

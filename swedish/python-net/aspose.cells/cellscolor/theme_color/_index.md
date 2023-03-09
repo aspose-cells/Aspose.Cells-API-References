@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color fastighet
 
-Får temafärgen. Gäller endast för temafärgstyp.
+Får temafärgen.
 ###  Definition:
 ```python
 @property

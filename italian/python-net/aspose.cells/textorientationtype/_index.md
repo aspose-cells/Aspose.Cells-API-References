@@ -20,7 +20,7 @@ Il tipo TextOrientationType espone i membri seguenti:
 | CLOCK_WISE | Ruota il testo di 90 gradi in senso orario.|
 | COUNTER_CLOCK_WISE | Ruota il testo di 90 gradi in senso antiorario.|
 | NO_ROTATION | Rappresenta il valore predefinito.|
-| TOP_TO_BOTTOM | Visualizza il testo dall'alto verso il basso della cella. Testo impilato.|
+| TOP_TO_BOTTOM | Visualizza il testo dall'alto verso il basso della cella.|
 
 
 

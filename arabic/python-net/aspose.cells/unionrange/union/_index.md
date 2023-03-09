@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | range | str | النطاق.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/ar/python-net/aspose.cells/unionrange) | النطاق.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | ranges | list | النطاقات.|
 

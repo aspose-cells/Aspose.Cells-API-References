@@ -1,13 +1,13 @@
 ﻿---
 title: TilePicOption类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 730
 url: /zh/python-net/aspose.cells.drawing/tilepicoption/
 is_root: false
 ---
-##  TilePicOption类
+## TilePicOption类
 将平铺图片表示为纹理。
 
 

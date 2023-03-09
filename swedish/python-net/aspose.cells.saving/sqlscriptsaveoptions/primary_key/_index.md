@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  primary_key fastighet
 
-Representerar vilken kolumn som är primärnyckeln i datatabellen.
+Representerar vilken kolumn som är den primära nyckeln i datatabellen.
 ###  Definition:
 ```python
 @property

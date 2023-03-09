@@ -17,16 +17,16 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [connection_id](/cells/ru/python-net/aspose.cells/querytable/connection_id) | Получает идентификатор соединения таблицы запросов.|
+| [connection_id](/cells/ru/python-net/aspose.cells/querytable/connection_id) |Получает идентификатор соединения таблицы запроса.|
 | [external_connection](/cells/ru/python-net/aspose.cells/querytable/external_connection) | Получает связанное внешнее соединение.|
 | [name](/cells/ru/python-net/aspose.cells/querytable/name) | Получает имя запрашиваемой таблицы.|
-| [result_range](/cells/ru/python-net/aspose.cells/querytable/result_range) | Получает диапазон результата.|
+| [result_range](/cells/ru/python-net/aspose.cells/querytable/result_range) | Получает диапазон результатов.|
 | [preserve_formatting](/cells/ru/python-net/aspose.cells/querytable/preserve_formatting) | Возвращает или задает PreserveFormatting объекта.|
 | [adjust_column_width](/cells/ru/python-net/aspose.cells/querytable/adjust_column_width) | Возвращает или задает AdjustColumnWidth объекта.|
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

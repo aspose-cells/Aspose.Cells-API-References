@@ -13,7 +13,7 @@ Indikerar om utgångselementen ska optimeras.
 
 ###  Anmärkningar
 
-Standardvärdet är falskt. För närvarande är endast kantlinjerna optimerade när den här egenskapen är inställd på sann.
+Standardvärdet är falskt. För närvarande är bara kantlinjerna optimerade när den här egenskapen är inställd på sant.
 ###  Definition:
 ```python
 @property

@@ -20,11 +20,11 @@ Typen PivotFieldDataDisplayFormat avslöjar följande medlemmar:
 | NORMAL | Representerar normalt visningsformat.|
 | DIFFERENCE_FROM | Representerar skillnad från visningsformat.|
 | PERCENTAGE_OF | Representerar procentandelen av visningsformatet.|
-| PERCENTAGE_DIFFERENCE_FROM |Representerar procentuell skillnad från visningsformat.|
-| RUNNING_TOTAL_IN | Representerar löpande total i visningsformat.|
+| PERCENTAGE_DIFFERENCE_FROM | Representerar procentuell skillnad från visningsformat.|
+| RUNNING_TOTAL_IN |Representerar löpande total i visningsformat.|
 | PERCENTAGE_OF_ROW | Representerar procentandelen av radvisningsformat.|
 | PERCENTAGE_OF_COLUMN | Representerar procentandelen av kolumnvisningsformatet.|
-| PERCENTAGE_OF_TOTAL | Representerar procent av det totala visningsformatet.|
+| PERCENTAGE_OF_TOTAL | Representerar procentandelen av det totala visningsformatet.|
 | INDEX | Representerar indexvisningsformat.|
 | PERCENTAGE_OF_PARENT_ROW_TOTAL | Representerar procentandelen av det totala visningsformatet för överordnad rad.|
 | PERCENTAGE_OF_PARENT_COLUMN_TOTAL | Representerar procentandelen av det totala visningsformatet för överordnad kolumn.|

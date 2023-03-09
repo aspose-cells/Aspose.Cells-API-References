@@ -13,8 +13,8 @@ Indica se l'inserimento di collegamenti ipertestuali è consentito in un foglio 
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
- utilizzare la proprietà Protection.AllowInsertingHyperlink.
+ NOTA: questo membro è ora obsoleto.
+ si prega di utilizzare la proprietà Protezione Consenti inserimento collegamento ipertestuale.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

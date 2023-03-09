@@ -18,7 +18,7 @@ def close_stream(self, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | options | [StreamProviderOptions](/cells/sv/python-net/aspose.cells/streamprovideroptions) |  |
 

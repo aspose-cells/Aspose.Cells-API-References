@@ -22,16 +22,16 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ Label من صفه الأيسر ، بوحدة البكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | left | int | يمثل الإزاحة الأفقية لـ Label من عمودها الأيسر ، بوحدة البكسل.|
 | height | int | يمثل ارتفاع التسمية بوحدة البكسل.|
 | width | int | يمثل عرض التسمية بوحدة البكسل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

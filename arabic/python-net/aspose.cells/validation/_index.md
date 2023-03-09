@@ -24,7 +24,7 @@ is_root: false
 | [input_title](/cells/ar/python-net/aspose.cells/validation/input_title) | يمثل عنوان مربع حوار إدخال التحقق من صحة البيانات.|
 | [error_message](/cells/ar/python-net/aspose.cells/validation/error_message) | يمثل رسالة خطأ التحقق من صحة البيانات.|
 | [error_title](/cells/ar/python-net/aspose.cells/validation/error_title) | يمثل عنوان مربع حوار خطأ التحقق من صحة البيانات.|
-| [show_input](/cells/ar/python-net/aspose.cells/validation/show_input) | يشير إلى ما إذا كان سيتم عرض رسالة إدخال التحقق من صحة البيانات عندما يحدد المستخدم خلية في نطاق التحقق من صحة البيانات.|
+| [show_input](/cells/ar/python-net/aspose.cells/validation/show_input) |يشير إلى ما إذا كان سيتم عرض رسالة إدخال التحقق من صحة البيانات عندما يحدد المستخدم خلية في نطاق التحقق من صحة البيانات.|
 | [show_error](/cells/ar/python-net/aspose.cells/validation/show_error) | يشير إلى ما إذا كان سيتم عرض رسالة خطأ التحقق من صحة البيانات عندما يقوم المستخدم بإدخال بيانات غير صالحة.|
 | [ignore_blank](/cells/ar/python-net/aspose.cells/validation/ignore_blank) | يشير إلى ما إذا كانت القيم الفارغة مسموحًا بها من خلال التحقق من صحة بيانات النطاق.|
 | [formula1](/cells/ar/python-net/aspose.cells/validation/formula1) | يمثل القيمة أو التعبير المرتبط بالتحقق من صحة البيانات.|
@@ -32,7 +32,7 @@ is_root: false
 | [value1](/cells/ar/python-net/aspose.cells/validation/value1) | يمثل القيمة الأولى المرتبطة بالتحقق من صحة البيانات.|
 | [value2](/cells/ar/python-net/aspose.cells/validation/value2) | يمثل القيمة الثانية المرتبطة بالتحقق من صحة البيانات.|
 | [in_cell_drop_down](/cells/ar/python-net/aspose.cells/validation/in_cell_drop_down) | يشير إلى ما إذا كان التحقق من صحة البيانات يعرض قائمة منسدلة تحتوي على قيم مقبولة.|
-| [areas](/cells/ar/python-net/aspose.cells/validation/areas) | يحصل على جميع [CellArea](/cells/ar/python-net/aspose.cells/cellarea) التي تحتوي على إعدادات التحقق من صحة البيانات.|
+| [areas](/cells/ar/python-net/aspose.cells/validation/areas) | يحصل على جميع [CellArea](/cells/ar/python-net/aspose.cells/cellarea) الذي يحتوي على إعدادات التحقق من صحة البيانات.|
 
 
 ###  طُرق
@@ -55,7 +55,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import CellArea, OperatorType, ValidationType, Workbook

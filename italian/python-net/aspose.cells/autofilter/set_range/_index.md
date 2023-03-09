@@ -18,7 +18,7 @@ def set_range(self, row, start_column, end_column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga.|
 | start_column | int | Inizia l'indice della colonna.|

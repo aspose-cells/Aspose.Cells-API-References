@@ -1,6 +1,6 @@
 ﻿---
 title: show_category_name 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 400
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## show_category_name 属性
 
-表示指定图表的数据标签类别名称显示行为。为真表示在图表上显示数据标签的类别名称。假以掩饰。
+表示指定图表的数据标签类别名称显示行为。为True表示显示图表上数据标签的类别名称。False表示隐藏。
 ### 定义：
 ```python
 @property

@@ -22,7 +22,7 @@ def start_row(self, row_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | indexet för nästa rad som ska bearbetas|
 

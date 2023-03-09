@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_height_inch fastighet
 
-Hämtar eller ställer in standardradhöjden i detta kalkylblad, i enhet av tum.
+Hämtar eller ställer in standardradhöjden i detta kalkylblad, i enheter av tum.
 ###  Definition:
 ```python
 @property

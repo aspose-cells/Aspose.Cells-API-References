@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | TEXT_RUN | يمثل عقدة النص.|
-| TEXT_PARAGRAPH |يمثل فقرة النص.|
+| TEXT_PARAGRAPH | يمثل فقرة النص.|
 | EQUATION | يمثل نص المعادلة.|
 
 

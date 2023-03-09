@@ -18,9 +18,9 @@ def remove_area(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| index | int |L'indice dell'intervallo di celle formattato condizionale da rimuovere.|
+| index | int | L'indice dell'intervallo di celle formattato in modo condizionale da rimuovere.|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}
@@ -29,7 +29,7 @@ Rimuovi la formattazione condizionale nell'intervallo.
 
 ###  ritorna
 
-Restituisce TRUE, questo FormatCondtionCollection deve essere rimosso.
+Restituisce TRUE, questo FormatConditionCollection deve essere rimosso.
 
 
 ```python
@@ -38,10 +38,10 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| start_row | int | StartRow dell'intervallo.|
-| start_column | int | StartColumn dell'intervallo.|
+| start_row | int | La riga iniziale dell'intervallo.|
+| start_column | int | La colonna iniziale dell'intervallo.|
 | total_rows | int | Il numero di righe dell'intervallo.|
 | total_columns | int | Il numero di colonne dell'intervallo.|
 

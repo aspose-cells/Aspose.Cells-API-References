@@ -18,7 +18,7 @@ def get_by_index(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int |  |
 

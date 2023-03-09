@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_iterative_calculation propriété
 
-Indique si le calcul itératif est activé pour résoudre les références circulaires.
+Indique s'il faut activer le calcul itératif pour résoudre les références circulaires.
 ###  Définition:
 ```python
 @property

@@ -26,10 +26,10 @@ PivotFieldSubtotalType türü aşağıdaki üyeleri gösterir:
 | MIN | Minimum alt toplam türünü temsil eder.|
 | PRODUCT | Ürün alt toplam türünü temsil eder.|
 | COUNT_NUMS | Sayım Sayıları alt toplam türünü temsil eder.|
-| STDEV | Stdev alt toplam türünü temsil eder.|
+| STDEV |Stdev alt toplam türünü temsil eder.|
 | STDEVP | Stdevp alt toplam türünü temsil eder.|
 | VAR | Var alt toplam türünü temsil eder.|
-| VARP |Varp alt toplam türünü temsil eder.|
+| VARP | Varp alt toplam türünü temsil eder.|
 
 
 

@@ -13,7 +13,7 @@ Controlla se un colore è nella tavolozza per il foglio di calcolo.
 
 ###  ritorna
 
-Restituisce vero se questo colore è nella tavolozza. In caso contrario, restituisce false
+Restituisce vero se questo colore è nella tavolozza.
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Struttura del colore.|
 

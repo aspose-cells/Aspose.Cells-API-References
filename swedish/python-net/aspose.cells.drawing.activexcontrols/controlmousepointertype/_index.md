@@ -19,7 +19,7 @@ Typen ControlMousePointerType avslöjar följande medlemmar:
 | :- | :- |
 | DEFAULT | Standardpekare.|
 | ARROW | Pil.|
-| CROSS |Hårkorspekare.|
+| CROSS | Hårkorspekare.|
 | I_BEAM | Jag strålar.|
 | SIZE_NESW | Dubbelpil som pekar nordost och sydväst.|
 | SIZE_NS | Dubbelpil som pekar mot norr och söder.|
@@ -30,7 +30,7 @@ Typen ControlMousePointerType avslöjar följande medlemmar:
 | NO_DROP | "Inte"-symbol (cirkel med en diagonal linje) ovanpå objektet som dras.|
 | APP_STARTING | Pil med ett timglas.|
 | HELP | Pil med ett frågetecken.|
-| SIZE_ALL | Markören "Size-all" (pilar som pekar mot norr, söder, öster och väster).|
+| SIZE_ALL |Markören "Size-all" (pilar som pekar mot norr, söder, öster och väster).|
 | CUSTOM | Använder ikonen som anges av MouseIcon-egenskapen.|
 
 

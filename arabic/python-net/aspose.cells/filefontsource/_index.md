@@ -22,14 +22,14 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/ar/python-net/aspose.cells/filefontsource/__init__/#str) | Ctor.|
+| [FileFontSource(file_path)](/cells/ar/python-net/aspose.cells/filefontsource/__init__/#str) | مخرج.|
 
 
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
 | [type](/cells/ar/python-net/aspose.cells/filefontsource/type) | ترجع نوع مصدر الخط.|
-| [file_path](/cells/ar/python-net/aspose.cells/filefontsource/file_path) |مسار ملف الخط.|
+| [file_path](/cells/ar/python-net/aspose.cells/filefontsource/file_path) | مسار ملف الخط.|
 
 
 

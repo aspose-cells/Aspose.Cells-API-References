@@ -1,6 +1,6 @@
 ﻿---
 title: remove_field方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
@@ -18,7 +18,7 @@ def remove_field(self, field_type, field_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/zh/python-net/aspose.cells.pivot/pivotfieldtype) |字段区域类型。|
 | field_name | str |基本字段中的名称。|
@@ -35,7 +35,7 @@ def remove_field(self, field_type, base_field_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/zh/python-net/aspose.cells.pivot/pivotfieldtype) |字段区域类型。|
 | base_field_index | int |基字段中的字段索引。|
@@ -52,7 +52,7 @@ def remove_field(self, field_type, pivot_field):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/zh/python-net/aspose.cells.pivot/pivotfieldtype) |字段区域类型。|
 | pivot_field | [PivotField](/cells/zh/python-net/aspose.cells.pivot/pivotfield) |基域中的域。|

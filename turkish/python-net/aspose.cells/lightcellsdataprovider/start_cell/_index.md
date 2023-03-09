@@ -18,9 +18,9 @@ def start_cell(self, cell):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Cell veri doldurmak için uygulama nesnesi. Sütun indeksi, [LightCellsDataProvider.next_cell()](/cells/tr/python-net/aspose.cells/lightcellsdataprovider/next_cell)'in son çağrısının döndürülen değeridir.<br/>Hücre, iç hücre modelinde başlatıldıysa, var olan hücre nesnesi kullanılacaktır.<br/> Aksi takdirde, verileri doldurmak için uygulama için geçici bir Cell nesnesi kullanılacaktır.|
+| cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Cell veri doldurmak için uygulama nesnesi. Sütun dizini, [LightCellsDataProvider.next_cell()](/cells/tr/python-net/aspose.cells/lightcellsdataprovider/next_cell)'in son çağrısının döndürülen değeridir.<br/>Hücre, iç hücre modelinde başlatıldıysa, mevcut hücre nesnesi kullanılacaktır.<br/> Aksi takdirde, verileri doldurmak için uygulama için geçici bir Cell nesnesi kullanılacaktır.|
 ###  Notlar
 
 

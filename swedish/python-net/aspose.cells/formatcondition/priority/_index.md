@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  priority fastighet
 
-priority för denna villkorliga formateringsregel. Detta värde används för att bestämma vilken
-formatet bör utvärderas och återges. Lägre numeriska värden är högre priority än
+priority för denna villkorliga formateringsregel.
+format bör utvärderas och renderas. Lägre numeriska värden är högre än priority
 högre numeriska värden, där '1' är det högsta priority.
 ###  Definition:
 ```python

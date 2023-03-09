@@ -1,6 +1,6 @@
 ﻿---
 title: convert_a1_formula_to_r1c1方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -22,7 +22,7 @@ def convert_a1_formula_to_r1c1(self, formula, row, column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | formula | str | A1公式。|
 | row | int |单元格的行索引。|

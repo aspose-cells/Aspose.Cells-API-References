@@ -15,7 +15,7 @@ Ruft die ID des Signaturanbieters ab und legt sie fest.
 
 Dies ist in der Regel die CLSID des Provider-COM-Add-Ins.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import SignatureLine

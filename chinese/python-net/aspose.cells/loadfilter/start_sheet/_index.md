@@ -1,6 +1,6 @@
 ﻿---
 title: start_sheet方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -20,9 +20,9 @@ def start_sheet(self, sheet):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/zh/python-net/aspose.cells/worksheet) |要加载的工作表。<br/>这里只有少数属性可用于给定的工作表对象<br/>因为大多数数据和属性尚未加载。可用的属性是：<br/>名称、索引、可见性类型|
+| sheet | [Worksheet](/cells/zh/python-net/aspose.cells/worksheet) |要加载的工作表。<br/>这里只有少数属性可用于给定的工作表对象<br/>因为大多数数据和属性尚未加载。<br/>名称、索引、可见性类型|
 
 
 

@@ -22,16 +22,16 @@ def add_list_box(self, upper_left_row, top, upper_left_column, left, height, wid
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ ListBox من صفه الأيسر ، بوحدة البكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | left | int | يمثل الإزاحة الأفقية لـ ListBox من عمودها الأيسر ، بوحدة البكسل.|
-| height | int | يمثل ارتفاع ListBox ، بوحدة البكسل.|
-| width | int |يمثل عرض ListBox بوحدة البكسل.|
+| height | int | يمثل ارتفاع ListBox بوحدة البكسل.|
+| width | int | يمثل عرض ListBox بوحدة البكسل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

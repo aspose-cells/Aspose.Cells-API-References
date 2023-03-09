@@ -18,10 +18,10 @@ def group_rows(self, first_index, last_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_index | int | Gruplanacak ilk satır dizini.|
-| last_index | int | Gruplanacak son satır dizini.|
+| last_index | int |Gruplanacak son satır dizini.|
 
 
 ##  group_rows(first_index, last_index, is_hidden) {#int-int-bool}
@@ -35,10 +35,10 @@ def group_rows(self, first_index, last_index, is_hidden):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_index | int | Gruplanacak ilk satır dizini.|
-| last_index | int | Gruplanacak son satır dizini.|
+| last_index | int |Gruplanacak son satır dizini.|
 | is_hidden | bool | Gruplanmış satırların gizli olup olmadığını belirtir.|
 
 

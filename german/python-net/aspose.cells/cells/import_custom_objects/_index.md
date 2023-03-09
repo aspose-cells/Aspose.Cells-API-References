@@ -24,8 +24,8 @@ def import_custom_objects(self, list, first_row, first_column, options):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| list | list |Das benutzerdefinierte Objekt|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| list | list | Das benutzerdefinierte Objekt|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 | options | [ImportTableOptions](/cells/de/python-net/aspose.cells/importtableoptions) | Die Importoptionen.|
 ###  Bemerkungen
@@ -50,10 +50,10 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| list | list |Das benutzerdefinierte Objekt|
-| property_names | list | Die Eigenschaftsnamen. Wenn es null ist, importieren wir alle Eigenschaften des Objekts.|
+| list | list | Das benutzerdefinierte Objekt|
+| property_names | list | Die Eigenschaftsnamen. Wenn es null ist, werden wir alle Eigenschaften des Objekts importieren.|
 | is_property_name_shown | bool | Gibt an, ob der Eigenschaftsname in die erste Zeile importiert wird.|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 | row_number | int | Anzahl der zu importierenden Zeilen.|
 | insert_rows | bool | Gibt an, ob zusätzliche Zeilen hinzugefügt werden, um Daten anzupassen.|

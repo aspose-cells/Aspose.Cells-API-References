@@ -11,7 +11,7 @@ is_root: false
 
 Indique si afficher la date signée.
 
-###  Exemple
+###  Exemples
 
 ```python
 

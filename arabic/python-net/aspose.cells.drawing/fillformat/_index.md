@@ -17,7 +17,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [type](/cells/ar/python-net/aspose.cells.drawing/fillformat/type) | الحصول على نوع التعبئة وتعيينه.|
+| [type](/cells/ar/python-net/aspose.cells.drawing/fillformat/type) |الحصول على نوع التعبئة وتعيينه.|
 | [fill_type](/cells/ar/python-net/aspose.cells.drawing/fillformat/fill_type) | الحصول على نوع التعبئة وتعيينه|
 | [transparency](/cells/ar/python-net/aspose.cells.drawing/fillformat/transparency) | إرجاع أو تعيين درجة شفافية المنطقة كقيمة من 0.0 (معتم) إلى 1.0 (واضح).|
 | [set_type](/cells/ar/python-net/aspose.cells.drawing/fillformat/set_type) | يحصل على نوع مجموعة تنسيق التعبئة.|
@@ -49,7 +49,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

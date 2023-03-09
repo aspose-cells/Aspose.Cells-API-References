@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/worksheet/un_freeze_panes/
 is_root: false
 ---
 ##  un_freeze_panes() {#}
-Descongela paneles en la hoja de trabajo.
+Descongela paneles en la hoja de cálculo.
 
 
 

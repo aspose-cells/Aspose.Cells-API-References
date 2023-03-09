@@ -20,7 +20,7 @@ OdsPageBackgroundGraphicPositionType türü aşağıdaki üyeleri gösterir:
 | TOP_LEFT | Sol üst.|
 | TOP_CENTER | Üst merkez.|
 | TOP_RIGHT | Sağ üst.|
-| CENTER_LEFT |Orta sol.|
+| CENTER_LEFT | Orta sol.|
 | CENTER_CENTER | Merkez.|
 | CENTER_RIGHT | Orta sağ.|
 | BOTTOM_LEFT | Sol alt.|

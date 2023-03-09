@@ -31,9 +31,9 @@ def auto_fit_rows(self, only_auto):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| only_auto | bool | True, ajuste automatiquement la hauteur de ligne uniquement lorsque la hauteur de ligne n'est pas personnalisée.|
+| only_auto | bool |True, ajuste automatiquement la hauteur de ligne uniquement lorsque la hauteur de ligne n'est pas personnalisée.|
 
 
 ##  auto_fit_rows(options) {#AutoFitterOptions}
@@ -47,7 +47,7 @@ def auto_fit_rows(self, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/fr/python-net/aspose.cells/autofitteroptions) | Les options de l'installateur automatique|
 
@@ -63,7 +63,7 @@ def auto_fit_rows(self, start_row, end_row):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | start_row | int | Index de ligne de début.|
 | end_row | int | Index de fin de ligne.|
@@ -80,7 +80,7 @@ def auto_fit_rows(self, start_row, end_row, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | start_row | int | Index de ligne de début.|
 | end_row | int | Index de fin de ligne.|

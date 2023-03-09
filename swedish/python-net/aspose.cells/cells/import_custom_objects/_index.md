@@ -22,10 +22,10 @@ def import_custom_objects(self, list, first_row, first_column, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| list | list |Det anpassade objektet|
-| first_row | int |Radnumret för den första cellen att importera i.|
+| list | list | Det anpassade objektet|
+| first_row | int | Radnumret för den första cellen att importera i.|
 | first_column | int | Kolumnnumret för den första cellen att importera i.|
 | options | [ImportTableOptions](/cells/sv/python-net/aspose.cells/importtableoptions) | Importalternativen.|
 ###  Anmärkningar
@@ -48,12 +48,12 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| list | list |Det anpassade objektet|
-| property_names | list | Egenskapens namn. Om den är null kommer vi att importera alla egenskaper för objektet.|
+| list | list | Det anpassade objektet|
+| property_names | list | Egenskapsnamnen. Om den är null kommer vi att importera alla egenskaper för objektet.|
 | is_property_name_shown | bool | Anger om egenskapsnamnet kommer att importeras till den första raden.|
-| first_row | int |Radnumret för den första cellen att importera i.|
+| first_row | int | Radnumret för den första cellen att importera i.|
 | first_column | int | Kolumnnumret för den första cellen att importera i.|
 | row_number | int | Antal rader som ska importeras.|
 | insert_rows | bool | Anger om extra rader läggs till för att passa data.|

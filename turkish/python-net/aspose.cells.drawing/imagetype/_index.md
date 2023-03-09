@@ -24,13 +24,13 @@ ImageType türü aşağıdaki üyeleri gösterir:
 | JPEG | JPEG JFIF.|
 | PNG | Taşınabilir Ağ Grafikleri.|
 | BMP | Windows Bit Eşlem|
-| GIF | Gif|
+| GIF | Gif'ler|
 | TIFF | tiff|
 | SVG | Svg|
 | SVM | Svm|
-| GLTF | glTF|
+| GLTF | glTFDevamı|
 | OFFICE_COMPATIBLE_EMF | Windows Office ile daha uyumlu Gelişmiş Meta Dosyası.|
-| WEB_P | Weppy görüntü formatı|
+| WEB_P |Weppy görüntü formatı|
 
 
 

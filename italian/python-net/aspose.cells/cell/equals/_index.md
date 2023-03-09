@@ -22,7 +22,7 @@ def equals(self, cell):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | cell | [Cell](/cells/it/python-net/aspose.cells/cell) | un altro oggetto cella|
 

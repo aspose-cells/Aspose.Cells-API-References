@@ -39,7 +39,7 @@ def insert_rows(self, row_index, total_rows, update_reference):
 | :- | :- | :- |
 | row_index | int | Zeilenindex.|
 | total_rows | int | Anzahl der einzufügenden Zeilen.|
-| update_reference | bool | Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
+| update_reference | bool |Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
 
 
 ##  insert_rows(row_index, total_rows, options) {#int-int-InsertOptions}
@@ -57,7 +57,7 @@ def insert_rows(self, row_index, total_rows, options):
 | :- | :- | :- |
 | row_index | int | Zeilenindex.|
 | total_rows | int | Anzahl der einzufügenden Zeilen.|
-| options | [InsertOptions](/cells/de/python-net/aspose.cells/insertoptions) | Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
+| options | [InsertOptions](/cells/de/python-net/aspose.cells/insertoptions) |Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
 
 
 

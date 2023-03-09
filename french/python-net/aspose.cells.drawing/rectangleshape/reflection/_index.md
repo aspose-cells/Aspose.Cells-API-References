@@ -11,7 +11,7 @@ is_root: false
 
 Représente un objet [ReflectionEffect](/cells/fr/python-net/aspose.cells.drawing/reflectioneffect) qui spécifie l'effet reflection pour l'élément ou la forme du graphique.
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -18,7 +18,7 @@ def add_filter(self, field_index, criteria):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | field_index | int | El desplazamiento entero del campo en el que desea basar el filtro<br/> (desde la izquierda de la lista; el campo más a la izquierda es el campo 0).|
 | criteria | str | Los criterios especificados (una cadena; por ejemplo, "101").<br/> Solo puede ser nulo o ser uno de los valores de las celdas en esta columna.|

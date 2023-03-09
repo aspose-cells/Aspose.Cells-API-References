@@ -10,7 +10,7 @@ is_root: false
 ##  background_refresh propiedad
 
  Indica si la conexión se puede actualizar en segundo plano (asincrónicamente).
- true si el uso preferido de la conexión es actualizar de forma asíncrona en segundo plano;
+true si el uso preferido de la conexión es actualizar de forma asíncrona en segundo plano;
 falso si el uso preferido de la conexión es actualizar sincrónicamente en primer plano.
 ###  Definición:
 ```python

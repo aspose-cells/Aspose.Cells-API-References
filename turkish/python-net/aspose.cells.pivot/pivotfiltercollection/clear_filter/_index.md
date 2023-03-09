@@ -18,7 +18,7 @@ def clear_filter(self, field_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | PivotField dizini|
 

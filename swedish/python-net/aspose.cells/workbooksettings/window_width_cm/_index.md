@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_cm fastighet
 
-Fönstrets bredd, i centimeterenhet.
+Fönstrets bredd, i enheter av centimeter.
 ###  Definition:
 ```python
 @property

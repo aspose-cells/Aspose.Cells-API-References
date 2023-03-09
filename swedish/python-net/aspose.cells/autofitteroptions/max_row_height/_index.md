@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  max_row_height fastighet
 
-Hämtar och ställer in den maximala radhöjden (i punktenhet) vid autopassning av rader.
+Hämtar och ställer in den maximala radhöjden (i punktenhet) vid autoanpassning av rader.
 ###  Definition:
 ```python
 @property

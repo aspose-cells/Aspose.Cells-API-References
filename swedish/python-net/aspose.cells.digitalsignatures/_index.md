@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
 | [XAdESType](/cells/sv/python-net/aspose.cells.digitalsignatures/xadestype) | Typ av XML Advanced Electronic Signature (XAdES).|
 

@@ -18,8 +18,8 @@ El tipo LineCapType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | SQUARE | El cuadrado sobresale por la mitad del ancho de la línea.|
-| ROUND | Extremos redondeados.|
-| FLAT | La línea termina en el punto final.|
+| ROUND |Extremos redondeados.|
+| FLAT | La línea termina en los puntos finales.|
 | NONE | Ninguno tapa|
 
 

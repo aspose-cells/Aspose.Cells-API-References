@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  start_row Eigentum
 
-Ruft die Startzeile dieses Bereichs ab oder legt sie fest.
+Ruft die Startzeile dieses Bereichs ab oder legt diese fest.
 
 ###  Siehe auch
 * Modul [aspose.cells](../../)

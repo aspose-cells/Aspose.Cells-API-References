@@ -11,7 +11,7 @@ is_root: false
 
 Получает data изображения.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

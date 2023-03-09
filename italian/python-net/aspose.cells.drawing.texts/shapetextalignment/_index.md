@@ -23,7 +23,7 @@ Il tipo ShapeTextAlignment espone i membri seguenti:
 | [text_horizontal_overflow](/cells/it/python-net/aspose.cells.drawing.texts/shapetextalignment/text_horizontal_overflow) | Ottiene e imposta il tipo di overflow orizzontale del testo della casella di testo.|
 | [rotation_angle](/cells/it/python-net/aspose.cells.drawing.texts/shapetextalignment/rotation_angle) | Ottiene e imposta la rotazione della forma.|
 | [text_vertical_type](/cells/it/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) | Ottiene e imposta la direzione del testo.|
-| [auto_size](/cells/it/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) | Indica se la dimensione della forma viene regolata automaticamente in base al suo contenuto.|
+| [auto_size](/cells/it/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |Indica se la dimensione della forma viene regolata automaticamente in base al suo contenuto.|
 | [text_shape_type](/cells/it/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | Ottiene e imposta il tipo di trasformazione del testo.|
 | [top_margin_pt](/cells/it/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Restituisce il margine superiore in unità di punti|
 | [bottom_margin_pt](/cells/it/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Restituisce il margine inferiore in unità di punti|
@@ -34,7 +34,7 @@ Il tipo ShapeTextAlignment espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

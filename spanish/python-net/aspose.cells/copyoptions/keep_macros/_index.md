@@ -13,7 +13,7 @@ Indica si mantiene macros;
 
 ###  Observaciones
 
-Solo para copiar el libro de trabajo.
+Solo para copiar libros de trabajo.
 ###  Definición:
 ```python
 @property

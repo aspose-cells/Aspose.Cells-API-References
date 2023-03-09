@@ -13,7 +13,7 @@ Anger om formeln analyseras när filen läses.
 
 ###  Anmärkningar
 
-Gäller endast för Excel Xlsx-, Xltx-, Xltm- och Xlsm-filer
+Gäller endast Excel Xlsx-, Xltx-, Xltm- och Xlsm-filer
 eftersom formlerna i filerna lagras med en strängformel.
 ###  Definition:
 ```python

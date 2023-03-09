@@ -18,7 +18,7 @@ def copy(self, source_sheet):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Kaynak çalışma sayfası.|
 
@@ -34,13 +34,13 @@ def copy(self, source_sheet, copy_options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Kaynak çalışma sayfası.|
 | copy_options | [CopyOptions](/cells/tr/python-net/aspose.cells/copyoptions) |  |
 ###  Notlar
 
-Aynı dosyadaki veya başka bir dosyadaki başka bir çalışma sayfasındaki verileri copy alabilirsiniz. Ancak bu yöntem, yorumlar, resimler ve çizelgeler gibi copy çizim nesnelerini desteklemez.
+Aynı dosyadaki veya başka bir dosyadaki başka bir çalışma sayfasındaki verileri copy alabilirsiniz.
 
 
 ###  Ayrıca bakınız

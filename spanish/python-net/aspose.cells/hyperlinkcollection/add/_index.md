@@ -22,7 +22,7 @@ def add(self, cell_name, total_rows, total_columns, address):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | cell_name | str | Cell nombre.|
 | total_rows | int | Número de filas en este rango de hipervínculo.|
@@ -45,7 +45,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_row | int | Primera fila del rango del hipervínculo.|
 | first_column | int | Primera columna del rango del hipervínculo.|
@@ -53,7 +53,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_columns | int | Número de columnas de este rango de hipervínculo.|
 | address | str | Dirección del hipervínculo.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook
@@ -82,13 +82,13 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | start_cell_name | str | La celda superior izquierda del rango.|
 | end_cell_name | str | La celda inferior derecha del rango.|
 | address | str | Dirección del hipervínculo.|
 | text_to_display | str | El texto que se mostrará para el hipervínculo especificado.|
-| screen_tip | str | El texto de la información en pantalla para el hipervínculo especificado.|
+| screen_tip | str |El texto de la información en pantalla para el hipervínculo especificado.|
 
 
 

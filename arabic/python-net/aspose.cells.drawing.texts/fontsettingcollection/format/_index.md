@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/
 is_root: false
 ---
 ##  format(start_index, length, font, flag) {#int-int-Font-StyleFlag}
-تنسيق النص مع إعداد الخط.
+تنسيق النص مع إعدادات الخط.
 
 
 
@@ -18,7 +18,7 @@ def format(self, start_index, length, font, flag):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_index | int | فهرس البداية.|
 | length | int | الطول.|

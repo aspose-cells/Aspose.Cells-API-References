@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range | str | El rango.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/es/python-net/aspose.cells/unionrange) | El rango.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | ranges | list | Los rangos.|
 

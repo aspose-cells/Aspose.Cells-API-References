@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  terminate_without_exception fastighet
 
-När proceduren avbryts, oavsett om du avbryter proceduren tyst eller gör ett undantag.
+När proceduren avbryts, om man ska avsluta proceduren tyst eller göra ett undantag.
 Standard är falskt, det vill säga när [AbstractInterruptMonitor.is_interruption_requested](/cells/sv/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) är sant,
 ett [CellsException](/cells/sv/python-net/aspose.cells/cellsexception) med kod [ExceptionType.INTERRUPTED](/cells/sv/python-net/aspose.cells/exceptiontype#INTERRUPTED) kommer att kastas.
 ###  Definition:

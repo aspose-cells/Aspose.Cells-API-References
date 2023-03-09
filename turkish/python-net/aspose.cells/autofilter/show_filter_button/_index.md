@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_filter_button mülk
 
-Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını belirtir.
+Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

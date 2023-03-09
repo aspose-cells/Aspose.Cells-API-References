@@ -22,7 +22,7 @@ def create_range(self, address):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | address | str | عنوان النطاق.|
 
@@ -42,7 +42,7 @@ def create_range(self, upper_left_cell, lower_right_cell):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_cell | str | اسم الخلية العلوي الأيسر.|
 | lower_right_cell | str | أسفل اسم الخلية الأيمن.|
@@ -63,11 +63,11 @@ def create_range(self, first_index, number, is_vertical):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | first_index | int | فهرس الصف الأول أو فهرس العمود الأول ، مستند إلى الصفر.|
 | number | int | إجمالي عدد الصفوف أو الأعمدة ، على أساس واحد.|
-| is_vertical | bool | صواب - نطاق تم إنشاؤه من أعمدة الخلايا. خطأ - النطاق الذي تم إنشاؤه من صفوف الخلايا.|
+| is_vertical | bool | صواب - نطاق تم إنشاؤه من أعمدة الخلايا.|
 
 
 ##  create_range(first_row, first_column, total_rows, total_columns) {#int-int-int-int}
@@ -85,7 +85,7 @@ def create_range(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | first_row | int | الصف الأول من هذا النطاق|
 | first_column | int | العمود الأول من هذا النطاق|

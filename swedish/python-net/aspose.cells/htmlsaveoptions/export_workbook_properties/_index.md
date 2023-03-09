@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_workbook_properties fastighet
 
-Anger om arbetsboksegenskaper exporteras. Standardvärdet är sant. Om du vill importera
+ Anger om arbetsboksegenskaper exporteras. Standardvärdet är sant. Om du vill importera
 html- eller mht-filen för att excel, behåll standardvärdet.
 ###  Definition:
 ```python

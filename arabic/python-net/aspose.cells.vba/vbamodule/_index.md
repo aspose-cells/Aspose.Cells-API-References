@@ -19,11 +19,11 @@ is_root: false
 | :- | :- |
 | [name](/cells/ar/python-net/aspose.cells.vba/vbamodule/name) | الحصول على اسم الوحدة وتعيينه.|
 | [type](/cells/ar/python-net/aspose.cells.vba/vbamodule/type) | يحصل على نوع الوحدة.|
-| [codes](/cells/ar/python-net/aspose.cells.vba/vbamodule/codes) | يحصل على رموز الوحدة وتعيينها.|
+| [codes](/cells/ar/python-net/aspose.cells.vba/vbamodule/codes) | يحصل على رموز الوحدات ويضبطها.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

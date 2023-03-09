@@ -1,13 +1,13 @@
 ﻿---
 title: SparklineGroupCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 290
 url: /zh/python-net/aspose.cells.charts/sparklinegroupcollection/
 is_root: false
 ---
-##  SparklineGroupCollection类
+## SparklineGroupCollection类
 封装 [SparklineGroup](/cells/zh/python-net/aspose.cells.charts/sparklinegroup) 对象的集合。
 
 

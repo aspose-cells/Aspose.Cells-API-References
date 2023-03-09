@@ -10,7 +10,7 @@ is_root: false
 ##  image_scalable propiedad
 
 Indica si se utiliza una unidad escalable para describir el ancho de la imagen
-cuando se usa una unidad escalable para describir el ancho de la columna.
+cuando se utilizan unidades escalables para describir el ancho de columna.
 El valor por defecto es verdadero.
 ###  Definición:
 ```python

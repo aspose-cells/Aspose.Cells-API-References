@@ -24,24 +24,24 @@ Der Typ Validation macht die folgenden Member verfügbar:
 | [input_title](/cells/de/python-net/aspose.cells/validation/input_title) | Stellt den Titel des Eingabedialogfelds zur Datenvalidierung dar.|
 | [error_message](/cells/de/python-net/aspose.cells/validation/error_message) | Stellt die Fehlermeldung zur Datenvalidierung dar.|
 | [error_title](/cells/de/python-net/aspose.cells/validation/error_title) | Stellt den Titel des Datenüberprüfungsfehlerdialogfelds dar.|
-| [show_input](/cells/de/python-net/aspose.cells/validation/show_input) | Gibt an, ob die Datenüberprüfungs-Eingabemeldung angezeigt wird, wenn der Benutzer eine Zelle im Datenüberprüfungsbereich auswählt.|
+| [show_input](/cells/de/python-net/aspose.cells/validation/show_input) |Gibt an, ob die Datenüberprüfungs-Eingabemeldung angezeigt wird, wenn der Benutzer eine Zelle im Datenüberprüfungsbereich auswählt.|
 | [show_error](/cells/de/python-net/aspose.cells/validation/show_error) | Gibt an, ob die Datenüberprüfungsfehlermeldung angezeigt wird, wenn der Benutzer ungültige Daten eingibt.|
-| [ignore_blank](/cells/de/python-net/aspose.cells/validation/ignore_blank) | Gibt an, ob bei der Bereichsdatenvalidierung Leerwerte zulässig sind.|
+| [ignore_blank](/cells/de/python-net/aspose.cells/validation/ignore_blank) | Gibt an, ob Leerwerte von der Bereichsdatenvalidierung zugelassen werden.|
 | [formula1](/cells/de/python-net/aspose.cells/validation/formula1) | Stellt den Wert oder Ausdruck dar, der der Datenvalidierung zugeordnet ist.|
 | [formula2](/cells/de/python-net/aspose.cells/validation/formula2) | Stellt den Wert oder Ausdruck dar, der der Datenvalidierung zugeordnet ist.|
 | [value1](/cells/de/python-net/aspose.cells/validation/value1) | Stellt den ersten Wert dar, der der Datenvalidierung zugeordnet ist.|
 | [value2](/cells/de/python-net/aspose.cells/validation/value2) | Stellt den zweiten Wert dar, der der Datenvalidierung zugeordnet ist.|
 | [in_cell_drop_down](/cells/de/python-net/aspose.cells/validation/in_cell_drop_down) | Gibt an, ob die Datenvalidierung eine Dropdown-Liste anzeigt, die akzeptable Werte enthält.|
-| [areas](/cells/de/python-net/aspose.cells/validation/areas) | Ruft alle [CellArea](/cells/de/python-net/aspose.cells/cellarea) ab, die die Datenüberprüfungseinstellungen enthalten.|
+| [areas](/cells/de/python-net/aspose.cells/validation/areas) | Ruft alle [CellArea](/cells/de/python-net/aspose.cells/cellarea) ab, die die Datenvalidierungseinstellungen enthalten.|
 
 
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
 | [get_formula1(is_r1c1, is_local)](/cells/de/python-net/aspose.cells/validation/get_formula1/#bool-bool) | Ruft den Wert oder Ausdruck ab, der dieser Validierung zugeordnet ist.|
-| [get_formula1(is_r1c1, is_local, row, column)](/cells/de/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Ruft den Wert oder Ausdruck ab, der dieser Validierung für eine bestimmte Zelle zugeordnet ist.|
+| [get_formula1(is_r1c1, is_local, row, column)](/cells/de/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Ruft den Wert oder Ausdruck ab, der dieser Validierung für die bestimmte Zelle zugeordnet ist.|
 | [get_formula2(is_r1c1, is_local)](/cells/de/python-net/aspose.cells/validation/get_formula2/#bool-bool) | Ruft den Wert oder Ausdruck ab, der dieser Validierung zugeordnet ist.|
-| [get_formula2(is_r1c1, is_local, row, column)](/cells/de/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Ruft den Wert oder Ausdruck ab, der dieser Validierung für eine bestimmte Zelle zugeordnet ist.|
+| [get_formula2(is_r1c1, is_local, row, column)](/cells/de/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Ruft den Wert oder Ausdruck ab, der dieser Validierung für die bestimmte Zelle zugeordnet ist.|
 | [add_area(cell_area)](/cells/de/python-net/aspose.cells/validation/add_area/#CellArea) | Wendet die Validierung auf den Bereich an.|
 | [add_area(cell_area, check_intersection, check_edge)](/cells/de/python-net/aspose.cells/validation/add_area/#CellArea-bool-bool) | Wendet die Validierung auf den Bereich an.|
 | [set_formula1(formula, is_r1c1, is_local)](/cells/de/python-net/aspose.cells/validation/set_formula1/#str-bool-bool) | Legt den Wert oder Ausdruck fest, der dieser Validierung zugeordnet ist.|
@@ -55,7 +55,7 @@ Der Typ Validation macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CellArea, OperatorType, ValidationType, Workbook

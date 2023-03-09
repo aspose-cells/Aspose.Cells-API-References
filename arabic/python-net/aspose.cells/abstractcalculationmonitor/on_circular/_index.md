@@ -24,9 +24,9 @@ def on_circular(self, circular_cells_data):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| circular_cells_data | collections.abc.Iterator |IEnumerator مع عناصر CalculationCell تمثل الخلايا التي<br/> تعتمد على المراجع الدائرية.|
+| circular_cells_data | collections.abc.Iterator | IEnumerator مع عناصر CalculationCell تمثل الخلايا التي<br/> تعتمد على المراجع الدائرية.|
 ###  ملاحظات
 
 في التطبيق ، قد يقوم المستخدم أيضًا بتعيين القيمة المتوقعة كنتيجة محسوبة

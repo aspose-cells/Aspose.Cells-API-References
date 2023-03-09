@@ -25,7 +25,7 @@ is_root: false
 | COOL_SLANT | Крутой наклон|
 | CROSS | Крест|
 | DIVOT | Дерн|
-| HARD_EDGE | Твердый край|
+| HARD_EDGE | Жесткие края|
 | RELAXED_INSET | Расслабленная вставка|
 | RIBLET | Риблет|
 | SLOPE | Склон|

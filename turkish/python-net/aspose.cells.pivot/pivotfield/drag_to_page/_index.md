@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  drag_to_page mülk
 
-Belirtilen alanın sayfa konumuna sürüklenip sürüklenemeyeceğini belirtir.
+Belirtilen alanın sayfa konumuna sürüklenip sürüklenemeyeceğini gösterir.
 Varsayılan değer doğrudur.
 ###  Tanım:
 ```python

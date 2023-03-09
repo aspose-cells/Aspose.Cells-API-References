@@ -17,7 +17,7 @@ Il valore predefinito è true.
 Disattivare questa proprietà può fornire prestazioni migliori.
 Ma quando il carattere predefinito o specificato di testo/carattere non può essere utilizzato per visualizzarlo,
 caratteri illeggibili (come il blocco) potrebbero verificarsi nel pdf generato.
-Per tale situazione l'utente dovrebbe mantenere questa proprietà come true in modo che
+Per tali situazioni l'utente dovrebbe mantenere questa proprietà come true in modo che
 font alternativo può essere ricercato e utilizzato invece per rendere il testo;
 ###  Definizione:
 ```python

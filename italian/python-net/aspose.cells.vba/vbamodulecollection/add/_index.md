@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-Aggiunge modulo per un foglio di lavoro.
+Aggiunge moduli per un foglio di lavoro.
 
 
 ###  ritorna
@@ -22,7 +22,7 @@ def add(self, sheet):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/it/python-net/aspose.cells/worksheet) | Il foglio di lavoro|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [VbaModuleType](/cells/it/python-net/aspose.cells.vba/vbamoduletype) | Il tipo di modulo.|
 | name | str | Il nome del modulo.|

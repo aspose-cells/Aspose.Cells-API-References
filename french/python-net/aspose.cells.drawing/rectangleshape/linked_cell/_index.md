@@ -11,7 +11,7 @@ is_root: false
 
 Obtient ou définit la plage de feuille de calcul liée à la valeur du contrôle.
 
-###  Exemple
+###  Exemples
 
 ```python
 

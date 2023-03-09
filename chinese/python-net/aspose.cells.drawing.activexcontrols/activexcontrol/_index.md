@@ -1,13 +1,13 @@
 ﻿---
 title: ActiveXControl类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/
 is_root: false
 ---
-##  ActiveXControl类
+## ActiveXControl类
 表示 ActiveX 控件。
 
 

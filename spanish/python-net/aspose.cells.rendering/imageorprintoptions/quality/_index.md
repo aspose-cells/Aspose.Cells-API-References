@@ -10,7 +10,7 @@ is_root: false
 ##  quality propiedad
 
 Obtiene o establece un valor que determina el quality de las imágenes generadas
-para aplicar solo al guardar páginas en el formato `Jpeg`. El valor predeterminado es 100
+para aplicar solo al guardar páginas en el formato `Jpeg`.
 
 ###  Observaciones
 

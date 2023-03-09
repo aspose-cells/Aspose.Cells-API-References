@@ -18,7 +18,7 @@ def delete_range(self, start_row, start_column, end_row, end_column, shift_type)
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | Inizia l'indice della riga.|
 | start_column | int | Inizia l'indice della colonna.|

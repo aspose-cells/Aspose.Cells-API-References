@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/get_dependents_in_calculation/
 is_root: false
 ---
 ##  get_dependents_in_calculation(row, column, recursive) {#int-int-bool}
-Ruft alle Zellen ab, deren berechnetes Ergebnis von einer bestimmten Zelle abhängt.
+Ruft alle Zellen ab, deren berechnetes Ergebnis von bestimmten Zellen abhängt.
 
 
 ###  Kehrt zurück
@@ -24,7 +24,7 @@ def get_dependents_in_calculation(self, row, column, recursive):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| row | int | Zeilenindex der bestimmten Zelle|
+| row | int | Zeilenindex der spezifischen Zelle|
 | column | int | Spaltenindex der spezifischen Zelle.|
 | recursive | bool | Ob gibt die abhängigen Elemente zurück, die nicht direkt auf die bestimmte Zelle verweisen<br/> aber Verweis auf andere Blätter dieser Zelle.|
 ###  Bemerkungen

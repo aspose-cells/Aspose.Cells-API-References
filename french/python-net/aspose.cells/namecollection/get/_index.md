@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | Index de base zéro de l'élément.|
 
@@ -42,7 +42,7 @@ def get(self, text):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | text | str | Texte du nom.|
 

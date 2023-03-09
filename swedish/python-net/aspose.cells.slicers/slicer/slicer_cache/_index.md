@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  slicer_cache fastighet
 
-Returnerar SlicerCache-objektet som är associerat med slicern. Skrivskyddad.
+Returnerar SlicerCache-objektet som är associerat med slicern.
 
 ###  Exempel
 

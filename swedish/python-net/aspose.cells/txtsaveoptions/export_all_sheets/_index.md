@@ -14,7 +14,7 @@ Om det är falskt, exportera bara det aktiva arket, precis som MS Excel.
 
 ###  Anmärkningar
 
-Defult-värdet är falskt.
+Standardvärdet är falskt.
 ###  Definition:
 ```python
 @property

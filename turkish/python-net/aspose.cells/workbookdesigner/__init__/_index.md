@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Şablon çalışma kitabı dosyası.|
 

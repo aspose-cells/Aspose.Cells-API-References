@@ -22,7 +22,7 @@ def add_auto_shape_in_chart(self, type, top, left, height, width):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/ar/python-net/aspose.cells.drawing/autoshapetype) | نوع الشكل التلقائي.|
 | top | int | يمثل الإزاحة الرأسية لمربع النص من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.|

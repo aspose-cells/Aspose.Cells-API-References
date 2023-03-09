@@ -22,7 +22,7 @@ def get_matching_color(self, raw_color):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | raw_color | aspose.pydrawing.Color | Rå färg.|
 

@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Observaciones
 
-Se crea una matriz de cadenas en cada llamada. La matriz se ordena y los valores duplicados se eliminan.
+Se crea una matriz de cadenas en cada llamada.
 
 
 ###  Ver también

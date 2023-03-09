@@ -18,7 +18,7 @@ def close_stream(self, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | options | [StreamProviderOptions](/cells/fr/python-net/aspose.cells/streamprovideroptions) |  |
 

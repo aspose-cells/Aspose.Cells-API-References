@@ -50,7 +50,7 @@ def add_copy(self, sheet_index):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| sheet_index | int | Index des Quellarbeitsblatts.|
+| sheet_index | int | Arbeitsblatt Quellenverzeichnis.|
 
 
 

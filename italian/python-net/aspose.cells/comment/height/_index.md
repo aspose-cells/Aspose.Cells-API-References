@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta l'altezza del commento, in unità di pixel.
 
-###  Esempio
+###  Esempi
 
 ```python
 

@@ -18,7 +18,7 @@ def remove_area(self, cell_area):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | bu doğrulama ayarlarının kaldırılması gereken alanlar.|
 

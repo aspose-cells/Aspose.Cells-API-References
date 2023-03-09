@@ -13,7 +13,7 @@ Hämtar alla prejudikat (referens till celler i aktuell arbetsbok) som används 
 
 ###  Returnerar
 
-Enumerator för att räkna upp alla referenser (ReferredArea)
+Enumerator för att räkna upp alla referenser (Refererat område)
 
 
 ```python

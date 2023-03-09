@@ -20,7 +20,7 @@ is_root: false
 | CONTAINS | Cell قيمة تحتوي على عنصر البحث.|
 | START_WITH | قيمة Cell تبدأ بعنصر البحث.|
 | END_WITH | تنتهي قيمة Cell بعنصر البحث.|
-| ENTIRE_CONTENT |قيمة Cell مماثلة لعنصر البحث.|
+| ENTIRE_CONTENT | قيمة Cell هي نفس قيمة عنصر البحث.|
 
 
 

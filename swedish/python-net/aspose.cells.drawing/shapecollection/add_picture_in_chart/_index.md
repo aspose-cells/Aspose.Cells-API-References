@@ -22,9 +22,9 @@ def add_picture_in_chart(self, top, left, stream, width_scale, height_scale):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| top | int | Representerar den vertikala förskjutningen av formen från det övre vänstra hörnet i enheter på 1/4000 av diagramytan.|
+| top | int |Representerar den vertikala förskjutningen av formen från det övre vänstra hörnet i enheter på 1/4000 av diagramytan.|
 | left | int | Representerar den horisontella förskjutningen av formen från det övre vänstra hörnet i enheter på 1/4000 av diagramytan.|
 | stream | io.RawIOBase | Strömobjekt som innehåller bilddata.|
 | width_scale | int | Skala på bildens bredd, en procentandel.|

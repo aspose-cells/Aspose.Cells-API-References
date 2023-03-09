@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/cells/group_columns/
 is_root: false
 ---
 ##  group_columns(first_index, last_index) {#int-int}
-Regroupe les colonnes.
+Colonnes de groupe.
 
 
 
@@ -18,14 +18,14 @@ def group_columns(self, first_index, last_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | first_index | int | Le premier index de colonne à regrouper.|
 | last_index | int | Le dernier index de colonne à regrouper.|
 
 
 ##  group_columns(first_index, last_index, is_hidden) {#int-int-bool}
-Regroupe les colonnes.
+Colonnes de groupe.
 
 
 
@@ -35,7 +35,7 @@ def group_columns(self, first_index, last_index, is_hidden):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | first_index | int | Le premier index de colonne à regrouper.|
 | last_index | int | Le dernier index de colonne à regrouper.|

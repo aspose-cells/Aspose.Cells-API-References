@@ -11,7 +11,7 @@ is_root: false
 
 Представляет шкалу основных единиц для оси категорий.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

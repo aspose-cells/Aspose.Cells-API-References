@@ -18,9 +18,9 @@ def set_formula2(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| formula | str | Bu biçim koşuluyla ilişkili değer veya ifade.<br/>Girilen değer '=' ile başlıyorsa, formül olarak alınacaktır. Aksi takdirde düz değer(metin, sayı, bool) olarak alınacaktır.<br/> '=' ile başlayan metin değeri için, kullanıcı bunu şu biçimde formül olarak girebilir: "=\"=...\"".|
+| formula | str | Bu biçim koşuluyla ilişkili değer veya ifade.<br/>Girilen değer '=' ile başlıyorsa, formül olarak alınacaktır.<br/> '=' ile başlayan metin değeri için, kullanıcı bunu şu biçimde formül olarak girebilir: "=\"=...\"".|
 | is_r1c1 | bool | Formülün R1C1 formülü olup olmadığı.|
 | is_local | bool | Formülün yerel biçimlendirilmiş olup olmadığı.|
 

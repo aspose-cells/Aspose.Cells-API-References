@@ -22,13 +22,13 @@ def add(self, url):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | url | str | عنوان url / مسار ملف xml / xsd.|
 
-###  مثال
+###  أمثلة
 
-تضيف التعليمة البرمجية التالية خبقتين XmlMaps بواسطة ملف xsd وملف xml.
+تضيف التعليمة البرمجية التالية جهازي XmlMaps بواسطة ملف xsd وملف xml.
 
 ```python
 from aspose.cells import Workbook

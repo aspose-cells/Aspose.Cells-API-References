@@ -11,7 +11,7 @@ is_root: false
 
 height şeklinin piksel birimi cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

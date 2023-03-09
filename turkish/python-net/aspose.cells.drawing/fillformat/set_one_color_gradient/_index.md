@@ -19,12 +19,12 @@ def set_one_color_gradient(self, color, degree, style, variant):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Bir degrade renk.|
-| degree | float | Gradyan derecesi. 0,0 (koyu) ile 1,0 (açık) arasında bir değer olabilir.|
+| degree | float | Gradyan derecesi 0,0 (koyu) ile 1,0 (açık) arasında bir değer olabilir.|
 | style | [GradientStyleType](/cells/tr/python-net/aspose.cells.drawing/gradientstyletype) | Degrade gölgeleme stili.|
-| variant | int |Gradyan varyantı. Dolgu Efektleri iletişim kutusundaki Degrade sekmesindeki dört değişkenden birine karşılık gelen 1 ile 4 arasında bir değer olabilir. Stil GradientStyle.FromCenter ise, Variant bağımsız değişkeni yalnızca 1 veya 2 olabilir.|
+| variant | int |Degrade varyantı. Dolgu Efektleri iletişim kutusundaki Degrade sekmesindeki dört varyanttan birine karşılık gelen 1 ile 4 arasında bir değer olabilir. Stil GradientStyle.FromCenter ise, Variant bağımsız değişkeni yalnızca 1 veya 2 olabilir.|
 
 
 

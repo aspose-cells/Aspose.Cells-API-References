@@ -15,7 +15,7 @@ Représente le décalage vertical de la forme par rapport à la bordure supérie
 
 S'applique uniquement lorsque cette forme se trouve dans le groupe ou le graphique.
 
-###  Exemple
+###  Exemples
 
 ```python
 

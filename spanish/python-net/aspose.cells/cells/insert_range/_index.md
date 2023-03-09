@@ -18,7 +18,7 @@ def insert_range(self, area, shift_type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | Zona de turnos.|
 | shift_type | [ShiftType](/cells/es/python-net/aspose.cells/shifttype) | Opción de cambio de celdas.|
@@ -35,10 +35,10 @@ def insert_range(self, area, shift_number, shift_type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | Zona de turnos.|
-| shift_number | int |Número de filas o columnas a insertar.|
+| shift_number | int | Número de filas o columnas a insertar.|
 | shift_type | [ShiftType](/cells/es/python-net/aspose.cells/shifttype) | Opción de cambio de celdas.|
 
 
@@ -53,10 +53,10 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | Zona de turnos.|
-| shift_number | int |Número de filas o columnas a insertar.|
+| shift_number | int | Número de filas o columnas a insertar.|
 | shift_type | [ShiftType](/cells/es/python-net/aspose.cells/shifttype) | Opción de cambio de celdas.|
 | update_reference | bool | Indica si actualizar referencias en otras hojas de cálculo.|
 

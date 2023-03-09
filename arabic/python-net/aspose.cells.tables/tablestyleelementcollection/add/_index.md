@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [TableStyleElementType](/cells/ar/python-net/aspose.cells.tables/tablestyleelementtype) | نوع العنصر|
 

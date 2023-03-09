@@ -22,7 +22,7 @@ def add(self, data, shema_data):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | data | bytes | Il contenuto XML di questa parte di archiviazione dati XML personalizzata.|
 | shema_data | bytes | Il set di schemi XML associati a questa parte XML personalizzata.|

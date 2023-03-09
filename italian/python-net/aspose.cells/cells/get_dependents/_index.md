@@ -22,7 +22,7 @@ def get_dependents(self, is_all, row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_all | bool | Indica se controllare altri fogli di lavoro|
 | row | int | L'indice di riga.|

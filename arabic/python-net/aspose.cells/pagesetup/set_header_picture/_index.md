@@ -22,9 +22,9 @@ def set_header_picture(self, section, header_picture):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| section | int |0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
+| section | int | 0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
 | header_picture | bytes | بيانات الصورة.|
 
 

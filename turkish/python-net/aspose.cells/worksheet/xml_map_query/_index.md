@@ -22,10 +22,10 @@ def xml_map_query(self, path, xml_map):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | path | str | xml öğe yolu|
-| xml_map | [XmlMap](/cells/tr/python-net/aspose.cells/xmlmap) | Belirli bir harita içindeki belirli yolu sorgulamak istiyorsanız, bir xml haritası belirtin.|
+| xml_map | [XmlMap](/cells/tr/python-net/aspose.cells/xmlmap) |Belirli bir harita içindeki belirli yolu sorgulamak istiyorsanız, bir xml haritası belirtin.|
 
 
 

@@ -13,7 +13,7 @@ makroları etkinleştir;
 
 ###  Notlar
 
-Artık yalnızca bir çalışma sayfasını çalışma kitabındaki başka bir çalışma sayfasına kopyalarken çalışıyor.
+Artık yalnızca bir çalışma sayfasını çalışma kitabındaki başka bir çalışma sayfasına kopyalarken çalışır.
 ###  Tanım:
 ```python
 @property

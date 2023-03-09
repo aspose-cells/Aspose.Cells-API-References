@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ShapePathType](/cells/sv/python-net/aspose.cells.drawing/shapepathtype) | Typ av väg.|
 

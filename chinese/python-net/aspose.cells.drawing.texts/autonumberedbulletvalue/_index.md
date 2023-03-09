@@ -1,13 +1,13 @@
 ﻿---
 title: AutoNumberedBulletValue类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
-##  AutoNumberedBulletValue类
+## AutoNumberedBulletValue类
 表示自动编号的项目符号。
 
 

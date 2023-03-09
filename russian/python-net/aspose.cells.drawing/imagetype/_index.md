@@ -24,13 +24,13 @@ is_root: false
 | JPEG | JPEG ЖФИФ.|
 | PNG | Портативная сетевая графика.|
 | BMP | Windows Растровое изображение|
-| GIF | гифка|
+| GIF | гифки|
 | TIFF | размолвка|
 | SVG | Свг|
 | SVM | Свм|
-| GLTF | глтф|
+| GLTF | glTFMore|
 | OFFICE_COMPATIBLE_EMF | Windows Расширенный метафайл, более совместимый с Office.|
-| WEB_P | Weppy формат изображения|
+| WEB_P |Weppy формат изображения|
 
 
 

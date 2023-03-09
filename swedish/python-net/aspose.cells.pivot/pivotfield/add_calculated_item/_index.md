@@ -18,7 +18,7 @@ def add_calculated_item(self, name, formula):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Objektets namn.|
 | formula | str | Objektets formel|

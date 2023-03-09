@@ -19,14 +19,14 @@ def to_image(self, image_file):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | image_file | str | El nombre del archivo de imagen con la ruta completa.|
 ###  Observaciones
 
 El formato de la imagen se especifica utilizando la extensión del nombre del archivo.
 Por ejemplo, si especifica "miarchivo.png", la imagen se guardará
- en el formato PNG. Se reconocen las siguientes extensiones de archivo:
+ en el formato PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
@@ -43,7 +43,7 @@ def to_image(self, image_file, image_type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | image_file | str | El nombre del archivo de imagen con la ruta completa.|
 | image_type | aspose.cells.drawing.ImageType | El tipo de imagen en el que guardar la imagen.|
@@ -67,7 +67,7 @@ def to_image(self, image_file, jpeg_quality):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | image_file | str | El nombre del archivo de imagen con la ruta completa.|
 | jpeg_quality | int | Calidad JPEG.|
@@ -87,7 +87,7 @@ def to_image(self, stream, jpeg_quality):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | El flujo de salida.|
 | jpeg_quality | int | Calidad JPEG.|
@@ -107,7 +107,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | El flujo de salida.|
 | image_type | aspose.cells.drawing.ImageType | El tipo de imagen en el que guardar la imagen.|
@@ -132,7 +132,7 @@ def to_image(self, image_file, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | image_file | str | El nombre del archivo de imagen con la ruta completa.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Opciones adicionales de creación de imágenes|
@@ -140,15 +140,15 @@ def to_image(self, image_file, options):
 
 El formato de la imagen se especifica utilizando la extensión del nombre del archivo.
 Por ejemplo, si especifica "miarchivo.png", la imagen se guardará
- en el formato PNG. Se reconocen las siguientes extensiones de archivo:
+ en el formato PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
 Si el ancho o la altura es cero o el gráfico no es compatible de acuerdo con la Lista de gráficos compatibles, este método no hará nada.
- Por favor refiérase a[Lista de gráficos admitidos](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) para más detalles.
-###  Ejemplo
+ Por favor refiérase a[Lista de gráficos admitidos](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)para más detalles.
+###  Ejemplos
 
-Guarda en Tiff con 300 dpi y compresión CCITT4.
+Guarda en Tiff con 300 ppp y compresión CCITT4.
 
 ```python
 from aspose.cells import Workbook
@@ -191,19 +191,19 @@ def to_image(self, stream, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | El flujo de salida.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Opciones adicionales de creación de imágenes|
 ###  Observaciones
 
 El tipo de imagen se especifica utilizando `options.ImageType`.
-Se admiten los siguientes formatos:
+ Se admiten los siguientes formatos:
 ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 
 Si el ancho o la altura es cero o el gráfico no es compatible de acuerdo con la Lista de gráficos compatibles, este método no hará nada.
- Por favor refiérase a[Lista de gráficos admitidos](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) para más detalles.
+ Por favor refiérase a[Lista de gráficos admitidos](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)para más detalles.
 
 
 ###  Ver también

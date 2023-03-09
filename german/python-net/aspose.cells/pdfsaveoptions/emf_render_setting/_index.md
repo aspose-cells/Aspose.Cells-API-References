@@ -13,7 +13,7 @@ Einstellung zum Rendern der EMF-Metadatei.
 
 ###  Bemerkungen
 
-EMF-Metadateien, die als „EMF+ Dual“ gekennzeichnet sind, können sowohl EMF+-Datensätze als auch EMF-Datensätze enthalten.
+ EMF-Metadateien, die als „EMF+ Dual“ gekennzeichnet sind, können sowohl EMF+-Datensätze als auch EMF-Datensätze enthalten.
 Beide Arten von Datensätzen können zum Rendern des Bildes verwendet werden, nur EMF+ Datensätze oder nur EMF Datensätze.
 Wenn [EmfRenderSetting.EMF_PLUS_PREFER](/cells/de/python-net/aspose.cells/emfrendersetting#EMF_PLUS_PREFER) festgelegt ist, werden mehr als EMF-Datensätze beim Rendern in PDF analysiert, andernfalls werden nur EMF-Datensätze analysiert.
 Der Standardwert ist [EmfRenderSetting.EMF_ONLY](/cells/de/python-net/aspose.cells/emfrendersetting#EMF_ONLY).

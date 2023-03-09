@@ -22,7 +22,7 @@ def get_row(self, row):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Indice de ligne|
 

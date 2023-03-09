@@ -15,7 +15,7 @@ Hücrelerde sadece basit bir referans dizini vardır.
 
 ###  İadeler
 
-Havuzdaki stil, verilen dizine karşılık gelir, boş olabilir.
+Havuzdaki stil, belirli bir dizine karşılık gelir, boş olabilir.
 
 
 ```python
@@ -24,12 +24,12 @@ def get_style_in_pool(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | İçerik.|
 ###  Notlar
 
-Döndürülen stil değiştirilirse, (bu stile atıfta bulunan) tüm hücrelerin stili değişecektir.
+Döndürülen stil değiştirilirse, (bu stile atıfta bulunan) tüm hücrelerin stili değişir.
 
 
 ###  Ayrıca bakınız

@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo, en unidades de píxeles.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

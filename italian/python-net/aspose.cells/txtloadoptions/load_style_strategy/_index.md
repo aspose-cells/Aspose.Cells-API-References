@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  load_style_strategy proprietà
 
-Indica la strategia per applicare lo stile ai valori analizzati durante la conversione del valore stringa in numero o data/ora.
+Indica la strategia per applicare lo stile per i valori analizzati durante la conversione del valore stringa in numero o data/ora.
 ###  Definizione:
 ```python
 @property

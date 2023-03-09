@@ -20,7 +20,7 @@ Le type TextCrossType expose les membres suivants :
 | DEFAULT | Afficher le texte comme dans Microsoft Excel.|
 | CROSS_KEEP | Affichez tout le texte en croisant d'autres cellules et conservez le texte des cellules croisées.|
 | CROSS_OVERRIDE | Affichez tout le texte en croisant d'autres cellules et remplacez le texte des cellules croisées.|
-| STRICT_IN_CELL | Afficher uniquement le texte dans la largeur de la cellule.|
+| STRICT_IN_CELL | Affichez uniquement le texte dans la largeur de la cellule.|
 
 
 

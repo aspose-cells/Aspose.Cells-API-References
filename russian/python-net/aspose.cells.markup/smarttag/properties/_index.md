@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  properties недвижимость
 
-Получает и устанавливает properties смарт-тега.
+Получает и задает properties смарт-тега.
 ###  Определение:
 ```python
 @property

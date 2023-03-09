@@ -1,6 +1,6 @@
 ﻿---
 title: column_indexes 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## column_indexes 属性
 
-获取或设置要从数据源导入的列（从 0 开始）。 null 表示应导入所有列。
+获取或设置要从数据源导入的列（从 0 开始）。null 表示应导入所有列。
 ### 定义：
 ```python
 @property

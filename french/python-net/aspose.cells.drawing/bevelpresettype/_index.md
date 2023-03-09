@@ -25,7 +25,7 @@ Le type BevelPresetType expose les membres suivants :
 | COOL_SLANT | Pente froide|
 | CROSS | Croix|
 | DIVOT | Divot|
-| HARD_EDGE | Bord dur|
+| HARD_EDGE | Bords durs|
 | RELAXED_INSET | Insert décontracté|
 | RIBLET | Riblet|
 | SLOPE | Pente|

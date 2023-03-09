@@ -1,6 +1,6 @@
 ﻿---
 title: set_even_footer方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 130
@@ -19,9 +19,9 @@ def set_even_footer(self, section, footer_script):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| section | int |0：左部分，1：中部分，2：右部分。|
+| section | int | 0：左部分，1：中部分，2：右部分。|
 | footer_script | str |页脚格式脚本。|
 
 

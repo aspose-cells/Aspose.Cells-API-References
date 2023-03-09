@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_bubble_size proprietà
 
-Rappresenta il comportamento di visualizzazione del valore percentuale dell'etichetta dati di un grafico specificato. True visualizza il valore percentuale. Falso da nascondere.
+Rappresenta il comportamento di visualizzazione del valore percentuale dell'etichetta dati di un grafico specificato. True visualizza il valore percentuale. False per nascondere.
 ###  Definizione:
 ```python
 @property

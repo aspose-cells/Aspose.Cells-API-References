@@ -1,6 +1,6 @@
 ﻿---
 title: first_visible_row_of_bottom_pane 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50

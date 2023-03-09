@@ -39,7 +39,7 @@ def refresh(self, hide_rows):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | hide_rows | bool | Si vrai, masque les lignes filtrées.|
 

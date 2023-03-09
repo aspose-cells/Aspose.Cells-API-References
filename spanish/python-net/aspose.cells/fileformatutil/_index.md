@@ -28,7 +28,7 @@ El tipo FileFormatUtil expone los siguientes miembros:
 | [load_format_to_extension(load_format)](/cells/es/python-net/aspose.cells/fileformatutil/load_format_to_extension/#LoadFormat) | Convierte un valor enumerado de formato de carga en una extensión de archivo.|
 | [load_format_to_save_format(load_format)](/cells/es/python-net/aspose.cells/fileformatutil/load_format_to_save_format/#LoadFormat) | Convierte un valor de LoadFormat en un valor de SaveFormat si es posible.|
 | [save_format_to_extension(format)](/cells/es/python-net/aspose.cells/fileformatutil/save_format_to_extension/#SaveFormat) | Convierte un valor enumerado de formato guardado en una extensión de archivo.|
-| [save_format_to_load_format(save_format)](/cells/es/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) |Convierte un valor de SaveFormat en un valor de LoadFormat si es posible.|
+| [save_format_to_load_format(save_format)](/cells/es/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) | Convierte un valor de SaveFormat en un valor de LoadFormat si es posible.|
 
 
 

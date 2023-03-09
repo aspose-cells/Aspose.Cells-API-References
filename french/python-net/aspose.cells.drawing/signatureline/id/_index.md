@@ -11,7 +11,7 @@ is_root: false
 
 Obtient ou définit l'identifiant de cette ligne de signature.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import SignatureLine

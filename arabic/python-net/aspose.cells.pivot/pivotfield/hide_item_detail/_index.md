@@ -18,7 +18,7 @@ def hide_item_detail(self, index, is_hidden_detail):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس العنصر المحوري في الحقل المحوري.|
 | is_hidden_detail | bool | ما إذا كان PivotItem المحدد مخفيًا|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  allow_formatting_cell propiedad
 
-Representa si se permite el formato de celdas en una hoja de cálculo protegida.
+Representa si se permite el formato de celdas en una hoja de trabajo protegida.
 ###  Definición:
 ```python
 @property

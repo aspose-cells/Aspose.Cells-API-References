@@ -22,7 +22,7 @@ def get_relationship_data(self, rel_id):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | rel_id | str | L'identificazione della relazione.|
 

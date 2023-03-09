@@ -14,7 +14,7 @@ is_root: false
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
+ ПРИМЕЧАНИЕ. Этот элемент устарел.
 пожалуйста, используйте [Worksheet.auto_fit_columns()](/cells/ru/python-net/aspose.cells/worksheet/auto_fit_columns) и [Worksheet.auto_fit_rows()](/cells/ru/python-net/aspose.cells/worksheet/auto_fit_rows).
  Это свойство будет удалено через 12 месяцев, начиная с августа 2022 года.
 Aspose приносит извинения за возможные неудобства.

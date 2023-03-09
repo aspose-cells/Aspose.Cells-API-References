@@ -12,7 +12,7 @@ is_root: false
 Представляет способ прикрепления объекта рисования к ячейкам под ним.
 Свойство управляет placement объекта на листе.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import PlacementType

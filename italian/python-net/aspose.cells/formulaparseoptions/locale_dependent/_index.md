@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  locale_dependent proprietà
 
-Se la formula è in formato locale. L'impostazione predefinita è false.
+Indica se la formula è formattata in locale. L'impostazione predefinita è false.
 ###  Definizione:
 ```python
 @property

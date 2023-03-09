@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility fastighet
 
-Anger om du kontrollerar kompatibilitet med tidigare versioner när du sparar arbetsboken.
+Anger om du kontrollerar kompatibilitet med tidigare versioner när du sparar arbetsböcker.
 
 ###  Anmärkningar
 

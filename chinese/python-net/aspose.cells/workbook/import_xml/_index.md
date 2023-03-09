@@ -1,6 +1,6 @@
 ﻿---
 title: import_xml方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 220
@@ -18,7 +18,7 @@ def import_xml(self, url, sheet_name, row, col):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | url | str | xml 文件的 url/路径。|
 | sheet_name | str |目标工作表名称。|
@@ -50,7 +50,7 @@ def import_xml(self, stream, sheet_name, row, col):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase | xml文件流。|
 | sheet_name | str |目标工作表名称。|

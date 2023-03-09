@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_autofilter fastighet
 
-Indikerar om detta kalkylblad har autofilter.
+Anger om detta kalkylblad har ett autofilter.
 ###  Definition:
 ```python
 @property

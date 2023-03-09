@@ -27,7 +27,7 @@ def process_cell(self, cell):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Cell şu anda işlenmekte olan nesne|
 ###  Notlar

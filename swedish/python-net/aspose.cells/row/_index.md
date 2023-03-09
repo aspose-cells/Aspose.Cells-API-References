@@ -19,16 +19,16 @@ Typen Row avslöjar följande medlemmar:
 | :- | :- |
 | [is_blank](/cells/sv/python-net/aspose.cells/row/is_blank) | Anger om raden innehåller data|
 | [is_collapsed](/cells/sv/python-net/aspose.cells/row/is_collapsed) | om raden är kollapsad|
-| [height](/cells/sv/python-net/aspose.cells/row/height) | Hämtar och ställer in radhöjden i poängenhet.|
+| [height](/cells/sv/python-net/aspose.cells/row/height) | Hämtar och ställer in radhöjden i enheter av poäng.|
 | [is_hidden](/cells/sv/python-net/aspose.cells/row/is_hidden) | Indikerar om raden är dold.|
 | [index](/cells/sv/python-net/aspose.cells/row/index) | Hämtar indexet för den här raden.|
-| [group_level](/cells/sv/python-net/aspose.cells/row/group_level) | Får radens gruppnivå.|
-| [is_height_matched](/cells/sv/python-net/aspose.cells/row/is_height_matched) | Indikerar att radhöjd och standardfonthöjd matchar.|
+| [group_level](/cells/sv/python-net/aspose.cells/row/group_level) | Hämtar radens gruppnivå.|
+| [is_height_matched](/cells/sv/python-net/aspose.cells/row/is_height_matched) |Indikerar att radhöjd och standardfonthöjd matchar.|
 | [style](/cells/sv/python-net/aspose.cells/row/style) | Representerar stilen på den här raden.|
 | [has_custom_style](/cells/sv/python-net/aspose.cells/row/has_custom_style) | Indikerar om den här raden har anpassade stilinställningar (som skiljer sig från standarden som ärvts från arbetsboken).|
 | [first_cell](/cells/sv/python-net/aspose.cells/row/first_cell) | Hämtar det första cellobjektet i raden.|
 | [first_data_cell](/cells/sv/python-net/aspose.cells/row/first_data_cell) | Får den första icke-tomma cellen i raden.|
-| [last_cell](/cells/sv/python-net/aspose.cells/row/last_cell) |Hämtar det sista cellobjektet i raden.|
+| [last_cell](/cells/sv/python-net/aspose.cells/row/last_cell) | Hämtar det sista cellobjektet i raden.|
 | [last_data_cell](/cells/sv/python-net/aspose.cells/row/last_data_cell) | Hämtar den sista icke-tomma cellen i raden.|
 
 

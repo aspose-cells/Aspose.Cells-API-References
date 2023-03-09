@@ -19,14 +19,14 @@ Il tipo DataSorter espone i membri seguenti:
 | :- | :- |
 | [keys](/cells/it/python-net/aspose.cells/datasorter/keys) | Ottiene l'elenco delle chiavi dell'ordinatore dati.|
 | [has_headers](/cells/it/python-net/aspose.cells/datasorter/has_headers) | Indica se l'intervallo ha intestazioni.|
-| [key1](/cells/it/python-net/aspose.cells/datasorter/key1) |Rappresenta l'indice della prima colonna ordinata (posizione assoluta, la colonna A è 0, B è 1, ...).|
+| [key1](/cells/it/python-net/aspose.cells/datasorter/key1) | Rappresenta l'indice della prima colonna ordinata (posizione assoluta, la colonna A è 0, B è 1, ...).|
 | [order1](/cells/it/python-net/aspose.cells/datasorter/order1) | Rappresenta l'ordinamento della prima chiave.|
 | [key2](/cells/it/python-net/aspose.cells/datasorter/key2) | Rappresenta l'indice della seconda colonna ordinata (posizione assoluta, la colonna A è 0, B è 1, ...).|
 | [order2](/cells/it/python-net/aspose.cells/datasorter/order2) | Rappresenta l'ordinamento della seconda chiave.|
 | [key3](/cells/it/python-net/aspose.cells/datasorter/key3) | Rappresenta l'indice della terza colonna ordinata (posizione assoluta, la colonna A è 0, B è 1, ...).|
 | [order3](/cells/it/python-net/aspose.cells/datasorter/order3) | Rappresenta l'ordinamento della terza chiave.|
 | [sort_left_to_right](/cells/it/python-net/aspose.cells/datasorter/sort_left_to_right) | Vero significa che l'orientamento dell'ordinamento è da sinistra a destra.<br/>Falso significa che l'orientamento dell'ordinamento è dall'alto verso il basso.<br/> Il valore predefinito è falso.|
-| [case_sensitive](/cells/it/python-net/aspose.cells/datasorter/case_sensitive) | Ottiene e imposta la distinzione tra maiuscole e minuscole durante il confronto di stringhe.|
+| [case_sensitive](/cells/it/python-net/aspose.cells/datasorter/case_sensitive) | Ottiene e imposta la distinzione tra maiuscole e minuscole durante il confronto delle stringhe.|
 | [sort_as_number](/cells/it/python-net/aspose.cells/datasorter/sort_as_number) | Indica se ordinare qualcosa che assomiglia a un numero.|
 
 
@@ -44,7 +44,7 @@ Il tipo DataSorter espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellArea, SortOrder, Workbook

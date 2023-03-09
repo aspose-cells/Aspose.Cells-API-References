@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preferred_parsers proprietà
 
-Ottiene e imposta i parser di valori preferiti per il caricamento del file di testo.
+Ottiene e imposta i parser di valori preferiti per il caricamento dei file di testo.
 
 ###  Osservazioni
 

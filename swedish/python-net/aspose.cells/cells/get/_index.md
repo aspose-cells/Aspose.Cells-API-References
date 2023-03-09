@@ -22,9 +22,9 @@ def get(self, cell_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| cell_name | str |Cell namn, inklusive dess kolumnbokstav och radnummer, till exempel A5.|
+| cell_name | str | Cell namn, inklusive dess kolumnbokstav och radnummer, till exempel A5.|
 
 
 ##  get(row, column) {#int-int}
@@ -42,7 +42,7 @@ def get(self, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 | column | int | Kolumnindex.|

@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_inch propiedad
 
-Representa el ancho de la forma, en unidades de pulgada.
+Representa el ancho de la forma, en unidades de pulgadas.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

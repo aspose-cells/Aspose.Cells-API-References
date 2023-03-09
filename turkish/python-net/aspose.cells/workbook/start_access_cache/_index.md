@@ -18,7 +18,7 @@ def start_access_cache(self, opts):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | opts | [AccessCacheOptions](/cells/tr/python-net/aspose.cells/accesscacheoptions) | veri erişim seçenekleri|
 ###  Notlar

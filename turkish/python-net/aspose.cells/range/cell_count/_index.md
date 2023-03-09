@@ -15,7 +15,7 @@ Aralıktaki tüm hücre sayısını alır.
 
  NOT: Bu özellik artık kullanılmamaktadır.
 Bunun yerine, toplam hücre sayısını almak için lütfen RowCount ve ColumnCount kullanın.
-Bu mülk, Şubat 2021'den itibaren 12 ay sonra kaldırılacaktır.
+ Bu mülk, Şubat 2021'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:
 ```python

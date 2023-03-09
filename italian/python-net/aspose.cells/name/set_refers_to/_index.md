@@ -18,10 +18,10 @@ def set_refers_to(self, refers_to, is_r1c1, is_local):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | refers_to | str | Il riferimento.|
-| is_r1c1 | bool | Se il riferimento è in formato R1C1.|
+| is_r1c1 | bool |Se il riferimento è in formato R1C1.|
 | is_local | bool | Se il riferimento è in formato locale.|
 
 

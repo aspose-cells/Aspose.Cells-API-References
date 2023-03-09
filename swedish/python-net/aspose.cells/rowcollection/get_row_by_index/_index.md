@@ -22,7 +22,7 @@ def get_row_by_index(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Positionen.|
 

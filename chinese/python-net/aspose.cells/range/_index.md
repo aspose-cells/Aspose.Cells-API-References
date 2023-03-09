@@ -1,13 +1,13 @@
 ﻿---
 title: Range类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1250
 url: /zh/python-net/aspose.cells/range/
 is_root: false
 ---
-##  Range类
+## Range类
 封装表示电子表格中一系列单元格的对象。
 
 
@@ -42,8 +42,8 @@ Range 类型公开了以下成员：
 ### 方法
 |方法|描述|
 | :- | :- |
-| [auto_fill(target)](/cells/zh/python-net/aspose.cells/range/auto_fill/#Range) |自动填充目标范围。|
-| [auto_fill(target, auto_fill_type)](/cells/zh/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) |自动填充目标范围。|
+| [auto_fill(target)](/cells/zh/python-net/aspose.cells/range/auto_fill/#Range) |自动全部填满目标范围。|
+| [auto_fill(target, auto_fill_type)](/cells/zh/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) |自动全部填满目标范围。|
 | [set_style(style, explicit_flag)](/cells/zh/python-net/aspose.cells/range/set_style/#Style-bool) |应用单元格样式。|
 | [set_style(style)](/cells/zh/python-net/aspose.cells/range/set_style/#Style) |设置范围的样式。|
 | [set_outline_borders(border_style, border_color)](/cells/zh/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) |在具有相同边框样式和颜色的一系列单元格周围设置轮廓边框。|

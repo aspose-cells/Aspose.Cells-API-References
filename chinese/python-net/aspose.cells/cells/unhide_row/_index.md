@@ -1,6 +1,6 @@
 ﻿---
 title: unhide_row方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 990
@@ -18,10 +18,10 @@ def unhide_row(self, row, height):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | row | int |行索引。|
-| height | float |行高。只有当行被隐藏并且给定高度值为正时，行的高度才会改变。|
+| height | float |行高，只有当行被隐藏且给定高度值为正时，行高才会改变。|
 
 
 

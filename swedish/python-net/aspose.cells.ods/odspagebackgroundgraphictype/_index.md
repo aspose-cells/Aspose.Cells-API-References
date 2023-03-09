@@ -19,7 +19,7 @@ Typen OdsPageBackgroundGraphicType avslöjar följande medlemmar:
 | :- | :- |
 | POSITION | Ställ in bilden på en viss position.|
 | AREA | Sträck ut bilden.|
-| TILE | Upprepa och upprepa bilden.|
+| TILE |Upprepa och upprepa bilden.|
 
 
 

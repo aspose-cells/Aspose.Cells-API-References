@@ -18,10 +18,10 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | obj_array | list | Matrice di dati.|
-| first_row | int |Il numero di riga della prima cella in cui importare.|
+| first_row | int | Il numero di riga della prima cella in cui importare.|
 | first_column | int | Il numero di colonna della prima cella in cui importare.|
 | is_vertical | bool | Specifica di importare i dati verticalmente o orizzontalmente.|
 
@@ -37,10 +37,10 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical, s
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | obj_array | list | Matrice di dati.|
-| first_row | int |Il numero di riga della prima cella in cui importare.|
+| first_row | int | Il numero di riga della prima cella in cui importare.|
 | first_column | int | Il numero di colonna della prima cella in cui importare.|
 | is_vertical | bool | Specifica di importare i dati verticalmente o orizzontalmente.|
 | skip | int | Numero di righe o colonne ignorate.|

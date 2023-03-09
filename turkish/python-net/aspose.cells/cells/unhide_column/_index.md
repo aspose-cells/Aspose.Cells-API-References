@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/unhide_column/
 is_root: false
 ---
 ##  unhide_column(column, width) {#int-float}
-Bir sütunu gösterir
+Bir sütunu göster
 
 
 
@@ -18,7 +18,7 @@ def unhide_column(self, column, width):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 | width | float | Sütun genişliği.|

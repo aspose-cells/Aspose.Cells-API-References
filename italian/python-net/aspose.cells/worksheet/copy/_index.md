@@ -18,7 +18,7 @@ def copy(self, source_sheet):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/it/python-net/aspose.cells/worksheet) | Foglio di lavoro di origine.|
 
@@ -34,13 +34,13 @@ def copy(self, source_sheet, copy_options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/it/python-net/aspose.cells/worksheet) | Foglio di lavoro di origine.|
 | copy_options | [CopyOptions](/cells/it/python-net/aspose.cells/copyoptions) |  |
 ###  Osservazioni
 
-È possibile copy dati da un altro foglio di lavoro nello stesso file o in un altro file. Tuttavia, questo metodo non supporta gli oggetti di disegno copy, come commenti, immagini e grafici.
+È possibile copy dati da un altro foglio di lavoro nello stesso file o in un altro file.
 
 
 ###  Guarda anche

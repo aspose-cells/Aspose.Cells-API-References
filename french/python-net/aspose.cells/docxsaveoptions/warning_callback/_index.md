@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback propriété
 
-Obtient ou définit un rappel d'avertissement.
+Obtient ou définit des rappels d'avertissement.
 ###  Définition:
 ```python
 @property

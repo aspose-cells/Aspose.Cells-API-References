@@ -1,6 +1,6 @@
 ﻿---
 title: remove_condition方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -18,7 +18,7 @@ def remove_condition(self, index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | index | int |要删除的格式化条件的索引。|
 

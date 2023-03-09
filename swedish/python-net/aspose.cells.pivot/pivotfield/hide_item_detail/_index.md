@@ -18,7 +18,7 @@ def hide_item_detail(self, index, is_hidden_detail):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | indexet för pivotItem i pivotfältet.|
 | is_hidden_detail | bool | om den specifika PivotItem är dold|

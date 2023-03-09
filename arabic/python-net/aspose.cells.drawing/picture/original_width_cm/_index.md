@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على عرض الصورة الأصلي بوحدة السنتيمتر.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

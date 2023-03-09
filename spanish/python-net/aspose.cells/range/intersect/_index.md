@@ -22,13 +22,13 @@ def intersect(self, range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range | [Range](/cells/es/python-net/aspose.cells/range) | El rango de intersección.|
 ###  Observaciones
 
 Si los dos rangos no se cruzan, devuelve nulo.
-###  Ejemplo
+###  Ejemplos
 
 
 ```python

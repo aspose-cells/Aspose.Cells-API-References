@@ -22,9 +22,9 @@ def get(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| index | int | L'indice in base zero dell'elemento.|
+| index | int | Indice in base zero dell'elemento.|
 
 
 ##  get(sheet_name) {#str}
@@ -42,7 +42,7 @@ def get(self, sheet_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_name | str | Nome del foglio di lavoro|
 

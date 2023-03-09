@@ -10,7 +10,7 @@ is_root: false
 ##  export_quote_prefix proprietà
 
 Indica se le virgolette singole devono essere esportate come parte del valore di una cella
-quando [Style.quote_prefix](/cells/it/python-net/aspose.cells/style#quote_prefix) è vero per esso. L'impostazione predefinita è false.
+quando è vero [Style.quote_prefix](/cells/it/python-net/aspose.cells/style#quote_prefix). Il valore predefinito è falso.
 ###  Definizione:
 ```python
 @property

@@ -20,7 +20,7 @@ Der Typ TextOrientationType macht die folgenden Member verfügbar:
 | CLOCK_WISE | Dreht den Text um 90 Grad im Uhrzeigersinn.|
 | COUNTER_CLOCK_WISE | Dreht den Text um 90 Grad gegen den Uhrzeigersinn.|
 | NO_ROTATION | Stellt den Standardwert dar.|
-| TOP_TO_BOTTOM | Zeigt Text von oben nach unten in der Zelle an. Gestapelter Text.|
+| TOP_TO_BOTTOM | Zeigt Text von oben nach unten in der Zelle an.|
 
 
 

@@ -17,9 +17,9 @@ Der Typ ReflectionEffect macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [type](/cells/de/python-net/aspose.cells.drawing/reflectioneffect/type) |Ruft den voreingestellten Reflexionseffekt ab und legt ihn fest.|
-| [transparency](/cells/de/python-net/aspose.cells.drawing/reflectioneffect/transparency) | Ruft den Grad der anfänglichen Reflexionstransparenz als Wert von 0,0 (undurchsichtig) bis 1,0 (klar) ab und legt diesen fest.|
-| [size](/cells/de/python-net/aspose.cells.drawing/reflectioneffect/size) | Ruft die Endposition (entlang der Alpha-Gradientenrampe) des Alpha-Endwerts in Prozent ab und legt sie fest|
+| [type](/cells/de/python-net/aspose.cells.drawing/reflectioneffect/type) | Ruft den voreingestellten Reflexionseffekt ab und legt ihn fest.|
+| [transparency](/cells/de/python-net/aspose.cells.drawing/reflectioneffect/transparency) |Ruft den Grad der anfänglichen Reflexionstransparenz als Wert von 0,0 (undurchsichtig) bis 1,0 (klar) ab und legt diesen fest.|
+| [size](/cells/de/python-net/aspose.cells.drawing/reflectioneffect/size) | Ruft die Endposition (entlang der Alpha-Gradientenrampe) des Alpha-Endwerts in Prozenteinheiten ab und legt sie fest|
 | [blur](/cells/de/python-net/aspose.cells.drawing/reflectioneffect/blur) | Ruft den Unschärferadius in Punkteinheiten ab und legt ihn fest.|
 | [direction](/cells/de/python-net/aspose.cells.drawing/reflectioneffect/direction) | Ruft die Richtung der Alpha-Gradientenrampe relativ zur Form selbst ab und legt diese fest.|
 | [distance](/cells/de/python-net/aspose.cells.drawing/reflectioneffect/distance) | Ruft ab und legt fest, wie weit der Schatten entfernt werden soll, in Punkteinheiten.|

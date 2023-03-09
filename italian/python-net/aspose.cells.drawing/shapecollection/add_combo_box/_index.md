@@ -22,16 +22,16 @@ def add_combo_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
 | top | int | Rappresenta l'offset verticale di ComboBox dalla relativa riga sinistra, in unità di pixel.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | left | int | Rappresenta l'offset orizzontale di ComboBox dalla colonna di sinistra, in unità di pixel.|
 | height | int | Rappresenta l'altezza di ComboBox, in unità di pixel.|
 | width | int | Rappresenta la larghezza di ComboBox, in unità di pixel.|
 
-###  Esempio
+###  Esempi
 
 ```python
 

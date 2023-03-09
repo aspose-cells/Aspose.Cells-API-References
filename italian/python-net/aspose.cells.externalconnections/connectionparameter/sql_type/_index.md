@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sql_type proprietà
 
-Tipo di dati SQL del parametro. Valido solo per sorgenti ODBC.
+Tipo di dati SQL del parametro. Valido solo per le origini ODBC.
 ###  Definizione:
 ```python
 @property

@@ -24,13 +24,13 @@ Der Typ FontConfigs macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [default_font_name](/cells/de/python-net/aspose.cells/fontconfigs/default_font_name) | Ruft den Namen der Standardschriftart ab oder legt ihn fest.|
-| [prefer_system_font_substitutes](/cells/de/python-net/aspose.cells/fontconfigs/prefer_system_font_substitutes) | Geben Sie an, ob zuerst Systemzeichensatzersatz verwendet werden soll oder nicht, wenn ein Zeichensatz nicht angezeigt wird und der Ersatz für diesen Zeichensatz nicht festgelegt ist.<br/>zB Unter Ubuntu wird die Schriftart „Arial“ im Allgemeinen durch „Liberation Sans“ ersetzt.<br/> Der Standardwert ist falsch.|
+| [prefer_system_font_substitutes](/cells/de/python-net/aspose.cells/fontconfigs/prefer_system_font_substitutes) |Geben Sie an, ob zuerst Systemzeichensatzersatz verwendet werden soll oder nicht, wenn ein Zeichensatz nicht angezeigt wird und der Ersatz für diesen Zeichensatz nicht festgelegt ist.<br/>zB Unter Ubuntu wird die Schriftart „Arial“ im Allgemeinen durch „Liberation Sans“ ersetzt.<br/> Der Standardwert ist falsch.|
 
 
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/de/python-net/aspose.cells/fontconfigs/set_font_substitutes/#str-list) | Schriftart-Ersatznamen für den angegebenen ursprünglichen Schriftartnamen.|
+| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/de/python-net/aspose.cells/fontconfigs/set_font_substitutes/#str-list) | Font-Ersatznamen für gegebene Original-Fontnamen.|
 | [get_font_substitutes(original_font_name)](/cells/de/python-net/aspose.cells/fontconfigs/get_font_substitutes/#str) | Gibt ein Array zurück, das Ersatznamen für Schriftarten enthält, die verwendet werden sollen, wenn die Originalschriftart nicht vorhanden ist.|
 | [set_font_folder(font_folder, recursive)](/cells/de/python-net/aspose.cells/fontconfigs/set_font_folder/#str-bool) | Legt den Schriftartenordner fest|
 | [set_font_folders(font_folders, recursive)](/cells/de/python-net/aspose.cells/fontconfigs/set_font_folders/#list-bool) | Legt die Schriftartenordner fest|

@@ -10,7 +10,7 @@ is_root: false
 ##  row_range mülk
 
 Aralığı temsil eden bir CellArea nesnesi döndürür
-PivotTable raporundaki satır alanını içerir. Sadece oku.
+PivotTable raporundaki satır alanını içerir.
 ###  Tanım:
 ```python
 @property

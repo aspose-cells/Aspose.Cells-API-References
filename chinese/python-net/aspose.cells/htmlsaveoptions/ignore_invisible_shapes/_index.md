@@ -1,6 +1,6 @@
 ﻿---
 title: ignore_invisible_shapes 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 420
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-默认值为假。
+默认值为 false。
 ### 定义：
 ```python
 @property

@@ -27,7 +27,7 @@ Typen RenameStrategy avslöjar följande medlemmar:
 
 Vid bearbetning av data med rubriker kräver vissa scenarier att rubrikerna inte är duplicerade för alla kolumner.
 Till exempel, när du exporterar data till en datatabell och rubriken måste tas som datatabellens kolumnnamn,
-Duplicerade värden i rubriken är ogiltiga.
+dubblerade värden i rubriken är ogiltiga.
 För sådana situationer kan användaren bestämma hur de ska hanteras genom att specificera denna strategi.
 
 ###  Se även

@@ -24,7 +24,7 @@ def get_leafs(self):
 
 ###  Osservazioni
 
-NOTA: questa classe è ora obsoleta. Invece,
+NOTA: questa classe è ora obsoleta.
 si prega di utilizzare Cell.GetDependentsInCalculation(bool) per ottenere tutti i dipendenti nella catena di calcolo.
 Questa proprietà verrà rimossa 12 mesi dopo da maggio 2022.
 Aspose si scusa per gli eventuali disagi causati.
@@ -44,12 +44,12 @@ def get_leafs(self, recursive):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | recursive | bool | Se restituisce quelle foglie che non fanno riferimento direttamente a questa cella<br/> ma riferimento ad altri fogli di questa cella|
 ###  Osservazioni
 
-NOTA: questa classe è ora obsoleta. Invece,
+NOTA: questa classe è ora obsoleta.
 si prega di utilizzare Cell.GetDependentsInCalculation(bool) per ottenere tutti i dipendenti nella catena di calcolo.
 Questa proprietà verrà rimossa 12 mesi dopo da maggio 2022.
 Aspose si scusa per gli eventuali disagi causati.

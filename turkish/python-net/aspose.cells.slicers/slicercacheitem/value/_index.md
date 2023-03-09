@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value mülk
 
-Dilimleyici öğesi için etiket metnini döndürür. Sadece oku.
+Dilimleyici öğesi için etiket metnini döndürür.
 ###  Tanım:
 ```python
 @property

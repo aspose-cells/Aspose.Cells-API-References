@@ -22,7 +22,7 @@ Il tipo DateTimeGroupingType espone i membri seguenti:
 | MINUTE | Raggruppa per minuto.|
 | MONTH | Raggruppa per mese.|
 | SECOND | Raggruppa per secondo.|
-| YEAR | Raggruppa per anno.|
+| YEAR |Raggruppa per anno.|
 
 
 

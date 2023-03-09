@@ -18,7 +18,7 @@ Typen HorizontalPageBreak avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [start_column](/cells/sv/python-net/aspose.cells/horizontalpagebreak/start_column) | Hämtar startkolumnindex för denna horisontella sidbrytning.|
-| [end_column](/cells/sv/python-net/aspose.cells/horizontalpagebreak/end_column) |Hämtar slutkolumnindexet för denna horisontella sidbrytning.|
+| [end_column](/cells/sv/python-net/aspose.cells/horizontalpagebreak/end_column) | Hämtar slutkolumnindexet för denna horisontella sidbrytning.|
 | [row](/cells/sv/python-net/aspose.cells/horizontalpagebreak/row) | Hämtar det nollbaserade radindexet.|
 
 

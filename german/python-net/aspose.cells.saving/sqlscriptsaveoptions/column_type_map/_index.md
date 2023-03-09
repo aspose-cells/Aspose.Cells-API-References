@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map Eigentum
 
-Ruft die Zuordnung des Spaltentyps für verschiedene Datenbanken ab und legt sie fest.
+Ruft die Zuordnung von Spaltentypen für verschiedene Datenbanken ab und legt sie fest.
 ###  Definition:
 ```python
 @property

@@ -18,7 +18,7 @@ def copy(self, source):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | source | [VbaProject](/cells/ar/python-net/aspose.cells.vba/vbaproject) |  |
 

@@ -22,12 +22,12 @@ def add_linked_picture(self, upper_left_row, upper_left_column, height, width, s
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
-| upper_left_column | int |Índice de la columna superior izquierda.|
-| height | int | La altura de la forma. En unidad de píxeles|
-| width | int | El ancho de la forma. En unidad de píxeles|
+| upper_left_column | int | Índice de la columna superior izquierda.|
+| height | int | La altura de la forma.|
+| width | int | El ancho de la forma.|
 | source_full_name | str | La ruta y el nombre del archivo de origen de la imagen vinculada|
 
 

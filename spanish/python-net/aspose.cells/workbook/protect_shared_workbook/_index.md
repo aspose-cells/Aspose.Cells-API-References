@@ -18,7 +18,7 @@ def protect_shared_workbook(self, password):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | password | str | Contraseña para proteger el libro.|
 

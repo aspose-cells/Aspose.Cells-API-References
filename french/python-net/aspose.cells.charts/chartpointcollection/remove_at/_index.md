@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | L'indice du point.|
 

@@ -20,7 +20,7 @@ Typen TextOrientationType avslöjar följande medlemmar:
 | CLOCK_WISE | Roterar text med 90 grader medurs.|
 | COUNTER_CLOCK_WISE | Roterar text 90 grader moturs.|
 | NO_ROTATION | Representerar standardvärdet.|
-| TOP_TO_BOTTOM | Visar text från toppen till botten av cellen. Staplad text.|
+| TOP_TO_BOTTOM | Visar text från toppen till botten av cellen.|
 
 
 

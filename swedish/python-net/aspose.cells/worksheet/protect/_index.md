@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/sv/python-net/aspose.cells/protectiontype) | Skyddstyp.|
 ###  Anmärkningar
 
-Denna metod skyddar kalkylblad utan lösenord. Det kan protect kalkylblad i alla versioner av Excel-fil.
+Denna metod skyddar kalkylblad utan lösenord.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/sv/python-net/aspose.cells/protectiontype) | Skyddstyp.|
 | password | str | Lösenord.|

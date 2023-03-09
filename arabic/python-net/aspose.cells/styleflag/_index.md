@@ -35,10 +35,10 @@ is_root: false
 | [font_size](/cells/ar/python-net/aspose.cells/styleflag/font_size) | سيتم تطبيق إعداد حجم الخط.|
 | [font_name](/cells/ar/python-net/aspose.cells/styleflag/font_name) | سيتم تطبيق إعداد اسم الخط.|
 | [font_color](/cells/ar/python-net/aspose.cells/styleflag/font_color) | سيتم تطبيق إعداد لون الخط.|
-| [font_bold](/cells/ar/python-net/aspose.cells/styleflag/font_bold) |سيتم تطبيق إعداد الخط الغامق.|
+| [font_bold](/cells/ar/python-net/aspose.cells/styleflag/font_bold) | سيتم تطبيق إعداد الخط الغامق.|
 | [font_italic](/cells/ar/python-net/aspose.cells/styleflag/font_italic) | سيتم تطبيق إعداد الخط المائل.|
 | [font_underline](/cells/ar/python-net/aspose.cells/styleflag/font_underline) | سيتم تطبيق إعداد تسطير الخط.|
-| [font_strike](/cells/ar/python-net/aspose.cells/styleflag/font_strike) | سيتم تطبيق إعداد خط الخط.|
+| [font_strike](/cells/ar/python-net/aspose.cells/styleflag/font_strike) |سيتم تطبيق إعداد خط الخط.|
 | [font_script](/cells/ar/python-net/aspose.cells/styleflag/font_script) | سيتم تطبيق إعداد البرنامج النصي للخط.|
 | [number_format](/cells/ar/python-net/aspose.cells/styleflag/number_format) | سيتم تطبيق إعداد تنسيق الرقم.|
 | [alignments](/cells/ar/python-net/aspose.cells/styleflag/alignments) | سيتم تطبيق إعداد المحاذاة.|

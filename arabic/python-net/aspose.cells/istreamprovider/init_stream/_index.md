@@ -18,7 +18,7 @@ def init_stream(self, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | options | [StreamProviderOptions](/cells/ar/python-net/aspose.cells/streamprovideroptions) |  |
 

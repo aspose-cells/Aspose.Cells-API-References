@@ -18,7 +18,7 @@ def set_chart_data_range(self, area, is_vertical):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | area | str | Anger värden från vilka dataserien ska plottas|
 | is_vertical | bool | Anger om serien ska plottas från ett intervall av cellvärden efter rad eller kolumn.|

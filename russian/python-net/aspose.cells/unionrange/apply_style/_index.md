@@ -18,14 +18,14 @@ def apply_style(self, style, flag):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | style | [Style](/cells/ru/python-net/aspose.cells/style) | Объект стиля, который будет применен.|
-| flag | [StyleFlag](/cells/ru/python-net/aspose.cells/styleflag) | Флаги, указывающие на применяемые свойства форматирования.|
+| flag | [StyleFlag](/cells/ru/python-net/aspose.cells/styleflag) |Флаги, указывающие на примененные свойства форматирования.|
 ###  Примечания
 
 Каждая ячейка в этом диапазоне будет содержать объект [Style](/cells/ru/python-net/aspose.cells/style).
-Так что это метод потребления памяти. Пожалуйста, используйте его осторожно.
+Так что это метод потребления памяти.
 
 
 ###  Смотрите также

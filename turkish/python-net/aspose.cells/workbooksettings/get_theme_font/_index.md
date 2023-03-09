@@ -22,7 +22,7 @@ def get_theme_font(self, type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [FontSchemeType](/cells/tr/python-net/aspose.cells/fontschemetype) | Yazı tipinin şema türü.|
 

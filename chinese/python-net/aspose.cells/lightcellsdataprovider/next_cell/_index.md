@@ -1,6 +1,6 @@
 ﻿---
 title: next_cell方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-要保存的下一个单元格的列索引。 -1 表示已到达当前行数据的末尾，并且当前行的其他单元格不会被保存。
+-1 表示已到达当前行数据的末尾，并且当前行的其他单元格不会被保存。
 
 
 ```python

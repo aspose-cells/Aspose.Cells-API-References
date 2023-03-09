@@ -18,10 +18,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | shared_formula | str | Paylaşılan formül|
-| row_number | int | Formülü doldurmak için satır sayısı.|
+| row_number | int |Formülü doldurmak için satır sayısı.|
 | column_number | int | Formülü doldurmak için sütun sayısı.|
 ###  Notlar
 
@@ -39,10 +39,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | shared_formula | str | Paylaşılan formül|
-| row_number | int | Formülü doldurmak için satır sayısı.|
+| row_number | int |Formülü doldurmak için satır sayısı.|
 | column_number | int | Formülü doldurmak için sütun sayısı.|
 | options | [FormulaParseOptions](/cells/tr/python-net/aspose.cells/formulaparseoptions) | Formülü ayrıştırma seçenekleri.|
 
@@ -58,16 +58,16 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | shared_formula | str | Paylaşılan formül|
-| row_number | int | Formülü doldurmak için satır sayısı.|
+| row_number | int |Formülü doldurmak için satır sayısı.|
 | column_number | int | Formülü doldurmak için sütun sayısı.|
 | is_r1c1 | bool | formülün R1C1 formülü olup olmadığı|
 | is_local | bool | formülün yerel biçimlendirilmiş olup olmadığı|
 ###  Notlar
 
-NOT: Bu sınıf artık kullanılmıyor. Yerine,
+NOT: Bu sınıf artık kullanılmıyor.
 lütfen Cell.SetSharedFormula(string,int,int,FormulaParseOptions) kullanın.
 Bu mülk, Aralık 2019'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
@@ -83,10 +83,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | shared_formula | str | Paylaşılan formül|
-| row_number | int | Formülü doldurmak için satır sayısı.|
+| row_number | int |Formülü doldurmak için satır sayısı.|
 | column_number | int | Formülü doldurmak için sütun sayısı.|
 | options | [FormulaParseOptions](/cells/tr/python-net/aspose.cells/formulaparseoptions) | Formülü ayrıştırma seçenekleri.|
 | values | list | verilen paylaşılan formüle sahip hücreler için değerler|

@@ -13,9 +13,9 @@ Obtient ou définit le décalage vertical de la forme par rapport à sa rangée 
 
 ###  Remarques
 
-La plage de valeurs est de 0 à 256.
+La plage de valeurs va de 0 à 256.
 
-###  Exemple
+###  Exemples
 
 ```python
 

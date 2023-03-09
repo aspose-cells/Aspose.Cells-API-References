@@ -13,8 +13,8 @@ Représente si l'insertion de liens hypertexte est autorisée sur une feuille de
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
- veuillez utiliser la propriété Protection.AllowInsertingHyperlink.
+ REMARQUE : ce membre est désormais obsolète.
+ veuillez utiliser la propriété Protection. Autoriser l'insertion d'un lien hypertexte.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

@@ -17,9 +17,9 @@ Le type CopyFormatType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| SAME_AS_ABOVE | Formats identiques à la ligne ci-dessus.|
+| SAME_AS_ABOVE |Formats identiques à la ligne ci-dessus.|
 | SAME_AS_BELOW | Formats identiques à ceux de la ligne ci-dessous.|
-| CLEAR | Efface la mise en forme.|
+| CLEAR | Supprimer le formattage.|
 
 
 

@@ -10,8 +10,8 @@ is_root: false
 ##  std_dev fastighet
 
 Få eller ställ in antalet standardavvikelser som ska inkluderas över eller under genomsnittet i
-villkorlig formateringsregel.
- Ingångsvärdet måste vara mellan 0 och 3 (inkludera 0 och 3).
+ Regel för villkorlig formatering.
+ Ingångsvärdet måste vara mellan 0 och 3 (inklusive 0 och 3).
 Att sätta detta värde till 0 betyder att stdDev inte är inställt.
 Standardvärdet är 0.
 ###  Definition:

@@ -1,13 +1,13 @@
 ﻿---
 title: Column类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 260
 url: /zh/python-net/aspose.cells/column/
 is_root: false
 ---
-##  Column类
+## Column类
 代表工作表中的单个列。
 
 

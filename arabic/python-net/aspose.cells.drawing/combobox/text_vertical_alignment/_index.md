@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع المحاذاة الرأسية للنص للشكل وتعيينه.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import TextAlignmentType

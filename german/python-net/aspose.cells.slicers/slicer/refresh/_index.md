@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.slicers/slicer/refresh/
 is_root: false
 ---
 ##  refresh() {#}
-Aktualisieren des Slicers. In der Zwischenzeit Aktualisieren und Berechnen relativer PivotTables.
+Slicer aktualisieren In der Zwischenzeit relative PivotTables aktualisieren und berechnen.
 
 
 
@@ -19,7 +19,7 @@ def refresh(self):
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

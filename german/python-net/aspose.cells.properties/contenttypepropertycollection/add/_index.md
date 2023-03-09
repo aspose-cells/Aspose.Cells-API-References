@@ -21,7 +21,7 @@ def add(self, name, value):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | name | str | Der Name der Eigenschaft des Inhaltstyps.|
-| value | str |Der Wert der Eigenschaft des Inhaltstyps.|
+| value | str | Der Wert der Eigenschaft des Inhaltstyps.|
 
 
 ##  add(name, value, type) {#str-str-str}
@@ -38,7 +38,7 @@ def add(self, name, value, type):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | name | str | Der Name der Eigenschaft des Inhaltstyps.|
-| value | str |Der Wert der Eigenschaft des Inhaltstyps.|
+| value | str | Der Wert der Eigenschaft des Inhaltstyps.|
 | type | str | Der Typ der Eigenschaft des Inhaltstyps.|
 
 

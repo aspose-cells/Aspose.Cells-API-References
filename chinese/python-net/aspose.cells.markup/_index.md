@@ -1,6 +1,6 @@
 ﻿---
 title: aspose.cells.markup
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ is_root: false
 | [SmartTagOptions](/cells/zh/python-net/aspose.cells.markup/smarttagoptions) |表示智能标记的选项。|
 | [SmartTagProperty](/cells/zh/python-net/aspose.cells.markup/smarttagproperty) |表示单元格智能标记的属性。|
 | [SmartTagPropertyCollection](/cells/zh/python-net/aspose.cells.markup/smarttagpropertycollection) |表示单元格智能标记的所有属性。|
-| [SmartTagSetting](/cells/zh/python-net/aspose.cells.markup/smarttagsetting) |代表工作表中的所有 [SmartTagCollection](/cells/zh/python-net/aspose.cells.markup/smarttagcollection) 对象。|
+| [SmartTagSetting](/cells/zh/python-net/aspose.cells.markup/smarttagsetting) |表示工作表中的所有 [SmartTagCollection](/cells/zh/python-net/aspose.cells.markup/smarttagcollection) 对象。|
 
 
 ### 枚举

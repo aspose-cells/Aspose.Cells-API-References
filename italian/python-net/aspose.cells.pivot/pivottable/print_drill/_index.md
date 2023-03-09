@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill proprietà
 
 Specifica un valore booleano che indica se gli indicatori di drill devono essere stampati.
-stampa i pulsanti espandi/comprimi quando visualizzati su pivottable.
+stampa i pulsanti espandi/comprimi quando vengono visualizzati nella tabella pivot.
 ###  Definizione:
 ```python
 @property

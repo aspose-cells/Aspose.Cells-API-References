@@ -22,7 +22,7 @@ def calculate_formula(self, formula):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | formula | str | Formel som ska beräknas.|
 
@@ -42,7 +42,7 @@ def calculate_formula(self, formula, opts):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | formula | str | Formel som ska beräknas.|
 | opts | [CalculationOptions](/cells/sv/python-net/aspose.cells/calculationoptions) | Alternativ för att beräkna formel|
@@ -59,7 +59,7 @@ def calculate_formula(self, options, recursive):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/sv/python-net/aspose.cells/calculationoptions) | Alternativ för beräkning|
 | recursive | bool | Sant betyder att om kalkylbladets celler beror på cellerna i andra kalkylblad,<br/>de beroende cellerna i andra kalkylblad kommer också att beräknas.<br/> Falskt betyder att alla formler i kalkylbladet har beräknats och att värdena är rätt.|
@@ -76,14 +76,14 @@ def calculate_formula(self, recursive, ignore_error, custom_function):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | recursive | bool | Sant betyder att om kalkylbladets celler beror på cellerna i andra kalkylblad,<br/>de beroende cellerna i andra kalkylblad kommer också att beräknas.<br/> Falskt betyder att alla formler i kalkylbladet har beräknats och att värdena är rätt.|
-| ignore_error | bool | Indikerar om dölj felet i beräkningsformler.<br/> Felet kan vara en funktion som inte stöds, externa länkar, etc.|
+| ignore_error | bool | Indikerar om dölj felet i beräkningsformler.<br/> Felet kan vara funktioner som inte stöds, externa länkar etc.|
 | custom_function | [ICustomFunction](/cells/sv/python-net/aspose.cells/icustomfunction) | Den anpassade formelberäkningen fungerar för att utöka beräkningsmotorn.|
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+OBS: Denna medlem är nu föråldrad.
 använd metoden CalculateFormula(CalculationOptions, bool).
  Denna metod kommer att tas bort 12 månader senare sedan augusti 2020.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

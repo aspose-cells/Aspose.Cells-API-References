@@ -14,8 +14,8 @@ Unterstützen Sie Tiff/XPS
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
-Verwenden Sie für Tiff/Svg [ImageOrPrintOptions.image_type](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions#image_type); Verwenden Sie für XPS [Workbook.save(file_name, save_format)](/cells/de/python-net/aspose.cells/workbook/save) mit [XpsSaveOptions](/cells/de/python-net/aspose.cells/xpssaveoptions).
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
+Verwenden Sie für Tiff/Svg [ImageOrPrintOptions.image_type](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions#image_type); für Xps verwenden Sie [Workbook.save(file_name, save_format)](/cells/de/python-net/aspose.cells/workbook/save) mit [XpsSaveOptions](/cells/de/python-net/aspose.cells/xpssaveoptions).
  Diese Property wird 12 Monate später seit August 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

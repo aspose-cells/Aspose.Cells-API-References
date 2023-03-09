@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob Text mit Form gedreht wird.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

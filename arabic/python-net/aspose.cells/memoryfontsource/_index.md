@@ -22,7 +22,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [MemoryFontSource(font_data)](/cells/ar/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Ctor.|
+| [MemoryFontSource(font_data)](/cells/ar/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | مخرج.|
 
 
 ###  ملكيات

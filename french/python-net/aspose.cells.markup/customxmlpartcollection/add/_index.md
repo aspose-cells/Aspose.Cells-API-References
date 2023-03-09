@@ -22,7 +22,7 @@ def add(self, data, shema_data):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | data | bytes | Le contenu XML de cette partie de stockage de données XML personnalisée.|
 | shema_data | bytes | Ensemble de schémas XML associés à cette partie XML personnalisée.|

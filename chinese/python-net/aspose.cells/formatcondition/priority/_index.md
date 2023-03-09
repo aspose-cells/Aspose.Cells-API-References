@@ -1,6 +1,6 @@
 ﻿---
 title: priority 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## priority 属性
 
-此条件格式规则的 priority。该值用于确定哪个
+此条件格式规则的 priority。
 应评估和呈现格式。较低的数值高于 priority
 更高的数值，其中“1”是最高的 priority。
 ### 定义：

@@ -18,7 +18,7 @@ def add_calculated_field(self, name, formula):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome del campo calcolato|
 | formula | str | La formula del campo calcolato.|
@@ -35,11 +35,11 @@ def add_calculated_field(self, name, formula, drag_to_data_area):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome del campo calcolato|
 | formula | str | La formula del campo calcolato.|
-| drag_to_data_area | bool | Vero, trascina immediatamente questo campo nell'area dati|
+| drag_to_data_area | bool | È vero, trascina immediatamente questo campo nell'area dati|
 
 
 

@@ -28,7 +28,7 @@ Typen AutoFitterOptions avslöjar följande medlemmar:
 | [auto_fit_merged_cells_type](/cells/sv/python-net/aspose.cells/autofitteroptions/auto_fit_merged_cells_type) | Hämtar och ställer in typen av automatisk anpassning av radhöjden för sammanslagna celler.|
 | [only_auto](/cells/sv/python-net/aspose.cells/autofitteroptions/only_auto) | Anger om endast passar de rader vars höjd inte är anpassad.|
 | [ignore_hidden](/cells/sv/python-net/aspose.cells/autofitteroptions/ignore_hidden) | Ignorerar de dolda raderna/kolumnerna.|
-| [max_row_height](/cells/sv/python-net/aspose.cells/autofitteroptions/max_row_height) | Hämtar och ställer in den maximala radhöjden (i punktenhet) vid autopassning av rader.|
+| [max_row_height](/cells/sv/python-net/aspose.cells/autofitteroptions/max_row_height) | Hämtar och ställer in den maximala radhöjden (i punktenhet) vid autoanpassning av rader.|
 | [auto_fit_wrapped_text_type](/cells/sv/python-net/aspose.cells/autofitteroptions/auto_fit_wrapped_text_type) | Hämtar och ställer in typen av automatisk anpassning av inslagen text.|
 | [format_strategy](/cells/sv/python-net/aspose.cells/autofitteroptions/format_strategy) | Hämtar och ställer in den formaterade strategin.|
 

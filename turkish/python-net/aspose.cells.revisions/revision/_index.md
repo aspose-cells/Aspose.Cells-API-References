@@ -1,5 +1,5 @@
 ﻿---
-title: Revision sınıf
+title: Revision sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /tr/python-net/aspose.cells.revisions/revision/
 is_root: false
 ---
-##  Revision sınıf
+##  Revision sınıfı
 Revizyonu temsil eder.
 
 

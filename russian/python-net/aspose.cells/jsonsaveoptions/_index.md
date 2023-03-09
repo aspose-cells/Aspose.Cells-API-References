@@ -22,7 +22,7 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [JsonSaveOptions()](/cells/ru/python-net/aspose.cells/jsonsaveoptions/__init__/#) | Создает параметры для сохранения файла json.|
+| [JsonSaveOptions()](/cells/ru/python-net/aspose.cells/jsonsaveoptions/__init__/#) |Создает параметры для сохранения файлов json.|
 
 
 ###  Характеристики
@@ -35,9 +35,9 @@ is_root: false
 | [merge_areas](/cells/ru/python-net/aspose.cells/jsonsaveoptions/merge_areas) | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла.|
 | [create_directory](/cells/ru/python-net/aspose.cells/jsonsaveoptions/create_directory) | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла.|
 | [sort_names](/cells/ru/python-net/aspose.cells/jsonsaveoptions/sort_names) | Указывает, выполняется ли сортировка определенных имен перед сохранением файла.|
-| [sort_external_names](/cells/ru/python-net/aspose.cells/jsonsaveoptions/sort_external_names) | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
-| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/jsonsaveoptions/refresh_chart_cache) |Указывает, обновляются ли данные кэша диаграммы.|
-| [warning_callback](/cells/ru/python-net/aspose.cells/jsonsaveoptions/warning_callback) | Получает или задает обратный вызов предупреждения.|
+| [sort_external_names](/cells/ru/python-net/aspose.cells/jsonsaveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних имен перед сохранением файла.|
+| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/jsonsaveoptions/refresh_chart_cache) | Указывает, обновляются ли данные кэша диаграммы.|
+| [warning_callback](/cells/ru/python-net/aspose.cells/jsonsaveoptions/warning_callback) | Получает или задает обратные вызовы предупреждения.|
 | [update_smart_art](/cells/ru/python-net/aspose.cells/jsonsaveoptions/update_smart_art) | Указывает, обновляются ли настройки смарт-арта.<br/> Значение по умолчанию неверно.|
 | [export_hyperlink_type](/cells/ru/python-net/aspose.cells/jsonsaveoptions/export_hyperlink_type) | Представляет тип экспорта гиперссылки в json.|
 | [skip_empty_rows](/cells/ru/python-net/aspose.cells/jsonsaveoptions/skip_empty_rows) | Указывает, пропускаются ли пустые строки.|
@@ -45,7 +45,7 @@ is_root: false
 | [export_area](/cells/ru/python-net/aspose.cells/jsonsaveoptions/export_area) | Получает или задает диапазон экспорта.|
 | [has_header_row](/cells/ru/python-net/aspose.cells/jsonsaveoptions/has_header_row) | Указывает, содержит ли диапазон строку заголовка.|
 | [export_as_string](/cells/ru/python-net/aspose.cells/jsonsaveoptions/export_as_string) | Экспортирует строковое значение ячеек в json.|
-| [indent](/cells/ru/python-net/aspose.cells/jsonsaveoptions/indent) | Указывает отступ.|
+| [indent](/cells/ru/python-net/aspose.cells/jsonsaveoptions/indent) | Указывает индекс.|
 | [export_nested_structure](/cells/ru/python-net/aspose.cells/jsonsaveoptions/export_nested_structure) | Экспортируется как структура Json иерархии родитель-потомок.|
 | [export_empty_cells](/cells/ru/python-net/aspose.cells/jsonsaveoptions/export_empty_cells) | Указывает, экспортируются ли пустые ячейки как нулевые.|
 | [always_export_as_json_object](/cells/ru/python-net/aspose.cells/jsonsaveoptions/always_export_as_json_object) | Указывает, всегда ли экспортируется excel в json как объект, даже если в файле есть только рабочий лист.|

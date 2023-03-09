@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | ca | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | La plage qui contient le paramètre de validations.|
 

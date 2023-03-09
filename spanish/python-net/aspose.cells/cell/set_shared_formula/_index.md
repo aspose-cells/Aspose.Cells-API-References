@@ -18,10 +18,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | shared_formula | str | fórmula compartida.|
-| row_number | int | Número de filas para completar la fórmula.|
+| row_number | int |Número de filas para completar la fórmula.|
 | column_number | int | Número de columnas para completar la fórmula.|
 ###  Observaciones
 
@@ -39,10 +39,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | shared_formula | str | fórmula compartida.|
-| row_number | int | Número de filas para completar la fórmula.|
+| row_number | int |Número de filas para completar la fórmula.|
 | column_number | int | Número de columnas para completar la fórmula.|
 | options | [FormulaParseOptions](/cells/es/python-net/aspose.cells/formulaparseoptions) | Opciones para analizar la fórmula.|
 
@@ -58,16 +58,16 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | shared_formula | str | fórmula compartida.|
-| row_number | int | Número de filas para completar la fórmula.|
+| row_number | int |Número de filas para completar la fórmula.|
 | column_number | int | Número de columnas para completar la fórmula.|
 | is_r1c1 | bool | si la fórmula es la fórmula R1C1|
 | is_local | bool | si la fórmula tiene formato local|
 ###  Observaciones
 
-NOTA: Esta clase ahora está obsoleta. En cambio,
+NOTA: Esta clase ahora está obsoleta.
 utilice Cell.SetSharedFormula(string,int,int,FormulaParseOptions).
 Esta propiedad se eliminará 12 meses después desde diciembre de 2019.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
@@ -83,13 +83,13 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | shared_formula | str | fórmula compartida.|
-| row_number | int | Número de filas para completar la fórmula.|
+| row_number | int |Número de filas para completar la fórmula.|
 | column_number | int | Número de columnas para completar la fórmula.|
 | options | [FormulaParseOptions](/cells/es/python-net/aspose.cells/formulaparseoptions) | Opciones para analizar la fórmula.|
-| values | list | valores para esas celdas con fórmula compartida dada|
+| values | list | valores para aquellas celdas con fórmula compartida dada|
 
 
 

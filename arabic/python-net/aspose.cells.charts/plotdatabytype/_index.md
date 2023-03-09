@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/plotdatabytype/
 is_root: false
 ---
 ##  العد PlotDataByType
-يمثل نوع مخطط البيانات حسب الصف أو العمود.
+يمثل نوع البيانات المرسومة حسب الصف أو العمود.
 
 
 

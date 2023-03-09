@@ -23,7 +23,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [evaluated_page_count](/cells/ar/python-net/aspose.cells.rendering/workbookprintingpreview/evaluated_page_count) | قم بتقييم إجمالي عدد الصفحات في هذا المصنف|
+| [evaluated_page_count](/cells/ar/python-net/aspose.cells.rendering/workbookprintingpreview/evaluated_page_count) | قم بتقييم إجمالي عدد الصفحات لهذا المصنف|
 
 
 

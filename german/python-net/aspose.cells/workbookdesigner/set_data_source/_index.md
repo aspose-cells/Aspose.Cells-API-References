@@ -37,7 +37,7 @@ def set_data_source(self, variable, data):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| variable | str |Mit Smart Marker erstellter Variablenname.|
+| variable | str | Mit Smart Marker erstellter Variablenname.|
 | data | any | Quelldaten.|
 
 

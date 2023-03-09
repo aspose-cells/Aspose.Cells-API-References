@@ -1,13 +1,13 @@
 ﻿---
 title: ErrorCheckOption类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 520
 url: /zh/python-net/aspose.cells/errorcheckoption/
 is_root: false
 ---
-##  ErrorCheckOption类
+## ErrorCheckOption类
 应用于特定范围的错误检查设置。
 
 

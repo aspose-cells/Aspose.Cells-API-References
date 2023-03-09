@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает тип вертикального выравнивания текста комментария.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import TextAlignmentType

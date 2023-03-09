@@ -17,8 +17,8 @@ Der Typ LoadOptions macht die folgenden Member verfügbar:
 ###  Konstrukteure
 | Konstrukteur| Beschreibung|
 | :- | :- |
-| [LoadOptions()](/cells/de/python-net/aspose.cells/loadoptions/__init__/#) | Erstellt Optionen zum Laden der Datei.|
-| [LoadOptions(load_format)](/cells/de/python-net/aspose.cells/loadoptions/__init__/#LoadFormat) | Erstellt Optionen zum Laden der Datei.|
+| [LoadOptions()](/cells/de/python-net/aspose.cells/loadoptions/__init__/#) | Erstellt eine Option zum Laden der Datei.|
+| [LoadOptions(load_format)](/cells/de/python-net/aspose.cells/loadoptions/__init__/#LoadFormat) | Erstellt eine Option zum Laden der Datei.|
 
 
 ###  Eigenschaften
@@ -35,13 +35,13 @@ Der Typ LoadOptions macht die folgenden Member verfügbar:
 | [standard_font_size](/cells/de/python-net/aspose.cells/loadoptions/standard_font_size) | Legt die standardmäßige Standardschriftgröße fest.|
 | [interrupt_monitor](/cells/de/python-net/aspose.cells/loadoptions/interrupt_monitor) | Ruft den Interrupt-Monitor ab und setzt ihn.|
 | [ignore_not_printed](/cells/de/python-net/aspose.cells/loadoptions/ignore_not_printed) | Ignorieren Sie die nicht gedruckten Daten, wenn Sie die Datei direkt drucken|
-| [check_data_valid](/cells/de/python-net/aspose.cells/loadoptions/check_data_valid) | Prüfen Sie, ob die Daten in der Vorlagendatei gültig sind.|
-| [check_excel_restriction](/cells/de/python-net/aspose.cells/loadoptions/check_excel_restriction) | Ob die Einschränkung der Excel-Datei überprüft wird, wenn der Benutzer zellenbezogene Objekte ändert.<br/>Beispielsweise erlaubt Excel keine Eingabe von Zeichenfolgenwerten, die länger als 32 KB sind.<br/>Wenn Sie einen Wert eingeben, der länger als 32 KB ist, wie z. B. Cell.PutValue(string), erhalten Sie eine Ausnahme, wenn diese Eigenschaft wahr ist.<br/>Wenn diese Eigenschaft "false" ist, akzeptieren wir Ihren Eingabe-String-Wert als Wert der Zelle, damit dies später möglich ist<br/>bei anderen Dateiformaten wie CSV können Sie den kompletten Stringwert ausgeben.<br/>Wenn Sie jedoch einen solchen Wert festgelegt haben, der für das Excel-Dateiformat ungültig ist,<br/> Sie sollten die Arbeitsmappe später nicht als Excel-Dateiformat speichern. Andernfalls kann es zu unerwarteten Fehlern in der generierten Excel-Datei kommen.|
-| [keep_unparsed_data](/cells/de/python-net/aspose.cells/loadoptions/keep_unparsed_data) |Ob die ungeparsten Daten für die Arbeitsmappe im Arbeitsspeicher bleiben, wenn sie aus der Vorlagendatei geladen wird. Standard ist wahr.|
+| [check_data_valid](/cells/de/python-net/aspose.cells/loadoptions/check_data_valid) |Prüfen Sie, ob die Daten in der Vorlagendatei gültig sind.|
+| [check_excel_restriction](/cells/de/python-net/aspose.cells/loadoptions/check_excel_restriction) | Ob die Einschränkung der Excel-Datei überprüft wird, wenn der Benutzer zellenbezogene Objekte ändert.<br/>Beispielsweise erlaubt Excel keine Eingabe von Zeichenfolgenwerten, die länger als 32 KB sind.<br/>Wenn Sie einen Wert eingeben, der länger als 32 KB ist, wie z. B. Cell.PutValue(string), erhalten Sie eine Ausnahme, wenn diese Eigenschaft wahr ist.<br/>Wenn diese Eigenschaft "false" ist, akzeptieren wir Ihren Eingabe-String-Wert als Wert der Zelle, damit dies später möglich ist<br/>bei anderen Dateiformaten wie CSV können Sie den kompletten Stringwert ausgeben.<br/>Wenn Sie jedoch einen solchen Wert festgelegt haben, der für das Excel-Dateiformat ungültig ist,<br/> Sie sollten die Arbeitsmappe später nicht als Excel-Dateiformat speichern.|
+| [keep_unparsed_data](/cells/de/python-net/aspose.cells/loadoptions/keep_unparsed_data) | Ob die ungeparsten Daten für die Arbeitsmappe im Arbeitsspeicher bleiben, wenn sie aus der Vorlagendatei geladen wird. Der Standardwert ist „true“.|
 | [load_filter](/cells/de/python-net/aspose.cells/loadoptions/load_filter) | Der Filter, der angibt, wie Daten geladen werden.|
 | [light_cells_data_handler](/cells/de/python-net/aspose.cells/loadoptions/light_cells_data_handler) | Der Datenhandler zum Verarbeiten von Zellendaten beim Lesen der Vorlagendatei.|
 | [memory_setting](/cells/de/python-net/aspose.cells/loadoptions/memory_setting) | Ruft die Speichernutzungsoptionen ab oder legt diese fest.|
-| [warning_callback](/cells/de/python-net/aspose.cells/loadoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
+| [warning_callback](/cells/de/python-net/aspose.cells/loadoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
 | [auto_fitter_options](/cells/de/python-net/aspose.cells/loadoptions/auto_fitter_options) | Ruft die Autofitter-Optionen ab und legt sie fest|
 | [auto_filter](/cells/de/python-net/aspose.cells/loadoptions/auto_filter) | Gibt an, ob die Daten beim Laden der Dateien automatisch gefiltert werden.|
 | [font_configs](/cells/de/python-net/aspose.cells/loadoptions/font_configs) | Ruft individuelle Schriftartkonfigurationen ab und legt sie fest.<br/> Funktioniert nur für die [Workbook](/cells/de/python-net/aspose.cells/workbook), die diese [LoadOptions](/cells/de/python-net/aspose.cells/loadoptions) zum Laden verwendet.|

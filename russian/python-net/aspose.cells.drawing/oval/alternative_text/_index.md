@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает или задает описательную (альтернативную) текстовую строку объекта [Shape](/cells/ru/python-net/aspose.cells.drawing/shape).
 
-###  Пример
+###  Примеры
 
 ```python
 

@@ -1,6 +1,6 @@
 ﻿---
 title: init_for_dot_net_core方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells/cellshelper/init_for_dot_net_core/
 is_root: false
 ---
 ##  init_for_dot_net_core() {#}
-为 .NetCore 程序做初始化。
+对 .NetCore 程序进行初始化。
 我们建议您首先为所有 .NetCore 初始化调用此方法。
 例如：
 CellsHelper.InitForDotNetCore();

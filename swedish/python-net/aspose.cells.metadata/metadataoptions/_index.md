@@ -17,7 +17,7 @@ Typen MetadataOptions avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [MetadataOptions(metadata_type)](/cells/sv/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Skapar alternativ för att ladda metadata.|
+| [MetadataOptions(metadata_type)](/cells/sv/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Skapar ett alternativ för att ladda metadata.|
 
 
 ###  Egenskaper

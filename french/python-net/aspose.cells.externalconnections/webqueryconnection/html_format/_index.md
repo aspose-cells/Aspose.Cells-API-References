@@ -10,7 +10,7 @@ is_root: false
 ##  html_format propriété
 
 Comment gérer le formatage à partir de la source HTML lors de l'importation de données de requête Web dans le
-feuille de travail. Pertinent lorsque sourceData est True.
+worksheet.Pertinent lorsque sourceData est True.
 ###  Définition:
 ```python
 @property

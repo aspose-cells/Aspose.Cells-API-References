@@ -19,8 +19,8 @@ AutoFillType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | COPY | Kaynak alanın değerini ve biçimini hedef alana kopyalar|
 | DEFAULT | Hedef alanı değer ve biçimle otomatik olarak doldurur.|
-| FORMATS |Hedef alana sadece kaynak alanın formatını kopyalar,|
-| SERIES | Kaynak alandaki değeri seri şeklinde hedef alana genişletin ve formatı hedef alana kopyalayın.|
+| FORMATS | Hedef alana sadece kaynak alanın formatını kopyalar,|
+| SERIES |Kaynak alandaki değeri seri şeklinde hedef alana genişletin ve formatı hedef alana kopyalayın.|
 | VALUES | Hedef alana sadece kaynak alanın değerini kopyalar,|
 
 

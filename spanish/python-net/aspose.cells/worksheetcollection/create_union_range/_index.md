@@ -22,7 +22,7 @@ def create_union_range(self, address, sheet_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | address | str | La dirección del rango.|
 | sheet_index | int | El índice de la hoja.|

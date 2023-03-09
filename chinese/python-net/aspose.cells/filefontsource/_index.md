@@ -1,13 +1,13 @@
 ﻿---
 title: FileFontSource类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 580
 url: /zh/python-net/aspose.cells/filefontsource/
 is_root: false
 ---
-##  FileFontSource类
+## FileFontSource类
 表示存储在文件系统中的单个 TrueType 字体文件。
 
 
@@ -22,7 +22,7 @@ FileFontSource 类型公开了以下成员：
 ### 构造器
 |构造器|描述|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/zh/python-net/aspose.cells/filefontsource/__init__/#str) | Ctor。|
+| [FileFontSource(file_path)](/cells/zh/python-net/aspose.cells/filefontsource/__init__/#str) |导演。|
 
 
 ### 特性

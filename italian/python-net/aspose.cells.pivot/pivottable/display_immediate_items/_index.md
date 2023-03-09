@@ -10,7 +10,7 @@ is_root: false
 ##  display_immediate_items proprietà
 
 Indica se gli elementi nelle aree di riga e colonna sono visibili
-quando l'area dati della tabella pivot è vuota. Il valore predefinito è true.
+quando l'area dati della tabella pivot è vuota.
 ###  Definizione:
 ```python
 @property

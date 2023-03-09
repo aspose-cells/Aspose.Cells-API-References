@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format fastighet
 
-Hämtar och ställer in formatet för numeriskt värde.
+Hämtar och ställer in formatet för numeriska värden.
 ###  Definition:
 ```python
 @property

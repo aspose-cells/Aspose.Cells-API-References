@@ -27,7 +27,7 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 | is_first | bool | Gibt an, ob das Bild der Kopf-/Fußzeile der ersten Seite eingestellt wird.|
 | is_even | bool | Gibt an, ob das Bild der Kopf-/Fußzeile einer geraden Seite eingestellt wird.|
 | is_header | bool | Gibt an, ob das Bild der Kopf-/Fußzeile eingestellt wird.|
-| section | int |0: Linker Abschnitt, 1: Mittlerer Abschnitt, 2: Rechter Abschnitt.|
+| section | int | 0: Linker Abschnitt, 1: Mittlerer Abschnitt, 2: Rechter Abschnitt.|
 | image_data | bytes | Bilddaten.|
 
 

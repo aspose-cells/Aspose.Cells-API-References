@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta la larghezza della forma, in unità di centimetri.
 
-###  Esempio
+###  Esempi
 
 ```python
 

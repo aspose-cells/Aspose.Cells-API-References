@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  x Eigentum
 
-Ruft den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts in Pixeln ab und legt ihn fest.
+Ruft den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts in Pixeleinheiten ab und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

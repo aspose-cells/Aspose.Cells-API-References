@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  note propiedad
 
-Representa el contenido del comentario.
+Representa el contenido de los comentarios.
 
 ###  Observaciones
 
 Si se trata de un comentario encadenado, el note no se pudo cambiar; de lo contrario, MS Excel no podría procesarlo como un comentario encadenado.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

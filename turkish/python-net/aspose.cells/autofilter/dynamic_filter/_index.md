@@ -18,7 +18,7 @@ def dynamic_filter(self, field_index, dynamic_filter_type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Filtreyi temel almak istediğiniz alanın tamsayı ofseti<br/> (listenin solundan; en soldaki alan 0 alanıdır).|
 | dynamic_filter_type | [DynamicFilterType](/cells/tr/python-net/aspose.cells/dynamicfiltertype) | Dinamik filtre türü.|

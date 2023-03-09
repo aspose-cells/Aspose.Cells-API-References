@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparklines Eigentum
 
-Ruft die Auflistung des Objekts [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline) ab.
+Ruft die Sammlung von [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline)-Objekten ab.
 ###  Definition:
 ```python
 @property

@@ -1,6 +1,6 @@
 ﻿---
 title: vertical_axis_min_value 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 300

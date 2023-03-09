@@ -22,7 +22,7 @@ def check_column(self, column_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | Sütun dizini.|
 

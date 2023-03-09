@@ -24,7 +24,7 @@ def get_leafs(self):
 
 ###  Bemerkungen
 
-HINWEIS: Diese Klasse ist jetzt veraltet. Stattdessen,
+HINWEIS: Diese Klasse ist jetzt veraltet.
 Bitte verwenden Sie Cell.GetDependentsInCalculation(bool), um alle abhängigen Elemente in der Berechnungskette abzurufen.
 Diese Property wird 12 Monate später seit Mai 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
@@ -49,7 +49,7 @@ def get_leafs(self, recursive):
 | recursive | bool | Ob gibt die Blätter zurück, die nicht direkt auf diese Zelle verweisen<br/> aber Verweis auf andere Blätter dieser Zelle|
 ###  Bemerkungen
 
-HINWEIS: Diese Klasse ist jetzt veraltet. Stattdessen,
+HINWEIS: Diese Klasse ist jetzt veraltet.
 Bitte verwenden Sie Cell.GetDependentsInCalculation(bool), um alle abhängigen Elemente in der Berechnungskette abzurufen.
 Diese Property wird 12 Monate später seit Mai 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

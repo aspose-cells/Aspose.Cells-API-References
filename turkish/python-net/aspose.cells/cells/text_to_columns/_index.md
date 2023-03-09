@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/text_to_columns/
 is_root: false
 ---
 ##  text_to_columns(row, column, total_rows, options) {#int-int-int-TxtLoadOptions}
-Sütundaki metni sütunlara böler.
+Sütunlardaki metni sütunlara böler.
 
 
 
@@ -18,7 +18,7 @@ def text_to_columns(self, row, column, total_rows, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | column | int | Sütun dizini.|

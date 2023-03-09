@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count proprietà
 
-Ottiene il conteggio totale delle pagine della cartella di lavoro.
+Ottiene il conteggio totale delle pagine delle cartelle di lavoro.
 ###  Definizione:
 ```python
 @property

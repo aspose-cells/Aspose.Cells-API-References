@@ -18,7 +18,7 @@ def add_page_field(self, page_items):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | page_items | list | Sidfältsobjektetikett|
 

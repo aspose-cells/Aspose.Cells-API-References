@@ -10,7 +10,7 @@ is_root: false
 ##  Top10 klass
  Beskriv Top10 villkorlig formateringsregel.
 Denna regel för villkorlig formatering markerar celler vars
-värden hamnar i den övre N- eller nedre N-parentesen, som specificerats.
+värden hamnar i den övre N eller nedre N-parentesen, enligt vad som anges.
 
 
 
@@ -19,7 +19,7 @@ Typen Top10 avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [Top10()](/cells/sv/python-net/aspose.cells/top10/__init__/#) | Konstruerar en ny instans av Top10|
+| [Top10()](/cells/sv/python-net/aspose.cells/top10/__init__/#) |Konstruerar en ny instans av Top10|
 
 
 ###  Egenskaper
@@ -27,7 +27,7 @@ Typen Top10 avslöjar följande medlemmar:
 | :- | :- |
 | [is_percent](/cells/sv/python-net/aspose.cells/top10/is_percent) | Hämta eller ställ in om en "topp/botten n"-regel är en "topp/botten n procent"-regel.<br/> Standardvärdet är falskt.|
 | [is_bottom](/cells/sv/python-net/aspose.cells/top10/is_bottom) | Hämta eller ställ in om en "top/bottom n"-regel är en "bottom n"-regel.<br/> Standardvärdet är falskt.|
-| [rank](/cells/sv/python-net/aspose.cells/top10/rank) | Hämta eller ställ in värdet på "n" i en "top/bottom n" villkorlig formateringsregel.<br/>Om IsPercent är sant måste värdet mellan 0 och 100.<br/>Annars måste den vara mellan 0 och 1000.<br/> Standardvärdet är 10.|
+| [rank](/cells/sv/python-net/aspose.cells/top10/rank) | Hämta eller ställ in värdet på "n" i en "top/bottom n" villkorlig formateringsregel.<br/>Om IsPercent är sant måste värdet vara mellan 0 och 100.<br/>Annars måste det vara mellan 0 och 1000.<br/> Standardvärdet är 10.|
 
 
 

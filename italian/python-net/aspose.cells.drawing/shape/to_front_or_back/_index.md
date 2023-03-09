@@ -18,11 +18,11 @@ def to_front_or_back(self, orders):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| orders | int | Se è minore di zero, imposta la forma indietro.<br/> Se è maggiore di zero, porta la forma in primo piano.|
+| orders | int | Se è minore di zero, imposta la forma indietro.<br/>Se è maggiore di zero, porta la forma in primo piano.|
 
-###  Esempio
+###  Esempi
 
 ```python
 

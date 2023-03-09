@@ -11,7 +11,7 @@ is_root: false
 
 Indique s'il faut faire pivoter le texte avec la forme.
 
-###  Exemple
+###  Exemples
 
 ```python
 

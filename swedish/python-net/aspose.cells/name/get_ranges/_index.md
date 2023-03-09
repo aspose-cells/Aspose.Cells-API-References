@@ -39,9 +39,9 @@ def get_ranges(self, recalculate):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| recalculate | bool | om du räknar om det om detta namn har beräknats före denna anrop.|
+| recalculate | bool | om det ska räknas om om detta namn har beräknats före denna anrop.|
 
 
 

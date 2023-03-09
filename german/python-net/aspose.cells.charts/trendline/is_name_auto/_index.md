@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_name_auto Eigentum
 
-Gibt zurück, wenn Microsoft Excel den Namen der Trendlinie automatisch bestimmt.
+Gibt zurück, wenn Microsoft Excel den Namen der Trendlinie automatisch ermittelt.
 ###  Definition:
 ```python
 @property

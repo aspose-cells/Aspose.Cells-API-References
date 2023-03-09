@@ -22,7 +22,7 @@ def validate_password(self, password):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | password | str | la password|
 

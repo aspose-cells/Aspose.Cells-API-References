@@ -1,13 +1,13 @@
 ﻿---
 title: Shape类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 520
 url: /zh/python-net/aspose.cells.drawing/shape/
 is_root: false
 ---
-##  Shape类
+## Shape类
 表示 msodrawing 对象。
 
 

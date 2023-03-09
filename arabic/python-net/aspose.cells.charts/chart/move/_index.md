@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/chart/move/
 is_root: false
 ---
 ##  move(upper_left_row, upper_left_column, lower_right_row, lower_right_column) {#int-int-int-int}
-ينقل المخطط إلى موقع محدد.
+ينقل الرسم البياني إلى موقع محدد.
 
 
 
@@ -18,10 +18,10 @@ def move(self, upper_left_row, upper_left_column, lower_right_row, lower_right_c
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | lower_right_row | int | فهرس الصف السفلي الأيمن|
 | lower_right_column | int | فهرس العمود الأيمن السفلي|
 

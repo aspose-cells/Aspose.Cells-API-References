@@ -13,7 +13,7 @@ Analiza la cadena dada al objeto de valor adecuado.
 
 ###  Devoluciones
 
-Objeto de valor analizado de una cadena dada. Si la cadena dada no se puede analizar en el objeto de valor adecuado, devuelve nulo.
+Objeto de valor analizado de una cadena dada.
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | value | str | El valor de la cadena que se analizará|
 

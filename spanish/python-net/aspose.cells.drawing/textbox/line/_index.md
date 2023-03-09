@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene el estilo line
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

@@ -22,7 +22,7 @@ def get_page_size_inch(self, page_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | page_index | int | فهرس الصفحة يعتمد على الصفر.|
 

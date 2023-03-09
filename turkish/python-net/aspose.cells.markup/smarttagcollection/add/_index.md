@@ -13,7 +13,7 @@ Bir akıllı etiket ekler.
 
 ###  İadeler
 
-Listedeki akıllı etiketin dizini.
+Listedeki akıllı etiketlerin dizini.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | uri | str | Akıllı etiketin ad alanı URI'sini belirtir|
 | name | str | Akıllı etiketin adını belirtir.|

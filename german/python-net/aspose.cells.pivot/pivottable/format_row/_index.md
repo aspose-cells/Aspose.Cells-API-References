@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.pivot/pivottable/format_row/
 is_root: false
 ---
 ##  format_row(row, style) {#int-Style}
-Formatieren Sie die Zeilendaten im schwenkbaren Bereich
+Formatieren Sie die Zeilendaten im Pivot-Tabellenbereich
 
 
 

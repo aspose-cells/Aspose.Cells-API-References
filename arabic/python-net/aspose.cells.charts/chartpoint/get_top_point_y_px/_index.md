@@ -19,7 +19,7 @@ def get_top_point_y_px(self, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int |  |
 

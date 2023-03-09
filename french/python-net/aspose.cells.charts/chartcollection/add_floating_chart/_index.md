@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [ChartType](/cells/fr/python-net/aspose.cells.charts/charttype) | Type de graphique|
 | left | int | Le décalage x au coin|

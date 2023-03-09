@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene l'identificatore di questa forma.
 
-###  Esempio
+###  Esempi
 
 ```python
 

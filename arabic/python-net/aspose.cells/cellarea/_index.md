@@ -23,10 +23,10 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [start_row](/cells/ar/python-net/aspose.cells/cellarea/start_row) | الحصول على صف البداية لهذه المنطقة أو تعيينه.|
-| [end_row](/cells/ar/python-net/aspose.cells/cellarea/end_row) | الحصول على صف نهاية هذه المنطقة أو تعيينه.|
-| [start_column](/cells/ar/python-net/aspose.cells/cellarea/start_column) | الحصول على أو تعيين عمود البداية لهذه المنطقة.|
-| [end_column](/cells/ar/python-net/aspose.cells/cellarea/end_column) | الحصول على عمود نهاية هذه المنطقة أو تعيينه.|
+| [start_row](/cells/ar/python-net/aspose.cells/cellarea/start_row) | الحصول على أو تحديد صف البداية لهذه المنطقة.|
+| [end_row](/cells/ar/python-net/aspose.cells/cellarea/end_row) | الحصول على أو تحديد صف النهاية لهذه المنطقة.|
+| [start_column](/cells/ar/python-net/aspose.cells/cellarea/start_column) |الحصول على أو تحديد عمود البداية لهذه المنطقة.|
+| [end_column](/cells/ar/python-net/aspose.cells/cellarea/end_column) | الحصول على أو تحديد عمود النهاية لهذه المنطقة.|
 
 
 ###  طُرق
@@ -38,7 +38,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import CellArea

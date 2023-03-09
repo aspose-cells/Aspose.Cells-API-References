@@ -10,7 +10,7 @@ is_root: false
 ##  ignore_error propriété
 
 Indique si vous devez masquer l'erreur dans le calcul des formules.
-L'erreur peut être une fonction non prise en charge, des liens externes, etc.
+L'erreur peut provenir de fonctions non prises en charge, de liens externes, etc.
 ###  Définition:
 ```python
 @property

@@ -22,7 +22,7 @@ def get_theme_color(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/ar/python-net/aspose.cells/themecolortype) | نوع لون المظهر.|
 

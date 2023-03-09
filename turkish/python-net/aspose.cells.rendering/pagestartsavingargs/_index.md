@@ -1,5 +1,5 @@
 ﻿---
-title: PageStartSavingArgs sınıf
+title: PageStartSavingArgs sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 70
 url: /tr/python-net/aspose.cells.rendering/pagestartsavingargs/
 is_root: false
 ---
-##  PageStartSavingArgs sınıf
+##  PageStartSavingArgs sınıfı
 Bir sayfa için bilgi kaydetme işlemi başlar.
 
 

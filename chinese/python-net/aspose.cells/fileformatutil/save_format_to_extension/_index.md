@@ -1,6 +1,6 @@
 ﻿---
 title: save_format_to_extension方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
@@ -22,7 +22,7 @@ def save_format_to_extension(self, format):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/zh/python-net/aspose.cells/saveformat) |保存格式。|
 

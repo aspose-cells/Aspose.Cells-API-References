@@ -18,9 +18,9 @@ def delete_rows(self, row_index, total_rows):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| row_index | int | سيتم حذف فهرس الصف الأول.|
+| row_index | int |سيتم حذف فهرس الصف الأول.|
 | total_rows | int | عدد الصفوف المراد حذفها.|
 ###  ملاحظات
 
@@ -42,7 +42,7 @@ def delete_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 | total_rows | int | عدد الصفوف المراد حذفها.|

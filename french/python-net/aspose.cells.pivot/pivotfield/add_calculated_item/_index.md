@@ -18,7 +18,7 @@ def add_calculated_item(self, name, formula):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom de l'élément.|
 | formula | str | La formule de l'article|

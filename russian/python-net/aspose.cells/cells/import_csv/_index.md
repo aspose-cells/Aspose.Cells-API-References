@@ -18,11 +18,11 @@ def import_csv(self, file_name, options, first_row, first_column):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | file_name | str | Имя файла CSV.|
-| options | [TxtLoadOptions](/cells/ru/python-net/aspose.cells/txtloadoptions) | Параметры загрузки для чтения текстового файла|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| options | [TxtLoadOptions](/cells/ru/python-net/aspose.cells/txtloadoptions) | Параметры загрузки для чтения текстовых файлов|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 
 
@@ -37,11 +37,11 @@ def import_csv(self, stream, options, first_row, first_column):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Файловый поток CSV.|
-| options | [TxtLoadOptions](/cells/ru/python-net/aspose.cells/txtloadoptions) | Параметры загрузки для чтения текстового файла|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| options | [TxtLoadOptions](/cells/ru/python-net/aspose.cells/txtloadoptions) | Параметры загрузки для чтения текстовых файлов|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 
 
@@ -56,12 +56,12 @@ def import_csv(self, file_name, splitter, convert_numeric_data, first_row, first
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | file_name | str | Имя файла CSV.|
 | splitter | str | Сплиттер|
-| convert_numeric_data | bool | Преобразуется ли строка в текстовом файле в числовые данные.|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| convert_numeric_data | bool |Преобразуется ли строка в текстовом файле в числовые данные.|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 
 
@@ -76,12 +76,12 @@ def import_csv(self, stream, splitter, convert_numeric_data, first_row, first_co
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Файловый поток CSV.|
 | splitter | str | Сплиттер|
-| convert_numeric_data | bool | Преобразуется ли строка в текстовом файле в числовые данные.|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| convert_numeric_data | bool |Преобразуется ли строка в текстовом файле в числовые данные.|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 
 

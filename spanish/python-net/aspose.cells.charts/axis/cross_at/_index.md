@@ -13,8 +13,8 @@ Representa el punto en el eje de valor donde el eje de categoría lo cruza.
 
 ###  Observaciones
 
-El número debe ser un número entero cuando se aplica al eje de categorías.
-Y el valor debe estar entre 1 y 31999.
+El número debe ser un número entero cuando se aplica al eje de categoría.
+el valor debe estar entre 1 y 31999.
 ###  Definición:
 ```python
 @property

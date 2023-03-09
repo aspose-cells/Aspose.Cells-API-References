@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-Lägger till modul för ett kalkylblad.
+Lägger till moduler för ett kalkylblad.
 
 
 ###  Returnerar
@@ -22,7 +22,7 @@ def add(self, sheet):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | Arbetsbladet|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [VbaModuleType](/cells/sv/python-net/aspose.cells.vba/vbamoduletype) | Typen av modul.|
 | name | str | Namnet på modulen.|

@@ -13,7 +13,7 @@ Obtient et définit le mode d'affichage du background
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
  veuillez utiliser la propriété ChartFrame.BackgroundMode.
  Cette propriété sera supprimée 12 mois plus tard depuis JANVIER 2012.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

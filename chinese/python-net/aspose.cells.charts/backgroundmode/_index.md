@@ -1,13 +1,13 @@
 ﻿---
 title: BackgroundMode枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 370
 url: /zh/python-net/aspose.cells.charts/backgroundmode/
 is_root: false
 ---
-##  BackgroundMode枚举
+## BackgroundMode枚举
 表示背景的显示方式。
 
 

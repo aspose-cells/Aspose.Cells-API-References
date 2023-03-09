@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/pagesetup/clear_header_footer/
 is_root: false
 ---
 ##  clear_header_footer() {#}
-Löscht die Kopf- und Fußzeileneinstellung.
+Löscht Kopf- und Fußzeileneinstellungen.
 
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_group_separator proprietà
 
-Ottiene o imposta il carattere che separa i gruppi di cifre a sinistra del decimale nei valori numerici. L'impostazione predefinita è il separatore di gruppo della regione corrente.
+Ottiene o imposta il carattere che separa i gruppi di cifre a sinistra del decimale nei valori numerici.L'impostazione predefinita è il separatore di gruppo dell'area corrente.
 ###  Definizione:
 ```python
 @property

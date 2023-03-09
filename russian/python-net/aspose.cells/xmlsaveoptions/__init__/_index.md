@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/xmlsaveoptions/__init__/
 is_root: false
 ---
 ##  XmlSaveOptions() {#}
-Создает параметры для сохранения XML-файла.
+Создает параметры для сохранения xml-файлов.
 
 
 

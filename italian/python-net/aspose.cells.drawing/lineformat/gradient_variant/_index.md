@@ -14,7 +14,7 @@ Si applica solo a Excel 2007.
 
 ###  Osservazioni
 
-Può essere solo un valore compreso tra 1 e 4, corrispondente a una delle quattro varianti nella scheda Sfumatura nella finestra di dialogo Effetti di riempimento. Se style è GradientStyle.FromCenter, l'argomento Variant può essere solo 1 o 2.
+Può essere solo un valore compreso tra 1 e 4, corrispondente a una delle quattro varianti nella scheda Sfumatura nella finestra di dialogo Effetti di riempimento.Se lo stile è GradientStyle.FromCenter, l'argomento Variante può essere solo 1 o 2.
 ###  Definizione:
 ```python
 @property

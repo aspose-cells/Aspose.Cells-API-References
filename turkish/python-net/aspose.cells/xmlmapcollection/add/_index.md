@@ -22,11 +22,11 @@ def add(self, url):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | url | str | bir xml/xsd dosyasının url/yolu.|
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, bir xsd dosyası ve bir xml dosyası tarafından iki XmlMaps ekler.
 

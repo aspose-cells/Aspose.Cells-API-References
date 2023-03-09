@@ -18,7 +18,7 @@ def selected_item(self, item_index, is_selected):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | item_index | int | L'index des articles|
 | is_selected | bool | Indique si l'élément est sélectionné.<br/>True signifie que cet élément doit être sélectionné.<br/> False signifie que cet élément doit être désélectionné.|

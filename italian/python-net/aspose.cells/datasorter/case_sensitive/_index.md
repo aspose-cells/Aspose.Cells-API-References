@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  case_sensitive proprietà
 
-Ottiene e imposta la distinzione tra maiuscole e minuscole durante il confronto di stringhe.
+Ottiene e imposta la distinzione tra maiuscole e minuscole durante il confronto delle stringhe.
 ###  Definizione:
 ```python
 @property

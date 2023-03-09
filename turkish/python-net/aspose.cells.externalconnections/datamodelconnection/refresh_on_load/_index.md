@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  refresh_on_load mülk
 
-Dosya açılırken bu bağlantının yenilenmesi gerekiyorsa doğrudur; Aksi takdirde, yanlış.
+Dosya açılırken bu bağlantının yenilenmesi gerekiyorsa doğrudur;
 ###  Tanım:
 ```python
 @property

@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | L'objet Style.|
 
@@ -34,7 +34,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | Le style de cellule.|
 | explicit_flag | bool | Vrai, uniquement en écrasant le formatage qui est explicitement défini.|

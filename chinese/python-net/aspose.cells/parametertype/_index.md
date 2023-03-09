@@ -1,13 +1,13 @@
 ﻿---
 title: ParameterType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2340
 url: /zh/python-net/aspose.cells/parametertype/
 is_root: false
 ---
-##  ParameterType枚举
+## ParameterType枚举
 表示函数的所有参数类型或返回值类型。
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 comment nesnesini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

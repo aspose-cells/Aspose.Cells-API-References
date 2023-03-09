@@ -18,8 +18,8 @@ El tipo Timeline expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [caption](/cells/es/python-net/aspose.cells.timelines/timeline/caption) |Devuelve o establece el título de la línea de tiempo especificada.|
-| [name](/cells/es/python-net/aspose.cells.timelines/timeline/name) | Devuelve o establece el nombre de la línea de tiempo especificada|
+| [caption](/cells/es/python-net/aspose.cells.timelines/timeline/caption) | Devuelve o establece el título de la línea de tiempo especificada.|
+| [name](/cells/es/python-net/aspose.cells.timelines/timeline/name) |Devuelve o establece el nombre de la línea de tiempo especificada|
 | [left_pixel](/cells/es/python-net/aspose.cells.timelines/timeline/left_pixel) | Devuelve o establece el desplazamiento horizontal de la forma de la línea de tiempo desde su columna izquierda, en píxeles.|
 | [top_pixel](/cells/es/python-net/aspose.cells.timelines/timeline/top_pixel) | Devuelve o establece el desplazamiento vertical de la forma de la línea de tiempo desde su fila superior, en píxeles.|
 | [width_pixel](/cells/es/python-net/aspose.cells.timelines/timeline/width_pixel) | Devuelve o establece el ancho de la línea de tiempo especificada, en píxeles.|
@@ -27,7 +27,7 @@ El tipo Timeline expone los siguientes miembros:
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import CellsFactory, Workbook

@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el weight de la línea en unidades de puntos.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  overflow недвижимость
 
-Получает или задает overflow бинов осей
+Получает или задает overflow интервалов оси.
 ###  Определение:
 ```python
 @property

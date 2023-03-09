@@ -12,18 +12,18 @@ is_root: false
 ###  Klasser
 | Klass| Beskrivning|
 | :- | :- |
-| [OdsCellField](/cells/sv/python-net/aspose.cells.ods/odscellfield) | Representerar cellfältet för ods.|
+| [OdsCellField](/cells/sv/python-net/aspose.cells.ods/odscellfield) | Representerar cellens oddsfält.|
 | [OdsCellFieldCollection](/cells/sv/python-net/aspose.cells.ods/odscellfieldcollection) | Representerar fälten ODS.|
-| [OdsPageBackground](/cells/sv/python-net/aspose.cells.ods/odspagebackground) | Representerar sidbakgrunden för ods.|
+| [OdsPageBackground](/cells/sv/python-net/aspose.cells.ods/odspagebackground) | Representerar sidans bakgrund för odds.|
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
-| [OdsCellFieldType](/cells/sv/python-net/aspose.cells.ods/odscellfieldtype) | Representerar cellfältstypen för ods.|
+| [OdsCellFieldType](/cells/sv/python-net/aspose.cells.ods/odscellfieldtype) | Representerar cellfältstypen av odds.|
 | [OdsGeneratorType](/cells/sv/python-net/aspose.cells.ods/odsgeneratortype) | Representerar typen av ODS generator.|
 | [OdsPageBackgroundGraphicPositionType](/cells/sv/python-net/aspose.cells.ods/odspagebackgroundgraphicpositiontype) | Representerar positionen.|
 | [OdsPageBackgroundGraphicType](/cells/sv/python-net/aspose.cells.ods/odspagebackgroundgraphictype) | Representerar typen av formateringssidabakgrund med bild.|
-| [OdsPageBackgroundType](/cells/sv/python-net/aspose.cells.ods/odspagebackgroundtype) |Representerar sidans bakgrundstyp för ods.|
+| [OdsPageBackgroundType](/cells/sv/python-net/aspose.cells.ods/odspagebackgroundtype) | Representerar sidans bakgrundstyp av odds.|
 
 

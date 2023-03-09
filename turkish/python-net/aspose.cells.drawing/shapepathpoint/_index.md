@@ -1,5 +1,5 @@
 ﻿---
-title: ShapePathPoint sınıf
+title: ShapePathPoint sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 590
 url: /tr/python-net/aspose.cells.drawing/shapepathpoint/
 is_root: false
 ---
-##  ShapePathPoint sınıf
+##  ShapePathPoint sınıfı
 Yol koordinat alanı içindeki bir xy koordinatını temsil eder.
 
 

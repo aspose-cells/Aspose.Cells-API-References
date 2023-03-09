@@ -18,13 +18,13 @@ def set_view_column_width_pixel(self, column, pixels):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column | int | L'indice de colonne.|
-| pixels | int | La largeur en unité de pixels.|
+| pixels | int | La largeur en unités de pixels.|
 ###  Remarques
 
-Si le type de vue actuel est [ViewType.PAGE_LAYOUT_VIEW](/cells/fr/python-net/aspose.cells/viewtype#PAGE_LAYOUT_VIEW), la largeur de la colonne est identique à la largeur imprimée.
+Si le type de vue actuel est [ViewType.PAGE_LAYOUT_VIEW](/cells/fr/python-net/aspose.cells/viewtype#PAGE_LAYOUT_VIEW), la largeur de la colonne est la même que la largeur imprimée.
 
 
 ###  Voir également

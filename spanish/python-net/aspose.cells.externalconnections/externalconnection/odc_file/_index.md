@@ -10,7 +10,7 @@ is_root: false
 ##  odc_file propiedad
 
  Especifica la ruta completa al archivo de conexión externa desde el que se realizó esta conexión.
- creado. Si una conexión falla durante un intento de actualizar los datos y reconnectionMethod=1,
+ Si una conexión falla durante un intento de actualizar los datos y reconnectionMethod=1,
  luego, la aplicación de hoja de cálculo volverá a intentarlo utilizando la información del archivo de conexión externa
 en lugar del objeto de conexión incrustado en el libro de trabajo.
 ###  Definición:

@@ -11,7 +11,7 @@ is_root: false
 
 Ottieni la riga inferiore effettiva.
 
-###  Esempio
+###  Esempi
 
 ```python
 

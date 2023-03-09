@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_type mülk
 
-Dışa aktarılan metin dosyasında değerlerin nasıl alıntılanacağını alır veya ayarlar.
+Dışa aktarılan metin dosyasındaki değerlerin nasıl alıntılanacağını alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

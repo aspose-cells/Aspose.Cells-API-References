@@ -18,10 +18,10 @@ def add_external_name(self, text, refer_to):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| text | str | Texten för det externa namnet.<br/> Om det externa namnet tillhör ett kalkylblad ska texten vara som Sheet1!Text.|
-| refer_to | str | Hänvisningen till det externa namnet. Det måste vara en cell eller intervallet.|
+| text | str | Texten för det externa namnet.<br/>Om det externa namnet tillhör ett kalkylblad ska texten vara som Sheet1!Text.|
+| refer_to | str | Hänvisningen till det externa namnet.|
 
 
 

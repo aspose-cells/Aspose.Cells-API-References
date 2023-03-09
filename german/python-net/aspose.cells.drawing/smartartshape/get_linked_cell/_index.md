@@ -27,7 +27,7 @@ def get_linked_cell(self, is_r1c1, is_local):
 | is_r1c1 | bool | Ob die Formel als R1C1 formatiert werden muss.|
 | is_local | bool | Ob die Formel nach Gebietsschema formatiert werden muss.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

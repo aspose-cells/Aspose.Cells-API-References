@@ -13,7 +13,7 @@ is_root: false
 
 ###  İadeler
 
-Bir Etiket nesnesi.
+Bir etiket nesnesi.
 
 
 ```python
@@ -22,16 +22,16 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | Label öğesinin sol satırından piksel birimi cinsinden dikey uzaklığını temsil eder.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| upper_left_column | int | Sol üst sütun dizini.|
 | left | int | Label öğesinin sol sütunundan piksel birimi cinsinden yatay uzaklığını temsil eder.|
 | height | int | Etiketin piksel birimi cinsinden yüksekliğini temsil eder.|
 | width | int | Etiket genişliğini piksel birimi cinsinden temsil eder.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

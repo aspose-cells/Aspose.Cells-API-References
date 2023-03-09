@@ -14,7 +14,7 @@ i enhet av 1/4000 av höjden på den överordnade formen.
 
 ###  Anmärkningar
 
-Gäller endast när denna form i gruppen eller diagrammet.
+Gäller endast när denna form finns i gruppen eller diagrammet.
 
 ###  Exempel
 

@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_inch Eigentum
 
-Stellt die Höhe der Form in Zoll dar.
+Stellt die Höhe der Form in Zolleinheiten dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

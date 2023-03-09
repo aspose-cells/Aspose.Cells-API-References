@@ -22,11 +22,11 @@ def get_threaded_comments(self, cell_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell_name | str | Hücrenin adı.|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -53,12 +53,12 @@ def get_threaded_comments(self, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | column | int | Sütun dizini.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -1,13 +1,13 @@
 ﻿---
 title: PowerQueryFormulaParameterCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
 url: /zh/python-net/aspose.cells.querytables/powerqueryformulaparametercollection/
 is_root: false
 ---
-##  PowerQueryFormulaParameterCollection类
+## PowerQueryFormulaParameterCollection类
 代表
 
 

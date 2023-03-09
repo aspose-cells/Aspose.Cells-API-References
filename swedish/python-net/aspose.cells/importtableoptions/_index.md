@@ -17,13 +17,13 @@ Typen ImportTableOptions avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [ImportTableOptions()](/cells/sv/python-net/aspose.cells/importtableoptions/__init__/#) |Skapar standardalternativen för import.|
+| [ImportTableOptions()](/cells/sv/python-net/aspose.cells/importtableoptions/__init__/#) | Skapar standardalternativen för import.|
 
 
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [convert_grid_style](/cells/sv/python-net/aspose.cells/importtableoptions/convert_grid_style) | Anger om formatet för rutnätsvyn tillämpas på celler.|
+| [convert_grid_style](/cells/sv/python-net/aspose.cells/importtableoptions/convert_grid_style) | Anger om stilen för rutnätsvyn ska tillämpas på celler.|
 | [convert_numeric_data](/cells/sv/python-net/aspose.cells/importtableoptions/convert_numeric_data) | Hämtar eller ställer in ett värde som anger om strängvärdet ska konverteras till numeriskt eller datumvärde.|
 | [insert_rows](/cells/sv/python-net/aspose.cells/importtableoptions/insert_rows) | Anger om nya rader ska läggas till för import av dataposter.|
 | [shift_first_row_down](/cells/sv/python-net/aspose.cells/importtableoptions/shift_first_row_down) | Indikerar om den första raden flyttas nedåt vid infogning av rader.|
@@ -32,8 +32,8 @@ Typen ImportTableOptions avslöjar följande medlemmar:
 | [date_format](/cells/sv/python-net/aspose.cells/importtableoptions/date_format) | Hämtar eller ställer in datumformatsträng för celler med importerade datetime-värden.|
 | [number_formats](/cells/sv/python-net/aspose.cells/importtableoptions/number_formats) | Hämtar eller ställer in talformaten|
 | [is_formulas](/cells/sv/python-net/aspose.cells/importtableoptions/is_formulas) | Anger om uppgifterna är formler.|
-| [total_rows](/cells/sv/python-net/aspose.cells/importtableoptions/total_rows) |Hämtar eller ställer in totalt antal rader för import från datakällan. -1 betyder alla rader av given datakälla.|
-| [total_columns](/cells/sv/python-net/aspose.cells/importtableoptions/total_columns) | Hämtar eller ställer in totalt kolumnantal för import från datakällan. -1 betyder alla rader av given datakälla.|
+| [total_rows](/cells/sv/python-net/aspose.cells/importtableoptions/total_rows) | -1 betyder alla rader av given datakälla.|
+| [total_columns](/cells/sv/python-net/aspose.cells/importtableoptions/total_columns) | -1 betyder alla rader av given datakälla.|
 | [column_indexes](/cells/sv/python-net/aspose.cells/importtableoptions/column_indexes) | Hämtar eller ställer in kolumnerna (0-baserade) för import från datakällan. null betyder att alla kolumner ska importeras.|
 | [default_values](/cells/sv/python-net/aspose.cells/importtableoptions/default_values) | Standardvärdet för värdet i tabellen är null.|
 | [is_html_string](/cells/sv/python-net/aspose.cells/importtableoptions/is_html_string) | Anger om värdet innehåller html-taggar.|

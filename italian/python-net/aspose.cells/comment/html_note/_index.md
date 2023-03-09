@@ -15,7 +15,7 @@ Ottiene e imposta la stringa html che contiene dati e alcuni formati in questo c
 
 Se si tratta di un commento con thread, la nota non può essere modificata, altrimenti MS Excel non potrebbe elaborarla come commento con thread.
 
-###  Esempio
+###  Esempi
 
 ```python
 

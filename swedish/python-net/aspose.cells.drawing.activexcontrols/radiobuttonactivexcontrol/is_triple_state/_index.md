@@ -13,10 +13,10 @@ Indikerar hur den angivna kontrollen kommer att visa nollvärden.
 
 ###  Anmärkningar
 
-| Miljö| Beskrivning|
+| inställningar| Beskrivning|
 | :- | :- |
-| Sann| Kontrollen växlar genom tillstånden för Ja, Nej och Null-värden. Kontrollen visas nedtonad (grå) när dess värdeegenskap är inställd på Null.|
-| Falsk| (Standard) Kontrollen växlar genom tillstånden för Ja- och Nej-värden. Nullvärden visas som om de vore Inga värden.|
+| Sann| Kontrollen växlar genom tillstånden för Ja, Nej och Null-värden.|
+| Falsk|(Standard) Kontrollen växlar genom tillstånden för Ja- och Nej-värden.|
 ###  Definition:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Nesne yazdırılabilir ise doğrudur
 
-###  Örnek
+###  örnekler
 
 ```python
 

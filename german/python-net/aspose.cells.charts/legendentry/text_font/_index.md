@@ -13,7 +13,7 @@ Ruft ein [LegendEntry.font](/cells/de/python-net/aspose.cells.charts/legendentry
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die LegendEntry.Font-Eigenschaft.
  Diese Property wird 12 Monate später seit JANUAR 2012 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

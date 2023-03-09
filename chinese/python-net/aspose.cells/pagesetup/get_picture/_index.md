@@ -1,6 +1,6 @@
 ﻿---
 title: get_picture方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
@@ -23,10 +23,10 @@ def get_picture(self, is_header, section):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | is_header | bool |指示它是在页眉还是页脚中。|
-| section | int |0：左部分，1：中部分，2：右部分。|
+| section | int | 0：左部分，1：中部分，2：右部分。|
 
 
 ##  get_picture(is_first, is_even, is_header, section) {#bool-bool-bool-int}
@@ -44,12 +44,12 @@ def get_picture(self, is_first, is_even, is_header, section):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | is_first | bool |表示是否获取首页页眉/页脚的图片。|
 | is_even | bool |是否获取偶数页页眉/页脚图片。|
 | is_header | bool |表示是否获取页眉/页脚的图片。|
-| section | int |0：左部分，1：中部分，2：右部分。|
+| section | int | 0：左部分，1：中部分，2：右部分。|
 
 
 

@@ -1,13 +1,13 @@
 ﻿---
 title: ErrorBarDisplayType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 500
 url: /zh/python-net/aspose.cells.charts/errorbardisplaytype/
 is_root: false
 ---
-##  ErrorBarDisplayType枚举
+## ErrorBarDisplayType枚举
 表示错误栏显示类型。
 
 

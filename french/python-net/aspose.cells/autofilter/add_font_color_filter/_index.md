@@ -18,7 +18,7 @@ def add_font_color_filter(self, field_index, color):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | field_index | int | Le décalage entier du champ sur lequel vous souhaitez baser le filtre<br/> (à partir de la gauche de la liste ; le champ le plus à gauche est le champ 0).|
 | color | [CellsColor](/cells/fr/python-net/aspose.cells/cellscolor) | L'objet [CellsColor](/cells/fr/python-net/aspose.cells/cellscolor).|

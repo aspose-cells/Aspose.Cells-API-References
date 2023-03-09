@@ -31,7 +31,7 @@ def process(self, is_preserved):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_preserved | bool | Vero se l'indicatore intelligente non riconosciuto viene mantenuto.|
 
@@ -47,7 +47,7 @@ def process(self, sheet_index, is_preserved):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_index | int | Indice del foglio di lavoro.|
 | is_preserved | bool | Vero se l'indicatore intelligente non riconosciuto viene mantenuto.|

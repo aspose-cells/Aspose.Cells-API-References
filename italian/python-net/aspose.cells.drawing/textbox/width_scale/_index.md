@@ -12,7 +12,7 @@ is_root: false
 Ottiene e imposta la scala della larghezza, in unità di percentuale della larghezza dell'immagine originale.
 Se la forma non è picture , la proprietà WidthScale restituisce solo 100;
 
-###  Esempio
+###  Esempi
 
 ```python
 

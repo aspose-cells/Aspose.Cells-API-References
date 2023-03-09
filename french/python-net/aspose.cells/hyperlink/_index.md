@@ -18,7 +18,7 @@ Le type Hyperlink expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [address](/cells/fr/python-net/aspose.cells/hyperlink/address) | Représente l'adresse d'un lien hypertexte.|
-| [text_to_display](/cells/fr/python-net/aspose.cells/hyperlink/text_to_display) | Représente le texte à afficher pour le lien hypertexte spécifié. La valeur par défaut est l'adresse du lien hypertexte.|
+| [text_to_display](/cells/fr/python-net/aspose.cells/hyperlink/text_to_display) | Représente le texte à afficher pour le lien hypertexte spécifié.|
 | [area](/cells/fr/python-net/aspose.cells/hyperlink/area) | Obtient la plage de liens hypertexte.|
 | [screen_tip](/cells/fr/python-net/aspose.cells/hyperlink/screen_tip) | Renvoie ou définit le texte de l'info-bulle pour le lien hypertexte spécifié.|
 | [link_type](/cells/fr/python-net/aspose.cells/hyperlink/link_type) | Obtient le type de lien.|
@@ -31,7 +31,7 @@ Le type Hyperlink expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

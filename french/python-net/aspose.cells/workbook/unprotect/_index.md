@@ -18,7 +18,7 @@ def unprotect(self, password):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | password | str | Mot de passe pour déprotéger le classeur.|
 

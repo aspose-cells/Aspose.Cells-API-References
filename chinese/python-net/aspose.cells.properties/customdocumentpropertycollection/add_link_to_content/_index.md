@@ -1,6 +1,6 @@
 ﻿---
 title: add_link_to_content方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -22,7 +22,7 @@ def add_link_to_content(self, name, source):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | name | str |属性的名称。|
 | source | str |属性来源|

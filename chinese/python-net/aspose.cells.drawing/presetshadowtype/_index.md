@@ -1,13 +1,13 @@
 ﻿---
 title: PresetShadowType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1080
 url: /zh/python-net/aspose.cells.drawing/presetshadowtype/
 is_root: false
 ---
-##  PresetShadowType枚举
+## PresetShadowType枚举
 表示预设阴影类型。
 
 

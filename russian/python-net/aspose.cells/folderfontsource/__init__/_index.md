@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/folderfontsource/__init__/
 is_root: false
 ---
 ##  FolderFontSource(folder_path, scan_subfolders) {#str-bool}
-Стор.
+Директор.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, folder_path, scan_subfolders):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | folder_path | str | путь к папке со шрифтами|
 | scan_subfolders | bool | Определяет, сканировать ли вложенные папки.|

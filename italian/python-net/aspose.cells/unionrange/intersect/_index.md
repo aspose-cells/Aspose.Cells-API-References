@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range | str | La gamma.|
 ###  Osservazioni
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/it/python-net/aspose.cells/unionrange) | La gamma.|
 ###  Osservazioni
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | ranges | list | La gamma.|
 ###  Osservazioni

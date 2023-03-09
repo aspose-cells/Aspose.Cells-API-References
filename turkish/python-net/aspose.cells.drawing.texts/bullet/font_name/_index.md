@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name mülk
 
-Yazı tipinin adını alın ve ayarlar.
+Yazı tipinin adını alın ve ayarlayın.
 ###  Tanım:
 ```python
 @property

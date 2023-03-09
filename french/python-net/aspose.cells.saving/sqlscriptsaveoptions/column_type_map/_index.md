@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map propriété
 
-Obtient et définit la carte du type de colonne pour différentes bases de données.
+Obtient et définit la carte des types de colonnes pour différentes bases de données.
 ###  Définition:
 ```python
 @property

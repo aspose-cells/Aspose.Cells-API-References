@@ -24,12 +24,12 @@ def on_circular(self, circular_cells_data):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| circular_cells_data | collections.abc.Iterator |IEnumerator med CalculationCell-objekt som representerar celler som<br/> beror på cirkulära referenser.|
+| circular_cells_data | collections.abc.Iterator | IEnumerator med CalculationCell-objekt som representerar celler som<br/> beror på cirkulära referenser.|
 ###  Anmärkningar
 
-I implementeringen kan användaren också ställa in det förväntade värdet som beräknat resultat
+implementeringen kan användaren också ställa in det förväntade värdet som beräknat resultat
 för en del/alla av dessa celler så att formelmotorn inte kommer att beräkna dem rekursivt.
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: get_boolean_value_string方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -22,7 +22,7 @@ def get_boolean_value_string(self, bv):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | bv | bool |布尔值|
 

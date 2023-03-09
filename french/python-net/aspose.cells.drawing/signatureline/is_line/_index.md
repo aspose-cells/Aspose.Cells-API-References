@@ -11,7 +11,7 @@ is_root: false
 
 Indique s'il s'agit d'une ligne de signature.
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -13,7 +13,7 @@ Obtient la ligne suivante à enregistrer.
 
 ###  Retour
 
-l'index de ligne suivant à enregistrer. -1 signifie que la fin des données de la feuille actuelle a été atteinte et qu'aucune autre ligne de la feuille actuelle ne doit être enregistrée.
+-1 signifie que la fin des données de la feuille actuelle a été atteinte et qu'aucune autre ligne de la feuille actuelle ne doit être enregistrée.
 
 
 ```python

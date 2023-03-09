@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/it/python-net/aspose.cells/workbook) | Il file della cartella di lavoro del modello.|
 

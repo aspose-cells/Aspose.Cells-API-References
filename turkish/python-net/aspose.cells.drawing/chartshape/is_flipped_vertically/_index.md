@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin dikey olarak çevrilip çevrilmediğini alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

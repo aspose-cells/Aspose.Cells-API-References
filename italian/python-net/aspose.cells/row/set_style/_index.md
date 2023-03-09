@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | style | [Style](/cells/it/python-net/aspose.cells/style) | lo stile da utilizzare come stile predefinito per le celle in questa riga.|
 ###  Osservazioni

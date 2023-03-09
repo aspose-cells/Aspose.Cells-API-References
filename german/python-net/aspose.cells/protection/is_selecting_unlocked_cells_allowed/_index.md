@@ -13,7 +13,7 @@ Stellt dar, ob der Benutzer entsperrte Zellen auf einem geschützten Arbeitsblat
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die Protection.AllowSelectingUnlockedCell-Eigenschaft.
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -19,15 +19,15 @@ is_root: false
 | [TableStyle](/cells/de/python-net/aspose.cells.tables/tablestyle) | Stellt den Tabellenstil dar.|
 | [TableStyleCollection](/cells/de/python-net/aspose.cells.tables/tablestylecollection) | Stellt alle benutzerdefinierten Tabellenstile dar.|
 | [TableStyleElement](/cells/de/python-net/aspose.cells.tables/tablestyleelement) | Repräsentiert das Element des Tabellenstils.|
-| [TableStyleElementCollection](/cells/de/python-net/aspose.cells.tables/tablestyleelementcollection) | Stellt alle Elemente des Tabellenstils dar.|
+| [TableStyleElementCollection](/cells/de/python-net/aspose.cells.tables/tablestyleelementcollection) |Stellt alle Elemente des Tabellenstils dar.|
 | [TableToRangeOptions](/cells/de/python-net/aspose.cells.tables/tabletorangeoptions) | Repräsentiert die Optionen beim Konvertieren einer Tabelle in einen Bereich.|
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
 | [TableDataSourceType](/cells/de/python-net/aspose.cells.tables/tabledatasourcetype) | Repräsentiert den Datenquellentyp der Tabelle.|
-| [TableStyleElementType](/cells/de/python-net/aspose.cells.tables/tablestyleelementtype) |Stellt den Stilelementtyp Table oder PivotTable dar.|
+| [TableStyleElementType](/cells/de/python-net/aspose.cells.tables/tablestyleelementtype) | Stellt den Stilelementtyp Table oder PivotTable dar.|
 | [TableStyleType](/cells/de/python-net/aspose.cells.tables/tablestyletype) | Stellt den integrierten Tabellenformattyp dar.|
 | [TotalsCalculation](/cells/de/python-net/aspose.cells.tables/totalscalculation) | Legt die Art der Berechnung in der Summenzeile der Listenspalte fest.|
 

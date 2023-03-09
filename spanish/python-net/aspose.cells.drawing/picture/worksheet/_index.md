@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene el objeto [Shape.worksheet](/cells/es/python-net/aspose.cells.drawing/shape#worksheet) que contiene esta forma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

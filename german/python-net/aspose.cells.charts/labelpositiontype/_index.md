@@ -17,10 +17,10 @@ Der Typ LabelPositionType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| CENTER | Gilt nur für Balken-, 2D-/3D-Kreisdiagramme|
-| INSIDE_BASE | Gilt nur für Balken-, 2D-/3D-Kreisdiagramme|
+| CENTER |Gilt nur für Balken-, 2D-/3D-Kreisdiagramme|
+| INSIDE_BASE |Gilt nur für Balken-, 2D-/3D-Kreisdiagramme|
 | INSIDE_END | Gilt nur für Balkendiagramme|
-| OUTSIDE_END | Gilt nur für Balken-, 2D-/3D-Kreisdiagramme|
+| OUTSIDE_END |Gilt nur für Balken-, 2D-/3D-Kreisdiagramme|
 | ABOVE | Gilt nur für Liniendiagramme|
 | BELOW | Gilt nur für Liniendiagramme|
 | LEFT | Gilt nur für Liniendiagramme|

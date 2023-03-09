@@ -18,18 +18,18 @@ is_root: false
 | [DataModelConnection](/cells/sv/python-net/aspose.cells.externalconnections/datamodelconnection) | Anger en datamodellanslutning|
 | [ExternalConnection](/cells/sv/python-net/aspose.cells.externalconnections/externalconnection) | Anger en extern dataanslutning|
 | [ExternalConnectionCollection](/cells/sv/python-net/aspose.cells.externalconnections/externalconnectioncollection) | Anger samlingen [ExternalConnection](/cells/sv/python-net/aspose.cells.externalconnections/externalconnection)|
-| [WebQueryConnection](/cells/sv/python-net/aspose.cells.externalconnections/webqueryconnection) | Anger egenskaperna för en webbfrågekälla. En webbfråga kommer att hämta data från HTML tabeller,<br/> och kan också tillhandahålla HTTP "Get"-parametrar som ska bearbetas av webbservern för att generera HTML av<br/> inklusive parametrarna och parameterelementen.|
+| [WebQueryConnection](/cells/sv/python-net/aspose.cells.externalconnections/webqueryconnection) | En webbfråga kommer att hämta data från HTML tabeller,<br/> och kan också tillhandahålla HTTP "Get"-parametrar som ska bearbetas av webbservern för att generera HTML av<br/> inklusive parametrarna och parameterelementen.|
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
-| [ConnectionDataSourceType](/cells/sv/python-net/aspose.cells.externalconnections/connectiondatasourcetype) | Anger extern databas källtyp|
+| [ConnectionDataSourceType](/cells/sv/python-net/aspose.cells.externalconnections/connectiondatasourcetype) |Anger extern databas källtyp|
 | [ConnectionParameterType](/cells/sv/python-net/aspose.cells.externalconnections/connectionparametertype) | Anger parametertyp för extern anslutning|
 | [CredentialsMethodType](/cells/sv/python-net/aspose.cells.externalconnections/credentialsmethodtype) | Anger den metod för autentiseringsuppgifter som används för serveråtkomst.|
 | [HtmlFormatHandlingType](/cells/sv/python-net/aspose.cells.externalconnections/htmlformathandlingtype) | Anger hur formatering från källan HTML ska hanteras|
 | [OLEDBCommandType](/cells/sv/python-net/aspose.cells.externalconnections/oledbcommandtype) | Anger kommandotypen OLE DB.|
 | [ReConnectionMethodType](/cells/sv/python-net/aspose.cells.externalconnections/reconnectionmethodtype) | Anger vad kalkylarksapplikationen ska göra när en anslutning misslyckas.|
-| [SqlDataType](/cells/sv/python-net/aspose.cells.externalconnections/sqldatatype) | Anger SQL-datatypen för parametern. Endast giltigt för ODBC-källor.|
+| [SqlDataType](/cells/sv/python-net/aspose.cells.externalconnections/sqldatatype) | Anger SQL-datatypen för parametern.|
 
 

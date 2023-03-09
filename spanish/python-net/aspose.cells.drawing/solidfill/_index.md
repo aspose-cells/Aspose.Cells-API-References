@@ -23,7 +23,7 @@ El tipo SolidFill expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [color](/cells/es/python-net/aspose.cells.drawing/solidfill/color) | Obtiene o establece el Color.|
-| [cells_color](/cells/es/python-net/aspose.cells.drawing/solidfill/cells_color) | Obtiene y establece el objeto [SolidFill.cells_color](/cells/es/python-net/aspose.cells.drawing/solidfill#cells_color).|
+| [cells_color](/cells/es/python-net/aspose.cells.drawing/solidfill/cells_color) |Obtiene y establece el objeto [SolidFill.cells_color](/cells/es/python-net/aspose.cells.drawing/solidfill#cells_color).|
 | [transparency](/cells/es/python-net/aspose.cells.drawing/solidfill/transparency) | Devuelve o establece el grado de transparencia del área como un valor de 0,0 (opaco) a 1,0 (transparente).|
 
 

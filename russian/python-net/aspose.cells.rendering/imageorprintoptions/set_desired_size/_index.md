@@ -18,7 +18,7 @@ def set_desired_size(self, desired_width, desired_height):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | desired_width | int | желаемая ширина в пикселях|
 | desired_height | int | желаемая высота в пикселях|

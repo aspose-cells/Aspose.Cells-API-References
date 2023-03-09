@@ -17,12 +17,12 @@ Der Typ LookInType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| FORMULAS | Wenn die Zelle eine Formel enthält, finden Sie das Objekt aus der Formel, andernfalls finden Sie es aus dem Wert.|
-| VALUES | Objekt nur aus den formatierten Werten finden.|
+| FORMULAS |Wenn die Zelle eine Formel enthält, finden Sie das Objekt aus der Formel, andernfalls finden Sie es aus dem Wert.|
+| VALUES | Finde nur Objekte aus den formatierten Werten.|
 | VALUES_EXCLUDE_FORMULA_CELL | Finden Sie nur Objekte aus den Werten von Zellen, die keine Formel enthalten.|
-| COMMENTS | Objekt nur aus den Kommentaren finden.|
-| ONLY_FORMULAS | Objekt nur aus Formeln finden.|
-| ORIGINAL_VALUES | Objekt nur anhand der Originalwerte finden.|
+| COMMENTS | Finde nur Objekte aus den Kommentaren.|
+| ONLY_FORMULAS | Nur Objekte aus Formeln finden.|
+| ORIGINAL_VALUES | Finden Sie nur Objekte aus den ursprünglichen Werten.|
 
 
 

@@ -18,10 +18,10 @@ def import_array(self, string_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | string_array | list | Dize dizisi.|
-| first_row | int |İçe aktarılacak ilk hücrenin satır numarası.|
+| first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
 | first_column | int | İçe aktarılacak ilk hücrenin sütun numarası.|
 | is_vertical | bool | Verilerin dikey veya yatay olarak içe aktarılacağını belirtir.|
 
@@ -37,16 +37,16 @@ def import_array(self, int_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | int_array | list | Tamsayı dizisi.|
-| first_row | int |İçe aktarılacak ilk hücrenin satır numarası.|
+| first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
 | first_column | int | İçe aktarılacak ilk hücrenin sütun numarası.|
 | is_vertical | bool | Verilerin dikey veya yatay olarak içe aktarılacağını belirtir.|
 
 
 ##  import_array(double_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Double dizisini bir çalışma sayfasına aktarır.
+Bir çiftler dizisini bir çalışma sayfasına aktarır.
 
 
 
@@ -56,10 +56,10 @@ def import_array(self, double_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | double_array | list | Çift dizi.|
-| first_row | int |İçe aktarılacak ilk hücrenin satır numarası.|
+| first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
 | first_column | int | İçe aktarılacak ilk hücrenin sütun numarası.|
 | is_vertical | bool | Verilerin dikey veya yatay olarak içe aktarılacağını belirtir.|
 

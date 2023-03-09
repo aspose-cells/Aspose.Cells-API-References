@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/htmlsaveoptions/__init__/
 is_root: false
 ---
 ##  HtmlSaveOptions() {#}
-Создает параметры для сохранения html-файла.
+Создает опции для сохранения html файлов.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlSaveOptions(format) {#SaveFormat}
-Создает параметры для сохранения файла htm.
+Создает опции для сохранения файлов htm.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/ru/python-net/aspose.cells/saveformat) | Формат сохранения файла.|
 

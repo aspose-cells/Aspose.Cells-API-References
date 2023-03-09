@@ -1,6 +1,6 @@
 ﻿---
 title: legend_entries 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 260
@@ -10,7 +10,7 @@ is_root: false
 ## legend_entries 属性
 
 获取指定图表图例中所有 LegendEntry 对象的集合。
-不支持设置曲面图的图例条目。
+不支持设置曲面图的图例项。
 因此，如果图表类型是曲面图表类型，它将返回 null。
 ### 定义：
 ```python

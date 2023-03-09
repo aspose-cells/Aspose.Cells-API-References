@@ -20,8 +20,8 @@ ShapeLockType türü aşağıdaki üyeleri gösterir:
 | GROUP | Grup|
 | ADJUST_HANDLES | Kolları Ayarla|
 | TEXT | Metin|
-| POINTS | Puanlar|
-| CROP | Mahsul|
+| POINTS | puan|
+| CROP |Mahsul|
 | SELECTION | seçim|
 | MOVE | Taşınmak|
 | ASPECT_RATIO | En Boy Oranı|

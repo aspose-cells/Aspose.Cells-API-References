@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range | str | La gamme.|
 ###  Remarques
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/fr/python-net/aspose.cells/unionrange) | La gamme.|
 ###  Remarques
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | ranges | list | La gamme.|
 ###  Remarques

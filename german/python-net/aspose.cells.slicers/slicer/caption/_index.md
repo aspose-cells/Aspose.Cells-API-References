@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den caption des angegebenen Slicers zurück oder legt ihn fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

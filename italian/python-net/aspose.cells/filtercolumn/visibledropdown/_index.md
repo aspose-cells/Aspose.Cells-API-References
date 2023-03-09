@@ -14,8 +14,8 @@ Indica se il pulsante Filtro automatico per questa colonna è visibile.
 ###  Osservazioni
 
  NOTA: questo membro è ora obsoleto.
- Utilizzare invece FilterColumn.IsDropdownVisible per verificare se il pulsante Filtro automatico per questa colonna è visibile.
-Questa proprietà verrà rimossa 12 mesi dopo da settembre 2020.
+Utilizzare invece FilterColumn.IsDropdownVisible per verificare se il pulsante Filtro automatico per questa colonna è visibile.
+ Questa proprietà verrà rimossa 12 mesi dopo da settembre 2020.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:
 ```python

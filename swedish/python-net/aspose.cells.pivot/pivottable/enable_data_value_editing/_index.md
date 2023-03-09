@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_data_value_editing fastighet
 
-Anger ett booleskt värde som indikerar om användaren har tillåtelse att redigera cellerna i dataområdet för pivottabellen.
+Anger ett booleskt värde som indikerar om användaren har tillåtelse att redigera cellerna i dataområdet i pivottabellen.
 Aktivera cellredigering i värdeområdet
 ###  Definition:
 ```python

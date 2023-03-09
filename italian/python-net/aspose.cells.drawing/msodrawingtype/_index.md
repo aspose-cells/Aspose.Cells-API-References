@@ -21,30 +21,30 @@ Il tipo MsoDrawingType espone i membri seguenti:
 | LINE | Linea|
 | RECTANGLE | Rettangolo|
 | OVAL | Ovale|
-| ARC | Arco|
-| CHART | Grafico|
+| ARC | arco|
+| CHART | grafico|
 | TEXT_BOX | Casella di testo|
-| BUTTON | Pulsante|
-| PICTURE | Immagine|
+| BUTTON | pulsante|
+| PICTURE | Immagini|
 | POLYGON | Poligono|
-| CHECK_BOX | Casella di controllo|
-| RADIO_BUTTON | Pulsante di radio|
-| LABEL | Etichetta|
+| CHECK_BOX | casella di controllo|
+| RADIO_BUTTON | tasti della radio|
+| LABEL | etichetta|
 | DIALOG_BOX | La finestra di dialogo|
 | SPINNER | Filatore|
-| SCROLL_BAR |Barra di scorrimento|
+| SCROLL_BAR | Barra di scorrimento|
 | LIST_BOX | Casella di riepilogo|
 | GROUP_BOX | GroupBox|
 | COMBO_BOX | Casella combinata|
 | COMMENT | Commento|
 | OLE_OBJECT | OleObject|
-| CELLS_DRAWING | Solo per preservare l'oggetto di disegno nel file modello.|
+| CELLS_DRAWING | Solo per preservare gli oggetti di disegno nel file modello.|
 | UNKNOWN | Solo per preservare l'oggetto di disegno nel file xlsx.|
-| SLICER | Affettatrice|
+| SLICER | affettatrice|
 | WEB_EXTENSION | Estensione web|
 | SMART_ART | Arte intelligente|
-| CUSTOM_XML | Forma xml personalizzata, ad esempio Ink.|
-| TIMELINE |Sequenza temporale|
+| CUSTOM_XML | Forme xml personalizzate, ad esempio Ink.|
+| TIMELINE | sequenza temporale|
 | MODEL_3D | Modello 3D|
 
 

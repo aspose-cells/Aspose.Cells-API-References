@@ -22,7 +22,7 @@ def add_project_refrernce(self, name, absolute_libid, relative_libid):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | name | str | Имя ссылки.|
 | absolute_libid | str | Идентификатор упомянутого проекта VBA с абсолютным путем.|

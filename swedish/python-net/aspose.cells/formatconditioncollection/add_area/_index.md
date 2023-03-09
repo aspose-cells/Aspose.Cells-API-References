@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/formatconditioncollection/add_area/
 is_root: false
 ---
 ##  add_area(cell_area) {#CellArea}
-Lägger till ett villkorligt formaterat cellintervall.
+Lägger till ett villkorligt formaterat cellområde.
 
 
 ###  Returnerar
@@ -22,9 +22,9 @@ def add_area(self, cell_area):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Villkorligt formaterat cellområde.|
+| cell_area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) |Villkorligt formaterat cellområde.|
 
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 True si el objeto está bloqueado, False si el objeto se puede modificar cuando la hoja está protegida.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

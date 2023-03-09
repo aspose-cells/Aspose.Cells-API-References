@@ -22,7 +22,7 @@ def check_row(self, row):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila|
 

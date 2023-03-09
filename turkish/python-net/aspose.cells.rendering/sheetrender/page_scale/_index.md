@@ -10,9 +10,9 @@ is_root: false
 ##  page_scale mülk
 
 Sayfanın hesaplanan sayfa ölçeğini alır.
-[PageSetup.zoom](/cells/tr/python-net/aspose.cells/pagesetup#zoom) ayarlanmışsa ayarlanan ölçeği döndürür. Aksi takdirde, [PageSetup.fit_to_pages_wide](/cells/tr/python-net/aspose.cells/pagesetup#fit_to_pages_wide) ve [PageSetup.fit_to_pages_tall](/cells/tr/python-net/aspose.cells/pagesetup#fit_to_pages_tall)'e göre hesaplanan ölçeği döndürür.
+[PageSetup.zoom](/cells/tr/python-net/aspose.cells/pagesetup#zoom) ayarlanmışsa ayarlanan ölçeği döndürür.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

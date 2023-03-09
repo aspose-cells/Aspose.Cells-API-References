@@ -22,7 +22,7 @@ def is_error_check(self, error_check_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/ar/python-net/aspose.cells/errorchecktype) | يمكن التحقق من نوع الخطأ|
 

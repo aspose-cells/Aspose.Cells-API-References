@@ -14,7 +14,7 @@ Indique si le filtrage automatique des données lors du chargement des fichiers.
 ###  Remarques
 
 Parfois, bien que le filtre automatique soit activé, les lignes correspondantes ne sont pas masquées dans le fichier.
-Ne fonctionne plus que pour le fichier SpreadSheetML.
+Ne fonctionne désormais que pour les fichiers SpreadSheetML.
 ###  Définition:
 ```python
 @property

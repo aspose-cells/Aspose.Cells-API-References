@@ -22,7 +22,7 @@ def add(self, cell_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | cell_name | str | El nombre de la celda.|
 
@@ -42,7 +42,7 @@ def add(self, row, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | La fila de la celda.|
 | column | int | La columna de la celda.|

@@ -13,8 +13,8 @@ Representa si se permite la inserción de columnas en una hoja de trabajo proteg
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
-utilice la propiedad Protection.AllowInsertingColumn.
+ NOTA: Este miembro ahora está obsoleto.
+ utilice la propiedad Protection.AllowInsertingColumn.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

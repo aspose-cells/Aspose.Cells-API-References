@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/htmlsaveoptions/__init__/
 is_root: false
 ---
 ##  HtmlSaveOptions() {#}
-Skapar alternativ för att spara html-fil.
+Skapar alternativ för att spara html-filer.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlSaveOptions(format) {#SaveFormat}
-Skapar alternativ för att spara htm-fil.
+Skapar alternativ för att spara htm-filer.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Filformatet för att spara.|
 

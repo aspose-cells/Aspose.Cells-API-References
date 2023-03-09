@@ -1,16 +1,16 @@
 ﻿---
 title: CalculationPrecisionStrategy枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1820
 url: /zh/python-net/aspose.cells/calculationprecisionstrategy/
 is_root: false
 ---
-##  CalculationPrecisionStrategy枚举
+## CalculationPrecisionStrategy枚举
 枚举处理计算精度的策略。
 由于 IEEE 754 Floating-Point Arithmetic 的精度问题，一些“看似简单”的公式可能无法计算出预期的结果。
-如公式“=-0.45+0.43+0.02”，直接用'+'运算符计算操作数时，结果不为零。对于这种精度问题，
+如公式“=-0.45+0.43+0.02”，直接用'+'运算符计算操作数时，结果不为零。
 一些特殊的策略可能会产生预期的结果。
 
 

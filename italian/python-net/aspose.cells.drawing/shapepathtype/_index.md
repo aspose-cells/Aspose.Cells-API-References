@@ -17,11 +17,11 @@ Il tipo ShapePathType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| LINE_TO | Segmento di retta|
+| LINE_TO |Segmento di retta|
 | CUBIC_BEZIER_CURVE_TO | Curva di Bézier cubica|
 | MOVE_TO | Inizia un nuovo percorso|
 | CLOSE | Se il PUNTO iniziale e il PUNTO finale non sono uguali, un unico<br/> viene tracciata una linea retta per collegare il PUNTO iniziale e il PUNTO finale del percorso.|
-| END |La fine del percorso attuale|
+| END | La fine del percorso attuale|
 | ESCAPE | Fuga|
 | ARC_TO | Un arco|
 | UNKNOWN | Sconosciuto|

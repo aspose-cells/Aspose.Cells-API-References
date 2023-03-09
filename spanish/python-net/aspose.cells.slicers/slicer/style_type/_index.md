@@ -12,7 +12,7 @@ is_root: false
 Especifique el tipo de estilo de segmentación incorporado
 el tipo predeterminado es SlicerStyleLight1
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

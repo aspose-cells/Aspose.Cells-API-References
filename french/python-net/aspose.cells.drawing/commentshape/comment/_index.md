@@ -11,7 +11,7 @@ is_root: false
 
 Obtient l'objet comment.
 
-###  Exemple
+###  Exemples
 
 ```python
 

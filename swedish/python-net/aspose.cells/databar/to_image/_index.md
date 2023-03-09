@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/databar/to_image/
 is_root: false
 ---
 ##  to_image(cell, img_opts) {#Cell-aspose.cells.rendering.ImageOrPrintOptions}
-Rendera datafält i cell till bildbyte-array.
+Rendera datafältet i cell till bildbyte-array.
 
 
 ###  Returnerar
@@ -22,10 +22,10 @@ def to_image(self, cell, img_opts):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Ange datafältet i vilken cell som ska renderas|
-| img_opts | aspose.cells.rendering.ImageOrPrintOptions |ImageOrPrintOptions innehåller en viss egenskap för utdatabild|
+| img_opts | aspose.cells.rendering.ImageOrPrintOptions | ImageOrPrintOptions innehåller en viss egenskap för utdatabild|
 
 
 

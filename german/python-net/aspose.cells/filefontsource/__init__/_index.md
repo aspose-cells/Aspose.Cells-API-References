@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/filefontsource/__init__/
 is_root: false
 ---
 ##  FileFontSource(file_path) {#str}
-Ctor.
+Direktor.
 
 
 

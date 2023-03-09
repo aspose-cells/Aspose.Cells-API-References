@@ -26,7 +26,7 @@ def on_circular(self, circular_cells_data):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| circular_cells_data | collections.abc.Iterator |IEnumerator mit CalculationCell-Elementen, die Zellen darstellen, die<br/> hängen von Zirkelbezügen ab.|
+| circular_cells_data | collections.abc.Iterator | IEnumerator mit CalculationCell-Elementen, die Zellen darstellen, die<br/> hängen von Zirkelbezügen ab.|
 ###  Bemerkungen
 
 In der Implementierung kann der Benutzer auch den erwarteten Wert als berechnetes Ergebnis festlegen

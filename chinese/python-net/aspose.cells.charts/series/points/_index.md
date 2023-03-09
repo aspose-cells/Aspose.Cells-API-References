@@ -1,6 +1,6 @@
 ﻿---
 title: points 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 370
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-当图表是 Pie of Pie 或 Bar of Pie 时，最后一个点是第一个饼图中的其他点。
+当图表是 Pie of Pie 或 Bar of Pie 时，最后一个点是第一个饼图中的另一个点。
 ### 定义：
 ```python
 @property

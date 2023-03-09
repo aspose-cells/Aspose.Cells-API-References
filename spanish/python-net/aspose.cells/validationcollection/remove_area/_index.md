@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/validationcollection/remove_area/
 is_root: false
 ---
 ##  remove_area(ca) {#CellArea}
-Elimina toda la configuración de validación en el rango.
+Elimina todas las configuraciones de validación en el rango.
 
 
 
@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | ca | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | El rango que contiene la configuración de validaciones.|
 

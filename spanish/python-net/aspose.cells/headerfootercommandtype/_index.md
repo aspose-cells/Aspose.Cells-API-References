@@ -25,7 +25,7 @@ El tipo HeaderFooterCommandType expone los siguientes miembros:
 | SHEET_NAME | Nombre de la hoja|
 | FILE_NAME | Nombre de archivo sin ruta|
 | FILE_PATH | Ruta de archivo sin nombre de archivo|
-| PICTURE | Imagen|
+| PICTURE | Fotos|
 
 
 

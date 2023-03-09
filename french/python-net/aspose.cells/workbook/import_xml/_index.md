@@ -18,14 +18,14 @@ def import_xml(self, url, sheet_name, row, col):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | url | str | l'url/chemin du fichier xml.|
 | sheet_name | str | le nom de la feuille de destination.|
 | row | int | la ligne de destination|
 | col | int | la colonne destination|
 
-###  Exemple
+###  Exemples
 
 Le code suivant importe des données xml dans la feuille de calcul 'Feuille 1' au Cell A1.
 
@@ -50,12 +50,12 @@ def import_xml(self, stream, sheet_name, row, col):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | le flux de fichiers xml.|
 | sheet_name | str | le nom de la feuille de destination.|
 | row | int | la ligne de destination.|
-| col | int |la colonne de destination.|
+| col | int | la colonne de destination.|
 
 
 

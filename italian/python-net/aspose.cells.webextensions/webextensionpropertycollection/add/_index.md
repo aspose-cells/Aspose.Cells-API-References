@@ -13,7 +13,7 @@ Aggiunge la proprietà dell'estensione web.
 
 ###  ritorna
 
-L'indice della proprietà aggiunta.
+L'indice delle proprietà aggiunte.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome della proprietà.|
 | value | str | Il valore della proprietà.|

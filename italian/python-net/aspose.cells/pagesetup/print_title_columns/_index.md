@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta le colonne che contengono le celle da ripetere sul lato sinistro di ogni pagina.
 
-###  Esempio
+###  Esempi
 
 ```python
 

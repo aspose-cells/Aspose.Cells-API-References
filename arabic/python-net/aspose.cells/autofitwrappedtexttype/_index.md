@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/autofitwrappedtexttype/
 is_root: false
 ---
 ##  العد AutoFitWrappedTextType
-يمثل نوع النص المغلف المناسب تلقائيًا.
+يمثل نوع التوفيق التلقائي للنص الملفوف.
 
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: WarningInfo sınıf
+title: WarningInfo sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1580
 url: /tr/python-net/aspose.cells/warninginfo/
 is_root: false
 ---
-##  WarningInfo sınıf
+##  WarningInfo sınıfı
 Uyarı bilgisi
 
 

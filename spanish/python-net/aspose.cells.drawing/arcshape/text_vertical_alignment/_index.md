@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el tipo de alineación vertical del texto de la forma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import TextAlignmentType

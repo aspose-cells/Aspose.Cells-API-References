@@ -13,7 +13,7 @@ Se prepara para procesar una fila.
 
 ###  Devoluciones
 
-si esta fila (propiedades o datos de celdas) necesita ser procesada. false para ignorar esta fila y sus celdas y comprobar la fila siguiente.
+si esta fila (propiedades o datos de celdas) necesita ser procesada.false para ignorar esta fila y sus celdas y verificar la fila siguiente.
 
 
 ```python
@@ -22,7 +22,7 @@ def start_row(self, row_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row_index | int | el índice de la siguiente fila a procesar|
 

@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  stream_provider propriété
 
-Obtient et définit le fournisseur de flux pour la ressource externe.
+Obtient et définit le fournisseur de flux pour les ressources externes.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
 veuillez utiliser la propriété ResourceProvider.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

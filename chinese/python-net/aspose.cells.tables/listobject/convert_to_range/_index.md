@@ -1,6 +1,6 @@
 ﻿---
 title: convert_to_range方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -31,7 +31,7 @@ def convert_to_range(self, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | options | [TableToRangeOptions](/cells/zh/python-net/aspose.cells.tables/tabletorangeoptions) |将表转换为范围时的选项。|
 

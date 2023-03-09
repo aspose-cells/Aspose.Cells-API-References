@@ -21,7 +21,7 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | obj_array | list | Datenarray.|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 | is_vertical | bool | Gibt an, dass Daten vertikal oder horizontal importiert werden.|
 
@@ -40,7 +40,7 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical, s
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | obj_array | list | Datenarray.|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 | is_vertical | bool | Gibt an, dass Daten vertikal oder horizontal importiert werden.|
 | skip | int | Übersprungene Anzahl von Zeilen oder Spalten.|

@@ -18,7 +18,7 @@ def add_row_area_condition(self, field_name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | field_name | str | Имя сводного поля.|
 
@@ -34,9 +34,9 @@ def add_row_area_condition(self, row_field):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| row_field | [PivotField](/cells/ru/python-net/aspose.cells.pivot/pivotfield) | PivotField в полях строк.|
+| row_field | [PivotField](/cells/ru/python-net/aspose.cells.pivot/pivotfield) |PivotField в полях строк.|
 
 
 

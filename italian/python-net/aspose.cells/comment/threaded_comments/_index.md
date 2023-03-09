@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene l'elenco dei commenti in thread;
 
-###  Esempio
+###  Esempi
 
 ```python
 

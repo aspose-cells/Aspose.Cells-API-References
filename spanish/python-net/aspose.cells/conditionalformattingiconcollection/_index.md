@@ -26,17 +26,17 @@ El tipo ConditionalFormattingIconCollection expone los siguientes miembros:
 | [add(type, index)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/add/#IconSetType-int) | Agrega el objeto [ConditionalFormattingIcon](/cells/es/python-net/aspose.cells/conditionalformattingicon).|
 | [add(cficon)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/add/#ConditionalFormattingIcon) | Agrega el objeto [ConditionalFormattingIcon](/cells/es/python-net/aspose.cells/conditionalformattingicon).|
 | [copy_to(array)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/copy_to/#list) | Copia toda la lista de matrices en una lista de matrices unidimensional compatible, comenzando por el principio de la lista de matrices de destino.|
-| [copy_to(index, array, array_index, count)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/copy_to/#int-list-int-int) | Copia un rango de elementos de la lista de arreglos a una lista de arreglos unidimensional compatible, comenzando en el índice especificado de la lista de arreglos de destino.|
+| [copy_to(index, array, array_index, count)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/copy_to/#int-list-int-int) |Copia un rango de elementos de la lista de arreglos a una lista de arreglos unidimensional compatible, comenzando en el índice especificado de la lista de arreglos de destino.|
 | [index_of(item, index)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/index_of/#ConditionalFormattingIcon-int) | Busca el objeto especificado y devuelve el índice basado en cero de la primera aparición dentro del rango de elementos en la lista de arreglos que se extiende desde el índice especificado hasta el último elemento.|
 | [index_of(item, index, count)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/index_of/#ConditionalFormattingIcon-int-int) | Busca el objeto especificado y devuelve el índice basado en cero de la primera aparición dentro del rango de elementos en la lista de matriz que comienza en el índice especificado y contiene el número especificado de elementos.|
 | [last_index_of(item)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/last_index_of/#ConditionalFormattingIcon) | Busca el objeto especificado y devuelve el índice de base cero de la última aparición en toda la lista de matrices.|
-| [last_index_of(item, index)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/last_index_of/#ConditionalFormattingIcon-int) |Busca el objeto especificado y devuelve el índice basado en cero de la última aparición dentro del rango de elementos en la lista de arreglos que se extiende desde el primer elemento hasta el índice especificado.|
-| [last_index_of(item, index, count)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/last_index_of/#ConditionalFormattingIcon-int-int) | Busca el objeto especificado y devuelve el índice basado en cero de la última aparición dentro del rango de elementos en la lista de matriz que contiene el número especificado de elementos y termina en el índice especificado.|
+| [last_index_of(item, index)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/last_index_of/#ConditionalFormattingIcon-int) | Busca el objeto especificado y devuelve el índice basado en cero de la última aparición dentro del rango de elementos en la lista de arreglos que se extiende desde el primer elemento hasta el índice especificado.|
+| [last_index_of(item, index, count)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/last_index_of/#ConditionalFormattingIcon-int-int) |Busca el objeto especificado y devuelve el índice basado en cero de la última aparición dentro del rango de elementos en la lista de matriz que contiene el número especificado de elementos y termina en el índice especificado.|
 | [binary_search(item)](/cells/es/python-net/aspose.cells/conditionalformattingiconcollection/binary_search/#ConditionalFormattingIcon) | Busca un elemento en toda la lista de matrices ordenadas mediante el comparador predeterminado y devuelve el índice de base cero del elemento.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, IconSetType, Workbook

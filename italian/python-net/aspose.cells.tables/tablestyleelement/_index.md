@@ -18,7 +18,7 @@ Il tipo TableStyleElement espone i membri seguenti:
 | Proprietà| Descrizione|
 | :- | :- |
 | [size](/cells/it/python-net/aspose.cells.tables/tablestyleelement/size) | Numero di righe o colonne in una singola banda di strisce.<br/> Si applica solo quando type è firstRowStripe, secondRowStripe, firstColumnStripe o secondColumnStripe.|
-| [type](/cells/it/python-net/aspose.cells.tables/tablestyleelement/type) |Ottiene il tipo di elemento.|
+| [type](/cells/it/python-net/aspose.cells.tables/tablestyleelement/type) | Ottiene il tipo di elemento.|
 
 
 ###  Metodi

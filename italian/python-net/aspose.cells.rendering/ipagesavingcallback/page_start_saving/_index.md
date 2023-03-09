@@ -18,7 +18,7 @@ def page_start_saving(self, args):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | args | [PageStartSavingArgs](/cells/it/python-net/aspose.cells.rendering/pagestartsavingargs) | Le informazioni per una pagina avviano il processo di salvataggio.|
 

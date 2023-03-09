@@ -16,7 +16,7 @@ Indique quelles pages ne seront pas imprimées.
 Si le contenu de la feuille est clairsemé, certaines pages seront totalement vierges dans le fichier pdf de sortie.
 Si vous ne voulez pas ces pages vierges, vous pouvez utiliser cette option pour les omettre.
 
-###  Exemple
+###  Exemples
 
 Le code suivant omet les pages vierges ou les pages qui ne contiennent que du contenu de style comme l'arrière-plan de la cellule, les bordures.
 

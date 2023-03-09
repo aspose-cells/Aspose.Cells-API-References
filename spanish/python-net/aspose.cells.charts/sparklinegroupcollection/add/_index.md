@@ -22,7 +22,7 @@ def add(self, type, data_range, is_vertical, location_range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | type | [SparklineType](/cells/es/python-net/aspose.cells.charts/sparklinetype) | Especifica el tipo del grupo Sparkline.|
 | data_range | str | Especifica el rango de datos del grupo minigráfico.|

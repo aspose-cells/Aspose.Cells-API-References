@@ -18,7 +18,7 @@ def hide_columns(self, column, total_columns):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود.|
 | total_columns | int | رقم العمود.|

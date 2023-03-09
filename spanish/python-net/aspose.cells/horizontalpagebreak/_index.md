@@ -18,12 +18,12 @@ El tipo HorizontalPageBreak expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [start_column](/cells/es/python-net/aspose.cells/horizontalpagebreak/start_column) | Obtiene el índice de la columna inicial de este salto de página horizontal.|
-| [end_column](/cells/es/python-net/aspose.cells/horizontalpagebreak/end_column) |Obtiene el índice de la columna final de este salto de página horizontal.|
+| [end_column](/cells/es/python-net/aspose.cells/horizontalpagebreak/end_column) | Obtiene el índice de la columna final de este salto de página horizontal.|
 | [row](/cells/es/python-net/aspose.cells/horizontalpagebreak/row) | Obtiene el índice de fila basado en cero.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

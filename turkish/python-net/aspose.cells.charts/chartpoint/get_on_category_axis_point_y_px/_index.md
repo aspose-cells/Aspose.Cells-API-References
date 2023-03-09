@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_
 is_root: false
 ---
 ##  get_on_category_axis_point_y_px(index) {#int}
-Chart.Calculate() yöntemini çağırdıktan sonra kategori eksenindeki noktanın y koordinatını alır. Yalnızca Alan grafiği için geçerlidir.
+Chart.Calculate() metodu çağrıldıktan sonra kategori eksenindeki noktanın y koordinatını alır.Sadece Alan grafiği için geçerlidir.
 
 
 
@@ -18,7 +18,7 @@ def get_on_category_axis_point_y_px(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int |  |
 ###  Notlar

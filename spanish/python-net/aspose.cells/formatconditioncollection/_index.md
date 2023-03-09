@@ -34,7 +34,7 @@ Obtiene la condición de formato por índice.
 | Método| Descripción|
 | :- | :- |
 | [add_condition(type, operator_type, formula1, formula2)](/cells/es/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType-OperatorType-str-str) | Agrega una condición de formato.|
-| [add_condition(type)](/cells/es/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) | Agregue una condición de formato.|
+| [add_condition(type)](/cells/es/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) |Agregue una condición de formato.|
 | [remove_area(index)](/cells/es/python-net/aspose.cells/formatconditioncollection/remove_area/#int) | Elimina el rango de celdas con formato condicional por índice.|
 | [remove_area(start_row, start_column, total_rows, total_columns)](/cells/es/python-net/aspose.cells/formatconditioncollection/remove_area/#int-int-int-int) | Eliminar el formato condicional en el rango.|
 | [add(cell_area, type, operator_type, formula1, formula2)](/cells/es/python-net/aspose.cells/formatconditioncollection/add/#CellArea-FormatConditionType-OperatorType-str-str) | Agrega una condición de formato y un rango de celda afectado a FormatConditions<br/>FormatConditions puede contener hasta tres formatos condicionales.<br/> Las referencias a las otras hojas no están permitidas en las fórmulas de formato condicional.|
@@ -44,7 +44,7 @@ Obtiene la condición de formato por índice.
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

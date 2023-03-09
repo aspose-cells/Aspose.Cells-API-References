@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.querytables/powerqueryformulaitem/
 is_root: false
 ---
 ##  PowerQueryFormulaItem clase
-Representa el elemento de la fórmula de consulta de poder.
+Representa el elemento de la fórmula de consulta de potencia.
 
 
 

@@ -21,7 +21,7 @@ def __init__(self, workbook, options):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/de/python-net/aspose.cells/workbook) | Geben Sie an, welche Arbeitsmappe gerendert werden soll.|
-| options | [ImageOrPrintOptions](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions) |ImageOrPrintOptions enthält einige Eigenschaften des Ausgabebildes|
+| options | [ImageOrPrintOptions](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions enthält einige Eigenschaften des Ausgabebildes|
 
 
 

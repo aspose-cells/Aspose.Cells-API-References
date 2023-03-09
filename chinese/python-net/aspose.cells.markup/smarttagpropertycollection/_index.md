@@ -1,13 +1,13 @@
 ﻿---
 title: SmartTagPropertyCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
 url: /zh/python-net/aspose.cells.markup/smarttagpropertycollection/
 is_root: false
 ---
-##  SmartTagPropertyCollection类
+## SmartTagPropertyCollection类
 表示单元格智能标记的所有属性。
 
 

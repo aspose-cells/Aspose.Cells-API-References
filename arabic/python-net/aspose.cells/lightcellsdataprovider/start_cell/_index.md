@@ -18,9 +18,9 @@ def start_cell(self, cell):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| cell | [Cell](/cells/ar/python-net/aspose.cells/cell) | عنصر Cell للتنفيذ لملء البيانات. فهرس العمود الخاص به هو القيمة التي تم إرجاعها لآخر مكالمة وهي [LightCellsDataProvider.next_cell()](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>إذا تمت تهيئة الخلية في نموذج الخلايا الداخلية ، فسيتم استخدام كائن الخلية الموجود.<br/> وإلا فسيتم استخدام عنصر Cell مؤقت للتنفيذ لملء البيانات.|
+| cell | [Cell](/cells/ar/python-net/aspose.cells/cell) | كائن Cell للتنفيذ لملء البيانات. فهرس العمود الخاص به هو القيمة التي تم إرجاعها لآخر مكالمة [LightCellsDataProvider.next_cell()](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>إذا تمت تهيئة الخلية في نموذج الخلايا الداخلية ، فسيتم استخدام كائن الخلية الموجود.<br/> وإلا فسيتم استخدام عنصر Cell مؤقت للتنفيذ لملء البيانات.|
 ###  ملاحظات
 
 

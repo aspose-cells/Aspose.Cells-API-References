@@ -18,7 +18,7 @@ def set_preset_theme_gradient(self, gradient_type, theme_color_type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | gradient_type | [PresetThemeGradientType](/cells/it/python-net/aspose.cells.drawing/presetthemegradienttype) | Il tipo di sfumatura preimpostato.|
 | theme_color_type | [ThemeColorType](/cells/it/python-net/aspose.cells/themecolortype) | Il tipo di colore del tema.|

@@ -1,6 +1,6 @@
 ﻿---
 title: get_named_style方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
@@ -22,7 +22,7 @@ def get_named_style(self, name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | name | str |样式名称|
 

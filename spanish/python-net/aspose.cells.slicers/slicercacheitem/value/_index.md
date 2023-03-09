@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value propiedad
 
-Devuelve el texto de la etiqueta del elemento de segmentación. Solo lectura.
+Devuelve el texto de la etiqueta del elemento de segmentación.
 ###  Definición:
 ```python
 @property

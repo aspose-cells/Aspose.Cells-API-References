@@ -1,6 +1,6 @@
 ﻿---
 title: aspose.cells.tables
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -20,7 +20,7 @@ is_root: false
 | [TableStyleCollection](/cells/zh/python-net/aspose.cells.tables/tablestylecollection) |代表所有自定义表格样式。|
 | [TableStyleElement](/cells/zh/python-net/aspose.cells.tables/tablestyleelement) |表示表格样式的元素。|
 | [TableStyleElementCollection](/cells/zh/python-net/aspose.cells.tables/tablestyleelementcollection) |代表表格样式的所有元素。|
-| [TableToRangeOptions](/cells/zh/python-net/aspose.cells.tables/tabletorangeoptions) |表示将表转换为范围时的选项。|
+| [TableToRangeOptions](/cells/zh/python-net/aspose.cells.tables/tabletorangeoptions) |表示将表转换为区域时的选项。|
 
 
 ### 枚举

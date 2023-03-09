@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  list mülk
 
-Belirtilen dilimleyici önbelleğiyle ilişkili dilimleyicinin OLAP Olmayan bir veri kaynağına dayalı olup olmadığını döndürür. Sadece oku
+Dilimleyicinin, OLAP Olmayan bir veri kaynağına dayalı olarak belirtilen dilimleyici önbelleğiyle ilişkilendirilip ilişkilendirilmediğini döndürür.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin_pt propriété
 
-Renvoie la marge de droite en unité de points
+Renvoie la marge de droite en unités de points
 ###  Définition:
 ```python
 @property

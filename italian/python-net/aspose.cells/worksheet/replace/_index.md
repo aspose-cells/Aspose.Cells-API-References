@@ -18,7 +18,7 @@ def replace(self, old_string, new_string):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | old_string | str | Vecchio valore di stringa.|
 | new_string | str | Nuovo valore stringa.|

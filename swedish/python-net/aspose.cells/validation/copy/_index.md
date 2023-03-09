@@ -18,7 +18,7 @@ def copy(self, source, copy_option):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source | [Validation](/cells/sv/python-net/aspose.cells/validation) | Källvalideringen.|
 | copy_option | [CopyOptions](/cells/sv/python-net/aspose.cells/copyoptions) | Kopieringsalternativet.|

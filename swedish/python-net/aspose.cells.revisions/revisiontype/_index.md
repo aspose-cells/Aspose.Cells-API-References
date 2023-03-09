@@ -21,11 +21,11 @@ Typen RevisionType avslöjar följande medlemmar:
 | DEFINED_NAME | Definierat namn.|
 | CHANGE_CELLS | Cells byte.|
 | AUTO_FORMAT | Automatiskt format.|
-| MERGE_CONFLICT |Slå samman konflikt.|
+| MERGE_CONFLICT | Slå samman konflikt.|
 | COMMENT | Kommentar.|
 | FORMAT | Formatera.|
 | INSERT_SHEET | Infoga arbetsblad.|
-| MOVE_CELLS | Flytta celler.|
+| MOVE_CELLS |Flytta celler.|
 | UNDO | Ångra.|
 | QUERY_TABLE | Frågetabell.|
 | INSERT_DELETE | Infoga eller radera.|

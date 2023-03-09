@@ -11,7 +11,7 @@ is_root: false
 
 Ottenere un oggetto Shape che rappresenta la forma associata al commento specificato.
 
-###  Esempio
+###  Esempi
 
 ```python
 

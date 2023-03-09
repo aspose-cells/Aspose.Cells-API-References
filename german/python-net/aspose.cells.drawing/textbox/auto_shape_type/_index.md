@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den automatischen Formtyp ab und legt ihn fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import AutoShapeType

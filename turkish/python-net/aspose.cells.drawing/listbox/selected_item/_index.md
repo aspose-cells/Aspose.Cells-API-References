@@ -18,7 +18,7 @@ def selected_item(self, item_index, is_selected):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | item_index | int | öğe dizini|
 | is_selected | bool | Öğenin seçilip seçilmediği.<br/>Doğru, bu öğenin seçilmesi gerektiği anlamına gelir.<br/> Yanlış, bu öğenin seçiminin kaldırılması gerektiği anlamına gelir.|

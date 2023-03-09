@@ -1,6 +1,6 @@
 ﻿---
 title: is_template_format方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -22,7 +22,7 @@ def is_template_format(self, extension):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | extension | str |  |
 

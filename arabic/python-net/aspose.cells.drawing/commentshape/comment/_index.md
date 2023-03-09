@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على كائن comment.
 
-###  مثال
+###  أمثلة
 
 ```python
 

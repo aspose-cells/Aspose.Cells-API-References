@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-عرض العمود
+عرض الأعمدة
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width_inch(self, column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود|
 

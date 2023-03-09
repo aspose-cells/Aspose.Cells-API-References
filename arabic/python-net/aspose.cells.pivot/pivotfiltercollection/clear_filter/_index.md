@@ -18,7 +18,7 @@ def clear_filter(self, field_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | field_index | int | فهرس PivotField|
 

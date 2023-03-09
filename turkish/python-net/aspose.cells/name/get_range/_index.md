@@ -39,9 +39,9 @@ def get_range(self, recalculate):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| recalculate | bool | bu ad bu çağrıdan önce hesaplandıysa yeniden hesaplayın.|
+| recalculate | bool | bu ad bu çağırmadan önce hesaplandıysa yeniden hesaplanıp hesaplanmayacağını.|
 
 
 ##  get_range(sheet_index, row, column) {#int-int-int}
@@ -60,9 +60,9 @@ def get_range(self, sheet_index, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| sheet_index | int |İlgili sayfa dizini.|
+| sheet_index | int | İlgili sayfa dizini.|
 | row | int | Uygun satır dizini.|
 | column | int | Uygun sütun dizini|
 

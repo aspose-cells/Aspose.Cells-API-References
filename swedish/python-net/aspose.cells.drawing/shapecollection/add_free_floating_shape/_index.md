@@ -22,11 +22,11 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/sv/python-net/aspose.cells.drawing/msodrawingtype) | Formtypen.|
-| top | int |Representerar den vertikala förskjutningen av formen från kalkylbladets översta rad, i pixelenhet.|
-| left | int | Representerar den horisontella förskjutningen av formen från kalkylbladets vänstra kolumn, i pixelenhet.|
+| top | int | Representerar den vertikala förskjutningen av formen från kalkylbladets översta rad, i pixelenhet.|
+| left | int |Representerar den horisontella förskjutningen av formen från kalkylbladets vänstra kolumn, i pixelenhet.|
 | height | int | Representerar höjden på LineShape, i pixelenhet.|
 | width | int | Representerar bredden på LineShape, i pixelenhet.|
 | image_data | bytes | Bilddata gäller endast för bilden.|

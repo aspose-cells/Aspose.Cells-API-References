@@ -19,7 +19,7 @@ Typen MsoLineStyle avslöjar följande medlemmar:
 | :- | :- |
 | SINGLE | Enkel rad (av bredd lineWidth)|
 | THICK_BETWEEN_THIN | Tre streck, tunna, tjocka, tunna|
-| THIN_THICK | Dubbla linjer, en tunn, en tjock|
+| THIN_THICK |Dubbla linjer, en tunn, en tjock|
 | THICK_THIN | Dubbla linjer, en tjock, en tunn|
 | THIN_THIN | Dubbla linjer med lika bredd|
 

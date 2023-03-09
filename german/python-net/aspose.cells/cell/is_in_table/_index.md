@@ -13,7 +13,7 @@ Gibt an, ob diese Zelle Teil einer Tabellenformel ist.
 
 ###  Bemerkungen
 
- HINWEIS: Diese Klasse ist jetzt veraltet. Stattdessen,
+ HINWEIS: Diese Klasse ist jetzt veraltet.
 Bitte verwenden Sie Cell.IsTableFormula, um zu prüfen, ob die Zellformel Teil der Tabellenformel ist.
 Diese Property wird 12 Monate später seit Mai 2018 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache Eigentum
 
-Gibt das dem Slicer zugeordnete SlicerCache-Objekt zurück. Schreibgeschützt.
+Gibt das dem Slicer zugeordnete SlicerCache-Objekt zurück.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

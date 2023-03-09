@@ -22,12 +22,12 @@ ReflectionEffectType türü aşağıdaki üyeleri gösterir:
 | TIGHT_REFLECTION_TOUCHING | Sıkı yansıma, dokunma.|
 | HALF_REFLECTION_TOUCHING | Yarım yansıma, dokunma.|
 | FULL_REFLECTION_TOUCHING | Tam yansıma, dokunma.|
-| TIGHT_REFLECTION_4_PT_OFFSET | Sıkı yansıma, 4 nokta ofset.|
-| HALF_REFLECTION_4_PT_OFFSET | Yarım yansıma, 4 nokta ofset.|
-| FULL_REFLECTION_4_PT_OFFSET | Tam yansıma, 4 nokta ofset.|
-| TIGHT_REFLECTION_8_PT_OFFSET | Sıkı yansıma, 8 nokta ofset.|
-| HALF_REFLECTION_8_PT_OFFSET | Yarım yansıma, 8 nokta ofset.|
-| FULL_REFLECTION_8_PT_OFFSET | Tam yansıma, 8 nokta ofset.|
+| TIGHT_REFLECTION_4_PT_OFFSET | Sıkı yansıma, 4pt ofset.|
+| HALF_REFLECTION_4_PT_OFFSET | Yarım yansıma, 4pt ofset.|
+| FULL_REFLECTION_4_PT_OFFSET | Tam yansıma, 4pt ofset.|
+| TIGHT_REFLECTION_8_PT_OFFSET | Sıkı yansıma, 8pt ofset.|
+| HALF_REFLECTION_8_PT_OFFSET | Yarım yansıma, 8pt ofset.|
+| FULL_REFLECTION_8_PT_OFFSET |Tam yansıma, 8pt ofset.|
 
 
 

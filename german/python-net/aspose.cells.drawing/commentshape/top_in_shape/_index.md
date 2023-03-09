@@ -14,9 +14,9 @@ in Einheiten von 1/4000 der Höhe der übergeordneten Form.
 
 ###  Bemerkungen
 
-Gilt nur, wenn diese Form in der Gruppe oder im Diagramm enthalten ist.
+Gilt nur, wenn sich dieses Shape in der Gruppe oder im Diagramm befindet.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

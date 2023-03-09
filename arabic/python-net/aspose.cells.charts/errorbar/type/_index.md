@@ -11,7 +11,7 @@ is_root: false
 
 يمثل مقدار شريط الخطأ type.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

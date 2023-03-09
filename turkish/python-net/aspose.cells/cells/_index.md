@@ -1,5 +1,5 @@
 ﻿---
-title: Cells sınıf
+title: Cells sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 180
 url: /tr/python-net/aspose.cells/cells/
 is_root: false
 ---
-##  Cells sınıf
+##  Cells sınıfı
 [Cell](/cells/tr/python-net/aspose.cells/cell), [Row](/cells/tr/python-net/aspose.cells/row), ...vb. gibi hücreyle ilgili nesnelerin bir koleksiyonunu kapsüller.
 
 
@@ -17,27 +17,27 @@ Cells türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [ods_cell_fields](/cells/tr/python-net/aspose.cells/cells/ods_cell_fields) |ods alanlarının listesini alır.|
+| [ods_cell_fields](/cells/tr/python-net/aspose.cells/cells/ods_cell_fields) | Oran alanlarının listesini alır.|
 | [count](/cells/tr/python-net/aspose.cells/cells/count) | Başlatılan Cell nesnelerin toplam sayısını alır.|
 | [count_large](/cells/tr/python-net/aspose.cells/cells/count_large) | Başlatılan Cell nesnelerin toplam sayısını alır.|
 | [rows](/cells/tr/python-net/aspose.cells/cells/rows) | Bu çalışma sayfasındaki tek tek satırları temsil eden [Row](/cells/tr/python-net/aspose.cells/row) nesnelerinin koleksiyonunu alır.|
 | [merged_cells](/cells/tr/python-net/aspose.cells/cells/merged_cells) | Birleştirilmiş hücrelerin koleksiyonunu alır.|
 | [multi_thread_reading](/cells/tr/python-net/aspose.cells/cells/multi_thread_reading) | Hücre veri modelinin Multi-Thread okumayı desteklemesi gerekip gerekmediğini alır veya ayarlar.<br/> Bu özelliğin varsayılan değeri yanlıştır.|
-| [memory_setting](/cells/tr/python-net/aspose.cells/cells/memory_setting) | Bu hücreler için bellek kullanım seçeneğini alır veya ayarlar.|
+| [memory_setting](/cells/tr/python-net/aspose.cells/cells/memory_setting) | Bu hücre için bellek kullanım seçeneğini alır veya ayarlar.|
 | [style](/cells/tr/python-net/aspose.cells/cells/style) | Varsayılan stili alır ve ayarlar.|
-| [standard_width_inch](/cells/tr/python-net/aspose.cells/cells/standard_width_inch) | Çalışma sayfasındaki varsayılan sütun genişliğini inç cinsinden alır veya ayarlar.|
-| [standard_width_pixels](/cells/tr/python-net/aspose.cells/cells/standard_width_pixels) | Çalışma sayfasındaki varsayılan sütun genişliğini piksel birimi cinsinden alır veya ayarlar.|
-| [standard_width](/cells/tr/python-net/aspose.cells/cells/standard_width) | Çalışma sayfasındaki varsayılan sütun genişliğini karakter birimi cinsinden alır veya ayarlar.|
-| [standard_height](/cells/tr/python-net/aspose.cells/cells/standard_height) | Bu çalışma sayfasındaki varsayılan satır yüksekliğini nokta birimi cinsinden alır veya ayarlar.|
-| [standard_height_pixels](/cells/tr/python-net/aspose.cells/cells/standard_height_pixels) | Bu çalışma sayfasındaki varsayılan satır yüksekliğini piksel birimi cinsinden alır veya ayarlar.|
+| [standard_width_inch](/cells/tr/python-net/aspose.cells/cells/standard_width_inch) |Çalışma sayfasındaki varsayılan sütun genişliğini inç cinsinden alır veya ayarlar.|
+| [standard_width_pixels](/cells/tr/python-net/aspose.cells/cells/standard_width_pixels) | Çalışma sayfasındaki varsayılan sütun genişliğini piksel birimleri cinsinden alır veya ayarlar.|
+| [standard_width](/cells/tr/python-net/aspose.cells/cells/standard_width) | Çalışma sayfasındaki varsayılan sütun genişliğini karakter birimleri cinsinden alır veya ayarlar.|
+| [standard_height](/cells/tr/python-net/aspose.cells/cells/standard_height) | Bu çalışma sayfasındaki varsayılan satır yüksekliğini nokta birimleri cinsinden alır veya ayarlar.|
+| [standard_height_pixels](/cells/tr/python-net/aspose.cells/cells/standard_height_pixels) | Bu çalışma sayfasındaki varsayılan satır yüksekliğini piksel birimleri cinsinden alır veya ayarlar.|
 | [standard_height_inch](/cells/tr/python-net/aspose.cells/cells/standard_height_inch) | Bu çalışma sayfasındaki varsayılan satır yüksekliğini inç cinsinden alır veya ayarlar.|
-| [preserve_string](/cells/tr/python-net/aspose.cells/cells/preserve_string) | Tüm çalışma sayfası değerlerinin dizeler olarak korunup korunmadığını gösteren bir değer alır veya ayarlar.<br/> Varsayılan yanlıştır.|
+| [preserve_string](/cells/tr/python-net/aspose.cells/cells/preserve_string) | Tüm çalışma sayfası değerlerinin dize olarak korunup korunmadığını gösteren bir değer alır veya ayarlar.<br/> Varsayılan yanlıştır.|
 | [min_row](/cells/tr/python-net/aspose.cells/cells/min_row) | Veri veya stil içeren hücrenin minimum satır dizini.|
 | [max_row](/cells/tr/python-net/aspose.cells/cells/max_row) | Veri veya stil içeren hücrenin maksimum satır dizini.|
-| [min_column](/cells/tr/python-net/aspose.cells/cells/min_column) | Koleksiyonda örneklenen hücrelerin minimum sütun dizini (sütun içermez<br/>stilin tüm sütun için tanımlandığı ancak içinde hiçbir hücrenin başlatılmadığı).|
-| [max_column](/cells/tr/python-net/aspose.cells/cells/max_column) | Koleksiyonda örneklenen hücrelerin minimum sütun dizini (sütun içermez<br/>stilin tüm sütun için tanımlandığı ancak içinde hiçbir hücrenin başlatılmadığı).|
+| [min_column](/cells/tr/python-net/aspose.cells/cells/min_column) | Koleksiyonda örneklenen hücrelerin minimum sütun dizini (sütun içermez<br/> stilin tüm sütun için tanımlandığı ancak içinde hiçbir hücrenin başlatılmadığı).|
+| [max_column](/cells/tr/python-net/aspose.cells/cells/max_column) | Koleksiyonda örneklenen hücrelerin minimum sütun dizini (sütun içermez<br/> stilin tüm sütun için tanımlandığı ancak içinde hiçbir hücrenin başlatılmadığı).|
 | [min_data_row](/cells/tr/python-net/aspose.cells/cells/min_data_row) | Veri içeren hücrenin minimum satır dizini.|
-| [max_data_row](/cells/tr/python-net/aspose.cells/cells/max_data_row) | Veri içeren hücrenin maksimum satır dizini.|
+| [max_data_row](/cells/tr/python-net/aspose.cells/cells/max_data_row) |Veri içeren hücrenin maksimum satır dizini.|
 | [min_data_column](/cells/tr/python-net/aspose.cells/cells/min_data_column) | Veri içeren hücrenin minimum sütun dizini.|
 | [max_data_column](/cells/tr/python-net/aspose.cells/cells/max_data_column) | Veri içeren hücrenin maksimum sütun dizini.|
 | [is_default_row_height_matched](/cells/tr/python-net/aspose.cells/cells/is_default_row_height_matched) | Satır yüksekliği ve varsayılan yazı tipi yüksekliğinin eşleştiğini gösterir|
@@ -64,13 +64,13 @@ Cells türü aşağıdaki üyeleri gösterir:
 | [create_range(first_row, first_column, total_rows, total_columns)](/cells/tr/python-net/aspose.cells/cells/create_range/#int-int-int-int) | Bir dizi hücreden bir [Range](/cells/tr/python-net/aspose.cells/range) nesnesi oluşturur.|
 | [create_range(address)](/cells/tr/python-net/aspose.cells/cells/create_range/#str) | Aralığın adresinden bir [Range](/cells/tr/python-net/aspose.cells/range) nesnesi oluşturur.|
 | [create_range(first_index, number, is_vertical)](/cells/tr/python-net/aspose.cells/cells/create_range/#int-int-bool) | Hücre sıralarından veya hücre sütunlarından bir [Range](/cells/tr/python-net/aspose.cells/range) nesnesi oluşturur.|
-| [get(row, column)](/cells/tr/python-net/aspose.cells/cells/get/#int-int) | API for Python Via .Net.bu[int satır, int sütun] desteklenmediğinden ekleyin|
+| [get(row, column)](/cells/tr/python-net/aspose.cells/cells/get/#int-int) |API for Python Via .Net.bu[int satır, int sütun] desteklenmediğinden ekleyin|
 | [get(cell_name)](/cells/tr/python-net/aspose.cells/cells/get/#str) | API for Python .Net yoluyla ekleyin, çünkü bu [dize hücreAdı] desteklenmiyor|
 | [import_object_array(obj_array, first_row, first_column, is_vertical)](/cells/tr/python-net/aspose.cells/cells/import_object_array/#list-int-int-bool) | Bir veri dizisini bir çalışma sayfasına aktarır.|
 | [import_object_array(obj_array, first_row, first_column, is_vertical, skip)](/cells/tr/python-net/aspose.cells/cells/import_object_array/#list-int-int-bool-int) | Bir veri dizisini bir çalışma sayfasına aktarır.|
 | [import_array(string_array, first_row, first_column, is_vertical)](/cells/tr/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Bir dizi dizeyi bir çalışma sayfasına aktarır.|
 | [import_array(int_array, first_row, first_column, is_vertical)](/cells/tr/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Bir tamsayı dizisini bir çalışma sayfasına aktarır.|
-| [import_array(double_array, first_row, first_column, is_vertical)](/cells/tr/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Double dizisini bir çalışma sayfasına aktarır.|
+| [import_array(double_array, first_row, first_column, is_vertical)](/cells/tr/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Bir çiftler dizisini bir çalışma sayfasına aktarır.|
 | [import_csv(file_name, splitter, convert_numeric_data, first_row, first_column)](/cells/tr/python-net/aspose.cells/cells/import_csv/#str-str-bool-int-int) | CSV dosyasını hücrelere aktarın.|
 | [import_csv(stream, splitter, convert_numeric_data, first_row, first_column)](/cells/tr/python-net/aspose.cells/cells/import_csv/#io.RawIOBase-str-bool-int-int) | CSV dosyasını hücrelere aktarın.|
 | [import_csv(file_name, options, first_row, first_column)](/cells/tr/python-net/aspose.cells/cells/import_csv/#str-TxtLoadOptions-int-int) | CSV dosyasını hücrelere aktarın.|
@@ -86,8 +86,8 @@ Cells türü aşağıdaki üyeleri gösterir:
 | [copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options, paste_options)](/cells/tr/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int-CopyOptions-PasteOptions) | Bazı tam satırların verilerini ve biçimlerini kopyalar.|
 | [group_columns(first_index, last_index)](/cells/tr/python-net/aspose.cells/cells/group_columns/#int-int) | Grup sütunları.|
 | [group_columns(first_index, last_index, is_hidden)](/cells/tr/python-net/aspose.cells/cells/group_columns/#int-int-bool) | Grup sütunları.|
-| [ungroup_rows(first_index, last_index, is_all)](/cells/tr/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) | Satırların grubunu çözer.|
-| [ungroup_rows(first_index, last_index)](/cells/tr/python-net/aspose.cells/cells/ungroup_rows/#int-int) | Satırların grubunu çözer.|
+| [ungroup_rows(first_index, last_index, is_all)](/cells/tr/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) | Satırların grubunu çözün.|
+| [ungroup_rows(first_index, last_index)](/cells/tr/python-net/aspose.cells/cells/ungroup_rows/#int-int) | Satırların grubunu çözün.|
 | [group_rows(first_index, last_index, is_hidden)](/cells/tr/python-net/aspose.cells/cells/group_rows/#int-int-bool) | Satırları gruplar.|
 | [group_rows(first_index, last_index)](/cells/tr/python-net/aspose.cells/cells/group_rows/#int-int) | Satırları gruplar.|
 | [delete_column(column_index, update_reference)](/cells/tr/python-net/aspose.cells/cells/delete_column/#int-bool) | Bir sütunu siler.|
@@ -96,12 +96,12 @@ Cells türü aşağıdaki üyeleri gösterir:
 | [delete_rows(row_index, total_rows, update_reference)](/cells/tr/python-net/aspose.cells/cells/delete_rows/#int-int-bool) | Çalışma sayfasındaki birden çok satırı siler.|
 | [delete_blank_columns()](/cells/tr/python-net/aspose.cells/cells/delete_blank_columns/#) | Herhangi bir veri içermeyen tüm boş sütunları silin.|
 | [delete_blank_columns(options)](/cells/tr/python-net/aspose.cells/cells/delete_blank_columns/#DeleteOptions) | Herhangi bir veri içermeyen tüm boş sütunları silin.|
-| [delete_blank_rows()](/cells/tr/python-net/aspose.cells/cells/delete_blank_rows/#) |Herhangi bir veri içermeyen tüm boş satırları silin.|
-| [delete_blank_rows(options)](/cells/tr/python-net/aspose.cells/cells/delete_blank_rows/#DeleteOptions) |Herhangi bir veri içermeyen tüm boş satırları silin.|
+| [delete_blank_rows()](/cells/tr/python-net/aspose.cells/cells/delete_blank_rows/#) | Herhangi bir veri içermeyen tüm boş satırları silin.|
+| [delete_blank_rows(options)](/cells/tr/python-net/aspose.cells/cells/delete_blank_rows/#DeleteOptions) | Herhangi bir veri içermeyen tüm boş satırları silin.|
 | [insert_columns(column_index, total_columns)](/cells/tr/python-net/aspose.cells/cells/insert_columns/#int-int) | Çalışma sayfasına bazı sütunlar ekler.|
 | [insert_columns(column_index, total_columns, update_reference)](/cells/tr/python-net/aspose.cells/cells/insert_columns/#int-int-bool) | Çalışma sayfasına bazı sütunlar ekler.|
-| [insert_column(column_index, update_reference)](/cells/tr/python-net/aspose.cells/cells/insert_column/#int-bool) | Çalışma sayfasına yeni bir sütun ekler.|
-| [insert_column(column_index)](/cells/tr/python-net/aspose.cells/cells/insert_column/#int) | Çalışma sayfasına yeni bir sütun ekler.|
+| [insert_column(column_index, update_reference)](/cells/tr/python-net/aspose.cells/cells/insert_column/#int-bool) |Çalışma sayfasına yeni bir sütun ekler.|
+| [insert_column(column_index)](/cells/tr/python-net/aspose.cells/cells/insert_column/#int) |Çalışma sayfasına yeni bir sütun ekler.|
 | [insert_rows(row_index, total_rows, update_reference)](/cells/tr/python-net/aspose.cells/cells/insert_rows/#int-int-bool) | Çalışma sayfasına birden çok satır ekler.|
 | [insert_rows(row_index, total_rows, options)](/cells/tr/python-net/aspose.cells/cells/insert_rows/#int-int-InsertOptions) | Çalışma sayfasına birden çok satır ekler.|
 | [insert_rows(row_index, total_rows)](/cells/tr/python-net/aspose.cells/cells/insert_rows/#int-int) | Çalışma sayfasına birden çok satır ekler.|
@@ -129,9 +129,9 @@ Cells türü aşağıdaki üyeleri gösterir:
 | [remove_duplicates(start_row, start_column, end_row, end_column, has_headers, column_offsets)](/cells/tr/python-net/aspose.cells/cells/remove_duplicates/#int-int-int-int-bool-list) | Aralığın yinelenen verilerini kaldırır.|
 | [get_row_enumerator()](/cells/tr/python-net/aspose.cells/cells/get_row_enumerator/#) | Satır numaralandırıcısını alır.|
 | [get_cell(row, column)](/cells/tr/python-net/aspose.cells/cells/get_cell/#int-int) | Belirtilen hücre satır dizini ve sütun dizininde [Cell](/cells/tr/python-net/aspose.cells/cell) öğesini veya boş değeri alır.|
-| [get_row(row)](/cells/tr/python-net/aspose.cells/cells/get_row/#int) |Belirtilen hücre satırı dizinindeki [Row](/cells/tr/python-net/aspose.cells/row) öğesini alır.|
+| [get_row(row)](/cells/tr/python-net/aspose.cells/cells/get_row/#int) | Belirtilen hücre satırı dizinindeki [Row](/cells/tr/python-net/aspose.cells/row) öğesini alır.|
 | [check_cell(row, column)](/cells/tr/python-net/aspose.cells/cells/check_cell/#int-int) | Belirtilen hücre satır dizini ve sütun dizininde [Cell](/cells/tr/python-net/aspose.cells/cell) öğesini veya boş değeri alır.|
-| [check_row(row)](/cells/tr/python-net/aspose.cells/cells/check_row/#int) | [Row](/cells/tr/python-net/aspose.cells/row) öğesini veya belirtilen hücre satırı dizinini alır.|
+| [check_row(row)](/cells/tr/python-net/aspose.cells/cells/check_row/#int) |[Row](/cells/tr/python-net/aspose.cells/row) öğesini veya belirtilen hücre satırı dizinini alır.|
 | [check_column(column_index)](/cells/tr/python-net/aspose.cells/cells/check_column/#int) | Belirtilen sütun dizininde [Column](/cells/tr/python-net/aspose.cells/column) öğesini veya boş değeri alır.|
 | [is_row_hidden(row_index)](/cells/tr/python-net/aspose.cells/cells/is_row_hidden/#int) | Verilen dizindeki bir satırın gizlenip gizlenmediğini kontrol eder.|
 | [is_column_hidden(column_index)](/cells/tr/python-net/aspose.cells/cells/is_column_hidden/#int) | Belirli bir dizindeki bir sütunun gizlenip gizlenmediğini kontrol eder.|
@@ -139,12 +139,12 @@ Cells türü aşağıdaki üyeleri gösterir:
 | [clear()](/cells/tr/python-net/aspose.cells/cells/clear/#) | Tüm hücre ve satır nesnelerini temizler.|
 | [import_data(table, first_row, first_column, options)](/cells/tr/python-net/aspose.cells/cells/import_data/#ICellsDataTable-int-int-ImportTableOptions) | Özel veri tablosundan verileri içe aktarın.|
 | [import_array_list(array_list, first_row, first_column, is_vertical)](/cells/tr/python-net/aspose.cells/cells/import_array_list/#list-int-int-bool) | Bir veri dizisi listesini bir çalışma sayfasına aktarır.|
-| [import_formula_array(string_array, first_row, first_column, is_vertical)](/cells/tr/python-net/aspose.cells/cells/import_formula_array/#list-int-int-bool) | Bir formül dizisini bir çalışma sayfasına aktarır.|
-| [text_to_columns(row, column, total_rows, options)](/cells/tr/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) | Sütundaki metni sütunlara böler.|
+| [import_formula_array(string_array, first_row, first_column, is_vertical)](/cells/tr/python-net/aspose.cells/cells/import_formula_array/#list-int-int-bool) | Bir dizi formülü bir çalışma sayfasına aktarır.|
+| [text_to_columns(row, column, total_rows, options)](/cells/tr/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) | Sütunlardaki metni sütunlara böler.|
 | [un_merge(first_row, first_column, total_rows, total_columns)](/cells/tr/python-net/aspose.cells/cells/un_merge/#int-int-int-int) | Belirli bir birleştirilmiş hücre aralığını ayırır.|
 | [clear_merged_cells()](/cells/tr/python-net/aspose.cells/cells/clear_merged_cells/#) | Tüm birleştirilmiş aralıkları temizler.|
 | [hide_row(row)](/cells/tr/python-net/aspose.cells/cells/hide_row/#int) | Bir satırı gizler.|
-| [unhide_row(row, height)](/cells/tr/python-net/aspose.cells/cells/unhide_row/#int-float) | Bir satırı gösterir.|
+| [unhide_row(row, height)](/cells/tr/python-net/aspose.cells/cells/unhide_row/#int-float) | Bir satırı göster.|
 | [hide_rows(row, total_rows)](/cells/tr/python-net/aspose.cells/cells/hide_rows/#int-int) | Birden çok satırı gizler.|
 | [unhide_rows(row, total_rows, height)](/cells/tr/python-net/aspose.cells/cells/unhide_rows/#int-int-float) | Gizli satırları gösterir.|
 | [set_row_height_pixel(row, pixels)](/cells/tr/python-net/aspose.cells/cells/set_row_height_pixel/#int-int) | Satır yüksekliğini piksel birimi olarak ayarlar.|
@@ -152,9 +152,9 @@ Cells türü aşağıdaki üyeleri gösterir:
 | [set_row_height(row, height)](/cells/tr/python-net/aspose.cells/cells/set_row_height/#int-float) | Belirtilen satırın yüksekliğini ayarlar.|
 | [get_row_original_height_point(row)](/cells/tr/python-net/aspose.cells/cells/get_row_original_height_point/#int) | Satır gizlenmişse orijinal satırın yüksekliğini nokta birimi cinsinden alır|
 | [hide_column(column)](/cells/tr/python-net/aspose.cells/cells/hide_column/#int) | Bir sütunu gizler.|
-| [unhide_column(column, width)](/cells/tr/python-net/aspose.cells/cells/unhide_column/#int-float) | Bir sütunu gösterir|
+| [unhide_column(column, width)](/cells/tr/python-net/aspose.cells/cells/unhide_column/#int-float) | Bir sütunu göster|
 | [hide_columns(column, total_columns)](/cells/tr/python-net/aspose.cells/cells/hide_columns/#int-int) | Birden çok sütunu gizleyin.|
-| [unhide_columns(column, total_columns, width)](/cells/tr/python-net/aspose.cells/cells/unhide_columns/#int-int-float) | Birden çok sütunu göster.|
+| [unhide_columns(column, total_columns, width)](/cells/tr/python-net/aspose.cells/cells/unhide_columns/#int-int-float) |Birden çok sütunu göster.|
 | [get_row_height(row)](/cells/tr/python-net/aspose.cells/cells/get_row_height/#int) | Belirtilen satırın yüksekliğini alır.|
 | [get_view_row_height(row)](/cells/tr/python-net/aspose.cells/cells/get_view_row_height/#int) | Belirtilen satırın yüksekliğini alır.|
 | [get_row_height_pixel(row)](/cells/tr/python-net/aspose.cells/cells/get_row_height_pixel/#int) | Belirli bir satırın yüksekliğini piksel birimi cinsinden alır.|
@@ -163,18 +163,18 @@ Cells türü aşağıdaki üyeleri gösterir:
 | [set_column_width_pixel(column, pixels)](/cells/tr/python-net/aspose.cells/cells/set_column_width_pixel/#int-int) | Normal görünümde sütun genişliğini piksel birimi olarak ayarlar.|
 | [set_column_width_inch(column, inches)](/cells/tr/python-net/aspose.cells/cells/set_column_width_inch/#int-float) | Normal görünümde sütun genişliğini inç cinsinden ayarlar.|
 | [set_column_width(column, width)](/cells/tr/python-net/aspose.cells/cells/set_column_width/#int-float) | Normal görünümde belirtilen sütunun genişliğini ayarlar.|
-| [get_column_width_pixel(column)](/cells/tr/python-net/aspose.cells/cells/get_column_width_pixel/#int) | Normal görünümde belirtilen sütunun genişliğini piksel birimi cinsinden alır.|
+| [get_column_width_pixel(column)](/cells/tr/python-net/aspose.cells/cells/get_column_width_pixel/#int) | Normal görünümde belirtilen sütunun genişliğini piksel birimleri cinsinden alır.|
 | [get_column_width_inch(column)](/cells/tr/python-net/aspose.cells/cells/get_column_width_inch/#int) | Normal görünümde belirtilen sütunun genişliğini inç cinsinden alır.|
 | [get_column_width(column)](/cells/tr/python-net/aspose.cells/cells/get_column_width/#int) | Normal görünümde belirtilen sütunun genişliğini alır|
-| [get_view_column_width_pixel(column)](/cells/tr/python-net/aspose.cells/cells/get_view_column_width_pixel/#int) | Genişliği farklı görünüm tipinde alın.|
-| [set_view_column_width_pixel(column, pixels)](/cells/tr/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) | Sütunun genişliğini farklı görünümde ayarlar.|
-| [get_last_data_row(column)](/cells/tr/python-net/aspose.cells/cells/get_last_data_row/#int) |Belirtilen sütundaki verileri içeren hücrenin son satır dizinini alır.|
+| [get_view_column_width_pixel(column)](/cells/tr/python-net/aspose.cells/cells/get_view_column_width_pixel/#int) | Genişliği farklı görünüm türlerinde alın.|
+| [set_view_column_width_pixel(column, pixels)](/cells/tr/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) | Farklı görünümlerde sütun genişliğini ayarlar.|
+| [get_last_data_row(column)](/cells/tr/python-net/aspose.cells/cells/get_last_data_row/#int) | Belirtilen sütundaki verileri içeren hücrenin son satır dizinini alır.|
 | [apply_column_style(column, style, flag)](/cells/tr/python-net/aspose.cells/cells/apply_column_style/#int-Style-StyleFlag) | Tüm sütun için biçimleri uygular.|
 | [apply_row_style(row, style, flag)](/cells/tr/python-net/aspose.cells/cells/apply_row_style/#int-Style-StyleFlag) | Biçimleri tüm satıra uygular.|
-| [apply_style(style, flag)](/cells/tr/python-net/aspose.cells/cells/apply_style/#Style-StyleFlag) |Tüm çalışma sayfası için biçimleri uygular.|
+| [apply_style(style, flag)](/cells/tr/python-net/aspose.cells/cells/apply_style/#Style-StyleFlag) | Tüm çalışma sayfası için biçimleri uygular.|
 | [copy_column(source_cells, source_column_index, destination_column_index)](/cells/tr/python-net/aspose.cells/cells/copy_column/#Cells-int-int) | Tüm sütunun verilerini ve biçimlerini kopyalar.|
 | [copy_row(source_cells, source_row_index, destination_row_index)](/cells/tr/python-net/aspose.cells/cells/copy_row/#Cells-int-int) | Tüm satırın verilerini ve biçimlerini kopyalar.|
-| [get_grouped_row_outline_level(row_index)](/cells/tr/python-net/aspose.cells/cells/get_grouped_row_outline_level/#int) | Satırın anahat düzeyini (sıfır tabanlı) alır.|
+| [get_grouped_row_outline_level(row_index)](/cells/tr/python-net/aspose.cells/cells/get_grouped_row_outline_level/#int) |Satırın anahat düzeyini (sıfır tabanlı) alır.|
 | [get_grouped_column_outline_level(column_index)](/cells/tr/python-net/aspose.cells/cells/get_grouped_column_outline_level/#int) | Sütunun anahat düzeyini (sıfır tabanlı) alır.|
 | [get_max_grouped_column_outline_level()](/cells/tr/python-net/aspose.cells/cells/get_max_grouped_column_outline_level/#) | Maksimum gruplandırılmış sütun anahat düzeyini (sıfır tabanlı) alır.|
 | [get_max_grouped_row_outline_level()](/cells/tr/python-net/aspose.cells/cells/get_max_grouped_row_outline_level/#) | Maksimum gruplandırılmış satır anahat düzeyini (sıfır tabanlı) alır.|
@@ -193,10 +193,10 @@ Cells türü aşağıdaki üyeleri gösterir:
 | [insert_cut_cells(cut_range, row, column, shift_type)](/cells/tr/python-net/aspose.cells/cells/insert_cut_cells/#Range-int-int-ShiftType) | Kesme aralığını girin.|
 | [delete_range(start_row, start_column, end_row, end_column, shift_type)](/cells/tr/python-net/aspose.cells/cells/delete_range/#int-int-int-int-ShiftType) | Bir hücre aralığını siler ve kaydırma seçeneğine göre hücreleri kaydırır.|
 | [retrieve_subtotal_setting(ca)](/cells/tr/python-net/aspose.cells/cells/retrieve_subtotal_setting/#CellArea) | Aralığın alt toplam ayarını alır.|
-| [remove_formulas()](/cells/tr/python-net/aspose.cells/cells/remove_formulas/#) |Tüm formülü kaldırır ve formülün değeriyle değiştirir.|
-| [convert_string_to_numeric_value()](/cells/tr/python-net/aspose.cells/cells/convert_string_to_numeric_value/#) | Mümkünse hücrelerdeki dize verilerini sayısal değere dönüştürür.|
+| [remove_formulas()](/cells/tr/python-net/aspose.cells/cells/remove_formulas/#) | Tüm formülleri kaldırır ve formülün değeriyle değiştirir.|
+| [convert_string_to_numeric_value()](/cells/tr/python-net/aspose.cells/cells/convert_string_to_numeric_value/#) |Mümkünse hücrelerdeki dizi verilerini sayısal değerlere dönüştürür.|
 | [get_dependents(is_all, row, column)](/cells/tr/python-net/aspose.cells/cells/get_dependents/#bool-int-int) | Belirli bir hücreye başvuran tüm hücreleri alın.|
-| [get_dependents_in_calculation(row, column, recursive)](/cells/tr/python-net/aspose.cells/cells/get_dependents_in_calculation/#int-int-bool) | Hesaplanan sonucu belirli bir hücreye bağlı olan tüm hücreleri alır.|
+| [get_dependents_in_calculation(row, column, recursive)](/cells/tr/python-net/aspose.cells/cells/get_dependents_in_calculation/#int-int-bool) | Hesaplanan sonucu belirli hücrelere bağlı olan tüm hücreleri alır.|
 | [get_cell_style(row, column)](/cells/tr/python-net/aspose.cells/cells/get_cell_style/#int-int) | Verilen hücrenin stilini alın.|
 
 

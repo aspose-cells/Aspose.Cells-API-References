@@ -13,8 +13,8 @@ Représente si l'insertion de colonnes est autorisée sur une feuille de calcul 
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
-veuillez utiliser la propriété Protection.AllowInsertingColumn.
+ REMARQUE : ce membre est désormais obsolète.
+ veuillez utiliser la propriété Protection.AllowInsertingColumn.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

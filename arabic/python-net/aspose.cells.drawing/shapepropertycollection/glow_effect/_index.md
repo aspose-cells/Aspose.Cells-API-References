@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  glow_effect الملكية
 
-يمثل عنصر [ShapePropertyCollection.glow_effect](/cells/ar/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect) يحدد تأثير التوهج لعنصر المخطط أو شكله.
+يمثل عنصر [ShapePropertyCollection.glow_effect](/cells/ar/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect) الذي يحدد تأثير التوهج لعنصر المخطط أو شكله.
 ###  تعريف:
 ```python
 @property

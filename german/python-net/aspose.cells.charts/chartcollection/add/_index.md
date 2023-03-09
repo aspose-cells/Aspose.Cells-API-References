@@ -26,7 +26,7 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 | :- | :- | :- |
 | type | [ChartType](/cells/de/python-net/aspose.cells.charts/charttype) | Diagramm Typ|
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | lower_right_row | int | Zeilenindex unten rechts|
 | lower_right_column | int | Spaltenindex unten rechts|
 
@@ -49,16 +49,16 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | type | [ChartType](/cells/de/python-net/aspose.cells.charts/charttype) | Diagramm Typ|
-| data_range | str |Gibt den Datenbereich des Diagramms an|
+| data_range | str | Gibt den Datenbereich des Diagramms an|
 | top_row | int | Zeilenindex oben links.|
-| left_column | int |Spaltenindex oben links.|
+| left_column | int | Spaltenindex oben links.|
 | right_row | int | Zeilenindex unten rechts|
 | bottom_column | int | Spaltenindex unten rechts|
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die Eigenschaft [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/de/python-net/aspose.cells.charts/chartcollection/add).
-Diese Property wird 12 Monate später seit Mai 2022 entfernt.
+ Diese Property wird 12 Monate später seit Mai 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 
 ##  add(data, data_range, is_vertical, top_row, left_column, right_row, bottom_column) {#bytes-str-bool-int-int-int-int}
@@ -79,10 +79,10 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | data | bytes | Die Daten der Diagrammvorlagendatei (.crtx).|
-| data_range | str |Gibt den Datenbereich des Diagramms an|
-| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten zeilen- oder spaltenweise dargestellt werden soll.|
+| data_range | str | Gibt den Datenbereich des Diagramms an|
+| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten nach Zeile oder nach Spalte gezeichnet werden soll.|
 | top_row | int | Zeilenindex oben links.|
-| left_column | int |Spaltenindex oben links.|
+| left_column | int | Spaltenindex oben links.|
 | right_row | int | Zeilenindex unten rechts|
 | bottom_column | int | Spaltenindex unten rechts|
 
@@ -105,10 +105,10 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | type | [ChartType](/cells/de/python-net/aspose.cells.charts/charttype) | Diagramm Typ|
-| data_range | str |Gibt den Datenbereich des Diagramms an|
-| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten zeilen- oder spaltenweise dargestellt werden soll.|
+| data_range | str | Gibt den Datenbereich des Diagramms an|
+| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten nach Zeile oder nach Spalte gezeichnet werden soll.|
 | top_row | int | Zeilenindex oben links.|
-| left_column | int |Spaltenindex oben links.|
+| left_column | int | Spaltenindex oben links.|
 | right_row | int | Zeilenindex unten rechts|
 | bottom_column | int | Spaltenindex unten rechts|
 

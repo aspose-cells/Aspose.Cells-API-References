@@ -22,13 +22,13 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | dest_cell_name | str | اسم الخلية في الزاوية العلوية اليسرى من نطاق المخطط الزمني.|
 | base_field_name | str | اسم PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -53,13 +53,13 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | dest_cell_name | str | اسم الخلية في الزاوية العلوية اليسرى من نطاق المخطط الزمني.|
 | base_field_index | int | فهرس PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -84,13 +84,13 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | dest_cell_name | str | اسم الخلية في الزاوية العلوية اليسرى من نطاق المخطط الزمني.|
 | base_field | aspose.cells.pivot.PivotField | PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -115,14 +115,14 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من نطاق المخطط الزمني.|
 | column | int | فهرس العمود للخلية في الزاوية العلوية اليسرى من نطاق المخطط الزمني.|
 | base_field_name | str | اسم PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -147,14 +147,14 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من نطاق المخطط الزمني.|
 | column | int | فهرس العمود للخلية في الزاوية العلوية اليسرى من نطاق المخطط الزمني.|
 | base_field_index | int | فهرس PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -179,14 +179,14 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من نطاق المخطط الزمني.|
 | column | int | فهرس العمود للخلية في الزاوية العلوية اليسرى من نطاق المخطط الزمني.|
 | base_field | aspose.cells.pivot.PivotField | PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 

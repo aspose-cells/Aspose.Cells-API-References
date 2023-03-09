@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type الملكية
 
-يحصل على type من المراجعة.
+الحصول على type للمراجعة.
 ###  تعريف:
 ```python
 @property

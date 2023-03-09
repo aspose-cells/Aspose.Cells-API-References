@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  stream_provider mülk
 
-Dış kaynak için akış sağlayıcısını alır ve ayarlar.
+Dış kaynaklar için akış sağlayıcısını alır ve ayarlar.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
 lütfen ResourceProvider özelliğini kullanın.
  Bu mülk, Haziran 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

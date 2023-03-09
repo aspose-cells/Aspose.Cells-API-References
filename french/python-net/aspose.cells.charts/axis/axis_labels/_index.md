@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  axis_labels propriété
 
-Obtient les étiquettes de l'axe après l'appel de la méthode Chart.Calculate().
+Obtient les étiquettes de l'axe après avoir appelé la méthode Chart.Calculate().
 ###  Définition:
 ```python
 @property

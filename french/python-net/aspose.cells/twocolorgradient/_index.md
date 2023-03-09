@@ -25,8 +25,8 @@ Le type TwoColorGradient expose les membres suivants :
 | :- | :- |
 | [color1](/cells/fr/python-net/aspose.cells/twocolorgradient/color1) | Obtient et définit la première couleur de dégradé.|
 | [color2](/cells/fr/python-net/aspose.cells/twocolorgradient/color2) | Obtient et définit la deuxième couleur de dégradé.|
-| [gradient_style_type](/cells/fr/python-net/aspose.cells/twocolorgradient/gradient_style_type) | Obtient et définit le style d'ombrage dégradé.|
-| [variant](/cells/fr/python-net/aspose.cells/twocolorgradient/variant) |Obtient et définit la variante de dégradé.|
+| [gradient_style_type](/cells/fr/python-net/aspose.cells/twocolorgradient/gradient_style_type) |Obtient et définit le style d'ombrage dégradé.|
+| [variant](/cells/fr/python-net/aspose.cells/twocolorgradient/variant) | Obtient et définit la variante de dégradé.|
 
 
 

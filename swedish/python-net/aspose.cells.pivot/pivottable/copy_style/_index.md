@@ -18,9 +18,9 @@ def copy_style(self, pivot_table):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/sv/python-net/aspose.cells.pivot/pivottable) | Källpivottabell.|
+| pivot_table | [PivotTable](/cells/sv/python-net/aspose.cells.pivot/pivottable) |Källpivottabell.|
 
 
 

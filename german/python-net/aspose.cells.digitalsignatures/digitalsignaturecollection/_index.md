@@ -17,19 +17,19 @@ Der Typ DigitalSignatureCollection macht die folgenden Member verfügbar:
 ###  Konstrukteure
 | Konstrukteur| Beschreibung|
 | :- | :- |
-| [DigitalSignatureCollection()](/cells/de/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) | Der Konstruktor von DigitalSignatureCollection.|
+| [DigitalSignatureCollection()](/cells/de/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) |Der Konstruktor von DigitalSignatureCollection.|
 
 
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [add(digital_signature)](/cells/de/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) |Fügen Sie DigitalSignatureCollection eine Signatur hinzu.|
+| [add(digital_signature)](/cells/de/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Fügen Sie eine Signatur zur Sammlung digitaler Signaturen hinzu.|
 
 
 
-###  Beispiel
+###  Beispiele
 
-Das folgende Beispiel zeigt, wie die digitale Signatur validiert wird.
+Das folgende Beispiel zeigt, wie digitale Signaturen validiert werden.
 
 ```python
 from aspose.cells import Workbook

@@ -1,5 +1,5 @@
 ﻿---
-title: PictureBulletValue sınıf
+title: PictureBulletValue sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 70
 url: /tr/python-net/aspose.cells.drawing.texts/picturebulletvalue/
 is_root: false
 ---
-##  PictureBulletValue sınıf
+##  PictureBulletValue sınıfı
 Resim madde işaretinin değerini temsil eder.
 
 

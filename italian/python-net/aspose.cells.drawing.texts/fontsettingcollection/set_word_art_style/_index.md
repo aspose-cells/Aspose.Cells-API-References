@@ -18,7 +18,7 @@ def set_word_art_style(self, style):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | style | [PresetWordArtStyle](/cells/it/python-net/aspose.cells.drawing/presetwordartstyle) | Lo stile WordArt preimpostato.|
 

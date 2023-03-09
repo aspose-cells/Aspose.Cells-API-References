@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  pivot_tables propiedad
 
-Obtiene todas las tablas dinámicas de esta hoja de cálculo.
+Obtiene todas las tablas dinámicas de esta hoja de trabajo.
 ###  Definición:
 ```python
 @property

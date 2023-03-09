@@ -22,10 +22,10 @@ def import_custom_objects(self, list, first_row, first_column, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| list | list |L'oggetto personalizzato|
-| first_row | int |Il numero di riga della prima cella in cui importare.|
+| list | list | L'oggetto personalizzato|
+| first_row | int | Il numero di riga della prima cella in cui importare.|
 | first_column | int | Il numero di colonna della prima cella in cui importare.|
 | options | [ImportTableOptions](/cells/it/python-net/aspose.cells/importtableoptions) | Le opzioni di importazione.|
 ###  Osservazioni
@@ -48,12 +48,12 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| list | list |L'oggetto personalizzato|
-| property_names | list | I nomi delle proprietà. Se è nullo, importeremo tutte le proprietà dell'oggetto.|
+| list | list | L'oggetto personalizzato|
+| property_names | list | I nomi delle proprietà.Se è nullo, importeremo tutte le proprietà dell'oggetto.|
 | is_property_name_shown | bool | Indica se il nome della proprietà verrà importato nella prima riga.|
-| first_row | int |Il numero di riga della prima cella in cui importare.|
+| first_row | int | Il numero di riga della prima cella in cui importare.|
 | first_column | int | Il numero di colonna della prima cella in cui importare.|
 | row_number | int | Numero di righe da importare.|
 | insert_rows | bool | Indica se vengono aggiunte ulteriori righe per adattare i dati.|

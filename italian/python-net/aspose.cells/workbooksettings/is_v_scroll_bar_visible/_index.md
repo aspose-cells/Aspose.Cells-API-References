@@ -15,7 +15,7 @@ Ottiene o imposta un valore che indica se il foglio di calcolo generato conterr√
 
 Il valore predefinito √® true.
 
-###  Esempio
+###  Esempi
 
 Il codice seguente rende invisibile la barra di scorrimento verticale per il foglio di calcolo.
 

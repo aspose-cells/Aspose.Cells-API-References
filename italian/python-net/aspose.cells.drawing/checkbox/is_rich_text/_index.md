@@ -11,7 +11,7 @@ is_root: false
 
 Se il testo è rich text o meno.
 
-###  Esempio
+###  Esempi
 
 ```python
 

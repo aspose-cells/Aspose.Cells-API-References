@@ -13,7 +13,7 @@ Stellt die Lesereihenfolge des Textes dar.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die TickLabels.ReadingOrder-Eigenschaft.
  Diese Property wird 12 Monate später seit März 2020 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

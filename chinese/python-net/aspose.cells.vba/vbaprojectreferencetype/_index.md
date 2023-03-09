@@ -1,13 +1,13 @@
 ﻿---
 title: VbaProjectReferenceType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
 url: /zh/python-net/aspose.cells.vba/vbaprojectreferencetype/
 is_root: false
 ---
-##  VbaProjectReferenceType枚举
+## VbaProjectReferenceType枚举
 表示 VBA 项目引用的类型。
 
 

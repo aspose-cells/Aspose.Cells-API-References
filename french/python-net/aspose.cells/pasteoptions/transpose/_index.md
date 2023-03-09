@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose propriété
 
-Fidèle à transpose lignes et colonnes lorsque la plage est collée. La valeur par défaut est Faux.
+Fidèle à transpose lignes et colonnes lorsque la plage est collée.
 ###  Définition:
 ```python
 @property

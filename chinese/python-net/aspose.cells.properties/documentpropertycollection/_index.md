@@ -1,13 +1,13 @@
 ﻿---
 title: DocumentPropertyCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
 url: /zh/python-net/aspose.cells.properties/documentpropertycollection/
 is_root: false
 ---
-##  DocumentPropertyCollection类
+## DocumentPropertyCollection类
 [BuiltInDocumentPropertyCollection](/cells/zh/python-net/aspose.cells.properties/builtindocumentpropertycollection) 和 [CustomDocumentPropertyCollection](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection) 集合的基类。
 
 

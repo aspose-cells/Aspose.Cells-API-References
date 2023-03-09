@@ -13,7 +13,7 @@ Restituisce un oggetto Characters che rappresenta un intervallo di characters al
 
 ###  ritorna
 
-Oggetto Personaggi.
+Oggetti di carattere.
 
 
 ```python
@@ -22,7 +22,7 @@ def characters(self, start_index, length):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_index | int | L'indice dell'inizio del carattere.|
 | length | int | Il numero di caratteri.|

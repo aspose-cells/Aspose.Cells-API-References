@@ -18,7 +18,7 @@ def __init__(self, sheets):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheets | list | sıfır tabanlı sayfa indeksleri.|
 ###  Notlar

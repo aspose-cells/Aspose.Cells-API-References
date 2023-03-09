@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  is_deleted propriété
 
-Indique si la connexion de classeur associée a été supprimée. vrai si le
-la connexion a été supprimée ; sinon, faux.
+Indique si la connexion au classeur associé a été supprimée. true si le
+sinon, faux.
 ###  Définition:
 ```python
 @property

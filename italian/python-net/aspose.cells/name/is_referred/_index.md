@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_referred proprietà
 
-Indica se questo nome è riferito da altre formule.
+Indica se questo nome viene indicato da altre formule.
 ###  Definizione:
 ```python
 @property

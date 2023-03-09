@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  load_style_strategy mülk
 
-Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini gösterir.
+Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini belirtir.
 ###  Tanım:
 ```python
 @property

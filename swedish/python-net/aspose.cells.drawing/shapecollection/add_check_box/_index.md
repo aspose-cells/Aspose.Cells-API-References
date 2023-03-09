@@ -22,11 +22,11 @@ def add_check_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| top | int | Representerar den vertikala förskjutningen av kryssrutan från dess vänstra rad, i pixelenhet.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| top | int |Representerar den vertikala förskjutningen av kryssrutan från dess vänstra rad, i pixelenhet.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int | Representerar den horisontella förskjutningen av textrutan från dess vänstra kolumn, i pixelenhet.|
 | height | int | Textrutans höjd, i pixelenhet.|
 | width | int | Textrutans bredd, i pixelenhet.|

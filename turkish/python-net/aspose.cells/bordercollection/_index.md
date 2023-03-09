@@ -1,5 +1,5 @@
 ﻿---
-title: BorderCollection sınıf
+title: BorderCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 100
 url: /tr/python-net/aspose.cells/bordercollection/
 is_root: false
 ---
-##  BorderCollection sınıf
+##  BorderCollection sınıfı
 [Border](/cells/tr/python-net/aspose.cells/border) nesne koleksiyonunu kapsüller.
 
 

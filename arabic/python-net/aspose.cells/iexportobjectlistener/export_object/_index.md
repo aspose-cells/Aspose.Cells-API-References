@@ -25,7 +25,7 @@ def export_object(self, e):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | e | [ExportObjectEvent](/cells/ar/python-net/aspose.cells/exportobjectevent) | يتم تشغيل الحدث عندما يحتاج أحد العناصر إلى التصدير.|
 

@@ -18,7 +18,7 @@ def copy_comments_in_range(self, shapes, ca, dest_row, dest_column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | shapes | [ShapeCollection](/cells/sv/python-net/aspose.cells.drawing/shapecollection) | Källan formar.|
 | ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Källomfånget.|

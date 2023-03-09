@@ -22,14 +22,14 @@ def add(self, file_name, sheet_names):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str | Il nome del file esterno.|
 | sheet_names | list | Tutti i nomi dei fogli del file esterno.|
 
 
 ##  add(directory_type, file_name, sheet_names) {#DirectoryType-str-list}
-Aggiungi un collegamento esterno .
+Aggiungi un link esterno.
 
 
 ###  ritorna
@@ -43,9 +43,9 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| directory_type | [DirectoryType](/cells/it/python-net/aspose.cells/directorytype) | Il tipo di directory del nome file.|
+| directory_type | [DirectoryType](/cells/it/python-net/aspose.cells/directorytype) |Il tipo di directory del nome file.|
 | file_name | str | il nome del file.|
 | sheet_names | list | Tutti i nomi dei fogli del file esterno.|
 

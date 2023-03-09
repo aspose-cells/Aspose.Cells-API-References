@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | range_name | str | Название диапазона.|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | range_name | str | Имя диапазона или имя таблицы.|
-| current_sheet_index | int | Индекс листа. -1 представляет глобальный .|
+| current_sheet_index | int | Индекс листа -1 представляет глобальный.|
 | include_table | bool | Указывает, проверяются ли все таблицы.|
 
 

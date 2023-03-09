@@ -95,7 +95,7 @@ def add(self, start_row, end_row, column):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | start_row | int | Startzeilenindex, nullbasiert.|
-| end_row | int | Zeilenendindex, nullbasiert.|
+| end_row | int |Zeilenendindex, nullbasiert.|
 | column | int | Spaltenindex, nullbasiert.|
 ###  Bemerkungen
 

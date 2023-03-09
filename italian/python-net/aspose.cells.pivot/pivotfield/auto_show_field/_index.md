@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_show_field proprietà
 
-Rappresenta l'indice del campo di visualizzazione automatica. -1 significa PivotField stesso.
+Rappresenta l'indice del campo di visualizzazione automatica. -1 indica il PivotField stesso.
 Dovrebbe essere l'indice dei campi dati.
 ###  Definizione:
 ```python

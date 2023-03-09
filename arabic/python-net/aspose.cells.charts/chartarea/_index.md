@@ -28,12 +28,12 @@ is_root: false
 | [text_font](/cells/ar/python-net/aspose.cells.charts/chartarea/text_font) | الحصول على عنصر [ChartFrame.font](/cells/ar/python-net/aspose.cells.charts/chartframe#font) لعنصر ChartFrame المحدد.|
 | [text_options](/cells/ar/python-net/aspose.cells.charts/chartarea/text_options) | الحصول على خيارات النص وتعيينها.|
 | [font](/cells/ar/python-net/aspose.cells.charts/chartarea/font) | يحصل على كائن [ChartArea.font](/cells/ar/python-net/aspose.cells.charts/chartarea#font) من كائن المخطط المحدد.|
-| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/chartarea/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي الحقيقية.|
+| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/chartarea/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن.|
 | [background_mode](/cells/ar/python-net/aspose.cells.charts/chartarea/background_mode) | الحصول على وضبط وضع عرض الخلفية|
 | [background](/cells/ar/python-net/aspose.cells.charts/chartarea/background) | الحصول على وضبط وضع عرض الخلفية|
 | [is_automatic_size](/cells/ar/python-net/aspose.cells.charts/chartarea/is_automatic_size) | يشير إلى ما إذا كان حجم إطار المخطط تلقائيًا أم لا.|
 | [x](/cells/ar/python-net/aspose.cells.charts/chartarea/x) | الحصول على أو الحصول على الإزاحة الأفقية من عمود الزاوية اليسرى العليا.|
-| [y](/cells/ar/python-net/aspose.cells.charts/chartarea/y) | الحصول على أو الحصول على الإزاحة الرأسية من صف الزاوية اليسرى العليا.|
+| [y](/cells/ar/python-net/aspose.cells.charts/chartarea/y) |الحصول على أو الحصول على الإزاحة الرأسية من صف الزاوية اليسرى العليا.|
 | [height](/cells/ar/python-net/aspose.cells.charts/chartarea/height) | الحصول على أو تحديد الإزاحة الرأسية من صف الزاوية اليمنى السفلية.|
 | [width](/cells/ar/python-net/aspose.cells.charts/chartarea/width) | الحصول على أو ضبط الإزاحة الأفقية من عمود الزاوية اليمنى السفلي.|
 | [shadow](/cells/ar/python-net/aspose.cells.charts/chartarea/shadow) | صحيح إذا كان للإطار ظل.|
@@ -52,7 +52,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

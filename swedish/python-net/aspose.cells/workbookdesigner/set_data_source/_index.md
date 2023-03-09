@@ -18,7 +18,7 @@ def set_data_source(self, data_source, cells_data_table):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | data_source | str | Namnet på datakällan.|
 | cells_data_table | [ICellsDataTable](/cells/sv/python-net/aspose.cells/icellsdatatable) | datatabell.|
@@ -35,9 +35,9 @@ def set_data_source(self, variable, data):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| variable | str |Variabelnamn skapat med smart markör.|
+| variable | str | Variabelnamn skapat med smart markör.|
 | data | any | Källdata.|
 
 

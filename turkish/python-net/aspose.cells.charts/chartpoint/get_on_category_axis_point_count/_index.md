@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_co
 is_root: false
 ---
 ##  get_on_category_axis_point_count() {#}
-Chart.Calculate() yöntemi çağrıldıktan sonra kategori eksenindeki noktaların sayısını alır. Yalnızca alan grafiği için geçerlidir.
+Chart.Calculate() metodu çağrıldıktan sonra kategori eksenindeki noktaların sayısını alır.Sadece alan grafiği için geçerlidir.
 
 
 

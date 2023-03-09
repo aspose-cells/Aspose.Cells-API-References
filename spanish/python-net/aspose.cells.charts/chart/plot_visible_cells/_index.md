@@ -13,7 +13,7 @@ Indica si solo se trazan las celdas visibles.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
 utilice la propiedad PlotVisibleCellsOnly.
  Este método se eliminará 12 meses después desde diciembre de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

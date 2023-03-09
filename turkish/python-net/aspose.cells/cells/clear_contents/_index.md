@@ -18,7 +18,7 @@ def clear_contents(self, range):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Temizlenecek aralık.|
 
@@ -34,7 +34,7 @@ def clear_contents(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Satır dizini başlat.|
 | start_column | int | Sütun indeksini başlat.|

@@ -22,7 +22,7 @@ def equals(self, cell):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | başka bir hücre nesnesi|
 

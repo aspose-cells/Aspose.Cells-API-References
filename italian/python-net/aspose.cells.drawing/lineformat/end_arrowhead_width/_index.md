@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di larghezza della freccia finale della linea.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells.drawing import MsoArrowheadWidth

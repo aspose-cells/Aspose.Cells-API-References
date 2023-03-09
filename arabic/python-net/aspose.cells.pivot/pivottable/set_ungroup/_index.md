@@ -18,7 +18,7 @@ def set_ungroup(self, base_field_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | base_field_index | int | فهرس حقل الصف أو العمود في الحقول الأساسية|
 
@@ -34,7 +34,7 @@ def set_ungroup(self, pivot_field):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) | حقل الصف أو العمود في الحقول الأساسية|
 

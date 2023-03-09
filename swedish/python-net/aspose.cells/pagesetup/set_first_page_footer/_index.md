@@ -18,9 +18,9 @@ def set_first_page_footer(self, section, footer_script):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| section | int |0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
+| section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
 | footer_script | str | Skript i sidfotsformat.|
 
 

@@ -13,7 +13,7 @@ Renvoie un objet Characters qui représente une plage de characters dans le text
 
 ###  Retour
 
-Objet personnages.
+Objets de caractère.
 
 
 ```python
@@ -22,14 +22,14 @@ def characters(self, start_index, length):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | start_index | int | L'index du début du caractère.|
 | length | int | Le nombre de caractères.|
 ###  Remarques
 
-Cette méthode ne fonctionne que sur une cellule avec une valeur de chaîne.
-###  Exemple
+Cette méthode ne fonctionne que sur les cellules contenant des valeurs de chaîne.
+###  Exemples
 
 
 ```python

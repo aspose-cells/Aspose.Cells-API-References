@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache propiedad
 
-Devuelve el objeto SlicerCache asociado a la segmentación. Solo lectura.
+Devuelve el objeto SlicerCache asociado a la segmentación.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

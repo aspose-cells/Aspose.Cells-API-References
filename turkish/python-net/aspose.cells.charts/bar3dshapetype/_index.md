@@ -19,10 +19,10 @@ Bar3DShapeType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | BOX | Kutu|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | PyramidToMax|
+| PYRAMID_TO_MAX | Maksimum Piramit|
 | CYLINDER | silindir|
-| CONE_TO_POINT | ConeToPoint|
-| CONE_TO_MAX | ConeToMax|
+| CONE_TO_POINT | Noktaya Koni|
+| CONE_TO_MAX | Maksimum Koni|
 
 
 

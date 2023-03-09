@@ -22,12 +22,12 @@ def get_linked_cell(self, is_r1c1, is_local):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_r1c1 | bool | Formülün R1C1 olarak biçimlendirilmesi gerekip gerekmediği.|
 | is_local | bool | Formülün yerel ayarlara göre biçimlendirilmesi gerekip gerekmediği.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

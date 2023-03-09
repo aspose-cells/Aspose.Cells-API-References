@@ -13,7 +13,7 @@ Representa la modificación brightness para la imagen en unidades de porcentaje.
 
 ###  Observaciones
 
-Está entre -100% y 100%. Funciona igual que Excel 2007 o una versión superior.
+Está entre -100% y 100%.
 ###  Definición:
 ```python
 @property

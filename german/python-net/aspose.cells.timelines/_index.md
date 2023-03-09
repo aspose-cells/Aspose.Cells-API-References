@@ -12,7 +12,7 @@ is_root: false
 ###  Klassen
 | Klasse| Beschreibung|
 | :- | :- |
-| [Timeline](/cells/de/python-net/aspose.cells.timelines/timeline) | Zusammenfassende Beschreibung der Timeline-Ansicht<br/> Aufgrund von MS Excel unterstützt Excel 2003 Timeline nicht|
+| [Timeline](/cells/de/python-net/aspose.cells.timelines/timeline) |Zusammenfassende Beschreibung der Timeline-Ansicht<br/> Aufgrund von MS Excel unterstützt Excel 2003 Timeline nicht|
 | [TimelineCollection](/cells/de/python-net/aspose.cells.timelines/timelinecollection) | Gibt die Auflistung aller Timeline-Objekte auf dem angegebenen Arbeitsblatt an.<br/> Aufgrund von MS Excel unterstützt Excel 2003 Timeline nicht.|
 
 

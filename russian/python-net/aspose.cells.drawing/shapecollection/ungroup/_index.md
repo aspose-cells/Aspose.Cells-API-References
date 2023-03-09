@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing/shapecollection/ungroup/
 is_root: false
 ---
 ##  ungroup(group) {#GroupShape}
-Разгруппирует элементы формы.
+Разгруппируйте элементы формы.
 
 
 
@@ -18,13 +18,13 @@ def ungroup(self, group):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | group | [GroupShape](/cells/ru/python-net/aspose.cells.drawing/groupshape) | Форма группы.|
 ###  Примечания
 
 Если фигура группы сгруппирована другой фигурой группы, ничего не будет сделано.
-###  Пример
+###  Примеры
 
 
 ```python

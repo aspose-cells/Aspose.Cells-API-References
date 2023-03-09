@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_object_title propriété
 
-Indique si le titre est ignoré si l'objet est une propriété de l'objet.
+Indique s'il faut ignorer le titre si l'objet est une propriété de l'objet.
 
 ###  Remarques
 

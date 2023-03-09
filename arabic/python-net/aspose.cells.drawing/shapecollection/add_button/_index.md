@@ -22,16 +22,16 @@ def add_button(self, upper_left_row, top, upper_left_column, left, height, width
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ Button من صفه الأيسر ، بوحدة بكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | left | int | يمثل الإزاحة الأفقية لـ Button من عمودها الأيسر ، بوحدة بكسل.|
 | height | int | يمثل ارتفاع الزر ، بوحدة البكسل.|
 | width | int | يمثل عرض الزر ، بوحدة البكسل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

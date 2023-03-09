@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin üst satırından dikey uzaklığını santimetre cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

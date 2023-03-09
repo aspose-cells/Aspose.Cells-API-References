@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rows недвижимость
 
-Получает коллекцию объектов [Row](/cells/ru/python-net/aspose.cells/row), представляющих индивидуума rows на этом листе.
+Получает коллекцию из [Row](/cells/ru/python-net/aspose.cells/row) объектов, представляющих индивидуума rows на этом листе.
 ###  Определение:
 ```python
 @property

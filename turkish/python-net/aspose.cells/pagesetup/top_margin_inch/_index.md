@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_inch mülk
 
-İnç birimi cinsinden üst kenar boşluğunun boyutunu temsil eder.
+Üst kenar boşluğunun boyutunu inç cinsinden temsil eder.
 ###  Tanım:
 ```python
 @property

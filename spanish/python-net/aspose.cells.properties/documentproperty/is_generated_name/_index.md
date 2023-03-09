@@ -10,7 +10,7 @@ is_root: false
 ##  is_generated_name propiedad
 
 Devuelve verdadero si esta propiedad no tiene un nombre en el almacenamiento OLE2
-se generó un nombre único solo para el público API.
+y se generó un nombre único solo para el público API.
 ###  Definición:
 ```python
 @property

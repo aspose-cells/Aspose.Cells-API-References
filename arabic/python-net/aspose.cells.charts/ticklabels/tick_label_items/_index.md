@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-يوجد فقط بعد استدعاء طريقة [Chart.calculate()](/cells/ar/python-net/aspose.cells.charts/chart/calculate).
+موجود فقط بعد استدعاء طريقة [Chart.calculate()](/cells/ar/python-net/aspose.cells.charts/chart/calculate).
 ###  تعريف:
 ```python
 @property

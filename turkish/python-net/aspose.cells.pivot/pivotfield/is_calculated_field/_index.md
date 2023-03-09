@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_calculated_field mülk
 
-Belirtilen PivotTable alanının hesaplanan alan olup olmadığını gösterir.
+Belirtilen PivotTable alanının hesaplanmış bir alan olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

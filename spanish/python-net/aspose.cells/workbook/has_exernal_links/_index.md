@@ -24,7 +24,7 @@ def has_exernal_links(self):
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+NOTA: Este miembro ahora está obsoleto.
 utilice ExternalLinkCollection.Count para verificar si hay enlaces externos en este libro de trabajo.
  Este método se eliminará 12 meses después desde diciembre de 2021.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

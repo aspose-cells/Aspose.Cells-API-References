@@ -11,7 +11,7 @@ is_root: false
 
 Indica si el margen del cuadro de texto es automático.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

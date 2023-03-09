@@ -18,11 +18,11 @@ def set_pattern_color(self, pattern, color1, color2):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | pattern | [BackgroundType](/cells/ar/python-net/aspose.cells/backgroundtype) | النمط.|
 | color1 | aspose.pydrawing.Color | لون المقدمة.|
-| color2 | aspose.pydrawing.Color |لون الخلفية. يعمل فقط عندما لا يكون النمط هو BackgroundType.None و BackgroundType.Solid.|
+| color2 | aspose.pydrawing.Color | لون الخلفية. يعمل فقط عندما يكون النقش ليس BackgroundType.None و BackgroundType.Solid.|
 
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob es sich um eine Signaturzeile handelt.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

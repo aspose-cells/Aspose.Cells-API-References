@@ -18,7 +18,7 @@ def dynamic_filter(self, field_index, dynamic_filter_type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | field_index | int | Heltalsoffset för fältet som du vill basera filtret på<br/> (från vänster i listan; fältet längst till vänster är fält 0).|
 | dynamic_filter_type | [DynamicFilterType](/cells/sv/python-net/aspose.cells/dynamicfiltertype) | Dynamisk filtertyp.|

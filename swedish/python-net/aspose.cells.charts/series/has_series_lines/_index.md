@@ -11,7 +11,7 @@ is_root: false
 
 Sant om ett staplat kolumndiagram eller stapeldiagram har serielinjer eller
  om ett cirkeldiagram eller ett cirkeldiagram har anslutningslinjer mellan de två sektionerna.
-Gäller endast staplade kolumndiagram, stapeldiagram, cirkeldiagram eller cirkeldiagram.
+Gäller endast staplade kolumndiagram, stapeldiagram, cirkeldiagram eller stapeldiagram.
 ###  Definition:
 ```python
 @property

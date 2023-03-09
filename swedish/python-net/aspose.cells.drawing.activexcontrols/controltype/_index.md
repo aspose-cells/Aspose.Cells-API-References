@@ -17,17 +17,17 @@ Typen ControlType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| COMMAND_BUTTON | Knapp|
+| COMMAND_BUTTON | knapp|
 | COMBO_BOX | Kombinationsrutan|
-| CHECK_BOX | Kryssruta|
+| CHECK_BOX | kryssruta|
 | LIST_BOX | ListBox|
 | TEXT_BOX | Textruta|
 | SPIN_BUTTON | Spinnare|
-| RADIO_BUTTON | Radio knapp|
-| LABEL | Märka|
+| RADIO_BUTTON | radioknappar|
+| LABEL | märka|
 | IMAGE | Bild|
 | TOGGLE_BUTTON | Växlingsknapp|
-| SCROLL_BAR |Rullningslist|
+| SCROLL_BAR | Rullningslist|
 | UNKNOWN | Okänd|
 
 

@@ -1,13 +1,13 @@
 ﻿---
 title: PrintingPageType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2410
 url: /zh/python-net/aspose.cells/printingpagetype/
 is_root: false
 ---
-##  PrintingPageType枚举
+## PrintingPageType枚举
 指示将不打印哪些页面。
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display proprietà
 
-Rappresenta il testo da visualizzare per il collegamento ipertestuale specificato. Il valore predefinito è l'indirizzo del collegamento ipertestuale.
+Rappresenta il testo da visualizzare per il collegamento ipertestuale specificato.
 ###  Definizione:
 ```python
 @property

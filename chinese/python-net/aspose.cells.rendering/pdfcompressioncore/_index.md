@@ -1,13 +1,13 @@
 ﻿---
 title: PdfCompressionCore枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
 url: /zh/python-net/aspose.cells.rendering/pdfcompressioncore/
 is_root: false
 ---
-##  PdfCompressionCore枚举
+## PdfCompressionCore枚举
 指定应用于 PDF 文件中除图像之外的所有内容的压缩类型。
 
 

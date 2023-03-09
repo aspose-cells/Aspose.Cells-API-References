@@ -18,7 +18,7 @@ def delete_column(self, column_index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | Индекс столбца.|
 
@@ -34,7 +34,7 @@ def delete_column(self, column_index, update_reference):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | Индекс столбца.|
 | update_reference | bool | Указывает, обновляются ли ссылки на других листах.|

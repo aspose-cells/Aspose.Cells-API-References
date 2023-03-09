@@ -1,14 +1,14 @@
 ﻿---
 title: VbaProjectReference类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
 url: /zh/python-net/aspose.cells.vba/vbaprojectreference/
 is_root: false
 ---
-##  VbaProjectReference类
-代表VBA工程的引用。
+## VbaProjectReference类
+表示 VBA 项目的引用。
 
 
 
@@ -19,7 +19,7 @@ VbaProjectReference 类型公开了以下成员：
 | :- | :- |
 | [type](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference/type) |获取此引用的类型。|
 | [name](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference/name) |获取和设置引用的名称。|
-| [libid](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference/libid) |获取和设置引用的 Libid。|
+| [libid](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference/libid) |获取和设置引用的 libid。|
 | [twiddledlibid](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference/twiddledlibid) |获取和设置引用的 twiddled Libid。|
 | [extended_libid](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference/extended_libid) |获取和设置引用的扩展 Libid。|
 | [relative_libid](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) |使用相对路径获取和设置引用的 VBA 项目的标识符。|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility mülk
 
-Çalışma kitabını kaydederken önceki sürümlerle uyumluluğun kontrol edilip edilmediğini gösterir.
+Çalışma kitaplarını kaydederken önceki sürümlerle uyumluluğun kontrol edilip edilmediğini gösterir.
 
 ###  Notlar
 

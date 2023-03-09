@@ -13,8 +13,8 @@ Representa si el usuario puede manipular tablas dinámicas en una hoja de trabaj
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
- utilice la propiedad Protection.AllowUsingPivotTable.
+ NOTA: Este miembro ahora está obsoleto.
+ por favor use Protection Permitir el uso de la propiedad PivotTable.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

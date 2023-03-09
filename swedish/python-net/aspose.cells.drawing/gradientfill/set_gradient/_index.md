@@ -18,11 +18,11 @@ def set_gradient(self, type, angle, direction):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [GradientFillType](/cells/sv/python-net/aspose.cells.drawing/gradientfilltype) | Fyllnadstyp för gradient.|
-| angle | float | Vinkeln. Gäller endast GradientFillType.Linear.|
-| direction | [GradientDirectionType](/cells/sv/python-net/aspose.cells.drawing/gradientdirectiontype) | Riktningstypen. Gäller endast GradientFillType.Radial och GradientFillType.Rectangle.|
+| angle | float | Vinkeln. Gäller endast för GradientFillType.Linear.|
+| direction | [GradientDirectionType](/cells/sv/python-net/aspose.cells.drawing/gradientdirectiontype) |Riktningstypen Gäller endast för GradientFillType.Radial och GradientFillType.Rectangle.|
 
 
 

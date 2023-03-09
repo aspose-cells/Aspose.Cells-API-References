@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_null mülk
 
-Boş değerin göz ardı edilip edilmediğini gösterir.
+Null değerlerin göz ardı edilip edilmediğini gösterir.
 ###  Tanım:
 ```python
 @property

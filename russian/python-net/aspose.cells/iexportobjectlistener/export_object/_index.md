@@ -25,7 +25,7 @@ def export_object(self, e):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | e | [ExportObjectEvent](/cells/ru/python-net/aspose.cells/exportobjectevent) | Событие срабатывает, когда необходимо экспортировать один объект.|
 

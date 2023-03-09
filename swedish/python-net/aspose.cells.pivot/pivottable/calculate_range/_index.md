@@ -20,7 +20,7 @@ def calculate_range(self):
 
 ###  Anmärkningar
 
-Om denna metod inte anropas kanske det vridbara området inte korrigeras.
+Om denna metod inte anropas kanske det vridbara intervallet inte korrigeras.
 
 
 ###  Se även

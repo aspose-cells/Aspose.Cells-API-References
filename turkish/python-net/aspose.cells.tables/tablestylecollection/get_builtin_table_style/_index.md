@@ -22,7 +22,7 @@ def get_builtin_table_style(self, type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [TableStyleType](/cells/tr/python-net/aspose.cells.tables/tablestyletype) | Yerleşik tablo stili türü.|
 

@@ -1,13 +1,13 @@
 ﻿---
 title: CredentialsMethodType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
 url: /zh/python-net/aspose.cells.externalconnections/credentialsmethodtype/
 is_root: false
 ---
-##  CredentialsMethodType枚举
+## CredentialsMethodType枚举
 指定用于服务器访问的凭据方法。
 
 

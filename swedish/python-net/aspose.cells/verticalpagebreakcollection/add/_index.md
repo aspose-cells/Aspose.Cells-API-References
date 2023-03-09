@@ -22,7 +22,7 @@ def add(self, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Cell kolumnindex, nollbaserat.|
 ###  Anmärkningar
@@ -45,7 +45,7 @@ def add(self, cell_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cell_name | str | Cell namn.|
 ###  Anmärkningar
@@ -68,7 +68,7 @@ def add(self, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Cell radindex, nollbaserat.|
 | column | int | Cell kolumnindex, nollbaserat.|
@@ -92,10 +92,10 @@ def add(self, start_row, end_row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Startradindex, nollbaserat.|
-| end_row | int | Slutradindex, nollbaserat.|
+| end_row | int |Slutradindex, nollbaserat.|
 | column | int | Kolumnindex, nollbaserat.|
 ###  Anmärkningar
 

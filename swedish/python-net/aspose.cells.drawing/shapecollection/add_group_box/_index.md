@@ -22,14 +22,14 @@ def add_group_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av GroupBox från dess vänstra rad, i pixelenhet.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int | Representerar den horisontella förskjutningen av GroupBox från dess vänstra kolumn, i pixelenhet.|
 | height | int | Representerar höjden på GroupBox, i pixelenhet.|
-| width | int |Representerar bredden på GroupBox, i pixelenhet.|
+| width | int | Representerar bredden på GroupBox, i pixelenhet.|
 
 ###  Exempel
 

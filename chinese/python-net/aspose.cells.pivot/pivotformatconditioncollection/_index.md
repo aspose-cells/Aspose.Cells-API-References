@@ -1,13 +1,13 @@
 ﻿---
 title: PivotFormatConditionCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
 url: /zh/python-net/aspose.cells.pivot/pivotformatconditioncollection/
 is_root: false
 ---
-##  PivotFormatConditionCollection类
+## PivotFormatConditionCollection类
 表示数据透视表格式条件。
 
 

@@ -17,7 +17,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [stream_provider](/cells/ar/python-net/aspose.cells/workbooksettings/stream_provider) | الحصول على وتعيين موفر الدفق للمورد الخارجي.|
+| [stream_provider](/cells/ar/python-net/aspose.cells/workbooksettings/stream_provider) | الحصول على وتعيين موفر الدفق للموارد الخارجية.|
 | [resource_provider](/cells/ar/python-net/aspose.cells/workbooksettings/resource_provider) | الحصول على موفر الدفق للمورد الخارجي وتعيينه ، مثل تحميل بيانات الصورة لصورة من النوع "LinkToFile".|
 | [author](/cells/ar/python-net/aspose.cells/workbooksettings/author) | الحصول على كاتب الملف وتعيينه.|
 | [check_custom_number_format](/cells/ar/python-net/aspose.cells/workbooksettings/check_custom_number_format) | يشير إلى ما إذا كان التحقق من تنسيق الأرقام المخصص عند ضبط Style.Custom.|
@@ -26,19 +26,19 @@ is_root: false
 | [protection_type](/cells/ar/python-net/aspose.cells/workbooksettings/protection_type) | يحصل على نوع الحماية للمصنف.|
 | [display_drawing_objects](/cells/ar/python-net/aspose.cells/workbooksettings/display_drawing_objects) | يشير إلى ما إذا كان سيتم إظهار الكائنات في المصنف وكيفية إظهارها.|
 | [sheet_tab_bar_width](/cells/ar/python-net/aspose.cells/workbooksettings/sheet_tab_bar_width) | عرض شريط علامة تبويب ورقة العمل (في 1/1000 من عرض النافذة).|
-| [show_tabs](/cells/ar/python-net/aspose.cells/workbooksettings/show_tabs) | احصل على قيمة أو عيّنها سواء تم عرض علامات تبويب المصنف.|
+| [show_tabs](/cells/ar/python-net/aspose.cells/workbooksettings/show_tabs) |احصل على قيمة أو عيّنها سواء تم عرض علامات تبويب المصنف.|
 | [first_visible_tab](/cells/ar/python-net/aspose.cells/workbooksettings/first_visible_tab) | الحصول على أول علامة تبويب مرئية لورقة العمل أو تعيينها.|
 | [is_h_scroll_bar_visible](/cells/ar/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) | الحصول على أو تعيين قيمة تشير إلى ما إذا كان جدول البيانات الذي تم إنشاؤه سيحتوي على شريط تمرير أفقي.|
 | [is_v_scroll_bar_visible](/cells/ar/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) | الحصول على أو تعيين قيمة تشير إلى ما إذا كان جدول البيانات الذي تم إنشاؤه سيحتوي على شريط تمرير عمودي.|
 | [shared](/cells/ar/python-net/aspose.cells/workbooksettings/shared) | الحصول على أو تعيين قيمة تشير إلى ما إذا كان المصنف مشتركًا أم لا.|
 | [language_code](/cells/ar/python-net/aspose.cells/workbooksettings/language_code) | الحصول على أو تعيين لغة واجهة المستخدم لإصدار المصنف بناءً على كود البلد الذي حفظ الملف.|
-| [region](/cells/ar/python-net/aspose.cells/workbooksettings/region) | الحصول على أو تعيين الإعدادات الإقليمية للمصنف.|
+| [region](/cells/ar/python-net/aspose.cells/workbooksettings/region) | الحصول على الإعدادات الإقليمية للمصنفات أو تعيينها.|
 | [globalization_settings](/cells/ar/python-net/aspose.cells/workbooksettings/globalization_settings) | الحصول على إعدادات العولمة وتعيينها.|
-| [number_decimal_separator](/cells/ar/python-net/aspose.cells/workbooksettings/number_decimal_separator) | الحصول على أو تعيين الفاصل العشري لتنسيق / تحليل القيم الرقمية. الافتراضي هو الفاصل العشري للمنطقة الحالية.|
-| [number_group_separator](/cells/ar/python-net/aspose.cells/workbooksettings/number_group_separator) | الحصول على أو تحديد الحرف الذي يفصل بين مجموعات من الأرقام على يسار العلامة العشرية في القيم الرقمية. الافتراضي هو فاصل المجموعة للمنطقة الحالية.|
+| [number_decimal_separator](/cells/ar/python-net/aspose.cells/workbooksettings/number_decimal_separator) | الحصول على أو تعيين الفاصل العشري لتنسيق / تحليل القيم الرقمية.|
+| [number_group_separator](/cells/ar/python-net/aspose.cells/workbooksettings/number_group_separator) | الحصول على أو تعيين الحرف الذي يفصل بين مجموعات الأرقام إلى يسار العلامة العشرية في القيم الرقمية. الافتراضي هو فاصل المجموعة للمنطقة الحالية.|
 | [password](/cells/ar/python-net/aspose.cells/workbooksettings/password) | يمثل كلمة مرور تشفير ملف المصنف.|
 | [write_protection](/cells/ar/python-net/aspose.cells/workbooksettings/write_protection) | يوفر الوصول إلى خيارات الحماية ضد الكتابة في المصنف.|
-| [is_encrypted](/cells/ar/python-net/aspose.cells/workbooksettings/is_encrypted) | الحصول على قيمة تشير إلى ما إذا كانت كلمة المرور مطلوبة لفتح هذا المصنف.|
+| [is_encrypted](/cells/ar/python-net/aspose.cells/workbooksettings/is_encrypted) |الحصول على قيمة تشير إلى ما إذا كانت كلمة المرور مطلوبة لفتح هذا المصنف.|
 | [is_protected](/cells/ar/python-net/aspose.cells/workbooksettings/is_protected) | الحصول على قيمة تشير إلى ما إذا كانت بنية أو نافذة المصنف محمية.|
 | [is_default_encrypted](/cells/ar/python-net/aspose.cells/workbooksettings/is_default_encrypted) | يشير إلى ما إذا كان تشفير المصنف بكلمة مرور افتراضية إذا تم تأمين الهيكل و Windows من المصنف.|
 | [is_minimized](/cells/ar/python-net/aspose.cells/workbooksettings/is_minimized) | يمثل ما إذا كان سيتم فتح جدول البيانات الذي تم إنشاؤه مصغرًا.|
@@ -50,43 +50,43 @@ is_root: false
 | [max_row](/cells/ar/python-net/aspose.cells/workbooksettings/max_row) | يحصل على فهرس الصف الأقصى ، على أساس الصفر.|
 | [max_column](/cells/ar/python-net/aspose.cells/workbooksettings/max_column) | يحصل على فهرس العمود الأقصى ، على أساس الصفر.|
 | [parsing_formula_on_open](/cells/ar/python-net/aspose.cells/workbooksettings/parsing_formula_on_open) | يشير إلى ما إذا كان سيتم تحليل الصيغة عند قراءة الملف.|
-| [window_left](/cells/ar/python-net/aspose.cells/workbooksettings/window_left) |المسافة من الحافة اليسرى لمنطقة العميل إلى الحافة اليسرى للنافذة ، بوحدة النقطة.|
-| [window_left_inch](/cells/ar/python-net/aspose.cells/workbooksettings/window_left_inch) | المسافة من الحافة اليسرى لمنطقة العميل إلى الحافة اليسرى للنافذة.<br/> في وحدة البوصة.|
-| [window_left_cm](/cells/ar/python-net/aspose.cells/workbooksettings/window_left_cm) | المسافة من الحافة اليسرى لمنطقة العميل إلى الحافة اليسرى للنافذة.<br/> في وحدة السنتيمتر.|
+| [window_left](/cells/ar/python-net/aspose.cells/workbooksettings/window_left) | المسافة من الحافة اليسرى لمنطقة العميل إلى الحافة اليسرى للنافذة ، بوحدة النقطة.|
+| [window_left_inch](/cells/ar/python-net/aspose.cells/workbooksettings/window_left_inch) |المسافة من الحافة اليسرى لمنطقة العميل إلى الحافة اليسرى للنافذة.<br/> في وحدة البوصة.|
+| [window_left_cm](/cells/ar/python-net/aspose.cells/workbooksettings/window_left_cm) |المسافة من الحافة اليسرى لمنطقة العميل إلى الحافة اليسرى للنافذة.<br/> في وحدة السنتيمتر.|
 | [window_top](/cells/ar/python-net/aspose.cells/workbooksettings/window_top) | المسافة من الحافة العلوية لمنطقة العميل إلى الحافة العلوية للنافذة ، بوحدة النقطة.|
 | [window_top_inch](/cells/ar/python-net/aspose.cells/workbooksettings/window_top_inch) | المسافة من الحافة العلوية لمنطقة العميل إلى الحافة العلوية للنافذة ، بوحدة البوصة.|
 | [window_top_cm](/cells/ar/python-net/aspose.cells/workbooksettings/window_top_cm) | المسافة من الحافة العلوية لمنطقة العميل إلى الحافة العلوية للنافذة ، بوحدة سنتيمتر.|
-| [window_width](/cells/ar/python-net/aspose.cells/workbooksettings/window_width) | عرض النافذة بوحدة النقطة.|
-| [window_width_inch](/cells/ar/python-net/aspose.cells/workbooksettings/window_width_inch) | عرض النافذة بوحدة البوصة.|
-| [window_width_cm](/cells/ar/python-net/aspose.cells/workbooksettings/window_width_cm) | عرض النافذة بوحدة سنتيمتر.|
+| [window_width](/cells/ar/python-net/aspose.cells/workbooksettings/window_width) | عرض النافذة بوحدات النقاط.|
+| [window_width_inch](/cells/ar/python-net/aspose.cells/workbooksettings/window_width_inch) | عرض النافذة بوحدات البوصة.|
+| [window_width_cm](/cells/ar/python-net/aspose.cells/workbooksettings/window_width_cm) | عرض النافذة بوحدات السنتيمتر.|
 | [window_height](/cells/ar/python-net/aspose.cells/workbooksettings/window_height) | ارتفاع النافذة بوحدة النقطة.|
-| [window_height_inch](/cells/ar/python-net/aspose.cells/workbooksettings/window_height_inch) | ارتفاع النافذة بوحدة البوصة.|
-| [window_height_cm](/cells/ar/python-net/aspose.cells/workbooksettings/window_height_cm) | ارتفاع النافذة بوحدة سنتيمتر.|
+| [window_height_inch](/cells/ar/python-net/aspose.cells/workbooksettings/window_height_inch) | ارتفاع النافذة بوحدات البوصة.|
+| [window_height_cm](/cells/ar/python-net/aspose.cells/workbooksettings/window_height_cm) | ارتفاع النافذة بوحدات السنتيمترات.|
 | [update_adjacent_cells_border](/cells/ar/python-net/aspose.cells/workbooksettings/update_adjacent_cells_border) | يشير إلى ما إذا كان سيتم تحديث حدود الخلايا المجاورة.|
 | [significant_digits](/cells/ar/python-net/aspose.cells/workbooksettings/significant_digits) | الحصول على عدد الخانات المعنوية وتعيينها.<br/> القيمة الافتراضية هي [CellsHelper.significant_digits](/cells/ar/python-net/aspose.cells/cellshelper#significant_digits).|
-| [check_compatibility](/cells/ar/python-net/aspose.cells/workbooksettings/check_compatibility) |يشير إلى ما إذا كان التحقق من التوافق مع الإصدارات السابقة عند حفظ المصنف.|
-| [check_excel_restriction](/cells/ar/python-net/aspose.cells/workbooksettings/check_excel_restriction) | ما إذا كان التحقق من تقييد ملف Excel عند تعديل المستخدم للكائنات ذات الصلة بالخلايا.<br/>على سبيل المثال ، لا يسمح Excel بإدخال قيمة سلسلة أطول من 32 كيلو بايت.<br/>عند إدخال قيمة أطول من 32 كيلو بايت مثل Cell.PutValue (سلسلة) ، إذا كانت هذه الخاصية صحيحة ، فستحصل على استثناء.<br/>إذا كانت هذه الخاصية خاطئة ، فسنقبل قيمة سلسلة الإدخال كقيمة للخلية حتى يتم ذلك لاحقًا<br/>يمكنك إخراج قيمة السلسلة الكاملة لتنسيقات ملفات أخرى مثل CSV.<br/>ومع ذلك ، إذا قمت بتعيين مثل هذا النوع من القيمة غير الصالحة لتنسيق ملف Excel ،<br/> يجب ألا تحفظ المصنف بتنسيق ملف excel لاحقًا. وإلا فقد يكون هناك خطأ غير متوقع لملف Excel الذي تم إنشاؤه.|
-| [auto_recover](/cells/ar/python-net/aspose.cells/workbooksettings/auto_recover) | يشير إلى ما إذا كان الملف محددًا للاسترداد التلقائي.|
+| [check_compatibility](/cells/ar/python-net/aspose.cells/workbooksettings/check_compatibility) | يشير إلى ما إذا كان التحقق من التوافق مع الإصدارات السابقة عند حفظ المصنفات.|
+| [check_excel_restriction](/cells/ar/python-net/aspose.cells/workbooksettings/check_excel_restriction) | ما إذا كان التحقق من تقييد ملف Excel عند تعديل المستخدم للكائنات ذات الصلة بالخلايا.<br/>على سبيل المثال ، لا يسمح Excel بإدخال قيمة سلسلة أطول من 32 كيلو بايت.<br/>عند إدخال قيمة أطول من 32 كيلو بايت مثل Cell.PutValue (سلسلة) ، إذا كانت هذه الخاصية صحيحة ، فستحصل على استثناء.<br/>إذا كانت هذه الخاصية خاطئة ، فسنقبل قيمة سلسلة الإدخال كقيمة للخلية حتى يتم ذلك لاحقًا<br/>يمكنك إخراج قيمة السلسلة الكاملة لتنسيقات ملفات أخرى مثل CSV.<br/>ومع ذلك ، إذا قمت بتعيين مثل هذا النوع من القيمة غير الصالحة لتنسيق ملف Excel ،<br/> يجب ألا تحفظ المصنف بتنسيق ملف excel لاحقًا.|
+| [auto_recover](/cells/ar/python-net/aspose.cells/workbooksettings/auto_recover) |يشير إلى ما إذا كان الملف محددًا للاسترداد التلقائي.|
 | [crash_save](/cells/ar/python-net/aspose.cells/workbooksettings/crash_save) | يشير إلى ما إذا كان التطبيق قد حفظ ملف المصنف آخر مرة بعد حدوث عطل.|
 | [data_extract_load](/cells/ar/python-net/aspose.cells/workbooksettings/data_extract_load) | يشير إلى ما إذا كان التطبيق قد فتح المصنف آخر مرة لاستعادة البيانات.|
 | [repair_load](/cells/ar/python-net/aspose.cells/workbooksettings/repair_load) | يشير إلى ما إذا كان التطبيق فتح المصنف آخر مرة في الوضع الآمن أو وضع الإصلاح.|
 | [build_version](/cells/ar/python-net/aspose.cells/workbooksettings/build_version) | يحدد الإصدار العام المتزايد للتطبيق.|
-| [memory_setting](/cells/ar/python-net/aspose.cells/workbooksettings/memory_setting) | الحصول على أو تعيين خيارات استخدام الذاكرة. سيتم اتخاذ الخيار الجديد كخيار افتراضي لأوراق العمل التي تم إنشاؤها حديثًا ولكن لن يصبح ساري المفعول لأوراق العمل الحالية.|
+| [memory_setting](/cells/ar/python-net/aspose.cells/workbooksettings/memory_setting) | الحصول على خيارات استخدام الذاكرة أو تعيينها. سيتم اتخاذ الخيار الجديد كخيار افتراضي لأوراق العمل التي تم إنشاؤها حديثًا ولكنه لا يسري على أوراق العمل الحالية.|
 | [paper_size](/cells/ar/python-net/aspose.cells/workbooksettings/paper_size) | الحصول على حجم ورق الطباعة الافتراضي وتعيينه.|
-| [warning_callback](/cells/ar/python-net/aspose.cells/workbooksettings/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
+| [warning_callback](/cells/ar/python-net/aspose.cells/workbooksettings/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
 | [max_rows_of_shared_formula](/cells/ar/python-net/aspose.cells/workbooksettings/max_rows_of_shared_formula) | الحصول على الحد الأقصى لعدد الصف الخاص بالصيغة المشتركة وتعيينه.|
-| [compliance](/cells/ar/python-net/aspose.cells/workbooksettings/compliance) |يحدد إصدار OOXML لمستند الإخراج. القيمة الافتراضية هي Ecma376_2006.|
+| [compliance](/cells/ar/python-net/aspose.cells/workbooksettings/compliance) | يحدد إصدار OOXML لمستند الإخراج.|
 | [quote_prefix_to_style](/cells/ar/python-net/aspose.cells/workbooksettings/quote_prefix_to_style) | الإشارة إلى ما إذا كان تعيين خاصية [Style.quote_prefix](/cells/ar/python-net/aspose.cells/style#quote_prefix) عند إدخال قيمة السلسلة (التي تبدأ بعلامة اقتباس مفردة) في الخلية|
 | [formula_settings](/cells/ar/python-net/aspose.cells/workbooksettings/formula_settings) | يحصل على إعدادات الميزات المتعلقة بالصيغة.|
-| [precision_as_displayed](/cells/ar/python-net/aspose.cells/workbooksettings/precision_as_displayed) | صواب إذا كانت العمليات الحسابية في هذا المصنف ستتم باستخدام دقة الأرقام فقط أثناء عرضها|
-| [re_calculate_on_open](/cells/ar/python-net/aspose.cells/workbooksettings/re_calculate_on_open) | يشير إلى ما إذا كنت ستعيد حساب كل الصيغ عند فتح الملف.|
-| [create_calc_chain](/cells/ar/python-net/aspose.cells/workbooksettings/create_calc_chain) | ما إذا كان يتم إنشاء سلسلة الصيغ المحسوبة. الافتراضي هو خطأ.|
+| [precision_as_displayed](/cells/ar/python-net/aspose.cells/workbooksettings/precision_as_displayed) |صواب إذا كانت العمليات الحسابية في هذا المصنف ستتم باستخدام دقة الأرقام فقط أثناء عرضها|
+| [re_calculate_on_open](/cells/ar/python-net/aspose.cells/workbooksettings/re_calculate_on_open) | يشير إلى ما إذا كان سيتم إعادة حساب جميع الصيغ عند فتح الملف.|
+| [create_calc_chain](/cells/ar/python-net/aspose.cells/workbooksettings/create_calc_chain) | سواء تم إنشاء سلسلة معادلات محسوبة أم لا. الافتراضي هو خطأ.|
 | [force_full_calculate](/cells/ar/python-net/aspose.cells/workbooksettings/force_full_calculate) | تحسب بالكامل في كل مرة يتم فيها تشغيل عملية حسابية.|
-| [iteration](/cells/ar/python-net/aspose.cells/workbooksettings/iteration) | يشير إلى ما إذا كان يتم تمكين الحساب التكراري لحل المراجع الدائرية.|
+| [iteration](/cells/ar/python-net/aspose.cells/workbooksettings/iteration) | يشير إلى ما إذا كان سيتم تمكين الحساب التكراري لحل المراجع الدائرية.|
 | [max_iteration](/cells/ar/python-net/aspose.cells/workbooksettings/max_iteration) | إرجاع أو تعيين الحد الأقصى لعدد التكرارات لحل مرجع معاد.|
-| [max_change](/cells/ar/python-net/aspose.cells/workbooksettings/max_change) |إرجاع أو تعيين الحد الأقصى لعدد التغييرات لحل مرجع معاد.|
+| [max_change](/cells/ar/python-net/aspose.cells/workbooksettings/max_change) | إرجاع أو تعيين الحد الأقصى لعدد التغييرات لحل مرجع معاد.|
 | [calc_mode](/cells/ar/python-net/aspose.cells/workbooksettings/calc_mode) | يحدد ما إذا كان سيتم حساب الصيغ يدويًا ،<br/> تلقائيًا أو تلقائيًا باستثناء عمليات الجدول المتعددة.|
-| [calculation_id](/cells/ar/python-net/aspose.cells/workbooksettings/calculation_id) | يحدد إصدار محرك الحساب المستخدم لحساب القيم في المصنف.|
+| [calculation_id](/cells/ar/python-net/aspose.cells/workbooksettings/calculation_id) |يحدد إصدار محرك الحساب المستخدم لحساب القيم في المصنف.|
 | [calc_stack_size](/cells/ar/python-net/aspose.cells/workbooksettings/calc_stack_size) | يحدد حجم المكدس لحساب الخلايا بشكل متكرر.<br/>ستعطي القيمة الكبيرة لهذا الحجم أداءً أفضل عندما يكون هناك الكثير من الخلايا التي يجب حسابها بشكل متكرر.<br/>من ناحية أخرى ، ستزيد القيمة الأكبر من مخاطر StackOverflowException.<br/> إذا حصل المستخدم على StackOverflowException عند حساب الصيغ ، فيجب إنقاص هذه القيمة.|
 | [recalculate_before_save](/cells/ar/python-net/aspose.cells/workbooksettings/recalculate_before_save) | يشير إلى ما إذا كان سيتم إعادة الحساب قبل حفظ المستند.|
 
@@ -95,11 +95,11 @@ is_root: false
 | طريقة| وصف|
 | :- | :- |
 | [get_theme_font(type)](/cells/ar/python-net/aspose.cells/workbooksettings/get_theme_font/#FontSchemeType) | يحصل على اسم خط النسق الافتراضي.|
-| [set_page_orientation_type(page_orientation_type)](/cells/ar/python-net/aspose.cells/workbooksettings/set_page_orientation_type/#PageOrientationType) |قم بتعيين نوع اتجاه الطباعة للمصنف بأكمله.|
+| [set_page_orientation_type(page_orientation_type)](/cells/ar/python-net/aspose.cells/workbooksettings/set_page_orientation_type/#PageOrientationType) | قم بتعيين نوع اتجاه الطباعة للمصنف بأكمله.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

@@ -31,7 +31,7 @@ def delete_blank_rows(self, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/it/python-net/aspose.cells/deleteoptions) | Le opzioni di eliminazione dell'intervallo.|
 

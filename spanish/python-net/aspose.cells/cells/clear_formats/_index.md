@@ -18,7 +18,7 @@ def clear_formats(self, range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | Rango a borrar.|
 
@@ -34,7 +34,7 @@ def clear_formats(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | start_row | int | Índice de fila de inicio.|
 | start_column | int | Índice de la columna de inicio.|

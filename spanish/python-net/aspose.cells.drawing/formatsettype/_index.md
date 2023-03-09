@@ -17,7 +17,7 @@ El tipo FormatSetType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| NONE |Sin formato de relleno.|
+| NONE | Sin formato de relleno.|
 | IS_GRADIENT_SET | Formato de relleno degradado.|
 | IS_TEXTURE_SET | Formato de relleno de textura.|
 | IS_PATTERN_SET | Formato de relleno de patrón.|

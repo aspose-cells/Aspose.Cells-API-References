@@ -18,7 +18,7 @@ def set_color(self, color):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Colore dei bordi.|
 

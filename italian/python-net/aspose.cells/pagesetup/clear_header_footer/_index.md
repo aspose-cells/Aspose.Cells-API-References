@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/pagesetup/clear_header_footer/
 is_root: false
 ---
 ##  clear_header_footer() {#}
-Cancella l'impostazione di intestazione e piè di pagina.
+Cancella le impostazioni di intestazione e piè di pagina.
 
 
 

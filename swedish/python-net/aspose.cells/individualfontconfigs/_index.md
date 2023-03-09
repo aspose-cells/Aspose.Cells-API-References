@@ -17,13 +17,13 @@ Typen IndividualFontConfigs avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [IndividualFontConfigs()](/cells/sv/python-net/aspose.cells/individualfontconfigs/__init__/#) | Ctor.|
+| [IndividualFontConfigs()](/cells/sv/python-net/aspose.cells/individualfontconfigs/__init__/#) | Direktör.|
 
 
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/sv/python-net/aspose.cells/individualfontconfigs/set_font_substitutes/#str-list) | Typsnittsersättningsnamn för det ursprungliga teckensnittsnamnet.|
+| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/sv/python-net/aspose.cells/individualfontconfigs/set_font_substitutes/#str-list) | Fontersättningsnamn för givna ursprungliga teckensnittsnamn.|
 | [get_font_substitutes(original_font_name)](/cells/sv/python-net/aspose.cells/individualfontconfigs/get_font_substitutes/#str) | Returnerar array som innehåller teckensnittsersättningsnamn som ska användas om det ursprungliga teckensnittet inte visas.|
 | [set_font_folder(font_folder, recursive)](/cells/sv/python-net/aspose.cells/individualfontconfigs/set_font_folder/#str-bool) | Ställer in teckensnittsmappen|
 | [set_font_folders(font_folders, recursive)](/cells/sv/python-net/aspose.cells/individualfontconfigs/set_font_folders/#list-bool) | Ställer in typsnittsmapparna|

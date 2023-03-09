@@ -15,7 +15,7 @@ Ottiene o imposta l'offset orizzontale della forma rispetto alla colonna nell'an
 
 L'intervallo di valori va da 0 a 1024.
 
-###  Esempio
+###  Esempi
 
 ```python
 

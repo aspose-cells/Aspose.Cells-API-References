@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_cm fastighet
 
-Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i centimeterenhet.
+Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i enheter av centimeter.
 
 ###  Exempel
 

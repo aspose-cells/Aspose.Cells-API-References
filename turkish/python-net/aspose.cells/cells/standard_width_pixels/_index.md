@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width_pixels mülk
 
-Çalışma sayfasındaki varsayılan sütun genişliğini piksel birimi cinsinden alır veya ayarlar.
+Çalışma sayfasındaki varsayılan sütun genişliğini piksel birimleri cinsinden alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

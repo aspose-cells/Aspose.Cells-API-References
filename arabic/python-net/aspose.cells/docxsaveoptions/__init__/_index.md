@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/docxsaveoptions/__init__/
 is_root: false
 ---
 ##  DocxSaveOptions() {#}
-يمثل خيارات حفظ ملف docx.
+يمثل خيارات حفظ ملفات .docx.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  DocxSaveOptions(save_as_image) {#bool}
-يمثل خيارات حفظ ملف docx.
+يمثل خيارات حفظ ملفات .docx.
 
 
 
@@ -31,9 +31,9 @@ def __init__(self, save_as_image):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| save_as_image | bool | إذا كانت True ، فسيتم تحويل المصنف إلى بعض صور ملف docx.<br/> إذا كان خطأ ، سيتم تحويل المصنف إلى بعض جداول ملف docx.|
+| save_as_image | bool |إذا كانت True ، فسيتم تحويل المصنف إلى بعض صور ملف docx.<br/> إذا كان خطأ ، سيتم تحويل المصنف إلى بعض جداول ملف docx.|
 
 
 

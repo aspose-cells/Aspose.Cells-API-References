@@ -17,7 +17,7 @@ El tipo TextStrikeType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| SINGLE | Un solo tachado aplicado en el texto.|
+| SINGLE |Un solo tachado aplicado en el texto.|
 | DOUBLE | Un doble tachado aplicado en el texto.|
 | NONE | No se aplica ninguna huelga al texto.|
 

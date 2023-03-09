@@ -18,7 +18,7 @@ def hide_item_detail(self, index, is_hidden_detail):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | l'index du pivotItem dans le pivotField.|
 | is_hidden_detail | bool | si le PivotItem spécifique est masqué|

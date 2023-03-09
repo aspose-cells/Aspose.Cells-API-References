@@ -1,6 +1,6 @@
 ﻿---
 title: set_refers_to方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
@@ -18,7 +18,7 @@ def set_refers_to(self, refers_to, is_r1c1, is_local):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | refers_to | str |参考资料。|
 | is_r1c1 | bool |引用是否为 R1C1 格式。|

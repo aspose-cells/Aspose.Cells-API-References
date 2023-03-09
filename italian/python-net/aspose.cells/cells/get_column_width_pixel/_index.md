@@ -22,7 +22,7 @@ def get_column_width_pixel(self, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | Indice di colonna|
 

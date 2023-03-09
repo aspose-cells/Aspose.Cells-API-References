@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range | str | Räckvidden.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/sv/python-net/aspose.cells/unionrange) | Räckvidden.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | ranges | list | Områdena.|
 

@@ -18,7 +18,7 @@ RenameStrategy türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | EXCEPTION | İstisna atar.|
-| DIGIT | Rakamla adlandırılmıştır. Yinelenen adlar ...1, ...2, vb. olur.|
+| DIGIT | Rakamla adlandırılır.Yinelenen adlar ...1, ...2, vb. olur.|
 | LETTER | Harf ile adlandırılmıştır.. Yinelenen adlar ...A, ...B, vb. olacaktır.|
 
 
@@ -27,7 +27,7 @@ RenameStrategy türü aşağıdaki üyeleri gösterir:
 
 Başlıkları olan verileri işlerken, bazı senaryolar başlıkların tüm sütunlar için yinelenmemesini gerektirir.
 Örneğin, bir veri tablosuna veri aktarılırken ve başlığın veri tablosunun sütun adı olarak alınması isteniyorsa,
-başlığın yinelenen değerleri geçersiz.
+başlığın yinelenen değerleri geçersizdir.
 Bu tür durumlar için kullanıcı bu stratejiyi belirleyerek nasıl davranacağını belirleyebilir.
 
 ###  Ayrıca bakınız

@@ -22,7 +22,7 @@ Il tipo SqlScriptSaveOptions espone i membri seguenti:
 ###  Costruttori
 | Costruttore| Descrizione|
 | :- | :- |
-| [SqlScriptSaveOptions()](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/__init__/#) | Crea opzioni per il salvataggio del file sql.|
+| [SqlScriptSaveOptions()](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/__init__/#) | Crea opzioni per il salvataggio di file sql.|
 
 
 ###  Proprietà
@@ -35,12 +35,12 @@ Il tipo SqlScriptSaveOptions espone i membri seguenti:
 | [merge_areas](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/merge_areas) | Indica se unire le aree di formattazione condizionale e convalida prima di salvare il file.|
 | [create_directory](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/create_directory) | Se true e la directory non esiste, la directory verrà creata automaticamente prima di salvare il file.|
 | [sort_names](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/sort_names) | Indica se ordinare i nomi definiti prima di salvare il file.|
-| [sort_external_names](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/sort_external_names) | Indica se ordinare i nomi definiti esterni prima di salvare il file.|
-| [refresh_chart_cache](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/refresh_chart_cache) |Indica se aggiornare i dati della cache del grafico|
-| [warning_callback](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/warning_callback) | Ottiene o imposta la richiamata di avviso.|
+| [sort_external_names](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esternamente prima di salvare il file.|
+| [refresh_chart_cache](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/refresh_chart_cache) | Indica se aggiornare i dati della cache del grafico|
+| [warning_callback](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/warning_callback) | Ottiene o imposta callback di avviso.|
 | [update_smart_art](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/update_smart_art) | Indica se aggiornare l'impostazione della grafica intelligente.<br/> Il valore predefinito è falso.|
 | [check_if_table_exists](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/check_if_table_exists) | Controlla se il nome della tabella esiste prima della creazione|
-| [column_type_map](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/column_type_map) | Ottiene e imposta la mappa del tipo di colonna per database diversi.|
+| [column_type_map](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/column_type_map) |Ottiene e imposta la mappa dei tipi di colonna per diversi database.|
 | [check_all_data_for_column_type](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/check_all_data_for_column_type) | Controlla tutti i dati per trovare il tipo di dati delle colonne.|
 | [add_blank_line_between_rows](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/add_blank_line_between_rows) | Inserisci una riga vuota tra ogni dato.|
 | [separator](/cells/it/python-net/aspose.cells.saving/sqlscriptsaveoptions/separator) | Ottiene e imposta il separatore di caratteri dello script sql.|

@@ -13,7 +13,7 @@ Gibt an, ob die Zeichenschrift nur dann ersetzt werden soll, wenn die Zellenschr
 
 ###  Bemerkungen
 
-Standard ist falsch. Wir werden zuerst die Standardschriftart von Workbook und PdfSaveOption/system für Zellenschriftart ausprobieren.
+Der Standardwert ist „false“. Wir werden zuerst die Standardschriftart von Workbook und PdfSaveOption/system für die Zellenschriftart ausprobieren.
 ###  Definition:
 ```python
 @property

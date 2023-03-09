@@ -22,7 +22,7 @@ def get_last_data_row(self, column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود.|
 

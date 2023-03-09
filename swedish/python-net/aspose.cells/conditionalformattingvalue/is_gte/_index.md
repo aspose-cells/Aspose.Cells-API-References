@@ -10,7 +10,7 @@ is_root: false
 ##  is_gte fastighet
 
  Skaffa eller sätt flaggan Greater Than Or Equal.
-Använd endast för ikonuppsättningar, avgör om detta tröskelvärde används
+ Använd endast för ikonuppsättningar, avgör om detta tröskelvärde används
  den större än eller lika med operatorn.
 false' indikerar att 'större än' används istället för 'större än eller lika med'.
 Standardvärdet är sant.

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type propriété
 
-Obtient les PivotFields type.
+Obtient les champs Pivot type.
 ###  Définition:
 ```python
 @property

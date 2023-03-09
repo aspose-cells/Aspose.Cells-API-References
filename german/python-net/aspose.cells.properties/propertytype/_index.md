@@ -18,7 +18,7 @@ Der Typ PropertyType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | BOOLEAN | Die Eigenschaft ist ein boolescher Wert.|
-| DATE_TIME |Die Eigenschaft ist ein Datum-Uhrzeit-Wert.|
+| DATE_TIME | Die Eigenschaft ist ein Datum-Uhrzeit-Wert.|
 | DOUBLE | Die Eigenschaft ist eine Gleitkommazahl.|
 | NUMBER | Die Eigenschaft ist eine ganze Zahl.|
 | STRING | Die Eigenschaft ist ein Zeichenfolgenwert.|

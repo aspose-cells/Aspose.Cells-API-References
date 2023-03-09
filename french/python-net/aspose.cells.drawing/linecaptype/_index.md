@@ -18,8 +18,8 @@ Le type LineCapType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | SQUARE | Le carré dépasse d'une demi-largeur de ligne.|
-| ROUND | Extrémités arrondies.|
-| FLAT | La ligne se termine au point final.|
+| ROUND |Extrémités arrondies.|
+| FLAT | La ligne se termine aux extrémités.|
 | NONE | Aucun plafond|
 
 

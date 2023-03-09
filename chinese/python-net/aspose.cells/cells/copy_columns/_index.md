@@ -1,6 +1,6 @@
 ﻿---
 title: copy_columns方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 160
@@ -18,7 +18,7 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/zh/python-net/aspose.cells/cells) |源 Cells 对象包含要复制的数据和格式。|
 | source_column_index | int |源列索引。|
@@ -37,7 +37,7 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/zh/python-net/aspose.cells/cells) |源 Cells 对象包含要复制的数据和格式。|
 | source_column_index | int |源列索引。|
@@ -57,7 +57,7 @@ def copy_columns(self, source_cells, source_column_index, source_total_columns, 
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/zh/python-net/aspose.cells/cells) |源 Cells 对象包含要复制的数据和格式。|
 | source_column_index | int |源列索引。|

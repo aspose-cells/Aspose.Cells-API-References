@@ -15,7 +15,7 @@ Ana şeklin yüksekliğinin 1/4000'i biriminde, şeklin ana şeklin üst sınır
 
 Yalnızca bu şekil grup veya grafikte olduğunda geçerlidir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

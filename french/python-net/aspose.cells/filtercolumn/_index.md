@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/filtercolumn/
 is_root: false
 ---
 ##  FilterColumn classe
-Représente un filtre pour une seule colonne. L'objet Filter est membre de la collection Filters
+Représente un filtre pour une seule colonne.
 
 
 

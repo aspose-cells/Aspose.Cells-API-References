@@ -18,7 +18,7 @@ def change_template(self, data):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | data | bytes | Data för diagrammallfilen (.crtx).|
 

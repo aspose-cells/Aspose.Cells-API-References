@@ -22,16 +22,16 @@ def add_check_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
-| top | int | Piksel birimi cinsinden, onay kutusunun sol satırından dikey uzaklığını temsil eder.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| top | int |Piksel birimi cinsinden, onay kutusunun sol satırından dikey uzaklığını temsil eder.|
+| upper_left_column | int | Sol üst sütun dizini.|
 | left | int | Metin kutusunun sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
 | height | int | Metin kutusunun piksel birimi cinsinden yüksekliği.|
 | width | int | Metin kutusunun piksel birimi cinsinden genişliği.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -13,7 +13,7 @@ Ottiene e imposta il colore ole del primo piano.
 
 ###  Osservazioni
 
-Non si applica al controllo Immagine.
+Non si applica al controllo dell'immagine.
 ###  Definizione:
 ```python
 @property

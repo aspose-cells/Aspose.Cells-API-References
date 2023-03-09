@@ -22,7 +22,7 @@ def import_data(self, table, first_row, first_column, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | table | [ICellsDataTable](/cells/ar/python-net/aspose.cells/icellsdatatable) | جدول البيانات المخصصة.|
 | first_row | int | فهرس الصف الأول.|

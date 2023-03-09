@@ -23,7 +23,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [value](/cells/ar/python-net/aspose.cells.drawing/shapeguide/value) |الحصول على قيمة هذا الدليل أو تعيينها|
+| [value](/cells/ar/python-net/aspose.cells.drawing/shapeguide/value) | الحصول على أو تعيين قيم هذا الدليل|
 
 
 

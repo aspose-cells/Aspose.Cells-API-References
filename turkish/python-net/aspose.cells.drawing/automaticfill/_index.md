@@ -1,5 +1,5 @@
 ﻿---
-title: AutomaticFill sınıf
+title: AutomaticFill sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /tr/python-net/aspose.cells.drawing/automaticfill/
 is_root: false
 ---
-##  AutomaticFill sınıf
+##  AutomaticFill sınıfı
 otomatik doldurmayı temsil eder.
 
 

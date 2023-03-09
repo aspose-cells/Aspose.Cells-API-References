@@ -18,13 +18,13 @@ def set_background(self, picture_data):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | picture_data | bytes | Resim verileri.|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
-lütfen Worksheet.BackgroundImage özelliğini kullanın.
+NOT: Bu üye artık kullanılmıyor.
+Lütfen Worksheet.BackgroundImage özelliğini kullanın.
  Bu mülk, Ağustos 2016'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 

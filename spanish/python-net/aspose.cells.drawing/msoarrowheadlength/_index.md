@@ -18,7 +18,7 @@ El tipo MsoArrowheadLength expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | SHORT | Longitud final de línea corta|
-| MEDIUM | Longitud de extremo de línea media|
+| MEDIUM |Longitud de extremo de línea media|
 | LONG | Longitud final de línea larga|
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted propiedad
 
-Indica si se eliminan estas etiquetas de datos.
+Indica si esta etiqueta de datos se elimina.
 ###  Definición:
 ```python
 @property

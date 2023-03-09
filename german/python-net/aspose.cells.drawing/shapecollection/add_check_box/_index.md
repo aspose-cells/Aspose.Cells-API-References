@@ -25,13 +25,13 @@ def add_check_box(self, upper_left_row, top, upper_left_column, left, height, wi
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| top | int | Repräsentiert den vertikalen Versatz des Kontrollkästchens von seiner linken Zeile in Pixeleinheiten.|
-| upper_left_column | int |Spaltenindex oben links.|
+| top | int |Repräsentiert den vertikalen Versatz des Kontrollkästchens von seiner linken Zeile in Pixeleinheiten.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Repräsentiert den horizontalen Versatz des Textfelds von seiner linken Spalte in Pixeleinheiten.|
 | height | int | Höhe des Textfelds in Pixeleinheiten.|
 | width | int | Breite des Textfelds in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

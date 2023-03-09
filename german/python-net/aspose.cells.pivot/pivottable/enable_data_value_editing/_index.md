@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_data_value_editing Eigentum
 
-Gibt einen booleschen Wert an, der angibt, ob der Benutzer berechtigt ist, die Zellen im Datenbereich der PivotTable zu bearbeiten.
+Gibt einen booleschen Wert an, der angibt, ob der Benutzer die Zellen im Datenbereich der Pivottable bearbeiten darf.
 Aktivieren Sie die Zellenbearbeitung im Wertebereich
 ###  Definition:
 ```python

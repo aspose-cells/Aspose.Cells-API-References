@@ -1,13 +1,13 @@
 ﻿---
 title: ExportRangeToJsonOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.utility/exportrangetojsonoptions/
 is_root: false
 ---
-##  ExportRangeToJsonOptions类
+## ExportRangeToJsonOptions类
 指示导出范围到 json 的选项。
 
 
@@ -26,7 +26,7 @@ ExportRangeToJsonOptions 类型公开了以下成员：
 | [has_header_row](/cells/zh/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row) |指示范围是否包含标题行。|
 | [export_as_string](/cells/zh/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string) |将单元格的字符串值导出到 json。|
 | [export_empty_cells](/cells/zh/python-net/aspose.cells.utility/exportrangetojsonoptions/export_empty_cells) |指示是否将空单元格导出为 null。|
-| [indent](/cells/zh/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) |表示缩进。|
+| [indent](/cells/zh/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) |表示索引。|
 
 
 

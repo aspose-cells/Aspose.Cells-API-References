@@ -30,10 +30,10 @@ is_root: false
 
 عند حفظ مصنف بواسطة هذا الوضع ، سيتم التحقق من [LightCellsDataProvider.start_sheet(sheet_index)](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/start_sheet) عند حفظ كل ورقة عمل في المصنف.
 بالنسبة للورقة الواحدة ، إذا كانت قيمة [LightCellsDataProvider.start_sheet(sheet_index)](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/start_sheet) صحيحة ، فسيتم حفظ جميع بيانات وخصائص الصفوف / الخلايا في هذه الورقة
-سيتم توفيره من خلال تنفيذ هذه الواجهة. في المقام الأول ، سيتم استدعاء [LightCellsDataProvider.next_row()](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/next_row) للحصول على فهرس الصف التالي ليتم حفظه.
+من خلال تنفيذ هذه الواجهة ، في المقام الأول ، سيتم استدعاء [LightCellsDataProvider.next_row()](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/next_row) للحصول على فهرس الصف التالي ليتم حفظه.
 إذا تم إرجاع فهرس صف صالح (يجب أن يكون فهرس الصف بترتيب تصاعدي حتى يتم حفظ الصفوف) ،
 ثم سيتم توفير كائن صف يمثل هذا الصف للتنفيذ لتعيين خصائصه بواسطة [LightCellsDataProvider.start_row(row)](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/start_row).
-لصف واحد ، سيتم فحص [LightCellsDataProvider.next_cell()](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/next_cell) أولاً. إذا تم إرجاع فهرس عمود صالح (يجب أن يكون فهرس العمود بترتيب تصاعدي لجميع الخلايا في صف واحد ليتم حفظه) ،
+بالنسبة لصف واحد ، سيتم التحقق من [LightCellsDataProvider.next_cell()](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/next_cell) أولاً. إذا تم إرجاع فهرس عمود صالح (يجب أن يكون فهرس العمود بترتيب تصاعدي لجميع الخلايا في صف واحد ليتم حفظه) ،
 ثم سيتم توفير عنصر Cell يمثل هذه الخلية للتنفيذ لتعيين بياناتها وخصائصها بواسطة [LightCellsDataProvider.start_cell(cell)](/cells/ar/python-net/aspose.cells/lightcellsdataprovider/start_cell).
 بعد تعيين بيانات هذه الخلية ، سيتم حفظ هذه الخلية مباشرة في ملف جدول البيانات الذي تم إنشاؤه وسيتم فحص الخلية التالية ومعالجتها.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: DrawObjectEventHandler sınıf
+title: DrawObjectEventHandler sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells.rendering/drawobjecteventhandler/
 is_root: false
 ---
-##  DrawObjectEventHandler sınıf
+##  DrawObjectEventHandler sınıfı
 İşleme sırasında DrawObject ve Bound'u almak için arayüz.
 
 

@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill mülk
 
 Detay göstergelerinin yazdırılıp yazdırılmayacağını belirten bir boole değeri belirtir.
-Pivot tablo üzerinde görüntülendiğinde genişletme/daraltma düğmelerini yazdırın.
+Pivot tabloda görüntülendiğinde genişlet/daralt düğmelerini yazdırın.
 ###  Tanım:
 ```python
 @property

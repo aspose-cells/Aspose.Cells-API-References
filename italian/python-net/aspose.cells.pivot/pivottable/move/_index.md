@@ -18,7 +18,7 @@ def move(self, dest_cell_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | dest_cell_name | str | il nome della cella di destinazione.|
 
@@ -34,7 +34,7 @@ def move(self, row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | indice di riga.|
 | column | int | indice di colonna.|

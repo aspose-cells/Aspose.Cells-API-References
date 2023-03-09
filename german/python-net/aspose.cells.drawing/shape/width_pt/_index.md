@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Breite der Form in Punkteinheiten dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

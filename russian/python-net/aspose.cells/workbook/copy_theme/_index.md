@@ -18,7 +18,7 @@ def copy_theme(self, source):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source | [Workbook](/cells/ru/python-net/aspose.cells/workbook) | Исходная рабочая тетрадь.|
 

@@ -22,7 +22,7 @@ def add_auto_shape_in_chart(self, type, top, left, height, width):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/fr/python-net/aspose.cells.drawing/autoshapetype) | Type de forme automatique.|
 | top | int | Représente le décalage vertical de la zone de texte à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.|

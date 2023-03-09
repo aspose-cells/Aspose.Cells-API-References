@@ -15,7 +15,7 @@ Indique si l'analyse de la formule lors de la lecture du fichier.
 
 S'applique uniquement aux fichiers Excel Xlsx, Xltx, Xltm et Xlsm
 car les formules dans les fichiers sont stockées avec une formule de chaîne.
-REMARQUE : ce membre est désormais obsolète. Au lieu de cela, veuillez utiliser LoadOptions.ParsingFormulaOnOpen.
+REMARQUE : ce membre est désormais obsolète. Utilisez plutôt LoadOptions.ParsingFormulaOnOpen.
  Cette propriété sera supprimée 12 mois plus tard depuis janvier 2020.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

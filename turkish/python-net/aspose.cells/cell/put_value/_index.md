@@ -18,7 +18,7 @@ def put_value(self, bool_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | bool_value | bool |  |
 
@@ -34,7 +34,7 @@ def put_value(self, int_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | int_value | int | Girdi değeri|
 
@@ -50,7 +50,7 @@ def put_value(self, double_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | double_value | float | Girdi değeri|
 
@@ -66,7 +66,7 @@ def put_value(self, string_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | string_value | str | Girdi değeri|
 
@@ -82,7 +82,7 @@ def put_value(self, date_time):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | date_time | DateTime | Girdi değeri|
 
@@ -98,7 +98,7 @@ def put_value(self, object_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | object_value | any | Girdi değeri|
 
@@ -114,7 +114,7 @@ def put_value(self, string_value, is_converted):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | string_value | str | Girdi değeri|
 | is_converted | bool | Doğru: uygunsa diğer veri türüne dönüştürülür.|
@@ -131,7 +131,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | string_value | str | Girdi değeri|
 | is_converted | bool | Doğru: uygunsa diğer veri türüne dönüştürülür.|

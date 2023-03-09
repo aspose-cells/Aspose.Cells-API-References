@@ -1,13 +1,13 @@
 ﻿---
 title: NameCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1080
 url: /zh/python-net/aspose.cells/namecollection/
 is_root: false
 ---
-##  NameCollection类
+## NameCollection类
 表示电子表格中所有 [Name](/cells/zh/python-net/aspose.cells/name) 对象的集合。
 
 

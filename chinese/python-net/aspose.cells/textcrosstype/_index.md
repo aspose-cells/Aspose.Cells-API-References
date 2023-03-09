@@ -1,13 +1,13 @@
 ﻿---
 title: TextCrossType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2540
 url: /zh/python-net/aspose.cells/textcrosstype/
 is_root: false
 ---
-##  TextCrossType枚举
+## TextCrossType枚举
 枚举当文本宽度大于单元格宽度时显示的文本类型。
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hyperlink_base Eigentum
 
-Ruft die hyperlinkbase-Eigenschaft ab oder legt sie fest.
+Ruft die hyperlinkbase-Eigenschaft ab oder legt diese fest.
 ###  Definition:
 ```python
 @property

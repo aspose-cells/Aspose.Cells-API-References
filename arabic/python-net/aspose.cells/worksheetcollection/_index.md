@@ -31,14 +31,14 @@ is_root: false
 | [ole_size](/cells/ar/python-net/aspose.cells/worksheetcollection/ole_size) | الحصول على الحجم المعروض وتعيينه عند استخدام ملف المصنف ككائن Ole.|
 | [external_links](/cells/ar/python-net/aspose.cells/worksheetcollection/external_links) | يمثل ارتباطات خارجية في مصنف.|
 | [table_styles](/cells/ar/python-net/aspose.cells/worksheetcollection/table_styles) | يحصل على كائن [WorksheetCollection.table_styles](/cells/ar/python-net/aspose.cells/worksheetcollection#table_styles).|
-| [revision_logs](/cells/ar/python-net/aspose.cells/worksheetcollection/revision_logs) | يمثل سجلات المراجعة.|
+| [revision_logs](/cells/ar/python-net/aspose.cells/worksheetcollection/revision_logs) |يمثل سجلات المراجعة.|
 | [capacity](/cells/ar/python-net/aspose.cells/worksheetcollection/capacity) | الحصول على أو تحديد عدد العناصر التي يمكن أن تحتويها قائمة الصفيف.|
 
 
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [get(index)](/cells/ar/python-net/aspose.cells/worksheetcollection/get/#int) | أضف API for Python عبر .Net. لأن هذا [الفهرس] غير مدعوم|
+| [get(index)](/cells/ar/python-net/aspose.cells/worksheetcollection/get/#int) |أضف API for Python عبر .Net. لأن هذا [الفهرس] غير مدعوم|
 | [get(sheet_name)](/cells/ar/python-net/aspose.cells/worksheetcollection/get/#str) | أضف API for Python عبر .Net. نظرًا لأن [اسم الورقة] هذا غير مدعوم|
 | [add(type)](/cells/ar/python-net/aspose.cells/worksheetcollection/add/#SheetType) | يضيف ورقة عمل إلى المجموعة.|
 | [add()](/cells/ar/python-net/aspose.cells/worksheetcollection/add/#) | يضيف ورقة عمل إلى المجموعة.|
@@ -50,12 +50,12 @@ is_root: false
 | [get_range_by_name(range_name)](/cells/ar/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str) | يحصل على كائن النطاق باسم محدد مسبقًا.|
 | [get_range_by_name(range_name, current_sheet_index, include_table)](/cells/ar/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str-int-bool) | يحصل على [Range](/cells/ar/python-net/aspose.cells/range) بالاسم المحدد مسبقًا أو اسم الجدول|
 | [copy_to(array)](/cells/ar/python-net/aspose.cells/worksheetcollection/copy_to/#list) | ينسخ قائمة المصفوفات بأكملها إلى قائمة مصفوفة متوافقة أحادية البعد ، بدءًا من بداية قائمة الصفيف الهدف.|
-| [copy_to(index, array, array_index, count)](/cells/ar/python-net/aspose.cells/worksheetcollection/copy_to/#int-list-int-int) | ينسخ نطاقًا من العناصر من قائمة المصفوفة إلى قائمة مصفوفة أحادية البعد متوافقة ، بدءًا من الفهرس المحدد لقائمة الصفيف الهدف.|
+| [copy_to(index, array, array_index, count)](/cells/ar/python-net/aspose.cells/worksheetcollection/copy_to/#int-list-int-int) |ينسخ نطاقًا من العناصر من قائمة المصفوفة إلى قائمة مصفوفة أحادية البعد متوافقة ، بدءًا من الفهرس المحدد لقائمة الصفيف الهدف.|
 | [index_of(item, index)](/cells/ar/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأول ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من الفهرس المحدد إلى العنصر الأخير.|
 | [index_of(item, index, count)](/cells/ar/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int-int) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأول ضمن نطاق العناصر في قائمة الصفيف الذي يبدأ بالفهرس المحدد ويحتوي على عدد محدد من العناصر.|
 | [last_index_of(item)](/cells/ar/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأخير ضمن قائمة الصفيف بأكملها.|
-| [last_index_of(item, index)](/cells/ar/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
-| [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
+| [last_index_of(item, index)](/cells/ar/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
+| [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
 | [create_range(address, sheet_index)](/cells/ar/python-net/aspose.cells/worksheetcollection/create_range/#str-int) | لتكوين عنصر [Range](/cells/ar/python-net/aspose.cells/range) من عنوان النطاق.|
 | [create_union_range(address, sheet_index)](/cells/ar/python-net/aspose.cells/worksheetcollection/create_union_range/#str-int) | لتكوين عنصر [Range](/cells/ar/python-net/aspose.cells/range) من عنوان النطاق.|
 | [get_sheet_by_code_name(code_name)](/cells/ar/python-net/aspose.cells/worksheetcollection/get_sheet_by_code_name/#str) | يحصل على ورقة العمل بالاسم الرمزي.|
@@ -66,12 +66,12 @@ is_root: false
 | [get_named_ranges_and_tables()](/cells/ar/python-net/aspose.cells/worksheetcollection/get_named_ranges_and_tables/#) | يحصل على جميع النطاقات المسماة المحددة مسبقًا في جدول البيانات.|
 | [set_ole_size(start_row, end_row, start_column, end_column)](/cells/ar/python-net/aspose.cells/worksheetcollection/set_ole_size/#int-int-int-int) | يضبط الحجم المعروض عند استخدام ملف المصنف ككائن Ole.|
 | [clear_pivottables()](/cells/ar/python-net/aspose.cells/worksheetcollection/clear_pivottables/#) | مسح الجداول المحورية من جدول البيانات.|
-| [refresh_pivot_tables()](/cells/ar/python-net/aspose.cells/worksheetcollection/refresh_pivot_tables/#) |يحدّث كل جداول PivotTables في WorksheetCollection.|
+| [refresh_pivot_tables()](/cells/ar/python-net/aspose.cells/worksheetcollection/refresh_pivot_tables/#) | يحدّث كل جداول PivotTables في WorksheetCollection.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells/worksheetcollection/binary_search/#Worksheet) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

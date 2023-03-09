@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType dénombrement
-Représente le type de champ de cellule de ods.
+Représente le type de champ de cellule des cotes.
 
 
 

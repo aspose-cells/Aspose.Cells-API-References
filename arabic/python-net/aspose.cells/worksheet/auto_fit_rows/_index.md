@@ -31,9 +31,9 @@ def auto_fit_rows(self, only_auto):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| only_auto | bool | صحيح ، يتم احتواء ارتفاع الصف تلقائيًا فقط عندما لا يتم تخصيص ارتفاع الصف.|
+| only_auto | bool |صحيح ، يتم احتواء ارتفاع الصف تلقائيًا فقط عندما لا يتم تخصيص ارتفاع الصف.|
 
 
 ##  auto_fit_rows(options) {#AutoFitterOptions}
@@ -47,7 +47,7 @@ def auto_fit_rows(self, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/ar/python-net/aspose.cells/autofitteroptions) | خيارات التركيب التلقائي|
 
@@ -63,7 +63,7 @@ def auto_fit_rows(self, start_row, end_row):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية.|
 | end_row | int | فهرس صف النهاية.|
@@ -80,7 +80,7 @@ def auto_fit_rows(self, start_row, end_row, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية.|
 | end_row | int | فهرس صف النهاية.|

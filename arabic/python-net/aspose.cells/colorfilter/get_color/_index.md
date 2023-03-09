@@ -22,7 +22,7 @@ def get_color(self, sheets):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | sheets | [WorksheetCollection](/cells/ar/python-net/aspose.cells/worksheetcollection) |  |
 

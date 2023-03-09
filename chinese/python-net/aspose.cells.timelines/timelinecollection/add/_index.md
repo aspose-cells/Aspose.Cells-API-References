@@ -1,6 +1,6 @@
 ﻿---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -22,11 +22,11 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | dest_cell_name | str |时间轴范围左上角的单元格名称。|
-| base_field_name | str |PivotTable.BaseFields 中 PivotField 的名称|
+| base_field_name | str | PivotTable.BaseFields 中 PivotField 的名称|
 
 ### 例子
 
@@ -53,11 +53,11 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | dest_cell_name | str |时间轴范围左上角的单元格名称。|
-| base_field_index | int | PivotTable.BaseFields 中 PivotField 的索引|
+| base_field_index | int |PivotTable.BaseFields 中 PivotField 的索引|
 
 ### 例子
 
@@ -84,7 +84,7 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | dest_cell_name | str |时间轴范围左上角的单元格名称。|
@@ -115,12 +115,12 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | row | int |时间轴范围左上角单元格的行索引。|
 | column | int |时间轴范围左上角单元格的列索引。|
-| base_field_name | str |PivotTable.BaseFields 中 PivotField 的名称|
+| base_field_name | str | PivotTable.BaseFields 中 PivotField 的名称|
 
 ### 例子
 
@@ -147,12 +147,12 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | row | int |时间轴范围左上角单元格的行索引。|
 | column | int |时间轴范围左上角单元格的列索引。|
-| base_field_index | int | PivotTable.BaseFields 中 PivotField 的索引|
+| base_field_index | int |PivotTable.BaseFields 中 PivotField 的索引|
 
 ### 例子
 
@@ -179,7 +179,7 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | row | int |时间轴范围左上角单元格的行索引。|

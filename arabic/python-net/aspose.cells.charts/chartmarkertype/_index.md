@@ -28,7 +28,7 @@ is_root: false
 | SQUARE_STAR | علامات مربعة بعلامة النجمة.|
 | TRIANGLE | علامات مثلثة.|
 | SQUARE_X | علامات مربعة بعلامة X.|
-| PICTURE | صورة|
+| PICTURE | الصور|
 
 
 

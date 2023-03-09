@@ -31,9 +31,9 @@ def auto_fit_rows(self, only_auto):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| only_auto | bool | Sant, anpassar endast radhöjden automatiskt när radhöjden inte är anpassad.|
+| only_auto | bool |Det är sant att endast radhöjden automatiskt anpassas när radhöjden inte är anpassad.|
 
 
 ##  auto_fit_rows(options) {#AutoFitterOptions}
@@ -47,7 +47,7 @@ def auto_fit_rows(self, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/sv/python-net/aspose.cells/autofitteroptions) | Automonteringsalternativen|
 
@@ -63,7 +63,7 @@ def auto_fit_rows(self, start_row, end_row):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Starta radindex.|
 | end_row | int | Slutradindex.|
@@ -80,7 +80,7 @@ def auto_fit_rows(self, start_row, end_row, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Starta radindex.|
 | end_row | int | Slutradindex.|

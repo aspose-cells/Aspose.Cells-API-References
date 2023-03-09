@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin_inch Eigentum
 
-Stellt die Größe des linken Rands in Zoll dar.
+Stellt die Größe des linken Rands in Zolleinheiten dar.
 ###  Definition:
 ```python
 @property

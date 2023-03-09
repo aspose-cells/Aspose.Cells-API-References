@@ -16,7 +16,7 @@ Obtiene o establece un formula del [Cell](/cells/es/python-net/aspose.cells/cell
  Una cadena formula siempre comienza con un signo igual (=).
 Y utilice siempre la coma (,) como delimitador de parámetros, como "=SUM(A1, E1, H2)".
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

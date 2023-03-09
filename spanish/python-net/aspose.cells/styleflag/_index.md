@@ -35,10 +35,10 @@ El tipo StyleFlag expone los siguientes miembros:
 | [font_size](/cells/es/python-net/aspose.cells/styleflag/font_size) | Se aplicará la configuración de tamaño de fuente.|
 | [font_name](/cells/es/python-net/aspose.cells/styleflag/font_name) | Se aplicará la configuración del nombre de la fuente.|
 | [font_color](/cells/es/python-net/aspose.cells/styleflag/font_color) | Se aplicará la configuración de color de fuente.|
-| [font_bold](/cells/es/python-net/aspose.cells/styleflag/font_bold) |Se aplicará la configuración de fuente en negrita.|
+| [font_bold](/cells/es/python-net/aspose.cells/styleflag/font_bold) | Se aplicará la configuración de fuente en negrita.|
 | [font_italic](/cells/es/python-net/aspose.cells/styleflag/font_italic) | Se aplicará la configuración de fuente en cursiva.|
 | [font_underline](/cells/es/python-net/aspose.cells/styleflag/font_underline) | Se aplicará la configuración de subrayado de fuente.|
-| [font_strike](/cells/es/python-net/aspose.cells/styleflag/font_strike) | Se aplicará la configuración de tachado de fuente.|
+| [font_strike](/cells/es/python-net/aspose.cells/styleflag/font_strike) |Se aplicará la configuración de tachado de fuente.|
 | [font_script](/cells/es/python-net/aspose.cells/styleflag/font_script) | Se aplicará la configuración de script de fuente.|
 | [number_format](/cells/es/python-net/aspose.cells/styleflag/number_format) | Se aplicará la configuración de formato de número.|
 | [alignments](/cells/es/python-net/aspose.cells/styleflag/alignments) | Se aplicará la configuración de alineación.|

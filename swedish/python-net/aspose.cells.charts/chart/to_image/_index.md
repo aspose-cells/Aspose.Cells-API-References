@@ -19,14 +19,14 @@ def to_image(self, image_file):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | image_file | str | Bildfilens namn med fullständig sökväg.|
 ###  Anmärkningar
 
 Bildens format anges med filnamnstillägget.
 Till exempel, om du anger "myfile.png", kommer bilden att sparas
- i formatet PNG. Följande filtillägg känns igen:
+ i formatet PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
@@ -43,7 +43,7 @@ def to_image(self, image_file, image_type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | image_file | str | Bildfilens namn med fullständig sökväg.|
 | image_type | aspose.cells.drawing.ImageType | Bildtypen där bilden ska sparas.|
@@ -67,7 +67,7 @@ def to_image(self, image_file, jpeg_quality):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | image_file | str | Bildfilens namn med fullständig sökväg.|
 | jpeg_quality | int | Jpeg-kvalitet.|
@@ -87,7 +87,7 @@ def to_image(self, stream, jpeg_quality):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Utgångsströmmen.|
 | jpeg_quality | int | Jpeg-kvalitet.|
@@ -107,7 +107,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Utgångsströmmen.|
 | image_type | aspose.cells.drawing.ImageType | Bildtypen där bilden ska sparas.|
@@ -132,7 +132,7 @@ def to_image(self, image_file, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | image_file | str | Bildfilens namn med fullständig sökväg.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Ytterligare bildskapande alternativ|
@@ -140,15 +140,15 @@ def to_image(self, image_file, options):
 
 Bildens format anges med filnamnstillägget.
 Till exempel, om du anger "myfile.png", kommer bilden att sparas
- i formatet PNG. Följande filtillägg känns igen:
+ i formatet PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
 Om bredden eller höjden är noll eller om diagrammet inte stöds enligt listan över stödda diagram, kommer den här metoden inte att göra något.
- Vänligen hänvisa till[Sjökortslista som stöds](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) för mer detaljer.
+ Vänligen hänvisa till[Sjökortslista som stöds](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)för mer detaljer.
 ###  Exempel
 
-Sparar till Tiff med 300 dpi och CCITT4-komprimering.
+Sparar till Tiff med 300dpi och CCITT4-komprimering.
 
 ```python
 from aspose.cells import Workbook
@@ -191,19 +191,19 @@ def to_image(self, stream, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Utgångsströmmen.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Ytterligare bildskapande alternativ|
 ###  Anmärkningar
 
 Typen av bild anges med `options.ImageType`.
-Följande format stöds:
+ Följande format stöds:
 ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 
 Om bredden eller höjden är noll eller om diagrammet inte stöds enligt listan över stödda diagram, kommer den här metoden inte att göra något.
- Vänligen hänvisa till[Sjökortslista som stöds](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) för mer detaljer.
+ Vänligen hänvisa till[Sjökortslista som stöds](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)för mer detaljer.
 
 
 ###  Se även

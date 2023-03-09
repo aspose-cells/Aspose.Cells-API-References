@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  force_full_calculation proprietà
 
-Indica se calcola tutte le formule ogni volta che viene attivato un calcolo.
+Indica se tutte le formule vengono calcolate ogni volta che viene attivato un calcolo.
 
 ###  Osservazioni
 

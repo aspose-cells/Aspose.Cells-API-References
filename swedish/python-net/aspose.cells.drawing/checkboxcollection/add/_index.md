@@ -22,10 +22,10 @@ def add(self, upper_left_row, upper_left_column, height, width):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | height | int | Höjd på kryssrutan, i pixelenhet.|
 | width | int | Bredd på kryssrutan, i pixelenhet.|
 

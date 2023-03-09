@@ -22,10 +22,10 @@ def get_cell_or_null(self, row_offset, column_offset):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_offset | int | Radförskjutning i detta intervall, nollbaserad.|
-| column_offset | int | Kolumnoffset i detta intervall, nollbaserad.|
+| column_offset | int |Kolumnoffset i detta intervall, nollbaserad.|
 
 
 

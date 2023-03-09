@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, çıktı pdf için yüksek çözünürlüklü yazdırma iznini ayarlar.
 

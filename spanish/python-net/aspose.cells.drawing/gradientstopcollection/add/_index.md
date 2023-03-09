@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | position | float | La posición de la parada, en unidad de porcentaje.|
 | color | [CellsColor](/cells/es/python-net/aspose.cells/cellscolor) | El color de la parada.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | position | float | La posición de la parada, en unidad de porcentaje.|
 | color | aspose.pydrawing.Color | El color de la parada.|

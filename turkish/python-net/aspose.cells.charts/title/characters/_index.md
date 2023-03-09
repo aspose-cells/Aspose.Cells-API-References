@@ -30,7 +30,7 @@ Metin içinde characters aralığını temsil eden bir Characters nesnesi dönd�
 
 ###  İadeler
 
-Karakterler nesnesi.
+Karakter nesneleri.
 
 
 ```python
@@ -39,7 +39,7 @@ def characters(self, start_index, length):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_index | int | Karakterin başlangıç dizini.|
 | length | int | Karakter sayısı.|

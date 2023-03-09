@@ -13,8 +13,8 @@ Representa si el usuario puede editar escenarios en una hoja de trabajo protegid
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
- utilice la propiedad Protection.AllowEditingScenario.
+ NOTA: Este miembro ahora está obsoleto.
+ por favor use Protección Permitir editar la propiedad Escenario.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

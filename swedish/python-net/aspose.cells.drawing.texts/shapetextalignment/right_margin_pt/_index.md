@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin_pt fastighet
 
-Returnerar högermarginalen i poängenhet
+Returnerar högermarginalen i enheter av poäng
 
 ###  Exempel
 

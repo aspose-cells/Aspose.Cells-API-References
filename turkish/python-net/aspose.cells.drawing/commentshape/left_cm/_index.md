@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  left_cm mülk
 
-Şeklin sol sütunundan yatay sapmasını santimetre cinsinden temsil eder.
+Şeklin sol sütunundan yatay uzaklığını santimetre cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

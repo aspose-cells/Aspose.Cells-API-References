@@ -18,7 +18,7 @@ def add(self, data_range, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | data_range | str | Spécifie la nouvelle plage de données du graphique sparkline.|
 | row | int | Index de ligne de l'emplacement.|

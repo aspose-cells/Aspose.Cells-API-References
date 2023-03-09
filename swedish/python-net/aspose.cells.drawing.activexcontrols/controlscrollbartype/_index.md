@@ -18,7 +18,7 @@ Typen ControlScrollBarType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | NONE | Visar inga rullningslister.|
-| HORIZONTAL |Visar en horisontell rullningslist.|
+| HORIZONTAL | Visar en horisontell rullningslist.|
 | BARS_VERTICAL | Visar en vertikal rullningslist.|
 | BARS_BOTH | Visar både en horisontell och en vertikal rullningslist.|
 

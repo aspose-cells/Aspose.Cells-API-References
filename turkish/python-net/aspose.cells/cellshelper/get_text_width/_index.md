@@ -22,7 +22,7 @@ def get_text_width(self, text, font, scaling):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | text | str | Metin.|
 | font | [Font](/cells/tr/python-net/aspose.cells/font) | Metnin yazı tipi.|

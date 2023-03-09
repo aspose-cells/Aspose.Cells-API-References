@@ -19,7 +19,7 @@ El tipo ControlMousePointerType expone los siguientes miembros:
 | :- | :- |
 | DEFAULT | Puntero estándar.|
 | ARROW | Flecha.|
-| CROSS |Puntero de cruz.|
+| CROSS | Puntero de cruz.|
 | I_BEAM | Yo emito.|
 | SIZE_NESW | Flecha doble que apunta al noreste y al suroeste.|
 | SIZE_NS | Flecha doble que apunta al norte y al sur.|
@@ -30,7 +30,7 @@ El tipo ControlMousePointerType expone los siguientes miembros:
 | NO_DROP | Símbolo "No" (círculo con una línea diagonal) encima del objeto que se está arrastrando.|
 | APP_STARTING | Flecha con reloj de arena.|
 | HELP | Flecha con un signo de interrogación.|
-| SIZE_ALL | Cursor de "tamaño total" (flechas que apuntan al norte, sur, este y oeste).|
+| SIZE_ALL |Cursor de "tamaño total" (flechas que apuntan al norte, sur, este y oeste).|
 | CUSTOM | Utiliza el icono especificado por la propiedad MouseIcon.|
 
 

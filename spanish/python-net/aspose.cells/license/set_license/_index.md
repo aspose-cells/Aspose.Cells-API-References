@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/license/set_license/
 is_root: false
 ---
 ##  set_license(license_name) {#str}
-Licencia el componente.
+Licencias de los componentes.
 
 
 
@@ -18,12 +18,12 @@ def set_license(self, license_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | license_name | str |  |
 ###  Observaciones
 
-Intenta encontrar la licencia en las siguientes ubicaciones:
+Intente encontrar la licencia en las siguientes ubicaciones:
 
 
 1. Camino explícito.
@@ -38,17 +38,17 @@ Intenta encontrar la licencia en las siguientes ubicaciones:
 4. La carpeta que contiene el ensamblado de entrada (inicio).
 
 
-5. Un recurso incrustado en el ensamblado de llamadas del cliente.
+5. Un recurso incrustado en el ensamblado de llamada del cliente.
 
 
-**Nota:** En .NET Compact Framework, intenta encontrar la licencia solo en estas ubicaciones:
+**Notas:** En .NET Compact Framework, intenta encontrar la licencia solo en estas ubicaciones:
 
 
 1. Camino explícito.
 
 
 2. Un recurso incrustado en el ensamblado de llamada del cliente.
-###  Ejemplo
+###  Ejemplos
 
 
 En este ejemplo, se intentará encontrar un archivo de licencia llamado MyLicense.lic
@@ -70,7 +70,7 @@ Utilice una cadena vacía para cambiar al modo de evaluación.
 
 
 ##  set_license(stream) {#io.RawIOBase}
-Licencia el componente.
+Licencias de los componentes.
 
 
 
@@ -80,13 +80,13 @@ def set_license(self, stream):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | Un flujo que contiene la licencia.|
 ###  Observaciones
 
-Utilice este método para cargar una licencia desde una secuencia.
-###  Ejemplo
+Utilice este método para cargar una licencia desde una transmisión.
+###  Ejemplos
 
 
 ```python

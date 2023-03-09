@@ -22,7 +22,7 @@ def add_project_refrernce(self, name, absolute_libid, relative_libid):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم المرجع.|
 | absolute_libid | str | معرّف مشروع VBA المشار إليه بمسار مطلق.|

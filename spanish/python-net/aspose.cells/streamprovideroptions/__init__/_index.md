@@ -31,7 +31,7 @@ def __init__(self, loading_type, default_path):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | loading_type | [ResourceLoadingType](/cells/es/python-net/aspose.cells/resourceloadingtype) | El tipo para cargar el recurso vinculado.|
 | default_path | str | La ruta predeterminada.|

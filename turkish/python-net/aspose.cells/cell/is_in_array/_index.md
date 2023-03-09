@@ -13,7 +13,7 @@ Hücre formülünün bir dizi formülü olup olmadığını gösterir.
 
 ###  Notlar
 
- NOT: Bu sınıf artık kullanılmıyor. Yerine,
+ NOT: Bu sınıf artık kullanılmıyor.
 hücre formülünün bir dizi formülü olup olmadığını kontrol etmek için lütfen Cell.IsArrayFormula'yı kullanın.
 Bu mülk, Mayıs 2018'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

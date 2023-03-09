@@ -18,7 +18,7 @@ def ungroup_columns(self, first_index, last_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_index | int | Grubu çözülecek ilk sütun dizini.|
 | last_index | int | Grubu çözülecek son sütun dizini.|

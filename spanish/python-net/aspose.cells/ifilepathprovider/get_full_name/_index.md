@@ -23,7 +23,7 @@ def get_full_name(self, sheet_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | sheet_name | str | Nombre de la hoja de trabajo|
 

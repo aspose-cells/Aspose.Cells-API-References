@@ -13,7 +13,7 @@ Agrega una imagen al gráfico.
 
 ###  Devoluciones
 
-Devuelve un objeto Imagen.
+Devuelve un objeto de imagen.
 
 
 ```python
@@ -22,9 +22,9 @@ def add_picture_in_chart(self, top, left, stream, width_scale, height_scale):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| top | int | Representa el desplazamiento vertical de la forma desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.|
+| top | int |Representa el desplazamiento vertical de la forma desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.|
 | left | int | Representa el desplazamiento horizontal de la forma desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.|
 | stream | io.RawIOBase | Objeto de flujo que contiene los datos de la imagen.|
 | width_scale | int | Escala del ancho de la imagen, un porcentaje.|

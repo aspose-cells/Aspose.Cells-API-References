@@ -29,12 +29,12 @@ Der Typ PdfBookmarkEntry macht die folgenden Member verfügbar:
 | [destination](/cells/de/python-net/aspose.cells.rendering/pdfbookmarkentry/destination) | Die Zelle, auf die das Lesezeichen verweist.|
 | [destination_name](/cells/de/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name) | Ruft den Namen des Ziels ab oder legt ihn fest.|
 | [sub_entry](/cells/de/python-net/aspose.cells.rendering/pdfbookmarkentry/sub_entry) | Untereintrag eines Lesezeichens.|
-| [is_open](/cells/de/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) | Wenn diese Eigenschaft wahr ist, wird die Lesezeichenliste erweitert, andernfalls wird sie zusammenbrechen.|
+| [is_open](/cells/de/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) |Wenn diese Eigenschaft wahr ist, wird die Lesezeichenliste erweitert, andernfalls wird sie zusammenbrechen.|
 | [is_collapse](/cells/de/python-net/aspose.cells.rendering/pdfbookmarkentry/is_collapse) | Wenn diese Eigenschaft wahr ist, wird die Lesezeichenliste reduziert, andernfalls wird sie erweitert.|
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

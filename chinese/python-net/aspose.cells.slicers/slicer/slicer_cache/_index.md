@@ -1,6 +1,6 @@
 ﻿---
 title: slicer_cache 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 240
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## slicer_cache 属性
 
-返回与切片器关联的 SlicerCache 对象。只读。
+返回与切片器关联的 SlicerCache 对象。
 
 ### 例子
 

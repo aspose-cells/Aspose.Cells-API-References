@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.pivot/pivottable/add_calculated_field/
 is_root: false
 ---
 ##  add_calculated_field(name, formula) {#str-str}
-Ajoute un champ calculé au champ pivot et faites-le glisser vers la zone de données.
+Ajoute un champ calculé au champ pivot et le fait glisser vers la zone de données.
 
 
 
@@ -18,7 +18,7 @@ def add_calculated_field(self, name, formula):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom du champ calculé|
 | formula | str | La formule du champ calculé.|
@@ -35,7 +35,7 @@ def add_calculated_field(self, name, formula, drag_to_data_area):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom du champ calculé|
 | formula | str | La formule du champ calculé.|

@@ -1,13 +1,13 @@
 ﻿---
 title: FilterType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2060
 url: /zh/python-net/aspose.cells/filtertype/
 is_root: false
 ---
-##  FilterType枚举
+## FilterType枚举
 过滤器类型。
 
 

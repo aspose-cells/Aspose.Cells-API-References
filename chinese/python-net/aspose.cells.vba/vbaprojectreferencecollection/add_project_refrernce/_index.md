@@ -1,6 +1,6 @@
 ﻿---
 title: add_project_refrernce方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -22,7 +22,7 @@ def add_project_refrernce(self, name, absolute_libid, relative_libid):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | name | str |参考名称。|
 | absolute_libid | str |具有绝对路径的引用 VBA 项目标识符。|

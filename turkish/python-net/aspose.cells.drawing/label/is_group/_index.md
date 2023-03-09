@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin bir grup olup olmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

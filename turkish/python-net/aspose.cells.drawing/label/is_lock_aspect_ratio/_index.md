@@ -11,7 +11,7 @@ is_root: false
 
 Doğru, en boy oranında değişiklik yapılmasına izin verilmediği anlamına gelir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

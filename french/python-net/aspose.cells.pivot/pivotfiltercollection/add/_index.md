@@ -22,7 +22,7 @@ def add(self, field_index, type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | field_index | int | l'indice PivotField|
 | type | [PivotFilterType](/cells/fr/python-net/aspose.cells.pivot/pivotfiltertype) | le type de filtre croisé dynamique|

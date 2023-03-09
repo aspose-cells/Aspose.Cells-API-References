@@ -27,7 +27,7 @@ def process_cell(self, cell):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | cell | [Cell](/cells/ru/python-net/aspose.cells/cell) | Cell объект, который обрабатывается в данный момент|
 ###  Примечания

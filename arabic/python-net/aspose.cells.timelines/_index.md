@@ -12,7 +12,7 @@ is_root: false
 ###  الطبقات
 | فصل| وصف|
 | :- | :- |
-| [Timeline](/cells/ar/python-net/aspose.cells.timelines/timeline) | وصف موجز لعرض المخطط الزمني<br/> بسبب MS Excel ، لا يدعم Excel 2003 الجدول الزمني|
+| [Timeline](/cells/ar/python-net/aspose.cells.timelines/timeline) |وصف موجز لعرض المخطط الزمني<br/> بسبب MS Excel ، لا يدعم Excel 2003 الجدول الزمني|
 | [TimelineCollection](/cells/ar/python-net/aspose.cells.timelines/timelinecollection) | يحدد مجموعة كل كائنات المخطط الزمني في ورقة العمل المحددة.<br/> بسبب MS Excel ، لا يدعم Excel 2003 الجدول الزمني.|
 
 

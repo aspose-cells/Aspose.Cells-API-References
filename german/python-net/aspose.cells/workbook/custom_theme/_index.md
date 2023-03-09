@@ -27,7 +27,7 @@ def custom_theme(self, theme_name, colors):
 Die Länge der Farben sollte 12 sein.
 | Array-Index| Thementyp|
 | :- | :- |
-| 0| Hintergrund1|
+| 0| Hintergrund 1|
 | 1| Text 1|
 | 2| Hintergrund2|
 | 3| Text2|

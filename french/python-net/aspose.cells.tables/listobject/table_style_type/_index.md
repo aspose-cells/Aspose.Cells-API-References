@@ -11,7 +11,7 @@ is_root: false
 
 Gets et le style de tableau intégré.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

@@ -22,9 +22,9 @@ def find(self, what, previous_cell):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| what | any | Aranacak nesne.<br/> Tür int,double,DateTime,string,bool olmalıdır.|
+| what | any | Aranacak nesne.<br/> Tür int, double, DateTime, string, bool olmalıdır.|
 | previous_cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Aynı nesneye sahip önceki hücre.<br/> Baştan arama yapılıyorsa bu parametre null olarak ayarlanabilir.|
 ###  Notlar
 
@@ -46,9 +46,9 @@ def find(self, what, previous_cell, find_options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| what | any | Aranacak nesne.<br/> Tür int,double,DateTime,string,bool olmalıdır.|
+| what | any | Aranacak nesne.<br/> Tür int, double, DateTime, string, bool olmalıdır.|
 | previous_cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Aynı nesneye sahip önceki hücre.<br/> Baştan arama yapılıyorsa bu parametre null olarak ayarlanabilir.|
 | find_options | [FindOptions](/cells/tr/python-net/aspose.cells/findoptions) | Seçenekleri bul|
 ###  Notlar

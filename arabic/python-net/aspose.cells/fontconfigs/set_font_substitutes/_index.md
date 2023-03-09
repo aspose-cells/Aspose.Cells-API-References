@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/fontconfigs/set_font_substitutes/
 is_root: false
 ---
 ##  set_font_substitutes(original_font_name, substitute_font_names) {#str-list}
-أسماء الخطوط البديلة لاسم الخط الأصلي المحدد.
+أسماء الخطوط البديلة لأسماء الخطوط الأصلية المحددة.
 
 
 
@@ -18,7 +18,7 @@ def set_font_substitutes(self, original_font_name, substitute_font_names):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | original_font_name | str | اسم الخط الأصلي.|
 | substitute_font_names | list | قائمة بالأسماء البديلة للخطوط التي سيتم استخدامها في حالة عدم تقديم الخط الأصلي.|

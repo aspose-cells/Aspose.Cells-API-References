@@ -1,5 +1,5 @@
 ﻿---
-title: PivotOptions sınıf
+title: PivotOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 210
 url: /tr/python-net/aspose.cells.charts/pivotoptions/
 is_root: false
 ---
-##  PivotOptions sınıf
+##  PivotOptions sınıfı
 Grafikte görünen pivot denetimlerini belirten karmaşık bir türü temsil eder
 
 

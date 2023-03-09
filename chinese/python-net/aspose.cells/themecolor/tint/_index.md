@@ -1,6 +1,6 @@
 ﻿---
 title: tint 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
- tint 值存储为 -1.0 .. 1.0 的双精度值，其中 -1.0 表示 100% 变暗
+ tint 值存储为 -1.0 .. 1.0 的双精度值，其中 -1.0 表示 100% 暗
 1.0 表示 100% 变亮。此外，0.0 表示没有变化。
 ### 定义：
 ```python

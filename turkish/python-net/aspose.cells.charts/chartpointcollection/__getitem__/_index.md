@@ -13,7 +13,7 @@ Dizide belirtilen dizindeki [ChartPoint](/cells/tr/python-net/aspose.cells.chart
 ###  İndeksleyici
 | İsim| Tanım|
 | :- | :- |
-| index | Dizideki grafik noktasının dizini.|
+| index | Dizideki grafik noktalarının dizini.|
 
 
 

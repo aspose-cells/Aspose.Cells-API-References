@@ -22,14 +22,14 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/ru/python-net/aspose.cells/filefontsource/__init__/#str) | Стор.|
+| [FileFontSource(file_path)](/cells/ru/python-net/aspose.cells/filefontsource/__init__/#str) | Директор.|
 
 
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
 | [type](/cells/ru/python-net/aspose.cells/filefontsource/type) | Возвращает тип источника шрифта.|
-| [file_path](/cells/ru/python-net/aspose.cells/filefontsource/file_path) |Путь к файлу шрифта.|
+| [file_path](/cells/ru/python-net/aspose.cells/filefontsource/file_path) | Путь к файлу шрифта.|
 
 
 

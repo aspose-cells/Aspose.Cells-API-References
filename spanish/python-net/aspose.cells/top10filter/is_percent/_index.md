@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_percent propiedad
 
-Indica si los artículos son porcentajes.
+Indica si los elementos son porcentajes.
 ###  Definición:
 ```python
 @property

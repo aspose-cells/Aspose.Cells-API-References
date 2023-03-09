@@ -1,13 +1,13 @@
 ﻿---
 title: SheetPrintingPreview类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 90
 url: /zh/python-net/aspose.cells.rendering/sheetprintingpreview/
 is_root: false
 ---
-##  SheetPrintingPreview类
+## SheetPrintingPreview类
 工作表打印预览。
 
 

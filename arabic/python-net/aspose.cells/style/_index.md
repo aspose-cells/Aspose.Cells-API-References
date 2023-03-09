@@ -27,7 +27,7 @@ is_root: false
 | [background_theme_color](/cells/ar/python-net/aspose.cells/style/background_theme_color) | الحصول على لون سمة الخلفية وتعيينه.|
 | [foreground_theme_color](/cells/ar/python-net/aspose.cells/style/foreground_theme_color) | الحصول على لون المظهر الأمامي وتعيينه.|
 | [name](/cells/ar/python-net/aspose.cells/style/name) | الحصول على اسم النمط أو تحديده.|
-| [pattern](/cells/ar/python-net/aspose.cells/style/pattern) | الحصول على نوع نمط خلفية الخلية أو تعيينه.|
+| [pattern](/cells/ar/python-net/aspose.cells/style/pattern) |الحصول على نوع نمط خلفية الخلية أو تعيينه.|
 | [borders](/cells/ar/python-net/aspose.cells/style/borders) | يحصل على [BorderCollection](/cells/ar/python-net/aspose.cells/bordercollection) من النمط.|
 | [background_color](/cells/ar/python-net/aspose.cells/style/background_color) | الحصول على لون خلفية النمط أو تعيينه.|
 | [background_argb_color](/cells/ar/python-net/aspose.cells/style/background_argb_color) | الحصول على لون الخلفية وتعيينه بقيمة ARGB 32 بت.|
@@ -35,24 +35,24 @@ is_root: false
 | [foreground_argb_color](/cells/ar/python-net/aspose.cells/style/foreground_argb_color) | الحصول على اللون الأمامي وتعيينه بقيمة ARGB 32 بت.|
 | [has_borders](/cells/ar/python-net/aspose.cells/style/has_borders) | للتحقق مما إذا كانت هناك حدود تم تعيينها للنمط.|
 | [parent_style](/cells/ar/python-net/aspose.cells/style/parent_style) | يحصل على النمط الأصل لهذا النمط.|
-| [indent_level](/cells/ar/python-net/aspose.cells/style/indent_level) | يمثل مستوى المسافة البادئة للخلية أو النطاق. يمكن أن يكون عددًا صحيحًا فقط من 0 إلى 250.|
+| [indent_level](/cells/ar/python-net/aspose.cells/style/indent_level) | يمثل مستوى المسافة البادئة للخلية أو النطاق.|
 | [font](/cells/ar/python-net/aspose.cells/style/font) | يحصل على كائن [Style.font](/cells/ar/python-net/aspose.cells/style#font).|
 | [rotation_angle](/cells/ar/python-net/aspose.cells/style/rotation_angle) | يمثل زاوية استدارة النص.|
 | [horizontal_alignment](/cells/ar/python-net/aspose.cells/style/horizontal_alignment) | الحصول على نوع المحاذاة الأفقية للنص في خلية أو تعيينه.|
 | [vertical_alignment](/cells/ar/python-net/aspose.cells/style/vertical_alignment) | الحصول على نوع المحاذاة الرأسية للنص في خلية أو تعيينه.|
 | [is_text_wrapped](/cells/ar/python-net/aspose.cells/style/is_text_wrapped) | الحصول على أو تعيين قيمة تشير إلى ما إذا كان النص داخل الخلية ملتفًا أم لا.|
-| [number](/cells/ar/python-net/aspose.cells/style/number) | الحصول على أو تحديد تنسيق عرض الأرقام والتواريخ. تختلف أنماط التنسيق باختلاف المناطق.|
+| [number](/cells/ar/python-net/aspose.cells/style/number) | الحصول على أو تحديد تنسيق عرض الأرقام والتواريخ.|
 | [is_locked](/cells/ar/python-net/aspose.cells/style/is_locked) |الحصول على أو تعيين قيمة تشير إلى إمكانية تعديل الخلية أم لا.|
-| [custom](/cells/ar/python-net/aspose.cells/style/custom) | يمثل سلسلة تنسيق الأرقام المخصصة لكائن النمط هذا.<br/>إذا لم يتم تعيين تنسيق الأرقام المخصص (على سبيل المثال ، تنسيق الأرقام مدمج) ، فسيتم إرجاع "".|
+| [custom](/cells/ar/python-net/aspose.cells/style/custom) | يمثل سلسلة تنسيق الأرقام المخصصة لكائن النمط هذا.<br/> إذا لم يتم تعيين تنسيق الأرقام المخصص (على سبيل المثال ، تنسيق الأرقام مدمج) ، فسيتم إرجاع "".|
 | [culture_custom](/cells/ar/python-net/aspose.cells/style/culture_custom) | الحصول على سلسلة النمط المعتمدة على الثقافة وتعيينها لتنسيق الأرقام.<br/>إذا لم يتم تعيين تنسيق رقمي لهذا الكائن ، فسيتم إرجاع قيمة خالية.<br/> إذا كان تنسيق الأرقام مدمجًا ، فسيتم إرجاع سلسلة النمط المقابلة للرقم المضمن.|
 | [invariant_custom](/cells/ar/python-net/aspose.cells/style/invariant_custom) | يحصل على سلسلة نمط الثقافة المستقلة لتنسيق الأرقام.<br/>إذا لم يتم تعيين تنسيق رقمي لهذا الكائن ، فسيتم إرجاع قيمة خالية.<br/> إذا كان تنسيق الأرقام مدمجًا ، فسيتم إرجاع سلسلة النمط المقابلة للرقم المضمن.|
 | [is_formula_hidden](/cells/ar/python-net/aspose.cells/style/is_formula_hidden) | يمثل ما إذا كانت الصيغة ستكون مخفية عندما تكون ورقة العمل محمية.|
 | [shrink_to_fit](/cells/ar/python-net/aspose.cells/style/shrink_to_fit) | يمثل حالة تقلص النص تلقائيًا ليلائم عرض العمود المتاح.|
 | [text_direction](/cells/ar/python-net/aspose.cells/style/text_direction) | يمثل ترتيب قراءة النص.|
 | [is_justify_distributed](/cells/ar/python-net/aspose.cells/style/is_justify_distributed) | يشير إلى ما إذا كان يجب استخدام المحاذاة المضبوطة أو الموزعة للخلايا في السطر الأخير من النص.|
-| [quote_prefix](/cells/ar/python-net/aspose.cells/style/quote_prefix) | يشير إلى ما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة.|
+| [quote_prefix](/cells/ar/python-net/aspose.cells/style/quote_prefix) | يشير إلى ما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس واحدة.|
 | [is_gradient](/cells/ar/python-net/aspose.cells/style/is_gradient) | يشير إلى ما إذا كان تظليل الخلية عبارة عن نمط متدرج.|
-| [is_percent](/cells/ar/python-net/aspose.cells/style/is_percent) | يشير إلى ما إذا كان تنسيق الأرقام هو تنسيق النسبة المئوية.|
+| [is_percent](/cells/ar/python-net/aspose.cells/style/is_percent) |يشير إلى ما إذا كان تنسيق الأرقام هو تنسيق النسبة المئوية.|
 | [is_date_time](/cells/ar/python-net/aspose.cells/style/is_date_time) | يشير إلى ما إذا كان تنسيق الأرقام هو تنسيق تاريخ.|
 
 
@@ -73,7 +73,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

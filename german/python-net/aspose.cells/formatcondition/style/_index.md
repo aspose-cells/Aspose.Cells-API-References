@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style Eigentum
 
-Ruft style von bedingt formatierten Zellbereichen ab oder setzt sie.
+Ruft style von bedingt formatierten Zellbereichen ab oder legt diese fest.
 ###  Definition:
 ```python
 @property

@@ -41,7 +41,7 @@ def get_characters(self, flag):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | flag | bool | Hücre tablonun içindeyse hücreye tablo stili uygulanıp uygulanmayacağını gösterir.|
 

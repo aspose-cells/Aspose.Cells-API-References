@@ -1,6 +1,6 @@
 ﻿---
 title: create_union_range方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
@@ -22,7 +22,7 @@ def create_union_range(self, address, sheet_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | address | str |范围的地址。|
 | sheet_index | int |表索引。|

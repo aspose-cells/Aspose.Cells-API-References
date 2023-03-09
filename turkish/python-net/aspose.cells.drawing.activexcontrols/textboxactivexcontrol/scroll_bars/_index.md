@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scroll_bars mülk
 
-Denetimin dikey kaydırma çubuklarına, yatay kaydırma çubuklarına veya her ikisine birden sahip olup olmadığını veya hiçbirine sahip olmadığını belirtir.
+Kontrolün dikey kaydırma çubuklarına, yatay kaydırma çubuklarına veya her ikisine birden sahip olup olmadığını veya hiçbirine sahip olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

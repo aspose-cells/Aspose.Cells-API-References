@@ -11,7 +11,7 @@ is_root: false
 
 Obtient ou définit l'épaisseur de la bordure d'une image en unités de pt.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

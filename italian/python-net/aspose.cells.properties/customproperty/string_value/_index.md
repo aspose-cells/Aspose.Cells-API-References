@@ -13,7 +13,7 @@ Restituisce o imposta il valore della proprietà personalizzata.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
  utilizzare la proprietà CustomProperty.Value.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.

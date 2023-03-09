@@ -22,7 +22,7 @@ def create_union_range(self, address, sheet_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | address | str | Aralığın adresi.|
 | sheet_index | int | Sayfa dizini.|

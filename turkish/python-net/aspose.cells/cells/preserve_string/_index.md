@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preserve_string mülk
 
- Tüm çalışma sayfası değerlerinin dizeler olarak korunup korunmadığını gösteren bir değer alır veya ayarlar.
+ Tüm çalışma sayfası değerlerinin dize olarak korunup korunmadığını gösteren bir değer alır veya ayarlar.
 Varsayılan yanlıştır.
 ###  Tanım:
 ```python

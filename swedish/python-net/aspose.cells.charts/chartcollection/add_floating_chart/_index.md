@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ChartType](/cells/sv/python-net/aspose.cells.charts/charttype) | Diagramtyp|
 | left | int | X förskjutning till hörn|

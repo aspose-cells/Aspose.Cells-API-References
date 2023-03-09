@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  text_shape_type Eigentum
 
-Ruft den Transformationstyp von Text ab und legt ihn fest.
+Ruft den Transformationstyp von Text ab und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import AutoShapeType

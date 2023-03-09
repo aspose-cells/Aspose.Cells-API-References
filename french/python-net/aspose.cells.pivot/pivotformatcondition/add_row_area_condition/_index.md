@@ -18,7 +18,7 @@ def add_row_area_condition(self, field_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | field_name | str | Le nom de PivotField.|
 
@@ -34,9 +34,9 @@ def add_row_area_condition(self, row_field):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| row_field | [PivotField](/cells/fr/python-net/aspose.cells.pivot/pivotfield) | PivotField dans les champs de ligne.|
+| row_field | [PivotField](/cells/fr/python-net/aspose.cells.pivot/pivotfield) |PivotField dans les champs de ligne.|
 
 
 

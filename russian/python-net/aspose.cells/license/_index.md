@@ -23,12 +23,12 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [set_license(license_name)](/cells/ru/python-net/aspose.cells/license/set_license/#str) | Лицензирует компонент.|
-| [set_license(stream)](/cells/ru/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Лицензирует компонент.|
+| [set_license(license_name)](/cells/ru/python-net/aspose.cells/license/set_license/#str) | Лицензирует компоненты.|
+| [set_license(stream)](/cells/ru/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Лицензирует компоненты.|
 
 
 
-###  Пример
+###  Примеры
 
 В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic.
  в папке, содержащей

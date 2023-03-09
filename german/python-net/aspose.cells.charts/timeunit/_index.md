@@ -17,7 +17,7 @@ Der Typ TimeUnit macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| DAYS |Tage|
+| DAYS | Tage|
 | MONTHS | Monate|
 | YEARS | Jahre|
 

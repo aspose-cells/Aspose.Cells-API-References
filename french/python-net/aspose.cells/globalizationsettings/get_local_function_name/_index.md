@@ -13,7 +13,7 @@ Obtient le nom de fonction dépendant des paramètres régionaux en fonction du 
 
 ###  Retour
 
-Nom de fonction dépendant des paramètres régionaux. Les paramètres régionaux ont été spécifiés par le classeur pour lequel ces paramètres sont utilisés.
+Nom de fonction dépendant des paramètres régionaux.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_local_function_name(self, standard_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | standard_name | str | Nom de fonction standard (en-US locale).|
 

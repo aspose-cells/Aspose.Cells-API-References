@@ -18,7 +18,7 @@ def hide_row(self, row):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 

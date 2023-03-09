@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id propiedad
 
-Obtiene el id del proveedor.
+Obtiene la identidad del proveedor.
 ###  Definición:
 ```python
 @property

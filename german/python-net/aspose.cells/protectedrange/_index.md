@@ -17,9 +17,9 @@ Der Typ ProtectedRange macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [name](/cells/de/python-net/aspose.cells/protectedrange/name) | Ruft den Range-Titel ab. Dies wird als Deskriptor verwendet, nicht als benannte Bereichsdefinition.|
-| [cell_area](/cells/de/python-net/aspose.cells/protectedrange/cell_area) | Ruft das [ProtectedRange.cell_area](/cells/de/python-net/aspose.cells/protectedrange#cell_area)-Objekt ab, das den zu schützenden Zellbereich darstellt.|
-| [is_protected_with_password](/cells/de/python-net/aspose.cells/protectedrange/is_protected_with_password) | Gibt an, ob die Arbeitsblätter passwortgeschützt sind.|
+| [name](/cells/de/python-net/aspose.cells/protectedrange/name) | Ruft den Range-Titel ab.|
+| [cell_area](/cells/de/python-net/aspose.cells/protectedrange/cell_area) | Ruft das [ProtectedRange.cell_area](/cells/de/python-net/aspose.cells/protectedrange#cell_area)-Objekt ab, das den zu schützenden Zellenbereich darstellt.|
+| [is_protected_with_password](/cells/de/python-net/aspose.cells/protectedrange/is_protected_with_password) |Gibt an, ob die Arbeitsblätter passwortgeschützt sind.|
 | [password](/cells/de/python-net/aspose.cells/protectedrange/password) | Stellt das Kennwort dar, um den Bereich zu schützen.|
 | [security_descriptor](/cells/de/python-net/aspose.cells/protectedrange/security_descriptor) | Die Sicherheitsbeschreibung definiert Benutzerkonten, die diesen Bereich bearbeiten können, ohne ein Kennwort für den Zugriff auf den Bereich bereitzustellen.|
 

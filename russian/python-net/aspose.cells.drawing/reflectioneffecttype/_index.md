@@ -22,12 +22,12 @@ is_root: false
 | TIGHT_REFLECTION_TOUCHING | Плотное отражение, трогательное.|
 | HALF_REFLECTION_TOUCHING | Полуотражение, прикосновение.|
 | FULL_REFLECTION_TOUCHING | Полное отражение, трогательно.|
-| TIGHT_REFLECTION_4_PT_OFFSET | Плотное отражение, смещение 4 pt.|
-| HALF_REFLECTION_4_PT_OFFSET | Половинное отражение, смещение 4 pt.|
-| FULL_REFLECTION_4_PT_OFFSET | Полное отражение, смещение 4 pt.|
-| TIGHT_REFLECTION_8_PT_OFFSET | Плотное отражение, смещение 8 pt.|
-| HALF_REFLECTION_8_PT_OFFSET | Половинное отражение, смещение 8 pt.|
-| FULL_REFLECTION_8_PT_OFFSET | Полное отражение, смещение 8 pt.|
+| TIGHT_REFLECTION_4_PT_OFFSET | Плотное отражение, смещение 4pt.|
+| HALF_REFLECTION_4_PT_OFFSET | Половинное отражение, смещение 4 точки.|
+| FULL_REFLECTION_4_PT_OFFSET | Полное отражение, смещение 4 точки.|
+| TIGHT_REFLECTION_8_PT_OFFSET | Плотное отражение, смещение 8pt.|
+| HALF_REFLECTION_8_PT_OFFSET | Половинное отражение, смещение 8pt.|
+| FULL_REFLECTION_8_PT_OFFSET |Полное отражение, смещение 8pt.|
 
 
 

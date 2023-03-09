@@ -18,15 +18,15 @@ Il tipo ConnectionDataSourceType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | ODBC_BASED_SOURCE | Origine basata su ODBC|
-| DAO_BASED_SOURCE | Sorgente basata su DAO|
-| FILE_BASED_DATA_BASE_SOURCE | Fonte di database basata su file|
-| WEB_QUERY | Interrogazione web|
-| OLEDB_BASED_SOURCE | Origine basata su OLE DB|
+| DAO_BASED_SOURCE | Fonti basate su DAO|
+| FILE_BASED_DATA_BASE_SOURCE | Origine database basata su file|
+| WEB_QUERY | Query web|
+| OLEDB_BASED_SOURCE | Origini basate su OLE DB|
 | TEXT_BASED_SOURCE | Fonte testuale|
 | ADO_RECORD_SET | Record ADO|
 | DSP | DSP |
 | OLEDB_DATA_MODEL | Origine dati OLE DB creata dal modello di dati del foglio di calcolo.|
-| DATA_FEED_DATA_MODEL | Origine dati del feed di dati creata dal modello di dati del foglio di calcolo.|
+| DATA_FEED_DATA_MODEL |Origine dati del feed di dati creata dal modello di dati del foglio di calcolo.|
 | WORKSHEET_DATA_MODEL | Origine dati del foglio di lavoro creata dal modello di dati del foglio di calcolo.|
 | TABLE | Origine dati del foglio di lavoro creata dal modello di dati del foglio di calcolo.|
 | TEXT_DATA_MODEL | Origine dati di testo creata dal modello di dati del foglio di calcolo.|

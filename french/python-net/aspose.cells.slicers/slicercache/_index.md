@@ -17,15 +17,15 @@ Le type SlicerCache expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [cross_filter_type](/cells/fr/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Renvoie ou définit si un segment participe au filtrage croisé avec d'autres segments<br/> qui partagent le même cache de trancheur et comment le filtrage croisé est affiché. Lire écrire|
-| [list](/cells/fr/python-net/aspose.cells.slicers/slicercache/list) | Renvoie si le segment associé au cache de segment spécifié est basé sur une source de données non OLAP. Lecture seulement|
-| [slicer_cache_items](/cells/fr/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Renvoie une collection SlicerCacheItem qui contient la collection de tous les éléments du cache du segment. Lecture seulement|
+| [cross_filter_type](/cells/fr/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Renvoie ou définit si un segment participe au filtrage croisé avec d'autres segments<br/> qui partagent le même cache de trancheur et comment le filtrage croisé est affiché.|
+| [list](/cells/fr/python-net/aspose.cells.slicers/slicercache/list) | Renvoie si le segment est associé au cache de segment spécifié est basé sur une source de données non OLAP.|
+| [slicer_cache_items](/cells/fr/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Renvoie une collection SlicerCacheItem qui contient la collection de tous les éléments du cache du segment.|
 | [name](/cells/fr/python-net/aspose.cells.slicers/slicercache/name) | Renvoie le nom du cache du segment.|
 | [source_name](/cells/fr/python-net/aspose.cells.slicers/slicercache/source_name) | Renvoie le nom du champ de cache|
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

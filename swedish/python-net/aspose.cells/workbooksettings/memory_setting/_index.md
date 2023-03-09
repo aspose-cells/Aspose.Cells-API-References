@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting fastighet
 
-Hämtar eller ställer in alternativen för minnesanvändning. Det nya alternativet kommer att tas som standardalternativ för nyskapade kalkylblad men träder inte i kraft för befintliga kalkylblad.
+Hämtar eller ställer in minnesanvändningsalternativ. Det nya alternativet kommer att tas som standardalternativ för nyskapade kalkylblad men träder inte i kraft för befintliga kalkylblad.
 ###  Definition:
 ```python
 @property

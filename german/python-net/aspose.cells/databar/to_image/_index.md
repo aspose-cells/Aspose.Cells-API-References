@@ -25,7 +25,7 @@ def to_image(self, cell, img_opts):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | cell | [Cell](/cells/de/python-net/aspose.cells/cell) | Geben Sie die Datenleiste an, in der die Zelle gerendert werden soll|
-| img_opts | aspose.cells.rendering.ImageOrPrintOptions |ImageOrPrintOptions enthält einige Eigenschaften des Ausgabebildes|
+| img_opts | aspose.cells.rendering.ImageOrPrintOptions | ImageOrPrintOptions enthält einige Eigenschaften des Ausgabebildes|
 
 
 

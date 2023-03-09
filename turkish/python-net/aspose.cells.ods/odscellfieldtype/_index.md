@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType numaralandırma
-ods hücre alanı tipini temsil eder.
+Oranların hücre alanı tipini temsil eder.
 
 
 

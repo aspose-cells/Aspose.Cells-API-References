@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range | str | La gamma.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/it/python-net/aspose.cells/unionrange) | La gamma.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | ranges | list | Le gamme.|
 

@@ -22,17 +22,17 @@ def add_active_x_control(self, type, top_row, top, left_column, left, width, hei
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | aspose.cells.drawing.activexcontrols.ControlType | Il tipo di controllo.|
 | top_row | int | Indice della riga in alto a sinistra.|
 | top | int | Rappresenta l'offset verticale di Shape dalla riga sinistra, in unità di pixel.|
-| left_column | int |Indice colonna in alto a sinistra.|
+| left_column | int | Indice colonna in alto a sinistra.|
 | left | int | Rappresenta l'offset orizzontale di Shape dalla colonna di sinistra, in unità di pixel.|
 | width | int | Rappresenta la larghezza di Shape, in unità di pixel.|
 | height | int | Rappresenta l'altezza di Shape, in unità di pixel.|
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells.drawing.activexcontrols import ControlType

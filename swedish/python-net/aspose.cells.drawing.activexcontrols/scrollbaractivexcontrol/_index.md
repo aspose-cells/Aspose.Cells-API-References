@@ -26,10 +26,10 @@ Typen ScrollBarActiveXControl avslöjar följande medlemmar:
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/workbook) | Hämtar objektet [ActiveXControlBase.workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/type) | Hämtar typen av ActiveX-kontroll.|
-| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/width) | Hämtar och ställer in kontrollens bredd i poängenhet.|
-| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenhet.|
+| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/width) |Får och ställer in kontrollens bredd i poängenheter.|
+| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenheter.|
 | [mouse_icon](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/mouse_icon) | Hämtar och ställer in en anpassad ikon som ska visas som muspekare för kontrollen.|
-| [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/mouse_pointer) |Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
+| [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/mouse_pointer) | Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
 | [fore_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/fore_ole_color) | Får och ställer in olefärgen på förgrunden.|
 | [back_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/back_ole_color) | Hämtar och ställer in ole-färgen på bakgrunden.|
 | [is_visible](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_visible) | Indikerar om denna kontroll är synlig.|
@@ -39,13 +39,13 @@ Typen ScrollBarActiveXControl avslöjar följande medlemmar:
 | [data](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/data) | Hämtar och ställer in kontrollens binära data.|
 | [is_enabled](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_enabled) | Indikerar om kontrollen kan ta emot fokus och svara på användargenererade händelser.|
 | [is_locked](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_locked) | Indikerar om data i kontrollen är låst för redigering.|
-| [is_transparent](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_transparent) |Indikerar om kontrollen är transparent.|
+| [is_transparent](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_transparent) | Indikerar om kontrollen är transparent.|
 | [is_auto_size](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_auto_size) | Indikerar om kontrollen automatiskt kommer att ändra storlek för att visa hela innehållet.|
-| [ime_mode](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/ime_mode) | Hämtar och ställer in standardkörtidsläget för Input Method Editor för kontrollen när den tar emot fokus.|
+| [ime_mode](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/ime_mode) |Hämtar och ställer in standardkörtidsläget för Input Method Editor för kontrollen när den tar emot fokus.|
 | [font](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/font) | Representerar kontrollens teckensnitt.|
 | [text_align](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/text_align) | Representerar hur man justerar texten som används av kontrollen.|
 | [min](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/min) | Får och ställer in det lägsta acceptabla värdet.|
-| [max](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/max) |Får och ställer in det högsta acceptabla värdet.|
+| [max](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/max) | Får och ställer in det högsta acceptabla värdet.|
 | [position](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/position) | Får och ställer in värdet.|
 | [small_change](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/small_change) | Hämtar och ställer in det belopp med vilket positionsegenskapen ändras|
 | [orientation](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/orientation) | Hämtar och ställer in om SpinButton eller ScrollBar är orienterad vertikalt eller horisontellt.|

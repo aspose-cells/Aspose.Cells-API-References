@@ -11,7 +11,7 @@ is_root: false
 
 Représente les lignes contenant les cellules à répéter en haut de chaque page.
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [data](/cells/ar/python-net/aspose.cells.markup/customxmlpart/data) | الحصول على محتوى XML الخاص بجزء تخزين بيانات XML المخصص هذا أو تعيينه.|
 | [schema_data](/cells/ar/python-net/aspose.cells.markup/customxmlpart/schema_data) | الحصول على أو تعيين محتوى XML لجزء تخزين بيانات مخطط XML المخصص هذا.|
-| [id](/cells/ar/python-net/aspose.cells.markup/customxmlpart/id) | الحصول على معرف جزء xml المخصص وتعيينه.|
+| [id](/cells/ar/python-net/aspose.cells.markup/customxmlpart/id) |الحصول على معرف جزء xml المخصص وتعيينه.|
 
 
 

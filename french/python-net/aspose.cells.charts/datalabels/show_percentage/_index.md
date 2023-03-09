@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_percentage propriété
 
-Représente le comportement d'affichage de la valeur en pourcentage de l'étiquette de données d'un graphique spécifié. True affiche la valeur en pourcentage. Faux pour cacher.
+Représente le comportement d'affichage de la valeur en pourcentage de l'étiquette de données d'un graphique spécifié. True affiche la valeur en pourcentage. False pour masquer.
 ###  Définition:
 ```python
 @property

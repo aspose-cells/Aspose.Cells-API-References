@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/iwarningcallback/
 is_root: false
 ---
 ##  IWarningCallback klass
-Återuppringningsgränssnitt för varning.
+Callback gränssnitt för varning.
 
 
 

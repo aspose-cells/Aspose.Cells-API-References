@@ -9,10 +9,10 @@ is_root: false
 ---
 ##  style_type proprietà
 
-Specificare il tipo di stile affettatrice integrato
+Specificare il tipo di stile affettatrice incorporato
 il tipo predefinito è SlicerStyleLight1
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

@@ -11,7 +11,7 @@ is_root: false
 
 Especifica el tipo de línea compuesta.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import MsoLineStyle

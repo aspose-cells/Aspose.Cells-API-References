@@ -13,7 +13,7 @@ Hämtar eller ställer in ExportObjectListener för export av objekt.
 
 ###  Anmärkningar
 
- OBS: Den här egenskapen är nu föråldrad. Istället,
+ OBS: Den här egenskapen är nu föråldrad.
 använd egenskapen HtmlSaveOptions.IStreamProvider.
  Den här egenskapen kommer att tas bort 12 månader senare sedan augusti 2015.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

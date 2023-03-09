@@ -17,13 +17,13 @@ SheetType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| VB | Visual Basic modülü|
+| VB | Visual Basic modülleri|
 | WORKSHEET |  |
-| CHART | Çizelge|
+| CHART | çizelge|
 | BIFF4_MACRO | BIFF4 Makro sayfası|
-| INTERNATIONAL_MACRO | Uluslararası Makro sayfası|
+| INTERNATIONAL_MACRO | Uluslararası makro sayfası|
 | OTHER |  |
-| DIALOG | Diyalog çalışma sayfası|
+| DIALOG |Diyalog çalışma sayfası|
 
 
 

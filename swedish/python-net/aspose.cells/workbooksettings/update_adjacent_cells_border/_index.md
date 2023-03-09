@@ -14,7 +14,7 @@ Indikerar om uppdatering av angränsande cellers kantlinje.
 ###  Anmärkningar
 
 Standardvärdet är falskt.
-Till exempel: den nedre kanten av cell A1 är uppdatering,
+ Till exempel: den nedre kanten av cellen A1 uppdateras,
 den övre kanten av cell A2 bör också ändras.
 ###  Definition:
 ```python

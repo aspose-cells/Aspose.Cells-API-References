@@ -13,7 +13,7 @@ is_root: false
 | Klasse| Beschreibung|
 | :- | :- |
 | [ExportRangeToJsonOptions](/cells/de/python-net/aspose.cells.utility/exportrangetojsonoptions) | Gibt die Optionen an, die beim Exportieren in json reichen.|
-| [JsonLayoutOptions](/cells/de/python-net/aspose.cells.utility/jsonlayoutoptions) |Stellt die Optionen des json-Layouttyps dar.|
+| [JsonLayoutOptions](/cells/de/python-net/aspose.cells.utility/jsonlayoutoptions) | Stellt die Optionen des json-Layouttyps dar.|
 | [JsonUtility](/cells/de/python-net/aspose.cells.utility/jsonutility) | Stellt die Hilfsklasse der Verarbeitung von JSON dar.|
 
 

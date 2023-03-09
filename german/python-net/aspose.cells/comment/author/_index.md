@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Namen des Originalkommentars author ab und legt ihn fest
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

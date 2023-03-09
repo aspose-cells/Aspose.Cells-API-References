@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/pagesetup/clear_header_footer/
 is_root: false
 ---
 ##  clear_header_footer() {#}
-يمسح إعداد الرأس والتذييل.
+يمسح إعدادات الرأس والتذييل.
 
 
 

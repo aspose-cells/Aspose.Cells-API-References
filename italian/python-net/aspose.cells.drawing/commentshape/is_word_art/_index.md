@@ -15,7 +15,7 @@ Indica se questa forma è una word art.
 
 Solo per la forma legacy del file xls.
 
-###  Esempio
+###  Esempi
 
 ```python
 

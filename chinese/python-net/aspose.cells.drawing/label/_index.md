@@ -1,13 +1,13 @@
 ﻿---
 title: Label类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 280
 url: /zh/python-net/aspose.cells.drawing/label/
 is_root: false
 ---
-##  Label类
+## Label类
 封装代表电子表格中标签的对象。
 
 

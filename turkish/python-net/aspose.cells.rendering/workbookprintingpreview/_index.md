@@ -1,5 +1,5 @@
 ﻿---
-title: WorkbookPrintingPreview sınıf
+title: WorkbookPrintingPreview sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 120
 url: /tr/python-net/aspose.cells.rendering/workbookprintingpreview/
 is_root: false
 ---
-##  WorkbookPrintingPreview sınıf
+##  WorkbookPrintingPreview sınıfı
 Çalışma kitabı yazdırma önizlemesi.
 
 

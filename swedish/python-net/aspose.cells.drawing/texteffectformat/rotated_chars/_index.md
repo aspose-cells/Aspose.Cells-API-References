@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rotated_chars fastighet
 
-Om det är sant, roteras tecken i den angivna WordArt 90 grader i förhållande till WordArts avgränsande form.
+Om det är sant roteras tecknen i den angivna WordArt 90 grader i förhållande till WordArts begränsningsform.
 ###  Definition:
 ```python
 @property

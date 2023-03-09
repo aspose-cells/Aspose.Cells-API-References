@@ -14,7 +14,7 @@ False anger att storleken ska avgöra storleken på tomtområdet, bockarna och a
 
 ###  Anmärkningar
 
-Endast för Xlsx-fil.
+Endast för Xlsx-filer.
 ###  Definition:
 ```python
 @property

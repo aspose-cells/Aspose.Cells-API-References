@@ -1,5 +1,5 @@
 ﻿---
-title: CharacterBulletValue sınıf
+title: CharacterBulletValue sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 40
 url: /tr/python-net/aspose.cells.drawing.texts/characterbulletvalue/
 is_root: false
 ---
-##  CharacterBulletValue sınıf
+##  CharacterBulletValue sınıfı
 Karakter mermisini temsil eder.
 
 

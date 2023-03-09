@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value mülk
 
-Aralığın değerlerini alır ve ayarlar.
+Aralık değerlerini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

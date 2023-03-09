@@ -1,5 +1,5 @@
 ﻿---
-title: FileFormatInfo sınıf
+title: FileFormatInfo sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 590
 url: /tr/python-net/aspose.cells/fileformatinfo/
 is_root: false
 ---
-##  FileFormatInfo sınıf
+##  FileFormatInfo sınıfı
 [FileFormatUtil](/cells/tr/python-net/aspose.cells/fileformatutil) dosya biçimi algılama yöntemleri tarafından döndürülen verileri içerir.
 
 

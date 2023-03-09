@@ -15,7 +15,7 @@ Obtient ou définit le décalage horizontal de la forme par rapport à sa colonn
 
 La plage de valeurs est de 0 à 1024.
 
-###  Exemple
+###  Exemples
 
 ```python
 

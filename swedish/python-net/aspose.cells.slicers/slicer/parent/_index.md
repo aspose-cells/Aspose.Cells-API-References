@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  parent fastighet
 
-Returnerar kalkylbladsobjektet som representerar arket som innehåller utsnittet. Skrivskyddad.
+Returnerar kalkylbladsobjektet som representerar arket som innehåller utsnittet.
 
 ###  Exempel
 

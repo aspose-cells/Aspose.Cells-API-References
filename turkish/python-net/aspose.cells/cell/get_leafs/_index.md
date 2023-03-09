@@ -24,7 +24,7 @@ def get_leafs(self):
 
 ###  Notlar
 
-NOT: Bu sınıf artık kullanılmıyor. Yerine,
+NOT: Bu sınıf artık kullanılmıyor.
 hesaplama zincirindeki tüm bağımlıları almak için lütfen Cell.GetDependentsInCalculation(bool) kullanın.
 Bu mülk, Mayıs 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
@@ -44,12 +44,12 @@ def get_leafs(self, recursive):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | recursive | bool | Doğrudan bu hücreye referans vermeyen yaprakları döndürür.<br/> ancak bu hücrenin diğer yapraklarına referans|
 ###  Notlar
 
-NOT: Bu sınıf artık kullanılmıyor. Yerine,
+NOT: Bu sınıf artık kullanılmıyor.
 hesaplama zincirindeki tüm bağımlıları almak için lütfen Cell.GetDependentsInCalculation(bool) kullanın.
 Bu mülk, Mayıs 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

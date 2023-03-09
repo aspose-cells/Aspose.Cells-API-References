@@ -22,7 +22,7 @@ def get_last_data_row(self, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column | int | Indice de colonne.|
 

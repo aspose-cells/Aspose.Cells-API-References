@@ -15,7 +15,7 @@ Cell.PutValue(string) gibi 32K'dan uzun bir değer girdiğinizde, bu özellik do
 Bu özellik yanlışsa, giriş dizesi değerinizi hücrenin değeri olarak kabul edeceğiz, böylece daha sonra
 CSV gibi diğer dosya formatları için tam dizi değerinin çıktısını alabilirsiniz.
 Ancak excel dosya formatı için geçersiz olan bir değer belirlediyseniz,
-çalışma kitabını daha sonra excel dosya formatında kaydetmemelisiniz. Aksi halde oluşturulan excel dosyasında beklenmeyen bir hata olabilir.
+çalışma kitabını daha sonra excel dosya formatında kaydetmemelisiniz.
 ###  Tanım:
 ```python
 @property

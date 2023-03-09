@@ -22,7 +22,7 @@ Typen OLEDBCommandType avslöjar följande medlemmar:
 | SQL_STATEMENT | Anger en SQL-sats|
 | TABLE_NAME | Anger ett tabellnamn|
 | DEFAULT_INFORMATION | Anger att standardinformation har getts, och det är upp till leverantören hur man tolkar.|
-| WEB_BASED_LIST | Anger en fråga som är mot en webbaserad listdataleverantör.|
+| WEB_BASED_LIST |Anger en fråga som är mot en webbaserad listdataleverantör.|
 
 
 

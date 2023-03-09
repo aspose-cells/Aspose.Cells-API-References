@@ -18,7 +18,7 @@ def copy(self, source, copy_options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source | [PageSetup](/cells/ru/python-net/aspose.cells/pagesetup) | Источник.|
 | copy_options | [CopyOptions](/cells/ru/python-net/aspose.cells/copyoptions) | Варианты копирования.|

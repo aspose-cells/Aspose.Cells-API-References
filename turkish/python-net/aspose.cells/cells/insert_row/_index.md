@@ -18,7 +18,7 @@ def insert_row(self, row_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int | Satır dizini.|
 

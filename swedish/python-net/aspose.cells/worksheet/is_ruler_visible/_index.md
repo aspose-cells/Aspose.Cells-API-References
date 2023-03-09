@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible fastighet
 
-Indikerar om linjalen är synlig. Den här egenskapen används endast för förhandsgranskning av sidbrytningar.
+Indikerar om linjalen är synlig.
 ###  Definition:
 ```python
 @property

@@ -29,9 +29,9 @@ Il tipo DataLabelShapeType espone i membri seguenti:
 | WEDGE_ELLIPSE_CALLOUT | Rappresenta la forma di richiamo dell'ellisse a cuneo.|
 | LINE_CALLOUT | Rappresenta la forma del richiamo della linea.|
 | BENT_LINE_CALLOUT | Rappresenta la forma del richiamo della linea piegata.|
-| LINE_WITH_ACCENT_BAR_CALLOUT | Rappresenta la linea con la forma del richiamo della barra di accento.|
+| LINE_WITH_ACCENT_BAR_CALLOUT |Rappresenta la linea con la forma del richiamo della barra di accento.|
 | BENT_LINE_WITH_ACCENT_BAR_CALLOUT | Rappresenta la linea piegata con la forma del richiamo della barra di accento.|
-| LINE |Questo tipo viene utilizzato solo per l'elaborazione di file speciali|
+| LINE | Questo tipo viene utilizzato solo per l'elaborazione di file speciali|
 
 
 

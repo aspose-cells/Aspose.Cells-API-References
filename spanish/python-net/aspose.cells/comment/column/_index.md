@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene el índice column del comentario.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

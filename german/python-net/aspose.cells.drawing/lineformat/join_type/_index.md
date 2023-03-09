@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den Linienverbindungstyp an.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import LineJoinType

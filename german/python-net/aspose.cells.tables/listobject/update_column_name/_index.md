@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.tables/listobject/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-Aktualisiert den Namen aller Listenspalten aus dem Arbeitsblatt.
+Aktualisiert die Namen aller Listenspalten aus dem Arbeitsblatt.
 
 
 

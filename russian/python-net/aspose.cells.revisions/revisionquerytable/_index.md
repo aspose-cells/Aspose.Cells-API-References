@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.revisions/revisionquerytable/
 is_root: false
 ---
 ##  RevisionQueryTable класс
-Представляет ревизию изменения поля таблицы запроса.
+Представляет ревизию изменения поля таблицы запросов.
 
 
 
@@ -26,7 +26,7 @@ is_root: false
 | [worksheet](/cells/ru/python-net/aspose.cells.revisions/revisionquerytable/worksheet) | Получает рабочий лист.|
 | [id](/cells/ru/python-net/aspose.cells.revisions/revisionquerytable/id) | Получает номер этой версии.|
 | [cell_area](/cells/ru/python-net/aspose.cells.revisions/revisionquerytable/cell_area) | Получает расположение затронутой таблицы запросов.|
-| [field_id](/cells/ru/python-net/aspose.cells.revisions/revisionquerytable/field_id) | Получает идентификатор определенного поля таблицы запросов, которое было удалено.|
+| [field_id](/cells/ru/python-net/aspose.cells.revisions/revisionquerytable/field_id) | Получает идентификатор определенного поля таблицы запроса, которое было удалено.|
 
 
 

@@ -22,16 +22,16 @@ def add_oval(self, upper_left_row, top, upper_left_column, left, height, width):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | Oval'in sol satırından dikey uzaklığını piksel birimi cinsinden temsil eder.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| upper_left_column | int | Sol üst sütun dizini.|
 | left | int | Oval'in sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
 | height | int | Oval'in piksel birimi cinsinden yüksekliğini temsil eder.|
 | width | int | Oval'in genişliğini piksel birimi cinsinden temsil eder.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

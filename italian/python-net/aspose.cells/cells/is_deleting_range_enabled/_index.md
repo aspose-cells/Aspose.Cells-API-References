@@ -22,10 +22,10 @@ def is_deleting_range_enabled(self, start_row, start_column, total_rows, total_c
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | L'indice di riga iniziale dell'intervallo.|
-| start_column | int | L'indice di colonna iniziale dell'intervallo.|
+| start_column | int |L'indice di colonna iniziale dell'intervallo.|
 | total_rows | int | Il numero di righe nell'intervallo.|
 | total_columns | int | Il numero delle colonne nell'intervallo.|
 

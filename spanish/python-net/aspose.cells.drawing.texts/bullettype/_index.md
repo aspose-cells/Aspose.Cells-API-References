@@ -20,7 +20,7 @@ El tipo BulletType expone los siguientes miembros:
 | NONE | sin bala|
 | CHARACTER | Bala de personaje.|
 | PICTURE | Viñeta de imagen.|
-| AUTO_NUMBERED | Viñeta numerada automática.|
+| AUTO_NUMBERED | Viñetas numeradas automáticas.|
 
 
 

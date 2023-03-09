@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| extension | str | Filtillägget. Kan vara med eller utan en inledande prick. Fallet okänslig.|
+| extension | str | Filtillägget. Kan vara med eller utan en inledande prick.|
 ###  Anmärkningar
 
 Om tillägget inte kan kännas igen, returnerar [SaveFormat.UNKNOWN](/cells/sv/python-net/aspose.cells/saveformat#UNKNOWN).

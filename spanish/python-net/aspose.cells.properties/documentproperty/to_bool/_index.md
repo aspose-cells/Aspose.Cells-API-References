@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.properties/documentproperty/to_bool/
 is_root: false
 ---
 ##  to_bool() {#}
-Devuelve el valor de la propiedad como bool.
+Devuelve el valor de la propiedad como un bool.
 
 
 

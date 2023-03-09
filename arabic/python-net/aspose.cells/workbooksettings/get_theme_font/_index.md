@@ -22,7 +22,7 @@ def get_theme_font(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [FontSchemeType](/cells/ar/python-net/aspose.cells/fontschemetype) | نوع نظام الخط.|
 

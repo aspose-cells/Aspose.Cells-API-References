@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
 | [SqlScriptOperatorType](/cells/de/python-net/aspose.cells.saving/sqlscriptoperatortype) | Repräsentiert die Art der Betriebsdaten.|
 

@@ -18,7 +18,7 @@ def set_formula(self, formula, value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | الصيغة.|
 | value | any | قيمة الصيغة.|
@@ -35,7 +35,7 @@ def set_formula(self, formula, options, value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | الصيغة.|
 | options | [FormulaParseOptions](/cells/ar/python-net/aspose.cells/formulaparseoptions) | خيارات لتحليل الصيغة.|
@@ -53,7 +53,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | الصيغة.|
 | is_r1c1 | bool | ما إذا كانت الصيغة هي صيغة R1C1.|
@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any | قيمة الصيغة.|
 ###  ملاحظات
 
-ملاحظة: هذه الفئة عفا عليها الزمن الآن. بدلاً من،
+ملاحظة: هذه الفئة عفا عليها الزمن الآن.
 الرجاء استخدام Cell.SetFormula (سلسلة ، FormulaParseOptions ، كائن).
 ستتم إزالة هذا العقار بعد 12 شهرًا منذ ديسمبر 2019.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

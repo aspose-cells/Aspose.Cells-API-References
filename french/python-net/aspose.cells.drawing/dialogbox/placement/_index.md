@@ -12,7 +12,7 @@ is_root: false
 Représente la manière dont l'objet dessin est attaché aux cellules situées en dessous.
 La propriété contrôle le placement d'un objet sur une feuille de calcul.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import PlacementType

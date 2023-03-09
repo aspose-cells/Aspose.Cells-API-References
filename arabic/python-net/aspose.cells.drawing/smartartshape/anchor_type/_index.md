@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  anchor_type الملكية
 
-الحصول على الشكل وتعيين العنصر النائب لنقطة الارتساء.
+الحصول على العنصر النائب للشكل وتعيينه.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

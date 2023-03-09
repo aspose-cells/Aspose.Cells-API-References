@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  IconSetType numaralandırma
  Koşullu biçimlendirme için simge seti türü.
-Bir küme içindeki farklı simgeleri tetiklemek için eşik değerleri şunlardır:
+Bir küme içindeki farklı simgelerin tetiklenmesi için eşik değerler şunlardır:
 yapılandırılabilir ve simge sırası tersine çevrilebilir.
 
 
@@ -30,7 +30,7 @@ IconSetType türü aşağıdaki üyeleri gösterir:
 | ARROWS4 | 4 ok simgesi seti.|
 | ARROWS_GRAY4 | 4 gri ok simgesi seti.|
 | RATING4 | 4 derecelendirme simgesi seti.|
-| RED_TO_BLACK4 | 4 'kırmızıdan siyaha' simge seti.|
+| RED_TO_BLACK4 | 'kırmızıdan siyaha' simge seti.|
 | TRAFFIC_LIGHTS4 | 4 trafik ışığı simgesi seti.|
 | ARROWS5 | 5 ok simgesi seti.|
 | ARROWS_GRAY5 | 5 gri ok simgesi seti.|

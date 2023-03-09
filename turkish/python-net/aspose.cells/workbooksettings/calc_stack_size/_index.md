@@ -16,7 +16,7 @@ Kullanıcı formülleri hesaplarken StackOverflowException alırsa, bu değer az
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Bunun yerine, lütfen CalculationOptions'ı kullanın
+NOT: Bu üye artık kullanılmıyor.
 formülleri hesaplarken belirtilen CalcStackSize ile.
  Bu mülk, Şubat 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

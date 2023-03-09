@@ -25,9 +25,9 @@ Der Typ AxisBins macht die folgenden Member verfügbar:
 | :- | :- |
 | [is_by_category](/cells/de/python-net/aspose.cells.charts/axisbins/is_by_category) | Gibt an, ob Daten nach Kategorie gruppiert werden|
 | [is_automatic](/cells/de/python-net/aspose.cells.charts/axisbins/is_automatic) | Gibt an, ob die Achsenbins automatisch sind.|
-| [width](/cells/de/python-net/aspose.cells.charts/axisbins/width) | Ruft die Breite des Achsenbins ab oder legt diese fest|
-| [count](/cells/de/python-net/aspose.cells.charts/axisbins/count) | Ruft die Anzahl der Achsenbins ab oder legt sie fest|
-| [overflow](/cells/de/python-net/aspose.cells.charts/axisbins/overflow) | Ruft den Überlauf von Achsenbins ab oder legt ihn fest|
+| [width](/cells/de/python-net/aspose.cells.charts/axisbins/width) | Ruft die Breite des Achsenabschnitts ab oder legt diese fest|
+| [count](/cells/de/python-net/aspose.cells.charts/axisbins/count) | Ruft die Anzahl der Achsenbins ab oder legt diese fest|
+| [overflow](/cells/de/python-net/aspose.cells.charts/axisbins/overflow) | Ruft den Überlauf von Achsenbins ab oder legt diesen fest|
 | [underflow](/cells/de/python-net/aspose.cells.charts/axisbins/underflow) | Ruft den Unterlauf von Achsenbins ab oder legt diesen fest|
 
 

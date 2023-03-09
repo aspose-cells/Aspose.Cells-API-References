@@ -19,7 +19,7 @@ El tipo ThreadedCommentAuthor expone los siguientes miembros:
 | :- | :- |
 | [name](/cells/es/python-net/aspose.cells/threadedcommentauthor/name) | Obtiene y establece el nombre.|
 | [user_id](/cells/es/python-net/aspose.cells/threadedcommentauthor/user_id) | Obtiene y establece la identificación del usuario.|
-| [provider_id](/cells/es/python-net/aspose.cells/threadedcommentauthor/provider_id) | Obtiene el id del proveedor.|
+| [provider_id](/cells/es/python-net/aspose.cells/threadedcommentauthor/provider_id) | Obtiene la identidad del proveedor.|
 
 
 

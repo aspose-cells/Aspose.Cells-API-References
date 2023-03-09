@@ -1,13 +1,13 @@
 ﻿---
 title: PresetCameraType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1060
 url: /zh/python-net/aspose.cells.drawing/presetcameratype/
 is_root: false
 ---
-##  PresetCameraType枚举
+## PresetCameraType枚举
 表示用于设置所有相机属性（包括位置）的不同算法方法。
 
 

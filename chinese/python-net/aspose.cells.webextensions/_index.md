@@ -1,6 +1,6 @@
 ﻿---
 title: aspose.cells.webextensions
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -15,13 +15,13 @@ is_root: false
 | [WebExtension](/cells/zh/python-net/aspose.cells.webextensions/webextension) |表示 Office 加载项实例。|
 | [WebExtensionBinding](/cells/zh/python-net/aspose.cells.webextensions/webextensionbinding) |表示 Office 加载项与文档中的数据之间的绑定关系。|
 | [WebExtensionBindingCollection](/cells/zh/python-net/aspose.cells.webextensions/webextensionbindingcollection) |表示 Office 加载项与文档中数据之间的绑定关系列表。|
-| [WebExtensionCollection](/cells/zh/python-net/aspose.cells.webextensions/webextensioncollection) |表示网络扩展列表。|
+| [WebExtensionCollection](/cells/zh/python-net/aspose.cells.webextensions/webextensioncollection) |表示 Web 扩展列表。|
 | [WebExtensionProperty](/cells/zh/python-net/aspose.cells.webextensions/webextensionproperty) |表示 Office 加载项自定义属性。|
 | [WebExtensionPropertyCollection](/cells/zh/python-net/aspose.cells.webextensions/webextensionpropertycollection) |表示 Web 扩展属性列表。|
-| [WebExtensionReference](/cells/zh/python-net/aspose.cells.webextensions/webextensionreference) |表示标识扩展程序的提供程序位置和版本。|
+| [WebExtensionReference](/cells/zh/python-net/aspose.cells.webextensions/webextensionreference) |表示标识提供者位置和扩展的版本。|
 | [WebExtensionReferenceCollection](/cells/zh/python-net/aspose.cells.webextensions/webextensionreferencecollection) |表示 Web 扩展引用列表。|
 | [WebExtensionTaskPane](/cells/zh/python-net/aspose.cells.webextensions/webextensiontaskpane) |表示持久化的任务窗格对象。|
-| [WebExtensionTaskPaneCollection](/cells/zh/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) |表示任务窗格的列表。|
+| [WebExtensionTaskPaneCollection](/cells/zh/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) |表示任务窗格列表。|
 
 
 ### 枚举

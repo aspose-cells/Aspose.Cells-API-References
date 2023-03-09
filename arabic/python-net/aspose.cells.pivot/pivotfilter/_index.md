@@ -17,9 +17,9 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [auto_filter](/cells/ar/python-net/aspose.cells.pivot/pivotfilter/auto_filter) |يحصل على التصفية التلقائية لمرشح المحور.|
+| [auto_filter](/cells/ar/python-net/aspose.cells.pivot/pivotfilter/auto_filter) | يحصل على التصفية التلقائية لمرشح المحور.|
 | [filter_type](/cells/ar/python-net/aspose.cells.pivot/pivotfilter/filter_type) | الحصول على نوع الفلتر التلقائي للمرشح المحوري.|
-| [field_index](/cells/ar/python-net/aspose.cells.pivot/pivotfilter/field_index) | يحصل على فهرس المجال لعامل التصفية المحوري.|
+| [field_index](/cells/ar/python-net/aspose.cells.pivot/pivotfilter/field_index) |يحصل على فهرس المجال لعامل التصفية المحوري.|
 | [value1](/cells/ar/python-net/aspose.cells.pivot/pivotfilter/value1) | الحصول على قيمة السلسلة 1 لعامل التصفية المحوري للتسمية.|
 | [value2](/cells/ar/python-net/aspose.cells.pivot/pivotfilter/value2) | يحصل على سلسلة القيمة 2 لعامل التصفية المحوري للتسمية.|
 | [measure_fld_index](/cells/ar/python-net/aspose.cells.pivot/pivotfilter/measure_fld_index) | الحصول على فهرس حقل القياس لمرشح المحور.|
@@ -29,7 +29,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

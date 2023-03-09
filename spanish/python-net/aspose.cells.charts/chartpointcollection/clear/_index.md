@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/chartpointcollection/clear/
 is_root: false
 ---
 ##  clear() {#}
-Elimina todos los ajustes de los puntos del gráfico.
+Elimina todas las configuraciones de los puntos del gráfico.
 
 
 

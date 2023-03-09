@@ -60,7 +60,7 @@ CountryCode türü aşağıdaki üyeleri gösterir:
 | LEBANON | Lübnan|
 | JORDAN | Ürdün|
 | SYRIA | Suriye|
-| IRAQ |Irak|
+| IRAQ | Irak|
 | KUWAIT | Kuveyt|
 | SAUDI | Suudi Arabistan|
 | UNITED_ARAB_EMIRATES | Birleşik Arap Emirlikleri|

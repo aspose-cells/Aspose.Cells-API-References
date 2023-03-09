@@ -18,10 +18,10 @@ def draw(self, draw_object, x, y, width, height):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | draw_object | [DrawObject](/cells/ar/python-net/aspose.cells.rendering/drawobject) | سيتم تهيئة DrawObject وإعادته عند التقديم|
-| x | float | يسار DrawObject|
+| x | float | يسار رسم الكائن|
 | y | float | الجزء العلوي من DrawObject|
 | width | float | عرض DrawObject|
 | height | float | ارتفاع DrawObject|

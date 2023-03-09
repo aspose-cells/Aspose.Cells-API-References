@@ -11,7 +11,7 @@ is_root: false
 
  Elektronik tablo uygulamasının her zaman ve yalnızca
  odcFile özniteliği tarafından belirtilen harici bağlantı dosyasındaki bağlantı bilgileri
- bağlantı yenilendiğinde. Yanlışsa, elektronik tablo uygulaması
+ bağlantı yenilendiğinde. Yanlışsa elektronik tablo uygulaması
 reconnectionMethod özniteliği tarafından belirtilen prosedürü izlemelidir
 ###  Tanım:
 ```python

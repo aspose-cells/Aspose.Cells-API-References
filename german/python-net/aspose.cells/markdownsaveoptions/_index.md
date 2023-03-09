@@ -35,12 +35,12 @@ Der Typ MarkdownSaveOptions macht die folgenden Member verfügbar:
 | [merge_areas](/cells/de/python-net/aspose.cells/markdownsaveoptions/merge_areas) | Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden sollen.|
 | [create_directory](/cells/de/python-net/aspose.cells/markdownsaveoptions/create_directory) | Wenn wahr und das Verzeichnis nicht existiert, wird das Verzeichnis automatisch erstellt, bevor die Datei gespeichert wird.|
 | [sort_names](/cells/de/python-net/aspose.cells/markdownsaveoptions/sort_names) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.|
-| [sort_external_names](/cells/de/python-net/aspose.cells/markdownsaveoptions/sort_external_names) | Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
-| [refresh_chart_cache](/cells/de/python-net/aspose.cells/markdownsaveoptions/refresh_chart_cache) |Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
-| [warning_callback](/cells/de/python-net/aspose.cells/markdownsaveoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
+| [sort_external_names](/cells/de/python-net/aspose.cells/markdownsaveoptions/sort_external_names) |Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
+| [refresh_chart_cache](/cells/de/python-net/aspose.cells/markdownsaveoptions/refresh_chart_cache) | Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
+| [warning_callback](/cells/de/python-net/aspose.cells/markdownsaveoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
 | [update_smart_art](/cells/de/python-net/aspose.cells/markdownsaveoptions/update_smart_art) | Gibt an, ob die SmartArt-Einstellung aktualisiert wird.<br/> Der Standardwert ist falsch.|
 | [encoding](/cells/de/python-net/aspose.cells/markdownsaveoptions/encoding) | Ruft die Standardcodierung ab und legt sie fest.|
-| [format_strategy](/cells/de/python-net/aspose.cells/markdownsaveoptions/format_strategy) |Ruft die Formatstrategie ab und legt sie fest, wenn der Zellenwert als Zeichenfolge exportiert wird.|
+| [format_strategy](/cells/de/python-net/aspose.cells/markdownsaveoptions/format_strategy) | Ruft die Formatstrategie ab und legt sie fest, wenn der Zellenwert als Zeichenfolge exportiert wird.|
 | [light_cells_data_provider](/cells/de/python-net/aspose.cells/markdownsaveoptions/light_cells_data_provider) | Der Datenanbieter zum Bereitstellen von Zellendaten zum Speichern von Arbeitsmappen im Light-Modus.|
 | [line_separator](/cells/de/python-net/aspose.cells/markdownsaveoptions/line_separator) | Ruft das Zeilentrennzeichen ab und legt es fest.|
 

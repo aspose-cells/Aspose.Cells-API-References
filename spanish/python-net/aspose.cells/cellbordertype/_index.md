@@ -17,7 +17,7 @@ El tipo CellBorderType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| DASH_DOT | Representa una línea delgada de puntos y guiones.|
+| DASH_DOT | Representa líneas delgadas de puntos y guiones.|
 | DASH_DOT_DOT | Representa una línea delgada de puntos y guiones.|
 | DASHED | Representa la línea discontinua.|
 | DOTTED | Representa la línea de puntos.|
@@ -26,7 +26,7 @@ El tipo CellBorderType expone los siguientes miembros:
 | MEDIUM_DASH_DOT | Representa una línea de puntos y guiones medianos.|
 | MEDIUM_DASH_DOT_DOT | Representa una línea mediana de puntos, guiones y puntos.|
 | MEDIUM_DASHED | Representa una línea discontinua mediana.|
-| NONE |Representa ninguna línea.|
+| NONE | Representa ninguna línea.|
 | MEDIUM | Representa la línea media.|
 | SLANTED_DASH_DOT | Representa una línea inclinada de puntos y guiones medianos.|
 | THICK | Representa línea gruesa.|

@@ -22,7 +22,7 @@ def create_range(self, address, sheet_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | address | str | L'adresse de la plage.|
 | sheet_index | int | L'index de la feuille.|

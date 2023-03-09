@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob der Rand des Textrahmens automatisch ist.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

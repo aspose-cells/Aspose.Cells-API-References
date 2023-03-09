@@ -11,7 +11,7 @@ is_root: false
 
 Versteckte Spalte (die Breite dieser Spalte ist 0) in Excel, bevor Sie diese im HTML-Format speichern,
 wenn HtmlHiddenColDisplayType "Remove" ist, würde die versteckte Spalte nicht ausgegeben,
-wenn der Wert "Hidden" ist, würde die Spalte ausgegeben werden, war aber versteckt, der Standardwert ist "Hidden".
+wenn der Wert "Hidden" ist, wäre die Spalte ausgegeben worden, wurde aber versteckt, der Standardwert ist "Hidden"
 ###  Definition:
 ```python
 @property

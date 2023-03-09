@@ -22,12 +22,12 @@ def process_row(self, row):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | [Row](/cells/sv/python-net/aspose.cells/row) | Radobjekt som för närvarande bearbetas.|
 ###  Anmärkningar
 
-Det kommer att kallas efter radens egenskaper som höjd, stil, ... etc. har lästs. Cellerna i den här raden har dock inte lästs ännu.
+Det kommer att kallas efter radens egenskaper som höjd, stil, ... etc.
 
 
 ###  Se även

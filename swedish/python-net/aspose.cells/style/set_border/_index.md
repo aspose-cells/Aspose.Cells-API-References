@@ -22,7 +22,7 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | border_type | [BorderType](/cells/sv/python-net/aspose.cells/bordertype) | Den eller de gränser som ska ställas in kan vara en kombination av [BorderType](/cells/sv/python-net/aspose.cells/bordertype).|
 | border_style | [CellBorderType](/cells/sv/python-net/aspose.cells/cellbordertype) | Gränsens stil.|
@@ -44,7 +44,7 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | border_type | [BorderType](/cells/sv/python-net/aspose.cells/bordertype) | Den eller de gränser som ska ställas in kan vara en kombination av [BorderType](/cells/sv/python-net/aspose.cells/bordertype).|
 | border_style | [CellBorderType](/cells/sv/python-net/aspose.cells/cellbordertype) | Gränsens stil.|

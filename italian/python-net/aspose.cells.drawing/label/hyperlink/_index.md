@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene hyperlink della forma.
 
-###  Esempio
+###  Esempi
 
 ```python
 

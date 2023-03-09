@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | range | str | Диапазон.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/ru/python-net/aspose.cells/unionrange) | Диапазон.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | ranges | list | Диапазоны.|
 

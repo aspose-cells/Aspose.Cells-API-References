@@ -22,12 +22,12 @@ def add_linked_picture(self, upper_left_row, upper_left_column, height, width, s
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
-| upper_left_column | int |Sol üst sütun dizini.|
-| height | int | Şeklin yüksekliği. piksel birimi olarak|
-| width | int | Şeklin genişliği. piksel birimi olarak|
+| upper_left_column | int | Sol üst sütun dizini.|
+| height | int | Şeklin yüksekliği.|
+| width | int | Şeklin genişliği.|
 | source_full_name | str | Bağlantılı görüntü için kaynak dosyanın yolu ve adı|
 
 

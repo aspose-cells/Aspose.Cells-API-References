@@ -11,7 +11,7 @@ is_root: false
 
 Specifica una stringa facoltativa che può essere utilizzata da un'applicazione per identificare la forma specifica.
 
-###  Esempio
+###  Esempi
 
 ```python
 

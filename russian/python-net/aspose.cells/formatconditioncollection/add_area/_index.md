@@ -8,12 +8,12 @@ url: /ru/python-net/aspose.cells/formatconditioncollection/add_area/
 is_root: false
 ---
 ##  add_area(cell_area) {#CellArea}
-Добавляет диапазон ячеек с условным форматированием.
+Добавляет условно отформатированный диапазон ячеек.
 
 
 ###  Возвращает
 
-Условно отформатированный индекс диапазона ячеек.
+Индекс диапазона ячеек с условным форматированием.
 
 
 ```python
@@ -22,9 +22,9 @@ def add_area(self, cell_area):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Диапазон ячеек с условным форматированием.|
+| cell_area | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) |Условно отформатированный диапазон ячеек.|
 
 
 

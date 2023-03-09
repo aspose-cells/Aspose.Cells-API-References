@@ -19,7 +19,7 @@ Der Typ PrintingPageType macht die folgenden Member verfügbar:
 | :- | :- |
 | DEFAULT | Druckt alle Seiten.|
 | IGNORE_BLANK | Drucken Sie nicht die Seiten, auf denen die Zellen leer sind.|
-| IGNORE_STYLE | Drucken Sie keine Seiten, deren Zellen nur Stile enthalten.|
+| IGNORE_STYLE |Drucken Sie keine Seiten, deren Zellen nur Stile enthalten.|
 
 
 

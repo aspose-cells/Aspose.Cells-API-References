@@ -1,6 +1,6 @@
 ﻿---
 title: presentation_preference 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 530
@@ -11,7 +11,7 @@ is_root: false
 
 指示 html 或 mht 文件是否是演示文稿首选项。
 默认值为假。
-如果你想获得更漂亮的呈现，请将值设置为 true。
+如果你想得到更漂亮的呈现，请将值设置为true。
 ### 定义：
 ```python
 @property

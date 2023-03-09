@@ -18,7 +18,7 @@ def calculate(self, data):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | data | [CalculationData](/cells/ar/python-net/aspose.cells/calculationdata) | البيانات المطلوبة لحساب الوظيفة مثل اسم الوظيفة ، المعلمات ، ... إلخ.|
 ###  ملاحظات

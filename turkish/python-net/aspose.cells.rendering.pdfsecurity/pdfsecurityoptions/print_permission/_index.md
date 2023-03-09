@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  print_permission mülk
 
-Pdf belgesini yazdırma izni
+Pdf belgelerini yazdırma izni
 ###  Tanım:
 ```python
 @property

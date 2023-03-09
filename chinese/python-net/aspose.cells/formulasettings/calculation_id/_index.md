@@ -1,6 +1,6 @@
 ﻿---
 title: calculation_id 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -14,7 +14,7 @@ is_root: false
 ### 评论
 
 此属性仅用于将设置保存到生成的电子表格文件中
-以便其他应用程序（例如 ms excel）在加载和操作结果文件时可以相应地采取行动。
+以便其他应用程序（例如 ms excel）在加载和操作生成的文件时可以相应地采取行动。
 以ms excel为例，如果这个属性的值小于关联的重新计算引擎标识符
 使用打开结果文件的应用程序，应用程序将重新计算所有公式的结果
 加载文件后立即在此工作簿上。

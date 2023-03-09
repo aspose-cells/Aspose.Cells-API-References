@@ -1,13 +1,13 @@
 ﻿---
 title: ScenarioCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1340
 url: /zh/python-net/aspose.cells/scenariocollection/
 is_root: false
 ---
-##  ScenarioCollection类
+## ScenarioCollection类
 代表场景列表。
 
 
@@ -17,7 +17,7 @@ ScenarioCollection 类型公开了以下成员：
 ### 特性
 |属性|描述|
 | :- | :- |
-| [active_index](/cells/zh/python-net/aspose.cells/scenariocollection/active_index) |获取和设置选择的方案。|
+| [active_index](/cells/zh/python-net/aspose.cells/scenariocollection/active_index) |获取和设置选择的场景。|
 | [last_selected](/cells/zh/python-net/aspose.cells/scenariocollection/last_selected) |指示用户最后选择要运行/显示的场景。|
 | [capacity](/cells/zh/python-net/aspose.cells/scenariocollection/capacity) |获取或设置数组列表可以包含的元素数。|
 

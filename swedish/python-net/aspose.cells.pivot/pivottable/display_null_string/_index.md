@@ -10,7 +10,7 @@ is_root: false
 ##  display_null_string fastighet
 
 Anger om pivottabellsrapporten visar en anpassad sträng
-i celler som innehåller nullvärden.
+celler som innehåller nullvärden.
 ###  Definition:
 ```python
 @property

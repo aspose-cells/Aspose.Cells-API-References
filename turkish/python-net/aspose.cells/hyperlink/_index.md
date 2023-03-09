@@ -1,5 +1,5 @@
 ﻿---
-title: Hyperlink sınıf
+title: Hyperlink sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 790
 url: /tr/python-net/aspose.cells/hyperlink/
 is_root: false
 ---
-##  Hyperlink sınıf
+##  Hyperlink sınıfı
 Bir köprüyü temsil eden nesneyi kapsüller.
 
 
@@ -18,7 +18,7 @@ Hyperlink türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [address](/cells/tr/python-net/aspose.cells/hyperlink/address) | Bir köprünün adresini temsil eder.|
-| [text_to_display](/cells/tr/python-net/aspose.cells/hyperlink/text_to_display) | Belirtilen köprü için görüntülenecek metni temsil eder. Varsayılan değer, köprünün adresidir.|
+| [text_to_display](/cells/tr/python-net/aspose.cells/hyperlink/text_to_display) | Belirtilen köprü için görüntülenecek metni temsil eder.|
 | [area](/cells/tr/python-net/aspose.cells/hyperlink/area) | Köprü aralığını alır.|
 | [screen_tip](/cells/tr/python-net/aspose.cells/hyperlink/screen_tip) | Belirtilen köprü için Ekran İpucu metnini döndürür veya ayarlar.|
 | [link_type](/cells/tr/python-net/aspose.cells/hyperlink/link_type) | Bağlantı türünü alır.|
@@ -31,7 +31,7 @@ Hyperlink türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

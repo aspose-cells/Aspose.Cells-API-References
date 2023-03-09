@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Einstellung des Texts der Form ab und legt diese fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

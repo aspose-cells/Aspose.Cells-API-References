@@ -18,12 +18,12 @@ def get_designer_storage(self, name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str |  |
 ###  Remarques
 
-Nous ne prenons pas en charge leur analyse. Uniquement pour la copie.
+Nous ne prenons pas en charge leur analyse.
 
 
 ###  Voir également

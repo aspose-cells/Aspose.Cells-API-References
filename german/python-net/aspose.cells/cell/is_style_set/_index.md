@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_style_set Eigentum
 
-Gibt an, ob der Stil der Zelle festgelegt ist. Wenn false zurückgegeben wird, bedeutet dies, dass diese Zelle ein Standardzellenformat hat.
+Gibt an, ob der Stil der Zelle festgelegt ist. Wenn "false" zurückgegeben wird, bedeutet dies, dass diese Zelle ein Standardzellenformat hat.
 ###  Definition:
 ```python
 @property

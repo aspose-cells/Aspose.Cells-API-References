@@ -25,14 +25,14 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/de/python-net/aspose.cells.drawing/msodrawingtype) | Der Formtyp.|
-| top | int |Stellt den vertikalen Versatz der Form von der obersten Zeile des Arbeitsblatts in Pixeleinheiten dar.|
-| left | int | Stellt den horizontalen Versatz der Form von der linken Spalte des Arbeitsblatts in Pixeleinheiten dar.|
+| top | int | Stellt den vertikalen Versatz der Form von der obersten Zeile des Arbeitsblatts in Pixeleinheiten dar.|
+| left | int |Stellt den horizontalen Versatz der Form von der linken Spalte des Arbeitsblatts in Pixeleinheiten dar.|
 | height | int | Repräsentiert die Höhe von LineShape in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite von LineShape in Pixeleinheiten.|
 | image_data | bytes | Die Bilddaten gelten nur für das Bild.|
 | is_original_size | bool | Ob die Form die Originalgröße verwendet, wenn es sich bei der Form um ein Bild handelt.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose import pycore

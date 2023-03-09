@@ -1,6 +1,6 @@
 ﻿---
 title: protect方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/zh/python-net/aspose.cells/protectiontype) |保护类型。|
 ### 评论
 
-此方法无需密码即可保护工作表。它可以在所有版本的 Excel 文件中生成 protect 工作表。
+此方法无需密码即可保护工作表。
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/zh/python-net/aspose.cells/protectiontype) |保护类型。|
 | password | str |密码。|

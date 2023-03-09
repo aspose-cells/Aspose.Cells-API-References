@@ -22,7 +22,7 @@ def add(self, cell_name, total_rows, total_columns, address):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | cell_name | str | Cell имя.|
 | total_rows | int | Количество строк в этом диапазоне гиперссылок.|
@@ -45,7 +45,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | first_row | int | Первая строка диапазона гиперссылок.|
 | first_column | int | Первый столбец диапазона гиперссылок.|
@@ -53,7 +53,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_columns | int | Количество столбцов этого диапазона гиперссылок.|
 | address | str | Адрес гиперссылки.|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook
@@ -82,13 +82,13 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | start_cell_name | str | Верхняя левая ячейка диапазона.|
 | end_cell_name | str | Нижняя правая ячейка диапазона.|
 | address | str | Адрес гиперссылки.|
 | text_to_display | str | Текст, который будет отображаться для указанной гиперссылки.|
-| screen_tip | str | Текст всплывающей подсказки для указанной гиперссылки.|
+| screen_tip | str |Текст всплывающей подсказки для указанной гиперссылки.|
 
 
 

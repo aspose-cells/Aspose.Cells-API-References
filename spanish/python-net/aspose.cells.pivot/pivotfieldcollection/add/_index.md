@@ -22,7 +22,7 @@ def add(self, pivot_field):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/es/python-net/aspose.cells.pivot/pivotfield) | un objeto de campo dinámico.|
 

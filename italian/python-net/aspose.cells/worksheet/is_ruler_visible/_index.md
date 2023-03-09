@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible proprietà
 
-Indica se il righello è visibile. Questa proprietà viene applicata solo per l'anteprima dell'interruzione di pagina.
+Indica se il righello è visibile.
 ###  Definizione:
 ```python
 @property

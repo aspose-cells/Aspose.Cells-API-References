@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  width_inch fastighet
 
-Representerar formens bredd, i tumenhet.
+Representerar formens bredd, i enheter av tum.
 
 ###  Exempel
 

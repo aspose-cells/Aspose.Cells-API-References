@@ -13,7 +13,7 @@ Indikerar om makron behålls;
 
 ###  Anmärkningar
 
-Endast för kopiering av arbetsbok.
+Endast för kopiering av arbetsböcker.
 ###  Definition:
 ```python
 @property

@@ -18,7 +18,7 @@ def move(self, count):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | count | int | Il numero di movimento verso l'alto o verso il basso.<br/>Sposta la serie verso l'alto se questo è minore di zero;<br/> Sposta la serie verso il basso se è maggiore di zero.|
 

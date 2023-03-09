@@ -20,7 +20,7 @@ Typen RevisionActionType avslöjar följande medlemmar:
 | ADD | Lägg till revision.|
 | DELETE | Ta bort revision.|
 | DELETE_COLUMN | Kolumn radera revision.|
-| DELETE_ROW |Rad radera revision.|
+| DELETE_ROW | Rad radera revision.|
 | INSERT_COLUMN | Kolumn infoga revision.|
 | INSERT_ROW | Revision av radinfogning.|
 

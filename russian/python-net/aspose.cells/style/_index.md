@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/style/
 is_root: false
 ---
 ##  Style класс
-Представляет стиль отображения документа Excel, например шрифт, цвет, выравнивание, границу и т. д.
+Представляет стиль отображения документа Excel, например шрифт, цвет, выравнивание, границу и т. д.
 Объект Style содержит все атрибуты стиля (шрифт, числовой формат, выравнивание и т. д.) в качестве свойств.
 
 
@@ -27,7 +27,7 @@ is_root: false
 | [background_theme_color](/cells/ru/python-net/aspose.cells/style/background_theme_color) | Получает и задает цвет фоновой темы.|
 | [foreground_theme_color](/cells/ru/python-net/aspose.cells/style/foreground_theme_color) | Получает и задает цвет темы переднего плана.|
 | [name](/cells/ru/python-net/aspose.cells/style/name) | Получает или задает имя стиля.|
-| [pattern](/cells/ru/python-net/aspose.cells/style/pattern) | Получает или задает тип шаблона фона ячейки.|
+| [pattern](/cells/ru/python-net/aspose.cells/style/pattern) |Получает или задает тип шаблона фона ячейки.|
 | [borders](/cells/ru/python-net/aspose.cells/style/borders) | Получает [BorderCollection](/cells/ru/python-net/aspose.cells/bordercollection) стиля.|
 | [background_color](/cells/ru/python-net/aspose.cells/style/background_color) | Получает или задает цвет фона стиля.|
 | [background_argb_color](/cells/ru/python-net/aspose.cells/style/background_argb_color) | Получает и задает цвет фона с 32-битным значением ARGB.|
@@ -35,15 +35,15 @@ is_root: false
 | [foreground_argb_color](/cells/ru/python-net/aspose.cells/style/foreground_argb_color) | Получает и задает цвет переднего плана с 32-битным значением ARGB.|
 | [has_borders](/cells/ru/python-net/aspose.cells/style/has_borders) | Проверяет, установлены ли границы для стиля.|
 | [parent_style](/cells/ru/python-net/aspose.cells/style/parent_style) | Получает родительский стиль этого стиля.|
-| [indent_level](/cells/ru/python-net/aspose.cells/style/indent_level) | Представляет уровень отступа для ячейки или диапазона. Может быть только целым числом от 0 до 250.|
+| [indent_level](/cells/ru/python-net/aspose.cells/style/indent_level) | Представляет уровень отступа для ячейки или диапазона.|
 | [font](/cells/ru/python-net/aspose.cells/style/font) | Получает объект [Style.font](/cells/ru/python-net/aspose.cells/style#font).|
 | [rotation_angle](/cells/ru/python-net/aspose.cells/style/rotation_angle) | Представляет угол поворота текста.|
 | [horizontal_alignment](/cells/ru/python-net/aspose.cells/style/horizontal_alignment) | Получает или задает тип горизонтального выравнивания текста в ячейке.|
 | [vertical_alignment](/cells/ru/python-net/aspose.cells/style/vertical_alignment) | Получает или задает тип вертикального выравнивания текста в ячейке.|
 | [is_text_wrapped](/cells/ru/python-net/aspose.cells/style/is_text_wrapped) | Получает или задает значение, указывающее, переносится ли текст в ячейке.|
-| [number](/cells/ru/python-net/aspose.cells/style/number) | Получает или задает формат отображения чисел и дат. Шаблоны форматирования различаются для разных регионов.|
+| [number](/cells/ru/python-net/aspose.cells/style/number) | Получает или задает формат отображения чисел и дат.|
 | [is_locked](/cells/ru/python-net/aspose.cells/style/is_locked) |Получает или задает значение, указывающее, можно ли изменить ячейку.|
-| [custom](/cells/ru/python-net/aspose.cells/style/custom) | Представляет строку пользовательского числового формата этого объекта стиля.<br/>Если пользовательский числовой формат не установлен (например, числовой формат является встроенным), будет возвращено «».|
+| [custom](/cells/ru/python-net/aspose.cells/style/custom) | Представляет строку пользовательского числового формата этого объекта стиля.<br/> Если пользовательский числовой формат не установлен (например, числовой формат является встроенным), будет возвращено "".|
 | [culture_custom](/cells/ru/python-net/aspose.cells/style/culture_custom) | Получает и задает строку шаблона, зависящую от языка и региональных параметров, для числового формата.<br/>Если для этого объекта не задан числовой формат, будет возвращено значение NULL.<br/> Если числовой формат является встроенным, будет возвращена строка шаблона, соответствующая встроенному числу.|
 | [invariant_custom](/cells/ru/python-net/aspose.cells/style/invariant_custom) | Получает независимую от языка и региональных параметров строку шаблона для числового формата.<br/>Если для этого объекта не задан числовой формат, будет возвращено значение NULL.<br/> Если числовой формат является встроенным, будет возвращена строка шаблона, соответствующая встроенному числу.|
 | [is_formula_hidden](/cells/ru/python-net/aspose.cells/style/is_formula_hidden) | Указывает, будет ли скрыта формула, если лист защищен.|
@@ -52,7 +52,7 @@ is_root: false
 | [is_justify_distributed](/cells/ru/python-net/aspose.cells/style/is_justify_distributed) | Указывает, следует ли использовать выравнивание ячеек по ширине или распределенное выравнивание в последней строке текста.|
 | [quote_prefix](/cells/ru/python-net/aspose.cells/style/quote_prefix) | Указывает, начинается ли значение ячейки с одинарной кавычки.|
 | [is_gradient](/cells/ru/python-net/aspose.cells/style/is_gradient) | Указывает, является ли затенение ячеек градиентным узором.|
-| [is_percent](/cells/ru/python-net/aspose.cells/style/is_percent) | Указывает, является ли числовой формат процентным форматом.|
+| [is_percent](/cells/ru/python-net/aspose.cells/style/is_percent) |Указывает, является ли числовой формат процентным форматом.|
 | [is_date_time](/cells/ru/python-net/aspose.cells/style/is_date_time) | Указывает, является ли числовой формат форматом даты.|
 
 
@@ -73,7 +73,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

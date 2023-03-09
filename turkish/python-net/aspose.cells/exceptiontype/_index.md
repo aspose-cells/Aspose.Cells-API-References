@@ -27,9 +27,9 @@ ExceptionType türü aşağıdaki üyeleri gösterir:
 | INVALID_OPERATOR | Geçersiz operatör.|
 | INCORRECT_PASSWORD | Yanlış parola.|
 | LICENSE | Lisansla ilgili hatalar.|
-| LIMITATION | MS Excel sınırlama hatası dışında.|
+| LIMITATION |MS Excel sınırlama hatası dışında.|
 | PAGE_SETUP | Geçersiz sayfa yapısı ayarı.|
-| PIVOT_TABLE | Geçersiz pivotTable ayarı.|
+| PIVOT_TABLE | Geçersiz pivot Tablo ayarı.|
 | SHAPE | Geçersiz çizim nesnesi ayarı.|
 | SPARKLINE | Geçersiz mini grafik nesne ayarı.|
 | SHEET_NAME | Geçersiz çalışma sayfası adı.|
@@ -37,9 +37,9 @@ ExceptionType türü aşağıdaki üyeleri gösterir:
 | INTERRUPTED | Süreç kesintiye uğradı.|
 | IO | Dosya geçersiz.|
 | PERMISSION | Bu dosyayı açmak için izin gerekiyor.|
-| UNSUPPORTED_FEATURE | Desteklenmeyen özellik.|
+| UNSUPPORTED_FEATURE | Desteklenmeyen özellikler.|
 | UNSUPPORTED_STREAM | Desteklenmeyen akış açılacak.|
-| UNDISCLOSED_INFORMATION | Dosyalar bazı açıklanmayan bilgiler içeriyor.|
+| UNDISCLOSED_INFORMATION | Dosyalar bazı açıklanmayan bilgiler içerir.|
 | FILE_CORRUPTED | Dosya içeriği bozuk.|
 
 

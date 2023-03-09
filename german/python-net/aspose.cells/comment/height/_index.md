@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Höhe des Kommentars in Pixeleinheiten dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

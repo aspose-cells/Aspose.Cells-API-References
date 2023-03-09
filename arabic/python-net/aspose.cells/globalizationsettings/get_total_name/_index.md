@@ -22,7 +22,7 @@ def get_total_name(self, function_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | function_type | [ConsolidationFunction](/cells/ar/python-net/aspose.cells/consolidationfunction) | نوع الوظيفة.|
 

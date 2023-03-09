@@ -18,14 +18,14 @@ def add_areas(self, areas, check_intersection, check_edge):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | areas | list | Alanlar.|
-| check_intersection | bool | Verilen alanın mevcut doğrulama alanları ile kesişiminin kontrol edilip edilmediği.<br/>Belirli bir alanda (veya bir bölümünde) bir doğrulama uygulanmışsa,<br/>daha sonra mevcut doğrulama ilk olarak verilen alandan kaldırılmalıdır.<br/>Aksi halde oluşturulan Validasyonlarda bozulmalar meydana gelebilir.<br/>Kullanıcı, eklenen tüm alanların mevcut herhangi bir alanla kesişmediğinden eminse,<br/> bu parametre, performans değerlendirmesi için yanlış olarak ayarlanabilir.|
-| check_edge | bool | Bu doğrulamanın uygulandığı alanların kenarlarını kontrol edin.<br/>Doğrulamanın dahili ayarları, uygulanan aralıkların sol üst köşesine bağlıdır.<br/>bu nedenle, verilen alanlardan biri uygulanan aralıkların sol üst kısmı olacaksa,<br/>dahili ayarlar değiştirilip yeniden oluşturulmalıdır, aksi takdirde beklenmeyen sonuçlara neden olabilir.<br/>Kullanıcı, eklenen alanlardan hiçbirinin sol üstte olmadığından eminse,<br/> bu parametre, performans değerlendirmesi için yanlış olarak ayarlanabilir.|
+| check_intersection | bool | Verilen alanın mevcut doğrulama alanları ile kesişiminin kontrol edilip edilmediği.<br/>Belirli bir alanda (veya bir bölümünde) bir doğrulama uygulanmışsa,<br/>daha sonra mevcut doğrulama ilk olarak verilen alandan kaldırılmalıdır.<br/>Aksi takdirde, oluşturulan Doğrulamalar bozulmaya neden olabilir.<br/>Kullanıcı, eklenen tüm alanların mevcut herhangi bir alanla kesişmediğinden eminse,<br/> Bu parametre, performans değerlendirmesi için yanlış olarak ayarlanabilir.|
+| check_edge | bool | Bu doğrulamanın uygulandığı alanların kenarlarını kontrol edin.<br/>Doğrulamanın dahili ayarları, uygulanan aralıkların sol üst köşesine bağlıdır.<br/>bu nedenle, verilen alanlardan biri uygulanan aralıkların sol üst kısmı olacaksa,<br/>dahili ayarlar değiştirilip yeniden oluşturulmalıdır, aksi takdirde beklenmeyen sonuçlara neden olabilir.<br/>Kullanıcı, eklenen alanlardan hiçbirinin sol üstte olmadığından eminse,<br/> Bu parametre, performans değerlendirmesi için yanlış olarak ayarlanabilir.|
 ###  Notlar
 
-Bu yöntemde, verilen alandaki tüm eski doğrulamaları kaldıracağız.
+Bu yöntemde, belirli bir alandaki tüm eski doğrulamaları kaldıracağız.
 Validation'ın uygulanan aralıklarından sol üstteki için, öncelikle StartRow'u en küçüktür,
 ikinci olarak, StartColumn, aynı en küçük StartRow'a sahip alanların en küçüğüdür.
 

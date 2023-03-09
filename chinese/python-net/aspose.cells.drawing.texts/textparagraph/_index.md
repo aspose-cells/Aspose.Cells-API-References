@@ -1,13 +1,13 @@
 ﻿---
 title: TextParagraph类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
 url: /zh/python-net/aspose.cells.drawing.texts/textparagraph/
 is_root: false
 ---
-##  TextParagraph类
+## TextParagraph类
 表示文本段落设置。
 
 
@@ -41,7 +41,7 @@ TextParagraph 类型公开了以下成员：
 | [right_margin](/cells/zh/python-net/aspose.cells.drawing.texts/textparagraph/right_margin) |指定段落的右边距。|
 | [left_margin](/cells/zh/python-net/aspose.cells.drawing.texts/textparagraph/left_margin) |指定段落的左边距。|
 | [first_line_indent](/cells/zh/python-net/aspose.cells.drawing.texts/textparagraph/first_line_indent) |指定将应用于段落中第一行文本的缩进大小。|
-| [font_align_type](/cells/zh/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |确定实际单词在文本行中的垂直位置。这优惠<br/>字符相对于基线的垂直放置。|
+| [font_align_type](/cells/zh/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |确定实际单词在文本行中的垂直位置。<br/>字符相对于基线的垂直放置。|
 | [alignment_type](/cells/zh/python-net/aspose.cells.drawing.texts/textparagraph/alignment_type) |获取和设置段落的文本水平对齐方式。|
 | [default_tab_size](/cells/zh/python-net/aspose.cells.drawing.texts/textparagraph/default_tab_size) |获取和设置此段落中制表符的默认大小。|
 | [children](/cells/zh/python-net/aspose.cells.drawing.texts/textparagraph/children) |获取此段落中的所有文本运行。<br/>如果此段落为空，则返回段落本身。|

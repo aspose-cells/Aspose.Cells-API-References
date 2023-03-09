@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_qualifier Eigentum
 
-Gibt den Textqualifizierer für Zellenwerte an. Der Standardqualifizierer ist „““.
+Gibt den Textbezeichner für Zellenwerte an. Der Standardbezeichner ist „““.
 
 ###  Bemerkungen
 

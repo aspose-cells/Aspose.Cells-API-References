@@ -10,9 +10,9 @@ is_root: false
 ##  page_scale недвижимость
 
 Получает рассчитанный масштаб страницы листа.
-Возвращает заданный масштаб, если установлено значение [PageSetup.zoom](/cells/ru/python-net/aspose.cells/pagesetup#zoom). В противном случае возвращает рассчитанный масштаб в соответствии с [PageSetup.fit_to_pages_wide](/cells/ru/python-net/aspose.cells/pagesetup#fit_to_pages_wide) и [PageSetup.fit_to_pages_tall](/cells/ru/python-net/aspose.cells/pagesetup#fit_to_pages_tall).
+Возвращает заданный масштаб, если установлено значение [PageSetup.zoom](/cells/ru/python-net/aspose.cells/pagesetup#zoom).
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

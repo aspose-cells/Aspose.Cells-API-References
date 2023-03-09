@@ -11,7 +11,7 @@ is_root: false
 
 Ruft das ActiveX-Steuerelement ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose import pycore

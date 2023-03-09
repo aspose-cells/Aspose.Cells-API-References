@@ -18,14 +18,14 @@ def format_characters(self, start_index, length, font):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_index | int | L'indice di partenza.|
 | length | int | La lunghezza.|
-| font | [Font](/cells/it/python-net/aspose.cells/font) |L'impostazione del carattere.|
+| font | [Font](/cells/it/python-net/aspose.cells/font) | L'impostazione del carattere.|
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+NOTA: questo membro è ora obsoleto.
 utilizzare il metodo Shape.FormatCharacters(int startIndex, int length, Font font, StyleFlag flag).
  Questa proprietà verrà rimossa 12 mesi dopo da marzo 2016.
 Aspose si scusa per gli eventuali disagi causati.
@@ -41,11 +41,11 @@ def format_characters(self, start_index, length, font, flag):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_index | int | L'indice di partenza.|
 | length | int | La lunghezza.|
-| font | [Font](/cells/it/python-net/aspose.cells/font) |L'impostazione del carattere.|
+| font | [Font](/cells/it/python-net/aspose.cells/font) | L'impostazione del carattere.|
 | flag | [StyleFlag](/cells/it/python-net/aspose.cells/styleflag) | La bandiera dell'impostazione del carattere.|
 
 

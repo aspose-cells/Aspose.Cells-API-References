@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen dilimleyicinin yüksekliğini piksel cinsinden döndürür veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

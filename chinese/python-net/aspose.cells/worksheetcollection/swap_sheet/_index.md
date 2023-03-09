@@ -1,6 +1,6 @@
 ﻿---
 title: swap_sheet方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 210
@@ -18,7 +18,7 @@ def swap_sheet(self, sheet_index1, sheet_index2):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | sheet_index1 | int |第一张工作表。|
 | sheet_index2 | int |第二个工作表。|

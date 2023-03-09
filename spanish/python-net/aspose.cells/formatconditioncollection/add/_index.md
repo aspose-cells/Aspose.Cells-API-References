@@ -24,11 +24,11 @@ def add(self, cell_area, type, operator_type, formula1, formula2):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | Rango de celdas con formato condicional.|
+| cell_area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) |Rango de celdas con formato condicional.|
 | type | [FormatConditionType](/cells/es/python-net/aspose.cells/formatconditiontype) | Tipo de formato condicional. Podría ser uno de los miembros de FormatConditionType.|
-| operator_type | [OperatorType](/cells/es/python-net/aspose.cells/operatortype) | Operador de comparación. Podría ser uno de los miembros de OperatorType.|
+| operator_type | [OperatorType](/cells/es/python-net/aspose.cells/operatortype) | Operador de comparación Podría ser uno de los miembros de OperatorType.|
 | formula1 | str | El valor o la expresión asociada con el formato condicional.|
 | formula2 | str | El valor o la expresión asociada con el formato condicional|
 

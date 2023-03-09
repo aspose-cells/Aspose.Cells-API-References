@@ -10,7 +10,7 @@ is_root: false
 ##  table_css_id fastighet
 
  Hämtar och ställer in prefixet för typen css-namn som tr,col,td och så vidare, de finns i tabellelementet
-som har det specifika TableCssId-attributet. Standardvärdet är "".
+som har det specifika TableCssId-attributet.
 ###  Definition:
 ```python
 @property

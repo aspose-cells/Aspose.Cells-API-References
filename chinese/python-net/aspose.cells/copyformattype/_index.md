@@ -1,13 +1,13 @@
 ﻿---
 title: CopyFormatType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1880
 url: /zh/python-net/aspose.cells/copyformattype/
 is_root: false
 ---
-##  CopyFormatType枚举
+## CopyFormatType枚举
 表示插入行时复制格式的类型。
 
 

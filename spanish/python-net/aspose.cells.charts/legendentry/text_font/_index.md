@@ -13,7 +13,7 @@ Obtiene un objeto [LegendEntry.font](/cells/es/python-net/aspose.cells.charts/le
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
  utilice la propiedad LegendEntry.Font.
  Esta propiedad será eliminada 12 meses después desde ENERO 2012.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

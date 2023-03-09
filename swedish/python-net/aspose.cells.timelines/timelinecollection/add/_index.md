@@ -22,9 +22,9 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | dest_cell_name | str | Cellnamnet i det övre vänstra hörnet av tidslinjeintervallet.|
 | base_field_name | str | Namnet på PivotField i PivotTable.BaseFields|
 
@@ -53,9 +53,9 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | dest_cell_name | str | Cellnamnet i det övre vänstra hörnet av tidslinjeintervallet.|
 | base_field_index | int | Indexet för PivotField i PivotTable.BaseFields|
 
@@ -84,9 +84,9 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | dest_cell_name | str | Cellnamnet i det övre vänstra hörnet av tidslinjeintervallet.|
 | base_field | aspose.cells.pivot.PivotField | Pivotfältet i PivotTable.BaseFields|
 
@@ -115,9 +115,9 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | row | int | Radindex för cellen i det övre vänstra hörnet av tidslinjeintervallet.|
 | column | int | Kolumnindex för cellen i det övre vänstra hörnet av tidslinjeintervallet.|
 | base_field_name | str | Namnet på PivotField i PivotTable.BaseFields|
@@ -147,9 +147,9 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | row | int | Radindex för cellen i det övre vänstra hörnet av tidslinjeintervallet.|
 | column | int | Kolumnindex för cellen i det övre vänstra hörnet av tidslinjeintervallet.|
 | base_field_index | int | Indexet för PivotField i PivotTable.BaseFields|
@@ -179,9 +179,9 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | row | int | Radindex för cellen i det övre vänstra hörnet av tidslinjeintervallet.|
 | column | int | Kolumnindex för cellen i det övre vänstra hörnet av tidslinjeintervallet.|
 | base_field | aspose.cells.pivot.PivotField | Pivotfältet i PivotTable.BaseFields|

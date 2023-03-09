@@ -1,13 +1,13 @@
 ﻿---
 title: PivotTableStyleType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 230
 url: /zh/python-net/aspose.cells.pivot/pivottablestyletype/
 is_root: false
 ---
-##  PivotTableStyleType枚举
+## PivotTableStyleType枚举
 表示数据透视表样式类型。
 
 

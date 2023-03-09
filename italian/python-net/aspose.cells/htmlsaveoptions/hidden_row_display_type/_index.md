@@ -11,7 +11,7 @@ is_root: false
 
 Riga nascosta (l'altezza di questa riga è 0) in excel, prima di salvarla in formato html,
 se HtmlHiddenRowDisplayType è "Remove", la riga nascosta non verrebbe emessa,
-se il valore è "Nascosto", la riga verrebbe emessa, ma era nascosta, il valore predefinito è "Nascosto"
+se il valore è "Nascosto", la riga sarebbe stata emessa, ma era nascosta, il valore predefinito è "Nascosto"
 ###  Definizione:
 ```python
 @property

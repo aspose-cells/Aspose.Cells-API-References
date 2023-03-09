@@ -13,7 +13,7 @@ Gibt die maximale Anzahl von Iterationen zum Auflösen eines Zirkelverweises zur
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte FormulaSettings.MaxIteration.
+HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen FormulaSettings.MaxIteration.
  Diese Property wird 12 Monate später seit Februar 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

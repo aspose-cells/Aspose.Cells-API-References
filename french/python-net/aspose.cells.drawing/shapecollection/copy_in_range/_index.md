@@ -18,15 +18,15 @@ def copy_in_range(self, source_shapes, ca, dest_row, dest_column, is_contained):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | source_shapes | [ShapeCollection](/cells/fr/python-net/aspose.cells.drawing/shapecollection) | Formes sources.|
 | ca | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | La plage source.|
 | dest_row | int | Index de ligne dest de la plage dest.|
 | dest_column | int | La colonne dest de la plage dest.|
-| is_contained | bool | Si seulement copier les formes qui sont contenues dans la plage.<br/> Si vrai, copie uniquement les formes de la plage.<br/> Sinon, cela fonctionne comme MS Office.|
+| is_contained | bool | Si seulement copier les formes qui sont contenues dans la plage.<br/> Si true, copie uniquement les formes de la plage.<br/> Sinon, cela fonctionne comme MS Office.|
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import CellArea

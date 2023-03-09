@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.pivot/pivottable/format_row/
 is_root: false
 ---
 ##  format_row(row, style) {#int-Style}
-Dar formato a los datos de la fila en el área pivotable
+Dar formato a los datos de la fila en el área de la tabla dinámica
 
 
 
@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila del objeto Fila|
 | style | [Style](/cells/es/python-net/aspose.cells/style) | Estilo que se va a formatear|

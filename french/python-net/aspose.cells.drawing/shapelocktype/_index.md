@@ -20,8 +20,8 @@ Le type ShapeLockType expose les membres suivants :
 | GROUP | Groupe|
 | ADJUST_HANDLES | Ajuster les poignées|
 | TEXT | Texte|
-| POINTS | Points|
-| CROP | Culture|
+| POINTS | points|
+| CROP |Culture|
 | SELECTION | Sélection|
 | MOVE | Déplacer|
 | ASPECT_RATIO | Ratio d'aspect|

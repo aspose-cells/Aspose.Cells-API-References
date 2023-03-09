@@ -22,12 +22,12 @@ def start_cell(self, column_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column_index | int | index de colonne de la cellule à traiter|
 ###  Remarques
 
-Il sera appelé lorsqu'il atteindra une cellule existante dans la ligne actuelle. La ligne actuelle est la ligne du dernier appel du [LightCellsDataHandler.process_row(row)](/cells/fr/python-net/aspose.cells/lightcellsdatahandler/process_row).
+Il sera appelé lorsqu'il atteindra une cellule existante dans la ligne actuelle. La ligne actuelle est la ligne du dernier appel de [LightCellsDataHandler.process_row(row)](/cells/fr/python-net/aspose.cells/lightcellsdatahandler/process_row).
 
 
 ###  Voir également

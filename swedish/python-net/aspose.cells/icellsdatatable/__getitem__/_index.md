@@ -13,7 +13,7 @@ Hämtar data som lagras i kolumnen som anges av index.
 ###  Indexerare
 | namn| Beskrivning|
 | :- | :- |
-| index |Det nollbaserade indexet för kolumnen.|
+| index | Det nollbaserade indexet för kolumnen.|
 
 
 

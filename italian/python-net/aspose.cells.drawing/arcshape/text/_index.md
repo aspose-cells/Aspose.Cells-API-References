@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta la stringa in questo oggetto TextBox.
 
-###  Esempio
+###  Esempi
 
 ```python
 

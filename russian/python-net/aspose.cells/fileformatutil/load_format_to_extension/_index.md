@@ -22,12 +22,12 @@ def load_format_to_extension(self, load_format):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| load_format | [LoadFormat](/cells/ru/python-net/aspose.cells/loadformat) | Формат загружаемого файла.|
+| load_format | [LoadFormat](/cells/ru/python-net/aspose.cells/loadformat) | Формат загруженного файла.|
 ###  Примечания
 
-Если его невозможно преобразовать, возвращает null.
+Если он не может быть преобразован, возвращает ноль.
 
 
 ###  Смотрите также

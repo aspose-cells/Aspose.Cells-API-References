@@ -13,10 +13,10 @@ Belirtilen kontrolün Boş değerleri nasıl görüntüleyeceğini gösterir.
 
 ###  Notlar
 
-| Ayar| Tanım|
+| Ayarlar| Tanım|
 | :- | :- |
-| Doğru| Kontrol, Evet, Hayır ve Boş değerler için durumlar arasında geçiş yapacaktır. Value özelliği Null olarak ayarlandığında denetim soluk (gri) görünür.|
-| YANLIŞ| (Varsayılan) Kontrol, Evet ve Hayır değerleri için durumlar arasında geçiş yapacaktır. Boş değerler, Değer yokmuş gibi görüntülenir.|
+| Doğru| Kontrol, Evet, Hayır ve Boş değerler için durumlar arasında geçiş yapacaktır.|
+| YANLIŞ|(Varsayılan) Kontrol, Evet ve Hayır değerleri için durumlar arasında geçiş yapacaktır.|
 ###  Tanım:
 ```python
 @property

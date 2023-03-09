@@ -18,7 +18,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | string_value | str | Ingångsvärde|
 | is_converted | bool | Sant: konverteras till annan datatyp om så är lämpligt.|

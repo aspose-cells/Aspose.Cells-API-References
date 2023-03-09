@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.tables/listobject/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-Aggiorna il nome di tutte le colonne dell'elenco dal foglio di lavoro.
+Aggiorna tutti i nomi delle colonne dell'elenco dal foglio di lavoro.
 
 
 

@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, recursive):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | recursive | bool | Doğrudan bu hücreye başvurmayan bağımlıları döndürür.<br/> ancak bu hücrenin diğer yapraklarına referans|
 ###  Notlar
@@ -30,7 +30,7 @@ def get_dependents_in_calculation(self, recursive):
 Bu yöntemi kullanmak için lütfen çalışma kitabının şu değer için doğru değere ayarlandığından emin olun:
 [FormulaSettings.enable_calculation_chain](/cells/tr/python-net/aspose.cells/formulasettings#enable_calculation_chain) ve tamamen bu ayarla hesaplanmıştır.
 Bu hücreye herhangi bir formül başvurusu yoksa, null döndürülür.
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

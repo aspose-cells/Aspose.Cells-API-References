@@ -22,7 +22,7 @@ def add_copy(self, sheet_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet_name | str | Kaynak çalışma sayfasının adı.|
 ###  İstisnalar
@@ -48,9 +48,9 @@ def add_copy(self, sheet_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| sheet_index | int | Kaynak çalışma sayfası dizini.|
+| sheet_index | int | Kaynaklar dizini çalışma sayfası.|
 
 
 

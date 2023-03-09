@@ -15,7 +15,7 @@ Obtiene o establece un valor que indica si la hoja de cálculo generada contendr
 
 El valor por defecto es verdadero.
 
-###  Ejemplo
+###  Ejemplos
 
 El siguiente código hace que la barra de desplazamiento vertical sea invisible para la hoja de cálculo.
 

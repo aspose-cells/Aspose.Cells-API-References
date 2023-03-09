@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  query_table الملكية
 
-يحصل على جدول الاستعلام المرتبط.
+يحصل على QueryTable المرتبط.
 ###  تعريف:
 ```python
 @property

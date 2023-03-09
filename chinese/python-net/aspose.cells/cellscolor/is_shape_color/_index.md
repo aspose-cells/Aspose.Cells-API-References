@@ -1,6 +1,6 @@
 ﻿---
 title: is_shape_color 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -9,12 +9,12 @@ is_root: false
 ---
 ## is_shape_color 属性
 
-获取并设置应用于单元格或形状的颜色。
+获取和设置应用于单元格或形状的颜色。
 
 ### 评论
 
 细胞的颜色和形状的表达是不同的。
-例如：具有相同色调值的主题颜色在单元格和形状中将不相同。
+例如：具有相同tint值的主题色在单元格和形状中不会相同。
 ### 定义：
 ```python
 @property

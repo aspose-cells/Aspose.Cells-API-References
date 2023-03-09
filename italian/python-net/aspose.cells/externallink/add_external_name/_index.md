@@ -18,10 +18,10 @@ def add_external_name(self, text, refer_to):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| text | str | Il testo del nome esterno.<br/> Se il nome esterno appartiene a un foglio di lavoro, il testo deve essere Foglio1!Testo.|
-| refer_to | str | Il referTo del nome esterno. Deve essere una cella o l'intervallo.|
+| text | str | Il testo del nome esterno.<br/>Se il nome esterno appartiene a un foglio di lavoro, il testo deve essere Foglio1!Testo.|
+| refer_to | str | Il referTo del nome esterno.|
 
 
 

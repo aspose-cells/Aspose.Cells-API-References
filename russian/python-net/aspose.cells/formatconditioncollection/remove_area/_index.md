@@ -18,9 +18,9 @@ def remove_area(self, index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| index | int |Индекс условно форматированного диапазона ячеек, который необходимо удалить.|
+| index | int | Индекс условно отформатированного диапазона ячеек, который нужно удалить.|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}
@@ -29,7 +29,7 @@ def remove_area(self, index):
 
 ###  Возвращает
 
-Возвращает TRUE, этот FormatCondtionCollection должен быть удален.
+Возвращает TRUE, этот FormatConditionCollection должен быть удален.
 
 
 ```python
@@ -38,9 +38,9 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| start_row | int | Начальная строка диапазона.|
+| start_row | int | Начальный ряд диапазона.|
 | start_column | int | Начальный столбец диапазона.|
 | total_rows | int | Количество строк диапазона.|
 | total_columns | int | Количество столбцов диапазона.|

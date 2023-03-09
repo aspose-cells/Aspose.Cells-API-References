@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Anmärkningar
 
-En strängmatris skapas vid varje samtal. Arrayen sorteras och duplicerade värden tas bort.
+En strängmatris skapas vid varje samtal.
 
 
 ###  Se även

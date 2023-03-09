@@ -13,7 +13,7 @@ is_root: false
 
 ###  Notlar
 
-Varsayılan değer artık yanlıştır. MS Excel 2013 ile aynıdır.
+Varsayılan değer artık false, MS Excel 2013 ile aynı.
 ###  Tanım:
 ```python
 @property

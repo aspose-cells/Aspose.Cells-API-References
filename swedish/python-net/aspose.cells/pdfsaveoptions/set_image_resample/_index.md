@@ -20,9 +20,9 @@ def set_image_resample(self, desired_ppi, jpeg_quality):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| desired_ppi | int | Önskade pixlar per tum. 220 hög kvalitet. 150 skärmkvalitet. 96 e-postkvalitet.|
+| desired_ppi | int | Önskad pixel per tum. 220 hög kvalitet. 150 skärmkvalitet. 96 e-postkvalitet.|
 | jpeg_quality | int | 0 - 100 % JPEG kvalitet.|
 
 ###  Exempel

@@ -14,7 +14,7 @@ Ruft die Koordinate y der oberen linken Ecke in Einheiten von 1/4000 des Diagram
 ###  Bemerkungen
 
  Wie konvertiert man Einheiten von 1/4000 in Pixel?
-in Pixel = Y * Chart.ChartObject.Height / 4000;
+Y in Pixel = Y * Chart.ChartObject.Height / 4000;
 ###  Definition:
 ```python
 @property

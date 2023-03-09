@@ -26,12 +26,12 @@ def add_group_box(self, upper_left_row, top, upper_left_column, left, height, wi
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz von GroupBox von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Repräsentiert den horizontalen Versatz von GroupBox von seiner linken Spalte in Pixeleinheiten.|
 | height | int | Repräsentiert die Höhe der GroupBox in Pixeleinheiten.|
-| width | int |Repräsentiert die Breite der GroupBox in Pixeleinheiten.|
+| width | int | Repräsentiert die Breite der GroupBox in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

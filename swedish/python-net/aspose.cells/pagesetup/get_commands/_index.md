@@ -22,7 +22,7 @@ def get_commands(self, header_footer_script):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | header_footer_script | str | Skriptet för sidhuvud/sidfot|
 

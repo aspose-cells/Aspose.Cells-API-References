@@ -1,5 +1,5 @@
 ﻿---
-title: ThemeColor sınıf
+title: ThemeColor sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1430
 url: /tr/python-net/aspose.cells/themecolor/
 is_root: false
 ---
-##  ThemeColor sınıf
+##  ThemeColor sınıfı
 Bir tema rengini temsil eder.
 
 
@@ -28,7 +28,7 @@ ThemeColor türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import BackgroundType, ThemeColor, ThemeColorType, Workbook

@@ -23,7 +23,7 @@ def get_cell(self, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini|
 | column | int | Sütun dizini|

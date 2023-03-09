@@ -22,7 +22,7 @@ Typen MemoryFontSource avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [MemoryFontSource(font_data)](/cells/sv/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Ctor.|
+| [MemoryFontSource(font_data)](/cells/sv/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Direktör.|
 
 
 ###  Egenskaper

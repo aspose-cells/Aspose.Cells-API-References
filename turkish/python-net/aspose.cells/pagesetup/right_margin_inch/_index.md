@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin_inch mülk
 
-İnç birimi cinsinden sağ kenar boşluğunun boyutunu temsil eder.
+Sağ kenar boşluğunun boyutunu inç cinsinden temsil eder.
 ###  Tanım:
 ```python
 @property

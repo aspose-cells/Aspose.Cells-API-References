@@ -18,7 +18,7 @@ def group_columns(self, first_index, last_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_index | int | Det första kolumnindexet som ska grupperas.|
 | last_index | int | Det sista kolumnindexet som ska grupperas.|
@@ -35,7 +35,7 @@ def group_columns(self, first_index, last_index, is_hidden):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_index | int | Det första kolumnindexet som ska grupperas.|
 | last_index | int | Det sista kolumnindexet som ska grupperas.|

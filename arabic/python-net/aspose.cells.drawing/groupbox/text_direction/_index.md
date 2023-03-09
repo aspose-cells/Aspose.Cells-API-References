@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على / تعيين اتجاه تدفق النص لهذا الكائن.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import TextDirectionType

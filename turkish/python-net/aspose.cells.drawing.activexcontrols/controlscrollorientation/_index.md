@@ -18,7 +18,7 @@ ControlScrollOrientation türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | AUTO | Denetimin genişliği yüksekliğinden büyük olduğunda denetim yatay olarak işlenir.<br/> Aksi takdirde kontrol dikey olarak sağlanır.|
-| VERTICAL | Kontrol dikey olarak yapılır.|
+| VERTICAL |Kontroller dikey olarak işlenir.|
 | HORIZONTAL | Kontrol yatay olarak yapılır.|
 
 

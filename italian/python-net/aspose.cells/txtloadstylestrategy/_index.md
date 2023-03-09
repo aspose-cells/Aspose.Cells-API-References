@@ -18,8 +18,8 @@ Il tipo TxtLoadStyleStrategy espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | NONE | Non imposta lo stile per il valore analizzato.|
-| BUILT_IN | Imposta lo stile come numero/data/ora incorporati quando i valori analizzati sono semplici valori numerici/data/ora.|
-| EXACT_FORMAT |Imposta il formato personalizzato esatto per il valore analizzato per rendere il valore formattato uguale a quello di input originale.|
+| BUILT_IN |Imposta lo stile come numero/data/ora incorporati quando i valori analizzati sono semplici valori numerici/data/ora.|
+| EXACT_FORMAT | Imposta il formato personalizzato esatto per il valore analizzato per rendere il valore formattato uguale a quello di input originale.|
 
 
 

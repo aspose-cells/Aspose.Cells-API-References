@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_strict_schema11 Eigentum
 
-Gibt an, ob die ods-Datei im ODF-Format Version 1.1 gespeichert werden soll. Standard ist falsch.
+Gibt an, ob die ods-Datei im ODF-Format Version 1.1 gespeichert werden soll. Der Standardwert ist „false“.
 ###  Definition:
 ```python
 @property

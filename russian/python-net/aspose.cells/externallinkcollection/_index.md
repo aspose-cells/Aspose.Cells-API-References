@@ -40,7 +40,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

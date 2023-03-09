@@ -14,7 +14,7 @@ Ruft den IStreamProvider zum Exportieren von Objekten ab oder legt diesen fest.
 ###  Bemerkungen
 
 Beim Speichern als SVG oder Tiff wird diese Eigenschaft ignoriert .
-Andernfalls, wenn mehr als ein Bild gespeichert werden soll, werden wir andere Bilder darüber schreiben.
+Andernfalls, wenn mehr als ein Bild gespeichert werden soll, schreiben wir weitere Bilder dazu.
 ###  Definition:
 ```python
 @property

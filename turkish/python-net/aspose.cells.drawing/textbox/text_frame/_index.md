@@ -13,7 +13,7 @@ Belirtilen şekil için hizalama ve bağlantı özelliklerini içeren bir TextFr
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
  lütfen Shape.TextBody.TextAlignment özelliğini kullanın.
  Bu mülk, Mayıs 2016'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

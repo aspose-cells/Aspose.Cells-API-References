@@ -1,5 +1,5 @@
 ﻿---
-title: XmlSaveOptions sınıf
+title: XmlSaveOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1720
 url: /tr/python-net/aspose.cells/xmlsaveoptions/
 is_root: false
 ---
-##  XmlSaveOptions sınıf
+##  XmlSaveOptions sınıfı
 Çalışma kitabını xml dosyası olarak kaydetme seçeneklerini temsil eder.
 
 
@@ -22,7 +22,7 @@ XmlSaveOptions türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [XmlSaveOptions()](/cells/tr/python-net/aspose.cells/xmlsaveoptions/__init__/#) | Xml dosyasını kaydetmek için seçenekler oluşturur.|
+| [XmlSaveOptions()](/cells/tr/python-net/aspose.cells/xmlsaveoptions/__init__/#) | Xml dosyalarını kaydetmek için seçenekler oluşturur.|
 
 
 ###  Özellikler
@@ -35,13 +35,13 @@ XmlSaveOptions türü aşağıdaki üyeleri gösterir:
 | [merge_areas](/cells/tr/python-net/aspose.cells/xmlsaveoptions/merge_areas) | Dosyayı kaydetmeden önce koşullu biçimlendirme ve doğrulama alanlarının birleştirilip birleştirilmediğini belirtir.|
 | [create_directory](/cells/tr/python-net/aspose.cells/xmlsaveoptions/create_directory) | true ise ve dizin yoksa, dosya kaydedilmeden önce dizin otomatik olarak oluşturulur.|
 | [sort_names](/cells/tr/python-net/aspose.cells/xmlsaveoptions/sort_names) | Dosyayı kaydetmeden önce tanımlı adların sıralanıp sıralanmadığını gösterir.|
-| [sort_external_names](/cells/tr/python-net/aspose.cells/xmlsaveoptions/sort_external_names) | Dosyayı kaydetmeden önce harici tanımlı adların sıralanıp sıralanmadığını gösterir.|
-| [refresh_chart_cache](/cells/tr/python-net/aspose.cells/xmlsaveoptions/refresh_chart_cache) |Grafik önbellek verilerinin yenilenip yenilenmediğini gösterir.|
-| [warning_callback](/cells/tr/python-net/aspose.cells/xmlsaveoptions/warning_callback) | Uyarı geri aramasını alır veya ayarlar.|
+| [sort_external_names](/cells/tr/python-net/aspose.cells/xmlsaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici olarak tanımlanmış adların sıralanıp sıralanmadığını gösterir.|
+| [refresh_chart_cache](/cells/tr/python-net/aspose.cells/xmlsaveoptions/refresh_chart_cache) | Grafik önbellek verilerinin yenilenip yenilenmediğini gösterir.|
+| [warning_callback](/cells/tr/python-net/aspose.cells/xmlsaveoptions/warning_callback) | Uyarı geri aramalarını alır veya ayarlar.|
 | [update_smart_art](/cells/tr/python-net/aspose.cells/xmlsaveoptions/update_smart_art) | Akıllı sanat ayarının güncellenip güncellenmediğini gösterir.<br/> Varsayılan değer yanlıştır.|
 | [sheet_indexes](/cells/tr/python-net/aspose.cells/xmlsaveoptions/sheet_indexes) | Dışa aktarılan sayfaların dizinlerini temsil eder.|
 | [export_area](/cells/tr/python-net/aspose.cells/xmlsaveoptions/export_area) | Dışa aktarma aralığını alır veya ayarlar.|
-| [has_header_row](/cells/tr/python-net/aspose.cells/xmlsaveoptions/has_header_row) | Aralığın başlık satırı içerip içermediğini gösterir.|
+| [has_header_row](/cells/tr/python-net/aspose.cells/xmlsaveoptions/has_header_row) | Aralığın bir başlık satırı içerip içermediğini gösterir.|
 | [xml_map_name](/cells/tr/python-net/aspose.cells/xmlsaveoptions/xml_map_name) | Dosyada xml haritasının dışa aktarılıp aktarılmadığını gösterir.|
 
 

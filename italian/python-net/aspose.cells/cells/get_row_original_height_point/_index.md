@@ -22,7 +22,7 @@ def get_row_original_height_point(self, row):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | L'indice di riga.|
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name Eigentum
 
-Gibt die name der Verbindung an. Jede Verbindung muss eine eindeutige name haben.
+Gibt die name der Verbindung an.
 ###  Definition:
 ```python
 @property

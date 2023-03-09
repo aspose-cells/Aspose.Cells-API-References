@@ -23,10 +23,10 @@ def get_picture(self, is_header, section):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_header | bool | Indique s'il se trouve dans l'en-tête ou le pied de page.|
-| section | int | : Section gauche, 1 : Section centrale, 2 : Section droite.|
+| section | int | 0 : Section gauche, 1 : Section centrale, 2 : Section droite.|
 
 
 ##  get_picture(is_first, is_even, is_header, section) {#bool-bool-bool-int}
@@ -44,12 +44,12 @@ def get_picture(self, is_first, is_even, is_header, section):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_first | bool | Indique si l'image de l'en-tête/du pied de page de la première page est récupérée.|
 | is_even | bool | Indique si l'image d'un en-tête/pied de page pair est obtenue.|
-| is_header | bool |Indique si l'image de l'en-tête/du pied de page est récupérée.|
-| section | int | : Section gauche, 1 : Section centrale, 2 : Section droite.|
+| is_header | bool | Indique si l'image de l'en-tête/du pied de page est récupérée.|
+| section | int | 0 : Section gauche, 1 : Section centrale, 2 : Section droite.|
 
 
 

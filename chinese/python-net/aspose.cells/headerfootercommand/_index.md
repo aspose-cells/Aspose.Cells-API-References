@@ -1,13 +1,13 @@
 ﻿---
 title: HeaderFooterCommand类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 740
 url: /zh/python-net/aspose.cells/headerfootercommand/
 is_root: false
 ---
-##  HeaderFooterCommand类
+## HeaderFooterCommand类
 表示页眉/页脚的命令
 
 

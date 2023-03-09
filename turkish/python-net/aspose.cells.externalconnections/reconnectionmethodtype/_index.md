@@ -19,7 +19,7 @@ ReConnectionMethodType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | REQUIRED | Yenileme sırasında mevcut bağlantı bilgilerini kullanın ve geçersiz olması durumunda<br/> ardından harici bağlantı dosyasında mevcutsa güncellenmiş bağlantı bilgilerini alın.|
 | ALWAYS | Her yenilemede harici bağlantı dosyasından güncellenmiş bağlantı bilgilerini alın,<br/> varsa, mevcut bağlantı bilgileri yerine bunu kullanın.<br/> Bu durumda, harici bağlantı dosyası kullanılamıyorsa veri yenileme başarısız olur.|
-| NEVER | Harici bağlantı dosyasından asla güncel bağlantı bilgileri almayın<br/>mevcut olsa bile ve mevcut bağlantı bilgileri geçersiz olsa bile|
+| NEVER | Harici bağlantı dosyasından asla güncel bağlantı bilgileri almayın<br/> mevcut olsa bile ve mevcut bağlantı bilgileri geçersiz olsa bile|
 
 
 

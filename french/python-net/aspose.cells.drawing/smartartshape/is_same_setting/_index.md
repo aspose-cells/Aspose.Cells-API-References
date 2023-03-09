@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing/smartartshape/is_same_setting/
 is_root: false
 ---
 ##  is_same_setting(obj) {#any}
-Renvoie si la forme est identique.
+Retourne si la forme est la même.
 
 
 ###  Retour
@@ -22,11 +22,11 @@ def is_same_setting(self, obj):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | obj | any |  |
 
-###  Exemple
+###  Exemples
 
 ```python
 

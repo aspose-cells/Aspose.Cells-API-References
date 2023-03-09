@@ -10,7 +10,7 @@ is_root: false
 ##  auto_scaling mülk
 
  Microsoft Excel bir 3-B grafiği boyut olarak eşdeğer 2-B grafiğe daha yakın olacak şekilde ölçeklerse doğrudur.
-RightAngleAxes özelliği True olmalıdır.
+Sağ Açı Eksenleri özelliği True olmalıdır.
 ###  Tanım:
 ```python
 @property

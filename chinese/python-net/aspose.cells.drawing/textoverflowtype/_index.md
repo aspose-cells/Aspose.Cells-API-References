@@ -1,13 +1,13 @@
 ﻿---
 title: TextOverflowType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1170
 url: /zh/python-net/aspose.cells.drawing/textoverflowtype/
 is_root: false
 ---
-##  TextOverflowType枚举
+## TextOverflowType枚举
 表示文本垂直或水平溢出的方式。
 
 

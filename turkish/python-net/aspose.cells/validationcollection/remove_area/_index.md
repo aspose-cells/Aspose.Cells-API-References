@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/validationcollection/remove_area/
 is_root: false
 ---
 ##  remove_area(ca) {#CellArea}
-Aralıktaki tüm doğrulama ayarını kaldırır.
+Aralıktaki tüm doğrulama ayarlarını kaldırır.
 
 
 
@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Doğrulama ayarını içeren aralık.|
 

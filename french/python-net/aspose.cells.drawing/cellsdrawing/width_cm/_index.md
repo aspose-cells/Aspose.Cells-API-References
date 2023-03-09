@@ -11,7 +11,7 @@ is_root: false
 
 Représente la largeur de la forme, en centimètres.
 
-###  Exemple
+###  Exemples
 
 ```python
 

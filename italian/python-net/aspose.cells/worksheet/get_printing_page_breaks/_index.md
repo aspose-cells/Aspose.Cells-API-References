@@ -13,7 +13,7 @@ Ottiene interruzioni di pagina automatiche.
 
 ###  ritorna
 
-Le aree di interruzioni di pagina automatiche.
+Le aree di interruzione di pagina automatiche.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| options | aspose.cells.rendering.ImageOrPrintOptions |Le opzioni di stampa|
+| options | aspose.cells.rendering.ImageOrPrintOptions | Le opzioni di stampa|
 ###  Osservazioni
 
 Ogni area di cella rappresenta un foglio.

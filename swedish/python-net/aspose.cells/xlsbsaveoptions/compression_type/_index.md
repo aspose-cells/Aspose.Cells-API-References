@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compression_type fastighet
 
-Hämtar och ställer in komprimeringstypen för ooxml-fil.
+Hämtar och ställer in komprimeringstypen för ooxml-filer.
 
 ###  Anmärkningar
 

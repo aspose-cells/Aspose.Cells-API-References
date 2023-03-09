@@ -17,12 +17,12 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [name](/cells/ar/python-net/aspose.cells.tables/tablestyle/name) |يحصل على اسم نمط الجدول.|
+| [name](/cells/ar/python-net/aspose.cells.tables/tablestyle/name) | يحصل على اسم نمط الجدول.|
 | [table_style_elements](/cells/ar/python-net/aspose.cells.tables/tablestyle/table_style_elements) | يحصل على جميع عناصر نمط الجدول.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import BackgroundType, CellsHelper, Workbook

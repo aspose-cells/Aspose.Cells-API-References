@@ -18,7 +18,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [category_data](/cells/ar/python-net/aspose.cells.charts/seriescollection/category_data) | الحصول على أو تحديد نطاق قيم محور الفئة.<br/> يمكن أن يكون نطاقًا من الخلايا (مثل ، "d1: e10") ،<br/> أو سلسلة من القيم (مثل ، "{2،6،8،10}").|
-| [second_category_data](/cells/ar/python-net/aspose.cells.charts/seriescollection/second_category_data) | الحصول على أو تحديد نطاق قيم محور الفئة الثانية.<br/> يمكن أن يكون نطاقًا من الخلايا (مثل ، "d1: e10") ،<br/> أو سلسلة من القيم (مثل ، "{2،6،8،10}").<br/> التأثيرات فقط عندما يتم رسم بعض ASerieses على المحور الثاني.|
+| [second_category_data](/cells/ar/python-net/aspose.cells.charts/seriescollection/second_category_data) | الحصول على أو تحديد نطاق قيم محور الفئة الثانية.<br/> يمكن أن يكون نطاقًا من الخلايا (مثل ، "d1: e10") ،<br/> أو سلسلة من القيم (مثل ، "{2،6،8،10}").<br/> التأثيرات فقط عندما يتم رسم بعض ASeries على المحور الثاني.|
 | [is_color_varied](/cells/ar/python-net/aspose.cells.charts/seriescollection/is_color_varied) | يمثل إذا كان لون النقاط متنوعًا.|
 | [capacity](/cells/ar/python-net/aspose.cells.charts/seriescollection/capacity) | الحصول على أو تحديد عدد العناصر التي يمكن أن تحتويها قائمة الصفيف.|
 
@@ -29,21 +29,21 @@ is_root: false
 | [add(area, is_vertical)](/cells/ar/python-net/aspose.cells.charts/seriescollection/add/#str-bool) | اضافة مجموعة [SeriesCollection](/cells/ar/python-net/aspose.cells.charts/seriescollection) الى مخطط.|
 | [add(area, is_vertical, check_labels)](/cells/ar/python-net/aspose.cells.charts/seriescollection/add/#str-bool-bool) | اضافة مجموعة [SeriesCollection](/cells/ar/python-net/aspose.cells.charts/seriescollection) الى مخطط.|
 | [copy_to(array)](/cells/ar/python-net/aspose.cells.charts/seriescollection/copy_to/#list) | ينسخ قائمة المصفوفات بأكملها إلى قائمة مصفوفة متوافقة أحادية البعد ، بدءًا من بداية قائمة الصفيف الهدف.|
-| [copy_to(index, array, array_index, count)](/cells/ar/python-net/aspose.cells.charts/seriescollection/copy_to/#int-list-int-int) | ينسخ نطاقًا من العناصر من قائمة المصفوفة إلى قائمة مصفوفة أحادية البعد متوافقة ، بدءًا من الفهرس المحدد لقائمة الصفيف الهدف.|
+| [copy_to(index, array, array_index, count)](/cells/ar/python-net/aspose.cells.charts/seriescollection/copy_to/#int-list-int-int) |ينسخ نطاقًا من العناصر من قائمة المصفوفة إلى قائمة مصفوفة أحادية البعد متوافقة ، بدءًا من الفهرس المحدد لقائمة الصفيف الهدف.|
 | [index_of(item, index)](/cells/ar/python-net/aspose.cells.charts/seriescollection/index_of/#Series-int) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأول ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من الفهرس المحدد إلى العنصر الأخير.|
 | [index_of(item, index, count)](/cells/ar/python-net/aspose.cells.charts/seriescollection/index_of/#Series-int-int) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأول ضمن نطاق العناصر في قائمة الصفيف الذي يبدأ بالفهرس المحدد ويحتوي على عدد محدد من العناصر.|
 | [last_index_of(item)](/cells/ar/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأخير ضمن قائمة الصفيف بأكملها.|
-| [last_index_of(item, index)](/cells/ar/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
-| [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series-int-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
+| [last_index_of(item, index)](/cells/ar/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
+| [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
 | [get_series_by_order(order)](/cells/ar/python-net/aspose.cells.charts/seriescollection/get_series_by_order/#int) | الحصول على عنصر [Series](/cells/ar/python-net/aspose.cells.charts/series) بالترتيب.|
 | [change_series_order(source_index, dest_index)](/cells/ar/python-net/aspose.cells.charts/seriescollection/change_series_order/#int-int) | يغير أوامر السلسلتين مباشرة.|
-| [set_series_names(start_index, area, is_vertical)](/cells/ar/python-net/aspose.cells.charts/seriescollection/set_series_names/#int-str-bool) | يعيّن اسم كل السلاسل في المخطط.|
+| [set_series_names(start_index, area, is_vertical)](/cells/ar/python-net/aspose.cells.charts/seriescollection/set_series_names/#int-str-bool) | يعيّن اسم كل السلاسل في الرسم البياني.|
 | [add_r1c1(area, is_vertical)](/cells/ar/python-net/aspose.cells.charts/seriescollection/add_r1c1/#str-bool) | اضافة مجموعة [SeriesCollection](/cells/ar/python-net/aspose.cells.charts/seriescollection) الى مخطط.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells.charts/seriescollection/binary_search/#Series) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

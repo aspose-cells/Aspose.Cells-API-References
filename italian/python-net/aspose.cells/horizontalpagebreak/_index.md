@@ -18,12 +18,12 @@ Il tipo HorizontalPageBreak espone i membri seguenti:
 | Proprietà| Descrizione|
 | :- | :- |
 | [start_column](/cells/it/python-net/aspose.cells/horizontalpagebreak/start_column) | Ottiene l'indice di colonna iniziale di questa interruzione di pagina orizzontale.|
-| [end_column](/cells/it/python-net/aspose.cells/horizontalpagebreak/end_column) |Ottiene l'indice di colonna finale di questa interruzione di pagina orizzontale.|
+| [end_column](/cells/it/python-net/aspose.cells/horizontalpagebreak/end_column) | Ottiene l'indice di colonna finale di questa interruzione di pagina orizzontale.|
 | [row](/cells/it/python-net/aspose.cells/horizontalpagebreak/row) | Ottiene l'indice di riga in base zero.|
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

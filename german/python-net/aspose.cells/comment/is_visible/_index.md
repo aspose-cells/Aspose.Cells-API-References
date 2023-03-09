@@ -11,7 +11,7 @@ is_root: false
 
 Stellt dar, ob der Kommentar sichtbar ist oder nicht.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

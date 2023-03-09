@@ -22,9 +22,9 @@ def index_of(self, item, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| item | [ThreadedComment](/cells/es/python-net/aspose.cells/threadedcomment) | El objeto a ubicar en la lista de matrices. El valor puede ser nulo.|
+| item | [ThreadedComment](/cells/es/python-net/aspose.cells/threadedcomment) | El objeto a ubicar en la lista de matrices.|
 | index | int | El índice inicial de base cero de la búsqueda. 0 (cero) es válido en una lista vacía.|
 
 
@@ -34,7 +34,7 @@ Busca el objeto especificado y devuelve el índice basado en cero de la primera 
 
 ###  Devoluciones
 
-El índice de base cero de la primera aparición de valor dentro del rango de elementos en la lista de matriz que comienza en startIndex y contiene el número de elementos, si se encuentra; de lo contrario, -1.
+El índice de base cero de la primera aparición de valor dentro del rango de elementos en la lista de matriz que comienza en startIndex y contiene el número de recuento de elementos, si se encuentra; de lo contrario, -1.
 
 
 ```python
@@ -43,9 +43,9 @@ def index_of(self, item, index, count):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| item | [ThreadedComment](/cells/es/python-net/aspose.cells/threadedcomment) | El objeto a ubicar en la lista de matrices. El valor puede ser nulo.|
+| item | [ThreadedComment](/cells/es/python-net/aspose.cells/threadedcomment) | El objeto a ubicar en la lista de matrices.|
 | index | int | El índice inicial de base cero de la búsqueda. 0 (cero) es válido en una lista vacía.|
 | count | int | El número de elementos en la sección a buscar.|
 

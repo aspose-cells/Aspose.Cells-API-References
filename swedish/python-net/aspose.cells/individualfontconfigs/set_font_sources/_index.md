@@ -18,7 +18,7 @@ def set_font_sources(self, sources):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | sources | list | En mängd källor som innehåller TrueType-teckensnitt.|
 

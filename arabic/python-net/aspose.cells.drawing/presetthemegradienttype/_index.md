@@ -21,7 +21,7 @@ is_root: false
 | TOP_SPOTLIGHT | أعلى أضواء كاشفة|
 | MEDIUM_GRADIENT | متدرج متوسط|
 | BOTTOM_SPOTLIGHT | تسليط الضوء السفلي|
-| RADIAL_GRADIENT |شعاعي التدرج|
+| RADIAL_GRADIENT | شعاعي التدرج|
 
 
 

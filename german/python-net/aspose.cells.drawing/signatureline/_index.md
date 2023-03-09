@@ -27,7 +27,7 @@ Der Typ SignatureLine macht die folgenden Member verfügbar:
 | [provider_id](/cells/de/python-net/aspose.cells.drawing/signatureline/provider_id) | Ruft die ID des Signaturanbieters ab und legt sie fest.|
 | [signer](/cells/de/python-net/aspose.cells.drawing/signatureline/signer) | Ruft den Unterzeichner ab und legt ihn fest.|
 | [title](/cells/de/python-net/aspose.cells.drawing/signatureline/title) | Ruft den Titel des Sängers ab und legt ihn fest.|
-| [email](/cells/de/python-net/aspose.cells.drawing/signatureline/email) |Ruft die E-Mail-Adresse des Sängers ab und legt sie fest.|
+| [email](/cells/de/python-net/aspose.cells.drawing/signatureline/email) | Ruft die E-Mail-Adresse des Sängers ab und legt sie fest.|
 | [is_line](/cells/de/python-net/aspose.cells.drawing/signatureline/is_line) | Gibt an, ob es sich um eine Signaturzeile handelt.|
 | [allow_comments](/cells/de/python-net/aspose.cells.drawing/signatureline/allow_comments) | Gibt an, ob Kommentare angehängt werden können.|
 | [show_signed_date](/cells/de/python-net/aspose.cells.drawing/signatureline/show_signed_date) | Gibt an, ob signiertes Datum angezeigt wird.|
@@ -35,7 +35,7 @@ Der Typ SignatureLine macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

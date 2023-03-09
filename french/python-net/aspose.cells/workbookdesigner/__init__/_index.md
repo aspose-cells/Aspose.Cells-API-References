@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/fr/python-net/aspose.cells/workbook) | Le fichier de modèle de classeur.|
 

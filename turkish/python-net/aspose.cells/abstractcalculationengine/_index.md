@@ -1,5 +1,5 @@
 ﻿---
-title: AbstractCalculationEngine sınıf
+title: AbstractCalculationEngine sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells/abstractcalculationengine/
 is_root: false
 ---
-##  AbstractCalculationEngine sınıf
+##  AbstractCalculationEngine sınıfı
 Aspose.Cells varsayılan hesaplama motorunu genişletmek için kullanıcının özel hesaplama motorunu temsil eder.
 
 
@@ -17,8 +17,8 @@ AbstractCalculationEngine türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [is_param_literal_required](/cells/tr/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) | Hesaplama yaparken bu motorun parametrenin değişmez metnine ihtiyaç duyup duymadığını gösterir. Varsayılan değer yanlıştır.|
-| [process_built_in_functions](/cells/tr/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) | Yerleşik motor tarafından desteklenen yerleşik işlevlerin bu uygulama tarafından kontrol edilip işlenmesi gerekip gerekmediği.<br/>Varsayılan yanlıştır.<br/>Kullanıcının bazı yerleşik fonksiyonların hesaplama mantığını değiştirmesi gerekiyorsa, bu özellik true olarak ayarlanmalıdır.|
+| [is_param_literal_required](/cells/tr/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) | Hesaplama yaparken bu motorun parametrenin sabit metnine ihtiyaç duyup duymadığını gösterir. Varsayılan değer yanlıştır.|
+| [process_built_in_functions](/cells/tr/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) | Yerleşik motor tarafından desteklenen yerleşik işlevlerin bu uygulama tarafından kontrol edilip işlenmesi gerekip gerekmediği.<br/>Varsayılan yanlıştır.<br/> Kullanıcının bazı yerleşik fonksiyonların hesaplama mantığını değiştirmesi gerekiyorsa, bu özellik true olarak ayarlanmalıdır.|
 
 
 ###  Yöntemler

@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene el paths de una forma geométrica personalizada.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

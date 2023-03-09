@@ -17,27 +17,27 @@ MsoPresetTextEffectShape türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| PLAIN_TEXT | Düz Metin|
+| PLAIN_TEXT | düz metin|
 | STOP | Durmak|
-| TRIANGLE_UP | ÜçgenYukarı|
-| TRIANGLE_DOWN | ÜçgenAşağı|
-| CHEVRON_UP | ChevronYukarı|
-| CHEVRON_DOWN | ChevronAşağı|
-| RING_INSIDE | RingInside|
-| RING_OUTSIDE | HalkaDışarıda|
+| TRIANGLE_UP | Yukarı Üçgen|
+| TRIANGLE_DOWN | Aşağı Üçgen|
+| CHEVRON_UP | Chevron Yukarı|
+| CHEVRON_DOWN | Chevron Aşağı|
+| RING_INSIDE | İç Halka|
+| RING_OUTSIDE | Dış Halka|
 | ARCH_UP_CURVE | ArchUpEğrisi|
-| ARCH_DOWN_CURVE | ArchDownCurve|
+| ARCH_DOWN_CURVE |Kemer Aşağı Eğrisi|
 | CIRCLE_CURVE | Daire Eğrisi|
 | BUTTON_CURVE | Düğme Eğrisi|
-| ARCH_UP_POUR | ArchUpPour|
-| ARCH_DOWN_POUR | ArchDownPour|
-| CIRCLE_POUR | daire dökmek|
-| BUTTON_POUR | DüğmePour|
-| CURVE_UP | Eğri Yukarı|
-| CURVE_DOWN | EğriAşağı|
-| CAN_UP |CanUp|
-| CAN_DOWN | CanDown|
-| WAVE1 | Dalga1|
+| ARCH_UP_POUR | Kemer Yukarı Dökün|
+| ARCH_DOWN_POUR | Kemer Aşağı Dökün|
+| CIRCLE_POUR | Daire Dökün|
+| BUTTON_POUR | Düğme Dökümü|
+| CURVE_UP | Yukarı Eğri|
+| CURVE_DOWN | Aşağı Eğri|
+| CAN_UP | Can Yukarı|
+| CAN_DOWN | Düşebilir|
+| WAVE1 | dalga 1|
 | WAVE2 | Dalga2|
 | DOUBLE_WAVE1 | Çift Dalga1|
 | DOUBLE_WAVE2 | Çift Dalga2|
@@ -45,18 +45,18 @@ MsoPresetTextEffectShape türü aşağıdaki üyeleri gösterir:
 | DEFLATE | Söndür|
 | INFLATE_BOTTOM | Alt Şişirmek|
 | DEFLATE_BOTTOM | Tabanı Söndür|
-| INFLATE_TOP | Şişirmek|
-| DEFLATE_TOP | DeflateTop|
-| DEFLATE_INFLATE | SöndürŞişir|
+| INFLATE_TOP | Üst Şişirmek|
+| DEFLATE_TOP | Söndürme Üstü|
+| DEFLATE_INFLATE | Söndür Şişir|
 | DEFLATE_INFLATE_DEFLATE | SöndürŞişirSöndürSöndür|
-| FADE_RIGHT | FadeRight|
-| FADE_LEFT | FadeLeft|
-| FADE_UP | FadeUp|
-| FADE_DOWN | Kararma|
+| FADE_RIGHT | Sağa Kaydır|
+| FADE_LEFT | Sola Kaydır|
+| FADE_UP | yavaş yavaş|
+| FADE_DOWN | Yavaşla|
 | SLANT_UP | Eğimli|
 | SLANT_DOWN | Aşağı Eğimli|
-| CASCADE_UP | Basamaklı|
-| CASCADE_DOWN | Basamaklı Aşağı|
+| CASCADE_UP | Art arda sırala|
+| CASCADE_DOWN | Aşağı Basamakla|
 | MIXED | Karışık|
 
 

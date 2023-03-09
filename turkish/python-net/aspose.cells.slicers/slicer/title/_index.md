@@ -11,7 +11,7 @@ is_root: false
 
 Geçerli Dilimleyici nesnesinin title'ini belirtir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

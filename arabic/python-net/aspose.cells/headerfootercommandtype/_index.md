@@ -25,7 +25,7 @@ is_root: false
 | SHEET_NAME | اسم الورقة|
 | FILE_NAME | اسم الملف بدون مسار|
 | FILE_PATH | مسار الملف بدون اسم الملف|
-| PICTURE | صورة|
+| PICTURE | الصور|
 
 
 

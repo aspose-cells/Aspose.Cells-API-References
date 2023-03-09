@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal proprietà
 
-Indica se si ripetono le formule con la riga del totale parziale.
+Indica se si ripetono formule con righe di totale parziale.
 ###  Definizione:
 ```python
 @property

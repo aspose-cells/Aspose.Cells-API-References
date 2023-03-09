@@ -1,13 +1,13 @@
 ﻿---
 title: Top10Filter类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1490
 url: /zh/python-net/aspose.cells/top10filter/
 is_root: false
 ---
-##  Top10Filter类
+## Top10Filter类
 代表前 10 个过滤器。
 
 

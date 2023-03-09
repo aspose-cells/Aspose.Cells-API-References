@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  end_row fastighet
 
-Hämtar eller ställer in den sista raden i detta område.
+Hämtar eller ställer in den sista raden för detta område.
 
 ###  Se även
 * modul [aspose.cells](../../)

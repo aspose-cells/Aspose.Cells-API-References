@@ -11,7 +11,7 @@ is_root: false
 
 Indica se bloccare le proporzioni.
 
-###  Esempio
+###  Esempi
 
 ```python
 

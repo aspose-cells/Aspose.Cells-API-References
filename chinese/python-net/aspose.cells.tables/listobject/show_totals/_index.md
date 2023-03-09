@@ -1,6 +1,6 @@
 ﻿---
 title: show_totals 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 250
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## show_totals 属性
 
-获取和设置此 ListObject 是否显示总行。
+获取和设置此 ListObject 是否显示总行数。
 ### 定义：
 ```python
 @property

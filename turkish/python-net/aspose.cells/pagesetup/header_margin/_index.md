@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  header_margin mülk
 
-Sayfanın üstünden başlığa olan mesafeyi santimetre biriminde temsil eder.
+Sayfanın üstünden başlığa olan mesafeyi santimetre cinsinden temsil eder.
 ###  Tanım:
 ```python
 @property

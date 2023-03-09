@@ -22,9 +22,9 @@ def custom_print(self, next_page_after_print, print_page_event_args):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| next_page_after_print | bool |Om sant går skrivaren till nästa sida efter att ha skrivit ut aktuell sida|
+| next_page_after_print | bool | Om sant går skrivaren till nästa sida efter att ha skrivit ut aktuell sida|
 | print_page_event_args | aspose.pydrawing.printing.PrintPageEventArgs | System.Drawing.Printing.PrintPageEventArgs |
 
 

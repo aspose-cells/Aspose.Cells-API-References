@@ -11,7 +11,7 @@ is_root: false
 
 Représente la chaîne dans cet objet TextBox.
 
-###  Exemple
+###  Exemples
 
 ```python
 

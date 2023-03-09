@@ -12,7 +12,7 @@ is_root: false
 ###  Klassen
 | Klasse| Beschreibung|
 | :- | :- |
-| [PivotField](/cells/de/python-net/aspose.cells.pivot/pivotfield) | Stellt ein Feld in einem PivotTable-Bericht dar.|
+| [PivotField](/cells/de/python-net/aspose.cells.pivot/pivotfield) |Stellt ein Feld in einem PivotTable-Bericht dar.|
 | [PivotFieldCollection](/cells/de/python-net/aspose.cells.pivot/pivotfieldcollection) | Stellt eine Auflistung aller PivotField-Objekte dar<br/> im spezifischen PivotFields-Typ der PivotTable.|
 | [PivotFilter](/cells/de/python-net/aspose.cells.pivot/pivotfilter) | Stellt einen PivotFilter in der PivotFilter-Auflistung dar.|
 | [PivotFilterCollection](/cells/de/python-net/aspose.cells.pivot/pivotfiltercollection) | Stellt eine Auflistung aller PivotFilter-Objekte dar|
@@ -27,16 +27,16 @@ is_root: false
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
-| [PivotConditionFormatRuleType](/cells/de/python-net/aspose.cells.pivot/pivotconditionformatruletype) |Stellt den Formatierungsregeltyp für PivotTable-Bedingungen dar.|
+| [PivotConditionFormatRuleType](/cells/de/python-net/aspose.cells.pivot/pivotconditionformatruletype) | Stellt den Formatierungsregeltyp für PivotTable-Bedingungen dar.|
 | [PivotConditionFormatScopeType](/cells/de/python-net/aspose.cells.pivot/pivotconditionformatscopetype) | Stellt den Formatierungsbereichstyp der PivotTable-Bedingung dar.|
 | [PivotFieldDataDisplayFormat](/cells/de/python-net/aspose.cells.pivot/pivotfielddatadisplayformat) | Stellt das Datenanzeigeformat im PivotTable-Datenfeld dar.|
-| [PivotFieldSubtotalType](/cells/de/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | Zusammenfassende Beschreibung für PivotFieldSubtotalType.|
+| [PivotFieldSubtotalType](/cells/de/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |Zusammenfassende Beschreibung für PivotFieldSubtotalType.|
 | [PivotFieldType](/cells/de/python-net/aspose.cells.pivot/pivotfieldtype) | Stellt den PivotTable-Feldtyp dar.|
 | [PivotFilterType](/cells/de/python-net/aspose.cells.pivot/pivotfiltertype) | Stellt den PivotTable-Filtertyp dar.|
 | [PivotGroupByType](/cells/de/python-net/aspose.cells.pivot/pivotgroupbytype) | Stellt den PivotTable-Gruppentyp dar.|
-| [PivotItemPosition](/cells/de/python-net/aspose.cells.pivot/pivotitemposition) |Stellt die nächste/vorherige/alle Position des PivotTable-Basiselements im Basisfeld dar.|
+| [PivotItemPosition](/cells/de/python-net/aspose.cells.pivot/pivotitemposition) | Stellt die nächste/vorherige/alle Position des PivotTable-Basiselements im Basisfeld dar.|
 | [PivotMissingItemLimitType](/cells/de/python-net/aspose.cells.pivot/pivotmissingitemlimittype) | Stellt die Anzahl der pro Feld beizubehaltenden Elemente dar.|
 | [PivotTableAutoFormatType](/cells/de/python-net/aspose.cells.pivot/pivottableautoformattype) | Stellt den automatischen PivotTable-Formattyp dar.|
 | [PivotTableStyleType](/cells/de/python-net/aspose.cells.pivot/pivottablestyletype) | Stellt den Stiltyp der Pivot-Tabelle dar.|

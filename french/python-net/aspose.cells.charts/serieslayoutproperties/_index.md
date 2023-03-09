@@ -27,7 +27,7 @@ Le type SeriesLayoutProperties expose les membres suivants :
 | [show_mean_line](/cells/fr/python-net/aspose.cells.charts/serieslayoutproperties/show_mean_line) | Indique si la ligne reliant tous les points moyens est affichée.|
 | [show_outlier_points](/cells/fr/python-net/aspose.cells.charts/serieslayoutproperties/show_outlier_points) | Indique si les points de données aberrants sont affichés.|
 | [show_mean_marker](/cells/fr/python-net/aspose.cells.charts/serieslayoutproperties/show_mean_marker) | Indique si des marqueurs indiquant la moyenne sont affichés.|
-| [show_inner_points](/cells/fr/python-net/aspose.cells.charts/serieslayoutproperties/show_inner_points) |Indique si les points de données non aberrants sont affichés.|
+| [show_inner_points](/cells/fr/python-net/aspose.cells.charts/serieslayoutproperties/show_inner_points) | Indique si les points de données non aberrants sont affichés.|
 | [subtotals](/cells/fr/python-net/aspose.cells.charts/serieslayoutproperties/subtotals) | Représente l'index d'un point de données de sous-total.|
 | [quartile_calculation](/cells/fr/python-net/aspose.cells.charts/serieslayoutproperties/quartile_calculation) | Représente les propriétés statistiques de la série.|
 | [map_label_layout](/cells/fr/python-net/aspose.cells.charts/serieslayoutproperties/map_label_layout) | Obtient et définit la disposition des étiquettes de carte.|

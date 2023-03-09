@@ -10,7 +10,7 @@ is_root: false
 ##  save_data propriété
 
 Vrai si les données externes récupérées via la connexion pour remplir une table doivent être enregistrées
-avec le cahier d'exercices; sinon, faux.
+avec le classeur ; sinon, faux.
 ###  Définition:
 ```python
 @property

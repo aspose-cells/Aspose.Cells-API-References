@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/
 is_root: false
 ---
 ##  SpreadsheetML2003SaveOptions() {#}
-Excel 2003 spreadml dosyasını kaydetme seçeneklerini oluşturur.
+Excel 2003 spreadml dosyalarını kaydetme seçeneklerini oluşturur.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SpreadsheetML2003SaveOptions(save_format) {#SaveFormat}
-Excel 2003 spreadml dosyasını kaydetme seçeneklerini oluşturur.
+Excel 2003 spreadml dosyalarını kaydetme seçeneklerini oluşturur.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kaydetme biçimi.|
 ###  Notlar

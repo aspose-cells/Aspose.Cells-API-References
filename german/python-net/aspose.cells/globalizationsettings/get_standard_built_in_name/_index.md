@@ -24,7 +24,7 @@ def get_standard_built_in_name(self, local_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| local_name | str | Vom Gebietsschema abhängiger Text des integrierten Namens. Das Gebietsschema wurde von der Arbeitsmappe angegeben, für die diese Einstellungen verwendet werden.|
+| local_name | str | Vom Gebietsschema abhängiger Text des integrierten Namens.|
 
 
 

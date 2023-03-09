@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type propiedad
 
-Obtiene los campos dinámicos type.
+Obtiene los campos pivote type.
 ###  Definición:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/loadfilter/start_sheet/
 is_root: false
 ---
 ##  start_sheet(sheet) {#Worksheet}
-Prepara las opciones de filtro antes de cargar la hoja de trabajo dada.
+Prepara opciones de filtro antes de cargar una hoja de trabajo determinada.
 La implementación del usuario de LoadFilter puede cambiar LoadDataFilterOptions aquí
 para indicar cómo cargar datos para esta hoja de cálculo.
 
@@ -20,9 +20,9 @@ def start_sheet(self, sheet):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/es/python-net/aspose.cells/worksheet) | La hoja de cálculo que se va a cargar.<br/>Solo se pueden usar unas pocas propiedades para el objeto de hoja de trabajo dado aquí<br/>porque la mayoría de los datos y propiedades no se han cargado. Las propiedades disponibles son:<br/> Nombre, índice, tipo de visibilidad|
+| sheet | [Worksheet](/cells/es/python-net/aspose.cells/worksheet) | La hoja de cálculo que se va a cargar.<br/>Solo se pueden usar unas pocas propiedades para el objeto de hoja de trabajo dado aquí<br/>porque la mayoría de los datos y propiedades no se han cargado.<br/> Nombre, índice, tipo de visibilidad|
 
 
 

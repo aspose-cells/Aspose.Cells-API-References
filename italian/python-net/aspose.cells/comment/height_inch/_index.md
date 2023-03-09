@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_inch proprietà
 
-Rappresenta l'altezza del commento, in pollici.
+Rappresenta l'altezza del commento, in unità di pollici.
 
-###  Esempio
+###  Esempi
 
 ```python
 

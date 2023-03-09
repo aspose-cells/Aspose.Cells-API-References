@@ -20,7 +20,7 @@ BulletType türü aşağıdaki üyeleri gösterir:
 | NONE | Kurşun yok.|
 | CHARACTER | Karakter mermisi.|
 | PICTURE | Resim mermisi.|
-| AUTO_NUMBERED | Otomatik numaralı madde işareti.|
+| AUTO_NUMBERED | Otomatik numaralı madde işaretleri.|
 
 
 

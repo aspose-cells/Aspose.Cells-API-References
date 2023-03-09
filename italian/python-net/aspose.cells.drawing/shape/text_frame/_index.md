@@ -13,7 +13,7 @@ Restituisce un oggetto TextFrame che contiene le proprietà di allineamento e an
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
  si prega di utilizzare la proprietà Shape.TextBody.TextAlignment.
  Questa proprietà verrà rimossa 12 mesi dopo da maggio 2016.
 Aspose si scusa per gli eventuali disagi causati.

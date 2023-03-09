@@ -11,7 +11,7 @@ is_root: false
 
 Représente le width de la forme, en unité de pixels.
 
-###  Exemple
+###  Exemples
 
 ```python
 

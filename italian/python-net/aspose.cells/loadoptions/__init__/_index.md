@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/loadoptions/__init__/
 is_root: false
 ---
 ##  LoadOptions() {#}
-Crea un'opzione di caricamento del file.
+Crea un'opzione per caricare il file.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  LoadOptions(load_format) {#LoadFormat}
-Crea un'opzione di caricamento del file.
+Crea un'opzione per caricare il file.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, load_format):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/it/python-net/aspose.cells/loadformat) | Il formato di caricamento.|
 

@@ -10,13 +10,13 @@ is_root: false
 ##  left_in_shape proprietà
 
  Rappresenta l'offset orizzontale della forma dal bordo sinistro della forma padre,
-in unità di 1/4000 di larghezza della forma genitore.
+in unità di 1/4000 di larghezza della forma padre.
 
 ###  Osservazioni
 
 Si applica solo quando questa forma è nel gruppo o nel grafico.
 
-###  Esempio
+###  Esempi
 
 ```python
 

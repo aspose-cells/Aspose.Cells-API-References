@@ -18,7 +18,7 @@ def set_custom_calculated_formula(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | formula | str | formeln för denna listkolumn.|
 | is_r1c1 | bool | Om formeln behöver formateras som R1C1.|

@@ -13,7 +13,7 @@ Gibt ein Characters-Objekt zurück, das einen Bereich von characters im Zellente
 
 ###  Kehrt zurück
 
-Zeichenobjekt.
+Charakterobjekte.
 
 
 ```python
@@ -29,7 +29,7 @@ def characters(self, start_index, length):
 ###  Bemerkungen
 
 Diese Methode funktioniert nur bei Zellen mit Zeichenfolgenwerten.
-###  Beispiel
+###  Beispiele
 
 
 ```python

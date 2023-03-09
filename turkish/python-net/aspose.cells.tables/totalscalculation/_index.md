@@ -19,7 +19,7 @@ TotalsCalculation türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | SUM | Sum toplamları hesaplamasını temsil eder.|
 | COUNT | Sayım toplamları hesaplamasını temsil eder.|
-| AVERAGE | Ortalama toplam hesaplamayı temsil eder.|
+| AVERAGE |Ortalama toplam hesaplamayı temsil eder.|
 | MAX | Maksimum toplam hesaplamasını temsil eder.|
 | MIN | Minimum toplam hesaplamasını temsil eder.|
 | VAR | Var toplamları hesaplamasını temsil eder.|

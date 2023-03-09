@@ -22,7 +22,7 @@ def is_hidden_item(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | indexet för pivotItem i pivotfältet.|
 

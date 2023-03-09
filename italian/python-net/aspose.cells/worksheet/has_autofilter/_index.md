@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_autofilter proprietà
 
-Indica se questo foglio di lavoro ha un filtro automatico.
+Indica se questo foglio di lavoro dispone di un filtro automatico.
 ###  Definizione:
 ```python
 @property

@@ -15,7 +15,7 @@ Ottenere o impostare un valore se vengono visualizzate le schede della cartella 
 
 Il valore predefinito è true.
 
-###  Esempio
+###  Esempi
 
 Il codice seguente nasconde le schede del foglio e i pulsanti di scorrimento delle schede per il foglio di calcolo.
 

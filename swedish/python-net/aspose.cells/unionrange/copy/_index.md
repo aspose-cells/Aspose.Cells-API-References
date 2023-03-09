@@ -18,7 +18,7 @@ def copy(self, range, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [UnionRange](/cells/sv/python-net/aspose.cells/unionrange) | Källomfånget.|
 | options | [PasteOptions](/cells/sv/python-net/aspose.cells/pasteoptions) | Klistra specialalternativ.|

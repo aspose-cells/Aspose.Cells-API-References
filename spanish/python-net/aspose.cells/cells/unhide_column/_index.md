@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/cells/unhide_column/
 is_root: false
 ---
 ##  unhide_column(column, width) {#int-float}
-Muestra una columna
+Mostrar una columna
 
 
 
@@ -18,7 +18,7 @@ def unhide_column(self, column, width):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column | int | Índice de columnas.|
 | width | float | Ancho de columna.|

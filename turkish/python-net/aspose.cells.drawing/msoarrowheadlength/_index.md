@@ -18,7 +18,7 @@ MsoArrowheadLength türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | SHORT | Kısa hat sonu uzunluğu|
-| MEDIUM | Orta hat uç uzunluğu|
+| MEDIUM |Orta hat uç uzunluğu|
 | LONG | Uzun hat sonu uzunluğu|
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_calculated_field الملكية
 
-الإشارة إلى ما إذا كان حقل PivotTable المحدد محسوبًا أم لا.
+الإشارة إلى ما إذا كان حقل PivotTable المحدد حقلاً محسوبًا.
 ###  تعريف:
 ```python
 @property

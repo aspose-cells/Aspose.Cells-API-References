@@ -18,9 +18,9 @@ def set_formula1(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| formula | str | Bu biçim koşuluyla ilişkili değer veya ifade.|
+| formula | str |Bu biçim koşuluyla ilişkili değer veya ifade.|
 | is_r1c1 | bool | Formülün R1C1 formülü olup olmadığı.|
 | is_local | bool | Formülün yerel biçimlendirilmiş olup olmadığı.|
 

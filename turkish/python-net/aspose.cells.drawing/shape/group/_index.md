@@ -11,7 +11,7 @@ is_root: false
 
 Bu şekli içeren group şeklini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

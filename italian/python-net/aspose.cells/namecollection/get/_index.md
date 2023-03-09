@@ -22,9 +22,9 @@ def get(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| index | int | L'indice in base zero dell'elemento.|
+| index | int | Indice in base zero dell'elemento.|
 
 
 ##  get(text) {#str}
@@ -42,7 +42,7 @@ def get(self, text):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | text | str | Nome testo.|
 

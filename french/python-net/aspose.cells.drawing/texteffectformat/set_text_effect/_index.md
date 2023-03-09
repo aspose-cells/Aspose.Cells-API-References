@@ -18,9 +18,9 @@ def set_text_effect(self, effect):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| effect | [MsoPresetTextEffect](/cells/fr/python-net/aspose.cells.drawing/msopresettexteffect) |L'effet de texte prédéfini.|
+| effect | [MsoPresetTextEffect](/cells/fr/python-net/aspose.cells.drawing/msopresettexteffect) | L'effet de texte prédéfini.|
 
 
 

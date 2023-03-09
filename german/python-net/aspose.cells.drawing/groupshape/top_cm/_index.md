@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_cm Eigentum
 
-Stellt den vertikalen Versatz der Form von der oberen Reihe in Zentimetern dar.
+Stellt den vertikalen Versatz der Form von der obersten Zeile in Zentimetern dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

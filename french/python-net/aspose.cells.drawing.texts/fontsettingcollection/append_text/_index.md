@@ -18,7 +18,7 @@ def append_text(self, text):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | text | str | Le texte.|
 

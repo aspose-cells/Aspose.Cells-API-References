@@ -11,7 +11,7 @@ is_root: false
 
 Sol kenar boşluğunu Puan birimi cinsinden verir
 
-###  Örnek
+###  örnekler
 
 ```python
 

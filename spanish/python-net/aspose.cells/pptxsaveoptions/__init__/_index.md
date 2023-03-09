@@ -31,7 +31,7 @@ def __init__(self, save_as_image):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | save_as_image | bool | Si es Verdadero, el libro de trabajo se convertirá en algunas imágenes del archivo .pptx.<br/> Si es falso, el libro de trabajo se convertirá en algunas tablas del archivo .pptx.|
 

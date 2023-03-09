@@ -18,9 +18,9 @@ def remove_area(self, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| index | int |فهرس نطاق الخلايا المنسقة الشرطي المراد إزالته.|
+| index | int | فهرس نطاق الخلايا المنسق شرطيًا المراد إزالته.|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}
@@ -29,7 +29,7 @@ def remove_area(self, index):
 
 ###  عائدات
 
-بإرجاع TRUE ، يجب إزالة FormatCondtionCollection هذه.
+بإرجاع TRUE ، يجب إزالة FormatConditionCollection هذه.
 
 
 ```python
@@ -38,10 +38,10 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| start_row | int | بداية صف النطاق.|
-| start_column | int | بداية النطاق.|
+| start_row | int | صف البداية للنطاق.|
+| start_column | int | عمود البداية للنطاق.|
 | total_rows | int | عدد صفوف النطاق.|
 | total_columns | int | عدد أعمدة النطاق.|
 

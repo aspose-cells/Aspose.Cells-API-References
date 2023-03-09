@@ -13,7 +13,7 @@ is_root: false
 | Sınıf| Tanım|
 | :- | :- |
 | [ExportRangeToJsonOptions](/cells/tr/python-net/aspose.cells.utility/exportrangetojsonoptions) | Aralığın json'a dışa aktarıldığı seçenekleri belirtir.|
-| [JsonLayoutOptions](/cells/tr/python-net/aspose.cells.utility/jsonlayoutoptions) |Json yerleşim tipi seçeneklerini temsil eder.|
+| [JsonLayoutOptions](/cells/tr/python-net/aspose.cells.utility/jsonlayoutoptions) | Json yerleşim tipi seçeneklerini temsil eder.|
 | [JsonUtility](/cells/tr/python-net/aspose.cells.utility/jsonutility) | Json işlemenin yardımcı program sınıfını temsil eder.|
 
 

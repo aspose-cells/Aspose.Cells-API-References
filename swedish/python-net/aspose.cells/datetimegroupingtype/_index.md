@@ -22,7 +22,7 @@ Typen DateTimeGroupingType avslöjar följande medlemmar:
 | MINUTE | Gruppera för minut.|
 | MONTH | Gruppera efter månad.|
 | SECOND | Gruppera efter andra.|
-| YEAR | Grupp efter år.|
+| YEAR |Grupp efter år.|
 
 
 

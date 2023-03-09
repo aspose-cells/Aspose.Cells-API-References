@@ -23,7 +23,7 @@ def get_cell_or_null(self, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column | int | sütun dizini|
 

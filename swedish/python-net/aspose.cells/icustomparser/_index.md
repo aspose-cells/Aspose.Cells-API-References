@@ -18,7 +18,7 @@ Typen ICustomParser avslöjar följande medlemmar:
 | Metod| Beskrivning|
 | :- | :- |
 | [parse_object(value)](/cells/sv/python-net/aspose.cells/icustomparser/parse_object/#str) | Parsar given sträng till objekt med rätt värde.|
-| [get_format()](/cells/sv/python-net/aspose.cells/icustomparser/get_format/#) | Hämtar formatmönstret som motsvarar det analyserade värdet genom senaste anropet av [ICustomParser.parse_object(value)](/cells/sv/python-net/aspose.cells/icustomparser/parse_object).|
+| [get_format()](/cells/sv/python-net/aspose.cells/icustomparser/get_format/#) |Hämtar formatmönstret som motsvarar det analyserade värdet genom senaste anropet av [ICustomParser.parse_object(value)](/cells/sv/python-net/aspose.cells/icustomparser/parse_object).|
 
 
 

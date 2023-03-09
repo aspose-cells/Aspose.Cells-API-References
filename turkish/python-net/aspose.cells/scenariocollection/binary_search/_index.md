@@ -13,7 +13,7 @@ Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tam
 
 ###  İadeler
 
-Öğe bulunursa, sıralanan dizi listesindeki sıfır tabanlı değer dizini; aksi takdirde, değerden daha büyük olan bir sonraki öğenin dizininin bit düzeyinde tümleyeni olan negatif bir sayı veya daha büyük bir öğe yoksa Count dizi listesinin bit düzeyinde tümleyeni.
+Öğe bulunursa, sıralanmış dizi listesindeki sıfır tabanlı değer dizini; aksi takdirde, değerden büyük olan bir sonraki öğenin dizininin bit düzeyinde tümleyeni olan negatif bir sayı veya daha büyük bir öğe yoksa, dizi listesinin bit düzeyinde tamamlayıcısı Count.
 
 
 ```python
@@ -22,9 +22,9 @@ def binary_search(self, item):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| item | [Scenario](/cells/tr/python-net/aspose.cells/scenario) | Bulunacak System.Object. Değer null olabilir.|
+| item | [Scenario](/cells/tr/python-net/aspose.cells/scenario) | Bulunacak System.object.|
 
 
 

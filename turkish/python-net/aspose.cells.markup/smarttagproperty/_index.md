@@ -1,5 +1,5 @@
 ﻿---
-title: SmartTagProperty sınıf
+title: SmartTagProperty sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 60
 url: /tr/python-net/aspose.cells.markup/smarttagproperty/
 is_root: false
 ---
-##  SmartTagProperty sınıf
+##  SmartTagProperty sınıfı
 Hücre akıllı etiketinin özelliğini temsil eder.
 
 

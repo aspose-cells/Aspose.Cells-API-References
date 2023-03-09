@@ -22,7 +22,7 @@ def get_matching_color(self, raw_color):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | raw_color | aspose.pydrawing.Color | اللون الخام.|
 

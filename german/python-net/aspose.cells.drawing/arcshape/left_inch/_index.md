@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  left_inch Eigentum
 
-Stellt den horizontalen Versatz der Form von der linken Spalte in Zoll dar.
+Stellt den horizontalen Versatz der Form von der linken Spalte in Zolleinheiten dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -25,10 +25,10 @@ def add(self, upper_left_row, upper_left_column, stream):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | stream | io.RawIOBase | Stream-Objekt, das die Bilddaten enthält.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -57,10 +57,10 @@ def add(self, upper_left_row, upper_left_column, file_name):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | file_name | str | Bilddateiname.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -88,12 +88,12 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | lower_right_row | int | Zeilenindex unten rechts|
 | lower_right_column | int | Spaltenindex unten rechts|
 | stream | io.RawIOBase | Stream-Objekt, das die Bilddaten enthält.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -122,12 +122,12 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | lower_right_row | int | Zeilenindex unten rechts|
 | lower_right_column | int | Spaltenindex unten rechts|
 | file_name | str | Bilddateiname.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -155,12 +155,12 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | stream | io.RawIOBase | Stream-Objekt, das die Bilddaten enthält.|
 | width_scale | int | Maßstab der Bildbreite, ein Prozentsatz.|
 | height_scale | int | Maßstab der Bildhöhe, ein Prozentsatz.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -189,12 +189,12 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | file_name | str | Bilddateiname.|
 | width_scale | int | Maßstab der Bildbreite, ein Prozentsatz.|
 | height_scale | int | Maßstab der Bildhöhe, ein Prozentsatz.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/cells/get_view_row_height_inch/
 is_root: false
 ---
 ##  get_view_row_height_inch(row) {#int}
-Obtient la hauteur d'une ligne spécifiée en pouces.
+Obtient la hauteur d'une ligne spécifiée en unités de pouces.
 
 
 ###  Retour
@@ -22,7 +22,7 @@ def get_view_row_height_inch(self, row):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Indice de ligne|
 

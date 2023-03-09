@@ -16,7 +16,7 @@ Se l'utente ottiene StackOverflowException durante il calcolo delle formule, que
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Utilizzare invece CalculationOptions
+NOTA: questo membro è ora obsoleto.
 con il CalcStackSize specificato durante il calcolo delle formule.
  Questa proprietà verrà rimossa 12 mesi dopo da febbraio 2022.
 Aspose si scusa per gli eventuali disagi causati.

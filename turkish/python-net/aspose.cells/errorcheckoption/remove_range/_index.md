@@ -18,7 +18,7 @@ def remove_range(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | kaldırılacak aralığın dizini.|
 

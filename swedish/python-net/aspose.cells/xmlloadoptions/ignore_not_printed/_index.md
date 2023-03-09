@@ -13,7 +13,7 @@ Ignorera data som inte skrivs ut om du skriver ut filen direkt
 
 ###  Anmärkningar
 
-Endast för xlsx-fil.
+Endast för xlsx-filer.
 ###  Definition:
 ```python
 @property

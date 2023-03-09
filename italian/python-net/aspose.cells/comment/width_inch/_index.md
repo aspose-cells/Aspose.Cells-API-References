@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_inch proprietà
 
-Rappresenta la larghezza del commento, in pollici.
+Rappresenta la larghezza del commento, in unità di pollici.
 
-###  Esempio
+###  Esempi
 
 ```python
 

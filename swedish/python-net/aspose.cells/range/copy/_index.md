@@ -18,7 +18,7 @@ def copy(self, range):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [Range](/cells/sv/python-net/aspose.cells/range) | Källa [Range](/cells/sv/python-net/aspose.cells/range) objekt.|
 
@@ -52,7 +52,7 @@ def copy(self, range, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [Range](/cells/sv/python-net/aspose.cells/range) | Källomfånget.|
 | options | [PasteOptions](/cells/sv/python-net/aspose.cells/pasteoptions) | Klistra specialalternativ.|

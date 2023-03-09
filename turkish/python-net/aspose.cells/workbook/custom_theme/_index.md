@@ -18,7 +18,7 @@ def custom_theme(self, theme_name, colors):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | theme_name | str | tema adı|
 | colors | aspose.pydrawing.Color[] | Tema renkleri|
@@ -27,7 +27,7 @@ def custom_theme(self, theme_name, colors):
 Renklerin uzunluğu 12 olmalıdır.
 | dizi dizini| Tema türü|
 | :- | :- |
-| 0| Arka plan1|
+| 0| arka plan 1|
 | 1| Metin 1|
 | 2| Arka plan2|
 | 3| Metin2|

@@ -11,7 +11,7 @@ is_root: false
 
  Hücre adının Excel2007 .xlsx (.xlsm, .xltx, .xltm) dosyasına aktarılıp aktarılmadığını gösterir.
 Çıktı dosyasına SQL Server DTS tarafından erişilebiliyorsa, bu değerin doğru olması gerekir.
-Değerin false olarak ayarlanması, büyük dosya oluştururken performansı büyük ölçüde artıracak ve dosya boyutunu azaltacaktır.
+Değerin false olarak ayarlanması, büyük dosyalar oluştururken performansı büyük ölçüde artıracak ve dosya boyutunu azaltacaktır.
 Varsayılan değer doğrudur.
 ###  Tanım:
 ```python

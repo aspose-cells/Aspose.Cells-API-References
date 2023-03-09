@@ -11,7 +11,7 @@ is_root: false
 
 Indique si la marge du cadre de texte est automatique.
 
-###  Exemple
+###  Exemples
 
 ```python
 

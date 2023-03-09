@@ -10,7 +10,7 @@ is_root: false
 ##  save_data Eigentum
 
 True, wenn die über die Verbindung abgerufenen externen Daten zum Füllen einer Tabelle gespeichert werden sollen
-mit dem Arbeitsbuch; andernfalls falsch.
+mit der Arbeitsmappe, andernfalls false.
 ###  Definition:
 ```python
 @property

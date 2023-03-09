@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/cellsdatatablefactory/get_instance/
 is_root: false
 ---
 ##  get_instance(collection) {#list}
-Crée ICellsDataTable à partir de la collection donnée.
+Crée ICellsDataTable à partir d'une collection donnée.
 
 
 ###  Retour
@@ -22,7 +22,7 @@ def get_instance(self, collection):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | collection | list | la collection à construire table|
 
@@ -42,10 +42,10 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | vals | list | valeurs int pour construire la table|
-| column_names | list | Noms des colonnes de la table.<br/>Sa longueur ne peut être que 1 (construire la table par les valeurs int verticalement)<br/> ou la longueur des valeurs int (construire la table par les valeurs int horizontalement)|
+| column_names | list | Noms des colonnes de la table.<br/>Sa longueur ne peut être que soit 1 (construire la table par les valeurs int verticalement)<br/> ou longueur des valeurs int (construire la table par les valeurs int horizontalement)|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -63,10 +63,10 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | vals | list | valeurs int pour construire la table|
-| vertial | bool | si la table est construite par les valeurs int verticalement (true) ou horizontalement (false)|
+| vertial | bool |si la table est construite par les valeurs int verticalement (true) ou horizontalement (false)|
 
 
 ##  get_instance(vals, column_names) {#list-list}
@@ -84,10 +84,10 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| vals | list | valeurs doubles pour construire une table|
-| column_names | list | Noms des colonnes de la table.<br/>Sa longueur ne peut être que 1 (construire la table par les valeurs doubles verticalement)<br/> ou longueur des valeurs doubles (construire la table par les valeurs doubles horizontalement)|
+| vals | list | valeurs doubles pour construire la table|
+| column_names | list | Noms des colonnes de la table.<br/>Sa longueur ne peut être que soit 1 (construire le tableau par les valeurs doubles verticalement)<br/> ou longueur des valeurs doubles (construire le tableau par les valeurs doubles horizontalement)|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -105,9 +105,9 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| vals | list | valeurs doubles pour construire une table|
+| vals | list | valeurs doubles pour construire la table|
 | vertial | bool | si la table est construite par les valeurs doubles verticalement (true) ou horizontalement (false)|
 
 
@@ -126,7 +126,7 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | vals | list | objets à construire tableau|
 | column_names | list | Noms des colonnes de la table.<br/>Sa longueur ne peut être que soit 1 (construire la table par les objets verticalement)<br/> ou la longueur des objets (construire la table par les objets horizontalement)|
@@ -147,7 +147,7 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | vals | list | objets à construire tableau|
 | vertial | bool | si la table est construite par les objets verticalement (true) ou horizontalement (false)|

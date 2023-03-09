@@ -22,7 +22,7 @@ def get_builtin_table_style(self, type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [TableStyleType](/cells/it/python-net/aspose.cells.tables/tablestyletype) | Il tipo di stile di tabella integrato.|
 

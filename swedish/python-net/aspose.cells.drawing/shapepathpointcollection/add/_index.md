@@ -18,7 +18,7 @@ def add(self, x, y):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | x | int | x-koordinaten.|
 | y | int | Y-koordinaten.|

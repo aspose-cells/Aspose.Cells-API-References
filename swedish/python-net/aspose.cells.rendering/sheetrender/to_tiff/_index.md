@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | strömmen av utdatabilden|
 
@@ -34,13 +34,13 @@ def to_tiff(self, filename):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | filename | str | filnamnet på utdatabilden|
 
 ###  Exempel
 
-Följande kod matar ut alla sidorna i det första arket till Tiff-bild.
+Följande kod matar ut alla sidorna i det första arket till en Tiff-bild.
 
 ```python
 from aspose.cells import SaveFormat, Workbook

@@ -11,7 +11,7 @@ is_root: false
 
 Representa las columnas que contienen las celdas que se repetirán en el lado izquierdo de cada página.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

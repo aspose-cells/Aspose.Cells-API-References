@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  only_auto propiedad
 
-Indica si solo caben las filas cuya altura no está personalizada.
+Indica si solo caben las filas cuya altura no se personaliza.
 ###  Definición:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Définissez ces options, lorsque la sécurité est nécessaire dans le résultat xls2pdf.
 
-###  Exemple
+###  Exemples
 
 Le code suivant définit l'autorisation d'impression haute résolution pour le pdf de sortie.
 

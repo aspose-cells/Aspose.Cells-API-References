@@ -24,9 +24,9 @@ Typen UnionRange avslöjar följande medlemmar:
 | [value](/cells/sv/python-net/aspose.cells/unionrange/value) | Hämtar och ställer in värdena för intervallet.|
 | [name](/cells/sv/python-net/aspose.cells/unionrange/name) | Hämtar eller ställer in namnet på intervallet.|
 | [refers_to](/cells/sv/python-net/aspose.cells/unionrange/refers_to) | Får sortimentets hänvisar till.|
-| [has_range](/cells/sv/python-net/aspose.cells/unionrange/has_range) |Indikerar om detta har räckvidd.|
-| [hyperlinks](/cells/sv/python-net/aspose.cells/unionrange/hyperlinks) | Får alla hyperlänkar i intervallet.|
-| [cell_count](/cells/sv/python-net/aspose.cells/unionrange/cell_count) | Får allt cellantal i intervallet.|
+| [has_range](/cells/sv/python-net/aspose.cells/unionrange/has_range) | Indikerar om detta har räckvidd.|
+| [hyperlinks](/cells/sv/python-net/aspose.cells/unionrange/hyperlinks) | Får alla hyperlänkar i sortimentet.|
+| [cell_count](/cells/sv/python-net/aspose.cells/unionrange/cell_count) | Får alla cellantal i intervallet.|
 | [range_count](/cells/sv/python-net/aspose.cells/unionrange/range_count) | Får räkningen av intervallen.|
 | [ranges](/cells/sv/python-net/aspose.cells/unionrange/ranges) | Får alla fackliga sortiment.|
 
@@ -35,7 +35,7 @@ Typen UnionRange avslöjar följande medlemmar:
 | Metod| Beskrivning|
 | :- | :- |
 | [set_outline_borders(border_styles, border_colors)](/cells/sv/python-net/aspose.cells/unionrange/set_outline_borders/#list-aspose.pydrawing.Color[]) | Anger linjekanter runt ett cellintervall.|
-| [set_outline_borders(border_style, border_color)](/cells/sv/python-net/aspose.cells/unionrange/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Ställer in konturkanterna runt ett cellintervall med samma kantstil och färg.|
+| [set_outline_borders(border_style, border_color)](/cells/sv/python-net/aspose.cells/unionrange/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Ställer in konturkanterna runt ett cellintervall med samma ramstil och färg.|
 | [intersect(range)](/cells/sv/python-net/aspose.cells/unionrange/intersect/#str) | Skär ett annat område.|
 | [intersect(union_range)](/cells/sv/python-net/aspose.cells/unionrange/intersect/#UnionRange) | Skär ett annat område.|
 | [intersect(ranges)](/cells/sv/python-net/aspose.cells/unionrange/intersect/#list) | Skär ett annat område.|
@@ -43,7 +43,7 @@ Typen UnionRange avslöjar följande medlemmar:
 | [union(union_range)](/cells/sv/python-net/aspose.cells/unionrange/union/#UnionRange) | Union ett annat sortiment.|
 | [union(ranges)](/cells/sv/python-net/aspose.cells/unionrange/union/#list) | Union intervallen.|
 | [merge()](/cells/sv/python-net/aspose.cells/unionrange/merge/#) | Kombinerar ett intervall av celler till en enda cell.|
-| [un_merge()](/cells/sv/python-net/aspose.cells/unionrange/un_merge/#) | Ta bort sammanslagna celler i detta intervall.|
+| [un_merge()](/cells/sv/python-net/aspose.cells/unionrange/un_merge/#) |Ta bort sammanslagna celler i detta intervall.|
 | [put_value(string_value, is_converted, set_style)](/cells/sv/python-net/aspose.cells/unionrange/put_value/#str-bool-bool) | Lägger ett värde i intervallet, om så är lämpligt kommer värdet att konverteras till annan datatyp och cellens talformat återställs.|
 | [set_style(style)](/cells/sv/python-net/aspose.cells/unionrange/set_style/#Style) | Ställer in stilen för intervallet.|
 | [apply_style(style, flag)](/cells/sv/python-net/aspose.cells/unionrange/apply_style/#Style-StyleFlag) | Gäller format för en hel rad.|

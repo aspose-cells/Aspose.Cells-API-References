@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die automatische Form type ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

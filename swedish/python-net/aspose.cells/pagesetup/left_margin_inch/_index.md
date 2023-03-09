@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin_inch fastighet
 
-Representerar storleken på den vänstra marginalen, i enhet av tum.
+Representerar storleken på den vänstra marginalen, i enheter av tum.
 ###  Definition:
 ```python
 @property

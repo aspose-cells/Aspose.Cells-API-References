@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Bemerkungen
 
-Bei jedem Aufruf wird ein String-Array erstellt. Das Array wird sortiert und doppelte Werte werden entfernt.
+Bei jedem Aufruf wird ein String-Array erstellt.
 
 
 ###  Siehe auch

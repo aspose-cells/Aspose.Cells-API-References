@@ -18,7 +18,7 @@ def swap_sheet(self, sheet_index1, sheet_index2):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet_index1 | int | İlk çalışma sayfası.|
 | sheet_index2 | int | İkinci çalışma sayfası.|

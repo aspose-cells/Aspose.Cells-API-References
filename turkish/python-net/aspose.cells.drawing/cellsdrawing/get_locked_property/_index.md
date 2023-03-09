@@ -22,11 +22,11 @@ def get_locked_property(self, type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/tr/python-net/aspose.cells.drawing/shapelocktype) | Şekil kilitli özelliğinin türü.|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import ShapeLockType

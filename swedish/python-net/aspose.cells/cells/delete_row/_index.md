@@ -18,7 +18,7 @@ def delete_row(self, row_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 

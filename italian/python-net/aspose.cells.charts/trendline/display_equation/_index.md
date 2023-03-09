@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_equation proprietà
 
-Indica se l'equazione per la linea di tendenza viene visualizzata sul grafico (nella stessa etichetta dati del valore R-quadrato). L'impostazione di questa proprietà su True attiva automaticamente le etichette dati.
+Indica se l'equazione per la linea di tendenza viene visualizzata sul grafico (nella stessa etichetta dati del valore R-quadrato).
 ###  Definizione:
 ```python
 @property

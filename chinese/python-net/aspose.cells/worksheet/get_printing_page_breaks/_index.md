@@ -1,6 +1,6 @@
 ﻿---
 title: get_printing_page_breaks方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
@@ -22,7 +22,7 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | options | aspose.cells.rendering.ImageOrPrintOptions |打印选项|
 ### 评论

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain Eigentum
 
-Ob Berechnungskette für Formeln aktivieren. Standard ist falsch.
+Ob Berechnungskette für Formeln aktivieren.
 
 ###  Bemerkungen
 

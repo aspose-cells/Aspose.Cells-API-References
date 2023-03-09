@@ -16,7 +16,7 @@ Indica qué páginas no se imprimirán.
 Si el contenido de la hoja es escaso, habrá algunas páginas totalmente en blanco en el archivo pdf de salida.
 Si no desea estas páginas en blanco, puede usar esta opción para omitirlas.
 
-###  Ejemplo
+###  Ejemplos
 
 El siguiente código omite páginas en blanco o páginas que solo contienen algún contenido de estilo como fondo de celda, bordes.
 

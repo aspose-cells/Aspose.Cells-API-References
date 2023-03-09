@@ -14,8 +14,8 @@ valore predefinito: PNG.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
-Il grafico e la forma sono sempre resi come elementi vettoriali (ad es. punto, linea) per la qualità del rendering.
+ NOTA: questo membro è ora obsoleto.
+I grafici e le forme sono sempre resi come elementi vettoriali (ad esempio punti, linee) per la qualità del rendering.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2022.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

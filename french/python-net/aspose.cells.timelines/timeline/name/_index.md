@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie ou définit le name de la Timeline spécifiée
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/ungroup_rows/
 is_root: false
 ---
 ##  ungroup_rows(first_index, last_index) {#int-int}
-Hebt die Gruppierung von Zeilen auf.
+Gruppierung von Zeilen aufheben.
 
 
 
@@ -28,7 +28,7 @@ Entfernt nur äußere Gruppeninformationen.
 
 ##  ungroup_rows(first_index, last_index, is_all) {#int-int-bool}
 
-Hebt die Gruppierung von Zeilen auf.
+Gruppierung von Zeilen aufheben.
 
 
 

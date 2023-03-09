@@ -13,8 +13,8 @@ Representerar inställningen för formens formatering.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
- använd egenskaperna Shape.Fill och Shape.Line.
+ OBS: Denna medlem är nu föråldrad.
+ Använd egenskaperna Shape.Fill och Shape.Line.
  Den här egenskapen kommer att tas bort 6 månader senare sedan augusti 2016.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

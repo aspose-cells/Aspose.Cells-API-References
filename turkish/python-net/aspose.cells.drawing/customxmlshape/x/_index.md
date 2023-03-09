@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  x mülk
 
-Şeklin yatay ofsetini çalışma sayfasının sol kenarından piksel birimi cinsinden alır ve ayarlar.
+Çalışma sayfasının sol kenarından şeklin yatay kaymasını piksel birimi cinsinden alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

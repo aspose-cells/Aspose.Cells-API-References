@@ -13,7 +13,7 @@ Obtient ou définit le name de la plage.
 
 ###  Remarques
 
-La plage nommée est prise en charge. Par exemple,
+La plage nommée est prise en charge.
 
 range.Name = "Feuille1!MaPlage" ;
 ###  Définition:

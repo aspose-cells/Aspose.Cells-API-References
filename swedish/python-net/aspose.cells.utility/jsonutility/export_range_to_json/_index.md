@@ -22,15 +22,15 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [Range](/cells/sv/python-net/aspose.cells/range) | Räckvidden.|
-| options | [ExportRangeToJsonOptions](/cells/sv/python-net/aspose.cells.utility/exportrangetojsonoptions) | Alternativen för att exportera.|
+| options | [ExportRangeToJsonOptions](/cells/sv/python-net/aspose.cells.utility/exportrangetojsonoptions) | Alternativen för export.|
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+OBS: Denna medlem är nu föråldrad.
 använd metoden ExportRangeToJson (Range range, JsonSaveOptions options).
-Den här egenskapen kommer att tas bort sex månader senare sedan november 2022.
+ Den här egenskapen kommer att tas bort sex månader senare sedan november 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 
 ##  export_range_to_json(range, options) {#Range-JsonSaveOptions}
@@ -48,10 +48,10 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [Range](/cells/sv/python-net/aspose.cells/range) | Räckvidden.|
-| options | [JsonSaveOptions](/cells/sv/python-net/aspose.cells/jsonsaveoptions) | Alternativen för att exportera.|
+| options | [JsonSaveOptions](/cells/sv/python-net/aspose.cells/jsonsaveoptions) | Alternativen för export.|
 
 
 

@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | el índice del enlace externo que se va a eliminar.|
 ###  Observaciones
@@ -37,7 +37,7 @@ def remove_at(self, index, update_references_as_local):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | el índice del enlace externo que se va a eliminar.|
 | update_references_as_local | bool | Si actualiza todas las referencias del enlace externo dado a la referencia del libro de trabajo actual.|
@@ -47,7 +47,7 @@ Si es necesario actualizar las referencias, las referencias a enlaces externos e
 Por ejemplo, el enlace externo que se eliminará es "externalsource.xlam" y define una función personalizada "función personalizada()",
 la fórmula original de una celda es "='fuenteexterna.xlam'!funciónpersonalizada()",
 después de eliminar la fórmula se convertirá en "=función personalizada()".
-Si no es necesario actualizar la referencia, todas las fórmulas con referencia a este enlace externo
+Si no es necesario actualizar las referencias, todas las fórmulas con referencia a este enlace externo
 también se eliminará porque esas referencias dejan de ser válidas.
 
 

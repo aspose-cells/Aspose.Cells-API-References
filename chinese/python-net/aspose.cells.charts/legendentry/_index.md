@@ -1,13 +1,13 @@
 ﻿---
 title: LegendEntry类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
 url: /zh/python-net/aspose.cells.charts/legendentry/
 is_root: false
 ---
-##  LegendEntry类
+## LegendEntry类
 表示图表图例中的图例条目。
 
 

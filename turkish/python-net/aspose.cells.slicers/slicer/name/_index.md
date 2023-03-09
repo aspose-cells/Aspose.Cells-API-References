@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen dilimleyicinin name'ini döndürür veya ayarlar
 
-###  Örnek
+###  örnekler
 
 ```python
 

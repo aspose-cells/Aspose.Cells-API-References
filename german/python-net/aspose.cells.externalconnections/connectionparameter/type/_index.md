@@ -10,8 +10,8 @@ is_root: false
 ##  type Eigentum
 
 Typ des verwendeten Parameters.
-Wenn parameterType=value, dann der Wert aus boolean, double, integer,
- oder string verwendet werden. In diesem Fall wird erwartet, dass nur einer von
+ Wenn parameterType=value, dann der Wert aus boolean, double, integer,
+ oder string verwendet werden.
 {boolean, double, integer oder string} wird angegeben.
 ###  Definition:
 ```python

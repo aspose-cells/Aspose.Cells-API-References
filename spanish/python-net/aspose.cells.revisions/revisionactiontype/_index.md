@@ -20,7 +20,7 @@ El tipo RevisionActionType expone los siguientes miembros:
 | ADD | Añadir revisión.|
 | DELETE | Eliminar revisión.|
 | DELETE_COLUMN | Revisión de eliminación de columnas.|
-| DELETE_ROW |Revisión de eliminación de filas.|
+| DELETE_ROW | Revisión de eliminación de filas.|
 | INSERT_COLUMN | Revisión de inserción de columna.|
 | INSERT_ROW | Revisión de inserción de fila.|
 

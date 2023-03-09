@@ -18,7 +18,7 @@ def add_icon_filter(self, field_index, icon_set_type, icon_id):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | field_index | int | Le décalage entier du champ sur lequel vous souhaitez baser le filtre<br/> (à partir de la gauche de la liste ; le champ le plus à gauche est le champ 0).|
 | icon_set_type | [IconSetType](/cells/fr/python-net/aspose.cells/iconsettype) | Le type de jeu d'icônes.|

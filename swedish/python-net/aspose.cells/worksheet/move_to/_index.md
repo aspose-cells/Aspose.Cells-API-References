@@ -18,7 +18,7 @@ def move_to(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Destinationsbladsindex.|
 

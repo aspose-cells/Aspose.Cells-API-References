@@ -1,13 +1,13 @@
 ﻿---
 title: Slicer类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.slicers/slicer/
 is_root: false
 ---
-##  Slicer类
+## Slicer类
 Slicer视图的概要描述
 
 
@@ -24,8 +24,8 @@ Slicer 类型公开了以下成员：
 | [placement](/cells/zh/python-net/aspose.cells.slicers/slicer/placement) |表示绘图对象附加到其下方单元格的方式。<br/>该属性控制对象在工作表上的位置。|
 | [locked_aspect_ratio](/cells/zh/python-net/aspose.cells.slicers/slicer/locked_aspect_ratio) |指示是否锁定纵横比。|
 | [locked_position](/cells/zh/python-net/aspose.cells.slicers/slicer/locked_position) |指示是否可以使用用户界面移动或调整指定切片器的大小。|
-| [slicer_cache](/cells/zh/python-net/aspose.cells.slicers/slicer/slicer_cache) |返回与切片器关联的 SlicerCache 对象。只读。|
-| [parent](/cells/zh/python-net/aspose.cells.slicers/slicer/parent) |返回代表包含切片器的工作表的 Worksheet 对象。只读。|
+| [slicer_cache](/cells/zh/python-net/aspose.cells.slicers/slicer/slicer_cache) |返回与切片器关联的 SlicerCache 对象。|
+| [parent](/cells/zh/python-net/aspose.cells.slicers/slicer/parent) |返回代表包含切片器的工作表的 Worksheet 对象。|
 | [style_type](/cells/zh/python-net/aspose.cells.slicers/slicer/style_type) |指定内置切片器样式的类型<br/>默认类型是 SlicerStyleLight1|
 | [name](/cells/zh/python-net/aspose.cells.slicers/slicer/name) |返回或设置指定切片器的名称|
 | [caption](/cells/zh/python-net/aspose.cells.slicers/slicer/caption) |返回或设置指定切片器的标题。|

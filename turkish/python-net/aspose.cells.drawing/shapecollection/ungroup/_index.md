@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/shapecollection/ungroup/
 is_root: false
 ---
 ##  ungroup(group) {#GroupShape}
-Şekil öğelerinin grubunu çözer.
+Şekil öğelerinin grubunu çözün.
 
 
 
@@ -18,13 +18,13 @@ def ungroup(self, group):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | group | [GroupShape](/cells/tr/python-net/aspose.cells.drawing/groupshape) | Grup şekli.|
 ###  Notlar
 
 Grup şekli başka bir grup şekli tarafından gruplanırsa hiçbir şey yapılmaz.
-###  Örnek
+###  örnekler
 
 
 ```python

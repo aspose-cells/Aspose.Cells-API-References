@@ -18,8 +18,8 @@ Der Typ AutoFitMergedCellsType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | NONE | Ignorieren Sie verbundene Zellen.|
-| FIRST_LINE | Erweitert nur die Höhe der ersten Reihe.|
-| LAST_LINE | Erweitert nur die Höhe der letzten Zeile.|
+| FIRST_LINE | Erweitert nur die Höhe der ersten Zeile.|
+| LAST_LINE |Erweitert nur die Höhe der letzten Zeile.|
 | EACH_LINE | Erweitert nur die Höhe jeder Zeile.|
 
 

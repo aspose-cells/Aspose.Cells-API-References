@@ -1,13 +1,13 @@
 ﻿---
 title: CellsDataTableFactory类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 200
 url: /zh/python-net/aspose.cells/cellsdatatablefactory/
 is_root: false
 ---
-##  CellsDataTableFactory类
+## CellsDataTableFactory类
 从自定义对象构建 ICellsDataTable 的实用程序，以方便用户。
 
 

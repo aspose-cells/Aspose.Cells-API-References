@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.drawing.texts/textautonumberscheme/
 is_root: false
 ---
 ##  TextAutonumberScheme enumerazione
-Rappresenta tutto lo schema numerico automatico.
+Rappresenta tutti gli schemi numerici automatici.
 
 
 
@@ -25,7 +25,7 @@ Il tipo TextAutonumberScheme espone i membri seguenti:
 | ALPHA_UC_PAREN_R | A), B), C), …|
 | ALPHA_UC_PERIOD | A., B., C., …|
 | ARABIC_1_MINUS | Bidi Arabo 1 (AraAlpha) con simbolo meno ANSI|
-| ARABIC_2_MINUS | Bidi Arabo 2 (AraAbjad) con ANSI meno simbolo|
+| ARABIC_2_MINUS |Bidi Arabo 2 (AraAbjad) con ANSI meno simbolo|
 | ARABIC_DB_PERIOD | Numeri arabi a doppio byte con punto a doppio byte|
 | ARABIC_DB_PLAIN | Numeri arabi a doppio byte|
 | ARABIC_PAREN_BOTH | (1), (2), (3), … |
@@ -38,7 +38,7 @@ Il tipo TextAutonumberScheme espone i membri seguenti:
 | EA_1_CHS_PERIOD | EA: cinese semplificato con punto a byte singolo|
 | EA_1_CHS_PLAIN | EA: cinese semplificato (tipo A 1-99, tipo C 100-)|
 | EA_1_CHT_PERIOD | EA: cinese tradizionale con punto a byte singolo|
-| EA_1_CHT_PLAIN |EA: cinese tradizionale (tipo A 1-19, tipo C 20-)|
+| EA_1_CHT_PLAIN | EA: cinese tradizionale (tipo A 1-19, tipo C 20-)|
 | EA_1_JPN_CHS_DB_PERIOD | EA: giapponese con punto a doppio byte|
 | EA_1_JPN_KOR_PERIOD | EA: giapponese/coreano con punto a byte singolo|
 | EA_1_JPN_KOR_PLAIN | EA: giapponese/coreano (tipo C 1-)|
@@ -52,7 +52,7 @@ Il tipo TextAutonumberScheme espone i membri seguenti:
 | ROMAN_LC_PERIOD | i., ii., iii., …|
 | ROMAN_UC_PAREN_BOTH | (I), (II), (III), …|
 | ROMAN_UC_PAREN_R | I), II), III), …|
-| ROMAN_UC_PERIOD | I., II., III., …|
+| ROMAN_UC_PERIOD |I., II., III., …|
 | THAI_ALPHA_PAREN_BOTH | Parentesi dell'alfabeto tailandese - entrambe|
 | THAI_ALPHA_PAREN_R | Parentesi dell'alfabeto tailandese - a destra|
 | THAI_ALPHA_PERIOD | Periodo dell'alfabeto tailandese|

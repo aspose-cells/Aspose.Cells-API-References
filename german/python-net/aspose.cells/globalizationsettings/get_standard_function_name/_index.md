@@ -24,7 +24,7 @@ def get_standard_function_name(self, local_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| local_name | str | Vom Gebietsschema abhängiger Funktionsname. Das Gebietsschema wurde von der Arbeitsmappe angegeben, für die diese Einstellungen verwendet werden.|
+| local_name | str | Vom Gebietsschema abhängiger Funktionsname.|
 
 
 

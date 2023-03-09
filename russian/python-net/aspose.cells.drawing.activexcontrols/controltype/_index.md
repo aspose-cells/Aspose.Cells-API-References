@@ -17,17 +17,17 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| COMMAND_BUTTON | Кнопка|
+| COMMAND_BUTTON | кнопка|
 | COMBO_BOX | Поле со списком|
-| CHECK_BOX | Флажок|
+| CHECK_BOX | флажок|
 | LIST_BOX | СписокБокс|
 | TEXT_BOX | Текстовое окно|
 | SPIN_BUTTON | Спиннер|
-| RADIO_BUTTON | Переключатель|
-| LABEL | Этикетка|
+| RADIO_BUTTON | Радио-кнопки|
+| LABEL | этикетка|
 | IMAGE | Изображение|
 | TOGGLE_BUTTON | Кнопка-переключатель|
-| SCROLL_BAR |Полоса прокрутки|
+| SCROLL_BAR | Полоса прокрутки|
 | UNKNOWN | Неизвестный|
 
 

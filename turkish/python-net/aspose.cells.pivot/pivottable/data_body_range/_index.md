@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range mülk
 
 Veri alanını içeren aralığı temsil eden bir CellArea nesnesi döndürür
-başlık satırı ile ekleme satırı arasındaki listede. Sadece oku.
+başlık satırı ile ekleme satırı arasındaki listede.
 ###  Tanım:
 ```python
 @property

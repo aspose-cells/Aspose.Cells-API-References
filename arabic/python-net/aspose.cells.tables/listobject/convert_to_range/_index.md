@@ -31,7 +31,7 @@ def convert_to_range(self, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | options | [TableToRangeOptions](/cells/ar/python-net/aspose.cells.tables/tabletorangeoptions) | الخيارات عند تحويل الجدول إلى النطاق.|
 

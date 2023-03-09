@@ -1,6 +1,6 @@
 ﻿---
 title: remove_date_filter方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
@@ -18,7 +18,7 @@ def remove_date_filter(self, field_index, date_time_grouping_type, year, month, 
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | field_index | int |要作为过滤器基础的字段的整数偏移量<br/>（从列表的左边开始；最左边的字段是字段 0）。|
 | date_time_grouping_type | [DateTimeGroupingType](/cells/zh/python-net/aspose.cells/datetimegroupingtype) | [DateTimeGroupingType](/cells/zh/python-net/aspose.cells/datetimegroupingtype) |

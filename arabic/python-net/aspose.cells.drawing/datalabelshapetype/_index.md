@@ -29,9 +29,9 @@ is_root: false
 | WEDGE_ELLIPSE_CALLOUT | يمثل شكل وسيلة شرح القطع الناقص الإسفين.|
 | LINE_CALLOUT | يمثل شكل وسيلة شرح الخط.|
 | BENT_LINE_CALLOUT | يمثل شكل وسيلة شرح خط منحني.|
-| LINE_WITH_ACCENT_BAR_CALLOUT | يمثل الخط مع شكل وسيلة شرح شريط التوكيد.|
+| LINE_WITH_ACCENT_BAR_CALLOUT |يمثل الخط مع شكل وسيلة شرح شريط التوكيد.|
 | BENT_LINE_WITH_ACCENT_BAR_CALLOUT | يمثل الخط المنحني مع شكل وسيلة شرح شريط التوكيد.|
-| LINE |يستخدم هذا النوع فقط لمعالجة الملفات الخاصة|
+| LINE | يستخدم هذا النوع فقط لمعالجة الملفات الخاصة|
 
 
 

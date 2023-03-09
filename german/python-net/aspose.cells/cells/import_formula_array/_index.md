@@ -21,7 +21,7 @@ def import_formula_array(self, string_array, first_row, first_column, is_vertica
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | string_array | list | Formel-Array.|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 | is_vertical | bool | Gibt an, dass Daten vertikal oder horizontal importiert werden.|
 

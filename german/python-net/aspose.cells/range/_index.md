@@ -34,20 +34,20 @@ Der Typ Range macht die folgenden Member verfügbar:
 | [value](/cells/de/python-net/aspose.cells/range/value) | Ruft den Wert des Bereichs ab und legt ihn fest.|
 | [column_width](/cells/de/python-net/aspose.cells/range/column_width) | Legt die Spaltenbreite dieses Bereichs fest oder ruft sie ab|
 | [row_height](/cells/de/python-net/aspose.cells/range/row_height) | Legt die Zeilenhöhe in diesem Bereich fest oder ruft sie ab|
-| [entire_column](/cells/de/python-net/aspose.cells/range/entire_column) | Ruft ein Range-Objekt ab, das die gesamte Spalte (oder Spalten) darstellt, die den angegebenen Bereich enthält.|
+| [entire_column](/cells/de/python-net/aspose.cells/range/entire_column) |Ruft ein Range-Objekt ab, das die gesamte Spalte (oder Spalten) darstellt, die den angegebenen Bereich enthält.|
 | [entire_row](/cells/de/python-net/aspose.cells/range/entire_row) | Ruft ein Range-Objekt ab, das die gesamte Zeile (oder Zeilen) darstellt, die den angegebenen Bereich enthält.|
-| [worksheet](/cells/de/python-net/aspose.cells/range/worksheet) | Ruft das Objekt [Range.worksheet](/cells/de/python-net/aspose.cells/range#worksheet) ab, das diesen Bereich enthält.|
+| [worksheet](/cells/de/python-net/aspose.cells/range/worksheet) | Ruft das [Range.worksheet](/cells/de/python-net/aspose.cells/range#worksheet)-Objekt ab, das diesen Bereich enthält.|
 
 
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [auto_fill(target)](/cells/de/python-net/aspose.cells/range/auto_fill/#Range) | Füllen Sie den Zielbereich automatisch aus.|
-| [auto_fill(target, auto_fill_type)](/cells/de/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Füllen Sie den Zielbereich automatisch aus.|
+| [auto_fill(target)](/cells/de/python-net/aspose.cells/range/auto_fill/#Range) | Automatisch füllen alle den Zielbereich.|
+| [auto_fill(target, auto_fill_type)](/cells/de/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Automatisch füllen alle den Zielbereich.|
 | [set_style(style, explicit_flag)](/cells/de/python-net/aspose.cells/range/set_style/#Style-bool) | Wenden Sie den Zellenstil an.|
 | [set_style(style)](/cells/de/python-net/aspose.cells/range/set_style/#Style) | Legt den Stil des Bereichs fest.|
-| [set_outline_borders(border_style, border_color)](/cells/de/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) | Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Farbe fest.|
-| [set_outline_borders(border_style, border_color)](/cells/de/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Farbe fest.|
+| [set_outline_borders(border_style, border_color)](/cells/de/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) | Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Rahmenfarbe fest.|
+| [set_outline_borders(border_style, border_color)](/cells/de/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Rahmenfarbe fest.|
 | [set_outline_borders(border_styles, border_colors)](/cells/de/python-net/aspose.cells/range/set_outline_borders/#list-aspose.pydrawing.Color[]) | Legt Linienränder um einen Bereich von Zellen fest.|
 | [set_outline_border(border_edge, border_style, border_color)](/cells/de/python-net/aspose.cells/range/set_outline_border/#BorderType-CellBorderType-CellsColor) | Legt einen Umrissrahmen um einen Bereich von Zellen fest.|
 | [set_outline_border(border_edge, border_style, border_color)](/cells/de/python-net/aspose.cells/range/set_outline_border/#BorderType-CellBorderType-aspose.pydrawing.Color) | Legt einen Umrissrahmen um einen Bereich von Zellen fest.|
@@ -55,10 +55,10 @@ Der Typ Range macht die folgenden Member verfügbar:
 | [copy(range)](/cells/de/python-net/aspose.cells/range/copy/#Range) | Kopiert Daten (einschließlich Formeln), Formatierungen, Zeichenobjekte usw. aus einem Quellbereich.|
 | [get_enumerator()](/cells/de/python-net/aspose.cells/range/get_enumerator/#) | Ruft den Enumerator für Zellen in diesem Bereich ab.|
 | [is_intersect(range)](/cells/de/python-net/aspose.cells/range/is_intersect/#Range) | Gibt an, ob sich der Bereich überschneidet.|
-| [intersect(range)](/cells/de/python-net/aspose.cells/range/intersect/#Range) |Gibt ein [Range](/cells/de/python-net/aspose.cells/range)-Objekt zurück, das die rechteckige Schnittmenge zweier Bereiche darstellt.|
+| [intersect(range)](/cells/de/python-net/aspose.cells/range/intersect/#Range) | Gibt ein [Range](/cells/de/python-net/aspose.cells/range)-Objekt zurück, das die rechteckige Schnittmenge zweier Bereiche darstellt.|
 | [union(range)](/cells/de/python-net/aspose.cells/range/union/#Range) | Gibt die Vereinigung zweier Bereiche zurück.|
 | [merge()](/cells/de/python-net/aspose.cells/range/merge/#) | Kombiniert eine Reihe von Zellen zu einer einzigen Zelle.|
-| [un_merge()](/cells/de/python-net/aspose.cells/range/un_merge/#) | Hebt verbundene Zellen dieses Bereichs auf.|
+| [un_merge()](/cells/de/python-net/aspose.cells/range/un_merge/#) |Hebt verbundene Zellen dieses Bereichs auf.|
 | [put_value(string_value, is_converted, set_style)](/cells/de/python-net/aspose.cells/range/put_value/#str-bool-bool) | Fügt einen Wert in den Bereich ein, gegebenenfalls wird der Wert in einen anderen Datentyp konvertiert und das Zahlenformat der Zelle wird zurückgesetzt.|
 | [apply_style(style, flag)](/cells/de/python-net/aspose.cells/range/apply_style/#Style-StyleFlag) | Wendet Formate für eine ganze Reihe an.|
 | [set_inside_borders(border_edge, line_style, border_color)](/cells/de/python-net/aspose.cells/range/set_inside_borders/#BorderType-CellBorderType-CellsColor) | Legen Sie innerhalb der Grenzen des Bereichs fest.|
@@ -71,7 +71,7 @@ Der Typ Range macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

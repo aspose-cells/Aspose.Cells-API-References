@@ -22,7 +22,7 @@ def get_subtotals(self, subtotal_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | subtotal_type | [PivotFieldSubtotalType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | نوع المجاميع الفرعية.|
 

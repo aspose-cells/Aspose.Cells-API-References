@@ -18,7 +18,7 @@ def add_column_area_condition(self, field_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | field_name | str | اسم PivotField.|
 
@@ -34,7 +34,7 @@ def add_column_area_condition(self, column_field):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column_field | [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) | PivotField في حقول الأعمدة.|
 

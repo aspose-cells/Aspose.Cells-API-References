@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size mülk
 
- Gölgenin size değerini alır ve ayarlar. 0 ila 2.0 aralığında.
+ Gölgenin size'ini alır ve ayarlar. 0 ile 2.0 arasında değişir.
 İç gölgede anlamsız.
 ###  Tanım:
 ```python

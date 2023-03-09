@@ -18,7 +18,7 @@ El tipo BorderCollection expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [diagonal_color](/cells/es/python-net/aspose.cells/bordercollection/diagonal_color) | Obtiene o establece el Color de las líneas diagonales.|
-| [diagonal_style](/cells/es/python-net/aspose.cells/bordercollection/diagonal_style) | Obtiene o establece el estilo de las líneas Diagonal.|
+| [diagonal_style](/cells/es/python-net/aspose.cells/bordercollection/diagonal_style) | Obtiene o establece el estilo de las líneas diagonales.|
 
 
 ###  Métodos

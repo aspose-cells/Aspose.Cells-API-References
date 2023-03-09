@@ -22,7 +22,7 @@ def add(self, tab_alignment, tab_position):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | tab_alignment | [TextTabAlignmentType](/cells/ar/python-net/aspose.cells.drawing.texts/texttabalignmenttype) |  |
 | tab_position | float |  |

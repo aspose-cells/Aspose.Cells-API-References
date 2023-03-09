@@ -22,16 +22,16 @@ TextureType türü aşağıdaki üyeleri gösterir:
 | BROWN_MARBLE | Kahverengi Mermer doku tipini temsil eder.|
 | CANVAS | Canvas doku tipini temsil eder.|
 | CORK | Cork doku tipini temsil eder.|
-| DENIM | Denim doku tipini temsil eder.|
+| DENIM |Denim doku tipini temsil eder.|
 | FISH_FOSSIL | Balık Fosili doku tipini temsil eder.|
-| GRANITE |Granit doku tipini temsil eder.|
+| GRANITE | Granit doku tipini temsil eder.|
 | GREEN_MARBLE | Yeşil Mermer doku tipini temsil eder.|
 | MEDIUM_WOOD | Medium Wood doku tipini temsil eder.|
 | NEWSPRINT | Gazete kağıdı doku türünü temsil eder.|
 | OAK | Meşe doku tipini temsil eder.|
 | PAPER_BAG | Kağıt Torba doku tipini temsil eder.|
 | PAPYRUS | Papirüs doku tipini temsil eder.|
-| PARCHMENT | Parşömen doku türünü temsil eder.|
+| PARCHMENT | Parşömen doku tipini temsil eder.|
 | PINK_TISSUE_PAPER | Pembe Doku Kağıdı doku tipini temsil eder.|
 | PURPLE_MESH | Purple Mesh doku tipini temsil eder.|
 | RECYCLED_PAPER | Geri Dönüştürülmüş Kağıt doku türünü temsil eder.|

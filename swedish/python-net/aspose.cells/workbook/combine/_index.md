@@ -18,9 +18,9 @@ def combine(self, second_workbook):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| second_workbook | [Workbook](/cells/sv/python-net/aspose.cells/workbook) | Ett annat arbetsboksobjekt.|
+| second_workbook | [Workbook](/cells/sv/python-net/aspose.cells/workbook) | Ytterligare ett arbetsboksobjekt.|
 ###  Anmärkningar
 
 För närvarande kan endast celldata och cellstil för det andra arbetsboksobjektet kombineras. Bilder, diagram och andra ritobjekt stöds inte.

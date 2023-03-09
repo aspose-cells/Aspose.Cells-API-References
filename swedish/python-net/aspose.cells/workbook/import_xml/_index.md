@@ -18,7 +18,7 @@ def import_xml(self, url, sheet_name, row, col):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | url | str | URL/sökväg till xml-filen.|
 | sheet_name | str | destinationsbladets namn.|
@@ -50,12 +50,12 @@ def import_xml(self, stream, sheet_name, row, col):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | xml-filströmmen.|
 | sheet_name | str | destinationsbladets namn.|
 | row | int | destinationsraden.|
-| col | int |destinationskolumnen.|
+| col | int | destinationskolumnen.|
 
 
 

@@ -1,13 +1,13 @@
 ﻿---
 title: ICustomParser类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 830
 url: /zh/python-net/aspose.cells/icustomparser/
 is_root: false
 ---
-##  ICustomParser类
+## ICustomParser类
 允许用户添加他们的自定义值解析器，用于将字符串值解析为其他适当的单元格值对象。
 
 

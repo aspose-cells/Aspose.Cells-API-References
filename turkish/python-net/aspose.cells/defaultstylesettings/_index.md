@@ -1,5 +1,5 @@
 ﻿---
-title: DefaultStyleSettings sınıf
+title: DefaultStyleSettings sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 460
 url: /tr/python-net/aspose.cells/defaultstylesettings/
 is_root: false
 ---
-##  DefaultStyleSettings sınıf
+##  DefaultStyleSettings sınıfı
 Çalışma kitabının stil özelliklerinin varsayılan değerleri için ayarlar.
 
 

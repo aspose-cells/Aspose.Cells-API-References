@@ -15,7 +15,7 @@ Bu yorumdaki verileri ve bazı biçimleri içeren html dizesini alır ve ayarlar
 
 Bu bir zincirleme yorumsa, not değiştirilemez, aksi halde MS Excel bunu zincirleme bir yorum olarak işleyemez.
 
-###  Örnek
+###  örnekler
 
 ```python
 

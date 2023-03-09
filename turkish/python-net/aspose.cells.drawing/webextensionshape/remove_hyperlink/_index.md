@@ -19,7 +19,7 @@ def remove_hyperlink(self):
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 

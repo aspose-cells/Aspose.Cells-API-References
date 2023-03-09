@@ -22,7 +22,7 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | border_type | [BorderType](/cells/ar/python-net/aspose.cells/bordertype) | يمكن أن تكون الحدود (الحدود) التي سيتم تعيينها مجموعة من [BorderType](/cells/ar/python-net/aspose.cells/bordertype).|
 | border_style | [CellBorderType](/cells/ar/python-net/aspose.cells/cellbordertype) | اسلوب الحدود.|
@@ -44,7 +44,7 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | border_type | [BorderType](/cells/ar/python-net/aspose.cells/bordertype) | يمكن أن تكون الحدود (الحدود) التي سيتم تعيينها مجموعة من [BorderType](/cells/ar/python-net/aspose.cells/bordertype).|
 | border_style | [CellBorderType](/cells/ar/python-net/aspose.cells/cellbordertype) | اسلوب الحدود.|

@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Stil nesnesi.|
 
@@ -34,7 +34,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Hücre stili.|
 | explicit_flag | bool | Doğru, yalnızca açıkça ayarlanan biçimlendirmenin üzerine yazma.|

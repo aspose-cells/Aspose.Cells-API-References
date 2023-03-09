@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  underflow الملكية
 
-الحصول على أو تعيين underflow لحاويات المحور
+الحصول على أو تحديد underflow لحاويات المحور
 ###  تعريف:
 ```python
 @property

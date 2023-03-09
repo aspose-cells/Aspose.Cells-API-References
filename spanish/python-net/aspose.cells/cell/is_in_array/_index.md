@@ -13,7 +13,7 @@ Indica si la fórmula de la celda es una fórmula matricial.
 
 ###  Observaciones
 
- NOTA: Esta clase ahora está obsoleta. En cambio,
+ NOTA: Esta clase ahora está obsoleta.
 utilice Cell.IsArrayFormula para verificar si la fórmula de la celda es una fórmula de matriz.
 Esta propiedad se eliminará 12 meses después desde mayo de 2018.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

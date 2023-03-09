@@ -18,7 +18,7 @@ def copy_theme(self, source):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source | [Workbook](/cells/sv/python-net/aspose.cells/workbook) | Källarbetsbok.|
 

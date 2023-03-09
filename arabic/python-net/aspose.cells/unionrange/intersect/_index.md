@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | range | str | النطاق.|
 ###  ملاحظات
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/ar/python-net/aspose.cells/unionrange) | النطاق.|
 ###  ملاحظات
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | ranges | list | النطاق.|
 ###  ملاحظات

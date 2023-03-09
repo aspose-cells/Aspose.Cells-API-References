@@ -13,7 +13,7 @@ Belirtilen nesneyi arar ve belirtilen dizinden son öğeye uzanan dizi listesind
 
 ###  İadeler
 
-Bulunursa, startIndex'ten son öğeye uzanan dizi listesindeki öğeler aralığındaki değerin ilk oluşumunun sıfır tabanlı dizini; aksi takdirde, -1.
+Bulunursa startIndex'ten son öğeye kadar uzanan dizi listesindeki öğeler aralığındaki değerin ilk oluşumunun sıfır tabanlı dizini; aksi takdirde, -1.
 
 
 ```python
@@ -22,10 +22,10 @@ def index_of(self, item, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| item | [QueryTable](/cells/tr/python-net/aspose.cells/querytable) | Dizi listesinde bulunacak nesne. Değer null olabilir.|
-| index | int | Aramanın sıfır tabanlı başlangıç dizini. 0 (sıfır) boş bir listede geçerlidir.|
+| item | [QueryTable](/cells/tr/python-net/aspose.cells/querytable) | Dizi listesinde bulunacak nesne.|
+| index | int | Aramanın sıfır tabanlı başlangıç dizini 0 (sıfır) boş bir listede geçerlidir.|
 
 
 ##  index_of(item, index, count) {#QueryTable-int-int}
@@ -34,7 +34,7 @@ Belirtilen nesneyi arar ve belirtilen dizinde başlayan ve belirtilen sayıda ö
 
 ###  İadeler
 
-dizi listesindeki öğeler aralığındaki değerin ilk geçtiği sıfır tabanlı dizin, startIndex'te başlar ve bulunursa öğe sayısını içerir; aksi takdirde, -1.
+StartIndex'te başlayan ve bulunursa öğe sayısını içeren dizi listesindeki öğeler aralığındaki ilk değer oluşumunun sıfır tabanlı dizini; aksi takdirde, -1.
 
 
 ```python
@@ -43,10 +43,10 @@ def index_of(self, item, index, count):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| item | [QueryTable](/cells/tr/python-net/aspose.cells/querytable) | Dizi listesinde bulunacak nesne. Değer null olabilir.|
-| index | int | Aramanın sıfır tabanlı başlangıç dizini. 0 (sıfır) boş bir listede geçerlidir.|
+| item | [QueryTable](/cells/tr/python-net/aspose.cells/querytable) | Dizi listesinde bulunacak nesne.|
+| index | int | Aramanın sıfır tabanlı başlangıç dizini 0 (sıfır) boş bir listede geçerlidir.|
 | count | int | Aranacak bölümdeki öğe sayısı.|
 
 

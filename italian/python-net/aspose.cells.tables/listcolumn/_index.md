@@ -33,7 +33,7 @@ Il tipo ListColumn espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellsHelper, Workbook

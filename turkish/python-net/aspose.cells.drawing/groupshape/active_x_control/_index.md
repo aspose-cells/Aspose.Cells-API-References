@@ -11,7 +11,7 @@ is_root: false
 
 ActiveX denetimini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose import pycore

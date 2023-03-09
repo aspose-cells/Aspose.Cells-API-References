@@ -1,6 +1,6 @@
 ﻿---
 title: get_referred_areas方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -22,9 +22,9 @@ def get_referred_areas(self, recalculate):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| recalculate | bool |如果在本次调用之前已经计算过该名称，是否重新计算。|
+| recalculate | bool |如果在本次调用之前已计算此名称，是否重新计算它。|
 
 
 

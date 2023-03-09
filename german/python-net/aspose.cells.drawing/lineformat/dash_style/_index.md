@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den Strichtyp der Linie an.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import MsoLineDashStyle

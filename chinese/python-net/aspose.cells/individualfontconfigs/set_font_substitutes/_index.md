@@ -1,6 +1,6 @@
 ﻿---
 title: set_font_substitutes方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -18,7 +18,7 @@ def set_font_substitutes(self, original_font_name, substitute_font_names):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | original_font_name | str |原始字体名称。|
 | substitute_font_names | list |如果未显示原始字体，则要使用的字体替代名称列表。|

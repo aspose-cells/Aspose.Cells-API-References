@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_scale_font proprietà
 
-True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto. Il valore predefinito è Vero.
+True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto.
 ###  Definizione:
 ```python
 @property

@@ -24,7 +24,7 @@ Typen InsertOptions avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [copy_format_type](/cells/sv/python-net/aspose.cells/insertoptions/copy_format_type) |  |
-| [update_reference](/cells/sv/python-net/aspose.cells/insertoptions/update_reference) | Anger om referenser i andra arbetsblad kommer att uppdateras.|
+| [update_reference](/cells/sv/python-net/aspose.cells/insertoptions/update_reference) |Anger om referenser i andra arbetsblad kommer att uppdateras.|
 
 
 

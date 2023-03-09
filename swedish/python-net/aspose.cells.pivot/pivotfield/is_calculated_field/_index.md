@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_calculated_field fastighet
 
-Anger om det angivna pivottabellfältet är beräknat fält.
+Anger om det angivna pivottabellfältet är ett beräknat fält.
 ###  Definition:
 ```python
 @property

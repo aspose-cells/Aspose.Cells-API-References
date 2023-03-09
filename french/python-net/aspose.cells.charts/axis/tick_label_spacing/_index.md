@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing propriété
 
-Représente le nombre de catégories ou de séries entre les étiquettes de graduation. S'applique uniquement aux axes de catégorie et de série.
+Représente le nombre de catégories ou de séries entre les étiquettes de graduation.
 
 ###  Remarques
 

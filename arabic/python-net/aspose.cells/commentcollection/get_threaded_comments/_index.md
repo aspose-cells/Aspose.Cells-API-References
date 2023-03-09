@@ -22,11 +22,11 @@ def get_threaded_comments(self, cell_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | cell_name | str | اسم الخلية.|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -53,12 +53,12 @@ def get_threaded_comments(self, row, column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | column | int | فهرس العمود.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

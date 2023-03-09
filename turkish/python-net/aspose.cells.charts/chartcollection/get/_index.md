@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/chartcollection/get/
 is_root: false
 ---
 ##  get(index) {#int}
-API for Python .Net yoluyla ekleyin, çünkü bu[int dizini] desteklenmiyor
+API for Python .Net yoluyla ekleyin, çünkü bu [int dizini] desteklenmiyor
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Öğenin sıfır tabanlı dizini.|
 
@@ -42,9 +42,9 @@ def get(self, name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| name | str | Grafik adı|
+| name | str |Grafik adı|
 
 
 

@@ -11,9 +11,9 @@ is_root: false
 
 İşlenecek sayfaları alır veya ayarlar. Varsayılan, çalışma kitabındaki tüm görünür sayfalardır: [SheetSet.visible](/cells/tr/python-net/aspose.cells.rendering/sheetset#visible).
 
-###  Örnek
+###  örnekler
 
-Aşağıdaki kod yalnızca aktif sayfayı pdf'ye dönüştürür.
+Aşağıdaki kod yalnızca etkin sayfaları pdf olarak işler.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

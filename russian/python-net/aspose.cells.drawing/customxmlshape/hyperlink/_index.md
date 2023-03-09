@@ -11,7 +11,7 @@ is_root: false
 
 Получает hyperlink формы.
 
-###  Пример
+###  Примеры
 
 ```python
 

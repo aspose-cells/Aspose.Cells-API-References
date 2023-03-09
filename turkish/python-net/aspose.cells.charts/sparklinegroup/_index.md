@@ -1,5 +1,5 @@
 ﻿---
-title: SparklineGroup sınıf
+title: SparklineGroup sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,8 +7,8 @@ weight: 280
 url: /tr/python-net/aspose.cells.charts/sparklinegroup/
 is_root: false
 ---
-##  SparklineGroup sınıf
-[Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) mini grup halinde düzenlenmiştir. SparklineGroup, değişken sayıda mini grafik öğesi içerir.
+##  SparklineGroup sınıfı
+[Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) mini grafik grubu olarak düzenlenmiştir. SparklineGroup değişken sayıda mini grafik öğesi içerir.
 Mini grafik grubu, mini grafikler için türü, görüntüleme ayarlarını ve eksen ayarlarını belirtir.
 
 
@@ -18,13 +18,13 @@ SparklineGroup türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [preset_style](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/preset_style) |Mini grafik grubunun önceden ayarlanmış stil türünü alır ve ayarlar.|
-| [sparkline_collection](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnesinin koleksiyonunu alır.|
-| [sparklines](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/sparklines) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnesinin koleksiyonunu alır.|
+| [preset_style](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/preset_style) | Mini grafik grubunun önceden ayarlanmış stil türünü alır ve ayarlar.|
+| [sparkline_collection](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnelerinin koleksiyonunu alır.|
+| [sparklines](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/sparklines) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnelerinin koleksiyonunu alır.|
 | [type](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/type) | Mini grafik grubunun mini grafik tipini belirtir.|
 | [plot_empty_cells_type](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/plot_empty_cells_type) | Boş hücrelerin nasıl çizileceğini gösterir.|
-| [display_hidden](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/display_hidden) | Verilerin gizli satırlarda ve sütunlarda gösterilip gösterilmeyeceğini belirtir.|
-| [show_high_point](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/show_high_point) |Mini grafik grubundaki verilerin en yüksek noktalarının vurgulanıp vurgulanmayacağını belirtir.|
+| [display_hidden](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/display_hidden) |Verilerin gizli satırlarda ve sütunlarda gösterilip gösterilmeyeceğini belirtir.|
+| [show_high_point](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/show_high_point) | Mini grafik grubundaki verilerin en yüksek noktalarının vurgulanıp vurgulanmayacağını belirtir.|
 | [high_point_color](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/high_point_color) | Sparkline grubundaki en yüksek veri noktalarının rengini alır ve ayarlar.|
 | [show_low_point](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/show_low_point) | Mini grafik grubundaki en düşük veri noktalarının vurgulanıp vurgulanmayacağını belirtir.|
 | [low_point_color](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/low_point_color) | Sparkline grubundaki en düşük veri noktalarının rengini alır ve ayarlar.|
@@ -34,7 +34,7 @@ SparklineGroup türü aşağıdaki üyeleri gösterir:
 | [first_point_color](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/first_point_color) | Sparkline grubundaki ilk veri noktasının rengini alır ve ayarlar.|
 | [show_last_point](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/show_last_point) | Mini grafik grubundaki verilerin son noktasının vurgulanıp vurgulanmayacağını belirtir.|
 | [last_point_color](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/last_point_color) | Sparkline grubundaki verilerin son noktasının rengini alır ve ayarlar.|
-| [show_markers](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/show_markers) | Mini grafik grubundaki her çizgi mini grafiğindeki her bir noktanın vurgulanıp vurgulanmayacağını belirtir.|
+| [show_markers](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/show_markers) |Mini grafik grubundaki her çizgi mini grafiğindeki her bir noktanın vurgulanıp vurgulanmayacağını belirtir.|
 | [markers_color](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/markers_color) | Mini grafik grubundaki her çizgi mini grafiğindeki noktaların rengini alır ve ayarlar.|
 | [series_color](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/series_color) | Mini grafik grubundaki mini grafiklerin rengini alır ve ayarlar.|
 | [plot_right_to_left](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/plot_right_to_left) | Çizim verilerinin sağdan sola olup olmadığını gösterir.|
@@ -51,11 +51,11 @@ SparklineGroup türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [reset_ranges(data_range, is_vertical, location_range)](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/reset_ranges/#str-bool-CellArea) | Mini grafik grubunun veri aralığını ve konum aralığını sıfırlar.<br/> Bu yöntem, gruptaki orijinal mini grafik öğelerini temizler ve yeni aralıklar için yeni mini grafik öğeleri oluşturur.|
+| [reset_ranges(data_range, is_vertical, location_range)](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/reset_ranges/#str-bool-CellArea) |Mini grafik grubunun veri aralığını ve konum aralığını sıfırlar.<br/> Bu yöntem, gruptaki orijinal mini grafik öğelerini temizler ve yeni aralıklar için yeni mini grafik öğeleri oluşturur.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

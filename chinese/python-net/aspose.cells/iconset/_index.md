@@ -1,13 +1,13 @@
 ﻿---
 title: IconSet类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 900
 url: /zh/python-net/aspose.cells/iconset/
 is_root: false
 ---
-##  IconSet类
+## IconSet类
 描述 IconSet 条件格式规则。
 此条件格式规则将图标应用于单元格
 根据他们的价值观。
@@ -21,7 +21,7 @@ IconSet 类型公开了以下成员：
 | :- | :- |
 | [cf_icons](/cells/zh/python-net/aspose.cells/iconset/cf_icons) |从集合中获取 the[ConditionalFormattingIcon](/cells/zh/python-net/aspose.cells/conditionalformattingicon)|
 | [cfvos](/cells/zh/python-net/aspose.cells/iconset/cfvos) |获取 CFValueObjects 实例。|
-| [type](/cells/zh/python-net/aspose.cells/iconset/type) |获取或设置要显示的图标集类型。<br/>设置类型将自动检查当前 Cfvos 的计数是否为<br/>符合新类型。如果不一致，旧的 Cfvos 将被清理并<br/>将添加默认 Cfvos。|
+| [type](/cells/zh/python-net/aspose.cells/iconset/type) |获取或设置要显示的图标集类型。<br/>设置类型将自动检查当前 Cfvos 的计数是否为<br/>符合新的类型。如果不符合，旧的Cfvos将被清洗和<br/>将添加默认 Cfvos。|
 | [is_custom](/cells/zh/python-net/aspose.cells/iconset/is_custom) |指示图标集是否为自定义。<br/>默认值为假。|
 | [show_value](/cells/zh/python-net/aspose.cells/iconset/show_value) |获取或设置标志，指示是否显示应用此图标集的单元格的值。<br/>默认值为真。|
 | [reverse](/cells/zh/python-net/aspose.cells/iconset/reverse) |获取或设置标志，指示是否反转此图标集中图标的默认顺序。<br/>默认值为假。|

@@ -1,5 +1,5 @@
 ﻿---
-title: XmlDataBinding sınıf
+title: XmlDataBinding sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1680
 url: /tr/python-net/aspose.cells/xmldatabinding/
 is_root: false
 ---
-##  XmlDataBinding sınıf
+##  XmlDataBinding sınıfı
 Xml Veri Bağlama bilgilerini temsil eder.
 
 

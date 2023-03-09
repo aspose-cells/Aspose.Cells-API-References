@@ -13,7 +13,7 @@ Hämtar elementet [ChartPoint](/cells/sv/python-net/aspose.cells.charts/chartpoi
 ###  Indexerare
 | namn| Beskrivning|
 | :- | :- |
-| index | Indexet för diagrampunkten i serien.|
+| index | Indexet över diagrampunkter i serien.|
 
 
 

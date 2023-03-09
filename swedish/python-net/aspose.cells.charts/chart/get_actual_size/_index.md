@@ -14,7 +14,7 @@ Hämtar den faktiska storleken på diagrammet i pixelenhet.
 ###  Returnerar
 
 Faktisk storlek i en array (bredd och höjd).
-[0] är bredd; [1] är höjd.
+[0] är bredd, [1] är höjd.
 
 
 ```python

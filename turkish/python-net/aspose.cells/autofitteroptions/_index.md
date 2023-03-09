@@ -1,5 +1,5 @@
 ﻿---
-title: AutoFitterOptions sınıf
+title: AutoFitterOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 80
 url: /tr/python-net/aspose.cells/autofitteroptions/
 is_root: false
 ---
-##  AutoFitterOptions sınıf
+##  AutoFitterOptions sınıfı
 Tüm otomatik tesisatçı seçeneklerini temsil eder.
 
 

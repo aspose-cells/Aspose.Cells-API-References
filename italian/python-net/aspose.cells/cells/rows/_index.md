@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rows proprietà
 
-Ottiene la raccolta di oggetti [Row](/cells/it/python-net/aspose.cells/row) che rappresenta l'individuo rows in questo foglio di lavoro.
+Ottiene la raccolta di oggetti [Row](/cells/it/python-net/aspose.cells/row) che rappresentano l'individuo rows in questo foglio di lavoro.
 ###  Definizione:
 ```python
 @property

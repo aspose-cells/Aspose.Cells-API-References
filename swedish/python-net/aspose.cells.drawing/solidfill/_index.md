@@ -23,7 +23,7 @@ Typen SolidFill avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [color](/cells/sv/python-net/aspose.cells.drawing/solidfill/color) | Får eller ställer in färgen.|
-| [cells_color](/cells/sv/python-net/aspose.cells.drawing/solidfill/cells_color) | Hämtar och ställer in objektet [SolidFill.cells_color](/cells/sv/python-net/aspose.cells.drawing/solidfill#cells_color).|
+| [cells_color](/cells/sv/python-net/aspose.cells.drawing/solidfill/cells_color) |Hämtar och ställer in objektet [SolidFill.cells_color](/cells/sv/python-net/aspose.cells.drawing/solidfill#cells_color).|
 | [transparency](/cells/sv/python-net/aspose.cells.drawing/solidfill/transparency) | Returnerar eller ställer in graden av transparens för området som ett värde från 0,0 (opak) till 1,0 (ren).|
 
 

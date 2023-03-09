@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shadow_effect недвижимость
 
-Представляет объект [ShapePropertyCollection.shadow_effect](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect), определяющий эффект тени для элемента диаграммы или фигуры.
+Представляет объект [ShapePropertyCollection.shadow_effect](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect), задающий эффект тени для элемента диаграммы или фигуры.
 ###  Определение:
 ```python
 @property

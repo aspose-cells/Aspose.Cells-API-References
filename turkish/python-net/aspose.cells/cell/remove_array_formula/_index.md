@@ -18,7 +18,7 @@ def remove_array_formula(self, leave_normal_formula):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | leave_normal_formula | bool | True, dizi formülünün normal formüle dönüştürülmesini temsil eder.|
 

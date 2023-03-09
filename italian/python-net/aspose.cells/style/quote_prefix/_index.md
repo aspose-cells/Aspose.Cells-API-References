@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_prefix proprietà
 
-Indica se il valore della cella inizia con virgolette singole.
+Indica se il valore della cella inizia con una singola virgoletta.
 ###  Definizione:
 ```python
 @property

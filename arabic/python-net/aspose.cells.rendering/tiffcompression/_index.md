@@ -20,7 +20,7 @@ is_root: false
 | COMPRESSION_NONE | لا يحدد أي ضغط.|
 | COMPRESSION_RLE | يحدد نظام ضغط RLE.|
 | COMPRESSION_LZW | يحدد مخطط ضغط LZW.|
-| COMPRESSION_CCITT3 | يحدد مخطط ضغط CCITT3.|
+| COMPRESSION_CCITT3 |يحدد مخطط ضغط CCITT3.|
 | COMPRESSION_CCITT4 | يحدد مخطط ضغط CCITT4.|
 
 

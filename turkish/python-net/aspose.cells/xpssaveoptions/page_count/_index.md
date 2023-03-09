@@ -15,7 +15,7 @@ Kaydedilecek sayfa sayısını alır veya ayarlar.
 
 Varsayılan, System.Int32.MaxValue'dur, bu da tüm sayfaların oluşturulacağı anlamına gelir.
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki örnek, bir Microsoft Excel dosyasındaki sayfa aralığının (3 ve 4) PDF'e nasıl dönüştürüleceğini gösterir.
 

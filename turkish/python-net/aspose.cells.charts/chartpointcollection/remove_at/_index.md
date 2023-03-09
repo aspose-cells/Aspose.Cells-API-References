@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Noktanın indeksi.|
 

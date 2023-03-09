@@ -18,7 +18,7 @@ def auto_fit_column(self, column_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column_index | int | فهرس العمود.|
 ###  ملاحظات
@@ -37,7 +37,7 @@ def auto_fit_column(self, column_index, first_row, last_row):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column_index | int | فهرس العمود.|
 | first_row | int | فهرس الصف الأول.|

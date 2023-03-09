@@ -22,7 +22,7 @@ def check_column(self, column_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | El índice de la columna.|
 

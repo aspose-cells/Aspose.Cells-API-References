@@ -152,13 +152,13 @@ Il tipo AutoShapeType espone i membri seguenti:
 | FLOW_CHART_DIRECT_ACCESS_STORAGE |  |
 | FLOW_CHART_DISPLAY |  |
 | FLOW_CHART_DELAY |  |
-| TEXT_PLAIN_TEXT | Una forma di testo normale.|
-| TEXT_STOP |Una forma di testo ottagonale.|
+| TEXT_PLAIN_TEXT | Una forma di testo semplice.|
+| TEXT_STOP | Una forma di testo ottagonale.|
 | TEXT_TRIANGLE | Una forma di testo triangolare rivolta verso l'alto.|
 | TEXT_TRIANGLE_INVERTED | Una forma di testo triangolare rivolta verso il basso.|
 | TEXT_CHEVRON | Una forma di testo chevron rivolta verso l'alto.|
 | TEXT_CHEVRON_INVERTED | Una forma di testo chevron rivolta verso il basso.|
-| TEXT_RING_INSIDE | Una forma di testo circolare, come se leggesse un'iscrizione all'interno di un anello.|
+| TEXT_RING_INSIDE |Una forma di testo circolare, come se leggesse un'iscrizione all'interno di un anello.|
 | TEXT_RING_OUTSIDE | Una forma di testo circolare, come se leggesse un'iscrizione all'esterno di un anello.|
 | TEXT_ARCH_UP_CURVE | Una forma di testo ricurva verso l'alto.|
 | TEXT_ARCH_DOWN_CURVE | Una forma di testo curva verso il basso.|
@@ -177,17 +177,17 @@ Il tipo AutoShapeType espone i membri seguenti:
 | TEXT_DOUBLE_WAVE1 | Una forma di testo ondulato.|
 | TEXT_DOUBLE_WAVE2 | Una forma di testo ondulato.|
 | TEXT_INFLATE | Una forma di testo che si espande verticalmente al centro.|
-| TEXT_DEFLATE |Una forma di testo che si restringe verticalmente al centro.|
+| TEXT_DEFLATE | Una forma di testo che si restringe verticalmente al centro.|
 | TEXT_INFLATE_BOTTOM | Una forma di testo che si espande verso il basso nel mezzo.|
 | TEXT_DEFLATE_BOTTOM | Una forma di testo che si restringe verso l'alto nel mezzo.|
 | TEXT_INFLATE_TOP | Una forma di testo che si espande verso l'alto nel mezzo.|
 | TEXT_DEFLATE_TOP | Una forma di testo che si restringe verso il basso nel mezzo.|
-| TEXT_DEFLATE_INFLATE | Una forma di testo in cui le linee inferiori si espandono verso l'alto. Le linee superiori si restringono per compensare.|
+| TEXT_DEFLATE_INFLATE |Una forma di testo in cui le linee inferiori si espandono verso l'alto. Le linee superiori si restringono per compensare.|
 | TEXT_DEFLATE_INFLATE_DEFLATE | Una forma di testo in cui le linee al centro si espandono verticalmente. Le linee superiore e inferiore si restringono per compensare.|
 | TEXT_FADE_RIGHT | Una forma di testo che si restringe verticalmente sul lato destro.|
 | TEXT_FADE_LEFT | Una forma di testo che si restringe verticalmente sul lato sinistro.|
 | TEXT_FADE_UP | Una forma di testo che si restringe orizzontalmente in alto.|
-| TEXT_FADE_DOWN | Una forma di testo che si restringe orizzontalmente in basso.|
+| TEXT_FADE_DOWN | Una forma di testo che si restringe orizzontalmente nella parte inferiore.|
 | TEXT_SLANT_UP | Una forma di testo inclinata verso l'alto.|
 | TEXT_SLANT_DOWN | Una forma di testo inclinata verso il basso.|
 | TEXT_CAN_UP | Una forma di testo curvata verso l'alto come se fosse letta sul lato di una lattina.|

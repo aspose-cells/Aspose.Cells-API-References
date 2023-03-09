@@ -22,7 +22,7 @@ def add_link_to_content(self, name, source):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom de la propriété.|
 | source | str | La source de la propriété|

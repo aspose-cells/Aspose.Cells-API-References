@@ -22,7 +22,7 @@ El tipo DataBar expone los siguientes miembros:
 | [axis_color](/cells/es/python-net/aspose.cells/databar/axis_color) | Obtiene el color del eje de las celdas con formato condicional como barras de datos.|
 | [axis_position](/cells/es/python-net/aspose.cells/databar/axis_position) | Obtiene o establece la posición del eje de las barras de datos especificadas por una regla de formato condicional.|
 | [bar_fill_type](/cells/es/python-net/aspose.cells/databar/bar_fill_type) | Obtiene o establece cómo se llena de color una barra de datos.|
-| [direction](/cells/es/python-net/aspose.cells/databar/direction) | Obtiene o establece la dirección en la que se muestra la barra de datos.|
+| [direction](/cells/es/python-net/aspose.cells/databar/direction) |Obtiene o establece la dirección en la que se muestra la barra de datos.|
 | [bar_border](/cells/es/python-net/aspose.cells/databar/bar_border) | Obtiene un objeto que especifica el borde de una barra de datos.|
 | [negative_bar_format](/cells/es/python-net/aspose.cells/databar/negative_bar_format) | Obtiene el objeto NegativeBarFormat asociado a una regla de formato condicional de la barra de datos.|
 | [min_cfvo](/cells/es/python-net/aspose.cells/databar/min_cfvo) | Obtenga o establezca el objeto de valor mínimo de este DataBar.<br/> No se puede establecer un valor nulo o CFValueObject con el tipo FormatConditionValueType.Max.|
@@ -30,7 +30,7 @@ El tipo DataBar expone los siguientes miembros:
 | [color](/cells/es/python-net/aspose.cells/databar/color) | Obtenga o establezca el color de esta barra de datos.|
 | [min_length](/cells/es/python-net/aspose.cells/databar/min_length) | Representa la longitud mínima de la barra de datos.|
 | [max_length](/cells/es/python-net/aspose.cells/databar/max_length) | Representa la longitud máxima de la barra de datos.|
-| [show_value](/cells/es/python-net/aspose.cells/databar/show_value) | Obtener o establecer la bandera que indica si mostrar los valores de las celdas en las que se aplica esta barra de datos.<br/> El valor predeterminado es verdadero.|
+| [show_value](/cells/es/python-net/aspose.cells/databar/show_value) | Obtener o establecer la bandera que indica si mostrar los valores de las celdas sobre las que se aplica esta barra de datos.<br/> El valor predeterminado es verdadero.|
 
 
 ###  Métodos
@@ -40,7 +40,7 @@ El tipo DataBar expone los siguientes miembros:
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

@@ -18,9 +18,9 @@ def start_row(self, row):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| row | [Row](/cells/sv/python-net/aspose.cells/row) | Radobjekt för implementering för att fylla data. Dess radindex är det returnerade värdet av senaste samtalet [LightCellsDataProvider.next_row()](/cells/sv/python-net/aspose.cells/lightcellsdataprovider/next_row).<br/>Om raden har initierats i modellen med inre celler kommer det befintliga radobjektet att användas.<br/> Annars kommer ett temporärt radobjekt att användas för implementering för att fylla data.|
+| row | [Row](/cells/sv/python-net/aspose.cells/row) | Radobjekt för implementering för att fylla data. Dess radindex är det returnerade värdet av det senaste anropet av [LightCellsDataProvider.next_row()](/cells/sv/python-net/aspose.cells/lightcellsdataprovider/next_row).<br/>Om raden har initierats i modellen med inre celler kommer det befintliga radobjektet att användas.<br/> Annars kommer ett temporärt radobjekt att användas för implementering för att fylla data.|
 ###  Anmärkningar
 
 Den kommer att anropas i början av att spara en rad och dess celldata.

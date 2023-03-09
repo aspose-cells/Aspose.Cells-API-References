@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.properties/customdocumentpropertycollection/add
 is_root: false
 ---
 ##  add(name, value) {#str-str}
- Crea una nuova proprietà del documento personalizzata di**PropertyType.String** tipo di dati.
+ Crea una nuova proprietà del documento personalizzata di**Tipo di proprietà.Stringa** tipo di dati.
 
 
 ###  ritorna
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome della proprietà.|
 | value | str | Il valore della proprietà.|
@@ -43,14 +43,14 @@ def add(self, name, value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome della proprietà.|
 | value | int | Il valore della proprietà.|
 
 
 ##  add(name, value) {#str-DateTime}
- Crea una nuova proprietà del documento personalizzata di**PropertyType.DateTime** tipo di dati.
+ Crea una nuova proprietà del documento personalizzata di**Tipo di proprietà.DateTime** tipo di dati.
 
 
 ###  ritorna
@@ -64,14 +64,14 @@ def add(self, name, value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome della proprietà.|
 | value | DateTime | Il valore della proprietà.|
 
 
 ##  add(name, value) {#str-bool}
- Crea una nuova proprietà del documento personalizzata di**PropertyType.Boolean** tipo di dati.
+ Crea una nuova proprietà del documento personalizzata di**PropertyType Booleano** tipo di dati.
 
 
 ###  ritorna
@@ -85,14 +85,14 @@ def add(self, name, value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome della proprietà.|
 | value | bool | Il valore della proprietà.|
 
 
 ##  add(name, value) {#str-float}
- Crea una nuova proprietà del documento personalizzata di**PropertyType.Float** tipo di dati.
+ Crea una nuova proprietà del documento personalizzata di**PropertyType** tipo di dati.
 
 
 ###  ritorna
@@ -106,7 +106,7 @@ def add(self, name, value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome della proprietà.|
 | value | float | Il valore della proprietà.|

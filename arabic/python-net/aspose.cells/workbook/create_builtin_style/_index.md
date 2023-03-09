@@ -22,7 +22,7 @@ def create_builtin_style(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [BuiltinStyleType](/cells/ar/python-net/aspose.cells/builtinstyletype) |  |
 

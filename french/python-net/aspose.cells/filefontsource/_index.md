@@ -22,14 +22,14 @@ Le type FileFontSource expose les membres suivants :
 ###  Constructeurs
 | Constructeur| Description|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/fr/python-net/aspose.cells/filefontsource/__init__/#str) | Ctor.|
+| [FileFontSource(file_path)](/cells/fr/python-net/aspose.cells/filefontsource/__init__/#str) | Directeur.|
 
 
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
 | [type](/cells/fr/python-net/aspose.cells/filefontsource/type) | Renvoie le type de la source de la police.|
-| [file_path](/cells/fr/python-net/aspose.cells/filefontsource/file_path) |Chemin d'accès au fichier de police.|
+| [file_path](/cells/fr/python-net/aspose.cells/filefontsource/file_path) | Chemin d'accès au fichier de police.|
 
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Mso çizim tipini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

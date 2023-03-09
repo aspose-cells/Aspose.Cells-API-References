@@ -18,42 +18,42 @@ def get_dependents(self, is_all):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| is_all | bool | Indica si verificar fórmulas en otras hojas de cálculo|
+| is_all | bool | Indica si verificar fórmulas en otras hojas de trabajo|
 ###  Observaciones
 
 * Si una referencia que contiene esta celda aparece en la fórmula de una celda, esa celda se tomará como
 
 el dependiente de esta celda, sin importar la referencia o si esta celda se usa o no durante el cálculo.
 Por ejemplo, aunque la celda A2 en la fórmula "=SI(VERDADERO,A1,A2)" no se usa al calcular,
-esta fórmula todavía se toma como dependiente de A2.
+Esta fórmula todavía se toma como dependiente de A2.
 Para obtener las fórmulas cuyos resultados calculados dependen de esta celda, utilice [Cell.get_dependents_in_calculation(recursive)](/cells/es/python-net/aspose.cells/cell/get_dependents_in_calculation). Al rastrear los dependientes de una celda, se analizarán y comprobarán todas las fórmulas del libro de trabajo o de la hoja de trabajo.
-Por lo tanto, es un proceso que consume tiempo. Si el usuario necesita rastrear dependientes para muchas celdas, usar este método
-provocar un rendimiento deficiente. Para tener en cuenta el rendimiento, el usuario debe usar [Cell.get_dependents_in_calculation(recursive)](/cells/es/python-net/aspose.cells/cell/get_dependents_in_calculation) en su lugar.
+Por lo tanto, es un proceso que consume mucho tiempo. Si el usuario necesita rastrear dependientes para muchas celdas, usar este método
+causar un rendimiento deficiente. Para considerar el rendimiento, el usuario debe usar [Cell.get_dependents_in_calculation(recursive)](/cells/es/python-net/aspose.cells/cell/get_dependents_in_calculation) en su lugar.
 O bien, el usuario puede recopilar un mapa de precedentes de todas las celdas por [Cell.get_precedents()](/cells/es/python-net/aspose.cells/cell/get_precedents) en primer lugar,
 y luego construya el mapa de dependientes de acuerdo con el mapa de precedentes.
 
 * Si una referencia que contiene esta celda aparece en la fórmula de una celda, esa celda se tomará como
 el dependiente de esta celda, sin importar la referencia o si esta celda se usa o no durante el cálculo.
 Por ejemplo, aunque la celda A2 en la fórmula "=SI(VERDADERO,A1,A2)" no se usa al calcular,
-esta fórmula todavía se toma como dependiente de A2.
+Esta fórmula todavía se toma como dependiente de A2.
 Para obtener las fórmulas cuyos resultados calculados dependen de esta celda, utilice [Cell.get_dependents_in_calculation(recursive)](/cells/es/python-net/aspose.cells/cell/get_dependents_in_calculation). Al rastrear los dependientes de una celda, se analizarán y comprobarán todas las fórmulas del libro de trabajo o de la hoja de trabajo.
-Por lo tanto, es un proceso que consume tiempo. Si el usuario necesita rastrear dependientes para muchas celdas, usar este método
-provocar un rendimiento deficiente. Para tener en cuenta el rendimiento, el usuario debe usar [Cell.get_dependents_in_calculation(recursive)](/cells/es/python-net/aspose.cells/cell/get_dependents_in_calculation) en su lugar.
+Por lo tanto, es un proceso que consume mucho tiempo. Si el usuario necesita rastrear dependientes para muchas celdas, usar este método
+causar un rendimiento deficiente. Para considerar el rendimiento, el usuario debe usar [Cell.get_dependents_in_calculation(recursive)](/cells/es/python-net/aspose.cells/cell/get_dependents_in_calculation) en su lugar.
 O bien, el usuario puede recopilar un mapa de precedentes de todas las celdas por [Cell.get_precedents()](/cells/es/python-net/aspose.cells/cell/get_precedents) en primer lugar,
 y luego construya el mapa de dependientes de acuerdo con el mapa de precedentes.
 
 * Si una referencia que contiene esta celda aparece en la fórmula de una celda, esa celda se tomará como
 el dependiente de esta celda, sin importar la referencia o si esta celda se usa o no durante el cálculo.
 Por ejemplo, aunque la celda A2 en la fórmula "=SI(VERDADERO,A1,A2)" no se usa al calcular,
-esta fórmula todavía se toma como dependiente de A2.
+Esta fórmula todavía se toma como dependiente de A2.
 Para obtener las fórmulas cuyos resultados calculados dependen de esta celda, utilice [Cell.get_dependents_in_calculation(recursive)](/cells/es/python-net/aspose.cells/cell/get_dependents_in_calculation). Al rastrear los dependientes de una celda, se analizarán y comprobarán todas las fórmulas del libro de trabajo o de la hoja de trabajo.
-Por lo tanto, es un proceso que consume tiempo. Si el usuario necesita rastrear dependientes para muchas celdas, usar este método
-provocar un rendimiento deficiente. Para tener en cuenta el rendimiento, el usuario debe usar [Cell.get_dependents_in_calculation(recursive)](/cells/es/python-net/aspose.cells/cell/get_dependents_in_calculation) en su lugar.
+Por lo tanto, es un proceso que consume mucho tiempo. Si el usuario necesita rastrear dependientes para muchas celdas, usar este método
+causar un rendimiento deficiente. Para considerar el rendimiento, el usuario debe usar [Cell.get_dependents_in_calculation(recursive)](/cells/es/python-net/aspose.cells/cell/get_dependents_in_calculation) en su lugar.
 O bien, el usuario puede recopilar un mapa de precedentes de todas las celdas por [Cell.get_precedents()](/cells/es/python-net/aspose.cells/cell/get_precedents) en primer lugar,
 y luego construya el mapa de dependientes de acuerdo con el mapa de precedentes.
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

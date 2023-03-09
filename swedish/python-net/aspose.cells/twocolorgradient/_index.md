@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/twocolorgradient/
 is_root: false
 ---
 ##  TwoColorGradient klass
-Representerar tvåfärgsgradient.
+Representerar två färggradienter.
 
 
 
@@ -25,8 +25,8 @@ Typen TwoColorGradient avslöjar följande medlemmar:
 | :- | :- |
 | [color1](/cells/sv/python-net/aspose.cells/twocolorgradient/color1) | Hämtar och ställer in den första gradientfärgen.|
 | [color2](/cells/sv/python-net/aspose.cells/twocolorgradient/color2) | Hämtar och ställer in den andra gradientfärgen.|
-| [gradient_style_type](/cells/sv/python-net/aspose.cells/twocolorgradient/gradient_style_type) | Får och ställer in gradientskuggningsstil.|
-| [variant](/cells/sv/python-net/aspose.cells/twocolorgradient/variant) |Hämtar och ställer in gradientvarianten.|
+| [gradient_style_type](/cells/sv/python-net/aspose.cells/twocolorgradient/gradient_style_type) |Får och ställer in gradientskuggningsstil.|
+| [variant](/cells/sv/python-net/aspose.cells/twocolorgradient/variant) | Hämtar och ställer in gradientvarianten.|
 
 
 

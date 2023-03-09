@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/
 is_root: false
 ---
 ##  DigitalSignature(raw_data, password, comments, sign_time) {#bytes-str-str-DateTime}
-Konstruktör av digitalSignature. Använder Bouncy Castle implementering.
+Konstruktör av digital signatur. Använder implementering av Bouncy Castle.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, raw_data, password, comments, sign_time):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | raw_data | bytes | En byte-array som innehåller data från ett X.509-certifikat.|
 | password | str | Lösenordet som krävs för att komma åt X.509-certifikatdata.|

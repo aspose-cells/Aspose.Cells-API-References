@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  width_pt fastighet
 
-Representerar formens bredd, i punktenhet.
+Representerar formens bredd i enheter av punkter.
 
 ###  Exempel
 

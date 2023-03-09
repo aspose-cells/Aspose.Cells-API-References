@@ -18,9 +18,9 @@ def copy_style(self, pivot_table):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/it/python-net/aspose.cells.pivot/pivottable) | Tabella pivot di origine.|
+| pivot_table | [PivotTable](/cells/it/python-net/aspose.cells.pivot/pivottable) |Tabella pivot di origine.|
 
 
 

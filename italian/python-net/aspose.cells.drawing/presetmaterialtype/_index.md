@@ -18,7 +18,7 @@ Il tipo PresetMaterialType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | CLEAR | Chiaro|
-| DARK_EDGE | Bordo scuro|
+| DARK_EDGE | Bordi scuri|
 | FLAT | Piatto|
 | LEGACY_MATTE | Legacy opaca|
 | LEGACY_METAL | Metallo antico|
@@ -28,10 +28,10 @@ Il tipo PresetMaterialType espone i membri seguenti:
 | METAL | Metallo|
 | PLASTIC | Plastica|
 | POWDER | Polvere|
-| SOFT_EDGE | Bordo morbido|
+| SOFT_EDGE | Bordi morbidi|
 | SOFT_METAL | Metallo morbido|
 | TRANSLUCENT_POWDER | Polvere traslucida|
-| WARM_MATTE | Caldo opaco|
+| WARM_MATTE | caldo opaco|
 
 
 

@@ -13,7 +13,7 @@ Gibt ein Characters-Objekt zurück, das einen Bereich von characters im Kommenta
 
 ###  Kehrt zurück
 
-Zeichenobjekt.
+Charakterobjekte.
 
 
 ```python
@@ -27,7 +27,7 @@ def characters(self, start_index, length):
 | start_index | int | Der Index des Zeichenanfangs.|
 | length | int | Die Anzahl der Zeichen.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

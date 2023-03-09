@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range | str | Menzil.|
 ###  Notlar
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/tr/python-net/aspose.cells/unionrange) | Menzil.|
 ###  Notlar
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | ranges | list | Menzil.|
 ###  Notlar

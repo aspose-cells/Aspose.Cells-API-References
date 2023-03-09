@@ -13,7 +13,7 @@ Representa el orden de lectura del texto.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
  utilice la propiedad TickLabels.ReadingOrder.
  Esta propiedad se eliminará 12 meses después desde marzo de 2020.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

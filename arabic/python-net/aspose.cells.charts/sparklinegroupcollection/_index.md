@@ -24,12 +24,12 @@ is_root: false
 | طريقة| وصف|
 | :- | :- |
 | [copy_to(array)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/copy_to/#list) | ينسخ قائمة المصفوفات بأكملها إلى قائمة مصفوفة متوافقة أحادية البعد ، بدءًا من بداية قائمة الصفيف الهدف.|
-| [copy_to(index, array, array_index, count)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/copy_to/#int-list-int-int) | ينسخ نطاقًا من العناصر من قائمة المصفوفة إلى قائمة مصفوفة أحادية البعد متوافقة ، بدءًا من الفهرس المحدد لقائمة الصفيف الهدف.|
+| [copy_to(index, array, array_index, count)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/copy_to/#int-list-int-int) |ينسخ نطاقًا من العناصر من قائمة المصفوفة إلى قائمة مصفوفة أحادية البعد متوافقة ، بدءًا من الفهرس المحدد لقائمة الصفيف الهدف.|
 | [index_of(item, index)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/index_of/#SparklineGroup-int) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأول ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من الفهرس المحدد إلى العنصر الأخير.|
 | [index_of(item, index, count)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/index_of/#SparklineGroup-int-int) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأول ضمن نطاق العناصر في قائمة الصفيف الذي يبدأ بالفهرس المحدد ويحتوي على عدد محدد من العناصر.|
 | [last_index_of(item)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأخير ضمن قائمة الصفيف بأكملها.|
-| [last_index_of(item, index)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
-| [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
+| [last_index_of(item, index)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
+| [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
 | [add(type, data_range, is_vertical, location_range)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/add/#SparklineType-str-bool-CellArea) | لاضافة عنصر [SparklineGroup](/cells/ar/python-net/aspose.cells.charts/sparklinegroup) للمجموعة.|
 | [clear_sparklines(cell_area)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | يمسح خطوط المؤشر الموجودة داخل منطقة من الخلايا.|
 | [clear_sparkline_groups(cell_area)](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | يمسح مجموعات خط المؤشر التي تتداخل مع منطقة من الخلايا.|
@@ -37,7 +37,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

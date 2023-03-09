@@ -18,7 +18,7 @@ def add(self, data_range, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | data_range | str | Mini grafiğin yeni veri aralığını belirtir.|
 | row | int | Konumun satır dizini.|

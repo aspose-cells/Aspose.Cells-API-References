@@ -1,13 +1,13 @@
 ﻿---
 title: GradientFill类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 220
 url: /zh/python-net/aspose.cells.drawing/gradientfill/
 is_root: false
 ---
-##  GradientFill类
+## GradientFill类
 表示渐变填充。
 
 

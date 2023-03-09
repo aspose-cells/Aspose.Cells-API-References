@@ -18,9 +18,9 @@ def set_custom(self, custom, builtin_preference):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| custom | str | Özel sayı biçimi dizesi, InvariantCulture modeli olmalıdır.|
+| custom | str | Özel sayı biçimi dizesi, Değişmez Kültür modeli olmalıdır.|
 | builtin_preference | bool | Özel sayı biçimi dizesi verilirse, yerleşik sayı biçimlerinden biriyle eşleşir<br/> sayı biçimini Özel yerine yerleşik olarak ayarlayın.|
 
 

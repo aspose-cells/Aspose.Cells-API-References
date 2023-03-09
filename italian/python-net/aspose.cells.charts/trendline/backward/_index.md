@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  backward proprietà
 
-Restituisce o imposta il numero di periodi (o unità su un grafico a dispersione) di estensione della linea di tendenza backward.
+ Restituisce o imposta il numero di periodi (o unità su un grafico a dispersione) di estensione della linea di tendenza backward.
 Il numero di periodi deve essere maggiore o uguale a zero.
 Se il tipo di grafico è colonna, il numero di periodi deve essere compreso tra 0 e 0,5
 ###  Definizione:

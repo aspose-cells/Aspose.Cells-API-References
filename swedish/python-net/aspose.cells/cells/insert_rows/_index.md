@@ -18,7 +18,7 @@ def insert_rows(self, row_index, total_rows):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 | total_rows | int | Antal rader som ska infogas.|
@@ -35,11 +35,11 @@ def insert_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 | total_rows | int | Antal rader som ska infogas.|
-| update_reference | bool | Anger om referenser i andra arbetsblad kommer att uppdateras.|
+| update_reference | bool |Anger om referenser i andra arbetsblad kommer att uppdateras.|
 
 
 ##  insert_rows(row_index, total_rows, options) {#int-int-InsertOptions}
@@ -53,11 +53,11 @@ def insert_rows(self, row_index, total_rows, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 | total_rows | int | Antal rader som ska infogas.|
-| options | [InsertOptions](/cells/sv/python-net/aspose.cells/insertoptions) | Anger om referenser i andra arbetsblad kommer att uppdateras.|
+| options | [InsertOptions](/cells/sv/python-net/aspose.cells/insertoptions) |Anger om referenser i andra arbetsblad kommer att uppdateras.|
 
 
 

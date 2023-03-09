@@ -62,7 +62,7 @@ def calculate_formula(self, options, recursive):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/de/python-net/aspose.cells/calculationoptions) | Berechnungsmöglichkeiten|
-| recursive | bool | True bedeutet, wenn die Zellen des Arbeitsblatts von den Zellen anderer Arbeitsblätter abhängen,<br/>die abhängigen Zellen in anderen Arbeitsblättern werden ebenfalls berechnet.<br/> Falsch bedeutet, dass alle Formeln im Arbeitsblatt berechnet wurden und die Werte richtig sind.|
+| recursive | bool | True bedeutet, wenn die Zellen des Arbeitsblatts von den Zellen anderer Arbeitsblätter abhängen,<br/>die abhängigen Zellen in anderen Arbeitsblättern werden ebenfalls berechnet.<br/> Falsch bedeutet, dass alle Formeln im Arbeitsblatt berechnet wurden und die Werte stimmen.|
 
 
 ##  calculate_formula(recursive, ignore_error, custom_function) {#bool-bool-ICustomFunction}
@@ -78,12 +78,12 @@ def calculate_formula(self, recursive, ignore_error, custom_function):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| recursive | bool | True bedeutet, wenn die Zellen des Arbeitsblatts von den Zellen anderer Arbeitsblätter abhängen,<br/>die abhängigen Zellen in anderen Arbeitsblättern werden ebenfalls berechnet.<br/> Falsch bedeutet, dass alle Formeln im Arbeitsblatt berechnet wurden und die Werte richtig sind.|
-| ignore_error | bool | Gibt an, ob der Fehler beim Berechnen von Formeln ausgeblendet wird.<br/> Der Fehler kann eine nicht unterstützte Funktion, externe Links usw. sein.|
+| recursive | bool | True bedeutet, wenn die Zellen des Arbeitsblatts von den Zellen anderer Arbeitsblätter abhängen,<br/>die abhängigen Zellen in anderen Arbeitsblättern werden ebenfalls berechnet.<br/> Falsch bedeutet, dass alle Formeln im Arbeitsblatt berechnet wurden und die Werte stimmen.|
+| ignore_error | bool | Gibt an, ob der Fehler beim Berechnen von Formeln ausgeblendet wird.<br/> Der Fehler kann nicht unterstützte Funktionen, externe Links usw. sein.|
 | custom_function | [ICustomFunction](/cells/de/python-net/aspose.cells/icustomfunction) | Die Berechnungsfunktionen für benutzerdefinierte Formeln erweitern die Berechnungs-Engine.|
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die Methode CalculateFormula (CalculationOptions, bool).
  Diese Methode wird 12 Monate später seit August 2020 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -22,7 +22,7 @@ Il tipo OLEDBCommandType espone i membri seguenti:
 | SQL_STATEMENT | Specifica un'istruzione SQL|
 | TABLE_NAME | Specifica un nome di tabella|
 | DEFAULT_INFORMATION | Specifica che sono state fornite informazioni predefinite e spetta al provider come interpretarle.|
-| WEB_BASED_LIST | Specifica una query relativa a un fornitore di dati elenco basato sul Web.|
+| WEB_BASED_LIST |Specifica una query relativa a un fornitore di dati elenco basato sul Web.|
 
 
 

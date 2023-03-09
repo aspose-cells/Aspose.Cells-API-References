@@ -1,13 +1,13 @@
 ﻿---
 title: FormulaSettings类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 720
 url: /zh/python-net/aspose.cells/formulasettings/
 is_root: false
 ---
-##  FormulaSettings类
+## FormulaSettings类
 公式和计算的设置。
 
 
@@ -26,7 +26,7 @@ FormulaSettings 类型公开了以下成员：
 | [max_iteration](/cells/zh/python-net/aspose.cells/formulasettings/max_iteration) |解决循环引用的最大迭代次数。|
 | [max_change](/cells/zh/python-net/aspose.cells/formulasettings/max_change) |解决循环引用的最大变化。|
 | [precision_as_displayed](/cells/zh/python-net/aspose.cells/formulasettings/precision_as_displayed) |计算公式显示时是否设置计算结果的精度|
-| [enable_calculation_chain](/cells/zh/python-net/aspose.cells/formulasettings/enable_calculation_chain) |是否为公式启用计算链。默认为假。|
+| [enable_calculation_chain](/cells/zh/python-net/aspose.cells/formulasettings/enable_calculation_chain) |是否为公式启用计算链。|
 
 
 

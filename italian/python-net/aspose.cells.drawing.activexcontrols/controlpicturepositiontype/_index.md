@@ -27,9 +27,9 @@ Il tipo ControlPicturePositionType espone i membri seguenti:
 | ABOVE_CENTER | L'immagine appare sopra la didascalia.<br/> La didascalia è centrata sotto l'immagine.|
 | ABOVE_RIGHT | L'immagine appare sopra la didascalia.<br/> La didascalia è allineata con il bordo destro dell'immagine.|
 | BELOW_LEFT | L'immagine appare sotto la didascalia.<br/> La didascalia è allineata con il bordo sinistro dell'immagine.|
-| BELOW_CENTER | L'immagine appare sotto la didascalia.<br/> La didascalia è centrata sopra l'immagine.|
+| BELOW_CENTER | L'immagine appare sotto la didascalia.<br/>La didascalia è centrata sopra l'immagine.|
 | BELOW_RIGHT | L'immagine appare sotto la didascalia.<br/> La didascalia è allineata con il bordo destro dell'immagine.|
-| CENTER | L'immagine appare al centro del controllo.<br/>La didascalia è centrata orizzontalmente e verticalmente sopra l'immagine.|
+| CENTER | L'immagine appare al centro del controllo.<br/> La didascalia è centrata orizzontalmente e verticalmente sulla parte superiore dell'immagine.|
 
 
 

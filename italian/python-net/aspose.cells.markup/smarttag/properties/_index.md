@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  properties proprietà
 
-Ottiene e imposta lo properties dello smart tag.
+Ottiene e imposta il numero properties dello smart tag.
 ###  Definizione:
 ```python
 @property

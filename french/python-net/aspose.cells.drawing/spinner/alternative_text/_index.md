@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie ou définit la chaîne de texte descriptive (alternative) de l'objet [Shape](/cells/fr/python-net/aspose.cells.drawing/shape).
 
-###  Exemple
+###  Exemples
 
 ```python
 

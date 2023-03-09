@@ -1,13 +1,13 @@
 ﻿---
 title: ImageType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 900
 url: /zh/python-net/aspose.cells.drawing/imagetype/
 is_root: false
 ---
-##  ImageType枚举
+## ImageType枚举
 指定图像的类型（格式）。
 
 
@@ -26,10 +26,10 @@ ImageType 类型公开了以下成员：
 | BMP | Windows 位图|
 | GIF |动图|
 | TIFF |时间差|
-| SVG | SVG|
+| SVG |SVG|
 | SVM |支持向量机|
-| GLTF |glTF|
-| OFFICE_COMPATIBLE_EMF | Windows 增强图元文件，与 Office 更兼容。|
+| GLTF |glTF更多|
+| OFFICE_COMPATIBLE_EMF |Windows 增强图元文件，与 Office 更兼容。|
 | WEB_P |湿漉漉的图像格式|
 
 

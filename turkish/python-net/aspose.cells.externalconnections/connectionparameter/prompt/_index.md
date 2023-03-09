@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  prompt mülk
 
- Parametre için bilgi istemi dizesi. Elektronik tablo kullanıcısına giriş kullanıcı arabirimiyle birlikte sunulur
- harici verileri yenilemeden önce parametre değerini toplamak için. Sadece ne zaman kullanılır
+ Parametre için bilgi istemi dizesi. Elektronik tablo kullanıcısına giriş kullanıcı arayüzüyle birlikte sunulur.
+ harici verileri yenilemeden önce parametre değerini toplamak için.
 parametreTürü = prompt.
 ###  Tanım:
 ```python

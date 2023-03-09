@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  save_as_single_file fastighet
 
-Anger om HTML-filen sparas som en enda fil.
+Anger om HTML-filen ska sparas som en enda fil.
 Standardvärdet är falskt.
 
 ###  Anmärkningar
 
 Om det finns flera kalkylblad eller andra nödvändiga resurser som bilder i arbetsboken,
- Vanligtvis måste dessa kalkylblad och andra resurser sparas i separata filer.
+Vanligtvis måste dessa kalkylblad och andra resurser sparas i separata filer.
 För vissa scenarier kanske användaren behöver bara få en resulterande fil, till exempel för att underlätta överföringen.
 Om så är fallet kan användaren ställa in den här egenskapen som true.
 ###  Definition:

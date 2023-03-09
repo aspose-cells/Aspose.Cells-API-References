@@ -13,7 +13,7 @@ Aggiunge uno smart tag.
 
 ###  ritorna
 
-Indice dello smart tag nell'elenco.
+Indice degli smart tag nell'elenco.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | uri | str | Specifica l'URI dello spazio dei nomi dello smart tag|
 | name | str | Specifica il nome dello smart tag.|

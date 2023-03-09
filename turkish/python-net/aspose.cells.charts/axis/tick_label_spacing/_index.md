@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing mülk
 
-Onay işareti etiketleri arasındaki kategori veya seri sayısını temsil eder. Yalnızca kategori ve seri eksenleri için geçerlidir.
+Onay işareti etiketleri arasındaki kategori veya seri sayısını temsil eder.
 
 ###  Notlar
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_password propriété
 
-True si le mot de passe doit être enregistré dans le cadre de la chaîne de connexion ; sinon, Faux.
+True si le mot de passe doit être enregistré dans le cadre de la chaîne de connexion ; sinon, False.
 ###  Définition:
 ```python
 @property

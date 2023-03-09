@@ -18,7 +18,7 @@ Der Typ SlicerCacheItem macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [selected](/cells/de/python-net/aspose.cells.slicers/slicercacheitem/selected) | Gibt an, ob das SlicerItem ausgewählt ist oder nicht.|
-| [value](/cells/de/python-net/aspose.cells.slicers/slicercacheitem/value) |Gibt den Beschriftungstext für das Slicer-Element zurück. Schreibgeschützt.|
+| [value](/cells/de/python-net/aspose.cells.slicers/slicercacheitem/value) | Gibt den Beschriftungstext für das Slicer-Element zurück.|
 
 
 

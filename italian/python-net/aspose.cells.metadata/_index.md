@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Enumerazioni
-| Enumerazione| Descrizione|
+|Enumerazione| Descrizione|
 | :- | :- |
 | [MetadataType](/cells/it/python-net/aspose.cells.metadata/metadatatype) | Rappresenta il tipo di metadati.|
 

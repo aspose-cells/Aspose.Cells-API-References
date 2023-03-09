@@ -15,7 +15,7 @@ Ottiene o imposta l'offset verticale della forma dalla riga dell'angolo superior
 
 L'intervallo di valori va da 0 a 256.
 
-###  Esempio
+###  Esempi
 
 ```python
 

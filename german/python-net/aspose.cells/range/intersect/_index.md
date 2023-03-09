@@ -28,7 +28,7 @@ def intersect(self, range):
 ###  Bemerkungen
 
 Wenn sich die beiden Bereiche nicht schneiden, wird null zurückgegeben.
-###  Beispiel
+###  Beispiele
 
 
 ```python

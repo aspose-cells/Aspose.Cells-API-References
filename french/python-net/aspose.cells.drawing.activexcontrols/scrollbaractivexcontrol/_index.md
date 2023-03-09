@@ -26,10 +26,10 @@ Le type ScrollBarActiveXControl expose les membres suivants :
 | :- | :- |
 | [workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/workbook) | Obtient l'objet [ActiveXControlBase.workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/type) | Obtient le type du contrôle ActiveX.|
-| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/width) | Obtient et définit la largeur du contrôle en unités de points.|
+| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/width) |Obtient et définit la largeur du contrôle en unités de points.|
 | [height](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/height) | Obtient et définit la hauteur du contrôle en unités de points.|
 | [mouse_icon](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/mouse_icon) | Obtient et définit une icône personnalisée à afficher comme pointeur de souris pour le contrôle.|
-| [mouse_pointer](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/mouse_pointer) |Obtient et définit le type d'icône affichée comme pointeur de souris pour le contrôle.|
+| [mouse_pointer](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/mouse_pointer) | Obtient et définit le type d'icône affichée comme pointeur de souris pour le contrôle.|
 | [fore_ole_color](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/fore_ole_color) | Obtient et définit l'ancienne couleur du premier plan.|
 | [back_ole_color](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/back_ole_color) | Obtient et définit l'ancienne couleur de l'arrière-plan.|
 | [is_visible](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_visible) | Indique si ce contrôle est visible.|
@@ -39,13 +39,13 @@ Le type ScrollBarActiveXControl expose les membres suivants :
 | [data](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/data) | Obtient et définit les données binaires du contrôle.|
 | [is_enabled](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_enabled) | Indique si le contrôle peut recevoir le focus et répondre aux événements générés par l'utilisateur.|
 | [is_locked](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_locked) | Indique si les données du contrôle sont verrouillées pour modification.|
-| [is_transparent](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_transparent) |Indique si le champ est transparent.|
+| [is_transparent](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_transparent) | Indique si le champ est transparent.|
 | [is_auto_size](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/is_auto_size) | Indique si le contrôle se redimensionne automatiquement pour afficher tout son contenu.|
-| [ime_mode](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/ime_mode) | Obtient et définit le mode d'exécution par défaut de l'éditeur de méthode d'entrée pour le contrôle lorsqu'il reçoit le focus.|
+| [ime_mode](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/ime_mode) |Obtient et définit le mode d'exécution par défaut de l'éditeur de méthode d'entrée pour le contrôle lorsqu'il reçoit le focus.|
 | [font](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/font) | Représente la police du contrôle.|
 | [text_align](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/text_align) | Représente comment aligner le texte utilisé par le contrôle.|
 | [min](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/min) | Obtient et définit la valeur minimale acceptable.|
-| [max](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/max) |Obtient et définit la valeur maximale acceptable.|
+| [max](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/max) | Obtient et définit la valeur maximale acceptable.|
 | [position](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/position) | Obtient et définit la valeur.|
 | [small_change](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/small_change) | Obtient et définit la quantité de modification de la propriété Position|
 | [orientation](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/scrollbaractivexcontrol/orientation) | Obtient et définit si SpinButton ou ScrollBar est orienté verticalement ou horizontalement.|
@@ -53,7 +53,7 @@ Le type ScrollBarActiveXControl expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose import pycore

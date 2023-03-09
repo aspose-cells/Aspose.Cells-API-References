@@ -24,9 +24,9 @@ def get_param_value(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| index | int | indice del parametro (basato su 0)|
+| index | int | indice del parametro (a base 0)|
 
 
 

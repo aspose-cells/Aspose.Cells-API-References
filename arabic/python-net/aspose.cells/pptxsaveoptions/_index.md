@@ -37,14 +37,14 @@ is_root: false
 | [merge_areas](/cells/ar/python-net/aspose.cells/pptxsaveoptions/merge_areas) | يشير إلى ما إذا كان يتم دمج مناطق التنسيق الشرطي والتحقق من الصحة قبل حفظ الملف.|
 | [create_directory](/cells/ar/python-net/aspose.cells/pptxsaveoptions/create_directory) | إذا كان صحيحًا وكان الدليل غير موجود ، فسيتم إنشاء الدليل تلقائيًا قبل حفظ الملف.|
 | [sort_names](/cells/ar/python-net/aspose.cells/pptxsaveoptions/sort_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة قبل حفظ الملف.|
-| [sort_external_names](/cells/ar/python-net/aspose.cells/pptxsaveoptions/sort_external_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة الخارجية قبل حفظ الملف.|
-| [refresh_chart_cache](/cells/ar/python-net/aspose.cells/pptxsaveoptions/refresh_chart_cache) |يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
-| [warning_callback](/cells/ar/python-net/aspose.cells/pptxsaveoptions/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
+| [sort_external_names](/cells/ar/python-net/aspose.cells/pptxsaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة خارجيًا قبل حفظ الملف.|
+| [refresh_chart_cache](/cells/ar/python-net/aspose.cells/pptxsaveoptions/refresh_chart_cache) | يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
+| [warning_callback](/cells/ar/python-net/aspose.cells/pptxsaveoptions/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
 | [update_smart_art](/cells/ar/python-net/aspose.cells/pptxsaveoptions/update_smart_art) | يشير إلى ما إذا كان يتم تحديث إعداد الفن الذكي.<br/> القيمة الافتراضية هي كاذبة.|
 | [default_font](/cells/ar/python-net/aspose.cells/pptxsaveoptions/default_font) | عندما تكون الأحرف في Excel Unicode ولا يتم تعيينها بالخط الصحيح في نمط الخلية ،<br/>قد تظهر على شكل كتلة في صورة pdf.<br/>قم بتعيين الخط الافتراضي مثل MingLiu أو MS Gothic لإظهار هذه الأحرف.<br/> إذا لم يتم تعيين هذه الخاصية ، فسيستخدم Aspose.Cells الخط الافتراضي للنظام لإظهار أحرف unicode هذه.|
 | [check_workbook_default_font](/cells/ar/python-net/aspose.cells/pptxsaveoptions/check_workbook_default_font) | عندما تكون الأحرف في Excel Unicode ولا يتم تعيينها بالخط الصحيح في نمط الخلية ،<br/>قد تظهر على شكل كتلة في صورة pdf.<br/> اضبط هذا على صواب لمحاولة استخدام الخط الافتراضي للمصنف لإظهار هذه الأحرف أولاً.|
-| [check_font_compatibility](/cells/ar/python-net/aspose.cells/pptxsaveoptions/check_font_compatibility) | يشير إلى ما إذا كان سيتم التحقق من توافق الخط لكل حرف في النص.|
-| [is_font_substitution_char_granularity](/cells/ar/python-net/aspose.cells/pptxsaveoptions/is_font_substitution_char_granularity) | الإشارة إلى ما إذا كان سيتم استبدال خط الحرف فقط عندما لا يكون خط الخلية متوافقًا معه.|
+| [check_font_compatibility](/cells/ar/python-net/aspose.cells/pptxsaveoptions/check_font_compatibility) |يشير إلى ما إذا كان سيتم التحقق من توافق الخط لكل حرف في النص.|
+| [is_font_substitution_char_granularity](/cells/ar/python-net/aspose.cells/pptxsaveoptions/is_font_substitution_char_granularity) | الإشارة إلى ما إذا كان سيتم استبدال خط الحرف فقط عندما يكون خط الخلية غير متوافق معه.|
 | [one_page_per_sheet](/cells/ar/python-net/aspose.cells/pptxsaveoptions/one_page_per_sheet) | إذا كانت OnePagePerSheet صحيحة ، فسيتم إخراج كل محتوى ورقة واحدة إلى صفحة واحدة فقط نتيجة لذلك.<br/> سيكون حجم الورق الخاص بإعداد الصفحات غير صالح ، والإعدادات الأخرى لإعداد الصفحات<br/> ستظل نافذة المفعول.|
 | [all_columns_in_one_page_per_sheet](/cells/ar/python-net/aspose.cells/pptxsaveoptions/all_columns_in_one_page_per_sheet) | إذا كانت AllColumnsInOnePagePerSheet صحيحة ، فسيتم إخراج محتوى العمود بالكامل في ورقة واحدة إلى صفحة واحدة فقط في النتيجة.<br/> سيتم تجاهل عرض حجم الورق الخاص بإعداد الصفحات والإعدادات الأخرى لإعداد الصفحات<br/> ستظل نافذة المفعول.|
 | [ignore_error](/cells/ar/python-net/aspose.cells/pptxsaveoptions/ignore_error) | يشير إلى ما إذا كنت بحاجة إلى إخفاء الخطأ أثناء العرض.<br/> يمكن أن يكون الخطأ خطأ في الشكل ، الصورة ، عرض المخطط ، إلخ.|
@@ -57,7 +57,7 @@ is_root: false
 | [default_edit_language](/cells/ar/python-net/aspose.cells/pptxsaveoptions/default_edit_language) | الحصول على أو تعيين لغة التحرير الافتراضية.|
 | [sheet_set](/cells/ar/python-net/aspose.cells/pptxsaveoptions/sheet_set) |الحصول على الأوراق أو تعيينها للعرض. الافتراضي هو كل الأوراق المرئية في المصنف: [SheetSet.visible](/cells/ar/python-net/aspose.cells.rendering/sheetset#visible).|
 | [draw_object_event_handler](/cells/ar/python-net/aspose.cells/pptxsaveoptions/draw_object_event_handler) | تنفذ هذه الواجهة للحصول على DrawObject و Bound عند العرض.|
-| [page_saving_callback](/cells/ar/python-net/aspose.cells/pptxsaveoptions/page_saving_callback) |التحكم / الإشارة إلى التقدم المحرز في عملية حفظ الصفحة.|
+| [page_saving_callback](/cells/ar/python-net/aspose.cells/pptxsaveoptions/page_saving_callback) | التحكم / الإشارة إلى التقدم المحرز في عملية حفظ الصفحة.|
 
 
 

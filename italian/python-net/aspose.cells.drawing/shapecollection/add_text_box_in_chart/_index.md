@@ -22,7 +22,7 @@ def add_text_box_in_chart(self, top, left, height, width):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | top | int | Rappresenta l'offset verticale della casella di testo dall'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|
 | left | int | Rappresenta l'offset verticale della casella di testo dall'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|

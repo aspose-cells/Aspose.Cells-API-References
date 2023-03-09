@@ -22,7 +22,7 @@ def get_page_size_inch(self, page_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | page_index | int | Sayfa dizini sıfıra dayalıdır.|
 

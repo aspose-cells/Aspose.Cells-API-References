@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal propriété
 
-Indique s'il faut répéter des formules avec une ligne de sous-total.
+Indique s'il faut répéter des formules avec des lignes de sous-totaux.
 ###  Définition:
 ```python
 @property

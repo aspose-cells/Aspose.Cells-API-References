@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/fileformatutil/is_template_format/
 is_root: false
 ---
 ##  is_template_format(extension) {#str}
-Returnerar sant om tillägget är .xlt, .xltX, .xltm,.ots.
+Returnerar sant om tillägget är .xlt, .xltX, .xltm, .ots.
 
 
 ###  Returnerar
@@ -22,7 +22,7 @@ def is_template_format(self, extension):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | extension | str |  |
 

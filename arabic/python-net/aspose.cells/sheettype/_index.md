@@ -17,13 +17,13 @@ is_root: false
 ###  مجالات
 | مجال| وصف|
 | :- | :- |
-| VB | وحدة Visual Basic|
+| VB | وحدات Visual Basic|
 | WORKSHEET |  |
 | CHART | جدول|
 | BIFF4_MACRO | ورقة ماكرو BIFF4|
-| INTERNATIONAL_MACRO | ورقة ماكرو الدولية|
+| INTERNATIONAL_MACRO | ورقة الماكرو الدولية|
 | OTHER |  |
-| DIALOG | ورقة عمل الحوار|
+| DIALOG |ورقة عمل الحوار|
 
 
 

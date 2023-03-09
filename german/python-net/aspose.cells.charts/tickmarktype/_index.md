@@ -18,9 +18,9 @@ Der Typ TickMarkType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | CROSS | Der Typ des Häkchens ist Kreuz.|
-| INSIDE |Der Typ des Häkchens ist Innen.|
-| NONE | Typ des Häkchens ist „Keine“.|
-| OUTSIDE | Der Teilstrichtyp ist Außerhalb|
+| INSIDE | Der Typ des Häkchens ist Inside.|
+| NONE |Typ des Häkchens ist None.|
+| OUTSIDE | Der Typ des Häkchens ist Außerhalb|
 
 
 

@@ -23,7 +23,7 @@ Typen TextVerticalType avslöjar följande medlemmar:
 | VERTICAL90 | Varje linje roteras 90 grader medurs|
 | VERTICAL270 | Varje linje roteras 270 grader medurs|
 | STACKED | Bestämmer om all text är vertikal|
-| STACKED_RIGHT_TO_LEFT |Anger att vertikal WordArt ska visas från höger till vänster i stället för från vänster till höger.|
+| STACKED_RIGHT_TO_LEFT | Anger att vertikal WordArt ska visas från höger till vänster i stället för från vänster till höger.|
 
 
 

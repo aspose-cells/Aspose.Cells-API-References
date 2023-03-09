@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  negative_points_color propiedad
 
-Obtiene y establece el color de los valores negativos en el grupo de minigráficos.
+Obtiene y establece el color de los valores negativos en el grupo minigráfico.
 ###  Definición:
 ```python
 @property

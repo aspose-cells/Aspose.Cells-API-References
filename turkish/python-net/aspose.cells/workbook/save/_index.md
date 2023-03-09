@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str |  |
 
@@ -34,7 +34,7 @@ def save(self, file_name, save_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str | Dosya adı.|
 | save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kaydetme biçimi türü.|
@@ -51,7 +51,7 @@ def save(self, file_name, save_options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str | Dosya adı.|
 | save_options | [SaveOptions](/cells/tr/python-net/aspose.cells/saveoptions) | Kaydetme seçenekleri.|
@@ -68,7 +68,7 @@ def save(self, stream, save_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Dosya akışı.|
 | save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kayıt dosyası biçimi türü.|
@@ -85,7 +85,7 @@ def save(self, stream, save_options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Dosya akışı.|
 | save_options | [SaveOptions](/cells/tr/python-net/aspose.cells/saveoptions) | Kaydetme seçenekleri.|

@@ -13,8 +13,8 @@ Obtiene y establece la longitud inicial de la punta de flecha de la línea.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
- utilice la propiedad Shape.Line.BeginArrowheadLength.
+ NOTA: Este miembro ahora está obsoleto.
+utilice la propiedad Shape.Line.BeginArrowheadLength.
  Esta propiedad se eliminará 12 meses después desde agosto de 2016.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

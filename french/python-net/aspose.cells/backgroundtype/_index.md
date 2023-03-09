@@ -17,19 +17,19 @@ Le type BackgroundType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| DIAGONAL_CROSSHATCH | Représente le motif hachuré en diagonale.|
-| DIAGONAL_STRIPE | Représente le motif à rayures diagonales.|
-| GRAY6 | Représente un motif gris de 6,25 %|
-| GRAY12 | Représente un motif gris de 12,5 %|
+| DIAGONAL_CROSSHATCH | Représente un motif hachuré en diagonale.|
+| DIAGONAL_STRIPE | Représente un motif à rayures diagonales.|
+| GRAY6 |Représente un motif gris de 6,25 %|
+| GRAY12 | Représente 12,5% de motif gris|
 | GRAY25 | Représente 25 % de motif gris.|
-| GRAY50 |Représente un motif gris à 50 %.|
+| GRAY50 | Représente un motif gris à 50 %.|
 | GRAY75 | Représente un motif gris à 75 %.|
 | HORIZONTAL_STRIPE | Représente le motif de rayures horizontales.|
 | NONE | Ne représente aucun arrière-plan.|
 | REVERSE_DIAGONAL_STRIPE | Représente le motif à rayures diagonales inversées.|
 | SOLID | Représente un motif solide.|
 | THICK_DIAGONAL_CROSSHATCH | Représente un motif hachuré épais en diagonale.|
-| THIN_DIAGONAL_CROSSHATCH | Représente un motif hachuré en diagonale mince.|
+| THIN_DIAGONAL_CROSSHATCH | Représente des hachures diagonales fines.|
 | THIN_DIAGONAL_STRIPE | Représente un motif à fines rayures diagonales.|
 | THIN_HORIZONTAL_CROSSHATCH | Représente un motif hachuré horizontal fin.|
 | THIN_HORIZONTAL_STRIPE | Représente un motif à fines rayures horizontales.|

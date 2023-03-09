@@ -13,7 +13,7 @@ Ottiene o imposta ciò che rappresenta la dimensione della bolla in un grafico a
 
 ###  Osservazioni
 
-BubbleSizeRepresents.SizeIsArea indica che il valore [Series.bubble_sizes](/cells/it/python-net/aspose.cells.charts/series#bubble_sizes) è l'area della bolla.
+BubbleSizeRepresents.SizeIsArea significa che il valore [Series.bubble_sizes](/cells/it/python-net/aspose.cells.charts/series#bubble_sizes) è l'area della bolla.
 BubbleSizeRepresents.SizeIsWidth indica che il valore [Series.bubble_sizes](/cells/it/python-net/aspose.cells.charts/series#bubble_sizes) è la larghezza della bolla.
 ###  Definizione:
 ```python

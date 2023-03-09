@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bubble_sizes proprietà
 
-Ottiene o imposta i valori delle dimensioni delle bolle della serie del grafico.
+Ottiene o imposta i valori delle dimensioni delle bolle della serie di grafici.
 ###  Definizione:
 ```python
 @property

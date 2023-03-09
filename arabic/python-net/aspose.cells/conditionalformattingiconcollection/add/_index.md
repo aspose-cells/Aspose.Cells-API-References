@@ -18,7 +18,7 @@ def add(self, cficon):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | cficon | [ConditionalFormattingIcon](/cells/ar/python-net/aspose.cells/conditionalformattingicon) | إرجاع فهرس كائن جديد في القائمة.|
 
@@ -38,7 +38,7 @@ def add(self, type, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [IconSetType](/cells/ar/python-net/aspose.cells/iconsettype) | نوع القيمة.|
 | index | int | مؤشر.|

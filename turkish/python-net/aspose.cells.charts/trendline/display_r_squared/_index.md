@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_r_squared mülk
 
-Eğilim çizgisinin R-kare değerinin grafikte gösterilip gösterilmediğini temsil eder (denklemle aynı veri etiketinde). Bu özelliği True olarak ayarlamak veri etiketlerini otomatik olarak açar.
+Eğilim çizgisinin R-kare değerinin grafikte görüntülenip görüntülenmediğini temsil eder (denklemle aynı veri etiketinde).Bu özelliğin Doğru olarak ayarlanması, veri etiketlerini otomatik olarak açar.
 ###  Tanım:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Veri serisinin name'ini alır veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -22,7 +22,7 @@ def add_link_to_content(self, name, source):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم العقار.|
 | source | str | مصدر العقار|

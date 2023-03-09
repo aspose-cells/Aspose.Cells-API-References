@@ -18,7 +18,7 @@ Il tipo TextNodeType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | TEXT_RUN | Rappresenta il nodo di testo.|
-| TEXT_PARAGRAPH |Rappresenta il paragrafo di testo.|
+| TEXT_PARAGRAPH | Rappresenta il paragrafo di testo.|
 | EQUATION | Rappresenta il testo dell'equazione.|
 
 

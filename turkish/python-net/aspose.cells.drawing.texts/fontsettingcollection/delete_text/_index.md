@@ -18,7 +18,7 @@ def delete_text(self, index, count):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Başlangıç dizini.|
 | count | int | Karakter sayısı.|

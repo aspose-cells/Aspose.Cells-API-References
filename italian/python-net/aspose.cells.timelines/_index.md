@@ -12,7 +12,7 @@ is_root: false
 ###  Classi
 | Classe| Descrizione|
 | :- | :- |
-| [Timeline](/cells/it/python-net/aspose.cells.timelines/timeline) | Descrizione riepilogativa della visualizzazione sequenza temporale<br/> A causa di MS Excel, Excel 2003 non supporta la linea temporale|
+| [Timeline](/cells/it/python-net/aspose.cells.timelines/timeline) |Descrizione riepilogativa della visualizzazione sequenza temporale<br/> A causa di MS Excel, Excel 2003 non supporta la linea temporale|
 | [TimelineCollection](/cells/it/python-net/aspose.cells.timelines/timelinecollection) | Specifica la raccolta di tutti gli oggetti della sequenza temporale nel foglio di lavoro specificato.<br/> A causa di MS Excel, Excel 2003 non supporta la linea temporale.|
 
 

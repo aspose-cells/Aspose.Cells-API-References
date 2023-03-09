@@ -18,7 +18,7 @@ def move(self, count):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | count | int | Yukarı veya aşağı hareket sayısı.<br/>Bu sıfırdan küçükse seriyi yukarı taşıyın;<br/> Bu sıfırdan büyükse seriyi aşağı taşıyın.|
 

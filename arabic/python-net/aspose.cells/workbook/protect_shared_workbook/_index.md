@@ -18,7 +18,7 @@ def protect_shared_workbook(self, password):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | password | str | كلمة مرور لحماية المصنف.|
 

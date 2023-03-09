@@ -18,7 +18,7 @@ def unprotect_shared_workbook(self, password):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | password | str | Çalışma kitabının korumasını kaldırmak için parola.|
 

@@ -22,9 +22,9 @@ def get_standard_function_name(self, local_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| local_name | str | Nome della funzione dipendente dalla locale. Le impostazioni locali sono state specificate dalla cartella di lavoro per cui vengono utilizzate queste impostazioni.|
+| local_name | str | Nome della funzione dipendente dalla locale.|
 
 
 

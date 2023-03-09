@@ -22,7 +22,7 @@ def add(self, file_name, sheet_names):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str | اسم الملف الخارجي.|
 | sheet_names | list | جميع أسماء أوراق الملف الخارجي.|
@@ -43,9 +43,9 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| directory_type | [DirectoryType](/cells/ar/python-net/aspose.cells/directorytype) | نوع الدليل لاسم الملف.|
+| directory_type | [DirectoryType](/cells/ar/python-net/aspose.cells/directorytype) |نوع الدليل لاسم الملف.|
 | file_name | str | اسم الملف.|
 | sheet_names | list | جميع أسماء أوراق الملف الخارجي.|
 

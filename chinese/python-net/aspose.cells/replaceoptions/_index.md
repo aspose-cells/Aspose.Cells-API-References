@@ -1,13 +1,13 @@
 ﻿---
 title: ReplaceOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1290
 url: /zh/python-net/aspose.cells/replaceoptions/
 is_root: false
 ---
-##  ReplaceOptions类
+## ReplaceOptions类
 表示替换选项。
 
 
@@ -25,7 +25,7 @@ ReplaceOptions 类型公开了以下成员：
 | :- | :- |
 | [case_sensitive](/cells/zh/python-net/aspose.cells/replaceoptions/case_sensitive) |指示搜索的字符串是否区分大小写。|
 | [match_entire_cell_contents](/cells/zh/python-net/aspose.cells/replaceoptions/match_entire_cell_contents) |指示是否匹配整个单元格内容|
-| [regex_key](/cells/zh/python-net/aspose.cells/replaceoptions/regex_key) |指示搜索的键是否为正则表达式。如果为真，则搜索到的键将被视为正则表达式。|
+| [regex_key](/cells/zh/python-net/aspose.cells/replaceoptions/regex_key) |表示搜索到的key是否为regex，如果为true则搜索到的key会被当作regex。|
 
 
 

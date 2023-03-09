@@ -24,7 +24,7 @@ def has_axis(self, aixs_type, is_primary):
 | is_primary | bool |  |
 ###  Bemerkungen
 
-Normalerweise ist Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded keine Achse.
+Normalerweise ist Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DEExploded,Doughnut, DonutExploded keine Achse.
 
 
 ###  Siehe auch

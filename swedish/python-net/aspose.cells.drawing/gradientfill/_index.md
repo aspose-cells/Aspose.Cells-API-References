@@ -23,7 +23,7 @@ Typen GradientFill avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [gradient_stops](/cells/sv/python-net/aspose.cells.drawing/gradientfill/gradient_stops) | Representerar gradientstoppsamlingen.|
-| [fill_type](/cells/sv/python-net/aspose.cells.drawing/gradientfill/fill_type) | Hämtar gradientfyllningstypen.|
+| [fill_type](/cells/sv/python-net/aspose.cells.drawing/gradientfill/fill_type) | Hämtar fyllnadstypen för gradient.|
 | [direction_type](/cells/sv/python-net/aspose.cells.drawing/gradientfill/direction_type) | Hämtar gradientriktningstypen.|
 | [angle](/cells/sv/python-net/aspose.cells.drawing/gradientfill/angle) | Vinkeln för linjär fyllning.|
 

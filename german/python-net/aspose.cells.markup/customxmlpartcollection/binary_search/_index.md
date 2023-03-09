@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [CustomXmlPart](/cells/de/python-net/aspose.cells.markup/customxmlpart) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [CustomXmlPart](/cells/de/python-net/aspose.cells.markup/customxmlpart) | Das zu lokalisierende System.Objekt.|
 
 
 

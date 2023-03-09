@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | l'index du lien externe à supprimer.|
 ###  Remarques
@@ -37,7 +37,7 @@ def remove_at(self, index, update_references_as_local):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | l'index du lien externe à supprimer.|
 | update_references_as_local | bool | Si mettre à jour toutes les références du lien externe donné à la référence du classeur actuel lui-même.|
@@ -47,7 +47,7 @@ Si les références doivent être mises à jour, les références aux liens exte
 Par exemple, le lien externe à supprimer est "externalsource.xlam" et il définit une fonction personnalisée "customfunction()",
 la formule originale d'une cellule est "='externalsource.xlam'!customfunction()",
 après avoir supprimé la formule deviendra "=customfunction()".
-Si la référence ne doit pas être mise à jour, toutes les formules faisant référence à ce lien externe
+Si les références ne doivent pas être mises à jour, toutes les formules faisant référence à ce lien externe
 seront également supprimés car ces références deviennent invalides.
 
 

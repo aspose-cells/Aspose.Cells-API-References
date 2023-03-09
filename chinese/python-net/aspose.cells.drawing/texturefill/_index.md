@@ -1,13 +1,13 @@
 ﻿---
 title: TextureFill类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 710
 url: /zh/python-net/aspose.cells.drawing/texturefill/
 is_root: false
 ---
-##  TextureFill类
+## TextureFill类
 封装表示纹理填充格式的对象
 
 

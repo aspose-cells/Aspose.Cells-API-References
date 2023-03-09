@@ -11,7 +11,7 @@ is_root: false
 
 Représente la largeur du commentaire, en pouces.
 
-###  Exemple
+###  Exemples
 
 ```python
 

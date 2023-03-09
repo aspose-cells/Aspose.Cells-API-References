@@ -22,7 +22,7 @@ def start_row(self, row_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row_index | int | l'index de la ligne suivante à traiter|
 

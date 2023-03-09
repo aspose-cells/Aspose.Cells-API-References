@@ -22,7 +22,7 @@ def add_copy(self, sheet_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_name | str | Nome del foglio di lavoro di origine.|
 ###  Eccezioni
@@ -48,9 +48,9 @@ def add_copy(self, sheet_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| sheet_index | int | Indice del foglio di lavoro di origine.|
+| sheet_index | int | Foglio di lavoro Indice delle fonti.|
 
 
 

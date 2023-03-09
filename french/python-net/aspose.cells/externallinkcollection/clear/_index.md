@@ -34,14 +34,14 @@ def clear(self, update_references_as_local):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | update_references_as_local | bool | Si mettre à jour toutes les références de liens externes en tant que références du classeur actuel lui-même.|
 ###  Remarques
 
 Si les références doivent être mises à jour, les références aux liens externes dans les formules seront remplacées par le classeur actuel.
 Par exemple, la formule d'origine d'une cellule est "='externalsource.xlam'!customfunction()",
-après avoir supprimé les liens externes, la formule deviendra "=customfunction()".
+Après avoir supprimé les liens externes, la formule deviendra "=customfunction()".
 Si les références ne doivent pas être mises à jour, toutes les formules avec des références à des liens externes
 seront également supprimés car ces références deviennent invalides.
 

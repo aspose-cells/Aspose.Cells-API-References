@@ -1,5 +1,5 @@
 ﻿---
-title: WebExtensionProperty sınıf
+title: WebExtensionProperty sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 50
 url: /tr/python-net/aspose.cells.webextensions/webextensionproperty/
 is_root: false
 ---
-##  WebExtensionProperty sınıf
+##  WebExtensionProperty sınıfı
 Bir Office Eklentisi özel özelliğini temsil eder.
 
 

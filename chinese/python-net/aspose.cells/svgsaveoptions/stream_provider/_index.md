@@ -1,6 +1,6 @@
 ﻿---
 title: stream_provider 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 130
@@ -14,7 +14,7 @@ is_root: false
 ### 评论
 
 如果保存为 SVG 或 Tiff，则忽略此属性。
-否则，如果要保存不止一张图片，我们将以此写入其他图片。
+否则，如果要保存多张图片，我们将以此写入其他图片。
 ### 定义：
 ```python
 @property

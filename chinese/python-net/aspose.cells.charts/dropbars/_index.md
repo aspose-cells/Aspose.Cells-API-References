@@ -1,13 +1,13 @@
 ﻿---
 title: DropBars类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 140
 url: /zh/python-net/aspose.cells.charts/dropbars/
 is_root: false
 ---
-##  DropBars类
+## DropBars类
 代表图表中的上/下柱。
 
 

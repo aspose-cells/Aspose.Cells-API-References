@@ -18,7 +18,7 @@ def delete_shape(self, shape):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | shape | [Shape](/cells/sv/python-net/aspose.cells.drawing/shape) |  |
 

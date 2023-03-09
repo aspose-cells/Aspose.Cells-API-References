@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
 | [MetadataType](/cells/ar/python-net/aspose.cells.metadata/metadatatype) | يمثل نوع البيانات الوصفية.|
 

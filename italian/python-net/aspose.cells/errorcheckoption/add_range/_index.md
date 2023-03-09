@@ -22,7 +22,7 @@ def add_range(self, ca):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | l'intervallo da aggiungere.|
 

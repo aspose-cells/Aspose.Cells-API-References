@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/name/get_refers_to/
 is_root: false
 ---
 ##  get_refers_to(is_r1c1, is_local) {#bool-bool}
-Ottieni il riferimento di questo Nome.
+Ottieni il riferimento di questo nome.
 
 
 
@@ -18,7 +18,7 @@ def get_refers_to(self, is_r1c1, is_local):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_r1c1 | bool | Se il riferimento deve essere formattato come R1C1.|
 | is_local | bool | Se il riferimento deve essere formattato in base alle impostazioni locali.|
@@ -35,11 +35,11 @@ def get_refers_to(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_r1c1 | bool | Se il riferimento deve essere formattato come R1C1.|
 | is_local | bool | Se il riferimento deve essere formattato in base alle impostazioni locali.|
-| row | int |L'indice di riga della cella.|
+| row | int | L'indice di riga della cella.|
 | column | int | L'indice di colonna della cella.|
 
 

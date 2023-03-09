@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/docxsaveoptions/
 is_root: false
 ---
 ##  DocxSaveOptions clase
-Representa las opciones de guardar el archivo .docx.
+Representa opciones para guardar archivos .docx.
 
 
 
@@ -22,8 +22,8 @@ El tipo DocxSaveOptions expone los siguientes miembros:
 ###  Constructores
 | Constructor| Descripción|
 | :- | :- |
-| [DocxSaveOptions()](/cells/es/python-net/aspose.cells/docxsaveoptions/__init__/#) | Representa las opciones de guardar el archivo .docx.|
-| [DocxSaveOptions(save_as_image)](/cells/es/python-net/aspose.cells/docxsaveoptions/__init__/#bool) | Representa las opciones de guardar el archivo .docx.|
+| [DocxSaveOptions()](/cells/es/python-net/aspose.cells/docxsaveoptions/__init__/#) | Representa opciones para guardar archivos .docx.|
+| [DocxSaveOptions(save_as_image)](/cells/es/python-net/aspose.cells/docxsaveoptions/__init__/#bool) | Representa opciones para guardar archivos .docx.|
 
 
 ###  Propiedades
@@ -36,9 +36,9 @@ El tipo DocxSaveOptions expone los siguientes miembros:
 | [merge_areas](/cells/es/python-net/aspose.cells/docxsaveoptions/merge_areas) | Indica si fusionar las áreas de formato condicional y validación antes de guardar el archivo.|
 | [create_directory](/cells/es/python-net/aspose.cells/docxsaveoptions/create_directory) | Si es verdadero y el directorio no existe, el directorio se creará automáticamente antes de guardar el archivo.|
 | [sort_names](/cells/es/python-net/aspose.cells/docxsaveoptions/sort_names) | Indica si ordenar los nombres definidos antes de guardar el archivo.|
-| [sort_external_names](/cells/es/python-net/aspose.cells/docxsaveoptions/sort_external_names) | Indica si ordenar los nombres definidos externos antes de guardar el archivo.|
-| [refresh_chart_cache](/cells/es/python-net/aspose.cells/docxsaveoptions/refresh_chart_cache) |Indica si se actualizan los datos de la memoria caché del gráfico|
-| [warning_callback](/cells/es/python-net/aspose.cells/docxsaveoptions/warning_callback) | Obtiene o establece una devolución de llamada de advertencia.|
+| [sort_external_names](/cells/es/python-net/aspose.cells/docxsaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externamente antes de guardar el archivo.|
+| [refresh_chart_cache](/cells/es/python-net/aspose.cells/docxsaveoptions/refresh_chart_cache) | Indica si se actualizan los datos de la memoria caché del gráfico|
+| [warning_callback](/cells/es/python-net/aspose.cells/docxsaveoptions/warning_callback) | Obtiene o establece devoluciones de llamada de advertencia.|
 | [update_smart_art](/cells/es/python-net/aspose.cells/docxsaveoptions/update_smart_art) | Indica si se está actualizando la configuración de arte inteligente.<br/> El valor predeterminado es falso.|
 
 

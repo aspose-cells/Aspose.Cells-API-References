@@ -18,7 +18,7 @@ def add_font_color_filter(self, field_index, color):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Filtreyi temel almak istediğiniz alanın tamsayı ofseti<br/> (listenin solundan; en soldaki alan 0 alanıdır).|
 | color | [CellsColor](/cells/tr/python-net/aspose.cells/cellscolor) | [CellsColor](/cells/tr/python-net/aspose.cells/cellscolor) nesnesi.|

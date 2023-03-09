@@ -18,9 +18,9 @@ def combine(self, second_workbook):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| second_workbook | [Workbook](/cells/es/python-net/aspose.cells/workbook) | Otro objeto de libro de trabajo.|
+| second_workbook | [Workbook](/cells/es/python-net/aspose.cells/workbook) | Otro objeto de libro.|
 ###  Observaciones
 
 Actualmente, solo se pueden combinar los datos de celda y el estilo de celda del segundo objeto Libro de trabajo. No se admiten imágenes, gráficos y otros objetos de dibujo.

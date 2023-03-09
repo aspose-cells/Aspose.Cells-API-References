@@ -10,7 +10,7 @@ is_root: false
 ##  data_fields propriété
 
 Obtient un objet PivotField qui représente tous les champs de données d'un tableau croisé dynamique.
-Lecture seule. Ce serait init uniquement lorsqu'il y a deux champs de données ou plus dans DataPiovtFiels.
+En lecture seule. Ce serait init uniquement lorsqu'il y a deux champs de données ou plus dans DataPiovtFields.
 Il sert uniquement à ajouter DataPivotField à la zone de ligne/colonne du tableau croisé dynamique. La valeur par défaut est dans la zone de ligne.
 ###  Définition:
 ```python

@@ -18,7 +18,7 @@ def add_key(self, key, order):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | key | int | Sıralanmış sütun dizini (mutlak konum, sütun A 0'dır, B 1'dir, ...)|
 | order | [SortOrder](/cells/tr/python-net/aspose.cells/sortorder) | sıralama düzeni|
@@ -35,7 +35,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | key | int | Sıralanmış sütun dizini (mutlak konum, sütun A 0'dır, B 1'dir, ...)|
 | order | [SortOrder](/cells/tr/python-net/aspose.cells/sortorder) | Sıralama düzeni.|
@@ -53,7 +53,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | key | int | Sıralanmış sütun dizini (mutlak konum, sütun A 0'dır, B 1'dir, ...)|
 | order | [SortOrder](/cells/tr/python-net/aspose.cells/sortorder) | Sıralama düzeni.|
@@ -71,7 +71,7 @@ def add_key(self, key, type, order, custom_list):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | key | int | Sıralanmış sütun dizini (mutlak konum, sütun A 0'dır, B 1'dir, ...)|
 | type | [SortOnType](/cells/tr/python-net/aspose.cells/sortontype) | Sıralanmış değer türü.|

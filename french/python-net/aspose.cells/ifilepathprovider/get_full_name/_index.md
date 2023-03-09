@@ -23,7 +23,7 @@ def get_full_name(self, sheet_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sheet_name | str | Nom de la feuille de calcul|
 

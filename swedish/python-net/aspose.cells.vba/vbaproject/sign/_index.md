@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.vba/vbaproject/sign/
 is_root: false
 ---
 ##  sign(digital_signature) {#aspose.cells.digitalsignatures.DigitalSignature}
-Signera detta VBA-projekt med en DigitalSignatur
+Signera detta VBA-projekt med en digital signatur
 
 
 
@@ -18,9 +18,9 @@ def sign(self, digital_signature):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| digital_signature | aspose.cells.digitalsignatures.DigitalSignature | Digital signatur|
+| digital_signature | aspose.cells.digitalsignatures.DigitalSignature | digital signatur|
 
 
 

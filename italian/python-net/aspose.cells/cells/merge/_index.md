@@ -18,11 +18,11 @@ def merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | first_row | int | Prima riga di questo intervallo (a base zero)|
 | first_column | int | Prima colonna di questo intervallo (a base zero)|
-| total_rows | int | Numero di righe (una basata)|
+| total_rows | int | Numero di righe (una base)|
 | total_columns | int | Numero di colonne (una basata)|
 ###  Osservazioni
 
@@ -40,18 +40,18 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | first_row | int | Prima riga di questo intervallo (a base zero)|
 | first_column | int | Prima colonna di questo intervallo (a base zero)|
-| total_rows | int | Numero di righe (una basata)|
+| total_rows | int | Numero di righe (una base)|
 | total_columns | int | Numero di colonne (una basata)|
 | merge_conflict | bool | Unisci intervalli uniti in conflitto.|
 ###  Osservazioni
 
 Fai riferimento alla cella unita tramite l'indirizzo della cella in alto a sinistra nell'intervallo.
 Se mergeConflict è true e l'intervallo unito è in conflitto con altre celle unite,
-le altre celle unite verranno rimosse automaticamente.
+Le altre celle unite verranno rimosse automaticamente.
 
 ##  merge(first_row, first_column, total_rows, total_columns, check_conflict, merge_conflict) {#int-int-int-int-bool-bool}
 Unisce un intervallo di celle specificato in una singola cella.
@@ -64,11 +64,11 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | first_row | int | Prima riga di questo intervallo (a base zero)|
 | first_column | int | Prima colonna di questo intervallo (a base zero)|
-| total_rows | int | Numero di righe (una basata)|
+| total_rows | int | Numero di righe (una base)|
 | total_columns | int | Numero di colonne (una basata)|
 | check_conflict | bool | Indica se il controllo delle celle unite interseca altre celle unite|
 | merge_conflict | bool | Unisci intervalli uniti in conflitto.|
@@ -76,7 +76,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 
 Fai riferimento alla cella unita tramite l'indirizzo della cella in alto a sinistra nell'intervallo.
 Se mergeConflict è true e l'intervallo unito è in conflitto con altre celle unite,
-le altre celle unite verranno rimosse automaticamente.
+Le altre celle unite verranno rimosse automaticamente.
 
 
 ###  Guarda anche

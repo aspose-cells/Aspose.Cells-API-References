@@ -1,13 +1,13 @@
 ﻿---
 title: QuartileCalculationType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 600
 url: /zh/python-net/aspose.cells.charts/quartilecalculationtype/
 is_root: false
 ---
-##  QuartileCalculationType枚举
+## QuartileCalculationType枚举
 表示四分位数计算方法。
 
 

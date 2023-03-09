@@ -19,7 +19,7 @@ Il tipo FillType espone i membri seguenti:
 | :- | :- |
 | AUTOMATIC | Rappresenta il tipo di formattazione automatica.|
 | NONE | Rappresenta nessun tipo di formattazione.|
-| SOLID |Formato di riempimento solido.|
+| SOLID | Formato di riempimento solido.|
 | GRADIENT | Formato di riempimento sfumato.|
 | TEXTURE | Formato riempimento trama (include riempimento immagine).|
 | PATTERN | Formato di riempimento a motivo.|

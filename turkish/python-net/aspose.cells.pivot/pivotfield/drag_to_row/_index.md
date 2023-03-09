@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  drag_to_row mülk
 
-Belirtilen alanın satır konumuna sürüklenip sürüklenemeyeceğini belirtir.
+Belirtilen alanın satır konumuna sürüklenip sürüklenemeyeceğini gösterir.
 Varsayılan değer doğrudur.
 ###  Tanım:
 ```python

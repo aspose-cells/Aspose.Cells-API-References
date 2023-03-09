@@ -22,7 +22,7 @@ def get_error_value_string(self, err):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | err | str | #DEĞER!,#NAME gibi hata değerleri?|
 

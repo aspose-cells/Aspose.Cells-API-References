@@ -20,7 +20,7 @@ LookAtType türü aşağıdaki üyeleri gösterir:
 | CONTAINS | Cell değer Bulunan nesneyi içerir.|
 | START_WITH | Cell değer Bulunan nesne ile başlar.|
 | END_WITH | Cell değeri find nesnesi ile biter.|
-| ENTIRE_CONTENT |Cell değeri, bulunan nesne ile aynıdır.|
+| ENTIRE_CONTENT | Cell değeri, find nesnesi ile aynıdır.|
 
 
 

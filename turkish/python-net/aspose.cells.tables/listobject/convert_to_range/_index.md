@@ -31,7 +31,7 @@ def convert_to_range(self, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | options | [TableToRangeOptions](/cells/tr/python-net/aspose.cells.tables/tabletorangeoptions) | tabloyu aralığa dönüştürürken seçenekler.|
 

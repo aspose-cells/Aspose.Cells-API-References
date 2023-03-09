@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  distance propriété
 
-Obtient et définit la distance jusqu'à distance l'ombre, en unité de points.
+Obtient et définit la distance jusqu'à distance l'ombre, en unités de points.
 ###  Définition:
 ```python
 @property

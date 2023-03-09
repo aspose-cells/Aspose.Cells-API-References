@@ -1,13 +1,13 @@
 ﻿---
 title: ControlListStyle枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/controlliststyle/
 is_root: false
 ---
-##  ControlListStyle枚举
+## ControlListStyle枚举
 表示 ListBox 或 ComboBox 中列表的视觉外观。
 
 

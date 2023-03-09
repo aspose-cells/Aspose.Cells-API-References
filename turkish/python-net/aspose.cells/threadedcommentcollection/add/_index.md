@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | text | str | Zincirleme yorumun metni.|
 | author | [ThreadedCommentAuthor](/cells/tr/python-net/aspose.cells/threadedcommentauthor) | Zincirleme yorumun yazarı|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_referred mülk
 
-Bu adın diğer formüller tarafından başvuruda bulunup bulunmadığını gösterir.
+Bu ada başka formüller tarafından atıfta bulunulup bulunulmadığını gösterir.
 ###  Tanım:
 ```python
 @property

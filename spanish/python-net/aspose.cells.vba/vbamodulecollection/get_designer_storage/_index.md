@@ -18,12 +18,12 @@ def get_designer_storage(self, name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | name | str |  |
 ###  Observaciones
 
-No admitimos analizarlos. Sólo para copiar.
+No admitimos analizarlos.
 
 
 ###  Ver también

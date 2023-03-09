@@ -20,7 +20,7 @@ Le type RectangleAlignmentType expose les membres suivants :
 | BOTTOM | Bas|
 | BOTTOM_LEFT | En bas à gauche|
 | BOTTOM_RIGHT | En bas à droite|
-| CENTER | Centre|
+| CENTER | centre|
 | LEFT | Gauche|
 | RIGHT | Droite|
 | TOP | Haut|

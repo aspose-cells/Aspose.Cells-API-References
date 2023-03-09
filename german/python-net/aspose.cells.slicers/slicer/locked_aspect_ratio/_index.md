@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob das Seitenverhältnis gesperrt wird.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

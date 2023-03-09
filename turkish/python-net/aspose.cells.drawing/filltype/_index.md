@@ -19,9 +19,9 @@ FillType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | AUTOMATIC | Otomatik biçimlendirme türünü temsil eder.|
 | NONE | Yok biçimlendirme türünü temsil eder.|
-| SOLID |Katı dolgu formatı.|
+| SOLID | Katı dolgu formatı.|
 | GRADIENT | Degrade dolgu formatı.|
-| TEXTURE | Doku dolgu formatı (resim dolgusunu içerir).|
+| TEXTURE | Doku dolgu formatı (resim dolgusu dahil).|
 | PATTERN | Desen dolgu formatı.|
 | GROUP | Grubun dolgu özelliklerini devralır.|
 

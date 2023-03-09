@@ -18,7 +18,7 @@ def page_end_saving(self, args):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | args | [PageEndSavingArgs](/cells/tr/python-net/aspose.cells.rendering/pageendsavingargs) | Bir sayfa için bilgi kaydetme işlemi sona erer.|
 

@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_co
 is_root: false
 ---
 ##  get_on_category_axis_point_count() {#}
-Obtient le nombre de points sur l'axe des catégories après avoir appelé la méthode Chart.Calculate(). Ne s'applique qu'au graphique en aires.
+Obtient le nombre de points sur l'axe des abscisses après avoir appelé la méthode Chart.Calculate(). S'applique uniquement au graphique en aires.
 
 
 

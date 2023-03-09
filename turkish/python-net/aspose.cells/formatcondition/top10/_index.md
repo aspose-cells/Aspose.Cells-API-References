@@ -11,7 +11,7 @@ is_root: false
 
 Koşullu biçimlendirmenin "Top10" örneğini alın.
 Varsayılan örneğin kuralı,
-değerler ilk 10 parantez içinde yer alır.
+değerler ilk 10 parantez içinde yer almaktadır.
 Sadece Top10 türü için geçerlidir.
 ###  Tanım:
 ```python

@@ -11,7 +11,7 @@ is_root: false
 
 Especifica un número opcional que una aplicación puede usar para asociar la forma particular con un tipo de forma definido.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

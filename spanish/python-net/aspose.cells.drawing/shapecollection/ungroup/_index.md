@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/shapecollection/ungroup/
 is_root: false
 ---
 ##  ungroup(group) {#GroupShape}
-Desagrupa los elementos de forma.
+Desagrupe los elementos de forma.
 
 
 
@@ -18,13 +18,13 @@ def ungroup(self, group):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | group | [GroupShape](/cells/es/python-net/aspose.cells.drawing/groupshape) | La forma del grupo.|
 ###  Observaciones
 
 Si la forma de grupo está agrupada por otra forma de grupo, no se hará nada.
-###  Ejemplo
+###  Ejemplos
 
 
 ```python

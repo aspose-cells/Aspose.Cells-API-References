@@ -19,11 +19,11 @@ Le type VbaModule expose les membres suivants :
 | :- | :- |
 | [name](/cells/fr/python-net/aspose.cells.vba/vbamodule/name) | Obtient et définit le nom de Module.|
 | [type](/cells/fr/python-net/aspose.cells.vba/vbamodule/type) | Obtient le type de module.|
-| [codes](/cells/fr/python-net/aspose.cells.vba/vbamodule/codes) | Obtient et définit les codes du module.|
+| [codes](/cells/fr/python-net/aspose.cells.vba/vbamodule/codes) | Obtient et définit les codes des modules.|
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

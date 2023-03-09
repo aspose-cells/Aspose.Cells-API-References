@@ -17,7 +17,7 @@ Typen IconFilter avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [icon_set_type](/cells/sv/python-net/aspose.cells/iconfilter/icon_set_type) | Hämtar och ställer in vilken ikonuppsättning som används i filterkriterierna.|
+| [icon_set_type](/cells/sv/python-net/aspose.cells/iconfilter/icon_set_type) |Hämtar och ställer in vilken ikonuppsättning som används i filterkriterierna.|
 | [icon_id](/cells/sv/python-net/aspose.cells/iconfilter/icon_id) | Hämtar och ställer in nollbaserat index för en ikon i en ikonuppsättning.|
 
 

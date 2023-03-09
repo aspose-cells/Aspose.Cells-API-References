@@ -1,6 +1,6 @@
 ﻿---
 title: add_active_x_control方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def add_active_x_control(self, type, top_row, top, left_column, left, width, hei
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | aspose.cells.drawing.activexcontrols.ControlType |控件的类型。|
 | top_row | int |左上行索引。|
@@ -30,7 +30,7 @@ def add_active_x_control(self, type, top_row, top, left_column, left, width, hei
 | left_column | int |左上列索引。|
 | left | int |表示 Shape 从其左列的水平偏移量，以像素为单位。|
 | width | int |表示 Shape 的宽度，以像素为单位。|
-| height | int |表示Shape的高度，单位为像素。|
+| height | int |表示 Shape 的高度，以像素为单位。|
 
 ### 例子
 

@@ -18,11 +18,11 @@ def unhide_rows(self, row, total_rows, height):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 | total_rows | int | Radnumret.|
-| height | float | Radhöjd. Radens höjd ändras endast när raden är dold och det angivna höjdvärdet är positivt.|
+| height | float | Radhöjd Radens höjd ändras endast när raden är dold och givet höjdvärde är positivt.|
 
 
 

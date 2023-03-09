@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie ou définit le name du segment spécifié
 
-###  Exemple
+###  Exemples
 
 ```python
 

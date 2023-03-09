@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta le principali linee della griglia su un asse del grafico.
 
-###  Esempio
+###  Esempi
 
 ```python
 

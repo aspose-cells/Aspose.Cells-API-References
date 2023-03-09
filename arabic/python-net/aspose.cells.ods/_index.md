@@ -12,18 +12,18 @@ is_root: false
 ###  الطبقات
 | فصل| وصف|
 | :- | :- |
-| [OdsCellField](/cells/ar/python-net/aspose.cells.ods/odscellfield) | يمثل الحقل الخلوي للقرون.|
+| [OdsCellField](/cells/ar/python-net/aspose.cells.ods/odscellfield) | يمثل حقل خلية الاحتمالات.|
 | [OdsCellFieldCollection](/cells/ar/python-net/aspose.cells.ods/odscellfieldcollection) | يمثل حقول ODS.|
-| [OdsPageBackground](/cells/ar/python-net/aspose.cells.ods/odspagebackground) | يمثل خلفية الصفحة من ods.|
+| [OdsPageBackground](/cells/ar/python-net/aspose.cells.ods/odspagebackground) | يمثل خلفية صفحة الاحتمالات.|
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
-| [OdsCellFieldType](/cells/ar/python-net/aspose.cells.ods/odscellfieldtype) | يمثل نوع حقل الخلية من ods.|
+| [OdsCellFieldType](/cells/ar/python-net/aspose.cells.ods/odscellfieldtype) | يمثل نوع حقل الخلية من الاحتمالات.|
 | [OdsGeneratorType](/cells/ar/python-net/aspose.cells.ods/odsgeneratortype) | يمثل نوع المولدات من نوع ODS.|
 | [OdsPageBackgroundGraphicPositionType](/cells/ar/python-net/aspose.cells.ods/odspagebackgroundgraphicpositiontype) | يمثل الموقف.|
 | [OdsPageBackgroundGraphicType](/cells/ar/python-net/aspose.cells.ods/odspagebackgroundgraphictype) | يمثل نوع تنسيق خلفية الصفحة بالصورة.|
-| [OdsPageBackgroundType](/cells/ar/python-net/aspose.cells.ods/odspagebackgroundtype) |يمثل نوع خلفية الصفحة من ods.|
+| [OdsPageBackgroundType](/cells/ar/python-net/aspose.cells.ods/odspagebackgroundtype) | يمثل نوع خلفية الصفحة من الاحتمالات.|
 
 

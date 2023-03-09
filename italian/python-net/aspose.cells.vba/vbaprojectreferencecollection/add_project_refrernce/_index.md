@@ -22,7 +22,7 @@ def add_project_refrernce(self, name, absolute_libid, relative_libid):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome di riferimento.|
 | absolute_libid | str | L'identificatore del progetto VBA di riferimento con un percorso assoluto.|

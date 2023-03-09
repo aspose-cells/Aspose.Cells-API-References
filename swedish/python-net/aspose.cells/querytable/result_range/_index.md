@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range fastighet
 
-Får resultatets omfång.
+Får resultatomfånget.
 ###  Definition:
 ```python
 @property

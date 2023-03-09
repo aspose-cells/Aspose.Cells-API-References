@@ -11,7 +11,7 @@ is_root: false
 
 يحدد نوع الخط المركب.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import MsoLineStyle

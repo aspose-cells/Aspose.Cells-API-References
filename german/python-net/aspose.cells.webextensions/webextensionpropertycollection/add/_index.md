@@ -13,7 +13,7 @@ Fügt die Weberweiterungseigenschaft hinzu.
 
 ###  Kehrt zurück
 
-Der Index der hinzugefügten Eigenschaft.
+Der Index der hinzugefügten Eigenschaften.
 
 
 ```python

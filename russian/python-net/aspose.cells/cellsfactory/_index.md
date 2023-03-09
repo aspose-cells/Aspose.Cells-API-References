@@ -23,7 +23,7 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [create_style()](/cells/ru/python-net/aspose.cells/cellsfactory/create_style/#) |Создает новый стиль.|
+| [create_style()](/cells/ru/python-net/aspose.cells/cellsfactory/create_style/#) | Создает новый стиль.|
 
 
 

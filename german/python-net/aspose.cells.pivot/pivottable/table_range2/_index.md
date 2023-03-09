@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 Eigentum
 
 Gibt ein CellArea-Objekt zurück, das den Bereich darstellt, der den gesamten PivotTable-Bericht enthält.
-enthält Seitenfelder. Schreibgeschützt.
+enthält Seitenfelder.
 ###  Definition:
 ```python
 @property

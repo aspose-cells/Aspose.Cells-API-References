@@ -18,7 +18,7 @@ def remove_areas(self, areas):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | areas | list | bu doğrulama ayarlarının kaldırılması gereken alanlar.|
 

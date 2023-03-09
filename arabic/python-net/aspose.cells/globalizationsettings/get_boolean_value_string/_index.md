@@ -22,7 +22,7 @@ def get_boolean_value_string(self, bv):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | bv | bool | قيمة منطقية|
 

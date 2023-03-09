@@ -1,13 +1,13 @@
 ﻿---
 title: PageLayoutAlignmentType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2300
 url: /zh/python-net/aspose.cells/pagelayoutalignmenttype/
 is_root: false
 ---
-##  PageLayoutAlignmentType枚举
+## PageLayoutAlignmentType枚举
 枚举页面布局对齐类型。
 
 

@@ -18,10 +18,10 @@ def draw(self, draw_object, x, y, width, height):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | draw_object | [DrawObject](/cells/sv/python-net/aspose.cells.rendering/drawobject) | DrawObject kommer att initieras och returneras vid rendering|
-| x | float | Till vänster om DrawObject|
+| x | float | Vänster om Ritobjekt|
 | y | float | Toppen av DrawObject|
 | width | float | Bredd på DrawObject|
 | height | float | Höjd på DrawObject|

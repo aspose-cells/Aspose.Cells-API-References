@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  old_name propiedad
 
-Obtiene el nombre antiguo de la hoja de trabajo.
+Obtiene el nombre antiguo de la hoja de cálculo.
 ###  Definición:
 ```python
 @property

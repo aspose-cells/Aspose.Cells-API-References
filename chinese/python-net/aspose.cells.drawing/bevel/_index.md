@@ -1,13 +1,13 @@
 ﻿---
 title: Bevel类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
 url: /zh/python-net/aspose.cells.drawing/bevel/
 is_root: false
 ---
-##  Bevel类
+## Bevel类
 表示形状的斜角
 
 

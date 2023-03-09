@@ -18,7 +18,7 @@ def put_cell_value(self, row_offset, column_offset, value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row_offset | int | Le décalage de ligne.|
 | column_offset | int | Le décalage de la colonne.|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin_pt fastighet
 
-Returnerar bottenmarginalen i poängenhet
+Returnerar bottenmarginalen i enheter av poäng
 ###  Definition:
 ```python
 @property

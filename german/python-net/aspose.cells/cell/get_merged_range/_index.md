@@ -13,7 +13,7 @@ Gibt ein [Range](/cells/de/python-net/aspose.cells/range)-Objekt zurück, das ei
 
 ###  Kehrt zurück
 
-[Range](/cells/de/python-net/aspose.cells/range) Objekt. Null, wenn diese Zelle nicht zusammengeführt wird.
+Objekt [Range](/cells/de/python-net/aspose.cells/range). Null, wenn diese Zelle nicht zusammengeführt wird.
 
 
 ```python

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shape_adjust_values mülk
 
-Şekil ayarlama değeri koleksiyonunu alır
+Şekil ayarlama değerleri koleksiyonunu alır
 ###  Tanım:
 ```python
 @property

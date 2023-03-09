@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  print_permission Eigentum
 
-Erlaubnis zum Drucken des PDF-Dokuments
+Erlaubnis zum Drucken von PDF-Dokumenten
 ###  Definition:
 ```python
 @property

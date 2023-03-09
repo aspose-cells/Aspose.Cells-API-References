@@ -18,10 +18,10 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | GROUP | مجموعة|
-| ADJUST_HANDLES | اضبط المقابض|
+| ADJUST_HANDLES | ضبط المقابض|
 | TEXT | نص|
 | POINTS | نقاط|
-| CROP | اقتصاص|
+| CROP |اقتصاص|
 | SELECTION | اختيار|
 | MOVE | يتحرك|
 | ASPECT_RATIO | ابعاد متزنة|

@@ -1,13 +1,13 @@
 ﻿---
 title: ExportTableOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 550
 url: /zh/python-net/aspose.cells/exporttableoptions/
 is_root: false
 ---
-##  ExportTableOptions类
+## ExportTableOptions类
 表示所有导出表选项。
 
 
@@ -31,8 +31,8 @@ ExportTableOptions 类型公开了以下成员：
 | [export_as_string](/cells/zh/python-net/aspose.cells/exporttableoptions/export_as_string) |将单元格的字符串值导出到 DataTable。|
 | [export_as_html_string](/cells/zh/python-net/aspose.cells/exporttableoptions/export_as_html_string) |将单元格的 html 字符串值导出到 DataTable。|
 | [format_strategy](/cells/zh/python-net/aspose.cells/exporttableoptions/format_strategy) |获取和设置将值导出为字符串值时的格式策略。|
-| [check_mixed_value_type](/cells/zh/python-net/aspose.cells/exporttableoptions/check_mixed_value_type) |False，Aspose.Cells 将根据第一行的值类型设置 DataColumn 的类型以提高性能。<br/> True, Aspose.Cells 会在设置DataColumn的类型前检查列中的值类型是否混合<br/>和值类型混合，DataColumn 的类型将是字符串。|
-| [is_vertical](/cells/zh/python-net/aspose.cells/exporttableoptions/is_vertical) |如果 Workbook 文件中的一行代表 DataTable 中的一行，则为真。如果 Workbook 文件中的列代表 DataTable 中的一行，则为 False。|
+| [check_mixed_value_type](/cells/zh/python-net/aspose.cells/exporttableoptions/check_mixed_value_type) | False，Aspose.Cells 将根据第一行的值类型设置 DataColumn 的类型以提高性能。<br/> True, Aspose.Cells 会在设置DataColumn的类型前检查列中的值类型是否混合<br/>并且值类型是混合的，DataColumn 的类型将是字符串。|
+| [is_vertical](/cells/zh/python-net/aspose.cells/exporttableoptions/is_vertical) |如果 Workbook 文件中的一行代表 DataTable 中的一行，则为真。|
 | [indexes](/cells/zh/python-net/aspose.cells/exporttableoptions/indexes) |应导出的列/行的索引。|
 | [rename_strategy](/cells/zh/python-net/aspose.cells/exporttableoptions/rename_strategy) |列重复名称的策略。|
 

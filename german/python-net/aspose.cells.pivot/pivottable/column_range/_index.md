@@ -10,7 +10,7 @@ is_root: false
 ##  column_range Eigentum
 
 Gibt ein CellArea-Objekt zurück, das den Bereich darstellt
-die den Spaltenbereich im PivotTable-Bericht enthält. Schreibgeschützt.
+die den Spaltenbereich im PivotTable-Bericht enthält.
 ###  Definition:
 ```python
 @property

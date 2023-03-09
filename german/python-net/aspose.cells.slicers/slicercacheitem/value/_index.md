@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value Eigentum
 
-Gibt den Beschriftungstext für das Slicer-Element zurück. Schreibgeschützt.
+Gibt den Beschriftungstext für das Slicer-Element zurück.
 ###  Definition:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/lineformat/
 is_root: false
 ---
 ##  LineFormat klass
-Representerar alla inställningar av linjen.
+Representerar alla inställningar för linjen.
 
 
 
@@ -22,7 +22,7 @@ Typen LineFormat avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [type](/cells/sv/python-net/aspose.cells.drawing/lineformat/type) | Hämtar och ställer in fyllningstypen.|
+| [type](/cells/sv/python-net/aspose.cells.drawing/lineformat/type) |Hämtar och ställer in fyllningstypen.|
 | [fill_type](/cells/sv/python-net/aspose.cells.drawing/lineformat/fill_type) | Hämtar och ställer in fyllningstyp|
 | [transparency](/cells/sv/python-net/aspose.cells.drawing/lineformat/transparency) | Returnerar eller ställer in graden av transparens för området som ett värde från 0,0 (opak) till 1,0 (ren).|
 | [set_type](/cells/sv/python-net/aspose.cells.drawing/lineformat/set_type) | Hämtar uppsättningstypen för fyllningsformat.|
@@ -50,7 +50,7 @@ Typen LineFormat avslöjar följande medlemmar:
 | [begin_arrowhead_width](/cells/sv/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_width) | Hämtar och ställer in startpilens breddtyp för linjen.|
 | [begin_arrowhead_length](/cells/sv/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_length) | Hämtar och ställer in startpilens längdtyp för linjen.|
 | [end_arrowhead_style](/cells/sv/python-net/aspose.cells.drawing/lineformat/end_arrowhead_style) | Hämtar och ställer in slutpiltypen för linjen.|
-| [end_arrowhead_width](/cells/sv/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) | Hämtar och ställer in slutpilens breddtyp för linjen.|
+| [end_arrowhead_width](/cells/sv/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) |Hämtar och ställer in slutpilens breddtyp för linjen.|
 | [end_arrowhead_length](/cells/sv/python-net/aspose.cells.drawing/lineformat/end_arrowhead_length) | Hämtar och ställer in slutpilens längdtyp för linjen.|
 | [weight](/cells/sv/python-net/aspose.cells.drawing/lineformat/weight) | Hämtar eller ställer in linjens vikt i poängenhet.|
 

@@ -1,6 +1,6 @@
 ﻿---
 title: list 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## list 属性
 
-返回与指定切片器缓存关联的切片器是否基于非 OLAP 数据源。只读
+返回切片器是否与指定的切片器缓存关联是基于非 OLAP 数据源。
 
 ### 例子
 

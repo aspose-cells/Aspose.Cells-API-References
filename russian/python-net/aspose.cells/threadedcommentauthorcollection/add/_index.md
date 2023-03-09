@@ -22,11 +22,11 @@ def add(self, name, user_id, provider_id):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | name | str | Имя человека.|
 | user_id | str |  |
-| provider_id | str | Идентификатор провайдера|
+| provider_id | str | Личность провайдера|
 
 
 

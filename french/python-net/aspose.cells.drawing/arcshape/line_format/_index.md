@@ -13,8 +13,8 @@ Renvoie un objet MsoLineFormat qui contient les propriétés de mise en forme de
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
- veuillez utiliser la propriété Shape.Line.
+ REMARQUE : ce membre est désormais obsolète.
+ Veuillez utiliser la propriété Shape.Line.
  Cette propriété sera supprimée 12 mois plus tard depuis juillet 2016.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

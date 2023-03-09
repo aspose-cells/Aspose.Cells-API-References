@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/range/auto_fill/
 is_root: false
 ---
 ##  auto_fill(target) {#Range}
-Füllen Sie den Zielbereich automatisch aus.
+Automatisch füllen alle den Zielbereich.
 
 
 
@@ -22,7 +22,7 @@ def auto_fill(self, target):
 | :- | :- | :- |
 | target | [Range](/cells/de/python-net/aspose.cells/range) | den Zielbereich.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook
@@ -44,7 +44,7 @@ workbook.save("book1.xlsm")
 
 
 ##  auto_fill(target, auto_fill_type) {#Range-AutoFillType}
-Füllen Sie den Zielbereich automatisch aus.
+Automatisch füllen alle den Zielbereich.
 
 
 
@@ -56,7 +56,7 @@ def auto_fill(self, target, auto_fill_type):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| target | [Range](/cells/de/python-net/aspose.cells/range) | Die Zielreichweite.|
+| target | [Range](/cells/de/python-net/aspose.cells/range) | Die angestrebte Reichweite.|
 | auto_fill_type | [AutoFillType](/cells/de/python-net/aspose.cells/autofilltype) | Der Autofill-Typ.|
 
 

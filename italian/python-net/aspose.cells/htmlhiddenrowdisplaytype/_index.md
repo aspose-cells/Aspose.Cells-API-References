@@ -18,7 +18,7 @@ Il tipo HtmlHiddenRowDisplayType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | HIDDEN | Nascoste le righe nascoste nella pagina html.|
-| REMOVE | Rimuovi le righe nascoste nella pagina html.|
+| REMOVE | Rimuovi le righe nascoste nelle pagine html.|
 
 
 

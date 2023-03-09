@@ -18,7 +18,7 @@ def __init__(self, sheets):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | sheets | list | indici di fogli a base zero.|
 ###  Osservazioni

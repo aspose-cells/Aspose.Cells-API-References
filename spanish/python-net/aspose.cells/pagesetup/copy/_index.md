@@ -18,7 +18,7 @@ def copy(self, source, copy_options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | source | [PageSetup](/cells/es/python-net/aspose.cells/pagesetup) | La fuente.|
 | copy_options | [CopyOptions](/cells/es/python-net/aspose.cells/copyoptions) | Las opciones de copia.|

@@ -22,9 +22,9 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | dest_cell_name | str | Cellen i det övre vänstra hörnet av Slicer-intervallet.|
 | base_field_name | str | Namnet på PivotField i PivotTable.BaseFields|
 
@@ -52,9 +52,9 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | dest_cell_name | str | Cellen i det övre vänstra hörnet av Slicer-intervallet.|
 | base_field_index | int | Indexet för PivotField i PivotTable.BaseFields|
 
@@ -82,9 +82,9 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | dest_cell_name | str | Cellen i det övre vänstra hörnet av Slicer-intervallet.|
 | base_field | aspose.cells.pivot.PivotField | Pivotfältet i PivotTable.BaseFields|
 
@@ -112,7 +112,7 @@ def add(self, table, index, dest_cell_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | ListObject-objekt|
 | index | int | Indexet för ListColumn i ListObject.ListColumns|
@@ -142,7 +142,7 @@ def add(self, table, list_column, dest_cell_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | ListObject-objekt|
 | list_column | aspose.cells.tables.ListColumn | Listkolumnen i ListObject.ListColumns|
@@ -172,9 +172,9 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | row | int | Radindex för cellen i det övre vänstra hörnet av Slicer-området.|
 | column | int | Kolumnindex för cellen i det övre vänstra hörnet av Slicer-intervallet.|
 | base_field_name | str | Namnet på PivotField i PivotTable.BaseFields|
@@ -203,9 +203,9 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | row | int | Radindex för cellen i det övre vänstra hörnet av Slicer-området.|
 | column | int | Kolumnindex för cellen i det övre vänstra hörnet av Slicer-intervallet.|
 | base_field_index | int | Indexet för PivotField i PivotTable.BaseFields|
@@ -234,9 +234,9 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Pivottabellobjekt|
+| pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | row | int | Radindex för cellen i det övre vänstra hörnet av Slicer-området.|
 | column | int | Kolumnindex för cellen i det övre vänstra hörnet av Slicer-intervallet.|
 | base_field | aspose.cells.pivot.PivotField | Pivotfältet i PivotTable.BaseFields|
@@ -265,7 +265,7 @@ def add(self, table, list_column, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | ListObject-objekt|
 | list_column | aspose.cells.tables.ListColumn | Listkolumnen i ListObject.ListColumns|

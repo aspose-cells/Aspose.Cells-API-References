@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline
 is_root: false
 ---
 ##  clear_sparkline_groups(cell_area) {#CellArea}
-Rensar gnistlinjegrupperna som överlappar ett område med celler.
+Rensar sparklinegrupperna som överlappar ett område med celler.
 
 
 
@@ -18,9 +18,9 @@ def clear_sparkline_groups(self, cell_area):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Anger cellytan|
+| cell_area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Specificerar arean av celler|
 
 
 

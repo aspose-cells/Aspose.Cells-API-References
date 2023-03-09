@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Numaralandırmalar
-| numaralandırma| Tanım|
+|numaralandırma| Tanım|
 | :- | :- |
 | [XAdESType](/cells/tr/python-net/aspose.cells.digitalsignatures/xadestype) | XML Gelişmiş Elektronik İmza (XAdES) türü.|
 

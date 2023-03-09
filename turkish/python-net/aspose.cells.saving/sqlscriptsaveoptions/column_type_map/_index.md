@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map mülk
 
-Farklı veritabanı için sütun türünün haritasını alır ve ayarlar.
+Farklı veritabanları için sütun türlerinin haritasını alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

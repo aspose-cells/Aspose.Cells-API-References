@@ -22,7 +22,7 @@ def add_ole_object(self, upper_left_row, top, upper_left_column, left, height, w
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int |  |
 | top | int |  |

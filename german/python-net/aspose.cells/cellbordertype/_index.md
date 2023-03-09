@@ -17,7 +17,7 @@ Der Typ CellBorderType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| DASH_DOT | Repräsentiert eine dünne strichpunktierte Linie.|
+| DASH_DOT | Repräsentiert dünne strichpunktierte Linien.|
 | DASH_DOT_DOT | Repräsentiert eine dünne Strich-Punkt-Punkt-Linie.|
 | DASHED | Stellt eine gestrichelte Linie dar.|
 | DOTTED | Stellt eine gepunktete Linie dar.|
@@ -26,7 +26,7 @@ Der Typ CellBorderType macht die folgenden Member verfügbar:
 | MEDIUM_DASH_DOT | Repräsentiert eine mittlere strichpunktierte Linie.|
 | MEDIUM_DASH_DOT_DOT | Repräsentiert eine mittlere Strich-Punkt-Punkt-Linie.|
 | MEDIUM_DASHED | Repräsentiert eine mittlere gestrichelte Linie.|
-| NONE |Stellt keine Linie dar.|
+| NONE | Stellt keine Linie dar.|
 | MEDIUM | Repräsentiert mittlere Linie.|
 | SLANTED_DASH_DOT | Stellt eine schräge mittlere strichpunktierte Linie dar.|
 | THICK | Stellt eine dicke Linie dar.|

@@ -18,7 +18,7 @@ def hide_item_detail(self, index, is_hidden_detail):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | pivotField içindeki pivotItem dizini.|
 | is_hidden_detail | bool | belirli PivotItem'in gizli olup olmadığı|

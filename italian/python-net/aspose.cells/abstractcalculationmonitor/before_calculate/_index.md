@@ -18,7 +18,7 @@ def before_calculate(self, sheet_index, row_index, col_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_index | int | Indice del foglio a cui appartiene la cella.|
 | row_index | int | Indice di riga della cella|

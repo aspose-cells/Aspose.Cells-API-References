@@ -13,8 +13,8 @@ Indica se l'inserimento di colonne è consentito in un foglio di lavoro protetto
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
-utilizzare la proprietà Protection.AllowInsertingColumn.
+ NOTA: questo membro è ora obsoleto.
+ utilizzare la proprietà Protection.AllowInsertingColumn.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

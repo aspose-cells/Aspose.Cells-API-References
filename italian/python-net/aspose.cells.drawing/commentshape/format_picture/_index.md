@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta le opzioni del formato immagine.
 
-###  Esempio
+###  Esempi
 
 ```python
 

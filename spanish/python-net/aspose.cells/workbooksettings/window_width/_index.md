@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width propiedad
 
-El ancho de la ventana, en unidad de punto.
+El ancho de la ventana, en unidades de puntos.
 ###  Definición:
 ```python
 @property

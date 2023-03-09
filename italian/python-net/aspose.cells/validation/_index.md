@@ -24,7 +24,7 @@ Il tipo Validation espone i membri seguenti:
 | [input_title](/cells/it/python-net/aspose.cells/validation/input_title) | Rappresenta il titolo della finestra di dialogo di input per la convalida dei dati.|
 | [error_message](/cells/it/python-net/aspose.cells/validation/error_message) | Rappresenta il messaggio di errore di convalida dei dati.|
 | [error_title](/cells/it/python-net/aspose.cells/validation/error_title) | Rappresenta il titolo della finestra di dialogo dell'errore di convalida dei dati.|
-| [show_input](/cells/it/python-net/aspose.cells/validation/show_input) | Indica se il messaggio di input della convalida dei dati verrà visualizzato ogni volta che l'utente seleziona una cella nell'intervallo di convalida dei dati.|
+| [show_input](/cells/it/python-net/aspose.cells/validation/show_input) |Indica se il messaggio di input della convalida dei dati verrà visualizzato ogni volta che l'utente seleziona una cella nell'intervallo di convalida dei dati.|
 | [show_error](/cells/it/python-net/aspose.cells/validation/show_error) | Indica se il messaggio di errore di convalida dei dati verrà visualizzato ogni volta che l'utente inserisce dati non validi.|
 | [ignore_blank](/cells/it/python-net/aspose.cells/validation/ignore_blank) | Indica se i valori vuoti sono consentiti dalla convalida dei dati dell'intervallo.|
 | [formula1](/cells/it/python-net/aspose.cells/validation/formula1) | Rappresenta il valore o l'espressione associata alla convalida dei dati.|
@@ -32,16 +32,16 @@ Il tipo Validation espone i membri seguenti:
 | [value1](/cells/it/python-net/aspose.cells/validation/value1) | Rappresenta il primo valore associato alla convalida dei dati.|
 | [value2](/cells/it/python-net/aspose.cells/validation/value2) | Rappresenta il secondo valore associato alla convalida dei dati.|
 | [in_cell_drop_down](/cells/it/python-net/aspose.cells/validation/in_cell_drop_down) | Indica se la convalida dei dati visualizza un elenco a discesa che contiene valori accettabili.|
-| [areas](/cells/it/python-net/aspose.cells/validation/areas) | Ottiene tutti gli [CellArea](/cells/it/python-net/aspose.cells/cellarea) che contengono le impostazioni di convalida dei dati.|
+| [areas](/cells/it/python-net/aspose.cells/validation/areas) | Ottiene tutto [CellArea](/cells/it/python-net/aspose.cells/cellarea) che contiene le impostazioni di convalida dei dati.|
 
 
 ###  Metodi
 | Metodo| Descrizione|
 | :- | :- |
 | [get_formula1(is_r1c1, is_local)](/cells/it/python-net/aspose.cells/validation/get_formula1/#bool-bool) | Ottiene il valore o l'espressione associati a questa convalida.|
-| [get_formula1(is_r1c1, is_local, row, column)](/cells/it/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Ottiene il valore o l'espressione associati a questa convalida per una cella specifica.|
+| [get_formula1(is_r1c1, is_local, row, column)](/cells/it/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Ottiene il valore o l'espressione associati a questa convalida per la cella specifica.|
 | [get_formula2(is_r1c1, is_local)](/cells/it/python-net/aspose.cells/validation/get_formula2/#bool-bool) | Ottiene il valore o l'espressione associati a questa convalida.|
-| [get_formula2(is_r1c1, is_local, row, column)](/cells/it/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Ottiene il valore o l'espressione associati a questa convalida per una cella specifica.|
+| [get_formula2(is_r1c1, is_local, row, column)](/cells/it/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Ottiene il valore o l'espressione associati a questa convalida per la cella specifica.|
 | [add_area(cell_area)](/cells/it/python-net/aspose.cells/validation/add_area/#CellArea) | Applica la convalida all'area.|
 | [add_area(cell_area, check_intersection, check_edge)](/cells/it/python-net/aspose.cells/validation/add_area/#CellArea-bool-bool) | Applica la convalida all'area.|
 | [set_formula1(formula, is_r1c1, is_local)](/cells/it/python-net/aspose.cells/validation/set_formula1/#str-bool-bool) | Imposta il valore o l'espressione associata a questa convalida.|
@@ -55,7 +55,7 @@ Il tipo Validation espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellArea, OperatorType, ValidationType, Workbook

@@ -11,7 +11,7 @@ is_root: false
 
 Representa el ancho de la forma, en unidades de centímetros.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

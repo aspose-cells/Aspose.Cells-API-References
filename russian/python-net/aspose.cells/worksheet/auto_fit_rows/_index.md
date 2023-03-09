@@ -31,9 +31,9 @@ def auto_fit_rows(self, only_auto):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| only_auto | bool | Правда, высота строки подбирается автоматически только тогда, когда высота строки не настроена.|
+| only_auto | bool |Правда, высота строки подбирается автоматически только тогда, когда высота строки не настроена.|
 
 
 ##  auto_fit_rows(options) {#AutoFitterOptions}
@@ -47,7 +47,7 @@ def auto_fit_rows(self, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/ru/python-net/aspose.cells/autofitteroptions) | Параметры автоустановщика|
 
@@ -63,7 +63,7 @@ def auto_fit_rows(self, start_row, end_row):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Индекс начальной строки.|
 | end_row | int | Индекс конечной строки.|
@@ -80,7 +80,7 @@ def auto_fit_rows(self, start_row, end_row, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Индекс начальной строки.|
 | end_row | int | Индекс конечной строки.|

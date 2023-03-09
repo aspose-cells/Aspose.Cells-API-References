@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_shared_formula fastighet
 
-Anger om cellformeln är en del av delad formel.
+Anger om cellformeln är en del av en delad formel.
 ###  Definition:
 ```python
 @property

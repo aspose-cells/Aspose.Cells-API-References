@@ -18,7 +18,7 @@ def protect(self, islocked_for_viewing, password):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | islocked_for_viewing | bool | يشير إلى ما إذا كان مشروع التأمين للعرض أم لا.|
 | password | str | إذا كانت القيمة فارغة ، فقم بإلغاء حماية مشروع VBA هذا ، وإلا فإنه يعرض مشروع VBA هذا.|

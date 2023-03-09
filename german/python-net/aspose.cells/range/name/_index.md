@@ -13,7 +13,7 @@ Ruft die name des Bereichs ab oder legt sie fest.
 
 ###  Bemerkungen
 
-Benannter Bereich wird unterstützt. Zum Beispiel,
+Benannter Bereich wird unterstützt.
 
 range.Name = "Sheet1!MyRange";
 ###  Definition:

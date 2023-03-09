@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/ar/python-net/aspose.cells/workbook) | ملف مصنف القالب.|
 

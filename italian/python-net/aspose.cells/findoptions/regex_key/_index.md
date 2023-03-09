@@ -10,7 +10,7 @@ is_root: false
 ##  regex_key proprietà
 
 Indica se la chiave cercata è regex.
-Se vero, la chiave cercata verrà considerata come regex e analizzata. Altrimenti la chiave verrà analizzata secondo le regole in ms excel.
+Se vero, la chiave cercata verrà considerata come regex e analizzata.
 ###  Definizione:
 ```python
 @property

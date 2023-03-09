@@ -18,9 +18,9 @@ def remove_a_cell(self, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| row | int |Index de ligne de la cellule.|
+| row | int | Index de ligne de la cellule.|
 | column | int | Index de colonne de la cellule.|
 
 

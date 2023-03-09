@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/namecollection/filter/
 is_root: false
 ---
 ##  filter(type, sheet_index) {#NameScopeType-int}
-يحصل على كل الاسم المحدد حسب النطاق.
+يحصل على جميع الأسماء المحددة حسب النطاق.
 
 
 ###  عائدات
@@ -22,7 +22,7 @@ def filter(self, type, sheet_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [NameScopeType](/cells/ar/python-net/aspose.cells/namescopetype) | نوع النطاق.|
 | sheet_index | int | فهرس الورقة.<br/>التأثيرات فقط عندما يكون نوع النطاق هو [NameScopeType.WORKSHEET](/cells/ar/python-net/aspose.cells/namescopetype#WORKSHEET) |

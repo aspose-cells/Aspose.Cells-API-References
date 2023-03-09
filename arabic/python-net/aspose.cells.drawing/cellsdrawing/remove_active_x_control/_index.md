@@ -19,7 +19,7 @@ def remove_active_x_control(self):
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 

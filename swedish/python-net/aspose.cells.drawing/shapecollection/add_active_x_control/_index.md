@@ -22,15 +22,15 @@ def add_active_x_control(self, type, top_row, top, left_column, left, width, hei
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | aspose.cells.drawing.activexcontrols.ControlType | Typen av kontroll.|
 | top_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av Shape från dess vänstra rad, i pixelenhet.|
-| left_column | int |Övre vänstra kolumnindex.|
+| left_column | int | Övre vänstra kolumnindex.|
 | left | int | Representerar den horisontella förskjutningen av Shape från dess vänstra kolumn, i pixelenhet.|
-| width | int | Representerar bredden på Shape, i pixelenhet.|
-| height | int | Representerar höjden på Shape, i pixelenhet.|
+| width | int | Representerar bredden på Shape, i enheter av pixlar.|
+| height | int | Representerar höjden på Shape, i enheter av pixlar.|
 
 ###  Exempel
 

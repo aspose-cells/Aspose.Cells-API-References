@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size fastighet
 
-Indikerar om tomtområdet är automatiskt dimensionerat.
+Indikerar om tomtområdet automatiskt dimensioneras.
 ###  Definition:
 ```python
 @property

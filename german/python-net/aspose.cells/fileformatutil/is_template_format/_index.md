@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/fileformatutil/is_template_format/
 is_root: false
 ---
 ##  is_template_format(extension) {#str}
-Gibt true zurück, wenn die Erweiterung .xlt, .xltX, .xltm, .ots ist.
+Gibt wahr zurück, wenn die Erweiterung .xlt, .xltX, .xltm, .ots ist.
 
 
 ###  Kehrt zurück

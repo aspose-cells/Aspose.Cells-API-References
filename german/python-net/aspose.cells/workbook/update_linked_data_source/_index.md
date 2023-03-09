@@ -21,12 +21,12 @@ def update_linked_data_source(self, external_workbooks):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| external_workbooks | list | Externe Arbeitsmappen werden von dieser Arbeitsmappe referenziert.<br/>Wenn es null ist, werden wir die extern verlinkten Dateien direkt öffnen.<br/>Wenn es nicht null ist,<br/>wir werden zuerst prüfen, ob der externe Link im Array ist;<br/> Wenn nicht, öffnen wir die extern verlinkten Dateien erneut.|
+| external_workbooks | list | Externe Arbeitsmappen werden von dieser Arbeitsmappe referenziert.<br/>Wenn es null ist, werden wir die extern verlinkten Dateien direkt öffnen.<br/> Wenn es nicht null ist,<br/>wir werden zuerst prüfen, ob der externe Link im Array ist;<br/> Wenn nicht, öffnen wir die extern verlinkten Dateien erneut.|
 ###  Bemerkungen
 
 Wenn die Methode nicht vor dem Berechnen von Formeln aufgerufen wird,
 Aspose.Cells verwendet die vorherigen Informationen (in der Datei zwischengespeichert);
- Bitte legen Sie CellsHelper.StartupPath,CellsHelper.AltStartPath,CellsHelper.LibraryPath fest.
+ Bitte setzen Sie CellsHelper.StartupPath, CellsHelper.AltStartPath, CellsHelper.LibraryPath.
 Und bitte setzen Sie Workbook.FilePath, wenn diese Arbeitsmappe aus einem Stream stammt,
 andernfalls konnte Aspose.Cells manchmal den vollständigen Pfad des externen Links nicht abrufen.
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name fastighet
 
-Får Range-titeln. Detta används som en deskriptor, inte som en namngiven intervalldefinition.
+Får Range-titeln.
 ###  Definition:
 ```python
 @property

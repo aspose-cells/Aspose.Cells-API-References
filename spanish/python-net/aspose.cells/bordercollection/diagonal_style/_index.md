@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  diagonal_style propiedad
 
-Obtiene o establece el estilo de las líneas Diagonal.
+Obtiene o establece el estilo de las líneas diagonales.
 ###  Definición:
 ```python
 @property

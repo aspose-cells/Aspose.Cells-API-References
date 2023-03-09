@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range_name | str | Nombre del rango.|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range_name | str | Nombre del rango o nombre de la tabla.|
-| current_sheet_index | int | El índice de la hoja. -1 representa global.|
+| current_sheet_index | int | El índice de hoja -1 representa global.|
 | include_table | bool | Indica si se revisan todas las tablas.|
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name Eigentum
 
-Ruft den Namen der Schriftart ab und legt ihn fest.
+Rufen Sie den Namen der Schriftart ab und legen Sie ihn fest.
 ###  Definition:
 ```python
 @property

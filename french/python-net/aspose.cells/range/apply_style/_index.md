@@ -18,14 +18,14 @@ def apply_style(self, style, flag):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | L'objet de style qui sera appliqué.|
-| flag | [StyleFlag](/cells/fr/python-net/aspose.cells/styleflag) | Indicateurs indiquant les propriétés de formatage appliquées.|
+| flag | [StyleFlag](/cells/fr/python-net/aspose.cells/styleflag) |Indicateurs qui indiquent les propriétés de formatage appliquées.|
 ###  Remarques
 
 Chaque cellule de cette plage contiendra un objet [Style](/cells/fr/python-net/aspose.cells/style).
-Il s'agit donc d'une méthode gourmande en mémoire. Veuillez l'utiliser avec précaution.
+Il s'agit donc d'une méthode gourmande en mémoire.
 
 
 ###  Voir également

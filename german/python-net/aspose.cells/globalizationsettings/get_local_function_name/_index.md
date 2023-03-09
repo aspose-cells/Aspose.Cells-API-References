@@ -13,7 +13,7 @@ Ruft den vom Gebietsschema abhängigen Funktionsnamen gemäß dem angegebenen St
 
 ###  Kehrt zurück
 
-Vom Gebietsschema abhängiger Funktionsname. Das Gebietsschema wurde von der Arbeitsmappe angegeben, für die diese Einstellungen verwendet werden.
+Vom Gebietsschema abhängiger Funktionsname.
 
 
 ```python

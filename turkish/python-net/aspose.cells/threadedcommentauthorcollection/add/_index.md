@@ -22,11 +22,11 @@ def add(self, name, user_id, provider_id):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Kişinin adı.|
 | user_id | str |  |
-| provider_id | str | sağlayıcı kimliği|
+| provider_id | str | sağlayıcının kimliği|
 
 
 

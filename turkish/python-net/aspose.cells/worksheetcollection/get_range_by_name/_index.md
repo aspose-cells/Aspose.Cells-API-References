@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range_name | str | aralığın adı.|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range_name | str | Aralığın adı veya tablonun adı.|
-| current_sheet_index | int | Sayfa dizini. -1 geneli temsil eder.|
+| current_sheet_index | int | Sayfa dizini -1 geneli temsil eder.|
 | include_table | bool | Tüm tabloların kontrol edilip edilmediğini gösterir.|
 
 

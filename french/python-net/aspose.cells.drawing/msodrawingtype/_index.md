@@ -21,30 +21,30 @@ Le type MsoDrawingType expose les membres suivants :
 | LINE | Doubler|
 | RECTANGLE | Rectangle|
 | OVAL | ovale|
-| ARC | Arc|
-| CHART | Graphique|
+| ARC | arc|
+| CHART | graphique|
 | TEXT_BOX | Zone de texte|
-| BUTTON | Bouton|
-| PICTURE | Image|
+| BUTTON | bouton|
+| PICTURE | Des photos|
 | POLYGON | Polygone|
-| CHECK_BOX | Case à cocher|
-| RADIO_BUTTON | Bouton radio|
-| LABEL | Étiqueter|
+| CHECK_BOX | case à cocher|
+| RADIO_BUTTON | boutons radio|
+| LABEL | étiqueter|
 | DIALOG_BOX | Boite de dialogue|
 | SPINNER | Fileur|
-| SCROLL_BAR |Barre de défilement|
+| SCROLL_BAR | Barre de défilement|
 | LIST_BOX | Zone de liste|
 | GROUP_BOX | GroupBox|
 | COMBO_BOX | Boîte combo|
 | COMMENT | Commentaire|
 | OLE_OBJECT | OleObject|
-| CELLS_DRAWING | Uniquement pour conserver l'objet de dessin dans le fichier modèle.|
+| CELLS_DRAWING | Uniquement pour conserver les objets de dessin dans le fichier modèle.|
 | UNKNOWN | Uniquement pour conserver l'objet de dessin dans le fichier xlsx.|
-| SLICER | Trancheuse|
+| SLICER | trancheuse|
 | WEB_EXTENSION | Extension Web|
 | SMART_ART | Art intelligent|
-| CUSTOM_XML | Forme xml personnalisée, telle que Ink.|
-| TIMELINE |Calendrier|
+| CUSTOM_XML | Formes xml personnalisées, telles que Ink.|
+| TIMELINE | calendrier|
 | MODEL_3D | modèle 3D|
 
 

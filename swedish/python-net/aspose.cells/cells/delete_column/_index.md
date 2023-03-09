@@ -18,7 +18,7 @@ def delete_column(self, column_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
 
@@ -34,7 +34,7 @@ def delete_column(self, column_index, update_reference):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
 | update_reference | bool | Indikerar om uppdateringsreferenser i andra kalkylblad.|

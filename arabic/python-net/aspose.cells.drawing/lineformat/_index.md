@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/lineformat/
 is_root: false
 ---
 ##  LineFormat الدرجة
-يمثل كل وضع الخط.
+يمثل جميع إعدادات الخط.
 
 
 
@@ -22,7 +22,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [type](/cells/ar/python-net/aspose.cells.drawing/lineformat/type) | الحصول على نوع التعبئة وتعيينه.|
+| [type](/cells/ar/python-net/aspose.cells.drawing/lineformat/type) |الحصول على نوع التعبئة وتعيينه.|
 | [fill_type](/cells/ar/python-net/aspose.cells.drawing/lineformat/fill_type) | الحصول على نوع التعبئة وتعيينه|
 | [transparency](/cells/ar/python-net/aspose.cells.drawing/lineformat/transparency) | إرجاع أو تعيين درجة شفافية المنطقة كقيمة من 0.0 (معتم) إلى 1.0 (واضح).|
 | [set_type](/cells/ar/python-net/aspose.cells.drawing/lineformat/set_type) | يحصل على نوع مجموعة تنسيق التعبئة.|
@@ -50,7 +50,7 @@ is_root: false
 | [begin_arrowhead_width](/cells/ar/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_width) | الحصول على نوع عرض سهم البداية للخط وتعيينه.|
 | [begin_arrowhead_length](/cells/ar/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_length) | الحصول على نوع طول الخط للخط وتعيينه.|
 | [end_arrowhead_style](/cells/ar/python-net/aspose.cells.drawing/lineformat/end_arrowhead_style) | الحصول على نوع سهم النهاية للخط وتعيينه.|
-| [end_arrowhead_width](/cells/ar/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) | الحصول على نوع عرض سهم النهاية للخط وتعيينه.|
+| [end_arrowhead_width](/cells/ar/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) |الحصول على نوع عرض سهم النهاية للخط وتعيينه.|
 | [end_arrowhead_length](/cells/ar/python-net/aspose.cells.drawing/lineformat/end_arrowhead_length) | الحصول على نوع طول سهم النهاية للخط وتعيينه.|
 | [weight](/cells/ar/python-net/aspose.cells.drawing/lineformat/weight) | الحصول على أو تحديد وزن الخط بوحدة النقاط.|
 
@@ -65,7 +65,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

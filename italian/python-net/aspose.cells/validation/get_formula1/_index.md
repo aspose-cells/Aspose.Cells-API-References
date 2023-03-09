@@ -22,14 +22,14 @@ def get_formula1(self, is_r1c1, is_local):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_r1c1 | bool | Se la formula deve essere formattata come R1C1.|
 | is_local | bool | Se la formula deve essere formattata in base alle impostazioni locali.|
 
 
 ##  get_formula1(is_r1c1, is_local, row, column) {#bool-bool-int-int}
-Ottiene il valore o l'espressione associati a questa convalida per una cella specifica.
+Ottiene il valore o l'espressione associati a questa convalida per la cella specifica.
 
 
 ###  ritorna
@@ -43,7 +43,7 @@ def get_formula1(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_r1c1 | bool | Se la formula deve essere formattata come R1C1.|
 | is_local | bool | Se la formula deve essere formattata in base alle impostazioni locali.|

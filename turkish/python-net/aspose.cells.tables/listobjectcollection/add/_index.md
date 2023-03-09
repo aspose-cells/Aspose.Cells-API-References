@@ -22,7 +22,7 @@ def add(self, start_cell, end_cell, has_headers):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_cell | str | Liste aralığının başlangıç hücresi.|
 | end_cell | str | Liste aralığının bitiş hücresi.|
@@ -44,7 +44,7 @@ def add(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Liste aralığının başlangıç satırı.|
 | start_column | int | Liste aralığının başlangıç satırı.|

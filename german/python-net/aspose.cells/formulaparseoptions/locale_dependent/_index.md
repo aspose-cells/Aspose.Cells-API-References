@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  locale_dependent Eigentum
 
-Ob die Formel im Gebietsschema formatiert ist. Standard ist falsch.
+Ob die Formel in einem Gebietsschema formatiert ist. Der Standardwert ist „false“.
 ###  Definition:
 ```python
 @property

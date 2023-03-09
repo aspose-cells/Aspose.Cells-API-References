@@ -22,9 +22,9 @@ def get(self, cell_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| cell_name | str |Cell nombre, incluida la letra de la columna y el número de fila, por ejemplo, A5.|
+| cell_name | str | Cell nombre, incluida la letra de la columna y el número de fila, por ejemplo, A5.|
 
 
 ##  get(row, column) {#int-int}
@@ -42,7 +42,7 @@ def get(self, row, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila.|
 | column | int | Índice de columnas.|

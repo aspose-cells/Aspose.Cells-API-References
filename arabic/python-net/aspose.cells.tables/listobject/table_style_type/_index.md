@@ -11,7 +11,7 @@ is_root: false
 
 يحصل وأسلوب الجدول المدمج.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

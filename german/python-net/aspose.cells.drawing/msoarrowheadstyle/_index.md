@@ -21,7 +21,7 @@ Der Typ MsoArrowheadStyle macht die folgenden Member verfügbar:
 | ARROW | Endtyp der Pfeillinie.|
 | ARROW_STEALTH | Arrow Stealth-Linienendetyp.|
 | ARROW_DIAMOND | Arrow Diamond Line Endtyp.|
-| ARROW_OVAL | Pfeil Ovaler Linienendetyp.|
+| ARROW_OVAL | Ovaler Linienendtyp des Pfeils.|
 | ARROW_OPEN | Pfeil Offener Linienendetyp.|
 
 

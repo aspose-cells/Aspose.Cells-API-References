@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  العد PrintErrorsType
-يمثل ثوابت أخطاء الطباعة.
+يمثل ثوابت خطأ الطباعة.
 
 
 
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | PRINT_ERRORS_BLANK | يمثل عدم طباعة الأخطاء.|
 | PRINT_ERRORS_DASH | يمثل أخطاء الطباعة كـ "-".|
-| PRINT_ERRORS_DISPLAYED |يمثل أخطاء الطباعة كما هو معروض.|
+| PRINT_ERRORS_DISPLAYED | يمثل أخطاء الطباعة كما هو معروض.|
 | PRINT_ERRORS_NA | يمثل أخطاء الطباعة كـ "# N / A".|
 
 

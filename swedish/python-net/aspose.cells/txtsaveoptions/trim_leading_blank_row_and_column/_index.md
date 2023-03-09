@@ -18,7 +18,7 @@ Samma med regeln i ms excel, en rad/kolumn tas inte som tom om den har anpassad 
 även om den inte innehåller några celldata.
 När du sparar med LightCells-läge har det här alternativet ingen effekt.
 Användaren bör kontrollera utdataområdet genom att implementera [TxtSaveOptions.light_cells_data_provider](/cells/sv/python-net/aspose.cells/txtsaveoptions#light_cells_data_provider)
-eller genom att ange [TxtSaveOptions.export_area](/cells/sv/python-net/aspose.cells/txtsaveoptions#export_area)
+eller genom att prata [TxtSaveOptions.export_area](/cells/sv/python-net/aspose.cells/txtsaveoptions#export_area)
 ###  Definition:
 ```python
 @property

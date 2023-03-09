@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/group_columns/
 is_root: false
 ---
 ##  group_columns(first_index, last_index) {#int-int}
-أعمدة المجموعات.
+تجميع الأعمدة.
 
 
 
@@ -18,14 +18,14 @@ def group_columns(self, first_index, last_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | first_index | int | فهرس العمود الأول المراد تجميعه.|
 | last_index | int | فهرس العمود الأخير المراد تجميعه.|
 
 
 ##  group_columns(first_index, last_index, is_hidden) {#int-int-bool}
-أعمدة المجموعات.
+تجميع الأعمدة.
 
 
 
@@ -35,7 +35,7 @@ def group_columns(self, first_index, last_index, is_hidden):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | first_index | int | فهرس العمود الأول المراد تجميعه.|
 | last_index | int | فهرس العمود الأخير المراد تجميعه.|

@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any | Der Wert der Formel.|
 ###  Bemerkungen
 
-HINWEIS: Diese Klasse ist jetzt veraltet. Stattdessen,
+HINWEIS: Diese Klasse ist jetzt veraltet.
 verwenden Sie bitte Cell.SetFormula(string,FormulaParseOptions,object).
 Diese Property wird 12 Monate später seit Dezember 2019 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

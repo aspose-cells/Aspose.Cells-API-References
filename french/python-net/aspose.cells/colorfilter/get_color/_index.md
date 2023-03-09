@@ -22,7 +22,7 @@ def get_color(self, sheets):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sheets | [WorksheetCollection](/cells/fr/python-net/aspose.cells/worksheetcollection) |  |
 

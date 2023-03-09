@@ -22,7 +22,7 @@ def start_sheet(self, sheet_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | sheet_index | int | índice de la hoja actual que se va a guardar.|
 ###  Observaciones

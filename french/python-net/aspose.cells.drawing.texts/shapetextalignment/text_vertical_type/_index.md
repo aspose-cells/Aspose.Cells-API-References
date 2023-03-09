@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit la direction du texte.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing.texts import TextVerticalType

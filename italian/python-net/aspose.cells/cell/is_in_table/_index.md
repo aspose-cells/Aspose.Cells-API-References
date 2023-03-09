@@ -13,7 +13,7 @@ Indica se questa cella fa parte della formula della tabella.
 
 ###  Osservazioni
 
- NOTA: questa classe è ora obsoleta. Invece,
+ NOTA: questa classe è ora obsoleta.
 si prega di utilizzare Cell.IsTableFormula per verificare se la formula della cella fa parte della formula della tabella.
 Questa proprietà verrà rimossa 12 mesi dopo da maggio 2018.
 Aspose si scusa per gli eventuali disagi causati.

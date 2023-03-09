@@ -25,10 +25,10 @@ Typen CheckBoxActiveXControl avslöjar följande medlemmar:
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/workbook) | Hämtar objektet [ActiveXControlBase.workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/type) | Hämtar typen av ActiveX-kontroll.|
-| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/width) | Hämtar och ställer in kontrollens bredd i poängenhet.|
-| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenhet.|
+| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/width) |Får och ställer in kontrollens bredd i poängenheter.|
+| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenheter.|
 | [mouse_icon](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/mouse_icon) | Hämtar och ställer in en anpassad ikon som ska visas som muspekare för kontrollen.|
-| [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/mouse_pointer) |Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
+| [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/mouse_pointer) | Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
 | [fore_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/fore_ole_color) | Får och ställer in olefärgen på förgrunden.|
 | [back_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/back_ole_color) | Hämtar och ställer in ole-färgen på bakgrunden.|
 | [is_visible](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_visible) | Indikerar om denna kontroll är synlig.|
@@ -38,9 +38,9 @@ Typen CheckBoxActiveXControl avslöjar följande medlemmar:
 | [data](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/data) | Hämtar och ställer in kontrollens binära data.|
 | [is_enabled](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_enabled) | Indikerar om kontrollen kan ta emot fokus och svara på användargenererade händelser.|
 | [is_locked](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_locked) | Indikerar om data i kontrollen är låst för redigering.|
-| [is_transparent](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_transparent) |Indikerar om kontrollen är transparent.|
+| [is_transparent](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_transparent) | Indikerar om kontrollen är transparent.|
 | [is_auto_size](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_auto_size) | Indikerar om kontrollen automatiskt kommer att ändra storlek för att visa hela innehållet.|
-| [ime_mode](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/ime_mode) | Hämtar och ställer in standardkörtidsläget för Input Method Editor för kontrollen när den tar emot fokus.|
+| [ime_mode](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/ime_mode) |Hämtar och ställer in standardkörtidsläget för Input Method Editor för kontrollen när den tar emot fokus.|
 | [font](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/font) | Representerar kontrollens teckensnitt.|
 | [text_align](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/text_align) | Representerar hur man justerar texten som används av kontrollen.|
 | [group_name](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/group_name) | Hämtar och ställer in gruppens namn.|
@@ -49,9 +49,9 @@ Typen CheckBoxActiveXControl avslöjar följande medlemmar:
 | [caption](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/caption) | Hämtar och ställer in den beskrivande texten som visas på en kontroll.|
 | [picture_position](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture_position) | Hämtar och ställer in platsen för kontrollens bild i förhållande till dess bildtext.|
 | [special_effect](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/special_effect) | Får och ställer in kontrollens specialeffekt.|
-| [picture](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture) |Hämtar och ställer in bildens data.|
+| [picture](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture) | Hämtar och ställer in bildens data.|
 | [accelerator](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/accelerator) | Hämtar och ställer in gasknappen för kontrollen.|
-| [value](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/value) | Indikerar om kontrollen är kontrollerad eller inte.|
+| [value](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/value) |Indikerar om kontrollen är kontrollerad eller inte.|
 | [is_triple_state](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_triple_state) | Indikerar hur den angivna kontrollen kommer att visa nollvärden.|
 
 

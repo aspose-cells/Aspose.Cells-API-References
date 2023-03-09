@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range mülk
 
-Sonucun aralığını alır.
+Sonuçların aralığını alır.
 ###  Tanım:
 ```python
 @property

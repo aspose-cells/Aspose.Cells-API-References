@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing Eigentum
 
-Stellt die Anzahl der Kategorien oder Serien zwischen Teilstrichbeschriftungen dar. Gilt nur für Kategorie- und Serienachsen.
+Stellt die Anzahl der Kategorien oder Serien zwischen Teilstrichbeschriftungen dar.
 
 ###  Bemerkungen
 

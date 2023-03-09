@@ -18,10 +18,10 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | Dizi formülü.|
-| row_number | int | Dizi formülünün sonucunun doldurulacağı satır sayısı.|
+| row_number | int |Dizi formülünün sonucunun doldurulacağı satır sayısı.|
 | column_number | int | Dizi formülünün sonucunu dolduracak sütun sayısı.|
 
 
@@ -36,10 +36,10 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | Dizi formülü.|
-| row_number | int | Dizi formülünün sonucunun doldurulacağı satır sayısı.|
+| row_number | int |Dizi formülünün sonucunun doldurulacağı satır sayısı.|
 | column_number | int | Dizi formülünün sonucunu dolduracak sütun sayısı.|
 | options | [FormulaParseOptions](/cells/tr/python-net/aspose.cells/formulaparseoptions) | Formülü ayrıştırma seçenekleri.|
 
@@ -55,16 +55,16 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | Dizi formülü.|
-| row_number | int | Dizi formülünün sonucunun doldurulacağı satır sayısı.|
+| row_number | int |Dizi formülünün sonucunun doldurulacağı satır sayısı.|
 | column_number | int | Dizi formülünün sonucunu dolduracak sütun sayısı.|
 | is_r1c1 | bool | formülün R1C1 formülü olup olmadığı|
 | is_local | bool | formülün yerel biçimlendirilmiş olup olmadığı|
 ###  Notlar
 
-NOT: Bu sınıf artık kullanılmıyor. Yerine,
+NOT: Bu sınıf artık kullanılmıyor.
 lütfen Cell.SetArrayFormula(string,int,int,FormulaParseOptions) kullanın.
 Bu mülk, Aralık 2019'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
@@ -80,10 +80,10 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | Dizi formülü.|
-| row_number | int | Dizi formülünün sonucunun doldurulacağı satır sayısı.|
+| row_number | int |Dizi formülünün sonucunun doldurulacağı satır sayısı.|
 | column_number | int | Dizi formülünün sonucunu dolduracak sütun sayısı.|
 | options | [FormulaParseOptions](/cells/tr/python-net/aspose.cells/formulaparseoptions) | Formülü ayrıştırma seçenekleri.|
 | values | list | verilen dizi formülü ile bu hücreler için değerler|

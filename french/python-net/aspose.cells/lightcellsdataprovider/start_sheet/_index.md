@@ -13,7 +13,7 @@ Démarre l'enregistrement d'une feuille de calcul.
 
 ###  Retour
 
-true si ce fournisseur fournira des données pour la feuille donnée ; false si la feuille donnée doit utiliser son modèle de données normal (Cells).
+true si ce fournisseur fournira des données pour la feuille donnée ; false si la feuille donnée doit utiliser son modèle de données normal (Cells).
 
 
 ```python
@@ -22,7 +22,7 @@ def start_sheet(self, sheet_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sheet_index | int | index de la feuille courante à sauvegarder.|
 ###  Remarques

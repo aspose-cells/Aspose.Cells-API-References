@@ -1,6 +1,6 @@
 ﻿---
 title: set_color方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def set_color(self, color):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color |边框的颜色。|
 

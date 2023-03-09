@@ -1,6 +1,6 @@
 ﻿---
 title: add_registered_reference方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -22,7 +22,7 @@ def add_registered_reference(self, name, libid):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | name | str |参考名称。|
 | libid | str |自动化类型库的标识符。|

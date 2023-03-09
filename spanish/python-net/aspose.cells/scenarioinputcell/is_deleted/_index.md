@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted propiedad
 
-Indica si se elimina la celda de entrada.
+Indica si se eliminan las celdas de entrada.
 ###  Definición:
 ```python
 @property

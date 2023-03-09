@@ -15,7 +15,7 @@ Oluşturulan elektronik tablonun dikey bir kaydırma çubuğu içerip içermeyec
 
 Varsayılan değer doğrudur.
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, elektronik tablo için dikey kaydırma çubuğunu görünmez yapar.
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin_inch fastighet
 
-Representerar storleken på bottenmarginalen i tumenhet.
+Representerar storleken på bottenmarginalen, i enheter av tum.
 ###  Definition:
 ```python
 @property

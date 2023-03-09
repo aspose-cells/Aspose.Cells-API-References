@@ -18,7 +18,7 @@ def remove_condition(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Kaldırılacak biçimlendirme koşulunun dizini.|
 

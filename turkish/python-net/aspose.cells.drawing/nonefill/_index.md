@@ -1,5 +1,5 @@
 ﻿---
-title: NoneFill sınıf
+title: NoneFill sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 390
 url: /tr/python-net/aspose.cells.drawing/nonefill/
 is_root: false
 ---
-##  NoneFill sınıf
+##  NoneFill sınıfı
 Dolgu olmadığını temsil eder.
 
 

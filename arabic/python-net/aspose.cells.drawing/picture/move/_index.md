@@ -18,12 +18,12 @@ def move(self, upper_left_row, upper_left_column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

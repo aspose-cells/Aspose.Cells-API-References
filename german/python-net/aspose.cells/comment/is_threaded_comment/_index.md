@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob dieser Kommentar ein Thread-Kommentar ist.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

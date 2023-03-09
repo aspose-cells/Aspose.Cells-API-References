@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection Eigentum
 
-Stellt die verschiedenen Arten von protection-Optionen dar, die für ein Arbeitsblatt verfügbar sind. Unterstützt erweiterte protection-Optionen in ExcelXP und höheren Versionen.
+Stellt die verschiedenen Arten von protection-Optionen dar, die für ein Arbeitsblatt verfügbar sind.
 
 ###  Bemerkungen
 

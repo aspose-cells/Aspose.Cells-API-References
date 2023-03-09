@@ -19,8 +19,8 @@ is_root: false
 | :- | :- |
 | [top_crop](/cells/ru/python-net/aspose.cells.drawing/msoformatpicture/top_crop) | Представляет положение верхней части прямоугольника обрезки, выраженное как отношение высоты изображения.|
 | [bottom_crop](/cells/ru/python-net/aspose.cells.drawing/msoformatpicture/bottom_crop) | Представляет положение нижней части прямоугольника обрезки, выраженное как отношение высоты изображения.|
-| [left_crop](/cells/ru/python-net/aspose.cells.drawing/msoformatpicture/left_crop) |Представляет положение левого края выраженного прямоугольника обрезки, выраженное как отношение ширины изображения.|
-| [right_crop](/cells/ru/python-net/aspose.cells.drawing/msoformatpicture/right_crop) | Представляет расположение справа от выраженного прямоугольника кадрирования, выраженное как отношение ширины изображения.|
+| [left_crop](/cells/ru/python-net/aspose.cells.drawing/msoformatpicture/left_crop) | Представляет положение левого края выраженного прямоугольника обрезки, выраженное как отношение ширины изображения.|
+| [right_crop](/cells/ru/python-net/aspose.cells.drawing/msoformatpicture/right_crop) | Представляет расположение справа от прямоугольника обрезки, выраженное как отношение ширины изображения.|
 | [transparency](/cells/ru/python-net/aspose.cells.drawing/msoformatpicture/transparency) | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная).|
 | [transparent_color](/cells/ru/python-net/aspose.cells.drawing/msoformatpicture/transparent_color) | Получает и задает прозрачный цвет изображения.|
 | [contrast](/cells/ru/python-net/aspose.cells.drawing/msoformatpicture/contrast) | Представляет изменение контрастности изображения в процентах.|

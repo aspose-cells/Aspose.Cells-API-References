@@ -23,7 +23,7 @@ Typen CellsFactory avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [create_style()](/cells/sv/python-net/aspose.cells/cellsfactory/create_style/#) |Skapar en ny stil.|
+| [create_style()](/cells/sv/python-net/aspose.cells/cellsfactory/create_style/#) | Skapar en ny stil.|
 
 
 

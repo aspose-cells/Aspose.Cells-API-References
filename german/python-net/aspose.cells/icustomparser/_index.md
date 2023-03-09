@@ -18,7 +18,7 @@ Der Typ ICustomParser macht die folgenden Member verfügbar:
 | Methode| Beschreibung|
 | :- | :- |
 | [parse_object(value)](/cells/de/python-net/aspose.cells/icustomparser/parse_object/#str) | Analysiert die angegebene Zeichenfolge in das richtige Wertobjekt.|
-| [get_format()](/cells/de/python-net/aspose.cells/icustomparser/get_format/#) | Ruft das Formatierungsmuster ab, das dem analysierten Wert beim letzten Aufruf von [ICustomParser.parse_object(value)](/cells/de/python-net/aspose.cells/icustomparser/parse_object) entspricht.|
+| [get_format()](/cells/de/python-net/aspose.cells/icustomparser/get_format/#) |Ruft das Formatierungsmuster ab, das dem analysierten Wert beim letzten Aufruf von [ICustomParser.parse_object(value)](/cells/de/python-net/aspose.cells/icustomparser/parse_object) entspricht.|
 
 
 

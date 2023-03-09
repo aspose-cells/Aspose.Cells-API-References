@@ -22,12 +22,12 @@ Der Typ ReflectionEffectType macht die folgenden Member verfügbar:
 | TIGHT_REFLECTION_TOUCHING | Enge Reflexion, berührend.|
 | HALF_REFLECTION_TOUCHING | Halbreflexion, berührend.|
 | FULL_REFLECTION_TOUCHING | Volle Reflexion, berührend.|
-| TIGHT_REFLECTION_4_PT_OFFSET | Enge Reflexion, 4 pt Versatz.|
-| HALF_REFLECTION_4_PT_OFFSET | Halbreflexion, 4 pt versetzt.|
-| FULL_REFLECTION_4_PT_OFFSET | Volle Reflexion, 4 pt Offset.|
-| TIGHT_REFLECTION_8_PT_OFFSET | Enge Reflexion, 8 pt Versatz.|
-| HALF_REFLECTION_8_PT_OFFSET | Halbreflexion, 8 pt versetzt.|
-| FULL_REFLECTION_8_PT_OFFSET | Vollständige Reflexion, 8 pt Offset.|
+| TIGHT_REFLECTION_4_PT_OFFSET | Enge Reflexion, 4pt Offset.|
+| HALF_REFLECTION_4_PT_OFFSET | Halbreflexion, 4pt versetzt.|
+| FULL_REFLECTION_4_PT_OFFSET | Volle Reflexion, 4pt Offset.|
+| TIGHT_REFLECTION_8_PT_OFFSET | Enge Reflexion, 8pt Offset.|
+| HALF_REFLECTION_8_PT_OFFSET | Halbreflexion, 8pt Offset.|
+| FULL_REFLECTION_8_PT_OFFSET |Volle Reflexion, 8pt Offset.|
 
 
 

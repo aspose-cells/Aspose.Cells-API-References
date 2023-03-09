@@ -18,12 +18,12 @@ Der Typ HorizontalPageBreak macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [start_column](/cells/de/python-net/aspose.cells/horizontalpagebreak/start_column) | Ruft den Startspaltenindex dieses horizontalen Seitenumbruchs ab.|
-| [end_column](/cells/de/python-net/aspose.cells/horizontalpagebreak/end_column) |Ruft den Endspaltenindex dieses horizontalen Seitenumbruchs ab.|
+| [end_column](/cells/de/python-net/aspose.cells/horizontalpagebreak/end_column) | Ruft den Endspaltenindex dieses horizontalen Seitenumbruchs ab.|
 | [row](/cells/de/python-net/aspose.cells/horizontalpagebreak/row) | Ruft den nullbasierten Zeilenindex ab.|
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

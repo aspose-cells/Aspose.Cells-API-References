@@ -18,13 +18,13 @@ def has_axis(self, aixs_type, is_primary):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | aixs_type | [AxisType](/cells/es/python-net/aspose.cells.charts/axistype) |  |
 | is_primary | bool |  |
 ###  Observaciones
 
-Normalmente, Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded no es un eje.
+Normalmente, Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DonutExploded no es un eje.
 
 
 ###  Ver también

@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | style | [Style](/cells/es/python-net/aspose.cells/style) | El objeto Estilo.|
 

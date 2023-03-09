@@ -22,7 +22,7 @@ def index_of(self, name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Nom non sensible à la casse de la propriété.|
 
@@ -42,9 +42,9 @@ def index_of(self, item, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| item | [DocumentProperty](/cells/fr/python-net/aspose.cells.properties/documentproperty) | L'objet à localiser dans la liste de tableaux. La valeur peut être nulle.|
+| item | [DocumentProperty](/cells/fr/python-net/aspose.cells.properties/documentproperty) | L'objet à localiser dans la liste de tableaux.|
 | index | int | Index de départ de base zéro de la recherche. 0 (zéro) est valide dans une liste vide.|
 
 
@@ -54,7 +54,7 @@ Recherche l'objet spécifié et renvoie l'index de base zéro de la première oc
 
 ###  Retour
 
-Index de base zéro de la première occurrence de value dans la plage d'éléments de la liste de tableaux qui commence à startIndex et contient le nombre d'éléments, s'il est trouvé ; sinon, -1.
+Index de base zéro de la première occurrence de value dans la plage d'éléments de la liste de tableaux qui commence à startIndex et contient le nombre d'éléments, s'il est trouvé ; sinon, -1.
 
 
 ```python
@@ -63,9 +63,9 @@ def index_of(self, item, index, count):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| item | [DocumentProperty](/cells/fr/python-net/aspose.cells.properties/documentproperty) | L'objet à localiser dans la liste de tableaux. La valeur peut être nulle.|
+| item | [DocumentProperty](/cells/fr/python-net/aspose.cells.properties/documentproperty) | L'objet à localiser dans la liste de tableaux.|
 | index | int | Index de départ de base zéro de la recherche. 0 (zéro) est valide dans une liste vide.|
 | count | int | Le nombre d'éléments dans la section à rechercher.|
 

@@ -38,7 +38,7 @@ def insert_range(self, area, shift_number, shift_type):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | area | [CellArea](/cells/de/python-net/aspose.cells/cellarea) | Schichtbereich.|
-| shift_number | int |Anzahl der einzufügenden Zeilen oder Spalten.|
+| shift_number | int | Anzahl der einzufügenden Zeilen oder Spalten.|
 | shift_type | [ShiftType](/cells/de/python-net/aspose.cells/shifttype) | Option Zellen verschieben.|
 
 
@@ -56,7 +56,7 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | area | [CellArea](/cells/de/python-net/aspose.cells/cellarea) | Schichtbereich.|
-| shift_number | int |Anzahl der einzufügenden Zeilen oder Spalten.|
+| shift_number | int | Anzahl der einzufügenden Zeilen oder Spalten.|
 | shift_type | [ShiftType](/cells/de/python-net/aspose.cells/shifttype) | Option Zellen verschieben.|
 | update_reference | bool | Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
 

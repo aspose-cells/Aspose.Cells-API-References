@@ -13,7 +13,7 @@ Bir stilin ön plan rengini alır veya ayarlar.
 
 ###  Notlar
 
-Color.Empty döndürülürse, renk ayarı olmadığı anlamına gelir.
+Color.Boş döndürülürse, renk ayarı olmadığı anlamına gelir.
 ###  Tanım:
 ```python
 @property

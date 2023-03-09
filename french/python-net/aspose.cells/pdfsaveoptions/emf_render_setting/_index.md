@@ -13,7 +13,7 @@ Paramètre pour le rendu du métafichier Emf.
 
 ###  Remarques
 
-Les métafichiers EMF identifiés comme "EMF+ Dual" peuvent contenir à la fois des enregistrements EMF+ et des enregistrements EMF.
+ Les métafichiers EMF identifiés comme "EMF+ Dual" peuvent contenir à la fois des enregistrements EMF+ et des enregistrements EMF.
 L'un ou l'autre type d'enregistrement peut être utilisé pour rendre l'image, uniquement les enregistrements EMF+ ou uniquement les enregistrements EMF.
 Lorsque [EmfRenderSetting.EMF_PLUS_PREFER](/cells/fr/python-net/aspose.cells/emfrendersetting#EMF_PLUS_PREFER) est défini, les enregistrements EMF+ seront analysés lors du rendu en pdf, sinon seuls les enregistrements EMF seront analysés.
 La valeur par défaut est [EmfRenderSetting.EMF_ONLY](/cells/fr/python-net/aspose.cells/emfrendersetting#EMF_ONLY).

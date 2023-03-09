@@ -1,13 +1,13 @@
 ﻿---
 title: VbaModuleType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
 url: /zh/python-net/aspose.cells.vba/vbamoduletype/
 is_root: false
 ---
-##  VbaModuleType枚举
+## VbaModuleType枚举
 表示 VBA 模块的类型。
 
 

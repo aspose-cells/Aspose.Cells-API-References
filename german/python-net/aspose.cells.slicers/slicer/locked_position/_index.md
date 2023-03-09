@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob der angegebene Slicer mithilfe der Benutzeroberfläche verschoben oder in der Größe geändert werden kann.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

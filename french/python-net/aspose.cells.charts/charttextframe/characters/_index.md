@@ -13,7 +13,7 @@ Renvoie un objet Characters qui représente une plage de characters dans le text
 
 ###  Retour
 
-Objet personnages.
+Objets de caractère.
 
 
 ```python
@@ -22,7 +22,7 @@ def characters(self, start_index, length):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | start_index | int | L'index du début du caractère.|
 | length | int | Le nombre de caractères.|

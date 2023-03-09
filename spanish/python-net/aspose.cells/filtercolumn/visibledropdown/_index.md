@@ -14,8 +14,8 @@ Indica si el botón Autofiltro para esta columna está visible.
 ###  Observaciones
 
  NOTA: Este miembro ahora está obsoleto.
- En su lugar, utilice FilterColumn.IsDropdownVisible para verificar si el botón Autofiltro para esta columna está visible.
-Esta propiedad se eliminará 12 meses después desde septiembre de 2020.
+En su lugar, utilice FilterColumn.IsDropdownVisible para verificar si el botón Autofiltro para esta columna está visible.
+ Esta propiedad se eliminará 12 meses después desde septiembre de 2020.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:
 ```python

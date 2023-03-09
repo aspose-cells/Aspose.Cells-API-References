@@ -13,7 +13,7 @@ Vérifie si une couleur se trouve dans la palette de la feuille de calcul.
 
 ###  Retour
 
-Renvoie true si cette couleur est dans la palette. Sinon, renvoie faux
+Renvoie true si cette couleur est dans la palette.
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Structure de couleur.|
 

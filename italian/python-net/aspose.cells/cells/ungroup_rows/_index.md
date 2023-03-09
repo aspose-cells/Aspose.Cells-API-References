@@ -18,7 +18,7 @@ def ungroup_rows(self, first_index, last_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | first_index | int | L'indice della prima riga da separare.|
 | last_index | int | L'ultimo indice di riga da separare.|
@@ -38,7 +38,7 @@ def ungroup_rows(self, first_index, last_index, is_all):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | first_index | int | L'indice della prima riga da separare.|
 | last_index | int | L'ultimo indice di riga da separare.|

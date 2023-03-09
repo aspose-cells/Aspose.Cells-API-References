@@ -18,10 +18,10 @@ def group_rows(self, first_index, last_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_index | int | Det första radindexet som ska grupperas.|
-| last_index | int | Det sista radindexet som ska grupperas.|
+| last_index | int |Det sista radindexet som ska grupperas.|
 
 
 ##  group_rows(first_index, last_index, is_hidden) {#int-int-bool}
@@ -35,10 +35,10 @@ def group_rows(self, first_index, last_index, is_hidden):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_index | int | Det första radindexet som ska grupperas.|
-| last_index | int | Det sista radindexet som ska grupperas.|
+| last_index | int |Det sista radindexet som ska grupperas.|
 | is_hidden | bool | Anger om de grupperade raderna är dolda.|
 
 

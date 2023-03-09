@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/txtloadoptions/__init__/
 is_root: false
 ---
 ##  TxtLoadOptions() {#}
-Metin dosyası yükleme seçeneklerini oluşturur.
+Metin dosyalarını yüklemek için seçenekler oluşturur.
 
 
 
@@ -24,7 +24,7 @@ Varsayılan yükleme dosyası türü CSV'dir.
 
 ##  TxtLoadOptions(load_format) {#LoadFormat}
 
-Metin dosyası yükleme seçeneklerini oluşturur.
+Metin dosyalarını yüklemek için seçenekler oluşturur.
 
 
 
@@ -34,7 +34,7 @@ def __init__(self, load_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/tr/python-net/aspose.cells/loadformat) | yükleme formatı|
 

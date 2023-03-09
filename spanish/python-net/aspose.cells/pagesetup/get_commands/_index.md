@@ -22,7 +22,7 @@ def get_commands(self, header_footer_script):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | header_footer_script | str | El script de encabezado/pie de página|
 

@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache_items Eigentum
 
-Gibt eine SlicerCacheItem-Auflistung zurück, die die Auflistung aller Elemente im Slicer-Cache enthält. Schreibgeschützt
+Gibt eine SlicerCacheItem-Auflistung zurück, die die Auflistung aller Elemente im Slicer-Cache enthält.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

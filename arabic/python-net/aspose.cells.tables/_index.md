@@ -19,15 +19,15 @@ is_root: false
 | [TableStyle](/cells/ar/python-net/aspose.cells.tables/tablestyle) | يمثل نمط الجدول.|
 | [TableStyleCollection](/cells/ar/python-net/aspose.cells.tables/tablestylecollection) | يمثل جميع أنماط الجدول المخصصة.|
 | [TableStyleElement](/cells/ar/python-net/aspose.cells.tables/tablestyleelement) | يمثل عنصر نمط الجدول.|
-| [TableStyleElementCollection](/cells/ar/python-net/aspose.cells.tables/tablestyleelementcollection) | يمثل جميع عناصر نمط الجدول.|
+| [TableStyleElementCollection](/cells/ar/python-net/aspose.cells.tables/tablestyleelementcollection) |يمثل جميع عناصر نمط الجدول.|
 | [TableToRangeOptions](/cells/ar/python-net/aspose.cells.tables/tabletorangeoptions) | يمثل الخيارات عند تحويل الجدول إلى نطاق.|
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
 | [TableDataSourceType](/cells/ar/python-net/aspose.cells.tables/tabledatasourcetype) | يمثل نوع مصدر بيانات الجدول.|
-| [TableStyleElementType](/cells/ar/python-net/aspose.cells.tables/tablestyleelementtype) |يمثل نوع عنصر نمط جدول أو PivotTable.|
+| [TableStyleElementType](/cells/ar/python-net/aspose.cells.tables/tablestyleelementtype) | يمثل نوع عنصر نمط جدول أو PivotTable.|
 | [TableStyleType](/cells/ar/python-net/aspose.cells.tables/tablestyletype) | يمثل نوع نمط الجدول المضمن.|
 | [TotalsCalculation](/cells/ar/python-net/aspose.cells.tables/totalscalculation) | يحدد نوع الحساب في صف الإجماليات لعمود القائمة.|
 

@@ -22,10 +22,10 @@ def to_image(self, cell, img_opts):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Hangi hücrede oluşturulacağını veri çubuğunu belirtin|
-| img_opts | aspose.cells.rendering.ImageOrPrintOptions |ImageOrPrintOptions çıktı görüntüsünün bazı özelliklerini içerir|
+| img_opts | aspose.cells.rendering.ImageOrPrintOptions | ImageOrPrintOptions çıktı görüntüsünün bazı özelliklerini içerir|
 
 
 

@@ -1,13 +1,13 @@
 ﻿---
 title: PdfSaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1180
 url: /zh/python-net/aspose.cells/pdfsaveoptions/
 is_root: false
 ---
-##  PdfSaveOptions类
+## PdfSaveOptions类
 代表保存pdf文件的选项。
 
 
@@ -43,7 +43,7 @@ PdfSaveOptions 类型公开了以下成员：
 | [default_font](/cells/zh/python-net/aspose.cells/pdfsaveoptions/default_font) |当Excel中的字符是Unicode且未在单元格样式中设置正确的字体时，<br/>它们可能在 pdf、图像中显示为块。<br/>设置 DefaultFont，例如 MingLiu 或 MS Gothic 以显示这些字符。<br/>如果不设置该属性，Aspose.Cells 将使用系统默认字体来显示这些 unicode 字符。|
 | [check_workbook_default_font](/cells/zh/python-net/aspose.cells/pdfsaveoptions/check_workbook_default_font) |当Excel中的字符是Unicode且未在单元格样式中设置正确的字体时，<br/>它们可能在 pdf、图像中显示为块。<br/>将此设置为 true 以尝试使用工作簿的默认字体首先显示这些字符。|
 | [check_font_compatibility](/cells/zh/python-net/aspose.cells/pdfsaveoptions/check_font_compatibility) |指示是否检查文本中每个字符的字体兼容性。|
-| [is_font_substitution_char_granularity](/cells/zh/python-net/aspose.cells/pdfsaveoptions/is_font_substitution_char_granularity) |指示当单元格字体不兼容时是否仅替换字符的字体。|
+| [is_font_substitution_char_granularity](/cells/zh/python-net/aspose.cells/pdfsaveoptions/is_font_substitution_char_granularity) |指示是否仅在单元格字体不兼容时替换字符的字体。|
 | [one_page_per_sheet](/cells/zh/python-net/aspose.cells/pdfsaveoptions/one_page_per_sheet) |如果 OnePagePerSheet 为 true ，结果中一张纸的所有内容将只输出一页。<br/> pagesetup的纸张大小会失效，pagesetup的其他设置<br/>仍然会生效。|
 | [all_columns_in_one_page_per_sheet](/cells/zh/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet) |如果 AllColumnsInOnePagePerSheet 为 true ，则一张工作表的所有列内容将仅输出到一页结果。<br/> pagesetup 的纸张大小的宽度将被忽略，pagesetup 的其他设置<br/>仍然会生效。|
 | [ignore_error](/cells/zh/python-net/aspose.cells/pdfsaveoptions/ignore_error) |指示是否需要在渲染时隐藏错误。<br/>错误可能是形状、图像、图表渲染等方面的错误。|
@@ -67,7 +67,7 @@ PdfSaveOptions 类型公开了以下成员：
 | [created_time](/cells/zh/python-net/aspose.cells/pdfsaveoptions/created_time) |获取和设置生成pdf文档的时间。|
 | [producer](/cells/zh/python-net/aspose.cells/pdfsaveoptions/producer) |获取和设置生成的 pdf 文档的制作者。|
 | [optimization_type](/cells/zh/python-net/aspose.cells/pdfsaveoptions/optimization_type) |获取和设置 pdf 优化类型。|
-| [custom_properties_export](/cells/zh/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) |获取或设置一个值，该值确定将 [CustomDocumentPropertyCollection](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection) 导出到 PDF 文件的方式。默认值为无。|
+| [custom_properties_export](/cells/zh/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) |获取或设置一个值，确定 [CustomDocumentPropertyCollection](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection) 导出到 PDF 文件的方式。默认值为 None。|
 | [export_document_structure](/cells/zh/python-net/aspose.cells/pdfsaveoptions/export_document_structure) |指示是否导出文档结构。|
 | [emf_render_setting](/cells/zh/python-net/aspose.cells/pdfsaveoptions/emf_render_setting) |渲染 Emf 图元文件的设置。|
 | [display_doc_title](/cells/zh/python-net/aspose.cells/pdfsaveoptions/display_doc_title) |指示窗口的标题栏是否应显示文档标题。|

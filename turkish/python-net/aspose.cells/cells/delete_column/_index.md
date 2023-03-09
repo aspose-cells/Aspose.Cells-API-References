@@ -18,7 +18,7 @@ def delete_column(self, column_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | Sütun dizini.|
 
@@ -34,7 +34,7 @@ def delete_column(self, column_index, update_reference):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | Sütun dizini.|
 | update_reference | bool | Diğer çalışma sayfalarındaki güncelleme başvurularının olup olmadığını gösterir.|

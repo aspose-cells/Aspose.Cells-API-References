@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/xpssaveoptions/__init__/
 is_root: false
 ---
 ##  XpsSaveOptions() {#}
-Skapar alternativ för att spara xps-fil.
+Skapar alternativ för att spara xps-filer.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  XpsSaveOptions(save_format) {#SaveFormat}
-Skapar alternativ för att spara xps-fil.
+Skapar alternativ för att spara xps-filer.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Spara formatet, det måste vara xps format.|
 ###  Anmärkningar

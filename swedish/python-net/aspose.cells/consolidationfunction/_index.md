@@ -22,7 +22,7 @@ Typen ConsolidationFunction avslöjar följande medlemmar:
 | AVERAGE | Representerar genomsnittlig funktion.|
 | MAX | Representerar Max funktion.|
 | MIN | Representerar Min funktion.|
-| PRODUCT | Representerar produktfunktion.|
+| PRODUCT | Representerar produktfunktioner.|
 | COUNT_NUMS | Representerar funktionen Räkna siffror.|
 | STD_DEV | Representerar StdDev-funktionen.|
 | STD_DEVP | Representerar StdDevp-funktionen.|

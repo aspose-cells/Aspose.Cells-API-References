@@ -1,6 +1,6 @@
 ﻿---
 title: add_text_box_in_chart方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 320
@@ -22,7 +22,7 @@ def add_text_box_in_chart(self, top, left, height, width):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | top | int |表示文本框距左上角的垂直偏移量，单位为图表区域的 1/4000。|
 | left | int |表示文本框距左上角的垂直偏移量，单位为图表区域的 1/4000。|

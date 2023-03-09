@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Liste der Thread-Kommentare ab;
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

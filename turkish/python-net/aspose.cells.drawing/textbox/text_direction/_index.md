@@ -11,7 +11,7 @@ is_root: false
 
 Bu nesne için metin akışının yönünü alır/ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import TextDirectionType

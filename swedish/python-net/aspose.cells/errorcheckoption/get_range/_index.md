@@ -22,9 +22,9 @@ def get_range(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| index | int | index för intervall|
+| index | int | intervallets index|
 
 
 

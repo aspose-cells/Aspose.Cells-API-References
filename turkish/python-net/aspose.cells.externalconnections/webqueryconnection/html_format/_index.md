@@ -10,7 +10,7 @@ is_root: false
 ##  html_format mülk
 
 Web sorgu verilerini HTML kaynağından biçimlendirme nasıl yapılır?
-çalışma kağıdı. sourceData True olduğunda geçerlidir.
+worksheet.Relevant, sourceData True olduğunda.
 ###  Tanım:
 ```python
 @property

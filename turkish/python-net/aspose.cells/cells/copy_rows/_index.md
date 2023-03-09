@@ -18,12 +18,12 @@ def copy_rows(self, source_cells, source_row_index, destination_row_index, row_n
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_row_index | int | Kaynak satır dizini.|
 | destination_row_index | int | Hedef satır dizini.|
-| row_number | int | Kopyalanan satır numarası.|
+| row_number | int | Kopyalanan satır numaraları.|
 
 
 ##  copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options) {#Cells-int-int-int-CopyOptions}
@@ -37,12 +37,12 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_row_index | int | Kaynak satır dizini.|
 | destination_row_index | int | Hedef satır dizini.|
-| row_number | int | Kopyalanan satır numarası.|
+| row_number | int | Kopyalanan satır numaraları.|
 | copy_options | [CopyOptions](/cells/tr/python-net/aspose.cells/copyoptions) | Kopyalama seçenekleri.|
 
 
@@ -57,12 +57,12 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_row_index | int | Kaynak satır dizini.|
 | destination_row_index | int | Hedef satır dizini.|
-| row_number | int | Kopyalanan satır numarası.|
+| row_number | int | Kopyalanan satır numaraları.|
 | copy_options | [CopyOptions](/cells/tr/python-net/aspose.cells/copyoptions) | Kopyalama seçenekleri.|
 | paste_options | [PasteOptions](/cells/tr/python-net/aspose.cells/pasteoptions) | yapıştırma seçenekleri.|
 

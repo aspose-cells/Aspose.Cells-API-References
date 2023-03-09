@@ -1,13 +1,13 @@
 ﻿---
 title: RevisionType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
 url: /zh/python-net/aspose.cells.revisions/revisiontype/
 is_root: false
 ---
-##  RevisionType枚举
+## RevisionType枚举
 表示修订类型。
 
 

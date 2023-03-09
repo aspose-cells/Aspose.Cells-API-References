@@ -18,7 +18,7 @@ def format(self, start_index, length, font, flag):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | start_index | int | El índice de inicio.|
 | length | int | La longitud.|

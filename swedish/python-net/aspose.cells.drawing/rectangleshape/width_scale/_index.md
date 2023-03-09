@@ -10,7 +10,7 @@ is_root: false
 ##  width_scale fastighet
 
 Hämtar och ställer in breddskalan, i procentenhet av den ursprungliga bildens bredd.
-Om formen inte är bild, returnerar egenskapen WidthScale endast 100;
+Om formen inte är bild returnerar egenskapen WidthScale endast 100;
 
 ###  Exempel
 

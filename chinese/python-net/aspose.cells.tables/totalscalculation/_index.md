@@ -1,13 +1,13 @@
 ﻿---
 title: TotalsCalculation枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 130
 url: /zh/python-net/aspose.cells.tables/totalscalculation/
 is_root: false
 ---
-##  TotalsCalculation枚举
+## TotalsCalculation枚举
 确定列表列的总计行中的计算类型。
 
 

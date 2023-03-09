@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 propriété
 
 Renvoie un objet CellArea qui représente la plage contenant l'intégralité du rapport de tableau croisé dynamique,
-inclut des champs de page. Lecture seulement.
+inclut des champs de page.
 ###  Définition:
 ```python
 @property

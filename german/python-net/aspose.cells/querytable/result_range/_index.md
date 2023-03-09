@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range Eigentum
 
-Ruft den Bereich des Ergebnisses ab.
+Ruft den Bereich der Ergebnisse ab.
 ###  Definition:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Récupère un objet Shape qui représente la forme attachée au commentaire spécifié.
 
-###  Exemple
+###  Exemples
 
 ```python
 

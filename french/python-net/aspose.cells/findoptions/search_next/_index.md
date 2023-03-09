@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  search_next propriété
 
-Ordre de recherche. Vrai : rechercher ensuite. Faux : recherche précédente.
+Ordre de recherche. Vrai : rechercher suivant. Faux : rechercher précédent.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
  veuillez utiliser la propriété FindOptions.SearchBackward.
  Cette propriété sera supprimée 12 mois plus tard depuis novembre 2018.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

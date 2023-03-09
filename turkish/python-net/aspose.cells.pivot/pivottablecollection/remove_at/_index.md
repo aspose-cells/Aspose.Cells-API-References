@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | PivotTable koleksiyonundaki konum dizini|
 | keep_data | bool | PivotTable verilerinin saklanıp saklanmayacağı|

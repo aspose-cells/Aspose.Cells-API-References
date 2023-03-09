@@ -10,7 +10,7 @@ is_root: false
 ##  refer_to_sheet_with_same_name fastighet
 
 När du kopierar ett kalkylblad till en annan arbetsbok och kalkylbladet innehåller formlerna som hänvisar till andra kalkylblad i MS Excel,
- de kopierade formlerna bör referera till källarbetsboken.
+de kopierade formlerna bör referera till källarbetsboken.
 Men ibland har vi kopierat andra kalkylblad och vi hoppas att de kopierade formlerna refererar till andra kalkylblad med namnet i samma arbetsbok,
 vänligen ange denna egenskap som sann.
 

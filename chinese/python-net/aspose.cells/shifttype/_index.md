@@ -1,13 +1,13 @@
 ﻿---
 title: ShiftType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2470
 url: /zh/python-net/aspose.cells/shifttype/
 is_root: false
 ---
-##  ShiftType枚举
+## ShiftType枚举
 表示删除一系列单元格时的移位选项。
 
 

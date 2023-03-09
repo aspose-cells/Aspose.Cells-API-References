@@ -24,11 +24,11 @@ def add(self, pivot, dest_cell_name, base_field_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | dest_cell_name | str | Die Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | base_field_name | str | Der Name von PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -54,11 +54,11 @@ def add(self, pivot, dest_cell_name, base_field_index):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | dest_cell_name | str | Die Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | base_field_index | int | Der Index von PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -84,11 +84,11 @@ def add(self, pivot, dest_cell_name, base_field):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | dest_cell_name | str | Die Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | base_field | aspose.cells.pivot.PivotField | Das PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -118,7 +118,7 @@ def add(self, table, index, dest_cell_name):
 | index | int | Der Index von ListColumn in ListObject.ListColumns|
 | dest_cell_name | str | Die Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -148,7 +148,7 @@ def add(self, table, list_column, dest_cell_name):
 | list_column | aspose.cells.tables.ListColumn | Die ListColumn in ListObject.ListColumns|
 | dest_cell_name | str | Die Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -174,12 +174,12 @@ def add(self, pivot, row, column, base_field_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | row | int | Zeilenindex der Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | base_field_name | str | Der Name von PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -205,12 +205,12 @@ def add(self, pivot, row, column, base_field_index):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | row | int | Zeilenindex der Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | base_field_index | int | Der Index von PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -236,12 +236,12 @@ def add(self, pivot, row, column, base_field):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | row | int | Zeilenindex der Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | base_field | aspose.cells.pivot.PivotField | Das PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -272,7 +272,7 @@ def add(self, table, list_column, row, column):
 | row | int | Zeilenindex der Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Slicer-Bereichs.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

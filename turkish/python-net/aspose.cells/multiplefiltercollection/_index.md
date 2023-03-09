@@ -1,5 +1,5 @@
 ﻿---
-title: MultipleFilterCollection sınıf
+title: MultipleFilterCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1060
 url: /tr/python-net/aspose.cells/multiplefiltercollection/
 is_root: false
 ---
-##  MultipleFilterCollection sınıf
+##  MultipleFilterCollection sınıfı
 Çoklu filtre koleksiyonunu temsil eder.
 
 

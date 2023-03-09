@@ -22,11 +22,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
-| height | int |Hauteur de oleObject, en unité de pixel.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
+| height | int | Hauteur de oleObject, en unité de pixel.|
 | width | int | Largeur de oleObject, en unité de pixel.|
 | image_data | bytes | Image de l'objet ole sous forme de tableau d'octets.|
 
@@ -46,11 +46,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
-| height | int |Hauteur de oleObject, en unité de pixel.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
+| height | int | Hauteur de oleObject, en unité de pixel.|
 | width | int | Largeur de oleObject, en unité de pixel.|
 | image_data | bytes | Image de l'objet ole sous forme de tableau d'octets.|
 | linked_file | str |  |

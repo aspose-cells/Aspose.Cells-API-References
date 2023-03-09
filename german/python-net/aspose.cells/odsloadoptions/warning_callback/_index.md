@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback Eigentum
 
-Ruft einen Warnungsrückruf ab oder legt ihn fest.
+Ruft Warnungsrückrufe ab oder legt sie fest.
 ###  Definition:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting mülk
 
-Bu hücreler için bellek kullanım seçeneğini alır veya ayarlar.
+Bu hücre için bellek kullanım seçeneğini alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

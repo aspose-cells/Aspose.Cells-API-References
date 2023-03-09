@@ -18,7 +18,7 @@ def remove_areas(self, areas):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | areas | list | le aree in cui queste impostazioni di convalida devono essere rimosse.|
 

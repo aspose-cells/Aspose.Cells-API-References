@@ -11,7 +11,7 @@ is_root: false
 
 Indica se l'oggetto slicer è stampabile.
 
-###  Esempio
+###  Esempi
 
 ```python
 

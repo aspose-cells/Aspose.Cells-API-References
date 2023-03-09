@@ -18,7 +18,7 @@ def delete_column(self, column_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | Índice de columnas.|
 
@@ -34,7 +34,7 @@ def delete_column(self, column_index, update_reference):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | Índice de columnas.|
 | update_reference | bool | Indica si actualizar referencias en otras hojas de cálculo.|

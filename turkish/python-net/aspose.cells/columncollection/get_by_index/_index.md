@@ -22,12 +22,12 @@ def get_by_index(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int |  |
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+NOT: Bu üye artık kullanılmıyor.
 lütfen Columns.GetColumnByIndex() yöntemini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

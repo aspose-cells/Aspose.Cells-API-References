@@ -1,6 +1,6 @@
 ﻿---
 title: ignore_array_title 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## ignore_array_title 属性
 
-指示如果数组是对象的属性是否忽略标题。
+指示如果数组是对象的属性，是否忽略标题。
 
 ### 评论
 

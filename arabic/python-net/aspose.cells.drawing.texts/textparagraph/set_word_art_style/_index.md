@@ -18,7 +18,7 @@ def set_word_art_style(self, style):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | style | [PresetWordArtStyle](/cells/ar/python-net/aspose.cells.drawing/presetwordartstyle) | نمط WordArt المعين مسبقًا.|
 ###  ملاحظات

@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | تنسيق حفظ الملف النصي.|
 

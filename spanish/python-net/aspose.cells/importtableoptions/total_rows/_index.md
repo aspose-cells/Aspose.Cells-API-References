@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_rows propiedad
 
-Obtiene o establece el recuento total de filas para importar desde el origen de datos. -1 significa todas las filas de la fuente de datos dada.
+-1 significa todas las filas de la fuente de datos dada.
 ###  Definición:
 ```python
 @property

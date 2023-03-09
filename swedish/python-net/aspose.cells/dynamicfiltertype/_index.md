@@ -18,7 +18,7 @@ Typen DynamicFilterType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | ABOVE_AVERAGE | Visar värden som är över genomsnittet.|
-| BELOW_AVERAGE | Visar värden som ligger under genomsnittet.|
+| BELOW_AVERAGE | Visar värden som är under genomsnittet.|
 | LAST_MONTH | Visar förra månadens datum.|
 | LAST_QUARTER | Visar senaste kvartalets datum.|
 | LAST_WEEK | Visar förra veckans datum.|
@@ -26,8 +26,8 @@ Typen DynamicFilterType avslöjar följande medlemmar:
 | JANUARY | Visar datumen som är i januari, oavsett år.|
 | OCTOBER | Visar datumen som är i oktober, oavsett år.|
 | NOVEMBER | Visar datumen som är i november, oavsett år.|
-| DECEMBER | Visar datumen som är i december, oavsett år.|
-| FEBRUARY |Visar datumen som är i februari, oavsett år.|
+| DECEMBER |Visar datumen som är i december, oavsett år.|
+| FEBRUARY | Visar datumen som är i februari, oavsett år.|
 | MARCH | Visar datumen som är i mars, oavsett år.|
 | APRIL | Visar datumen som är i april, oavsett år.|
 | MAY | Visar datumen som är i maj, oavsett år.|
@@ -42,8 +42,8 @@ Typen DynamicFilterType avslöjar följande medlemmar:
 | NONE | Ingen.|
 | QUARTER1 | Visar datumen som är i 1:a kvartalet, oavsett år.|
 | QUARTER2 | Visar datumen som är i 2:a kvartalet, oavsett år.|
-| QUARTER3 |Visar datumen som är i 3:e kvartalet, oavsett år.|
-| QUARTER4 | Visar datumen som är i fjärde kvartalet, oavsett år.|
+| QUARTER3 | Visar datumen som är i 3:e kvartalet, oavsett år.|
+| QUARTER4 |Visar datumen som är i fjärde kvartalet, oavsett år.|
 | THIS_MONTH | Visar månadens datum.|
 | THIS_QUARTER | Visar detta kvartals datum.|
 | THIS_WEEK | Visar veckans datum.|

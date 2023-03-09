@@ -11,7 +11,7 @@ is_root: false
 
 Yorumların iliştirilip eklenemeyeceğini belirtir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -18,7 +18,7 @@ def after_calculate(self, sheet_index, row_index, col_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet_index | int | Hücrenin ait olduğu sayfanın dizini.|
 | row_index | int | Hücrenin satır dizini|

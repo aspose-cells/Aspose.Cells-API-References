@@ -18,9 +18,9 @@ def get_even_header(self, section):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| section | int |0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
+| section | int | 0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
 
 
 

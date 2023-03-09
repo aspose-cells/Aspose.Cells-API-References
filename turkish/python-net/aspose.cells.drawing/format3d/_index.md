@@ -1,5 +1,5 @@
 ﻿---
-title: Format3D sınıf
+title: Format3D sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 190
 url: /tr/python-net/aspose.cells.drawing/format3d/
 is_root: false
 ---
-##  Format3D sınıf
+##  Format3D sınıfı
 Bu sınıf, bir grafik öğesi veya şekli için 3B şekil özelliklerini belirtir.
 
 
@@ -18,8 +18,8 @@ Format3D türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [top_bevel](/cells/tr/python-net/aspose.cells.drawing/format3d/top_bevel) | Bir şeklin üst veya ön yüzünde bir eğim tanımlamayla ilişkili özellikleri tutan [Bevel](/cells/tr/python-net/aspose.cells.drawing/bevel) nesnesini alır.|
-| [surface_material_type](/cells/tr/python-net/aspose.cells.drawing/format3d/surface_material_type) | Bir şeklin son görünümünü ve hissini vermek için aydınlatma özellikleriyle birleştirilen malzeme türünü alır ve ayarlar.<br/> Varsayılan değer PresetMaterialType.WarmMatte'dir.|
-| [surface_lighting_type](/cells/tr/python-net/aspose.cells.drawing/format3d/surface_lighting_type) |Şeklin sahnesine uygulanacak aydınlatma tipini alır ve ayarlar.<br/> Varsayılan değer LightRigType.ThreePoint'tir.|
+| [surface_material_type](/cells/tr/python-net/aspose.cells.drawing/format3d/surface_material_type) |Bir şeklin son görünümünü ve hissini vermek için aydınlatma özellikleriyle birleştirilen malzeme türünü alır ve ayarlar.<br/> Varsayılan değer PresetMaterialType.WarmMatte'dir.|
+| [surface_lighting_type](/cells/tr/python-net/aspose.cells.drawing/format3d/surface_lighting_type) | Şeklin sahnesine uygulanacak aydınlatma tipini alır ve ayarlar.<br/> Varsayılan değer LightRigType.ThreePoint'tir.|
 | [lighting_angle](/cells/tr/python-net/aspose.cells.drawing/format3d/lighting_angle) | Aydınlatma açısını alır ve ayarlar. 0 ile 359,9 derece arasında değişir.|
 
 

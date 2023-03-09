@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_prefix propiedad
 
-Indica si el valor de la celda comienza con comillas simples.
+Indica si el valor de la celda comienza con una comilla simple.
 ###  Definición:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Özel bir geometrik şeklin paths'ini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

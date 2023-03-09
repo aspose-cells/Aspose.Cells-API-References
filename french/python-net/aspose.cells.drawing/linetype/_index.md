@@ -18,7 +18,7 @@ Le type LineType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | DARK_GRAY | Représente une ligne gris foncé.|
-| DASH |Représente une ligne pointillée.|
+| DASH | Représente une ligne pointillée.|
 | DASH_DOT | Représente une ligne tiret-point|
 | DASH_DOT_DOT | Représente une ligne tiret-point-point.|
 | DOT | Représente une ligne pointillée.|

@@ -18,10 +18,10 @@ def set_row_height_inch(self, row, inches):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga.|
-| inches | float | Numero di pollici. Dovrebbe essere compreso tra 0 e 409,5/72.|
+| inches | float | Numero di pollici. Deve essere compreso tra 0 e 409,5/72.|
 
 
 

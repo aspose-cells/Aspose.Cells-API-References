@@ -18,9 +18,9 @@ def hide_detail(self, is_hidden_detail):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| is_hidden_detail | bool | se il PivotItems è nascosto|
+| is_hidden_detail | bool | se i PivotItems sono nascosti|
 
 
 

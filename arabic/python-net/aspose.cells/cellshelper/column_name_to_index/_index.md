@@ -22,7 +22,7 @@ def column_name_to_index(self, column_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column_name | str | اسم العمود.|
 

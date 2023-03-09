@@ -1,13 +1,13 @@
 ﻿---
 title: CellsFactory类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 220
 url: /zh/python-net/aspose.cells/cellsfactory/
 is_root: false
 ---
-##  CellsFactory类
+## CellsFactory类
 用于实例化 Cells 模型类的实用程序。
 
 

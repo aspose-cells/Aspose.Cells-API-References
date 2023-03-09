@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | position | float | Stoppets position, i procentenhet.|
 | color | [CellsColor](/cells/sv/python-net/aspose.cells/cellscolor) | Färgen på stoppet.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | position | float | Stoppets position, i procentenhet.|
 | color | aspose.pydrawing.Color | Färgen på stoppet.|

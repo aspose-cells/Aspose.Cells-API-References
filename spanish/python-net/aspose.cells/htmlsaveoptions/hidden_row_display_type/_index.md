@@ -11,7 +11,7 @@ is_root: false
 
 Fila oculta (la altura de esta fila es 0) en Excel, antes de guardar esto en formato html,
 si HtmlHiddenRowDisplayType es "Eliminar", la fila oculta no se generará,
-si el valor es "Oculto", la fila se mostraría, pero estaba oculta, el valor predeterminado es "Oculto"
+si el valor es "Oculto", la fila se habría emitido, pero estaba oculta, el valor predeterminado es "Oculto"
 ###  Definición:
 ```python
 @property

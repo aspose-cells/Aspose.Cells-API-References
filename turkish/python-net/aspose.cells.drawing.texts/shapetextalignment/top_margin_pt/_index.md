@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_margin_pt mülk
 
-Puan birimi cinsinden üst marjı verir
+Üst marjı Puan birimi cinsinden verir
 
-###  Örnek
+###  örnekler
 
 ```python
 

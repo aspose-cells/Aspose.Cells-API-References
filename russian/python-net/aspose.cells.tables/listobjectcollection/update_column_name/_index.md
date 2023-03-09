@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.tables/listobjectcollection/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-Обновите все имена столбцов таблиц.
+Обновите имена всех столбцов таблиц.
 
 
 

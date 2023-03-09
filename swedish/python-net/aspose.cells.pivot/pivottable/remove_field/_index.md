@@ -18,10 +18,10 @@ def remove_field(self, field_type, field_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/sv/python-net/aspose.cells.pivot/pivotfieldtype) | Fältets områdestyp.|
-| field_name | str |Namnet i basfälten.|
+| field_name | str | Namnet i basfälten.|
 
 
 ##  remove_field(field_type, base_field_index) {#PivotFieldType-int}
@@ -35,10 +35,10 @@ def remove_field(self, field_type, base_field_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/sv/python-net/aspose.cells.pivot/pivotfieldtype) | Fältets områdestyp.|
-| base_field_index | int | Fältindex i basfälten.|
+| base_field_index | int | Fältindexet i basfälten.|
 
 
 ##  remove_field(field_type, pivot_field) {#PivotFieldType-PivotField}
@@ -52,7 +52,7 @@ def remove_field(self, field_type, pivot_field):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/sv/python-net/aspose.cells.pivot/pivotfieldtype) | fältets områdestyp.|
 | pivot_field | [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) | fältet i basfälten.|

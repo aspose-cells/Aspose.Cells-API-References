@@ -18,7 +18,7 @@ Le type BackgroundMode expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | AUTOMATIC | Automatique|
-| OPAQUE | Opaque|
+| OPAQUE |Opaque|
 | TRANSPARENT | Transparent|
 
 

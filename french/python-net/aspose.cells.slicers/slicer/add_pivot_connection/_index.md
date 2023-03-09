@@ -18,11 +18,11 @@ def add_pivot_connection(self, pivot):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | L'objet tableau croisé dynamique|
 
-###  Exemple
+###  Exemples
 
 ```python
 

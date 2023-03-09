@@ -34,9 +34,9 @@ def calculate_formula(self, ignore_error):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| ignore_error | bool | Indikerar om dölj felet i beräkningsformler. Felet kan vara en funktion som inte stöds, externa länkar, etc.|
+| ignore_error | bool | Indikerar om dölj felet i beräkningsformler.|
 
 
 ##  calculate_formula(options) {#CalculationOptions}
@@ -50,7 +50,7 @@ def calculate_formula(self, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/sv/python-net/aspose.cells/calculationoptions) | Alternativ för beräkning|
 
@@ -66,13 +66,13 @@ def calculate_formula(self, ignore_error, custom_function):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| ignore_error | bool | Indikerar om dölj felet i beräkningsformler. Felet kan vara en funktion som inte stöds, externa länkar, etc.|
+| ignore_error | bool | Indikerar om dölj felet i beräkningsformler.|
 | custom_function | [ICustomFunction](/cells/sv/python-net/aspose.cells/icustomfunction) | Den anpassade formelberäkningen fungerar för att utöka beräkningsmotorn.|
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+OBS: Denna medlem är nu föråldrad.
 använd metoden CalculateFormula(CalculationOptions).
  Denna metod kommer att tas bort 12 månader senare sedan augusti 2020.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

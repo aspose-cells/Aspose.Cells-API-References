@@ -18,12 +18,12 @@ def align_top_right_corner(self, top_row, right_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | top_row | int | satır dizini.|
 | right_column | int | sütun indeksi.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

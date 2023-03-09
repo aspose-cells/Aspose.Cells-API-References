@@ -1,5 +1,5 @@
 ﻿---
-title: TimelineCollection sınıf
+title: TimelineCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells.timelines/timelinecollection/
 is_root: false
 ---
-##  TimelineCollection sınıf
+##  TimelineCollection sınıfı
 Belirtilen çalışma sayfasındaki tüm Zaman Çizelgesi nesnelerinin toplanmasını belirtir.
 MS Excel nedeniyle Excel 2003, Zaman Çizelgesi'ni desteklemez.
 
@@ -31,17 +31,17 @@ TimelineCollection türü aşağıdaki üyeleri gösterir:
 | [add(pivot, row, column, base_field)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/add/#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField) | Veri kaynağı olarak PivotTable'ı kullanarak yeni bir Zaman Çizelgesi ekleyin|
 | [add(pivot, dest_cell_name, base_field)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/add/#aspose.cells.pivot.PivotTable-str-aspose.cells.pivot.PivotField) | Veri kaynağı olarak PivotTable'ı kullanarak yeni bir Zaman Çizelgesi ekleyin|
 | [copy_to(array)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/copy_to/#list) | Hedef dizi listesinin başından başlayarak tüm dizi listesini uyumlu bir tek boyutlu dizi listesine kopyalar.|
-| [copy_to(index, array, array_index, count)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/copy_to/#int-list-int-int) | Dizi listesindeki bir dizi öğeyi, hedef dizi listesinin belirtilen dizininden başlayarak uyumlu bir tek boyutlu dizi listesine kopyalar.|
+| [copy_to(index, array, array_index, count)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/copy_to/#int-list-int-int) |Dizi listesindeki bir dizi öğeyi, hedef dizi listesinin belirtilen dizininden başlayarak uyumlu bir tek boyutlu dizi listesine kopyalar.|
 | [index_of(item, index)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/index_of/#Timeline-int) | Belirtilen nesneyi arar ve belirtilen dizinden son öğeye uzanan dizi listesindeki öğelerin aralığındaki ilk oluşumun sıfır tabanlı dizinini döndürür.|
 | [index_of(item, index, count)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/index_of/#Timeline-int-int) | Belirtilen nesneyi arar ve belirtilen dizinde başlayan ve belirtilen sayıda öğe içeren dizi listesindeki öğe aralığı içindeki ilk oluşumun sıfır tabanlı dizinini döndürür.|
 | [last_index_of(item)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline) | Belirtilen nesneyi arar ve tüm dizi listesindeki son oluşumun sıfır tabanlı dizinini döndürür.|
-| [last_index_of(item, index)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int) |Belirtilen nesneyi arar ve ilk öğeden belirtilen dizine kadar uzanan dizi listesindeki öğe aralığı içindeki son oluşumun sıfır tabanlı dizinini döndürür.|
-| [last_index_of(item, index, count)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int-int) | Belirtilen nesneyi arar ve belirtilen sayıda öğeyi içeren ve belirtilen dizinde biten dizi listesindeki öğe aralığındaki son oluşumun sıfır tabanlı dizinini döndürür.|
+| [last_index_of(item, index)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int) | Belirtilen nesneyi arar ve ilk öğeden belirtilen dizine kadar uzanan dizi listesindeki öğe aralığı içindeki son oluşumun sıfır tabanlı dizinini döndürür.|
+| [last_index_of(item, index, count)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int-int) |Belirtilen nesneyi arar ve belirtilen sayıda öğeyi içeren ve belirtilen dizinde biten dizi listesindeki öğe aralığındaki son oluşumun sıfır tabanlı dizinini döndürür.|
 | [binary_search(item)](/cells/tr/python-net/aspose.cells.timelines/timelinecollection/binary_search/#Timeline) | Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tamamında bir öğe arar ve öğenin sıfır tabanlı dizinini döndürür.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import CellsFactory, Workbook

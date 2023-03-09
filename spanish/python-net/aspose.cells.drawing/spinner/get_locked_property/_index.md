@@ -22,11 +22,11 @@ def get_locked_property(self, type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/es/python-net/aspose.cells.drawing/shapelocktype) | El tipo de la propiedad bloqueada de forma.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import ShapeLockType

@@ -25,10 +25,10 @@ El tipo SpinButtonActiveXControl expone los siguientes miembros:
 | :- | :- |
 | [workbook](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/workbook) | Obtiene el objeto [ActiveXControlBase.workbook](/cells/es/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/type) | Obtiene el tipo del control ActiveX.|
-| [width](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/width) | Obtiene y establece el ancho del control en unidades de puntos.|
+| [width](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/width) |Obtiene y establece el ancho del control en unidades de puntos.|
 | [height](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/height) | Obtiene y establece el alto del control en unidades de puntos.|
 | [mouse_icon](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/mouse_icon) | Obtiene y establece un icono personalizado para mostrar como el puntero del mouse para el control.|
-| [mouse_pointer](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/mouse_pointer) |Obtiene y establece el tipo de icono que se muestra como el puntero del mouse para el control.|
+| [mouse_pointer](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/mouse_pointer) | Obtiene y establece el tipo de icono que se muestra como el puntero del mouse para el control.|
 | [fore_ole_color](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/fore_ole_color) | Obtiene y establece el color antiguo del primer plano.|
 | [back_ole_color](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/back_ole_color) | Obtiene y establece el color antiguo del fondo.|
 | [is_visible](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/is_visible) | Indica si este control es visible.|
@@ -38,20 +38,20 @@ El tipo SpinButtonActiveXControl expone los siguientes miembros:
 | [data](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/data) | Obtiene y establece los datos binarios del control.|
 | [is_enabled](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/is_enabled) | Indica si el control puede recibir el foco y responder a los eventos generados por el usuario.|
 | [is_locked](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/is_locked) | Indica si los datos del control están bloqueados para su edición.|
-| [is_transparent](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/is_transparent) |Indica si el control es transparente.|
+| [is_transparent](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/is_transparent) | Indica si el control es transparente.|
 | [is_auto_size](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/is_auto_size) | Indica si el control cambiará de tamaño automáticamente para mostrar todo su contenido.|
-| [ime_mode](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/ime_mode) | Obtiene y establece el modo de tiempo de ejecución predeterminado del Editor de métodos de entrada para el control cuando recibe el foco.|
+| [ime_mode](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/ime_mode) |Obtiene y establece el modo de tiempo de ejecución predeterminado del Editor de métodos de entrada para el control cuando recibe el foco.|
 | [font](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/font) | Representa la fuente del control.|
 | [text_align](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/text_align) | Representa cómo alinear el texto utilizado por el control.|
 | [min](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/min) | Obtiene y establece el valor mínimo aceptable.|
-| [max](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/max) |Obtiene y establece el valor máximo aceptable.|
+| [max](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/max) | Obtiene y establece el valor máximo aceptable.|
 | [position](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/position) | Obtiene y establece el valor.|
 | [small_change](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/small_change) | Obtiene y establece la cantidad por la que cambia la propiedad Position|
 | [orientation](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/orientation) | Obtiene y establece si SpinButton o ScrollBar están orientados vertical u horizontalmente.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose import pycore

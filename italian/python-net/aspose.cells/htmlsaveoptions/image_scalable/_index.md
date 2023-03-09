@@ -10,7 +10,7 @@ is_root: false
 ##  image_scalable proprietà
 
 Indica se si utilizza un'unità scalabile per descrivere la larghezza dell'immagine
-quando si utilizza l'unità scalabile per descrivere la larghezza della colonna.
+quando si utilizzano unità scalabili per descrivere la larghezza della colonna.
 Il valore predefinito è true.
 ###  Definizione:
 ```python

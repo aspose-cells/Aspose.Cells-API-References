@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  note Eigentum
 
-Stellt den Inhalt des Kommentars dar.
+Stellt den Inhalt von Kommentaren dar.
 
 ###  Bemerkungen
 
 Wenn es sich um einen Thread-Kommentar handelt, könnte die note nicht geändert werden, da MS Excel ihn sonst nicht als Thread-Kommentar verarbeiten könnte.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  original_width_inch Eigentum
 
-Ruft die Originalbreite des Bildes in Zoll ab.
+Ruft die ursprüngliche Breite des Bilds in Zolleinheiten ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

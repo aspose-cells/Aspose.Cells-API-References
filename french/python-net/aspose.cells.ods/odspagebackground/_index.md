@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.ods/odspagebackground/
 is_root: false
 ---
 ##  OdsPageBackground classe
-Représente l'arrière-plan de la page de ods.
+Représente l'arrière-plan de la page des cotes.
 
 
 
@@ -23,8 +23,8 @@ Le type OdsPageBackground expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [type](/cells/fr/python-net/aspose.cells.ods/odspagebackground/type) |Obtient et définit le type d'arrière-plan de la page.|
-| [color](/cells/fr/python-net/aspose.cells.ods/odspagebackground/color) | Obtient et définit la couleur d'arrière-plan.|
+| [type](/cells/fr/python-net/aspose.cells.ods/odspagebackground/type) | Obtient et définit le type d'arrière-plan de la page.|
+| [color](/cells/fr/python-net/aspose.cells.ods/odspagebackground/color) | Obtient et définit la couleur de l'arrière-plan.|
 | [graphic_type](/cells/fr/python-net/aspose.cells.ods/odspagebackground/graphic_type) | Obtient et définit le type de graphique d'arrière-plan de la page.|
 | [graphic_position_type](/cells/fr/python-net/aspose.cells.ods/odspagebackground/graphic_position_type) | Obtient et définit la position du graphique d'arrière-plan.|
 | [is_link](/cells/fr/python-net/aspose.cells.ods/odspagebackground/is_link) | Indique s'il s'agit d'un graphique lié.|

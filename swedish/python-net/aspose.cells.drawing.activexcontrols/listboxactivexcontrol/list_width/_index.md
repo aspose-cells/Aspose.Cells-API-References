@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_width fastighet
 
-Hämtar och ställer in bredden i poängenhet.
+Hämtar och ställer in bredden i poängenheter.
 ###  Definition:
 ```python
 @property

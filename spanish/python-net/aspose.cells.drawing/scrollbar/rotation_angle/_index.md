@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece la rotación de la forma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

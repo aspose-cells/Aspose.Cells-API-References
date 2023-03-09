@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  is_deleted fastighet
 
-Indikerar om den associerade arbetsboksanslutningen har tagits bort. sant om
-anslutningen har tagits bort; annars falskt.
+Indikerar om den associerade arbetsboksanslutningen har tagits bort. true om
+annars falskt.
 ###  Definition:
 ```python
 @property

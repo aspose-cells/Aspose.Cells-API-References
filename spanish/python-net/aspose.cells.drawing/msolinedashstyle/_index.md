@@ -17,13 +17,13 @@ El tipo MsoLineDashStyle expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| DASH |Representa una línea discontinua.|
-| DASH_DOT | Representa una línea de puntos y guiones.|
+| DASH | Representa una línea discontinua.|
+| DASH_DOT |Representa una línea de puntos y guiones.|
 | DASH_DOT_DOT | Representa una línea de guión-punto-punto.|
 | DASH_LONG_DASH | Representa una línea de trazo largo-trazo corto.|
 | DASH_LONG_DASH_DOT | Representa una línea de punto, guión corto y guión largo.|
-| ROUND_DOT |Representa una línea de puntos redondos.|
-| SOLID | Representa una línea continua.|
+| ROUND_DOT | Representa una línea de puntos redondos.|
+| SOLID | Representa una línea sólida.|
 | SQUARE_DOT | Representa una línea de puntos cuadrados.|
 | CUSTOM | Estilo de guión personalizado.|
 

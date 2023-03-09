@@ -21,7 +21,7 @@ MsoArrowheadStyle türü aşağıdaki üyeleri gösterir:
 | ARROW | Ok çizgisi uç tipi.|
 | ARROW_STEALTH | Ok Gizli hat sonu tipi.|
 | ARROW_DIAMOND | Arrow Diamond Line uç tipi.|
-| ARROW_OVAL | Ok Oval çizgi uç tipi.|
+| ARROW_OVAL | Ok oval çizgi uç tipi.|
 | ARROW_OPEN | Ok Açık satır sonu türü.|
 
 

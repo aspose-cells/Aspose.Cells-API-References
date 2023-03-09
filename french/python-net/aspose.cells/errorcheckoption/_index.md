@@ -26,7 +26,7 @@ Le type ErrorCheckOption expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import CellArea, ErrorCheckType, Workbook

@@ -22,7 +22,7 @@ def get_param_text(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | índice del parámetro (basado en 0)|
 

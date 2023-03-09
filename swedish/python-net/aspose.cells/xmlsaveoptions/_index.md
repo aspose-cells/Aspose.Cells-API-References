@@ -22,7 +22,7 @@ Typen XmlSaveOptions avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [XmlSaveOptions()](/cells/sv/python-net/aspose.cells/xmlsaveoptions/__init__/#) | Skapar alternativ för att spara xml-fil.|
+| [XmlSaveOptions()](/cells/sv/python-net/aspose.cells/xmlsaveoptions/__init__/#) | Skapar alternativ för att spara xml-filer.|
 
 
 ###  Egenskaper
@@ -35,13 +35,13 @@ Typen XmlSaveOptions avslöjar följande medlemmar:
 | [merge_areas](/cells/sv/python-net/aspose.cells/xmlsaveoptions/merge_areas) | Anger om områdena för villkorlig formatering och validering ska slås samman innan filen sparas.|
 | [create_directory](/cells/sv/python-net/aspose.cells/xmlsaveoptions/create_directory) | Om sant och katalogen inte finns skapas katalogen automatiskt innan filen sparas.|
 | [sort_names](/cells/sv/python-net/aspose.cells/xmlsaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
-| [sort_external_names](/cells/sv/python-net/aspose.cells/xmlsaveoptions/sort_external_names) | Anger om externt definierade namn sorteras innan filen sparas.|
-| [refresh_chart_cache](/cells/sv/python-net/aspose.cells/xmlsaveoptions/refresh_chart_cache) |Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/xmlsaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/xmlsaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [sort_external_names](/cells/sv/python-net/aspose.cells/xmlsaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
+| [refresh_chart_cache](/cells/sv/python-net/aspose.cells/xmlsaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
+| [warning_callback](/cells/sv/python-net/aspose.cells/xmlsaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/xmlsaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 | [sheet_indexes](/cells/sv/python-net/aspose.cells/xmlsaveoptions/sheet_indexes) | Representerar indexen för exporterade ark.|
 | [export_area](/cells/sv/python-net/aspose.cells/xmlsaveoptions/export_area) | Hämtar eller ställer in exportintervallet.|
-| [has_header_row](/cells/sv/python-net/aspose.cells/xmlsaveoptions/has_header_row) | Anger om intervallet innehåller rubrikrad.|
+| [has_header_row](/cells/sv/python-net/aspose.cells/xmlsaveoptions/has_header_row) | Anger om intervallet innehåller en rubrikrad.|
 | [xml_map_name](/cells/sv/python-net/aspose.cells/xmlsaveoptions/xml_map_name) | Anger om xml-karta exporteras i filen.|
 
 

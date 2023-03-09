@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/gloweffect/
 is_root: false
 ---
 ##  GlowEffect الدرجة
- تحدد هذه الفئة تأثير التوهج ، حيث يتم تعتيم الخطوط العريضة للون
+تحدد هذه الفئة تأثير التوهج ، حيث يتم تعتيم الخطوط العريضة للون
 يضاف خارج حواف الكائن.
 
 
@@ -19,8 +19,8 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [color](/cells/ar/python-net/aspose.cells.drawing/gloweffect/color) | الحصول على لون تأثير التوهج.|
-| [radius](/cells/ar/python-net/aspose.cells.drawing/gloweffect/radius) | الحصول على نصف قطر التوهج وتعيينه بوحدة النقاط.|
-| [size](/cells/ar/python-net/aspose.cells.drawing/gloweffect/size) | الحصول على نصف قطر التوهج وتعيينه بوحدة النقاط.|
+| [radius](/cells/ar/python-net/aspose.cells.drawing/gloweffect/radius) | الحصول على نصف قطر التوهج وتعيينه بوحدات من النقاط.|
+| [size](/cells/ar/python-net/aspose.cells.drawing/gloweffect/size) | الحصول على نصف قطر التوهج وتعيينه بوحدات من النقاط.|
 | [transparency](/cells/ar/python-net/aspose.cells.drawing/gloweffect/transparency) | الحصول على درجة شفافية تأثير التوهج وتعيينها. تتراوح من 0.0 (معتم) إلى 1.0 (واضح).|
 
 

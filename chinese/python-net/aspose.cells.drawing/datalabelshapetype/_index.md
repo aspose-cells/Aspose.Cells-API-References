@@ -1,13 +1,13 @@
 ﻿---
 title: DataLabelShapeType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 800
 url: /zh/python-net/aspose.cells.drawing/datalabelshapetype/
 is_root: false
 ---
-##  DataLabelShapeType枚举
+## DataLabelShapeType枚举
 指定要用于图表的预设形状几何体。
 
 

@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-Bir çalışma sayfası için modül ekler.
+Bir çalışma sayfası için modüller ekler.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def add(self, sheet):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | çalışma sayfası|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [VbaModuleType](/cells/tr/python-net/aspose.cells.vba/vbamoduletype) | Modül türü.|
 | name | str | Modülün adı.|

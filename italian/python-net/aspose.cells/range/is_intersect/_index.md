@@ -22,7 +22,7 @@ def is_intersect(self, range):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range | [Range](/cells/it/python-net/aspose.cells/range) | La gamma.|
 ###  Osservazioni

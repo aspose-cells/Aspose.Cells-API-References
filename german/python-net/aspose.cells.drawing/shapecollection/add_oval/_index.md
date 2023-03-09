@@ -26,12 +26,12 @@ def add_oval(self, upper_left_row, top, upper_left_column, left, height, width):
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz von Oval von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Repräsentiert den horizontalen Versatz von Oval von seiner linken Spalte in Pixeleinheiten.|
 | height | int | Repräsentiert die Höhe von Oval in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite des Ovals in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  PrintErrorsType enumerazione
-Rappresenta le costanti degli errori di stampa.
+Rappresenta le costanti di errore di stampa.
 
 
 
@@ -19,8 +19,8 @@ Il tipo PrintErrorsType espone i membri seguenti:
 | :- | :- |
 | PRINT_ERRORS_BLANK | Indica di non stampare errori.|
 | PRINT_ERRORS_DASH | Rappresenta per stampare gli errori come "--".|
-| PRINT_ERRORS_DISPLAYED |Indica di stampare gli errori come visualizzati.|
-| PRINT_ERRORS_NA | Rappresenta gli errori di stampa come "#N/D".|
+| PRINT_ERRORS_DISPLAYED | Indica di stampare gli errori come visualizzati.|
+| PRINT_ERRORS_NA | Rappresenta gli errori di stampa come "#N/A".|
 
 
 

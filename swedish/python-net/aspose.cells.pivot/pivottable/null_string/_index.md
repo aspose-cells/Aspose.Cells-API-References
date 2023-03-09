@@ -10,7 +10,7 @@ is_root: false
 ##  null_string fastighet
 
 Hämtar strängen som visas i celler som innehåller nollvärden
-när egenskapen DisplayNullString är true. Standardvärdet är en tom sträng.
+när egenskapen DisplayNullString är sann.
 ###  Definition:
 ```python
 @property

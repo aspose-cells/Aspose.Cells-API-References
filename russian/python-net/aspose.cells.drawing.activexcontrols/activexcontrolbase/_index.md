@@ -19,10 +19,10 @@ is_root: false
 | :- | :- |
 | [workbook](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) | Получает объект [ActiveXControlBase.workbook](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/type) | Получает тип элемента управления ActiveX.|
-| [width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width) | Получает и задает ширину элемента управления в пунктах.|
+| [width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width) |Получает и задает ширину элемента управления в точках.|
 | [height](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/height) | Получает и задает высоту элемента управления в пунктах.|
 | [mouse_icon](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_icon) | Получает и задает настраиваемый значок для отображения в качестве указателя мыши для элемента управления.|
-| [mouse_pointer](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_pointer) |Получает и задает тип значка, отображаемого в качестве указателя мыши для элемента управления.|
+| [mouse_pointer](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_pointer) | Получает и задает тип значка, отображаемого в качестве указателя мыши для элемента управления.|
 | [fore_ole_color](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/fore_ole_color) | Получает и задает основной цвет переднего плана.|
 | [back_ole_color](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/back_ole_color) | Получает и задает цвет фона.|
 | [is_visible](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/is_visible) | Указывает, виден ли этот элемент управления.|

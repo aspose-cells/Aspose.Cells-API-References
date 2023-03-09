@@ -16,7 +16,7 @@ Indica quali pagine non verranno stampate.
 Se il contenuto del foglio è scarso, ci saranno alcune pagine completamente vuote nel file pdf di output.
 Se non desideri queste pagine vuote, puoi utilizzare questa opzione per ometterle.
 
-###  Esempio
+###  Esempi
 
 Il codice seguente omette le pagine vuote o le pagine che contengono solo alcuni contenuti di stile come lo sfondo delle celle, i bordi.
 

@@ -26,12 +26,12 @@ def add_line(self, upper_left_row, top, upper_left_column, left, height, width):
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz von LineShape von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Repräsentiert den horizontalen Versatz von LineShape von seiner linken Spalte in Pixeleinheiten.|
 | height | int | Repräsentiert die Höhe von LineShape in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite von LineShape in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

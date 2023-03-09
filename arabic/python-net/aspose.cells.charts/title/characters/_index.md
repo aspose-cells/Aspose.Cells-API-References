@@ -30,7 +30,7 @@ def characters(self):
 
 ###  عائدات
 
-كائن الأحرف.
+كائنات الحرف.
 
 
 ```python
@@ -39,7 +39,7 @@ def characters(self, start_index, length):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_index | int | فهرس بداية الحرف.|
 | length | int | عدد الأحرف.|

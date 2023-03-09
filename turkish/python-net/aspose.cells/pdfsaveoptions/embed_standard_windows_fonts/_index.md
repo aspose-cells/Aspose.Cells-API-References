@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  embed_standard_windows_fonts mülk
 
- Gerçek tip yazı tiplerini gömmek için doğru.
+Gerçek tip yazı tiplerini gömmek için doğru.
 Yalnızca ASCII karakterleri 32-127'yi etkiler.
 127'den büyük karakter kodları için yazı tipleri her zaman gömülüdür.
 Yazı tipleri her zaman PDF/A-1a, PDF/A-1b standardı için gömülüdür.

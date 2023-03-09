@@ -18,7 +18,7 @@ def set_color(self, color):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Sınırların Rengi.|
 

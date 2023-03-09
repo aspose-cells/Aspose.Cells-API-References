@@ -22,7 +22,7 @@ def add(self, type, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [FormatConditionValueType](/cells/sv/python-net/aspose.cells/formatconditionvaluetype) | Värdetypen.|
 | value | str | Värdet.|

@@ -1,6 +1,6 @@
 ﻿---
 title: find_formula方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 300
@@ -22,14 +22,14 @@ def find_formula(self, formula, previous_cell):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | formula | str |要搜索的公式。|
-| previous_cell | [Cell](/cells/zh/python-net/aspose.cells/cell) |具有相同公式的上一个单元格。如果从头开始搜索，这个参数可以设置为空。|
+| previous_cell | [Cell](/cells/zh/python-net/aspose.cells/cell) |具有相同公式的上一个单元格。如果从头开始搜索，则此参数可以设置为空。|
 ### 评论
 
 如果未找到单元格，则返回 null（无）。
-注意：该成员现已过时。反而，
+注意：该成员现已过时。
 请使用 Cells.Find(object,Cell,FindOptions) 方法和 LookInType 作为 LookInType.OnlyFormulas
  LookAtType 为 LookAtType.EntireContent。
 该成员将于 2018 年 11 月起 12 个月后被删除。

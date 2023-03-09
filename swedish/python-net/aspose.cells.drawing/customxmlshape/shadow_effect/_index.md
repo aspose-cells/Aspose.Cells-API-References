@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shadow_effect fastighet
 
-Representerar ett [ShadowEffect](/cells/sv/python-net/aspose.cells.drawing/shadoweffect)-objekt som anger skuggeffekt för diagramelementet eller formen.
+Representerar ett [ShadowEffect](/cells/sv/python-net/aspose.cells.drawing/shadoweffect)-objekt som anger en skuggeffekt för diagramelementet eller formen.
 
 ###  Exempel
 

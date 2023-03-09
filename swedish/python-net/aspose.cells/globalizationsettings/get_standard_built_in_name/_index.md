@@ -13,7 +13,7 @@ Hämtar standardtexten för det inbyggda namnet enligt given språkberoende text
 
 ###  Returnerar
 
-Standardtext (en-US locale).
+Standardtext (en-US språkversion).
 
 
 ```python
@@ -22,9 +22,9 @@ def get_standard_built_in_name(self, local_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| local_name | str | Platsberoende text av inbyggt namn. Lokalen specificerades av arbetsboken för vilken de här inställningarna används.|
+| local_name | str | Platsberoende text av inbyggt namn.|
 
 
 

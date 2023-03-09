@@ -17,13 +17,13 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| VB | Модуль Visual Basic|
+| VB | Модули Visual Basic|
 | WORKSHEET |  |
-| CHART | Диаграмма|
+| CHART | диаграмма|
 | BIFF4_MACRO | Лист макросов BIFF4|
-| INTERNATIONAL_MACRO | Международный лист макросов|
+| INTERNATIONAL_MACRO | Международный макро лист|
 | OTHER |  |
-| DIALOG | Рабочий лист диалога|
+| DIALOG |Рабочий лист диалога|
 
 
 

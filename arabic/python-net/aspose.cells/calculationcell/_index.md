@@ -27,7 +27,7 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [set_calculated_value(v)](/cells/ar/python-net/aspose.cells/calculationcell/set_calculated_value/#any) |يضبط القيمة المحسوبة للخلية.|
+| [set_calculated_value(v)](/cells/ar/python-net/aspose.cells/calculationcell/set_calculated_value/#any) | يضبط القيمة المحسوبة للخلية.|
 
 
 

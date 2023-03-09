@@ -18,7 +18,7 @@ def copy(self, source, copy_option):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source | [Validation](/cells/it/python-net/aspose.cells/validation) | La convalida della fonte.|
 | copy_option | [CopyOptions](/cells/it/python-net/aspose.cells/copyoptions) | L'opzione di copia.|

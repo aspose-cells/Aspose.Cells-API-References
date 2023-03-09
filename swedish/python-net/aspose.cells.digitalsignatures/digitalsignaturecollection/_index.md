@@ -17,19 +17,19 @@ Typen DigitalSignatureCollection avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [DigitalSignatureCollection()](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) | Konstruktören av DigitalSignatureCollection.|
+| [DigitalSignatureCollection()](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) |Konstruktören av DigitalSignatureCollection.|
 
 
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [add(digital_signature)](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) |Lägg till en signatur till DigitalSignatureCollection.|
+| [add(digital_signature)](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Lägg till en signatur till Digital Signature Collection.|
 
 
 
 ###  Exempel
 
-Följande exempel visar hur man validerar digital signatur.
+Följande exempel visar hur man validerar digitala signaturer.
 
 ```python
 from aspose.cells import Workbook

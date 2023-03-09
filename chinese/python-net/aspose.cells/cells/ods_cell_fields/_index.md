@@ -1,6 +1,6 @@
 ﻿---
 title: ods_cell_fields 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1210
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## ods_cell_fields 属性
 
-获取ods的字段列表。
+获取赔率字段列表。
 ### 定义：
 ```python
 @property

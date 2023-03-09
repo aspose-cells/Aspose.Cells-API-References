@@ -1,13 +1,13 @@
 ﻿---
 title: Button类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
 url: /zh/python-net/aspose.cells.drawing/button/
 is_root: false
 ---
-##  Button类
+## Button类
 代表Forms控件：Button
 
 

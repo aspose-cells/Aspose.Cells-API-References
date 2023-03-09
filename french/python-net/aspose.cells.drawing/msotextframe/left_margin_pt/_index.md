@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin_pt propriété
 
-Renvoie la marge de gauche en unité de points
+Renvoie la marge de gauche en unités de points
 ###  Définition:
 ```python
 @property

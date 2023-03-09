@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparkline_collection недвижимость
 
-Получает коллекцию объекта [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline).
+Получает коллекцию из [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) объектов.
 
 ###  Примечания
 

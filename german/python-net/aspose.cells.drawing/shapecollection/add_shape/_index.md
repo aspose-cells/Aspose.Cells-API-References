@@ -27,14 +27,14 @@ def add_shape(self, type, upper_left_row, top, upper_left_column, left, height, 
 | type | [MsoDrawingType](/cells/de/python-net/aspose.cells.drawing/msodrawingtype) | Mso-Zeichnungstyp.|
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz von Shape von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Stellt den horizontalen Versatz von Shape von seiner linken Spalte in Pixeleinheiten dar.|
 | height | int | Stellt die Höhe von Shape in Pixeleinheiten dar.|
 | width | int | Stellt die Breite von Shape in Pixeleinheiten dar.|
 ###  Bemerkungen
 
 Der Typ konnte nicht Chart/Comment/Picture/OleObject/Polygon/DialogBox sein
-###  Beispiel
+###  Beispiele
 
 
 ```python

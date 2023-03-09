@@ -11,7 +11,7 @@ is_root: false
 
 Evaluar el recuento total de páginas de este libro de trabajo
 
-###  Ejemplo
+###  Ejemplos
 
 El siguiente código muestra la forma más rápida de obtener el recuento de páginas de un libro de trabajo.
 

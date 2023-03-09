@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType Aufzählung
-Listet den Rasterlinientyp auf.
+Listet Rasterlinientypen auf.
 
 
 

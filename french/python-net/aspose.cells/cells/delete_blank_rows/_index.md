@@ -31,7 +31,7 @@ def delete_blank_rows(self, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/fr/python-net/aspose.cells/deleteoptions) | Les options de suppression de plage.|
 

@@ -10,7 +10,7 @@ is_root: false
 ##  table_css_id propiedad
 
  Obtiene y establece el prefijo del nombre de tipo css, como tr, col, td, etc., están contenidos en el elemento de la tabla
-que tiene el atributo TableCssId específico. El valor predeterminado es "".
+que tiene el atributo TableCssId específico.
 ###  Definición:
 ```python
 @property

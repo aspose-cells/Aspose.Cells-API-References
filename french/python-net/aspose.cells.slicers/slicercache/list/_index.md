@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  list propriété
 
-Renvoie si le segment associé au cache de segment spécifié est basé sur une source de données non OLAP. Lecture seulement
+Renvoie si le segment est associé au cache de segment spécifié est basé sur une source de données non OLAP.
 
-###  Exemple
+###  Exemples
 
 ```python
 

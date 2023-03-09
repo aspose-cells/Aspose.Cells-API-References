@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_tot
 is_root: false
 ---
 ##  get_table_row_type_of_totals() {#}
-Obtient le nom de type des lignes de table qui se compose de la ligne totale de la table référencée.
+Obtient le nom de type des lignes de table qui consistent en la ligne totale de la table référencée.
 La valeur par défaut est "Totals", donc dans la formule "#Totals" représente la ligne totale de la table référencée.
 
 

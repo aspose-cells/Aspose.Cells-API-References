@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_s
 is_root: false
 ---
 ##  add_shape_in_chart_by_scale(type, placement, left, top, right, bottom) {#MsoDrawingType-PlacementType-float-float-float-float}
-Grafiğe bir şekil ekleyin. Tüm birim, grafik alanının yüzde ölçeğidir.
+Grafiğe bir şekil ekleyin. Tüm birimler, grafik alanının yüzde ölçeğidir.
 
 
 
@@ -18,7 +18,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom)
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/tr/python-net/aspose.cells.drawing/msodrawingtype) | Çizim türü.|
 | placement | [PlacementType](/cells/tr/python-net/aspose.cells.drawing/placementtype) | yerleştirme türü.|
@@ -29,7 +29,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom)
 
 
 ##  add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data) {#MsoDrawingType-PlacementType-float-float-float-float-bytes}
-Grafiğe bir şekil ekleyin. Tüm birim grafik alanının 1/4000'idir.
+Grafiğe bir şekil ekleyin. Tüm birimler grafik alanının 1/4000'idir.
 
 
 
@@ -39,7 +39,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom,
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/tr/python-net/aspose.cells.drawing/msodrawingtype) | Çizim türü.|
 | placement | [PlacementType](/cells/tr/python-net/aspose.cells.drawing/placementtype) | yerleştirme türü.|

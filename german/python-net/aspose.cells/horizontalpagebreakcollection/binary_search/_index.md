@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [HorizontalPageBreak](/cells/de/python-net/aspose.cells/horizontalpagebreak) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [HorizontalPageBreak](/cells/de/python-net/aspose.cells/horizontalpagebreak) | Das zu lokalisierende System.Objekt.|
 
 
 

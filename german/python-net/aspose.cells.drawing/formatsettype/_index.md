@@ -17,7 +17,7 @@ Der Typ FormatSetType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| NONE |Kein Füllformat.|
+| NONE | Kein Füllformat.|
 | IS_GRADIENT_SET | Verlaufsfüllformat.|
 | IS_TEXTURE_SET | Texturfüllformat.|
 | IS_PATTERN_SET | Musterfüllformat.|

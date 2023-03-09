@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name الملكية
 
-الحصول على اسم FarEast وتعيينه.
+الحصول على اسم الشرق الأقصى وتعيينه.
 ###  تعريف:
 ```python
 @property

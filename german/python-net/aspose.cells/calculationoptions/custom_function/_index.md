@@ -13,7 +13,7 @@ Die Berechnungsfunktionen für benutzerdefinierte Formeln erweitern die Berechnu
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die CustomEngine-Eigenschaft, AbstractCalculationEngine bietet bequemere und flexiblere APIs
 zum Bearbeiten benutzerdefinierter Funktionen.
  Diese Property wird 12 Monate später seit August 2020 entfernt.

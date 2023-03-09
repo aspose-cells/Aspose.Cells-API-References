@@ -10,7 +10,7 @@ is_root: false
 ##  is_gte mülk
 
  Büyüktür veya Eşittir bayrağını alın veya ayarlayın.
-Yalnızca simge kümeleri için kullan, bu eşik değerinin kullanılıp kullanılmadığını belirler
+ Yalnızca simge kümeleri için kullan, bu eşik değerinin kullanılıp kullanılmadığını belirler
  operatörden büyük veya eşittir.
 false', 'büyüktür veya eşittir' yerine 'büyüktür' ifadesinin kullanıldığını belirtir.
 Varsayılan değer doğrudur.

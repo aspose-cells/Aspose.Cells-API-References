@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [ExternalConnection](/cells/de/python-net/aspose.cells.externalconnections/externalconnection) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [ExternalConnection](/cells/de/python-net/aspose.cells.externalconnections/externalconnection) | Das zu lokalisierende System.Objekt.|
 
 
 

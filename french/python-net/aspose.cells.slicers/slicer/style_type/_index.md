@@ -12,7 +12,7 @@ is_root: false
 Spécifiez le type de style de trancheuse intégré
 le type par défaut est SlicerStyleLight1
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

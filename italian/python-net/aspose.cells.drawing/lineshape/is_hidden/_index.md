@@ -11,7 +11,7 @@ is_root: false
 
 Indica se l'oggetto è visibile.
 
-###  Esempio
+###  Esempi
 
 ```python
 

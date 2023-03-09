@@ -18,11 +18,11 @@ def add_pivot_connection(self, pivot):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.pivot/pivottable/refresh_data/
 is_root: false
 ---
 ##  refresh_data() {#}
-Uppdaterar pivotables data och inställning från dess datakälla.
+Uppdaterar pivotables data och inställningar från dess datakälla.
 
 
 

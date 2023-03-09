@@ -13,7 +13,7 @@ Indique si les en-têtes de ligne et de colonne de la feuille sont exportés lor
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
 veuillez utiliser la propriété HtmlSaveOptions.ExportRowColumnHeadings.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

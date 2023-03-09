@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  filter_type propiedad
 
-Obtiene y establece el tipo de datos de filtrado.
+Obtiene y establece el tipo de filtrado de datos.
 ###  Definición:
 ```python
 @property

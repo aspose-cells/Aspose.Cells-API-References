@@ -18,7 +18,7 @@ def set_characters(self, characters):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | characters | list | Tüm Karakterler nesneleri.|
 

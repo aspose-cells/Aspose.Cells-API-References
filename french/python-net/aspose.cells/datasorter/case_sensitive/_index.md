@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  case_sensitive propriété
 
-Obtient et définit si la casse est sensible lors de la comparaison de chaîne.
+Obtient et définit si la casse est sensible lors de la comparaison de chaînes.
 ###  Définition:
 ```python
 @property

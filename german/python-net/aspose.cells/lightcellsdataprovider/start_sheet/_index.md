@@ -13,7 +13,7 @@ Beginnt mit dem Speichern eines Arbeitsblatts.
 
 ###  Kehrt zurück
 
-wahr, wenn dieser Anbieter Daten für das angegebene Blatt bereitstellt; false, wenn das angegebene Blatt sein normales Datenmodell verwenden soll (Cells).
+true, wenn dieser Anbieter Daten für das angegebene Blatt bereitstellt, false, wenn das angegebene Blatt sein normales Datenmodell verwenden soll (Cells).
 
 
 ```python

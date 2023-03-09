@@ -20,8 +20,8 @@ def remove_external_links(self):
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
-utilice el método ExternalLinkCollection.Clear().
+NOTA: Este miembro ahora está obsoleto.
+Utilice el método ExternalLinkCollection.Clear().
  Este método se eliminará 12 meses después desde diciembre de 2021.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 

@@ -25,19 +25,19 @@ is_root: false
 ###  مفهرس
 | اسم| وصف|
 | :- | :- |
-| [index] | مؤشر نقطة الرسم البياني في السلسلة.|
+| [index] | مؤشر نقاط الرسم البياني في السلسلة.|
 
 
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
 | [get_enumerator()](/cells/ar/python-net/aspose.cells.charts/chartpointcollection/get_enumerator/#) | إرجاع عداد لكامل [ChartPointCollection](/cells/ar/python-net/aspose.cells.charts/chartpointcollection).|
-| [clear()](/cells/ar/python-net/aspose.cells.charts/chartpointcollection/clear/#) | قم بإزالة كل إعدادات نقاط الرسم البياني.|
+| [clear()](/cells/ar/python-net/aspose.cells.charts/chartpointcollection/clear/#) | قم بإزالة كافة إعدادات نقاط الرسم البياني.|
 | [remove_at(index)](/cells/ar/python-net/aspose.cells.charts/chartpointcollection/remove_at/#int) | يزيل النقطة في فهرس السلسلة ..|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

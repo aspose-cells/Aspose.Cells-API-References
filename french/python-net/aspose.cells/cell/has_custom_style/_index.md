@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_custom_style propriété
 
-Indique si cette cellule a des paramètres de style personnalisés (différents de ceux par défaut hérités
+Indique si cette cellule a des paramètres de style personnalisés (différents de celui par défaut hérité
 de la ligne, de la colonne ou du classeur correspondant).
 ###  Définition:
 ```python

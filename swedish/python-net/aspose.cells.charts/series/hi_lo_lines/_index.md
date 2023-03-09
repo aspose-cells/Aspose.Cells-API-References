@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hi_lo_lines fastighet
 
- Returnerar ett HiLoLines-objekt som representerar hög-låg-linjerna för en serie på ett linjediagram.
+Returnerar ett HiLoLines-objekt som representerar hög-låg-linjerna för en serie på ett linjediagram.
 Gäller endast linjediagram.
 ###  Definition:
 ```python

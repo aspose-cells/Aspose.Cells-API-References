@@ -11,7 +11,7 @@ is_root: false
 
 Yorumun width'ini piksel birimi cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

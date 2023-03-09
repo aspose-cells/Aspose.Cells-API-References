@@ -17,7 +17,7 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [get_full_name(sheet_name)](/cells/ar/python-net/aspose.cells/ifilepathprovider/get_full_name/#str) |يحصل على المسار الكامل للملف حسب اسم ورقة العمل عند تصدير ورقة العمل إلى html بشكل منفصل.<br/> لذلك يمكن تصدير المراجع بين أوراق العمل بشكل صحيح.|
+| [get_full_name(sheet_name)](/cells/ar/python-net/aspose.cells/ifilepathprovider/get_full_name/#str) | يحصل على المسار الكامل للملف حسب اسم ورقة العمل عند تصدير ورقة العمل إلى html بشكل منفصل.<br/> لذلك يمكن تصدير المراجع بين أوراق العمل بشكل صحيح.|
 
 
 

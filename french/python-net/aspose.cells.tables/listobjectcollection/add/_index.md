@@ -22,7 +22,7 @@ def add(self, start_cell, end_cell, has_headers):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | start_cell | str | Cellule de début de la plage de liste.|
 | end_cell | str | Cellule de fin de la plage de la liste.|
@@ -44,7 +44,7 @@ def add(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | start_row | int | La ligne de début de la plage de liste.|
 | start_column | int | La ligne de début de la plage de liste.|

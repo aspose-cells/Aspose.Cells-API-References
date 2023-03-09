@@ -23,8 +23,8 @@ is_root: false
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
-| [PropertyType](/cells/ar/python-net/aspose.cells.properties/propertytype) | يحدد نوع البيانات لخاصية الوثيقة.|
+| [PropertyType](/cells/ar/python-net/aspose.cells.properties/propertytype) |يحدد نوع البيانات لخاصية الوثيقة.|
 
 

@@ -18,7 +18,7 @@ def set_element_style(self, style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Elementstilen.|
 

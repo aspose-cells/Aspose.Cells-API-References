@@ -23,7 +23,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [color](/cells/ar/python-net/aspose.cells.drawing/solidfill/color) | يحصل أو يحدد اللون.|
-| [cells_color](/cells/ar/python-net/aspose.cells.drawing/solidfill/cells_color) | الحصول على العنصر [SolidFill.cells_color](/cells/ar/python-net/aspose.cells.drawing/solidfill#cells_color) وتعيينه.|
+| [cells_color](/cells/ar/python-net/aspose.cells.drawing/solidfill/cells_color) |الحصول على العنصر [SolidFill.cells_color](/cells/ar/python-net/aspose.cells.drawing/solidfill#cells_color) وتعيينه.|
 | [transparency](/cells/ar/python-net/aspose.cells.drawing/solidfill/transparency) | إرجاع أو تعيين درجة شفافية المنطقة كقيمة من 0.0 (معتم) إلى 1.0 (واضح).|
 
 

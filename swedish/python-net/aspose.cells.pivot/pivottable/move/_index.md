@@ -18,7 +18,7 @@ def move(self, dest_cell_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | dest_cell_name | str | dest cells namn.|
 
@@ -34,7 +34,7 @@ def move(self, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | radindex.|
 | column | int | kolumnindex.|

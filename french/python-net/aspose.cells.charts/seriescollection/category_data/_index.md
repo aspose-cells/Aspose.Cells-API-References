@@ -11,7 +11,7 @@ is_root: false
 
  Obtient ou définit la plage de valeurs d'axe de catégorie.
  Il peut s'agir d'une plage de cellules (par exemple, "d1:e10"),
-ou une séquence de valeurs (telle que,"{2,6,8,10}").
+ou une séquence de valeurs (telles que,"{2,6,8,10}").
 ###  Définition:
 ```python
 @property

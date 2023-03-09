@@ -20,7 +20,7 @@ Il tipo BulletType espone i membri seguenti:
 | NONE | Nessun proiettile.|
 | CHARACTER | Punto elenco del personaggio.|
 | PICTURE | Punto elenco immagine.|
-| AUTO_NUMBERED | Punto elenco numerato automatico.|
+| AUTO_NUMBERED | Proiettili numerati automatici.|
 
 
 

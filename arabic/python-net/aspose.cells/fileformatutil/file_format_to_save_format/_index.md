@@ -22,7 +22,7 @@ def file_format_to_save_format(self, format):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | format | [FileFormatType](/cells/ar/python-net/aspose.cells/fileformattype) | نوع تنسيق الملف.|
 

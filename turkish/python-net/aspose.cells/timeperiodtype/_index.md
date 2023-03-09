@@ -21,10 +21,10 @@ TimePeriodType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | TODAY | Bugünün tarihi.|
 | YESTERDAY | Dünün tarihi.|
-| TOMORROW | Yarınki tarih.|
+| TOMORROW |Yarınki tarih.|
 | LAST_7_DAYS | Son yedi gün içinde bir tarih.|
 | THIS_MONTH | Bu takvim ayında meydana gelen bir tarih.|
-| LAST_MONTH |Son takvim ayında meydana gelen bir tarih.|
+| LAST_MONTH | Son takvim ayında meydana gelen bir tarih.|
 | NEXT_MONTH | Bir sonraki takvim ayında gerçekleşen bir tarih.|
 | THIS_WEEK | Bu hafta gerçekleşen bir tarih.|
 | LAST_WEEK | Geçen hafta gerçekleşen bir tarih.|

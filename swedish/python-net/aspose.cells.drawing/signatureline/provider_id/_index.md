@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id fastighet
 
-Hämtar och ställer in id för signaturleverantör.
+Hämtar och ställer in id för signaturleverantören.
 
 ###  Anmärkningar
 

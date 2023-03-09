@@ -1,5 +1,5 @@
 ﻿---
-title: PaneCollection sınıf
+title: PaneCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1160
 url: /tr/python-net/aspose.cells/panecollection/
 is_root: false
 ---
-##  PaneCollection sınıf
+##  PaneCollection sınıfı
 Belirtilen pencerede gösterilen tüm Pane nesnelerini temsil eder.
 
 

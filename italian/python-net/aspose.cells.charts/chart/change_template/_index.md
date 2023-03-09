@@ -18,7 +18,7 @@ def change_template(self, data):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | data | bytes | I dati del file modello grafico (.crtx).|
 

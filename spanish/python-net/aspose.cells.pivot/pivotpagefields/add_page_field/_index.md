@@ -18,7 +18,7 @@ def add_page_field(self, page_items):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | page_items | list | Etiqueta de elemento de campo de página|
 

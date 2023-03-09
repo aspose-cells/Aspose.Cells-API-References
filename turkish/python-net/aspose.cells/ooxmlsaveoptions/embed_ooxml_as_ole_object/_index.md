@@ -13,7 +13,7 @@ OleObject'in Ooxml dosyalarının ole nesnesi olarak gömülüp gömülmediğini
 
 ###  Notlar
 
-Yalnızca OleObject için.
+Yalnızca Ole Nesneleri için.
 ###  Tanım:
 ```python
 @property

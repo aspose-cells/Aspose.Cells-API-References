@@ -18,12 +18,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_column_index | int | Kaynak sütun dizini.|
-| destination_column_index | int |Hedef sütun dizini.|
-| column_number | int | Kopyalanan sütun numarası.|
+| destination_column_index | int | Hedef sütun dizini.|
+| column_number | int | Kopyalanan sütun numaraları.|
 
 
 ##  copy_columns(source_cells0, source_column_index, destination_column_index, column_number, paste_options) {#Cells-int-int-int-PasteOptions}
@@ -37,12 +37,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_column_index | int | Kaynak sütun dizini.|
-| destination_column_index | int |Hedef sütun dizini.|
-| column_number | int | Kopyalanan sütun numarası.|
+| destination_column_index | int | Hedef sütun dizini.|
+| column_number | int | Kopyalanan sütun numaraları.|
 | paste_options | [PasteOptions](/cells/tr/python-net/aspose.cells/pasteoptions) | yapıştırma seçenekleri.|
 
 
@@ -57,12 +57,12 @@ def copy_columns(self, source_cells, source_column_index, source_total_columns, 
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_column_index | int | Kaynak sütun dizini.|
 | source_total_columns | int | Kaynak sütunların sayısı.|
-| destination_column_index | int |Hedef sütun dizini.|
+| destination_column_index | int | Hedef sütun dizini.|
 | destination_total_columns | int | Hedef sütunların sayısı.|
 
 

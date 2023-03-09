@@ -1,5 +1,5 @@
 ﻿---
-title: LegendEntry sınıf
+title: LegendEntry sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 180
 url: /tr/python-net/aspose.cells.charts/legendentry/
 is_root: false
 ---
-##  LegendEntry sınıf
+##  LegendEntry sınıfı
 Grafik açıklamasındaki bir gösterge girişini temsil eder.
 
 

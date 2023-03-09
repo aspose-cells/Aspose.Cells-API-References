@@ -17,8 +17,8 @@ SelectionType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| SINGLE | Sigle seçim türü.|
-| MULTI | Çoklu seçim türü.|
+| SINGLE | Tek seçim türü.|
+| MULTI |Çoklu seçim türü.|
 | EXTEND | Seçim türünü genişletin.|
 
 

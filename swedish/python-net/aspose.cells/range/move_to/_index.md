@@ -18,7 +18,7 @@ def move_to(self, dest_row, dest_column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | dest_row | int | Startraden för destintervallet.|
 | dest_column | int | Startkolumnen för målintervallet.|

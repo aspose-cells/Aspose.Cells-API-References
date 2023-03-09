@@ -18,7 +18,7 @@ def get_on_category_axis_point_x_px(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int |  |
 ###  Anmärkningar

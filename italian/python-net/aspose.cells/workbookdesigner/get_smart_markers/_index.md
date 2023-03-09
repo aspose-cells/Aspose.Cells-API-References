@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Osservazioni
 
-Ad ogni chiamata viene creato un array di stringhe. L'array viene ordinato e i valori duplicati vengono rimossi.
+Ad ogni chiamata viene creato un array di stringhe.
 
 
 ###  Guarda anche

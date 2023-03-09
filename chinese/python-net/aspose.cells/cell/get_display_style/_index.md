@@ -1,6 +1,6 @@
 ﻿---
 title: get_display_style方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
@@ -24,7 +24,7 @@ def get_display_style(self):
 
 ##  get_display_style(include_merged_borders) {#bool}
 获取单元格的显示样式。
-如果单元格是条件格式，则显示样式与 cell.GetStyle() 不同。
+如果单元格是有条件格式化的，则显示样式与 cell.GetStyle() 不同。
 
 
 
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | include_merged_borders | bool |指示是否检查合并单元格的边框。|
 

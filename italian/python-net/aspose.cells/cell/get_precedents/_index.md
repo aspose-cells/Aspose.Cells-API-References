@@ -24,19 +24,19 @@ def get_precedents(self):
 
 ###  Osservazioni
 
-* Restituisce null se questa non è una cella formula. Tutti i riferimenti che compaiono nella formula di questa cella verranno restituiti indipendentemente dal fatto che vi siano riferimenti o meno durante il calcolo.
+* Restituisce null se questa non è una cella formula. Tutti i riferimenti visualizzati nella formula di questa cella verranno restituiti indipendentemente dal fatto che vi siano riferimenti o meno durante il calcolo.
 
 Ad esempio, sebbene la cella A2 nella formula "=IF(TRUE,A1,A2)" non venga utilizzata durante il calcolo,
 è ancora preso come precedente della formula. Per ottenere quei riferimenti che influenzano solo il calcolo, si prega di utilizzare [Cell.get_precedents_in_calculation()](/cells/it/python-net/aspose.cells/cell/get_precedents_in_calculation).
 
-* Restituisce null se questa non è una cella formula. Tutti i riferimenti che compaiono nella formula di questa cella verranno restituiti indipendentemente dal fatto che vi siano riferimenti o meno durante il calcolo.
+* Restituisce null se questa non è una cella formula. Tutti i riferimenti visualizzati nella formula di questa cella verranno restituiti indipendentemente dal fatto che vi siano riferimenti o meno durante il calcolo.
 Ad esempio, sebbene la cella A2 nella formula "=IF(TRUE,A1,A2)" non venga utilizzata durante il calcolo,
 è ancora preso come precedente della formula. Per ottenere quei riferimenti che influenzano solo il calcolo, si prega di utilizzare [Cell.get_precedents_in_calculation()](/cells/it/python-net/aspose.cells/cell/get_precedents_in_calculation).
 
-* Restituisce null se questa non è una cella formula. Tutti i riferimenti che compaiono nella formula di questa cella verranno restituiti indipendentemente dal fatto che vi siano riferimenti o meno durante il calcolo.
+* Restituisce null se questa non è una cella formula. Tutti i riferimenti visualizzati nella formula di questa cella verranno restituiti indipendentemente dal fatto che vi siano riferimenti o meno durante il calcolo.
 Ad esempio, sebbene la cella A2 nella formula "=IF(TRUE,A1,A2)" non venga utilizzata durante il calcolo,
 è ancora preso come precedente della formula. Per ottenere quei riferimenti che influenzano solo il calcolo, si prega di utilizzare [Cell.get_precedents_in_calculation()](/cells/it/python-net/aspose.cells/cell/get_precedents_in_calculation).
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellsHelper, Workbook

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields fastighet
 
-Hämtar listan över fält med ods.
+Får listan över oddsfält.
 ###  Definition:
 ```python
 @property

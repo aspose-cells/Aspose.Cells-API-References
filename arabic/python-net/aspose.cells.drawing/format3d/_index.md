@@ -18,9 +18,9 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [top_bevel](/cells/ar/python-net/aspose.cells.drawing/format3d/top_bevel) | يحصل على العنصر [Bevel](/cells/ar/python-net/aspose.cells.drawing/bevel) الذي يحمل الخصائص المرتبطة بتعريف مائل على الوجه العلوي أو الأمامي للشكل.|
-| [surface_material_type](/cells/ar/python-net/aspose.cells.drawing/format3d/surface_material_type) | الحصول على وتعيين نوع المادة الذي يتم دمجه مع خصائص الإضاءة لإعطاء الشكل والمظهر النهائي للشكل.<br/> القيمة الافتراضية هي PresetMaterialType.WarmMatte.|
-| [surface_lighting_type](/cells/ar/python-net/aspose.cells.drawing/format3d/surface_lighting_type) |الحصول على نوع الإضاءة الذي سيتم تطبيقه على مشهد الشكل وتعيينه.<br/> القيمة الافتراضية هي LightRigType.ThreePoint.|
-| [lighting_angle](/cells/ar/python-net/aspose.cells.drawing/format3d/lighting_angle) | الحصول على وضبط زاوية الإضاءة. تتراوح من 0 إلى 359.9 درجة.|
+| [surface_material_type](/cells/ar/python-net/aspose.cells.drawing/format3d/surface_material_type) |الحصول على وتعيين نوع المادة الذي يتم دمجه مع خصائص الإضاءة لإعطاء الشكل والمظهر النهائي للشكل.<br/> القيمة الافتراضية هي PresetMaterialType.WarmMatte.|
+| [surface_lighting_type](/cells/ar/python-net/aspose.cells.drawing/format3d/surface_lighting_type) | الحصول على نوع الإضاءة الذي سيتم تطبيقه على مشهد الشكل وتعيينه.<br/> القيمة الافتراضية هي LightRigType.ThreePoint.|
+| [lighting_angle](/cells/ar/python-net/aspose.cells.drawing/format3d/lighting_angle) | الحصول على زاوية الإضاءة وتعيينها تتراوح من 0 إلى 359.9 درجة.|
 
 
 ###  طُرق

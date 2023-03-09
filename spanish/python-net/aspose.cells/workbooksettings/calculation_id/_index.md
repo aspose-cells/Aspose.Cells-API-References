@@ -13,7 +13,7 @@ Especifica la versión del motor de cálculo utilizado para calcular valores en 
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En su lugar, utilice FormulaSettings.CalculationId.
+NOTA: este miembro ahora está obsoleto. En su lugar, utilice FormulaSettings.CalculationId.
  Esta propiedad se eliminará 12 meses después desde febrero de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

@@ -1,6 +1,6 @@
 ﻿---
 title: add_text_box方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 310
@@ -22,7 +22,7 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | upper_left_row | int |左上行索引。|
 | top | int |表示文本框相对于其左行的垂直偏移量，以像素为单位。|

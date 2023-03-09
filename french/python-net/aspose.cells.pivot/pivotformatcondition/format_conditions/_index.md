@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  format_conditions propriété
 
-Obtenez formatconditions pour le format de condition de tableau croisé dynamique .
+Obtenir les conditions de format pour le format de condition de tableau croisé dynamique .
 ###  Définition:
 ```python
 @property

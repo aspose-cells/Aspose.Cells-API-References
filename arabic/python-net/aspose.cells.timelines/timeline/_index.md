@@ -18,8 +18,8 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [caption](/cells/ar/python-net/aspose.cells.timelines/timeline/caption) |إرجاع أو تعيين التسمية التوضيحية للخط الزمني المحدد.|
-| [name](/cells/ar/python-net/aspose.cells.timelines/timeline/name) | إرجاع أو تعيين اسم الجدول الزمني المحدد|
+| [caption](/cells/ar/python-net/aspose.cells.timelines/timeline/caption) | إرجاع أو تعيين التسمية التوضيحية للخط الزمني المحدد.|
+| [name](/cells/ar/python-net/aspose.cells.timelines/timeline/name) |إرجاع أو تعيين اسم الجدول الزمني المحدد|
 | [left_pixel](/cells/ar/python-net/aspose.cells.timelines/timeline/left_pixel) | إرجاع أو تعيين الإزاحة الأفقية لشكل المخطط الزمني من العمود الأيسر بالبكسل.|
 | [top_pixel](/cells/ar/python-net/aspose.cells.timelines/timeline/top_pixel) | إرجاع أو تعيين الإزاحة الرأسية لشكل المخطط الزمني من صفه العلوي بالبكسل.|
 | [width_pixel](/cells/ar/python-net/aspose.cells.timelines/timeline/width_pixel) | إرجاع أو تعيين عرض الجدول الزمني المحدد بالبكسل.|
@@ -27,7 +27,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import CellsFactory, Workbook

@@ -21,7 +21,7 @@ Typen DataLabelsSeparatorType avslöjar följande medlemmar:
 | SPACE | Representerar mellanslag(" ")|
 | COMMA | Representerar komma(",")|
 | SEMICOLON | Representerar semikolon(";")|
-| PERIOD | Representerar period(".")|
+| PERIOD |Representerar period(".")|
 | NEW_LINE | Representerar nyrad("\n")|
 | CUSTOM | Representerar anpassad separator|
 

@@ -17,7 +17,7 @@ Typen ErrorBarType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| CUSTOM | InnerCustom värdetyp.|
+| CUSTOM | Typ av inre anpassat värde.|
 | FIXED_VALUE | Typ av fast värde.|
 | PERCENT | Procenttyp|
 | ST_DEV | Standardavvikelse typ.|

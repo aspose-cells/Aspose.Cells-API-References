@@ -18,7 +18,7 @@ def insert_column(self, column_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
 
@@ -34,10 +34,10 @@ def insert_column(self, column_index, update_reference):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
-| update_reference | bool | Anger om referenser i andra arbetsblad kommer att uppdateras.|
+| update_reference | bool |Anger om referenser i andra arbetsblad kommer att uppdateras.|
 
 
 

@@ -18,7 +18,7 @@ def to_image(self, stream):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | le flux de l'image de sortie|
 
@@ -34,7 +34,7 @@ def to_image(self, filename):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | filename | str | le nom de fichier de l'image de sortie|
 
@@ -50,14 +50,14 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | page_index | int | indiquer quelle page doit être convertie|
 | file_name | str | nom de fichier de l'image de sortie|
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Rendre certaines pages dans un flux.
+Afficher certaines pages dans un flux.
 
 
 
@@ -67,7 +67,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | page_index | int | indiquer quelle page doit être convertie|
 | stream | io.RawIOBase | le flux de l'image de sortie|

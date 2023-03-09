@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  support_div_tag fastighet
 
- Anger om stöd för layouten av<div> taggen när html-filen innehåller<div> taggar. Standardvärdet är falskt.
+Anger om stöd för layouten av<div> taggen när html-filen innehåller<div> taggar.
 ###  Definition:
 ```python
 @property

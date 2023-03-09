@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_null Eigentum
 
-Gibt an, ob der Nullwert ignoriert wird.
+Gibt an, ob Nullwerte ignoriert werden.
 ###  Definition:
 ```python
 @property

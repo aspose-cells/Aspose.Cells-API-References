@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el peso de la línea de borde de una imagen en unidades de pt.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

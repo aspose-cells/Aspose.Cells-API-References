@@ -20,9 +20,9 @@ is_root: false
 | SLICER_STYLE_LIGHT1 | встроенный легкий стиль один|
 | SLICER_STYLE_LIGHT2 | встроенный светильник стиль два|
 | SLICER_STYLE_LIGHT3 | встроенный свет стиль три|
-| SLICER_STYLE_LIGHT4 |встроенный свет стиль четыре|
+| SLICER_STYLE_LIGHT4 | встроенный свет стиль четыре|
 | SLICER_STYLE_LIGHT5 | встроенный свет стиль пять|
-| SLICER_STYLE_LIGHT6 | встроенный световой стиль шесть|
+| SLICER_STYLE_LIGHT6 |встроенный световой стиль шесть|
 | SLICER_STYLE_OTHER1 | встроенный стиль другой|
 | SLICER_STYLE_OTHER2 | встроенный стиль два других|
 | SLICER_STYLE_DARK1 | встроенный в темном стиле один|

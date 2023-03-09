@@ -22,7 +22,7 @@ def get_page_size_inch(self, page_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | page_index | int | L'index de page est basé sur zéro.|
 

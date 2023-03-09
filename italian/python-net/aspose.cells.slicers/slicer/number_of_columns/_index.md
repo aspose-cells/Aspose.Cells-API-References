@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta il numero di colonne nell'affettatrice specificata.
 
-###  Esempio
+###  Esempi
 
 ```python
 

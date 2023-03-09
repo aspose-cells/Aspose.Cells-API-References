@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  get_characters() {#}
  Tüm Karakterler nesnelerini döndürür
-bu, metin içindeki bir karakter aralığını temsil eder.
+metin içindeki bir karakter aralığını temsil eder.
 
 
 ###  İadeler
@@ -24,7 +24,7 @@ def get_characters(self):
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 

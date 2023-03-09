@@ -14,7 +14,7 @@ Supporto Tiff/XPS
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
 Per Tiff/Svg, usa [ImageOrPrintOptions.image_type](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions#image_type); Per Xps, usa [Workbook.save(file_name, save_format)](/cells/it/python-net/aspose.cells/workbook/save) con [XpsSaveOptions](/cells/it/python-net/aspose.cells/xpssaveoptions).
  Questa proprietà verrà rimossa 12 mesi dopo dall'agosto 2022.
 Aspose si scusa per gli eventuali disagi causati.

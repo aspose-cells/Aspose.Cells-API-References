@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/conditionalformattingicon/get_image_data/
 is_root: false
 ---
 ##  get_image_data(cell) {#Cell}
-يحصل على بيانات الصورة مع إعداد الخلية.
+يحصل على بيانات الصورة بإعداد الخلية.
 
 
 ###  عائدات
@@ -22,9 +22,9 @@ def get_image_data(self, cell):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| cell | [Cell](/cells/ar/python-net/aspose.cells/cell) | إعداد الخلية.|
+| cell | [Cell](/cells/ar/python-net/aspose.cells/cell) | إعداد الخلايا.|
 
 
 

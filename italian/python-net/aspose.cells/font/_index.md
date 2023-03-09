@@ -19,7 +19,7 @@ Il tipo Font espone i membri seguenti:
 | :- | :- |
 | [charset](/cells/it/python-net/aspose.cells/font/charset) | Rappresenta il set di caratteri.|
 | [is_italic](/cells/it/python-net/aspose.cells/font/is_italic) | Ottiene o imposta un valore che indica se il tipo di carattere è corsivo.|
-| [is_bold](/cells/it/python-net/aspose.cells/font/is_bold) | Ottiene o imposta un valore che indica se il tipo di carattere è in grassetto.|
+| [is_bold](/cells/it/python-net/aspose.cells/font/is_bold) |Ottiene o imposta un valore che indica se il tipo di carattere è in grassetto.|
 | [caps_type](/cells/it/python-net/aspose.cells/font/caps_type) | Ottiene e imposta il tipo di maiuscole di testo.|
 | [strike_type](/cells/it/python-net/aspose.cells/font/strike_type) | Ottiene il tipo di avvertimento del testo.|
 | [is_strikeout](/cells/it/python-net/aspose.cells/font/is_strikeout) | Ottiene o imposta un valore che indica se il tipo di carattere è barrato singolo.|
@@ -44,7 +44,7 @@ Il tipo Font espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

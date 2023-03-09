@@ -20,7 +20,7 @@ Typen BulletType avslöjar följande medlemmar:
 | NONE | Ingen kula.|
 | CHARACTER | Karaktär kula.|
 | PICTURE | Bildkula.|
-| AUTO_NUMBERED | Automatisk numrerad kula.|
+| AUTO_NUMBERED | Automatiska numrerade kulor.|
 
 
 

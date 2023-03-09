@@ -1,6 +1,6 @@
 ﻿---
 title: is_deleting_range_enabled方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 760
@@ -22,7 +22,7 @@ def is_deleting_range_enabled(self, start_row, start_column, total_rows, total_c
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | start_row | int |范围的起始行索引。|
 | start_column | int |范围的起始列索引。|

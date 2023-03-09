@@ -18,7 +18,7 @@ def to_image(self, stream):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | çıkış görüntüsünün akışı|
 
@@ -34,13 +34,13 @@ def to_image(self, filename):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | filename | str | çıktı görüntüsünün dosya adı|
 
 
 ##  to_image(page_index, file_name) {#int-str}
-Belirli bir sayfayı bir dosyaya dönüştürün.
+Belirli sayfaları bir dosyaya dönüştürün.
 
 
 
@@ -50,14 +50,14 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | page_index | int | hangi sayfanın dönüştürüleceğini belirtin|
 | file_name | str | çıktı görüntüsünün dosya adı|
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Belirli bir sayfayı bir akışa dönüştürün.
+Belirli sayfaları bir akışa dönüştürün.
 
 
 
@@ -67,7 +67,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | page_index | int | hangi sayfanın dönüştürüleceğini belirtin|
 | stream | io.RawIOBase | çıkış görüntüsünün akışı|

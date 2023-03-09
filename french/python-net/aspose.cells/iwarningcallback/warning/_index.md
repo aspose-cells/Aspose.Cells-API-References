@@ -18,7 +18,7 @@ def warning(self, warning_info):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | warning_info | [WarningInfo](/cells/fr/python-net/aspose.cells/warninginfo) | informations d'avertissement|
 

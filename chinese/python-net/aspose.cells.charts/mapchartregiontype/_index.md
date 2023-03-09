@@ -1,13 +1,13 @@
 ﻿---
 title: MapChartRegionType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 570
 url: /zh/python-net/aspose.cells.charts/mapchartregiontype/
 is_root: false
 ---
-##  MapChartRegionType枚举
+## MapChartRegionType枚举
 表示地图图表的区域类型。
 
 

@@ -13,8 +13,8 @@ Kullanıcının korumalı bir çalışma sayfasındaki çizim nesnelerini deği�
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
- lütfen Protection.AllowEditingObject özelliğini kullanın.
+ NOT: Bu üye artık kullanılmıyor.
+ lütfen Koruma Nesne Düzenlemeye İzin Ver özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

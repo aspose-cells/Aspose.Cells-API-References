@@ -18,7 +18,7 @@ def insert_cut_cells(self, cut_range, row, column, shift_type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | cut_range | [Range](/cells/es/python-net/aspose.cells/range) | El rango de corte.|
 | row | int | La fila.|

@@ -11,7 +11,7 @@ is_root: false
 
 Metnin şekil ile döndürülüp döndürülmediğini gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

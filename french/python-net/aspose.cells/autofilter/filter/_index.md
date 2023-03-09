@@ -18,7 +18,7 @@ def filter(self, field_index, criteria):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | field_index | int | Le décalage entier du champ sur lequel vous souhaitez baser le filtre<br/> (à partir de la gauche de la liste ; le champ le plus à gauche est le champ 0).|
 | criteria | str | Les critères spécifiés (une chaîne ; par exemple, "101").|

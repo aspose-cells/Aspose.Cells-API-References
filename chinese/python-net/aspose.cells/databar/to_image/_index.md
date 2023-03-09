@@ -1,6 +1,6 @@
 ﻿---
 title: to_image方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def to_image(self, cell, img_opts):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | cell | [Cell](/cells/zh/python-net/aspose.cells/cell) |指示要在哪个单元格中呈现的数据栏|
 | img_opts | aspose.cells.rendering.ImageOrPrintOptions |ImageOrPrintOptions 包含输出图像的一些属性|

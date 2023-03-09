@@ -13,7 +13,7 @@ Aranan dizenin büyük/küçük harfe duyarlı olup olmadığını gösterir.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
  lütfen FindOptions.CaseSensitive özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

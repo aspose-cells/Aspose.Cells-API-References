@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scroll_bars fastighet
 
-Indikerar anger om kontrollen har vertikala rullningslister, horisontella rullningslister, båda eller ingetdera.
+Indikerar om kontrollen har vertikala rullningslister, horisontella rullningslister, båda eller ingetdera.
 ###  Definition:
 ```python
 @property

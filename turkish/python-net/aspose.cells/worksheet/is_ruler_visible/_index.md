@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible mülk
 
-Cetvelin görünür olup olmadığını gösterir. Bu özellik yalnızca sayfa sonu önizlemesi için uygulanır.
+Cetvelin görünür olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

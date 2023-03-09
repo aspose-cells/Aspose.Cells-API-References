@@ -18,7 +18,7 @@ def hide_row(self, row):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 

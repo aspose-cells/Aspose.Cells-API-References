@@ -11,7 +11,7 @@ is_root: false
 
 Représente la largeur du décalage vertical de la forme par rapport à sa ligne d'angle inférieure bottom, en pixels.
 
-###  Exemple
+###  Exemples
 
 ```python
 

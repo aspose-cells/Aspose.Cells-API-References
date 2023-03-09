@@ -22,7 +22,7 @@ def format_characters(self, start_index, length, font, flag):
 | :- | :- | :- |
 | start_index | int | Der Startindex.|
 | length | int | Die Länge.|
-| font | [Font](/cells/de/python-net/aspose.cells/font) |Die Schriftarteinstellung.|
+| font | [Font](/cells/de/python-net/aspose.cells/font) | Die Schriftarteinstellung.|
 | flag | [StyleFlag](/cells/de/python-net/aspose.cells/styleflag) | Das Flag der Schriftarteinstellung.|
 
 

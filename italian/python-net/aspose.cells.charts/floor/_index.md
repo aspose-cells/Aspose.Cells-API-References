@@ -32,7 +32,7 @@ Il tipo Floor espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import License, Workbook

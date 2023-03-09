@@ -22,12 +22,12 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_first | bool | Anger om bilden av sidhuvud/sidfot på första sidan ställs in.|
 | is_even | bool | Anger om bilden av sidhuvud/sidfot på jämna sidor ställs in.|
 | is_header | bool | Indikerar om bilden av sidhuvud/sidfot ställs in.|
-| section | int |0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
+| section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
 | image_data | bytes | Bilddata.|
 
 

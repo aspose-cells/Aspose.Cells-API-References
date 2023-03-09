@@ -18,7 +18,7 @@ def protect(self, protection_type, password):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | protection_type | [ProtectionType](/cells/it/python-net/aspose.cells/protectiontype) | Tipo di protezione.|
 | password | str | Password per proteggere la cartella di lavoro.|

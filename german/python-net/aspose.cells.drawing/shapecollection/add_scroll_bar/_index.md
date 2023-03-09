@@ -26,12 +26,12 @@ def add_scroll_bar(self, upper_left_row, top, upper_left_column, left, height, w
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz von ScrollBar von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Stellt den horizontalen Versatz von ScrollBar von seiner linken Spalte in Pixeleinheiten dar.|
 | height | int | Stellt die Höhe von ScrollBar in Pixeleinheiten dar.|
 | width | int | Stellt die Breite von ScrollBar in Pixeleinheiten dar.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

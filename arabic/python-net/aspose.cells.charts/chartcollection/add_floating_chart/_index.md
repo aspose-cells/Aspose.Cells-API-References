@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [ChartType](/cells/ar/python-net/aspose.cells.charts/charttype) | نوع التخطيط|
 | left | int | إزاحة x إلى الزاوية|

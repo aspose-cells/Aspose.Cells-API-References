@@ -1,5 +1,5 @@
 ﻿---
-title: CalculationCell sınıf
+title: CalculationCell sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 110
 url: /tr/python-net/aspose.cells/calculationcell/
 is_root: false
 ---
-##  CalculationCell sınıf
+##  CalculationCell sınıfı
 Hesaplanmakta olan bir hücreyle ilgili hesaplamayla ilgili verileri temsil eder.
 
 
@@ -27,7 +27,7 @@ CalculationCell türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [set_calculated_value(v)](/cells/tr/python-net/aspose.cells/calculationcell/set_calculated_value/#any) |Hücre için hesaplanan değeri ayarlar.|
+| [set_calculated_value(v)](/cells/tr/python-net/aspose.cells/calculationcell/set_calculated_value/#any) | Hücre için hesaplanan değeri ayarlar.|
 
 
 

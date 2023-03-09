@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.rendering/ipagesavingcallback/page_end_saving/
 is_root: false
 ---
 ##  page_end_saving(args) {#PageEndSavingArgs}
-التحكم / الإشارة إلى أن الصفحة تنتهي ليتم إخراجها.
+التحكم / الإشارة إلى انتهاء الصفحة ليتم إخراجها.
 
 
 
@@ -18,7 +18,7 @@ def page_end_saving(self, args):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | args | [PageEndSavingArgs](/cells/ar/python-net/aspose.cells.rendering/pageendsavingargs) | معلومات لصفحة تنتهي عملية الحفظ.|
 

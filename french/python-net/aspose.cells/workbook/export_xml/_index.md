@@ -18,12 +18,12 @@ def export_xml(self, map_name, path):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | map_name | str | nom de la carte XML à exporter|
 | path | str | le chemin d'exportation|
 
-###  Exemple
+###  Exemples
 
 Le code suivant a exporté les données liées par le premier XmlMap.
 
@@ -49,7 +49,7 @@ def export_xml(self, map_name, stream):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | map_name | str | nom de la carte XML à exporter|
 | stream | io.RawIOBase | le flux d'exportation|

@@ -18,11 +18,11 @@ def un_merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | first_row | int | Prima riga di questo intervallo (a base zero)|
 | first_column | int | Prima colonna di questo intervallo (a base zero)|
-| total_rows | int | Numero di righe (una basata)|
+| total_rows | int | Numero di righe (una base)|
 | total_columns | int | Numero di colonne (una basata)|
 
 

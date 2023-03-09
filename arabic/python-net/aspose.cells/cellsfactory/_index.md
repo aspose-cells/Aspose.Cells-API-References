@@ -23,7 +23,7 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [create_style()](/cells/ar/python-net/aspose.cells/cellsfactory/create_style/#) |يخلق اسلوب جديد.|
+| [create_style()](/cells/ar/python-net/aspose.cells/cellsfactory/create_style/#) | يخلق اسلوب جديد.|
 
 
 

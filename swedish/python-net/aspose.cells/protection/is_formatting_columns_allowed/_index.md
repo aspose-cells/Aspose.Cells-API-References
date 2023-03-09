@@ -13,8 +13,8 @@ Representerar om formatering av kolumner är tillåten på ett skyddat kalkylbla
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
- använd egenskapen Protection.AllowFormattingColumn.
+ OBS: Denna medlem är nu föråldrad.
+ använd skydd. Egenskapen AllowFormattingColumn.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

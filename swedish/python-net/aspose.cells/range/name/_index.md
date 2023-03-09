@@ -13,7 +13,7 @@ Hämtar eller ställer in name i intervallet.
 
 ###  Anmärkningar
 
-Namngivna intervall stöds. Till exempel,
+Namngivna intervall stöds.
 
 range.Name = "Sheet1!MyRange";
 ###  Definition:

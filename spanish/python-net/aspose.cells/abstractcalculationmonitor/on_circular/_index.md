@@ -14,7 +14,7 @@ Implemente este método para hacer negocios al calcular fórmulas con referencia
 ###  Devoluciones
 
 Si el motor de fórmulas necesita calcular esas celdas en circular después de esta llamada.
-Es cierto para permitir que el motor de fórmulas continúe haciendo cálculos por ellos.
+True para permitir que el motor de fórmulas continúe haciendo cálculos por ellos.
 False para permitir que el motor de fórmulas simplemente marque esas celdas como Calculadas.
 
 
@@ -24,9 +24,9 @@ def on_circular(self, circular_cells_data):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| circular_cells_data | collections.abc.Iterator |IEnumerator con elementos CalculationCell que representan celdas que<br/> dependen de las referencias circulares.|
+| circular_cells_data | collections.abc.Iterator | IEnumerator con elementos CalculationCell que representan celdas que<br/> dependen de las referencias circulares.|
 ###  Observaciones
 
 En la implementación, el usuario también puede establecer el valor esperado como resultado calculado

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format Eigentum
 
-Ruft das Format des numerischen Werts ab und legt es fest.
+Ruft das Format numerischer Werte ab und legt es fest.
 ###  Definition:
 ```python
 @property

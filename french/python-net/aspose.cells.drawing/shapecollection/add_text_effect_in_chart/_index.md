@@ -22,7 +22,7 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/fr/python-net/aspose.cells.drawing/msopresettexteffect) | Le type d'effet de texte prédéfini mso.|
 | text | str | Le texte WordArt.|
@@ -30,8 +30,8 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 | size | int | La taille de la police|
 | font_bold | bool | Indique si la police est en gras.|
 | font_italic | bool | Indique si la police est en italique.|
-| top | int | Représente le décalage vertical de la forme par rapport au coin supérieur gauche en unités de 1/4 000 de la zone du graphique.|
-| left | int | Représente le décalage vertical de la forme par rapport au coin supérieur gauche en unités de 1/4 000 de la zone du graphique.|
+| top | int |Représente le décalage vertical de la forme par rapport au coin supérieur gauche en unités de 1/4 000 de la zone du graphique.|
+| left | int |Représente le décalage vertical de la forme par rapport au coin supérieur gauche en unités de 1/4 000 de la zone du graphique.|
 | height | int | Représente la hauteur de la forme, en unités de 1/4000 de la zone du graphique.|
 | width | int | Représente la largeur de la forme, en unités de 1/4000 de la zone du graphique.|
 

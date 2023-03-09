@@ -26,21 +26,21 @@ is_root: false
 | [is_equation](/cells/ar/python-net/aspose.cells.drawing/listbox/is_equation) | الإشارة إلى ما إذا كان الشكل يحتوي على معادلة فقط.|
 | [is_smart_art](/cells/ar/python-net/aspose.cells.drawing/listbox/is_smart_art) | يشير إلى ما إذا كان الشكل فنًا ذكيًا.|
 | [z_order_position](/cells/ar/python-net/aspose.cells.drawing/listbox/z_order_position) | إرجاع موضع الشكل بالترتيب z.|
-| [name](/cells/ar/python-net/aspose.cells.drawing/listbox/name) |الحصول على اسم الشكل وتعيينه.|
+| [name](/cells/ar/python-net/aspose.cells.drawing/listbox/name) | الحصول على اسم الشكل وتعيينه.|
 | [alternative_text](/cells/ar/python-net/aspose.cells.drawing/listbox/alternative_text) | إرجاع أو تحديد السلسلة النصية الوصفية (البديلة) للعنصر [Shape](/cells/ar/python-net/aspose.cells.drawing/shape).|
-| [title](/cells/ar/python-net/aspose.cells.drawing/listbox/title) | يحدد العنوان (التسمية التوضيحية) لكائن الشكل الحالي.|
-| [line_format](/cells/ar/python-net/aspose.cells.drawing/listbox/line_format) |إرجاع كائن MsoLineFormat يحتوي على خصائص تنسيق الخط للشكل المحدد.|
+| [title](/cells/ar/python-net/aspose.cells.drawing/listbox/title) |يحدد العنوان (التسمية التوضيحية) لكائن الشكل الحالي.|
+| [line_format](/cells/ar/python-net/aspose.cells.drawing/listbox/line_format) | إرجاع كائن MsoLineFormat يحتوي على خصائص تنسيق الخط للشكل المحدد.|
 | [fill_format](/cells/ar/python-net/aspose.cells.drawing/listbox/fill_format) | إرجاع كائن MsoFillFormat يحتوي على خصائص تنسيق التعبئة للشكل المحدد.|
 | [format](/cells/ar/python-net/aspose.cells.drawing/listbox/format) | يمثل إعداد تنسيق الشكل.|
 | [line](/cells/ar/python-net/aspose.cells.drawing/listbox/line) | يحصل على نمط الخط|
-| [fill](/cells/ar/python-net/aspose.cells.drawing/listbox/fill) |إرجاع عنصر [Shape.fill_format](/cells/ar/python-net/aspose.cells.drawing/shape#fill_format) يحتوي على خصائص تنسيق تعبئة للشكل المحدد.|
+| [fill](/cells/ar/python-net/aspose.cells.drawing/listbox/fill) | إرجاع عنصر [Shape.fill_format](/cells/ar/python-net/aspose.cells.drawing/shape#fill_format) يحتوي على خصائص تنسيق تعبئة للشكل المحدد.|
 | [shadow_effect](/cells/ar/python-net/aspose.cells.drawing/listbox/shadow_effect) | يمثل عنصر [ShadowEffect](/cells/ar/python-net/aspose.cells.drawing/shadoweffect) يحدد تأثير الظل لعنصر المخطط أو شكله.|
-| [reflection](/cells/ar/python-net/aspose.cells.drawing/listbox/reflection) |يمثل عنصر [ReflectionEffect](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect) يحدد تأثير الانعكاس لعنصر المخطط أو شكله.|
-| [glow](/cells/ar/python-net/aspose.cells.drawing/listbox/glow) | يمثل عنصر [GlowEffect](/cells/ar/python-net/aspose.cells.drawing/gloweffect) يحدد تأثير التوهج لعنصر المخطط أو شكله.|
+| [reflection](/cells/ar/python-net/aspose.cells.drawing/listbox/reflection) | يمثل عنصر [ReflectionEffect](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect) يحدد تأثير الانعكاس لعنصر المخطط أو شكله.|
+| [glow](/cells/ar/python-net/aspose.cells.drawing/listbox/glow) | يمثل عنصر [GlowEffect](/cells/ar/python-net/aspose.cells.drawing/gloweffect) الذي يحدد تأثير التوهج لعنصر المخطط أو شكله.|
 | [soft_edges](/cells/ar/python-net/aspose.cells.drawing/listbox/soft_edges) | الحصول على نصف قطر التمويه وتعيينه لتطبيقه على الحواف ، في وحدة من النقاط.|
 | [three_d_format](/cells/ar/python-net/aspose.cells.drawing/listbox/three_d_format) | الحصول على تنسيق ثلاثي الأبعاد للشكل وتعيينه.|
 | [text_frame](/cells/ar/python-net/aspose.cells.drawing/listbox/text_frame) | إرجاع كائن TextFrame يحتوي على خصائص المحاذاة والتثبيت للشكل المحدد.|
-| [format_picture](/cells/ar/python-net/aspose.cells.drawing/listbox/format_picture) | الحصول على خيارات تنسيق الصورة وتعيينها.|
+| [format_picture](/cells/ar/python-net/aspose.cells.drawing/listbox/format_picture) |الحصول على خيارات تنسيق الصورة وتعيينها.|
 | [is_hidden](/cells/ar/python-net/aspose.cells.drawing/listbox/is_hidden) | يشير إلى ما إذا كان الكائن مرئيًا أم لا.|
 | [is_lock_aspect_ratio](/cells/ar/python-net/aspose.cells.drawing/listbox/is_lock_aspect_ratio) | صحيح يعني أنه لا يسمح بإجراء تغييرات في نسبة العرض إلى الارتفاع.|
 | [rotation_angle](/cells/ar/python-net/aspose.cells.drawing/listbox/rotation_angle) | يحصل على دوران الشكل ويضبطه.|
@@ -48,16 +48,16 @@ is_root: false
 | [id](/cells/ar/python-net/aspose.cells.drawing/listbox/id) | يحصل على معرف هذا الشكل.|
 | [spid](/cells/ar/python-net/aspose.cells.drawing/listbox/spid) | تحدد سلسلة اختيارية يمكن لتطبيق ما استخدامها لتعريف الشكل المعين.|
 | [spt](/cells/ar/python-net/aspose.cells.drawing/listbox/spt) | يحدد رقمًا اختياريًا يمكن لأحد التطبيقات استخدامه لإقران الشكل المعين بنوع شكل محدد.|
-| [worksheet](/cells/ar/python-net/aspose.cells.drawing/listbox/worksheet) |الحصول على الكائن [Shape.worksheet](/cells/ar/python-net/aspose.cells.drawing/shape#worksheet) الذي يحتوي على هذا الشكل.|
+| [worksheet](/cells/ar/python-net/aspose.cells.drawing/listbox/worksheet) | الحصول على الكائن [Shape.worksheet](/cells/ar/python-net/aspose.cells.drawing/shape#worksheet) الذي يحتوي على هذا الشكل.|
 | [is_group](/cells/ar/python-net/aspose.cells.drawing/listbox/is_group) | يشير إلى ما إذا كان الشكل مجموعة.|
 | [is_in_group](/cells/ar/python-net/aspose.cells.drawing/listbox/is_in_group) | يشير إلى ما إذا كان الشكل مجمّعًا أم لا.|
 | [is_word_art](/cells/ar/python-net/aspose.cells.drawing/listbox/is_word_art) | يشير إلى ما إذا كان هذا الشكل عبارة عن صورة فنية.|
-| [text_effect](/cells/ar/python-net/aspose.cells.drawing/listbox/text_effect) |إرجاع كائن TextEffectFormat يحتوي على خصائص تنسيق تأثير النص للشكل المحدد.<br/> ينطبق على كائنات الشكل التي تمثل WordArt.|
+| [text_effect](/cells/ar/python-net/aspose.cells.drawing/listbox/text_effect) | إرجاع كائن TextEffectFormat يحتوي على خصائص تنسيق تأثير النص للشكل المحدد.<br/> ينطبق على كائنات الشكل التي تمثل WordArt.|
 | [is_locked](/cells/ar/python-net/aspose.cells.drawing/listbox/is_locked) | صواب إذا كان الكائن مؤمنًا ، خطأ إذا كان من الممكن تعديل الكائن عندما تكون الورقة محمية.|
-| [is_printable](/cells/ar/python-net/aspose.cells.drawing/listbox/is_printable) | صحيح إذا كان الكائن قابل للطباعة|
+| [is_printable](/cells/ar/python-net/aspose.cells.drawing/listbox/is_printable) |صحيح إذا كان الكائن قابل للطباعة|
 | [mso_drawing_type](/cells/ar/python-net/aspose.cells.drawing/listbox/mso_drawing_type) | يحصل على نوع الرسم MSO.|
 | [auto_shape_type](/cells/ar/python-net/aspose.cells.drawing/listbox/auto_shape_type) | الحصول على نوع الشكل التلقائي وتعيينه.|
-| [anchor_type](/cells/ar/python-net/aspose.cells.drawing/listbox/anchor_type) | الحصول على الشكل وتعيين العنصر النائب لنقطة الارتساء.|
+| [anchor_type](/cells/ar/python-net/aspose.cells.drawing/listbox/anchor_type) | الحصول على العنصر النائب للشكل وتعيينه.|
 | [placement](/cells/ar/python-net/aspose.cells.drawing/listbox/placement) | يمثل الطريقة التي يتم بها إرفاق الكائن الرسومي بالخلايا الموجودة أسفله.<br/> تتحكم الخاصية في وضع كائن في ورقة العمل.|
 | [upper_left_row](/cells/ar/python-net/aspose.cells.drawing/listbox/upper_left_row) | يمثل فهرس صف الزاوية اليسرى العليا.|
 | [upper_delta_y](/cells/ar/python-net/aspose.cells.drawing/listbox/upper_delta_y) | الحصول على أو تعيين الإزاحة الرأسية للشكل من صف الزاوية اليسرى العليا.|
@@ -65,33 +65,33 @@ is_root: false
 | [upper_delta_x](/cells/ar/python-net/aspose.cells.drawing/listbox/upper_delta_x) | الحصول على أو تعيين الإزاحة الأفقية للشكل من عمود الزاوية اليسرى العليا.|
 | [lower_right_row](/cells/ar/python-net/aspose.cells.drawing/listbox/lower_right_row) | يمثل فهرس صف الزاوية اليمنى السفلي.|
 | [lower_delta_y](/cells/ar/python-net/aspose.cells.drawing/listbox/lower_delta_y) | الحصول على أو تعيين الإزاحة الرأسية للشكل من صف الزاوية اليمنى السفلية.|
-| [lower_right_column](/cells/ar/python-net/aspose.cells.drawing/listbox/lower_right_column) | يمثل فهرس عمود الركن الأيمن السفلي.|
+| [lower_right_column](/cells/ar/python-net/aspose.cells.drawing/listbox/lower_right_column) | يمثل فهرس عمود الزاوية اليمنى السفلي.|
 | [lower_delta_x](/cells/ar/python-net/aspose.cells.drawing/listbox/lower_delta_x) | الحصول على أو تعيين الإزاحة الأفقية للشكل من عمود الركن الأيمن السفلي.|
 | [right](/cells/ar/python-net/aspose.cells.drawing/listbox/right) | يمثل عرض الإزاحة الأفقية للشكل من عمود الركن الأيمن السفلي ، بوحدة البكسل.|
-| [bottom](/cells/ar/python-net/aspose.cells.drawing/listbox/bottom) | يمثل عرض الإزاحة الرأسية للشكل من صف الزاوية السفلية السفلية ، بوحدة البكسل.|
-| [width](/cells/ar/python-net/aspose.cells.drawing/listbox/width) | يمثل عرض الشكل بوحدة البكسل.|
-| [width_inch](/cells/ar/python-net/aspose.cells.drawing/listbox/width_inch) | يمثل عرض الشكل بوحدة البوصة.|
-| [width_pt](/cells/ar/python-net/aspose.cells.drawing/listbox/width_pt) | يمثل عرض الشكل بوحدة النقطة.|
-| [width_cm](/cells/ar/python-net/aspose.cells.drawing/listbox/width_cm) | يمثل عرض الشكل بوحدة سنتيمترات.|
-| [height](/cells/ar/python-net/aspose.cells.drawing/listbox/height) | يمثل ارتفاع الشكل بوحدة البكسل.|
-| [height_inch](/cells/ar/python-net/aspose.cells.drawing/listbox/height_inch) | يمثل ارتفاع الشكل بوحدة البوصة.|
-| [height_pt](/cells/ar/python-net/aspose.cells.drawing/listbox/height_pt) | يمثل ارتفاع الشكل بوحدة النقاط.|
-| [height_cm](/cells/ar/python-net/aspose.cells.drawing/listbox/height_cm) | يمثل ارتفاع الشكل بوحدة السنتيمترات.|
+| [bottom](/cells/ar/python-net/aspose.cells.drawing/listbox/bottom) |يمثل عرض الإزاحة الرأسية للشكل من صف الزاوية السفلية السفلية ، بوحدة البكسل.|
+| [width](/cells/ar/python-net/aspose.cells.drawing/listbox/width) | يمثل عرض الشكل بوحدات البكسل.|
+| [width_inch](/cells/ar/python-net/aspose.cells.drawing/listbox/width_inch) | يمثل عرض الشكل بوحدات البوصة.|
+| [width_pt](/cells/ar/python-net/aspose.cells.drawing/listbox/width_pt) | يمثل عرض الشكل بوحدات من النقاط.|
+| [width_cm](/cells/ar/python-net/aspose.cells.drawing/listbox/width_cm) | يمثل عرض الشكل بوحدات السنتيمترات.|
+| [height](/cells/ar/python-net/aspose.cells.drawing/listbox/height) | يمثل ارتفاع الشكل بوحدات البكسل.|
+| [height_inch](/cells/ar/python-net/aspose.cells.drawing/listbox/height_inch) | يمثل ارتفاع الشكل بوحدات البوصة.|
+| [height_pt](/cells/ar/python-net/aspose.cells.drawing/listbox/height_pt) | يمثل ارتفاع الشكل بوحدات من النقاط.|
+| [height_cm](/cells/ar/python-net/aspose.cells.drawing/listbox/height_cm) | يمثل ارتفاع الشكل بوحدات السنتيمترات.|
 | [left](/cells/ar/python-net/aspose.cells.drawing/listbox/left) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة البكسل.|
-| [left_inch](/cells/ar/python-net/aspose.cells.drawing/listbox/left_inch) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة البوصة.|
-| [left_cm](/cells/ar/python-net/aspose.cells.drawing/listbox/left_cm) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة السنتيمترات.|
+| [left_inch](/cells/ar/python-net/aspose.cells.drawing/listbox/left_inch) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدات البوصة.|
+| [left_cm](/cells/ar/python-net/aspose.cells.drawing/listbox/left_cm) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدات السنتيمتر.|
 | [top](/cells/ar/python-net/aspose.cells.drawing/listbox/top) | يمثل الإزاحة الرأسية للشكل من صفه العلوي ، بوحدة بكسل.|
-| [top_inch](/cells/ar/python-net/aspose.cells.drawing/listbox/top_inch) | يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدة البوصة.|
-| [top_cm](/cells/ar/python-net/aspose.cells.drawing/listbox/top_cm) | يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدة سنتيمترات.|
+| [top_inch](/cells/ar/python-net/aspose.cells.drawing/listbox/top_inch) |يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدات البوصة.|
+| [top_cm](/cells/ar/python-net/aspose.cells.drawing/listbox/top_cm) | يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدات السنتيمتر.|
 | [top_to_corner](/cells/ar/python-net/aspose.cells.drawing/listbox/top_to_corner) | الحصول على الإزاحة الرأسية للشكل وتعيينها من الحد العلوي لورقة العمل ، بوحدة البكسل.|
-| [left_to_corner](/cells/ar/python-net/aspose.cells.drawing/listbox/left_to_corner) | الحصول على الإزاحة الأفقية للشكل من الحد الأيسر لورقة العمل وتعيينها.|
+| [left_to_corner](/cells/ar/python-net/aspose.cells.drawing/listbox/left_to_corner) | الحصول على وتعيين الإزاحة الأفقية للشكل من الحد الأيسر لورقة العمل.|
 | [x](/cells/ar/python-net/aspose.cells.drawing/listbox/x) | الحصول على الإزاحة الأفقية للشكل وتعيينها من الحد الأيسر لورقة العمل ، بوحدة البكسل.|
-| [y](/cells/ar/python-net/aspose.cells.drawing/listbox/y) |الحصول على الإزاحة الرأسية للشكل وتعيينها من الحد العلوي لورقة العمل ، بوحدة البكسل.|
+| [y](/cells/ar/python-net/aspose.cells.drawing/listbox/y) | الحصول على الإزاحة الرأسية للشكل وتعيينها من الحد العلوي لورقة العمل ، بوحدة البكسل.|
 | [width_scale](/cells/ar/python-net/aspose.cells.drawing/listbox/width_scale) | الحصول على مقياس العرض وتعيينه ، بوحدة نسبة مئوية من عرض الصورة الأصلي.<br/> إذا لم يكن الشكل صورة ، تقوم الخاصية WidthScale بإرجاع 100 فقط ؛|
 | [height_scale](/cells/ar/python-net/aspose.cells.drawing/listbox/height_scale) | الحصول على مقياس الارتفاع وتعيينه ، بوحدة نسبة مئوية من ارتفاع الصورة الأصلي.<br/> إذا لم يكن الشكل صورة ، تقوم الخاصية HeightScale بإرجاع 100 فقط ؛|
-| [top_in_shape](/cells/ar/python-net/aspose.cells.drawing/listbox/top_in_shape) |يمثل الإزاحة الرأسية للشكل من الحد العلوي للشكل الأصل ،<br/> في وحدة 1/4000 من ارتفاع الشكل الأصل.|
-| [left_in_shape](/cells/ar/python-net/aspose.cells.drawing/listbox/left_in_shape) | يمثل الإزاحة الأفقية للشكل من الحد الأيسر للشكل الأصل ،<br/> بوحدة 1/4000 من عرض الشكل الأصل.|
-| [width_in_shape](/cells/ar/python-net/aspose.cells.drawing/listbox/width_in_shape) | يمثل عرض الشكل بوحدة 1/4000 من الشكل الأصل.|
+| [top_in_shape](/cells/ar/python-net/aspose.cells.drawing/listbox/top_in_shape) | يمثل الإزاحة الرأسية للشكل من الحد العلوي للشكل الأصل ،<br/> بوحدة 1/4000 من ارتفاع الشكل الأصل.|
+| [left_in_shape](/cells/ar/python-net/aspose.cells.drawing/listbox/left_in_shape) |يمثل الإزاحة الأفقية للشكل من الحد الأيسر للشكل الأصل ،<br/> بوحدة 1/4000 من عرض الشكل الأصل.|
+| [width_in_shape](/cells/ar/python-net/aspose.cells.drawing/listbox/width_in_shape) | يمثل عرض الشكل بوحدات 1/4000 من الشكل الأصل.|
 | [height_in_shape](/cells/ar/python-net/aspose.cells.drawing/listbox/height_in_shape) | يمثل الإزاحة الرأسية للشكل من الحد العلوي للشكل الأصلي ، بوحدة 1/4000 من ارتفاع الشكل الأصل ..|
 | [group](/cells/ar/python-net/aspose.cells.drawing/listbox/group) | الحصول على شكل المجموعة الذي يحتوي على هذا الشكل.|
 | [type](/cells/ar/python-net/aspose.cells.drawing/listbox/type) | يحصل على نوع الشكل التلقائي.|
@@ -104,7 +104,7 @@ is_root: false
 | [relative_to_original_picture_size](/cells/ar/python-net/aspose.cells.drawing/listbox/relative_to_original_picture_size) | يشير إلى ما إذا كان الشكل متناسبًا مع حجم الصورة الأصلي.|
 | [linked_cell](/cells/ar/python-net/aspose.cells.drawing/listbox/linked_cell) | الحصول على نطاق ورقة العمل المرتبط بقيمة عنصر التحكم أو تعيينه.|
 | [input_range](/cells/ar/python-net/aspose.cells.drawing/listbox/input_range) | الحصول على أو تعيين نطاق ورقة العمل المستخدم لتعبئة مربع التحرير والسرد المحدد.|
-| [text_shape_type](/cells/ar/python-net/aspose.cells.drawing/listbox/text_shape_type) | الحصول على نوع شكل النص المعين مسبقًا وتعيينه.|
+| [text_shape_type](/cells/ar/python-net/aspose.cells.drawing/listbox/text_shape_type) |الحصول على نوع شكل النص المعين مسبقًا وتعيينه.|
 | [text_body](/cells/ar/python-net/aspose.cells.drawing/listbox/text_body) | الحصول على إعداد نص الشكل وتعيينه.|
 | [font](/cells/ar/python-net/aspose.cells.drawing/listbox/font) | يمثل خط الشكل.|
 | [text_options](/cells/ar/python-net/aspose.cells.drawing/listbox/text_options) | يمثل خيارات النص للشكل.|
@@ -112,7 +112,7 @@ is_root: false
 | [is_rich_text](/cells/ar/python-net/aspose.cells.drawing/listbox/is_rich_text) | ما إذا كان النص نصًا منسقًا أم لا.|
 | [html_text](/cells/ar/python-net/aspose.cells.drawing/listbox/html_text) | الحصول على وتعيين سلسلة html التي تحتوي على بيانات وبعض التنسيقات في مربع النص هذا.|
 | [text_vertical_overflow](/cells/ar/python-net/aspose.cells.drawing/listbox/text_vertical_overflow) | الحصول على وتعيين نوع تجاوز النص العمودي للشكل الذي يحتوي على نص.|
-| [text_horizontal_overflow](/cells/ar/python-net/aspose.cells.drawing/listbox/text_horizontal_overflow) |الحصول على وتعيين نوع تجاوز النص الأفقي للشكل الذي يحتوي على نص.|
+| [text_horizontal_overflow](/cells/ar/python-net/aspose.cells.drawing/listbox/text_horizontal_overflow) | الحصول على وتعيين نوع تجاوز النص الأفقي للشكل الذي يحتوي على نص.|
 | [is_text_wrapped](/cells/ar/python-net/aspose.cells.drawing/listbox/is_text_wrapped) | الحصول على وتعيين نوع التفاف النص للشكل الذي يحتوي على نص.|
 | [text_orientation_type](/cells/ar/python-net/aspose.cells.drawing/listbox/text_orientation_type) | الحصول على نوع اتجاه النص للشكل وتعيينه.|
 | [text_horizontal_alignment](/cells/ar/python-net/aspose.cells.drawing/listbox/text_horizontal_alignment) | الحصول على نوع المحاذاة الأفقية للنص وتعيينه.|
@@ -120,7 +120,7 @@ is_root: false
 | [text_direction](/cells/ar/python-net/aspose.cells.drawing/listbox/text_direction) | الحصول على / تعيين اتجاه تدفق النص لهذا الكائن.|
 | [control_data](/cells/ar/python-net/aspose.cells.drawing/listbox/control_data) | يحصل على بيانات التحكم.|
 | [active_x_control](/cells/ar/python-net/aspose.cells.drawing/listbox/active_x_control) | يحصل على عنصر تحكم ActiveX.|
-| [paths](/cells/ar/python-net/aspose.cells.drawing/listbox/paths) | الحصول على مسارات شكل هندسي مخصص.|
+| [paths](/cells/ar/python-net/aspose.cells.drawing/listbox/paths) |الحصول على مسارات شكل هندسي مخصص.|
 | [geometry](/cells/ar/python-net/aspose.cells.drawing/listbox/geometry) | يحصل على الهندسة|
 | [create_id](/cells/ar/python-net/aspose.cells.drawing/listbox/create_id) | يحصل ويخلق مجموعات معرّف لهذا الشكل.|
 | [item_count](/cells/ar/python-net/aspose.cells.drawing/listbox/item_count) | الحصول على عدد العناصر في مربع القائمة.|
@@ -146,15 +146,15 @@ is_root: false
 | [add_hyperlink(address)](/cells/ar/python-net/aspose.cells.drawing/listbox/add_hyperlink/#str) | يضيف ارتباطًا تشعبيًا إلى الشكل.|
 | [remove_hyperlink()](/cells/ar/python-net/aspose.cells.drawing/listbox/remove_hyperlink/#) | قم بإزالة الارتباط التشعبي للشكل.|
 | [move_to_range(upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/ar/python-net/aspose.cells.drawing/listbox/move_to_range/#int-int-int-int) | ينقل الشكل إلى نطاق محدد.|
-| [align_top_right_corner(top_row, right_column)](/cells/ar/python-net/aspose.cells.drawing/listbox/align_top_right_corner/#int-int) | ينقل الصورة إلى الزاوية العلوية اليمنى.|
+| [align_top_right_corner(top_row, right_column)](/cells/ar/python-net/aspose.cells.drawing/listbox/align_top_right_corner/#int-int) |ينقل الصورة إلى الزاوية العلوية اليمنى.|
 | [get_connection_points()](/cells/ar/python-net/aspose.cells.drawing/listbox/get_connection_points/#) | احصل على نقاط الاتصال|
 | [get_linked_cell(is_r1c1, is_local)](/cells/ar/python-net/aspose.cells.drawing/listbox/get_linked_cell/#bool-bool) | يحصل على النطاق المرتبط بقيمة عنصر التحكم.|
 | [set_linked_cell(formula, is_r1c1, is_local)](/cells/ar/python-net/aspose.cells.drawing/listbox/set_linked_cell/#str-bool-bool) | يضبط النطاق المرتبط بقيمة عنصر التحكم.|
 | [get_input_range(is_r1c1, is_local)](/cells/ar/python-net/aspose.cells.drawing/listbox/get_input_range/#bool-bool) | الحصول على النطاق المستخدم لملء عنصر التحكم.|
 | [set_input_range(formula, is_r1c1, is_local)](/cells/ar/python-net/aspose.cells.drawing/listbox/set_input_range/#str-bool-bool) | يضبط النطاق المستخدم لتعبئة عنصر التحكم.|
-| [update_selected_value()](/cells/ar/python-net/aspose.cells.drawing/listbox/update_selected_value/#) |قم بتحديث القيمة المحددة بقيمة الخلية المرتبطة.|
+| [update_selected_value()](/cells/ar/python-net/aspose.cells.drawing/listbox/update_selected_value/#) | قم بتحديث القيمة المحددة بقيمة الخلية المرتبطة.|
 | [calculate_text_size()](/cells/ar/python-net/aspose.cells.drawing/listbox/calculate_text_size/#) | إعادة حساب منطقة النص|
-| [characters(start_index, length)](/cells/ar/python-net/aspose.cells.drawing/listbox/characters/#int-int) |يُرجع كائن الأحرف الذي يمثل نطاقًا من الأحرف داخل النص.|
+| [characters(start_index, length)](/cells/ar/python-net/aspose.cells.drawing/listbox/characters/#int-int) | يُرجع كائن الأحرف الذي يمثل نطاقًا من الأحرف داخل النص.|
 | [get_characters()](/cells/ar/python-net/aspose.cells.drawing/listbox/get_characters/#) | ترجع جميع كائنات الأحرف<br/> يمثل مجموعة من الأحرف داخل النص.|
 | [remove_active_x_control()](/cells/ar/python-net/aspose.cells.drawing/listbox/remove_active_x_control/#) | إزالة عنصر تحكم ActiveX.|
 | [is_same_setting(obj)](/cells/ar/python-net/aspose.cells.drawing/listbox/is_same_setting/#any) | تُرجع ما إذا كان الشكل متماثلاً.|
@@ -163,7 +163,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

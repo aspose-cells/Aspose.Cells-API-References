@@ -10,7 +10,7 @@ is_root: false
 ##  merge_empty_td_forcely mülk
 
  Dosyayı html'ye dışa aktarırken boş TD öğesinin zorla birleştirilip birleştirilmediğini gösterir.
- Değer true olarak ayarlandıktan sonra html dosyasının boyutu önemli ölçüde azaltılacaktır. Varsayılan değer yanlıştır.
+ Değer true olarak ayarlandıktan sonra html dosyasının boyutu önemli ölçüde azaltılacaktır.
  Html dosyasını excel'e aktarmak veya dosyayı html'ye kaydederken mükemmel ızgara çizgilerini dışa aktarmak istiyorsanız,
 lütfen varsayılan değeri koruyun.
 ###  Tanım:

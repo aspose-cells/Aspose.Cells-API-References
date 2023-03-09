@@ -18,7 +18,7 @@ def set_calculated_value(self, v):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | v | any |  |
 ###  Notlar

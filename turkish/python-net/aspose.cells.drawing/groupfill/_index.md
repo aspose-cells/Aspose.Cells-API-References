@@ -1,5 +1,5 @@
 ﻿---
-title: GroupFill sınıf
+title: GroupFill sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 260
 url: /tr/python-net/aspose.cells.drawing/groupfill/
 is_root: false
 ---
-##  GroupFill sınıf
+##  GroupFill sınıfı
 Bu dolgu biçiminin, grubun dolgu özelliklerini devralması gerektiğini temsil eder.
 
 

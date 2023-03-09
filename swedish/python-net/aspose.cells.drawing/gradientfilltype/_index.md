@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/gradientfilltype/
 is_root: false
 ---
 ##  GradientFillType uppräkning
-Representerar alla övertoningsfyllningstyper.
+Representerar alla gradientfyllningstyper.
 
 
 

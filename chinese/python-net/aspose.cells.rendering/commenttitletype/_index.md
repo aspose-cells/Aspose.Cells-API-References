@@ -1,13 +1,13 @@
 ﻿---
 title: CommentTitleType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
 url: /zh/python-net/aspose.cells.rendering/commenttitletype/
 is_root: false
 ---
-##  CommentTitleType枚举
+## CommentTitleType枚举
 当注释设置为显示在工作表末尾时，表示呈现时的注释标题类型。
 
 

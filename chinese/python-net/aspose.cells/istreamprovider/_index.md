@@ -1,13 +1,13 @@
 ﻿---
 title: IStreamProvider类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 870
 url: /zh/python-net/aspose.cells/istreamprovider/
 is_root: false
 ---
-##  IStreamProvider类
+## IStreamProvider类
 代表导出的流提供者。
 
 

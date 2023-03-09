@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  sparkline_collection Eigentum
 
-Ruft die Auflistung des Objekts [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline) ab.
+Ruft die Sammlung von [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline)-Objekten ab.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen die SparklineGroup.Sparklines-Eigenschaft.
+HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen die SparklineGroup.Sparklines-Eigenschaft.
  Diese Property wird 12 Monate später seit November 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

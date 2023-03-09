@@ -22,9 +22,9 @@ def is_error_check(self, error_check_type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| error_check_type | [ErrorCheckType](/cells/tr/python-net/aspose.cells/errorchecktype) | hata tipi kontrol edilebilir|
+| error_check_type | [ErrorCheckType](/cells/tr/python-net/aspose.cells/errorchecktype) | hata türü kontrol edilebilir|
 
 
 

@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/worksheet/unprotect/
 is_root: false
 ---
 ##  unprotect() {#}
-Déprotége la feuille de calcul.
+Déprotéger la feuille de calcul.
 
 
 
@@ -24,7 +24,7 @@ Cette méthode déprotége la feuille de calcul qui est protégée sans mot de p
 
 ##  unprotect(password) {#str}
 
-Déprotége la feuille de calcul.
+Déprotéger la feuille de calcul.
 
 
 
@@ -34,7 +34,7 @@ def unprotect(self, password):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | password | str | Mot de passe|
 ###  Remarques

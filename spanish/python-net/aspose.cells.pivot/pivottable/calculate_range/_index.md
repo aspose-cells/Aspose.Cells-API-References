@@ -20,7 +20,7 @@ def calculate_range(self):
 
 ###  Observaciones
 
-Si no se llama a este método, tal vez el rango pivotable no se corrija.
+Si no se llama a este método, es posible que no se corrija el rango pivotable.
 
 
 ###  Ver también

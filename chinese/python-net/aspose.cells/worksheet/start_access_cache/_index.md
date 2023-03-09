@@ -1,6 +1,6 @@
 ﻿---
 title: start_access_cache方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 280
@@ -18,7 +18,7 @@ def start_access_cache(self, opts):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | opts | [AccessCacheOptions](/cells/zh/python-net/aspose.cells/accesscacheoptions) |数据访问选项|
 ### 评论

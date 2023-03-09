@@ -34,17 +34,17 @@ Obtient la condition de mise en forme par index.
 | Méthode| Description|
 | :- | :- |
 | [add_condition(type, operator_type, formula1, formula2)](/cells/fr/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType-OperatorType-str-str) | Ajoute une condition de formatage.|
-| [add_condition(type)](/cells/fr/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) | Ajoutez une condition de mise en forme.|
+| [add_condition(type)](/cells/fr/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) |Ajoutez une condition de mise en forme.|
 | [remove_area(index)](/cells/fr/python-net/aspose.cells/formatconditioncollection/remove_area/#int) | Supprime la plage de cellules mise en forme conditionnelle par index.|
 | [remove_area(start_row, start_column, total_rows, total_columns)](/cells/fr/python-net/aspose.cells/formatconditioncollection/remove_area/#int-int-int-int) | Supprimez la mise en forme conditionnelle dans la plage.|
 | [add(cell_area, type, operator_type, formula1, formula2)](/cells/fr/python-net/aspose.cells/formatconditioncollection/add/#CellArea-FormatConditionType-OperatorType-str-str) | Ajoute une condition de formatage et une plage de cellules affectée aux FormatConditions<br/>Les FormatConditions peuvent contenir jusqu'à trois formats conditionnels.<br/> Les références aux autres feuilles ne sont pas autorisées dans les formules de mise en forme conditionnelle.|
-| [add_area(cell_area)](/cells/fr/python-net/aspose.cells/formatconditioncollection/add_area/#CellArea) | Ajoute une plage de cellules mise en forme conditionnelle.|
-| [get_cell_area(index)](/cells/fr/python-net/aspose.cells/formatconditioncollection/get_cell_area/#int) | Obtient la plage de cellules mise en forme conditionnelle par index.|
+| [add_area(cell_area)](/cells/fr/python-net/aspose.cells/formatconditioncollection/add_area/#CellArea) | Ajoute une plage de cellules mise en forme de manière conditionnelle.|
+| [get_cell_area(index)](/cells/fr/python-net/aspose.cells/formatconditioncollection/get_cell_area/#int) | Obtient la plage de cellules mise en forme de manière conditionnelle par index.|
 | [remove_condition(index)](/cells/fr/python-net/aspose.cells/formatconditioncollection/remove_condition/#int) | Supprime la condition de formatage par index.|
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

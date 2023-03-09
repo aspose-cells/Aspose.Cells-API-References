@@ -11,7 +11,7 @@ is_root: false
 
 Получает и устанавливает строку подписи
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

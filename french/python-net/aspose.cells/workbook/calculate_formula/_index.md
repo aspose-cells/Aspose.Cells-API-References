@@ -34,9 +34,9 @@ def calculate_formula(self, ignore_error):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| ignore_error | bool | Indique si masquer l'erreur dans le calcul des formules. L'erreur peut être une fonction non prise en charge, des liens externes, etc.|
+| ignore_error | bool | Indique si masquer l'erreur dans le calcul des formules.|
 
 
 ##  calculate_formula(options) {#CalculationOptions}
@@ -50,7 +50,7 @@ def calculate_formula(self, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/fr/python-net/aspose.cells/calculationoptions) | Options de calcul|
 
@@ -66,13 +66,13 @@ def calculate_formula(self, ignore_error, custom_function):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| ignore_error | bool | Indique si masquer l'erreur dans le calcul des formules. L'erreur peut être une fonction non prise en charge, des liens externes, etc.|
+| ignore_error | bool | Indique si masquer l'erreur dans le calcul des formules.|
 | custom_function | [ICustomFunction](/cells/fr/python-net/aspose.cells/icustomfunction) | Les fonctions de calcul de formule personnalisée pour étendre le moteur de calcul.|
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+REMARQUE : ce membre est désormais obsolète.
 veuillez utiliser la méthode CalculateFormula(CalculationOptions).
  Cette méthode sera supprimée 12 mois plus tard depuis août 2020.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

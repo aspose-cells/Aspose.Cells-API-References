@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/cells/get_dependents_in_calculation/
 is_root: false
 ---
 ##  get_dependents_in_calculation(row, column, recursive) {#int-int-bool}
-Ottiene tutte le celle il cui risultato calcolato dipende da una cella specifica.
+Ottiene tutte le celle il cui risultato calcolato dipende da celle specifiche.
 
 
 ###  ritorna
@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, row, column, recursive):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga della cella specifica|
 | column | int | Indice di colonna della cella specifica.|

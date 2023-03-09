@@ -19,10 +19,10 @@ def add_identify(self, range_index, page_item_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| range_index | int | Konsolideringsdataintervallsindex.|
-| page_item_index | list | Sidobjektets index i varje sidfält.<br/>pageItemIndex[2] = 1 betyder det andra objektet i det tredje fältet som ska användas för att identifiera detta intervall.<br/> pageItemIndex[1] = -1 betyder inget objekt i det andra fältet att använda för att identifiera detta intervall<br/> och MS kommer automatiskt att skapa "tomt" objekt i det andra fältet för att identifiera detta intervall.|
+| range_index | int |Konsolideringsdataintervallsindex.|
+| page_item_index | list | Sidobjektets index i varje sidfält.<br/>pageItemIndex[2] = 1 betyder det andra objektet i det tredje fältet som ska användas för att identifiera detta intervall.<br/> pageItemIndex[1] = -1 betyder inget objekt i det andra fältet att använda för att identifiera detta intervall<br/> och MS kommer automatiskt att skapa ett "tomt" objekt i det andra fältet för att identifiera detta intervall.|
 
 
 

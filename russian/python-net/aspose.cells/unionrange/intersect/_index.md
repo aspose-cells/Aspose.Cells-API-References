@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | range | str | Диапазон.|
 ###  Примечания
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/ru/python-net/aspose.cells/unionrange) | Диапазон.|
 ###  Примечания
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | ranges | list | Диапазон.|
 ###  Примечания

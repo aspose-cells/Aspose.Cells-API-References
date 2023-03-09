@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [FontSetting](/cells/de/python-net/aspose.cells/fontsetting) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [FontSetting](/cells/de/python-net/aspose.cells/fontsetting) | Das zu lokalisierende System.Objekt.|
 
 
 

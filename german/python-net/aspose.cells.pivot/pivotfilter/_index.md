@@ -17,9 +17,9 @@ Der Typ PivotFilter macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [auto_filter](/cells/de/python-net/aspose.cells.pivot/pivotfilter/auto_filter) |Ruft den Autofilter des Pivot-Filters ab.|
+| [auto_filter](/cells/de/python-net/aspose.cells.pivot/pivotfilter/auto_filter) | Ruft den Autofilter des Pivot-Filters ab.|
 | [filter_type](/cells/de/python-net/aspose.cells.pivot/pivotfilter/filter_type) | Ruft den Autofiltertyp des Pivotfilters ab.|
-| [field_index](/cells/de/python-net/aspose.cells.pivot/pivotfilter/field_index) | Ruft den Feldindex des Pivot-Filters ab.|
+| [field_index](/cells/de/python-net/aspose.cells.pivot/pivotfilter/field_index) |Ruft den Feldindex des Pivot-Filters ab.|
 | [value1](/cells/de/python-net/aspose.cells.pivot/pivotfilter/value1) | Ruft die Zeichenfolge value1 des Label-Pivot-Filters ab.|
 | [value2](/cells/de/python-net/aspose.cells.pivot/pivotfilter/value2) | Ruft den Zeichenfolgenwert2 des Label-Pivot-Filters ab.|
 | [measure_fld_index](/cells/de/python-net/aspose.cells.pivot/pivotfilter/measure_fld_index) | Ruft den Kennzahlenfeldindex des Pivot-Filters ab.|
@@ -29,7 +29,7 @@ Der Typ PivotFilter macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

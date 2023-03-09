@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Spalten dar, die die zu wiederholenden Zellen auf der linken Seite jeder Seite enthalten.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

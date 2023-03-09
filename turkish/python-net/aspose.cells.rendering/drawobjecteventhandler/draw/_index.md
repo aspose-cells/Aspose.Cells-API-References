@@ -18,10 +18,10 @@ def draw(self, draw_object, x, y, width, height):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | draw_object | [DrawObject](/cells/tr/python-net/aspose.cells.rendering/drawobject) | DrawObject, oluşturulurken başlatılacak ve döndürülecek|
-| x | float | DrawObject'in solu|
+| x | float | Çizim Nesnesinin Solu|
 | y | float | DrawObject'in üstü|
 | width | float | DrawObject Genişliği|
 | height | float | DrawObject'in Yüksekliği|

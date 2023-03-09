@@ -22,7 +22,7 @@ def filter(self, type, sheet_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [NameScopeType](/cells/it/python-net/aspose.cells/namescopetype) | Il tipo di ambito.|
 | sheet_index | int | L'indice del foglio.<br/>Ha effetto solo quando il tipo di ambito è [NameScopeType.WORKSHEET](/cells/it/python-net/aspose.cells/namescopetype#WORKSHEET) |

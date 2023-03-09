@@ -1,13 +1,13 @@
 ﻿---
 title: TextureType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1180
 url: /zh/python-net/aspose.cells.drawing/texturetype/
 is_root: false
 ---
-##  TextureType枚举
+## TextureType枚举
 表示预设纹理类型。
 
 

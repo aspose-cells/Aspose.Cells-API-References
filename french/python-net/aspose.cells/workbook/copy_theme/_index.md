@@ -18,7 +18,7 @@ def copy_theme(self, source):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | source | [Workbook](/cells/fr/python-net/aspose.cells/workbook) | Classeur source.|
 

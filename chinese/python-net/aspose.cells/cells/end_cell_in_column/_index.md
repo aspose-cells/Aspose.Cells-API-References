@@ -1,6 +1,6 @@
 ﻿---
 title: end_cell_in_column方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 270
@@ -22,7 +22,7 @@ def end_cell_in_column(self, column_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | column_index | int |列索引。|
 
@@ -42,7 +42,7 @@ def end_cell_in_column(self, start_row, end_row, start_column, end_column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | start_row | int |开始行索引。|
 | end_row | int |结束行索引。|

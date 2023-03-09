@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level mülk
 
-Hücre veya aralık için girinti düzeyini temsil eder. Yalnızca 0 ile 250 arasında bir tam sayı olabilir.
+Hücre veya aralık için girinti düzeyini temsil eder.
 
 ###  Notlar
 

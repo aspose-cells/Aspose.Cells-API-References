@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve el margen derecho en unidades de Puntos
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

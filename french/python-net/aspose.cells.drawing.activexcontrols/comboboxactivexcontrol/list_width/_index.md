@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_width propriété
 
-Obtient et définit la largeur en unité de points.
+Obtient et définit la largeur en unités de points.
 ###  Définition:
 ```python
 @property

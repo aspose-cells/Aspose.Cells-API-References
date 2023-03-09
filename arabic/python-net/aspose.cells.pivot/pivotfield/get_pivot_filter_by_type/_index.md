@@ -18,7 +18,7 @@ def get_pivot_filter_by_type(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [PivotFilterType](/cells/ar/python-net/aspose.cells.pivot/pivotfiltertype) |  |
 

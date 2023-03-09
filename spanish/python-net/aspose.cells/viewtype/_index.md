@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/viewtype/
 is_root: false
 ---
 ##  ViewType enumeración
-Representa el tipo de vista de la hoja de cálculo.
+Representa el tipo de vista de la hoja de trabajo.
 
 
 

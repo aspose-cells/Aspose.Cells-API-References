@@ -22,7 +22,7 @@ def is_column_hidden(self, column_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | sütun dizini|
 

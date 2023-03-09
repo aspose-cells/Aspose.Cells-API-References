@@ -22,7 +22,7 @@ def get_series_by_order(self, order):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | order | int | El orden de la serie|
 

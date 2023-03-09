@@ -18,10 +18,10 @@ def set_formulas(self, formula1, formula2, is_r1c1, is_local):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| formula1 | str | Bu biçim koşuluyla ilişkili değer veya ifade.<br/>Girilen değer '=' ile başlıyorsa, formül olarak alınacaktır. Aksi takdirde düz değer(metin, sayı, bool) olarak alınacaktır.<br/> '=' ile başlayan metin değeri için, kullanıcı bunu şu biçimde formül olarak girebilir: "=\"=...\"".|
-| formula2 | str | Bu biçim koşuluyla ilişkili değer veya ifade. Giriş formatı, formül1 ile aynıdır|
+| formula1 | str | Bu biçim koşuluyla ilişkili değer veya ifade.<br/>Girilen değer '=' ile başlıyorsa, formül olarak alınacaktır.<br/> '=' ile başlayan metin değeri için, kullanıcı bunu şu biçimde formül olarak girebilir: "=\"=...\"".|
+| formula2 | str | Bu biçim koşuluyla ilişkili değer veya ifade.|
 | is_r1c1 | bool | Formülün R1C1 formülü olup olmadığı.|
 | is_local | bool | Formülün yerel biçimlendirilmiş olup olmadığı.|
 

@@ -22,7 +22,7 @@ def fields(self, field_type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldtype) | alan türü.|
 

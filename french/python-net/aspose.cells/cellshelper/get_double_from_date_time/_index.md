@@ -22,7 +22,7 @@ def get_double_from_date_time(self, date_time, date1904):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | date_time | DateTime | La date et l'heure.|
 | date1904 | bool | Système datant de 1904.|

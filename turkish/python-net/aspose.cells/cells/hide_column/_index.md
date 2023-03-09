@@ -18,7 +18,7 @@ def hide_column(self, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 

@@ -19,7 +19,7 @@ def get_top_point_y_px(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int |  |
 

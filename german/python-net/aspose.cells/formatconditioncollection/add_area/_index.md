@@ -13,7 +13,7 @@ Fügt einen bedingt formatierten Zellbereich hinzu.
 
 ###  Kehrt zurück
 
-Bedingt formatierter Zellenrangindex.
+Bedingt formatierter Zellbereichsindex.
 
 
 ```python
@@ -24,7 +24,7 @@ def add_area(self, cell_area):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/de/python-net/aspose.cells/cellarea) | Bedingt formatierter Zellbereich.|
+| cell_area | [CellArea](/cells/de/python-net/aspose.cells/cellarea) |Bedingt formatierter Zellbereich.|
 
 
 

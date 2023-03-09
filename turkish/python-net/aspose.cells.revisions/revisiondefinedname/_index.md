@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionDefinedName sınıf
+title: RevisionDefinedName sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 80
 url: /tr/python-net/aspose.cells.revisions/revisiondefinedname/
 is_root: false
 ---
-##  RevisionDefinedName sınıf
+##  RevisionDefinedName sınıfı
 Tanımlanmış bir ad değişikliğinin revizyon kaydını temsil eder.
 
 

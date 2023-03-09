@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el tipo de forma de texto preestablecido.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import AutoShapeType

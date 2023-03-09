@@ -10,7 +10,7 @@ is_root: false
 ##  save_data proprietà
 
 True se i dati esterni recuperati tramite la connessione per popolare una tabella devono essere salvati
-con la cartella di lavoro; altrimenti, falso.
+con la cartella di lavoro; in caso contrario, false.
 ###  Definizione:
 ```python
 @property

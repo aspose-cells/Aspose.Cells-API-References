@@ -18,9 +18,9 @@ def set_footer(self, section, footer_script):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| section | int |0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
+| section | int | 0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
 | footer_script | str | Script de formato de pie de página.|
 ###  Observaciones
 
@@ -36,8 +36,8 @@ Comandos de guión:
 | &F| Nombre de archivo sin ruta|
 | &"<FontName>"| Nombre de fuente, por ejemplo: &"Arial"|
 | &"<FontName>, <FontStyle>"| Nombre de fuente y estilo de fuente, por ejemplo: &"Arial,Negrita"|
-| &<FontSize>| Tamaño de fuente. Si este comando es seguido por un número simple que se imprimirá en el encabezado, se separará de la altura de la fuente con un carácter de espacio.|
-| &K<RRGGBB>| Color de fuente, por ejemplo (ROJO): &KFF0000|
+| &<FontSize>| Tamaño de la fuente: si este comando va seguido de un número simple para imprimir en el encabezado, se separará de la altura de la fuente con un carácter de espacio.|
+| &K<RRGGBB>|Color de fuente, por ejemplo (ROJO): &KFF0000|
 | &GRAMO| Guión de imagen|
 
 Por ejemplo: "&Arial,Negrita&8Nota al pie de página"

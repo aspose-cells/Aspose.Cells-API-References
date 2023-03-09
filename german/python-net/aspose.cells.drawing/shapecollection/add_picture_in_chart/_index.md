@@ -13,7 +13,7 @@ Fügt dem Diagramm ein Bild hinzu.
 
 ###  Kehrt zurück
 
-Gibt ein Picture-Objekt zurück.
+Gibt ein Bildobjekt zurück.
 
 
 ```python
@@ -24,7 +24,7 @@ def add_picture_in_chart(self, top, left, stream, width_scale, height_scale):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| top | int | Stellt den vertikalen Versatz der Form von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs dar.|
+| top | int |Stellt den vertikalen Versatz der Form von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs dar.|
 | left | int | Repräsentiert den horizontalen Versatz der Form von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs.|
 | stream | io.RawIOBase | Stream-Objekt, das die Bilddaten enthält.|
 | width_scale | int | Maßstab der Bildbreite, ein Prozentsatz.|

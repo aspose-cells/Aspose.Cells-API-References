@@ -25,7 +25,7 @@ Il tipo BevelType espone i membri seguenti:
 | COOL_SLANT | Pendenza fredda|
 | CROSS | Attraverso|
 | DIVOT | Divot|
-| HARD_EDGE | Bordo duro|
+| HARD_EDGE | Bordi duri|
 | RELAXED_INSET | Inserto rilassato|
 | RIBLET | Riblet|
 | SLOPE | Pendenza|

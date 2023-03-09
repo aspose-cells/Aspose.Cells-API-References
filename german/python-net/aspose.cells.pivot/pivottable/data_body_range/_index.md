@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range Eigentum
 
 Gibt ein CellArea-Objekt zurück, das den Bereich darstellt, der den Datenbereich enthält
-in der Liste zwischen der Kopfzeile und der Einfügezeile. Schreibgeschützt.
+in der Liste zwischen der Kopfzeile und der Einfügezeile.
 ###  Definition:
 ```python
 @property

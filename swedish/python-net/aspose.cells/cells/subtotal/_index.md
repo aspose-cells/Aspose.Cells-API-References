@@ -18,7 +18,7 @@ def subtotal(self, ca, group_by, function, total_list):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Räckvidden|
 | group_by | int | Fältet att gruppera efter, som en nollbaserad heltalsoffset|
@@ -37,13 +37,13 @@ def subtotal(self, ca, group_by, function, total_list, replace, page_breaks, sum
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Räckvidden|
 | group_by | int | Fältet att gruppera efter, som en nollbaserad heltalsoffset|
 | function | [ConsolidationFunction](/cells/sv/python-net/aspose.cells/consolidationfunction) | Subtotalfunktionen.|
 | total_list | list | En matris med nollbaserade fältförskjutningar, som indikerar de fält till vilka delsummorna läggs till.|
-| replace | bool |Anger om de nuvarande delsummorna ersätts|
+| replace | bool | Indikerar om de nuvarande delsummorna ska ersättas|
 | page_breaks | bool | Anger om man lägger till sidbrytning mellan grupper|
 | summary_below_data | bool | Anger om du lägger till sammanfattning nedanför data.|
 

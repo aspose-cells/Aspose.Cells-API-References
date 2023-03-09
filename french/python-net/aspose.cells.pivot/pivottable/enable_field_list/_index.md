@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list propriété
 
-Obtient si activer la liste de champs pour le tableau croisé dynamique.
+Obtient s'il faut activer la liste de champs pour le tableau croisé dynamique.
 ###  Définition:
 ```python
 @property

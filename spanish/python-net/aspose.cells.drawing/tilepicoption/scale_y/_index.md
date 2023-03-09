@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y propiedad
 
-Obtiene o establece la escala Y para la imagen en mosaico.
+Obtiene o establece la escala Y para las imágenes en mosaico.
 ###  Definición:
 ```python
 @property

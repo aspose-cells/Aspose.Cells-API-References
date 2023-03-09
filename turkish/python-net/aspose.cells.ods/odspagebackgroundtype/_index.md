@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  OdsPageBackgroundType numaralandırma
-ods'un sayfa arka plan tipini temsil eder.
+Sayfa arka plan oran türünü temsil eder.
 
 
 

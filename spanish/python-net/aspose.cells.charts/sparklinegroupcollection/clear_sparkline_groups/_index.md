@@ -18,7 +18,7 @@ def clear_sparkline_groups(self, cell_area):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | Especifica el área de las celdas.|
 

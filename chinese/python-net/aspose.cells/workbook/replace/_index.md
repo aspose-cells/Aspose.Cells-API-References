@@ -1,6 +1,6 @@
 ﻿---
 title: replace方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 330
@@ -18,7 +18,7 @@ def replace(self, place_holder, new_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | place_holder | str | Cell 占位符|
 | new_value | str |要替换的字符串值|
@@ -46,7 +46,7 @@ def replace(self, place_holder, new_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | place_holder | str | Cell 占位符|
 | new_value | int |要替换的整数值|
@@ -75,7 +75,7 @@ def replace(self, place_holder, new_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | place_holder | str | Cell 占位符|
 | new_value | float |要替换的双值|
@@ -104,10 +104,10 @@ def replace(self, bool_value, new_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | bool_value | bool |要替换的布尔值。|
-| new_value | any |新价值。可以是字符串、整数、双精度或 DateTime 值。|
+| new_value | any |新值。可以是字符串、整数、双精度或 DateTime 值。|
 
 
 ##  replace(int_value, new_value) {#int-any}
@@ -121,10 +121,10 @@ def replace(self, int_value, new_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | int_value | int |要替换的整数值。|
-| new_value | any |新价值。可以是字符串、整数、双精度或 DateTime 值。|
+| new_value | any |新值。可以是字符串、整数、双精度或 DateTime 值。|
 
 
 ##  replace(place_holder, new_values, is_vertical) {#str-list-bool}
@@ -138,11 +138,11 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | place_holder | str | Cell 占位符|
 | new_values | list |要替换的字符串数组|
-| is_vertical | bool |真 - 垂直，假 - 水平|
+| is_vertical | bool |真垂直，假水平|
 
 ### 例子
 
@@ -168,11 +168,11 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | place_holder | str | Cell 占位符|
 | new_values | list |要替换的整数数组|
-| is_vertical | bool |真 - 垂直，假 - 水平|
+| is_vertical | bool |真垂直，假水平|
 
 ### 例子
 
@@ -198,11 +198,11 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | place_holder | str | Cell 占位符|
 | new_values | list |要替换的双数组|
-| is_vertical | bool |真 - 垂直，假 - 水平|
+| is_vertical | bool |真垂直，假水平|
 
 ### 例子
 
@@ -228,7 +228,7 @@ def replace(self, place_holder, new_value, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | place_holder | str | Cell 占位符|
 | new_value | str |要替换的字符串值|

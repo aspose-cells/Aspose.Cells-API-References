@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type d'orientation du texte de la forme.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import TextOrientationType

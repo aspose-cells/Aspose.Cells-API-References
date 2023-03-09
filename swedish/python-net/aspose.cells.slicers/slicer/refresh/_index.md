@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.slicers/slicer/refresh/
 is_root: false
 ---
 ##  refresh() {#}
-Uppdatera skivaren. Under tiden uppdaterar och beräknar relativa pivottabeller.
+Uppdaterar skivaren. Under tiden uppdaterar och beräknar relativa pivottabeller.
 
 
 

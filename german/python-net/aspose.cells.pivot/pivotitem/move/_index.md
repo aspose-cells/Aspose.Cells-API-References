@@ -20,7 +20,7 @@ def move(self, count, is_same_parent):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| count | int | Die Anzahl der Bewegungen nach oben oder unten.<br/>Verschieben Sie das Element nach oben, wenn dies kleiner als Null ist;<br/> Verschieben Sie das Element nach unten, wenn dies größer als Null ist.|
+| count | int | Die Anzahl der Bewegungen nach oben oder unten.<br/>Verschieben Sie das Element nach oben, wenn dies kleiner als Null ist;<br/>Verschieben Sie das Element nach unten, wenn dies größer als Null ist.|
 | is_same_parent | bool | Angeben, ob sich der Verschiebevorgang im selben übergeordneten Knoten befindet oder nicht|
 
 

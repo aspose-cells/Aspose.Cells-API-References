@@ -1,6 +1,6 @@
 ﻿---
 title: font_align_type 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## font_align_type 属性
 
-确定实际单词在文本行中的垂直位置。这优惠
+确定实际单词在文本行中的垂直位置。
 字符相对于基线的垂直放置。
 ### 定义：
 ```python

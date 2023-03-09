@@ -10,7 +10,7 @@ is_root: false
 ##  background_refresh fastighet
 
  Indikerar om anslutningen kan uppdateras i bakgrunden (asynkront).
- sant om föredragen användning av anslutningen är att uppdatera asynkront i bakgrunden;
+sant om föredragen användning av anslutningen är att uppdatera asynkront i bakgrunden;
 false om föredragen användning av anslutningen är att uppdatera synkront i förgrunden.
 ###  Definition:
 ```python

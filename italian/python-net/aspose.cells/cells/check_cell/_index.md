@@ -23,7 +23,7 @@ def check_cell(self, row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga|
 | column | int | Indice di colonna|

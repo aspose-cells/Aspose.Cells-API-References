@@ -20,11 +20,11 @@ def set_linked_cell(self, formula, is_r1c1, is_local):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| formula | str |Der Bereich, der mit dem Wert des Steuerelements verknüpft ist.|
+| formula | str | Der Bereich, der mit dem Wert des Steuerelements verknüpft ist.|
 | is_r1c1 | bool | Ob die Formel als R1C1 formatiert werden muss.|
 | is_local | bool | Ob die Formel nach Gebietsschema formatiert werden muss.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

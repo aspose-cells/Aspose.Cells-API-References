@@ -21,7 +21,7 @@ Le type TextEffectFormat expose les membres suivants :
 | [font_name](/cells/fr/python-net/aspose.cells.drawing/texteffectformat/font_name) | Le nom de la police utilisée dans le WordArt.|
 | [font_bold](/cells/fr/python-net/aspose.cells.drawing/texteffectformat/font_bold) | Indique si la police est en gras.|
 | [font_italic](/cells/fr/python-net/aspose.cells.drawing/texteffectformat/font_italic) | Indique si la police est en italique.|
-| [rotated_chars](/cells/fr/python-net/aspose.cells.drawing/texteffectformat/rotated_chars) | Si true, les caractères du WordArt spécifié pivotent de 90 degrés par rapport à la forme de délimitation du WordArt.|
+| [rotated_chars](/cells/fr/python-net/aspose.cells.drawing/texteffectformat/rotated_chars) | Si true, les caractères du WordArt spécifié sont pivotés de 90 degrés par rapport à la forme de délimitation du WordArt.|
 | [font_size](/cells/fr/python-net/aspose.cells.drawing/texteffectformat/font_size) | La taille (en points) de la police utilisée dans le WordArt.|
 | [preset_shape](/cells/fr/python-net/aspose.cells.drawing/texteffectformat/preset_shape) | Obtient et définit le type de forme prédéfini.|
 
@@ -33,7 +33,7 @@ Le type TextEffectFormat expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

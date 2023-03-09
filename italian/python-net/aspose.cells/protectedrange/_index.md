@@ -17,9 +17,9 @@ Il tipo ProtectedRange espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [name](/cells/it/python-net/aspose.cells/protectedrange/name) | Ottiene il titolo dell'intervallo. Viene utilizzato come descrittore, non come definizione di intervallo denominato.|
+| [name](/cells/it/python-net/aspose.cells/protectedrange/name) | Ottiene il titolo dell'intervallo.|
 | [cell_area](/cells/it/python-net/aspose.cells/protectedrange/cell_area) | Ottiene l'oggetto [ProtectedRange.cell_area](/cells/it/python-net/aspose.cells/protectedrange#cell_area) che rappresenta l'area della cella da proteggere.|
-| [is_protected_with_password](/cells/it/python-net/aspose.cells/protectedrange/is_protected_with_password) | Indica se i fogli di lavoro sono protetti da password.|
+| [is_protected_with_password](/cells/it/python-net/aspose.cells/protectedrange/is_protected_with_password) |Indica se i fogli di lavoro sono protetti da password.|
 | [password](/cells/it/python-net/aspose.cells/protectedrange/password) | Rappresenta la password per proteggere l'intervallo.|
 | [security_descriptor](/cells/it/python-net/aspose.cells/protectedrange/security_descriptor) | Il descrittore di sicurezza definisce gli account utente che possono modificare questo intervallo senza fornire una password per accedere all'intervallo.|
 

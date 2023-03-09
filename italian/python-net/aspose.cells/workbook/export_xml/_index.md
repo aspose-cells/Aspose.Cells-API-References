@@ -18,12 +18,12 @@ def export_xml(self, map_name, path):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | map_name | str | nome della mappa XML che deve essere esportata|
 | path | str | il percorso di esportazione|
 
-###  Esempio
+###  Esempi
 
 Il codice seguente ha esportato i dati collegati dal primo XmlMap.
 
@@ -49,7 +49,7 @@ def export_xml(self, map_name, stream):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | map_name | str | nome della mappa XML che deve essere esportata|
 | stream | io.RawIOBase | il flusso di esportazione|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  regex_key proprietà
 
-Indica se la chiave cercata è regex. Se true, la chiave cercata verrà considerata come regex.
+Indica se la chiave cercata è regex. Se vero, la chiave cercata verrà considerata come regex.
 ###  Definizione:
 ```python
 @property

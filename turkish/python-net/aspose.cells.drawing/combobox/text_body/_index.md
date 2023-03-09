@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin metninin ayarını alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

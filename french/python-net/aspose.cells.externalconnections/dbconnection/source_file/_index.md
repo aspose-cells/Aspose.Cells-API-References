@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  source_file propriété
 
- Utilisé lorsque la source de données externe est basée sur un fichier. Lorsqu'une connexion à de telles données
- source échoue, le tableur tente de se connecter directement à ce fichier. Peut être
+ Utilisé lorsque la source de données externe est basée sur un fichier.
+ source échoue, le tableur tente de se connecter directement à ce fichier.
 exprimé en URI ou en notation de chemin de fichier spécifique au système.
 ###  Définition:
 ```python

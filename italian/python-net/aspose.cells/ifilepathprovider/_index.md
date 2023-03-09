@@ -17,7 +17,7 @@ Il tipo IFilePathProvider espone i membri seguenti:
 ###  Metodi
 | Metodo| Descrizione|
 | :- | :- |
-| [get_full_name(sheet_name)](/cells/it/python-net/aspose.cells/ifilepathprovider/get_full_name/#str) |Ottiene il percorso completo del file in base al nome del foglio di lavoro durante l'esportazione separata del foglio di lavoro in HTML.<br/> Quindi i riferimenti tra i fogli di lavoro possono essere esportati correttamente.|
+| [get_full_name(sheet_name)](/cells/it/python-net/aspose.cells/ifilepathprovider/get_full_name/#str) | Ottiene il percorso completo del file in base al nome del foglio di lavoro durante l'esportazione separata del foglio di lavoro in HTML.<br/> Quindi i riferimenti tra i fogli di lavoro possono essere esportati correttamente.|
 
 
 

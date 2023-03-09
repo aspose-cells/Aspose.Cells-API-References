@@ -22,7 +22,7 @@ def load_format_to_extension(self, load_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/tr/python-net/aspose.cells/loadformat) | Yüklenen dosya biçimi.|
 ###  Notlar

@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/get_column_width_pixel/
 is_root: false
 ---
 ##  get_column_width_pixel(column) {#int}
-Normal görünümde belirtilen sütunun genişliğini piksel birimi cinsinden alır.
+Normal görünümde belirtilen sütunun genişliğini piksel birimleri cinsinden alır.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def get_column_width_pixel(self, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini|
 

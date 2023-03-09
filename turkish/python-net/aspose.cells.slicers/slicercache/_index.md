@@ -1,5 +1,5 @@
 ﻿---
-title: SlicerCache sınıf
+title: SlicerCache sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells.slicers/slicercache/
 is_root: false
 ---
-##  SlicerCache sınıf
+##  SlicerCache sınıfı
 dilimleyici önbelleğinin özet açıklaması
 
 
@@ -17,15 +17,15 @@ SlicerCache türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [cross_filter_type](/cells/tr/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Bir dilimleyicinin diğer dilimleyicilerle çapraz filtrelemeye katılıp katılmadığını döndürür veya ayarlar<br/> aynı dilimleyici önbelleğini paylaşan ve çapraz filtrelemenin nasıl görüntülendiği. Okuma yazma|
-| [list](/cells/tr/python-net/aspose.cells.slicers/slicercache/list) | Belirtilen dilimleyici önbelleğiyle ilişkili dilimleyicinin OLAP Olmayan bir veri kaynağına dayalı olup olmadığını döndürür. Sadece oku|
-| [slicer_cache_items](/cells/tr/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Dilimleyici önbelleğindeki tüm öğelerin koleksiyonunu içeren bir SlicerCacheItem koleksiyonu döndürür. Sadece oku|
+| [cross_filter_type](/cells/tr/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Bir dilimleyicinin diğer dilimleyicilerle çapraz filtrelemeye katılıp katılmadığını döndürür veya ayarlar<br/> aynı dilimleyici önbelleğini paylaşan ve çapraz filtrelemenin nasıl görüntülendiği.|
+| [list](/cells/tr/python-net/aspose.cells.slicers/slicercache/list) | Dilimleyicinin, OLAP Olmayan bir veri kaynağına dayalı olarak belirtilen dilimleyici önbelleğiyle ilişkilendirilip ilişkilendirilmediğini döndürür.|
+| [slicer_cache_items](/cells/tr/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Dilimleyici önbelleğindeki tüm öğelerin koleksiyonunu içeren bir SlicerCacheItem koleksiyonu döndürür.|
 | [name](/cells/tr/python-net/aspose.cells.slicers/slicercache/name) | Dilimleyici önbelleğinin adını döndürür.|
 | [source_name](/cells/tr/python-net/aspose.cells.slicers/slicercache/source_name) | Önbellek alanının adını döndürür|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

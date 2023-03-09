@@ -28,7 +28,7 @@ is_root: false
 | [load_format_to_extension(load_format)](/cells/ar/python-net/aspose.cells/fileformatutil/load_format_to_extension/#LoadFormat) | يحول قيمة تعداد تنسيق التحميل إلى امتداد ملف.|
 | [load_format_to_save_format(load_format)](/cells/ar/python-net/aspose.cells/fileformatutil/load_format_to_save_format/#LoadFormat) | تحويل قيمة LoadFormat إلى قيمة SaveFormat إن أمكن.|
 | [save_format_to_extension(format)](/cells/ar/python-net/aspose.cells/fileformatutil/save_format_to_extension/#SaveFormat) | يحول قيمة تعداد تنسيق الحفظ إلى امتداد ملف.|
-| [save_format_to_load_format(save_format)](/cells/ar/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) |تحويل قيمة SaveFormat إلى قيمة LoadFormat إن أمكن.|
+| [save_format_to_load_format(save_format)](/cells/ar/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) | تحويل قيمة SaveFormat إلى قيمة LoadFormat إن أمكن.|
 
 
 

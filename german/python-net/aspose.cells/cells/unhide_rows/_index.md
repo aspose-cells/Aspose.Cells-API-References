@@ -22,7 +22,7 @@ def unhide_rows(self, row, total_rows, height):
 | :- | :- | :- |
 | row | int | Der Zeilenindex.|
 | total_rows | int | Die Zeilennummer.|
-| height | float | Zeilenhöhe. Die Zeilenhöhe wird nur geändert, wenn die Zeile ausgeblendet und der angegebene Höhenwert positiv ist.|
+| height | float | Zeilenhöhe: Die Zeilenhöhe wird nur geändert, wenn die Zeile ausgeblendet und der angegebene Höhenwert positiv ist.|
 
 
 

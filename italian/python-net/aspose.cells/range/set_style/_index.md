@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | style | [Style](/cells/it/python-net/aspose.cells/style) | L'oggetto Stile.|
 
@@ -34,7 +34,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | style | [Style](/cells/it/python-net/aspose.cells/style) | Lo stile della cella.|
 | explicit_flag | bool | Vero, sovrascrive solo la formattazione impostata in modo esplicito.|

@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.metadata/metadataoptions/__init__/
 is_root: false
 ---
 ##  MetadataOptions(metadata_type) {#MetadataType}
-Crea un'opzione di caricamento dei metadati.
+Crea un'opzione per caricare i metadati.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, metadata_type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | metadata_type | [MetadataType](/cells/it/python-net/aspose.cells.metadata/metadatatype) | Il tipo di metadati.|
 

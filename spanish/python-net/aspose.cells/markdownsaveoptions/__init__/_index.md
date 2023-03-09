@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/markdownsaveoptions/__init__/
 is_root: false
 ---
 ##  MarkdownSaveOptions() {#}
-Crea opciones para guardar el documento de descuento
+Crea opciones para guardar documentos de rebajas
 
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name proprietà
 
-Ottiene il titolo dell'intervallo. Viene utilizzato come descrittore, non come definizione di intervallo denominato.
+Ottiene il titolo dell'intervallo.
 ###  Definizione:
 ```python
 @property

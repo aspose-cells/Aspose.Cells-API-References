@@ -32,7 +32,7 @@ El tipo PivotPageFields expone los siguientes miembros:
 | Método| Descripción|
 | :- | :- |
 | [add_page_field(page_items)](/cells/es/python-net/aspose.cells.pivot/pivotpagefields/add_page_field/#list) | Agrega un campo de página.|
-| [add_identify(range_index, page_item_index)](/cells/es/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) |Establece qué etiqueta de elemento en cada campo de página usar para identificar el rango de datos.<br/> El pageItemIndex.Length debe ser igual a PageFieldCount, así que agregue el campo de la página primero.|
+| [add_identify(range_index, page_item_index)](/cells/es/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) | Establece qué etiqueta de elemento en cada campo de página usar para identificar el rango de datos.<br/> El pageItemIndex.Length debe ser igual a PageFieldCount, así que agregue el campo de la página primero.|
 
 
 

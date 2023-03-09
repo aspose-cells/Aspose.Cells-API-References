@@ -22,7 +22,7 @@ def verify_password(self, password):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | password | str | كلمة السر.|
 

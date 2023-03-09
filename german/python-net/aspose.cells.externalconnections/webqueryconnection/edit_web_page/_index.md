@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  edit_web_page Eigentum
 
-Die URL der benutzerseitigen Webseite, die die Webabfragedaten anzeigt. Diese URL wird beibehalten
+Die URL der benutzerseitigen Webseite, die die Webabfragedaten anzeigt.
 für den Fall, dass sourceData="true" und url umgeleitet wurden, um auf eine XML-Datei zu verweisen.
 Anschließend kann die benutzerseitige Seite in der Benutzeroberfläche angezeigt und die XML-Daten abgerufen werden
 hinter den Kulissen.

@@ -11,7 +11,7 @@ is_root: false
 
 width şeklini piksel cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

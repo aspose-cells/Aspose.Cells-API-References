@@ -1,6 +1,6 @@
 ﻿---
 title: is_in_table 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 570
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-注意：此类现在已过时。反而，
+注意：此类现在已过时。
 请使用 Cell.IsTableFormula 检查单元格公式是否是表格公式的一部分。
 自 2018 年 5 月起 12 个月后，此属性将被删除。
 Aspose 对您可能遇到的任何不便深表歉意。

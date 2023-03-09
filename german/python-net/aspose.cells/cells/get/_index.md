@@ -24,7 +24,7 @@ def get(self, cell_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| cell_name | str |Cell Name, einschließlich Spaltenbuchstabe und Zeilennummer, zum Beispiel A5.|
+| cell_name | str | Cell Name, einschließlich Spaltenbuchstabe und Zeilennummer, zum Beispiel A5.|
 
 
 ##  get(row, column) {#int-int}

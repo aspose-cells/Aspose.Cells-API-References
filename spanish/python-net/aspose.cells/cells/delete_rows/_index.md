@@ -18,9 +18,9 @@ def delete_rows(self, row_index, total_rows):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| row_index | int | El índice de la primera fila que se eliminará.|
+| row_index | int |El índice de la primera fila que se eliminará.|
 | total_rows | int | Número de filas a eliminar.|
 ###  Observaciones
 
@@ -42,7 +42,7 @@ def delete_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row_index | int | Índice de fila.|
 | total_rows | int | Número de filas a eliminar.|

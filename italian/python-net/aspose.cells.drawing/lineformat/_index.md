@@ -22,7 +22,7 @@ Il tipo LineFormat espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [type](/cells/it/python-net/aspose.cells.drawing/lineformat/type) | Ottiene e imposta il tipo di riempimento.|
+| [type](/cells/it/python-net/aspose.cells.drawing/lineformat/type) |Ottiene e imposta il tipo di riempimento.|
 | [fill_type](/cells/it/python-net/aspose.cells.drawing/lineformat/fill_type) | Ottiene e imposta il tipo di riempimento|
 | [transparency](/cells/it/python-net/aspose.cells.drawing/lineformat/transparency) | Restituisce o imposta il grado di trasparenza dell'area come valore compreso tra 0,0 (opaco) e 1,0 (trasparente).|
 | [set_type](/cells/it/python-net/aspose.cells.drawing/lineformat/set_type) | Ottiene il tipo di set di formati di riempimento.|
@@ -50,7 +50,7 @@ Il tipo LineFormat espone i membri seguenti:
 | [begin_arrowhead_width](/cells/it/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_width) | Ottiene e imposta il tipo di larghezza della freccia iniziale della linea.|
 | [begin_arrowhead_length](/cells/it/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_length) | Ottiene e imposta il tipo di lunghezza della freccia iniziale della linea.|
 | [end_arrowhead_style](/cells/it/python-net/aspose.cells.drawing/lineformat/end_arrowhead_style) | Ottiene e imposta il tipo di freccia finale della linea.|
-| [end_arrowhead_width](/cells/it/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) | Ottiene e imposta il tipo di larghezza della freccia finale della linea.|
+| [end_arrowhead_width](/cells/it/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) |Ottiene e imposta il tipo di larghezza della freccia finale della linea.|
 | [end_arrowhead_length](/cells/it/python-net/aspose.cells.drawing/lineformat/end_arrowhead_length) | Ottiene e imposta il tipo di lunghezza della freccia finale della linea.|
 | [weight](/cells/it/python-net/aspose.cells.drawing/lineformat/weight) | Ottiene o imposta lo spessore della linea in unità di punti.|
 
@@ -65,7 +65,7 @@ Il tipo LineFormat espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

@@ -25,7 +25,7 @@ def get_cell_style(self, row, column):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | row | int | Zeilenindex|
-| column | int | Spalte|
+| column | int | Säulen|
 
 
 

@@ -22,9 +22,9 @@ def set_header_picture(self, section, header_picture):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| section | int |0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
+| section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
 | header_picture | bytes | Bilddata.|
 
 

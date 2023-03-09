@@ -18,7 +18,7 @@ def calculate(self, data):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | data | [CalculationData](/cells/es/python-net/aspose.cells/calculationdata) | los datos necesarios para calcular la función, como el nombre de la función, los parámetros, etc.|
 ###  Observaciones

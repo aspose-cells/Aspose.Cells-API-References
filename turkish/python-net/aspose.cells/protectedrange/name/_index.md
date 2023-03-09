@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name mülk
 
-Aralık başlığını alır. Bu, adlandırılmış bir aralık tanımı olarak değil, tanımlayıcı olarak kullanılır.
+Aralık başlığını alır.
 ###  Tanım:
 ```python
 @property

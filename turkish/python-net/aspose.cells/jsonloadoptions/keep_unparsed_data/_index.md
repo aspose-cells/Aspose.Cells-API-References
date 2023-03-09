@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  keep_unparsed_data mülk
 
-Şablon dosyasından yüklendiğinde Çalışma Kitabı için ayrıştırılmamış verilerin bellekte tutulup tutulmadığı. Varsayılan doğrudur.
+Şablon dosyasından yüklendiğinde Çalışma Kitabı için ayrıştırılmamış verilerin bellekte tutulup tutulmadığı. Varsayılan değer true'dur.
 
 ###  Notlar
 

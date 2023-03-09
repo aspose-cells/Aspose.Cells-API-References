@@ -37,7 +37,7 @@ El tipo VbaProject expone los siguientes miembros:
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

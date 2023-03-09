@@ -1,6 +1,6 @@
 ﻿---
 title: row_name_to_index方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
@@ -22,7 +22,7 @@ def row_name_to_index(self, row_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | row_name | str |行名。|
 

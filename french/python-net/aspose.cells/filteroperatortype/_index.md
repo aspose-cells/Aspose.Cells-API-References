@@ -18,11 +18,11 @@ Le type FilterOperatorType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | LESS_OR_EQUAL | Représente l'opérateur LessOrEqual.|
-| LESS_THAN | Représente l'opérateur LessThan.|
+| LESS_THAN | Représente l'opérateur Inférieur à.|
 | EQUAL | Représente l'opérateur égal.|
-| GREATER_THAN | Représente l'opérateur GreaterThan.|
+| GREATER_THAN | Représente l'opérateur Supérieur à.|
 | NOT_EQUAL | Représente l'opérateur NotEqual.|
-| GREATER_OR_EQUAL | Représente l'opérateur GreaterOrEqual.|
+| GREATER_OR_EQUAL | Représente l'opérateur supérieur ou égal.|
 | NONE | Ne représente aucune comparaison.|
 | BEGINS_WITH | Commence par le texte.|
 | ENDS_WITH |Se termine par le texte.|

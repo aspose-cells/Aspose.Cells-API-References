@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie la position d'une forme dans l'ordre z.
 
-###  Exemple
+###  Exemples
 
 ```python
 

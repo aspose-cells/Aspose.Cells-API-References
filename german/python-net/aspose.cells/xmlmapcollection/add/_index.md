@@ -26,7 +26,7 @@ def add(self, url):
 | :- | :- | :- |
 | url | str | URL/Pfad einer xml/xsd-Datei.|
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code fügt zwei XmlMaps durch eine xsd-Datei und eine xml-Datei hinzu.
 

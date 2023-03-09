@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  left_to_corner propiedad
 
-Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo.
+Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de trabajo.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

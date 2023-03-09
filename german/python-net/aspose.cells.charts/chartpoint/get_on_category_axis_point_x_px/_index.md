@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_
 is_root: false
 ---
 ##  get_on_category_axis_point_x_px(index) {#int}
-Ruft die x-Koordinate des Punktes auf der Kategorieachse ab, nachdem die Methode Chart.Calculate() aufgerufen wurde. Gilt nur für das Flächendiagramm.
+Ruft die x-Koordinate des Punkts auf der Kategorieachse ab, nachdem die Methode Chart.Calculate() aufgerufen wurde. Gilt nur für Flächendiagramme.
 
 
 

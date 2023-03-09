@@ -19,13 +19,13 @@ Der Typ DataSorter macht die folgenden Member verfügbar:
 | :- | :- |
 | [keys](/cells/de/python-net/aspose.cells/datasorter/keys) | Ruft die Schlüsselliste des Datensortierers ab.|
 | [has_headers](/cells/de/python-net/aspose.cells/datasorter/has_headers) | Stellt dar, ob der Bereich Header hat.|
-| [key1](/cells/de/python-net/aspose.cells/datasorter/key1) |Stellt den Index der ersten sortierten Spalte dar (absolute Position, Spalte A ist 0, B ist 1, ...).|
+| [key1](/cells/de/python-net/aspose.cells/datasorter/key1) | Stellt den Index der ersten sortierten Spalte dar (absolute Position, Spalte A ist 0, B ist 1, ...).|
 | [order1](/cells/de/python-net/aspose.cells/datasorter/order1) | Stellt die Sortierreihenfolge des ersten Schlüssels dar.|
 | [key2](/cells/de/python-net/aspose.cells/datasorter/key2) | Repräsentiert den zweiten sortierten Spaltenindex (absolute Position, Spalte A ist 0, B ist 1, ...).|
 | [order2](/cells/de/python-net/aspose.cells/datasorter/order2) | Repräsentiert die Sortierreihenfolge des zweiten Schlüssels.|
 | [key3](/cells/de/python-net/aspose.cells/datasorter/key3) | Repräsentiert den dritten sortierten Spaltenindex (absolute Position, Spalte A ist 0, B ist 1, ...).|
 | [order3](/cells/de/python-net/aspose.cells/datasorter/order3) | Stellt die Sortierreihenfolge des dritten Schlüssels dar.|
-| [sort_left_to_right](/cells/de/python-net/aspose.cells/datasorter/sort_left_to_right) | True bedeutet, dass die Sortierrichtung von links nach rechts erfolgt.<br/>False bedeutet, dass die Sortierrichtung von oben nach unten ist.<br/> Der Standardwert ist falsch.|
+| [sort_left_to_right](/cells/de/python-net/aspose.cells/datasorter/sort_left_to_right) | True bedeutet, dass die Sortierrichtung von links nach rechts ist.<br/>False bedeutet, dass die Sortierrichtung von oben nach unten ist.<br/> Der Standardwert ist falsch.|
 | [case_sensitive](/cells/de/python-net/aspose.cells/datasorter/case_sensitive) | Ruft ab und legt fest, ob beim Vergleichen von Zeichenfolgen zwischen Groß- und Kleinschreibung unterschieden wird.|
 | [sort_as_number](/cells/de/python-net/aspose.cells/datasorter/sort_as_number) | Gibt an, ob alles sortiert wird, was wie eine Zahl aussieht.|
 
@@ -44,7 +44,7 @@ Der Typ DataSorter macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CellArea, SortOrder, Workbook

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_percentage Eigentum
 
-Stellt das Anzeigeverhalten des Prozentwerts der Datenbeschriftung eines bestimmten Diagramms dar. True zeigt den Prozentwert an. Falsch zu verstecken.
+Stellt das Anzeigeverhalten des Prozentwerts der Datenbeschriftung eines bestimmten Diagramms dar. True zeigt den Prozentwert an. False zum Ausblenden.
 ###  Definition:
 ```python
 @property

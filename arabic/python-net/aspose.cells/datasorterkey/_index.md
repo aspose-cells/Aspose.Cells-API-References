@@ -18,7 +18,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [order](/cells/ar/python-net/aspose.cells/datasorterkey/order) | يشير إلى ترتيب الفرز.|
-| [index](/cells/ar/python-net/aspose.cells/datasorterkey/index) |الحصول على فهرس العمود الذي تم فرزه (الموضع المطلق ، العمود A يساوي 0 ، B هو 1 ، ...).|
+| [index](/cells/ar/python-net/aspose.cells/datasorterkey/index) | الحصول على فهرس العمود الذي تم فرزه (الموضع المطلق ، العمود A يساوي 0 ، B هو 1 ، ...).|
 | [type](/cells/ar/python-net/aspose.cells/datasorterkey/type) | يمثل نوع الفرز.|
 | [icon_set_type](/cells/ar/python-net/aspose.cells/datasorterkey/icon_set_type) | يمثل نوع مجموعة الأيقونات.|
 | [icon_id](/cells/ar/python-net/aspose.cells/datasorterkey/icon_id) | يمثل معرف نوع مجموعة الرموز.|

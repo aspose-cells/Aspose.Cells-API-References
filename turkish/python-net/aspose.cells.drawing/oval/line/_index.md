@@ -11,7 +11,7 @@ is_root: false
 
 line stilini alır
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -13,8 +13,8 @@ Indica se l'utente può utilizzare un filtro automatico creato prima della prote
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
- utilizzare la proprietà Protection.AllowFiltering.
+ NOTA: questo membro è ora obsoleto.
+ utilizzare la proprietà Protezione Consenti filtro.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

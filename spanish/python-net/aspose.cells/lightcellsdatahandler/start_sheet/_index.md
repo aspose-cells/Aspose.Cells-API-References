@@ -22,9 +22,9 @@ def start_sheet(self, sheet):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/es/python-net/aspose.cells/worksheet) |la hoja de cálculo para leer los datos de las celdas.|
+| sheet | [Worksheet](/cells/es/python-net/aspose.cells/worksheet) | la hoja de cálculo para leer los datos de las celdas.|
 ###  Observaciones
 
 Se llamará antes de leer los datos de las celdas de una hoja de cálculo.

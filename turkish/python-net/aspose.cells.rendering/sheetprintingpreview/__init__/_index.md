@@ -18,7 +18,7 @@ def __init__(self, sheet, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Hangi elektronik tablonun yazdırılacağını belirtin.|
 | options | [ImageOrPrintOptions](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions çıktının bazı özelliklerini içerir|

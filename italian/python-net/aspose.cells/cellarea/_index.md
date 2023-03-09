@@ -25,7 +25,7 @@ Il tipo CellArea espone i membri seguenti:
 | :- | :- |
 | [start_row](/cells/it/python-net/aspose.cells/cellarea/start_row) | Ottiene o imposta la riga iniziale di quest'area.|
 | [end_row](/cells/it/python-net/aspose.cells/cellarea/end_row) | Ottiene o imposta la riga finale di quest'area.|
-| [start_column](/cells/it/python-net/aspose.cells/cellarea/start_column) | Ottiene o imposta la colonna iniziale di quest'area.|
+| [start_column](/cells/it/python-net/aspose.cells/cellarea/start_column) |Ottiene o imposta la colonna iniziale di quest'area.|
 | [end_column](/cells/it/python-net/aspose.cells/cellarea/end_column) | Ottiene o imposta la colonna finale di quest'area.|
 
 
@@ -38,7 +38,7 @@ Il tipo CellArea espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellArea

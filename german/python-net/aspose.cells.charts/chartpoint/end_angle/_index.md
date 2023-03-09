@@ -10,7 +10,7 @@ is_root: false
 ##  end_angle Eigentum
 
 Ruft den Endwinkel für den Tortenabschnitt ab, gemessen in Grad im Uhrzeigersinn von der x-Achse nach dem Aufruf der Chart.Calculate()-Methode.
-Gilt für Kreisdiagramm.
+Gilt für Tortendiagramm.
 ###  Definition:
 ```python
 @property

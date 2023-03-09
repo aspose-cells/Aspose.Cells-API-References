@@ -14,7 +14,7 @@ is_root: false
 
 ###  ملاحظات
 
-فقط لملف Xlsx.
+فقط لملفات Xlsx.
 ###  تعريف:
 ```python
 @property

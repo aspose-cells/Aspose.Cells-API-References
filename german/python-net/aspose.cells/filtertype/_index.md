@@ -22,7 +22,7 @@ Der Typ FilterType macht die folgenden Member verfügbar:
 | DYNAMIC_FILTER | Dynamischer Filtertyp.|
 | MULTIPLE_FILTERS | Wenn mehrere Werte zum Filtern ausgewählt werden oder wenn eine Gruppe von Datumswerten zum Filtern ausgewählt wird,<br/> Dieses Element fasst diese Kriterien zusammen.|
 | ICON_FILTER | Filtern Sie nach dem Symbol der bedingten Formatierung.|
-| TOP10 |Top-10-Filter.|
+| TOP10 | Top-10-Filter.|
 | NONE | Kein Filter.|
 
 

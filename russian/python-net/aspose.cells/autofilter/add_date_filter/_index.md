@@ -18,7 +18,7 @@ def add_date_filter(self, field_index, date_time_grouping_type, year, month, day
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | Целочисленное смещение поля, на котором вы хотите основывать фильтр.<br/> (слева в списке; крайнее левое поле — поле 0).|
 | date_time_grouping_type | [DateTimeGroupingType](/cells/ru/python-net/aspose.cells/datetimegroupingtype) | [DateTimeGroupingType](/cells/ru/python-net/aspose.cells/datetimegroupingtype) |

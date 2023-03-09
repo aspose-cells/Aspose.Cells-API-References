@@ -24,18 +24,18 @@ El tipo ChartPoint expone los siguientes miembros:
 | [marker](/cells/es/python-net/aspose.cells.charts/chartpoint/marker) | Obtiene el [ChartPoint.marker](/cells/es/python-net/aspose.cells.charts/chartpoint#marker).|
 | [data_labels](/cells/es/python-net/aspose.cells.charts/chartpoint/data_labels) | Devuelve un objeto DataLabels que representa la etiqueta de datos asociada con el punto.|
 | [y_value](/cells/es/python-net/aspose.cells.charts/chartpoint/y_value) | Obtiene o establece el valor Y del punto del gráfico.|
-| [y_value_type](/cells/es/python-net/aspose.cells.charts/chartpoint/y_value_type) |Obtiene el tipo de valor Y del punto del gráfico.|
-| [x_value](/cells/es/python-net/aspose.cells.charts/chartpoint/x_value) | Obtiene o establece el valor X del punto del gráfico.|
+| [y_value_type](/cells/es/python-net/aspose.cells.charts/chartpoint/y_value_type) | Obtiene el tipo de valor Y del punto del gráfico.|
+| [x_value](/cells/es/python-net/aspose.cells.charts/chartpoint/x_value) |Obtiene o establece el valor X del punto del gráfico.|
 | [x_value_type](/cells/es/python-net/aspose.cells.charts/chartpoint/x_value_type) | Obtiene el tipo de valor X del punto del gráfico.|
 | [shape_properties](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_properties) | Obtiene el objeto [ShapePropertyCollection](/cells/es/python-net/aspose.cells.drawing/shapepropertycollection) que contiene las propiedades de forma visual de ChartPoint.|
-| [is_in_secondary_plot](/cells/es/python-net/aspose.cells.charts/chartpoint/is_in_secondary_plot) |Obtiene o establece un valor que indica si estos puntos de datos están en el segundo gráfico circular o en la segunda barra<br/> en un gráfico de tarta o barra de tarta|
-| [shape_x](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_x) |Obtiene la coordenada x de la esquina superior izquierda en unidades de 1/4000 del ancho del gráfico después de llamar al método Chart.Calculate().|
+| [is_in_secondary_plot](/cells/es/python-net/aspose.cells.charts/chartpoint/is_in_secondary_plot) | Obtiene o establece un valor que indica si estos puntos de datos están en el segundo gráfico circular o en la segunda barra<br/> en un gráfico de tarta o barra de tarta|
+| [shape_x](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_x) | Obtiene la coordenada x de la esquina superior izquierda en unidades de 1/4000 del ancho del gráfico después de llamar al método Chart.Calculate().|
 | [shape_y](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_y) | Obtiene la coordenada y de la esquina superior izquierda en unidades de 1/4000 de la altura del gráfico después de llamar al método Chart.Calculate().|
 | [shape_width](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_width) | Obtiene el ancho en unidades de 1/4000 del ancho del gráfico después de llamar al método Chart.Calculate().|
 | [shape_height](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_height) | Obtiene la altura en unidades de 1/4000 de la altura del gráfico después de llamar al método Chart.Calculate().|
 | [shape_x_px](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_x_px) | Obtiene la coordenada x de la esquina superior izquierda en unidades de píxeles después de llamar al método Chart.Calculate().|
 | [shape_y_px](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_y_px) | Obtiene la coordenada y de la esquina superior izquierda en unidades de píxeles después de llamar al método Chart.Calculate().|
-| [shape_width_px](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_width_px) | Obtiene el ancho en unidades de píxeles después de llamar al método Chart.Calculate().|
+| [shape_width_px](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_width_px) |Obtiene el ancho en unidades de píxeles después de llamar al método Chart.Calculate().|
 | [shape_height_px](/cells/es/python-net/aspose.cells.charts/chartpoint/shape_height_px) | Obtiene la altura en unidades de píxeles después de llamar al método Chart.Calculate().|
 | [border_width_px](/cells/es/python-net/aspose.cells.charts/chartpoint/border_width_px) | Obtiene el ancho del borde en unidades de píxeles después de llamar al método Chart.Calculate().|
 | [radius_px](/cells/es/python-net/aspose.cells.charts/chartpoint/radius_px) | Obtiene el radio de la burbuja, el pastel o la dona en unidades de píxeles después de llamar al método Chart.Calculate().|
@@ -43,11 +43,11 @@ El tipo ChartPoint expone los siguientes miembros:
 | [start_angle](/cells/es/python-net/aspose.cells.charts/chartpoint/start_angle) | Obtiene el ángulo inicial de la sección circular, medido en grados en el sentido de las agujas del reloj desde el eje x después de llamar al método Chart.Calculate().<br/> Se aplica al gráfico circular.|
 | [end_angle](/cells/es/python-net/aspose.cells.charts/chartpoint/end_angle) | Obtiene el ángulo final de la sección circular, medido en grados en el sentido de las agujas del reloj desde el eje x después de llamar al método Chart.Calculate().<br/> Se aplica al gráfico circular.|
 | [arc_start_point_x_px](/cells/es/python-net/aspose.cells.charts/chartpoint/arc_start_point_x_px) | Obtiene la coordenada x del punto de inicio de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica a gráficos circulares y de anillos.|
-| [arc_start_point_y_px](/cells/es/python-net/aspose.cells.charts/chartpoint/arc_start_point_y_px) | Obtiene la coordenada y del punto de inicio de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica a gráficos circulares y de anillos.|
+| [arc_start_point_y_px](/cells/es/python-net/aspose.cells.charts/chartpoint/arc_start_point_y_px) |Obtiene la coordenada y del punto de inicio de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica a gráficos circulares y de anillos.|
 | [arc_end_point_x_px](/cells/es/python-net/aspose.cells.charts/chartpoint/arc_end_point_x_px) | Obtiene la coordenada x del punto final de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica a gráficos circulares y de anillos.|
-| [arc_end_point_y_px](/cells/es/python-net/aspose.cells.charts/chartpoint/arc_end_point_y_px) | Obtiene la coordenada y del punto final de la sección circular después de llamar al método Chart.Calculate().<br/>Se aplica a gráficos circulares y de anillos.|
+| [arc_end_point_y_px](/cells/es/python-net/aspose.cells.charts/chartpoint/arc_end_point_y_px) | Obtiene la coordenada y del punto final de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica a gráficos circulares y de anillos.|
 | [inner_arc_start_point_x_px](/cells/es/python-net/aspose.cells.charts/chartpoint/inner_arc_start_point_x_px) | Obtiene la coordenada x del punto de inicio de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica al gráfico de anillos.|
-| [inner_arc_start_point_y_px](/cells/es/python-net/aspose.cells.charts/chartpoint/inner_arc_start_point_y_px) | Obtiene la coordenada y del punto de inicio de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica al gráfico de anillos.|
+| [inner_arc_start_point_y_px](/cells/es/python-net/aspose.cells.charts/chartpoint/inner_arc_start_point_y_px) |Obtiene la coordenada y del punto de inicio de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica al gráfico de anillos.|
 | [inner_arc_end_point_x_px](/cells/es/python-net/aspose.cells.charts/chartpoint/inner_arc_end_point_x_px) | Obtiene la coordenada x del punto final de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica al gráfico de anillos.|
 | [inner_arc_end_point_y_px](/cells/es/python-net/aspose.cells.charts/chartpoint/inner_arc_end_point_y_px) | Obtiene la coordenada y del punto final de la sección circular después de llamar al método Chart.Calculate().<br/> Se aplica al gráfico de anillos.|
 
@@ -61,13 +61,13 @@ El tipo ChartPoint expone los siguientes miembros:
 | [get_bottom_point_count()](/cells/es/python-net/aspose.cells.charts/chartpoint/get_bottom_point_count/#) | Obtiene el número de puntos inferiores después de llamar al método Chart.Calculate().|
 | [get_bottom_point_x_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_bottom_point_x_px/#int) | Obtiene la coordenada x del punto inferior de la forma después de llamar al método Chart.Calculate().<br/> Aplica gráficos 3D: Column3D, Bar3D, Cono, Cilindro, Pirámide|
 | [get_bottom_point_y_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_bottom_point_y_px/#int) | Obtiene la coordenada y del punto inferior de la forma después de llamar al método Chart.Calculate().<br/> Aplica gráficos 3D: Column3D, Bar3D, Cono, Cilindro, Pirámide|
-| [get_on_category_axis_point_count()](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) | Obtiene el número de puntos en el eje de categoría después de llamar al método Chart.Calculate(). Solo se aplica al gráfico de área.|
-| [get_on_category_axis_point_x_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Obtiene la coordenada x del punto en el eje de categoría después de llamar al método Chart.Calculate(). Solo se aplica al gráfico de área.|
-| [get_on_category_axis_point_y_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Obtiene la coordenada y del punto en el eje de categoría después de llamar al método Chart.Calculate(). Solo se aplica al gráfico de área.|
+| [get_on_category_axis_point_count()](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Obtiene el número de puntos en el eje de categoría después de llamar al método Chart.Calculate() Solo se aplica al gráfico de áreas.|
+| [get_on_category_axis_point_x_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Obtiene la coordenada x del punto en el eje de categoría después de llamar al método Chart.Calculate() Solo se aplica al gráfico de área.|
+| [get_on_category_axis_point_y_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Obtiene la coordenada Y del punto en el eje de categoría después de llamar al método Chart.Calculate() Solo se aplica al gráfico de área.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

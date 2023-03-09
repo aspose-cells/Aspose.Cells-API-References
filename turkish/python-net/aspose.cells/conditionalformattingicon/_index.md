@@ -1,5 +1,5 @@
 ﻿---
-title: ConditionalFormattingIcon sınıf
+title: ConditionalFormattingIcon sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 310
 url: /tr/python-net/aspose.cells/conditionalformattingicon/
 is_root: false
 ---
-##  ConditionalFormattingIcon sınıf
+##  ConditionalFormattingIcon sınıfı
 Koşullu biçimlendirme kuralının özel simgesini temsil eder.
 
 

@@ -13,8 +13,8 @@ Stellt dar, ob das Einfügen von Hyperlinks in einem geschützten Arbeitsblatt z
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
- Bitte verwenden Sie die Protection.AllowInsertingHyperlink-Eigenschaft.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ Bitte verwenden Sie den Schutz.Einfügen von Hyperlinks zulassen.
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

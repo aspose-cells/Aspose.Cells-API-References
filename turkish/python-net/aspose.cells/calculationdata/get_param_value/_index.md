@@ -8,14 +8,14 @@ url: /tr/python-net/aspose.cells/calculationdata/get_param_value/
 is_root: false
 ---
 ##  get_param_value(index) {#int}
-Belirtilen dizindeki parametrenin temsil edilen değer nesnesini alır.
+Verilen dizindeki parametrenin temsil edilen değer nesnesini alır.
 
 
 ###  İadeler
 
 Parametre düz değer ise düz değeri döndürür.
 Parametre referans ise, o zaman ReferredArea nesnesini döndürür.
-Parametre birden çok veri kümesine başvuruyorsa, nesne dizisini döndürür.
+Parametre birden çok veri kümesine başvuruyorsa, bir nesne dizisi döndürür.
 
 
 ```python
@@ -24,9 +24,9 @@ def get_param_value(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| index | int | parametre indeksi(0 tabanlı)|
+| index | int | parametre indeksi (0 tabanlı)|
 
 
 

@@ -23,7 +23,7 @@ El tipo SmartTagOptions expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [embed_smart_tags](/cells/es/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) |Indica si se guardan etiquetas inteligentes con el libro de trabajo.|
+| [embed_smart_tags](/cells/es/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) | Indica si se guardan etiquetas inteligentes con el libro de trabajo.|
 | [show_type](/cells/es/python-net/aspose.cells.markup/smarttagoptions/show_type) | Representa el tipo de espectáculo de la etiqueta inteligente.|
 
 

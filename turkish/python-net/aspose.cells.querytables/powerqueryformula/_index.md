@@ -1,5 +1,5 @@
 ﻿---
-title: PowerQueryFormula sınıf
+title: PowerQueryFormula sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells.querytables/powerqueryformula/
 is_root: false
 ---
-##  PowerQueryFormula sınıf
+##  PowerQueryFormula sınıfı
 Güçlü sorgu formülünün tanımını temsil eder.
 
 

@@ -18,11 +18,11 @@ def set_gradient(self, type, angle, direction):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [GradientFillType](/cells/tr/python-net/aspose.cells.drawing/gradientfilltype) | Gradyan dolgu türü.|
 | angle | float | Açı. Yalnızca GradientFillType.Linear için geçerlidir.|
-| direction | [GradientDirectionType](/cells/tr/python-net/aspose.cells.drawing/gradientdirectiontype) | Yön türü. Yalnızca GradientFillType.Radial ve GradientFillType.Rectangle için geçerlidir.|
+| direction | [GradientDirectionType](/cells/tr/python-net/aspose.cells.drawing/gradientdirectiontype) |Yön türü. Yalnızca GradientFillType.Radial ve GradientFillType.Rectangle için geçerlidir.|
 
 
 

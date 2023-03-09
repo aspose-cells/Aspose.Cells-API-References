@@ -1,6 +1,6 @@
 ﻿---
 title: show_legend 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 550
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## show_legend 属性
 
-获取或设置一个值，该值指示是否显示图表图例。默认为真。
+获取或设置一个值，该值指示是否显示图表图例。默认为 true。
 ### 定义：
 ```python
 @property

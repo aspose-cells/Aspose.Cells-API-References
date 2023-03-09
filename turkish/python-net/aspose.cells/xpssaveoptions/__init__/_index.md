@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/xpssaveoptions/__init__/
 is_root: false
 ---
 ##  XpsSaveOptions() {#}
-xps dosyasını kaydetmek için seçenekler oluşturur.
+xps dosyalarını kaydetmek için seçenekler oluşturur.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  XpsSaveOptions(save_format) {#SaveFormat}
-xps dosyasını kaydetmek için seçenekler oluşturur.
+xps dosyalarını kaydetmek için seçenekler oluşturur.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kayıt formatı, xps formatında olmalıdır.|
 ###  Notlar

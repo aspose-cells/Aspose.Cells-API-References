@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transparency mülk
 
-Işıma efektinin transparency derecesini alır ve ayarlar. 0,0 (opak) ile 1,0 (berrak) arasında değişir.
+Işıma efektinin transparency derecesini alır ve ayarlar. 0,0 (opak) ila 1,0 (berrak) aralığındadır.
 ###  Tanım:
 ```python
 @property

@@ -18,7 +18,7 @@ def to_image(self, stream):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | el flujo de la imagen de salida|
 
@@ -34,13 +34,13 @@ def to_image(self, filename):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | filename | str | el nombre de archivo de la imagen de salida|
 
 
 ##  to_image(page_index, file_name) {#int-str}
-Renderizar cierta página a un archivo.
+Renderizar ciertas páginas a un archivo.
 
 
 
@@ -50,14 +50,14 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | page_index | int | indicar qué página se va a convertir|
 | file_name | str | nombre de archivo de la imagen de salida|
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Renderizar cierta página a una secuencia.
+Renderizar ciertas páginas a una secuencia.
 
 
 
@@ -67,7 +67,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | page_index | int | indicar qué página se va a convertir|
 | stream | io.RawIOBase | el flujo de la imagen de salida|

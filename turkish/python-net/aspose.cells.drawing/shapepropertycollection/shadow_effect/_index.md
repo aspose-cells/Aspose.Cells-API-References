@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shadow_effect mülk
 
-Grafik öğesi veya şekli için gölge efektini belirten bir [ShapePropertyCollection.shadow_effect](/cells/tr/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect) nesnesini temsil eder.
+Grafik öğesi veya şekli için bir gölge efekti belirten bir [ShapePropertyCollection.shadow_effect](/cells/tr/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect) nesnesini temsil eder.
 ###  Tanım:
 ```python
 @property

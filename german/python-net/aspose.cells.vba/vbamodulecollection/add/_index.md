@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-Fügt ein Modul für ein Arbeitsblatt hinzu.
+Fügt Module für ein Arbeitsblatt hinzu.
 
 
 ###  Kehrt zurück

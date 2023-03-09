@@ -22,14 +22,14 @@ def group(self, group_items):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | group_items | list | grup öğeleri.|
 ###  Notlar
 
 groupItems içindeki şekil gruplandırılmamalıdır.
 Şekil, bu Şekiller koleksiyonunda olmalıdır.
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -11,7 +11,7 @@ is_root: false
 
 Representa la cantidad de barra de error type.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

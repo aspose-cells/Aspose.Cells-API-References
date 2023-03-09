@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  number mülk
 
-Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar. Biçimlendirme modelleri farklı bölgeler için farklıdır.
+Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar.
 
 ###  Notlar
 
-Örneğin, en_US bölgesi için sayılarla gösterilen biçimlendirme kalıpları:
+Örneğin, en_US bölgesi için sayılarla temsil edilen biçimlendirme kalıpları:
 | Değer| Tip| Dizeyi Biçimlendir|
 | :- | :- | :- |
 | 0| Genel|
@@ -30,10 +30,10 @@ Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar. Biçimle
 | 11| İlmi|
 | 12| kesir|
 | 13| kesir|
-| 14| Tarih|
-| 15| Tarih|
-| 16| Tarih|
-| 17| Tarih|
+| 14| tarih|
+| 15| tarih|
+| 16| tarih|
+| 17| tarih|
 | 18| Zaman|
 | 19| Zaman|
 | 20| Zaman|

@@ -18,7 +18,7 @@ def set_visible(self, is_visible, ignore_error):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_visible | bool | Si la feuille de calcul est visible|
 | ignore_error | bool | Indique s'il faut ignorer l'erreur si cette option n'est pas valide.|

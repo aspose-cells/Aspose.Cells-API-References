@@ -18,7 +18,7 @@ def copy(self, source, copy_option):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | source | [Validation](/cells/ar/python-net/aspose.cells/validation) | التحقق من المصدر.|
 | copy_option | [CopyOptions](/cells/ar/python-net/aspose.cells/copyoptions) | خيار النسخ.|

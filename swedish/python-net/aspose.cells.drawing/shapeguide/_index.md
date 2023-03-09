@@ -23,7 +23,7 @@ Typen ShapeGuide avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [value](/cells/sv/python-net/aspose.cells.drawing/shapeguide/value) |Hämtar eller sätter värdet på den här guiden|
+| [value](/cells/sv/python-net/aspose.cells.drawing/shapeguide/value) | Hämtar eller ställer in värden för denna guide|
 
 
 

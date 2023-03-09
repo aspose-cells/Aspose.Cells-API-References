@@ -26,12 +26,12 @@ def add_rectangle(self, upper_left_row, top, upper_left_column, left, height, wi
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz von RectangleShape von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Stellt den horizontalen Versatz von RectangleShape von seiner linken Spalte in Pixeleinheiten dar.|
 | height | int | Stellt die Höhe von RectangleShape in Pixeleinheiten dar.|
 | width | int | Stellt die Breite von RectangleShape in Pixeleinheiten dar.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -10,7 +10,7 @@ is_root: false
 ##  start_angle mülk
 
 Chart.Calculate() yöntemi çağrıldıktan sonra, pasta bölümü için x ekseninden saat yönünde derece cinsinden ölçülen başlangıç açısını alır.
-Pasta grafiği için geçerlidir.
+Pasta grafik için geçerlidir.
 ###  Tanım:
 ```python
 @property

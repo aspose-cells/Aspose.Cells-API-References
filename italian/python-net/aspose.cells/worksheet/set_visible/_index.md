@@ -18,7 +18,7 @@ def set_visible(self, is_visible, ignore_error):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_visible | bool | Se il foglio di lavoro è visibile|
 | ignore_error | bool | Se ignorare l'errore se questa opzione non è valida.|

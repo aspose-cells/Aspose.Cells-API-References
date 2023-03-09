@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  end_row Eigentum
 
-Ruft die Endzeile dieses Bereichs ab oder legt sie fest.
+Ruft die Endzeile dieses Bereichs ab oder legt diese fest.
 
 ###  Siehe auch
 * Modul [aspose.cells](../../)

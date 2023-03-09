@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_tot
 is_root: false
 ---
 ##  get_table_row_type_of_totals() {#}
-Ruft den Typnamen von Tabellenzeilen ab, die aus der gesamten Zeile der referenzierten Tabelle bestehen.
+Ruft den Typnamen von Tabellenzeilen ab, die aus der Gesamtzeile der referenzierten Tabelle bestehen.
 Der Standardwert ist „Totals“, sodass in der Formel „#Totals“ die Gesamtzeile der referenzierten Tabelle darstellt.
 
 

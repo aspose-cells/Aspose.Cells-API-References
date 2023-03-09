@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin hyperlink'ini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

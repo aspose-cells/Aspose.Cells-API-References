@@ -16,7 +16,7 @@ ana şeklin genişliğinin 1/4000'i biriminde.
 
 Yalnızca bu şekil grup veya grafikte olduğunda geçerlidir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

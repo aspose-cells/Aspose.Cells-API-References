@@ -17,9 +17,9 @@ Typen TickMarkType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| CROSS | Krysstyp är Cross.|
-| INSIDE |Kryssningstyp är Inuti.|
-| NONE | Kryssningstyp är Ingen.|
+| CROSS | Kryssningstyp är Cross.|
+| INSIDE | Kryssningstyp är Inuti.|
+| NONE |Kryssningstyp är Ingen.|
 | OUTSIDE | Kryssningstyp är Utanför|
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: aspose.cells.slicers
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ is_root: false
 | [Slicer](/cells/zh/python-net/aspose.cells.slicers/slicer) |切片器视图的摘要描述|
 | [SlicerCache](/cells/zh/python-net/aspose.cells.slicers/slicercache) |切片器缓存的简要说明|
 | [SlicerCacheItem](/cells/zh/python-net/aspose.cells.slicers/slicercacheitem) |表示切片器数据源项|
-| [SlicerCacheItemCollection](/cells/zh/python-net/aspose.cells.slicers/slicercacheitemcollection) |表示 SlicerCacheItem 的集合|
+| [SlicerCacheItemCollection](/cells/zh/python-net/aspose.cells.slicers/slicercacheitemcollection) |表示 SlicerCacheItems 的集合|
 | [SlicerCollection](/cells/zh/python-net/aspose.cells.slicers/slicercollection) |指定指定工作表上所有 Slicer 对象的集合。|
 
 

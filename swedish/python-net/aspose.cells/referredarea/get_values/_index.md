@@ -13,7 +13,7 @@ Får cellvärden i detta område.
 
 ###  Returnerar
 
-Om detta område är ogiltigt, "#REF!" kommer att returneras;
+Om detta område är ogiltigt kommer "#REF!" att returneras;
 Om detta område är en enskild cell, returnera sedan cellvärdeobjektet;
 Annars returnerar du en 2D-array för alla värden i detta område.
 
@@ -32,7 +32,7 @@ Får cellvärden i detta område.
 
 ###  Returnerar
 
-Om detta område är ogiltigt, "#REF!" kommer att returneras;
+Om detta område är ogiltigt kommer "#REF!" att returneras;
 Om detta område är en enskild cell, returnera sedan cellvärdeobjektet;
 Annars returnerar du en 2D-array för alla värden i detta område.
 
@@ -43,7 +43,7 @@ def get_values(self, calculate_formulas):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | calculate_formulas | bool | I det här intervallet, om det finns några formler som inte har beräknats,<br/> denna flagga anger om dessa formler ska beräknas rekursivt|
 

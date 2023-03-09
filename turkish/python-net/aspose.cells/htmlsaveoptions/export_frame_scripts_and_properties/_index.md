@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_frame_scripts_and_properties mülk
 
-Çerçeve betiklerinin ve belge özelliklerinin dışa aktarılıp aktarılmadığını belirtir. Varsayılan değer true'dur. Eğer html veya mht dosyasını içe aktarmak istiyorsanız
+Çerçeve betiklerinin ve belge özelliklerinin dışa aktarılıp aktarılmadığını belirtir.Varsayılan değer true'dur.Eğer html veya mht dosyasını içe aktarmak istiyorsanız
 excel için lütfen varsayılan değeri koruyun.
 ###  Tanım:
 ```python

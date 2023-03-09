@@ -21,15 +21,15 @@ is_root: false
 | [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/chartdatatable/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن.<br/> القيمة الافتراضية هي الحقيقية.|
 | [background_mode](/cells/ar/python-net/aspose.cells.charts/chartdatatable/background_mode) | الحصول على وضبط وضع عرض الخلفية|
 | [background](/cells/ar/python-net/aspose.cells.charts/chartdatatable/background) | الحصول على وضبط وضع عرض الخلفية|
-| [has_border_horizontal](/cells/ar/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) | صواب إذا كان جدول بيانات المخطط يحتوي على حدود خلية أفقية|
+| [has_border_horizontal](/cells/ar/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) |صواب إذا كان جدول بيانات المخطط يحتوي على حدود خلية أفقية|
 | [has_border_vertical](/cells/ar/python-net/aspose.cells.charts/chartdatatable/has_border_vertical) | صواب إذا كان جدول بيانات المخطط يحتوي على حدود خلية عمودية|
 | [has_border_outline](/cells/ar/python-net/aspose.cells.charts/chartdatatable/has_border_outline) | صواب إذا كان جدول بيانات المخطط يحتوي على حدود خارجية|
-| [show_legend_key](/cells/ar/python-net/aspose.cells.charts/chartdatatable/show_legend_key) |صواب إذا كان مفتاح وسيلة إيضاح تسمية البيانات مرئيًا.|
+| [show_legend_key](/cells/ar/python-net/aspose.cells.charts/chartdatatable/show_legend_key) | صواب إذا كان مفتاح وسيلة إيضاح تسمية البيانات مرئيًا.|
 | [border](/cells/ar/python-net/aspose.cells.charts/chartdatatable/border) | إرجاع كائن حد يمثل حد الكائن|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

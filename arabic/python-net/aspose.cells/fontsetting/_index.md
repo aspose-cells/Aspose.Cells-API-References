@@ -25,9 +25,9 @@ is_root: false
 | :- | :- |
 | [type](/cells/ar/python-net/aspose.cells/fontsetting/type) | يحصل على نوع العقدة النصية.|
 | [start_index](/cells/ar/python-net/aspose.cells/fontsetting/start_index) | يحصل على فهرس بداية الشخصيات.|
-| [length](/cells/ar/python-net/aspose.cells/fontsetting/length) | يحصل على طول الأحرف.|
+| [length](/cells/ar/python-net/aspose.cells/fontsetting/length) |يحصل على طول الأحرف.|
 | [font](/cells/ar/python-net/aspose.cells/fontsetting/font) | إرجاع خط هذا الكائن.|
-| [text_options](/cells/ar/python-net/aspose.cells/fontsetting/text_options) |إرجاع خيارات النص.|
+| [text_options](/cells/ar/python-net/aspose.cells/fontsetting/text_options) | إرجاع خيارات النص.|
 
 
 ###  طُرق
@@ -37,7 +37,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

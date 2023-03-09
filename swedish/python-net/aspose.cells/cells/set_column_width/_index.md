@@ -18,13 +18,13 @@ def set_column_width(self, column, width):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Kolumnindex.|
-| width | float | Kolumns bredd. Kolumnbredden måste vara mellan 0 och 255.|
+| width | float | Kolumnens bredd. Kolumnbredden måste vara mellan 0 och 255.|
 ###  Anmärkningar
 
-För att dölja en kolumn ställer du in kolumnbredden till noll.
+För att dölja en kolumn, ställ in kolumnbredden till noll.
 
 
 ###  Se även

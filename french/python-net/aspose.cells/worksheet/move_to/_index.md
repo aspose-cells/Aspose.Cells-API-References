@@ -18,7 +18,7 @@ def move_to(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | Index de la feuille de destination.|
 

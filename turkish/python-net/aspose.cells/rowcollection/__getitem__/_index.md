@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  RowCollection indeksleyici
 
-Verilen satır dizinine göre bir [Row](/cells/tr/python-net/aspose.cells/row) nesnesi alır. Daha önce mevcut değilse, verilen satır dizininin Row nesnesi başlatılacaktır.
+Verilen satır dizinine göre bir [Row](/cells/tr/python-net/aspose.cells/row) nesnesi alır.
 ###  İndeksleyici
 | İsim| Tanım|
 | :- | :- |

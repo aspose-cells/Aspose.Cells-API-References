@@ -20,7 +20,7 @@ is_root: false
 | EXPONENTIAL | متسارع|
 | LINEAR | خطي|
 | LOGARITHMIC | لوغاريتمي|
-| MOVING_AVERAGE | متوسط الحركة|
+| MOVING_AVERAGE | المتوسط المتحرك|
 | POLYNOMIAL | متعدد الحدود|
 | POWER | قوة|
 

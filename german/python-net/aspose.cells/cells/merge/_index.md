@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/merge/
 is_root: false
 ---
 ##  merge(first_row, first_column, total_rows, total_columns) {#int-int-int-int}
-Führt einen angegebenen Zellbereich zu einer einzigen Zelle zusammen.
+Führt einen angegebenen Zellbereich zu einer einzelnen Zelle zusammen.
 
 
 
@@ -30,7 +30,7 @@ Verweisen Sie auf die verbundene Zelle über die Adresse der linken oberen Zelle
 
 ##  merge(first_row, first_column, total_rows, total_columns, merge_conflict) {#int-int-int-int-bool}
 
-Führt einen angegebenen Zellbereich zu einer einzigen Zelle zusammen.
+Führt einen angegebenen Zellbereich zu einer einzelnen Zelle zusammen.
 
 
 
@@ -51,10 +51,10 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 
 Verweisen Sie auf die verbundene Zelle über die Adresse der linken oberen Zelle im Bereich.
 Wenn mergeConflict wahr ist und der verbundene Bereich mit anderen verbundenen Zellen in Konflikt steht,
-andere verbundene Zellen werden automatisch entfernt.
+Andere verbundene Zellen werden automatisch entfernt.
 
 ##  merge(first_row, first_column, total_rows, total_columns, check_conflict, merge_conflict) {#int-int-int-int-bool-bool}
-Führt einen angegebenen Zellbereich zu einer einzigen Zelle zusammen.
+Führt einen angegebenen Zellbereich zu einer einzelnen Zelle zusammen.
 
 
 
@@ -76,7 +76,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 
 Verweisen Sie auf die verbundene Zelle über die Adresse der linken oberen Zelle im Bereich.
 Wenn mergeConflict wahr ist und der verbundene Bereich mit anderen verbundenen Zellen in Konflikt steht,
-andere verbundene Zellen werden automatisch entfernt.
+Andere verbundene Zellen werden automatisch entfernt.
 
 
 ###  Siehe auch

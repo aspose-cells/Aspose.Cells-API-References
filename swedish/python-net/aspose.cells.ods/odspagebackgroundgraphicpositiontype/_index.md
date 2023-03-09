@@ -20,7 +20,7 @@ Typen OdsPageBackgroundGraphicPositionType avslöjar följande medlemmar:
 | TOP_LEFT | Övre vänstra.|
 | TOP_CENTER | Översta mitten.|
 | TOP_RIGHT | Överst till höger.|
-| CENTER_LEFT |Mitten vänster.|
+| CENTER_LEFT | Mitten vänster.|
 | CENTER_CENTER | Centrum.|
 | CENTER_RIGHT | Mitten höger.|
 | BOTTOM_LEFT | Nedre vänstra.|

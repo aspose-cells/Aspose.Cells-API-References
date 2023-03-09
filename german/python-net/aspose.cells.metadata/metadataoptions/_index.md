@@ -17,7 +17,7 @@ Der Typ MetadataOptions macht die folgenden Member verfügbar:
 ###  Konstrukteure
 | Konstrukteur| Beschreibung|
 | :- | :- |
-| [MetadataOptions(metadata_type)](/cells/de/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Erstellt Optionen zum Laden der Metadaten.|
+| [MetadataOptions(metadata_type)](/cells/de/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Erstellt eine Option zum Laden der Metadaten.|
 
 
 ###  Eigenschaften

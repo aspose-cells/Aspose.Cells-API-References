@@ -18,7 +18,7 @@ Der Typ TickLabels macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [font](/cells/de/python-net/aspose.cells.charts/ticklabels/font) | Gibt ein [TickLabels.font](/cells/de/python-net/aspose.cells.charts/ticklabels#font)-Objekt zurück, das die Schriftart des angegebenen TickLabels-Objekts darstellt.|
-| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert. Der Standardwert ist True.|
+| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert.|
 | [background_mode](/cells/de/python-net/aspose.cells.charts/ticklabels/background_mode) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [rotation_angle](/cells/de/python-net/aspose.cells.charts/ticklabels/rotation_angle) | Stellt den Drehwinkel des Textes im Uhrzeigersinn dar.|
 | [is_automatic_rotation](/cells/de/python-net/aspose.cells.charts/ticklabels/is_automatic_rotation) | Gibt an, ob der Drehwinkel automatisch ist|

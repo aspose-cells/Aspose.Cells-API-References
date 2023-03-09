@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparklines mülk
 
-[Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnesinin koleksiyonunu alır.
+[Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnelerinin koleksiyonunu alır.
 ###  Tanım:
 ```python
 @property

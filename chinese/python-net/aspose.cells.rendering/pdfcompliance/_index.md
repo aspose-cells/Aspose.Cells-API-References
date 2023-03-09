@@ -1,13 +1,13 @@
 ﻿---
 title: PdfCompliance枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 170
 url: /zh/python-net/aspose.cells.rendering/pdfcompliance/
 is_root: false
 ---
-##  PdfCompliance枚举
+## PdfCompliance枚举
 允许用户设置 PDF 转换的兼容性
 
 

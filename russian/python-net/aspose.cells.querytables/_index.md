@@ -15,10 +15,10 @@ is_root: false
 | [DataMashup](/cells/ru/python-net/aspose.cells.querytables/datamashup) | Представляет данные мэшапа.|
 | [PowerQueryFormula](/cells/ru/python-net/aspose.cells.querytables/powerqueryformula) | Представляет определение формулы мощного запроса.|
 | [PowerQueryFormulaCollection](/cells/ru/python-net/aspose.cells.querytables/powerqueryformulacollection) | Представляет все формулы расширенного запроса в данных мэшапа.|
-| [PowerQueryFormulaFunction](/cells/ru/python-net/aspose.cells.querytables/powerqueryformulafunction) | Представляет функцию запроса питания.|
+| [PowerQueryFormulaFunction](/cells/ru/python-net/aspose.cells.querytables/powerqueryformulafunction) | Представляет функцию запроса мощности.|
 | [PowerQueryFormulaItem](/cells/ru/python-net/aspose.cells.querytables/powerqueryformulaitem) | Представляет элемент формулы мощного запроса.|
-| [PowerQueryFormulaItemCollection](/cells/ru/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) |Представляет весь элемент формулы запроса мощности.|
+| [PowerQueryFormulaItemCollection](/cells/ru/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) | Представляет все элементы формулы мощного запроса.|
 | [PowerQueryFormulaParameter](/cells/ru/python-net/aspose.cells.querytables/powerqueryformulaparameter) | Представляет параметр формулы мощного запроса.|
-| [PowerQueryFormulaParameterCollection](/cells/ru/python-net/aspose.cells.querytables/powerqueryformulaparametercollection) | Представляет|
+| [PowerQueryFormulaParameterCollection](/cells/ru/python-net/aspose.cells.querytables/powerqueryformulaparametercollection) |Представляет|
 
 

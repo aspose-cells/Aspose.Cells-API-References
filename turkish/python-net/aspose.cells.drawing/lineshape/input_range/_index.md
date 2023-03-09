@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen açılan kutuyu doldurmak için kullanılan çalışma sayfası aralığını alır veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

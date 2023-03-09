@@ -18,11 +18,11 @@ FilterOperatorType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | LESS_OR_EQUAL | LessOrEqual işlecini temsil eder.|
-| LESS_THAN | LessThan işlecini temsil eder.|
+| LESS_THAN | Küçüktür işlecini temsil eder.|
 | EQUAL | Eşit operatörünü temsil eder.|
-| GREATER_THAN | GreaterThan işlecini temsil eder.|
+| GREATER_THAN | Greater Than operatörünü temsil eder.|
 | NOT_EQUAL | Eşit Değil işlecini temsil eder.|
-| GREATER_OR_EQUAL | GreaterOrEqual operatörünü temsil eder.|
+| GREATER_OR_EQUAL | Büyük veya Eşit operatörünü temsil eder.|
 | NONE | Hiçbir karşılaştırmayı temsil etmez.|
 | BEGINS_WITH | metinle başlar.|
 | ENDS_WITH |metinle biter.|

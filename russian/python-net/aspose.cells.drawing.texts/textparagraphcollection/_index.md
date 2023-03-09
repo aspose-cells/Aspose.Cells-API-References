@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
 ##  TextParagraphCollection класс
-Представляет весь абзац текста.
+Представляет все абзацы текста.
 
 
 

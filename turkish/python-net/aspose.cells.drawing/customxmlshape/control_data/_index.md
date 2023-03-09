@@ -11,7 +11,7 @@ is_root: false
 
 Kontrol verilerini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

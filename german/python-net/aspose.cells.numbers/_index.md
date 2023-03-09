@@ -16,8 +16,8 @@ is_root: false
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
-| [LoadNumbersTableType](/cells/de/python-net/aspose.cells.numbers/loadnumberstabletype) | Gibt den Typ der Ladetabellen an, wenn sich einige Tabellen in einem Blatt befinden.|
+| [LoadNumbersTableType](/cells/de/python-net/aspose.cells.numbers/loadnumberstabletype) |Gibt den Typ der Ladetabellen an, wenn sich einige Tabellen in einem Blatt befinden.|
 
 

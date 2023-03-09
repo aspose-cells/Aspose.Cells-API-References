@@ -1,6 +1,6 @@
 ﻿---
 title: zoom 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 920
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## zoom 属性
 
-表示以百分比表示的比例因子。它应该在 10 到 400 之间。
+以百分比表示比例因子。它应该在 10 到 400 之间。
 
 ### 评论
 

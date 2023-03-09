@@ -24,9 +24,9 @@ Il tipo UnionRange espone i membri seguenti:
 | [value](/cells/it/python-net/aspose.cells/unionrange/value) | Ottiene e imposta i valori dell'intervallo.|
 | [name](/cells/it/python-net/aspose.cells/unionrange/name) | Ottiene o imposta il nome dell'intervallo.|
 | [refers_to](/cells/it/python-net/aspose.cells/unionrange/refers_to) | Ottiene i riferimenti dell'intervallo a.|
-| [has_range](/cells/it/python-net/aspose.cells/unionrange/has_range) |Indica se questo ha intervallo.|
+| [has_range](/cells/it/python-net/aspose.cells/unionrange/has_range) | Indica se questo ha intervallo.|
 | [hyperlinks](/cells/it/python-net/aspose.cells/unionrange/hyperlinks) | Ottiene tutti i collegamenti ipertestuali nell'intervallo.|
-| [cell_count](/cells/it/python-net/aspose.cells/unionrange/cell_count) | Ottiene tutto il conteggio delle celle nell'intervallo.|
+| [cell_count](/cells/it/python-net/aspose.cells/unionrange/cell_count) | Ottiene tutti i conteggi di celle nell'intervallo.|
 | [range_count](/cells/it/python-net/aspose.cells/unionrange/range_count) | Ottiene il conteggio degli intervalli.|
 | [ranges](/cells/it/python-net/aspose.cells/unionrange/ranges) | Ottiene tutti gli intervalli di unione.|
 
@@ -43,7 +43,7 @@ Il tipo UnionRange espone i membri seguenti:
 | [union(union_range)](/cells/it/python-net/aspose.cells/unionrange/union/#UnionRange) | Unione un'altra gamma.|
 | [union(ranges)](/cells/it/python-net/aspose.cells/unionrange/union/#list) | Unire le gamme.|
 | [merge()](/cells/it/python-net/aspose.cells/unionrange/merge/#) | Combina un intervallo di celle in una singola cella.|
-| [un_merge()](/cells/it/python-net/aspose.cells/unionrange/un_merge/#) | Separa le celle unite di questo intervallo.|
+| [un_merge()](/cells/it/python-net/aspose.cells/unionrange/un_merge/#) |Separa le celle unite di questo intervallo.|
 | [put_value(string_value, is_converted, set_style)](/cells/it/python-net/aspose.cells/unionrange/put_value/#str-bool-bool) | Inserisce un valore nell'intervallo, se appropriato il valore verrà convertito in un altro tipo di dati e il formato numerico della cella verrà reimpostato.|
 | [set_style(style)](/cells/it/python-net/aspose.cells/unionrange/set_style/#Style) | Imposta lo stile dell'intervallo.|
 | [apply_style(style, flag)](/cells/it/python-net/aspose.cells/unionrange/apply_style/#Style-StyleFlag) | Applica i formati per un'intera gamma.|

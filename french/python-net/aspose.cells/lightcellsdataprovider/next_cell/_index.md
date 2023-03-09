@@ -13,7 +13,7 @@ Obtient la cellule suivante à enregistrer.
 
 ###  Retour
 
-index de colonne de la prochaine cellule à enregistrer. -1 signifie que la fin des données de la ligne actuelle a été atteinte et qu'aucune autre cellule de la ligne actuelle ne doit être enregistrée.
+-1 signifie que la fin des données de la ligne actuelle a été atteinte et qu'aucune autre cellule de la ligne actuelle ne doit être enregistrée.
 
 
 ```python

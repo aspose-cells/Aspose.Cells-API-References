@@ -22,7 +22,7 @@ def get_subtotals(self, subtotal_type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | subtotal_type | [PivotFieldSubtotalType](/cells/es/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | tipo de subtotales.|
 

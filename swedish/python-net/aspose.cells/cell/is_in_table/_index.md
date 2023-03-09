@@ -13,7 +13,7 @@ Anger om denna cell är en del av tabellformeln.
 
 ###  Anmärkningar
 
- OBS: Denna klass är nu föråldrad. Istället,
+ OBS: Denna klass är nu föråldrad.
 använd Cell.IsTableFormula för att kontrollera om cellformeln är en del av tabellformeln.
 Den här egenskapen kommer att tas bort 12 månader senare sedan maj 2018.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

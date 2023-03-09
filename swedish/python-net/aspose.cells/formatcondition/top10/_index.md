@@ -11,7 +11,7 @@ is_root: false
 
 Hämta den villkorliga formateringens "Top10"-instans.
 Standardinstansens regel markerar celler vars
-värden hamnar i topp 10-parentesen.
+värden hamnar i topp 10 parentes.
 Gäller endast för typ är Top10.
 ###  Definition:
 ```python

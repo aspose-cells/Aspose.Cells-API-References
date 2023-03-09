@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
 ##  TextParagraphCollection Klasse
-Stellt den gesamten Textabsatz dar.
+Repräsentiert alle Textabsätze.
 
 
 

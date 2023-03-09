@@ -1,13 +1,13 @@
 ﻿---
 title: TickLabelPositionType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 640
 url: /zh/python-net/aspose.cells.charts/ticklabelpositiontype/
 is_root: false
 ---
-##  TickLabelPositionType枚举
+## TickLabelPositionType枚举
 表示指定轴上刻度线标签的位置类型。
 
 

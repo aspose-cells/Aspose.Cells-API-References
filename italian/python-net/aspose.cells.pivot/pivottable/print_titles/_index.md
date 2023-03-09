@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles proprietà
 
 Indica se i titoli di stampa per il foglio di lavoro sono basati su set
-nel rapporto di tabella pivot. Il valore predefinito è falso.
+nel rapporto di tabella pivot.
 ###  Definizione:
 ```python
 @property

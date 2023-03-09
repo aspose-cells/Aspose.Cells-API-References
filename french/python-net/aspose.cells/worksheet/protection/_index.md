@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection propriété
 
-Représente les différents types d'options protection disponibles pour une feuille de calcul. Prend en charge les options avancées protection dans ExcelXP et les versions supérieures.
+Représente les différents types d'options protection disponibles pour une feuille de calcul.
 
 ###  Remarques
 

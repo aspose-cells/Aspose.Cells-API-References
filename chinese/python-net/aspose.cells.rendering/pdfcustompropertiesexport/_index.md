@@ -1,13 +1,13 @@
 ﻿---
 title: PdfCustomPropertiesExport枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
 url: /zh/python-net/aspose.cells.rendering/pdfcustompropertiesexport/
 is_root: false
 ---
-##  PdfCustomPropertiesExport枚举
+## PdfCustomPropertiesExport枚举
 指定将 [CustomDocumentPropertyCollection](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection) 导出到 PDF 文件的方式。
 
 

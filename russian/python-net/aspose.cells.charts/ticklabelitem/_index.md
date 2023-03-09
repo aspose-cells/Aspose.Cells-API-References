@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [x](/cells/ru/python-net/aspose.cells.charts/ticklabelitem/x) | Координаты X элемента Ticklabel относительно ширины диаграммы.|
 | [y](/cells/ru/python-net/aspose.cells.charts/ticklabelitem/y) | Координаты Y элемента Ticklabel относительно высоты графика.|
-| [width](/cells/ru/python-net/aspose.cells.charts/ticklabelitem/width) | Ширина элемента Ticklabel по отношению к ширине диаграммы.|
+| [width](/cells/ru/python-net/aspose.cells.charts/ticklabelitem/width) |Ширина элемента Ticklabel по отношению к ширине диаграммы.|
 | [height](/cells/ru/python-net/aspose.cells.charts/ticklabelitem/height) | Высота элемента Ticklabel по отношению к высоте диаграммы.|
 
 

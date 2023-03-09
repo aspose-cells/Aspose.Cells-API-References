@@ -13,7 +13,7 @@ Obtient les données stockées dans la colonne spécifiée par index.
 ###  Indexeur
 | Nom| Description|
 | :- | :- |
-| index |Index de base zéro de la colonne.|
+| index | Index de base zéro de la colonne.|
 
 
 

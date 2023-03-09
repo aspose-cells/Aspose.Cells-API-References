@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_xml_source_data mülk
 
-HTML tablosunun kendisi yerine XML kaynak verilerinin içe aktarılması gerektiğini belirten bayrak.
+HTML tablosunun kendisi yerine XML kaynak verilerinin içe aktarılması gerektiğini belirten işaret.
 ###  Tanım:
 ```python
 @property

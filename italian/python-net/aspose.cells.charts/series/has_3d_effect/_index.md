@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_3d_effect proprietà
 
-Vero se la serie ha un aspetto tridimensionale.
+ Vero se la serie ha un aspetto tridimensionale.
 Si applica solo ai grafici a bolle.
 ###  Definizione:
 ```python

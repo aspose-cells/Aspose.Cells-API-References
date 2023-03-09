@@ -1,5 +1,5 @@
 ﻿---
-title: Workbook sınıf
+title: Workbook sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1590
 url: /tr/python-net/aspose.cells/workbook/
 is_root: false
 ---
-##  Workbook sınıf
+##  Workbook sınıfı
 Bir Excel elektronik tablosu oluşturmak için bir kök nesneyi temsil eder.
 
 
@@ -35,17 +35,17 @@ Workbook türü aşağıdaki üyeleri gösterir:
 | [count_of_styles_in_pool](/cells/tr/python-net/aspose.cells/workbook/count_of_styles_in_pool) | Stil havuzundaki stillerin sayısını alır.|
 | [default_style](/cells/tr/python-net/aspose.cells/workbook/default_style) | Çalışma kitabının varsayılan [Style](/cells/tr/python-net/aspose.cells/style) nesnesini alır veya ayarlar.|
 | [is_digitally_signed](/cells/tr/python-net/aspose.cells/workbook/is_digitally_signed) | Bu e-tablonun dijital olarak imzalanıp imzalanmadığını gösterir.|
-| [is_workbook_protected_with_password](/cells/tr/python-net/aspose.cells/workbook/is_workbook_protected_with_password) |Yapının mı yoksa pencerenin mi şifre ile korunduğunu gösterir.|
+| [is_workbook_protected_with_password](/cells/tr/python-net/aspose.cells/workbook/is_workbook_protected_with_password) | Yapının mı yoksa pencerenin mi şifre ile korunduğunu gösterir.|
 | [vba_project](/cells/tr/python-net/aspose.cells/workbook/vba_project) | Bir e-tabloda [Workbook.vba_project](/cells/tr/python-net/aspose.cells/workbook#vba_project)'i alır.|
 | [has_macro](/cells/tr/python-net/aspose.cells/workbook/has_macro) | Bu e-tablonun makro/VBA içerip içermediğini gösterir.|
 | [has_revisions](/cells/tr/python-net/aspose.cells/workbook/has_revisions) | Çalışma kitabında herhangi bir izlenen değişiklik olup olmadığını alır|
-| [file_name](/cells/tr/python-net/aspose.cells/workbook/file_name) | Geçerli dosya adını alır ve ayarlar.|
+| [file_name](/cells/tr/python-net/aspose.cells/workbook/file_name) |Geçerli dosya adını alır ve ayarlar.|
 | [cells_data_table_factory](/cells/tr/python-net/aspose.cells/workbook/cells_data_table_factory) | Özel nesnelerden ICellsDataTable oluşturmak için fabrikayı alır|
 | [data_sorter](/cells/tr/python-net/aspose.cells/workbook/data_sorter) | Verileri sıralamak için bir DataSorter nesnesi alır.|
 | [theme](/cells/tr/python-net/aspose.cells/workbook/theme) | Tema adını alır.|
 | [built_in_document_properties](/cells/tr/python-net/aspose.cells/workbook/built_in_document_properties) | Elektronik tablonun tüm yerleşik belge özelliklerini temsil eden bir [DocumentProperty](/cells/tr/python-net/aspose.cells.properties/documentproperty) koleksiyonunu döndürür.|
 | [custom_document_properties](/cells/tr/python-net/aspose.cells/workbook/custom_document_properties) | Elektronik tablonun tüm özel belge özelliklerini temsil eden bir [DocumentProperty](/cells/tr/python-net/aspose.cells.properties/documentproperty) koleksiyonunu döndürür.|
-| [file_format](/cells/tr/python-net/aspose.cells/workbook/file_format) |Dosya biçimini alır ve ayarlar.|
+| [file_format](/cells/tr/python-net/aspose.cells/workbook/file_format) | Dosya biçimini alır ve ayarlar.|
 | [interrupt_monitor](/cells/tr/python-net/aspose.cells/workbook/interrupt_monitor) | Kesme monitörünü alır ve ayarlar.|
 | [content_type_properties](/cells/tr/python-net/aspose.cells/workbook/content_type_properties) | Çalışma kitabındaki [ContentTypeProperty](/cells/tr/python-net/aspose.cells.properties/contenttypeproperty) nesnelerin listesini alır.|
 | [custom_xml_parts](/cells/tr/python-net/aspose.cells/workbook/custom_xml_parts) | Bir Özel XML Veri Depolama Bölümünü (bir paket içindeki özel XML verileri) temsil eder.|
@@ -64,16 +64,16 @@ Workbook türü aşağıdaki üyeleri gösterir:
 | [save(stream, save_format)](/cells/tr/python-net/aspose.cells/workbook/save/#io.RawIOBase-SaveFormat) | Çalışma kitabını akışa kaydeder.|
 | [save(stream, save_options)](/cells/tr/python-net/aspose.cells/workbook/save/#io.RawIOBase-SaveOptions) | Çalışma kitabını akışa kaydeder.|
 | [replace(place_holder, new_value)](/cells/tr/python-net/aspose.cells/workbook/replace/#str-str) | Bir hücrenin değerini yeni bir dizeyle değiştirir.|
-| [replace(place_holder, new_value)](/cells/tr/python-net/aspose.cells/workbook/replace/#str-int) |Bir hücrenin değerini yeni bir tamsayı ile değiştirir.|
-| [replace(place_holder, new_value)](/cells/tr/python-net/aspose.cells/workbook/replace/#str-float) | Bir hücrenin değerini yeni bir çift ile değiştirir.|
+| [replace(place_holder, new_value)](/cells/tr/python-net/aspose.cells/workbook/replace/#str-int) | Bir hücrenin değerini yeni bir tamsayı ile değiştirir.|
+| [replace(place_holder, new_value)](/cells/tr/python-net/aspose.cells/workbook/replace/#str-float) |Bir hücrenin değerini yeni bir çift ile değiştirir.|
 | [replace(place_holder, new_values, is_vertical)](/cells/tr/python-net/aspose.cells/workbook/replace/#str-list-bool) | Bir hücrenin değerini yeni bir dize dizisiyle değiştirir.|
 | [replace(place_holder, new_values, is_vertical)](/cells/tr/python-net/aspose.cells/workbook/replace/#str-list-bool) | Hücrelerin değerlerini bir tamsayı dizisiyle değiştirir.|
 | [replace(place_holder, new_values, is_vertical)](/cells/tr/python-net/aspose.cells/workbook/replace/#str-list-bool) | Hücrelerin değerlerini çift dizi ile değiştirir.|
 | [replace(bool_value, new_value)](/cells/tr/python-net/aspose.cells/workbook/replace/#bool-any) | Hücrelerin değerlerini yeni verilerle değiştirir.|
 | [replace(int_value, new_value)](/cells/tr/python-net/aspose.cells/workbook/replace/#int-any) | Hücrelerin değerlerini yeni verilerle değiştirir.|
 | [replace(place_holder, new_value, options)](/cells/tr/python-net/aspose.cells/workbook/replace/#str-str-ReplaceOptions) | Bir hücrenin değerini yeni bir dizeyle değiştirir.|
-| [copy(source, copy_options)](/cells/tr/python-net/aspose.cells/workbook/copy/#Workbook-CopyOptions) |Bir kaynak Çalışma Kitabı nesnesinden verileri kopyalar.|
-| [copy(source)](/cells/tr/python-net/aspose.cells/workbook/copy/#Workbook) |Bir kaynak Çalışma Kitabı nesnesinden verileri kopyalar.|
+| [copy(source, copy_options)](/cells/tr/python-net/aspose.cells/workbook/copy/#Workbook-CopyOptions) | Bir kaynak Çalışma Kitabı nesnesinden verileri kopyalar.|
+| [copy(source)](/cells/tr/python-net/aspose.cells/workbook/copy/#Workbook) | Bir kaynak Çalışma Kitabı nesnesinden verileri kopyalar.|
 | [calculate_formula()](/cells/tr/python-net/aspose.cells/workbook/calculate_formula/#) | Formüllerin sonucunu hesaplar.|
 | [calculate_formula(ignore_error)](/cells/tr/python-net/aspose.cells/workbook/calculate_formula/#bool) | Formüllerin sonucunu hesaplar.|
 | [calculate_formula(ignore_error, custom_function)](/cells/tr/python-net/aspose.cells/workbook/calculate_formula/#bool-ICustomFunction) | Formüllerin sonucunu hesaplar.|
@@ -85,10 +85,10 @@ Workbook türü aşağıdaki üyeleri gösterir:
 | [export_xml(map_name, path)](/cells/tr/python-net/aspose.cells/workbook/export_xml/#str-str) | Belirtilen XML haritasıyla bağlantılı XML verilerini dışa aktarın.|
 | [export_xml(map_name, stream)](/cells/tr/python-net/aspose.cells/workbook/export_xml/#str-io.RawIOBase) | XML verilerini dışa aktarın.|
 | [parse_formulas(ignore_error)](/cells/tr/python-net/aspose.cells/workbook/parse_formulas/#bool) | Şablon dosyasından yüklendiğinde veya bir hücreye ayarlandığında ayrıştırılmamış tüm formülleri ayrıştırır.|
-| [start_access_cache(opts)](/cells/tr/python-net/aspose.cells/workbook/start_access_cache/#AccessCacheOptions) | Verilere erişmek için önbellekleri kullanan oturumu başlatır.|
+| [start_access_cache(opts)](/cells/tr/python-net/aspose.cells/workbook/start_access_cache/#AccessCacheOptions) |Verilere erişmek için önbellekleri kullanan oturumu başlatır.|
 | [close_access_cache(opts)](/cells/tr/python-net/aspose.cells/workbook/close_access_cache/#AccessCacheOptions) | Verilere erişmek için önbellekleri kullanan oturumu kapatır.|
 | [remove_unused_styles()](/cells/tr/python-net/aspose.cells/workbook/remove_unused_styles/#) | Kullanılmayan tüm stilleri kaldırın.|
-| [create_style()](/cells/tr/python-net/aspose.cells/workbook/create_style/#) |Yeni bir stil oluşturur.|
+| [create_style()](/cells/tr/python-net/aspose.cells/workbook/create_style/#) | Yeni bir stil oluşturur.|
 | [create_builtin_style(type)](/cells/tr/python-net/aspose.cells/workbook/create_builtin_style/#BuiltinStyleType) | Verilen türe göre yerleşik stil oluşturur.|
 | [create_cells_color()](/cells/tr/python-net/aspose.cells/workbook/create_cells_color/#) | Bir [CellsColor](/cells/tr/python-net/aspose.cells/cellscolor) nesnesi oluşturur.|
 | [combine(second_workbook)](/cells/tr/python-net/aspose.cells/workbook/combine/#Workbook) | Başka bir Çalışma Kitabı nesnesini birleştirir.|
@@ -106,13 +106,13 @@ Workbook türü aşağıdaki üyeleri gösterir:
 | [remove_macro()](/cells/tr/python-net/aspose.cells/workbook/remove_macro/#) | VBA/makroyu bu e-tablodan kaldırır.|
 | [remove_digital_signature()](/cells/tr/python-net/aspose.cells/workbook/remove_digital_signature/#) | Bu e-tablodan dijital imzayı kaldırır.|
 | [accept_all_revisions()](/cells/tr/python-net/aspose.cells/workbook/accept_all_revisions/#) | Çalışma kitabında izlenen tüm değişiklikleri kabul eder.|
-| [remove_external_links()](/cells/tr/python-net/aspose.cells/workbook/remove_external_links/#) | Çalışma kitabındaki tüm dış bağlantıları kaldırır.|
+| [remove_external_links()](/cells/tr/python-net/aspose.cells/workbook/remove_external_links/#) |Çalışma kitabındaki tüm dış bağlantıları kaldırır.|
 | [get_theme_color(type)](/cells/tr/python-net/aspose.cells/workbook/get_theme_color/#ThemeColorType) | Tema rengini alır.|
 | [set_theme_color(type, color)](/cells/tr/python-net/aspose.cells/workbook/set_theme_color/#ThemeColorType-aspose.pydrawing.Color) | Tema rengini ayarlar|
 | [custom_theme(theme_name, colors)](/cells/tr/python-net/aspose.cells/workbook/custom_theme/#str-aspose.pydrawing.Color[]) | Gümrük teması.|
 | [copy_theme(source)](/cells/tr/python-net/aspose.cells/workbook/copy_theme/#Workbook) | Temayı başka bir çalışma kitabından kopyalar.|
 | [has_exernal_links()](/cells/tr/python-net/aspose.cells/workbook/has_exernal_links/#) | Bu çalışma kitabının diğer veri kaynaklarına harici bağlantılar içerip içermediğini gösterir.|
-| [update_linked_data_source(external_workbooks)](/cells/tr/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Bu çalışma kitabı başka veri kaynaklarına harici bağlantılar içeriyorsa,<br/>Aspose.Cells en son verileri almaya çalışacak.|
+| [update_linked_data_source(external_workbooks)](/cells/tr/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Bu çalışma kitabı diğer veri kaynaklarına harici bağlantılar içeriyorsa,<br/> Aspose.Cells en son verileri almaya çalışacak.|
 | [set_digital_signature(digital_signature_collection)](/cells/tr/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Elektronik tablo dosyasına dijital imza ayarlar (Excel2007 ve sonrası).|
 | [add_digital_signature(digital_signature_collection)](/cells/tr/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Bir OOXML elektronik tablo dosyasına (Excel2007 ve sonrası) dijital imza ekler.|
 | [get_digital_signature()](/cells/tr/python-net/aspose.cells/workbook/get_digital_signature/#) | Dosyadan dijital imza alır.|
@@ -122,13 +122,13 @@ Workbook türü aşağıdaki üyeleri gösterir:
 
 ###  Notlar
 
-Workbook sınıfı, bir Excel elektronik tablosunu belirtir. Her elektronik tablo birden çok çalışma sayfası içerebilir.
+Workbook sınıfı, bir Excel elektronik tablosunu belirtir.
 Sınıfın temel özelliği, yerel excel dosyalarını açmak ve kaydetmektir.
 Sınıf, diğer Çalışma Kitaplarından veri kopyalama, iki Çalışma Kitabını birleştirme ve Excel elektronik tablosunu koruma gibi bazı gelişmiş özelliklere sahiptir.
 
-###  Örnek
+###  örnekler
 
- Aşağıdaki örnek, designer.xls adlı bir dosyadan bir Workbook yükler ve Workbook için yatay ve dikey kaydırma çubuklarını görünmez yapar. Ardından, elektronik tablo içinde iki dize değerini sırasıyla bir Tamsayı değeri ve dize değeri ile değiştirir ve son olarak güncellenen dosyayı şuraya gönderir: istemci tarayıcısı.
+Aşağıdaki örnek, designer.xls adlı bir dosyadan bir Workbook yükler ve Workbook için yatay ve dikey kaydırma çubuklarını görünmez hale getirir. istemci tarayıcısına dosya.
 
 ```python
 from aspose.cells import Workbook

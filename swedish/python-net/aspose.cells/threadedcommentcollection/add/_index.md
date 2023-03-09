@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | text | str | Texten i den trådade kommentaren.|
 | author | [ThreadedCommentAuthor](/cells/sv/python-net/aspose.cells/threadedcommentauthor) | Författaren till den trådade kommentaren|

@@ -1,13 +1,13 @@
 ﻿---
 title: AbstractCalculationMonitor类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
 url: /zh/python-net/aspose.cells/abstractcalculationmonitor/
 is_root: false
 ---
-##  AbstractCalculationMonitor类
+## AbstractCalculationMonitor类
 监视用户以跟踪公式计算的进度。
 
 

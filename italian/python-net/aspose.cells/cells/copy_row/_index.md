@@ -18,7 +18,7 @@ def copy_row(self, source_cells, source_row_index, destination_row_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/it/python-net/aspose.cells/cells) | L'oggetto sorgente Cells contiene dati e formati da copiare.|
 | source_row_index | int | Indice della riga di origine.|

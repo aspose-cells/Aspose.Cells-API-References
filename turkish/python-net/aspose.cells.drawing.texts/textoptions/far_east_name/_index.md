@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name mülk
 
-FarEast adını alır ve ayarlar.
+Uzak Doğu adını alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

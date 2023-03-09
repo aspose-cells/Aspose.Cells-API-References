@@ -13,7 +13,7 @@ Herhangi bir format olmadan hücrenin değerini string olarak alır.
 
 ###  Notlar
 
-NOT: Bu yöntem artık kullanılmıyor. Yerine,
+NOT: Bu yöntem artık kullanılmıyor.
 Kullanıcı, değer nesnesini almalı ve onu değer türüne ve özel gereksinime göre biçimlendirmelidir.
 Bu mülk, Aralık 2020'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

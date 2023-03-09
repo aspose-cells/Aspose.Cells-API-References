@@ -18,17 +18,17 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | GROUP | Группа|
-| ADJUST_HANDLES | Регулировка ручек|
+| ADJUST_HANDLES | Отрегулируйте ручки|
 | TEXT | Текст|
-| POINTS | Точки|
-| CROP | Обрезать|
+| POINTS | точки|
+| CROP |Обрезать|
 | SELECTION | Выбор|
 | MOVE | Двигаться|
 | ASPECT_RATIO | Соотношение сторон|
 | ROTATION | Вращение|
 | UNGROUP | Разгруппировать|
 | RESIZE | Изменить размер|
-| SHAPE_TYPE | Тип фигуры|
+| SHAPE_TYPE | Тип формы|
 | ARROWHEAD | Стрелка|
 
 

@@ -18,7 +18,7 @@ def set_calculated_value(self, v):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | v | any |  |
 ###  Osservazioni

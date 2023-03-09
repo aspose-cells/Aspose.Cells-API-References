@@ -27,12 +27,12 @@ def add_active_x_control(self, type, top_row, top, left_column, left, width, hei
 | type | aspose.cells.drawing.activexcontrols.ControlType | Der Typ des Steuerelements.|
 | top_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz von Shape von seiner linken Zeile in Pixeleinheiten dar.|
-| left_column | int |Spaltenindex oben links.|
+| left_column | int | Spaltenindex oben links.|
 | left | int | Stellt den horizontalen Versatz von Shape von seiner linken Spalte in Pixeleinheiten dar.|
 | width | int | Stellt die Breite von Shape in Pixeleinheiten dar.|
 | height | int | Stellt die Höhe von Shape in Pixeleinheiten dar.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing.activexcontrols import ControlType

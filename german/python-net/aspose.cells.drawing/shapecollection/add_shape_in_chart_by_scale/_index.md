@@ -29,7 +29,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom)
 
 
 ##  add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data) {#MsoDrawingType-PlacementType-float-float-float-float-bytes}
-Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 des Diagrammbereichs.
+Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 der Diagrammfläche.
 
 
 

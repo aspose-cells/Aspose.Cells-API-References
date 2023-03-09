@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  diagonal_up_border fastighet
 
-Inställningar för diagonal upp kant kommer att tillämpas.
+Inställningar för diagonal uppkant kommer att tillämpas.
 ###  Definition:
 ```python
 @property

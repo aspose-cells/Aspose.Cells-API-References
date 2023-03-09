@@ -37,7 +37,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 يقوم المثال التالي بإنشاء WorkbookMetadata.
 

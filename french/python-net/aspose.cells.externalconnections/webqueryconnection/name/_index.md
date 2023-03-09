@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name propriété
 
-Spécifie le name de la connexion. Chaque connexion doit avoir un name unique.
+Spécifie le name de la connexion.
 ###  Définition:
 ```python
 @property

@@ -10,8 +10,8 @@ is_root: false
 ##  sheets_in_loading_order mülk
 
 Sayfaları (endeksleri) ve yüklenecek sırayı belirtir.
-Varsayılan boştur, bu, şablon dosyasındaki tüm sayfaların varsayılan sırayla yüklenmesini belirtir.
-Null değilse ve bazı sayfaların dizini döndürülen dizide değilse, sayfa yüklenmeyecektir.
+Varsayılan, boştur, bu da şablon dosyasındaki tüm sayfaların varsayılan sırayla yüklenmesini belirtir.
+Null değilse ve bazı sayfaların dizini döndürülen dizide değilse, sayfa yüklenmez.
 ###  Tanım:
 ```python
 @property

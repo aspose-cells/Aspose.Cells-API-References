@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format mülk
 
-Sayısal değerin biçimini alır ve ayarlar.
+Sayısal değerlerin biçimini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_align_type fastighet
 
-Bestämmer var vertikalt på en textrad de faktiska orden är placerade. Det här handlar om
+Bestämmer var vertikalt på en textrad de faktiska orden är placerade.
 med vertikal placering av tecknen i förhållande till baslinjerna.
 ###  Definition:
 ```python

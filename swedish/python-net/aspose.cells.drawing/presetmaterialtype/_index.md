@@ -18,7 +18,7 @@ Typen PresetMaterialType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | CLEAR | Klar|
-| DARK_EDGE | Mörk kant|
+| DARK_EDGE | Mörka kanter|
 | FLAT | Platt|
 | LEGACY_MATTE | Legacy matt|
 | LEGACY_METAL | Äldre metall|
@@ -28,10 +28,10 @@ Typen PresetMaterialType avslöjar följande medlemmar:
 | METAL | Metall|
 | PLASTIC | Plast|
 | POWDER | Pulver|
-| SOFT_EDGE | Mjuk kant|
+| SOFT_EDGE | Mjuka kanter|
 | SOFT_METAL | Mjuk metall|
 | TRANSLUCENT_POWDER | Genomskinligt pulver|
-| WARM_MATTE | Varm matt|
+| WARM_MATTE | varm matt|
 
 
 

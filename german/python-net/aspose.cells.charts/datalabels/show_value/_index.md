@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value Eigentum
 
-Stellt das Anzeigeverhalten der Datenbeschriftungswerte eines bestimmten Diagramms dar. True zeigt die Werte an. Falsch zu verstecken.
+Stellt das Anzeigeverhalten der Datenbeschriftungswerte eines bestimmten Diagramms dar. True zeigt die Werte an. False zum Ausblenden.
 ###  Definition:
 ```python
 @property

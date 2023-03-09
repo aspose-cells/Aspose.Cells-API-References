@@ -14,8 +14,8 @@ is_root: false
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
-Для Tiff/Svg используйте [ImageOrPrintOptions.image_type](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions#image_type); Для XPs используйте [Workbook.save(file_name, save_format)](/cells/ru/python-net/aspose.cells/workbook/save) с [XpsSaveOptions](/cells/ru/python-net/aspose.cells/xpssaveoptions).
+ ПРИМЕЧАНИЕ. Этот элемент устарел.
+Для Tiff/Svg используйте [ImageOrPrintOptions.image_type](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions#image_type); для XPS используйте [Workbook.save(file_name, save_format)](/cells/ru/python-net/aspose.cells/workbook/save) с [XpsSaveOptions](/cells/ru/python-net/aspose.cells/xpssaveoptions).
  Это свойство будет удалено через 12 месяцев, начиная с августа 2022 года.
 Aspose приносит извинения за возможные неудобства.
 ###  Определение:

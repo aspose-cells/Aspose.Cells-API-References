@@ -1,13 +1,13 @@
 ﻿---
 title: FontUnderlineType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2090
 url: /zh/python-net/aspose.cells/fontunderlinetype/
 is_root: false
 ---
-##  FontUnderlineType枚举
+## FontUnderlineType枚举
 枚举字体下划线类型。
 
 

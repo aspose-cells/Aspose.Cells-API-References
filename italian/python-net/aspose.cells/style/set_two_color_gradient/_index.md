@@ -18,12 +18,12 @@ def set_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color | Un colore sfumato.|
 | color2 | aspose.pydrawing.Color | Due colori sfumati.|
 | gradient_style_type | aspose.cells.drawing.GradientStyleType | Stile di sfumatura sfumata.|
-| variant | int |La variante gradiente. Può essere un valore compreso tra 1 e 4, corrispondente a una delle quattro varianti nella scheda Sfumatura nella finestra di dialogo Effetti di riempimento. Se style è GradientStyle.FromCenter, l'argomento Variant può essere solo 1 o 2.|
+| variant | int |La variante sfumatura. Può essere un valore compreso tra 1 e 4, corrispondente a una delle quattro varianti nella scheda Sfumatura nella finestra di dialogo Effetti di riempimento. Se lo stile è GradientStyle.FromCenter, l'argomento Variante può essere solo 1 o 2.|
 
 
 

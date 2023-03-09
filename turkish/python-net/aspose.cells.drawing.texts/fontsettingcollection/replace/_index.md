@@ -18,7 +18,7 @@ def replace(self, old_value, new_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | old_value | str | Eski metin.|
 | new_value | str | Yeni metin.|
@@ -35,7 +35,7 @@ def replace(self, index, count, text):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Başlangıç dizini.|
 | count | int | Karakter sayısı.|

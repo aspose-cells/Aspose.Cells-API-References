@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.revisions/revisionrenamesheet/
 is_root: false
 ---
 ##  classe RevisionRenameSheet
-Rappresenta una revisione della ridenominazione del foglio.
+Rappresenta una revisione del foglio di ridenominazione.
 
 
 

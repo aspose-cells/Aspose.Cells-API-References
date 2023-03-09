@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache_items proprietà
 
-Restituisce una raccolta SlicerCacheItem che contiene la raccolta di tutti gli elementi nella cache del filtro dei dati. Sola lettura
+Restituisce una raccolta SlicerCacheItem che contiene la raccolta di tutti gli elementi nella cache del filtro dei dati.
 
-###  Esempio
+###  Esempi
 
 ```python
 

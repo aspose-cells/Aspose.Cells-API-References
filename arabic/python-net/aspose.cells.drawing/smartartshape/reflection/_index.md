@@ -11,7 +11,7 @@ is_root: false
 
 يمثل عنصر [ReflectionEffect](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect) يحدد تأثير reflection لعنصر المخطط أو شكله.
 
-###  مثال
+###  أمثلة
 
 ```python
 

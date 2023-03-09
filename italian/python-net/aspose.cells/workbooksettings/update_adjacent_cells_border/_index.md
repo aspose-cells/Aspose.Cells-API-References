@@ -14,7 +14,7 @@ Indica se aggiornare il bordo delle celle adiacenti.
 ###  Osservazioni
 
 Il valore predefinito è falso.
-Ad esempio: il bordo inferiore della cella A1 è aggiornato,
+ Ad esempio: il bordo inferiore della cella A1 viene aggiornato,
 anche il bordo superiore della cella A2 dovrebbe essere modificato.
 ###  Definizione:
 ```python

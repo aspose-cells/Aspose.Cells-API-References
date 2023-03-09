@@ -22,7 +22,7 @@ def file_format_to_save_format(self, format):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | format | [FileFormatType](/cells/ru/python-net/aspose.cells/fileformattype) | Тип формата файла.|
 

@@ -1,13 +1,13 @@
 ﻿---
 title: DataBarBorder类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 410
 url: /zh/python-net/aspose.cells/databarborder/
 is_root: false
 ---
-##  DataBarBorder类
+## DataBarBorder类
 表示由条件格式规则指定的数据条的边框。
 
 

@@ -22,7 +22,7 @@ def calculate_formula(self, formula):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | الصيغة المطلوب حسابها.|
 
@@ -42,7 +42,7 @@ def calculate_formula(self, formula, opts):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | الصيغة المطلوب حسابها.|
 | opts | [CalculationOptions](/cells/ar/python-net/aspose.cells/calculationoptions) | خيارات لحساب الصيغة|
@@ -59,7 +59,7 @@ def calculate_formula(self, options, recursive):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/ar/python-net/aspose.cells/calculationoptions) | خيارات الحساب|
 | recursive | bool | يعني صحيح إذا كانت خلايا ورقة العمل تعتمد على خلايا أوراق العمل الأخرى ،<br/>سيتم حساب الخلايا التابعة في أوراق العمل الأخرى أيضًا.<br/> خطأ يعني أن جميع الصيغ في ورقة العمل قد تم حسابها وأن القيم صحيحة.|
@@ -76,14 +76,14 @@ def calculate_formula(self, recursive, ignore_error, custom_function):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | recursive | bool | يعني صحيح إذا كانت خلايا ورقة العمل تعتمد على خلايا أوراق العمل الأخرى ،<br/>سيتم حساب الخلايا التابعة في أوراق العمل الأخرى أيضًا.<br/> خطأ يعني أن جميع الصيغ في ورقة العمل قد تم حسابها وأن القيم صحيحة.|
-| ignore_error | bool | يشير إلى إخفاء الخطأ في حساب الصيغ.<br/> قد يكون الخطأ وظيفة غير مدعومة ، أو روابط خارجية ، إلخ.|
+| ignore_error | bool | يشير إلى إخفاء الخطأ في حساب الصيغ.<br/> قد يكون الخطأ وظائف غير مدعومة أو روابط خارجية ، إلخ.|
 | custom_function | [ICustomFunction](/cells/ar/python-net/aspose.cells/icustomfunction) | وظائف حساب الصيغة المخصصة لتوسيع محرك الحساب.|
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
 الرجاء استخدام طريقة CalculateFormula (CalculationOptions، Bool).
  ستتم إزالة هذه الطريقة بعد 12 شهرًا منذ أغسطس 2020.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

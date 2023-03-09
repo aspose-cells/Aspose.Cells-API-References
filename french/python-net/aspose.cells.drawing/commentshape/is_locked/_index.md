@@ -11,7 +11,7 @@ is_root: false
 
 Vrai si l'objet est verrouillé, Faux si l'objet peut être modifié lorsque la feuille est protégée.
 
-###  Exemple
+###  Exemples
 
 ```python
 

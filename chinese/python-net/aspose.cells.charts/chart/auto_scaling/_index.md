@@ -1,6 +1,6 @@
 ﻿---
 title: auto_scaling 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 160
@@ -10,7 +10,7 @@ is_root: false
 ## auto_scaling 属性
 
 如果 Microsoft Excel 缩放 3-D 图表，使其在大小上更接近等效的 2-D 图表，则为真。
-RightAngleAxes 属性必须为 True。
+Right Angle Axes 属性必须为 True。
 ### 定义：
 ```python
 @property

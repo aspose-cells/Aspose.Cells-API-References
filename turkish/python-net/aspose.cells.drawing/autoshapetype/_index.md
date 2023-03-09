@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/autoshapetype/
 is_root: false
 ---
 ##  AutoShapeType numaralandırma
-Tüm yerleşik otomatik şekil türünü temsil eder.
+Tüm yerleşik otomatik şekil türlerini temsil eder.
 
 
 
@@ -153,12 +153,12 @@ AutoShapeType türü aşağıdaki üyeleri gösterir:
 | FLOW_CHART_DISPLAY |  |
 | FLOW_CHART_DELAY |  |
 | TEXT_PLAIN_TEXT | Düz metin şekli.|
-| TEXT_STOP |Sekizgen bir metin şekli.|
+| TEXT_STOP | Sekizgen bir metin şekli.|
 | TEXT_TRIANGLE | Yukarıyı gösteren üçgen bir metin şekli.|
 | TEXT_TRIANGLE_INVERTED | Aşağıyı gösteren üçgen bir metin şekli.|
 | TEXT_CHEVRON | Yukarıyı gösteren bir şerit metin şekli.|
 | TEXT_CHEVRON_INVERTED | Aşağıyı gösteren bir şerit metin şekli.|
-| TEXT_RING_INSIDE | Dairesel bir metin şekli, sanki bir yüzüğün içindeki yazıyı okuyormuş gibi.|
+| TEXT_RING_INSIDE |Dairesel bir metin şekli, sanki bir yüzüğün içindeki yazıyı okuyormuş gibi.|
 | TEXT_RING_OUTSIDE | Dairesel bir metin şekli, sanki bir halkanın dışında bir yazı okuyormuş gibi.|
 | TEXT_ARCH_UP_CURVE | Yukarı doğru kavisli, kavisli bir metin şekli.|
 | TEXT_ARCH_DOWN_CURVE | Aşağıya doğru kavisli bir metin şekli.|
@@ -177,17 +177,17 @@ AutoShapeType türü aşağıdaki üyeleri gösterir:
 | TEXT_DOUBLE_WAVE1 | Dalgalı bir metin şekli.|
 | TEXT_DOUBLE_WAVE2 | Dalgalı bir metin şekli.|
 | TEXT_INFLATE | Ortada dikey olarak genişleyen bir metin şekli.|
-| TEXT_DEFLATE |Ortada dikey olarak daralan bir metin şekli.|
+| TEXT_DEFLATE | Ortada dikey olarak daralan bir metin şekli.|
 | TEXT_INFLATE_BOTTOM | Ortada aşağı doğru genişleyen bir metin şekli.|
 | TEXT_DEFLATE_BOTTOM | Ortada yukarı doğru daralan bir metin şekli.|
 | TEXT_INFLATE_TOP | Ortada yukarı doğru genişleyen bir metin şekli.|
 | TEXT_DEFLATE_TOP | Ortada aşağı doğru daralan bir metin şekli.|
-| TEXT_DEFLATE_INFLATE | Alt satırların yukarı doğru genişlediği bir metin şekli. Üst çizgiler telafi etmek için küçülür.|
+| TEXT_DEFLATE_INFLATE |Alt satırların yukarı doğru genişlediği bir metin şekli. Üst satırlar telafi etmek için küçülür.|
 | TEXT_DEFLATE_INFLATE_DEFLATE | Ortadaki çizgilerin dikey olarak genişlediği bir metin şekli. Üst ve alt çizgiler telafi etmek için küçülür.|
 | TEXT_FADE_RIGHT | Sağ tarafta dikey olarak daralan bir metin şekli.|
 | TEXT_FADE_LEFT | Sol tarafta dikey olarak küçülen bir metin şekli.|
 | TEXT_FADE_UP | Üstte yatay olarak daralan bir metin şekli.|
-| TEXT_FADE_DOWN | Altta yatay olarak küçülen bir metin şekli.|
+| TEXT_FADE_DOWN | Altta yatay olarak daralan bir metin şekli.|
 | TEXT_SLANT_UP | Yukarı eğimli bir metin şekli.|
 | TEXT_SLANT_DOWN | Aşağıya eğimli bir metin şekli.|
 | TEXT_CAN_UP | Bir kutunun yanında okunuyormuş gibi yukarı doğru kıvrılan bir metin şekli.|

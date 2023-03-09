@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve el name de la caché de segmentación.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

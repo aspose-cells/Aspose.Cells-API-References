@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  primary_key mülk
 
-Veri tablosunun birincil anahtarının hangi sütun olduğunu gösterir.
+Veri tablosunun birincil anahtarının hangi sütun olduğunu temsil eder.
 ###  Tanım:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing.texts/textautonumberscheme/
 is_root: false
 ---
 ##  العد TextAutonumberScheme
-يمثل كل مخطط الأرقام التلقائي.
+يمثل جميع مخططات الأرقام التلقائية.
 
 
 
@@ -25,7 +25,7 @@ is_root: false
 | ALPHA_UC_PAREN_R | أ) ، ب) ، ج) ، ...|
 | ALPHA_UC_PERIOD | أ ، ب ، ج ، ...|
 | ARABIC_1_MINUS | Bidi Arabic 1 (AraAlpha) مع رمز ناقص ANSI|
-| ARABIC_2_MINUS | Bidi Arabic 2 (AraAbjad) مع رمز ناقص ANSI|
+| ARABIC_2_MINUS |Bidi Arabic 2 (AraAbjad) مع رمز ناقص ANSI|
 | ARABIC_DB_PERIOD | أرقام عربية ثنائية البايت مع فترة ثنائية البايت|
 | ARABIC_DB_PLAIN | أرقام عربية ثنائية البايت|
 | ARABIC_PAREN_BOTH | (1), (2), (3), … |
@@ -38,7 +38,7 @@ is_root: false
 | EA_1_CHS_PERIOD | EA: الصينية المبسطة مع فترة أحادية البايت|
 | EA_1_CHS_PLAIN | EA: الصينية المبسطة (TypeA 1-99 ، TypeC 100-)|
 | EA_1_CHT_PERIOD | EA: الصينية التقليدية مع فترة أحادية البايت|
-| EA_1_CHT_PLAIN |EA: الصينية التقليدية (TypeA 1-19 ، TypeC 20-)|
+| EA_1_CHT_PLAIN | EA: الصينية التقليدية (TypeA 1-19 ، TypeC 20-)|
 | EA_1_JPN_CHS_DB_PERIOD | EA: ياباني مع فترة مزدوجة البايت|
 | EA_1_JPN_KOR_PERIOD | EA: اليابانية / الكورية مع فترة أحادية البايت|
 | EA_1_JPN_KOR_PLAIN | EA: ياباني / كوري (TypeC 1-)|
@@ -52,7 +52,7 @@ is_root: false
 | ROMAN_LC_PERIOD | الأول ، الثاني ، الثالث ، ...|
 | ROMAN_UC_PAREN_BOTH | (I) ، (II) ، (III) ، ...|
 | ROMAN_UC_PAREN_R | I) ، II) ، III) ، ...|
-| ROMAN_UC_PERIOD | أولا ، ثانيا ، ثالثا ، ...|
+| ROMAN_UC_PERIOD |أولا ، ثانيا ، ثالثا ، ...|
 | THAI_ALPHA_PAREN_BOTH | أقواس الأبجدية التايلاندية - كلاهما|
 | THAI_ALPHA_PAREN_R | أقواس الأبجدية التايلاندية - اليمين|
 | THAI_ALPHA_PERIOD | فترة الأبجدية التايلاندية|

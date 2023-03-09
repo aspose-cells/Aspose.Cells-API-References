@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Bezeichner für diese Signaturzeile ab oder legt ihn fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import SignatureLine

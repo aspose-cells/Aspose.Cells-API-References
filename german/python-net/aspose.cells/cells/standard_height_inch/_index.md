@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_height_inch Eigentum
 
-Ruft die Standardzeilenhöhe in diesem Arbeitsblatt in Zoll ab oder legt diese fest.
+Ruft die Standardzeilenhöhe in diesem Arbeitsblatt in Zolleinheiten ab oder legt diese fest.
 ###  Definition:
 ```python
 @property

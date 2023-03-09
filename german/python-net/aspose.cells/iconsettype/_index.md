@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  IconSetType Aufzählung
  Symbolsatztyp für bedingte Formatierung.
-Die Schwellenwerte zum Auslösen der verschiedenen Symbole innerhalb eines Satzes sind
+Die Schwellenwerte für das Auslösen der verschiedenen Symbole innerhalb eines Satzes sind
 konfigurierbar, und die Symbolreihenfolge ist umkehrbar.
 
 
@@ -30,19 +30,19 @@ Der Typ IconSetType macht die folgenden Member verfügbar:
 | ARROWS4 | 4 Pfeile-Icon-Set.|
 | ARROWS_GRAY4 | Symbolsatz mit 4 grauen Pfeilen.|
 | RATING4 | 4-Bewertungen-Icon-Set.|
-| RED_TO_BLACK4 | 4 Symbolsatz „rot zu schwarz“.|
+| RED_TO_BLACK4 | Symbolsatz „rot zu schwarz“.|
 | TRAFFIC_LIGHTS4 | 4 Ampel-Icon-Set.|
 | ARROWS5 | 5 Pfeile-Icon-Set.|
 | ARROWS_GRAY5 | Symbolsatz mit 5 grauen Pfeilen.|
 | QUARTERS5 | 5-Viertel-Icon-Set.|
 | RATING5 | 5-Rating-Icon-Set.|
-| STARS3 | 3 Sterne gesetzt|
+| STARS3 | 3-Sterne-Set|
 | BOXES5 | 5 Boxen-Set|
 | TRIANGLES3 | 3 Dreiecke gesetzt|
 | NONE | Keiner|
 | CUSTOM_SET | Benutzerdefiniert.<br/> Dieses Element ist schreibgeschützt.|
-| SMILIES3 | 3 Smileys.<br/> Nur für .ods.|
-| COLOR_SMILIES3 | 3 farbige Smileys.<br/> Nur für .ods.|
+| SMILIES3 | 3 Lächeln.<br/> Nur für .ods.|
+| COLOR_SMILIES3 | 3-farbiges Lächeln.<br/> Nur für .ods.|
 
 
 

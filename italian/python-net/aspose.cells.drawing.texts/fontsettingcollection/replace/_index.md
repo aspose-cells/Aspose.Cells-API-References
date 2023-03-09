@@ -18,7 +18,7 @@ def replace(self, old_value, new_value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | old_value | str | Il vecchio testo.|
 | new_value | str | Il nuovo testo.|
@@ -35,7 +35,7 @@ def replace(self, index, count, text):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int | L'indice di partenza.|
 | count | int | Il conteggio dei caratteri.|

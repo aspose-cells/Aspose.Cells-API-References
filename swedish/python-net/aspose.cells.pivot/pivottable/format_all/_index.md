@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.pivot/pivottable/format_all/
 is_root: false
 ---
 ##  format_all(style) {#Style}
-Formatera hela cellen i det vridbara området
+Formatera alla celler i pivottabellområdet
 
 
 
@@ -18,7 +18,7 @@ def format_all(self, style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Stil som ska formateras|
 

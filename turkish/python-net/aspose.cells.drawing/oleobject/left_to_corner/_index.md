@@ -11,7 +11,7 @@ is_root: false
 
 Çalışma sayfasının sol sınırından şeklin yatay kaymasını alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

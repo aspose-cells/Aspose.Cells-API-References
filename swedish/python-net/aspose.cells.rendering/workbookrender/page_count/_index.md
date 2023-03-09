@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count fastighet
 
-Får det totala antalet sidor i arbetsboken.
+Får det totala antalet sidor av arbetsböcker.
 ###  Definition:
 ```python
 @property

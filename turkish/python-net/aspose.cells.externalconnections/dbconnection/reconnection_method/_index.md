@@ -14,7 +14,7 @@ Varsayılan değer ReConnectionMethodType.Required şeklindedir.
 
 ###  Notlar
 
- NOT: Bu özellik artık kullanılmamaktadır. Yerine,
+ NOT: Bu özellik artık kullanılmamaktadır.
 lütfen ExternalConnection.ReconnectionMethodType özelliğini kullanın.
  Bu mülk, Ekim 2017'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

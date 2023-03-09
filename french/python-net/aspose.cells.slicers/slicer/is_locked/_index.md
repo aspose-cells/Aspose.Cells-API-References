@@ -11,7 +11,7 @@ is_root: false
 
 Indique si la forme du segment est verrouillée.
 
-###  Exemple
+###  Exemples
 
 ```python
 

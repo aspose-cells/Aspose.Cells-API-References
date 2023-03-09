@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  DataBar klass
  Beskriv DataBar villkorlig formateringsregel.
-Denna regel för villkorlig formatering visar en graderad
+Denna regel för villkorlig formatering visar ett betyg
 datafältet i cellintervallet.
 
 
@@ -22,15 +22,15 @@ Typen DataBar avslöjar följande medlemmar:
 | [axis_color](/cells/sv/python-net/aspose.cells/databar/axis_color) | Får färgen på axeln för celler med villkorlig formatering som datafält.|
 | [axis_position](/cells/sv/python-net/aspose.cells/databar/axis_position) | Hämtar eller ställer in positionen för axeln för datastaplarna som anges av en villkorlig formateringsregel.|
 | [bar_fill_type](/cells/sv/python-net/aspose.cells/databar/bar_fill_type) | Hämtar eller ställer in hur ett datafält fylls med färg.|
-| [direction](/cells/sv/python-net/aspose.cells/databar/direction) | Hämtar eller ställer in riktningen som datafältet visas.|
+| [direction](/cells/sv/python-net/aspose.cells/databar/direction) |Hämtar eller ställer in riktningen som datafältet visas.|
 | [bar_border](/cells/sv/python-net/aspose.cells/databar/bar_border) | Hämtar ett objekt som anger gränsen för ett datafält.|
 | [negative_bar_format](/cells/sv/python-net/aspose.cells/databar/negative_bar_format) | Hämtar NegativeBarFormat-objektet som är kopplat till en regel för villkorlig formatering av datafält.|
 | [min_cfvo](/cells/sv/python-net/aspose.cells/databar/min_cfvo) | Hämta eller ställ in denna DataBars minvärdeobjekt.<br/> Det går inte att ställa in null eller CFValueObject med typen FormatConditionValueType.Max.|
 | [max_cfvo](/cells/sv/python-net/aspose.cells/databar/max_cfvo) | Hämta eller ställ in denna DataBars maxvärdeobjekt.<br/> Det går inte att ställa in null eller CFValueObject med typen FormatConditionValueType.Min.|
-| [color](/cells/sv/python-net/aspose.cells/databar/color) | Skaffa eller ställ in denna DataBars färg.|
+| [color](/cells/sv/python-net/aspose.cells/databar/color) | Hämta eller ställ in denna DataBars färg.|
 | [min_length](/cells/sv/python-net/aspose.cells/databar/min_length) | Representerar den minsta längden på datafältet.|
 | [max_length](/cells/sv/python-net/aspose.cells/databar/max_length) | Representerar den maximala längden på datafältet.|
-| [show_value](/cells/sv/python-net/aspose.cells/databar/show_value) | Hämta eller ställ in flaggan som indikerar om värdena för cellerna som denna datafält används på ska visas.<br/> Standardvärdet är sant.|
+| [show_value](/cells/sv/python-net/aspose.cells/databar/show_value) | Hämta eller ställ in flaggan som anger om värdena för cellerna ska visas på vilka denna datafält används.<br/> Standardvärdet är sant.|
 
 
 ###  Metoder

@@ -18,9 +18,9 @@ def delete_in_range(self, ca):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Omfånget. Om formerna finns i intervallet kommer de att tas bort.|
+| ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) |Omfånget. Om formerna finns i intervallet kommer de att tas bort.|
 
 ###  Exempel
 

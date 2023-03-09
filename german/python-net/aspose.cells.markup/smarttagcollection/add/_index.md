@@ -13,7 +13,7 @@ Fügt ein Smarttag hinzu.
 
 ###  Kehrt zurück
 
-Der Index des Smarttags in der Liste.
+Der Index der Smarttags in der Liste.
 
 
 ```python

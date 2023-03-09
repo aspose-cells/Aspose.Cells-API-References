@@ -27,33 +27,33 @@ def get_dependents(self, is_all):
 
 abhängig von dieser Zelle, unabhängig davon, ob die Referenz oder diese Zelle während der Berechnung verwendet wird oder nicht.
 Obwohl beispielsweise die Zelle A2 in der Formel "=IF(TRUE,A1,A2)" während der Berechnung nicht verwendet wird,
-diese Formel wird immer noch als abhängig von A2 angesehen.
+Diese Formel wird immer noch als von A2 abhängig angesehen.
 Um die Formeln zu erhalten, deren berechnete Ergebnisse von dieser Zelle abhängen, verwenden Sie bitte [Cell.get_dependents_in_calculation(recursive)](/cells/de/python-net/aspose.cells/cell/get_dependents_in_calculation). Wenn Sie abhängige Elemente für eine Zelle verfolgen, werden alle Formeln in der Arbeitsmappe oder dem Arbeitsblatt analysiert und überprüft.
-Es ist also ein zeitraubender Prozess. Wenn der Benutzer Abhängigkeiten für viele Zellen verfolgen muss, wird diese Methode verwendet
-schlechte Leistung verursachen. Aus Leistungsgründen sollte der Benutzer stattdessen [Cell.get_dependents_in_calculation(recursive)](/cells/de/python-net/aspose.cells/cell/get_dependents_in_calculation) verwenden.
+Es ist also ein zeitaufwändiger Prozess.Wenn Benutzer Abhängigkeiten für viele Zellen verfolgen müssen, wird diese Methode verwendet
+kann zu schlechter Leistung führen. Aus Leistungsgründen sollte der Benutzer stattdessen [Cell.get_dependents_in_calculation(recursive)](/cells/de/python-net/aspose.cells/cell/get_dependents_in_calculation) verwenden.
 Oder der Benutzer kann zuerst eine Präzedenzfallkarte aller Zellen bis [Cell.get_precedents()](/cells/de/python-net/aspose.cells/cell/get_precedents) sammeln,
 und erstellen Sie dann die Abhängigkeitskarte gemäß der Präzedenzfallkarte.
 
 * Wenn ein Verweis, der diese Zelle enthält, in der Formel einer Zelle erscheint, wird diese Zelle als angenommen
 abhängig von dieser Zelle, unabhängig davon, ob die Referenz oder diese Zelle während der Berechnung verwendet wird oder nicht.
 Obwohl beispielsweise die Zelle A2 in der Formel "=IF(TRUE,A1,A2)" während der Berechnung nicht verwendet wird,
-diese Formel wird immer noch als abhängig von A2 angesehen.
+Diese Formel wird immer noch als von A2 abhängig angesehen.
 Um die Formeln zu erhalten, deren berechnete Ergebnisse von dieser Zelle abhängen, verwenden Sie bitte [Cell.get_dependents_in_calculation(recursive)](/cells/de/python-net/aspose.cells/cell/get_dependents_in_calculation). Wenn Sie abhängige Elemente für eine Zelle verfolgen, werden alle Formeln in der Arbeitsmappe oder dem Arbeitsblatt analysiert und überprüft.
-Es ist also ein zeitraubender Prozess. Wenn der Benutzer Abhängigkeiten für viele Zellen verfolgen muss, wird diese Methode verwendet
-schlechte Leistung verursachen. Aus Leistungsgründen sollte der Benutzer stattdessen [Cell.get_dependents_in_calculation(recursive)](/cells/de/python-net/aspose.cells/cell/get_dependents_in_calculation) verwenden.
+Es ist also ein zeitaufwändiger Prozess.Wenn Benutzer Abhängigkeiten für viele Zellen verfolgen müssen, wird diese Methode verwendet
+kann zu schlechter Leistung führen. Aus Leistungsgründen sollte der Benutzer stattdessen [Cell.get_dependents_in_calculation(recursive)](/cells/de/python-net/aspose.cells/cell/get_dependents_in_calculation) verwenden.
 Oder der Benutzer kann zuerst eine Präzedenzfallkarte aller Zellen bis [Cell.get_precedents()](/cells/de/python-net/aspose.cells/cell/get_precedents) sammeln,
 und erstellen Sie dann die Abhängigkeitskarte gemäß der Präzedenzfallkarte.
 
 * Wenn ein Verweis, der diese Zelle enthält, in der Formel einer Zelle erscheint, wird diese Zelle als angenommen
 abhängig von dieser Zelle, unabhängig davon, ob die Referenz oder diese Zelle während der Berechnung verwendet wird oder nicht.
 Obwohl beispielsweise die Zelle A2 in der Formel "=IF(TRUE,A1,A2)" während der Berechnung nicht verwendet wird,
-diese Formel wird immer noch als abhängig von A2 angesehen.
+Diese Formel wird immer noch als von A2 abhängig angesehen.
 Um die Formeln zu erhalten, deren berechnete Ergebnisse von dieser Zelle abhängen, verwenden Sie bitte [Cell.get_dependents_in_calculation(recursive)](/cells/de/python-net/aspose.cells/cell/get_dependents_in_calculation). Wenn Sie abhängige Elemente für eine Zelle verfolgen, werden alle Formeln in der Arbeitsmappe oder dem Arbeitsblatt analysiert und überprüft.
-Es ist also ein zeitraubender Prozess. Wenn der Benutzer Abhängigkeiten für viele Zellen verfolgen muss, wird diese Methode verwendet
-schlechte Leistung verursachen. Aus Leistungsgründen sollte der Benutzer stattdessen [Cell.get_dependents_in_calculation(recursive)](/cells/de/python-net/aspose.cells/cell/get_dependents_in_calculation) verwenden.
+Es ist also ein zeitaufwändiger Prozess.Wenn Benutzer Abhängigkeiten für viele Zellen verfolgen müssen, wird diese Methode verwendet
+kann zu schlechter Leistung führen. Aus Leistungsgründen sollte der Benutzer stattdessen [Cell.get_dependents_in_calculation(recursive)](/cells/de/python-net/aspose.cells/cell/get_dependents_in_calculation) verwenden.
 Oder der Benutzer kann zuerst eine Präzedenzfallkarte aller Zellen bis [Cell.get_precedents()](/cells/de/python-net/aspose.cells/cell/get_precedents) sammeln,
 und erstellen Sie dann die Abhängigkeitskarte gemäß der Präzedenzfallkarte.
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

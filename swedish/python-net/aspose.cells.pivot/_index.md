@@ -12,11 +12,11 @@ is_root: false
 ###  Klasser
 | Klass| Beskrivning|
 | :- | :- |
-| [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) | Representerar ett fält i en pivottabellrapport.|
+| [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) |Representerar ett fält i en pivottabellrapport.|
 | [PivotFieldCollection](/cells/sv/python-net/aspose.cells.pivot/pivotfieldcollection) | Representerar en samling av alla PivotField-objekt<br/> i pivottabellens specifika PivotFields-typ.|
-| [PivotFilter](/cells/sv/python-net/aspose.cells.pivot/pivotfilter) | Representerar ett PivotFilter i PivotFilter Collection.|
+| [PivotFilter](/cells/sv/python-net/aspose.cells.pivot/pivotfilter) | Representerar ett PivotFilter i PivotFilter-samlingen.|
 | [PivotFilterCollection](/cells/sv/python-net/aspose.cells.pivot/pivotfiltercollection) | Representerar en samling av alla PivotFilter-objekt|
-| [PivotFormatCondition](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition) | Representerar ett pivottabellformatvillkor i PivotFormatCondition Collection.|
+| [PivotFormatCondition](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition) | Representerar ett pivottabellformatvillkor i PivotFormatCondition-samlingen.|
 | [PivotFormatConditionCollection](/cells/sv/python-net/aspose.cells.pivot/pivotformatconditioncollection) | Representerar villkor för pivottabellformat.|
 | [PivotItem](/cells/sv/python-net/aspose.cells.pivot/pivotitem) | Representerar ett objekt i en PivotField-rapport.|
 | [PivotItemCollection](/cells/sv/python-net/aspose.cells.pivot/pivotitemcollection) | Representerar en samling av alla PivotItem-objekt i Pivotfältets|
@@ -27,16 +27,16 @@ is_root: false
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
-| [PivotConditionFormatRuleType](/cells/sv/python-net/aspose.cells.pivot/pivotconditionformatruletype) |Representerar typ av formateringsregel för pivottabellvillkor.|
+| [PivotConditionFormatRuleType](/cells/sv/python-net/aspose.cells.pivot/pivotconditionformatruletype) | Representerar typ av formateringsregel för pivottabellvillkor.|
 | [PivotConditionFormatScopeType](/cells/sv/python-net/aspose.cells.pivot/pivotconditionformatscopetype) | Representerar omfattningstyp för formatering av pivottabellvillkor.|
 | [PivotFieldDataDisplayFormat](/cells/sv/python-net/aspose.cells.pivot/pivotfielddatadisplayformat) | Representerar datavisningsformat i pivottabelldatafältet.|
-| [PivotFieldSubtotalType](/cells/sv/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | Sammanfattningsbeskrivning för PivotFieldSubtotalType.|
+| [PivotFieldSubtotalType](/cells/sv/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |Sammanfattningsbeskrivning för PivotFieldSubtotalType.|
 | [PivotFieldType](/cells/sv/python-net/aspose.cells.pivot/pivotfieldtype) | Representerar pivottabellfälttyp.|
 | [PivotFilterType](/cells/sv/python-net/aspose.cells.pivot/pivotfiltertype) | Representerar pivottabellfiltertyp.|
 | [PivotGroupByType](/cells/sv/python-net/aspose.cells.pivot/pivotgroupbytype) | Representerar pivottabell gruppvis typ.|
-| [PivotItemPosition](/cells/sv/python-net/aspose.cells.pivot/pivotitemposition) |Representerar pivottabellens basobjekt Nästa/Föregående/Alla position i basfältet.|
+| [PivotItemPosition](/cells/sv/python-net/aspose.cells.pivot/pivotitemposition) | Representerar pivottabellens basobjekt Nästa/Föregående/Alla position i basfältet.|
 | [PivotMissingItemLimitType](/cells/sv/python-net/aspose.cells.pivot/pivotmissingitemlimittype) | Representerar antalet objekt att behålla per fält.|
 | [PivotTableAutoFormatType](/cells/sv/python-net/aspose.cells.pivot/pivottableautoformattype) | Representerar automatisk formattyp för pivottabell.|
 | [PivotTableStyleType](/cells/sv/python-net/aspose.cells.pivot/pivottablestyletype) | Representerar stiltypen för pivottabellen.|

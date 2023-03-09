@@ -20,8 +20,8 @@ PivotFieldDataDisplayFormat türü aşağıdaki üyeleri gösterir:
 | NORMAL | Normal görüntüleme formatını temsil eder.|
 | DIFFERENCE_FROM | Görüntü biçiminden farkı temsil eder.|
 | PERCENTAGE_OF | Görüntü biçiminin yüzdesini temsil eder.|
-| PERCENTAGE_DIFFERENCE_FROM |Görüntü formatından yüzde farkını temsil eder.|
-| RUNNING_TOTAL_IN | Görüntü formatında çalışan toplamı temsil eder.|
+| PERCENTAGE_DIFFERENCE_FROM | Görüntü formatından yüzde farkını temsil eder.|
+| RUNNING_TOTAL_IN |Görüntü formatında çalışan toplamı temsil eder.|
 | PERCENTAGE_OF_ROW | Satır görüntüleme biçiminin yüzdesini temsil eder.|
 | PERCENTAGE_OF_COLUMN | Sütun görüntüleme biçiminin yüzdesini temsil eder.|
 | PERCENTAGE_OF_TOTAL | Toplam görüntüleme biçiminin yüzdesini temsil eder.|

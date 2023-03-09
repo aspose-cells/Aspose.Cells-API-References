@@ -12,18 +12,18 @@ is_root: false
 ###  Classi
 | Classe| Descrizione|
 | :- | :- |
-| [OdsCellField](/cells/it/python-net/aspose.cells.ods/odscellfield) | Rappresenta il campo cellulare di ods.|
+| [OdsCellField](/cells/it/python-net/aspose.cells.ods/odscellfield) | Rappresenta il campo delle probabilità della cella.|
 | [OdsCellFieldCollection](/cells/it/python-net/aspose.cells.ods/odscellfieldcollection) | Rappresenta i campi di ODS.|
-| [OdsPageBackground](/cells/it/python-net/aspose.cells.ods/odspagebackground) | Rappresenta lo sfondo della pagina di ods.|
+| [OdsPageBackground](/cells/it/python-net/aspose.cells.ods/odspagebackground) | Rappresenta lo sfondo della pagina delle quote.|
 
 
 ###  Enumerazioni
-| Enumerazione| Descrizione|
+|Enumerazione| Descrizione|
 | :- | :- |
-| [OdsCellFieldType](/cells/it/python-net/aspose.cells.ods/odscellfieldtype) | Rappresenta il tipo di campo cella di ods.|
+| [OdsCellFieldType](/cells/it/python-net/aspose.cells.ods/odscellfieldtype) | Rappresenta il tipo di campo della cella delle quote.|
 | [OdsGeneratorType](/cells/it/python-net/aspose.cells.ods/odsgeneratortype) | Rappresenta il tipo di generatore ODS.|
 | [OdsPageBackgroundGraphicPositionType](/cells/it/python-net/aspose.cells.ods/odspagebackgroundgraphicpositiontype) | Rappresenta la posizione.|
 | [OdsPageBackgroundGraphicType](/cells/it/python-net/aspose.cells.ods/odspagebackgroundgraphictype) | Rappresenta il tipo di formattazione dello sfondo della pagina con immagine.|
-| [OdsPageBackgroundType](/cells/it/python-net/aspose.cells.ods/odspagebackgroundtype) |Rappresenta il tipo di sfondo della pagina di ods.|
+| [OdsPageBackgroundType](/cells/it/python-net/aspose.cells.ods/odspagebackgroundtype) | Rappresenta il tipo di sfondo della pagina delle quote.|
 
 

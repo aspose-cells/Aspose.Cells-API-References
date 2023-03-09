@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  created_time fastighet
 
-Hämtar eller ställer in datum då dokumentet skapades i lokal tidszon.
+Hämtar eller ställer in datumet då dokumentet skapades i lokal tidszon.
 
 ###  Anmärkningar
 

@@ -1,13 +1,13 @@
 ﻿---
 title: OdsSaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1110
 url: /zh/python-net/aspose.cells/odssaveoptions/
 is_root: false
 ---
-##  OdsSaveOptions类
+## OdsSaveOptions类
 表示保存ods文件的选项。
 
 
@@ -41,7 +41,7 @@ OdsSaveOptions 类型公开了以下成员：
 | [warning_callback](/cells/zh/python-net/aspose.cells/odssaveoptions/warning_callback) |获取或设置警告回调。|
 | [update_smart_art](/cells/zh/python-net/aspose.cells/odssaveoptions/update_smart_art) |指示是否更新智能艺术设置。<br/>默认值为假。|
 | [generator_type](/cells/zh/python-net/aspose.cells/odssaveoptions/generator_type) |获取和设置ods文件的生成器。|
-| [is_strict_schema11](/cells/zh/python-net/aspose.cells/odssaveoptions/is_strict_schema11) |指示 ods 文件是否应保存为 ODF 格式版本 1.1。默认为假。|
+| [is_strict_schema11](/cells/zh/python-net/aspose.cells/odssaveoptions/is_strict_schema11) |指示 ods 文件是否应保存为 ODF 格式版本 1.1。默认为 false。|
 
 
 

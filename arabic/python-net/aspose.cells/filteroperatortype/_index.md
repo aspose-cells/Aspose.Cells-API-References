@@ -18,11 +18,11 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | LESS_OR_EQUAL | يمثل عامل التشغيل LessOrEqual.|
-| LESS_THAN | يمثل عامل تشغيل أقل من.|
+| LESS_THAN | يمثل عامل أقل من.|
 | EQUAL | يمثل عامل تشغيل متساوي.|
-| GREATER_THAN | يمثل مشغل أكبر من.|
+| GREATER_THAN | يمثل أكبر من عامل التشغيل.|
 | NOT_EQUAL | يمثل عامل التشغيل NotEqual.|
-| GREATER_OR_EQUAL | يمثل عامل التشغيل GreaterOrEqual.|
+| GREATER_OR_EQUAL | يمثل عامل التشغيل الأكبر أو المتساوي.|
 | NONE | لا يمثل أي مقارنة.|
 | BEGINS_WITH | يبدأ بالنص.|
 | ENDS_WITH |ينتهي بالنص.|

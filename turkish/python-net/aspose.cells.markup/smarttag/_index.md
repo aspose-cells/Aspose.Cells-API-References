@@ -1,5 +1,5 @@
 ﻿---
-title: SmartTag sınıf
+title: SmartTag sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /tr/python-net/aspose.cells.markup/smarttag/
 is_root: false
 ---
-##  SmartTag sınıf
+##  SmartTag sınıfı
 Bir akıllı etiketi temsil eder.
 
 

@@ -19,10 +19,10 @@ Typen ActiveXControlBase avslöjar följande medlemmar:
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) | Hämtar objektet [ActiveXControlBase.workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/type) | Hämtar typen av ActiveX-kontroll.|
-| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width) | Hämtar och ställer in kontrollens bredd i poängenhet.|
-| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/height) | Får och ställer in höjden på kontrollen i poängenhet.|
+| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width) |Får och ställer in kontrollens bredd i poängenheter.|
+| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/height) | Får och ställer in höjden på kontrollen i poängenheter.|
 | [mouse_icon](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_icon) | Hämtar och ställer in en anpassad ikon som ska visas som muspekare för kontrollen.|
-| [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_pointer) |Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
+| [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_pointer) | Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
 | [fore_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/fore_ole_color) | Får och ställer in olefärgen på förgrunden.|
 | [back_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/back_ole_color) | Hämtar och ställer in ole-färgen på bakgrunden.|
 | [is_visible](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/is_visible) | Indikerar om denna kontroll är synlig.|

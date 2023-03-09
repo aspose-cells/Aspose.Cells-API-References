@@ -11,7 +11,7 @@ is_root: false
 
 إرجاع أو تحديد السلسلة النصية الوصفية (البديلة) للعنصر [Shape](/cells/ar/python-net/aspose.cells.drawing/shape).
 
-###  مثال
+###  أمثلة
 
 ```python
 

@@ -10,7 +10,7 @@ is_root: false
 ##  CalculationPrecisionStrategy numaralandırma
 Hesaplama hassasiyetini işlemek için stratejileri numaralandırır.
 IEEE 754 Kayan Nokta Aritmetiğinin kesinlik sorunu nedeniyle, bazı "görünüşte basit" formüller beklenen sonuç olarak hesaplanamayabilir.
-"=-0.45+0.43+0.02" formülü gibi, işlenenleri doğrudan '+' operatörü ile hesaplarken sonuç sıfır olmaz. Bu tür bir kesinlik sorunu için,
+"=-0.45+0.43+0.02" formülü gibi, işlenenleri doğrudan '+' operatörü ile hesaplarken sonuç sıfır olmaz.
 bazı özel stratejiler beklenen sonucu verebilir.
 
 

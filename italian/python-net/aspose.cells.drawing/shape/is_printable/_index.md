@@ -11,7 +11,7 @@ is_root: false
 
 True se l'oggetto è stampabile
 
-###  Esempio
+###  Esempi
 
 ```python
 

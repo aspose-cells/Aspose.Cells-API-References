@@ -13,7 +13,7 @@ Indica se esporta le intestazioni di riga e colonna del foglio durante il salvat
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
 utilizzare la proprietà HtmlSaveOptions.ExportRowColumnHeadings.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2022.
 Aspose si scusa per gli eventuali disagi causati.

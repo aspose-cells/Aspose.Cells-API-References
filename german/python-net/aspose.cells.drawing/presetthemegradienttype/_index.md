@@ -21,7 +21,7 @@ Der Typ PresetThemeGradientType macht die folgenden Member verfügbar:
 | TOP_SPOTLIGHT | Spitzenscheinwerfer|
 | MEDIUM_GRADIENT | Mittlere Steigung|
 | BOTTOM_SPOTLIGHT | Scheinwerfer unten|
-| RADIAL_GRADIENT |Radialer Farbverlauf|
+| RADIAL_GRADIENT | Radialer Farbverlauf|
 
 
 

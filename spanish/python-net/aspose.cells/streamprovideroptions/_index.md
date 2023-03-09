@@ -25,8 +25,8 @@ El tipo StreamProviderOptions expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [resource_loading_type](/cells/es/python-net/aspose.cells/streamprovideroptions/resource_loading_type) | Obtiene y establece el tipo de recurso de carga.|
-| [default_path](/cells/es/python-net/aspose.cells/streamprovideroptions/default_path) | La ruta predeterminada (URL) guardada en el archivo html generado para la fuente referida.<br/>Por ejemplo, los datos de la hoja guardados en xxx_files/sheet001.htm, la URL utilizada en el archivo html principal debe ser como "src="xxx_files/sheet001.htm""|
-| [custom_path](/cells/es/python-net/aspose.cells/streamprovideroptions/custom_path) | La ruta personalizada del usuario (URL) guardada en el archivo html generado para la fuente referida. Si no lo define el usuario, se utilizará DefaultPath.<br/> Por ejemplo, el usuario guardará los datos de la hoja en d:/hoja001.htm, la URL utilizada en el archivo html principal debe ser "d:/hoja001.htm" u otra ruta relativa válida a la que pueda acceder el html principal. archivo.|
+| [default_path](/cells/es/python-net/aspose.cells/streamprovideroptions/default_path) | La ruta predeterminada (URL) guardada en el archivo html generado para la fuente referida.<br/> Por ejemplo, los datos de la hoja guardados en xxx_files/sheet001.htm, la URL utilizada en el archivo html principal debe ser como "src="xxx_files/sheet001.htm""|
+| [custom_path](/cells/es/python-net/aspose.cells/streamprovideroptions/custom_path) | La ruta personalizada del usuario (URL) guardada en el archivo html generado para la fuente referida.<br/> Por ejemplo, el usuario guardará los datos de la hoja en d:/hoja001.htm, la URL utilizada en el archivo html principal debe ser "d:/hoja001.htm" u otra ruta relativa válida a la que pueda acceder el html principal. archivo.|
 | [stream](/cells/es/python-net/aspose.cells/streamprovideroptions/stream) | Obtiene/Establece la transmisión|
 
 

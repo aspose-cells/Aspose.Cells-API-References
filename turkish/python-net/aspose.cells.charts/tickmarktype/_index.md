@@ -18,9 +18,9 @@ TickMarkType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | CROSS | Onay işareti türü Çapraz'dır.|
-| INSIDE |Onay işareti türü Inside'dır.|
-| NONE | Onay işareti türü Yok'tur.|
-| OUTSIDE | Onay işareti türü Dışındadır|
+| INSIDE | Tik işareti türü İç'tir.|
+| NONE |Onay işareti türü Yok'tur.|
+| OUTSIDE | Tik işareti türü Dışındadır|
 
 
 

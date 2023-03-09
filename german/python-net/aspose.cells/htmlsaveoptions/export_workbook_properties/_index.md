@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_workbook_properties Eigentum
 
-Gibt an, ob Arbeitsmappeneigenschaften exportiert werden. Der Standardwert ist wahr. Wenn Sie importieren möchten
+ Gibt an, ob Arbeitsmappeneigenschaften exportiert werden. Der Standardwert ist wahr. Wenn Sie importieren möchten
 B. die HTML- oder MHT-Datei nach Excel, behalten Sie bitte den Standardwert bei.
 ###  Definition:
 ```python

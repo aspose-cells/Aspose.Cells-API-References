@@ -18,7 +18,7 @@ def set_criteria(self, filter_operator, criteria):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | filter_operator | [FilterOperatorType](/cells/ar/python-net/aspose.cells/filteroperatortype) | نوع عامل التصفية|
 | criteria | any | قيمة معايير التصفية|

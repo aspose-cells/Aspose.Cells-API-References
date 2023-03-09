@@ -17,8 +17,8 @@ Der Typ SelectionType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| SINGLE | Einfacher Auswahltyp.|
-| MULTI | Typ Mehrfachauswahl.|
+| SINGLE | Einzelauswahltyp.|
+| MULTI |Typ Mehrfachauswahl.|
 | EXTEND | Auswahltyp erweitern.|
 
 

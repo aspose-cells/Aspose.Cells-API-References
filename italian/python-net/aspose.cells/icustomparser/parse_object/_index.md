@@ -13,7 +13,7 @@ Analizza la stringa data in base al valore corretto dell'oggetto.
 
 ###  ritorna
 
-Oggetto valore analizzato dalla stringa data. Se la stringa data non può essere analizzata nell'oggetto valore corretto, restituisce null.
+Oggetto valore analizzato dalla stringa data.
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | value | str | Il valore della stringa da analizzare|
 

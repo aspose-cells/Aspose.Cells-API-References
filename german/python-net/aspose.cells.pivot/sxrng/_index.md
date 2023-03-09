@@ -17,7 +17,7 @@ Der Typ SxRng macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [is_auto_start](/cells/de/python-net/aspose.cells.pivot/sxrng/is_auto_start) |Gibt einen booleschen Wert an, der angibt, ob die Anwendung die Quelldaten verwendet, um den Anfangsbereichswert festzulegen.|
+| [is_auto_start](/cells/de/python-net/aspose.cells.pivot/sxrng/is_auto_start) | Gibt einen booleschen Wert an, der angibt, ob die Anwendung die Quelldaten verwendet, um den Anfangsbereichswert festzulegen.|
 | [is_auto_end](/cells/de/python-net/aspose.cells.pivot/sxrng/is_auto_end) | Gibt einen booleschen Wert an, der angibt, ob die Anwendung die Quelldaten verwendet, um den Endbereichswert festzulegen.|
 | [start](/cells/de/python-net/aspose.cells.pivot/sxrng/start) | Stellt das Startobjekt für den Gruppenbereich dar.|
 | [end](/cells/de/python-net/aspose.cells.pivot/sxrng/end) | Stellt das Endobjekt für den Gruppenbereich dar.|

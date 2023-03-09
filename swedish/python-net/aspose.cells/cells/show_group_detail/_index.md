@@ -18,7 +18,7 @@ def show_group_detail(self, is_vertical, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_vertical | bool | Sant, expanderar de grupperade raderna.|
 | index | int | Rad-/kolumnindex|

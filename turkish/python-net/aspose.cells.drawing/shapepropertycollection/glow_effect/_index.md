@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  glow_effect mülk
 
-Grafik öğesi veya şekli için parlama efektini belirten bir [ShapePropertyCollection.glow_effect](/cells/tr/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect) nesnesini temsil eder.
+Grafik öğesi veya şekli için bir ışıma efekti belirten bir [ShapePropertyCollection.glow_effect](/cells/tr/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect) nesnesini temsil eder.
 ###  Tanım:
 ```python
 @property

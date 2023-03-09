@@ -10,7 +10,7 @@ is_root: false
 ##  refer_to_sheet_with_same_name propiedad
 
 Al copiar una hoja de trabajo a otro libro de trabajo y la hoja de trabajo contiene las fórmulas que se refieren a otras hojas de trabajo en MS Excel,
- las fórmulas copiadas deben hacer referencia al libro de trabajo de origen.
+las fórmulas copiadas deben hacer referencia al libro de trabajo de origen.
 Pero a veces hemos copiado otras hojas de trabajo y esperamos que las fórmulas copiadas se refieran a otras hojas de trabajo con el nombre en el mismo libro de trabajo,
 establezca esta propiedad como verdadera.
 

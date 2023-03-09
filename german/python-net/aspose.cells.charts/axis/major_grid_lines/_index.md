@@ -11,7 +11,7 @@ is_root: false
 
 Stellt Hauptgitterlinien auf einer Diagrammachse dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -17,12 +17,12 @@ Der Typ TableStyle macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [name](/cells/de/python-net/aspose.cells.tables/tablestyle/name) |Ruft den Namen des Tabellenstils ab.|
+| [name](/cells/de/python-net/aspose.cells.tables/tablestyle/name) | Ruft den Namen des Tabellenstils ab.|
 | [table_style_elements](/cells/de/python-net/aspose.cells.tables/tablestyle/table_style_elements) | Ruft alle Elemente des Tabellenstils ab.|
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import BackgroundType, CellsHelper, Workbook

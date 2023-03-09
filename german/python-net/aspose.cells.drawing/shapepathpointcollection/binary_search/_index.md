@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [ShapePathPoint](/cells/de/python-net/aspose.cells.drawing/shapepathpoint) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [ShapePathPoint](/cells/de/python-net/aspose.cells.drawing/shapepathpoint) | Das zu lokalisierende System.Objekt.|
 
 
 

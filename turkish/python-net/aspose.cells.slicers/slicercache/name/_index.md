@@ -11,7 +11,7 @@ is_root: false
 
 Dilimleyici önbelleğinin name'ini döndürür.
 
-###  Örnek
+###  örnekler
 
 ```python
 

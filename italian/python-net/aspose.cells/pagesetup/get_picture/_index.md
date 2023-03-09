@@ -23,10 +23,10 @@ def get_picture(self, is_header, section):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_header | bool | Indica se si trova nell'intestazione o nel piè di pagina.|
-| section | int |0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
+| section | int | 0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
 
 
 ##  get_picture(is_first, is_even, is_header, section) {#bool-bool-bool-int}
@@ -44,12 +44,12 @@ def get_picture(self, is_first, is_even, is_header, section):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_first | bool | Indica se ottenere l'immagine dell'intestazione/piè di pagina della prima pagina.|
 | is_even | bool | Indica se ottenere l'immagine dell'intestazione/piè di pagina pari.|
-| is_header | bool |Indica se ottenere l'immagine dell'intestazione/piè di pagina.|
-| section | int |0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
+| is_header | bool | Indica se ottenere l'immagine dell'intestazione/piè di pagina.|
+| section | int | 0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
 
 
 

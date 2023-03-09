@@ -11,7 +11,7 @@ is_root: false
 
 Yorumun santimetre cinsinden yüksekliğini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

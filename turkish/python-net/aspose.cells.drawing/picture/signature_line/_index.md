@@ -11,7 +11,7 @@ is_root: false
 
 İmza satırını alır ve ayarlar
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  embed_standard_windows_fonts propiedad
 
- True para incrustar fuentes de tipo verdadero.
+True para incrustar fuentes de tipo verdadero.
 Afecta solo a los caracteres ASCII 32-127.
 Las fuentes para códigos de caracteres superiores a 127 siempre están incrustadas.
 Las fuentes siempre están incrustadas para el estándar PDF/A-1a, PDF/A-1b.

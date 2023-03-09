@@ -29,7 +29,7 @@ Typen PdfBookmarkEntry avslöjar följande medlemmar:
 | [destination](/cells/sv/python-net/aspose.cells.rendering/pdfbookmarkentry/destination) | Cellen som bokmärket länkar till.|
 | [destination_name](/cells/sv/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name) | Hämtar eller ställer in namnet på destinationen.|
 | [sub_entry](/cells/sv/python-net/aspose.cells.rendering/pdfbookmarkentry/sub_entry) | Underpost till ett bokmärke.|
-| [is_open](/cells/sv/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) | När den här egenskapen är sann kommer bokmärkesposten att expandera, annars kommer den att kollapsa.|
+| [is_open](/cells/sv/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) |När den här egenskapen är sann kommer bokmärkesposten att expandera, annars kommer den att kollapsa.|
 | [is_collapse](/cells/sv/python-net/aspose.cells.rendering/pdfbookmarkentry/is_collapse) | När den här egenskapen är sann kommer bokmärkesposten att kollapsa, annars expanderar den.|
 
 

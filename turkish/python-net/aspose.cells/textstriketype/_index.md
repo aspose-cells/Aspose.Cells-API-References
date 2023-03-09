@@ -17,7 +17,7 @@ TextStrikeType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| SINGLE | Metne tek bir üstü çizili uygulama uygulandı.|
+| SINGLE |Metne tek bir üstü çizili uygulama uygulandı.|
 | DOUBLE | Metne çift üstü çizili uygulama uygulandı.|
 | NONE | Metne herhangi bir darbe uygulanmaz.|
 

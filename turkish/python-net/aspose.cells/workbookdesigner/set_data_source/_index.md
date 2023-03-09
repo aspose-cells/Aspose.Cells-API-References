@@ -18,7 +18,7 @@ def set_data_source(self, data_source, cells_data_table):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | data_source | str | Veri kaynağının adı.|
 | cells_data_table | [ICellsDataTable](/cells/tr/python-net/aspose.cells/icellsdatatable) | veri tablosu.|
@@ -35,9 +35,9 @@ def set_data_source(self, variable, data):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| variable | str |Akıllı işaretleyici kullanılarak oluşturulan değişken adı.|
+| variable | str | Akıllı işaretleyici kullanılarak oluşturulan değişken adı.|
 | data | any | Kaynak verileri.|
 
 

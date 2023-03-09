@@ -15,7 +15,7 @@ is_root: false
 
 Обычно это CLSID надстройки com поставщика.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import SignatureLine

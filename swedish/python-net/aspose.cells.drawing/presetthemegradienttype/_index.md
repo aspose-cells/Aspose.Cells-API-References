@@ -21,7 +21,7 @@ Typen PresetThemeGradientType avslöjar följande medlemmar:
 | TOP_SPOTLIGHT | Toppstrålkastare|
 | MEDIUM_GRADIENT | Medium gradient|
 | BOTTOM_SPOTLIGHT | Nedre strålkastare|
-| RADIAL_GRADIENT |Radiell gradient|
+| RADIAL_GRADIENT | Radiell gradient|
 
 
 

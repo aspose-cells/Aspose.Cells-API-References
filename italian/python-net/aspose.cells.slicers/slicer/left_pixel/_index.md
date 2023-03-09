@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta l'offset orizzontale della forma affettatrice dalla colonna di sinistra, in pixel.
 
-###  Esempio
+###  Esempi
 
 ```python
 

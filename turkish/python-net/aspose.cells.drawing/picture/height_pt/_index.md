@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_pt mülk
 
-Nokta birimi cinsinden şeklin yüksekliğini temsil eder.
+Nokta birimleri cinsinden şeklin yüksekliğini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

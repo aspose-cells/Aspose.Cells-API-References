@@ -18,7 +18,7 @@ Le type PresetMaterialType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | CLEAR | Clair|
-| DARK_EDGE | Bord sombre|
+| DARK_EDGE | Bords sombres|
 | FLAT | Plat|
 | LEGACY_MATTE | Cache hérité|
 | LEGACY_METAL | Métal hérité|
@@ -28,10 +28,10 @@ Le type PresetMaterialType expose les membres suivants :
 | METAL | Métal|
 | PLASTIC | Plastique|
 | POWDER | Poudre|
-| SOFT_EDGE | Bord doux|
+| SOFT_EDGE | Bords doux|
 | SOFT_METAL | Métal mou|
 | TRANSLUCENT_POWDER | Poudre translucide|
-| WARM_MATTE | Mat chaud|
+| WARM_MATTE | mat chaud|
 
 
 

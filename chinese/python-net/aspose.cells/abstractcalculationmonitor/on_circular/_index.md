@@ -1,6 +1,6 @@
 ﻿---
 title: on_circular方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -24,7 +24,7 @@ def on_circular(self, circular_cells_data):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | circular_cells_data | collections.abc.Iterator |带有 CalculationCell 项的 IEnumerator 表示单元格<br/>依赖于循环引用。|
 ### 评论

@@ -17,9 +17,9 @@ Der Typ PivotTableAutoFormatType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| NONE | Stellt den Formattyp None dar.|
+| NONE |Stellt den Formattyp None dar.|
 | CLASSIC | Stellt den klassischen automatischen Formattyp dar.|
-| REPORT1 |Stellt den Formattyp Report1 dar.|
+| REPORT1 | Stellt den Formattyp Report1 dar.|
 | REPORT2 | Stellt den Formattyp Report2 dar.|
 | REPORT3 | Stellt den Formattyp Report3 dar.|
 | REPORT4 | Stellt den Formattyp Report4 dar.|
@@ -38,7 +38,7 @@ Der Typ PivotTableAutoFormatType macht die folgenden Member verfügbar:
 | TABLE7 | Stellt den Table7-Formattyp dar.|
 | TABLE8 | Stellt den Formattyp Table8 dar.|
 | TABLE9 | Stellt den Formattyp Table9 dar.|
-| TABLE10 | Stellt den Formattyp Table10 dar.|
+| TABLE10 | Stellt den Formattyp von Tabelle 10 dar.|
 
 
 

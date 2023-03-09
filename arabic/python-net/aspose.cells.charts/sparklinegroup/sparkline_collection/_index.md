@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  sparkline_collection الملكية
 
-الحصول على مجموعة عنصر [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline).
+الحصول على مجموعة [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) عنصر.
 
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من ذلك ، يرجى استخدام خاصية SparklineGroup.Sparklines.
+ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام خاصية SparklineGroup.Sparklines.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ نوفمبر 2022.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
 ###  تعريف:

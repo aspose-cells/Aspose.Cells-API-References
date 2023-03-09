@@ -8,14 +8,14 @@ url: /sv/python-net/aspose.cells/calculationdata/get_param_value/
 is_root: false
 ---
 ##  get_param_value(index) {#int}
-Hämtar det representerade värdeobjektet för parametern vid ett givet index.
+Hämtar det representerade värdeobjektet för parametern vid det givna indexet.
 
 
 ###  Returnerar
 
 Om parametern är vanligt värde, returnerar det vanligt värde.
 Om parametern är referens, returnerar ReferredArea-objektet.
-Om parametern hänvisar till flera datamängder, returneras array av objekt.
+Om parametern hänvisar till flera datamängder returneras en array av objekt.
 
 
 ```python
@@ -24,7 +24,7 @@ def get_param_value(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | index för parametern (0 baserat)|
 

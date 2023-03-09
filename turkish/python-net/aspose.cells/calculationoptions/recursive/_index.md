@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  recursive mülk
 
-Bir hücre hesaplanırken bağımlı hücrelerin özyinelemeli olarak hesaplanıp hesaplanmayacağını ve diğer hücrelere bağlı olduğunu gösterir.
+Bir hücre hesaplanırken bağımlı hücrelerin özyinelemeli olarak hesaplanıp hesaplanmayacağını belirtir ve diğer hücrelere bağlıdır.
 ###  Tanım:
 ```python
 @property

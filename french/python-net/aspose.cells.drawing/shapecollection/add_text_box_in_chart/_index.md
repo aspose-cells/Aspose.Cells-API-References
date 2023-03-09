@@ -22,7 +22,7 @@ def add_text_box_in_chart(self, top, left, height, width):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | top | int | Représente le décalage vertical de la zone de texte à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.|
 | left | int | Représente le décalage vertical de la zone de texte à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.|

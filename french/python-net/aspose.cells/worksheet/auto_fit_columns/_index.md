@@ -31,13 +31,13 @@ def auto_fit_columns(self, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/fr/python-net/aspose.cells/autofitteroptions) | Les options d'ajustement automatique|
 
 
 ##  auto_fit_columns(first_column, last_column) {#int-int}
-Ajuste automatiquement la largeur des colonnes.
+Ajuste automatiquement la largeur de la colonne.
 
 
 
@@ -47,7 +47,7 @@ def auto_fit_columns(self, first_column, last_column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | first_column | int | Index de la première colonne.|
 | last_column | int | Indice de la dernière colonne.|
@@ -57,7 +57,7 @@ AutoFitColumn est une fonction imprécise.
 
 ##  auto_fit_columns(first_column, last_column, options) {#int-int-AutoFitterOptions}
 
-Ajuste automatiquement la largeur des colonnes.
+Ajuste automatiquement la largeur de la colonne.
 
 
 
@@ -67,7 +67,7 @@ def auto_fit_columns(self, first_column, last_column, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | first_column | int | Index de la première colonne.|
 | last_column | int | Indice de la dernière colonne.|
@@ -78,7 +78,7 @@ AutoFitColumn est une fonction imprécise.
 
 ##  auto_fit_columns(first_row, first_column, last_row, last_column) {#int-int-int-int}
 
-Ajuste automatiquement la largeur des colonnes.
+Ajuste automatiquement la largeur de la colonne.
 
 
 
@@ -88,7 +88,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | first_row | int | Index de la première ligne.|
 | first_column | int | Index de la première colonne.|
@@ -100,7 +100,7 @@ AutoFitColumn est une fonction imprécise.
 
 ##  auto_fit_columns(first_row, first_column, last_row, last_column, options) {#int-int-int-int-AutoFitterOptions}
 
-Ajuste automatiquement la largeur des colonnes.
+Ajuste automatiquement la largeur de la colonne.
 
 
 
@@ -110,7 +110,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column, optio
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | first_row | int | Index de la première ligne.|
 | first_column | int | Index de la première colonne.|

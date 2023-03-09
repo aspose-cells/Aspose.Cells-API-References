@@ -1,5 +1,5 @@
 ﻿---
-title: Timeline sınıf
+title: Timeline sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /tr/python-net/aspose.cells.timelines/timeline/
 is_root: false
 ---
-##  Timeline sınıf
+##  Timeline sınıfı
 Timeline'in özet açıklaması Görüntüle
 MS Excel nedeniyle, Excel 2003 Timeline'i desteklemiyor
 
@@ -18,8 +18,8 @@ Timeline türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [caption](/cells/tr/python-net/aspose.cells.timelines/timeline/caption) |Belirtilen Zaman Çizelgesi'nin başlığını döndürür veya ayarlar.|
-| [name](/cells/tr/python-net/aspose.cells.timelines/timeline/name) | Belirtilen Zaman Çizelgesinin adını döndürür veya ayarlar|
+| [caption](/cells/tr/python-net/aspose.cells.timelines/timeline/caption) | Belirtilen Zaman Çizelgesi'nin başlığını döndürür veya ayarlar.|
+| [name](/cells/tr/python-net/aspose.cells.timelines/timeline/name) |Belirtilen Zaman Çizelgesinin adını döndürür veya ayarlar|
 | [left_pixel](/cells/tr/python-net/aspose.cells.timelines/timeline/left_pixel) | Zaman çizelgesi şeklinin sol sütunundan yatay uzaklığını piksel cinsinden döndürür veya ayarlar.|
 | [top_pixel](/cells/tr/python-net/aspose.cells.timelines/timeline/top_pixel) | Zaman çizelgesi şeklinin üst satırından dikey uzaklığını piksel cinsinden döndürür veya ayarlar.|
 | [width_pixel](/cells/tr/python-net/aspose.cells.timelines/timeline/width_pixel) | Belirtilen zaman çizelgesinin genişliğini piksel cinsinden döndürür veya ayarlar.|
@@ -27,7 +27,7 @@ Timeline türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import CellsFactory, Workbook

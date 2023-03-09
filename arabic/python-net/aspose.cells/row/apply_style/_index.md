@@ -18,10 +18,10 @@ def apply_style(self, style, flag):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | كائن النمط الذي سيتم تطبيقه.|
-| flag | [StyleFlag](/cells/ar/python-net/aspose.cells/styleflag) | علامات تشير إلى خصائص التنسيق المطبقة.|
+| flag | [StyleFlag](/cells/ar/python-net/aspose.cells/styleflag) |العلامات التي تشير إلى خصائص التنسيق المطبقة.|
 
 
 

@@ -23,14 +23,14 @@ Il tipo ChartFrame espone i membri seguenti:
 | [text_font](/cells/it/python-net/aspose.cells.charts/chartframe/text_font) | Ottiene un oggetto [ChartFrame.font](/cells/it/python-net/aspose.cells.charts/chartframe#font) dell'oggetto ChartFrame specificato.|
 | [text_options](/cells/it/python-net/aspose.cells.charts/chartframe/text_options) | Ottiene e imposta le opzioni del testo.|
 | [font](/cells/it/python-net/aspose.cells.charts/chartframe/font) | Ottiene un oggetto [ChartFrame.font](/cells/it/python-net/aspose.cells.charts/chartframe#font) dell'oggetto ChartFrame specificato.|
-| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/chartframe/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto. Il valore predefinito è Vero.|
+| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/chartframe/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto.|
 | [background_mode](/cells/it/python-net/aspose.cells.charts/chartframe/background_mode) | Ottiene e imposta la modalità di visualizzazione dello sfondo|
 | [background](/cells/it/python-net/aspose.cells.charts/chartframe/background) | Ottiene e imposta la modalità di visualizzazione dello sfondo|
 | [is_automatic_size](/cells/it/python-net/aspose.cells.charts/chartframe/is_automatic_size) | Indica se la cornice del grafico è ridimensionata automaticamente.|
 | [x](/cells/it/python-net/aspose.cells.charts/chartframe/x) | Ottiene o imposta la coordinata x dell'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|
-| [y](/cells/it/python-net/aspose.cells.charts/chartframe/y) | Ottiene o imposta la coordinata y dell'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|
+| [y](/cells/it/python-net/aspose.cells.charts/chartframe/y) |Ottiene o imposta la coordinata y dell'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|
 | [height](/cells/it/python-net/aspose.cells.charts/chartframe/height) | Ottiene o imposta l'altezza del frame in unità di 1/4000 dell'area del grafico.|
-| [width](/cells/it/python-net/aspose.cells.charts/chartframe/width) |Ottiene o imposta la larghezza del frame in unità di 1/4000 dell'area del grafico.|
+| [width](/cells/it/python-net/aspose.cells.charts/chartframe/width) | Ottiene o imposta la larghezza del frame in unità di 1/4000 dell'area del grafico.|
 | [shadow](/cells/it/python-net/aspose.cells.charts/chartframe/shadow) | Vero se la cornice ha un'ombra.|
 | [shape_properties](/cells/it/python-net/aspose.cells.charts/chartframe/shape_properties) | Ottiene l'oggetto [ChartFrame.shape_properties](/cells/it/python-net/aspose.cells.charts/chartframe#shape_properties).|
 | [is_default_pos_be_set](/cells/it/python-net/aspose.cells.charts/chartframe/is_default_pos_be_set) | Indica se la posizione predefinita (DefaultX, DefaultY, DefaultWidth e DefaultHeight) è impostata.|

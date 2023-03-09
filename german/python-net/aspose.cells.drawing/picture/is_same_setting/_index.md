@@ -26,7 +26,7 @@ def is_same_setting(self, obj):
 | :- | :- | :- |
 | obj | any |  |
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

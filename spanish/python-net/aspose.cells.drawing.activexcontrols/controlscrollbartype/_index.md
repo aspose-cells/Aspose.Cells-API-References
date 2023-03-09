@@ -18,7 +18,7 @@ El tipo ControlScrollBarType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | NONE | No muestra barras de desplazamiento.|
-| HORIZONTAL |Muestra una barra de desplazamiento horizontal.|
+| HORIZONTAL | Muestra una barra de desplazamiento horizontal.|
 | BARS_VERTICAL | Muestra una barra de desplazamiento vertical.|
 | BARS_BOTH | Muestra una barra de desplazamiento horizontal y vertical.|
 

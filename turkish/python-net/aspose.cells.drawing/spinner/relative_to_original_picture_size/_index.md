@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin orijinal resim boyutuna göre olup olmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

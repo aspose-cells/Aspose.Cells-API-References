@@ -18,7 +18,7 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Начальный ряд диапазона.|
 | start_column | int | Начальный столбец диапазона.|

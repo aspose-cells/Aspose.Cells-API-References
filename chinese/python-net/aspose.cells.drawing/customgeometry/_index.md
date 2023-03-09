@@ -1,13 +1,13 @@
 ﻿---
 title: CustomGeometry类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 140
 url: /zh/python-net/aspose.cells.drawing/customgeometry/
 is_root: false
 ---
-##  CustomGeometry类
+## CustomGeometry类
 表示自定义几何形状。
 
 
@@ -23,7 +23,7 @@ CustomGeometry 类型公开了以下成员：
 |属性|描述|
 | :- | :- |
 | [shape_adjust_values](/cells/zh/python-net/aspose.cells.drawing/customgeometry/shape_adjust_values) |获取形状调整值的集合|
-| [paths](/cells/zh/python-net/aspose.cells.drawing/customgeometry/paths) | shape 为 NotPrimitive autoshape 时获取路径集合信息|
+| [paths](/cells/zh/python-net/aspose.cells.drawing/customgeometry/paths) |shape 为 NotPrimitive autoshape 时获取路径集合信息|
 
 
 

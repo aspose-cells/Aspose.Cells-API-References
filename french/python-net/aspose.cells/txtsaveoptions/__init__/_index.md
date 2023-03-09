@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) | Format d'enregistrement du fichier texte.|
 

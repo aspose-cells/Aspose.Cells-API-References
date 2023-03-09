@@ -11,7 +11,7 @@ is_root: false
 
 Çalışma sayfasının üst sınırından dikey şeklin uzaklığını piksel birimi cinsinden alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

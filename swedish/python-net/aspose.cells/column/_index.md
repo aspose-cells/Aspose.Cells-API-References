@@ -18,10 +18,10 @@ Typen Column avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [index](/cells/sv/python-net/aspose.cells/column/index) | Hämtar indexet för denna kolumn.|
-| [width](/cells/sv/python-net/aspose.cells/column/width) | Hämtar och ställer in kolumnbredden i teckenenhet.|
-| [group_level](/cells/sv/python-net/aspose.cells/column/group_level) | Hämtar gruppnivån för kolumnen.|
+| [width](/cells/sv/python-net/aspose.cells/column/width) | Hämtar och ställer in kolumnbredden i teckenenheter.|
+| [group_level](/cells/sv/python-net/aspose.cells/column/group_level) |Hämtar gruppnivån för kolumnen.|
 | [is_hidden](/cells/sv/python-net/aspose.cells/column/is_hidden) | Indikerar om kolumnen är dold.|
-| [has_custom_style](/cells/sv/python-net/aspose.cells/column/has_custom_style) | Indikerar om den här kolumnen har anpassade stilinställningar (som skiljer sig från standarden som ärvts från arbetsboken).|
+| [has_custom_style](/cells/sv/python-net/aspose.cells/column/has_custom_style) | Indikerar om den här kolumnen har anpassade stilinställningar (andra från standarden som ärvts från arbetsboken).|
 | [style](/cells/sv/python-net/aspose.cells/column/style) | Får stilen i denna kolumn.|
 | [is_collapsed](/cells/sv/python-net/aspose.cells/column/is_collapsed) | om kolumnen är kollapsad|
 

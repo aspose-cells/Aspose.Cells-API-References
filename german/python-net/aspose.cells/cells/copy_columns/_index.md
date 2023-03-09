@@ -22,8 +22,8 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/de/python-net/aspose.cells/cells) | Quellobjekt Cells enthält zu kopierende Daten und Formate.|
 | source_column_index | int | Quellspaltenindex.|
-| destination_column_index | int |Index der Zielspalte.|
-| column_number | int | Die kopierte Spaltennummer.|
+| destination_column_index | int | Index der Zielspalte.|
+| column_number | int | Die kopierten Spaltennummern.|
 
 
 ##  copy_columns(source_cells0, source_column_index, destination_column_index, column_number, paste_options) {#Cells-int-int-int-PasteOptions}
@@ -41,8 +41,8 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/de/python-net/aspose.cells/cells) | Quellobjekt Cells enthält zu kopierende Daten und Formate.|
 | source_column_index | int | Quellspaltenindex.|
-| destination_column_index | int |Index der Zielspalte.|
-| column_number | int | Die kopierte Spaltennummer.|
+| destination_column_index | int | Index der Zielspalte.|
+| column_number | int | Die kopierten Spaltennummern.|
 | paste_options | [PasteOptions](/cells/de/python-net/aspose.cells/pasteoptions) | die Möglichkeiten des Einfügens.|
 
 
@@ -62,7 +62,7 @@ def copy_columns(self, source_cells, source_column_index, source_total_columns, 
 | source_cells | [Cells](/cells/de/python-net/aspose.cells/cells) | Quellobjekt Cells enthält zu kopierende Daten und Formate.|
 | source_column_index | int | Quellspaltenindex.|
 | source_total_columns | int | Die Anzahl der Quellspalten.|
-| destination_column_index | int |Index der Zielspalte.|
+| destination_column_index | int | Index der Zielspalte.|
 | destination_total_columns | int | Die Anzahl der Zielspalten.|
 
 

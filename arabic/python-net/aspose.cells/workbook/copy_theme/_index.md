@@ -18,7 +18,7 @@ def copy_theme(self, source):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | source | [Workbook](/cells/ar/python-net/aspose.cells/workbook) | المصنف المصدر.|
 

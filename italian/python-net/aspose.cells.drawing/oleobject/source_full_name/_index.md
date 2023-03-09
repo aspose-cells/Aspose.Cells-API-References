@@ -13,7 +13,7 @@ Restituisce il nome completo di origine del file di origine per l'oggetto OLE co
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
 utilizzare la proprietà OleObject.ObjectSourceFullName.
  Questa proprietà verrà rimossa 12 mesi dopo da novembre 2013.
 Aspose si scusa per gli eventuali disagi causati.

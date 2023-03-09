@@ -1,13 +1,13 @@
 ﻿---
 title: ExternalLinkCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 570
 url: /zh/python-net/aspose.cells/externallinkcollection/
 is_root: false
 ---
-##  ExternalLinkCollection类
+## ExternalLinkCollection类
 表示工作簿中的外部链接集合。
 
 

@@ -30,7 +30,7 @@ Typen VbaProject avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [sign(digital_signature)](/cells/sv/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | Signera detta VBA-projekt med en DigitalSignatur|
+| [sign(digital_signature)](/cells/sv/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | Signera detta VBA-projekt med en digital signatur|
 | [protect(islocked_for_viewing, password)](/cells/sv/python-net/aspose.cells.vba/vbaproject/protect/#bool-str) | Skyddar eller avskyddar detta VBA-projekt.|
 | [copy(source)](/cells/sv/python-net/aspose.cells.vba/vbaproject/copy/#VbaProject) | Kopiera VBA-projekt från annan fil.|
 | [validate_password(password)](/cells/sv/python-net/aspose.cells.vba/vbaproject/validate_password/#str) | Validerar skyddslösenord.|

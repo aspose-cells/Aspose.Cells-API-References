@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta lo email del cantante.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells.drawing import SignatureLine

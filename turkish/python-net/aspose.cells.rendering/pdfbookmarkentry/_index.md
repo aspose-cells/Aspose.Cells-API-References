@@ -1,5 +1,5 @@
 ﻿---
-title: PdfBookmarkEntry sınıf
+title: PdfBookmarkEntry sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 80
 url: /tr/python-net/aspose.cells.rendering/pdfbookmarkentry/
 is_root: false
 ---
-##  PdfBookmarkEntry sınıf
+##  PdfBookmarkEntry sınıfı
 PdfBookmarkEntry, pdf yer iminde bir giriştir.
 geçerli örneğin Metin özelliği boş veya "" ise,
 mevcut örnek gizlenecek ve çocuklar mevcut seviyeye eklenecektir.
@@ -29,12 +29,12 @@ PdfBookmarkEntry türü aşağıdaki üyeleri gösterir:
 | [destination](/cells/tr/python-net/aspose.cells.rendering/pdfbookmarkentry/destination) | Yer iminin bağlandığı hücre.|
 | [destination_name](/cells/tr/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name) | Hedefin adını alır veya ayarlar.|
 | [sub_entry](/cells/tr/python-net/aspose.cells.rendering/pdfbookmarkentry/sub_entry) | Bir yer iminin Alt Girişi.|
-| [is_open](/cells/tr/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) | Bu özellik doğru olduğunda yer imi genişler, aksi halde çöker.|
+| [is_open](/cells/tr/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) |Bu özellik doğru olduğunda yer imi genişler, aksi halde çöker.|
 | [is_collapse](/cells/tr/python-net/aspose.cells.rendering/pdfbookmarkentry/is_collapse) | Bu özellik doğru olduğunda, yer imi kaydı çöker, aksi halde genişler.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

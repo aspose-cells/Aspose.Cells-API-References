@@ -18,10 +18,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 ###  Примечания
 
@@ -39,10 +39,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | Варианты разбора формулы.|
 
@@ -58,16 +58,16 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 | is_r1c1 | bool | является ли формула формулой R1C1|
 | is_local | bool | отформатирована ли формула в локали|
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот класс устарел. Вместо,
+ПРИМЕЧАНИЕ. Этот класс устарел.
 пожалуйста, используйте Cell.SetSharedFormula(string,int,int,FormulaParseOptions).
 Это свойство будет удалено через 12 месяцев, начиная с декабря 2019 года.
 Aspose приносит извинения за возможные неудобства.
@@ -83,10 +83,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | Варианты разбора формулы.|
 | values | list | значения для тех ячеек с заданной общей формулой|

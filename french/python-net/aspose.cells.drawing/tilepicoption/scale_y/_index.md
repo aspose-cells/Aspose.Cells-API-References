@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y propriété
 
-Obtient ou définit l'échelle Y pour l'image en mosaïque.
+Obtient ou définit l'échelle Y pour les images en mosaïque.
 ###  Définition:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Yorum boyutunun içeriğine göre otomatik olarak ayarlanıp ayarlanmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

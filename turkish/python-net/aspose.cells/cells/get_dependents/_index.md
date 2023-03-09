@@ -22,7 +22,7 @@ def get_dependents(self, is_all, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_all | bool | Diğer çalışma sayfalarının kontrol edilip edilmediğini gösterir|
 | row | int | Satır dizini.|

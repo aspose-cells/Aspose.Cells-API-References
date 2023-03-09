@@ -18,7 +18,7 @@ def __init__(self, type, tint):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/it/python-net/aspose.cells/themecolortype) | Il tipo di tema.|
 | tint | float | Il valore della tinta.|

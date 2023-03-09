@@ -1,13 +1,13 @@
 ﻿---
 title: RevisionFormat类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 90
 url: /zh/python-net/aspose.cells.revisions/revisionformat/
 is_root: false
 ---
-##  RevisionFormat类
+## RevisionFormat类
 表示有关格式更改信息的修订记录。
 
 

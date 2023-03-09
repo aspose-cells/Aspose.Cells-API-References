@@ -11,7 +11,7 @@ is_root: false
 
 Her sayfanın sol tarafında yinelenecek hücrelerin bulunduğu sütunları temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

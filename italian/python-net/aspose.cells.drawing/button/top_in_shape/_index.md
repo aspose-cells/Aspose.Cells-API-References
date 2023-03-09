@@ -16,7 +16,7 @@ in unità di 1/4000 di altezza della forma madre.
 
 Si applica solo quando questa forma è nel gruppo o nel grafico.
 
-###  Esempio
+###  Esempi
 
 ```python
 

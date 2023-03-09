@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-يمكن أن تحتوي ملفات التعريف EMF المحددة على أنها "EMF+ Dual" على كل من سجلات EMF+ و EMF.
+ يمكن أن تحتوي ملفات التعريف EMF المحددة على أنها "EMF+ Dual" على كل من سجلات EMF+ و EMF.
 يمكن استخدام أي نوع من أنواع السجلات لتقديم الصورة ، فقط EMF+ السجلات ، أو EMF فقط من السجلات.
 عند تعيين [EmfRenderSetting.EMF_PLUS_PREFER](/cells/ar/python-net/aspose.cells/emfrendersetting#EMF_PLUS_PREFER) ، سيتم تحليل تسجيلات EMF+ أثناء التقديم إلى pdf ، وإلا فسيتم تحليل سجلات EMF فقط.
 القيمة الافتراضية هي [EmfRenderSetting.EMF_ONLY](/cells/ar/python-net/aspose.cells/emfrendersetting#EMF_ONLY).

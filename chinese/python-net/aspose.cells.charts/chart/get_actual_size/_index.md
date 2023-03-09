@@ -1,6 +1,6 @@
 ﻿---
 title: get_actual_size方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -14,7 +14,7 @@ is_root: false
 ### 返回
 
 数组中的实际大小（宽度和高度）。
-[0] 是宽度； [1] 是高度。
+[0] 是宽度；[1] 是高度。
 
 
 ```python

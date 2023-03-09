@@ -18,7 +18,7 @@ Lo stesso con la regola in ms excel, una riga/colonna non verrà considerata vuo
 anche se non contiene dati di cella.
 Quando si salva con la modalità LightCells, questa opzione non ha effetto.
 L'utente deve controllare l'intervallo di output mediante l'implementazione di [TxtSaveOptions.light_cells_data_provider](/cells/it/python-net/aspose.cells/txtsaveoptions#light_cells_data_provider)
-oppure specificando [TxtSaveOptions.export_area](/cells/it/python-net/aspose.cells/txtsaveoptions#export_area)
+oppure parlando allo [TxtSaveOptions.export_area](/cells/it/python-net/aspose.cells/txtsaveoptions#export_area)
 ###  Definizione:
 ```python
 @property

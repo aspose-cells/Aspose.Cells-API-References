@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/ad
 is_root: false
 ---
 ##  add(digital_signature) {#DigitalSignature}
-DigitalSignatureCollection'a bir imza ekleyin.
+Dijital İmza Koleksiyonuna bir imza ekleyin.
 
 
 
@@ -18,7 +18,7 @@ def add(self, digital_signature):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | digital_signature | [DigitalSignature](/cells/tr/python-net/aspose.cells.digitalsignatures/digitalsignature) | Koleksiyonda dijital imza.|
 

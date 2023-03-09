@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.slicers/slicer/refresh/
 is_root: false
 ---
 ##  refresh() {#}
-Dilimleyici yenileniyor.Bu arada, Göreli PivotTable'lar Yenileniyor ve Hesaplanıyor.
+Dilimleyici yenileniyor Bu arada, Göreli PivotTable'lar Yenileniyor ve Hesaplanıyor.
 
 
 
@@ -19,7 +19,7 @@ def refresh(self):
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 

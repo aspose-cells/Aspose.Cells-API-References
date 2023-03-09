@@ -13,7 +13,7 @@ Kontrollerar om en färg finns i paletten för kalkylarket.
 
 ###  Returnerar
 
-Returnerar sant om denna färg finns i paletten. Annars returneras falskt
+Returnerar sant om denna färg finns i paletten.
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Färgstruktur.|
 

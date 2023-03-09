@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  terminate_without_exception propiedad
 
-Cuando se interrumpe el procedimiento, ya sea que finalice el procedimiento en silencio o emita una excepción.
+Cuando se interrumpe el procedimiento, ya sea para terminar el procedimiento silenciosamente o lanzar una excepción.
 El valor predeterminado es falso, es decir, cuando [AbstractInterruptMonitor.is_interruption_requested](/cells/es/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) es verdadero,
 Se lanzará un [CellsException](/cells/es/python-net/aspose.cells/cellsexception) con el código [ExceptionType.INTERRUPTED](/cells/es/python-net/aspose.cells/exceptiontype#INTERRUPTED).
 ###  Definición:

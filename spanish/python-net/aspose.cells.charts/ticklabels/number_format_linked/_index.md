@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format_linked propiedad
 
-Verdadero si el formato de número está vinculado a las celdas
+ Verdadero si el formato de número está vinculado a las celdas
 (para que el formato del número cambie en las etiquetas cuando cambie en las celdas).
 ###  Definición:
 ```python

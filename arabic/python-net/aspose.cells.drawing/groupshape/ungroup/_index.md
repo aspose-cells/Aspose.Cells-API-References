@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/groupshape/ungroup/
 is_root: false
 ---
 ##  ungroup() {#}
-يفك تجميع عناصر الشكل.
+فك تجميع عناصر الشكل.
 
 
 

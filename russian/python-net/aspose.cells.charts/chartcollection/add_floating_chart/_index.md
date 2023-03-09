@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [ChartType](/cells/ru/python-net/aspose.cells.charts/charttype) | Тип диаграммы|
 | left | int | X смещение к углу|

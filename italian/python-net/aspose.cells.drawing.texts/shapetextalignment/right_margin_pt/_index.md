@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce il margine destro in unità di punti
 
-###  Esempio
+###  Esempi
 
 ```python
 

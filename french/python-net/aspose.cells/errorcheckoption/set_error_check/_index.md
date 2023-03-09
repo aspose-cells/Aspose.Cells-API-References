@@ -18,7 +18,7 @@ def set_error_check(self, error_check_type, is_check):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/fr/python-net/aspose.cells/errorchecktype) | le type d'erreur peut être vérifié.|
 | is_check | bool | true si le type d'erreur donné doit être vérifié (un triangle vert sera affiché pour la cellule si la vérification a échoué).|

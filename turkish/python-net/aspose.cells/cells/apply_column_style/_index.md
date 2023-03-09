@@ -18,11 +18,11 @@ def apply_column_style(self, column, style, flag):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Uygulanacak stil nesnesi.|
-| flag | [StyleFlag](/cells/tr/python-net/aspose.cells/styleflag) | Uygulanan biçimlendirme özelliklerini gösteren bayraklar.|
+| flag | [StyleFlag](/cells/tr/python-net/aspose.cells/styleflag) |Uygulanan biçimlendirme özelliklerini gösteren bayraklar.|
 
 
 

@@ -22,7 +22,7 @@ def add_link_to_content(self, name, source):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på fastigheten.|
 | source | str | Källan till fastigheten|

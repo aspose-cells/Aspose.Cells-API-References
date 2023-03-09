@@ -18,7 +18,7 @@ Typen PivotGroupByType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | RANGE_OF_VALUES | Presenterar värdeintervall grupp efter typ.|
-| SECONDS |Presenterar sekunder grupp efter typ.|
+| SECONDS | Presenterar sekunder grupp efter typ.|
 | MINUTES | Presenterar minuter grupp efter typ.|
 | HOURS | Presenterar timmar grupp efter typ.|
 | DAYS | Presenterar dagar grupp efter typ.|

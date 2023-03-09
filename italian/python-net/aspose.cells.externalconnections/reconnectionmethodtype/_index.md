@@ -19,7 +19,7 @@ Il tipo ReConnectionMethodType espone i membri seguenti:
 | :- | :- |
 | REQUIRED | All'aggiornamento utilizzare le informazioni di connessione esistenti e se finiscono per non essere valide<br/> quindi ottenere le informazioni di connessione aggiornate, se disponibili dal file di connessione esterno.|
 | ALWAYS | Ad ogni aggiornamento ottenere informazioni di connessione aggiornate dal file di connessione esterno,<br/> se disponibile, e usalo al posto delle informazioni di connessione esistenti.<br/> In questo caso l'aggiornamento dei dati fallirà se il file di connessione esterno non è disponibile.|
-| NEVER | Non ottenere mai informazioni di connessione aggiornate dal file di connessione esterno<br/>anche se è disponibile e anche se le informazioni sulla connessione esistente non sono valide|
+| NEVER | Non ottenere mai informazioni di connessione aggiornate dal file di connessione esterno<br/> anche se è disponibile e anche se le informazioni sulla connessione esistente non sono valide|
 
 
 

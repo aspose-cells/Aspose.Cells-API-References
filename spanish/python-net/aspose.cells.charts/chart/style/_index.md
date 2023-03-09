@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style propiedad
 
-Obtiene y establece el style incorporado.
+Obtiene y establece el style integrado.
 
 ###  Observaciones
 

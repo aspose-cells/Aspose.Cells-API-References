@@ -13,7 +13,7 @@ Obtiene el tamaño real del gráfico en unidades de píxeles.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
  utilice el método Chart.GetActualSize().
  Esta propiedad se eliminará 12 meses después desde julio de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

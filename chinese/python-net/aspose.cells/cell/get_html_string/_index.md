@@ -1,6 +1,6 @@
 ﻿---
 title: get_html_string方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
@@ -22,7 +22,7 @@ def get_html_string(self, html5):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | html5 | bool |指示该值是否兼容 html5|
 

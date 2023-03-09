@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionCellComment sınıf
+title: RevisionCellComment sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 40
 url: /tr/python-net/aspose.cells.revisions/revisioncellcomment/
 is_root: false
 ---
-##  RevisionCellComment sınıf
+##  RevisionCellComment sınıfı
 Bir hücre açıklaması değişikliğinin revizyon kaydını temsil eder.
 
 

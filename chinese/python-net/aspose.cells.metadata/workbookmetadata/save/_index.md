@@ -1,6 +1,6 @@
 ﻿---
 title: save方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | file_name | str |文件名。|
 
@@ -34,7 +34,7 @@ def save(self, stream):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |流。|
 

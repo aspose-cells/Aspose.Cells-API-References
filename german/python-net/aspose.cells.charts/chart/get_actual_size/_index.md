@@ -14,7 +14,7 @@ Ruft die tatsächliche Größe des Diagramms in Pixeleinheiten ab.
 ###  Kehrt zurück
 
 Tatsächliche Größe in einem Array (Breite und Höhe).
-[0] ist Breite; [1] ist die Höhe.
+[0] ist Breite, [1] ist Höhe.
 
 
 ```python

@@ -23,7 +23,7 @@ def is_modified(self, modify_flag):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | modify_flag | [StyleModifyFlag](/cells/es/python-net/aspose.cells/stylemodifyflag) | Banderas de estilo modificado|
 

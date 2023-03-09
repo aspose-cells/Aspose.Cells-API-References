@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin_pt fastighet
 
-Returnerar den vänstra marginalen i poängenhet
+Returnerar den vänstra marginalen i enheter av poäng
 
 ###  Exempel
 

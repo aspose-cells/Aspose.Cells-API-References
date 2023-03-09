@@ -18,10 +18,10 @@ def set_refers_to(self, refers_to, is_r1c1, is_local):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | refers_to | str | Referans.|
-| is_r1c1 | bool | Referansın R1C1 formatı olup olmadığı.|
+| is_r1c1 | bool |Referansın R1C1 formatı olup olmadığı.|
 | is_local | bool | Başvurunun yerel ayar biçimlendirilmiş olup olmadığı.|
 
 

@@ -14,7 +14,7 @@ Ottiene o imposta il valore calcolato per questa funzione.
 ###  Osservazioni
 
 L'utente deve impostare questa proprietà nel suo motore di calcolo personalizzato per le funzioni supportate dal motore,
-il valore impostato verrà restituito quando si ottiene questa proprietà in un secondo momento.
+e il valore impostato verrà restituito quando si ottiene questa proprietà in un secondo momento.
 Il valore impostato può essere qualsiasi valore di quegli oggetti che possono essere impostati su Cell(Cell.Value).
 E può anche essere un array di questo tipo di valori o un intervallo, un nome, un'area di riferimento.
 Ottenere questa proprietà prima dell'impostazione farà sì che la funzione venga calcolata dal motore di calcolo predefinito di Aspose.Cells e verrà restituito il valore calcolato.

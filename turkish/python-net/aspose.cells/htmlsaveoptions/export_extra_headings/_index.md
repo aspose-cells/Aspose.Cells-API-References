@@ -10,7 +10,7 @@ is_root: false
 ##  export_extra_headings mülk
 
 Metin uzunluğu maksimum görüntüleme sütunundan daha uzun olduğunda fazladan başlıkların dışa aktarılıp aktarılmayacağını gösterir.
-Varsayılan değer yanlıştır. Html dosyasını excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
+Varsayılan değer yanlıştır.
 ###  Tanım:
 ```python
 @property

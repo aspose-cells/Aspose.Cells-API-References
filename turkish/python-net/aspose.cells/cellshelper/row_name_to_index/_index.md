@@ -22,7 +22,7 @@ def row_name_to_index(self, row_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row_name | str | Satır adı.|
 

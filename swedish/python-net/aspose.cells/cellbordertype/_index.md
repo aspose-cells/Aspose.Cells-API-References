@@ -17,7 +17,7 @@ Typen CellBorderType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| DASH_DOT | Representerar en tunn streckad linje.|
+| DASH_DOT | Representerar tunna streckade linjer.|
 | DASH_DOT_DOT | Representerar en tunn streckprickad linje.|
 | DASHED | Representerar en streckad linje.|
 | DOTTED | Representerar en prickad linje.|
@@ -26,7 +26,7 @@ Typen CellBorderType avslöjar följande medlemmar:
 | MEDIUM_DASH_DOT | Representerar medelhög streckad linje.|
 | MEDIUM_DASH_DOT_DOT | Representerar medelstor streckprickad linje.|
 | MEDIUM_DASHED | Representerar medelstreckad linje.|
-| NONE |Representerar ingen linje.|
+| NONE | Representerar ingen linje.|
 | MEDIUM | Representerar medium linje.|
 | SLANTED_DASH_DOT | Representerar en lutande medelhög streckad linje.|
 | THICK | Representerar tjock linje.|

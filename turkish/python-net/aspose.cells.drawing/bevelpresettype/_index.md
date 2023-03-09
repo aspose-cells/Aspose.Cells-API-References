@@ -25,7 +25,7 @@ BevelPresetType türü aşağıdaki üyeleri gösterir:
 | COOL_SLANT | Soğuk eğimli|
 | CROSS | Geçmek|
 | DIVOT | Çimen|
-| HARD_EDGE | Sert kenar|
+| HARD_EDGE | Sert kenarlar|
 | RELAXED_INSET | rahat ek|
 | RIBLET | Riblet|
 | SLOPE | Eğim|

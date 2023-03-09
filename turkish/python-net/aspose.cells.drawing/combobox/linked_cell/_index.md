@@ -11,7 +11,7 @@ is_root: false
 
 Denetimin değerine bağlı çalışma sayfası aralığını alır veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

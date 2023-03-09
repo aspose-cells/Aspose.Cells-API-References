@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_workbook_properties proprietà
 
-Indica se si esportano le proprietà della cartella di lavoro. Il valore predefinito è true. Se si desidera importare
+ Indica se si esportano le proprietà della cartella di lavoro. Il valore predefinito è true. Se si desidera importare
 il file html o mht in Excel, mantieni il valore predefinito.
 ###  Definizione:
 ```python

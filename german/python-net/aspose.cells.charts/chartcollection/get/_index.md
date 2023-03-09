@@ -44,7 +44,7 @@ def get(self, name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| name | str | Diagrammname|
+| name | str |Diagrammname|
 
 
 

@@ -13,7 +13,7 @@ Establece el nombre de fuente estándar predeterminado
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En su lugar, utilice DefaultStyleSettings.
+NOTA: Este miembro ahora está obsoleto.
  Esta propiedad se eliminará 12 meses después desde marzo de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

@@ -18,7 +18,7 @@ def get_on_category_axis_point_x_px(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int |  |
 ###  Remarques

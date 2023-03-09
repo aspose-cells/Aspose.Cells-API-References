@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| extension | str | Dosya uzantısı. Ön noktalı veya noktasız olabilir. Büyük/küçük harfe duyarsız.|
+| extension | str | Dosya uzantısı Baştaki noktalı veya noktasız olabilir.|
 ###  Notlar
 
 Uzantı tanınamıyorsa, [SaveFormat.UNKNOWN](/cells/tr/python-net/aspose.cells/saveformat#UNKNOWN) döndürür.

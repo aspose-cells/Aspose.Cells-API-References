@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range_name | str | Namn på intervall.|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range_name | str | Namn på området eller tabellens namn.|
-| current_sheet_index | int | Arkindex. -1 representerar global .|
+| current_sheet_index | int | Bladindex -1 representerar globalt.|
 | include_table | bool | Anger om alla tabeller kontrolleras.|
 
 

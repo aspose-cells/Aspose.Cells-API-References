@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_password fastighet
 
-True om lösenordet ska sparas som en del av anslutningssträngen; annars, Falskt.
+Sant om lösenordet ska sparas som en del av anslutningssträngen, annars False.
 ###  Definition:
 ```python
 @property

@@ -19,7 +19,7 @@ El tipo VisibilityType expone los siguientes miembros:
 | :- | :- |
 | VISIBLE | Indica que la hoja está visible.|
 | HIDDEN | Indica que la hoja está oculta, pero el usuario puede mostrarla a través de la interfaz de usuario.|
-| VERY_HIDDEN | Indica que la hoja está oculta y no se puede mostrar en la interfaz de usuario (UI).<br/> Este estado solo está disponible mediante programación.|
+| VERY_HIDDEN | Indica que la hoja está oculta y no se puede mostrar en la interfaz de usuario (IU).<br/> Este estado solo está disponible mediante programación.|
 
 
 

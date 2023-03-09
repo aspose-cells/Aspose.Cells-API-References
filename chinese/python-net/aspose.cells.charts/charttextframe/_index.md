@@ -1,13 +1,13 @@
 ﻿---
 title: ChartTextFrame类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
 url: /zh/python-net/aspose.cells.charts/charttextframe/
 is_root: false
 ---
-##  ChartTextFrame类
+## ChartTextFrame类
 封装表示包含文本的框架对象的对象。
 
 
@@ -28,7 +28,7 @@ ChartTextFrame 类型公开了以下成员：
 | [text_font](/cells/zh/python-net/aspose.cells.charts/charttextframe/text_font) |获取指定 ChartFrame 对象的 [ChartFrame.font](/cells/zh/python-net/aspose.cells.charts/chartframe#font) 对象。|
 | [text_options](/cells/zh/python-net/aspose.cells.charts/charttextframe/text_options) |获取和设置文本的选项。|
 | [font](/cells/zh/python-net/aspose.cells.charts/charttextframe/font) |获取指定 ChartFrame 对象的 [ChartFrame.font](/cells/zh/python-net/aspose.cells.charts/chartframe#font) 对象。|
-| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/charttextframe/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。|
+| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/charttextframe/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。|
 | [background_mode](/cells/zh/python-net/aspose.cells.charts/charttextframe/background_mode) |获取和设置背景的显示方式|
 | [background](/cells/zh/python-net/aspose.cells.charts/charttextframe/background) |获取和设置背景的显示方式|
 | [is_automatic_size](/cells/zh/python-net/aspose.cells.charts/charttextframe/is_automatic_size) |指示图表框是否自动调整大小。|
@@ -55,7 +55,7 @@ ChartTextFrame 类型公开了以下成员：
 | [reading_order](/cells/zh/python-net/aspose.cells.charts/charttextframe/reading_order) |表示文本阅读顺序。|
 | [direction_type](/cells/zh/python-net/aspose.cells.charts/charttextframe/direction_type) |获取和设置文本的方向。|
 | [is_text_wrapped](/cells/zh/python-net/aspose.cells.charts/charttextframe/is_text_wrapped) |获取或设置一个值，该值指示文本是否换行。|
-| [is_resize_shape_to_fit_text](/cells/zh/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) |获取或设置形状是否应自动调整以完全包含其中描述的文本。自动拟合是<br/>当缩放形状内的文本以包含内部的所有文本时。|
+| [is_resize_shape_to_fit_text](/cells/zh/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) |获取或设置形状是否应自动调整以完全包含其中描述的文本。<br/>当缩放形状内的文本以包含内部的所有文本时。|
 
 
 ### 方法

@@ -18,7 +18,7 @@ def set_auto_group_field(self, base_field_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | base_field_index | int | El índice de campo de fila o columna en los campos base|
 
@@ -34,7 +34,7 @@ def set_auto_group_field(self, pivot_field):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/es/python-net/aspose.cells.pivot/pivotfield) | El campo de fila o columna en los campos específicos|
 

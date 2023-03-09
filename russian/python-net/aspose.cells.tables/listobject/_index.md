@@ -22,12 +22,12 @@ is_root: false
 | [start_row](/cells/ru/python-net/aspose.cells.tables/listobject/start_row) | Получает начальную строку диапазона.|
 | [start_column](/cells/ru/python-net/aspose.cells.tables/listobject/start_column) | Получает начальный столбец диапазона.|
 | [end_row](/cells/ru/python-net/aspose.cells.tables/listobject/end_row) | Получает конечную строку диапазона.|
-| [end_column](/cells/ru/python-net/aspose.cells.tables/listobject/end_column) | Получает конечный столбец диапазона.|
+| [end_column](/cells/ru/python-net/aspose.cells.tables/listobject/end_column) |Получает конечный столбец диапазона.|
 | [list_columns](/cells/ru/python-net/aspose.cells.tables/listobject/list_columns) | Получает ListColumns объекта ListObject.|
 | [show_header_row](/cells/ru/python-net/aspose.cells.tables/listobject/show_header_row) | Получает и устанавливает, показывает ли этот ListObject строку заголовка.|
-| [show_totals](/cells/ru/python-net/aspose.cells.tables/listobject/show_totals) |Получает и устанавливает, показывает ли этот ListObject итоговую строку.|
+| [show_totals](/cells/ru/python-net/aspose.cells.tables/listobject/show_totals) | Получает и устанавливает, показывает ли этот ListObject общее количество строк.|
 | [data_range](/cells/ru/python-net/aspose.cells.tables/listobject/data_range) | Получает диапазон данных ListObject.|
-| [query_table](/cells/ru/python-net/aspose.cells.tables/listobject/query_table) |Получает связанную таблицу запросов.|
+| [query_table](/cells/ru/python-net/aspose.cells.tables/listobject/query_table) | Получает связанную таблицу запросов.|
 | [data_source_type](/cells/ru/python-net/aspose.cells.tables/listobject/data_source_type) | Получает тип источника данных таблицы.|
 | [auto_filter](/cells/ru/python-net/aspose.cells.tables/listobject/auto_filter) | Получает автоматический фильтр.|
 | [display_name](/cells/ru/python-net/aspose.cells.tables/listobject/display_name) | Получает и задает отображаемое имя.|
@@ -56,7 +56,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import CellsHelper, Workbook

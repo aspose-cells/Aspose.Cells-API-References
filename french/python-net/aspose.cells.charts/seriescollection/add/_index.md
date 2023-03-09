@@ -22,7 +22,7 @@ def add(self, area, is_vertical):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | area | str | Spécifie les valeurs à partir desquelles tracer la série de données|
 | is_vertical | bool | Spécifie s'il faut tracer la série à partir d'une plage de valeurs de cellule par ligne ou par colonne.|
@@ -46,7 +46,7 @@ def add(self, area, is_vertical, check_labels):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | area | str | Spécifie les valeurs à partir desquelles tracer la série de données|
 | is_vertical | bool | Spécifie s'il faut tracer la série à partir d'une plage de valeurs de cellule par ligne ou par colonne.|

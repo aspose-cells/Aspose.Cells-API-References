@@ -18,7 +18,7 @@ def show_group_detail(self, is_vertical, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_vertical | bool | True, développe les lignes groupées.|
 | index | int | L'index de ligne/colonne|

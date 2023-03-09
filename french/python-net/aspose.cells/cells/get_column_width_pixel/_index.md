@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/cells/get_column_width_pixel/
 is_root: false
 ---
 ##  get_column_width_pixel(column) {#int}
-Obtient la largeur de la colonne spécifiée en mode normal, en unités de pixel.
+Obtient la largeur de la colonne spécifiée en mode normal, en unités de pixels.
 
 
 ###  Retour
@@ -22,7 +22,7 @@ def get_column_width_pixel(self, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column | int | Indice de colonne|
 

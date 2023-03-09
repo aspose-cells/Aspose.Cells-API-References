@@ -10,7 +10,7 @@ is_root: false
 ##  table_css_id Eigentum
 
  Ruft das Präfix des Typs CSS-Namen ab und legt es fest, z. B. tr, col, td usw. Sie sind im Tabellenelement enthalten
-die das spezifische TableCssId-Attribut hat. Der Standardwert ist "".
+die das spezifische TableCssId-Attribut hat.
 ###  Definition:
 ```python
 @property

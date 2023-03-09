@@ -1,6 +1,6 @@
 ﻿---
 title: current_page 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -11,7 +11,7 @@ is_root: false
 
  DrawObject 的页面索引。
 页面索引基于零。
-渲染时一张表包含多个页面。
+渲染时一张纸包含几页。
 ### 定义：
 ```python
 @property

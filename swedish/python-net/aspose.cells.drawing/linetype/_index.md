@@ -18,7 +18,7 @@ Typen LineType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | DARK_GRAY | Representerar en mörkgrå linje.|
-| DASH |Representerar en streckad linje.|
+| DASH | Representerar en streckad linje.|
 | DASH_DOT | Representerar en streckprickad linje|
 | DASH_DOT_DOT | Representerar en streck-prick-prick linje.|
 | DOT | Representerar en prickad linje.|

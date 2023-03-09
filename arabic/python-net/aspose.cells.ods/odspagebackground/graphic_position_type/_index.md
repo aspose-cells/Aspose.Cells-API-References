@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  graphic_position_type الملكية
 
-يحصل ويضبط موضع رسم الخلفية.
+الحصول على موضع رسم الخلفية وتعيينه.
 ###  تعريف:
 ```python
 @property

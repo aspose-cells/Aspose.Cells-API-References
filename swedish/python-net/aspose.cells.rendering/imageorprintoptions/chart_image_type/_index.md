@@ -14,8 +14,8 @@ standardvärde: PNG.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
-Diagram och Shape renderas alltid som vektorelement (t.ex. punkt, linje) för renderingskvalitet.
+ OBS: Denna medlem är nu föråldrad.
+Diagram och former renderas alltid som vektorelement (t.ex. punkter, linjer) för renderingskvalitet.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

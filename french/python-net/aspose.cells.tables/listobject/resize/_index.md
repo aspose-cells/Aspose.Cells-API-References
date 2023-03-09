@@ -18,7 +18,7 @@ def resize(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | start_row | int | Index de ligne de début de la nouvelle plage.|
 | start_column | int | Index de colonne de début de la nouvelle plage.|

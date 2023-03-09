@@ -18,12 +18,12 @@ def copy_rows(self, source_cells, source_row_index, destination_row_index, row_n
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_row_index | int | Индекс исходной строки.|
 | destination_row_index | int | Индекс строки назначения.|
-| row_number | int | Скопированный номер строки.|
+| row_number | int | Скопированные номера строк.|
 
 
 ##  copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options) {#Cells-int-int-int-CopyOptions}
@@ -37,12 +37,12 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_row_index | int | Индекс исходной строки.|
 | destination_row_index | int | Индекс строки назначения.|
-| row_number | int | Скопированный номер строки.|
+| row_number | int | Скопированные номера строк.|
 | copy_options | [CopyOptions](/cells/ru/python-net/aspose.cells/copyoptions) | Варианты копирования.|
 
 
@@ -57,12 +57,12 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_row_index | int | Индекс исходной строки.|
 | destination_row_index | int | Индекс строки назначения.|
-| row_number | int | Скопированный номер строки.|
+| row_number | int | Скопированные номера строк.|
 | copy_options | [CopyOptions](/cells/ru/python-net/aspose.cells/copyoptions) | Варианты копирования.|
 | paste_options | [PasteOptions](/cells/ru/python-net/aspose.cells/pasteoptions) | варианты оклейки.|
 

@@ -18,7 +18,7 @@ def put_value(self, bool_value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | bool_value | bool |  |
 
@@ -34,7 +34,7 @@ def put_value(self, int_value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | int_value | int | Ingångsvärde|
 
@@ -50,7 +50,7 @@ def put_value(self, double_value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | double_value | float | Ingångsvärde|
 
@@ -66,7 +66,7 @@ def put_value(self, string_value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | string_value | str | Ingångsvärde|
 
@@ -82,7 +82,7 @@ def put_value(self, date_time):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | date_time | DateTime | Ingångsvärde|
 
@@ -98,7 +98,7 @@ def put_value(self, object_value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | object_value | any | ingångsvärde|
 
@@ -114,7 +114,7 @@ def put_value(self, string_value, is_converted):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | string_value | str | Ingångsvärde|
 | is_converted | bool | Sant: konverteras till annan datatyp om så är lämpligt.|
@@ -131,7 +131,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | string_value | str | Ingångsvärde|
 | is_converted | bool | Sant: konverteras till annan datatyp om så är lämpligt.|

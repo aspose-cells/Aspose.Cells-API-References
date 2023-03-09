@@ -22,7 +22,7 @@ def get_icon_image_data(self, type, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [IconSetType](/cells/ar/python-net/aspose.cells/iconsettype) | نوع الرمز|
 | index | int | فهرس الأيقونة|

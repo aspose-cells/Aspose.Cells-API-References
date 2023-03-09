@@ -27,9 +27,9 @@ Typen ExceptionType avslöjar följande medlemmar:
 | INVALID_OPERATOR | Ogiltig operatör.|
 | INCORRECT_PASSWORD | Fel lösenord.|
 | LICENSE | Licensrelaterade fel.|
-| LIMITATION | Av MS Excel-begränsningsfel.|
+| LIMITATION |Av MS Excel-begränsningsfel.|
 | PAGE_SETUP | Ogiltig inställning för sidinställningar.|
-| PIVOT_TABLE | Ogiltig pivottabellinställning.|
+| PIVOT_TABLE | Ogiltig inställning för pivottabell.|
 | SHAPE | Ogiltig inställning för ritobjekt.|
 | SPARKLINE | Ogiltig inställning för sparkline-objekt.|
 | SHEET_NAME | Ogiltigt kalkylbladsnamn.|
@@ -37,7 +37,7 @@ Typen ExceptionType avslöjar följande medlemmar:
 | INTERRUPTED | Processen avbryts.|
 | IO | Filen är ogiltig.|
 | PERMISSION | Tillstånd krävs för att öppna den här filen.|
-| UNSUPPORTED_FEATURE | Funktionen stöds inte.|
+| UNSUPPORTED_FEATURE | Funktioner som inte stöds.|
 | UNSUPPORTED_STREAM | Ström som inte stöds ska öppnas.|
 | UNDISCLOSED_INFORMATION | Filer innehåller en del hemlig information.|
 | FILE_CORRUPTED | Filinnehållet är skadat.|

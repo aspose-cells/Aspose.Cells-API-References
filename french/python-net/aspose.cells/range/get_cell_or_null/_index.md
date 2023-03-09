@@ -22,10 +22,10 @@ def get_cell_or_null(self, row_offset, column_offset):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row_offset | int | Décalage de ligne dans cette plage, basé sur zéro.|
-| column_offset | int | Décalage de colonne dans cette plage, basé sur zéro.|
+| column_offset | int |Décalage de colonne dans cette plage, basé sur zéro.|
 
 
 

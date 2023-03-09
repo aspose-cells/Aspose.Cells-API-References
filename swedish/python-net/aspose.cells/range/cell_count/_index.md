@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  cell_count fastighet
 
-Får allt cellantal i intervallet.
+Får alla cellantal i intervallet.
 
 ###  Anmärkningar
 
  OBS: Den här egenskapen är nu föråldrad.
 Använd istället RowCount och ColumnCount för att få totalt antal celler.
-Den här egenskapen kommer att tas bort 12 månader senare sedan februari 2021.
+ Den här egenskapen kommer att tas bort 12 månader senare sedan februari 2021.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:
 ```python

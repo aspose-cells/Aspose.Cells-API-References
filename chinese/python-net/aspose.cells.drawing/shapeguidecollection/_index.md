@@ -1,13 +1,13 @@
 ﻿---
 title: ShapeGuideCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 560
 url: /zh/python-net/aspose.cells.drawing/shapeguidecollection/
 is_root: false
 ---
-##  ShapeGuideCollection类
+## ShapeGuideCollection类
 封装形状指南的集合
 
 

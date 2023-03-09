@@ -1,13 +1,13 @@
 ﻿---
 title: CrossType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 460
 url: /zh/python-net/aspose.cells.charts/crosstype/
 is_root: false
 ---
-##  CrossType枚举
+## CrossType枚举
 表示轴交叉类型。
 
 

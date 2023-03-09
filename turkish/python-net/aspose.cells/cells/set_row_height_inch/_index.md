@@ -18,10 +18,10 @@ def set_row_height_inch(self, row, inches):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
-| inches | float | İnç sayısı. 0 ile 409.5/72 arasında olmalıdır.|
+| inches | float | İnç sayısı 0 ile 409,5/72 arasında olmalıdır.|
 
 
 

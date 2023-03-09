@@ -18,7 +18,7 @@ def move_to(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Hedef sayfa dizini.|
 

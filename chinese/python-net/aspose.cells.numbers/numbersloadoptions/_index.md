@@ -1,13 +1,13 @@
 ﻿---
 title: NumbersLoadOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.numbers/numbersloadoptions/
 is_root: false
 ---
-##  NumbersLoadOptions类
+## NumbersLoadOptions类
 表示加载 Apple Numbers 文件的选项。
 
 
@@ -40,8 +40,8 @@ NumbersLoadOptions 类型公开了以下成员：
 | [interrupt_monitor](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/interrupt_monitor) |获取和设置中断监视器。|
 | [ignore_not_printed](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/ignore_not_printed) |直接打印文件忽略不打印的数据|
 | [check_data_valid](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/check_data_valid) |检查模板文件中的数据是否有效。|
-| [check_excel_restriction](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/check_excel_restriction) |用户修改单元格相关对象时是否检查excel文件的限制。<br/>例如，excel 不允许输入超过 32K 的字符串值。<br/>当您输入一个大于 32K 的值时，例如 Cell.PutValue(string)，如果此属性为真，您将得到一个异常。<br/>如果此属性为 false，我们将接受您输入的字符串值作为单元格的值，以便稍后<br/>您可以输出其他文件格式的完整字符串值，例如 CSV。<br/>但是，如果您设置了这种对 excel 文件格式无效的值，<br/>您以后不应将工作簿另存为 excel 文件格式。否则生成的excel文件可能会出现意外错误。|
-| [keep_unparsed_data](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/keep_unparsed_data) |从模板文件加载工作簿时，是否将未解析的数据保留在内存中。默认为真。|
+| [check_excel_restriction](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/check_excel_restriction) |用户修改单元格相关对象时是否检查excel文件的限制。<br/>例如，excel 不允许输入超过 32K 的字符串值。<br/>当您输入一个大于 32K 的值时，例如 Cell.PutValue(string)，如果此属性为真，您将得到一个异常。<br/>如果此属性为 false，我们将接受您输入的字符串值作为单元格的值，以便稍后<br/>您可以输出其他文件格式的完整字符串值，例如 CSV。<br/>但是，如果您设置了这种对 excel 文件格式无效的值，<br/>您以后不应将工作簿另存为 excel 文件格式。|
+| [keep_unparsed_data](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/keep_unparsed_data) |从模板文件加载时是否将未解析的数据保留在内存中，默认为true。|
 | [load_filter](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/load_filter) |表示如何加载数据的过滤器。|
 | [light_cells_data_handler](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/light_cells_data_handler) |读取模板文件时处理单元格数据的数据处理器。|
 | [memory_setting](/cells/zh/python-net/aspose.cells.numbers/numbersloadoptions/memory_setting) |获取或设置内存使用选项。|

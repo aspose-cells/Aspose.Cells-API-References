@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/pagesetup/set_picture/
 is_root: false
 ---
 ##  set_picture(is_first, is_even, is_header, section, image_data) {#bool-bool-bool-int-bytes}
-Establece una imagen en el encabezado/pie de página de una hoja de trabajo.
+Establece una imagen en el encabezado/pie de página de una hoja de cálculo.
 
 
 ###  Devoluciones
@@ -22,12 +22,12 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | is_first | bool | Indica si se configura la imagen del encabezado/pie de página de la primera página.|
 | is_even | bool | Indica si se configura la imagen del encabezado/pie de página par.|
 | is_header | bool | Indica si se configura la imagen del encabezado/pie de página.|
-| section | int |0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
+| section | int | 0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
 | image_data | bytes | Datos de imagen.|
 
 

@@ -18,7 +18,7 @@ def __init__(self, workbook, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/sv/python-net/aspose.cells/workbook) | Ange vilken arbetsbok som ska skrivas ut.|
 | options | [ImageOrPrintOptions](/cells/sv/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions innehåller en viss egenskap för utdata|

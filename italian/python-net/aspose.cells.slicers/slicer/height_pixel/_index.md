@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta l'altezza dell'affettatrice specificata, in pixel.
 
-###  Esempio
+###  Esempi
 
 ```python
 

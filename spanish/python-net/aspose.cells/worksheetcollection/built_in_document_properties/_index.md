@@ -13,7 +13,7 @@ Devuelve una colección [DocumentProperty](/cells/es/python-net/aspose.cells.pro
 
 ###  Observaciones
 
-No se puede agregar una nueva propiedad a la lista de propiedades del documento integrado. Solo puede obtener una propiedad incorporada y cambiar su valor.
+No se puede agregar una nueva propiedad a la lista de propiedades del documento integrado.
 La siguiente es la lista de nombres de propiedades incorporadas:
 
 Título
@@ -22,7 +22,7 @@ Título
 Sujeto
 
 
-Autor
+autor
 
 
 Palabras clave
@@ -73,7 +73,7 @@ Categoría
 Formato
 
 
-Gerente
+gerente
 
 
 Compañía

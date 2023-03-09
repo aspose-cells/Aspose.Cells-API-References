@@ -18,7 +18,7 @@ def group_columns(self, first_index, last_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_index | int | Gruplanacak ilk sütun dizini.|
 | last_index | int | Gruplanacak son sütun dizini.|
@@ -35,7 +35,7 @@ def group_columns(self, first_index, last_index, is_hidden):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_index | int | Gruplanacak ilk sütun dizini.|
 | last_index | int | Gruplanacak son sütun dizini.|

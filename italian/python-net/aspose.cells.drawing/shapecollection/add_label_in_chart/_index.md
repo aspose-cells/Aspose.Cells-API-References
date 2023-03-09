@@ -22,11 +22,11 @@ def add_label_in_chart(self, top, left, height, width):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | top | int | Rappresenta l'offset verticale dell'etichetta dall'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|
 | left | int | Rappresenta l'offset verticale dell'etichetta dall'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|
-| height | int |Rappresenta l'altezza dell'etichetta, in unità di 1/4000 dell'area del grafico.|
+| height | int | Rappresenta l'altezza dell'etichetta, in unità di 1/4000 dell'area del grafico.|
 | width | int | Rappresenta la larghezza dell'etichetta, in unità di 1/4000 dell'area del grafico.|
 
 

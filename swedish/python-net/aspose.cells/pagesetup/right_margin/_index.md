@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin fastighet
 
-Representerar storleken på den högra marginalen, i centimeterenhet.
+Representerar storleken på den högra marginalen, i enheter av centimeter.
 ###  Definition:
 ```python
 @property

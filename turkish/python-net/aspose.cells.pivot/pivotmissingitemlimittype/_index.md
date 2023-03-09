@@ -19,7 +19,7 @@ PivotMissingItemLimitType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | AUTOMATIC | İzin verilen PivotField başına varsayılan benzersiz öğe sayısı.|
 | MAX | İzin verilen PivotField başına maksimum benzersiz öğe sayısı (>32.500).|
-| NONE |PivotField başına benzersiz öğelere izin verilmez.|
+| NONE | PivotField başına benzersiz öğelere izin verilmez.|
 
 
 

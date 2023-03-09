@@ -15,7 +15,7 @@ is_root: false
 
 Şekil grafikteyse, şeklin top kenarlığından dikey uzaklığını temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

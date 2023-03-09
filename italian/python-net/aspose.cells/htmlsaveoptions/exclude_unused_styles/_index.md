@@ -11,7 +11,7 @@ is_root: false
 
 Indica se esclude gli stili inutilizzati.
 Per i file html generati, l'esclusione degli stili inutilizzati può ridurre le dimensioni del file
-senza influenzare gli effetti visivi. Quindi il valore predefinito di questa proprietà è true.
+senza influenzare gli effetti visivi.
 Se l'utente deve mantenere tutti gli stili nella cartella di lavoro per l'html generato (come lo scenario che user
 deve ripristinare successivamente la cartella di lavoro dall'html generato), impostare questa proprietà su false.
 ###  Definizione:

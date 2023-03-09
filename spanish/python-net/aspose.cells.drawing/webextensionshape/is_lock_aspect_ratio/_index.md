@@ -11,7 +11,7 @@ is_root: false
 
 Verdadero significa que no permite cambios en la relación de aspecto.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

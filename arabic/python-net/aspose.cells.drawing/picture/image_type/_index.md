@@ -11,7 +11,7 @@ is_root: false
 
 يحصل على تنسيق صورة الصورة.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

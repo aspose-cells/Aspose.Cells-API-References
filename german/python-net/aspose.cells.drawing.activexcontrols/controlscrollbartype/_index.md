@@ -18,7 +18,7 @@ Der Typ ControlScrollBarType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | NONE | Zeigt keine Bildlaufleisten an.|
-| HORIZONTAL |Zeigt eine horizontale Bildlaufleiste an.|
+| HORIZONTAL | Zeigt eine horizontale Bildlaufleiste an.|
 | BARS_VERTICAL | Zeigt eine vertikale Bildlaufleiste an.|
 | BARS_BOTH | Zeigt sowohl eine horizontale als auch eine vertikale Bildlaufleiste an.|
 

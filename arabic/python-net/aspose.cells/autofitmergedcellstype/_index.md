@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/autofitmergedcellstype/
 is_root: false
 ---
 ##  العد AutoFitMergedCellsType
-يمثل نوع الخلايا المدمجة ذات الملاءمة التلقائية.
+يمثل نوع الخلايا المدمجة ذات الضبط التلقائي.
 
 
 
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | NONE | تجاهل الخلايا المدمجة.|
 | FIRST_LINE | يوسع ارتفاع الصف الأول فقط.|
-| LAST_LINE | يوسع ارتفاع الصف الأخير فقط.|
+| LAST_LINE |يوسع ارتفاع الصف الأخير فقط.|
 | EACH_LINE | يوسع ارتفاع كل صف فقط.|
 
 

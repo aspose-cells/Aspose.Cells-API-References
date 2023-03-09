@@ -18,7 +18,7 @@ Typen TableStyleElement avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [size](/cells/sv/python-net/aspose.cells.tables/tablestyleelement/size) | Antal rader eller kolumner i ett enda band av ränder.<br/> Gäller endast när typen är firstRowStripe, secondRowStripe, firstColumnStripe eller secondColumnStripe.|
-| [type](/cells/sv/python-net/aspose.cells.tables/tablestyleelement/type) |Hämtar elementtypen.|
+| [type](/cells/sv/python-net/aspose.cells.tables/tablestyleelement/type) | Hämtar elementtypen.|
 
 
 ###  Metoder

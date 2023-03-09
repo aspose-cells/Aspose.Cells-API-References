@@ -1,13 +1,13 @@
 ﻿---
 title: CommentShape类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 130
 url: /zh/python-net/aspose.cells.drawing/commentshape/
 is_root: false
 ---
-##  CommentShape类
+## CommentShape类
 表示评论的形状。
 
 

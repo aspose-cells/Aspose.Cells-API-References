@@ -18,7 +18,7 @@ Der Typ ControlScrollOrientation macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | AUTO | Das Steuerelement wird horizontal gerendert, wenn die Breite des Steuerelements größer als seine Höhe ist.<br/> Andernfalls wird die Steuerung vertikal gerendert.|
-| VERTICAL | Die Steuerung wird vertikal gerendert.|
+| VERTICAL |Steuerelemente werden vertikal gerendert.|
 | HORIZONTAL | Die Steuerung wird horizontal gerendert.|
 
 

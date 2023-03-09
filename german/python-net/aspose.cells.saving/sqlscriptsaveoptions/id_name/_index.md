@@ -13,7 +13,7 @@ Ruft den Namen der ID-Spalte ab und legt ihn fest.
 
 ###  Bemerkungen
 
-Wenn diese Eigenschaft gesetzt ist, wird eine Spalte mit automatisch inkrementiertem Int-Wert eingefügt.
+Wenn diese Eigenschaft gesetzt ist, wird eine Spalte mit einem automatisch inkrementierten Int-Wert eingefügt.
 ###  Definition:
 ```python
 @property

@@ -19,19 +19,19 @@ Il tipo Top10 espone i membri seguenti:
 ###  Costruttori
 | Costruttore| Descrizione|
 | :- | :- |
-| [Top10()](/cells/it/python-net/aspose.cells/top10/__init__/#) | Costruisce una nuova istanza di Top10|
+| [Top10()](/cells/it/python-net/aspose.cells/top10/__init__/#) |Costruisce una nuova istanza di Top10|
 
 
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [is_percent](/cells/it/python-net/aspose.cells/top10/is_percent) | Ottenere o impostare se una regola "top/bottom n" è una regola "top/bottom n percent".<br/> Il valore predefinito è falso.|
-| [is_bottom](/cells/it/python-net/aspose.cells/top10/is_bottom) | Ottieni o imposta se una regola "top/bottom n" è una regola "bottom n".<br/> Il valore predefinito è falso.|
+| [is_percent](/cells/it/python-net/aspose.cells/top10/is_percent) | Ottenere o impostare se una regola "top/bottom n" è una regola "top/bottom n percent".<br/> Il valore predefinito è false.|
+| [is_bottom](/cells/it/python-net/aspose.cells/top10/is_bottom) | Ottieni o imposta se una regola "top/bottom n" è una regola "bottom n".<br/> Il valore predefinito è false.|
 | [rank](/cells/it/python-net/aspose.cells/top10/rank) | Ottieni o imposta il valore di "n" in una regola di formattazione condizionale "n superiore/inferiore".<br/>Se IsPercent è vero, il valore deve essere compreso tra 0 e 100.<br/>Altrimenti deve essere compreso tra 0 e 1000.<br/> Il valore predefinito è 10.|
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

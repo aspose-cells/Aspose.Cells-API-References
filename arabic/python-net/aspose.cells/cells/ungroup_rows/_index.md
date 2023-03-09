@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/ungroup_rows/
 is_root: false
 ---
 ##  ungroup_rows(first_index, last_index) {#int-int}
-يفك تجميع الصفوف.
+فك تجميع الصفوف.
 
 
 
@@ -18,7 +18,7 @@ def ungroup_rows(self, first_index, last_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | first_index | int | فهرس الصف الأول المراد فك تجميعه.|
 | last_index | int | فهرس الصف الأخير المراد فك تجميعه.|
@@ -28,7 +28,7 @@ def ungroup_rows(self, first_index, last_index):
 
 ##  ungroup_rows(first_index, last_index, is_all) {#int-int-bool}
 
-يفك تجميع الصفوف.
+فك تجميع الصفوف.
 
 
 
@@ -38,7 +38,7 @@ def ungroup_rows(self, first_index, last_index, is_all):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | first_index | int | فهرس الصف الأول المراد فك تجميعه.|
 | last_index | int | فهرس الصف الأخير المراد فك تجميعه.|

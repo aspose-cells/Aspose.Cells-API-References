@@ -22,12 +22,12 @@ El tipo ReflectionEffectType expone los siguientes miembros:
 | TIGHT_REFLECTION_TOUCHING | Apretado reflejo, conmovedor.|
 | HALF_REFLECTION_TOUCHING | Medio reflejo, conmovedor.|
 | FULL_REFLECTION_TOUCHING | Plena reflexión, conmovedora.|
-| TIGHT_REFLECTION_4_PT_OFFSET | Reflexión estrecha, compensación de 4 pt.|
-| HALF_REFLECTION_4_PT_OFFSET | Medio reflejo, compensación de 4 pt.|
-| FULL_REFLECTION_4_PT_OFFSET | Reflexión completa, compensación de 4 pt.|
-| TIGHT_REFLECTION_8_PT_OFFSET | Reflexión ajustada, compensación de 8 pt.|
-| HALF_REFLECTION_8_PT_OFFSET | Medio reflejo, compensación de 8 pt.|
-| FULL_REFLECTION_8_PT_OFFSET | Reflexión completa, compensación de 8 pt.|
+| TIGHT_REFLECTION_4_PT_OFFSET | Reflexión estrecha, compensación de 4 puntos.|
+| HALF_REFLECTION_4_PT_OFFSET | Media reflexión, compensación de 4 puntos.|
+| FULL_REFLECTION_4_PT_OFFSET | Reflexión completa, compensación de 4 puntos.|
+| TIGHT_REFLECTION_8_PT_OFFSET | Reflexión estrecha, compensación de 8 puntos.|
+| HALF_REFLECTION_8_PT_OFFSET | Medio reflejo, compensación de 8 puntos.|
+| FULL_REFLECTION_8_PT_OFFSET |Reflexión completa, compensación de 8 puntos.|
 
 
 

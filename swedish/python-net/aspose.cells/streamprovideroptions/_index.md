@@ -25,8 +25,8 @@ Typen StreamProviderOptions avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [resource_loading_type](/cells/sv/python-net/aspose.cells/streamprovideroptions/resource_loading_type) | Hämtar och ställer in typen av laddningsresurs.|
-| [default_path](/cells/sv/python-net/aspose.cells/streamprovideroptions/default_path) | Standardsökvägen (URL) sparad i genererad html-fil för den refererade källan.<br/>Till exempel, arkdata som sparats i xxx_files/sheet001.htm, webbadressen som används i html-huvudfilen ska vara som "src="xxx_files/sheet001.htm""|
-| [custom_path](/cells/sv/python-net/aspose.cells/streamprovideroptions/custom_path) | Användarens anpassade sökväg (URL) sparad i genererad html-fil för den refererade källan. Om det inte är definierat av användaren kommer DefaultPath att användas.<br/> Till exempel kommer arkdata att sparas av användaren till d:/sheet001.htm, webbadressen som används i huvud-html-filen ska vara "d:/sheet001.htm" eller annan giltig relativ sökväg som kan nås av huvud-html fil.|
+| [default_path](/cells/sv/python-net/aspose.cells/streamprovideroptions/default_path) | Standardsökvägen (URL) sparad i genererad html-fil för den refererade källan.<br/> Till exempel, arkdata som sparats i xxx_files/sheet001.htm, webbadressen som används i html-huvudfilen ska vara som "src="xxx_files/sheet001.htm""|
+| [custom_path](/cells/sv/python-net/aspose.cells/streamprovideroptions/custom_path) | Användarens anpassade sökväg (URL) sparad i genererad html-fil för den refererade källan.<br/> Till exempel kommer arkdata att sparas av användaren till d:/sheet001.htm, webbadressen som används i huvud-html-filen ska vara "d:/sheet001.htm" eller annan giltig relativ sökväg som kan nås av huvud-html fil.|
 | [stream](/cells/sv/python-net/aspose.cells/streamprovideroptions/stream) | Hämtar/ställer in strömmen|
 
 

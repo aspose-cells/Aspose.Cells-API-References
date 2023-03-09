@@ -22,7 +22,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/ar/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Ctor.|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/ar/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | مخرج.|
 
 
 ###  ملكيات

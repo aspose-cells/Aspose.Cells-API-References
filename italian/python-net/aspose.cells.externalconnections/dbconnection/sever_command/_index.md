@@ -12,7 +12,7 @@ is_root: false
  Specifica una seconda stringa di testo del comando che viene mantenuta quando la tabella pivot è basata sul server
  i campi della pagina sono in uso.
  Per le connessioni ODBC, serverCommand è in genere una query più ampia rispetto a command (no
-La clausola WHERE è presente nella prima). Sulla base di questi 2 comandi (Command e ServerCommand),
+La clausola WHERE è presente nella prima).
 l'interfaccia utente dei parametri può essere popolata e possono essere costruite query con parametri
 ###  Definizione:
 ```python

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type fastighet
 
-Hämtar PivotFields type.
+Hämtar pivotfälten type.
 ###  Definition:
 ```python
 @property

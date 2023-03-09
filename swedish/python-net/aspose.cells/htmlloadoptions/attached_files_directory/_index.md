@@ -13,7 +13,7 @@ Mappen som de bifogade filerna kommer att sparas i.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
 använd egenskapen HtmlLoadOptions.StreamProvider.
  Den här egenskapen kommer att tas bort 12 månader senare sedan december 2014.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

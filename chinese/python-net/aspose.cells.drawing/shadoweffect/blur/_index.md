@@ -1,6 +1,6 @@
 ﻿---
 title: blur 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## blur 属性
 
-获取和设置影子的 blur。范围从 0 到 100 分。
+获取和设置阴影的blur。范围从0到100点。
 ### 定义：
 ```python
 @property

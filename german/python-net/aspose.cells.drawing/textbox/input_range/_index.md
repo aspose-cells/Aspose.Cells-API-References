@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Arbeitsblattbereich ab, der zum Füllen des angegebenen Kombinationsfelds verwendet wird, oder legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

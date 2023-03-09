@@ -17,7 +17,7 @@ is_root: false
 | [CheckBoxActiveXControl](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol) | يمثل عنصر تحكم CheckBox ActiveX.|
 | [ComboBoxActiveXControl](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol) | يمثل عنصر تحكم ActiveX في ComboBox.|
 | [CommandButtonActiveXControl](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol) | يمثل زر الأمر.|
-| [ImageActiveXControl](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol) | يمثل التحكم في الصورة.|
+| [ImageActiveXControl](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol) |يمثل التحكم في الصورة.|
 | [LabelActiveXControl](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol) | يمثل عنصر تحكم ActiveX التسمية.|
 | [ListBoxActiveXControl](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol) | يمثل عنصر تحكم ListBox ActiveX.|
 | [RadioButtonActiveXControl](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol) | يمثل عنصر تحكم RadioButton ActiveX.|
@@ -29,21 +29,21 @@ is_root: false
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
 | [ActiveXPersistenceType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/activexpersistencetype) | يمثل أسلوب الثبات لاستمرار عنصر تحكم ActiveX.|
 | [ControlBorderType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlbordertype) | يمثل نوع حد عنصر تحكم ActiveX.|
 | [ControlCaptionAlignmentType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlcaptionalignmenttype) | يمثل موضع التسمية التوضيحية بالنسبة لعنصر التحكم.|
 | [ControlListStyle](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlliststyle) | يمثل المظهر المرئي للقائمة في ListBox أو ComboBox.|
 | [ControlMatchEntryType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlmatchentrytype) | يمثل كيفية قيام ListBox أو ComboBox بالبحث في قائمته عند كتابة المستخدم.|
-| [ControlMousePointerType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlmousepointertype) |يمثل نوع الرمز المعروض كمؤشر الماوس لعنصر التحكم.|
+| [ControlMousePointerType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlmousepointertype) | يمثل نوع الرمز المعروض كمؤشر الماوس لعنصر التحكم.|
 | [ControlPictureAlignmentType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlpicturealignmenttype) | يمثل محاذاة الصورة داخل النموذج أو الصورة.|
 | [ControlPicturePositionType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlpicturepositiontype) | يمثل موقع صورة عنصر التحكم بالنسبة إلى التسمية التوضيحية الخاصة به.|
-| [ControlPictureSizeMode](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlpicturesizemode) | يمثل كيفية عرض الصورة.|
+| [ControlPictureSizeMode](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlpicturesizemode) |يمثل كيفية عرض الصورة.|
 | [ControlScrollBarType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlscrollbartype) | يمثل نوع شريط التمرير.|
 | [ControlScrollOrientation](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlscrollorientation) | يمثل نوع اتجاه التمرير|
 | [ControlSpecialEffectType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype) | يمثل نوع التأثير الخاص.|
-| [ControlType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controltype) | يمثل كل أنواع عناصر تحكم ActiveX.|
+| [ControlType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controltype) | يمثل جميع أنواع عناصر تحكم ActiveX.|
 | [DropButtonStyle](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/dropbuttonstyle) | يمثل الرمز المعروض على زر الإسقاط.|
 | [InputMethodEditorMode](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/inputmethodeditormode) | يمثل وضع وقت التشغيل الافتراضي لمحرر أسلوب الإدخال.|
 | [ShowDropButtonType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/showdropbuttontype) | يحدد متى يتم إظهار زر الإسقاط|

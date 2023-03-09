@@ -18,11 +18,11 @@ def set_gradient(self, type, angle, direction):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [GradientFillType](/cells/fr/python-net/aspose.cells.drawing/gradientfilltype) | Type de remplissage dégradé.|
 | angle | float | L'angle. S'applique uniquement à GradientFillType.Linear.|
-| direction | [GradientDirectionType](/cells/fr/python-net/aspose.cells.drawing/gradientdirectiontype) | Le type d'orientation. S'applique uniquement à GradientFillType.Radial et GradientFillType.Rectangle.|
+| direction | [GradientDirectionType](/cells/fr/python-net/aspose.cells.drawing/gradientdirectiontype) |Type de direction. S'applique uniquement à GradientFillType.Radial et GradientFillType.Rectangle.|
 
 
 

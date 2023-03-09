@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transparency proprietà
 
-Ottiene e imposta il grado transparency dell'effetto bagliore. Intervallo da 0,0 (opaco) a 1,0 (trasparente).
+Ottiene e imposta il grado di transparency dell'effetto bagliore.Intervallo da 0,0 (opaco) a 1,0 (trasparente).
 ###  Definizione:
 ```python
 @property

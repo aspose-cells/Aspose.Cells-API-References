@@ -11,7 +11,7 @@ is_root: false
 
 Indica se è possibile allegare commenti.
 
-###  Esempio
+###  Esempi
 
 ```python
 

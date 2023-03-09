@@ -13,7 +13,7 @@ Fügt dem Arbeitsblatt eine Beschriftung hinzu.
 
 ###  Kehrt zurück
 
-Ein Label-Objekt.
+Ein Etikettenobjekt.
 
 
 ```python
@@ -26,12 +26,12 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz von Label von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Repräsentiert den horizontalen Versatz von Label von seiner linken Spalte in Pixeleinheiten.|
 | height | int | Repräsentiert die Höhe von Label in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite von Label in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

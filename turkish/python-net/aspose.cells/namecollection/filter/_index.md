@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/namecollection/filter/
 is_root: false
 ---
 ##  filter(type, sheet_index) {#NameScopeType-int}
-Tanımlanan tüm adı kapsama göre alır.
+Tanımlanan tüm adları kapsama göre alır.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def filter(self, type, sheet_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [NameScopeType](/cells/tr/python-net/aspose.cells/namescopetype) | Kapsam türü.|
 | sheet_index | int | Sayfa dizini.<br/>Yalnızca kapsam türü [NameScopeType.WORKSHEET](/cells/tr/python-net/aspose.cells/namescopetype#WORKSHEET) olduğunda etkiler |

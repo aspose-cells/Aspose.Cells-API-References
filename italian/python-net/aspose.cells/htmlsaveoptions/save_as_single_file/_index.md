@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  save_as_single_file proprietà
 
-Indica se salvare l'html come singolo file.
+Indica se salvare l'html come un singolo file.
 Il valore predefinito è falso.
 
 ###  Osservazioni
 
 Se sono presenti più fogli di lavoro o altre risorse necessarie come immagini nella cartella di lavoro,
- comunemente quei fogli di lavoro e altre risorse devono essere salvati in file separati.
+Di solito quei fogli di lavoro e altre risorse devono essere salvati in file separati.
 Per alcuni scenari, l'utente potrebbe aver bisogno di ottenere un solo file risultante, ad esempio per comodità di trasferimento.
 In tal caso, l'utente può impostare questa proprietà come true.
 ###  Definizione:

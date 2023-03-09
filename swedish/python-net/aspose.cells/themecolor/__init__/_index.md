@@ -18,7 +18,7 @@ def __init__(self, type, tint):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/sv/python-net/aspose.cells/themecolortype) | Tematypen.|
 | tint | float | Nyansvärdet.|

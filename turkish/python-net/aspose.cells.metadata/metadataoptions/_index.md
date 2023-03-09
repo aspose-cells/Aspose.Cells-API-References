@@ -1,5 +1,5 @@
 ﻿---
-title: MetadataOptions sınıf
+title: MetadataOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /tr/python-net/aspose.cells.metadata/metadataoptions/
 is_root: false
 ---
-##  MetadataOptions sınıf
+##  MetadataOptions sınıfı
 Dosyanın meta verilerini yükleme seçeneklerini temsil eder.
 
 
@@ -17,7 +17,7 @@ MetadataOptions türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [MetadataOptions(metadata_type)](/cells/tr/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Meta verileri yükleme seçeneklerini oluşturur.|
+| [MetadataOptions(metadata_type)](/cells/tr/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Meta verileri yükleme seçeneği oluşturur.|
 
 
 ###  Özellikler

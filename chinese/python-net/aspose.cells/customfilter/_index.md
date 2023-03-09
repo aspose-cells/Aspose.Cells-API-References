@@ -1,13 +1,13 @@
 ﻿---
 title: CustomFilter类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 370
 url: /zh/python-net/aspose.cells/customfilter/
 is_root: false
 ---
-##  CustomFilter类
+## CustomFilter类
 表示自定义筛选器。
 
 

@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cell/get_width_of_value/
 is_root: false
 ---
 ##  get_width_of_value() {#}
-الحصول على عرض القيمة بوحدة البكسل.
+الحصول على عرض القيمة بوحدات البكسل.
 
 
 ###  عائدات

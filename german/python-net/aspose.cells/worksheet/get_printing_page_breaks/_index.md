@@ -24,7 +24,7 @@ def get_printing_page_breaks(self, options):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| options | aspose.cells.rendering.ImageOrPrintOptions |Die Druckoptionen|
+| options | aspose.cells.rendering.ImageOrPrintOptions | Die Druckoptionen|
 ###  Bemerkungen
 
 Jeder Zellbereich repräsentiert ein Papier.

@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Signaturzeile ab und legt sie fest
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

@@ -22,11 +22,11 @@ Il tipo ErrorBar espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [compound_type](/cells/it/python-net/aspose.cells.charts/errorbar/compound_type) |Specifica il tipo di linea composta|
+| [compound_type](/cells/it/python-net/aspose.cells.charts/errorbar/compound_type) | Specifica il tipo di linea composta|
 | [dash_type](/cells/it/python-net/aspose.cells.charts/errorbar/dash_type) | Specifica il tipo di linea tratteggiata|
 | [cap_type](/cells/it/python-net/aspose.cells.charts/errorbar/cap_type) | Specifica le maiuscole finali.|
 | [join_type](/cells/it/python-net/aspose.cells.charts/errorbar/join_type) | Specifica le estremità di giunzione.|
-| [begin_type](/cells/it/python-net/aspose.cells.charts/errorbar/begin_type) | Specifica una freccia per l'inizio di una riga.|
+| [begin_type](/cells/it/python-net/aspose.cells.charts/errorbar/begin_type) |Specifica una freccia per l'inizio di una riga.|
 | [end_type](/cells/it/python-net/aspose.cells.charts/errorbar/end_type) | Specifica una freccia per la fine di una riga.|
 | [begin_arrow_length](/cells/it/python-net/aspose.cells.charts/errorbar/begin_arrow_length) | Specifica la lunghezza della punta della freccia per l'inizio di una riga.|
 | [end_arrow_length](/cells/it/python-net/aspose.cells.charts/errorbar/end_arrow_length) | Specifica la lunghezza della punta della freccia per la fine di una riga.|
@@ -40,11 +40,11 @@ Il tipo ErrorBar espone i membri seguenti:
 | [weight_pt](/cells/it/python-net/aspose.cells.charts/errorbar/weight_pt) | Ottiene o imposta lo spessore della linea in unità di punti.|
 | [weight_px](/cells/it/python-net/aspose.cells.charts/errorbar/weight_px) | Ottiene o imposta lo spessore della linea in unità di pixel.|
 | [formatting_type](/cells/it/python-net/aspose.cells.charts/errorbar/formatting_type) | Ottiene o imposta il tipo di formato.|
-| [is_automatic_color](/cells/it/python-net/aspose.cells.charts/errorbar/is_automatic_color) |Indica se il colore della linea è assegnato automaticamente.|
+| [is_automatic_color](/cells/it/python-net/aspose.cells.charts/errorbar/is_automatic_color) | Indica se il colore della linea viene assegnato automaticamente.|
 | [is_visible](/cells/it/python-net/aspose.cells.charts/errorbar/is_visible) | Indica se la linea è visibile.|
 | [is_auto](/cells/it/python-net/aspose.cells.charts/errorbar/is_auto) | Indica se questo stile di linea è assegnato automaticamente.|
 | [gradient_fill](/cells/it/python-net/aspose.cells.charts/errorbar/gradient_fill) | Rappresenta il riempimento sfumato.|
-| [type](/cells/it/python-net/aspose.cells.charts/errorbar/type) | Rappresenta il tipo di importo della barra di errore.|
+| [type](/cells/it/python-net/aspose.cells.charts/errorbar/type) |Rappresenta il tipo di importo della barra di errore.|
 | [display_type](/cells/it/python-net/aspose.cells.charts/errorbar/display_type) | Rappresenta il tipo di visualizzazione della barra di errore.|
 | [amount](/cells/it/python-net/aspose.cells.charts/errorbar/amount) | Rappresenta la quantità di barra di errore.<br/> L'importo deve essere maggiore o uguale a zero.|
 | [show_marker_t_top](/cells/it/python-net/aspose.cells.charts/errorbar/show_marker_t_top) | Indica se formattare le barre di errore con un T-top.|
@@ -53,7 +53,7 @@ Il tipo ErrorBar espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

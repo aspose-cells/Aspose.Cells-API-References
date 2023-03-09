@@ -10,7 +10,7 @@ is_root: false
 ##  leader_lines fastighet
 
  Representerar ledarlinjer på ett diagram. Ledarlinjer kopplar dataetiketter till datapunkter.
-Detta objekt är inte en samling; det finns inget objekt som representerar en enda ledarlinje.
+Det här objektet är inte en samling, det finns inget objekt som representerar en enda ledarlinje.
 ###  Definition:
 ```python
 @property

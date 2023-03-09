@@ -1,5 +1,5 @@
 ﻿---
-title: FillFormat sınıf
+title: FillFormat sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 180
 url: /tr/python-net/aspose.cells.drawing/fillformat/
 is_root: false
 ---
-##  FillFormat sınıf
+##  FillFormat sınıfı
 Bir şekil için dolgu biçimlendirmesini temsil eden nesneyi kapsüller.
 
 
@@ -17,7 +17,7 @@ FillFormat türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [type](/cells/tr/python-net/aspose.cells.drawing/fillformat/type) | Doldurma türünü alır ve ayarlar.|
+| [type](/cells/tr/python-net/aspose.cells.drawing/fillformat/type) |Doldurma türünü alır ve ayarlar.|
 | [fill_type](/cells/tr/python-net/aspose.cells.drawing/fillformat/fill_type) | Doldurma türünü alır ve ayarlar|
 | [transparency](/cells/tr/python-net/aspose.cells.drawing/fillformat/transparency) | Alanın şeffaflık derecesini 0,0 (opak) ila 1,0 (temiz) arasında bir değer olarak döndürür veya ayarlar.|
 | [set_type](/cells/tr/python-net/aspose.cells.drawing/fillformat/set_type) | Dolgu formatı set tipini alır.|
@@ -49,7 +49,7 @@ FillFormat türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

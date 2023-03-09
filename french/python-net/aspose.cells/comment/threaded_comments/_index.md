@@ -11,7 +11,7 @@ is_root: false
 
 Obtient la liste des commentaires thématiques ;
 
-###  Exemple
+###  Exemples
 
 ```python
 

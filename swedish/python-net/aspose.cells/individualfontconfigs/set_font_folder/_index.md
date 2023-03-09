@@ -18,7 +18,7 @@ def set_font_folder(self, font_folder, recursive):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | font_folder | str | Mappen som innehåller TrueType-teckensnitt.|
 | recursive | bool | Bestämmer om undermappar ska skannas eller inte.|

@@ -13,7 +13,7 @@ Indique s'il faut recalculer toutes les formules à l'ouverture du fichier.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Au lieu de cela, veuillez utiliser FormulaSettings.CalculateOnOpen.
+REMARQUE : ce membre est désormais obsolète. Utilisez plutôt FormulaSettings.CalculateOnOpen.
  Cette propriété sera supprimée 12 mois plus tard depuis février 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

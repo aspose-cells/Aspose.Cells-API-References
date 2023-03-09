@@ -1,6 +1,6 @@
 ﻿---
 title: aspose.cells.revisions
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -28,7 +28,7 @@ is_root: false
 | [RevisionLogCollection](/cells/zh/python-net/aspose.cells.revisions/revisionlogcollection) |表示所有修订日志。|
 | [RevisionMergeConflict](/cells/zh/python-net/aspose.cells.revisions/revisionmergeconflict) |表示一个修订记录，指示存在合并冲突。|
 | [RevisionQueryTable](/cells/zh/python-net/aspose.cells.revisions/revisionquerytable) |表示查询表字段更改的修订。|
-| [RevisionRenameSheet](/cells/zh/python-net/aspose.cells.revisions/revisionrenamesheet) |表示重命名工作表的修订。|
+| [RevisionRenameSheet](/cells/zh/python-net/aspose.cells.revisions/revisionrenamesheet) |表示重命名表的修订。|
 
 
 ### 枚举

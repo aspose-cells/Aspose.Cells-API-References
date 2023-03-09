@@ -1,6 +1,6 @@
 ﻿---
 title: copy_comments_in_range方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 370
@@ -18,7 +18,7 @@ def copy_comments_in_range(self, shapes, ca, dest_row, dest_column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | shapes | [ShapeCollection](/cells/zh/python-net/aspose.cells.drawing/shapecollection) |源形状。|
 | ca | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |来源范围。|

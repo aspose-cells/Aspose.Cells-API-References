@@ -60,7 +60,7 @@ Il tipo CountryCode espone i membri seguenti:
 | LEBANON | Libano|
 | JORDAN | Giordania|
 | SYRIA | Siria|
-| IRAQ |Iraq|
+| IRAQ | Iraq|
 | KUWAIT | Kuwait|
 | SAUDI | Arabia Saudita|
 | UNITED_ARAB_EMIRATES | Emirati Arabi Uniti|

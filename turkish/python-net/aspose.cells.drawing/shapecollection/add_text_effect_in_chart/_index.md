@@ -22,7 +22,7 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/tr/python-net/aspose.cells.drawing/msopresettexteffect) | mso hazır metin efekti türü.|
 | text | str | WordArt metni.|
@@ -30,8 +30,8 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 | size | int | Yazı tipi boyutu|
 | font_bold | bool | Yazı tipinin kalın olup olmadığını gösterir.|
 | font_italic | bool | Yazı tipinin italik olup olmadığını gösterir.|
-| top | int | Grafik alanının 1/4000'lik birimlerinde sol üst köşeden şeklin dikey sapmasını temsil eder.|
-| left | int | Grafik alanının 1/4000'lik birimlerinde sol üst köşeden şeklin dikey sapmasını temsil eder.|
+| top | int |Grafik alanının 1/4000'lik birimlerinde sol üst köşeden şeklin dikey sapmasını temsil eder.|
+| left | int |Grafik alanının 1/4000'lik birimlerinde sol üst köşeden şeklin dikey sapmasını temsil eder.|
 | height | int | Grafik alanının 1/4000'lik birimlerinde şeklin yüksekliğini temsil eder.|
 | width | int | Grafik alanının 1/4000'lik birimlerinde şeklin genişliğini temsil eder.|
 

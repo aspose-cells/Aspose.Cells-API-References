@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name propiedad
 
-Obtiene el título Range. Esto se usa como un descriptor, no como una definición de rango con nombre.
+Obtiene el título Range.
 ###  Definición:
 ```python
 @property

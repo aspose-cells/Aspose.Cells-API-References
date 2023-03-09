@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/externallinkcollection/
 is_root: false
 ---
 ##  ExternalLinkCollection classe
-Représente la collection de liens externes dans un classeur.
+Représente une collection de liens externes dans un classeur.
 
 
 
@@ -32,7 +32,7 @@ Obtient l'élément [ExternalLink](/cells/fr/python-net/aspose.cells/externallin
 | Méthode| Description|
 | :- | :- |
 | [add(file_name, sheet_names)](/cells/fr/python-net/aspose.cells/externallinkcollection/add/#str-list) | Ajoute un lien externe.|
-| [add(directory_type, file_name, sheet_names)](/cells/fr/python-net/aspose.cells/externallinkcollection/add/#DirectoryType-str-list) | Ajouter un lien externe .|
+| [add(directory_type, file_name, sheet_names)](/cells/fr/python-net/aspose.cells/externallinkcollection/add/#DirectoryType-str-list) | Ajouter un lien externe.|
 | [clear()](/cells/fr/python-net/aspose.cells/externallinkcollection/clear/#) | Supprime tous les liens externes.|
 | [clear(update_references_as_local)](/cells/fr/python-net/aspose.cells/externallinkcollection/clear/#bool) | Supprime tous les liens externes.|
 | [remove_at(index)](/cells/fr/python-net/aspose.cells/externallinkcollection/remove_at/#int) | Supprime le lien externe spécifié du classeur.|
@@ -40,7 +40,7 @@ Obtient l'élément [ExternalLink](/cells/fr/python-net/aspose.cells/externallin
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

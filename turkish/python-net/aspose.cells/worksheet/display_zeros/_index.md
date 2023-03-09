@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_zeros mülk
 
-Sıfır değerleri görüntüleniyorsa doğrudur.
+Sıfır değerler görüntüleniyorsa doğrudur.
 ###  Tanım:
 ```python
 @property

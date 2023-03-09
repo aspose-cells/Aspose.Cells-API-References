@@ -22,10 +22,10 @@ def convert_r1c1_formula_to_a1(self, r_1c1_formula, row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | r_1c1_formula | str | La formula r1c1.|
-| row | int |L'indice di riga della cella.|
+| row | int | L'indice di riga della cella.|
 | column | int | L'indice di colonna della cella.|
 
 

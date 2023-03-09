@@ -18,7 +18,7 @@ def add_range(self, range_object):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range_object | [Range](/cells/sv/python-net/aspose.cells/range) | Områdesobjektet kommer att finnas i cellerna|
 

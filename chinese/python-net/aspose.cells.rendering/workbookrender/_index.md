@@ -1,13 +1,13 @@
 ﻿---
 title: WorkbookRender类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 130
 url: /zh/python-net/aspose.cells.rendering/workbookrender/
 is_root: false
 ---
-##  WorkbookRender类
+## WorkbookRender类
 代表工作簿渲染。
 该类的构造函数，必须在pagesetup、cell style修改后使用。
 
@@ -32,8 +32,8 @@ WorkbookRender 类型公开了以下成员：
 | :- | :- |
 | [to_image(stream)](/cells/zh/python-net/aspose.cells.rendering/workbookrender/to_image/#io.RawIOBase) |将整个工作簿渲染为 Tiff Image 以流式传输。|
 | [to_image(filename)](/cells/zh/python-net/aspose.cells.rendering/workbookrender/to_image/#str) |将整个工作簿作为 Tiff 图像呈现到文件中。|
-| [to_image(page_index, file_name)](/cells/zh/python-net/aspose.cells.rendering/workbookrender/to_image/#int-str) |将特定页面渲染到文件中。|
-| [to_image(page_index, stream)](/cells/zh/python-net/aspose.cells.rendering/workbookrender/to_image/#int-io.RawIOBase) |将特定页面渲染到流中。|
+| [to_image(page_index, file_name)](/cells/zh/python-net/aspose.cells.rendering/workbookrender/to_image/#int-str) |将某些页面渲染到文件中。|
+| [to_image(page_index, stream)](/cells/zh/python-net/aspose.cells.rendering/workbookrender/to_image/#int-io.RawIOBase) |将某些页面呈现为流。|
 | [to_printer(printer_name)](/cells/zh/python-net/aspose.cells.rendering/workbookrender/to_printer/#str) |将工作簿渲染到打印机|
 | [to_printer(printer_name, job_name)](/cells/zh/python-net/aspose.cells.rendering/workbookrender/to_printer/#str-str) |将工作簿渲染到打印机|
 | [to_printer(printer_settings)](/cells/zh/python-net/aspose.cells.rendering/workbookrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) |将工作簿渲染到打印机|

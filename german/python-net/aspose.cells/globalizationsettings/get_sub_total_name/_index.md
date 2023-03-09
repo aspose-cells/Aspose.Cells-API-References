@@ -27,7 +27,7 @@ def get_sub_total_name(self, sub_total_type):
 | sub_total_type | aspose.cells.pivot.PivotFieldSubtotalType | Typ [PivotFieldSubtotalType](/cells/de/python-net/aspose.cells.pivot/pivotfieldsubtotaltype)|
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
 verwenden Sie bitte die Methode GlobalizationSettings.GetColumnLabelsOfPivotTable().
  Diese Property wird 12 Monate später seit Dezember 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -11,7 +11,7 @@ is_root: false
 
 Indica se l'affettatrice specificata può essere spostata o ridimensionata utilizzando l'interfaccia utente.
 
-###  Esempio
+###  Esempi
 
 ```python
 

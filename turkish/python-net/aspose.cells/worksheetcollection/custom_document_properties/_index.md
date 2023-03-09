@@ -11,7 +11,7 @@ is_root: false
 
 Elektronik tablonun tüm özel belge özelliklerini temsil eden bir [DocumentProperty](/cells/tr/python-net/aspose.cells.properties/documentproperty) koleksiyonunu döndürür.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

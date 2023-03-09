@@ -19,7 +19,7 @@ El tipo AutoFitMergedCellsType expone los siguientes miembros:
 | :- | :- |
 | NONE | Ignorar las celdas combinadas.|
 | FIRST_LINE | Solo expande la altura de la primera fila.|
-| LAST_LINE | Solo expande la altura de la última fila.|
+| LAST_LINE |Solo expande la altura de la última fila.|
 | EACH_LINE | Solo expande la altura de cada fila.|
 
 

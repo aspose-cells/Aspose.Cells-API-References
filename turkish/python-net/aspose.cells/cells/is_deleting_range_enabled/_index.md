@@ -22,10 +22,10 @@ def is_deleting_range_enabled(self, start_row, start_column, total_rows, total_c
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Aralığın başlangıç satırı dizini.|
-| start_column | int | Aralığın başlangıç sütun dizini.|
+| start_column | int |Aralığın başlangıç sütun dizini.|
 | total_rows | int | Aralıktaki satırların sayısı.|
 | total_columns | int | Aralıktaki sütunların sayısı.|
 

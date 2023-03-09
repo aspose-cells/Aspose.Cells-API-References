@@ -18,8 +18,8 @@ Il tipo Timeline espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [caption](/cells/it/python-net/aspose.cells.timelines/timeline/caption) |Restituisce o imposta la didascalia della linea temporale specificata.|
-| [name](/cells/it/python-net/aspose.cells.timelines/timeline/name) | Restituisce o imposta il nome della linea temporale specificata|
+| [caption](/cells/it/python-net/aspose.cells.timelines/timeline/caption) | Restituisce o imposta la didascalia della linea temporale specificata.|
+| [name](/cells/it/python-net/aspose.cells.timelines/timeline/name) |Restituisce o imposta il nome della linea temporale specificata|
 | [left_pixel](/cells/it/python-net/aspose.cells.timelines/timeline/left_pixel) | Restituisce o imposta l'offset orizzontale della forma della sequenza temporale dalla colonna di sinistra, in pixel.|
 | [top_pixel](/cells/it/python-net/aspose.cells.timelines/timeline/top_pixel) | Restituisce o imposta l'offset verticale della forma della sequenza temporale dalla riga superiore, in pixel.|
 | [width_pixel](/cells/it/python-net/aspose.cells.timelines/timeline/width_pixel) | Restituisce o imposta la larghezza della sequenza temporale specificata, in pixel.|
@@ -27,7 +27,7 @@ Il tipo Timeline espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellsFactory, Workbook

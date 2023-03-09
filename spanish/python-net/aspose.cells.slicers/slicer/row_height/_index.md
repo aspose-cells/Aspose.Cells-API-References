@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece la altura, en puntos, de cada fila en la segmentación de datos especificada.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

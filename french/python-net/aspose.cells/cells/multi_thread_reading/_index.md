@@ -15,11 +15,11 @@ La valeur par défaut de cette propriété est false.
 ###  Remarques
 
 S'il existe plusieurs threads pour lire simultanément les objets Row/Cell dans cette collection,
-cette propriété doit être définie sur true, sinon un résultat inattendu peut être produit.
+Cette propriété doit être définie sur true, sinon des résultats inattendus peuvent être produits.
 La prise en charge de la lecture multithread peut dégrader les performances d'accès aux objets Row/Cell de cette collection.
 Veuillez noter que certaines fonctionnalités ne peuvent pas prendre en charge la lecture multi-thread,
-telles que les valeurs de formatage (par [Cell.string_value](/cells/fr/python-net/aspose.cells/cell#string_value), [Cell.display_string_value](/cells/fr/python-net/aspose.cells/cell#display_string_value), .etc.).
-Ainsi, même si cette propriété est définie sur true, ces API peuvent toujours donner un résultat inattendu pour la lecture multi-thread.
+comme les valeurs de formatage (par [Cell.string_value](/cells/fr/python-net/aspose.cells/cell#string_value), [Cell.display_string_value](/cells/fr/python-net/aspose.cells/cell#display_string_value), .etc.).
+Ainsi, même si cette propriété est définie sur true, ces API peuvent toujours donner des résultats inattendus pour la lecture multi-thread.
 ###  Définition:
 ```python
 @property

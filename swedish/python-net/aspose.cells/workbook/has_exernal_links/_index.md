@@ -24,7 +24,7 @@ def has_exernal_links(self):
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+OBS: Denna medlem är nu föråldrad.
 använd ExternalLinkCollection.Count för att kontrollera om det finns externa länkar i denna arbetsbok.
  Denna metod kommer att tas bort 12 månader senare sedan december 2021.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

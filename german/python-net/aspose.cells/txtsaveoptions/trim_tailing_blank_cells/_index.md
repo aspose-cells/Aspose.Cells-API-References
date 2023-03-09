@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells Eigentum
 
-Gibt an, ob nachlaufende leere Zellen in einer Zeile gekürzt werden sollen. Standard ist falsch.
+Gibt an, ob nachlaufende leere Zellen in einer Zeile gekürzt werden sollen. Der Standardwert ist "false".
 
 ###  Bemerkungen
 

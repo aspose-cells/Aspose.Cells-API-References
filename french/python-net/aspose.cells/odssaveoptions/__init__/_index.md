@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) |  |
 

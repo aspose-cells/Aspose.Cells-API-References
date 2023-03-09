@@ -12,7 +12,7 @@ is_root: false
  Anger en andra kommandotextsträng som kvarstår när den är pivottabellserverbaserad
  sidfält används.
  För ODBC-anslutningar är serverCommand vanligtvis en bredare fråga än kommandot (nr
-WHERE-satsen finns i den förra). Baserat på dessa 2 kommandon (Command och ServerCommand),
+WHERE-satsen finns i den förra).
 parameter UI kan fyllas i och parameteriserade frågor kan konstrueras
 ###  Definition:
 ```python

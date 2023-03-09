@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  slicer_cache_items fastighet
 
-Returnerar en SlicerCacheItem-samling som innehåller samlingen av alla objekt i slicercachen. Skrivskyddad
+Returnerar en SlicerCacheItem-samling som innehåller samlingen av alla objekt i slicercachen.
 
 ###  Exempel
 

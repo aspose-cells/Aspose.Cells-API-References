@@ -13,7 +13,7 @@ Bunun bir alan olup olmadığını gösterir.
 
 ###  Notlar
 
-Bu bir alan değilse, yalnızca StartRow ve StartColumn efekti.
+Bu bir alan değilse, yalnızca StartRow ve StartColumn efektleri.
 ###  Tanım:
 ```python
 @property

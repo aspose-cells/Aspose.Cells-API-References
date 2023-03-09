@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | Index de base zéro de l'élément.|
 
@@ -42,7 +42,7 @@ def get(self, sheet_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sheet_name | str | Nom de la feuille de calcul|
 

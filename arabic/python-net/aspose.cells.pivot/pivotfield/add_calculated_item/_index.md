@@ -18,7 +18,7 @@ def add_calculated_item(self, name, formula):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم العنصر.|
 | formula | str | صيغة العنصر|

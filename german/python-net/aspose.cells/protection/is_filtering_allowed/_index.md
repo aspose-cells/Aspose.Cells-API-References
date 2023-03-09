@@ -13,8 +13,8 @@ Stellt dar, ob der Benutzer einen AutoFilter verwenden darf, der erstellt wurde,
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
- Bitte verwenden Sie die Protection.AllowFiltering-Eigenschaft.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ Bitte verwenden Sie die Eigenschaft "Schutz. Filtern zulassen".
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

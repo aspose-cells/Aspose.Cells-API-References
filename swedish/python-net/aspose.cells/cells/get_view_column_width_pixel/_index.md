@@ -13,7 +13,7 @@ Få bredden i olika vytyper.
 
 ###  Returnerar
 
-kolumnbredden i pixelenhet
+kolumnbredden i enheter av pixlar
 
 
 ```python
@@ -22,7 +22,7 @@ def get_view_column_width_pixel(self, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Kolumnindex.|
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  keep_unparsed_data propiedad
 
-Si mantiene los datos no analizados en la memoria para el libro de trabajo cuando se carga desde un archivo de plantilla. El valor predeterminado es verdadero.
+Si se mantienen los datos no analizados en la memoria para el libro de trabajo cuando se carga desde un archivo de plantilla. El valor predeterminado es verdadero.
 
 ###  Observaciones
 

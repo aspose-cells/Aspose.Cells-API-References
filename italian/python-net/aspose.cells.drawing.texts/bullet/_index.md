@@ -19,7 +19,7 @@ Il tipo Bullet espone i membri seguenti:
 | :- | :- |
 | [bullet_value](/cells/it/python-net/aspose.cells.drawing.texts/bullet/bullet_value) | Ottiene il valore del punto elenco|
 | [type](/cells/it/python-net/aspose.cells.drawing.texts/bullet/type) | Ottiene e imposta il tipo di punto elenco.|
-| [font_name](/cells/it/python-net/aspose.cells.drawing.texts/bullet/font_name) | Ottieni e imposta il nome del carattere.|
+| [font_name](/cells/it/python-net/aspose.cells.drawing.texts/bullet/font_name) |Ottieni e imposta il nome del carattere.|
 
 
 

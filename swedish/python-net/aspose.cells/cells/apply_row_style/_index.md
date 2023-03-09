@@ -18,11 +18,11 @@ def apply_row_style(self, row, style, flag):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Stilobjektet som kommer att tillämpas.|
-| flag | [StyleFlag](/cells/sv/python-net/aspose.cells/styleflag) | Flaggor som indikerar tillämpade formateringsegenskaper.|
+| flag | [StyleFlag](/cells/sv/python-net/aspose.cells/styleflag) |Flaggor som indikerar tillämpade formateringsegenskaper.|
 
 
 

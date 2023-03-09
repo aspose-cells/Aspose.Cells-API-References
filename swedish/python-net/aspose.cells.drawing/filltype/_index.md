@@ -19,7 +19,7 @@ Typen FillType avslöjar följande medlemmar:
 | :- | :- |
 | AUTOMATIC | Representerar automatisk formateringstyp.|
 | NONE | Representerar ingen formateringstyp.|
-| SOLID |Fast fyllningsformat.|
+| SOLID | Fast fyllningsformat.|
 | GRADIENT | Gradientfyllningsformat.|
 | TEXTURE | Texturfyllningsformat (inkluderar bildfyllning).|
 | PATTERN | Mönsterfyllningsformat.|

@@ -18,14 +18,14 @@ def format_characters(self, start_index, length, font):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_index | int | Başlangıç dizini.|
 | length | int | Uzunluk.|
-| font | [Font](/cells/tr/python-net/aspose.cells/font) |Yazı tipi ayarı.|
+| font | [Font](/cells/tr/python-net/aspose.cells/font) | Yazı tipi ayarı.|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+NOT: Bu üye artık kullanılmıyor.
 lütfen Shape.FormatCharacters(int startIndex, int length, Font font, StyleFlag flag) yöntemini kullanın.
  Bu mülk, Mart 2016'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
@@ -41,11 +41,11 @@ def format_characters(self, start_index, length, font, flag):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_index | int | Başlangıç dizini.|
 | length | int | Uzunluk.|
-| font | [Font](/cells/tr/python-net/aspose.cells/font) |Yazı tipi ayarı.|
+| font | [Font](/cells/tr/python-net/aspose.cells/font) | Yazı tipi ayarı.|
 | flag | [StyleFlag](/cells/tr/python-net/aspose.cells/styleflag) | Yazı tipi ayarının bayrağı.|
 
 

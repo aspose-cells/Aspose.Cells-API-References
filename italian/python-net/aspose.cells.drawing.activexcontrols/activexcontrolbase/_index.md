@@ -19,10 +19,10 @@ Il tipo ActiveXControlBase espone i membri seguenti:
 | :- | :- |
 | [workbook](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) | Ottiene l'oggetto [ActiveXControlBase.workbook](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/type) | Ottiene il tipo del controllo ActiveX.|
-| [width](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width) | Ottiene e imposta la larghezza del controllo in unità di punti.|
+| [width](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width) |Ottiene e imposta la larghezza del controllo in unità di punti.|
 | [height](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/height) | Ottiene e imposta l'altezza del controllo in unità di punti.|
 | [mouse_icon](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_icon) | Ottiene e imposta un'icona personalizzata da visualizzare come puntatore del mouse per il controllo.|
-| [mouse_pointer](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_pointer) |Ottiene e imposta il tipo di icona visualizzata come puntatore del mouse per il controllo.|
+| [mouse_pointer](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_pointer) | Ottiene e imposta il tipo di icona visualizzata come puntatore del mouse per il controllo.|
 | [fore_ole_color](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/fore_ole_color) | Ottiene e imposta il colore ole del primo piano.|
 | [back_ole_color](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/back_ole_color) | Ottiene e imposta il colore ole dello sfondo.|
 | [is_visible](/cells/it/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/is_visible) | Indica se questo controllo è visibile.|

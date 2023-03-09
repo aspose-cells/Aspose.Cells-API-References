@@ -19,9 +19,9 @@ def refresh_dynamic_array_formulas(self, calculate):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| calculate | bool | Bu dinamik dizi formülleri için hücre değerlerini hesaplayıp güncellemediği|
+| calculate | bool | Bu dinamik dizi formülleri için hücre değerlerini hesaplar ve günceller.|
 
 
 ##  refresh_dynamic_array_formulas(calculate, copts) {#bool-CalculationOptions}
@@ -35,9 +35,9 @@ def refresh_dynamic_array_formulas(self, calculate, copts):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| calculate | bool | Bu dinamik dizi formülleri için hücre değerlerini hesaplayıp güncellemediği|
+| calculate | bool | Bu dinamik dizi formülleri için hücre değerlerini hesaplar ve günceller.|
 | copts | [CalculationOptions](/cells/tr/python-net/aspose.cells/calculationoptions) | Formül hesaplama seçenekleri|
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: get_cell_style方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 340
@@ -22,10 +22,10 @@ def get_cell_style(self, row, column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | row | int |行索引|
-| column | int |柱子|
+| column | int |列|
 
 
 

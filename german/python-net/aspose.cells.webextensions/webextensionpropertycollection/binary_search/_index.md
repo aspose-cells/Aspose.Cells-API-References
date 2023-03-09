@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [WebExtensionProperty](/cells/de/python-net/aspose.cells.webextensions/webextensionproperty) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [WebExtensionProperty](/cells/de/python-net/aspose.cells.webextensions/webextensionproperty) | Das zu lokalisierende System.Objekt.|
 
 
 

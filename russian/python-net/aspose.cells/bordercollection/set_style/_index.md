@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | style | [CellBorderType](/cells/ru/python-net/aspose.cells/cellbordertype) | Стиль бордюров|
 

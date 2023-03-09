@@ -14,7 +14,7 @@ S'il est faux, exportez uniquement la feuille active, tout comme MS Excel.
 
 ###  Remarques
 
-La valeur par défaut est false.
+La valeur par défaut est faux.
 ###  Définition:
 ```python
 @property

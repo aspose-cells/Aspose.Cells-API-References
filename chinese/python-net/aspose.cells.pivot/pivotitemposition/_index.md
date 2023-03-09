@@ -1,13 +1,13 @@
 ﻿---
 title: PivotItemPosition枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 200
 url: /zh/python-net/aspose.cells.pivot/pivotitemposition/
 is_root: false
 ---
-##  PivotItemPosition枚举
+## PivotItemPosition枚举
 表示数据透视表基本项在基本字段中的下一个/上一个/所有位置。
 
 

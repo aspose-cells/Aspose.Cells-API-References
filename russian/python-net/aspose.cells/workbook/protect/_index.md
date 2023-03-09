@@ -18,7 +18,7 @@ def protect(self, protection_type, password):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | protection_type | [ProtectionType](/cells/ru/python-net/aspose.cells/protectiontype) | Тип защиты.|
 | password | str | Пароль для защиты книги.|

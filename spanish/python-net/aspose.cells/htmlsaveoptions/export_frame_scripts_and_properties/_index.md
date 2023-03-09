@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_frame_scripts_and_properties propiedad
 
-Indicando si se exportan secuencias de comandos de fotogramas y propiedades del documento. El valor predeterminado es verdadero. Si desea importar el archivo html o mht
+Indicando si exporta secuencias de comandos de fotogramas y propiedades del documento. El valor predeterminado es verdadero. Si desea importar el archivo html o mht
 para sobresalir, mantenga el valor predeterminado.
 ###  Definición:
 ```python

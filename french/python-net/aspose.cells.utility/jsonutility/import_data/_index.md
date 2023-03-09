@@ -22,13 +22,13 @@ def import_data(self, json, cells, row, column, option):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | json | str | La chaîne json.|
 | cells | [Cells](/cells/fr/python-net/aspose.cells/cells) | Le Cells.|
 | row | int | L'index de ligne.|
 | column | int | L'indice de colonne.|
-| option | [JsonLayoutOptions](/cells/fr/python-net/aspose.cells.utility/jsonlayoutoptions) | Les options d'importation de chaîne json.|
+| option | [JsonLayoutOptions](/cells/fr/python-net/aspose.cells.utility/jsonlayoutoptions) | Les options d'importation de chaînes json.|
 
 
 

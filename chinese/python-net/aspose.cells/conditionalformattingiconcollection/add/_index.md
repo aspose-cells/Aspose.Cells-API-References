@@ -1,6 +1,6 @@
 ﻿---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def add(self, cficon):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | cficon | [ConditionalFormattingIcon](/cells/zh/python-net/aspose.cells/conditionalformattingicon) |返回列表中新对象的索引。|
 
@@ -38,7 +38,7 @@ def add(self, type, index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [IconSetType](/cells/zh/python-net/aspose.cells/iconsettype) |值类型。|
 | index | int |指数。|

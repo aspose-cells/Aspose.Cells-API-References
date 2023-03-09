@@ -12,7 +12,7 @@ is_root: false
 Gibt zurück oder legt fest, ob die Kopfzeile, die die Slicer-Beschriftung anzeigt, sichtbar ist
 der Standardwert ist wahr
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

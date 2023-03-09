@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range proprietà
 
 Restituisce un oggetto CellArea che rappresenta l'intervallo che contiene l'area dati
-nell'elenco tra la riga di intestazione e la riga di inserimento. Sola lettura.
+nell'elenco tra la riga di intestazione e la riga di inserimento.
 ###  Definizione:
 ```python
 @property

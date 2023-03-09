@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_css_prefix mülk
 
-Css adının önekini alır ve ayarlar, varsayılan değer "" dir.
+Css adının önekini alır ve ayarlar, varsayılan değer "" şeklindedir.
 ###  Tanım:
 ```python
 @property

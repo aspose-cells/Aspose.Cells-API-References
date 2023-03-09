@@ -18,7 +18,7 @@ Typen HtmlHiddenColDisplayType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | HIDDEN | Gömde de dolda kolumnerna i HTML-sidan.|
-| REMOVE | Ta bort de dolda kolumnerna i HTML-sidan.|
+| REMOVE | Ta bort de dolda kolumnerna i HTML-sidor.|
 
 
 

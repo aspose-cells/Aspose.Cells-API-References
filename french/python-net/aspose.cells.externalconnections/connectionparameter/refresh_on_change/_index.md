@@ -10,8 +10,8 @@ is_root: false
 ##  refresh_on_change propriété
 
  Indicateur indiquant si la requête doit se rafraîchir automatiquement lorsque le contenu d'un
- cellule qui fournit les changements de valeur de paramètre. Si vrai, les données externes sont actualisées
- en utilisant la nouvelle valeur de paramètre chaque fois qu'il y a un changement. Si faux, alors données externes
+ cellule qui fournit les modifications de la valeur du paramètre. Si la valeur est true, les données externes sont actualisées
+ en utilisant la nouvelle valeur de paramètre chaque fois qu'il y a un changement.
 n'est actualisé qu'à la demande de l'utilisateur, ou un autre événement déclenche l'actualisation (par exemple, classeur ouvert).
 ###  Définition:
 ```python

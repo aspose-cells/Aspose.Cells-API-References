@@ -23,7 +23,7 @@ is_root: false
 | [back_color](/cells/ru/python-net/aspose.cells.drawing/msolineformathelper/back_color) | Получает и задает задний цвет линии границы.|
 | [dash_style](/cells/ru/python-net/aspose.cells.drawing/msolineformathelper/dash_style) | Получает или задает стиль штриха для указанной линии.|
 | [transparency](/cells/ru/python-net/aspose.cells.drawing/msolineformathelper/transparency) | Возвращает или задает степень прозрачности указанной заливки в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная).|
-| [weight](/cells/ru/python-net/aspose.cells.drawing/msolineformathelper/weight) | Возвращает или задает вес линии в точках.|
+| [weight](/cells/ru/python-net/aspose.cells.drawing/msolineformathelper/weight) | Возвращает или задает вес линии в пунктах.|
 
 
 

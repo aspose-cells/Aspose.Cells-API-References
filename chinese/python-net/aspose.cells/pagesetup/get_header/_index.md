@@ -1,6 +1,6 @@
 ﻿---
 title: get_header方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
@@ -18,9 +18,9 @@ def get_header(self, section):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| section | int |0：左部分，1：中部分，2：右部分。|
+| section | int | 0：左部分，1：中部分，2：右部分。|
 
 
 

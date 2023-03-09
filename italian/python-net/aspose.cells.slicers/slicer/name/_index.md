@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta lo name del filtro dei dati specificato
 
-###  Esempio
+###  Esempi
 
 ```python
 

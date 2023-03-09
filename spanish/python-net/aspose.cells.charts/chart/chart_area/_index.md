@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  chart_area propiedad
 
-Obtiene el área del gráfico en la hoja de cálculo.
+Obtiene el área del gráfico en la hoja de trabajo.
 ###  Definición:
 ```python
 @property

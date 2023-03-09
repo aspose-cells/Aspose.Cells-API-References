@@ -17,7 +17,7 @@ Il tipo TextOverflowType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| CLIP | Prestare attenzione alle barriere superiori e inferiori.<br/> Non fornire indicazioni sulla presenza di testo non visibile.|
+| CLIP | Prestare attenzione alle barriere superiori e inferiori.<br/>Non fornire indicazioni sulla presenza di testo non visibile.|
 | ELLIPSIS | Prestare attenzione alle barriere superiori e inferiori.<br/>Usa i puntini di sospensione per indicare che c'è del testo che non è visibile.<br/> Solo per troppopieno verticale.|
 | OVERFLOW | Traboccare il testo e non prestare attenzione alle barriere superiore e inferiore.|
 

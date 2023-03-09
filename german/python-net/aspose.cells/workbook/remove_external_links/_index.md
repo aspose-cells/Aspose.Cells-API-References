@@ -20,7 +20,7 @@ def remove_external_links(self):
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die Methode ExternalLinkCollection.Clear().
  Diese Methode wird 12 Monate später seit Dezember 2021 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -25,7 +25,7 @@ def export_object(self, e):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | e | [ExportObjectEvent](/cells/tr/python-net/aspose.cells/exportobjectevent) | Bir nesnenin dışa aktarılması gerektiğinde tetiklenen olay.|
 

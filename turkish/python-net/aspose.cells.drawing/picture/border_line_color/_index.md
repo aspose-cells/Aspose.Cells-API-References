@@ -11,7 +11,7 @@ is_root: false
 
 Bir resmin sınır çizgisinin Rengini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

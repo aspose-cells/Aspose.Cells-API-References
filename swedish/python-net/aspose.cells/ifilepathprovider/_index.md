@@ -17,7 +17,7 @@ Typen IFilePathProvider avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [get_full_name(sheet_name)](/cells/sv/python-net/aspose.cells/ifilepathprovider/get_full_name/#str) |Får hela sökvägen till filen efter kalkylbladsnamn när kalkylblad exporteras till html separat.<br/> Så referenserna bland arbetsbladen kan exporteras korrekt.|
+| [get_full_name(sheet_name)](/cells/sv/python-net/aspose.cells/ifilepathprovider/get_full_name/#str) | Får hela sökvägen till filen efter kalkylbladsnamn när kalkylblad exporteras till html separat.<br/> Så referenserna bland arbetsbladen kan exporteras korrekt.|
 
 
 

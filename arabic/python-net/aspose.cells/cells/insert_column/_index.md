@@ -18,7 +18,7 @@ def insert_column(self, column_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column_index | int | فهرس العمود.|
 
@@ -34,10 +34,10 @@ def insert_column(self, column_index, update_reference):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column_index | int | فهرس العمود.|
-| update_reference | bool | يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
+| update_reference | bool |يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
 
 
 

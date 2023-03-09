@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_cell_coordinate fastighet
 
-Anger om excel-koordinater för icke-tomma celler exporteras när filen sparas till html. Standardvärdet är falskt.
+Anger om excel-koordinater för icke-tomma celler exporteras när filen sparas till html.
 Om du vill importera utdata-html till excel, behåll standardvärdet.
 ###  Definition:
 ```python

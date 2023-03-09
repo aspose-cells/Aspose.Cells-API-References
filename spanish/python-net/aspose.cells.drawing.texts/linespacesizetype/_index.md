@@ -18,7 +18,7 @@ El tipo LineSpaceSizeType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | PERCENTAGE | Representa en unidad de un porcentaje del tamaño del texto.|
-| POINTS | Representa en unidad de puntos.|
+| POINTS | Representa en unidades de puntos.|
 
 
 

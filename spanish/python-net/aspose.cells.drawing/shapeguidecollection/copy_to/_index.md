@@ -18,9 +18,9 @@ def copy_to(self, array):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| array | list | La lista de matriz unidimensional que es el destino de la lista de matriz copiada de elementos. La lista de matrices debe tener una indexación basada en cero.|
+| array | list | La lista de matriz unidimensional que es el destino de la lista de matriz copiada de elementos.|
 
 
 ##  copy_to(index, array, array_index, count) {#int-list-int-int}
@@ -34,11 +34,11 @@ def copy_to(self, index, array, array_index, count):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | El índice de base cero en la lista de matrices de origen en el que comienza la copia.|
-| array | list | La lista de matriz unidimensional que es el destino de los elementos copiados de la lista de matriz. La lista de matrices debe tener una indexación basada en cero.|
-| array_index | int | El índice de base cero en la lista de matrices en el que comienza la copia.|
+| array | list | La lista de matriz unidimensional que es el destino de los elementos copiados de la lista de matriz.|
+| array_index | int |El índice de base cero en la lista de matrices en el que comienza la copia.|
 | count | int | El número de elementos a copiar.|
 
 

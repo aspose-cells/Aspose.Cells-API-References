@@ -11,7 +11,7 @@ is_root: false
 
  Eksen değerleri kategorisinin aralığını alır veya ayarlar.
  Bir hücre aralığı olabilir ("d1:e10" gibi),
-veya bir değer dizisi ("{2,6,8,10}" gibi).
+veya bir dizi değer ("{2,6,8,10}" gibi).
 ###  Tanım:
 ```python
 @property

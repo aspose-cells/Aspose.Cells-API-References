@@ -19,7 +19,7 @@ El tipo Font expone los siguientes miembros:
 | :- | :- |
 | [charset](/cells/es/python-net/aspose.cells/font/charset) | Representar el conjunto de caracteres.|
 | [is_italic](/cells/es/python-net/aspose.cells/font/is_italic) | Obtiene o establece un valor que indica si la fuente está en cursiva.|
-| [is_bold](/cells/es/python-net/aspose.cells/font/is_bold) | Obtiene o establece un valor que indica si la fuente está en negrita.|
+| [is_bold](/cells/es/python-net/aspose.cells/font/is_bold) |Obtiene o establece un valor que indica si la fuente está en negrita.|
 | [caps_type](/cells/es/python-net/aspose.cells/font/caps_type) | Obtiene y establece el tipo de mayúsculas de texto.|
 | [strike_type](/cells/es/python-net/aspose.cells/font/strike_type) | Obtiene el tipo de aviso del texto.|
 | [is_strikeout](/cells/es/python-net/aspose.cells/font/is_strikeout) | Obtiene o establece un valor que indica si la fuente está tachada.|
@@ -44,7 +44,7 @@ El tipo Font expone los siguientes miembros:
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

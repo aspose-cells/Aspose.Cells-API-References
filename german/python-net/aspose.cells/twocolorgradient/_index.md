@@ -25,8 +25,8 @@ Der Typ TwoColorGradient macht die folgenden Member verfügbar:
 | :- | :- |
 | [color1](/cells/de/python-net/aspose.cells/twocolorgradient/color1) | Ruft die erste Verlaufsfarbe ab und legt sie fest.|
 | [color2](/cells/de/python-net/aspose.cells/twocolorgradient/color2) | Ruft die zweite Verlaufsfarbe ab und legt sie fest.|
-| [gradient_style_type](/cells/de/python-net/aspose.cells/twocolorgradient/gradient_style_type) | Ruft den Verlaufsschattierungsstil ab und legt ihn fest.|
-| [variant](/cells/de/python-net/aspose.cells/twocolorgradient/variant) |Ruft die Verlaufsvariante ab und legt sie fest.|
+| [gradient_style_type](/cells/de/python-net/aspose.cells/twocolorgradient/gradient_style_type) |Ruft den Verlaufsschattierungsstil ab und legt ihn fest.|
+| [variant](/cells/de/python-net/aspose.cells/twocolorgradient/variant) | Ruft die Verlaufsvariante ab und legt sie fest.|
 
 
 

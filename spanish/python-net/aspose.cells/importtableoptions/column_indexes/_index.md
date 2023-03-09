@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_indexes propiedad
 
-Obtiene o establece las columnas (basadas en 0) para importar desde el origen de datos. nulo significa que se deben importar todas las columnas.
+Obtiene o establece las columnas (basadas en 0) para importar desde el origen de datos. null significa que se deben importar todas las columnas.
 ###  Definición:
 ```python
 @property

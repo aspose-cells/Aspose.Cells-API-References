@@ -22,7 +22,7 @@ def add(self, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column | int | Cell índice de columna, basado en cero.|
 ###  Observaciones
@@ -45,7 +45,7 @@ def add(self, cell_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | cell_name | str | Cell nombre.|
 ###  Observaciones
@@ -68,7 +68,7 @@ def add(self, row, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Cell índice de fila, basado en cero.|
 | column | int | Cell índice de columna, basado en cero.|
@@ -92,10 +92,10 @@ def add(self, start_row, end_row, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | start_row | int | Índice de fila de inicio, basado en cero.|
-| end_row | int | Índice de fila final, basado en cero.|
+| end_row | int |Índice de fila final, basado en cero.|
 | column | int | Índice de columna, basado en cero.|
 ###  Observaciones
 

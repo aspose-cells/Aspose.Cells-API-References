@@ -18,8 +18,8 @@ Der Typ LineCapType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | SQUARE | Quadrat ragt um halbe Linienbreite heraus.|
-| ROUND | Abgerundete Enden.|
-| FLAT | Linie endet am Endpunkt.|
+| ROUND |Abgerundete Enden.|
+| FLAT | Linie endet an Endpunkten.|
 | NONE | Keine Kappe|
 
 

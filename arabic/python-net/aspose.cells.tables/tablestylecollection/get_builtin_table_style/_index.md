@@ -22,7 +22,7 @@ def get_builtin_table_style(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [TableStyleType](/cells/ar/python-net/aspose.cells.tables/tablestyletype) | نوع نمط الجدول المدمج.|
 

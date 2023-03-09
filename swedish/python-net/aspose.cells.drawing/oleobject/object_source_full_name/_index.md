@@ -14,7 +14,7 @@ Returnerar det fullständiga källnamnet för källfilen för det länkade OLE-o
 ###  Anmärkningar
 
 Stöder endast inställning av källans fullständiga namn när filtypen är OleFileType.Unknown.
-Såsom wav-fil, avi-fil..etc..
+Såsom wav-fil, avi-fil..osv..
 ###  Definition:
 ```python
 @property

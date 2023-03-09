@@ -27,9 +27,9 @@ El tipo ControlPicturePositionType expone los siguientes miembros:
 | ABOVE_CENTER | La imagen aparece encima del pie de foto.<br/> La leyenda está centrada debajo de la imagen.|
 | ABOVE_RIGHT | La imagen aparece encima del pie de foto.<br/> La leyenda está alineada con el borde derecho de la imagen.|
 | BELOW_LEFT | La imagen aparece debajo del pie de foto.<br/> La leyenda está alineada con el borde izquierdo de la imagen.|
-| BELOW_CENTER | La imagen aparece debajo del pie de foto.<br/> El pie de foto está centrado encima de la imagen.|
+| BELOW_CENTER | La imagen aparece debajo del pie de foto.<br/>El pie de foto está centrado encima de la imagen.|
 | BELOW_RIGHT | La imagen aparece debajo del pie de foto.<br/> La leyenda está alineada con el borde derecho de la imagen.|
-| CENTER | La imagen aparece en el centro del control.<br/>La leyenda está centrada horizontal y verticalmente en la parte superior de la imagen.|
+| CENTER | La imagen aparece en el centro del control.<br/> La leyenda está centrada horizontal y verticalmente en la parte superior de la imagen.|
 
 
 

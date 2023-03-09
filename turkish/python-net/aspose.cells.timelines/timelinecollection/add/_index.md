@@ -22,13 +22,13 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | dest_cell_name | str | Zaman Çizelgesi aralığının sol üst köşesindeki hücre adı.|
 | base_field_name | str | PivotTable.BaseFields içindeki PivotField'ın adı|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -53,13 +53,13 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | dest_cell_name | str | Zaman Çizelgesi aralığının sol üst köşesindeki hücre adı.|
 | base_field_index | int | PivotTable.BaseFields içindeki PivotField dizini|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -84,13 +84,13 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | dest_cell_name | str | Zaman Çizelgesi aralığının sol üst köşesindeki hücre adı.|
 | base_field | aspose.cells.pivot.PivotField | PivotTable.BaseFields içindeki PivotField|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -115,14 +115,14 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | row | int | Zaman Çizelgesi aralığının sol üst köşesindeki hücrenin satır dizini.|
 | column | int | Zaman Çizelgesi aralığının sol üst köşesindeki hücrenin sütun dizini.|
 | base_field_name | str | PivotTable.BaseFields içindeki PivotField'ın adı|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -147,14 +147,14 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | row | int | Zaman Çizelgesi aralığının sol üst köşesindeki hücrenin satır dizini.|
 | column | int | Zaman Çizelgesi aralığının sol üst köşesindeki hücrenin sütun dizini.|
 | base_field_index | int | PivotTable.BaseFields içindeki PivotField dizini|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -179,14 +179,14 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | row | int | Zaman Çizelgesi aralığının sol üst köşesindeki hücrenin satır dizini.|
 | column | int | Zaman Çizelgesi aralığının sol üst köşesindeki hücrenin sütun dizini.|
 | base_field | aspose.cells.pivot.PivotField | PivotTable.BaseFields içindeki PivotField|
 
-###  Örnek
+###  örnekler
 
 ```python
 

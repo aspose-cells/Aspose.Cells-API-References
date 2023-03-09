@@ -1,6 +1,6 @@
 ﻿---
 title: print_titles 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 780
@@ -10,7 +10,7 @@ is_root: false
 ## print_titles 属性
 
 指示工作表的打印标题是否设置为基于
-在数据透视表上。默认值为假。
+在数据透视表上。
 ### 定义：
 ```python
 @property

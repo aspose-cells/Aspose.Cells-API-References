@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  security_options propiedad
 
-Establezca estas opciones, cuando se necesite seguridad en el resultado xls2pdf.
+Establezca estas opciones cuando se necesite seguridad en el resultado xls2pdf.
 
-###  Ejemplo
+###  Ejemplos
 
 El siguiente código establece el permiso de impresión de alta resolución para el pdf de salida.
 

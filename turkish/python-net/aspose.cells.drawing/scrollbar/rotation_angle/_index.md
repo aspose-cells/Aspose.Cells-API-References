@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin dönüşünü alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

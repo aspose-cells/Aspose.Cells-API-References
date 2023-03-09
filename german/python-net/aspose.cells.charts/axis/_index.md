@@ -23,7 +23,7 @@ Der Typ Axis macht die folgenden Member verfügbar:
 | [is_automatic_max_value](/cells/de/python-net/aspose.cells.charts/axis/is_automatic_max_value) | Gibt an, ob der Maximalwert automatisch zugewiesen wird.|
 | [max_value](/cells/de/python-net/aspose.cells.charts/axis/max_value) | Stellt den Maximalwert auf der Werteachse dar.|
 | [is_automatic_major_unit](/cells/de/python-net/aspose.cells.charts/axis/is_automatic_major_unit) | Gibt an, ob die Haupteinheit der Achse automatisch zugewiesen wird.|
-| [major_unit](/cells/de/python-net/aspose.cells.charts/axis/major_unit) | Stellt die Haupteinheiten für die Achse dar.|
+| [major_unit](/cells/de/python-net/aspose.cells.charts/axis/major_unit) |Stellt die Haupteinheiten für die Achse dar.|
 | [is_automatic_minor_unit](/cells/de/python-net/aspose.cells.charts/axis/is_automatic_minor_unit) | Gibt an, ob die Nebeneinheit der Achse automatisch zugewiesen wird.|
 | [minor_unit](/cells/de/python-net/aspose.cells.charts/axis/minor_unit) | Stellt die Nebeneinheiten für die Achse dar.|
 | [axis_line](/cells/de/python-net/aspose.cells.charts/axis/axis_line) | Ruft das Aussehen einer Achse ab.|
@@ -32,14 +32,14 @@ Der Typ Axis macht die folgenden Member verfügbar:
 | [tick_label_position](/cells/de/python-net/aspose.cells.charts/axis/tick_label_position) | Stellt die Position von Teilstrichbeschriftungen auf der angegebenen Achse dar.|
 | [cross_at](/cells/de/python-net/aspose.cells.charts/axis/cross_at) | Stellt den Punkt auf der Wertachse dar, an dem die Kategorieachse sie schneidet.|
 | [cross_type](/cells/de/python-net/aspose.cells.charts/axis/cross_type) | Stellt [Axis.cross_type](/cells/de/python-net/aspose.cells.charts/axis#cross_type) auf der angegebenen Achse dar, wo sich die andere Achse kreuzt.|
-| [log_base](/cells/de/python-net/aspose.cells.charts/axis/log_base) |Repräsentiert die logarithmische Basis. Der Standardwert ist 10. Gilt nur für Excel2007.|
+| [log_base](/cells/de/python-net/aspose.cells.charts/axis/log_base) | Stellt die logarithmische Basis dar. Der Standardwert ist 10. Gilt nur für Excel2007.|
 | [is_logarithmic](/cells/de/python-net/aspose.cells.charts/axis/is_logarithmic) | Stellt dar, ob der Skalierungstyp der Werteachse logarithmisch ist oder nicht.|
 | [is_plot_order_reversed](/cells/de/python-net/aspose.cells.charts/axis/is_plot_order_reversed) | Stellt dar, ob Microsoft Excel Datenpunkte vom letzten zum ersten darstellt.|
 | [axis_between_categories](/cells/de/python-net/aspose.cells.charts/axis/axis_between_categories) | Stellt dar, ob die Wertachse die Kategorieachse zwischen den Kategorien schneidet.|
 | [tick_labels](/cells/de/python-net/aspose.cells.charts/axis/tick_labels) | Gibt ein [Axis.tick_labels](/cells/de/python-net/aspose.cells.charts/axis#tick_labels)-Objekt zurück, das die Teilstrichbeschriftungen für die angegebene Achse darstellt.|
-| [tick_label_spacing](/cells/de/python-net/aspose.cells.charts/axis/tick_label_spacing) | Stellt die Anzahl der Kategorien oder Serien zwischen Teilstrichbeschriftungen dar. Gilt nur für Kategorie- und Serienachsen.|
+| [tick_label_spacing](/cells/de/python-net/aspose.cells.charts/axis/tick_label_spacing) |Stellt die Anzahl der Kategorien oder Serien zwischen Teilstrichbeschriftungen dar.|
 | [is_auto_tick_label_spacing](/cells/de/python-net/aspose.cells.charts/axis/is_auto_tick_label_spacing) | Gibt an, ob der Abstand der Teilstrichbeschriftung automatisch ist|
-| [tick_mark_spacing](/cells/de/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Gibt die Anzahl der Kategorien oder Serien zwischen Teilstrichen zurück oder legt sie fest. Gilt nur für Kategorie- und Serienachsen.|
+| [tick_mark_spacing](/cells/de/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Gibt die Anzahl der Kategorien oder Serien zwischen Teilstrichen zurück oder legt sie fest.|
 | [display_unit](/cells/de/python-net/aspose.cells.charts/axis/display_unit) | Stellt die Einheitenbezeichnung für die angegebene Achse dar.|
 | [cust_unit](/cells/de/python-net/aspose.cells.charts/axis/cust_unit) | Gibt einen benutzerdefinierten Wert für die Anzeigeeinheit an.|
 | [custom_unit](/cells/de/python-net/aspose.cells.charts/axis/custom_unit) | Gibt einen benutzerdefinierten Wert für die Anzeigeeinheit an.|
@@ -53,13 +53,13 @@ Der Typ Axis macht die folgenden Member verfügbar:
 | [is_visible](/cells/de/python-net/aspose.cells.charts/axis/is_visible) | Stellt dar, ob die Achse sichtbar ist.|
 | [major_grid_lines](/cells/de/python-net/aspose.cells.charts/axis/major_grid_lines) | Stellt Hauptgitterlinien auf einer Diagrammachse dar.|
 | [minor_grid_lines](/cells/de/python-net/aspose.cells.charts/axis/minor_grid_lines) | Stellt kleinere Gitternetzlinien auf einer Diagrammachse dar.|
-| [has_multi_level_labels](/cells/de/python-net/aspose.cells.charts/axis/has_multi_level_labels) | Gibt an, ob die Beschriftungen mehrstufig angezeigt werden sollen.|
-| [axis_labels](/cells/de/python-net/aspose.cells.charts/axis/axis_labels) | Ruft die Beschriftungen der Achse nach dem Aufruf der Methode Chart.Calculate() ab.|
+| [has_multi_level_labels](/cells/de/python-net/aspose.cells.charts/axis/has_multi_level_labels) |Gibt an, ob die Beschriftungen mehrstufig angezeigt werden sollen.|
+| [axis_labels](/cells/de/python-net/aspose.cells.charts/axis/axis_labels) | Ruft die Beschriftungen der Achse nach dem Aufrufen der Methode Chart.Calculate() ab.|
 | [bins](/cells/de/python-net/aspose.cells.charts/axis/bins) | Stellt Bins auf einer Diagrammachse (Histogramm/Pareto) dar|
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

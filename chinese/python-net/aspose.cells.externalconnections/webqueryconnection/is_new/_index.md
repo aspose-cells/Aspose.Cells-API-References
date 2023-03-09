@@ -1,6 +1,6 @@
 ﻿---
 title: is_new 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_new 属性
 
-如果第一次没有刷新连接则为真；否则，假的。
+如果连接不是第一次刷新，则为 True；否则为 false。
 当用户在查询完成返回之前保存文件时，就会发生这种状态。
 ### 定义：
 ```python

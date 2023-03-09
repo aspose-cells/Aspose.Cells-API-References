@@ -13,7 +13,7 @@ is_root: false
 
 ###  Observaciones
 
-Devuelva -1 si no hay una celda que contenga datos o estilo en la hoja de trabajo.
+Devuelva -1 si no hay una celda que contenga datos o estilo en la hoja de cálculo.
 ###  Definición:
 ```python
 @property

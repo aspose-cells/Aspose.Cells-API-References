@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el formato 3D de la forma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

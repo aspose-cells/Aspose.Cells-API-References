@@ -18,7 +18,7 @@ def set_formula(self, formula, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | formula | str | Formeln.|
 | value | any | Formelns värde.|
@@ -35,7 +35,7 @@ def set_formula(self, formula, options, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | formula | str | Formeln.|
 | options | [FormulaParseOptions](/cells/sv/python-net/aspose.cells/formulaparseoptions) | Alternativ för att analysera formeln.|
@@ -53,7 +53,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | formula | str | Formeln.|
 | is_r1c1 | bool | Om formeln är R1C1-formel.|
@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any | Formelns värde.|
 ###  Anmärkningar
 
-OBS: Denna klass är nu föråldrad. Istället,
+OBS: Denna klass är nu föråldrad.
 använd Cell.SetFormula(sträng,FormulaParseOptions,objekt).
 Den här egenskapen kommer att tas bort 12 månader senare sedan december 2019.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

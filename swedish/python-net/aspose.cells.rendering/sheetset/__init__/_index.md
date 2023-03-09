@@ -18,7 +18,7 @@ def __init__(self, sheets):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | sheets | list | nollbaserade arkindex.|
 ###  Anmärkningar

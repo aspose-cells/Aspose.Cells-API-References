@@ -1,5 +1,5 @@
 ﻿---
-title: GradientFill sınıf
+title: GradientFill sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 220
 url: /tr/python-net/aspose.cells.drawing/gradientfill/
 is_root: false
 ---
-##  GradientFill sınıf
+##  GradientFill sınıfı
 Degrade dolguyu temsil eder.
 
 

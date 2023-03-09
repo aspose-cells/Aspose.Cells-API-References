@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene la forma group que contiene esta forma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

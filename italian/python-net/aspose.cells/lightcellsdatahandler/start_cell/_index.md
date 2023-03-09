@@ -22,7 +22,7 @@ def start_cell(self, column_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column_index | int | indice di colonna della cella da elaborare|
 ###  Osservazioni

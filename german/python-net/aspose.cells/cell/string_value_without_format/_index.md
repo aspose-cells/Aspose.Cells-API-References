@@ -13,7 +13,7 @@ Ruft den Wert der Zelle als Zeichenfolge ohne Format ab.
 
 ###  Bemerkungen
 
-HINWEIS: Diese Methode ist jetzt veraltet. Stattdessen,
+HINWEIS: Diese Methode ist jetzt veraltet.
 Der Benutzer sollte das Wertobjekt erhalten und es gemäß dem Werttyp und der spezifischen Anforderung formatieren.
 Diese Property wird 12 Monate später seit Dezember 2020 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.pivot/pivottable/format/
 is_root: false
 ---
 ##  format(row, column, style) {#int-int-Style}
-Отформатируйте ячейку в сводной области
+Форматирование ячейки в области сводной таблицы
 
 
 
@@ -18,11 +18,11 @@ def format(self, row, column, style):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| row | int |Индекс строки ячейки|
+| row | int | Индекс строки ячейки|
 | column | int | Индекс столбца ячейки|
-| style | [Style](/cells/ru/python-net/aspose.cells/style) | Стиль для форматирования ячейки|
+| style | [Style](/cells/ru/python-net/aspose.cells/style) |Стиль для форматирования ячейки|
 
 
 

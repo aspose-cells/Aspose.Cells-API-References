@@ -13,10 +13,10 @@ Gibt an, wie das angegebene Steuerelement Nullwerte anzeigt.
 
 ###  Bemerkungen
 
-| Einstellung| Beschreibung|
+| Einstellungen| Beschreibung|
 | :- | :- |
-| WAHR| Die Steuerung durchläuft die Zustände für Ja-, Nein- und Nullwerte. Das Steuerelement wird abgeblendet (grau) angezeigt, wenn seine Value-Eigenschaft auf Null festgelegt ist.|
-| FALSCH| (Standard) Die Steuerung durchläuft die Zustände für Ja- und Nein-Werte. Nullwerte werden so angezeigt, als wären sie keine Werte.|
+| WAHR| Die Steuerung durchläuft die Zustände für Ja-, Nein- und Nullwerte.|
+| FALSCH|(Standard) Die Steuerung durchläuft die Zustände für Ja- und Nein-Werte.|
 ###  Definition:
 ```python
 @property

@@ -10,7 +10,7 @@ is_root: false
 ##  auto_scaling proprietà
 
  True se Microsoft Excel ridimensiona un grafico 3D in modo che sia di dimensioni più vicine al grafico 2D equivalente.
-La proprietà RightAngleAxes deve essere True.
+La proprietà Right Angle Axes deve essere True.
 ###  Definizione:
 ```python
 @property

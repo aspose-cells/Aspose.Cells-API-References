@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| extension | str | Расширение файла. Может быть с ведущей точкой или без нее. Без учета регистра.|
+| extension | str | Расширение файла. Может быть с точкой в начале или без нее.|
 ###  Примечания
 
 Если расширение не может быть распознано, возвращает [SaveFormat.UNKNOWN](/cells/ru/python-net/aspose.cells/saveformat#UNKNOWN).

@@ -10,7 +10,7 @@ is_root: false
 ##  treat_quote_prefix_as_value mülk
 
 Baştaki tek tırnak işaretinin bir hücrenin değerinin parçası olarak alınması gerekip gerekmediğini gösterir.
-Varsayılan doğrudur. Yanlışsa, baştaki tek tırnak, karşılık gelen hücrenin değerinden kaldırılacaktır.
+Varsayılan doğrudur. Yanlış ise, baştaki tek tırnak, karşılık gelen hücrenin değerinden kaldırılacaktır.
 ve [Style.quote_prefix](/cells/tr/python-net/aspose.cells/style#quote_prefix), hücre için doğru olarak ayarlanacaktır.
 ###  Tanım:
 ```python

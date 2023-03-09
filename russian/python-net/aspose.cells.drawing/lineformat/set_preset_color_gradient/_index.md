@@ -19,11 +19,11 @@ def set_preset_color_gradient(self, preset_color, style, variant):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | preset_color | [GradientPresetType](/cells/ru/python-net/aspose.cells.drawing/gradientpresettype) | Предустановленный тип цвета|
 | style | [GradientStyleType](/cells/ru/python-net/aspose.cells.drawing/gradientstyletype) | Градиентный стиль затенения.|
-| variant | int |Градиентный вариант. Может принимать значение от 1 до 4, соответствующее одному из четырех вариантов на вкладке «Градиент» в диалоговом окне «Эффекты заливки». Если стиль — GradientStyle.FromCenter, аргумент Variant может иметь значение только 1 или 2.|
+| variant | int |Вариант градиента. Может принимать значение от 1 до 4, соответствующее одному из четырех вариантов на вкладке "Градиент" в диалоговом окне "Эффекты заливки". Если стиль — GradientStyle.FromCenter, аргумент Variant может принимать значения только 1 или 2.|
 
 
 

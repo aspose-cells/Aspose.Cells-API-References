@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die font des Kommentars ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

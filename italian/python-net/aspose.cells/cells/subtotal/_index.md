@@ -18,7 +18,7 @@ def subtotal(self, ca, group_by, function, total_list):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | La gamma|
 | group_by | int | Il campo in base al quale eseguire il raggruppamento, come offset di un numero intero in base zero|
@@ -37,13 +37,13 @@ def subtotal(self, ca, group_by, function, total_list, replace, page_breaks, sum
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | La gamma|
 | group_by | int | Il campo in base al quale eseguire il raggruppamento, come offset di un numero intero in base zero|
 | function | [ConsolidationFunction](/cells/it/python-net/aspose.cells/consolidationfunction) | La funzione del subtotale.|
 | total_list | list | Una matrice di offset di campo in base zero, che indica i campi a cui vengono aggiunti i subtotali.|
-| replace | bool |Indica se sostituire i subtotali correnti|
+| replace | bool | Indica se sostituire i subtotali correnti|
 | page_breaks | bool | Indica se aggiungere un'interruzione di pagina tra i gruppi|
 | summary_below_data | bool | Indica se aggiungere un riepilogo sotto i dati.|
 

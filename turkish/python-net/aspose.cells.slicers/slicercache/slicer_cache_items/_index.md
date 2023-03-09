@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache_items mülk
 
-Dilimleyici önbelleğindeki tüm öğelerin koleksiyonunu içeren bir SlicerCacheItem koleksiyonu döndürür. Sadece oku
+Dilimleyici önbelleğindeki tüm öğelerin koleksiyonunu içeren bir SlicerCacheItem koleksiyonu döndürür.
 
-###  Örnek
+###  örnekler
 
 ```python
 

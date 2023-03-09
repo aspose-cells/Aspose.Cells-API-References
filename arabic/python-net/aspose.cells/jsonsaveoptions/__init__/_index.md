@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/jsonsaveoptions/__init__/
 is_root: false
 ---
 ##  JsonSaveOptions() {#}
-ينشئ خيارات لحفظ ملف json.
+ينشئ خيارات لحفظ ملفات json.
 
 
 

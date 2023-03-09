@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.pivot/pivottable/format_all/
 is_root: false
 ---
 ##  format_all(style) {#Style}
-Pivot tablo alanındaki tüm hücreyi biçimlendir
+Pivot tablo alanındaki tüm hücreleri biçimlendirin
 
 
 
@@ -18,7 +18,7 @@ def format_all(self, style):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Biçimlendirilecek stil|
 

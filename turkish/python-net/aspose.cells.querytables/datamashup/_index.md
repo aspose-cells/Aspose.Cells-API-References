@@ -1,5 +1,5 @@
 ﻿---
-title: DataMashup sınıf
+title: DataMashup sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /tr/python-net/aspose.cells.querytables/datamashup/
 is_root: false
 ---
-##  DataMashup sınıf
+##  DataMashup sınıfı
 Karma verileri temsil eder.
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: is_modified方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -23,7 +23,7 @@ def is_modified(self, modify_flag):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | modify_flag | [StyleModifyFlag](/cells/zh/python-net/aspose.cells/stylemodifyflag) |样式修改标志|
 

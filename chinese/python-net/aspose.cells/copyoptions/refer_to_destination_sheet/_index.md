@@ -1,6 +1,6 @@
 ﻿---
 title: refer_to_destination_sheet 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80

@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.ods/odscellfield/
 is_root: false
 ---
 ##  OdsCellField classe
-Représente le champ cellulaire de ods.
+Représente le champ cellulaire des cotes.
 
 
 
@@ -20,7 +20,7 @@ Le type OdsCellField expose les membres suivants :
 | [custom_format](/cells/fr/python-net/aspose.cells.ods/odscellfield/custom_format) | Représente le format personnalisé de la valeur du champ.|
 | [field_type](/cells/fr/python-net/aspose.cells.ods/odscellfield/field_type) | Obtient et définit le type du champ.|
 | [row](/cells/fr/python-net/aspose.cells.ods/odscellfield/row) | Obtient et définit l'index de ligne de la cellule.|
-| [column](/cells/fr/python-net/aspose.cells.ods/odscellfield/column) | Obtient et définit l'index de colonne de la cellule.|
+| [column](/cells/fr/python-net/aspose.cells.ods/odscellfield/column) | Obtenez et définissez l'index de colonne de la cellule.|
 
 
 

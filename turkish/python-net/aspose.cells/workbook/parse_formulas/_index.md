@@ -18,9 +18,9 @@ def parse_formulas(self, ignore_error):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| ignore_error | bool | geçersiz formül için hata yoksayılır mı?<br/>Bir geçersiz formül için, hata yoksayılırsa bu formül yok sayılır<br/>ve süreç diğer formülleri ayrıştırmaya devam edecek, aksi takdirde istisna atılacaktır.|
+| ignore_error | bool | geçersiz formül için hata yoksayılır mı?<br/>Bir geçersiz formül için, hata yoksayılırsa bu formül yok sayılır<br/> ve süreç diğer formülleri ayrıştırmaya devam edecek, aksi takdirde bir istisna atılacaktır.|
 
 
 

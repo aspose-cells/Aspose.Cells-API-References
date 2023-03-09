@@ -21,14 +21,14 @@ Le type IconSet expose les membres suivants :
 | :- | :- |
 | [cf_icons](/cells/fr/python-net/aspose.cells/iconset/cf_icons) | Obtenez le [ConditionalFormattingIcon](/cells/fr/python-net/aspose.cells/conditionalformattingicon) de la collection|
 | [cfvos](/cells/fr/python-net/aspose.cells/iconset/cfvos) | Obtenez l'instance CFValueObjects.|
-| [type](/cells/fr/python-net/aspose.cells/iconset/type) | Obtenez ou définissez le type de jeu d'icônes à afficher.<br/>Le réglage du type vérifiera automatiquement si le nombre actuel de Cfvos est<br/> accord avec le nouveau type. Si ce n'est pas le cas, les anciens Cfvo seront nettoyés et<br/> les Cfvos par défaut seront ajoutés.|
-| [is_custom](/cells/fr/python-net/aspose.cells/iconset/is_custom) |Indique si le jeu d'icônes est personnalisé.<br/> La valeur par défaut est faux.|
-| [show_value](/cells/fr/python-net/aspose.cells/iconset/show_value) | Obtenez ou définissez l'indicateur indiquant s'il faut afficher les valeurs des cellules sur lesquelles ce jeu d'icônes est appliqué.<br/> La valeur par défaut est true.|
+| [type](/cells/fr/python-net/aspose.cells/iconset/type) | Obtenez ou définissez le type de jeu d'icônes à afficher.<br/>Le réglage du type vérifiera automatiquement si le nombre actuel de Cfvos est<br/> accord avec le nouveau type. Sinon, les anciens Cfvo seront nettoyés et<br/> les Cfvos par défaut seront ajoutés.|
+| [is_custom](/cells/fr/python-net/aspose.cells/iconset/is_custom) | Indique si le jeu d'icônes est personnalisé.<br/> La valeur par défaut est faux.|
+| [show_value](/cells/fr/python-net/aspose.cells/iconset/show_value) | Obtenez ou définissez le drapeau indiquant s'il faut afficher les valeurs des cellules sur lesquelles ce jeu d'icônes est appliqué.<br/> La valeur par défaut est true.|
 | [reverse](/cells/fr/python-net/aspose.cells/iconset/reverse) | Obtenez ou définissez l'indicateur indiquant s'il faut inverser l'ordre par défaut des icônes dans ce jeu d'icônes.<br/> La valeur par défaut est faux.|
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, IconSetType, Workbook

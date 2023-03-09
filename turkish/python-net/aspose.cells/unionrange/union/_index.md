@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range | str | Menzil.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/tr/python-net/aspose.cells/unionrange) | Menzil.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | ranges | list | Aralıklar.|
 

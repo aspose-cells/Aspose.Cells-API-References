@@ -1,13 +1,13 @@
 ﻿---
 title: PdfOptimizationType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 210
 url: /zh/python-net/aspose.cells.rendering/pdfoptimizationtype/
 is_root: false
 ---
-##  PdfOptimizationType枚举
+## PdfOptimizationType枚举
 指定一种优化类型。
 
 

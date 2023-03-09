@@ -19,7 +19,7 @@ def reset_ranges(self, data_range, is_vertical, location_range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | data_range | str | Especifica el nuevo rango de datos del grupo minigráfico.|
 | is_vertical | bool | Especifica si trazar los minigráficos del nuevo rango de datos por fila o por columna.|

@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing/shapecollection/delete_in_range/
 is_root: false
 ---
 ##  delete_in_range(ca) {#CellArea}
-Удалить фигуры в диапазоне. Фигуры комментариев не будут удалены.
+Удалите фигуры в диапазоне. Фигуры комментариев не будут удалены.
 
 
 
@@ -18,11 +18,11 @@ def delete_in_range(self, ca):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| ca | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Диапазон. Если фигуры содержатся в диапазоне, они будут удалены.|
+| ca | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) |Диапазон. Если фигуры содержатся в диапазоне, они будут удалены.|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import CellArea

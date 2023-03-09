@@ -10,7 +10,7 @@ is_root: false
 ##  auto_scaling Eigentum
 
  True, wenn Microsoft Excel ein 3D-Diagramm so skaliert, dass es der Größe des entsprechenden 2D-Diagramms näher kommt.
-Die RightAngleAxes-Eigenschaft muss True sein.
+Die Eigenschaft Right Angle Axes muss True sein.
 ###  Definition:
 ```python
 @property

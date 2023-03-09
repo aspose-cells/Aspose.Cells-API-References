@@ -1,5 +1,5 @@
 ﻿---
-title: ErrorCheckOption sınıf
+title: ErrorCheckOption sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 520
 url: /tr/python-net/aspose.cells/errorcheckoption/
 is_root: false
 ---
-##  ErrorCheckOption sınıf
+##  ErrorCheckOption sınıfı
 Belirli aralıklarda uygulanan hata kontrolü ayarı.
 
 
@@ -26,7 +26,7 @@ ErrorCheckOption türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import CellArea, ErrorCheckType, Workbook

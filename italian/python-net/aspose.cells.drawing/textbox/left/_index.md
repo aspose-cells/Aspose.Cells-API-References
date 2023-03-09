@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta l'offset orizzontale della forma dalla relativa colonna left, in unità di pixel.
 
-###  Esempio
+###  Esempi
 
 ```python
 

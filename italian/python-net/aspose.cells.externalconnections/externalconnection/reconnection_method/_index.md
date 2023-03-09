@@ -14,7 +14,7 @@ Il valore predefinito è ReConnectionMethodType.Required.
 
 ###  Osservazioni
 
- NOTA: questa proprietà è ora obsoleta. Invece,
+ NOTA: questa proprietà è ora obsoleta.
 utilizzare la proprietà ExternalConnection.ReconnectionMethodType.
  Questa proprietà verrà rimossa 12 mesi dopo da ottobre 2017.
 Aspose si scusa per gli eventuali disagi causati.

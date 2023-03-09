@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size fastighet
 
-Hämtar och ställer in strålens radie, i poängenhet.
+Hämtar och ställer in strålens radie, i poängenheter.
 ###  Definition:
 ```python
 @property

@@ -18,7 +18,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Выходной поток.|
 | image_type | [ImageType](/cells/ru/python-net/aspose.cells.drawing/imagetype) | Тип, в котором нужно сохранить изображение.|
@@ -26,7 +26,7 @@ def to_image(self, stream, image_type):
 
 Поддерживаются следующие форматы:
 .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import ImageType
@@ -49,12 +49,12 @@ def to_image(self, image_file, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | image_file | str |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions
@@ -76,12 +76,12 @@ def to_image(self, stream, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions

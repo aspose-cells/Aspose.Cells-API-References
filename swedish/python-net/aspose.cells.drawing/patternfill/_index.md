@@ -24,10 +24,10 @@ Typen PatternFill avslöjar följande medlemmar:
 | :- | :- |
 | [pattern](/cells/sv/python-net/aspose.cells.drawing/patternfill/pattern) | Hämtar eller ställer in fyllningsmönstertypen|
 | [background_color](/cells/sv/python-net/aspose.cells.drawing/patternfill/background_color) | Hämtar eller ställer in bakgrundsfärgen för [Area](/cells/sv/python-net/aspose.cells.drawing/area).|
-| [background_cells_color](/cells/sv/python-net/aspose.cells.drawing/patternfill/background_cells_color) | Hämtar och ställer in förgrundsobjektet [CellsColor](/cells/sv/python-net/aspose.cells/cellscolor).|
+| [background_cells_color](/cells/sv/python-net/aspose.cells.drawing/patternfill/background_cells_color) |Hämtar och ställer in förgrundsobjektet [CellsColor](/cells/sv/python-net/aspose.cells/cellscolor).|
 | [foreground_color](/cells/sv/python-net/aspose.cells.drawing/patternfill/foreground_color) | Får eller ställer in förgrundsfärgen.|
-| [foreground_cells_color](/cells/sv/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) | Hämtar och ställer in förgrundsobjektet [CellsColor](/cells/sv/python-net/aspose.cells/cellscolor).|
-| [fore_transparency](/cells/sv/python-net/aspose.cells.drawing/patternfill/fore_transparency) |Hämtar eller ställer in genomskinligheten för förgrundsfärgen.|
+| [foreground_cells_color](/cells/sv/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) |Hämtar och ställer in förgrundsobjektet [CellsColor](/cells/sv/python-net/aspose.cells/cellscolor).|
+| [fore_transparency](/cells/sv/python-net/aspose.cells.drawing/patternfill/fore_transparency) | Hämtar eller ställer in genomskinligheten för förgrundsfärgen.|
 | [back_transparency](/cells/sv/python-net/aspose.cells.drawing/patternfill/back_transparency) | Hämtar eller ställer in genomskinligheten för bakgrundsfärgen.|
 
 

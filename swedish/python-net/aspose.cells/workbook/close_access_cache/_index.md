@@ -18,7 +18,7 @@ def close_access_cache(self, opts):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | opts | [AccessCacheOptions](/cells/sv/python-net/aspose.cells/accesscacheoptions) | alternativ för dataåtkomst|
 

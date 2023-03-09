@@ -13,7 +13,7 @@ Bir satırı işlemek için hazırlanır.
 
 ###  İadeler
 
-bu satırın (özellikler veya hücre verileri) işlenmesi gerekip gerekmediği. false bu satırı ve hücrelerini yok saymak ve sonraki satırı kontrol etmek için.
+bu satırın(özellikler veya hücre verileri) işlenmesi gerekip gerekmediği false bu satırı ve hücrelerini yok saymak ve sonraki satırı kontrol etmek için.
 
 
 ```python
@@ -22,7 +22,7 @@ def start_row(self, row_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int | işlenecek bir sonraki satırın dizini|
 

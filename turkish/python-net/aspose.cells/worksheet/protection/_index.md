@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection mülk
 
-Bir çalışma sayfası için kullanılabilen çeşitli protection seçenek türlerini temsil eder. ExcelXP ve üzeri sürümlerde gelişmiş protection seçeneklerini destekler.
+Bir çalışma sayfası için kullanılabilen çeşitli protection seçenek türlerini temsil eder.
 
 ###  Notlar
 

@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cell/get_width_of_value/
 is_root: false
 ---
 ##  get_width_of_value() {#}
-Ruft die Breite des Werts in Pixeln ab.
+Ruft die Breite des Werts in Pixeleinheiten ab.
 
 
 ###  Kehrt zurück

@@ -18,7 +18,7 @@ PropertyType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | BOOLEAN | Özellik bir boole değeridir.|
-| DATE_TIME |Özellik, bir tarih saat değeridir.|
+| DATE_TIME | Özellik, bir tarih saat değeridir.|
 | DOUBLE | Özellik kayan bir sayıdır.|
 | NUMBER | Özellik bir tam sayıdır.|
 | STRING | Özellik bir dize değeridir.|

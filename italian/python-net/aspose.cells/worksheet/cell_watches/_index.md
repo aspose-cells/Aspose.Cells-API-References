@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_watches proprietà
 
-Ottiene la raccolta di celle su questo foglio di lavoro monitorato nella "finestra di controllo".
+Ottiene una raccolta di celle in questo foglio di lavoro monitorato nella "finestra di controllo".
 ###  Definizione:
 ```python
 @property

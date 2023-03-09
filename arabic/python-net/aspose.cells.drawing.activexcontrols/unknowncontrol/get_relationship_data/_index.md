@@ -22,7 +22,7 @@ def get_relationship_data(self, rel_id):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | rel_id | str | معرف العلاقة.|
 

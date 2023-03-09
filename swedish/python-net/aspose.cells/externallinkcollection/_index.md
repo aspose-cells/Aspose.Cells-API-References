@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/externallinkcollection/
 is_root: false
 ---
 ##  ExternalLinkCollection klass
-Representerar extern länksamling i en arbetsbok.
+Representerar en extern länksamling i en arbetsbok.
 
 
 

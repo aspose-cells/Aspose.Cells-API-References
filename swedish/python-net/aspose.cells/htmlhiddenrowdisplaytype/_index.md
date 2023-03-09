@@ -18,7 +18,7 @@ Typen HtmlHiddenRowDisplayType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | HIDDEN | Gömde de dolda raderna i HTML-sidan.|
-| REMOVE | Ta bort de dolda raderna på HTML-sidan.|
+| REMOVE | Ta bort de dolda raderna i HTML-sidor.|
 
 
 

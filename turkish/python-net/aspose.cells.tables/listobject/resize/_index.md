@@ -18,7 +18,7 @@ def resize(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Yeni aralığın başlangıç satırı dizini.|
 | start_column | int | Yeni aralığın başlangıç sütun dizini.|

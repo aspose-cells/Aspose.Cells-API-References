@@ -1,6 +1,6 @@
 ﻿---
 title: get_connection_points方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 90
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-[X,Y] 对连接点。每一项都是一个float[2]数组，[0]代表x，[1]代表y。
+[X,Y]对连接点，每一项都是一个float[2]数组，[0]代表x，[1]代表y。
 
 
 ```python

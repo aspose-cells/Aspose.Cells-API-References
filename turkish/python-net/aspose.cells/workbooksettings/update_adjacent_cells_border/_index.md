@@ -14,7 +14,7 @@ Bitişik hücrelerin kenarlığının güncellenip güncellenmediğini gösterir
 ###  Notlar
 
 Varsayılan değer yanlıştır.
-Örneğin: A1 hücresinin alt kenarlığı güncellemedir,
+ Örneğin: A1 hücresinin alt kenarlığı güncellenir,
 A2 hücresinin üst kenarlığı da değiştirilmelidir.
 ###  Tanım:
 ```python

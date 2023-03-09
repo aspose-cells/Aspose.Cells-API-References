@@ -14,7 +14,7 @@ Indica si se actualiza el borde de las celdas adyacentes.
 ###  Observaciones
 
 El valor predeterminado es falso.
-Por ejemplo: el borde inferior de la celda A1 se actualiza,
+ Por ejemplo: se actualiza el borde inferior de la celda A1,
 el borde superior de la celda A2 también debe cambiarse.
 ###  Definición:
 ```python

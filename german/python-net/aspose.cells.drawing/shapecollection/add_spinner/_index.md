@@ -25,13 +25,13 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| top | int | Stellt den vertikalen Versatz von Spinner von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| top | int |Stellt den vertikalen Versatz von Spinner von seiner linken Zeile in Pixeleinheiten dar.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Stellt den horizontalen Versatz von Spinner von seiner linken Spalte in Pixeleinheiten dar.|
 | height | int | Repräsentiert die Höhe von Spinner in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite von Spinner in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

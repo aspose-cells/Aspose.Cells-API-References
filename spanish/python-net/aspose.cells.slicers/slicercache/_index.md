@@ -17,15 +17,15 @@ El tipo SlicerCache expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [cross_filter_type](/cells/es/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Devuelve o establece si una segmentación participa en el filtrado cruzado con otras segmentaciones<br/> que comparten la misma caché de segmentación y cómo se muestra el filtrado cruzado. Leer escribir|
-| [list](/cells/es/python-net/aspose.cells.slicers/slicercache/list) | Devuelve si la segmentación asociada con la caché de segmentación especificada se basa en un origen de datos no OLAP. Solo lectura|
-| [slicer_cache_items](/cells/es/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Devuelve una colección SlicerCacheItem que contiene la colección de todos los elementos en la memoria caché de la segmentación. Solo lectura|
+| [cross_filter_type](/cells/es/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Devuelve o establece si una segmentación participa en el filtrado cruzado con otras segmentaciones<br/> que comparten la misma caché de segmentación y cómo se muestra el filtrado cruzado.|
+| [list](/cells/es/python-net/aspose.cells.slicers/slicercache/list) | Devuelve si la segmentación está asociada con la caché de segmentación especificada y se basa en un origen de datos no OLAP.|
+| [slicer_cache_items](/cells/es/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Devuelve una colección SlicerCacheItem que contiene la colección de todos los elementos en la memoria caché de la segmentación.|
 | [name](/cells/es/python-net/aspose.cells.slicers/slicercache/name) | Devuelve el nombre de la caché de segmentación.|
 | [source_name](/cells/es/python-net/aspose.cells.slicers/slicercache/source_name) | Devuelve el nombre del campo de caché|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

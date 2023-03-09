@@ -10,8 +10,8 @@ is_root: false
 ##  type fastighet
 
 Typ av parameter som används.
-Om parameterType=värde, då värdet från boolean, double, integer,
- eller sträng kommer att användas. I detta fall förväntas endast en av
+ Om parameterType=värde, då värdet från boolean, double, integer,
+ eller sträng kommer att användas.
 {boolean, double, integer, or string} kommer att anges.
 ###  Definition:
 ```python

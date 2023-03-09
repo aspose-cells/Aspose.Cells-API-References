@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin_inch mülk
 
-İnç birimi cinsinden alt kenar boşluğunun boyutunu temsil eder.
+Alt kenar boşluğunun boyutunu inç cinsinden temsil eder.
 ###  Tanım:
 ```python
 @property

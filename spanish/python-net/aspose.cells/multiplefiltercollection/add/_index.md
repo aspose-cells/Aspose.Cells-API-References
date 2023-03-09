@@ -18,7 +18,7 @@ def add(self, filter):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | filter | str | Los datos del filtro.|
 

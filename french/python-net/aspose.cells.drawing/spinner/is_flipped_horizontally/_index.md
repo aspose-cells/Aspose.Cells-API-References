@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit si la forme est retournée horizontalement.
 
-###  Exemple
+###  Exemples
 
 ```python
 

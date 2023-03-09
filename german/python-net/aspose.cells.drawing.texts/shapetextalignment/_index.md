@@ -23,8 +23,8 @@ Der Typ ShapeTextAlignment macht die folgenden Member verfügbar:
 | [text_horizontal_overflow](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/text_horizontal_overflow) | Ruft den horizontalen Textüberlauftyp des Textfelds ab und legt diesen fest.|
 | [rotation_angle](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/rotation_angle) | Ruft die Rotation der Form ab und legt diese fest.|
 | [text_vertical_type](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) | Ruft die Textrichtung ab und legt sie fest.|
-| [auto_size](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) | Gibt an, ob die Größe der Form automatisch entsprechend ihrem Inhalt angepasst wird.|
-| [text_shape_type](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | Ruft den Transformationstyp von Text ab und legt ihn fest.|
+| [auto_size](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |Gibt an, ob die Größe der Form automatisch entsprechend ihrem Inhalt angepasst wird.|
+| [text_shape_type](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | Ruft den Transformationstyp von Text ab und legt diesen fest.|
 | [top_margin_pt](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Gibt den oberen Rand in Punkteinheiten zurück|
 | [bottom_margin_pt](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Gibt den unteren Rand in Punkteinheiten zurück|
 | [left_margin_pt](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Gibt den linken Rand in Punkteinheiten zurück|
@@ -34,7 +34,7 @@ Der Typ ShapeTextAlignment macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

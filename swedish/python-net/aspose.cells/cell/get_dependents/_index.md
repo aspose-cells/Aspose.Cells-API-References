@@ -18,7 +18,7 @@ def get_dependents(self, is_all):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_all | bool | Anger om kontrollera formler i andra kalkylblad|
 ###  Anmärkningar
@@ -27,30 +27,30 @@ def get_dependents(self, is_all):
 
 beroende av denna cell, oavsett referens eller denna cell används eller inte under beräkningen.
 Till exempel, även om cell A2 i formeln "=OM(TRUE,A1,A2)" inte används vid beräkning,
-denna formel anses fortfarande vara beroende av A2.
+Denna formel är fortfarande beroende av A2.
 För att få de formler vars beräknade resultat beror på den här cellen, använd [Cell.get_dependents_in_calculation(recursive)](/cells/sv/python-net/aspose.cells/cell/get_dependents_in_calculation). När du spårar beroende för en cell kommer alla formler i arbetsboken eller kalkylbladet att analyseras och kontrolleras.
-Så det är en tidskrävande process. Om användaren behöver spåra anhöriga för många celler, kommer denna metod att göra det
-orsaka dålig prestanda. För prestandaövervägande bör användaren använda [Cell.get_dependents_in_calculation(recursive)](/cells/sv/python-net/aspose.cells/cell/get_dependents_in_calculation) istället.
+Så det är en tidskrävande process. Om användaren behöver spåra anhöriga för många celler, kommer den här metoden att
+orsaka dålig prestanda. För prestandaöverväganden bör användaren använda [Cell.get_dependents_in_calculation(recursive)](/cells/sv/python-net/aspose.cells/cell/get_dependents_in_calculation) istället.
 Eller så kan användaren samla in prejudikatkarta över alla celler med [Cell.get_precedents()](/cells/sv/python-net/aspose.cells/cell/get_precedents) först,
 och bygg sedan anhörigkartan enligt prejudikatkartan.
 
 * Om en referens som innehåller denna cell visas i en cells formel, kommer den cellen att tas som
 beroende av denna cell, oavsett referens eller denna cell används eller inte under beräkningen.
 Till exempel, även om cell A2 i formeln "=OM(TRUE,A1,A2)" inte används vid beräkning,
-denna formel anses fortfarande vara beroende av A2.
+Denna formel är fortfarande beroende av A2.
 För att få de formler vars beräknade resultat beror på den här cellen, använd [Cell.get_dependents_in_calculation(recursive)](/cells/sv/python-net/aspose.cells/cell/get_dependents_in_calculation). När du spårar beroende för en cell kommer alla formler i arbetsboken eller kalkylbladet att analyseras och kontrolleras.
-Så det är en tidskrävande process. Om användaren behöver spåra anhöriga för många celler, kommer denna metod att göra det
-orsaka dålig prestanda. För prestandaövervägande bör användaren använda [Cell.get_dependents_in_calculation(recursive)](/cells/sv/python-net/aspose.cells/cell/get_dependents_in_calculation) istället.
+Så det är en tidskrävande process. Om användaren behöver spåra anhöriga för många celler, kommer den här metoden att
+orsaka dålig prestanda. För prestandaöverväganden bör användaren använda [Cell.get_dependents_in_calculation(recursive)](/cells/sv/python-net/aspose.cells/cell/get_dependents_in_calculation) istället.
 Eller så kan användaren samla in prejudikatkarta över alla celler med [Cell.get_precedents()](/cells/sv/python-net/aspose.cells/cell/get_precedents) först,
 och bygg sedan anhörigkartan enligt prejudikatkartan.
 
 * Om en referens som innehåller denna cell visas i en cells formel, kommer den cellen att tas som
 beroende av denna cell, oavsett referens eller denna cell används eller inte under beräkningen.
 Till exempel, även om cell A2 i formeln "=OM(TRUE,A1,A2)" inte används vid beräkning,
-denna formel anses fortfarande vara beroende av A2.
+Denna formel är fortfarande beroende av A2.
 För att få de formler vars beräknade resultat beror på den här cellen, använd [Cell.get_dependents_in_calculation(recursive)](/cells/sv/python-net/aspose.cells/cell/get_dependents_in_calculation). När du spårar beroende för en cell kommer alla formler i arbetsboken eller kalkylbladet att analyseras och kontrolleras.
-Så det är en tidskrävande process. Om användaren behöver spåra anhöriga för många celler, kommer denna metod att göra det
-orsaka dålig prestanda. För prestandaövervägande bör användaren använda [Cell.get_dependents_in_calculation(recursive)](/cells/sv/python-net/aspose.cells/cell/get_dependents_in_calculation) istället.
+Så det är en tidskrävande process. Om användaren behöver spåra anhöriga för många celler, kommer den här metoden att
+orsaka dålig prestanda. För prestandaöverväganden bör användaren använda [Cell.get_dependents_in_calculation(recursive)](/cells/sv/python-net/aspose.cells/cell/get_dependents_in_calculation) istället.
 Eller så kan användaren samla in prejudikatkarta över alla celler med [Cell.get_precedents()](/cells/sv/python-net/aspose.cells/cell/get_precedents) först,
 och bygg sedan anhörigkartan enligt prejudikatkartan.
 ###  Exempel

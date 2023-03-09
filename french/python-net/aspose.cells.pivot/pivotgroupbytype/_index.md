@@ -18,12 +18,12 @@ Le type PivotGroupByType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | RANGE_OF_VALUES | Présente une plage de valeurs groupées par type.|
-| SECONDS |Présente les secondes groupées par type.|
-| MINUTES | Présente les minutes groupées par type.|
+| SECONDS | Présente les secondes groupées par type.|
+| MINUTES | Présente le groupe de minutes par type.|
 | HOURS | Présente les heures groupées par type.|
 | DAYS | Présente les jours groupés par type.|
 | MONTHS | Présente les mois groupés par type.|
-| QUARTERS | Présente les quartiers groupés par type.|
+| QUARTERS | Présente les quartiers par type.|
 | YEARS | Présente les années groupées par type.|
 
 

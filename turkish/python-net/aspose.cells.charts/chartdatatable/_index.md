@@ -1,5 +1,5 @@
 ﻿---
-title: ChartDataTable sınıf
+title: ChartDataTable sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 60
 url: /tr/python-net/aspose.cells.charts/chartdatatable/
 is_root: false
 ---
-##  ChartDataTable sınıf
+##  ChartDataTable sınıfı
 Bir grafik veri tablosunu temsil eder.
 
 
@@ -21,15 +21,15 @@ ChartDataTable türü aşağıdaki üyeleri gösterir:
 | [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/chartdatatable/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.<br/> Varsayılan değer True'dur.|
 | [background_mode](/cells/tr/python-net/aspose.cells.charts/chartdatatable/background_mode) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [background](/cells/tr/python-net/aspose.cells.charts/chartdatatable/background) | Arka planın görüntüleme modunu alır ve ayarlar|
-| [has_border_horizontal](/cells/tr/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) | Grafik veri tablosunun yatay hücre kenarlıkları varsa doğrudur|
+| [has_border_horizontal](/cells/tr/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) |Grafik veri tablosunun yatay hücre kenarlıkları varsa doğrudur|
 | [has_border_vertical](/cells/tr/python-net/aspose.cells.charts/chartdatatable/has_border_vertical) | Grafik veri tablosunun dikey hücre kenarlıkları varsa doğrudur|
 | [has_border_outline](/cells/tr/python-net/aspose.cells.charts/chartdatatable/has_border_outline) | Grafik veri tablosunda ana hat kenarlıkları varsa doğrudur|
-| [show_legend_key](/cells/tr/python-net/aspose.cells.charts/chartdatatable/show_legend_key) |Veri etiketi gösterge anahtarı görünüyorsa doğrudur.|
+| [show_legend_key](/cells/tr/python-net/aspose.cells.charts/chartdatatable/show_legend_key) | Veri etiketi gösterge anahtarı görünüyorsa doğrudur.|
 | [border](/cells/tr/python-net/aspose.cells.charts/chartdatatable/border) | Nesnenin kenarlığını temsil eden bir Border nesnesi döndürür|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

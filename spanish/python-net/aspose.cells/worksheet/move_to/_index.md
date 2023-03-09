@@ -18,7 +18,7 @@ def move_to(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | Índice de hojas de destino.|
 

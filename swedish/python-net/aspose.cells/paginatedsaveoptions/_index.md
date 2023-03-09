@@ -29,13 +29,13 @@ Typen PaginatedSaveOptions avslöjar följande medlemmar:
 | [merge_areas](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/merge_areas) | Anger om områdena för villkorlig formatering och validering ska slås samman innan filen sparas.|
 | [create_directory](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/create_directory) | Om sant och katalogen inte finns skapas katalogen automatiskt innan filen sparas.|
 | [sort_names](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
-| [sort_external_names](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/sort_external_names) | Anger om externt definierade namn sorteras innan filen sparas.|
-| [refresh_chart_cache](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/refresh_chart_cache) |Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [sort_external_names](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
+| [refresh_chart_cache](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
+| [warning_callback](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 | [default_font](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/default_font) | När tecken i Excel är Unicode och inte är inställda med korrekt typsnitt i cellstil,<br/>De kan visas som block i pdf, bild.<br/>Ställ in standardteckensnittet som MingLiu eller MS Gothic för att visa dessa tecken.<br/> Om den här egenskapen inte är inställd kommer Aspose.Cells att använda systemets standardteckensnitt för att visa dessa unicode-tecken.|
 | [check_workbook_default_font](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/check_workbook_default_font) | När tecken i Excel är Unicode och inte är inställda med korrekt typsnitt i cellstil,<br/>De kan visas som block i pdf, bild.<br/> Ställ in detta på sant för att försöka använda arbetsbokens standardteckensnitt för att visa dessa tecken först.|
-| [check_font_compatibility](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/check_font_compatibility) | Anger om teckensnittskompatibilitet ska kontrolleras för varje tecken i texten.|
+| [check_font_compatibility](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/check_font_compatibility) |Anger om teckensnittskompatibilitet ska kontrolleras för varje tecken i texten.|
 | [is_font_substitution_char_granularity](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/is_font_substitution_char_granularity) | Indikerar om teckensnittet endast ska bytas ut när cellteckensnittet inte är kompatibelt med det.|
 | [one_page_per_sheet](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/one_page_per_sheet) | Om OnePagePerSheet är sant , kommer allt innehåll på ett ark endast att matas ut till en sida som resultat.<br/> Pappersstorleken för sidinställningarna kommer att vara ogiltig, och de andra inställningarna för sidinställningarna<br/> kommer fortfarande att träda i kraft.|
 | [all_columns_in_one_page_per_sheet](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/all_columns_in_one_page_per_sheet) | Om AllColumnsInOnePagePerSheet är sant , kommer allt kolumninnehåll i ett ark att matas ut till endast en sida i resultat.<br/> Bredden på pappersstorleken för sidinställningarna ignoreras, och de andra inställningarna för sidinställningarna<br/> kommer fortfarande att träda i kraft.|
@@ -49,7 +49,7 @@ Typen PaginatedSaveOptions avslöjar följande medlemmar:
 | [default_edit_language](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/default_edit_language) | Hämtar eller ställer in standardspråk för redigering.|
 | [sheet_set](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/sheet_set) |Hämtar eller ställer in arken att rendera. Standard är alla synliga ark i arbetsboken: [SheetSet.visible](/cells/sv/python-net/aspose.cells.rendering/sheetset#visible).|
 | [draw_object_event_handler](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/draw_object_event_handler) | Implementerar detta gränssnitt för att få DrawObject och Bound vid rendering.|
-| [page_saving_callback](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/page_saving_callback) |Kontrollera/indikera framsteg för sidsparprocessen.|
+| [page_saving_callback](/cells/sv/python-net/aspose.cells/paginatedsaveoptions/page_saving_callback) | Kontrollera/indikera framsteg för sidsparprocessen.|
 
 
 

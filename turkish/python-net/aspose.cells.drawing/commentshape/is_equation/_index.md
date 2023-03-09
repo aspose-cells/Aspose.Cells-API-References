@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin yalnızca bir denklem içerip içermediğini gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

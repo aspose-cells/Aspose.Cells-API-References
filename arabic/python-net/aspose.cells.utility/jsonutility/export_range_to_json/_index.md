@@ -22,15 +22,15 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | range | [Range](/cells/ar/python-net/aspose.cells/range) | النطاق.|
 | options | [ExportRangeToJsonOptions](/cells/ar/python-net/aspose.cells.utility/exportrangetojsonoptions) | خيارات التصدير.|
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
 الرجاء استخدام طريقة ExportRangeToJson (Range range ، خيارات JsonSaveOptions).
-ستتم إزالة هذا العقار بعد 6 أشهر منذ نوفمبر 2022.
+ ستتم إزالة هذا العقار بعد 6 أشهر منذ نوفمبر 2022.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
 
 ##  export_range_to_json(range, options) {#Range-JsonSaveOptions}
@@ -48,7 +48,7 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | range | [Range](/cells/ar/python-net/aspose.cells/range) | النطاق.|
 | options | [JsonSaveOptions](/cells/ar/python-net/aspose.cells/jsonsaveoptions) | خيارات التصدير.|

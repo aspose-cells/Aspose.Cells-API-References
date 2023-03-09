@@ -13,8 +13,8 @@ Representa si la opción de clasificación está permitida en una hoja de cálcu
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
- utilice la propiedad Protection.AllowSorting.
+ NOTA: Este miembro ahora está obsoleto.
+ Utilice la propiedad Protection.AllowSorting.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

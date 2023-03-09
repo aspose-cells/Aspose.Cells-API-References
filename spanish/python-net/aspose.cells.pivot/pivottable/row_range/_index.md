@@ -10,7 +10,7 @@ is_root: false
 ##  row_range propiedad
 
 Devuelve un objeto CellArea que representa el rango
-que contiene el área de la fila en el informe de tabla dinámica. Solo lectura.
+que contiene el área de la fila en el informe de tabla dinámica.
 ###  Definición:
 ```python
 @property

@@ -29,9 +29,9 @@ Typen DataLabelShapeType avslöjar följande medlemmar:
 | WEDGE_ELLIPSE_CALLOUT | Representerar kilellipsens bildtextform.|
 | LINE_CALLOUT | Representerar linjetextformen.|
 | BENT_LINE_CALLOUT | Representerar den böjda linjetextformen.|
-| LINE_WITH_ACCENT_BAR_CALLOUT | Representerar linjen med accentstapelns bildtextform.|
+| LINE_WITH_ACCENT_BAR_CALLOUT |Representerar linjen med accentstapelns bildtextform.|
 | BENT_LINE_WITH_ACCENT_BAR_CALLOUT | Representerar den böjda linjen med accentstapelförklaringsform.|
-| LINE |Denna typ används endast för speciell filbehandling|
+| LINE | Denna typ används endast för speciell filbehandling|
 
 
 

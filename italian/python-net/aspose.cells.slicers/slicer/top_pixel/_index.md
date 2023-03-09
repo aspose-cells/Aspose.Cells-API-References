@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta l'offset verticale della forma affettatrice dalla riga superiore, in pixel.
 
-###  Esempio
+###  Esempi
 
 ```python
 

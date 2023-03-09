@@ -13,7 +13,7 @@ Inizia a elaborare una riga.
 
 ###  ritorna
 
-se le celle di questa riga devono essere elaborate. false per ignorare tutte le celle in questa riga.
+se le celle di questa riga devono essere elaborate false per ignorare tutte le celle di questa riga.
 
 
 ```python
@@ -22,12 +22,12 @@ def process_row(self, row):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | [Row](/cells/it/python-net/aspose.cells/row) | Oggetto riga attualmente in fase di elaborazione.|
 ###  Osservazioni
 
-Sarà chiamato dopo le proprietà della riga come altezza, stile, ... ecc. sono stati letti. Tuttavia, le celle in questa riga non sono state ancora lette.
+Sarà chiamato dopo le proprietà della riga come altezza, stile, ... ecc.
 
 
 ###  Guarda anche

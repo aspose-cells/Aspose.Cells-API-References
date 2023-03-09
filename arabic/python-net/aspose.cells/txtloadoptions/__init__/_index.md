@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/txtloadoptions/__init__/
 is_root: false
 ---
 ##  TxtLoadOptions() {#}
-ينشئ خيارات لتحميل ملف نصي.
+ينشئ خيارات لتحميل الملفات النصية.
 
 
 
@@ -24,7 +24,7 @@ def __init__(self):
 
 ##  TxtLoadOptions(load_format) {#LoadFormat}
 
-ينشئ خيارات لتحميل ملف نصي.
+ينشئ خيارات لتحميل الملفات النصية.
 
 
 
@@ -34,7 +34,7 @@ def __init__(self, load_format):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/ar/python-net/aspose.cells/loadformat) | تنسيق التحميل|
 

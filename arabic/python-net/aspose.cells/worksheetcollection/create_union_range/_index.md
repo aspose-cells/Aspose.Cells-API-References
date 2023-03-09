@@ -22,7 +22,7 @@ def create_union_range(self, address, sheet_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | address | str | عنوان النطاق.|
 | sheet_index | int | فهرس الورقة.|

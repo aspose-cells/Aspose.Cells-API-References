@@ -18,7 +18,7 @@ def custom_theme(self, theme_name, colors):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | theme_name | str | Temat namn|
 | colors | aspose.pydrawing.Color[] | Temafärgerna|

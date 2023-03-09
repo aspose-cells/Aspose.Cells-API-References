@@ -13,7 +13,7 @@ Indica si optimizar los elementos de salida.
 
 ###  Observaciones
 
-El valor predeterminado es falso. Actualmente, solo las líneas de borde están optimizadas cuando esta propiedad se establece en verdadero.
+El valor predeterminado es falso. Actualmente, solo se optimizan las líneas del borde cuando esta propiedad se establece en verdadero.
 ###  Definición:
 ```python
 @property

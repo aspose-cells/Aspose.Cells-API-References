@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den voreingestellten Textformtyp ab und legt ihn fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import AutoShapeType

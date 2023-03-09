@@ -22,7 +22,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [JsonSaveOptions()](/cells/ar/python-net/aspose.cells/jsonsaveoptions/__init__/#) | ينشئ خيارات لحفظ ملف json.|
+| [JsonSaveOptions()](/cells/ar/python-net/aspose.cells/jsonsaveoptions/__init__/#) |ينشئ خيارات لحفظ ملفات json.|
 
 
 ###  ملكيات
@@ -35,17 +35,17 @@ is_root: false
 | [merge_areas](/cells/ar/python-net/aspose.cells/jsonsaveoptions/merge_areas) | يشير إلى ما إذا كان يتم دمج مناطق التنسيق الشرطي والتحقق من الصحة قبل حفظ الملف.|
 | [create_directory](/cells/ar/python-net/aspose.cells/jsonsaveoptions/create_directory) | إذا كان صحيحًا وكان الدليل غير موجود ، فسيتم إنشاء الدليل تلقائيًا قبل حفظ الملف.|
 | [sort_names](/cells/ar/python-net/aspose.cells/jsonsaveoptions/sort_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة قبل حفظ الملف.|
-| [sort_external_names](/cells/ar/python-net/aspose.cells/jsonsaveoptions/sort_external_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة الخارجية قبل حفظ الملف.|
-| [refresh_chart_cache](/cells/ar/python-net/aspose.cells/jsonsaveoptions/refresh_chart_cache) |يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
-| [warning_callback](/cells/ar/python-net/aspose.cells/jsonsaveoptions/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
+| [sort_external_names](/cells/ar/python-net/aspose.cells/jsonsaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة خارجيًا قبل حفظ الملف.|
+| [refresh_chart_cache](/cells/ar/python-net/aspose.cells/jsonsaveoptions/refresh_chart_cache) | يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
+| [warning_callback](/cells/ar/python-net/aspose.cells/jsonsaveoptions/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
 | [update_smart_art](/cells/ar/python-net/aspose.cells/jsonsaveoptions/update_smart_art) | يشير إلى ما إذا كان يتم تحديث إعداد الفن الذكي.<br/> القيمة الافتراضية هي كاذبة.|
 | [export_hyperlink_type](/cells/ar/python-net/aspose.cells/jsonsaveoptions/export_hyperlink_type) | يمثل نوع تصدير الارتباط التشعبي إلى json.|
 | [skip_empty_rows](/cells/ar/python-net/aspose.cells/jsonsaveoptions/skip_empty_rows) | يشير إلى ما إذا كان يتم تخطي صفوف emtpy أم لا.|
 | [sheet_indexes](/cells/ar/python-net/aspose.cells/jsonsaveoptions/sheet_indexes) | يمثل فهارس الأوراق المصدرة.|
 | [export_area](/cells/ar/python-net/aspose.cells/jsonsaveoptions/export_area) | الحصول على أو تحديد نطاق التصدير.|
-| [has_header_row](/cells/ar/python-net/aspose.cells/jsonsaveoptions/has_header_row) | يشير إلى ما إذا كان النطاق يحتوي على صف الرأس.|
+| [has_header_row](/cells/ar/python-net/aspose.cells/jsonsaveoptions/has_header_row) | يشير إلى ما إذا كان النطاق يحتوي على صف رأس.|
 | [export_as_string](/cells/ar/python-net/aspose.cells/jsonsaveoptions/export_as_string) | يصدر قيمة سلسلة الخلايا إلى json.|
-| [indent](/cells/ar/python-net/aspose.cells/jsonsaveoptions/indent) | يشير إلى المسافة البادئة.|
+| [indent](/cells/ar/python-net/aspose.cells/jsonsaveoptions/indent) | يشير إلى الفهرس.|
 | [export_nested_structure](/cells/ar/python-net/aspose.cells/jsonsaveoptions/export_nested_structure) | تم تصديره كهيكل Json للتسلسل الهرمي الأصل - الفرعي.|
 | [export_empty_cells](/cells/ar/python-net/aspose.cells/jsonsaveoptions/export_empty_cells) | الإشارة إلى ما إذا كان يتم تصدير خلايا فارغة كخلايا فارغة.|
 | [always_export_as_json_object](/cells/ar/python-net/aspose.cells/jsonsaveoptions/always_export_as_json_object) | يشير إلى ما إذا كان يتم دائمًا تصدير Excel إلى json ككائن ، حتى لو كانت هناك ورقة عمل فقط في الملف.|

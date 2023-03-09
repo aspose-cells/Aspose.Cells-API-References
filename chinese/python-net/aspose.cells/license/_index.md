@@ -1,13 +1,13 @@
 ﻿---
 title: License类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 980
 url: /zh/python-net/aspose.cells/license/
 is_root: false
 ---
-##  License类
+## License类
 提供许可组件的方法。
 
 

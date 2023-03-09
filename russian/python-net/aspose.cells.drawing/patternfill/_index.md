@@ -24,10 +24,10 @@ is_root: false
 | :- | :- |
 | [pattern](/cells/ru/python-net/aspose.cells.drawing/patternfill/pattern) | Получает или задает тип узора заливки|
 | [background_color](/cells/ru/python-net/aspose.cells.drawing/patternfill/background_color) | Получает или задает цвет фона объекта [Area](/cells/ru/python-net/aspose.cells.drawing/area).|
-| [background_cells_color](/cells/ru/python-net/aspose.cells.drawing/patternfill/background_cells_color) | Получает и задает объект переднего плана [CellsColor](/cells/ru/python-net/aspose.cells/cellscolor).|
+| [background_cells_color](/cells/ru/python-net/aspose.cells.drawing/patternfill/background_cells_color) |Получает и задает объект переднего плана [CellsColor](/cells/ru/python-net/aspose.cells/cellscolor).|
 | [foreground_color](/cells/ru/python-net/aspose.cells.drawing/patternfill/foreground_color) | Получает или задает цвет переднего плана.|
-| [foreground_cells_color](/cells/ru/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) | Получает и задает объект переднего плана [CellsColor](/cells/ru/python-net/aspose.cells/cellscolor).|
-| [fore_transparency](/cells/ru/python-net/aspose.cells.drawing/patternfill/fore_transparency) |Получает или задает прозрачность цвета переднего плана.|
+| [foreground_cells_color](/cells/ru/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) |Получает и задает объект переднего плана [CellsColor](/cells/ru/python-net/aspose.cells/cellscolor).|
+| [fore_transparency](/cells/ru/python-net/aspose.cells.drawing/patternfill/fore_transparency) | Получает или задает прозрачность цвета переднего плана.|
 | [back_transparency](/cells/ru/python-net/aspose.cells.drawing/patternfill/back_transparency) | Получает или задает прозрачность цвета фона.|
 
 

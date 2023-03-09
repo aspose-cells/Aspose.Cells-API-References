@@ -13,7 +13,7 @@ Ruft den vom Gebietsschema abhängigen Text für den integrierten Namen gemäß 
 
 ###  Kehrt zurück
 
-Vom Gebietsschema abhängiger Text. Das Gebietsschema wurde von der Arbeitsmappe angegeben, für die diese Einstellungen verwendet werden.
+Vom Gebietsschema abhängiger Text.
 
 
 ```python

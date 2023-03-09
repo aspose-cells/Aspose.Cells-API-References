@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  العد OdsPageBackgroundType
-يمثل نوع خلفية الصفحة من ods.
+يمثل نوع خلفية الصفحة من الاحتمالات.
 
 
 

@@ -24,7 +24,7 @@ def get_leafs(self):
 
 ###  Anmärkningar
 
-OBS: Denna klass är nu föråldrad. Istället,
+OBS: Denna klass är nu föråldrad.
 använd Cell.GetDependentsInCalculation(bool) för att få alla anhöriga i beräkningskedjan.
 Den här egenskapen kommer att tas bort 12 månader senare sedan maj 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
@@ -44,12 +44,12 @@ def get_leafs(self, recursive):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | recursive | bool | Om returnerar de blad som inte refererar till den här cellen direkt<br/> men hänvisning till andra blad i denna cell|
 ###  Anmärkningar
 
-OBS: Denna klass är nu föråldrad. Istället,
+OBS: Denna klass är nu föråldrad.
 använd Cell.GetDependentsInCalculation(bool) för att få alla anhöriga i beräkningskedjan.
 Den här egenskapen kommer att tas bort 12 månader senare sedan maj 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

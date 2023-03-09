@@ -17,9 +17,9 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [name](/cells/ar/python-net/aspose.cells/protectedrange/name) | يحصل على عنوان النطاق. يتم استخدام هذا كواصف ، وليس كتعريف نطاق مسمى.|
+| [name](/cells/ar/python-net/aspose.cells/protectedrange/name) | يحصل على عنوان النطاق.|
 | [cell_area](/cells/ar/python-net/aspose.cells/protectedrange/cell_area) | الحصول على العنصر [ProtectedRange.cell_area](/cells/ar/python-net/aspose.cells/protectedrange#cell_area) الذي يمثل مساحة الخانة المطلوب حمايتها.|
-| [is_protected_with_password](/cells/ar/python-net/aspose.cells/protectedrange/is_protected_with_password) | يشير إلى ما إذا كانت أوراق العمل محمية بكلمة مرور.|
+| [is_protected_with_password](/cells/ar/python-net/aspose.cells/protectedrange/is_protected_with_password) |يشير إلى ما إذا كانت أوراق العمل محمية بكلمة مرور.|
 | [password](/cells/ar/python-net/aspose.cells/protectedrange/password) | يمثل كلمة المرور لحماية النطاق.|
 | [security_descriptor](/cells/ar/python-net/aspose.cells/protectedrange/security_descriptor) | يحدد واصف الأمان حسابات المستخدمين الذين يمكنهم تحرير هذا النطاق دون توفير كلمة مرور للوصول إلى النطاق.|
 

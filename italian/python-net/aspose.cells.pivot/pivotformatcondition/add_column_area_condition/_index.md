@@ -18,7 +18,7 @@ def add_column_area_condition(self, field_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | field_name | str | Il nome di PivotField.|
 
@@ -34,7 +34,7 @@ def add_column_area_condition(self, column_field):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column_field | [PivotField](/cells/it/python-net/aspose.cells.pivot/pivotfield) | Il PivotField nei campi della colonna.|
 

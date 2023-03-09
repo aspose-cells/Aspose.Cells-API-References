@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin 3 boyutlu biçimini alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

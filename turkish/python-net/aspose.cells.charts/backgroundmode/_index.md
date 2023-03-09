@@ -18,7 +18,7 @@ BackgroundMode türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | AUTOMATIC | Otomatik|
-| OPAQUE | Opak|
+| OPAQUE |Opak|
 | TRANSPARENT | Şeffaf|
 
 

@@ -13,8 +13,8 @@ Representerar om formatering av celler är tillåten på ett skyddat kalkylblad.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
- använd egenskapen Protection.AllowFormattingCell.
+ OBS: Denna medlem är nu föråldrad.
+ använd skydd. Egenskapen AllowFormattingCell.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

@@ -30,7 +30,7 @@ Le type Sparkline expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import CellArea, Workbook

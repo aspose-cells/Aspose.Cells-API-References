@@ -17,11 +17,11 @@ Typen Line avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [compound_type](/cells/sv/python-net/aspose.cells.drawing/line/compound_type) |Anger den sammansatta linjetypen|
+| [compound_type](/cells/sv/python-net/aspose.cells.drawing/line/compound_type) | Anger den sammansatta linjetypen|
 | [dash_type](/cells/sv/python-net/aspose.cells.drawing/line/dash_type) | Anger typen av strecklinje|
 | [cap_type](/cells/sv/python-net/aspose.cells.drawing/line/cap_type) | Anger slutbeteckningarna.|
 | [join_type](/cells/sv/python-net/aspose.cells.drawing/line/join_type) | Specificerar sammanfogningslocken.|
-| [begin_type](/cells/sv/python-net/aspose.cells.drawing/line/begin_type) | Anger en pilspets för början av en rad.|
+| [begin_type](/cells/sv/python-net/aspose.cells.drawing/line/begin_type) |Anger en pilspets för början av en rad.|
 | [end_type](/cells/sv/python-net/aspose.cells.drawing/line/end_type) | Anger en pilspets för slutet av en rad.|
 | [begin_arrow_length](/cells/sv/python-net/aspose.cells.drawing/line/begin_arrow_length) | Anger längden på pilspetsen för början av en linje.|
 | [end_arrow_length](/cells/sv/python-net/aspose.cells.drawing/line/end_arrow_length) | Anger längden på pilspetsen för slutet av en linje.|
@@ -35,7 +35,7 @@ Typen Line avslöjar följande medlemmar:
 | [weight_pt](/cells/sv/python-net/aspose.cells.drawing/line/weight_pt) | Hämtar eller ställer in linjens vikt i poängenhet.|
 | [weight_px](/cells/sv/python-net/aspose.cells.drawing/line/weight_px) | Hämtar eller ställer in linjens vikt i pixelenhet.|
 | [formatting_type](/cells/sv/python-net/aspose.cells.drawing/line/formatting_type) | Hämtar eller ställer in formattyp.|
-| [is_automatic_color](/cells/sv/python-net/aspose.cells.drawing/line/is_automatic_color) |Indikerar om färgen på linjen tilldelas automatiskt.|
+| [is_automatic_color](/cells/sv/python-net/aspose.cells.drawing/line/is_automatic_color) | Indikerar om färgen på linjen tilldelas automatiskt.|
 | [is_visible](/cells/sv/python-net/aspose.cells.drawing/line/is_visible) | Representerar om linjen är synlig.|
 | [is_auto](/cells/sv/python-net/aspose.cells.drawing/line/is_auto) | Indikerar om denna linjestil är autotilldelad.|
 | [gradient_fill](/cells/sv/python-net/aspose.cells.drawing/line/gradient_fill) | Representerar gradientfyllning.|

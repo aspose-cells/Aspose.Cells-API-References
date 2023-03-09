@@ -22,7 +22,7 @@ Typen FolderFontSource avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/sv/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Ctor.|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/sv/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Direktör.|
 
 
 ###  Egenskaper

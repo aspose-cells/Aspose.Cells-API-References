@@ -1,13 +1,13 @@
 ﻿---
 title: VmlShapeGuide类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 740
 url: /zh/python-net/aspose.cells.drawing/vmlshapeguide/
 is_root: false
 ---
-##  VmlShapeGuide类
+## VmlShapeGuide类
 仅适用于 vml
 封装形状指南指定形状的存在
 将用于管理指定形状的几何形状的指南

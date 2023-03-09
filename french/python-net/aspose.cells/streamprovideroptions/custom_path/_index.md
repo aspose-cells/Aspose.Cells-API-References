@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  custom_path propriété
 
-Le chemin personnalisé de l'utilisateur (URL) enregistré dans le fichier html généré pour la source référencée. S'il n'est pas défini par l'utilisateur, DefaultPath sera utilisé.
+Le chemin personnalisé de l'utilisateur (URL) enregistré dans le fichier html généré pour la source référencée.
 Par exemple, les données de la feuille seront enregistrées par l'utilisateur dans d:/sheet001.htm, l'URL utilisée dans le fichier html principal doit être "d:/sheet001.htm" ou un autre chemin relatif valide accessible par le fichier html principal. déposer.
 ###  Définition:
 ```python

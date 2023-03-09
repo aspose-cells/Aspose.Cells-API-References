@@ -24,11 +24,11 @@ Der Typ FileFormatUtil macht die folgenden Member verfügbar:
 | [verify_password(stream, password)](/cells/de/python-net/aspose.cells/fileformatutil/verify_password/#io.RawIOBase-str) | Erkennt und gibt die Informationen über ein Excel-Format zurück, das in einem Stream gespeichert ist.|
 | [file_format_to_save_format(format)](/cells/de/python-net/aspose.cells/fileformatutil/file_format_to_save_format/#FileFormatType) | Konvertieren des Dateiformats in das Speicherformat.|
 | [extension_to_save_format(extension)](/cells/de/python-net/aspose.cells/fileformatutil/extension_to_save_format/#str) | Konvertiert eine Dateinamenerweiterung in einen SaveFormat-Wert.|
-| [is_template_format(extension)](/cells/de/python-net/aspose.cells/fileformatutil/is_template_format/#str) | Gibt true zurück, wenn die Erweiterung .xlt, .xltX, .xltm, .ots ist.|
+| [is_template_format(extension)](/cells/de/python-net/aspose.cells/fileformatutil/is_template_format/#str) | Gibt wahr zurück, wenn die Erweiterung .xlt, .xltX, .xltm, .ots ist.|
 | [load_format_to_extension(load_format)](/cells/de/python-net/aspose.cells/fileformatutil/load_format_to_extension/#LoadFormat) | Konvertiert einen Aufzählungswert im Ladeformat in eine Dateierweiterung.|
 | [load_format_to_save_format(load_format)](/cells/de/python-net/aspose.cells/fileformatutil/load_format_to_save_format/#LoadFormat) | Konvertiert einen LoadFormat-Wert nach Möglichkeit in einen SaveFormat-Wert.|
 | [save_format_to_extension(format)](/cells/de/python-net/aspose.cells/fileformatutil/save_format_to_extension/#SaveFormat) | Konvertiert einen Aufzählungswert im Speicherformat in eine Dateierweiterung.|
-| [save_format_to_load_format(save_format)](/cells/de/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) |Konvertiert einen SaveFormat-Wert nach Möglichkeit in einen LoadFormat-Wert.|
+| [save_format_to_load_format(save_format)](/cells/de/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) | Konvertiert einen SaveFormat-Wert nach Möglichkeit in einen LoadFormat-Wert.|
 
 
 

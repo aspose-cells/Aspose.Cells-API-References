@@ -22,7 +22,7 @@ def add_copy(self, sheet_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet_name | str | Namn på källarbetsblad.|
 ###  Undantag
@@ -48,9 +48,9 @@ def add_copy(self, sheet_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| sheet_index | int | Index över källarbetsblad.|
+| sheet_index | int | Källregister källblad.|
 
 
 

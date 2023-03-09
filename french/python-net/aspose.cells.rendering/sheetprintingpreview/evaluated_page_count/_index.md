@@ -11,7 +11,7 @@ is_root: false
 
 Évaluer le nombre total de pages de cette feuille de calcul
 
-###  Exemple
+###  Exemples
 
 Le code suivant montre le moyen le plus rapide d'obtenir le nombre de pages d'une feuille de calcul.
 

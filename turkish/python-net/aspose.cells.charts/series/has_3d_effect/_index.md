@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_3d_effect mülk
 
-Serinin üç boyutlu bir görünümü varsa doğrudur.
+ Serinin üç boyutlu bir görünümü varsa doğrudur.
 Yalnızca kabarcık grafikler için geçerlidir.
 ###  Tanım:
 ```python

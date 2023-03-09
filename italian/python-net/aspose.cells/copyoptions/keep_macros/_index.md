@@ -13,7 +13,7 @@ Indica se mantenere le macro;
 
 ###  Osservazioni
 
-Solo per copiare la cartella di lavoro.
+Solo per copiare le cartelle di lavoro.
 ###  Definizione:
 ```python
 @property

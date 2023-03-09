@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionRenameSheet sınıf
+title: RevisionRenameSheet sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 170
 url: /tr/python-net/aspose.cells.revisions/revisionrenamesheet/
 is_root: false
 ---
-##  RevisionRenameSheet sınıf
+##  RevisionRenameSheet sınıfı
 Yeniden adlandırma sayfasının revizyonunu temsil eder.
 
 

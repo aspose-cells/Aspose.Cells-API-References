@@ -22,13 +22,13 @@ def import_data(self, json, cells, row, column, option):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | json | str | json dizisi.|
 | cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Cells.|
 | row | int | Satır dizini.|
 | column | int | Sütun dizini.|
-| option | [JsonLayoutOptions](/cells/tr/python-net/aspose.cells.utility/jsonlayoutoptions) | Json dizesini içe aktarma seçenekleri.|
+| option | [JsonLayoutOptions](/cells/tr/python-net/aspose.cells.utility/jsonlayoutoptions) | Json dizelerini içe aktarma seçenekleri.|
 
 
 

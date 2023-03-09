@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  max_change Eigentum
 
-Gibt die maximale Anzahl der Änderungen zurück oder legt sie fest, um einen Zirkelverweis aufzulösen.
+Gibt die maximale Anzahl von Änderungen zum Auflösen eines Zirkelverweises zurück oder legt sie fest.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte FormulaSettings.MaxChange.
+HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen FormulaSettings.MaxChange.
  Diese Property wird 12 Monate später seit Februar 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

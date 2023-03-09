@@ -17,15 +17,15 @@ Il tipo SlicerCache espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [cross_filter_type](/cells/it/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Restituisce o imposta se un'affettatrice partecipa al filtro incrociato con altre affettatrici<br/> che condividono la stessa cache slicer e come viene visualizzato il filtro incrociato. Leggere scrivere|
-| [list](/cells/it/python-net/aspose.cells.slicers/slicercache/list) | Restituisce se l'affettatrice associata alla cache affettatrice specificata è basata su un'origine dati non OLAP. Sola lettura|
-| [slicer_cache_items](/cells/it/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Restituisce una raccolta SlicerCacheItem che contiene la raccolta di tutti gli elementi nella cache del filtro dei dati. Sola lettura|
+| [cross_filter_type](/cells/it/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Restituisce o imposta se un'affettatrice partecipa al filtro incrociato con altre affettatrici<br/> che condividono la stessa cache slicer e come viene visualizzato il filtro incrociato.|
+| [list](/cells/it/python-net/aspose.cells.slicers/slicercache/list) | Restituisce se l'affettatrice è associata alla cache affettatrice specificata è basata su un'origine dati non OLAP.|
+| [slicer_cache_items](/cells/it/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Restituisce una raccolta SlicerCacheItem che contiene la raccolta di tutti gli elementi nella cache del filtro dei dati.|
 | [name](/cells/it/python-net/aspose.cells.slicers/slicercache/name) | Restituisce il nome della cache del filtro dei dati.|
 | [source_name](/cells/it/python-net/aspose.cells.slicers/slicercache/source_name) | Restituisce il nome del campo cache|
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

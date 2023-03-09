@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [ShapePathType](/cells/ar/python-net/aspose.cells.drawing/shapepathtype) | نوع المسار.|
 

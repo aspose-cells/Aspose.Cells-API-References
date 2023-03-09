@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin_inch Eigentum
 
-Stellt die Größe des rechten Rands in Zoll dar.
+Stellt die Größe des rechten Rands in Zolleinheiten dar.
 ###  Definition:
 ```python
 @property

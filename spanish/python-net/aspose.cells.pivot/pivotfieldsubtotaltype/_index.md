@@ -26,10 +26,10 @@ El tipo PivotFieldSubtotalType expone los siguientes miembros:
 | MIN | Representa el tipo de subtotal mínimo.|
 | PRODUCT | Representa el tipo de subtotal del producto.|
 | COUNT_NUMS | Representa el tipo de subtotal Count Nums.|
-| STDEV | Representa el tipo de subtotal Stdev.|
+| STDEV |Representa el tipo de subtotal Stdev.|
 | STDEVP | Representa el tipo de subtotal Stdevp.|
 | VAR | Representa el tipo de subtotal Var.|
-| VARP |Representa el tipo de subtotal Varp.|
+| VARP | Representa el tipo de subtotal Varp.|
 
 
 

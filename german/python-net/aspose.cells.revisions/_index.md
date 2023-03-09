@@ -19,12 +19,12 @@ is_root: false
 | [RevisionCellMove](/cells/de/python-net/aspose.cells.revisions/revisioncellmove) | Stellt einen Revisionsdatensatz für eine(n) verschobene(n) Zelle(n) dar.|
 | [RevisionCollection](/cells/de/python-net/aspose.cells.revisions/revisioncollection) | Stellt alle Revisionsprotokolle dar.|
 | [RevisionCustomView](/cells/de/python-net/aspose.cells.revisions/revisioncustomview) | Stellt einen Überarbeitungsdatensatz zum Hinzufügen oder Entfernen einer benutzerdefinierten Ansicht zur Arbeitsmappe dar|
-| [RevisionDefinedName](/cells/de/python-net/aspose.cells.revisions/revisiondefinedname) |Stellt einen Revisionsdatensatz einer definierten Namensänderung dar.|
+| [RevisionDefinedName](/cells/de/python-net/aspose.cells.revisions/revisiondefinedname) | Stellt einen Revisionsdatensatz einer definierten Namensänderung dar.|
 | [RevisionFormat](/cells/de/python-net/aspose.cells.revisions/revisionformat) | Stellt einen Überarbeitungsdatensatz mit Informationen zu einer Formatierungsänderung dar.|
 | [RevisionHeader](/cells/de/python-net/aspose.cells.revisions/revisionheader) | Stellt eine Liste bestimmter Änderungen dar, die für diese Arbeitsmappe vorgenommen wurden.|
 | [RevisionInsertDelete](/cells/de/python-net/aspose.cells.revisions/revisioninsertdelete) | Stellt einen Revisionsdatensatz einer Aktion zum Einfügen/Löschen von Zeilen/Spalten dar.|
 | [RevisionInsertSheet](/cells/de/python-net/aspose.cells.revisions/revisioninsertsheet) | Stellt einen Revisionsdatensatz eines eingefügten Blatts dar.|
-| [RevisionLog](/cells/de/python-net/aspose.cells.revisions/revisionlog) | Stellt das Revisionsprotokoll dar.|
+| [RevisionLog](/cells/de/python-net/aspose.cells.revisions/revisionlog) |Stellt das Revisionsprotokoll dar.|
 | [RevisionLogCollection](/cells/de/python-net/aspose.cells.revisions/revisionlogcollection) | Stellt alle Revisionsprotokolle dar.|
 | [RevisionMergeConflict](/cells/de/python-net/aspose.cells.revisions/revisionmergeconflict) | Stellt einen Überarbeitungsdatensatz dar, der angibt, dass ein Zusammenführungskonflikt aufgetreten ist.|
 | [RevisionQueryTable](/cells/de/python-net/aspose.cells.revisions/revisionquerytable) | Stellt eine Überarbeitung einer Feldänderung in einer Abfragetabelle dar.|
@@ -32,7 +32,7 @@ is_root: false
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
 | [RevisionActionType](/cells/de/python-net/aspose.cells.revisions/revisionactiontype) | Repräsentiert die Art der Überarbeitungsaktion.|
 | [RevisionType](/cells/de/python-net/aspose.cells.revisions/revisiontype) | Stellt den Revisionstyp dar.|

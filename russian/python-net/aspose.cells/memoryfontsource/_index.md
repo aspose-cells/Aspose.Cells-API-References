@@ -22,7 +22,7 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [MemoryFontSource(font_data)](/cells/ru/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Стор.|
+| [MemoryFontSource(font_data)](/cells/ru/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Директор.|
 
 
 ###  Характеристики

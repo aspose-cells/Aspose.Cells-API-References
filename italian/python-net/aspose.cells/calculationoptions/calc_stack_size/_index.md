@@ -16,8 +16,8 @@ Specifica la dimensione dello stack per il calcolo delle celle in modo ricorsivo
 Quando ci sono grandi quantità di celle devono essere calcolate in modo ricorsivo nell'albero delle dipendenze,
 StackOverflowException può essere causato nel processo di calcolo.
 In tal caso, l'utente deve specificare un valore inferiore per questa proprietà.
-Per tale situazione, l'utente deve determinare il valore corretto per questa proprietà in base alle formule e ai dati effettivi.
-Un valore troppo basso può causare un degrado delle prestazioni per il calcolo della formula.
+Per tali situazioni, l'utente deve determinare il valore corretto per questa proprietà in base alle formule e ai dati effettivi.
+Valori troppo piccoli possono causare un degrado delle prestazioni per il calcolo della formula.
 ###  Definizione:
 ```python
 @property

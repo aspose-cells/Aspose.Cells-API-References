@@ -1,13 +1,13 @@
 ﻿---
 title: FillFormat类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
 url: /zh/python-net/aspose.cells.drawing/fillformat/
 is_root: false
 ---
-##  FillFormat类
+## FillFormat类
 封装表示形状填充格式的对象。
 
 

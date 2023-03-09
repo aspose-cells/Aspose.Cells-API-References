@@ -17,7 +17,7 @@ Der Standardwert ist wahr.
 Deaktivieren Sie diese Eigenschaft, um eine bessere Leistung zu erzielen.
 Aber wenn die Standard- oder angegebene Schriftart von Text/Zeichen nicht zum Rendern verwendet werden kann,
 Im generierten PDF können unlesbare Zeichen (z. B. Block) auftreten.
-Für eine solche Situation sollte der Benutzer diese Eigenschaft auf true belassen
+Für solche Situationen sollte der Benutzer diese Eigenschaft auf true belassen
 alternative Schriftarten können gesucht und stattdessen zum Rendern des Textes verwendet werden;
 ###  Definition:
 ```python

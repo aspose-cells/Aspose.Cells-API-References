@@ -17,16 +17,16 @@ Der Typ QueryTable macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [connection_id](/cells/de/python-net/aspose.cells/querytable/connection_id) | Ruft die Verbindungs-ID der Abfragetabelle ab.|
+| [connection_id](/cells/de/python-net/aspose.cells/querytable/connection_id) |Ruft die Verbindungs-ID der Abfragetabelle ab.|
 | [external_connection](/cells/de/python-net/aspose.cells/querytable/external_connection) | Ruft die zugehörige externe Verbindung ab.|
 | [name](/cells/de/python-net/aspose.cells/querytable/name) | Ruft den Namen der Abfragetabelle ab.|
-| [result_range](/cells/de/python-net/aspose.cells/querytable/result_range) | Ruft den Bereich des Ergebnisses ab.|
+| [result_range](/cells/de/python-net/aspose.cells/querytable/result_range) | Ruft den Bereich der Ergebnisse ab.|
 | [preserve_formatting](/cells/de/python-net/aspose.cells/querytable/preserve_formatting) | Gibt die PreserveFormatting des Objekts zurück oder legt sie fest.|
 | [adjust_column_width](/cells/de/python-net/aspose.cells/querytable/adjust_column_width) | Gibt die AdjustColumnWidth des Objekts zurück oder legt sie fest.|
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

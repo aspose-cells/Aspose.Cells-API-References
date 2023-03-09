@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/groupshape/ungroup/
 is_root: false
 ---
 ##  ungroup() {#}
-Hebt die Gruppierung der Formelemente auf.
+Heben Sie die Gruppierung der Formelemente auf.
 
 
 

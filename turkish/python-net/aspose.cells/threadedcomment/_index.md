@@ -1,5 +1,5 @@
 ﻿---
-title: ThreadedComment sınıf
+title: ThreadedComment sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1440
 url: /tr/python-net/aspose.cells/threadedcomment/
 is_root: false
 ---
-##  ThreadedComment sınıf
+##  ThreadedComment sınıfı
 Zincirleme açıklamayı temsil eder.
 
 

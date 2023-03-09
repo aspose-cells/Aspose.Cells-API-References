@@ -13,7 +13,7 @@ Représente la chaîne de format de l'objet TickLabels.
 
 ###  Remarques
 
-La chaîne de formatage est identique à un paramètre de chaîne de format personnalisé pour une cellule. Par exemple, "$0".
+La chaîne de mise en forme est identique à un paramètre de chaîne de format personnalisé pour une cellule. Par exemple, "$0".
 ###  Définition:
 ```python
 @property

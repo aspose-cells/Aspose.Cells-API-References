@@ -19,15 +19,15 @@ is_root: false
 | [TableStyle](/cells/sv/python-net/aspose.cells.tables/tablestyle) | Representerar bordsstilen.|
 | [TableStyleCollection](/cells/sv/python-net/aspose.cells.tables/tablestylecollection) | Representerar alla anpassade tabellstilar.|
 | [TableStyleElement](/cells/sv/python-net/aspose.cells.tables/tablestyleelement) | Representerar elementet i tabellstilen.|
-| [TableStyleElementCollection](/cells/sv/python-net/aspose.cells.tables/tablestyleelementcollection) | Representerar alla element i tabellstilen.|
+| [TableStyleElementCollection](/cells/sv/python-net/aspose.cells.tables/tablestyleelementcollection) |Representerar alla element i tabellstilen.|
 | [TableToRangeOptions](/cells/sv/python-net/aspose.cells.tables/tabletorangeoptions) | Representerar alternativen vid konvertering av tabell till intervall.|
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
 | [TableDataSourceType](/cells/sv/python-net/aspose.cells.tables/tabledatasourcetype) | Representerar tabellens datakällastyp.|
-| [TableStyleElementType](/cells/sv/python-net/aspose.cells.tables/tablestyleelementtype) |Representerar stilelementtypen Tabell eller Pivottabell.|
+| [TableStyleElementType](/cells/sv/python-net/aspose.cells.tables/tablestyleelementtype) | Representerar stilelementtypen Tabell eller Pivottabell.|
 | [TableStyleType](/cells/sv/python-net/aspose.cells.tables/tablestyletype) | Representerar den inbyggda tabellstilstypen.|
 | [TotalsCalculation](/cells/sv/python-net/aspose.cells.tables/totalscalculation) | Bestämmer typen av beräkning i raden Totals i listkolumnen.|
 

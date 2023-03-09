@@ -11,7 +11,7 @@ is_root: false
 
 Représente le width du commentaire, en unité de pixels.
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -1,6 +1,6 @@
 ﻿---
 title: add_copy方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -22,7 +22,7 @@ def add_copy(self, sheet_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | sheet_name | str |源工作表的名称。|
 ### 例外情况
@@ -48,9 +48,9 @@ def add_copy(self, sheet_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| sheet_index | int |源工作表的索引。|
+| sheet_index | int |来源工作表索引。|
 
 
 

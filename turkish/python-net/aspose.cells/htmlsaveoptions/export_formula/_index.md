@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_formula mülk
 
-Dosyayı html'ye kaydederken formülün dışa aktarılıp aktarılmadığını gösterir. Varsayılan değer doğrudur.
+Dosyayı html'ye kaydederken formülün dışa aktarılıp aktarılmadığını gösterir.
 Çıktı html'sini excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
 ###  Tanım:
 ```python

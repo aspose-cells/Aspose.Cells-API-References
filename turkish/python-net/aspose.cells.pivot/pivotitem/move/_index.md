@@ -18,9 +18,9 @@ def move(self, count, is_same_parent):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| count | int | Yukarı veya aşağı hareket sayısı.<br/>Bu sıfırdan küçükse öğeyi yukarı taşıyın;<br/> Bu sıfırdan büyükse öğeyi aşağı taşıyın.|
+| count | int | Yukarı veya aşağı hareket sayısı.<br/>Bu sıfırdan küçükse öğeyi yukarı taşıyın;<br/>Bu sıfırdan büyükse öğeyi aşağı taşıyın.|
 | is_same_parent | bool | Taşıma işleminin aynı üst düğümde olup olmadığını belirleme|
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Scenario sınıf
+title: Scenario sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1330
 url: /tr/python-net/aspose.cells/scenario/
 is_root: false
 ---
-##  Scenario sınıf
+##  Scenario sınıfı
 Tek bir senaryoyu temsil eder.
 
 

@@ -18,11 +18,11 @@ def add_pivot_connection(self, pivot):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
 
-###  مثال
+###  أمثلة
 
 ```python
 

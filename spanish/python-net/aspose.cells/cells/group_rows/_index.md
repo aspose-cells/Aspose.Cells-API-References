@@ -18,10 +18,10 @@ def group_rows(self, first_index, last_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_index | int | El índice de la primera fila que se va a agrupar.|
-| last_index | int | El índice de la última fila que se va a agrupar.|
+| last_index | int |El índice de la última fila que se va a agrupar.|
 
 
 ##  group_rows(first_index, last_index, is_hidden) {#int-int-bool}
@@ -35,10 +35,10 @@ def group_rows(self, first_index, last_index, is_hidden):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_index | int | El índice de la primera fila que se va a agrupar.|
-| last_index | int | El índice de la última fila que se va a agrupar.|
+| last_index | int |El índice de la última fila que se va a agrupar.|
 | is_hidden | bool | Especifica si las filas agrupadas están ocultas.|
 
 

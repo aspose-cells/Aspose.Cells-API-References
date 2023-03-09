@@ -18,7 +18,7 @@ def copy(self, source):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source | [VbaProjectReference](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference) |  |
 

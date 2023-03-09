@@ -22,7 +22,7 @@ def set_dynamic_array_formula(self, array_formula, options, calculate_value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | l'espressione della formula|
 | options | [FormulaParseOptions](/cells/it/python-net/aspose.cells/formulaparseoptions) | opzioni per analizzare la formula.<br/> L'opzione "Parse" verrà ignorata e la formula verrà sempre analizzata immediatamente|
@@ -44,12 +44,12 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | l'espressione della formula|
 | options | [FormulaParseOptions](/cells/it/python-net/aspose.cells/formulaparseoptions) | opzioni per analizzare la formula.<br/> L'opzione "Parse" verrà ignorata e la formula verrà sempre analizzata immediatamente|
 | values | list |valori per quelle celle con una data formula di matrice dinamica|
-| calculate_range | bool | Indica se calcolare l'intervallo versato per questa formula di matrice dinamica.<br/>Se il parametro "values" non è nullo e questo flag è false,<br/>quindi l'altezza dell'intervallo versato sarà valori. Lunghezza e larghezza saranno valori[0].Length.|
+| calculate_range | bool | Indica se calcolare l'intervallo versato per questa formula di matrice dinamica.<br/>Se il parametro "values" non è nullo e questo flag è falso,<br/> quindi l'altezza dell'intervallo versato sarà valori. Lunghezza e larghezza saranno valori[0].Length.|
 | calculate_value | bool | se calcolare questa formula di matrice dinamica per quelle celle nell'intervallo versato quando "valori" è nullo<br/> o l'elemento corrispondente in "valori" per una cella è nullo.|
 
 
@@ -68,14 +68,14 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | l'espressione della formula|
 | options | [FormulaParseOptions](/cells/it/python-net/aspose.cells/formulaparseoptions) | opzioni per analizzare la formula.<br/> L'opzione "Parse" verrà ignorata e la formula verrà sempre analizzata immediatamente|
 | values | list |valori per quelle celle con una data formula di matrice dinamica|
-| calculate_range | bool | Indica se calcolare l'intervallo versato per questa formula di matrice dinamica.<br/>Se il parametro "values" non è nullo e questo flag è false,<br/>quindi l'altezza dell'intervallo versato sarà valori. Lunghezza e larghezza saranno valori[0].Length.|
+| calculate_range | bool | Indica se calcolare l'intervallo versato per questa formula di matrice dinamica.<br/>Se il parametro "values" non è nullo e questo flag è falso,<br/> quindi l'altezza dell'intervallo versato sarà valori. Lunghezza e larghezza saranno valori[0].Length.|
 | calculate_value | bool | se calcolare questa formula di matrice dinamica per quelle celle nell'intervallo versato quando "valori" è nullo<br/> o l'elemento corrispondente in "valori" per una cella è nullo.|
-| copts | [CalculationOptions](/cells/it/python-net/aspose.cells/calculationoptions) | Le opzioni per il calcolo della formula.<br/> In genere, per considerazioni sulle prestazioni, la proprietà [CalculationOptions.recursive](/cells/it/python-net/aspose.cells/calculationoptions#recursive) dovrebbe essere false.|
+| copts | [CalculationOptions](/cells/it/python-net/aspose.cells/calculationoptions) | Le opzioni per il calcolo della formula.<br/> In genere, per considerazioni sulle prestazioni, la proprietà [CalculationOptions.recursive](/cells/it/python-net/aspose.cells/calculationoptions#recursive) dovrebbe essere falsa.|
 
 
 

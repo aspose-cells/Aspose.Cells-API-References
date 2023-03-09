@@ -10,7 +10,7 @@ is_root: false
 ##  error_string proprietà
 
 Ottiene la stringa visualizzata nelle celle che contengono errori
-quando la proprietà DisplayErrorString è true. Il valore predefinito è una stringa vuota.
+quando la proprietà DisplayErrorString è true.Il valore predefinito è una stringa vuota.
 ###  Definizione:
 ```python
 @property

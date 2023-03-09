@@ -18,11 +18,11 @@ def copy(self, range):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range | [Range](/cells/fr/python-net/aspose.cells/range) | Objet source [Range](/cells/fr/python-net/aspose.cells/range).|
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook
@@ -52,7 +52,7 @@ def copy(self, range, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range | [Range](/cells/fr/python-net/aspose.cells/range) | La plage source.|
 | options | [PasteOptions](/cells/fr/python-net/aspose.cells/pasteoptions) | Les options spéciales de collage.|

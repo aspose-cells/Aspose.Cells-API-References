@@ -17,46 +17,46 @@ Typen MsoPresetTextEffectShape avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| PLAIN_TEXT | Oformatterad text|
+| PLAIN_TEXT | oformatterad text|
 | STOP | Sluta|
-| TRIANGLE_UP | TriangleUp|
-| TRIANGLE_DOWN | TriangleDown|
-| CHEVRON_UP | ChevronUp|
-| CHEVRON_DOWN | ChevronDown|
-| RING_INSIDE | RingInside|
-| RING_OUTSIDE | Ring Utanför|
+| TRIANGLE_UP | Triangel Upp|
+| TRIANGLE_DOWN | Triangel ner|
+| CHEVRON_UP | Chevron upp|
+| CHEVRON_DOWN | Chevron Down|
+| RING_INSIDE | Ring inuti|
+| RING_OUTSIDE | Ring utanför|
 | ARCH_UP_CURVE | ArchUpCurve|
-| ARCH_DOWN_CURVE | ArchDownCurve|
-| CIRCLE_CURVE | CircleCurve|
-| BUTTON_CURVE | ButtonCurve|
-| ARCH_UP_POUR | ArchUpPour|
-| ARCH_DOWN_POUR | ArchDownPour|
-| CIRCLE_POUR | CirclePour|
-| BUTTON_POUR | KnappHäll|
-| CURVE_UP | CurveUp|
-| CURVE_DOWN | CurveDown|
-| CAN_UP |CanUp|
-| CAN_DOWN | CanDown|
+| ARCH_DOWN_CURVE |Båg ner kurva|
+| CIRCLE_CURVE | Cirkelkurva|
+| BUTTON_CURVE | Knappkurva|
+| ARCH_UP_POUR | Arch Up Pour|
+| ARCH_DOWN_POUR | Arch Down Pour|
+| CIRCLE_POUR | Cirkel Häll|
+| BUTTON_POUR | Knapp Häll|
+| CURVE_UP | Kurva upp|
+| CURVE_DOWN | Kurva ner|
+| CAN_UP | Kan Upp|
+| CAN_DOWN | Can Down|
 | WAVE1 | Våg 1|
 | WAVE2 | Våg 2|
 | DOUBLE_WAVE1 | DoubleWave1|
 | DOUBLE_WAVE2 | DoubleWave2|
 | INFLATE | Blåsa upp|
 | DEFLATE | Töm luften|
-| INFLATE_BOTTOM | InflateBottom|
-| DEFLATE_BOTTOM | DeflateBottom|
-| INFLATE_TOP | InflateTop|
-| DEFLATE_TOP | DeflateTop|
-| DEFLATE_INFLATE | DeflateInflate|
+| INFLATE_BOTTOM | Blås upp botten|
+| DEFLATE_BOTTOM | Töm botten|
+| INFLATE_TOP | Blås upp toppen|
+| DEFLATE_TOP | Töm toppen|
+| DEFLATE_INFLATE | Tömma Blås upp|
 | DEFLATE_INFLATE_DEFLATE | DeflateInflateDeflate|
-| FADE_RIGHT | FadeRight|
-| FADE_LEFT | Tona vänster|
+| FADE_RIGHT | Tona höger|
+| FADE_LEFT | Tona till vänster|
 | FADE_UP | Tona upp|
-| FADE_DOWN | Tona ned|
+| FADE_DOWN | Tona ner|
 | SLANT_UP | SlantUp|
-| SLANT_DOWN | SlantDown|
-| CASCADE_UP | CascadeUp|
-| CASCADE_DOWN | CascadeDown|
+| SLANT_DOWN | Luta ner|
+| CASCADE_UP | Kaskad upp|
+| CASCADE_DOWN | Cascade Down|
 | MIXED | Blandad|
 
 

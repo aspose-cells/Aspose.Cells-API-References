@@ -21,9 +21,9 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color& | Eine Verlaufsfarbe.|
-| color2 | aspose.pydrawing.Color& | Zwei Farbverläufe.|
+| color2 | aspose.pydrawing.Color& | Zwei Verlaufsfarben.|
 | gradient_style_type | any | Verlaufsschattierungsstil.|
-| variant | any |Die Verlaufsvariante.|
+| variant | any | Die Verlaufsvariante.|
 ###  Bemerkungen
 
 HINWEIS: Diese Methode ist jetzt veraltet.

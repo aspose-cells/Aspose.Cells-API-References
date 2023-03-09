@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  libid fastighet
 
-Hämtar och ställer in referensens Libid.
+Hämtar och ställer in referensens libid.
 ###  Definition:
 ```python
 @property

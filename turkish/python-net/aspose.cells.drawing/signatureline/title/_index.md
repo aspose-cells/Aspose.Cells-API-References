@@ -11,7 +11,7 @@ is_root: false
 
 Şarkıcının title'ini alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import SignatureLine

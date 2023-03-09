@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name fastighet
 
-Hämtar och ställer in FarEast-namnet.
+Får och anger namnet Fjärran Östern.
 ###  Definition:
 ```python
 @property

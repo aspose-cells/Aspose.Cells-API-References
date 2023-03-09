@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback mülk
 
-Uyarı geri aramasını alır veya ayarlar.
+Uyarı geri aramalarını alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

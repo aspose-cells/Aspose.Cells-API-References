@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color mülk
 
-Tema rengini alır. Yalnızca tema renk türü için geçerlidir.
+Tema rengini alır.
 ###  Tanım:
 ```python
 @property

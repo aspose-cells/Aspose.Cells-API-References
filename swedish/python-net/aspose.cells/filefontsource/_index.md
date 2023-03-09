@@ -22,14 +22,14 @@ Typen FileFontSource avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/sv/python-net/aspose.cells/filefontsource/__init__/#str) | Ctor.|
+| [FileFontSource(file_path)](/cells/sv/python-net/aspose.cells/filefontsource/__init__/#str) | Direktör.|
 
 
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [type](/cells/sv/python-net/aspose.cells/filefontsource/type) | Returnerar typsnittskällans typ.|
-| [file_path](/cells/sv/python-net/aspose.cells/filefontsource/file_path) |Sökväg till teckensnittsfil.|
+| [file_path](/cells/sv/python-net/aspose.cells/filefontsource/file_path) | Sökväg till teckensnittsfil.|
 
 
 

@@ -21,7 +21,7 @@ def set_array_formula(self, array_formula, row_number, column_number):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | array_formula | str | Array-Formel.|
-| row_number | int | Anzahl der Zeilen zum Auffüllen des Ergebnisses der Matrixformel.|
+| row_number | int |Anzahl der Zeilen zum Auffüllen des Ergebnisses der Matrixformel.|
 | column_number | int | Anzahl der Spalten, die das Ergebnis der Matrixformel füllen sollen.|
 
 
@@ -39,7 +39,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | array_formula | str | Array-Formel.|
-| row_number | int | Anzahl der Zeilen zum Auffüllen des Ergebnisses der Matrixformel.|
+| row_number | int |Anzahl der Zeilen zum Auffüllen des Ergebnisses der Matrixformel.|
 | column_number | int | Anzahl der Spalten, die das Ergebnis der Matrixformel füllen sollen.|
 | options | [FormulaParseOptions](/cells/de/python-net/aspose.cells/formulaparseoptions) | Optionen zum Analysieren der Formel.|
 
@@ -58,13 +58,13 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | array_formula | str | Array-Formel.|
-| row_number | int | Anzahl der Zeilen zum Auffüllen des Ergebnisses der Matrixformel.|
+| row_number | int |Anzahl der Zeilen zum Auffüllen des Ergebnisses der Matrixformel.|
 | column_number | int | Anzahl der Spalten, die das Ergebnis der Matrixformel füllen sollen.|
 | is_r1c1 | bool | ob die Formel R1C1-Formel ist|
 | is_local | bool | ob die Formel im Gebietsschema formatiert ist|
 ###  Bemerkungen
 
-HINWEIS: Diese Klasse ist jetzt veraltet. Stattdessen,
+HINWEIS: Diese Klasse ist jetzt veraltet.
 verwenden Sie bitte Cell.SetArrayFormula(string,int,int,FormulaParseOptions).
 Diese Property wird 12 Monate später seit Dezember 2019 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
@@ -83,10 +83,10 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | array_formula | str | Array-Formel.|
-| row_number | int | Anzahl der Zeilen zum Auffüllen des Ergebnisses der Matrixformel.|
+| row_number | int |Anzahl der Zeilen zum Auffüllen des Ergebnisses der Matrixformel.|
 | column_number | int | Anzahl der Spalten, die das Ergebnis der Matrixformel füllen sollen.|
 | options | [FormulaParseOptions](/cells/de/python-net/aspose.cells/formulaparseoptions) | Optionen zum Analysieren der Formel.|
-| values | list | Werte für die Zellen mit gegebener Matrixformel|
+| values | list | Werte für diese Zellen mit gegebener Matrixformel|
 
 
 

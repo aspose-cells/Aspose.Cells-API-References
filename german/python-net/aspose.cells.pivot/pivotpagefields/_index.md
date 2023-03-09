@@ -32,7 +32,7 @@ Der Typ PivotPageFields macht die folgenden Member verfügbar:
 | Methode| Beschreibung|
 | :- | :- |
 | [add_page_field(page_items)](/cells/de/python-net/aspose.cells.pivot/pivotpagefields/add_page_field/#list) | Fügt ein Seitenfeld hinzu.|
-| [add_identify(range_index, page_item_index)](/cells/de/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) |Legt fest, welche Elementbezeichnung in jedem Seitenfeld verwendet werden soll, um den Datenbereich zu identifizieren.<br/> pageItemIndex.Length muss gleich PageFieldCount sein, also fügen Sie bitte zuerst das Seitenfeld hinzu.|
+| [add_identify(range_index, page_item_index)](/cells/de/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) | Legt fest, welche Elementbezeichnung in jedem Seitenfeld verwendet werden soll, um den Datenbereich zu identifizieren.<br/> pageItemIndex.Length muss gleich PageFieldCount sein, also fügen Sie bitte zuerst das Seitenfeld hinzu.|
 
 
 

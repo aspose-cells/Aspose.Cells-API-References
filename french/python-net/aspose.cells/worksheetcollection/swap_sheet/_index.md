@@ -18,7 +18,7 @@ def swap_sheet(self, sheet_index1, sheet_index2):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sheet_index1 | int | La première feuille de travail.|
 | sheet_index2 | int | La deuxième feuille de travail.|

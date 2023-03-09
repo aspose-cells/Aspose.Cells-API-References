@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob das Slicer-Objekt druckbar ist.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

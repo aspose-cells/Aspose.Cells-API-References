@@ -28,7 +28,7 @@ Il tipo SparklinePresetStyleType espone i membri seguenti:
 | STYLE9 | Stile 9|
 | STYLE10 | Stile 10|
 | STYLE11 | Stile 11|
-| STYLE12 | Stile 12|
+| STYLE12 |Stile 12|
 | STYLE13 | Stile 13|
 | STYLE14 | Stile 14|
 | STYLE15 | Stile 15|
@@ -53,7 +53,7 @@ Il tipo SparklinePresetStyleType espone i membri seguenti:
 | STYLE34 | Stile 34|
 | STYLE35 | Stile 35|
 | STYLE36 | Stile 36|
-| CUSTOM |Nessuno stile predefinito.|
+| CUSTOM | Nessuno stile predefinito.|
 
 
 

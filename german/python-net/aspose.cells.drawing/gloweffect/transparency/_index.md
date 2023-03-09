@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transparency Eigentum
 
-Ruft den Grad von transparency des Glüheffekts ab und legt ihn fest. Bereich von 0,0 (undurchsichtig) bis 1,0 (durchsichtig).
+Ruft den Grad des Glüheffekts von transparency ab und legt ihn fest. Bereich von 0,0 (undurchsichtig) bis 1,0 (klar).
 ###  Definition:
 ```python
 @property

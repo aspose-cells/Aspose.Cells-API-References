@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  leader_lines proprietà
 
- Rappresenta le linee direttrici su un grafico. Le linee direttrici collegano le etichette dei dati ai punti dati.
-Questo oggetto non è una raccolta; non c'è nessun oggetto che rappresenti una singola linea guida.
+ Rappresenta le linee guida su un grafico. Le linee guida collegano le etichette dei dati ai punti dati.
+Questo oggetto non è una collezione, non c'è nessun oggetto che rappresenti una singola linea guida.
 ###  Definizione:
 ```python
 @property

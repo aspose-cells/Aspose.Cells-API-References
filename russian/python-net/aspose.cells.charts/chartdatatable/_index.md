@@ -21,15 +21,15 @@ is_root: false
 | [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/chartdatatable/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта.<br/> Значение по умолчанию верно.|
 | [background_mode](/cells/ru/python-net/aspose.cells.charts/chartdatatable/background_mode) | Получает и задает режим отображения фона|
 | [background](/cells/ru/python-net/aspose.cells.charts/chartdatatable/background) | Получает и задает режим отображения фона|
-| [has_border_horizontal](/cells/ru/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) | Истинно, если таблица данных диаграммы имеет горизонтальные границы ячеек|
+| [has_border_horizontal](/cells/ru/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) |Истинно, если таблица данных диаграммы имеет горизонтальные границы ячеек|
 | [has_border_vertical](/cells/ru/python-net/aspose.cells.charts/chartdatatable/has_border_vertical) | Истинно, если таблица данных диаграммы имеет вертикальные границы ячеек|
 | [has_border_outline](/cells/ru/python-net/aspose.cells.charts/chartdatatable/has_border_outline) | Истинно, если таблица данных диаграммы имеет контурные границы|
-| [show_legend_key](/cells/ru/python-net/aspose.cells.charts/chartdatatable/show_legend_key) |Истинно, если ключ легенды метки данных виден.|
+| [show_legend_key](/cells/ru/python-net/aspose.cells.charts/chartdatatable/show_legend_key) | Истинно, если ключ легенды метки данных виден.|
 | [border](/cells/ru/python-net/aspose.cells.charts/chartdatatable/border) | Возвращает объект Border, представляющий границу объекта.|
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

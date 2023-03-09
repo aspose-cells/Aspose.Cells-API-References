@@ -1,5 +1,5 @@
 ﻿---
-title: SubtotalSetting sınıf
+title: SubtotalSetting sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1410
 url: /tr/python-net/aspose.cells/subtotalsetting/
 is_root: false
 ---
-##  SubtotalSetting sınıf
+##  SubtotalSetting sınıfı
 Ara toplamın ayarını temsil eder.
 
 

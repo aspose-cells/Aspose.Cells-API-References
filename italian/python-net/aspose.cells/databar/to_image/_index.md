@@ -22,10 +22,10 @@ def to_image(self, cell, img_opts):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | cell | [Cell](/cells/it/python-net/aspose.cells/cell) | Indica la barra dei dati in cui visualizzare la cella|
-| img_opts | aspose.cells.rendering.ImageOrPrintOptions |ImageOrPrintOptions contiene alcune proprietà dell'immagine di output|
+| img_opts | aspose.cells.rendering.ImageOrPrintOptions | ImageOrPrintOptions contiene alcune proprietà dell'immagine di output|
 
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_inch الملكية
 
-عرض النافذة بوحدة البوصة.
+عرض النافذة بوحدات البوصة.
 ###  تعريف:
 ```python
 @property

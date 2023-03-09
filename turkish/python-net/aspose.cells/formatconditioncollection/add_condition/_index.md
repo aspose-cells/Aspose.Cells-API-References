@@ -22,7 +22,7 @@ def add_condition(self, type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/tr/python-net/aspose.cells/formatconditiontype) | Biçim koşulu türü.|
 
@@ -42,12 +42,12 @@ def add_condition(self, type, operator_type, formula1, formula2):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/tr/python-net/aspose.cells/formatconditiontype) | [FormatConditionType](/cells/tr/python-net/aspose.cells/formatconditiontype) koşullu biçimlendirme.<br/> FormatConditionType üyelerinden biri olabilir.|
 | operator_type | [OperatorType](/cells/tr/python-net/aspose.cells/operatortype) | Karşılaştırma [OperatorType](/cells/tr/python-net/aspose.cells/operatortype).<br/> OperatorType üyelerinden biri olabilir.|
-| formula1 | str |Koşullu biçimlendirmeyle ilişkili değer veya ifade.<br/>Girilen değer '=' ile başlıyorsa, formül olarak alınacaktır.<br/>Aksi takdirde düz değer(metin, sayı, bool) olarak alınacaktır.<br/> '=' ile başlayan metin değeri için, kullanıcı bunu şu biçimde formül olarak girebilir: "=\"=...\"".|
-| formula2 | str |Koşullu biçimlendirmeyle ilişkili değer veya ifade.<br/> Giriş formatı, formül1 ile aynıdır|
+| formula1 | str | Koşullu biçimlendirmeyle ilişkili değer veya ifade.<br/>Girilen değer '=' ile başlıyorsa, formül olarak alınacaktır.<br/>Aksi takdirde düz değer(metin, sayı, bool) olarak alınacaktır.<br/> '=' ile başlayan metin değeri için, kullanıcı bunu şu biçimde formül olarak girebilir: "=\"=...\"".|
+| formula2 | str | Koşullu biçimlendirmeyle ilişkili değer veya ifade.<br/>Giriş formatı, formül1 ile aynıdır|
 
 
 

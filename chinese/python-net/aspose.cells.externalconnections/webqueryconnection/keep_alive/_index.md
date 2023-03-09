@@ -1,6 +1,6 @@
 ﻿---
 title: keep_alive 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 230
@@ -10,7 +10,7 @@ is_root: false
 ## keep_alive 属性
 
 当电子表格应用程序应努力保持连接时为真
-打开。为 false 时，应用程序应在检索到
+打开。如果为 false，应用程序应在检索到
 信息。
 ### 定义：
 ```python

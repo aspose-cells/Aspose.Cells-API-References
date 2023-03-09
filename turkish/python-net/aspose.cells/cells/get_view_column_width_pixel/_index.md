@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/get_view_column_width_pixel/
 is_root: false
 ---
 ##  get_view_column_width_pixel(column) {#int}
-Genişliği farklı görünüm tipinde alın.
+Genişliği farklı görünüm türlerinde alın.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def get_view_column_width_pixel(self, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 

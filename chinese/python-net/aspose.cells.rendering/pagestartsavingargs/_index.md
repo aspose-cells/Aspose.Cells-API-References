@@ -1,13 +1,13 @@
 ﻿---
 title: PageStartSavingArgs类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
 url: /zh/python-net/aspose.cells.rendering/pagestartsavingargs/
 is_root: false
 ---
-##  PageStartSavingArgs类
+## PageStartSavingArgs类
 页面信息开始保存过程。
 
 

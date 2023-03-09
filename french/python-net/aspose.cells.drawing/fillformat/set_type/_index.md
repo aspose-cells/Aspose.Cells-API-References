@@ -13,7 +13,7 @@ Obtient le type de jeu de format de remplissage.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
 veuillez utiliser la propriété FillFormat.FillType à la place.
  Cette propriété sera supprimée 12 mois plus tard depuis juillet 2016.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

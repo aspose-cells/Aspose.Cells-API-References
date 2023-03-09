@@ -1,13 +1,13 @@
 ﻿---
 title: TextEffectFormat类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 700
 url: /zh/python-net/aspose.cells.drawing/texteffectformat/
 is_root: false
 ---
-##  TextEffectFormat类
+## TextEffectFormat类
 包含适用于艺术字对象的属性和方法。
 
 

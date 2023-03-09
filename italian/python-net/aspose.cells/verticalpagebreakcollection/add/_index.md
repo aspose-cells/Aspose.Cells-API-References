@@ -22,12 +22,12 @@ def add(self, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | Cell indice colonna, base zero.|
 ###  Osservazioni
 
-L'interruzione di pagina viene aggiunta in alto a sinistra della cella.
+L'interruzione di pagina viene aggiunta in alto a sinistra nella cella.
 Imposta contemporaneamente un'interruzione di pagina orizzontale e un'interruzione di pagina verticale.
 
 ##  add(cell_name) {#str}
@@ -45,12 +45,12 @@ def add(self, cell_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | cell_name | str | Cell nome.|
 ###  Osservazioni
 
-L'interruzione di pagina viene aggiunta in alto a sinistra della cella.
+L'interruzione di pagina viene aggiunta in alto a sinistra nella cella.
 Imposta contemporaneamente un'interruzione di pagina orizzontale e un'interruzione di pagina verticale.
 
 ##  add(row, column) {#int-int}
@@ -68,13 +68,13 @@ def add(self, row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Cell indice riga, base zero.|
 | column | int | Cell indice colonna, base zero.|
 ###  Osservazioni
 
-L'interruzione di pagina viene aggiunta in alto a sinistra della cella.
+L'interruzione di pagina viene aggiunta in alto a sinistra nella cella.
 Imposta contemporaneamente un'interruzione di pagina orizzontale e un'interruzione di pagina verticale.
 
 ##  add(start_row, end_row, column) {#int-int-int}
@@ -92,10 +92,10 @@ def add(self, start_row, end_row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | Indice di riga iniziale, in base zero.|
-| end_row | int | Indice di fine riga, in base zero.|
+| end_row | int |Indice di fine riga, in base zero.|
 | column | int | Indice di colonna, in base zero.|
 ###  Osservazioni
 

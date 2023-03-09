@@ -18,7 +18,7 @@ def copy_comments_in_range(self, shapes, ca, dest_row, dest_column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | shapes | [ShapeCollection](/cells/fr/python-net/aspose.cells.drawing/shapecollection) | Les formes sources.|
 | ca | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | La plage source.|

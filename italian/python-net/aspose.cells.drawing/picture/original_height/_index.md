@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene l'altezza originale dell'immagine.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

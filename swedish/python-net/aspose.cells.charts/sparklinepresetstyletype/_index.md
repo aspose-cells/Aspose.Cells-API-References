@@ -28,7 +28,7 @@ Typen SparklinePresetStyleType avslöjar följande medlemmar:
 | STYLE9 | Stil 9|
 | STYLE10 | Stil 10|
 | STYLE11 | Stil 11|
-| STYLE12 | Stil 12|
+| STYLE12 |Stil 12|
 | STYLE13 | Stil 13|
 | STYLE14 | Stil 14|
 | STYLE15 | Stil 15|
@@ -53,7 +53,7 @@ Typen SparklinePresetStyleType avslöjar följande medlemmar:
 | STYLE34 | Stil 34|
 | STYLE35 | Stil 35|
 | STYLE36 | Stil 36|
-| CUSTOM |Ingen förinställd stil.|
+| CUSTOM | Ingen förinställd stil.|
 
 
 

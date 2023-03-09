@@ -1,13 +1,13 @@
 ﻿---
 title: SxRng类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
 url: /zh/python-net/aspose.cells.pivot/sxrng/
 is_root: false
 ---
-##  SxRng类
+## SxRng类
 表示 PivotField 中的组范围。
 
 

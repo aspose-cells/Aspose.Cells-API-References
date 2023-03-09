@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  footer_margin_inch fastighet
 
-Representerar avståndet från botten av sidan till sidfoten, i enhet av tum.
+Representerar avståndet från botten av sidan till sidfoten, i enheter av tum.
 ###  Definition:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/individualfontconfigs/set_font_sources/
 is_root: false
 ---
 ##  set_font_sources(sources) {#list}
-Устанавливает источники шрифтов.
+Устанавливает источники шрифта.
 
 
 
@@ -18,7 +18,7 @@ def set_font_sources(self, sources):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | sources | list | Массив источников, содержащих шрифты TrueType.|
 

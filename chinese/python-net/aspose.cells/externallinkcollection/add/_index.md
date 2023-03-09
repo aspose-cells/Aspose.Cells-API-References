@@ -1,6 +1,6 @@
 ﻿---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def add(self, file_name, sheet_names):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | file_name | str |外部文件名。|
 | sheet_names | list |外部文件的所有工作表名称。|
@@ -43,7 +43,7 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | directory_type | [DirectoryType](/cells/zh/python-net/aspose.cells/directorytype) |文件名的目录类型。|
 | file_name | str |文件名。|

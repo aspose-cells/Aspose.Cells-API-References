@@ -18,7 +18,7 @@ def set_color(self, color):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Couleur des frontières.|
 

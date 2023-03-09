@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die weight der Linie in Punkteinheiten ab oder legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

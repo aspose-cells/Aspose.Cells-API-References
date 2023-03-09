@@ -18,7 +18,7 @@ def hide_rows(self, row, total_rows):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | total_rows | int | رقم الصف.|

@@ -18,7 +18,7 @@ def copy_comments_in_range(self, shapes, ca, dest_row, dest_column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | shapes | [ShapeCollection](/cells/es/python-net/aspose.cells.drawing/shapecollection) | La fuente da forma.|
 | ca | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | El rango de la fuente.|

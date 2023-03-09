@@ -11,7 +11,7 @@ is_root: false
 
 True, wenn das Objekt druckbar ist
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

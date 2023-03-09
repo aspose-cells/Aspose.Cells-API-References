@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  perspective mülk
 
-3 boyutlu harita görünümü için perspective'i döndürür veya ayarlar. 0 ile 100 arasında olmalıdır.
+3 boyutlu tablo görünümü için perspective değerini döndürür veya ayarlar. 0 ile 100 arasında olmalıdır.
 RightAngleAxes özelliği True ise bu özellik yoksayılır.
 ###  Tanım:
 ```python

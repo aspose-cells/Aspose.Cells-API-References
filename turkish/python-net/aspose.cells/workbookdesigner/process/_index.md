@@ -31,7 +31,7 @@ def process(self, is_preserved):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_preserved | bool | Tanınmayan akıllı işaretçi korunursa doğrudur.|
 
@@ -47,7 +47,7 @@ def process(self, sheet_index, is_preserved):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet_index | int | Çalışma sayfası dizini.|
 | is_preserved | bool | Tanınmayan akıllı işaretçi korunursa doğrudur.|

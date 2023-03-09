@@ -35,10 +35,10 @@ Der Typ StyleFlag macht die folgenden Member verfügbar:
 | [font_size](/cells/de/python-net/aspose.cells/styleflag/font_size) | Die Einstellung für die Schriftgröße wird angewendet.|
 | [font_name](/cells/de/python-net/aspose.cells/styleflag/font_name) | Die Einstellung für den Schriftartnamen wird angewendet.|
 | [font_color](/cells/de/python-net/aspose.cells/styleflag/font_color) | Die Einstellung für die Schriftfarbe wird angewendet.|
-| [font_bold](/cells/de/python-net/aspose.cells/styleflag/font_bold) |Die Fettschrifteinstellung wird angewendet.|
+| [font_bold](/cells/de/python-net/aspose.cells/styleflag/font_bold) | Die Fettschrifteinstellung wird angewendet.|
 | [font_italic](/cells/de/python-net/aspose.cells/styleflag/font_italic) | Die Einstellung für Kursivschrift wird angewendet.|
 | [font_underline](/cells/de/python-net/aspose.cells/styleflag/font_underline) | Die Einstellung zum Unterstreichen der Schriftart wird angewendet.|
-| [font_strike](/cells/de/python-net/aspose.cells/styleflag/font_strike) | Die Einstellung für das Durchstreichen der Schriftart wird angewendet.|
+| [font_strike](/cells/de/python-net/aspose.cells/styleflag/font_strike) |Die Einstellung für das Durchstreichen der Schriftart wird angewendet.|
 | [font_script](/cells/de/python-net/aspose.cells/styleflag/font_script) | Die Schriftskripteinstellung wird angewendet.|
 | [number_format](/cells/de/python-net/aspose.cells/styleflag/number_format) | Die Einstellung für das Zahlenformat wird angewendet.|
 | [alignments](/cells/de/python-net/aspose.cells/styleflag/alignments) | Die Ausrichtungseinstellung wird angewendet.|

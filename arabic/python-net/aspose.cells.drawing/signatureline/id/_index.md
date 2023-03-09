@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على أو تعيين معرف لسطر التوقيع هذا.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import SignatureLine

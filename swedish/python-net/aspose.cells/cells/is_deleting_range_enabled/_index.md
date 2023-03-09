@@ -22,10 +22,10 @@ def is_deleting_range_enabled(self, start_row, start_column, total_rows, total_c
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Startradindex för intervallet.|
-| start_column | int | Startkolumnindex för intervallet.|
+| start_column | int |Startkolumnindex för intervallet.|
 | total_rows | int | Antalet rader i intervallet.|
 | total_columns | int | Antalet kolumner i intervallet.|
 

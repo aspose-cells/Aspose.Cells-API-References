@@ -12,7 +12,7 @@ is_root: false
  Obtiene o establece el rango de valores de Axis de segunda categoría.
  Puede ser un rango de celdas (como "d1:e10"),
  o una secuencia de valores (como,"{2,6,8,10}").
-Solo efectos cuando algunas ASeries se trazan en el segundo eje.
+Solo efectos cuando alguna ASeries se traza en el segundo eje.
 ###  Definición:
 ```python
 @property

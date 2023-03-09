@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  string_value propiedad
 
-Obtiene el valor de cadena contenido en la celda. Si el tipo de esta celda es una cadena, devuelva el valor de la cadena en sí.
+Obtiene el valor de cadena contenido en la celda.
 Para otros tipos de celdas, se devolverá el valor de cadena con formato (formateado con el estilo especificado de esta celda).
 El valor de la celda con formato es el mismo que puede obtener de Excel al copiar una celda como texto (como
 copiando la celda al editor de texto o exportando a csv).

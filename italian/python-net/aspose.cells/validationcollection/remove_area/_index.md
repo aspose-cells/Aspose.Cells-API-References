@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | L'intervallo che contiene l'impostazione delle convalide.|
 

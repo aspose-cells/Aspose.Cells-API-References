@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_workbook_properties propriété
 
-Indique si les propriétés du classeur sont exportées. La valeur par défaut est true. Si vous souhaitez importer
+ Indique si les propriétés du classeur sont exportées. La valeur par défaut est true. Si vous souhaitez importer
 le fichier html ou mht vers excel, veuillez conserver la valeur par défaut.
 ###  Définition:
 ```python

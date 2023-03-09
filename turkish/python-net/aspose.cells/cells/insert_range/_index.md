@@ -18,7 +18,7 @@ def insert_range(self, area, shift_type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Geçiş alanı.|
 | shift_type | [ShiftType](/cells/tr/python-net/aspose.cells/shifttype) | Hücreleri değiştir seçeneği.|
@@ -35,10 +35,10 @@ def insert_range(self, area, shift_number, shift_type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Geçiş alanı.|
-| shift_number | int |Eklenecek satır veya sütun sayısı.|
+| shift_number | int | Eklenecek satır veya sütun sayısı.|
 | shift_type | [ShiftType](/cells/tr/python-net/aspose.cells/shifttype) | Hücreleri değiştir seçeneği.|
 
 
@@ -53,10 +53,10 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Geçiş alanı.|
-| shift_number | int |Eklenecek satır veya sütun sayısı.|
+| shift_number | int | Eklenecek satır veya sütun sayısı.|
 | shift_type | [ShiftType](/cells/tr/python-net/aspose.cells/shifttype) | Hücreleri değiştir seçeneği.|
 | update_reference | bool | Diğer çalışma sayfalarındaki güncelleme başvurularının olup olmadığını gösterir.|
 

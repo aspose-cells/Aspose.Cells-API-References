@@ -18,7 +18,7 @@ def replace(self, old_string, new_string):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | old_string | str | Ancienne valeur de chaîne.|
 | new_string | str | Nouvelle valeur de chaîne.|

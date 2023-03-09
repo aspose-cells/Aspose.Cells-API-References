@@ -1,13 +1,13 @@
 ﻿---
 title: CalcModeType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1810
 url: /zh/python-net/aspose.cells/calcmodetype/
 is_root: false
 ---
-##  CalcModeType枚举
+## CalcModeType枚举
 表示计算公式的模式类型。
 
 

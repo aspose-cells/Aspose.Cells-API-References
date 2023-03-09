@@ -22,11 +22,11 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| top | int | Representerar den vertikala förskjutningen av Spinner från dess vänstra rad, i pixelenhet.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| top | int |Representerar den vertikala förskjutningen av Spinner från dess vänstra rad, i pixelenhet.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int | Representerar den horisontella förskjutningen av Spinner från dess vänstra kolumn, i pixelenhet.|
 | height | int | Representerar höjden på Spinner, i pixelenhet.|
 | width | int | Representerar bredden på Spinner, i pixelenhet.|

@@ -1,13 +1,13 @@
 ﻿---
 title: WeightType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1190
 url: /zh/python-net/aspose.cells.drawing/weighttype/
 is_root: false
 ---
-##  WeightType枚举
+## WeightType枚举
 枚举图片边框或图表线条的粗细类型。
 
 

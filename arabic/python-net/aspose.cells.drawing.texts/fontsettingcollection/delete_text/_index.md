@@ -18,7 +18,7 @@ def delete_text(self, index, count):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس البداية.|
 | count | int | عدد الشخصيات.|

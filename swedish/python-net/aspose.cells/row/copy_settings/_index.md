@@ -18,10 +18,10 @@ def copy_settings(self, source, check_style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source | [Row](/cells/sv/python-net/aspose.cells/row) | källraden vars inställningar kommer att kopieras till denna|
-| check_style | bool | om kontrollera och samla stil.<br/> Träder bara i kraft och behövs när två radobjekt tillhör olika arbetsbok och stilarna för två arbetsböcker är olika.|
+| check_style | bool | Oavsett om kolla och samla stil.<br/> Träder bara i kraft och behövs när två radobjekt tillhör olika arbetsböcker och stilarna för två arbetsböcker är olika.|
 
 
 

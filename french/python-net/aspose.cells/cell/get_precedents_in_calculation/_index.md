@@ -13,7 +13,7 @@ Obtient tous les précédents (référence aux cellules du classeur en cours) ut
 
 ###  Retour
 
-Énumérateur pour énumérer toutes les références (ReferredArea)
+Énumérateur pour énumérer toutes les références (zone référencée)
 
 
 ```python
@@ -27,7 +27,7 @@ def get_precedents_in_calculation(self):
 Cette méthode ne peut fonctionner que dans la situation où [FormulaSettings.enable_calculation_chain](/cells/fr/python-net/aspose.cells/formulasettings#enable_calculation_chain)
 est vrai pour le classeur et le classeur a été entièrement calculé.
 Si cette cellule n'est pas une formule ou si elle ne fait référence à aucune autre cellule, la valeur null sera renvoyée.
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

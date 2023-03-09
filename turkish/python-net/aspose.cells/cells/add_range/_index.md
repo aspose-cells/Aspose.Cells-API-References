@@ -18,7 +18,7 @@ def add_range(self, range_object):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range_object | [Range](/cells/tr/python-net/aspose.cells/range) | Aralık nesnesi hücrelerde yer alacaktır|
 

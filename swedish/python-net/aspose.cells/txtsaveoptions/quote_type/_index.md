@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_type fastighet
 
-Hämtar eller ställer in hur värden ska citeras i den exporterade textfilen.
+Hämtar eller ställer in hur man citerar värden i den exporterade textfilen.
 ###  Definition:
 ```python
 @property

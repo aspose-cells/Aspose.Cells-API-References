@@ -18,7 +18,7 @@ def move_range(self, source_area, dest_row, dest_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Taşınması gereken aralık.|
 | dest_row | int | Hedef sıra.|

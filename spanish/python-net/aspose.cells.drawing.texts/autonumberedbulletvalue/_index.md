@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
 ##  AutoNumberedBulletValue clase
-Representa una viñeta numerada automáticamente.
+Representa viñetas numeradas automáticamente.
 
 
 

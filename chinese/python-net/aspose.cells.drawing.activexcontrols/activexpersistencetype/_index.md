@@ -1,13 +1,13 @@
 ﻿---
 title: ActiveXPersistenceType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/activexpersistencetype/
 is_root: false
 ---
-##  ActiveXPersistenceType枚举
+## ActiveXPersistenceType枚举
 表示持久化 ActiveX 控件的持久化方法。
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: VmlShapeGuide sınıf
+title: VmlShapeGuide sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 740
 url: /tr/python-net/aspose.cells.drawing/vmlshapeguide/
 is_root: false
 ---
-##  VmlShapeGuide sınıf
+##  VmlShapeGuide sınıfı
 sadece vml için
  Bir şekil kılavuzunu kapsüller, bir şeklin varlığını belirtir
 belirtilen şeklin geometrisini yönetmek için kullanılacak kılavuz

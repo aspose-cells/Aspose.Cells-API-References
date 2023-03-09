@@ -13,7 +13,7 @@ Das Verzeichnis, in dem die angehängten Dateien gespeichert werden.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die HtmlLoadOptions.StreamProvider-Eigenschaft.
  Diese Property wird 12 Monate später seit Dezember 2014 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

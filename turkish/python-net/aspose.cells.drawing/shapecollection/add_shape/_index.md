@@ -22,19 +22,19 @@ def add_shape(self, type, upper_left_row, top, upper_left_column, left, height, 
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/tr/python-net/aspose.cells.drawing/msodrawingtype) | Mso çizim türü.|
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | Shape öğesinin sol satırından dikey uzaklığını piksel birimi cinsinden temsil eder.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| upper_left_column | int | Sol üst sütun dizini.|
 | left | int | Shape'in sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
-| height | int | Şeklin yüksekliğini piksel birimi cinsinden temsil eder.|
-| width | int | Şeklin genişliğini piksel birimi cinsinden temsil eder.|
+| height | int | Şeklin yüksekliğini piksel birimleri cinsinden temsil eder.|
+| width | int | Şeklin genişliğini piksel cinsinden temsil eder.|
 ###  Notlar
 
 Tür, Grafik/Yorum/Resim/OleObject/Polygon/DialogBox olamaz
-###  Örnek
+###  örnekler
 
 
 ```python

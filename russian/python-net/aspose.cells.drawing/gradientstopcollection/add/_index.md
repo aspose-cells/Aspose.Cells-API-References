@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | position | float | Положение стопа в процентах.|
 | color | [CellsColor](/cells/ru/python-net/aspose.cells/cellscolor) | Цвет остановки.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | position | float | Положение стопа в процентах.|
 | color | aspose.pydrawing.Color | Цвет остановки.|

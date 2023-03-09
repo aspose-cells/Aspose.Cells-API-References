@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  filter_type fastighet
 
-Hämtar och ställer in typen för filtreringsdata.
+Hämtar och ställer in typen för filtrering av data.
 ###  Definition:
 ```python
 @property

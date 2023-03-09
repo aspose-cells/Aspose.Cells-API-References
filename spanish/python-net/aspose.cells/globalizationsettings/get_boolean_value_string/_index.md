@@ -22,7 +22,7 @@ def get_boolean_value_string(self, bv):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | bv | bool | valor booleano|
 

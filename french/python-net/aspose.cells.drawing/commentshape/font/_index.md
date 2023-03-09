@@ -11,7 +11,7 @@ is_root: false
 
 Représente le font de forme.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.pydrawing import Color

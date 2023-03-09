@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_cell_coordinate proprietà
 
-Indica se esportare coordinate Excel di celle non vuote durante il salvataggio del file in html. Il valore predefinito è falso.
+Indica se esportare coordinate Excel di celle non vuote durante il salvataggio del file in html.
 Se desideri importare l'output html in Excel, mantieni il valore predefinito.
 ###  Definizione:
 ```python

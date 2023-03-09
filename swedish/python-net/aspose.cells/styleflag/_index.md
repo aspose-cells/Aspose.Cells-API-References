@@ -30,15 +30,15 @@ Typen StyleFlag avslöjar följande medlemmar:
 | [top_border](/cells/sv/python-net/aspose.cells/styleflag/top_border) | Inställningar för övre kant kommer att tillämpas.|
 | [bottom_border](/cells/sv/python-net/aspose.cells/styleflag/bottom_border) | Inställningar för nedre kant kommer att tillämpas.|
 | [diagonal_down_border](/cells/sv/python-net/aspose.cells/styleflag/diagonal_down_border) | Inställningar för diagonal nederkant kommer att tillämpas.|
-| [diagonal_up_border](/cells/sv/python-net/aspose.cells/styleflag/diagonal_up_border) | Inställningar för diagonal uppkant kommer att tillämpas.|
+| [diagonal_up_border](/cells/sv/python-net/aspose.cells/styleflag/diagonal_up_border) | Inställningar för diagonal upp kant kommer att tillämpas.|
 | [font](/cells/sv/python-net/aspose.cells/styleflag/font) | Teckensnittsinställningar kommer att tillämpas.|
 | [font_size](/cells/sv/python-net/aspose.cells/styleflag/font_size) | Teckenstorleksinställning kommer att tillämpas.|
 | [font_name](/cells/sv/python-net/aspose.cells/styleflag/font_name) | Inställningen för teckensnittsnamn kommer att tillämpas.|
-| [font_color](/cells/sv/python-net/aspose.cells/styleflag/font_color) | Teckensnittets färginställning kommer att tillämpas.|
-| [font_bold](/cells/sv/python-net/aspose.cells/styleflag/font_bold) |Teckensnitt fet inställning kommer att tillämpas.|
+| [font_color](/cells/sv/python-net/aspose.cells/styleflag/font_color) | Teckenfärgsinställning kommer att tillämpas.|
+| [font_bold](/cells/sv/python-net/aspose.cells/styleflag/font_bold) | Teckensnitt fet inställning kommer att tillämpas.|
 | [font_italic](/cells/sv/python-net/aspose.cells/styleflag/font_italic) | Teckensnittskursiv inställning kommer att tillämpas.|
 | [font_underline](/cells/sv/python-net/aspose.cells/styleflag/font_underline) | Inställningen för teckensnittsunderstrykning kommer att tillämpas.|
-| [font_strike](/cells/sv/python-net/aspose.cells/styleflag/font_strike) | Teckensnitts genomstruken inställning kommer att tillämpas.|
+| [font_strike](/cells/sv/python-net/aspose.cells/styleflag/font_strike) |Teckensnitts genomstruken inställning kommer att tillämpas.|
 | [font_script](/cells/sv/python-net/aspose.cells/styleflag/font_script) | Teckensnittsskriptinställning kommer att tillämpas.|
 | [number_format](/cells/sv/python-net/aspose.cells/styleflag/number_format) | Inställningen för nummerformat kommer att tillämpas.|
 | [alignments](/cells/sv/python-net/aspose.cells/styleflag/alignments) | Justeringsinställningen kommer att tillämpas.|

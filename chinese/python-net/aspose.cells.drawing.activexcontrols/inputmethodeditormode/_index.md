@@ -1,13 +1,13 @@
 ﻿---
 title: InputMethodEditorMode枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 290
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/inputmethodeditormode/
 is_root: false
 ---
-##  InputMethodEditorMode枚举
+## InputMethodEditorMode枚举
 表示输入法编辑器的默认运行时模式。
 
 
@@ -19,8 +19,8 @@ InputMethodEditorMode 类型公开了以下成员：
 | :- | :- |
 | NO_CONTROL |不控制 IME。|
 | ON |输入法打开。|
-| OFF |输入法关闭。英文模式。|
-| DISABLE | IME 关闭。用户无法通过键盘打开 IME。|
+| OFF | IME 关闭。英语模式。|
+| DISABLE | IME off. 用户无法通过键盘打开 IME。|
 | HIRAGANA | IME 开启全角平假名模式。|
 | KATAKANA | IME 开启全角片假名模式。|
 | KATAKANA_HALF | IME 开启半角片假名模式。|

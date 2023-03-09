@@ -1,6 +1,6 @@
 ﻿---
 title: get_range_by_name方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | range_name | str |范围名称。|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | range_name | str |范围的名称或表的名称。|
-| current_sheet_index | int |表索引。 -1 代表全局。|
+| current_sheet_index | int |工作表索引。-1 代表全局。|
 | include_table | bool |表示是否检查所有表。|
 
 

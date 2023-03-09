@@ -10,7 +10,7 @@ is_root: false
 ##  ignore_error mülk
 
 Formülleri hesaplarken hatayı gizlemeniz gerekip gerekmediğini gösterir.
-Hata, desteklenmeyen işlev, harici bağlantılar vb. olabilir.
+Hata, desteklenmeyen işlevler, harici bağlantılar vb. olabilir.
 ###  Tanım:
 ```python
 @property

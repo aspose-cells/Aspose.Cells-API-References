@@ -1,6 +1,6 @@
 ﻿---
 title: get_dependents方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 380
@@ -22,7 +22,7 @@ def get_dependents(self, is_all, row, column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | is_all | bool |指示是否检查其他工作表|
 | row | int |行索引。|

@@ -18,7 +18,7 @@ def add_range(self, range_object):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | range_object | [Range](/cells/ru/python-net/aspose.cells/range) | Объект диапазона будет содержаться в ячейках|
 

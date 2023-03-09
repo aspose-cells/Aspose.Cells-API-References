@@ -19,10 +19,10 @@ Le type VbaProjectReference expose les membres suivants :
 | :- | :- |
 | [type](/cells/fr/python-net/aspose.cells.vba/vbaprojectreference/type) | Obtient le type de cette référence.|
 | [name](/cells/fr/python-net/aspose.cells.vba/vbaprojectreference/name) | Obtient et définit le nom de la référence.|
-| [libid](/cells/fr/python-net/aspose.cells.vba/vbaprojectreference/libid) | Obtient et définit la Libid de la référence.|
+| [libid](/cells/fr/python-net/aspose.cells.vba/vbaprojectreference/libid) | Obtient et définit la libid de la référence.|
 | [twiddledlibid](/cells/fr/python-net/aspose.cells.vba/vbaprojectreference/twiddledlibid) | Obtient et définit la Libid tordue de la référence.|
 | [extended_libid](/cells/fr/python-net/aspose.cells.vba/vbaprojectreference/extended_libid) | Obtient et définit la Libid étendue de la référence.|
-| [relative_libid](/cells/fr/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) |Obtient et définit l'identifiant du projet VBA référencé avec un chemin relatif.|
+| [relative_libid](/cells/fr/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) | Obtient et définit l'identifiant du projet VBA référencé avec un chemin relatif.|
 
 
 ###  Méthodes
@@ -32,7 +32,7 @@ Le type VbaProjectReference expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

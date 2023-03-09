@@ -18,10 +18,10 @@ def copy_settings(self, source, check_style):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | source | [Row](/cells/es/python-net/aspose.cells/row) | la fila de origen cuya configuración se copiará a esta|
-| check_style | bool | si comprobar y recopilar estilo.<br/> Solo tiene efecto y se necesita cuando dos objetos de fila pertenecen a un libro de trabajo diferente y los estilos de dos libros de trabajo son diferentes.|
+| check_style | bool | Ya sea comprobar y recoger el estilo.<br/> Solo tiene efecto y se necesita cuando dos objetos de fila pertenecen a diferentes libros de trabajo y los estilos de dos libros de trabajo son diferentes.|
 
 
 

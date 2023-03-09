@@ -11,7 +11,7 @@ is_root: false
 
 Metnin dönüştürme türünü alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import AutoShapeType

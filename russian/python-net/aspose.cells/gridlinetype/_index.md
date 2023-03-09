@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType перечисление
-Перечисляет тип линии сетки.
+Перечисляет типы линий сетки.
 
 
 

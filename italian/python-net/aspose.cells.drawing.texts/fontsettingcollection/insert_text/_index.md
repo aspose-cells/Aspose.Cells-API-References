@@ -18,7 +18,7 @@ def insert_text(self, index, text):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int | L'indice di partenza.|
 | text | str | Il testo.|

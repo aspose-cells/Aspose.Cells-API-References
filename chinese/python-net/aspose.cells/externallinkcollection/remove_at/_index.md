@@ -1,6 +1,6 @@
 ﻿---
 title: remove_at方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | index | int |要删除的外部链接的索引。|
 ### 评论
@@ -37,7 +37,7 @@ def remove_at(self, index, update_references_as_local):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | index | int |要删除的外部链接的索引。|
 | update_references_as_local | bool |是否将给定外部链接的所有引用更新为当前工作簿本身的引用。|

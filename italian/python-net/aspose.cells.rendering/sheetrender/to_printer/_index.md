@@ -18,7 +18,7 @@ def to_printer(self, printer_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | printer_name | str | il nome della stampante, ad esempio: "Microsoft Office Document Image Writer"|
 
@@ -34,7 +34,7 @@ def to_printer(self, printer_settings):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | le impostazioni della stampante, ad esempio PrinterName, Duplex|
 
@@ -50,7 +50,7 @@ def to_printer(self, printer_name, job_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | printer_name | str | il nome della stampante, ad esempio: "Microsoft Office Document Image Writer"|
 | job_name | str | impostare il nome del lavoro di stampa|
@@ -67,7 +67,7 @@ def to_printer(self, printer_settings, job_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | le impostazioni della stampante, ad esempio PrinterName, Duplex|
 | job_name | str | impostare il nome del lavoro di stampa|
@@ -84,10 +84,10 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | printer_name | str | il nome della stampante, ad esempio: "Microsoft Office Document Image Writer"|
-| print_page_index | int |l'indice in base 0 della prima pagina da stampare, deve essere compreso nell'intervallo [0, SheetRender.PageCount-1]|
+| print_page_index | int | l'indice in base 0 della prima pagina da stampare, deve essere compreso nell'intervallo [0, SheetRender.PageCount-1]|
 | print_page_count | int | il numero di pagine da stampare, deve essere maggiore di zero|
 ###  Osservazioni
 

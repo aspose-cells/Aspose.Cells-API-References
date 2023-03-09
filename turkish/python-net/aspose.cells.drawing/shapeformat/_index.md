@@ -1,5 +1,5 @@
 ﻿---
-title: ShapeFormat sınıf
+title: ShapeFormat sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 540
 url: /tr/python-net/aspose.cells.drawing/shapeformat/
 is_root: false
 ---
-##  ShapeFormat sınıf
+##  ShapeFormat sınıfı
 
 
 ShapeFormat türü aşağıdaki üyeleri gösterir:

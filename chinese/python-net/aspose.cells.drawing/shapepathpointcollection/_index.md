@@ -1,13 +1,13 @@
 ﻿---
 title: ShapePathPointCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 600
 url: /zh/python-net/aspose.cells.drawing/shapepathpointcollection/
 is_root: false
 ---
-##  ShapePathPointCollection类
+## ShapePathPointCollection类
 表示所有形状路径点。
 
 

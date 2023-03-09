@@ -27,10 +27,10 @@ Der Typ PivotItem macht die folgenden Member verfügbar:
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [move(count, is_same_parent)](/cells/de/python-net/aspose.cells.pivot/pivotitem/move/#int-bool) |Verschiebt das Element nach oben oder unten|
+| [move(count, is_same_parent)](/cells/de/python-net/aspose.cells.pivot/pivotitem/move/#int-bool) | Verschiebt das Element nach oben oder unten|
 | [get_string_value()](/cells/de/python-net/aspose.cells.pivot/pivotitem/get_string_value/#) | Ruft den Zeichenfolgenwert des Pivot-Elements ab<br/> Wenn der Wert null ist, wird "" zurückgegeben.|
 | [get_double_value()](/cells/de/python-net/aspose.cells.pivot/pivotitem/get_double_value/#) | Ruft den Double-Wert des Pivot-Elements ab<br/> Wenn der Wert null oder nicht number ist, wird 0 zurückgegeben|
-| [get_date_time_value()](/cells/de/python-net/aspose.cells.pivot/pivotitem/get_date_time_value/#) |Ruft den Datumszeitwert des Pivot-Elements ab<br/> Wenn der Wert null ist, wird DateTime.MinValue zurückgegeben|
+| [get_date_time_value()](/cells/de/python-net/aspose.cells.pivot/pivotitem/get_date_time_value/#) | Ruft den Datumszeitwert des Pivot-Elements ab<br/> Wenn der Wert null ist, wird DateTime.MinValue zurückgegeben|
 
 
 

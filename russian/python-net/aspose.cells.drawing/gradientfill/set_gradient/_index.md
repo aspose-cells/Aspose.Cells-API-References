@@ -18,11 +18,11 @@ def set_gradient(self, type, angle, direction):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [GradientFillType](/cells/ru/python-net/aspose.cells.drawing/gradientfilltype) | Градиентный тип заливки.|
 | angle | float | Угол. Применяется только для GradientFillType.Linear.|
-| direction | [GradientDirectionType](/cells/ru/python-net/aspose.cells.drawing/gradientdirectiontype) | Тип направления. Применяется только для GradientFillType.Radial и GradientFillType.Rectangle.|
+| direction | [GradientDirectionType](/cells/ru/python-net/aspose.cells.drawing/gradientdirectiontype) |Тип направления. Применяется только для GradientFillType.Radial и GradientFillType.Rectangle.|
 
 
 

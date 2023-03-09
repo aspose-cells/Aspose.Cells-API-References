@@ -22,12 +22,12 @@ def load_format_to_extension(self, load_format):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/ar/python-net/aspose.cells/loadformat) | تنسيق الملف الذي تم تحميله.|
 ###  ملاحظات
 
-إذا كان لا يمكن تحويله ، يتم إرجاعه فارغًا.
+إذا كان لا يمكن تحويلها ، فإنها ترجع فارغة.
 
 
 ###  أنظر أيضا

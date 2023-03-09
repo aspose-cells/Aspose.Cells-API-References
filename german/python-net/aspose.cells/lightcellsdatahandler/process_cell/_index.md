@@ -18,7 +18,7 @@ Im Allgemeinen sollte es falsch sein, damit nicht alle Zellen nach der Verarbeit
 Für einige spezielle Zwecke, z. B. wenn der Benutzer später auf einige Zellen zugreifen muss, nachdem die gesamte Arbeitsmappe verarbeitet wurde,
 Der Benutzer kann dafür sorgen, dass diese Methode wahr zurückgibt, um diese speziellen Zellen im Cells-Modell zu behalten und später über APIs wie Cells [Zeile, Spalte] darauf zuzugreifen.
 Das Aufbewahren von Zellendaten im Modell Cells erfordert jedoch mehr Speicher, und wenn alle Zellen beibehalten werden, muss die Vorlagendatei gelesen werden
-im LightCells-Modus wird dasselbe wie beim Lesen auf normale Weise.
+im LightCells-Modus wird dasselbe wie beim normalen Lesen.
 
 
 ```python

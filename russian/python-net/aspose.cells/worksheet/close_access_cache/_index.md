@@ -18,7 +18,7 @@ def close_access_cache(self, opts):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | opts | [AccessCacheOptions](/cells/ru/python-net/aspose.cells/accesscacheoptions) | варианты доступа к данным|
 

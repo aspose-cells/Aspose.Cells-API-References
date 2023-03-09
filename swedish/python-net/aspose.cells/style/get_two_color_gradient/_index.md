@@ -18,12 +18,12 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color& | En gradientfärg.|
 | color2 | aspose.pydrawing.Color& | Två gradientfärger.|
 | gradient_style_type | any | Gradient skuggstil.|
-| variant | any |Gradientvarianten.|
+| variant | any | Gradientvarianten.|
 ###  Anmärkningar
 
 OBS: Denna metod är nu föråldrad.

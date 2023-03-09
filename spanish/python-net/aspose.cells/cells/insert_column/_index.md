@@ -18,7 +18,7 @@ def insert_column(self, column_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | Índice de columnas.|
 
@@ -34,10 +34,10 @@ def insert_column(self, column_index, update_reference):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | Índice de columnas.|
-| update_reference | bool | Indica si se actualizarán las referencias en otras hojas de trabajo.|
+| update_reference | bool |Indica si se actualizarán las referencias en otras hojas de trabajo.|
 
 
 

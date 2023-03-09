@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [ThreadedCommentAuthor](/cells/de/python-net/aspose.cells/threadedcommentauthor) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [ThreadedCommentAuthor](/cells/de/python-net/aspose.cells/threadedcommentauthor) | Das zu lokalisierende System.Objekt.|
 
 
 

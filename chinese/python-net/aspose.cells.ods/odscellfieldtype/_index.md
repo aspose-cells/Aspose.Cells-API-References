@@ -1,14 +1,14 @@
 ﻿---
 title: OdsCellFieldType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
 url: /zh/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
-##  OdsCellFieldType枚举
-表示ods的单元格字段类型。
+## OdsCellFieldType枚举
+表示赔率的单元格字段类型。
 
 
 

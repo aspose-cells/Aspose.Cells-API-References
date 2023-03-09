@@ -18,9 +18,9 @@ def set_formula2(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| formula | str | El valor o la expresión asociada con esta condición de formato.<br/>Si el valor de entrada comienza con '=', se tomará como fórmula. De lo contrario, se tomará como valor simple (texto, número, bool).<br/> Para el valor de texto que comienza con '=', el usuario puede ingresarlo como fórmula en formato: "=\"=...\"".|
+| formula | str | El valor o la expresión asociada con esta condición de formato.<br/>Si el valor de entrada comienza con '=', se tomará como fórmula.<br/> Para el valor de texto que comienza con '=', el usuario puede ingresarlo como fórmula en formato: "=\"=...\"".|
 | is_r1c1 | bool | Si la fórmula es la fórmula R1C1.|
 | is_local | bool | Si la fórmula tiene formato de configuración regional.|
 

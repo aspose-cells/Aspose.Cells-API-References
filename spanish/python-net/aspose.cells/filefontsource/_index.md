@@ -22,14 +22,14 @@ El tipo FileFontSource expone los siguientes miembros:
 ###  Constructores
 | Constructor| Descripción|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/es/python-net/aspose.cells/filefontsource/__init__/#str) | Ctor.|
+| [FileFontSource(file_path)](/cells/es/python-net/aspose.cells/filefontsource/__init__/#str) | Director.|
 
 
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
 | [type](/cells/es/python-net/aspose.cells/filefontsource/type) | Devuelve el tipo de la fuente de fuente.|
-| [file_path](/cells/es/python-net/aspose.cells/filefontsource/file_path) |Ruta al archivo de fuente.|
+| [file_path](/cells/es/python-net/aspose.cells/filefontsource/file_path) | Ruta al archivo de fuente.|
 
 
 

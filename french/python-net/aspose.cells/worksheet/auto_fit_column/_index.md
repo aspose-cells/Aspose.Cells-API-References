@@ -18,7 +18,7 @@ def auto_fit_column(self, column_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column_index | int | Indice de colonne.|
 ###  Remarques
@@ -37,7 +37,7 @@ def auto_fit_column(self, column_index, first_row, last_row):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column_index | int | Indice de colonne.|
 | first_row | int | Index de la première ligne.|

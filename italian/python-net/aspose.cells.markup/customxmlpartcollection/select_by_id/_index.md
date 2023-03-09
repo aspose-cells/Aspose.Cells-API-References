@@ -22,7 +22,7 @@ def select_by_id(self, id):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | id | str | Contiene il GUID per la parte XML personalizzata.|
 

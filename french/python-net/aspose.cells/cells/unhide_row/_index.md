@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/cells/unhide_row/
 is_root: false
 ---
 ##  unhide_row(row, height) {#int-float}
-Affiche une ligne.
+Afficher une ligne.
 
 
 
@@ -18,10 +18,10 @@ def unhide_row(self, row, height):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Indice de ligne.|
-| height | float | Hauteur de ligne. La hauteur de la ligne ne sera modifiée que lorsque la ligne est masquée et que la valeur de hauteur donnée est positive.|
+| height | float | Hauteur de la ligne. La hauteur de la ligne ne sera modifiée que si la ligne est masquée et que la valeur de hauteur donnée est positive.|
 
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de pulgadas.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

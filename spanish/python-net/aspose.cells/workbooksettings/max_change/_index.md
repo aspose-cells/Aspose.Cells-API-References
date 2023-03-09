@@ -13,7 +13,7 @@ Devuelve o establece el número máximo de cambios para resolver una referencia 
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En su lugar, utilice FormulaSettings.MaxChange.
+NOTA: este miembro ahora está obsoleto. En su lugar, utilice FormulaSettings.MaxChange.
  Esta propiedad se eliminará 12 meses después desde febrero de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

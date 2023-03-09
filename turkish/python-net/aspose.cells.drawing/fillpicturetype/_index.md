@@ -19,7 +19,7 @@ FillPictureType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | STRETCH | Uzatmak|
 | STACK | Yığın|
-| STACK_AND_SCALE | StackAndScale|
+| STACK_AND_SCALE | Yığınla ve Ölçekle|
 
 
 

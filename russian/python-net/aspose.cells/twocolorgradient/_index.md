@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/twocolorgradient/
 is_root: false
 ---
 ##  TwoColorGradient класс
-Представляет собой двухцветный градиент.
+Представляет два цветовых градиента.
 
 
 
@@ -25,8 +25,8 @@ is_root: false
 | :- | :- |
 | [color1](/cells/ru/python-net/aspose.cells/twocolorgradient/color1) | Получает и задает первый цвет градиента.|
 | [color2](/cells/ru/python-net/aspose.cells/twocolorgradient/color2) | Получает и задает второй цвет градиента.|
-| [gradient_style_type](/cells/ru/python-net/aspose.cells/twocolorgradient/gradient_style_type) | Получает и задает стиль градиентного затенения.|
-| [variant](/cells/ru/python-net/aspose.cells/twocolorgradient/variant) |Получает и задает вариант градиента.|
+| [gradient_style_type](/cells/ru/python-net/aspose.cells/twocolorgradient/gradient_style_type) |Получает и задает стиль градиентного затенения.|
+| [variant](/cells/ru/python-net/aspose.cells/twocolorgradient/variant) | Получает и задает вариант градиента.|
 
 
 

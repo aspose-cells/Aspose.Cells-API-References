@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  stream_provider proprietà
 
-Ottiene e imposta il provider di flussi per la risorsa esterna.
+Ottiene e imposta il provider di flussi per le risorse esterne.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
 utilizzare la proprietà ResourceProvider.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2022.
 Aspose si scusa per gli eventuali disagi causati.

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map fastighet
 
-Hämtar och ställer in kartan över kolumntyp för olika databas.
+Hämtar och ställer in kartan över kolumntyper för olika databaser.
 ###  Definition:
 ```python
 @property

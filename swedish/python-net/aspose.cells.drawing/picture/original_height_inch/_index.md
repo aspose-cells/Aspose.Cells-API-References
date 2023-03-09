@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  original_height_inch fastighet
 
-Får bildens ursprungliga höjd, i enhet av tum.
+Får bildens ursprungliga höjd, i enheter av tum.
 
 ###  Exempel
 

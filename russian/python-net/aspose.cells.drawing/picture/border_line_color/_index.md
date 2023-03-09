@@ -11,7 +11,7 @@ is_root: false
 
 Представляет цвет линии границы изображения.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

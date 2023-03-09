@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob signiertes Datum angezeigt wird.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

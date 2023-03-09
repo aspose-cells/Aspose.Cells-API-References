@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Elementets nollbaserade index.|
 
@@ -42,7 +42,7 @@ def get(self, text):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | text | str | Namntext.|
 

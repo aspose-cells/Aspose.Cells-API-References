@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  number proprietà
 
-Ottiene o imposta il formato di visualizzazione di numeri e date. I modelli di formattazione sono diversi per le diverse regioni.
+Ottiene o imposta il formato di visualizzazione di numeri e date.
 
 ###  Osservazioni
 
-Ad esempio, i modelli di formattazione rappresentati dai numeri per la regione en_US:
+Ad esempio, i modelli di formattazione rappresentati da numeri per la regione en_US:
 | Valore| Tipo| Formato stringa|
 | :- | :- | :- |
 | 0| Generale|
@@ -30,10 +30,10 @@ Ad esempio, i modelli di formattazione rappresentati dai numeri per la regione e
 | 11| Scientifico|
 | 12| Frazione|
 | 13| Frazione|
-| 14| Data|
-| 15| Data|
-| 16| Data|
-| 17| Data|
+| 14| data|
+| 15| data|
+| 16| data|
+| 17| data|
 | 18| Tempo|
 | 19| Tempo|
 | 20| Tempo|

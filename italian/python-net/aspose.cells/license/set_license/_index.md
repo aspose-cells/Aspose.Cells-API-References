@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/license/set_license/
 is_root: false
 ---
 ##  set_license(license_name) {#str}
-Concede in licenza il componente.
+Concede in licenza i componenti.
 
 
 
@@ -18,12 +18,12 @@ def set_license(self, license_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | license_name | str |  |
 ###  Osservazioni
 
-Tenta di trovare la licenza nelle seguenti posizioni:
+Prova a trovare la licenza nelle seguenti posizioni:
 
 
 1. Percorso esplicito.
@@ -41,14 +41,14 @@ Tenta di trovare la licenza nelle seguenti posizioni:
 5. Una risorsa incorporata nell'assembly chiamante del client.
 
 
-**Nota:** Nel Compact Framework .NET, tenta di trovare la licenza solo in queste posizioni:
+**Appunti:** Nel Compact Framework .NET, tenta di trovare la licenza solo in queste posizioni:
 
 
 1. Percorso esplicito.
 
 
 2. Una risorsa incorporata nell'assembly chiamante del client.
-###  Esempio
+###  Esempi
 
 
 In questo esempio, verrà effettuato un tentativo di trovare un file di licenza denominato MyLicense.lic
@@ -70,7 +70,7 @@ Utilizzare una stringa vuota per passare alla modalità di valutazione.
 
 
 ##  set_license(stream) {#io.RawIOBase}
-Concede in licenza il componente.
+Concede in licenza i componenti.
 
 
 
@@ -80,13 +80,13 @@ def set_license(self, stream):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Un flusso che contiene la licenza.|
 ###  Osservazioni
 
 Utilizzare questo metodo per caricare una licenza da un flusso.
-###  Esempio
+###  Esempi
 
 
 ```python

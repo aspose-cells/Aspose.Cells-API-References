@@ -22,7 +22,7 @@ def get_cell_area(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | el índice del rango de celdas con formato condicional.|
 

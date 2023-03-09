@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  transparent mülk
 
-Oluşturulan görüntünün arka planının transparent olması gerekip gerekmediğini gösterir.
+Oluşturulan görüntünün arka planının transparent olması gerekip gerekmediğini belirtir.
 
 ###  Notlar
 
-Varsayılan değer yanlıştır. Bu, oluşturulan görüntülerin arka planının beyaz olduğu anlamına gelir.
+Varsayılan değer yanlıştır.
 ###  Tanım:
 ```python
 @property

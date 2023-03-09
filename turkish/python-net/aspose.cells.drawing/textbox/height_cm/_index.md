@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_cm mülk
 
-Şeklin santimetre cinsinden yüksekliğini temsil eder.
+Şeklin yüksekliğini santimetre cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -13,7 +13,7 @@ is_root: false
 
 ###  Kehrt zurück
 
-Gibt true zurück, wenn diese Farbe in der Palette enthalten ist. Andernfalls wird false zurückgegeben
+Gibt true zurück, wenn diese Farbe in der Palette enthalten ist.
 
 
 ```python

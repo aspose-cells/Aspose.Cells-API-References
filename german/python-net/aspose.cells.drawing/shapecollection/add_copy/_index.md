@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/shapecollection/add_copy/
 is_root: false
 ---
 ##  add_copy(source_shape, upper_left_row, top, upper_left_column, left) {#Shape-int-int-int-int}
-Fügt eine Form zum Arbeitsblatt hinzu und kopiert sie.
+Fügt dem Arbeitsblatt eine Form hinzu und kopiert sie.
 
 
 ###  Kehrt zurück
@@ -26,11 +26,11 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 | :- | :- | :- |
 | source_shape | [Shape](/cells/de/python-net/aspose.cells.drawing/shape) | Quellform.|
 | upper_left_row | int | Zeilenindex oben links.|
-| top | int | Repräsentiert den vertikalen Versatz des Kontrollkästchens von seiner linken Zeile in Pixeleinheiten.|
-| upper_left_column | int |Spaltenindex oben links.|
+| top | int |Repräsentiert den vertikalen Versatz des Kontrollkästchens von seiner linken Zeile in Pixeleinheiten.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Repräsentiert den horizontalen Versatz des Textfelds von seiner linken Spalte in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

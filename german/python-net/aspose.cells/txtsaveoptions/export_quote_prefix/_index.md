@@ -10,7 +10,7 @@ is_root: false
 ##  export_quote_prefix Eigentum
 
 Gibt an, ob das einfache Anführungszeichen als Teil des Werts einer Zelle exportiert werden soll
-wenn [Style.quote_prefix](/cells/de/python-net/aspose.cells/style#quote_prefix) dafür gilt. Standard ist falsch.
+wenn [Style.quote_prefix](/cells/de/python-net/aspose.cells/style#quote_prefix) wahr ist, Standard ist falsch.
 ###  Definition:
 ```python
 @property

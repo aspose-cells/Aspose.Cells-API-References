@@ -22,7 +22,7 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/ru/python-net/aspose.cells.drawing/msopresettexteffect) | Предустановленный тип текстового эффекта mso.|
 | text | str | Текст WordArt.|
@@ -32,12 +32,12 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | font_italic | bool | Указывает, является ли шрифт курсивом.|
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение фигуры от ее левой строки в единицах пикселя.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
-| left | int | Представляет горизонтальное смещение фигуры от ее левого столбца в пикселях.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
+| left | int |Представляет горизонтальное смещение фигуры от ее левого столбца в пикселях.|
 | height | int | Представляет высоту фигуры в пикселях.|
 | width | int | Представляет ширину фигуры в пикселях.|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import MsoPresetTextEffect

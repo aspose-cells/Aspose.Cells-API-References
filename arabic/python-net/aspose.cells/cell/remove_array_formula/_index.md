@@ -18,7 +18,7 @@ def remove_array_formula(self, leave_normal_formula):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | leave_normal_formula | bool | يمثل True تحويل صيغة الصفيف إلى صيغة عادية.|
 

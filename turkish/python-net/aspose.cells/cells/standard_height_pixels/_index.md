@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_height_pixels mülk
 
-Bu çalışma sayfasındaki varsayılan satır yüksekliğini piksel birimi cinsinden alır veya ayarlar.
+Bu çalışma sayfasındaki varsayılan satır yüksekliğini piksel birimleri cinsinden alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

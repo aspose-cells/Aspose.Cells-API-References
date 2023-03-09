@@ -13,8 +13,8 @@ is_root: false
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
- lütfen Shape.Line.BeginArrowheadLength özelliğini kullanın.
+ NOT: Bu üye artık kullanılmıyor.
+lütfen Shape.Line.BeginArrowheadLength özelliğini kullanın.
  Bu mülk, Ağustos 2016'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

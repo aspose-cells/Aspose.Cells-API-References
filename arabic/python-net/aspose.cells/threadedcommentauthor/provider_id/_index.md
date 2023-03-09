@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id الملكية
 
-يحصل على معرف المزود.
+يحصل على هوية المزود.
 ###  تعريف:
 ```python
 @property

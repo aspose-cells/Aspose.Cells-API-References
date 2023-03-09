@@ -11,7 +11,7 @@ is_root: false
 
 Indica se il commento è visibile o meno.
 
-###  Esempio
+###  Esempi
 
 ```python
 

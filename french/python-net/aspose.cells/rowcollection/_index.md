@@ -21,7 +21,7 @@ Le type RowCollection expose les membres suivants :
 
 
 
-Obtient un objet [Row](/cells/fr/python-net/aspose.cells/row) par index de ligne donné. L'objet Row d'un index de ligne donné sera instancié s'il n'existait pas auparavant.
+Obtient un objet [Row](/cells/fr/python-net/aspose.cells/row) par index de ligne donné.
 ###  Indexeur
 | Nom| Description|
 | :- | :- |
@@ -37,7 +37,7 @@ Obtient un objet [Row](/cells/fr/python-net/aspose.cells/row) par index de ligne
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

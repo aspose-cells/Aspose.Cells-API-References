@@ -22,7 +22,7 @@ def get_column_by_index(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | La position dans la liste.|
 

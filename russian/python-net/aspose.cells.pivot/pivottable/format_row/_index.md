@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | row | int | Индекс строки объекта Row|
 | style | [Style](/cells/ru/python-net/aspose.cells/style) | Стиль для форматирования|

@@ -11,7 +11,7 @@ is_root: false
 
 Bewerten Sie die Gesamtseitenzahl dieses Arbeitsblatts
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code zeigt den schnellsten Weg, um die Seitenzahl eines Arbeitsblatts zu erhalten.
 

@@ -18,7 +18,7 @@ def delete_column(self, column_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column_index | int | Indice de colonne.|
 
@@ -34,7 +34,7 @@ def delete_column(self, column_index, update_reference):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column_index | int | Indice de colonne.|
 | update_reference | bool | Indique si la mise à jour des références dans d'autres feuilles de calcul.|

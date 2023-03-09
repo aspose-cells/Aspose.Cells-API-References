@@ -1,6 +1,6 @@
 ﻿---
 title: ignore_null 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## ignore_null 属性
 
-表示是否忽略空值。
+指示是否忽略空值。
 ### 定义：
 ```python
 @property

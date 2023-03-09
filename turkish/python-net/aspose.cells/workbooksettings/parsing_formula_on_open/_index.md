@@ -13,9 +13,9 @@ Dosyayı okurken formülün ayrıştırılıp ayrıştırılmadığını göster
 
 ###  Notlar
 
-Yalnızca Excel Xlsx, Xltx, Xltm ve Xlsm dosyası için geçerlidir
+Yalnızca Excel Xlsx, Xltx, Xltm ve Xlsm dosyaları için geçerlidir
 çünkü dosyalardaki formüller bir dizi formülü ile depolanır.
-NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen LoadOptions.ParsingFormulaOnOpen'ı kullanın.
+NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen LoadOptions.ParsingFormulaOnOpen kullanın.
  Bu mülk, Ocak 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

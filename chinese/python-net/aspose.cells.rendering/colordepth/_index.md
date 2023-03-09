@@ -1,13 +1,13 @@
 ﻿---
 title: ColorDepth枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 140
 url: /zh/python-net/aspose.cells.rendering/colordepth/
 is_root: false
 ---
-##  ColorDepth枚举
+## ColorDepth枚举
 枚举 tiff 图像的位深度类型。
 
 

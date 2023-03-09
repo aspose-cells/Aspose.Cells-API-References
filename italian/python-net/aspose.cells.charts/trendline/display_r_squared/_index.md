@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_r_squared proprietà
 
-Indica se il valore R-quadrato della linea di tendenza viene visualizzato sul grafico (nella stessa etichetta dati dell'equazione). L'impostazione di questa proprietà su True attiva automaticamente le etichette dati.
+Rappresenta se il valore R al quadrato della linea di tendenza viene visualizzato sul grafico (nella stessa etichetta dati dell'equazione). L'impostazione di questa proprietà su True attiva automaticamente le etichette dati.
 ###  Definizione:
 ```python
 @property

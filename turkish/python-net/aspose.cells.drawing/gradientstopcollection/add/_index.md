@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | position | float | Yüzde birimi cinsinden durağın konumu.|
 | color | [CellsColor](/cells/tr/python-net/aspose.cells/cellscolor) | Durağın rengi.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | position | float | Yüzde birimi cinsinden durağın konumu.|
 | color | aspose.pydrawing.Color | Durağın rengi.|

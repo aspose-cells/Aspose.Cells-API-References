@@ -20,9 +20,9 @@ is_root: false
 | SLICER_STYLE_LIGHT1 | المدمج في نمط ضوء واحد|
 | SLICER_STYLE_LIGHT2 | المدمج في نمط الضوء الثاني|
 | SLICER_STYLE_LIGHT3 | المدمج في نمط الضوء ثلاثة|
-| SLICER_STYLE_LIGHT4 |المدمج في نمط الضوء أربعة|
+| SLICER_STYLE_LIGHT4 | المدمج في نمط الضوء أربعة|
 | SLICER_STYLE_LIGHT5 | المدمج في نمط الضوء خمسة|
-| SLICER_STYLE_LIGHT6 | المدمج في نمط الضوء ستة|
+| SLICER_STYLE_LIGHT6 |المدمج في نمط الضوء ستة|
 | SLICER_STYLE_OTHER1 | نمط مدمج آخر|
 | SLICER_STYLE_OTHER2 | المدمج في أسلوب اثنين آخرين|
 | SLICER_STYLE_DARK1 | المدمج في نمط الظلام واحد|

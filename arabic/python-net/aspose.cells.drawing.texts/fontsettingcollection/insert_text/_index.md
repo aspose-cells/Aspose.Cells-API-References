@@ -18,7 +18,7 @@ def insert_text(self, index, text):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس البداية.|
 | text | str | النص.|

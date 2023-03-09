@@ -26,7 +26,7 @@ def add_hyperlink(self, address):
 | :- | :- | :- |
 | address | str | Adresse des Hyperlinks.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -17,11 +17,11 @@ HtmlCrossType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| DEFAULT | MS Excel gibi görüntüleme, bir sonraki hücreye bağlıdır.<br/> Bir sonraki hücre boşsa, dize kesişecek veya kesilecek|
+| DEFAULT | MS Excel gibi görüntüleme, bir sonraki hücreye bağlıdır.<br/>Bir sonraki hücre boşsa, dize kesişecek veya kesilecek|
 | MS_EXPORT | Dizeyi, html dışa aktaran MS Excel gibi görüntüleyin.|
-| CROSS | Ekran HTML çapraz dize, büyük html dosyaları oluşturmak için bu performans, değeri Varsayılan veya FitToCell olarak ayarlamaktan on kat daha hızlı olacaktır.|
+| CROSS | HTML çapraz dizisini görüntüle, büyük html dosyaları oluşturmak için bu performans, değeri Varsayılan veya FitToCell olarak ayarlamaktan on kat daha hızlı olacaktır.|
 | CROSS_HIDE_RIGHT | HTML çapraz dizeyi görüntüleyin ve metinler çakıştığında sağ diziyi gizleyin.|
-| FIT_TO_CELL | Dizeyi yalnızca hücre genişliği içinde görüntülüyor.|
+| FIT_TO_CELL | Yalnızca hücrenin genişliği içindeki dizeyi görüntüler.|
 
 
 

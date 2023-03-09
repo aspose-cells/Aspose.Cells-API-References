@@ -27,7 +27,7 @@ Il tipo CalculationCell espone i membri seguenti:
 ###  Metodi
 | Metodo| Descrizione|
 | :- | :- |
-| [set_calculated_value(v)](/cells/it/python-net/aspose.cells/calculationcell/set_calculated_value/#any) |Imposta il valore calcolato per la cella.|
+| [set_calculated_value(v)](/cells/it/python-net/aspose.cells/calculationcell/set_calculated_value/#any) | Imposta il valore calcolato per la cella.|
 
 
 

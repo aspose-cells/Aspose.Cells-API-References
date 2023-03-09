@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-فقط من أجل OleObject.
+فقط من أجل كائنات Ole.
 ###  تعريف:
 ```python
 @property

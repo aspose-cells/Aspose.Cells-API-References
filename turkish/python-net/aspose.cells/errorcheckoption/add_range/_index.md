@@ -22,7 +22,7 @@ def add_range(self, ca):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | eklenecek aralık.|
 

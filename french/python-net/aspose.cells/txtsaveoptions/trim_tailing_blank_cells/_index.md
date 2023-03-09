@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells propriété
 
-Indique si les cellules vides de fin d'une ligne doivent être supprimées. La valeur par défaut est false.
+Indique si les cellules vides de fin d'une ligne doivent être supprimées. La valeur par défaut est "False".
 
 ###  Remarques
 

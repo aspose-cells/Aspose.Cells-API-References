@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/lineformat/
 is_root: false
 ---
 ##  LineFormat Klasse
-Stellt alle Einstellungen der Linie dar.
+Repräsentiert alle Einstellungen der Linie.
 
 
 
@@ -22,7 +22,7 @@ Der Typ LineFormat macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [type](/cells/de/python-net/aspose.cells.drawing/lineformat/type) | Ruft den Fülltyp ab und legt ihn fest.|
+| [type](/cells/de/python-net/aspose.cells.drawing/lineformat/type) |Ruft den Fülltyp ab und legt ihn fest.|
 | [fill_type](/cells/de/python-net/aspose.cells.drawing/lineformat/fill_type) | Ruft den Fülltyp ab und legt ihn fest|
 | [transparency](/cells/de/python-net/aspose.cells.drawing/lineformat/transparency) | Gibt den Transparenzgrad des Bereichs als Wert von 0,0 (deckend) bis 1,0 (durchsichtig) zurück oder legt ihn fest.|
 | [set_type](/cells/de/python-net/aspose.cells.drawing/lineformat/set_type) | Ruft den Typ des Füllformatsatzes ab.|
@@ -50,7 +50,7 @@ Der Typ LineFormat macht die folgenden Member verfügbar:
 | [begin_arrowhead_width](/cells/de/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_width) | Ruft den Anfangspfeilbreitentyp der Linie ab und legt diesen fest.|
 | [begin_arrowhead_length](/cells/de/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_length) | Ruft den Anfangspfeillängentyp der Linie ab und legt ihn fest.|
 | [end_arrowhead_style](/cells/de/python-net/aspose.cells.drawing/lineformat/end_arrowhead_style) | Ruft den Endpfeiltyp der Linie ab und legt diesen fest.|
-| [end_arrowhead_width](/cells/de/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) | Ruft den Breitentyp des Endpfeils der Linie ab und legt diesen fest.|
+| [end_arrowhead_width](/cells/de/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) |Ruft den Breitentyp des Endpfeils der Linie ab und legt diesen fest.|
 | [end_arrowhead_length](/cells/de/python-net/aspose.cells.drawing/lineformat/end_arrowhead_length) | Ruft den Längentyp des Endpfeils der Linie ab und legt diesen fest.|
 | [weight](/cells/de/python-net/aspose.cells.drawing/lineformat/weight) | Ruft die Gewichtung der Linie in Punkteinheiten ab oder legt diese fest.|
 
@@ -65,7 +65,7 @@ Der Typ LineFormat macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hi_lo_lines Eigentum
 
- Gibt ein HiLoLines-Objekt zurück, das die Hoch-Tief-Linien für eine Reihe in einem Liniendiagramm darstellt.
+Gibt ein HiLoLines-Objekt zurück, das die Hoch-Tief-Linien für eine Reihe in einem Liniendiagramm darstellt.
 Gilt nur für Liniendiagramme.
 ###  Definition:
 ```python

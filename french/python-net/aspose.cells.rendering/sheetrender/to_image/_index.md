@@ -18,12 +18,12 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | page_index | int | indiquer quelle page doit être convertie|
 | file_name | str | nom de fichier de l'image de sortie|
 
-###  Exemple
+###  Exemples
 
 Le code suivant génère la première page de la première feuille en image png.
 
@@ -46,7 +46,7 @@ sr.to_image(0, "output.png")
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Rendre certaines pages dans un flux.
+Afficher certaines pages dans un flux.
 
 
 
@@ -56,7 +56,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | page_index | int | indiquer quelle page doit être convertie|
 | stream | io.RawIOBase | le flux de l'image de sortie|

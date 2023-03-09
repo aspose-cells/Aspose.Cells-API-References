@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает тип вертикального выравнивания текста фигуры.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import TextAlignmentType

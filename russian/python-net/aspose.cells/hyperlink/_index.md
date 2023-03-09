@@ -18,8 +18,8 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [address](/cells/ru/python-net/aspose.cells/hyperlink/address) | Представляет адрес гиперссылки.|
-| [text_to_display](/cells/ru/python-net/aspose.cells/hyperlink/text_to_display) | Представляет текст, отображаемый для указанной гиперссылки. Значением по умолчанию является адрес гиперссылки.|
-| [area](/cells/ru/python-net/aspose.cells/hyperlink/area) | Получает диапазон гиперссылки.|
+| [text_to_display](/cells/ru/python-net/aspose.cells/hyperlink/text_to_display) | Представляет текст, отображаемый для указанной гиперссылки.|
+| [area](/cells/ru/python-net/aspose.cells/hyperlink/area) | Получает диапазон гиперссылок.|
 | [screen_tip](/cells/ru/python-net/aspose.cells/hyperlink/screen_tip) | Возвращает или задает текст всплывающей подсказки для указанной гиперссылки.|
 | [link_type](/cells/ru/python-net/aspose.cells/hyperlink/link_type) | Получает тип ссылки.|
 
@@ -31,7 +31,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

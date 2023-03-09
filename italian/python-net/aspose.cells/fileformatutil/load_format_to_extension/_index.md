@@ -22,7 +22,7 @@ def load_format_to_extension(self, load_format):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/it/python-net/aspose.cells/loadformat) | Il formato file caricato.|
 ###  Osservazioni

@@ -19,14 +19,14 @@ def to_image(self, image_file):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | image_file | str | Il nome del file immagine con il percorso completo.|
 ###  Osservazioni
 
 Il formato dell'immagine viene specificato utilizzando l'estensione del nome del file.
 Ad esempio, se specifichi "myfile.png", l'immagine verrà salvata
- nel formato PNG. Sono riconosciute le seguenti estensioni di file:
+ nel formato PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
@@ -43,7 +43,7 @@ def to_image(self, image_file, image_type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | image_file | str | Il nome del file immagine con il percorso completo.|
 | image_type | aspose.cells.drawing.ImageType | Il tipo di immagine in cui salvare l'immagine.|
@@ -67,7 +67,7 @@ def to_image(self, image_file, jpeg_quality):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | image_file | str | Il nome del file immagine con il percorso completo.|
 | jpeg_quality | int | Qualità JPEG.|
@@ -87,7 +87,7 @@ def to_image(self, stream, jpeg_quality):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso di uscita.|
 | jpeg_quality | int | Qualità JPEG.|
@@ -107,7 +107,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso di uscita.|
 | image_type | aspose.cells.drawing.ImageType | Il tipo di immagine in cui salvare l'immagine.|
@@ -132,7 +132,7 @@ def to_image(self, image_file, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | image_file | str | Il nome del file immagine con il percorso completo.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Ulteriori opzioni per la creazione di immagini|
@@ -140,15 +140,15 @@ def to_image(self, image_file, options):
 
 Il formato dell'immagine viene specificato utilizzando l'estensione del nome del file.
 Ad esempio, se specifichi "myfile.png", l'immagine verrà salvata
- nel formato PNG. Sono riconosciute le seguenti estensioni di file:
+ nel formato PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
 Se la larghezza o l'altezza è zero o il grafico non è supportato in base all'elenco dei grafici supportati, questo metodo non farà nulla.
- Per favore riferisci a[Elenco dei grafici supportati](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) per ulteriori dettagli.
-###  Esempio
+ Per favore riferisci a[Elenco dei grafici supportati](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)per ulteriori dettagli.
+###  Esempi
 
-Salva in Tiff con 300 dpi e compressione CCITT4.
+Salva in Tiff con compressione 300dpi e CCITT4.
 
 ```python
 from aspose.cells import Workbook
@@ -191,19 +191,19 @@ def to_image(self, stream, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso di uscita.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Ulteriori opzioni per la creazione di immagini|
 ###  Osservazioni
 
 Il tipo di immagine viene specificato utilizzando `options.ImageType`.
-Sono supportati i seguenti formati:
+ Sono supportati i seguenti formati:
 ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 
 Se la larghezza o l'altezza è zero o il grafico non è supportato in base all'elenco dei grafici supportati, questo metodo non farà nulla.
- Per favore riferisci a[Elenco dei grafici supportati](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) per ulteriori dettagli.
+ Per favore riferisci a[Elenco dei grafici supportati](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)per ulteriori dettagli.
 
 
 ###  Guarda anche

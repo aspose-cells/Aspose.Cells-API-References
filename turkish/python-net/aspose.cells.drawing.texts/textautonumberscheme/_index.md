@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing.texts/textautonumberscheme/
 is_root: false
 ---
 ##  TextAutonumberScheme numaralandırma
-Tüm otomatik sayı düzenini temsil eder.
+Tüm otomatik sayı şemalarını temsil eder.
 
 
 
@@ -25,7 +25,7 @@ TextAutonumberScheme türü aşağıdaki üyeleri gösterir:
 | ALPHA_UC_PAREN_R | A), B), C), …|
 | ALPHA_UC_PERIOD | A., B., C., …|
 | ARABIC_1_MINUS | ANSI eksi sembolü ile Bidi Arapça 1 (AraAlpha)|
-| ARABIC_2_MINUS | ANSI eksi sembolü ile Bidi Arapça 2 (AraAbjad)|
+| ARABIC_2_MINUS |ANSI eksi sembolü ile Bidi Arapça 2 (AraAbjad)|
 | ARABIC_DB_PERIOD | Dbl-byte Arapça sayılar, çift baytlık nokta ile|
 | ARABIC_DB_PLAIN | Dbl bayt Arapça sayılar|
 | ARABIC_PAREN_BOTH | (1), (2), (3), … |
@@ -38,7 +38,7 @@ TextAutonumberScheme türü aşağıdaki üyeleri gösterir:
 | EA_1_CHS_PERIOD | EA: Tek baytlık dönemle basitleştirilmiş Çince|
 | EA_1_CHS_PLAIN | EA: Basitleştirilmiş Çince (TypeA 1-99, TypeC 100-)|
 | EA_1_CHT_PERIOD | EA: Tek baytlık nokta ile Geleneksel Çince|
-| EA_1_CHT_PLAIN |EA: Geleneksel Çince (TypeA 1-19, TypeC 20-)|
+| EA_1_CHT_PLAIN | EA: Geleneksel Çince (TypeA 1-19, TypeC 20-)|
 | EA_1_JPN_CHS_DB_PERIOD | EA: Çift bayt noktalı Japonca|
 | EA_1_JPN_KOR_PERIOD | EA: Japonca/Korece w/ tek baytlık nokta|
 | EA_1_JPN_KOR_PLAIN | EA: Japonca/Korece (TypeC 1-)|
@@ -52,7 +52,7 @@ TextAutonumberScheme türü aşağıdaki üyeleri gösterir:
 | ROMAN_LC_PERIOD | i., ii., iii., …|
 | ROMAN_UC_PAREN_BOTH | (I), (II), (III), …|
 | ROMAN_UC_PAREN_R | I), II), III), …|
-| ROMAN_UC_PERIOD | I., II., III., …|
+| ROMAN_UC_PERIOD |I., II., III., …|
 | THAI_ALPHA_PAREN_BOTH | Tay alfabesi parantezleri - her ikisi de|
 | THAI_ALPHA_PAREN_R | Tay alfabesi parantezleri - sağ|
 | THAI_ALPHA_PERIOD | Tay alfabesi dönemi|

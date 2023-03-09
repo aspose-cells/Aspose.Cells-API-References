@@ -18,12 +18,12 @@ is_root: false
 | [SmartTagCollection](/cells/de/python-net/aspose.cells.markup/smarttagcollection) | Stellt alle Smarttags in der Zelle dar.|
 | [SmartTagOptions](/cells/de/python-net/aspose.cells.markup/smarttagoptions) | Stellt die Optionen des Smarttags dar.|
 | [SmartTagProperty](/cells/de/python-net/aspose.cells.markup/smarttagproperty) | Stellt die Eigenschaft des Zellen-Smarttags dar.|
-| [SmartTagPropertyCollection](/cells/de/python-net/aspose.cells.markup/smarttagpropertycollection) | Stellt alle Eigenschaften des Zellen-Smarttags dar.|
+| [SmartTagPropertyCollection](/cells/de/python-net/aspose.cells.markup/smarttagpropertycollection) |Stellt alle Eigenschaften von Zellen-Smarttags dar.|
 | [SmartTagSetting](/cells/de/python-net/aspose.cells.markup/smarttagsetting) | Stellt alle [SmartTagCollection](/cells/de/python-net/aspose.cells.markup/smarttagcollection)-Objekte im Arbeitsblatt dar.|
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
 | [SmartTagShowType](/cells/de/python-net/aspose.cells.markup/smarttagshowtype) | Stellt den Anzeigetyp des Smarttags dar.|
 

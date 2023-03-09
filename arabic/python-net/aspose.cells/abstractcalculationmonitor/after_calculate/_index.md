@@ -18,7 +18,7 @@ def after_calculate(self, sheet_index, row_index, col_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | sheet_index | int | فهرس الورقة التي تنتمي إليها الخلية.|
 | row_index | int | فهرس صف الخلية|

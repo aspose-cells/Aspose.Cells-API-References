@@ -18,7 +18,7 @@ Der Typ VbaModuleType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | PROCEDURAL | Stellt ein prozedurales Modul dar.|
-| DOCUMENT |Stellt ein Dokumentmodul dar.|
+| DOCUMENT | Stellt ein Dokumentmodul dar.|
 | CLASS | Stellt ein Klassenmodul dar.|
 | DESIGNER | Stellt ein Designermodul dar.|
 

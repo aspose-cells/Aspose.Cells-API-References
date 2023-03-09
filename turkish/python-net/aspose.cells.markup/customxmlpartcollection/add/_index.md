@@ -22,7 +22,7 @@ def add(self, data, shema_data):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | data | bytes | Bu Özel XML Veri Depolama Bölümünün XML içeriği.|
 | shema_data | bytes | Bu özel XML parçasıyla ilişkili XML şemaları kümesi.|

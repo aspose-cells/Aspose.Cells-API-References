@@ -22,9 +22,9 @@ def set_header_picture(self, section, header_picture):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| section | int |0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
+| section | int | 0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
 | header_picture | bytes | Görüntü verileri.|
 
 

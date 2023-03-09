@@ -22,12 +22,12 @@ def get_by_index(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int |  |
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+NOTA: questo membro è ora obsoleto.
 si prega di utilizzare il metodo Columns.GetColumnByIndex().
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.

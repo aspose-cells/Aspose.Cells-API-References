@@ -22,7 +22,7 @@ def is_same_setting(self, obj):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | obj | any |  |
 

@@ -31,7 +31,7 @@ def __init__(self, opts):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | opts | [LoadDataFilterOptions](/cells/ru/python-net/aspose.cells/loaddatafilteroptions) | параметры фильтра по умолчанию|
 

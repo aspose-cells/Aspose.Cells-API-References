@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_array_title fastighet
 
-Indikerar om ignorera titel om array är en egenskap hos objekt.
+Indikerar om titel ska ignoreras om array är en egenskap hos objekt.
 
 ###  Anmärkningar
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  parse propriété
 
-Que ce soit parse formule donnée. La valeur par défaut est true.
+Si la formule donnée est parse. La valeur par défaut est true.
 S'il est faux, la chaîne de formule donnée sera conservée telle quelle pour la cellule jusqu'à ce que l'utilisateur appelle d'autres méthodes pour les parse
 ou des données de formule analysées sont requises par d'autres opérations telles que le calcul de formules.
 ###  Définition:

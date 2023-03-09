@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_password Eigentum
 
-True, wenn das Kennwort als Teil der Verbindungszeichenfolge gespeichert werden soll; andernfalls falsch.
+True, wenn das Kennwort als Teil der Verbindungszeichenfolge gespeichert werden soll, andernfalls False.
 ###  Definition:
 ```python
 @property

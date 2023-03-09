@@ -1,13 +1,13 @@
 ﻿---
 title: HtmlHiddenColDisplayType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2160
 url: /zh/python-net/aspose.cells/htmlhiddencoldisplaytype/
 is_root: false
 ---
-##  HtmlHiddenColDisplayType枚举
+## HtmlHiddenColDisplayType枚举
 表示在html中显示隐藏列的两种类型。
 
 

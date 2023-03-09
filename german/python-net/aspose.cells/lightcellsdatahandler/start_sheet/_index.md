@@ -13,7 +13,7 @@ Beginnt mit der Verarbeitung eines Arbeitsblatts.
 
 ###  Kehrt zurück
 
-ob die Zellendaten dieses Blattes verarbeitet werden müssen. false, um dieses Blatt zu ignorieren.
+ob die Zellendaten dieses Blattes verarbeitet werden müssen false um dieses Blatt zu ignorieren.
 
 
 ```python
@@ -24,7 +24,7 @@ def start_sheet(self, sheet):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/de/python-net/aspose.cells/worksheet) |das Arbeitsblatt, um Zellendaten zu lesen.|
+| sheet | [Worksheet](/cells/de/python-net/aspose.cells/worksheet) | das Arbeitsblatt, um Zellendaten zu lesen.|
 ###  Bemerkungen
 
 Es wird aufgerufen, bevor die Zellendaten eines Arbeitsblatts gelesen werden.

@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta la riga della firma
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

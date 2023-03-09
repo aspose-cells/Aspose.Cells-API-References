@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_new fastighet
 
- Sant om anslutningen inte har uppdaterats för första gången; annars falskt.
+ Sant om anslutningen inte har uppdaterats för första gången, annars är det falskt.
 Detta tillstånd kan inträffa när användaren sparar filen innan en fråga har slutat returnera.
 ###  Definition:
 ```python

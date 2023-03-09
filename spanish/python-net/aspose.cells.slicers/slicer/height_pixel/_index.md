@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece la altura de la segmentación especificada, en píxeles.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

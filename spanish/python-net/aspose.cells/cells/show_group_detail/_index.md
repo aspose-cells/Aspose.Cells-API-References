@@ -18,7 +18,7 @@ def show_group_detail(self, is_vertical, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | is_vertical | bool | Cierto, expande las filas agrupadas.|
 | index | int | El índice de fila/columna|

@@ -24,8 +24,8 @@ Il tipo OoxmlCompressionType espone i membri seguenti:
 | LEVEL5 | Un po' più lento del livello 4, ma con una migliore compressione.|
 | LEVEL6 | Un buon equilibrio tra velocità ed efficienza di compressione.|
 | LEVEL7 | Compressione abbastanza buona!|
-| LEVEL8 | Migliore compressione rispetto a Level7!|
-| LEVEL9 | La compressione "migliore", dove migliore indica la massima riduzione delle dimensioni del flusso di dati di input.<br/> Questa è anche la compressione più lenta.|
+| LEVEL8 | Migliore compressione rispetto al livello 7!|
+| LEVEL9 |La compressione "migliore", dove migliore indica la massima riduzione delle dimensioni del flusso di dati di input.<br/> Questa è anche la compressione più lenta.|
 
 
 

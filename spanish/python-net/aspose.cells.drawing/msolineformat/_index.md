@@ -23,7 +23,7 @@ El tipo MsoLineFormat expone los siguientes miembros:
 | [back_color](/cells/es/python-net/aspose.cells.drawing/msolineformat/back_color) | Obtiene y establece el color de fondo de la línea del borde.|
 | [dash_style](/cells/es/python-net/aspose.cells.drawing/msolineformat/dash_style) | Obtiene o establece el estilo de guión de la línea especificada.|
 | [transparency](/cells/es/python-net/aspose.cells.drawing/msolineformat/transparency) | Devuelve o establece el grado de transparencia del relleno especificado como un valor de 0,0 (opaco) a 1,0 (transparente).|
-| [weight](/cells/es/python-net/aspose.cells.drawing/msolineformat/weight) | Devuelve o establece el peso de la línea, en unidades de pt.|
+| [weight](/cells/es/python-net/aspose.cells.drawing/msolineformat/weight) | Devuelve o establece el grosor de la línea, en unidades de pt.|
 
 
 

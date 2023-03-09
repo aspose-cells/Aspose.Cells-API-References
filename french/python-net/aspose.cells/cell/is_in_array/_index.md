@@ -13,7 +13,7 @@ Indique si la formule de la cellule est une formule matricielle.
 
 ###  Remarques
 
- REMARQUE : Cette classe est désormais obsolète. Plutôt,
+ REMARQUE : Cette classe est désormais obsolète.
 veuillez utiliser Cell.IsArrayFormula pour vérifier si la formule de la cellule est une formule matricielle.
 Cette propriété sera supprimée 12 mois plus tard depuis mai 2018.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

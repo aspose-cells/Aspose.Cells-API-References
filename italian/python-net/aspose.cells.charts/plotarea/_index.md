@@ -28,13 +28,13 @@ Il tipo PlotArea espone i membri seguenti:
 | [text_font](/cells/it/python-net/aspose.cells.charts/plotarea/text_font) | Ottiene un oggetto [ChartFrame.font](/cells/it/python-net/aspose.cells.charts/chartframe#font) dell'oggetto ChartFrame specificato.|
 | [text_options](/cells/it/python-net/aspose.cells.charts/plotarea/text_options) | Ottiene e imposta le opzioni del testo.|
 | [font](/cells/it/python-net/aspose.cells.charts/plotarea/font) | Ottiene un oggetto [ChartFrame.font](/cells/it/python-net/aspose.cells.charts/chartframe#font) dell'oggetto ChartFrame specificato.|
-| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/plotarea/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto. Il valore predefinito è Vero.|
+| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/plotarea/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto.|
 | [background_mode](/cells/it/python-net/aspose.cells.charts/plotarea/background_mode) | Ottiene e imposta la modalità di visualizzazione dello sfondo|
 | [background](/cells/it/python-net/aspose.cells.charts/plotarea/background) | Ottiene e imposta la modalità di visualizzazione dello sfondo|
 | [is_automatic_size](/cells/it/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Indica se l'area del tracciato viene ridimensionata automaticamente.|
 | [x](/cells/it/python-net/aspose.cells.charts/plotarea/x) | Ottiene o ottiene la coordinata x dell'angolo superiore sinistro del riquadro di delimitazione dell'area del grafico in unità di 1/4000 dell'area del grafico.|
 | [y](/cells/it/python-net/aspose.cells.charts/plotarea/y) | Ottiene o ottiene la coordinata y dell'angolo superiore superiore del riquadro di delimitazione dell'area del grafico in unità di 1/4000 dell'area del grafico.|
-| [height](/cells/it/python-net/aspose.cells.charts/plotarea/height) | Ottiene o imposta l'altezza del riquadro di delimitazione dell'area del grafico in unità di 1/4000 dell'area del grafico.|
+| [height](/cells/it/python-net/aspose.cells.charts/plotarea/height) |Ottiene o imposta l'altezza del riquadro di delimitazione dell'area del grafico in unità di 1/4000 dell'area del grafico.|
 | [width](/cells/it/python-net/aspose.cells.charts/plotarea/width) | Ottiene o imposta la larghezza del riquadro di delimitazione dell'area del grafico in unità di 1/4000 dell'area del grafico.|
 | [shadow](/cells/it/python-net/aspose.cells.charts/plotarea/shadow) | Vero se la cornice ha un'ombra.|
 | [shape_properties](/cells/it/python-net/aspose.cells.charts/plotarea/shape_properties) | Ottiene l'oggetto [ChartFrame.shape_properties](/cells/it/python-net/aspose.cells.charts/chartframe#shape_properties).|

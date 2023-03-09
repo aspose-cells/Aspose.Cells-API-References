@@ -13,7 +13,7 @@ Restituisce un oggetto [Range](/cells/it/python-net/aspose.cells/range) che rapp
 
 ###  ritorna
 
-[Range](/cells/it/python-net/aspose.cells/range) oggetto. Null se questa cella non è unita.
+[Range](/cells/it/python-net/aspose.cells/range). Null se questa cella non è unita.
 
 
 ```python

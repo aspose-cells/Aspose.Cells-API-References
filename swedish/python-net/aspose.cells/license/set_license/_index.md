@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/license/set_license/
 is_root: false
 ---
 ##  set_license(license_name) {#str}
-Licensierar komponenten.
+Licensierar komponenterna.
 
 
 
@@ -18,12 +18,12 @@ def set_license(self, license_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | license_name | str |  |
 ###  Anmärkningar
 
-Försöker hitta licensen på följande platser:
+Försök att hitta licensen på följande platser:
 
 
 1. Explicit väg.
@@ -41,7 +41,7 @@ Försöker hitta licensen på följande platser:
 5. En inbäddad resurs i klientens anropssammansättning.
 
 
-**Notera:** På .NET Compact Framework försöker du hitta licensen endast på dessa platser:
+**Anmärkningar:** På .NET Compact Framework försöker du hitta licensen endast på dessa platser:
 
 
 1. Explicit väg.
@@ -56,7 +56,7 @@ I det här exemplet kommer ett försök att göras att hitta en licensfil med na
 
 
 komponenten, i mappen som innehåller den anropande församlingen,
-mappen för postförsamlingen och sedan i de inbäddade resurserna för den anropande församlingen.
+i mappen för postförsamlingen och sedan i de inbäddade resurserna för den anropande församlingen.
 
 ```python
 from aspose.cells import License
@@ -70,7 +70,7 @@ Använd en tom sträng för att växla till utvärderingsläge.
 
 
 ##  set_license(stream) {#io.RawIOBase}
-Licensierar komponenten.
+Licensierar komponenterna.
 
 
 
@@ -80,7 +80,7 @@ def set_license(self, stream):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | En stream som innehåller licensen.|
 ###  Anmärkningar

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  height Eigentum
 
-Ruft die Breite eines Bereichs in Punkt ab.
+Ruft die Breite eines Bereichs in Punkten ab.
 ###  Definition:
 ```python
 @property

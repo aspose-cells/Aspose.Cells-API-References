@@ -23,12 +23,12 @@ Der Typ License macht die folgenden Member verfügbar:
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [set_license(license_name)](/cells/de/python-net/aspose.cells/license/set_license/#str) | Lizenziert die Komponente.|
-| [set_license(stream)](/cells/de/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Lizenziert die Komponente.|
+| [set_license(license_name)](/cells/de/python-net/aspose.cells/license/set_license/#str) | Lizenziert die Komponenten.|
+| [set_license(stream)](/cells/de/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Lizenziert die Komponenten.|
 
 
 
-###  Beispiel
+###  Beispiele
 
 In diesem Beispiel wird versucht, eine Lizenzdatei namens MyLicense.lic zu finden
  in dem Ordner, der enthält

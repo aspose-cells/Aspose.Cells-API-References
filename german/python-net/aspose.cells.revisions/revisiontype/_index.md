@@ -21,11 +21,11 @@ Der Typ RevisionType macht die folgenden Member verfügbar:
 | DEFINED_NAME | Definierter Name.|
 | CHANGE_CELLS | Cells ändern.|
 | AUTO_FORMAT | Automatisch formatieren.|
-| MERGE_CONFLICT |Konflikt zusammenführen.|
+| MERGE_CONFLICT | Konflikt zusammenführen.|
 | COMMENT | Kommentar.|
 | FORMAT | Format.|
 | INSERT_SHEET | Arbeitsblatt einfügen.|
-| MOVE_CELLS | Zellen verschieben.|
+| MOVE_CELLS |Zellen verschieben.|
 | UNDO | Rückgängig machen.|
 | QUERY_TABLE | Tabelle abfragen.|
 | INSERT_DELETE | Einfügen oder löschen.|

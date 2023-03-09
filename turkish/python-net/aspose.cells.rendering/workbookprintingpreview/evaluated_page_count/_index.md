@@ -11,7 +11,7 @@ is_root: false
 
 Bu çalışma kitabının toplam sayfa sayısını değerlendirin
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, bir çalışma kitabının sayfa sayısını almanın en hızlı yolunu gösterir.
 

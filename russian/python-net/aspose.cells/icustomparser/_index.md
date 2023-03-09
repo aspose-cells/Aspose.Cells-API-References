@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/icustomparser/
 is_root: false
 ---
 ##  ICustomParser класс
-Позволяет пользователям добавлять свой собственный анализатор значений для анализа строковых значений в другой правильный объект значения ячейки.
+Позволяет пользователям добавлять свой собственный анализатор значений для анализа строковых значений в другие правильные объекты значений ячеек.
 
 
 
@@ -18,7 +18,7 @@ is_root: false
 | Метод| Описание|
 | :- | :- |
 | [parse_object(value)](/cells/ru/python-net/aspose.cells/icustomparser/parse_object/#str) | Разбирает заданную строку на правильный объект значения.|
-| [get_format()](/cells/ru/python-net/aspose.cells/icustomparser/get_format/#) | Получает шаблон форматирования, соответствующий проанализированному значению при последнем вызове [ICustomParser.parse_object(value)](/cells/ru/python-net/aspose.cells/icustomparser/parse_object).|
+| [get_format()](/cells/ru/python-net/aspose.cells/icustomparser/get_format/#) |Получает шаблон форматирования, соответствующий проанализированному значению при последнем вызове [ICustomParser.parse_object(value)](/cells/ru/python-net/aspose.cells/icustomparser/parse_object).|
 
 
 

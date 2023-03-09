@@ -18,7 +18,7 @@ Der Typ ICellsDataTable macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [columns](/cells/de/python-net/aspose.cells/icellsdatatable/columns) | Ruft den Namen der Spalten ab.|
-| [count](/cells/de/python-net/aspose.cells/icellsdatatable/count) | Ruft die Anzahl der Datensätze ab. -1 für die Anzahl unbekannter Datensätze.|
+| [count](/cells/de/python-net/aspose.cells/icellsdatatable/count) | -1 für die Anzahl unbekannter Datensätze.|
 
 
 
@@ -26,7 +26,7 @@ Ruft die Daten ab, die in der durch index angegebenen Spalte gespeichert sind.
 ###  Indexierer
 | Name| Beschreibung|
 | :- | :- |
-| [index] |Der nullbasierte Index der Spalte.|
+| [index] | Der nullbasierte Index der Spalte.|
 
 
 ###  Methoden

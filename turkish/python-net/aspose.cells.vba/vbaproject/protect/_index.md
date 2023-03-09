@@ -18,7 +18,7 @@ def protect(self, islocked_for_viewing, password):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | islocked_for_viewing | bool | projeyi görüntüleme için kilitleyip kilitlemediğini gösterir.|
 | password | str | Değer null ise bu VBA projesinin korumasını kaldırır, aksi takdirde bu VBA projesini yansıtır.|

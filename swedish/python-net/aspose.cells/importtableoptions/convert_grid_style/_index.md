@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_grid_style fastighet
 
-Anger om formatet för rutnätsvyn tillämpas på celler.
+Anger om stilen för rutnätsvyn ska tillämpas på celler.
 ###  Definition:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen yoruma eklenen şekli temsil eden bir Shape nesnesi alın.
 
-###  Örnek
+###  örnekler
 
 ```python
 

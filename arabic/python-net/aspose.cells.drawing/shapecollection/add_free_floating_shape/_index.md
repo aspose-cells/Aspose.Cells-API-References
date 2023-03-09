@@ -22,17 +22,17 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/ar/python-net/aspose.cells.drawing/msodrawingtype) | نوع الشكل.|
-| top | int |يمثل الإزاحة الرأسية للشكل من الصف العلوي بورقة العمل ، بوحدة البكسل.|
-| left | int | يمثل الإزاحة الأفقية للشكل من العمود الأيسر لورقة العمل ، بوحدة البكسل.|
+| top | int | يمثل الإزاحة الرأسية للشكل من الصف العلوي بورقة العمل ، بوحدة البكسل.|
+| left | int |يمثل الإزاحة الأفقية للشكل من العمود الأيسر لورقة العمل ، بوحدة البكسل.|
 | height | int | يمثل ارتفاع LineShape بوحدة البكسل.|
 | width | int | يمثل عرض LineShape بوحدة البكسل.|
 | image_data | bytes | بيانات الصورة تنطبق فقط على الصورة.|
 | is_original_size | bool | ما إذا كان الشكل يستخدم الحجم الأصلي إذا كان الشكل صورة أم لا.|
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose import pycore

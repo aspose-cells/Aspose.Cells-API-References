@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_pt propriété
 
-Renvoie la marge supérieure en unité de points
+Renvoie la marge supérieure en unités de points
 ###  Définition:
 ```python
 @property

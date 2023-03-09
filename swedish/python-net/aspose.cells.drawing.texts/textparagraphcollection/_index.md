@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
 ##  TextParagraphCollection klass
-Representerar all textstycke.
+Representerar alla textstycken.
 
 
 

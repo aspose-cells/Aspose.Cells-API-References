@@ -17,7 +17,7 @@ Der Typ ErrorBarType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| CUSTOM | InnerCustom-Werttyp.|
+| CUSTOM | Innerer benutzerdefinierter Werttyp.|
 | FIXED_VALUE | Festwerttyp.|
 | PERCENT | Prozenttyp|
 | ST_DEV | Typ der Standardabweichung.|

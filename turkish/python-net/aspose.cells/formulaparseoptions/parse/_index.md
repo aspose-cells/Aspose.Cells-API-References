@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  parse mülk
 
-parse formülü verilmiş olsun. Varsayılan doğrudur.
+parse formülünün verilip verilmediği. Varsayılan değer doğrudur.
 Yanlışsa, verilen formül dizesi, kullanıcı diğer yöntemleri parse'e çağırana kadar hücre için olduğu gibi tutulacaktır.
 veya ayrıştırılmış formül verileri, formül hesaplama gibi diğer işlemler için gereklidir.
 ###  Tanım:

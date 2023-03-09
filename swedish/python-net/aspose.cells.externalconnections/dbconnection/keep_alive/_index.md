@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  keep_alive fastighet
 
-Sant när kalkylprogrammet ska anstränga sig för att behålla anslutningen
- öppen. När det är falskt bör applikationen stänga anslutningen efter att ha hämtat
+ Sant när kalkylprogrammet ska anstränga sig för att behålla anslutningen
+När det är falskt ska applikationen stänga anslutningen efter att ha hämtat
 information.
 ###  Definition:
 ```python

@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType перечисление
-Представляет тип поля ячейки ods.
+Представляет тип поля ячейки шансов.
 
 
 

@@ -19,7 +19,7 @@ Typen VbaModule avslöjar följande medlemmar:
 | :- | :- |
 | [name](/cells/sv/python-net/aspose.cells.vba/vbamodule/name) | Hämtar och ställer in namnet på modulen.|
 | [type](/cells/sv/python-net/aspose.cells.vba/vbamodule/type) | Får typ av modul.|
-| [codes](/cells/sv/python-net/aspose.cells.vba/vbamodule/codes) | Hämtar och ställer in koderna för modulen.|
+| [codes](/cells/sv/python-net/aspose.cells.vba/vbamodule/codes) | Hämtar och ställer in koderna för moduler.|
 
 
 

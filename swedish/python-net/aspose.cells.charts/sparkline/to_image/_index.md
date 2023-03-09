@@ -18,7 +18,7 @@ def to_image(self, file_name, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | file_name | str | Bildfilens namn.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Bildalternativen|
@@ -35,7 +35,7 @@ def to_image(self, stream, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Bildströmmen.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Bildalternativen.|

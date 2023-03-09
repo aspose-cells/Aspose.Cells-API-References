@@ -13,7 +13,7 @@ Obtiene el recuento de rangos que influyeron en esta configuración.
 
 ###  Devoluciones
 
-el conteo de rangos que influyeron en esta configuración.
+el conteo de rangos que están influenciados por esta configuración.
 
 
 ```python

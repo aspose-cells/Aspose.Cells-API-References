@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  print_permission الملكية
 
-إذن لطباعة وثيقة pdf
+إذن لطباعة مستندات pdf
 ###  تعريف:
 ```python
 @property

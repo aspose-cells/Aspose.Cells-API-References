@@ -18,13 +18,13 @@ def set_column_width(self, column, width):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column | int | Índice de columnas.|
 | width | float | Ancho de la columna. El ancho de la columna debe estar entre 0 y 255.|
 ###  Observaciones
 
-Para ocultar una columna, establece el ancho de columna en cero.
+Para ocultar una columna, establezca el ancho de columna en cero.
 
 
 ###  Ver también

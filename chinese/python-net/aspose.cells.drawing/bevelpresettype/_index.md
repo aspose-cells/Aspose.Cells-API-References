@@ -1,13 +1,13 @@
 ﻿---
 title: BevelPresetType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 770
 url: /zh/python-net/aspose.cells.drawing/bevelpresettype/
 is_root: false
 ---
-##  BevelPresetType枚举
+## BevelPresetType枚举
 表示可应用于 3D 形状的一种斜角类型的预设。
 
 

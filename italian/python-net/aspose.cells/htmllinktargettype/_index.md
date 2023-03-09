@@ -17,7 +17,7 @@ Il tipo HtmlLinkTargetType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| BLANK | Apre il documento collegato in una nuova finestra o scheda|
+| BLANK |Apre il documento collegato in una nuova finestra o scheda|
 | PARENT | Apre il documento collegato nel frame principale|
 | SELF | Apre il documento collegato nello stesso frame in cui è stato fatto clic (impostazione predefinita)|
 | TOP | Apre il documento collegato in tutto il corpo della finestra|

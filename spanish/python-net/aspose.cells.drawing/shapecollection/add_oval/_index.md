@@ -22,16 +22,16 @@ def add_oval(self, upper_left_row, top, upper_left_column, left, height, width):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | top | int | Representa el desplazamiento vertical de Oval desde su fila izquierda, en unidades de píxel.|
-| upper_left_column | int |Índice de la columna superior izquierda.|
+| upper_left_column | int | Índice de la columna superior izquierda.|
 | left | int | Representa el desplazamiento horizontal de Oval desde su columna izquierda, en unidades de píxel.|
 | height | int | Representa la altura de Oval, en unidades de píxel.|
 | width | int | Representa el ancho de Oval, en unidades de píxel.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

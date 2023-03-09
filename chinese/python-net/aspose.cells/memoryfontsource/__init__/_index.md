@@ -1,6 +1,6 @@
 ﻿---
 title: MemoryFontSource 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells/memoryfontsource/__init__/
 is_root: false
 ---
 ##  MemoryFontSource(font_data) {#bytes}
-Ctor。
+导演。
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, font_data):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | font_data | bytes |二进制字体数据。|
 

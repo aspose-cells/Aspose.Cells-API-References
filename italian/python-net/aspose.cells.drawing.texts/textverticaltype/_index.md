@@ -20,10 +20,10 @@ Il tipo TextVerticalType espone i membri seguenti:
 | VERTICAL | Visualizzazione verticale dell'Asia orientale.|
 | HORIZONTAL | Testo orizzontale.|
 | VERTICAL_LEFT_TO_RIGHT | Visualizzato in verticale e il testo scorre dall'alto verso il basso, quindi da SINISTRA a DESTRA|
-| VERTICAL90 | Ogni linea è ruotata di 90 gradi in senso orario|
-| VERTICAL270 | Ogni linea è ruotata di 270 gradi in senso orario|
+| VERTICAL90 | Ogni linea viene ruotata di 90 gradi in senso orario|
+| VERTICAL270 | Ogni linea viene ruotata di 270 gradi in senso orario|
 | STACKED | Determina se tutto il testo è verticale|
-| STACKED_RIGHT_TO_LEFT |Specifica che l'oggetto WordArt verticale deve essere visualizzato da destra a sinistra anziché da sinistra a destra.|
+| STACKED_RIGHT_TO_LEFT | Specifica che l'oggetto WordArt verticale deve essere visualizzato da destra a sinistra anziché da sinistra a destra.|
 
 
 

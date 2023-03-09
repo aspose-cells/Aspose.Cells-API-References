@@ -13,7 +13,7 @@ Indikerar om formen är smart konst.
 
 ###  Anmärkningar
 
-Endast för ooxml-fil.
+Endast för ooxml-filer.
 
 ###  Exempel
 

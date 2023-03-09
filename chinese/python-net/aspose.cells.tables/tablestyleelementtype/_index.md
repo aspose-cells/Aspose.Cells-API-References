@@ -1,13 +1,13 @@
 ﻿---
 title: TableStyleElementType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
 url: /zh/python-net/aspose.cells.tables/tablestyleelementtype/
 is_root: false
 ---
-##  TableStyleElementType枚举
+## TableStyleElementType枚举
 表示 Table 或 PivotTable 样式元素类型。
 
 

@@ -18,7 +18,7 @@ def __init__(self, workbook, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/es/python-net/aspose.cells/workbook) | Indique qué libro de trabajo se imprimirá.|
 | options | [ImageOrPrintOptions](/cells/es/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions contiene alguna propiedad de salida|

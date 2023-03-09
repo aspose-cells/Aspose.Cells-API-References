@@ -27,10 +27,10 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [move(count, is_same_parent)](/cells/ar/python-net/aspose.cells.pivot/pivotitem/move/#int-bool) |تحريك العنصر لأعلى أو لأسفل|
+| [move(count, is_same_parent)](/cells/ar/python-net/aspose.cells.pivot/pivotitem/move/#int-bool) | تحريك العنصر لأعلى أو لأسفل|
 | [get_string_value()](/cells/ar/python-net/aspose.cells.pivot/pivotitem/get_string_value/#) | الحصول على قيمة سلسلة العنصر المحوري<br/> إذا كانت القيمة فارغة ، فستُرجع ""|
 | [get_double_value()](/cells/ar/python-net/aspose.cells.pivot/pivotitem/get_double_value/#) | الحصول على القيمة المزدوجة للعنصر المحوري<br/> إذا كانت القيمة فارغة أو ليست رقمًا ، فستُرجع 0|
-| [get_date_time_value()](/cells/ar/python-net/aspose.cells.pivot/pivotitem/get_date_time_value/#) |الحصول على قيمة وقت التاريخ للعنصر المحوري<br/> إذا كانت القيمة فارغة ، فستُرجع DateTime.MinValue|
+| [get_date_time_value()](/cells/ar/python-net/aspose.cells.pivot/pivotitem/get_date_time_value/#) | الحصول على قيمة وقت التاريخ للعنصر المحوري<br/> إذا كانت القيمة فارغة ، فستُرجع DateTime.MinValue|
 
 
 

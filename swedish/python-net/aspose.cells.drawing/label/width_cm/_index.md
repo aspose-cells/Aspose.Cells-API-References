@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  width_cm fastighet
 
-Representerar formens bredd, i centimeterenhet.
+Representerar formens bredd, i enheter av centimeter.
 
 ###  Exempel
 

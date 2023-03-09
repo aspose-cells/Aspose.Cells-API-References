@@ -13,7 +13,7 @@ Ignore los datos que no se imprimen si imprime directamente el archivo
 
 ###  Observaciones
 
-Solo para archivo xlsx.
+Solo para archivos xlsx.
 ###  Definición:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/
 is_root: false
 ---
 ##  format(start_index, length, font, flag) {#int-int-Font-StyleFlag}
-Formatera texten med teckensnittsinställning.
+Formatera texten med teckensnittsinställningar.
 
 
 
@@ -18,7 +18,7 @@ def format(self, start_index, length, font, flag):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_index | int | Startindexet.|
 | length | int | Längden.|

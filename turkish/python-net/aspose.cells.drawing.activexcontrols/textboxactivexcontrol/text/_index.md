@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text mülk
 
-Kontrolün text'ini alır ve ayarlar.
+Denetimin text'ini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

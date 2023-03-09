@@ -21,8 +21,8 @@ Typen CalculationData avslöjar följande medlemmar:
 | [workbook](/cells/sv/python-net/aspose.cells/calculationdata/workbook) | Hämtar Workbook-objektet där funktionen finns i.|
 | [worksheet](/cells/sv/python-net/aspose.cells/calculationdata/worksheet) | Hämtar Worksheet-objektet där funktionen finns i.|
 | [cell_row](/cells/sv/python-net/aspose.cells/calculationdata/cell_row) | Hämtar radindex för cellen där funktionen finns i.|
-| [cell_column](/cells/sv/python-net/aspose.cells/calculationdata/cell_column) |Hämtar kolumnindex för cellen där funktionen finns i.|
-| [cell](/cells/sv/python-net/aspose.cells/calculationdata/cell) | Hämtar objektet Cell där funktionen finns.|
+| [cell_column](/cells/sv/python-net/aspose.cells/calculationdata/cell_column) | Hämtar kolumnindex för cellen där funktionen finns i.|
+| [cell](/cells/sv/python-net/aspose.cells/calculationdata/cell) |Hämtar objektet Cell där funktionen finns.|
 | [function_name](/cells/sv/python-net/aspose.cells/calculationdata/function_name) | Hämtar funktionsnamnet som ska beräknas.|
 | [param_count](/cells/sv/python-net/aspose.cells/calculationdata/param_count) | Hämtar antalet parametrar|
 
@@ -30,7 +30,7 @@ Typen CalculationData avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [get_param_value(index)](/cells/sv/python-net/aspose.cells/calculationdata/get_param_value/#int) | Hämtar det representerade värdeobjektet för parametern vid ett givet index.|
+| [get_param_value(index)](/cells/sv/python-net/aspose.cells/calculationdata/get_param_value/#int) | Hämtar det representerade värdeobjektet för parametern vid det givna indexet.|
 | [get_param_text(index)](/cells/sv/python-net/aspose.cells/calculationdata/get_param_text/#int) | Hämtar den bokstavliga texten för parametern vid ett givet index.|
 
 

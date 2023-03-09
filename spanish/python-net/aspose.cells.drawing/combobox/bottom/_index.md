@@ -11,7 +11,7 @@ is_root: false
 
 Representa el ancho del desplazamiento vertical de la forma desde su fila de esquina inferior bottom, en unidades de píxeles.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

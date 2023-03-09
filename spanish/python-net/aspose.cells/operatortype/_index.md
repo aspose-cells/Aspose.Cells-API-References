@@ -20,12 +20,12 @@ El tipo OperatorType expone los siguientes miembros:
 | BETWEEN | Representa el operador Entre de formato condicional y validación de datos.|
 | EQUAL | Representa el operador Igual de formato condicional y validación de datos.|
 | GREATER_THAN | Representa el operador GreaterThan de formato condicional y validación de datos.|
-| GREATER_OR_EQUAL | Representa el operador GreaterOrEqual de formato condicional y validación de datos.|
+| GREATER_OR_EQUAL |Representa el operador GreaterOrEqual de formato condicional y validación de datos.|
 | LESS_THAN | Representa el operador LessThan de formato condicional y validación de datos.|
 | LESS_OR_EQUAL | Representa el operador LessOrEqual de formato condicional y validación de datos.|
 | NONE | No representa ninguna comparación.|
 | NOT_BETWEEN | Representa el operador NotBetween de formato condicional y validación de datos.|
-| NOT_EQUAL |Representa el operador NotEqual de formato condicional y validación de datos.|
+| NOT_EQUAL | Representa el operador NotEqual de formato condicional y validación de datos.|
 
 
 

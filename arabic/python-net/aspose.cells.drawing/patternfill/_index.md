@@ -24,10 +24,10 @@ is_root: false
 | :- | :- |
 | [pattern](/cells/ar/python-net/aspose.cells.drawing/patternfill/pattern) | الحصول على نوع نموذج التعبئة أو تحديده|
 | [background_color](/cells/ar/python-net/aspose.cells.drawing/patternfill/background_color) | الحصول على او تحديد لون خلفية [Area](/cells/ar/python-net/aspose.cells.drawing/area).|
-| [background_cells_color](/cells/ar/python-net/aspose.cells.drawing/patternfill/background_cells_color) | الحصول على وتعيين عنصر المقدمة [CellsColor](/cells/ar/python-net/aspose.cells/cellscolor).|
+| [background_cells_color](/cells/ar/python-net/aspose.cells.drawing/patternfill/background_cells_color) |الحصول على وتعيين عنصر المقدمة [CellsColor](/cells/ar/python-net/aspose.cells/cellscolor).|
 | [foreground_color](/cells/ar/python-net/aspose.cells.drawing/patternfill/foreground_color) | الحصول على او تحديد لون المقدمة.|
-| [foreground_cells_color](/cells/ar/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) | الحصول على وتعيين عنصر المقدمة [CellsColor](/cells/ar/python-net/aspose.cells/cellscolor).|
-| [fore_transparency](/cells/ar/python-net/aspose.cells.drawing/patternfill/fore_transparency) |الحصول على شفافية لون المقدمة أو ضبطها.|
+| [foreground_cells_color](/cells/ar/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) |الحصول على وتعيين عنصر المقدمة [CellsColor](/cells/ar/python-net/aspose.cells/cellscolor).|
+| [fore_transparency](/cells/ar/python-net/aspose.cells.drawing/patternfill/fore_transparency) | الحصول على شفافية لون المقدمة أو ضبطها.|
 | [back_transparency](/cells/ar/python-net/aspose.cells.drawing/patternfill/back_transparency) | الحصول على شفافية لون الخلفية أو تعيينها.|
 
 

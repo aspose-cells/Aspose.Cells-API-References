@@ -22,9 +22,9 @@ def get_standard_built_in_name(self, local_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| local_name | str | Testo dipendente dalla locale del nome integrato. Le impostazioni locali sono state specificate dalla cartella di lavoro per cui vengono utilizzate queste impostazioni.|
+| local_name | str | Testo dipendente dalla locale del nome incorporato.|
 
 
 

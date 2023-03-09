@@ -11,7 +11,7 @@ is_root: false
 
 Indique si le fichier html ou mht est la préférence de présentation.
 La valeur par défaut est faux.
-Si vous souhaitez obtenir une présentation plus belle, veuillez définir la valeur sur true.
+si vous souhaitez obtenir une présentation plus belle, veuillez définir la valeur sur true.
 ###  Définition:
 ```python
 @property

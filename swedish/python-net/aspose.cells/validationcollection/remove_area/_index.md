@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Intervallet som innehåller valideringsinställningen.|
 

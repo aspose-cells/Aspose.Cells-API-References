@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/colortype/
 is_root: false
 ---
 ##  ColorType перечисление
-Представляет все цветотипы
+Представляет все типы цветов
 
 
 

@@ -22,12 +22,12 @@ def add_linked_picture(self, upper_left_row, upper_left_column, height, width, s
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
-| height | int | Formens höjd. I enhet av pixlar|
-| width | int | Formens bredd. I enhet av pixlar|
+| upper_left_column | int | Övre vänstra kolumnindex.|
+| height | int | Formens höjd.|
+| width | int | Formens bredd.|
 | source_full_name | str | Sökvägen och namnet på källfilen för den länkade bilden|
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 type otomatik şeklini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

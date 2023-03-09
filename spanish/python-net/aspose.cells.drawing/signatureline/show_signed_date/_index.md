@@ -11,7 +11,7 @@ is_root: false
 
 Indica si muestra la fecha de firma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

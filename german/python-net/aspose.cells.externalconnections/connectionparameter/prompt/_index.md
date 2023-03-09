@@ -10,7 +10,7 @@ is_root: false
 ##  prompt Eigentum
 
  Eingabeaufforderungszeichenfolge für den Parameter. Wird dem Tabellenkalkulationsbenutzer zusammen mit der Eingabe-UI angezeigt
- um den Parameterwert zu sammeln, bevor die externen Daten aktualisiert werden. Wird nur verwendet, wenn
+ um den Parameterwert zu sammeln, bevor die externen Daten aktualisiert werden.
 Parametertyp = prompt.
 ###  Definition:
 ```python

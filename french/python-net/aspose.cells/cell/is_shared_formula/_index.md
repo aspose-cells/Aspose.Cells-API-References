@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_shared_formula propriété
 
-Indique si la formule de la cellule fait partie de la formule partagée.
+Indique si la formule de la cellule fait partie d'une formule partagée.
 ###  Définition:
 ```python
 @property

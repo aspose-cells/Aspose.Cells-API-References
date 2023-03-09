@@ -25,8 +25,8 @@ Il tipo TwoColorGradient espone i membri seguenti:
 | :- | :- |
 | [color1](/cells/it/python-net/aspose.cells/twocolorgradient/color1) | Ottiene e imposta il primo colore della sfumatura.|
 | [color2](/cells/it/python-net/aspose.cells/twocolorgradient/color2) | Ottiene e imposta il secondo colore della sfumatura.|
-| [gradient_style_type](/cells/it/python-net/aspose.cells/twocolorgradient/gradient_style_type) | Ottiene e imposta lo stile dell'ombreggiatura sfumata.|
-| [variant](/cells/it/python-net/aspose.cells/twocolorgradient/variant) |Ottiene e imposta la variante del gradiente.|
+| [gradient_style_type](/cells/it/python-net/aspose.cells/twocolorgradient/gradient_style_type) |Ottiene e imposta lo stile dell'ombreggiatura sfumata.|
+| [variant](/cells/it/python-net/aspose.cells/twocolorgradient/variant) | Ottiene e imposta la variante del gradiente.|
 
 
 

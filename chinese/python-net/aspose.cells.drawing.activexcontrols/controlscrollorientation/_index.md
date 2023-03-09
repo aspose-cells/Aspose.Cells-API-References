@@ -1,13 +1,13 @@
 ﻿---
 title: ControlScrollOrientation枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 250
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/controlscrollorientation/
 is_root: false
 ---
-##  ControlScrollOrientation枚举
+## ControlScrollOrientation枚举
 表示滚动方向的类型
 
 

@@ -13,7 +13,7 @@ Hämtar nästa cell som ska sparas.
 
 ###  Returnerar
 
-kolumnindex för nästa cell som ska sparas. -1 betyder att slutet av aktuell raddata har nåtts och ingen ytterligare cell i den aktuella raden ska sparas.
+-1 betyder att slutet av aktuell raddata har nåtts och ingen ytterligare cell i den aktuella raden ska sparas.
 
 
 ```python

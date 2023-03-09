@@ -24,10 +24,10 @@ Il tipo WorkbookDesigner espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [workbook](/cells/it/python-net/aspose.cells/workbookdesigner/workbook) | Ottiene e imposta l'oggetto [WorkbookDesigner.workbook](/cells/it/python-net/aspose.cells/workbookdesigner#workbook).|
-| [repeat_formulas_with_subtotal](/cells/it/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Indica se si ripetono le formule con la riga del totale parziale.|
+| [workbook](/cells/it/python-net/aspose.cells/workbookdesigner/workbook) |Ottiene e imposta l'oggetto [WorkbookDesigner.workbook](/cells/it/python-net/aspose.cells/workbookdesigner#workbook).|
+| [repeat_formulas_with_subtotal](/cells/it/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Indica se si ripetono formule con righe di totale parziale.|
 | [update_empty_string_as_null](/cells/it/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | Se TRUE, verrà inserito Null se il valore è "";|
-| [update_reference](/cells/it/python-net/aspose.cells/workbookdesigner/update_reference) | Indica se i riferimenti in altri fogli di lavoro verranno aggiornati.|
+| [update_reference](/cells/it/python-net/aspose.cells/workbookdesigner/update_reference) |Indica se i riferimenti in altri fogli di lavoro verranno aggiornati.|
 | [calculate_formula](/cells/it/python-net/aspose.cells/workbookdesigner/calculate_formula) | Indica se le formule devono essere calcolate.|
 | [call_back](/cells/it/python-net/aspose.cells/workbookdesigner/call_back) | Ottiene e imposta l'interfaccia di callback dell'elaborazione di smartmarker.|
 | [line_by_line](/cells/it/python-net/aspose.cells/workbookdesigner/line_by_line) | Indica se elaborare l'indicatore intelligente riga per riga.|
@@ -46,7 +46,7 @@ Il tipo WorkbookDesigner espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook, WorkbookDesigner

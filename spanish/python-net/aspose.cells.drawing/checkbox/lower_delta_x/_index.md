@@ -13,9 +13,9 @@ Obtiene o establece el desplazamiento horizontal de la forma desde la columna de
 
 ###  Observaciones
 
-El rango de valor es de 0 a 1024.
+El rango de valores es de 0 a 1024.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

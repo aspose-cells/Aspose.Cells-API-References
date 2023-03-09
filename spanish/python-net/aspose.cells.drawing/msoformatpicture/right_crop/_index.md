@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_crop propiedad
 
-Representa la ubicación de la derecha del rectángulo de recorte expresado, expresado como una proporción del ancho de la imagen.
+Representa la ubicación de la derecha del rectángulo de recorte, expresada como una proporción del ancho de la imagen.
 ###  Definición:
 ```python
 @property

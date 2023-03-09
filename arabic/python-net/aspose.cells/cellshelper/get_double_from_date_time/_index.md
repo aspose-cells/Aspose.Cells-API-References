@@ -22,7 +22,7 @@ def get_double_from_date_time(self, date_time, date1904):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | date_time | DateTime | وقت التاريخ.|
 | date1904 | bool | تاريخ نظام 1904.|

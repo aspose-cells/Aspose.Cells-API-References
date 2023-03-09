@@ -13,7 +13,7 @@ Agrega una etiqueta inteligente.
 
 ###  Devoluciones
 
-El índice de la etiqueta inteligente en la lista.
+El índice de etiquetas inteligentes en la lista.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | uri | str | Especifica el URI del espacio de nombres de la etiqueta inteligente|
 | name | str | Especifica el nombre de la etiqueta inteligente.|

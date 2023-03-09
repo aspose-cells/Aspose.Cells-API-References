@@ -12,7 +12,7 @@ is_root: false
 Devuelve o establece si el encabezado que muestra el subtítulo de la segmentación está visible
 El valor por defecto es verdadero
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

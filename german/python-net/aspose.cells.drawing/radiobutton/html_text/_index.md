@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die HTML-Zeichenfolge ab und legt sie fest, die Daten und einige Formate in diesem Textfeld enthält.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -17,10 +17,10 @@ Typen LabelPositionType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| CENTER | Gäller endast stapeldiagram, 2d/3d cirkeldiagram|
-| INSIDE_BASE | Gäller endast stapeldiagram, 2d/3d cirkeldiagram|
+| CENTER |Gäller endast stapeldiagram, 2d/3d cirkeldiagram|
+| INSIDE_BASE |Gäller endast stapeldiagram, 2d/3d cirkeldiagram|
 | INSIDE_END | Gäller endast stapeldiagram|
-| OUTSIDE_END | Gäller endast stapeldiagram, 2d/3d cirkeldiagram|
+| OUTSIDE_END |Gäller endast stapeldiagram, 2d/3d cirkeldiagram|
 | ABOVE | Gäller endast linjediagram|
 | BELOW | Gäller endast linjediagram|
 | LEFT | Gäller endast linjediagram|

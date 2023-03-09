@@ -21,7 +21,7 @@ PresetThemeGradientType türü aşağıdaki üyeleri gösterir:
 | TOP_SPOTLIGHT | En iyi spot ışığı|
 | MEDIUM_GRADIENT | orta gradyan|
 | BOTTOM_SPOTLIGHT | Alt spot ışığı|
-| RADIAL_GRADIENT |radyal gradyan|
+| RADIAL_GRADIENT | radyal gradyan|
 
 
 

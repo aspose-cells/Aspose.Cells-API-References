@@ -22,7 +22,7 @@ def add(self, row):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Cell satır dizini, sıfır tabanlı.|
 ###  Notlar
@@ -45,7 +45,7 @@ def add(self, cell_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell_name | str | Cell adı.|
 ###  Notlar
@@ -68,7 +68,7 @@ def add(self, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Cell satır dizini, sıfır tabanlı.|
 | column | int | Cell sütun dizini, sıfır tabanlı.|
@@ -92,7 +92,7 @@ def add(self, row, start_column, end_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini, sıfır tabanlı.|
 | start_column | int | Başlangıç sütunu indeksi, sıfır tabanlı.|

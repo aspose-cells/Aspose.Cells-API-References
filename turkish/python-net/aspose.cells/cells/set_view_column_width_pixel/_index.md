@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/set_view_column_width_pixel/
 is_root: false
 ---
 ##  set_view_column_width_pixel(column, pixels) {#int-int}
-Sütunun genişliğini farklı görünümde ayarlar.
+Farklı görünümlerde sütun genişliğini ayarlar.
 
 
 
@@ -18,7 +18,7 @@ def set_view_column_width_pixel(self, column, pixels):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 | pixels | int | Piksel birimi cinsinden genişlik.|

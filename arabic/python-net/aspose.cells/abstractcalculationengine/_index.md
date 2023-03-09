@@ -17,8 +17,8 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [is_param_literal_required](/cells/ar/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) | يشير إلى ما إذا كان هذا المحرك يحتاج إلى النص الحرفي للمعلمة أثناء إجراء الحساب. القيمة الافتراضية هي كاذبة.|
-| [process_built_in_functions](/cells/ar/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) | ما إذا كان يجب فحص ومعالجة الوظائف المضمنة التي تم دعمها بواسطة المحرك المدمج من خلال هذا التنفيذ.<br/>الافتراضي هو خطأ.<br/>إذا احتاج المستخدم إلى تغيير منطق الحساب لبعض الوظائف المضمنة ، فيجب تعيين هذه الخاصية على أنها صحيحة.|
+| [is_param_literal_required](/cells/ar/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) | يشير إلى ما إذا كان هذا المحرك يحتاج إلى النص الحرفي للمعلمة أثناء إجراء الحساب. القيمة الافتراضية هي خطأ.|
+| [process_built_in_functions](/cells/ar/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) | ما إذا كان يجب فحص ومعالجة الوظائف المضمنة التي تم دعمها بواسطة المحرك المدمج من خلال هذا التنفيذ.<br/>الافتراضي هو خطأ.<br/> إذا احتاج المستخدم إلى تغيير منطق الحساب لبعض الوظائف المضمنة ، فيجب تعيين هذه الخاصية على أنها صحيحة.|
 
 
 ###  طُرق

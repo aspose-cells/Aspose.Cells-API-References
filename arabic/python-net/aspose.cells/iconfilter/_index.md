@@ -17,7 +17,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [icon_set_type](/cells/ar/python-net/aspose.cells/iconfilter/icon_set_type) | الحصول على مجموعة الرموز المستخدمة في معايير التصفية وتعيينها.|
+| [icon_set_type](/cells/ar/python-net/aspose.cells/iconfilter/icon_set_type) |الحصول على مجموعة الرموز المستخدمة في معايير التصفية وتعيينها.|
 | [icon_id](/cells/ar/python-net/aspose.cells/iconfilter/icon_id) | الحصول على الفهرس الصفري لأيقونة في مجموعة الرموز وتعيينه.|
 
 

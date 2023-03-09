@@ -1,13 +1,13 @@
 ﻿---
 title: TextCapsType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2530
 url: /zh/python-net/aspose.cells/textcapstype/
 is_root: false
 ---
-##  TextCapsType枚举
+## TextCapsType枚举
 此类型指定文本的上限类型。
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает тип вертикального переполнения текста для текстового поля.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import TextOverflowType

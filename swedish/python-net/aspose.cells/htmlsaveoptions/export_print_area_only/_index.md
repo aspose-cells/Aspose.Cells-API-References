@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_print_area_only fastighet
 
-Anger om utskriftsområdet endast exporteras till html-fil. Standardvärdet är falskt.
+Anger om utskriftsområdet endast exporteras till html-fil.
 ###  Definition:
 ```python
 @property

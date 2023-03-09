@@ -22,15 +22,15 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | source_shape | [Shape](/cells/fr/python-net/aspose.cells.drawing/shape) | Forme source.|
 | upper_left_row | int | Index de ligne en haut à gauche.|
-| top | int | Représente le décalage vertical de la case à cocher par rapport à sa ligne de gauche, en unité de pixel.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| top | int |Représente le décalage vertical de la case à cocher par rapport à sa ligne de gauche, en unité de pixel.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Représente le décalage horizontal de la zone de texte par rapport à sa colonne de gauche, en unité de pixel.|
 
-###  Exemple
+###  Exemples
 
 ```python
 

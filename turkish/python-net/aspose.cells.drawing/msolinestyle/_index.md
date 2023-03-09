@@ -19,7 +19,7 @@ MsoLineStyle türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | SINGLE | Tek satır (lineWidth genişliğinde)|
 | THICK_BETWEEN_THIN | Üç çizgi, ince, kalın, ince|
-| THIN_THICK | Çift çizgi, biri ince, biri kalın|
+| THIN_THICK |Çift çizgi, biri ince, biri kalın|
 | THICK_THIN | Çift çizgi, biri kalın, biri ince|
 | THIN_THIN | Eşit genişlikte çift çizgiler|
 

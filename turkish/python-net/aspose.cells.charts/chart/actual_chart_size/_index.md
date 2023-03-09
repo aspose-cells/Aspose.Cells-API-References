@@ -13,7 +13,7 @@ Grafiğin gerçek boyutunu piksel birimi cinsinden alır.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
  lütfen Chart.GetActualSize() yöntemini kullanın.
  Bu mülk, Temmuz 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

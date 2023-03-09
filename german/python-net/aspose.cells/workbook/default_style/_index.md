@@ -15,7 +15,7 @@ Ruft das Standardobjekt [Style](/cells/de/python-net/aspose.cells/style) der Arb
 
 Die DefaultStyle-Eigenschaft ist nützlich, um einen Stil für die gesamte Arbeitsmappe zu implementieren.
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code erstellt und instanziiert eine neue Arbeitsmappe und legt ihr den Standardwert [Style](/cells/de/python-net/aspose.cells/style) fest.
 

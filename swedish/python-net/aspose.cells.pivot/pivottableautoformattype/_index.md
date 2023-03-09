@@ -17,9 +17,9 @@ Typen PivotTableAutoFormatType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| NONE | Representerar ingen formattyp.|
+| NONE |Representerar ingen formattyp.|
 | CLASSIC | Representerar klassisk autoformattyp.|
-| REPORT1 |Representerar formattypen Rapport1.|
+| REPORT1 | Representerar formattypen Rapport1.|
 | REPORT2 | Representerar formattypen Rapport2.|
 | REPORT3 | Representerar formattypen Rapport3.|
 | REPORT4 | Representerar formattypen Rapport4.|
@@ -38,7 +38,7 @@ Typen PivotTableAutoFormatType avslöjar följande medlemmar:
 | TABLE7 | Representerar formattypen Tabell 7.|
 | TABLE8 | Representerar formattypen Tabell8.|
 | TABLE9 | Representerar formattypen Tabell 9.|
-| TABLE10 | Representerar formattypen Tabell 10.|
+| TABLE10 | Representerar tabell 10 formattyp.|
 
 
 

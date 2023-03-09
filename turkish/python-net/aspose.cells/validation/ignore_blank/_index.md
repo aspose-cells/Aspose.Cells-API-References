@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_blank mülk
 
-Aralık veri doğrulamasının boş değerlere izin verip vermediğini gösterir.
+Aralık veri doğrulaması tarafından boş değerlere izin verilip verilmediğini gösterir.
 ###  Tanım:
 ```python
 @property

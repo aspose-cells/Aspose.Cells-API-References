@@ -22,7 +22,7 @@ def add(self, cell_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | cell_name | str | Le nom de la cellule.|
 
@@ -42,7 +42,7 @@ def add(self, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | La rangée de la cellule.|
 | column | int | La colonne de la cellule.|

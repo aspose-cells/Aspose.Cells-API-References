@@ -13,7 +13,7 @@ Den anpassade formelberäkningen fungerar för att utöka beräkningsmotorn.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
 använd CustomEngine-egenskapen, AbstractCalculationEngine ger mer bekväma och flexibla API:er
 för att manipulera anpassade funktioner.
  Den här egenskapen kommer att tas bort 12 månader senare sedan augusti 2020.

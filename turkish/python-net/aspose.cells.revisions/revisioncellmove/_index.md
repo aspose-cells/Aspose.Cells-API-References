@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionCellMove sınıf
+title: RevisionCellMove sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 50
 url: /tr/python-net/aspose.cells.revisions/revisioncellmove/
 is_root: false
 ---
-##  RevisionCellMove sınıf
+##  RevisionCellMove sınıfı
 Taşınan hücre(ler)deki revizyon kaydını temsil eder.
 
 

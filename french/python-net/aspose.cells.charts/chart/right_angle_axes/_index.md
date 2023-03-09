@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_angle_axes propriété
 
-True si les axes du graphique sont à angle droit. S'applique uniquement aux graphiques 3D (sauf Column3D et 3-D Pie Charts).
+Cet argument a la valeur True si les axes du graphique sont à angle droit. S'applique uniquement aux graphiques 3D (sauf Column3D et Pie Charts 3D).
 
 ###  Remarques
 

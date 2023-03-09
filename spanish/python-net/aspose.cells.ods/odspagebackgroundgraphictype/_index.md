@@ -19,7 +19,7 @@ El tipo OdsPageBackgroundGraphicType expone los siguientes miembros:
 | :- | :- |
 | POSITION | Establecer la imagen en una posición específica.|
 | AREA | Estirar la imagen.|
-| TILE | Repite y repite la imagen.|
+| TILE |Repite y repite la imagen.|
 
 
 

@@ -22,7 +22,7 @@ El tipo JsonSaveOptions expone los siguientes miembros:
 ###  Constructores
 | Constructor| Descripción|
 | :- | :- |
-| [JsonSaveOptions()](/cells/es/python-net/aspose.cells/jsonsaveoptions/__init__/#) | Crea opciones para guardar el archivo json.|
+| [JsonSaveOptions()](/cells/es/python-net/aspose.cells/jsonsaveoptions/__init__/#) |Crea opciones para guardar archivos json.|
 
 
 ###  Propiedades
@@ -35,9 +35,9 @@ El tipo JsonSaveOptions expone los siguientes miembros:
 | [merge_areas](/cells/es/python-net/aspose.cells/jsonsaveoptions/merge_areas) | Indica si fusionar las áreas de formato condicional y validación antes de guardar el archivo.|
 | [create_directory](/cells/es/python-net/aspose.cells/jsonsaveoptions/create_directory) | Si es verdadero y el directorio no existe, el directorio se creará automáticamente antes de guardar el archivo.|
 | [sort_names](/cells/es/python-net/aspose.cells/jsonsaveoptions/sort_names) | Indica si ordenar los nombres definidos antes de guardar el archivo.|
-| [sort_external_names](/cells/es/python-net/aspose.cells/jsonsaveoptions/sort_external_names) | Indica si ordenar los nombres definidos externos antes de guardar el archivo.|
-| [refresh_chart_cache](/cells/es/python-net/aspose.cells/jsonsaveoptions/refresh_chart_cache) |Indica si se actualizan los datos de la memoria caché del gráfico|
-| [warning_callback](/cells/es/python-net/aspose.cells/jsonsaveoptions/warning_callback) | Obtiene o establece una devolución de llamada de advertencia.|
+| [sort_external_names](/cells/es/python-net/aspose.cells/jsonsaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externamente antes de guardar el archivo.|
+| [refresh_chart_cache](/cells/es/python-net/aspose.cells/jsonsaveoptions/refresh_chart_cache) | Indica si se actualizan los datos de la memoria caché del gráfico|
+| [warning_callback](/cells/es/python-net/aspose.cells/jsonsaveoptions/warning_callback) | Obtiene o establece devoluciones de llamada de advertencia.|
 | [update_smart_art](/cells/es/python-net/aspose.cells/jsonsaveoptions/update_smart_art) | Indica si se está actualizando la configuración de arte inteligente.<br/> El valor predeterminado es falso.|
 | [export_hyperlink_type](/cells/es/python-net/aspose.cells/jsonsaveoptions/export_hyperlink_type) | Representa el tipo de hipervínculo de exportación a json.|
 | [skip_empty_rows](/cells/es/python-net/aspose.cells/jsonsaveoptions/skip_empty_rows) | Indica si se saltan filas vacías.|
@@ -45,7 +45,7 @@ El tipo JsonSaveOptions expone los siguientes miembros:
 | [export_area](/cells/es/python-net/aspose.cells/jsonsaveoptions/export_area) | Obtiene o establece el rango de exportación.|
 | [has_header_row](/cells/es/python-net/aspose.cells/jsonsaveoptions/has_header_row) | Indica si el rango contiene una fila de encabezado.|
 | [export_as_string](/cells/es/python-net/aspose.cells/jsonsaveoptions/export_as_string) | Exporta el valor de cadena de las celdas a json.|
-| [indent](/cells/es/python-net/aspose.cells/jsonsaveoptions/indent) | Indica la sangría.|
+| [indent](/cells/es/python-net/aspose.cells/jsonsaveoptions/indent) | Indica el índice.|
 | [export_nested_structure](/cells/es/python-net/aspose.cells/jsonsaveoptions/export_nested_structure) | Exportado como estructura Json de jerarquía padre-hijo.|
 | [export_empty_cells](/cells/es/python-net/aspose.cells/jsonsaveoptions/export_empty_cells) | Indica si exportar celdas vacías como nulas.|
 | [always_export_as_json_object](/cells/es/python-net/aspose.cells/jsonsaveoptions/always_export_as_json_object) | Indica si siempre exporta Excel a json como objeto, incluso si solo hay una hoja de trabajo en el archivo.|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_columns Eigentum
 
-Ruft die Gesamtanzahl der Spalten ab, die aus der Datenquelle importiert werden sollen, oder legt diese fest. -1 bedeutet alle Zeilen der angegebenen Datenquelle.
+-1 bedeutet alle Zeilen der angegebenen Datenquelle.
 ###  Definition:
 ```python
 @property

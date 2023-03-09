@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_radar_axis_labels fastighet
 
-Sant om ett radardiagram har kategoriaxeletiketter. Gäller endast radarsjökort.
+Sant om ett radardiagram har kategoriaxeletiketter.
 ###  Definition:
 ```python
 @property

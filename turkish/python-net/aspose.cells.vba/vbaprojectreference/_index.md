@@ -1,5 +1,5 @@
 ﻿---
-title: VbaProjectReference sınıf
+title: VbaProjectReference sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 40
 url: /tr/python-net/aspose.cells.vba/vbaprojectreference/
 is_root: false
 ---
-##  VbaProjectReference sınıf
+##  VbaProjectReference sınıfı
 VBA projesinin referansını temsil eder.
 
 
@@ -19,10 +19,10 @@ VbaProjectReference türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [type](/cells/tr/python-net/aspose.cells.vba/vbaprojectreference/type) | Bu başvurunun türünü alır.|
 | [name](/cells/tr/python-net/aspose.cells.vba/vbaprojectreference/name) | Başvurunun adını alır ve ayarlar.|
-| [libid](/cells/tr/python-net/aspose.cells.vba/vbaprojectreference/libid) | Referansın Libid'ini alır ve ayarlar.|
+| [libid](/cells/tr/python-net/aspose.cells.vba/vbaprojectreference/libid) | Referansın libidini alır ve ayarlar.|
 | [twiddledlibid](/cells/tr/python-net/aspose.cells.vba/vbaprojectreference/twiddledlibid) | Referansın karışık Libid'ini alır ve ayarlar.|
 | [extended_libid](/cells/tr/python-net/aspose.cells.vba/vbaprojectreference/extended_libid) | Referansın genişletilmiş Libid'ini alır ve ayarlar.|
-| [relative_libid](/cells/tr/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) |Başvurulan VBA projesinin tanımlayıcısını göreli bir yolla alır ve ayarlar.|
+| [relative_libid](/cells/tr/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) | Başvurulan VBA projesinin tanımlayıcısını göreli bir yolla alır ve ayarlar.|
 
 
 ###  Yöntemler
@@ -32,7 +32,7 @@ VbaProjectReference türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

@@ -13,7 +13,7 @@ Bir satırı işlemeye başlar.
 
 ###  İadeler
 
-bu satırın hücrelerinin işlenmesi gerekip gerekmediği. false bu satırdaki tüm hücreleri yok saymak için.
+bu satırdaki hücrelerin işlenmesi gerekip gerekmediği false bu satırdaki tüm hücreleri yoksaymak için.
 
 
 ```python
@@ -22,12 +22,12 @@ def process_row(self, row):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | [Row](/cells/tr/python-net/aspose.cells/row) | Şu anda işlenmekte olan satır nesnesi.|
 ###  Notlar
 
-Satırın yükseklik, stil vb. özelliklerinden sonra çağrılacaktır. okundu. Ancak bu satırdaki hücreler henüz okunmamıştır.
+Satırın yükseklik, stil vb. özelliklerinden sonra çağrılacaktır.
 
 
 ###  Ayrıca bakınız

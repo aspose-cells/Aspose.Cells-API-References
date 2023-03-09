@@ -14,7 +14,7 @@ Especifica la versión del motor de cálculo utilizado para calcular valores en 
 ###  Observaciones
 
 Esta propiedad es solo para guardar la configuración en el archivo de hoja de cálculo resultante
-para que otras aplicaciones (como MS Excel) puedan actuar en consecuencia al cargar y manipular el archivo resultante.
+para que otras aplicaciones (como ms excel) puedan actuar en consecuencia al cargar y manipular el archivo resultante.
 En el caso de ms excel, si el valor de esta propiedad es menor que el identificador del motor de recálculo asociado
 con la aplicación que abre el archivo resultante, la aplicación volverá a calcular los resultados de todas las fórmulas
 en este libro inmediatamente después de cargar el archivo.

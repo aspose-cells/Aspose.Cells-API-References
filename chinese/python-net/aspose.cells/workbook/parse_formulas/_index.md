@@ -1,6 +1,6 @@
 ﻿---
 title: parse_formulas方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 240
@@ -18,7 +18,7 @@ def parse_formulas(self, ignore_error):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | ignore_error | bool |是否忽略无效公式的错误。<br/>对于一个无效的公式，如果忽略错误则该公式将被忽略<br/>并且该过程将继续解析其他公式，否则将抛出异常。|
 

@@ -13,7 +13,7 @@ Gibt die Authentifizierungsmethode an, die beim Herstellen (oder Wiederherstelle
 
 ###  Bemerkungen
 
- HINWEIS: Diese Eigenschaft ist jetzt veraltet. Stattdessen,
+ HINWEIS: Diese Eigenschaft ist jetzt veraltet.
 Bitte verwenden Sie die Eigenschaft ExternalConnection.CredentialsMethodType.
  Diese Property wird 12 Monate später seit Oktober 2017 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

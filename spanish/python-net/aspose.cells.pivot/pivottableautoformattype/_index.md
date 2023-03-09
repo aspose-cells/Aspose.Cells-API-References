@@ -17,9 +17,9 @@ El tipo PivotTableAutoFormatType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| NONE | Representa el tipo de formato Ninguno.|
+| NONE |Representa el tipo de formato Ninguno.|
 | CLASSIC | Representa el tipo de formato automático clásico.|
-| REPORT1 |Representa el tipo de formato Report1.|
+| REPORT1 | Representa el tipo de formato Report1.|
 | REPORT2 | Representa el tipo de formato Report2.|
 | REPORT3 | Representa el tipo de formato Report3.|
 | REPORT4 | Representa el tipo de formato Report4.|
@@ -38,7 +38,7 @@ El tipo PivotTableAutoFormatType expone los siguientes miembros:
 | TABLE7 | Representa el tipo de formato Table7.|
 | TABLE8 | Representa el tipo de formato Table8.|
 | TABLE9 | Representa el tipo de formato Table9.|
-| TABLE10 | Representa el tipo de formato Table10.|
+| TABLE10 | Representa el tipo de formato de la Tabla 10.|
 
 
 

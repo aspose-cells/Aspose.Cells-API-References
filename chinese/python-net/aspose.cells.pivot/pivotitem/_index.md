@@ -1,13 +1,13 @@
 ﻿---
 title: PivotItem类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
 url: /zh/python-net/aspose.cells.pivot/pivotitem/
 is_root: false
 ---
-##  PivotItem类
+## PivotItem类
 表示 PivotField 报表中的项目。
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: leader_lines 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 310
@@ -10,7 +10,7 @@ is_root: false
 ## leader_lines 属性
 
 表示图表上的引导线。引导线将数据标签连接到数据点。
-该对象不是集合；没有代表单个引导线的对象。
+此对象不是集合；没有表示单个引导线的对象。
 ### 定义：
 ```python
 @property

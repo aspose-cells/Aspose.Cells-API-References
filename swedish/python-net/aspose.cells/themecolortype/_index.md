@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/themecolortype/
 is_root: false
 ---
 ##  ThemeColorType uppräkning
-Räknar upp temafärgstyperna.
+Räknar upp temafärgtyperna.
 
 
 

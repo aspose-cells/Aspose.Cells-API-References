@@ -18,7 +18,7 @@ def to_printer(self, printer_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | printer_name | str | اسم الطابعة ، على سبيل المثال: "Microsoft Office Document Image Writer"|
 
@@ -34,7 +34,7 @@ def to_printer(self, printer_settings):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | إعدادات الطابعة ، على سبيل المثال اسم الطابعة ، الطباعة على الوجهين|
 
@@ -50,7 +50,7 @@ def to_printer(self, printer_name, job_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | printer_name | str | اسم الطابعة ، على سبيل المثال: "Microsoft Office Document Image Writer"|
 | job_name | str | قم بتعيين اسم مهمة الطباعة|
@@ -67,7 +67,7 @@ def to_printer(self, printer_settings, job_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | إعدادات الطابعة ، على سبيل المثال اسم الطابعة ، الطباعة على الوجهين|
 | job_name | str | قم بتعيين اسم مهمة الطباعة|
@@ -84,7 +84,7 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | printer_name | str | اسم الطابعة ، على سبيل المثال: "Microsoft Office Document Image Writer"|
 | print_page_index | int | الفهرس الذي يستند إلى 0 للصفحة الأولى للطباعة ، يجب أن يكون في النطاق [0 ، WorkbookRender.PageCount-1]|

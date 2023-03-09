@@ -11,7 +11,7 @@ is_root: false
 
 Определяет тип пунктира линии.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import MsoLineDashStyle

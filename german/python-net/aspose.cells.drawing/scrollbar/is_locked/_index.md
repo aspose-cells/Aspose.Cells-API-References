@@ -11,7 +11,7 @@ is_root: false
 
 True, wenn das Objekt gesperrt ist, False, wenn das Objekt geändert werden kann, wenn das Blatt geschützt ist.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -18,7 +18,7 @@ def has_axis(self, aixs_type, is_primary):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | aixs_type | [AxisType](/cells/tr/python-net/aspose.cells.charts/axistype) |  |
 | is_primary | bool |  |

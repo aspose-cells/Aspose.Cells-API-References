@@ -11,7 +11,7 @@ is_root: false
 
 Görünür şeklin çizgi kenarlığını alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

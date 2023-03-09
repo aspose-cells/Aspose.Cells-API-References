@@ -15,7 +15,7 @@ Il valore predefinito di questa proprietà è false.
 ###  Osservazioni
 
 Se sono presenti più thread per leggere contemporaneamente gli oggetti Row/Cell in questa raccolta,
-questa proprietà dovrebbe essere impostata come true, altrimenti potrebbero essere prodotti risultati imprevisti.
+Questa proprietà deve essere impostata su true, altrimenti potrebbero essere prodotti risultati imprevisti.
 Il supporto della lettura multithread può ridurre le prestazioni per l'accesso agli oggetti Row/Cell da questa raccolta.
 Si prega di notare che alcune funzionalità non possono supportare la lettura multi-thread,
 come i valori di formattazione (di [Cell.string_value](/cells/it/python-net/aspose.cells/cell#string_value), [Cell.display_string_value](/cells/it/python-net/aspose.cells/cell#display_string_value), .etc.).

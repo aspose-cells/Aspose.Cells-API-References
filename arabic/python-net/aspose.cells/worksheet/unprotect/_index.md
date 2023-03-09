@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/worksheet/unprotect/
 is_root: false
 ---
 ##  unprotect() {#}
-ورقة عمل Unprotects.
+عدم حماية ورقة العمل.
 
 
 
@@ -24,7 +24,7 @@ def unprotect(self):
 
 ##  unprotect(password) {#str}
 
-ورقة عمل Unprotects.
+عدم حماية ورقة العمل.
 
 
 
@@ -34,7 +34,7 @@ def unprotect(self, password):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | password | str | كلمة المرور|
 ###  ملاحظات

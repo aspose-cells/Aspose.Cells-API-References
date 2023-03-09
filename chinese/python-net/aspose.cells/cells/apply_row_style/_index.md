@@ -1,6 +1,6 @@
 ﻿---
 title: apply_row_style方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -18,7 +18,7 @@ def apply_row_style(self, row, style, flag):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | row | int |行索引。|
 | style | [Style](/cells/zh/python-net/aspose.cells/style) |将应用的样式对象。|

@@ -24,16 +24,16 @@ Il tipo LightRigType espone i membri seguenti:
 | FLAT | Piatto|
 | FLOOD | Alluvione|
 | FREEZING | Congelamento|
-| GLOW | Incandescenza|
+| GLOW | incandescenza|
 | HARSH | Duro|
 | LEGACY_FLAT1 | LegacyFlat1|
 | LEGACY_FLAT2 | Legacy Flat2|
-| LEGACY_FLAT3 | LegacyFlat3|
-| LEGACY_FLAT4 | EreditàPiatto4|
-| LEGACY_HARSH1 | LegacyHarsh1|
-| LEGACY_HARSH2 | LegacyHarsh2|
-| LEGACY_HARSH3 | LegacyHarsh3|
-| LEGACY_HARSH4 | LegacyHarsh4|
+| LEGACY_FLAT3 | Legacy appartamento 3|
+| LEGACY_FLAT4 | Legacy Appartamento 4|
+| LEGACY_HARSH1 | Legacy Duro1|
+| LEGACY_HARSH2 | Legacy Duro2|
+| LEGACY_HARSH3 | Legacy Duro3|
+| LEGACY_HARSH4 | Legacy Duro4|
 | LEGACY_NORMAL1 | EreditàNormale1|
 | LEGACY_NORMAL2 | EreditàNormale2|
 | LEGACY_NORMAL3 | EreditàNormale3|

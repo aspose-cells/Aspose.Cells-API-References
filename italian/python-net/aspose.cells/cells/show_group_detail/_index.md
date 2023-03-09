@@ -18,7 +18,7 @@ def show_group_detail(self, is_vertical, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | is_vertical | bool | Vero, espande le righe raggruppate.|
 | index | int | L'indice di riga/colonna|

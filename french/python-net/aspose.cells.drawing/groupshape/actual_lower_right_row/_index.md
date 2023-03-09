@@ -11,7 +11,7 @@ is_root: false
 
 Obtenez la rangée du bas réelle.
 
-###  Exemple
+###  Exemples
 
 ```python
 

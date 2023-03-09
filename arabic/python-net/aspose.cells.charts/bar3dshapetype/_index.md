@@ -19,10 +19,10 @@ is_root: false
 | :- | :- |
 | BOX | صندوق|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | PyramidToMax|
+| PYRAMID_TO_MAX | الهرم إلى ماكس|
 | CYLINDER | اسطوانة|
-| CONE_TO_POINT | كونتوبوينت|
-| CONE_TO_MAX | ConeToMax|
+| CONE_TO_POINT | مخروط إلى نقطة|
+| CONE_TO_MAX | مخروط إلى ماكس|
 
 
 

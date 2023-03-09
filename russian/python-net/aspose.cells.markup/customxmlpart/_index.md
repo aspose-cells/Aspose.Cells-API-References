@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [data](/cells/ru/python-net/aspose.cells.markup/customxmlpart/data) | Получает или задает XML-содержимое этой пользовательской части хранилища данных XML.|
 | [schema_data](/cells/ru/python-net/aspose.cells.markup/customxmlpart/schema_data) | Получает или задает XML-содержимое этой части хранилища данных пользовательской схемы XML.|
-| [id](/cells/ru/python-net/aspose.cells.markup/customxmlpart/id) | Получает и задает идентификатор пользовательской части XML.|
+| [id](/cells/ru/python-net/aspose.cells.markup/customxmlpart/id) |Получает и задает идентификатор пользовательской части XML.|
 
 
 

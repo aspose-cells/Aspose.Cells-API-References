@@ -18,7 +18,7 @@ El tipo VbaModuleType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | PROCEDURAL | Representa un módulo de procedimiento.|
-| DOCUMENT |Representa un módulo de documento.|
+| DOCUMENT | Representa un módulo de documento.|
 | CLASS | Representa un módulo de clase.|
 | DESIGNER | Representa un módulo de diseñador.|
 

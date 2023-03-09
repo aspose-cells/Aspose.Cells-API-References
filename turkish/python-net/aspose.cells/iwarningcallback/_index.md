@@ -1,5 +1,5 @@
 ﻿---
-title: IWarningCallback sınıf
+title: IWarningCallback sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 880
 url: /tr/python-net/aspose.cells/iwarningcallback/
 is_root: false
 ---
-##  IWarningCallback sınıf
+##  IWarningCallback sınıfı
 Uyarının geri arama arayüzü.
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: TextEffectFormat sınıf
+title: TextEffectFormat sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 700
 url: /tr/python-net/aspose.cells.drawing/texteffectformat/
 is_root: false
 ---
-##  TextEffectFormat sınıf
+##  TextEffectFormat sınıfı
 WordArt nesnelerine uygulanan özellikleri ve yöntemleri içerir.
 
 
@@ -33,7 +33,7 @@ TextEffectFormat türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

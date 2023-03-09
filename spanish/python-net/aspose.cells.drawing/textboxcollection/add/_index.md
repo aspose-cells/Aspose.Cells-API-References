@@ -22,14 +22,14 @@ def add(self, upper_left_row, upper_left_column, height, width):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
-| upper_left_column | int |Índice de la columna superior izquierda.|
+| upper_left_column | int | Índice de la columna superior izquierda.|
 | height | int | Altura del cuadro de texto, en unidades de píxel.|
 | width | int | Ancho del cuadro de texto, en unidades de píxel.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

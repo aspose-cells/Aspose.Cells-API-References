@@ -13,8 +13,8 @@ Représente le paramètre de mise en forme de la forme.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
- veuillez utiliser les propriétés Shape.Fill et Shape.Line.
+ REMARQUE : ce membre est désormais obsolète.
+ Veuillez utiliser les propriétés Shape.Fill et Shape.Line.
  Cette propriété sera supprimée 6 mois plus tard depuis août 2016.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

@@ -1,13 +1,13 @@
 ﻿---
 title: PdfSecurityOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/
 is_root: false
 ---
-##  PdfSecurityOptions类
+## PdfSecurityOptions类
 excel转pdf时pdf的设置，PDF/A不允许安全设置。
 
 

@@ -18,9 +18,9 @@ def parse_formulas(self, ignore_error):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| ignore_error | bool | si ignorer l'erreur pour la formule invalide.<br/>Pour une formule invalide, si ignorer l'erreur, cette formule sera ignorée<br/>et le processus continuera à analyser d'autres formules, sinon une exception sera levée.|
+| ignore_error | bool | si ignorer l'erreur pour la formule invalide.<br/>Pour une formule invalide, si ignorer l'erreur, cette formule sera ignorée<br/> et le processus continuera à analyser d'autres formules, sinon une exception sera levée.|
 
 
 

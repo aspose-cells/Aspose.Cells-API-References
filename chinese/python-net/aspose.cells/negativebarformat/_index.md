@@ -1,14 +1,14 @@
 ﻿---
 title: NegativeBarFormat类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1090
 url: /zh/python-net/aspose.cells/negativebarformat/
 is_root: false
 ---
-##  NegativeBarFormat类
-表示由数据栏条件格式设置规则定义的负值的数据栏的颜色设置。
+## NegativeBarFormat类
+表示数据条条件格式规则定义的负值数据条的颜色设置。
 
 
 

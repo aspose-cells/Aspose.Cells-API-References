@@ -27,7 +27,7 @@ is_root: false
 | INVALID_OPERATOR | Неверный оператор.|
 | INCORRECT_PASSWORD | Неверный пароль.|
 | LICENSE | Ошибки, связанные с лицензией.|
-| LIMITATION | Ошибка ограничения MS Excel.|
+| LIMITATION |Ошибка ограничения MS Excel.|
 | PAGE_SETUP | Неверный параметр настройки страницы.|
 | PIVOT_TABLE | Недопустимая настройка сводной таблицы.|
 | SHAPE | Недопустимая настройка объекта рисования.|
@@ -37,7 +37,7 @@ is_root: false
 | INTERRUPTED | Процесс прерывается.|
 | IO | Файл недействителен.|
 | PERMISSION | Требуется разрешение, чтобы открыть этот файл.|
-| UNSUPPORTED_FEATURE | Неподдерживаемая функция.|
+| UNSUPPORTED_FEATURE | Неподдерживаемые функции.|
 | UNSUPPORTED_STREAM | Неподдерживаемый поток для открытия.|
 | UNDISCLOSED_INFORMATION | Файлы содержат некоторую нераскрытую информацию.|
 | FILE_CORRUPTED | Содержимое файла повреждено.|

@@ -16,11 +16,11 @@ is_root: false
 | [AxisBins](/cells/ru/python-net/aspose.cells.charts/axisbins) | Представляет бины оси|
 | [Chart](/cells/ru/python-net/aspose.cells.charts/chart) | Инкапсулирует объект, представляющий одну диаграмму Excel.|
 | [ChartArea](/cells/ru/python-net/aspose.cells.charts/chartarea) | Инкапсулирует объект, представляющий область диаграммы на листе.|
-| [ChartCollection](/cells/ru/python-net/aspose.cells.charts/chartcollection) |Инкапсулирует коллекцию из [Chart](/cells/ru/python-net/aspose.cells.charts/chart) объектов.|
+| [ChartCollection](/cells/ru/python-net/aspose.cells.charts/chartcollection) | Инкапсулирует коллекцию из [Chart](/cells/ru/python-net/aspose.cells.charts/chart) объектов.|
 | [ChartDataTable](/cells/ru/python-net/aspose.cells.charts/chartdatatable) | Представляет таблицу данных диаграммы.|
-| [ChartFrame](/cells/ru/python-net/aspose.cells.charts/chartframe) |Инкапсулирует объект, который представляет объект кадра на диаграмме.|
-| [ChartGlobalizationSettings](/cells/ru/python-net/aspose.cells.charts/chartglobalizationsettings) | Представляет параметры глобализации для диаграммы.|
-| [ChartPoint](/cells/ru/python-net/aspose.cells.charts/chartpoint) | Представляет одну точку в ряду на диаграмме.|
+| [ChartFrame](/cells/ru/python-net/aspose.cells.charts/chartframe) | Инкапсулирует объект, который представляет объект кадра на диаграмме.|
+| [ChartGlobalizationSettings](/cells/ru/python-net/aspose.cells.charts/chartglobalizationsettings) | Представляет параметры глобализации для диаграмм.|
+| [ChartPoint](/cells/ru/python-net/aspose.cells.charts/chartpoint) |Представляет одну точку в ряду на диаграмме.|
 | [ChartPointCollection](/cells/ru/python-net/aspose.cells.charts/chartpointcollection) | Представляет коллекцию, содержащую все точки одной серии.|
 | [ChartTextFrame](/cells/ru/python-net/aspose.cells.charts/charttextframe) | Инкапсулирует объект, представляющий объект фрейма, содержащий текст.|
 | [DataLabels](/cells/ru/python-net/aspose.cells.charts/datalabels) | Инкапсулирует коллекцию всех объектов DataLabel для указанной серии.|
@@ -34,13 +34,13 @@ is_root: false
 | [Marker](/cells/ru/python-net/aspose.cells.charts/marker) | Представляет маркер на линейной диаграмме, точечной диаграмме или лепестковой диаграмме.|
 | [PivotOptions](/cells/ru/python-net/aspose.cells.charts/pivotoptions) | Представляет сложный тип, указывающий элементы управления сводкой, отображаемые на диаграмме.|
 | [PlotArea](/cells/ru/python-net/aspose.cells.charts/plotarea) | Инкапсулирует объект, представляющий область графика на диаграмме.|
-| [Series](/cells/ru/python-net/aspose.cells.charts/series) | Инкапсулирует объект, представляющий один ряд данных на диаграмме.|
-| [SeriesCollection](/cells/ru/python-net/aspose.cells.charts/seriescollection) |Инкапсулирует коллекцию из [Series](/cells/ru/python-net/aspose.cells.charts/series) объектов.|
+| [Series](/cells/ru/python-net/aspose.cells.charts/series) |Инкапсулирует объект, представляющий один ряд данных на диаграмме.|
+| [SeriesCollection](/cells/ru/python-net/aspose.cells.charts/seriescollection) | Инкапсулирует коллекцию из [Series](/cells/ru/python-net/aspose.cells.charts/series) объектов.|
 | [SeriesLayoutProperties](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties) | Представляет свойства макета серии.|
 | [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) | Спарклайн представляет собой крошечную диаграмму или графику в ячейке рабочего листа, которая обеспечивает визуальное представление данных.|
-| [SparklineCollection](/cells/ru/python-net/aspose.cells.charts/sparklinecollection) |Инкапсулирует коллекцию из [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) объектов.|
-| [SparklineGroup](/cells/ru/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) организован в группу спарклайнов. SparklineGroup содержит переменное количество элементов спарклайна.<br/> Группа спарклайнов определяет тип, параметры отображения и настройки осей для спарклайнов.|
-| [SparklineGroupCollection](/cells/ru/python-net/aspose.cells.charts/sparklinegroupcollection) |Инкапсулирует коллекцию из [SparklineGroup](/cells/ru/python-net/aspose.cells.charts/sparklinegroup) объектов.|
+| [SparklineCollection](/cells/ru/python-net/aspose.cells.charts/sparklinecollection) | Инкапсулирует коллекцию из [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) объектов.|
+| [SparklineGroup](/cells/ru/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) организован в группу спарклайнов.Группа спарклайнов содержит переменное количество элементов спарклайнов.<br/> Группа спарклайнов определяет тип, параметры отображения и настройки осей для спарклайнов.|
+| [SparklineGroupCollection](/cells/ru/python-net/aspose.cells.charts/sparklinegroupcollection) | Инкапсулирует коллекцию из [SparklineGroup](/cells/ru/python-net/aspose.cells.charts/sparklinegroup) объектов.|
 | [TickLabelItem](/cells/ru/python-net/aspose.cells.charts/ticklabelitem) | Включить информацию о элементе Ticklabel|
 | [TickLabels](/cells/ru/python-net/aspose.cells.charts/ticklabels) | Представляет метки делений, связанные с делениями на оси диаграммы.|
 | [Title](/cells/ru/python-net/aspose.cells.charts/title) | Инкапсулирует объект, представляющий заголовок диаграммы или оси.|
@@ -50,11 +50,11 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [AxisType](/cells/ru/python-net/aspose.cells.charts/axistype) | Представляет тип оси.|
 | [BackgroundMode](/cells/ru/python-net/aspose.cells.charts/backgroundmode) | Представляет режим отображения фона.|
-| [Bar3DShapeType](/cells/ru/python-net/aspose.cells.charts/bar3dshapetype) | Представляет фигуру, используемую с трехмерной гистограммой или гистограммой.|
+| [Bar3DShapeType](/cells/ru/python-net/aspose.cells.charts/bar3dshapetype) |Представляет фигуру, используемую с трехмерной гистограммой или гистограммой.|
 | [BubbleSizeRepresents](/cells/ru/python-net/aspose.cells.charts/bubblesizerepresents) | Представляет то, что представляет размер пузырька на пузырьковой диаграмме.|
 | [CategoryType](/cells/ru/python-net/aspose.cells.charts/categorytype) | Представляет тип оси категорий.|
 | [ChartLineFormattingType](/cells/ru/python-net/aspose.cells.charts/chartlineformattingtype) | Представляет тип линейного формата линии диаграммы.|
@@ -67,19 +67,19 @@ is_root: false
 | [DataLablesSeparatorType](/cells/ru/python-net/aspose.cells.charts/datalablesseparatortype) | Представляет тип разделителя DataLabels.|
 | [DisplayUnitType](/cells/ru/python-net/aspose.cells.charts/displayunittype) | Представляет тип единицы отображения.|
 | [ErrorBarDisplayType](/cells/ru/python-net/aspose.cells.charts/errorbardisplaytype) | Представляет тип отображения полосы ошибок.|
-| [ErrorBarType](/cells/ru/python-net/aspose.cells.charts/errorbartype) | Представляет тип суммы бара ошибок.|
+| [ErrorBarType](/cells/ru/python-net/aspose.cells.charts/errorbartype) |Представляет тип суммы бара ошибок.|
 | [FormattingType](/cells/ru/python-net/aspose.cells.charts/formattingtype) | Представляет тип форматирования, примененный к объекту [Area](/cells/ru/python-net/aspose.cells.drawing/area) или объекту [Line](/cells/ru/python-net/aspose.cells.drawing/line).|
 | [LabelPositionType](/cells/ru/python-net/aspose.cells.charts/labelpositiontype) | Представляет тип положения метки данных.|
 | [LegendPositionType](/cells/ru/python-net/aspose.cells.charts/legendpositiontype) | Перечисляет типы позиций легенды.|
 | [MapChartLabelLayout](/cells/ru/python-net/aspose.cells.charts/mapchartlabellayout) | Представляет макет меток диаграммы карты.|
 | [MapChartProjectionType](/cells/ru/python-net/aspose.cells.charts/mapchartprojectiontype) | Представляет тип проекции диаграммы карты.|
-| [MapChartRegionType](/cells/ru/python-net/aspose.cells.charts/mapchartregiontype) |Представляет тип области диаграммы карты.|
-| [PlotDataByType](/cells/ru/python-net/aspose.cells.charts/plotdatabytype) | Представляет тип графика данных по строке или столбцу.|
+| [MapChartRegionType](/cells/ru/python-net/aspose.cells.charts/mapchartregiontype) | Представляет тип области диаграммы карты.|
+| [PlotDataByType](/cells/ru/python-net/aspose.cells.charts/plotdatabytype) |Представляет тип данных, отображаемых по строке или столбцу.|
 | [PlotEmptyCellsType](/cells/ru/python-net/aspose.cells.charts/plotemptycellstype) | Представляет все пустые ячейки диаграммы.|
 | [QuartileCalculationType](/cells/ru/python-net/aspose.cells.charts/quartilecalculationtype) | Представляет методы расчета квартилей.|
 | [SparklineAxisMinMaxType](/cells/ru/python-net/aspose.cells.charts/sparklineaxisminmaxtype) | Представляет типы минимального и максимального значения для вертикальной оси спарклайна.|
 | [SparklinePresetStyleType](/cells/ru/python-net/aspose.cells.charts/sparklinepresetstyletype) | Представляет предустановленные типы стиля для спарклайна.|
-| [SparklineType](/cells/ru/python-net/aspose.cells.charts/sparklinetype) |Представляет типы спарклайнов.|
+| [SparklineType](/cells/ru/python-net/aspose.cells.charts/sparklinetype) | Представляет типы спарклайнов.|
 | [TickLabelPositionType](/cells/ru/python-net/aspose.cells.charts/ticklabelpositiontype) | Представляет тип положения меток деления на указанной оси.|
 | [TickMarkType](/cells/ru/python-net/aspose.cells.charts/tickmarktype) | Представляет тип деления для указанной оси.|
 | [TimeUnit](/cells/ru/python-net/aspose.cells.charts/timeunit) | Представляет базовую единицу для оси категорий.|

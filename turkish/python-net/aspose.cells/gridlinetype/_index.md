@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType numaralandırma
-Izgara çizgisi Türünü numaralandırır.
+Izgara çizgisi türlerini numaralandırır.
 
 
 

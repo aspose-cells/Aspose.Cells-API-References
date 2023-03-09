@@ -1,6 +1,6 @@
 ﻿---
 title: get_instance方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def get_instance(self, collection):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | collection | list |建表的集合|
 
@@ -42,10 +42,10 @@ def get_instance(self, vals, column_names):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| vals | list |构建表的 int 值|
-| column_names | list |表的列名。<br/>它的长度只能是1（垂直构建表的int值）<br/>或 int 值的长度（通过 int 值水平构建表）|
+| vals | list | int值建表|
+| column_names | list |表的列名。<br/>它的长度只能是1（按int值垂直建表）<br/>或 int 值的长度（按 int 值水平建表）|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -63,10 +63,10 @@ def get_instance(self, vals, vertial):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| vals | list |构建表的 int 值|
-| vertial | bool |是否通过 int 值垂直（真）或水平（假）建表|
+| vals | list | int值建表|
+| vertial | bool |int值建表是垂直（true）还是水平（false）|
 
 
 ##  get_instance(vals, column_names) {#list-list}
@@ -84,10 +84,10 @@ def get_instance(self, vals, column_names):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | vals | list |双值建表|
-| column_names | list |表的列名。<br/>它的长度只能是1（垂直双精度建表）<br/>或双精度值的长度（通过水平双精度值构建表）|
+| column_names | list |表的列名。<br/>它的长度只能是1（按double值垂直建表）<br/>或双精度值的长度（通过双精度值水平建表）|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -105,10 +105,10 @@ def get_instance(self, vals, vertial):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | vals | list |双值建表|
-| vertial | bool |是否通过双值垂直（真）或水平（假）建表|
+| vertial | bool | double值是垂直建表(true)还是水平建表(false)|
 
 
 ##  get_instance(vals, column_names) {#list-list}
@@ -126,7 +126,7 @@ def get_instance(self, vals, column_names):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | vals | list |建表对象|
 | column_names | list |表的列名。<br/>它的长度只能是1（垂直建表的对象）<br/>或对象的长度（通过对象水平构建表格）|
@@ -147,10 +147,10 @@ def get_instance(self, vals, vertial):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | vals | list |建表对象|
-| vertial | bool |是否按对象垂直（true）或水平（false）建表|
+| vertial | bool |垂直建表（true）还是水平建表（false）|
 
 
 

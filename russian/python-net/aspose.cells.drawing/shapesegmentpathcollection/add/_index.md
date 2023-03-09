@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [ShapePathType](/cells/ru/python-net/aspose.cells.drawing/shapepathtype) | Тип пути.|
 

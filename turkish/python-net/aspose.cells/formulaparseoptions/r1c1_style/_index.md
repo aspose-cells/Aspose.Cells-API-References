@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  r1c1_style mülk
 
-Formülün R1C1 referans stili olup olmadığı. Varsayılan yanlıştır.
+Formülün R1C1 referans stili olup olmadığı. Varsayılan değer yanlıştır.
 ###  Tanım:
 ```python
 @property

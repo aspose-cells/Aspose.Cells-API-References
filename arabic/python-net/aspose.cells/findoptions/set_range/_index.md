@@ -18,7 +18,7 @@ def set_range(self, ca):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | ca | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | النطاق الذي تم البحث عنه.|
 

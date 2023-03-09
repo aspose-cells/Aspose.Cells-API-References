@@ -14,8 +14,8 @@ Gibt an, ob die AutoFilter-Schaltfläche für diese Spalte sichtbar ist.
 ###  Bemerkungen
 
  HINWEIS: Dieses Mitglied ist jetzt veraltet.
- Verwenden Sie stattdessen FilterColumn.IsDropdownVisible, um zu prüfen, ob die AutoFilter-Schaltfläche für diese Spalte sichtbar ist.
-Diese Property wird 12 Monate später seit September 2020 entfernt.
+Verwenden Sie stattdessen FilterColumn.IsDropdownVisible, um zu prüfen, ob die AutoFilter-Schaltfläche für diese Spalte sichtbar ist.
+ Diese Property wird 12 Monate später seit September 2020 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:
 ```python

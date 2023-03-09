@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range الملكية
 
-يحصل على مدى النتيجة.
+يحصل على نطاق النتائج.
 ###  تعريف:
 ```python
 @property

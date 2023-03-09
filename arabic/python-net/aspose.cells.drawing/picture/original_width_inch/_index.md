@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  original_width_inch الملكية
 
-الحصول على عرض الصورة الأصلي بوحدة البوصة.
+الحصول على العرض الأصلي للصورة ، بوحدات البوصة.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

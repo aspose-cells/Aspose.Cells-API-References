@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/loadfilter/start_sheet/
 is_root: false
 ---
 ##  start_sheet(sheet) {#Worksheet}
-Verilen çalışma sayfasını yüklemeden önce filtre seçeneklerini hazırlar.
+Belirli bir çalışma sayfasını yüklemeden önce filtre seçeneklerini hazırlar.
 Kullanıcının LoadFilter uygulaması, LoadDataFilterOptions'ı burada değiştirebilir
 Bu çalışma sayfası için verilerin nasıl yükleneceğini belirtmek için.
 
@@ -20,9 +20,9 @@ def start_sheet(self, sheet):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Yüklenecek çalışma sayfası.<br/>Burada verilen çalışma sayfası nesnesi için kullanılabilen yalnızca birkaç özellik vardır.<br/>çünkü çoğu veri ve özellik yüklenmemiştir. Mevcut özellikler şunlardır:<br/> Ad, Dizin, GörünürlükTürü|
+| sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Yüklenecek çalışma sayfası.<br/>Burada verilen çalışma sayfası nesnesi için kullanılabilen yalnızca birkaç özellik vardır.<br/>çünkü çoğu veri ve özellik yüklenmemiştir.<br/> Ad, Dizin, GörünürlükTürü|
 
 
 

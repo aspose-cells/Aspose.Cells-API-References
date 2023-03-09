@@ -1,13 +1,13 @@
 ﻿---
 title: PivotItemCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
 url: /zh/python-net/aspose.cells.pivot/pivotitemcollection/
 is_root: false
 ---
-##  PivotItemCollection类
+## PivotItemCollection类
 表示 PivotField 的所有 PivotItem 对象的集合
 
 

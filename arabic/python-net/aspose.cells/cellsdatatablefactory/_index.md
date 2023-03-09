@@ -17,12 +17,12 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [get_instance(vals, column_names)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |يقوم بإنشاء ICellsDataTable من تسلسل محدد لقيم int.|
-| [get_instance(vals, vertial)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |يقوم بإنشاء ICellsDataTable من تسلسل محدد لقيم int.|
+| [get_instance(vals, column_names)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | يقوم بإنشاء ICellsDataTable من تسلسل محدد لقيم int.|
+| [get_instance(vals, vertial)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | يقوم بإنشاء ICellsDataTable من تسلسل محدد لقيم int.|
 | [get_instance(vals, column_names)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | يقوم بإنشاء ICellsDataTable من تسلسل معين من القيم المزدوجة.|
 | [get_instance(vals, vertial)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | يقوم بإنشاء ICellsDataTable من تسلسل معين من القيم المزدوجة.|
-| [get_instance(vals, column_names)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | يقوم بإنشاء ICellsDataTable من تسلسل محدد للكائنات.|
-| [get_instance(vals, vertial)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | يقوم بإنشاء ICellsDataTable من تسلسل محدد للكائنات.|
+| [get_instance(vals, column_names)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |يقوم بإنشاء ICellsDataTable من تسلسل محدد للكائنات.|
+| [get_instance(vals, vertial)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |يقوم بإنشاء ICellsDataTable من تسلسل محدد للكائنات.|
 | [get_instance(collection)](/cells/ar/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | يقوم بإنشاء ICellsDataTable من مجموعة معينة.|
 
 

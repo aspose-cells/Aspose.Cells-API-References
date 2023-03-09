@@ -1,6 +1,6 @@
 ﻿---
 title: add_ole_object_with_linked_image方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
@@ -22,12 +22,12 @@ def add_ole_object_with_linked_image(self, upper_left_row, upper_left_column, he
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | upper_left_row | int |左上行索引。|
 | upper_left_column | int |左上列索引。|
-| height | int |形状的高度。以像素为单位|
-| width | int |形状的宽度。以像素为单位|
+| height | int |形状的高度。|
+| width | int |形状的宽度。|
 | source_full_name | str |链接图像的源文件的路径和名称|
 
 

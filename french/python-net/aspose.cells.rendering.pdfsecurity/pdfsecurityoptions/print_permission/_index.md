@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  print_permission propriété
 
-Autorisation d'imprimer un document pdf
+Autorisation d'imprimer des documents pdf
 ###  Définition:
 ```python
 @property

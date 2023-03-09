@@ -12,7 +12,7 @@ is_root: false
 حدد نوع نمط تقطيع اللحم المدمج
 النوع الافتراضي هو SlicerStyleLight1
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

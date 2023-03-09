@@ -18,11 +18,11 @@ def remove_at(self, cell_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell_name | str | Yorum içeren hücrenin adı.|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -42,12 +42,12 @@ def remove_at(self, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | column | int | sütun indeksi.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

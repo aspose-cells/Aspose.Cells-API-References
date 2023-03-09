@@ -19,7 +19,7 @@ Il tipo MsoLineStyle espone i membri seguenti:
 | :- | :- |
 | SINGLE | Linea singola (di larghezza lineWidth)|
 | THICK_BETWEEN_THIN | Tre linee, sottile, spessa, sottile|
-| THIN_THICK | Doppie linee, una sottile, una spessa|
+| THIN_THICK |Doppie linee, una sottile, una spessa|
 | THICK_THIN | Doppie linee, una spessa, una sottile|
 | THIN_THIN | Doppie linee di uguale larghezza|
 

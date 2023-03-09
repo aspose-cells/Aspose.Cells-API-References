@@ -43,7 +43,7 @@ def subtotal(self, ca, group_by, function, total_list, replace, page_breaks, sum
 | group_by | int | Das zu gruppierende Feld als nullbasierter ganzzahliger Offset|
 | function | [ConsolidationFunction](/cells/de/python-net/aspose.cells/consolidationfunction) | Die Zwischensummenfunktion.|
 | total_list | list | Ein Array von nullbasierten Feld-Offsets, das die Felder angibt, zu denen die Zwischensummen hinzugefügt werden.|
-| replace | bool |Gibt an, ob die aktuellen Zwischensummen ersetzt werden sollen|
+| replace | bool | Gibt an, ob die aktuellen Zwischensummen ersetzt werden sollen|
 | page_breaks | bool | Gibt an, ob ein Seitenumbruch zwischen Gruppen hinzugefügt wird|
 | summary_below_data | bool | Gibt an, ob eine Zusammenfassung unter den Daten hinzugefügt werden soll.|
 

@@ -22,7 +22,7 @@ def get_dependents(self, is_all, row, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | is_all | bool | Indica si revisa otras hojas de trabajo|
 | row | int | El índice de fila.|

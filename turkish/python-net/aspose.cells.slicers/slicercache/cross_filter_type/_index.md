@@ -10,7 +10,7 @@ is_root: false
 ##  cross_filter_type mülk
 
 Bir dilimleyicinin diğer dilimleyicilerle çapraz filtrelemeye katılıp katılmadığını döndürür veya ayarlar
-aynı dilimleyici önbelleğini paylaşan ve çapraz filtrelemenin nasıl görüntülendiği. Okuma yazma
+aynı dilimleyici önbelleğini paylaşan ve çapraz filtrelemenin nasıl görüntülendiği.
 ###  Tanım:
 ```python
 @property

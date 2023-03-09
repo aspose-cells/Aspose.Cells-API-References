@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene el objeto comment.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

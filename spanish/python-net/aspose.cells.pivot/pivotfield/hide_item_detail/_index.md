@@ -18,7 +18,7 @@ def hide_item_detail(self, index, is_hidden_detail):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | el índice de pivotItem en pivotField.|
 | is_hidden_detail | bool | si el PivotItem específico está oculto|

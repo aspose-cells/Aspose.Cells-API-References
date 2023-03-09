@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die Höhe des angegebenen Datenschnitts in Pixel zurück oder legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

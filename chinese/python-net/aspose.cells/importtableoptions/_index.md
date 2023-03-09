@@ -1,13 +1,13 @@
 ﻿---
 title: ImportTableOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 920
 url: /zh/python-net/aspose.cells/importtableoptions/
 is_root: false
 ---
-##  ImportTableOptions类
+## ImportTableOptions类
 表示将数据导入单元格的选项。
 
 
@@ -32,9 +32,9 @@ ImportTableOptions 类型公开了以下成员：
 | [date_format](/cells/zh/python-net/aspose.cells/importtableoptions/date_format) |获取或设置具有导入的日期时间值的单元格的日期格式字符串。|
 | [number_formats](/cells/zh/python-net/aspose.cells/importtableoptions/number_formats) |获取或设置数字格式|
 | [is_formulas](/cells/zh/python-net/aspose.cells/importtableoptions/is_formulas) |指示数据是否为公式。|
-| [total_rows](/cells/zh/python-net/aspose.cells/importtableoptions/total_rows) |获取或设置要从数据源导入的总行数。 -1 表示给定数据源的所有行。|
-| [total_columns](/cells/zh/python-net/aspose.cells/importtableoptions/total_columns) |获取或设置要从数据源导入的总列数。 -1 表示给定数据源的所有行。|
-| [column_indexes](/cells/zh/python-net/aspose.cells/importtableoptions/column_indexes) |获取或设置要从数据源导入的列（从 0 开始）。 null 表示应导入所有列。|
+| [total_rows](/cells/zh/python-net/aspose.cells/importtableoptions/total_rows) | -1 表示给定数据源的所有行。|
+| [total_columns](/cells/zh/python-net/aspose.cells/importtableoptions/total_columns) | -1 表示给定数据源的所有行。|
+| [column_indexes](/cells/zh/python-net/aspose.cells/importtableoptions/column_indexes) |获取或设置要从数据源导入的列（从 0 开始）。null 表示应导入所有列。|
 | [default_values](/cells/zh/python-net/aspose.cells/importtableoptions/default_values) |表中值的默认值为空。|
 | [is_html_string](/cells/zh/python-net/aspose.cells/importtableoptions/is_html_string) |指示该值是否包含 html 标记。|
 | [check_merged_cells](/cells/zh/python-net/aspose.cells/importtableoptions/check_merged_cells) |指示是否检查合并的单元格。|

@@ -13,7 +13,7 @@ Anger ett anpassat värde för visningsenheten.
 
 ###  Anmärkningar
 
- OBS: Den här egenskapen är nu föråldrad. Istället,
+ OBS: Den här egenskapen är nu föråldrad.
 använd egenskapen Axis.CustomUnit.
  Den här egenskapen kommer att tas bort 12 månader senare sedan januari 2023.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

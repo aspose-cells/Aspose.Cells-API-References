@@ -45,7 +45,7 @@ def add(self, directory_type, file_name, sheet_names):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| directory_type | [DirectoryType](/cells/de/python-net/aspose.cells/directorytype) | Der Verzeichnistyp des Dateinamens.|
+| directory_type | [DirectoryType](/cells/de/python-net/aspose.cells/directorytype) |Der Verzeichnistyp des Dateinamens.|
 | file_name | str | der Dateiname.|
 | sheet_names | list | Alle Blattnamen der externen Datei.|
 

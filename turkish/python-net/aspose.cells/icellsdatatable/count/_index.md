@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count mülk
 
-Kayıtların count'ini alır. -1 bilinmeyen kayıtlar için count.
+Kayıtların count'ini alır. Bilinmeyen kayıtlar için -1 count.
 ###  Tanım:
 ```python
 @property

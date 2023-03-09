@@ -16,7 +16,7 @@ is_root: false
  formula dizesi her zaman eşittir işaretiyle (=) başlar.
 Ve lütfen "=SUM(A1, E1, H2)" gibi parametre ayırıcı olarak her zaman virgül(,) kullanın.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

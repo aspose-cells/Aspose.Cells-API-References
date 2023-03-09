@@ -15,7 +15,7 @@ Der Standardwert ist falsch.
 ###  Bemerkungen
 
 Wenn die Arbeitsmappe mehrere Arbeitsblätter oder andere erforderliche Ressourcen wie Bilder enthält,
- Üblicherweise müssen diese Arbeitsblätter und andere Ressourcen in separaten Dateien gespeichert werden.
+Üblicherweise müssen diese Arbeitsblätter und andere Ressourcen in separaten Dateien gespeichert werden.
 Für einige Szenarien muss der Benutzer möglicherweise nur eine resultierende Datei erhalten, z. B. für die bequeme Übertragung.
 Wenn dies der Fall ist, kann der Benutzer diese Eigenschaft auf wahr setzen.
 ###  Definition:

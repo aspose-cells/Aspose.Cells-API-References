@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache الملكية
 
-تُرجع كائن SlicerCache المرتبط بقطعة شرائح. يقرأ فقط.
+تُرجع كائن SlicerCache المرتبط بقطعة شرائح.
 
-###  مثال
+###  أمثلة
 
 ```python
 

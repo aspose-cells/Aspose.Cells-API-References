@@ -13,7 +13,7 @@ Specifica il metodo di autenticazione da utilizzare quando si stabilisce (o si r
 
 ###  Osservazioni
 
- NOTA: questa proprietà è ora obsoleta. Invece,
+ NOTA: questa proprietà è ora obsoleta.
 utilizzare la proprietà ExternalConnection.CredentialsMethodType.
  Questa proprietà verrà rimossa 12 mesi dopo da ottobre 2017.
 Aspose si scusa per gli eventuali disagi causati.

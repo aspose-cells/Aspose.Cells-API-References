@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_null proprietà
 
-Indica se ignorare il valore null.
+Indica se ignorare i valori Null.
 ###  Definizione:
 ```python
 @property

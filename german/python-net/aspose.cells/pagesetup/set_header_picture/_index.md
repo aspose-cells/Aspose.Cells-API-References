@@ -24,7 +24,7 @@ def set_header_picture(self, section, header_picture):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| section | int |0: Linker Abschnitt, 1: Mittlerer Abschnitt, 2: Rechter Abschnitt.|
+| section | int | 0: Linker Abschnitt, 1: Mittlerer Abschnitt, 2: Rechter Abschnitt.|
 | header_picture | bytes | Bilddaten.|
 
 

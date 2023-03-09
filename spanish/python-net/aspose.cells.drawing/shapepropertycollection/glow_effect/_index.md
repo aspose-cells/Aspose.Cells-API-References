@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  glow_effect propiedad
 
-Representa un objeto [ShapePropertyCollection.glow_effect](/cells/es/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect) que especifica el efecto de brillo para el elemento o la forma del gráfico.
+Representa un objeto [ShapePropertyCollection.glow_effect](/cells/es/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect) que especifica un efecto de brillo para la forma o el elemento del gráfico.
 ###  Definición:
 ```python
 @property

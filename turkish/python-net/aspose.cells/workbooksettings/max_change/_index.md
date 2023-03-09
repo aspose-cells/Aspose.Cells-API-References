@@ -13,7 +13,7 @@ Döngüsel bir başvuruyu çözmek için maksimum değişiklik sayısını dönd
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.MaxChange'i kullanın.
+NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.MaxChange kullanın.
  Bu mülk, Şubat 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

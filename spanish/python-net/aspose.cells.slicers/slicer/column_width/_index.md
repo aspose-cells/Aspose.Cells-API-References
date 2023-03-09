@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el ancho, en puntos, de cada columna en la segmentación.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

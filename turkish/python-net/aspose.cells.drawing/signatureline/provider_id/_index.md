@@ -15,7 +15,7 @@ is_root: false
 
 Genellikle sağlayıcı com eklentisinin CLSID'sidir.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import SignatureLine

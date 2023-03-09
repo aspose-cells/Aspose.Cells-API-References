@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlSaveOptions(format) {#SaveFormat}
-Crea opzioni per il salvataggio del file htm.
+Crea opzioni per salvare i file htm.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/it/python-net/aspose.cells/saveformat) | Il formato del file di salvataggio.|
 

@@ -28,7 +28,7 @@ is_root: false
 | [load_format_to_extension(load_format)](/cells/ru/python-net/aspose.cells/fileformatutil/load_format_to_extension/#LoadFormat) | Преобразует перечислимое значение формата загрузки в расширение файла.|
 | [load_format_to_save_format(load_format)](/cells/ru/python-net/aspose.cells/fileformatutil/load_format_to_save_format/#LoadFormat) | Преобразует значение LoadFormat в значение SaveFormat, если это возможно.|
 | [save_format_to_extension(format)](/cells/ru/python-net/aspose.cells/fileformatutil/save_format_to_extension/#SaveFormat) | Преобразует перечислимое значение формата сохранения в расширение файла.|
-| [save_format_to_load_format(save_format)](/cells/ru/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) |Преобразует значение SaveFormat в значение LoadFormat, если это возможно.|
+| [save_format_to_load_format(save_format)](/cells/ru/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) | Преобразует значение SaveFormat в значение LoadFormat, если это возможно.|
 
 
 

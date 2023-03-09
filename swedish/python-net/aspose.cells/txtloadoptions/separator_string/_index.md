@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  separator_string fastighet
 
-Hämtar och ställer in ett strängvärde som separator.
+Hämtar och ställer in ett strängvärde som en separator.
 ###  Definition:
 ```python
 @property

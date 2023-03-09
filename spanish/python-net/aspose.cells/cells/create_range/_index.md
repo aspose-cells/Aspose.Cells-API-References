@@ -22,7 +22,7 @@ def create_range(self, address):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | address | str | La dirección del rango.|
 
@@ -42,7 +42,7 @@ def create_range(self, upper_left_cell, lower_right_cell):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_cell | str | Nombre de la celda superior izquierda.|
 | lower_right_cell | str | Nombre de la celda inferior derecha.|
@@ -63,11 +63,11 @@ def create_range(self, first_index, number, is_vertical):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_index | int | Índice de la primera fila o índice de la primera columna, basado en cero.|
 | number | int | Número total de filas o columnas, basado en uno.|
-| is_vertical | bool | Verdadero: rango creado a partir de columnas de celdas. Falso: rango creado a partir de filas de celdas.|
+| is_vertical | bool | Verdadero: rango creado a partir de columnas de celdas.|
 
 
 ##  create_range(first_row, first_column, total_rows, total_columns) {#int-int-int-int}
@@ -85,7 +85,7 @@ def create_range(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_row | int | Primera fila de este rango|
 | first_column | int | Primera columna de este rango|

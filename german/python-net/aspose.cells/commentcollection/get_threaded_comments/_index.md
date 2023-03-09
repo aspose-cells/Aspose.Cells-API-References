@@ -26,7 +26,7 @@ def get_threaded_comments(self, cell_name):
 | :- | :- | :- |
 | cell_name | str | Der Name der Zelle.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -58,7 +58,7 @@ def get_threaded_comments(self, row, column):
 | row | int | Der Zeilenindex.|
 | column | int | Der Spaltenindex.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

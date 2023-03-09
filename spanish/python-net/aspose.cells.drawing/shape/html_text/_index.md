@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece la cadena html que contiene datos y algunos formatos en este cuadro de texto.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

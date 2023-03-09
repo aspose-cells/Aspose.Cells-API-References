@@ -1,13 +1,13 @@
 ﻿---
 title: TxtSaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1520
 url: /zh/python-net/aspose.cells/txtsaveoptions/
 is_root: false
 ---
-##  TxtSaveOptions类
+## TxtSaveOptions类
 表示 csv/制表符分隔/其他文本格式的保存选项。
 
 
@@ -43,15 +43,15 @@ TxtSaveOptions 类型公开了以下成员：
 | [separator](/cells/zh/python-net/aspose.cells/txtsaveoptions/separator) |获取和设置文本文件的字符定界符。|
 | [separator_string](/cells/zh/python-net/aspose.cells/txtsaveoptions/separator_string) |获取和设置一个字符串值作为分隔符。|
 | [encoding](/cells/zh/python-net/aspose.cells/txtsaveoptions/encoding) |获取和设置默认编码。|
-| [always_quoted](/cells/zh/python-net/aspose.cells/txtsaveoptions/always_quoted) |指示是否始终为每个字段添加 '"'。<br/>如果为真，则所有值都将被引用；<br/>如果为 false，则仅在需要时引用值（例如，<br/>当值包含特殊字符时，例如 '"' 、 '\n' 或分隔符）。<br/>默认为假。|
+| [always_quoted](/cells/zh/python-net/aspose.cells/txtsaveoptions/always_quoted) |指示是否始终为每个字段添加 '"'。<br/>如果为真那么所有的值都会被引用；<br/>如果为 false 那么值只会在需要的时候被引用（例如，<br/>当值包含特殊字符（如 '"' 、 '\n' 或分隔符）时。<br/>默认为假。|
 | [quote_type](/cells/zh/python-net/aspose.cells/txtsaveoptions/quote_type) |获取或设置如何在导出的文本文件中引用值。|
 | [format_strategy](/cells/zh/python-net/aspose.cells/txtsaveoptions/format_strategy) |获取和设置将单元格值导出为字符串时的格式策略。|
-| [light_cells_data_provider](/cells/zh/python-net/aspose.cells/txtsaveoptions/light_cells_data_provider) |数据提供者提供单元格数据以在轻模式下保存工作簿。|
+| [light_cells_data_provider](/cells/zh/python-net/aspose.cells/txtsaveoptions/light_cells_data_provider) |数据提供者提供单元格数据以在浅色模式下保存工作簿。|
 | [trim_leading_blank_row_and_column](/cells/zh/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column) |指示是否应像 ms excel 那样修剪前导空白行和列。<br/>默认为真。|
-| [trim_tailing_blank_cells](/cells/zh/python-net/aspose.cells/txtsaveoptions/trim_tailing_blank_cells) |指示是否应修剪一行中拖尾的空白单元格。默认为假。|
+| [trim_tailing_blank_cells](/cells/zh/python-net/aspose.cells/txtsaveoptions/trim_tailing_blank_cells) |指示是否应修剪一行中的拖尾空白单元格。默认为 false。|
 | [keep_separators_for_blank_row](/cells/zh/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row) |指示是否应为空白行输出分隔符。<br/>默认值为 false，因此默认情况下空白行的内容将为空。|
 | [export_area](/cells/zh/python-net/aspose.cells/txtsaveoptions/export_area) |要导出的单元格范围。|
-| [export_quote_prefix](/cells/zh/python-net/aspose.cells/txtsaveoptions/export_quote_prefix) |指示单引号是否应作为一个单元格值的一部分导出<br/>当 [Style.quote_prefix](/cells/zh/python-net/aspose.cells/style#quote_prefix) 为真时。默认为假。|
+| [export_quote_prefix](/cells/zh/python-net/aspose.cells/txtsaveoptions/export_quote_prefix) |指示单引号是否应作为一个单元格值的一部分导出<br/>当 [Style.quote_prefix](/cells/zh/python-net/aspose.cells/style#quote_prefix) 为真时，默认为假。|
 | [export_all_sheets](/cells/zh/python-net/aspose.cells/txtsaveoptions/export_all_sheets) |指示是否将所有工作表导出到文本文件。<br/>如果为 false，则只导出活动表，就像 MS Excel 一样。|
 
 

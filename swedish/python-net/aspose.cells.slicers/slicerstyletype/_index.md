@@ -20,9 +20,9 @@ Typen SlicerStyleType avslöjar följande medlemmar:
 | SLICER_STYLE_LIGHT1 | inbyggd ljus stil en|
 | SLICER_STYLE_LIGHT2 | inbyggd ljus stil två|
 | SLICER_STYLE_LIGHT3 | inbyggd ljus stil tre|
-| SLICER_STYLE_LIGHT4 |inbyggd ljus stil fyra|
+| SLICER_STYLE_LIGHT4 | inbyggd ljus stil fyra|
 | SLICER_STYLE_LIGHT5 | inbyggd ljus stil fem|
-| SLICER_STYLE_LIGHT6 | inbyggd ljus stil sex|
+| SLICER_STYLE_LIGHT6 |inbyggd ljus stil sex|
 | SLICER_STYLE_OTHER1 | inbyggd stil annan|
 | SLICER_STYLE_OTHER2 | inbyggd stil andra två|
 | SLICER_STYLE_DARK1 | inbyggd mörk stil en|

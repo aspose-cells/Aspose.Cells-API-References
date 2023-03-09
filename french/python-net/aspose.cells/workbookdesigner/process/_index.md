@@ -31,7 +31,7 @@ def process(self, is_preserved):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_preserved | bool | True si le marqueur intelligent non reconnu est conservé.|
 
@@ -47,7 +47,7 @@ def process(self, sheet_index, is_preserved):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sheet_index | int | Indice de feuille de travail.|
 | is_preserved | bool | True si le marqueur intelligent non reconnu est conservé.|

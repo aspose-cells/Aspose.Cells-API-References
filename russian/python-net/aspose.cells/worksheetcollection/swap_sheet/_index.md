@@ -18,7 +18,7 @@ def swap_sheet(self, sheet_index1, sheet_index2):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | sheet_index1 | int | Первый рабочий лист.|
 | sheet_index2 | int | Второй рабочий лист.|

@@ -1,5 +1,5 @@
 ﻿---
-title: Sparkline sınıf
+title: Sparkline sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 260
 url: /tr/python-net/aspose.cells.charts/sparkline/
 is_root: false
 ---
-##  Sparkline sınıf
+##  Sparkline sınıfı
 Mini grafik, verilerin görsel bir temsilini sağlayan bir çalışma sayfası hücresindeki küçük bir grafiği veya grafiği temsil eder.
 
 
@@ -30,7 +30,7 @@ Sparkline türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import CellArea, Workbook

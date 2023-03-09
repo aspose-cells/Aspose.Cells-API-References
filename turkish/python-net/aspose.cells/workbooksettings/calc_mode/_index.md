@@ -15,8 +15,8 @@ birden çok tablo işlemi dışında otomatik veya otomatik olarak.
 ###  Notlar
 
 Yalnızca MS Excel için ayarlar.
-Lütfen Aspose.Cells ile formülleri hesaplamak için Workbook.CalculateFormula() yöntemini manuel olarak çağırın.
-NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.CalculationMode'u kullanın.
+Aspose.Cells ile formülleri hesaplamak için lütfen Workbook.CalculateFormula() yöntemini manuel olarak çağırın.
+NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.CalculationMode kullanın.
  Bu mülk, Şubat 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

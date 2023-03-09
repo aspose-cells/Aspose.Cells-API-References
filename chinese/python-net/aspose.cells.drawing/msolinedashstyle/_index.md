@@ -1,13 +1,13 @@
 ﻿---
 title: MsoLineDashStyle枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1010
 url: /zh/python-net/aspose.cells.drawing/msolinedashstyle/
 is_root: false
 ---
-##  MsoLineDashStyle枚举
+## MsoLineDashStyle枚举
 表示破折号画线的样式。
 
 

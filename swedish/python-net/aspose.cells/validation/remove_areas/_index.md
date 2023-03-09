@@ -18,7 +18,7 @@ def remove_areas(self, areas):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | areas | list | de områden där dessa valideringsinställningar ska tas bort.|
 

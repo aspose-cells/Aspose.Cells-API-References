@@ -18,7 +18,7 @@ def copy(self, source):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Kaynak Çalışma Kitabı nesnesi.|
 
@@ -34,7 +34,7 @@ def copy(self, source, copy_options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Kaynak Çalışma Kitabı nesnesi.|
 | copy_options | [CopyOptions](/cells/tr/python-net/aspose.cells/copyoptions) |  |

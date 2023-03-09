@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bins proprietà
 
-Rappresenta bins su un asse del grafico (istogramma/pareto).
+Rappresenta bins sull'asse di un grafico (istogramma/pareto).
 ###  Definizione:
 ```python
 @property

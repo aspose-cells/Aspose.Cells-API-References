@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file_name | str |  |
 
@@ -34,7 +34,7 @@ def save(self, file_name, save_format):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file_name | str | El nombre del archivo.|
 | save_format | [SaveFormat](/cells/es/python-net/aspose.cells/saveformat) | El tipo de formato de guardado.|
@@ -51,7 +51,7 @@ def save(self, file_name, save_options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file_name | str | El nombre del archivo.|
 | save_options | [SaveOptions](/cells/es/python-net/aspose.cells/saveoptions) | Las opciones de guardado.|
@@ -68,7 +68,7 @@ def save(self, stream, save_format):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | El flujo de archivos.|
 | save_format | [SaveFormat](/cells/es/python-net/aspose.cells/saveformat) | El tipo de formato de archivo guardado.|
@@ -85,7 +85,7 @@ def save(self, stream, save_options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | El flujo de archivos.|
 | save_options | [SaveOptions](/cells/es/python-net/aspose.cells/saveoptions) | Las opciones de guardado.|

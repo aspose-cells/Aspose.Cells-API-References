@@ -12,7 +12,7 @@ is_root: false
 ###  Classi
 | Classe| Descrizione|
 | :- | :- |
-| [BuiltInDocumentPropertyCollection](/cells/it/python-net/aspose.cells.properties/builtindocumentpropertycollection) | Una raccolta di proprietà del documento incorporate.|
+| [BuiltInDocumentPropertyCollection](/cells/it/python-net/aspose.cells.properties/builtindocumentpropertycollection) | Una raccolta di proprietà del documento predefinite.|
 | [ContentTypeProperty](/cells/it/python-net/aspose.cells.properties/contenttypeproperty) | Rappresenta le informazioni sull'identificatore.|
 | [ContentTypePropertyCollection](/cells/it/python-net/aspose.cells.properties/contenttypepropertycollection) | Una raccolta di oggetti [ContentTypeProperty](/cells/it/python-net/aspose.cells.properties/contenttypeproperty) che rappresentano informazioni aggiuntive.|
 | [CustomDocumentPropertyCollection](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection) | Una raccolta di proprietà del documento personalizzate.|
@@ -23,8 +23,8 @@ is_root: false
 
 
 ###  Enumerazioni
-| Enumerazione| Descrizione|
+|Enumerazione| Descrizione|
 | :- | :- |
-| [PropertyType](/cells/it/python-net/aspose.cells.properties/propertytype) | Specifica il tipo di dati di una proprietà del documento.|
+| [PropertyType](/cells/it/python-net/aspose.cells.properties/propertytype) |Specifica il tipo di dati di una proprietà del documento.|
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 True bedeutet, dass Änderungen des Seitenverhältnisses nicht zulässig sind.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

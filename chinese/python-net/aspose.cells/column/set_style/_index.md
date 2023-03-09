@@ -1,6 +1,6 @@
 ﻿---
 title: set_style方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | style | [Style](/cells/zh/python-net/aspose.cells/style) |用作此列中单元格的默认样式的样式。|
 ### 评论

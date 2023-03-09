@@ -18,12 +18,12 @@ def move(self, upper_left_row, upper_left_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| upper_left_column | int | Sol üst sütun dizini.|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

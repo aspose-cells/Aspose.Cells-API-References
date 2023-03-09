@@ -1,6 +1,6 @@
 ﻿---
 title: allow_editing_scenario 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## allow_editing_scenario 属性
 
-表示是否允许用户在受保护的工作表上编辑场景。
+表示是否允许用户在受保护的工作表上编辑方案。
 ### 定义：
 ```python
 @property

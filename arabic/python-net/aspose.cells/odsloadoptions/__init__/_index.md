@@ -31,7 +31,7 @@ def __init__(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [LoadFormat](/cells/ar/python-net/aspose.cells/loadformat) | نوع تنسيق التحميل.|
 

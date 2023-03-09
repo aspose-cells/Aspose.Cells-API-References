@@ -18,7 +18,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [columns](/cells/ru/python-net/aspose.cells/icellsdatatable/columns) | Получает имя столбца.|
-| [count](/cells/ru/python-net/aspose.cells/icellsdatatable/count) | Получает количество записей. -1 для количества неизвестных записей.|
+| [count](/cells/ru/python-net/aspose.cells/icellsdatatable/count) | -1 для количества неизвестных записей.|
 
 
 
@@ -26,7 +26,7 @@ is_root: false
 ###  Индексатор
 | Имя| Описание|
 | :- | :- |
-| [index] |Отсчитываемый от нуля индекс столбца.|
+| [index] | Отсчитываемый от нуля индекс столбца.|
 
 
 ###  Методы

@@ -13,7 +13,7 @@ Dosyayı okurken formülün ayrıştırılıp ayrıştırılmadığını göster
 
 ###  Notlar
 
-Yalnızca Excel Xlsx, Xltx, Xltm ve Xlsm dosyası için geçerlidir
+Yalnızca Excel Xlsx, Xltx, Xltm ve Xlsm dosyaları için geçerlidir
 çünkü dosyalardaki formüller bir dizi formülü ile depolanır.
 ###  Tanım:
 ```python

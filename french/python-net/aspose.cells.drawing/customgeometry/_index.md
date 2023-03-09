@@ -22,7 +22,7 @@ Le type CustomGeometry expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [shape_adjust_values](/cells/fr/python-net/aspose.cells.drawing/customgeometry/shape_adjust_values) | Obtient une collection de valeur d'ajustement de forme|
+| [shape_adjust_values](/cells/fr/python-net/aspose.cells.drawing/customgeometry/shape_adjust_values) | Obtient une collection de valeurs d'ajustement de forme|
 | [paths](/cells/fr/python-net/aspose.cells.drawing/customgeometry/paths) | Obtient des informations sur la collection de chemins lorsque la forme est une forme automatique NotPrimitive|
 
 

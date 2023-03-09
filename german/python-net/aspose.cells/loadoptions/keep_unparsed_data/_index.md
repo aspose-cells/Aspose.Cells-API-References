@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  keep_unparsed_data Eigentum
 
-Ob die ungeparsten Daten für die Arbeitsmappe im Arbeitsspeicher bleiben, wenn sie aus der Vorlagendatei geladen wird. Standard ist wahr.
+Ob die ungeparsten Daten für die Arbeitsmappe im Arbeitsspeicher bleiben, wenn sie aus der Vorlagendatei geladen wird. Der Standardwert ist „true“.
 
 ###  Bemerkungen
 

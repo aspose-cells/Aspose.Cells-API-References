@@ -24,7 +24,7 @@ def get_referred_areas(self, recalculate):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| recalculate | bool | ob er neu berechnet wird, wenn dieser Name vor diesem Aufruf berechnet wurde.|
+| recalculate | bool | ob er neu berechnet werden soll, wenn dieser Name vor diesem Aufruf berechnet wurde.|
 
 
 

@@ -18,7 +18,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [size](/cells/ar/python-net/aspose.cells.tables/tablestyleelement/size) | عدد الصفوف أو الأعمدة في شريط شريطي واحد.<br/> ينطبق فقط عندما يكون النوع هو firstRowStripe أو secondRowStripe أو firstColumnStripe أو secondColumnStripe.|
-| [type](/cells/ar/python-net/aspose.cells.tables/tablestyleelement/type) |يحصل على نوع العنصر.|
+| [type](/cells/ar/python-net/aspose.cells.tables/tablestyleelement/type) | يحصل على نوع العنصر.|
 
 
 ###  طُرق

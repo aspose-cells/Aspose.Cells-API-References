@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/groupshape/ungroup/
 is_root: false
 ---
 ##  ungroup() {#}
-Desagrupa los elementos de forma.
+Desagrupe los elementos de forma.
 
 
 

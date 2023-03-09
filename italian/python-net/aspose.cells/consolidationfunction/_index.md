@@ -19,10 +19,10 @@ Il tipo ConsolidationFunction espone i membri seguenti:
 | :- | :- |
 | SUM | Rappresenta la funzione Somma.|
 | COUNT | Rappresenta la funzione Conteggio.|
-| AVERAGE | Rappresenta la funzione media.|
+| AVERAGE | Rappresenta la funzione Media.|
 | MAX | Rappresenta la funzione Max.|
 | MIN | Rappresenta la funzione Min.|
-| PRODUCT | Rappresenta la funzione del prodotto.|
+| PRODUCT | Rappresenta le funzioni del prodotto.|
 | COUNT_NUMS | Rappresenta la funzione Count Nums.|
 | STD_DEV | Rappresenta la funzione StdDev.|
 | STD_DEVP | Rappresenta la funzione StdDevp.|

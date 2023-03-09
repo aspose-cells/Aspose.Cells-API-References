@@ -11,7 +11,7 @@ is_root: false
 
 Obtient l'index row du commentaire.
 
-###  Exemple
+###  Exemples
 
 ```python
 

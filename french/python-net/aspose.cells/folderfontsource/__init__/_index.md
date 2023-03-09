@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/folderfontsource/__init__/
 is_root: false
 ---
 ##  FolderFontSource(folder_path, scan_subfolders) {#str-bool}
-Ctor.
+Directeur.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, folder_path, scan_subfolders):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | folder_path | str | chemin d'accès au dossier des polices|
 | scan_subfolders | bool | Détermine s'il faut analyser ou non les sous-dossiers.|

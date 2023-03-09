@@ -28,13 +28,13 @@ is_root: false
 | [text_font](/cells/ru/python-net/aspose.cells.charts/plotarea/text_font) | Получает объект [ChartFrame.font](/cells/ru/python-net/aspose.cells.charts/chartframe#font) указанного объекта ChartFrame.|
 | [text_options](/cells/ru/python-net/aspose.cells.charts/plotarea/text_options) | Получает и задает параметры текста.|
 | [font](/cells/ru/python-net/aspose.cells.charts/plotarea/font) | Получает объект [ChartFrame.font](/cells/ru/python-net/aspose.cells.charts/chartframe#font) указанного объекта ChartFrame.|
-| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/plotarea/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта. Значение по умолчанию верно.|
+| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/plotarea/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта.|
 | [background_mode](/cells/ru/python-net/aspose.cells.charts/plotarea/background_mode) | Получает и задает режим отображения фона|
 | [background](/cells/ru/python-net/aspose.cells.charts/plotarea/background) | Получает и задает режим отображения фона|
-| [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Указывает, имеет ли область графика автоматический размер.|
+| [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Указывает, автоматически ли размер области графика изменяется.|
 | [x](/cells/ru/python-net/aspose.cells.charts/plotarea/x) | Получает или получает координату x верхнего левого угла ограничивающей рамки области графика в единицах 1/4000 области диаграммы.|
 | [y](/cells/ru/python-net/aspose.cells.charts/plotarea/y) | Получает или получает координату y верхнего верхнего угла ограничивающей рамки области графика в единицах 1/4000 области диаграммы.|
-| [height](/cells/ru/python-net/aspose.cells.charts/plotarea/height) | Получает или задает высоту ограничивающей рамки области графика в единицах, равных 1/4000 области диаграммы.|
+| [height](/cells/ru/python-net/aspose.cells.charts/plotarea/height) |Получает или задает высоту ограничивающей рамки области графика в единицах, равных 1/4000 области диаграммы.|
 | [width](/cells/ru/python-net/aspose.cells.charts/plotarea/width) | Получает или задает ширину ограничивающей рамки области графика в единицах, равных 1/4000 области диаграммы.|
 | [shadow](/cells/ru/python-net/aspose.cells.charts/plotarea/shadow) | Истинно, если у кадра есть тень.|
 | [shape_properties](/cells/ru/python-net/aspose.cells.charts/plotarea/shape_properties) | Получает объект [ChartFrame.shape_properties](/cells/ru/python-net/aspose.cells.charts/chartframe#shape_properties).|
@@ -42,7 +42,7 @@ is_root: false
 | [default_x](/cells/ru/python-net/aspose.cells.charts/plotarea/default_x) | Представляет x позиции по умолчанию|
 | [default_y](/cells/ru/python-net/aspose.cells.charts/plotarea/default_y) | Представляет y положения по умолчанию|
 | [default_width](/cells/ru/python-net/aspose.cells.charts/plotarea/default_width) | Представляет ширину положения по умолчанию|
-| [default_height](/cells/ru/python-net/aspose.cells.charts/plotarea/default_height) | Представляет высоту положения по умолчанию|
+| [default_height](/cells/ru/python-net/aspose.cells.charts/plotarea/default_height) | Представляет высоту позиции по умолчанию|
 | [inner_x](/cells/ru/python-net/aspose.cells.charts/plotarea/inner_x) | Получает или получает координату x верхнего верхнего угла области графика в единицах 1/4000 области диаграммы.|
 | [inner_y](/cells/ru/python-net/aspose.cells.charts/plotarea/inner_y) | Получает или получает координату x верхнего верхнего угла области графика в единицах 1/4000 области диаграммы.|
 | [inner_height](/cells/ru/python-net/aspose.cells.charts/plotarea/inner_height) | Получает или задает высоту области графика в единицах, равных 1/4000 области диаграммы.|

@@ -1,5 +1,5 @@
 ﻿---
-title: ChartFrame sınıf
+title: ChartFrame sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 70
 url: /tr/python-net/aspose.cells.charts/chartframe/
 is_root: false
 ---
-##  ChartFrame sınıf
+##  ChartFrame sınıfı
 Bir grafikte çerçeve nesnesini temsil eden nesneyi kapsüller.
 
 
@@ -23,14 +23,14 @@ ChartFrame türü aşağıdaki üyeleri gösterir:
 | [text_font](/cells/tr/python-net/aspose.cells.charts/chartframe/text_font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
 | [text_options](/cells/tr/python-net/aspose.cells.charts/chartframe/text_options) | Metnin seçeneklerini alır ve ayarlar.|
 | [font](/cells/tr/python-net/aspose.cells.charts/chartframe/font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
-| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/chartframe/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur.|
+| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/chartframe/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.|
 | [background_mode](/cells/tr/python-net/aspose.cells.charts/chartframe/background_mode) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [background](/cells/tr/python-net/aspose.cells.charts/chartframe/background) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [is_automatic_size](/cells/tr/python-net/aspose.cells.charts/chartframe/is_automatic_size) | Grafik çerçevesinin otomatik boyutlandırılıp boyutlandırılmadığını gösterir.|
 | [x](/cells/tr/python-net/aspose.cells.charts/chartframe/x) | Grafik alanının 1/4000'lik birimlerinde sol üst köşenin x koordinatını alır veya ayarlar.|
-| [y](/cells/tr/python-net/aspose.cells.charts/chartframe/y) | Grafik alanının 1/4000'lik birimlerinde sol üst köşenin y koordinatını alır veya ayarlar.|
+| [y](/cells/tr/python-net/aspose.cells.charts/chartframe/y) |Grafik alanının 1/4000'lik birimlerinde sol üst köşenin y koordinatını alır veya ayarlar.|
 | [height](/cells/tr/python-net/aspose.cells.charts/chartframe/height) | Grafik alanının 1/4000'lik birimlerinde çerçevenin yüksekliğini alır veya ayarlar.|
-| [width](/cells/tr/python-net/aspose.cells.charts/chartframe/width) |Grafik alanının 1/4000'lik birimlerinde çerçeve genişliğini alır veya ayarlar.|
+| [width](/cells/tr/python-net/aspose.cells.charts/chartframe/width) | Grafik alanının 1/4000'lik birimlerinde çerçeve genişliğini alır veya ayarlar.|
 | [shadow](/cells/tr/python-net/aspose.cells.charts/chartframe/shadow) | Çerçevede gölge varsa doğrudur.|
 | [shape_properties](/cells/tr/python-net/aspose.cells.charts/chartframe/shape_properties) | [ChartFrame.shape_properties](/cells/tr/python-net/aspose.cells.charts/chartframe#shape_properties) nesnesini alır.|
 | [is_default_pos_be_set](/cells/tr/python-net/aspose.cells.charts/chartframe/is_default_pos_be_set) | Varsayılan konumun (DefaultX, DefaultY, DefaultWidth ve DefaultHeight) ayarlanıp ayarlanmadığını gösterir.|

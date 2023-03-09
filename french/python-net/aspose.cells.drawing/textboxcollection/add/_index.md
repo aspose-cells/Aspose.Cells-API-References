@@ -22,14 +22,14 @@ def add(self, upper_left_row, upper_left_column, height, width):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | height | int | Hauteur de la zone de texte, en unité de pixel.|
 | width | int | Largeur de la zone de texte, en unité de pixel.|
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce il margine superiore in unità di punti
 
-###  Esempio
+###  Esempi
 
 ```python
 

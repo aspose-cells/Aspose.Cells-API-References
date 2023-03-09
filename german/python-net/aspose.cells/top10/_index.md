@@ -19,7 +19,7 @@ Der Typ Top10 macht die folgenden Member verfügbar:
 ###  Konstrukteure
 | Konstrukteur| Beschreibung|
 | :- | :- |
-| [Top10()](/cells/de/python-net/aspose.cells/top10/__init__/#) | Erstellt eine neue Instanz von Top10|
+| [Top10()](/cells/de/python-net/aspose.cells/top10/__init__/#) |Erstellt eine neue Instanz von Top10|
 
 
 ###  Eigenschaften
@@ -31,7 +31,7 @@ Der Typ Top10 macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

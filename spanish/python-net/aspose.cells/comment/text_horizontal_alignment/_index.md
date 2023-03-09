@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el tipo de alineación horizontal del texto del comentario.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import TextAlignmentType

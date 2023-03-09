@@ -24,7 +24,7 @@ def add(self):
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+OBS: Denna medlem är nu föråldrad.
 använd metoden ValidationCollection.Add(CellArea).
  Den här egenskapen kommer att tas bort 12 månader senare sedan JANUARI 2015.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
@@ -44,7 +44,7 @@ def add(self, ca):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Området innehåller denna validering.|
 

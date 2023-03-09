@@ -1,5 +1,5 @@
 ﻿---
-title: StyleFlag sınıf
+title: StyleFlag sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1400
 url: /tr/python-net/aspose.cells/styleflag/
 is_root: false
 ---
-##  StyleFlag sınıf
+##  StyleFlag sınıfı
 Uygulanan biçimlendirme özelliklerini gösteren bayrakları temsil eder.
 
 
@@ -35,10 +35,10 @@ StyleFlag türü aşağıdaki üyeleri gösterir:
 | [font_size](/cells/tr/python-net/aspose.cells/styleflag/font_size) | Yazı tipi boyutu ayarı uygulanacaktır.|
 | [font_name](/cells/tr/python-net/aspose.cells/styleflag/font_name) | Yazı tipi adı ayarı uygulanacaktır.|
 | [font_color](/cells/tr/python-net/aspose.cells/styleflag/font_color) | Yazı tipi rengi ayarı uygulanacaktır.|
-| [font_bold](/cells/tr/python-net/aspose.cells/styleflag/font_bold) |Yazı tipi kalın ayarı uygulanacaktır.|
+| [font_bold](/cells/tr/python-net/aspose.cells/styleflag/font_bold) | Yazı tipi kalın ayarı uygulanacaktır.|
 | [font_italic](/cells/tr/python-net/aspose.cells/styleflag/font_italic) | Yazı tipi italik ayarı uygulanacaktır.|
 | [font_underline](/cells/tr/python-net/aspose.cells/styleflag/font_underline) | Yazı tipi altı çizili ayarı uygulanacaktır.|
-| [font_strike](/cells/tr/python-net/aspose.cells/styleflag/font_strike) | Yazı tipi üstü çizili ayarı uygulanacaktır.|
+| [font_strike](/cells/tr/python-net/aspose.cells/styleflag/font_strike) |Yazı tipi üstü çizili ayarı uygulanacaktır.|
 | [font_script](/cells/tr/python-net/aspose.cells/styleflag/font_script) | Yazı tipi komut dosyası ayarı uygulanacaktır.|
 | [number_format](/cells/tr/python-net/aspose.cells/styleflag/number_format) | Sayı biçimi ayarı uygulanacaktır.|
 | [alignments](/cells/tr/python-net/aspose.cells/styleflag/alignments) | Hizalama ayarı uygulanacaktır.|

@@ -22,9 +22,9 @@ def get_standard_function_name(self, local_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| local_name | str | Nom de fonction dépendant des paramètres régionaux. Les paramètres régionaux ont été spécifiés par le classeur pour lequel ces paramètres sont utilisés.|
+| local_name | str | Nom de fonction dépendant des paramètres régionaux.|
 
 
 

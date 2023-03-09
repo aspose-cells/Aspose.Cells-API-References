@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  create_calc_chain Eigentum
 
-Ob eine berechnete Formelkette erstellt wird. Standard ist falsch.
+Ob eine berechnete Formelkette erstellt wird. Der Standardwert ist „false“.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte FormulaSettings.EnableCalculationChain.
+HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen FormulaSettings.EnableCalculationChain.
  Diese Property wird 12 Monate später seit Februar 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

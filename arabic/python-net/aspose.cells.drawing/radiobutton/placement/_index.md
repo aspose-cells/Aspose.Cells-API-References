@@ -12,7 +12,7 @@ is_root: false
 يمثل الطريقة التي يتم بها إرفاق الكائن الرسومي بالخلايا الموجودة أسفله.
 تتحكم الخاصية في placement لكائن موجود بورقة عمل.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import PlacementType

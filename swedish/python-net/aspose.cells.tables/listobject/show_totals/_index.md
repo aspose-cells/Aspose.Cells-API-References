@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals fastighet
 
-Hämtar och ställer in om detta ListObject visar total rad.
+Hämtar och ställer in om detta ListObject visar totala rader.
 ###  Definition:
 ```python
 @property

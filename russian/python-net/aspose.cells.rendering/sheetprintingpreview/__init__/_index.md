@@ -18,7 +18,7 @@ def __init__(self, sheet, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) | Укажите, какую таблицу нужно распечатать.|
 | options | [ImageOrPrintOptions](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions содержит некоторое свойство вывода|

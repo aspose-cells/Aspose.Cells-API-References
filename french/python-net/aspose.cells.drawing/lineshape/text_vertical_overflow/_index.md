@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type de débordement vertical du texte de la forme qui contient du texte.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import TextOverflowType

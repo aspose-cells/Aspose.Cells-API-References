@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  last_saved_by Eigentum
 
-Ruft den Namen des letzten Autors ab oder legt diesen fest.
+Ruft den Namen des letzten Autors ab oder legt ihn fest.
 
 ###  Bemerkungen
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index mülk
 
-Renk paletindeki renk indeksini alır ve ayarlar. Yalnızca indekslenmiş renk için geçerlidir.
+Renk paletindeki renk indeksini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

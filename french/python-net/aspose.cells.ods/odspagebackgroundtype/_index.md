@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  OdsPageBackgroundType dénombrement
-Représente le type d'arrière-plan de page de ods.
+Représente le type de cotes d'arrière-plan de la page.
 
 
 

@@ -13,7 +13,7 @@ Définit le nom de police standard par défaut
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Au lieu de cela, veuillez utiliser DefaultStyleSettings.
+REMARQUE : ce membre est désormais obsolète.
  Cette propriété sera supprimée 12 mois plus tard depuis mars 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

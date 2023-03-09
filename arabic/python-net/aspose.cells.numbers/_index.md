@@ -16,8 +16,8 @@ is_root: false
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
-| [LoadNumbersTableType](/cells/ar/python-net/aspose.cells.numbers/loadnumberstabletype) | يشير إلى نوع جداول التحميل عندما تكون بعض الجداول في ورقة.|
+| [LoadNumbersTableType](/cells/ar/python-net/aspose.cells.numbers/loadnumberstabletype) |يشير إلى نوع جداول التحميل عندما تكون بعض الجداول في ورقة.|
 
 

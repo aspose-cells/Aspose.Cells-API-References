@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection fastighet
 
-Representerar de olika typerna av protection-alternativ som är tillgängliga för ett kalkylblad. Stöder avancerade protection-alternativ i ExcelXP och högre version.
+Representerar de olika typerna av protection-alternativ som är tillgängliga för ett kalkylblad.
 
 ###  Anmärkningar
 

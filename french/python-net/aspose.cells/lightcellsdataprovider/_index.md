@@ -30,7 +30,7 @@ Le type LightCellsDataProvider expose les membres suivants :
 
 Lors de l'enregistrement d'un classeur par ce mode, [LightCellsDataProvider.start_sheet(sheet_index)](/cells/fr/python-net/aspose.cells/lightcellsdataprovider/start_sheet) sera vérifié lors de l'enregistrement de chaque feuille de calcul dans le classeur.
 Pour une feuille, si [LightCellsDataProvider.start_sheet(sheet_index)](/cells/fr/python-net/aspose.cells/lightcellsdataprovider/start_sheet) donne vrai, toutes les données et propriétés des lignes/cellules de cette feuille doivent être enregistrées
-seront fournis par l'implémentation de cette interface. En premier lieu, [LightCellsDataProvider.next_row()](/cells/fr/python-net/aspose.cells/lightcellsdataprovider/next_row) sera appelé pour obtenir l'index de ligne suivant à enregistrer.
+sera fourni par l'implémentation de cette interface. En premier lieu, [LightCellsDataProvider.next_row()](/cells/fr/python-net/aspose.cells/lightcellsdataprovider/next_row) sera appelé pour obtenir le prochain index de ligne à enregistrer.
 Si un index de ligne valide est renvoyé (l'index de ligne doit être dans l'ordre croissant pour que les lignes soient enregistrées),
 alors un objet Row représentant cette ligne sera fourni pour l'implémentation afin de définir ses propriétés par [LightCellsDataProvider.start_row(row)](/cells/fr/python-net/aspose.cells/lightcellsdataprovider/start_row).
 Pour une ligne, [LightCellsDataProvider.next_cell()](/cells/fr/python-net/aspose.cells/lightcellsdataprovider/next_cell) sera vérifié en premier. Si un index de colonne valide est renvoyé (l'index de colonne doit être dans l'ordre croissant pour que toutes les cellules d'une ligne soient enregistrées),

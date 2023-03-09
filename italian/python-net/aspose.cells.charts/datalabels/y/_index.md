@@ -14,7 +14,7 @@ Ottiene o imposta la coordinata y dell'angolo superiore sinistro in unità di 1/
 ###  Osservazioni
 
  Come convertire unità di 1/4000 in pixel?
-in pixel = Y * Chart.ChartObject.Height / 4000;
+Y in pixel = Y * Chart.ChartObject.Height / 4000;
 ###  Definizione:
 ```python
 @property

@@ -10,7 +10,7 @@ is_root: false
 ##  refer_to_sheet_with_same_name mülk
 
 Bir çalışma sayfasını başka bir çalışma kitabına kopyalarken ve çalışma sayfası MS Excel'deki diğer çalışma sayfalarına atıfta bulunan formülleri içeriyorsa,
- kopyalanan formüller kaynak çalışma kitabına başvurmalıdır.
+kopyalanan formüller kaynak çalışma kitabına başvurmalıdır.
 Ancak bazen başka çalışma sayfalarını kopyaladık ve kopyalanan formüllerin aynı çalışma kitabındaki diğer çalışma sayfalarına atıfta bulunduğunu umuyoruz.
 lütfen bu özelliği true olarak ayarlayın.
 

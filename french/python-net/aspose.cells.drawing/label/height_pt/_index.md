@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_pt propriété
 
-Représente la hauteur de la forme, en unité de points.
+Représente la hauteur de la forme, en unités de points.
 
-###  Exemple
+###  Exemples
 
 ```python
 

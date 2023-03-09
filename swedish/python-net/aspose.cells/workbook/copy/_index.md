@@ -18,7 +18,7 @@ def copy(self, source):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source | [Workbook](/cells/sv/python-net/aspose.cells/workbook) | Källarbetsboksobjekt.|
 
@@ -34,7 +34,7 @@ def copy(self, source, copy_options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source | [Workbook](/cells/sv/python-net/aspose.cells/workbook) | Källarbetsboksobjekt.|
 | copy_options | [CopyOptions](/cells/sv/python-net/aspose.cells/copyoptions) |  |

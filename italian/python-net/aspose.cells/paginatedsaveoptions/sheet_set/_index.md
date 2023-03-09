@@ -11,9 +11,9 @@ is_root: false
 
 Ottiene o imposta i fogli di cui eseguire il rendering. L'impostazione predefinita è tutti i fogli visibili nella cartella di lavoro: [SheetSet.visible](/cells/it/python-net/aspose.cells.rendering/sheetset#visible).
 
-###  Esempio
+###  Esempi
 
-Il codice seguente esegue il rendering solo del foglio attivo in pdf.
+Il codice seguente esegue il rendering solo dei fogli attivi in pdf.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

@@ -14,7 +14,7 @@ False especifica que el tamaño determinará el tamaño del área de trazado, la
 
 ###  Observaciones
 
-Solo para archivo Xlsx.
+Solo para archivos Xlsx.
 ###  Definición:
 ```python
 @property

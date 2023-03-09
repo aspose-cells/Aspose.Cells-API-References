@@ -22,7 +22,7 @@ def get_cell_by_index(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Pozisyon.|
 ###  Notlar

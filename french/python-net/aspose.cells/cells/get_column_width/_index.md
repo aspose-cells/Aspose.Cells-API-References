@@ -13,7 +13,7 @@ Obtient la largeur de la colonne spécifiée en mode normal
 
 ###  Retour
 
-Largeur de colonne
+Largeur des colonnes
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width(self, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column | int | Indice de colonne|
 

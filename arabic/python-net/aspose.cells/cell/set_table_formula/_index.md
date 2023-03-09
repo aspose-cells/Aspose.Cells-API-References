@@ -18,9 +18,9 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| row_number | int | عدد الصفوف لتعبئة الصيغة.|
+| row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
 | row_input_cell | str | خلية إدخال الصف|
 | column_input_cell | str | خلية إدخال العمود|
@@ -38,9 +38,9 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| row_number | int | عدد الصفوف لتعبئة الصيغة.|
+| row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
 | input_cell | str | خلية الإدخال|
 | is_row_input | bool | الإشارة إلى ما إذا كانت خلية الإدخال عبارة عن خلية إدخال صف (صواب) أو خلية إدخال عمود (خطأ).|
@@ -58,9 +58,9 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| row_number | int | عدد الصفوف لتعبئة الصيغة.|
+| row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
 | row_index_of_input_cell | int | فهرس صف خلية الإدخال|
 | column_index_of_input_cell | int | فهرس العمود لخلية الإدخال|
@@ -79,12 +79,12 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| row_number | int | عدد الصفوف لتعبئة الصيغة.|
+| row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
-| row_index_of_row_input_cell | int | فهرس الصف لخلية إدخال الصف|
-| column_index_of_row_input_cell | int |فهرس العمود لخلية إدخال الصف|
+| row_index_of_row_input_cell | int |فهرس الصف لخلية إدخال الصف|
+| column_index_of_row_input_cell | int | فهرس العمود لخلية إدخال الصف|
 | row_index_of_column_input_cell | int | فهرس الصف لخلية إدخال العمود|
 | column_index_of_column_input_cell | int | فهرس العمود لخلية إدخال العمود|
 | values | list | قيم الخلايا في نطاق صيغة الجدول|

@@ -13,7 +13,7 @@ Dosya açılırken tüm formüllerin yeniden hesaplanıp hesaplanmayacağını b
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.CalculateOnOpen'ı kullanın.
+NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.CalculateOnOpen kullanın.
  Bu mülk, Şubat 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

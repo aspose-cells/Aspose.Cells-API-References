@@ -37,13 +37,13 @@ is_root: false
 | [merge_areas](/cells/ru/python-net/aspose.cells/pptxsaveoptions/merge_areas) | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла.|
 | [create_directory](/cells/ru/python-net/aspose.cells/pptxsaveoptions/create_directory) | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла.|
 | [sort_names](/cells/ru/python-net/aspose.cells/pptxsaveoptions/sort_names) | Указывает, выполняется ли сортировка определенных имен перед сохранением файла.|
-| [sort_external_names](/cells/ru/python-net/aspose.cells/pptxsaveoptions/sort_external_names) | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
-| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/pptxsaveoptions/refresh_chart_cache) |Указывает, обновляются ли данные кэша диаграммы.|
-| [warning_callback](/cells/ru/python-net/aspose.cells/pptxsaveoptions/warning_callback) | Получает или задает обратный вызов предупреждения.|
+| [sort_external_names](/cells/ru/python-net/aspose.cells/pptxsaveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних имен перед сохранением файла.|
+| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/pptxsaveoptions/refresh_chart_cache) | Указывает, обновляются ли данные кэша диаграммы.|
+| [warning_callback](/cells/ru/python-net/aspose.cells/pptxsaveoptions/warning_callback) | Получает или задает обратные вызовы предупреждения.|
 | [update_smart_art](/cells/ru/python-net/aspose.cells/pptxsaveoptions/update_smart_art) | Указывает, обновляются ли настройки смарт-арта.<br/> Значение по умолчанию неверно.|
 | [default_font](/cells/ru/python-net/aspose.cells/pptxsaveoptions/default_font) | Когда символы в Excel имеют формат Unicode и для них не задан правильный шрифт в стиле ячейки,<br/>Они могут отображаться как блок в pdf, изображение.<br/>Установите DefaultFont, например MingLiu или MS Gothic, чтобы отображались эти символы.<br/> Если это свойство не установлено, Aspose.Cells будет использовать системный шрифт по умолчанию для отображения этих символов Юникода.|
 | [check_workbook_default_font](/cells/ru/python-net/aspose.cells/pptxsaveoptions/check_workbook_default_font) | Когда символы в Excel имеют формат Unicode и для них не задан правильный шрифт в стиле ячейки,<br/>Они могут отображаться как блок в pdf, изображение.<br/> Установите для этого параметра значение true, чтобы попытаться использовать шрифт рабочей книги по умолчанию для отображения этих символов в первую очередь.|
-| [check_font_compatibility](/cells/ru/python-net/aspose.cells/pptxsaveoptions/check_font_compatibility) | Указывает, следует ли проверять совместимость шрифтов для каждого символа в тексте.|
+| [check_font_compatibility](/cells/ru/python-net/aspose.cells/pptxsaveoptions/check_font_compatibility) |Указывает, следует ли проверять совместимость шрифтов для каждого символа в тексте.|
 | [is_font_substitution_char_granularity](/cells/ru/python-net/aspose.cells/pptxsaveoptions/is_font_substitution_char_granularity) | Указывает, следует ли заменять шрифт символа только в том случае, если шрифт ячейки несовместим с ним.|
 | [one_page_per_sheet](/cells/ru/python-net/aspose.cells/pptxsaveoptions/one_page_per_sheet) | Если OnePagePerSheet имеет значение true , все содержимое одного листа будет выводиться только на одну страницу в результате.<br/> Размер бумаги в pagesetup будет неверным, а другие настройки pagesetup<br/> все равно вступит в силу.|
 | [all_columns_in_one_page_per_sheet](/cells/ru/python-net/aspose.cells/pptxsaveoptions/all_columns_in_one_page_per_sheet) | Если AllColumnsInOnePagePerSheet имеет значение true , все содержимое столбцов одного листа будет выведено только на одну страницу в результате.<br/> Ширина размера бумаги pagesetup будет игнорироваться, а другие настройки pagesetup<br/> все равно вступит в силу.|
@@ -57,7 +57,7 @@ is_root: false
 | [default_edit_language](/cells/ru/python-net/aspose.cells/pptxsaveoptions/default_edit_language) | Получает или задает язык редактирования по умолчанию.|
 | [sheet_set](/cells/ru/python-net/aspose.cells/pptxsaveoptions/sheet_set) |Получает или задает листы для отображения. По умолчанию все видимые листы в книге: [SheetSet.visible](/cells/ru/python-net/aspose.cells.rendering/sheetset#visible).|
 | [draw_object_event_handler](/cells/ru/python-net/aspose.cells/pptxsaveoptions/draw_object_event_handler) | Реализует этот интерфейс для получения DrawObject и Bound при рендеринге.|
-| [page_saving_callback](/cells/ru/python-net/aspose.cells/pptxsaveoptions/page_saving_callback) |Управление/указание хода процесса сохранения страницы.|
+| [page_saving_callback](/cells/ru/python-net/aspose.cells/pptxsaveoptions/page_saving_callback) | Управление/указание хода процесса сохранения страницы.|
 
 
 

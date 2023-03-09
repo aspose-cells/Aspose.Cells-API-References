@@ -21,7 +21,7 @@ def __init__(self):
 ###  Remarques
 
 Le type de format de fichier par défaut est Xlsx. Pour créer un autre type de fichier de format, veuillez utiliser Workbook(FileFormatType).
-###  Exemple
+###  Exemples
 
 
 Le code suivant montre comment utiliser le constructeur Workbook pour créer et initialiser une nouvelle instance de la classe.
@@ -45,13 +45,13 @@ def __init__(self, file_format_type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | file_format_type | [FileFormatType](/cells/fr/python-net/aspose.cells/fileformattype) | Le nouveau format de fichier.|
 ###  Remarques
 
 Le type de format de fichier par défaut est Excel97To2003.
-###  Exemple
+###  Exemples
 
 
 Le code suivant montre comment utiliser le constructeur Workbook pour créer et initialiser une nouvelle instance de la classe.
@@ -75,7 +75,7 @@ def __init__(self, file):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | file | str | Le nom du fichier.|
 
@@ -91,7 +91,7 @@ def __init__(self, stream):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux.|
 
@@ -107,10 +107,10 @@ def __init__(self, file, load_options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | file | str | Le nom du fichier.|
-| load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de chargement|
+| load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de charge|
 
 
 ##  Workbook(stream, load_options) {#io.RawIOBase-LoadOptions}
@@ -124,10 +124,10 @@ def __init__(self, stream, load_options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux.|
-| load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de chargement|
+| load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de charge|
 
 
 

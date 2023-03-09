@@ -17,7 +17,7 @@ Der Typ IconFilter macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [icon_set_type](/cells/de/python-net/aspose.cells/iconfilter/icon_set_type) | Ruft ab und legt fest, welcher Symbolsatz in den Filterkriterien verwendet wird.|
+| [icon_set_type](/cells/de/python-net/aspose.cells/iconfilter/icon_set_type) |Ruft ab und legt fest, welcher Symbolsatz in den Filterkriterien verwendet wird.|
 | [icon_id](/cells/de/python-net/aspose.cells/iconfilter/icon_id) | Ruft den nullbasierten Index eines Symbols in einem Symbolsatz ab und legt diesen fest.|
 
 

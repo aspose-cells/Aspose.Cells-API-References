@@ -1,6 +1,6 @@
 ﻿---
 title: subtotal方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 920
@@ -18,7 +18,7 @@ def subtotal(self, ca, group_by, function, total_list):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | ca | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |范围|
 | group_by | int |分组依据的字段，作为从零开始的整数偏移量|
@@ -37,13 +37,13 @@ def subtotal(self, ca, group_by, function, total_list, replace, page_breaks, sum
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | ca | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |范围|
 | group_by | int |分组依据的字段，作为从零开始的整数偏移量|
 | function | [ConsolidationFunction](/cells/zh/python-net/aspose.cells/consolidationfunction) |小计函数。|
 | total_list | list |从零开始的字段偏移量的数组，指示要添加小计的字段。|
-| replace | bool |表示是否替换当前小计|
+| replace | bool |指示是否替换当前小计|
 | page_breaks | bool |表示组间是否加分页符|
 | summary_below_data | bool |指示是否在数据下方添加摘要。|
 

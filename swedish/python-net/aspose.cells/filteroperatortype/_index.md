@@ -18,11 +18,11 @@ Typen FilterOperatorType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | LESS_OR_EQUAL | Representerar LessOrEqual-operatör.|
-| LESS_THAN | Representerar LessThan-operatören.|
+| LESS_THAN | Representerar mindre än operatör.|
 | EQUAL | Representerar Equal-operatör.|
-| GREATER_THAN | Representerar GreaterThan-operatören.|
+| GREATER_THAN | Representerar Greater Than-operatören.|
 | NOT_EQUAL | Representerar NotEqual-operatör.|
-| GREATER_OR_EQUAL | Representerar GreaterOrEqual-operatören.|
+| GREATER_OR_EQUAL | Representerar större eller lika operatör.|
 | NONE | Representerar ingen jämförelse.|
 | BEGINS_WITH | Börjar med texten.|
 | ENDS_WITH |Avslutar med texten.|

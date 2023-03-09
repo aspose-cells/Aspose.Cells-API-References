@@ -1,6 +1,6 @@
 ﻿---
 title: calculate方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def calculate(self, data):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | data | [CalculationData](/cells/zh/python-net/aspose.cells/calculationdata) |计算函数所需的数据，例如函数名称、参数等。|
 ### 评论

@@ -18,10 +18,10 @@ def import_array_list(self, array_list, first_row, first_column, is_vertical):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | array_list | list | Elenco di array di dati.|
-| first_row | int |Il numero di riga della prima cella in cui importare.|
+| first_row | int | Il numero di riga della prima cella in cui importare.|
 | first_column | int | Il numero di colonna della prima cella in cui importare.|
 | is_vertical | bool | Specifica di importare i dati verticalmente o orizzontalmente.|
 

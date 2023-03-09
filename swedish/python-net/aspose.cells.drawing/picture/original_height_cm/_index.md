@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  original_height_cm fastighet
 
-Får bildens ursprungliga höjd, i centimeterenhet.
+Hämtar bildens ursprungliga höjd, i enheter av centimeter.
 
 ###  Exempel
 

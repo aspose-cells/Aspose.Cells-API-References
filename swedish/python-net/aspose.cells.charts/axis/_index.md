@@ -23,7 +23,7 @@ Typen Axis avslöjar följande medlemmar:
 | [is_automatic_max_value](/cells/sv/python-net/aspose.cells.charts/axis/is_automatic_max_value) | Indikerar om maxvärdet tilldelas automatiskt.|
 | [max_value](/cells/sv/python-net/aspose.cells.charts/axis/max_value) | Representerar det maximala värdet på värdeaxeln.|
 | [is_automatic_major_unit](/cells/sv/python-net/aspose.cells.charts/axis/is_automatic_major_unit) | Indikerar om axelns huvudenhet tilldelas automatiskt.|
-| [major_unit](/cells/sv/python-net/aspose.cells.charts/axis/major_unit) | Representerar huvudenheterna för axeln.|
+| [major_unit](/cells/sv/python-net/aspose.cells.charts/axis/major_unit) |Representerar huvudenheterna för axeln.|
 | [is_automatic_minor_unit](/cells/sv/python-net/aspose.cells.charts/axis/is_automatic_minor_unit) | Indikerar om axelns mindre enhet tilldelas automatiskt.|
 | [minor_unit](/cells/sv/python-net/aspose.cells.charts/axis/minor_unit) | Representerar de mindre enheterna för axeln.|
 | [axis_line](/cells/sv/python-net/aspose.cells.charts/axis/axis_line) | Får utseendet av en Axis.|
@@ -32,14 +32,14 @@ Typen Axis avslöjar följande medlemmar:
 | [tick_label_position](/cells/sv/python-net/aspose.cells.charts/axis/tick_label_position) | Representerar positionen för bockmarkeringsetiketter på den angivna axeln.|
 | [cross_at](/cells/sv/python-net/aspose.cells.charts/axis/cross_at) | Representerar den punkt på värdeaxeln där kategoriaxeln korsar den.|
 | [cross_type](/cells/sv/python-net/aspose.cells.charts/axis/cross_type) | Representerar [Axis.cross_type](/cells/sv/python-net/aspose.cells.charts/axis#cross_type) på den angivna axeln där den andra axeln korsar.|
-| [log_base](/cells/sv/python-net/aspose.cells.charts/axis/log_base) |Representerar den logaritmiska basen. Standardvärdet är 10. Gäller endast Excel2007.|
+| [log_base](/cells/sv/python-net/aspose.cells.charts/axis/log_base) | Representerar den logaritmiska basen. Standardvärdet är 10. Gäller endast Excel2007.|
 | [is_logarithmic](/cells/sv/python-net/aspose.cells.charts/axis/is_logarithmic) | Representerar om skaltypen för värdeaxeln är logaritmisk eller inte.|
 | [is_plot_order_reversed](/cells/sv/python-net/aspose.cells.charts/axis/is_plot_order_reversed) | Representerar om Microsoft Excel plottar datapunkter från sist till första.|
 | [axis_between_categories](/cells/sv/python-net/aspose.cells.charts/axis/axis_between_categories) | Representerar om värdeaxeln korsar kategoriaxeln mellan kategorier.|
 | [tick_labels](/cells/sv/python-net/aspose.cells.charts/axis/tick_labels) | Returnerar ett [Axis.tick_labels](/cells/sv/python-net/aspose.cells.charts/axis#tick_labels)-objekt som representerar tick-mark-etiketterna för den angivna axeln.|
-| [tick_label_spacing](/cells/sv/python-net/aspose.cells.charts/axis/tick_label_spacing) | Representerar antalet kategorier eller serier mellan bockmarkeringsetiketter. Gäller endast kategori- och serieaxlar.|
+| [tick_label_spacing](/cells/sv/python-net/aspose.cells.charts/axis/tick_label_spacing) |Representerar antalet kategorier eller serier mellan bockmarkeringsetiketter.|
 | [is_auto_tick_label_spacing](/cells/sv/python-net/aspose.cells.charts/axis/is_auto_tick_label_spacing) | Indikerar om avståndet mellan bocketiketten är automatiskt|
-| [tick_mark_spacing](/cells/sv/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Returnerar eller ställer in antalet kategorier eller serier mellan bockmarkeringar. Gäller endast kategori- och serieaxlar.|
+| [tick_mark_spacing](/cells/sv/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Returnerar eller ställer in antalet kategorier eller serier mellan bockmarkeringar.|
 | [display_unit](/cells/sv/python-net/aspose.cells.charts/axis/display_unit) | Representerar enhetsetiketten för den angivna axeln.|
 | [cust_unit](/cells/sv/python-net/aspose.cells.charts/axis/cust_unit) | Anger ett anpassat värde för visningsenheten.|
 | [custom_unit](/cells/sv/python-net/aspose.cells.charts/axis/custom_unit) | Anger ett anpassat värde för visningsenheten.|
@@ -53,9 +53,9 @@ Typen Axis avslöjar följande medlemmar:
 | [is_visible](/cells/sv/python-net/aspose.cells.charts/axis/is_visible) | Representerar om axeln är synlig.|
 | [major_grid_lines](/cells/sv/python-net/aspose.cells.charts/axis/major_grid_lines) | Representerar stora rutnät på en diagramaxel.|
 | [minor_grid_lines](/cells/sv/python-net/aspose.cells.charts/axis/minor_grid_lines) | Representerar mindre rutnät på en diagramaxel.|
-| [has_multi_level_labels](/cells/sv/python-net/aspose.cells.charts/axis/has_multi_level_labels) | Anger om etiketterna ska visas som flernivåer.|
-| [axis_labels](/cells/sv/python-net/aspose.cells.charts/axis/axis_labels) | Hämtar etiketterna för axeln efter anropet Chart.Calculate()-metoden.|
-| [bins](/cells/sv/python-net/aspose.cells.charts/axis/bins) | Representerar fack på en diagram(Histogram/Pareto) axel|
+| [has_multi_level_labels](/cells/sv/python-net/aspose.cells.charts/axis/has_multi_level_labels) |Anger om etiketterna ska visas som flernivåer.|
+| [axis_labels](/cells/sv/python-net/aspose.cells.charts/axis/axis_labels) | Hämtar beteckningarna för axeln efter anrop av metoden Chart.Calculate().|
+| [bins](/cells/sv/python-net/aspose.cells.charts/axis/bins) | Representerar fack på en diagramaxel (Histogram/Pareto).|
 
 
 

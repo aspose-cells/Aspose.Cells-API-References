@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  x_values Eigentum
 
-Repräsentiert die x-Werte der Diagrammreihe.
+Stellt die x-Werte der Diagrammreihe dar.
 ###  Definition:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_angle_axes mülk
 
-Grafik eksenleri dik açıdaysa doğrudur. Yalnızca 3-B grafikler için geçerlidir (Column3D ve 3-B Pasta Grafikler hariç).
+Grafik eksenleri dik açıdaysa doğrudur. Yalnızca 3-B grafikler için geçerlidir (Column3D ve 3-D Pasta Grafikler hariç).
 
 ###  Notlar
 

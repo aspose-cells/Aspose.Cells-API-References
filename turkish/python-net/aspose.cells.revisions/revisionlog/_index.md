@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionLog sınıf
+title: RevisionLog sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 130
 url: /tr/python-net/aspose.cells.revisions/revisionlog/
 is_root: false
 ---
-##  RevisionLog sınıf
+##  RevisionLog sınıfı
 Revizyon günlüğünü temsil eder.
 
 

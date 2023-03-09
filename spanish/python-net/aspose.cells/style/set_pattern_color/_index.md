@@ -18,11 +18,11 @@ def set_pattern_color(self, pattern, color1, color2):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | pattern | [BackgroundType](/cells/es/python-net/aspose.cells/backgroundtype) | El patrón.|
 | color1 | aspose.pydrawing.Color | El color de primer plano.|
-| color2 | aspose.pydrawing.Color |El color de fondo. Solo funciona cuando el patrón no es BackgroundType.None ni BackgroundType.Solid.|
+| color2 | aspose.pydrawing.Color | El color de fondo Solo funciona cuando el patrón no es BackgroundType.None ni BackgroundType.Solid.|
 
 
 

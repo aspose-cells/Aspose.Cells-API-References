@@ -13,7 +13,7 @@ Resim için brightness değişikliğini yüzde birimi cinsinden temsil eder.
 
 ###  Notlar
 
--%100 ile %100 arasındadır. Excel 2007 veya üzeri sürümlerle aynı şekilde çalışır.
+-%100 ile %100 arasındadır.
 ###  Tanım:
 ```python
 @property

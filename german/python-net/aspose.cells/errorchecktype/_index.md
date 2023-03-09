@@ -20,7 +20,7 @@ Der Typ ErrorCheckType macht die folgenden Member verfügbar:
 | CALC | auf Rechenfehler prüfen|
 | EMPTY_CELL_REF | Suchen Sie nach Verweisen auf leere Zellen|
 | TEXT_NUMBER | Überprüfen Sie das Format der numerischen Werte|
-| INCONSIST_RANGE |Überprüfen Sie Formeln mit Verweisen auf weniger als die Gesamtheit<br/> eines Bereichs, der fortlaufende Daten enthält|
+| INCONSIST_RANGE | Überprüfen Sie Formeln mit Verweisen auf weniger als die Gesamtheit<br/> eines Bereichs, der fortlaufende Daten enthält|
 | INCONSIST_FORMULA | Überprüfen Sie Formeln, die nicht mit Formeln in benachbarten Zellen übereinstimmen.|
 | TEXT_DATE | Überprüfen Sie das Format der Datums-/Uhrzeitwerte|
 | UNPROCTED_FORMULA | Suchen Sie nach ungeschützten Formeln|

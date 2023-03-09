@@ -27,9 +27,9 @@ ControlPicturePositionType türü aşağıdaki üyeleri gösterir:
 | ABOVE_CENTER | Resim, başlığın üzerinde görünür.<br/> Başlık, resmin altında ortalanır.|
 | ABOVE_RIGHT | Resim, başlığın üzerinde görünür.<br/> Başlık, resmin sağ kenarıyla hizalanır.|
 | BELOW_LEFT | Resim, başlığın altında görünür.<br/> Başlık, resmin sol kenarıyla hizalanır.|
-| BELOW_CENTER | Resim, başlığın altında görünür.<br/> Başlık, resmin üzerinde ortalanır.|
+| BELOW_CENTER | Resim, başlığın altında görünür.<br/>Başlık, resmin üzerinde ortalanır.|
 | BELOW_RIGHT | Resim, başlığın altında görünür.<br/> Başlık, resmin sağ kenarıyla hizalanır.|
-| CENTER | Resim, kontrolün ortasında görünür.<br/>Başlık, resmin üstünde yatay ve dikey olarak ortalanır.|
+| CENTER | Resim, kontrolün ortasında görünür.<br/> Resim yazısı, resmin üst kısmında yatay ve dikey olarak ortalanır.|
 
 
 

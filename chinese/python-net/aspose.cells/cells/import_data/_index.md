@@ -1,6 +1,6 @@
 ﻿---
 title: import_data方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 650
@@ -22,7 +22,7 @@ def import_data(self, table, first_row, first_column, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | table | [ICellsDataTable](/cells/zh/python-net/aspose.cells/icellsdatatable) |自定义数据表。|
 | first_row | int |第一行索引。|

@@ -18,7 +18,7 @@ def add_designer_storage(self, name, data):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | name | str |  |
 | data | bytes |  |

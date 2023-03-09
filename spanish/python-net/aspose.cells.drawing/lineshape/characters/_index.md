@@ -13,7 +13,7 @@ Devuelve un objeto Characters que representa un rango de characters dentro del t
 
 ###  Devoluciones
 
-Objeto de los personajes.
+Objetos de carácter.
 
 
 ```python
@@ -22,14 +22,14 @@ def characters(self, start_index, length):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | start_index | int | El índice del inicio del carácter.|
 | length | int | El número de caracteres.|
 ###  Observaciones
 
 Este método solo funciona en forma con título.
-###  Ejemplo
+###  Ejemplos
 
 
 ```python

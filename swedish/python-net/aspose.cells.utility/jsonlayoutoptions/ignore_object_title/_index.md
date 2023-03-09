@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_object_title fastighet
 
-Indikerar om ignorera titel om objekt är en egenskap hos objekt.
+Indikerar om titel ska ignoreras om objekt är en egenskap hos objekt.
 
 ###  Anmärkningar
 

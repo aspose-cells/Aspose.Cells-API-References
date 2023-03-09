@@ -11,7 +11,7 @@ is_root: false
 
 يمثل مقياس الوحدة الرئيسية لمحور الفئة.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

@@ -25,11 +25,11 @@ def add(self, upper_left_row, upper_left_column, height, width):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | height | int | Höhe des Textfelds in Pixeleinheiten.|
 | width | int | Breite des Textfelds in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

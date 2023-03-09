@@ -1,6 +1,6 @@
 ﻿---
 title: set_shared_formula方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 330
@@ -18,7 +18,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | shared_formula | str |共享公式。|
 | row_number | int |填充公式的行数。|
@@ -39,7 +39,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | shared_formula | str |共享公式。|
 | row_number | int |填充公式的行数。|
@@ -58,7 +58,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | shared_formula | str |共享公式。|
 | row_number | int |填充公式的行数。|
@@ -67,7 +67,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 | is_local | bool |公式是否为语言环境格式|
 ### 评论
 
-注意：此类现在已过时。反而，
+注意：此类现在已过时。
 请使用 Cell.SetSharedFormula(string,int,int,FormulaParseOptions)。
 自 2019 年 12 月起 12 个月后，此属性将被删除。
 Aspose 对您可能遇到的任何不便深表歉意。
@@ -83,7 +83,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | shared_formula | str |共享公式。|
 | row_number | int |填充公式的行数。|

@@ -14,7 +14,7 @@ Der Bereich der zu exportierenden Zellen.
 ###  Bemerkungen
 
 Wenn das exportierte Gebiet angegeben wurde, [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/de/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-Wille hat keine Wirkung.
+wird keine Wirkung zeigen.
 ###  Definition:
 ```python
 @property

@@ -15,7 +15,7 @@ Obtiene y establece la identificación del proveedor de la firma.
 
 Por lo general, es el CLSID del complemento com del proveedor.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import SignatureLine

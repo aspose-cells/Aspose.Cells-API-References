@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/chartglobalizationsettings/get_series_na
 is_root: false
 ---
 ##  get_series_name() {#}
-Obtiene el nombre de la serie en el gráfico.
+Obtiene el nombre de la Serie en el Gráfico.
 
 
 ###  Devoluciones

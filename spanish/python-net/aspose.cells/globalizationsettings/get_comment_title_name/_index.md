@@ -22,7 +22,7 @@ def get_comment_title_name(self, type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | type | aspose.cells.rendering.CommentTitleType |  |
 

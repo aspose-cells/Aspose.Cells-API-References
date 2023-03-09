@@ -27,7 +27,7 @@ def process_cell(self, cell):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | cell | [Cell](/cells/es/python-net/aspose.cells/cell) | Cell objeto que se está procesando actualmente|
 ###  Observaciones

@@ -18,7 +18,7 @@ def merge_files(self, files, cached_file, dest_file):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | files | list | Los archivos.|
 | cached_file | str | El archivo en caché.|

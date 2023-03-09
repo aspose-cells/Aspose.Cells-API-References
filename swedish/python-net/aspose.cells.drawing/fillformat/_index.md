@@ -17,7 +17,7 @@ Typen FillFormat avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [type](/cells/sv/python-net/aspose.cells.drawing/fillformat/type) | Hämtar och ställer in fyllningstypen.|
+| [type](/cells/sv/python-net/aspose.cells.drawing/fillformat/type) |Hämtar och ställer in fyllningstypen.|
 | [fill_type](/cells/sv/python-net/aspose.cells.drawing/fillformat/fill_type) | Hämtar och ställer in fyllningstyp|
 | [transparency](/cells/sv/python-net/aspose.cells.drawing/fillformat/transparency) | Returnerar eller ställer in graden av transparens för området som ett värde från 0,0 (opak) till 1,0 (ren).|
 | [set_type](/cells/sv/python-net/aspose.cells.drawing/fillformat/set_type) | Hämtar uppsättningstypen för fyllningsformat.|

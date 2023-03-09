@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.charts/walls/get_cube_point_x_px/
 is_root: false
 ---
 ##  get_cube_point_x_px(index) {#int}
-Получает x-координату точки вершины куба стен после вызова метода Chart.Calculate().
+Получает x-координаты точки вершины куба стен после вызова метода Chart.Calculate().
 Количество вершин куба стен равно восьми.
 
 
@@ -19,7 +19,7 @@ def get_cube_point_x_px(self, index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | index | int |  |
 

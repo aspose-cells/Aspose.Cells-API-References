@@ -18,7 +18,7 @@ def move_to(self, dest_row, dest_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | dest_row | int | Hedef aralığın başlangıç satırı.|
 | dest_column | int | Hedef aralığın başlangıç sütunu.|

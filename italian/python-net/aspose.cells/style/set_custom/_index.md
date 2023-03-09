@@ -18,9 +18,9 @@ def set_custom(self, custom, builtin_preference):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| custom | str | Stringa di formato numerico personalizzata, dovrebbe essere un modello InvariantCulture.|
+| custom | str | Stringa di formato numerico personalizzato, deve essere un modello di cultura invariante.|
 | builtin_preference | bool | Se specificata, la stringa di formato numerico personalizzato corrisponde a uno dei formati numerici incorporati<br/> corrispondente alle attuali impostazioni internazionali, se impostare il formato numerico come integrato invece di Personalizzato.|
 
 

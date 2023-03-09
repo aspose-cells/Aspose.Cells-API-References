@@ -11,7 +11,7 @@ is_root: false
 
 Yorumun metin yönlendirme türünü alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import TextOrientationType

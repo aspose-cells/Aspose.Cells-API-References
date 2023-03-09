@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene lo data dell'immagine.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

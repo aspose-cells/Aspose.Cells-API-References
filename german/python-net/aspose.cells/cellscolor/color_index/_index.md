@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index Eigentum
 
-Ruft den Farbindex in der Farbpalette ab und legt ihn fest. Gilt nur für indizierte Farbe.
+Ruft den Farbindex in der Farbpalette ab und legt ihn fest.
 ###  Definition:
 ```python
 @property

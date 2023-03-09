@@ -1,6 +1,6 @@
 ﻿---
 title: add_text_effect_in_chart方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 340
@@ -22,7 +22,7 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/zh/python-net/aspose.cells.drawing/msopresettexteffect) | mso 预设文字效果类型。|
 | text | str |艺术字文本。|

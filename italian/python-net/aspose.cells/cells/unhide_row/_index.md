@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/cells/unhide_row/
 is_root: false
 ---
 ##  unhide_row(row, height) {#int-float}
-Mostra una riga.
+Scopri una riga.
 
 
 
@@ -18,10 +18,10 @@ def unhide_row(self, row, height):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga.|
-| height | float | Altezza della riga. L'altezza della riga verrà modificata solo quando la riga è nascosta e il valore dell'altezza dato è positivo.|
+| height | float | Altezza della riga L'altezza della riga verrà modificata solo quando la riga è nascosta e il valore dell'altezza dato è positivo.|
 
 
 

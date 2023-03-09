@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width mülk
 
-Nokta birimi cinsinden pencerenin genişliği.
+Pencerenin nokta birimi cinsinden genişliği.
 ###  Tanım:
 ```python
 @property

@@ -22,9 +22,9 @@ def get_param_text(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| index | int | parametre indeksi(0 tabanlı)|
+| index | int | parametre indeksi (0 tabanlı)|
 
 
 

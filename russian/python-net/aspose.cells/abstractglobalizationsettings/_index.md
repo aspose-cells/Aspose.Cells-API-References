@@ -17,7 +17,7 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [compare(v1, v2, ignore_case)](/cells/ru/python-net/aspose.cells/abstractglobalizationsettings/compare/#str-str-bool) | Сравнивает два строковых значения в соответствии с определенными правилами сортировки.|
+| [compare(v1, v2, ignore_case)](/cells/ru/python-net/aspose.cells/abstractglobalizationsettings/compare/#str-str-bool) | Сравнивает два строковых значения по определенным правилам сопоставления.|
 
 
 

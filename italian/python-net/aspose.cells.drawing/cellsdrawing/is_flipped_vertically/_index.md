@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta se la forma viene capovolta verticalmente.
 
-###  Esempio
+###  Esempi
 
 ```python
 

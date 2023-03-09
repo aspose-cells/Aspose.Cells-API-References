@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hi_lo_lines propiedad
 
- Devuelve un objeto HiLoLines que representa las líneas máximas y mínimas de una serie en un gráfico de líneas.
+Devuelve un objeto HiLoLines que representa las líneas máximas y mínimas de una serie en un gráfico de líneas.
 Se aplica solo a los gráficos de líneas.
 ###  Definición:
 ```python

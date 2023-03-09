@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/
 is_root: false
 ---
 ##  DigitalSignature(raw_data, password, comments, sign_time) {#bytes-str-str-DateTime}
-Konstrukteur von digitalSignature. Verwendet die Hüpfburg-Implementierung.
+Konstrukteur der digitalen Signatur Verwendet die Hüpfburg-Implementierung.
 
 
 

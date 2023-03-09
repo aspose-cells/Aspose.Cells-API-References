@@ -15,7 +15,7 @@ Indica si la forma es arte inteligente.
 
 Solo para archivos ooxml.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

@@ -18,7 +18,7 @@ def selected_item(self, item_index, is_selected):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | item_index | int | Artikelindex|
 | is_selected | bool | Om objektet är valt.<br/>True betyder att detta objekt ska väljas.<br/> False betyder att det här objektet ska avmarkeras.|

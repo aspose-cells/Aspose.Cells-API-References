@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name propiedad
 
-Obtiene y establece el nombre de la fuente.
+Obtener y establecer el nombre de la fuente.
 ###  Definición:
 ```python
 @property

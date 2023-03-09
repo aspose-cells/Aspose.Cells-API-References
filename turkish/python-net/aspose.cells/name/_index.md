@@ -1,5 +1,5 @@
 ﻿---
-title: Name sınıf
+title: Name sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1070
 url: /tr/python-net/aspose.cells/name/
 is_root: false
 ---
-##  Name sınıf
+##  Name sınıfı
 Bir hücre aralığı için tanımlanmış bir adı temsil eder.
 
 
@@ -22,7 +22,7 @@ Name türü aşağıdaki üyeleri gösterir:
 | [full_text](/cells/tr/python-net/aspose.cells/name/full_text) | Kapsam ayarı ile nesnenin adını tam metnini alır.|
 | [refers_to](/cells/tr/python-net/aspose.cells/name/refers_to) | Adın başvurmak üzere tanımlandığı formülü, eşittir işaretiyle başlayarak döndürür veya ayarlar.|
 | [r1c1_refers_to](/cells/tr/python-net/aspose.cells/name/r1c1_refers_to) | [Name](/cells/tr/python-net/aspose.cells/name)'in bir R1C1 referansını alır veya ayarlar.|
-| [is_referred](/cells/tr/python-net/aspose.cells/name/is_referred) | Bu adın diğer formüller tarafından başvuruda bulunup bulunmadığını gösterir.|
+| [is_referred](/cells/tr/python-net/aspose.cells/name/is_referred) | Bu ada başka formüller tarafından atıfta bulunulup bulunulmadığını gösterir.|
 | [is_visible](/cells/tr/python-net/aspose.cells/name/is_visible) | Adın görünür olup olmadığını gösterir.|
 | [sheet_index](/cells/tr/python-net/aspose.cells/name/sheet_index) | Bu adın Çalışma Kitabı veya Çalışma Sayfasına ait olduğunu gösterir.<br/> 0 = Genel ad, aksi takdirde dizinden sayfaya (tek tabanlı)|
 
@@ -32,8 +32,8 @@ Name türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [get_refers_to(is_r1c1, is_local)](/cells/tr/python-net/aspose.cells/name/get_refers_to/#bool-bool) | Bu İsmin referansını alın.|
 | [get_refers_to(is_r1c1, is_local, row, column)](/cells/tr/python-net/aspose.cells/name/get_refers_to/#bool-bool-int-int) | Belirtilen hücreye göre bu Adın referansını alın.|
-| [get_ranges()](/cells/tr/python-net/aspose.cells/name/get_ranges/#) | Bu adla anılan tüm aralıkları alır.|
-| [get_ranges(recalculate)](/cells/tr/python-net/aspose.cells/name/get_ranges/#bool) | Bu adla anılan tüm aralıkları alır.|
+| [get_ranges()](/cells/tr/python-net/aspose.cells/name/get_ranges/#) |Bu adla anılan tüm aralıkları alır.|
+| [get_ranges(recalculate)](/cells/tr/python-net/aspose.cells/name/get_ranges/#bool) |Bu adla anılan tüm aralıkları alır.|
 | [get_range()](/cells/tr/python-net/aspose.cells/name/get_range/#) | Bu ad bir aralığa başvuruyorsa aralığı alır.|
 | [get_range(recalculate)](/cells/tr/python-net/aspose.cells/name/get_range/#bool) | Bu ad bir aralığa başvuruyorsa aralığı alır|
 | [get_range(sheet_index, row, column)](/cells/tr/python-net/aspose.cells/name/get_range/#int-int-int) | Bu ad bir aralığa başvuruyorsa aralığı alır.<br/> Bu ismin referansı mutlak değilse, aralık farklı hücreler için farklı olabilir.|
@@ -42,7 +42,7 @@ Name türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

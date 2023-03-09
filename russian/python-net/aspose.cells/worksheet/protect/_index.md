@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/ru/python-net/aspose.cells/protectiontype) | Тип защиты.|
 ###  Примечания
 
-Этот метод защищает рабочий лист без пароля. Он может protect рабочий лист во всех версиях файла Excel.
+Этот метод защищает рабочий лист без пароля.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/ru/python-net/aspose.cells/protectiontype) | Тип защиты.|
 | password | str | Пароль.|
@@ -45,7 +45,7 @@ def protect(self, type, password, old_password):
 ###  Примечания
 
 Этот метод может работать с рабочим листом protect во всех версиях файла Excel.
-###  Пример
+###  Примеры
 
 
 ```python

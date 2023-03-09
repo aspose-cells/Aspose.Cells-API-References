@@ -18,7 +18,7 @@ def replace(self, old_string, new_string):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | old_string | str | قيمة السلسلة القديمة.|
 | new_string | str | قيمة سلسلة جديدة.|

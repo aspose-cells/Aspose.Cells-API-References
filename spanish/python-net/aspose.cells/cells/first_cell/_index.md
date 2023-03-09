@@ -13,7 +13,7 @@ Obtiene la primera celda de esta hoja de trabajo.
 
 ###  Observaciones
 
-Devuelve nulo si no hay datos en la hoja de cálculo.
+Devuelve nulo si no hay datos en la hoja de trabajo.
 ###  Definición:
 ```python
 @property

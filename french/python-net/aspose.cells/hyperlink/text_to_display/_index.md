@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display propriété
 
-Représente le texte à afficher pour le lien hypertexte spécifié. La valeur par défaut est l'adresse du lien hypertexte.
+Représente le texte à afficher pour le lien hypertexte spécifié.
 ###  Définition:
 ```python
 @property

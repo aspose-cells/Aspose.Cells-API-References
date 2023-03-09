@@ -1,6 +1,6 @@
 ﻿---
 title: text_rendering_hint 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 330
@@ -10,7 +10,7 @@ is_root: false
 ## text_rendering_hint 属性
 
 指定文本呈现的质量。
-默认值为 TextRenderingHint.SystemDefault
+默认值为 TextRenderingHint。
 ### 定义：
 ```python
 @property

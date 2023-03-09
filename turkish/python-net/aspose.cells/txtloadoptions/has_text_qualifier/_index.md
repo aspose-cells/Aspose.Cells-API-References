@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_text_qualifier mülk
 
-Hücre değeri için metin niteleyici olup olmadığı. Varsayılan doğrudur.
+Hücre değeri için metin niteleyici olup olmadığı. Varsayılan değer true'dur.
 ###  Tanım:
 ```python
 @property

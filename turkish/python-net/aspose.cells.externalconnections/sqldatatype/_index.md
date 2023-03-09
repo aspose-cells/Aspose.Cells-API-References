@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ##  SqlDataType numaralandırma
-Parametrenin SQL veri türünü belirtir. Yalnızca ODBC kaynakları için geçerlidir.
+Parametrenin SQL veri türünü belirtir.
 
 
 
@@ -19,14 +19,14 @@ SqlDataType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | sql işaretsiz ofset|
 | SQL_SIGNED_OFFSET | sql imzalı ofset|
-| SQL_GUID | sql kılavuzu|
+| SQL_GUID | sql kılavuzları|
 | SQL_W_LONG_VARCHAR | sql geniş uzun değişken karakter|
 | SQL_W_VARCHAR | sql geniş değişken karakter|
 | SQL_W_CHAR | sql geniş karakter|
 | SQL_BIT | sql biti|
 | SQL_TINY_INT | sql küçük int|
 | SQL_BIG_INT | sql büyük int|
-| SQL_LONG_VAR_BINARY | sql uzun değişken ikili|
+| SQL_LONG_VAR_BINARY |sql uzun değişken ikili|
 | SQL_VAR_BINARY | sql değişken ikili|
 | SQL_BINARY | sql ikili|
 | SQL_LONG_VAR_CHAR | sql uzun değişken karakter|
@@ -52,7 +52,7 @@ SqlDataType türü aşağıdaki üyeleri gösterir:
 | SQL_INTERVAL_YEAR_TO_MONTH | yıldan aya sql aralığı|
 | SQL_INTERVAL_DAY_TO_HOUR | günden saate sql aralığı|
 | SQL_INTERVAL_DAY_TO_MINUTE | günden dakikaya sql aralığı|
-| SQL_INTERVAL_DAY_TO_SECOND |günden saniyeye sql aralığı|
+| SQL_INTERVAL_DAY_TO_SECOND | günden saniyeye sql aralığı|
 | SQL_INTERVAL_HOUR_TO_MINUTE | sql aralığı saatten dakikaya|
 | SQL_INTERVAL_HOUR_TO_SECOND | sql aralığı saatten saniyeye|
 | SQL_INTERVAL_MINUTE_TO_SECOND | sql aralığı dakikadan saniyeye|

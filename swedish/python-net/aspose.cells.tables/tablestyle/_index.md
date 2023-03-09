@@ -17,7 +17,7 @@ Typen TableStyle avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [name](/cells/sv/python-net/aspose.cells.tables/tablestyle/name) |Får namnet på tabellstilen.|
+| [name](/cells/sv/python-net/aspose.cells.tables/tablestyle/name) | Får namnet på tabellstilen.|
 | [table_style_elements](/cells/sv/python-net/aspose.cells.tables/tablestyle/table_style_elements) | Får alla element i bordsstilen.|
 
 

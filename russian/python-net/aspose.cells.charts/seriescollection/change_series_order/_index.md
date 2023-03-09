@@ -18,7 +18,7 @@ def change_series_order(self, source_index, dest_index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_index | int | Текущий индекс|
 | dest_index | int | Индекс назначения|

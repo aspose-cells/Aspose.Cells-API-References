@@ -18,10 +18,10 @@ def add(self, name, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på innehållstypsegenskapen.|
-| value | str |Värdet på innehållstypsegenskapen.|
+| value | str | Värdet på innehållstypsegenskapen.|
 
 
 ##  add(name, value, type) {#str-str-str}
@@ -35,10 +35,10 @@ def add(self, name, value, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på innehållstypsegenskapen.|
-| value | str |Värdet på innehållstypsegenskapen.|
+| value | str | Värdet på innehållstypsegenskapen.|
 | type | str | Typen av innehållstypsegenskapen.|
 
 

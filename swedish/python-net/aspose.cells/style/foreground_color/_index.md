@@ -13,7 +13,7 @@ Hämtar eller ställer in en stils förgrundsfärg.
 
 ###  Anmärkningar
 
-Det betyder ingen färginställning om Color.Empty returneras.
+Det betyder ingen färginställning om Color. Empty returneras.
 ###  Definition:
 ```python
 @property

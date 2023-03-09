@@ -1,13 +1,13 @@
 ﻿---
 title: RevisionHeader类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
 url: /zh/python-net/aspose.cells.revisions/revisionheader/
 is_root: false
 ---
-##  RevisionHeader类
+## RevisionHeader类
 表示已对此工作簿进行的特定更改的列表。
 
 

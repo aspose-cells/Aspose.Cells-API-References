@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den auf die Kanten anzuwendenden Weichzeichnungsradius in Punkteinheiten ab und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -18,11 +18,11 @@ def copy_column(self, source_cells, source_column_index, destination_column_inde
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/ar/python-net/aspose.cells/cells) | عنصر المصدر Cells يحتوي على بيانات وتنسيقات لنسخها.|
 | source_column_index | int | فهرس عمود المصدر.|
-| destination_column_index | int |فهرس عمود الوجهة.|
+| destination_column_index | int | فهرس عمود الوجهة.|
 
 
 

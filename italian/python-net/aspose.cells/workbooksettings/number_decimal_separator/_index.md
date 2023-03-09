@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_decimal_separator proprietà
 
-Ottiene o imposta il separatore decimale per la formattazione/l'analisi dei valori numerici. L'impostazione predefinita è il separatore decimale della regione corrente.
+Ottiene o imposta il separatore decimale per la formattazione/l'analisi dei valori numerici.
 ###  Definizione:
 ```python
 @property

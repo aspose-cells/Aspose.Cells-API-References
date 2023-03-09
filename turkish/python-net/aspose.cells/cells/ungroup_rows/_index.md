@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/ungroup_rows/
 is_root: false
 ---
 ##  ungroup_rows(first_index, last_index) {#int-int}
-Satırların grubunu çözer.
+Satırların grubunu çözün.
 
 
 
@@ -18,7 +18,7 @@ def ungroup_rows(self, first_index, last_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_index | int | Grubu çözülecek ilk satır dizini.|
 | last_index | int | Grubu çözülecek son satır dizini.|
@@ -28,7 +28,7 @@ Yalnızca dış grup bilgilerini kaldırır.
 
 ##  ungroup_rows(first_index, last_index, is_all) {#int-int-bool}
 
-Satırların grubunu çözer.
+Satırların grubunu çözün.
 
 
 
@@ -38,7 +38,7 @@ def ungroup_rows(self, first_index, last_index, is_all):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_index | int | Grubu çözülecek ilk satır dizini.|
 | last_index | int | Grubu çözülecek son satır dizini.|

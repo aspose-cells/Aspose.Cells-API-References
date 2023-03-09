@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_rows Eigentum
 
-Ruft die aus der Datenquelle zu importierende Gesamtzeilenanzahl ab oder legt diese fest. -1 bedeutet alle Zeilen der angegebenen Datenquelle.
+-1 bedeutet alle Zeilen der angegebenen Datenquelle.
 ###  Definition:
 ```python
 @property

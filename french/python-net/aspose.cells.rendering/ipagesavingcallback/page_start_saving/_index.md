@@ -18,7 +18,7 @@ def page_start_saving(self, args):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | args | [PageStartSavingArgs](/cells/fr/python-net/aspose.cells.rendering/pagestartsavingargs) | Les informations d'une page démarrent le processus d'enregistrement.|
 

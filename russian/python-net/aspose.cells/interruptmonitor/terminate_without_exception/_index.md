@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  terminate_without_exception недвижимость
 
-Когда процедура прерывается, завершайте процедуру тихо или выбрасывайте исключение.
+Когда процедура прерывается, следует ли завершить процедуру тихо или выдать исключение.
 По умолчанию false, то есть когда [AbstractInterruptMonitor.is_interruption_requested](/cells/ru/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) истинно,
 будет выброшен [CellsException](/cells/ru/python-net/aspose.cells/cellsexception) с кодом [ExceptionType.INTERRUPTED](/cells/ru/python-net/aspose.cells/exceptiontype#INTERRUPTED).
 ###  Определение:

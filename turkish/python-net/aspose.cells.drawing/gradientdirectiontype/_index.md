@@ -18,7 +18,7 @@ GradientDirectionType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | FROM_UPPER_LEFT_CORNER | Sol ÜstKöşeden|
-| FROM_UPPER_RIGHT_CORNER | SağÜstKöşeden|
+| FROM_UPPER_RIGHT_CORNER | Sağ Üst Köşeden|
 | FROM_LOWER_LEFT_CORNER | AltSolKöşeden|
 | FROM_LOWER_RIGHT_CORNER | AltSağKöşeden|
 | FROM_CENTER | Merkezden|

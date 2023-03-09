@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number propiedad
 
-Obtiene o establece el formato de visualización de números y fechas. Los patrones de formato son diferentes para las diferentes regiones.
+Obtiene o establece el formato de visualización de números y fechas.
 
 ###  Observaciones
 
@@ -30,10 +30,10 @@ Por ejemplo, los patrones de formato representados por números para la región 
 | 11| Científico|
 | 12| Fracción|
 | 13| Fracción|
-| 14| Fecha|
-| 15| Fecha|
-| 16| Fecha|
-| 17| Fecha|
+| 14| fecha|
+| 15| fecha|
+| 16| fecha|
+| 17| fecha|
 | 18| Tiempo|
 | 19| Tiempo|
 | 20| Tiempo|

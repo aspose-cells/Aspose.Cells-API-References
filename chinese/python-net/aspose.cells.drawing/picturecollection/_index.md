@@ -1,13 +1,13 @@
 ﻿---
 title: PictureCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 460
 url: /zh/python-net/aspose.cells.drawing/picturecollection/
 is_root: false
 ---
-##  PictureCollection类
+## PictureCollection类
 封装 [Picture](/cells/zh/python-net/aspose.cells.drawing/picture) 对象的集合。
 
 

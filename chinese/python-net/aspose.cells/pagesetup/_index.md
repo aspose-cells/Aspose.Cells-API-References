@@ -1,13 +1,13 @@
 ﻿---
 title: PageSetup类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1140
 url: /zh/python-net/aspose.cells/pagesetup/
 is_root: false
 ---
-##  PageSetup类
+## PageSetup类
 封装表示页面设置描述的对象。
 PageSetup 对象包含所有页面设置选项。
 
@@ -53,12 +53,12 @@ PageSetup 类型公开了以下成员：
 | [print_errors](/cells/zh/python-net/aspose.cells/pagesetup/print_errors) |指定显示的打印错误类型。|
 | [print_headings](/cells/zh/python-net/aspose.cells/pagesetup/print_headings) |表示行标题和列标题是否与此页一起打印。|
 | [print_gridlines](/cells/zh/python-net/aspose.cells/pagesetup/print_gridlines) |表示是否在页面上打印单元格网格线。|
-| [zoom](/cells/zh/python-net/aspose.cells/pagesetup/zoom) |表示以百分比表示的比例因子。它应该在 10 到 400 之间。|
+| [zoom](/cells/zh/python-net/aspose.cells/pagesetup/zoom) |以百分比表示比例因子。它应该在 10 到 400 之间。|
 | [is_auto_first_page_number](/cells/zh/python-net/aspose.cells/pagesetup/is_auto_first_page_number) |指示第一个页码是否自动分配。|
 | [print_quality](/cells/zh/python-net/aspose.cells/pagesetup/print_quality) |代表打印质量。|
 | [print_copies](/cells/zh/python-net/aspose.cells/pagesetup/print_copies) |获取和设置要打印的份数。|
 | [is_hf_diff_odd_even](/cells/zh/python-net/aspose.cells/pagesetup/is_hf_diff_odd_even) | True 表示奇数页的页眉/页脚与奇数页不同。|
-| [is_hf_diff_first](/cells/zh/python-net/aspose.cells/pagesetup/is_hf_diff_first) | True 表示第一页的页眉/页脚与其他页面不同。|
+| [is_hf_diff_first](/cells/zh/python-net/aspose.cells/pagesetup/is_hf_diff_first) |True 表示第一页的页眉/页脚与其他页面不同。|
 | [is_hf_scale_with_doc](/cells/zh/python-net/aspose.cells/pagesetup/is_hf_scale_with_doc) |指示页眉和页脚是否随文档缩放比例缩放。<br/>仅适用于 Excel 2007。|
 | [is_hf_align_margins](/cells/zh/python-net/aspose.cells/pagesetup/is_hf_align_margins) |指示页眉和页脚边距是否与页边距对齐。<br/>如果此属性为真，则左页眉和页脚将与左边距对齐，<br/>右页眉和页脚将与右边距对齐。<br/>默认情况下启用此选项。|
 

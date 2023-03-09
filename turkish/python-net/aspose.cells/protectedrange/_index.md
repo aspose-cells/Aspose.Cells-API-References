@@ -1,5 +1,5 @@
 ﻿---
-title: ProtectedRange sınıf
+title: ProtectedRange sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1200
 url: /tr/python-net/aspose.cells/protectedrange/
 is_root: false
 ---
-##  ProtectedRange sınıf
+##  ProtectedRange sınıfı
 Sayfa koruması AÇIK olduğunda düzenlenmesine izin verilecek belirli bir aralık.
 
 
@@ -17,9 +17,9 @@ ProtectedRange türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [name](/cells/tr/python-net/aspose.cells/protectedrange/name) | Aralık başlığını alır. Bu, adlandırılmış bir aralık tanımı olarak değil, tanımlayıcı olarak kullanılır.|
+| [name](/cells/tr/python-net/aspose.cells/protectedrange/name) | Aralık başlığını alır.|
 | [cell_area](/cells/tr/python-net/aspose.cells/protectedrange/cell_area) | Korunacak hücre alanını temsil eden [ProtectedRange.cell_area](/cells/tr/python-net/aspose.cells/protectedrange#cell_area) nesnesini alır.|
-| [is_protected_with_password](/cells/tr/python-net/aspose.cells/protectedrange/is_protected_with_password) | Çalışma sayfalarının parola ile korunup korunmadığını gösterir.|
+| [is_protected_with_password](/cells/tr/python-net/aspose.cells/protectedrange/is_protected_with_password) |Çalışma sayfalarının parola ile korunup korunmadığını gösterir.|
 | [password](/cells/tr/python-net/aspose.cells/protectedrange/password) | Aralığı korumak için parolayı temsil eder.|
 | [security_descriptor](/cells/tr/python-net/aspose.cells/protectedrange/security_descriptor) | Güvenlik tanımlayıcısı, aralığa erişmek için bir parola sağlamadan bu aralığı düzenleyebilecek kullanıcı hesaplarını tanımlar.|
 

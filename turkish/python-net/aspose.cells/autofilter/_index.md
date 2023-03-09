@@ -1,5 +1,5 @@
 ﻿---
-title: AutoFilter sınıf
+title: AutoFilter sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 70
 url: /tr/python-net/aspose.cells/autofilter/
 is_root: false
 ---
-##  AutoFilter sınıf
+##  AutoFilter sınıfı
 Belirtilen çalışma sayfası için otomatik filtrelemeyi temsil eder.
 
 
@@ -26,7 +26,7 @@ AutoFilter türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [remove_filter(field_index, criteria)](/cells/tr/python-net/aspose.cells/autofilter/remove_filter/#int-str) | Bir filtre sütunu için bir filtreyi kaldırır.|
+| [remove_filter(field_index, criteria)](/cells/tr/python-net/aspose.cells/autofilter/remove_filter/#int-str) |Bir filtre sütunu için bir filtreyi kaldırır.|
 | [remove_filter(field_index)](/cells/tr/python-net/aspose.cells/autofilter/remove_filter/#int) | Belirli filtreyi kaldırın.|
 | [custom(field_index, operator_type1, criteria1)](/cells/tr/python-net/aspose.cells/autofilter/custom/#int-FilterOperatorType-any) | Bir listeyi özel ölçütlerle filtreler.|
 | [custom(field_index, operator_type1, criteria1, is_and, operator_type2, criteria2)](/cells/tr/python-net/aspose.cells/autofilter/custom/#int-FilterOperatorType-any-bool-FilterOperatorType-any) | Bir listeyi özel ölçütlerle filtreler.|
@@ -37,19 +37,19 @@ AutoFilter türü aşağıdaki üyeleri gösterir:
 | [add_filter(field_index, criteria)](/cells/tr/python-net/aspose.cells/autofilter/add_filter/#int-str) | Bir filtre sütunu için bir filtre ekler.|
 | [add_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)](/cells/tr/python-net/aspose.cells/autofilter/add_date_filter/#int-DateTimeGroupingType-int-int-int-int-int-int) | Bir tarih filtresi ekler.|
 | [remove_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)](/cells/tr/python-net/aspose.cells/autofilter/remove_date_filter/#int-DateTimeGroupingType-int-int-int-int-int-int) | Bir tarih filtresini kaldırır.|
-| [filter(field_index, criteria)](/cells/tr/python-net/aspose.cells/autofilter/filter/#int-str) |Bir listeyi belirtilen kriterlere göre filtreler.|
-| [filter_top10(field_index, is_top, is_percent, item_count)](/cells/tr/python-net/aspose.cells/autofilter/filter_top10/#int-bool-bool-int) | Listedeki ilk 10 öğeyi filtrele|
+| [filter(field_index, criteria)](/cells/tr/python-net/aspose.cells/autofilter/filter/#int-str) | Bir listeyi belirtilen kriterlere göre filtreler.|
+| [filter_top10(field_index, is_top, is_percent, item_count)](/cells/tr/python-net/aspose.cells/autofilter/filter_top10/#int-bool-bool-int) | Listedeki ilk 10 öğeyi filtreleyin|
 | [dynamic_filter(field_index, dynamic_filter_type)](/cells/tr/python-net/aspose.cells/autofilter/dynamic_filter/#int-DynamicFilterType) | Dinamik bir filtre ekler.|
 | [add_font_color_filter(field_index, color)](/cells/tr/python-net/aspose.cells/autofilter/add_font_color_filter/#int-CellsColor) | Bir yazı tipi renk filtresi ekler.|
 | [add_fill_color_filter(field_index, pattern, foreground_color, background_color)](/cells/tr/python-net/aspose.cells/autofilter/add_fill_color_filter/#int-BackgroundType-CellsColor-CellsColor) | Bir dolgu rengi filtresi ekler.|
 | [add_icon_filter(field_index, icon_set_type, icon_id)](/cells/tr/python-net/aspose.cells/autofilter/add_icon_filter/#int-IconSetType-int) | Bir simge filtresi ekler.|
 | [match_blanks(field_index)](/cells/tr/python-net/aspose.cells/autofilter/match_blanks/#int) | Listedeki tüm boş hücreleri eşleştirin.|
-| [match_non_blanks(field_index)](/cells/tr/python-net/aspose.cells/autofilter/match_non_blanks/#int) | Listedeki tüm boş olmayan hücreleri eşleştirin.|
+| [match_non_blanks(field_index)](/cells/tr/python-net/aspose.cells/autofilter/match_non_blanks/#int) | Listedeki boş olmayan tüm hücreleri eşleştirin.|
 | [show_all()](/cells/tr/python-net/aspose.cells/autofilter/show_all/#) | Tüm satırları göster.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

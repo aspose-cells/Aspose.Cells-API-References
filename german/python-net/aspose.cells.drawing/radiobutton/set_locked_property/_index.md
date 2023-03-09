@@ -23,7 +23,7 @@ def set_locked_property(self, type, value):
 | type | [ShapeLockType](/cells/de/python-net/aspose.cells.drawing/shapelocktype) | Der gesperrte Typ.|
 | value | bool | Der Wert der Immobilie.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import ShapeLockType

@@ -13,8 +13,8 @@ Kullanıcının korumalı bir çalışma sayfasında kilitli hücreleri seçmesi
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
- lütfen Protection.AllowSelectingLockedCell özelliğini kullanın.
+ NOT: Bu üye artık kullanılmıyor.
+lütfen Protection.AllowSelectingLockedCell özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

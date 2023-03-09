@@ -18,9 +18,9 @@ def set_custom(self, custom, builtin_preference):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| custom | str | Chaîne de format numérique personnalisée, doit être le modèle InvariantCulture.|
+| custom | str | Chaîne de format numérique personnalisée, doit être un modèle de culture invariante.|
 | builtin_preference | bool | Si la chaîne de format de nombre personnalisé correspond à l'un des formats de nombre intégrés<br/> correspondant aux paramètres régionaux actuels, que vous définissiez le format numérique comme intégré au lieu de Personnalisé.|
 
 

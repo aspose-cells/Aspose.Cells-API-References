@@ -11,7 +11,7 @@ is_root: false
 
 Gibt eine optionale Zeichenfolge an, die eine Anwendung verwenden kann, um die bestimmte Form zu identifizieren.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

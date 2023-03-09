@@ -22,7 +22,7 @@ def get_view_row_height(self, row):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila|
 

@@ -1,14 +1,14 @@
 ﻿---
 title: Style类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1390
 url: /zh/python-net/aspose.cells/style/
 is_root: false
 ---
-##  Style类
-表示excel文档的显示样式，如字体、颜色、对齐方式、边框等。
+## Style类
+表示excel文档的显示风格，如字体、颜色、对齐方式、边框等。
 Style 对象包含所有样式属性（字体、数字格式、对齐方式等）作为属性。
 
 
@@ -35,15 +35,15 @@ Style 类型公开了以下成员：
 | [foreground_argb_color](/cells/zh/python-net/aspose.cells/style/foreground_argb_color) |获取和设置具有 32 位 ARGB 值的前景色。|
 | [has_borders](/cells/zh/python-net/aspose.cells/style/has_borders) |检查样式是否设置了边框。|
 | [parent_style](/cells/zh/python-net/aspose.cells/style/parent_style) |获取此样式的父样式。|
-| [indent_level](/cells/zh/python-net/aspose.cells/style/indent_level) |表示单元格或区域的缩进级别。只能是 0 到 250 之间的整数。|
+| [indent_level](/cells/zh/python-net/aspose.cells/style/indent_level) |表示单元格或区域的缩进级别。|
 | [font](/cells/zh/python-net/aspose.cells/style/font) |获取一个 [Style.font](/cells/zh/python-net/aspose.cells/style#font) 对象。|
 | [rotation_angle](/cells/zh/python-net/aspose.cells/style/rotation_angle) |表示文本旋转角度。|
 | [horizontal_alignment](/cells/zh/python-net/aspose.cells/style/horizontal_alignment) |获取或设置单元格中文本的水平对齐方式。|
 | [vertical_alignment](/cells/zh/python-net/aspose.cells/style/vertical_alignment) |获取或设置单元格中文本的垂直对齐类型。|
 | [is_text_wrapped](/cells/zh/python-net/aspose.cells/style/is_text_wrapped) |获取或设置一个值，该值指示单元格中的文本是否换行。|
-| [number](/cells/zh/python-net/aspose.cells/style/number) |获取或设置数字和日期的显示格式。不同地区的格式化模式不同。|
+| [number](/cells/zh/python-net/aspose.cells/style/number) |获取或设置数字和日期的显示格式。|
 | [is_locked](/cells/zh/python-net/aspose.cells/style/is_locked) |获取或设置一个值，该值指示是否可以修改单元格。|
-| [custom](/cells/zh/python-net/aspose.cells/style/custom) |表示此样式对象的自定义数字格式字符串。<br/>如果没有设置自定义数字格式（比如内置数字格式），则返回""。|
+| [custom](/cells/zh/python-net/aspose.cells/style/custom) |表示此样式对象的自定义数字格式字符串。<br/>如果未设置自定义数字格式（例如内置数字格式），则返回“”。|
 | [culture_custom](/cells/zh/python-net/aspose.cells/style/culture_custom) |获取和设置数字格式的区域性相关模式字符串。<br/>如果没有为该对象设置数字格式，则返回 null。<br/>如果内置数字格式，则返回内置数字对应的模式字符串。|
 | [invariant_custom](/cells/zh/python-net/aspose.cells/style/invariant_custom) |获取数字格式的独立于文化的模式字符串。<br/>如果没有为该对象设置数字格式，则返回 null。<br/>如果内置数字格式，则返回内置数字对应的模式字符串。|
 | [is_formula_hidden](/cells/zh/python-net/aspose.cells/style/is_formula_hidden) |表示当工作表受到保护时是否隐藏公式。|

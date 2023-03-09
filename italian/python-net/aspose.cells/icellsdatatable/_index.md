@@ -18,7 +18,7 @@ Il tipo ICellsDataTable espone i membri seguenti:
 | Proprietà| Descrizione|
 | :- | :- |
 | [columns](/cells/it/python-net/aspose.cells/icellsdatatable/columns) | Ottiene il nome delle colonne.|
-| [count](/cells/it/python-net/aspose.cells/icellsdatatable/count) | Ottiene il conteggio dei record. -1 per il conteggio dei record sconosciuti.|
+| [count](/cells/it/python-net/aspose.cells/icellsdatatable/count) | -1 per il conteggio dei record sconosciuti.|
 
 
 
@@ -26,7 +26,7 @@ Ottiene i dati archiviati nella colonna specificata da index.
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
-| [index] |L'indice in base zero della colonna.|
+| [index] | L'indice in base zero della colonna.|
 
 
 ###  Metodi

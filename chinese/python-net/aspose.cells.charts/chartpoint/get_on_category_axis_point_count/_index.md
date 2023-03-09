@@ -1,6 +1,6 @@
 ﻿---
 title: get_on_category_axis_point_count方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_co
 is_root: false
 ---
 ##  get_on_category_axis_point_count() {#}
-调用 Chart.Calculate() 方法后获取类别轴上的点数。仅适用于面积图。
+调用Chart.Calculate()方法后获取分类轴上的点数，仅适用于面积图。
 
 
 

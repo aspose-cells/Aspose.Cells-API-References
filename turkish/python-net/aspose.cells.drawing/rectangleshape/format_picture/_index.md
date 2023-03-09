@@ -11,7 +11,7 @@ is_root: false
 
 Resim biçimi seçeneklerini alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

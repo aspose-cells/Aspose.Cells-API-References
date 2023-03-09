@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene la altura original de la imagen, en unidades de centímetros.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

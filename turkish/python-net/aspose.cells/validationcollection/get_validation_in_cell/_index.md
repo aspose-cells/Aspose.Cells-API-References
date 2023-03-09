@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/validationcollection/get_validation_in_cell/
 is_root: false
 ---
 ##  get_validation_in_cell(row, column) {#int-int}
-Verilen hücreye uygulanan doğrulamayı alır.
+Belirli bir hücreye uygulanan doğrulamayı alır.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def get_validation_in_cell(self, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | column | int | Sütun dizini.|

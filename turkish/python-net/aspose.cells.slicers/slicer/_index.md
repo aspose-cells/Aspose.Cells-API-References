@@ -1,5 +1,5 @@
 ﻿---
-title: Slicer sınıf
+title: Slicer sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /tr/python-net/aspose.cells.slicers/slicer/
 is_root: false
 ---
-##  Slicer sınıf
+##  Slicer sınıfı
 özet açıklama Slicer Görüntüle
 
 
@@ -24,20 +24,20 @@ Slicer türü aşağıdaki üyeleri gösterir:
 | [placement](/cells/tr/python-net/aspose.cells.slicers/slicer/placement) | Çizim nesnesinin altındaki hücrelere iliştirilme şeklini temsil eder.<br/> Özellik, bir nesnenin çalışma sayfasındaki yerleşimini kontrol eder.|
 | [locked_aspect_ratio](/cells/tr/python-net/aspose.cells.slicers/slicer/locked_aspect_ratio) | En boy oranının kilitlenip kilitlenmediğini gösterir.|
 | [locked_position](/cells/tr/python-net/aspose.cells.slicers/slicer/locked_position) | Belirtilen dilimleyicinin kullanıcı arabirimi kullanılarak taşınabileceğini veya yeniden boyutlandırılabileceğini gösterir.|
-| [slicer_cache](/cells/tr/python-net/aspose.cells.slicers/slicer/slicer_cache) | Dilimleyiciyle ilişkili SlicerCache nesnesini döndürür. Sadece oku.|
-| [parent](/cells/tr/python-net/aspose.cells.slicers/slicer/parent) | Dilimleyiciyi içeren sayfayı temsil eden Worksheet nesnesini döndürür. Sadece oku.|
+| [slicer_cache](/cells/tr/python-net/aspose.cells.slicers/slicer/slicer_cache) |Dilimleyiciyle ilişkili SlicerCache nesnesini döndürür.|
+| [parent](/cells/tr/python-net/aspose.cells.slicers/slicer/parent) | Dilimleyiciyi içeren sayfayı temsil eden Worksheet nesnesini döndürür.|
 | [style_type](/cells/tr/python-net/aspose.cells.slicers/slicer/style_type) | Yerleşik dilimleyici stilinin türünü belirtin<br/> varsayılan tür SlicerStyleLight1'dir.|
 | [name](/cells/tr/python-net/aspose.cells.slicers/slicer/name) | Belirtilen dilimleyicinin adını döndürür veya ayarlar|
 | [caption](/cells/tr/python-net/aspose.cells.slicers/slicer/caption) | Belirtilen dilimleyicinin başlığını döndürür veya ayarlar.|
 | [caption_visible](/cells/tr/python-net/aspose.cells.slicers/slicer/caption_visible) | Dilimleyici Resim Yazısını görüntüleyen başlığın görünür olup olmadığını döndürür veya ayarlar<br/> varsayılan değer doğrudur|
-| [number_of_columns](/cells/tr/python-net/aspose.cells.slicers/slicer/number_of_columns) |Belirtilen dilimleyicideki sütun sayısını döndürür veya ayarlar.|
+| [number_of_columns](/cells/tr/python-net/aspose.cells.slicers/slicer/number_of_columns) | Belirtilen dilimleyicideki sütun sayısını döndürür veya ayarlar.|
 | [left_pixel](/cells/tr/python-net/aspose.cells.slicers/slicer/left_pixel) | Dilimleyici şeklinin sol sütunundan yatay uzaklığını piksel cinsinden döndürür veya ayarlar.|
 | [top_pixel](/cells/tr/python-net/aspose.cells.slicers/slicer/top_pixel) | Dilimleyici şeklinin üst satırından dikey uzaklığını piksel cinsinden döndürür veya ayarlar.|
 | [width](/cells/tr/python-net/aspose.cells.slicers/slicer/width) | Belirtilen dilimleyicinin genişliğini nokta cinsinden döndürür veya ayarlar.|
 | [width_pixel](/cells/tr/python-net/aspose.cells.slicers/slicer/width_pixel) | Belirtilen dilimleyicinin genişliğini piksel cinsinden döndürür veya ayarlar.|
 | [height](/cells/tr/python-net/aspose.cells.slicers/slicer/height) | Belirtilen dilimleyicinin yüksekliğini nokta cinsinden döndürür veya ayarlar.|
-| [height_pixel](/cells/tr/python-net/aspose.cells.slicers/slicer/height_pixel) | Belirtilen dilimleyicinin yüksekliğini piksel cinsinden döndürür veya ayarlar.|
-| [column_width_pixel](/cells/tr/python-net/aspose.cells.slicers/slicer/column_width_pixel) | Dilimleyicinin her sütunu için genişliği piksel birimi cinsinden alır veya ayarlar.|
+| [height_pixel](/cells/tr/python-net/aspose.cells.slicers/slicer/height_pixel) |Belirtilen dilimleyicinin yüksekliğini piksel cinsinden döndürür veya ayarlar.|
+| [column_width_pixel](/cells/tr/python-net/aspose.cells.slicers/slicer/column_width_pixel) | Dilimleyicinin her sütunu için genişliği piksel cinsinden alır veya ayarlar.|
 | [column_width](/cells/tr/python-net/aspose.cells.slicers/slicer/column_width) | Dilimleyicideki her sütunun genişliğini punto cinsinden döndürür veya ayarlar.|
 | [row_height_pixel](/cells/tr/python-net/aspose.cells.slicers/slicer/row_height_pixel) | Belirtilen dilimleyicideki her satırın yüksekliğini piksel cinsinden döndürür veya ayarlar.|
 | [row_height](/cells/tr/python-net/aspose.cells.slicers/slicer/row_height) | Belirtilen dilimleyicideki her satırın punto cinsinden yüksekliğini döndürür veya ayarlar.|
@@ -47,12 +47,12 @@ Slicer türü aşağıdaki üyeleri gösterir:
 | Yöntem| Tanım|
 | :- | :- |
 | [add_pivot_connection(pivot)](/cells/tr/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable) | PivotTable bağlantısı ekler.|
-| [remove_pivot_connection(pivot)](/cells/tr/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | PivotTable bağlantısını kaldırır.|
-| [refresh()](/cells/tr/python-net/aspose.cells.slicers/slicer/refresh/#) | Dilimleyici yenileniyor.Bu arada, Göreli PivotTable'lar Yenileniyor ve Hesaplanıyor.|
+| [remove_pivot_connection(pivot)](/cells/tr/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | PivotTable bağlantılarını kaldırır.|
+| [refresh()](/cells/tr/python-net/aspose.cells.slicers/slicer/refresh/#) | Dilimleyici yenileniyor Bu arada, Göreli PivotTable'lar Yenileniyor ve Hesaplanıyor.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

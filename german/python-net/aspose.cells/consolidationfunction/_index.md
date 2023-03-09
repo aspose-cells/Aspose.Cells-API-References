@@ -22,7 +22,7 @@ Der Typ ConsolidationFunction macht die folgenden Member verfügbar:
 | AVERAGE | Repräsentiert die Average-Funktion.|
 | MAX | Stellt die Max-Funktion dar.|
 | MIN | Stellt die Min-Funktion dar.|
-| PRODUCT | Stellt die Produktfunktion dar.|
+| PRODUCT | Repräsentiert Produktfunktionen.|
 | COUNT_NUMS | Repräsentiert die Count Nums-Funktion.|
 | STD_DEV | Stellt die StdDev-Funktion dar.|
 | STD_DEVP | Stellt die StdDevp-Funktion dar.|

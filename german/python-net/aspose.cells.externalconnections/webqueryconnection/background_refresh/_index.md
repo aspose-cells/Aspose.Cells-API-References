@@ -10,7 +10,7 @@ is_root: false
 ##  background_refresh Eigentum
 
  Gibt an, ob die Verbindung im Hintergrund (asynchron) aktualisiert werden kann.
- true, wenn die bevorzugte Verwendung der Verbindung die asynchrone Aktualisierung im Hintergrund ist;
+true, wenn die bevorzugte Verwendung der Verbindung die asynchrone Aktualisierung im Hintergrund ist;
 false, wenn die bevorzugte Verwendung der Verbindung die synchrone Aktualisierung im Vordergrund ist.
 ###  Definition:
 ```python

@@ -13,7 +13,7 @@ Eklenen dosyaların kaydedileceği dizin.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
 lütfen HtmlLoadOptions.StreamProvider özelliğini kullanın.
  Bu mülk, Aralık 2014'ten bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

@@ -1,5 +1,5 @@
 ﻿---
-title: Column sınıf
+title: Column sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 260
 url: /tr/python-net/aspose.cells/column/
 is_root: false
 ---
-##  Column sınıf
+##  Column sınıfı
 Çalışma sayfasındaki tek bir sütunu temsil eder.
 
 
@@ -18,8 +18,8 @@ Column türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [index](/cells/tr/python-net/aspose.cells/column/index) | Bu sütunun indeksini alır.|
-| [width](/cells/tr/python-net/aspose.cells/column/width) | Karakter birimi cinsinden sütun genişliğini alır ve ayarlar.|
-| [group_level](/cells/tr/python-net/aspose.cells/column/group_level) | Sütunun grup düzeyini alır.|
+| [width](/cells/tr/python-net/aspose.cells/column/width) | Karakter birimleri cinsinden sütun genişliğini alır ve ayarlar.|
+| [group_level](/cells/tr/python-net/aspose.cells/column/group_level) |Sütunun grup düzeyini alır.|
 | [is_hidden](/cells/tr/python-net/aspose.cells/column/is_hidden) | Sütunun gizli olup olmadığını gösterir.|
 | [has_custom_style](/cells/tr/python-net/aspose.cells/column/has_custom_style) | Bu sütunun özel stil ayarları olup olmadığını gösterir (çalışma kitabından devralınan varsayılandan farklı).|
 | [style](/cells/tr/python-net/aspose.cells/column/style) | Bu sütunun stilini alır.|
@@ -35,7 +35,7 @@ Column türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/xmlsaveoptions/__init__/
 is_root: false
 ---
 ##  XmlSaveOptions() {#}
-Xml dosyasını kaydetmek için seçenekler oluşturur.
+Xml dosyalarını kaydetmek için seçenekler oluşturur.
 
 
 

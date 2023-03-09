@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/gradientfilltype/
 is_root: false
 ---
 ##  GradientFillType numaralandırma
-Tüm Degrade dolgu türünü temsil eder.
+Tüm degrade dolgu türlerini temsil eder.
 
 
 

@@ -14,7 +14,7 @@ is_root: false
 ###  Примечания
 
  Как преобразовать единицы 1/4000 в пиксели?
-в пикселях = Y * Chart.ChartObject.Height / 4000;
+Y в пикселях = Y * Chart.ChartObject.Height / 4000;
 ###  Определение:
 ```python
 @property

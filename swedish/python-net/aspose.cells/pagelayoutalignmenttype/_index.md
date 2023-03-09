@@ -19,7 +19,7 @@ Typen PageLayoutAlignmentType avslöjar följande medlemmar:
 | :- | :- |
 | BOTTOM | Representerar justering av nedre sidlayout.|
 | CENTER | Representerar justering av mittsideslayout.|
-| LEFT | Representerar justering av vänster sidlayout.|
+| LEFT |Representerar justering av vänster sidlayout.|
 | RIGHT | Representerar höger sidlayoutjustering.|
 | TOP | Representerar justering av den övre sidans layout.|
 

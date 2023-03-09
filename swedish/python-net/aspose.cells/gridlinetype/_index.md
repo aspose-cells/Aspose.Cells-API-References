@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType uppräkning
-Räknar upp rutnätslinjetyp.
+Räknar upp rutnätslinjetyper.
 
 
 

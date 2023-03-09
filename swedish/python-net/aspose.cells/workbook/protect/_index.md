@@ -18,7 +18,7 @@ def protect(self, protection_type, password):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | protection_type | [ProtectionType](/cells/sv/python-net/aspose.cells/protectiontype) | Skyddstyp.|
 | password | str | Lösenord för att skydda arbetsboken.|

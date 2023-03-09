@@ -31,13 +31,13 @@ def auto_fit_columns(self, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/es/python-net/aspose.cells/autofitteroptions) | Las opciones de ajuste automático|
 
 
 ##  auto_fit_columns(first_column, last_column) {#int-int}
-Autoajusta el ancho de las columnas.
+Ajusta automáticamente el ancho de la columna.
 
 
 
@@ -47,7 +47,7 @@ def auto_fit_columns(self, first_column, last_column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_column | int | Índice de la primera columna.|
 | last_column | int | Índice de la última columna.|
@@ -57,7 +57,7 @@ AutoFitColumn es una función imprecisa.
 
 ##  auto_fit_columns(first_column, last_column, options) {#int-int-AutoFitterOptions}
 
-Autoajusta el ancho de las columnas.
+Ajusta automáticamente el ancho de la columna.
 
 
 
@@ -67,7 +67,7 @@ def auto_fit_columns(self, first_column, last_column, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_column | int | Índice de la primera columna.|
 | last_column | int | Índice de la última columna.|
@@ -78,7 +78,7 @@ AutoFitColumn es una función imprecisa.
 
 ##  auto_fit_columns(first_row, first_column, last_row, last_column) {#int-int-int-int}
 
-Autoajusta el ancho de las columnas.
+Ajusta automáticamente el ancho de la columna.
 
 
 
@@ -88,7 +88,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_row | int | Índice de la primera fila.|
 | first_column | int | Índice de la primera columna.|
@@ -100,7 +100,7 @@ AutoFitColumn es una función imprecisa.
 
 ##  auto_fit_columns(first_row, first_column, last_row, last_column, options) {#int-int-int-int-AutoFitterOptions}
 
-Autoajusta el ancho de las columnas.
+Ajusta automáticamente el ancho de la columna.
 
 
 
@@ -110,7 +110,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column, optio
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_row | int | Índice de la primera fila.|
 | first_column | int | Índice de la primera columna.|

@@ -13,7 +13,7 @@ is_root: false
 
 ###  Notlar
 
-Varsayılan değer yanlıştır. Şu anda, bu özellik true olarak ayarlandığında yalnızca sınır çizgileri optimize edilir.
+Varsayılan değer false'tur. Şu anda bu özellik true olarak ayarlandığında yalnızca sınır çizgileri optimize edilir.
 ###  Tanım:
 ```python
 @property

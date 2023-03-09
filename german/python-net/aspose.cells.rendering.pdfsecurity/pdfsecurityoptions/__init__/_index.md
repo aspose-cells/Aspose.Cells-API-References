@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code legt die Berechtigung zum Drucken in hoher Auflösung für das Ausgabe-PDF fest.
 

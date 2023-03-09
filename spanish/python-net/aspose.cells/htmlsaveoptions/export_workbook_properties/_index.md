@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_workbook_properties propiedad
 
-Indicando si se están exportando las propiedades del libro. El valor predeterminado es verdadero. Si desea importar
+ Indicando si se están exportando las propiedades del libro. El valor predeterminado es verdadero. Si desea importar
 el archivo html o mht para sobresalir, mantenga el valor predeterminado.
 ###  Definición:
 ```python

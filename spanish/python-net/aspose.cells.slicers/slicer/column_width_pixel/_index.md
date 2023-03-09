@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el ancho en unidades de píxeles para cada columna de la segmentación.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

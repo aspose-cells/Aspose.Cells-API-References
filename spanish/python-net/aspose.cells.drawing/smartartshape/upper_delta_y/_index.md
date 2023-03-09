@@ -13,9 +13,9 @@ Obtiene o establece el desplazamiento vertical de la forma desde la fila de la e
 
 ###  Observaciones
 
-El rango de valor es de 0 a 256.
+El rango de valores es de 0 a 256.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

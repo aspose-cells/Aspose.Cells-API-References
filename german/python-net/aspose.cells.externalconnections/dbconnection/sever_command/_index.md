@@ -12,7 +12,7 @@ is_root: false
  Gibt eine zweite Befehlstextzeichenfolge an, die beibehalten wird, wenn PivotTable serverbasiert ist
  Seitenfelder werden verwendet.
  Für ODBC-Verbindungen ist serverCommand normalerweise eine breitere Abfrage als Befehl (Nr
-WHERE-Klausel ist in der ersteren vorhanden). Basierend auf diesen 2 Befehlen (Command und ServerCommand),
+WHERE-Klausel ist in der ersteren vorhanden).
 Die Parameter-UI kann ausgefüllt und parametrisierte Abfragen erstellt werden
 ###  Definition:
 ```python

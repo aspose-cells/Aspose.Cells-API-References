@@ -13,7 +13,7 @@ Obtiene y establece el modo de visualización del background
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
  utilice la propiedad LegendEntry.BackgroundMode.
  Esta propiedad será eliminada 12 meses después desde ENERO 2012.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

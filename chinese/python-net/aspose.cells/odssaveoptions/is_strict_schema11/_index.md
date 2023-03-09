@@ -1,6 +1,6 @@
 ﻿---
 title: is_strict_schema11 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_strict_schema11 属性
 
-指示 ods 文件是否应保存为 ODF 格式版本 1.1。默认为假。
+指示 ods 文件是否应保存为 ODF 格式版本 1.1。默认为 false。
 ### 定义：
 ```python
 @property

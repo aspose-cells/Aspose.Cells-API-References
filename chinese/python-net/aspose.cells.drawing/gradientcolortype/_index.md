@@ -1,13 +1,13 @@
 ﻿---
 title: GradientColorType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 850
 url: /zh/python-net/aspose.cells.drawing/gradientcolortype/
 is_root: false
 ---
-##  GradientColorType枚举
+## GradientColorType枚举
 表示指定填充的渐变颜色类型。
 
 

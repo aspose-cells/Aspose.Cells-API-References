@@ -22,10 +22,10 @@ def get_cell_or_null(self, row_offset, column_offset):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row_offset | int | Offset riga in questo intervallo, in base zero.|
-| column_offset | int | Offset di colonna in questo intervallo, in base zero.|
+| column_offset | int |Offset di colonna in questo intervallo, in base zero.|
 
 
 

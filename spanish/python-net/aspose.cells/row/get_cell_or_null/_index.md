@@ -23,7 +23,7 @@ def get_cell_or_null(self, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column | int | El índice de la columna|
 

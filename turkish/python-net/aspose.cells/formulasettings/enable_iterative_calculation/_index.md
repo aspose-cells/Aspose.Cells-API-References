@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_iterative_calculation mülk
 
-Döngüsel referansları çözmek için yinelemeli hesaplamanın etkinleştirilip etkinleştirilmediğini gösterir.
+Döngüsel referansları çözmek için yinelemeli hesaplamanın etkinleştirilip etkinleştirilmeyeceğini gösterir.
 ###  Tanım:
 ```python
 @property

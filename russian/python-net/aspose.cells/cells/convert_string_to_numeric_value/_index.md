@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cells/convert_string_to_numeric_value/
 is_root: false
 ---
 ##  convert_string_to_numeric_value() {#}
-Преобразует строковые данные в ячейках в числовое значение, если это возможно.
+Преобразует строковые данные в ячейках в числовые значения, если это возможно.
 
 
 

@@ -22,9 +22,9 @@ def set_footer_picture(self, section, footer_picture):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| section | int |0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
+| section | int | 0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
 | footer_picture | bytes | Dati immagine.|
 
 

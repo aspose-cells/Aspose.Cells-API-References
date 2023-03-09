@@ -19,7 +19,7 @@ Typen FillPictureType avslöjar följande medlemmar:
 | :- | :- |
 | STRETCH | Sträcka|
 | STACK | Stack|
-| STACK_AND_SCALE | StackAndScale|
+| STACK_AND_SCALE | Stack Och Skala|
 
 
 

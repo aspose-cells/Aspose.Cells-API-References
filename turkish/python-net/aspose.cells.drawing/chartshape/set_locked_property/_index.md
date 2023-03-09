@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/chartshape/set_locked_property/
 is_root: false
 ---
 ##  set_locked_property(type, value) {#ShapeLockType-bool}
-Kilitli özelliği ayarlayın.
+Kilitli özelliğini ayarlayın.
 
 
 
@@ -18,12 +18,12 @@ def set_locked_property(self, type, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/tr/python-net/aspose.cells.drawing/shapelocktype) | Kilitli tip.|
 | value | bool | Mülkün değeri.|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import ShapeLockType

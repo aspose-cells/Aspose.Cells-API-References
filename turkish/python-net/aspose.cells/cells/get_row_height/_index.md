@@ -22,7 +22,7 @@ def get_row_height(self, row):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini|
 

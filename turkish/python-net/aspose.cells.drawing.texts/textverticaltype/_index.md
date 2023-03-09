@@ -23,7 +23,7 @@ TextVerticalType türü aşağıdaki üyeleri gösterir:
 | VERTICAL90 | Her satır saat yönünde 90 derece döndürülür|
 | VERTICAL270 | Her satır saat yönünde 270 derece döndürülür|
 | STACKED | Tüm metnin dikey olup olmadığını belirler|
-| STACKED_RIGHT_TO_LEFT |Dikey WordArt'ın soldan sağa değil sağdan sola gösterilmesi gerektiğini belirtir.|
+| STACKED_RIGHT_TO_LEFT | Dikey WordArt'ın soldan sağa değil sağdan sola gösterilmesi gerektiğini belirtir.|
 
 
 

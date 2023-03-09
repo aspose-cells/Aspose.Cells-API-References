@@ -21,10 +21,10 @@ Il tipo TimePeriodType espone i membri seguenti:
 | :- | :- |
 | TODAY | Data odierna.|
 | YESTERDAY | La data di ieri.|
-| TOMORROW | L'appuntamento di domani.|
+| TOMORROW |L'appuntamento di domani.|
 | LAST_7_DAYS | Una data negli ultimi sette giorni.|
 | THIS_MONTH | Una data che ricorre in questo mese di calendario.|
-| LAST_MONTH |Una data che ricorre nell'ultimo mese di calendario.|
+| LAST_MONTH | Una data che ricorre nell'ultimo mese di calendario.|
 | NEXT_MONTH | Una data che cade nel mese di calendario successivo.|
 | THIS_WEEK | Una data che cade questa settimana.|
 | LAST_WEEK | Una data che cade la scorsa settimana.|

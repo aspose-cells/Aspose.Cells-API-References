@@ -22,7 +22,7 @@ def add(self, row):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Cell index de ligne, basé sur zéro.|
 ###  Remarques
@@ -45,7 +45,7 @@ def add(self, cell_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | cell_name | str | Cell nom.|
 ###  Remarques
@@ -68,7 +68,7 @@ def add(self, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Cell index de ligne, basé sur zéro.|
 | column | int | Cell index de colonne, basé sur zéro.|
@@ -92,7 +92,7 @@ def add(self, row, start_column, end_column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Index de ligne, basé sur zéro.|
 | start_column | int | Index de colonne de début, basé sur zéro.|

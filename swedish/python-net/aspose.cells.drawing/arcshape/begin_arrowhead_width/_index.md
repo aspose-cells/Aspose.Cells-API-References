@@ -13,7 +13,7 @@ Hämtar och ställer in startpilens huvudbredd på linjen.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
  använd egenskapen Shape.Line.BeginArrowheadWidth.
  Den här egenskapen kommer att tas bort 12 månader senare sedan augusti 2016.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

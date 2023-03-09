@@ -13,7 +13,7 @@ Kaydedilecek bir sonraki hücreyi alır.
 
 ###  İadeler
 
-kaydedilecek bir sonraki hücrenin sütun dizini. -1, geçerli satır verilerinin sonuna ulaşıldığı ve geçerli satırın kaydedilecek başka hücresi olmadığı anlamına gelir.
+-1, geçerli satır verilerinin sonuna ulaşıldığı ve geçerli satırın kaydedilecek başka hücresi olmadığı anlamına gelir.
 
 
 ```python

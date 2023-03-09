@@ -11,7 +11,7 @@ is_root: false
 
 Représente la hauteur de la forme, en pouces.
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece si la forma se invierte horizontalmente.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

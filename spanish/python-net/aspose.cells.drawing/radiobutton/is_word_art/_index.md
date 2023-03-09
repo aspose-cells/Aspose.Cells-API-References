@@ -15,7 +15,7 @@ Indica si esta forma es un arte de la palabra.
 
 Solo para el archivo Legacy Shape of xls.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

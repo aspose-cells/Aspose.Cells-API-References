@@ -16,7 +16,7 @@ en unité de 1/4000 de largeur de la forme parent.
 
 S'applique uniquement lorsque cette forme se trouve dans le groupe ou le graphique.
 
-###  Exemple
+###  Exemples
 
 ```python
 

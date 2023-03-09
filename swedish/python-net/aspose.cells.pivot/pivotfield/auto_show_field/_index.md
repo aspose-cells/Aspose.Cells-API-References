@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_show_field fastighet
 
-Representerar auto show fältindex. -1 betyder själva PivotField.
+Representerar auto show field index. -1 betyder själva PivotField.
 Det bör vara indexet för datafälten.
 ###  Definition:
 ```python

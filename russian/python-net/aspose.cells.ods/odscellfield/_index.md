@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.ods/odscellfield/
 is_root: false
 ---
 ##  OdsCellField класс
-Представляет поле ячейки ods.
+Представляет ячейку поля шансов.
 
 
 

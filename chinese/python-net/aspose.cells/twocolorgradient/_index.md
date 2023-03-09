@@ -1,13 +1,13 @@
 ﻿---
 title: TwoColorGradient类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1500
 url: /zh/python-net/aspose.cells/twocolorgradient/
 is_root: false
 ---
-##  TwoColorGradient类
+## TwoColorGradient类
 表示两种颜色渐变。
 
 

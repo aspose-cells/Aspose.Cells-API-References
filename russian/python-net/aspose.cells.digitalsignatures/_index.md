@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [XAdESType](/cells/ru/python-net/aspose.cells.digitalsignatures/xadestype) | Тип расширенной электронной подписи XML (XAdES).|
 

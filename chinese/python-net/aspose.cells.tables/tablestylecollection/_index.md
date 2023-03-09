@@ -1,13 +1,13 @@
 ﻿---
 title: TableStyleCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
 url: /zh/python-net/aspose.cells.tables/tablestylecollection/
 is_root: false
 ---
-##  TableStyleCollection类
+## TableStyleCollection类
 代表所有自定义表格样式。
 
 

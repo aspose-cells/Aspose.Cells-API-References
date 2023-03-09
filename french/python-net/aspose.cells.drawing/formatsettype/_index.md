@@ -17,7 +17,7 @@ Le type FormatSetType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| NONE |Pas de format de remplissage.|
+| NONE | Pas de format de remplissage.|
 | IS_GRADIENT_SET | Format de remplissage dégradé.|
 | IS_TEXTURE_SET | Format de remplissage de texture.|
 | IS_PATTERN_SET | Format de remplissage de motif.|

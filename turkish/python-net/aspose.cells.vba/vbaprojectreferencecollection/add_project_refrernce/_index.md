@@ -22,7 +22,7 @@ def add_project_refrernce(self, name, absolute_libid, relative_libid):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Referans adı.|
 | absolute_libid | str | Başvurulan VBA projesinin mutlak yolla tanımlayıcısı.|

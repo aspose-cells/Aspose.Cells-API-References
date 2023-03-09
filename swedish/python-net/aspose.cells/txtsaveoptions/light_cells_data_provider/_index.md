@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  light_cells_data_provider fastighet
 
-Dataleverantören för att tillhandahålla celldata för att spara arbetsbok i lätt läge.
+Dataleverantören tillhandahåller celldata för att spara arbetsböcker i lätt läge.
 ###  Definition:
 ```python
 @property

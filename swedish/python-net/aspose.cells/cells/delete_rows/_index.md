@@ -18,9 +18,9 @@ def delete_rows(self, row_index, total_rows):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| row_index | int | Det första radindexet som ska raderas.|
+| row_index | int |Det första radindexet som ska raderas.|
 | total_rows | int | Antal rader som ska raderas.|
 ###  Anmärkningar
 
@@ -42,7 +42,7 @@ def delete_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 | total_rows | int | Antal rader som ska raderas.|

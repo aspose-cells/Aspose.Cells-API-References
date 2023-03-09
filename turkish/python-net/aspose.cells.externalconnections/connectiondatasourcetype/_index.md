@@ -18,15 +18,15 @@ ConnectionDataSourceType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | ODBC_BASED_SOURCE | ODBC tabanlı kaynak|
-| DAO_BASED_SOURCE | DAO tabanlı kaynak|
+| DAO_BASED_SOURCE | DAO tabanlı kaynaklar|
 | FILE_BASED_DATA_BASE_SOURCE | Dosya tabanlı veritabanı kaynağı|
-| WEB_QUERY | Web sorgusu|
-| OLEDB_BASED_SOURCE | OLE DB tabanlı kaynak|
+| WEB_QUERY | Web sorguları|
+| OLEDB_BASED_SOURCE | OLE DB tabanlı kaynaklar|
 | TEXT_BASED_SOURCE | Metin tabanlı kaynak|
 | ADO_RECORD_SET | ADO kayıt seti|
 | DSP | DSP |
 | OLEDB_DATA_MODEL | Elektronik Tablo Veri Modeli tarafından oluşturulan OLE DB veri kaynağı.|
-| DATA_FEED_DATA_MODEL | Elektronik Tablo Veri Modeli tarafından oluşturulan veri akışı veri kaynağı.|
+| DATA_FEED_DATA_MODEL |Elektronik Tablo Veri Modeli tarafından oluşturulan veri akışı veri kaynağı.|
 | WORKSHEET_DATA_MODEL | Elektronik Tablo Veri Modeli tarafından oluşturulan çalışma sayfası veri kaynağı.|
 | TABLE | Elektronik Tablo Veri Modeli tarafından oluşturulan çalışma sayfası veri kaynağı.|
 | TEXT_DATA_MODEL | Elektronik Tablo Veri Modeli tarafından oluşturulan metin veri kaynağı.|

@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | file_name | str |  |
 
@@ -34,7 +34,7 @@ def save(self, file_name, save_format):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | file_name | str | Имя файла.|
 | save_format | [SaveFormat](/cells/ru/python-net/aspose.cells/saveformat) | Тип формата сохранения.|
@@ -51,7 +51,7 @@ def save(self, file_name, save_options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | file_name | str | Имя файла.|
 | save_options | [SaveOptions](/cells/ru/python-net/aspose.cells/saveoptions) | Варианты сохранения.|
@@ -68,7 +68,7 @@ def save(self, stream, save_format):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Файловый поток.|
 | save_format | [SaveFormat](/cells/ru/python-net/aspose.cells/saveformat) | Тип формата файла сохранения.|
@@ -85,7 +85,7 @@ def save(self, stream, save_options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Файловый поток.|
 | save_options | [SaveOptions](/cells/ru/python-net/aspose.cells/saveoptions) | Варианты сохранения.|

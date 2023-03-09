@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | NONE | لا أحد|
-| HORIZONAL | أفقى|
+| HORIZONAL | أفقي|
 | VERTICAL | رَأسِيّ|
 | BOTH | كلاهما|
 

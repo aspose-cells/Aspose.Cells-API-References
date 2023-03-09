@@ -18,7 +18,7 @@ def copy(self, range, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range | [UnionRange](/cells/fr/python-net/aspose.cells/unionrange) | La plage source.|
 | options | [PasteOptions](/cells/fr/python-net/aspose.cells/pasteoptions) | Les options spéciales de collage.|

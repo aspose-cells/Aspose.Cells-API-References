@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  anchor_type Eigentum
 
-Ruft den Formankerplatzhalter ab und legt ihn fest.
+Ruft den Formankerplatzhalter ab und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

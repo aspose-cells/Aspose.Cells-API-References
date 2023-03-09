@@ -1,6 +1,6 @@
 ﻿---
 title: get_commands方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -22,7 +22,7 @@ def get_commands(self, header_footer_script):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | header_footer_script | str |页眉/页脚脚本|
 

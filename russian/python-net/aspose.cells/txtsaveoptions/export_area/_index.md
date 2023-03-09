@@ -14,7 +14,7 @@ is_root: false
 ###  Примечания
 
 Если экспортируемая область была указана, [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/ru/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-не вступит в силу.
+не подействует.
 ###  Определение:
 ```python
 @property

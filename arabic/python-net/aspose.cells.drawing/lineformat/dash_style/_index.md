@@ -11,7 +11,7 @@ is_root: false
 
 يحدد نوع شرطة الخط.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import MsoLineDashStyle

@@ -1,13 +1,13 @@
 ﻿---
 title: FormatSetType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 840
 url: /zh/python-net/aspose.cells.drawing/formatsettype/
 is_root: false
 ---
-##  FormatSetType枚举
+## FormatSetType枚举
 填充格式集类型。
 
 

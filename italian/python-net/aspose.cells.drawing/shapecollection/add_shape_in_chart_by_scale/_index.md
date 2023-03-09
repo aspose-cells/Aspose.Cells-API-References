@@ -18,7 +18,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom)
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/it/python-net/aspose.cells.drawing/msodrawingtype) | Il tipo di disegno.|
 | placement | [PlacementType](/cells/it/python-net/aspose.cells.drawing/placementtype) | il tipo di posizionamento.|
@@ -39,7 +39,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom,
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/it/python-net/aspose.cells.drawing/msodrawingtype) | Il tipo di disegno.|
 | placement | [PlacementType](/cells/it/python-net/aspose.cells.drawing/placementtype) | il tipo di posizionamento.|

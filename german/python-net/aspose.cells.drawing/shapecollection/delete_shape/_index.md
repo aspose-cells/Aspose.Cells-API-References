@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/shapecollection/delete_shape/
 is_root: false
 ---
 ##  delete_shape(shape) {#Shape}
-Löschen Sie eine Form. Wenn sich die Form in der Gruppe befindet oder eine Kommentarform ist, wird sie nicht gelöscht.
+Löschen einer Form. Wenn sich die Form in der Gruppe befindet oder eine Kommentarform ist, wird sie nicht gelöscht.
 
 
 
@@ -22,7 +22,7 @@ def delete_shape(self, shape):
 | :- | :- | :- |
 | shape | [Shape](/cells/de/python-net/aspose.cells.drawing/shape) |  |
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -18,8 +18,8 @@ Typen LineCapType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | SQUARE | Fyrkanten sticker ut med halva linjebredden.|
-| ROUND | Rundade ändar.|
-| FLAT | Linjen slutar vid ändpunkten.|
+| ROUND |Rundade ändar.|
+| FLAT | Linjen slutar vid ändpunkter.|
 | NONE | Inget lock|
 
 

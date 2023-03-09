@@ -13,7 +13,7 @@ Utvärdera det totala antalet sidor i detta kalkylblad
 
 ###  Exempel
 
-Följande kod visar det snabbaste sättet att få sidantal i ett kalkylblad.
+Följande kod visar det snabbaste sättet att få ett sidantal i ett kalkylblad.
 
 ```python
 from aspose.cells import Workbook

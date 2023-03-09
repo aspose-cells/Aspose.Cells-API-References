@@ -22,7 +22,7 @@ def add(self, area, is_vertical):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | area | str | Specifica i valori da cui tracciare la serie di dati|
 | is_vertical | bool | Specifica se tracciare la serie da un intervallo di valori di cella per riga o per colonna.|
@@ -46,7 +46,7 @@ def add(self, area, is_vertical, check_labels):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | area | str | Specifica i valori da cui tracciare la serie di dati|
 | is_vertical | bool | Specifica se tracciare la serie da un intervallo di valori di cella per riga o per colonna.|

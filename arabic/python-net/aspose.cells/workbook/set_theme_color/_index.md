@@ -18,7 +18,7 @@ def set_theme_color(self, type, color):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/ar/python-net/aspose.cells/themecolortype) | نوع لون المظهر.|
 | color | aspose.pydrawing.Color | لون المظهر|

@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.metadata/metadataoptions/__init__/
 is_root: false
 ---
 ##  MetadataOptions(metadata_type) {#MetadataType}
-Meta verileri yükleme seçeneklerini oluşturur.
+Meta verileri yükleme seçeneği oluşturur.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, metadata_type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | metadata_type | [MetadataType](/cells/tr/python-net/aspose.cells.metadata/metadatatype) | Meta veri türü.|
 

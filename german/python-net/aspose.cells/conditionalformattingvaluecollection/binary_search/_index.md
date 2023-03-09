@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [ConditionalFormattingValue](/cells/de/python-net/aspose.cells/conditionalformattingvalue) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [ConditionalFormattingValue](/cells/de/python-net/aspose.cells/conditionalformattingvalue) | Das zu lokalisierende System.Objekt.|
 
 
 

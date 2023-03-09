@@ -1,13 +1,13 @@
 ﻿---
 title: PaneCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1160
 url: /zh/python-net/aspose.cells/panecollection/
 is_root: false
 ---
-##  PaneCollection类
+## PaneCollection类
 表示指定窗口中显示的所有 Pane 对象。
 
 

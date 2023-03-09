@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die beschreibende (alternative) Textzeichenfolge des Slicer-Objekts zurück oder legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -13,7 +13,7 @@ Returnerar eller ställer in det maximala antalet iterationer för att lösa en 
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Använd istället FormulaSettings.MaxIteration.
+OBS: Den här medlemmen är nu föråldrad. Använd istället FormulaSettings.MaxIteration.
  Den här egenskapen kommer att tas bort 12 månader senare sedan februari 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

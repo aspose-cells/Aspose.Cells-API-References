@@ -18,9 +18,9 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | NONE | غير مهيأ.|
-| CELL_STYLE |منسق فقط مع النمط الأصلي للخلية.|
+| CELL_STYLE | منسق فقط مع النمط الأصلي للخلية.|
 | DISPLAY_STYLE | منسق بنمط الخلية المعروض.|
-| DISPLAY_STRING | يحصل على السلسلة المعروضة في ms excel.<br/>الاختلاف الرئيسي عن [CellValueFormatStrategy.DISPLAY_STYLE](/cells/ar/python-net/aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE) هو أن هذا الخيار يأخذ في الاعتبار أيضًا تأثير عرض العمود.<br/>إذا كان عرض العمود صغيرًا جدًا بحيث لا يمكن إظهار السلسلة المنسقة بالكامل ،<br/> قد يتم عرض "#" ، تمامًا مثل ما تفعله ms excel.|
+| DISPLAY_STRING | يحصل على السلسلة المعروضة في ms excel.<br/>الاختلاف الرئيسي عن [CellValueFormatStrategy.DISPLAY_STYLE](/cells/ar/python-net/aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE) هو أن هذا الخيار يأخذ في الاعتبار أيضًا تأثير عرض العمود.<br/>إذا كان عرض العمود صغيرًا جدًا بحيث لا يمكن إظهار السلسلة المنسقة بالكامل ،<br/>قد يتم عرض "#" ، تمامًا مثل ما تفعله ms excel.|
 
 
 

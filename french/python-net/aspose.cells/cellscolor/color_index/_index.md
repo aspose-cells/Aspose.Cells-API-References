@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index propriété
 
-Obtient et définit l'index de couleur dans la palette de couleurs. S'applique uniquement de couleur indexée.
+Obtient et définit l'index de couleur dans la palette de couleurs.
 ###  Définition:
 ```python
 @property

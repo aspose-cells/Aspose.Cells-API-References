@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_style_set mülk
 
-Hücre stilinin ayarlanıp ayarlanmadığını gösterir. false döndürürse, bu hücrenin varsayılan bir hücre formatına sahip olduğu anlamına gelir.
+Hücrenin stilinin ayarlanıp ayarlanmadığını gösterir. false döndürürse, bu hücrenin varsayılan bir hücre formatına sahip olduğu anlamına gelir.
 ###  Tanım:
 ```python
 @property

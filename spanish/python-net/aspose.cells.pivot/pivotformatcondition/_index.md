@@ -17,7 +17,7 @@ El tipo PivotFormatCondition expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [scope_type](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) |Obtenga y establezca el tipo de alcance para el formato de condición de la tabla dinámica.|
+| [scope_type](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) | Obtenga y establezca el tipo de alcance para el formato de condición de la tabla dinámica.|
 | [rule_type](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/rule_type) | Obtenga y establezca el tipo de regla para el formato de condición de la tabla dinámica.|
 | [format_conditions](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | Obtenga las condiciones de formato para el formato de condición de la tabla dinámica.|
 
@@ -29,13 +29,13 @@ El tipo PivotFormatCondition expone los siguientes miembros:
 | [add_data_area_condition(data_field)](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/add_data_area_condition/#PivotField) | Agrega límite de formato condicional de tabla dinámica en los campos de datos.|
 | [add_row_area_condition(field_name)](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#str) | Agrega límite de formato condicional de tabla dinámica en los campos de fila.|
 | [add_row_area_condition(row_field)](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#PivotField) | Agrega límite de formato condicional de tabla dinámica en los campos de fila.|
-| [add_column_area_condition(field_name)](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) |Agrega límite de formato condicional de tabla dinámica en los campos de columna.|
-| [add_column_area_condition(column_field)](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) |Agrega límite de formato condicional de tabla dinámica en los campos de columna.|
+| [add_column_area_condition(field_name)](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) | Agrega límite de formato condicional de tabla dinámica en los campos de columna.|
+| [add_column_area_condition(column_field)](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) | Agrega límite de formato condicional de tabla dinámica en los campos de columna.|
 | [set_conditional_areas()](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition/set_conditional_areas/#) | Establece áreas condicionales del objeto PivotFormatCondition.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

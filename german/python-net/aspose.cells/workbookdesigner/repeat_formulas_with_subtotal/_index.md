@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal Eigentum
 
-Gibt an, ob sich Formeln mit Zwischensummenzeile wiederholen.
+Gibt an, ob Formeln mit Zwischensummenzeilen wiederholt werden.
 ###  Definition:
 ```python
 @property

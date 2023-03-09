@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left mülk
 
-A sütununun left kenarı ile aralığın left kenarı arasındaki mesafeyi puan olarak alır.
+sütununun left kenarı ile aralığın left kenarı arasındaki mesafeyi puan olarak alır.
 ###  Tanım:
 ```python
 @property

@@ -19,7 +19,7 @@ El tipo DataSorter expone los siguientes miembros:
 | :- | :- |
 | [keys](/cells/es/python-net/aspose.cells/datasorter/keys) | Obtiene la lista de claves del clasificador de datos.|
 | [has_headers](/cells/es/python-net/aspose.cells/datasorter/has_headers) | Representa si el rango tiene encabezados.|
-| [key1](/cells/es/python-net/aspose.cells/datasorter/key1) |Representa el índice de la primera columna ordenada (posición absoluta, la columna A es 0, B es 1, ...).|
+| [key1](/cells/es/python-net/aspose.cells/datasorter/key1) | Representa el índice de la primera columna ordenada (posición absoluta, la columna A es 0, B es 1, ...).|
 | [order1](/cells/es/python-net/aspose.cells/datasorter/order1) | Representa el orden de clasificación de la primera clave.|
 | [key2](/cells/es/python-net/aspose.cells/datasorter/key2) | Representa el índice de la segunda columna ordenada (posición absoluta, la columna A es 0, B es 1, ...).|
 | [order2](/cells/es/python-net/aspose.cells/datasorter/order2) | Representa el orden de clasificación de la segunda clave.|
@@ -44,7 +44,7 @@ El tipo DataSorter expone los siguientes miembros:
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import CellArea, SortOrder, Workbook

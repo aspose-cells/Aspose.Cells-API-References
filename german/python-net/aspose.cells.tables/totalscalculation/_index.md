@@ -19,7 +19,7 @@ Der Typ TotalsCalculation macht die folgenden Member verfügbar:
 | :- | :- |
 | SUM | Stellt Summenberechnung dar.|
 | COUNT | Stellt die Berechnung der Gesamtanzahl dar.|
-| AVERAGE | Stellt die Durchschnittssummenberechnung dar.|
+| AVERAGE |Stellt die Durchschnittssummenberechnung dar.|
 | MAX | Stellt die Max-Gesamtberechnung dar.|
 | MIN | Stellt die Mindestsummenberechnung dar.|
 | VAR | Stellt die Var-Gesamtberechnung dar.|

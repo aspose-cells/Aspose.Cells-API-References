@@ -60,7 +60,7 @@ Typen CountryCode avslöjar följande medlemmar:
 | LEBANON | Libanon|
 | JORDAN | Jordanien|
 | SYRIA | Syrien|
-| IRAQ |Irak|
+| IRAQ | Irak|
 | KUWAIT | Kuwait|
 | SAUDI | Saudiarabien|
 | UNITED_ARAB_EMIRATES | Förenade arabemiraten|

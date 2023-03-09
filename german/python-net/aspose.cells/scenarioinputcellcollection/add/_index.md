@@ -24,8 +24,8 @@ def add(self, row, column, value):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| row | int | Der Zeilenindex der Eingabezelle.|
-| column | int | Der Spaltenindex der Eingabezelle.|
+| row | int | Der Zeilenindex der Eingabezellen.|
+| column | int | Der Spaltenindex der Eingabezellen.|
 | value | str | Der Wert der Eingabezelle.|
 
 

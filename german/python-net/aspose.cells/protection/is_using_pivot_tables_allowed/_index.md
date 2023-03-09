@@ -13,8 +13,8 @@ Stellt dar, ob der Benutzer berechtigt ist, Pivot-Tabellen auf einem geschützte
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
- Bitte verwenden Sie die Protection.AllowUsingPivotTable-Eigenschaft.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ Bitte verwenden Sie den Schutz Verwenden der PivotTable-Eigenschaft zulassen.
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

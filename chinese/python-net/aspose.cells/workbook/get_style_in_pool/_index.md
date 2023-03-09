@@ -1,6 +1,6 @@
 ﻿---
 title: get_style_in_pool方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
@@ -15,7 +15,7 @@ is_root: false
 
 ### 返回
 
-池中的样式对应于给定的索引，可以为空。
+池中的样式对应于给定的索引，可能为空。
 
 
 ```python
@@ -24,12 +24,12 @@ def get_style_in_pool(self, index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| index | int |指数。|
+| index | int |索引。|
 ### 评论
 
-如果改变返回的样式，则所有引用该样式的单元格的样式都会改变。
+如果返回的样式发生变化，则所有单元格（引用该样式）的样式都会发生变化。
 
 
 ### 也可以看看

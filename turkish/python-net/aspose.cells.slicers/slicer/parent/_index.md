@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent mülk
 
-Dilimleyiciyi içeren sayfayı temsil eden Worksheet nesnesini döndürür. Sadece oku.
+Dilimleyiciyi içeren sayfayı temsil eden Worksheet nesnesini döndürür.
 
-###  Örnek
+###  örnekler
 
 ```python
 

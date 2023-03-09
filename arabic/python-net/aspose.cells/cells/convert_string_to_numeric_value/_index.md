@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/convert_string_to_numeric_value/
 is_root: false
 ---
 ##  convert_string_to_numeric_value() {#}
-يحول بيانات السلسلة في الخلايا إلى قيمة رقمية إن أمكن.
+يحول بيانات السلسلة في الخلايا إلى قيم رقمية إن أمكن.
 
 
 

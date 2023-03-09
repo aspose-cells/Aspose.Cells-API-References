@@ -27,7 +27,7 @@ Der Typ Style macht die folgenden Member verfügbar:
 | [background_theme_color](/cells/de/python-net/aspose.cells/style/background_theme_color) | Ruft die Farbe des Hintergrundthemas ab und legt sie fest.|
 | [foreground_theme_color](/cells/de/python-net/aspose.cells/style/foreground_theme_color) | Ruft die Farbe des Vordergrundthemas ab und legt sie fest.|
 | [name](/cells/de/python-net/aspose.cells/style/name) | Ruft den Namen des Stils ab oder legt ihn fest.|
-| [pattern](/cells/de/python-net/aspose.cells/style/pattern) | Ruft den Typ des Zellhintergrundmusters ab oder legt diesen fest.|
+| [pattern](/cells/de/python-net/aspose.cells/style/pattern) |Ruft den Typ des Zellhintergrundmusters ab oder legt diesen fest.|
 | [borders](/cells/de/python-net/aspose.cells/style/borders) | Ruft die [BorderCollection](/cells/de/python-net/aspose.cells/bordercollection) des Stils ab.|
 | [background_color](/cells/de/python-net/aspose.cells/style/background_color) | Ruft die Hintergrundfarbe eines Stils ab oder legt sie fest.|
 | [background_argb_color](/cells/de/python-net/aspose.cells/style/background_argb_color) | Ruft die Hintergrundfarbe mit einem 32-Bit-ARGB-Wert ab und legt sie fest.|
@@ -35,15 +35,15 @@ Der Typ Style macht die folgenden Member verfügbar:
 | [foreground_argb_color](/cells/de/python-net/aspose.cells/style/foreground_argb_color) | Ruft die Vordergrundfarbe mit einem 32-Bit-ARGB-Wert ab und legt sie fest.|
 | [has_borders](/cells/de/python-net/aspose.cells/style/has_borders) | Überprüft, ob für den Stil Rahmen gesetzt wurden.|
 | [parent_style](/cells/de/python-net/aspose.cells/style/parent_style) | Ruft den übergeordneten Stil dieses Stils ab.|
-| [indent_level](/cells/de/python-net/aspose.cells/style/indent_level) | Stellt die Einzugsebene für die Zelle oder den Bereich dar. Kann nur eine ganze Zahl von 0 bis 250 sein.|
+| [indent_level](/cells/de/python-net/aspose.cells/style/indent_level) | Stellt die Einzugsebene für die Zelle oder den Bereich dar.|
 | [font](/cells/de/python-net/aspose.cells/style/font) | Ruft ein [Style.font](/cells/de/python-net/aspose.cells/style#font)-Objekt ab.|
 | [rotation_angle](/cells/de/python-net/aspose.cells/style/rotation_angle) | Stellt den Rotationswinkel des Textes dar.|
 | [horizontal_alignment](/cells/de/python-net/aspose.cells/style/horizontal_alignment) | Ruft den horizontalen Ausrichtungstyp des Texts in einer Zelle ab oder legt diesen fest.|
 | [vertical_alignment](/cells/de/python-net/aspose.cells/style/vertical_alignment) | Ruft den vertikalen Ausrichtungstyp des Texts in einer Zelle ab oder legt diesen fest.|
 | [is_text_wrapped](/cells/de/python-net/aspose.cells/style/is_text_wrapped) | Ruft einen Wert ab, der angibt, ob der Text in einer Zelle umgebrochen ist, oder legt diesen fest.|
-| [number](/cells/de/python-net/aspose.cells/style/number) | Ruft das Anzeigeformat von Zahlen und Daten ab oder legt es fest. Die Formatierungsmuster sind für verschiedene Regionen unterschiedlich.|
+| [number](/cells/de/python-net/aspose.cells/style/number) | Ruft das Anzeigeformat von Zahlen und Daten ab oder legt es fest.|
 | [is_locked](/cells/de/python-net/aspose.cells/style/is_locked) |Ruft einen Wert ab, der angibt, ob eine Zelle geändert werden kann oder nicht, oder legt diesen fest.|
-| [custom](/cells/de/python-net/aspose.cells/style/custom) | Stellt die benutzerdefinierte Zahlenformatzeichenfolge dieses Stilobjekts dar.<br/>Wenn das benutzerdefinierte Zahlenformat nicht festgelegt ist (z. B. das Zahlenformat ist integriert), wird "" zurückgegeben.|
+| [custom](/cells/de/python-net/aspose.cells/style/custom) | Stellt die benutzerdefinierte Zahlenformatzeichenfolge dieses Stilobjekts dar.<br/> Wenn das benutzerdefinierte Zahlenformat nicht festgelegt ist (z. B. das Zahlenformat ist integriert), wird "" zurückgegeben.|
 | [culture_custom](/cells/de/python-net/aspose.cells/style/culture_custom) | Ruft die kulturabhängige Musterzeichenfolge für das Zahlenformat ab und legt sie fest.<br/>Wenn für dieses Objekt kein Zahlenformat festgelegt wurde, wird null zurückgegeben.<br/> Wenn das Zahlenformat eingebaut ist, wird die Musterzeichenfolge zurückgegeben, die der eingebauten Zahl entspricht.|
 | [invariant_custom](/cells/de/python-net/aspose.cells/style/invariant_custom) | Ruft die kulturunabhängige Musterzeichenfolge für das Zahlenformat ab.<br/>Wenn für dieses Objekt kein Zahlenformat festgelegt wurde, wird null zurückgegeben.<br/> Wenn das Zahlenformat eingebaut ist, wird die Musterzeichenfolge zurückgegeben, die der eingebauten Zahl entspricht.|
 | [is_formula_hidden](/cells/de/python-net/aspose.cells/style/is_formula_hidden) | Stellt dar, ob die Formel ausgeblendet wird, wenn das Arbeitsblatt geschützt ist.|
@@ -52,7 +52,7 @@ Der Typ Style macht die folgenden Member verfügbar:
 | [is_justify_distributed](/cells/de/python-net/aspose.cells/style/is_justify_distributed) | Gibt an, ob die Zellen in der letzten Textzeile im Blocksatz oder verteilt ausgerichtet werden sollen.|
 | [quote_prefix](/cells/de/python-net/aspose.cells/style/quote_prefix) | Gibt an, ob der Wert der Zelle mit einem einfachen Anführungszeichen beginnt.|
 | [is_gradient](/cells/de/python-net/aspose.cells/style/is_gradient) | Gibt an, ob die Zellschattierung ein Verlaufsmuster ist.|
-| [is_percent](/cells/de/python-net/aspose.cells/style/is_percent) | Gibt an, ob das Zahlenformat ein Prozentformat ist.|
+| [is_percent](/cells/de/python-net/aspose.cells/style/is_percent) |Gibt an, ob das Zahlenformat ein Prozentformat ist.|
 | [is_date_time](/cells/de/python-net/aspose.cells/style/is_date_time) | Gibt an, ob das Zahlenformat ein Datumsformat ist.|
 
 
@@ -73,7 +73,7 @@ Der Typ Style macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

@@ -1,6 +1,6 @@
 ﻿---
 title: name 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## name 属性
 
-获取范围标题。这用作描述符，而不是命名范围定义。
+获取范围标题。
 ### 定义：
 ```python
 @property

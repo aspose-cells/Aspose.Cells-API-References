@@ -10,7 +10,7 @@ is_root: false
 ##  is_array_header propiedad
 
  Indica que la fórmula de la celda es una fórmula matricial
-es la primera celda de la matriz.
+y es la primera celda de la matriz.
 ###  Definición:
 ```python
 @property

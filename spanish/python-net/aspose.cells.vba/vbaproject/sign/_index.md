@@ -18,9 +18,9 @@ def sign(self, digital_signature):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| digital_signature | aspose.cells.digitalsignatures.DigitalSignature | Firma digital|
+| digital_signature | aspose.cells.digitalsignatures.DigitalSignature | firma digital|
 
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted fastighet
 
-Indikerar om inmatningscellen är raderad.
+Indikerar om indataceller raderas.
 ###  Definition:
 ```python
 @property

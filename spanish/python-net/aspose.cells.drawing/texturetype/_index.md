@@ -18,20 +18,20 @@ El tipo TextureType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | BLUE_TISSUE_PAPER | Representa el tipo de textura de papel de seda azul.|
-| BOUQUET | Representa el tipo de textura Bouquet.|
+| BOUQUET | Representa el tipo de textura de ramo.|
 | BROWN_MARBLE | Representa el tipo de textura Mármol Marrón.|
 | CANVAS | Representa el tipo de textura Canvas.|
 | CORK | Representa el tipo de textura Cork.|
-| DENIM | Representa el tipo de textura Denim.|
+| DENIM |Representa el tipo de textura Denim.|
 | FISH_FOSSIL | Representa el tipo de textura Fish Fossil.|
-| GRANITE |Representa el tipo de textura Granito.|
+| GRANITE | Representa el tipo de textura Granito.|
 | GREEN_MARBLE | Representa el tipo de textura de mármol verde.|
 | MEDIUM_WOOD | Representa el tipo de textura de madera media.|
 | NEWSPRINT | Representa el tipo de textura de papel periódico.|
 | OAK | Representa el tipo de textura de roble.|
 | PAPER_BAG | Representa el tipo de textura Bolsa de papel.|
 | PAPYRUS | Representa el tipo de textura Papyrus.|
-| PARCHMENT | Representa el tipo de textura Pergamino.|
+| PARCHMENT | Representa el tipo de textura de pergamino.|
 | PINK_TISSUE_PAPER | Representa el tipo de textura de papel de seda rosa.|
 | PURPLE_MESH | Representa el tipo de textura Purple Mesh.|
 | RECYCLED_PAPER | Representa el tipo de textura de papel reciclado.|

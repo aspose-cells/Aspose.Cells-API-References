@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/externallinkcollection/
 is_root: false
 ---
 ##  ExternalLinkCollection Klasse
-Stellt die Sammlung externer Links in einer Arbeitsmappe dar.
+Stellt eine Auflistung externer Links in einer Arbeitsmappe dar.
 
 
 
@@ -40,7 +40,7 @@ Ruft das [ExternalLink](/cells/de/python-net/aspose.cells/externallink)-Element 
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

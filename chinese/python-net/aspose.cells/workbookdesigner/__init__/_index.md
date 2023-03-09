@@ -1,6 +1,6 @@
 ﻿---
 title: WorkbookDesigner 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/zh/python-net/aspose.cells/workbook) |模板工作簿文件。|
 

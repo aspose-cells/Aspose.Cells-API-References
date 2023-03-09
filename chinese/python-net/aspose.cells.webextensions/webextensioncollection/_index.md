@@ -1,14 +1,14 @@
 ﻿---
 title: WebExtensionCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
 url: /zh/python-net/aspose.cells.webextensions/webextensioncollection/
 is_root: false
 ---
-##  WebExtensionCollection类
-表示网络扩展列表。
+## WebExtensionCollection类
+表示 Web 扩展列表。
 
 
 
@@ -31,7 +31,7 @@ WebExtensionCollection 类型公开了以下成员：
 | [last_index_of(item, index)](/cells/zh/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int) |搜索指定的对象并返回数组列表中从第一个元素到指定索引的元素范围内最后一次出现的从零开始的索引。|
 | [last_index_of(item, index, count)](/cells/zh/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int-int) |搜索指定的对象并返回数组列表中包含指定数量的元素并以指定索引结束的元素范围内最后一次出现的从零开始的索引。|
 | [add()](/cells/zh/python-net/aspose.cells.webextensions/webextensioncollection/add/#) |添加网络扩展。|
-| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/zh/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) |将网络视频播放器添加到 exel 中。|
+| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/zh/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) |将网络视频播放器添加到 excel 中。|
 | [binary_search(item)](/cells/zh/python-net/aspose.cells.webextensions/webextensioncollection/binary_search/#WebExtension) |使用默认比较器在整个排序数组列表中搜索元素，并返回元素的从零开始的索引。|
 
 

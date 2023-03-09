@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_align_type Eigentum
 
-Bestimmt, wo vertikal in einer Textzeile die eigentlichen Wörter positioniert sind. Diese Angebote
+Bestimmt, wo vertikal in einer Textzeile die eigentlichen Wörter positioniert sind.
 mit vertikaler Anordnung der Zeichen in Bezug auf die Grundlinien.
 ###  Definition:
 ```python

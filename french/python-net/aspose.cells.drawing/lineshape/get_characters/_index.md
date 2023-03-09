@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  get_characters() {#}
  Renvoie tous les objets Characters
-qui représente une plage de caractères dans le texte .
+qui représente une plage de caractères dans le texte.
 
 
 ###  Retour
@@ -24,7 +24,7 @@ def get_characters(self):
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 

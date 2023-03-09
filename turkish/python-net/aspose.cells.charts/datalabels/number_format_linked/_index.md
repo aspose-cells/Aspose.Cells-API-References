@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format_linked mülk
 
-Sayı biçimi hücrelere bağlıysa doğrudur
+ Sayı biçimi hücrelere bağlıysa doğrudur
 (hücrelerde değiştiğinde etiketlerde de sayı formatının değişmesi için).
 ###  Tanım:
 ```python

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields Eigentum
 
-Ruft die Liste der Felder von Ods ab.
+Ruft die Liste der Quotenfelder ab.
 ###  Definition:
 ```python
 @property

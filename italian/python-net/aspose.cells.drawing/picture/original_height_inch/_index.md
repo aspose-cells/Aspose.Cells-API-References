@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  original_height_inch proprietà
 
-Ottiene l'altezza originale dell'immagine, in pollici.
+Ottiene l'altezza originale dell'immagine, in unità di pollici.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

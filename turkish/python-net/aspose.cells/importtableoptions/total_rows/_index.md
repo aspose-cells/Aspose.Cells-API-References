@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_rows mülk
 
-Veri kaynağından içe aktarılacak toplam satır sayısını alır veya ayarlar. -1, verilen veri kaynağının tüm satırları anlamına gelir.
+-1, verilen veri kaynağının tüm satırları anlamına gelir.
 ###  Tanım:
 ```python
 @property

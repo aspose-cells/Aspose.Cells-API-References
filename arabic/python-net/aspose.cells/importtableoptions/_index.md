@@ -17,7 +17,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [ImportTableOptions()](/cells/ar/python-net/aspose.cells/importtableoptions/__init__/#) |ينشئ خيارات الاستيراد الافتراضية.|
+| [ImportTableOptions()](/cells/ar/python-net/aspose.cells/importtableoptions/__init__/#) | ينشئ خيارات الاستيراد الافتراضية.|
 
 
 ###  ملكيات
@@ -32,9 +32,9 @@ is_root: false
 | [date_format](/cells/ar/python-net/aspose.cells/importtableoptions/date_format) | الحصول على سلسلة تنسيق التاريخ أو تعيينها للخلايا ذات قيم التاريخ والوقت المستوردة.|
 | [number_formats](/cells/ar/python-net/aspose.cells/importtableoptions/number_formats) | الحصول على أو تحديد تنسيقات الأرقام|
 | [is_formulas](/cells/ar/python-net/aspose.cells/importtableoptions/is_formulas) | يشير إلى ما إذا كانت البيانات عبارة عن صيغ.|
-| [total_rows](/cells/ar/python-net/aspose.cells/importtableoptions/total_rows) |الحصول على أو تعيين إجمالي عدد الصفوف للاستيراد من مصدر البيانات. -1 تعني جميع صفوف مصدر البيانات المحدد.|
-| [total_columns](/cells/ar/python-net/aspose.cells/importtableoptions/total_columns) | الحصول على أو تعيين إجمالي عدد الأعمدة للاستيراد من مصدر البيانات. -1 تعني جميع صفوف مصدر البيانات المحدد.|
-| [column_indexes](/cells/ar/python-net/aspose.cells/importtableoptions/column_indexes) | الحصول على أو تعيين الأعمدة (المستندة إلى 0) للاستيراد من مصدر البيانات. فارغ يعني أنه يجب استيراد جميع الأعمدة.|
+| [total_rows](/cells/ar/python-net/aspose.cells/importtableoptions/total_rows) | -1 تعني جميع صفوف مصدر البيانات المحدد.|
+| [total_columns](/cells/ar/python-net/aspose.cells/importtableoptions/total_columns) | -1 تعني جميع صفوف مصدر البيانات المحدد.|
+| [column_indexes](/cells/ar/python-net/aspose.cells/importtableoptions/column_indexes) | الحصول على أو تعيين الأعمدة (المستندة إلى 0) للاستيراد من مصدر البيانات. تعني القيمة الخالية أنه يجب استيراد كافة الأعمدة.|
 | [default_values](/cells/ar/python-net/aspose.cells/importtableoptions/default_values) | القيمة الافتراضية للقيمة في الجدول خالية.|
 | [is_html_string](/cells/ar/python-net/aspose.cells/importtableoptions/is_html_string) | يشير إلى ما إذا كانت القيمة تحتوي على علامات html.|
 | [check_merged_cells](/cells/ar/python-net/aspose.cells/importtableoptions/check_merged_cells) | يشير إلى ما إذا كان التحقق من الخلايا المدمجة أم لا.|

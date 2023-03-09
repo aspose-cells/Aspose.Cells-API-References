@@ -18,7 +18,7 @@ def copy(self, range, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range | [UnionRange](/cells/tr/python-net/aspose.cells/unionrange) | Kaynak aralığı.|
 | options | [PasteOptions](/cells/tr/python-net/aspose.cells/pasteoptions) | Yapıştır özel seçenekler.|

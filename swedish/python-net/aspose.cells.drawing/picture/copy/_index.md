@@ -18,7 +18,7 @@ def copy(self, source, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source | [Picture](/cells/sv/python-net/aspose.cells.drawing/picture) | Källbilden.|
 | options | [CopyOptions](/cells/sv/python-net/aspose.cells/copyoptions) | Kopieringsalternativen.|

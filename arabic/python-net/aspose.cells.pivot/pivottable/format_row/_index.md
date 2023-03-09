@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.pivot/pivottable/format_row/
 is_root: false
 ---
 ##  format_row(row, style) {#int-Style}
-قم بتنسيق بيانات الصف في المنطقة المحورية
+قم بتنسيق بيانات الصف في منطقة الجدول المحوري
 
 
 
@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف لكائن الصف|
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | النمط الذي يتم تنسيقه|

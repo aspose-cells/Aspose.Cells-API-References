@@ -12,7 +12,7 @@ is_root: false
  Belirtilen şekil için metin efekti biçimlendirme özelliklerini içeren bir TextEffectFormat nesnesi döndürür.
 WordArt'ı temsil eden Shape nesneleri için geçerlidir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

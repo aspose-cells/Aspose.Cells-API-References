@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  blur Eigentum
 
-Ruft die blur des Schattens ab und setzt sie. Bereich von 0 bis 100 Punkten.
+Ermittelt und setzt die blur des Schattens. Bereich von 0 bis 100 Punkten.
 ###  Definition:
 ```python
 @property

@@ -27,7 +27,7 @@ def get_by_index(self, index):
 | index | int |  |
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die Methode Columns.GetColumnByIndex().
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

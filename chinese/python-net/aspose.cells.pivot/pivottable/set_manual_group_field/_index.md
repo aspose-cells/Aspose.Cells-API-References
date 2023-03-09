@@ -1,6 +1,6 @@
 ﻿---
 title: set_manual_group_field方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 210
@@ -18,12 +18,12 @@ def set_manual_group_field(self, base_field_index, start_val, end_val, group_by_
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | base_field_index | int |基本字段中的行或列字段索引|
 | start_val | float |指定数字分组的起始值。|
 | end_val | float |指定数字分组的结束值。|
-| group_by_list | list |指定分组类型列表。由 PivotTableGroupType 指定|
+| group_by_list | list |指定分组类型列表。|
 | interval_num | float |按数字分组指定区间数组。|
 
 
@@ -38,12 +38,12 @@ def set_manual_group_field(self, pivot_field, start_val, end_val, group_by_list,
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/zh/python-net/aspose.cells.pivot/pivotfield) |基本字段中的行或列字段|
 | start_val | float |指定数字分组的起始值。|
 | end_val | float |指定数字分组的结束值。|
-| group_by_list | list |指定分组类型列表。由 PivotTableGroupType 指定|
+| group_by_list | list |指定分组类型列表。|
 | interval_num | float |按数字分组指定区间数组。|
 
 
@@ -58,13 +58,13 @@ def set_manual_group_field(self, base_field_index, start_val, end_val, group_by_
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | base_field_index | int |基本字段中的行或列字段索引|
 | start_val | DateTime |指定日期分组的起始值。|
 | end_val | DateTime |指定日期分组的结束值。|
-| group_by_list | list |指定分组类型列表。由 PivotTableGroupType 指定|
-| interval_num | int |指定间隔数group by in days分组。天数必须是非零的正整数|
+| group_by_list | list |指定分组类型列表。|
+| interval_num | int |指定间隔数group by in days分组，天数必须是非零的正整数|
 
 
 ##  set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num) {#PivotField-DateTime-DateTime-list-int}
@@ -78,13 +78,13 @@ def set_manual_group_field(self, pivot_field, start_val, end_val, group_by_list,
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/zh/python-net/aspose.cells.pivot/pivotfield) |基本字段中的行或列字段|
 | start_val | DateTime |指定日期分组的起始值。|
 | end_val | DateTime |指定日期分组的结束值。|
-| group_by_list | list |指定分组类型列表。由 PivotTableGroupType 指定|
-| interval_num | int |指定间隔数group by in days分组。天数必须是非零的正整数|
+| group_by_list | list |指定分组类型列表。|
+| interval_num | int |指定间隔数group by in days分组，天数必须是非零的正整数|
 
 
 

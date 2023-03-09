@@ -18,7 +18,7 @@ def put_value(self, bool_value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | bool_value | bool |  |
 
@@ -34,7 +34,7 @@ def put_value(self, int_value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | int_value | int | قيمة المدخلات|
 
@@ -50,7 +50,7 @@ def put_value(self, double_value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | double_value | float | قيمة المدخلات|
 
@@ -66,7 +66,7 @@ def put_value(self, string_value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | string_value | str | قيمة المدخلات|
 
@@ -82,7 +82,7 @@ def put_value(self, date_time):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | date_time | DateTime | قيمة المدخلات|
 
@@ -98,7 +98,7 @@ def put_value(self, object_value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | object_value | any | قيمة المدخلات|
 
@@ -114,7 +114,7 @@ def put_value(self, string_value, is_converted):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | string_value | str | قيمة المدخلات|
 | is_converted | bool | صواب: تم التحويل إلى نوع بيانات آخر إذا كان ذلك مناسبًا.|
@@ -131,7 +131,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | string_value | str | قيمة المدخلات|
 | is_converted | bool | صواب: تم التحويل إلى نوع بيانات آخر إذا كان ذلك مناسبًا.|

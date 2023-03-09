@@ -24,7 +24,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [copy_format_type](/cells/ar/python-net/aspose.cells/insertoptions/copy_format_type) |  |
-| [update_reference](/cells/ar/python-net/aspose.cells/insertoptions/update_reference) | يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
+| [update_reference](/cells/ar/python-net/aspose.cells/insertoptions/update_reference) |يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
 
 
 

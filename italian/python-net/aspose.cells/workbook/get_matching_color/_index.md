@@ -22,7 +22,7 @@ def get_matching_color(self, raw_color):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | raw_color | aspose.pydrawing.Color | Colore grezzo.|
 

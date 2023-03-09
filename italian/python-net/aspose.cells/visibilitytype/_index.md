@@ -19,7 +19,7 @@ Il tipo VisibilityType espone i membri seguenti:
 | :- | :- |
 | VISIBLE | Indica che il foglio è visibile.|
 | HIDDEN | Indica che il foglio è nascosto, ma può essere visualizzato dall'utente tramite l'interfaccia utente.|
-| VERY_HIDDEN | Indica che il foglio è nascosto e non può essere visualizzato nell'interfaccia utente (UI).<br/> Questo stato è disponibile solo a livello di programmazione.|
+| VERY_HIDDEN | Indica che il foglio è nascosto e non può essere visualizzato nell'interfaccia utente (UI).<br/> Questo stato è disponibile solo a livello di codice.|
 
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: TxtLoadOptions sınıf
+title: TxtLoadOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,8 +7,8 @@ weight: 1510
 url: /tr/python-net/aspose.cells/txtloadoptions/
 is_root: false
 ---
-##  TxtLoadOptions sınıf
-Metin dosyası yükleme seçeneklerini temsil eder.
+##  TxtLoadOptions sınıfı
+Metin dosyalarını yükleme seçeneklerini temsil eder.
 
 
 
@@ -23,8 +23,8 @@ TxtLoadOptions türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [TxtLoadOptions()](/cells/tr/python-net/aspose.cells/txtloadoptions/__init__/#) | Metin dosyası yükleme seçeneklerini oluşturur.|
-| [TxtLoadOptions(load_format)](/cells/tr/python-net/aspose.cells/txtloadoptions/__init__/#LoadFormat) | Metin dosyası yükleme seçeneklerini oluşturur.|
+| [TxtLoadOptions()](/cells/tr/python-net/aspose.cells/txtloadoptions/__init__/#) | Metin dosyalarını yüklemek için seçenekler oluşturur.|
+| [TxtLoadOptions(load_format)](/cells/tr/python-net/aspose.cells/txtloadoptions/__init__/#LoadFormat) | Metin dosyalarını yüklemek için seçenekler oluşturur.|
 
 
 ###  Özellikler
@@ -41,37 +41,37 @@ TxtLoadOptions türü aşağıdaki üyeleri gösterir:
 | [standard_font_size](/cells/tr/python-net/aspose.cells/txtloadoptions/standard_font_size) | Varsayılan standart yazı tipi boyutunu ayarlar.|
 | [interrupt_monitor](/cells/tr/python-net/aspose.cells/txtloadoptions/interrupt_monitor) | Kesme monitörünü alır ve ayarlar.|
 | [ignore_not_printed](/cells/tr/python-net/aspose.cells/txtloadoptions/ignore_not_printed) | Dosya doğrudan yazdırılıyorsa yazdırılmayan verileri yok sayın|
-| [check_data_valid](/cells/tr/python-net/aspose.cells/txtloadoptions/check_data_valid) | Verilerin şablon dosyasında geçerli olup olmadığını kontrol edin.|
-| [check_excel_restriction](/cells/tr/python-net/aspose.cells/txtloadoptions/check_excel_restriction) | Kullanıcı hücrelerle ilgili nesneleri değiştirdiğinde excel dosyasının kısıtlamasının kontrol edilip edilmeyeceği.<br/>Örneğin, excel 32K'dan daha uzun bir dizi değeri girilmesine izin vermez.<br/>Cell.PutValue(string) gibi 32K'dan uzun bir değer girdiğinizde, bu özellik doğruysa, bir İstisna alırsınız.<br/>Bu özellik yanlışsa, giriş dizesi değerinizi hücrenin değeri olarak kabul edeceğiz, böylece daha sonra<br/>CSV gibi diğer dosya formatları için tam dizi değerinin çıktısını alabilirsiniz.<br/>Ancak excel dosya formatı için geçersiz olan bir değer belirlediyseniz,<br/> çalışma kitabını daha sonra excel dosya formatında kaydetmemelisiniz. Aksi halde oluşturulan excel dosyasında beklenmeyen bir hata olabilir.|
-| [keep_unparsed_data](/cells/tr/python-net/aspose.cells/txtloadoptions/keep_unparsed_data) |Şablon dosyasından yüklendiğinde Çalışma Kitabı için ayrıştırılmamış verilerin bellekte tutulup tutulmadığı. Varsayılan doğrudur.|
+| [check_data_valid](/cells/tr/python-net/aspose.cells/txtloadoptions/check_data_valid) |Verilerin şablon dosyasında geçerli olup olmadığını kontrol edin.|
+| [check_excel_restriction](/cells/tr/python-net/aspose.cells/txtloadoptions/check_excel_restriction) | Kullanıcı hücrelerle ilgili nesneleri değiştirdiğinde excel dosyasının kısıtlamasının kontrol edilip edilmeyeceği.<br/>Örneğin, excel 32K'dan daha uzun bir dizi değeri girilmesine izin vermez.<br/>Cell.PutValue(string) gibi 32K'dan uzun bir değer girdiğinizde, bu özellik doğruysa, bir İstisna alırsınız.<br/>Bu özellik yanlışsa, giriş dizesi değerinizi hücrenin değeri olarak kabul edeceğiz, böylece daha sonra<br/>CSV gibi diğer dosya formatları için tam dizi değerinin çıktısını alabilirsiniz.<br/>Ancak excel dosya formatı için geçersiz olan bir değer belirlediyseniz,<br/> çalışma kitabını daha sonra excel dosya formatında kaydetmemelisiniz.|
+| [keep_unparsed_data](/cells/tr/python-net/aspose.cells/txtloadoptions/keep_unparsed_data) | Şablon dosyasından yüklendiğinde Çalışma Kitabı için ayrıştırılmamış verilerin bellekte tutulup tutulmadığı. Varsayılan değer true'dur.|
 | [load_filter](/cells/tr/python-net/aspose.cells/txtloadoptions/load_filter) | Verilerin nasıl yükleneceğini gösteren filtre.|
 | [light_cells_data_handler](/cells/tr/python-net/aspose.cells/txtloadoptions/light_cells_data_handler) | Şablon dosyasını okurken hücre verilerini işlemek için veri işleyici.|
 | [memory_setting](/cells/tr/python-net/aspose.cells/txtloadoptions/memory_setting) | Bellek kullanım seçeneklerini alır veya ayarlar.|
-| [warning_callback](/cells/tr/python-net/aspose.cells/txtloadoptions/warning_callback) | Uyarı geri aramasını alır veya ayarlar.|
+| [warning_callback](/cells/tr/python-net/aspose.cells/txtloadoptions/warning_callback) | Uyarı geri aramalarını alır veya ayarlar.|
 | [auto_fitter_options](/cells/tr/python-net/aspose.cells/txtloadoptions/auto_fitter_options) | Otomatik fitre seçeneklerini alır ve ayarlar|
 | [auto_filter](/cells/tr/python-net/aspose.cells/txtloadoptions/auto_filter) | Dosyaları yüklerken verilerin otomatik olarak filtrelenip filtrelenmediğini gösterir.|
 | [font_configs](/cells/tr/python-net/aspose.cells/txtloadoptions/font_configs) | Bireysel yazı tipi yapılandırmalarını alır ve ayarlar.<br/> Yalnızca yüklemek için bu [LoadOptions](/cells/tr/python-net/aspose.cells/loadoptions)'i kullanan [Workbook](/cells/tr/python-net/aspose.cells/workbook) için çalışır.|
-| [encoding](/cells/tr/python-net/aspose.cells/txtloadoptions/encoding) | Varsayılan kodlamayı alır ve ayarlar. Yalnızca csv dosyası için geçerlidir.|
+| [encoding](/cells/tr/python-net/aspose.cells/txtloadoptions/encoding) | Varsayılan kodlamayı alır ve ayarlar.|
 | [load_style_strategy](/cells/tr/python-net/aspose.cells/txtloadoptions/load_style_strategy) |Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini belirtir.|
 | [convert_numeric_data](/cells/tr/python-net/aspose.cells/txtloadoptions/convert_numeric_data) | Metin dosyasındaki dizenin sayısal verilere dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar.|
 | [convert_date_time_data](/cells/tr/python-net/aspose.cells/txtloadoptions/convert_date_time_data) | Metin dosyasındaki dizenin tarih verilerine dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar.|
 | [keep_precision](/cells/tr/python-net/aspose.cells/txtloadoptions/keep_precision) | Uzunluk 15 ise bir dize değerinin ayrıştırılıp ayrıştırılmayacağını gösterir.|
-| [separator](/cells/tr/python-net/aspose.cells/txtloadoptions/separator) |Metin dosyasının karakter ayırıcısını alır ve ayarlar.|
+| [separator](/cells/tr/python-net/aspose.cells/txtloadoptions/separator) | Metin dosyasının karakter ayırıcısını alır ve ayarlar.|
 | [separator_string](/cells/tr/python-net/aspose.cells/txtloadoptions/separator_string) | Ayırıcı olarak bir dize değeri alır ve ayarlar.|
 | [is_multi_encoded](/cells/tr/python-net/aspose.cells/txtloadoptions/is_multi_encoded) | Doğru, dosyanın birkaç kodlama içerdiği anlamına gelir.|
-| [preferred_parsers](/cells/tr/python-net/aspose.cells/txtloadoptions/preferred_parsers) | Metin dosyasını yüklemek için tercih edilen değer ayrıştırıcılarını alır ve ayarlar.|
+| [preferred_parsers](/cells/tr/python-net/aspose.cells/txtloadoptions/preferred_parsers) |Metin dosyalarını yüklemek için tercih edilen değer ayrıştırıcılarını alır ve ayarlar.|
 | [has_formula](/cells/tr/python-net/aspose.cells/txtloadoptions/has_formula) | Metnin "=" ile başlaması halinde formül olup olmadığını gösterir.|
-| [has_text_qualifier](/cells/tr/python-net/aspose.cells/txtloadoptions/has_text_qualifier) | Hücre değeri için metin niteleyici olup olmadığı. Varsayılan doğrudur.|
-| [text_qualifier](/cells/tr/python-net/aspose.cells/txtloadoptions/text_qualifier) | Hücre değerleri için metin niteleyicisini belirtir. Varsayılan niteleyici '''' şeklindedir.|
-| [treat_consecutive_delimiters_as_one](/cells/tr/python-net/aspose.cells/txtloadoptions/treat_consecutive_delimiters_as_one) |Ardışık sınırlayıcıların tek olarak ele alınması gerekip gerekmediği.|
-| [treat_quote_prefix_as_value](/cells/tr/python-net/aspose.cells/txtloadoptions/treat_quote_prefix_as_value) |Baştaki tek tırnak işaretinin bir hücrenin değerinin parçası olarak alınması gerekip gerekmediğini gösterir.<br/>Varsayılan doğrudur. Yanlışsa, baştaki tek tırnak, karşılık gelen hücrenin değerinden kaldırılacaktır.<br/> ve [Style.quote_prefix](/cells/tr/python-net/aspose.cells/style#quote_prefix), hücre için doğru olarak ayarlanacaktır.|
+| [has_text_qualifier](/cells/tr/python-net/aspose.cells/txtloadoptions/has_text_qualifier) | Hücre değeri için metin niteleyici olup olmadığı. Varsayılan değer true'dur.|
+| [text_qualifier](/cells/tr/python-net/aspose.cells/txtloadoptions/text_qualifier) | Hücre değerleri için metin niteleyicisini belirtir.Varsayılan niteleyici '"' şeklindedir.|
+| [treat_consecutive_delimiters_as_one](/cells/tr/python-net/aspose.cells/txtloadoptions/treat_consecutive_delimiters_as_one) | Ardışık sınırlayıcıların tek olarak ele alınması gerekip gerekmediği.|
+| [treat_quote_prefix_as_value](/cells/tr/python-net/aspose.cells/txtloadoptions/treat_quote_prefix_as_value) | Baştaki tek tırnak işaretinin bir hücrenin değerinin parçası olarak alınması gerekip gerekmediğini gösterir.<br/>Varsayılan doğrudur. Yanlış ise, baştaki tek tırnak, karşılık gelen hücrenin değerinden kaldırılacaktır.<br/> ve [Style.quote_prefix](/cells/tr/python-net/aspose.cells/style#quote_prefix), hücre için doğru olarak ayarlanacaktır.|
 | [extend_to_next_sheet](/cells/tr/python-net/aspose.cells/txtloadoptions/extend_to_next_sheet) | Veri satırları veya sütunları sınırı aştığında verileri bir sonraki sayfaya genişletip genişletmeyeceği.<br/>Bu özellik doğruysa, ekstra veriler mevcut sayfanın arkasındaki bir sonraki sayfaya genişletilir (geçerli sayfa sonuncuysa,<br/>geçerli çalışma kitabına yeni sayfa eklenecektir).<br/>Bu özellik false ise, limiti aşan veri yoksayılır.<br/> Varsayılan yanlıştır;|
 
 
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [set_paper_size(type)](/cells/tr/python-net/aspose.cells/txtloadoptions/set_paper_size/#PaperSizeType) | Varsayılan yazıcı ayarından varsayılan yazdırma kağıdı boyutunu ayarlar.|
+| [set_paper_size(type)](/cells/tr/python-net/aspose.cells/txtloadoptions/set_paper_size/#PaperSizeType) | Varsayılan yazıcının ayarından varsayılan yazdırma kağıdı boyutunu ayarlar.|
 
 
 

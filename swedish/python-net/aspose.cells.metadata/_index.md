@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
 | [MetadataType](/cells/sv/python-net/aspose.cells.metadata/metadatatype) | Representerar typen av metadata.|
 

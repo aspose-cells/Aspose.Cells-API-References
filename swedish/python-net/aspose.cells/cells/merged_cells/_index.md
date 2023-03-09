@@ -13,7 +13,7 @@ Hämtar samlingen av sammanslagna celler.
 
 ###  Anmärkningar
 
-I den här samlingen är varje objekt en [CellArea](/cells/sv/python-net/aspose.cells/cellarea)-struktur som representerar ett område med sammanslagna celler.
+den här samlingen är varje föremål en [CellArea](/cells/sv/python-net/aspose.cells/cellarea)-struktur som representerar ett område med sammanslagna celler.
 ###  Definition:
 ```python
 @property

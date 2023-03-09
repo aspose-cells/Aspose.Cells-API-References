@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/chartglobalizationsettings/get_series_na
 is_root: false
 ---
 ##  get_series_name() {#}
-Grafikteki Serinin adını alır.
+Grafikteki Dizinin adını alır.
 
 
 ###  İadeler

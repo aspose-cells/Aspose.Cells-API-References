@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  blur proprietà
 
-Ottiene e imposta il numero blur dell'ombra. Intervallo da 0 a 100 punti.
+Ottiene e imposta il numero blur dell'ombra.Intervallo da 0 a 100 punti.
 ###  Definizione:
 ```python
 @property

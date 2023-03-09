@@ -22,7 +22,7 @@ def filter(self, type, sheet_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [NameScopeType](/cells/sv/python-net/aspose.cells/namescopetype) | Omfattningstypen.|
 | sheet_index | int | Arkindex.<br/>Effekter endast när scope-typen är [NameScopeType.WORKSHEET](/cells/sv/python-net/aspose.cells/namescopetype#WORKSHEET) |

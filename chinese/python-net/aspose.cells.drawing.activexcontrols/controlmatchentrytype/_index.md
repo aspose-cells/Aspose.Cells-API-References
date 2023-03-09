@@ -1,13 +1,13 @@
 ﻿---
 title: ControlMatchEntryType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/controlmatchentrytype/
 is_root: false
 ---
-##  ControlMatchEntryType枚举
+## ControlMatchEntryType枚举
 表示 ListBox 或 ComboBox 如何在用户键入时搜索其列表。
 
 

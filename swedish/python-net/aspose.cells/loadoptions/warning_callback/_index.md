@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback fastighet
 
-Får eller ställer in varningsåteruppringning.
+Får eller ställer in varningsuppringningar.
 ###  Definition:
 ```python
 @property

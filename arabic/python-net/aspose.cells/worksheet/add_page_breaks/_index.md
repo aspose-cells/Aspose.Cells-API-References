@@ -18,7 +18,7 @@ def add_page_breaks(self, cell_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | cell_name | str |  |
 

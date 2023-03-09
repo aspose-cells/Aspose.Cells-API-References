@@ -13,7 +13,7 @@ Lägger till en smart tagg.
 
 ###  Returnerar
 
-Indexet för smart tag i listan.
+Indexet över smarta taggar i listan.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | uri | str | Anger namnutrymmes-URI för smarttaggen|
 | name | str | Anger namnet på den smarta taggen.|

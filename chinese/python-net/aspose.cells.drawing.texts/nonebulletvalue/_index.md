@@ -1,13 +1,13 @@
 ﻿---
 title: NoneBulletValue类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
 url: /zh/python-net/aspose.cells.drawing.texts/nonebulletvalue/
 is_root: false
 ---
-##  NoneBulletValue类
+## NoneBulletValue类
 代表没有子弹。
 
 

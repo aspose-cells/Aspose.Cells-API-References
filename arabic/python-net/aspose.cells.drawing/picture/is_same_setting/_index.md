@@ -22,11 +22,11 @@ def is_same_setting(self, obj):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | obj | any |  |
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

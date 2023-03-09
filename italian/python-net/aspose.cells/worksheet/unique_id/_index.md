@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  unique_id proprietà
 
-Ottiene e imposta l'ID univoco, uguale a {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.
+Ottiene e imposta l'ID univoco, è uguale a {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.
 ###  Definizione:
 ```python
 @property

@@ -13,8 +13,8 @@ Ottiene e imposta la lunghezza iniziale della punta della freccia della linea.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
- si prega di utilizzare la proprietà Shape.Line.BeginArrowheadLength.
+ NOTA: questo membro è ora obsoleto.
+si prega di utilizzare la proprietà Shape.Line.BeginArrowheadLength.
  Questa proprietà verrà rimossa 12 mesi dopo da agosto 2016.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

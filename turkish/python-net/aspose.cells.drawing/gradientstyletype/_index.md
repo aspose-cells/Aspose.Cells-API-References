@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/gradientstyletype/
 is_root: false
 ---
 ##  GradientStyleType numaralandırma
-Degrade gölgeleme stilini temsil eder.
+Degrade gölgelendirme stilini temsil eder.
 
 
 
@@ -23,7 +23,7 @@ GradientStyleType türü aşağıdaki üyeleri gösterir:
 | FROM_CORNER | Köşe gölgelendirme stilinden|
 | HORIZONTAL | Yatay gölgeleme stili|
 | VERTICAL | Dikey gölgeleme stili|
-| UNKNOWN | Bilinmeyen gölgeleme stili.Yalnızca şablon dosyasındaki (GradientStyleType'ın herhangi bir üyesi için olmayan) gölgeleme stili için.|
+| UNKNOWN |Bilinmeyen gölgeleme stili. Yalnızca şablon dosyasındaki (GradientStyleType'ın herhangi bir üyesi için olmayan) gölgeleme stili için.|
 
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: count 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## count 属性
 
-获取记录的 count。 -1 表示未知记录 count。
+获取记录的 count。-1 表示未知记录 count。
 ### 定义：
 ```python
 @property

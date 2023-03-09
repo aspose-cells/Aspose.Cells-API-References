@@ -22,7 +22,7 @@ is_root: false
 | AVERAGE | يمثل دالة متوسط.|
 | MAX | يمثل ماكس وظيفة.|
 | MIN | يمثل وظيفة دقيقة.|
-| PRODUCT | يمثل وظيفة المنتج.|
+| PRODUCT | يمثل وظائف المنتج.|
 | COUNT_NUMS | يمثل وظيفة عدد الأعداد.|
 | STD_DEV | يمثل وظيفة StdDev.|
 | STD_DEVP | يمثل وظيفة StdDevp.|

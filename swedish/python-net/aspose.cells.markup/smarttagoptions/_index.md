@@ -23,8 +23,8 @@ Typen SmartTagOptions avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [embed_smart_tags](/cells/sv/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) |Anger om smarta taggar sparas med arbetsboken.|
-| [show_type](/cells/sv/python-net/aspose.cells.markup/smarttagoptions/show_type) | Representerar showtypen av smart tag.|
+| [embed_smart_tags](/cells/sv/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) | Anger om smarta taggar sparas med arbetsboken.|
+| [show_type](/cells/sv/python-net/aspose.cells.markup/smarttagoptions/show_type) | Representerar showtypen av smart tagg.|
 
 
 

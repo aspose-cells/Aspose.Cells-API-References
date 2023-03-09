@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le décalage vertical de la forme par rapport à la bordure supérieure de la feuille de calcul, en pixels.
 
-###  Exemple
+###  Exemples
 
 ```python
 

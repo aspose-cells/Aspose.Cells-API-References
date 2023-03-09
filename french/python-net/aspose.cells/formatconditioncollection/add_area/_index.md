@@ -8,12 +8,12 @@ url: /fr/python-net/aspose.cells/formatconditioncollection/add_area/
 is_root: false
 ---
 ##  add_area(cell_area) {#CellArea}
-Ajoute une plage de cellules mise en forme conditionnelle.
+Ajoute une plage de cellules mise en forme de manière conditionnelle.
 
 
 ###  Retour
 
-Index de rang de cellule formaté conditionnel.
+Index de rang de cellule formaté de manière conditionnelle.
 
 
 ```python
@@ -22,9 +22,9 @@ def add_area(self, cell_area):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Plage de cellules mise en forme conditionnelle.|
+| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) |Plage de cellules mise en forme de manière conditionnelle.|
 
 
 

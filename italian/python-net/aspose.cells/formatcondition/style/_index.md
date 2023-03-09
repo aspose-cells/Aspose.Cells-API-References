@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style proprietà
 
-Ottiene o imposta style di intervalli di celle formattati condizionali.
+Ottiene o imposta style di intervalli di celle con formattazione condizionale.
 ###  Definizione:
 ```python
 @property

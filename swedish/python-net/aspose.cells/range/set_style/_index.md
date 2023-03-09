@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Stilobjektet.|
 
@@ -34,7 +34,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Cellstilen.|
 | explicit_flag | bool | Det är sant, endast överskrivning av formatering som är explicit inställd.|

@@ -13,7 +13,7 @@ Analyse la chaîne donnée à l'objet de valeur approprié.
 
 ###  Retour
 
-Objet de valeur analysé à partir d'une chaîne donnée. Si la chaîne donnée ne peut pas être analysée en objet de valeur approprié, renvoie null.
+Objet de valeur analysé à partir d'une chaîne donnée.
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | value | str | La valeur de chaîne à analyser|
 

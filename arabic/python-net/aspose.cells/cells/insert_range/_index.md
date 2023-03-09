@@ -18,7 +18,7 @@ def insert_range(self, area, shift_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | منطقة التحول.|
 | shift_type | [ShiftType](/cells/ar/python-net/aspose.cells/shifttype) | خيار تحويل الخلايا.|
@@ -35,10 +35,10 @@ def insert_range(self, area, shift_number, shift_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | منطقة التحول.|
-| shift_number | int |عدد الصفوف أو الأعمدة المراد إدراجها.|
+| shift_number | int | عدد الصفوف أو الأعمدة المراد إدراجها.|
 | shift_type | [ShiftType](/cells/ar/python-net/aspose.cells/shifttype) | خيار تحويل الخلايا.|
 
 
@@ -53,10 +53,10 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | منطقة التحول.|
-| shift_number | int |عدد الصفوف أو الأعمدة المراد إدراجها.|
+| shift_number | int | عدد الصفوف أو الأعمدة المراد إدراجها.|
 | shift_type | [ShiftType](/cells/ar/python-net/aspose.cells/shifttype) | خيار تحويل الخلايا.|
 | update_reference | bool | يشير إلى ما إذا كان يتم تحديث المراجع في أوراق العمل الأخرى.|
 

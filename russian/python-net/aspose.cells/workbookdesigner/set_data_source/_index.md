@@ -18,7 +18,7 @@ def set_data_source(self, data_source, cells_data_table):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | data_source | str | Имя источника данных.|
 | cells_data_table | [ICellsDataTable](/cells/ru/python-net/aspose.cells/icellsdatatable) | Таблица данных.|
@@ -35,9 +35,9 @@ def set_data_source(self, variable, data):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| variable | str |Имя переменной, созданное с помощью смарт-маркера.|
+| variable | str | Имя переменной, созданное с помощью смарт-маркера.|
 | data | any | Источник данных.|
 
 

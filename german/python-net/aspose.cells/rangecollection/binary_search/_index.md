@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [Range](/cells/de/python-net/aspose.cells/range) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [Range](/cells/de/python-net/aspose.cells/range) | Das zu lokalisierende System.Objekt.|
 
 
 

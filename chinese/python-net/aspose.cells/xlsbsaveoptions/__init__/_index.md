@@ -1,6 +1,6 @@
 ﻿---
 title: XlsbSaveOptions 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -31,9 +31,9 @@ def __init__(self, save_format):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/zh/python-net/aspose.cells/saveformat) |保存格式。它必须是 xlsb。|
+| save_format | [SaveFormat](/cells/zh/python-net/aspose.cells/saveformat) |保存格式。必须是xlsb。|
 ### 评论
 
 注意：此构造函数现在已过时。

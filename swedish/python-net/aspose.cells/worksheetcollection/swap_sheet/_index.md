@@ -18,7 +18,7 @@ def swap_sheet(self, sheet_index1, sheet_index2):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet_index1 | int | Det första arbetsbladet.|
 | sheet_index2 | int | Det andra arbetsbladet.|

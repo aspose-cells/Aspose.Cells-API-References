@@ -18,7 +18,7 @@ Der Typ HtmlHiddenRowDisplayType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | HIDDEN | Versteckte die versteckten Zeilen in der HTML-Seite.|
-| REMOVE | Entfernen Sie die versteckten Zeilen in der HTML-Seite.|
+| REMOVE | Entfernen Sie die versteckten Zeilen in HTML-Seiten.|
 
 
 

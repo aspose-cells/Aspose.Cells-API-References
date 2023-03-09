@@ -18,10 +18,10 @@ def __init__(self, worksheet, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | worksheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | Ange vilket kalkylblad som ska renderas.|
-| options | [ImageOrPrintOptions](/cells/sv/python-net/aspose.cells.rendering/imageorprintoptions) |ImageOrPrintOptions innehåller en viss egenskap för utdatabild|
+| options | [ImageOrPrintOptions](/cells/sv/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions innehåller en viss egenskap för utdatabild|
 
 
 

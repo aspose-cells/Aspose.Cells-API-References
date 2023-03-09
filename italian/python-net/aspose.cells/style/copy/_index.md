@@ -18,7 +18,7 @@ def copy(self, style):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | style | [Style](/cells/it/python-net/aspose.cells/style) | Oggetto stile di origine|
 ###  Osservazioni

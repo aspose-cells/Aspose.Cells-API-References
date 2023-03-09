@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Notlar
 
-Her aramada bir dizi dizisi oluşturulur. Dizi sıralanır ve yinelenen değerler kaldırılır.
+Her aramada bir dizi dizisi oluşturulur.
 
 
 ###  Ayrıca bakınız

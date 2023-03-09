@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Längentyp des Endpfeils der Linie ab und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import MsoArrowheadLength

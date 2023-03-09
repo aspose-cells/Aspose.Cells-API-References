@@ -16,7 +16,7 @@ Hangi sayfaların yazdırılmayacağını belirtir.
 Sayfadaki içerik seyrekse, çıktı pdf dosyasında bazı sayfalar tamamen boş olacaktır.
 Bu boş sayfaları istemiyorsanız, onları atlamak için bu seçeneği kullanabilirsiniz.
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, boş sayfaları veya yalnızca hücre arka planı, kenarlıklar gibi bazı stil içeriği içeren sayfaları atlar.
 

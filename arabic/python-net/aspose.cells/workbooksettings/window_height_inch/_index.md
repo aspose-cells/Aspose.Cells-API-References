@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_inch الملكية
 
-ارتفاع النافذة بوحدة البوصة.
+ارتفاع النافذة بوحدات البوصة.
 ###  تعريف:
 ```python
 @property

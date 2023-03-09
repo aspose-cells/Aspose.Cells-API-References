@@ -1,6 +1,6 @@
 ﻿---
 title: add_shape方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 260
@@ -22,14 +22,14 @@ def add_shape(self, type, upper_left_row, top, upper_left_column, left, height, 
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/zh/python-net/aspose.cells.drawing/msodrawingtype) | Mso 绘图类型。|
 | upper_left_row | int |左上行索引。|
 | top | int |表示 Shape 从其左行的垂直偏移量，以像素为单位。|
 | upper_left_column | int |左上列索引。|
 | left | int |表示 Shape 从其左列的水平偏移量，以像素为单位。|
-| height | int |表示Shape的高度，单位为像素。|
+| height | int |表示 Shape 的高度，以像素为单位。|
 | width | int |表示 Shape 的宽度，以像素为单位。|
 ### 评论
 

@@ -13,9 +13,9 @@ Ottiene o imposta il tipo separator utilizzato per le etichette dati in un grafi
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
 utilizzare la proprietà DataLabels.SeparatorType.
-Questa proprietà verrà rimossa 12 mesi dopo da settembre 2020.
+ Questa proprietà verrà rimossa 12 mesi dopo da settembre 2020.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:
 ```python

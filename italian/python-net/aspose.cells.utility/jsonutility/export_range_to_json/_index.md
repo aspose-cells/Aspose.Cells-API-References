@@ -22,15 +22,15 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range | [Range](/cells/it/python-net/aspose.cells/range) | La gamma.|
 | options | [ExportRangeToJsonOptions](/cells/it/python-net/aspose.cells.utility/exportrangetojsonoptions) | Le opzioni di esportazione.|
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+NOTA: questo membro è ora obsoleto.
 utilizzare il metodo ExportRangeToJson(Range range, JsonSaveOptions options).
-Questa proprietà verrà rimossa 6 mesi dopo da novembre 2022.
+ Questa proprietà verrà rimossa 6 mesi dopo da novembre 2022.
 Aspose si scusa per gli eventuali disagi causati.
 
 ##  export_range_to_json(range, options) {#Range-JsonSaveOptions}
@@ -48,7 +48,7 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range | [Range](/cells/it/python-net/aspose.cells/range) | La gamma.|
 | options | [JsonSaveOptions](/cells/it/python-net/aspose.cells/jsonsaveoptions) | Le opzioni di esportazione.|

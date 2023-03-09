@@ -18,7 +18,7 @@ def auto_fit_column(self, column_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | Sütun dizini.|
 ###  Notlar
@@ -37,7 +37,7 @@ def auto_fit_column(self, column_index, first_row, last_row):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | Sütun dizini.|
 | first_row | int | İlk satır dizini.|

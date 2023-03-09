@@ -11,7 +11,7 @@ is_root: false
 
 Slicer nesnesinin açıklayıcı (alternatif) metin dizesini döndürür veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

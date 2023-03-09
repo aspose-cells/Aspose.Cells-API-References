@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields mülk
 
-ods alanlarının listesini alır.
+Oran alanlarının listesini alır.
 ###  Tanım:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene/imposta la direzione del flusso di testo per questo oggetto.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import TextDirectionType

@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [type](/cells/ar/python-net/aspose.cells/externallink/type) | يحصل على نوع الارتباط الخارجي.|
 | [original_data_source](/cells/ar/python-net/aspose.cells/externallink/original_data_source) | يمثل مصدر البيانات المخزنة للارتباط الخارجي.|
-| [data_source](/cells/ar/python-net/aspose.cells/externallink/data_source) |يمثل مصدر بيانات الارتباط الخارجي.|
+| [data_source](/cells/ar/python-net/aspose.cells/externallink/data_source) | يمثل مصدر بيانات الارتباط الخارجي.|
 | [is_referred](/cells/ar/python-net/aspose.cells/externallink/is_referred) | يشير إلى ما إذا كان الآخرون قد أشاروا إلى هذا الارتباط الخارجي.|
 | [is_visible](/cells/ar/python-net/aspose.cells/externallink/is_visible) | يشير إلى ما إذا كان هذا الارتباط الخارجي مرئيًا في MS Excel.|
 
@@ -31,7 +31,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

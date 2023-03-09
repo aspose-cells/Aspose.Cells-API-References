@@ -18,9 +18,9 @@ def set_footer(self, section, footer_script):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| section | int |0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
+| section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
 | footer_script | str | Skript i sidfotsformat.|
 ###  Anmärkningar
 
@@ -36,8 +36,8 @@ Skriptkommandon:
 | &F| Filnamn utan sökväg|
 | &"<FontName>"| Teckensnittsnamn, till exempel: &"Arial"|
 | &"<FontName>, <FontStyle>"| Teckensnittsnamn och teckensnittsstil, till exempel: &"Arial,Fet"|
-| &<FontSize>| Textstorlek. Om detta kommando följs av ett vanligt nummer som ska skrivas ut i rubriken, kommer det att separeras från teckensnittets höjd med ett mellanslag.|
-| &K<RRGGBB>| Teckensnittsfärg, till exempel (RÖD): &KFF0000|
+| &<FontSize>| Teckenstorlek Om detta kommando följs av ett vanligt nummer som ska skrivas ut i rubriken, kommer det att separeras från teckensnittets höjd med ett mellanslag.|
+| &K<RRGGBB>|Teckensnittsfärg, till exempel (RÖD): &KFF0000|
 | &G| Bildskript|
 
 Till exempel: "&Arial,Fet&8sidfotsanteckning"

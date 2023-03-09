@@ -22,7 +22,7 @@ def is_intersect(self, range):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | range | [Range](/cells/ar/python-net/aspose.cells/range) | النطاق.|
 ###  ملاحظات

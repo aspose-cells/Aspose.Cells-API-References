@@ -10,7 +10,7 @@ is_root: false
 ##  quality fastighet
 
 Hämtar eller ställer in ett värde som bestämmer quality för de genererade bilderna
-gäller endast när du sparar sidor i formatet `Jpeg`. Standardvärdet är 100
+gäller endast när du sparar sidor i formatet `Jpeg`.
 
 ###  Anmärkningar
 

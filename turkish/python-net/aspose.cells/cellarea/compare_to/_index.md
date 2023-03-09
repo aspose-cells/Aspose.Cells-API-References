@@ -13,7 +13,7 @@ is_root: false
 
 ###  İadeler
 
-İki köşe farklı sıralardaysa, sıra dizinlerini karşılaştırın. Aksi takdirde, sütun dizinlerini karşılaştırın.
+İki köşe farklı sıralardaysa, sıra dizinlerini karşılaştırın.
 İki köşe aynıysa, 0 döndürülür.
 
 
@@ -23,7 +23,7 @@ def compare_to(self, obj):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | obj | any |  |
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  alignment mülk
 
-Kontrole göre Resim Yazısının konumunu alır ve ayarlar.
+Kontrole göre Caption konumunu alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

@@ -19,9 +19,9 @@ El tipo BorderType expone los siguientes miembros:
 | :- | :- |
 | BOTTOM_BORDER | Representa la línea del borde inferior.|
 | DIAGONAL_DOWN | Representa la línea diagonal desde la parte superior izquierda hasta la parte inferior derecha.|
-| DIAGONAL_UP |Representa la línea diagonal de abajo a la izquierda a la derecha arriba.|
+| DIAGONAL_UP | Representa la línea diagonal de abajo a la izquierda a la derecha arriba.|
 | LEFT_BORDER | Representa la línea del borde izquierdo.|
-| RIGHT_BORDER | Representa que existe una línea de borde derecho.|
+| RIGHT_BORDER |Representa que existe una línea de borde derecho.|
 | TOP_BORDER | Representa la línea del borde superior.|
 | HORIZONTAL | Solo para estilo dinámico, como el formato condicional.|
 | VERTICAL | Solo para estilo dinámico, como el formato condicional.|

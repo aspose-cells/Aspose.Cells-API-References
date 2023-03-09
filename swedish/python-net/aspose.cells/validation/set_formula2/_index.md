@@ -18,9 +18,9 @@ def set_formula2(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| formula | str | Värdet eller uttrycket som är associerat med detta formatvillkor.|
+| formula | str |Värdet eller uttrycket som är associerat med detta formatvillkor.|
 | is_r1c1 | bool | Om formeln är R1C1-formel.|
 | is_local | bool | Om formeln är språkformaterad.|
 

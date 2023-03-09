@@ -18,8 +18,8 @@ El tipo TickMarkType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | CROSS | El tipo de marca de verificación es Cruz.|
-| INSIDE |El tipo de marca de verificación es Interior.|
-| NONE | El tipo de marca de verificación es Ninguno.|
+| INSIDE | El tipo de marca de verificación es Interior.|
+| NONE |El tipo de marca de verificación es Ninguno.|
 | OUTSIDE | El tipo de marca de verificación es Exterior|
 
 

@@ -10,7 +10,7 @@ is_root: false
 ##  null_string propiedad
 
 Obtiene la cadena que se muestra en las celdas que contienen valores nulos
-cuando la propiedad DisplayNullString es verdadera. El valor predeterminado es una cadena vacía.
+cuando la propiedad DisplayNullString es verdadera.
 ###  Definición:
 ```python
 @property

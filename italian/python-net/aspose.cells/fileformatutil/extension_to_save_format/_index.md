@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| extension | str | L'estensione del file. Può essere con o senza punto iniziale. Senza distinzione tra maiuscole e minuscole.|
+| extension | str | L'estensione del file. Può essere con o senza punto iniziale.|
 ###  Osservazioni
 
 Se l'interno non può essere riconosciuto, restituisce [SaveFormat.UNKNOWN](/cells/it/python-net/aspose.cells/saveformat#UNKNOWN).

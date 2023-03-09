@@ -18,7 +18,7 @@ def remove_at(self, name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | name | str | El nombre de la propiedad.|
 

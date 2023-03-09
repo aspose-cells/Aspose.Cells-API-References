@@ -18,7 +18,7 @@ def remove_condition(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | El índice de la condición de formato que se va a eliminar.|
 

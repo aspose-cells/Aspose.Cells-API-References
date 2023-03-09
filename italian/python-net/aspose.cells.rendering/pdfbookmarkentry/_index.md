@@ -29,12 +29,12 @@ Il tipo PdfBookmarkEntry espone i membri seguenti:
 | [destination](/cells/it/python-net/aspose.cells.rendering/pdfbookmarkentry/destination) | La cella a cui si collega il segnalibro.|
 | [destination_name](/cells/it/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name) | Ottiene o imposta il nome della destinazione.|
 | [sub_entry](/cells/it/python-net/aspose.cells.rendering/pdfbookmarkentry/sub_entry) | Sottovoce di un segnalibro.|
-| [is_open](/cells/it/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) | Quando questa proprietà è vera, il bookmarkentry si espanderà, altrimenti collasserà.|
+| [is_open](/cells/it/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) |Quando questa proprietà è vera, il bookmarkentry si espanderà, altrimenti collasserà.|
 | [is_collapse](/cells/it/python-net/aspose.cells.rendering/pdfbookmarkentry/is_collapse) | Quando questa proprietà è vera, il bookmarkentry collasserà, altrimenti si espanderà.|
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

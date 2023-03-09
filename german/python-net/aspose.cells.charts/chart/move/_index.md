@@ -21,7 +21,7 @@ def move(self, upper_left_row, upper_left_column, lower_right_row, lower_right_c
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | lower_right_row | int | Zeilenindex unten rechts|
 | lower_right_column | int | Spaltenindex unten rechts|
 

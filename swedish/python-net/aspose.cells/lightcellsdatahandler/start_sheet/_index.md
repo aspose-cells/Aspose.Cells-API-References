@@ -13,7 +13,7 @@ Börjar bearbeta ett kalkylblad.
 
 ###  Returnerar
 
-om detta arks celldata behöver bearbetas. falskt att ignorera detta ark.
+om detta arks celldata behöver bearbetas. false för att ignorera detta ark.
 
 
 ```python
@@ -22,9 +22,9 @@ def start_sheet(self, sheet):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) |kalkylbladet för att läsa celldata.|
+| sheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | kalkylbladet för att läsa celldata.|
 ###  Anmärkningar
 
 Det kommer att anropas innan celldata i ett kalkylblad läses.

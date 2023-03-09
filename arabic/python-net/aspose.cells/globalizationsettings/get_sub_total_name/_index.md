@@ -22,12 +22,12 @@ def get_sub_total_name(self, sub_total_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | sub_total_type | aspose.cells.pivot.PivotFieldSubtotalType | نوع [PivotFieldSubtotalType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldsubtotaltype)|
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
 الرجاء استخدام طريقة GlobalizationSettings.GetColumnLabelsOfPivotTable ().
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ ديسمبر 2022.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

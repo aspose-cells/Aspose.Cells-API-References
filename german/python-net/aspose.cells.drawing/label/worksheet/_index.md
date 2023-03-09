@@ -11,7 +11,7 @@ is_root: false
 
 Ruft das [Shape.worksheet](/cells/de/python-net/aspose.cells.drawing/shape#worksheet)-Objekt ab, das diese Form enthält.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

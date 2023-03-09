@@ -1,13 +1,13 @@
 ﻿---
 title: SheetRender类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
 url: /zh/python-net/aspose.cells.rendering/sheetrender/
 is_root: false
 ---
-##  SheetRender类
+## SheetRender类
 表示一个工作表渲染器，它可以将工作表渲染成各种图像，例如 (BMP, PNG, JPEG, TIFF..)
 该类的构造函数，必须在pagesetup、cell style修改后使用。
 
@@ -25,14 +25,14 @@ SheetRender 类型公开了以下成员：
 |属性|描述|
 | :- | :- |
 | [page_count](/cells/zh/python-net/aspose.cells.rendering/sheetrender/page_count) |获取当前工作表的总页数。|
-| [page_scale](/cells/zh/python-net/aspose.cells.rendering/sheetrender/page_scale) |获取工作表的计算页面比例。<br/>如果设置了 [PageSetup.zoom](/cells/zh/python-net/aspose.cells/pagesetup#zoom)，则返回设置的比例。否则返回根据[PageSetup.fit_to_pages_wide](/cells/zh/python-net/aspose.cells/pagesetup#fit_to_pages_wide)和[PageSetup.fit_to_pages_tall](/cells/zh/python-net/aspose.cells/pagesetup#fit_to_pages_tall)计算出的比例。|
+| [page_scale](/cells/zh/python-net/aspose.cells.rendering/sheetrender/page_scale) |获取工作表的计算页面比例。<br/>如果设置了 [PageSetup.zoom](/cells/zh/python-net/aspose.cells/pagesetup#zoom)，则返回设置的比例。|
 
 
 ### 方法
 |方法|描述|
 | :- | :- |
-| [to_image(page_index, file_name)](/cells/zh/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) |将特定页面渲染到文件中。|
-| [to_image(page_index, stream)](/cells/zh/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) |将特定页面渲染到流中。|
+| [to_image(page_index, file_name)](/cells/zh/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) |将某些页面渲染到文件中。|
+| [to_image(page_index, stream)](/cells/zh/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) |将某些页面呈现为流。|
 | [to_tiff(stream)](/cells/zh/python-net/aspose.cells.rendering/sheetrender/to_tiff/#io.RawIOBase) |将整个工作表渲染为 Tiff 图像以进行流式传输。|
 | [to_tiff(filename)](/cells/zh/python-net/aspose.cells.rendering/sheetrender/to_tiff/#str) |将整个工作表作为 Tiff 图像呈现到文件中。|
 | [to_printer(printer_name)](/cells/zh/python-net/aspose.cells.rendering/sheetrender/to_printer/#str) |将工作表渲染到打印机|

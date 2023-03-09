@@ -18,7 +18,7 @@ def unprotect_shared_workbook(self, password):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | password | str | Contraseña para desproteger el libro.|
 

@@ -18,7 +18,7 @@ def change_palette(self, color, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Färgstruktur.|
 | index | int | Palettindex, 0 - 55.|
@@ -82,7 +82,7 @@ Följande är standardfärgpaletten.
 | Färg43| 153| 204| 0 |
 | Färg44| 255| 204| 0 |
 | Färg45| 255| 153| 0 |
-|Färg46| 255| 102| 0 |
+| Färg46| 255| 102| 0 |
 | Färg47| 102| 102| 153 |
 | Färg48| 150| 150| 150 |
 | Färg49| 0| 51| 102 |
@@ -90,7 +90,7 @@ Följande är standardfärgpaletten.
 | Färg51| 0| 51| 0 |
 | Färg52| 51| 51| 0 |
 | Färg53| 153| 51| 0 |
-| Färg54| 153| 51| 102 |
+|Färg54| 153| 51| 102 |
 | Färg55| 51| 51| 153 |
 | Färg56| 51| 51| 51 |
 

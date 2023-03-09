@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Enumerazioni
-| Enumerazione| Descrizione|
+|Enumerazione| Descrizione|
 | :- | :- |
 | [SqlScriptOperatorType](/cells/it/python-net/aspose.cells.saving/sqlscriptoperatortype) | Rappresenta il tipo di dato operativo.|
 

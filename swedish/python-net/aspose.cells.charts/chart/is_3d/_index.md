@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_3d fastighet
 
-Anger om diagrammet är ett 3d-diagram.
+Indikerar om sjökortet är ett 3D-diagram.
 ###  Definition:
 ```python
 @property

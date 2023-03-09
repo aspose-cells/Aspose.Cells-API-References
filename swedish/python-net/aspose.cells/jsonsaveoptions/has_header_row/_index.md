@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_header_row fastighet
 
-Anger om intervallet innehåller rubrikrad.
+Anger om intervallet innehåller en rubrikrad.
 ###  Definition:
 ```python
 @property

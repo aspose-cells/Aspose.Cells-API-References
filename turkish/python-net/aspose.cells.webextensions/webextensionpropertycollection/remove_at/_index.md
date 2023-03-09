@@ -18,7 +18,7 @@ def remove_at(self, name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı.|
 

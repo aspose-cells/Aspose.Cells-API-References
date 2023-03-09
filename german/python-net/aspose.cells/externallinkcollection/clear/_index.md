@@ -41,7 +41,7 @@ def clear(self, update_references_as_local):
 
 Wenn Verweise aktualisiert werden müssen, werden Verweise auf externe Links in Formeln in die aktuelle Arbeitsmappe geändert.
 Beispielsweise lautet die ursprüngliche Formel einer Zelle "='externalsource.xlam'!customfunction()",
-Nach dem Entfernen externer Links wird die Formel zu "=customfunction()".
+Nach dem Entfernen externer Links wird die Formel zu „=customfunction()“.
 Wenn Verweise nicht aktualisiert werden müssen, alle Formeln mit Verweisen auf externe Links
 werden ebenfalls entfernt, da diese Verweise ungültig werden.
 

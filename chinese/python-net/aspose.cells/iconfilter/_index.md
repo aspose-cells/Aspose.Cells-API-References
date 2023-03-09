@@ -1,13 +1,13 @@
 ﻿---
 title: IconFilter类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 890
 url: /zh/python-net/aspose.cells/iconfilter/
 is_root: false
 ---
-##  IconFilter类
+## IconFilter类
 代表图标过滤器。
 
 

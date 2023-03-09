@@ -13,7 +13,7 @@ Gibt ein TextFrame-Objekt zurück, das die Ausrichtungs- und Verankerungseigensc
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die Shape.TextBody.TextAlignment-Eigenschaft.
  Diese Property wird 12 Monate später seit Mai 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

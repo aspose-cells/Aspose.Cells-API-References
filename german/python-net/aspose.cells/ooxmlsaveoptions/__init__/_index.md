@@ -33,7 +33,7 @@ def __init__(self, save_format):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/de/python-net/aspose.cells/saveformat) | Das Dateiformat.<br/>Es muss xlsx, xltx, xlsm, xltm sein.|
+| save_format | [SaveFormat](/cells/de/python-net/aspose.cells/saveformat) | Das Dateiformat.<br/> Es muss xlsx, xltx, xlsm, xltm sein.|
 
 
 

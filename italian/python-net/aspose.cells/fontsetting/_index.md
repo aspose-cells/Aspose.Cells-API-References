@@ -25,9 +25,9 @@ Il tipo FontSetting espone i membri seguenti:
 | :- | :- |
 | [type](/cells/it/python-net/aspose.cells/fontsetting/type) | Ottiene il tipo di nodo di testo.|
 | [start_index](/cells/it/python-net/aspose.cells/fontsetting/start_index) | Ottiene l'indice iniziale dei caratteri.|
-| [length](/cells/it/python-net/aspose.cells/fontsetting/length) | Ottiene la lunghezza dei caratteri.|
+| [length](/cells/it/python-net/aspose.cells/fontsetting/length) |Ottiene la lunghezza dei caratteri.|
 | [font](/cells/it/python-net/aspose.cells/fontsetting/font) | Restituisce il carattere di questo oggetto.|
-| [text_options](/cells/it/python-net/aspose.cells/fontsetting/text_options) |Restituisce le opzioni di testo.|
+| [text_options](/cells/it/python-net/aspose.cells/fontsetting/text_options) | Restituisce le opzioni di testo.|
 
 
 ###  Metodi
@@ -37,7 +37,7 @@ Il tipo FontSetting espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

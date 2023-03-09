@@ -17,9 +17,9 @@ Typen LookInType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| FORMULAS | Om cellen innehåller en formel, hitta objekt från formel, annars hitta det från värdet.|
+| FORMULAS |Om cellen innehåller en formel, hitta objekt från formel, annars hitta det från värdet.|
 | VALUES | Hitta bara objekt från de formaterade värdena.|
-| VALUES_EXCLUDE_FORMULA_CELL | Hitta bara objekt från värden i celler som inte innehåller formel.|
+| VALUES_EXCLUDE_FORMULA_CELL | Hitta bara objekt från värdena för celler som inte innehåller formel.|
 | COMMENTS | Hitta bara föremål från kommentarerna.|
 | ONLY_FORMULAS | Hitta bara objekt från formler.|
 | ORIGINAL_VALUES | Hitta bara objekt från de ursprungliga värdena.|

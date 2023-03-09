@@ -1,13 +1,13 @@
 ﻿---
 title: WebExtensionShape类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 750
 url: /zh/python-net/aspose.cells.drawing/webextensionshape/
 is_root: false
 ---
-##  WebExtensionShape类
+## WebExtensionShape类
 表示网络扩展的形状。
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_gridlines_visible proprietà
 
-Ottiene o imposta un valore che indica se le linee della griglia sono visibili. L'impostazione predefinita è true.
+Ottiene o imposta un valore che indica se le linee della griglia sono visibili.Il valore predefinito è true.
 ###  Definizione:
 ```python
 @property

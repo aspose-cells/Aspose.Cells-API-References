@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_negative_bubbles mülk
 
-Grafik grubu için negatif baloncuklar gösteriliyorsa doğrudur. Yalnızca kabarcık çizelgeleri için geçerlidir.
+Grafik grubu için negatif kabarcıklar gösteriliyorsa doğrudur. Yalnızca kabarcık grafikleri için geçerlidir.
 ###  Tanım:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing fastighet
 
-Returnerar eller ställer in antalet kategorier eller serier mellan bockmarkeringar. Gäller endast kategori- och serieaxlar.
+Returnerar eller ställer in antalet kategorier eller serier mellan bockmarkeringar.
 
 ###  Anmärkningar
 

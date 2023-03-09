@@ -10,7 +10,7 @@ is_root: false
 ##  show_series_name fastighet
 
 Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram.
-Sant att visa serienamnet. Falskt att dölja.
+Sant för att visa serienamnet. Falskt att dölja.
 ###  Definition:
 ```python
 @property

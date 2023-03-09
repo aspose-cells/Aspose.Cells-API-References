@@ -1,13 +1,13 @@
 ﻿---
 title: MemorySetting枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2240
 url: /zh/python-net/aspose.cells/memorysetting/
 is_root: false
 ---
-##  MemorySetting枚举
+## MemorySetting枚举
 内存使用选项。
 
 

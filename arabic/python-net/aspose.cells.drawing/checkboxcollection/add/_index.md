@@ -22,10 +22,10 @@ def add(self, upper_left_row, upper_left_column, height, width):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | height | int | ارتفاع خانة الاختيار ، بوحدة البكسل.|
 | width | int | عرض خانة الاختيار ، بوحدة البكسل.|
 

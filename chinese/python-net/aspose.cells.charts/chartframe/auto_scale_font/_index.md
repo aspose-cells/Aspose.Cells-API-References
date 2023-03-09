@@ -1,6 +1,6 @@
 ﻿---
 title: auto_scale_font 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## auto_scale_font 属性
 
-如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。
+如果对象中的文本在对象大小更改时更改字体大小，则为真。
 ### 定义：
 ```python
 @property

@@ -1,6 +1,6 @@
 ﻿---
 title: number_group_separator 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 430
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## number_group_separator 属性
 
-获取或设置用于分隔数值中小数点左侧数字组的字符。默认为当前区域的组分隔符。
+获取或设置在数值中分隔小数点左侧数字组的字符。默认为当前 Region 的组分隔符。
 ### 定义：
 ```python
 @property

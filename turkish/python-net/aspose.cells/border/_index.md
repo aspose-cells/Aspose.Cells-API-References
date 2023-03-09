@@ -1,5 +1,5 @@
 ﻿---
-title: Border sınıf
+title: Border sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 90
 url: /tr/python-net/aspose.cells/border/
 is_root: false
 ---
-##  Border sınıf
+##  Border sınıfı
 Hücre kenarlığını temsil eden nesneyi kapsüller.
 
 

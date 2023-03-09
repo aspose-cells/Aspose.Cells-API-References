@@ -19,7 +19,7 @@ Typen PrintingPageType avslöjar följande medlemmar:
 | :- | :- |
 | DEFAULT | Skriver ut alla sidor.|
 | IGNORE_BLANK | Skriv inte ut sidorna där cellerna är tomma.|
-| IGNORE_STYLE | Skriv inte ut sidorna där celler bara innehåller stilar.|
+| IGNORE_STYLE |Skriv inte ut sidorna där celler bara innehåller stilar.|
 
 
 

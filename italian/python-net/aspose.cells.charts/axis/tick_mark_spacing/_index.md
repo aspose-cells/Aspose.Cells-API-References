@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing proprietà
 
-Restituisce o imposta il numero di categorie o serie tra i segni di graduazione. Si applica solo agli assi categoria e serie.
+Restituisce o imposta il numero di categorie o serie tra i segni di graduazione.
 
 ###  Osservazioni
 

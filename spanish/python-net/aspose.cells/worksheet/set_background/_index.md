@@ -18,13 +18,13 @@ def set_background(self, picture_data):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | picture_data | bytes | Datos de imagen.|
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
-utilice la propiedad Worksheet.BackgroundImage.
+NOTA: Este miembro ahora está obsoleto.
+Utilice la propiedad Worksheet.BackgroundImage.
  Esta propiedad se eliminará 12 meses después desde agosto de 2016.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 

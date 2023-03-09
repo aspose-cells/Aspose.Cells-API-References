@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  x_values fastighet
 
-Representerar x-värdena för diagramserien.
+Representerar x-värdena i diagramserien.
 ###  Definition:
 ```python
 @property

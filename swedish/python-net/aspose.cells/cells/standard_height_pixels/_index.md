@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_height_pixels fastighet
 
-Hämtar eller ställer in standardradhöjden i detta kalkylblad, i pixelenhet.
+Hämtar eller ställer in standardradhöjden i detta kalkylblad, i enheter av pixlar.
 ###  Definition:
 ```python
 @property

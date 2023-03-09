@@ -11,7 +11,7 @@ is_root: false
 
 Metin içeren şeklin metin kaydırmalı türünü alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

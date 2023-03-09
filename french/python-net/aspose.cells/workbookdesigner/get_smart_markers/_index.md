@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Remarques
 
-Un tableau de chaînes est créé à chaque appel. Le tableau est trié et les valeurs en double sont supprimées.
+Un tableau de chaînes est créé à chaque appel.
 
 
 ###  Voir également

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  get_characters() {#}
  Restituisce tutti gli oggetti Characters
-che rappresenta un intervallo di caratteri all'interno del testo .
+che rappresenta un intervallo di caratteri all'interno del testo.
 
 
 ###  ritorna
@@ -24,7 +24,7 @@ def get_characters(self):
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 

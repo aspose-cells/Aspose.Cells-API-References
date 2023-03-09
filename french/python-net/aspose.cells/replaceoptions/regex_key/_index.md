@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  regex_key propriété
 
-Indique si la clé recherchée est une expression régulière. Si vrai, la clé recherchée sera prise comme regex.
+Indique si la clé recherchée est une expression régulière. Si vrai, la clé recherchée sera considérée comme une expression régulière.
 ###  Définition:
 ```python
 @property

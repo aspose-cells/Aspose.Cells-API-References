@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e lo stile di tabella predefinito.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

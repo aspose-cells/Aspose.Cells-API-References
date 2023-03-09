@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name propriété
 
-Obtient et définit le nom de la police.
+Obtenez et définissez le nom de la police.
 ###  Définition:
 ```python
 @property

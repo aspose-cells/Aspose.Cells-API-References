@@ -15,7 +15,7 @@ Rappresenta la larghezza della forma, in unità di 1/4000 della forma padre.
 
 Si applica solo quando questa forma è nel gruppo o nel grafico.
 
-###  Esempio
+###  Esempi
 
 ```python
 

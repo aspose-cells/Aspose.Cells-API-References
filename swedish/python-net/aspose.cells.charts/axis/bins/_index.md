@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bins fastighet
 
-Representerar bins på en diagram(Histogram/Pareto) axel
+Representerar bins på en diagramaxel (Histogram/Pareto)
 ###  Definition:
 ```python
 @property

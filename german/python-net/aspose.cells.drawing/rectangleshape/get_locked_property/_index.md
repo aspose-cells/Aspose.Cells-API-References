@@ -26,7 +26,7 @@ def get_locked_property(self, type):
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/de/python-net/aspose.cells.drawing/shapelocktype) | Der Typ der formgesperrten Eigenschaft.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import ShapeLockType

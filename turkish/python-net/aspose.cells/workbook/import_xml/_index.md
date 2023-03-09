@@ -18,14 +18,14 @@ def import_xml(self, url, sheet_name, row, col):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | url | str | xml dosyasının url'si/yolu.|
 | sheet_name | str | hedef sayfa adı.|
 | row | int | hedef satır|
 | col | int | hedef sütun|
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, xml verilerini Cell A1'deki 'Sayfa 1' çalışma sayfasına aktarır.
 
@@ -50,12 +50,12 @@ def import_xml(self, stream, sheet_name, row, col):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | xml dosya akışı.|
 | sheet_name | str | hedef sayfa adı.|
 | row | int | hedef satır.|
-| col | int |hedef sütun.|
+| col | int | hedef sütun.|
 
 
 

@@ -22,18 +22,18 @@ def add_word_art(self, style, text, upper_left_row, top, upper_left_column, left
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| style | [PresetWordArtStyle](/cells/tr/python-net/aspose.cells.drawing/presetwordartstyle) |Önceden ayarlanmış WordArt Stili.|
+| style | [PresetWordArtStyle](/cells/tr/python-net/aspose.cells.drawing/presetwordartstyle) | Önceden ayarlanmış WordArt Stili.|
 | text | str | Metin.|
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | Şeklin sol satırından dikey uzaklığını piksel birimi cinsinden temsil eder.|
-| upper_left_column | int |Sol üst sütun dizini.|
-| left | int | Şeklin sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
-| height | int | Piksel birimi cinsinden şeklin yüksekliğini temsil eder.|
-| width | int | Şeklin genişliğini piksel birimi cinsinden temsil eder.|
+| upper_left_column | int | Sol üst sütun dizini.|
+| left | int |Şeklin sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
+| height | int | Piksel birimleri cinsinden şeklin yüksekliğini temsil eder.|
+| width | int | Şeklin genişliğini piksel cinsinden temsil eder.|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import PresetWordArtStyle

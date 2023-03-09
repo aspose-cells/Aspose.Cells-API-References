@@ -23,18 +23,18 @@ is_root: false
 | [text_horizontal_overflow](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/text_horizontal_overflow) | الحصول على نوع تجاوز النص الأفقي لمربع النص وتعيينه.|
 | [rotation_angle](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/rotation_angle) | يحصل على دوران الشكل ويضبطه.|
 | [text_vertical_type](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) | يحصل ويضبط اتجاه النص.|
-| [auto_size](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) | يشير إلى ما إذا كان حجم الشكل يتم ضبطه تلقائيًا وفقًا لمحتواه.|
+| [auto_size](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |يشير إلى ما إذا كان حجم الشكل يتم ضبطه تلقائيًا وفقًا لمحتواه.|
 | [text_shape_type](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | الحصول على نوع التحويل للنص وتعيينه.|
-| [top_margin_pt](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | إرجاع الهامش العلوي بوحدة النقاط|
-| [bottom_margin_pt](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | إرجاع الهامش السفلي بوحدة النقاط|
-| [left_margin_pt](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | إرجاع الهامش الأيسر بوحدة النقاط|
-| [right_margin_pt](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | تُرجع الهامش الأيمن بوحدة النقاط|
+| [top_margin_pt](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | إرجاع الهامش الأعلى بوحدات من النقاط|
+| [bottom_margin_pt](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | إرجاع الهامش السفلي بوحدات من النقاط|
+| [left_margin_pt](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | تُرجع الهامش الأيسر بوحدات من النقاط|
+| [right_margin_pt](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | تُرجع الهامش الصحيح بوحدات من النقاط|
 | [is_auto_margin](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/is_auto_margin) | يشير إلى ما إذا كان هامش إطار النص تلقائي.|
 | [number_of_columns](/cells/ar/python-net/aspose.cells.drawing.texts/shapetextalignment/number_of_columns) | الحصول على عدد أعمدة النص وتعيينه في المستطيل المحيط.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cellshelper/column_name_to_index/
 is_root: false
 ---
 ##  column_name_to_index(column_name) {#str}
-Hämtar kolumnindex enligt kolumnnamn.
+Får kolumnindex enligt kolumnnamn.
 
 
 ###  Returnerar
@@ -22,7 +22,7 @@ def column_name_to_index(self, column_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column_name | str | Kolumnnamn.|
 

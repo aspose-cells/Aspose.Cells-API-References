@@ -17,9 +17,9 @@ CopyFormatType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| SAME_AS_ABOVE | Yukarıdaki satırla aynı biçimler.|
+| SAME_AS_ABOVE |Yukarıdaki satırla aynı biçimler.|
 | SAME_AS_BELOW | Biçimler aşağıdaki satırla aynıdır.|
-| CLEAR | Biçimlendirmeyi temizler.|
+| CLEAR | Biçimlendirmeyi temizle.|
 
 
 

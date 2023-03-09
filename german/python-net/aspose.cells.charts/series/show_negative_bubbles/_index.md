@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_negative_bubbles Eigentum
 
-True, wenn negative Blasen für die Diagrammgruppe angezeigt werden. Gilt nur für Blasendiagramme.
+True, wenn für die Diagrammgruppe negative Blasen angezeigt werden. Nur für Blasendiagramme gültig.
 ###  Definition:
 ```python
 @property

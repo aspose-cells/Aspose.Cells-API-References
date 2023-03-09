@@ -13,7 +13,7 @@ Belirtilen LegendEntry nesnesinin [LegendEntry.font](/cells/tr/python-net/aspose
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
  lütfen LegendEntry.Font özelliğini kullanın.
  Bu mülk, OCAK 2012'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

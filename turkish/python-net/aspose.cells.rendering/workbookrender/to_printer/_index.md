@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.rendering/workbookrender/to_printer/
 is_root: false
 ---
 ##  to_printer(printer_name) {#str}
-Çalışma kitabını Yazıcıya işle
+Çalışma kitabını yazıcıya aktar
 
 
 
@@ -18,13 +18,13 @@ def to_printer(self, printer_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | printer_name | str | yazıcının adı , örneğin: "Microsoft Office Document Image Writer"|
 
 
 ##  to_printer(printer_settings) {#aspose.pydrawing.printing.PrinterSettings}
-Çalışma kitabını Yazıcıya işle
+Çalışma kitabını yazıcıya aktar
 
 
 
@@ -34,13 +34,13 @@ def to_printer(self, printer_settings):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | yazıcının ayarları, örneğin YazıcıAdı, Dupleks|
 
 
 ##  to_printer(printer_name, job_name) {#str-str}
-Çalışma kitabını Yazıcıya işle
+Çalışma kitabını yazıcıya aktar
 
 
 
@@ -50,14 +50,14 @@ def to_printer(self, printer_name, job_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | printer_name | str | yazıcının adı , örneğin: "Microsoft Office Document Image Writer"|
 | job_name | str | yazdırma işi adını ayarla|
 
 
 ##  to_printer(printer_settings, job_name) {#aspose.pydrawing.printing.PrinterSettings-str}
-Çalışma kitabını Yazıcıya işle
+Çalışma kitabını yazıcıya aktar
 
 
 
@@ -67,14 +67,14 @@ def to_printer(self, printer_settings, job_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | yazıcının ayarları, örneğin YazıcıAdı, Dupleks|
 | job_name | str | yazdırma işi adını ayarla|
 
 
 ##  to_printer(printer_name, print_page_index, print_page_count) {#str-int-int}
-Çalışma kitabını Yazıcıya işle
+Çalışma kitabını yazıcıya aktar
 
 
 
@@ -84,7 +84,7 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | printer_name | str | yazıcının adı , örneğin: "Microsoft Office Document Image Writer"|
 | print_page_index | int | yazdırılacak ilk sayfanın 0 tabanlı dizini, Aralık [0, WorkbookRender.PageCount-1] olmalıdır|

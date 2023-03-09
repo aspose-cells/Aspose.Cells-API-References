@@ -1,6 +1,6 @@
 ﻿---
 title: get方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 320
@@ -22,9 +22,9 @@ def get(self, cell_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| cell_name | str |Cell 名称，包括其列字母和行号，例如A5。|
+| cell_name | str |Cell 名称，包括其列字母和行号，例如 A5。|
 
 
 ##  get(row, column) {#int-int}
@@ -42,7 +42,7 @@ def get(self, row, column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | row | int |行索引。|
 | column | int |列索引。|

@@ -18,12 +18,12 @@ def advanced_filter(self, is_filter, list_range, criteria_range, copy_to, unique
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_filter | bool | Anger om filtrering av listan på plats.|
 | list_range | str | Listomfånget.|
 | criteria_range | str | Kriterierna varierar.|
-| copy_to | str | Området dit kopiering av data till.|
+| copy_to | str | Området dit data kopieras till.|
 | unique_record_only | bool | Visar eller kopierar endast unika rader.|
 
 

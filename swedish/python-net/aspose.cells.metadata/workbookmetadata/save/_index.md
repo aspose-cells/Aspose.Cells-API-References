@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.metadata/workbookmetadata/save/
 is_root: false
 ---
 ##  save(file_name) {#str}
-Spara den modifierade metadatan i filen.
+Spara den ändrade metadatan i filen.
 
 
 
@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | file_name | str | Filnamnet.|
 
@@ -34,7 +34,7 @@ def save(self, stream):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Strömmen.|
 

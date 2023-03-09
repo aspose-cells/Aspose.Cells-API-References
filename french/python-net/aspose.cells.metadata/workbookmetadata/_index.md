@@ -37,7 +37,7 @@ Le type WorkbookMetadata expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 L'exemple suivant crée un WorkbookMetadata.
 

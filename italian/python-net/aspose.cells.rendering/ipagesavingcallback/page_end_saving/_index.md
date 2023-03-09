@@ -18,7 +18,7 @@ def page_end_saving(self, args):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | args | [PageEndSavingArgs](/cells/it/python-net/aspose.cells.rendering/pageendsavingargs) | Le informazioni per una pagina terminano il processo di salvataggio.|
 

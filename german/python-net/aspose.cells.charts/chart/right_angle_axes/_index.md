@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_angle_axes Eigentum
 
-True, wenn die Diagrammachsen rechtwinklig sind. Gilt nur für 3D-Diagramme (außer Column3D- und 3D-Kreisdiagramme).
+Wahr, wenn die Diagrammachsen rechtwinklig sind Gilt nur für 3D-Diagramme (außer Column3D- und 3D-Kreisdiagramme).
 
 ###  Bemerkungen
 

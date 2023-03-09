@@ -11,7 +11,7 @@ is_root: false
 Comprueba el nombre de la hoja dada y crea uno válido cuando sea necesario.
 Si el nombre de la hoja dado se ajusta a las reglas del nombre de la hoja de Excel, devuélvalo.
 De lo contrario, la cadena se truncará si la longitud excede el límite
-los caracteres no válidos se reemplazarán con ' ', luego devolverá el valor de la cadena reconstruida.
+y los caracteres no válidos se reemplazarán con ' ', luego devolverá el valor de la cadena reconstruida.
 
 
 ###  Devoluciones
@@ -25,7 +25,7 @@ def create_safe_sheet_name(self, name_proposal):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | name_proposal | str | nombre de la hoja a utilizar|
 
@@ -34,7 +34,7 @@ def create_safe_sheet_name(self, name_proposal):
 Comprueba el nombre de la hoja dada y crea uno válido cuando sea necesario.
 Si el nombre de la hoja dado se ajusta a las reglas del nombre de la hoja de Excel, devuélvalo.
 De lo contrario, la cadena se truncará si la longitud excede el límite
-y los caracteres no válidos se reemplazarán con el carácter dado, luego devolverán el valor de la cadena reconstruida.
+los caracteres no válidos se reemplazarán con el carácter dado, luego devolverán el valor de la cadena reconstruida.
 
 
 ###  Devoluciones
@@ -48,7 +48,7 @@ def create_safe_sheet_name(self, name_proposal, replace_char):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | name_proposal | str | nombre de la hoja a utilizar|
 | replace_char | char | carácter que se utilizará para reemplazar los caracteres no válidos en el nombre de la hoja dada|

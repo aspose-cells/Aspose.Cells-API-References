@@ -1,13 +1,13 @@
 ﻿---
 title: WorkbookMetadata类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
 url: /zh/python-net/aspose.cells.metadata/workbookmetadata/
 is_root: false
 ---
-##  WorkbookMetadata类
+## WorkbookMetadata类
 表示元数据。
 
 

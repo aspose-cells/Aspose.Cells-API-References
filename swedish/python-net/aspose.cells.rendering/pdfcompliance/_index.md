@@ -19,7 +19,7 @@ Typen PdfCompliance avslöjar följande medlemmar:
 | :- | :- |
 | NONE | Normalt pdf-format|
 | PDF_A1B | Pdf-format kompatibelt med PDFA-1b|
-| PDF_A1A | Pdf-format kompatibelt med PDFA-1a|
+| PDF_A1A | PDF-format kompatibelt med PDFA-1a|
 
 
 

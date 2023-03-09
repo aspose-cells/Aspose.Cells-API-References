@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen dilimleyicinin kullanıcı arabirimi kullanılarak taşınabileceğini veya yeniden boyutlandırılabileceğini gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

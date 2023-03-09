@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cells/get_view_column_width_pixel/
 is_root: false
 ---
 ##  get_view_column_width_pixel(column) {#int}
-Получите ширину в другом типе представления.
+Получите ширину в разных типах представления.
 
 
 ###  Возвращает
@@ -22,7 +22,7 @@ def get_view_column_width_pixel(self, column):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | column | int | Индекс столбца.|
 

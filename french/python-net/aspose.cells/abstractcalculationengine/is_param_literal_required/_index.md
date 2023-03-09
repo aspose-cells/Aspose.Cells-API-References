@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_param_literal_required propriété
 
-Indique si ce moteur a besoin du texte littéral du paramètre lors du calcul. La valeur par défaut est faux.
+Indique si ce moteur a besoin du texte littéral du paramètre lors du calcul. La valeur par défaut est false.
 
 ###  Remarques
 

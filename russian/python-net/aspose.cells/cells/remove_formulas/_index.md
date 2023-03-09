@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cells/remove_formulas/
 is_root: false
 ---
 ##  remove_formulas() {#}
-Удаляет всю формулу и заменяет значением формулы.
+Удаляет все формулы и заменяет значением формулы.
 
 
 

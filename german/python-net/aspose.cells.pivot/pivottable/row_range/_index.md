@@ -10,7 +10,7 @@ is_root: false
 ##  row_range Eigentum
 
 Gibt ein CellArea-Objekt zurück, das den Bereich darstellt
-die den Zeilenbereich im PivotTable-Bericht enthält. Schreibgeschützt.
+die den Zeilenbereich im PivotTable-Bericht enthält.
 ###  Definition:
 ```python
 @property

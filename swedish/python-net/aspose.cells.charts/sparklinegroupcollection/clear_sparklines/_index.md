@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline
 is_root: false
 ---
 ##  clear_sparklines(cell_area) {#CellArea}
-Rensar gnistlinjerna som finns inuti ett cellområde.
+Rensar gnistlinjerna som finns inuti ett område av celler.
 
 
 
@@ -18,9 +18,9 @@ def clear_sparklines(self, cell_area):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Anger cellytan|
+| cell_area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Specificerar arean av celler|
 
 
 

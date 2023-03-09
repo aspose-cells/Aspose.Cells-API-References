@@ -18,7 +18,7 @@ def insert_columns(self, column_index, total_columns):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
 | total_columns | int | Antalet kolumner.|
@@ -35,11 +35,11 @@ def insert_columns(self, column_index, total_columns, update_reference):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
 | total_columns | int | Antalet kolumner.|
-| update_reference | bool | Anger om referenser i andra arbetsblad kommer att uppdateras.|
+| update_reference | bool |Anger om referenser i andra arbetsblad kommer att uppdateras.|
 
 
 

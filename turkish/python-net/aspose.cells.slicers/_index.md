@@ -15,15 +15,15 @@ is_root: false
 | [Slicer](/cells/tr/python-net/aspose.cells.slicers/slicer) | Dilimleyici Görünümünün özet açıklaması|
 | [SlicerCache](/cells/tr/python-net/aspose.cells.slicers/slicercache) | dilimleyici önbelleğinin özet açıklaması|
 | [SlicerCacheItem](/cells/tr/python-net/aspose.cells.slicers/slicercacheitem) | Dilimleyici veri kaynağı öğesini temsil eder|
-| [SlicerCacheItemCollection](/cells/tr/python-net/aspose.cells.slicers/slicercacheitemcollection) | SlicerCacheItem koleksiyonunu temsil eder|
+| [SlicerCacheItemCollection](/cells/tr/python-net/aspose.cells.slicers/slicercacheitemcollection) | SlicerCacheItems koleksiyonunu temsil eder|
 | [SlicerCollection](/cells/tr/python-net/aspose.cells.slicers/slicercollection) | Belirtilen çalışma sayfasındaki tüm Slicer nesnelerinin koleksiyonunu belirtir.|
 
 
 ###  Numaralandırmalar
-| numaralandırma| Tanım|
+|numaralandırma| Tanım|
 | :- | :- |
 | [SlicerCacheCrossFilterType](/cells/tr/python-net/aspose.cells.slicers/slicercachecrossfiltertype) | SlicerCacheCrossFilterType türünü temsil eder|
-| [SlicerCacheItemSortType](/cells/tr/python-net/aspose.cells.slicers/slicercacheitemsorttype) |SlicerCacheItem'in sıralama türünü belirtin|
+| [SlicerCacheItemSortType](/cells/tr/python-net/aspose.cells.slicers/slicercacheitemsorttype) | SlicerCacheItem'in sıralama türünü belirtin|
 | [SlicerStyleType](/cells/tr/python-net/aspose.cells.slicers/slicerstyletype) | Dilimleyici görünümünün stilini belirtin|
 
 

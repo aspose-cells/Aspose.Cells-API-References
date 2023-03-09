@@ -13,8 +13,8 @@ Korumalı bir çalışma sayfasında sıralama seçeneğine izin verilip verilme
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
- lütfen Protection.AllowSorting özelliğini kullanın.
+ NOT: Bu üye artık kullanılmıyor.
+ Lütfen Protection.AllowSorting özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

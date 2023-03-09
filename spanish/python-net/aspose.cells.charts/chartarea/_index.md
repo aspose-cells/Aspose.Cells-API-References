@@ -28,12 +28,12 @@ El tipo ChartArea expone los siguientes miembros:
 | [text_font](/cells/es/python-net/aspose.cells.charts/chartarea/text_font) | Obtiene un objeto [ChartFrame.font](/cells/es/python-net/aspose.cells.charts/chartframe#font) del objeto ChartFrame especificado.|
 | [text_options](/cells/es/python-net/aspose.cells.charts/chartarea/text_options) | Obtiene y establece las opciones del texto.|
 | [font](/cells/es/python-net/aspose.cells.charts/chartarea/font) | Obtiene un objeto [ChartArea.font](/cells/es/python-net/aspose.cells.charts/chartarea#font) del objeto chartarea especificado.|
-| [auto_scale_font](/cells/es/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True si el texto del objeto cambia el tamaño de fuente cuando cambia el tamaño del objeto. El valor por defecto es verdadero.|
+| [auto_scale_font](/cells/es/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True si el texto del objeto cambia el tamaño de fuente cuando cambia el tamaño del objeto.|
 | [background_mode](/cells/es/python-net/aspose.cells.charts/chartarea/background_mode) | Obtiene y establece el modo de visualización del fondo.|
 | [background](/cells/es/python-net/aspose.cells.charts/chartarea/background) | Obtiene y establece el modo de visualización del fondo.|
 | [is_automatic_size](/cells/es/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Indica si el marco del gráfico tiene un tamaño automático.|
 | [x](/cells/es/python-net/aspose.cells.charts/chartarea/x) | Obtiene u obtiene el desplazamiento horizontal de su columna de la esquina superior izquierda.|
-| [y](/cells/es/python-net/aspose.cells.charts/chartarea/y) | Obtiene u obtiene el desplazamiento vertical de su fila de la esquina superior izquierda.|
+| [y](/cells/es/python-net/aspose.cells.charts/chartarea/y) |Obtiene u obtiene el desplazamiento vertical de su fila de la esquina superior izquierda.|
 | [height](/cells/es/python-net/aspose.cells.charts/chartarea/height) | Obtiene o establece el desplazamiento vertical desde la fila de la esquina inferior derecha.|
 | [width](/cells/es/python-net/aspose.cells.charts/chartarea/width) | Obtiene o establece el desplazamiento horizontal desde su columna de la esquina inferior derecha.|
 | [shadow](/cells/es/python-net/aspose.cells.charts/chartarea/shadow) | Verdadero si el marco tiene una sombra.|
@@ -52,7 +52,7 @@ El tipo ChartArea expone los siguientes miembros:
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

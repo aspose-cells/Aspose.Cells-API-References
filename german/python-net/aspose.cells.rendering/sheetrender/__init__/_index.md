@@ -21,7 +21,7 @@ def __init__(self, worksheet, options):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | worksheet | [Worksheet](/cells/de/python-net/aspose.cells/worksheet) | Geben Sie an, welche Tabelle gerendert werden soll.|
-| options | [ImageOrPrintOptions](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions) |ImageOrPrintOptions enthält einige Eigenschaften des Ausgabebildes|
+| options | [ImageOrPrintOptions](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions enthält einige Eigenschaften des Ausgabebildes|
 
 
 

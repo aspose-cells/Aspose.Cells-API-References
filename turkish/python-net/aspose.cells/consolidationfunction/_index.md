@@ -22,7 +22,7 @@ ConsolidationFunction türü aşağıdaki üyeleri gösterir:
 | AVERAGE | Ortalama işlevi temsil eder.|
 | MAX | Max işlevini temsil eder.|
 | MIN | Min işlevini temsil eder.|
-| PRODUCT | Ürün işlevini temsil eder.|
+| PRODUCT | Ürün işlevlerini temsil eder.|
 | COUNT_NUMS | Count Nums işlevini temsil eder.|
 | STD_DEV | StdDev işlevini temsil eder.|
 | STD_DEVP | StdDevp işlevini temsil eder.|

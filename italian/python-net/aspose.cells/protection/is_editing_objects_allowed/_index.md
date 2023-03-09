@@ -13,8 +13,8 @@ Indica se l'utente è autorizzato a manipolare oggetti di disegno su un foglio d
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
- utilizzare la proprietà Protection.AllowEditingObject.
+ NOTA: questo membro è ora obsoleto.
+ si prega di utilizzare la protezione Consenti la modifica della proprietà dell'oggetto.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

@@ -22,7 +22,7 @@ El tipo FilterType expone los siguientes miembros:
 | DYNAMIC_FILTER | Tipo de filtro dinámico.|
 | MULTIPLE_FILTERS | Cuando se eligen varios valores para filtrar, o cuando se elige un grupo de valores de fecha para filtrar,<br/> este elemento agrupa esos criterios juntos.|
 | ICON_FILTER | Filtrar por icono de formato condicional.|
-| TOP10 |Filtro de los 10 mejores.|
+| TOP10 | Filtro de los 10 mejores.|
 | NONE | Sin filtro.|
 
 

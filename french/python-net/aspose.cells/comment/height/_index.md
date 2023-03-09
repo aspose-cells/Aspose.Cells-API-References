@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height propriété
 
-Représente la hauteur du commentaire, en pixels.
+Représente la hauteur du commentaire, en unités de pixels.
 
-###  Exemple
+###  Exemples
 
 ```python
 

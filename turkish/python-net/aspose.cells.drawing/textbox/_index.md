@@ -1,5 +1,5 @@
 ﻿---
-title: TextBox sınıf
+title: TextBox sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 680
 url: /tr/python-net/aspose.cells.drawing/textbox/
 is_root: false
 ---
-##  TextBox sınıf
+##  TextBox sınıfı
 Elektronik tablodaki bir metin kutusunu temsil eden nesneyi kapsüller.
 
 
@@ -26,21 +26,21 @@ TextBox türü aşağıdaki üyeleri gösterir:
 | [is_equation](/cells/tr/python-net/aspose.cells.drawing/textbox/is_equation) | Şeklin yalnızca bir denklem içerip içermediğini gösterir.|
 | [is_smart_art](/cells/tr/python-net/aspose.cells.drawing/textbox/is_smart_art) | Şeklin akıllı sanat olup olmadığını gösterir.|
 | [z_order_position](/cells/tr/python-net/aspose.cells.drawing/textbox/z_order_position) | Bir şeklin z-sırasındaki konumunu döndürür.|
-| [name](/cells/tr/python-net/aspose.cells.drawing/textbox/name) |Şeklin adını alır ve ayarlar.|
+| [name](/cells/tr/python-net/aspose.cells.drawing/textbox/name) | Şeklin adını alır ve ayarlar.|
 | [alternative_text](/cells/tr/python-net/aspose.cells.drawing/textbox/alternative_text) | [Shape](/cells/tr/python-net/aspose.cells.drawing/shape) nesnesinin açıklayıcı (alternatif) metin dizesini döndürür veya ayarlar.|
-| [title](/cells/tr/python-net/aspose.cells.drawing/textbox/title) | Geçerli şekil nesnesinin başlığını (resim yazısı) belirtir.|
-| [line_format](/cells/tr/python-net/aspose.cells.drawing/textbox/line_format) |Belirtilen şekil için çizgi biçimlendirme özelliklerini içeren bir MsoLineFormat nesnesi döndürür.|
+| [title](/cells/tr/python-net/aspose.cells.drawing/textbox/title) |Geçerli şekil nesnesinin başlığını (resim yazısı) belirtir.|
+| [line_format](/cells/tr/python-net/aspose.cells.drawing/textbox/line_format) | Belirtilen şekil için çizgi biçimlendirme özelliklerini içeren bir MsoLineFormat nesnesi döndürür.|
 | [fill_format](/cells/tr/python-net/aspose.cells.drawing/textbox/fill_format) | Belirtilen şekil için dolgu biçimlendirme özelliklerini içeren bir MsoFillFormat nesnesi döndürür.|
 | [format](/cells/tr/python-net/aspose.cells.drawing/textbox/format) | Şeklin biçimlendirme ayarını temsil eder.|
 | [line](/cells/tr/python-net/aspose.cells.drawing/textbox/line) | Çizgi stilini alır|
-| [fill](/cells/tr/python-net/aspose.cells.drawing/textbox/fill) |Belirtilen şekil için dolgu biçimlendirme özelliklerini içeren bir [Shape.fill_format](/cells/tr/python-net/aspose.cells.drawing/shape#fill_format) nesnesi döndürür.|
-| [shadow_effect](/cells/tr/python-net/aspose.cells.drawing/textbox/shadow_effect) | Grafik öğesi veya şekli için gölge efektini belirten bir [ShadowEffect](/cells/tr/python-net/aspose.cells.drawing/shadoweffect) nesnesini temsil eder.|
-| [reflection](/cells/tr/python-net/aspose.cells.drawing/textbox/reflection) |Grafik öğesi veya şekli için yansıma efektini belirten bir [ReflectionEffect](/cells/tr/python-net/aspose.cells.drawing/reflectioneffect) nesnesini temsil eder.|
-| [glow](/cells/tr/python-net/aspose.cells.drawing/textbox/glow) | Grafik öğesi veya şekli için parlama efektini belirten bir [GlowEffect](/cells/tr/python-net/aspose.cells.drawing/gloweffect) nesnesini temsil eder.|
+| [fill](/cells/tr/python-net/aspose.cells.drawing/textbox/fill) | Belirtilen şekil için dolgu biçimlendirme özelliklerini içeren bir [Shape.fill_format](/cells/tr/python-net/aspose.cells.drawing/shape#fill_format) nesnesi döndürür.|
+| [shadow_effect](/cells/tr/python-net/aspose.cells.drawing/textbox/shadow_effect) | Grafik öğesi veya şekli için bir gölge efekti belirten bir [ShadowEffect](/cells/tr/python-net/aspose.cells.drawing/shadoweffect) nesnesini temsil eder.|
+| [reflection](/cells/tr/python-net/aspose.cells.drawing/textbox/reflection) | Grafik öğesi veya şekli için yansıma efektini belirten bir [ReflectionEffect](/cells/tr/python-net/aspose.cells.drawing/reflectioneffect) nesnesini temsil eder.|
+| [glow](/cells/tr/python-net/aspose.cells.drawing/textbox/glow) | Grafik öğesi veya şekli için bir ışıma efekti belirten bir [GlowEffect](/cells/tr/python-net/aspose.cells.drawing/gloweffect) nesnesini temsil eder.|
 | [soft_edges](/cells/tr/python-net/aspose.cells.drawing/textbox/soft_edges) | Kenarlara uygulanacak bulanıklık yarıçapını nokta birimi cinsinden alır ve ayarlar.|
 | [three_d_format](/cells/tr/python-net/aspose.cells.drawing/textbox/three_d_format) | Şeklin 3 boyutlu biçimini alır ve ayarlar.|
 | [text_frame](/cells/tr/python-net/aspose.cells.drawing/textbox/text_frame) | Belirtilen şekil için hizalama ve bağlantı özelliklerini içeren bir TextFrame nesnesi döndürür.|
-| [format_picture](/cells/tr/python-net/aspose.cells.drawing/textbox/format_picture) | Resim biçimi seçeneklerini alır ve ayarlar.|
+| [format_picture](/cells/tr/python-net/aspose.cells.drawing/textbox/format_picture) |Resim biçimi seçeneklerini alır ve ayarlar.|
 | [is_hidden](/cells/tr/python-net/aspose.cells.drawing/textbox/is_hidden) | Nesnenin görünür olup olmadığını gösterir.|
 | [is_lock_aspect_ratio](/cells/tr/python-net/aspose.cells.drawing/textbox/is_lock_aspect_ratio) | Doğru, en boy oranında değişiklik yapılmasına izin verilmediği anlamına gelir.|
 | [rotation_angle](/cells/tr/python-net/aspose.cells.drawing/textbox/rotation_angle) | Şeklin dönüşünü alır ve ayarlar.|
@@ -48,13 +48,13 @@ TextBox türü aşağıdaki üyeleri gösterir:
 | [id](/cells/tr/python-net/aspose.cells.drawing/textbox/id) | Bu şeklin tanımlayıcısını alır.|
 | [spid](/cells/tr/python-net/aspose.cells.drawing/textbox/spid) | Bir uygulamanın belirli şekli Tanımlamak için kullanabileceği isteğe bağlı bir dize belirtir.|
 | [spt](/cells/tr/python-net/aspose.cells.drawing/textbox/spt) | Belirli bir şekli tanımlı bir şekil tipiyle ilişkilendirmek için bir uygulamanın kullanabileceği isteğe bağlı bir sayı belirtir.|
-| [worksheet](/cells/tr/python-net/aspose.cells.drawing/textbox/worksheet) |Bu şekli içeren [Shape.worksheet](/cells/tr/python-net/aspose.cells.drawing/shape#worksheet) nesnesini alır.|
+| [worksheet](/cells/tr/python-net/aspose.cells.drawing/textbox/worksheet) | Bu şekli içeren [Shape.worksheet](/cells/tr/python-net/aspose.cells.drawing/shape#worksheet) nesnesini alır.|
 | [is_group](/cells/tr/python-net/aspose.cells.drawing/textbox/is_group) | Şeklin bir grup olup olmadığını gösterir.|
 | [is_in_group](/cells/tr/python-net/aspose.cells.drawing/textbox/is_in_group) | Şeklin gruplanıp gruplandırılmadığını gösterir.|
 | [is_word_art](/cells/tr/python-net/aspose.cells.drawing/textbox/is_word_art) | Bu şeklin bir kelime sanatı olup olmadığını gösterir.|
-| [text_effect](/cells/tr/python-net/aspose.cells.drawing/textbox/text_effect) |Belirtilen şekil için metin efekti biçimlendirme özelliklerini içeren bir TextEffectFormat nesnesi döndürür.<br/> WordArt'ı temsil eden Shape nesneleri için geçerlidir.|
+| [text_effect](/cells/tr/python-net/aspose.cells.drawing/textbox/text_effect) | Belirtilen şekil için metin efekti biçimlendirme özelliklerini içeren bir TextEffectFormat nesnesi döndürür.<br/> WordArt'ı temsil eden Shape nesneleri için geçerlidir.|
 | [is_locked](/cells/tr/python-net/aspose.cells.drawing/textbox/is_locked) | Nesne kilitliyse True, sayfa korunurken nesne değiştirilebiliyorsa False.|
-| [is_printable](/cells/tr/python-net/aspose.cells.drawing/textbox/is_printable) | Nesne yazdırılabilir ise doğrudur|
+| [is_printable](/cells/tr/python-net/aspose.cells.drawing/textbox/is_printable) |Nesne yazdırılabilir ise doğrudur|
 | [mso_drawing_type](/cells/tr/python-net/aspose.cells.drawing/textbox/mso_drawing_type) | Mso çizim tipini alır.|
 | [auto_shape_type](/cells/tr/python-net/aspose.cells.drawing/textbox/auto_shape_type) | Otomatik şekil türünü alır ve ayarlar.|
 | [anchor_type](/cells/tr/python-net/aspose.cells.drawing/textbox/anchor_type) | Şekil bağlantı yer tutucusunu alır ve ayarlar.|
@@ -68,30 +68,30 @@ TextBox türü aşağıdaki üyeleri gösterir:
 | [lower_right_column](/cells/tr/python-net/aspose.cells.drawing/textbox/lower_right_column) | Sağ alt köşe sütun indeksini temsil eder.|
 | [lower_delta_x](/cells/tr/python-net/aspose.cells.drawing/textbox/lower_delta_x) | Şeklin yatay kaydırmasını sağ alt köşe sütunundan alır veya ayarlar.|
 | [right](/cells/tr/python-net/aspose.cells.drawing/textbox/right) | Piksel birimi cinsinden, şeklin sağ alt köşe sütunundan yatay uzaklığının genişliğini temsil eder.|
-| [bottom](/cells/tr/python-net/aspose.cells.drawing/textbox/bottom) | Şeklin alt alt köşe satırından dikey uzaklığının genişliğini piksel birimi cinsinden temsil eder.|
-| [width](/cells/tr/python-net/aspose.cells.drawing/textbox/width) | Şeklin genişliğini piksel birimi cinsinden temsil eder.|
+| [bottom](/cells/tr/python-net/aspose.cells.drawing/textbox/bottom) |Şeklin alt alt köşe satırından dikey uzaklığının genişliğini piksel birimi cinsinden temsil eder.|
+| [width](/cells/tr/python-net/aspose.cells.drawing/textbox/width) | Şeklin genişliğini piksel cinsinden temsil eder.|
 | [width_inch](/cells/tr/python-net/aspose.cells.drawing/textbox/width_inch) | Şeklin genişliğini inç cinsinden temsil eder.|
-| [width_pt](/cells/tr/python-net/aspose.cells.drawing/textbox/width_pt) | Nokta biriminde şeklin genişliğini temsil eder.|
+| [width_pt](/cells/tr/python-net/aspose.cells.drawing/textbox/width_pt) | Nokta birimleri cinsinden şeklin genişliğini temsil eder.|
 | [width_cm](/cells/tr/python-net/aspose.cells.drawing/textbox/width_cm) | Şeklin genişliğini santimetre cinsinden temsil eder.|
-| [height](/cells/tr/python-net/aspose.cells.drawing/textbox/height) | Piksel birimi cinsinden şeklin yüksekliğini temsil eder.|
+| [height](/cells/tr/python-net/aspose.cells.drawing/textbox/height) | Piksel birimleri cinsinden şeklin yüksekliğini temsil eder.|
 | [height_inch](/cells/tr/python-net/aspose.cells.drawing/textbox/height_inch) | Şeklin inç cinsinden yüksekliğini temsil eder.|
-| [height_pt](/cells/tr/python-net/aspose.cells.drawing/textbox/height_pt) | Nokta birimi cinsinden şeklin yüksekliğini temsil eder.|
-| [height_cm](/cells/tr/python-net/aspose.cells.drawing/textbox/height_cm) | Şeklin santimetre cinsinden yüksekliğini temsil eder.|
+| [height_pt](/cells/tr/python-net/aspose.cells.drawing/textbox/height_pt) | Nokta birimleri cinsinden şeklin yüksekliğini temsil eder.|
+| [height_cm](/cells/tr/python-net/aspose.cells.drawing/textbox/height_cm) | Şeklin yüksekliğini santimetre cinsinden temsil eder.|
 | [left](/cells/tr/python-net/aspose.cells.drawing/textbox/left) | Şeklin sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
 | [left_inch](/cells/tr/python-net/aspose.cells.drawing/textbox/left_inch) | Şeklin sol sütunundan yatay uzaklığını inç cinsinden temsil eder.|
-| [left_cm](/cells/tr/python-net/aspose.cells.drawing/textbox/left_cm) | Şeklin sol sütunundan yatay sapmasını santimetre cinsinden temsil eder.|
+| [left_cm](/cells/tr/python-net/aspose.cells.drawing/textbox/left_cm) | Şeklin sol sütunundan yatay uzaklığını santimetre cinsinden temsil eder.|
 | [top](/cells/tr/python-net/aspose.cells.drawing/textbox/top) | Şeklin üst satırından dikey uzaklığını piksel birimi cinsinden temsil eder.|
-| [top_inch](/cells/tr/python-net/aspose.cells.drawing/textbox/top_inch) | Şeklin üst satırından dikey uzaklığını inç cinsinden temsil eder.|
+| [top_inch](/cells/tr/python-net/aspose.cells.drawing/textbox/top_inch) |Şeklin üst satırından dikey uzaklığını inç cinsinden temsil eder.|
 | [top_cm](/cells/tr/python-net/aspose.cells.drawing/textbox/top_cm) | Şeklin üst satırından dikey uzaklığını santimetre cinsinden temsil eder.|
 | [top_to_corner](/cells/tr/python-net/aspose.cells.drawing/textbox/top_to_corner) | Çalışma sayfasının üst sınırından dikey şeklin uzaklığını piksel birimi cinsinden alır ve ayarlar.|
 | [left_to_corner](/cells/tr/python-net/aspose.cells.drawing/textbox/left_to_corner) | Çalışma sayfasının sol sınırından şeklin yatay kaymasını alır ve ayarlar.|
-| [x](/cells/tr/python-net/aspose.cells.drawing/textbox/x) | Şeklin yatay ofsetini çalışma sayfasının sol kenarından piksel birimi cinsinden alır ve ayarlar.|
-| [y](/cells/tr/python-net/aspose.cells.drawing/textbox/y) |Çalışma sayfasının üst sınırından dikey şeklin uzaklığını piksel birimi cinsinden alır ve ayarlar.|
+| [x](/cells/tr/python-net/aspose.cells.drawing/textbox/x) | Çalışma sayfasının sol kenarından şeklin yatay kaymasını piksel birimi cinsinden alır ve ayarlar.|
+| [y](/cells/tr/python-net/aspose.cells.drawing/textbox/y) | Çalışma sayfasının üst sınırından dikey şeklin uzaklığını piksel birimi cinsinden alır ve ayarlar.|
 | [width_scale](/cells/tr/python-net/aspose.cells.drawing/textbox/width_scale) | Orijinal resim genişliğinin yüzde birimi cinsinden genişlik ölçeğini alır ve ayarlar.<br/> Şekil resim değilse, WidthScale özelliği yalnızca 100 döndürür;|
 | [height_scale](/cells/tr/python-net/aspose.cells.drawing/textbox/height_scale) | Orijinal resim yüksekliğinin yüzde birimi cinsinden yükseklik ölçeğini alır ve ayarlar.<br/> Şekil resim değilse, HeightScale özelliği yalnızca 100 döndürür;|
-| [top_in_shape](/cells/tr/python-net/aspose.cells.drawing/textbox/top_in_shape) |Ana şeklin üst sınırından şeklin dikey uzaklığını temsil eder,<br/> ana şeklin yüksekliğinin 1/4000'i biriminde.|
-| [left_in_shape](/cells/tr/python-net/aspose.cells.drawing/textbox/left_in_shape) | Ana şeklin sol kenarından şeklin yatay uzaklığını temsil eder,<br/> ana şeklin genişliğinin 1/4000'i biriminde.|
-| [width_in_shape](/cells/tr/python-net/aspose.cells.drawing/textbox/width_in_shape) | Ana şeklin 1/4000 biriminde şeklin genişliğini temsil eder.|
+| [top_in_shape](/cells/tr/python-net/aspose.cells.drawing/textbox/top_in_shape) | Ana şeklin üst sınırından şeklin dikey uzaklığını temsil eder,<br/> ana şeklin yüksekliğinin 1/4000'i biriminde.|
+| [left_in_shape](/cells/tr/python-net/aspose.cells.drawing/textbox/left_in_shape) |Ana şeklin sol kenarından şeklin yatay uzaklığını temsil eder,<br/> ana şeklin genişliğinin 1/4000'i biriminde.|
+| [width_in_shape](/cells/tr/python-net/aspose.cells.drawing/textbox/width_in_shape) | Ana şeklin 1/4000'lik birimlerinde şeklin genişliğini temsil eder.|
 | [height_in_shape](/cells/tr/python-net/aspose.cells.drawing/textbox/height_in_shape) | Ana şeklin yüksekliğinin 1/4000'i biriminde, şeklin ana şeklin üst sınırından dikey sapmasını temsil eder.|
 | [group](/cells/tr/python-net/aspose.cells.drawing/textbox/group) | Bu şekli içeren grup şeklini alır.|
 | [type](/cells/tr/python-net/aspose.cells.drawing/textbox/type) | Otomatik şekil türünü alır.|
@@ -104,7 +104,7 @@ TextBox türü aşağıdaki üyeleri gösterir:
 | [relative_to_original_picture_size](/cells/tr/python-net/aspose.cells.drawing/textbox/relative_to_original_picture_size) | Şeklin orijinal resim boyutuna göre olup olmadığını gösterir.|
 | [linked_cell](/cells/tr/python-net/aspose.cells.drawing/textbox/linked_cell) | Denetimin değerine bağlı çalışma sayfası aralığını alır veya ayarlar.|
 | [input_range](/cells/tr/python-net/aspose.cells.drawing/textbox/input_range) | Belirtilen açılan kutuyu doldurmak için kullanılan çalışma sayfası aralığını alır veya ayarlar.|
-| [text_shape_type](/cells/tr/python-net/aspose.cells.drawing/textbox/text_shape_type) | Önceden ayarlanmış metin şekli türünü alır ve ayarlar.|
+| [text_shape_type](/cells/tr/python-net/aspose.cells.drawing/textbox/text_shape_type) |Önceden ayarlanmış metin şekli türünü alır ve ayarlar.|
 | [text_body](/cells/tr/python-net/aspose.cells.drawing/textbox/text_body) | Şeklin metninin ayarını alır ve ayarlar.|
 | [font](/cells/tr/python-net/aspose.cells.drawing/textbox/font) | Şeklin yazı tipini temsil eder.|
 | [text_options](/cells/tr/python-net/aspose.cells.drawing/textbox/text_options) | Şeklin metin seçeneklerini temsil eder.|
@@ -112,7 +112,7 @@ TextBox türü aşağıdaki üyeleri gösterir:
 | [is_rich_text](/cells/tr/python-net/aspose.cells.drawing/textbox/is_rich_text) | Metnin zengin metin olup olmadığı.|
 | [html_text](/cells/tr/python-net/aspose.cells.drawing/textbox/html_text) | Bu metin kutusundaki verileri ve bazı biçimleri içeren html dizesini alır ve ayarlar.|
 | [text_vertical_overflow](/cells/tr/python-net/aspose.cells.drawing/textbox/text_vertical_overflow) | Metin içeren şeklin metin dikey taşma türünü alır ve ayarlar.|
-| [text_horizontal_overflow](/cells/tr/python-net/aspose.cells.drawing/textbox/text_horizontal_overflow) |Metin içeren şeklin metin yatay taşma türünü alır ve ayarlar.|
+| [text_horizontal_overflow](/cells/tr/python-net/aspose.cells.drawing/textbox/text_horizontal_overflow) | Metin içeren şeklin metin yatay taşma türünü alır ve ayarlar.|
 | [is_text_wrapped](/cells/tr/python-net/aspose.cells.drawing/textbox/is_text_wrapped) | Metin içeren şeklin metin kaydırmalı türünü alır ve ayarlar.|
 | [text_orientation_type](/cells/tr/python-net/aspose.cells.drawing/textbox/text_orientation_type) | Şeklin metin yönlendirme türünü alır ve ayarlar.|
 | [text_horizontal_alignment](/cells/tr/python-net/aspose.cells.drawing/textbox/text_horizontal_alignment) | Şeklin metin yatay hizalama türünü alır ve ayarlar.|
@@ -120,7 +120,7 @@ TextBox türü aşağıdaki üyeleri gösterir:
 | [text_direction](/cells/tr/python-net/aspose.cells.drawing/textbox/text_direction) | Bu nesne için metin akışının yönünü alır/ayarlar.|
 | [control_data](/cells/tr/python-net/aspose.cells.drawing/textbox/control_data) | Kontrol verilerini alır.|
 | [active_x_control](/cells/tr/python-net/aspose.cells.drawing/textbox/active_x_control) | ActiveX denetimini alır.|
-| [paths](/cells/tr/python-net/aspose.cells.drawing/textbox/paths) | Özel bir geometrik şeklin yollarını alır.|
+| [paths](/cells/tr/python-net/aspose.cells.drawing/textbox/paths) |Özel bir geometrik şeklin yollarını alır.|
 | [geometry](/cells/tr/python-net/aspose.cells.drawing/textbox/geometry) | Geometriyi alır|
 | [create_id](/cells/tr/python-net/aspose.cells.drawing/textbox/create_id) | Alır ve ayarlar, bu şekil için kimlik oluşturur.|
 
@@ -140,22 +140,22 @@ TextBox türü aşağıdaki üyeleri gösterir:
 | [add_hyperlink(address)](/cells/tr/python-net/aspose.cells.drawing/textbox/add_hyperlink/#str) | Şekle bir köprü ekler.|
 | [remove_hyperlink()](/cells/tr/python-net/aspose.cells.drawing/textbox/remove_hyperlink/#) | Şeklin köprüsünü kaldırın.|
 | [move_to_range(upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/tr/python-net/aspose.cells.drawing/textbox/move_to_range/#int-int-int-int) | Şekli belirtilen bir aralığa taşır.|
-| [align_top_right_corner(top_row, right_column)](/cells/tr/python-net/aspose.cells.drawing/textbox/align_top_right_corner/#int-int) | Resmi sağ üst köşeye taşır.|
+| [align_top_right_corner(top_row, right_column)](/cells/tr/python-net/aspose.cells.drawing/textbox/align_top_right_corner/#int-int) |Resmi sağ üst köşeye taşır.|
 | [get_connection_points()](/cells/tr/python-net/aspose.cells.drawing/textbox/get_connection_points/#) | Bağlantı noktalarını alın|
 | [get_linked_cell(is_r1c1, is_local)](/cells/tr/python-net/aspose.cells.drawing/textbox/get_linked_cell/#bool-bool) | Denetimin değerine bağlı aralığı alır.|
 | [set_linked_cell(formula, is_r1c1, is_local)](/cells/tr/python-net/aspose.cells.drawing/textbox/set_linked_cell/#str-bool-bool) | Kontrolün değerine bağlı aralığı ayarlar.|
 | [get_input_range(is_r1c1, is_local)](/cells/tr/python-net/aspose.cells.drawing/textbox/get_input_range/#bool-bool) | Denetimi doldurmak için kullanılan aralığı alır.|
 | [set_input_range(formula, is_r1c1, is_local)](/cells/tr/python-net/aspose.cells.drawing/textbox/set_input_range/#str-bool-bool) | Kontrolü doldurmak için kullanılan aralığı ayarlar.|
-| [update_selected_value()](/cells/tr/python-net/aspose.cells.drawing/textbox/update_selected_value/#) |Seçilen değeri bağlantılı hücrenin değerine göre güncelleyin.|
+| [update_selected_value()](/cells/tr/python-net/aspose.cells.drawing/textbox/update_selected_value/#) | Seçilen değeri bağlantılı hücrenin değerine göre güncelleyin.|
 | [calculate_text_size()](/cells/tr/python-net/aspose.cells.drawing/textbox/calculate_text_size/#) | Metin alanını yeniden hesapla|
-| [characters(start_index, length)](/cells/tr/python-net/aspose.cells.drawing/textbox/characters/#int-int) |Metin içindeki bir karakter aralığını temsil eden bir Characters nesnesi döndürür.|
-| [get_characters()](/cells/tr/python-net/aspose.cells.drawing/textbox/get_characters/#) | Tüm Karakterler nesnelerini döndürür<br/> bu, metin içindeki bir karakter aralığını temsil eder.|
+| [characters(start_index, length)](/cells/tr/python-net/aspose.cells.drawing/textbox/characters/#int-int) | Metin içindeki bir karakter aralığını temsil eden bir Characters nesnesi döndürür.|
+| [get_characters()](/cells/tr/python-net/aspose.cells.drawing/textbox/get_characters/#) | Tüm Karakterler nesnelerini döndürür<br/> metin içindeki bir karakter aralığını temsil eder.|
 | [remove_active_x_control()](/cells/tr/python-net/aspose.cells.drawing/textbox/remove_active_x_control/#) | activeX denetimini kaldırın.|
 | [is_same_setting(obj)](/cells/tr/python-net/aspose.cells.drawing/textbox/is_same_setting/#any) | Şeklin aynı olup olmadığını döndürür.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_decimal_separator Eigentum
 
-Ruft das Dezimaltrennzeichen zum Formatieren/Parsen numerischer Werte ab oder legt es fest. Standard ist das Dezimaltrennzeichen der aktuellen Region.
+Ruft das Dezimaltrennzeichen zum Formatieren/Parsen numerischer Werte ab oder legt es fest.
 ###  Definition:
 ```python
 @property

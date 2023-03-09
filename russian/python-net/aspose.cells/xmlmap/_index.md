@@ -18,7 +18,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [name](/cells/ru/python-net/aspose.cells/xmlmap/name) | Возвращает или задает имя объекта.|
-| [root_element_name](/cells/ru/python-net/aspose.cells/xmlmap/root_element_name) |Получает имя корневого элемента.|
+| [root_element_name](/cells/ru/python-net/aspose.cells/xmlmap/root_element_name) | Получает имя корневого элемента.|
 | [data_binding](/cells/ru/python-net/aspose.cells/xmlmap/data_binding) | Получает [XmlDataBinding](/cells/ru/python-net/aspose.cells/xmldatabinding) этой карты.|
 
 

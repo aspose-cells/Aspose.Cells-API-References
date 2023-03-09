@@ -18,7 +18,7 @@ def set_formula(self, formula, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | Formül.|
 | value | any | Formülün değeri.|
@@ -35,7 +35,7 @@ def set_formula(self, formula, options, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | Formül.|
 | options | [FormulaParseOptions](/cells/tr/python-net/aspose.cells/formulaparseoptions) | Formülü ayrıştırma seçenekleri.|
@@ -53,7 +53,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | Formül.|
 | is_r1c1 | bool | Formülün R1C1 formülü olup olmadığı.|
@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any | Formülün değeri.|
 ###  Notlar
 
-NOT: Bu sınıf artık kullanılmıyor. Yerine,
+NOT: Bu sınıf artık kullanılmıyor.
 lütfen Cell.SetFormula(string,FormulaParseOptions,object) kullanın.
 Bu mülk, Aralık 2019'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

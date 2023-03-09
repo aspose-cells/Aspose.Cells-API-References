@@ -1,6 +1,6 @@
 ﻿---
 title: transparency 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 90
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## transparency 属性
 
-获取和设置阴影的度数 transparency。范围从 0.0（不透明）到 1.0（透明）。
+获取和设置transparency阴影的度数，范围从0.0（不透明）到1.0（透明）。
 ### 定义：
 ```python
 @property

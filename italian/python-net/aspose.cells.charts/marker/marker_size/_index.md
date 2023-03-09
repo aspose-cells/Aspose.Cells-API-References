@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_size proprietà
 
-Rappresenta la dimensione del marcatore in unità di punti. Si applica al grafico a linee, al grafico a dispersione o al grafico a radar.
+Rappresenta la dimensione dell'indicatore in unità di punti. Si applica al grafico a linee, al grafico a dispersione o al grafico a radar.
 ###  Definizione:
 ```python
 @property

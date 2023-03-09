@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el rango de la hoja de cálculo vinculado al valor del control.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

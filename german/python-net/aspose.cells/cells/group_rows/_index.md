@@ -21,7 +21,7 @@ def group_rows(self, first_index, last_index):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | first_index | int | Der erste zu gruppierende Zeilenindex.|
-| last_index | int | Der letzte zu gruppierende Zeilenindex.|
+| last_index | int |Der letzte zu gruppierende Zeilenindex.|
 
 
 ##  group_rows(first_index, last_index, is_hidden) {#int-int-bool}
@@ -38,7 +38,7 @@ def group_rows(self, first_index, last_index, is_hidden):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | first_index | int | Der erste zu gruppierende Zeilenindex.|
-| last_index | int | Der letzte zu gruppierende Zeilenindex.|
+| last_index | int |Der letzte zu gruppierende Zeilenindex.|
 | is_hidden | bool | Gibt an, ob die gruppierten Zeilen ausgeblendet sind.|
 
 

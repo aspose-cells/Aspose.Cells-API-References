@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted mülk
 
-Giriş hücresinin silinip silinmediğini gösterir.
+Giriş hücrelerinin silinip silinmediğini gösterir.
 ###  Tanım:
 ```python
 @property

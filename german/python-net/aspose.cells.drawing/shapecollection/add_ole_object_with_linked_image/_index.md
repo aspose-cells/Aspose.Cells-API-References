@@ -25,9 +25,9 @@ def add_ole_object_with_linked_image(self, upper_left_row, upper_left_column, he
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
-| height | int | Die Höhe der Form. In Pixeleinheiten|
-| width | int | Die Breite der Form. In Pixeleinheiten|
+| upper_left_column | int | Spaltenindex oben links.|
+| height | int | Die Höhe der Form.|
+| width | int | Die Breite der Form.|
 | source_full_name | str | Der Pfad und Name der Quelldatei für das verknüpfte Bild|
 
 

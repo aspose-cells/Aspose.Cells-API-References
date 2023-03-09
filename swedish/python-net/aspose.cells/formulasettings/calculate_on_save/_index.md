@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  calculate_on_save fastighet
 
-Anger om arbetsboken ska beräknas om innan dokumentet sparas, i manuellt beräkningsläge.
+Indikerar om arbetsboken ska beräknas om innan dokumentet sparas i manuellt beräkningsläge.
 
 ###  Anmärkningar
 

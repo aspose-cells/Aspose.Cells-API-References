@@ -22,7 +22,7 @@ def add_range(self, ca):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | ca | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | la plage à ajouter.|
 

@@ -13,7 +13,7 @@ Görüntü birimi için özel bir değer belirtir.
 
 ###  Notlar
 
- NOT: Bu özellik artık kullanılmamaktadır. Yerine,
+ NOT: Bu özellik artık kullanılmamaktadır.
 lütfen Axis.CustomUnit özelliğini kullanın.
  Bu mülk, Ocak 2023'ten bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

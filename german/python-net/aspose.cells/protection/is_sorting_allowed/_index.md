@@ -13,7 +13,7 @@ Stellt dar, ob die Sortieroption auf einem geschützten Arbeitsblatt zulässig i
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die Protection.AllowSorting-Eigenschaft.
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

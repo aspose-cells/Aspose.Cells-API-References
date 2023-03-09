@@ -19,9 +19,9 @@ def set_even_header(self, section, header_script):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| section | int |0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
+| section | int | 0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
 | header_script | str | Script de formato de encabezado.|
 
 

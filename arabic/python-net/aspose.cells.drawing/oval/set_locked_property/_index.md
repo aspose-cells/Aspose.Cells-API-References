@@ -18,12 +18,12 @@ def set_locked_property(self, type, value):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/ar/python-net/aspose.cells.drawing/shapelocktype) | النوع المقفل.|
 | value | bool | قيمة العقار.|
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import ShapeLockType

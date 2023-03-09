@@ -1,6 +1,6 @@
 ﻿---
 title: show_value 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## show_value 属性
 
-获取或设置标志，指示是否显示应用此数据栏的单元格的值。
+获取或设置标志，指示是否显示应用此数据条的单元格的值。
 默认值为真。
 ### 定义：
 ```python

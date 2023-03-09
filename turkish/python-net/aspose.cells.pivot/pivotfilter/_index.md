@@ -1,5 +1,5 @@
 ﻿---
-title: PivotFilter sınıf
+title: PivotFilter sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /tr/python-net/aspose.cells.pivot/pivotfilter/
 is_root: false
 ---
-##  PivotFilter sınıf
+##  PivotFilter sınıfı
 PivotFilter Koleksiyonunda bir PivotFilter'i temsil eder.
 
 
@@ -17,9 +17,9 @@ PivotFilter türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [auto_filter](/cells/tr/python-net/aspose.cells.pivot/pivotfilter/auto_filter) |Pivot filtresinin otomatik filtresini alır.|
+| [auto_filter](/cells/tr/python-net/aspose.cells.pivot/pivotfilter/auto_filter) | Pivot filtresinin otomatik filtresini alır.|
 | [filter_type](/cells/tr/python-net/aspose.cells.pivot/pivotfilter/filter_type) | Pivot filtresinin otomatik filtre türünü alır.|
-| [field_index](/cells/tr/python-net/aspose.cells.pivot/pivotfilter/field_index) | Pivot filtresinin alan dizinini alır.|
+| [field_index](/cells/tr/python-net/aspose.cells.pivot/pivotfilter/field_index) |Pivot filtresinin alan dizinini alır.|
 | [value1](/cells/tr/python-net/aspose.cells.pivot/pivotfilter/value1) | Etiket pivot filtresinin string value1 değerini alır.|
 | [value2](/cells/tr/python-net/aspose.cells.pivot/pivotfilter/value2) | Etiket pivot filtresinin dize değeri2'yi alır.|
 | [measure_fld_index](/cells/tr/python-net/aspose.cells.pivot/pivotfilter/measure_fld_index) | Pivot filtresinin ölçü alanı dizinini alır.|
@@ -29,7 +29,7 @@ PivotFilter türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

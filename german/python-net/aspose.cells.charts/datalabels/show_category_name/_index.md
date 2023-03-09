@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_category_name Eigentum
 
-Stellt das Anzeigeverhalten des Datenbeschriftungs-Kategorienamens eines bestimmten Diagramms dar. True, um den Kategorienamen für die Datenbeschriftungen in einem Diagramm anzuzeigen. Falsch zu verstecken.
+Stellt das Anzeigeverhalten des Kategorienamens der Datenbeschriftung eines bestimmten Diagramms dar. True, um den Kategorienamen für die Datenbeschriftungen in einem Diagramm anzuzeigen. False, um auszublenden.
 ###  Definition:
 ```python
 @property

@@ -14,7 +14,7 @@ Varsayılan değer yanlıştır.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
 lütfen bunun yerine AutoFitterOptions.AutoFitMergedCellsType özelliğini kullanın.
  Bu mülk, Aralık 2018'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

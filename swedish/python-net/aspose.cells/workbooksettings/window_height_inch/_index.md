@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_inch fastighet
 
-Fönstrets höjd, i enhet av tum.
+Höjden på fönstret, i enheter av tum.
 ###  Definition:
 ```python
 @property

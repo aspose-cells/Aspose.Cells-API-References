@@ -17,9 +17,9 @@ Typen SmartTag avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [deleted](/cells/sv/python-net/aspose.cells.markup/smarttag/deleted) | Indikerar om den smarta taggen är raderad.|
-| [properties](/cells/sv/python-net/aspose.cells.markup/smarttag/properties) | Hämtar och ställer in egenskaperna för smarttaggen.|
-| [uri](/cells/sv/python-net/aspose.cells.markup/smarttag/uri) | Hämtar namnutrymmets URI för smarttaggen.|
+| [deleted](/cells/sv/python-net/aspose.cells.markup/smarttag/deleted) | Indikerar om smart-taggen är raderad.|
+| [properties](/cells/sv/python-net/aspose.cells.markup/smarttag/properties) | Hämtar och ställer in egenskaperna för den smarta taggen.|
+| [uri](/cells/sv/python-net/aspose.cells.markup/smarttag/uri) | Hämtar namnutrymmes-URI för smarttaggen.|
 | [name](/cells/sv/python-net/aspose.cells.markup/smarttag/name) | Får namnet på smarttaggen.|
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: PivotFormatCondition sınıf
+title: PivotFormatCondition sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 50
 url: /tr/python-net/aspose.cells.pivot/pivotformatcondition/
 is_root: false
 ---
-##  PivotFormatCondition sınıf
+##  PivotFormatCondition sınıfı
 PivotFormatCondition Koleksiyonunda bir PivotTable Format Koşulunu temsil eder.
 
 
@@ -17,7 +17,7 @@ PivotFormatCondition türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [scope_type](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) |Pivot tablo koşul biçimi için kapsam türünü alın ve ayarlayın.|
+| [scope_type](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) | Pivot tablo koşul biçimi için kapsam türünü alın ve ayarlayın.|
 | [rule_type](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/rule_type) | Pivot tablo koşul biçimi için kural türünü alın ve ayarlayın.|
 | [format_conditions](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | Pivot tablo koşul biçimi için biçim koşullarını alın.|
 
@@ -29,13 +29,13 @@ PivotFormatCondition türü aşağıdaki üyeleri gösterir:
 | [add_data_area_condition(data_field)](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/add_data_area_condition/#PivotField) | Veri alanlarına PivotTable koşullu biçim sınırı ekler.|
 | [add_row_area_condition(field_name)](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#str) | Satır alanlarına PivotTable koşullu biçim sınırı ekler.|
 | [add_row_area_condition(row_field)](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#PivotField) | Satır alanlarına PivotTable koşullu biçim sınırı ekler.|
-| [add_column_area_condition(field_name)](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) |Sütun alanlarına PivotTable koşullu biçim sınırı ekler.|
-| [add_column_area_condition(column_field)](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) |Sütun alanlarına PivotTable koşullu biçim sınırı ekler.|
+| [add_column_area_condition(field_name)](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) | Sütun alanlarına PivotTable koşullu biçim sınırı ekler.|
+| [add_column_area_condition(column_field)](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) | Sütun alanlarına PivotTable koşullu biçim sınırı ekler.|
 | [set_conditional_areas()](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition/set_conditional_areas/#) | PivotFormatCondition nesnesinin koşullu alanlarını ayarlar.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

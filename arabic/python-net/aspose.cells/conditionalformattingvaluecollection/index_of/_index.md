@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-الفهرس الصفري للتواجد الأول للقيمة ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من startIndex إلى العنصر الأخير ، إذا تم العثور عليه ؛ خلاف ذلك ، -1.
+الفهرس الصفري للتواجد الأول للقيمة ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من startIndex إلى العنصر الأخير ، إذا وجد ؛ وإلا ، -1.
 
 
 ```python
@@ -22,9 +22,9 @@ def index_of(self, item, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| item | [ConditionalFormattingValue](/cells/ar/python-net/aspose.cells/conditionalformattingvalue) | الكائن المطلوب تحديد موقعه في قائمة الصفيف. يمكن أن تكون القيمة فارغة.|
+| item | [ConditionalFormattingValue](/cells/ar/python-net/aspose.cells/conditionalformattingvalue) | الكائن المطلوب تحديد موقعه في قائمة الصفيف.|
 | index | int | فهرس البداية الصفري للبحث. 0 (صفر) صالح في قائمة فارغة.|
 
 
@@ -34,7 +34,7 @@ def index_of(self, item, index):
 
 ###  عائدات
 
-الفهرس الصفري للتواجد الأول للقيمة ضمن نطاق العناصر في قائمة الصفيف الذي يبدأ في startIndex ويحتوي على عدد العناصر ، إذا تم العثور عليه ؛ خلاف ذلك ، -1.
+الفهرس الصفري لأول تواجد للقيمة داخل نطاق العناصر في قائمة الصفيف الذي يبدأ في startIndex ويحتوي على عدد العناصر ، إذا وجد ؛ وإلا ، -1.
 
 
 ```python
@@ -43,9 +43,9 @@ def index_of(self, item, index, count):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| item | [ConditionalFormattingValue](/cells/ar/python-net/aspose.cells/conditionalformattingvalue) | الكائن المطلوب تحديد موقعه في قائمة الصفيف. يمكن أن تكون القيمة فارغة.|
+| item | [ConditionalFormattingValue](/cells/ar/python-net/aspose.cells/conditionalformattingvalue) | الكائن المطلوب تحديد موقعه في قائمة الصفيف.|
 | index | int | فهرس البداية الصفري للبحث. 0 (صفر) صالح في قائمة فارغة.|
 | count | int | عدد العناصر في القسم للبحث.|
 

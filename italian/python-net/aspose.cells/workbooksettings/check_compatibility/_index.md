@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility proprietà
 
-Indica se verificare la compatibilità con le versioni precedenti durante il salvataggio della cartella di lavoro.
+Indica se verificare la compatibilità con le versioni precedenti durante il salvataggio delle cartelle di lavoro.
 
 ###  Osservazioni
 

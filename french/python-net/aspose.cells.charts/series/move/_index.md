@@ -18,7 +18,7 @@ def move(self, count):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | count | int | Le nombre de déplacement vers le haut ou vers le bas.<br/>Déplacez la série vers le haut si elle est inférieure à zéro ;<br/> Déplacez la série vers le bas si elle est supérieure à zéro.|
 

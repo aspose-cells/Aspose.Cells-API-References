@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compression_type mülk
 
-Ooxml dosyası için sıkıştırma türünü alır ve ayarlar.
+Ooxml dosyaları için sıkıştırma türünü alır ve ayarlar.
 
 ###  Notlar
 

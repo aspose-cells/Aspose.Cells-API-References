@@ -8,12 +8,12 @@ url: /it/python-net/aspose.cells/formatconditioncollection/add_area/
 is_root: false
 ---
 ##  add_area(cell_area) {#CellArea}
-Aggiunge un intervallo di celle formattato condizionale.
+Aggiunge un intervallo di celle formattato in modo condizionale.
 
 
 ###  ritorna
 
-Indice di intervallo di cella formattato condizionale.
+Indice dell'intervallo di celle formattato in modo condizionale.
 
 
 ```python
@@ -22,9 +22,9 @@ def add_area(self, cell_area):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | Intervallo di celle formattato condizionale.|
+| cell_area | [CellArea](/cells/it/python-net/aspose.cells/cellarea) |Intervallo di celle formattato in modo condizionale.|
 
 
 

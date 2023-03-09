@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/cells/set_view_column_width_pixel/
 is_root: false
 ---
 ##  set_view_column_width_pixel(column, pixels) {#int-int}
-Imposta la larghezza della colonna in una vista diversa.
+Imposta la larghezza della colonna in diverse viste.
 
 
 
@@ -18,7 +18,7 @@ def set_view_column_width_pixel(self, column, pixels):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | L'indice di colonna.|
 | pixels | int | La larghezza in unità di pixel.|

@@ -22,9 +22,9 @@ def set_footer_picture(self, section, footer_picture):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| section | int |0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
+| section | int | 0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
 | footer_picture | bytes | بيانات الصورة.|
 
 

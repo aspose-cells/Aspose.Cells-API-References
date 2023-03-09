@@ -1,13 +1,13 @@
 ﻿---
 title: ShapePathType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1160
 url: /zh/python-net/aspose.cells.drawing/shapepathtype/
 is_root: false
 ---
-##  ShapePathType枚举
+## ShapePathType枚举
 表示路径段类型。
 
 

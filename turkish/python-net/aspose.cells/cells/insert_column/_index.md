@@ -18,7 +18,7 @@ def insert_column(self, column_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | Sütun dizini.|
 
@@ -34,10 +34,10 @@ def insert_column(self, column_index, update_reference):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | Sütun dizini.|
-| update_reference | bool | Diğer çalışma sayfalarındaki başvuruların güncellenip güncellenmeyeceğini belirtir.|
+| update_reference | bool |Diğer çalışma sayfalarındaki başvuruların güncellenip güncellenmeyeceğini belirtir.|
 
 
 

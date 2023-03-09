@@ -1,5 +1,5 @@
 ﻿---
-title: PivotItemCollection sınıf
+title: PivotItemCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 80
 url: /tr/python-net/aspose.cells.pivot/pivotitemcollection/
 is_root: false
 ---
-##  PivotItemCollection sınıf
+##  PivotItemCollection sınıfı
 PivotField'deki tüm PivotItem nesnelerinin bir koleksiyonunu temsil eder.
 
 

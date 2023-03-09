@@ -1,6 +1,6 @@
 ﻿---
 title: fore_ole_color 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 90
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-不适用于图像控件。
+不适用于图像控制。
 ### 定义：
 ```python
 @property

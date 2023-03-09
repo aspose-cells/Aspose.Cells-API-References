@@ -18,7 +18,7 @@ MirrorType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | NONE | Hiçbiri|
-| HORIZONAL | yatay|
+| HORIZONAL | Yatay|
 | VERTICAL | Dikey|
 | BOTH | İkisi birden|
 

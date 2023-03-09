@@ -18,10 +18,10 @@ def __init__(self, worksheet, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | worksheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Hangi e-tablonun oluşturulacağını belirtin.|
-| options | [ImageOrPrintOptions](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions) |ImageOrPrintOptions çıktı görüntüsünün bazı özelliklerini içerir|
+| options | [ImageOrPrintOptions](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions çıktı görüntüsünün bazı özelliklerini içerir|
 
 
 

@@ -153,12 +153,12 @@ Der Typ AutoShapeType macht die folgenden Member verfügbar:
 | FLOW_CHART_DISPLAY |  |
 | FLOW_CHART_DELAY |  |
 | TEXT_PLAIN_TEXT | Eine einfache Textform.|
-| TEXT_STOP |Eine achteckige Textform.|
+| TEXT_STOP | Eine achteckige Textform.|
 | TEXT_TRIANGLE | Eine dreieckige Textform, die nach oben zeigt.|
 | TEXT_TRIANGLE_INVERTED | Eine dreieckige Textform, die nach unten zeigt.|
 | TEXT_CHEVRON | Eine Chevron-Textform, die nach oben zeigt.|
 | TEXT_CHEVRON_INVERTED | Eine Chevron-Textform, die nach unten zeigt.|
-| TEXT_RING_INSIDE | Eine kreisförmige Textform, als würde man eine Inschrift auf der Innenseite eines Rings lesen.|
+| TEXT_RING_INSIDE |Eine kreisförmige Textform, als würde man eine Inschrift auf der Innenseite eines Rings lesen.|
 | TEXT_RING_OUTSIDE | Eine kreisförmige Textform, als würde man eine Inschrift auf der Außenseite eines Rings lesen.|
 | TEXT_ARCH_UP_CURVE | Eine nach oben gewölbte, gebogene Textform.|
 | TEXT_ARCH_DOWN_CURVE | Eine nach unten gebogene, gebogene Textform.|
@@ -177,13 +177,13 @@ Der Typ AutoShapeType macht die folgenden Member verfügbar:
 | TEXT_DOUBLE_WAVE1 | Eine wellige Textform.|
 | TEXT_DOUBLE_WAVE2 | Eine wellige Textform.|
 | TEXT_INFLATE | Eine Textform, die in der Mitte vertikal erweitert wird.|
-| TEXT_DEFLATE |Eine Textform, die in der Mitte vertikal schrumpft.|
+| TEXT_DEFLATE | Eine Textform, die in der Mitte vertikal schrumpft.|
 | TEXT_INFLATE_BOTTOM | Eine Textform, die in der Mitte nach unten erweitert wird.|
 | TEXT_DEFLATE_BOTTOM | Eine Textform, die in der Mitte nach oben schrumpft.|
 | TEXT_INFLATE_TOP | Eine Textform, die in der Mitte nach oben erweitert wird.|
 | TEXT_DEFLATE_TOP | Eine Textform, die in der Mitte nach unten schrumpft.|
-| TEXT_DEFLATE_INFLATE | Eine Textform, bei der untere Linien nach oben erweitert werden. Obere Linien schrumpfen, um dies zu kompensieren.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | Eine Textform, bei der Linien in der Mitte vertikal erweitert werden. Obere und untere Linien schrumpfen zum Ausgleich.|
+| TEXT_DEFLATE_INFLATE |Eine Textform, bei der sich die unteren Linien nach oben ausdehnen und die oberen Linien zum Ausgleich schrumpfen.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | Eine Textform, bei der Linien in der Mitte vertikal erweitert werden. Obere und untere Linien werden zum Ausgleich verkleinert.|
 | TEXT_FADE_RIGHT | Eine Textform, die auf der rechten Seite vertikal schrumpft.|
 | TEXT_FADE_LEFT | Eine Textform, die auf der linken Seite vertikal schrumpft.|
 | TEXT_FADE_UP | Eine Textform, die oben horizontal schrumpft.|

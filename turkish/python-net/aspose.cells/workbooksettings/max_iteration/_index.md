@@ -13,7 +13,7 @@ Döngüsel bir başvuruyu çözmek için maksimum yineleme sayısını döndür�
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.MaxIteration'ı kullanın.
+NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.MaxIteration kullanın.
  Bu mülk, Şubat 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

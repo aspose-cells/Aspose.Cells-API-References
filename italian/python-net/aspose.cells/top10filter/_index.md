@@ -17,7 +17,7 @@ Il tipo Top10Filter espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [is_top](/cells/it/python-net/aspose.cells/top10filter/is_top) |Indica se si tratta del filtro superiore.|
+| [is_top](/cells/it/python-net/aspose.cells/top10filter/is_top) | Indica se si tratta del filtro superiore.|
 | [is_percent](/cells/it/python-net/aspose.cells/top10filter/is_percent) | Indica se gli elementi sono percentuali.|
 | [items](/cells/it/python-net/aspose.cells/top10filter/items) | Ottiene e imposta gli elementi del filtro.|
 | [criteria](/cells/it/python-net/aspose.cells/top10filter/criteria) |  |

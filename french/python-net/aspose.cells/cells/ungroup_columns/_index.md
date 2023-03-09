@@ -18,7 +18,7 @@ def ungroup_columns(self, first_index, last_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | first_index | int | Le premier index de colonne à dissocier.|
 | last_index | int | Le dernier index de colonne à dissocier.|

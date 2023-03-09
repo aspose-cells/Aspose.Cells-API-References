@@ -17,7 +17,7 @@ Der Typ Bevel macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [width](/cells/de/python-net/aspose.cells.drawing/bevel/width) |Ruft die Breite der Abschrägung ab und legt sie fest, oder wie weit sie in die Form hinein angewendet wird.<br/> In Einheiten von Punkten.|
+| [width](/cells/de/python-net/aspose.cells.drawing/bevel/width) | Ruft die Breite der Abschrägung ab und legt sie fest, oder wie weit sie in die Form hinein angewendet wird.<br/> In Einheiten von Punkten.|
 | [height](/cells/de/python-net/aspose.cells.drawing/bevel/height) | Ruft die Höhe der Abschrägung ab und legt sie fest, oder wie weit über der Form sie angewendet wird.<br/> In Einheiten von Punkten.|
 | [type](/cells/de/python-net/aspose.cells.drawing/bevel/type) | Ruft den voreingestellten Bevel-Typ ab und legt ihn fest.|
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells mülk
 
-Bir satırdaki kuyruk boş hücrelerinin kırpılıp kırpılmayacağını belirtir. Varsayılan yanlıştır.
+Bir satırdaki boş hücrelerin kuyruğunun kırpılıp kırpılmayacağını belirtir.Varsayılan değer yanlıştır.
 
 ###  Notlar
 

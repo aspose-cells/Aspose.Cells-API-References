@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill fastighet
 
 Anger ett booleskt värde som anger om borrindikatorer ska skrivas ut.
-skriv ut expandera/komprimera knappar när de visas på vridbar.
+skriv ut expandera/komprimera knappar när de visas på pivottabellen.
 ###  Definition:
 ```python
 @property

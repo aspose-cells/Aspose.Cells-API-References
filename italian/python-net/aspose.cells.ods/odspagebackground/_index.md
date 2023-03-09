@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.ods/odspagebackground/
 is_root: false
 ---
 ##  classe OdsPageBackground
-Rappresenta lo sfondo della pagina di ods.
+Rappresenta lo sfondo della pagina delle quote.
 
 
 
@@ -23,7 +23,7 @@ Il tipo OdsPageBackground espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [type](/cells/it/python-net/aspose.cells.ods/odspagebackground/type) |Ottiene e imposta il tipo di sfondo della pagina.|
+| [type](/cells/it/python-net/aspose.cells.ods/odspagebackground/type) | Ottiene e imposta il tipo di sfondo della pagina.|
 | [color](/cells/it/python-net/aspose.cells.ods/odspagebackground/color) | Ottiene e imposta il colore dello sfondo.|
 | [graphic_type](/cells/it/python-net/aspose.cells.ods/odspagebackground/graphic_type) | Ottiene e imposta il tipo grafico di sfondo della pagina.|
 | [graphic_position_type](/cells/it/python-net/aspose.cells.ods/odspagebackground/graphic_position_type) | Ottiene e imposta la posizione della grafica di sfondo.|

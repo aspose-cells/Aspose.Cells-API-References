@@ -18,7 +18,7 @@ def protect(self, protection_type, password):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | protection_type | [ProtectionType](/cells/ar/python-net/aspose.cells/protectiontype) | نوع الحماية.|
 | password | str | كلمة مرور لحماية المصنف.|

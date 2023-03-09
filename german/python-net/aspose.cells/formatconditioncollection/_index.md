@@ -34,7 +34,7 @@ Ruft die Formatierungsbedingung nach Index ab.
 | Methode| Beschreibung|
 | :- | :- |
 | [add_condition(type, operator_type, formula1, formula2)](/cells/de/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType-OperatorType-str-str) | Fügt eine Formatierungsbedingung hinzu.|
-| [add_condition(type)](/cells/de/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) | Fügen Sie eine Formatbedingung hinzu.|
+| [add_condition(type)](/cells/de/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) |Fügen Sie eine Formatbedingung hinzu.|
 | [remove_area(index)](/cells/de/python-net/aspose.cells/formatconditioncollection/remove_area/#int) | Entfernt bedingt formatierte Zellbereiche nach Index.|
 | [remove_area(start_row, start_column, total_rows, total_columns)](/cells/de/python-net/aspose.cells/formatconditioncollection/remove_area/#int-int-int-int) | Entfernen Sie die bedingte Formatierung im Bereich.|
 | [add(cell_area, type, operator_type, formula1, formula2)](/cells/de/python-net/aspose.cells/formatconditioncollection/add/#CellArea-FormatConditionType-OperatorType-str-str) | Fügt den FormatConditions eine Formatierungsbedingung und einen betroffenen Zellbereich hinzu<br/>Die FormatConditions können bis zu drei bedingte Formate enthalten.<br/> Verweise auf die anderen Blätter sind in den Formeln der bedingten Formatierung nicht erlaubt.|
@@ -44,7 +44,7 @@ Ruft die Formatierungsbedingung nach Index ab.
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

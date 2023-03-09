@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/shapecollection/add_auto_shape/
 is_root: false
 ---
 ##  add_auto_shape(type, upper_left_row, top, upper_left_column, left, height, width) {#AutoShapeType-int-int-int-int-int-int}
-Agrega una autoforma a la hoja de cálculo.
+Agrega una autoforma a la hoja de trabajo.
 
 
 ###  Devoluciones
@@ -22,19 +22,19 @@ def add_auto_shape(self, type, upper_left_row, top, upper_left_column, left, hei
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/es/python-net/aspose.cells.drawing/autoshapetype) | Tipo de forma automática.|
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | top | int | Representa el desplazamiento vertical de Shape desde su fila izquierda, en unidades de píxel.|
-| upper_left_column | int |Índice de la columna superior izquierda.|
+| upper_left_column | int | Índice de la columna superior izquierda.|
 | left | int | Representa el desplazamiento horizontal de Shape desde su columna izquierda, en unidades de píxel.|
-| height | int | Representa la altura de Shape, en unidades de píxel.|
-| width | int | Representa el ancho de Shape, en unidades de píxel.|
+| height | int | Representa la altura de Shape, en unidades de píxeles.|
+| width | int | Representa el ancho de Forma, en unidades de píxeles.|
 ###  Observaciones
 
 El tipo no puede ser Gráfico/Comentario/Imagen/OleObject/Polygon/DialogBox
-###  Ejemplo
+###  Ejemplos
 
 
 ```python

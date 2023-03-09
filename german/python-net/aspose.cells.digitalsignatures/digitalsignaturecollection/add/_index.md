@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/ad
 is_root: false
 ---
 ##  add(digital_signature) {#DigitalSignature}
-Fügen Sie DigitalSignatureCollection eine Signatur hinzu.
+Fügen Sie eine Signatur zur Sammlung digitaler Signaturen hinzu.
 
 
 

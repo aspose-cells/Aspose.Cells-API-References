@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preferred_parsers propiedad
 
-Obtiene y establece los analizadores de valores preferidos para cargar archivos de texto.
+Obtiene y establece analizadores de valores preferidos para cargar archivos de texto.
 
 ###  Observaciones
 

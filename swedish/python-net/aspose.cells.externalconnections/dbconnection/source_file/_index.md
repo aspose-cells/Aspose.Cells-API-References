@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  source_file fastighet
 
- Används när den externa datakällan är filbaserad. När en anslutning till en sådan data
- källan misslyckas försöker kalkylarksprogrammet ansluta direkt till den här filen. Kanske
+ Används när den externa datakällan är filbaserad.
+ källan misslyckas försöker kalkylarksprogrammet ansluta direkt till den här filen.
 uttryckt i URI eller systemspecifik filsökvägsnotation.
 ###  Definition:
 ```python

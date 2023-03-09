@@ -17,16 +17,16 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [FormulaParseOptions()](/cells/ar/python-net/aspose.cells/formulaparseoptions/__init__/#) | بناء مثيل جديد من FormulaParseOptions|
+| [FormulaParseOptions()](/cells/ar/python-net/aspose.cells/formulaparseoptions/__init__/#) |بناء مثيل جديد من FormulaParseOptions|
 
 
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [locale_dependent](/cells/ar/python-net/aspose.cells/formulaparseoptions/locale_dependent) | ما إذا كانت الصيغة منسقة محليًا أم لا. الافتراضي هو خطأ.|
+| [locale_dependent](/cells/ar/python-net/aspose.cells/formulaparseoptions/locale_dependent) | ما إذا كانت الصيغة منسقة محليًا أم لا. الإعداد الافتراضي هو "خطأ".|
 | [r1c1_style](/cells/ar/python-net/aspose.cells/formulaparseoptions/r1c1_style) | ما إذا كانت الصيغة هي نمط المرجع R1C1. الافتراضي هو خطأ.|
 | [check_add_in](/cells/ar/python-net/aspose.cells/formulaparseoptions/check_add_in) | ما إذا كان التحقق من الوظائف الإضافية في الارتباطات الخارجية الحالية للمصنف الحالي للوظيفة التي يحددها المستخدم بدون ارتباط خارجي.<br/> الافتراضي صحيح (إذا كانت الوظيفة المحددة من قبل المستخدم تتطابق مع وظيفة إضافية واحدة في الروابط الخارجية الحالية ، فاعتبرها الوظيفة الإضافية).|
-| [parse](/cells/ar/python-net/aspose.cells/formulaparseoptions/parse) |سواء اعطيت صيغة معينة. الافتراضي هو الصحيح.<br/>إذا كانت خاطئة ، فسيتم الاحتفاظ بسلسلة الصيغة كما هي للخلية حتى يقوم المستخدم باستدعاء طرق أخرى لتحليلها<br/> أو بيانات الصيغة التي تم تحليلها مطلوبة من قبل عمليات أخرى مثل حساب الصيغ.|
+| [parse](/cells/ar/python-net/aspose.cells/formulaparseoptions/parse) | سواء كان تحليل الصيغة المحددة أم لا. الافتراضي هو الصحيح.<br/>إذا كانت خاطئة ، فسيتم الاحتفاظ بسلسلة الصيغة كما هي للخلية حتى يقوم المستخدم باستدعاء طرق أخرى لتحليلها<br/> أو بيانات الصيغة التي تم تحليلها مطلوبة من قبل عمليات أخرى مثل حساب الصيغ.|
 
 
 

@@ -13,7 +13,7 @@ Verilen yerel ayara bağlı işlev adına göre standart işlev adını alır.
 
 ###  İadeler
 
-Standart(en-US yerel ayarı) işlev adı.
+Standart (en-US yerel ayarı) işlev adı.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_standard_function_name(self, local_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| local_name | str | Yerel ayara bağlı işlev adı. Yerel ayar, bu ayarların kullanıldığı Çalışma Kitabı tarafından belirtildi.|
+| local_name | str | Yerel ayara bağlı işlev adı.|
 
 
 

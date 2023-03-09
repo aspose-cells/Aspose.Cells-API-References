@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  is_deleted propiedad
 
-Indica si se ha eliminado la conexión del libro de trabajo asociado. cierto si el
-la conexión ha sido eliminada; en caso contrario, falso.
+Indica si se eliminó la conexión del libro de trabajo asociado.
+en caso contrario, falso.
 ###  Definición:
 ```python
 @property

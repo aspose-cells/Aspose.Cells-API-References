@@ -1,6 +1,6 @@
 ﻿---
 title: separator 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 330
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-注意：该成员现已过时。反而，
+注意：该成员现已过时。
 请使用 DataLabels.SeparatorType 属性。
 自 2020 年 9 月起，此属性将在 12 个月后移除。
 Aspose 对您可能遇到的任何不便深表歉意。

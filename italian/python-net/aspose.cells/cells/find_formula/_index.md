@@ -22,14 +22,14 @@ def find_formula(self, formula, previous_cell):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | formula | str | La formula da cercare.|
-| previous_cell | [Cell](/cells/it/python-net/aspose.cells/cell) | Cella precedente con la stessa formula. Questo parametro può essere impostato su null se si esegue la ricerca dall'inizio.|
+| previous_cell | [Cell](/cells/it/python-net/aspose.cells/cell) |Cella precedente con la stessa formula. Questo parametro può essere impostato su null se la ricerca viene eseguita dall'inizio.|
 ###  Osservazioni
 
 Restituisce null (Niente) se non viene trovata alcuna cella.
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
 utilizzare il metodo Cells.Find(object,Cell,FindOptions) con LookInType come LookInType.OnlyFormulas
  e LookAtType come LookAtType.EntireContent.
  Questo membro verrà rimosso 12 mesi dopo da novembre 2018.

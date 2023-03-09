@@ -21,14 +21,14 @@ is_root: false
 | :- | :- |
 | [cf_icons](/cells/ru/python-net/aspose.cells/iconset/cf_icons) | Получите [ConditionalFormattingIcon](/cells/ru/python-net/aspose.cells/conditionalformattingicon) из коллекции|
 | [cfvos](/cells/ru/python-net/aspose.cells/iconset/cfvos) | Получите экземпляр CFValueObjects.|
-| [type](/cells/ru/python-net/aspose.cells/iconset/type) | Получить или установить тип набора значков для отображения.<br/>Установка типа автоматически проверит, соответствует ли текущий счетчик Cfvos.<br/> соответствии с новым типом. В противном случае старые Cfvos будут очищены и<br/> будут добавлены Cfvo по умолчанию.|
-| [is_custom](/cells/ru/python-net/aspose.cells/iconset/is_custom) |Указывает, является ли набор значков пользовательским.<br/> Значение по умолчанию — ложь.|
-| [show_value](/cells/ru/python-net/aspose.cells/iconset/show_value) | Получите или установите флаг, указывающий, следует ли отображать значения ячеек, к которым применяется этот набор значков.<br/> Значение по умолчанию — истина.|
+| [type](/cells/ru/python-net/aspose.cells/iconset/type) | Получить или установить тип набора значков для отображения.<br/>Установка типа автоматически проверит, соответствует ли текущий счетчик Cfvos.<br/> соответствии с новым типом.Если не соответствует, старые Cfvos будут очищены и<br/> будут добавлены Cfvo по умолчанию.|
+| [is_custom](/cells/ru/python-net/aspose.cells/iconset/is_custom) | Указывает, является ли набор значков пользовательским.<br/> Значение по умолчанию — ложь.|
+| [show_value](/cells/ru/python-net/aspose.cells/iconset/show_value) | Получите или установите флаг, указывающий, показывать ли значения ячеек, к которым применяется этот набор значков.<br/> Значение по умолчанию — истина.|
 | [reverse](/cells/ru/python-net/aspose.cells/iconset/reverse) | Получите или установите флаг, указывающий, следует ли изменить порядок значков по умолчанию в этом наборе значков.<br/> Значение по умолчанию — ложь.|
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, IconSetType, Workbook

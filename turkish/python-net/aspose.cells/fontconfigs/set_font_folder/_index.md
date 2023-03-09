@@ -18,7 +18,7 @@ def set_font_folder(self, font_folder, recursive):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | font_folder | str | TrueType yazı tiplerini içeren klasör.|
 | recursive | bool | Alt klasörlerin taranıp taranmayacağını belirler.|

@@ -19,7 +19,7 @@ Der Typ Column macht die folgenden Member verfügbar:
 | :- | :- |
 | [index](/cells/de/python-net/aspose.cells/column/index) | Ruft den Index dieser Spalte ab.|
 | [width](/cells/de/python-net/aspose.cells/column/width) | Ruft die Spaltenbreite in Zeicheneinheiten ab und legt sie fest.|
-| [group_level](/cells/de/python-net/aspose.cells/column/group_level) | Ruft die Gruppenebene der Spalte ab.|
+| [group_level](/cells/de/python-net/aspose.cells/column/group_level) |Ruft die Gruppenebene der Spalte ab.|
 | [is_hidden](/cells/de/python-net/aspose.cells/column/is_hidden) | Gibt an, ob die Spalte ausgeblendet ist.|
 | [has_custom_style](/cells/de/python-net/aspose.cells/column/has_custom_style) | Gibt an, ob diese Spalte über benutzerdefinierte Stileinstellungen verfügt (anders als die von der Arbeitsmappe geerbte Standardeinstellung).|
 | [style](/cells/de/python-net/aspose.cells/column/style) | Ruft den Stil dieser Spalte ab.|
@@ -35,7 +35,7 @@ Der Typ Column macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

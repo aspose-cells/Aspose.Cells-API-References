@@ -18,9 +18,9 @@ def to_front_or_back(self, orders):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| orders | int | Om det är mindre än noll ställs formen tillbaka.<br/> Om den är större än noll, förs formen fram.|
+| orders | int | Om det är mindre än noll ställs formen tillbaka.<br/>Om den är större än noll, förs formen fram.|
 
 ###  Exempel
 

@@ -11,7 +11,7 @@ is_root: false
 
 Bu imza satırı için tanımlayıcıyı alır veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import SignatureLine

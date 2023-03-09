@@ -26,7 +26,7 @@ def add_label_in_chart(self, top, left, height, width):
 | :- | :- | :- |
 | top | int | Repräsentiert den vertikalen Versatz der Beschriftung von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs.|
 | left | int | Repräsentiert den vertikalen Versatz der Beschriftung von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs.|
-| height | int |Repräsentiert die Höhe der Beschriftung in Einheiten von 1/4000 des Diagrammbereichs.|
+| height | int | Repräsentiert die Höhe der Beschriftung in Einheiten von 1/4000 des Diagrammbereichs.|
 | width | int | Repräsentiert die Breite des Etiketts in Einheiten von 1/4000 des Diagrammbereichs.|
 
 

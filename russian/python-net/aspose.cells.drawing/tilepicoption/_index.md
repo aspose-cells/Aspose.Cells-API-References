@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing/tilepicoption/
 is_root: false
 ---
 ##  TilePicOption класс
-Представляет изображение плитки в виде текстуры.
+Представляет мозаичные изображения в виде текстур.
 
 
 

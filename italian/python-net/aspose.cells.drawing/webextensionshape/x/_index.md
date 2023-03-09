@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta l'offset orizzontale della forma dal bordo sinistro del foglio di lavoro, in unità di pixel.
 
-###  Esempio
+###  Esempi
 
 ```python
 

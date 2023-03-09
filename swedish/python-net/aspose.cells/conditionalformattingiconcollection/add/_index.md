@@ -18,7 +18,7 @@ def add(self, cficon):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cficon | [ConditionalFormattingIcon](/cells/sv/python-net/aspose.cells/conditionalformattingicon) | Returnerar index för nytt objekt i listan.|
 
@@ -38,7 +38,7 @@ def add(self, type, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [IconSetType](/cells/sv/python-net/aspose.cells/iconsettype) | Värdetypen.|
 | index | int | Indexet.|

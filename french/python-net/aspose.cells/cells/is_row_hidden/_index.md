@@ -22,7 +22,7 @@ def is_row_hidden(self, row_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row_index | int | indice de ligne|
 

@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.slicers/slicer/refresh/
 is_root: false
 ---
 ##  refresh() {#}
-Aggiornamento dell'affettatrice. Nel frattempo, aggiornamento e calcolo delle relative tabelle pivot.
+Aggiornamento dell'affettatrice Nel frattempo, aggiornamento e calcolo delle tabelle pivot relative.
 
 
 
@@ -19,7 +19,7 @@ def refresh(self):
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 

@@ -18,7 +18,7 @@ def to_pdf(self, file_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file_name | str | el nombre del archivo pdf con la ruta completa|
 
@@ -34,7 +34,7 @@ def to_pdf(self, stream):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | El flujo de salida.|
 
@@ -50,7 +50,7 @@ def to_pdf(self, file_name, desired_page_width, desired_page_height, h_alignment
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file_name | str | el nombre del archivo pdf con la ruta completa|
 | desired_page_width | float | El ancho de página deseado en pulgadas.|
@@ -70,7 +70,7 @@ def to_pdf(self, stream, desired_page_width, desired_page_height, h_alignment_ty
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | El flujo de salida.|
 | desired_page_width | float | El ancho de página deseado en pulgadas.|

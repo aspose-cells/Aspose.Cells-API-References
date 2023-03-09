@@ -18,11 +18,11 @@ def delete_in_range(self, ca):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | L'intervallo. Se le forme sono contenute nell'intervallo, verranno rimosse.|
+| ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) |L'intervallo Se le forme sono contenute nell'intervallo, verranno rimosse.|
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellArea

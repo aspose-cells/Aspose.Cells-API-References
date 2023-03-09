@@ -13,7 +13,7 @@ Specifica un valore personalizzato per l'unità di visualizzazione.
 
 ###  Osservazioni
 
- NOTA: questa proprietà è ora obsoleta. Invece,
+ NOTA: questa proprietà è ora obsoleta.
 utilizzare la proprietà Axis.CustomUnit.
  Questa proprietà verrà rimossa 12 mesi dopo da gennaio 2023.
 Aspose si scusa per gli eventuali disagi causati.

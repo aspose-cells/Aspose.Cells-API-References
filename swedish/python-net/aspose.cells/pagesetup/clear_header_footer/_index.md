@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/pagesetup/clear_header_footer/
 is_root: false
 ---
 ##  clear_header_footer() {#}
-Rensar sidhuvud och sidfotsinställning.
+Rensar inställningarna för sidhuvud och sidfot.
 
 
 

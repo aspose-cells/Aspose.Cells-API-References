@@ -19,7 +19,7 @@ Typen SqlScriptOperatorType avslöjar följande medlemmar:
 | :- | :- |
 | INSERT | Infoga data.|
 | UPDATE | Uppdatera data.|
-| DELETE | Ta bort data.|
+| DELETE | Radera data.|
 
 
 

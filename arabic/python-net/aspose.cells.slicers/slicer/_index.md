@@ -24,20 +24,20 @@ is_root: false
 | [placement](/cells/ar/python-net/aspose.cells.slicers/slicer/placement) | يمثل الطريقة التي يتم بها إرفاق الكائن الرسومي بالخلايا الموجودة أسفله.<br/> تتحكم الخاصية في وضع كائن في ورقة العمل.|
 | [locked_aspect_ratio](/cells/ar/python-net/aspose.cells.slicers/slicer/locked_aspect_ratio) | يشير إلى ما إذا كان قفل نسبة العرض إلى الارتفاع.|
 | [locked_position](/cells/ar/python-net/aspose.cells.slicers/slicer/locked_position) | يشير إلى ما إذا كان يمكن نقل مقسم الشرائح المحدد أو تغيير حجمه باستخدام واجهة المستخدم.|
-| [slicer_cache](/cells/ar/python-net/aspose.cells.slicers/slicer/slicer_cache) | تُرجع كائن SlicerCache المرتبط بقطعة شرائح. يقرأ فقط.|
-| [parent](/cells/ar/python-net/aspose.cells.slicers/slicer/parent) | إرجاع كائن ورقة العمل الذي يمثل الورقة التي تحتوي على مقسم طريقة العرض. يقرأ فقط.|
+| [slicer_cache](/cells/ar/python-net/aspose.cells.slicers/slicer/slicer_cache) |تُرجع كائن SlicerCache المرتبط بقطعة شرائح.|
+| [parent](/cells/ar/python-net/aspose.cells.slicers/slicer/parent) | إرجاع كائن ورقة العمل الذي يمثل الورقة التي تحتوي على مقسم طريقة العرض.|
 | [style_type](/cells/ar/python-net/aspose.cells.slicers/slicer/style_type) | حدد نوع نمط تقطيع اللحم المدمج<br/> النوع الافتراضي هو SlicerStyleLight1|
 | [name](/cells/ar/python-net/aspose.cells.slicers/slicer/name) | إرجاع أو تعيين اسم مقسم طريقة العرض المحدد|
 | [caption](/cells/ar/python-net/aspose.cells.slicers/slicer/caption) | إرجاع أو تعيين التسمية التوضيحية لقطاعة الشرائح المحددة.|
 | [caption_visible](/cells/ar/python-net/aspose.cells.slicers/slicer/caption_visible) | إرجاع أو تعيين ما إذا كان الرأس الذي يعرض التسمية التوضيحية لتقطيع الصور مرئيًا أم لا<br/> القيمة الافتراضية هي الحقيقية|
-| [number_of_columns](/cells/ar/python-net/aspose.cells.slicers/slicer/number_of_columns) |إرجاع أو تعيين عدد الأعمدة في مقسم طريقة العرض المحدد.|
+| [number_of_columns](/cells/ar/python-net/aspose.cells.slicers/slicer/number_of_columns) | إرجاع أو تعيين عدد الأعمدة في مقسم طريقة العرض المحدد.|
 | [left_pixel](/cells/ar/python-net/aspose.cells.slicers/slicer/left_pixel) | إرجاع أو تعيين الإزاحة الأفقية لشكل مقسم طريقة العرض من العمود الأيسر بالبكسل.|
 | [top_pixel](/cells/ar/python-net/aspose.cells.slicers/slicer/top_pixel) | إرجاع أو تعيين الإزاحة الرأسية لشكل مقسم طريقة العرض من صفها العلوي بالبكسل.|
 | [width](/cells/ar/python-net/aspose.cells.slicers/slicer/width) | إرجاع أو تعيين عرض مقسم طريقة العرض المحدد بالنقاط.|
 | [width_pixel](/cells/ar/python-net/aspose.cells.slicers/slicer/width_pixel) | إرجاع أو تعيين عرض أداة تقطيع الشرائح المحددة بالبكسل.|
 | [height](/cells/ar/python-net/aspose.cells.slicers/slicer/height) | إرجاع أو تعيين ارتفاع مقسم طريقة العرض المحدد بالنقاط.|
-| [height_pixel](/cells/ar/python-net/aspose.cells.slicers/slicer/height_pixel) | تُرجع أو تحدد ارتفاع أداة تقطيع الشرائح المحددة بالبكسل.|
-| [column_width_pixel](/cells/ar/python-net/aspose.cells.slicers/slicer/column_width_pixel) | الحصول على أو تحديد العرض بوحدة البكسل لكل عمود في آلة التقطيع.|
+| [height_pixel](/cells/ar/python-net/aspose.cells.slicers/slicer/height_pixel) |تُرجع أو تحدد ارتفاع أداة تقطيع الشرائح المحددة بالبكسل.|
+| [column_width_pixel](/cells/ar/python-net/aspose.cells.slicers/slicer/column_width_pixel) | الحصول على أو تحديد العرض بوحدات البكسل لكل عمود في آلة التقطيع.|
 | [column_width](/cells/ar/python-net/aspose.cells.slicers/slicer/column_width) | إرجاع أو تعيين العرض ، بالنقاط ، لكل عمود في أداة تقطيع الشرائح.|
 | [row_height_pixel](/cells/ar/python-net/aspose.cells.slicers/slicer/row_height_pixel) | إرجاع أو تعيين الارتفاع بالبكسل لكل صف في مقسم طريقة العرض المحددة.|
 | [row_height](/cells/ar/python-net/aspose.cells.slicers/slicer/row_height) | إرجاع أو تعيين ارتفاع كل صف في مقسم طريقة العرض المحدد بالنقاط.|
@@ -47,12 +47,12 @@ is_root: false
 | طريقة| وصف|
 | :- | :- |
 | [add_pivot_connection(pivot)](/cells/ar/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable) | يضيف اتصال PivotTable.|
-| [remove_pivot_connection(pivot)](/cells/ar/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | يزيل اتصال PivotTable.|
+| [remove_pivot_connection(pivot)](/cells/ar/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | يزيل اتصالات PivotTable.|
 | [refresh()](/cells/ar/python-net/aspose.cells.slicers/slicer/refresh/#) | تجديد القطاعة ، وفي الوقت نفسه ، تحديث وحساب جداول PivotTable النسبية.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

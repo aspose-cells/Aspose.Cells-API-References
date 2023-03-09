@@ -11,7 +11,7 @@ is_root: false
 
 يمثل عنصر [ShadowEffect](/cells/ar/python-net/aspose.cells.drawing/shadoweffect) يحدد تأثير الظل لعنصر المخطط أو شكله.
 
-###  مثال
+###  أمثلة
 
 ```python
 

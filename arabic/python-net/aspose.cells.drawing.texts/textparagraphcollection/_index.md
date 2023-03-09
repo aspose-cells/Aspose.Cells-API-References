@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
 ##  TextParagraphCollection الدرجة
-يمثل كل نص فقرة.
+يمثل كل فقرات النص.
 
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 يمثل font للشكل.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.pydrawing import Color

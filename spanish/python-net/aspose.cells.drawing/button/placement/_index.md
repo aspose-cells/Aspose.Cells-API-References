@@ -12,7 +12,7 @@ is_root: false
 Representa la forma en que el objeto de dibujo se adjunta a las celdas debajo de él.
 La propiedad controla el placement de un objeto en una hoja de cálculo.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import PlacementType

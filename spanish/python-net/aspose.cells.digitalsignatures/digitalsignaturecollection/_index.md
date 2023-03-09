@@ -17,19 +17,19 @@ El tipo DigitalSignatureCollection expone los siguientes miembros:
 ###  Constructores
 | Constructor| Descripción|
 | :- | :- |
-| [DigitalSignatureCollection()](/cells/es/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) | El constructor de DigitalSignatureCollection.|
+| [DigitalSignatureCollection()](/cells/es/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) |El constructor de DigitalSignatureCollection.|
 
 
 ###  Métodos
 | Método| Descripción|
 | :- | :- |
-| [add(digital_signature)](/cells/es/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) |Agregue una firma a DigitalSignatureCollection.|
+| [add(digital_signature)](/cells/es/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Agregue una firma a la colección de firmas digitales.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
-El siguiente ejemplo muestra cómo validar la firma digital.
+El siguiente ejemplo muestra cómo validar firmas digitales.
 
 ```python
 from aspose.cells import Workbook

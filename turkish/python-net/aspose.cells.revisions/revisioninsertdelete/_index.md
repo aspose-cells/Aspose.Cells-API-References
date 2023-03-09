@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionInsertDelete sınıf
+title: RevisionInsertDelete sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 110
 url: /tr/python-net/aspose.cells.revisions/revisioninsertdelete/
 is_root: false
 ---
-##  RevisionInsertDelete sınıf
+##  RevisionInsertDelete sınıfı
 Bir satır/sütun ekleme/silme eyleminin revizyon kaydını temsil eder.
 
 

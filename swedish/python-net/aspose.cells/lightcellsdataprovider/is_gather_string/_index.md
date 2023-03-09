@@ -26,7 +26,7 @@ def is_gather_string(self):
 
 Att samla in strängvärden kommer bara att dra fördel när det finns många dubblerade strängvärden för cellerna som tillhandahålls av denna implementering.
 I denna situation kommer insamlingssträng att spara mycket minne och generera mindre resulterande fil.
-Om det finns många strängvärden för cellerna som tillhandahålls av LightCellsDataProvider men få av dem är samma,
+Om det finns många strängvärden för cellerna som tillhandahålls av LightCellsDataProvider men få av dem är desamma,
 samla sträng kommer att kosta mer minne och tid och har ingen fördel för den resulterande filen.
 
 

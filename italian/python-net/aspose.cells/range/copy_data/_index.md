@@ -18,7 +18,7 @@ def copy_data(self, range):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range | [Range](/cells/it/python-net/aspose.cells/range) | Fonte [Range](/cells/it/python-net/aspose.cells/range) oggetto.|
 

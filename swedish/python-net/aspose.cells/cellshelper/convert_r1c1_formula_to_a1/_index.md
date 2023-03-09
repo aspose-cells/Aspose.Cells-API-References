@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/
 is_root: false
 ---
 ##  convert_r1c1_formula_to_a1(r_1c1_formula, row, column) {#str-int-int}
-Konverterar cellens r1c1-formel till A1-formel.
+Konverterar cellens r1c1-formel till A1-formeln.
 
 
 ###  Returnerar
@@ -22,10 +22,10 @@ def convert_r1c1_formula_to_a1(self, r_1c1_formula, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | r_1c1_formula | str | Formeln r1c1.|
-| row | int |Cellens radindex.|
+| row | int | Cellens radindex.|
 | column | int | Kolumnindex för cellen.|
 
 

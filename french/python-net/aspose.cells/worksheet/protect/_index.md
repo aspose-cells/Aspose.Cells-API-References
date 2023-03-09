@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/fr/python-net/aspose.cells/protectiontype) | Type de protection.|
 ###  Remarques
 
-Cette méthode protège la feuille de calcul sans mot de passe. Il peut protect feuille de calcul dans toutes les versions du fichier Excel.
+Cette méthode protège la feuille de calcul sans mot de passe.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/fr/python-net/aspose.cells/protectiontype) | Type de protection.|
 | password | str | Mot de passe.|
@@ -45,7 +45,7 @@ def protect(self, type, password, old_password):
 ###  Remarques
 
 Cette méthode peut protect feuille de calcul dans toutes les versions du fichier Excel.
-###  Exemple
+###  Exemples
 
 
 ```python

@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie le name du cache du segment.
 
-###  Exemple
+###  Exemples
 
 ```python
 

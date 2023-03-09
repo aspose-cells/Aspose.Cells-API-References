@@ -11,7 +11,7 @@ is_root: false
 
 Representa las principales líneas de cuadrícula en un eje de gráfico.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

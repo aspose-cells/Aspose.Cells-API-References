@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  regex_key mülk
 
-Aranan anahtarın normal ifade olup olmadığını gösterir. True ise, aranan anahtar regex olarak alınacaktır.
+Aranan anahtarın normal ifade olup olmadığını gösterir.True ise aranan anahtar normal ifade olarak alınacaktır.
 ###  Tanım:
 ```python
 @property

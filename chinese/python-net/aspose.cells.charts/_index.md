@@ -1,6 +1,6 @@
 ﻿---
 title: aspose.cells.charts
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ is_root: false
 | [ChartCollection](/cells/zh/python-net/aspose.cells.charts/chartcollection) |封装 [Chart](/cells/zh/python-net/aspose.cells.charts/chart) 对象的集合。|
 | [ChartDataTable](/cells/zh/python-net/aspose.cells.charts/chartdatatable) |表示图表数据表。|
 | [ChartFrame](/cells/zh/python-net/aspose.cells.charts/chartframe) |封装表示图表中框架对象的对象。|
-| [ChartGlobalizationSettings](/cells/zh/python-net/aspose.cells.charts/chartglobalizationsettings) |代表图表的全球化设置。|
+| [ChartGlobalizationSettings](/cells/zh/python-net/aspose.cells.charts/chartglobalizationsettings) |表示图表的全球化设置。|
 | [ChartPoint](/cells/zh/python-net/aspose.cells.charts/chartpoint) |表示图表中一系列中的单个点。|
 | [ChartPointCollection](/cells/zh/python-net/aspose.cells.charts/chartpointcollection) |表示包含一个系列中所有点的集合。|
 | [ChartTextFrame](/cells/zh/python-net/aspose.cells.charts/charttextframe) |封装表示包含文本的框架对象的对象。|
@@ -33,13 +33,13 @@ is_root: false
 | [LegendEntryCollection](/cells/zh/python-net/aspose.cells.charts/legendentrycollection) |表示指定图表图例中所有 [LegendEntry](/cells/zh/python-net/aspose.cells.charts/legendentry) 对象的集合。|
 | [Marker](/cells/zh/python-net/aspose.cells.charts/marker) |表示折线图、散点图或雷达图中的标记。|
 | [PivotOptions](/cells/zh/python-net/aspose.cells.charts/pivotoptions) |表示一个复杂类型，它指定显示在图表上的数据透视控件|
-| [PlotArea](/cells/zh/python-net/aspose.cells.charts/plotarea) |封装表示图表中绘图区域的对象。|
+| [PlotArea](/cells/zh/python-net/aspose.cells.charts/plotarea) |封装表示图表中绘图区的对象。|
 | [Series](/cells/zh/python-net/aspose.cells.charts/series) |封装表示图表中单个数据系列的对象。|
 | [SeriesCollection](/cells/zh/python-net/aspose.cells.charts/seriescollection) |封装 [Series](/cells/zh/python-net/aspose.cells.charts/series) 对象的集合。|
 | [SeriesLayoutProperties](/cells/zh/python-net/aspose.cells.charts/serieslayoutproperties) |表示系列布局的属性。|
 | [Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) |迷你图表示工作表单元格中提供数据可视化表示的微小图表或图形。|
 | [SparklineCollection](/cells/zh/python-net/aspose.cells.charts/sparklinecollection) |封装 [Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) 对象的集合。|
-| [SparklineGroup](/cells/zh/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) 被组织到迷你图组中。 SparklineGroup 包含可变数量的迷你图项。<br/>迷你图组指定迷你图的类型、显示设置和轴设置。|
+| [SparklineGroup](/cells/zh/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) is organized into sparkline group. SparklineGroup 包含可变数量的迷你图项。<br/>迷你图组指定迷你图的类型、显示设置和轴设置。|
 | [SparklineGroupCollection](/cells/zh/python-net/aspose.cells.charts/sparklinegroupcollection) |封装 [SparklineGroup](/cells/zh/python-net/aspose.cells.charts/sparklinegroup) 对象的集合。|
 | [TickLabelItem](/cells/zh/python-net/aspose.cells.charts/ticklabelitem) |包含 Ticklabel 项目的信息|
 | [TickLabels](/cells/zh/python-net/aspose.cells.charts/ticklabels) |表示与图表轴上的刻度线关联的刻度线标签。|
@@ -74,7 +74,7 @@ is_root: false
 | [MapChartLabelLayout](/cells/zh/python-net/aspose.cells.charts/mapchartlabellayout) |表示地图图表标签的布局。|
 | [MapChartProjectionType](/cells/zh/python-net/aspose.cells.charts/mapchartprojectiontype) |表示地图图表的投影类型。|
 | [MapChartRegionType](/cells/zh/python-net/aspose.cells.charts/mapchartregiontype) |表示地图图表的区域类型。|
-| [PlotDataByType](/cells/zh/python-net/aspose.cells.charts/plotdatabytype) |按行或列表示数据图的类型。|
+| [PlotDataByType](/cells/zh/python-net/aspose.cells.charts/plotdatabytype) |表示按行或列绘制的数据类型。|
 | [PlotEmptyCellsType](/cells/zh/python-net/aspose.cells.charts/plotemptycellstype) |表示图表的所有绘图空单元格类型。|
 | [QuartileCalculationType](/cells/zh/python-net/aspose.cells.charts/quartilecalculationtype) |表示四分位数计算方法。|
 | [SparklineAxisMinMaxType](/cells/zh/python-net/aspose.cells.charts/sparklineaxisminmaxtype) |表示迷你图垂直轴的最小值和最大值类型。|

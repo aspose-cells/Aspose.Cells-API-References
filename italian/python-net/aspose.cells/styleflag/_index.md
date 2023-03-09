@@ -35,10 +35,10 @@ Il tipo StyleFlag espone i membri seguenti:
 | [font_size](/cells/it/python-net/aspose.cells/styleflag/font_size) | Verrà applicata l'impostazione della dimensione del carattere.|
 | [font_name](/cells/it/python-net/aspose.cells/styleflag/font_name) | Verrà applicata l'impostazione del nome del carattere.|
 | [font_color](/cells/it/python-net/aspose.cells/styleflag/font_color) | Verrà applicata l'impostazione del colore del carattere.|
-| [font_bold](/cells/it/python-net/aspose.cells/styleflag/font_bold) |Verrà applicata l'impostazione del carattere in grassetto.|
+| [font_bold](/cells/it/python-net/aspose.cells/styleflag/font_bold) | Verrà applicata l'impostazione del carattere in grassetto.|
 | [font_italic](/cells/it/python-net/aspose.cells/styleflag/font_italic) | Verrà applicata l'impostazione del carattere corsivo.|
 | [font_underline](/cells/it/python-net/aspose.cells/styleflag/font_underline) | Verrà applicata l'impostazione di sottolineatura del carattere.|
-| [font_strike](/cells/it/python-net/aspose.cells/styleflag/font_strike) | Verrà applicata l'impostazione del carattere barrato.|
+| [font_strike](/cells/it/python-net/aspose.cells/styleflag/font_strike) |Verrà applicata l'impostazione del carattere barrato.|
 | [font_script](/cells/it/python-net/aspose.cells/styleflag/font_script) | Verrà applicata l'impostazione dello script del carattere.|
 | [number_format](/cells/it/python-net/aspose.cells/styleflag/number_format) | Verrà applicata l'impostazione del formato numerico.|
 | [alignments](/cells/it/python-net/aspose.cells/styleflag/alignments) | Verrà applicata l'impostazione di allineamento.|

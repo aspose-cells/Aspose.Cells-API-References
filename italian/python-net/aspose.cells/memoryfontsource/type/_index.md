@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type proprietà
 
-Restituisce lo type dell'origine del font.
+Restituisce lo type dell'origine del carattere.
 ###  Definizione:
 ```python
 @property

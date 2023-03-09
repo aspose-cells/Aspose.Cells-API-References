@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  note fastighet
 
-Representerar innehållet i kommentaren.
+Representerar innehållet i kommentarer.
 
 ###  Anmärkningar
 

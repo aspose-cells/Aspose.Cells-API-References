@@ -15,7 +15,7 @@ Bu şeklin bir kelime sanatı olup olmadığını gösterir.
 
 Yalnızca xls dosyasının Eski Şekli için.
 
-###  Örnek
+###  örnekler
 
 ```python
 

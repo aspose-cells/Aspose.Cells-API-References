@@ -1,13 +1,13 @@
 ﻿---
 title: OdsGeneratorType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
 url: /zh/python-net/aspose.cells.ods/odsgeneratortype/
 is_root: false
 ---
-##  OdsGeneratorType枚举
+## OdsGeneratorType枚举
 表示ODS生成器的类型。
 
 

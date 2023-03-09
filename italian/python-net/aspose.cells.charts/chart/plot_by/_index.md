@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by proprietà
 
-Ottiene e imposta se tracciare per riga o per colonna.
+Ottiene e imposta se tracciare per riga o colonna.
 ###  Definizione:
 ```python
 @property

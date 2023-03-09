@@ -18,7 +18,7 @@ Typen DataBarAxisPosition avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | AUTOMATIC | Visa axeln i en variabel position baserat på förhållandet mellan det minsta negativa värdet och det maximala positiva värdet i intervallet.<br/> Positiva värden visas i riktning från vänster till höger.<br/> Negativa värden visas i riktning från höger till vänster.<br/>När alla värden är positiva eller alla värden är negativa, visas ingen axel.|
-| MIDPOINT | Visa axeln i cellens mittpunkt oavsett uppsättningen av värden i intervallet.<br/> Positiva värden visas i riktning från vänster till höger.<br/> Negativa värden visas i riktning från höger till vänster.|
+| MIDPOINT | Visa axeln i mitten av cellen oavsett uppsättningen värden i intervallet.<br/> Positiva värden visas i riktning från vänster till höger.<br/> Negativa värden visas i riktning från höger till vänster.|
 | NONE | Ingen axel visas, och både positiva och negativa värden visas i riktning från vänster till höger.|
 
 

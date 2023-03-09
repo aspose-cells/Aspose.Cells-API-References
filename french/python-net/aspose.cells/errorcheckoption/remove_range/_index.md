@@ -18,7 +18,7 @@ def remove_range(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | l'indice de la plage à supprimer.|
 

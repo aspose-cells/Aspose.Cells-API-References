@@ -23,7 +23,7 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [value](/cells/ru/python-net/aspose.cells.drawing/shapeguide/value) |Получает или задает значение этого руководства|
+| [value](/cells/ru/python-net/aspose.cells.drawing/shapeguide/value) | Получает или задает значения этого руководства|
 
 
 

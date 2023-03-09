@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transparency fastighet
 
-Hämtar och ställer in graden av transparency för glödeffekten. Spänner från 0,0 (opak) till 1,0 (klar).
+Hämtar och ställer in graden av glödeffekten transparency. Spänning från 0,0 (opak) till 1,0 (klar).
 ###  Definition:
 ```python
 @property

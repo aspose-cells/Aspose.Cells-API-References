@@ -18,7 +18,7 @@ def advanced_filter(self, is_filter, list_range, criteria_range, copy_to, unique
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_filter | bool | Listeyi yerinde filtreleyip filtrelemediğini gösterir.|
 | list_range | str | Liste aralığı.|

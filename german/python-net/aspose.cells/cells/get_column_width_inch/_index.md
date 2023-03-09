@@ -13,7 +13,7 @@ Ruft die Breite der angegebenen Spalte in der Normalansicht in Zoll ab.
 
 ###  Kehrt zurück
 
-Breite der Spalte
+Breite der Spalten
 
 
 ```python

@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  x propriété
 
-Obtient et définit le décalage horizontal de la forme par rapport à la bordure gauche de la feuille de calcul, en pixels.
+Obtient et définit le décalage horizontal de la forme à partir de la bordure gauche de la feuille de calcul, en pixels.
 
-###  Exemple
+###  Exemples
 
 ```python
 

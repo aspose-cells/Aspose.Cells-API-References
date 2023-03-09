@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  end_column Eigentum
 
-Ruft die Endspalte dieses Bereichs ab oder legt sie fest.
+Ruft die Endspalte dieses Bereichs ab oder legt diese fest.
 
 ###  Siehe auch
 * Modul [aspose.cells](../../)

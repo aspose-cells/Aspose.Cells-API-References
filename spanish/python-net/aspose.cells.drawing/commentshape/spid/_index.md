@@ -11,7 +11,7 @@ is_root: false
 
 Especifica una cadena opcional que una aplicación puede usar para identificar la forma particular.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

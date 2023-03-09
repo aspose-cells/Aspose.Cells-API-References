@@ -22,10 +22,10 @@ def get_cell_style(self, row, column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف|
-| column | int | عمود|
+| column | int | الأعمدة|
 
 
 

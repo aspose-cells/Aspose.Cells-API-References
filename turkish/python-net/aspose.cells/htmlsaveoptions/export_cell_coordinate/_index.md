@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_cell_coordinate mülk
 
-Dosyayı html'ye kaydederken boş olmayan hücrelerin excel koordinatlarının dışa aktarılıp aktarılmadığını gösterir. Varsayılan değer yanlıştır.
+Dosyayı html'ye kaydederken boş olmayan hücrelerin excel koordinatlarının dışa aktarılıp aktarılmadığını gösterir.
 Çıktı html'sini excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
 ###  Tanım:
 ```python

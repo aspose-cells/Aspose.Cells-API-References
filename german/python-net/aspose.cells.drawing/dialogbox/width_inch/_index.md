@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_inch Eigentum
 
-Stellt die Breite der Form in Zoll dar.
+Stellt die Breite der Form in Zolleinheiten dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

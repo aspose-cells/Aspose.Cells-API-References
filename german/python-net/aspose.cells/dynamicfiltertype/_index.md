@@ -26,8 +26,8 @@ Der Typ DynamicFilterType macht die folgenden Member verfügbar:
 | JANUARY | Zeigt unabhängig vom Jahr die Daten an, die im Januar liegen.|
 | OCTOBER | Zeigt unabhängig vom Jahr die Daten an, die im Oktober liegen.|
 | NOVEMBER | Zeigt unabhängig vom Jahr die Daten an, die im November liegen.|
-| DECEMBER | Zeigt unabhängig vom Jahr die Daten an, die im Dezember liegen.|
-| FEBRUARY |Zeigt unabhängig vom Jahr die Daten an, die im Februar liegen.|
+| DECEMBER |Zeigt unabhängig vom Jahr die Daten an, die im Dezember liegen.|
+| FEBRUARY | Zeigt unabhängig vom Jahr die Daten an, die im Februar liegen.|
 | MARCH | Zeigt unabhängig vom Jahr die Daten an, die im März liegen.|
 | APRIL | Zeigt unabhängig vom Jahr die Daten an, die im April liegen.|
 | MAY | Zeigt die Daten an, die im Mai liegen, unabhängig vom Jahr.|
@@ -42,8 +42,8 @@ Der Typ DynamicFilterType macht die folgenden Member verfügbar:
 | NONE | Keiner.|
 | QUARTER1 | Zeigt unabhängig vom Jahr die Daten an, die im 1. Quartal liegen.|
 | QUARTER2 | Zeigt unabhängig vom Jahr die Daten an, die im 2. Quartal liegen.|
-| QUARTER3 |Zeigt unabhängig vom Jahr die Daten an, die im 3. Quartal liegen.|
-| QUARTER4 | Zeigt unabhängig vom Jahr die Daten an, die im 4. Quartal liegen.|
+| QUARTER3 | Zeigt unabhängig vom Jahr die Daten an, die im 3. Quartal liegen.|
+| QUARTER4 |Zeigt unabhängig vom Jahr die Daten an, die im 4. Quartal liegen.|
 | THIS_MONTH | Zeigt die Daten dieses Monats an.|
 | THIS_QUARTER | Zeigt die Daten dieses Quartals an.|
 | THIS_WEEK | Zeigt die Termine dieser Woche.|

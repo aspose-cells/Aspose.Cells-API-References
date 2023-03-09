@@ -22,14 +22,14 @@ def add_list_box(self, upper_left_row, top, upper_left_column, left, height, wid
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av ListBox från dess vänstra rad, i pixelenhet.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int | Representerar den horisontella förskjutningen av ListBox från dess vänstra kolumn, i pixelenhet.|
 | height | int | Representerar höjden på ListBox, i pixelenhet.|
-| width | int |Representerar bredden på ListBox, i pixelenhet.|
+| width | int | Representerar bredden på ListBox, i pixelenhet.|
 
 ###  Exempel
 

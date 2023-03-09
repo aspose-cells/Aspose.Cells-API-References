@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 propiedad
 
 Devuelve un objeto CellArea que representa el rango que contiene todo el informe de tabla dinámica,
-incluye campos de página. Solo lectura.
+incluye campos de página.
 ###  Definición:
 ```python
 @property

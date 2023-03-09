@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_print_area_only Eigentum
 
-Gibt an, ob nur der Druckbereich in eine HTML-Datei exportiert wird. Der Standardwert ist falsch.
+Gibt an, ob nur der Druckbereich in eine HTML-Datei exportiert wird.
 ###  Definition:
 ```python
 @property

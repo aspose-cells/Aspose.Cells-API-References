@@ -20,7 +20,7 @@ def parse_formulas(self, ignore_error):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| ignore_error | bool | ob Fehler bei ungültiger Formel ignorieren.<br/>Wenn für eine ungültige Formel ein Fehler ignoriert wird, wird diese Formel ignoriert<br/>und der Prozess wird weiterhin andere Formeln analysieren, andernfalls wird eine Ausnahme ausgelöst.|
+| ignore_error | bool | ob Fehler bei ungültiger Formel ignorieren.<br/>Wenn für eine ungültige Formel ein Fehler ignoriert wird, wird diese Formel ignoriert<br/> und der Prozess wird weiterhin andere Formeln analysieren, andernfalls wird eine Ausnahme ausgelöst.|
 
 
 

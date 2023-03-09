@@ -11,7 +11,7 @@ is_root: false
 
 Ruft ab und legt fest, dass der Linienrahmen der Form sichtbar ist.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

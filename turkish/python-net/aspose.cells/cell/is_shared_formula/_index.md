@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_shared_formula mülk
 
-Hücre formülünün paylaşılan formülün parçası olup olmadığını gösterir.
+Hücre formülünün paylaşılan bir formülün parçası olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

@@ -18,7 +18,7 @@ def get_refers_to(self, is_r1c1, is_local):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_r1c1 | bool | Referansın R1C1 olarak biçimlendirilmesi gerekip gerekmediği.|
 | is_local | bool | Başvurunun yerel ayarlara göre biçimlendirilmesi gerekip gerekmediği.|
@@ -35,11 +35,11 @@ def get_refers_to(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_r1c1 | bool | Referansın R1C1 olarak biçimlendirilmesi gerekip gerekmediği.|
 | is_local | bool | Başvurunun yerel ayarlara göre biçimlendirilmesi gerekip gerekmediği.|
-| row | int |Hücrenin satır dizini.|
+| row | int | Hücrenin satır dizini.|
 | column | int | Hücrenin sütun dizini.|
 
 

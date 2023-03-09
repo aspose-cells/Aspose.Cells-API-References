@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  zoom fastighet
 
-Representerar skalningsfaktorn i procent. Det bör vara mellan 10 och 400.
+Representerar skalningsfaktorn i procent. Den bör vara mellan 10 och 400.
 
 ###  Anmärkningar
 

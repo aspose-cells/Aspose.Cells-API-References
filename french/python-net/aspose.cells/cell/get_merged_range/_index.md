@@ -13,7 +13,7 @@ Renvoie un objet [Range](/cells/fr/python-net/aspose.cells/range) qui représent
 
 ###  Retour
 
-[Range](/cells/fr/python-net/aspose.cells/range) objet. Null si cette cellule n'est pas fusionnée.
+Objet [Range](/cells/fr/python-net/aspose.cells/range). Null si cette cellule n'est pas fusionnée.
 
 
 ```python

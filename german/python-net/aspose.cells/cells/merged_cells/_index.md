@@ -13,7 +13,7 @@ Ruft die Auflistung verbundener Zellen ab.
 
 ###  Bemerkungen
 
-In dieser Sammlung ist jedes Element eine [CellArea](/cells/de/python-net/aspose.cells/cellarea)-Struktur, die einen Bereich verbundener Zellen darstellt.
+In dieser Sammlung ist jedes Element eine [CellArea](/cells/de/python-net/aspose.cells/cellarea)-Struktur, die einen Bereich zusammengeführter Zellen darstellt.
 ###  Definition:
 ```python
 @property

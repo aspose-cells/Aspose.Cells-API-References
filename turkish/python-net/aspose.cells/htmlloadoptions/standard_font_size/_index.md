@@ -13,7 +13,7 @@ Varsayılan standart yazı tipi boyutunu ayarlar.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Bunun yerine, lütfen DefaultStyleSettings'i kullanın.
+NOT: Bu üye artık kullanılmıyor.
  Bu mülk, Mart 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

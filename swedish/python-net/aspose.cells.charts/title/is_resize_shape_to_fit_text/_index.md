@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_resize_shape_to_fit_text fastighet
 
-Hämtar eller ställer in om en form ska anpassas automatiskt för att helt innehålla texten som beskrivs i den. Automatisk montering är
+Hämtar eller ställer in om en form ska anpassas automatiskt för att helt innehålla texten som beskrivs i den.
 när text i en form skalas för att innehålla all text inuti.
 ###  Definition:
 ```python

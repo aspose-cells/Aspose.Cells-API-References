@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  areas proprietà
 
-Ottiene tutti gli [CellArea](/cells/it/python-net/aspose.cells/cellarea) che contengono le impostazioni di convalida dei dati.
+Ottiene tutto [CellArea](/cells/it/python-net/aspose.cells/cellarea) che contiene le impostazioni di convalida dei dati.
 ###  Definizione:
 ```python
 @property

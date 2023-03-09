@@ -1,6 +1,6 @@
 ﻿---
 title: number_decimal_separator 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 420
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## number_decimal_separator 属性
 
-获取或设置用于格式化/分析数值的小数点分隔符。默认为当前区域的小数点分隔符。
+获取或设置用于格式化/分析数值的小数点分隔符。
 ### 定义：
 ```python
 @property

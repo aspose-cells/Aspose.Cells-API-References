@@ -1,13 +1,13 @@
 ﻿---
 title: VerticalPageBreakCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1570
 url: /zh/python-net/aspose.cells/verticalpagebreakcollection/
 is_root: false
 ---
-##  VerticalPageBreakCollection类
+## VerticalPageBreakCollection类
 封装 [VerticalPageBreak](/cells/zh/python-net/aspose.cells/verticalpagebreak) 对象的集合。
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Grafik eksenindeki ana kılavuz çizgilerini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

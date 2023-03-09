@@ -22,7 +22,7 @@ def get_row_height_pixel(self, row):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini|
 

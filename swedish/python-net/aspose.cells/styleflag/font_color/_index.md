@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_color fastighet
 
-Teckenfärgsinställning kommer att tillämpas.
+Teckensnittets färginställning kommer att tillämpas.
 ###  Definition:
 ```python
 @property

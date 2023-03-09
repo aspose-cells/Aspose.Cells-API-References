@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  support_div_tag mülk
 
- düzenini destekleyip desteklemediğini gösterir.<div> html dosyası içerdiğinde etiketleyin<div> etiketler. Varsayılan değer yanlıştır.
+düzenini destekleyip desteklemediğini gösterir.<div> html dosyası içerdiğinde etiketleyin<div> etiketler.
 ###  Tanım:
 ```python
 @property

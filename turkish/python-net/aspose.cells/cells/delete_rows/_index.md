@@ -18,9 +18,9 @@ def delete_rows(self, row_index, total_rows):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| row_index | int | Silinecek ilk satır dizini.|
+| row_index | int |Silinecek ilk satır dizini.|
 | total_rows | int | Silinecek satır sayısı.|
 ###  Notlar
 
@@ -42,7 +42,7 @@ def delete_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int | Satır dizini.|
 | total_rows | int | Silinecek satır sayısı.|

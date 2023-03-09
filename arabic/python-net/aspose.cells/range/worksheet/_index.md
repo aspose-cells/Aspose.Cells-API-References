@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  worksheet الملكية
 
-الحصول على الكائن [Range.worksheet](/cells/ar/python-net/aspose.cells/range#worksheet) الذي يحتوي على هذا النطاق.
+الحصول على العنصر [Range.worksheet](/cells/ar/python-net/aspose.cells/range#worksheet) الذي يحتوي على هذا النطاق.
 ###  تعريف:
 ```python
 @property

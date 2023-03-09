@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  checked_value Eigentum
 
-Ruft den Wert des Kontrollkästchens ab oder setzt ihn.
+Ruft den Wert des Kontrollkästchens ab oder legt ihn fest.
 ###  Definition:
 ```python
 @property

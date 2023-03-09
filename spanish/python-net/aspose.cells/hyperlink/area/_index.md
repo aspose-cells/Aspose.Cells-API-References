@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  area propiedad
 
-Obtiene el rango del hipervínculo.
+Obtiene el rango de hipervínculos.
 ###  Definición:
 ```python
 @property

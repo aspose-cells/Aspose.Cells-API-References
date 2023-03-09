@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value propiedad
 
-Obtener o establecer la bandera que indica si mostrar los valores de las celdas en las que se aplica esta barra de datos.
+Obtener o establecer la bandera que indica si mostrar los valores de las celdas sobre las que se aplica esta barra de datos.
 El valor predeterminado es verdadero.
 ###  Definición:
 ```python

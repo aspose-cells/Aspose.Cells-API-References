@@ -18,7 +18,7 @@ def to_printer(self, printer_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | printer_name | str | namnet på skrivaren , till exempel: "Microsoft Office Document Image Writer"|
 
@@ -34,7 +34,7 @@ def to_printer(self, printer_settings):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | skrivarens inställningar, t.ex. Skrivarnamn, Duplex|
 
@@ -50,7 +50,7 @@ def to_printer(self, printer_name, job_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | printer_name | str | namnet på skrivaren , till exempel: "Microsoft Office Document Image Writer"|
 | job_name | str | ställ in utskriftsjobbets namn|
@@ -67,7 +67,7 @@ def to_printer(self, printer_settings, job_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | skrivarens inställningar, t.ex. Skrivarnamn, Duplex|
 | job_name | str | ställ in utskriftsjobbets namn|
@@ -84,10 +84,10 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | printer_name | str | namnet på skrivaren , till exempel: "Microsoft Office Document Image Writer"|
-| print_page_index | int |det 0-baserade indexet för den första sidan som ska skrivas ut, det måste vara inom området [0, SheetRender.PageCount-1]|
+| print_page_index | int | det 0-baserade indexet för den första sidan som ska skrivas ut, det måste vara inom området [0, SheetRender.PageCount-1]|
 | print_page_count | int | antalet sidor som ska skrivas ut måste det vara större än noll|
 ###  Anmärkningar
 

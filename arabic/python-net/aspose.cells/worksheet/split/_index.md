@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/worksheet/split/
 is_root: false
 ---
 ##  split() {#}
-نافذة الانقسام.
+نافذة انقسام.
 
 
 

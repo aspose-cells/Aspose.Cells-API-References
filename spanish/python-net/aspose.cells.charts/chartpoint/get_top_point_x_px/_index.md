@@ -19,7 +19,7 @@ def get_top_point_x_px(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int |  |
 

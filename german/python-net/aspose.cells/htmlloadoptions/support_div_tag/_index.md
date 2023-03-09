@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  support_div_tag Eigentum
 
- Gibt an, ob das Layout von unterstützt wird<div> Tag, wenn die HTML-Datei enthält<div> Stichworte. Der Standardwert ist falsch.
+Gibt an, ob das Layout von unterstützt wird<div> Tag, wenn die HTML-Datei enthält<div> Stichworte.
 ###  Definition:
 ```python
 @property

@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | position | float | La position de la butée, en unité de pourcentage.|
 | color | [CellsColor](/cells/fr/python-net/aspose.cells/cellscolor) | La couleur de l'arrêt.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | position | float | La position de la butée, en unité de pourcentage.|
 | color | aspose.pydrawing.Color | La couleur de l'arrêt.|

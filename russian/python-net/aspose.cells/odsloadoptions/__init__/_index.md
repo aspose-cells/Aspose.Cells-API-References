@@ -31,7 +31,7 @@ def __init__(self, type):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [LoadFormat](/cells/ru/python-net/aspose.cells/loadformat) | Тип формата загрузки.|
 

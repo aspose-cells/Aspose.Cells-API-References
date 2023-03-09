@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_legend proprietà
 
-Ottiene o imposta un valore che indica se verrà visualizzata la legenda del grafico. L'impostazione predefinita è true.
+Ottiene o imposta un valore che indica se verrà visualizzata la legenda del grafico.Il valore predefinito è true.
 ###  Definizione:
 ```python
 @property

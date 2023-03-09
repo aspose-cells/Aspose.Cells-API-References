@@ -22,7 +22,7 @@ def add(self, cell_name, total_rows, total_columns, address):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cell_name | str | Cell namn.|
 | total_rows | int | Antal rader i detta hyperlänksintervall.|
@@ -45,7 +45,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_row | int | Första raden i hyperlänksintervallet.|
 | first_column | int | Första kolumnen i hyperlänksintervallet.|
@@ -82,13 +82,13 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_cell_name | str | Den övre vänstra cellen i intervallet.|
 | end_cell_name | str | Den nedre högra cellen i intervallet.|
 | address | str | Adress till hyperlänken.|
 | text_to_display | str | Texten som ska visas för den angivna hyperlänken.|
-| screen_tip | str | Skärmtipstexten för den angivna hyperlänken.|
+| screen_tip | str |Skärmtipstexten för den angivna hyperlänken.|
 
 
 

@@ -17,7 +17,7 @@ La valeur par défaut est true.
 Désactiver cette propriété peut donner de meilleures performances.
 Mais lorsque la police par défaut ou spécifiée du texte/caractère ne peut pas être utilisée pour le rendre,
 des caractères illisibles (tels que bloc) peuvent apparaître dans le pdf généré.
-Pour une telle situation, l'utilisateur doit conserver cette propriété comme vraie afin que
+Pour de telles situations, l'utilisateur doit conserver cette propriété comme vraie afin que
 une police alternative peut être recherchée et utilisée pour rendre le texte à la place ;
 ###  Définition:
 ```python

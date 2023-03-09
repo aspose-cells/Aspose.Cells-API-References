@@ -19,7 +19,7 @@ PrintingPageType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | DEFAULT | Tüm sayfaları yazdırır.|
 | IGNORE_BLANK | Hücreleri boş olan sayfaları yazdırmayın.|
-| IGNORE_STYLE | Hücrelerin yalnızca stil içerdiği sayfaları yazdırmayın.|
+| IGNORE_STYLE |Hücrelerin yalnızca stil içerdiği sayfaları yazdırmayın.|
 
 
 

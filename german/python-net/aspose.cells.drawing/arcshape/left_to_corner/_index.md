@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts ab und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

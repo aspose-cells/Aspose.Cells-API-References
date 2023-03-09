@@ -22,9 +22,9 @@ def get_standard_built_in_name(self, local_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| local_name | str | Texto dependiente de la configuración regional del nombre integrado. La configuración regional fue especificada por el libro de trabajo para el que se utiliza esta configuración.|
+| local_name | str | Texto dependiente de la configuración regional del nombre incorporado.|
 
 
 

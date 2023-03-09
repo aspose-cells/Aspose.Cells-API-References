@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  header_margin fastighet
 
-Representerar avståndet från toppen av sidan till sidhuvudet, i centimeterenhet.
+Representerar avståndet från toppen av sidan till sidhuvudet, i enheter av centimeter.
 ###  Definition:
 ```python
 @property

@@ -1,5 +1,5 @@
 ﻿---
-title: DataBarBorder sınıf
+title: DataBarBorder sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 410
 url: /tr/python-net/aspose.cells/databarborder/
 is_root: false
 ---
-##  DataBarBorder sınıf
+##  DataBarBorder sınıfı
 Koşullu biçimlendirme kuralı tarafından belirtilen veri çubuklarının kenarlığını temsil eder.
 
 

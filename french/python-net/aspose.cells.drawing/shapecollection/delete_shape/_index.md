@@ -18,11 +18,11 @@ def delete_shape(self, shape):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | shape | [Shape](/cells/fr/python-net/aspose.cells.drawing/shape) |  |
 
-###  Exemple
+###  Exemples
 
 ```python
 

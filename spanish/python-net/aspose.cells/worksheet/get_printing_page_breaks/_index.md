@@ -13,7 +13,7 @@ Obtiene saltos de página automáticos.
 
 ###  Devoluciones
 
-La página automática rompe áreas.
+Las áreas de salto de página automático.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| options | aspose.cells.rendering.ImageOrPrintOptions |Las opciones de impresión|
+| options | aspose.cells.rendering.ImageOrPrintOptions | Las opciones de impresión|
 ###  Observaciones
 
 Cada área de celda representa un papel.

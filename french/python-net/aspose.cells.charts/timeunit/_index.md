@@ -17,7 +17,7 @@ Le type TimeUnit expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| DAYS |Jours|
+| DAYS | Jours|
 | MONTHS | Mois|
 | YEARS | Années|
 

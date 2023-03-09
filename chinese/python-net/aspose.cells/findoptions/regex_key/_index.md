@@ -1,6 +1,6 @@
 ﻿---
 title: regex_key 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
@@ -10,7 +10,7 @@ is_root: false
 ## regex_key 属性
 
 指示搜索的键是否为正则表达式。
-如果为真，则搜索到的键将被视为正则表达式并进行解析。否则密钥将根据 ms excel 中的规则进行解析。
+如果为真，则搜索到的键将被视为正则表达式并进行解析。
 ### 定义：
 ```python
 @property

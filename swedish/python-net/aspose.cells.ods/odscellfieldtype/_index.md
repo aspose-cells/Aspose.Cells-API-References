@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType uppräkning
-Representerar cellfältstypen för ods.
+Representerar cellfältstypen av odds.
 
 
 

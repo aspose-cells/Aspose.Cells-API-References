@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value fastighet
 
-Returnerar etiketttexten för utsnittsobjektet. Skrivskyddad.
+Returnerar etiketttexten för utsnittsobjektet.
 ###  Definition:
 ```python
 @property

@@ -1,13 +1,13 @@
 ﻿---
 title: TextStrikeType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2570
 url: /zh/python-net/aspose.cells/textstriketype/
 is_root: false
 ---
-##  TextStrikeType枚举
+## TextStrikeType枚举
 此类型指定罢工类型。
 
 

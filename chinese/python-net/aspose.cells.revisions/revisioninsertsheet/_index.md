@@ -1,13 +1,13 @@
 ﻿---
 title: RevisionInsertSheet类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
 url: /zh/python-net/aspose.cells.revisions/revisioninsertsheet/
 is_root: false
 ---
-##  RevisionInsertSheet类
+## RevisionInsertSheet类
 表示插入的工作表的修订记录。
 
 

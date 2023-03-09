@@ -18,7 +18,7 @@ ControlScrollBarType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | NONE | Kaydırma çubuğu göstermez.|
-| HORIZONTAL |Yatay bir kaydırma çubuğu görüntüler.|
+| HORIZONTAL | Yatay bir kaydırma çubuğu görüntüler.|
 | BARS_VERTICAL | Dikey bir kaydırma çubuğu görüntüler.|
 | BARS_BOTH | Hem yatay hem de dikey kaydırma çubuğu görüntüler.|
 

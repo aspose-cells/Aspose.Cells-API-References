@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height mülk
 
-Yorumun Piksel birimi cinsinden Yüksekliğini temsil eder.
+Yorumun Yüksekliğini piksel cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

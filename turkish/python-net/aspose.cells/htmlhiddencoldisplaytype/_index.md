@@ -18,7 +18,7 @@ HtmlHiddenColDisplayType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | HIDDEN | Gizli sütunları html sayfasında gizleyin.|
-| REMOVE | Html sayfasındaki gizli sütunları kaldırın.|
+| REMOVE | Html sayfalarındaki gizli sütunları kaldırın.|
 
 
 

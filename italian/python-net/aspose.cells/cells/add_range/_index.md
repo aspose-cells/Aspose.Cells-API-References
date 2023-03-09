@@ -18,7 +18,7 @@ def add_range(self, range_object):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range_object | [Range](/cells/it/python-net/aspose.cells/range) | L'oggetto intervallo sarà contenuto nelle celle|
 

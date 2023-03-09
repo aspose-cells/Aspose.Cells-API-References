@@ -13,7 +13,7 @@ Dosya doğrudan yazdırılıyorsa yazdırılmayan verileri yok sayın
 
 ###  Notlar
 
-Yalnızca xlsx dosyası için.
+Yalnızca xlsx dosyaları için.
 ###  Tanım:
 ```python
 @property

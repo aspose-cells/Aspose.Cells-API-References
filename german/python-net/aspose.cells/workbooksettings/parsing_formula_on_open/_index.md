@@ -15,7 +15,7 @@ Gibt an, ob die Formel beim Lesen der Datei analysiert wird.
 
 Gilt nur für Excel Xlsx-, Xltx-, Xltm- und Xlsm-Dateien
 da die Formeln in den Dateien mit einer Zeichenfolgenformel gespeichert werden.
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte LoadOptions.ParsingFormulaOnOpen.
+HINWEIS: Dieser Member ist jetzt veraltet. Verwenden Sie stattdessen LoadOptions.ParsingFormulaOnOpen.
  Diese Property wird 12 Monate später seit Januar 2020 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

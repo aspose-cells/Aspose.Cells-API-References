@@ -18,7 +18,7 @@ def show_group_detail(self, is_vertical, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_vertical | bool | Doğru, gruplandırılmış satırları genişletir.|
 | index | int | Satır/sütun dizini|

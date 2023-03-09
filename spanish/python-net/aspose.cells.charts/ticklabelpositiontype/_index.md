@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/ticklabelpositiontype/
 is_root: false
 ---
 ##  TickLabelPositionType enumeración
-Representa el tipo de posición de las etiquetas de marca de verificación en el eje especificado.
+Representa el tipo de posición de las etiquetas de marca de graduación en el eje especificado.
 
 
 

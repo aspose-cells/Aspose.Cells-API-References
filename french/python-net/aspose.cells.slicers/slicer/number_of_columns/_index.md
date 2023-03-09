@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie ou définit le nombre de colonnes dans le segment spécifié.
 
-###  Exemple
+###  Exemples
 
 ```python
 

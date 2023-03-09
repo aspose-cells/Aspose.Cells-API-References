@@ -18,11 +18,11 @@ def format_characters(self, start_index, length, font, flag):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_index | int | Başlangıç dizini.|
 | length | int | Uzunluk.|
-| font | [Font](/cells/tr/python-net/aspose.cells/font) |Yazı tipi ayarı.|
+| font | [Font](/cells/tr/python-net/aspose.cells/font) | Yazı tipi ayarı.|
 | flag | [StyleFlag](/cells/tr/python-net/aspose.cells/styleflag) | Yazı tipi ayarının bayrağı.|
 
 

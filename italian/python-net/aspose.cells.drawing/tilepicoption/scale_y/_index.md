@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y proprietà
 
-Ottiene o imposta la scala Y per l'affiancamento dell'immagine.
+Ottiene o imposta la scala Y per l'affiancamento delle immagini.
 ###  Definizione:
 ```python
 @property

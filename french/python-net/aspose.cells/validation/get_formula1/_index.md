@@ -22,14 +22,14 @@ def get_formula1(self, is_r1c1, is_local):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_r1c1 | bool | Indique si la formule doit être formatée en tant que R1C1.|
 | is_local | bool | Indique si la formule doit être formatée par les paramètres régionaux.|
 
 
 ##  get_formula1(is_r1c1, is_local, row, column) {#bool-bool-int-int}
-Obtient la valeur ou l'expression associée à cette validation pour une cellule spécifique.
+Obtient la valeur ou l'expression associée à cette validation pour la cellule spécifique.
 
 
 ###  Retour
@@ -43,7 +43,7 @@ def get_formula1(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_r1c1 | bool | Indique si la formule doit être formatée en tant que R1C1.|
 | is_local | bool | Indique si la formule doit être formatée par les paramètres régionaux.|

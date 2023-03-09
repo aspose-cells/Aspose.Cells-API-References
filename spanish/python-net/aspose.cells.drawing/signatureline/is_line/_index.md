@@ -11,7 +11,7 @@ is_root: false
 
 Indica si se trata de una línea de firma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

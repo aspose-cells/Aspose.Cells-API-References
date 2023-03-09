@@ -22,7 +22,7 @@ def is_selected(self, item_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | item_index | int | فهرس العنصر.|
 

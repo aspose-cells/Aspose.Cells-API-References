@@ -31,7 +31,7 @@ def auto_fit_columns(self, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/tr/python-net/aspose.cells/autofitteroptions) | Otomatik sığdırma seçenekleri|
 
@@ -47,7 +47,7 @@ def auto_fit_columns(self, first_column, last_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_column | int | İlk sütun dizini.|
 | last_column | int | Son sütun dizini.|
@@ -67,7 +67,7 @@ def auto_fit_columns(self, first_column, last_column, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_column | int | İlk sütun dizini.|
 | last_column | int | Son sütun dizini.|
@@ -88,7 +88,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | İlk satır dizini.|
 | first_column | int | İlk sütun dizini.|
@@ -110,7 +110,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column, optio
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | İlk satır dizini.|
 | first_column | int | İlk sütun dizini.|

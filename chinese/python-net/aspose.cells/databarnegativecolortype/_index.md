@@ -1,13 +1,13 @@
 ﻿---
 title: DataBarNegativeColorType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1930
 url: /zh/python-net/aspose.cells/databarnegativecolortype/
 is_root: false
 ---
-##  DataBarNegativeColorType枚举
+## DataBarNegativeColorType枚举
 指定是否使用与正数据条相同的边框和填充颜色。
 
 

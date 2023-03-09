@@ -19,14 +19,14 @@ is_root: false
 | :- | :- |
 | [keys](/cells/ru/python-net/aspose.cells/datasorter/keys) | Получает список ключей сортировщика данных.|
 | [has_headers](/cells/ru/python-net/aspose.cells/datasorter/has_headers) | Указывает, есть ли у диапазона заголовки.|
-| [key1](/cells/ru/python-net/aspose.cells/datasorter/key1) |Представляет индекс первого отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...).|
+| [key1](/cells/ru/python-net/aspose.cells/datasorter/key1) | Представляет индекс первого отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...).|
 | [order1](/cells/ru/python-net/aspose.cells/datasorter/order1) | Представляет порядок сортировки первого ключа.|
 | [key2](/cells/ru/python-net/aspose.cells/datasorter/key2) | Представляет индекс второго отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1, ...).|
 | [order2](/cells/ru/python-net/aspose.cells/datasorter/order2) | Представляет порядок сортировки второго ключа.|
 | [key3](/cells/ru/python-net/aspose.cells/datasorter/key3) | Представляет индекс третьего отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...).|
 | [order3](/cells/ru/python-net/aspose.cells/datasorter/order3) | Представляет порядок сортировки третьего ключа.|
 | [sort_left_to_right](/cells/ru/python-net/aspose.cells/datasorter/sort_left_to_right) | True означает, что сортировка выполняется слева направо.<br/>False означает, что сортировка осуществляется сверху вниз.<br/> Значение по умолчанию неверно.|
-| [case_sensitive](/cells/ru/python-net/aspose.cells/datasorter/case_sensitive) | Получает и устанавливает, учитывается ли регистр при сравнении строки.|
+| [case_sensitive](/cells/ru/python-net/aspose.cells/datasorter/case_sensitive) | Получает и устанавливает, учитывается ли регистр при сравнении строк.|
 | [sort_as_number](/cells/ru/python-net/aspose.cells/datasorter/sort_as_number) | Указывает, сортируется ли что-либо, похожее на число.|
 
 
@@ -44,7 +44,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import CellArea, SortOrder, Workbook

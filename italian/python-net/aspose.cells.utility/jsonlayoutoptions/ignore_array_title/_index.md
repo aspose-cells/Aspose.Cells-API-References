@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_array_title proprietà
 
-Indica se ignorare il titolo se l'array è una proprietà dell'oggetto.
+Indica se ignorare title se array è una proprietà di object.
 
 ###  Osservazioni
 

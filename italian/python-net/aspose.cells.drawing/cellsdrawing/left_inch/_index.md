@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta l'offset orizzontale della forma dalla colonna di sinistra, in unità di pollici.
 
-###  Esempio
+###  Esempi
 
 ```python
 

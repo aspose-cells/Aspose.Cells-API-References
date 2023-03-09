@@ -18,7 +18,7 @@ def remove_range(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | el índice del rango que se va a eliminar.|
 

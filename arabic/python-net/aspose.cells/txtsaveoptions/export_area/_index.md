@@ -9,12 +9,12 @@ is_root: false
 ---
 ##  export_area الملكية
 
-نطاق الخلايا المراد تصديرها.
+نطاق الخلايا التي سيتم تصديرها.
 
 ###  ملاحظات
 
 إذا تم تحديد المساحة المصدرة ، [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/ar/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-لن يكون له أي تأثير.
+لن يكون لها أي تأثير.
 ###  تعريف:
 ```python
 @property

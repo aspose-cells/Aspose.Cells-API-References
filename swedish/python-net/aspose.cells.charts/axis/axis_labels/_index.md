@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  axis_labels fastighet
 
-Hämtar etiketterna för axeln efter anropet Chart.Calculate()-metoden.
+Hämtar beteckningarna för axeln efter anrop av metoden Chart.Calculate().
 ###  Definition:
 ```python
 @property

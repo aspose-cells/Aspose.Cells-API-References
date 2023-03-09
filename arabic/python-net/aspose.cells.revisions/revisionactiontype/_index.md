@@ -20,7 +20,7 @@ is_root: false
 | ADD | أضف المراجعة.|
 | DELETE | حذف المراجعة.|
 | DELETE_COLUMN | العمود حذف المراجعة.|
-| DELETE_ROW |مراجعة حذف الصف.|
+| DELETE_ROW | مراجعة حذف الصف.|
 | INSERT_COLUMN | مراجعة إدراج العمود.|
 | INSERT_ROW | مراجعة إدراج الصف.|
 

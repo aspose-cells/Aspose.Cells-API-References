@@ -1,13 +1,13 @@
 ﻿---
 title: Cells类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
 url: /zh/python-net/aspose.cells/cells/
 is_root: false
 ---
-##  Cells类
+## Cells类
 封装单元格相关对象的集合，例如 [Cell](/cells/zh/python-net/aspose.cells/cell)、[Row](/cells/zh/python-net/aspose.cells/row) 等。
 
 
@@ -17,7 +17,7 @@ Cells 类型公开了以下成员：
 ### 特性
 |属性|描述|
 | :- | :- |
-| [ods_cell_fields](/cells/zh/python-net/aspose.cells/cells/ods_cell_fields) |获取ods的字段列表。|
+| [ods_cell_fields](/cells/zh/python-net/aspose.cells/cells/ods_cell_fields) |获取赔率字段列表。|
 | [count](/cells/zh/python-net/aspose.cells/cells/count) |获取实例化的 Cell 对象的总数。|
 | [count_large](/cells/zh/python-net/aspose.cells/cells/count_large) |获取实例化的 Cell 对象的总数。|
 | [rows](/cells/zh/python-net/aspose.cells/cells/rows) |获取表示此工作表中各行的 [Row](/cells/zh/python-net/aspose.cells/row) 对象的集合。|
@@ -86,8 +86,8 @@ Cells 类型公开了以下成员：
 | [copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options, paste_options)](/cells/zh/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int-CopyOptions-PasteOptions) |复制一些整行的数据和格式。|
 | [group_columns(first_index, last_index)](/cells/zh/python-net/aspose.cells/cells/group_columns/#int-int) |组列。|
 | [group_columns(first_index, last_index, is_hidden)](/cells/zh/python-net/aspose.cells/cells/group_columns/#int-int-bool) |组列。|
-| [ungroup_rows(first_index, last_index, is_all)](/cells/zh/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) |取消分组行。|
-| [ungroup_rows(first_index, last_index)](/cells/zh/python-net/aspose.cells/cells/ungroup_rows/#int-int) |取消分组行。|
+| [ungroup_rows(first_index, last_index, is_all)](/cells/zh/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) |取消组合行。|
+| [ungroup_rows(first_index, last_index)](/cells/zh/python-net/aspose.cells/cells/ungroup_rows/#int-int) |取消组合行。|
 | [group_rows(first_index, last_index, is_hidden)](/cells/zh/python-net/aspose.cells/cells/group_rows/#int-int-bool) |分组行。|
 | [group_rows(first_index, last_index)](/cells/zh/python-net/aspose.cells/cells/group_rows/#int-int) |分组行。|
 | [delete_column(column_index, update_reference)](/cells/zh/python-net/aspose.cells/cells/delete_column/#int-bool) |删除列。|
@@ -139,8 +139,8 @@ Cells 类型公开了以下成员：
 | [clear()](/cells/zh/python-net/aspose.cells/cells/clear/#) |清除所有单元格和行对象。|
 | [import_data(table, first_row, first_column, options)](/cells/zh/python-net/aspose.cells/cells/import_data/#ICellsDataTable-int-int-ImportTableOptions) |从自定义数据表导入数据。|
 | [import_array_list(array_list, first_row, first_column, is_vertical)](/cells/zh/python-net/aspose.cells/cells/import_array_list/#list-int-int-bool) |将数据数组列表导入工作表。|
-| [import_formula_array(string_array, first_row, first_column, is_vertical)](/cells/zh/python-net/aspose.cells/cells/import_formula_array/#list-int-int-bool) |将公式数组导入工作表。|
-| [text_to_columns(row, column, total_rows, options)](/cells/zh/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) |将列中的文本拆分为多列。|
+| [import_formula_array(string_array, first_row, first_column, is_vertical)](/cells/zh/python-net/aspose.cells/cells/import_formula_array/#list-int-int-bool) |将一组公式导入到工作表中。|
+| [text_to_columns(row, column, total_rows, options)](/cells/zh/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) |将列中的文本拆分为列。|
 | [un_merge(first_row, first_column, total_rows, total_columns)](/cells/zh/python-net/aspose.cells/cells/un_merge/#int-int-int-int) |取消合并指定范围的合并单元格。|
 | [clear_merged_cells()](/cells/zh/python-net/aspose.cells/cells/clear_merged_cells/#) |清除所有合并范围。|
 | [hide_row(row)](/cells/zh/python-net/aspose.cells/cells/hide_row/#int) |隐藏一行。|
@@ -163,11 +163,11 @@ Cells 类型公开了以下成员：
 | [set_column_width_pixel(column, pixels)](/cells/zh/python-net/aspose.cells/cells/set_column_width_pixel/#int-int) |在普通视图中以像素为单位设置列宽。|
 | [set_column_width_inch(column, inches)](/cells/zh/python-net/aspose.cells/cells/set_column_width_inch/#int-float) |在普通视图中以英寸为单位设置列宽。|
 | [set_column_width(column, width)](/cells/zh/python-net/aspose.cells/cells/set_column_width/#int-float) |在普通视图中设置指定列的宽度。|
-| [get_column_width_pixel(column)](/cells/zh/python-net/aspose.cells/cells/get_column_width_pixel/#int) |获取指定列在普通视图中的宽度，单位为像素。|
+| [get_column_width_pixel(column)](/cells/zh/python-net/aspose.cells/cells/get_column_width_pixel/#int) |获取指定列在普通视图中的宽度，以像素为单位。|
 | [get_column_width_inch(column)](/cells/zh/python-net/aspose.cells/cells/get_column_width_inch/#int) |获取指定列在普通视图中的宽度，单位为英寸。|
 | [get_column_width(column)](/cells/zh/python-net/aspose.cells/cells/get_column_width/#int) |获取普通视图下指定列的宽度|
 | [get_view_column_width_pixel(column)](/cells/zh/python-net/aspose.cells/cells/get_view_column_width_pixel/#int) |获取不同视图类型的宽度。|
-| [set_view_column_width_pixel(column, pixels)](/cells/zh/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) |设置不同视图中列的宽度。|
+| [set_view_column_width_pixel(column, pixels)](/cells/zh/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) |设置列在不同视图中的宽度。|
 | [get_last_data_row(column)](/cells/zh/python-net/aspose.cells/cells/get_last_data_row/#int) |获取包含指定列中数据的单元格的最后一行索引。|
 | [apply_column_style(column, style, flag)](/cells/zh/python-net/aspose.cells/cells/apply_column_style/#int-Style-StyleFlag) |为整列应用格式。|
 | [apply_row_style(row, style, flag)](/cells/zh/python-net/aspose.cells/cells/apply_row_style/#int-Style-StyleFlag) |为整行应用格式。|

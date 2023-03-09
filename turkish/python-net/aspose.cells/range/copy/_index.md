@@ -18,11 +18,11 @@ def copy(self, range):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Kaynak [Range](/cells/tr/python-net/aspose.cells/range) nesnesi.|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook
@@ -52,7 +52,7 @@ def copy(self, range, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Kaynak aralığı.|
 | options | [PasteOptions](/cells/tr/python-net/aspose.cells/pasteoptions) | Yapıştır özel seçenekler.|

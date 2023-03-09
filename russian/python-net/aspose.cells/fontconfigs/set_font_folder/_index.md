@@ -18,7 +18,7 @@ def set_font_folder(self, font_folder, recursive):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | font_folder | str | Папка, содержащая шрифты TrueType.|
 | recursive | bool | Определяет, сканировать ли вложенные папки.|

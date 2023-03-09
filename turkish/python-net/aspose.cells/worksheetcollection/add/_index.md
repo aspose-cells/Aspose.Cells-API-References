@@ -39,11 +39,11 @@ def add(self, type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [SheetType](/cells/tr/python-net/aspose.cells/sheettype) | Çalışma sayfası türü.|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import SheetType, Workbook
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet_name | str | çalışma sayfası adı|
 

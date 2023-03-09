@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted Eigentum
 
-Gibt an, ob die Eingabezelle gelöscht wird.
+Gibt an, ob Eingabezellen gelöscht werden.
 ###  Definition:
 ```python
 @property

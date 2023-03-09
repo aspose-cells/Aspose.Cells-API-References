@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  zoom mülk
 
-Yüzde cinsinden ölçeklendirme faktörünü temsil eder. 10 ile 400 arasında olmalıdır.
+Yüzde olarak ölçeklendirme faktörünü temsil eder. 10 ile 400 arasında olmalıdır.
 
 ###  Notlar
 

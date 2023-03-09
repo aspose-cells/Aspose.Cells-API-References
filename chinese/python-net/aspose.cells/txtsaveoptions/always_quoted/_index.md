@@ -1,6 +1,6 @@
 ﻿---
 title: always_quoted 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -10,14 +10,14 @@ is_root: false
 ## always_quoted 属性
 
 指示是否始终为每个字段添加 '"'。
-如果为真，则所有值都将被引用；
-如果为 false，则仅在需要时引用值（例如，
-当值包含特殊字符时，例如 '"' 、 '\n' 或分隔符）。
+如果为真那么所有的值都会被引用；
+如果为 false 那么值只会在需要的时候被引用（例如，
+当值包含特殊字符（如 '"' 、 '\n' 或分隔符）时。
 默认为假。
 
 ### 评论
 
-注意：该成员现已过时。反而，
+注意：该成员现已过时。
 请改用 QuoteType 属性。
 自 2012 年 8 月起 12 个月后，此属性将被删除。
 Aspose 对您可能遇到的任何不便深表歉意。

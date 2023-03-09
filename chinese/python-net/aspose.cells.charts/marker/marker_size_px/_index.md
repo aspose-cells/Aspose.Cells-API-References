@@ -1,6 +1,6 @@
 ﻿---
 title: marker_size_px 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## marker_size_px 属性
 
-表示以像素为单位的标记大小。适用于折线图、散点图或雷达图。
+以像素为单位表示标记大小。适用于折线图、散点图或雷达图。
 ### 定义：
 ```python
 @property

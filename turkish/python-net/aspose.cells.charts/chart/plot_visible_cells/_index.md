@@ -13,7 +13,7 @@ Yalnızca görünür hücreleri çizip çizmediğini gösterir.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
 lütfen PlotVisibleCellsOnly özelliğini kullanın.
  Bu yöntem Aralık 2022'den 12 ay sonra kaldırılacak.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

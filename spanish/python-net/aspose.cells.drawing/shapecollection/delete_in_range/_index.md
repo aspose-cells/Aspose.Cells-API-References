@@ -18,11 +18,11 @@ def delete_in_range(self, ca):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| ca | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | El rango. Si las formas están contenidas en el rango, se eliminarán.|
+| ca | [CellArea](/cells/es/python-net/aspose.cells/cellarea) |El rango Si las formas están contenidas en el rango, se eliminarán.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import CellArea

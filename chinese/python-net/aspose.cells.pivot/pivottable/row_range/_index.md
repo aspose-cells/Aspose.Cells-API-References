@@ -1,6 +1,6 @@
 ﻿---
 title: row_range 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 860
@@ -10,7 +10,7 @@ is_root: false
 ## row_range 属性
 
 返回表示范围的 CellArea 对象
-包含数据透视表中的行区域。只读。
+包含数据透视表中的行区域。
 ### 定义：
 ```python
 @property

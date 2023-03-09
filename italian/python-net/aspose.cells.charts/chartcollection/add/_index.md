@@ -22,11 +22,11 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ChartType](/cells/it/python-net/aspose.cells.charts/charttype) | Tipo di grafico|
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | lower_right_row | int | Indice riga in basso a destra|
 | lower_right_column | int | Indice colonna in basso a destra|
 
@@ -46,19 +46,19 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ChartType](/cells/it/python-net/aspose.cells.charts/charttype) | Tipo di grafico|
-| data_range | str |Specifica l'intervallo di dati del grafico|
+| data_range | str | Specifica l'intervallo di dati del grafico|
 | top_row | int | Indice della riga in alto a sinistra.|
-| left_column | int |Indice colonna in alto a sinistra.|
+| left_column | int | Indice colonna in alto a sinistra.|
 | right_row | int | Indice riga in basso a destra|
 | bottom_column | int | Indice colonna in basso a destra|
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+NOTA: questo membro è ora obsoleto.
 si prega di utilizzare la proprietà [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/it/python-net/aspose.cells.charts/chartcollection/add).
-Questa proprietà verrà rimossa 12 mesi dopo da maggio 2022.
+ Questa proprietà verrà rimossa 12 mesi dopo da maggio 2022.
 Aspose si scusa per gli eventuali disagi causati.
 
 ##  add(data, data_range, is_vertical, top_row, left_column, right_row, bottom_column) {#bytes-str-bool-int-int-int-int}
@@ -76,13 +76,13 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | data | bytes | I dati del file modello grafico (.crtx).|
-| data_range | str |Specifica l'intervallo di dati del grafico|
+| data_range | str | Specifica l'intervallo di dati del grafico|
 | is_vertical | bool | Specifica se tracciare la serie da un intervallo di valori di cella per riga o per colonna.|
 | top_row | int | Indice della riga in alto a sinistra.|
-| left_column | int |Indice colonna in alto a sinistra.|
+| left_column | int | Indice colonna in alto a sinistra.|
 | right_row | int | Indice riga in basso a destra|
 | bottom_column | int | Indice colonna in basso a destra|
 
@@ -102,13 +102,13 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ChartType](/cells/it/python-net/aspose.cells.charts/charttype) | Tipo di grafico|
-| data_range | str |Specifica l'intervallo di dati del grafico|
+| data_range | str | Specifica l'intervallo di dati del grafico|
 | is_vertical | bool | Specifica se tracciare la serie da un intervallo di valori di cella per riga o per colonna.|
 | top_row | int | Indice della riga in alto a sinistra.|
-| left_column | int |Indice colonna in alto a sinistra.|
+| left_column | int | Indice colonna in alto a sinistra.|
 | right_row | int | Indice riga in basso a destra|
 | bottom_column | int | Indice colonna in basso a destra|
 

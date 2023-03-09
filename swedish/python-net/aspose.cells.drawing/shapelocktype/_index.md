@@ -18,10 +18,10 @@ Typen ShapeLockType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | GROUP | Grupp|
-| ADJUST_HANDLES | Justera Handtag|
+| ADJUST_HANDLES | Justera handtag|
 | TEXT | Text|
-| POINTS | Poäng|
-| CROP | Beskära|
+| POINTS | poäng|
+| CROP |Beskära|
 | SELECTION | Urval|
 | MOVE | Flytta|
 | ASPECT_RATIO | Bildförhållande|

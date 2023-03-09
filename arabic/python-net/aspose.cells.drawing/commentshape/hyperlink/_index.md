@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على hyperlink للشكل.
 
-###  مثال
+###  أمثلة
 
 ```python
 

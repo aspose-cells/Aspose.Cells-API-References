@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count fastighet
 
-Hämtar det totala antalet sidor för aktuellt kalkylblad.
+Hämtar det totala antalet sidor för det aktuella kalkylbladet.
 ###  Definition:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  id_name propiedad
 
-Obtiene y establece el nombre de la columna de identificación.
+Obtiene y establece el nombre de la columna de id.
 
 ###  Observaciones
 

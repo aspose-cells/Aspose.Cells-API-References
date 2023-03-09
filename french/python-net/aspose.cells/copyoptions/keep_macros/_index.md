@@ -13,7 +13,7 @@ Indique si les macros sont conservées ;
 
 ###  Remarques
 
-Uniquement pour copier le classeur.
+Uniquement pour copier des classeurs.
 ###  Définition:
 ```python
 @property

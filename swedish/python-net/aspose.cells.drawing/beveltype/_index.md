@@ -25,7 +25,7 @@ Typen BevelType avslöjar följande medlemmar:
 | COOL_SLANT | Sval lutning|
 | CROSS | Korsa|
 | DIVOT | Divot|
-| HARD_EDGE | Hård kant|
+| HARD_EDGE | Hårda kanter|
 | RELAXED_INSET | Avslappnad infällning|
 | RIBLET | Riblet|
 | SLOPE | Backe|

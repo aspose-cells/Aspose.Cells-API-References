@@ -15,7 +15,7 @@ Ruft einen Wert ab, der angibt, ob das generierte Arbeitsblatt eine vertikale Bi
 
 Der Standardwert ist wahr.
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code macht die vertikale Bildlaufleiste für die Tabelle unsichtbar.
 

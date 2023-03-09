@@ -18,7 +18,7 @@ def set_page_orientation_type(self, page_orientation_type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | page_orientation_type | [PageOrientationType](/cells/sv/python-net/aspose.cells/pageorientationtype) | [PageOrientationType](/cells/sv/python-net/aspose.cells/pageorientationtype) |
 

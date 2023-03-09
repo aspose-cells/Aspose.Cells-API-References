@@ -22,7 +22,7 @@ def column_name_to_index(self, column_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_name | str | Sütun adı.|
 

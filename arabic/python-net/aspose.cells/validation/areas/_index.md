@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  areas الملكية
 
-يحصل على جميع [CellArea](/cells/ar/python-net/aspose.cells/cellarea) التي تحتوي على إعدادات التحقق من صحة البيانات.
+يحصل على جميع [CellArea](/cells/ar/python-net/aspose.cells/cellarea) الذي يحتوي على إعدادات التحقق من صحة البيانات.
 ###  تعريف:
 ```python
 @property

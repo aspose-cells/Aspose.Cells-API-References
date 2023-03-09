@@ -18,7 +18,7 @@ Il tipo SelectionType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | SINGLE | Tipo di selezione singola.|
-| MULTI | Tipo di selezione multipla.|
+| MULTI |Tipo di selezione multipla.|
 | EXTEND | Estendi il tipo di selezione.|
 
 

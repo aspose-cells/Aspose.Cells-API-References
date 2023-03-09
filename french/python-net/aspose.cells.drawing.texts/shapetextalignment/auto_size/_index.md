@@ -11,7 +11,7 @@ is_root: false
 
 Indique si la taille de la forme est ajustée automatiquement en fonction de son contenu.
 
-###  Exemple
+###  Exemples
 
 ```python
 

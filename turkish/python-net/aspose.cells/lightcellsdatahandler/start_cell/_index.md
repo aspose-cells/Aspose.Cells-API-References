@@ -13,7 +13,7 @@ Bir hücreyi işlemek için hazırlanır.
 
 ###  İadeler
 
-bu hücrenin işlenmesi gerekip gerekmediği. false , hücreyi yok saymak ve geçerli satırın hücre verilerinin sonuna ulaşana kadar bir sonrakini kontrol etmek için
+bu hücrenin işlenmesi gerekip gerekmediği, hücreyi yok saymak ve geçerli satırın hücre verilerinin sonuna ulaşana kadar bir sonrakini kontrol etmek için false
 
 
 ```python
@@ -22,12 +22,12 @@ def start_cell(self, column_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | işlenecek hücrenin sütun dizini|
 ###  Notlar
 
-Geçerli satırdaki mevcut bir hücreye ulaşıldığında çağrılacaktır. Geçerli satır, [LightCellsDataHandler.process_row(row)](/cells/tr/python-net/aspose.cells/lightcellsdatahandler/process_row) numaralı son aramanın satırıdır.
+Mevcut satırdaki mevcut bir hücreye ulaşıldığında aranacaktır.Mevcut satır, [LightCellsDataHandler.process_row(row)](/cells/tr/python-net/aspose.cells/lightcellsdatahandler/process_row) numaralı son aramanın satırıdır.
 
 
 ###  Ayrıca bakınız

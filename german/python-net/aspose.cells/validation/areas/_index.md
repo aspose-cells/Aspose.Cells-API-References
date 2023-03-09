@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  areas Eigentum
 
-Ruft alle [CellArea](/cells/de/python-net/aspose.cells/cellarea) ab, die die Datenüberprüfungseinstellungen enthalten.
+Ruft alle [CellArea](/cells/de/python-net/aspose.cells/cellarea) ab, die die Datenvalidierungseinstellungen enthalten.
 ###  Definition:
 ```python
 @property

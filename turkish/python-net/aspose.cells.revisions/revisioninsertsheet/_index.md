@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionInsertSheet sınıf
+title: RevisionInsertSheet sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 120
 url: /tr/python-net/aspose.cells.revisions/revisioninsertsheet/
 is_root: false
 ---
-##  RevisionInsertSheet sınıf
+##  RevisionInsertSheet sınıfı
 Eklenen bir sayfanın revizyon kaydını temsil eder.
 
 

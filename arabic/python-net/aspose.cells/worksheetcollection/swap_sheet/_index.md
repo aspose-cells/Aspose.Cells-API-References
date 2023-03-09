@@ -18,7 +18,7 @@ def swap_sheet(self, sheet_index1, sheet_index2):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | sheet_index1 | int | ورقة العمل الأولى.|
 | sheet_index2 | int | ورقة العمل الثانية.|

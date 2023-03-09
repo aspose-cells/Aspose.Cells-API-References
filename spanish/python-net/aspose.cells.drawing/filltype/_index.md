@@ -19,7 +19,7 @@ El tipo FillType expone los siguientes miembros:
 | :- | :- |
 | AUTOMATIC | Representa el tipo de formato automático.|
 | NONE | Representa ningún tipo de formato.|
-| SOLID |Formato de relleno sólido.|
+| SOLID | Formato de relleno sólido.|
 | GRADIENT | Formato de relleno degradado.|
 | TEXTURE | Formato de relleno de textura (incluye relleno de imagen).|
 | PATTERN | Formato de relleno de patrón.|

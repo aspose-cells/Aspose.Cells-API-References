@@ -1,14 +1,14 @@
 ﻿---
 title: AutoFitMergedCellsType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1760
 url: /zh/python-net/aspose.cells/autofitmergedcellstype/
 is_root: false
 ---
-##  AutoFitMergedCellsType枚举
-表示自动拟合合并单元格的类型。
+## AutoFitMergedCellsType枚举
+表示自动适配合并单元格的类型。
 
 
 

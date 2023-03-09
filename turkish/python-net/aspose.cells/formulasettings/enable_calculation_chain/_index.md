@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain mülk
 
-Formüller için hesaplama zincirini etkinleştirip etkinleştirmeyeceği. Varsayılan yanlıştır.
+Formüller için hesaplama zincirini etkinleştirip etkinleştirmeyeceği.
 
 ###  Notlar
 

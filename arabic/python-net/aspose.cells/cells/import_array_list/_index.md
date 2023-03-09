@@ -18,10 +18,10 @@ def import_array_list(self, array_list, first_row, first_column, is_vertical):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| array_list | list | مصفوفة البيانات.|
-| first_row | int |رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
+| array_list | list | قائمة مجموعة البيانات.|
+| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 | is_vertical | bool | يُحدد لاستيراد البيانات عموديًا أو أفقيًا.|
 

@@ -18,7 +18,7 @@ def copy_comments_in_range(self, shapes, ca, dest_row, dest_column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | shapes | [ShapeCollection](/cells/it/python-net/aspose.cells.drawing/shapecollection) | Le forme di origine.|
 | ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | L'intervallo di origine.|

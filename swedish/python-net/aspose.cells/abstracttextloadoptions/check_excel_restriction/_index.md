@@ -15,7 +15,7 @@ När du matar in ett värde som är längre än 32K, till exempel Cell.PutValue(
 Om den här egenskapen är falsk kommer vi att acceptera ditt inmatade strängvärde som cellens värde så att senare
 du kan mata ut hela strängvärdet för andra filformat som CSV.
 Men om du har angett en sådan typ av värde som är ogiltigt för Excel-filformat,
-du bör inte spara arbetsboken som Excel-filformat senare. Annars kan det uppstå ett oväntat fel för den genererade Excel-filen.
+du bör inte spara arbetsboken som Excel-filformat senare.
 ###  Definition:
 ```python
 @property

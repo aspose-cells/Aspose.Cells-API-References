@@ -17,7 +17,7 @@ El tipo AxisType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| CATEGORY | Eje de categoría|
+| CATEGORY | Eje de categorías|
 | VALUE | Eje de valor|
 | SERIES | Eje serie|
 

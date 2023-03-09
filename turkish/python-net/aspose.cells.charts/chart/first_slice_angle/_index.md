@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  first_slice_angle mülk
 
-Derece cinsinden (dikeyden saat yönünde) ilk pasta grafik veya halka grafik diliminin açısını alır veya ayarlar. Yalnızca pasta, 3-B pasta ve halka grafikler, 0 - 360 için geçerlidir.
+Derece cinsinden (dikeyden saat yönünde) ilk pasta grafiğin veya halka grafik diliminin açısını alır veya ayarlar. Yalnızca pasta, 3-B pasta ve halka grafikler için geçerlidir, 0 - 360.
 ###  Tanım:
 ```python
 @property

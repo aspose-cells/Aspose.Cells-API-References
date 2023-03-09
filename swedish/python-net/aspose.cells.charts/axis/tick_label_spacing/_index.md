@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing fastighet
 
-Representerar antalet kategorier eller serier mellan bockmarkeringsetiketter. Gäller endast kategori- och serieaxlar.
+Representerar antalet kategorier eller serier mellan bockmarkeringsetiketter.
 
 ###  Anmärkningar
 

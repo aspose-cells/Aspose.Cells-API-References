@@ -19,7 +19,7 @@ def get_bottom_point_y_px(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int |  |
 

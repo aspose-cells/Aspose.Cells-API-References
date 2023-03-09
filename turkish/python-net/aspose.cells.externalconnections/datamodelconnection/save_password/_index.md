@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_password mülk
 
-Parola bağlantı dizesinin bir parçası olarak kaydedilecekse doğrudur; Aksi takdirde, Yanlış.
+Parola bağlantı dizesinin bir parçası olarak kaydedilecekse true, aksi takdirde False.
 ###  Tanım:
 ```python
 @property

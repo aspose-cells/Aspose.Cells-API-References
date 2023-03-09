@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  provider_id proprietà
 
-Ottiene e imposta l'ID del provider di firme.
+Ottiene e imposta l'ID del provider della firma.
 
 ###  Osservazioni
 
 In genere è il CLSID del componente aggiuntivo com del provider.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells.drawing import SignatureLine

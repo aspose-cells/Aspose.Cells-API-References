@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el radio de desenfoque que se aplica a los bordes, en unidades de puntos.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

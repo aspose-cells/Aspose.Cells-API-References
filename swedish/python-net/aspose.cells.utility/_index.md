@@ -13,7 +13,7 @@ is_root: false
 | Klass| Beskrivning|
 | :- | :- |
 | [ExportRangeToJsonOptions](/cells/sv/python-net/aspose.cells.utility/exportrangetojsonoptions) | Indikerar alternativen som exporterar intervall till json.|
-| [JsonLayoutOptions](/cells/sv/python-net/aspose.cells.utility/jsonlayoutoptions) |Representerar alternativen för json-layouttypen.|
+| [JsonLayoutOptions](/cells/sv/python-net/aspose.cells.utility/jsonlayoutoptions) | Representerar alternativen för json-layouttypen.|
 | [JsonUtility](/cells/sv/python-net/aspose.cells.utility/jsonutility) | Representerar verktygsklassen för processing json.|
 
 

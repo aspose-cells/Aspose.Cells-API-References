@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  recursive fastighet
 
-Anger om de beroende cellerna beräknas rekursivt vid beräkning av en cell och det beror på andra celler.
+Indikerar om de beroende cellerna ska beräknas rekursivt vid beräkning av en cell och det beror på andra celler.
 ###  Definition:
 ```python
 @property

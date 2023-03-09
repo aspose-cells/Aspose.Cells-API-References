@@ -19,15 +19,15 @@ is_root: false
 | [TableStyle](/cells/ru/python-net/aspose.cells.tables/tablestyle) | Представляет стиль таблицы.|
 | [TableStyleCollection](/cells/ru/python-net/aspose.cells.tables/tablestylecollection) | Представляет все пользовательские стили таблиц.|
 | [TableStyleElement](/cells/ru/python-net/aspose.cells.tables/tablestyleelement) | Представляет элемент стиля таблицы.|
-| [TableStyleElementCollection](/cells/ru/python-net/aspose.cells.tables/tablestyleelementcollection) | Представляет все элементы стиля таблицы.|
+| [TableStyleElementCollection](/cells/ru/python-net/aspose.cells.tables/tablestyleelementcollection) |Представляет все элементы стиля таблицы.|
 | [TableToRangeOptions](/cells/ru/python-net/aspose.cells.tables/tabletorangeoptions) | Представляет параметры при преобразовании таблицы в диапазон.|
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [TableDataSourceType](/cells/ru/python-net/aspose.cells.tables/tabledatasourcetype) | Представляет тип источника данных таблицы.|
-| [TableStyleElementType](/cells/ru/python-net/aspose.cells.tables/tablestyleelementtype) |Представляет тип элемента стиля таблицы или сводной таблицы.|
+| [TableStyleElementType](/cells/ru/python-net/aspose.cells.tables/tablestyleelementtype) | Представляет тип элемента стиля таблицы или сводной таблицы.|
 | [TableStyleType](/cells/ru/python-net/aspose.cells.tables/tablestyletype) | Представляет встроенный тип стиля таблицы.|
 | [TotalsCalculation](/cells/ru/python-net/aspose.cells.tables/totalscalculation) | Определяет тип расчета в строке Итоги столбца списка.|
 

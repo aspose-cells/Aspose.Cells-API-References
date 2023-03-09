@@ -18,10 +18,10 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [index](/cells/ru/python-net/aspose.cells/column/index) | Получает индекс этого столбца.|
-| [width](/cells/ru/python-net/aspose.cells/column/width) | Получает и задает ширину столбца в символах.|
-| [group_level](/cells/ru/python-net/aspose.cells/column/group_level) | Получает уровень группы столбца.|
+| [width](/cells/ru/python-net/aspose.cells/column/width) | Получает и задает ширину столбца в символьных единицах.|
+| [group_level](/cells/ru/python-net/aspose.cells/column/group_level) |Получает уровень группы столбца.|
 | [is_hidden](/cells/ru/python-net/aspose.cells/column/is_hidden) | Указывает, скрыт ли столбец.|
-| [has_custom_style](/cells/ru/python-net/aspose.cells/column/has_custom_style) | Указывает, имеет ли этот столбец пользовательские настройки стиля (отличные от стандартных, унаследованных от книги).|
+| [has_custom_style](/cells/ru/python-net/aspose.cells/column/has_custom_style) | Указывает, имеет ли этот столбец настраиваемые параметры стиля (отличные от стиля по умолчанию, унаследованного от рабочей книги).|
 | [style](/cells/ru/python-net/aspose.cells/column/style) | Получает стиль этого столбца.|
 | [is_collapsed](/cells/ru/python-net/aspose.cells/column/is_collapsed) | свернута ли колонка|
 
@@ -35,7 +35,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

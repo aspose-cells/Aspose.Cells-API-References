@@ -18,7 +18,7 @@ def calculate(self, data):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | data | [CalculationData](/cells/tr/python-net/aspose.cells/calculationdata) | fonksiyon adı, parametreler, vb. gibi fonksiyonu hesaplamak için gerekli veriler.|
 ###  Notlar

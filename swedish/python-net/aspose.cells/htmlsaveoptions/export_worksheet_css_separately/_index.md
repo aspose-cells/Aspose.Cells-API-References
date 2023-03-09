@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_worksheet_css_separately fastighet
 
-Anger om kalkylbladets css exporteras separat. Standardvärdet är falskt.
+Anger om kalkylbladets css ska exporteras separat. Standardvärdet är falskt.
 ###  Definition:
 ```python
 @property

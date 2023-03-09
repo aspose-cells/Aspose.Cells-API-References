@@ -18,7 +18,7 @@ def hide_item(self, index, is_hidden):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس العنصر المحوري في الحقل المحوري.|
 | is_hidden | bool | ما إذا كان PivotItem المحدد مخفيًا|
@@ -35,7 +35,7 @@ def hide_item(self, item_value, is_hidden):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | item_value | str | قيمة العنصر المحوري في الحقل المحوري.|
 | is_hidden | bool | ما إذا كان PivotItem المحدد مخفيًا|

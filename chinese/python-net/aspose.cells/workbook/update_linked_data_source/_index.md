@@ -1,6 +1,6 @@
 ﻿---
 title: update_linked_data_source方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 410
@@ -19,7 +19,7 @@ def update_linked_data_source(self, external_workbooks):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | external_workbooks | list |此工作簿引用外部工作簿。<br/>如果为空，我们将直接打开外部链接文件。<br/>如果它不为空，<br/>我们会先检查数组中是否有外部链接；<br/>如果没有，我们将重新打开外部链接文件。|
 ### 评论

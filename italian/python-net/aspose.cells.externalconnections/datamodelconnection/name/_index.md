@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name proprietà
 
-Specifica lo name della connessione. Ogni connessione deve avere un numero univoco name.
+Specifica lo name della connessione.
 ###  Definizione:
 ```python
 @property

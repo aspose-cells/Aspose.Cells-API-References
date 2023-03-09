@@ -1,6 +1,6 @@
 ﻿---
 title: import_custom_objects方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 640
@@ -22,7 +22,7 @@ def import_custom_objects(self, list, first_row, first_column, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | list | list |自定义对象|
 | first_row | int |要导入的第一个单元格的行号。|
@@ -48,10 +48,10 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | list | list |自定义对象|
-| property_names | list |属性名称。如果为空，我们将导入该对象的所有属性。|
+| property_names | list |属性名称，如果为null，我们将导入该对象的所有属性。|
 | is_property_name_shown | bool |指示是否将属性名称导入到第一行。|
 | first_row | int |要导入的第一个单元格的行号。|
 | first_column | int |要导入的第一个单元格的列号。|

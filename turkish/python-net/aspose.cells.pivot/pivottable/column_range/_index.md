@@ -10,7 +10,7 @@ is_root: false
 ##  column_range mülk
 
 Aralığı temsil eden bir CellArea nesnesi döndürür
-PivotTable raporundaki sütun alanını içerir. Sadece oku.
+PivotTable raporundaki sütun alanını içerir.
 ###  Tanım:
 ```python
 @property

@@ -10,7 +10,7 @@ is_root: false
 ##  std_dev mülk
 
 Ortalamanın üstüne veya altına dahil edilecek standart sapmaların sayısını alın veya ayarlayın.
-koşullu biçimlendirme kuralı
+ Koşullu biçimlendirme kuralı.
  Giriş değeri 0 ile 3 arasında olmalıdır (0 ile 3 dahil).
 Bu değerin 0 olarak ayarlanması, stdDev'in ayarlanmadığı anlamına gelir.
 Varsayılan değer 0'dır.

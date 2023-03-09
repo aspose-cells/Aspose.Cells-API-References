@@ -17,9 +17,9 @@ Typen PivotFilter avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [auto_filter](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/auto_filter) |Hämtar autofiltret för pivotfiltret.|
+| [auto_filter](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/auto_filter) | Hämtar autofiltret för pivotfiltret.|
 | [filter_type](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/filter_type) | Hämtar autofiltertypen för pivotfiltret.|
-| [field_index](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/field_index) | Hämtar fältindexet för pivotfiltret.|
+| [field_index](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/field_index) |Hämtar fältindexet för pivotfiltret.|
 | [value1](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/value1) | Hämtar strängvärdet1 för etikettens pivotfilter.|
 | [value2](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/value2) | Hämtar strängvärdet2 för etikettens pivotfilter.|
 | [measure_fld_index](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/measure_fld_index) | Hämtar mätfältsindex för pivotfiltret.|

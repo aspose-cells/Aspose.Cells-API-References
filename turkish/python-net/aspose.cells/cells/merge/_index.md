@@ -18,7 +18,7 @@ def merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Bu aralığın ilk satırı (sıfır tabanlı)|
 | first_column | int | Bu aralığın ilk sütunu (sıfır tabanlı)|
@@ -40,7 +40,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Bu aralığın ilk satırı (sıfır tabanlı)|
 | first_column | int | Bu aralığın ilk sütunu (sıfır tabanlı)|
@@ -51,7 +51,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 
 Aralıktaki sol üst hücrenin adresi aracılığıyla birleştirilmiş hücreye başvurun.
 mergeConflict true ise ve birleştirilmiş aralık diğer birleştirilmiş hücrelerle çakışıyorsa,
-diğer birleştirilmiş hücreler otomatik olarak kaldırılacaktır.
+Diğer birleştirilmiş hücreler otomatik olarak kaldırılacaktır.
 
 ##  merge(first_row, first_column, total_rows, total_columns, check_conflict, merge_conflict) {#int-int-int-int-bool-bool}
 Belirli bir hücre aralığını tek bir hücrede birleştirir.
@@ -64,7 +64,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Bu aralığın ilk satırı (sıfır tabanlı)|
 | first_column | int | Bu aralığın ilk sütunu (sıfır tabanlı)|
@@ -76,7 +76,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 
 Aralıktaki sol üst hücrenin adresi aracılığıyla birleştirilmiş hücreye başvurun.
 mergeConflict true ise ve birleştirilmiş aralık diğer birleştirilmiş hücrelerle çakışıyorsa,
-diğer birleştirilmiş hücreler otomatik olarak kaldırılacaktır.
+Diğer birleştirilmiş hücreler otomatik olarak kaldırılacaktır.
 
 
 ###  Ayrıca bakınız

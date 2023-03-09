@@ -1,6 +1,6 @@
 ﻿---
 title: total_columns 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 160
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## total_columns 属性
 
-获取或设置要从数据源导入的总列数。 -1 表示给定数据源的所有行。
+-1 表示给定数据源的所有行。
 ### 定义：
 ```python
 @property

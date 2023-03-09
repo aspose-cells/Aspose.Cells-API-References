@@ -22,7 +22,7 @@ def get_string_value(self, format_strategy):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | format_strategy | [CellValueFormatStrategy](/cells/tr/python-net/aspose.cells/cellvalueformatstrategy) | Biçimlendirilmiş strateji.|
 

@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | style | [CellBorderType](/cells/ar/python-net/aspose.cells/cellbordertype) | أسلوب الحدود|
 

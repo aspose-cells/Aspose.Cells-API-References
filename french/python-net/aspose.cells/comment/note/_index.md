@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  note propriété
 
-Représente le contenu du commentaire.
+Représente le contenu des commentaires.
 
 ###  Remarques
 
 S'il s'agit d'un commentaire fileté, le note ne pourrait pas être modifié, sinon MS Excel ne pourrait pas le traiter comme un commentaire fileté.
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -1,13 +1,13 @@
 ﻿---
 title: DataSorterKeyCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 440
 url: /zh/python-net/aspose.cells/datasorterkeycollection/
 is_root: false
 ---
-##  DataSorterKeyCollection类
+## DataSorterKeyCollection类
 表示数据排序器的键列表。
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  border_style Eigentum
 
-Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt ihn fest.
+Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt diesen fest.
 ###  Definition:
 ```python
 @property

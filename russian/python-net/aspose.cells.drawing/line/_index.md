@@ -17,11 +17,11 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [compound_type](/cells/ru/python-net/aspose.cells.drawing/line/compound_type) |Задает тип составной линии|
+| [compound_type](/cells/ru/python-net/aspose.cells.drawing/line/compound_type) | Задает тип составной линии|
 | [dash_type](/cells/ru/python-net/aspose.cells.drawing/line/dash_type) | Указывает тип пунктирной линии|
 | [cap_type](/cells/ru/python-net/aspose.cells.drawing/line/cap_type) | Определяет конечные заглавные буквы.|
 | [join_type](/cells/ru/python-net/aspose.cells.drawing/line/join_type) | Определяет соединительные заглавные буквы.|
-| [begin_type](/cells/ru/python-net/aspose.cells.drawing/line/begin_type) | Указывает стрелку для начала строки.|
+| [begin_type](/cells/ru/python-net/aspose.cells.drawing/line/begin_type) |Указывает стрелку для начала строки.|
 | [end_type](/cells/ru/python-net/aspose.cells.drawing/line/end_type) | Задает стрелку для конца строки.|
 | [begin_arrow_length](/cells/ru/python-net/aspose.cells.drawing/line/begin_arrow_length) | Определяет длину стрелки для начала строки.|
 | [end_arrow_length](/cells/ru/python-net/aspose.cells.drawing/line/end_arrow_length) | Задает длину стрелки для конца строки.|
@@ -35,14 +35,14 @@ is_root: false
 | [weight_pt](/cells/ru/python-net/aspose.cells.drawing/line/weight_pt) | Получает или задает вес линии в пунктах.|
 | [weight_px](/cells/ru/python-net/aspose.cells.drawing/line/weight_px) | Получает или задает вес линии в пикселях.|
 | [formatting_type](/cells/ru/python-net/aspose.cells.drawing/line/formatting_type) | Получает или задает тип формата.|
-| [is_automatic_color](/cells/ru/python-net/aspose.cells.drawing/line/is_automatic_color) |Указывает, назначается ли цвет линии автоматически.|
+| [is_automatic_color](/cells/ru/python-net/aspose.cells.drawing/line/is_automatic_color) | Указывает, назначается ли цвет линии автоматически.|
 | [is_visible](/cells/ru/python-net/aspose.cells.drawing/line/is_visible) | Указывает, видна ли линия.|
 | [is_auto](/cells/ru/python-net/aspose.cells.drawing/line/is_auto) | Указывает, назначается ли этот стиль линии автоматически.|
 | [gradient_fill](/cells/ru/python-net/aspose.cells.drawing/line/gradient_fill) | Представляет градиентную заливку.|
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

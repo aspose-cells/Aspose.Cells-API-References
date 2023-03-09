@@ -11,9 +11,9 @@ is_root: false
 
 Получает или задает листы для отображения. По умолчанию все видимые листы в книге: [SheetSet.visible](/cells/ru/python-net/aspose.cells.rendering/sheetset#visible).
 
-###  Пример
+###  Примеры
 
-Следующий код отображает только активный лист в pdf.
+Следующий код отображает только активные листы в pdf.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

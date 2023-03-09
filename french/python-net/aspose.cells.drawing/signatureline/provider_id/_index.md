@@ -15,7 +15,7 @@ Obtient et définit l'ID du fournisseur de signature.
 
 Il s'agit généralement du CLSID du complément com du fournisseur.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import SignatureLine

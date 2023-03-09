@@ -1,13 +1,13 @@
 ﻿---
 title: AutoFilter类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
 url: /zh/python-net/aspose.cells/autofilter/
 is_root: false
 ---
-##  AutoFilter类
+## AutoFilter类
 代表指定工作表的自动筛选。
 
 

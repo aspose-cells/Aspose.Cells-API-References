@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  DataBar класс
  Опишите правило условного форматирования DataBar.
-Это правило условного форматирования отображает градуированный
+Это правило условного форматирования отображает оцениваемый
 панель данных в диапазоне ячеек.
 
 
@@ -22,15 +22,15 @@ is_root: false
 | [axis_color](/cells/ru/python-net/aspose.cells/databar/axis_color) | Получает цвет оси для ячеек с условным форматированием в виде гистограмм.|
 | [axis_position](/cells/ru/python-net/aspose.cells/databar/axis_position) | Получает или задает положение оси гистограмм, заданное правилом условного форматирования.|
 | [bar_fill_type](/cells/ru/python-net/aspose.cells/databar/bar_fill_type) | Получает или задает способ заполнения панели данных цветом.|
-| [direction](/cells/ru/python-net/aspose.cells/databar/direction) | Получает или задает направление отображения панели данных.|
+| [direction](/cells/ru/python-net/aspose.cells/databar/direction) |Получает или задает направление отображения панели данных.|
 | [bar_border](/cells/ru/python-net/aspose.cells/databar/bar_border) | Получает объект, указывающий границу гистограммы.|
 | [negative_bar_format](/cells/ru/python-net/aspose.cells/databar/negative_bar_format) | Получает объект NegativeBarFormat, связанный с правилом условного форматирования гистограммы.|
 | [min_cfvo](/cells/ru/python-net/aspose.cells/databar/min_cfvo) | Получите или установите объект минимального значения этого DataBar.<br/> Невозможно установить значение null или CFValueObject с типом FormatConditionValueType.Max.|
 | [max_cfvo](/cells/ru/python-net/aspose.cells/databar/max_cfvo) | Получите или установите объект максимального значения этого DataBar.<br/> Невозможно установить значение null или CFValueObject с типом FormatConditionValueType.Min.|
 | [color](/cells/ru/python-net/aspose.cells/databar/color) | Получить или установить цвет этого DataBar.|
-| [min_length](/cells/ru/python-net/aspose.cells/databar/min_length) | Представляет минимальную длину строки данных.|
+| [min_length](/cells/ru/python-net/aspose.cells/databar/min_length) | Представляет минимальную длину панели данных.|
 | [max_length](/cells/ru/python-net/aspose.cells/databar/max_length) | Представляет максимальную длину строки данных.|
-| [show_value](/cells/ru/python-net/aspose.cells/databar/show_value) | Получите или установите флаг, указывающий, следует ли отображать значения ячеек, к которым применяется эта панель данных.<br/> Значение по умолчанию — истина.|
+| [show_value](/cells/ru/python-net/aspose.cells/databar/show_value) | Получите или установите флаг, указывающий, показывать ли значения ячеек, к которым применяется эта панель данных.<br/> Значение по умолчанию — истина.|
 
 
 ###  Методы
@@ -40,7 +40,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

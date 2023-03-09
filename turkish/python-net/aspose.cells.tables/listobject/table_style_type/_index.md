@@ -11,7 +11,7 @@ is_root: false
 
 Alır ve yerleşik tablo stili.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

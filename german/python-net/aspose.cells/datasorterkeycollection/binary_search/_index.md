@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [DataSorterKey](/cells/de/python-net/aspose.cells/datasorterkey) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [DataSorterKey](/cells/de/python-net/aspose.cells/datasorterkey) | Das zu lokalisierende System.Objekt.|
 
 
 

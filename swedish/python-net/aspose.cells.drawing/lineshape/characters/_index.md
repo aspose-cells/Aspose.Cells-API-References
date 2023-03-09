@@ -13,7 +13,7 @@ Returnerar ett teckenobjekt som representerar ett intervall på characters i tex
 
 ###  Returnerar
 
-Tecken objekt.
+Karaktärsobjekt.
 
 
 ```python
@@ -22,7 +22,7 @@ def characters(self, start_index, length):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_index | int | Indexet för början av karaktären.|
 | length | int | Antal tecken.|

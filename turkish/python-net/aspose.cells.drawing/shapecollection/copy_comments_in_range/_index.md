@@ -18,7 +18,7 @@ def copy_comments_in_range(self, shapes, ca, dest_row, dest_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | shapes | [ShapeCollection](/cells/tr/python-net/aspose.cells.drawing/shapecollection) | Kaynak şekiller.|
 | ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Kaynak aralığı.|

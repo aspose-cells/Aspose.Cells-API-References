@@ -24,19 +24,19 @@ def get_precedents(self):
 
 ###  Observaciones
 
-* Devuelve nulo si no es una celda de fórmula. Todas las referencias que aparecen en la fórmula de esta celda se devolverán sin importar si se hace referencia a ellas o no durante el cálculo.
+* Devuelve nulo si esta no es una celda de fórmula Todas las referencias que aparecen en la fórmula de esta celda se devolverán sin importar si se hace referencia a ellas o no durante el cálculo.
 
 Por ejemplo, aunque la celda A2 en la fórmula "=SI(VERDADERO,A1,A2)" no se usa al calcular,
 todavía se toma como los precedentes de la fórmula. Para obtener aquellas referencias que solo influyen en el cálculo, utilice [Cell.get_precedents_in_calculation()](/cells/es/python-net/aspose.cells/cell/get_precedents_in_calculation).
 
-* Devuelve nulo si no es una celda de fórmula. Todas las referencias que aparecen en la fórmula de esta celda se devolverán sin importar si se hace referencia a ellas o no durante el cálculo.
+* Devuelve nulo si esta no es una celda de fórmula Todas las referencias que aparecen en la fórmula de esta celda se devolverán sin importar si se hace referencia a ellas o no durante el cálculo.
 Por ejemplo, aunque la celda A2 en la fórmula "=SI(VERDADERO,A1,A2)" no se usa al calcular,
 todavía se toma como los precedentes de la fórmula. Para obtener aquellas referencias que solo influyen en el cálculo, utilice [Cell.get_precedents_in_calculation()](/cells/es/python-net/aspose.cells/cell/get_precedents_in_calculation).
 
-* Devuelve nulo si no es una celda de fórmula. Todas las referencias que aparecen en la fórmula de esta celda se devolverán sin importar si se hace referencia a ellas o no durante el cálculo.
+* Devuelve nulo si esta no es una celda de fórmula Todas las referencias que aparecen en la fórmula de esta celda se devolverán sin importar si se hace referencia a ellas o no durante el cálculo.
 Por ejemplo, aunque la celda A2 en la fórmula "=SI(VERDADERO,A1,A2)" no se usa al calcular,
 todavía se toma como los precedentes de la fórmula. Para obtener aquellas referencias que solo influyen en el cálculo, utilice [Cell.get_precedents_in_calculation()](/cells/es/python-net/aspose.cells/cell/get_precedents_in_calculation).
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import CellsHelper, Workbook

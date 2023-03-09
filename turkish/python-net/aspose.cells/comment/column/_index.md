@@ -11,7 +11,7 @@ is_root: false
 
 Yorumun column dizinini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

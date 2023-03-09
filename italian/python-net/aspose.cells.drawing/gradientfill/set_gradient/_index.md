@@ -18,11 +18,11 @@ def set_gradient(self, type, angle, direction):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [GradientFillType](/cells/it/python-net/aspose.cells.drawing/gradientfilltype) | Tipo di riempimento sfumato.|
-| angle | float | L'angolo. Si applica solo a GradientFillType.Linear.|
-| direction | [GradientDirectionType](/cells/it/python-net/aspose.cells.drawing/gradientdirectiontype) | Il tipo di direzione. Si applica solo a GradientFillType.Radial e GradientFillType.Rectangle.|
+| angle | float | L'angolo Si applica solo a GradientFillType.Linear.|
+| direction | [GradientDirectionType](/cells/it/python-net/aspose.cells.drawing/gradientdirectiontype) |Il tipo di direzione Si applica solo a GradientFillType.Radial e GradientFillType.Rectangle.|
 
 
 

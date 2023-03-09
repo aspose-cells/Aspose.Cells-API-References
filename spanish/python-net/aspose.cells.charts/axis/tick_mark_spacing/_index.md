@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing propiedad
 
-Devuelve o establece el número de categorías o series entre marcas. Aplica solo para ejes de categoría y serie.
+Devuelve o establece el número de categorías o series entre marcas.
 
 ###  Observaciones
 

@@ -1,6 +1,6 @@
 ﻿---
 title: register_add_in_function方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 170
@@ -22,7 +22,7 @@ def register_add_in_function(self, id, function_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | id | int |包含插件函数的数据的 ID，<br/>可以通过第一次调用 [WorksheetCollection.register_add_in_function(add_in_file, function_name, lib)](/cells/zh/python-net/aspose.cells/worksheetcollection/register_add_in_function) 获取相同的插件文件。|
 | function_name | str |插件函数名称|
@@ -43,7 +43,7 @@ def register_add_in_function(self, add_in_file, function_name, lib):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | add_in_file | str |该文件包含插件函数|
 | function_name | str |插件函数名称|

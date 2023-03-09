@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob die Form nur eine Gleichung enthält.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

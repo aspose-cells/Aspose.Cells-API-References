@@ -13,7 +13,7 @@ Parsar given sträng till objekt med rätt värde.
 
 ###  Returnerar
 
-Analyserat värdeobjekt från given sträng. Om en given sträng inte kan tolkas till objekt med rätt värde, returnerar null.
+Analyserat värdeobjekt från given sträng.
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | value | str | Strängvärdet som ska analyseras|
 

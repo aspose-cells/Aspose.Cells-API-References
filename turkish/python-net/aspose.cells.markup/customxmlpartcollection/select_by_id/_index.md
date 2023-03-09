@@ -22,7 +22,7 @@ def select_by_id(self, id):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | id | str | Özel XML bölümü için GUID'i içerir.|
 

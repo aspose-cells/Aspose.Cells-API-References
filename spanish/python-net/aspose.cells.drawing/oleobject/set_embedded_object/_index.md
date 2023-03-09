@@ -18,9 +18,9 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| link_to_file | bool | Indica si el objeto se vincula al archivo. Si es verdadero, el parámetro objectData se ignora.|
+| link_to_file | bool | Indica si el objeto enlaza con el archivo.Si es verdadero, el parámetro objectData se ignora.|
 | object_data | bytes | Los datos del objeto incrustado.|
 | source_file_name | str | El nombre del archivo.|
 | display_as_icon | bool | Indica si se muestra el objeto como un icono.<br/> Si es verdadero, los datos de la imagen original estarán cubiertos por un icono.|
@@ -38,9 +38,9 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| link_to_file | bool | Indica si el objeto se vincula al archivo. Si es verdadero, el parámetro objectData se ignora.|
+| link_to_file | bool | Indica si el objeto enlaza con el archivo.Si es verdadero, el parámetro objectData se ignora.|
 | object_data | bytes | Los datos del objeto incrustado.|
 | source_file_name | str | El nombre del archivo.|
 | display_as_icon | bool | Indica si se muestra el objeto como un icono.<br/> Si es verdadero, los datos de la imagen original estarán cubiertos por un icono.|

@@ -17,7 +17,7 @@ Typen Top10Filter avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [is_top](/cells/sv/python-net/aspose.cells/top10filter/is_top) |Indikerar om det är toppfiltret.|
+| [is_top](/cells/sv/python-net/aspose.cells/top10filter/is_top) | Indikerar om det är toppfiltret.|
 | [is_percent](/cells/sv/python-net/aspose.cells/top10filter/is_percent) | Anger om objekten är procent.|
 | [items](/cells/sv/python-net/aspose.cells/top10filter/items) | Hämtar och ställer in objekten i filtret.|
 | [criteria](/cells/sv/python-net/aspose.cells/top10filter/criteria) |  |

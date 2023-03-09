@@ -1,13 +1,13 @@
 ﻿---
 title: Chart类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
 url: /zh/python-net/aspose.cells.charts/chart/
 is_root: false
 ---
-##  Chart类
+## Chart类
 封装表示单个 Excel 图表的对象。
 
 
@@ -45,7 +45,7 @@ Chart 类型公开了以下成员：
 | [series_axis](/cells/zh/python-net/aspose.cells.charts/chart/series_axis) |获取图表的系列轴。|
 | [legend](/cells/zh/python-net/aspose.cells.charts/chart/legend) |获取图表图例。|
 | [chart_data_table](/cells/zh/python-net/aspose.cells.charts/chart/chart_data_table) |代表图表数据表。|
-| [show_legend](/cells/zh/python-net/aspose.cells.charts/chart/show_legend) |获取或设置一个值，该值指示是否显示图表图例。默认为真。|
+| [show_legend](/cells/zh/python-net/aspose.cells.charts/chart/show_legend) |获取或设置一个值，该值指示是否显示图表图例。默认为 true。|
 | [is_rectangular_cornered](/cells/zh/python-net/aspose.cells.charts/chart/is_rectangular_cornered) |获取或设置一个值，该值指示图表区域是否为矩形角。<br/>默认为真。|
 | [show_data_table](/cells/zh/python-net/aspose.cells.charts/chart/show_data_table) |获取或设置一个值，该值指示图表是否显示数据表。|
 | [first_slice_angle](/cells/zh/python-net/aspose.cells.charts/chart/first_slice_angle) |获取或设置第一个饼图或圆环图切片的角度，以度为单位（从垂直方向顺时针方向）。仅适用于饼图、3-D 饼图和圆环图，0 到 360。|
@@ -59,10 +59,10 @@ Chart 类型公开了以下成员：
 | [rotation_angle](/cells/zh/python-net/aspose.cells.charts/chart/rotation_angle) |表示 3-D 图表视图的旋转（绘图区域围绕 z 轴的旋转，以度为单位）。|
 | [elevation](/cells/zh/python-net/aspose.cells.charts/chart/elevation) |表示 3-D 图表视图的高度，以度为单位。|
 | [right_angle_axes](/cells/zh/python-net/aspose.cells.charts/chart/right_angle_axes) |如果图表轴成直角则为真。仅适用于 3-D 图表（Column3D 和 3-D 饼图除外）。|
-| [auto_scaling](/cells/zh/python-net/aspose.cells.charts/chart/auto_scaling) |如果 Microsoft Excel 缩放 3-D 图表，使其在大小上更接近等效的 2-D 图表，则为真。<br/> RightAngleAxes 属性必须为 True。|
+| [auto_scaling](/cells/zh/python-net/aspose.cells.charts/chart/auto_scaling) |如果 Microsoft Excel 缩放 3-D 图表，使其在大小上更接近等效的 2-D 图表，则为真。<br/> Right Angle Axes 属性必须为 True。|
 | [height_percent](/cells/zh/python-net/aspose.cells.charts/chart/height_percent) |返回或设置 3-D 图表的高度占图表宽度的百分比（介于 5% 和 500% 之间）。|
-| [perspective](/cells/zh/python-net/aspose.cells.charts/chart/perspective) |返回或设置 3-D 图表视图的透视图。必须介于 0 和 100 之间。<br/>如果 RightAngleAxes 属性为 True，则忽略此属性。|
-| [is_3d](/cells/zh/python-net/aspose.cells.charts/chart/is_3d) |指示图表是否为 3d 图表。|
+| [perspective](/cells/zh/python-net/aspose.cells.charts/chart/perspective) |返回或设置 3-D 图表视图的视角。必须介于 0 和 100 之间。<br/>如果 RightAngleAxes 属性为 True，则忽略此属性。|
+| [is_3d](/cells/zh/python-net/aspose.cells.charts/chart/is_3d) |指示图表是否为 3D 图表。|
 | [depth_percent](/cells/zh/python-net/aspose.cells.charts/chart/depth_percent) |表示 3-D 图表的深度占图表宽度的百分比（介于 20% 和 2000% 之间）。|
 | [actual_chart_size](/cells/zh/python-net/aspose.cells.charts/chart/actual_chart_size) |以像素为单位获取图表的实际大小。|
 | [placement](/cells/zh/python-net/aspose.cells.charts/chart/placement) |表示图表附加到其下方单元格的方式。|

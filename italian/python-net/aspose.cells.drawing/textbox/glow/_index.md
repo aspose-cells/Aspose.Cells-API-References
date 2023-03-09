@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta un oggetto [GlowEffect](/cells/it/python-net/aspose.cells.drawing/gloweffect) che specifica l'effetto glow per l'elemento o la forma del grafico.
 
-###  Esempio
+###  Esempi
 
 ```python
 

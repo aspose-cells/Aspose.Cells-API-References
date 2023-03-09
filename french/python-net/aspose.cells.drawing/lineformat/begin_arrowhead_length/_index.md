@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type de longueur de la flèche de début de la ligne.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import MsoArrowheadLength

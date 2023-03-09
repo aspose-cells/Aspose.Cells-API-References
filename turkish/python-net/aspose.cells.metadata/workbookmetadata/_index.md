@@ -1,5 +1,5 @@
 ﻿---
-title: WorkbookMetadata sınıf
+title: WorkbookMetadata sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells.metadata/workbookmetadata/
 is_root: false
 ---
-##  WorkbookMetadata sınıf
+##  WorkbookMetadata sınıfı
 Meta verileri temsil eder.
 
 
@@ -37,7 +37,7 @@ WorkbookMetadata türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki örnek bir WorkbookMetadata oluşturur.
 

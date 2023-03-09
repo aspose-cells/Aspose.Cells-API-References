@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count mülk
 
-Çalışma kitabının toplam sayfa sayısını alır.
+Çalışma kitaplarının toplam sayfa sayısını alır.
 ###  Tanım:
 ```python
 @property

@@ -39,11 +39,11 @@ def add(self, type):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [SheetType](/cells/ru/python-net/aspose.cells/sheettype) | Тип рабочего листа.|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import SheetType, Workbook
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | sheet_name | str | Имя рабочего листа|
 

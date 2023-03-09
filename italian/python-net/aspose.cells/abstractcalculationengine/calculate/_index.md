@@ -18,12 +18,12 @@ def calculate(self, data):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | data | [CalculationData](/cells/it/python-net/aspose.cells/calculationdata) | i dati richiesti per calcolare la funzione come il nome della funzione, i parametri, ... ecc.|
 ###  Osservazioni
 
-L'utente deve impostare il valore calcolato per i dati forniti per tutte le funzioni (comprese le funzioni native di Excel)
+L'utente deve impostare il valore calcolato per i dati forniti per tutte le funzioni (incluse le funzioni native di Excel)
 che vuole calculate da solo in questa implementazione.
 
 

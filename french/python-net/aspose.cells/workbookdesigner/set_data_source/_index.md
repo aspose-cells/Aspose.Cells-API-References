@@ -18,7 +18,7 @@ def set_data_source(self, data_source, cells_data_table):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | data_source | str | Le nom de la source de données.|
 | cells_data_table | [ICellsDataTable](/cells/fr/python-net/aspose.cells/icellsdatatable) | tableau de données.|
@@ -35,9 +35,9 @@ def set_data_source(self, variable, data):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| variable | str |Nom de variable créé à l'aide d'un marqueur intelligent.|
+| variable | str | Nom de variable créé à l'aide d'un marqueur intelligent.|
 | data | any | Données source.|
 
 

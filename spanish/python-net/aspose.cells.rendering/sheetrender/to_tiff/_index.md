@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | el flujo de la imagen de salida|
 
@@ -34,11 +34,11 @@ def to_tiff(self, filename):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | filename | str | el nombre de archivo de la imagen de salida|
 
-###  Ejemplo
+###  Ejemplos
 
 El siguiente código genera todas las páginas de la primera hoja en una imagen Tiff.
 

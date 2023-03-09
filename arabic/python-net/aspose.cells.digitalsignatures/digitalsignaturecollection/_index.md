@@ -17,19 +17,19 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [DigitalSignatureCollection()](/cells/ar/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) | مُنشئ DigitalSignatureCollection.|
+| [DigitalSignatureCollection()](/cells/ar/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) |مُنشئ DigitalSignatureCollection.|
 
 
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [add(digital_signature)](/cells/ar/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) |أضف توقيعًا واحدًا إلى DigitalSignatureCollection.|
+| [add(digital_signature)](/cells/ar/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | أضف توقيعًا واحدًا إلى مجموعة التوقيع الرقمي.|
 
 
 
-###  مثال
+###  أمثلة
 
-يوضح المثال التالي كيفية التحقق من صحة التوقيع الرقمي.
+يوضح المثال التالي كيفية التحقق من صحة التوقيعات الرقمية.
 
 ```python
 from aspose.cells import Workbook

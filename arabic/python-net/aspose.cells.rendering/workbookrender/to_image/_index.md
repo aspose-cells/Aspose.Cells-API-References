@@ -18,7 +18,7 @@ def to_image(self, stream):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الصورة الناتجة|
 
@@ -34,13 +34,13 @@ def to_image(self, filename):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | filename | str | اسم ملف الصورة الناتجة|
 
 
 ##  to_image(page_index, file_name) {#int-str}
-تقديم صفحة معينة إلى ملف.
+تقديم صفحات معينة إلى ملف.
 
 
 
@@ -50,14 +50,14 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | page_index | int | الإشارة إلى الصفحة المراد تحويلها|
 | file_name | str | اسم ملف الصورة الناتجة|
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-تقديم صفحة معينة إلى دفق.
+تقديم صفحات معينة إلى دفق.
 
 
 
@@ -67,7 +67,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | page_index | int | الإشارة إلى الصفحة المراد تحويلها|
 | stream | io.RawIOBase | تيار الصورة الناتجة|

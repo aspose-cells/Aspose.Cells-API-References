@@ -19,7 +19,7 @@ Der Typ PrintErrorsType macht die folgenden Member verfügbar:
 | :- | :- |
 | PRINT_ERRORS_BLANK | Stellt dar, Fehler nicht zu drucken.|
 | PRINT_ERRORS_DASH | Stellt Druckfehler als "--" dar.|
-| PRINT_ERRORS_DISPLAYED |Stellt dar, dass Fehler wie angezeigt gedruckt werden.|
+| PRINT_ERRORS_DISPLAYED | Stellt dar, dass Fehler wie angezeigt gedruckt werden.|
 | PRINT_ERRORS_NA | Stellt das Drucken von Fehlern als „#N/A“ dar.|
 
 

@@ -18,7 +18,7 @@ def set_outline_border(self, border_edge, border_style, border_color):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/sv/python-net/aspose.cells/bordertype) | Kantkant.|
 | border_style | [CellBorderType](/cells/sv/python-net/aspose.cells/cellbordertype) | Border stil.|
@@ -36,7 +36,7 @@ def set_outline_border(self, border_edge, border_style, border_color):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/sv/python-net/aspose.cells/bordertype) | Kantkant.|
 | border_style | [CellBorderType](/cells/sv/python-net/aspose.cells/cellbordertype) | Border stil.|

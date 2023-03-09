@@ -11,7 +11,7 @@ is_root: false
 
 Indica si la segmentación de datos especificada se puede mover o cambiar de tamaño mediante la interfaz de usuario.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

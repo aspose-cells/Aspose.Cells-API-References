@@ -1,5 +1,5 @@
 ﻿---
-title: DigitalSignatureCollection sınıf
+title: DigitalSignatureCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/
 is_root: false
 ---
-##  DigitalSignatureCollection sınıf
+##  DigitalSignatureCollection sınıfı
 Bir belgeye iliştirilmiş bir dijital imza koleksiyonu sağlar.
 
 
@@ -17,19 +17,19 @@ DigitalSignatureCollection türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [DigitalSignatureCollection()](/cells/tr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) | DigitalSignatureCollection'ın kurucusu.|
+| [DigitalSignatureCollection()](/cells/tr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) |DigitalSignatureCollection'ın kurucusu.|
 
 
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [add(digital_signature)](/cells/tr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) |DigitalSignatureCollection'a bir imza ekleyin.|
+| [add(digital_signature)](/cells/tr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Dijital İmza Koleksiyonuna bir imza ekleyin.|
 
 
 
-###  Örnek
+###  örnekler
 
-Aşağıdaki örnek, dijital imzanın nasıl doğrulanacağını gösterir.
+Aşağıdaki örnek, dijital imzaların nasıl doğrulanacağını gösterir.
 
 ```python
 from aspose.cells import Workbook

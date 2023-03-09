@@ -22,12 +22,12 @@ def get_input_range(self, is_r1c1, is_local):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | is_r1c1 | bool | Si la fórmula debe formatearse como R1C1.|
 | is_local | bool | Si la fórmula debe formatearse según la configuración regional.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

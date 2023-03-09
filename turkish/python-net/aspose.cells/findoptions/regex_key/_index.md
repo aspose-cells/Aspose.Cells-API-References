@@ -10,7 +10,7 @@ is_root: false
 ##  regex_key mülk
 
 Aranan anahtarın normal ifade olup olmadığını gösterir.
-True ise, aranan anahtar normal ifade olarak alınır ve ayrıştırılır. Aksi takdirde, anahtar ms excel'deki kurallara göre ayrıştırılacaktır.
+True ise, aranan anahtar normal ifade olarak alınır ve ayrıştırılır.
 ###  Tanım:
 ```python
 @property

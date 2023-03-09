@@ -1,5 +1,5 @@
 ﻿---
-title: LineFormat sınıf
+title: LineFormat sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 300
 url: /tr/python-net/aspose.cells.drawing/lineformat/
 is_root: false
 ---
-##  LineFormat sınıf
+##  LineFormat sınıfı
 Hattın tüm ayarlarını temsil eder.
 
 
@@ -22,7 +22,7 @@ LineFormat türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [type](/cells/tr/python-net/aspose.cells.drawing/lineformat/type) | Doldurma türünü alır ve ayarlar.|
+| [type](/cells/tr/python-net/aspose.cells.drawing/lineformat/type) |Doldurma türünü alır ve ayarlar.|
 | [fill_type](/cells/tr/python-net/aspose.cells.drawing/lineformat/fill_type) | Doldurma türünü alır ve ayarlar|
 | [transparency](/cells/tr/python-net/aspose.cells.drawing/lineformat/transparency) | Alanın şeffaflık derecesini 0,0 (opak) ila 1,0 (temiz) arasında bir değer olarak döndürür veya ayarlar.|
 | [set_type](/cells/tr/python-net/aspose.cells.drawing/lineformat/set_type) | Dolgu formatı set tipini alır.|
@@ -50,7 +50,7 @@ LineFormat türü aşağıdaki üyeleri gösterir:
 | [begin_arrowhead_width](/cells/tr/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_width) | Satırın başlangıç oku genişlik türünü alır ve ayarlar.|
 | [begin_arrowhead_length](/cells/tr/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_length) | Satırın başlangıç ok uzunluğu türünü alır ve ayarlar.|
 | [end_arrowhead_style](/cells/tr/python-net/aspose.cells.drawing/lineformat/end_arrowhead_style) | Satırın bitiş ok türünü alır ve ayarlar.|
-| [end_arrowhead_width](/cells/tr/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) | Satırın bitiş oku genişlik türünü alır ve ayarlar.|
+| [end_arrowhead_width](/cells/tr/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) |Satırın bitiş oku genişlik türünü alır ve ayarlar.|
 | [end_arrowhead_length](/cells/tr/python-net/aspose.cells.drawing/lineformat/end_arrowhead_length) | Satırın bitiş ok uzunluğu türünü alır ve ayarlar.|
 | [weight](/cells/tr/python-net/aspose.cells.drawing/lineformat/weight) | Nokta birimi cinsinden çizginin ağırlığını alır veya ayarlar.|
 
@@ -65,7 +65,7 @@ LineFormat türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

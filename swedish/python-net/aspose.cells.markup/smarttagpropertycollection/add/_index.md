@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på fastigheten|
 | value | str | Fastighetens värde.|

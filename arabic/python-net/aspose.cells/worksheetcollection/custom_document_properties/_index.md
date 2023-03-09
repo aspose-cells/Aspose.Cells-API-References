@@ -11,7 +11,7 @@ is_root: false
 
 تقوم بارجاع مجموعة [DocumentProperty](/cells/ar/python-net/aspose.cells.properties/documentproperty) التي تمثل كل خصائص الوثيقة المهيأة للجدول الحسابي.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

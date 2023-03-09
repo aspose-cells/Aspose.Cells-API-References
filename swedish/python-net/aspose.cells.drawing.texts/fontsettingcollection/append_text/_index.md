@@ -18,7 +18,7 @@ def append_text(self, text):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | text | str | Texten.|
 

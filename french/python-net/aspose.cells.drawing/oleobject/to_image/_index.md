@@ -18,7 +18,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux de sortie.|
 | image_type | [ImageType](/cells/fr/python-net/aspose.cells.drawing/imagetype) | Le type dans lequel enregistrer l'image.|
@@ -26,7 +26,7 @@ def to_image(self, stream, image_type):
 
 Les formats suivants sont pris en charge :
 .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import ImageType
@@ -49,12 +49,12 @@ def to_image(self, image_file, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | image_file | str |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions
@@ -76,12 +76,12 @@ def to_image(self, stream, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions

@@ -18,7 +18,7 @@ def un_merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | first_row | int | الصف الأول من هذا النطاق (قائم على الصفر)|
 | first_column | int | العمود الأول من هذا النطاق (على أساس الصفر)|

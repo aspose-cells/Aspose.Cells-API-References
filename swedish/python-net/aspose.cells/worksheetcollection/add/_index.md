@@ -39,7 +39,7 @@ def add(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [SheetType](/cells/sv/python-net/aspose.cells/sheettype) | Typ av arbetsblad.|
 
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet_name | str | Arbetsbladsnamn|
 

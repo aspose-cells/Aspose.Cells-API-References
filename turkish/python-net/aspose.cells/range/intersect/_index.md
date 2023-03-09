@@ -22,13 +22,13 @@ def intersect(self, range):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | kesişen aralık.|
 ###  Notlar
 
 İki aralık kesişmezse, null değerini döndürür.
-###  Örnek
+###  örnekler
 
 
 ```python

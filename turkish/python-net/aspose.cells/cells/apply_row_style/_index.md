@@ -18,11 +18,11 @@ def apply_row_style(self, row, style, flag):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Uygulanacak stil nesnesi.|
-| flag | [StyleFlag](/cells/tr/python-net/aspose.cells/styleflag) | Uygulanan biçimlendirme özelliklerini gösteren bayraklar.|
+| flag | [StyleFlag](/cells/tr/python-net/aspose.cells/styleflag) |Uygulanan biçimlendirme özelliklerini gösteren bayraklar.|
 
 
 

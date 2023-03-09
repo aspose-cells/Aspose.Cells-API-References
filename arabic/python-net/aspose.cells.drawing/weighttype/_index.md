@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | HAIR_LINE | يمثل وزن خط الشعر.|
 | MEDIUM_LINE | يمثل وزن الخط المتوسط.|
-| SINGLE_LINE | يمثل وزن الخط الفردي.|
+| SINGLE_LINE | يمثل وزن سطر واحد.|
 | WIDE_LINE | يمثل وزن الخط العريض.|
 
 

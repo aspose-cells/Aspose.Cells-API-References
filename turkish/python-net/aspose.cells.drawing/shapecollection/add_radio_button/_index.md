@@ -22,16 +22,16 @@ def add_radio_button(self, upper_left_row, top, upper_left_column, left, height,
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | RadioButton öğesinin sol satırından piksel birimi cinsinden dikey uzaklığını temsil eder.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| upper_left_column | int | Sol üst sütun dizini.|
 | left | int | RadioButton öğesinin sol sütunundan piksel birimi cinsinden yatay uzaklığını temsil eder.|
-| height | int |Piksel birimi cinsinden RadioButton yüksekliğini temsil eder.|
+| height | int | Piksel birimi cinsinden RadioButton yüksekliğini temsil eder.|
 | width | int | Piksel birimi cinsinden RadioButton genişliğini temsil eder.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/txtloadoptions/set_paper_size/
 is_root: false
 ---
 ##  set_paper_size(type) {#PaperSizeType}
-Imposta il formato carta di stampa predefinito dall'impostazione predefinita della stampante.
+Imposta il formato carta di stampa predefinito dall'impostazione della stampante predefinita.
 
 
 
@@ -18,7 +18,7 @@ def set_paper_size(self, type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [PaperSizeType](/cells/it/python-net/aspose.cells/papersizetype) | Il formato carta predefinito.|
 ###  Osservazioni

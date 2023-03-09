@@ -35,9 +35,9 @@ Der Typ XmlSaveOptions macht die folgenden Member verfügbar:
 | [merge_areas](/cells/de/python-net/aspose.cells/xmlsaveoptions/merge_areas) | Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden sollen.|
 | [create_directory](/cells/de/python-net/aspose.cells/xmlsaveoptions/create_directory) | Wenn wahr und das Verzeichnis nicht existiert, wird das Verzeichnis automatisch erstellt, bevor die Datei gespeichert wird.|
 | [sort_names](/cells/de/python-net/aspose.cells/xmlsaveoptions/sort_names) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.|
-| [sort_external_names](/cells/de/python-net/aspose.cells/xmlsaveoptions/sort_external_names) | Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
-| [refresh_chart_cache](/cells/de/python-net/aspose.cells/xmlsaveoptions/refresh_chart_cache) |Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
-| [warning_callback](/cells/de/python-net/aspose.cells/xmlsaveoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
+| [sort_external_names](/cells/de/python-net/aspose.cells/xmlsaveoptions/sort_external_names) |Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
+| [refresh_chart_cache](/cells/de/python-net/aspose.cells/xmlsaveoptions/refresh_chart_cache) | Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
+| [warning_callback](/cells/de/python-net/aspose.cells/xmlsaveoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
 | [update_smart_art](/cells/de/python-net/aspose.cells/xmlsaveoptions/update_smart_art) | Gibt an, ob die SmartArt-Einstellung aktualisiert wird.<br/> Der Standardwert ist falsch.|
 | [sheet_indexes](/cells/de/python-net/aspose.cells/xmlsaveoptions/sheet_indexes) | Stellt die Indizes der exportierten Blätter dar.|
 | [export_area](/cells/de/python-net/aspose.cells/xmlsaveoptions/export_area) | Ruft den Exportbereich ab oder legt ihn fest.|

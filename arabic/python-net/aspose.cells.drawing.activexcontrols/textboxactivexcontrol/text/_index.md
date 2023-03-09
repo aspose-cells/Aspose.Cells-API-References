@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text الملكية
 
-يحصل ويضبط text من السيطرة.
+يحصل على ويسدد text من عنصر التحكم.
 ###  تعريف:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Indica se mostrare la data firmata.
 
-###  Esempio
+###  Esempi
 
 ```python
 

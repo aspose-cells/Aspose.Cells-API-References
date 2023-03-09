@@ -18,8 +18,8 @@ Typen Timeline avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [caption](/cells/sv/python-net/aspose.cells.timelines/timeline/caption) |Returnerar eller ställer in bildtexten för den angivna tidslinjen.|
-| [name](/cells/sv/python-net/aspose.cells.timelines/timeline/name) | Returnerar eller ställer in namnet på den angivna tidslinjen|
+| [caption](/cells/sv/python-net/aspose.cells.timelines/timeline/caption) | Returnerar eller ställer in bildtexten för den angivna tidslinjen.|
+| [name](/cells/sv/python-net/aspose.cells.timelines/timeline/name) |Returnerar eller ställer in namnet på den angivna tidslinjen|
 | [left_pixel](/cells/sv/python-net/aspose.cells.timelines/timeline/left_pixel) | Returnerar eller ställer in den horisontella förskjutningen av tidslinjeformen från dess vänstra kolumn, i pixlar.|
 | [top_pixel](/cells/sv/python-net/aspose.cells.timelines/timeline/top_pixel) | Returnerar eller ställer in den vertikala förskjutningen av tidslinjeformen från dess översta rad, i pixlar.|
 | [width_pixel](/cells/sv/python-net/aspose.cells.timelines/timeline/width_pixel) | Returnerar eller ställer in bredden på den angivna tidslinjen, i pixlar.|

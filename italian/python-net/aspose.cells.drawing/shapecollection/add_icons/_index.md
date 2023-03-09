@@ -22,18 +22,18 @@ def add_icons(self, upper_left_row, top, upper_left_column, left, height, width,
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
 | top | int | Rappresenta l'offset verticale della forma dalla riga sinistra, in unità di pixel.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | left | int | L'offset orizzontale della forma dalla sua colonna di sinistra, in unità di pixel.|
 | height | int | L'altezza della forma, in unità di pixel.|
 | width | int | La larghezza della forma, in unità di pixel.|
 | image_byte_data | bytes | I byte di dati dell'immagine.|
-| compatible_image_data | bytes | Dati di immagine convertiti da svg per essere compatibili con Excel 2016 o versioni precedenti.|
+| compatible_image_data | bytes |Dati di immagine convertiti da svg per essere compatibili con Excel 2016 o versioni precedenti.|
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose import pycore

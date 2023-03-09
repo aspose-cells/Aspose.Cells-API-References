@@ -17,8 +17,8 @@ El tipo MemorySetting expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| NORMAL | Opción por defecto para el modelo de celdas.|
-| MEMORY_PREFERENCE | Preferiblemente el rendimiento de la memoria.<br/>Con esta opción, los datos se mantendrán en formato compacto, por lo que para escenarios comunes puede generar un menor costo de memoria.<br/> Sin embargo, esta opción también puede degradar un poco el rendimiento de lectura y escritura en algunos casos especiales.|
+| NORMAL | Opción predeterminada para el modelo de celda.|
+| MEMORY_PREFERENCE | Se prefiere el rendimiento de la memoria.<br/>Con esta opción, los datos se mantendrán en formato compacto, por lo que para escenarios comunes puede generar un menor costo de memoria.<br/> Sin embargo, esta opción también puede degradar un poco el rendimiento de lectura y escritura en algunos casos especiales.|
 
 
 

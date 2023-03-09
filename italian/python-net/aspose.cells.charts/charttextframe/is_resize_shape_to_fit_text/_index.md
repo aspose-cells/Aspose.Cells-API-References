@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_resize_shape_to_fit_text proprietà
 
-Ottiene o imposta se una forma deve essere adattata automaticamente per contenere completamente il testo descritto al suo interno. L'adattamento automatico è
+Ottiene o imposta se una forma deve essere adattata automaticamente per contenere completamente il testo descritto al suo interno.
 quando il testo all'interno di una forma viene ridimensionato per contenere tutto il testo all'interno.
 ###  Definizione:
 ```python

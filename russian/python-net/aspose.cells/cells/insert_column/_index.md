@@ -18,7 +18,7 @@ def insert_column(self, column_index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | Индекс столбца.|
 
@@ -34,10 +34,10 @@ def insert_column(self, column_index, update_reference):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | Индекс столбца.|
-| update_reference | bool | Указывает, будут ли обновлены ссылки на других рабочих листах.|
+| update_reference | bool |Указывает, будут ли обновлены ссылки на других рабочих листах.|
 
 
 

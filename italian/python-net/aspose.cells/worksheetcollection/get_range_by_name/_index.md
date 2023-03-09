@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range_name | str | Nome dell'intervallo.|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range_name | str | Nome dell'intervallo o nome della tabella.|
-| current_sheet_index | int | L'indice del foglio. -1 rappresenta globale .|
+| current_sheet_index | int | L'indice del foglio -1 rappresenta globale.|
 | include_table | bool | Indica se controllare tutte le tabelle.|
 
 

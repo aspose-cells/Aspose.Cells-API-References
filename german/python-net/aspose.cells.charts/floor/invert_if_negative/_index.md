@@ -12,7 +12,7 @@ is_root: false
 Wenn die Eigenschaft wahr ist und der Wert des Diagrammpunkts eine negative Zahl ist,
 Vorder- und Hintergrundfarbe werden vertauscht.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

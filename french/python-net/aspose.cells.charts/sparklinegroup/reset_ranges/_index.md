@@ -19,7 +19,7 @@ def reset_ranges(self, data_range, is_vertical, location_range):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | data_range | str | Spécifie la nouvelle plage de données du groupe sparkline.|
 | is_vertical | bool | Spécifie s'il faut tracer les graphiques sparkline de la nouvelle plage de données par ligne ou par colonne.|

@@ -17,9 +17,9 @@ Typen CopyFormatType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| SAME_AS_ABOVE | Format samma som ovanstående rad.|
+| SAME_AS_ABOVE |Format samma som ovanstående rad.|
 | SAME_AS_BELOW | Format samma som under raden.|
-| CLEAR | Rensar formatering.|
+| CLEAR | Rensa formatering.|
 
 
 

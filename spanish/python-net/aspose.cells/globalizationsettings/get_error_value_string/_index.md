@@ -22,9 +22,9 @@ def get_error_value_string(self, err):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| err | str | valores de error como #¡VALOR!,#NOMBRE?|
+| err | str | valores de error como #VALOR!,#NOMBRE?|
 
 
 

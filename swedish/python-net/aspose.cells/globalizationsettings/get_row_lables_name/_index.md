@@ -25,9 +25,9 @@ def get_row_lables_name(self):
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
 använd metoden GlobalizationSettings.GetRowLabelsOfPivotTable().
-Den här egenskapen kommer att tas bort 12 månader senare sedan september 2020.
+ Den här egenskapen kommer att tas bort 12 månader senare sedan september 2020.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 
 

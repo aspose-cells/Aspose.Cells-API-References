@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing.activexcontrols/controltype/
 is_root: false
 ---
 ##  العد ControlType
-يمثل كل أنواع عناصر تحكم ActiveX.
+يمثل جميع أنواع عناصر تحكم ActiveX.
 
 
 
@@ -23,11 +23,11 @@ is_root: false
 | LIST_BOX | ListBox|
 | TEXT_BOX | مربع الكتابة|
 | SPIN_BUTTON | سبينر|
-| RADIO_BUTTON | زر الراديو|
+| RADIO_BUTTON | أزرار الراديو|
 | LABEL | ملصق|
 | IMAGE | صورة|
 | TOGGLE_BUTTON | ToggleButton|
-| SCROLL_BAR |شريط التمرير|
+| SCROLL_BAR | شريط التمرير|
 | UNKNOWN | مجهول|
 
 

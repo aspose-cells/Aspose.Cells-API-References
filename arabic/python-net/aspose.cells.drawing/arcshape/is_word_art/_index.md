@@ -15,7 +15,7 @@ is_root: false
 
 فقط من أجل Legacy Shape لملف xls.
 
-###  مثال
+###  أمثلة
 
 ```python
 

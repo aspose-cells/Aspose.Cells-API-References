@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/pdfsaveoptions/__init__/
 is_root: false
 ---
 ##  PdfSaveOptions() {#}
-Pdf dosyasını kaydetme seçeneklerini oluşturur.
+Pdf dosyalarını kaydetme seçeneklerini oluşturur.
 
 
 

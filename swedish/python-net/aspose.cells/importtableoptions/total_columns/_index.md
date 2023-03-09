@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_columns fastighet
 
-Hämtar eller ställer in totalt kolumnantal för import från datakällan. -1 betyder alla rader av given datakälla.
+-1 betyder alla rader av given datakälla.
 ###  Definition:
 ```python
 @property

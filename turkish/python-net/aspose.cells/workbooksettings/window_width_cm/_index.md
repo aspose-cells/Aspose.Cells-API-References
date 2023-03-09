@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_cm mülk
 
-Pencerenin santimetre birimi cinsinden genişliği.
+Pencerenin santimetre cinsinden genişliği.
 ###  Tanım:
 ```python
 @property

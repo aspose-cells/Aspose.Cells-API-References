@@ -1,5 +1,5 @@
 ﻿---
-title: TableStyle sınıf
+title: TableStyle sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 50
 url: /tr/python-net/aspose.cells.tables/tablestyle/
 is_root: false
 ---
-##  TableStyle sınıf
+##  TableStyle sınıfı
 Tablo stilini temsil eder.
 
 
@@ -17,12 +17,12 @@ TableStyle türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [name](/cells/tr/python-net/aspose.cells.tables/tablestyle/name) |Tablo stilinin adını alır.|
+| [name](/cells/tr/python-net/aspose.cells.tables/tablestyle/name) | Tablo stilinin adını alır.|
 | [table_style_elements](/cells/tr/python-net/aspose.cells.tables/tablestyle/table_style_elements) | Tablo stilinin tüm öğelerini alır.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import BackgroundType, CellsHelper, Workbook

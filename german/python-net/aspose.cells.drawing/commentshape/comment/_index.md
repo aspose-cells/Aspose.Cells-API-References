@@ -11,7 +11,7 @@ is_root: false
 
 Ruft das comment-Objekt ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_resize_shape_to_fit_text propiedad
 
-Obtiene o establece si una forma debe ajustarse automáticamente para contener completamente el texto descrito en ella. El ajuste automático es
+Obtiene o establece si una forma debe ajustarse automáticamente para contener completamente el texto descrito en ella.
 cuando el texto dentro de una forma se escala para contener todo el texto dentro.
 ###  Definición:
 ```python

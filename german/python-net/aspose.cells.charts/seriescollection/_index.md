@@ -29,12 +29,12 @@ Der Typ SeriesCollection macht die folgenden Member verfügbar:
 | [add(area, is_vertical)](/cells/de/python-net/aspose.cells.charts/seriescollection/add/#str-bool) | Fügt die Sammlung [SeriesCollection](/cells/de/python-net/aspose.cells.charts/seriescollection) einem Diagramm hinzu.|
 | [add(area, is_vertical, check_labels)](/cells/de/python-net/aspose.cells.charts/seriescollection/add/#str-bool-bool) | Fügt die Sammlung [SeriesCollection](/cells/de/python-net/aspose.cells.charts/seriescollection) einem Diagramm hinzu.|
 | [copy_to(array)](/cells/de/python-net/aspose.cells.charts/seriescollection/copy_to/#list) | Kopiert die gesamte Array-Liste in eine kompatible eindimensionale Array-Liste, beginnend am Anfang der Ziel-Array-Liste.|
-| [copy_to(index, array, array_index, count)](/cells/de/python-net/aspose.cells.charts/seriescollection/copy_to/#int-list-int-int) | Kopiert eine Reihe von Elementen aus der Array-Liste in eine kompatible eindimensionale Array-Liste, beginnend am angegebenen Index der Ziel-Array-Liste.|
+| [copy_to(index, array, array_index, count)](/cells/de/python-net/aspose.cells.charts/seriescollection/copy_to/#int-list-int-int) |Kopiert eine Reihe von Elementen aus der Array-Liste in eine kompatible eindimensionale Array-Liste, beginnend am angegebenen Index der Ziel-Array-Liste.|
 | [index_of(item, index)](/cells/de/python-net/aspose.cells.charts/seriescollection/index_of/#Series-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des ersten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der sich vom angegebenen Index bis zum letzten Element erstreckt.|
 | [index_of(item, index, count)](/cells/de/python-net/aspose.cells.charts/seriescollection/index_of/#Series-int-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des ersten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der am angegebenen Index beginnt und die angegebene Anzahl von Elementen enthält.|
 | [last_index_of(item)](/cells/de/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens in der gesamten Array-Liste zurück.|
-| [last_index_of(item, index)](/cells/de/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series-int) |Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der sich vom ersten Element bis zum angegebenen Index erstreckt.|
-| [last_index_of(item, index, count)](/cells/de/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series-int-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der die angegebene Anzahl von Elementen enthält und am angegebenen Index endet.|
+| [last_index_of(item, index)](/cells/de/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der sich vom ersten Element bis zum angegebenen Index erstreckt.|
+| [last_index_of(item, index, count)](/cells/de/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series-int-int) |Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der die angegebene Anzahl von Elementen enthält und am angegebenen Index endet.|
 | [get_series_by_order(order)](/cells/de/python-net/aspose.cells.charts/seriescollection/get_series_by_order/#int) | Ruft das [Series](/cells/de/python-net/aspose.cells.charts/series)-Element auf Bestellung ab.|
 | [change_series_order(source_index, dest_index)](/cells/de/python-net/aspose.cells.charts/seriescollection/change_series_order/#int-int) | Ändert direkt die Reihenfolge der beiden Serien.|
 | [set_series_names(start_index, area, is_vertical)](/cells/de/python-net/aspose.cells.charts/seriescollection/set_series_names/#int-str-bool) | Legt den Namen aller Serien im Diagramm fest.|
@@ -43,7 +43,7 @@ Der Typ SeriesCollection macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

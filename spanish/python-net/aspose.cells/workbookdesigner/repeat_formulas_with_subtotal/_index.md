@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal propiedad
 
-Indica si se repiten fórmulas con fila de subtotal.
+Indica si se repiten fórmulas con filas de subtotales.
 ###  Definición:
 ```python
 @property

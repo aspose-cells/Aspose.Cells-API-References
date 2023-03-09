@@ -21,11 +21,11 @@ is_root: false
 | DEFINED_NAME | اسم محدد.|
 | CHANGE_CELLS | Cells التغيير.|
 | AUTO_FORMAT | شكل السيارات.|
-| MERGE_CONFLICT |دمج الصراع.|
+| MERGE_CONFLICT | دمج الصراع.|
 | COMMENT | تعليق.|
 | FORMAT | شكل.|
 | INSERT_SHEET | أدخل ورقة العمل.|
-| MOVE_CELLS | حرك الخلايا.|
+| MOVE_CELLS |حرك الخلايا.|
 | UNDO | الغاء التحميل.|
 | QUERY_TABLE | جدول الاستعلام.|
 | INSERT_DELETE | الإدراج أو الحذف.|

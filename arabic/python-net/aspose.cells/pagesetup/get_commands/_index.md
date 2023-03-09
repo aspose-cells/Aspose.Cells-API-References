@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/pagesetup/get_commands/
 is_root: false
 ---
 ##  get_commands(header_footer_script) {#str}
-يحصل على جميع أوامر الرأس أو التذييل.
+يحصل على كافة أوامر الرأس أو التذييل.
 
 
 ###  عائدات
@@ -22,7 +22,7 @@ def get_commands(self, header_footer_script):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | header_footer_script | str | نص الرأس / التذييل|
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_width_pixel fastighet
 
-Hämtar eller ställer in bredden i pixelenhet för varje kolumn i utsnittet.
+Hämtar eller ställer in bredden i enheter av pixlar för varje kolumn i utsnittet.
 
 ###  Exempel
 

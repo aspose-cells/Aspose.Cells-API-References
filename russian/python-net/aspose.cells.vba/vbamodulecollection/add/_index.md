@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-Добавляет модуль для рабочего листа.
+Добавляет модули для рабочего листа.
 
 
 ###  Возвращает
@@ -22,7 +22,7 @@ def add(self, sheet):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) | Рабочий лист|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [VbaModuleType](/cells/ru/python-net/aspose.cells.vba/vbamoduletype) | Тип модуля.|
 | name | str | Имя модуля.|

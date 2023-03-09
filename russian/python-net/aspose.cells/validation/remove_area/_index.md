@@ -18,7 +18,7 @@ def remove_area(self, cell_area):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | области, где эти настройки проверки должны быть удалены.|
 

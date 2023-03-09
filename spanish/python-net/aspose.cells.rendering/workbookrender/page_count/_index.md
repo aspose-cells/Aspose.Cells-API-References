@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count propiedad
 
-Obtiene el recuento total de páginas del libro.
+Obtiene el número total de páginas de los libros de trabajo.
 ###  Definición:
 ```python
 @property

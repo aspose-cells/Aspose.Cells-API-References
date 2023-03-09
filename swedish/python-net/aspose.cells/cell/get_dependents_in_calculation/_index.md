@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, recursive):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | recursive | bool | Om returnerar de beroende som inte refererar till den här cellen direkt<br/> men hänvisning till andra blad i denna cell|
 ###  Anmärkningar

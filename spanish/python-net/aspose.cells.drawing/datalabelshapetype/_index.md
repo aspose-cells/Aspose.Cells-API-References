@@ -29,9 +29,9 @@ El tipo DataLabelShapeType expone los siguientes miembros:
 | WEDGE_ELLIPSE_CALLOUT | Representa la forma de llamada de elipse de cuña.|
 | LINE_CALLOUT | Representa la forma de llamada de línea.|
 | BENT_LINE_CALLOUT | Representa la forma de llamada de línea doblada.|
-| LINE_WITH_ACCENT_BAR_CALLOUT | Representa la línea con forma de llamada de barra decorativa.|
+| LINE_WITH_ACCENT_BAR_CALLOUT |Representa la línea con forma de llamada de barra decorativa.|
 | BENT_LINE_WITH_ACCENT_BAR_CALLOUT | Representa la línea doblada con forma de llamada de barra decorativa.|
-| LINE |Este tipo solo se usa para el procesamiento de archivos especiales.|
+| LINE | Este tipo solo se usa para el procesamiento de archivos especiales.|
 
 
 

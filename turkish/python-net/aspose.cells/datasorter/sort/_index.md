@@ -41,7 +41,7 @@ def sort(self, cells, area):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Hücreler veri alanını içerir.|
 | area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Sıralama için gerekli alan|
@@ -63,7 +63,7 @@ def sort(self, cells, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Hücreler veri alanını içerir.|
 | start_row | int | Alanın başlangıç satırı.|

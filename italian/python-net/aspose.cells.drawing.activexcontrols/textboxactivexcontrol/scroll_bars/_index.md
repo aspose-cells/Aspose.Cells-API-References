@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scroll_bars proprietà
 
-Indica specifica se il controllo dispone di barre di scorrimento verticali, barre di scorrimento orizzontali, entrambe o nessuna delle due.
+Indica se il controllo dispone di barre di scorrimento verticali, barre di scorrimento orizzontali, entrambe o nessuna.
 ###  Definizione:
 ```python
 @property

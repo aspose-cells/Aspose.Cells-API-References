@@ -22,7 +22,7 @@ def equals(self, row):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | [Row](/cells/es/python-net/aspose.cells/row) | otro objeto de fila|
 

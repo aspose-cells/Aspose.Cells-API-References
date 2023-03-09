@@ -1,6 +1,6 @@
 ﻿---
 title: check_mixed_value_type 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -11,7 +11,7 @@ is_root: false
 
 False，Aspose.Cells 将根据第一行的值类型设置 DataColumn 的类型以提高性能。
  True, Aspose.Cells 会在设置DataColumn的类型前检查列中的值类型是否混合
-和值类型混合，DataColumn 的类型将是字符串。
+并且值类型是混合的，DataColumn 的类型将是字符串。
 ### 定义：
 ```python
 @property

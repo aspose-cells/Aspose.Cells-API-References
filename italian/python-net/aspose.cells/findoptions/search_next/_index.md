@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  search_next proprietà
 
-Ordine di ricerca. Vero: cerca dopo. Falso: ricerca precedente.
+Ordine di ricerca True: ricerca successiva False: ricerca precedente
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
  utilizzare la proprietà FindOptions.SearchBackward.
  Questa proprietà verrà rimossa 12 mesi dopo da novembre 2018.
 Aspose si scusa per gli eventuali disagi causati.

@@ -13,7 +13,7 @@ Ruft die name der Zelle ab.
 
 ###  Bemerkungen
 
-Eine Zelle name enthält ihren Spaltenbuchstaben und ihre Zeilennummer. Beispielsweise ist die name einer Zelle in Zeile 0 und Spalte 0 A1.
+Eine Zelle name enthält den Spaltenbuchstaben und die Zeilennummer.Zum Beispiel ist die name einer Zelle in Zeile 0 und Spalte 0 A1.
 ###  Definition:
 ```python
 @property

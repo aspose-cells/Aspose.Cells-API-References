@@ -18,7 +18,7 @@ def calculate(self, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/ar/python-net/aspose.cells/calculationoptions) | خيارات الحساب|
 
@@ -34,13 +34,13 @@ def calculate(self, ignore_error, custom_function):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| ignore_error | bool | يشير إلى إخفاء الخطأ في حساب الصيغ.<br/> قد يكون الخطأ وظيفة غير مدعومة ، أو روابط خارجية ، إلخ.|
+| ignore_error | bool | يشير إلى إخفاء الخطأ في حساب الصيغ.<br/> قد يكون الخطأ وظائف غير مدعومة أو روابط خارجية ، إلخ.|
 | custom_function | [ICustomFunction](/cells/ar/python-net/aspose.cells/icustomfunction) | وظائف حساب الصيغة المخصصة لتوسيع محرك الحساب.|
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
 الرجاء استخدام طريقة الحساب (CalculationOptions).
  ستتم إزالة هذه الطريقة بعد 12 شهرًا منذ أغسطس 2020.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

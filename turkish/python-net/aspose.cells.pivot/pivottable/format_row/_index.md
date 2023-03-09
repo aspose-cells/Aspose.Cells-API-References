@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Row nesnesinin Satır Dizini|
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Biçimlendirilecek stil|

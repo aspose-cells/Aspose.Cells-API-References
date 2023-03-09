@@ -27,7 +27,7 @@ is_root: false
 | [show_mean_line](/cells/ar/python-net/aspose.cells.charts/serieslayoutproperties/show_mean_line) | يشير إلى ما إذا كان يظهر الخط الذي يربط بين جميع النقاط المتوسطة.|
 | [show_outlier_points](/cells/ar/python-net/aspose.cells.charts/serieslayoutproperties/show_outlier_points) | يشير إلى ما إذا كان يظهر نقاط البيانات الخارجية.|
 | [show_mean_marker](/cells/ar/python-net/aspose.cells.charts/serieslayoutproperties/show_mean_marker) | يشير إلى ما إذا كان يتم عرض علامات تدل على المتوسط.|
-| [show_inner_points](/cells/ar/python-net/aspose.cells.charts/serieslayoutproperties/show_inner_points) |يشير إلى ما إذا كان يظهر نقاط بيانات غير متقطعة.|
+| [show_inner_points](/cells/ar/python-net/aspose.cells.charts/serieslayoutproperties/show_inner_points) | يشير إلى ما إذا كان يظهر نقاط بيانات غير متقطعة.|
 | [subtotals](/cells/ar/python-net/aspose.cells.charts/serieslayoutproperties/subtotals) | يمثل فهرس نقطة بيانات المجموع الفرعي.|
 | [quartile_calculation](/cells/ar/python-net/aspose.cells.charts/serieslayoutproperties/quartile_calculation) | يمثل الخصائص الإحصائية للسلسلة.|
 | [map_label_layout](/cells/ar/python-net/aspose.cells.charts/serieslayoutproperties/map_label_layout) | الحصول على تخطيط تسميات الخريطة وتعيينه.|

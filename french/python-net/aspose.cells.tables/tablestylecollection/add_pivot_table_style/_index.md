@@ -22,9 +22,9 @@ def add_pivot_table_style(self, name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| name | str | Nom du style de tableau croisé dynamique.|
+| name | str |Nom du style de tableau croisé dynamique.|
 
 
 

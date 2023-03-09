@@ -10,9 +10,9 @@ is_root: false
 ##  page_scale الملكية
 
 يحصل على مقياس الصفحة المحسوب للورقة.
-إرجاع المقياس المحدد إذا تم تعيين [PageSetup.zoom](/cells/ar/python-net/aspose.cells/pagesetup#zoom). وإلا ، تُرجع المقياس المحسوب وفقًا لـ [PageSetup.fit_to_pages_wide](/cells/ar/python-net/aspose.cells/pagesetup#fit_to_pages_wide) و [PageSetup.fit_to_pages_tall](/cells/ar/python-net/aspose.cells/pagesetup#fit_to_pages_tall).
+إرجاع المقياس المحدد إذا تم تعيين [PageSetup.zoom](/cells/ar/python-net/aspose.cells/pagesetup#zoom).
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

@@ -1,13 +1,13 @@
 ﻿---
 title: Series类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 230
 url: /zh/python-net/aspose.cells.charts/series/
 is_root: false
 ---
-##  Series类
+## Series类
 封装表示图表中单个数据系列的对象。
 
 
@@ -19,7 +19,7 @@ Series 类型公开了以下成员：
 | :- | :- |
 | [layout_properties](/cells/zh/python-net/aspose.cells.charts/series/layout_properties) |表示布局的属性。|
 | [points](/cells/zh/python-net/aspose.cells.charts/series/points) |获取图表中一系列点的集合。|
-| [area](/cells/zh/python-net/aspose.cells.charts/series/area) |表示 Series 对象的背景区域。|
+| [area](/cells/zh/python-net/aspose.cells.charts/series/area) |代表Series对象的背景区域。|
 | [border](/cells/zh/python-net/aspose.cells.charts/series/border) |表示 Series 对象的边框。|
 | [name](/cells/zh/python-net/aspose.cells.charts/series/name) |获取或设置数据系列的名称。|
 | [display_name](/cells/zh/python-net/aspose.cells.charts/series/display_name) |获取显示在图表图形上的系列名称。|
@@ -27,7 +27,7 @@ Series 类型公开了以下成员：
 | [is_vertical_values](/cells/zh/python-net/aspose.cells.charts/series/is_vertical_values) |指示数据源是否垂直。|
 | [values](/cells/zh/python-net/aspose.cells.charts/series/values) |表示图表系列的数据。|
 | [values_format_code](/cells/zh/python-net/aspose.cells.charts/series/values_format_code) |表示 Values 的 NumberList 的格式代码。|
-| [x_values](/cells/zh/python-net/aspose.cells.charts/series/x_values) |表示图表系列的 x 值。|
+| [x_values](/cells/zh/python-net/aspose.cells.charts/series/x_values) |代表图表系列的x值。|
 | [bubble_sizes](/cells/zh/python-net/aspose.cells.charts/series/bubble_sizes) |获取或设置图表系列的气泡大小值。|
 | [trend_lines](/cells/zh/python-net/aspose.cells.charts/series/trend_lines) |返回一个对象，该对象表示该系列的所有趋势线的集合。|
 | [smooth](/cells/zh/python-net/aspose.cells.charts/series/smooth) |表示曲线平滑。<br/>如果为折线图或散点图打开曲线平滑，则为真。<br/>仅适用于由折线图连接的折线图和散点图。|
@@ -43,7 +43,7 @@ Series 类型公开了以下成员：
 | [y_error_bar](/cells/zh/python-net/aspose.cells.charts/series/y_error_bar) |表示系列的 Y 方向误差条。|
 | [has_hi_lo_lines](/cells/zh/python-net/aspose.cells.charts/series/has_hi_lo_lines) |如果折线图有高低线，则为真。<br/>仅适用于折线图。|
 | [hi_lo_lines](/cells/zh/python-net/aspose.cells.charts/series/hi_lo_lines) |返回一个 HiLoLines 对象，该对象表示折线图上一系列的高低线。<br/>仅适用于折线图。|
-| [has_series_lines](/cells/zh/python-net/aspose.cells.charts/series/has_series_lines) |如果堆积柱形图或条形图具有系列线或<br/>如果 Pie of Pie 图表或 Bar of Pie 图表在两个部分之间有连接线。<br/>仅适用于堆积柱形图、条形图、饼图或条形饼图。|
+| [has_series_lines](/cells/zh/python-net/aspose.cells.charts/series/has_series_lines) |如果堆积柱形图或条形图具有系列线或<br/>如果 Pie of Pie 图表或 Bar of Pie 图表在两个部分之间有连接线。<br/>仅适用于堆积柱形图、条形图、饼图饼图或饼图条形图。|
 | [series_lines](/cells/zh/python-net/aspose.cells.charts/series/series_lines) |返回一个 SeriesLines 对象，该对象表示堆积条形图或堆积柱形图的系列线。<br/>仅适用于堆积条形图和堆积柱形图。|
 | [has_drop_lines](/cells/zh/python-net/aspose.cells.charts/series/has_drop_lines) |如果图表有下降线，则为真。<br/>仅适用于折线图或面积图。|
 | [drop_lines](/cells/zh/python-net/aspose.cells.charts/series/drop_lines) |返回一个 [Line](/cells/zh/python-net/aspose.cells.drawing/line) 对象，该对象表示折线图或面积图上系列的下降线。<br/>仅适用于折线图或面积图。|
@@ -63,9 +63,9 @@ Series 类型公开了以下成员：
 | [show_negative_bubbles](/cells/zh/python-net/aspose.cells.charts/series/show_negative_bubbles) |如果图表组显示负气泡，则为真。仅对气泡图有效。|
 | [doughnut_hole_size](/cells/zh/python-net/aspose.cells.charts/series/doughnut_hole_size) |返回或设置圆环图组中孔的大小。<br/>孔大小表示为图表大小的百分比，介于 10% 和 90% 之间。|
 | [explosion](/cells/zh/python-net/aspose.cells.charts/series/explosion) |开放饼图切片与饼图中心的距离表示为饼图直径的百分比。|
-| [has_radar_axis_labels](/cells/zh/python-net/aspose.cells.charts/series/has_radar_axis_labels) |如果雷达图具有类别轴标签，则为真。仅适用于雷达图。|
+| [has_radar_axis_labels](/cells/zh/python-net/aspose.cells.charts/series/has_radar_axis_labels) |如果雷达图具有类别轴标签，则为真。|
 | [has_leader_lines](/cells/zh/python-net/aspose.cells.charts/series/has_leader_lines) |如果系列有引导线，则为真。|
-| [leader_lines](/cells/zh/python-net/aspose.cells.charts/series/leader_lines) |表示图表上的引导线。引导线将数据标签连接到数据点。<br/>该对象不是集合；没有代表单个引导线的对象。|
+| [leader_lines](/cells/zh/python-net/aspose.cells.charts/series/leader_lines) |表示图表上的引导线。引导线将数据标签连接到数据点。<br/>此对象不是集合；没有表示单个引导线的对象。|
 | [legend_entry](/cells/zh/python-net/aspose.cells.charts/series/legend_entry) |根据该系列获取图例条目。|
 | [shape_properties](/cells/zh/python-net/aspose.cells.charts/series/shape_properties) |获取包含 Series 的视觉形状属性的 [ShapePropertyCollection](/cells/zh/python-net/aspose.cells.drawing/shapepropertycollection) 对象。|
 

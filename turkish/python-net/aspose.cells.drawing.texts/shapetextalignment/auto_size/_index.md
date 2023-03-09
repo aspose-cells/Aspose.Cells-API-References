@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin boyutunun içeriğine göre otomatik olarak ayarlanıp ayarlanmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

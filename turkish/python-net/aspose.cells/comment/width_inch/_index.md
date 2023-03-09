@@ -11,7 +11,7 @@ is_root: false
 
 Açıklamanın genişliğini inç cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

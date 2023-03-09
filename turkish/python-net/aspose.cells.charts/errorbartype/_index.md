@@ -17,7 +17,7 @@ ErrorBarType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| CUSTOM | InnerCustom değer türü.|
+| CUSTOM | Dahili Özel değer türü.|
 | FIXED_VALUE | Sabit değer türü.|
 | PERCENT | yüzde türü|
 | ST_DEV | Standart sapma türü.|

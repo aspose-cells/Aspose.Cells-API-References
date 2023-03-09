@@ -22,10 +22,10 @@ def import_custom_objects(self, list, first_row, first_column, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| list | list |özel nesne|
-| first_row | int |İçe aktarılacak ilk hücrenin satır numarası.|
+| list | list | özel nesne|
+| first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
 | first_column | int | İçe aktarılacak ilk hücrenin sütun numarası.|
 | options | [ImportTableOptions](/cells/tr/python-net/aspose.cells/importtableoptions) | İçe aktarma seçenekleri.|
 ###  Notlar
@@ -48,12 +48,12 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| list | list |özel nesne|
-| property_names | list | Özellik adları.Eğer null ise, nesnenin tüm özelliklerini içe aktaracağız.|
+| list | list | özel nesne|
+| property_names | list | Özellik adları Eğer null ise, nesnenin tüm özelliklerini içe aktaracağız.|
 | is_property_name_shown | bool | Özellik adının ilk satıra aktarılıp aktarılmayacağını belirtir.|
-| first_row | int |İçe aktarılacak ilk hücrenin satır numarası.|
+| first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
 | first_column | int | İçe aktarılacak ilk hücrenin sütun numarası.|
 | row_number | int | İçe aktarılacak satır sayısı.|
 | insert_rows | bool | Verileri sığdırmak için fazladan satırların eklenip eklenmediğini gösterir.|

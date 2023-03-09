@@ -13,7 +13,7 @@ Obtiene la siguiente fila que se va a guardar.
 
 ###  Devoluciones
 
-el siguiente índice de fila que se va a guardar. -1 significa que se ha llegado al final de los datos de la hoja actual y no se guardará ninguna fila más de la hoja actual.
+-1 significa que se ha llegado al final de los datos de la hoja actual y no se guardará ninguna fila más de la hoja actual.
 
 
 ```python

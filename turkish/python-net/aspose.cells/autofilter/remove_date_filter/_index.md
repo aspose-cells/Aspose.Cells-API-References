@@ -18,7 +18,7 @@ def remove_date_filter(self, field_index, date_time_grouping_type, year, month, 
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Filtreyi temel almak istediğiniz alanın tamsayı ofseti<br/> (listenin solundan; en soldaki alan 0 alanıdır).|
 | date_time_grouping_type | [DateTimeGroupingType](/cells/tr/python-net/aspose.cells/datetimegroupingtype) | [DateTimeGroupingType](/cells/tr/python-net/aspose.cells/datetimegroupingtype) |

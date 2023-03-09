@@ -17,7 +17,7 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [type](/cells/ru/python-net/aspose.cells.drawing/fillformat/type) | Получает и задает тип заполнения.|
+| [type](/cells/ru/python-net/aspose.cells.drawing/fillformat/type) |Получает и задает тип заполнения.|
 | [fill_type](/cells/ru/python-net/aspose.cells.drawing/fillformat/fill_type) | Получает и задает тип заполнения|
 | [transparency](/cells/ru/python-net/aspose.cells.drawing/fillformat/transparency) | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная).|
 | [set_type](/cells/ru/python-net/aspose.cells.drawing/fillformat/set_type) | Получает тип набора форматов заливки.|
@@ -49,7 +49,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

@@ -16,7 +16,7 @@ automatisch oder automatisch, außer bei Operationen mit mehreren Tabellen.
 
 Setzt nur für MS Excel.
 Bitte rufen Sie die Methode Workbook.CalculateFormula() manuell auf, um Formeln mit Aspose.Cells zu berechnen.
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte FormulaSettings.CalculationMode.
+HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen FormulaSettings.CalculationMode.
  Diese Property wird 12 Monate später seit Februar 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

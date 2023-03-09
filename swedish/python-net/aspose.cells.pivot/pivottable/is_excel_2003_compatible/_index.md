@@ -11,7 +11,7 @@ is_root: false
 
 Anger om pivottabellen är kompatibel med Excel2003 vid uppdatering av pivottabell,
 om sant måste en sträng vara mindre än eller lika med 255 tecken, så om strängen är större än 255 tecken,
-den kommer att trunkeras. om det är falskt kommer en sträng inte att ha den ovannämnda begränsningen.
+den kommer att trunkeras. Om den är falsk kommer en sträng inte att ha den ovannämnda begränsningen.
 Standardvärdet är sant.
 ###  Definition:
 ```python

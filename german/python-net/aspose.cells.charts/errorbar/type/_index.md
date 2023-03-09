@@ -11,7 +11,7 @@ is_root: false
 
 Stellt den Fehlerbalkenbetrag type dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

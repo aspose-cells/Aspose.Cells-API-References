@@ -17,19 +17,19 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [DigitalSignatureCollection()](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) | Конструктор DigitalSignatureCollection.|
+| [DigitalSignatureCollection()](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) |Конструктор DigitalSignatureCollection.|
 
 
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [add(digital_signature)](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) |Добавьте одну подпись в DigitalSignatureCollection.|
+| [add(digital_signature)](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Добавьте одну подпись в коллекцию цифровых подписей.|
 
 
 
-###  Пример
+###  Примеры
 
-В следующем примере показано, как проверить цифровую подпись.
+В следующем примере показано, как проверять цифровые подписи.
 
 ```python
 from aspose.cells import Workbook

@@ -10,7 +10,7 @@ is_root: false
 ##  auto_scaling недвижимость
 
  Значение true, если Microsoft Excel масштабирует трехмерную диаграмму так, чтобы она была ближе по размеру к эквивалентной двумерной диаграмме.
-Свойство RightAngleAxes должно быть равно True.
+Свойство Right Angle Axes должно быть True.
 ###  Определение:
 ```python
 @property

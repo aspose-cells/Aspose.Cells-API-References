@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level Eigentum
 
-Stellt die Einzugsebene für die Zelle oder den Bereich dar. Kann nur eine ganze Zahl von 0 bis 250 sein.
+Stellt die Einzugsebene für die Zelle oder den Bereich dar.
 
 ###  Bemerkungen
 

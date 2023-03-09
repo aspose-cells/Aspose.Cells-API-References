@@ -13,7 +13,7 @@ Hämtar uppsättningstypen för fyllningsformat.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
 använd FillFormat.FillType-egenskapen istället.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juli 2016.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

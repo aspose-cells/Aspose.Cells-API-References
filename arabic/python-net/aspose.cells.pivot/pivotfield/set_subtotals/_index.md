@@ -18,7 +18,7 @@ def set_subtotals(self, subtotal_type, shown):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | subtotal_type | [PivotFieldSubtotalType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | نوع المجاميع الفرعية.|
 | shown | bool | ما إذا كان الحقل المحدد يعرض تلك المجاميع الفرعية.|

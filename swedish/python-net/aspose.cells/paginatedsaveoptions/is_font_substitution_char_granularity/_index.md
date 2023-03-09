@@ -13,7 +13,7 @@ Indikerar om teckensnittet endast ska bytas ut när cellteckensnittet inte är k
 
 ###  Anmärkningar
 
-Standard är falskt. Vi kommer att prova standardteckensnittet för Workbook och PdfSaveOption/system för cellteckensnitt först.
+Standard är falskt. Vi försöker först med standardteckensnittet för Workbook och PdfSaveOption/system för cellteckensnitt.
 ###  Definition:
 ```python
 @property

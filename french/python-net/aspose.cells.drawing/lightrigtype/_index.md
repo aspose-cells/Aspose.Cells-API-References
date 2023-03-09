@@ -24,16 +24,16 @@ Le type LightRigType expose les membres suivants :
 | FLAT | Plat|
 | FLOOD | Inondation|
 | FREEZING | Gelé|
-| GLOW | Briller|
+| GLOW | briller|
 | HARSH | Rude|
 | LEGACY_FLAT1 | LegacyFlat1|
-| LEGACY_FLAT2 | LegacyFlat2|
-| LEGACY_FLAT3 | LegacyFlat3|
-| LEGACY_FLAT4 | LegacyFlat4|
-| LEGACY_HARSH1 | LegacyHarsh1|
-| LEGACY_HARSH2 | LegacyHarsh2|
-| LEGACY_HARSH3 | LegacyHarsh3|
-| LEGACY_HARSH4 | LegacyHarsh4|
+| LEGACY_FLAT2 | Legacy Flat2|
+| LEGACY_FLAT3 | Legacy Flat 3|
+| LEGACY_FLAT4 | Legacy Flat 4|
+| LEGACY_HARSH1 | Héritage sévère1|
+| LEGACY_HARSH2 | Héritage sévère2|
+| LEGACY_HARSH3 | Legacy Harsh3|
+| LEGACY_HARSH4 | Legacy Harsh4|
 | LEGACY_NORMAL1 | LegacyNormal1|
 | LEGACY_NORMAL2 | LegacyNormal2|
 | LEGACY_NORMAL3 | LegacyNormal3|

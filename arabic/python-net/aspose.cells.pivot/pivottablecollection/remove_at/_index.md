@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس الموضع في مجموعة PivotTable|
 | keep_data | bool | ما إذا كان سيتم الاحتفاظ ببيانات PivotTable أم لا|

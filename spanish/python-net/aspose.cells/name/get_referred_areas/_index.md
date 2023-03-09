@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/name/get_referred_areas/
 is_root: false
 ---
 ##  get_referred_areas(recalculate) {#bool}
-Obtiene todas las referencias referidas por este nombre.
+Obtiene todas las referencias a las que se hace referencia con este nombre.
 
 
 ###  Devoluciones
@@ -22,7 +22,7 @@ def get_referred_areas(self, recalculate):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | recalculate | bool | si recalcularlo si este nombre ha sido calculado antes de esta invocación.|
 

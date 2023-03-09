@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/
 is_root: false
 ---
 ##  remove_pivot_connection(pivot) {#aspose.cells.pivot.PivotTable}
-يزيل اتصال PivotTable.
+يزيل اتصالات PivotTable.
 
 
 
@@ -18,11 +18,11 @@ def remove_pivot_connection(self, pivot):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
 
-###  مثال
+###  أمثلة
 
 ```python
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose proprietà
 
-True a transpose righe e colonne quando l'intervallo viene incollato. Il valore predefinito è falso.
+True a transpose righe e colonne quando l'intervallo viene incollato.
 ###  Definizione:
 ```python
 @property

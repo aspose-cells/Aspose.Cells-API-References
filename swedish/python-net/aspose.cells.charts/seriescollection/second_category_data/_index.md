@@ -12,7 +12,7 @@ is_root: false
  Hämtar eller ställer in intervallet för andra kategorins axelvärden.
  Det kan vara ett cellintervall (som "d1:e10"),
  eller en sekvens av värden (som,"{2,6,8,10}").
-Effekter endast när vissa ASeries plottar på den andra axeln.
+Effekter endast när vissa ASerier plottar på den andra axeln.
 ###  Definition:
 ```python
 @property

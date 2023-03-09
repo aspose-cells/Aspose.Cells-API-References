@@ -29,12 +29,12 @@ PdfBookmarkEntry هو إدخال في المرجعية pdf.
 | [destination](/cells/ar/python-net/aspose.cells.rendering/pdfbookmarkentry/destination) | الخلية التي ترتبط بها الإشارة المرجعية.|
 | [destination_name](/cells/ar/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name) | يحصل أو يحدد اسم الوجهة.|
 | [sub_entry](/cells/ar/python-net/aspose.cells.rendering/pdfbookmarkentry/sub_entry) | إدخال إشارة مرجعية فرعي.|
-| [is_open](/cells/ar/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) | عندما تكون هذه الخاصية صحيحة ، سيتم توسيع نقطة الإشارة المرجعية ، وإلا فسوف تنهار.|
+| [is_open](/cells/ar/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) |عندما تكون هذه الخاصية صحيحة ، سيتم توسيع نقطة الإشارة المرجعية ، وإلا فسوف تنهار.|
 | [is_collapse](/cells/ar/python-net/aspose.cells.rendering/pdfbookmarkentry/is_collapse) | عندما تكون هذه الخاصية صحيحة ، ستنهار نقطة الإشارة المرجعية ، وإلا فإنها ستتوسع.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

@@ -17,9 +17,9 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [scope_type](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) |الحصول على نوع النطاق وتعيينه لتنسيق شرط الجدول المحوري.|
+| [scope_type](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) | الحصول على نوع النطاق وتعيينه لتنسيق شرط الجدول المحوري.|
 | [rule_type](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/rule_type) | الحصول على نوع القاعدة وتعيينه لتنسيق شرط الجدول المحوري.|
-| [format_conditions](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | احصل على شروط التنسيق لتنسيق شرط الجدول المحوري.|
+| [format_conditions](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | احصل على شروط التنسيق لتنسيق حالة الجدول المحوري.|
 
 
 ###  طُرق
@@ -29,13 +29,13 @@ is_root: false
 | [add_data_area_condition(data_field)](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/add_data_area_condition/#PivotField) | يضيف حد تنسيق شرطي لـ PivotTable في حقول البيانات.|
 | [add_row_area_condition(field_name)](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#str) | يضيف حد تنسيق PivotTable الشرطي في حقول الصف.|
 | [add_row_area_condition(row_field)](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#PivotField) | يضيف حد تنسيق PivotTable الشرطي في حقول الصف.|
-| [add_column_area_condition(field_name)](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) |يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.|
-| [add_column_area_condition(column_field)](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) |يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.|
+| [add_column_area_condition(field_name)](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) | يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.|
+| [add_column_area_condition(column_field)](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) | يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.|
 | [set_conditional_areas()](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/set_conditional_areas/#) | يضبط المساحات الشرطية لكائن PivotFormatCondition.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

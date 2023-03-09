@@ -13,7 +13,7 @@ Renvoie le nom complet de la source du fichier source de l'objet OLE lié.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
 veuillez utiliser la propriété OleObject.ObjectSourceFullName.
  Cette propriété sera supprimée 12 mois plus tard depuis novembre 2013.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

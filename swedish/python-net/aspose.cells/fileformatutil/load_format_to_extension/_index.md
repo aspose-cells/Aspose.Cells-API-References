@@ -22,12 +22,12 @@ def load_format_to_extension(self, load_format):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/sv/python-net/aspose.cells/loadformat) | Det inlästa filformatet.|
 ###  Anmärkningar
 
-Om det inte går att konvertera, returneras null.
+Om den inte kan konverteras, returneras null.
 
 
 ###  Se även

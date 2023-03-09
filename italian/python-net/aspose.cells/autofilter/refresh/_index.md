@@ -39,7 +39,7 @@ def refresh(self, hide_rows):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | hide_rows | bool | Se true, nasconde le righe filtrate.|
 

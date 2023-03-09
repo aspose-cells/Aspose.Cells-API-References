@@ -13,8 +13,8 @@ Hämtar och ställer in startpilens huvudlängd på linjen.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
- använd egenskapen Shape.Line.BeginArrowheadLength.
+ OBS: Denna medlem är nu föråldrad.
+använd egenskapen Shape.Line.BeginArrowheadLength.
  Den här egenskapen kommer att tas bort 12 månader senare sedan augusti 2016.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

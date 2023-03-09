@@ -31,13 +31,13 @@ def auto_fit_columns(self, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/sv/python-net/aspose.cells/autofitteroptions) | Alternativen för automatisk montering|
 
 
 ##  auto_fit_columns(first_column, last_column) {#int-int}
-Anpassar kolumnernas bredd automatiskt.
+Anpassar kolumnbredden automatiskt.
 
 
 
@@ -47,7 +47,7 @@ def auto_fit_columns(self, first_column, last_column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_column | int | Första kolumnindex.|
 | last_column | int | Sista kolumnindex.|
@@ -57,7 +57,7 @@ AutoFitColumn är en oprecis funktion.
 
 ##  auto_fit_columns(first_column, last_column, options) {#int-int-AutoFitterOptions}
 
-Anpassar kolumnernas bredd automatiskt.
+Anpassar kolumnbredden automatiskt.
 
 
 
@@ -67,7 +67,7 @@ def auto_fit_columns(self, first_column, last_column, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_column | int | Första kolumnindex.|
 | last_column | int | Sista kolumnindex.|
@@ -78,7 +78,7 @@ AutoFitColumn är en oprecis funktion.
 
 ##  auto_fit_columns(first_row, first_column, last_row, last_column) {#int-int-int-int}
 
-Anpassar kolumnernas bredd automatiskt.
+Anpassar kolumnbredden automatiskt.
 
 
 
@@ -88,7 +88,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_row | int | Första radens index.|
 | first_column | int | Första kolumnindex.|
@@ -100,7 +100,7 @@ AutoFitColumn är en oprecis funktion.
 
 ##  auto_fit_columns(first_row, first_column, last_row, last_column, options) {#int-int-int-int-AutoFitterOptions}
 
-Anpassar kolumnernas bredd automatiskt.
+Anpassar kolumnbredden automatiskt.
 
 
 
@@ -110,7 +110,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column, optio
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_row | int | Första radens index.|
 | first_column | int | Första kolumnindex.|

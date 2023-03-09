@@ -11,7 +11,7 @@ is_root: false
 
 Dilimleyici nesnesinin yazdırılabilir olup olmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

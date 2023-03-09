@@ -31,9 +31,9 @@ def __init__(self, save_format):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | تنسيق الملف.<br/>يجب أن يكون xlsx و xltx و xlsm و xltm.|
+| save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | تنسيق الملف.<br/> يجب أن يكون xlsx و xltx و xlsm و xltm.|
 
 
 

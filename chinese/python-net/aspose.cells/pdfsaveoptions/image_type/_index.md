@@ -1,6 +1,6 @@
 ﻿---
 title: image_type 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 250
@@ -13,8 +13,8 @@ is_root: false
 
 ### 评论
 
-注意：该成员现已过时。反而，
-Chart 和 Shape 始终渲染为矢量元素（例如点、线）以提高渲染质量。
+注意：该成员现已过时。
+图表和形状始终呈现为矢量元素（例如点、线）以提高呈现质量。
 自 2022 年 6 月起，此属性将在 12 个月后移除。
 Aspose 对您可能遇到的任何不便深表歉意。
 ### 定义：

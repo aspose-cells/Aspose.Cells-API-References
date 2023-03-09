@@ -23,12 +23,12 @@ Il tipo Row espone i membri seguenti:
 | [is_hidden](/cells/it/python-net/aspose.cells/row/is_hidden) | Indica se la riga è nascosta.|
 | [index](/cells/it/python-net/aspose.cells/row/index) | Ottiene l'indice di questa riga.|
 | [group_level](/cells/it/python-net/aspose.cells/row/group_level) | Ottiene il livello di gruppo della riga.|
-| [is_height_matched](/cells/it/python-net/aspose.cells/row/is_height_matched) | Indica che l'altezza della riga e l'altezza predefinita del carattere corrispondono.|
+| [is_height_matched](/cells/it/python-net/aspose.cells/row/is_height_matched) |Indica che l'altezza della riga e l'altezza predefinita del carattere corrispondono.|
 | [style](/cells/it/python-net/aspose.cells/row/style) | Rappresenta lo stile di questa riga.|
 | [has_custom_style](/cells/it/python-net/aspose.cells/row/has_custom_style) | Indica se questa riga ha impostazioni di stile personalizzate (diverse da quella predefinita ereditata dalla cartella di lavoro).|
 | [first_cell](/cells/it/python-net/aspose.cells/row/first_cell) | Ottiene il primo oggetto cella nella riga.|
 | [first_data_cell](/cells/it/python-net/aspose.cells/row/first_data_cell) | Ottiene la prima cella non vuota nella riga.|
-| [last_cell](/cells/it/python-net/aspose.cells/row/last_cell) |Ottiene l'ultimo oggetto cella nella riga.|
+| [last_cell](/cells/it/python-net/aspose.cells/row/last_cell) | Ottiene l'ultimo oggetto cella nella riga.|
 | [last_data_cell](/cells/it/python-net/aspose.cells/row/last_data_cell) | Ottiene l'ultima cella non vuota nella riga.|
 
 
@@ -53,7 +53,7 @@ Ottiene la cella.
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

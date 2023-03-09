@@ -18,7 +18,7 @@ def change_template(self, data):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | data | bytes | Grafik şablonu dosyasının (.crtx) verileri.|
 

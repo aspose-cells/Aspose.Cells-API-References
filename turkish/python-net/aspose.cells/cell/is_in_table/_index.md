@@ -13,7 +13,7 @@ Bu hücrenin tablo formülünün parçası olup olmadığını gösterir.
 
 ###  Notlar
 
- NOT: Bu sınıf artık kullanılmıyor. Yerine,
+ NOT: Bu sınıf artık kullanılmıyor.
 hücre formülünün tablo formülünün bir parçası olup olmadığını kontrol etmek için lütfen Cell.IsTableFormula'yı kullanın.
 Bu mülk, Mayıs 2018'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

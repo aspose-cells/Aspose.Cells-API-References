@@ -1,13 +1,13 @@
 ﻿---
 title: DefaultStyleSettings类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 460
 url: /zh/python-net/aspose.cells/defaultstylesettings/
 is_root: false
 ---
-##  DefaultStyleSettings类
+## DefaultStyleSettings类
 工作簿样式属性默认值的设置。
 
 

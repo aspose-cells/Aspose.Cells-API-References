@@ -26,21 +26,21 @@ Il tipo ComboBox espone i membri seguenti:
 | [is_equation](/cells/it/python-net/aspose.cells.drawing/combobox/is_equation) | Indica se la forma contiene solo un'equazione.|
 | [is_smart_art](/cells/it/python-net/aspose.cells.drawing/combobox/is_smart_art) | Indica se la forma è smart art.|
 | [z_order_position](/cells/it/python-net/aspose.cells.drawing/combobox/z_order_position) | Restituisce la posizione di una forma nell'ordine z.|
-| [name](/cells/it/python-net/aspose.cells.drawing/combobox/name) |Ottiene e imposta il nome della forma.|
+| [name](/cells/it/python-net/aspose.cells.drawing/combobox/name) | Ottiene e imposta il nome della forma.|
 | [alternative_text](/cells/it/python-net/aspose.cells.drawing/combobox/alternative_text) | Restituisce o imposta la stringa di testo descrittiva (alternativa) dell'oggetto [Shape](/cells/it/python-net/aspose.cells.drawing/shape).|
-| [title](/cells/it/python-net/aspose.cells.drawing/combobox/title) | Specifica il titolo (didascalia) dell'oggetto forma corrente.|
-| [line_format](/cells/it/python-net/aspose.cells.drawing/combobox/line_format) |Restituisce un oggetto MsoLineFormat che contiene le proprietà di formattazione della linea per la forma specificata.|
+| [title](/cells/it/python-net/aspose.cells.drawing/combobox/title) |Specifica il titolo (didascalia) dell'oggetto forma corrente.|
+| [line_format](/cells/it/python-net/aspose.cells.drawing/combobox/line_format) | Restituisce un oggetto MsoLineFormat che contiene le proprietà di formattazione della linea per la forma specificata.|
 | [fill_format](/cells/it/python-net/aspose.cells.drawing/combobox/fill_format) | Restituisce un oggetto MsoFillFormat che contiene le proprietà di formattazione del riempimento per la forma specificata.|
 | [format](/cells/it/python-net/aspose.cells.drawing/combobox/format) | Rappresenta l'impostazione della formattazione della forma.|
 | [line](/cells/it/python-net/aspose.cells.drawing/combobox/line) | Ottiene lo stile della linea|
-| [fill](/cells/it/python-net/aspose.cells.drawing/combobox/fill) |Restituisce un oggetto [Shape.fill_format](/cells/it/python-net/aspose.cells.drawing/shape#fill_format) che contiene le proprietà di formattazione del riempimento per la forma specificata.|
-| [shadow_effect](/cells/it/python-net/aspose.cells.drawing/combobox/shadow_effect) | Rappresenta un oggetto [ShadowEffect](/cells/it/python-net/aspose.cells.drawing/shadoweffect) che specifica l'effetto ombra per l'elemento o la forma del grafico.|
-| [reflection](/cells/it/python-net/aspose.cells.drawing/combobox/reflection) |Rappresenta un oggetto [ReflectionEffect](/cells/it/python-net/aspose.cells.drawing/reflectioneffect) che specifica l'effetto di riflessione per l'elemento o la forma del grafico.|
-| [glow](/cells/it/python-net/aspose.cells.drawing/combobox/glow) | Rappresenta un oggetto [GlowEffect](/cells/it/python-net/aspose.cells.drawing/gloweffect) che specifica l'effetto bagliore per l'elemento o la forma del grafico.|
+| [fill](/cells/it/python-net/aspose.cells.drawing/combobox/fill) | Restituisce un oggetto [Shape.fill_format](/cells/it/python-net/aspose.cells.drawing/shape#fill_format) che contiene le proprietà di formattazione del riempimento per la forma specificata.|
+| [shadow_effect](/cells/it/python-net/aspose.cells.drawing/combobox/shadow_effect) | Rappresenta un oggetto [ShadowEffect](/cells/it/python-net/aspose.cells.drawing/shadoweffect) che specifica un effetto ombra per l'elemento o la forma del grafico.|
+| [reflection](/cells/it/python-net/aspose.cells.drawing/combobox/reflection) | Rappresenta un oggetto [ReflectionEffect](/cells/it/python-net/aspose.cells.drawing/reflectioneffect) che specifica l'effetto di riflessione per l'elemento o la forma del grafico.|
+| [glow](/cells/it/python-net/aspose.cells.drawing/combobox/glow) | Rappresenta un oggetto [GlowEffect](/cells/it/python-net/aspose.cells.drawing/gloweffect) che specifica un effetto bagliore per l'elemento o la forma del grafico.|
 | [soft_edges](/cells/it/python-net/aspose.cells.drawing/combobox/soft_edges) | Ottiene e imposta il raggio di sfocatura da applicare ai bordi, in unità di punti.|
 | [three_d_format](/cells/it/python-net/aspose.cells.drawing/combobox/three_d_format) | Ottiene e imposta il formato 3D della forma.|
 | [text_frame](/cells/it/python-net/aspose.cells.drawing/combobox/text_frame) | Restituisce un oggetto TextFrame che contiene le proprietà di allineamento e ancoraggio per la forma specificata.|
-| [format_picture](/cells/it/python-net/aspose.cells.drawing/combobox/format_picture) | Ottiene e imposta le opzioni del formato immagine.|
+| [format_picture](/cells/it/python-net/aspose.cells.drawing/combobox/format_picture) |Ottiene e imposta le opzioni del formato immagine.|
 | [is_hidden](/cells/it/python-net/aspose.cells.drawing/combobox/is_hidden) | Indica se l'oggetto è visibile.|
 | [is_lock_aspect_ratio](/cells/it/python-net/aspose.cells.drawing/combobox/is_lock_aspect_ratio) | Vero significa che non consentono modifiche nelle proporzioni.|
 | [rotation_angle](/cells/it/python-net/aspose.cells.drawing/combobox/rotation_angle) | Ottiene e imposta la rotazione della forma.|
@@ -48,13 +48,13 @@ Il tipo ComboBox espone i membri seguenti:
 | [id](/cells/it/python-net/aspose.cells.drawing/combobox/id) | Ottiene l'identificatore di questa forma.|
 | [spid](/cells/it/python-net/aspose.cells.drawing/combobox/spid) | Specifica una stringa facoltativa che può essere utilizzata da un'applicazione per identificare la forma specifica.|
 | [spt](/cells/it/python-net/aspose.cells.drawing/combobox/spt) | Specifica un numero facoltativo che un'applicazione può utilizzare per associare la particolare forma a un tipo di forma definito.|
-| [worksheet](/cells/it/python-net/aspose.cells.drawing/combobox/worksheet) |Ottiene l'oggetto [Shape.worksheet](/cells/it/python-net/aspose.cells.drawing/shape#worksheet) che contiene questa forma.|
+| [worksheet](/cells/it/python-net/aspose.cells.drawing/combobox/worksheet) | Ottiene l'oggetto [Shape.worksheet](/cells/it/python-net/aspose.cells.drawing/shape#worksheet) che contiene questa forma.|
 | [is_group](/cells/it/python-net/aspose.cells.drawing/combobox/is_group) | Indica se la forma è un gruppo.|
 | [is_in_group](/cells/it/python-net/aspose.cells.drawing/combobox/is_in_group) | Indica se la forma è raggruppata.|
 | [is_word_art](/cells/it/python-net/aspose.cells.drawing/combobox/is_word_art) | Indica se questa forma è una word art.|
-| [text_effect](/cells/it/python-net/aspose.cells.drawing/combobox/text_effect) |Restituisce un oggetto TextEffectFormat che contiene le proprietà di formattazione dell'effetto di testo per la forma specificata.<br/> Si applica agli oggetti Shape che rappresentano WordArt.|
+| [text_effect](/cells/it/python-net/aspose.cells.drawing/combobox/text_effect) | Restituisce un oggetto TextEffectFormat che contiene le proprietà di formattazione dell'effetto di testo per la forma specificata.<br/> Si applica agli oggetti Shape che rappresentano WordArt.|
 | [is_locked](/cells/it/python-net/aspose.cells.drawing/combobox/is_locked) | True se l'oggetto è bloccato, False se l'oggetto può essere modificato quando il foglio è protetto.|
-| [is_printable](/cells/it/python-net/aspose.cells.drawing/combobox/is_printable) | True se l'oggetto è stampabile|
+| [is_printable](/cells/it/python-net/aspose.cells.drawing/combobox/is_printable) |True se l'oggetto è stampabile|
 | [mso_drawing_type](/cells/it/python-net/aspose.cells.drawing/combobox/mso_drawing_type) | Ottiene il tipo di disegno mso.|
 | [auto_shape_type](/cells/it/python-net/aspose.cells.drawing/combobox/auto_shape_type) | Ottiene e imposta il tipo di forma automatica.|
 | [anchor_type](/cells/it/python-net/aspose.cells.drawing/combobox/anchor_type) | Ottiene e imposta il segnaposto dell'ancora della forma.|
@@ -68,10 +68,10 @@ Il tipo ComboBox espone i membri seguenti:
 | [lower_right_column](/cells/it/python-net/aspose.cells.drawing/combobox/lower_right_column) | Rappresenta l'indice della colonna nell'angolo inferiore destro.|
 | [lower_delta_x](/cells/it/python-net/aspose.cells.drawing/combobox/lower_delta_x) | Ottiene o imposta l'offset orizzontale della forma rispetto alla colonna nell'angolo inferiore destro.|
 | [right](/cells/it/python-net/aspose.cells.drawing/combobox/right) | Rappresenta la larghezza dell'offset orizzontale della forma rispetto alla colonna nell'angolo inferiore destro, in unità di pixel.|
-| [bottom](/cells/it/python-net/aspose.cells.drawing/combobox/bottom) | Rappresenta la larghezza dell'offset verticale della forma dalla riga dell'angolo inferiore inferiore, in unità di pixel.|
+| [bottom](/cells/it/python-net/aspose.cells.drawing/combobox/bottom) |Rappresenta la larghezza dell'offset verticale della forma dalla riga dell'angolo inferiore inferiore, in unità di pixel.|
 | [width](/cells/it/python-net/aspose.cells.drawing/combobox/width) | Rappresenta la larghezza della forma, in unità di pixel.|
 | [width_inch](/cells/it/python-net/aspose.cells.drawing/combobox/width_inch) | Rappresenta la larghezza della forma, in unità di pollici.|
-| [width_pt](/cells/it/python-net/aspose.cells.drawing/combobox/width_pt) | Rappresenta la larghezza della forma, in unità di punto.|
+| [width_pt](/cells/it/python-net/aspose.cells.drawing/combobox/width_pt) | Rappresenta la larghezza della forma, in unità di punti.|
 | [width_cm](/cells/it/python-net/aspose.cells.drawing/combobox/width_cm) | Rappresenta la larghezza della forma, in unità di centimetri.|
 | [height](/cells/it/python-net/aspose.cells.drawing/combobox/height) | Rappresenta l'altezza della forma, in unità di pixel.|
 | [height_inch](/cells/it/python-net/aspose.cells.drawing/combobox/height_inch) | Rappresenta l'altezza della forma, in unità di pollici.|
@@ -79,18 +79,18 @@ Il tipo ComboBox espone i membri seguenti:
 | [height_cm](/cells/it/python-net/aspose.cells.drawing/combobox/height_cm) | Rappresenta l'altezza della forma, in unità di centimetri.|
 | [left](/cells/it/python-net/aspose.cells.drawing/combobox/left) | Rappresenta l'offset orizzontale della forma dalla colonna di sinistra, in unità di pixel.|
 | [left_inch](/cells/it/python-net/aspose.cells.drawing/combobox/left_inch) | Rappresenta l'offset orizzontale della forma dalla colonna di sinistra, in unità di pollici.|
-| [left_cm](/cells/it/python-net/aspose.cells.drawing/combobox/left_cm) | Rappresenta l'offset orizzontale della forma dalla colonna sinistra, in unità di centimetri.|
+| [left_cm](/cells/it/python-net/aspose.cells.drawing/combobox/left_cm) | Rappresenta l'offset orizzontale della forma dalla colonna di sinistra, in unità di centimetri.|
 | [top](/cells/it/python-net/aspose.cells.drawing/combobox/top) | Rappresenta l'offset verticale della forma dalla riga superiore, in unità di pixel.|
-| [top_inch](/cells/it/python-net/aspose.cells.drawing/combobox/top_inch) | Rappresenta l'offset verticale della forma dalla riga superiore, in unità di pollici.|
+| [top_inch](/cells/it/python-net/aspose.cells.drawing/combobox/top_inch) |Rappresenta l'offset verticale della forma dalla riga superiore, in unità di pollici.|
 | [top_cm](/cells/it/python-net/aspose.cells.drawing/combobox/top_cm) | Rappresenta l'offset verticale della forma dalla riga superiore, in unità di centimetri.|
 | [top_to_corner](/cells/it/python-net/aspose.cells.drawing/combobox/top_to_corner) | Ottiene e imposta l'offset verticale della forma dal bordo superiore del foglio di lavoro, in unità di pixel.|
 | [left_to_corner](/cells/it/python-net/aspose.cells.drawing/combobox/left_to_corner) | Ottiene e imposta l'offset orizzontale della forma dal bordo sinistro del foglio di lavoro.|
 | [x](/cells/it/python-net/aspose.cells.drawing/combobox/x) | Ottiene e imposta l'offset orizzontale della forma dal bordo sinistro del foglio di lavoro, in unità di pixel.|
-| [y](/cells/it/python-net/aspose.cells.drawing/combobox/y) |Ottiene e imposta l'offset verticale della forma dal bordo superiore del foglio di lavoro, in unità di pixel.|
+| [y](/cells/it/python-net/aspose.cells.drawing/combobox/y) | Ottiene e imposta l'offset verticale della forma dal bordo superiore del foglio di lavoro, in unità di pixel.|
 | [width_scale](/cells/it/python-net/aspose.cells.drawing/combobox/width_scale) | Ottiene e imposta la scala della larghezza, in unità di percentuale della larghezza dell'immagine originale.<br/> Se la forma non è picture , la proprietà WidthScale restituisce solo 100;|
 | [height_scale](/cells/it/python-net/aspose.cells.drawing/combobox/height_scale) | Ottiene e imposta la scala dell'altezza, in unità di percentuale dell'altezza dell'immagine originale.<br/> Se la forma non è picture , la proprietà HeightScale restituisce solo 100;|
-| [top_in_shape](/cells/it/python-net/aspose.cells.drawing/combobox/top_in_shape) |Rappresenta l'offset verticale della forma dal bordo superiore della forma padre,<br/> in unità di 1/4000 di altezza della forma madre.|
-| [left_in_shape](/cells/it/python-net/aspose.cells.drawing/combobox/left_in_shape) | Rappresenta l'offset orizzontale della forma dal bordo sinistro della forma padre,<br/> in unità di 1/4000 di larghezza della forma padre.|
+| [top_in_shape](/cells/it/python-net/aspose.cells.drawing/combobox/top_in_shape) | Rappresenta l'offset verticale della forma dal bordo superiore della forma padre,<br/> in unità di 1/4000 di altezza della forma madre.|
+| [left_in_shape](/cells/it/python-net/aspose.cells.drawing/combobox/left_in_shape) |Rappresenta l'offset orizzontale della forma dal bordo sinistro della forma padre,<br/> in unità di 1/4000 di larghezza della forma genitore.|
 | [width_in_shape](/cells/it/python-net/aspose.cells.drawing/combobox/width_in_shape) | Rappresenta la larghezza della forma, in unità di 1/4000 della forma padre.|
 | [height_in_shape](/cells/it/python-net/aspose.cells.drawing/combobox/height_in_shape) | Rappresenta l'offset verticale della forma dal bordo superiore della forma padre, in unità di 1/4000 dell'altezza della forma padre.|
 | [group](/cells/it/python-net/aspose.cells.drawing/combobox/group) | Ottiene la forma del gruppo che contiene questa forma.|
@@ -104,7 +104,7 @@ Il tipo ComboBox espone i membri seguenti:
 | [relative_to_original_picture_size](/cells/it/python-net/aspose.cells.drawing/combobox/relative_to_original_picture_size) | Indica se la forma è relativa alla dimensione dell'immagine originale.|
 | [linked_cell](/cells/it/python-net/aspose.cells.drawing/combobox/linked_cell) | Ottiene o imposta l'intervallo del foglio di lavoro collegato al valore del controllo.|
 | [input_range](/cells/it/python-net/aspose.cells.drawing/combobox/input_range) | Ottiene o imposta l'intervallo del foglio di lavoro utilizzato per riempire la casella combinata specificata.|
-| [text_shape_type](/cells/it/python-net/aspose.cells.drawing/combobox/text_shape_type) | Ottiene e imposta il tipo di forma del testo preimpostato.|
+| [text_shape_type](/cells/it/python-net/aspose.cells.drawing/combobox/text_shape_type) |Ottiene e imposta il tipo di forma del testo preimpostato.|
 | [text_body](/cells/it/python-net/aspose.cells.drawing/combobox/text_body) | Ottiene e imposta l'impostazione del testo della forma.|
 | [font](/cells/it/python-net/aspose.cells.drawing/combobox/font) | Rappresenta il carattere della forma.|
 | [text_options](/cells/it/python-net/aspose.cells.drawing/combobox/text_options) | Rappresenta le opzioni di testo della forma.|
@@ -112,7 +112,7 @@ Il tipo ComboBox espone i membri seguenti:
 | [is_rich_text](/cells/it/python-net/aspose.cells.drawing/combobox/is_rich_text) | Se il testo è rich text o meno.|
 | [html_text](/cells/it/python-net/aspose.cells.drawing/combobox/html_text) | Ottiene e imposta la stringa html che contiene i dati e alcuni formati in questa casella di testo.|
 | [text_vertical_overflow](/cells/it/python-net/aspose.cells.drawing/combobox/text_vertical_overflow) | Ottiene e imposta il tipo di overflow verticale del testo della forma che contiene il testo.|
-| [text_horizontal_overflow](/cells/it/python-net/aspose.cells.drawing/combobox/text_horizontal_overflow) |Ottiene e imposta il tipo di overflow orizzontale del testo della forma che contiene il testo.|
+| [text_horizontal_overflow](/cells/it/python-net/aspose.cells.drawing/combobox/text_horizontal_overflow) | Ottiene e imposta il tipo di overflow orizzontale del testo della forma che contiene il testo.|
 | [is_text_wrapped](/cells/it/python-net/aspose.cells.drawing/combobox/is_text_wrapped) | Ottiene e imposta il tipo di testo a capo della forma che contiene il testo.|
 | [text_orientation_type](/cells/it/python-net/aspose.cells.drawing/combobox/text_orientation_type) | Ottiene e imposta il tipo di orientamento del testo della forma.|
 | [text_horizontal_alignment](/cells/it/python-net/aspose.cells.drawing/combobox/text_horizontal_alignment) | Ottiene e imposta il tipo di allineamento orizzontale del testo della forma.|
@@ -120,7 +120,7 @@ Il tipo ComboBox espone i membri seguenti:
 | [text_direction](/cells/it/python-net/aspose.cells.drawing/combobox/text_direction) | Ottiene/imposta la direzione del flusso di testo per questo oggetto.|
 | [control_data](/cells/it/python-net/aspose.cells.drawing/combobox/control_data) | Ottiene i dati di controllo.|
 | [active_x_control](/cells/it/python-net/aspose.cells.drawing/combobox/active_x_control) | Ottiene il controllo ActiveX.|
-| [paths](/cells/it/python-net/aspose.cells.drawing/combobox/paths) | Ottiene i percorsi di una forma geometrica personalizzata.|
+| [paths](/cells/it/python-net/aspose.cells.drawing/combobox/paths) |Ottiene i percorsi di una forma geometrica personalizzata.|
 | [geometry](/cells/it/python-net/aspose.cells.drawing/combobox/geometry) | Ottiene la geometria|
 | [create_id](/cells/it/python-net/aspose.cells.drawing/combobox/create_id) | Ottiene e imposta l'ID di creazione per questa forma.|
 | [selected_index](/cells/it/python-net/aspose.cells.drawing/combobox/selected_index) | Ottiene o imposta il numero di indice dell'elemento attualmente selezionato in una casella di riepilogo o in una casella combinata.<br/> A base zero.|
@@ -145,22 +145,22 @@ Il tipo ComboBox espone i membri seguenti:
 | [add_hyperlink(address)](/cells/it/python-net/aspose.cells.drawing/combobox/add_hyperlink/#str) | Aggiunge un collegamento ipertestuale alla forma.|
 | [remove_hyperlink()](/cells/it/python-net/aspose.cells.drawing/combobox/remove_hyperlink/#) | Rimuovere il collegamento ipertestuale della forma.|
 | [move_to_range(upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/it/python-net/aspose.cells.drawing/combobox/move_to_range/#int-int-int-int) | Sposta la forma in un intervallo specificato.|
-| [align_top_right_corner(top_row, right_column)](/cells/it/python-net/aspose.cells.drawing/combobox/align_top_right_corner/#int-int) | Sposta l'immagine nell'angolo in alto a destra.|
+| [align_top_right_corner(top_row, right_column)](/cells/it/python-net/aspose.cells.drawing/combobox/align_top_right_corner/#int-int) |Sposta l'immagine nell'angolo in alto a destra.|
 | [get_connection_points()](/cells/it/python-net/aspose.cells.drawing/combobox/get_connection_points/#) | Ottieni i punti di connessione|
 | [get_linked_cell(is_r1c1, is_local)](/cells/it/python-net/aspose.cells.drawing/combobox/get_linked_cell/#bool-bool) | Ottiene l'intervallo collegato al valore del controllo.|
 | [set_linked_cell(formula, is_r1c1, is_local)](/cells/it/python-net/aspose.cells.drawing/combobox/set_linked_cell/#str-bool-bool) | Imposta l'intervallo collegato al valore del controllo.|
 | [get_input_range(is_r1c1, is_local)](/cells/it/python-net/aspose.cells.drawing/combobox/get_input_range/#bool-bool) | Ottiene l'intervallo usato per riempire il controllo.|
 | [set_input_range(formula, is_r1c1, is_local)](/cells/it/python-net/aspose.cells.drawing/combobox/set_input_range/#str-bool-bool) | Imposta l'intervallo utilizzato per riempire il controllo.|
-| [update_selected_value()](/cells/it/python-net/aspose.cells.drawing/combobox/update_selected_value/#) |Aggiorna il valore selezionato in base al valore della cella collegata.|
+| [update_selected_value()](/cells/it/python-net/aspose.cells.drawing/combobox/update_selected_value/#) | Aggiorna il valore selezionato in base al valore della cella collegata.|
 | [calculate_text_size()](/cells/it/python-net/aspose.cells.drawing/combobox/calculate_text_size/#) | Ricalcola l'area di testo|
-| [characters(start_index, length)](/cells/it/python-net/aspose.cells.drawing/combobox/characters/#int-int) |Restituisce un oggetto Characters che rappresenta un intervallo di caratteri all'interno del testo.|
-| [get_characters()](/cells/it/python-net/aspose.cells.drawing/combobox/get_characters/#) | Restituisce tutti gli oggetti Characters<br/> che rappresenta un intervallo di caratteri all'interno del testo .|
+| [characters(start_index, length)](/cells/it/python-net/aspose.cells.drawing/combobox/characters/#int-int) | Restituisce un oggetto Characters che rappresenta un intervallo di caratteri all'interno del testo.|
+| [get_characters()](/cells/it/python-net/aspose.cells.drawing/combobox/get_characters/#) | Restituisce tutti gli oggetti Characters<br/> che rappresenta un intervallo di caratteri all'interno del testo.|
 | [remove_active_x_control()](/cells/it/python-net/aspose.cells.drawing/combobox/remove_active_x_control/#) | Rimuovi il controllo ActiveX.|
 | [is_same_setting(obj)](/cells/it/python-net/aspose.cells.drawing/combobox/is_same_setting/#any) | Restituisce se la forma è la stessa.|
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

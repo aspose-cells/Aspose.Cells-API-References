@@ -25,7 +25,7 @@ def get_range(self):
 
 
 ##  get_range(recalculate) {#bool}
-Hämtar intervallet om detta namn refererar till ett intervall
+Hämtar intervallet om detta namn hänvisar till ett intervall
 
 
 ###  Returnerar
@@ -39,14 +39,14 @@ def get_range(self, recalculate):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| recalculate | bool | om du räknar om det om detta namn har beräknats före denna anrop.|
+| recalculate | bool | om det ska räknas om om detta namn har beräknats före denna anrop.|
 
 
 ##  get_range(sheet_index, row, column) {#int-int-int}
 Hämtar intervallet om detta namn refererar till ett intervall.
-Om referensen för detta namn inte är absolut kan intervallet vara annorlunda för olika celler.
+Om referensen för detta namn inte är absolut, kan intervallet vara olika för olika celler.
 
 
 ###  Returnerar
@@ -60,9 +60,9 @@ def get_range(self, sheet_index, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| sheet_index | int |Enligt bladindex.|
+| sheet_index | int | Enligt bladindex.|
 | row | int | Följande radindex.|
 | column | int | Enligt kolumnindex|
 

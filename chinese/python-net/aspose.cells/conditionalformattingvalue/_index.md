@@ -1,14 +1,14 @@
 ﻿---
 title: ConditionalFormattingValue类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 340
 url: /zh/python-net/aspose.cells/conditionalformattingvalue/
 is_root: false
 ---
-##  ConditionalFormattingValue类
-描述渐变刻度、dataBar 或 iconSet 中插值点的值。
+## ConditionalFormattingValue类
+描述了渐变刻度、dataBar 或 iconSet 中插值点的值。
 
 
 

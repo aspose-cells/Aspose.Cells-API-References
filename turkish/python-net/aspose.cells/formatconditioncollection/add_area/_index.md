@@ -8,12 +8,12 @@ url: /tr/python-net/aspose.cells/formatconditioncollection/add_area/
 is_root: false
 ---
 ##  add_area(cell_area) {#CellArea}
-Koşullu biçimlendirilmiş bir hücre aralığı ekler.
+Koşullu olarak biçimlendirilmiş bir hücre aralığı ekler.
 
 
 ###  İadeler
 
-Koşullu biçimlendirilmiş hücre çaldı dizini.
+Koşullu biçimlendirilmiş hücre zili dizini.
 
 
 ```python
@@ -22,9 +22,9 @@ def add_area(self, cell_area):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Koşullu biçimlendirilmiş hücre aralığı.|
+| cell_area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) |Koşullu biçimlendirilmiş hücre aralığı.|
 
 
 

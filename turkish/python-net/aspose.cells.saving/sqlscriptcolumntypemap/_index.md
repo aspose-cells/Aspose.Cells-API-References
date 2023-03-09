@@ -1,5 +1,5 @@
 ﻿---
-title: SqlScriptColumnTypeMap sınıf
+title: SqlScriptColumnTypeMap sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /tr/python-net/aspose.cells.saving/sqlscriptcolumntypemap/
 is_root: false
 ---
-##  SqlScriptColumnTypeMap sınıf
+##  SqlScriptColumnTypeMap sınıfı
 Sütun tipi haritayı temsil eder.
 
 

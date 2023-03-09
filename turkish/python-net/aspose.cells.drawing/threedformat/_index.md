@@ -1,5 +1,5 @@
 ﻿---
-title: ThreeDFormat sınıf
+title: ThreeDFormat sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 720
 url: /tr/python-net/aspose.cells.drawing/threedformat/
 is_root: false
 ---
-##  ThreeDFormat sınıf
+##  ThreeDFormat sınıfı
 Bir şeklin üç boyutlu biçimlendirmesini temsil eder.
 
 
@@ -22,10 +22,10 @@ ThreeDFormat türü aşağıdaki üyeleri gösterir:
 | [bottom_bevel_type](/cells/tr/python-net/aspose.cells.drawing/threedformat/bottom_bevel_type) | Alt eğimin türünü veya şeklin ne kadar içine uygulandığını alır ve ayarlar.<br/> Puan biriminde.|
 | [top_bevel_width](/cells/tr/python-net/aspose.cells.drawing/threedformat/top_bevel_width) | Üst eğimin genişliğini veya şeklin ne kadar içine uygulandığını alır ve ayarlar.<br/> Puan biriminde.|
 | [top_bevel_height](/cells/tr/python-net/aspose.cells.drawing/threedformat/top_bevel_height) | Üst eğimin yüksekliğini veya şeklin ne kadar içine uygulandığını alır ve ayarlar.<br/> Puan biriminde.|
-| [top_bevel_type](/cells/tr/python-net/aspose.cells.drawing/threedformat/top_bevel_type) | Üst eğimin türünü veya şeklin ne kadar içine uygulandığını alır ve ayarlar.<br/> Puan biriminde.|
+| [top_bevel_type](/cells/tr/python-net/aspose.cells.drawing/threedformat/top_bevel_type) |Üst eğimin türünü veya şeklin ne kadar içine uygulandığını alır ve ayarlar.<br/> Puan biriminde.|
 | [material](/cells/tr/python-net/aspose.cells.drawing/threedformat/material) | vermek için aydınlatma özellikleriyle birleştirilen ön ayarlı malzemeyi temsil eder.<br/> bir şeklin son görünümü ve hissi.|
 | [contour_color](/cells/tr/python-net/aspose.cells.drawing/threedformat/contour_color) | Bir şeklin kontur rengini alır ve ayarlar.|
-| [contour_width](/cells/tr/python-net/aspose.cells.drawing/threedformat/contour_width) |Şekildeki kontur genişliğini nokta birimi cinsinden alır ve ayarlar.|
+| [contour_width](/cells/tr/python-net/aspose.cells.drawing/threedformat/contour_width) | Şekildeki kontur genişliğini nokta birimi cinsinden alır ve ayarlar.|
 | [extrusion_color](/cells/tr/python-net/aspose.cells.drawing/threedformat/extrusion_color) | Bir şeklin ekstrüzyon rengini alır.|
 | [extrusion_height](/cells/tr/python-net/aspose.cells.drawing/threedformat/extrusion_height) | Şekle uygulanan ekstrüzyon yüksekliğini nokta birimi cinsinden alır ve ayarlar.|
 | [z](/cells/tr/python-net/aspose.cells.drawing/threedformat/z) | 3B şekil için yerden mesafeyi tanımlar.|
@@ -35,7 +35,7 @@ ThreeDFormat türü aşağıdaki üyeleri gösterir:
 | [perspective](/cells/tr/python-net/aspose.cells.drawing/threedformat/perspective) | Bir ThreeDFormat nesnesinin görüntülenebileceği açıyı alır ve ayarlar.|
 | [rotation_x](/cells/tr/python-net/aspose.cells.drawing/threedformat/rotation_x) | Kalıptan çekilmiş şeklin x ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar.|
 | [rotation_y](/cells/tr/python-net/aspose.cells.drawing/threedformat/rotation_y) | Ekstrüde şeklin y ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar.|
-| [rotation_z](/cells/tr/python-net/aspose.cells.drawing/threedformat/rotation_z) | Kalıptan çekilmiş şeklin z ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar.|
+| [rotation_z](/cells/tr/python-net/aspose.cells.drawing/threedformat/rotation_z) |Kalıptan çekilmiş şeklin z ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar.|
 | [preset_camera_type](/cells/tr/python-net/aspose.cells.drawing/threedformat/preset_camera_type) | Ekstrüzyon ön ayarlı kamera tipini alır ve ayarlar.|
 
 

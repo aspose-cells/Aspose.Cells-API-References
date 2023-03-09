@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.charts/plotdatabytype/
 is_root: false
 ---
 ##  PlotDataByType Aufzählung
-Stellt den Typ der Datenzeichnung nach Zeile oder Spalte dar.
+Stellt den Datentyp dar, der nach Zeile oder Spalte dargestellt wird.
 
 
 

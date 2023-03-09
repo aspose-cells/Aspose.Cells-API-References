@@ -1,13 +1,13 @@
 ﻿---
 title: OperatorType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2290
 url: /zh/python-net/aspose.cells/operatortype/
 is_root: false
 ---
-##  OperatorType枚举
+## OperatorType枚举
 表示条件格式和数据验证的运算符类型。
 
 

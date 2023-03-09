@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/calculationdata/get_param_value/
 is_root: false
 ---
 ##  get_param_value(index) {#int}
-Obtiene el objeto de valor representado del parámetro en el índice dado.
+Obtiene el objeto de valor representado del parámetro en el índice especificado.
 
 
 ###  Devoluciones
@@ -24,7 +24,7 @@ def get_param_value(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | índice del parámetro (basado en 0)|
 

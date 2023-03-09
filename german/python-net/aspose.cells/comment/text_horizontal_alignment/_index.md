@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den horizontalen Textausrichtungstyp des Kommentars ab und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import TextAlignmentType

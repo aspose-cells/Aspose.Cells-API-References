@@ -26,10 +26,10 @@ Typen PivotFieldSubtotalType avslöjar följande medlemmar:
 | MIN | Representerar min subtotaltyp.|
 | PRODUCT | Representerar produktsubtotaltyp.|
 | COUNT_NUMS | Representerar Count Nums subtotaltyp.|
-| STDEV | Representerar Stdev-subtotaltyp.|
+| STDEV |Representerar Stdev-subtotaltyp.|
 | STDEVP | Representerar Stdevp-subtotaltyp.|
 | VAR | Representerar Var subtotal typ.|
-| VARP |Representerar Varp subtotal typ.|
+| VARP | Representerar Varp subtotal typ.|
 
 
 

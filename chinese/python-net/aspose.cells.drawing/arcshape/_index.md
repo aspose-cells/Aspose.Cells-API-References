@@ -1,13 +1,13 @@
 ﻿---
 title: ArcShape类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.drawing/arcshape/
 is_root: false
 ---
-##  ArcShape类
+## ArcShape类
 表示弧形。
 
 

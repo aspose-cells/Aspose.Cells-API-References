@@ -17,12 +17,12 @@ Der Typ MsoLineDashStyle macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| DASH |Stellen Sie eine gestrichelte Linie dar.|
-| DASH_DOT | Stellt eine Strichpunktlinie dar.|
+| DASH | Stellen Sie eine gestrichelte Linie dar.|
+| DASH_DOT |Stellt eine Strichpunktlinie dar.|
 | DASH_DOT_DOT | Stellt eine Strich-Punkt-Punkt-Linie dar.|
 | DASH_LONG_DASH | Stellt eine Linie aus langem Strich und kurzem Strich dar.|
 | DASH_LONG_DASH_DOT | Stellt eine lange Strich-Kurz-Strich-Punkt-Linie dar.|
-| ROUND_DOT |Stellt eine Rundpunktlinie dar.|
+| ROUND_DOT | Stellt eine Rundpunktlinie dar.|
 | SOLID | Stellen Sie eine durchgezogene Linie dar.|
 | SQUARE_DOT | Stellt eine Quadrat-Punkt-Linie dar.|
 | CUSTOM | Benutzerdefinierter Dash-Stil.|

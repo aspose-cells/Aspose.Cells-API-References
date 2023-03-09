@@ -20,8 +20,8 @@ Der Typ PivotFieldDataDisplayFormat macht die folgenden Member verfügbar:
 | NORMAL | Stellt das normale Anzeigeformat dar.|
 | DIFFERENCE_FROM | Stellt den Unterschied zum Anzeigeformat dar.|
 | PERCENTAGE_OF | Stellt den Prozentsatz des Anzeigeformats dar.|
-| PERCENTAGE_DIFFERENCE_FROM |Stellt den prozentualen Unterschied zum Anzeigeformat dar.|
-| RUNNING_TOTAL_IN | Stellt die laufende Summe im Anzeigeformat dar.|
+| PERCENTAGE_DIFFERENCE_FROM | Stellt den prozentualen Unterschied zum Anzeigeformat dar.|
+| RUNNING_TOTAL_IN |Stellt die laufende Summe im Anzeigeformat dar.|
 | PERCENTAGE_OF_ROW | Stellt den Prozentsatz des Zeilenanzeigeformats dar.|
 | PERCENTAGE_OF_COLUMN | Stellt den Prozentsatz des Spaltenanzeigeformats dar.|
 | PERCENTAGE_OF_TOTAL | Stellt den Prozentsatz des gesamten Anzeigeformats dar.|

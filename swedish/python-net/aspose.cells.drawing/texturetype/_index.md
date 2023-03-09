@@ -22,9 +22,9 @@ Typen TextureType avslöjar följande medlemmar:
 | BROWN_MARBLE | Representerar texturtyp av brun marmor.|
 | CANVAS | Representerar Canvas texturtyp.|
 | CORK | Representerar korktexturtyp.|
-| DENIM | Representerar denim textur typ.|
+| DENIM |Representerar denim textur typ.|
 | FISH_FOSSIL | Representerar Fish Fossil texturtyp.|
-| GRANITE |Representerar granitstruktur.|
+| GRANITE | Representerar granitstruktur.|
 | GREEN_MARBLE | Representerar texturtyp av grön marmor.|
 | MEDIUM_WOOD | Representerar medium trästruktur.|
 | NEWSPRINT | Representerar texturtyp för tidningspapper.|

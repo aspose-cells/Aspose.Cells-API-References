@@ -19,7 +19,7 @@ Typen ConditionalFormattingResult avslöjar följande medlemmar:
 | :- | :- |
 | [conditional_style](/cells/sv/python-net/aspose.cells/conditionalformattingresult/conditional_style) | Får den villkorade resultatstilen.|
 | [conditional_formatting_icon](/cells/sv/python-net/aspose.cells/conditionalformattingresult/conditional_formatting_icon) | Får bilden av ikonuppsättningen.|
-| [conditional_formatting_data_bar](/cells/sv/python-net/aspose.cells/conditionalformattingresult/conditional_formatting_data_bar) | Hämtar DataBar-objektet.|
+| [conditional_formatting_data_bar](/cells/sv/python-net/aspose.cells/conditionalformattingresult/conditional_formatting_data_bar) |Hämtar DataBar-objektet.|
 | [conditional_formatting_color_scale](/cells/sv/python-net/aspose.cells/conditionalformattingresult/conditional_formatting_color_scale) | Hämtar ColorScale-objektet.|
 | [color_scale_result](/cells/sv/python-net/aspose.cells/conditionalformattingresult/color_scale_result) | Får färgskalans displayfärg.|
 

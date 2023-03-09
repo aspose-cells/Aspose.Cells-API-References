@@ -22,13 +22,13 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | dest_cell_name | str | الخلية الموجودة في الزاوية العلوية اليسرى من نطاق مقسم طريقة العرض.|
 | base_field_name | str | اسم PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -52,13 +52,13 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | dest_cell_name | str | الخلية الموجودة في الزاوية العلوية اليسرى من نطاق مقسم طريقة العرض.|
 | base_field_index | int | فهرس PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -82,13 +82,13 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | dest_cell_name | str | الخلية الموجودة في الزاوية العلوية اليسرى من نطاق مقسم طريقة العرض.|
 | base_field | aspose.cells.pivot.PivotField | PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -112,13 +112,13 @@ def add(self, table, index, dest_cell_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | كائن ListObject|
 | index | int | فهرس ListColumn في ListObject.ListColumns|
 | dest_cell_name | str | الخلية الموجودة في الزاوية العلوية اليسرى من نطاق مقسم طريقة العرض.|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -142,13 +142,13 @@ def add(self, table, list_column, dest_cell_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | كائن ListObject|
 | list_column | aspose.cells.tables.ListColumn | يعد ListColumn في ListObject.ListColumns|
 | dest_cell_name | str | الخلية الموجودة في الزاوية العلوية اليسرى من نطاق مقسم طريقة العرض.|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -172,14 +172,14 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من نطاق أداة تقطيع الشرائح.|
 | column | int | فهرس العمود للخلية في الزاوية العلوية اليسرى من نطاق القطاعة.|
 | base_field_name | str | اسم PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -203,14 +203,14 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من نطاق أداة تقطيع الشرائح.|
 | column | int | فهرس العمود للخلية في الزاوية العلوية اليسرى من نطاق القطاعة.|
 | base_field_index | int | فهرس PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -234,14 +234,14 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | كائن PivotTable|
+| pivot | aspose.cells.pivot.PivotTable |كائن PivotTable|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من نطاق أداة تقطيع الشرائح.|
 | column | int | فهرس العمود للخلية في الزاوية العلوية اليسرى من نطاق القطاعة.|
 | base_field | aspose.cells.pivot.PivotField | PivotField في PivotTable.BaseFields|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -265,14 +265,14 @@ def add(self, table, list_column, row, column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | كائن ListObject|
 | list_column | aspose.cells.tables.ListColumn | يعد ListColumn في ListObject.ListColumns|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من نطاق أداة تقطيع الشرائح.|
 | column | int | فهرس العمود للخلية في الزاوية العلوية اليسرى من نطاق القطاعة.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

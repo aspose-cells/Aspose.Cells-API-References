@@ -11,7 +11,7 @@ is_root: false
 
 Metin çerçevesinin kenar boşluğunun otomatik olup olmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

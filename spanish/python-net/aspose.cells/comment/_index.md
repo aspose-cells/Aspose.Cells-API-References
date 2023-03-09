@@ -23,14 +23,14 @@ El tipo Comment expone los siguientes miembros:
 | [column](/cells/es/python-net/aspose.cells/comment/column) | Obtiene el índice de columna del comentario.|
 | [is_threaded_comment](/cells/es/python-net/aspose.cells/comment/is_threaded_comment) | Indica si este comentario es un comentario encadenado.|
 | [threaded_comments](/cells/es/python-net/aspose.cells/comment/threaded_comments) | Obtiene la lista de comentarios encadenados;|
-| [note](/cells/es/python-net/aspose.cells/comment/note) | Representa el contenido del comentario.|
-| [html_note](/cells/es/python-net/aspose.cells/comment/html_note) |Obtiene y establece la cadena html que contiene datos y algunos formatos en este comentario.|
+| [note](/cells/es/python-net/aspose.cells/comment/note) | Representa el contenido de los comentarios.|
+| [html_note](/cells/es/python-net/aspose.cells/comment/html_note) | Obtiene y establece la cadena html que contiene datos y algunos formatos en este comentario.|
 | [font](/cells/es/python-net/aspose.cells/comment/font) | Obtiene la fuente del comentario.|
 | [is_visible](/cells/es/python-net/aspose.cells/comment/is_visible) | Representa si el comentario es visible o no.|
 | [text_orientation_type](/cells/es/python-net/aspose.cells/comment/text_orientation_type) | Obtiene y establece el tipo de orientación del texto del comentario.|
 | [text_horizontal_alignment](/cells/es/python-net/aspose.cells/comment/text_horizontal_alignment) | Obtiene y establece el tipo de alineación horizontal del texto del comentario.|
 | [text_vertical_alignment](/cells/es/python-net/aspose.cells/comment/text_vertical_alignment) | Obtiene y establece el tipo de alineación vertical del texto del comentario.|
-| [auto_size](/cells/es/python-net/aspose.cells/comment/auto_size) | Indica si el tamaño del comentario se ajusta automáticamente según su contenido.|
+| [auto_size](/cells/es/python-net/aspose.cells/comment/auto_size) |Indica si el tamaño del comentario se ajusta automáticamente según su contenido.|
 | [height_cm](/cells/es/python-net/aspose.cells/comment/height_cm) | Representa la altura del comentario, en unidades de centímetros.|
 | [width_cm](/cells/es/python-net/aspose.cells/comment/width_cm) | Representa el ancho del comentario, en unidades de centímetros.|
 | [width](/cells/es/python-net/aspose.cells/comment/width) | Representa el ancho del comentario, en unidades de píxeles.|

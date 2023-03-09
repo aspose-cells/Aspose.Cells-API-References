@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  max_row_height propiedad
 
-Obtiene y establece la altura máxima de la fila (en unidades de punto) cuando se ajustan automáticamente las filas.
+Obtiene y establece la altura máxima de fila (en unidades de punto) cuando se ajustan automáticamente las filas.
 ###  Definición:
 ```python
 @property

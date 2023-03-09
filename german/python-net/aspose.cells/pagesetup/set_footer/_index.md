@@ -20,7 +20,7 @@ def set_footer(self, section, footer_script):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| section | int |0: Linker Abschnitt, 1: Mittlerer Abschnitt, 2: Rechter Abschnitt.|
+| section | int | 0: Linker Abschnitt, 1: Mittlerer Abschnitt, 2: Rechter Abschnitt.|
 | footer_script | str | Skript für das Fußzeilenformat.|
 ###  Bemerkungen
 
@@ -36,8 +36,8 @@ Skriptbefehle:
 | &F| Dateiname ohne Pfad|
 | &"<FontName>"| Schriftartname, zum Beispiel: &"Arial"|
 | &"<FontName>, <FontStyle>"| Schriftname und Schriftstil, zum Beispiel: &"Arial,Bold"|
-| &<FontSize>| Schriftgröße. Folgt diesem Befehl eine einfache Zahl, die in der Kopfzeile ausgegeben werden soll, wird diese durch ein Leerzeichen von der Schrifthöhe getrennt.|
-| &K<RRGGBB>| Schriftfarbe, zum Beispiel (ROT): &KFF0000|
+| &<FontSize>| Schriftgröße Folgt diesem Befehl eine einfache Zahl, die in der Kopfzeile gedruckt werden soll, wird diese durch ein Leerzeichen von der Schrifthöhe getrennt.|
+| &K<RRGGBB>|Schriftfarbe, zum Beispiel (ROT): &KFF0000|
 | &G| Bildskript|
 
 Zum Beispiel: „&Arial,Bold&8Footer Note“

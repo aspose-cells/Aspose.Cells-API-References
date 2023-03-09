@@ -1,13 +1,13 @@
 ﻿---
 title: Scenario类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1330
 url: /zh/python-net/aspose.cells/scenario/
 is_root: false
 ---
-##  Scenario类
+## Scenario类
 代表一个单独的场景。
 
 

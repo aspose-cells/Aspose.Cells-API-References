@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Метафайлы EMF, обозначенные как «EMF+ Dual», могут содержать как записи EMF+, так и записи EMF.
+ Метафайлы EMF, обозначенные как «EMF+ Dual», могут содержать как записи EMF+, так и записи EMF.
 Для рендеринга изображения можно использовать записи любого типа, только EMF+ записей или только EMF записей.
 Если установлено значение [EmfRenderSetting.EMF_PLUS_PREFER](/cells/ru/python-net/aspose.cells/emfrendersetting#EMF_PLUS_PREFER), то при рендеринге в pdf будет проанализировано более EMF записей, в противном случае будет проанализировано только EMF записей.
 Значение по умолчанию — [EmfRenderSetting.EMF_ONLY](/cells/ru/python-net/aspose.cells/emfrendersetting#EMF_ONLY).

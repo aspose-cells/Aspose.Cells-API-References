@@ -18,11 +18,11 @@ def copy(self, range):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | range | [Range](/cells/ru/python-net/aspose.cells/range) | Источник [Range](/cells/ru/python-net/aspose.cells/range) объект.|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook
@@ -52,7 +52,7 @@ def copy(self, range, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | range | [Range](/cells/ru/python-net/aspose.cells/range) | Исходный диапазон.|
 | options | [PasteOptions](/cells/ru/python-net/aspose.cells/pasteoptions) | Вставить специальные параметры.|

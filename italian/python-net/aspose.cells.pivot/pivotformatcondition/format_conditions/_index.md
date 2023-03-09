@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  format_conditions proprietà
 
-Ottieni formatconditions per la condizione della tabella pivot format .
+Ottieni condizioni di formato per il formato della condizione della tabella pivot .
 ###  Definizione:
 ```python
 @property

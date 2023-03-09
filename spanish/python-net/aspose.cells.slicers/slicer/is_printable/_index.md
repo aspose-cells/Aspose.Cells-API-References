@@ -11,7 +11,7 @@ is_root: false
 
 Indica si el objeto de segmentación es imprimible.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

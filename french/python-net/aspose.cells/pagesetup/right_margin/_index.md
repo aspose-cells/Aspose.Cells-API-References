@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin propriété
 
-Représente la taille de la marge droite, en centimètres.
+Représente la taille de la marge de droite, en centimètres.
 ###  Définition:
 ```python
 @property

@@ -18,7 +18,7 @@ def add(self, cficon):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | cficon | [ConditionalFormattingIcon](/cells/ru/python-net/aspose.cells/conditionalformattingicon) | Возвращает индекс нового объекта в списке.|
 
@@ -38,7 +38,7 @@ def add(self, type, index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [IconSetType](/cells/ru/python-net/aspose.cells/iconsettype) | Тип значения.|
 | index | int | Индекс.|

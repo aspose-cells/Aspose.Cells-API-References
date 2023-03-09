@@ -18,12 +18,12 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| link_to_file | bool | Nesnenin dosyaya bağlanıp bağlanmadığını gösterir. True ise, objectData parametresi dikkate alınmaz.|
+| link_to_file | bool | Nesnenin dosyaya bağlanıp bağlanmadığını gösterir.True ise, objectData parametresi dikkate alınmaz.|
 | object_data | bytes | Gömülü nesne verileri.|
 | source_file_name | str | Dosya adı.|
-| display_as_icon | bool | Nesnenin bir simge olarak gösterilip gösterilmediğini gösterir.<br/> Doğruysa, orijinal görüntü verileri simgeyle kaplanacaktır.|
+| display_as_icon | bool | Nesnenin bir simge olarak görüntülenip görüntülenmediğini belirtir.<br/> Doğruysa, orijinal görüntü verileri simgeyle kaplanacaktır.|
 | label | str | Simge etiketi. Yalnızca displayAsIcon true olduğunda çalışır.|
 
 
@@ -38,12 +38,12 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| link_to_file | bool | Nesnenin dosyaya bağlanıp bağlanmadığını gösterir. True ise, objectData parametresi dikkate alınmaz.|
+| link_to_file | bool | Nesnenin dosyaya bağlanıp bağlanmadığını gösterir.True ise, objectData parametresi dikkate alınmaz.|
 | object_data | bytes | Gömülü nesne verileri.|
 | source_file_name | str | Dosya adı.|
-| display_as_icon | bool | Nesnenin bir simge olarak gösterilip gösterilmediğini gösterir.<br/> Doğruysa, orijinal görüntü verileri simgeyle kaplanacaktır.|
+| display_as_icon | bool | Nesnenin bir simge olarak görüntülenip görüntülenmediğini belirtir.<br/> Doğruysa, orijinal görüntü verileri simgeyle kaplanacaktır.|
 | label | str | Simge etiketi. Yalnızca displayAsIcon true olduğunda çalışır.|
 | update_icon | bool | Simgenin otomatik olarak güncellenip güncellenmediğini gösterir.|
 ###  Notlar

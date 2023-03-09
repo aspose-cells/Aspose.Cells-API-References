@@ -15,7 +15,7 @@ Obtient ou définit l'objet par défaut [Style](/cells/fr/python-net/aspose.cell
 
 La propriété DefaultStyle est utile pour implémenter un style pour l'ensemble du classeur.
 
-###  Exemple
+###  Exemples
 
 Le code suivant crée et instancie un nouveau classeur et lui définit une valeur par défaut [Style](/cells/fr/python-net/aspose.cells/style).
 

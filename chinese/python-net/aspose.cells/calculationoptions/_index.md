@@ -1,13 +1,13 @@
 ﻿---
 title: CalculationOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 130
 url: /zh/python-net/aspose.cells/calculationoptions/
 is_root: false
 ---
-##  CalculationOptions类
+## CalculationOptions类
 表示计算选项。
 
 
@@ -29,7 +29,7 @@ CalculationOptions 类型公开了以下成员：
 | [calculation_monitor](/cells/zh/python-net/aspose.cells/calculationoptions/calculation_monitor) |供用户跟踪公式计算进度的监视器。|
 | [calc_stack_size](/cells/zh/python-net/aspose.cells/calculationoptions/calc_stack_size) |指定用于递归计算单元格的堆栈大小。|
 | [precision_strategy](/cells/zh/python-net/aspose.cells/calculationoptions/precision_strategy) |指定处理计算精度的策略。|
-| [recursive](/cells/zh/python-net/aspose.cells/calculationoptions/recursive) |指示在计算一个单元格时是否递归计算依赖单元格，并且依赖于其他单元格。|
+| [recursive](/cells/zh/python-net/aspose.cells/calculationoptions/recursive) |指示在计算一个单元格时是否递归计算依赖单元格，并且它依赖于其他单元格。|
 
 
 

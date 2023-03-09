@@ -13,7 +13,7 @@ Obtiene la colección de celdas combinadas.
 
 ###  Observaciones
 
-En esta colección, cada elemento es una estructura [CellArea](/cells/es/python-net/aspose.cells/cellarea) que representa un área de celdas combinadas.
+En esta colección, cada elemento es una estructura [CellArea](/cells/es/python-net/aspose.cells/cellarea) que representa un área de celdas fusionadas.
 ###  Definición:
 ```python
 @property

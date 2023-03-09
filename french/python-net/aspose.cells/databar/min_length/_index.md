@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  min_length propriété
 
-Représente la longueur minimale de la barre de données .
+Représente la longueur minimale de la barre de données.
 ###  Définition:
 ```python
 @property

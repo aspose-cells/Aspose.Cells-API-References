@@ -11,7 +11,7 @@ is_root: false
 
 يحدد قبعات النهاية.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import LineCapType

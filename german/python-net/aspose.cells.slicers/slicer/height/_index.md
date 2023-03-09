@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den height des angegebenen Slicers in Punkten zurück oder legt ihn fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

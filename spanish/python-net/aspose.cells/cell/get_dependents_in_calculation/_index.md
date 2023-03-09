@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, recursive):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | recursive | bool | Si devuelve aquellos dependientes que no hacen referencia a esta celda directamente<br/> pero referencia a otras hojas de esta celda|
 ###  Observaciones
@@ -30,7 +30,7 @@ def get_dependents_in_calculation(self, recursive):
 Para usar este método, asegúrese de que el libro de trabajo se haya configurado con el valor verdadero para
 [FormulaSettings.enable_calculation_chain](/cells/es/python-net/aspose.cells/formulasettings#enable_calculation_chain) y se ha calculado completamente con esta configuración.
 Si no hay una referencia de fórmula a esta celda, se devolverá un valor nulo.
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

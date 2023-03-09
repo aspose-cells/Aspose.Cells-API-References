@@ -18,7 +18,7 @@ def insert_row(self, row_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row_index | int | Indice di riga.|
 

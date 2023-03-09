@@ -1,6 +1,6 @@
 ﻿---
 title: string_value_without_format 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 690
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-注意：此方法现已过时。反而，
+注意：此方法现已过时。
 用户应获取值对象并根据值类型和特定要求对其进行格式化。
 自 2020 年 12 月起，此属性将在 12 个月后移除。
 Aspose 对您可能遇到的任何不便深表歉意。

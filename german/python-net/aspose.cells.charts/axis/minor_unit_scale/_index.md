@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Haupteinheitsskala für die Kategorieachse dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

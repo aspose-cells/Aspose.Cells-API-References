@@ -18,7 +18,7 @@ def changeitems_order(self, source_index, dest_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | source_index | int | الفهرس الحالي|
 | dest_index | int | فهرس التوزيعات|

@@ -17,7 +17,7 @@ Le type FillFormat expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [type](/cells/fr/python-net/aspose.cells.drawing/fillformat/type) | Obtient et définit le type de remplissage.|
+| [type](/cells/fr/python-net/aspose.cells.drawing/fillformat/type) |Obtient et définit le type de remplissage.|
 | [fill_type](/cells/fr/python-net/aspose.cells.drawing/fillformat/fill_type) | Obtient et définit le type de remplissage|
 | [transparency](/cells/fr/python-net/aspose.cells.drawing/fillformat/transparency) | Renvoie ou définit le degré de transparence de la zone sous la forme d'une valeur comprise entre 0,0 (opaque) et 1,0 (clair).|
 | [set_type](/cells/fr/python-net/aspose.cells.drawing/fillformat/set_type) | Obtient le type de jeu de format de remplissage.|
@@ -49,7 +49,7 @@ Le type FillFormat expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

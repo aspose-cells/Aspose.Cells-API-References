@@ -18,7 +18,7 @@ def add_fill_color_filter(self, field_index, pattern, foreground_color, backgrou
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | field_index | int | L'intero offset del campo su cui si desidera basare il filtro<br/> (da sinistra dell'elenco; il campo più a sinistra è il campo 0).|
 | pattern | [BackgroundType](/cells/it/python-net/aspose.cells/backgroundtype) | Il tipo di motivo di sfondo.|

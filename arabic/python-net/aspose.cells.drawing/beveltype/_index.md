@@ -25,7 +25,7 @@ is_root: false
 | COOL_SLANT | ميل بارد|
 | CROSS | يعبر|
 | DIVOT | ديفوت|
-| HARD_EDGE | حافة صلبة|
+| HARD_EDGE | حواف صلبة|
 | RELAXED_INSET | استرخاء أقحم|
 | RIBLET | ريبليت|
 | SLOPE | ميل|

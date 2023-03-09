@@ -27,7 +27,7 @@ def process_cell(self, cell):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Cell objekt som bearbetas för närvarande|
 ###  Anmärkningar

@@ -18,7 +18,7 @@ def un_merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Bu aralığın ilk satırı (sıfır tabanlı)|
 | first_column | int | Bu aralığın ilk sütunu (sıfır tabanlı)|

@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/jsonsaveoptions/__init__/
 is_root: false
 ---
 ##  JsonSaveOptions() {#}
-Json dosyasını kaydetmek için seçenekler oluşturur.
+Json dosyalarını kaydetmek için seçenekler oluşturur.
 
 
 

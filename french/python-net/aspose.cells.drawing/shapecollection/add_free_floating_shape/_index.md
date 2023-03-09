@@ -22,17 +22,17 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/fr/python-net/aspose.cells.drawing/msodrawingtype) | Le type de forme.|
-| top | int |Représente le décalage vertical de la forme par rapport à la ligne supérieure de la feuille de calcul, en pixels.|
-| left | int | Représente le décalage horizontal de la forme par rapport à la colonne de gauche de la feuille de calcul, en pixels.|
+| top | int | Représente le décalage vertical de la forme par rapport à la ligne supérieure de la feuille de calcul, en pixels.|
+| left | int |Représente le décalage horizontal de la forme par rapport à la colonne de gauche de la feuille de calcul, en pixels.|
 | height | int | Représente la hauteur de LineShape, en unité de pixel.|
 | width | int | Représente la largeur de LineShape, en unité de pixel.|
 | image_data | bytes | Les données d'image ne s'appliquent qu'à l'image.|
 | is_original_size | bool | Indique si la forme utilise la taille d'origine si la forme est une image.|
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose import pycore

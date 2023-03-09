@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el tipo de flecha de inicio de la línea.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import MsoArrowheadStyle

@@ -9,14 +9,14 @@ is_root: false
 ---
 ##  edit_page propriété
 
-L'URL de la page Web accessible à l'utilisateur affichant les données de la requête Web. Cette URL est persistante
+L'URL de la page Web accessible à l'utilisateur affichant les données de la requête Web.
 dans le cas où sourceData="true" et url ont été redirigés pour référencer un fichier XML.
 Ensuite, la page destinée à l'utilisateur peut être affichée dans l'interface utilisateur et les données XML peuvent être récupérées
 Dans les coulisses.
 
 ###  Remarques
 
- REMARQUE : Cette propriété est désormais obsolète. Plutôt,
+ REMARQUE : Cette propriété est désormais obsolète.
 veuillez utiliser la propriété WebQueryConnection.EditWebPage.
  Cette propriété sera supprimée 12 mois plus tard depuis octobre 2017.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

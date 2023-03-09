@@ -22,11 +22,11 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [compound_type](/cells/ru/python-net/aspose.cells.charts/trendline/compound_type) |Задает тип составной линии|
+| [compound_type](/cells/ru/python-net/aspose.cells.charts/trendline/compound_type) | Задает тип составной линии|
 | [dash_type](/cells/ru/python-net/aspose.cells.charts/trendline/dash_type) | Указывает тип пунктирной линии|
 | [cap_type](/cells/ru/python-net/aspose.cells.charts/trendline/cap_type) | Определяет конечные заглавные буквы.|
 | [join_type](/cells/ru/python-net/aspose.cells.charts/trendline/join_type) | Определяет соединительные заглавные буквы.|
-| [begin_type](/cells/ru/python-net/aspose.cells.charts/trendline/begin_type) | Указывает стрелку для начала строки.|
+| [begin_type](/cells/ru/python-net/aspose.cells.charts/trendline/begin_type) |Указывает стрелку для начала строки.|
 | [end_type](/cells/ru/python-net/aspose.cells.charts/trendline/end_type) | Задает стрелку для конца строки.|
 | [begin_arrow_length](/cells/ru/python-net/aspose.cells.charts/trendline/begin_arrow_length) | Определяет длину стрелки для начала строки.|
 | [end_arrow_length](/cells/ru/python-net/aspose.cells.charts/trendline/end_arrow_length) | Задает длину стрелки для конца строки.|
@@ -40,26 +40,26 @@ is_root: false
 | [weight_pt](/cells/ru/python-net/aspose.cells.charts/trendline/weight_pt) | Получает или задает вес линии в пунктах.|
 | [weight_px](/cells/ru/python-net/aspose.cells.charts/trendline/weight_px) | Получает или задает вес линии в пикселях.|
 | [formatting_type](/cells/ru/python-net/aspose.cells.charts/trendline/formatting_type) | Получает или задает тип формата.|
-| [is_automatic_color](/cells/ru/python-net/aspose.cells.charts/trendline/is_automatic_color) |Указывает, назначается ли цвет линии автоматически.|
+| [is_automatic_color](/cells/ru/python-net/aspose.cells.charts/trendline/is_automatic_color) | Указывает, назначается ли цвет линии автоматически.|
 | [is_visible](/cells/ru/python-net/aspose.cells.charts/trendline/is_visible) | Указывает, видна ли линия.|
 | [is_auto](/cells/ru/python-net/aspose.cells.charts/trendline/is_auto) | Указывает, назначается ли этот стиль линии автоматически.|
 | [gradient_fill](/cells/ru/python-net/aspose.cells.charts/trendline/gradient_fill) | Представляет градиентную заливку.|
 | [is_name_auto](/cells/ru/python-net/aspose.cells.charts/trendline/is_name_auto) | Возвращает, если Microsoft Excel автоматически определяет имя линии тренда.|
 | [type](/cells/ru/python-net/aspose.cells.charts/trendline/type) | Возвращает тип линии тренда.|
 | [name](/cells/ru/python-net/aspose.cells.charts/trendline/name) | Возвращает имя линии тренда.|
-| [order](/cells/ru/python-net/aspose.cells.charts/trendline/order) |Возвращает или задает порядок линии тренда (целое число больше 1), если тип линии тренда полиномиальный.<br/> Порядок должен быть от 2 до 6.|
+| [order](/cells/ru/python-net/aspose.cells.charts/trendline/order) | Возвращает или задает порядок линии тренда (целое число больше 1), если тип линии тренда полиномиальный.<br/> Порядок должен быть от 2 до 6.|
 | [period](/cells/ru/python-net/aspose.cells.charts/trendline/period) | Возвращает или задает период для линии тренда скользящей средней.|
-| [forward](/cells/ru/python-net/aspose.cells.charts/trendline/forward) | Возвращает или задает количество периодов (или единиц на точечной диаграмме), на которое линия тренда продолжается вперед.<br/>Количество периодов должно быть больше или равно нулю.|
+| [forward](/cells/ru/python-net/aspose.cells.charts/trendline/forward) | Возвращает или задает количество периодов (или единиц на точечной диаграмме), на которое линия тренда продолжается вперед.<br/> Количество периодов должно быть больше или равно нулю.|
 | [backward](/cells/ru/python-net/aspose.cells.charts/trendline/backward) | Возвращает или задает количество периодов (или единиц на точечной диаграмме), на которые линия тренда тянется назад.<br/>Количество периодов должно быть больше или равно нулю.<br/> Если тип диаграммы — столбец, количество периодов должно быть от 0 до 0,5.|
-| [display_equation](/cells/ru/python-net/aspose.cells.charts/trendline/display_equation) | Указывает, отображается ли уравнение для линии тренда на диаграмме (в той же метке данных, что и значение R-квадрата). Установка для этого свойства значения True автоматически включает метки данных.|
-| [display_r_squared](/cells/ru/python-net/aspose.cells.charts/trendline/display_r_squared) | Указывает, отображается ли на диаграмме значение R-квадрата линии тренда (в той же метке данных, что и уравнение). Установка для этого свойства значения True автоматически включает метки данных.|
+| [display_equation](/cells/ru/python-net/aspose.cells.charts/trendline/display_equation) |Указывает, отображается ли уравнение для линии тренда на диаграмме (в той же метке данных, что и значение R-квадрата).|
+| [display_r_squared](/cells/ru/python-net/aspose.cells.charts/trendline/display_r_squared) | Указывает, отображается ли на диаграмме значение R-квадрата линии тренда (в той же метке данных, что и уравнение).Установка этого свойства в значение True автоматически включает метки данных.|
 | [intercept](/cells/ru/python-net/aspose.cells.charts/trendline/intercept) | Возвращает или задает точку, в которой линия тренда пересекает ось значений.|
 | [data_labels](/cells/ru/python-net/aspose.cells.charts/trendline/data_labels) | Представляет объект DataLabels для указанной серии.|
 | [legend_entry](/cells/ru/python-net/aspose.cells.charts/trendline/legend_entry) | Получает запись легенды в соответствии с этой линией тренда|
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

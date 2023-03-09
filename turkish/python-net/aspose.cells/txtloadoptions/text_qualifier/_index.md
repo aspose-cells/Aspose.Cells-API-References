@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_qualifier mülk
 
-Hücre değerleri için metin niteleyicisini belirtir. Varsayılan niteleyici '''' şeklindedir.
+Hücre değerleri için metin niteleyicisini belirtir.Varsayılan niteleyici '"' şeklindedir.
 
 ###  Notlar
 

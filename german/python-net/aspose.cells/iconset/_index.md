@@ -21,14 +21,14 @@ Der Typ IconSet macht die folgenden Member verfügbar:
 | :- | :- |
 | [cf_icons](/cells/de/python-net/aspose.cells/iconset/cf_icons) | Holen Sie sich die [ConditionalFormattingIcon](/cells/de/python-net/aspose.cells/conditionalformattingicon) aus der Kollektion|
 | [cfvos](/cells/de/python-net/aspose.cells/iconset/cfvos) | Rufen Sie die CFValueObjects-Instanz ab.|
-| [type](/cells/de/python-net/aspose.cells/iconset/type) | Abrufen oder Festlegen des anzuzeigenden Symbolsatztyps.<br/>Durch das Festlegen des Typs wird automatisch überprüft, ob die aktuelle Cfvos-Zählung lautet<br/> dem neuen Typ entsprechen. Wenn nicht übereinstimmen, werden alte Cfvos gereinigt und<br/> Standard-Cfvos werden hinzugefügt.|
-| [is_custom](/cells/de/python-net/aspose.cells/iconset/is_custom) |Gibt an, ob der Symbolsatz benutzerdefiniert ist.<br/> Der Standardwert ist falsch.|
+| [type](/cells/de/python-net/aspose.cells/iconset/type) | Abrufen oder Festlegen des anzuzeigenden Symbolsatztyps.<br/>Durch das Festlegen des Typs wird automatisch überprüft, ob die aktuelle Cfvos-Zählung lautet<br/> Übereinstimmung mit der neuen Art. Bei Nichtübereinstimmung werden alte Cfvos gereinigt und<br/> Standard-Cfvos werden hinzugefügt.|
+| [is_custom](/cells/de/python-net/aspose.cells/iconset/is_custom) | Gibt an, ob der Symbolsatz benutzerdefiniert ist.<br/> Der Standardwert ist falsch.|
 | [show_value](/cells/de/python-net/aspose.cells/iconset/show_value) | Holen oder setzen Sie das Flag, das angibt, ob die Werte der Zellen angezeigt werden sollen, auf die dieser Symbolsatz angewendet wird.<br/> Der Standardwert ist wahr.|
 | [reverse](/cells/de/python-net/aspose.cells/iconset/reverse) | Holen oder setzen Sie das Flag, das angibt, ob die Standardreihenfolge der Symbole in diesem Symbolsatz umgekehrt werden soll.<br/> Der Standardwert ist falsch.|
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, IconSetType, Workbook

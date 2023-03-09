@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_decimal_separator mülk
 
-Sayısal değerleri biçimlendirmek/ayrıştırmak için ondalık ayırıcıyı alır veya ayarlar. Varsayılan, geçerli Bölgenin ondalık ayırıcısıdır.
+Sayısal değerleri biçimlendirmek/ayrıştırmak için ondalık ayırıcıyı alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_inch Eigentum
 
-Die Breite des Fensters in Zoll.
+Die Breite des Fensters in Zolleinheiten.
 ###  Definition:
 ```python
 @property

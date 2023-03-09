@@ -1,6 +1,6 @@
 ﻿---
 title: remove_array_formula方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 280
@@ -18,7 +18,7 @@ def remove_array_formula(self, leave_normal_formula):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | leave_normal_formula | bool | True 表示将数组公式转换为普通公式。|
 

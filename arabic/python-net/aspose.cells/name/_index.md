@@ -32,17 +32,17 @@ is_root: false
 | :- | :- |
 | [get_refers_to(is_r1c1, is_local)](/cells/ar/python-net/aspose.cells/name/get_refers_to/#bool-bool) | احصل على مرجع هذا الاسم.|
 | [get_refers_to(is_r1c1, is_local, row, column)](/cells/ar/python-net/aspose.cells/name/get_refers_to/#bool-bool-int-int) | احصل على مرجع هذا الاسم بناءً على الخلية المحددة.|
-| [get_ranges()](/cells/ar/python-net/aspose.cells/name/get_ranges/#) | يحصل على جميع النطاقات المشار إليها بهذا الاسم.|
-| [get_ranges(recalculate)](/cells/ar/python-net/aspose.cells/name/get_ranges/#bool) | يحصل على جميع النطاقات المشار إليها بهذا الاسم.|
+| [get_ranges()](/cells/ar/python-net/aspose.cells/name/get_ranges/#) |يحصل على جميع النطاقات المشار إليها بهذا الاسم.|
+| [get_ranges(recalculate)](/cells/ar/python-net/aspose.cells/name/get_ranges/#bool) |يحصل على جميع النطاقات المشار إليها بهذا الاسم.|
 | [get_range()](/cells/ar/python-net/aspose.cells/name/get_range/#) | يحصل على النطاق إذا كان هذا الاسم يشير إلى نطاق.|
 | [get_range(recalculate)](/cells/ar/python-net/aspose.cells/name/get_range/#bool) | يحصل على النطاق إذا كان هذا الاسم يشير إلى نطاق|
-| [get_range(sheet_index, row, column)](/cells/ar/python-net/aspose.cells/name/get_range/#int-int-int) | يحصل على النطاق إذا كان هذا الاسم يشير إلى نطاق.<br/> إذا لم يكن مرجع هذا الاسم مطلقًا ، فقد يكون النطاق مختلفًا لخلية مختلفة.|
+| [get_range(sheet_index, row, column)](/cells/ar/python-net/aspose.cells/name/get_range/#int-int-int) | يحصل على النطاق إذا كان هذا الاسم يشير إلى نطاق.<br/> إذا لم يكن مرجع هذا الاسم مطلقًا ، فقد يختلف النطاق باختلاف الخلايا.|
 | [set_refers_to(refers_to, is_r1c1, is_local)](/cells/ar/python-net/aspose.cells/name/set_refers_to/#str-bool-bool) | قم بتعيين مرجع هذا الاسم.|
 | [get_referred_areas(recalculate)](/cells/ar/python-net/aspose.cells/name/get_referred_areas/#bool) | يحصل على جميع المراجع المشار إليها بهذا الاسم.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

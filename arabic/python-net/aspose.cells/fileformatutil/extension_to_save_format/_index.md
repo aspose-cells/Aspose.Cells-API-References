@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| extension | str | امتداد الملف. يمكن أن يكون بنقطة بادئة أو بدونها. حالة الأحرف.|
+| extension | str | امتداد الملف. يمكن أن يكون بنقطة بادئة أو بدونها.|
 ###  ملاحظات
 
 إذا تعذر التعرف على الامتداد ، يتم إرجاع [SaveFormat.UNKNOWN](/cells/ar/python-net/aspose.cells/saveformat#UNKNOWN).

@@ -11,7 +11,7 @@ is_root: false
 
 Indique si le rapport hauteur/largeur est verrouillé.
 
-###  Exemple
+###  Exemples
 
 ```python
 

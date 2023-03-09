@@ -13,7 +13,7 @@ Indica si se analiza la fórmula al leer el archivo.
 
 ###  Observaciones
 
-Solo aplica para archivo Excel Xlsx, Xltx, Xltm y Xlsm
+Solo aplica para archivos Excel Xlsx, Xltx, Xltm y Xlsm
 porque las fórmulas en los archivos se almacenan con una fórmula de cadena.
 NOTA: Este miembro ahora está obsoleto. En su lugar, utilice LoadOptions.ParsingFormulaOnOpen.
  Esta propiedad se eliminará 12 meses después desde enero de 2020.

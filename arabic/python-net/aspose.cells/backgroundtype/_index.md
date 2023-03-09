@@ -18,18 +18,18 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | DIAGONAL_CROSSHATCH | يمثل نمط التظليل المتقاطع القطري.|
-| DIAGONAL_STRIPE | يمثل نمط شريط قطري.|
-| GRAY6 | يمثل 6.25٪ نمط رمادي|
+| DIAGONAL_STRIPE | يمثل نمط شريطي قطري.|
+| GRAY6 |يمثل 6.25٪ نمط رمادي|
 | GRAY12 | يمثل 12.5٪ نمط رمادي|
 | GRAY25 | يمثل 25٪ نمط رمادي.|
-| GRAY50 |يمثل 50٪ نمط رمادي.|
+| GRAY50 | يمثل 50٪ نمط رمادي.|
 | GRAY75 | يمثل 75٪ نمط رمادي.|
 | HORIZONTAL_STRIPE | يمثل نمط شريط أفقي.|
 | NONE | لا يمثل أي خلفية.|
 | REVERSE_DIAGONAL_STRIPE | يمثل نمط شريط قطري معكوس.|
 | SOLID | يمثل نمط صلب.|
 | THICK_DIAGONAL_CROSSHATCH | يمثل نمط التظليل المتقاطع القطري السميك.|
-| THIN_DIAGONAL_CROSSHATCH | يمثل نمط التظليل المتقاطع القطري الرقيق.|
+| THIN_DIAGONAL_CROSSHATCH | يمثل أنماطًا متقاطعة قطرية رفيعة.|
 | THIN_DIAGONAL_STRIPE | يمثل نمط شريطي رقيق قطري.|
 | THIN_HORIZONTAL_CROSSHATCH | يمثل نمط التظليل الأفقي الرفيع.|
 | THIN_HORIZONTAL_STRIPE | يمثل نمط شريط أفقي رقيق.|

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_inch propriété
 
-La hauteur de la fenêtre, en unité de pouce.
+La hauteur de la fenêtre, en unités de pouces.
 ###  Définition:
 ```python
 @property

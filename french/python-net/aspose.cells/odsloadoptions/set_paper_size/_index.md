@@ -18,7 +18,7 @@ def set_paper_size(self, type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [PaperSizeType](/cells/fr/python-net/aspose.cells/papersizetype) | Le format de papier par défaut.|
 ###  Remarques

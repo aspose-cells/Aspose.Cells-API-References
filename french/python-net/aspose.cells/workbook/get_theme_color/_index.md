@@ -22,7 +22,7 @@ def get_theme_color(self, type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/fr/python-net/aspose.cells/themecolortype) | Le type de couleur du thème.|
 

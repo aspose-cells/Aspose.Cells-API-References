@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/autofilter/match_non_blanks/
 is_root: false
 ---
 ##  match_non_blanks(field_index) {#int}
-Übereinstimmung mit allen nicht leeren Zellen in der Liste.
+Ordnen Sie alle nicht leeren Zellen in der Liste zu.
 
 
 

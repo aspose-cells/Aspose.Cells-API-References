@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_size Eigentum
 
-Repräsentiert die Markergröße in Punkteinheiten. Gilt für Liniendiagramme, Streudiagramme oder Netzdiagramme.
+Stellt die Markierungsgröße in Punkteinheiten dar. Gilt für Liniendiagramme, Streudiagramme oder Netzdiagramme.
 ###  Definition:
 ```python
 @property

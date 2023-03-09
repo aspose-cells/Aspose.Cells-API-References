@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list propiedad
 
-Obtiene si habilita la lista de campos para la tabla dinámica.
+Obtiene si se habilita la lista de campos para la tabla dinámica.
 ###  Definición:
 ```python
 @property

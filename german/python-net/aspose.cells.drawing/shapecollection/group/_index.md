@@ -29,7 +29,7 @@ def group(self, group_items):
 
 Die Form in den groupItems sollte nicht gruppiert werden.
 Die Form muss sich in dieser Shapes-Sammlung befinden.
-###  Beispiel
+###  Beispiele
 
 ```python
 

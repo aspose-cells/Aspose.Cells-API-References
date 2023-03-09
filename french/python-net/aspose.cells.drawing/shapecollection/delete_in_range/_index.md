@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing/shapecollection/delete_in_range/
 is_root: false
 ---
 ##  delete_in_range(ca) {#CellArea}
-Supprimez les formes de la plage. Les formes de commentaire ne seront pas supprimées.
+Supprimer les formes de la plage. Les formes de commentaire ne seront pas supprimées.
 
 
 
@@ -18,11 +18,11 @@ def delete_in_range(self, ca):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| ca | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | La plage. Si les formes sont contenues dans la plage, elles seront supprimées.|
+| ca | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) |La plage. Si les formes sont contenues dans la plage, elles seront supprimées.|
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import CellArea

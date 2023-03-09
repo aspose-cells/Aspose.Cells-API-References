@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType enumeración
-Representa el tipo de campo de celda de ods.
+Representa el tipo de campo de celda de probabilidades.
 
 
 

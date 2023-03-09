@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  is_deleted Eigentum
 
-Gibt an, ob die zugehörige Arbeitsmappenverbindung gelöscht wurde. wahr, wenn die
-Verbindung wurde gelöscht; andernfalls falsch.
+Gibt an, ob die zugeordnete Arbeitsmappenverbindung gelöscht wurde. wahr, wenn die
+andernfalls falsch.
 ###  Definition:
 ```python
 @property

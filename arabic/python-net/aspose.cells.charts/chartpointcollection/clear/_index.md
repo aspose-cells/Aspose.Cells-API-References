@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/chartpointcollection/clear/
 is_root: false
 ---
 ##  clear() {#}
-قم بإزالة كل إعدادات نقاط الرسم البياني.
+قم بإزالة كافة إعدادات نقاط الرسم البياني.
 
 
 

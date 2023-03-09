@@ -1,6 +1,6 @@
 ﻿---
 title: set_dynamic_array_formula方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 310
@@ -22,7 +22,7 @@ def set_dynamic_array_formula(self, array_formula, options, calculate_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | array_formula | str |公式表达式|
 | options | [FormulaParseOptions](/cells/zh/python-net/aspose.cells/formulaparseoptions) |解析公式的选项。<br/> “解析”选项将被忽略，公式将始终被立即解析|
@@ -44,7 +44,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | array_formula | str |公式表达式|
 | options | [FormulaParseOptions](/cells/zh/python-net/aspose.cells/formulaparseoptions) |解析公式的选项。<br/> “解析”选项将被忽略，公式将始终被立即解析|
@@ -68,7 +68,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | array_formula | str |公式表达式|
 | options | [FormulaParseOptions](/cells/zh/python-net/aspose.cells/formulaparseoptions) |解析公式的选项。<br/> “解析”选项将被忽略，公式将始终被立即解析|

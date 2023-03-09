@@ -18,7 +18,7 @@ def set_formula(self, formula, value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | formula | str | Формула.|
 | value | any | Значение формулы.|
@@ -35,7 +35,7 @@ def set_formula(self, formula, options, value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | formula | str | Формула.|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | Варианты разбора формулы.|
@@ -53,7 +53,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | formula | str | Формула.|
 | is_r1c1 | bool | Является ли формула формулой R1C1.|
@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any | Значение формулы.|
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот класс устарел. Вместо,
+ПРИМЕЧАНИЕ. Этот класс устарел.
 используйте Cell.SetFormula(строка,FormulaParseOptions,объект).
 Это свойство будет удалено через 12 месяцев, начиная с декабря 2019 года.
 Aspose приносит извинения за возможные неудобства.

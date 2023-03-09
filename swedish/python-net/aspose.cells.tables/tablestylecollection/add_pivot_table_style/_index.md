@@ -22,9 +22,9 @@ def add_pivot_table_style(self, name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| name | str | Pivottabellens stilnamn.|
+| name | str |Pivottabellens stilnamn.|
 
 
 

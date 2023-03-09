@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom de la propriété.|
 | value | str | La valeur de la propriété.|

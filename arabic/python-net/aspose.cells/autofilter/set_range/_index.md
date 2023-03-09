@@ -18,7 +18,7 @@ def set_range(self, row, start_column, end_column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | start_column | int | فهرس عمود البداية.|

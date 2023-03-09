@@ -18,9 +18,9 @@ def delete_rows(self, row_index, total_rows):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| row_index | int | Premier index de ligne à supprimer.|
+| row_index | int |Premier index de ligne à supprimer.|
 | total_rows | int | Nombre de lignes à supprimer.|
 ###  Remarques
 
@@ -42,7 +42,7 @@ def delete_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row_index | int | Indice de ligne.|
 | total_rows | int | Nombre de lignes à supprimer.|

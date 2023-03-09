@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_cm propriété
 
-Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en centimètres.
+Représente le décalage vertical de la forme par rapport à sa ligne supérieure, en centimètres.
 
-###  Exemple
+###  Exemples
 
 ```python
 

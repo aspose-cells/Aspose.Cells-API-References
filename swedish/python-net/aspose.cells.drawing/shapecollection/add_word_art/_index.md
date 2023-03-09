@@ -22,16 +22,16 @@ def add_word_art(self, style, text, upper_left_row, top, upper_left_column, left
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| style | [PresetWordArtStyle](/cells/sv/python-net/aspose.cells.drawing/presetwordartstyle) |Den förinställda WordArt-stilen.|
+| style | [PresetWordArtStyle](/cells/sv/python-net/aspose.cells.drawing/presetwordartstyle) | Den förinställda WordArt-stilen.|
 | text | str | Texten.|
 | upper_left_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av formen från dess vänstra rad, i pixelenhet.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
-| left | int | Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i pixelenhet.|
-| height | int | Representerar formhöjden, i pixelenhet.|
-| width | int | Representerar formens bredd i pixelenhet.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
+| left | int |Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i pixelenhet.|
+| height | int | Representerar formens höjd i enheter av pixlar.|
+| width | int | Representerar formens bredd i enheter av pixlar.|
 
 ###  Exempel
 

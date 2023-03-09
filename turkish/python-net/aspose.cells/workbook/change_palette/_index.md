@@ -18,7 +18,7 @@ def change_palette(self, color, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Renk yapısı.|
 | index | int | Palet dizini, 0 - 55.|
@@ -82,7 +82,7 @@ Aşağıdaki standart renk paletidir.
 | Renk43| 153| 204| 0 |
 | Renk44| 255| 204| 0 |
 | Renk45| 255| 153| 0 |
-|Renk46| 255| 102| 0 |
+| Renk46| 255| 102| 0 |
 | Renk47| 102| 102| 153 |
 | Renk48| 150| 150| 150 |
 | Renk49| 0| 51| 102 |
@@ -90,7 +90,7 @@ Aşağıdaki standart renk paletidir.
 | Renk51| 0| 51| 0 |
 | Renk52| 51| 51| 0 |
 | Renk53| 153| 51| 0 |
-| Renk54| 153| 51| 102 |
+|Renk54| 153| 51| 102 |
 | Renk55| 51| 51| 153 |
 | Renk56| 51| 51| 51 |
 

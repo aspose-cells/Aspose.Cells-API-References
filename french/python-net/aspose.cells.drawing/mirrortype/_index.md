@@ -18,7 +18,7 @@ Le type MirrorType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | NONE | Aucun|
-| HORIZONAL | Horizontale|
+| HORIZONAL | Horizontal|
 | VERTICAL | Vertical|
 | BOTH | Les deux|
 

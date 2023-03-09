@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob nicht verwendete Stile ausgeschlossen werden.
 Bei den generierten HTML-Dateien kann das Ausschließen nicht verwendeter Stile die Dateigröße verringern
-ohne die visuellen Effekte zu beeinträchtigen. Der Standardwert dieser Eigenschaft ist also true.
+ohne die visuellen Effekte zu beeinträchtigen.
 Wenn der Benutzer alle Stile in der Arbeitsmappe für den generierten HTML-Code behalten muss (z. B. das Szenario, in dem der Benutzer
 muss die Arbeitsmappe später aus dem generierten HTML-Code wiederherstellen), setzen Sie diese Eigenschaft bitte auf „false“.
 ###  Definition:

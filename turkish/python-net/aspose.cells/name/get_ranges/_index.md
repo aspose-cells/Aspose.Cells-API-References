@@ -39,9 +39,9 @@ def get_ranges(self, recalculate):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| recalculate | bool | bu ad bu çağrıdan önce hesaplandıysa yeniden hesaplayın.|
+| recalculate | bool | bu ad bu çağırmadan önce hesaplandıysa yeniden hesaplanıp hesaplanmayacağını.|
 
 
 

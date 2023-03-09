@@ -23,7 +23,7 @@ Der Typ VerticalPageBreak macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

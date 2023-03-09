@@ -18,10 +18,10 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | Формула массива.|
-| row_number | int | Количество строк для заполнения результата формулы массива.|
+| row_number | int |Количество строк для заполнения результата формулы массива.|
 | column_number | int | Количество столбцов для заполнения результата формулы массива.|
 
 
@@ -36,10 +36,10 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | Формула массива.|
-| row_number | int | Количество строк для заполнения результата формулы массива.|
+| row_number | int |Количество строк для заполнения результата формулы массива.|
 | column_number | int | Количество столбцов для заполнения результата формулы массива.|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | Варианты разбора формулы.|
 
@@ -55,16 +55,16 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | Формула массива.|
-| row_number | int | Количество строк для заполнения результата формулы массива.|
+| row_number | int |Количество строк для заполнения результата формулы массива.|
 | column_number | int | Количество столбцов для заполнения результата формулы массива.|
 | is_r1c1 | bool | является ли формула формулой R1C1|
 | is_local | bool | отформатирована ли формула в локали|
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот класс устарел. Вместо,
+ПРИМЕЧАНИЕ. Этот класс устарел.
 пожалуйста, используйте Cell.SetArrayFormula(string,int,int,FormulaParseOptions).
 Это свойство будет удалено через 12 месяцев, начиная с декабря 2019 года.
 Aspose приносит извинения за возможные неудобства.
@@ -80,10 +80,10 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | Формула массива.|
-| row_number | int | Количество строк для заполнения результата формулы массива.|
+| row_number | int |Количество строк для заполнения результата формулы массива.|
 | column_number | int | Количество столбцов для заполнения результата формулы массива.|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | Варианты разбора формулы.|
 | values | list | значения для тех ячеек с заданной формулой массива|

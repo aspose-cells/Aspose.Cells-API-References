@@ -18,7 +18,7 @@ def to_pdf(self, file_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str | اسم ملف pdf بالمسار الكامل|
 
@@ -34,7 +34,7 @@ def to_pdf(self, stream):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الإخراج.|
 
@@ -50,7 +50,7 @@ def to_pdf(self, file_name, desired_page_width, desired_page_height, h_alignment
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str | اسم ملف pdf بالمسار الكامل|
 | desired_page_width | float | عرض الصفحة المطلوب بالبوصة.|
@@ -70,7 +70,7 @@ def to_pdf(self, stream, desired_page_width, desired_page_height, h_alignment_ty
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الإخراج.|
 | desired_page_width | float | عرض الصفحة المطلوب بالبوصة.|

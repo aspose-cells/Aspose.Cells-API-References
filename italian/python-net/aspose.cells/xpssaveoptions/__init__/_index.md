@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/xpssaveoptions/__init__/
 is_root: false
 ---
 ##  XpsSaveOptions() {#}
-Crea opzioni per il salvataggio del file xps.
+Crea opzioni per il salvataggio di file xps.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  XpsSaveOptions(save_format) {#SaveFormat}
-Crea opzioni per il salvataggio del file xps.
+Crea opzioni per il salvataggio di file xps.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/it/python-net/aspose.cells/saveformat) | Il formato di salvataggio deve essere in formato xps.|
 ###  Osservazioni

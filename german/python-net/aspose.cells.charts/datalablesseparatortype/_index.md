@@ -21,7 +21,7 @@ Der Typ DataLablesSeparatorType macht die folgenden Member verfügbar:
 | SPACE | Steht für Leerzeichen (" ")|
 | COMMA | Steht für Komma (",")|
 | SEMICOLON | Steht für Semikolon (";")|
-| PERIOD | Steht für Punkt ("")|
+| PERIOD |Steht für Punkt ("")|
 | NEW_LINE | Repräsentiert Zeilenumbrüche ("\n")|
 | CUSTOM | Stellt ein benutzerdefiniertes Trennzeichen dar|
 
@@ -29,9 +29,9 @@ Der Typ DataLablesSeparatorType macht die folgenden Member verfügbar:
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie DataLabelsSeparatorType enum.
-Diese Property wird 12 Monate später seit September 2020 entfernt.
+ Diese Property wird 12 Monate später seit September 2020 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 
 ###  Siehe auch

@@ -11,7 +11,7 @@ is_root: false
 
 Valuta il conteggio totale delle pagine di questa cartella di lavoro
 
-###  Esempio
+###  Esempi
 
 Il codice seguente mostra il modo più rapido per ottenere il conteggio delle pagine di una cartella di lavoro.
 

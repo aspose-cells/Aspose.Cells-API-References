@@ -28,13 +28,13 @@ El tipo PlotArea expone los siguientes miembros:
 | [text_font](/cells/es/python-net/aspose.cells.charts/plotarea/text_font) | Obtiene un objeto [ChartFrame.font](/cells/es/python-net/aspose.cells.charts/chartframe#font) del objeto ChartFrame especificado.|
 | [text_options](/cells/es/python-net/aspose.cells.charts/plotarea/text_options) | Obtiene y establece las opciones del texto.|
 | [font](/cells/es/python-net/aspose.cells.charts/plotarea/font) | Obtiene un objeto [ChartFrame.font](/cells/es/python-net/aspose.cells.charts/chartframe#font) del objeto ChartFrame especificado.|
-| [auto_scale_font](/cells/es/python-net/aspose.cells.charts/plotarea/auto_scale_font) | True si el texto del objeto cambia el tamaño de fuente cuando cambia el tamaño del objeto. El valor por defecto es verdadero.|
+| [auto_scale_font](/cells/es/python-net/aspose.cells.charts/plotarea/auto_scale_font) | True si el texto del objeto cambia el tamaño de fuente cuando cambia el tamaño del objeto.|
 | [background_mode](/cells/es/python-net/aspose.cells.charts/plotarea/background_mode) | Obtiene y establece el modo de visualización del fondo.|
 | [background](/cells/es/python-net/aspose.cells.charts/plotarea/background) | Obtiene y establece el modo de visualización del fondo.|
-| [is_automatic_size](/cells/es/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Indica si el tamaño del área de trazado es automático.|
+| [is_automatic_size](/cells/es/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Indica si el tamaño del área de trazado se ajusta automáticamente.|
 | [x](/cells/es/python-net/aspose.cells.charts/plotarea/x) | Obtiene u obtiene la coordenada x de la esquina superior izquierda del cuadro delimitador del área de trazado en unidades de 1/4000 del área del gráfico.|
 | [y](/cells/es/python-net/aspose.cells.charts/plotarea/y) | Obtiene u obtiene la coordenada y de la esquina superior superior del cuadro delimitador del área de trazado en unidades de 1/4000 del área del gráfico.|
-| [height](/cells/es/python-net/aspose.cells.charts/plotarea/height) | Obtiene o establece el alto del cuadro delimitador del área de trazado en unidades de 1/4000 del área del gráfico.|
+| [height](/cells/es/python-net/aspose.cells.charts/plotarea/height) |Obtiene o establece el alto del cuadro delimitador del área de trazado en unidades de 1/4000 del área del gráfico.|
 | [width](/cells/es/python-net/aspose.cells.charts/plotarea/width) | Obtiene o establece el ancho del cuadro delimitador del área de trazado en unidades de 1/4000 del área del gráfico.|
 | [shadow](/cells/es/python-net/aspose.cells.charts/plotarea/shadow) | Verdadero si el marco tiene una sombra.|
 | [shape_properties](/cells/es/python-net/aspose.cells.charts/plotarea/shape_properties) | Obtiene el objeto [ChartFrame.shape_properties](/cells/es/python-net/aspose.cells.charts/chartframe#shape_properties).|

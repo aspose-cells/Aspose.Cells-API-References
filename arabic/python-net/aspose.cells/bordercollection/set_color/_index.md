@@ -18,7 +18,7 @@ def set_color(self, color):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | لون الحدود.|
 

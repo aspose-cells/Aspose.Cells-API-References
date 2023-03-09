@@ -18,7 +18,7 @@ def __init__(self, sheet, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/fr/python-net/aspose.cells/worksheet) | Indiquez la feuille de calcul à imprimer.|
 | options | [ImageOrPrintOptions](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions contient une propriété de sortie|

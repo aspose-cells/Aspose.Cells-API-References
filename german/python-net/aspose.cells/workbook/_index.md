@@ -35,17 +35,17 @@ Der Typ Workbook macht die folgenden Member verfügbar:
 | [count_of_styles_in_pool](/cells/de/python-net/aspose.cells/workbook/count_of_styles_in_pool) | Ruft die Anzahl der Styles im Style-Pool ab.|
 | [default_style](/cells/de/python-net/aspose.cells/workbook/default_style) | Ruft das Standardobjekt [Style](/cells/de/python-net/aspose.cells/style) der Arbeitsmappe ab oder legt es fest.|
 | [is_digitally_signed](/cells/de/python-net/aspose.cells/workbook/is_digitally_signed) | Gibt an, ob diese Tabelle digital signiert ist.|
-| [is_workbook_protected_with_password](/cells/de/python-net/aspose.cells/workbook/is_workbook_protected_with_password) |Gibt an, ob die Struktur oder das Fenster mit einem Passwort geschützt ist.|
+| [is_workbook_protected_with_password](/cells/de/python-net/aspose.cells/workbook/is_workbook_protected_with_password) | Gibt an, ob die Struktur oder das Fenster mit einem Passwort geschützt ist.|
 | [vba_project](/cells/de/python-net/aspose.cells/workbook/vba_project) | Ruft die [Workbook.vba_project](/cells/de/python-net/aspose.cells/workbook#vba_project) in einer Tabelle ab.|
 | [has_macro](/cells/de/python-net/aspose.cells/workbook/has_macro) | Gibt an, ob diese Tabelle Makro/VBA enthält.|
 | [has_revisions](/cells/de/python-net/aspose.cells/workbook/has_revisions) | Ruft ab, ob die Arbeitsmappe nachverfolgte Änderungen aufweist|
-| [file_name](/cells/de/python-net/aspose.cells/workbook/file_name) | Ruft den aktuellen Dateinamen ab und legt ihn fest.|
+| [file_name](/cells/de/python-net/aspose.cells/workbook/file_name) |Ruft den aktuellen Dateinamen ab und legt ihn fest.|
 | [cells_data_table_factory](/cells/de/python-net/aspose.cells/workbook/cells_data_table_factory) | Ruft die Factory zum Erstellen von ICellsDataTable aus benutzerdefinierten Objekten ab|
 | [data_sorter](/cells/de/python-net/aspose.cells/workbook/data_sorter) | Ruft ein DataSorter-Objekt zum Sortieren von Daten ab.|
 | [theme](/cells/de/python-net/aspose.cells/workbook/theme) | Ruft den Designnamen ab.|
 | [built_in_document_properties](/cells/de/python-net/aspose.cells/workbook/built_in_document_properties) | Gibt eine [DocumentProperty](/cells/de/python-net/aspose.cells.properties/documentproperty)-Sammlung zurück, die alle integrierten Dokumenteigenschaften der Tabelle darstellt.|
 | [custom_document_properties](/cells/de/python-net/aspose.cells/workbook/custom_document_properties) | Gibt eine [DocumentProperty](/cells/de/python-net/aspose.cells.properties/documentproperty)-Sammlung zurück, die alle benutzerdefinierten Dokumenteigenschaften der Tabelle darstellt.|
-| [file_format](/cells/de/python-net/aspose.cells/workbook/file_format) |Ruft das Dateiformat ab und legt es fest.|
+| [file_format](/cells/de/python-net/aspose.cells/workbook/file_format) | Ruft das Dateiformat ab und legt es fest.|
 | [interrupt_monitor](/cells/de/python-net/aspose.cells/workbook/interrupt_monitor) | Ruft den Interrupt-Monitor ab und setzt ihn.|
 | [content_type_properties](/cells/de/python-net/aspose.cells/workbook/content_type_properties) | Ruft die Liste der [ContentTypeProperty](/cells/de/python-net/aspose.cells.properties/contenttypeproperty)-Objekte in der Arbeitsmappe ab.|
 | [custom_xml_parts](/cells/de/python-net/aspose.cells/workbook/custom_xml_parts) | Repräsentiert einen benutzerdefinierten XML-Datenspeicherteil (benutzerdefinierte XML-Daten innerhalb eines Pakets).|
@@ -64,16 +64,16 @@ Der Typ Workbook macht die folgenden Member verfügbar:
 | [save(stream, save_format)](/cells/de/python-net/aspose.cells/workbook/save/#io.RawIOBase-SaveFormat) | Speichert die Arbeitsmappe im Stream.|
 | [save(stream, save_options)](/cells/de/python-net/aspose.cells/workbook/save/#io.RawIOBase-SaveOptions) | Speichert die Arbeitsmappe im Stream.|
 | [replace(place_holder, new_value)](/cells/de/python-net/aspose.cells/workbook/replace/#str-str) | Ersetzt den Wert einer Zelle durch eine neue Zeichenfolge.|
-| [replace(place_holder, new_value)](/cells/de/python-net/aspose.cells/workbook/replace/#str-int) |Ersetzt den Wert einer Zelle durch eine neue Ganzzahl.|
-| [replace(place_holder, new_value)](/cells/de/python-net/aspose.cells/workbook/replace/#str-float) | Ersetzt den Wert einer Zelle durch ein neues Double.|
+| [replace(place_holder, new_value)](/cells/de/python-net/aspose.cells/workbook/replace/#str-int) | Ersetzt den Wert einer Zelle durch eine neue Ganzzahl.|
+| [replace(place_holder, new_value)](/cells/de/python-net/aspose.cells/workbook/replace/#str-float) |Ersetzt den Wert einer Zelle durch ein neues Double.|
 | [replace(place_holder, new_values, is_vertical)](/cells/de/python-net/aspose.cells/workbook/replace/#str-list-bool) | Ersetzt den Wert einer Zelle durch ein neues String-Array.|
 | [replace(place_holder, new_values, is_vertical)](/cells/de/python-net/aspose.cells/workbook/replace/#str-list-bool) | Ersetzt die Werte der Zellen durch ein Integer-Array.|
 | [replace(place_holder, new_values, is_vertical)](/cells/de/python-net/aspose.cells/workbook/replace/#str-list-bool) | Ersetzt die Werte der Zellen durch ein doppeltes Array.|
 | [replace(bool_value, new_value)](/cells/de/python-net/aspose.cells/workbook/replace/#bool-any) | Ersetzt die Werte der Zellen durch neue Daten.|
 | [replace(int_value, new_value)](/cells/de/python-net/aspose.cells/workbook/replace/#int-any) | Ersetzt die Werte der Zellen durch neue Daten.|
 | [replace(place_holder, new_value, options)](/cells/de/python-net/aspose.cells/workbook/replace/#str-str-ReplaceOptions) | Ersetzt den Wert einer Zelle durch eine neue Zeichenfolge.|
-| [copy(source, copy_options)](/cells/de/python-net/aspose.cells/workbook/copy/#Workbook-CopyOptions) |Kopiert Daten aus einem Arbeitsmappen-Quellobjekt.|
-| [copy(source)](/cells/de/python-net/aspose.cells/workbook/copy/#Workbook) |Kopiert Daten aus einem Arbeitsmappen-Quellobjekt.|
+| [copy(source, copy_options)](/cells/de/python-net/aspose.cells/workbook/copy/#Workbook-CopyOptions) | Kopiert Daten aus einem Arbeitsmappen-Quellobjekt.|
+| [copy(source)](/cells/de/python-net/aspose.cells/workbook/copy/#Workbook) | Kopiert Daten aus einem Arbeitsmappen-Quellobjekt.|
 | [calculate_formula()](/cells/de/python-net/aspose.cells/workbook/calculate_formula/#) | Berechnet das Ergebnis von Formeln.|
 | [calculate_formula(ignore_error)](/cells/de/python-net/aspose.cells/workbook/calculate_formula/#bool) | Berechnet das Ergebnis von Formeln.|
 | [calculate_formula(ignore_error, custom_function)](/cells/de/python-net/aspose.cells/workbook/calculate_formula/#bool-ICustomFunction) | Berechnet das Ergebnis von Formeln.|
@@ -85,10 +85,10 @@ Der Typ Workbook macht die folgenden Member verfügbar:
 | [export_xml(map_name, path)](/cells/de/python-net/aspose.cells/workbook/export_xml/#str-str) | XML-Daten exportieren, die durch die angegebene XML-Zuordnung verknüpft sind.|
 | [export_xml(map_name, stream)](/cells/de/python-net/aspose.cells/workbook/export_xml/#str-io.RawIOBase) | XML-Daten exportieren.|
 | [parse_formulas(ignore_error)](/cells/de/python-net/aspose.cells/workbook/parse_formulas/#bool) | Parst alle Formeln, die nicht geparst wurden, als sie aus der Vorlagendatei geladen oder in eine Zelle gesetzt wurden.|
-| [start_access_cache(opts)](/cells/de/python-net/aspose.cells/workbook/start_access_cache/#AccessCacheOptions) | Startet die Sitzung, die Caches verwendet, um auf Daten zuzugreifen.|
+| [start_access_cache(opts)](/cells/de/python-net/aspose.cells/workbook/start_access_cache/#AccessCacheOptions) |Startet die Sitzung, die Caches verwendet, um auf Daten zuzugreifen.|
 | [close_access_cache(opts)](/cells/de/python-net/aspose.cells/workbook/close_access_cache/#AccessCacheOptions) | Schließt die Sitzung, die Caches verwendet, um auf Daten zuzugreifen.|
 | [remove_unused_styles()](/cells/de/python-net/aspose.cells/workbook/remove_unused_styles/#) | Entfernen Sie alle nicht verwendeten Stile.|
-| [create_style()](/cells/de/python-net/aspose.cells/workbook/create_style/#) |Erstellt einen neuen Stil.|
+| [create_style()](/cells/de/python-net/aspose.cells/workbook/create_style/#) | Erstellt einen neuen Stil.|
 | [create_builtin_style(type)](/cells/de/python-net/aspose.cells/workbook/create_builtin_style/#BuiltinStyleType) | Erstellt einen integrierten Stil nach dem angegebenen Typ.|
 | [create_cells_color()](/cells/de/python-net/aspose.cells/workbook/create_cells_color/#) | Erstellt ein [CellsColor](/cells/de/python-net/aspose.cells/cellscolor)-Objekt.|
 | [combine(second_workbook)](/cells/de/python-net/aspose.cells/workbook/combine/#Workbook) | Kombiniert ein anderes Workbook-Objekt.|
@@ -106,29 +106,29 @@ Der Typ Workbook macht die folgenden Member verfügbar:
 | [remove_macro()](/cells/de/python-net/aspose.cells/workbook/remove_macro/#) | Entfernt VBA/Makro aus dieser Tabelle.|
 | [remove_digital_signature()](/cells/de/python-net/aspose.cells/workbook/remove_digital_signature/#) | Entfernt die digitale Signatur aus dieser Tabelle.|
 | [accept_all_revisions()](/cells/de/python-net/aspose.cells/workbook/accept_all_revisions/#) | Akzeptiert alle nachverfolgten Änderungen in der Arbeitsmappe.|
-| [remove_external_links()](/cells/de/python-net/aspose.cells/workbook/remove_external_links/#) | Entfernt alle externen Links in der Arbeitsmappe.|
+| [remove_external_links()](/cells/de/python-net/aspose.cells/workbook/remove_external_links/#) |Entfernt alle externen Links in der Arbeitsmappe.|
 | [get_theme_color(type)](/cells/de/python-net/aspose.cells/workbook/get_theme_color/#ThemeColorType) | Ruft die Designfarbe ab.|
 | [set_theme_color(type, color)](/cells/de/python-net/aspose.cells/workbook/set_theme_color/#ThemeColorType-aspose.pydrawing.Color) | Legt die Designfarbe fest|
 | [custom_theme(theme_name, colors)](/cells/de/python-net/aspose.cells/workbook/custom_theme/#str-aspose.pydrawing.Color[]) | Zoll das Thema.|
 | [copy_theme(source)](/cells/de/python-net/aspose.cells/workbook/copy_theme/#Workbook) | Kopiert das Design aus einer anderen Arbeitsmappe.|
 | [has_exernal_links()](/cells/de/python-net/aspose.cells/workbook/has_exernal_links/#) | Gibt an, ob diese Arbeitsmappe externe Links zu anderen Datenquellen enthält.|
-| [update_linked_data_source(external_workbooks)](/cells/de/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Wenn diese Arbeitsmappe externe Links zu anderen Datenquellen enthält,<br/>Aspose.Cells wird versuchen, die neuesten Daten abzurufen.|
+| [update_linked_data_source(external_workbooks)](/cells/de/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Wenn diese Arbeitsmappe externe Links zu anderen Datenquellen enthält,<br/> Aspose.Cells wird versuchen, die neuesten Daten abzurufen.|
 | [set_digital_signature(digital_signature_collection)](/cells/de/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Setzt eine digitale Signatur auf eine Tabellenkalkulationsdatei (Excel2007 und höher).|
 | [add_digital_signature(digital_signature_collection)](/cells/de/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Fügt einer OOXML-Tabellenkalkulationsdatei (Excel2007 und höher) eine digitale Signatur hinzu.|
-| [get_digital_signature()](/cells/de/python-net/aspose.cells/workbook/get_digital_signature/#) | Ruft eine digitale Signatur aus einer Datei ab.|
+| [get_digital_signature()](/cells/de/python-net/aspose.cells/workbook/get_digital_signature/#) | Ruft eine digitale Signatur aus der Datei ab.|
 | [remove_personal_information()](/cells/de/python-net/aspose.cells/workbook/remove_personal_information/#) | Entfernt persönliche Informationen.|
 
 
 
 ###  Bemerkungen
 
-Die Klasse Workbook bezeichnet eine Excel-Tabelle. Jede Tabelle kann mehrere Arbeitsblätter enthalten.
+Die Klasse Workbook bezeichnet eine Excel-Tabelle.
 Die grundlegende Funktion der Klasse besteht darin, native Excel-Dateien zu öffnen und zu speichern.
 Die Klasse verfügt über einige erweiterte Funktionen wie das Kopieren von Daten aus anderen Arbeitsmappen, das Kombinieren von zwei Arbeitsmappen und das Schützen der Excel-Tabelle.
 
-###  Beispiel
+###  Beispiele
 
- Das folgende Beispiel lädt Workbook aus einer Datei namens designer.xls und macht die horizontalen und vertikalen Bildlaufleisten für Workbook unsichtbar. Es ersetzt dann zwei Zeichenfolgenwerte durch einen Integer-Wert bzw. einen Zeichenfolgenwert innerhalb der Tabelle und sendet schließlich die aktualisierte Datei an der Client-Browser.
+Das folgende Beispiel lädt eine Workbook aus einer Datei namens designer.xls und macht die horizontalen und vertikalen Bildlaufleisten für die Workbook unsichtbar. Es ersetzt dann zwei String-Werte durch einen Integer-Wert bzw. einen String-Wert innerhalb der Tabelle und sendet schließlich die Aktualisierung Datei an den Client-Browser.
 
 ```python
 from aspose.cells import Workbook

@@ -11,7 +11,7 @@ is_root: false
 
 Indica se il margine della cornice di testo è automatico.
 
-###  Esempio
+###  Esempi
 
 ```python
 

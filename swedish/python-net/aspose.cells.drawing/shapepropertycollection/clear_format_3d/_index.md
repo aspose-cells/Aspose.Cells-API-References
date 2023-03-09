@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/shapepropertycollection/clear_format_3d
 is_root: false
 ---
 ##  clear_format_3d() {#}
-Rensar formens 3D-formegenskaper.
+Rensar 3D-formegenskaperna för formen.
 
 
 

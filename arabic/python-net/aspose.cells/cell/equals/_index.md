@@ -22,7 +22,7 @@ def equals(self, cell):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | cell | [Cell](/cells/ar/python-net/aspose.cells/cell) | كائن خلية آخر|
 

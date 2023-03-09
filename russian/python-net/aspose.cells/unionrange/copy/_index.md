@@ -18,7 +18,7 @@ def copy(self, range, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | range | [UnionRange](/cells/ru/python-net/aspose.cells/unionrange) | Исходный диапазон.|
 | options | [PasteOptions](/cells/ru/python-net/aspose.cells/pasteoptions) | Вставить специальные параметры.|

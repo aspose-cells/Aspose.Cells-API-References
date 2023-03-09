@@ -22,11 +22,11 @@ def add_label_in_chart(self, top, left, height, width):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | top | int | Grafik alanının 1/4000'lik birimlerinde etiketin sol üst köşeden dikey uzaklığını temsil eder.|
 | left | int | Grafik alanının 1/4000'lik birimlerinde etiketin sol üst köşeden dikey uzaklığını temsil eder.|
-| height | int |Grafik alanının 1/4000'lik birimlerinde etiketin yüksekliğini temsil eder.|
+| height | int | Grafik alanının 1/4000'lik birimlerinde etiketin yüksekliğini temsil eder.|
 | width | int | Grafik alanının 1/4000'lik birimlerinde etiketin genişliğini temsil eder.|
 
 

@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache mülk
 
-Dilimleyiciyle ilişkili SlicerCache nesnesini döndürür. Sadece oku.
+Dilimleyiciyle ilişkili SlicerCache nesnesini döndürür.
 
-###  Örnek
+###  örnekler
 
 ```python
 

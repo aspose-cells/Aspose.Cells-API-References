@@ -9,14 +9,14 @@ is_root: false
 ---
 ##  edit_page Eigentum
 
-Die URL der benutzerseitigen Webseite, die die Webabfragedaten anzeigt. Diese URL wird beibehalten
+Die URL der benutzerseitigen Webseite, die die Webabfragedaten anzeigt.
 für den Fall, dass sourceData="true" und url umgeleitet wurden, um auf eine XML-Datei zu verweisen.
 Anschließend kann die benutzerseitige Seite in der Benutzeroberfläche angezeigt und die XML-Daten abgerufen werden
 hinter den Kulissen.
 
 ###  Bemerkungen
 
- HINWEIS: Diese Eigenschaft ist jetzt veraltet. Stattdessen,
+ HINWEIS: Diese Eigenschaft ist jetzt veraltet.
 Bitte verwenden Sie die WebQueryConnection.EditWebPage-Eigenschaft.
  Diese Property wird 12 Monate später seit Oktober 2017 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -13,7 +13,7 @@ Représente si la mise en forme des lignes est autorisée sur une feuille de cal
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
  veuillez utiliser la propriété Protection.AllowFormattingRow.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

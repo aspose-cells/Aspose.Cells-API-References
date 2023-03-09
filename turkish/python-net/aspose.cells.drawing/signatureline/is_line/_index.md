@@ -11,7 +11,7 @@ is_root: false
 
 İmza satırı olup olmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

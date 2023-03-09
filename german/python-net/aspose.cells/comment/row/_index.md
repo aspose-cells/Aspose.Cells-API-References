@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Index row des Kommentars ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

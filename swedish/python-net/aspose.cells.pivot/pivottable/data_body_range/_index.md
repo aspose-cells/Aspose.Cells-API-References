@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range fastighet
 
 Returnerar ett CellArea-objekt som representerar intervallet som innehåller dataområdet
-i listan mellan rubrikraden och infogningsraden. Skrivskyddad.
+i listan mellan rubrikraden och infogningsraden.
 ###  Definition:
 ```python
 @property

@@ -20,7 +20,7 @@ def set_custom(self, custom, builtin_preference):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| custom | str | Benutzerdefinierte Zahlenformatzeichenfolge, sollte InvariantCulture-Muster sein.|
+| custom | str | Benutzerdefinierte Zahlenformatzeichenfolge, sollte ein Invariantes Kulturmuster sein.|
 | builtin_preference | bool | Wenn angegeben, stimmt die Zeichenfolge für das benutzerdefinierte Zahlenformat mit einem der integrierten Zahlenformate überein<br/> entsprechend den aktuellen regionalen Einstellungen, ob das Zahlenformat als integriert anstelle von Benutzerdefiniert eingestellt ist.|
 
 

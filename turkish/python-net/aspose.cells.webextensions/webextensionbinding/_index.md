@@ -1,5 +1,5 @@
 ﻿---
-title: WebExtensionBinding sınıf
+title: WebExtensionBinding sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells.webextensions/webextensionbinding/
 is_root: false
 ---
-##  WebExtensionBinding sınıf
+##  WebExtensionBinding sınıfı
 Bir Office Eklentisi ile belgedeki veriler arasındaki bağlayıcı ilişkiyi temsil eder.
 
 

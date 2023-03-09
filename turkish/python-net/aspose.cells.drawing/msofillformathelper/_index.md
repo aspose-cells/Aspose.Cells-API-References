@@ -1,5 +1,5 @@
 ﻿---
-title: MsoFillFormatHelper sınıf
+title: MsoFillFormatHelper sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 340
 url: /tr/python-net/aspose.cells.drawing/msofillformathelper/
 is_root: false
 ---
-##  MsoFillFormatHelper sınıf
+##  MsoFillFormatHelper sınıfı
 Bir şekil için dolgu biçimlendirmesini temsil eder.
 
 

@@ -23,7 +23,7 @@ def is_modified(self, modify_flag):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | modify_flag | [StyleModifyFlag](/cells/tr/python-net/aspose.cells/stylemodifyflag) | Stil değiştirilmiş bayraklar|
 

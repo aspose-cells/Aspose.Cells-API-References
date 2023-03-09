@@ -22,7 +22,7 @@ def get_row_height_pixel(self, row):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga|
 

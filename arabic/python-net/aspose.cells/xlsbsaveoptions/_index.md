@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/xlsbsaveoptions/
 is_root: false
 ---
 ##  XlsbSaveOptions الدرجة
-يمثل خيارات حفظ ملف xlsb.
+يمثل خيارات حفظ ملفات xlsb.
 
 
 
@@ -36,11 +36,11 @@ is_root: false
 | [merge_areas](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/merge_areas) | يشير إلى ما إذا كان يتم دمج مناطق التنسيق الشرطي والتحقق من الصحة قبل حفظ الملف.|
 | [create_directory](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/create_directory) | إذا كان صحيحًا وكان الدليل غير موجود ، فسيتم إنشاء الدليل تلقائيًا قبل حفظ الملف.|
 | [sort_names](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/sort_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة قبل حفظ الملف.|
-| [sort_external_names](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/sort_external_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة الخارجية قبل حفظ الملف.|
-| [refresh_chart_cache](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/refresh_chart_cache) |يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
-| [warning_callback](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
+| [sort_external_names](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة خارجيًا قبل حفظ الملف.|
+| [refresh_chart_cache](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/refresh_chart_cache) | يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
+| [warning_callback](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
 | [update_smart_art](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/update_smart_art) | يشير إلى ما إذا كان يتم تحديث إعداد الفن الذكي.<br/> القيمة الافتراضية هي كاذبة.|
-| [compression_type](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/compression_type) | الحصول على نوع الضغط لملف ooxml وتعيينه.|
+| [compression_type](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/compression_type) | الحصول على نوع الضغط لملفات ooxml وتعيينه.|
 | [export_all_column_indexes](/cells/ar/python-net/aspose.cells/xlsbsaveoptions/export_all_column_indexes) | الإشارة إلى ما إذا كان سيتم تصدير جميع فهارس الأعمدة للخلايا أم لا.|
 
 

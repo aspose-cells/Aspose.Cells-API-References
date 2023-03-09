@@ -20,7 +20,7 @@ def add(self, name, val):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| name | str | der Name der Anpassung. Es ist als "adj (wird verwendet, wenn es nur einen Anpassungswert gibt)", "adj1", "adj2", "adj3" und so weiter.|
+| name | str | der Name von adjust. Es ist wie „adj(Wird verwendet, wenn es nur einen Anpassungswert gibt)“, „adj1“, „adj2“, „adj3“ und so weiter.|
 | val | float | der Wert von adjust|
 
 

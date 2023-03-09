@@ -21,30 +21,30 @@ MsoDrawingType türü aşağıdaki üyeleri gösterir:
 | LINE | Astar|
 | RECTANGLE | Dikdörtgen|
 | OVAL | Oval|
-| ARC | ark|
-| CHART | Çizelge|
+| ARC | yay|
+| CHART | çizelge|
 | TEXT_BOX | Metin kutusu|
-| BUTTON | Düğme|
-| PICTURE | Resim|
+| BUTTON | düğme|
+| PICTURE | resimler|
 | POLYGON | Çokgen|
-| CHECK_BOX | Onay Kutusu|
-| RADIO_BUTTON | Radyo düğmesi|
-| LABEL | Etiket|
+| CHECK_BOX | onay kutusu|
+| RADIO_BUTTON | radyo düğmeleri|
+| LABEL | etiket|
 | DIALOG_BOX | İletişim kutusu|
 | SPINNER | Döndürücü|
-| SCROLL_BAR |Kaydırma çubuğu|
+| SCROLL_BAR | Kaydırma çubuğu|
 | LIST_BOX | Liste kutusu|
 | GROUP_BOX | Grup Kutusu|
 | COMBO_BOX | Açılan kutu|
 | COMMENT | Yorum|
 | OLE_OBJECT | Ole nesnesi|
-| CELLS_DRAWING | Yalnızca çizim nesnesini şablon dosyasında korumak için.|
+| CELLS_DRAWING | Yalnızca şablon dosyasındaki çizim nesnelerini korumak için.|
 | UNKNOWN | Yalnızca xlsx dosyasındaki çizim nesnesini korumak için.|
 | SLICER | dilimleyici|
 | WEB_EXTENSION | web uzantısı|
 | SMART_ART | Akıllı sanat|
-| CUSTOM_XML | Mürekkep gibi özel xml şekli.|
-| TIMELINE |Zaman çizelgesi|
+| CUSTOM_XML | Mürekkep gibi özel xml şekilleri.|
+| TIMELINE | zaman çizelgesi|
 | MODEL_3D | 3 boyutlu model|
 
 

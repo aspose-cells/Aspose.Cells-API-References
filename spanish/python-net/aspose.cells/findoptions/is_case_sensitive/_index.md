@@ -13,7 +13,7 @@ Indica si la cadena buscada distingue entre mayúsculas y minúsculas.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
  utilice la propiedad FindOptions.CaseSensitive.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

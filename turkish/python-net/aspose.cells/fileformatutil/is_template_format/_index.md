@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/fileformatutil/is_template_format/
 is_root: false
 ---
 ##  is_template_format(extension) {#str}
-Uzantı .xlt, .xltX, .xltm,.ots ise true değerini döndürür.
+Uzantı .xlt, .xltX, .xltm, .ots ise true değerini döndürür.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def is_template_format(self, extension):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | extension | str |  |
 

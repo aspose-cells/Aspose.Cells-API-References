@@ -17,7 +17,7 @@ Il tipo ImportTableOptions espone i membri seguenti:
 ###  Costruttori
 | Costruttore| Descrizione|
 | :- | :- |
-| [ImportTableOptions()](/cells/it/python-net/aspose.cells/importtableoptions/__init__/#) |Crea le opzioni di importazione predefinite.|
+| [ImportTableOptions()](/cells/it/python-net/aspose.cells/importtableoptions/__init__/#) | Crea le opzioni di importazione predefinite.|
 
 
 ###  Proprietà
@@ -32,8 +32,8 @@ Il tipo ImportTableOptions espone i membri seguenti:
 | [date_format](/cells/it/python-net/aspose.cells/importtableoptions/date_format) | Ottiene o imposta la stringa del formato della data per le celle con valori di data e ora importati.|
 | [number_formats](/cells/it/python-net/aspose.cells/importtableoptions/number_formats) | Ottiene o imposta i formati numerici|
 | [is_formulas](/cells/it/python-net/aspose.cells/importtableoptions/is_formulas) | Indica se i dati sono formule.|
-| [total_rows](/cells/it/python-net/aspose.cells/importtableoptions/total_rows) |Ottiene o imposta il conteggio totale delle righe da importare dall'origine dati. -1 indica tutte le righe di una determinata origine dati.|
-| [total_columns](/cells/it/python-net/aspose.cells/importtableoptions/total_columns) | Ottiene o imposta il conteggio totale delle colonne da importare dall'origine dati. -1 indica tutte le righe di una determinata origine dati.|
+| [total_rows](/cells/it/python-net/aspose.cells/importtableoptions/total_rows) | -1 indica tutte le righe di una determinata origine dati.|
+| [total_columns](/cells/it/python-net/aspose.cells/importtableoptions/total_columns) | -1 indica tutte le righe di una determinata origine dati.|
 | [column_indexes](/cells/it/python-net/aspose.cells/importtableoptions/column_indexes) | Ottiene o imposta le colonne (in base 0) da importare dall'origine dati. null significa che tutte le colonne devono essere importate.|
 | [default_values](/cells/it/python-net/aspose.cells/importtableoptions/default_values) | Il valore predefinito per il valore nella tabella è null.|
 | [is_html_string](/cells/it/python-net/aspose.cells/importtableoptions/is_html_string) | Indica se il valore contiene tag html.|

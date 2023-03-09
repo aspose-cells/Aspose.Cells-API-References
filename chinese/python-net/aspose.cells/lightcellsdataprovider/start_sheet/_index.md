@@ -1,6 +1,6 @@
 ﻿---
 title: start_sheet方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-如果此提供者将为给定工作表提供数据，则为真；如果给定工作表应使用其正常数据模型 (Cells)，则为 false。
+如果此提供程序将为给定工作表提供数据，则为 true；如果给定工作表应使用其正常数据模型 (Cells)，则为 false。
 
 
 ```python
@@ -22,7 +22,7 @@ def start_sheet(self, sheet_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | sheet_index | int |要保存的当前工作表的索引。|
 ### 评论

@@ -11,7 +11,7 @@ is_root: false
 
 Bewerten Sie die Gesamtseitenzahl dieser Arbeitsmappe
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code zeigt den schnellsten Weg, um die Seitenanzahl einer Arbeitsmappe zu ermitteln.
 

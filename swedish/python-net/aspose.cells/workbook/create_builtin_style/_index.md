@@ -22,7 +22,7 @@ def create_builtin_style(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [BuiltinStyleType](/cells/sv/python-net/aspose.cells/builtinstyletype) |  |
 

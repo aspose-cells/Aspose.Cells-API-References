@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by propriété
 
-Obtient et définit s'il s'agit d'un tracé par ligne ou par colonne.
+Obtient et définit s'il faut tracer par ligne ou par colonne.
 ###  Définition:
 ```python
 @property

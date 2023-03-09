@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع شكل النص المعين مسبقًا وتعيينه.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import AutoShapeType

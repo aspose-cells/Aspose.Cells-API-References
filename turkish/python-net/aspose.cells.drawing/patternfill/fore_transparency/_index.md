@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  fore_transparency mülk
 
-Ön plan renginin saydamlığını alır veya ayarlar.
+Ön plan renginin şeffaflığını alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

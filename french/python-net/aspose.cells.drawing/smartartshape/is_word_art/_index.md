@@ -15,7 +15,7 @@ Indique si cette forme est un mot art.
 
 Uniquement pour la forme héritée du fichier xls.
 
-###  Exemple
+###  Exemples
 
 ```python
 

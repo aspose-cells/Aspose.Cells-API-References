@@ -22,10 +22,10 @@ def add(self, row, column, value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| row | int | Index de ligne de la cellule d'entrée.|
-| column | int | Index de colonne de la cellule d'entrée.|
+| row | int | Index de ligne des cellules d'entrée.|
+| column | int | Index de colonne des cellules d'entrée.|
 | value | str | La valeur de la cellule d'entrée.|
 
 

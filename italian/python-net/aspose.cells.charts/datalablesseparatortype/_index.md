@@ -21,7 +21,7 @@ Il tipo DataLablesSeparatorType espone i membri seguenti:
 | SPACE | Rappresenta lo spazio(" ")|
 | COMMA | Rappresenta la virgola(",")|
 | SEMICOLON | Rappresenta il punto e virgola(";")|
-| PERIOD | Rappresenta il punto(".")|
+| PERIOD |Rappresenta il punto(".")|
 | NEW_LINE | Rappresenta la nuova riga ("\n")|
 | CUSTOM | Rappresenta il separatore personalizzato|
 
@@ -29,9 +29,9 @@ Il tipo DataLablesSeparatorType espone i membri seguenti:
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
 utilizzare l'enumerazione DataLabelsSeparatorType.
-Questa proprietà verrà rimossa 12 mesi dopo da settembre 2020.
+ Questa proprietà verrà rimossa 12 mesi dopo da settembre 2020.
 Aspose si scusa per gli eventuali disagi causati.
 
 ###  Guarda anche

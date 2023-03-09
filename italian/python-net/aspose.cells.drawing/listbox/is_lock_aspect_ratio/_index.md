@@ -11,7 +11,7 @@ is_root: false
 
 Vero significa che non consentono modifiche nelle proporzioni.
 
-###  Esempio
+###  Esempi
 
 ```python
 

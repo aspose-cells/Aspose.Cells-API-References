@@ -18,9 +18,9 @@ def parse_formulas(self, ignore_error):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| ignore_error | bool | se ignorare l'errore per la formula non valida.<br/>Per una formula non valida, se si ignora l'errore, questa formula verrà ignorata<br/> il processo continuerà ad analizzare altre formule, altrimenti verrà generata un'eccezione.|
+| ignore_error | bool | se ignorare l'errore per la formula non valida.<br/>Per una formula non valida, se si ignora l'errore, questa formula verrà ignorata<br/> e il processo continuerà ad analizzare altre formule, altrimenti verrà generata un'eccezione.|
 
 
 

@@ -13,7 +13,7 @@ Bir çalışma sayfasını işlemeye başlar.
 
 ###  İadeler
 
-bu sayfanın hücre verilerinin işlenmesi gerekip gerekmediği. false bu sayfayı yok saymak için.
+bu sayfanın hücre verilerinin işlenmesi gerekip gerekmediği false bu sayfayı yoksaymak için.
 
 
 ```python
@@ -22,9 +22,9 @@ def start_sheet(self, sheet):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) |hücre verilerini okumak için çalışma sayfası.|
+| sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | hücre verilerini okumak için çalışma sayfası.|
 ###  Notlar
 
 Bir çalışma sayfasının hücre verilerini okumadan önce çağrılacaktır.

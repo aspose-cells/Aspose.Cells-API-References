@@ -13,7 +13,7 @@ Obtiene el texto de la etiqueta "(Múltiples elementos)" en la tabla dinámica.
 
 ###  Devoluciones
 
-El texto de la etiqueta "(Múltiples artículos)"
+El texto de la etiqueta "(Múltiples elementos)"
 
 
 ```python

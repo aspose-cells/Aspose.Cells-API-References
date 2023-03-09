@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  original_height_inch Eigentum
 
-Ruft die Originalhöhe des Bildes in Zoll ab.
+Ruft die ursprüngliche Bildhöhe in Zoll ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

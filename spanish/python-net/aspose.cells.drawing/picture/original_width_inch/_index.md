@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene el ancho original de la imagen, en unidades de pulgadas.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

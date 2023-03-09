@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  axis_labels mülk
 
-Chart.Calculate() yöntemi çağrıldıktan sonra eksenin etiketlerini alır.
+Chart.Calculate() yöntemini çağırdıktan sonra eksenin etiketlerini alır.
 ###  Tanım:
 ```python
 @property

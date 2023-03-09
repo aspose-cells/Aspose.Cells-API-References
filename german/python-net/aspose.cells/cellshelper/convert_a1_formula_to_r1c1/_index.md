@@ -25,7 +25,7 @@ def convert_a1_formula_to_r1c1(self, formula, row, column):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | formula | str | Die A1-Formel.|
-| row | int |Der Zeilenindex der Zelle.|
+| row | int | Der Zeilenindex der Zelle.|
 | column | int | Der Spaltenindex der Zelle.|
 
 

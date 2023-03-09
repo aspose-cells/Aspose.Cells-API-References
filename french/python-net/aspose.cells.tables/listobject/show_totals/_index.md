@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals propriété
 
-Obtient et définit si ce ListObject affiche la ligne totale.
+Obtient et définit si ce ListObject affiche le nombre total de lignes.
 ###  Définition:
 ```python
 @property

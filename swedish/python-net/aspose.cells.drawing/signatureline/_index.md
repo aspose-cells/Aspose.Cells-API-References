@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/signatureline/
 is_root: false
 ---
 ##  SignatureLine klass
-Representera signaturlinjen.
+Representera signaturraden.
 
 
 
@@ -24,10 +24,10 @@ Typen SignatureLine avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [id](/cells/sv/python-net/aspose.cells.drawing/signatureline/id) | Hämtar eller ställer in identifierare för denna signaturrad.|
-| [provider_id](/cells/sv/python-net/aspose.cells.drawing/signatureline/provider_id) | Hämtar och ställer in id för signaturleverantör.|
+| [provider_id](/cells/sv/python-net/aspose.cells.drawing/signatureline/provider_id) | Hämtar och ställer in id för signaturleverantören.|
 | [signer](/cells/sv/python-net/aspose.cells.drawing/signatureline/signer) | Får och ställer undertecknaren.|
 | [title](/cells/sv/python-net/aspose.cells.drawing/signatureline/title) | Får och sätter titeln på sångare.|
-| [email](/cells/sv/python-net/aspose.cells.drawing/signatureline/email) |Får och ställer in sångarens e-post.|
+| [email](/cells/sv/python-net/aspose.cells.drawing/signatureline/email) | Hämtar och ställer in sångarens mejl.|
 | [is_line](/cells/sv/python-net/aspose.cells.drawing/signatureline/is_line) | Indikerar om det är en signaturrad.|
 | [allow_comments](/cells/sv/python-net/aspose.cells.drawing/signatureline/allow_comments) | Anger om kommentarer kan bifogas.|
 | [show_signed_date](/cells/sv/python-net/aspose.cells.drawing/signatureline/show_signed_date) | Anger om visa undertecknat datum.|

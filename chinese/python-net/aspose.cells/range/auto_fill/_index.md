@@ -1,6 +1,6 @@
 ﻿---
 title: auto_fill方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells/range/auto_fill/
 is_root: false
 ---
 ##  auto_fill(target) {#Range}
-自动填充目标范围。
+自动全部填满目标范围。
 
 
 
@@ -18,7 +18,7 @@ def auto_fill(self, target):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | target | [Range](/cells/zh/python-net/aspose.cells/range) |目标范围。|
 
@@ -44,7 +44,7 @@ workbook.save("book1.xlsm")
 
 
 ##  auto_fill(target, auto_fill_type) {#Range-AutoFillType}
-自动填充目标范围。
+自动全部填满目标范围。
 
 
 
@@ -54,7 +54,7 @@ def auto_fill(self, target, auto_fill_type):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | target | [Range](/cells/zh/python-net/aspose.cells/range) |目标范围。|
 | auto_fill_type | [AutoFillType](/cells/zh/python-net/aspose.cells/autofilltype) |自动填充类型。|

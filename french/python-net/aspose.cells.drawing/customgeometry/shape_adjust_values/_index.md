@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shape_adjust_values propriété
 
-Obtient une collection de valeur d'ajustement de forme
+Obtient une collection de valeurs d'ajustement de forme
 ###  Définition:
 ```python
 @property

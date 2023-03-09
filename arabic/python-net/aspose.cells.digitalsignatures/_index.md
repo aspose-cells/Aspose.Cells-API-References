@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
 | [XAdESType](/cells/ar/python-net/aspose.cells.digitalsignatures/xadestype) | نوع التوقيع الإلكتروني المتقدم بتنسيق XML (XAdES).|
 

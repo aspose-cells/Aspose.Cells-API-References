@@ -17,7 +17,7 @@ Der Typ DefaultEditLanguage macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| AUTO |Repräsentiert die automatische Erkennung der Bearbeitungssprache entsprechend dem Text selbst.|
+| AUTO | Stellt die automatische Erkennung der Bearbeitungssprache gemäß dem Text selbst dar.|
 | ENGLISH | Stellt die englische Sprache dar.|
 | CJK | Stellt die chinesische, japanische und koreanische Sprache dar.|
 

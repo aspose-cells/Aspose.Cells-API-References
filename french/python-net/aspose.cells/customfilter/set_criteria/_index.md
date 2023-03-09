@@ -18,7 +18,7 @@ def set_criteria(self, filter_operator, criteria):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | filter_operator | [FilterOperatorType](/cells/fr/python-net/aspose.cells/filteroperatortype) | filtrer le type d'opérateur|
 | criteria | any | valeur des critères de filtre|

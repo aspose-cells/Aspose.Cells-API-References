@@ -18,7 +18,7 @@ def set_paper_size(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [PaperSizeType](/cells/sv/python-net/aspose.cells/papersizetype) | Standardpappersstorlek.|
 ###  Anmärkningar

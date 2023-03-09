@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/individualfontconfigs/__init__/
 is_root: false
 ---
 ##  IndividualFontConfigs() {#}
-Ctor.
+Müdür.
 
 
 

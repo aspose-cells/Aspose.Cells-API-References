@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  recursive propriété
 
-Indique si calculer les cellules dépendantes de manière récursive lors du calcul d'une cellule et cela dépend des autres cellules.
+Indique s'il faut calculer les cellules dépendantes de manière récursive lors du calcul d'une cellule et cela dépend des autres cellules.
 ###  Définition:
 ```python
 @property

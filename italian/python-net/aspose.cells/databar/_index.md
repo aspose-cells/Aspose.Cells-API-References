@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  classe DataBar
  Descrivi la regola di formattazione condizionale DataBar.
-Questa regola di formattazione condizionale visualizza un file graduato
+Questa regola di formattazione condizionale visualizza un voto
 barra dei dati nell'intervallo di celle.
 
 
@@ -22,7 +22,7 @@ Il tipo DataBar espone i membri seguenti:
 | [axis_color](/cells/it/python-net/aspose.cells/databar/axis_color) | Ottiene il colore dell'asse per le celle con formattazione condizionale come barre dei dati.|
 | [axis_position](/cells/it/python-net/aspose.cells/databar/axis_position) | Ottiene o imposta la posizione dell'asse delle barre dei dati specificata da una regola di formattazione condizionale.|
 | [bar_fill_type](/cells/it/python-net/aspose.cells/databar/bar_fill_type) | Ottiene o imposta il modo in cui una barra dei dati viene riempita di colore.|
-| [direction](/cells/it/python-net/aspose.cells/databar/direction) | Ottiene o imposta la direzione in cui viene visualizzata la barra dati.|
+| [direction](/cells/it/python-net/aspose.cells/databar/direction) |Ottiene o imposta la direzione in cui viene visualizzata la barra dati.|
 | [bar_border](/cells/it/python-net/aspose.cells/databar/bar_border) | Ottiene un oggetto che specifica il bordo di una barra dei dati.|
 | [negative_bar_format](/cells/it/python-net/aspose.cells/databar/negative_bar_format) | Ottiene l'oggetto NegativeBarFormat associato a una regola di formattazione condizionale della barra dei dati.|
 | [min_cfvo](/cells/it/python-net/aspose.cells/databar/min_cfvo) | Ottenere o impostare l'oggetto valore minimo di questo DataBar.<br/> Impossibile impostare null o CFValueObject con tipo FormatConditionValueType.Max su di esso.|
@@ -30,7 +30,7 @@ Il tipo DataBar espone i membri seguenti:
 | [color](/cells/it/python-net/aspose.cells/databar/color) | Ottieni o imposta questo DataBar's Color.|
 | [min_length](/cells/it/python-net/aspose.cells/databar/min_length) | Rappresenta la lunghezza minima della barra dei dati.|
 | [max_length](/cells/it/python-net/aspose.cells/databar/max_length) | Rappresenta la lunghezza massima della barra dei dati.|
-| [show_value](/cells/it/python-net/aspose.cells/databar/show_value) | Ottenere o impostare il flag che indica se mostrare i valori delle celle su cui è applicata questa barra dei dati.<br/> Il valore predefinito è vero.|
+| [show_value](/cells/it/python-net/aspose.cells/databar/show_value) | Ottieni o imposta il flag che indica se mostrare i valori delle celle su cui è applicata questa barra dati.<br/> Il valore predefinito è vero.|
 
 
 ###  Metodi
@@ -40,7 +40,7 @@ Il tipo DataBar espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

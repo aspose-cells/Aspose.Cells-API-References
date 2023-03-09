@@ -25,7 +25,7 @@ Il tipo PresetWordArtStyle espone i membri seguenti:
 | WORD_ART_STYLE6 | Riempimento sfumato - Grigio|
 | WORD_ART_STYLE7 | Riempimento sfumato - Blu, Accento 1, Riflessione|
 | WORD_ART_STYLE8 | Riempimento sfumato - Oro, Accento 4, Contorno - Accento 4|
-| WORD_ART_STYLE9 | Riempimento - Bianco, Contorno - Accento 1, Bagliore - Accento 1|
+| WORD_ART_STYLE9 |Riempimento - Bianco, Contorno - Accento 1, Bagliore - Accento 1|
 | WORD_ART_STYLE10 | Riempimento - Grigio-50%, Accento 3, Smusso affilato|
 | WORD_ART_STYLE11 | Riempimento - Nero, Testo 1, Contorno - Sfondo 1, Ombra netta - Sfondo 1|
 | WORD_ART_STYLE12 | Riempimento - Nero, Testo 1, Contorno - Sfondo 1, Ombra netta - Accento 1|
@@ -34,9 +34,9 @@ Il tipo PresetWordArtStyle espone i membri seguenti:
 | WORD_ART_STYLE15 | Riempi - Grigio-25%, Sfondo 2, Ombra interna|
 | WORD_ART_STYLE16 | Riempimento a motivo: bianco, testo 2, diagonale verso l'alto scuro, ombra|
 | WORD_ART_STYLE17 | Riempimento motivo - Grigio-50%, Accento 3, Orizzontale stretto, Ombra interna|
-| WORD_ART_STYLE18 | Riempimento - Blu, Accento 1, 50%, Ombra netta - Accento 1|
+| WORD_ART_STYLE18 | Riempimento - Blu, Accento 1, 50%, Ombra intensa - Accento 1|
 | WORD_ART_STYLE19 | Riempimento a motivo - Blu, Accento 1, Diagonale leggera verso il basso, Contorno - Accento 1|
-| WORD_ART_STYLE20 |Riempimento a motivo - Blu-grigio, Testo 2, Diagonale scuro verso l'alto, Ombra netta - Testo 2|
+| WORD_ART_STYLE20 | Riempimento a motivo - Blu-grigio, Testo 2, Diagonale scuro verso l'alto, Ombra netta - Testo 2|
 
 
 

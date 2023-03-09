@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_color proprietà
 
-Indica se il colore della linea è assegnato automaticamente.
+Indica se il colore della linea viene assegnato automaticamente.
 ###  Definizione:
 ```python
 @property

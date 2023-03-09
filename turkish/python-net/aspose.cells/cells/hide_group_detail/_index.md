@@ -18,7 +18,7 @@ def hide_group_detail(self, is_vertical, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_vertical | bool | Doğru, gruplandırılmış satırları daraltın.|
 | index | int | Satır/sütun dizini|

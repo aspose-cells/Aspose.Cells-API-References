@@ -1,6 +1,6 @@
 ﻿---
 title: set_even_header方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 140
@@ -19,9 +19,9 @@ def set_even_header(self, section, header_script):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| section | int |0：左部分，1：中部分，2：右部分。|
+| section | int | 0：左部分，1：中部分，2：右部分。|
 | header_script | str |标头格式脚本。|
 
 

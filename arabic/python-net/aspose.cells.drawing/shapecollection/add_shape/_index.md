@@ -22,19 +22,19 @@ def add_shape(self, type, upper_left_row, top, upper_left_column, left, height, 
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/ar/python-net/aspose.cells.drawing/msodrawingtype) | نوع الرسم MSO.|
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية للشكل من صفه الأيسر ، بوحدة البكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | left | int | يمثل الإزاحة الأفقية للشكل من عمودها الأيسر ، بوحدة البكسل.|
-| height | int | يمثل ارتفاع الشكل بوحدة البكسل.|
-| width | int | يمثل عرض الشكل بوحدة البكسل.|
+| height | int | يمثل ارتفاع الشكل بوحدات البكسل.|
+| width | int | يمثل عرض الشكل بوحدات البكسل.|
 ###  ملاحظات
 
 لا يمكن أن يكون النوع Chart / Comment / Picture / OleObject / Polygon / DialogBox
-###  مثال
+###  أمثلة
 
 
 ```python

@@ -18,7 +18,7 @@ def set_locked_property(self, type, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/sv/python-net/aspose.cells.drawing/shapelocktype) | Den låsta typen.|
 | value | bool | Fastighetens värde.|

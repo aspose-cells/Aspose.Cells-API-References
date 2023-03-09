@@ -18,7 +18,7 @@ Il tipo MsoArrowheadLength espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | SHORT | Lunghezza dell'estremità della linea corta|
-| MEDIUM | Lunghezza media dell'estremità della linea|
+| MEDIUM |Lunghezza media dell'estremità della linea|
 | LONG | Lunghezza dell'estremità della linea lunga|
 
 

@@ -1,13 +1,13 @@
 ﻿---
 title: StyleFlag类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1400
 url: /zh/python-net/aspose.cells/styleflag/
 is_root: false
 ---
-##  StyleFlag类
+## StyleFlag类
 表示指示应用格式属性的标志。
 
 

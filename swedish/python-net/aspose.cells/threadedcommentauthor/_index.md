@@ -19,7 +19,7 @@ Typen ThreadedCommentAuthor avslöjar följande medlemmar:
 | :- | :- |
 | [name](/cells/sv/python-net/aspose.cells/threadedcommentauthor/name) | Får och ställer in namnet.|
 | [user_id](/cells/sv/python-net/aspose.cells/threadedcommentauthor/user_id) | Hämtar och ställer in användarens id.|
-| [provider_id](/cells/sv/python-net/aspose.cells/threadedcommentauthor/provider_id) | Får id:t för leverantören.|
+| [provider_id](/cells/sv/python-net/aspose.cells/threadedcommentauthor/provider_id) | Får leverantörens identitet.|
 
 
 

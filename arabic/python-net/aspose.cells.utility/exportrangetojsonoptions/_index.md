@@ -23,10 +23,10 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [has_header_row](/cells/ar/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row) | يشير إلى ما إذا كان النطاق يحتوي على صف الرأس.|
+| [has_header_row](/cells/ar/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row) | يشير إلى ما إذا كان النطاق يحتوي على صف رأس.|
 | [export_as_string](/cells/ar/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string) | يصدر قيمة سلسلة الخلايا إلى json.|
 | [export_empty_cells](/cells/ar/python-net/aspose.cells.utility/exportrangetojsonoptions/export_empty_cells) | الإشارة إلى ما إذا كان يتم تصدير خلايا فارغة كخلايا فارغة.|
-| [indent](/cells/ar/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | يشير إلى المسافة البادئة.|
+| [indent](/cells/ar/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | يشير إلى الفهرس.|
 
 
 

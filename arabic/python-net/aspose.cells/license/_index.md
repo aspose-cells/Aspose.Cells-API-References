@@ -23,12 +23,12 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [set_license(license_name)](/cells/ar/python-net/aspose.cells/license/set_license/#str) | تراخيص المكون.|
-| [set_license(stream)](/cells/ar/python-net/aspose.cells/license/set_license/#io.RawIOBase) | تراخيص المكون.|
+| [set_license(license_name)](/cells/ar/python-net/aspose.cells/license/set_license/#str) | تراخيص المكونات.|
+| [set_license(stream)](/cells/ar/python-net/aspose.cells/license/set_license/#io.RawIOBase) | تراخيص المكونات.|
 
 
 
-###  مثال
+###  أمثلة
 
 في هذا المثال ، سيتم إجراء محاولة للعثور على ملف ترخيص باسم MyLicense.lic
  في المجلد الذي يحتوي على

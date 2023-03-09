@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | AUTOMATIC_SCALE | مقياس تلقائي|
-| CATEGORY_SCALE | الفئةالمقياس|
+| CATEGORY_SCALE | مقياس الفئة|
 | TIME_SCALE | مقياس الوقت|
 
 

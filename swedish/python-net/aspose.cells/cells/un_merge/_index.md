@@ -18,7 +18,7 @@ def un_merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_row | int | Första raden i detta intervall (nollbaserat)|
 | first_column | int | Första kolumnen i detta intervall (nollbaserat)|

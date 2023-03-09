@@ -24,13 +24,13 @@ is_root: false
 | JPEG | JPEG جفيف.|
 | PNG | رسومات الشبكة المحمولة.|
 | BMP | Windows صورة نقطية|
-| GIF | GIF|
+| GIF | صور متحركة|
 | TIFF | شجار|
 | SVG | SVG|
 | SVM | Svm|
-| GLTF | جي إل تي إف|
+| GLTF | المزيد|
 | OFFICE_COMPATIBLE_EMF | Windows Enhanced Metafile وهو أكثر توافقًا مع Office.|
-| WEB_P | تنسيق صورة Weppy|
+| WEB_P |تنسيق صورة Weppy|
 
 
 

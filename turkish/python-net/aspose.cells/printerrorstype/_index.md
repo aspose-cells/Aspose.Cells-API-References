@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  PrintErrorsType numaralandırma
-Yazdırma hataları sabitlerini temsil eder.
+Yazdırma hatası sabitlerini temsil eder.
 
 
 
@@ -19,7 +19,7 @@ PrintErrorsType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | PRINT_ERRORS_BLANK | Hataları yazdırmamayı temsil eder.|
 | PRINT_ERRORS_DASH | Yazdırma hatalarını "--" olarak temsil eder.|
-| PRINT_ERRORS_DISPLAYED |Görüntülenen yazdırma hatalarını temsil eder.|
+| PRINT_ERRORS_DISPLAYED | Görüntülenen yazdırma hatalarını temsil eder.|
 | PRINT_ERRORS_NA | Yazdırma hatalarını "#N/A" olarak temsil eder.|
 
 

@@ -13,7 +13,7 @@ Bağlantılı OLE nesnesi için kaynak dosyanın kaynak tam adını döndürür.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
 lütfen OleObject.ObjectSourceFullName özelliğini kullanın.
  Bu mülk, Kasım 2013'ten bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

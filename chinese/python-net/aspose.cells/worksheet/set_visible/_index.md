@@ -1,6 +1,6 @@
 ﻿---
 title: set_visible方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 260
@@ -18,7 +18,7 @@ def set_visible(self, is_visible, ignore_error):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | is_visible | bool |工作表是否可见|
 | ignore_error | bool |如果此选项无效，是否忽略错误。|

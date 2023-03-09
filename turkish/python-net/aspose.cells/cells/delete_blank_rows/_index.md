@@ -31,7 +31,7 @@ def delete_blank_rows(self, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/tr/python-net/aspose.cells/deleteoptions) | Aralığı silme seçenekleri.|
 

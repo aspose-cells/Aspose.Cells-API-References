@@ -18,9 +18,9 @@ def set_first_page_footer(self, section, footer_script):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| section | int |0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
+| section | int | 0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
 | footer_script | str | نص تنسيق التذييل.|
 
 

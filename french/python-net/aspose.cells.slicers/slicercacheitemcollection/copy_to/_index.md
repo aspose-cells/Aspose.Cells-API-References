@@ -18,9 +18,9 @@ def copy_to(self, array):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| array | list | La liste de tableau unidimensionnel qui est la destination de la liste de tableau des éléments copiés. La liste de tableaux doit avoir une indexation de base zéro.|
+| array | list | La liste de tableau unidimensionnel qui est la destination de la liste de tableau des éléments copiés.|
 
 
 ##  copy_to(index, array, array_index, count) {#int-list-int-int}
@@ -34,11 +34,11 @@ def copy_to(self, index, array, array_index, count):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | L'index de base zéro dans la liste de tableaux source à partir duquel la copie commence.|
-| array | list | La liste de tableau unidimensionnel qui est la destination des éléments copiés à partir de la liste de tableau. La liste de tableaux doit avoir une indexation de base zéro.|
-| array_index | int | Index de base zéro dans la liste de tableaux auquel la copie commence.|
+| array | list | La liste de tableau unidimensionnel qui est la destination des éléments copiés à partir de la liste de tableau.|
+| array_index | int |Index de base zéro dans la liste de tableaux auquel la copie commence.|
 | count | int | Le nombre d'éléments à copier.|
 
 

@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/validationcollection/remove_a_cell/
 is_root: false
 ---
 ##  remove_a_cell(row, column) {#int-int}
-Elimina toda la configuración de validación en la celda.
+Elimina todas las configuraciones de validación en la celda.
 
 
 
@@ -18,9 +18,9 @@ def remove_a_cell(self, row, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| row | int |El índice de fila de la celda.|
+| row | int | El índice de fila de la celda.|
 | column | int | El índice de columna de la celda.|
 
 

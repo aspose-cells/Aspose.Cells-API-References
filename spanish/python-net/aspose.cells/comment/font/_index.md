@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene el font del comentario.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

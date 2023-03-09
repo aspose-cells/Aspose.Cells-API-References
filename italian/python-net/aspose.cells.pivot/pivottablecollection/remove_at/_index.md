@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int | l'indice di posizione nella raccolta di tabelle pivot|
 | keep_data | bool | Indica se conservare i dati della tabella pivot|

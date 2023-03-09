@@ -13,17 +13,17 @@ Ruft die Höhe des Diagrammbereichs in Einheiten von 1/4000 des Diagrammbereichs
 
 ###  Bemerkungen
 
-Der Zeichenbereich-Begrenzungsrahmen enthält den Zeichenbereich, Teilstriche (Teilstriche) und einen kleinen Rahmen um die Teilstriche.
-Wenn der Wert nicht von MS Excel erstellt wird, rufen Sie bitte die Methode Chart.Calculate() auf, bevor Sie diese Methode aufrufen.
+Der Plotbereich-Begrenzungsrahmen umfasst den Plotbereich, Teilstriche (Teilstrichetiketten) und einen kleinen Rahmen um die Teilstriche.
+ Wenn der Wert nicht von MS Excel erstellt wird, rufen Sie bitte die Methode Chart.Calculate() auf, bevor Sie diese Methode aufrufen.
 
 
  Der**X**, **Y** , **Breite** Und**Höhe** von**Grundstücksfläche** stellt den Grundstücksbereich dar
- Begrenzungsrahmen, der den Plotbereich, Teilstriche (Teilstriche) und einen kleinen Rahmen um die Teilstriche enthält.
- Wenn Sie die tatsächliche Größe der Grundstücksfläche erfahren möchten, sollten Sie anrufen**InnerX** , **InnerY** , **Innere Breite** Und
-**InnereHöhe** Eigenschaften.
+ Ein Begrenzungsrahmen, der den Plotbereich, Teilstriche (Teilstrichbeschriftungen) und einen kleinen Rahmen um die Teilstriche enthält.
+ Wenn Sie die tatsächliche Größe der Grundstücksfläche erfahren möchten, sollten Sie anrufen**Inneres X** , **Inneres Y** , **Innere Breite** Und
+**Innere Höhe** Eigenschaften.
 
 
-Für Excel 2007 oder höher ist der Standardwert Null. Sie sollten get the value aufrufen, nachdem Sie Chart.Calculate() aufgerufen haben.
+Für Excel 2007 oder höher ist der Standardwert Null.
 ###  Definition:
 ```python
 @property

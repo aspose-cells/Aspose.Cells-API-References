@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_load propriété
 
-Spécifie si l'application hôte de l'objet intégré doit être appelée pour charger
+Spécifie si l'application hôte de l'objet incorporé doit être appelée pour charger
 les données d'objet automatiquement lorsque le classeur parent est ouvert.
 ###  Définition:
 ```python

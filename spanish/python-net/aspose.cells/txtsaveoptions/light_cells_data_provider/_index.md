@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  light_cells_data_provider propiedad
 
-El proveedor de datos para proporcionar datos de celdas para guardar el libro de trabajo en modo ligero.
+El proveedor de datos para proporcionar datos de celdas para guardar libros de trabajo en modo ligero.
 ###  Definición:
 ```python
 @property

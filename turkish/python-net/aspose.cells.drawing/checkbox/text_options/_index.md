@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin metin seçeneklerini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.pydrawing import Color

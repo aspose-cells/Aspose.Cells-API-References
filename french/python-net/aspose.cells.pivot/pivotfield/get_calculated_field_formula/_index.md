@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.pivot/pivotfield/get_calculated_field_formula/
 is_root: false
 ---
 ##  get_calculated_field_formula() {#}
-Récupère la chaîne de formule du champ calculé spécifié .
+Obtient la chaîne de formule du champ calculé spécifié.
 
 
 

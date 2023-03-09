@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/
 is_root: false
 ---
 ##  remove_pivot_connection(pivot) {#aspose.cells.pivot.PivotTable}
-Elimina la conexión de tabla dinámica.
+Elimina las conexiones de tabla dinámica.
 
 
 
@@ -18,11 +18,11 @@ def remove_pivot_connection(self, pivot):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | El objeto de tabla dinámica|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

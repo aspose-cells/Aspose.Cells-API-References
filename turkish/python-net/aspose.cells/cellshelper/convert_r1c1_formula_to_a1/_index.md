@@ -22,10 +22,10 @@ def convert_r1c1_formula_to_a1(self, r_1c1_formula, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | r_1c1_formula | str | r1c1 formülü.|
-| row | int |Hücrenin satır dizini.|
+| row | int | Hücrenin satır dizini.|
 | column | int | Hücrenin sütun dizini.|
 
 

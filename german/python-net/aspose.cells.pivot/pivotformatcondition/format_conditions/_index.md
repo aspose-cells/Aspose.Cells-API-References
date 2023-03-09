@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  format_conditions Eigentum
 
-Rufen Sie formatconditions für das Format der Pivot-Tabellenbedingung ab.
+Rufen Sie Formatbedingungen für das Bedingungsformat der Pivot-Tabelle ab.
 ###  Definition:
 ```python
 @property

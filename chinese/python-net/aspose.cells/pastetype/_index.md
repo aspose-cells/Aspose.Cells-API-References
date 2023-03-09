@@ -1,13 +1,13 @@
 ﻿---
 title: PasteType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2360
 url: /zh/python-net/aspose.cells/pastetype/
 is_root: false
 ---
-##  PasteType枚举
+## PasteType枚举
 表示粘贴特殊类型。
 
 

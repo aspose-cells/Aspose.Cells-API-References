@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/abstractglobalizationsettings/compare/
 is_root: false
 ---
 ##  compare(v1, v2, ignore_case) {#str-str-bool}
-Confronta due valori stringa in base a determinate regole di confronto.
+Confronta due valori di stringa in base a determinate regole di confronto.
 
 
 ###  ritorna
@@ -22,7 +22,7 @@ def compare(self, v1, v2, ignore_case):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | v1 | str | la prima corda|
 | v2 | str | la seconda corda|

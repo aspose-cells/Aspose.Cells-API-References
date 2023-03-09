@@ -11,7 +11,7 @@ is_root: false
 
 Представляет параметры текста фигуры.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.pydrawing import Color

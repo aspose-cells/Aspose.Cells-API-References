@@ -15,7 +15,7 @@ is_root: false
 
 عادةً ما يكون هو CLSID الخاص بالوظيفة الإضافية الخاصة بالموفر.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import SignatureLine

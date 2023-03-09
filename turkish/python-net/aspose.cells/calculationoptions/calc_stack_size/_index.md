@@ -16,8 +16,8 @@ Hücreleri yinelemeli olarak hesaplamak için yığın boyutunu belirtir.
 Bağımlılık ağacında yinelemeli olarak hesaplanması gereken çok sayıda hücre olduğunda,
 StackOverflowException, hesaplama sürecinde ortaya çıkabilir.
 Eğer öyleyse, kullanıcı bu özellik için daha küçük bir değer belirtmelidir.
-Böyle bir durumda, kullanıcı bu özellik için uygun değeri gerçek formüllere ve verilere göre belirlemelidir.
-Çok küçük bir değer, formül hesaplamasında performansın düşmesine neden olabilir.
+Bu tür durumlar için kullanıcı, gerçek formüllere ve verilere göre bu özellik için uygun değeri belirlemelidir.
+Çok küçük değerler, formül hesaplaması için performansın düşmesine neden olabilir.
 ###  Tanım:
 ```python
 @property

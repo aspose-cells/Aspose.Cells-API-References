@@ -18,7 +18,7 @@ def copy_theme(self, source):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source | [Workbook](/cells/it/python-net/aspose.cells/workbook) | Cartella di lavoro di origine.|
 

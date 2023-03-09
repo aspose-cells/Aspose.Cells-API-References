@@ -18,7 +18,7 @@ def set_custom_calculated_formula(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | bu liste sütununun formülü.|
 | is_r1c1 | bool | Formülün R1C1 olarak biçimlendirilmesi gerekip gerekmediği.|

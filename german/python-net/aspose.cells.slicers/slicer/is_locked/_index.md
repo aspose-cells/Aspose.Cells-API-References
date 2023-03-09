@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob die Slicer-Form gesperrt ist.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

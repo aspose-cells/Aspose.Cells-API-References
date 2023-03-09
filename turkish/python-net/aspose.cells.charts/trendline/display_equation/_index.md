@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_equation mülk
 
-Eğilim çizgisi denkleminin grafikte gösterilip gösterilmediğini temsil eder (R-kare değeriyle aynı veri etiketinde). Bu özelliği True olarak ayarlamak veri etiketlerini otomatik olarak açar.
+Eğilim çizgisi denkleminin grafikte gösterilip gösterilmediğini temsil eder (R-kare değeriyle aynı veri etiketinde).
 ###  Tanım:
 ```python
 @property

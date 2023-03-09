@@ -19,7 +19,7 @@ def update_selected_value(self):
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose import pycore

@@ -11,7 +11,7 @@ is_root: false
 
 Representa la cadena en este objeto TextBox.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

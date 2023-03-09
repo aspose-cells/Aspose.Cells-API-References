@@ -11,7 +11,7 @@ is_root: false
 
 xls2pdf sonucunda güvenlik gerektiğinde bu seçenekleri ayarlayın.
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, çıktı pdf için yüksek çözünürlüklü yazdırma iznini ayarlar.
 

@@ -13,7 +13,7 @@ Ottiene l'elemento [ChartPoint](/cells/it/python-net/aspose.cells.charts/chartpo
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
-| index | L'indice del punto grafico nella serie.|
+| index | L'indice dei punti del grafico nella serie.|
 
 
 

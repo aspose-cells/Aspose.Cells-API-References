@@ -22,7 +22,7 @@ def calculate_formula(self, formula):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | formula | str | Formule à calculer.|
 
@@ -42,7 +42,7 @@ def calculate_formula(self, formula, opts):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | formula | str | Formule à calculer.|
 | opts | [CalculationOptions](/cells/fr/python-net/aspose.cells/calculationoptions) | Options de formule de calcul|
@@ -59,7 +59,7 @@ def calculate_formula(self, options, recursive):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/fr/python-net/aspose.cells/calculationoptions) | Options de calcul|
 | recursive | bool | True signifie que si les cellules de la feuille de calcul dépendent des cellules d'autres feuilles de calcul,<br/>les cellules dépendantes dans d'autres feuilles de calcul seront également calculées.<br/> False signifie que toutes les formules de la feuille de calcul ont été calculées et que les valeurs sont correctes.|
@@ -76,14 +76,14 @@ def calculate_formula(self, recursive, ignore_error, custom_function):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | recursive | bool | True signifie que si les cellules de la feuille de calcul dépendent des cellules d'autres feuilles de calcul,<br/>les cellules dépendantes dans d'autres feuilles de calcul seront également calculées.<br/> False signifie que toutes les formules de la feuille de calcul ont été calculées et que les valeurs sont correctes.|
-| ignore_error | bool | Indique si masquer l'erreur dans le calcul des formules.<br/> L'erreur peut être une fonction non prise en charge, des liens externes, etc.|
+| ignore_error | bool | Indique si masquer l'erreur dans le calcul des formules.<br/> L'erreur peut provenir de fonctions non prises en charge, de liens externes, etc.|
 | custom_function | [ICustomFunction](/cells/fr/python-net/aspose.cells/icustomfunction) | Les fonctions de calcul de formule personnalisée pour étendre le moteur de calcul.|
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+REMARQUE : ce membre est désormais obsolète.
 veuillez utiliser la méthode CalculateFormula(CalculationOptions, bool).
  Cette méthode sera supprimée 12 mois plus tard depuis août 2020.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

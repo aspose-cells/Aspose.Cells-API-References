@@ -1,6 +1,6 @@
 ﻿---
 title: get_text_of_protection方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80

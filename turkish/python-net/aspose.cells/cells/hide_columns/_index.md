@@ -18,7 +18,7 @@ def hide_columns(self, column, total_columns):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 | total_columns | int | Sütun numarası.|

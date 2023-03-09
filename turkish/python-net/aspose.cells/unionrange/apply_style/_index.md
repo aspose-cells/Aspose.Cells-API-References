@@ -18,14 +18,14 @@ def apply_style(self, style, flag):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Uygulanacak stil nesnesi.|
-| flag | [StyleFlag](/cells/tr/python-net/aspose.cells/styleflag) | Uygulanan biçimlendirme özelliklerini gösteren bayraklar.|
+| flag | [StyleFlag](/cells/tr/python-net/aspose.cells/styleflag) |Uygulanan biçimlendirme özelliklerini gösteren bayraklar.|
 ###  Notlar
 
 Bu aralıktaki her hücre bir [Style](/cells/tr/python-net/aspose.cells/style) nesnesi içerecektir.
-Yani bu hafıza tüketen bir yöntemdir. Lütfen dikkatli kullanın.
+Yani bu hafıza tüketen bir yöntemdir.
 
 
 ###  Ayrıca bakınız

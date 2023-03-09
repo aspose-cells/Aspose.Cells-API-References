@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على أو تعيين type لعنصر قيمة التنسيق الشرطي هذا.
  تعيين type إلى FormatConditionValueType.Min أو FormatConditionValueType.Max
-سيعمل تلقائيًا على تعيين "القيمة" على قيمة خالية.
+سيتم تعيين "القيمة" تلقائيًا على قيمة خالية.
 ###  تعريف:
 ```python
 @property

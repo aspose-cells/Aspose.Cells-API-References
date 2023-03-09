@@ -28,7 +28,7 @@ ChartMarkerType türü aşağıdaki üyeleri gösterir:
 | SQUARE_STAR | Yıldızlı kare işaretçiler.|
 | TRIANGLE | Üçgen işaretçiler.|
 | SQUARE_X | X ile kare işaretleri.|
-| PICTURE | Resim|
+| PICTURE | resimler|
 
 
 

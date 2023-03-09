@@ -25,7 +25,7 @@ def get_pivot_total_name(self):
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+REMARQUE : ce membre est désormais obsolète.
 veuillez utiliser la méthode GlobalizationSettings.GetColumnLabelsOfPivotTable().
  Cette propriété sera supprimée 12 mois plus tard depuis décembre 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

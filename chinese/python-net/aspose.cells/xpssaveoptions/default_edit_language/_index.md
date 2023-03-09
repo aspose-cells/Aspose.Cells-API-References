@@ -1,6 +1,6 @@
 ﻿---
 title: default_edit_language 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 90
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-当设置不同的编辑语言时，它可能会显示/渲染文本段落的不同布局。
+当设置不同的编辑语言时，它可能会显示/呈现不同的文本段落布局。
 默认为 [DefaultEditLanguage.AUTO](/cells/zh/python-net/aspose.cells/defaulteditlanguage#AUTO)。
 ### 定义：
 ```python

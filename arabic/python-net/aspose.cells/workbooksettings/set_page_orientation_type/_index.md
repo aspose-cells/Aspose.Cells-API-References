@@ -18,7 +18,7 @@ def set_page_orientation_type(self, page_orientation_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | page_orientation_type | [PageOrientationType](/cells/ar/python-net/aspose.cells/pageorientationtype) | [PageOrientationType](/cells/ar/python-net/aspose.cells/pageorientationtype) |
 

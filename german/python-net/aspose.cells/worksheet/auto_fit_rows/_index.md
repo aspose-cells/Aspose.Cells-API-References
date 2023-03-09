@@ -33,7 +33,7 @@ def auto_fit_rows(self, only_auto):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| only_auto | bool | Richtig, passt die Zeilenhöhe nur dann automatisch an, wenn die Zeilenhöhe nicht angepasst ist.|
+| only_auto | bool |Richtig, passt die Zeilenhöhe nur dann automatisch an, wenn die Zeilenhöhe nicht angepasst ist.|
 
 
 ##  auto_fit_rows(options) {#AutoFitterOptions}

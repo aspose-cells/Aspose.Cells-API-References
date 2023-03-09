@@ -25,7 +25,7 @@ def freeze_panes(self, cell_name, freezed_rows, freezed_columns):
 | freezed_columns | int | Anzahl der sichtbaren Spalten im linken Bereich, nicht mehr als der Spaltenindex.|
 ###  Bemerkungen
 
-Zeilenindex und Spaltenindex können nicht alle Null sein. Anzahl der Zeilen und Anzahl der Spalten
+Zeilenindex und Spaltenindex können nicht alle Null sein.
 auch können nicht alle null sein.
 
 ##  freeze_panes(row, column, freezed_rows, freezed_columns) {#int-int-int-int}
@@ -47,7 +47,7 @@ def freeze_panes(self, row, column, freezed_rows, freezed_columns):
 | freezed_columns | int | Anzahl der sichtbaren Spalten im linken Bereich, nicht mehr als der Spaltenindex.|
 ###  Bemerkungen
 
-Zeilenindex und Spaltenindex können nicht alle Null sein. Anzahl der Zeilen und Anzahl der Spalten
+Zeilenindex und Spaltenindex können nicht alle Null sein.
 auch können nicht alle null sein.
 
 

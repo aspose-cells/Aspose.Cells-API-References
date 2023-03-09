@@ -1,13 +1,13 @@
 ﻿---
 title: MapChartProjectionType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 560
 url: /zh/python-net/aspose.cells.charts/mapchartprojectiontype/
 is_root: false
 ---
-##  MapChartProjectionType枚举
+## MapChartProjectionType枚举
 表示地图图表的投影类型。
 
 

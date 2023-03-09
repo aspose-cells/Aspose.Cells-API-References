@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  first_slice_angle Eigentum
 
-Ruft den Winkel des ersten Tortendiagramm- oder Doughnut-Diagrammsegments in Grad (im Uhrzeigersinn von der Vertikalen) ab oder legt diesen fest. Gilt nur für Kreis-, 3D-Kreis- und Ringdiagramme, 0 bis 360.
+Ruft den Winkel des ersten Torten- oder Ringdiagrammsegments in Grad (im Uhrzeigersinn von der Vertikalen) ab oder legt diesen fest. Gilt nur für Kreis-, 3D-Kreis- und Ringdiagramme, 0 bis 360.
 ###  Definition:
 ```python
 @property

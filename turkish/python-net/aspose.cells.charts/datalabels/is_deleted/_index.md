@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted mülk
 
-Bu veri etiketlerinin silinip silinmediğini gösterir.
+Bu veri etiketinin silinip silinmediğini gösterir.
 ###  Tanım:
 ```python
 @property

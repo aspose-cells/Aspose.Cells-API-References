@@ -18,11 +18,11 @@ def filter_top10(self, field_index, is_top, is_percent, item_count):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | field_index | int | L'intero offset del campo su cui si desidera basare il filtro<br/> (da sinistra dell'elenco; il campo più a sinistra è il campo 0).|
 | is_top | bool | Indica se filtrare dall'alto o dal basso|
-| is_percent | bool | Indica se gli elementi sono percentuali o conteggi|
+| is_percent | bool | Indica se gli elementi sono percentuale o conteggio|
 | item_count | int | Il conteggio degli articoli|
 
 

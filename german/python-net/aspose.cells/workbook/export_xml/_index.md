@@ -23,7 +23,7 @@ def export_xml(self, map_name, path):
 | map_name | str | Name der zu exportierenden XML-Map|
 | path | str | den Exportpfad|
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code exportierte die von der ersten XmlMap verknüpften Daten.
 

@@ -17,7 +17,7 @@ Typen ShapeAnchorType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| TWO_CELL_ANCHOR | Representerar en platshållare för ankare med två celler|
+| TWO_CELL_ANCHOR | Representerar en tvåcellsankarplatshållare|
 | ONE_CELL_ANCHOR | Representerar en platshållare för en cellsankare|
 
 

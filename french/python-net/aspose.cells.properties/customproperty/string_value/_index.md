@@ -13,7 +13,7 @@ Renvoie ou définit la valeur de la propriété personnalisée.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
  veuillez utiliser la propriété CustomProperty.Value.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_dropdown_visible mülk
 
-Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını belirtir.
+Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

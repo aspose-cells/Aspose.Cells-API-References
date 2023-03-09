@@ -42,7 +42,7 @@ def get_style(self, check_borders):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | check_borders | bool | Controlla i bordi delle altre celle|
 ###  Osservazioni

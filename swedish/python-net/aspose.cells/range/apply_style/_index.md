@@ -18,14 +18,14 @@ def apply_style(self, style, flag):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Stilobjektet som kommer att tillämpas.|
-| flag | [StyleFlag](/cells/sv/python-net/aspose.cells/styleflag) | Flaggor som indikerar tillämpade formateringsegenskaper.|
+| flag | [StyleFlag](/cells/sv/python-net/aspose.cells/styleflag) |Flaggor som indikerar tillämpade formateringsegenskaper.|
 ###  Anmärkningar
 
-Varje cell i det här intervallet kommer att innehålla ett [Style](/cells/sv/python-net/aspose.cells/style)-objekt.
-Detta är alltså en minneskrävande metod. Använd den försiktigt.
+Varje cell i detta intervall kommer att innehålla ett [Style](/cells/sv/python-net/aspose.cells/style)-objekt.
+Detta är alltså en minneskrävande metod.
 
 
 ###  Se även

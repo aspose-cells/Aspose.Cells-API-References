@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il segnaposto dell'ancora della forma.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

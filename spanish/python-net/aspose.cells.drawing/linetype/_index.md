@@ -17,14 +17,14 @@ El tipo LineType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| DARK_GRAY | Representa una línea gris oscura.|
-| DASH |Representa una línea discontinua.|
+| DARK_GRAY | Representa una línea gris oscuro.|
+| DASH | Representa una línea discontinua.|
 | DASH_DOT | Representa una línea de puntos y guiones|
 | DASH_DOT_DOT | Representa una línea de guión-punto-punto.|
 | DOT | Representa una línea de puntos.|
 | LIGHT_GRAY | Representa una línea gris claro.|
 | MEDIUM_GRAY | Representa una línea gris media.|
-| SOLID | Representa una línea continua.|
+| SOLID | Representa una línea sólida.|
 
 
 

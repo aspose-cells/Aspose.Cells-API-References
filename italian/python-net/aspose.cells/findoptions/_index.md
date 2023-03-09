@@ -27,11 +27,11 @@ Il tipo FindOptions espone i membri seguenti:
 | [case_sensitive](/cells/it/python-net/aspose.cells/findoptions/case_sensitive) | Indica se la stringa cercata fa distinzione tra maiuscole e minuscole.|
 | [look_at_type](/cells/it/python-net/aspose.cells/findoptions/look_at_type) | Guarda tipo.|
 | [is_range_set](/cells/it/python-net/aspose.cells/findoptions/is_range_set) | Indica se l'intervallo di ricerca è impostato.|
-| [search_next](/cells/it/python-net/aspose.cells/findoptions/search_next) | Ordine di ricerca. Vero: cerca dopo. Falso: ricerca precedente.|
+| [search_next](/cells/it/python-net/aspose.cells/findoptions/search_next) | Ordine di ricerca True: ricerca successiva False: ricerca precedente|
 | [search_backward](/cells/it/python-net/aspose.cells/findoptions/search_backward) | Indica se cercare all'indietro le celle.|
 | [seach_order_by_rows](/cells/it/python-net/aspose.cells/findoptions/seach_order_by_rows) | Indica se l'ordine di ricerca è per righe o colonne.|
 | [look_in_type](/cells/it/python-net/aspose.cells/findoptions/look_in_type) | Cerca nel tipo.|
-| [regex_key](/cells/it/python-net/aspose.cells/findoptions/regex_key) | Indica se la chiave cercata è regex.<br/> Se vero, la chiave cercata verrà considerata come regex e analizzata. Altrimenti la chiave verrà analizzata secondo le regole in ms excel.|
+| [regex_key](/cells/it/python-net/aspose.cells/findoptions/regex_key) | Indica se la chiave cercata è regex.<br/>Se vero, la chiave cercata verrà considerata come regex e analizzata.|
 | [value_type_sensitive](/cells/it/python-net/aspose.cells/findoptions/value_type_sensitive) | Indica se il tipo di valore della cella cercata deve essere uguale alla chiave cercata.|
 | [style](/cells/it/python-net/aspose.cells/findoptions/style) | Il formato da cercare.|
 | [convert_numeric_data](/cells/it/python-net/aspose.cells/findoptions/convert_numeric_data) | Ottiene o imposta un valore che indica se convertire il valore di stringa cercato in dati numerici.|
@@ -45,7 +45,7 @@ Il tipo FindOptions espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import CellArea, FindOptions, LookInType, Workbook

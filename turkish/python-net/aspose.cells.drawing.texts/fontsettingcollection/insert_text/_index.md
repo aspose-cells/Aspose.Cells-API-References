@@ -18,7 +18,7 @@ def insert_text(self, index, text):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Başlangıç dizini.|
 | text | str | Metin.|

@@ -1,13 +1,13 @@
 ﻿---
 title: ConditionalFormattingResult类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 330
 url: /zh/python-net/aspose.cells/conditionalformattingresult/
 is_root: false
 ---
-##  ConditionalFormattingResult类
+## ConditionalFormattingResult类
 表示适用于单元格的条件格式的结果。
 
 

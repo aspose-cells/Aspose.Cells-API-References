@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | El índice de base cero del elemento.|
 
@@ -42,9 +42,9 @@ def get(self, name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| name | str | Nombre del gráfico|
+| name | str |Nombre del gráfico|
 
 
 

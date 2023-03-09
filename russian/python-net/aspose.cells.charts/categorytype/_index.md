@@ -18,8 +18,8 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | AUTOMATIC_SCALE | Автоматическая шкала|
-| CATEGORY_SCALE | КатегорияМасштаб|
-| TIME_SCALE | шкала времени|
+| CATEGORY_SCALE | Шкала категории|
+| TIME_SCALE | Шкала времени|
 
 
 

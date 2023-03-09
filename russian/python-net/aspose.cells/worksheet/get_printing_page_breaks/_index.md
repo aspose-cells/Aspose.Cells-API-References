@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Области автоматического разрыва страниц.
+Области автоматического разрыва страницы.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| options | aspose.cells.rendering.ImageOrPrintOptions |Параметры печати|
+| options | aspose.cells.rendering.ImageOrPrintOptions | Параметры печати|
 ###  Примечания
 
 Каждая ячейка представляет собой бумагу.

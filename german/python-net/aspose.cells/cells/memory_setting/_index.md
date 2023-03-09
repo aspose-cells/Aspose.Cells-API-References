@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting Eigentum
 
-Ruft die Speichernutzungsoption für diese Zellen ab oder legt sie fest.
+Ruft die Speichernutzungsoption für diese Zelle ab oder legt diese fest.
 ###  Definition:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Dilimleyici şeklinin kilitli olup olmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

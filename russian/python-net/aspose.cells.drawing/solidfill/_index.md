@@ -23,7 +23,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [color](/cells/ru/python-net/aspose.cells.drawing/solidfill/color) | Получает или задает Color.|
-| [cells_color](/cells/ru/python-net/aspose.cells.drawing/solidfill/cells_color) | Получает и задает объект [SolidFill.cells_color](/cells/ru/python-net/aspose.cells.drawing/solidfill#cells_color).|
+| [cells_color](/cells/ru/python-net/aspose.cells.drawing/solidfill/cells_color) |Получает и задает объект [SolidFill.cells_color](/cells/ru/python-net/aspose.cells.drawing/solidfill#cells_color).|
 | [transparency](/cells/ru/python-net/aspose.cells.drawing/solidfill/transparency) | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная).|
 
 

@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [Slicer](/cells/de/python-net/aspose.cells.slicers/slicer) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [Slicer](/cells/de/python-net/aspose.cells.slicers/slicer) | Das zu lokalisierende System.Objekt.|
 
 
 

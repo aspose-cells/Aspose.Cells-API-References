@@ -17,13 +17,13 @@ Il tipo CellsDataTableFactory espone i membri seguenti:
 ###  Metodi
 | Metodo| Descrizione|
 | :- | :- |
-| [get_instance(vals, column_names)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |Crea ICellsDataTable da una data sequenza di valori int.|
-| [get_instance(vals, vertial)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |Crea ICellsDataTable da una data sequenza di valori int.|
+| [get_instance(vals, column_names)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | Crea ICellsDataTable da una data sequenza di valori int.|
+| [get_instance(vals, vertial)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Crea ICellsDataTable da una data sequenza di valori int.|
 | [get_instance(vals, column_names)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | Crea ICellsDataTable dalla sequenza data di valori double.|
 | [get_instance(vals, vertial)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Crea ICellsDataTable dalla sequenza data di valori double.|
-| [get_instance(vals, column_names)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | Crea ICellsDataTable da una determinata sequenza di oggetti.|
-| [get_instance(vals, vertial)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Crea ICellsDataTable da una determinata sequenza di oggetti.|
-| [get_instance(collection)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Crea ICellsDataTable dalla raccolta specificata.|
+| [get_instance(vals, column_names)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |Crea ICellsDataTable da una determinata sequenza di oggetti.|
+| [get_instance(vals, vertial)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |Crea ICellsDataTable da una determinata sequenza di oggetti.|
+| [get_instance(collection)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Crea ICellsDataTable da una determinata raccolta.|
 
 
 

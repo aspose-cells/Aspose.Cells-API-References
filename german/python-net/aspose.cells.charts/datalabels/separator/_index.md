@@ -13,9 +13,9 @@ Ruft den Typ separator ab, der für die Datenbeschriftungen in einem Diagramm ve
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die DataLabels.SeparatorType-Eigenschaft.
-Diese Property wird 12 Monate später seit September 2020 entfernt.
+ Diese Property wird 12 Monate später seit September 2020 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:
 ```python

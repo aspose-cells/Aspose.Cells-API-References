@@ -10,7 +10,7 @@ is_root: false
 ##  odc_file Eigentum
 
  Gibt den vollständigen Pfad zur externen Verbindungsdatei an, von der diese Verbindung stammt
- erstellt. Wenn eine Verbindung beim Versuch, Daten zu aktualisieren, fehlschlägt und reconnectionMethod=1,
+ Wenn eine Verbindung beim Versuch, Daten zu aktualisieren, fehlschlägt und reconnectionMethod=1,
  dann versucht die Tabellenkalkulationsanwendung erneut, Informationen aus der externen Verbindungsdatei zu verwenden
 anstelle des in die Arbeitsmappe eingebetteten Verbindungsobjekts.
 ###  Definition:

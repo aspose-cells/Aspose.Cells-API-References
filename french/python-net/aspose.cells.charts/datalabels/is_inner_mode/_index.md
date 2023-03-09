@@ -14,7 +14,7 @@ False spécifie que la taille doit déterminer la taille de la zone de tracé, l
 
 ###  Remarques
 
-Uniquement pour le fichier Xlsx.
+Uniquement pour les fichiers Xlsx.
 ###  Définition:
 ```python
 @property

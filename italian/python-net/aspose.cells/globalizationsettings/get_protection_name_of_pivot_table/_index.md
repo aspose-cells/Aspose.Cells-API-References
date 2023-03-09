@@ -24,7 +24,7 @@ def get_protection_name_of_pivot_table(self):
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+NOTA: questo membro è ora obsoleto.
 utilizzare il metodo GlobalizationSettings.GetColumnLabelsOfPivotTable().
  Questa proprietà verrà rimossa 12 mesi dopo da dicembre 2022.
 Aspose si scusa per gli eventuali disagi causati.

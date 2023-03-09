@@ -25,9 +25,9 @@ def get_column_lables_name(self):
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
 lütfen GlobalizationSettings.GetColumnLabelsOfPivotTable() yöntemini kullanın.
-Bu mülk, Eylül 2020'den itibaren 12 ay sonra kaldırılacaktır.
+ Bu mülk, Eylül 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 
 

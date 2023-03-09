@@ -13,8 +13,8 @@ Kullanıcının, korumalı bir çalışma sayfasındaki pivot tabloları değiş
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
- lütfen Protection.AllowUsingPivotTable özelliğini kullanın.
+ NOT: Bu üye artık kullanılmıyor.
+ lütfen Koruma'yı kullanın. PivotTable özelliğini Kullanmaya İzin Ver.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

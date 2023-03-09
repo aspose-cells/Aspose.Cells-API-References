@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | style | [Style](/cells/es/python-net/aspose.cells/style) | El estilo de celda.|
 ###  Observaciones
@@ -37,7 +37,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | style | [Style](/cells/es/python-net/aspose.cells/style) | El estilo de celda.|
 | explicit_flag | bool | Es cierto, solo se sobrescribe el formato que se establece explícitamente.|
@@ -54,7 +54,7 @@ def set_style(self, style, flag):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | style | [Style](/cells/es/python-net/aspose.cells/style) | El estilo de celda.|
 | flag | [StyleFlag](/cells/es/python-net/aspose.cells/styleflag) | La bandera de estilo.|

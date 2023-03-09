@@ -30,12 +30,12 @@ Typen FontUnderlineType avslöjar följande medlemmar:
 | DASH_LONG_HEAVY | Representerar tjock lång streckad underlinje|
 | DOT_DASH | Representerar Dash-Dot Underline|
 | DOT_DOT_DASH | Representerar streck-punkt-punkt understrykning|
-| DOTTED | Representerar prickad underlinje|
+| DOTTED |Representerar prickad underlinje|
 | DOTTED_HEAVY | Representerar tjock prickad underlinje|
 | HEAVY | Representerar tjock understrykning|
 | WAVE | Representerar Wave Underline|
 | WAVY_DOUBLE | Representerar Double Wave Underline|
-| WAVY_HEAVY |Representerar Heavy Wave Underline|
+| WAVY_HEAVY | Representerar Heavy Wave Underline|
 | WORDS | Representerar endast understrukna tecken som inte är mellanslag|
 
 

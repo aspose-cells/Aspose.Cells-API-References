@@ -22,7 +22,7 @@ def check_column(self, column_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column_index | int | L'indice de colonne.|
 

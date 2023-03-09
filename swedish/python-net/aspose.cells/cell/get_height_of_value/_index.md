@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cell/get_height_of_value/
 is_root: false
 ---
 ##  get_height_of_value() {#}
-Hämtar höjden på värdet i enhet pixlar.
+Hämtar höjden på värdet i enheter av pixlar.
 
 
 ###  Returnerar

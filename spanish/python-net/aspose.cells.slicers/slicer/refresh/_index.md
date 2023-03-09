@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.slicers/slicer/refresh/
 is_root: false
 ---
 ##  refresh() {#}
-Actualizar la segmentación. Mientras tanto, actualizar y calcular tablas dinámicas relativas.
+Actualizar la segmentación Mientras tanto, actualizar y calcular tablas dinámicas relativas.
 
 
 
@@ -19,7 +19,7 @@ def refresh(self):
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

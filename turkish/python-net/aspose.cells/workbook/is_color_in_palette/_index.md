@@ -13,7 +13,7 @@ Elektronik tablo için palette bir renk olup olmadığını kontrol eder.
 
 ###  İadeler
 
-Bu renk palette ise true değerini döndürür. Aksi takdirde false döndürür
+Bu renk palette ise true değerini döndürür.
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Renk yapısı.|
 

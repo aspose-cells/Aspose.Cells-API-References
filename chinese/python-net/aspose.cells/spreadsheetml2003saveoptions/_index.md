@@ -1,14 +1,14 @@
 ﻿---
 title: SpreadsheetML2003SaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1370
 url: /zh/python-net/aspose.cells/spreadsheetml2003saveoptions/
 is_root: false
 ---
-##  SpreadsheetML2003SaveOptions类
-表示保存 Excel 2003 spreadml 文件的选项。
+## SpreadsheetML2003SaveOptions类
+表示用于保存 Excel 2003 spreadml 文件的选项。
 
 
 

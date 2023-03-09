@@ -29,12 +29,12 @@ El tipo PdfBookmarkEntry expone los siguientes miembros:
 | [destination](/cells/es/python-net/aspose.cells.rendering/pdfbookmarkentry/destination) | La celda a la que se vincula el marcador.|
 | [destination_name](/cells/es/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name) | Obtiene o establece el nombre del destino.|
 | [sub_entry](/cells/es/python-net/aspose.cells.rendering/pdfbookmarkentry/sub_entry) | Subentrada de un marcador.|
-| [is_open](/cells/es/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) | Cuando esta propiedad es verdadera, la entrada de marcador se expandirá; de lo contrario, se colapsará.|
+| [is_open](/cells/es/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) |Cuando esta propiedad es verdadera, la entrada de marcador se expandirá; de lo contrario, se colapsará.|
 | [is_collapse](/cells/es/python-net/aspose.cells.rendering/pdfbookmarkentry/is_collapse) | Cuando esta propiedad es verdadera, la entrada de marcador colapsará; de lo contrario, se expandirá.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

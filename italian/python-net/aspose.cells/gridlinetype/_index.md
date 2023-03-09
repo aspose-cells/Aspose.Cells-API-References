@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType enumerazione
-Enumera il tipo di linea della griglia.
+Enumera i tipi di linea della griglia.
 
 
 

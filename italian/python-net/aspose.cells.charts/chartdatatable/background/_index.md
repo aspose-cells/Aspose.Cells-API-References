@@ -13,7 +13,7 @@ Ottiene e imposta la modalità di visualizzazione di background
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
  utilizzare la proprietà ChartDataTable.BackgroundMode.
  Questa proprietà verrà rimossa 12 mesi dopo da GENNAIO 2012.
 Aspose si scusa per gli eventuali disagi causati.

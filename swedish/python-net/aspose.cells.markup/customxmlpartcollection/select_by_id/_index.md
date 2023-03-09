@@ -22,7 +22,7 @@ def select_by_id(self, id):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | id | str | Innehåller GUID för den anpassade XML-delen.|
 

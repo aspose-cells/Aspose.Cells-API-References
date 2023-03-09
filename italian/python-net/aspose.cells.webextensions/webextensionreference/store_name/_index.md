@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  store_name proprietà
 
-Ottiene e imposta l'istanza del marketplace in cui è archiviato il componente aggiuntivo di Office. .
+Ottiene e imposta l'istanza del marketplace in cui è archiviato il componente aggiuntivo di Office.
 ###  Definizione:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id fastighet
 
-Får id:t för leverantören.
+Får leverantörens identitet.
 ###  Definition:
 ```python
 @property

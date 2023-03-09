@@ -1,5 +1,5 @@
 ﻿---
-title: InsertOptions sınıf
+title: InsertOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 940
 url: /tr/python-net/aspose.cells/insertoptions/
 is_root: false
 ---
-##  InsertOptions sınıf
+##  InsertOptions sınıfı
 Ekleme seçeneklerini temsil eder.
 
 
@@ -24,7 +24,7 @@ InsertOptions türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [copy_format_type](/cells/tr/python-net/aspose.cells/insertoptions/copy_format_type) |  |
-| [update_reference](/cells/tr/python-net/aspose.cells/insertoptions/update_reference) | Diğer çalışma sayfalarındaki başvuruların güncellenip güncellenmeyeceğini belirtir.|
+| [update_reference](/cells/tr/python-net/aspose.cells/insertoptions/update_reference) |Diğer çalışma sayfalarındaki başvuruların güncellenip güncellenmeyeceğini belirtir.|
 
 
 

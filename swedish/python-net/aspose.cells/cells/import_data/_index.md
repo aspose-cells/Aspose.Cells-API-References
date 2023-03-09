@@ -22,7 +22,7 @@ def import_data(self, table, first_row, first_column, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | table | [ICellsDataTable](/cells/sv/python-net/aspose.cells/icellsdatatable) | Den anpassade datatabellen.|
 | first_row | int | Första radens index.|

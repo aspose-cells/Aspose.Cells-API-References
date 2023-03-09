@@ -18,9 +18,9 @@ def clear_sparklines(self, cell_area):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Spécifie la zone des cellules|
+| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Spécifie la zone de cellules|
 
 
 

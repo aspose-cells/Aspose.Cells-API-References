@@ -26,12 +26,12 @@ def add_radio_button(self, upper_left_row, top, upper_left_column, left, height,
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Abstand von RadioButton von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Stellt den horizontalen Versatz von RadioButton von seiner linken Spalte in Pixeleinheiten dar.|
-| height | int |Repräsentiert die Höhe von RadioButton in Pixeleinheiten.|
+| height | int | Repräsentiert die Höhe von RadioButton in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite von RadioButton in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

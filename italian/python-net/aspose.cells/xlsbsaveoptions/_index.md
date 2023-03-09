@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/xlsbsaveoptions/
 is_root: false
 ---
 ##  classe XlsbSaveOptions
-Rappresenta le opzioni per il salvataggio del file xlsb.
+Rappresenta le opzioni per il salvataggio dei file xlsb.
 
 
 
@@ -36,11 +36,11 @@ Il tipo XlsbSaveOptions espone i membri seguenti:
 | [merge_areas](/cells/it/python-net/aspose.cells/xlsbsaveoptions/merge_areas) | Indica se unire le aree di formattazione condizionale e convalida prima di salvare il file.|
 | [create_directory](/cells/it/python-net/aspose.cells/xlsbsaveoptions/create_directory) | Se true e la directory non esiste, la directory verrà creata automaticamente prima di salvare il file.|
 | [sort_names](/cells/it/python-net/aspose.cells/xlsbsaveoptions/sort_names) | Indica se ordinare i nomi definiti prima di salvare il file.|
-| [sort_external_names](/cells/it/python-net/aspose.cells/xlsbsaveoptions/sort_external_names) | Indica se ordinare i nomi definiti esterni prima di salvare il file.|
-| [refresh_chart_cache](/cells/it/python-net/aspose.cells/xlsbsaveoptions/refresh_chart_cache) |Indica se aggiornare i dati della cache del grafico|
-| [warning_callback](/cells/it/python-net/aspose.cells/xlsbsaveoptions/warning_callback) | Ottiene o imposta la richiamata di avviso.|
+| [sort_external_names](/cells/it/python-net/aspose.cells/xlsbsaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esternamente prima di salvare il file.|
+| [refresh_chart_cache](/cells/it/python-net/aspose.cells/xlsbsaveoptions/refresh_chart_cache) | Indica se aggiornare i dati della cache del grafico|
+| [warning_callback](/cells/it/python-net/aspose.cells/xlsbsaveoptions/warning_callback) | Ottiene o imposta callback di avviso.|
 | [update_smart_art](/cells/it/python-net/aspose.cells/xlsbsaveoptions/update_smart_art) | Indica se aggiornare l'impostazione della grafica intelligente.<br/> Il valore predefinito è falso.|
-| [compression_type](/cells/it/python-net/aspose.cells/xlsbsaveoptions/compression_type) | Ottiene e imposta il tipo di compressione per il file ooxml.|
+| [compression_type](/cells/it/python-net/aspose.cells/xlsbsaveoptions/compression_type) | Ottiene e imposta il tipo di compressione per i file ooxml.|
 | [export_all_column_indexes](/cells/it/python-net/aspose.cells/xlsbsaveoptions/export_all_column_indexes) | Indica se esportare tutti gli indici di colonna per le celle.|
 
 

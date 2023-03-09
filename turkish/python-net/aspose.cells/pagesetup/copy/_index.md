@@ -18,7 +18,7 @@ def copy(self, source, copy_options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source | [PageSetup](/cells/tr/python-net/aspose.cells/pagesetup) | Kaynak.|
 | copy_options | [CopyOptions](/cells/tr/python-net/aspose.cells/copyoptions) | Kopyalama seçenekleri.|

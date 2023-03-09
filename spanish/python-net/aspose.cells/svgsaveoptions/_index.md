@@ -24,8 +24,8 @@ El tipo SvgSaveOptions expone los siguientes miembros:
 ###  Constructores
 | Constructor| Descripción|
 | :- | :- |
-| [SvgSaveOptions()](/cells/es/python-net/aspose.cells/svgsaveoptions/__init__/#) | Crea las opciones para guardar el archivo svg.|
-| [SvgSaveOptions(save_format)](/cells/es/python-net/aspose.cells/svgsaveoptions/__init__/#SaveFormat) | Crea las opciones para guardar el archivo svg.|
+| [SvgSaveOptions()](/cells/es/python-net/aspose.cells/svgsaveoptions/__init__/#) | Crea las opciones para guardar archivos svg.|
+| [SvgSaveOptions(save_format)](/cells/es/python-net/aspose.cells/svgsaveoptions/__init__/#SaveFormat) | Crea las opciones para guardar archivos svg.|
 
 
 ###  Propiedades
@@ -38,9 +38,9 @@ El tipo SvgSaveOptions expone los siguientes miembros:
 | [merge_areas](/cells/es/python-net/aspose.cells/svgsaveoptions/merge_areas) | Indica si fusionar las áreas de formato condicional y validación antes de guardar el archivo.|
 | [create_directory](/cells/es/python-net/aspose.cells/svgsaveoptions/create_directory) | Si es verdadero y el directorio no existe, el directorio se creará automáticamente antes de guardar el archivo.|
 | [sort_names](/cells/es/python-net/aspose.cells/svgsaveoptions/sort_names) | Indica si ordenar los nombres definidos antes de guardar el archivo.|
-| [sort_external_names](/cells/es/python-net/aspose.cells/svgsaveoptions/sort_external_names) | Indica si ordenar los nombres definidos externos antes de guardar el archivo.|
-| [refresh_chart_cache](/cells/es/python-net/aspose.cells/svgsaveoptions/refresh_chart_cache) |Indica si se actualizan los datos de la memoria caché del gráfico|
-| [warning_callback](/cells/es/python-net/aspose.cells/svgsaveoptions/warning_callback) | Obtiene o establece una devolución de llamada de advertencia.|
+| [sort_external_names](/cells/es/python-net/aspose.cells/svgsaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externamente antes de guardar el archivo.|
+| [refresh_chart_cache](/cells/es/python-net/aspose.cells/svgsaveoptions/refresh_chart_cache) | Indica si se actualizan los datos de la memoria caché del gráfico|
+| [warning_callback](/cells/es/python-net/aspose.cells/svgsaveoptions/warning_callback) | Obtiene o establece devoluciones de llamada de advertencia.|
 | [update_smart_art](/cells/es/python-net/aspose.cells/svgsaveoptions/update_smart_art) | Indica si se está actualizando la configuración de arte inteligente.<br/> El valor predeterminado es falso.|
 | [image_or_print_options](/cells/es/python-net/aspose.cells/svgsaveoptions/image_or_print_options) | Opciones adicionales de creación de imágenes|
 | [stream_provider](/cells/es/python-net/aspose.cells/svgsaveoptions/stream_provider) | Obtiene o establece IStreamProvider para exportar objetos.|

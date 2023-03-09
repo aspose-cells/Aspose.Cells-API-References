@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.markup/smarttagsetting/
 is_root: false
 ---
 ##  SmartTagSetting الدرجة
-يمثل كل كائن [SmartTagCollection](/cells/ar/python-net/aspose.cells.markup/smarttagcollection) في ورقة العمل.
+يمثل كل [SmartTagCollection](/cells/ar/python-net/aspose.cells.markup/smarttagcollection) كائنات بورقة العمل.
 
 
 

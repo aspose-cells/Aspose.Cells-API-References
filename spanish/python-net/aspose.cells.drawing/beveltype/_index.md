@@ -25,7 +25,7 @@ El tipo BevelType expone los siguientes miembros:
 | COOL_SLANT | Inclinación fresca|
 | CROSS | Cruz|
 | DIVOT | Chuleta|
-| HARD_EDGE | Borde duro|
+| HARD_EDGE | Bordes duros|
 | RELAXED_INSET | Recuadro relajado|
 | RIBLET | costillar|
 | SLOPE | Pendiente|

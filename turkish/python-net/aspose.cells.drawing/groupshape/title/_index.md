@@ -11,7 +11,7 @@ is_root: false
 
 Geçerli şekil nesnesinin title'ini (başlık) belirtir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

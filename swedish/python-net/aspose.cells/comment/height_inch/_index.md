@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  height_inch fastighet
 
-Representerar höjden på kommentaren, i enhet av tum.
+Representerar höjden på kommentaren, i enheter av tum.
 
 ###  Exempel
 

@@ -23,7 +23,7 @@ def copy(self, source, options):
 | source | [Picture](/cells/de/python-net/aspose.cells.drawing/picture) | Das Quellbild.|
 | options | [CopyOptions](/cells/de/python-net/aspose.cells/copyoptions) | Die Kopieroptionen.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CopyOptions, Workbook

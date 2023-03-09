@@ -1,13 +1,13 @@
 ﻿---
 title: LightRigType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 920
 url: /zh/python-net/aspose.cells.drawing/lightrigtype/
 is_root: false
 ---
-##  LightRigType枚举
+## LightRigType枚举
 表示可应用于形状的预设光权
 
 
@@ -27,13 +27,13 @@ LightRigType 类型公开了以下成员：
 | GLOW |辉光|
 | HARSH |残酷的|
 | LEGACY_FLAT1 |LegacyFlat1|
-| LEGACY_FLAT2 | LegacyFlat2|
-| LEGACY_FLAT3 | LegacyFlat3|
-| LEGACY_FLAT4 | LegacyFlat4|
-| LEGACY_HARSH1 | LegacyHarsh1|
-| LEGACY_HARSH2 | LegacyHarsh2|
-| LEGACY_HARSH3 | LegacyHarsh3|
-| LEGACY_HARSH4 | LegacyHarsh4|
+| LEGACY_FLAT2 |继承 Flat2|
+| LEGACY_FLAT3 |继承公寓 3|
+| LEGACY_FLAT4 |继承 4 号公寓|
+| LEGACY_HARSH1 |继承严酷1|
+| LEGACY_HARSH2 |继承严酷2|
+| LEGACY_HARSH3 |继承 Harsh3|
+| LEGACY_HARSH4 |继承 Harsh4|
 | LEGACY_NORMAL1 |传统普通1|
 | LEGACY_NORMAL2 |继承普通2|
 | LEGACY_NORMAL3 |继承普通3|

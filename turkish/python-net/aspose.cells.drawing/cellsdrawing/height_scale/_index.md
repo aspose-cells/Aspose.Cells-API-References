@@ -12,7 +12,7 @@ is_root: false
 Orijinal resim yüksekliğinin yüzde birimi cinsinden yükseklik ölçeğini alır ve ayarlar.
 Şekil resim değilse, HeightScale özelliği yalnızca 100 döndürür;
 
-###  Örnek
+###  örnekler
 
 ```python
 

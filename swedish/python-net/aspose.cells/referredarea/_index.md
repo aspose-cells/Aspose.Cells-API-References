@@ -19,7 +19,7 @@ Typen ReferredArea avslöjar följande medlemmar:
 | :- | :- |
 | [is_external_link](/cells/sv/python-net/aspose.cells/referredarea/is_external_link) | Anger om detta är en extern länk.|
 | [external_file_name](/cells/sv/python-net/aspose.cells/referredarea/external_file_name) | Få det externa filnamnet om detta är en extern referens.|
-| [sheet_name](/cells/sv/python-net/aspose.cells/referredarea/sheet_name) | Anger i vilket blad denna referens finns.|
+| [sheet_name](/cells/sv/python-net/aspose.cells/referredarea/sheet_name) |Anger i vilket blad denna referens finns.|
 | [is_area](/cells/sv/python-net/aspose.cells/referredarea/is_area) | Anger om detta är ett område.|
 | [end_column](/cells/sv/python-net/aspose.cells/referredarea/end_column) | Områdets ändkolumn.|
 | [start_column](/cells/sv/python-net/aspose.cells/referredarea/start_column) | Startkolumnen för området.|

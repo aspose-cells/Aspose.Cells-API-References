@@ -10,7 +10,7 @@ is_root: false
 ##  export_quote_prefix mülk
 
 Tek tırnak işaretinin bir hücrenin değerinin parçası olarak dışa aktarılıp aktarılmayacağını belirtir
-[Style.quote_prefix](/cells/tr/python-net/aspose.cells/style#quote_prefix) bunun için doğru olduğunda. Varsayılan yanlıştır.
+[Style.quote_prefix](/cells/tr/python-net/aspose.cells/style#quote_prefix) bunun için doğru olduğunda Varsayılan değer yanlıştır.
 ###  Tanım:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name mülk
 
-Bağlantının name'ini belirtir. Her bağlantının benzersiz bir name numarası olmalıdır.
+Bağlantının name'ini belirtir.
 ###  Tanım:
 ```python
 @property

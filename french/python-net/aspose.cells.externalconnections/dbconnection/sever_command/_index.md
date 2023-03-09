@@ -12,7 +12,7 @@ is_root: false
  Spécifie une deuxième chaîne de texte de commande qui est conservée lorsque le tableau croisé dynamique basé sur le serveur
  les champs de la page sont en cours d'utilisation.
  Pour les connexions ODBC, serverCommand est généralement une requête plus large que command (pas
-La clause WHERE est présente dans le premier). Basé sur ces 2 commandes (Command et ServerCommand),
+La clause WHERE est présente dans le premier).
 l'interface utilisateur des paramètres peut être remplie et des requêtes paramétrées peuvent être construites
 ###  Définition:
 ```python

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  RowCollection مفهرس
 
-يحصل على عنصر [Row](/cells/ar/python-net/aspose.cells/row) من خلال فهرس الصف المحدد. سيتم إنشاء كائن الصف لفهرس الصف المحدد إذا لم يكن موجودًا من قبل.
+يحصل على عنصر [Row](/cells/ar/python-net/aspose.cells/row) من خلال فهرس الصف المحدد.
 ###  مفهرس
 | اسم| وصف|
 | :- | :- |

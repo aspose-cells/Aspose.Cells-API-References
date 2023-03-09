@@ -10,7 +10,7 @@ is_root: false
 ##  text_rendering_hint propiedad
 
 Especifica la calidad de la representación del texto.
-El valor predeterminado es TextRenderingHint.SystemDefault
+El valor predeterminado es TextRenderingHint.
 ###  Definición:
 ```python
 @property

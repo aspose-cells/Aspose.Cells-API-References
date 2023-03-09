@@ -1,5 +1,5 @@
 ﻿---
-title: CellWatch sınıf
+title: CellWatch sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 160
 url: /tr/python-net/aspose.cells/cellwatch/
 is_root: false
 ---
-##  CellWatch sınıf
+##  CellWatch sınıfı
 'İzleme penceresinde' Cell İzleme Öğesini temsil eder.
 
 

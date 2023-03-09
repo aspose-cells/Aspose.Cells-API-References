@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.pivot/pivottable/format_all/
 is_root: false
 ---
 ##  format_all(style) {#Style}
-Formatta tutta la cella nell'area pivottable
+Formatta tutte le celle nell'area della tabella pivot
 
 
 
@@ -18,7 +18,7 @@ def format_all(self, style):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | style | [Style](/cells/it/python-net/aspose.cells/style) | Stile che è quello di formattare|
 

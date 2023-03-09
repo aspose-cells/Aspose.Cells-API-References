@@ -22,7 +22,7 @@ def get_comment_title_name(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | aspose.cells.rendering.CommentTitleType |  |
 

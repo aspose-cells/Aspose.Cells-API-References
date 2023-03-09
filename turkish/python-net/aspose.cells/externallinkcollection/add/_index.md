@@ -22,7 +22,7 @@ def add(self, file_name, sheet_names):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str | Harici dosya adı.|
 | sheet_names | list | Harici dosyanın tüm sayfa adları.|
@@ -43,9 +43,9 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| directory_type | [DirectoryType](/cells/tr/python-net/aspose.cells/directorytype) | Dosya adının dizin türü.|
+| directory_type | [DirectoryType](/cells/tr/python-net/aspose.cells/directorytype) |Dosya adının dizin türü.|
 | file_name | str | dosya adı.|
 | sheet_names | list | Harici dosyanın tüm sayfa adları.|
 

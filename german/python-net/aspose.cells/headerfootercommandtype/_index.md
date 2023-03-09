@@ -25,7 +25,7 @@ Der Typ HeaderFooterCommandType macht die folgenden Member verfügbar:
 | SHEET_NAME | Blattname|
 | FILE_NAME | Dateiname ohne Pfad|
 | FILE_PATH | Dateipfad ohne Dateinamen|
-| PICTURE | Bild|
+| PICTURE | Bilder|
 
 
 

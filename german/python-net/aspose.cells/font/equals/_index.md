@@ -24,7 +24,7 @@ def equals(self, font):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| font | [Font](/cells/de/python-net/aspose.cells/font) | Verglichenes Schriftobjekt.|
+| font | [Font](/cells/de/python-net/aspose.cells/font) |Schriftobjekte verglichen.|
 
 
 

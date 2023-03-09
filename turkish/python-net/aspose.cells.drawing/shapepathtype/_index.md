@@ -17,11 +17,11 @@ ShapePathType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| LINE_TO | Düz çizgi parçası|
+| LINE_TO |Düz çizgi parçası|
 | CUBIC_BEZIER_CURVE_TO | Kübik Bezier eğrisi|
 | MOVE_TO | Yeni bir yol başlat|
 | CLOSE | Başlangıç NOKTASI ve bitiş NOKTASI aynı değilse, tek bir<br/> yolun başlangıç NOKTASI ile bitiş NOKTASI'nı birleştiren düz bir çizgi çizilir.|
-| END |Geçerli yolun sonu|
+| END | Geçerli yolun sonu|
 | ESCAPE | Kaçmak|
 | ARC_TO | bir yay|
 | UNKNOWN | Bilinmeyen|

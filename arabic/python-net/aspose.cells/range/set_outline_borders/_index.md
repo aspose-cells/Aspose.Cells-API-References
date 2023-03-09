@@ -18,7 +18,7 @@ def set_outline_borders(self, border_style, border_color):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | border_style | [CellBorderType](/cells/ar/python-net/aspose.cells/cellbordertype) | نمط الحدود.|
 | border_color | [CellsColor](/cells/ar/python-net/aspose.cells/cellscolor) | لون الحدود.|
@@ -35,7 +35,7 @@ def set_outline_borders(self, border_style, border_color):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | border_style | [CellBorderType](/cells/ar/python-net/aspose.cells/cellbordertype) | نمط الحدود.|
 | border_color | aspose.pydrawing.Color | لون الحدود.|
@@ -52,7 +52,7 @@ def set_outline_borders(self, border_styles, border_colors):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | border_styles | list | أنماط الحدود.|
 | border_colors | aspose.pydrawing.Color[] | ألوان الحدود.|

@@ -13,7 +13,7 @@ Dizin tarafından belirtilen sütunda depolanan verileri alır.
 ###  İndeksleyici
 | İsim| Tanım|
 | :- | :- |
-| index |Sütunun sıfır tabanlı dizini.|
+| index | Sütunun sıfır tabanlı dizini.|
 
 
 

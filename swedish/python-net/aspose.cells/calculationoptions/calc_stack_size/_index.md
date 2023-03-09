@@ -16,8 +16,8 @@ Anger stackstorleken för att beräkna celler rekursivt.
 När det finns stora mängder celler måste beräknas rekursivt i beroendeträdet,
 StackOverflowException kan orsakas i beräkningsprocessen.
 Om så är fallet bör användaren ange ett mindre värde för den här egenskapen.
-För en sådan situation bör användaren bestämma rätt värde för den här egenskapen enligt de faktiska formlerna och data.
-För litet värde kan orsaka prestandaförsämring för formelberäkningen.
+För sådana situationer bör användaren bestämma rätt värde för den här egenskapen enligt de faktiska formlerna och data.
+För små värden kan orsaka prestandaförsämring för formelberäkningen.
 ###  Definition:
 ```python
 @property

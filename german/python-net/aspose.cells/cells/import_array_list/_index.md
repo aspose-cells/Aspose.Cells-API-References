@@ -20,8 +20,8 @@ def import_array_list(self, array_list, first_row, first_column, is_vertical):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| array_list | list | Datenarrayliste.|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| array_list | list | Liste der Datenarrays.|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 | is_vertical | bool | Gibt an, dass Daten vertikal oder horizontal importiert werden.|
 

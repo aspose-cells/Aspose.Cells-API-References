@@ -12,7 +12,7 @@ is_root: false
 Укажите тип стиля встроенного слайсера
 тип по умолчанию — SlicerStyleLight1
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

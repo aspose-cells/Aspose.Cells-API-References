@@ -22,9 +22,9 @@ def set_header_picture(self, section, header_picture):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| section | int |0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
+| section | int | 0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
 | header_picture | bytes | Dati immagine.|
 
 

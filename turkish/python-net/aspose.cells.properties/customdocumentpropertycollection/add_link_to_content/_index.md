@@ -22,7 +22,7 @@ def add_link_to_content(self, name, source):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı.|
 | source | str | mülkün kaynağı|

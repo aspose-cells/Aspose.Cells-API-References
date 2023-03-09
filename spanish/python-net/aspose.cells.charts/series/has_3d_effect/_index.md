@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_3d_effect propiedad
 
-Cierto si la serie tiene una apariencia tridimensional.
+ Cierto si la serie tiene una apariencia tridimensional.
 Se aplica solo a los gráficos de burbujas.
 ###  Definición:
 ```python

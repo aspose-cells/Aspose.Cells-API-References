@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | nollbaserat radindex|
 

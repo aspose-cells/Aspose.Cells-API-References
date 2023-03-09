@@ -11,7 +11,7 @@ is_root: false
 
 Nesnenin görünür olup olmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

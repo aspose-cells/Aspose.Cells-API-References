@@ -23,7 +23,7 @@ def get_full_name(self, sheet_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | sheet_name | str | اسم ورقة العمل|
 

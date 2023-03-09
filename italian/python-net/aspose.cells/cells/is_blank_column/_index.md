@@ -22,7 +22,7 @@ def is_blank_column(self, column_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column_index | int | l'indice di colonna|
 

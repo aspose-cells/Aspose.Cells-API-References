@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  footer_margin fastighet
 
-Representerar avståndet från botten av sidan till sidfoten, i centimeterenhet.
+Representerar avståndet från botten av sidan till sidfoten, i enheter av centimeter.
 ###  Definition:
 ```python
 @property

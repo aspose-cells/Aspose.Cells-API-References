@@ -18,7 +18,7 @@ Typen VbaModuleType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | PROCEDURAL | Representerar en procedurmodul.|
-| DOCUMENT |Representerar en dokumentmodul.|
+| DOCUMENT | Representerar en dokumentmodul.|
 | CLASS | Representerar en klassmodul.|
 | DESIGNER | Representerar en designermodul.|
 

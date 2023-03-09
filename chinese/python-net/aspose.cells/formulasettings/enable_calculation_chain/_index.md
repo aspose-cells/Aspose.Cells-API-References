@@ -1,6 +1,6 @@
 ﻿---
 title: enable_calculation_chain 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## enable_calculation_chain 属性
 
-是否为公式启用计算链。默认为假。
+是否为公式启用计算链。
 
 ### 评论
 

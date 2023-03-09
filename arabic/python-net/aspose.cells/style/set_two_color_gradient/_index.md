@@ -18,12 +18,12 @@ def set_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color | لون واحد متدرج.|
-| color2 | aspose.pydrawing.Color | اثنين من لون التدرج.|
+| color2 | aspose.pydrawing.Color | لونان متدرجان.|
 | gradient_style_type | aspose.cells.drawing.GradientStyleType | أسلوب التظليل المتدرج.|
-| variant | int |متغير التدرج. يمكن أن تكون قيمة من 1 إلى 4 ، مطابقة لأحد المتغيرات الأربعة في علامة التبويب Gradient في مربع حوار Fill Effects. إذا كان النمط هو GradientStyle.FromCenter ، يمكن أن تكون وسيطة Variant 1 أو 2 فقط.|
+| variant | int |متغير التدرج. يمكن أن تكون قيمة من 1 إلى 4 ، مطابقة لأحد المتغيرات الأربعة في علامة التبويب التدرج في مربع الحوار Fill Effects. إذا كان النمط هو GradientStyle.FromCenter ، يمكن أن تكون وسيطة Variant 1 أو 2 فقط.|
 
 
 

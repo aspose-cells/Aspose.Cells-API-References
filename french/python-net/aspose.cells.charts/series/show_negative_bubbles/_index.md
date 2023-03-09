@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_negative_bubbles propriété
 
-True si des bulles négatives sont affichées pour le groupe de graphiques. Valable uniquement pour les graphiques à bulles.
+True si des bulles négatives sont affichées pour le groupe de graphiques. Valide uniquement pour les graphiques à bulles.
 ###  Définition:
 ```python
 @property

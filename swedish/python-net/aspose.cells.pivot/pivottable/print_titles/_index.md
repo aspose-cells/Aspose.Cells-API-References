@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles fastighet
 
 Anger om utskriftstitlarna för kalkylbladet är inställda
-i pivottabellsrapporten. Standardvärdet är falskt.
+i pivottabellsrapporten.
 ###  Definition:
 ```python
 @property

@@ -18,7 +18,7 @@ def add(self, cficon):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cficon | [ConditionalFormattingIcon](/cells/tr/python-net/aspose.cells/conditionalformattingicon) | Listedeki yeni nesnenin dizinini döndürür.|
 
@@ -38,7 +38,7 @@ def add(self, type, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [IconSetType](/cells/tr/python-net/aspose.cells/iconsettype) | değer türü.|
 | index | int | İçerik.|

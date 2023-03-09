@@ -18,7 +18,7 @@ is_root: false
 даже если он не содержит данных ячейки.
 При сохранении в режиме LightCells этот параметр не действует.
 Пользователь должен контролировать выходной диапазон с помощью реализации [TxtSaveOptions.light_cells_data_provider](/cells/ru/python-net/aspose.cells/txtsaveoptions#light_cells_data_provider).
-или набрав [TxtSaveOptions.export_area](/cells/ru/python-net/aspose.cells/txtsaveoptions#export_area)
+или по телефону [TxtSaveOptions.export_area](/cells/ru/python-net/aspose.cells/txtsaveoptions#export_area)
 ###  Определение:
 ```python
 @property

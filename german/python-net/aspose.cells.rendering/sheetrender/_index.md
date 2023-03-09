@@ -24,15 +24,15 @@ Der Typ SheetRender macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [page_count](/cells/de/python-net/aspose.cells.rendering/sheetrender/page_count) | Ruft die Gesamtseitenzahl des aktuellen Arbeitsblatts ab.|
-| [page_scale](/cells/de/python-net/aspose.cells.rendering/sheetrender/page_scale) | Ruft den berechneten Seitenmaßstab des Blatts ab.<br/> Gibt die eingestellte Skala zurück, wenn [PageSetup.zoom](/cells/de/python-net/aspose.cells/pagesetup#zoom) eingestellt ist. Gibt andernfalls die berechnete Skala gemäß [PageSetup.fit_to_pages_wide](/cells/de/python-net/aspose.cells/pagesetup#fit_to_pages_wide) und [PageSetup.fit_to_pages_tall](/cells/de/python-net/aspose.cells/pagesetup#fit_to_pages_tall) zurück.|
+| [page_count](/cells/de/python-net/aspose.cells.rendering/sheetrender/page_count) | Ruft die Gesamtseitenanzahl des aktuellen Arbeitsblatts ab.|
+| [page_scale](/cells/de/python-net/aspose.cells.rendering/sheetrender/page_scale) | Ruft den berechneten Seitenmaßstab des Blatts ab.<br/> Gibt die eingestellte Skala zurück, wenn [PageSetup.zoom](/cells/de/python-net/aspose.cells/pagesetup#zoom) eingestellt ist.|
 
 
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [to_image(page_index, file_name)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) | Bestimmte Seite in eine Datei rendern.|
-| [to_image(page_index, stream)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) | Bestimmte Seite in einem Stream rendern.|
+| [to_image(page_index, file_name)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) | Bestimmte Seiten in eine Datei rendern.|
+| [to_image(page_index, stream)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) | Rendern Sie bestimmte Seiten in einen Stream.|
 | [to_tiff(stream)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_tiff/#io.RawIOBase) | Rendern Sie das gesamte Arbeitsblatt als Tiff-Bild zum Streamen.|
 | [to_tiff(filename)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_tiff/#str) | Rendern Sie das gesamte Arbeitsblatt als Tiff-Bild in eine Datei.|
 | [to_printer(printer_name)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_printer/#str) | Arbeitsblatt auf Drucker übertragen|
@@ -40,7 +40,7 @@ Der Typ SheetRender macht die folgenden Member verfügbar:
 | [to_printer(printer_settings)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) | Arbeitsblatt auf Drucker übertragen|
 | [to_printer(printer_settings, job_name)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings-str) | Arbeitsblatt auf Drucker übertragen|
 | [to_printer(printer_name, print_page_index, print_page_count)](/cells/de/python-net/aspose.cells.rendering/sheetrender/to_printer/#str-int-int) | Arbeitsblatt auf Drucker übertragen|
-| [get_page_size_inch(page_index)](/cells/de/python-net/aspose.cells.rendering/sheetrender/get_page_size_inch/#int) | Holen Sie sich die Seitengröße in Zoll des Ausgabebildes.|
+| [get_page_size_inch(page_index)](/cells/de/python-net/aspose.cells.rendering/sheetrender/get_page_size_inch/#int) |Holen Sie sich die Seitengröße in Zoll des Ausgabebildes.|
 | [custom_print(next_page_after_print, print_page_event_args)](/cells/de/python-net/aspose.cells.rendering/sheetrender/custom_print/#bool-aspose.pydrawing.printing.PrintPageEventArgs) | Der Client kann die Seiteneinstellung des Druckers beim Drucken jeder Seite mit dieser Funktion steuern.|
 
 

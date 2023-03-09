@@ -18,10 +18,10 @@ def __init__(self, workbook, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Hangi çalışma kitabının oluşturulacağını belirtin.|
-| options | [ImageOrPrintOptions](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions) |ImageOrPrintOptions çıktı görüntüsünün bazı özelliklerini içerir|
+| options | [ImageOrPrintOptions](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions çıktı görüntüsünün bazı özelliklerini içerir|
 
 
 

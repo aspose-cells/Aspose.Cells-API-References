@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta la stringa di testo descrittiva (alternativa) dell'oggetto Slicer.
 
-###  Esempio
+###  Esempi
 
 ```python
 

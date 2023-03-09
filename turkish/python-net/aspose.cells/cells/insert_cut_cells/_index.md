@@ -18,7 +18,7 @@ def insert_cut_cells(self, cut_range, row, column, shift_type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cut_range | [Range](/cells/tr/python-net/aspose.cells/range) | Kesim aralığı.|
 | row | int | Satır.|

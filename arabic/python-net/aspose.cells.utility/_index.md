@@ -13,7 +13,7 @@ is_root: false
 | فصل| وصف|
 | :- | :- |
 | [ExportRangeToJsonOptions](/cells/ar/python-net/aspose.cells.utility/exportrangetojsonoptions) | يشير إلى الخيارات التي يتم تصدير النطاق إلى json.|
-| [JsonLayoutOptions](/cells/ar/python-net/aspose.cells.utility/jsonlayoutoptions) |يمثل خيارات نوع تخطيط json.|
+| [JsonLayoutOptions](/cells/ar/python-net/aspose.cells.utility/jsonlayoutoptions) | يمثل خيارات نوع تخطيط json.|
 | [JsonUtility](/cells/ar/python-net/aspose.cells.utility/jsonutility) | يمثل فئة المنفعة الخاصة بمعالجة json.|
 
 

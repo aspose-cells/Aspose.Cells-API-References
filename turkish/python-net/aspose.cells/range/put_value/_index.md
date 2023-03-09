@@ -18,7 +18,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | string_value | str | Girdi değeri|
 | is_converted | bool | Doğru: uygunsa diğer veri türüne dönüştürülür.|

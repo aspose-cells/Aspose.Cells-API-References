@@ -41,7 +41,7 @@ is_root: false
 | TEXT_EFFECT22 | Текстовый эффект22|
 | TEXT_EFFECT23 | Текстовый эффект23|
 | TEXT_EFFECT24 | Текстовый эффект24|
-| TEXT_EFFECT25 |Текстовый эффект25|
+| TEXT_EFFECT25 | Текстовый эффект25|
 | TEXT_EFFECT26 | Текстовый эффект26|
 | TEXT_EFFECT27 | Текстовый эффект27|
 | TEXT_EFFECT28 | Текстовый эффект28|

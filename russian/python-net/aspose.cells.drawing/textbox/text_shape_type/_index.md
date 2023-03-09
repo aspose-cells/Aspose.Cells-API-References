@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает заданный тип фигуры текста.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import AutoShapeType

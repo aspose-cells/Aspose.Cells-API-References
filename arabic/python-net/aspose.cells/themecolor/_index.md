@@ -23,12 +23,12 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [color_type](/cells/ar/python-net/aspose.cells/themecolor/color_type) | يحصل ويضبط نوع السمة.|
+| [color_type](/cells/ar/python-net/aspose.cells/themecolor/color_type) | يحصل ويضبط نوع الموضوع.|
 | [tint](/cells/ar/python-net/aspose.cells/themecolor/tint) | الحصول على قيمة الصبغة وتعيينها.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import BackgroundType, ThemeColor, ThemeColorType, Workbook

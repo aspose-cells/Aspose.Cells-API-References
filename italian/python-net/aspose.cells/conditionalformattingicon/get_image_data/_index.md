@@ -22,9 +22,9 @@ def get_image_data(self, cell):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| cell | [Cell](/cells/it/python-net/aspose.cells/cell) | L'impostazione della cella.|
+| cell | [Cell](/cells/it/python-net/aspose.cells/cell) | L'impostazione delle celle.|
 
 
 

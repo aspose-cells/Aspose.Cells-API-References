@@ -13,7 +13,7 @@ Ottiene la riga successiva da salvare.
 
 ###  ritorna
 
-l'indice di riga successivo da salvare. -1 significa che è stata raggiunta la fine dei dati del foglio corrente e non è stata salvata alcuna riga ulteriore del foglio corrente.
+-1 significa che è stata raggiunta la fine dei dati del foglio corrente e non è stata salvata alcuna riga ulteriore del foglio corrente.
 
 
 ```python

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_text fastighet
 
-Indikerar att texten genereras automatiskt.
+Indikerar att texten är automatiskt genererad.
 ###  Definition:
 ```python
 @property

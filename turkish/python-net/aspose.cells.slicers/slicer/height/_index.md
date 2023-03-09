@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen dilimleyicinin height'ini puan cinsinden döndürür veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

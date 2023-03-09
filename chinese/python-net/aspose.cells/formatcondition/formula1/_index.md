@@ -1,6 +1,6 @@
 ﻿---
 title: formula1 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ is_root: false
 
 请在设置公式之前添加所有区域。
 设置此条件的公式，如果输入值以'='开头，则将其作为公式。
-否则它将被视为纯值（文本、数字、布尔值）。对于以'='开头的文本值，用户可以将其作为公式输入，格式为："=\"=...\""。
+否则，它将被视为普通值（文本，数字，布尔值）。对于以'='开头的文本值，用户可以将其作为公式输入，格式为：“=\”=...\“”。
 ### 定义：
 ```python
 @property

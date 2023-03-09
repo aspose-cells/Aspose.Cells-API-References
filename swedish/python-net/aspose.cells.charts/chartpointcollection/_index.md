@@ -17,7 +17,7 @@ Typen ChartPointCollection avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [count](/cells/sv/python-net/aspose.cells.charts/chartpointcollection/count) | Får räkningen av diagrampunkten.|
+| [count](/cells/sv/python-net/aspose.cells.charts/chartpointcollection/count) | Får räkningen av diagrampunkterna.|
 
 
 
@@ -25,14 +25,14 @@ Hämtar elementet [ChartPoint](/cells/sv/python-net/aspose.cells.charts/chartpoi
 ###  Indexerare
 | namn| Beskrivning|
 | :- | :- |
-| [index] | Indexet för diagrampunkten i serien.|
+| [index] | Indexet över diagrampunkter i serien.|
 
 
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
 | [get_enumerator()](/cells/sv/python-net/aspose.cells.charts/chartpointcollection/get_enumerator/#) | Returnerar en uppräkning för hela [ChartPointCollection](/cells/sv/python-net/aspose.cells.charts/chartpointcollection).|
-| [clear()](/cells/sv/python-net/aspose.cells.charts/chartpointcollection/clear/#) | Ta bort all inställning av diagrampunkterna.|
+| [clear()](/cells/sv/python-net/aspose.cells.charts/chartpointcollection/clear/#) | Ta bort alla inställningar för sjökortspunkterna.|
 | [remove_at(index)](/cells/sv/python-net/aspose.cells.charts/chartpointcollection/remove_at/#int) | Tar bort punkt på indexet för serien..|
 
 

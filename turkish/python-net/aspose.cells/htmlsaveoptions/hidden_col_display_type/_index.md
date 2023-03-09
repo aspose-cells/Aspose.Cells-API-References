@@ -11,7 +11,7 @@ is_root: false
 
 Excel'de gizli sütun (bu sütunun genişliği 0'dır), bunu html biçiminde kaydetmeden önce,
 HtmlHiddenColDisplayType "Kaldır" ise, gizli sütunun çıkışı olmaz,
-değer "Gizli" ise, sütun çıktısı alınır, ancak gizlidir, varsayılan değer "Gizli" olur
+değer "Gizli" ise, sütun çıktısı olurdu, ancak gizliydi, varsayılan değer "Gizli" dir.
 ###  Tanım:
 ```python
 @property

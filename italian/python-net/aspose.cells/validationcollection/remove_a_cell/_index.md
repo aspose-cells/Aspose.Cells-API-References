@@ -18,9 +18,9 @@ def remove_a_cell(self, row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| row | int |L'indice di riga della cella.|
+| row | int | L'indice di riga della cella.|
 | column | int | L'indice di colonna della cella.|
 
 

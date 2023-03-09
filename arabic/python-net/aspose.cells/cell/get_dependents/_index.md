@@ -18,7 +18,7 @@ def get_dependents(self, is_all):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | is_all | bool | يشير إلى ما إذا كان التحقق من الصيغ في أوراق العمل الأخرى|
 ###  ملاحظات
@@ -29,8 +29,8 @@ def get_dependents(self, is_all):
 على سبيل المثال ، على الرغم من عدم استخدام الخلية A2 في الصيغة "= IF (TRUE، A1، A2)" أثناء الحساب ،
 لا تزال هذه الصيغة تؤخذ على أنها تابعة لـ A2.
 للحصول على تلك الصيغ التي تعتمد نتائجها المحسوبة على هذه الخلية ، يرجى استخدام [Cell.get_dependents_in_calculation(recursive)](/cells/ar/python-net/aspose.cells/cell/get_dependents_in_calculation). عند تتبع المعالين لخلية واحدة ، سيتم تحليل جميع الصيغ الموجودة في المصنف أو ورقة العمل والتحقق منها.
-لذلك فهي عملية تستغرق وقتًا طويلاً. إذا احتاج المستخدم إلى تتبع المعالين للعديد من الخلايا ، فسيؤدي استخدام هذه الطريقة
-تسبب ضعف الأداء. للنظر في الأداء ، يجب على المستخدم استخدام [Cell.get_dependents_in_calculation(recursive)](/cells/ar/python-net/aspose.cells/cell/get_dependents_in_calculation) بدلاً من ذلك.
+لذا فهي عملية تستغرق وقتًا طويلاً ، فإذا احتاج المستخدم إلى تتبع المعالين للعديد من الخلايا ، فإن استخدام هذه الطريقة سيفعل
+يؤدي إلى أداء ضعيف. للنظر في الأداء ، يجب على المستخدم استخدام [Cell.get_dependents_in_calculation(recursive)](/cells/ar/python-net/aspose.cells/cell/get_dependents_in_calculation) بدلاً من ذلك.
 أو ، يمكن للمستخدم جمع خريطة السوابق لجميع الخلايا بواسطة [Cell.get_precedents()](/cells/ar/python-net/aspose.cells/cell/get_precedents) أولاً ،
 ثم قم ببناء خريطة المعالين وفقًا لخريطة السوابق.
 
@@ -39,8 +39,8 @@ def get_dependents(self, is_all):
 على سبيل المثال ، على الرغم من عدم استخدام الخلية A2 في الصيغة "= IF (TRUE، A1، A2)" أثناء الحساب ،
 لا تزال هذه الصيغة تؤخذ على أنها تابعة لـ A2.
 للحصول على تلك الصيغ التي تعتمد نتائجها المحسوبة على هذه الخلية ، يرجى استخدام [Cell.get_dependents_in_calculation(recursive)](/cells/ar/python-net/aspose.cells/cell/get_dependents_in_calculation). عند تتبع المعالين لخلية واحدة ، سيتم تحليل جميع الصيغ الموجودة في المصنف أو ورقة العمل والتحقق منها.
-لذلك فهي عملية تستغرق وقتًا طويلاً. إذا احتاج المستخدم إلى تتبع المعالين للعديد من الخلايا ، فسيؤدي استخدام هذه الطريقة
-تسبب ضعف الأداء. للنظر في الأداء ، يجب على المستخدم استخدام [Cell.get_dependents_in_calculation(recursive)](/cells/ar/python-net/aspose.cells/cell/get_dependents_in_calculation) بدلاً من ذلك.
+لذا فهي عملية تستغرق وقتًا طويلاً ، فإذا احتاج المستخدم إلى تتبع المعالين للعديد من الخلايا ، فإن استخدام هذه الطريقة سيفعل
+يؤدي إلى أداء ضعيف. للنظر في الأداء ، يجب على المستخدم استخدام [Cell.get_dependents_in_calculation(recursive)](/cells/ar/python-net/aspose.cells/cell/get_dependents_in_calculation) بدلاً من ذلك.
 أو ، يمكن للمستخدم جمع خريطة السوابق لجميع الخلايا بواسطة [Cell.get_precedents()](/cells/ar/python-net/aspose.cells/cell/get_precedents) أولاً ،
 ثم قم ببناء خريطة المعالين وفقًا لخريطة السوابق.
 
@@ -49,11 +49,11 @@ def get_dependents(self, is_all):
 على سبيل المثال ، على الرغم من عدم استخدام الخلية A2 في الصيغة "= IF (TRUE، A1، A2)" أثناء الحساب ،
 لا تزال هذه الصيغة تؤخذ على أنها تابعة لـ A2.
 للحصول على تلك الصيغ التي تعتمد نتائجها المحسوبة على هذه الخلية ، يرجى استخدام [Cell.get_dependents_in_calculation(recursive)](/cells/ar/python-net/aspose.cells/cell/get_dependents_in_calculation). عند تتبع المعالين لخلية واحدة ، سيتم تحليل جميع الصيغ الموجودة في المصنف أو ورقة العمل والتحقق منها.
-لذلك فهي عملية تستغرق وقتًا طويلاً. إذا احتاج المستخدم إلى تتبع المعالين للعديد من الخلايا ، فسيؤدي استخدام هذه الطريقة
-تسبب ضعف الأداء. للنظر في الأداء ، يجب على المستخدم استخدام [Cell.get_dependents_in_calculation(recursive)](/cells/ar/python-net/aspose.cells/cell/get_dependents_in_calculation) بدلاً من ذلك.
+لذا فهي عملية تستغرق وقتًا طويلاً ، فإذا احتاج المستخدم إلى تتبع المعالين للعديد من الخلايا ، فإن استخدام هذه الطريقة سيفعل
+يؤدي إلى أداء ضعيف. للنظر في الأداء ، يجب على المستخدم استخدام [Cell.get_dependents_in_calculation(recursive)](/cells/ar/python-net/aspose.cells/cell/get_dependents_in_calculation) بدلاً من ذلك.
 أو ، يمكن للمستخدم جمع خريطة السوابق لجميع الخلايا بواسطة [Cell.get_precedents()](/cells/ar/python-net/aspose.cells/cell/get_precedents) أولاً ،
 ثم قم ببناء خريطة المعالين وفقًا لخريطة السوابق.
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

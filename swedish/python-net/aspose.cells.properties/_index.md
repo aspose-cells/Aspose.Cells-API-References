@@ -12,7 +12,7 @@ is_root: false
 ###  Klasser
 | Klass| Beskrivning|
 | :- | :- |
-| [BuiltInDocumentPropertyCollection](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection) | En samling inbyggda dokumentegenskaper.|
+| [BuiltInDocumentPropertyCollection](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection) | En samling av inbyggda dokumentegenskaper.|
 | [ContentTypeProperty](/cells/sv/python-net/aspose.cells.properties/contenttypeproperty) | Representerar identifieringsinformation.|
 | [ContentTypePropertyCollection](/cells/sv/python-net/aspose.cells.properties/contenttypepropertycollection) | En samling av [ContentTypeProperty](/cells/sv/python-net/aspose.cells.properties/contenttypeproperty) objekt som representerar ytterligare information.|
 | [CustomDocumentPropertyCollection](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection) | En samling anpassade dokumentegenskaper.|
@@ -23,8 +23,8 @@ is_root: false
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
-| [PropertyType](/cells/sv/python-net/aspose.cells.properties/propertytype) | Anger datatyp för en dokumentegenskap.|
+| [PropertyType](/cells/sv/python-net/aspose.cells.properties/propertytype) |Anger datatyp för en dokumentegenskap.|
 
 

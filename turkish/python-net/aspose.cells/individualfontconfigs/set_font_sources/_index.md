@@ -18,7 +18,7 @@ def set_font_sources(self, sources):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sources | list | TrueType yazı tiplerini içeren bir dizi kaynak.|
 

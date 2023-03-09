@@ -18,14 +18,14 @@ def merge_files(self, files, cached_file, dest_file):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | files | list | Les fichiers.|
 | cached_file | str | Le fichier en cache.|
 | dest_file | str | Le fichier dest.|
 ###  Remarques
 
-Cette méthode ne prend en charge que la fusion des données, du style et des formules dans le nouveau fichier.
+Cette méthode ne prend en charge que la fusion de données, de styles et de formules dans le nouveau fichier.
 Le fichier en cache est utilisé pour stocker certaines données temporaires.
 
 

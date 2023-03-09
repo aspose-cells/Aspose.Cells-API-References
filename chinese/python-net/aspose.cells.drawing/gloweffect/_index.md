@@ -1,13 +1,13 @@
 ﻿---
 title: GlowEffect类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 210
 url: /zh/python-net/aspose.cells.drawing/gloweffect/
 is_root: false
 ---
-##  GlowEffect类
+## GlowEffect类
 这个类指定了一个发光效果，其中一个颜色模糊了轮廓
 添加到对象的边缘之外。
 

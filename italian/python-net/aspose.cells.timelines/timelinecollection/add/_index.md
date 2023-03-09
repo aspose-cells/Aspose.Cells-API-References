@@ -22,13 +22,13 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Oggetto tabella pivot|
+| pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | dest_cell_name | str | Il nome della cella nell'angolo in alto a sinistra dell'intervallo della sequenza temporale.|
 | base_field_name | str | Il nome di PivotField in PivotTable.BaseFields|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -53,13 +53,13 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Oggetto tabella pivot|
+| pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | dest_cell_name | str | Il nome della cella nell'angolo in alto a sinistra dell'intervallo della sequenza temporale.|
 | base_field_index | int | L'indice di PivotField in PivotTable.BaseFields|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -84,13 +84,13 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Oggetto tabella pivot|
+| pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | dest_cell_name | str | Il nome della cella nell'angolo in alto a sinistra dell'intervallo della sequenza temporale.|
 | base_field | aspose.cells.pivot.PivotField | Il campo pivot in PivotTable.BaseFields|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -115,14 +115,14 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Oggetto tabella pivot|
+| pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | row | int | Indice di riga della cella nell'angolo in alto a sinistra dell'intervallo della sequenza temporale.|
 | column | int | Indice di colonna della cella nell'angolo in alto a sinistra dell'intervallo della sequenza temporale.|
 | base_field_name | str | Il nome di PivotField in PivotTable.BaseFields|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -147,14 +147,14 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Oggetto tabella pivot|
+| pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | row | int | Indice di riga della cella nell'angolo in alto a sinistra dell'intervallo della sequenza temporale.|
 | column | int | Indice di colonna della cella nell'angolo in alto a sinistra dell'intervallo della sequenza temporale.|
 | base_field_index | int | L'indice di PivotField in PivotTable.BaseFields|
 
-###  Esempio
+###  Esempi
 
 ```python
 
@@ -179,14 +179,14 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Oggetto tabella pivot|
+| pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | row | int | Indice di riga della cella nell'angolo in alto a sinistra dell'intervallo della sequenza temporale.|
 | column | int | Indice di colonna della cella nell'angolo in alto a sinistra dell'intervallo della sequenza temporale.|
 | base_field | aspose.cells.pivot.PivotField | Il campo pivot in PivotTable.BaseFields|
 
-###  Esempio
+###  Esempi
 
 ```python
 

@@ -11,7 +11,7 @@ is_root: false
 
 Представляет количество ошибок type.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

@@ -13,7 +13,7 @@ Impostazione per il rendering del metafile EMF.
 
 ###  Osservazioni
 
- metafile EMF identificati come "EMF+ Dual" possono contenere sia record EMF+ sia record EMF.
+ I metafile EMF identificati come "EMF+ Dual" possono contenere sia record EMF+ sia record EMF.
 Entrambi i tipi di record possono essere utilizzati per il rendering dell'immagine, solo record EMF+ o solo record EMF.
 Quando è impostato [EmfRenderSetting.EMF_PLUS_PREFER](/cells/it/python-net/aspose.cells/emfrendersetting#EMF_PLUS_PREFER), verranno analizzati EMF+ record durante il rendering in pdf, altrimenti verranno analizzati solo i record EMF.
 Il valore predefinito è [EmfRenderSetting.EMF_ONLY](/cells/it/python-net/aspose.cells/emfrendersetting#EMF_ONLY).

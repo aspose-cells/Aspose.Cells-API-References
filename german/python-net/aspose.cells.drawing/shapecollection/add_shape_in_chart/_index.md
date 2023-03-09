@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/
 is_root: false
 ---
 ##  add_shape_in_chart(type, placement, left, top, right, bottom) {#MsoDrawingType-PlacementType-int-int-int-int}
-Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 des Diagrammbereichs.
+Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 der Diagrammfläche.
 
 
 
@@ -29,7 +29,7 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom):
 
 
 ##  add_shape_in_chart(type, placement, left, top, right, bottom, image_data) {#MsoDrawingType-PlacementType-int-int-int-int-bytes}
-Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 des Diagrammbereichs.
+Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 der Diagrammfläche.
 
 
 

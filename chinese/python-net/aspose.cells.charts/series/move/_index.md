@@ -1,6 +1,6 @@
 ﻿---
 title: move方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def move(self, count):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | count | int |向上或向下移动的次数。<br/>如果这小于零，则向上移动系列；<br/>如果这大于零，则向下移动系列。|
 

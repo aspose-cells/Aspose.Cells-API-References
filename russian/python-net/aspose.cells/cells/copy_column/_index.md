@@ -18,11 +18,11 @@ def copy_column(self, source_cells, source_column_index, destination_column_inde
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_column_index | int | Индекс исходного столбца.|
-| destination_column_index | int |Индекс столбца назначения.|
+| destination_column_index | int | Индекс столбца назначения.|
 
 
 

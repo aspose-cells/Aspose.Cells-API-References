@@ -22,7 +22,7 @@ def get_standard_header_footer_font_style_name(self, localfont_style_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | localfont_style_name | str | Üst Bilgi/Alt Bilgi için yerel yazı tipi stili adı.|
 

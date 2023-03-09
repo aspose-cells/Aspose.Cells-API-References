@@ -18,7 +18,7 @@ def get_pivot_filter_by_type(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [PivotFilterType](/cells/sv/python-net/aspose.cells.pivot/pivotfiltertype) |  |
 

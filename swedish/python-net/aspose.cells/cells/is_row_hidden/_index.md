@@ -22,7 +22,7 @@ def is_row_hidden(self, row_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | radindex|
 

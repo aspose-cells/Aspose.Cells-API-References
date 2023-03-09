@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_values_row fastighet
 
-Anger ett booleskt värde som anger om raden visar värden.
+Anger ett booleskt värde som indikerar om raden visar värden.
 visa värderaden
 ###  Definition:
 ```python

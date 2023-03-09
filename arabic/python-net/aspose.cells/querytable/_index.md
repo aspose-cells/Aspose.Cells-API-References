@@ -17,16 +17,16 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [connection_id](/cells/ar/python-net/aspose.cells/querytable/connection_id) | يحصل على معرف الاتصال لجدول الاستعلام.|
+| [connection_id](/cells/ar/python-net/aspose.cells/querytable/connection_id) |يحصل على معرف الاتصال لجدول الاستعلام.|
 | [external_connection](/cells/ar/python-net/aspose.cells/querytable/external_connection) | يحصل على اتصال خارجي متعلق.|
 | [name](/cells/ar/python-net/aspose.cells/querytable/name) | يحصل على اسم الاستعلام.|
-| [result_range](/cells/ar/python-net/aspose.cells/querytable/result_range) | يحصل على مدى النتيجة.|
+| [result_range](/cells/ar/python-net/aspose.cells/querytable/result_range) | يحصل على نطاق النتائج.|
 | [preserve_formatting](/cells/ar/python-net/aspose.cells/querytable/preserve_formatting) | إرجاع أو تعيين PreserveFormatting للكائن.|
 | [adjust_column_width](/cells/ar/python-net/aspose.cells/querytable/adjust_column_width) | إرجاع أو تعيين AdjustColumnWidth للكائن.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

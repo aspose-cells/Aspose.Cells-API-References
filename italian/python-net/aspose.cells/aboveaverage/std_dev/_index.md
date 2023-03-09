@@ -10,7 +10,7 @@ is_root: false
 ##  std_dev proprietà
 
 Ottenere o impostare il numero di deviazioni standard da includere al di sopra o al di sotto della media nel file
-regola di formattazione condizionale.
+ Regola di formattazione condizionale.
  Il valore di input deve essere compreso tra 0 e 3 (includere 0 e 3).
 L'impostazione di questo valore su 0 significa che stdDev non è impostato.
 Il valore predefinito è 0.

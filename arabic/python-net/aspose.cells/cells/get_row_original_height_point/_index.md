@@ -22,7 +22,7 @@ def get_row_original_height_point(self, row):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 

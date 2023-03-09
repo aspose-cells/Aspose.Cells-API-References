@@ -11,7 +11,7 @@ is_root: false
 
 Kenarlara uygulanacak bulanıklık yarıçapını nokta birimi cinsinden alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

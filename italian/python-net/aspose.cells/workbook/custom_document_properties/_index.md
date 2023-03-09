@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce una raccolta [DocumentProperty](/cells/it/python-net/aspose.cells.properties/documentproperty) che rappresenta tutte le proprietà del documento personalizzato del foglio di calcolo.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

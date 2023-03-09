@@ -1,14 +1,14 @@
 ﻿---
 title: OdsPageBackground类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
 url: /zh/python-net/aspose.cells.ods/odspagebackground/
 is_root: false
 ---
-##  OdsPageBackground类
-代表ods的页面背景。
+## OdsPageBackground类
+代表赔率的页面背景。
 
 
 

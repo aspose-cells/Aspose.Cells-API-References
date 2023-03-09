@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y mülk
 
-Resim döşeme için Y ölçeğini alır veya ayarlar.
+Resimleri döşemek için Y ölçeğini alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

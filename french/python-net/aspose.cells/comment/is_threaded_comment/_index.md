@@ -11,7 +11,7 @@ is_root: false
 
 Indique si ce commentaire est un commentaire fileté.
 
-###  Exemple
+###  Exemples
 
 ```python
 

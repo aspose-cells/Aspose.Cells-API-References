@@ -18,7 +18,7 @@ def add_data_area_condition(self, field_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | field_name | str | Il nome di PivotField.|
 
@@ -34,7 +34,7 @@ def add_data_area_condition(self, data_field):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | data_field | [PivotField](/cells/it/python-net/aspose.cells.pivot/pivotfield) | PivotField nei campi dati.|
 

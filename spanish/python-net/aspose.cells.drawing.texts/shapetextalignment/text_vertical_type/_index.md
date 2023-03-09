@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece la dirección del texto.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing.texts import TextVerticalType

@@ -10,7 +10,7 @@ is_root: false
 ##  image_scalable mülk
 
 Görüntü genişliğini açıklamak için ölçeklenebilir birim kullanılıp kullanılmadığını gösterir
-sütun genişliğini açıklamak için ölçeklenebilir birim kullanıldığında.
+sütun genişliğini açıklamak için ölçeklenebilir birimler kullanıldığında.
 Varsayılan değer doğrudur.
 ###  Tanım:
 ```python

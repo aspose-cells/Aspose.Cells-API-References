@@ -18,7 +18,7 @@ def set_font_sources(self, sources):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | sources | list | Un array di fonti che contengono font TrueType.|
 

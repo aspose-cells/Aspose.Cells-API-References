@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene el tipo de dibujo mso.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

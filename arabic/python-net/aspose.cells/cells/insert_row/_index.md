@@ -18,7 +18,7 @@ def insert_row(self, row_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 

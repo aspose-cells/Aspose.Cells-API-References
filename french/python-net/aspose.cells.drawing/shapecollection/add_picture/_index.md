@@ -22,15 +22,15 @@ def add_picture(self, upper_left_row, upper_left_column, lower_right_row, lower_
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | lower_right_row | int | Index de ligne en bas à droite|
 | lower_right_column | int | Index de la colonne en bas à droite|
 | stream | io.RawIOBase | Objet de flux qui contient les données d'image.|
 
-###  Exemple
+###  Exemples
 
 ```python
 
@@ -56,15 +56,15 @@ def add_picture(self, upper_left_row, upper_left_column, stream, width_scale, he
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | stream | io.RawIOBase | Objet de flux qui contient les données d'image.|
 | width_scale | int | Échelle de la largeur de l'image, un pourcentage.|
 | height_scale | int | Échelle de la hauteur de l'image, un pourcentage.|
 
-###  Exemple
+###  Exemples
 
 ```python
 

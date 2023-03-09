@@ -27,7 +27,7 @@ is_root: false
 | [provider_id](/cells/ru/python-net/aspose.cells.drawing/signatureline/provider_id) | Получает и задает идентификатор поставщика подписи.|
 | [signer](/cells/ru/python-net/aspose.cells.drawing/signatureline/signer) | Получает и задает подписывающую сторону.|
 | [title](/cells/ru/python-net/aspose.cells.drawing/signatureline/title) | Получает и устанавливает звание певицы.|
-| [email](/cells/ru/python-net/aspose.cells.drawing/signatureline/email) |Получает и устанавливает адрес электронной почты певца.|
+| [email](/cells/ru/python-net/aspose.cells.drawing/signatureline/email) | Получает и устанавливает адрес электронной почты певца.|
 | [is_line](/cells/ru/python-net/aspose.cells.drawing/signatureline/is_line) | Указывает, является ли это строкой подписи.|
 | [allow_comments](/cells/ru/python-net/aspose.cells.drawing/signatureline/allow_comments) | Указывает, можно ли прикреплять комментарии.|
 | [show_signed_date](/cells/ru/python-net/aspose.cells.drawing/signatureline/show_signed_date) | Указывает, показывать ли подписанную дату.|
@@ -35,7 +35,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

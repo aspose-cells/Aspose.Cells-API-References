@@ -18,7 +18,7 @@ def remove_areas(self, areas):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | areas | list | las áreas donde se debe eliminar esta configuración de validación.|
 

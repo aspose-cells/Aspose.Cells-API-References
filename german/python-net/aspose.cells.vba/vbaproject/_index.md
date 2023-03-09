@@ -30,14 +30,14 @@ Der Typ VbaProject macht die folgenden Member verfügbar:
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [sign(digital_signature)](/cells/de/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | Signieren Sie dieses VBA-Projekt mit einer DigitalSignature|
+| [sign(digital_signature)](/cells/de/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | Signieren Sie dieses VBA-Projekt mit einer digitalen Signatur|
 | [protect(islocked_for_viewing, password)](/cells/de/python-net/aspose.cells.vba/vbaproject/protect/#bool-str) | Schützt dieses VBA-Projekt oder hebt den Schutz auf.|
 | [copy(source)](/cells/de/python-net/aspose.cells.vba/vbaproject/copy/#VbaProject) | Kopieren Sie das VBA-Projekt aus einer anderen Datei.|
 | [validate_password(password)](/cells/de/python-net/aspose.cells.vba/vbaproject/validate_password/#str) | Validiert das Schutzkennwort.|
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

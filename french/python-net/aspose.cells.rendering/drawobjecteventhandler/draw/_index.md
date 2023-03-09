@@ -18,10 +18,10 @@ def draw(self, draw_object, x, y, width, height):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | draw_object | [DrawObject](/cells/fr/python-net/aspose.cells.rendering/drawobject) | DrawObject sera initialisé et renvoyé lors du rendu|
-| x | float | À gauche de DrawObject|
+| x | float | Gauche de l'objet de dessin|
 | y | float | Haut de DrawObject|
 | width | float | Largeur de DrawObject|
 | height | float | Hauteur de DrawObject|

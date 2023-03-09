@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing Eigentum
 
-Gibt die Anzahl der Kategorien oder Serien zwischen Teilstrichen zurück oder legt sie fest. Gilt nur für Kategorie- und Serienachsen.
+Gibt die Anzahl der Kategorien oder Serien zwischen Teilstrichen zurück oder legt sie fest.
 
 ###  Bemerkungen
 

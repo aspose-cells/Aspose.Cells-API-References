@@ -25,7 +25,7 @@ def export_object(self, e):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | e | [ExportObjectEvent](/cells/sv/python-net/aspose.cells/exportobjectevent) | Händelsen utlöses när ett objekt behöver exporteras.|
 

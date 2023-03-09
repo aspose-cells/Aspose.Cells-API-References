@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  edit_web_page proprietà
 
-L'URL della pagina web rivolta all'utente che mostra i dati della query web. Questo URL è persistente
+L'URL della pagina web rivolta all'utente che mostra i dati della query web.
 nel caso in cui sourceData="true" e url siano stati reindirizzati per fare riferimento a un file XML.
 Quindi la pagina rivolta all'utente può essere visualizzata nell'interfaccia utente e i dati XML possono essere recuperati
 dietro le quinte.

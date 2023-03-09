@@ -11,7 +11,7 @@ is_root: false
 
 Çizgi tire tipini belirtir.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import MsoLineDashStyle

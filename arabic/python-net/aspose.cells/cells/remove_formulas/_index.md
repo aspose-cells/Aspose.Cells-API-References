@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/remove_formulas/
 is_root: false
 ---
 ##  remove_formulas() {#}
-يزيل كل الصيغة ويستبدل بقيمة الصيغة.
+يزيل كل الصيغ ويستبدل بقيمة الصيغة.
 
 
 

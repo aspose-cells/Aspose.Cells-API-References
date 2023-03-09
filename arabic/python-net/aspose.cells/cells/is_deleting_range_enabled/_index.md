@@ -22,10 +22,10 @@ def is_deleting_range_enabled(self, start_row, start_column, total_rows, total_c
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية للنطاق.|
-| start_column | int | فهرس عمود البداية للنطاق.|
+| start_column | int |فهرس عمود البداية للنطاق.|
 | total_rows | int | عدد الصفوف في النطاق.|
 | total_columns | int | عدد الأعمدة في النطاق.|
 

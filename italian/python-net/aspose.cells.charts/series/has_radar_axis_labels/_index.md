@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_radar_axis_labels proprietà
 
-Vero se un grafico a radar dispone di etichette dell'asse delle categorie. Si applica solo ai grafici radar.
+Vero se un grafico a radar dispone di etichette dell'asse delle categorie.
 ###  Definizione:
 ```python
 @property

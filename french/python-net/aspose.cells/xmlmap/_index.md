@@ -18,7 +18,7 @@ Le type XmlMap expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [name](/cells/fr/python-net/aspose.cells/xmlmap/name) | Renvoie ou définit le nom de l'objet.|
-| [root_element_name](/cells/fr/python-net/aspose.cells/xmlmap/root_element_name) |Obtient le nom de l'élément racine.|
+| [root_element_name](/cells/fr/python-net/aspose.cells/xmlmap/root_element_name) | Obtient le nom de l'élément racine.|
 | [data_binding](/cells/fr/python-net/aspose.cells/xmlmap/data_binding) | Obtient un [XmlDataBinding](/cells/fr/python-net/aspose.cells/xmldatabinding) de cette carte.|
 
 

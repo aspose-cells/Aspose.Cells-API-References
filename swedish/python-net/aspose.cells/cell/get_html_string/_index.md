@@ -22,7 +22,7 @@ def get_html_string(self, html5):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | html5 | bool | Indikerar om värdet är kompatibelt för html5|
 

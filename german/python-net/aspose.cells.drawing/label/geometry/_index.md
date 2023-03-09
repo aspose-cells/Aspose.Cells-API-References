@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die geometry ab
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

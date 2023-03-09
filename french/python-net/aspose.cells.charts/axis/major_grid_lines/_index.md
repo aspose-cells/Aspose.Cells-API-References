@@ -11,7 +11,7 @@ is_root: false
 
 Représente le quadrillage principal sur un axe de graphique.
 
-###  Exemple
+###  Exemples
 
 ```python
 

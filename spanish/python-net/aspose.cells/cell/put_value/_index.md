@@ -18,7 +18,7 @@ def put_value(self, bool_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | bool_value | bool |  |
 
@@ -34,7 +34,7 @@ def put_value(self, int_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | int_value | int | Valor de entrada|
 
@@ -50,7 +50,7 @@ def put_value(self, double_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | double_value | float | Valor de entrada|
 
@@ -66,7 +66,7 @@ def put_value(self, string_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | string_value | str | Valor de entrada|
 
@@ -82,7 +82,7 @@ def put_value(self, date_time):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | date_time | DateTime | Valor de entrada|
 
@@ -98,7 +98,7 @@ def put_value(self, object_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | object_value | any | valor de entrada|
 
@@ -114,7 +114,7 @@ def put_value(self, string_value, is_converted):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | string_value | str | Valor de entrada|
 | is_converted | bool | Verdadero: convertido a otro tipo de datos si corresponde.|
@@ -131,7 +131,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | string_value | str | Valor de entrada|
 | is_converted | bool | Verdadero: convertido a otro tipo de datos si corresponde.|

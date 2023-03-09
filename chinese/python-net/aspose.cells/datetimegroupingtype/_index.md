@@ -1,13 +1,13 @@
 ﻿---
 title: DateTimeGroupingType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1940
 url: /zh/python-net/aspose.cells/datetimegroupingtype/
 is_root: false
 ---
-##  DateTimeGroupingType枚举
+## DateTimeGroupingType枚举
 指定如何对日期时间值进行分组。
 
 

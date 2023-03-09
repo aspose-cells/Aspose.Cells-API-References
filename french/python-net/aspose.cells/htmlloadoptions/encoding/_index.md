@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding propriété
 
-Obtient et définit la valeur par défaut encoding. S'applique uniquement au fichier csv.
+Obtient et définit la valeur par défaut encoding. S'applique uniquement aux fichiers csv.
 ###  Définition:
 ```python
 @property

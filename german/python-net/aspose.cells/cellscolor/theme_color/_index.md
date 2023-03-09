@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color Eigentum
 
-Ruft die Designfarbe ab. Gilt nur für den Farbtyp des Themas.
+Ruft die Designfarbe ab.
 ###  Definition:
 ```python
 @property

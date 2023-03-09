@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_count fastighet
 
-Får allt cellantal i intervallet.
+Får alla cellantal i intervallet.
 ###  Definition:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/shapecollection/ungroup/
 is_root: false
 ---
 ##  ungroup(group) {#GroupShape}
-Hebt die Gruppierung der Formelemente auf.
+Heben Sie die Gruppierung der Formelemente auf.
 
 
 
@@ -24,7 +24,7 @@ def ungroup(self, group):
 ###  Bemerkungen
 
 Wenn das Gruppen-Shape von einem anderen Gruppen-Shape gruppiert wird, wird nichts getan.
-###  Beispiel
+###  Beispiele
 
 
 ```python

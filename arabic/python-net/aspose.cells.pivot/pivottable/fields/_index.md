@@ -22,7 +22,7 @@ def fields(self, field_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldtype) | نوع المجال.|
 

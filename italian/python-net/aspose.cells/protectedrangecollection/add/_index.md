@@ -22,9 +22,9 @@ def add(self, name, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| name | str | Titolo della gamma. Viene utilizzato come descrittore, non come definizione di intervallo denominato.|
+| name | str | Titolo dell'intervallo Viene utilizzato come descrittore, non come definizione di intervallo con nome.|
 | start_row | int | Inizia l'indice di riga dell'intervallo.|
 | start_column | int | Inizia l'indice di colonna dell'intervallo.|
 | end_row | int | Indice di fine riga dell'intervallo.|

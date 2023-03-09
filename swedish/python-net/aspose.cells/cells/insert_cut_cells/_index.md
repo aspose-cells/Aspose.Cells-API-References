@@ -18,12 +18,12 @@ def insert_cut_cells(self, cut_range, row, column, shift_type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cut_range | [Range](/cells/sv/python-net/aspose.cells/range) | Skärområdet.|
 | row | int | Raden.|
 | column | int | Kolumnen.|
-| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Skifttypen .|
+| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Skifttypen.|
 
 
 

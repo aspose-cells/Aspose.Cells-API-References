@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/filtercolumn/
 is_root: false
 ---
 ##  FilterColumn класс
-Представляет фильтр для одного столбца. Объект Filter является членом коллекции Filters.
+Представляет фильтр для одного столбца.
 
 
 

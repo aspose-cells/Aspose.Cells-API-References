@@ -1,13 +1,13 @@
 ﻿---
 title: DataLabels类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
 url: /zh/python-net/aspose.cells.charts/datalabels/
 is_root: false
 ---
-##  DataLabels类
+## DataLabels类
 封装指定系列的所有 DataLabel 对象的集合。
 
 
@@ -29,7 +29,7 @@ DataLabels 类型公开了以下成员：
 | [text_font](/cells/zh/python-net/aspose.cells.charts/datalabels/text_font) |获取指定 ChartFrame 对象的 [ChartFrame.font](/cells/zh/python-net/aspose.cells.charts/chartframe#font) 对象。|
 | [text_options](/cells/zh/python-net/aspose.cells.charts/datalabels/text_options) |获取和设置文本的选项。|
 | [font](/cells/zh/python-net/aspose.cells.charts/datalabels/font) |获取数据标签的字体；|
-| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/datalabels/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。|
+| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/datalabels/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。|
 | [background_mode](/cells/zh/python-net/aspose.cells.charts/datalabels/background_mode) |获取和设置背景的显示方式|
 | [background](/cells/zh/python-net/aspose.cells.charts/datalabels/background) |获取和设置背景的显示方式|
 | [is_automatic_size](/cells/zh/python-net/aspose.cells.charts/datalabels/is_automatic_size) |指示图表框是否自动调整大小。|
@@ -56,13 +56,13 @@ DataLabels 类型公开了以下成员：
 | [reading_order](/cells/zh/python-net/aspose.cells.charts/datalabels/reading_order) |表示文本阅读顺序。|
 | [direction_type](/cells/zh/python-net/aspose.cells.charts/datalabels/direction_type) |获取和设置文本的方向。|
 | [is_text_wrapped](/cells/zh/python-net/aspose.cells.charts/datalabels/is_text_wrapped) |获取或设置一个值，该值指示文本是否换行。|
-| [is_resize_shape_to_fit_text](/cells/zh/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) |获取或设置形状是否应自动调整以完全包含其中描述的文本。自动拟合是<br/>当缩放形状内的文本以包含内部的所有文本时。|
-| [show_value](/cells/zh/python-net/aspose.cells.charts/datalabels/show_value) |表示指定图表的数据标签值显示行为。 True 显示值。假以掩饰。|
+| [is_resize_shape_to_fit_text](/cells/zh/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) |获取或设置形状是否应自动调整以完全包含其中描述的文本。<br/>当缩放形状内的文本以包含内部的所有文本时。|
+| [show_value](/cells/zh/python-net/aspose.cells.charts/datalabels/show_value) |代表指定图表的数据标签数值显示行为。True显示数值。False隐藏。|
 | [show_cell_range](/cells/zh/python-net/aspose.cells.charts/datalabels/show_cell_range) |指示是否将单元格范围显示为数据标签。|
-| [show_percentage](/cells/zh/python-net/aspose.cells.charts/datalabels/show_percentage) |表示指定图表的数据标签百分比值显示行为。 True 显示百分比值。假以掩饰。|
-| [show_bubble_size](/cells/zh/python-net/aspose.cells.charts/datalabels/show_bubble_size) |表示指定图表的数据标签百分比值显示行为。 True 显示百分比值。假以掩饰。|
-| [show_category_name](/cells/zh/python-net/aspose.cells.charts/datalabels/show_category_name) |表示指定图表的数据标签类别名称显示行为。为真表示在图表上显示数据标签的类别名称。假以掩饰。|
-| [show_series_name](/cells/zh/python-net/aspose.cells.charts/datalabels/show_series_name) |返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。<br/> True 显示系列名称。假以掩饰。|
+| [show_percentage](/cells/zh/python-net/aspose.cells.charts/datalabels/show_percentage) |表示指定图表的数据标签百分比值显示行为，True显示百分比值，False隐藏。|
+| [show_bubble_size](/cells/zh/python-net/aspose.cells.charts/datalabels/show_bubble_size) |表示指定图表的数据标签百分比值显示行为，True显示百分比值，False隐藏。|
+| [show_category_name](/cells/zh/python-net/aspose.cells.charts/datalabels/show_category_name) |表示指定图表的数据标签类别名称显示行为。为True表示显示图表上数据标签的类别名称。False表示隐藏。|
+| [show_series_name](/cells/zh/python-net/aspose.cells.charts/datalabels/show_series_name) |返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。<br/>True 显示系列名称。False 隐藏。|
 | [show_legend_key](/cells/zh/python-net/aspose.cells.charts/datalabels/show_legend_key) |表示指定图表的数据标签图例键显示行为。<br/>如果数据标签图例键可见，则为真。|
 | [number_format](/cells/zh/python-net/aspose.cells.charts/datalabels/number_format) |表示 DataLabels 对象的格式字符串。|
 | [number](/cells/zh/python-net/aspose.cells.charts/datalabels/number) |获取和设置内置数字格式。|
@@ -71,7 +71,7 @@ DataLabels 类型公开了以下成员：
 | [separator_type](/cells/zh/python-net/aspose.cells.charts/datalabels/separator_type) |获取或设置用于图表上数据标签的分隔符类型。|
 | [separator_value](/cells/zh/python-net/aspose.cells.charts/datalabels/separator_value) |获取或设置用于图表上数据标签的分隔符值。|
 | [position](/cells/zh/python-net/aspose.cells.charts/datalabels/position) |表示数据标签的位置。|
-| [is_never_overlap](/cells/zh/python-net/aspose.cells.charts/datalabels/is_never_overlap) |指示数据标签显示是否从不重叠。 （对于饼图）|
+| [is_never_overlap](/cells/zh/python-net/aspose.cells.charts/datalabels/is_never_overlap) |指示数据标签显示是否永不重叠。（饼图）|
 | [shape_type](/cells/zh/python-net/aspose.cells.charts/datalabels/shape_type) |获取或设置数据标签的形状类型。|
 
 

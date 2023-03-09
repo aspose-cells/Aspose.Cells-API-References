@@ -20,8 +20,8 @@ def __init__(self):
 
 ###  ملاحظات
 
-نوع تنسيق الملف الافتراضي هو Xlsx. لإنشاء نوع ملف بتنسيق آخر ، يرجى استخدام Workbook (FileFormatType).
-###  مثال
+نوع تنسيق الملف الافتراضي هو Xlsx. لإنشاء نوع ملف بتنسيق آخر ، يرجى استخدام Workbook (نوع الملف).
+###  أمثلة
 
 
 يوضح الكود التالي كيفية استخدام المُنشئ Workbook لإنشاء مثيل جديد للفئة وتهيئته.
@@ -45,13 +45,13 @@ def __init__(self, file_format_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | file_format_type | [FileFormatType](/cells/ar/python-net/aspose.cells/fileformattype) | تنسيق الملف الجديد.|
 ###  ملاحظات
 
 نوع تنسيق الملف الافتراضي هو Excel97To2003.
-###  مثال
+###  أمثلة
 
 
 يوضح الكود التالي كيفية استخدام المُنشئ Workbook لإنشاء مثيل جديد للفئة وتهيئته.
@@ -75,13 +75,13 @@ def __init__(self, file):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | file | str | اسم الملف.|
 
 
 ##  Workbook(stream) {#io.RawIOBase}
-يقوم بتهيئة نسخة جديدة من الفئة [Workbook](/cells/ar/python-net/aspose.cells/workbook) وافتح تدفق.
+يقوم بتهيئة نسخة جديدة من الفئة [Workbook](/cells/ar/python-net/aspose.cells/workbook) ويفتح تدفق.
 
 
 
@@ -91,7 +91,7 @@ def __init__(self, stream):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | الدفق.|
 
@@ -107,7 +107,7 @@ def __init__(self, file, load_options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | file | str | اسم الملف.|
 | load_options | [LoadOptions](/cells/ar/python-net/aspose.cells/loadoptions) | خيارات التحميل|
@@ -124,7 +124,7 @@ def __init__(self, stream, load_options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | الدفق.|
 | load_options | [LoadOptions](/cells/ar/python-net/aspose.cells/loadoptions) | خيارات التحميل|

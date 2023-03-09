@@ -13,7 +13,7 @@ Indica se ricalcolare prima di salvare il documento.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Utilizzare invece FormulaSettings.CalculateOnSave.
+NOTA: questo membro è ora obsoleto.
  Questa proprietà verrà rimossa 12 mesi dopo da febbraio 2022.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

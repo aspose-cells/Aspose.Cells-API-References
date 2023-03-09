@@ -26,7 +26,7 @@ Typen AutoFilter avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [remove_filter(field_index, criteria)](/cells/sv/python-net/aspose.cells/autofilter/remove_filter/#int-str) | Tar bort ett filter för en filterkolumn.|
+| [remove_filter(field_index, criteria)](/cells/sv/python-net/aspose.cells/autofilter/remove_filter/#int-str) |Tar bort ett filter för en filterkolumn.|
 | [remove_filter(field_index)](/cells/sv/python-net/aspose.cells/autofilter/remove_filter/#int) | Ta bort det specifika filtret.|
 | [custom(field_index, operator_type1, criteria1)](/cells/sv/python-net/aspose.cells/autofilter/custom/#int-FilterOperatorType-any) | Filtrerar en lista med anpassade kriterier.|
 | [custom(field_index, operator_type1, criteria1, is_and, operator_type2, criteria2)](/cells/sv/python-net/aspose.cells/autofilter/custom/#int-FilterOperatorType-any-bool-FilterOperatorType-any) | Filtrerar en lista med anpassade kriterier.|
@@ -37,7 +37,7 @@ Typen AutoFilter avslöjar följande medlemmar:
 | [add_filter(field_index, criteria)](/cells/sv/python-net/aspose.cells/autofilter/add_filter/#int-str) | Lägger till ett filter för en filterkolumn.|
 | [add_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)](/cells/sv/python-net/aspose.cells/autofilter/add_date_filter/#int-DateTimeGroupingType-int-int-int-int-int-int) | Lägger till ett datumfilter.|
 | [remove_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)](/cells/sv/python-net/aspose.cells/autofilter/remove_date_filter/#int-DateTimeGroupingType-int-int-int-int-int-int) | Tar bort ett datumfilter.|
-| [filter(field_index, criteria)](/cells/sv/python-net/aspose.cells/autofilter/filter/#int-str) |Filtrerar en lista med angivna kriterier.|
+| [filter(field_index, criteria)](/cells/sv/python-net/aspose.cells/autofilter/filter/#int-str) | Filtrerar en lista med angivna kriterier.|
 | [filter_top10(field_index, is_top, is_percent, item_count)](/cells/sv/python-net/aspose.cells/autofilter/filter_top10/#int-bool-bool-int) | Filtrera de 10 bästa objekten i listan|
 | [dynamic_filter(field_index, dynamic_filter_type)](/cells/sv/python-net/aspose.cells/autofilter/dynamic_filter/#int-DynamicFilterType) | Lägger till ett dynamiskt filter.|
 | [add_font_color_filter(field_index, color)](/cells/sv/python-net/aspose.cells/autofilter/add_font_color_filter/#int-CellsColor) | Lägger till ett teckensnittsfärgfilter.|

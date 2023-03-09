@@ -10,9 +10,9 @@ is_root: false
 ##  height_scale propriété
 
 Obtient et définit l'échelle de hauteur, en pourcentage de la hauteur de l'image d'origine.
-Si la forme n'est pas picture , la propriété HeightScale ne renvoie que 100 ;
+Si la forme n'est pas picture , la propriété HeightScale renvoie uniquement 100 ;
 
-###  Exemple
+###  Exemples
 
 ```python
 

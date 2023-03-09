@@ -23,7 +23,7 @@ El tipo Axis expone los siguientes miembros:
 | [is_automatic_max_value](/cells/es/python-net/aspose.cells.charts/axis/is_automatic_max_value) | Indica si el valor máximo se asigna automáticamente.|
 | [max_value](/cells/es/python-net/aspose.cells.charts/axis/max_value) | Representa el valor máximo en el eje de valores.|
 | [is_automatic_major_unit](/cells/es/python-net/aspose.cells.charts/axis/is_automatic_major_unit) | Indica si la unidad principal del eje se asigna automáticamente.|
-| [major_unit](/cells/es/python-net/aspose.cells.charts/axis/major_unit) | Representa las unidades principales del eje.|
+| [major_unit](/cells/es/python-net/aspose.cells.charts/axis/major_unit) |Representa las unidades principales del eje.|
 | [is_automatic_minor_unit](/cells/es/python-net/aspose.cells.charts/axis/is_automatic_minor_unit) | Indica si la unidad menor del eje se asigna automáticamente.|
 | [minor_unit](/cells/es/python-net/aspose.cells.charts/axis/minor_unit) | Representa las unidades menores del eje.|
 | [axis_line](/cells/es/python-net/aspose.cells.charts/axis/axis_line) | Obtiene la apariencia de un Eje.|
@@ -32,14 +32,14 @@ El tipo Axis expone los siguientes miembros:
 | [tick_label_position](/cells/es/python-net/aspose.cells.charts/axis/tick_label_position) | Representa la posición de las etiquetas de marca de graduación en el eje especificado.|
 | [cross_at](/cells/es/python-net/aspose.cells.charts/axis/cross_at) | Representa el punto en el eje de valor donde el eje de categoría lo cruza.|
 | [cross_type](/cells/es/python-net/aspose.cells.charts/axis/cross_type) | Representa el [Axis.cross_type](/cells/es/python-net/aspose.cells.charts/axis#cross_type) en el eje especificado donde se cruza el otro eje.|
-| [log_base](/cells/es/python-net/aspose.cells.charts/axis/log_base) |Representa la base logarítmica. El valor predeterminado es 10. Solo se aplica a Excel2007.|
+| [log_base](/cells/es/python-net/aspose.cells.charts/axis/log_base) | Representa la base logarítmica, el valor por defecto es 10. Solo aplica para Excel2007.|
 | [is_logarithmic](/cells/es/python-net/aspose.cells.charts/axis/is_logarithmic) | Representa si el tipo de escala del eje de valores es logarítmico o no.|
 | [is_plot_order_reversed](/cells/es/python-net/aspose.cells.charts/axis/is_plot_order_reversed) | Representa si Microsoft Excel traza puntos de datos del último al primero.|
 | [axis_between_categories](/cells/es/python-net/aspose.cells.charts/axis/axis_between_categories) | Representa si el eje de valor cruza el eje de categoría entre categorías.|
 | [tick_labels](/cells/es/python-net/aspose.cells.charts/axis/tick_labels) | Devuelve un objeto [Axis.tick_labels](/cells/es/python-net/aspose.cells.charts/axis#tick_labels) que representa las etiquetas de marca de verificación para el eje especificado.|
-| [tick_label_spacing](/cells/es/python-net/aspose.cells.charts/axis/tick_label_spacing) | Representa el número de categorías o series entre etiquetas de marca de verificación. Aplica solo para ejes de categoría y serie.|
+| [tick_label_spacing](/cells/es/python-net/aspose.cells.charts/axis/tick_label_spacing) |Representa el número de categorías o series entre etiquetas de marca de verificación.|
 | [is_auto_tick_label_spacing](/cells/es/python-net/aspose.cells.charts/axis/is_auto_tick_label_spacing) | Indica si el espaciado de la etiqueta de marca es automático|
-| [tick_mark_spacing](/cells/es/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Devuelve o establece el número de categorías o series entre marcas. Aplica solo para ejes de categoría y serie.|
+| [tick_mark_spacing](/cells/es/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Devuelve o establece el número de categorías o series entre marcas.|
 | [display_unit](/cells/es/python-net/aspose.cells.charts/axis/display_unit) | Representa la etiqueta de la unidad para el eje especificado.|
 | [cust_unit](/cells/es/python-net/aspose.cells.charts/axis/cust_unit) | Especifica un valor personalizado para la unidad de visualización.|
 | [custom_unit](/cells/es/python-net/aspose.cells.charts/axis/custom_unit) | Especifica un valor personalizado para la unidad de visualización.|
@@ -53,13 +53,13 @@ El tipo Axis expone los siguientes miembros:
 | [is_visible](/cells/es/python-net/aspose.cells.charts/axis/is_visible) | Representa si el eje es visible.|
 | [major_grid_lines](/cells/es/python-net/aspose.cells.charts/axis/major_grid_lines) | Representa las principales líneas de cuadrícula en un eje de gráfico.|
 | [minor_grid_lines](/cells/es/python-net/aspose.cells.charts/axis/minor_grid_lines) | Representa líneas de cuadrícula menores en un eje de gráfico.|
-| [has_multi_level_labels](/cells/es/python-net/aspose.cells.charts/axis/has_multi_level_labels) | Indica si las etiquetas se mostrarán como multinivel.|
+| [has_multi_level_labels](/cells/es/python-net/aspose.cells.charts/axis/has_multi_level_labels) |Indica si las etiquetas se mostrarán como multinivel.|
 | [axis_labels](/cells/es/python-net/aspose.cells.charts/axis/axis_labels) | Obtiene las etiquetas del eje después de llamar al método Chart.Calculate().|
-| [bins](/cells/es/python-net/aspose.cells.charts/axis/bins) | Representa contenedores en un eje de gráfico (histograma/Pareto)|
+| [bins](/cells/es/python-net/aspose.cells.charts/axis/bins) | Representa contenedores en un eje de gráfico (Histograma/Pareto)|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

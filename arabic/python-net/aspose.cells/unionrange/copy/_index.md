@@ -18,7 +18,7 @@ def copy(self, range, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | range | [UnionRange](/cells/ar/python-net/aspose.cells/unionrange) | نطاق المصدر.|
 | options | [PasteOptions](/cells/ar/python-net/aspose.cells/pasteoptions) | خيارات لصق خاصة.|

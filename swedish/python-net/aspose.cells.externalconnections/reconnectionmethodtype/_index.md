@@ -19,7 +19,7 @@ Typen ReConnectionMethodType avslöjar följande medlemmar:
 | :- | :- |
 | REQUIRED | Använd den befintliga anslutningsinformationen vid uppdatering och om den blir ogiltig<br/> få sedan uppdaterad anslutningsinformation, om tillgänglig från den externa anslutningsfilen.|
 | ALWAYS | Vid varje uppdatering får du uppdaterad anslutningsinformation från den externa anslutningsfilen,<br/> om tillgängligt och använd det istället för den befintliga anslutningsinformationen.<br/> I det här fallet misslyckas datauppdateringen om den externa anslutningsfilen inte är tillgänglig.|
-| NEVER | Få aldrig uppdaterad anslutningsinformation från den externa anslutningsfilen<br/>även om den är tillgänglig och även om den befintliga anslutningsinformationen är ogiltig|
+| NEVER | Få aldrig uppdaterad anslutningsinformation från den externa anslutningsfilen<br/> även om den är tillgänglig och även om den befintliga anslutningsinformationen är ogiltig|
 
 
 

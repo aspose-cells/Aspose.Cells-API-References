@@ -22,7 +22,7 @@ def row_name_to_index(self, row_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_name | str | Radens namn.|
 

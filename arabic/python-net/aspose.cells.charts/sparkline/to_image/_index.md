@@ -18,7 +18,7 @@ def to_image(self, file_name, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str | اسم ملف الصورة.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | خيارات الصورة|
@@ -35,7 +35,7 @@ def to_image(self, stream, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الصورة.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | خيارات الصورة.|

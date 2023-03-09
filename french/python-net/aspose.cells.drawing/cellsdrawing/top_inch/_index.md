@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_inch propriété
 
-Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en pouces.
+Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en unités de pouces.
 
-###  Exemple
+###  Exemples
 
 ```python
 

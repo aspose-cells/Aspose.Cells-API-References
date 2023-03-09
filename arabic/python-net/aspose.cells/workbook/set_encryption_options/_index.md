@@ -18,7 +18,7 @@ def set_encryption_options(self, encryption_type, key_length):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | encryption_type | [EncryptionType](/cells/ar/python-net/aspose.cells/encryptiontype) | نوع التشفير.|
 | key_length | int | طول المفتاح.|

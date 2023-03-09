@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible propiedad
 
-Indica si la regla es visible. Esta propiedad solo se aplica para la vista previa de salto de página.
+Indica si la regla es visible.
 ###  Definición:
 ```python
 @property

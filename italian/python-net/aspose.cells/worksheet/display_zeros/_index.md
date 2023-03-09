@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_zeros proprietà
 
-Vero se vengono visualizzati valori pari a zero.
+Vero se vengono visualizzati valori zero.
 ###  Definizione:
 ```python
 @property

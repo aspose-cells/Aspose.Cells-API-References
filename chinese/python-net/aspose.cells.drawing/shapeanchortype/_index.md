@@ -1,13 +1,13 @@
 ﻿---
 title: ShapeAnchorType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1140
 url: /zh/python-net/aspose.cells.drawing/shapeanchortype/
 is_root: false
 ---
-##  ShapeAnchorType枚举
+## ShapeAnchorType枚举
 表示锚点类型。
 
 

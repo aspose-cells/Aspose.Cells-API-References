@@ -18,7 +18,7 @@ def copy(self, source_sheet):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) | Исходный лист.|
 
@@ -34,13 +34,13 @@ def copy(self, source_sheet, copy_options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) | Исходный лист.|
 | copy_options | [CopyOptions](/cells/ru/python-net/aspose.cells/copyoptions) |  |
 ###  Примечания
 
-Вы можете copy данные из другого рабочего листа в том же файле или другом файле. Однако этот метод не поддерживает объекты рисования copy, такие как комментарии, изображения и диаграммы.
+Вы можете copy данные из другого рабочего листа в том же файле или другом файле.
 
 
 ###  Смотрите также

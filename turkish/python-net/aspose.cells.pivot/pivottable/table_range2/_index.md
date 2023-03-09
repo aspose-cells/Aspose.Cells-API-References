@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 mülk
 
 PivotTable raporunun tamamını içeren aralığı temsil eden bir CellArea nesnesi döndürür,
-sayfa alanlarını içerir. Sadece oku.
+sayfa alanlarını içerir.
 ###  Tanım:
 ```python
 @property

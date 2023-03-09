@@ -22,7 +22,7 @@ def add_auto_shape_in_chart(self, type, top, left, height, width):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/ru/python-net/aspose.cells.drawing/autoshapetype) | Автоматический тип формы.|
 | top | int | Представляет вертикальное смещение текстового поля от верхнего левого угла в единицах 1/4000 области диаграммы.|

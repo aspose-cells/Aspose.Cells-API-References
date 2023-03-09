@@ -22,7 +22,7 @@ def get_used_colors(self, workbook):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/fr/python-net/aspose.cells/workbook) | L'objet classeur.|
 

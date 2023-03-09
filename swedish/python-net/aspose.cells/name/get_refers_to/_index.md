@@ -18,7 +18,7 @@ def get_refers_to(self, is_r1c1, is_local):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_r1c1 | bool | Om referensen behöver formateras som R1C1.|
 | is_local | bool | Om referensen behöver formateras efter språk.|
@@ -35,11 +35,11 @@ def get_refers_to(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_r1c1 | bool | Om referensen behöver formateras som R1C1.|
 | is_local | bool | Om referensen behöver formateras efter språk.|
-| row | int |Cellens radindex.|
+| row | int | Cellens radindex.|
 | column | int | Kolumnindex för cellen.|
 
 

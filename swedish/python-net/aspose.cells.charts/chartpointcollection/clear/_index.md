@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.charts/chartpointcollection/clear/
 is_root: false
 ---
 ##  clear() {#}
-Ta bort all inställning av diagrampunkterna.
+Ta bort alla inställningar för sjökortspunkterna.
 
 
 

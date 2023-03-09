@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cell/set_characters/
 is_root: false
 ---
 ##  set_characters(characters) {#list}
-يضبط تنسيق النص المنسق للخلية.
+يعيّن تنسيق النص المنسق للخلية.
 
 
 
@@ -18,7 +18,7 @@ def set_characters(self, characters):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | characters | list | كل كائنات الشخصيات.|
 

@@ -1,6 +1,6 @@
 ﻿---
 title: index_of方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-如果找到，从 startIndex 延伸到最后一个元素的数组列表中元素范围内第一次出现值的从零开始的索引；否则，-1。
+数组列表中从 startIndex 延伸到最后一个元素的元素范围内第一次出现值的从零开始的索引（如果找到）；否则为 -1。
 
 
 ```python
@@ -22,10 +22,10 @@ def index_of(self, item, index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| item | [Series](/cells/zh/python-net/aspose.cells.charts/series) |要在数组列表中定位的对象。该值可以为空。|
-| index | int |搜索的从零开始的起始索引。 0（零）在空列表中有效。|
+| item | [Series](/cells/zh/python-net/aspose.cells.charts/series) |要在数组列表中定位的对象。|
+| index | int |搜索的从零开始的起始索引。0（零）在空列表中有效。|
 
 
 ##  index_of(item, index, count) {#Series-int-int}
@@ -34,7 +34,7 @@ def index_of(self, item, index):
 
 ### 返回
 
-数组列表中元素范围内第一次出现值的从零开始的索引，该范围从 startIndex 开始并包含 count 个元素（如果找到）；否则，-1。
+数组列表中元素范围内第一次出现值的从零开始的索引，该范围从 startIndex 开始并且包含 count 个元素（如果找到）；否则为 -1。
 
 
 ```python
@@ -43,10 +43,10 @@ def index_of(self, item, index, count):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| item | [Series](/cells/zh/python-net/aspose.cells.charts/series) |要在数组列表中定位的对象。该值可以为空。|
-| index | int |搜索的从零开始的起始索引。 0（零）在空列表中有效。|
+| item | [Series](/cells/zh/python-net/aspose.cells.charts/series) |要在数组列表中定位的对象。|
+| index | int |搜索的从零开始的起始索引。0（零）在空列表中有效。|
 | count | int |要搜索的部分中的元素数。|
 
 

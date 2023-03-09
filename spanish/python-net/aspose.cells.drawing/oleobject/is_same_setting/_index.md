@@ -22,11 +22,11 @@ def is_same_setting(self, obj):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | obj | any |  |
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

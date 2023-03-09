@@ -23,8 +23,8 @@ Typen License avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [set_license(license_name)](/cells/sv/python-net/aspose.cells/license/set_license/#str) | Licensierar komponenten.|
-| [set_license(stream)](/cells/sv/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Licensierar komponenten.|
+| [set_license(license_name)](/cells/sv/python-net/aspose.cells/license/set_license/#str) | Licensierar komponenterna.|
+| [set_license(stream)](/cells/sv/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Licensierar komponenterna.|
 
 
 
@@ -35,7 +35,7 @@ I det här exemplet kommer ett försök att göras att hitta en licensfil med na
 
 
 komponenten, i mappen som innehåller den anropande församlingen,
-mappen för postförsamlingen och sedan i de inbäddade resurserna för den anropande församlingen.
+i mappen för postförsamlingen och sedan i de inbäddade resurserna för den anropande församlingen.
 
 ```python
 from aspose.cells import License

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_table_style_first_column propriété
 
-Indique si la première colonne du tableau doit avoir le style appliqué.
+Indique si le style doit être appliqué à la première colonne du tableau.
 ###  Définition:
 ```python
 @property

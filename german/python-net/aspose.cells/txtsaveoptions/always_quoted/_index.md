@@ -10,14 +10,14 @@ is_root: false
 ##  always_quoted Eigentum
 
 Gibt an, ob immer '"' für jedes Feld hinzugefügt wird.
-Wenn wahr, werden alle Werte in Anführungszeichen gesetzt;
+Wenn wahr, dann werden alle Werte zitiert;
 Wenn falsch, werden die Werte nur bei Bedarf angegeben (z. B.
 wenn Werte Sonderzeichen wie '"' , '\n' oder Trennzeichen enthalten).
 Standard ist falsch.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie stattdessen die QuoteType-Eigenschaft.
  Diese Eigenschaft wird 12 Monate später seit August 2012 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

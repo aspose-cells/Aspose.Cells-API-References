@@ -18,7 +18,7 @@ def set_row_height(self, row, height):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | height | float | Sıra yüksekliği Nokta biriminde 0 ile 409,5 arasında olmalıdır.|

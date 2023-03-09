@@ -13,7 +13,7 @@ Obtient le texte dépendant des paramètres régionaux pour le nom intégré en 
 
 ###  Retour
 
-Texte dépendant des paramètres régionaux. Les paramètres régionaux ont été spécifiés par le classeur pour lequel ces paramètres sont utilisés.
+Texte dépendant des paramètres régionaux.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_local_built_in_name(self, standard_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | standard_name | str | Texte standard (en-US locale) du nom intégré.|
 

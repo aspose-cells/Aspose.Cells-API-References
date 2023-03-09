@@ -22,11 +22,11 @@ def add_label_in_chart(self, top, left, height, width):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | top | int | Représente le décalage vertical de l'étiquette à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.|
 | left | int | Représente le décalage vertical de l'étiquette à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.|
-| height | int |Représente la hauteur de l'étiquette, en unités de 1/4000 de la zone du graphique.|
+| height | int | Représente la hauteur de l'étiquette, en unités de 1/4000 de la zone du graphique.|
 | width | int | Représente la largeur de l'étiquette, en unités de 1/4000 de la zone du graphique.|
 
 

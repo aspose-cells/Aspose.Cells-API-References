@@ -1,13 +1,13 @@
 ﻿---
 title: ConditionalFormattingCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 300
 url: /zh/python-net/aspose.cells/conditionalformattingcollection/
 is_root: false
 ---
-##  ConditionalFormattingCollection类
+## ConditionalFormattingCollection类
 封装 [FormatCondition](/cells/zh/python-net/aspose.cells/formatcondition) 对象的集合。
 
 

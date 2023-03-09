@@ -18,7 +18,7 @@ def filter_top10(self, field_index, is_top, is_percent, item_count):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | field_index | int | Le décalage entier du champ sur lequel vous souhaitez baser le filtre<br/> (à partir de la gauche de la liste ; le champ le plus à gauche est le champ 0).|
 | is_top | bool | Indique si filtrer du haut ou du bas|

@@ -12,7 +12,7 @@ is_root: false
 Geben Sie den Typ des integrierten Slicer-Stils an
 der Standardtyp ist SlicerStyleLight1
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

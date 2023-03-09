@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/difsaveoptions/
 is_root: false
 ---
 ##  DifSaveOptions klass
-Representerar alternativen för att spara dif-fil.
+Representerar alternativen för att spara dif-filer.
 
 
 
@@ -35,10 +35,10 @@ Typen DifSaveOptions avslöjar följande medlemmar:
 | [merge_areas](/cells/sv/python-net/aspose.cells/difsaveoptions/merge_areas) | Anger om områdena för villkorlig formatering och validering ska slås samman innan filen sparas.|
 | [create_directory](/cells/sv/python-net/aspose.cells/difsaveoptions/create_directory) | Om sant och katalogen inte finns skapas katalogen automatiskt innan filen sparas.|
 | [sort_names](/cells/sv/python-net/aspose.cells/difsaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
-| [sort_external_names](/cells/sv/python-net/aspose.cells/difsaveoptions/sort_external_names) | Anger om externt definierade namn sorteras innan filen sparas.|
-| [refresh_chart_cache](/cells/sv/python-net/aspose.cells/difsaveoptions/refresh_chart_cache) |Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/difsaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/difsaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [sort_external_names](/cells/sv/python-net/aspose.cells/difsaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
+| [refresh_chart_cache](/cells/sv/python-net/aspose.cells/difsaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
+| [warning_callback](/cells/sv/python-net/aspose.cells/difsaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/difsaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 
 
 

@@ -19,7 +19,7 @@ Der Typ CustomXmlPart macht die folgenden Member verfügbar:
 | :- | :- |
 | [data](/cells/de/python-net/aspose.cells.markup/customxmlpart/data) | Ruft den XML-Inhalt dieses benutzerdefinierten XML-Datenspeicherteils ab oder legt diesen fest.|
 | [schema_data](/cells/de/python-net/aspose.cells.markup/customxmlpart/schema_data) | Ruft den XML-Inhalt dieses benutzerdefinierten XML-Schemadatenspeicherteils ab oder legt diesen fest.|
-| [id](/cells/de/python-net/aspose.cells.markup/customxmlpart/id) | Ruft die ID des benutzerdefinierten XML-Teils ab und legt sie fest.|
+| [id](/cells/de/python-net/aspose.cells.markup/customxmlpart/id) |Ruft die ID des benutzerdefinierten XML-Teils ab und legt sie fest.|
 
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit la chaîne html qui contient des données et certains formats dans cette zone de texte.
 
-###  Exemple
+###  Exemples
 
 ```python
 

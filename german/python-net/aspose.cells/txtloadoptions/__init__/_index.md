@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/txtloadoptions/__init__/
 is_root: false
 ---
 ##  TxtLoadOptions() {#}
-Erstellt die Optionen zum Laden einer Textdatei.
+Erstellt die Optionen zum Laden von Textdateien.
 
 
 
@@ -24,7 +24,7 @@ Der standardmäßige Ladedateityp ist CSV .
 
 ##  TxtLoadOptions(load_format) {#LoadFormat}
 
-Erstellt die Optionen zum Laden einer Textdatei.
+Erstellt die Optionen zum Laden von Textdateien.
 
 
 

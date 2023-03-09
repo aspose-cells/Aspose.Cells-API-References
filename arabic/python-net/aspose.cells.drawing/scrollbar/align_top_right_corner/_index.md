@@ -18,12 +18,12 @@ def align_top_right_corner(self, top_row, right_column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | top_row | int | فهرس الصف.|
 | right_column | int | فهرس العمود.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

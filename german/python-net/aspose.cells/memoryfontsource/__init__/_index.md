@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/memoryfontsource/__init__/
 is_root: false
 ---
 ##  MemoryFontSource(font_data) {#bytes}
-Ctor.
+Direktor.
 
 
 

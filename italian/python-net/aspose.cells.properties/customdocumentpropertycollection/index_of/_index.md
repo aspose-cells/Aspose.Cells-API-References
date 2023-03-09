@@ -22,7 +22,7 @@ def index_of(self, name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome senza distinzione tra maiuscole e minuscole della proprietà.|
 
@@ -33,7 +33,7 @@ Cerca l'oggetto specificato e restituisce l'indice in base zero della prima occo
 
 ###  ritorna
 
-L'indice in base zero della prima occorrenza di value all'interno dell'intervallo di elementi nell'elenco di matrici che si estende da startIndex all'ultimo elemento, se trovato; altrimenti, -1.
+L'indice in base zero della prima occorrenza di value all'interno dell'intervallo di elementi nell'elenco di matrici che si estende da startIndex all'ultimo elemento, se trovato; in caso contrario, -1.
 
 
 ```python
@@ -42,10 +42,10 @@ def index_of(self, item, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| item | [DocumentProperty](/cells/it/python-net/aspose.cells.properties/documentproperty) | L'oggetto da individuare nell'elenco dell'array. Il valore può essere nullo.|
-| index | int | L'indice iniziale in base zero della ricerca. 0 (zero) è valido in una lista vuota.|
+| item | [DocumentProperty](/cells/it/python-net/aspose.cells.properties/documentproperty) | L'oggetto da individuare nell'elenco dell'array.|
+| index | int | L'indice iniziale della ricerca in base zero. 0 (zero) è valido in un elenco vuoto.|
 
 
 ##  index_of(item, index, count) {#DocumentProperty-int-int}
@@ -54,7 +54,7 @@ Cerca l'oggetto specificato e restituisce l'indice in base zero della prima occo
 
 ###  ritorna
 
-L'indice in base zero della prima occorrenza di value all'interno dell'intervallo di elementi nell'elenco di matrici che inizia da startIndex e contiene il numero count di elementi, se trovato; altrimenti, -1.
+L'indice in base zero della prima occorrenza di value all'interno dell'intervallo di elementi nell'elenco di matrici che inizia da startIndex e contiene il numero count di elementi, se trovato; in caso contrario, -1.
 
 
 ```python
@@ -63,10 +63,10 @@ def index_of(self, item, index, count):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| item | [DocumentProperty](/cells/it/python-net/aspose.cells.properties/documentproperty) | L'oggetto da individuare nell'elenco dell'array. Il valore può essere nullo.|
-| index | int | L'indice iniziale in base zero della ricerca. 0 (zero) è valido in una lista vuota.|
+| item | [DocumentProperty](/cells/it/python-net/aspose.cells.properties/documentproperty) | L'oggetto da individuare nell'elenco dell'array.|
+| index | int | L'indice iniziale della ricerca in base zero. 0 (zero) è valido in un elenco vuoto.|
 | count | int | Il numero di elementi nella sezione da cercare.|
 
 

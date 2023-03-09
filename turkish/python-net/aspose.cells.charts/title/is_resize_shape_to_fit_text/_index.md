@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_resize_shape_to_fit_text mülk
 
-İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar. Otomatik sığdırma:
+İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar.
 şeklin içindeki metin, içindeki tüm metni içerecek şekilde ölçeklendiğinde.
 ###  Tanım:
 ```python

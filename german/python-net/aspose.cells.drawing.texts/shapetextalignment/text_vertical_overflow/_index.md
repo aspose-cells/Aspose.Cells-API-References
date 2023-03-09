@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den vertikalen Textüberlauftyp des Textfelds ab und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import TextOverflowType

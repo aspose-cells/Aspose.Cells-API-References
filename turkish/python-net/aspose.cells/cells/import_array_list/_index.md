@@ -18,10 +18,10 @@ def import_array_list(self, array_list, first_row, first_column, is_vertical):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| array_list | list | Veri dizi listesi.|
-| first_row | int |İçe aktarılacak ilk hücrenin satır numarası.|
+| array_list | list | Veri dizisi listesi.|
+| first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
 | first_column | int | İçe aktarılacak ilk hücrenin sütun numarası.|
 | is_vertical | bool | Verilerin dikey veya yatay olarak içe aktarılacağını belirtir.|
 

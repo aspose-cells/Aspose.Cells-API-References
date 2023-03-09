@@ -11,7 +11,7 @@ is_root: false
 
 Yorumun görünüp görünmediğini gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

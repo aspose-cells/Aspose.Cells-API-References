@@ -11,7 +11,7 @@ is_root: false
 
 Bu şeklin tanımlayıcısını alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

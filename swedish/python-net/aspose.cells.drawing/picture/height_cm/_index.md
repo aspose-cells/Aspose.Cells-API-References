@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  height_cm fastighet
 
-Representerar höjden på formen, i centimeterenhet.
+Representerar höjden på formen, i enheter av centimeter.
 
 ###  Exempel
 

@@ -1,6 +1,6 @@
 ﻿---
 title: columns 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1020
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## columns 属性
 
-获取代表此工作表中的个体 columns 的 [Column](/cells/zh/python-net/aspose.cells/column) 对象的集合。
+获取表示此工作表中的个体 columns 的 [Column](/cells/zh/python-net/aspose.cells/column) 对象的集合。
 ### 定义：
 ```python
 @property

@@ -9,12 +9,12 @@ is_root: false
 ---
 ##  image_type mülk
 
-Grafiği ve şekli dönüştürürken görüntü tipini temsil eder.
+Grafiği ve şekli dönüştürürken görüntü türünü temsil eder.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
-Grafik ve Şekil, işleme kalitesi için her zaman vektör öğeleri (örn. nokta, çizgi) olarak işlenir.
+NOT: Bu üye artık kullanılmıyor.
+Grafikler ve Şekiller, işleme kalitesi için her zaman vektör öğeleri (örn. noktalar, çizgiler) olarak işlenir.
  Bu mülk, Haziran 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

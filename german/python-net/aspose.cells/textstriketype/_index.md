@@ -17,7 +17,7 @@ Der Typ TextStrikeType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| SINGLE | Ein einzelnes Durchstreichen, das auf den Text angewendet wird.|
+| SINGLE |Ein einzelnes Durchstreichen, das auf den Text angewendet wird.|
 | DOUBLE | Ein doppelt durchgestrichener Text.|
 | NONE | Der Text wird nicht durchgestrichen.|
 

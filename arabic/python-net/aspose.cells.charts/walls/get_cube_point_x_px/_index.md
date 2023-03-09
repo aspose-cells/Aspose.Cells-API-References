@@ -19,7 +19,7 @@ def get_cube_point_x_px(self, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int |  |
 

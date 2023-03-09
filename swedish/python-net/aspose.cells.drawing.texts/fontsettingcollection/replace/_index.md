@@ -18,7 +18,7 @@ def replace(self, old_value, new_value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | old_value | str | Den gamla texten.|
 | new_value | str | Den nya texten.|
@@ -35,7 +35,7 @@ def replace(self, index, count, text):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Startindexet.|
 | count | int | Antal tecken.|

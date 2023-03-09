@@ -1,13 +1,13 @@
 ﻿---
 title: TableStyleType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
 url: /zh/python-net/aspose.cells.tables/tablestyletype/
 is_root: false
 ---
-##  TableStyleType枚举
+## TableStyleType枚举
 表示内置表格样式类型。
 
 

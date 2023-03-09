@@ -24,7 +24,7 @@ def get_column_labels_of_pivot_table(self):
 
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
 الرجاء استخدام طريقة GlobalizationSettings.GetColumnLabelsOfPivotTable ().
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ ديسمبر 2022.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

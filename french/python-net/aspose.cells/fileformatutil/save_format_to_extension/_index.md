@@ -22,7 +22,7 @@ def save_format_to_extension(self, format):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) | Le format de sauvegarde.|
 

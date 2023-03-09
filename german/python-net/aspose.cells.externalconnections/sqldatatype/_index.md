@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ##  SqlDataType Aufzählung
-Gibt den SQL-Datentyp des Parameters an. Nur gültig für ODBC-Quellen.
+Gibt den SQL-Datentyp des Parameters an.
 
 
 
@@ -19,14 +19,14 @@ Der Typ SqlDataType macht die folgenden Member verfügbar:
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | sql unsigned offset|
 | SQL_SIGNED_OFFSET | sql-Offset mit Vorzeichen|
-| SQL_GUID | SQL-Anleitung|
+| SQL_GUID | SQL-Führer|
 | SQL_W_LONG_VARCHAR | sql wide long variable char|
 | SQL_W_VARCHAR | sql breite Variable char|
 | SQL_W_CHAR | SQL breites Zeichen|
 | SQL_BIT | SQL-Bit|
 | SQL_TINY_INT | sql winzig int|
 | SQL_BIG_INT | sql groß int|
-| SQL_LONG_VAR_BINARY | sql lange Variable binär|
+| SQL_LONG_VAR_BINARY |sql lange Variable binär|
 | SQL_VAR_BINARY | binäre SQL-Variable|
 | SQL_BINARY | SQL-Binärdatei|
 | SQL_LONG_VAR_CHAR | sql lange Variable char|
@@ -52,7 +52,7 @@ Der Typ SqlDataType macht die folgenden Member verfügbar:
 | SQL_INTERVAL_YEAR_TO_MONTH | sql intervall jahr zu monat|
 | SQL_INTERVAL_DAY_TO_HOUR | sql-Intervall von Tag zu Stunde|
 | SQL_INTERVAL_DAY_TO_MINUTE | SQL-Intervall von Tag zu Minute|
-| SQL_INTERVAL_DAY_TO_SECOND |sql-Intervall von Tag zu Sekunde|
+| SQL_INTERVAL_DAY_TO_SECOND | sql-Intervall von Tag zu Sekunde|
 | SQL_INTERVAL_HOUR_TO_MINUTE | sql intervall stunde zu minute|
 | SQL_INTERVAL_HOUR_TO_SECOND | sql intervall stunde zu sekunde|
 | SQL_INTERVAL_MINUTE_TO_SECOND | sql-Intervall von Minute zu Sekunde|

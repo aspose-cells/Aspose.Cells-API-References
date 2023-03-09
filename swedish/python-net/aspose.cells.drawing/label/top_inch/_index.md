@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_inch fastighet
 
-Representerar den vertikala förskjutningen av formen från dess översta rad, i enhet av tum.
+Representerar den vertikala förskjutningen av formen från dess översta rad, i enheter av tum.
 
 ###  Exempel
 

@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.tables/listobjectcollection/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-Uppdatera alla kolumnnamn för tabellerna.
+Uppdatera alla kolumnnamn i tabellerna.
 
 
 

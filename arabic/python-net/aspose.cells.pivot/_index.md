@@ -12,7 +12,7 @@ is_root: false
 ###  الطبقات
 | فصل| وصف|
 | :- | :- |
-| [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) | يمثل حقلاً في تقرير PivotTable.|
+| [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) |يمثل حقلاً في تقرير PivotTable.|
 | [PivotFieldCollection](/cells/ar/python-net/aspose.cells.pivot/pivotfieldcollection) | يمثل مجموعة من كل كائنات PivotField<br/> في نوع PivotFields المحدد لـ PivotTable.|
 | [PivotFilter](/cells/ar/python-net/aspose.cells.pivot/pivotfilter) | يمثل PivotFilter في مجموعة PivotFilter.|
 | [PivotFilterCollection](/cells/ar/python-net/aspose.cells.pivot/pivotfiltercollection) | يمثل مجموعة من كل كائنات PivotFilter|
@@ -27,16 +27,16 @@ is_root: false
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
-| [PivotConditionFormatRuleType](/cells/ar/python-net/aspose.cells.pivot/pivotconditionformatruletype) |يمثل نوع قاعدة تنسيق شرط PivotTable.|
+| [PivotConditionFormatRuleType](/cells/ar/python-net/aspose.cells.pivot/pivotconditionformatruletype) | يمثل نوع قاعدة تنسيق شرط PivotTable.|
 | [PivotConditionFormatScopeType](/cells/ar/python-net/aspose.cells.pivot/pivotconditionformatscopetype) | يمثل نوع نطاق تنسيق شرط PivotTable.|
 | [PivotFieldDataDisplayFormat](/cells/ar/python-net/aspose.cells.pivot/pivotfielddatadisplayformat) | يمثل تنسيق عرض البيانات في حقل بيانات PivotTable.|
-| [PivotFieldSubtotalType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | وصف موجز لـ PivotFieldSubtotalType.|
+| [PivotFieldSubtotalType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |وصف موجز لـ PivotFieldSubtotalType.|
 | [PivotFieldType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldtype) | يمثل نوع حقل PivotTable.|
 | [PivotFilterType](/cells/ar/python-net/aspose.cells.pivot/pivotfiltertype) | يمثل نوع عامل تصفية PivotTable.|
 | [PivotGroupByType](/cells/ar/python-net/aspose.cells.pivot/pivotgroupbytype) | يمثل PivotTable groupby النوع.|
-| [PivotItemPosition](/cells/ar/python-net/aspose.cells.pivot/pivotitemposition) |يمثل العنصر الأساسي PivotTable التالي / السابق / الكل الموضع في الحقل الأساسي.|
+| [PivotItemPosition](/cells/ar/python-net/aspose.cells.pivot/pivotitemposition) | يمثل العنصر الأساسي PivotTable التالي / السابق / الكل الموضع في الحقل الأساسي.|
 | [PivotMissingItemLimitType](/cells/ar/python-net/aspose.cells.pivot/pivotmissingitemlimittype) | يمثل عدد العناصر المطلوب الاحتفاظ بها في كل حقل.|
 | [PivotTableAutoFormatType](/cells/ar/python-net/aspose.cells.pivot/pivottableautoformattype) | يمثل نوع التنسيق التلقائي لـ PivotTable.|
 | [PivotTableStyleType](/cells/ar/python-net/aspose.cells.pivot/pivottablestyletype) | يمثل نوع نمط الجدول المحوري.|

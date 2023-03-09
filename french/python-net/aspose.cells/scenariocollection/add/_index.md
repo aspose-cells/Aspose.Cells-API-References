@@ -22,7 +22,7 @@ def add(self, name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom du scénario.|
 

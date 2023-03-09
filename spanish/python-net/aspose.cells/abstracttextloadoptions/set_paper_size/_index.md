@@ -18,7 +18,7 @@ def set_paper_size(self, type):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | type | [PaperSizeType](/cells/es/python-net/aspose.cells/papersizetype) | El tamaño de papel predeterminado.|
 ###  Observaciones

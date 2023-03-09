@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings Eigentum
 
-Ruft die bedingten Formatierungen im Arbeitsblatt ab.
+Ruft die bedingte Formatierung im Arbeitsblatt ab.
 ###  Definition:
 ```python
 @property

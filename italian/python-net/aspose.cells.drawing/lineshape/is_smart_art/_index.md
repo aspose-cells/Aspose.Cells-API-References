@@ -15,7 +15,7 @@ Indica se la forma è smart art.
 
 Solo per file ooxml.
 
-###  Esempio
+###  Esempi
 
 ```python
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_3d_effect fastighet
 
-Sant om serien har ett tredimensionellt utseende.
+ Sant om serien har ett tredimensionellt utseende.
 Gäller endast bubbeldiagram.
 ###  Definition:
 ```python

@@ -18,11 +18,11 @@ def unhide_rows(self, row, total_rows, height):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | L'indice di riga.|
 | total_rows | int | Il numero di riga.|
-| height | float | Altezza della riga. L'altezza della riga verrà modificata solo quando la riga è nascosta e il valore dell'altezza dato è positivo.|
+| height | float | Altezza della riga L'altezza della riga verrà modificata solo quando la riga è nascosta e il valore dell'altezza dato è positivo.|
 
 
 

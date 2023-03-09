@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_size propriété
 
-Représente la taille du marqueur en unité de points. S'applique au graphique en courbes, au graphique en nuage de points ou au graphique en radar.
+Représente la taille du marqueur en unités de points. S'applique au graphique en courbes, au graphique en nuage de points ou au graphique en radar.
 ###  Définition:
 ```python
 @property

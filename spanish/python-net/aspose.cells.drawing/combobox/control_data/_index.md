@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene los datos de control.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

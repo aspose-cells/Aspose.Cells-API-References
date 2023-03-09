@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/worksheet/unprotect/
 is_root: false
 ---
 ##  unprotect() {#}
-Tar bort skyddet för arbetsbladet.
+Ta bort skyddet för arbetsbladet.
 
 
 
@@ -24,7 +24,7 @@ Denna metod tar bort skyddet för kalkylbladet som är skyddat utan lösenord.
 
 ##  unprotect(password) {#str}
 
-Tar bort skyddet för arbetsbladet.
+Ta bort skyddet för arbetsbladet.
 
 
 
@@ -34,7 +34,7 @@ def unprotect(self, password):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | password | str | Lösenord|
 ###  Anmärkningar

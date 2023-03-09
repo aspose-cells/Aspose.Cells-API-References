@@ -18,7 +18,7 @@ def set_series_names(self, start_index, area, is_vertical):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_index | int | Indexet för den första serien som du vill ange namnet på.|
 | area | str | Anger området för serienamnet.|

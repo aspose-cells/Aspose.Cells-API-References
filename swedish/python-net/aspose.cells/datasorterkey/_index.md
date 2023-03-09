@@ -18,7 +18,7 @@ Typen DataSorterKey avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [order](/cells/sv/python-net/aspose.cells/datasorterkey/order) | Indikerar sorteringsordningen.|
-| [index](/cells/sv/python-net/aspose.cells/datasorterkey/index) |Hämtar det sorterade kolumnindexet (absolut position, kolumn A är 0, B är 1, ...).|
+| [index](/cells/sv/python-net/aspose.cells/datasorterkey/index) | Hämtar det sorterade kolumnindexet (absolut position, kolumn A är 0, B är 1, ...).|
 | [type](/cells/sv/python-net/aspose.cells/datasorterkey/type) | Representerar typen av sortering.|
 | [icon_set_type](/cells/sv/python-net/aspose.cells/datasorterkey/icon_set_type) | Representerar ikonuppsättningstypen.|
 | [icon_id](/cells/sv/python-net/aspose.cells/datasorterkey/icon_id) | Representerar id för ikonuppsättningstypen.|

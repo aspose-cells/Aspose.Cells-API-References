@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 fastighet
 
 Returnerar ett CellArea-objekt som representerar intervallet som innehåller hela pivottabellsrapporten,
-inkluderar sidfält. Skrivskyddad.
+inkluderar sidfält.
 ###  Definition:
 ```python
 @property

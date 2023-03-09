@@ -10,7 +10,7 @@ is_root: false
 ##  background_refresh mülk
 
  Bağlantının arka planda (eşzamansız olarak) yenilenip yenilenemeyeceğini belirtir.
- true bağlantının tercih edilen kullanımı arka planda eşzamansız olarak yenilemekse;
+true bağlantının tercih edilen kullanımı arka planda eşzamansız olarak yenilemekse;
 false bağlantının tercih edilen kullanımı ön planda eşzamanlı olarak yenilemekse.
 ###  Tanım:
 ```python

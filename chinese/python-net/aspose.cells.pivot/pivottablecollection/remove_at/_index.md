@@ -1,6 +1,6 @@
 ﻿---
 title: remove_at方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | index | int |数据透视表集合中的位置索引|
 | keep_data | bool |是否保留数据透视表数据|

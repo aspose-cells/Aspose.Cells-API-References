@@ -1,13 +1,13 @@
 ﻿---
 title: ShapeGuide类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 550
 url: /zh/python-net/aspose.cells.drawing/shapeguide/
 is_root: false
 ---
-##  ShapeGuide类
+## ShapeGuide类
 封装形状指南指定形状指南的存在，该形状指南将用于
 控制指定形状的几何形状
 

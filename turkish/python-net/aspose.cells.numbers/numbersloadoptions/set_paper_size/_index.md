@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.numbers/numbersloadoptions/set_paper_size/
 is_root: false
 ---
 ##  set_paper_size(type) {#PaperSizeType}
-Varsayılan yazıcı ayarından varsayılan yazdırma kağıdı boyutunu ayarlar.
+Varsayılan yazıcının ayarından varsayılan yazdırma kağıdı boyutunu ayarlar.
 
 
 
@@ -18,7 +18,7 @@ def set_paper_size(self, type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [PaperSizeType](/cells/tr/python-net/aspose.cells/papersizetype) | Varsayılan kağıt boyutu.|
 ###  Notlar

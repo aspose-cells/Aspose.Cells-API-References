@@ -22,7 +22,7 @@ def fields(self, field_type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/fr/python-net/aspose.cells.pivot/pivotfieldtype) | le type de champ.|
 

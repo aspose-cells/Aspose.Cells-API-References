@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  OdsPageBackgroundType uppräkning
-Representerar sidans bakgrundstyp för ods.
+Representerar sidans bakgrundstyp av odds.
 
 
 

@@ -13,7 +13,7 @@ Makroların tutulup tutulmadığını gösterir;
 
 ###  Notlar
 
-Yalnızca çalışma kitabını kopyalamak için.
+Yalnızca çalışma kitaplarını kopyalamak için.
 ###  Tanım:
 ```python
 @property

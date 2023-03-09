@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing.activexcontrols/controltype/
 is_root: false
 ---
 ##  ControlType dénombrement
-Représente tous les types de contrôle ActiveX.
+Représente tous les types de contrôles ActiveX.
 
 
 
@@ -17,17 +17,17 @@ Le type ControlType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| COMMAND_BUTTON | Bouton|
+| COMMAND_BUTTON | bouton|
 | COMBO_BOX | Boîte combo|
-| CHECK_BOX | Case à cocher|
+| CHECK_BOX | case à cocher|
 | LIST_BOX | Zone de liste|
 | TEXT_BOX | Zone de texte|
 | SPIN_BUTTON | Fileur|
-| RADIO_BUTTON | Bouton radio|
-| LABEL | Étiqueter|
+| RADIO_BUTTON | boutons radio|
+| LABEL | étiqueter|
 | IMAGE | Image|
 | TOGGLE_BUTTON | Bouton à bascule|
-| SCROLL_BAR |Barre de défilement|
+| SCROLL_BAR | Barre de défilement|
 | UNKNOWN | Inconnu|
 
 

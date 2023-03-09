@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  delete_redundant_spaces propiedad
 
- Indica si se eliminan los espacios redundantes cuando el texto envuelve líneas usando<br>etiqueta. El valor predeterminado es falso.
+ Indica si se eliminan los espacios redundantes cuando el texto se ajusta a las líneas usando<br>etiqueta El valor predeterminado es falso.
 ###  Definición:
 ```python
 @property

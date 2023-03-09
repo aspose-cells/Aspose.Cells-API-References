@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/markdownsaveoptions/__init__/
 is_root: false
 ---
 ##  MarkdownSaveOptions() {#}
-Crée des options pour enregistrer le document Markdown
+Crée des options pour enregistrer les documents Markdown
 
 
 

@@ -23,7 +23,7 @@ def get_full_name(self, sheet_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet_name | str | Arbetsbladsnamn|
 

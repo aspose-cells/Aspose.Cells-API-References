@@ -14,7 +14,7 @@ False, boyutun çizim alanının boyutunu, onay işaretlerini ve eksen etiketler
 
 ###  Notlar
 
-Yalnızca Xlsx dosyası için.
+Yalnızca Xlsx dosyaları için.
 ###  Tanım:
 ```python
 @property

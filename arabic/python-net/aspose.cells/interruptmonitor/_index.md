@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/interruptmonitor/
 is_root: false
 ---
 ##  InterruptMonitor الدرجة
-يمثل كل عامل عن المقاطعة.
+يمثل جميع المشغلين حول المقاطعة.
 
 
 

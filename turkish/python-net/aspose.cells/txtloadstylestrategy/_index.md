@@ -18,8 +18,8 @@ TxtLoadStyleStrategy türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | NONE | Ayrıştırılan değer için stil ayarlamaz.|
-| BUILT_IN | Ayrıştırılan değer düz sayısal/tarihsaat değerleri olduğunda stili yerleşik sayı/tarihsaat olarak ayarlayın.|
-| EXACT_FORMAT |Biçimlendirilmiş değerin orijinal giriş değeriyle aynı olmasını sağlamak için ayrıştırılan değer için tam özel biçimi ayarlayın.|
+| BUILT_IN |Ayrıştırılan değerler düz sayısal/tarihsaat değerleri olduğunda stili yerleşik sayı/tarihsaat olarak ayarlayın.|
+| EXACT_FORMAT | Biçimlendirilmiş değerin orijinal giriş değeriyle aynı olmasını sağlamak için ayrıştırılan değer için tam özel biçimi ayarlayın.|
 
 
 

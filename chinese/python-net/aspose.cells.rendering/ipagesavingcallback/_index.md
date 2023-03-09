@@ -1,13 +1,13 @@
 ﻿---
 title: IPageSavingCallback类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
 url: /zh/python-net/aspose.cells.rendering/ipagesavingcallback/
 is_root: false
 ---
-##  IPageSavingCallback类
+## IPageSavingCallback类
 控制/指示页面保存过程的进度。
 
 

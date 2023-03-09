@@ -22,15 +22,15 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_shape | [Shape](/cells/tr/python-net/aspose.cells.drawing/shape) | Kaynak şekli.|
 | upper_left_row | int | Sol üst sıra dizini.|
-| top | int | Piksel birimi cinsinden, onay kutusunun sol satırından dikey uzaklığını temsil eder.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| top | int |Piksel birimi cinsinden, onay kutusunun sol satırından dikey uzaklığını temsil eder.|
+| upper_left_column | int | Sol üst sütun dizini.|
 | left | int | Metin kutusunun sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

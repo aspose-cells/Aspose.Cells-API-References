@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/
 is_root: false
 ---
 ##  SpreadsheetML2003SaveOptions() {#}
-Erstellt die Optionen zum Speichern der Excel 2003-Spreadml-Datei.
+Erstellt die Optionen zum Speichern von Excel 2003-Spreadml-Dateien.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SpreadsheetML2003SaveOptions(save_format) {#SaveFormat}
-Erstellt die Optionen zum Speichern der Excel 2003-Spreadml-Datei.
+Erstellt die Optionen zum Speichern von Excel 2003-Spreadml-Dateien.
 
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: to_tiff方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |输出图像流|
 
@@ -34,7 +34,7 @@ def to_tiff(self, filename):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | filename | str |输出图像的文件名|
 

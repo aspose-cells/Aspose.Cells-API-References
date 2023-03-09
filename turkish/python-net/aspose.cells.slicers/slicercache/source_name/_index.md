@@ -11,7 +11,7 @@ is_root: false
 
 Önbellek alanının adını döndürür
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -13,7 +13,7 @@ Kontrollerar om given feltyp kommer att kontrolleras.
 
 ###  Returnerar
 
-returnera sant om given feltyp kommer att kontrolleras (grön triangel kommer att visas för cellen om kontrollen misslyckades).
+return true om given feltyp kommer att kontrolleras (grön triangel kommer att visas för cellen om kontrollen misslyckades).
 
 
 ```python
@@ -22,7 +22,7 @@ def is_error_check(self, error_check_type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/sv/python-net/aspose.cells/errorchecktype) | feltyp kan kontrolleras|
 

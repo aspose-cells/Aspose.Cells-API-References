@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_text proprietà
 
-Indica che il testo è generato automaticamente.
+Indica che il testo è stato generato automaticamente.
 ###  Definizione:
 ```python
 @property

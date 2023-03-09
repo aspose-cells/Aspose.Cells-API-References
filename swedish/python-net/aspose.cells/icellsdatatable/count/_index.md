@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count fastighet
 
-Hämtar count av posterna. -1 för okända uppgifter count.
+Hämtar count av posterna. -1 för okända poster count.
 ###  Definition:
 ```python
 @property

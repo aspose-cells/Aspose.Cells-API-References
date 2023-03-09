@@ -18,7 +18,7 @@ def move_range(self, source_area, dest_row, dest_column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | source_area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | El rango que se debe mover.|
 | dest_row | int | La fila de destino.|

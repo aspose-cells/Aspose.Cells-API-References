@@ -25,7 +25,7 @@ def add(self, upper_left_row, upper_left_column, height, width):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | height | int | Höhe des Kontrollkästchens in Pixeleinheiten.|
 | width | int | Breite des Kontrollkästchens in Pixeleinheiten.|
 

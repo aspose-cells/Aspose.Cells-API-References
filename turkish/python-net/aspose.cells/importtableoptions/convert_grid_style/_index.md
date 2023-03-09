@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_grid_style mülk
 
-Izgara görünümü stilinin hücrelere uygulanıp uygulanmayacağını gösterir.
+Izgara görünümü stilinin hücrelere uygulanıp uygulanmayacağını belirtir.
 ###  Tanım:
 ```python
 @property

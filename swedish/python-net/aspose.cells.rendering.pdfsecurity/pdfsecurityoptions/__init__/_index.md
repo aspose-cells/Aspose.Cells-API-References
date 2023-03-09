@@ -21,7 +21,7 @@ def __init__(self):
 
 ###  Exempel
 
-Följande kod anger utskriftstillstånd för hög upplösning för utdata-pdf.
+Följande kod anger högupplöst utskriftsbehörighet för utdata-pdf.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

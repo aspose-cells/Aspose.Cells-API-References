@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/groupshape/ungroup/
 is_root: false
 ---
 ##  ungroup() {#}
-Şekil öğelerinin grubunu çözer.
+Şekil öğelerinin grubunu çözün.
 
 
 

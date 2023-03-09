@@ -18,10 +18,10 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | array_formula | str | Matrisformel.|
-| row_number | int | Antal rader som ska fyllas i resultatet av matrisformeln.|
+| row_number | int |Antal rader som ska fyllas i resultatet av matrisformeln.|
 | column_number | int | Antal kolumner som ska fyllas i resultatet av matrisformeln.|
 
 
@@ -36,10 +36,10 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | array_formula | str | Matrisformel.|
-| row_number | int | Antal rader som ska fyllas i resultatet av matrisformeln.|
+| row_number | int |Antal rader som ska fyllas i resultatet av matrisformeln.|
 | column_number | int | Antal kolumner som ska fyllas i resultatet av matrisformeln.|
 | options | [FormulaParseOptions](/cells/sv/python-net/aspose.cells/formulaparseoptions) | Alternativ för att analysera formeln.|
 
@@ -55,16 +55,16 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | array_formula | str | Matrisformel.|
-| row_number | int | Antal rader som ska fyllas i resultatet av matrisformeln.|
+| row_number | int |Antal rader som ska fyllas i resultatet av matrisformeln.|
 | column_number | int | Antal kolumner som ska fyllas i resultatet av matrisformeln.|
 | is_r1c1 | bool | om formeln är R1C1-formel|
 | is_local | bool | om formeln är språkformaterad|
 ###  Anmärkningar
 
-OBS: Denna klass är nu föråldrad. Istället,
+OBS: Denna klass är nu föråldrad.
 använd Cell.SetArrayFormula(string,int,int,FormulaParseOptions).
 Den här egenskapen kommer att tas bort 12 månader senare sedan december 2019.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
@@ -80,13 +80,13 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | array_formula | str | Matrisformel.|
-| row_number | int | Antal rader som ska fyllas i resultatet av matrisformeln.|
+| row_number | int |Antal rader som ska fyllas i resultatet av matrisformeln.|
 | column_number | int | Antal kolumner som ska fyllas i resultatet av matrisformeln.|
 | options | [FormulaParseOptions](/cells/sv/python-net/aspose.cells/formulaparseoptions) | Alternativ för att analysera formeln.|
-| values | list | värden för dessa celler med en given matrisformel|
+| values | list | värden för de celler med given matrisformel|
 
 
 

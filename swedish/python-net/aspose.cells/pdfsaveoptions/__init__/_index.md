@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/pdfsaveoptions/__init__/
 is_root: false
 ---
 ##  PdfSaveOptions() {#}
-Skapar alternativen för att spara pdf-fil.
+Skapar alternativen för att spara pdf-filer.
 
 
 

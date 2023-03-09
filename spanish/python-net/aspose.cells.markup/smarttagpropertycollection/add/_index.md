@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | name | str | El nombre de la propiedad|
 | value | str | El valor de la propiedad.|

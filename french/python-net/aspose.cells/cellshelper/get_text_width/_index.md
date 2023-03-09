@@ -22,7 +22,7 @@ def get_text_width(self, text, font, scaling):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | text | str | Le texte.|
 | font | [Font](/cells/fr/python-net/aspose.cells/font) | La police du texte.|

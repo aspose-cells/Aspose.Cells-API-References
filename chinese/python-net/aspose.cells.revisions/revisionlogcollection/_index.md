@@ -1,13 +1,13 @@
 ﻿---
 title: RevisionLogCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 140
 url: /zh/python-net/aspose.cells.revisions/revisionlogcollection/
 is_root: false
 ---
-##  RevisionLogCollection类
+## RevisionLogCollection类
 表示所有修订日志。
 
 

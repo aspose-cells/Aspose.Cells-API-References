@@ -1,5 +1,5 @@
 ﻿---
-title: DifSaveOptions sınıf
+title: DifSaveOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,8 +7,8 @@ weight: 480
 url: /tr/python-net/aspose.cells/difsaveoptions/
 is_root: false
 ---
-##  DifSaveOptions sınıf
-Dif dosyasını kaydetme seçeneklerini temsil eder.
+##  DifSaveOptions sınıfı
+Dif dosyalarını kaydetme seçeneklerini temsil eder.
 
 
 
@@ -35,9 +35,9 @@ DifSaveOptions türü aşağıdaki üyeleri gösterir:
 | [merge_areas](/cells/tr/python-net/aspose.cells/difsaveoptions/merge_areas) | Dosyayı kaydetmeden önce koşullu biçimlendirme ve doğrulama alanlarının birleştirilip birleştirilmediğini belirtir.|
 | [create_directory](/cells/tr/python-net/aspose.cells/difsaveoptions/create_directory) | true ise ve dizin yoksa, dosya kaydedilmeden önce dizin otomatik olarak oluşturulur.|
 | [sort_names](/cells/tr/python-net/aspose.cells/difsaveoptions/sort_names) | Dosyayı kaydetmeden önce tanımlı adların sıralanıp sıralanmadığını gösterir.|
-| [sort_external_names](/cells/tr/python-net/aspose.cells/difsaveoptions/sort_external_names) | Dosyayı kaydetmeden önce harici tanımlı adların sıralanıp sıralanmadığını gösterir.|
-| [refresh_chart_cache](/cells/tr/python-net/aspose.cells/difsaveoptions/refresh_chart_cache) |Grafik önbellek verilerinin yenilenip yenilenmediğini gösterir.|
-| [warning_callback](/cells/tr/python-net/aspose.cells/difsaveoptions/warning_callback) | Uyarı geri aramasını alır veya ayarlar.|
+| [sort_external_names](/cells/tr/python-net/aspose.cells/difsaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici olarak tanımlanmış adların sıralanıp sıralanmadığını gösterir.|
+| [refresh_chart_cache](/cells/tr/python-net/aspose.cells/difsaveoptions/refresh_chart_cache) | Grafik önbellek verilerinin yenilenip yenilenmediğini gösterir.|
+| [warning_callback](/cells/tr/python-net/aspose.cells/difsaveoptions/warning_callback) | Uyarı geri aramalarını alır veya ayarlar.|
 | [update_smart_art](/cells/tr/python-net/aspose.cells/difsaveoptions/update_smart_art) | Akıllı sanat ayarının güncellenip güncellenmediğini gösterir.<br/> Varsayılan değer yanlıştır.|
 
 

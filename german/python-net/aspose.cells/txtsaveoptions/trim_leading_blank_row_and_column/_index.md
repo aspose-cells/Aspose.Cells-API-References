@@ -15,10 +15,10 @@ Standard ist wahr.
 ###  Bemerkungen
 
 Dasselbe gilt für die Regel in MS Excel, eine Zeile/Spalte wird nicht als leer angesehen, wenn sie einen benutzerdefinierten Stil hat.
-auch wenn es keine Zelldaten enthält.
+auch wenn es keine Zellendaten enthält.
 Beim Speichern im LightCells-Modus hat diese Option keine Auswirkung.
 Der Benutzer sollte den Ausgangsbereich durch die Implementierung von [TxtSaveOptions.light_cells_data_provider](/cells/de/python-net/aspose.cells/txtsaveoptions#light_cells_data_provider) steuern
-oder unter Angabe von [TxtSaveOptions.export_area](/cells/de/python-net/aspose.cells/txtsaveoptions#export_area)
+oder telefonisch unter [TxtSaveOptions.export_area](/cells/de/python-net/aspose.cells/txtsaveoptions#export_area)
 ###  Definition:
 ```python
 @property

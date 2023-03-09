@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/loadoptions/__init__/
 is_root: false
 ---
 ##  LoadOptions() {#}
-Erstellt Optionen zum Laden der Datei.
+Erstellt eine Option zum Laden der Datei.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  LoadOptions(load_format) {#LoadFormat}
-Erstellt Optionen zum Laden der Datei.
+Erstellt eine Option zum Laden der Datei.
 
 
 

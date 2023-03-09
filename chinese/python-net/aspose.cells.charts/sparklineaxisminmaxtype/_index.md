@@ -1,13 +1,13 @@
 ﻿---
 title: SparklineAxisMinMaxType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 610
 url: /zh/python-net/aspose.cells.charts/sparklineaxisminmaxtype/
 is_root: false
 ---
-##  SparklineAxisMinMaxType枚举
+## SparklineAxisMinMaxType枚举
 表示迷你图垂直轴的最小值和最大值类型。
 
 

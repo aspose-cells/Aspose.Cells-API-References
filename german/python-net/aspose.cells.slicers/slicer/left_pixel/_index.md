@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den horizontalen Versatz der Slicer-Form von der linken Spalte in Pixel zurück oder legt ihn fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

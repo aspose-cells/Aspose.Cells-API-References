@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_object_title mülk
 
-Nesne, nesnenin bir özelliğiyse, başlığın dikkate alınıp alınmadığını belirtir.
+Nesne, nesnenin bir özelliğiyse, başlığın yoksayılıp dikkate alınmayacağını belirtir.
 
 ###  Notlar
 

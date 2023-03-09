@@ -26,7 +26,7 @@ def to_image(self, stream, image_type):
 
 Folgende Formate werden unterstützt:
 .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import ImageType
@@ -54,7 +54,7 @@ def to_image(self, image_file, options):
 | image_file | str |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions
@@ -81,7 +81,7 @@ def to_image(self, stream, options):
 | stream | io.RawIOBase |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions

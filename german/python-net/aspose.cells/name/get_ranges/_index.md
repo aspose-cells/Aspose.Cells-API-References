@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/name/get_ranges/
 is_root: false
 ---
 ##  get_ranges() {#}
-Ruft alle Bereiche ab, auf die mit diesem Namen verwiesen wird.
+Ruft alle Bereiche ab, auf die dieser Name verweist.
 
 
 ###  Kehrt zurück
@@ -25,7 +25,7 @@ def get_ranges(self):
 
 
 ##  get_ranges(recalculate) {#bool}
-Ruft alle Bereiche ab, auf die mit diesem Namen verwiesen wird.
+Ruft alle Bereiche ab, auf die dieser Name verweist.
 
 
 ###  Kehrt zurück
@@ -41,7 +41,7 @@ def get_ranges(self, recalculate):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| recalculate | bool | ob er neu berechnet wird, wenn dieser Name vor diesem Aufruf berechnet wurde.|
+| recalculate | bool | ob er neu berechnet werden soll, wenn dieser Name vor diesem Aufruf berechnet wurde.|
 
 
 

@@ -19,7 +19,7 @@ Le type ControlMousePointerType expose les membres suivants :
 | :- | :- |
 | DEFAULT | Pointeur standard.|
 | ARROW | Flèche.|
-| CROSS |Pointeur en croix.|
+| CROSS | Pointeur en croix.|
 | I_BEAM | Je rayonne.|
 | SIZE_NESW | Double flèche pointant vers le nord-est et le sud-ouest.|
 | SIZE_NS | Double flèche pointant vers le nord et le sud.|
@@ -30,7 +30,7 @@ Le type ControlMousePointerType expose les membres suivants :
 | NO_DROP | Symbole "Non" (cercle avec une ligne diagonale) au-dessus de l'objet déplacé.|
 | APP_STARTING | Flèche avec un sablier.|
 | HELP | Flèche avec un point d'interrogation.|
-| SIZE_ALL | Curseur "Taille-tout" (flèches pointant vers le nord, le sud, l'est et l'ouest).|
+| SIZE_ALL |Curseur "Taille-tout" (flèches pointant vers le nord, le sud, l'est et l'ouest).|
 | CUSTOM | Utilise l'icône spécifiée par la propriété MouseIcon.|
 
 

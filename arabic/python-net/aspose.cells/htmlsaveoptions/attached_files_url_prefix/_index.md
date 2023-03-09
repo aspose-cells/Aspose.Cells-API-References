@@ -10,7 +10,7 @@ is_root: false
 ##  attached_files_url_prefix الملكية
 
 حدد بادئة عنوان Url للملفات المرفقة مثل الصورة في ملف html.
-فقط للحفظ في دفق html.
+فقط للحفظ في دفق HTML.
 ###  تعريف:
 ```python
 @property

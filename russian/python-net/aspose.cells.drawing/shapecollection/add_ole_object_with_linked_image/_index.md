@@ -22,12 +22,12 @@ def add_ole_object_with_linked_image(self, upper_left_row, upper_left_column, he
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
-| height | int | Высота формы. В единицах пикселей|
-| width | int | Ширина формы. В единицах пикселей|
+| upper_left_column | int | Индекс левого верхнего столбца.|
+| height | int | Высота формы.|
+| width | int | Ширина формы.|
 | source_full_name | str | Путь и имя исходного файла для связанного изображения|
 
 

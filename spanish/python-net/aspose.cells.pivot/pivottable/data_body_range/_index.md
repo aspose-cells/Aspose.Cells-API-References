@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range propiedad
 
 Devuelve un objeto CellArea que representa el rango que contiene el área de datos
-en la lista entre la fila de encabezado y la fila de inserción. Solo lectura.
+en la lista entre la fila de encabezado y la fila de inserción.
 ###  Definición:
 ```python
 @property

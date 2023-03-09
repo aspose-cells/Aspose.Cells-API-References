@@ -1,5 +1,5 @@
 ﻿---
-title: IconSet sınıf
+title: IconSet sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 900
 url: /tr/python-net/aspose.cells/iconset/
 is_root: false
 ---
-##  IconSet sınıf
+##  IconSet sınıfı
  IconSet koşullu biçimlendirme kuralını açıklayın.
 Bu koşullu biçimlendirme kuralı, simgeleri hücrelere uygular
 değerlerine göre.
@@ -21,14 +21,14 @@ IconSet türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [cf_icons](/cells/tr/python-net/aspose.cells/iconset/cf_icons) | Koleksiyondan [ConditionalFormattingIcon](/cells/tr/python-net/aspose.cells/conditionalformattingicon)'i edinin|
 | [cfvos](/cells/tr/python-net/aspose.cells/iconset/cfvos) | CFValueObjects örneğini alın.|
-| [type](/cells/tr/python-net/aspose.cells/iconset/type) | Görüntülenecek simge seti türünü alın veya ayarlayın.<br/>Türün ayarlanması, geçerli Cfvos sayısının olup olmadığını otomatik olarak kontrol edecektir.<br/> yeni tipe uygun. Uyulmadığı takdirde eski Cfvos temizlenecek ve<br/> varsayılan Cfvos eklenecektir.|
-| [is_custom](/cells/tr/python-net/aspose.cells/iconset/is_custom) |Simge setinin özel olup olmadığını gösterir.<br/> Varsayılan değer yanlıştır.|
+| [type](/cells/tr/python-net/aspose.cells/iconset/type) | Görüntülenecek simge seti türünü alın veya ayarlayın.<br/>Türün ayarlanması, geçerli Cfvos sayısının olup olmadığını otomatik olarak kontrol edecektir.<br/> yeni tipe uygun.Uyumlu değilse eski Cfvos temizlenecek ve<br/> varsayılan Cfvos eklenecektir.|
+| [is_custom](/cells/tr/python-net/aspose.cells/iconset/is_custom) | Simge setinin özel olup olmadığını gösterir.<br/> Varsayılan değer yanlıştır.|
 | [show_value](/cells/tr/python-net/aspose.cells/iconset/show_value) | Bu simge setinin uygulandığı hücrelerin değerlerinin gösterilip gösterilmeyeceğini gösteren bayrağı alın veya ayarlayın.<br/> Varsayılan değer doğrudur.|
 | [reverse](/cells/tr/python-net/aspose.cells/iconset/reverse) | Bu simge setindeki simgelerin varsayılan sırasının tersine çevrilip çevrilmeyeceğini gösteren bayrağı alın veya ayarlayın.<br/> Varsayılan değer yanlıştır.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, IconSetType, Workbook

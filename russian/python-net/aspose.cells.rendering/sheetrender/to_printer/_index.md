@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.rendering/sheetrender/to_printer/
 is_root: false
 ---
 ##  to_printer(printer_name) {#str}
-Рендеринг рабочего листа на принтер
+Вывод рабочего листа на принтер
 
 
 
@@ -18,13 +18,13 @@ def to_printer(self, printer_name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | printer_name | str | имя принтера, например: "Microsoft Office Document Image Writer"|
 
 
 ##  to_printer(printer_settings) {#aspose.pydrawing.printing.PrinterSettings}
-Рендеринг рабочего листа на принтер
+Вывод рабочего листа на принтер
 
 
 
@@ -34,13 +34,13 @@ def to_printer(self, printer_settings):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | настройки принтера, например PrinterName, Duplex|
 
 
 ##  to_printer(printer_name, job_name) {#str-str}
-Рендеринг рабочего листа на принтер
+Вывод рабочего листа на принтер
 
 
 
@@ -50,14 +50,14 @@ def to_printer(self, printer_name, job_name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | printer_name | str | имя принтера, например: "Microsoft Office Document Image Writer"|
 | job_name | str | установить имя задания на печать|
 
 
 ##  to_printer(printer_settings, job_name) {#aspose.pydrawing.printing.PrinterSettings-str}
-Рендеринг рабочего листа на принтер
+Вывод рабочего листа на принтер
 
 
 
@@ -67,14 +67,14 @@ def to_printer(self, printer_settings, job_name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | настройки принтера, например PrinterName, Duplex|
 | job_name | str | установить имя задания на печать|
 
 
 ##  to_printer(printer_name, print_page_index, print_page_count) {#str-int-int}
-Рендеринг рабочего листа на принтер
+Вывод рабочего листа на принтер
 
 
 
@@ -84,10 +84,10 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | printer_name | str | имя принтера, например: "Microsoft Office Document Image Writer"|
-| print_page_index | int |основанный на 0 индекс первой страницы для печати, он должен быть в диапазоне [0, SheetRender.PageCount-1]|
+| print_page_index | int | основанный на 0 индекс первой страницы для печати, он должен быть в диапазоне [0, SheetRender.PageCount-1]|
 | print_page_count | int | количество страниц для печати, оно должно быть больше нуля|
 ###  Примечания
 

@@ -13,7 +13,7 @@ Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière oc
 
 ###  Retour
 
-L'index de base zéro de la dernière occurrence de value dans toute la liste de tableaux, s'il est trouvé ; sinon, -1.
+L'index de base zéro de la dernière occurrence de value dans l'ensemble de la liste de tableaux, s'il est trouvé ; sinon, -1.
 
 
 ```python
@@ -22,9 +22,9 @@ def last_index_of(self, item):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| item | [WebExtensionBinding](/cells/fr/python-net/aspose.cells.webextensions/webextensionbinding) | L'objet à localiser dans la liste de tableaux. La valeur peut être nulle.|
+| item | [WebExtensionBinding](/cells/fr/python-net/aspose.cells.webextensions/webextensionbinding) | L'objet à localiser dans la liste de tableaux.|
 
 
 ##  last_index_of(item, index) {#WebExtensionBinding-int}
@@ -33,7 +33,7 @@ Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière oc
 
 ###  Retour
 
-L'index de base zéro de la dernière occurrence de value dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à startIndex, s'il est trouvé ; sinon, -1.
+Index de base zéro de la dernière occurrence de value dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à startIndex, s'il est trouvé ; sinon, -1.
 
 
 ```python
@@ -42,9 +42,9 @@ def last_index_of(self, item, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| item | [WebExtensionBinding](/cells/fr/python-net/aspose.cells.webextensions/webextensionbinding) | L'objet à localiser dans la liste de tableaux. La valeur peut être nulle.|
+| item | [WebExtensionBinding](/cells/fr/python-net/aspose.cells.webextensions/webextensionbinding) | L'objet à localiser dans la liste de tableaux.|
 | index | int | L'index de départ de base zéro de la recherche vers l'arrière.|
 
 
@@ -54,7 +54,7 @@ Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière oc
 
 ###  Retour
 
-Index de base zéro de la dernière occurrence de value dans la plage d'éléments de System.Collections. Liste de tableaux contenant le nombre d'éléments et se terminant à startIndex, si trouvé ; sinon, -1.
+Index de base zéro de la dernière occurrence de value dans la plage d'éléments de la liste System.Collections.Array qui contient le nombre d'éléments et se termine à startIndex, s'il est trouvé ; sinon, -1.
 
 
 ```python
@@ -63,9 +63,9 @@ def last_index_of(self, item, index, count):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| item | [WebExtensionBinding](/cells/fr/python-net/aspose.cells.webextensions/webextensionbinding) | L'objet à localiser dans la liste de tableaux. La valeur peut être nulle.|
+| item | [WebExtensionBinding](/cells/fr/python-net/aspose.cells.webextensions/webextensionbinding) | L'objet à localiser dans la liste de tableaux.|
 | index | int | L'index de départ de base zéro de la recherche vers l'arrière.|
 | count | int | Le nombre d'éléments dans la section à rechercher.|
 

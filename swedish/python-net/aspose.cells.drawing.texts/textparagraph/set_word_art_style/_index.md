@@ -18,7 +18,7 @@ def set_word_art_style(self, style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [PresetWordArtStyle](/cells/sv/python-net/aspose.cells.drawing/presetwordartstyle) | Den förinställda WordArt-stilen.|
 ###  Anmärkningar

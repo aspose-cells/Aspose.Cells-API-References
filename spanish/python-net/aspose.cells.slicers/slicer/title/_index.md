@@ -11,7 +11,7 @@ is_root: false
 
 Especifica el title del objeto Slicer actual.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

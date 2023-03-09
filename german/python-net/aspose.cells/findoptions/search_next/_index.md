@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  search_next Eigentum
 
-Suchreihenfolge. True: Weitersuchen. False: Vorherige suchen.
+Suchreihenfolge True: Nächstes suchen False: Vorheriges suchen
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die Eigenschaft FindOptions.SearchBackward.
  Diese Property wird 12 Monate später seit November 2018 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

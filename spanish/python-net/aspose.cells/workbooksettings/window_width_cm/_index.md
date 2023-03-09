@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_cm propiedad
 
-El ancho de la ventana, en unidades de centímetro.
+El ancho de la ventana, en unidades de centímetros.
 ###  Definición:
 ```python
 @property

@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | text | str | Le texte du commentaire fileté.|
 | author | [ThreadedCommentAuthor](/cells/fr/python-net/aspose.cells/threadedcommentauthor) | L'auteur du commentaire fileté|

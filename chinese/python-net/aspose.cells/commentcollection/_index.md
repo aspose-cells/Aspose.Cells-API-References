@@ -1,13 +1,13 @@
 ﻿---
 title: CommentCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 290
 url: /zh/python-net/aspose.cells/commentcollection/
 is_root: false
 ---
-##  CommentCollection类
+## CommentCollection类
 封装 [Comment](/cells/zh/python-net/aspose.cells/comment) 对象的集合。
 
 

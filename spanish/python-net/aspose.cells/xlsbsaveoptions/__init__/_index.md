@@ -31,9 +31,9 @@ def __init__(self, save_format):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/es/python-net/aspose.cells/saveformat) | El formato de guardado. Debe ser xlsb.|
+| save_format | [SaveFormat](/cells/es/python-net/aspose.cells/saveformat) | El formato de guardado debe ser xlsb.|
 ###  Observaciones
 
 NOTA: Este constructor ahora está obsoleto.

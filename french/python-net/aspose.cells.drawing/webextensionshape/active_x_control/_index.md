@@ -11,7 +11,7 @@ is_root: false
 
 Obtient le contrôle ActiveX.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose import pycore

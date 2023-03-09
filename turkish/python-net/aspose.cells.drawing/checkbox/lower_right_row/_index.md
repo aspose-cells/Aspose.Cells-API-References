@@ -11,7 +11,7 @@ is_root: false
 
 Sağ alt köşe satır dizinini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

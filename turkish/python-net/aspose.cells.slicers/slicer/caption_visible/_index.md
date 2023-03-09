@@ -12,7 +12,7 @@ is_root: false
 Dilimleyici Resim Yazısını görüntüleyen başlığın görünür olup olmadığını döndürür veya ayarlar
 varsayılan değer doğrudur
 
-###  Örnek
+###  örnekler
 
 ```python
 

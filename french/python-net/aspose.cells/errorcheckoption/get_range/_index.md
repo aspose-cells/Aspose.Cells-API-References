@@ -22,9 +22,9 @@ def get_range(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| index | int | l'indice de portée|
+| index | int | l'indice de gamme|
 
 
 

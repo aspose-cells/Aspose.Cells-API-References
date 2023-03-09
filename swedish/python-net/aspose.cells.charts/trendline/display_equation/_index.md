@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_equation fastighet
 
-Representerar om ekvationen för trendlinjen visas i diagrammet (i samma dataetikett som R-kvadratvärdet). Om du ställer in den här egenskapen till True aktiveras dataetiketter automatiskt.
+Representerar om ekvationen för trendlinjen visas i diagrammet (i samma dataetikett som R-kvadratvärdet).
 ###  Definition:
 ```python
 @property

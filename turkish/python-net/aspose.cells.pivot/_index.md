@@ -12,11 +12,11 @@ is_root: false
 ###  sınıflar
 | Sınıf| Tanım|
 | :- | :- |
-| [PivotField](/cells/tr/python-net/aspose.cells.pivot/pivotfield) | PivotTable raporundaki bir alanı temsil eder.|
+| [PivotField](/cells/tr/python-net/aspose.cells.pivot/pivotfield) |PivotTable raporundaki bir alanı temsil eder.|
 | [PivotFieldCollection](/cells/tr/python-net/aspose.cells.pivot/pivotfieldcollection) | Tüm PivotField nesnelerinin bir koleksiyonunu temsil eder<br/> PivotTable'ın özel PivotFields türünde.|
 | [PivotFilter](/cells/tr/python-net/aspose.cells.pivot/pivotfilter) | PivotFilter Koleksiyonunda bir PivotFilter'ı temsil eder.|
 | [PivotFilterCollection](/cells/tr/python-net/aspose.cells.pivot/pivotfiltercollection) | Tüm PivotFilter nesnelerinin bir koleksiyonunu temsil eder|
-| [PivotFormatCondition](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition) | PivotFormatCondition Koleksiyonunda bir PivotTable Format Koşulunu temsil eder.|
+| [PivotFormatCondition](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition) | PivotFormatCondition Collection'daki bir PivotTable Biçim Koşulu'nu temsil eder.|
 | [PivotFormatConditionCollection](/cells/tr/python-net/aspose.cells.pivot/pivotformatconditioncollection) | PivotTable Biçim Koşullarını temsil eder.|
 | [PivotItem](/cells/tr/python-net/aspose.cells.pivot/pivotitem) | PivotField raporundaki bir öğeyi temsil eder.|
 | [PivotItemCollection](/cells/tr/python-net/aspose.cells.pivot/pivotitemcollection) | PivotField'deki tüm PivotItem nesnelerinin bir koleksiyonunu temsil eder.|
@@ -27,16 +27,16 @@ is_root: false
 
 
 ###  Numaralandırmalar
-| numaralandırma| Tanım|
+|numaralandırma| Tanım|
 | :- | :- |
-| [PivotConditionFormatRuleType](/cells/tr/python-net/aspose.cells.pivot/pivotconditionformatruletype) |PivotTable koşul biçimlendirme kuralı türünü temsil eder.|
+| [PivotConditionFormatRuleType](/cells/tr/python-net/aspose.cells.pivot/pivotconditionformatruletype) | PivotTable koşul biçimlendirme kuralı türünü temsil eder.|
 | [PivotConditionFormatScopeType](/cells/tr/python-net/aspose.cells.pivot/pivotconditionformatscopetype) | PivotTable koşul biçimlendirme kapsamı türünü temsil eder.|
 | [PivotFieldDataDisplayFormat](/cells/tr/python-net/aspose.cells.pivot/pivotfielddatadisplayformat) | PivotTable veri alanındaki veri görüntüleme biçimini temsil eder.|
-| [PivotFieldSubtotalType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | PivotFieldSubtotalType için özet açıklama.|
+| [PivotFieldSubtotalType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |PivotFieldSubtotalType için özet açıklama.|
 | [PivotFieldType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldtype) | PivotTable alan türünü temsil eder.|
 | [PivotFilterType](/cells/tr/python-net/aspose.cells.pivot/pivotfiltertype) | PivotTable Filtre türünü temsil eder.|
 | [PivotGroupByType](/cells/tr/python-net/aspose.cells.pivot/pivotgroupbytype) | Türe göre PivotTable grubunu temsil eder.|
-| [PivotItemPosition](/cells/tr/python-net/aspose.cells.pivot/pivotitemposition) |Temel alandaki PivotTable temel öğesinin Sonraki/Önceki/Tüm konumunu temsil eder.|
+| [PivotItemPosition](/cells/tr/python-net/aspose.cells.pivot/pivotitemposition) | Temel alandaki PivotTable temel öğesinin Sonraki/Önceki/Tüm konumunu temsil eder.|
 | [PivotMissingItemLimitType](/cells/tr/python-net/aspose.cells.pivot/pivotmissingitemlimittype) | Alan başına tutulacak öğe sayısını temsil eder.|
 | [PivotTableAutoFormatType](/cells/tr/python-net/aspose.cells.pivot/pivottableautoformattype) | PivotTable otomatik biçim türünü temsil eder.|
 | [PivotTableStyleType](/cells/tr/python-net/aspose.cells.pivot/pivottablestyletype) | Pivot tablo stili türünü temsil eder.|

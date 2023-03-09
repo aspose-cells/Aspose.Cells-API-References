@@ -1,6 +1,6 @@
 ﻿---
 title: get_by_index方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -22,12 +22,12 @@ def get_by_index(self, index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | index | int |  |
 ### 评论
 
-注意：该成员现已过时。反而，
+注意：该成员现已过时。
 请使用 Columns.GetColumnByIndex() 方法。
 自 2010 年 6 月起 12 个月后，此属性将被删除。
 Aspose 对您可能遇到的任何不便深表歉意。

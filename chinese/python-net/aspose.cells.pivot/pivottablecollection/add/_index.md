@@ -1,6 +1,6 @@
 ﻿---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def add(self, source_data, dest_cell_name, table_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_data | str |新数据透视表缓存的数据。|
 | dest_cell_name | str |数据透视表目标区域左上角的单元格。|
@@ -44,7 +44,7 @@ def add(self, pivot_table, dest_cell_name, table_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/zh/python-net/aspose.cells.pivot/pivottable) |源数据透视表。|
 | dest_cell_name | str |数据透视表目标区域左上角的单元格。|
@@ -66,7 +66,7 @@ def add(self, source_data, dest_cell_name, table_name, use_same_source):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_data | str |新数据透视表缓存的数据。|
 | dest_cell_name | str |数据透视表目标区域左上角的单元格。|
@@ -89,7 +89,7 @@ def add(self, source_data, row, column, table_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_data | str |新数据透视表的数据单元格范围。示例：Sheet1!A1:C8|
 | row | int |数据透视表目标区域左上角单元格的行索引。|
@@ -112,7 +112,7 @@ def add(self, pivot_table, row, column, table_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/zh/python-net/aspose.cells.pivot/pivottable) |源数据透视表。|
 | row | int |数据透视表目标区域左上角单元格的行索引。|
@@ -135,7 +135,7 @@ def add(self, source_data, row, column, table_name, use_same_source):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_data | str |新数据透视表的数据单元格范围。示例：Sheet1!A1:C8|
 | row | int |数据透视表目标区域左上角单元格的行索引。|
@@ -159,10 +159,10 @@ def add(self, source_data, is_auto_page, page_fields, dest_cell_name, table_name
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| source_data | list |多个合并范围，如{"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| is_auto_page | bool |是否自动创建单页字段。<br/>如果为真，后面的参数 pageFields 将被忽略。|
+| source_data | list |多个合并范围，例如 {"Sheet1!A1:C8","Sheet2!A1:B8"} |
+| is_auto_page | bool |是否自动创建单页字段。<br/>如果为真，则将忽略以下参数 pageFields。|
 | page_fields | [PivotPageFields](/cells/zh/python-net/aspose.cells.pivot/pivotpagefields) |数据透视页字段项。|
 | dest_cell_name | str | destCellName 新数据透视表的名称。|
 | table_name | str |新数据透视表的名称。|
@@ -183,10 +183,10 @@ def add(self, source_data, is_auto_page, page_fields, row, column, table_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| source_data | list |多个合并范围，如{"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| is_auto_page | bool |是否自动创建单页字段。<br/>如果为真，后面的参数 pageFields 将被忽略|
+| source_data | list |多个合并范围，例如 {"Sheet1!A1:C8","Sheet2!A1:B8"} |
+| is_auto_page | bool |是否自动创建单页字段。<br/>如果为真，下面的参数 pageFields 将被忽略|
 | page_fields | [PivotPageFields](/cells/zh/python-net/aspose.cells.pivot/pivotpagefields) |数据透视页字段项。|
 | row | int |数据透视表目标区域左上角单元格的行索引。|
 | column | int |数据透视表目标区域左上角单元格的列索引。|

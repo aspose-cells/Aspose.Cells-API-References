@@ -1,6 +1,6 @@
 ﻿---
 title: text_to_display 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## text_to_display 属性
 
-表示要为指定超链接显示的文本。默认值是超链接的地址。
+表示要为指定超链接显示的文本。
 ### 定义：
 ```python
 @property

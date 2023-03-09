@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | AUTOMATIC | تلقائي|
-| OPAQUE | مبهمة|
+| OPAQUE |مبهمة|
 | TRANSPARENT | شفاف|
 
 

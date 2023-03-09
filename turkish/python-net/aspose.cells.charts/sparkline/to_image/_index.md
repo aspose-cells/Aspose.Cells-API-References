@@ -18,7 +18,7 @@ def to_image(self, file_name, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str | Görüntü dosyası adı.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | görüntü seçenekleri|
@@ -35,7 +35,7 @@ def to_image(self, stream, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Görüntü akışı.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Görüntü seçenekleri.|

@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce lo name della cache dello slicer.
 
-###  Esempio
+###  Esempi
 
 ```python
 

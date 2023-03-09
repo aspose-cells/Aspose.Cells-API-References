@@ -10,7 +10,7 @@ is_root: false
 ##  display_immediate_items mülk
 
 Satır ve sütun alanlarındaki öğelerin görünür olup olmadığını gösterir
-PivotTable'ın veri alanı boş olduğunda. Varsayılan değer doğrudur.
+PivotTable'ın veri alanı boş olduğunda.
 ###  Tanım:
 ```python
 @property

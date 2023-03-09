@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list الملكية
 
-الحصول على ما إذا كان يتم تمكين قائمة الحقول لجدول PivotTable أم لا.
+الحصول على ما إذا كان سيتم تمكين قائمة الحقول ل PivotTable أم لا.
 ###  تعريف:
 ```python
 @property

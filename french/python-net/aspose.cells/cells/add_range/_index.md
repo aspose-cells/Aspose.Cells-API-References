@@ -18,7 +18,7 @@ def add_range(self, range_object):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range_object | [Range](/cells/fr/python-net/aspose.cells/range) | L'objet range sera contenu dans les cellules|
 

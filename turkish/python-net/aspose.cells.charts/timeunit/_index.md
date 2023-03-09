@@ -17,7 +17,7 @@ TimeUnit türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| DAYS |gün|
+| DAYS | gün|
 | MONTHS | aylar|
 | YEARS | yıl|
 

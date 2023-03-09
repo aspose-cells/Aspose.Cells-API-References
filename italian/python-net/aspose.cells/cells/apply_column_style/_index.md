@@ -18,11 +18,11 @@ def apply_column_style(self, column, style, flag):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | L'indice di colonna.|
 | style | [Style](/cells/it/python-net/aspose.cells/style) | L'oggetto stile che verrà applicato.|
-| flag | [StyleFlag](/cells/it/python-net/aspose.cells/styleflag) | Flag che indicano le proprietà di formattazione applicate.|
+| flag | [StyleFlag](/cells/it/python-net/aspose.cells/styleflag) |Flag che indicano le proprietà di formattazione applicate.|
 
 
 

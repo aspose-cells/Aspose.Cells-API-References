@@ -25,7 +25,7 @@ def get_enumerator(self):
 ###  Anmärkningar
 
 När man korsar element av den returnerade Enumeratorn, samlas cellerna
-bör inte ändras (som operationer som kommer att göra att nya Cell/Row instansieras eller befintliga Cell/Row tas bort).
+bör inte ändras (som operationer som gör att nya Cell/Row instansieras eller befintliga Cell/Row tas bort).
 Annars kanske uppräknaren inte kan gå igenom alla celler korrekt (vissa element kan korsas upprepade gånger eller hoppas över).
 
 

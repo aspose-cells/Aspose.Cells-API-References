@@ -17,7 +17,7 @@ Le type Bevel expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [width](/cells/fr/python-net/aspose.cells.drawing/bevel/width) |Obtient et définit la largeur du biseau ou la distance à laquelle il est appliqué dans la forme.<br/> En unité de Points.|
+| [width](/cells/fr/python-net/aspose.cells.drawing/bevel/width) | Obtient et définit la largeur du biseau ou la distance à laquelle il est appliqué dans la forme.<br/> En unité de Points.|
 | [height](/cells/fr/python-net/aspose.cells.drawing/bevel/height) | Obtient et définit la hauteur du biseau, ou la distance au-dessus de la forme à laquelle il est appliqué.<br/> En unité de Points.|
 | [type](/cells/fr/python-net/aspose.cells.drawing/bevel/type) | Obtient et définit le type de biseau prédéfini.|
 

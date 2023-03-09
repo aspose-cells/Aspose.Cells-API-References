@@ -11,7 +11,7 @@ is_root: false
 
 Kategori ekseni için ana birim ölçeğini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

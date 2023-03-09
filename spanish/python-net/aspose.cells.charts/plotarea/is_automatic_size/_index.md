@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size propiedad
 
-Indica si el tamaño del área de trazado es automático.
+Indica si el tamaño del área de trazado se ajusta automáticamente.
 ###  Definición:
 ```python
 @property

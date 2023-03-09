@@ -18,10 +18,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | shared_formula | str | صيغة مشتركة.|
-| row_number | int | عدد الصفوف لتعبئة الصيغة.|
+| row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
 ###  ملاحظات
 
@@ -39,10 +39,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | shared_formula | str | صيغة مشتركة.|
-| row_number | int | عدد الصفوف لتعبئة الصيغة.|
+| row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
 | options | [FormulaParseOptions](/cells/ar/python-net/aspose.cells/formulaparseoptions) | خيارات لتحليل الصيغة.|
 
@@ -58,16 +58,16 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | shared_formula | str | صيغة مشتركة.|
-| row_number | int | عدد الصفوف لتعبئة الصيغة.|
+| row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
 | is_r1c1 | bool | ما إذا كانت الصيغة هي صيغة R1C1|
 | is_local | bool | ما إذا كانت الصيغة منسقة محليًا|
 ###  ملاحظات
 
-ملاحظة: هذه الفئة عفا عليها الزمن الآن. بدلاً من،
+ملاحظة: هذه الفئة عفا عليها الزمن الآن.
 الرجاء استخدام Cell.SetSharedFormula (سلسلة ، int ، int ، FormulaParseOptions).
 ستتم إزالة هذا العقار بعد 12 شهرًا منذ ديسمبر 2019.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
@@ -83,10 +83,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | shared_formula | str | صيغة مشتركة.|
-| row_number | int | عدد الصفوف لتعبئة الصيغة.|
+| row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
 | options | [FormulaParseOptions](/cells/ar/python-net/aspose.cells/formulaparseoptions) | خيارات لتحليل الصيغة.|
 | values | list | قيم تلك الخلايا مع صيغة مشتركة معينة|

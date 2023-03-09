@@ -18,7 +18,7 @@ def set_link(self, uri, name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | uri | str | Namnutrymmets URI för den smarta taggen.|
 | name | str | Namnet på smarttaggen.|

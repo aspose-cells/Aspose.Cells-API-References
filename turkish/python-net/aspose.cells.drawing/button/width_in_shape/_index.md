@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  width_in_shape mülk
 
-Ana şeklin 1/4000 biriminde şeklin genişliğini temsil eder.
+Ana şeklin 1/4000'lik birimlerinde şeklin genişliğini temsil eder.
 
 ###  Notlar
 
 Yalnızca bu şekil grup veya grafikte olduğunda geçerlidir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -16,7 +16,7 @@ automatiquement ou automatiquement sauf pour les opérations sur plusieurs table
 
 Seuls les ensembles pour MS Excel.
 Veuillez appeler manuellement la méthode Workbook.CalculateFormula() pour calculer les formules avec Aspose.Cells.
-REMARQUE : ce membre est désormais obsolète. Au lieu de cela, veuillez utiliser FormulaSettings.CalculationMode.
+REMARQUE : ce membre est désormais obsolète. Utilisez plutôt FormulaSettings.CalculationMode.
  Cette propriété sera supprimée 12 mois plus tard depuis février 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

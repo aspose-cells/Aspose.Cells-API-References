@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id Eigentum
 
-Ruft die ID des Anbieters ab.
+Ruft die Identität des Anbieters ab.
 ###  Definition:
 ```python
 @property

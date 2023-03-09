@@ -18,7 +18,7 @@ def replace(self, old_string, new_string):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | old_string | str | Gammalt strängvärde.|
 | new_string | str | Nytt strängvärde.|

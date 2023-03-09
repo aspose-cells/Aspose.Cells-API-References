@@ -21,11 +21,11 @@ RevisionType türü aşağıdaki üyeleri gösterir:
 | DEFINED_NAME | Tanımlı isim|
 | CHANGE_CELLS | Cells değiştir.|
 | AUTO_FORMAT | Otomatik biçim.|
-| MERGE_CONFLICT |Birleştirme çatışması.|
+| MERGE_CONFLICT | Birleştirme çatışması.|
 | COMMENT | Yorum.|
 | FORMAT | Biçim.|
 | INSERT_SHEET | Çalışma sayfası ekle.|
-| MOVE_CELLS | Hücreleri taşı.|
+| MOVE_CELLS |Hücreleri taşı.|
 | UNDO | Geri alma.|
 | QUERY_TABLE | Sorgu tablosu.|
 | INSERT_DELETE | Ekleme veya silme.|

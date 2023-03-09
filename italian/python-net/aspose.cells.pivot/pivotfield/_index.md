@@ -20,7 +20,7 @@ Il tipo PivotField espone i membri seguenti:
 | [pivot_items](/cells/it/python-net/aspose.cells.pivot/pivotfield/pivot_items) | Ottiene gli elementi pivot del campo pivot|
 | [range](/cells/it/python-net/aspose.cells.pivot/pivotfield/range) | Ottiene l'intervallo di gruppo del campo pivot|
 | [is_calculated_field](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_calculated_field) | Indica se il campo della tabella pivot specificato è un campo calcolato.|
-| [base_index](/cells/it/python-net/aspose.cells.pivot/pivotfield/base_index) |Rappresenta l'indice PivotField nei PivotField di base.|
+| [base_index](/cells/it/python-net/aspose.cells.pivot/pivotfield/base_index) | Rappresenta l'indice PivotField nei PivotField di base.|
 | [position](/cells/it/python-net/aspose.cells.pivot/pivotfield/position) | Rappresenta l'indice PivotField nei PivotFields.|
 | [name](/cells/it/python-net/aspose.cells.pivot/pivotfield/name) | Rappresenta il nome del campo pivot.|
 | [display_name](/cells/it/python-net/aspose.cells.pivot/pivotfield/display_name) | Rappresenta il nome visualizzato di PivotField.|
@@ -29,10 +29,10 @@ Il tipo PivotField espone i membri seguenti:
 | [drag_to_hide](/cells/it/python-net/aspose.cells.pivot/pivotfield/drag_to_hide) | Indica se il campo specificato può essere trascinato nella posizione nascosta.<br/> Il valore predefinito è true.|
 | [drag_to_row](/cells/it/python-net/aspose.cells.pivot/pivotfield/drag_to_row) | Indica se il campo specificato può essere trascinato nella posizione della riga.<br/> Il valore predefinito è true.|
 | [drag_to_page](/cells/it/python-net/aspose.cells.pivot/pivotfield/drag_to_page) | Indica se il campo specificato può essere trascinato nella posizione della pagina.<br/> Il valore predefinito è true.|
-| [drag_to_data](/cells/it/python-net/aspose.cells.pivot/pivotfield/drag_to_data) | Indica se il campo specificato può essere trascinato nella posizione dei dati.<br/> Il valore predefinito è true.|
+| [drag_to_data](/cells/it/python-net/aspose.cells.pivot/pivotfield/drag_to_data) |Indica se il campo specificato può essere trascinato nella posizione dei dati.<br/> Il valore predefinito è true.|
 | [is_multiple_item_selection_allowed](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_multiple_item_selection_allowed) | indica se il campo può avere più elementi<br/>selezionato nel campo della pagina<br/> Il valore predefinito è falso.|
 | [is_repeat_item_labels](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_repeat_item_labels) | indica se il campo può ripetere le etichette degli elementi<br/> Il valore predefinito è falso.|
-| [is_include_new_items_in_filter](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_include_new_items_in_filter) |indica se il campo può includere nuovi elementi nel filtro manuale<br/> Il valore predefinito è falso.|
+| [is_include_new_items_in_filter](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_include_new_items_in_filter) | indica se il campo può includere nuovi elementi nel filtro manuale<br/> Il valore predefinito è falso.|
 | [is_insert_page_breaks_between_items](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_insert_page_breaks_between_items) | indica se il campo può inserire interruzioni di pagina tra gli elementi<br/>inserire un'interruzione di pagina dopo ogni elemento<br/> Il valore predefinito è falso.|
 | [show_all_items](/cells/it/python-net/aspose.cells.pivot/pivotfield/show_all_items) | Indica se vengono visualizzati tutti gli elementi nel rapporto di tabella pivot,<br/>anche se non contengono dati di sintesi.<br/>mostra elementi senza dati<br/> Il valore predefinito è falso.|
 | [non_auto_sort_default](/cells/it/python-net/aspose.cells.pivot/pivotfield/non_auto_sort_default) | Indica se un'operazione di ordinamento che verrà applicata a questo campo pivot è un'operazione di ordinamento automatico o un semplice ordinamento dei dati.|
@@ -41,8 +41,8 @@ Il tipo PivotField espone i membri seguenti:
 | [auto_sort_field](/cells/it/python-net/aspose.cells.pivot/pivotfield/auto_sort_field) | Rappresenta l'indice del campo di ordinamento automatico.<br/> -1 indica PivotField stesso, altri indica la posizione dei campi dati.|
 | [is_auto_show](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_auto_show) | Indica se il campo della tabella pivot specificato viene visualizzato automaticamente, valido solo per excel 2003.|
 | [is_ascend_show](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_ascend_show) | Indica se il campo della tabella pivot specificato viene visualizzato automaticamente in ordine crescente.|
-| [auto_show_count](/cells/it/python-net/aspose.cells.pivot/pivotfield/auto_show_count) | Rappresenta il numero di elementi superiori o inferiori<br/> che vengono mostrati automaticamente nel campo della tabella pivot specificato.|
-| [auto_show_field](/cells/it/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Rappresenta l'indice del campo di visualizzazione automatica. -1 significa PivotField stesso.<br/> Dovrebbe essere l'indice dei campi dati.|
+| [auto_show_count](/cells/it/python-net/aspose.cells.pivot/pivotfield/auto_show_count) |Rappresenta il numero di elementi superiori o inferiori<br/> che vengono mostrati automaticamente nel campo della tabella pivot specificato.|
+| [auto_show_field](/cells/it/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Rappresenta l'indice del campo di visualizzazione automatica. -1 indica il PivotField stesso.<br/> Dovrebbe essere l'indice dei campi dati.|
 | [function](/cells/it/python-net/aspose.cells.pivot/pivotfield/function) | Rappresenta la funzione utilizzata per riepilogare il campo dati della tabella pivot.|
 | [data_display_format](/cells/it/python-net/aspose.cells.pivot/pivotfield/data_display_format) | Rappresenta come visualizzare i valori contenuti in un campo dati.|
 | [base_field_index](/cells/it/python-net/aspose.cells.pivot/pivotfield/base_field_index) | Rappresenta il campo base per un calcolo personalizzato.|
@@ -51,12 +51,12 @@ Il tipo PivotField espone i membri seguenti:
 | [current_page_item](/cells/it/python-net/aspose.cells.pivot/pivotfield/current_page_item) | Rappresenta l'elemento della pagina corrente visualizzato per il campo pagina (valido solo per i campi pagina).|
 | [number](/cells/it/python-net/aspose.cells.pivot/pivotfield/number) | Rappresenta il formato di visualizzazione predefinito di numeri e date.|
 | [insert_blank_row](/cells/it/python-net/aspose.cells.pivot/pivotfield/insert_blank_row) | Indica se inserire una riga vuota dopo ogni voce.|
-| [show_subtotal_at_top](/cells/it/python-net/aspose.cells.pivot/pivotfield/show_subtotal_at_top) |quando ShowInOutlineForm è vero, visualizza i subtotali in cima all'elenco di elementi invece che in fondo|
+| [show_subtotal_at_top](/cells/it/python-net/aspose.cells.pivot/pivotfield/show_subtotal_at_top) | quando ShowInOutlineForm è vero, visualizza i subtotali in cima all'elenco di elementi invece che in fondo|
 | [show_in_outline_form](/cells/it/python-net/aspose.cells.pivot/pivotfield/show_in_outline_form) | Indica se il layout di questo campo è strutturato nella vista Tabella pivot|
-| [number_format](/cells/it/python-net/aspose.cells.pivot/pivotfield/number_format) | Rappresenta il formato di visualizzazione personalizzato di numeri e date.|
+| [number_format](/cells/it/python-net/aspose.cells.pivot/pivotfield/number_format) |Rappresenta il formato di visualizzazione personalizzato di numeri e date.|
 | [items](/cells/it/python-net/aspose.cells.pivot/pivotfield/items) | Ottieni tutti gli oggetti di base;|
 | [original_items](/cells/it/python-net/aspose.cells.pivot/pivotfield/original_items) | Ottieni gli oggetti di base originali;|
-| [item_count](/cells/it/python-net/aspose.cells.pivot/pivotfield/item_count) |Ottiene il numero di elementi di base di questo campo pivot.|
+| [item_count](/cells/it/python-net/aspose.cells.pivot/pivotfield/item_count) | Ottiene il numero di elementi di base di questo campo pivot.|
 | [show_compact](/cells/it/python-net/aspose.cells.pivot/pivotfield/show_compact) | Indica se visualizzare le etichette del campo successivo nella stessa colonna nella vista Tabella pivot|
 
 
@@ -71,15 +71,15 @@ Il tipo PivotField espone i membri seguenti:
 | [get_calculated_field_formula()](/cells/it/python-net/aspose.cells.pivot/pivotfield/get_calculated_field_formula/#) | Ottenere la stringa della formula del campo calcolato specificato.|
 | [set_subtotals(subtotal_type, shown)](/cells/it/python-net/aspose.cells.pivot/pivotfield/set_subtotals/#PivotFieldSubtotalType-bool) | Imposta se il campo specificato mostra i subtotali.|
 | [get_subtotals(subtotal_type)](/cells/it/python-net/aspose.cells.pivot/pivotfield/get_subtotals/#PivotFieldSubtotalType) | Ottiene se il campo specificato mostra i subtotali.|
-| [is_hidden_item(index)](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_hidden_item/#int) |Indica se il PivotItem specifico è nascosto.|
+| [is_hidden_item(index)](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_hidden_item/#int) | Indica se il PivotItem specifico è nascosto.|
 | [is_hidden_item_detail(index)](/cells/it/python-net/aspose.cells.pivot/pivotfield/is_hidden_item_detail/#int) | Indica se il PivotItem specifico è un dettaglio nascosto.|
 | [hide_item_detail(index, is_hidden_detail)](/cells/it/python-net/aspose.cells.pivot/pivotfield/hide_item_detail/#int-bool) | Imposta se il PivotItem specifico in un campo pivot è un dettaglio nascosto.|
 | [hide_detail(is_hidden_detail)](/cells/it/python-net/aspose.cells.pivot/pivotfield/hide_detail/#bool) | Imposta se i PivotItems in un campo pivot sono dettagli nascosti. Questo è comprimere/espandere questo campo.|
-| [add_calculated_item(name, formula)](/cells/it/python-net/aspose.cells.pivot/pivotfield/add_calculated_item/#str-str) | Aggiungi un elemento calcolato al campo pivot.|
+| [add_calculated_item(name, formula)](/cells/it/python-net/aspose.cells.pivot/pivotfield/add_calculated_item/#str-str) |Aggiungi un elemento calcolato al campo pivot.|
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

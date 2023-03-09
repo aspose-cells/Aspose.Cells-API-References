@@ -24,7 +24,7 @@ def has_exernal_links(self):
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie ExternalLinkCollection.Count, um zu prüfen, ob diese Arbeitsmappe externe Links enthält.
  Diese Methode wird 12 Monate später seit Dezember 2021 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

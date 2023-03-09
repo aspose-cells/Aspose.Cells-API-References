@@ -22,17 +22,17 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| type | [MsoDrawingType](/cells/ru/python-net/aspose.cells.drawing/msodrawingtype) | Тип формы.|
-| top | int |Представляет вертикальное смещение фигуры от верхней строки рабочего листа в единицах пикселя.|
-| left | int | Представляет горизонтальное смещение фигуры от левого столбца рабочего листа в пикселях.|
+| type | [MsoDrawingType](/cells/ru/python-net/aspose.cells.drawing/msodrawingtype) | Тип фигуры.|
+| top | int | Представляет вертикальное смещение фигуры от верхней строки рабочего листа в единицах пикселя.|
+| left | int |Представляет горизонтальное смещение фигуры от левого столбца рабочего листа в пикселях.|
 | height | int | Представляет высоту LineShape в пикселях.|
 | width | int | Представляет ширину LineShape в пикселях.|
-| image_data | bytes | Данные изображения относятся только к изображению.|
+| image_data | bytes | Данные изображения применимы только к изображению.|
 | is_original_size | bool | Использует ли фигура исходный размер, если фигура является изображением.|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose import pycore

@@ -1,13 +1,13 @@
 ﻿---
 title: ExceptionType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2020
 url: /zh/python-net/aspose.cells/exceptiontype/
 is_root: false
 ---
-##  ExceptionType枚举
+## ExceptionType枚举
 表示自定义异常类型代码。
 
 

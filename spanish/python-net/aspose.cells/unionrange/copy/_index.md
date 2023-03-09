@@ -18,7 +18,7 @@ def copy(self, range, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range | [UnionRange](/cells/es/python-net/aspose.cells/unionrange) | El rango de la fuente.|
 | options | [PasteOptions](/cells/es/python-net/aspose.cells/pasteoptions) | Las opciones especiales de pegado.|

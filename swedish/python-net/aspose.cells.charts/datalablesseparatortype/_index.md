@@ -21,7 +21,7 @@ Typen DataLablesSeparatorType avslöjar följande medlemmar:
 | SPACE | Representerar mellanslag(" ")|
 | COMMA | Representerar komma(",")|
 | SEMICOLON | Representerar semikolon(";")|
-| PERIOD | Representerar period(".")|
+| PERIOD |Representerar period(".")|
 | NEW_LINE | Representerar nyrad("\n")|
 | CUSTOM | Representerar anpassad separator|
 
@@ -29,9 +29,9 @@ Typen DataLablesSeparatorType avslöjar följande medlemmar:
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
 använd DataLabelsSeparatorType enum.
-Den här egenskapen kommer att tas bort 12 månader senare sedan september 2020.
+ Den här egenskapen kommer att tas bort 12 månader senare sedan september 2020.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 
 ###  Se även

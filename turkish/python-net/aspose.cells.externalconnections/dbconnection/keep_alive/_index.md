@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  keep_alive mülk
 
-Elektronik tablo uygulamasının bağlantıyı sürdürmek için çaba göstermesi gerektiğinde doğrudur
- açık. Yanlış olduğunda, uygulama, bağlantıyı aldıktan sonra bağlantıyı kapatmalıdır.
+ Elektronik tablo uygulamasının bağlantıyı sürdürmek için çaba göstermesi gerektiğinde doğrudur
+false olduğunda, uygulama bağlantıyı aldıktan sonra bağlantıyı kapatmalıdır.
 bilgi.
 ###  Tanım:
 ```python

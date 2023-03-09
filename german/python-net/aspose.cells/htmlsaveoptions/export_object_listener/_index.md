@@ -13,7 +13,7 @@ Ruft den ExportObjectListener zum Exportieren von Objekten ab oder legt diesen f
 
 ###  Bemerkungen
 
- HINWEIS: Diese Eigenschaft ist jetzt veraltet. Stattdessen,
+ HINWEIS: Diese Eigenschaft ist jetzt veraltet.
 Bitte verwenden Sie die HtmlSaveOptions.IStreamProvider-Eigenschaft.
  Diese Eigenschaft wird 12 Monate später seit August 2015 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

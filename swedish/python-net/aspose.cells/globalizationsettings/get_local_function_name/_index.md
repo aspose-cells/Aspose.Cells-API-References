@@ -13,7 +13,7 @@ Hämtar det språkberoende funktionsnamnet enligt givet standardfunktionsnamn.
 
 ###  Returnerar
 
-Platsberoende funktionsnamn. Lokalen specificerades av arbetsboken för vilken de här inställningarna används.
+Platsberoende funktionsnamn.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_local_function_name(self, standard_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| standard_name | str | Standard(en-US locale) funktionsnamn.|
+| standard_name | str | Standardfunktionsnamn (en-US locale).|
 
 
 

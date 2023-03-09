@@ -13,7 +13,7 @@ Ruft die Daten ab, die in der durch index angegebenen Spalte gespeichert sind.
 ###  Indexierer
 | Name| Beschreibung|
 | :- | :- |
-| index |Der nullbasierte Index der Spalte.|
+| index | Der nullbasierte Index der Spalte.|
 
 
 

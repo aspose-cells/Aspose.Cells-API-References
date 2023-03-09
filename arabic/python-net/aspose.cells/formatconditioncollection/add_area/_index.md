@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-فهرس رن الخلية المنسق الشرطي.
+فهرس نطاق الخلية المنسق شرطيًا.
 
 
 ```python
@@ -22,9 +22,9 @@ def add_area(self, cell_area):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | نطاق الخلايا المنسق الشرطي.|
+| cell_area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) |نطاق الخلايا المنسق شرطيًا.|
 
 
 

@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cell/get_format_conditions/
 is_root: false
 ---
 ##  get_format_conditions() {#}
-Bu hücre için geçerli olan biçim koşullarını alır.
+Bu hücreye uygulanan biçim koşullarını alır.
 
 
 ###  İadeler

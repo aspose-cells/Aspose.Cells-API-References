@@ -18,7 +18,7 @@ Typen SlicerCacheItem avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [selected](/cells/sv/python-net/aspose.cells.slicers/slicercacheitem/selected) | Anger om SlicerItem är vald eller inte.|
-| [value](/cells/sv/python-net/aspose.cells.slicers/slicercacheitem/value) |Returnerar etiketttexten för utsnittsobjektet. Skrivskyddad.|
+| [value](/cells/sv/python-net/aspose.cells.slicers/slicercacheitem/value) | Returnerar etiketttexten för utsnittsobjektet.|
 
 
 

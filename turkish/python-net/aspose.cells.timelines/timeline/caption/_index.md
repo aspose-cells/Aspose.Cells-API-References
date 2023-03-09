@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen Zaman Çizelgesi'nin caption'ini döndürür veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

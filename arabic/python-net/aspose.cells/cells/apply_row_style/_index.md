@@ -18,11 +18,11 @@ def apply_row_style(self, row, style, flag):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | كائن النمط الذي سيتم تطبيقه.|
-| flag | [StyleFlag](/cells/ar/python-net/aspose.cells/styleflag) | علامات تشير إلى خصائص التنسيق المطبقة.|
+| flag | [StyleFlag](/cells/ar/python-net/aspose.cells/styleflag) |العلامات التي تشير إلى خصائص التنسيق المطبقة.|
 
 
 

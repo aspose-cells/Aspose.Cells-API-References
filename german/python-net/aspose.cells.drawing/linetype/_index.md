@@ -18,7 +18,7 @@ Der Typ LineType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | DARK_GRAY | Stellt eine dunkelgraue Linie dar.|
-| DASH |Stellen Sie eine gestrichelte Linie dar.|
+| DASH | Stellen Sie eine gestrichelte Linie dar.|
 | DASH_DOT | Stellt eine Strichpunktlinie dar|
 | DASH_DOT_DOT | Stellt eine Strich-Punkt-Punkt-Linie dar.|
 | DOT | Stellt eine gepunktete Linie dar.|

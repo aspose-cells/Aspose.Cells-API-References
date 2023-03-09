@@ -19,7 +19,7 @@ PageLayoutAlignmentType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | BOTTOM | Alt sayfa düzeni hizalamasını temsil eder.|
 | CENTER | Merkez sayfa düzeni hizalamasını temsil eder.|
-| LEFT | Sol sayfa düzeni hizalamasını temsil eder.|
+| LEFT |Sol sayfa düzeni hizalamasını temsil eder.|
 | RIGHT | Sağ sayfa düzeni hizalamasını temsil eder.|
 | TOP | Üst sayfa düzeni hizalamasını temsil eder.|
 

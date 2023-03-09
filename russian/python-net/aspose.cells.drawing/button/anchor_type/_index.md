@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает заполнитель привязки формы.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

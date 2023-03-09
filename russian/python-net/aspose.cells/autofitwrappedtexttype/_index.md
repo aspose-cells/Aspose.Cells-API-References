@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/autofitwrappedtexttype/
 is_root: false
 ---
 ##  AutoFitWrappedTextType перечисление
-Представляет тип автоподбора обернутого текста.
+Представляет тип автоподгонки обернутого текста.
 
 
 

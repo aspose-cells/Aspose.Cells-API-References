@@ -35,10 +35,10 @@ is_root: false
 | [font_size](/cells/ru/python-net/aspose.cells/styleflag/font_size) | Будет применена настройка размера шрифта.|
 | [font_name](/cells/ru/python-net/aspose.cells/styleflag/font_name) | Будет применена настройка имени шрифта.|
 | [font_color](/cells/ru/python-net/aspose.cells/styleflag/font_color) | Будет применена настройка цвета шрифта.|
-| [font_bold](/cells/ru/python-net/aspose.cells/styleflag/font_bold) |Будет применена настройка полужирного шрифта.|
+| [font_bold](/cells/ru/python-net/aspose.cells/styleflag/font_bold) | Будет применена настройка полужирного шрифта.|
 | [font_italic](/cells/ru/python-net/aspose.cells/styleflag/font_italic) | Будет применен курсив шрифта.|
 | [font_underline](/cells/ru/python-net/aspose.cells/styleflag/font_underline) | Будет применена настройка подчеркивания шрифта.|
-| [font_strike](/cells/ru/python-net/aspose.cells/styleflag/font_strike) | Будет применена настройка зачеркивания шрифта.|
+| [font_strike](/cells/ru/python-net/aspose.cells/styleflag/font_strike) |Будет применена настройка зачеркивания шрифта.|
 | [font_script](/cells/ru/python-net/aspose.cells/styleflag/font_script) | Будет применена настройка скрипта шрифта.|
 | [number_format](/cells/ru/python-net/aspose.cells/styleflag/number_format) | Будет применена настройка числового формата.|
 | [alignments](/cells/ru/python-net/aspose.cells/styleflag/alignments) | Настройка выравнивания будет применена.|

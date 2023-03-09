@@ -18,15 +18,15 @@ Der Typ ConnectionDataSourceType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | ODBC_BASED_SOURCE | ODBC-basierte Quelle|
-| DAO_BASED_SOURCE | DAO-basierte Quelle|
+| DAO_BASED_SOURCE | DAO-basierte Quellen|
 | FILE_BASED_DATA_BASE_SOURCE | Dateibasierte Datenbankquelle|
-| WEB_QUERY | Web-Abfrage|
-| OLEDB_BASED_SOURCE | OLE DB-basierte Quelle|
+| WEB_QUERY | Webabfragen|
+| OLEDB_BASED_SOURCE | OLE DB-basierte Quellen|
 | TEXT_BASED_SOURCE | Textbasierte Quelle|
 | ADO_RECORD_SET | ADO-Rekordsatz|
 | DSP | DSP |
 | OLEDB_DATA_MODEL | OLE DB-Datenquelle, die vom Spreadsheet Data Model erstellt wurde.|
-| DATA_FEED_DATA_MODEL | Vom Spreadsheet-Datenmodell erstellte Datenfeed-Datenquelle.|
+| DATA_FEED_DATA_MODEL |Vom Spreadsheet-Datenmodell erstellte Datenfeed-Datenquelle.|
 | WORKSHEET_DATA_MODEL | Arbeitsblatt-Datenquelle, die vom Spreadsheet-Datenmodell erstellt wurde.|
 | TABLE | Arbeitsblatt-Datenquelle, die vom Spreadsheet-Datenmodell erstellt wurde.|
 | TEXT_DATA_MODEL | Vom Spreadsheet Data Model erstellte Textdatenquelle.|

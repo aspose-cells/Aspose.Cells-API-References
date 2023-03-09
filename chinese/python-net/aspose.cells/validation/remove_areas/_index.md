@@ -1,6 +1,6 @@
 ﻿---
 title: remove_areas方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
@@ -18,7 +18,7 @@ def remove_areas(self, areas):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | areas | list |应删除此验证设置的区域。|
 

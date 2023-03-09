@@ -22,12 +22,12 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | is_first | bool | İlk sayfa üst bilgi/alt bilgi resminin ayarlanıp ayarlanmadığını gösterir.|
 | is_even | bool | Çift sayfa üst bilgi/alt bilgi resminin ayarlanıp ayarlanmadığını gösterir.|
 | is_header | bool | Üstbilgi/altbilgi resminin ayarlanıp ayarlanmadığını gösterir.|
-| section | int |0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
+| section | int | 0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
 | image_data | bytes | Görüntü verileri.|
 
 

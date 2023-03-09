@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_formula fastighet
 
-Anger om formeln exporteras när filen sparas till html. Standardvärdet är sant.
+Anger om formeln exporteras när filen sparas till html.
 Om du vill importera utdata-html till excel, behåll standardvärdet.
 ###  Definition:
 ```python

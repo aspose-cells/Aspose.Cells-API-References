@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_qualifier fastighet
 
-Anger textkvalificeraren för cellvärden. Standardkvalificeraren är '''.
+Anger textkvalificeraren för cellvärden. Standardkvalificeraren är '"'.
 
 ###  Anmärkningar
 

@@ -10,14 +10,14 @@ is_root: false
 ##  always_quoted mülk
 
 Her alan için her zaman ''' eklenip eklenmeyeceğini belirtir.
-true ise, tüm değerler alıntılanacaktır;
+Doğruysa, tüm değerler alıntılanacaktır;
 false ise, değerler yalnızca gerektiğinde alıntılanır (örneğin,
 değerler '"' , '\n' veya ayırıcı karakter gibi özel karakterler içerdiğinde).
 Varsayılan yanlıştır.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
 lütfen bunun yerine QuoteType özelliğini kullanın.
  Bu mülk, Ağustos 2012'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

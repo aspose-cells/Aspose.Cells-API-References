@@ -31,7 +31,7 @@ def __init__(self, save_as_image):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | save_as_image | bool | True ise, çalışma kitabı .pptx dosyasının bazı resimlerine dönüştürülecektir.<br/> Yanlış ise, çalışma kitabı .pptx dosyasının bazı tablolarına dönüştürülür.|
 

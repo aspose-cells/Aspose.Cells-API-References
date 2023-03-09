@@ -1,5 +1,5 @@
 ﻿---
-title: ShapePath sınıf
+title: ShapePath sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 570
 url: /tr/python-net/aspose.cells.drawing/shapepath/
 is_root: false
 ---
-##  ShapePath sınıf
+##  ShapePath sınıfı
 Birleştirildiğinde geometrik bir şekil oluşturacak bir dizi hareket, çizgi ve eğriden oluşan bir oluşturma yolunu temsil eder.
 
 

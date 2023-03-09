@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
 | [XAdESType](/cells/de/python-net/aspose.cells.digitalsignatures/xadestype) | Art der erweiterten elektronischen XML-Signatur (XAdES).|
 

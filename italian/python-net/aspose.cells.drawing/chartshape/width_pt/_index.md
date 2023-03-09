@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_pt proprietà
 
-Rappresenta la larghezza della forma, in unità di punto.
+Rappresenta la larghezza della forma, in unità di punti.
 
-###  Esempio
+###  Esempi
 
 ```python
 

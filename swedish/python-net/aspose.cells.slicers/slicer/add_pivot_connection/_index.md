@@ -18,7 +18,7 @@ def add_pivot_connection(self, pivot):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | PivotTable-objektet|
 

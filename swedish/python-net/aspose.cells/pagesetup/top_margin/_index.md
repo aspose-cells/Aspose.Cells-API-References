@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin fastighet
 
-Representerar storleken på den övre marginalen, i centimeterenhet.
+Representerar storleken på den övre marginalen, i enheter av centimeter.
 ###  Definition:
 ```python
 @property

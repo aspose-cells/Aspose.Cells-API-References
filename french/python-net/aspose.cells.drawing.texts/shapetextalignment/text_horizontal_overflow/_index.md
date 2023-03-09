@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type de débordement horizontal du texte de la zone de texte.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import TextOverflowType

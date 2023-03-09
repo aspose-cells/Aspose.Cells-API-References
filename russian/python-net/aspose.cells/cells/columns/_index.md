@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  columns недвижимость
 
-Получает коллекцию объектов [Column](/cells/ru/python-net/aspose.cells/column), представляющих индивидуума columns на этом листе.
+Получает коллекцию из [Column](/cells/ru/python-net/aspose.cells/column) объектов, представляющих индивидуума columns на этом листе.
 ###  Определение:
 ```python
 @property

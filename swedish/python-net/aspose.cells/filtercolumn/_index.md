@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/filtercolumn/
 is_root: false
 ---
 ##  FilterColumn klass
-Representerar ett filter för en enda kolumn. Filterobjektet är en medlem av filtersamlingen
+Representerar ett filter för en enda kolumn.
 
 
 
@@ -20,7 +20,7 @@ Typen FilterColumn avslöjar följande medlemmar:
 | [is_dropdown_visible](/cells/sv/python-net/aspose.cells/filtercolumn/is_dropdown_visible) | Indikerar om AutoFilter-knappen för denna kolumn är synlig.|
 | [visibledropdown](/cells/sv/python-net/aspose.cells/filtercolumn/visibledropdown) | Indikerar om AutoFilter-knappen för denna kolumn är synlig.|
 | [filter](/cells/sv/python-net/aspose.cells/filtercolumn/filter) | Hämtar och ställer in villkoret för filtrering av data.|
-| [filter_type](/cells/sv/python-net/aspose.cells/filtercolumn/filter_type) | Hämtar och ställer in typen för filtreringsdata.|
+| [filter_type](/cells/sv/python-net/aspose.cells/filtercolumn/filter_type) | Hämtar och ställer in typen för filtrering av data.|
 | [field_index](/cells/sv/python-net/aspose.cells/filtercolumn/field_index) | Hämtar och ställer in kolumnoffset i intervallet.|
 
 

@@ -87,7 +87,7 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | printer_name | str | der Name des Druckers, zum Beispiel: "Microsoft Office Document Image Writer"|
-| print_page_index | int |Der 0-basierte Index der ersten zu druckenden Seite muss im Bereich [0, SheetRender.PageCount-1] liegen.|
+| print_page_index | int | Der 0-basierte Index der ersten zu druckenden Seite muss im Bereich [0, SheetRender.PageCount-1] liegen.|
 | print_page_count | int | die Anzahl der zu druckenden Seiten, muss größer als Null sein|
 ###  Bemerkungen
 

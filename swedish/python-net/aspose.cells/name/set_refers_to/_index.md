@@ -18,10 +18,10 @@ def set_refers_to(self, refers_to, is_r1c1, is_local):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | refers_to | str | Referensen.|
-| is_r1c1 | bool | Om referensen är R1C1-format.|
+| is_r1c1 | bool |Om referensen är R1C1-format.|
 | is_local | bool | Om referensen är språkformaterad.|
 
 

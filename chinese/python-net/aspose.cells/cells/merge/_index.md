@@ -1,6 +1,6 @@
 ﻿---
 title: merge方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 790
@@ -18,11 +18,11 @@ def merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | first_row | int |此范围的第一行（从零开始）|
 | first_column | int |此范围的第一列（从零开始）|
-| total_rows | int |行数（以一为基础）|
+| total_rows | int |行数（基于一）|
 | total_columns | int |列数（基于一个）|
 ### 评论
 
@@ -40,11 +40,11 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | first_row | int |此范围的第一行（从零开始）|
 | first_column | int |此范围的第一列（从零开始）|
-| total_rows | int |行数（以一为基础）|
+| total_rows | int |行数（基于一）|
 | total_columns | int |列数（基于一个）|
 | merge_conflict | bool |合并冲突合并范围。|
 ### 评论
@@ -64,11 +64,11 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | first_row | int |此范围的第一行（从零开始）|
 | first_column | int |此范围的第一列（从零开始）|
-| total_rows | int |行数（以一为基础）|
+| total_rows | int |行数（基于一）|
 | total_columns | int |列数（基于一个）|
 | check_conflict | bool |指示检查合并单元格是否与其他合并单元格相交|
 | merge_conflict | bool |合并冲突合并范围。|

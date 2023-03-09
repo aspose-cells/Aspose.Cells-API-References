@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings propriété
 
-Obtient les ConditionalFormattings dans la feuille de calcul.
+Obtient la mise en forme conditionnelle dans la feuille de calcul.
 ###  Définition:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع اتجاه النص للتعليق وتعيينه.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import TextOrientationType

@@ -41,7 +41,7 @@ def sort(self, cells, area):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cells | [Cells](/cells/sv/python-net/aspose.cells/cells) | Cellerna innehåller dataområdet.|
 | area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Området som behövs för att sortera|
@@ -63,7 +63,7 @@ def sort(self, cells, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cells | [Cells](/cells/sv/python-net/aspose.cells/cells) | Cellerna innehåller dataområdet.|
 | start_row | int | Områdets startrad.|

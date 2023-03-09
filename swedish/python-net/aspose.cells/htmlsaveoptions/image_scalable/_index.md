@@ -10,7 +10,7 @@ is_root: false
 ##  image_scalable fastighet
 
 Anger om skalbar enhet används för att beskriva bildens bredd
-när du använder skalbar enhet för att beskriva kolumnbredden.
+när du använder skalbara enheter för att beskriva kolumnbredden.
 Standardvärdet är sant.
 ###  Definition:
 ```python

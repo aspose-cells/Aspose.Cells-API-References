@@ -37,7 +37,7 @@ def insert_column(self, column_index, update_reference):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | column_index | int | Spaltenindex.|
-| update_reference | bool | Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
+| update_reference | bool |Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
 
 
 

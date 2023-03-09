@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name الملكية
 
-يحدد name للاتصال. يجب أن يكون لكل اتصال name فريدًا.
+يحدد name للاتصال.
 ###  تعريف:
 ```python
 @property

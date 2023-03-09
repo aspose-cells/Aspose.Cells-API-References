@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/htmlloadoptions/__init__/
 is_root: false
 ---
 ##  HtmlLoadOptions() {#}
-Erstellt Optionen zum Laden der Datei.
+Erstellt eine Option zum Laden der Datei.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlLoadOptions(load_format) {#LoadFormat}
-Erstellt Optionen zum Laden der Datei.
+Erstellt eine Option zum Laden der Datei.
 
 
 

@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  PrintErrorsType uppräkning
-Representerar konstanter för utskriftsfel.
+Representerar utskriftsfelskonstanter.
 
 
 
@@ -19,7 +19,7 @@ Typen PrintErrorsType avslöjar följande medlemmar:
 | :- | :- |
 | PRINT_ERRORS_BLANK | Representerar att inte tryckfel.|
 | PRINT_ERRORS_DASH | Representerar utskriftsfel som "--".|
-| PRINT_ERRORS_DISPLAYED |Representerar utskriftsfel som visas.|
+| PRINT_ERRORS_DISPLAYED | Representerar utskriftsfel som visas.|
 | PRINT_ERRORS_NA | Representerar utskriftsfel som "#N/A".|
 
 

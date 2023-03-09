@@ -23,7 +23,7 @@ El tipo ShapeTextAlignment expone los siguientes miembros:
 | [text_horizontal_overflow](/cells/es/python-net/aspose.cells.drawing.texts/shapetextalignment/text_horizontal_overflow) | Obtiene y establece el tipo de desbordamiento horizontal de texto del cuadro de texto.|
 | [rotation_angle](/cells/es/python-net/aspose.cells.drawing.texts/shapetextalignment/rotation_angle) | Obtiene y establece la rotación de la forma.|
 | [text_vertical_type](/cells/es/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) | Obtiene y establece la dirección del texto.|
-| [auto_size](/cells/es/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) | Indica si el tamaño de la forma se ajusta automáticamente según su contenido.|
+| [auto_size](/cells/es/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |Indica si el tamaño de la forma se ajusta automáticamente según su contenido.|
 | [text_shape_type](/cells/es/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | Obtiene y establece el tipo de transformación del texto.|
 | [top_margin_pt](/cells/es/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Devuelve el margen superior en unidades de Puntos|
 | [bottom_margin_pt](/cells/es/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Devuelve el margen inferior en unidades de Puntos|
@@ -34,7 +34,7 @@ El tipo ShapeTextAlignment expone los siguientes miembros:
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

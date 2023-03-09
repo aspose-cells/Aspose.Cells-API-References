@@ -22,14 +22,14 @@ def find_formula_contains(self, formula, previous_cell):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | formula | str | Formeln att söka efter.|
-| previous_cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Föregående cell med samma formel. Denna parameter kan ställas in på null om du söker från början.|
+| previous_cell | [Cell](/cells/sv/python-net/aspose.cells/cell) |Föregående cell med samma formel. Denna parameter kan ställas in på null om du söker från början.|
 ###  Anmärkningar
 
 Returnerar null (ingenting) om ingen cell hittas.
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
 använd metoden Cells.Find(object,Cell,FindOptions) med LookInType som LookInType.OnlyFormulas
  och LookAtType som LookAtType.Contains.
  Denna medlem kommer att tas bort 12 månader senare sedan november 2018.

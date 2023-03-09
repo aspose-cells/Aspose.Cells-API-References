@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/worksheet/unprotect/
 is_root: false
 ---
 ##  unprotect() {#}
-Çalışma sayfasının korumasını kaldırır.
+Çalışma sayfasının korumasını kaldırın.
 
 
 
@@ -24,7 +24,7 @@ Bu yöntem, parola olmadan korunan çalışma sayfasının korumasını kaldır�
 
 ##  unprotect(password) {#str}
 
-Çalışma sayfasının korumasını kaldırır.
+Çalışma sayfasının korumasını kaldırın.
 
 
 
@@ -34,7 +34,7 @@ def unprotect(self, password):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | password | str | Şifre|
 ###  Notlar

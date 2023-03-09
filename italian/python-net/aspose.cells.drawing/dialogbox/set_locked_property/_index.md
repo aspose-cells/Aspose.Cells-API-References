@@ -18,12 +18,12 @@ def set_locked_property(self, type, value):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/it/python-net/aspose.cells.drawing/shapelocktype) | Il tipo bloccato.|
 | value | bool | Il valore della proprietà.|
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells.drawing import ShapeLockType

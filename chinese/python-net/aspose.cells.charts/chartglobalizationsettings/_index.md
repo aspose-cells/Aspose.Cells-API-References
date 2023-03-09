@@ -1,14 +1,14 @@
 ﻿---
 title: ChartGlobalizationSettings类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
 url: /zh/python-net/aspose.cells.charts/chartglobalizationsettings/
 is_root: false
 ---
-##  ChartGlobalizationSettings类
-代表图表的全球化设置。
+## ChartGlobalizationSettings类
+表示图表的全球化设置。
 
 
 

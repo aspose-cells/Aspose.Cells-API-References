@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding fastighet
 
-Hämtar och ställer in standardvärdet encoding. Gäller endast för csv-fil.
+Hämtar och ställer in standardvärdet encoding. Gäller endast för csv-filer.
 ###  Definition:
 ```python
 @property

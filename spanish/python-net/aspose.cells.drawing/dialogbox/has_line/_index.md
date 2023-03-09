@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece que el borde de línea de la forma sea visible.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

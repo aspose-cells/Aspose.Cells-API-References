@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_crop Eigentum
 
-Stellt die Position der rechten Seite des Zuschneiderechtecks dar, ausgedrückt als Verhältnis der Bildbreite.
+Stellt die Position rechts vom Zuschneiderechteck dar, ausgedrückt als Verhältnis zur Bildbreite.
 ###  Definition:
 ```python
 @property

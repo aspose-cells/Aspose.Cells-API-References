@@ -18,7 +18,7 @@ def put_value(self, bool_value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | bool_value | bool |  |
 
@@ -34,7 +34,7 @@ def put_value(self, int_value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | int_value | int | Valeur d'entrée|
 
@@ -50,7 +50,7 @@ def put_value(self, double_value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | double_value | float | Valeur d'entrée|
 
@@ -66,7 +66,7 @@ def put_value(self, string_value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | string_value | str | Valeur d'entrée|
 
@@ -82,7 +82,7 @@ def put_value(self, date_time):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | date_time | DateTime | Valeur d'entrée|
 
@@ -98,7 +98,7 @@ def put_value(self, object_value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | object_value | any | valeur d'entrée|
 
@@ -114,7 +114,7 @@ def put_value(self, string_value, is_converted):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | string_value | str | Valeur d'entrée|
 | is_converted | bool | True : converti en un autre type de données, le cas échéant.|
@@ -131,7 +131,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | string_value | str | Valeur d'entrée|
 | is_converted | bool | True : converti en un autre type de données, le cas échéant.|

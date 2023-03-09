@@ -19,9 +19,9 @@ El tipo Bar3DShapeType expone los siguientes miembros:
 | :- | :- |
 | BOX | Caja|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | PyramidToMax|
+| PYRAMID_TO_MAX | Pirámide a Max|
 | CYLINDER | Cilindro|
-| CONE_TO_POINT | ConoAPunto|
+| CONE_TO_POINT | Cono a punto|
 | CONE_TO_MAX | Cono a máx.|
 
 

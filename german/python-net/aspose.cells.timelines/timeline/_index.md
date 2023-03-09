@@ -18,8 +18,8 @@ Der Typ Timeline macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [caption](/cells/de/python-net/aspose.cells.timelines/timeline/caption) |Gibt die Beschriftung der angegebenen Zeitleiste zurück oder legt sie fest.|
-| [name](/cells/de/python-net/aspose.cells.timelines/timeline/name) | Gibt den Namen der angegebenen Timeline zurück oder legt ihn fest|
+| [caption](/cells/de/python-net/aspose.cells.timelines/timeline/caption) | Gibt die Beschriftung der angegebenen Zeitleiste zurück oder legt sie fest.|
+| [name](/cells/de/python-net/aspose.cells.timelines/timeline/name) |Gibt den Namen der angegebenen Timeline zurück oder legt ihn fest|
 | [left_pixel](/cells/de/python-net/aspose.cells.timelines/timeline/left_pixel) | Gibt den horizontalen Versatz der Zeitachsenform von der linken Spalte in Pixel zurück oder legt ihn fest.|
 | [top_pixel](/cells/de/python-net/aspose.cells.timelines/timeline/top_pixel) | Gibt den vertikalen Versatz der Zeitachsenform von der obersten Zeile in Pixel zurück oder legt ihn fest.|
 | [width_pixel](/cells/de/python-net/aspose.cells.timelines/timeline/width_pixel) | Gibt die Breite der angegebenen Zeitleiste in Pixel zurück oder legt sie fest.|
@@ -27,7 +27,7 @@ Der Typ Timeline macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CellsFactory, Workbook

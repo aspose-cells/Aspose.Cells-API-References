@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/worksheetcollection/get/
 is_root: false
 ---
 ##  get(index) {#int}
-API for Python .Net yoluyla ekleyin, çünkü bu[int dizini] desteklenmiyor
+API for Python .Net yoluyla ekleyin, çünkü bu [int dizini] desteklenmiyor
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Öğenin sıfır tabanlı dizini.|
 
@@ -42,7 +42,7 @@ def get(self, sheet_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet_name | str | çalışma sayfası adı|
 

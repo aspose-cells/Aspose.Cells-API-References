@@ -18,7 +18,7 @@ def add_designer_storage(self, name, data):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str |  |
 | data | bytes |  |

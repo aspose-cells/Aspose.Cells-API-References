@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/autoshapetype/
 is_root: false
 ---
 ##  AutoShapeType enumeración
-Representa todo el tipo de forma automática integrado.
+Representa todos los tipos de formas automáticas integrados.
 
 
 
@@ -153,12 +153,12 @@ El tipo AutoShapeType expone los siguientes miembros:
 | FLOW_CHART_DISPLAY |  |
 | FLOW_CHART_DELAY |  |
 | TEXT_PLAIN_TEXT | Una forma de texto sin formato.|
-| TEXT_STOP |Una forma de texto octogonal.|
+| TEXT_STOP | Una forma de texto octogonal.|
 | TEXT_TRIANGLE | Una forma de texto triangular que apunta hacia arriba.|
 | TEXT_TRIANGLE_INVERTED | Una forma de texto triangular que apunta hacia abajo.|
 | TEXT_CHEVRON | Una forma de texto en forma de cheurón que apunta hacia arriba.|
 | TEXT_CHEVRON_INVERTED | Una forma de texto en forma de cheurón que apunta hacia abajo.|
-| TEXT_RING_INSIDE | Una forma de texto circular, como si leyera una inscripción en el interior de un anillo.|
+| TEXT_RING_INSIDE |Una forma de texto circular, como si leyera una inscripción en el interior de un anillo.|
 | TEXT_RING_OUTSIDE | Una forma de texto circular, como si leyera una inscripción en el exterior de un anillo.|
 | TEXT_ARCH_UP_CURVE | Una forma de texto curvo arqueado hacia arriba.|
 | TEXT_ARCH_DOWN_CURVE | Una forma de texto curvo arqueado hacia abajo.|
@@ -176,14 +176,14 @@ El tipo AutoShapeType expone los siguientes miembros:
 | TEXT_WAVE2 | Una forma de texto ondulado.|
 | TEXT_DOUBLE_WAVE1 | Una forma de texto ondulado.|
 | TEXT_DOUBLE_WAVE2 | Una forma de texto ondulado.|
-| TEXT_INFLATE | Una forma de texto que se expande verticalmente en el medio.|
-| TEXT_DEFLATE |Una forma de texto que se encoge verticalmente en el medio.|
-| TEXT_INFLATE_BOTTOM | Una forma de texto que se expande hacia abajo en el centro.|
+| TEXT_INFLATE | Una forma de texto que se expande verticalmente en el centro.|
+| TEXT_DEFLATE | Una forma de texto que se encoge verticalmente en el medio.|
+| TEXT_INFLATE_BOTTOM | Una forma de texto que se expande hacia abajo en el medio.|
 | TEXT_DEFLATE_BOTTOM | Una forma de texto que se encoge hacia arriba en el medio.|
-| TEXT_INFLATE_TOP | Una forma de texto que se expande hacia arriba en el centro.|
+| TEXT_INFLATE_TOP | Una forma de texto que se expande hacia arriba en el medio.|
 | TEXT_DEFLATE_TOP | Una forma de texto que se encoge hacia abajo en el medio.|
-| TEXT_DEFLATE_INFLATE | Una forma de texto donde las líneas inferiores se expanden hacia arriba. Las líneas superiores se encogen para compensar.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | Una forma de texto donde las líneas en el centro se expanden verticalmente. Las líneas superior e inferior se encogen para compensar.|
+| TEXT_DEFLATE_INFLATE |Una forma de texto en la que las líneas inferiores se expanden hacia arriba y las superiores se contraen para compensar.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | Una forma de texto donde las líneas en el centro se expanden verticalmente. Las líneas superior e inferior se contraen para compensar.|
 | TEXT_FADE_RIGHT | Una forma de texto que se contrae verticalmente en el lado derecho.|
 | TEXT_FADE_LEFT | Una forma de texto que se contrae verticalmente en el lado izquierdo.|
 | TEXT_FADE_UP | Una forma de texto que se contrae horizontalmente en la parte superior.|

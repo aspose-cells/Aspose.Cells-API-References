@@ -20,7 +20,7 @@ Typen LegendPositionType avslöjar följande medlemmar:
 | BOTTOM | Visar förklaringen längst ned i diagrammets plotområde.|
 | CORNER | Visar förklaringen till hörnet av diagrammets plotområde.|
 | LEFT | Visar förklaringen till vänster om diagrammets plotområde.|
-| NOT_DOCKED | Anger att legenden inte är dockad.|
+| NOT_DOCKED |Anger att legenden inte är dockad.|
 | RIGHT | Visar förklaringen till höger om diagrammets plotområde.|
 | TOP | Visar förklaringen till toppen av diagrammets plotområde.|
 

@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | bu satırdaki hücreler için varsayılan stil olarak kullanılacak stil.|
 ###  Notlar

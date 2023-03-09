@@ -1,13 +1,13 @@
 ﻿---
 title: SeriesLayoutProperties类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 250
 url: /zh/python-net/aspose.cells.charts/serieslayoutproperties/
 is_root: false
 ---
-##  SeriesLayoutProperties类
+## SeriesLayoutProperties类
 表示系列布局的属性。
 
 

@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  note proprietà
 
-Rappresenta il contenuto del commento.
+Rappresenta il contenuto dei commenti.
 
 ###  Osservazioni
 
 Se si tratta di un commento in thread, non è possibile modificare note, altrimenti MS Excel non potrebbe elaborarlo come commento in thread.
 
-###  Esempio
+###  Esempi
 
 ```python
 

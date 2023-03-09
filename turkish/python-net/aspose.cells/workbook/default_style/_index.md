@@ -15,7 +15,7 @@ is_root: false
 
 DefaultStyle özelliği, tüm Çalışma Kitabı için bir Stil uygulamak için kullanışlıdır.
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, yeni bir Çalışma Kitabı oluşturur ve başlatır ve buna varsayılan bir [Style](/cells/tr/python-net/aspose.cells/style) ayarlar.
 

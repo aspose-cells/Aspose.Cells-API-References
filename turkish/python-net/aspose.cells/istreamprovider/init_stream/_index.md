@@ -18,7 +18,7 @@ def init_stream(self, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | options | [StreamProviderOptions](/cells/tr/python-net/aspose.cells/streamprovideroptions) |  |
 

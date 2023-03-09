@@ -10,7 +10,7 @@ is_root: false
 ##  text_rendering_hint mülk
 
 Metin oluşturma kalitesini belirtir.
-Varsayılan değer TextRenderingHint.SystemDefault şeklindedir.
+Varsayılan değer TextRenderingHint'tir.SystemDefault
 ###  Tanım:
 ```python
 @property

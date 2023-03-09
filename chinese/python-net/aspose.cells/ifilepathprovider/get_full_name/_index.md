@@ -1,6 +1,6 @@
 ﻿---
 title: get_full_name方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -23,7 +23,7 @@ def get_full_name(self, sheet_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | sheet_name | str |工作表名称|
 

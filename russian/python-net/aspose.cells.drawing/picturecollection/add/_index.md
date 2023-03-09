@@ -22,13 +22,13 @@ def add(self, upper_left_row, upper_left_column, stream):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
 
-###  Пример
+###  Примеры
 
 ```python
 
@@ -54,13 +54,13 @@ def add(self, upper_left_row, upper_left_column, file_name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | file_name | str | Имя файла изображения.|
 
-###  Пример
+###  Примеры
 
 ```python
 
@@ -85,15 +85,15 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | lower_right_row | int | Нижний индекс правой строки|
 | lower_right_column | int | Индекс нижнего правого столбца|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
 
-###  Пример
+###  Примеры
 
 ```python
 
@@ -119,15 +119,15 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | lower_right_row | int | Нижний индекс правой строки|
 | lower_right_column | int | Индекс нижнего правого столбца|
 | file_name | str | Имя файла изображения.|
 
-###  Пример
+###  Примеры
 
 ```python
 
@@ -152,15 +152,15 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
 | width_scale | int | Масштаб ширины изображения в процентах.|
 | height_scale | int | Масштаб высоты изображения в процентах.|
 
-###  Пример
+###  Примеры
 
 ```python
 
@@ -186,15 +186,15 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | file_name | str | Имя файла изображения.|
 | width_scale | int | Масштаб ширины изображения в процентах.|
 | height_scale | int | Масштаб высоты изображения в процентах.|
 
-###  Пример
+###  Примеры
 
 ```python
 

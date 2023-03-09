@@ -28,13 +28,13 @@ Der Typ PlotArea macht die folgenden Member verfügbar:
 | [text_font](/cells/de/python-net/aspose.cells.charts/plotarea/text_font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
 | [text_options](/cells/de/python-net/aspose.cells.charts/plotarea/text_options) | Ruft die Optionen des Textes ab und legt sie fest.|
 | [font](/cells/de/python-net/aspose.cells.charts/plotarea/font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
-| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/plotarea/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert. Der Standardwert ist True.|
+| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/plotarea/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert.|
 | [background_mode](/cells/de/python-net/aspose.cells.charts/plotarea/background_mode) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [background](/cells/de/python-net/aspose.cells.charts/plotarea/background) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [is_automatic_size](/cells/de/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Gibt an, ob die Größe des Plotbereichs automatisch angepasst wird.|
 | [x](/cells/de/python-net/aspose.cells.charts/plotarea/x) | Ruft die x-Koordinate der oberen linken Ecke des Begrenzungsrahmens des Zeichnungsbereichs in Einheiten von 1/4000 des Diagrammbereichs ab oder ruft diese ab.|
 | [y](/cells/de/python-net/aspose.cells.charts/plotarea/y) | Ruft die y-Koordinate der oberen oberen Ecke des Begrenzungsrahmens des Zeichnungsbereichs in Einheiten von 1/4000 des Diagrammbereichs ab oder ruft diese ab.|
-| [height](/cells/de/python-net/aspose.cells.charts/plotarea/height) | Ruft die Höhe des Begrenzungsrahmens des Zeichnungsbereichs in Einheiten von 1/4000 des Diagrammbereichs ab oder legt diese fest.|
+| [height](/cells/de/python-net/aspose.cells.charts/plotarea/height) |Ruft die Höhe des Begrenzungsrahmens des Zeichnungsbereichs in Einheiten von 1/4000 des Diagrammbereichs ab oder legt diese fest.|
 | [width](/cells/de/python-net/aspose.cells.charts/plotarea/width) | Ruft die Breite des Begrenzungsrahmens des Zeichnungsbereichs in Einheiten von 1/4000 des Diagrammbereichs ab oder legt diese fest.|
 | [shadow](/cells/de/python-net/aspose.cells.charts/plotarea/shadow) | True, wenn der Rahmen einen Schatten hat.|
 | [shape_properties](/cells/de/python-net/aspose.cells.charts/plotarea/shape_properties) | Ruft das [ChartFrame.shape_properties](/cells/de/python-net/aspose.cells.charts/chartframe#shape_properties)-Objekt ab.|

@@ -13,7 +13,7 @@ Gibt ein Characters-Objekt zurück, das einen Bereich von characters im Text dar
 
 ###  Kehrt zurück
 
-Zeichenobjekt.
+Charakterobjekte.
 
 
 ```python

@@ -32,14 +32,14 @@ is_root: false
 | [border](/cells/ar/python-net/aspose.cells.charts/walls/border) | الحصول على او تحديد الحدود [Line](/cells/ar/python-net/aspose.cells.drawing/line).|
 | [center_x](/cells/ar/python-net/aspose.cells.charts/walls/center_x) | الحصول على إحداثيات x للركن السفلي الأيسر من Wall center بوحدات 1/4000 من عرض الرسم البياني بعد استدعاء طريقة Chart.Calculate ().|
 | [center_y](/cells/ar/python-net/aspose.cells.charts/walls/center_y) |الحصول على إحداثي y للركن السفلي الأيسر من Wall center بوحدات 1/4000 من ارتفاع الرسم البياني بعد استدعاء طريقة Chart.Calculate ().|
-| [width](/cells/ar/python-net/aspose.cells.charts/walls/width) |الحصول على عرض من اليسار إلى اليمين بوحدات 1/4000 من عرض المخطط بعد استدعاء طريقة Chart.Calculate ().|
+| [width](/cells/ar/python-net/aspose.cells.charts/walls/width) | الحصول على عرض من اليسار إلى اليمين بوحدات 1/4000 من عرض المخطط بعد استدعاء طريقة Chart.Calculate ().|
 | [depth](/cells/ar/python-net/aspose.cells.charts/walls/depth) | الحصول على العمق من الأمام إلى الخلف بوحدات 1/4000 من عرض المخطط بعد استدعاء طريقة Chart.Calculate ().|
 | [height](/cells/ar/python-net/aspose.cells.charts/walls/height) | الحصول على ارتفاع من أعلى إلى أسفل بوحدات 1/4000 من ارتفاع الرسم البياني بعد استدعاء طريقة Chart.Calculate ().|
 | [center_x_px](/cells/ar/python-net/aspose.cells.charts/walls/center_x_px) | الحصول على إحداثيات x للركن السفلي الأيسر من Wall center بوحدات البكسل بعد استدعاء طريقة Chart.Calculate ().|
 | [center_y_px](/cells/ar/python-net/aspose.cells.charts/walls/center_y_px) | الحصول على إحداثيات y للركن الأيسر السفلي من Wall center بوحدات البكسل بعد استدعاء طريقة Chart.Calculate ().|
 | [width_px](/cells/ar/python-net/aspose.cells.charts/walls/width_px) | يحصل على عرض اليسار إلى اليمين بوحدات البكسل بعد استدعاء طريقة Chart.Calculate ().|
 | [depth_px](/cells/ar/python-net/aspose.cells.charts/walls/depth_px) | يحصل على العمق من الأمام إلى الخلف بوحدات البكسل بعد استدعاء طريقة Chart.Calculate ().|
-| [height_px](/cells/ar/python-net/aspose.cells.charts/walls/height_px) | الحصول على ارتفاع من أعلى إلى أسفل بوحدات البكسل بعد استدعاء طريقة Chart.Calculate ().|
+| [height_px](/cells/ar/python-net/aspose.cells.charts/walls/height_px) |الحصول على ارتفاع من أعلى إلى أسفل بوحدات البكسل بعد استدعاء طريقة Chart.Calculate ().|
 
 
 ###  طُرق
@@ -47,7 +47,7 @@ is_root: false
 | :- | :- |
 | [get_cube_point_count()](/cells/ar/python-net/aspose.cells.charts/walls/get_cube_point_count/#) | الحصول على عدد نقاط المكعب بعد استدعاء طريقة Chart.Calculate ().|
 | [get_cube_point_x_px(index)](/cells/ar/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | الحصول على إحداثيات x لنقطة قمة مكعب الجدران بعد استدعاء طريقة Chart.Calculate ().<br/> عدد نقاط قمة مكعب الجدران ثمانية|
-| [get_cube_point_y_px(index)](/cells/ar/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) |الحصول على إحداثيات y لنقطة قمة مكعب الجدران بعد استدعاء طريقة Chart.Calculate ().<br/> عدد نقاط قمة مكعب الجدران ثمانية.|
+| [get_cube_point_y_px(index)](/cells/ar/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) | الحصول على إحداثيات y لنقطة قمة مكعب الجدران بعد استدعاء طريقة Chart.Calculate ().<br/> عدد نقاط قمة مكعب الجدران ثمانية.|
 
 
 

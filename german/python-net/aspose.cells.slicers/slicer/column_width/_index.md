@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die Breite jeder Spalte im Slicer in Punkt zurück oder legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

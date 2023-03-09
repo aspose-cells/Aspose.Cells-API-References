@@ -23,7 +23,7 @@ def align_top_right_corner(self, top_row, right_column):
 | top_row | int | der Zeilenindex.|
 | right_column | int | der Spaltenindex.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

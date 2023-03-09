@@ -31,7 +31,7 @@ def delete_blank_rows(self, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/ru/python-net/aspose.cells/deleteoptions) | Варианты удаления диапазона.|
 

@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/column/get_style/
 is_root: false
 ---
 ##  get_style() {#}
-Får stilen på den här kolumnen.
+Får stilen i denna kolumn.
 
 
 

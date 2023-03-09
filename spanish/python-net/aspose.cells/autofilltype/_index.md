@@ -19,8 +19,8 @@ El tipo AutoFillType expone los siguientes miembros:
 | :- | :- |
 | COPY | Copia el valor y el formato del área de origen en el área de destino|
 | DEFAULT | Rellena automáticamente el área de destino con el valor y el formato.|
-| FORMATS |Copia solo el formato del área de origen al área de destino,|
-| SERIES | Extienda el valor del área de origen al área de destino en forma de serie y copie el formato al área de destino.|
+| FORMATS | Copia solo el formato del área de origen al área de destino,|
+| SERIES |Extienda el valor del área de origen al área de destino en forma de serie y copie el formato al área de destino.|
 | VALUES | Copia solo el valor del área de origen en el área de destino,|
 
 

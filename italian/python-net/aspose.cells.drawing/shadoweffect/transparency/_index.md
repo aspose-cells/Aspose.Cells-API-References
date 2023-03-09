@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transparency proprietà
 
-Ottiene e imposta il grado transparency dell'ombra. Intervallo da 0,0 (opaco) a 1,0 (trasparente).
+Ottiene e imposta il grado dell'ombra transparency. Intervallo da 0,0 (opaco) a 1,0 (chiaro).
 ###  Definizione:
 ```python
 @property

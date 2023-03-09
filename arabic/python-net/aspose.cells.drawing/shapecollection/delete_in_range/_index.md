@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/shapecollection/delete_in_range/
 is_root: false
 ---
 ##  delete_in_range(ca) {#CellArea}
-احذف الأشكال الموجودة في النطاق. لن يتم حذف أشكال التعليقات.
+احذف الأشكال في النطاق. لن يتم حذف أشكال التعليقات.
 
 
 
@@ -18,11 +18,11 @@ def delete_in_range(self, ca):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| ca | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | النطاق: إذا كانت الأشكال موجودة في النطاق ، فسيتم إزالتها.|
+| ca | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) |النطاق. إذا كانت الأشكال موجودة في النطاق ، فستتم إزالتها.|
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import CellArea

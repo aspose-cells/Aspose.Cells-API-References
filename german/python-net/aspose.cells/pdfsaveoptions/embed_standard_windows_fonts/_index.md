@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  embed_standard_windows_fonts Eigentum
 
- True zum Einbetten von TrueType-Schriftarten.
+True zum Einbetten von TrueType-Schriftarten.
 Betrifft nur die ASCII-Zeichen 32-127.
 Schriftarten für Zeichencodes größer als 127 werden immer eingebettet.
 Bei PDF/A-1a, PDF/A-1b Standard sind Schriften immer eingebettet.

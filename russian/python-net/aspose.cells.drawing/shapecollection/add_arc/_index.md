@@ -22,16 +22,16 @@ def add_arc(self, upper_left_row, top, upper_left_column, left, height, width):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение ArcShape от его левой строки в пикселях.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Представляет горизонтальное смещение ArcShape от его левого столбца в пикселях.|
 | height | int | Представляет высоту ArcShape в пикселях.|
-| width | int | Представляет ширину ArcShape в пикселях.|
+| width | int |Представляет ширину ArcShape в пикселях.|
 
-###  Пример
+###  Примеры
 
 ```python
 

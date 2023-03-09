@@ -1,5 +1,5 @@
 ﻿---
-title: TableStyleElement sınıf
+title: TableStyleElement sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 70
 url: /tr/python-net/aspose.cells.tables/tablestyleelement/
 is_root: false
 ---
-##  TableStyleElement sınıf
+##  TableStyleElement sınıfı
 Tablo stilinin öğesini temsil eder.
 
 
@@ -18,7 +18,7 @@ TableStyleElement türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [size](/cells/tr/python-net/aspose.cells.tables/tablestyleelement/size) | Tek bir şeritleme bandındaki satır veya sütun sayısı.<br/> Yalnızca tür firstRowStripe, secondRowStripe, firstColumnStripe veya secondColumnStripe olduğunda geçerlidir.|
-| [type](/cells/tr/python-net/aspose.cells.tables/tablestyleelement/type) |Öğe türünü alır.|
+| [type](/cells/tr/python-net/aspose.cells.tables/tablestyleelement/type) | Öğe türünü alır.|
 
 
 ###  Yöntemler

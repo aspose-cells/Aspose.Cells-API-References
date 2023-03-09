@@ -1,6 +1,6 @@
 ﻿---
 title: is_auto_word_selected 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180

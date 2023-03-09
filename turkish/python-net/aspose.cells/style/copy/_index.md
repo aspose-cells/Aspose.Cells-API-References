@@ -18,7 +18,7 @@ def copy(self, style):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Kaynak Stili nesnesi|
 ###  Notlar

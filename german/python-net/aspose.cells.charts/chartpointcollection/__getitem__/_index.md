@@ -13,7 +13,7 @@ Ruft das Element [ChartPoint](/cells/de/python-net/aspose.cells.charts/chartpoin
 ###  Indexierer
 | Name| Beschreibung|
 | :- | :- |
-| index | Der Index des Diagrammpunkts in der Reihe.|
+| index | Der Index der Diagrammpunkte in der Reihe.|
 
 
 

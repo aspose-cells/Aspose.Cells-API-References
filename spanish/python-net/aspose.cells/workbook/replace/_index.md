@@ -18,12 +18,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | place_holder | str | Cell marcador de posición|
 | new_value | str | Valor de cadena para reemplazar|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook
@@ -46,12 +46,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | place_holder | str | Cell marcador de posición|
 | new_value | int | Valor entero a reemplazar|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook
@@ -75,12 +75,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | place_holder | str | Cell marcador de posición|
 | new_value | float | Valor doble para reemplazar|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook
@@ -104,10 +104,10 @@ def replace(self, bool_value, new_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | bool_value | bool | El valor booleano que se va a reemplazar.|
-| new_value | any |Nuevo valor. Puede ser un valor de cadena, entero, doble o de fecha y hora.|
+| new_value | any | Nuevo valor. Puede ser un valor de cadena, entero, doble o de fecha y hora.|
 
 
 ##  replace(int_value, new_value) {#int-any}
@@ -121,10 +121,10 @@ def replace(self, int_value, new_value):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | int_value | int | El valor entero que se va a reemplazar.|
-| new_value | any |Nuevo valor. Puede ser un valor de cadena, entero, doble o de fecha y hora.|
+| new_value | any | Nuevo valor. Puede ser un valor de cadena, entero, doble o de fecha y hora.|
 
 
 ##  replace(place_holder, new_values, is_vertical) {#str-list-bool}
@@ -138,13 +138,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | place_holder | str | Cell marcador de posición|
 | new_values | list | Matriz de cadenas para reemplazar|
-| is_vertical | bool | Verdadero - Vertical, Falso - Horizontal|
+| is_vertical | bool | Verdadero-Vertical, Falso-Horizontal|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook
@@ -168,13 +168,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | place_holder | str | Cell marcador de posición|
 | new_values | list | Matriz de enteros a reemplazar|
-| is_vertical | bool | Verdadero - Vertical, Falso - Horizontal|
+| is_vertical | bool | Verdadero-Vertical, Falso-Horizontal|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook
@@ -198,13 +198,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | place_holder | str | Cell marcador de posición|
 | new_values | list | Matriz doble para reemplazar|
-| is_vertical | bool | Verdadero - Vertical, Falso - Horizontal|
+| is_vertical | bool | Verdadero-Vertical, Falso-Horizontal|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook
@@ -228,7 +228,7 @@ def replace(self, place_holder, new_value, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | place_holder | str | Cell marcador de posición|
 | new_value | str | Valor de cadena para reemplazar|

@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Optionen des Bildformats ab und legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -22,14 +22,14 @@ def add(self, upper_left_row, upper_left_column, height, width):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| upper_left_column | int | Sol üst sütun dizini.|
 | height | int | Metin kutusunun piksel birimi cinsinden yüksekliği.|
 | width | int | Metin kutusunun piksel birimi cinsinden genişliği.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

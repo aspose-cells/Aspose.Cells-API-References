@@ -13,9 +13,9 @@ Stellt den vertikalen Versatz der Form vom oberen Rand der übergeordneten Form 
 
 ###  Bemerkungen
 
-Gilt nur, wenn diese Form in der Gruppe oder im Diagramm enthalten ist.
+Gilt nur, wenn sich dieses Shape in der Gruppe oder im Diagramm befindet.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

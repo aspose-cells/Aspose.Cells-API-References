@@ -26,7 +26,7 @@ I det här exemplet kommer ett försök att göras att hitta en licensfil med na
 
 
 komponenten, i mappen som innehåller den anropande församlingen,
-mappen för postförsamlingen och sedan i de inbäddade resurserna för den anropande församlingen.
+i mappen för postförsamlingen och sedan i de inbäddade resurserna för den anropande församlingen.
 
 ```python
 from aspose.cells import License

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_autofilter mülk
 
-Bu çalışma sayfasında otomatik filtre olup olmadığını gösterir.
+Bu çalışma sayfasında bir otomatik filtre olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

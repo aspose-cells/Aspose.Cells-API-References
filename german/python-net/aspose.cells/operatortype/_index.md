@@ -20,12 +20,12 @@ Der Typ OperatorType macht die folgenden Member verfügbar:
 | BETWEEN | Repräsentiert Zwischen Operator des bedingten Formats und Datenvalidierung.|
 | EQUAL | Stellt den Equal-Operator des bedingten Formats und der Datenvalidierung dar.|
 | GREATER_THAN | Stellt den GreaterThan-Operator des bedingten Formats und der Datenvalidierung dar.|
-| GREATER_OR_EQUAL | Stellt den GreaterOrEqual-Operator des bedingten Formats und der Datenvalidierung dar.|
+| GREATER_OR_EQUAL |Stellt den GreaterOrEqual-Operator des bedingten Formats und der Datenvalidierung dar.|
 | LESS_THAN | Stellt den LessThan-Operator des bedingten Formats und der Datenvalidierung dar.|
 | LESS_OR_EQUAL | Stellt den LessOrEqual-Operator des bedingten Formats und der Datenvalidierung dar.|
 | NONE | Stellt keinen Vergleich dar.|
 | NOT_BETWEEN | Repräsentiert den NotBetween-Operator des bedingten Formats und der Datenvalidierung.|
-| NOT_EQUAL |Stellt den NotEqual-Operator des bedingten Formats und der Datenvalidierung dar.|
+| NOT_EQUAL | Stellt den NotEqual-Operator des bedingten Formats und der Datenvalidierung dar.|
 
 
 

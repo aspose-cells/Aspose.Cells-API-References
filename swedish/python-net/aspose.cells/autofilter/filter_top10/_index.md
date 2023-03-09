@@ -18,7 +18,7 @@ def filter_top10(self, field_index, is_top, is_percent, item_count):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | field_index | int | Heltalsoffset för fältet som du vill basera filtret på<br/> (från vänster i listan; fältet längst till vänster är fält 0).|
 | is_top | bool | Indikerar om filter uppifrån eller nedifrån|

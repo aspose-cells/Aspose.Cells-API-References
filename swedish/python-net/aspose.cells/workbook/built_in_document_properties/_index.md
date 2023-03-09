@@ -13,7 +13,7 @@ Returnerar en [DocumentProperty](/cells/sv/python-net/aspose.cells.properties/do
 
 ###  Anmärkningar
 
-En ny egenskap kan inte läggas till i listan med inbyggda dokumentegenskaper. Du kan bara få en inbyggd fastighet och ändra dess värde.
+En ny egenskap kan inte läggas till i listan med inbyggda dokumentegenskaper.
 Följande är den inbyggda egenskapsnamnlistan:
 
 Titel
@@ -22,7 +22,7 @@ Titel
 Ämne
 
 
-Författare
+författare
 
 
 Nyckelord
@@ -73,7 +73,7 @@ Kategori
 Formatera
 
 
-Chef
+chef
 
 
 Företag

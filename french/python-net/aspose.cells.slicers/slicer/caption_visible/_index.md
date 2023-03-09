@@ -12,7 +12,7 @@ is_root: false
 Renvoie ou définit si l'en-tête qui affiche la légende du segment est visible
 la valeur par défaut est true
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -18,7 +18,7 @@ def set_formula(self, formula, value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | formula | str | La formule.|
 | value | any | La valeur de la formule.|
@@ -35,7 +35,7 @@ def set_formula(self, formula, options, value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | formula | str | La formule.|
 | options | [FormulaParseOptions](/cells/fr/python-net/aspose.cells/formulaparseoptions) | Options d'analyse de la formule.|
@@ -53,7 +53,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | formula | str | La formule.|
 | is_r1c1 | bool | Si la formule est la formule R1C1.|
@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any | La valeur de la formule.|
 ###  Remarques
 
-REMARQUE : Cette classe est désormais obsolète. Plutôt,
+REMARQUE : Cette classe est désormais obsolète.
 veuillez utiliser Cell.SetFormula(string,FormulaParseOptions,object).
 Cette propriété sera supprimée 12 mois plus tard depuis décembre 2019.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

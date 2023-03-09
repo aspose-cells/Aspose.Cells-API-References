@@ -11,7 +11,7 @@ is_root: false
 
 En boy oranının kilitlenip kilitlenmediğini gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -13,8 +13,8 @@ Indica se l'opzione di ordinamento è consentita in un foglio di lavoro protetto
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
- utilizzare la proprietà Protection.AllowSorting.
+ NOTA: questo membro è ora obsoleto.
+ Utilizza la proprietà Protection.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

@@ -18,7 +18,7 @@ def set_visible(self, is_visible, ignore_error):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_visible | bool | Om arbetsbladet är synligt|
 | ignore_error | bool | Om felet ska ignoreras om det här alternativet inte är giltigt.|

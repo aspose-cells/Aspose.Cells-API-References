@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/pagesetup/custom_paper_size/
 is_root: false
 ---
 ##  custom_paper_size(width, height) {#float-float}
-Legt das benutzerdefinierte Papierformat in Zoll fest.
+Legt das benutzerdefinierte Papierformat in Zolleinheiten fest.
 
 
 

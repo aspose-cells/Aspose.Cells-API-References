@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den MSO-Zeichnungstyp ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

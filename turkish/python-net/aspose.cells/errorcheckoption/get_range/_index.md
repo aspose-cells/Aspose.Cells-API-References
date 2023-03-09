@@ -22,7 +22,7 @@ def get_range(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | aralık indeksi|
 

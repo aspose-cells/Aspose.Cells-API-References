@@ -13,8 +13,8 @@ Representerar om infogning av hyperlänkar är tillåten på ett skyddat kalkylb
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
- använd egenskapen Protection.AllowInsertingHyperlink.
+ OBS: Denna medlem är nu föråldrad.
+ använd skydd. Tillåt insättning av hyperlänkegenskap.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

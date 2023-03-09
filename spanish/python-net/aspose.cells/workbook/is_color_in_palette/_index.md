@@ -13,7 +13,7 @@ Comprueba si un color está en la paleta de la hoja de cálculo.
 
 ###  Devoluciones
 
-Devuelve verdadero si este color está en la paleta. De lo contrario, devuelve falso
+Devuelve verdadero si este color está en la paleta.
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Estructura de colores.|
 

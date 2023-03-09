@@ -10,7 +10,7 @@ is_root: false
 ##  html_format fastighet
 
 Hur man hanterar formatering från källan HTML när webbfrågedata överförs till
-arbetsblad. Relevant när källdata är sant.
+kalkylblad.Relevant när källdata är sant.
 ###  Definition:
 ```python
 @property

@@ -15,7 +15,7 @@ Obtient ou définit une valeur indiquant si les onglets du classeur sont affich�
 
 La valeur par défaut est true.
 
-###  Exemple
+###  Exemples
 
 Le code suivant masque les onglets de feuille et les boutons de défilement d'onglet pour la feuille de calcul.
 

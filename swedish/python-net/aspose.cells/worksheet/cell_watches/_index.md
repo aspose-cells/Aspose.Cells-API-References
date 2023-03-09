@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_watches fastighet
 
-Får samling av celler på detta kalkylblad som övervakas i "bevakningsfönstret".
+Får en samling celler på detta kalkylblad som övervakas i "bevakningsfönstret".
 ###  Definition:
 ```python
 @property

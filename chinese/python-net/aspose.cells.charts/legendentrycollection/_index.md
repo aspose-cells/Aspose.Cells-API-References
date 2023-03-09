@@ -1,13 +1,13 @@
 ﻿---
 title: LegendEntryCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
 url: /zh/python-net/aspose.cells.charts/legendentrycollection/
 is_root: false
 ---
-##  LegendEntryCollection类
+## LegendEntryCollection类
 表示指定图表图例中所有 [LegendEntry](/cells/zh/python-net/aspose.cells.charts/legendentry) 对象的集合。
 
 

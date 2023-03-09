@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.properties/documentproperty/to_bool/
 is_root: false
 ---
 ##  to_bool() {#}
-Returnerar egenskapsvärdet som bool.
+Returnerar egenskapsvärdet som en bool.
 
 
 

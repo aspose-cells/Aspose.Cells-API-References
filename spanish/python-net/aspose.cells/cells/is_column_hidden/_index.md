@@ -22,7 +22,7 @@ def is_column_hidden(self, column_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | índice de columna|
 

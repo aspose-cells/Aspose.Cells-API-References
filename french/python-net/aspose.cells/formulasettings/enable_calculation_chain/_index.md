@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain propriété
 
-Activer ou non la chaîne de calcul pour les formules. La valeur par défaut est false.
+Activer ou non la chaîne de calcul pour les formules.
 
 ###  Remarques
 

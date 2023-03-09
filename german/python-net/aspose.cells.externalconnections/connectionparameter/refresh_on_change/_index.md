@@ -10,8 +10,8 @@ is_root: false
 ##  refresh_on_change Eigentum
 
  Flag, das angibt, ob die Abfrage automatisch aktualisiert werden soll, wenn der Inhalt von a
- Zelle, die die Parameterwertänderungen bereitstellt. Wenn wahr, werden externe Daten aktualisiert
- Verwendung des neuen Parameterwerts bei jeder Änderung. Wenn falsch, dann externe Daten
+ Zelle, die die Änderungen des Parameterwerts bereitstellt. Wenn wahr, werden externe Daten aktualisiert
+ Verwendung des neuen Parameterwerts bei jeder Änderung.
 wird nur aktualisiert, wenn es vom Benutzer angefordert wird, oder ein anderes Ereignis löst eine Aktualisierung aus (z. B. Arbeitsmappe geöffnet).
 ###  Definition:
 ```python

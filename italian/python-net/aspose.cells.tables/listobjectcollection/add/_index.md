@@ -22,7 +22,7 @@ def add(self, start_cell, end_cell, has_headers):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_cell | str | La cella iniziale dell'intervallo di elenco.|
 | end_cell | str | La cella finale dell'intervallo di elenco.|
@@ -44,7 +44,7 @@ def add(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | La riga iniziale dell'intervallo dell'elenco.|
 | start_column | int | La riga iniziale dell'intervallo dell'elenco.|

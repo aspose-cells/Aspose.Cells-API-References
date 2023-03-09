@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by Eigentum
 
-Ruft ab und legt fest, ob nach Zeile oder Spalte gezeichnet wird.
+Ruft ab und legt fest, ob nach Zeile oder Spalte gezeichnet werden soll.
 ###  Definition:
 ```python
 @property

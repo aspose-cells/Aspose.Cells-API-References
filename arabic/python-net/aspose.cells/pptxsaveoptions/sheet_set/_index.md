@@ -11,9 +11,9 @@ is_root: false
 
 الحصول على الأوراق أو تعيينها للعرض. الافتراضي هو كل الأوراق المرئية في المصنف: [SheetSet.visible](/cells/ar/python-net/aspose.cells.rendering/sheetset#visible).
 
-###  مثال
+###  أمثلة
 
-الكود التالي يعرض الورقة النشطة فقط لقوات الدفاع الشعبي.
+الكود التالي يعرض الأوراق النشطة فقط لقوات الدفاع الشعبي.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

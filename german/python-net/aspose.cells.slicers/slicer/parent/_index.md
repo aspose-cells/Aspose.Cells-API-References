@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent Eigentum
 
-Gibt das Worksheet-Objekt zurück, das das Blatt darstellt, das den Slicer enthält. Schreibgeschützt.
+Gibt das Worksheet-Objekt zurück, das das Blatt darstellt, das den Slicer enthält.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

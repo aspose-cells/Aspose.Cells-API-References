@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/htmlloadoptions/__init__/
 is_root: false
 ---
 ##  HtmlLoadOptions() {#}
-Dosyayı yükleme seçeneklerini oluşturur.
+Dosyayı yükleme seçeneği oluşturur.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlLoadOptions(load_format) {#LoadFormat}
-Dosyayı yükleme seçeneklerini oluşturur.
+Dosyayı yükleme seçeneği oluşturur.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, load_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/tr/python-net/aspose.cells/loadformat) | Yükleme biçimi.|
 

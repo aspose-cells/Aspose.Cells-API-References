@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  x_values propriété
 
-Représente les valeurs x de la série de graphiques.
+Représente les valeurs x de la série graphique.
 ###  Définition:
 ```python
 @property

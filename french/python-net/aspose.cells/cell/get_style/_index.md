@@ -42,7 +42,7 @@ def get_style(self, check_borders):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | check_borders | bool | Vérifier les bordures des autres cellules|
 ###  Remarques

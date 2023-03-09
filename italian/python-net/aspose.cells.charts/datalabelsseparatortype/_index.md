@@ -21,7 +21,7 @@ Il tipo DataLabelsSeparatorType espone i membri seguenti:
 | SPACE | Rappresenta lo spazio(" ")|
 | COMMA | Rappresenta la virgola(",")|
 | SEMICOLON | Rappresenta il punto e virgola(";")|
-| PERIOD | Rappresenta il punto(".")|
+| PERIOD |Rappresenta il punto(".")|
 | NEW_LINE | Rappresenta la nuova riga ("\n")|
 | CUSTOM | Rappresenta il separatore personalizzato|
 

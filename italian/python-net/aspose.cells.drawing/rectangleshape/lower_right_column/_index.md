@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta l'indice della colonna nell'angolo inferiore destro.
 
-###  Esempio
+###  Esempi
 
 ```python
 

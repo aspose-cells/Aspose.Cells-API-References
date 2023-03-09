@@ -1,13 +1,13 @@
 ﻿---
 title: WorkbookDesigner类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1600
 url: /zh/python-net/aspose.cells/workbookdesigner/
 is_root: false
 ---
-##  WorkbookDesigner类
+## WorkbookDesigner类
 封装表示设计器电子表格的对象。
 
 

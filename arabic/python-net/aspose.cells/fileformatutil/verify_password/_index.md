@@ -22,7 +22,7 @@ def verify_password(self, stream, password):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | password | str | كلمة المرور لملفات ooxml المشفرة.|

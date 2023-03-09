@@ -13,7 +13,7 @@ Lägger till egendom för webbtillägg.
 
 ###  Returnerar
 
-Indexet för tillagd egendom.
+Indexet över tillagda egenskaper.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Egendomens namn.|
 | value | str | Egendomens värde.|

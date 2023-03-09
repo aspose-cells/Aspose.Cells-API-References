@@ -18,7 +18,7 @@ Le type ControlScrollBarType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | NONE | N'affiche aucune barre de défilement.|
-| HORIZONTAL |Affiche une barre de défilement horizontale.|
+| HORIZONTAL | Affiche une barre de défilement horizontale.|
 | BARS_VERTICAL | Affiche une barre de défilement verticale.|
 | BARS_BOTH | Affiche une barre de défilement horizontale et verticale.|
 

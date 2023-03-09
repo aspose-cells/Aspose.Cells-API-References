@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  shadow_effect propiedad
 
-Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica el efecto de sombra para la forma o el elemento del gráfico.
+Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica un efecto de sombra para la forma o el elemento del gráfico.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

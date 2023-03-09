@@ -22,7 +22,7 @@ def copy_column(self, source_cells, source_column_index, destination_column_inde
 | :- | :- | :- |
 | source_cells | [Cells](/cells/de/python-net/aspose.cells/cells) | Quellobjekt Cells enthält zu kopierende Daten und Formate.|
 | source_column_index | int | Quellspaltenindex.|
-| destination_column_index | int |Index der Zielspalte.|
+| destination_column_index | int | Index der Zielspalte.|
 
 
 

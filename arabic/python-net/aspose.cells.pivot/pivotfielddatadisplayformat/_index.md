@@ -20,8 +20,8 @@ is_root: false
 | NORMAL | يمثل تنسيق العرض العادي.|
 | DIFFERENCE_FROM | يمثل الاختلاف عن شكل العرض.|
 | PERCENTAGE_OF | يمثل النسبة المئوية لشكل العرض.|
-| PERCENTAGE_DIFFERENCE_FROM |يمثل اختلاف النسبة المئوية عن تنسيق العرض.|
-| RUNNING_TOTAL_IN | يمثل التشغيل الكلي في شكل عرض.|
+| PERCENTAGE_DIFFERENCE_FROM | يمثل اختلاف النسبة المئوية عن تنسيق العرض.|
+| RUNNING_TOTAL_IN |يمثل التشغيل الكلي في شكل عرض.|
 | PERCENTAGE_OF_ROW | يمثل النسبة المئوية لشكل عرض الصف.|
 | PERCENTAGE_OF_COLUMN | يمثل النسبة المئوية لشكل عرض العمود.|
 | PERCENTAGE_OF_TOTAL | يمثل النسبة المئوية لشكل العرض الإجمالي.|

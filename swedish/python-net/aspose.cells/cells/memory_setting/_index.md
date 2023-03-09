@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting fastighet
 
-Hämtar eller ställer in minnesanvändningsalternativet för dessa celler.
+Hämtar eller ställer in minnesanvändningsalternativet för den här cellen.
 ###  Definition:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting proprietà
 
-Ottiene o imposta le opzioni di utilizzo della memoria. La nuova opzione verrà presa come opzione predefinita per i fogli di lavoro appena creati, ma non avrà effetto per i fogli di lavoro esistenti.
+Ottiene o imposta le opzioni di utilizzo della memoria.La nuova opzione verrà utilizzata come opzione predefinita per i fogli di lavoro appena creati, ma non avrà effetto per i fogli di lavoro esistenti.
 ###  Definizione:
 ```python
 @property

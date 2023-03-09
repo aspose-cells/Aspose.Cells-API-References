@@ -20,7 +20,7 @@ El tipo OdsPageBackgroundGraphicPositionType expone los siguientes miembros:
 | TOP_LEFT | Arriba a la izquierda.|
 | TOP_CENTER | Centro Superior.|
 | TOP_RIGHT | Parte superior derecha.|
-| CENTER_LEFT |Centro izquierda.|
+| CENTER_LEFT | Centro izquierda.|
 | CENTER_CENTER | Centro.|
 | CENTER_RIGHT | Centro derecha.|
 | BOTTOM_LEFT | Abajo a la izquierda.|

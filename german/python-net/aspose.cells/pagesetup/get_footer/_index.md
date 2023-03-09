@@ -20,7 +20,7 @@ def get_footer(self, section):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| section | int |0: Linker Abschnitt, 1: Mittlerer Abschnitt, 2: Rechter Abschnitt.|
+| section | int | 0: Linker Abschnitt, 1: Mittlerer Abschnitt, 2: Rechter Abschnitt.|
 
 
 

@@ -1,13 +1,13 @@
 ﻿---
 title: FillPictureType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 820
 url: /zh/python-net/aspose.cells.drawing/fillpicturetype/
 is_root: false
 ---
-##  FillPictureType枚举
+## FillPictureType枚举
 表示图片填充类型。
 
 
@@ -19,7 +19,7 @@ FillPictureType 类型公开了以下成员：
 | :- | :- |
 | STRETCH |拉紧|
 | STACK |堆|
-| STACK_AND_SCALE |堆叠缩放|
+| STACK_AND_SCALE |堆栈和缩放|
 
 
 

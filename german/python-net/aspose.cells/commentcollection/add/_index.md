@@ -26,7 +26,7 @@ def add(self, cell_name):
 | :- | :- | :- |
 | cell_name | str | Cell Name.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -58,7 +58,7 @@ def add(self, row, column):
 | row | int | Cell Zeilenindex.|
 | column | int | Cell Spaltenindex.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

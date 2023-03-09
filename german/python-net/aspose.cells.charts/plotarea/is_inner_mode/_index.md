@@ -14,7 +14,7 @@ False gibt an, dass die Größe die Größe des Plotbereichs, der Teilstriche un
 
 ###  Bemerkungen
 
-Nur für XLSX-Datei.
+Nur für XLSX-Dateien.
 ###  Definition:
 ```python
 @property

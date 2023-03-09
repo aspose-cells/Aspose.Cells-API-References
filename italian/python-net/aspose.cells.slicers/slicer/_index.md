@@ -24,19 +24,19 @@ Il tipo Slicer espone i membri seguenti:
 | [placement](/cells/it/python-net/aspose.cells.slicers/slicer/placement) | Rappresenta il modo in cui l'oggetto di disegno è collegato alle celle sottostanti.<br/> La proprietà controlla il posizionamento di un oggetto in un foglio di lavoro.|
 | [locked_aspect_ratio](/cells/it/python-net/aspose.cells.slicers/slicer/locked_aspect_ratio) | Indica se bloccare le proporzioni.|
 | [locked_position](/cells/it/python-net/aspose.cells.slicers/slicer/locked_position) | Indica se l'affettatrice specificata può essere spostata o ridimensionata utilizzando l'interfaccia utente.|
-| [slicer_cache](/cells/it/python-net/aspose.cells.slicers/slicer/slicer_cache) | Restituisce l'oggetto SlicerCache associato all'affettatrice. Sola lettura.|
-| [parent](/cells/it/python-net/aspose.cells.slicers/slicer/parent) | Restituisce l'oggetto Worksheet che rappresenta il foglio che contiene lo slicer. Sola lettura.|
+| [slicer_cache](/cells/it/python-net/aspose.cells.slicers/slicer/slicer_cache) |Restituisce l'oggetto SlicerCache associato all'affettatrice.|
+| [parent](/cells/it/python-net/aspose.cells.slicers/slicer/parent) | Restituisce l'oggetto Worksheet che rappresenta il foglio che contiene lo slicer.|
 | [style_type](/cells/it/python-net/aspose.cells.slicers/slicer/style_type) | Specificare il tipo di stile affettatrice integrato<br/> il tipo predefinito è SlicerStyleLight1|
 | [name](/cells/it/python-net/aspose.cells.slicers/slicer/name) | Restituisce o imposta il nome del filtro dei dati specificato|
 | [caption](/cells/it/python-net/aspose.cells.slicers/slicer/caption) | Restituisce o imposta la didascalia dell'affettatrice specificata.|
-| [caption_visible](/cells/it/python-net/aspose.cells.slicers/slicer/caption_visible) | Restituisce o imposta se l'intestazione che visualizza l'affettatrice Caption è visibile<br/> il valore predefinito è true|
-| [number_of_columns](/cells/it/python-net/aspose.cells.slicers/slicer/number_of_columns) |Restituisce o imposta il numero di colonne nell'affettatrice specificata.|
+| [caption_visible](/cells/it/python-net/aspose.cells.slicers/slicer/caption_visible) | Restituisce o imposta se l'intestazione che visualizza l'affettatrice Caption è visibile<br/> il valore predefinito è vero|
+| [number_of_columns](/cells/it/python-net/aspose.cells.slicers/slicer/number_of_columns) | Restituisce o imposta il numero di colonne nell'affettatrice specificata.|
 | [left_pixel](/cells/it/python-net/aspose.cells.slicers/slicer/left_pixel) | Restituisce o imposta l'offset orizzontale della forma affettatrice dalla colonna di sinistra, in pixel.|
 | [top_pixel](/cells/it/python-net/aspose.cells.slicers/slicer/top_pixel) | Restituisce o imposta l'offset verticale della forma affettatrice dalla riga superiore, in pixel.|
 | [width](/cells/it/python-net/aspose.cells.slicers/slicer/width) | Restituisce o imposta la larghezza dell'affettatrice specificata, in punti.|
 | [width_pixel](/cells/it/python-net/aspose.cells.slicers/slicer/width_pixel) | Restituisce o imposta la larghezza dell'affettatrice specificata, in pixel.|
 | [height](/cells/it/python-net/aspose.cells.slicers/slicer/height) | Restituisce o imposta l'altezza dell'affettatrice specificata, in punti.|
-| [height_pixel](/cells/it/python-net/aspose.cells.slicers/slicer/height_pixel) | Restituisce o imposta l'altezza dell'affettatrice specificata, in pixel.|
+| [height_pixel](/cells/it/python-net/aspose.cells.slicers/slicer/height_pixel) |Restituisce o imposta l'altezza dell'affettatrice specificata, in pixel.|
 | [column_width_pixel](/cells/it/python-net/aspose.cells.slicers/slicer/column_width_pixel) | Ottiene o imposta la larghezza in unità di pixel per ogni colonna dell'affettatrice.|
 | [column_width](/cells/it/python-net/aspose.cells.slicers/slicer/column_width) | Restituisce o imposta la larghezza, in punti, di ogni colonna nell'affettatrice.|
 | [row_height_pixel](/cells/it/python-net/aspose.cells.slicers/slicer/row_height_pixel) | Restituisce o imposta l'altezza, in pixel, di ogni riga nell'affettatrice specificata.|
@@ -47,12 +47,12 @@ Il tipo Slicer espone i membri seguenti:
 | Metodo| Descrizione|
 | :- | :- |
 | [add_pivot_connection(pivot)](/cells/it/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable) | Aggiunge la connessione alla tabella pivot.|
-| [remove_pivot_connection(pivot)](/cells/it/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Rimuove la connessione alla tabella pivot.|
-| [refresh()](/cells/it/python-net/aspose.cells.slicers/slicer/refresh/#) | Aggiornamento dell'affettatrice. Nel frattempo, aggiornamento e calcolo delle relative tabelle pivot.|
+| [remove_pivot_connection(pivot)](/cells/it/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Rimuove le connessioni di tabella pivot.|
+| [refresh()](/cells/it/python-net/aspose.cells.slicers/slicer/refresh/#) | Aggiornamento dell'affettatrice Nel frattempo, aggiornamento e calcolo delle tabelle pivot relative.|
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

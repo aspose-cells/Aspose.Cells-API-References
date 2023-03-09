@@ -18,8 +18,8 @@ LineCapType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | SQUARE | Kare, yarım çizgi genişliğinde çıkıntı yapar.|
-| ROUND | Yuvarlak uçlar.|
-| FLAT | Çizgi bitiş noktasında biter.|
+| ROUND |Yuvarlak uçlar.|
+| FLAT | Çizgi bitiş noktalarında biter.|
 | NONE | Yok kapak|
 
 

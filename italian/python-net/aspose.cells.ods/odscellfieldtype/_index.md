@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType enumerazione
-Rappresenta il tipo di campo cella di ods.
+Rappresenta il tipo di campo della cella delle quote.
 
 
 

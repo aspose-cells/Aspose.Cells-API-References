@@ -13,7 +13,7 @@ Kullanıcının korumalı bir çalışma sayfasında kilitlenmemiş hücreleri s
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
  lütfen Protection.AllowSelectingUnlockedCell özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

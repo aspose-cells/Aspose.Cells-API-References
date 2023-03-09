@@ -1,6 +1,6 @@
 ﻿---
 title: to_image方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 230
@@ -18,7 +18,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |输出流。|
 | image_type | [ImageType](/cells/zh/python-net/aspose.cells.drawing/imagetype) |保存图像的类型。|
@@ -49,7 +49,7 @@ def to_image(self, image_file, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | image_file | str |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
@@ -76,7 +76,7 @@ def to_image(self, stream, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |

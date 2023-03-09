@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_show_field mülk
 
-Otomatik alan indeksini göstermeyi temsil eder. -1, PivotField'in kendisi anlamına gelir.
+Otomatik alan indeksini göstermeyi temsil eder. -1, PivotField'ın kendisi anlamına gelir.
 Veri alanlarının dizini olmalıdır.
 ###  Tanım:
 ```python

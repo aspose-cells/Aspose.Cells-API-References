@@ -1,6 +1,6 @@
 ﻿---
 title: clear_sparklines方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -18,9 +18,9 @@ def clear_sparklines(self, cell_area):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |指定单元格的区域|
+| cell_area | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |指定单元格的面积|
 
 
 

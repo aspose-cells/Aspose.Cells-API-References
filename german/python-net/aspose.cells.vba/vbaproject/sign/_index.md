@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.vba/vbaproject/sign/
 is_root: false
 ---
 ##  sign(digital_signature) {#aspose.cells.digitalsignatures.DigitalSignature}
-Signieren Sie dieses VBA-Projekt mit einer DigitalSignature
+Signieren Sie dieses VBA-Projekt mit einer digitalen Signatur
 
 
 

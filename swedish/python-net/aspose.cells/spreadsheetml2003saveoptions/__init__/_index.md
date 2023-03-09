@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/
 is_root: false
 ---
 ##  SpreadsheetML2003SaveOptions() {#}
-Skapar alternativen för att spara Excel 2003 spreadml-fil.
+Skapar alternativen för att spara Excel 2003 spreadml-filer.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SpreadsheetML2003SaveOptions(save_format) {#SaveFormat}
-Skapar alternativen för att spara Excel 2003 spreadml-fil.
+Skapar alternativen för att spara Excel 2003 spreadml-filer.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Spara formatet.|
 ###  Anmärkningar

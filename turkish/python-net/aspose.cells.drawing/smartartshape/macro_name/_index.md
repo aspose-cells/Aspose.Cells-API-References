@@ -11,7 +11,7 @@ is_root: false
 
 Makronun adını alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

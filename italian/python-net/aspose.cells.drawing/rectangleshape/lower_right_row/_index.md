@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta l'indice della riga nell'angolo inferiore destro.
 
-###  Esempio
+###  Esempi
 
 ```python
 

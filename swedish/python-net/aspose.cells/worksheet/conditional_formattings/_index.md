@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings fastighet
 
-Hämtar Conditional Formattings i kalkylbladet.
+Hämtar den villkorliga formateringen i kalkylbladet.
 ###  Definition:
 ```python
 @property

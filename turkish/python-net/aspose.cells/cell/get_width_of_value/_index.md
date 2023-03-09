@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cell/get_width_of_value/
 is_root: false
 ---
 ##  get_width_of_value() {#}
-Değerin genişliğini piksel birimi cinsinden alır.
+Değerin genişliğini piksel cinsinden alır.
 
 
 ###  İadeler

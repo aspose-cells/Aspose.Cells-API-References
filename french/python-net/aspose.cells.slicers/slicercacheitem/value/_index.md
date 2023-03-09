@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value propriété
 
-Renvoie le texte de l'étiquette de l'élément de segment. Lecture seulement.
+Renvoie le texte de l'étiquette de l'élément de segment.
 ###  Définition:
 ```python
 @property

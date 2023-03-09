@@ -22,7 +22,7 @@ def cell_index_to_name(self, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Indice de ligne.|
 | column | int | Indice de colonne.|

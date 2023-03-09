@@ -18,13 +18,13 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | BLUE_TISSUE_PAPER | Представляет тип текстуры Blue Tissue Paper.|
-| BOUQUET | Представляет тип текстуры Bouquet.|
+| BOUQUET | Представляет тип текстуры букета.|
 | BROWN_MARBLE | Представляет тип текстуры «Коричневый мрамор».|
 | CANVAS | Представляет тип текстуры Canvas.|
 | CORK | Представляет тип текстуры Cork.|
-| DENIM | Представляет тип текстуры Denim.|
+| DENIM |Представляет тип текстуры Denim.|
 | FISH_FOSSIL | Представляет тип текстуры Fish Fossil.|
-| GRANITE |Представляет тип текстуры Granite.|
+| GRANITE | Представляет тип текстуры Granite.|
 | GREEN_MARBLE | Представляет тип текстуры Green Marble.|
 | MEDIUM_WOOD | Представляет тип текстуры Medium Wood.|
 | NEWSPRINT | Представляет тип текстуры газетной бумаги.|

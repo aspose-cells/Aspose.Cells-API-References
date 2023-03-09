@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/gradientfilltype/
 is_root: false
 ---
 ##  العد GradientFillType
-يمثل كل أنواع التعبئة المتدرجة.
+يمثل جميع أنواع التعبئة المتدرجة.
 
 
 

@@ -19,7 +19,7 @@ def reset_ranges(self, data_range, is_vertical, location_range):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | data_range | str | Anger det nya dataintervallet för sparklinegruppen.|
 | is_vertical | bool | Anger om gnistlinjerna från det nya dataintervallet ska plottas efter rad eller kolumn.|

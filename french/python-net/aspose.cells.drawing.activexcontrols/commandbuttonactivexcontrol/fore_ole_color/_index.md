@@ -13,7 +13,7 @@ Obtient et définit l'ancienne couleur du premier plan.
 
 ###  Remarques
 
-Ne s'applique pas au champ Image.
+Ne s'applique pas au contrôle d'image.
 ###  Définition:
 ```python
 @property

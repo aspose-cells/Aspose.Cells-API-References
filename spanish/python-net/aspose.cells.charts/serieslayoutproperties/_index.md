@@ -27,7 +27,7 @@ El tipo SeriesLayoutProperties expone los siguientes miembros:
 | [show_mean_line](/cells/es/python-net/aspose.cells.charts/serieslayoutproperties/show_mean_line) | Indica si muestra la línea que conecta todos los puntos medios.|
 | [show_outlier_points](/cells/es/python-net/aspose.cells.charts/serieslayoutproperties/show_outlier_points) | Indica si se muestran puntos de datos atípicos.|
 | [show_mean_marker](/cells/es/python-net/aspose.cells.charts/serieslayoutproperties/show_mean_marker) | Indica si se muestran marcadores que denotan la media.|
-| [show_inner_points](/cells/es/python-net/aspose.cells.charts/serieslayoutproperties/show_inner_points) |Indica si se muestran puntos de datos no atípicos.|
+| [show_inner_points](/cells/es/python-net/aspose.cells.charts/serieslayoutproperties/show_inner_points) | Indica si se muestran puntos de datos no atípicos.|
 | [subtotals](/cells/es/python-net/aspose.cells.charts/serieslayoutproperties/subtotals) | Representa el índice de un punto de datos subtotal.|
 | [quartile_calculation](/cells/es/python-net/aspose.cells.charts/serieslayoutproperties/quartile_calculation) | Representa las propiedades estadísticas de la serie.|
 | [map_label_layout](/cells/es/python-net/aspose.cells.charts/serieslayoutproperties/map_label_layout) | Obtiene y establece el diseño de las etiquetas de mapa.|

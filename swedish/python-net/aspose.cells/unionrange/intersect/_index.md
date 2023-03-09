@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range | str | Räckvidden.|
 ###  Anmärkningar
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/sv/python-net/aspose.cells/unionrange) | Räckvidden.|
 ###  Anmärkningar
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | ranges | list | Räckvidden.|
 ###  Anmärkningar

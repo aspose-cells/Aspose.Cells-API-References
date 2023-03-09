@@ -31,7 +31,7 @@ def convert_to_range(self, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | options | [TableToRangeOptions](/cells/it/python-net/aspose.cells.tables/tabletorangeoptions) | le opzioni durante la conversione della tabella in intervallo.|
 

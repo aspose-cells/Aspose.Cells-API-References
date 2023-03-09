@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cells/get_dependents_in_calculation/
 is_root: false
 ---
 ##  get_dependents_in_calculation(row, column, recursive) {#int-int-bool}
-Hämtar alla celler vars beräknade resultat beror på specifik cell.
+Hämtar alla celler vars beräknade resultat beror på specifika celler.
 
 
 ###  Returnerar
@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, row, column, recursive):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex för den specifika cellen|
 | column | int | Kolumnindex för den specifika cellen.|

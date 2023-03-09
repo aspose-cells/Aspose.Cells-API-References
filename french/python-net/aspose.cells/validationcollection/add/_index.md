@@ -24,7 +24,7 @@ def add(self):
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+REMARQUE : ce membre est désormais obsolète.
 veuillez utiliser la méthode ValidationCollection.Add(CellArea).
  Cette propriété sera supprimée 12 mois plus tard depuis JANVIER 2015.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
@@ -44,7 +44,7 @@ def add(self, ca):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | ca | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | La zone contient cette validation.|
 

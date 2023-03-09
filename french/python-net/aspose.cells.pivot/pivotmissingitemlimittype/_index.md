@@ -19,7 +19,7 @@ Le type PivotMissingItemLimitType expose les membres suivants :
 | :- | :- |
 | AUTOMATIC | Le nombre par défaut d'éléments uniques par PivotField autorisé.|
 | MAX | Le nombre maximal d'éléments uniques par PivotField autorisé (>32 500).|
-| NONE |Aucun élément unique par PivotField n'est autorisé.|
+| NONE | Aucun élément unique par PivotField n'est autorisé.|
 
 
 

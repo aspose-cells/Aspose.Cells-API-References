@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [charset](/cells/ar/python-net/aspose.cells/font/charset) | تمثيل مجموعة الأحرف.|
 | [is_italic](/cells/ar/python-net/aspose.cells/font/is_italic) | الحصول على أو تحديد قيمة تشير إلى ما إذا كان الخط مائلاً.|
-| [is_bold](/cells/ar/python-net/aspose.cells/font/is_bold) | الحصول على أو تحديد قيمة تشير إلى ما إذا كان الخط غامقًا أم لا.|
+| [is_bold](/cells/ar/python-net/aspose.cells/font/is_bold) |الحصول على أو تحديد قيمة تشير إلى ما إذا كان الخط غامقًا أم لا.|
 | [caps_type](/cells/ar/python-net/aspose.cells/font/caps_type) | الحصول على نوع الأحرف الاستهلالية للنص وتعيينه.|
 | [strike_type](/cells/ar/python-net/aspose.cells/font/strike_type) | يحصل على نوع الإضراب للنص.|
 | [is_strikeout](/cells/ar/python-net/aspose.cells/font/is_strikeout) | الحصول على أو تحديد قيمة تشير إلى ما إذا كان الخط عبارة عن خط واحد.|
@@ -40,11 +40,11 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [equals(font)](/cells/ar/python-net/aspose.cells/font/equals/#Font) | للتحقق مما إذا كان خطان متساويان.|
+| [equals(font)](/cells/ar/python-net/aspose.cells/font/equals/#Font) | للتحقق مما إذا كان الخطان متساويان.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

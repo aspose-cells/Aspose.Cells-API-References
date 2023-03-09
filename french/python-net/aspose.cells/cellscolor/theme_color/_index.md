@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color propriété
 
-Obtient la couleur du thème. S'applique uniquement au type de couleur de thème.
+Obtient la couleur du thème.
 ###  Définition:
 ```python
 @property

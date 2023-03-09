@@ -24,7 +24,7 @@ def add(self):
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+NOT: Bu üye artık kullanılmıyor.
 lütfen ValidationCollection.Add(CellArea) yöntemini kullanın.
  Bu mülk, OCAK 2015'ten bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
@@ -44,7 +44,7 @@ def add(self, ca):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Alan bu doğrulamayı içerir.|
 

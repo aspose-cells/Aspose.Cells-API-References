@@ -11,8 +11,8 @@ is_root: false
 
  Obtient ou définit la plage des valeurs Axis de deuxième catégorie.
  Il peut s'agir d'une plage de cellules (par exemple, "d1:e10"),
- ou une séquence de valeurs (telle que,"{2,6,8,10}").
-Effets uniquement lorsque certaines ASeries tracent sur le deuxième axe.
+ ou une séquence de valeurs (telles que,"{2,6,8,10}").
+Effets uniquement lorsque certains ASeries tracent sur le deuxième axe.
 ###  Définition:
 ```python
 @property

@@ -10,7 +10,7 @@ is_root: false
 ##  export_area mülk
 
 Geçerli etkin Çalışma Sayfasının dışa aktarılan CellArea'sını Alır veya Ayarlar.
-Bu özniteliği ayarlarsanız, geçerli etkin Çalışma Sayfasının yazdırma alanı çıkarılacaktır.
+Bu özelliği ayarlarsanız, geçerli etkin Çalışma Sayfasının yazdırma alanı atlanır.
 Dosya html'ye kaydedilirken yalnızca belirtilen alan dışa aktarılacaktır.
 ###  Tanım:
 ```python

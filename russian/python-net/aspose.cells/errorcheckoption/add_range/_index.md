@@ -22,7 +22,7 @@ def add_range(self, ca):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | ca | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | диапазон, который необходимо добавить.|
 

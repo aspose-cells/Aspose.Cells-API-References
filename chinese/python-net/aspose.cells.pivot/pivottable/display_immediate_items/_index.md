@@ -1,6 +1,6 @@
 ﻿---
 title: display_immediate_items 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 450
@@ -10,7 +10,7 @@ is_root: false
 ## display_immediate_items 属性
 
 指示行和列区域中的项目是否可见
-当数据透视表的数据区域为空时。默认值是true。
+当数据透视表的数据区为空时。
 ### 定义：
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Indica se la forma è relativa alla dimensione dell'immagine originale.
 
-###  Esempio
+###  Esempi
 
 ```python
 

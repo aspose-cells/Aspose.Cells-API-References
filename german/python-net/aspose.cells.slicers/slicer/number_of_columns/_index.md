@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die Anzahl der Spalten im angegebenen Slicer zurück oder legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

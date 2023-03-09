@@ -19,8 +19,8 @@ TableDataSourceType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | WORKSHEET | Excel Çalışma Sayfası Tablosu|
 | SHARE_POINT | SharePoint bağlantılı Listesini oku-yaz|
-| XML | XML eşleyici Tablosu|
-| QUERY_TABLE | Sorgu Tablosu|
+| XML | XML eşleyici tablosu|
+| QUERY_TABLE | Sorgu tablosu|
 
 
 

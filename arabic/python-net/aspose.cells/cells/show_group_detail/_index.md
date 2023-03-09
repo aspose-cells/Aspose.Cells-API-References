@@ -18,7 +18,7 @@ def show_group_detail(self, is_vertical, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | is_vertical | bool | صحيح ، يوسع الصفوف المجمعة.|
 | index | int | فهرس الصف / العمود|

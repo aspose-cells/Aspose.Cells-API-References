@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text الملكية
 
-الحصول على اسم text للعنصر.
+الحصول على اسم text للكائن.
 ###  تعريف:
 ```python
 @property

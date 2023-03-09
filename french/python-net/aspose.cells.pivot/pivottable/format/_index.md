@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.pivot/pivottable/format/
 is_root: false
 ---
 ##  format(row, column, style) {#int-int-Style}
-Formater la cellule dans la zone de tableau croisé dynamique
+Mettre en forme la cellule dans la zone du tableau croisé dynamique
 
 
 
@@ -18,11 +18,11 @@ def format(self, row, column, style):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| row | int |Index de ligne de la cellule|
+| row | int | Index de ligne de la cellule|
 | column | int | Indice de colonne de la cellule|
-| style | [Style](/cells/fr/python-net/aspose.cells/style) | Style qui consiste à formater la cellule|
+| style | [Style](/cells/fr/python-net/aspose.cells/style) |Style qui consiste à formater la cellule|
 
 
 

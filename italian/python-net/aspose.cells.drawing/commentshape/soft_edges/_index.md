@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il raggio di sfocatura da applicare ai bordi, in unità di punti.
 
-###  Esempio
+###  Esempi
 
 ```python
 

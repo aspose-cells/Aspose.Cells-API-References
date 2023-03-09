@@ -19,7 +19,7 @@ Il tipo PivotMissingItemLimitType espone i membri seguenti:
 | :- | :- |
 | AUTOMATIC | Il numero predefinito di elementi univoci consentiti per PivotField.|
 | MAX | Il numero massimo di elementi univoci consentiti per PivotField (>32.500).|
-| NONE |Non sono consentiti elementi univoci per PivotField.|
+| NONE | Non sono consentiti elementi univoci per PivotField.|
 
 
 

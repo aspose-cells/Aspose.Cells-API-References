@@ -18,11 +18,11 @@ def apply_row_style(self, row, style, flag):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | L'index de ligne.|
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | L'objet de style qui sera appliqué.|
-| flag | [StyleFlag](/cells/fr/python-net/aspose.cells/styleflag) | Indicateurs indiquant les propriétés de formatage appliquées.|
+| flag | [StyleFlag](/cells/fr/python-net/aspose.cells/styleflag) |Indicateurs qui indiquent les propriétés de formatage appliquées.|
 
 
 

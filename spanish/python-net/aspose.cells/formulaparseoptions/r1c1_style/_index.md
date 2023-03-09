@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  r1c1_style propiedad
 
-Si la fórmula es el estilo de referencia R1C1. El valor predeterminado es falso.
+Si la fórmula es el estilo de referencia F1C1. El valor predeterminado es falso.
 ###  Definición:
 ```python
 @property

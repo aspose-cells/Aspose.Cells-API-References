@@ -18,7 +18,7 @@ def move_range(self, source_area, dest_row, dest_column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source_area | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | L'intervallo che deve essere spostato.|
 | dest_row | int | La fila più lontana.|

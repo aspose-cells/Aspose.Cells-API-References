@@ -1,5 +1,5 @@
 ﻿---
-title: DynamicFilter sınıf
+title: DynamicFilter sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 510
 url: /tr/python-net/aspose.cells/dynamicfilter/
 is_root: false
 ---
-##  DynamicFilter sınıf
+##  DynamicFilter sınıfı
 Dinamik filtreyi temsil eder.
 
 

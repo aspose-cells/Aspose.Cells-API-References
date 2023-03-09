@@ -1,5 +1,5 @@
 ﻿---
-title: TextureFill sınıf
+title: TextureFill sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 710
 url: /tr/python-net/aspose.cells.drawing/texturefill/
 is_root: false
 ---
-##  TextureFill sınıf
+##  TextureFill sınıfı
 Doku dolgu biçimini temsil eden nesneyi kapsüller
 
 

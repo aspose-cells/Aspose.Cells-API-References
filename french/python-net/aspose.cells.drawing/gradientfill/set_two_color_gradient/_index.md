@@ -19,12 +19,12 @@ def set_two_color_gradient(self, color1, color2, style, variant):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color | Une couleur dégradée.|
-| color2 | aspose.pydrawing.Color | Deux dégradés de couleur.|
+| color2 | aspose.pydrawing.Color | Deux couleurs dégradées.|
 | style | [GradientStyleType](/cells/fr/python-net/aspose.cells.drawing/gradientstyletype) | Style d'ombrage dégradé.|
-| variant | int |La variante dégradée. Il peut s'agir d'une valeur comprise entre 1 et 4, correspondant à l'une des quatre variantes de l'onglet Dégradé de la boîte de dialogue Effets de remplissage. Si style est GradientStyle.FromCenter, l'argument Variant ne peut être que 1 ou 2.|
+| variant | int |Variante de dégradé. Il peut s'agir d'une valeur comprise entre 1 et 4, correspondant à l'une des quatre variantes de l'onglet Dégradé de la boîte de dialogue Effets de remplissage. Si style est GradientStyle.FromCenter, l'argument Variante ne peut être que 1 ou 2.|
 
 
 ##  set_two_color_gradient(color1, transparency1, color2, transparency2, style, variant) {#aspose.pydrawing.Color-float-aspose.pydrawing.Color-float-GradientStyleType-int}
@@ -39,14 +39,14 @@ def set_two_color_gradient(self, color1, transparency1, color2, transparency2, s
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color | Une couleur dégradée.|
 | transparency1 | float | Le degré de transparence de la couleur1 sous la forme d'une valeur comprise entre 0,0 (opaque) et 1,0 (clair).|
-| color2 | aspose.pydrawing.Color | Deux dégradés de couleur.|
+| color2 | aspose.pydrawing.Color | Deux couleurs dégradées.|
 | transparency2 | float | Le degré de transparence de la couleur2 sous la forme d'une valeur comprise entre 0,0 (opaque) et 1,0 (clair).|
 | style | [GradientStyleType](/cells/fr/python-net/aspose.cells.drawing/gradientstyletype) | Style d'ombrage dégradé.|
-| variant | int |La variante dégradée. Il peut s'agir d'une valeur comprise entre 1 et 4, correspondant à l'une des quatre variantes de l'onglet Dégradé de la boîte de dialogue Effets de remplissage. Si style est GradientStyle.FromCenter, l'argument Variant ne peut être que 1 ou 2.|
+| variant | int |Variante de dégradé. Il peut s'agir d'une valeur comprise entre 1 et 4, correspondant à l'une des quatre variantes de l'onglet Dégradé de la boîte de dialogue Effets de remplissage. Si style est GradientStyle.FromCenter, l'argument Variante ne peut être que 1 ou 2.|
 
 
 

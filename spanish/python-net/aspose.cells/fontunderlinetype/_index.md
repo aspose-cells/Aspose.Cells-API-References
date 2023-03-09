@@ -30,12 +30,12 @@ El tipo FontUnderlineType expone los siguientes miembros:
 | DASH_LONG_HEAVY | Representa subrayado grueso y discontinuo largo|
 | DOT_DASH | Representa subrayado de puntos y guiones|
 | DOT_DOT_DASH | Representa guión-punto-punto subrayado|
-| DOTTED | Representa subrayado punteado|
+| DOTTED |Representa subrayado punteado|
 | DOTTED_HEAVY | Representa subrayado de puntos gruesos|
 | HEAVY | Representa subrayado grueso|
 | WAVE | Representa Onda Subrayado|
 | WAVY_DOUBLE | Representa subrayado de doble onda|
-| WAVY_HEAVY |Representa Subrayado de Onda Pesada|
+| WAVY_HEAVY | Representa Subrayado de Onda Pesada|
 | WORDS | Representa solo caracteres subrayados que no son espacios|
 
 

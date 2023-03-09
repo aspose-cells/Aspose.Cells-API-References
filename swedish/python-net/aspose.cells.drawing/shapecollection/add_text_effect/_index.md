@@ -22,7 +22,7 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/sv/python-net/aspose.cells.drawing/msopresettexteffect) | Den förinställda texteffekttypen för mso.|
 | text | str | WordArt-texten.|
@@ -32,10 +32,10 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | font_italic | bool | Anger om teckensnittet är kursivt.|
 | upper_left_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av formen från dess vänstra rad, i pixelenhet.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
-| left | int | Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i pixelenhet.|
-| height | int | Representerar formhöjden, i pixelenhet.|
-| width | int | Representerar formens bredd i pixelenhet.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
+| left | int |Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i pixelenhet.|
+| height | int | Representerar formens höjd i enheter av pixlar.|
+| width | int | Representerar formens bredd i enheter av pixlar.|
 
 ###  Exempel
 

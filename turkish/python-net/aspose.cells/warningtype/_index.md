@@ -17,14 +17,14 @@ WarningType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| FONT_SUBSTITUTION |Yazı tipi değiştirme uyarı türü<br/> font bulunamadığında bu uyarı tipi alınabilir.|
-| DUPLICATE_DEFINED_NAME | Dosyada yinelenen tanımlanmış ad bulundu.|
-| UNSUPPORTED_FILE_FORMAT | Desteklenmeyen dosya formatı.|
+| FONT_SUBSTITUTION | Yazı tipi değiştirme uyarı türü<br/> font bulunamadığında bu uyarı tipi alınabilir.|
+| DUPLICATE_DEFINED_NAME |Dosyada yinelenen tanımlanmış ad bulundu.|
+| UNSUPPORTED_FILE_FORMAT | Desteklenmeyen dosya biçimleri.|
 | INVALID_TEXT_OF_DEFINED_NAME | Tanımlanan adın geçersiz metni.|
 | INVALID_FONT_NAME | Yazı tipi adı geçersiz.|
 | INVALID_AUTO_FILTER_RANGE | Geçersiz otomatik filtre aralığı.|
 | IO | Bu belge bozulmuş.|
-| LIMITATION | MS Excel sınırlama hatası dışında.|
+| LIMITATION |MS Excel sınırlama hatası dışında.|
 | INVALID_DATA | Geçersiz veri.|
 | FORMULA | Geçersiz formül.|
 

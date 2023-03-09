@@ -22,9 +22,9 @@ def create_range(self, address, sheet_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| address | str | Adressen till området.|
+| address | str | Adressen till intervallet.|
 | sheet_index | int | Arkindex.|
 
 

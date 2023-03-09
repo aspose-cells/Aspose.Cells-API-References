@@ -16,7 +16,7 @@ Si l'utilisateur obtient StackOverflowException lors du calcul des formules, cet
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. À la place, veuillez utiliser CalculationOptions
+REMARQUE : ce membre est désormais obsolète.
 avec le CalcStackSize spécifié lors du calcul des formules.
  Cette propriété sera supprimée 12 mois plus tard depuis février 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

@@ -1,6 +1,6 @@
 ﻿---
 title: get_param_value方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ is_root: false
 
 如果参数是普通值，则返回普通值。
 如果参数是引用，则返回 ReferredArea 对象。
-如果参数引用多个数据集，则返回对象数组。
+如果参数引用多个数据集，则返回一个对象数组。
 
 
 ```python
@@ -24,9 +24,9 @@ def get_param_value(self, index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| index | int |参数索引（基于0）|
+| index | int |参数的索引（基于 0）|
 
 
 

@@ -10,7 +10,7 @@ is_root: false
 ##  display_immediate_items fastighet
 
 Anger om objekt i rad- och kolumnområdena är synliga
-när dataområdet i pivottabellen är tomt. Standardvärdet är sant.
+när dataområdet i pivottabellen är tomt.
 ###  Definition:
 ```python
 @property

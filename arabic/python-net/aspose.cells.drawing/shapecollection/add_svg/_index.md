@@ -22,18 +22,18 @@ def add_svg(self, upper_left_row, top, upper_left_column, left, height, width, s
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية للشكل من صفه الأيسر ، بوحدة البكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | left | int | الإزاحة الأفقية للشكل من عمودها الأيسر ، بوحدة البكسل.|
-| height | int | ارتفاع الشكل بوحدة البكسل.|
-| width | int | عرض الشكل بوحدة البكسل.|
+| height | int | ارتفاع الشكل بوحدات البكسل.|
+| width | int | عرض الشكل بوحدات البكسل.|
 | svg_data | bytes | بيانات الصورة svg.|
-| compatible_image_data | bytes | بيانات الصورة المحولة من svg لكي تكون متوافقة مع Excel 2016 أو الإصدارات الأقل.|
+| compatible_image_data | bytes |بيانات الصورة المحولة من svg لكي تكون متوافقة مع Excel 2016 أو الإصدارات الأقل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose import pycore

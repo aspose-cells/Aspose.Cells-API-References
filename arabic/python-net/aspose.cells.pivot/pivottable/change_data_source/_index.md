@@ -19,7 +19,7 @@ def change_data_source(self, source):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | source | list |  |
 

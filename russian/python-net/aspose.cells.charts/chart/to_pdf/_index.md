@@ -18,7 +18,7 @@ def to_pdf(self, file_name):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | file_name | str | имя файла pdf с полным путем|
 
@@ -34,7 +34,7 @@ def to_pdf(self, stream):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Выходной поток.|
 
@@ -50,7 +50,7 @@ def to_pdf(self, file_name, desired_page_width, desired_page_height, h_alignment
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | file_name | str | имя файла pdf с полным путем|
 | desired_page_width | float | Желаемая ширина страницы в дюймах.|
@@ -70,7 +70,7 @@ def to_pdf(self, stream, desired_page_width, desired_page_height, h_alignment_ty
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Выходной поток.|
 | desired_page_width | float | Желаемая ширина страницы в дюймах.|

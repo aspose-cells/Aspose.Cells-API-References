@@ -26,7 +26,7 @@ def get_enumerator(self):
 
 Lors de la traversée d'éléments par l'énumérateur renvoyé, la collection de cellules
 ne doit pas être modifié (comme les opérations qui entraîneront l'instanciation d'un nouveau Cell/Row ou la suppression d'un Cell/Row existant).
-Sinon, l'énumérateur peut ne pas être en mesure de parcourir correctement toutes les cellules (certains éléments peuvent être parcourus à plusieurs reprises ou ignorés).
+Sinon, l'énumérateur peut ne pas être en mesure de parcourir toutes les cellules correctement (certains éléments peuvent être parcourus à plusieurs reprises ou ignorés).
 
 
 ###  Voir également

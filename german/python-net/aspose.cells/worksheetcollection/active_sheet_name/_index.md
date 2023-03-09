@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  active_sheet_name Eigentum
 
-Repräsentiert den Namen des aktiven Arbeitsblatts, wenn das Arbeitsblatt geöffnet wird.
+Stellt den Namen des aktiven Arbeitsblatts dar, wenn das Arbeitsblatt geöffnet wird.
 ###  Definition:
 ```python
 @property

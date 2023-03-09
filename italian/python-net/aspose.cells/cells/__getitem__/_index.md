@@ -13,7 +13,7 @@ Ottiene l'elemento [Cell](/cells/it/python-net/aspose.cells/cell) all'interno de
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
-| index | L'indice in base zero dell'elemento.|
+| index | Indice in base zero dell'elemento.|
 
 
 

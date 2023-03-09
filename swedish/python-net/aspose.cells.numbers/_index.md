@@ -16,8 +16,8 @@ is_root: false
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
-| [LoadNumbersTableType](/cells/sv/python-net/aspose.cells.numbers/loadnumberstabletype) | Indikerar typ av laddningstabeller när vissa tabeller finns i ett ark.|
+| [LoadNumbersTableType](/cells/sv/python-net/aspose.cells.numbers/loadnumberstabletype) |Indikerar typ av laddningstabeller när vissa tabeller finns i ett ark.|
 
 

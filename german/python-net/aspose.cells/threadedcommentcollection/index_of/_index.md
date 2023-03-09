@@ -13,7 +13,7 @@ Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des ersten Vo
 
 ###  Kehrt zurück
 
-Der nullbasierte Index des ersten Vorkommens von value innerhalb des Bereichs von Elementen in der Array-Liste, der sich von startIndex bis zum letzten Element erstreckt, falls gefunden; andernfalls -1.
+Der nullbasierte Index des ersten Vorkommens von value innerhalb des Bereichs von Elementen in der Arrayliste, der sich von startIndex bis zum letzten Element erstreckt, falls gefunden; andernfalls -1.
 
 
 ```python
@@ -24,8 +24,8 @@ def index_of(self, item, index):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [ThreadedComment](/cells/de/python-net/aspose.cells/threadedcomment) | Das Objekt, das in der Arrayliste gesucht werden soll. Der Wert kann null sein.|
-| index | int | Der nullbasierte Startindex der Suche. 0 (Null) ist in einer leeren Liste gültig.|
+| item | [ThreadedComment](/cells/de/python-net/aspose.cells/threadedcomment) | Das Objekt, das in der Arrayliste gesucht werden soll.|
+| index | int | Der nullbasierte Startindex der Suche 0 (Null) gilt in einer leeren Liste.|
 
 
 ##  index_of(item, index, count) {#ThreadedComment-int-int}
@@ -34,7 +34,7 @@ Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des ersten Vo
 
 ###  Kehrt zurück
 
-Der nullbasierte Index des ersten Vorkommens von value innerhalb des Bereichs von Elementen in der Array-Liste, die bei startIndex beginnt und die Anzahl der Elemente enthält, falls gefunden; andernfalls -1.
+Der nullbasierte Index des ersten Vorkommens von value innerhalb des Bereichs von Elementen in der Arrayliste, die bei startIndex beginnt und die Anzahl der Elemente enthält, falls gefunden, andernfalls -1.
 
 
 ```python
@@ -45,8 +45,8 @@ def index_of(self, item, index, count):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [ThreadedComment](/cells/de/python-net/aspose.cells/threadedcomment) | Das Objekt, das in der Arrayliste gesucht werden soll. Der Wert kann null sein.|
-| index | int | Der nullbasierte Startindex der Suche. 0 (Null) ist in einer leeren Liste gültig.|
+| item | [ThreadedComment](/cells/de/python-net/aspose.cells/threadedcomment) | Das Objekt, das in der Arrayliste gesucht werden soll.|
+| index | int | Der nullbasierte Startindex der Suche 0 (Null) gilt in einer leeren Liste.|
 | count | int | Die Anzahl der Elemente im zu durchsuchenden Abschnitt.|
 
 

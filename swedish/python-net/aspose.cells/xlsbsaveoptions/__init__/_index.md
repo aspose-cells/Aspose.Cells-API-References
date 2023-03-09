@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Spara formatet. Det måste vara xlsb.|
 ###  Anmärkningar

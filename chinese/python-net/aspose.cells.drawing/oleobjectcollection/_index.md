@@ -1,13 +1,13 @@
 ﻿---
 title: OleObjectCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 410
 url: /zh/python-net/aspose.cells.drawing/oleobjectcollection/
 is_root: false
 ---
-##  OleObjectCollection类
+## OleObjectCollection类
 表示嵌入的 OLE 对象。
 
 

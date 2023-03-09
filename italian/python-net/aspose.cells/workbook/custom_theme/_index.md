@@ -18,7 +18,7 @@ def custom_theme(self, theme_name, colors):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | theme_name | str | Il nome del tema|
 | colors | aspose.pydrawing.Color[] | I colori del tema|
@@ -27,7 +27,7 @@ def custom_theme(self, theme_name, colors):
 La lunghezza dei colori dovrebbe essere 12.
 | Indice matrice| Tipo di tema|
 | :- | :- |
-| 0| Sfondo1|
+| 0| Sfondo 1|
 | 1| Testo 1|
 | 2| Sfondo2|
 | 3| Testo2|

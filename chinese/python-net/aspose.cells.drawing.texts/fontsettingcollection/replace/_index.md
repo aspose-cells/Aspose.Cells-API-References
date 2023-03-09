@@ -1,6 +1,6 @@
 ﻿---
 title: replace方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
@@ -18,7 +18,7 @@ def replace(self, old_value, new_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | old_value | str |旧文。|
 | new_value | str |新的文本。|
@@ -35,7 +35,7 @@ def replace(self, index, count, text):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | index | int |起始索引。|
 | count | int |字符数。|

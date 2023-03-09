@@ -27,7 +27,7 @@ Typen CalculationCell avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [set_calculated_value(v)](/cells/sv/python-net/aspose.cells/calculationcell/set_calculated_value/#any) |Ställer in det beräknade värdet för cellen.|
+| [set_calculated_value(v)](/cells/sv/python-net/aspose.cells/calculationcell/set_calculated_value/#any) | Ställer in det beräknade värdet för cellen.|
 
 
 

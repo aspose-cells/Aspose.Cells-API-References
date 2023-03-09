@@ -18,7 +18,7 @@ def merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_row | int | Primera fila de este rango (basado en cero)|
 | first_column | int | Primera columna de este rango (basado en cero)|
@@ -40,7 +40,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_row | int | Primera fila de este rango (basado en cero)|
 | first_column | int | Primera columna de este rango (basado en cero)|
@@ -51,7 +51,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 
 Haga referencia a la celda combinada a través de la dirección de la celda superior izquierda en el rango.
 Si mergeConflict es verdadero y el rango combinado entra en conflicto con otras celdas combinadas,
-otras celdas combinadas se eliminarán automáticamente.
+Las demás celdas combinadas se eliminarán automáticamente.
 
 ##  merge(first_row, first_column, total_rows, total_columns, check_conflict, merge_conflict) {#int-int-int-int-bool-bool}
 Combina un rango específico de celdas en una sola celda.
@@ -64,7 +64,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_row | int | Primera fila de este rango (basado en cero)|
 | first_column | int | Primera columna de este rango (basado en cero)|
@@ -76,7 +76,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 
 Haga referencia a la celda combinada a través de la dirección de la celda superior izquierda en el rango.
 Si mergeConflict es verdadero y el rango combinado entra en conflicto con otras celdas combinadas,
-otras celdas combinadas se eliminarán automáticamente.
+Las demás celdas combinadas se eliminarán automáticamente.
 
 
 ###  Ver también

@@ -1,13 +1,13 @@
 ﻿---
 title: QueryTable类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1230
 url: /zh/python-net/aspose.cells/querytable/
 is_root: false
 ---
-##  QueryTable类
+## QueryTable类
 代表QueryTable信息。
 
 

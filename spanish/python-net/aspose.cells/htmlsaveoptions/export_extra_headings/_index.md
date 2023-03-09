@@ -10,7 +10,7 @@ is_root: false
 ##  export_extra_headings propiedad
 
 Indica si se exportan encabezados adicionales cuando la longitud del texto es más larga que la columna de visualización máxima.
-El valor predeterminado es falso. Si desea importar el archivo html a Excel, mantenga el valor predeterminado.
+El valor predeterminado es falso.
 ###  Definición:
 ```python
 @property

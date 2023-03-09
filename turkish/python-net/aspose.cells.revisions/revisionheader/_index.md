@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionHeader sınıf
+title: RevisionHeader sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 100
 url: /tr/python-net/aspose.cells.revisions/revisionheader/
 is_root: false
 ---
-##  RevisionHeader sınıf
+##  RevisionHeader sınıfı
 Bu çalışma kitabı için gerçekleşen belirli değişikliklerin bir listesini temsil eder.
 
 

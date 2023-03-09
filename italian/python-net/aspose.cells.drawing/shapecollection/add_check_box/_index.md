@@ -22,16 +22,16 @@ def add_check_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| top | int | Rappresenta l'offset verticale della casella di controllo dalla sua riga sinistra, in unità di pixel.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| top | int |Rappresenta l'offset verticale della casella di controllo dalla sua riga sinistra, in unità di pixel.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | left | int | Rappresenta l'offset orizzontale della casella di testo dalla colonna di sinistra, in unità di pixel.|
 | height | int | Altezza della casella di testo, in unità di pixel.|
 | width | int | Larghezza della casella di testo, in unità di pixel.|
 
-###  Esempio
+###  Esempi
 
 ```python
 

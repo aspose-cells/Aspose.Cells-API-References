@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  regex_key Eigentum
 
-Gibt an, ob es sich bei dem gesuchten Schlüssel um Regex handelt. Wenn wahr, wird der gesuchte Schlüssel als Regex angenommen.
+Gibt an, ob der gesuchte Schlüssel ein regulärer Ausdruck ist. Wenn wahr, wird der gesuchte Schlüssel als regulärer Ausdruck angenommen.
 ###  Definition:
 ```python
 @property

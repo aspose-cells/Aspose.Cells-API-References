@@ -13,7 +13,7 @@ Obtient la valeur de la cellule avec un décalage donné à partir du coin supé
 
 ###  Retour
 
-"#REF !" si cette zone est invalide ;
+"#REF!" si cette zone est invalide ;
 "#N/A" s'il est donné un décalage hors de cette zone ;
 Sinon, renvoie la valeur de la cellule à la position donnée.
 
@@ -24,10 +24,10 @@ def get_value(self, row_offset, col_offset):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row_offset | int | décalage de ligne par rapport à la ligne de départ de cette zone|
-| col_offset | int | décalage de colonne par rapport à la ligne de départ de cette zone|
+| col_offset | int |décalage de colonne par rapport à la ligne de départ de cette zone|
 
 
 ##  get_value(row_offset, col_offset, calculate_formulas) {#int-int-bool}
@@ -36,7 +36,7 @@ Obtient la valeur de la cellule avec un décalage donné à partir du coin supé
 
 ###  Retour
 
-"#REF !" si cette zone est invalide ;
+"#REF!" si cette zone est invalide ;
 "#N/A" s'il est donné un décalage hors de cette zone ;
 Sinon, renvoie la valeur de la cellule à la position donnée.
 
@@ -47,11 +47,11 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row_offset | int | décalage de ligne par rapport à la ligne de départ de cette zone|
-| col_offset | int | décalage de colonne par rapport à la ligne de départ de cette zone|
-| calculate_formulas | bool | Que ce soit pour le calculer récursivement si la référence spécifiée est une formule|
+| col_offset | int |décalage de colonne par rapport à la ligne de départ de cette zone|
+| calculate_formulas | bool | S'il le calcule de manière récursive si la référence spécifiée est la formule|
 
 
 

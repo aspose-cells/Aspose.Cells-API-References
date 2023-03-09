@@ -18,7 +18,7 @@ Typen TextNodeType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | TEXT_RUN | Representerar textnoden.|
-| TEXT_PARAGRAPH |Representerar textstycket.|
+| TEXT_PARAGRAPH | Representerar textstycket.|
 | EQUATION | Representerar ekvationstexten.|
 
 

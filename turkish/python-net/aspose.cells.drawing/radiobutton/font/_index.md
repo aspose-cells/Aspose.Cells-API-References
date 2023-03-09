@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin font'ini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.pydrawing import Color

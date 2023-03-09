@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على أو تحديد وزن خط حد الصورة بوحدات pt.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

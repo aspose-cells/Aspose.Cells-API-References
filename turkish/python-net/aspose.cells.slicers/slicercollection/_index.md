@@ -1,5 +1,5 @@
 ﻿---
-title: SlicerCollection sınıf
+title: SlicerCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 50
 url: /tr/python-net/aspose.cells.slicers/slicercollection/
 is_root: false
 ---
-##  SlicerCollection sınıf
+##  SlicerCollection sınıfı
 Belirtilen çalışma sayfasındaki tüm Slicer nesnelerinin koleksiyonunu belirtir.
 
 
@@ -33,17 +33,17 @@ SlicerCollection türü aşağıdaki üyeleri gösterir:
 | [add(table, list_column, dest_cell_name)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/add/#aspose.cells.tables.ListObject-aspose.cells.tables.ListColumn-str) | Veri kaynağı olarak ListObjet kullanarak yeni bir Dilimleyici ekleyin|
 | [add(table, list_column, row, column)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/add/#aspose.cells.tables.ListObject-aspose.cells.tables.ListColumn-int-int) | Veri kaynağı olarak ListObjet kullanarak yeni bir Dilimleyici ekleyin|
 | [copy_to(array)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/copy_to/#list) | Hedef dizi listesinin başından başlayarak tüm dizi listesini uyumlu bir tek boyutlu dizi listesine kopyalar.|
-| [copy_to(index, array, array_index, count)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/copy_to/#int-list-int-int) | Dizi listesindeki bir dizi öğeyi, hedef dizi listesinin belirtilen dizininden başlayarak uyumlu bir tek boyutlu dizi listesine kopyalar.|
+| [copy_to(index, array, array_index, count)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/copy_to/#int-list-int-int) |Dizi listesindeki bir dizi öğeyi, hedef dizi listesinin belirtilen dizininden başlayarak uyumlu bir tek boyutlu dizi listesine kopyalar.|
 | [index_of(item, index)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/index_of/#Slicer-int) | Belirtilen nesneyi arar ve belirtilen dizinden son öğeye uzanan dizi listesindeki öğelerin aralığındaki ilk oluşumun sıfır tabanlı dizinini döndürür.|
 | [index_of(item, index, count)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/index_of/#Slicer-int-int) | Belirtilen nesneyi arar ve belirtilen dizinde başlayan ve belirtilen sayıda öğe içeren dizi listesindeki öğe aralığı içindeki ilk oluşumun sıfır tabanlı dizinini döndürür.|
 | [last_index_of(item)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/last_index_of/#Slicer) | Belirtilen nesneyi arar ve tüm dizi listesindeki son oluşumun sıfır tabanlı dizinini döndürür.|
-| [last_index_of(item, index)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/last_index_of/#Slicer-int) |Belirtilen nesneyi arar ve ilk öğeden belirtilen dizine kadar uzanan dizi listesindeki öğe aralığı içindeki son oluşumun sıfır tabanlı dizinini döndürür.|
-| [last_index_of(item, index, count)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/last_index_of/#Slicer-int-int) | Belirtilen nesneyi arar ve belirtilen sayıda öğeyi içeren ve belirtilen dizinde biten dizi listesindeki öğe aralığındaki son oluşumun sıfır tabanlı dizinini döndürür.|
+| [last_index_of(item, index)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/last_index_of/#Slicer-int) | Belirtilen nesneyi arar ve ilk öğeden belirtilen dizine kadar uzanan dizi listesindeki öğe aralığı içindeki son oluşumun sıfır tabanlı dizinini döndürür.|
+| [last_index_of(item, index, count)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/last_index_of/#Slicer-int-int) |Belirtilen nesneyi arar ve belirtilen sayıda öğeyi içeren ve belirtilen dizinde biten dizi listesindeki öğe aralığındaki son oluşumun sıfır tabanlı dizinini döndürür.|
 | [binary_search(item)](/cells/tr/python-net/aspose.cells.slicers/slicercollection/binary_search/#Slicer) | Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tamamında bir öğe arar ve öğenin sıfır tabanlı dizinini döndürür.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

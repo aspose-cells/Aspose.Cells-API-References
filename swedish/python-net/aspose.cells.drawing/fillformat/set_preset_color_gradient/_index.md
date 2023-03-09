@@ -19,7 +19,7 @@ def set_preset_color_gradient(self, preset_color, style, variant):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | preset_color | [GradientPresetType](/cells/sv/python-net/aspose.cells.drawing/gradientpresettype) | Förinställd färgtyp|
 | style | [GradientStyleType](/cells/sv/python-net/aspose.cells.drawing/gradientstyletype) | Gradient skuggstil.|

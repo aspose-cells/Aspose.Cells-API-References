@@ -1,6 +1,6 @@
 ﻿---
 title: binary_search方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-如果找到项，则排序数组列表中从零开始的索引值；否则为负数，它是下一个大于 value 的元素的索引的按位补码，或者如果没有更大的元素，则为数组列表 Count 的按位补码。
+value 在排序数组列表中从零开始的索引，如果找到 item；否则，负数，它是下一个大于 value 的元素的索引的按位补码，或者，如果没有更大的元素，数组列表 Count 的按位补码。
 
 
 ```python
@@ -22,9 +22,9 @@ def binary_search(self, item):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| item | [GradientStop](/cells/zh/python-net/aspose.cells.drawing/gradientstop) |要定位的 System.Object。该值可以为空。|
+| item | [GradientStop](/cells/zh/python-net/aspose.cells.drawing/gradientstop) |要定位的 System.Object。|
 
 
 

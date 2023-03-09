@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | positionsindexet i pivottabellsamlingen|
 | keep_data | bool | Om pivottabelldata ska behållas|

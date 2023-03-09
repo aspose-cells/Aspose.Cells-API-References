@@ -18,9 +18,9 @@ def set_first_page_footer(self, section, footer_script):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| section | int |0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
+| section | int | 0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
 | footer_script | str | Script de formato de pie de página.|
 
 

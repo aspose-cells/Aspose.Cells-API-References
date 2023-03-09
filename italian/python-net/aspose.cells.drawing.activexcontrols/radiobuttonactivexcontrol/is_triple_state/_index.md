@@ -13,10 +13,10 @@ Indica come il controllo specificato visualizzerà i valori Null.
 
 ###  Osservazioni
 
-| Collocamento| Descrizione|
+| Impostazioni| Descrizione|
 | :- | :- |
-| VERO| Il controllo scorrerà gli stati per i valori Sì, No e Null. Il controllo appare inattivo (grigio) quando la relativa proprietà Value è impostata su Null.|
-| Falso| (Predefinito) Il controllo passerà in rassegna gli stati per i valori Sì e No. I valori Null vengono visualizzati come se fossero Nessun valore.|
+| VERO| Il controllo scorrerà gli stati per i valori Sì, No e Null.|
+| Falso|(Predefinito) Il controllo passerà in rassegna gli stati per i valori Sì e No.|
 ###  Definizione:
 ```python
 @property

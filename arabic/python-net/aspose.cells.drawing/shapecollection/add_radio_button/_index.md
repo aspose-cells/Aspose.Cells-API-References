@@ -22,16 +22,16 @@ def add_radio_button(self, upper_left_row, top, upper_left_column, left, height,
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ RadioButton من صفه الأيسر بوحدة البكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | left | int | يمثل الإزاحة الأفقية لـ RadioButton من عمودها الأيسر ، بوحدة البكسل.|
-| height | int |يمثل ارتفاع RadioButton ، بوحدة البكسل.|
+| height | int | يمثل ارتفاع RadioButton ، بوحدة البكسل.|
 | width | int | يمثل عرض RadioButton بوحدة البكسل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

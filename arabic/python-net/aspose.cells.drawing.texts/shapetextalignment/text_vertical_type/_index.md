@@ -11,7 +11,7 @@ is_root: false
 
 يحصل ويضبط اتجاه النص.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing.texts import TextVerticalType

@@ -13,7 +13,7 @@ Verilen dizgiyi uygun değer nesnesine ayrıştırır.
 
 ###  İadeler
 
-Verilen dizgeden ayrıştırılmış değer nesnesi. Verilen dize uygun değer nesnesine ayrıştırılamazsa, null değerini döndürür.
+Verilen dizgeden ayrıştırılmış değer nesnesi.
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | value | str | Ayrıştırılacak dize değeri|
 

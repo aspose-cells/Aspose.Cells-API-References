@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_bubble_size mülk
 
-Belirtilen bir grafiğin veri etiketi yüzde değeri görüntüleme davranışını temsil eder. True, yüzde değerini görüntüler. Gizlemek için yanlış.
+Belirli bir grafiğin veri etiketi yüzde değeri görüntüleme davranışını temsil eder. True, yüzde değerini görüntüler. False gizlenecek.
 ###  Tanım:
 ```python
 @property

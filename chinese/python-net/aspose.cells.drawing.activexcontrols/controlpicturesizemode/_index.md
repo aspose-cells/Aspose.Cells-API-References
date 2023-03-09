@@ -1,13 +1,13 @@
 ﻿---
 title: ControlPictureSizeMode枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 230
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/controlpicturesizemode/
 is_root: false
 ---
-##  ControlPictureSizeMode枚举
+## ControlPictureSizeMode枚举
 表示如何显示图片。
 
 

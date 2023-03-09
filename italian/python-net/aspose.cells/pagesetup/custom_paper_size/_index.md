@@ -18,7 +18,7 @@ def custom_paper_size(self, width, height):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | width | float | La larghezza della carta.|
 | height | float | L'altezza della carta.|

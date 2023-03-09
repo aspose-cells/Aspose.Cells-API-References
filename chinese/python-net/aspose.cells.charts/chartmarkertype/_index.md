@@ -1,13 +1,13 @@
 ﻿---
 title: ChartMarkerType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 420
 url: /zh/python-net/aspose.cells.charts/chartmarkertype/
 is_root: false
 ---
-##  ChartMarkerType枚举
+## ChartMarkerType枚举
 表示折线图、散点图或雷达图中的标记样式。
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: text_qualifier 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 360
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## text_qualifier 属性
 
-指定单元格值的文本限定符。默认限定符是 '"'。
+指定单元格值的文本限定符。默认限定符是“”。
 
 ### 评论
 

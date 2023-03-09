@@ -10,7 +10,7 @@ is_root: false
 ##  text_rendering_hint недвижимость
 
 Определяет качество рендеринга текста.
-Значение по умолчанию — TextRenderingHint.SystemDefault.
+Значение по умолчанию — TextRenderingHint.
 ###  Определение:
 ```python
 @property

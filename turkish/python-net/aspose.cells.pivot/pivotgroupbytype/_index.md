@@ -18,12 +18,12 @@ PivotGroupByType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | RANGE_OF_VALUES | Türe göre grup değer aralığı sunar.|
-| SECONDS |Saniye grubuna göre tür sunar.|
-| MINUTES | Dakikaları gruba göre sunar.|
+| SECONDS | Saniye grubuna göre tür sunar.|
+| MINUTES | Dakika grubunu türe göre sunar.|
 | HOURS | Türe göre Saat sunar.|
 | DAYS | Bugünkü Günler grubuna göre tür.|
 | MONTHS | Ayları gruba göre sunar.|
-| QUARTERS | Türe göre Quarters sunar.|
+| QUARTERS | Quarters grubunu türe göre sunar.|
 | YEARS | Türüne göre Yıllar sunar.|
 
 

@@ -28,12 +28,12 @@ Der Typ ChartArea macht die folgenden Member verfügbar:
 | [text_font](/cells/de/python-net/aspose.cells.charts/chartarea/text_font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
 | [text_options](/cells/de/python-net/aspose.cells.charts/chartarea/text_options) | Ruft die Optionen des Textes ab und legt sie fest.|
 | [font](/cells/de/python-net/aspose.cells.charts/chartarea/font) | Ruft ein [ChartArea.font](/cells/de/python-net/aspose.cells.charts/chartarea#font)-Objekt des angegebenen Chartarea-Objekts ab.|
-| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert. Der Standardwert ist True.|
+| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert.|
 | [background_mode](/cells/de/python-net/aspose.cells.charts/chartarea/background_mode) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [background](/cells/de/python-net/aspose.cells.charts/chartarea/background) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [is_automatic_size](/cells/de/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Gibt an, ob die Größe des Diagrammrahmens automatisch angepasst wird.|
 | [x](/cells/de/python-net/aspose.cells.charts/chartarea/x) | Ruft den horizontalen Versatz von der Spalte in der oberen linken Ecke ab oder ruft ihn ab.|
-| [y](/cells/de/python-net/aspose.cells.charts/chartarea/y) | Ruft den vertikalen Versatz von der Zeile in der oberen linken Ecke ab oder ruft ihn ab.|
+| [y](/cells/de/python-net/aspose.cells.charts/chartarea/y) |Ruft den vertikalen Versatz von der Zeile in der oberen linken Ecke ab oder ruft ihn ab.|
 | [height](/cells/de/python-net/aspose.cells.charts/chartarea/height) | Ruft den vertikalen Versatz von der Zeile in der unteren rechten Ecke ab oder legt diesen fest.|
 | [width](/cells/de/python-net/aspose.cells.charts/chartarea/width) | Ruft den horizontalen Versatz von der Spalte in der unteren rechten Ecke ab oder legt diesen fest.|
 | [shadow](/cells/de/python-net/aspose.cells.charts/chartarea/shadow) | True, wenn der Rahmen einen Schatten hat.|
@@ -52,7 +52,7 @@ Der Typ ChartArea macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

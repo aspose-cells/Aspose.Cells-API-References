@@ -13,8 +13,8 @@ Stellt dar, ob der Benutzer den Inhalt gesperrter Zellen auf einem geschützten 
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
- Bitte verwenden Sie die Protection.AllowEditingContent-Eigenschaft.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ Bitte verwenden Sie die Eigenschaft "Schutz. Bearbeiten von Inhalten zulassen".
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

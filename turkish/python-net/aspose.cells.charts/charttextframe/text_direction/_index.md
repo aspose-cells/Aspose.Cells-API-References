@@ -13,7 +13,7 @@ Metin okuma sırasını temsil eder.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
  lütfen ChartTextFrame.ReadingOrder özelliğini kullanın.
  Bu mülk, Mart 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

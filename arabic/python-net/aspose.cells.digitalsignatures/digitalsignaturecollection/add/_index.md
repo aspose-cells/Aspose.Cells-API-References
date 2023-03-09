@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/ad
 is_root: false
 ---
 ##  add(digital_signature) {#DigitalSignature}
-أضف توقيعًا واحدًا إلى DigitalSignatureCollection.
+أضف توقيعًا واحدًا إلى مجموعة التوقيع الرقمي.
 
 
 
@@ -18,7 +18,7 @@ def add(self, digital_signature):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | digital_signature | [DigitalSignature](/cells/ar/python-net/aspose.cells.digitalsignatures/digitalsignature) | التوقيع الرقمي في المجموعة.|
 

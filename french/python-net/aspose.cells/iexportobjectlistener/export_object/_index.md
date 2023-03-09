@@ -25,7 +25,7 @@ def export_object(self, e):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | e | [ExportObjectEvent](/cells/fr/python-net/aspose.cells/exportobjectevent) | L'événement s'est déclenché lorsqu'un objet doit être exporté.|
 

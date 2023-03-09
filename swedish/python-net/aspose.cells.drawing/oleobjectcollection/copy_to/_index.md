@@ -18,9 +18,9 @@ def copy_to(self, array):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| array | list | Den endimensionella arraylistan som är destinationen för elementens kopierade arraylista. Matrislistan måste ha nollbaserad indexering.|
+| array | list | Den endimensionella arraylistan som är destinationen för elementens kopierade arraylista.|
 
 
 ##  copy_to(index, array, array_index, count) {#int-list-int-int}
@@ -34,11 +34,11 @@ def copy_to(self, index, array, array_index, count):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Det nollbaserade indexet i källmatrislistan där kopieringen börjar.|
-| array | list | Den endimensionella arraylistan som är destinationen för elementen som kopierats från arraylistan. Matrislistan måste ha nollbaserad indexering.|
-| array_index | int | Det nollbaserade indexet i arraylistan där kopieringen börjar.|
+| array | list | Den endimensionella arraylistan som är destinationen för elementen som kopierats från arraylistan.|
+| array_index | int |Det nollbaserade indexet i arraylistan där kopieringen börjar.|
 | count | int | Antalet element som ska kopieras.|
 
 

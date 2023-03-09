@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  height fastighet
 
-Representerar höjden på kommentaren, i pixelenhet.
+Representerar höjden på kommentaren, i enheter av pixlar.
 
 ###  Exempel
 

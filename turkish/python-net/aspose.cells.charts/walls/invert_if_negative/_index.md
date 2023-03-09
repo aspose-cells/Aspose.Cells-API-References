@@ -12,7 +12,7 @@ is_root: false
 Özellik true ise ve grafik noktasının değeri negatif bir sayıysa,
 ön plan rengi ve arka plan rengi değiştirilecektir.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

@@ -23,7 +23,7 @@ Le type TextVerticalType expose les membres suivants :
 | VERTICAL90 | Chaque ligne est tournée de 90 degrés dans le sens des aiguilles d'une montre|
 | VERTICAL270 | Chaque ligne est tournée de 270 degrés dans le sens des aiguilles d'une montre|
 | STACKED | Détermine si tout le texte est vertical|
-| STACKED_RIGHT_TO_LEFT |Spécifie que WordArt vertical doit être affiché de droite à gauche plutôt que de gauche à droite.|
+| STACKED_RIGHT_TO_LEFT | Spécifie que WordArt vertical doit être affiché de droite à gauche plutôt que de gauche à droite.|
 
 
 

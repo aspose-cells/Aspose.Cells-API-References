@@ -22,11 +22,11 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| top | int |Representerar den vertikala förskjutningen av textrutan från dess vänstra rad, i pixelenhet.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| top | int | Representerar den vertikala förskjutningen av textrutan från dess vänstra rad, i pixelenhet.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int | Representerar den horisontella förskjutningen av textrutan från dess vänstra kolumn, i pixelenhet.|
 | height | int | Representerar höjden på textrutan, i pixelenhet.|
 | width | int | Representerar bredden på textrutan, i pixelenhet.|

@@ -18,9 +18,9 @@ def move(self, count, is_same_parent):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| count | int | Il numero di movimento verso l'alto o verso il basso.<br/>Sposta l'elemento in alto se questo è minore di zero;<br/> Sposta l'elemento verso il basso se è maggiore di zero.|
+| count | int | Il numero di movimento verso l'alto o verso il basso.<br/>Sposta l'elemento in alto se questo è minore di zero;<br/>Sposta l'elemento verso il basso se è maggiore di zero.|
 | is_same_parent | bool | Specificare se l'operazione di spostamento è nello stesso nodo padre o meno|
 
 

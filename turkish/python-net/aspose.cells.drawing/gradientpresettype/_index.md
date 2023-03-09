@@ -20,25 +20,25 @@ GradientPresetType türü aşağıdaki üyeleri gösterir:
 | BRASS | Pirinç önceden ayarlanmış renk|
 | CALM_WATER | Sakin Su önceden ayarlanmış renk|
 | CHROME | Chrome önceden ayarlanmış renk|
-| CHROME_II | Chrome II ön ayar rengi|
+| CHROME_II | Chrome II ön ayar renkleri|
 | DAYBREAK | Şafak önayar rengi|
-| DESERT | Çöl ön ayarı rengi|
+| DESERT | Çöl önayar renkleri|
 | EARLY_SUNSET | Erken Günbatımı ön ayar rengi|
 | FIRE | Yangın ön ayar rengi|
 | FOG | Sis ön ayar rengi|
 | GOLD | Altın ön ayar rengi|
 | GOLD_II | Altın II önceden ayarlanmış renk|
 | HORIZON | Ufuk ön ayar rengi|
-| LATE_SUNSET | Geç Gün Batımı ön ayar rengi|
-| MAHOGANY |Maun önceden ayarlanmış renk|
-| MOSS | Yosun ön ayar rengi|
-| NIGHTFALL | Akşam önayar rengi|
+| LATE_SUNSET | Geç Günbatımı hazır renkleri|
+| MAHOGANY | Maun önceden ayarlanmış renkler|
+| MOSS | Yosun ön ayarlı renkler|
+| NIGHTFALL |Gece önceden ayarlanmış renkler|
 | OCEAN | Okyanus ön ayar rengi|
-| PARCHMENT | Parşömen ön ayar rengi|
+| PARCHMENT | Parşömen hazır renkleri|
 | PEACOCK | Tavuskuşu önceden ayarlanmış renk|
 | RAINBOW | Gökkuşağı önceden ayarlanmış renk|
 | RAINBOW_II | Rainbow II ön ayar rengi|
-| SAPPHIRE | Safir ön ayarlı renk|
+| SAPPHIRE | Safir önceden ayarlanmış renkler|
 | SILVER | Gümüş önceden ayarlanmış renk|
 | WHEAT | Buğday ön ayar rengi|
 | UNKNOWN | Bilinmeyen önceden ayarlanmış renk.<br/> Yalnızca şablon çalışma kitabındaki önceden ayarlanmış renk (bilinen herhangi bir önceden ayarlanmış renkle aynı değildir) için.|

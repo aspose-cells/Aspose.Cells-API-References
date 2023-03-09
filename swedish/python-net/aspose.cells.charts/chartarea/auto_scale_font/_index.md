@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_scale_font fastighet
 
-Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras. Standardvärdet är True.
+Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras.
 ###  Definition:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding proprietà
 
-Se non impostato, utilizzare Encoding.UTF8 come tipo di codifica predefinito.
+Se non è impostato, usa Encoding.UTF8 come tipo di codifica predefinito.
 ###  Definizione:
 ```python
 @property

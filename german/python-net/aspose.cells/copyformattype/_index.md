@@ -17,9 +17,9 @@ Der Typ CopyFormatType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| SAME_AS_ABOVE | Formate wie in der obigen Zeile.|
+| SAME_AS_ABOVE |Formate wie in der obigen Zeile.|
 | SAME_AS_BELOW | Formate wie in der unteren Zeile.|
-| CLEAR | Löscht die Formatierung.|
+| CLEAR | Klare Formatierung.|
 
 
 

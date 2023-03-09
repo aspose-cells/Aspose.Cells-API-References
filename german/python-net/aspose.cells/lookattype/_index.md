@@ -20,7 +20,7 @@ Der Typ LookAtType macht die folgenden Member verfügbar:
 | CONTAINS | Cell Wert Enthält das Suchobjekt.|
 | START_WITH | Cell Wert Beginnt mit dem Find-Objekt.|
 | END_WITH | Cell Wert endet mit dem Find-Objekt.|
-| ENTIRE_CONTENT |Cell-Wert ist derselbe wie das Suchobjekt.|
+| ENTIRE_CONTENT | Cell-Wert ist derselbe wie das Suchobjekt.|
 
 
 

@@ -22,10 +22,10 @@ def add(self, row, column, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| row | int | Indatacellens radindex.|
-| column | int | Kolumnindex för indatacell.|
+| row | int | Radindex för indataceller.|
+| column | int | Kolumnindex för indataceller.|
 | value | str | Värdet på ingångscellen.|
 
 

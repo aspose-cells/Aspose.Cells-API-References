@@ -14,7 +14,7 @@ Anger om programmet måste utföra en fullständig beräkning när arbetsboken �
 ###  Anmärkningar
 
 Den här egenskapen är endast till för att spara inställningarna i den resulterande kalkylarksfilen
-så att andra applikationer (som ms excel) kan agera i enlighet med detta när den resulterande filen laddas.
+så att andra applikationer (som ms excel) kan agera därefter när den resulterande filen laddas.
 För prestandaövervägande för de flesta användares applikationer, beräknar vi inte någon formel i arbetsboken automatiskt,
 oavsett vilket värde som har satts för denna fastighet.
 ###  Definition:

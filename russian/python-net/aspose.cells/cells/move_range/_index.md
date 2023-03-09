@@ -18,7 +18,7 @@ def move_range(self, source_area, dest_row, dest_column):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_area | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Диапазон, который необходимо переместить.|
 | dest_row | int | Последний ряд.|

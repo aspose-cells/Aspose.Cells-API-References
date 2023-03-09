@@ -18,7 +18,7 @@ def change_palette(self, color, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Structure de couleur.|
 | index | int | Indice de palette, 0 - 55.|
@@ -82,7 +82,7 @@ Voici la palette de couleurs standard.
 | Couleur43| 153| 204| 0 |
 | Couleur44| 255| 204| 0 |
 | Couleur45| 255| 153| 0 |
-|Couleur46| 255| 102| 0 |
+| Couleur46| 255| 102| 0 |
 | Couleur47| 102| 102| 153 |
 | Couleur48| 150| 150| 150 |
 | Couleur49| 0| 51| 102 |
@@ -90,7 +90,7 @@ Voici la palette de couleurs standard.
 | Couleur51| 0| 51| 0 |
 | Couleur52| 51| 51| 0 |
 | Couleur53| 153| 51| 0 |
-| Couleur54| 153| 51| 102 |
+|Couleur54| 153| 51| 102 |
 | Couleur55| 51| 51| 153 |
 | Couleur56| 51| 51| 51 |
 

@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.pivot/pivottable/format_all/
 is_root: false
 ---
 ##  format_all(style) {#Style}
-قم بتنسيق كل الخلايا في المنطقة المحورية
+قم بتنسيق جميع الخلايا في منطقة الجدول المحوري
 
 
 
@@ -18,7 +18,7 @@ def format_all(self, style):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | النمط الذي يتم تنسيقه|
 

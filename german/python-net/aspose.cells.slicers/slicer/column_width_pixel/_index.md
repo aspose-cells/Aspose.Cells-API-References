@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  column_width_pixel Eigentum
 
-Ruft die Breite in Pixeleinheiten für jede Spalte des Datenschnitts ab oder legt diese fest.
+Ruft die Breite für jede Spalte des Datenschnitts in Pixeleinheiten ab oder legt diese fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

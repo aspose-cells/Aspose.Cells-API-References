@@ -15,7 +15,7 @@ Ruft die Anzahl der zu speichernden Seiten ab oder legt diese fest.
 
 Standard ist System.Int32.MaxValue, was bedeutet, dass alle Seiten gerendert werden.
 
-###  Beispiel
+###  Beispiele
 
 Das folgende Beispiel zeigt, wie ein Seitenbereich (3 und 4) in einer Microsoft-Excel-Datei in PDF gerendert wird.
 

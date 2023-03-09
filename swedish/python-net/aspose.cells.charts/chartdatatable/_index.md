@@ -21,10 +21,10 @@ Typen ChartDataTable avslöjar följande medlemmar:
 | [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/chartdatatable/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras.<br/> Standardvärdet är True.|
 | [background_mode](/cells/sv/python-net/aspose.cells.charts/chartdatatable/background_mode) | Hämtar och ställer in visningsläget för bakgrunden|
 | [background](/cells/sv/python-net/aspose.cells.charts/chartdatatable/background) | Hämtar och ställer in visningsläget för bakgrunden|
-| [has_border_horizontal](/cells/sv/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) | Sant om diagramdatatabellen har horisontella cellkanter|
+| [has_border_horizontal](/cells/sv/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) |Sant om diagramdatatabellen har horisontella cellkanter|
 | [has_border_vertical](/cells/sv/python-net/aspose.cells.charts/chartdatatable/has_border_vertical) | Sant om diagramdatatabellen har vertikala cellkanter|
 | [has_border_outline](/cells/sv/python-net/aspose.cells.charts/chartdatatable/has_border_outline) | Sant om diagramdatatabellen har konturgränser|
-| [show_legend_key](/cells/sv/python-net/aspose.cells.charts/chartdatatable/show_legend_key) |Sant om nyckeln för dataetikettförklaringen är synlig.|
+| [show_legend_key](/cells/sv/python-net/aspose.cells.charts/chartdatatable/show_legend_key) | Sant om nyckeln för dataetikettförklaringen är synlig.|
 | [border](/cells/sv/python-net/aspose.cells.charts/chartdatatable/border) | Returnerar ett Border-objekt som representerar objektets kant|
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 İmza tarihini gösterip göstermediğini gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

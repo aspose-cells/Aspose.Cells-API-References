@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.pivot/pivottable/format_row/
 is_root: false
 ---
 ##  format_row(row, style) {#int-Style}
-Formatera raddata i det vridbara området
+Formatera raddata i pivottabellområdet
 
 
 
@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex för radobjektet|
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Stil som ska formateras|

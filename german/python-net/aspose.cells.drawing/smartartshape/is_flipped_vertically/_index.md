@@ -11,7 +11,7 @@ is_root: false
 
 Ruft ab und legt fest, ob die Form vertikal gespiegelt wird.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

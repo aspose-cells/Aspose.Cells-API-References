@@ -18,7 +18,7 @@ def hide_columns(self, column, total_columns):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Kolumnindex.|
 | total_columns | int | Kolumnnummer.|

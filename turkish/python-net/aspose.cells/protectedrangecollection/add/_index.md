@@ -22,9 +22,9 @@ def add(self, name, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| name | str | Aralık başlığı. Bu, adlandırılmış bir aralık tanımı olarak değil, tanımlayıcı olarak kullanılır.|
+| name | str | Aralık başlığı Bu, adlandırılmış bir aralık tanımı olarak değil, bir tanımlayıcı olarak kullanılır.|
 | start_row | int | Aralığın başlangıç satır dizini.|
 | start_column | int | Aralığın başlangıç sütun indeksi.|
 | end_row | int | Aralığın son satır dizini.|

@@ -19,7 +19,7 @@ def get_cube_point_y_px(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int |  |
 

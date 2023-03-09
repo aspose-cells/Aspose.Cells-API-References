@@ -13,7 +13,7 @@ Vergleichen Sie zwei CellArea-Objekte entsprechend ihrer oberen linken Ecke.
 
 ###  Kehrt zurück
 
-Wenn sich zwei Ecken in verschiedenen Zeilen befinden, vergleichen Sie ihren Zeilenindex. Vergleichen Sie andernfalls ihren Spaltenindex.
+Wenn sich zwei Ecken in verschiedenen Zeilen befinden, vergleichen Sie ihren Zeilenindex.
 Wenn zwei Ecken gleich sind, wird 0 zurückgegeben.
 
 

@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/docxsaveoptions/__init__/
 is_root: false
 ---
 ##  DocxSaveOptions() {#}
-Rappresenta le opzioni di salvataggio del file .docx.
+Rappresenta le opzioni di salvataggio dei file .docx.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  DocxSaveOptions(save_as_image) {#bool}
-Rappresenta le opzioni di salvataggio del file .docx.
+Rappresenta le opzioni di salvataggio dei file .docx.
 
 
 
@@ -31,9 +31,9 @@ def __init__(self, save_as_image):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| save_as_image | bool | Se True, la cartella di lavoro verrà convertita in alcune immagini del file .docx.<br/> Se False, la cartella di lavoro verrà convertita in alcune tabelle del file .docx.|
+| save_as_image | bool |Se True, la cartella di lavoro verrà convertita in alcune immagini del file .docx.<br/> Se False, la cartella di lavoro verrà convertita in alcune tabelle del file .docx.|
 
 
 

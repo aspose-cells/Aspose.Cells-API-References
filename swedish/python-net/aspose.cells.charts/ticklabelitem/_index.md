@@ -19,7 +19,7 @@ Typen TickLabelItem avslöjar följande medlemmar:
 | :- | :- |
 | [x](/cells/sv/python-net/aspose.cells.charts/ticklabelitem/x) | X-koordinater för Ticklabel-objekt i förhållande till diagrammets bredd.|
 | [y](/cells/sv/python-net/aspose.cells.charts/ticklabelitem/y) | Y-koordinater för Ticklabel-objekt i förhållande till diagramhöjd.|
-| [width](/cells/sv/python-net/aspose.cells.charts/ticklabelitem/width) | Bredden på Ticklabel-objektet i förhållande till diagrammets bredd.|
+| [width](/cells/sv/python-net/aspose.cells.charts/ticklabelitem/width) |Bredden på Ticklabel-objektet i förhållande till diagrammets bredd.|
 | [height](/cells/sv/python-net/aspose.cells.charts/ticklabelitem/height) | Höjden på Ticklabel-objektet i förhållande till diagramhöjden.|
 
 

@@ -13,7 +13,7 @@ Elektronik tablonun tüm yerleşik belge özelliklerini temsil eden bir [Documen
 
 ###  Notlar
 
-Yerleşik belge özellikleri listesine yeni bir özellik eklenemez. Yalnızca yerleşik bir özellik alabilir ve değerini değiştirebilirsiniz.
+Yerleşik belge özellikleri listesine yeni bir özellik eklenemez.
 Yerleşik özellikler adı listesi aşağıdadır:
 
 Başlık
@@ -22,7 +22,7 @@ Başlık
 Ders
 
 
-Yazar
+yazar
 
 
 anahtar kelimeler
@@ -73,7 +73,7 @@ Kategori
 Biçim
 
 
-Müdür
+müdür
 
 
 Şirket

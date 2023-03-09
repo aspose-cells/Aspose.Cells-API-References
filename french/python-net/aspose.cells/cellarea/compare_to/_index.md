@@ -13,7 +13,7 @@ Comparez deux objets CellArea en fonction de leur coin supérieur gauche.
 
 ###  Retour
 
-Si deux coins sont dans des lignes différentes, comparez leur index de ligne. Sinon, comparez leur index de colonne.
+Si deux coins sont dans des lignes différentes, comparez leur index de ligne.
 Si deux coins sont identiques, alors 0 sera renvoyé.
 
 
@@ -23,7 +23,7 @@ def compare_to(self, obj):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | obj | any |  |
 

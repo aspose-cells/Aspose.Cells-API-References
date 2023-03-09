@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_print_area_only mülk
 
-Yalnızca yazdırma alanının html dosyasına aktarılıp aktarılmadığını gösterir. Varsayılan değer yanlıştır.
+Yalnızca yazdırma alanının html dosyasına aktarılıp aktarılmadığını gösterir.
 ###  Tanım:
 ```python
 @property

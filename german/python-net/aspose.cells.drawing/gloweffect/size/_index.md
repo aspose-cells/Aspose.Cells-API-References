@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size Eigentum
 
-Ruft den Radius des Glühens in Punkteinheiten ab und legt ihn fest.
+Ruft den Radius des Glühens in Punkteinheiten ab und legt diesen fest.
 ###  Definition:
 ```python
 @property

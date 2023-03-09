@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_array_title propriété
 
-Indique si le titre est ignoré si le tableau est une propriété de l'objet.
+Indique s'il faut ignorer le titre si le tableau est une propriété de l'objet.
 
 ###  Remarques
 

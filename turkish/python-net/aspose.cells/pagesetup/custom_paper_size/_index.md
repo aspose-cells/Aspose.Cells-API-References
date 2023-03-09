@@ -18,7 +18,7 @@ def custom_paper_size(self, width, height):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | width | float | Kağıdın genişliği.|
 | height | float | Kağıdın yüksekliği.|

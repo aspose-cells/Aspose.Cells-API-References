@@ -18,7 +18,7 @@ def copy(self, range, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range | [UnionRange](/cells/it/python-net/aspose.cells/unionrange) | L'intervallo di origine.|
 | options | [PasteOptions](/cells/it/python-net/aspose.cells/pasteoptions) | Le opzioni speciali di incolla.|

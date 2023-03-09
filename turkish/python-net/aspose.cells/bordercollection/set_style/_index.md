@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | style | [CellBorderType](/cells/tr/python-net/aspose.cells/cellbordertype) | Sınırların stili|
 

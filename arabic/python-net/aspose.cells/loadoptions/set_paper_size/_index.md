@@ -18,7 +18,7 @@ def set_paper_size(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [PaperSizeType](/cells/ar/python-net/aspose.cells/papersizetype) | حجم الورق الافتراضي.|
 ###  ملاحظات

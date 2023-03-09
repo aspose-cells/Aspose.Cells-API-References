@@ -13,8 +13,8 @@ Restituisce un oggetto MsoFillFormat che contiene le proprietà di formattazione
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
- si prega di utilizzare la proprietà Shape.Fill.
+ NOTA: questo membro è ora obsoleto.
+ Utilizzare la proprietà Shape.Fill.
  Questa proprietà verrà rimossa 12 mesi dopo da luglio 2016.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

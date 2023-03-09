@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bubble_sizes Eigentum
 
-Ruft die Blasengrößenwerte der Diagrammreihe ab oder legt diese fest.
+Ruft die Blasengrößenwerte der Diagrammreihe ab oder legt sie fest.
 ###  Definition:
 ```python
 @property

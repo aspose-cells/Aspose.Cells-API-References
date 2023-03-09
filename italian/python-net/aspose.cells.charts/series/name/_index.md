@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene o imposta name della serie di dati.
 
-###  Esempio
+###  Esempi
 
 ```python
 

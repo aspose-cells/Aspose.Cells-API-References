@@ -20,7 +20,7 @@ Der Typ RevisionActionType macht die folgenden Member verfügbar:
 | ADD | Überarbeitung hinzufügen.|
 | DELETE | Überarbeitung löschen.|
 | DELETE_COLUMN | Spalte löschen Revision.|
-| DELETE_ROW |Zeilenlöschrevision.|
+| DELETE_ROW | Zeilenlöschrevision.|
 | INSERT_COLUMN | Überarbeitung der Spalteneinfügung.|
 | INSERT_ROW | Zeileneinfügungsrevision.|
 

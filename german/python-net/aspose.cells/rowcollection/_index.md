@@ -21,7 +21,7 @@ Der Typ RowCollection macht die folgenden Member verfügbar:
 
 
 
-Ruft ein [Row](/cells/de/python-net/aspose.cells/row)-Objekt nach gegebenem Zeilenindex ab. Das Zeilenobjekt des angegebenen Zeilenindex wird instanziiert, wenn es vorher nicht existiert.
+Ruft ein [Row](/cells/de/python-net/aspose.cells/row)-Objekt nach gegebenem Zeilenindex ab.
 ###  Indexierer
 | Name| Beschreibung|
 | :- | :- |
@@ -37,7 +37,7 @@ Ruft ein [Row](/cells/de/python-net/aspose.cells/row)-Objekt nach gegebenem Zeil
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

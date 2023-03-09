@@ -1,13 +1,13 @@
 ﻿---
 title: DisplayDrawingObjects枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1970
 url: /zh/python-net/aspose.cells/displaydrawingobjects/
 is_root: false
 ---
-##  DisplayDrawingObjects枚举
+## DisplayDrawingObjects枚举
 表示是否以及如何显示工作簿中的对象。
 
 

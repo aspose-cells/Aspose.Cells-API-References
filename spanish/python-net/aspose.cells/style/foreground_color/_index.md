@@ -13,7 +13,7 @@ Obtiene o establece el color de primer plano de un estilo.
 
 ###  Observaciones
 
-Significa que no hay configuración de color si se devuelve Color.Empty.
+Significa que no hay ajuste de color si se devuelve Color.Vacío.
 ###  Definición:
 ```python
 @property

@@ -22,7 +22,7 @@ def row_name_to_index(self, row_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row_name | str | Nome riga.|
 

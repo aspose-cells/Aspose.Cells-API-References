@@ -22,13 +22,13 @@ def add(self, upper_left_row, upper_left_column, stream):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | stream | io.RawIOBase | كائن دفق يحتوي على بيانات الصورة.|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -54,13 +54,13 @@ def add(self, upper_left_row, upper_left_column, file_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | file_name | str | اسم ملف الصورة.|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -85,15 +85,15 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | lower_right_row | int | فهرس الصف السفلي الأيمن|
 | lower_right_column | int | فهرس العمود الأيمن السفلي|
 | stream | io.RawIOBase | كائن دفق يحتوي على بيانات الصورة.|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -119,15 +119,15 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | lower_right_row | int | فهرس الصف السفلي الأيمن|
 | lower_right_column | int | فهرس العمود الأيمن السفلي|
 | file_name | str | اسم ملف الصورة.|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -152,15 +152,15 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | stream | io.RawIOBase | كائن دفق يحتوي على بيانات الصورة.|
 | width_scale | int | مقياس عرض الصورة ، نسبة مئوية.|
 | height_scale | int | مقياس ارتفاع الصورة ، نسبة مئوية.|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -186,15 +186,15 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | file_name | str | اسم ملف الصورة.|
 | width_scale | int | مقياس عرض الصورة ، نسبة مئوية.|
 | height_scale | int | مقياس ارتفاع الصورة ، نسبة مئوية.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

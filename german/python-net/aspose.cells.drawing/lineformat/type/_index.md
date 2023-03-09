@@ -13,7 +13,7 @@ Ruft die Füllung type ab und legt sie fest.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie stattdessen die Eigenschaft FillFormat.FillType.
  Diese Property wird 12 Monate später seit Juli 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

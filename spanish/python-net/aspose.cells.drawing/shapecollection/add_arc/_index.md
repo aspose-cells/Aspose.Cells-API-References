@@ -22,16 +22,16 @@ def add_arc(self, upper_left_row, top, upper_left_column, left, height, width):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | top | int | Representa el desplazamiento vertical de ArcShape desde su fila izquierda, en unidades de píxel.|
-| upper_left_column | int |Índice de la columna superior izquierda.|
+| upper_left_column | int | Índice de la columna superior izquierda.|
 | left | int | Representa el desplazamiento horizontal de ArcShape desde su columna izquierda, en unidades de píxel.|
 | height | int | Representa la altura de ArcShape, en unidades de píxel.|
-| width | int | Representa el ancho de ArcShape, en unidades de píxel.|
+| width | int |Representa el ancho de ArcShape, en unidades de píxel.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

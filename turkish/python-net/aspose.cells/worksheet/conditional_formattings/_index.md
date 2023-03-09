@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings mülk
 
-Çalışma sayfasındaki ConditionalFormattings'i alır.
+Çalışma sayfasındaki Koşullu Biçimlendirmeyi alır.
 ###  Tanım:
 ```python
 @property

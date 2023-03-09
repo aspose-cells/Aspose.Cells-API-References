@@ -10,7 +10,7 @@ is_root: false
 ##  merge_empty_td_forcely proprietà
 
  Indica se l'unione forzata dell'elemento TD vuoto durante l'esportazione del file in html.
- La dimensione del file html verrà ridotta in modo significativo dopo aver impostato il valore su true. Il valore predefinito è falso.
+ La dimensione del file html verrà ridotta in modo significativo dopo aver impostato il valore su true.
  Se vuoi importare il file html per eccellere o esportare le linee della griglia perfette quando salvi il file in html,
 si prega di mantenere il valore predefinito.
 ###  Definizione:

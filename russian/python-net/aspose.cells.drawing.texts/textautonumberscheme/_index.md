@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing.texts/textautonumberscheme/
 is_root: false
 ---
 ##  TextAutonumberScheme перечисление
-Представляет всю автоматическую схему нумерации.
+Представляет все автоматические схемы нумерации.
 
 
 
@@ -25,7 +25,7 @@ is_root: false
 | ALPHA_UC_PAREN_R | А), Б), В), …|
 | ALPHA_UC_PERIOD | А., Б., С., …|
 | ARABIC_1_MINUS | Биди арабский 1 (AraAlpha) с символом минус ANSI|
-| ARABIC_2_MINUS | Биди арабский 2 (Араабджад) с символом минус ANSI|
+| ARABIC_2_MINUS |Биди арабский 2 (Араабджад) с символом минус ANSI|
 | ARABIC_DB_PERIOD | Двухбайтовые арабские числа с двухбайтовой точкой|
 | ARABIC_DB_PLAIN | Dbl-байтовые арабские числа|
 | ARABIC_PAREN_BOTH | (1), (2), (3), … |
@@ -38,7 +38,7 @@ is_root: false
 | EA_1_CHS_PERIOD | EA: упрощенный китайский с однобайтовой точкой|
 | EA_1_CHS_PLAIN | EA: упрощенный китайский (TypeA 1-99, TypeC 100-)|
 | EA_1_CHT_PERIOD | EA: традиционный китайский с однобайтовой точкой|
-| EA_1_CHT_PLAIN |EA: традиционный китайский (TypeA 1-19, TypeC 20-)|
+| EA_1_CHT_PLAIN | EA: традиционный китайский (TypeA 1-19, TypeC 20-)|
 | EA_1_JPN_CHS_DB_PERIOD | EA: японский язык с двухбайтовой точкой|
 | EA_1_JPN_KOR_PERIOD | EA: японский/корейский с однобайтовой точкой|
 | EA_1_JPN_KOR_PLAIN | Советник: японский/корейский (TypeC 1-)|
@@ -52,7 +52,7 @@ is_root: false
 | ROMAN_LC_PERIOD | и., ii., iii., …|
 | ROMAN_UC_PAREN_BOTH | (I), (II), (III), …|
 | ROMAN_UC_PAREN_R | I), II), III), …|
-| ROMAN_UC_PERIOD | I., II., III., …|
+| ROMAN_UC_PERIOD |I., II., III., …|
 | THAI_ALPHA_PAREN_BOTH | Скобки тайского алфавита - обе|
 | THAI_ALPHA_PAREN_R | Скобки тайского алфавита - справа|
 | THAI_ALPHA_PERIOD | Период тайского алфавита|

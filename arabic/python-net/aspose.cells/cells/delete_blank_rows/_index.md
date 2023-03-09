@@ -31,7 +31,7 @@ def delete_blank_rows(self, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/ar/python-net/aspose.cells/deleteoptions) | خيارات حذف النطاق.|
 

@@ -12,7 +12,7 @@ is_root: false
 Orijinal resim genişliğinin yüzde birimi cinsinden genişlik ölçeğini alır ve ayarlar.
 Şekil resim değilse, WidthScale özelliği yalnızca 100 döndürür;
 
-###  Örnek
+###  örnekler
 
 ```python
 

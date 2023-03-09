@@ -31,7 +31,7 @@ def process(self, is_preserved):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | is_preserved | bool | True si se conserva el marcador inteligente no reconocido.|
 
@@ -47,7 +47,7 @@ def process(self, sheet_index, is_preserved):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | sheet_index | int | índice de la hoja de trabajo.|
 | is_preserved | bool | True si se conserva el marcador inteligente no reconocido.|

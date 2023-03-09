@@ -1,6 +1,6 @@
 ﻿---
 title: prompt 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -10,7 +10,7 @@ is_root: false
 ## prompt 属性
 
 参数的提示字符串。与输入 UI 一起呈现给电子表格用户
-在刷新外部数据之前收集参数值。仅在以下情况下使用
+在刷新外部数据之前收集参数值。
 参数类型 = prompt。
 ### 定义：
 ```python

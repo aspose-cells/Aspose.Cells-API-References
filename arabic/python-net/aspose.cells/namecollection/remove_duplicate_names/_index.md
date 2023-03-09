@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/namecollection/remove_duplicate_names/
 is_root: false
 ---
 ##  remove_duplicate_names() {#}
-قم بإزالة الأسماء المكررة المعرفة
+قم بإزالة الأسماء المعرفة المكررة
 
 
 

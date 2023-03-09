@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_array_title mülk
 
-Dizi, nesnenin bir özelliğiyse, başlığın yoksayılıp dikkate alınmadığını gösterir.
+Dizi, nesnenin bir özelliğiyse, başlığın yoksayılıp dikkate alınmayacağını belirtir.
 
 ###  Notlar
 

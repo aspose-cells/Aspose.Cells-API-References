@@ -1,5 +1,5 @@
 ﻿---
-title: ShapeSegmentPath sınıf
+title: ShapeSegmentPath sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 620
 url: /tr/python-net/aspose.cells.drawing/shapesegmentpath/
 is_root: false
 ---
-##  ShapeSegmentPath sınıf
+##  ShapeSegmentPath sınıfı
 Serbest biçim yolundaki bir segment yolunu temsil eder.
 
 

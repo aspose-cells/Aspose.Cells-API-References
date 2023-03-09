@@ -18,7 +18,7 @@ def page_end_saving(self, args):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | args | [PageEndSavingArgs](/cells/sv/python-net/aspose.cells.rendering/pageendsavingargs) | Information för en sida avslutar sparprocessen.|
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  filter_type mülk
 
-Filtreleme verilerinin türünü alır ve ayarlar.
+Verileri filtrelemek için türü alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

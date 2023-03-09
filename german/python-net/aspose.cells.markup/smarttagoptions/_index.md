@@ -23,7 +23,7 @@ Der Typ SmartTagOptions macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [embed_smart_tags](/cells/de/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) |Gibt an, ob Smarttags mit der Arbeitsmappe gespeichert werden.|
+| [embed_smart_tags](/cells/de/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) | Gibt an, ob Smarttags mit der Arbeitsmappe gespeichert werden.|
 | [show_type](/cells/de/python-net/aspose.cells.markup/smarttagoptions/show_type) | Stellt den Showtyp des Smarttags dar.|
 
 

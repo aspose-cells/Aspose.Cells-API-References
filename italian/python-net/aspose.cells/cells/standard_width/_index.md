@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width proprietà
 
-Ottiene o imposta la larghezza predefinita della colonna nel foglio di lavoro, in unità di caratteri.
+Ottiene o imposta la larghezza della colonna predefinita nel foglio di lavoro, in unità di caratteri.
 ###  Definizione:
 ```python
 @property

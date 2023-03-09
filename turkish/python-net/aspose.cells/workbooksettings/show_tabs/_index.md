@@ -15,7 +15,7 @@ is_root: false
 
 Varsayılan değer doğrudur.
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, elektronik tablo için Sayfa Sekmelerini ve Sekme Kaydırma Düğmelerini gizler.
 

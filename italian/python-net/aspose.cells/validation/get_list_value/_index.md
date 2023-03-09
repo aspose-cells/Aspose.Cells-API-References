@@ -24,13 +24,13 @@ def get_list_value(self, row, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | L'indice di riga.|
 | column | int | L'indice di colonna.|
 ###  Osservazioni
 
-Solo per la convalida il cui tipo è Elenco ed è stato applicato a una data cella,
+Solo per la convalida il cui tipo è Elenco ed è stato applicato a una determinata cella,
 in caso contrario verrà restituito null.
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: add_free_floating_shape方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
@@ -22,7 +22,7 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/zh/python-net/aspose.cells.drawing/msodrawingtype) |形状类型。|
 | top | int |表示形状相对于工作表顶行的垂直偏移量，以像素为单位。|

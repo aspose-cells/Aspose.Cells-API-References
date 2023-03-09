@@ -18,7 +18,7 @@ def set_font_folders(self, font_folders, recursive):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | font_folders | list | المجلدات التي تحتوي على خطوط تروتايب.|
 | recursive | bool | يحدد ما إذا كان سيتم فحص المجلدات الفرعية أم لا.|

@@ -21,15 +21,15 @@ Der Typ ChartDataTable macht die folgenden Member verfügbar:
 | [auto_scale_font](/cells/de/python-net/aspose.cells.charts/chartdatatable/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert.<br/> Der Standardwert ist True.|
 | [background_mode](/cells/de/python-net/aspose.cells.charts/chartdatatable/background_mode) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [background](/cells/de/python-net/aspose.cells.charts/chartdatatable/background) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
-| [has_border_horizontal](/cells/de/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) | True, wenn die Diagrammdatentabelle horizontale Zellränder hat|
+| [has_border_horizontal](/cells/de/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) |True, wenn die Diagrammdatentabelle horizontale Zellränder hat|
 | [has_border_vertical](/cells/de/python-net/aspose.cells.charts/chartdatatable/has_border_vertical) | True, wenn die Diagrammdatentabelle vertikale Zellenränder hat|
 | [has_border_outline](/cells/de/python-net/aspose.cells.charts/chartdatatable/has_border_outline) | True, wenn die Diagrammdatentabelle Umrissrahmen hat|
-| [show_legend_key](/cells/de/python-net/aspose.cells.charts/chartdatatable/show_legend_key) |True, wenn der Legendenschlüssel der Datenbeschriftung sichtbar ist.|
+| [show_legend_key](/cells/de/python-net/aspose.cells.charts/chartdatatable/show_legend_key) | True, wenn der Legendenschlüssel der Datenbeschriftung sichtbar ist.|
 | [border](/cells/de/python-net/aspose.cells.charts/chartdatatable/border) | Gibt ein Border-Objekt zurück, das den Rahmen des Objekts darstellt|
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

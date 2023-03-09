@@ -23,8 +23,8 @@ is_root: false
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
-| [PropertyType](/cells/de/python-net/aspose.cells.properties/propertytype) | Gibt den Datentyp einer Dokumenteigenschaft an.|
+| [PropertyType](/cells/de/python-net/aspose.cells.properties/propertytype) |Gibt den Datentyp einer Dokumenteigenschaft an.|
 
 

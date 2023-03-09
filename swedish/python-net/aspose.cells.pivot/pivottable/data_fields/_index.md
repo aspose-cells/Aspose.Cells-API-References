@@ -10,7 +10,7 @@ is_root: false
 ##  data_fields fastighet
 
 Hämtar ett PivotField-objekt som representerar alla datafält i en pivottabell.
-Endast skrivskyddad. Det skulle vara init endast när det finns två eller flera datafält i DataPiovtFiels.
+Skrivskyddad. Det skulle bara vara init när det finns två eller flera datafält i DataPiovtFields.
 Det används bara för att lägga till DataPivotField till pivottabellens rad-/kolumnområde. Standard är i radområdet.
 ###  Definition:
 ```python

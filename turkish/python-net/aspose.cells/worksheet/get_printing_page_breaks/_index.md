@@ -13,7 +13,7 @@ Otomatik sayfa sonları alır.
 
 ###  İadeler
 
-Otomatik sayfa alanları keser.
+Otomatik sayfa sonu alanları.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| options | aspose.cells.rendering.ImageOrPrintOptions |yazdırma seçenekleri|
+| options | aspose.cells.rendering.ImageOrPrintOptions | yazdırma seçenekleri|
 ###  Notlar
 
 Her hücre alanı bir kağıdı temsil eder.

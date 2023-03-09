@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_area Eigentum
 
-Ruft das [ProtectedRange.cell_area](/cells/de/python-net/aspose.cells/protectedrange#cell_area)-Objekt ab, das den zu schützenden Zellbereich darstellt.
+Ruft das [ProtectedRange.cell_area](/cells/de/python-net/aspose.cells/protectedrange#cell_area)-Objekt ab, das den zu schützenden Zellenbereich darstellt.
 ###  Definition:
 ```python
 @property

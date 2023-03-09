@@ -13,9 +13,9 @@ Ottiene i valori delle celle in quest'area.
 
 ###  ritorna
 
-Se quest'area non è valida, "#REF!" verrà restituito;
+Se quest'area non è valida, verrà restituito "#REF!";
 Se quest'area è una singola cella, allora restituisce l'oggetto valore cella;
-Altrimenti restituisce un array 2D per tutti i valori in quest'area.
+Altrimenti restituisci un array 2D per tutti i valori in quest'area.
 
 
 ```python
@@ -32,9 +32,9 @@ Ottiene i valori delle celle in quest'area.
 
 ###  ritorna
 
-Se quest'area non è valida, "#REF!" verrà restituito;
+Se quest'area non è valida, verrà restituito "#REF!";
 Se quest'area è una singola cella, allora restituisce l'oggetto valore cella;
-Altrimenti restituisce un array 2D per tutti i valori in quest'area.
+Altrimenti restituisci un array 2D per tutti i valori in quest'area.
 
 
 ```python
@@ -43,7 +43,7 @@ def get_values(self, calculate_formulas):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | calculate_formulas | bool | In questo intervallo, se ci sono alcune formule che non sono state calcolate,<br/> questo flag indica se tali formule devono essere calcolate in modo ricorsivo|
 

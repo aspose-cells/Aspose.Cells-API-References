@@ -18,7 +18,7 @@ def remove_at(self, cell_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cell_name | str | Namnet på cellen som innehåller en kommentar.|
 
@@ -42,7 +42,7 @@ def remove_at(self, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 | column | int | kolumnindex.|

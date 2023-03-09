@@ -11,7 +11,7 @@ is_root: false
 
 Indique si le texte est un texte enrichi ou non.
 
-###  Exemple
+###  Exemples
 
 ```python
 

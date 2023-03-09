@@ -18,7 +18,7 @@ def __init__(self, sheets):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sheets | list | index de feuille à base zéro.|
 ###  Remarques

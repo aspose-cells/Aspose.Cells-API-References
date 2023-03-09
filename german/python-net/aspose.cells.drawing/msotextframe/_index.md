@@ -17,7 +17,7 @@ Der Typ MsoTextFrame macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [auto_size](/cells/de/python-net/aspose.cells.drawing/msotextframe/auto_size) | Gibt an, ob die Größe der Form automatisch entsprechend ihrem Inhalt angepasst wird.|
+| [auto_size](/cells/de/python-net/aspose.cells.drawing/msotextframe/auto_size) |Gibt an, ob die Größe der Form automatisch entsprechend ihrem Inhalt angepasst wird.|
 | [is_auto_margin](/cells/de/python-net/aspose.cells.drawing/msotextframe/is_auto_margin) | Gibt an, ob die Marge automatisch berechnet wird.|
 | [rotate_text_with_shape](/cells/de/python-net/aspose.cells.drawing/msotextframe/rotate_text_with_shape) | Gibt an, ob Text mit Form gedreht wird.|
 | [left_margin_pt](/cells/de/python-net/aspose.cells.drawing/msotextframe/left_margin_pt) | Gibt den linken Rand in Punkteinheiten zurück|

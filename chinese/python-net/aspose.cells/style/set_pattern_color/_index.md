@@ -1,6 +1,6 @@
 ﻿---
 title: set_pattern_color方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
@@ -18,11 +18,11 @@ def set_pattern_color(self, pattern, color1, color2):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | pattern | [BackgroundType](/cells/zh/python-net/aspose.cells/backgroundtype) |模式。|
 | color1 | aspose.pydrawing.Color |前景色。|
-| color2 | aspose.pydrawing.Color |背景色。仅当图案不是 BackgroundType.None 和 BackgroundType.Solid 时才有效。|
+| color2 | aspose.pydrawing.Color |背景颜色。仅当图案不是 BackgroundType.None 和 BackgroundType.Solid 时有效。|
 
 
 

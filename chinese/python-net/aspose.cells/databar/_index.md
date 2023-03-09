@@ -1,15 +1,15 @@
 ﻿---
 title: DataBar类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 400
 url: /zh/python-net/aspose.cells/databar/
 is_root: false
 ---
-##  DataBar类
+## DataBar类
 描述 DataBar 条件格式规则。
-此条件格式规则显示渐变
+此条件格式规则显示分级
 单元格区域中的数据栏。
 
 
@@ -30,7 +30,7 @@ DataBar 类型公开了以下成员：
 | [color](/cells/zh/python-net/aspose.cells/databar/color) |获取或设置此 DataBar 的颜色。|
 | [min_length](/cells/zh/python-net/aspose.cells/databar/min_length) |表示数据条的最小长度。|
 | [max_length](/cells/zh/python-net/aspose.cells/databar/max_length) |表示数据条的最大长度。|
-| [show_value](/cells/zh/python-net/aspose.cells/databar/show_value) |获取或设置标志，指示是否显示应用此数据栏的单元格的值。<br/>默认值为真。|
+| [show_value](/cells/zh/python-net/aspose.cells/databar/show_value) |获取或设置标志，指示是否显示应用此数据条的单元格的值。<br/>默认值为真。|
 
 
 ### 方法

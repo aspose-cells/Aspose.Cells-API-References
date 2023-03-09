@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den horizontalen Textüberlauftyp der Form ab, die Text enthält, und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import TextOverflowType

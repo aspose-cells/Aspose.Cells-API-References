@@ -10,7 +10,7 @@ is_root: false
 ##  table_css_id mülk
 
  css adının tr,col,td vb. gibi ön ekini alır ve ayarlar, bunlar tablo öğesinde bulunur
-belirli TableCssId özniteliğine sahip olan. Varsayılan değer "" şeklindedir.
+belirli TableCssId özniteliğine sahip olan.
 ###  Tanım:
 ```python
 @property

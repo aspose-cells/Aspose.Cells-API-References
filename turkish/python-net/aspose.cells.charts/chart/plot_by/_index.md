@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by mülk
 
-Alır ve arsa satır veya sütun olup olmadığını ayarlar.
+Çizginin satıra mı yoksa sütuna mı göre çizileceğini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain fastighet
 
-Om aktivera beräkningskedja för formler. Standard är falskt.
+Om aktivera beräkningskedja för formler.
 
 ###  Anmärkningar
 

@@ -23,7 +23,7 @@ def get_connection_points(self):
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 

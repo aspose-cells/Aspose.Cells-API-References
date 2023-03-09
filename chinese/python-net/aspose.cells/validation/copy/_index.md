@@ -1,6 +1,6 @@
 ﻿---
 title: copy方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -18,7 +18,7 @@ def copy(self, source, copy_option):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source | [Validation](/cells/zh/python-net/aspose.cells/validation) |来源验证。|
 | copy_option | [CopyOptions](/cells/zh/python-net/aspose.cells/copyoptions) |复制选项。|

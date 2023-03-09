@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/formatconditioncollection/get_cell_area/
 is_root: false
 ---
 ##  get_cell_area(index) {#int}
-Obtient la plage de cellules mise en forme conditionnelle par index.
+Obtient la plage de cellules mise en forme de manière conditionnelle par index.
 
 
 ###  Retour
@@ -22,9 +22,9 @@ def get_cell_area(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| index | int | l'index de la plage de cellules mise en forme conditionnelle.|
+| index | int | l'index de la plage de cellules mise en forme conditionnellement.|
 
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Определяет конечные заглавные буквы.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import LineCapType

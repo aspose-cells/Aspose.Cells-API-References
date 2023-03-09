@@ -11,7 +11,7 @@ is_root: false
 
 يمثل لون خط حدود الصورة.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

@@ -18,7 +18,7 @@ def set_outline_borders(self, border_styles, border_colors):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | border_styles | list | Kenarlık stilleri.|
 | border_colors | aspose.pydrawing.Color[] | Kenarlık renkleri.|
@@ -38,7 +38,7 @@ def set_outline_borders(self, border_style, border_color):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | border_style | [CellBorderType](/cells/tr/python-net/aspose.cells/cellbordertype) | Kenarlık stili.|
 | border_color | aspose.pydrawing.Color | Sınır rengi.|

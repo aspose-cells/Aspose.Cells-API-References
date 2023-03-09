@@ -21,7 +21,7 @@ TrendlineType türü aşağıdaki üyeleri gösterir:
 | LINEAR | Doğrusal|
 | LOGARITHMIC | Logaritmik|
 | MOVING_AVERAGE | Hareketli ortalama|
-| POLYNOMIAL | Polinom|
+| POLYNOMIAL | polinom|
 | POWER | Güç|
 
 

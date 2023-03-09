@@ -20,12 +20,12 @@ def set_image_resample(self, desired_ppi, jpeg_quality):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| desired_ppi | int | Pixel desiderati per pollice. 220 di alta qualità. 150 qualità dello schermo. 96 qualità della posta elettronica.|
+| desired_ppi | int | Pixel per pollice desiderati. 220 alta qualità. 150 qualità schermo. 96 qualità e-mail.|
 | jpeg_quality | int | 0 - 100% JPEG qualità.|
 
-###  Esempio
+###  Esempi
 
 Il codice seguente imposta il PPI desiderato su 96 e la qualità jpeg su 80 per le immagini nel pdf di output.
 

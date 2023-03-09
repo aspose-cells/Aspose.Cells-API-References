@@ -1,6 +1,6 @@
 ﻿---
 title: clear_formats方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
@@ -18,7 +18,7 @@ def clear_formats(self, range):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | range | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |要清除的范围。|
 
@@ -34,7 +34,7 @@ def clear_formats(self, start_row, start_column, end_row, end_column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | start_row | int |开始行索引。|
 | start_column | int |开始列索引。|

@@ -21,7 +21,7 @@ def calculate_data(self):
 ###  Observaciones
 
 Cell. El valor en el rango dinámico no podría devolver el resultado correcto si no se llama al método.
-Este método calcula los datos con un caché dinámico interno, no con una fuente de datos original.
+Este método calcula los datos con una memoria caché dinámica interna, no con la fuente de datos original.
 Entonces, si se cambia la fuente de datos, llame primero al método RefreshData().
 
 

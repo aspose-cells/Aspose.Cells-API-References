@@ -22,7 +22,7 @@ def add(self, type, data_range, is_vertical, location_range):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [SparklineType](/cells/sv/python-net/aspose.cells.charts/sparklinetype) | Anger typen av Sparkline-gruppen.|
 | data_range | str | Anger dataintervallet för sparklinegruppen.|

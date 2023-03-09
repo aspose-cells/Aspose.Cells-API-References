@@ -19,11 +19,11 @@ def set_preset_color_gradient(self, preset_color, style, variant):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | preset_color | [GradientPresetType](/cells/ar/python-net/aspose.cells.drawing/gradientpresettype) | نوع اللون المحدد مسبقًا|
 | style | [GradientStyleType](/cells/ar/python-net/aspose.cells.drawing/gradientstyletype) | أسلوب التظليل المتدرج.|
-| variant | int |متغير التدرج. يمكن أن تكون قيمة من 1 إلى 4 ، مطابقة لأحد المتغيرات الأربعة في علامة التبويب Gradient في مربع حوار Fill Effects. إذا كان النمط هو GradientStyle.FromCenter ، يمكن أن تكون وسيطة Variant 1 أو 2 فقط.|
+| variant | int |متغير التدرج. يمكن أن تكون قيمة من 1 إلى 4 ، مطابقة لأحد المتغيرات الأربعة في علامة التبويب التدرج في مربع الحوار Fill Effects. إذا كان النمط هو GradientStyle.FromCenter ، يمكن أن تكون وسيطة Variant 1 أو 2 فقط.|
 
 
 

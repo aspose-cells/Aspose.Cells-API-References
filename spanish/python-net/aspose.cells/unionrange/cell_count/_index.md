@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_count propiedad
 
-Obtiene todo el recuento de celdas en el rango.
+Obtiene todos los recuentos de celdas en el rango.
 ###  Definición:
 ```python
 @property

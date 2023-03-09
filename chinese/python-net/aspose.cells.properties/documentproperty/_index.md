@@ -1,13 +1,13 @@
 ﻿---
 title: DocumentProperty类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
 url: /zh/python-net/aspose.cells.properties/documentproperty/
 is_root: false
 ---
-##  DocumentProperty类
+## DocumentProperty类
 表示自定义或内置文档属性。
 
 

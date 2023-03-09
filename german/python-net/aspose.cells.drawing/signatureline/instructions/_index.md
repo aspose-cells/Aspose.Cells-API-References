@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Text ab, der dem Benutzer beim Signieren angezeigt wird, und legt ihn fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import SignatureLine

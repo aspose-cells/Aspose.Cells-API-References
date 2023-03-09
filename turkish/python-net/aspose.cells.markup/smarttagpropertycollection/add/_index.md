@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı|
 | value | str | Mülkün değeri.|

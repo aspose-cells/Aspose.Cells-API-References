@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_never_overlap Eigentum
 
-Gibt an, ob sich die angezeigten Datenbeschriftungen niemals überlappen. (Für Kreisdiagramm)
+Gibt an, ob sich die Datenbeschriftungen nie überlappen (für Kreisdiagramm).
 ###  Definition:
 ```python
 @property

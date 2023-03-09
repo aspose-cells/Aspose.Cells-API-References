@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles propiedad
 
 Indica si los títulos de impresión para la hoja de cálculo se establecen según
-en el informe de tabla dinámica. El valor predeterminado es falso.
+en el informe de tabla dinámica.
 ###  Definición:
 ```python
 @property

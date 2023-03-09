@@ -13,7 +13,7 @@ Indikerar om bakgrunden för den genererade bilden ska vara transparent.
 
 ###  Anmärkningar
 
-Standardvärdet är falskt. Det betyder att bakgrunden för de genererade bilderna är vit.
+Standardvärdet är falskt.
 ###  Definition:
 ```python
 @property

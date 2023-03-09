@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [ChartType](/cells/tr/python-net/aspose.cells.charts/charttype) | Grafik tipi|
 | left | int | Köşeye göre x ofseti|

@@ -13,7 +13,7 @@ Holen Sie sich die Verbindungspunkte
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die Methode GetConnectionPoints().
  Diese Methode wird 12 Monate später seit April 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

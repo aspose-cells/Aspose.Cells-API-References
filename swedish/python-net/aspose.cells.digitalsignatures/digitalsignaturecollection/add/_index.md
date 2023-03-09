@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/ad
 is_root: false
 ---
 ##  add(digital_signature) {#DigitalSignature}
-Lägg till en signatur till DigitalSignatureCollection.
+Lägg till en signatur till Digital Signature Collection.
 
 
 
@@ -18,7 +18,7 @@ def add(self, digital_signature):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | digital_signature | [DigitalSignature](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignature) | Digital signatur i samling.|
 

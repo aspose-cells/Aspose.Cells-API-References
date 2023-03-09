@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ChartType](/cells/it/python-net/aspose.cells.charts/charttype) | Tipo di grafico|
 | left | int | L'offset x rispetto all'angolo|

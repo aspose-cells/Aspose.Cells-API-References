@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_align_type propriété
 
-Détermine où verticalement sur une ligne de texte les mots réels sont positionnés. Cela traite
+Détermine où verticalement sur une ligne de texte les mots réels sont positionnés.
 avec placement vertical des caractères par rapport aux lignes de base.
 ###  Définition:
 ```python

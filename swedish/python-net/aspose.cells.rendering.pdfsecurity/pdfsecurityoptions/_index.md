@@ -28,7 +28,7 @@ Typen PdfSecurityOptions avslöjar följande medlemmar:
 | [print_permission](/cells/sv/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/print_permission) | Tillstånd att skriva ut pdf-dokument|
 | [modify_document_permission](/cells/sv/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/modify_document_permission) | Tillstånd att ändra pdf-dokument|
 | [extract_content_permission_obsolete](/cells/sv/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extract_content_permission_obsolete) | Tillstånd att kopiera eller extrahera innehåll Föråldrad enligt PDF referens.|
-| [annotations_permission](/cells/sv/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotations_permission) |Tillåtelse att kommentera dokumentet.|
+| [annotations_permission](/cells/sv/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotations_permission) | Tillåtelse att kommentera dokumentet.|
 | [fill_forms_permission](/cells/sv/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fill_forms_permission) | Tillstånd att fylla i formulärfälten.|
 | [extract_content_permission](/cells/sv/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extract_content_permission) | Tillstånd att kopiera eller extrahera innehåll.|
 | [accessibility_extract_content](/cells/sv/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content) | Tillstånd att kopiera eller extrahera innehåll (till stöd för tillgänglighet för funktionshindrade användare eller för andra ändamål).|

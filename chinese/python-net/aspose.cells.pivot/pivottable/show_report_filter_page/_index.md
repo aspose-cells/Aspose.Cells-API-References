@@ -1,6 +1,6 @@
 ﻿---
 title: show_report_filter_page方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 260
@@ -18,7 +18,7 @@ def show_report_filter_page(self, page_field):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | page_field | [PivotField](/cells/zh/python-net/aspose.cells.pivot/pivotfield) |数据透视字段对象|
 

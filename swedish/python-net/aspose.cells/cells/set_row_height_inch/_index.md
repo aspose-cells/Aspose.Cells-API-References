@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cells/set_row_height_inch/
 is_root: false
 ---
 ##  set_row_height_inch(row, inches) {#int-float}
-Ställer in radhöjden i enhet av tum.
+Ställer in radhöjden i enheter av tum.
 
 
 
@@ -18,7 +18,7 @@ def set_row_height_inch(self, row, inches):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 | inches | float | Antal tum. Det bör vara mellan 0 och 409,5/72.|

@@ -22,7 +22,7 @@ def get_total_name(self, function_type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | function_type | [ConsolidationFunction](/cells/fr/python-net/aspose.cells/consolidationfunction) | Le type de fonction.|
 

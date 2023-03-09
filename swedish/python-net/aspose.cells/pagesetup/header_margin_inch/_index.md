@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  header_margin_inch fastighet
 
-Representerar avståndet från toppen av sidan till sidhuvudet, i enhet av tum.
+Representerar avståndet från toppen av sidan till sidhuvudet, i enheter av tum.
 ###  Definition:
 ```python
 @property

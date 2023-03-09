@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format_linked fastighet
 
-Sant om talformatet är kopplat till cellerna
+ Sant om talformatet är kopplat till cellerna
 (så att talformatet ändras i etiketterna när det ändras i cellerna).
 ###  Definition:
 ```python

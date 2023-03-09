@@ -22,7 +22,7 @@ def add_registered_reference(self, name, libid):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Referensens namn.|
 | libid | str | Identifieraren för ett bibliotek av automationstyp.|

@@ -1,13 +1,13 @@
 ﻿---
 title: FilterColumnCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 620
 url: /zh/python-net/aspose.cells/filtercolumncollection/
 is_root: false
 ---
-##  FilterColumnCollection类
+## FilterColumnCollection类
 Filter 对象的集合，表示自动筛选范围内的所有筛选器。
 
 

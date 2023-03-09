@@ -14,7 +14,7 @@ Yalnızca Excel 2007 için geçerlidir.
 
 ###  Notlar
 
-Dolgu Efektleri iletişim kutusundaki Degrade sekmesindeki dört değişkenden birine karşılık gelen yalnızca 1 ile 4 arasında bir değer olabilir. Stil GradientStyle.FromCenter ise, Variant bağımsız değişkeni yalnızca 1 veya 2 olabilir.
+Dolgu Efektleri iletişim kutusundaki Degrade sekmesindeki dört varyanttan birine karşılık gelen yalnızca 1 ile 4 arasında bir değer olabilir. Stil GradientStyle.FromCenter ise, Varyant bağımsız değişkeni yalnızca 1 veya 2 olabilir.
 ###  Tanım:
 ```python
 @property

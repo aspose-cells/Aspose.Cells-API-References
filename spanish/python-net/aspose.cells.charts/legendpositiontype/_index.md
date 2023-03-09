@@ -20,7 +20,7 @@ El tipo LegendPositionType expone los siguientes miembros:
 | BOTTOM | Muestra la leyenda en la parte inferior del área de trazado del gráfico.|
 | CORNER | Muestra la leyenda en la esquina del área de trazado del gráfico.|
 | LEFT | Muestra la leyenda a la izquierda del área de trazado del gráfico.|
-| NOT_DOCKED | Representa que la leyenda no está acoplada.|
+| NOT_DOCKED |Representa que la leyenda no está acoplada.|
 | RIGHT | Muestra la leyenda a la derecha del área de trazado del gráfico.|
 | TOP | Muestra la leyenda en la parte superior del área de trazado del gráfico.|
 

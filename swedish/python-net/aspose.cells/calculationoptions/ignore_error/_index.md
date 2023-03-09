@@ -10,7 +10,7 @@ is_root: false
 ##  ignore_error fastighet
 
 Indikerar om du behöver dölja felet i beräkningsformler.
-Felet kan vara en funktion som inte stöds, externa länkar, etc.
+Felet kan vara funktioner som inte stöds, externa länkar etc.
 ###  Definition:
 ```python
 @property

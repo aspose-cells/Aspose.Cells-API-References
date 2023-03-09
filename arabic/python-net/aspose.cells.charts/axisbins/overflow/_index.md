@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  overflow الملكية
 
-الحصول على أو تعيين overflow لحاويات المحور
+الحصول على أو تحديد overflow لحاويات المحور
 ###  تعريف:
 ```python
 @property

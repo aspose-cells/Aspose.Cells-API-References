@@ -18,9 +18,9 @@ def set_text_effect(self, effect):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| effect | [MsoPresetTextEffect](/cells/ar/python-net/aspose.cells.drawing/msopresettexteffect) |تأثير النص المحدد مسبقًا.|
+| effect | [MsoPresetTextEffect](/cells/ar/python-net/aspose.cells.drawing/msopresettexteffect) | تأثير النص المحدد مسبقًا.|
 
 
 

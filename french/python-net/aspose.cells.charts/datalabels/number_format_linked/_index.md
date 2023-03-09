@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format_linked propriété
 
-Vrai si le format numérique est lié aux cellules
+ Vrai si le format numérique est lié aux cellules
 (afin que le format des nombres change dans les étiquettes lorsqu'il change dans les cellules).
 ###  Définition:
 ```python

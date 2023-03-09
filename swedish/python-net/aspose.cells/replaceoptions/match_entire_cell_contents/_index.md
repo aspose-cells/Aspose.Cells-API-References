@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  match_entire_cell_contents fastighet
 
-Indikerar om hela cellinnehåll ska matchas
+Indikerar om hela cellinnehållet ska matchas
 ###  Definition:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/worksheet/split/
 is_root: false
 ---
 ##  split() {#}
-Pencereyi böler.
+Bölünmüş pencere.
 
 
 

@@ -10,7 +10,7 @@ is_root: false
 ##  show_series_name propriété
 
 Renvoie ou définit un booléen pour indiquer le comportement d'affichage du nom de la série pour les étiquettes de données sur un graphique.
-True pour afficher le nom de la série. Faux pour cacher.
+True pour afficher le nom de la série. False pour le masquer.
 ###  Définition:
 ```python
 @property

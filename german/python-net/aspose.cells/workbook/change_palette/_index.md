@@ -82,7 +82,7 @@ Das Folgende ist die Standardfarbpalette.
 | Farbe43| 153| 204| 0 |
 | Farbe44| 255| 204| 0 |
 | Farbe45| 255| 153| 0 |
-|Farbe46| 255| 102| 0 |
+| Farbe46| 255| 102| 0 |
 | Farbe47| 102| 102| 153 |
 | Farbe48| 150| 150| 150 |
 | Farbe49| 0| 51| 102 |
@@ -90,7 +90,7 @@ Das Folgende ist die Standardfarbpalette.
 | Farbe51| 0| 51| 0 |
 | Farbe52| 51| 51| 0 |
 | Farbe53| 153| 51| 0 |
-| Farbe54| 153| 51| 102 |
+|Farbe54| 153| 51| 102 |
 | Farbe55| 51| 51| 153 |
 | Farbe56| 51| 51| 51 |
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_frame_scripts_and_properties propriété
 
-Indique si les scripts de cadre et les propriétés du document sont exportés. La valeur par défaut est true.Si vous souhaitez importer le fichier html ou mht
+Indique si les scripts de cadre et les propriétés du document sont exportés. La valeur par défaut est true. Si vous souhaitez importer le fichier html ou mht
 pour exceller, veuillez conserver la valeur par défaut.
 ###  Définition:
 ```python

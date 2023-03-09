@@ -39,7 +39,7 @@ def refresh(self, hide_rows):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | hide_rows | bool | Om sant, dölj de filtrerade raderna.|
 

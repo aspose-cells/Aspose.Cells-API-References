@@ -13,7 +13,7 @@ Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#f
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die ChartFrame.Font-Eigenschaft.
  Diese Property wird 12 Monate später seit JANUAR 2012 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

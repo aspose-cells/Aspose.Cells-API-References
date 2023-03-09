@@ -1,6 +1,6 @@
 ﻿---
 title: delete_blank_rows方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 210
@@ -31,7 +31,7 @@ def delete_blank_rows(self, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/zh/python-net/aspose.cells/deleteoptions) |删除范围的选项。|
 

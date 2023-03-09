@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin alt right köşe sütunundan yatay uzaklığının genişliğini piksel birimi cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

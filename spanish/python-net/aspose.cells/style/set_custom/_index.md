@@ -18,9 +18,9 @@ def set_custom(self, custom, builtin_preference):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| custom | str | Cadena de formato de número personalizado, debe ser el patrón InvariantCulture.|
+| custom | str | Cadena de formato de número personalizado, debe ser un patrón de referencia cultural invariable.|
 | builtin_preference | bool | Si la cadena de formato de número personalizado coincide con uno de los formatos de número incorporados<br/> correspondiente a la configuración regional actual, ya sea que establezca el formato de número como incorporado en lugar de Personalizado.|
 
 

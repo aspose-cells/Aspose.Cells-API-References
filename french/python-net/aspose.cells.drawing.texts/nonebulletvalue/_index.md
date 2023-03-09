@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing.texts/nonebulletvalue/
 is_root: false
 ---
 ##  NoneBulletValue classe
-Ne représente aucune puce.
+Ne représente aucune balle.
 
 
 

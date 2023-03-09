@@ -30,14 +30,14 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [sign(digital_signature)](/cells/ru/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | Подпишите этот проект VBA с помощью DigitalSignature|
+| [sign(digital_signature)](/cells/ru/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | Подпишите этот проект VBA цифровой подписью|
 | [protect(islocked_for_viewing, password)](/cells/ru/python-net/aspose.cells.vba/vbaproject/protect/#bool-str) | Защищает или снимает защиту с этого проекта VBA.|
 | [copy(source)](/cells/ru/python-net/aspose.cells.vba/vbaproject/copy/#VbaProject) | Скопируйте проект VBA из другого файла.|
 | [validate_password(password)](/cells/ru/python-net/aspose.cells.vba/vbaproject/validate_password/#str) | Проверяет пароль защиты.|
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

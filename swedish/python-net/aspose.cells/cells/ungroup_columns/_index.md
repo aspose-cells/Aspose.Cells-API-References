@@ -18,7 +18,7 @@ def ungroup_columns(self, first_index, last_index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | first_index | int | Det första kolumnindexet som ska delas upp.|
 | last_index | int | Det sista kolumnindexet som ska delas upp.|

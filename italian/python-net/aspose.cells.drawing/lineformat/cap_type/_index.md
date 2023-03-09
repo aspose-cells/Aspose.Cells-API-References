@@ -11,7 +11,7 @@ is_root: false
 
 Specifica le maiuscole finali.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells.drawing import LineCapType

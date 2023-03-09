@@ -15,7 +15,7 @@ Representa el desplazamiento vertical de la forma desde el borde superior de la 
 
 Solo se aplica cuando esta forma está en el grupo o gráfico.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

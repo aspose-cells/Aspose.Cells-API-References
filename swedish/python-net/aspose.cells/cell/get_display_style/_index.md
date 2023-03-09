@@ -24,7 +24,7 @@ def get_display_style(self):
 
 ##  get_display_style(include_merged_borders) {#bool}
 Hämtar visningsstilen för cellen.
-Om cellen är villkorligt formaterad är visningsstilen inte samma som cell.GetStyle().
+Om cellen är villkorligt formaterad är visningsstilen inte densamma som cell.GetStyle().
 
 
 
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | include_merged_borders | bool | Anger om gränserna för de sammanslagna cellerna kontrolleras.|
 

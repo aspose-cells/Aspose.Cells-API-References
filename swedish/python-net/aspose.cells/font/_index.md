@@ -19,7 +19,7 @@ Typen Font avslöjar följande medlemmar:
 | :- | :- |
 | [charset](/cells/sv/python-net/aspose.cells/font/charset) | Representera teckenuppsättningen.|
 | [is_italic](/cells/sv/python-net/aspose.cells/font/is_italic) | Hämtar eller ställer in ett värde som anger om teckensnittet är kursivt.|
-| [is_bold](/cells/sv/python-net/aspose.cells/font/is_bold) | Hämtar eller ställer in ett värde som anger om teckensnittet är fetstilt.|
+| [is_bold](/cells/sv/python-net/aspose.cells/font/is_bold) |Hämtar eller ställer in ett värde som anger om teckensnittet är fetstilt.|
 | [caps_type](/cells/sv/python-net/aspose.cells/font/caps_type) | Hämtar och ställer in typ av textkapslar.|
 | [strike_type](/cells/sv/python-net/aspose.cells/font/strike_type) | Får textens strejktyp.|
 | [is_strikeout](/cells/sv/python-net/aspose.cells/font/is_strikeout) | Hämtar eller ställer in ett värde som indikerar om teckensnittet är enkel genomstruken.|

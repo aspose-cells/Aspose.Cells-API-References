@@ -1,13 +1,13 @@
 ﻿---
 title: PivotOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 210
 url: /zh/python-net/aspose.cells.charts/pivotoptions/
 is_root: false
 ---
-##  PivotOptions类
+## PivotOptions类
 表示一个复杂类型，它指定显示在图表上的数据透视控件
 
 

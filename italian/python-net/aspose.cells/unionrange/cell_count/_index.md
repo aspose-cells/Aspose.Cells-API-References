@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_count proprietà
 
-Ottiene tutto il conteggio delle celle nell'intervallo.
+Ottiene tutti i conteggi di celle nell'intervallo.
 ###  Definizione:
 ```python
 @property

@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  keep_alive Eigentum
 
-True, wenn das Tabellenkalkulationsprogramm Anstrengungen unternehmen soll, um die Verbindung aufrechtzuerhalten
- offen. Bei „false“ sollte die Anwendung die Verbindung nach dem Abrufen von schließen
+ True, wenn das Tabellenkalkulationsprogramm Anstrengungen unternehmen soll, um die Verbindung aufrechtzuerhalten
+open. Bei false sollte die Anwendung die Verbindung nach dem Abrufen von schließen
 Information.
 ###  Definition:
 ```python

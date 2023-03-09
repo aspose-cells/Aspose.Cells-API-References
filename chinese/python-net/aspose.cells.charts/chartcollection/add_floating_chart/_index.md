@@ -1,6 +1,6 @@
 ﻿---
 title: add_floating_chart方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [ChartType](/cells/zh/python-net/aspose.cells.charts/charttype) |图表类型|
 | left | int |角的 x 偏移量|

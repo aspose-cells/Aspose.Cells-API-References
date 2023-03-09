@@ -13,8 +13,8 @@ Stellt dar, ob das Einfügen von Spalten in einem geschützten Arbeitsblatt zul�
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
-Bitte verwenden Sie die Protection.AllowInsertingColumn-Eigenschaft.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ Bitte verwenden Sie die Protection.AllowInsertingColumn-Eigenschaft.
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

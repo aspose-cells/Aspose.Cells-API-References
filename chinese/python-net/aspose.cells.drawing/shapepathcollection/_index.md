@@ -1,13 +1,13 @@
 ﻿---
 title: ShapePathCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 580
 url: /zh/python-net/aspose.cells.drawing/shapepathcollection/
 is_root: false
 ---
-##  ShapePathCollection类
+## ShapePathCollection类
 表示 NotPrimitive autoshape 中的路径集合信息
 
 

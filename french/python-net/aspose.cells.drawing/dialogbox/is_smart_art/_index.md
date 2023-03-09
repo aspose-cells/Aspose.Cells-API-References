@@ -13,9 +13,9 @@ Indique si la forme est de l'art intelligent.
 
 ###  Remarques
 
-Uniquement pour le fichier ooxml.
+Uniquement pour les fichiers ooxml.
 
-###  Exemple
+###  Exemples
 
 ```python
 

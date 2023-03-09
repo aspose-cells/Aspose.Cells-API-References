@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Enumerazioni
-| Enumerazione| Descrizione|
+|Enumerazione| Descrizione|
 | :- | :- |
 | [XAdESType](/cells/it/python-net/aspose.cells.digitalsignatures/xadestype) | Tipo di firma elettronica avanzata XML (XAdES).|
 

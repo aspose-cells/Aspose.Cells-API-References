@@ -14,8 +14,8 @@ Indikerar om AutoFilter-knappen för denna kolumn är synlig.
 ###  Anmärkningar
 
  OBS: Denna medlem är nu föråldrad.
- Använd istället FilterColumn.IsDropdownVisible för att kontrollera om AutoFilter-knappen för den här kolumnen är synlig.
-Den här egenskapen kommer att tas bort 12 månader senare sedan september 2020.
+Använd istället FilterColumn.IsDropdownVisible för att kontrollera om AutoFilter-knappen för den här kolumnen är synlig.
+ Den här egenskapen kommer att tas bort 12 månader senare sedan september 2020.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:
 ```python

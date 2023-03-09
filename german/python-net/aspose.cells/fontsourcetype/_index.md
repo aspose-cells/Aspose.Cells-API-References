@@ -18,7 +18,7 @@ Der Typ FontSourceType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | FONT_FILE | stellt eine einzelne Schriftdatei dar.|
-| FONTS_FOLDER |steht für Ordner mit Schriftdateien.|
+| FONTS_FOLDER | stellt Ordner mit Schriftdateien dar.|
 | MEMORY_FONT | stellt eine einzelne Schriftart im Speicher dar.|
 
 

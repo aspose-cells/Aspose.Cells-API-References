@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style mülk
 
-Koşullu biçimlendirilmiş hücre aralıklarının style'ini alır veya ayarlar.
+Koşullu olarak biçimlendirilmiş hücre aralıklarının style'ini alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

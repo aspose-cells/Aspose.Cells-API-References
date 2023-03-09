@@ -11,7 +11,7 @@ is_root: false
 
 Получает исходную ширину изображения в сантиметрах.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

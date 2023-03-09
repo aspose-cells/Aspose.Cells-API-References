@@ -13,7 +13,7 @@ Ottiene l'intervallo influenzato da questa impostazione in base all'indice speci
 
 ###  ritorna
 
-intervallo influenzato dal rendimento a un dato indice.
+intervallo influenzato dal rendimento a un determinato indice.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_range(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int | l'indice di portata|
 

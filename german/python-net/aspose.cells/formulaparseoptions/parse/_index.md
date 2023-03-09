@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  parse Eigentum
 
-Ob parse Formel gegeben. Standard ist wahr.
+Ob Formel parse. Default ist true.
 Wenn es falsch ist, wird die angegebene Formelzeichenfolge für die Zelle so beibehalten, bis der Benutzer andere Methoden für parse aufruft
 oder geparste Formeldaten werden von anderen Vorgängen wie dem Berechnen von Formeln benötigt.
 ###  Definition:

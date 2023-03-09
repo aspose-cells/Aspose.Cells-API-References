@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level fastighet
 
-Representerar indragsnivån för cellen eller området. Kan bara vara ett heltal från 0 till 250.
+Representerar indragsnivån för cellen eller området.
 
 ###  Anmärkningar
 

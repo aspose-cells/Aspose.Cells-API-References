@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | text | str | El texto del comentario encadenado.|
 | author | [ThreadedCommentAuthor](/cells/es/python-net/aspose.cells/threadedcommentauthor) | El autor del comentario encadenado.|

@@ -11,7 +11,7 @@ is_root: false
 
 إرجاع عنصر [Shape.fill_format](/cells/ar/python-net/aspose.cells.drawing/shape#fill_format) يحتوي على fill خصائص تنسيق للشكل المحدد.
 
-###  مثال
+###  أمثلة
 
 ```python
 

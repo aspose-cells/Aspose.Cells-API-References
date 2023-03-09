@@ -10,7 +10,7 @@ is_root: false
 ##  row_range الملكية
 
 إرجاع كائن CellArea يمثل النطاق
-الذي يحتوي على منطقة الصف في تقرير PivotTable. يقرأ فقط.
+الذي يحتوي على منطقة الصف في تقرير PivotTable.
 ###  تعريف:
 ```python
 @property

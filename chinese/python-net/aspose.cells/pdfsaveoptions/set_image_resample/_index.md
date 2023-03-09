@@ -1,6 +1,6 @@
 ﻿---
 title: set_image_resample方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -20,9 +20,9 @@ def set_image_resample(self, desired_ppi, jpeg_quality):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| desired_ppi | int |每英寸所需的像素数。 220高品质。 150屏幕质量。 96 电子邮件质量。|
+| desired_ppi | int |每英寸所需像素。220 高质量。150 屏幕质量。96 电子邮件质量。|
 | jpeg_quality | int | 0 - 100% JPEG 质量。|
 
 ### 例子

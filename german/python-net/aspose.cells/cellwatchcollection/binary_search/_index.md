@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [CellWatch](/cells/de/python-net/aspose.cells/cellwatch) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [CellWatch](/cells/de/python-net/aspose.cells/cellwatch) | Das zu lokalisierende System.Objekt.|
 
 
 

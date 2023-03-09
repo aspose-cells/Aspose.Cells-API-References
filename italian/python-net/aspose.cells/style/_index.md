@@ -27,7 +27,7 @@ Il tipo Style espone i membri seguenti:
 | [background_theme_color](/cells/it/python-net/aspose.cells/style/background_theme_color) | Ottiene e imposta il colore del tema di sfondo.|
 | [foreground_theme_color](/cells/it/python-net/aspose.cells/style/foreground_theme_color) | Ottiene e imposta il colore del tema in primo piano.|
 | [name](/cells/it/python-net/aspose.cells/style/name) | Ottiene o imposta il nome dello stile.|
-| [pattern](/cells/it/python-net/aspose.cells/style/pattern) | Ottiene o imposta il tipo di motivo di sfondo della cella.|
+| [pattern](/cells/it/python-net/aspose.cells/style/pattern) |Ottiene o imposta il tipo di motivo di sfondo della cella.|
 | [borders](/cells/it/python-net/aspose.cells/style/borders) | Ottiene lo [BorderCollection](/cells/it/python-net/aspose.cells/bordercollection) dello stile.|
 | [background_color](/cells/it/python-net/aspose.cells/style/background_color) | Ottiene o imposta il colore di sfondo di uno stile.|
 | [background_argb_color](/cells/it/python-net/aspose.cells/style/background_argb_color) | Ottiene e imposta il colore di sfondo con un valore ARGB a 32 bit.|
@@ -35,24 +35,24 @@ Il tipo Style espone i membri seguenti:
 | [foreground_argb_color](/cells/it/python-net/aspose.cells/style/foreground_argb_color) | Ottiene e imposta il colore di primo piano con un valore ARGB a 32 bit.|
 | [has_borders](/cells/it/python-net/aspose.cells/style/has_borders) | Controlla se sono stati impostati bordi per lo stile.|
 | [parent_style](/cells/it/python-net/aspose.cells/style/parent_style) | Ottiene lo stile padre di questo stile.|
-| [indent_level](/cells/it/python-net/aspose.cells/style/indent_level) | Rappresenta il livello di rientro per la cella o l'intervallo. Può essere solo un numero intero compreso tra 0 e 250.|
+| [indent_level](/cells/it/python-net/aspose.cells/style/indent_level) | Rappresenta il livello di rientro per la cella o l'intervallo.|
 | [font](/cells/it/python-net/aspose.cells/style/font) | Ottiene un oggetto [Style.font](/cells/it/python-net/aspose.cells/style#font).|
 | [rotation_angle](/cells/it/python-net/aspose.cells/style/rotation_angle) | Rappresenta l'angolo di rotazione del testo.|
 | [horizontal_alignment](/cells/it/python-net/aspose.cells/style/horizontal_alignment) | Ottiene o imposta il tipo di allineamento orizzontale del testo in una cella.|
 | [vertical_alignment](/cells/it/python-net/aspose.cells/style/vertical_alignment) | Ottiene o imposta il tipo di allineamento verticale del testo in una cella.|
 | [is_text_wrapped](/cells/it/python-net/aspose.cells/style/is_text_wrapped) | Ottiene o imposta un valore che indica se il testo all'interno di una cella è a capo.|
-| [number](/cells/it/python-net/aspose.cells/style/number) | Ottiene o imposta il formato di visualizzazione di numeri e date. I modelli di formattazione sono diversi per le diverse regioni.|
+| [number](/cells/it/python-net/aspose.cells/style/number) | Ottiene o imposta il formato di visualizzazione di numeri e date.|
 | [is_locked](/cells/it/python-net/aspose.cells/style/is_locked) |Ottiene o imposta un valore che indica se una cella può essere modificata o meno.|
-| [custom](/cells/it/python-net/aspose.cells/style/custom) | Rappresenta la stringa di formato numerico personalizzata di questo oggetto di stile.<br/>Se il formato numerico personalizzato non è impostato (ad esempio, il formato numerico è incorporato), verrà restituito "".|
+| [custom](/cells/it/python-net/aspose.cells/style/custom) | Rappresenta la stringa di formato numerico personalizzata di questo oggetto di stile.<br/> Se il formato numerico personalizzato non è impostato (ad esempio, il formato numerico è incorporato), verrà restituito "".|
 | [culture_custom](/cells/it/python-net/aspose.cells/style/culture_custom) | Ottiene e imposta la stringa del modello dipendente dalle impostazioni cultura per il formato numerico.<br/>Se non è stato impostato alcun formato numerico per questo oggetto, verrà restituito null.<br/> Se il formato del numero è incorporato, verrà restituita la stringa del modello corrispondente al numero incorporato.|
 | [invariant_custom](/cells/it/python-net/aspose.cells/style/invariant_custom) | Ottiene la stringa del modello indipendente dalle impostazioni cultura per il formato numerico.<br/>Se non è stato impostato alcun formato numerico per questo oggetto, verrà restituito null.<br/> Se il formato del numero è incorporato, verrà restituita la stringa del modello corrispondente al numero incorporato.|
 | [is_formula_hidden](/cells/it/python-net/aspose.cells/style/is_formula_hidden) | Indica se la formula sarà nascosta quando il foglio di lavoro è protetto.|
 | [shrink_to_fit](/cells/it/python-net/aspose.cells/style/shrink_to_fit) | Indica se il testo si riduce automaticamente per adattarsi alla larghezza della colonna disponibile.|
 | [text_direction](/cells/it/python-net/aspose.cells/style/text_direction) | Rappresenta l'ordine di lettura del testo.|
 | [is_justify_distributed](/cells/it/python-net/aspose.cells/style/is_justify_distributed) | Indica se l'allineamento giustificato o distribuito delle celle deve essere utilizzato sull'ultima riga di testo.|
-| [quote_prefix](/cells/it/python-net/aspose.cells/style/quote_prefix) | Indica se il valore della cella inizia con virgolette singole.|
+| [quote_prefix](/cells/it/python-net/aspose.cells/style/quote_prefix) | Indica se il valore della cella inizia con una singola virgoletta.|
 | [is_gradient](/cells/it/python-net/aspose.cells/style/is_gradient) | Indica se l'ombreggiatura della cella è un motivo sfumato.|
-| [is_percent](/cells/it/python-net/aspose.cells/style/is_percent) | Indica se il formato numerico è un formato percentuale.|
+| [is_percent](/cells/it/python-net/aspose.cells/style/is_percent) |Indica se il formato numerico è un formato percentuale.|
 | [is_date_time](/cells/it/python-net/aspose.cells/style/is_date_time) | Indica se il formato numerico è un formato data.|
 
 
@@ -73,7 +73,7 @@ Il tipo Style espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

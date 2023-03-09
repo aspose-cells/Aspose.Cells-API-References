@@ -22,9 +22,9 @@ def equals(self, font):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| font | [Font](/cells/ar/python-net/aspose.cells/font) | مقارنة كائن الخط.|
+| font | [Font](/cells/ar/python-net/aspose.cells/font) |مقارنة كائنات الخط.|
 
 
 

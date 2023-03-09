@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format propiedad
 
-Obtiene y establece el formato del valor numérico.
+Obtiene y establece el formato de los valores numéricos.
 ###  Definición:
 ```python
 @property

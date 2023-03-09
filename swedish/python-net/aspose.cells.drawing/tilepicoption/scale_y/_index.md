@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y fastighet
 
-Hämtar eller ställer in Y-skalan för sida vid sida.
+Hämtar eller ställer in Y-skalan för sida vid sida av bilder.
 ###  Definition:
 ```python
 @property

@@ -18,7 +18,7 @@ def set_row_height(self, row, height):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila.|
 | height | float | Alto de fila. En unidad de punto Debe estar entre 0 y 409.5.|

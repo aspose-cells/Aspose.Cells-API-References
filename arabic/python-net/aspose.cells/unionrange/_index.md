@@ -24,8 +24,8 @@ is_root: false
 | [value](/cells/ar/python-net/aspose.cells/unionrange/value) | الحصول على قيم النطاق وتعيينها.|
 | [name](/cells/ar/python-net/aspose.cells/unionrange/name) | الحصول على أو تحديد اسم النطاق.|
 | [refers_to](/cells/ar/python-net/aspose.cells/unionrange/refers_to) | يحصل على النطاق الذي يشير إليه.|
-| [has_range](/cells/ar/python-net/aspose.cells/unionrange/has_range) |يشير إلى ما إذا كان هذا له نطاق.|
-| [hyperlinks](/cells/ar/python-net/aspose.cells/unionrange/hyperlinks) | يحصل على كل الارتباط التشعبي في النطاق.|
+| [has_range](/cells/ar/python-net/aspose.cells/unionrange/has_range) | يشير إلى ما إذا كان هذا له نطاق.|
+| [hyperlinks](/cells/ar/python-net/aspose.cells/unionrange/hyperlinks) | يحصل على كافة الارتباطات التشعبية الموجودة في النطاق.|
 | [cell_count](/cells/ar/python-net/aspose.cells/unionrange/cell_count) | الحصول على كل عدد الخلايا في النطاق.|
 | [range_count](/cells/ar/python-net/aspose.cells/unionrange/range_count) | يحصل على عدد النطاقات.|
 | [ranges](/cells/ar/python-net/aspose.cells/unionrange/ranges) | يحصل على كافة نطاقات الاتحاد.|
@@ -43,7 +43,7 @@ is_root: false
 | [union(union_range)](/cells/ar/python-net/aspose.cells/unionrange/union/#UnionRange) | اتحاد مجموعة أخرى.|
 | [union(ranges)](/cells/ar/python-net/aspose.cells/unionrange/union/#list) | اتحاد النطاقات.|
 | [merge()](/cells/ar/python-net/aspose.cells/unionrange/merge/#) | يدمج نطاقًا من الخلايا في خلية واحدة.|
-| [un_merge()](/cells/ar/python-net/aspose.cells/unionrange/un_merge/#) | يدمج الخلايا المدمجة من هذا النطاق.|
+| [un_merge()](/cells/ar/python-net/aspose.cells/unionrange/un_merge/#) |يدمج الخلايا المدمجة من هذا النطاق.|
 | [put_value(string_value, is_converted, set_style)](/cells/ar/python-net/aspose.cells/unionrange/put_value/#str-bool-bool) | يضع قيمة في النطاق ، إذا كان ذلك مناسبًا ، فسيتم تحويل القيمة إلى نوع بيانات آخر وستتم إعادة تعيين تنسيق رقم الخلية.|
 | [set_style(style)](/cells/ar/python-net/aspose.cells/unionrange/set_style/#Style) | يعيّن نمط النطاق.|
 | [apply_style(style, flag)](/cells/ar/python-net/aspose.cells/unionrange/apply_style/#Style-StyleFlag) | يطبق التنسيقات على نطاق كامل.|

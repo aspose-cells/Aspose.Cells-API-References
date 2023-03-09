@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_filled fastighet
 
-Indikerar om fyllningsformatet är synligt.
+Anger om fyllningsformatet är synligt.
 
 ###  Exempel
 

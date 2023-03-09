@@ -1,13 +1,13 @@
 ﻿---
 title: SortOrder枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2490
 url: /zh/python-net/aspose.cells/sortorder/
 is_root: false
 ---
-##  SortOrder枚举
+## SortOrder枚举
 表示数据范围的排序顺序。
 
 

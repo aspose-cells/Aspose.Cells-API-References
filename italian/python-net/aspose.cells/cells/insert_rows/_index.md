@@ -18,7 +18,7 @@ def insert_rows(self, row_index, total_rows):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row_index | int | Indice di riga.|
 | total_rows | int | Numero di righe da inserire.|
@@ -35,11 +35,11 @@ def insert_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row_index | int | Indice di riga.|
 | total_rows | int | Numero di righe da inserire.|
-| update_reference | bool | Indica se i riferimenti in altri fogli di lavoro verranno aggiornati.|
+| update_reference | bool |Indica se i riferimenti in altri fogli di lavoro verranno aggiornati.|
 
 
 ##  insert_rows(row_index, total_rows, options) {#int-int-InsertOptions}
@@ -53,11 +53,11 @@ def insert_rows(self, row_index, total_rows, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row_index | int | Indice di riga.|
 | total_rows | int | Numero di righe da inserire.|
-| options | [InsertOptions](/cells/it/python-net/aspose.cells/insertoptions) | Indica se i riferimenti in altri fogli di lavoro verranno aggiornati.|
+| options | [InsertOptions](/cells/it/python-net/aspose.cells/insertoptions) |Indica se i riferimenti in altri fogli di lavoro verranno aggiornati.|
 
 
 

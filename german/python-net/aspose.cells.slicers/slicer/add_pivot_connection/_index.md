@@ -22,7 +22,7 @@ def add_pivot_connection(self, pivot):
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | Das PivotTable-Objekt|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

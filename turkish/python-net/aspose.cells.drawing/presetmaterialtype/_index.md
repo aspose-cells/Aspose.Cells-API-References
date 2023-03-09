@@ -18,7 +18,7 @@ PresetMaterialType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | CLEAR | Temizlemek|
-| DARK_EDGE | koyu kenar|
+| DARK_EDGE | Koyu kenarlar|
 | FLAT | Düz|
 | LEGACY_MATTE | Eski mat|
 | LEGACY_METAL | Eski metal|
@@ -28,7 +28,7 @@ PresetMaterialType türü aşağıdaki üyeleri gösterir:
 | METAL | Metal|
 | PLASTIC | Plastik|
 | POWDER | Pudra|
-| SOFT_EDGE | Yumuşak kenar|
+| SOFT_EDGE | Yumuşak kenarlar|
 | SOFT_METAL | yumuşak metal|
 | TRANSLUCENT_POWDER | yarı saydam toz|
 | WARM_MATTE | sıcak mat|

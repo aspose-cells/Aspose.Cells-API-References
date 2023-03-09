@@ -11,7 +11,7 @@ is_root: false
 
 Obtient le format d'image de l'image.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

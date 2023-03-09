@@ -23,14 +23,14 @@ is_root: false
 | [column](/cells/ru/python-net/aspose.cells/comment/column) | Получает индекс столбца комментария.|
 | [is_threaded_comment](/cells/ru/python-net/aspose.cells/comment/is_threaded_comment) | Указывает, является ли этот комментарий цепочкой комментариев.|
 | [threaded_comments](/cells/ru/python-net/aspose.cells/comment/threaded_comments) | Получает список цепочек комментариев;|
-| [note](/cells/ru/python-net/aspose.cells/comment/note) | Представляет содержимое комментария.|
-| [html_note](/cells/ru/python-net/aspose.cells/comment/html_note) |Получает и задает строку html, содержащую данные и некоторые форматы в этом комментарии.|
+| [note](/cells/ru/python-net/aspose.cells/comment/note) | Представляет содержимое комментариев.|
+| [html_note](/cells/ru/python-net/aspose.cells/comment/html_note) | Получает и задает строку html, содержащую данные и некоторые форматы в этом комментарии.|
 | [font](/cells/ru/python-net/aspose.cells/comment/font) | Получает шрифт комментария.|
 | [is_visible](/cells/ru/python-net/aspose.cells/comment/is_visible) | Указывает, виден комментарий или нет.|
 | [text_orientation_type](/cells/ru/python-net/aspose.cells/comment/text_orientation_type) | Получает и задает тип ориентации текста комментария.|
 | [text_horizontal_alignment](/cells/ru/python-net/aspose.cells/comment/text_horizontal_alignment) | Получает и задает тип горизонтального выравнивания текста комментария.|
 | [text_vertical_alignment](/cells/ru/python-net/aspose.cells/comment/text_vertical_alignment) | Получает и задает тип вертикального выравнивания текста комментария.|
-| [auto_size](/cells/ru/python-net/aspose.cells/comment/auto_size) | Указывает, регулируется ли размер комментария автоматически в соответствии с его содержимым.|
+| [auto_size](/cells/ru/python-net/aspose.cells/comment/auto_size) |Указывает, регулируется ли размер комментария автоматически в соответствии с его содержимым.|
 | [height_cm](/cells/ru/python-net/aspose.cells/comment/height_cm) | Представляет высоту комментария в сантиметрах.|
 | [width_cm](/cells/ru/python-net/aspose.cells/comment/width_cm) | Представляет ширину комментария в сантиметрах.|
 | [width](/cells/ru/python-net/aspose.cells/comment/width) | Представляет ширину комментария в пикселях.|

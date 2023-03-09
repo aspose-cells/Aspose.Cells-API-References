@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_inch Eigentum
 
-Stellt die Größe des oberen Rands in Zoll dar.
+Stellt die Größe des oberen Rands in Zolleinheiten dar.
 ###  Definition:
 ```python
 @property

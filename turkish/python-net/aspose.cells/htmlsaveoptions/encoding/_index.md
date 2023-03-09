@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding mülk
 
-Ayarlanmamışsa varsayılan kodlama türü olarak Encoding.UTF8'i kullanın.
+Ayarlanmazsa varsayılan kodlama türü olarak Encoding.UTF8'i kullanın.
 ###  Tanım:
 ```python
 @property

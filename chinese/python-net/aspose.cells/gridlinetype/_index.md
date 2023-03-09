@@ -1,13 +1,13 @@
 ﻿---
 title: GridlineType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2120
 url: /zh/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
-##  GridlineType枚举
+## GridlineType枚举
 枚举网格线类型。
 
 

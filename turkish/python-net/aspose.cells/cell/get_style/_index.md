@@ -42,7 +42,7 @@ def get_style(self, check_borders):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | check_borders | bool | Diğer hücrelerin kenarlıklarını kontrol edin|
 ###  Notlar

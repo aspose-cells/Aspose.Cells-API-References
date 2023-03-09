@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على النص المعروض للمستخدم في وقت التوقيع وتعيينه.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import SignatureLine

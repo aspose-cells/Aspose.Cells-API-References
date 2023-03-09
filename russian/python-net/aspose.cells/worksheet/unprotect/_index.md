@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/worksheet/unprotect/
 is_root: false
 ---
 ##  unprotect() {#}
-Снимает защиту с листа.
+Снять защиту листа.
 
 
 
@@ -24,7 +24,7 @@ def unprotect(self):
 
 ##  unprotect(password) {#str}
 
-Снимает защиту с листа.
+Снять защиту листа.
 
 
 
@@ -34,7 +34,7 @@ def unprotect(self, password):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | password | str | Пароль|
 ###  Примечания

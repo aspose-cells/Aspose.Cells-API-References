@@ -10,7 +10,7 @@ is_root: false
 ##  above_average propriété
 
 Obtenez l'instance "AboveAverage" de la mise en forme conditionnelle.
- La règle de l'instance par défaut met en évidence les cellules qui sont
+ La règle de l'instance par défaut met en surbrillance les cellules qui sont
 au-dessus de la moyenne pour toutes les valeurs de la gamme.
 Valable uniquement pour le type = AboveAverage.
 ###  Définition:

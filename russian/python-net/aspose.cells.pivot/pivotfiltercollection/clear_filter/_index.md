@@ -18,7 +18,7 @@ def clear_filter(self, field_index):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | индекс PivotField|
 

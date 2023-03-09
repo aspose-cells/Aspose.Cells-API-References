@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/svgsaveoptions/__init__/
 is_root: false
 ---
 ##  SvgSaveOptions() {#}
-Crea le opzioni per il salvataggio del file svg.
+Crea le opzioni per salvare i file svg.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SvgSaveOptions(save_format) {#SaveFormat}
-Crea le opzioni per il salvataggio del file svg.
+Crea le opzioni per salvare i file svg.
 
 
 
@@ -31,9 +31,9 @@ def __init__(self, save_format):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/it/python-net/aspose.cells/saveformat) | Il formato del file.<br/>Deve essere svg.|
+| save_format | [SaveFormat](/cells/it/python-net/aspose.cells/saveformat) | Il formato del file.<br/> Deve essere svg.|
 ###  Osservazioni
 
 NOTA: questo costruttore è ora obsoleto.

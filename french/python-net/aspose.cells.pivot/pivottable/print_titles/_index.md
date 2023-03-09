@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles propriété
 
 Indique si les titres d'impression de la feuille de calcul sont définis en fonction
-sur le rapport de tableau croisé dynamique. La valeur par défaut est faux.
+sur le rapport de tableau croisé dynamique.
 ###  Définition:
 ```python
 @property

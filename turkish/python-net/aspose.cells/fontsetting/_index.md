@@ -1,5 +1,5 @@
 ﻿---
-title: FontSetting sınıf
+title: FontSetting sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 670
 url: /tr/python-net/aspose.cells/fontsetting/
 is_root: false
 ---
-##  FontSetting sınıf
+##  FontSetting sınıfı
 Hücre metni içindeki bir karakter aralığını temsil eder.
 
 
@@ -25,9 +25,9 @@ FontSetting türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [type](/cells/tr/python-net/aspose.cells/fontsetting/type) | Metin düğümü türünü alır.|
 | [start_index](/cells/tr/python-net/aspose.cells/fontsetting/start_index) | Karakterlerin başlangıç dizinini alır.|
-| [length](/cells/tr/python-net/aspose.cells/fontsetting/length) | Karakterlerin uzunluklarını alır.|
+| [length](/cells/tr/python-net/aspose.cells/fontsetting/length) |Karakterlerin uzunluklarını alır.|
 | [font](/cells/tr/python-net/aspose.cells/fontsetting/font) | Bu nesnenin yazı tipini döndürür.|
-| [text_options](/cells/tr/python-net/aspose.cells/fontsetting/text_options) |Metin seçeneklerini döndürür.|
+| [text_options](/cells/tr/python-net/aspose.cells/fontsetting/text_options) | Metin seçeneklerini döndürür.|
 
 
 ###  Yöntemler
@@ -37,7 +37,7 @@ FontSetting türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

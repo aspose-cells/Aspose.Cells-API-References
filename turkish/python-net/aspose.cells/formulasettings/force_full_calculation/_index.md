@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  force_full_calculation mülk
 
-Bir hesaplama tetiklendiğinde her seferinde tüm formülleri hesaplayıp hesaplamadığını gösterir.
+Bir hesaplama her tetiklendiğinde tüm formüllerin hesaplanıp hesaplanmadığını gösterir.
 
 ###  Notlar
 

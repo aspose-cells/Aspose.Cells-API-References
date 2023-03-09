@@ -18,9 +18,9 @@ Le type TickMarkType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | CROSS | Le type de coche est Croix.|
-| INSIDE |Le type de coche est Intérieur.|
-| NONE | Le type de coche est Aucun.|
-| OUTSIDE | Le type de coche est Extérieur|
+| INSIDE | Le type de coche est à l'intérieur.|
+| NONE |Le type de coche est Aucun.|
+| OUTSIDE | Le type de coche est extérieur|
 
 
 

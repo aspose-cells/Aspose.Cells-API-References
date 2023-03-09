@@ -22,7 +22,7 @@ def validate_password(self, password):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | password | str | Le mot de passe spécifié.|
 

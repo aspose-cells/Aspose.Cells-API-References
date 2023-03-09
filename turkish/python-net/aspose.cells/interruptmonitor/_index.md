@@ -1,5 +1,5 @@
 ﻿---
-title: InterruptMonitor sınıf
+title: InterruptMonitor sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,8 +7,8 @@ weight: 950
 url: /tr/python-net/aspose.cells/interruptmonitor/
 is_root: false
 ---
-##  InterruptMonitor sınıf
-Kesinti ile ilgili tüm operatörü temsil eder.
+##  InterruptMonitor sınıfı
+Kesme ile ilgili tüm işleçleri temsil eder.
 
 
 
@@ -29,7 +29,7 @@ InterruptMonitor türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [is_interruption_requested](/cells/tr/python-net/aspose.cells/interruptmonitor/is_interruption_requested) | Monitörü kesinti istiyor olarak işaretleyin|
-| [terminate_without_exception](/cells/tr/python-net/aspose.cells/interruptmonitor/terminate_without_exception) | Prosedür kesintiye uğradığında, prosedürü sessizce sonlandırın veya bir İstisna atın.<br/>Varsayılan yanlıştır, yani [AbstractInterruptMonitor.is_interruption_requested](/cells/tr/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) doğru olduğunda,<br/> [ExceptionType.INTERRUPTED](/cells/tr/python-net/aspose.cells/exceptiontype#INTERRUPTED) kodlu bir [CellsException](/cells/tr/python-net/aspose.cells/cellsexception) atılacak.|
+| [terminate_without_exception](/cells/tr/python-net/aspose.cells/interruptmonitor/terminate_without_exception) | Prosedür kesintiye uğradığında, prosedürü sessizce sonlandırmak veya bir İstisna atmak.<br/>Varsayılan yanlıştır, yani [AbstractInterruptMonitor.is_interruption_requested](/cells/tr/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) doğru olduğunda,<br/> [ExceptionType.INTERRUPTED](/cells/tr/python-net/aspose.cells/exceptiontype#INTERRUPTED) kodlu bir [CellsException](/cells/tr/python-net/aspose.cells/cellsexception) atılacak.|
 
 
 ###  Yöntemler

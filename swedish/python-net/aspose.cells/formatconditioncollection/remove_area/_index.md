@@ -18,9 +18,9 @@ def remove_area(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| index | int |Indexet för det villkorligt formaterade cellintervallet som ska tas bort.|
+| index | int | Indexet för det villkorligt formaterade cellintervallet som ska tas bort.|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}
@@ -29,7 +29,7 @@ Ta bort villkorlig formatering i intervallet.
 
 ###  Returnerar
 
-Returnerar TRUE, denna FormatCondtionCollection bör tas bort.
+Returnerar TRUE, denna FormatConditionCollection bör tas bort.
 
 
 ```python
@@ -38,10 +38,10 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Startraden i intervallet.|
-| start_column | int | Startkolumnen för intervallet.|
+| start_column | int | Seriens startkolumn.|
 | total_rows | int | Antalet rader i intervallet.|
 | total_columns | int | Antalet kolumner i intervallet.|
 

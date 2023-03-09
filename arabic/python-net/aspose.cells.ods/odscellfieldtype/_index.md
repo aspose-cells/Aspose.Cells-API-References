@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  العد OdsCellFieldType
-يمثل نوع حقل الخلية من ods.
+يمثل نوع حقل الخلية من الاحتمالات.
 
 
 

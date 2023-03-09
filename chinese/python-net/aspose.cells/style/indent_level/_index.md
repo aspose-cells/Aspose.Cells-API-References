@@ -1,6 +1,6 @@
 ﻿---
 title: indent_level 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 250
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## indent_level 属性
 
-表示单元格或区域的缩进级别。只能是 0 到 250 之间的整数。
+表示单元格或区域的缩进级别。
 
 ### 评论
 

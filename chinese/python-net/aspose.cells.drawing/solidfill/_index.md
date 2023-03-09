@@ -1,13 +1,13 @@
 ﻿---
 title: SolidFill类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 660
 url: /zh/python-net/aspose.cells.drawing/solidfill/
 is_root: false
 ---
-##  SolidFill类
+## SolidFill类
 封装表示实心填充格式的对象
 
 

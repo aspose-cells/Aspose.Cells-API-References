@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals propiedad
 
-Obtiene y establece si este ListObject muestra la fila total.
+Obtiene y establece si ListObject muestra el total de filas.
 ###  Definición:
 ```python
 @property

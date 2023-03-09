@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_worksheet_css_separately propriété
 
-Indique si vous exportez la feuille de calcul CSS séparément. La valeur par défaut est false.
+Indique s'il faut exporter la feuille de calcul CSS séparément. La valeur par défaut est false.
 ###  Définition:
 ```python
 @property

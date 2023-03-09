@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparkline_group_collection propiedad
 
-Obtiene la colección de grupos de minigráficos en la hoja de cálculo.
+Obtiene la colección de grupos de minigráficos en la hoja de trabajo.
 
 ###  Observaciones
 

@@ -18,12 +18,12 @@ def get_designer_storage(self, name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str |  |
 ###  Notlar
 
-Onları ayrıştırmayı desteklemiyoruz. Sadece kopyalamak için.
+Onları ayrıştırmayı desteklemiyoruz.
 
 
 ###  Ayrıca bakınız

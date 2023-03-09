@@ -1,13 +1,13 @@
 ﻿---
 title: ThemeColor类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1430
 url: /zh/python-net/aspose.cells/themecolor/
 is_root: false
 ---
-##  ThemeColor类
+## ThemeColor类
 代表主题颜色。
 
 

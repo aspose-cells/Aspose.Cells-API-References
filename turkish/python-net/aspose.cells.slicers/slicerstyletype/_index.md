@@ -20,9 +20,9 @@ SlicerStyleType türü aşağıdaki üyeleri gösterir:
 | SLICER_STYLE_LIGHT1 | yerleşik ışık stili bir|
 | SLICER_STYLE_LIGHT2 | yerleşik ışık stili iki|
 | SLICER_STYLE_LIGHT3 | yerleşik ışık stili üç|
-| SLICER_STYLE_LIGHT4 |yerleşik ışık stili dört|
+| SLICER_STYLE_LIGHT4 | yerleşik ışık stili dört|
 | SLICER_STYLE_LIGHT5 | yerleşik ışık stili beş|
-| SLICER_STYLE_LIGHT6 | yerleşik ışık stili altı|
+| SLICER_STYLE_LIGHT6 |yerleşik ışık stili altı|
 | SLICER_STYLE_OTHER1 | yerleşik stil diğeri|
 | SLICER_STYLE_OTHER2 | yerleşik stil diğer ikisi|
 | SLICER_STYLE_DARK1 | yerleşik koyu stil bir|

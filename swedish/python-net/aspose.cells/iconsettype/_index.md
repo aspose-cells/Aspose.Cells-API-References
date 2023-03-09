@@ -30,19 +30,19 @@ Typen IconSetType avslöjar följande medlemmar:
 | ARROWS4 | 4 pilar ikonuppsättning.|
 | ARROWS_GRAY4 | 4 grå pilar ikonuppsättning.|
 | RATING4 | 4 betyg ikonuppsättning.|
-| RED_TO_BLACK4 | 4 "röd till svart" ikonuppsättning.|
+| RED_TO_BLACK4 | "röd till svart" ikonuppsättning.|
 | TRAFFIC_LIGHTS4 | 4 trafikljus ikonuppsättning.|
 | ARROWS5 | 5 pilar ikonuppsättning.|
 | ARROWS_GRAY5 | 5 grå pilar ikonuppsättning.|
 | QUARTERS5 | 5 fjärdedelar ikonuppsättning.|
 | RATING5 | 5 betygsikonuppsättning.|
-| STARS3 | 3 stjärnor set|
+| STARS3 | 3-stjärnigt set|
 | BOXES5 | 5 lådor set|
 | TRIANGLES3 | 3 trianglar set|
 | NONE | Ingen|
 | CUSTOM_SET | CustomSet.<br/> Detta element är skrivskyddat.|
-| SMILIES3 | 3 smilies.<br/> Endast för .ods.|
-| COLOR_SMILIES3 | 3 färgade smilies.<br/> Endast för .ods.|
+| SMILIES3 | 3 leenden.<br/> Endast för .ods.|
+| COLOR_SMILIES3 | 3 färg leenden.<br/> Endast för .ods.|
 
 
 

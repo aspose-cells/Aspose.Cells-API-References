@@ -23,7 +23,7 @@ def is_modified(self, modify_flag):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | modify_flag | [StyleModifyFlag](/cells/sv/python-net/aspose.cells/stylemodifyflag) | Stil modifierade flaggor|
 

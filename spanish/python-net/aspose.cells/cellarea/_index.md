@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/cellarea/
 is_root: false
 ---
 ##  CellArea clase
-Representa un área de celdas.
+Representar un área de celdas.
 
 
 
@@ -25,7 +25,7 @@ El tipo CellArea expone los siguientes miembros:
 | :- | :- |
 | [start_row](/cells/es/python-net/aspose.cells/cellarea/start_row) | Obtiene o establece la fila inicial de esta área.|
 | [end_row](/cells/es/python-net/aspose.cells/cellarea/end_row) | Obtiene o establece la última fila de esta área.|
-| [start_column](/cells/es/python-net/aspose.cells/cellarea/start_column) | Obtiene o establece la columna de inicio de esta área.|
+| [start_column](/cells/es/python-net/aspose.cells/cellarea/start_column) |Obtiene o establece la columna de inicio de esta área.|
 | [end_column](/cells/es/python-net/aspose.cells/cellarea/end_column) | Obtiene o establece la columna final de esta área.|
 
 
@@ -38,7 +38,7 @@ El tipo CellArea expone los siguientes miembros:
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import CellArea

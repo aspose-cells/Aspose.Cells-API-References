@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  embed_standard_windows_fonts proprietà
 
- True per incorporare font true type.
+True per incorporare font true type.
 Interessa solo i caratteri ASCII 32-127.
 I caratteri per i codici di caratteri superiori a 127 sono sempre incorporati.
 I caratteri sono sempre incorporati per lo standard PDF/A-1a, PDF/A-1b.

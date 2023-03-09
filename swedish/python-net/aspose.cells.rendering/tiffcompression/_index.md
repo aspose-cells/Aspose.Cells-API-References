@@ -20,7 +20,7 @@ Typen TiffCompression avslöjar följande medlemmar:
 | COMPRESSION_NONE | Anger ingen komprimering.|
 | COMPRESSION_RLE | Anger RLE-komprimeringsschemat.|
 | COMPRESSION_LZW | Anger LZW-komprimeringsschemat.|
-| COMPRESSION_CCITT3 | Anger CCITT3-komprimeringsschemat.|
+| COMPRESSION_CCITT3 |Anger CCITT3-komprimeringsschemat.|
 | COMPRESSION_CCITT4 | Anger CCITT4-komprimeringsschemat.|
 
 

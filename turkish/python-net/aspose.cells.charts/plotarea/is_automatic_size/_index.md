@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size mülk
 
-Çizim alanının otomatik boyutlandırılıp boyutlandırılmadığını gösterir.
+Çizim alanının otomatik olarak boyutlandırılıp boyutlandırılmayacağını gösterir.
 ###  Tanım:
 ```python
 @property

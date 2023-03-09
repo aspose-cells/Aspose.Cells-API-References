@@ -26,14 +26,14 @@ def add_icons(self, upper_left_row, top, upper_left_column, left, height, width,
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz der Form von der linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Der horizontale Versatz der Form von der linken Spalte in Pixeleinheiten.|
 | height | int | Die Höhe der Form in Pixeleinheiten.|
 | width | int | Die Breite der Form in Pixeleinheiten.|
 | image_byte_data | bytes | Die Bildbytedaten.|
-| compatible_image_data | bytes | Konvertierte Bilddaten von svg, um mit Excel 2016 oder niedrigeren Versionen kompatibel zu sein.|
+| compatible_image_data | bytes |Konvertierte Bilddaten von svg, um mit Excel 2016 oder niedrigeren Versionen kompatibel zu sein.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose import pycore

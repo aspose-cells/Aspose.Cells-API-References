@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlSaveOptions(format) {#SaveFormat}
-Erstellt Optionen zum Speichern von HTML-Dateien.
+Erstellt Optionen zum Speichern von HTM-Dateien.
 
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: process方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -31,7 +31,7 @@ def process(self, is_preserved):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | is_preserved | bool |如果未识别的智能标记被保留，则为真。|
 
@@ -47,7 +47,7 @@ def process(self, sheet_index, is_preserved):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | sheet_index | int |工作表索引。|
 | is_preserved | bool |如果未识别的智能标记被保留，则为真。|

@@ -11,7 +11,7 @@ is_root: false
 
 Bir şeklin z-sırasındaki konumunu döndürür.
 
-###  Örnek
+###  örnekler
 
 ```python
 

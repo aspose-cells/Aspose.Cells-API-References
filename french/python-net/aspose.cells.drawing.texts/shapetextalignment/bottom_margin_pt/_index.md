@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  bottom_margin_pt propriété
 
-Renvoie la marge inférieure en unité de Points
+Renvoie la marge inférieure en unités de Points
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -13,7 +13,7 @@ Hämtar nästa rad som ska sparas.
 
 ###  Returnerar
 
-nästa radindex som ska sparas. -1 betyder att slutet av aktuella arkdata har nåtts och ingen ytterligare rad med aktuellt ark ska sparas.
+-1 betyder att slutet av aktuella arkdata har nåtts och ingen ytterligare rad med aktuellt ark ska sparas.
 
 
 ```python

@@ -22,7 +22,7 @@ Typen RevisionAutoFormat avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [type](/cells/sv/python-net/aspose.cells.revisions/revisionautoformat/type) | Hämtar typ av revision.|
+| [type](/cells/sv/python-net/aspose.cells.revisions/revisionautoformat/type) | Får typ av revision.|
 | [worksheet](/cells/sv/python-net/aspose.cells.revisions/revisionautoformat/worksheet) | Får arbetsbladet.|
 | [id](/cells/sv/python-net/aspose.cells.revisions/revisionautoformat/id) | Får numret på denna revision.|
 | [cell_area](/cells/sv/python-net/aspose.cells.revisions/revisionautoformat/cell_area) | Hämtar platsen där formateringen tillämpades.|

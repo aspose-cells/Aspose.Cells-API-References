@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose fastighet
 
-Sant till transpose rader och kolumner när intervallet klistras in. Standardvärdet är False.
+Sant till transpose rader och kolumner när intervallet klistras in.
 ###  Definition:
 ```python
 @property

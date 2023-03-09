@@ -18,7 +18,7 @@ def set_font_folder(self, font_folder, recursive):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | font_folder | str | La cartella che contiene i caratteri TrueType.|
 | recursive | bool | Determina se eseguire o meno la scansione delle sottocartelle.|

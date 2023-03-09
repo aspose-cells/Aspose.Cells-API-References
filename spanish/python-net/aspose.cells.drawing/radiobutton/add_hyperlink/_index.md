@@ -22,11 +22,11 @@ def add_hyperlink(self, address):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | address | str | Dirección del hipervínculo.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

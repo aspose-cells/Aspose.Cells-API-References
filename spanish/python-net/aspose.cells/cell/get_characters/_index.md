@@ -41,7 +41,7 @@ def get_characters(self, flag):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | flag | bool | Indica si se aplica el estilo de tabla a la celda si la celda está en la tabla.|
 

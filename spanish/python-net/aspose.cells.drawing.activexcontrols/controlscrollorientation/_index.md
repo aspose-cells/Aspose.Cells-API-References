@@ -18,7 +18,7 @@ El tipo ControlScrollOrientation expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | AUTO | El control se representa horizontalmente cuando el ancho del control es mayor que su altura.<br/> De lo contrario, el control se renderiza verticalmente.|
-| VERTICAL | El control se representa verticalmente.|
+| VERTICAL |Los controles se representan verticalmente.|
 | HORIZONTAL | El control se representa horizontalmente.|
 
 

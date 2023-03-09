@@ -20,7 +20,7 @@ is_root: false
 | TOP_LEFT | Верхний левый.|
 | TOP_CENTER | Верхний центр.|
 | TOP_RIGHT | В правом верхнем углу.|
-| CENTER_LEFT |Центр слева.|
+| CENTER_LEFT | Центр слева.|
 | CENTER_CENTER | Центр.|
 | CENTER_RIGHT | Центр справа.|
 | BOTTOM_LEFT | Внизу слева.|

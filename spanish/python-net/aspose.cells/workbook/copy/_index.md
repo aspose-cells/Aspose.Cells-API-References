@@ -18,7 +18,7 @@ def copy(self, source):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | source | [Workbook](/cells/es/python-net/aspose.cells/workbook) | Objeto de libro de origen.|
 
@@ -34,7 +34,7 @@ def copy(self, source, copy_options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | source | [Workbook](/cells/es/python-net/aspose.cells/workbook) | Objeto de libro de origen.|
 | copy_options | [CopyOptions](/cells/es/python-net/aspose.cells/copyoptions) |  |

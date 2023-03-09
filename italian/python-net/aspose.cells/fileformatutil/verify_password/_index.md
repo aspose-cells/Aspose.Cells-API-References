@@ -22,7 +22,7 @@ def verify_password(self, stream, password):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | password | str | La password per i file ooxml crittografati.|

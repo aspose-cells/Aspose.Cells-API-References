@@ -1,6 +1,6 @@
 ﻿---
 title: is_area 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-如果这不是一个区域，则只有 StartRow 和 StartColumn 起作用。
+如果这不是一个区域，则只有 StartRow 和 StartColumn 效果。
 ### 定义：
 ```python
 @property

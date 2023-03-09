@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den Namen des Cache-Felds zurück
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

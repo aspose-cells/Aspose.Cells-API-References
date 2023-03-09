@@ -22,7 +22,7 @@ DateTimeGroupingType türü aşağıdaki üyeleri gösterir:
 | MINUTE | Dakikaya Göre Gruplandırın.|
 | MONTH | Aya Göre Gruplandırın.|
 | SECOND | Saniyeye Göre Gruplandırın.|
-| YEAR | Yıla Göre Gruplandırın.|
+| YEAR |Yıla Göre Gruplandırın.|
 
 
 

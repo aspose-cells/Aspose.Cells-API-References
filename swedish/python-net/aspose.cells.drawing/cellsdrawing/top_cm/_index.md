@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_cm fastighet
 
-Representerar den vertikala förskjutningen av formen från dess översta rad, i centimeterenhet.
+Representerar den vertikala förskjutningen av formen från dess översta rad, i enheter av centimeter.
 
 ###  Exempel
 

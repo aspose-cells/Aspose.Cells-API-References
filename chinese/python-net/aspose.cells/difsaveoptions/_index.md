@@ -1,13 +1,13 @@
 ﻿---
 title: DifSaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 480
 url: /zh/python-net/aspose.cells/difsaveoptions/
 is_root: false
 ---
-##  DifSaveOptions类
+## DifSaveOptions类
 表示保存dif文件的选项。
 
 

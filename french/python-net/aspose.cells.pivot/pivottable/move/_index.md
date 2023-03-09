@@ -18,7 +18,7 @@ def move(self, dest_cell_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | dest_cell_name | str | le nom de la cellule cible.|
 
@@ -34,7 +34,7 @@ def move(self, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | indice de ligne.|
 | column | int | indice de colonne.|

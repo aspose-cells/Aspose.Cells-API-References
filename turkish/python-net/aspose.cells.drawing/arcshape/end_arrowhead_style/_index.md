@@ -13,7 +13,7 @@ Satırın bitiş ok başı stilini alır ve ayarlar.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
  lütfen Shape.Line.EndArrowheadStyle özelliğini kullanın.
  Bu mülk, Ağustos 2016'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

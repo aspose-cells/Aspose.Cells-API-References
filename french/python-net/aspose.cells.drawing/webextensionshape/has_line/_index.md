@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit la bordure de ligne de la forme visible.
 
-###  Exemple
+###  Exemples
 
 ```python
 

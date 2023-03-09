@@ -22,7 +22,7 @@ def add(self, text):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | text | str | Le texte à utiliser comme nom.|
 ###  Remarques

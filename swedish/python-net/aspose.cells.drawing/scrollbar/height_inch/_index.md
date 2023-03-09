@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  height_inch fastighet
 
-Representerar höjden på formen, i enhet av tum.
+Representerar höjden på formen, i enheter av tum.
 
 ###  Exempel
 

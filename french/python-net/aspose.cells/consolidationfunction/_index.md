@@ -22,7 +22,7 @@ Le type ConsolidationFunction expose les membres suivants :
 | AVERAGE | Représente la fonction Moyenne.|
 | MAX | Représente la fonction Max.|
 | MIN | Représente la fonction Min.|
-| PRODUCT | Représente la fonction du produit.|
+| PRODUCT | Représente les fonctions du produit.|
 | COUNT_NUMS | Représente la fonction Count Nums.|
 | STD_DEV | Représente la fonction StdDev.|
 | STD_DEVP | Représente la fonction StdDevp.|

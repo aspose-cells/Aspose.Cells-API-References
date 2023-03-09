@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/autoshapetype/
 is_root: false
 ---
 ##  العد AutoShapeType
-يمثل كل نوع الشكل التلقائي المدمج.
+يمثل جميع أنواع الأشكال التلقائية المضمنة.
 
 
 
@@ -153,12 +153,12 @@ is_root: false
 | FLOW_CHART_DISPLAY |  |
 | FLOW_CHART_DELAY |  |
 | TEXT_PLAIN_TEXT | شكل نص عادي.|
-| TEXT_STOP |شكل نص ثماني الأضلاع.|
+| TEXT_STOP | شكل نص ثماني الأضلاع.|
 | TEXT_TRIANGLE | شكل نص ثلاثي يشير لأعلى.|
 | TEXT_TRIANGLE_INVERTED | شكل نصي مثلث يشير لأسفل.|
 | TEXT_CHEVRON | شكل نص على شكل رتبة عسكرية يشير لأعلى.|
 | TEXT_CHEVRON_INVERTED | شكل نص على شكل رتبة عسكرية يشير إلى أسفل.|
-| TEXT_RING_INSIDE | شكل نص دائري ، كما لو كان يقرأ نقشاً على الحلقة من الداخل.|
+| TEXT_RING_INSIDE |شكل نص دائري ، كما لو كان يقرأ نقشاً على الحلقة من الداخل.|
 | TEXT_RING_OUTSIDE | شكل نص دائري ، كما لو كان يقرأ نقشاً خارج الحلقة.|
 | TEXT_ARCH_UP_CURVE | شكل نص منحني مقوس لأعلى.|
 | TEXT_ARCH_DOWN_CURVE | شكل نص منحني يتقوس لأسفل.|
@@ -177,13 +177,13 @@ is_root: false
 | TEXT_DOUBLE_WAVE1 | شكل نص مموج.|
 | TEXT_DOUBLE_WAVE2 | شكل نص مموج.|
 | TEXT_INFLATE | شكل نص يتمدد رأسيًا في المنتصف.|
-| TEXT_DEFLATE |شكل نص يتقلص رأسيًا في المنتصف.|
+| TEXT_DEFLATE | شكل نص يتقلص رأسيًا في المنتصف.|
 | TEXT_INFLATE_BOTTOM | شكل نص يتسع لأسفل في المنتصف.|
 | TEXT_DEFLATE_BOTTOM | شكل نص يتقلص لأعلى في المنتصف.|
 | TEXT_INFLATE_TOP | شكل نص يتوسع لأعلى في المنتصف.|
 | TEXT_DEFLATE_TOP | شكل نص يتقلص لأسفل في المنتصف.|
-| TEXT_DEFLATE_INFLATE | شكل نص تتوسع فيه الأسطر السفلية لأعلى. تتقلص الخطوط العلوية للتعويض.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | شكل نص تتسع فيه الخطوط الموجودة في المركز عموديًا. تتقلص الخطوط العلوية والسفلية للتعويض.|
+| TEXT_DEFLATE_INFLATE |شكل نص تتوسع فيه الأسطر السفلية لأعلى. تتقلص الأسطر العلوية للتعويض.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | شكل نص تتسع فيه الأسطر الموجودة في الوسط رأسيًا. تتقلص الأسطر العلوية والسفلية للتعويض.|
 | TEXT_FADE_RIGHT | شكل نص يتقلص رأسيًا على الجانب الأيمن.|
 | TEXT_FADE_LEFT | شكل نص يتقلص رأسيًا على الجانب الأيسر.|
 | TEXT_FADE_UP | شكل نص يتقلص أفقيًا في الأعلى.|

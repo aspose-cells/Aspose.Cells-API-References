@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den name des Slicer-Cache zurück.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

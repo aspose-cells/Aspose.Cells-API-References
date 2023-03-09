@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le rayon de flou à appliquer aux bords, en unités de points.
 
-###  Exemple
+###  Exemples
 
 ```python
 

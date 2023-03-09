@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/pagesetup/get_picture/
 is_root: false
 ---
 ##  get_picture(is_header, section) {#bool-int}
-Obtiene el objeto [Picture](/cells/es/python-net/aspose.cells.drawing/picture) del encabezado/pie de página.
+Obtiene el objeto [Picture](/cells/es/python-net/aspose.cells.drawing/picture) del encabezado o pie de página.
 
 
 ###  Devoluciones
@@ -23,14 +23,14 @@ def get_picture(self, is_header, section):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | is_header | bool | Indica si está en el encabezado o en el pie de página.|
-| section | int |0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
+| section | int | 0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
 
 
 ##  get_picture(is_first, is_even, is_header, section) {#bool-bool-bool-int}
-Obtiene el objeto [Picture](/cells/es/python-net/aspose.cells.drawing/picture) del encabezado/pie de página.
+Obtiene el objeto [Picture](/cells/es/python-net/aspose.cells.drawing/picture) del encabezado o pie de página.
 
 
 ###  Devoluciones
@@ -44,12 +44,12 @@ def get_picture(self, is_first, is_even, is_header, section):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | is_first | bool | Indica si se obtiene la imagen del encabezado/pie de página de la primera página.|
 | is_even | bool | Indica si se obtiene la imagen del encabezado/pie de página par.|
-| is_header | bool |Indica si se obtiene la imagen del encabezado/pie de página.|
-| section | int |0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
+| is_header | bool | Indica si se obtiene la imagen del encabezado/pie de página.|
+| section | int | 0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
 
 
 

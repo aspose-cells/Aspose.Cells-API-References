@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  case_sensitive fastighet
 
-Hämtar och ställer in om skiftlägeskänslighet vid jämförelse av sträng.
+Hämtar och ställer in om skiftlägeskänslighet vid jämförelse av strängar.
 ###  Definition:
 ```python
 @property

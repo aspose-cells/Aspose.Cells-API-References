@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_legend mülk
 
-Grafik açıklamasının görüntülenip görüntülenmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan doğrudur.
+Grafik açıklamasının görüntülenip görüntülenmeyeceğini gösteren bir değer alır veya ayarlar.Varsayılan değer true'dur.
 ###  Tanım:
 ```python
 @property

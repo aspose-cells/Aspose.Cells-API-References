@@ -17,7 +17,7 @@ Le type SxRng expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [is_auto_start](/cells/fr/python-net/aspose.cells.pivot/sxrng/is_auto_start) |Spécifie une valeur booléenne qui indique si l'application utilisera les données source pour définir la valeur de la plage de début.|
+| [is_auto_start](/cells/fr/python-net/aspose.cells.pivot/sxrng/is_auto_start) | Spécifie une valeur booléenne qui indique si l'application utilisera les données source pour définir la valeur de la plage de début.|
 | [is_auto_end](/cells/fr/python-net/aspose.cells.pivot/sxrng/is_auto_end) | Spécifie une valeur booléenne qui indique si l'application utilisera les données source pour définir la valeur de fin de plage.|
 | [start](/cells/fr/python-net/aspose.cells.pivot/sxrng/start) | Représente l'objet de départ pour la plage de groupe.|
 | [end](/cells/fr/python-net/aspose.cells.pivot/sxrng/end) | Représente l'objet final pour la plage de groupe.|

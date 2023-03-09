@@ -22,9 +22,9 @@ def get(self, cell_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| cell_name | str |Cell adı, sütun harfi ve satır numarası dahil, örneğin A5.|
+| cell_name | str | Cell adı, sütun harfi ve satır numarası dahil, örneğin A5.|
 
 
 ##  get(row, column) {#int-int}
@@ -42,7 +42,7 @@ def get(self, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | column | int | Sütun dizini.|

@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di allineamento orizzontale del testo del commento.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import TextAlignmentType

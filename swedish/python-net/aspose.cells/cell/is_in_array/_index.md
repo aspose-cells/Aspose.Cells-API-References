@@ -13,7 +13,7 @@ Anger om cellformeln är en matrisformel.
 
 ###  Anmärkningar
 
- OBS: Denna klass är nu föråldrad. Istället,
+ OBS: Denna klass är nu föråldrad.
 använd Cell.IsArrayFormula för att kontrollera om cellformeln är en matrisformel.
 Den här egenskapen kommer att tas bort 12 månader senare sedan maj 2018.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

@@ -1,14 +1,14 @@
 ﻿---
 title: WebExtensionTaskPaneCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 100
 url: /zh/python-net/aspose.cells.webextensions/webextensiontaskpanecollection/
 is_root: false
 ---
-##  WebExtensionTaskPaneCollection类
-表示任务窗格的列表。
+## WebExtensionTaskPaneCollection类
+表示任务窗格列表。
 
 
 

@@ -22,7 +22,7 @@ def add(self, name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Senaryonun adı.|
 

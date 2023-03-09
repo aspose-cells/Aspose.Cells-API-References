@@ -1,6 +1,6 @@
 ﻿---
 title: log_base 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 260
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## log_base 属性
 
-表示对数底数。默认值为 10。仅适用于 Excel2007。
+表示对数的底数，默认为10，只适用于Excel2007。
 ### 定义：
 ```python
 @property

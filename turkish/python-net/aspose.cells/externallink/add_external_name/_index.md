@@ -18,10 +18,10 @@ def add_external_name(self, text, refer_to):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| text | str | Harici adın metni.<br/> Harici ad bir çalışma sayfasına aitse, metin Sayfa1!Metin şeklinde olmalıdır.|
-| refer_to | str | Harici adın referTo'su. Bir hücre veya aralık olmalıdır.|
+| text | str | Harici adın metni.<br/>Harici ad bir çalışma sayfasına aitse, metin Sayfa1!Metin şeklinde olmalıdır.|
+| refer_to | str | Harici adın referTo'su.|
 
 
 

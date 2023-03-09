@@ -1,6 +1,6 @@
 ﻿---
 title: aspose.cells.pivot
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ is_root: false
 | [PivotConditionFormatRuleType](/cells/zh/python-net/aspose.cells.pivot/pivotconditionformatruletype) |表示数据透视表条件格式化规则类型。|
 | [PivotConditionFormatScopeType](/cells/zh/python-net/aspose.cells.pivot/pivotconditionformatscopetype) |表示数据透视表条件格式范围类型。|
 | [PivotFieldDataDisplayFormat](/cells/zh/python-net/aspose.cells.pivot/pivotfielddatadisplayformat) |表示数据透视表数据字段中的数据显示格式。|
-| [PivotFieldSubtotalType](/cells/zh/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | PivotFieldSubtotalType 的摘要说明。|
+| [PivotFieldSubtotalType](/cells/zh/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |PivotFieldSubtotalType 的摘要说明。|
 | [PivotFieldType](/cells/zh/python-net/aspose.cells.pivot/pivotfieldtype) |表示数据透视表字段类型。|
 | [PivotFilterType](/cells/zh/python-net/aspose.cells.pivot/pivotfiltertype) |表示数据透视表过滤器类型。|
 | [PivotGroupByType](/cells/zh/python-net/aspose.cells.pivot/pivotgroupbytype) |表示数据透视表分组类型。|

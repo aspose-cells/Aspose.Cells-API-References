@@ -11,7 +11,7 @@ is_root: false
 
 Specifica il title (didascalia) dell'oggetto forma corrente.
 
-###  Esempio
+###  Esempi
 
 ```python
 

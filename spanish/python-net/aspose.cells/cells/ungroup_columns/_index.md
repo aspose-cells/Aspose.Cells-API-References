@@ -18,7 +18,7 @@ def ungroup_columns(self, first_index, last_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_index | int | El primer índice de columna que se va a desagrupar.|
 | last_index | int | El último índice de columna que se va a desagrupar.|

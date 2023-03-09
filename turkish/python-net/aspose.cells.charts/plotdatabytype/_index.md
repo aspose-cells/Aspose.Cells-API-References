@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/plotdatabytype/
 is_root: false
 ---
 ##  PlotDataByType numaralandırma
-Satır veya sütuna göre veri grafiği türünü temsil eder.
+Satır veya sütuna göre çizilen veri türünü temsil eder.
 
 
 

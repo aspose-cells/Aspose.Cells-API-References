@@ -1,6 +1,6 @@
 ﻿---
 title: is_vertical 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 90
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_vertical 属性
 
-如果 Workbook 文件中的一行代表 DataTable 中的一行，则为真。如果 Workbook 文件中的列代表 DataTable 中的一行，则为 False。
+如果 Workbook 文件中的一行代表 DataTable 中的一行，则为真。
 ### 定义：
 ```python
 @property

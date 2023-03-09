@@ -15,7 +15,7 @@ Sol üst köşe satır dizinini temsil eder.
 
 Şekil, şekilde veya gruptaysa, UpperLeftRow yoksayılır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

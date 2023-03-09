@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | CLEAR | Прозрачный|
-| DARK_EDGE | Темный край|
+| DARK_EDGE | Темные края|
 | FLAT | Плоский|
 | LEGACY_MATTE | Устаревший матовый|
 | LEGACY_METAL | Устаревший металл|
@@ -28,10 +28,10 @@ is_root: false
 | METAL | Металл|
 | PLASTIC | Пластик|
 | POWDER | Пудра|
-| SOFT_EDGE | Мягкий край|
+| SOFT_EDGE | Мягкие края|
 | SOFT_METAL | Мягкий металл|
 | TRANSLUCENT_POWDER | Полупрозрачная пудра|
-| WARM_MATTE | Теплый матовый|
+| WARM_MATTE | теплый матовый|
 
 
 

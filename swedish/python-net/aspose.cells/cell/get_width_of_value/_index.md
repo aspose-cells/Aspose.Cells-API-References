@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cell/get_width_of_value/
 is_root: false
 ---
 ##  get_width_of_value() {#}
-Hämtar bredden på värdet i enhet pixlar.
+Hämtar bredden på värdet i enheter av pixlar.
 
 
 ###  Returnerar

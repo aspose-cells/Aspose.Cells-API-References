@@ -18,7 +18,7 @@ def add_data_area_condition(self, field_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | field_name | str | PivotField'ın adı.|
 
@@ -34,7 +34,7 @@ def add_data_area_condition(self, data_field):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | data_field | [PivotField](/cells/tr/python-net/aspose.cells.pivot/pivotfield) | Veri alanlarındaki PivotField.|
 

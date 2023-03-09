@@ -1,13 +1,13 @@
 ﻿---
 title: ChartShape类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 80
 url: /zh/python-net/aspose.cells.drawing/chartshape/
 is_root: false
 ---
-##  ChartShape类
+## ChartShape类
 表示图表的形状。
 ChartObject 对象的属性和方法控制工作表上嵌入图表的外观和大小。
 

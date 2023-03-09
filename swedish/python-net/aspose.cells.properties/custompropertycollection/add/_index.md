@@ -18,7 +18,7 @@ def add(self, name, value):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på den anpassade egenskapen.|
 | value | str | Värdet på den anpassade egenskapen.|

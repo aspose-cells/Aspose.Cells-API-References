@@ -30,19 +30,19 @@ Il tipo IconSetType espone i membri seguenti:
 | ARROWS4 | Insieme dell'icona di 4 frecce.|
 | ARROWS_GRAY4 | Insieme dell'icona di 4 frecce grigie.|
 | RATING4 | 4 set di icone di rating.|
-| RED_TO_BLACK4 | 4 set di icone "da rosso a nero".|
+| RED_TO_BLACK4 | set di icone "da rosso a nero".|
 | TRAFFIC_LIGHTS4 | Insieme dell'icona di 4 semafori.|
 | ARROWS5 | Insieme dell'icona di 5 frecce.|
 | ARROWS_GRAY5 | Insieme dell'icona di 5 frecce grigie.|
 | QUARTERS5 | set di icone di 5 quarti.|
 | RATING5 | 5 set di icone di valutazione.|
-| STARS3 | 3 stelle impostate|
+| STARS3 | Set 3 stelle|
 | BOXES5 | Set di 5 scatole|
 | TRIANGLES3 | Set di 3 triangoli|
 | NONE | Nessuno|
 | CUSTOM_SET | CustomSet.<br/> Questo elemento è di sola lettura.|
-| SMILIES3 | 3 faccine.<br/> Solo per .ods.|
-| COLOR_SMILIES3 | 3 faccine colorate.<br/> Solo per .ods.|
+| SMILIES3 | 3 sorrisi.<br/> Solo per .ods.|
+| COLOR_SMILIES3 | 3 sorrisi colorati.<br/> Solo per .ods.|
 
 
 

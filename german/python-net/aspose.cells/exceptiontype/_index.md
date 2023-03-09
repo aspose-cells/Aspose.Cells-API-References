@@ -27,9 +27,9 @@ Der Typ ExceptionType macht die folgenden Member verfügbar:
 | INVALID_OPERATOR | Ungültiger Operator.|
 | INCORRECT_PASSWORD | Falsches Passwort.|
 | LICENSE | Lizenzbezogene Fehler.|
-| LIMITATION | Fehler außerhalb der MS Excel-Beschränkung.|
+| LIMITATION |Fehler außerhalb der MS Excel-Beschränkung.|
 | PAGE_SETUP | Ungültige Seiteneinrichtungseinstellung.|
-| PIVOT_TABLE | Ungültige PivotTable-Einstellung.|
+| PIVOT_TABLE | Ungültige Pivot-Tabelleneinstellung.|
 | SHAPE | Ungültige Zeichnungsobjekteinstellung.|
 | SPARKLINE | Ungültige Sparkline-Objekteinstellung.|
 | SHEET_NAME | Ungültiger Arbeitsblattname.|
@@ -37,9 +37,9 @@ Der Typ ExceptionType macht die folgenden Member verfügbar:
 | INTERRUPTED | Der Vorgang wird unterbrochen.|
 | IO | Die Datei ist ungültig.|
 | PERMISSION | Zum Öffnen dieser Datei ist eine Berechtigung erforderlich.|
-| UNSUPPORTED_FEATURE | Nicht unterstützte Funktion.|
+| UNSUPPORTED_FEATURE | Nicht unterstützte Funktionen.|
 | UNSUPPORTED_STREAM | Nicht unterstützter Stream, der geöffnet werden soll.|
-| UNDISCLOSED_INFORMATION | Dateien enthält einige nicht offengelegte Informationen.|
+| UNDISCLOSED_INFORMATION | Die Dateien enthalten einige nicht offengelegte Informationen.|
 | FILE_CORRUPTED | Dateiinhalt ist beschädigt.|
 
 

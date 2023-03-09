@@ -18,12 +18,12 @@ def combine(self, second_workbook):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| second_workbook | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Başka bir Çalışma Kitabı nesnesi.|
+| second_workbook | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Başka bir çalışma kitabı nesnesi.|
 ###  Notlar
 
-Şu anda yalnızca ikinci Çalışma Kitabı nesnesinin hücre verileri ve hücre stili birleştirilebilir. Resimler, çizelgeler ve diğer çizim nesneleri desteklenmez.
+Şu anda yalnızca ikinci Çalışma Kitabı nesnesinin hücre verileri ve hücre stili birleştirilebilir.Görüntüler, grafikler ve diğer çizim nesneleri desteklenmez.
 
 
 ###  Ayrıca bakınız

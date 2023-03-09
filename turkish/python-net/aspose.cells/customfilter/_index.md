@@ -1,5 +1,5 @@
 ﻿---
-title: CustomFilter sınıf
+title: CustomFilter sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 370
 url: /tr/python-net/aspose.cells/customfilter/
 is_root: false
 ---
-##  CustomFilter sınıf
+##  CustomFilter sınıfı
 Özel filtreyi temsil eder.
 
 

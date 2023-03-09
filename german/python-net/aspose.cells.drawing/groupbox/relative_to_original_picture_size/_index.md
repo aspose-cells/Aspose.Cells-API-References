@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob die Form relativ zur ursprünglichen Bildgröße ist.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

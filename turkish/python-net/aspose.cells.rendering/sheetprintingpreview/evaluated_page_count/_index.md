@@ -11,7 +11,7 @@ is_root: false
 
 Bu çalışma sayfasının toplam sayfa sayısını değerlendirin
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, bir çalışma sayfasının sayfa sayısını almanın en hızlı yolunu gösterir.
 

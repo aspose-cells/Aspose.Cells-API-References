@@ -19,7 +19,7 @@ OdsPageBackgroundGraphicType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | POSITION | Görüntüyü belirli bir konuma ayarlayın.|
 | AREA | Görüntüyü uzatın.|
-| TILE | Görüntüyü tekrarlayın ve tekrarlayın.|
+| TILE |Görüntüyü tekrarlayın ve tekrarlayın.|
 
 
 

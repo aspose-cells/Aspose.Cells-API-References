@@ -18,7 +18,7 @@ def add_key(self, key, order):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | key | int | Индекс отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...)|
 | order | [SortOrder](/cells/ru/python-net/aspose.cells/sortorder) | Порядок сортировки|
@@ -35,7 +35,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | key | int | Индекс отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...)|
 | order | [SortOrder](/cells/ru/python-net/aspose.cells/sortorder) | Порядок сортировки.|
@@ -53,7 +53,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | key | int | Индекс отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...)|
 | order | [SortOrder](/cells/ru/python-net/aspose.cells/sortorder) | Порядок сортировки.|
@@ -71,7 +71,7 @@ def add_key(self, key, type, order, custom_list):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | key | int | Индекс отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...)|
 | type | [SortOnType](/cells/ru/python-net/aspose.cells/sortontype) | Тип отсортированного значения.|

@@ -1,5 +1,5 @@
 ﻿---
-title: AbstractGlobalizationSettings sınıf
+title: AbstractGlobalizationSettings sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 40
 url: /tr/python-net/aspose.cells/abstractglobalizationsettings/
 is_root: false
 ---
-##  AbstractGlobalizationSettings sınıf
+##  AbstractGlobalizationSettings sınıfı
 Genelleştirme ayarlarını temsil eder.
 
 

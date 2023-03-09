@@ -1,6 +1,6 @@
 ﻿---
 title: add_range方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def add_range(self, range_object):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | range_object | [Range](/cells/zh/python-net/aspose.cells/range) |范围对象将包含在单元格中|
 

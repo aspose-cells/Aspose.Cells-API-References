@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_align_type mülk
 
-Gerçek kelimelerin bir metin satırında dikey olarak nereye yerleştirileceğini belirler. Bu fırsatlar
+Gerçek kelimelerin bir metin satırında dikey olarak nereye yerleştirileceğini belirler.
 karakterlerin taban çizgilerine göre dikey yerleşimi ile.
 ###  Tanım:
 ```python

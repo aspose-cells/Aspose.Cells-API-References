@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count propriété
 
-Obtient le nombre total de pages du classeur.
+Obtient le nombre total de pages des classeurs.
 ###  Définition:
 ```python
 @property

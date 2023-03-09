@@ -18,7 +18,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | string_value | str | Valeur d'entrée|
 | is_converted | bool | True : converti en un autre type de données, le cas échéant.|

@@ -1,5 +1,5 @@
 ﻿---
-title: VerticalPageBreak sınıf
+title: VerticalPageBreak sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1560
 url: /tr/python-net/aspose.cells/verticalpagebreak/
 is_root: false
 ---
-##  VerticalPageBreak sınıf
+##  VerticalPageBreak sınıfı
 Dikey bir sayfa sonunu temsil eden nesneyi kapsüller.
 
 
@@ -23,7 +23,7 @@ VerticalPageBreak türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

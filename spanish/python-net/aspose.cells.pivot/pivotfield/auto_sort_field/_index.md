@@ -10,7 +10,7 @@ is_root: false
 ##  auto_sort_field propiedad
 
  Representa el índice de campo de clasificación automática.
--1 significa PivotField en sí mismo, otros significa la posición de los campos de datos.
+-1 significa PivotField en sí mismo, otros significan la posición de los campos de datos.
 ###  Definición:
 ```python
 @property

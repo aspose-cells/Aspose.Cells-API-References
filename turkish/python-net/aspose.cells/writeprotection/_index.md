@@ -1,5 +1,5 @@
 ﻿---
-title: WriteProtection sınıf
+title: WriteProtection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1640
 url: /tr/python-net/aspose.cells/writeprotection/
 is_root: false
 ---
-##  WriteProtection sınıf
+##  WriteProtection sınıfı
 Bir çalışma kitabı için yazma koruması ayarlarını belirtir.
 
 

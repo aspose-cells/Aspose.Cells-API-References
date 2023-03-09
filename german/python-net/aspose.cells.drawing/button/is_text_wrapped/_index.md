@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Textumbruchtyp der Form ab, die Text enthält, und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

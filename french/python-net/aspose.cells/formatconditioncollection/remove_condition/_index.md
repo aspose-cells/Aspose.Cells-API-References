@@ -18,7 +18,7 @@ def remove_condition(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | Index de la condition de formatage à supprimer.|
 

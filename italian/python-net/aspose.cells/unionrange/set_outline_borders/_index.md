@@ -18,7 +18,7 @@ def set_outline_borders(self, border_styles, border_colors):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | border_styles | list | Stili di bordo.|
 | border_colors | aspose.pydrawing.Color[] | Colori del bordo.|
@@ -38,7 +38,7 @@ def set_outline_borders(self, border_style, border_color):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | border_style | [CellBorderType](/cells/it/python-net/aspose.cells/cellbordertype) | Stile del bordo.|
 | border_color | aspose.pydrawing.Color | Colore del bordo.|

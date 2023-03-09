@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el desplazamiento horizontal de la forma de la segmentación desde su columna izquierda, en píxeles.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

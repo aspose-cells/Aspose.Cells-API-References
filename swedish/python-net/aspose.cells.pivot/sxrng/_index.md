@@ -17,7 +17,7 @@ Typen SxRng avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [is_auto_start](/cells/sv/python-net/aspose.cells.pivot/sxrng/is_auto_start) |Anger ett booleskt värde som indikerar om programmet kommer att använda källdata för att ställa in startintervallsvärdet.|
+| [is_auto_start](/cells/sv/python-net/aspose.cells.pivot/sxrng/is_auto_start) | Anger ett booleskt värde som indikerar om programmet kommer att använda källdata för att ställa in startintervallsvärdet.|
 | [is_auto_end](/cells/sv/python-net/aspose.cells.pivot/sxrng/is_auto_end) | Anger ett booleskt värde som anger om programmet kommer att använda källdata för att ställa in slutintervallsvärdet.|
 | [start](/cells/sv/python-net/aspose.cells.pivot/sxrng/start) | Representerar startobjektet för gruppintervallet.|
 | [end](/cells/sv/python-net/aspose.cells.pivot/sxrng/end) | Representerar slutobjektet för gruppintervallet.|

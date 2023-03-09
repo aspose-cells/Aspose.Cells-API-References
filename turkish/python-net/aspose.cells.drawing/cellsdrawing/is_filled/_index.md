@@ -11,7 +11,7 @@ is_root: false
 
 Dolgu formatının görünür olup olmadığını gösterir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

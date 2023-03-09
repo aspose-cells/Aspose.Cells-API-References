@@ -43,7 +43,7 @@ def add(self, type):
 | :- | :- | :- |
 | type | [SheetType](/cells/de/python-net/aspose.cells/sheettype) | Arbeitsblatttyp.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import SheetType, Workbook

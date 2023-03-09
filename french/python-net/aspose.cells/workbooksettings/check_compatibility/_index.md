@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility propriété
 
-Indique si vérifier la compatibilité avec les versions antérieures lors de l'enregistrement du classeur.
+Indique si vérifier la compatibilité avec les versions antérieures lors de l'enregistrement des classeurs.
 
 ###  Remarques
 

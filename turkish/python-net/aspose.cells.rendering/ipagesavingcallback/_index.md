@@ -1,5 +1,5 @@
 ﻿---
-title: IPageSavingCallback sınıf
+title: IPageSavingCallback sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /tr/python-net/aspose.cells.rendering/ipagesavingcallback/
 is_root: false
 ---
-##  IPageSavingCallback sınıf
+##  IPageSavingCallback sınıfı
 Sayfa kaydetme işleminin ilerleyişini kontrol edin/gösterin.
 
 

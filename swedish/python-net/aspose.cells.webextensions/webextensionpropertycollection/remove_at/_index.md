@@ -18,7 +18,7 @@ def remove_at(self, name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på fastigheten.|
 

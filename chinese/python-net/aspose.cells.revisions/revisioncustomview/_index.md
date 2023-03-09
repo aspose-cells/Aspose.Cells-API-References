@@ -1,13 +1,13 @@
 ﻿---
 title: RevisionCustomView类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
 url: /zh/python-net/aspose.cells.revisions/revisioncustomview/
 is_root: false
 ---
-##  RevisionCustomView类
+## RevisionCustomView类
 表示对工作簿添加或删除自定义视图的修订记录
 
 

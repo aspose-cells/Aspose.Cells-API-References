@@ -18,10 +18,10 @@ def move(self, upper_left_row, upper_left_column, lower_right_row, lower_right_c
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | lower_right_row | int | Nedre högra radindex|
 | lower_right_column | int | Nedre högra kolumnindex|
 

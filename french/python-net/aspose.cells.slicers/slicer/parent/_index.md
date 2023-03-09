@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent propriété
 
-Renvoie l'objet Worksheet qui représente la feuille contenant le segment. Lecture seulement.
+Renvoie l'objet Worksheet qui représente la feuille contenant le segment.
 
-###  Exemple
+###  Exemples
 
 ```python
 

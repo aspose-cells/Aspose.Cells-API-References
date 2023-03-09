@@ -1,13 +1,13 @@
 ﻿---
 title: ShowDropButtonType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 300
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/showdropbuttontype/
 is_root: false
 ---
-##  ShowDropButtonType枚举
+## ShowDropButtonType枚举
 指定何时显示下拉按钮
 
 

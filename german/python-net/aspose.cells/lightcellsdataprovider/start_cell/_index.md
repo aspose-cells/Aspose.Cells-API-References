@@ -20,7 +20,7 @@ def start_cell(self, cell):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| cell | [Cell](/cells/de/python-net/aspose.cells/cell) | Cell Objekt zur Implementierung zum Füllen von Daten. Sein Spaltenindex ist der zurückgegebene Wert des letzten Aufrufs von [LightCellsDataProvider.next_cell()](/cells/de/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>Wenn die Zelle im Modell der inneren Zellen initialisiert wurde, wird das vorhandene Zellobjekt verwendet.<br/> Andernfalls wird ein temporäres Cell-Objekt zur Implementierung verwendet, um Daten zu füllen.|
+| cell | [Cell](/cells/de/python-net/aspose.cells/cell) | Cell-Objekt für die Implementierung zum Füllen von Daten. Sein Spaltenindex ist der zurückgegebene Wert des letzten Aufrufs von [LightCellsDataProvider.next_cell()](/cells/de/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>Wenn die Zelle im Modell der inneren Zellen initialisiert wurde, wird das vorhandene Zellobjekt verwendet.<br/> Andernfalls wird ein temporäres Cell-Objekt zur Implementierung verwendet, um Daten zu füllen.|
 ###  Bemerkungen
 
 

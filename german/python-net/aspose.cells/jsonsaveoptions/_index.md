@@ -22,7 +22,7 @@ Der Typ JsonSaveOptions macht die folgenden Member verfügbar:
 ###  Konstrukteure
 | Konstrukteur| Beschreibung|
 | :- | :- |
-| [JsonSaveOptions()](/cells/de/python-net/aspose.cells/jsonsaveoptions/__init__/#) | Erstellt Optionen zum Speichern der JSON-Datei.|
+| [JsonSaveOptions()](/cells/de/python-net/aspose.cells/jsonsaveoptions/__init__/#) |Erstellt Optionen zum Speichern von JSON-Dateien.|
 
 
 ###  Eigenschaften
@@ -35,9 +35,9 @@ Der Typ JsonSaveOptions macht die folgenden Member verfügbar:
 | [merge_areas](/cells/de/python-net/aspose.cells/jsonsaveoptions/merge_areas) | Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden sollen.|
 | [create_directory](/cells/de/python-net/aspose.cells/jsonsaveoptions/create_directory) | Wenn wahr und das Verzeichnis nicht existiert, wird das Verzeichnis automatisch erstellt, bevor die Datei gespeichert wird.|
 | [sort_names](/cells/de/python-net/aspose.cells/jsonsaveoptions/sort_names) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.|
-| [sort_external_names](/cells/de/python-net/aspose.cells/jsonsaveoptions/sort_external_names) | Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
-| [refresh_chart_cache](/cells/de/python-net/aspose.cells/jsonsaveoptions/refresh_chart_cache) |Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
-| [warning_callback](/cells/de/python-net/aspose.cells/jsonsaveoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
+| [sort_external_names](/cells/de/python-net/aspose.cells/jsonsaveoptions/sort_external_names) |Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
+| [refresh_chart_cache](/cells/de/python-net/aspose.cells/jsonsaveoptions/refresh_chart_cache) | Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
+| [warning_callback](/cells/de/python-net/aspose.cells/jsonsaveoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
 | [update_smart_art](/cells/de/python-net/aspose.cells/jsonsaveoptions/update_smart_art) | Gibt an, ob die SmartArt-Einstellung aktualisiert wird.<br/> Der Standardwert ist falsch.|
 | [export_hyperlink_type](/cells/de/python-net/aspose.cells/jsonsaveoptions/export_hyperlink_type) | Stellt den Typ des Exportierens von Hyperlinks in JSON dar.|
 | [skip_empty_rows](/cells/de/python-net/aspose.cells/jsonsaveoptions/skip_empty_rows) | Gibt an, ob leere Zeilen übersprungen werden.|
@@ -45,7 +45,7 @@ Der Typ JsonSaveOptions macht die folgenden Member verfügbar:
 | [export_area](/cells/de/python-net/aspose.cells/jsonsaveoptions/export_area) | Ruft den Exportbereich ab oder legt ihn fest.|
 | [has_header_row](/cells/de/python-net/aspose.cells/jsonsaveoptions/has_header_row) | Gibt an, ob der Bereich eine Kopfzeile enthält.|
 | [export_as_string](/cells/de/python-net/aspose.cells/jsonsaveoptions/export_as_string) | Exportiert den Zeichenfolgenwert der Zellen nach json.|
-| [indent](/cells/de/python-net/aspose.cells/jsonsaveoptions/indent) | Gibt den Einzug an.|
+| [indent](/cells/de/python-net/aspose.cells/jsonsaveoptions/indent) | Zeigt den Index an.|
 | [export_nested_structure](/cells/de/python-net/aspose.cells/jsonsaveoptions/export_nested_structure) | Als Parent-Child-Hierarchie-JSON-Struktur exportiert.|
 | [export_empty_cells](/cells/de/python-net/aspose.cells/jsonsaveoptions/export_empty_cells) | Gibt an, ob leere Zellen als Null exportiert werden.|
 | [always_export_as_json_object](/cells/de/python-net/aspose.cells/jsonsaveoptions/always_export_as_json_object) | Gibt an, ob Excel immer als Objekt nach JSON exportiert wird, auch wenn nur ein Arbeitsblatt in der Datei vorhanden ist.|

@@ -18,7 +18,7 @@ def set_custom_totals_row_formula(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | formula | str | la fórmula para esta columna de lista.|
 | is_r1c1 | bool | Si la fórmula debe formatearse como R1C1.|

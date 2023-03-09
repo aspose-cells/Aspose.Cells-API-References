@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob das Shape eine Gruppe ist.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

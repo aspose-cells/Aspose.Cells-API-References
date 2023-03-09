@@ -20,7 +20,7 @@ is_root: false
 | BOTTOM | Нижний|
 | BOTTOM_LEFT | Внизу слева|
 | BOTTOM_RIGHT | Внизу справа|
-| CENTER | Центр|
+| CENTER | центр|
 | LEFT | Левый|
 | RIGHT | Верно|
 | TOP | Вершина|

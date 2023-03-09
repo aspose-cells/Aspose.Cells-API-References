@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  iteration fastighet
 
-Anger om aktivera iterativ beräkning för att lösa cirkulära referenser.
+Anger om iterativ beräkning ska aktiveras för att lösa cirkulära referenser.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Använd istället FormulaSettings.EnableIterativeCalculation.
+OBS: Den här medlemmen är nu föråldrad. Använd istället FormulaSettings.EnableIterativeCalculation.
  Den här egenskapen kommer att tas bort 12 månader senare sedan februari 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

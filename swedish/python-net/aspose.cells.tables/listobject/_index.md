@@ -22,12 +22,12 @@ Typen ListObject avslöjar följande medlemmar:
 | [start_row](/cells/sv/python-net/aspose.cells.tables/listobject/start_row) | Hämtar intervallets startrad.|
 | [start_column](/cells/sv/python-net/aspose.cells.tables/listobject/start_column) | Hämtar startkolumnen för intervallet.|
 | [end_row](/cells/sv/python-net/aspose.cells.tables/listobject/end_row) | Hämtar den sista raden i intervallet.|
-| [end_column](/cells/sv/python-net/aspose.cells.tables/listobject/end_column) | Hämtar slutkolumnen för intervallet.|
-| [list_columns](/cells/sv/python-net/aspose.cells.tables/listobject/list_columns) | Hämtar ListColumns för ListObject.|
+| [end_column](/cells/sv/python-net/aspose.cells.tables/listobject/end_column) |Hämtar slutkolumnen för intervallet.|
+| [list_columns](/cells/sv/python-net/aspose.cells.tables/listobject/list_columns) | Hämtar ListColumns av ListObject.|
 | [show_header_row](/cells/sv/python-net/aspose.cells.tables/listobject/show_header_row) | Hämtar och ställer in om detta ListObject visar rubrikrad.|
-| [show_totals](/cells/sv/python-net/aspose.cells.tables/listobject/show_totals) |Hämtar och ställer in om detta ListObject visar total rad.|
+| [show_totals](/cells/sv/python-net/aspose.cells.tables/listobject/show_totals) | Hämtar och ställer in om detta ListObject visar totala rader.|
 | [data_range](/cells/sv/python-net/aspose.cells.tables/listobject/data_range) | Hämtar dataintervallet för ListObject.|
-| [query_table](/cells/sv/python-net/aspose.cells.tables/listobject/query_table) |Hämtar den länkade frågetabellen.|
+| [query_table](/cells/sv/python-net/aspose.cells.tables/listobject/query_table) | Hämtar den länkade frågetabellen.|
 | [data_source_type](/cells/sv/python-net/aspose.cells.tables/listobject/data_source_type) | Hämtar datakällans typ för tabellen.|
 | [auto_filter](/cells/sv/python-net/aspose.cells.tables/listobject/auto_filter) | Får autofilter.|
 | [display_name](/cells/sv/python-net/aspose.cells.tables/listobject/display_name) | Hämtar och ställer in visningsnamnet.|
@@ -50,7 +50,7 @@ Typen ListObject avslöjar följande medlemmar:
 | [convert_to_range(options)](/cells/sv/python-net/aspose.cells.tables/listobject/convert_to_range/#TableToRangeOptions) | Konvertera tabellen till intervall.|
 | [resize(start_row, start_column, end_row, end_column, has_headers)](/cells/sv/python-net/aspose.cells.tables/listobject/resize/#int-int-int-int-bool) | Ändra storlek på intervallet för listobjektet.|
 | [put_cell_value(row_offset, column_offset, value)](/cells/sv/python-net/aspose.cells.tables/listobject/put_cell_value/#int-int-any) | Lägg värdet i cellen.|
-| [update_column_name()](/cells/sv/python-net/aspose.cells.tables/listobject/update_column_name/#) |Uppdaterar namnet på alla listkolumner från kalkylbladet.|
+| [update_column_name()](/cells/sv/python-net/aspose.cells.tables/listobject/update_column_name/#) |Uppdaterar alla listkolumners namn från kalkylbladet.|
 | [filter()](/cells/sv/python-net/aspose.cells.tables/listobject/filter/#) | Filtrera tabellen.|
 | [apply_style_to_range()](/cells/sv/python-net/aspose.cells.tables/listobject/apply_style_to_range/#) | Tillämpa tabellstilen på intervallet.|
 

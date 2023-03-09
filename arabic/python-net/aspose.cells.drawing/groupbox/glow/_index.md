@@ -11,7 +11,7 @@ is_root: false
 
 يمثل عنصر [GlowEffect](/cells/ar/python-net/aspose.cells.drawing/gloweffect) يحدد تأثير glow لعنصر المخطط أو شكله.
 
-###  مثال
+###  أمثلة
 
 ```python
 

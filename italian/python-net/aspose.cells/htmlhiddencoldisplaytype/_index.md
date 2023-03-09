@@ -18,7 +18,7 @@ Il tipo HtmlHiddenColDisplayType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | HIDDEN | Nascoste le colonne nascoste nella pagina html.|
-| REMOVE | Rimuovi le colonne nascoste nella pagina html.|
+| REMOVE | Rimuovi le colonne nascoste nelle pagine html.|
 
 
 

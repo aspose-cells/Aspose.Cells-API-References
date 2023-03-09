@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/svgsaveoptions/__init__/
 is_root: false
 ---
 ##  SvgSaveOptions() {#}
-Skapar alternativen för att spara svg-fil.
+Skapar alternativen för att spara svg-filer.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SvgSaveOptions(save_format) {#SaveFormat}
-Skapar alternativen för att spara svg-fil.
+Skapar alternativen för att spara svg-filer.
 
 
 
@@ -31,9 +31,9 @@ def __init__(self, save_format):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Filformatet.<br/>Det måste vara svg.|
+| save_format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Filformatet.<br/> Det måste vara svg.|
 ###  Anmärkningar
 
 OBS: Denna konstruktor är nu föråldrad.

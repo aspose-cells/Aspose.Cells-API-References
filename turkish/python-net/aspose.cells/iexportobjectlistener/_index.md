@@ -1,5 +1,5 @@
 ﻿---
-title: IExportObjectListener sınıf
+title: IExportObjectListener sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 840
 url: /tr/python-net/aspose.cells/iexportobjectlistener/
 is_root: false
 ---
-##  IExportObjectListener sınıf
+##  IExportObjectListener sınıfı
 Kullanıcıların dışa aktarırken nesneleri manipüle etmesine izin verir.
 
 

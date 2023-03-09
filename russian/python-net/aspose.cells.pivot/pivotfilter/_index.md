@@ -17,9 +17,9 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [auto_filter](/cells/ru/python-net/aspose.cells.pivot/pivotfilter/auto_filter) |Получает автофильтр сводного фильтра.|
+| [auto_filter](/cells/ru/python-net/aspose.cells.pivot/pivotfilter/auto_filter) | Получает автофильтр сводного фильтра.|
 | [filter_type](/cells/ru/python-net/aspose.cells.pivot/pivotfilter/filter_type) | Получает тип автофильтра сводного фильтра.|
-| [field_index](/cells/ru/python-net/aspose.cells.pivot/pivotfilter/field_index) | Получает индекс поля сводного фильтра.|
+| [field_index](/cells/ru/python-net/aspose.cells.pivot/pivotfilter/field_index) |Получает индекс поля сводного фильтра.|
 | [value1](/cells/ru/python-net/aspose.cells.pivot/pivotfilter/value1) | Получает строковое значение1 сводного фильтра метки.|
 | [value2](/cells/ru/python-net/aspose.cells.pivot/pivotfilter/value2) | Получает строковое значение2 сводного фильтра метки.|
 | [measure_fld_index](/cells/ru/python-net/aspose.cells.pivot/pivotfilter/measure_fld_index) | Получает индекс поля меры сводного фильтра.|
@@ -29,7 +29,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

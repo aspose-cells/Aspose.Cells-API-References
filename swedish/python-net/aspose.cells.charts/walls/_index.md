@@ -32,22 +32,22 @@ Typen Walls avslöjar följande medlemmar:
 | [border](/cells/sv/python-net/aspose.cells.charts/walls/border) | Hämtar eller sätter gränsen [Line](/cells/sv/python-net/aspose.cells.drawing/line).|
 | [center_x](/cells/sv/python-net/aspose.cells.charts/walls/center_x) | Hämtar x-koordinaten för det nedre vänstra hörnet av väggens centrum i enheter på 1/4000 av diagrammets bredd efter anrop av metoden Chart.Calculate().|
 | [center_y](/cells/sv/python-net/aspose.cells.charts/walls/center_y) |Får y-koordinaten för det nedre vänstra hörnet av väggens centrum i enheter på 1/4000 av diagrammets höjd efter anrop av metoden Chart.Calculate().|
-| [width](/cells/sv/python-net/aspose.cells.charts/walls/width) |Hämtar bredden från vänster till höger i enheter på 1/4000 av diagrammets bredd efter anrop av metoden Chart.Calculate().|
+| [width](/cells/sv/python-net/aspose.cells.charts/walls/width) | Hämtar bredden från vänster till höger i enheter på 1/4000 av diagrammets bredd efter anrop av metoden Chart.Calculate().|
 | [depth](/cells/sv/python-net/aspose.cells.charts/walls/depth) | Hämtar djupet fram och bak i enheter på 1/4000 av diagrammets bredd efter anrop av metoden Chart.Calculate().|
 | [height](/cells/sv/python-net/aspose.cells.charts/walls/height) | Hämtar höjden från topp till botten i enheter av 1/4000 av diagrammets höjd efter anrop av metoden Chart.Calculate().|
 | [center_x_px](/cells/sv/python-net/aspose.cells.charts/walls/center_x_px) | Hämtar x-koordinaten för det nedre vänstra hörnet av väggens centrum i enheter av pixlar efter anrop av metoden Chart.Calculate().|
 | [center_y_px](/cells/sv/python-net/aspose.cells.charts/walls/center_y_px) | Hämtar y-koordinaten för det nedre vänstra hörnet av väggens centrum i enheter av pixlar efter anrop av metoden Chart.Calculate().|
 | [width_px](/cells/sv/python-net/aspose.cells.charts/walls/width_px) | Hämtar bredden från vänster till höger i enheter av pixlar efter anrop av metoden Chart.Calculate().|
 | [depth_px](/cells/sv/python-net/aspose.cells.charts/walls/depth_px) | Hämtar djupet fram och tillbaka i enheter av pixlar efter anrop av metoden Chart.Calculate().|
-| [height_px](/cells/sv/python-net/aspose.cells.charts/walls/height_px) | Hämtar höjden från topp till botten i enheter av pixlar efter anrop av metoden Chart.Calculate().|
+| [height_px](/cells/sv/python-net/aspose.cells.charts/walls/height_px) |Hämtar höjden från topp till botten i enheter av pixlar efter anrop av metoden Chart.Calculate().|
 
 
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
 | [get_cube_point_count()](/cells/sv/python-net/aspose.cells.charts/walls/get_cube_point_count/#) | Får antalet kubpoäng efter anrop av metoden Chart.Calculate().|
-| [get_cube_point_x_px(index)](/cells/sv/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Får x-koordinaten för spetspunkten för väggkuben efter anrop av metoden Chart.Calculate().<br/> Antalet spetspunkter på väggkuben är åtta|
-| [get_cube_point_y_px(index)](/cells/sv/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) |Hämtar y-koordinaten för spetspunkten för väggkuben efter anrop av metoden Chart.Calculate().<br/> Antalet spetspunkter på väggkuben är åtta.|
+| [get_cube_point_x_px(index)](/cells/sv/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Hämtar x-koordinater för apexpunkten för väggkuben efter anrop av metoden Chart.Calculate().<br/> Antalet spetspunkter på väggkuben är åtta|
+| [get_cube_point_y_px(index)](/cells/sv/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) | Hämtar y-koordinaten för spetspunkten för väggkuben efter anrop av metoden Chart.Calculate().<br/> Antalet spetspunkter på väggkuben är åtta.|
 
 
 

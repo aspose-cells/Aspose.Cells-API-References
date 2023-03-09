@@ -1,5 +1,5 @@
 ﻿---
-title: AxisBins sınıf
+title: AxisBins sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells.charts/axisbins/
 is_root: false
 ---
-##  AxisBins sınıf
+##  AxisBins sınıfı
 Eksen bölmelerini temsil eder
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number Eigentum
 
-Ruft das Anzeigeformat von Zahlen und Daten ab oder legt es fest. Die Formatierungsmuster sind für verschiedene Regionen unterschiedlich.
+Ruft das Anzeigeformat von Zahlen und Daten ab oder legt es fest.
 
 ###  Bemerkungen
 

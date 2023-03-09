@@ -1,13 +1,13 @@
 ﻿---
 title: PivotGlobalizationSettings类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.settings/pivotglobalizationsettings/
 is_root: false
 ---
-##  PivotGlobalizationSettings类
+## PivotGlobalizationSettings类
 表示数据透视表的全球化设置。
 
 

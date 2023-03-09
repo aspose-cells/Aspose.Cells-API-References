@@ -18,7 +18,7 @@ def add(self, cficon):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | cficon | [ConditionalFormattingIcon](/cells/it/python-net/aspose.cells/conditionalformattingicon) | Restituisce l'indice del nuovo oggetto nell'elenco.|
 
@@ -38,7 +38,7 @@ def add(self, type, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [IconSetType](/cells/it/python-net/aspose.cells/iconsettype) | Il tipo di valore.|
 | index | int | L'indice.|

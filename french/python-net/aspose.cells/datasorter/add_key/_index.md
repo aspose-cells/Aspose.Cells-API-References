@@ -18,7 +18,7 @@ def add_key(self, key, order):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | key | int | L'index de colonne trié (position absolue, la colonne A est 0, B est 1, ...)|
 | order | [SortOrder](/cells/fr/python-net/aspose.cells/sortorder) | L'ordre de tri|
@@ -35,7 +35,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | key | int | L'index de colonne trié (position absolue, la colonne A est 0, B est 1, ...)|
 | order | [SortOrder](/cells/fr/python-net/aspose.cells/sortorder) | L'ordre de tri.|
@@ -53,7 +53,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | key | int | L'index de colonne trié (position absolue, la colonne A est 0, B est 1, ...)|
 | order | [SortOrder](/cells/fr/python-net/aspose.cells/sortorder) | L'ordre de tri.|
@@ -71,7 +71,7 @@ def add_key(self, key, type, order, custom_list):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | key | int | L'index de colonne trié (position absolue, la colonne A est 0, B est 1, ...)|
 | type | [SortOnType](/cells/fr/python-net/aspose.cells/sortontype) | Type de valeur triée.|

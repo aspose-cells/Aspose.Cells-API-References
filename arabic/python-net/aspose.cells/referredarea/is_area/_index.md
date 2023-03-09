@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-إذا لم تكن هذه منطقة ، فقط تأثير StartRow و StartColumn.
+إذا لم تكن هذه منطقة ، فقط تأثيرات StartRow و StartColumn.
 ###  تعريف:
 ```python
 @property

@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 proprietà
 
 Restituisce un oggetto CellArea che rappresenta l'intervallo contenente l'intero rapporto di tabella pivot,
-include i campi della pagina. Sola lettura.
+include i campi della pagina.
 ###  Definizione:
 ```python
 @property

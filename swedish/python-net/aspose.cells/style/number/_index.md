@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  number fastighet
 
-Hämtar eller ställer in visningsformat för siffror och datum. Formateringsmönstren är olika för olika regioner.
+Hämtar eller ställer in visningsformat för siffror och datum.
 
 ###  Anmärkningar
 
-Till exempel, formatmönstren som representeras av siffror för en_US-regionen:
+Till exempel formatmönstren som representeras av siffror för en_US-regionen:
 | Värde| Typ| Formatera sträng|
 | :- | :- | :- |
 | 0| Allmän|
@@ -30,10 +30,10 @@ Till exempel, formatmönstren som representeras av siffror för en_US-regionen:
 | 11| Vetenskaplig|
 | 12| Fraktion|
 | 13| Fraktion|
-| 14| Datum|
-| 15| Datum|
-| 16| Datum|
-| 17| Datum|
+| 14| datum|
+| 15| datum|
+| 16| datum|
+| 17| datum|
 | 18| Tid|
 | 19| Tid|
 | 20| Tid|

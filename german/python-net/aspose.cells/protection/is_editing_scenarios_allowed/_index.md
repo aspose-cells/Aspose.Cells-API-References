@@ -13,8 +13,8 @@ Stellt dar, ob der Benutzer berechtigt ist, Szenarien auf einem geschützten Arb
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
- Bitte verwenden Sie die Protection.AllowEditingScenario-Eigenschaft.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ Bitte verwenden Sie den Schutz Bearbeiten der Szenario-Eigenschaft zulassen.
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

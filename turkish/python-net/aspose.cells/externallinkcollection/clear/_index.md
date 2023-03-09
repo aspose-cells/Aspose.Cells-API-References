@@ -34,14 +34,14 @@ def clear(self, update_references_as_local):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | update_references_as_local | bool | Dış bağlantıların tüm referanslarını geçerli çalışma kitabının referansları olarak güncelleyip güncellemeyeceği.|
 ###  Notlar
 
 Başvuruların güncellenmesi gerekiyorsa, formüllerdeki dış bağlantılara yapılan başvurular geçerli çalışma kitabına değiştirilecektir.
 Örneğin, bir hücrenin orijinal formülü "='externalsource.xlam'!customfunction()" şeklindedir,
-harici bağlantıları kaldırdıktan sonra, formül "=özelfonksiyon()" olacaktır.
+Dış bağlantıları kaldırdıktan sonra, formül "=özelfonksiyon()" olacaktır.
 Referansların güncellenmesi gerekmiyorsa, harici bağlantılara referans içeren tüm formüller
 bu referanslar geçersiz hale geldiği için de kaldırılacaktır.
 

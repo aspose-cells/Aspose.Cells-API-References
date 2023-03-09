@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  OdsPageBackgroundType перечисление
-Представляет тип фона страницы ods.
+Представляет тип фона страницы коэффициентов.
 
 
 

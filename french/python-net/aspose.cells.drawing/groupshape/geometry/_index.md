@@ -11,7 +11,7 @@ is_root: false
 
 Obtient le geometry
 
-###  Exemple
+###  Exemples
 
 ```python
 

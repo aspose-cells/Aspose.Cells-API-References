@@ -22,7 +22,7 @@ def get_text_width(self, text, font, scaling):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | text | str | النص.|
 | font | [Font](/cells/ar/python-net/aspose.cells/font) | خط النص.|

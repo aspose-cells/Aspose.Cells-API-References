@@ -22,9 +22,9 @@ def from_ole_color(self, ole_color):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| ole_color | int | قيمة OLE_COLOR.|
+| ole_color | int |قيمة OLE_COLOR.|
 
 
 

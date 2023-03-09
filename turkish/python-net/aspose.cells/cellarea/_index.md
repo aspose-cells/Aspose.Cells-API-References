@@ -1,5 +1,5 @@
 ﻿---
-title: CellArea sınıf
+title: CellArea sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 150
 url: /tr/python-net/aspose.cells/cellarea/
 is_root: false
 ---
-##  CellArea sınıf
+##  CellArea sınıfı
 Bir hücre alanını temsil eder.
 
 
@@ -25,7 +25,7 @@ CellArea türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [start_row](/cells/tr/python-net/aspose.cells/cellarea/start_row) | Bu alanın başlangıç satırını alır veya ayarlar.|
 | [end_row](/cells/tr/python-net/aspose.cells/cellarea/end_row) | Bu alanın bitiş satırını alır veya ayarlar.|
-| [start_column](/cells/tr/python-net/aspose.cells/cellarea/start_column) | Bu alanın başlangıç sütununu alır veya ayarlar.|
+| [start_column](/cells/tr/python-net/aspose.cells/cellarea/start_column) |Bu alanın başlangıç sütununu alır veya ayarlar.|
 | [end_column](/cells/tr/python-net/aspose.cells/cellarea/end_column) | Bu alanın bitiş sütununu alır veya ayarlar.|
 
 
@@ -38,7 +38,7 @@ CellArea türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import CellArea

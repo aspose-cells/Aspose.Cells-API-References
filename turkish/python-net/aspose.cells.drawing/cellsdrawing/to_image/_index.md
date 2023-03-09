@@ -18,7 +18,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Çıkış akışı.|
 | image_type | [ImageType](/cells/tr/python-net/aspose.cells.drawing/imagetype) | Görüntünün kaydedileceği tür.|
@@ -26,7 +26,7 @@ def to_image(self, stream, image_type):
 
 Aşağıdaki biçimler desteklenir:
 .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import ImageType
@@ -49,12 +49,12 @@ def to_image(self, image_file, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | image_file | str |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions
@@ -76,12 +76,12 @@ def to_image(self, stream, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions

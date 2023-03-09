@@ -18,7 +18,7 @@ def set_outline_border(self, border_edge, border_style, border_color):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/fr/python-net/aspose.cells/bordertype) | Bord de bordure.|
 | border_style | [CellBorderType](/cells/fr/python-net/aspose.cells/cellbordertype) | Style de bordure.|
@@ -36,7 +36,7 @@ def set_outline_border(self, border_edge, border_style, border_color):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/fr/python-net/aspose.cells/bordertype) | Bord de bordure.|
 | border_style | [CellBorderType](/cells/fr/python-net/aspose.cells/cellbordertype) | Style de bordure.|

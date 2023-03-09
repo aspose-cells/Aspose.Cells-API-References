@@ -22,7 +22,7 @@ def add(self, url):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | url | str | url/sökväg till en xml/xsd-fil.|
 

@@ -18,10 +18,10 @@ def remove_field(self, field_type, field_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/it/python-net/aspose.cells.pivot/pivotfieldtype) | Il tipo di area dei campi.|
-| field_name | str |Il nome nei campi di base.|
+| field_name | str | Il nome nei campi di base.|
 
 
 ##  remove_field(field_type, base_field_index) {#PivotFieldType-int}
@@ -35,7 +35,7 @@ def remove_field(self, field_type, base_field_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/it/python-net/aspose.cells.pivot/pivotfieldtype) | Il tipo di area dei campi.|
 | base_field_index | int | L'indice di campo nei campi di base.|
@@ -52,7 +52,7 @@ def remove_field(self, field_type, pivot_field):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/it/python-net/aspose.cells.pivot/pivotfieldtype) | il tipo di area dei campi.|
 | pivot_field | [PivotField](/cells/it/python-net/aspose.cells.pivot/pivotfield) | il campo nei campi base.|

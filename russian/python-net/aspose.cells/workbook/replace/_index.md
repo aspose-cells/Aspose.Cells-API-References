@@ -18,12 +18,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | place_holder | str | Cell заполнитель|
 | new_value | str | Строковое значение для замены|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook
@@ -46,12 +46,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | place_holder | str | Cell заполнитель|
 | new_value | int | Целое значение для замены|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook
@@ -75,12 +75,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | place_holder | str | Cell заполнитель|
 | new_value | float | Двойное значение для замены|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook
@@ -104,10 +104,10 @@ def replace(self, bool_value, new_value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | bool_value | bool | Логическое значение, которое необходимо заменить.|
-| new_value | any |Новое значение. Может быть строкой, целым числом, двойным значением или значением DateTime.|
+| new_value | any | Новое значение. Может быть строкой, целым числом, двойным значением или значением DateTime.|
 
 
 ##  replace(int_value, new_value) {#int-any}
@@ -121,10 +121,10 @@ def replace(self, int_value, new_value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | int_value | int | Заменяемое целочисленное значение.|
-| new_value | any |Новое значение. Может быть строкой, целым числом, двойным значением или значением DateTime.|
+| new_value | any | Новое значение. Может быть строкой, целым числом, двойным значением или значением DateTime.|
 
 
 ##  replace(place_holder, new_values, is_vertical) {#str-list-bool}
@@ -138,13 +138,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | place_holder | str | Cell заполнитель|
 | new_values | list | Массив строк для замены|
-| is_vertical | bool | Правда — по вертикали, Ложь — по горизонтали|
+| is_vertical | bool | Правда-вертикально, ложно-горизонтально|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook
@@ -168,13 +168,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | place_holder | str | Cell заполнитель|
 | new_values | list | Целочисленный массив для замены|
-| is_vertical | bool | Правда — по вертикали, Ложь — по горизонтали|
+| is_vertical | bool | Правда-вертикально, ложно-горизонтально|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook
@@ -198,13 +198,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | place_holder | str | Cell заполнитель|
 | new_values | list | Двойной массив для замены|
-| is_vertical | bool | Правда — по вертикали, Ложь — по горизонтали|
+| is_vertical | bool | Правда-вертикально, ложно-горизонтально|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook
@@ -228,7 +228,7 @@ def replace(self, place_holder, new_value, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | place_holder | str | Cell заполнитель|
 | new_value | str | Строковое значение для замены|

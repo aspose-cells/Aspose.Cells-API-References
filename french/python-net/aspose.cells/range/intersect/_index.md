@@ -22,13 +22,13 @@ def intersect(self, range):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range | [Range](/cells/fr/python-net/aspose.cells/range) | La plage d'intersection.|
 ###  Remarques
 
 Si les deux plages ne sont pas intersectées, renvoie null.
-###  Exemple
+###  Exemples
 
 
 ```python

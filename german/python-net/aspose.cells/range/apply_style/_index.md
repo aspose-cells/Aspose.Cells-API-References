@@ -21,11 +21,11 @@ def apply_style(self, style, flag):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | style | [Style](/cells/de/python-net/aspose.cells/style) | Das Stilobjekt, das angewendet wird.|
-| flag | [StyleFlag](/cells/de/python-net/aspose.cells/styleflag) | Flags, die angewendete Formatierungseigenschaften anzeigen.|
+| flag | [StyleFlag](/cells/de/python-net/aspose.cells/styleflag) |Flags, die angewandte Formatierungseigenschaften anzeigen.|
 ###  Bemerkungen
 
 Jede Zelle in diesem Bereich enthält ein [Style](/cells/de/python-net/aspose.cells/style)-Objekt.
-Dies ist also eine speicherintensive Methode. Bitte verwenden Sie es sorgfältig.
+Dies ist also eine speicherintensive Methode.
 
 
 ###  Siehe auch

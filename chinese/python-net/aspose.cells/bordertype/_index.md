@@ -1,13 +1,13 @@
 ﻿---
 title: BorderType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1790
 url: /zh/python-net/aspose.cells/bordertype/
 is_root: false
 ---
-##  BorderType枚举
+## BorderType枚举
 枚举边界线和对角线类型。
 
 

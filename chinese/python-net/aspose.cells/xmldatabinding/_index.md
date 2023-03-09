@@ -1,13 +1,13 @@
 ﻿---
 title: XmlDataBinding类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1680
 url: /zh/python-net/aspose.cells/xmldatabinding/
 is_root: false
 ---
-##  XmlDataBinding类
+## XmlDataBinding类
 表示 Xml 数据绑定信息。
 
 

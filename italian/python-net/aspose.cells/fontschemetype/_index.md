@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/fontschemetype/
 is_root: false
 ---
 ##  FontSchemeType enumerazione
-Rappresenta il tipo di schema del carattere.
+Rappresenta il tipo di schema del font.
 
 
 

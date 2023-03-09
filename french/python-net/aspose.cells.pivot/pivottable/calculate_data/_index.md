@@ -21,7 +21,7 @@ def calculate_data(self):
 ###  Remarques
 
 Cell. La valeur dans la plage de pivot n'a pas pu renvoyer le résultat correct si la méthode n'a pas été appelée.
-Cette méthode calcule les données avec un cache de pivot interne, et non avec la source de données d'origine.
+Cette méthode calcule les données avec un cache de pivot interne, et non la source de données d'origine.
 Donc, si la source de données est modifiée, veuillez d'abord appeler la méthode RefreshData().
 
 

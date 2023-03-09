@@ -18,7 +18,7 @@ def custom_theme(self, theme_name, colors):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | theme_name | str | اسم الموضوع|
 | colors | aspose.pydrawing.Color[] | ألوان الموضوع|
@@ -27,7 +27,7 @@ def custom_theme(self, theme_name, colors):
 يجب أن يكون طول الألوان 12.
 | فهرس المصفوفة| نوع الموضوع|
 | :- | :- |
-| 0| Backgournd1|
+| 0| Backgournd 1|
 | 1| النص 1|
 | 2| Backgournd2|
 | 3| نص 2|

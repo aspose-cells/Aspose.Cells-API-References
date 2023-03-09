@@ -11,7 +11,7 @@ is_root: false
 
 Indica si la relación de aspecto de bloqueo.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

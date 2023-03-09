@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | type | [ChartType](/cells/es/python-net/aspose.cells.charts/charttype) | Tipo de gráfico|
 | left | int | El desplazamiento x a la esquina|

@@ -18,10 +18,10 @@ def group_rows(self, first_index, last_index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | first_index | int | فهرس الصف الأول المطلوب تجميعه.|
-| last_index | int | فهرس الصف الأخير المراد تجميعه.|
+| last_index | int |فهرس الصف الأخير المراد تجميعه.|
 
 
 ##  group_rows(first_index, last_index, is_hidden) {#int-int-bool}
@@ -35,10 +35,10 @@ def group_rows(self, first_index, last_index, is_hidden):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | first_index | int | فهرس الصف الأول المطلوب تجميعه.|
-| last_index | int | فهرس الصف الأخير المراد تجميعه.|
+| last_index | int |فهرس الصف الأخير المراد تجميعه.|
 | is_hidden | bool | يحدد ما إذا كانت الصفوف المجمعة مخفية.|
 
 

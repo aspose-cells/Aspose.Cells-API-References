@@ -17,7 +17,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [page_index](/cells/ar/python-net/aspose.cells.rendering/pagesavingargs/page_index) | فهرس الصفحة الحالية ، على أساس الصفر.|
+| [page_index](/cells/ar/python-net/aspose.cells.rendering/pagesavingargs/page_index) | فهرس الصفحة الحالية ، قائم على الصفر.|
 | [page_count](/cells/ar/python-net/aspose.cells.rendering/pagesavingargs/page_count) | إجمالي عدد الصفحات.|
 
 

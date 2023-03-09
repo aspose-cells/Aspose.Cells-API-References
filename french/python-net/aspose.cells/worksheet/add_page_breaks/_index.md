@@ -18,7 +18,7 @@ def add_page_breaks(self, cell_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | cell_name | str |  |
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_gridlines_visible propiedad
 
-Obtiene o establece un valor que indica si las líneas de la cuadrícula están visibles. El valor predeterminado es verdadero.
+Obtiene o establece un valor que indica si las líneas de cuadrícula son visibles.El valor predeterminado es true.
 ###  Definición:
 ```python
 @property

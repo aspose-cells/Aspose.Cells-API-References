@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparklines propiedad
 
-Obtiene la colección del objeto [Sparkline](/cells/es/python-net/aspose.cells.charts/sparkline).
+Obtiene la colección de [Sparkline](/cells/es/python-net/aspose.cells.charts/sparkline) objetos.
 ###  Definición:
 ```python
 @property

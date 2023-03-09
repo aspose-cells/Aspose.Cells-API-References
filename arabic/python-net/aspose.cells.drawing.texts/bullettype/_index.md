@@ -20,7 +20,7 @@ is_root: false
 | NONE | لا رصاصة.|
 | CHARACTER | رمز نقطي.|
 | PICTURE | صورة نقطية.|
-| AUTO_NUMBERED | رصاصة مرقمة أوتوماتيكية.|
+| AUTO_NUMBERED | تعداد نقطي آلي.|
 
 
 

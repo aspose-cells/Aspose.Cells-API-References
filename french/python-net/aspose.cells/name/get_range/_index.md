@@ -39,9 +39,9 @@ def get_range(self, recalculate):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| recalculate | bool | si le recalculer si ce nom a été calculé avant cette invocation.|
+| recalculate | bool | s'il faut le recalculer si ce nom a été calculé avant cet appel.|
 
 
 ##  get_range(sheet_index, row, column) {#int-int-int}
@@ -60,9 +60,9 @@ def get_range(self, sheet_index, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| sheet_index | int |L'index de feuille correspondant.|
+| sheet_index | int | L'index de feuille correspondant.|
 | row | int | L'index de ligne correspondant.|
 | column | int | L'index de colonne correspondant|
 

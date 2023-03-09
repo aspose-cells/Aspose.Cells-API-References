@@ -13,7 +13,7 @@ Indica se la formula della cella è una formula di matrice.
 
 ###  Osservazioni
 
- NOTA: questa classe è ora obsoleta. Invece,
+ NOTA: questa classe è ora obsoleta.
 utilizzare Cell.IsArrayFormula per verificare se la formula della cella è una formula di matrice.
 Questa proprietà verrà rimossa 12 mesi dopo da maggio 2018.
 Aspose si scusa per gli eventuali disagi causati.

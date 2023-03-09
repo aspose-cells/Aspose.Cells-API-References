@@ -11,7 +11,7 @@ is_root: false
 
 يحدد title لعنصر Slicer الحالي.
 
-###  مثال
+###  أمثلة
 
 ```python
 

@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType Aufzählung
-Repräsentiert den Zellenfeldtyp von ods.
+Repräsentiert den Zellenfeldtyp der Quoten.
 
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: sever_command 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 260
@@ -12,7 +12,7 @@ is_root: false
 指定第二个命令文本字符串，当数据透视表基于服务器时持久化
 页字段正在使用中。
 对于 ODBC 连接，serverCommand 通常是比命令更广泛的查询（没有
-WHERE 子句存在于前者中）。基于这两个命令（Command 和 ServerCommand），
+WHERE 子句存在于前者中）。
 可以填充参数 UI 并可以构造参数化查询
 ### 定义：
 ```python

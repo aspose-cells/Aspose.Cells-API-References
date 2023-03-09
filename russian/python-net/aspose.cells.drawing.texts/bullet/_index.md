@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [bullet_value](/cells/ru/python-net/aspose.cells.drawing.texts/bullet/bullet_value) | Получает значение маркера|
 | [type](/cells/ru/python-net/aspose.cells.drawing.texts/bullet/type) | Получает и задает тип маркера.|
-| [font_name](/cells/ru/python-net/aspose.cells.drawing.texts/bullet/font_name) | Получить и установить имя шрифта.|
+| [font_name](/cells/ru/python-net/aspose.cells.drawing.texts/bullet/font_name) |Получить и установить имя шрифта.|
 
 
 

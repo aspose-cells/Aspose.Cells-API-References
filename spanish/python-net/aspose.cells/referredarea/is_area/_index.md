@@ -13,7 +13,7 @@ Indica si se trata de un área.
 
 ###  Observaciones
 
-Si esto no es un área, solo tienen efecto StartRow y StartColumn.
+Si esto no es un área, solo los efectos StartRow y StartColumn.
 ###  Definición:
 ```python
 @property

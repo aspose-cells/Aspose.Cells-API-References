@@ -1,13 +1,13 @@
 ﻿---
 title: DeleteOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 470
 url: /zh/python-net/aspose.cells/deleteoptions/
 is_root: false
 ---
-##  DeleteOptions类
+## DeleteOptions类
 表示删除行/列的设置。
 
 

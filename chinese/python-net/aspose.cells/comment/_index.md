@@ -1,13 +1,13 @@
 ﻿---
 title: Comment类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 280
 url: /zh/python-net/aspose.cells/comment/
 is_root: false
 ---
-##  Comment类
+## Comment类
 封装表示单元格注释的对象。
 
 
@@ -34,9 +34,9 @@ Comment 类型公开了以下成员：
 | [height_cm](/cells/zh/python-net/aspose.cells/comment/height_cm) |表示评论的高度，单位为厘米。|
 | [width_cm](/cells/zh/python-net/aspose.cells/comment/width_cm) |表示注释的宽度，单位为厘米。|
 | [width](/cells/zh/python-net/aspose.cells/comment/width) |表示注释的宽度，以像素为单位。|
-| [height](/cells/zh/python-net/aspose.cells/comment/height) |表示评论的高度，单位为像素。|
-| [width_inch](/cells/zh/python-net/aspose.cells/comment/width_inch) |表示注释的宽度，单位为英寸。|
-| [height_inch](/cells/zh/python-net/aspose.cells/comment/height_inch) |表示注释的高度，单位是英寸。|
+| [height](/cells/zh/python-net/aspose.cells/comment/height) |表示评论的高度，以像素为单位。|
+| [width_inch](/cells/zh/python-net/aspose.cells/comment/width_inch) |表示注释的宽度，以英寸为单位。|
+| [height_inch](/cells/zh/python-net/aspose.cells/comment/height_inch) |表示注释的高度，以英寸为单位。|
 
 
 ### 方法

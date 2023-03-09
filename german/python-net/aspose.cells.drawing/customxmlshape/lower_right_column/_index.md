@@ -11,7 +11,7 @@ is_root: false
 
 Repräsentiert den Spaltenindex der unteren rechten Ecke.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

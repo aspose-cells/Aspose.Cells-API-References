@@ -15,7 +15,7 @@ Ottiene o imposta l'indice in base 0 della prima pagina da salvare.
 
 Il valore predefinito è 0.
 
-###  Esempio
+###  Esempi
 
 L'esempio seguente mostra come eseguire il rendering di un intervallo di pagine (3 e 4) in un file Excel Microsoft in PDF.
 

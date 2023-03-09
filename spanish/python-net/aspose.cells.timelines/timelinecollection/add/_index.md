@@ -22,13 +22,13 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objeto de tabla dinámica|
+| pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | dest_cell_name | str | El nombre de la celda en la esquina superior izquierda del rango de la línea de tiempo.|
 | base_field_name | str | El nombre de PivotField en PivotTable.BaseFields|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 
@@ -53,13 +53,13 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objeto de tabla dinámica|
+| pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | dest_cell_name | str | El nombre de la celda en la esquina superior izquierda del rango de la línea de tiempo.|
 | base_field_index | int | El índice de PivotField en PivotTable.BaseFields|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 
@@ -84,13 +84,13 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objeto de tabla dinámica|
+| pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | dest_cell_name | str | El nombre de la celda en la esquina superior izquierda del rango de la línea de tiempo.|
 | base_field | aspose.cells.pivot.PivotField | El PivotField en PivotTable.BaseFields|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 
@@ -115,14 +115,14 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objeto de tabla dinámica|
+| pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de la línea de tiempo.|
 | column | int | Índice de columna de la celda en la esquina superior izquierda del rango de la línea de tiempo.|
 | base_field_name | str | El nombre de PivotField en PivotTable.BaseFields|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 
@@ -147,14 +147,14 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objeto de tabla dinámica|
+| pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de la línea de tiempo.|
 | column | int | Índice de columna de la celda en la esquina superior izquierda del rango de la línea de tiempo.|
 | base_field_index | int | El índice de PivotField en PivotTable.BaseFields|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 
@@ -179,14 +179,14 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objeto de tabla dinámica|
+| pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de la línea de tiempo.|
 | column | int | Índice de columna de la celda en la esquina superior izquierda del rango de la línea de tiempo.|
 | base_field | aspose.cells.pivot.PivotField | El PivotField en PivotTable.BaseFields|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

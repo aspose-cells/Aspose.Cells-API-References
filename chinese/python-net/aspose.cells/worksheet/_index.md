@@ -1,13 +1,13 @@
 ﻿---
 title: Worksheet类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1620
 url: /zh/python-net/aspose.cells/worksheet/
 is_root: false
 ---
-##  Worksheet类
+## Worksheet类
 封装表示单个工作表的对象。
 
 
@@ -17,7 +17,7 @@ Worksheet 类型公开了以下成员：
 ### 特性
 |属性|描述|
 | :- | :- |
-| [protection](/cells/zh/python-net/aspose.cells/worksheet/protection) |表示可用于工作表的各种类型的保护选项。支持ExcelXP及以上版本的高级保护选项。|
+| [protection](/cells/zh/python-net/aspose.cells/worksheet/protection) |表示可用于工作表的各种类型的保护选项。|
 | [unique_id](/cells/zh/python-net/aspose.cells/worksheet/unique_id) |获取和设置唯一标识，与{15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}相同。|
 | [workbook](/cells/zh/python-net/aspose.cells/worksheet/workbook) |获取包含此工作表的工作簿对象。|
 | [cells](/cells/zh/python-net/aspose.cells/worksheet/cells) |获取 [Worksheet.cells](/cells/zh/python-net/aspose.cells/worksheet#cells) 集合。|
@@ -26,7 +26,7 @@ Worksheet 类型公开了以下成员：
 | [type](/cells/zh/python-net/aspose.cells/worksheet/type) |表示工作表类型。|
 | [name](/cells/zh/python-net/aspose.cells/worksheet/name) |获取或设置工作表的名称。|
 | [show_formulas](/cells/zh/python-net/aspose.cells/worksheet/show_formulas) |指示是否显示公式或其结果。|
-| [is_gridlines_visible](/cells/zh/python-net/aspose.cells/worksheet/is_gridlines_visible) |获取或设置一个值，该值指示网格线是否可见。默认为 true。|
+| [is_gridlines_visible](/cells/zh/python-net/aspose.cells/worksheet/is_gridlines_visible) |获取或设置一个值，该值指示网格线是否可见。默认值为 true。|
 | [is_row_column_headers_visible](/cells/zh/python-net/aspose.cells/worksheet/is_row_column_headers_visible) |获取或设置一个值，该值指示工作表是否显示行标题和列标题。<br/>默认为真。|
 | [pane_state](/cells/zh/python-net/aspose.cells/worksheet/pane_state) |指示窗格是否具有水平或垂直拆分，以及这些拆分是否已冻结。|
 | [display_zeros](/cells/zh/python-net/aspose.cells/worksheet/display_zeros) |如果显示零值则为真。|
@@ -64,14 +64,14 @@ Worksheet 类型公开了以下成员：
 | [outline](/cells/zh/python-net/aspose.cells/worksheet/outline) |获取此工作表上的大纲。|
 | [first_visible_row](/cells/zh/python-net/aspose.cells/worksheet/first_visible_row) |表示第一个可见行索引。|
 | [first_visible_column](/cells/zh/python-net/aspose.cells/worksheet/first_visible_column) |表示第一个可见列索引。|
-| [zoom](/cells/zh/python-net/aspose.cells/worksheet/zoom) |表示以百分比表示的比例因子。它应该在 10 到 400 之间。|
+| [zoom](/cells/zh/python-net/aspose.cells/worksheet/zoom) |以百分比表示比例因子。它应该在 10 到 400 之间。|
 | [view_type](/cells/zh/python-net/aspose.cells/worksheet/view_type) |获取和设置视图类型。|
 | [is_page_break_preview](/cells/zh/python-net/aspose.cells/worksheet/is_page_break_preview) |指示指定的工作表是否显示在普通视图或分页预览中。|
-| [is_ruler_visible](/cells/zh/python-net/aspose.cells/worksheet/is_ruler_visible) |指示标尺是否可见。此属性仅适用于分页预览。|
+| [is_ruler_visible](/cells/zh/python-net/aspose.cells/worksheet/is_ruler_visible) |指示标尺是否可见。|
 | [tab_color](/cells/zh/python-net/aspose.cells/worksheet/tab_color) |代表工作表标签颜色。|
 | [code_name](/cells/zh/python-net/aspose.cells/worksheet/code_name) |获取工作表代号。|
 | [background_image](/cells/zh/python-net/aspose.cells/worksheet/background_image) |获取和设置工作表背景图像。|
-| [conditional_formattings](/cells/zh/python-net/aspose.cells/worksheet/conditional_formattings) |获取工作表中的 ConditionalFormattings。|
+| [conditional_formattings](/cells/zh/python-net/aspose.cells/worksheet/conditional_formattings) |获取工作表中的条件格式。|
 | [active_cell](/cells/zh/python-net/aspose.cells/worksheet/active_cell) |获取或设置工作表中的活动单元格。|
 | [custom_properties](/cells/zh/python-net/aspose.cells/worksheet/custom_properties) |获取表示的对象<br/>与工作表关联的标识符信息。|
 | [smart_tag_setting](/cells/zh/python-net/aspose.cells/worksheet/smart_tag_setting) |获取工作表的所有 [SmartTagCollection](/cells/zh/python-net/aspose.cells.markup/smarttagcollection) 对象。|
@@ -113,7 +113,7 @@ Worksheet 类型公开了以下成员：
 | [calculate_formula(options, recursive)](/cells/zh/python-net/aspose.cells/worksheet/calculate_formula/#CalculationOptions-bool) |计算此工作表中的所有公式。|
 | [get_panes()](/cells/zh/python-net/aspose.cells/worksheet/get_panes/#) |获取窗格。|
 | [get_freezed_panes(row, column, freezed_rows, freezed_columns)](/cells/zh/python-net/aspose.cells/worksheet/get_freezed_panes/#any-any-any-any) |获取冻结窗格。|
-| [split()](/cells/zh/python-net/aspose.cells/worksheet/split/#) |拆分窗口。|
+| [split()](/cells/zh/python-net/aspose.cells/worksheet/split/#) |分割窗口。|
 | [un_freeze_panes()](/cells/zh/python-net/aspose.cells/worksheet/un_freeze_panes/#) |解冻工作表中的窗格。|
 | [remove_split()](/cells/zh/python-net/aspose.cells/worksheet/remove_split/#) |删除拆分窗口。|
 | [add_page_breaks(cell_name)](/cells/zh/python-net/aspose.cells/worksheet/add_page_breaks/#str) |添加分页符。|

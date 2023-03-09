@@ -22,11 +22,11 @@ def add(self, name, user_id, provider_id):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم الشخص.|
 | user_id | str |  |
-| provider_id | str | معرف المزود|
+| provider_id | str | هوية المزود|
 
 
 

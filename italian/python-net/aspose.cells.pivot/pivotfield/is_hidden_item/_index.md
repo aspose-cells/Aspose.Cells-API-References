@@ -22,7 +22,7 @@ def is_hidden_item(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int | l'indice del pivotItem nel pivotField.|
 

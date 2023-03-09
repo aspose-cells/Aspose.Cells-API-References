@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_grid_drop_zones mülk
 
-PivotTable raporunun klasik pivot tablo düzenini gösterip göstermediğini belirtir.
+PivotTable raporunun klasik pivot tablo düzenini gösterip göstermediğini gösterir.
 (kılavuzdaki alanların sürüklenmesini sağlar)
 ###  Tanım:
 ```python

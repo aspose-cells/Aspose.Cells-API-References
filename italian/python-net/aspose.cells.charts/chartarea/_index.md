@@ -28,12 +28,12 @@ Il tipo ChartArea espone i membri seguenti:
 | [text_font](/cells/it/python-net/aspose.cells.charts/chartarea/text_font) | Ottiene un oggetto [ChartFrame.font](/cells/it/python-net/aspose.cells.charts/chartframe#font) dell'oggetto ChartFrame specificato.|
 | [text_options](/cells/it/python-net/aspose.cells.charts/chartarea/text_options) | Ottiene e imposta le opzioni del testo.|
 | [font](/cells/it/python-net/aspose.cells.charts/chartarea/font) | Ottiene un oggetto [ChartArea.font](/cells/it/python-net/aspose.cells.charts/chartarea#font) dell'oggetto chartarea specificato.|
-| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto. Il valore predefinito è Vero.|
+| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto.|
 | [background_mode](/cells/it/python-net/aspose.cells.charts/chartarea/background_mode) | Ottiene e imposta la modalità di visualizzazione dello sfondo|
 | [background](/cells/it/python-net/aspose.cells.charts/chartarea/background) | Ottiene e imposta la modalità di visualizzazione dello sfondo|
 | [is_automatic_size](/cells/it/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Indica se la cornice del grafico è ridimensionata automaticamente.|
 | [x](/cells/it/python-net/aspose.cells.charts/chartarea/x) | Ottiene o ottiene l'offset orizzontale dalla colonna nell'angolo superiore sinistro.|
-| [y](/cells/it/python-net/aspose.cells.charts/chartarea/y) | Ottiene o ottiene l'offset verticale dalla riga dell'angolo superiore sinistro.|
+| [y](/cells/it/python-net/aspose.cells.charts/chartarea/y) |Ottiene o ottiene l'offset verticale dalla riga dell'angolo superiore sinistro.|
 | [height](/cells/it/python-net/aspose.cells.charts/chartarea/height) | Ottiene o imposta l'offset verticale dalla relativa riga nell'angolo inferiore destro.|
 | [width](/cells/it/python-net/aspose.cells.charts/chartarea/width) | Ottiene o imposta l'offset orizzontale dalla colonna nell'angolo inferiore destro.|
 | [shadow](/cells/it/python-net/aspose.cells.charts/chartarea/shadow) | Vero se la cornice ha un'ombra.|
@@ -52,7 +52,7 @@ Il tipo ChartArea espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

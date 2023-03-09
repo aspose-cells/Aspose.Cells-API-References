@@ -30,12 +30,12 @@ Il tipo FontUnderlineType espone i membri seguenti:
 | DASH_LONG_HEAVY | Rappresenta la sottolineatura tratteggiata lunga e spessa|
 | DOT_DASH | Rappresenta trattino-punto sottolineato|
 | DOT_DOT_DASH | Rappresenta trattino-punto-punto sottolineato|
-| DOTTED | Rappresenta la sottolineatura punteggiata|
+| DOTTED |Rappresenta la sottolineatura punteggiata|
 | DOTTED_HEAVY | Rappresenta la sottolineatura tratteggiata spessa|
 | HEAVY | Rappresenta la sottolineatura spessa|
 | WAVE | Rappresenta la sottolineatura dell'onda|
 | WAVY_DOUBLE | Rappresenta la sottolineatura a doppia onda|
-| WAVY_HEAVY |Rappresenta la sottolineatura dell'onda pesante|
+| WAVY_HEAVY | Rappresenta la sottolineatura dell'onda pesante|
 | WORDS | Rappresenta solo i caratteri di sottolineatura diversi dallo spazio|
 
 

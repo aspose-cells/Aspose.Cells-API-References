@@ -20,7 +20,7 @@ El tipo LookAtType expone los siguientes miembros:
 | CONTAINS | Cell valor Contiene el objeto de búsqueda.|
 | START_WITH | Cell valor Comienza con el objeto de búsqueda.|
 | END_WITH | El valor Cell termina con el objeto de búsqueda.|
-| ENTIRE_CONTENT |El valor Cell es el mismo que el objeto de búsqueda.|
+| ENTIRE_CONTENT | El valor Cell es el mismo que el objeto de búsqueda.|
 
 
 

@@ -31,17 +31,17 @@ is_root: false
 | [add(pivot, row, column, base_field)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/add/#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField) | أضف مخططًا زمنيًا جديدًا باستخدام PivotTable كمصدر بيانات|
 | [add(pivot, dest_cell_name, base_field)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/add/#aspose.cells.pivot.PivotTable-str-aspose.cells.pivot.PivotField) | أضف مخططًا زمنيًا جديدًا باستخدام PivotTable كمصدر بيانات|
 | [copy_to(array)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/copy_to/#list) | ينسخ قائمة المصفوفات بأكملها إلى قائمة مصفوفة متوافقة أحادية البعد ، بدءًا من بداية قائمة الصفيف الهدف.|
-| [copy_to(index, array, array_index, count)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/copy_to/#int-list-int-int) | ينسخ نطاقًا من العناصر من قائمة المصفوفة إلى قائمة مصفوفة أحادية البعد متوافقة ، بدءًا من الفهرس المحدد لقائمة الصفيف الهدف.|
+| [copy_to(index, array, array_index, count)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/copy_to/#int-list-int-int) |ينسخ نطاقًا من العناصر من قائمة المصفوفة إلى قائمة مصفوفة أحادية البعد متوافقة ، بدءًا من الفهرس المحدد لقائمة الصفيف الهدف.|
 | [index_of(item, index)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/index_of/#Timeline-int) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأول ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من الفهرس المحدد إلى العنصر الأخير.|
 | [index_of(item, index, count)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/index_of/#Timeline-int-int) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأول ضمن نطاق العناصر في قائمة الصفيف الذي يبدأ بالفهرس المحدد ويحتوي على عدد محدد من العناصر.|
 | [last_index_of(item)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأخير ضمن قائمة الصفيف بأكملها.|
-| [last_index_of(item, index)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
-| [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
+| [last_index_of(item, index)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
+| [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells.timelines/timelinecollection/binary_search/#Timeline) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import CellsFactory, Workbook

@@ -13,8 +13,8 @@ Gibt an, ob die Daten beim Laden der Dateien automatisch gefiltert werden.
 
 ###  Bemerkungen
 
-Manchmal wird, obwohl Autofilter gesetzt ist, die entsprechende Zeile nicht in der Datei ausgeblendet.
-Funktioniert jetzt nur für SpreadSheetML-Dateien.
+Manchmal werden trotz gesetztem Autofilter die entsprechenden Zeilen nicht in der Datei ausgeblendet.
+Funktioniert jetzt nur noch für SpreadSheetML-Dateien.
 ###  Definition:
 ```python
 @property

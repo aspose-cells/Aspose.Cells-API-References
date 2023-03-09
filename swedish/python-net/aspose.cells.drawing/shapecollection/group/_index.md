@@ -22,7 +22,7 @@ def group(self, group_items):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | group_items | list | gruppobjekten.|
 ###  Anmärkningar

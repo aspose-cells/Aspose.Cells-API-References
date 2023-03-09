@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose Eigentum
 
-Entspricht transpose Zeilen und Spalten, wenn der Bereich eingefügt wird. Der Standardwert ist False.
+Entspricht transpose Zeilen und Spalten, wenn der Bereich eingefügt wird.
 ###  Definition:
 ```python
 @property

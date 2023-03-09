@@ -17,12 +17,12 @@ El tipo CellsDataTableFactory expone los siguientes miembros:
 ###  Métodos
 | Método| Descripción|
 | :- | :- |
-| [get_instance(vals, column_names)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |Crea ICellsDataTable a partir de una secuencia dada de valores int.|
-| [get_instance(vals, vertial)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |Crea ICellsDataTable a partir de una secuencia dada de valores int.|
+| [get_instance(vals, column_names)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | Crea ICellsDataTable a partir de una secuencia dada de valores int.|
+| [get_instance(vals, vertial)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Crea ICellsDataTable a partir de una secuencia dada de valores int.|
 | [get_instance(vals, column_names)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | Crea ICellsDataTable a partir de una secuencia dada de valores dobles.|
 | [get_instance(vals, vertial)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Crea ICellsDataTable a partir de una secuencia dada de valores dobles.|
-| [get_instance(vals, column_names)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | Crea ICellsDataTable a partir de una secuencia dada de objetos.|
-| [get_instance(vals, vertial)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Crea ICellsDataTable a partir de una secuencia dada de objetos.|
+| [get_instance(vals, column_names)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |Crea ICellsDataTable a partir de una secuencia dada de objetos.|
+| [get_instance(vals, vertial)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |Crea ICellsDataTable a partir de una secuencia dada de objetos.|
 | [get_instance(collection)](/cells/es/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Crea ICellsDataTable a partir de una colección determinada.|
 
 

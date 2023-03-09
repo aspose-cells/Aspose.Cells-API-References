@@ -22,11 +22,11 @@ def get_locked_property(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/ar/python-net/aspose.cells.drawing/shapelocktype) | نوع خاصية تأمين الشكل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import ShapeLockType

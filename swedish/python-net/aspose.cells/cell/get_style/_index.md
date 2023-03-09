@@ -42,7 +42,7 @@ def get_style(self, check_borders):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | check_borders | bool | Kontrollera andra cellers gränser|
 ###  Anmärkningar

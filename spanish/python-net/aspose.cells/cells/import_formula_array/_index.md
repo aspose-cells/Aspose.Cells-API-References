@@ -18,10 +18,10 @@ def import_formula_array(self, string_array, first_row, first_column, is_vertica
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | string_array | list | Matriz de fórmulas.|
-| first_row | int |El número de fila de la primera celda a importar.|
+| first_row | int | El número de fila de la primera celda a importar.|
 | first_column | int | El número de columna de la primera celda a importar.|
 | is_vertical | bool | Especifica importar datos vertical u horizontalmente.|
 

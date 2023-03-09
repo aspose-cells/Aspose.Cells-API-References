@@ -11,7 +11,7 @@ is_root: false
 
 Metin yönünü alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing.texts import TextVerticalType

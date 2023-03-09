@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields propiedad
 
-Obtiene la lista de campos de ods.
+Obtiene la lista de campos de probabilidades.
 ###  Definición:
 ```python
 @property

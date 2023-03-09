@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value fastighet
 
-Hämta eller ställ in flaggan som anger om värdena för cellerna som denna ikonuppsättning används på ska visas.
+Hämta eller ställ in flaggan som anger om värdena för cellerna som denna ikonuppsättning tillämpas på ska visas.
 Standardvärdet är sant.
 ###  Definition:
 ```python

@@ -18,7 +18,7 @@ def copy(self, style):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | كائن نمط المصدر|
 ###  ملاحظات

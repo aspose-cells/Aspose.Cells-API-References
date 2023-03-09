@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie ou définit le caption du Timeline spécifié.
 
-###  Exemple
+###  Exemples
 
 ```python
 

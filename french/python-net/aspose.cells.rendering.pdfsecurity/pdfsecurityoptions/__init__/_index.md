@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  Exemple
+###  Exemples
 
 Le code suivant définit l'autorisation d'impression haute résolution pour le pdf de sortie.
 

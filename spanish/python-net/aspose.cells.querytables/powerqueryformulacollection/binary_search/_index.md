@@ -13,7 +13,7 @@ Busca un elemento en toda la lista de matrices ordenadas mediante el comparador 
 
 ###  Devoluciones
 
-El índice de valor de base cero en la lista de matriz ordenada, si se encuentra el elemento; de lo contrario, un número negativo, que es el complemento bit a bit del índice del siguiente elemento que es mayor que value o, si no hay ningún elemento mayor, el complemento bit a bit de la lista de arreglos Count.
+El índice de base cero del valor en la lista de matriz ordenada, si se encuentra un elemento; de lo contrario, un número negativo, que es el complemento bit a bit del índice del siguiente elemento que es mayor que el valor o, si no hay ningún elemento mayor, el complemento bit a bit de la lista de arreglos Count.
 
 
 ```python
@@ -22,9 +22,9 @@ def binary_search(self, item):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| item | [PowerQueryFormula](/cells/es/python-net/aspose.cells.querytables/powerqueryformula) | El System.Object a localizar. El valor puede ser nulo.|
+| item | [PowerQueryFormula](/cells/es/python-net/aspose.cells.querytables/powerqueryformula) | El Sistema Objeto a localizar.|
 
 
 

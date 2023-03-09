@@ -22,7 +22,7 @@ Le type FolderFontSource expose les membres suivants :
 ###  Constructeurs
 | Constructeur| Description|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/fr/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Ctor.|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/fr/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Directeur.|
 
 
 ###  Propriétés

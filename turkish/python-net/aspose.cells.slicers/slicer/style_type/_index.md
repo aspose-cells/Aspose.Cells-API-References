@@ -12,7 +12,7 @@ is_root: false
 Yerleşik dilimleyici stilinin türünü belirtin
 varsayılan tür SlicerStyleLight1'dir.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

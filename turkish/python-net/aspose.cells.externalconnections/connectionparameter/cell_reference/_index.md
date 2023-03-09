@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_reference mülk
 
-Cell sorgu parametresi için hangi hücrenin değerinin kullanılacağını gösteren referans. Yalnızca parameterType hücre olduğunda kullanılır.
+Cell Sorgu parametresi için hangi hücrenin değerinin kullanılacağını gösteren referans. Yalnızca parameterType cell olduğunda kullanılır.
 ###  Tanım:
 ```python
 @property

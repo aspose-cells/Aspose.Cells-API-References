@@ -31,7 +31,7 @@ def __init__(self, loading_type, default_path):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | loading_type | [ResourceLoadingType](/cells/ar/python-net/aspose.cells/resourceloadingtype) | نوع تحميل المورد المرتبط.|
 | default_path | str | المسار الافتراضي.|

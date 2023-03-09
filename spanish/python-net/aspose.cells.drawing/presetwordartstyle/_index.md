@@ -25,7 +25,7 @@ El tipo PresetWordArtStyle expone los siguientes miembros:
 | WORD_ART_STYLE6 | Relleno degradado - Gris|
 | WORD_ART_STYLE7 | Relleno degradado: azul, acento 1, reflejo|
 | WORD_ART_STYLE8 | Relleno degradado: dorado, acento 4, contorno: acento 4|
-| WORD_ART_STYLE9 | Relleno: blanco, contorno: acento 1, resplandor: acento 1|
+| WORD_ART_STYLE9 |Relleno: blanco, contorno: acento 1, resplandor: acento 1|
 | WORD_ART_STYLE10 | Relleno - Gris-50%, Acento 3, Bisel afilado|
 | WORD_ART_STYLE11 | Relleno: negro, texto 1, contorno: fondo 1, sombra intensa: fondo 1|
 | WORD_ART_STYLE12 | Relleno - Negro, Texto 1, Contorno - Fondo 1, Sombra dura - Énfasis 1|
@@ -36,7 +36,7 @@ El tipo PresetWordArtStyle expone los siguientes miembros:
 | WORD_ART_STYLE17 | Relleno de patrón - Gris-50%, Énfasis 3, Horizontal estrecho, Sombra interior|
 | WORD_ART_STYLE18 | Relleno: azul, acento 1, 50 %, sombra fuerte: acento 1|
 | WORD_ART_STYLE19 | Relleno de patrón: azul, acento 1, diagonal descendente clara, contorno: acento 1|
-| WORD_ART_STYLE20 |Relleno de patrón: azul grisáceo, texto 2, diagonal ascendente oscura, sombra fuerte: texto 2|
+| WORD_ART_STYLE20 | Relleno de patrón: azul grisáceo, texto 2, diagonal ascendente oscura, sombra fuerte: texto 2|
 
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: SignatureLine sınıf
+title: SignatureLine sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 640
 url: /tr/python-net/aspose.cells.drawing/signatureline/
 is_root: false
 ---
-##  SignatureLine sınıf
+##  SignatureLine sınıfı
 İmza satırını temsil eder.
 
 
@@ -27,7 +27,7 @@ SignatureLine türü aşağıdaki üyeleri gösterir:
 | [provider_id](/cells/tr/python-net/aspose.cells.drawing/signatureline/provider_id) | İmza sağlayıcının kimliğini alır ve ayarlar.|
 | [signer](/cells/tr/python-net/aspose.cells.drawing/signatureline/signer) | İmzalayanı alır ve ayarlar.|
 | [title](/cells/tr/python-net/aspose.cells.drawing/signatureline/title) | Şarkıcı unvanını alır ve ayarlar.|
-| [email](/cells/tr/python-net/aspose.cells.drawing/signatureline/email) |Şarkıcının e-postasını alır ve ayarlar.|
+| [email](/cells/tr/python-net/aspose.cells.drawing/signatureline/email) | Şarkıcının e-postasını alır ve ayarlar.|
 | [is_line](/cells/tr/python-net/aspose.cells.drawing/signatureline/is_line) | İmza satırı olup olmadığını gösterir.|
 | [allow_comments](/cells/tr/python-net/aspose.cells.drawing/signatureline/allow_comments) | Yorumların iliştirilip eklenemeyeceğini belirtir.|
 | [show_signed_date](/cells/tr/python-net/aspose.cells.drawing/signatureline/show_signed_date) | İmza tarihini gösterip göstermediğini gösterir.|
@@ -35,7 +35,7 @@ SignatureLine türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

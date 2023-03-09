@@ -13,7 +13,7 @@ Web uzantısı özelliği ekler.
 
 ###  İadeler
 
-Eklenen özelliğin dizini.
+Eklenen özelliklerin dizini.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı.|
 | value | str | Mülkün değeri.|

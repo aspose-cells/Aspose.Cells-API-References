@@ -19,9 +19,9 @@ def set_even_footer(self, section, footer_script):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| section | int |0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
+| section | int | 0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
 | footer_script | str | Script formato piè di pagina.|
 
 

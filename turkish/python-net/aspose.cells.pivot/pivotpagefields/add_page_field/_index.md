@@ -18,7 +18,7 @@ def add_page_field(self, page_items):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | page_items | list | Sayfa alanı öğe etiketi|
 

@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
 | [MetadataType](/cells/de/python-net/aspose.cells.metadata/metadatatype) | Stellt den Typ der Metadaten dar.|
 

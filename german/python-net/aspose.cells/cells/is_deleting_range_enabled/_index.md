@@ -25,7 +25,7 @@ def is_deleting_range_enabled(self, start_row, start_column, total_rows, total_c
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | start_row | int | Der Anfangszeilenindex des Bereichs.|
-| start_column | int | Der Anfangsspaltenindex des Bereichs.|
+| start_column | int |Der Anfangsspaltenindex des Bereichs.|
 | total_rows | int | Die Anzahl der Zeilen im Bereich.|
 | total_columns | int | Die Anzahl der Spalten im Bereich.|
 

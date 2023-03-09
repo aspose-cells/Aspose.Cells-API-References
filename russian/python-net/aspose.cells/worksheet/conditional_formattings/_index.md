@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings недвижимость
 
-Получает ConditionalFormattings на листе.
+Получает условное форматирование на листе.
 ###  Определение:
 ```python
 @property

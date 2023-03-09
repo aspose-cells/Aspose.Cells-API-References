@@ -14,7 +14,7 @@ El rango de celdas a exportar.
 ###  Observaciones
 
 Si se ha especificado el área exportada, [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/es/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-voluntad no surtirá efecto.
+no surtirá efecto.
 ###  Definición:
 ```python
 @property

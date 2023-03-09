@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/autofitwrappedtexttype/
 is_root: false
 ---
 ##  AutoFitWrappedTextType numaralandırma
-Sarılmış metnin otomatik sığdırma türünü temsil eder.
+Otomatik sığdırılan sarılmış metnin türünü temsil eder.
 
 
 

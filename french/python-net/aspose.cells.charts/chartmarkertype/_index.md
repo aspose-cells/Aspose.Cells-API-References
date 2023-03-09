@@ -28,7 +28,7 @@ Le type ChartMarkerType expose les membres suivants :
 | SQUARE_STAR | Marqueurs carrés avec un astérisque.|
 | TRIANGLE | Marqueurs triangulaires.|
 | SQUARE_X | Marqueurs carrés avec un X.|
-| PICTURE | Image|
+| PICTURE | Des photos|
 
 
 

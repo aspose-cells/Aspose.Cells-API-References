@@ -1,13 +1,13 @@
 ﻿---
 title: TextBoxCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 690
 url: /zh/python-net/aspose.cells.drawing/textboxcollection/
 is_root: false
 ---
-##  TextBoxCollection类
+## TextBoxCollection类
 封装 [TextBox](/cells/zh/python-net/aspose.cells.drawing/textbox) 对象的集合。
 
 

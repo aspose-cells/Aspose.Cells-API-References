@@ -23,7 +23,7 @@ Der Typ CellsFactory macht die folgenden Member verfügbar:
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [create_style()](/cells/de/python-net/aspose.cells/cellsfactory/create_style/#) |Erstellt einen neuen Stil.|
+| [create_style()](/cells/de/python-net/aspose.cells/cellsfactory/create_style/#) | Erstellt einen neuen Stil.|
 
 
 

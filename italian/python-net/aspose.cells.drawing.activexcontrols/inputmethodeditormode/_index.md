@@ -20,7 +20,7 @@ Il tipo InputMethodEditorMode espone i membri seguenti:
 | NO_CONTROL |Non controlla l'IME.|
 | ON | IME attivato.|
 | OFF | IME disattivato. Modalità inglese.|
-| DISABLE | IME disattivato. L'utente non può attivare l'IME dalla tastiera.|
+| DISABLE | IME disattivato. L'utente non può attivare l'IME tramite tastiera.|
 | HIRAGANA | IME attivo con modalità hiragana a larghezza intera.|
 | KATAKANA | IME attivo con modalità katakana a larghezza intera.|
 | KATAKANA_HALF | IME attivo con modalità katakana a metà larghezza.|
@@ -28,8 +28,8 @@ Il tipo InputMethodEditorMode espone i membri seguenti:
 | ALPHA | IME attivo con modalità alfanumerica ridotta.|
 | HANGUL_FULL | IME attivo con modalità Hangul a larghezza intera.|
 | HANGUL | IME attivo con modalità Hangul a metà larghezza.|
-| HANZI_FULL | IME attivato con la modalità hanzi a larghezza intera.|
-| HANZI | IME attivo con modalità hanzi a metà larghezza.|
+| HANZI_FULL | IME attivato con la modalità Hanzi a larghezza intera.|
+| HANZI | IME attivo con modalità Hanzi a metà larghezza.|
 
 
 

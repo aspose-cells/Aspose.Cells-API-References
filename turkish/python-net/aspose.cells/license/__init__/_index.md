@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  Örnek
+###  örnekler
 
 Bu örnekte, MyLicense.lic adlı bir lisans dosyası bulunmaya çalışılacaktır.
  içeren klasörde

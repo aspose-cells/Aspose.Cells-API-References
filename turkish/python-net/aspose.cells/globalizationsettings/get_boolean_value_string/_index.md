@@ -22,7 +22,7 @@ def get_boolean_value_string(self, bv):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | bv | bool | boole değeri|
 

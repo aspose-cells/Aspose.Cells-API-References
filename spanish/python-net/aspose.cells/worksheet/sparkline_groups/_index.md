@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparkline_groups propiedad
 
-Obtiene los grupos de minigráficos en la hoja de trabajo.
+Obtiene los grupos de minigráficos en la hoja de cálculo.
 ###  Definición:
 ```python
 @property

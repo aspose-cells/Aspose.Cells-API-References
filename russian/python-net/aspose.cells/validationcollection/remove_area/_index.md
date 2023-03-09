@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | ca | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Диапазон, содержащий параметр проверки.|
 

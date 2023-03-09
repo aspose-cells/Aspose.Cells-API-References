@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_vertical proprietà
 
-True se una riga nel file della cartella di lavoro rappresenta una riga in DataTable. Falso se una colonna nel file della cartella di lavoro rappresenta una riga in DataTable.
+True se una riga nel file della cartella di lavoro rappresenta una riga in DataTable.
 ###  Definizione:
 ```python
 @property

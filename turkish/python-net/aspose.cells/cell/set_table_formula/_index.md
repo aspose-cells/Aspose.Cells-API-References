@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cell/set_table_formula/
 is_root: false
 ---
 ##  set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values) {#int-int-str-str-list}
-Bu hücreden başlayarak verilen aralık için iki değişkenli veri tablosu oluşturun.
+Bu hücreden başlayarak belirli bir aralık için iki değişkenli bir veri tablosu oluşturun.
 
 
 
@@ -18,9 +18,9 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| row_number | int | Formülü doldurmak için satır sayısı.|
+| row_number | int |Formülü doldurmak için satır sayısı.|
 | column_number | int | Formülü doldurmak için sütun sayısı.|
 | row_input_cell | str | satır giriş hücresi|
 | column_input_cell | str | sütun giriş hücresi|
@@ -38,12 +38,12 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| row_number | int | Formülü doldurmak için satır sayısı.|
+| row_number | int |Formülü doldurmak için satır sayısı.|
 | column_number | int | Formülü doldurmak için sütun sayısı.|
 | input_cell | str | giriş hücresi|
-| is_row_input | bool | Giriş hücresinin bir satır giriş hücresi (doğru) veya bir sütun giriş hücresi (yanlış) olduğunu gösterir.|
+| is_row_input | bool | Giriş hücresinin satır giriş hücresi (doğru) veya sütun giriş hücresi (yanlış) olduğunu gösterir.|
 | values | list | tablo formül aralığındaki hücreler için değerler|
 
 
@@ -58,18 +58,18 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| row_number | int | Formülü doldurmak için satır sayısı.|
+| row_number | int |Formülü doldurmak için satır sayısı.|
 | column_number | int | Formülü doldurmak için sütun sayısı.|
 | row_index_of_input_cell | int | giriş hücresinin satır dizini|
 | column_index_of_input_cell | int | giriş hücresinin sütun dizini|
-| is_row_input | bool | Giriş hücresinin bir satır giriş hücresi (doğru) veya bir sütun giriş hücresi (yanlış) olduğunu gösterir.|
+| is_row_input | bool | Giriş hücresinin satır giriş hücresi (doğru) veya sütun giriş hücresi (yanlış) olduğunu gösterir.|
 | values | list | tablo formül aralığındaki hücreler için değerler|
 
 
 ##  set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values) {#int-int-int-int-int-int-list}
-Bu hücreden başlayarak verilen aralık için iki değişkenli veri tablosu oluşturun.
+Bu hücreden başlayarak belirli bir aralık için iki değişkenli bir veri tablosu oluşturun.
 
 
 
@@ -79,12 +79,12 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| row_number | int | Formülü doldurmak için satır sayısı.|
+| row_number | int |Formülü doldurmak için satır sayısı.|
 | column_number | int | Formülü doldurmak için sütun sayısı.|
-| row_index_of_row_input_cell | int | satır giriş hücresinin satır dizini|
-| column_index_of_row_input_cell | int |satır giriş hücresinin sütun dizini|
+| row_index_of_row_input_cell | int |satır giriş hücresinin satır dizini|
+| column_index_of_row_input_cell | int | satır giriş hücresinin sütun dizini|
 | row_index_of_column_input_cell | int | sütun giriş hücresinin satır dizini|
 | column_index_of_column_input_cell | int | sütun giriş hücresinin sütun dizini|
 | values | list | tablo formül aralığındaki hücreler için değerler|

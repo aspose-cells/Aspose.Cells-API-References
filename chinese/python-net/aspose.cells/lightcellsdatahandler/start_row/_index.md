@@ -1,6 +1,6 @@
 ﻿---
 title: start_row方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-此行（属性或单元格数据）是否需要处理。 false 忽略此行及其单元格并检查下一行。
+此行（属性或单元格数据）是否需要处理。false 忽略此行及其单元格并检查下一行。
 
 
 ```python
@@ -22,7 +22,7 @@ def start_row(self, row_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | row_index | int |要处理的下一行的索引|
 

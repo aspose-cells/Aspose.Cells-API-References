@@ -11,7 +11,7 @@ is_root: false
 
 Bu TextBox nesnesindeki dizeyi temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

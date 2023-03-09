@@ -25,7 +25,7 @@ def get_cell_or_null(self, row_offset, column_offset):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | row_offset | int | Zeilenoffset in diesem Bereich, nullbasiert.|
-| column_offset | int | Spaltenoffset in diesem Bereich, nullbasiert.|
+| column_offset | int |Spaltenoffset in diesem Bereich, nullbasiert.|
 
 
 

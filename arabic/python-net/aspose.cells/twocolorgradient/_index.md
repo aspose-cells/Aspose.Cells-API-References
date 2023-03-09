@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/twocolorgradient/
 is_root: false
 ---
 ##  TwoColorGradient الدرجة
-يمثل اثنين من التدرج اللوني.
+يمثل اثنين من التدرجات اللونية.
 
 
 
@@ -25,8 +25,8 @@ is_root: false
 | :- | :- |
 | [color1](/cells/ar/python-net/aspose.cells/twocolorgradient/color1) | الحصول على أول لون متدرج وتعيينه.|
 | [color2](/cells/ar/python-net/aspose.cells/twocolorgradient/color2) | الحصول على لون التدرج الثاني وتعيينه.|
-| [gradient_style_type](/cells/ar/python-net/aspose.cells/twocolorgradient/gradient_style_type) | الحصول على نمط تظليل متدرج وتعيينه.|
-| [variant](/cells/ar/python-net/aspose.cells/twocolorgradient/variant) |الحصول على متغير التدرج وتعيينه.|
+| [gradient_style_type](/cells/ar/python-net/aspose.cells/twocolorgradient/gradient_style_type) |الحصول على نمط تظليل متدرج وتعيينه.|
+| [variant](/cells/ar/python-net/aspose.cells/twocolorgradient/variant) | الحصول على متغير التدرج وتعيينه.|
 
 
 

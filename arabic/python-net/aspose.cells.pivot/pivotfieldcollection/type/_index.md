@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type الملكية
 
-يحصل على PivotFields type.
+يحصل على الحقول المحورية type.
 ###  تعريف:
 ```python
 @property

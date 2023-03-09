@@ -19,7 +19,7 @@ def refresh(self):
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_watches mülk
 
-Bu çalışma sayfasındaki 'izleme penceresinde' izlenen hücrelerin koleksiyonunu alır.
+Bu çalışma sayfasındaki 'izleme penceresinde' izlenen hücrelerin bir koleksiyonunu alır.
 ###  Tanım:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di testo a capo della forma che contiene il testo.
 
-###  Esempio
+###  Esempi
 
 ```python
 

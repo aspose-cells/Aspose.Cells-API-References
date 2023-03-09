@@ -14,7 +14,7 @@ Hämtar eller ställer in y-koordinaten för det övre vänstra hörnet i enhete
 ###  Anmärkningar
 
  Hur konverterar man enheter på 1/4000 till pixlar?
-i pixlar = Y * Chart.ChartObject.Height / 4000;
+Y i pixlar = Y * Chart.ChartObject.Height / 4000;
 ###  Definition:
 ```python
 @property

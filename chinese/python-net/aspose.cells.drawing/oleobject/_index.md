@@ -1,13 +1,13 @@
 ﻿---
 title: OleObject类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 400
 url: /zh/python-net/aspose.cells.drawing/oleobject/
 is_root: false
 ---
-##  OleObject类
+## OleObject类
 表示工作表中的 OleObject。
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value propriété
 
-Obtenir ou définir l'indicateur indiquant s'il faut afficher les valeurs des cellules sur lesquelles cette barre de données est appliquée.
+Obtenir ou définir le drapeau indiquant s'il faut afficher les valeurs des cellules sur lesquelles cette barre de données est appliquée.
 La valeur par défaut est true.
 ###  Définition:
 ```python

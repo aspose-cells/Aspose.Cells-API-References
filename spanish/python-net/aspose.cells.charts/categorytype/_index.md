@@ -18,7 +18,7 @@ El tipo CategoryType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | AUTOMATIC_SCALE | Escala automática|
-| CATEGORY_SCALE | CategoríaEscala|
+| CATEGORY_SCALE | Escala de categoría|
 | TIME_SCALE | Escala de tiempo|
 
 

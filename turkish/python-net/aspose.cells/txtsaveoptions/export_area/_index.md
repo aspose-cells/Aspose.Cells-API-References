@@ -14,7 +14,7 @@ Dışa aktarılacak hücre aralığı.
 ###  Notlar
 
 Dışa aktarılan alan belirtilmişse, [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/tr/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-irade etki etmez.
+hiçbir etkisi olmayacaktır.
 ###  Tanım:
 ```python
 @property

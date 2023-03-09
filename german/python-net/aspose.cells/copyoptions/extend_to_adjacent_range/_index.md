@@ -13,7 +13,7 @@ Gibt an, ob Bereiche erweitert werden, wenn der Bereich in den benachbarten Bere
 
 ###  Bemerkungen
 
-Wenn es wahr ist, wird nur der Bereich des Hyperlinks erweitert und kein neuer Hyperlink hinzugefügt, wenn Hyperlinks in benachbarte Zeilen kopiert werden.
+Wenn dies der Fall ist, wird nur der Bereich des Hyperlinks erweitert und kein neuer Hyperlink hinzugefügt, wenn Hyperlinks in benachbarte Zeilen kopiert werden.
 ###  Definition:
 ```python
 @property

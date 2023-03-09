@@ -20,8 +20,8 @@ is_root: false
 | EXPONENTIAL | экспоненциальный|
 | LINEAR | Линейный|
 | LOGARITHMIC | Логарифмический|
-| MOVING_AVERAGE | скользящее среднее|
-| POLYNOMIAL | Полиномиальный|
+| MOVING_AVERAGE | Скользящее среднее|
+| POLYNOMIAL | многочлен|
 | POWER | Власть|
 
 

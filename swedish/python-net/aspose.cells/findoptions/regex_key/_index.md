@@ -10,7 +10,7 @@ is_root: false
 ##  regex_key fastighet
 
 Indikerar om den sökta nyckeln är regex.
-Om sant kommer den sökta nyckeln att tas som regex och tolkas. Annars kommer nyckeln att tolkas enligt reglerna i ms excel.
+Om sant kommer den sökta nyckeln att tas som regex och tolkas.
 ###  Definition:
 ```python
 @property

@@ -1,6 +1,6 @@
 ﻿---
 title: custom_properties_export 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 140
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## custom_properties_export 属性
 
-获取或设置一个值，该值确定将 [CustomDocumentPropertyCollection](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection) 导出到 PDF 文件的方式。默认值为无。
+获取或设置一个值，确定 [CustomDocumentPropertyCollection](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection) 导出到 PDF 文件的方式。默认值为 None。
 ### 定义：
 ```python
 @property

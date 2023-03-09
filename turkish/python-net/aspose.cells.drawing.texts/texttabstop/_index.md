@@ -1,5 +1,5 @@
 ﻿---
-title: TextTabStop sınıf
+title: TextTabStop sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 120
 url: /tr/python-net/aspose.cells.drawing.texts/texttabstop/
 is_root: false
 ---
-##  TextTabStop sınıf
+##  TextTabStop sınıfı
 Sekme durağını temsil eder.
 
 

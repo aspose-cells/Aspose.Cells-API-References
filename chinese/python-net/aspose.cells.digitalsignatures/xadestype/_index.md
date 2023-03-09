@@ -1,13 +1,13 @@
 ﻿---
 title: XAdESType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
 url: /zh/python-net/aspose.cells.digitalsignatures/xadestype/
 is_root: false
 ---
-##  XAdESType枚举
+## XAdESType枚举
 XML 高级电子签名 (XAdES) 的类型。
 
 

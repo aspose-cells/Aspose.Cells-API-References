@@ -1,6 +1,6 @@
 ﻿---
 title: put_value方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 270
@@ -18,7 +18,7 @@ def put_value(self, bool_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | bool_value | bool |  |
 
@@ -34,7 +34,7 @@ def put_value(self, int_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | int_value | int |输入值|
 
@@ -50,7 +50,7 @@ def put_value(self, double_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | double_value | float |输入值|
 
@@ -66,7 +66,7 @@ def put_value(self, string_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | string_value | str |输入值|
 
@@ -82,7 +82,7 @@ def put_value(self, date_time):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | date_time | DateTime |输入值|
 
@@ -98,7 +98,7 @@ def put_value(self, object_value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | object_value | any |输入值|
 
@@ -114,7 +114,7 @@ def put_value(self, string_value, is_converted):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | string_value | str |输入值|
 | is_converted | bool | True：如果合适，转换为其他数据类型。|
@@ -131,7 +131,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | string_value | str |输入值|
 | is_converted | bool | True：如果合适，转换为其他数据类型。|

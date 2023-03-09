@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Zeichenfolge in diesem TextBox-Objekt dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

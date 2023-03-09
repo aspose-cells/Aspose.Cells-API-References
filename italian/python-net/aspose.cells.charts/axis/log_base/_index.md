@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  log_base proprietà
 
-Rappresenta la base logaritmica. Il valore predefinito è 10. Si applica solo a Excel2007.
+Rappresenta la base logaritmica.Il valore predefinito è 10.Si applica solo a Excel2007.
 ###  Definizione:
 ```python
 @property

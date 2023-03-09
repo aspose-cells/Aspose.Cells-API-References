@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/tr/python-net/aspose.cells/protectiontype) | Koruma türü.|
 ###  Notlar
 
-Bu yöntem, çalışma sayfasını parola olmadan korur. Excel dosyasının tüm sürümlerinde protect çalışma sayfası olabilir.
+Bu yöntem, çalışma sayfasını parola olmadan korur.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/tr/python-net/aspose.cells/protectiontype) | Koruma türü.|
 | password | str | Şifre.|
@@ -45,7 +45,7 @@ def protect(self, type, password, old_password):
 ###  Notlar
 
 Bu yöntem, Excel dosyasının tüm sürümlerinde protect çalışma sayfası olabilir.
-###  Örnek
+###  örnekler
 
 
 ```python

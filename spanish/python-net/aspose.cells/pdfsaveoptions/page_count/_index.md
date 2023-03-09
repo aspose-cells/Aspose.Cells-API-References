@@ -15,7 +15,7 @@ Obtiene o establece el número de páginas que se van a guardar.
 
 El valor predeterminado es System.Int32.MaxValue, lo que significa que se representarán todas las páginas.
 
-###  Ejemplo
+###  Ejemplos
 
 El siguiente ejemplo muestra cómo representar un rango de páginas (3 y 4) en un archivo de Excel Microsoft a PDF.
 

@@ -22,7 +22,7 @@ def is_error_check(self, error_check_type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/fr/python-net/aspose.cells/errorchecktype) | le type d'erreur peut être vérifié|
 

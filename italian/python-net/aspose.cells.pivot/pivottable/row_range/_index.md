@@ -10,7 +10,7 @@ is_root: false
 ##  row_range proprietà
 
 Restituisce un oggetto CellArea che rappresenta l'intervallo
-che contiene l'area della riga nel rapporto di tabella pivot. Sola lettura.
+che contiene l'area della riga nel rapporto di tabella pivot.
 ###  Definizione:
 ```python
 @property

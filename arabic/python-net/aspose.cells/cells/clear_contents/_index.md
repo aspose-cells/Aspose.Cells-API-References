@@ -18,7 +18,7 @@ def clear_contents(self, range):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | range | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | النطاق المراد مسحه.|
 
@@ -34,7 +34,7 @@ def clear_contents(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية.|
 | start_column | int | فهرس عمود البداية.|

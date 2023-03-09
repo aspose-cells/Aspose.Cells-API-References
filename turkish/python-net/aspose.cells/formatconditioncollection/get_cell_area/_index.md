@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/formatconditioncollection/get_cell_area/
 is_root: false
 ---
 ##  get_cell_area(index) {#int}
-Koşullu biçimlendirilmiş hücre aralığını dizine göre alır.
+Koşullu olarak biçimlendirilmiş hücre aralığını dizine göre alır.
 
 
 ###  İadeler
@@ -22,9 +22,9 @@ def get_cell_area(self, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| index | int | koşullu biçimlendirilmiş hücre aralığının dizini.|
+| index | int | koşullu olarak biçimlendirilmiş hücre aralığının dizini.|
 
 
 

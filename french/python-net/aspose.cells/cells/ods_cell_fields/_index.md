@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields propriété
 
-Obtient la liste des champs de ods.
+Obtient la liste des champs de cotes.
 ###  Définition:
 ```python
 @property

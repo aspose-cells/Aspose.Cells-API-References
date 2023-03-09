@@ -1,6 +1,6 @@
 ﻿---
 title: negative_points_color 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 130
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## negative_points_color 属性
 
-获取和设置迷你图组中负值的颜色。
+获取和设置迷你图组上负值的颜色。
 ### 定义：
 ```python
 @property

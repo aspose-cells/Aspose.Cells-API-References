@@ -41,7 +41,7 @@ def get_range(self, recalculate):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| recalculate | bool | ob er neu berechnet wird, wenn dieser Name vor diesem Aufruf berechnet wurde.|
+| recalculate | bool | ob er neu berechnet werden soll, wenn dieser Name vor diesem Aufruf berechnet wurde.|
 
 
 ##  get_range(sheet_index, row, column) {#int-int-int}
@@ -62,7 +62,7 @@ def get_range(self, sheet_index, row, column):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| sheet_index | int |Der zugehörige Blattindex.|
+| sheet_index | int | Der zugehörige Blattindex.|
 | row | int | Der entsprechende Zeilenindex.|
 | column | int | Der entsprechende Spaltenindex|
 

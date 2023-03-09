@@ -22,9 +22,9 @@ def set_footer_picture(self, section, footer_picture):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| section | int | : Section gauche, 1 : Section centrale, 2 : Section droite.|
+| section | int | 0 : Section gauche, 1 : Section centrale, 2 : Section droite.|
 | footer_picture | bytes | Données d'image.|
 
 

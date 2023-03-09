@@ -1,6 +1,6 @@
 ﻿---
 title: get_comment_title_name方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
@@ -22,7 +22,7 @@ def get_comment_title_name(self, type):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | aspose.cells.rendering.CommentTitleType |  |
 

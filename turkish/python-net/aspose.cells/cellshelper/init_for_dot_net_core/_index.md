@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cellshelper/init_for_dot_net_core/
 is_root: false
 ---
 ##  init_for_dot_net_core() {#}
-.NetCore programı için başlatma işlemini yapın.
+.NetCore programı için başlatma işlemini gerçekleştirin.
  Tüm .NetCore başlatma işlemleri için önce bu yöntemi çağırmanızı öneririz.
 Örneğin:
 CellsHelper.InitForDotNetCore();

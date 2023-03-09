@@ -14,7 +14,7 @@ Rappresenta il punto sull'asse dei valori in cui l'asse delle categorie lo inter
 ###  Osservazioni
 
 Il numero deve essere un numero intero quando si applica all'asse delle categorie.
-E il valore deve essere compreso tra 1 e 31999.
+il valore deve essere compreso tra 1 e 31999.
 ###  Definizione:
 ```python
 @property

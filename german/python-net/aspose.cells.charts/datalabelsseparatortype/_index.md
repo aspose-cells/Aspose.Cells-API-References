@@ -21,7 +21,7 @@ Der Typ DataLabelsSeparatorType macht die folgenden Member verfügbar:
 | SPACE | Steht für Leerzeichen (" ")|
 | COMMA | Steht für Komma (",")|
 | SEMICOLON | Steht für Semikolon (";")|
-| PERIOD | Steht für Punkt ("")|
+| PERIOD |Steht für Punkt ("")|
 | NEW_LINE | Repräsentiert Zeilenumbrüche ("\n")|
 | CUSTOM | Stellt ein benutzerdefiniertes Trennzeichen dar|
 

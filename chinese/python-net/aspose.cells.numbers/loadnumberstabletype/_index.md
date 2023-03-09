@@ -1,13 +1,13 @@
 ﻿---
 title: LoadNumbersTableType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
 url: /zh/python-net/aspose.cells.numbers/loadnumberstabletype/
 is_root: false
 ---
-##  LoadNumbersTableType枚举
+## LoadNumbersTableType枚举
 当一些表格在工作表中时，指示加载表格的类型。
 
 

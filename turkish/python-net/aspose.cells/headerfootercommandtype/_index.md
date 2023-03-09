@@ -25,7 +25,7 @@ HeaderFooterCommandType türü aşağıdaki üyeleri gösterir:
 | SHEET_NAME | Sayfa adı|
 | FILE_NAME | Yolsuz dosya adı|
 | FILE_PATH | Dosya adı olmayan dosya yolu|
-| PICTURE | Resim|
+| PICTURE | resimler|
 
 
 

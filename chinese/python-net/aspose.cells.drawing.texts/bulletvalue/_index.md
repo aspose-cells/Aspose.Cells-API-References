@@ -1,13 +1,13 @@
 ﻿---
 title: BulletValue类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
 url: /zh/python-net/aspose.cells.drawing.texts/bulletvalue/
 is_root: false
 ---
-##  BulletValue类
+## BulletValue类
 表示项目符号的值。
 
 

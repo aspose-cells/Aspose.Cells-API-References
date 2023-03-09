@@ -25,26 +25,26 @@ is_root: false
 | CHART | جدول|
 | TEXT_BOX | مربع الكتابة|
 | BUTTON | زر|
-| PICTURE | صورة|
+| PICTURE | الصور|
 | POLYGON | مضلع|
 | CHECK_BOX | خانة الاختيار|
-| RADIO_BUTTON | زر الراديو|
+| RADIO_BUTTON | أزرار الراديو|
 | LABEL | ملصق|
 | DIALOG_BOX | صندوق المحادثة|
 | SPINNER | سبينر|
-| SCROLL_BAR |شريط التمرير|
+| SCROLL_BAR | شريط التمرير|
 | LIST_BOX | ListBox|
 | GROUP_BOX | صندوق المجموعة|
 | COMBO_BOX | صندوق التحرير|
 | COMMENT | تعليق|
 | OLE_OBJECT | كائن أوله|
-| CELLS_DRAWING | فقط للاحتفاظ بالكائن الرسومي في ملف القالب.|
+| CELLS_DRAWING | فقط للاحتفاظ بالكائنات الرسومية في ملف القالب.|
 | UNKNOWN | فقط من أجل الحفاظ على الكائن الرسومي في ملف xlsx.|
 | SLICER | تقطيع اللحم|
 | WEB_EXTENSION | امتداد الويب|
 | SMART_ART | الفن الذكي|
-| CUSTOM_XML | شكل xml مخصص ، مثل الحبر.|
-| TIMELINE |الجدول الزمني|
+| CUSTOM_XML | أشكال xml المخصصة ، مثل Ink.|
+| TIMELINE | الجدول الزمني|
 | MODEL_3D | نموذج 3D|
 
 

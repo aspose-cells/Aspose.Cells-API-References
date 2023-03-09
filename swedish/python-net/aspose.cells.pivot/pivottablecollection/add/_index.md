@@ -22,10 +22,10 @@ def add(self, source_data, dest_cell_name, table_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source_data | str | Data för den nya PivotTable-cachen.|
-| dest_cell_name | str | Cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|
+| dest_cell_name | str |Cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|
 | table_name | str | Namnet på den nya pivottabellsrapporten.|
 
 
@@ -44,10 +44,10 @@ def add(self, pivot_table, dest_cell_name, table_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/sv/python-net/aspose.cells.pivot/pivottable) | Källpivottabellen.|
-| dest_cell_name | str | Cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|
+| dest_cell_name | str |Cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|
 | table_name | str | Namnet på den nya pivottabellsrapporten.|
 
 
@@ -66,10 +66,10 @@ def add(self, source_data, dest_cell_name, table_name, use_same_source):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source_data | str | Data för den nya PivotTable-cachen.|
-| dest_cell_name | str | Cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|
+| dest_cell_name | str |Cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|
 | table_name | str | Namnet på den nya pivottabellsrapporten.|
 | use_same_source | bool | Anger om samma datakälla används när en annan befintlig pivottabell har använt denna datakälla.<br/> Om egenskapen är sann kommer den att spara minne.|
 
@@ -89,7 +89,7 @@ def add(self, source_data, row, column, table_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source_data | str | Datacellintervallet för den nya pivottabellen.Exempel: Blad1!A1:C8|
 | row | int | Radindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|
@@ -112,7 +112,7 @@ def add(self, pivot_table, row, column, table_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/sv/python-net/aspose.cells.pivot/pivottable) | Källpivottabellen.|
 | row | int | Radindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|
@@ -135,7 +135,7 @@ def add(self, source_data, row, column, table_name, use_same_source):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source_data | str | Datacellintervallet för den nya pivottabellen.Exempel: Blad1!A1:C8|
 | row | int | Radindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|
@@ -159,10 +159,10 @@ def add(self, source_data, is_auto_page, page_fields, dest_cell_name, table_name
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| source_data | list | De flera konsolideringsintervallen, som {"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| is_auto_page | bool | Huruvida automatiskt skapa ett ensidfält.<br/> Om sant, kommer följande param pageFields att ignoreras.|
+| source_data | list | De flera konsolideringsintervallen, såsom {"Sheet1!A1:C8","Sheet2!A1:B8"} |
+| is_auto_page | bool | Huruvida automatiskt skapa ett ensidfält.<br/>Om sant, kommer följande param pageFields att ignoreras.|
 | page_fields | [PivotPageFields](/cells/sv/python-net/aspose.cells.pivot/pivotpagefields) | Pivotsidans fältobjekt.|
 | dest_cell_name | str | destCellName Namnet på den nya pivottabellsrapporten.|
 | table_name | str | namnet på den nya pivottabellsrapporten.|
@@ -183,9 +183,9 @@ def add(self, source_data, is_auto_page, page_fields, row, column, table_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| source_data | list | De flera konsolideringsintervallen, som {"Sheet1!A1:C8","Sheet2!A1:B8"} |
+| source_data | list | De flera konsolideringsintervallen, såsom {"Sheet1!A1:C8","Sheet2!A1:B8"} |
 | is_auto_page | bool | Huruvida automatiskt skapa ett ensidfält.<br/> Om sant, kommer följande param pageFields att ignoreras|
 | page_fields | [PivotPageFields](/cells/sv/python-net/aspose.cells.pivot/pivotpagefields) | Pivotsidans fältobjekt.|
 | row | int | Radindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde.|

@@ -22,7 +22,7 @@ def get_used_colors(self, workbook):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/ar/python-net/aspose.cells/workbook) | كائن المصنف.|
 

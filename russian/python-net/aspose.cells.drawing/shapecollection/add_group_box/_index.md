@@ -22,16 +22,16 @@ def add_group_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение GroupBox от его левой строки в пикселях.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Представляет горизонтальное смещение GroupBox от его левого столбца в пикселях.|
 | height | int | Представляет высоту GroupBox в пикселях.|
-| width | int |Представляет ширину GroupBox в пикселях.|
+| width | int | Представляет ширину GroupBox в пикселях.|
 
-###  Пример
+###  Примеры
 
 ```python
 

@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin name değerini alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

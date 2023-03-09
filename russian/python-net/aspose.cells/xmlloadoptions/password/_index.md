@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  password недвижимость
 
-Получает и устанавливает password книги.
+Получает и задает password книги.
 ###  Определение:
 ```python
 @property

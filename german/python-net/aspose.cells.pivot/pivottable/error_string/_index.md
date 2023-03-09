@@ -10,7 +10,7 @@ is_root: false
 ##  error_string Eigentum
 
 Ruft die Zeichenfolge ab, die in Zellen angezeigt wird, die Fehler enthalten
-wenn die DisplayErrorString-Eigenschaft wahr ist. Der Standardwert ist eine leere Zeichenfolge.
+wenn die DisplayErrorString-Eigenschaft wahr ist Der Standardwert ist eine leere Zeichenfolge.
 ###  Definition:
 ```python
 @property

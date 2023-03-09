@@ -22,7 +22,7 @@ def add(self, cell_name, total_rows, total_columns, address):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell_name | str | Cell adı.|
 | total_rows | int | Bu köprü aralığındaki satır sayısı.|
@@ -45,7 +45,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Köprü aralığının ilk satırı.|
 | first_column | int | Köprü aralığının ilk sütunu.|
@@ -53,7 +53,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_columns | int | Bu köprü aralığının sütun sayısı.|
 | address | str | Köprünün adresi.|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook
@@ -82,13 +82,13 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | start_cell_name | str | Aralığın sol üst hücresi.|
 | end_cell_name | str | Aralığın sağ alt hücresi.|
 | address | str | Köprünün adresi.|
 | text_to_display | str | Belirtilen köprü için görüntülenecek metin.|
-| screen_tip | str | Belirtilen köprü için ekran İpucu metni.|
+| screen_tip | str |Belirtilen köprü için ekran İpucu metni.|
 
 
 

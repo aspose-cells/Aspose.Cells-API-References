@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit la ligne de signature
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

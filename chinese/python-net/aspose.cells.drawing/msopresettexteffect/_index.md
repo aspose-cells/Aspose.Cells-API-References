@@ -1,13 +1,13 @@
 ﻿---
 title: MsoPresetTextEffect枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1030
 url: /zh/python-net/aspose.cells.drawing/msopresettexteffect/
 is_root: false
 ---
-##  MsoPresetTextEffect枚举
+## MsoPresetTextEffect枚举
 表示艺术字的预设文字效果类型。
 
 

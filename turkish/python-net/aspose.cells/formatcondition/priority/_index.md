@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  priority mülk
 
-Bu koşullu biçimlendirme kuralının priority'i. Bu değer hangisini belirlemek için kullanılır?
-biçimi değerlendirilmeli ve işlenmelidir. Daha düşük sayısal değerler priority'den daha yüksektir
+Bu koşullu biçimlendirme kuralının priority'i.
+formatı değerlendirilip render edilmelidir.Alt sayısal değerler priority den yüksektir
 daha yüksek sayısal değerler, burada '1' en yüksek priority'dir.
 ###  Tanım:
 ```python

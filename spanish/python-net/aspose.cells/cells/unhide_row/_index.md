@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/cells/unhide_row/
 is_root: false
 ---
 ##  unhide_row(row, height) {#int-float}
-Muestra una fila.
+Mostrar una fila.
 
 
 
@@ -18,10 +18,10 @@ def unhide_row(self, row, height):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila.|
-| height | float | Altura de la fila. La altura de la fila se cambiará solo cuando la fila esté oculta y el valor de altura dado sea positivo.|
+| height | float | Altura de la fila La altura de la fila se cambiará solo cuando la fila esté oculta y el valor de altura dado sea positivo.|
 
 
 

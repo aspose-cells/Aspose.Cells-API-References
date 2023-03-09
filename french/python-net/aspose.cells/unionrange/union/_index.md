@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range | str | La gamme.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/fr/python-net/aspose.cells/unionrange) | La gamme.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | ranges | list | Les gammes.|
 

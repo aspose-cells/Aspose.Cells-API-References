@@ -18,10 +18,10 @@ def move(self, upper_left_row, upper_left_column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 
 ###  Exempel
 

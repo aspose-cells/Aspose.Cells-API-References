@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene o imposta la larghezza in unità di pixel per ogni colonna dell'affettatrice.
 
-###  Esempio
+###  Esempi
 
 ```python
 

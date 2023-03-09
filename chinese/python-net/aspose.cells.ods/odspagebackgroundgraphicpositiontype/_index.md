@@ -1,13 +1,13 @@
 ﻿---
 title: OdsPageBackgroundGraphicPositionType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
 url: /zh/python-net/aspose.cells.ods/odspagebackgroundgraphicpositiontype/
 is_root: false
 ---
-##  OdsPageBackgroundGraphicPositionType枚举
+## OdsPageBackgroundGraphicPositionType枚举
 代表立场。
 
 

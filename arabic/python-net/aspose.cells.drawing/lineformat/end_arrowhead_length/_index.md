@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع طول سهم النهاية للخط وتعيينه.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import MsoArrowheadLength

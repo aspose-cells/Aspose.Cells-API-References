@@ -22,13 +22,13 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | dest_cell_name | str | Dilimleyici aralığının sol üst köşesindeki hücre.|
 | base_field_name | str | PivotTable.BaseFields içindeki PivotField'ın adı|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -52,13 +52,13 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | dest_cell_name | str | Dilimleyici aralığının sol üst köşesindeki hücre.|
 | base_field_index | int | PivotTable.BaseFields içindeki PivotField dizini|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -82,13 +82,13 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | dest_cell_name | str | Dilimleyici aralığının sol üst köşesindeki hücre.|
 | base_field | aspose.cells.pivot.PivotField | PivotTable.BaseFields içindeki PivotField|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -112,13 +112,13 @@ def add(self, table, index, dest_cell_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | ListObject nesnesi|
 | index | int | ListObject.ListColumns içindeki ListColumn dizini|
 | dest_cell_name | str | Dilimleyici aralığının sol üst köşesindeki hücre.|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -142,13 +142,13 @@ def add(self, table, list_column, dest_cell_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | ListObject nesnesi|
 | list_column | aspose.cells.tables.ListColumn | ListObject.ListColumns içindeki ListColumn|
 | dest_cell_name | str | Dilimleyici aralığının sol üst köşesindeki hücre.|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -172,14 +172,14 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | row | int | Dilimleyici aralığının sol üst köşesindeki hücrenin satır dizini.|
 | column | int | Dilimleyici aralığının sol üst köşesindeki hücrenin sütun dizini.|
 | base_field_name | str | PivotTable.BaseFields içindeki PivotField'ın adı|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -203,14 +203,14 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | row | int | Dilimleyici aralığının sol üst köşesindeki hücrenin satır dizini.|
 | column | int | Dilimleyici aralığının sol üst köşesindeki hücrenin sütun dizini.|
 | base_field_index | int | PivotTable.BaseFields içindeki PivotField dizini|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -234,14 +234,14 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable nesnesi|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable nesnesi|
 | row | int | Dilimleyici aralığının sol üst köşesindeki hücrenin satır dizini.|
 | column | int | Dilimleyici aralığının sol üst köşesindeki hücrenin sütun dizini.|
 | base_field | aspose.cells.pivot.PivotField | PivotTable.BaseFields içindeki PivotField|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -265,14 +265,14 @@ def add(self, table, list_column, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | ListObject nesnesi|
 | list_column | aspose.cells.tables.ListColumn | ListObject.ListColumns içindeki ListColumn|
 | row | int | Dilimleyici aralığının sol üst köşesindeki hücrenin satır dizini.|
 | column | int | Dilimleyici aralığının sol üst köşesindeki hücrenin sütun dizini.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

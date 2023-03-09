@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count Eigentum
 
-Ruft die Gesamtseitenzahl der Arbeitsmappe ab.
+Ruft die Gesamtseitenanzahl von Arbeitsmappen ab.
 ###  Definition:
 ```python
 @property

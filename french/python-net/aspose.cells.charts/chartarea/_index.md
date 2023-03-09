@@ -28,12 +28,12 @@ Le type ChartArea expose les membres suivants :
 | [text_font](/cells/fr/python-net/aspose.cells.charts/chartarea/text_font) | Obtient un objet [ChartFrame.font](/cells/fr/python-net/aspose.cells.charts/chartframe#font) de l'objet ChartFrame spécifié.|
 | [text_options](/cells/fr/python-net/aspose.cells.charts/chartarea/text_options) | Obtient et définit les options du texte.|
 | [font](/cells/fr/python-net/aspose.cells.charts/chartarea/font) | Obtient un objet [ChartArea.font](/cells/fr/python-net/aspose.cells.charts/chartarea#font) de l'objet chartarea spécifié.|
-| [auto_scale_font](/cells/fr/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True si le texte de l'objet change de taille de police lorsque la taille de l'objet change. La valeur par défaut est Vrai.|
+| [auto_scale_font](/cells/fr/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True si le texte de l'objet change de taille de police lorsque la taille de l'objet change.|
 | [background_mode](/cells/fr/python-net/aspose.cells.charts/chartarea/background_mode) | Obtient et définit le mode d'affichage de l'arrière-plan|
 | [background](/cells/fr/python-net/aspose.cells.charts/chartarea/background) | Obtient et définit le mode d'affichage de l'arrière-plan|
 | [is_automatic_size](/cells/fr/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Indique si le cadre du graphique est dimensionné automatiquement.|
 | [x](/cells/fr/python-net/aspose.cells.charts/chartarea/x) | Obtient ou obtient le décalage horizontal à partir de sa colonne d'angle supérieur gauche.|
-| [y](/cells/fr/python-net/aspose.cells.charts/chartarea/y) | Obtient ou obtient le décalage vertical à partir de sa ligne de coin supérieur gauche.|
+| [y](/cells/fr/python-net/aspose.cells.charts/chartarea/y) |Obtient ou obtient le décalage vertical à partir de sa ligne de coin supérieur gauche.|
 | [height](/cells/fr/python-net/aspose.cells.charts/chartarea/height) | Obtient ou définit le décalage vertical à partir de sa ligne du coin inférieur droit.|
 | [width](/cells/fr/python-net/aspose.cells.charts/chartarea/width) | Obtient ou définit le décalage horizontal à partir de sa colonne d'angle inférieur droit.|
 | [shadow](/cells/fr/python-net/aspose.cells.charts/chartarea/shadow) | Vrai si le cadre a une ombre.|
@@ -52,7 +52,7 @@ Le type ChartArea expose les membres suivants :
 
 
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

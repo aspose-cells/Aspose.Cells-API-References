@@ -1,6 +1,6 @@
 ﻿---
 title: top_margin_pt 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 90
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## top_margin_pt 属性
 
-以点为单位返回顶部边距
+以 Points 为单位返回上边距
 ### 定义：
 ```python
 @property

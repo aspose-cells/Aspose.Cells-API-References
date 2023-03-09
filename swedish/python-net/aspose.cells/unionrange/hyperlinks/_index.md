@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hyperlinks fastighet
 
-Får alla hyperlänkar i intervallet.
+Får alla hyperlänkar i sortimentet.
 ###  Definition:
 ```python
 @property

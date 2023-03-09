@@ -10,7 +10,7 @@ is_root: false
 ##  null_string Eigentum
 
 Ruft die Zeichenfolge ab, die in Zellen angezeigt wird, die Nullwerte enthalten
-wenn die DisplayNullString-Eigenschaft wahr ist. Der Standardwert ist eine leere Zeichenfolge.
+wenn die DisplayNullString-Eigenschaft wahr ist.
 ###  Definition:
 ```python
 @property

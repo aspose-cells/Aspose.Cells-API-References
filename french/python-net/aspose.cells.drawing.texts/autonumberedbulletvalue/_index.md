@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
 ##  AutoNumberedBulletValue classe
-Représente une puce numérotée automatique.
+Représente des puces numérotées automatiquement.
 
 
 

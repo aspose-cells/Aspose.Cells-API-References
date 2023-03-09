@@ -18,9 +18,9 @@ def set_linked_cell(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| formula | str |Området kopplat till kontrollens värde.|
+| formula | str | Området kopplat till kontrollens värde.|
 | is_r1c1 | bool | Om formeln behöver formateras som R1C1.|
 | is_local | bool | Huruvida formeln behöver formateras efter språk.|
 

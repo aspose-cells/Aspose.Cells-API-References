@@ -19,7 +19,7 @@ Typen ExternalLink avslöjar följande medlemmar:
 | :- | :- |
 | [type](/cells/sv/python-net/aspose.cells/externallink/type) | Får typen av extern länk.|
 | [original_data_source](/cells/sv/python-net/aspose.cells/externallink/original_data_source) | Representerar lagrad datakälla för den externa länken.|
-| [data_source](/cells/sv/python-net/aspose.cells/externallink/data_source) |Representerar datakällan för den externa länken.|
+| [data_source](/cells/sv/python-net/aspose.cells/externallink/data_source) | Representerar datakällan för den externa länken.|
 | [is_referred](/cells/sv/python-net/aspose.cells/externallink/is_referred) | Anger om denna externa länk refereras av andra.|
 | [is_visible](/cells/sv/python-net/aspose.cells/externallink/is_visible) | Anger om denna externa länk är synlig i MS Excel.|
 

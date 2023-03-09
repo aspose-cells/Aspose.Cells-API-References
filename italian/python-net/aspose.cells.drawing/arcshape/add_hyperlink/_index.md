@@ -22,11 +22,11 @@ def add_hyperlink(self, address):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | address | str | Indirizzo del collegamento ipertestuale.|
 
-###  Esempio
+###  Esempi
 
 ```python
 

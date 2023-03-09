@@ -22,15 +22,15 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source_shape | [Shape](/cells/it/python-net/aspose.cells.drawing/shape) | Forma sorgente.|
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| top | int | Rappresenta l'offset verticale della casella di controllo dalla sua riga sinistra, in unità di pixel.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| top | int |Rappresenta l'offset verticale della casella di controllo dalla sua riga sinistra, in unità di pixel.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 | left | int | Rappresenta l'offset orizzontale della casella di testo dalla colonna di sinistra, in unità di pixel.|
 
-###  Esempio
+###  Esempi
 
 ```python
 

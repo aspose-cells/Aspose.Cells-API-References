@@ -18,7 +18,7 @@ def insert_columns(self, column_index, total_columns):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column_index | int | فهرس العمود.|
 | total_columns | int | عدد الأعمدة.|
@@ -35,11 +35,11 @@ def insert_columns(self, column_index, total_columns, update_reference):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | column_index | int | فهرس العمود.|
 | total_columns | int | عدد الأعمدة.|
-| update_reference | bool | يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
+| update_reference | bool |يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
 
 
 

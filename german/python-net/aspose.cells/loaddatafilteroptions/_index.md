@@ -17,7 +17,7 @@ Der Typ LoadDataFilterOptions macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| NONE |Laden Sie nichts für Blattdaten|
+| NONE | Laden Sie nichts für Blattdaten|
 | ALL | Alle laden|
 | CELL_BLANK | Wägezellen, deren Wert leer ist|
 | CELL_STRING | Wägezellen, deren Wert eine Zeichenfolge ist|
@@ -29,7 +29,7 @@ Der Typ LoadDataFilterOptions macht die folgenden Member verfügbar:
 | CELL_DATA | Wägezellendaten einschließlich Werte, Formeln und Formatierung|
 | CHART | Diagramme laden|
 | SHAPE | Formen laden|
-| DRAWING | Zeichenobjekte (einschließlich Diagramm, Bild, OleObject und alle anderen Zeichenobjekte)|
+| DRAWING | Zeichenobjekte (einschließlich Diagramme, Bilder, OleObjects und alle anderen Zeichenobjekte)|
 | MERGED_AREA | Verbundene Zellen laden|
 | CONDITIONAL_FORMATTING | Bedingte Formatierung laden|
 | DATA_VALIDATION | Datenvalidierungen laden|
@@ -37,13 +37,13 @@ Der Typ LoadDataFilterOptions macht die folgenden Member verfügbar:
 | TABLE | Tabellen laden|
 | HYPERLINKS | Hyperlinks laden|
 | SHEET_SETTINGS | Einstellungen für Arbeitsblatt laden|
-| SHEET_DATA | Laden Sie alle Daten des Arbeitsblatts, wie Zellendaten, Einstellungen, Objekte usw.|
-| BOOK_SETTINGS | Einstellungen für Arbeitsmappe laden|
-| SETTINGS |Einstellungen für Arbeitsmappe und Arbeitsblatt laden|
+| SHEET_DATA |Laden Sie alle Daten des Arbeitsblatts, wie Zellendaten, Einstellungen, Objekte usw.|
+| BOOK_SETTINGS | Einstellungen für Arbeitsmappen laden|
+| SETTINGS | Laden Sie Einstellungen für Arbeitsmappen und Arbeitsblätter|
 | XML_MAP | XmlMap laden|
 | STRUCTURE | Struktur der Arbeitsmappe laden|
 | DOCUMENT_PROPERTIES | Dokumenteigenschaften laden|
-| DEFINED_NAMES | Laden definierter Name-Objekte|
+| DEFINED_NAMES | Lädt definierte Namensobjekte|
 | VBA | Laden Sie VBA-Projekte|
 | STYLE | Laden Sie Stile für die Zellenformatierung|
 | PICTURE | Bilder laden|

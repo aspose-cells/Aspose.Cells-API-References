@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name fastighet
 
-Hämta och ställer in namnet på teckensnittet.
+Hämta och ställ in namnet på teckensnittet.
 ###  Definition:
 ```python
 @property

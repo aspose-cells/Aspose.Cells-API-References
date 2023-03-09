@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compliance mülk
 
-Çıktı belgesi için OOXML sürümünü belirtir. Varsayılan değer Ecma376_2006'dır.
+Çıktı belgesi için OOXML sürümünü belirtir.
 
 ###  Notlar
 

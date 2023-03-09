@@ -1,5 +1,5 @@
 ﻿---
-title: DateTimeGroupItem sınıf
+title: DateTimeGroupItem sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 450
 url: /tr/python-net/aspose.cells/datetimegroupitem/
 is_root: false
 ---
-##  DateTimeGroupItem sınıf
+##  DateTimeGroupItem sınıfı
 Datetime'ın grup ayarını temsil eder.
 
 

@@ -13,9 +13,9 @@ Gibt an, ob es sich bei der Form um Smart Art handelt.
 
 ###  Bemerkungen
 
-Nur für ooxml-Datei.
+Nur für ooxml-Dateien.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

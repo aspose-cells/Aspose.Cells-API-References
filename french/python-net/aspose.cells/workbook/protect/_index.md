@@ -18,7 +18,7 @@ def protect(self, protection_type, password):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | protection_type | [ProtectionType](/cells/fr/python-net/aspose.cells/protectiontype) | Type de protection.|
 | password | str | Mot de passe pour protéger le classeur.|

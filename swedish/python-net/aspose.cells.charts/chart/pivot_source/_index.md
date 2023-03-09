@@ -16,7 +16,7 @@ Om PivotSource inte är tomt är diagrammet PivotChart.
 
 Om pivottabellen "PivotTable1" i arbetsbladet "Sheet1" i filen "Book1.xls".
 PivotSource kan vara "[Book1.xls]Sheet1!PivotTable1" om diagrammet och pivottabellen inte finns i samma arbetsbok.
-Om du ställer in den här egenskapen försvinner den tidigare datakällsinställningen.
+Om du ställer in den här egenskapen kommer den tidigare datakällsinställningen att gå förlorad.
 ###  Definition:
 ```python
 @property

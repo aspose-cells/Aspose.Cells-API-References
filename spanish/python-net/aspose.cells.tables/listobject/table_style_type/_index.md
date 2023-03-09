@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  table_style_type propiedad
 
-Obtiene y el estilo de tabla integrado.
+Obtiene y el estilo de tabla incorporado.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

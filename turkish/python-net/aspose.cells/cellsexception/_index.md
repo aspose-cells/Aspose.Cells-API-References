@@ -1,5 +1,5 @@
 ﻿---
-title: CellsException sınıf
+title: CellsException sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 210
 url: /tr/python-net/aspose.cells/cellsexception/
 is_root: false
 ---
-##  CellsException sınıf
+##  CellsException sınıfı
 Aspose.Cells belirtilen hata oluştuğunda atılan istisna.
 
 

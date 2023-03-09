@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_protected_with_password fastighet
 
-Indikerar om kalkylbladen är skyddade med lösenord.
+Anger om kalkylbladen är skyddade med lösenord.
 ###  Definition:
 ```python
 @property

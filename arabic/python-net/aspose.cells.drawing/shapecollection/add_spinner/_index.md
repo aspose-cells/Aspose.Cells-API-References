@@ -22,16 +22,16 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| top | int | يمثل الإزاحة الرأسية لـ Spinner من صفه الأيسر ، بوحدة بكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| top | int |يمثل الإزاحة الرأسية لـ Spinner من صفه الأيسر ، بوحدة بكسل.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | left | int | يمثل الإزاحة الأفقية لـ Spinner من عمودها الأيسر ، بوحدة البكسل.|
 | height | int | يمثل ارتفاع Spinner بوحدة البكسل.|
 | width | int | يمثل عرض Spinner بوحدة البكسل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

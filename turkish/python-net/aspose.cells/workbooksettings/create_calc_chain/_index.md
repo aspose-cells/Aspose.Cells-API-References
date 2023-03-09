@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  create_calc_chain mülk
 
-Hesaplanmış formüller zinciri oluşturup oluşturmadığı. Varsayılan yanlıştır.
+Hesaplanmış formüller zinciri oluşturup oluşturmadığı. Varsayılan değer yanlıştır.
 
 ###  Notlar
 

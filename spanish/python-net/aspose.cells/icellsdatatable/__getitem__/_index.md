@@ -13,7 +13,7 @@ Obtiene los datos almacenados en la columna especificada por índice.
 ###  indexador
 | Nombre| Descripción|
 | :- | :- |
-| index |El índice de base cero de la columna.|
+| index | El índice de base cero de la columna.|
 
 
 

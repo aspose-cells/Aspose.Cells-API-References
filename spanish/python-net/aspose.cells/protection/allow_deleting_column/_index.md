@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  allow_deleting_column propiedad
 
-Representa si se permite la eliminación de columnas en una hoja de trabajo protegida.
+Representa si se permite la eliminación de columnas en una hoja de cálculo protegida.
 
 ###  Observaciones
 

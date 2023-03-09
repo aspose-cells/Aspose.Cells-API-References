@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_single_tab propiedad
 
-Indica si exportar la pestaña única cuando el archivo solo tiene una hoja de trabajo.
+Indica si exportar la pestaña única cuando el archivo solo tiene una hoja de cálculo.
 El valor predeterminado es falso.
 ###  Definición:
 ```python

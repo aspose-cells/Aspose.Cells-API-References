@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_
 is_root: false
 ---
 ##  get_on_category_axis_point_x_px(index) {#int}
-الحصول على تنسيق x للنقطة على محور الفئة بعد استدعاء طريقة Chart.Calculate (). ينطبق فقط على مخطط المنطقة.
+الحصول على إحداثي س للنقطة على محور الفئة بعد استدعاء طريقة Chart.Calculate (). ينطبق فقط على مخطط المنطقة.
 
 
 
@@ -18,7 +18,7 @@ def get_on_category_axis_point_x_px(self, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int |  |
 ###  ملاحظات

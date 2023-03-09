@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_referred fastighet
 
-Anger om detta namn refereras av andra formler.
+Anger om detta namn refereras till av andra formler.
 ###  Definition:
 ```python
 @property

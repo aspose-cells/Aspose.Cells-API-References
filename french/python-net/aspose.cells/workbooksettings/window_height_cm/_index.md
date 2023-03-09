@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_cm propriété
 
-La hauteur de la fenêtre, en centimètre.
+La hauteur de la fenêtre, en unités de centimètres.
 ###  Définition:
 ```python
 @property

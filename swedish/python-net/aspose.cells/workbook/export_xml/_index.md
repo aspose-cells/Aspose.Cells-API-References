@@ -18,7 +18,7 @@ def export_xml(self, map_name, path):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | map_name | str | namnet på XML-kartan som behöver exporteras|
 | path | str | exportvägen|
@@ -49,7 +49,7 @@ def export_xml(self, map_name, stream):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | map_name | str | namnet på XML-kartan som behöver exporteras|
 | stream | io.RawIOBase | exportströmmen|

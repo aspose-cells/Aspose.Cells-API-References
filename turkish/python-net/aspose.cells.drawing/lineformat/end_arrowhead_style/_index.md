@@ -11,7 +11,7 @@ is_root: false
 
 Satırın bitiş ok türünü alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import MsoArrowheadStyle

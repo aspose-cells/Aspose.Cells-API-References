@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_values_row propriété
 
-Spécifie une valeur booléenne qui indique si afficher la ligne des valeurs.
+Spécifie une valeur booléenne qui indique si afficher les valeurs de ligne.
 afficher la ligne des valeurs
 ###  Définition:
 ```python

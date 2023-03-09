@@ -35,10 +35,10 @@ Le type StyleFlag expose les membres suivants :
 | [font_size](/cells/fr/python-net/aspose.cells/styleflag/font_size) | Le paramètre de taille de police sera appliqué.|
 | [font_name](/cells/fr/python-net/aspose.cells/styleflag/font_name) | Le réglage du nom de la police sera appliqué.|
 | [font_color](/cells/fr/python-net/aspose.cells/styleflag/font_color) | Le paramètre de couleur de police sera appliqué.|
-| [font_bold](/cells/fr/python-net/aspose.cells/styleflag/font_bold) |Le paramètre de police en gras sera appliqué.|
+| [font_bold](/cells/fr/python-net/aspose.cells/styleflag/font_bold) | Le paramètre de police en gras sera appliqué.|
 | [font_italic](/cells/fr/python-net/aspose.cells/styleflag/font_italic) | Le réglage de la police en italique sera appliqué.|
 | [font_underline](/cells/fr/python-net/aspose.cells/styleflag/font_underline) | Le paramètre de soulignement de la police sera appliqué.|
-| [font_strike](/cells/fr/python-net/aspose.cells/styleflag/font_strike) | Le réglage de la police barrée sera appliqué.|
+| [font_strike](/cells/fr/python-net/aspose.cells/styleflag/font_strike) |Le réglage de la police barrée sera appliqué.|
 | [font_script](/cells/fr/python-net/aspose.cells/styleflag/font_script) | Le paramètre de script de police sera appliqué.|
 | [number_format](/cells/fr/python-net/aspose.cells/styleflag/number_format) | Le paramètre de format numérique sera appliqué.|
 | [alignments](/cells/fr/python-net/aspose.cells/styleflag/alignments) | Le paramètre d'alignement sera appliqué.|

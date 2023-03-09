@@ -18,9 +18,9 @@ CellValueFormatStrategy türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | NONE | biçimlendirilmemiş.|
-| CELL_STYLE |Yalnızca hücrenin orijinal stiliyle biçimlendirilmiştir.|
+| CELL_STYLE | Yalnızca hücrenin orijinal stiliyle biçimlendirilmiştir.|
 | DISPLAY_STYLE | Hücrenin görüntülenen stiliyle biçimlendirilmiştir.|
-| DISPLAY_STRING | MS Excel'de gösterilen görüntülenen dizeyi alır.<br/>[CellValueFormatStrategy.DISPLAY_STYLE](/cells/tr/python-net/aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE)'den temel farkı, bu seçeneğin sütun genişliği etkisini de dikkate almasıdır.<br/>Sütun genişliği, biçimlendirilmiş dizeyi tamamen gösteremeyecek kadar küçükse,<br/> MS Excel'in yaptığı gibi "#" gösterilebilir.|
+| DISPLAY_STRING | MS Excel'de gösterilen görüntülenen dizeyi alır.<br/>[CellValueFormatStrategy.DISPLAY_STYLE](/cells/tr/python-net/aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE)'den temel farkı, bu seçeneğin sütun genişliği etkisini de dikkate almasıdır.<br/>Sütun genişliği, biçimlendirilmiş dizeyi tamamen gösteremeyecek kadar küçükse,<br/>MS Excel'in yaptığı gibi "#" gösterilebilir.|
 
 
 

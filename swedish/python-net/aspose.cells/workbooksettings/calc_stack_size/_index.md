@@ -16,7 +16,7 @@ Om användaren får StackOverflowException vid beräkning av formler, bör detta
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Använd istället CalculationOptions
+OBS: Denna medlem är nu föråldrad.
 med den angivna CalcStackSize vid beräkning av formler.
  Den här egenskapen kommer att tas bort 12 månader senare sedan februari 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

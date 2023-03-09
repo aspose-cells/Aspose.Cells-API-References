@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/colortype/
 is_root: false
 ---
 ##  العد ColorType
-يمثل كل أنواع الألوان
+يمثل جميع أنواع الألوان
 
 
 
@@ -18,10 +18,10 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | AUTOMATIC | لون تلقائي.|
-| AUTOMATIC_INDEX | إنه لون تلقائي ، لكن اللون المعروض يعتمد على إعداد نظام OS.|
+| AUTOMATIC_INDEX | إنه لون تلقائي ، لكن اللون المعروض يعتمد على إعداد نظام التشغيل.|
 | RGB | لون RGB.|
 | INDEXED_COLOR | مؤشر اللون في لوحة الألوان.|
-| THEME | لون المظهر.|
+| THEME | لون الموضوع.|
 
 
 

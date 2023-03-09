@@ -22,14 +22,14 @@ def find_formula_contains(self, formula, previous_cell):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | formula | str | Формула для поиска.|
-| previous_cell | [Cell](/cells/ru/python-net/aspose.cells/cell) | Предыдущая ячейка с той же формулой. Этот параметр может быть установлен равным нулю, если поиск выполняется с самого начала.|
+| previous_cell | [Cell](/cells/ru/python-net/aspose.cells/cell) |Предыдущая ячейка с той же формулой. Для этого параметра можно установить значение null, если поиск выполняется с самого начала.|
 ###  Примечания
 
 Возвращает null (ничего), если ячейка не найдена.
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
+ ПРИМЕЧАНИЕ. Этот элемент устарел.
 используйте метод Cells.Find(object,Cell,FindOptions) с LookInType как LookInType.OnlyFormulas
  и LookAtType как LookAtType.Contains.
  Этот участник будет удален через 12 месяцев с ноября 2018 года.

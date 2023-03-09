@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value mülk
 
-Belirtilen bir grafiğin veri etiketi değerlerinin görüntülenme davranışını temsil eder. True değerleri görüntüler. Gizlemek için yanlış.
+Belirli bir grafiğin veri etiketi değerlerini görüntüleme davranışını temsil eder.True değerleri görüntüler.False gizlemek için.
 ###  Tanım:
 ```python
 @property

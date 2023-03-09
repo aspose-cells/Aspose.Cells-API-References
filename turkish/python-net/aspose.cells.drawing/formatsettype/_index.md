@@ -17,7 +17,7 @@ FormatSetType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| NONE |Doldurma biçimi yok.|
+| NONE | Doldurma biçimi yok.|
 | IS_GRADIENT_SET | Degrade dolgu formatı.|
 | IS_TEXTURE_SET | Doku dolgu formatı.|
 | IS_PATTERN_SET | Desen dolgu formatı.|

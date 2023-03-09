@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.pivot/pivottable/format_all/
 is_root: false
 ---
 ##  format_all(style) {#Style}
-Formater toutes les cellules dans la zone de tableau croisé dynamique
+Mettre en forme toutes les cellules dans la zone du tableau croisé dynamique
 
 
 
@@ -18,7 +18,7 @@ def format_all(self, style):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | Style à mettre en forme|
 

@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [DocumentProperty](/cells/de/python-net/aspose.cells.properties/documentproperty) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [DocumentProperty](/cells/de/python-net/aspose.cells.properties/documentproperty) | Das zu lokalisierende System.Objekt.|
 
 
 

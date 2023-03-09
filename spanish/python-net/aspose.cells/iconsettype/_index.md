@@ -30,7 +30,7 @@ El tipo IconSetType expone los siguientes miembros:
 | ARROWS4 | Conjunto de iconos de 4 flechas.|
 | ARROWS_GRAY4 | Conjunto de iconos de 4 flechas grises.|
 | RATING4 | Conjunto de iconos de 4 calificaciones.|
-| RED_TO_BLACK4 | 4 conjunto de iconos 'rojo a negro'.|
+| RED_TO_BLACK4 | conjunto de iconos 'rojo a negro'.|
 | TRAFFIC_LIGHTS4 | Conjunto de iconos de 4 semáforos.|
 | ARROWS5 | Conjunto de iconos de 5 flechas.|
 | ARROWS_GRAY5 | Conjunto de iconos de 5 flechas grises.|
@@ -41,8 +41,8 @@ El tipo IconSetType expone los siguientes miembros:
 | TRIANGLES3 | 3 triángulos conjunto|
 | NONE | Ninguno|
 | CUSTOM_SET | Conjunto personalizado.<br/> Este elemento es de solo lectura.|
-| SMILIES3 | 3 caritas.<br/> Solo para .ods.|
-| COLOR_SMILIES3 | Emoticones de 3 colores.<br/> Solo para .ods.|
+| SMILIES3 | 3 sonrisas.<br/> Solo para .ods.|
+| COLOR_SMILIES3 | Sonrisas de 3 colores.<br/> Solo para .ods.|
 
 
 

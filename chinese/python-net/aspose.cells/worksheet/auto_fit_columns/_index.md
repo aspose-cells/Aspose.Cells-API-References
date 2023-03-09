@@ -1,6 +1,6 @@
 ﻿---
 title: auto_fit_columns方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -31,7 +31,7 @@ def auto_fit_columns(self, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/zh/python-net/aspose.cells/autofitteroptions) |自动拟合选项|
 
@@ -47,7 +47,7 @@ def auto_fit_columns(self, first_column, last_column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | first_column | int |第一列索引。|
 | last_column | int |最后一列索引。|
@@ -67,7 +67,7 @@ def auto_fit_columns(self, first_column, last_column, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | first_column | int |第一列索引。|
 | last_column | int |最后一列索引。|
@@ -88,7 +88,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | first_row | int |第一行索引。|
 | first_column | int |第一列索引。|
@@ -110,7 +110,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column, optio
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | first_row | int |第一行索引。|
 | first_column | int |第一列索引。|

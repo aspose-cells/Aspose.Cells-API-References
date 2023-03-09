@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  connection_id Eigentum
 
-Gibt den eindeutigen Bezeichner dieser Verbindung an.
+Gibt die eindeutige Kennung dieser Verbindung an.
 ###  Definition:
 ```python
 @property

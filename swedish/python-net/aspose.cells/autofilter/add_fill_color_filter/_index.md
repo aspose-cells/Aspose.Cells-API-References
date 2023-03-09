@@ -18,7 +18,7 @@ def add_fill_color_filter(self, field_index, pattern, foreground_color, backgrou
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | field_index | int | Heltalsoffset för fältet som du vill basera filtret på<br/> (från vänster i listan; fältet längst till vänster är fält 0).|
 | pattern | [BackgroundType](/cells/sv/python-net/aspose.cells/backgroundtype) | Bakgrundsmönstertypen.|

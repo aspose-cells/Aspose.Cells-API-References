@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  store_name fastighet
 
-Hämtar och ställer in instansen av marknadsplatsen där Office-tillägget är lagrat. .
+Hämtar och ställer in instansen av marknadsplatsen där Office-tillägget är lagrat.
 ###  Definition:
 ```python
 @property

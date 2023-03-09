@@ -18,7 +18,7 @@ Typen LineSpaceSizeType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | PERCENTAGE | Representerar i enhet av en procentandel av textstorleken.|
-| POINTS | Representerar i poängenhet.|
+| POINTS | Representerar i poängenheter.|
 
 
 

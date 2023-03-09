@@ -22,7 +22,7 @@ def add_registered_reference(self, name, libid):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom de référence.|
 | libid | str | L'identifiant d'une bibliothèque de types Automation.|

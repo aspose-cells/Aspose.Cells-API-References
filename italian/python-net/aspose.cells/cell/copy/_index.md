@@ -18,7 +18,7 @@ def copy(self, cell):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | cell | [Cell](/cells/it/python-net/aspose.cells/cell) | Fonte [Cell](/cells/it/python-net/aspose.cells/cell) oggetto.|
 

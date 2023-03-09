@@ -26,12 +26,12 @@ def add_list_box(self, upper_left_row, top, upper_left_column, left, height, wid
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
 | top | int | Stellt den vertikalen Versatz von ListBox von seiner linken Zeile in Pixeleinheiten dar.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Stellt den horizontalen Versatz von ListBox von seiner linken Spalte in Pixeleinheiten dar.|
 | height | int | Repräsentiert die Höhe von ListBox in Pixeleinheiten.|
-| width | int |Stellt die Breite von ListBox in Pixeleinheiten dar.|
+| width | int | Stellt die Breite von ListBox in Pixeleinheiten dar.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

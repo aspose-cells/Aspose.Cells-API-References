@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.pivot/pivottable/calculate_data/
 is_root: false
 ---
 ##  calculate_data() {#}
-Pivottable'ın verilerini hücrelere göre hesaplar.
+Pivot tablonun verilerini hücrelere göre hesaplar.
 
 
 

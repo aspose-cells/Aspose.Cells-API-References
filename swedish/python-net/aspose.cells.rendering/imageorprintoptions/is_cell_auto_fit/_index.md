@@ -14,7 +14,7 @@ Standardvärdet är falskt.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
 använd [Worksheet.auto_fit_columns()](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns) och [Worksheet.auto_fit_rows()](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_rows).
  Den här egenskapen kommer att tas bort 12 månader senare sedan augusti 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

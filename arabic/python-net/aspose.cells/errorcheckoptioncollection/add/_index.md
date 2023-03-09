@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/errorcheckoptioncollection/add/
 is_root: false
 ---
 ##  add() {#}
-إضافة خيار التحقق من الخطأ.
+أضف خيار التحقق من الخطأ.
 
 
 ###  عائدات

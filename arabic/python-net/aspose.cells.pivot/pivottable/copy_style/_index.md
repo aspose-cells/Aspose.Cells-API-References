@@ -18,9 +18,9 @@ def copy_style(self, pivot_table):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/ar/python-net/aspose.cells.pivot/pivottable) | الجدول المحوري المصدر.|
+| pivot_table | [PivotTable](/cells/ar/python-net/aspose.cells.pivot/pivottable) |الجدول المحوري المصدر.|
 
 
 

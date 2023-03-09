@@ -22,7 +22,7 @@ def register_add_in_function(self, id, function_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | id | int | Eklenti işlevleri içeren verilerin kimliği,<br/> aynı eklenti dosyası için [WorksheetCollection.register_add_in_function(add_in_file, function_name, lib)](/cells/tr/python-net/aspose.cells/worksheetcollection/register_add_in_function)'in ilk araması ile alınabilir.|
 | function_name | str | eklenti işlevi adı|
@@ -34,7 +34,7 @@ def register_add_in_function(self, id, function_name):
 
 ###  İadeler
 
-Verilen eklenti işlevini içeren verilerin kimliği
+Belirli bir eklenti işlevini içeren verilerin kimliği
 
 
 ```python
@@ -43,7 +43,7 @@ def register_add_in_function(self, add_in_file, function_name, lib):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | add_in_file | str | dosya eklenti işlevlerini içerir|
 | function_name | str | eklenti işlevi adı|

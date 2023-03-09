@@ -22,7 +22,7 @@ def get_error_value_string(self, err):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | err | str | قيم خطأ مثل #VALUE! ، # NAME؟|
 

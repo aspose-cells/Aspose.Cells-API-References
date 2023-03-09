@@ -24,7 +24,7 @@ def get_display_style(self):
 
 ##  get_display_style(include_merged_borders) {#bool}
 Hücrenin görüntü stilini alır.
-Hücre koşullu biçimlendirilmişse, görüntüleme stili cell.GetStyle() ile aynı değildir.
+Hücre koşullu olarak biçimlendirilmişse, görüntüleme stili cell.GetStyle() ile aynı değildir.
 
 
 
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | include_merged_borders | bool | Birleştirilmiş hücrelerin sınırlarının kontrol edilip edilmediğini gösterir.|
 

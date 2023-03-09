@@ -28,7 +28,7 @@ Sowohl die Länge von borderStyles als auch von borderStyles muss 4 sein.
 Die Reihenfolge von borderStyles und borderStyles muss oben, unten, links, rechts sein
 
 ##  set_outline_borders(border_style, border_color) {#CellBorderType-aspose.pydrawing.Color}
-Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Farbe fest.
+Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Rahmenfarbe fest.
 
 
 

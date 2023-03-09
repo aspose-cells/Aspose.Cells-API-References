@@ -13,7 +13,7 @@ Aralığın name'ini alır veya ayarlar.
 
 ###  Notlar
 
-Adlandırılmış aralık desteklenir. Örneğin,
+Adlandırılmış aralık desteklenir.
 
 range.Name = "Sayfa1!Aralığım";
 ###  Tanım:

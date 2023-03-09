@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen dilimleyicideki sütun sayısını döndürür veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

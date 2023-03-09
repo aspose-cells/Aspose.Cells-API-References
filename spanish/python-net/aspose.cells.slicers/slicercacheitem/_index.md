@@ -18,7 +18,7 @@ El tipo SlicerCacheItem expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [selected](/cells/es/python-net/aspose.cells.slicers/slicercacheitem/selected) | Especifica si SlicerItem está seleccionado o no.|
-| [value](/cells/es/python-net/aspose.cells.slicers/slicercacheitem/value) |Devuelve el texto de la etiqueta del elemento de segmentación. Solo lectura.|
+| [value](/cells/es/python-net/aspose.cells.slicers/slicercacheitem/value) | Devuelve el texto de la etiqueta del elemento de segmentación.|
 
 
 

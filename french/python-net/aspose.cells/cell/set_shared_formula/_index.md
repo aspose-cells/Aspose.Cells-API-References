@@ -18,10 +18,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | shared_formula | str | Formule partagée.|
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 ###  Remarques
 
@@ -39,10 +39,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | shared_formula | str | Formule partagée.|
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 | options | [FormulaParseOptions](/cells/fr/python-net/aspose.cells/formulaparseoptions) | Options d'analyse de la formule.|
 
@@ -58,16 +58,16 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | shared_formula | str | Formule partagée.|
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 | is_r1c1 | bool | si la formule est la formule R1C1|
 | is_local | bool | si la formule est au format local|
 ###  Remarques
 
-REMARQUE : Cette classe est désormais obsolète. Plutôt,
+REMARQUE : Cette classe est désormais obsolète.
 veuillez utiliser Cell.SetSharedFormula(string,int,int,FormulaParseOptions).
 Cette propriété sera supprimée 12 mois plus tard depuis décembre 2019.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
@@ -83,10 +83,10 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | shared_formula | str | Formule partagée.|
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 | options | [FormulaParseOptions](/cells/fr/python-net/aspose.cells/formulaparseoptions) | Options d'analyse de la formule.|
 | values | list | valeurs pour les cellules avec une formule partagée donnée|

@@ -11,7 +11,7 @@ is_root: false
 
 Gerçek alt sırayı alın.
 
-###  Örnek
+###  örnekler
 
 ```python
 

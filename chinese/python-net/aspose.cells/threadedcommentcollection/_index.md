@@ -1,13 +1,13 @@
 ﻿---
 title: ThreadedCommentCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1470
 url: /zh/python-net/aspose.cells/threadedcommentcollection/
 is_root: false
 ---
-##  ThreadedCommentCollection类
+## ThreadedCommentCollection类
 表示线程评论列表。
 
 

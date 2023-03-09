@@ -18,9 +18,9 @@ def set_text_effect(self, effect):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| effect | [MsoPresetTextEffect](/cells/tr/python-net/aspose.cells.drawing/msopresettexteffect) |Önceden ayarlanmış metin efekti.|
+| effect | [MsoPresetTextEffect](/cells/tr/python-net/aspose.cells.drawing/msopresettexteffect) | Önceden ayarlanmış metin efekti.|
 
 
 

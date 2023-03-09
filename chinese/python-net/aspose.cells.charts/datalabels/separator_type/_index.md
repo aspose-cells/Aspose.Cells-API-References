@@ -1,6 +1,6 @@
 ﻿---
 title: separator_type 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 340
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-要设置自定义分隔符，请将属性 [DataLabels.separator_type](/cells/zh/python-net/aspose.cells.charts/datalabels#separator_type) 设置为 [DataLabelsSeparatorType.CUSTOM](/cells/zh/python-net/aspose.cells.charts/datalabelsseparatortype#CUSTOM)，然后指定 [DataLabels.separator_value](/cells/zh/python-net/aspose.cells.charts/datalabels#separator_value) 的期望值。
+要设置自定义分隔符，请将属性 [DataLabels.separator_type](/cells/zh/python-net/aspose.cells.charts/datalabels#separator_type) 设置为 [DataLabelsSeparatorType.CUSTOM](/cells/zh/python-net/aspose.cells.charts/datalabelsseparatortype#CUSTOM)，然后指定 [DataLabels.separator_value](/cells/zh/python-net/aspose.cells.charts/datalabels#separator_value) 的预期值。
 ### 定义：
 ```python
 @property

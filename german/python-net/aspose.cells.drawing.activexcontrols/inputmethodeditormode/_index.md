@@ -19,8 +19,8 @@ Der Typ InputMethodEditorMode macht die folgenden Member verfügbar:
 | :- | :- |
 | NO_CONTROL |Steuert IME nicht.|
 | ON | IME an.|
-| OFF | IME aus. Englischer Modus.|
-| DISABLE | IME aus. Der Benutzer kann IME nicht über die Tastatur aktivieren.|
+| OFF | IME aus Englischer Modus.|
+| DISABLE | IME deaktiviert. Der Benutzer kann IME nicht über die Tastatur aktivieren.|
 | HIRAGANA | IME eingeschaltet mit Hiragana-Modus in voller Breite.|
 | KATAKANA | IME eingeschaltet mit Katakana-Modus in voller Breite.|
 | KATAKANA_HALF | IME eingeschaltet mit Katakana-Modus mit halber Breite.|

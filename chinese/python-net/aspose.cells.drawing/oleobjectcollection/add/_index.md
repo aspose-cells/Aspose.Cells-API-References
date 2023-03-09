@@ -1,6 +1,6 @@
 ﻿---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -22,11 +22,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | upper_left_row | int |左上行索引。|
 | upper_left_column | int |左上列索引。|
-| height | int |oleObject 的高度，以像素为单位。|
+| height | int | oleObject 的高度，以像素为单位。|
 | width | int | oleObject 的宽度，以像素为单位。|
 | image_data | bytes | ole 对象的图像作为字节数组。|
 
@@ -46,11 +46,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | upper_left_row | int |左上行索引。|
 | upper_left_column | int |左上列索引。|
-| height | int |oleObject 的高度，以像素为单位。|
+| height | int | oleObject 的高度，以像素为单位。|
 | width | int | oleObject 的宽度，以像素为单位。|
 | image_data | bytes | ole 对象的图像作为字节数组。|
 | linked_file | str |  |

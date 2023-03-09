@@ -22,7 +22,7 @@ def add(self, file_name, sheet_names):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | file_name | str | Внешнее имя файла.|
 | sheet_names | list | Все имена листов внешнего файла.|
@@ -43,9 +43,9 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| directory_type | [DirectoryType](/cells/ru/python-net/aspose.cells/directorytype) | Тип каталога имени файла.|
+| directory_type | [DirectoryType](/cells/ru/python-net/aspose.cells/directorytype) |Тип каталога имени файла.|
 | file_name | str | имя файла.|
 | sheet_names | list | Все имена листов внешнего файла.|
 

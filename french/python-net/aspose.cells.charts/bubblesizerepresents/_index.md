@@ -17,7 +17,7 @@ Le type BubbleSizeRepresents expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| SIZE_IS_AREA | Représente la valeur de [Series.bubble_sizes](/cells/fr/python-net/aspose.cells.charts/series#bubble_sizes) dans la zone de la bulle.|
+| SIZE_IS_AREA | Représente la valeur de [Series.bubble_sizes](/cells/fr/python-net/aspose.cells.charts/series#bubble_sizes) est la zone de la bulle.|
 | SIZE_IS_WIDTH | Représente la valeur de [Series.bubble_sizes](/cells/fr/python-net/aspose.cells.charts/series#bubble_sizes) est la largeur de la bulle.|
 
 

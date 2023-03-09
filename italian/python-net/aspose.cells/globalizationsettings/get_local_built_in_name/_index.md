@@ -13,7 +13,7 @@ Ottiene il testo dipendente dalle impostazioni locali per il nome incorporato in
 
 ###  ritorna
 
-Testo dipendente dalla lingua. Le impostazioni locali sono state specificate dalla cartella di lavoro per cui vengono utilizzate queste impostazioni.
+Testo dipendente dalla lingua.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_local_built_in_name(self, standard_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| standard_name | str | Testo standard (en-US locale) del nome incorporato.|
+| standard_name | str | Testo standard (en-US locale) del nome integrato.|
 
 
 

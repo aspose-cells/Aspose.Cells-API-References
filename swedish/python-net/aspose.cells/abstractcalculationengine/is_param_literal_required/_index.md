@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_param_literal_required fastighet
 
-Indikerar om denna motor behöver den bokstavliga texten av parametern när den gör beräkningar. Standardvärdet är falskt.
+Indikerar om denna motor behöver den bokstavliga texten i parametern när den gör beräkning. Standardvärdet är falskt.
 
 ###  Anmärkningar
 

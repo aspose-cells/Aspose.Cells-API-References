@@ -22,9 +22,9 @@ def custom_print(self, next_page_after_print, print_page_event_args):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| next_page_after_print | bool |true ise, yazıcı mevcut sayfayı yazdırdıktan sonra bir sonraki sayfaya gidecektir|
+| next_page_after_print | bool | true ise, yazıcı mevcut sayfayı yazdırdıktan sonra bir sonraki sayfaya gidecektir|
 | print_page_event_args | aspose.pydrawing.printing.PrintPageEventArgs | System.Drawing.Printing.PrintPageEventArgs |
 
 

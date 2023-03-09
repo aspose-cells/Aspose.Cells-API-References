@@ -30,12 +30,12 @@ FontUnderlineType türü aşağıdaki üyeleri gösterir:
 | DASH_LONG_HEAVY | Kalın Uzun Kesik Alt Çizgiyi Temsil Eder|
 | DOT_DASH | Dash-Nokta Alt Çizgiyi Temsil Eder|
 | DOT_DOT_DASH | Tire-Nokta-Nokta Alt Çizgisini Temsil Eder|
-| DOTTED | Noktalı Alt Çizgiyi Temsil Eder|
+| DOTTED |Noktalı Alt Çizgiyi Temsil Eder|
 | DOTTED_HEAVY | Kalın Noktalı Alt Çizgiyi Temsil Eder|
 | HEAVY | Kalın Alt Çizgiyi Temsil Eder|
 | WAVE | Wave Underline'ı Temsil Eder|
 | WAVY_DOUBLE | Çift Dalga Alt Çizgiyi Temsil Eder|
-| WAVY_HEAVY |Ağır Dalga Altı Çizgisini Temsil Eder|
+| WAVY_HEAVY | Ağır Dalga Altı Çizgisini Temsil Eder|
 | WORDS | Yalnızca Altı Çizili Boşluk Olmayan Karakterleri Temsil Eder|
 
 

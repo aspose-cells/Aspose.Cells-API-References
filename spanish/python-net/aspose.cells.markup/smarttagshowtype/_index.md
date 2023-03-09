@@ -18,7 +18,7 @@ El tipo SmartTagShowType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | ALL | Indica que las etiquetas inteligentes están habilitadas y se muestran|
-| NO_SMART_TAG_INDICATOR | Indica que las etiquetas inteligentes están habilitadas pero el indicador no se muestra.|
+| NO_SMART_TAG_INDICATOR | Indica que las etiquetas inteligentes están habilitadas pero no se muestra el indicador.|
 | NONE | Indica que las etiquetas inteligentes están deshabilitadas y no se muestran.|
 
 

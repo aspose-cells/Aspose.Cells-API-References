@@ -153,12 +153,12 @@ Typen AutoShapeType avslöjar följande medlemmar:
 | FLOW_CHART_DISPLAY |  |
 | FLOW_CHART_DELAY |  |
 | TEXT_PLAIN_TEXT | En vanlig textform.|
-| TEXT_STOP |En åttakantig textform.|
+| TEXT_STOP | En åttakantig textform.|
 | TEXT_TRIANGLE | En triangulär textform som pekar uppåt.|
 | TEXT_TRIANGLE_INVERTED | En triangulär textform som pekar nedåt.|
 | TEXT_CHEVRON | En chevrontextform som pekar uppåt.|
 | TEXT_CHEVRON_INVERTED | En chevrontextform som pekar nedåt.|
-| TEXT_RING_INSIDE | En cirkulär textform, som om man läser en inskription på insidan av en ring.|
+| TEXT_RING_INSIDE |En cirkulär textform, som om man läser en inskription på insidan av en ring.|
 | TEXT_RING_OUTSIDE | En cirkulär textform, som om man läser en inskription på utsidan av en ring.|
 | TEXT_ARCH_UP_CURVE | En uppåtbågande böjd textform.|
 | TEXT_ARCH_DOWN_CURVE | En nedåtbågande böjd textform.|
@@ -177,13 +177,13 @@ Typen AutoShapeType avslöjar följande medlemmar:
 | TEXT_DOUBLE_WAVE1 | En vågig textform.|
 | TEXT_DOUBLE_WAVE2 | En vågig textform.|
 | TEXT_INFLATE | En textform som expanderar vertikalt i mitten.|
-| TEXT_DEFLATE |En textform som krymper vertikalt på mitten.|
+| TEXT_DEFLATE | En textform som krymper vertikalt på mitten.|
 | TEXT_INFLATE_BOTTOM | En textform som expanderar nedåt i mitten.|
 | TEXT_DEFLATE_BOTTOM | En textform som krymper uppåt i mitten.|
 | TEXT_INFLATE_TOP | En textform som expanderar uppåt i mitten.|
 | TEXT_DEFLATE_TOP | En textform som krymper nedåt i mitten.|
-| TEXT_DEFLATE_INFLATE | En textform där nedre linjer expanderar uppåt. De övre linjerna krymper för att kompensera.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | En textform där linjer i mitten expanderar vertikalt. De övre och nedre linjerna krymper för att kompensera.|
+| TEXT_DEFLATE_INFLATE |En textform där nedre linjer expanderar uppåt. Övre linjer krymper för att kompensera.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | En textform där linjer i mitten expanderar vertikalt. Övre och nedre linjer krymper för att kompensera.|
 | TEXT_FADE_RIGHT | En textform som krymper vertikalt på höger sida.|
 | TEXT_FADE_LEFT | En textform som krymper vertikalt på vänster sida.|
 | TEXT_FADE_UP | En textform som krymper horisontellt ovanpå.|

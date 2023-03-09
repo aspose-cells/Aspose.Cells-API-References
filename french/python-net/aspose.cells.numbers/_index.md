@@ -16,8 +16,8 @@ is_root: false
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
-| [LoadNumbersTableType](/cells/fr/python-net/aspose.cells.numbers/loadnumberstabletype) | Indique le type de chargement des tables lorsque certaines tables sont dans une feuille.|
+| [LoadNumbersTableType](/cells/fr/python-net/aspose.cells.numbers/loadnumberstabletype) |Indique le type de chargement des tables lorsque certaines tables sont dans une feuille.|
 
 

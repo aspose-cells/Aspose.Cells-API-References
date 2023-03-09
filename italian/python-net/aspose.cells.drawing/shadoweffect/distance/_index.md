@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  distance proprietà
 
-Ottiene e imposta il numero distance dell'ombra. Intervallo da 0 a 200 punti.
+Ottiene e imposta il numero distance dell'ombra.Intervallo da 0 a 200 punti.
 ###  Definizione:
 ```python
 @property

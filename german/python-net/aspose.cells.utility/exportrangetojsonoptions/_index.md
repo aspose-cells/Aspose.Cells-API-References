@@ -26,7 +26,7 @@ Der Typ ExportRangeToJsonOptions macht die folgenden Member verfügbar:
 | [has_header_row](/cells/de/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row) | Gibt an, ob der Bereich eine Kopfzeile enthält.|
 | [export_as_string](/cells/de/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string) | Exportiert den Zeichenfolgenwert der Zellen nach json.|
 | [export_empty_cells](/cells/de/python-net/aspose.cells.utility/exportrangetojsonoptions/export_empty_cells) | Gibt an, ob leere Zellen als Null exportiert werden.|
-| [indent](/cells/de/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | Gibt den Einzug an.|
+| [indent](/cells/de/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | Zeigt den Index an.|
 
 
 

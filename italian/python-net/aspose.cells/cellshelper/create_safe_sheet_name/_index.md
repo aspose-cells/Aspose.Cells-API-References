@@ -11,7 +11,7 @@ is_root: false
 Controlla il nome del foglio specificato e ne crea uno valido quando necessario.
 Se il nome del foglio specificato è conforme alle regole del nome del foglio Excel, restituiscilo.
 Altrimenti la stringa verrà troncata se la lunghezza supera il limite
-i caratteri non validi verranno sostituiti con ' ', quindi restituiranno il valore della stringa ricostruita.
+e i caratteri non validi verranno sostituiti con ' ', quindi restituiranno il valore della stringa ricostruita.
 
 
 ###  ritorna
@@ -25,7 +25,7 @@ def create_safe_sheet_name(self, name_proposal):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name_proposal | str | nome del foglio da utilizzare|
 
@@ -34,7 +34,7 @@ def create_safe_sheet_name(self, name_proposal):
 Controlla il nome del foglio specificato e ne crea uno valido quando necessario.
 Se il nome del foglio specificato è conforme alle regole del nome del foglio Excel, restituiscilo.
 Altrimenti la stringa verrà troncata se la lunghezza supera il limite
-e i caratteri non validi verranno sostituiti con il carattere specificato, quindi restituiranno il valore della stringa ricostruita.
+i caratteri non validi verranno sostituiti con il carattere specificato, quindi restituiranno il valore della stringa ricostruita.
 
 
 ###  ritorna
@@ -48,7 +48,7 @@ def create_safe_sheet_name(self, name_proposal, replace_char):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | name_proposal | str | nome del foglio da utilizzare|
 | replace_char | char | carattere che verrà utilizzato per sostituire i caratteri non validi nel nome del foglio specificato|

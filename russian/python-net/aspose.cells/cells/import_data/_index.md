@@ -22,7 +22,7 @@ def import_data(self, table, first_row, first_column, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | table | [ICellsDataTable](/cells/ru/python-net/aspose.cells/icellsdatatable) | Пользовательская таблица данных.|
 | first_row | int | Индекс первой строки.|

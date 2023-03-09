@@ -18,11 +18,11 @@ def format(self, row, column, style):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| row | int |Riga Indice della cella|
+| row | int | Riga Indice della cella|
 | column | int | Indice di colonna della cella|
-| style | [Style](/cells/it/python-net/aspose.cells/style) | Stile che serve a formattare la cella|
+| style | [Style](/cells/it/python-net/aspose.cells/style) |Stile che serve a formattare la cella|
 
 
 

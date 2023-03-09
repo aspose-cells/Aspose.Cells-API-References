@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Form group ab, die diese Form enthält.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

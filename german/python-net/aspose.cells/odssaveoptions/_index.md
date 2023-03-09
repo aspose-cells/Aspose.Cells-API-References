@@ -36,12 +36,12 @@ Der Typ OdsSaveOptions macht die folgenden Member verfügbar:
 | [merge_areas](/cells/de/python-net/aspose.cells/odssaveoptions/merge_areas) | Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden sollen.|
 | [create_directory](/cells/de/python-net/aspose.cells/odssaveoptions/create_directory) | Wenn wahr und das Verzeichnis nicht existiert, wird das Verzeichnis automatisch erstellt, bevor die Datei gespeichert wird.|
 | [sort_names](/cells/de/python-net/aspose.cells/odssaveoptions/sort_names) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.|
-| [sort_external_names](/cells/de/python-net/aspose.cells/odssaveoptions/sort_external_names) | Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
-| [refresh_chart_cache](/cells/de/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) |Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
-| [warning_callback](/cells/de/python-net/aspose.cells/odssaveoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
+| [sort_external_names](/cells/de/python-net/aspose.cells/odssaveoptions/sort_external_names) |Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
+| [refresh_chart_cache](/cells/de/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) | Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
+| [warning_callback](/cells/de/python-net/aspose.cells/odssaveoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
 | [update_smart_art](/cells/de/python-net/aspose.cells/odssaveoptions/update_smart_art) | Gibt an, ob die SmartArt-Einstellung aktualisiert wird.<br/> Der Standardwert ist falsch.|
 | [generator_type](/cells/de/python-net/aspose.cells/odssaveoptions/generator_type) | Ruft den Generator der ods-Datei ab und legt ihn fest.|
-| [is_strict_schema11](/cells/de/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | Gibt an, ob die ods-Datei im ODF-Format Version 1.1 gespeichert werden soll. Standard ist falsch.|
+| [is_strict_schema11](/cells/de/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | Gibt an, ob die ods-Datei im ODF-Format Version 1.1 gespeichert werden soll. Der Standardwert ist „false“.|
 
 
 

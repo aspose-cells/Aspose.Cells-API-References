@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/imagesaveoptions/__init__/
 is_root: false
 ---
 ##  ImageSaveOptions() {#}
-Görüntü dosyasını kaydetme seçeneklerini oluşturur.
+Görüntü dosyalarını kaydetme seçeneklerini oluşturur.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  ImageSaveOptions(save_format) {#SaveFormat}
-Görüntü dosyasını kaydetme seçeneklerini oluşturur.
+Görüntü dosyalarını kaydetme seçeneklerini oluşturur.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Dosya biçimi.<br/> tiff veya svg olmalıdır.|
 

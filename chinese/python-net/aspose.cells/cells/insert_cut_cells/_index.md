@@ -1,6 +1,6 @@
 ﻿---
 title: insert_cut_cells方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 700
@@ -18,7 +18,7 @@ def insert_cut_cells(self, cut_range, row, column, shift_type):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | cut_range | [Range](/cells/zh/python-net/aspose.cells/range) |切割范围。|
 | row | int |该行。|

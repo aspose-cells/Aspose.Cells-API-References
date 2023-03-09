@@ -1,5 +1,5 @@
 ﻿---
-title: CellsHelper sınıf
+title: CellsHelper sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 230
 url: /tr/python-net/aspose.cells/cellshelper/
 is_root: false
 ---
-##  CellsHelper sınıf
+##  CellsHelper sınıfı
 Yardımcı işlevler sağlar.
 
 
@@ -19,7 +19,7 @@ CellsHelper türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [significant_digits](/cells/tr/python-net/aspose.cells/cellshelper/significant_digits) | Anlamlı basamak sayısını alır ve ayarlar.<br/> Varsayılan değer 17'dir.|
 | [dpi](/cells/tr/python-net/aspose.cells/cellshelper/dpi) | Makinenin DPI'sini alır.|
-| [startup_path](/cells/tr/python-net/aspose.cells/cellshelper/startup_path) | Bazı dış formül başvuruları tarafından başvurulan başlangıç yolunu alır veya ayarlar.|
+| [startup_path](/cells/tr/python-net/aspose.cells/cellshelper/startup_path) |Bazı dış formül başvuruları tarafından başvurulan başlangıç yolunu alır veya ayarlar.|
 | [alt_start_path](/cells/tr/python-net/aspose.cells/cellshelper/alt_start_path) | Bazı harici formül başvuruları tarafından başvurulan alternatif başlangıç yolunu alır veya ayarlar.|
 | [library_path](/cells/tr/python-net/aspose.cells/cellshelper/library_path) | Bazı dış formül başvuruları tarafından başvurulan kitaplık yolunu alır veya ayarlar.|
 | [custom_implementation_factory](/cells/tr/python-net/aspose.cells/cellshelper/custom_implementation_factory) | Özel uygulama ile örnekler oluşturmak için fabrikayı alır veya ayarlar.|
@@ -36,7 +36,7 @@ CellsHelper türü aşağıdaki üyeleri gösterir:
 | [cell_name_to_index(cell_name, row, column)](/cells/tr/python-net/aspose.cells/cellshelper/cell_name_to_index/#str-any-any) | Adına göre hücre satır ve sütun dizinlerini alır.|
 | [cell_index_to_name(row, column)](/cells/tr/python-net/aspose.cells/cellshelper/cell_index_to_name/#int-int) | Satır ve sütun indekslerine göre hücre adını alır.|
 | [column_index_to_name(column)](/cells/tr/python-net/aspose.cells/cellshelper/column_index_to_name/#int) | Sütun indeksine göre sütun adını alır.|
-| [column_name_to_index(column_name)](/cells/tr/python-net/aspose.cells/cellshelper/column_name_to_index/#str) | Sütun adına göre sütun dizini alır.|
+| [column_name_to_index(column_name)](/cells/tr/python-net/aspose.cells/cellshelper/column_name_to_index/#str) |Sütun adına göre sütun dizini alır.|
 | [row_index_to_name(row)](/cells/tr/python-net/aspose.cells/cellshelper/row_index_to_name/#int) | Satır dizinine göre satır adını alır.|
 | [row_name_to_index(row_name)](/cells/tr/python-net/aspose.cells/cellshelper/row_name_to_index/#str) | Satır adına göre satır indeksi alır.|
 | [convert_r1c1_formula_to_a1(r_1c1_formula, row, column)](/cells/tr/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/#str-int-int) | Hücrenin r1c1 formülünü A1 formülüne dönüştürür.|
@@ -46,7 +46,7 @@ CellsHelper türü aşağıdaki üyeleri gösterir:
 | [get_used_colors(workbook)](/cells/tr/python-net/aspose.cells/cellshelper/get_used_colors/#Workbook) | Çalışma kitabında kullanılan tüm renkleri alır.|
 | [add_add_in_function(function, min_count_of_parameters, max_count_of_parameters, paramers_type, function_value_type)](/cells/tr/python-net/aspose.cells/cellshelper/add_add_in_function/#str-int-int-list-ParameterType) | Eklenti işlevi ekleyin.|
 | [merge_files(files, cached_file, dest_file)](/cells/tr/python-net/aspose.cells/cellshelper/merge_files/#list-str-str) | Bazı büyük xls dosyalarını bir xls dosyasında birleştirir.|
-| [init_for_dot_net_core()](/cells/tr/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) |.NetCore programı için başlatma işlemini yapın.<br/> Tüm .NetCore başlatma işlemleri için önce bu yöntemi çağırmanızı öneririz.<br/>Örneğin:<br/>CellsHelper.InitForDotNetCore();<br/> Çalışma kitabı wb = yeni Çalışma Kitabı();|
+| [init_for_dot_net_core()](/cells/tr/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) | .NetCore programı için başlatma işlemini gerçekleştirin.<br/> Tüm .NetCore başlatma işlemleri için önce bu yöntemi çağırmanızı öneririz.<br/>Örneğin:<br/>CellsHelper.InitForDotNetCore();<br/> Çalışma kitabı wb = yeni Çalışma Kitabı();|
 
 
 

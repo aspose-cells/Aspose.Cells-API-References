@@ -18,11 +18,11 @@ def copy(self, range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range | [Range](/cells/es/python-net/aspose.cells/range) | Objeto de origen [Range](/cells/es/python-net/aspose.cells/range).|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook
@@ -52,7 +52,7 @@ def copy(self, range, options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range | [Range](/cells/es/python-net/aspose.cells/range) | El rango de la fuente.|
 | options | [PasteOptions](/cells/es/python-net/aspose.cells/pasteoptions) | Las opciones especiales de pegado.|

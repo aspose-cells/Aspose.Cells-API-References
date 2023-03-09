@@ -10,7 +10,7 @@ is_root: false
 ##  export_area proprietà
 
 Ottiene o imposta la CellArea di esportazione del foglio di lavoro attivo corrente.
-Se si imposta questo attributo, l'area di stampa del foglio di lavoro attivo corrente verrà omessa.
+Se imposti questo attributo, l'area di stampa del foglio di lavoro attivo corrente verrà omessa.
 Solo l'area specificata verrà esportata durante il salvataggio del file in html.
 ###  Definizione:
 ```python

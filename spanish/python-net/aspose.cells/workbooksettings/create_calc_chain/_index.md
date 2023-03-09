@@ -13,7 +13,7 @@ Si crea una cadena de fórmulas calculadas. El valor predeterminado es falso.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En su lugar, utilice FormulaSettings.EnableCalculationChain.
+NOTA: este miembro ahora está obsoleto. En su lugar, utilice FormulaSettings.EnableCalculationChain.
  Esta propiedad se eliminará 12 meses después desde febrero de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

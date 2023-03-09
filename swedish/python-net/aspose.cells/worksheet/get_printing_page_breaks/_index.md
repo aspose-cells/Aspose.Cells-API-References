@@ -13,7 +13,7 @@ Får automatiska sidbrytningar.
 
 ###  Returnerar
 
-Områden för automatiska sidbrytningar.
+De automatiska sidbrytningsområdena.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| options | aspose.cells.rendering.ImageOrPrintOptions |Utskriftsalternativen|
+| options | aspose.cells.rendering.ImageOrPrintOptions | Utskriftsalternativen|
 ###  Anmärkningar
 
 Varje cellområde representerar ett papper.

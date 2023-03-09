@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die Höhe jeder Zeile im angegebenen Slicer in Pixel zurück oder legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

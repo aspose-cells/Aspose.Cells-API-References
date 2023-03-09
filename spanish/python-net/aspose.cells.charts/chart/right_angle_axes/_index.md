@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_angle_axes propiedad
 
-Verdadero si los ejes del gráfico están en ángulo recto. Solo se aplica a gráficos 3D (excepto Column3D y gráficos circulares 3D).
+True si los ejes del gráfico están en ángulo recto. Se aplica solo a los gráficos 3D (excepto Column3D y gráficos circulares 3D).
 
 ###  Observaciones
 

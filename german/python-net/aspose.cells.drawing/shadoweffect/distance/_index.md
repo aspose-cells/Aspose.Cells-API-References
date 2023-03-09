@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  distance Eigentum
 
-Ruft die distance des Schattens ab und setzt sie. Bereich von 0 bis 200 Punkten.
+Ermittelt und setzt die distance des Schattens. Bereich von 0 bis 200 Punkten.
 ###  Definition:
 ```python
 @property

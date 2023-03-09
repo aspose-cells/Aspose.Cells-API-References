@@ -13,7 +13,7 @@ Obtiene la siguiente celda que se guardará.
 
 ###  Devoluciones
 
-índice de columna de la siguiente celda a guardar. -1 significa que se ha alcanzado el final de los datos de la fila actual y no se guardará ninguna celda más de la fila actual.
+-1 significa que se ha alcanzado el final de los datos de la fila actual y no se guardará ninguna celda más de la fila actual.
 
 
 ```python

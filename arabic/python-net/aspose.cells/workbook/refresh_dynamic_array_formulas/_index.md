@@ -19,7 +19,7 @@ def refresh_dynamic_array_formulas(self, calculate):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | calculate | bool | ما إذا كان يقوم بحساب وتحديث قيم الخلايا لصيغ الصفيف الديناميكية هذه أم لا|
 
@@ -35,7 +35,7 @@ def refresh_dynamic_array_formulas(self, calculate, copts):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | calculate | bool | ما إذا كان يقوم بحساب وتحديث قيم الخلايا لصيغ الصفيف الديناميكية هذه أم لا|
 | copts | [CalculationOptions](/cells/ar/python-net/aspose.cells/calculationoptions) | خيارات حساب الصيغ|

@@ -24,10 +24,10 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [workbook](/cells/ru/python-net/aspose.cells/workbookdesigner/workbook) | Получает и задает объект [WorkbookDesigner.workbook](/cells/ru/python-net/aspose.cells/workbookdesigner#workbook).|
-| [repeat_formulas_with_subtotal](/cells/ru/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Указывает, повторяются ли формулы со строкой промежуточных итогов.|
+| [workbook](/cells/ru/python-net/aspose.cells/workbookdesigner/workbook) |Получает и задает объект [WorkbookDesigner.workbook](/cells/ru/python-net/aspose.cells/workbookdesigner#workbook).|
+| [repeat_formulas_with_subtotal](/cells/ru/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Указывает, повторяются ли формулы со строками промежуточных итогов.|
 | [update_empty_string_as_null](/cells/ru/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | Если TRUE, Null будет вставлен, если значение равно "";|
-| [update_reference](/cells/ru/python-net/aspose.cells/workbookdesigner/update_reference) | Указывает, будут ли обновлены ссылки на других рабочих листах.|
+| [update_reference](/cells/ru/python-net/aspose.cells/workbookdesigner/update_reference) |Указывает, будут ли обновлены ссылки на других рабочих листах.|
 | [calculate_formula](/cells/ru/python-net/aspose.cells/workbookdesigner/calculate_formula) | Указывает, следует ли вычислять формулы.|
 | [call_back](/cells/ru/python-net/aspose.cells/workbookdesigner/call_back) | Получает и задает интерфейс обратного вызова обработки смартмаркера.|
 | [line_by_line](/cells/ru/python-net/aspose.cells/workbookdesigner/line_by_line) | Указывает, обрабатывается ли смарт-маркер построчно.|
@@ -46,7 +46,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook, WorkbookDesigner

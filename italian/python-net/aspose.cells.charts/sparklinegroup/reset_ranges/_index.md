@@ -19,7 +19,7 @@ def reset_ranges(self, data_range, is_vertical, location_range):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | data_range | str | Specifica il nuovo intervallo di dati del gruppo sparkline.|
 | is_vertical | bool | Specifica se tracciare i grafici sparkline dal nuovo intervallo di dati per riga o per colonna.|

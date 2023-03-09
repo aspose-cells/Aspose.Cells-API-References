@@ -14,7 +14,7 @@ Der Standardwert ist ReConnectionMethodType.Required.
 
 ###  Bemerkungen
 
- HINWEIS: Diese Eigenschaft ist jetzt veraltet. Stattdessen,
+ HINWEIS: Diese Eigenschaft ist jetzt veraltet.
 Bitte verwenden Sie die Eigenschaft ExternalConnection.ReconnectionMethodType.
  Diese Property wird 12 Monate später seit Oktober 2017 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

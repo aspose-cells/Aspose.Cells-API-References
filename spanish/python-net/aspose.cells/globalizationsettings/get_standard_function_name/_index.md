@@ -8,12 +8,12 @@ url: /es/python-net/aspose.cells/globalizationsettings/get_standard_function_nam
 is_root: false
 ---
 ##  get_standard_function_name(local_name) {#str}
-Obtiene el nombre de función estándar de acuerdo con el nombre de función dependiente de la configuración regional dado.
+Obtiene el nombre de función estándar de acuerdo con el nombre de función dependiente de la configuración regional dada.
 
 
 ###  Devoluciones
 
-Nombre de función estándar (en-US locale).
+Nombre de función estándar (en-US).
 
 
 ```python
@@ -22,9 +22,9 @@ def get_standard_function_name(self, local_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| local_name | str | Nombre de función dependiente de la configuración regional. La configuración regional fue especificada por el libro de trabajo para el que se utiliza esta configuración.|
+| local_name | str | Nombre de función dependiente de la configuración regional.|
 
 
 

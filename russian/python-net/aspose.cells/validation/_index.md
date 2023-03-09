@@ -24,7 +24,7 @@ is_root: false
 | [input_title](/cells/ru/python-net/aspose.cells/validation/input_title) | Представляет заголовок диалогового окна ввода данных для проверки данных.|
 | [error_message](/cells/ru/python-net/aspose.cells/validation/error_message) | Представляет сообщение об ошибке проверки данных.|
 | [error_title](/cells/ru/python-net/aspose.cells/validation/error_title) | Представляет заголовок диалогового окна ошибки проверки данных.|
-| [show_input](/cells/ru/python-net/aspose.cells/validation/show_input) | Указывает, будет ли отображаться входное сообщение проверки данных всякий раз, когда пользователь выбирает ячейку в диапазоне проверки данных.|
+| [show_input](/cells/ru/python-net/aspose.cells/validation/show_input) |Указывает, будет ли отображаться входное сообщение проверки данных всякий раз, когда пользователь выбирает ячейку в диапазоне проверки данных.|
 | [show_error](/cells/ru/python-net/aspose.cells/validation/show_error) | Указывает, будет ли отображаться сообщение об ошибке проверки данных всякий раз, когда пользователь вводит недопустимые данные.|
 | [ignore_blank](/cells/ru/python-net/aspose.cells/validation/ignore_blank) | Указывает, разрешены ли пустые значения проверкой данных диапазона.|
 | [formula1](/cells/ru/python-net/aspose.cells/validation/formula1) | Представляет значение или выражение, связанное с проверкой данных.|
@@ -55,7 +55,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import CellArea, OperatorType, ValidationType, Workbook

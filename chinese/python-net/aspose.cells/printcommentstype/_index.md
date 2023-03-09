@@ -1,13 +1,13 @@
 ﻿---
 title: PrintCommentsType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2370
 url: /zh/python-net/aspose.cells/printcommentstype/
 is_root: false
 ---
-##  PrintCommentsType枚举
+## PrintCommentsType枚举
 表示注释随工作表一起打印的方式。
 
 

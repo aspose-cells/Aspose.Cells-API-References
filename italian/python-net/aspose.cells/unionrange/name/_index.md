@@ -13,7 +13,7 @@ Ottiene o imposta name dell'intervallo.
 
 ###  Osservazioni
 
-L'intervallo denominato è supportato. Per esempio,
+L'intervallo denominato è supportato.
 
 range.Name = "Foglio1!MyRange";
 ###  Definizione:

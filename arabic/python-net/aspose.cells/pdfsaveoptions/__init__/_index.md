@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/pdfsaveoptions/__init__/
 is_root: false
 ---
 ##  PdfSaveOptions() {#}
-ينشئ خيارات لحفظ ملف pdf.
+ينشئ خيارات لحفظ ملفات pdf.
 
 
 

@@ -19,9 +19,9 @@ Der Typ BorderType macht die folgenden Member verfügbar:
 | :- | :- |
 | BOTTOM_BORDER | Stellt die untere Grenzlinie dar.|
 | DIAGONAL_DOWN | Stellt die Diagonale von links oben nach rechts unten dar.|
-| DIAGONAL_UP |Stellt die Diagonale von links unten nach rechts oben dar.|
+| DIAGONAL_UP | Stellt die Diagonale von links unten nach rechts oben dar.|
 | LEFT_BORDER | Repräsentiert die linke Grenzlinie.|
-| RIGHT_BORDER | Stellt dar, dass eine rechte Grenzlinie existiert.|
+| RIGHT_BORDER |Stellt dar, dass eine rechte Grenzlinie existiert.|
 | TOP_BORDER | Stellt die obere Grenzlinie dar.|
 | HORIZONTAL | Nur für dynamische Stile wie bedingte Formatierung.|
 | VERTICAL | Nur für dynamische Stile wie bedingte Formatierung.|

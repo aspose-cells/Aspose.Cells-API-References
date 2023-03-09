@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Numaralandırmalar
-| numaralandırma| Tanım|
+|numaralandırma| Tanım|
 | :- | :- |
 | [SqlScriptOperatorType](/cells/tr/python-net/aspose.cells.saving/sqlscriptoperatortype) | İşletim verilerinin türünü temsil eder.|
 

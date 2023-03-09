@@ -11,7 +11,7 @@ is_root: false
 
 Gibt eine [DocumentProperty](/cells/de/python-net/aspose.cells.properties/documentproperty)-Sammlung zurück, die alle benutzerdefinierten Dokumenteigenschaften der Tabelle darstellt.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

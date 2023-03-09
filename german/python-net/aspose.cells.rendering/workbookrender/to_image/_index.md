@@ -40,7 +40,7 @@ def to_image(self, filename):
 
 
 ##  to_image(page_index, file_name) {#int-str}
-Bestimmte Seite in eine Datei rendern.
+Bestimmte Seiten in eine Datei rendern.
 
 
 
@@ -57,7 +57,7 @@ def to_image(self, page_index, file_name):
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Bestimmte Seite in einem Stream rendern.
+Rendern Sie bestimmte Seiten in einen Stream.
 
 
 

@@ -31,9 +31,9 @@ def __init__(self, save_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kaydetme biçimi. xlsb olmalıdır.|
+| save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kayıt formatı xlsb olmalıdır.|
 ###  Notlar
 
 NOT: Bu yapıcı artık kullanılmıyor.

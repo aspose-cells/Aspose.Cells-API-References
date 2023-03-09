@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | le flux de l'image de sortie|
 
@@ -34,13 +34,13 @@ def to_tiff(self, filename):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | filename | str | le nom de fichier de l'image de sortie|
 
-###  Exemple
+###  Exemples
 
-Le code suivant sort toutes les pages de la première feuille en image Tiff.
+Le code suivant génère toutes les pages de la première feuille dans une image Tiff.
 
 ```python
 from aspose.cells import SaveFormat, Workbook

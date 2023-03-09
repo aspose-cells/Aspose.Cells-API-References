@@ -25,7 +25,7 @@ Typen HeaderFooterCommandType avslöjar följande medlemmar:
 | SHEET_NAME | Bladets namn|
 | FILE_NAME | Filnamn utan sökväg|
 | FILE_PATH | Filsökväg utan filnamn|
-| PICTURE | Bild|
+| PICTURE | Bilder|
 
 
 

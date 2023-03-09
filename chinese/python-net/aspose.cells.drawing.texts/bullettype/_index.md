@@ -1,13 +1,13 @@
 ﻿---
 title: BulletType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 140
 url: /zh/python-net/aspose.cells.drawing.texts/bullettype/
 is_root: false
 ---
-##  BulletType枚举
+## BulletType枚举
 表示项目符号的类型。
 
 

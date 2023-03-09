@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Sparningsformatet för textfilen.|
 

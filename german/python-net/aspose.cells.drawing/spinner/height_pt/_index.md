@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Höhe der Form in Punkteinheiten dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

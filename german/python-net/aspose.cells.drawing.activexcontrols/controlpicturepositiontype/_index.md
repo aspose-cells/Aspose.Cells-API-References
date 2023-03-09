@@ -27,9 +27,9 @@ Der Typ ControlPicturePositionType macht die folgenden Member verfügbar:
 | ABOVE_CENTER | Das Bild erscheint über der Beschriftung.<br/> Die Bildunterschrift befindet sich zentriert unter dem Bild.|
 | ABOVE_RIGHT | Das Bild erscheint über der Beschriftung.<br/> Die Bildunterschrift wird am rechten Bildrand ausgerichtet.|
 | BELOW_LEFT | Das Bild erscheint unter der Beschriftung.<br/> Die Bildunterschrift wird am linken Bildrand ausgerichtet.|
-| BELOW_CENTER | Das Bild erscheint unter der Beschriftung.<br/> Die Bildunterschrift befindet sich zentriert über dem Bild.|
+| BELOW_CENTER | Das Bild erscheint unter der Beschriftung.<br/>Die Bildunterschrift befindet sich zentriert über dem Bild.|
 | BELOW_RIGHT | Das Bild erscheint unter der Beschriftung.<br/> Die Bildunterschrift wird am rechten Bildrand ausgerichtet.|
-| CENTER | Das Bild wird in der Mitte des Steuerelements angezeigt.<br/>Die Bildunterschrift wird horizontal und vertikal über dem Bild zentriert.|
+| CENTER | Das Bild wird in der Mitte des Steuerelements angezeigt.<br/> Die Bildunterschrift wird horizontal und vertikal über dem Bild zentriert.|
 
 
 

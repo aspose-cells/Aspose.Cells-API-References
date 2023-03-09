@@ -22,14 +22,14 @@ def group(self, group_items):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | group_items | list | gli elementi del gruppo.|
 ###  Osservazioni
 
 La forma in groupItems non deve essere raggruppata.
 La forma deve essere in questa raccolta Shapes.
-###  Esempio
+###  Esempi
 
 ```python
 

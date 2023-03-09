@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  backward mülk
 
-Eğilim çizgisinin backward'i uzattığı dönemlerin (veya bir dağılım grafiğindeki birimlerin) sayısını döndürür veya ayarlar.
+ Eğilim çizgisinin backward'i uzattığı dönemlerin (veya bir dağılım grafiğindeki birimlerin) sayısını döndürür veya ayarlar.
 Nokta sayısı sıfırdan büyük veya sıfıra eşit olmalıdır.
 Grafik türü sütun ise, nokta sayısı 0 ile 0,5 arasında olmalıdır.
 ###  Tanım:

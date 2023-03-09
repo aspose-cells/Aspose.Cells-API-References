@@ -22,7 +22,7 @@ def is_selected(self, item_index):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | item_index | int | El índice de artículos.|
 

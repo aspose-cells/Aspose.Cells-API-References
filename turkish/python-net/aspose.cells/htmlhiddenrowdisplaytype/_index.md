@@ -18,7 +18,7 @@ HtmlHiddenRowDisplayType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | HIDDEN | Html sayfasındaki gizli satırları gizleyin.|
-| REMOVE | Html sayfasındaki gizli satırları kaldırın.|
+| REMOVE | Html sayfalarındaki gizli satırları kaldırın.|
 
 
 

@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.metadata/metadataoptions/__init__/
 is_root: false
 ---
 ##  MetadataOptions(metadata_type) {#MetadataType}
-Skapar alternativ för att ladda metadata.
+Skapar ett alternativ för att ladda metadata.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, metadata_type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | metadata_type | [MetadataType](/cells/sv/python-net/aspose.cells.metadata/metadatatype) | Typen av metadata.|
 

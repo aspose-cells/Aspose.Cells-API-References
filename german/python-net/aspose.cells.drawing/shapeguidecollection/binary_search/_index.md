@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [ShapeGuide](/cells/de/python-net/aspose.cells.drawing/shapeguide) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [ShapeGuide](/cells/de/python-net/aspose.cells.drawing/shapeguide) | Das zu lokalisierende System.Objekt.|
 
 
 

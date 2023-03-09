@@ -10,7 +10,7 @@ is_root: false
 ##  show_series_name mülk
 
 Bir grafikteki veri etiketleri için seri adı görüntüleme davranışını belirtmek üzere bir Boole değeri döndürür veya ayarlar.
-Seri adını göstermek için doğru. Gizlemek için yanlış.
+Seri adını göstermek için true, gizlemek için false.
 ###  Tanım:
 ```python
 @property

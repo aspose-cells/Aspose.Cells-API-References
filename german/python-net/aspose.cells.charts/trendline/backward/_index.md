@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  backward Eigentum
 
-Gibt die Anzahl der Perioden (oder Einheiten in einem Streudiagramm) zurück oder legt sie fest, um die sich die Trendlinie erstreckt backward.
+ Gibt die Anzahl der Perioden (oder Einheiten in einem Streudiagramm) zurück oder legt sie fest, um die sich die Trendlinie erstreckt backward.
 Die Anzahl der Perioden muss größer oder gleich Null sein.
 Wenn der Diagrammtyp Spalte ist, muss die Anzahl der Perioden zwischen 0 und 0,5 liegen
 ###  Definition:

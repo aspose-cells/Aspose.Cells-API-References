@@ -23,7 +23,7 @@ El tipo ShapeGuide expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [value](/cells/es/python-net/aspose.cells.drawing/shapeguide/value) |Obtiene o establece el valor de esta guía|
+| [value](/cells/es/python-net/aspose.cells.drawing/shapeguide/value) | Obtiene o establece valores de esta guía|
 
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Indica se la forma è un gruppo.
 
-###  Esempio
+###  Esempi
 
 ```python
 

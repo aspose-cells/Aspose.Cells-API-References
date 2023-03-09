@@ -18,12 +18,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | place_holder | str | Cell yer tutucu|
 | new_value | str | Değiştirilecek dize değeri|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook
@@ -46,12 +46,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | place_holder | str | Cell yer tutucu|
 | new_value | int | Değiştirilecek tamsayı değeri|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook
@@ -75,12 +75,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | place_holder | str | Cell yer tutucu|
 | new_value | float | Değiştirilecek çift değer|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook
@@ -104,10 +104,10 @@ def replace(self, bool_value, new_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | bool_value | bool | Değiştirilecek boole değeri.|
-| new_value | any |Yeni değer. Dize, tamsayı, çift veya DateTime değeri olabilir.|
+| new_value | any | Yeni değer. Dize, tamsayı, çift veya DateTime değeri olabilir.|
 
 
 ##  replace(int_value, new_value) {#int-any}
@@ -121,10 +121,10 @@ def replace(self, int_value, new_value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | int_value | int | Değiştirilecek tamsayı değeri.|
-| new_value | any |Yeni değer. Dize, tamsayı, çift veya DateTime değeri olabilir.|
+| new_value | any | Yeni değer. Dize, tamsayı, çift veya DateTime değeri olabilir.|
 
 
 ##  replace(place_holder, new_values, is_vertical) {#str-list-bool}
@@ -138,13 +138,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | place_holder | str | Cell yer tutucu|
 | new_values | list | Değiştirilecek dize dizisi|
-| is_vertical | bool | Doğru - Dikey, Yanlış - Yatay|
+| is_vertical | bool | Doğru-Dikey, Yanlış-Yatay|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook
@@ -168,13 +168,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | place_holder | str | Cell yer tutucu|
 | new_values | list | Değiştirilecek tamsayı dizisi|
-| is_vertical | bool | Doğru - Dikey, Yanlış - Yatay|
+| is_vertical | bool | Doğru-Dikey, Yanlış-Yatay|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook
@@ -198,13 +198,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | place_holder | str | Cell yer tutucu|
 | new_values | list | Değiştirilecek çift dizi|
-| is_vertical | bool | Doğru - Dikey, Yanlış - Yatay|
+| is_vertical | bool | Doğru-Dikey, Yanlış-Yatay|
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook
@@ -228,7 +228,7 @@ def replace(self, place_holder, new_value, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | place_holder | str | Cell yer tutucu|
 | new_value | str | Değiştirilecek dize değeri|

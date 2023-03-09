@@ -13,7 +13,7 @@ Stellt die Formatzeichenfolge für das TickLabels-Objekt dar.
 
 ###  Bemerkungen
 
-Die Formatierungszeichenfolge ist dieselbe wie eine benutzerdefinierte Formatzeichenfolgeneinstellung für eine Zelle. Beispiel: „$0“.
+Die Formatierungszeichenfolge ist die gleiche wie eine benutzerdefinierte Formatzeichenfolgeneinstellung für eine Zelle, zum Beispiel „$0“.
 ###  Definition:
 ```python
 @property

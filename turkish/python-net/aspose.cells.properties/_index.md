@@ -23,8 +23,8 @@ is_root: false
 
 
 ###  Numaralandırmalar
-| numaralandırma| Tanım|
+|numaralandırma| Tanım|
 | :- | :- |
-| [PropertyType](/cells/tr/python-net/aspose.cells.properties/propertytype) | Bir belge özelliğinin veri türünü belirtir.|
+| [PropertyType](/cells/tr/python-net/aspose.cells.properties/propertytype) |Bir belge özelliğinin veri türünü belirtir.|
 
 

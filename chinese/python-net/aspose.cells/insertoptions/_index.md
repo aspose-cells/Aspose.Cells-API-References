@@ -1,13 +1,13 @@
 ﻿---
 title: InsertOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 940
 url: /zh/python-net/aspose.cells/insertoptions/
 is_root: false
 ---
-##  InsertOptions类
+## InsertOptions类
 表示插入的选项。
 
 

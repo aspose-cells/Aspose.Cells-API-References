@@ -10,7 +10,7 @@ is_root: false
 ##  x_ad_es_type fastighet
 
 XAdES typ.
-Standardvärdet är None (XAdES är avstängt).
+Standardvärdet är Inget (XAdES är avstängt).
 ###  Definition:
 ```python
 @property

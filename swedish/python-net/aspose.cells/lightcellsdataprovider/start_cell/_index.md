@@ -18,9 +18,9 @@ def start_cell(self, cell):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Cell objekt för implementering för att fylla data. Dess kolumnindex är det returnerade värdet av senaste samtalet [LightCellsDataProvider.next_cell()](/cells/sv/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>Om cellen har initierats i modellen för inre celler kommer det existerande cellobjektet att användas.<br/> Annars kommer ett temporärt Cell-objekt att användas för implementering för att fylla data.|
+| cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Cell-objekt för implementering för att fylla data. Dess kolumnindex är det returnerade värdet av det senaste anropet av [LightCellsDataProvider.next_cell()](/cells/sv/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>Om cellen har initierats i modellen med inre celler kommer det befintliga cellobjektet att användas.<br/> Annars kommer ett temporärt Cell-objekt att användas för implementering för att fylla data.|
 ###  Anmärkningar
 
 

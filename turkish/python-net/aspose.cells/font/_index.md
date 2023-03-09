@@ -1,5 +1,5 @@
 ﻿---
-title: Font sınıf
+title: Font sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 650
 url: /tr/python-net/aspose.cells/font/
 is_root: false
 ---
-##  Font sınıf
+##  Font sınıfı
 Elektronik tabloda kullanılan yazı tipi nesnesini kapsüller.
 
 
@@ -19,7 +19,7 @@ Font türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [charset](/cells/tr/python-net/aspose.cells/font/charset) | Karakter kümesini temsil eder.|
 | [is_italic](/cells/tr/python-net/aspose.cells/font/is_italic) | Yazı tipinin italik olup olmadığını gösteren bir değer alır veya ayarlar.|
-| [is_bold](/cells/tr/python-net/aspose.cells/font/is_bold) | Yazı tipinin kalın olup olmadığını gösteren bir değer alır veya ayarlar.|
+| [is_bold](/cells/tr/python-net/aspose.cells/font/is_bold) |Yazı tipinin kalın olup olmadığını gösteren bir değer alır veya ayarlar.|
 | [caps_type](/cells/tr/python-net/aspose.cells/font/caps_type) | Metin büyük harf türünü alır ve ayarlar.|
 | [strike_type](/cells/tr/python-net/aspose.cells/font/strike_type) | Metnin vuruş tipini alır.|
 | [is_strikeout](/cells/tr/python-net/aspose.cells/font/is_strikeout) | Yazı tipinin tek çizili olup olmadığını gösteren bir değer alır veya ayarlar.|
@@ -44,7 +44,7 @@ Font türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

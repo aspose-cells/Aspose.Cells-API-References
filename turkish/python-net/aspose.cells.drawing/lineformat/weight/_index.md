@@ -11,7 +11,7 @@ is_root: false
 
 Çizginin weight'ini puan birimi olarak alır veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

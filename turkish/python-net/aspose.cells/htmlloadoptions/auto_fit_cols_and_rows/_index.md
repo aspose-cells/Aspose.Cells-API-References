@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_fit_cols_and_rows mülk
 
-Sütunların ve satırların otomatik sığdırılıp sığdırılmayacağını belirtir. Varsayılan değer yanlıştır.
+Sütunların ve satırların otomatik sığdırılıp sığdırılmayacağını belirtir.
 ###  Tanım:
 ```python
 @property

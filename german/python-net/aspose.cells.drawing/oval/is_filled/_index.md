@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob das Füllformat sichtbar ist.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

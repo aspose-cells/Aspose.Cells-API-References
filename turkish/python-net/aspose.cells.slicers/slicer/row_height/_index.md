@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen dilimleyicideki her satırın punto cinsinden yüksekliğini döndürür veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

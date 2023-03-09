@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  paths Eigentum
 
-Ruft Pfadsammlungsinformationen ab, wenn die Form eine NotPrimitive-AutoForm ist
+Ruft Pfadsammlungsinformationen ab, wenn die Form eine NotPrimitive-Autoform ist
 ###  Definition:
 ```python
 @property

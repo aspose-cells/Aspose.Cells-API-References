@@ -22,18 +22,18 @@ def add_word_art(self, style, text, upper_left_row, top, upper_left_column, left
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| style | [PresetWordArtStyle](/cells/es/python-net/aspose.cells.drawing/presetwordartstyle) |El estilo de WordArt preestablecido.|
+| style | [PresetWordArtStyle](/cells/es/python-net/aspose.cells.drawing/presetwordartstyle) | El estilo de WordArt preestablecido.|
 | text | str | El texto.|
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | top | int | Representa el desplazamiento vertical de la forma desde su fila izquierda, en unidades de píxel.|
-| upper_left_column | int |Índice de la columna superior izquierda.|
-| left | int | Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de píxel.|
-| height | int | Representa la altura de la forma, en unidades de píxel.|
-| width | int | Representa el ancho de la forma, en unidades de píxel.|
+| upper_left_column | int | Índice de la columna superior izquierda.|
+| left | int |Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de píxel.|
+| height | int | Representa la altura de la forma, en unidades de píxeles.|
+| width | int | Representa el ancho de la forma, en unidades de píxeles.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import PresetWordArtStyle

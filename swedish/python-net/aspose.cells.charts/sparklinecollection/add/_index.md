@@ -18,7 +18,7 @@ def add(self, data_range, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | data_range | str | Anger det nya dataintervallet för sparkline.|
 | row | int | Platsens radindex.|

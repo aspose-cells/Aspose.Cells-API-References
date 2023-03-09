@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el tipo de forma automática.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import AutoShapeType

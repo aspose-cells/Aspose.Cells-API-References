@@ -17,8 +17,8 @@ CategoryType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| AUTOMATIC_SCALE | Otomatik Ölçek|
-| CATEGORY_SCALE | KategoriÖlçek|
+| AUTOMATIC_SCALE | Otomatik Terazi|
+| CATEGORY_SCALE | Kategori Ölçeği|
 | TIME_SCALE | Zaman Ölçeği|
 
 

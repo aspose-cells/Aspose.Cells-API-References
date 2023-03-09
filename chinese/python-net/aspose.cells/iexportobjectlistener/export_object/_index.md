@@ -1,6 +1,6 @@
 ﻿---
 title: export_object方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ def export_object(self, e):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | e | [ExportObjectEvent](/cells/zh/python-net/aspose.cells/exportobjectevent) |当需要导出一个对象时触发的事件。|
 

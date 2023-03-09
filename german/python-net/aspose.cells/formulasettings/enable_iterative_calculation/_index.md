@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_iterative_calculation Eigentum
 
-Gibt an, ob die iterative Berechnung zum Auflösen von Zirkelverweisen aktiviert werden soll.
+Gibt an, ob die iterative Berechnung zum Auflösen von Zirkelbezügen aktiviert werden soll.
 ###  Definition:
 ```python
 @property

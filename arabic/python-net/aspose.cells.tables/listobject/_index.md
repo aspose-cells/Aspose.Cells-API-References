@@ -22,12 +22,12 @@ is_root: false
 | [start_row](/cells/ar/python-net/aspose.cells.tables/listobject/start_row) | يحصل على صف البداية للنطاق.|
 | [start_column](/cells/ar/python-net/aspose.cells.tables/listobject/start_column) | يحصل على عمود البداية للنطاق.|
 | [end_row](/cells/ar/python-net/aspose.cells.tables/listobject/end_row) | يحصل على صف نهاية النطاق.|
-| [end_column](/cells/ar/python-net/aspose.cells.tables/listobject/end_column) | يحصل على عمود نهاية النطاق.|
+| [end_column](/cells/ar/python-net/aspose.cells.tables/listobject/end_column) |يحصل على عمود نهاية النطاق.|
 | [list_columns](/cells/ar/python-net/aspose.cells.tables/listobject/list_columns) | يحصل على ListColumns من ListObject.|
 | [show_header_row](/cells/ar/python-net/aspose.cells.tables/listobject/show_header_row) | الحصول على وتحديد ما إذا كان ListObject هذا يعرض صف الرأس أم لا.|
-| [show_totals](/cells/ar/python-net/aspose.cells.tables/listobject/show_totals) |الحصول على وتحديد ما إذا كان ListObject هذا يعرض صف الإجمالي أم لا.|
+| [show_totals](/cells/ar/python-net/aspose.cells.tables/listobject/show_totals) | الحصول على وتحديد ما إذا كان ListObject هذا يعرض إجمالي الصفوف.|
 | [data_range](/cells/ar/python-net/aspose.cells.tables/listobject/data_range) | يحصل على نطاق بيانات ListObject.|
-| [query_table](/cells/ar/python-net/aspose.cells.tables/listobject/query_table) |يحصل على QueryTable المرتبط.|
+| [query_table](/cells/ar/python-net/aspose.cells.tables/listobject/query_table) | يحصل على QueryTable المرتبط.|
 | [data_source_type](/cells/ar/python-net/aspose.cells.tables/listobject/data_source_type) | يحصل على نوع مصدر البيانات الخاص بالجدول.|
 | [auto_filter](/cells/ar/python-net/aspose.cells.tables/listobject/auto_filter) | يحصل على مرشح تلقائي.|
 | [display_name](/cells/ar/python-net/aspose.cells.tables/listobject/display_name) | الحصول على اسم العرض وتعيينه.|
@@ -56,7 +56,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import CellsHelper, Workbook

@@ -18,8 +18,8 @@ Il tipo LineCapType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | SQUARE | Il quadrato sporge di metà larghezza della linea.|
-| ROUND | Estremità arrotondate.|
-| FLAT | La linea termina nel punto finale.|
+| ROUND |Estremità arrotondate.|
+| FLAT | La linea termina nei punti finali.|
 | NONE | Nessuno tappo|
 
 

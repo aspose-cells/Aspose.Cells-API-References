@@ -18,7 +18,7 @@ Typen MsoArrowheadLength avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | SHORT | Kort linjeändlängd|
-| MEDIUM | Medium linjeändlängd|
+| MEDIUM |Medium linjeändlängd|
 | LONG | Lång lina ändlängd|
 
 

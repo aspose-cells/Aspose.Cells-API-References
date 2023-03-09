@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/license/set_license/
 is_root: false
 ---
 ##  set_license(license_name) {#str}
-Lizenziert die Komponente.
+Lizenziert die Komponenten.
 
 
 
@@ -23,7 +23,7 @@ def set_license(self, license_name):
 | license_name | str |  |
 ###  Bemerkungen
 
-Versucht, die Lizenz an den folgenden Orten zu finden:
+Versuchen Sie, die Lizenz an den folgenden Orten zu finden:
 
 
 1. Explizite Pfad.
@@ -41,14 +41,14 @@ Versucht, die Lizenz an den folgenden Orten zu finden:
 5. Eine eingebettete Ressource in der aufrufenden Assembly des Clients.
 
 
-**Notiz:** Versucht auf dem .NET Compact Framework, die Lizenz nur an diesen Orten zu finden:
+**Anmerkungen:** Versucht auf dem .NET Compact Framework, die Lizenz nur an diesen Orten zu finden:
 
 
 1. Explizite Pfad.
 
 
 2. Eine eingebettete Ressource in der aufrufenden Assembly des Clients.
-###  Beispiel
+###  Beispiele
 
 
 In diesem Beispiel wird versucht, eine Lizenzdatei namens MyLicense.lic zu finden
@@ -70,7 +70,7 @@ Verwenden Sie eine leere Zeichenfolge, um in den Bewertungsmodus zu wechseln.
 
 
 ##  set_license(stream) {#io.RawIOBase}
-Lizenziert die Komponente.
+Lizenziert die Komponenten.
 
 
 
@@ -86,7 +86,7 @@ def set_license(self, stream):
 ###  Bemerkungen
 
 Verwenden Sie diese Methode, um eine Lizenz aus einem Stream zu laden.
-###  Beispiel
+###  Beispiele
 
 
 ```python

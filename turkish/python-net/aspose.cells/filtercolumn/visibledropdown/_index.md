@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  visibledropdown mülk
 
-Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını belirtir.
+Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını gösterir.
 
 ###  Notlar
 
  NOT: Bu üye artık kullanılmıyor.
- Bunun yerine, lütfen FilterColumn.IsDropdownVisible'ı kullanarak bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını kontrol edin.
-Bu mülk, Eylül 2020'den itibaren 12 ay sonra kaldırılacaktır.
+Bunun yerine, lütfen FilterColumn.IsDropdownVisible'ı kullanarak bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını kontrol edin.
+ Bu mülk, Eylül 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:
 ```python

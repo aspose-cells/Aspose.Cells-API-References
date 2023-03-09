@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Daten der Steuerung ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie ou définit la hauteur du segment spécifié, en pixels.
 
-###  Exemple
+###  Exemples
 
 ```python
 

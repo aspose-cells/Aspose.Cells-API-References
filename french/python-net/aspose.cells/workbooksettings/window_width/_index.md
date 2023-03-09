@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width propriété
 
-La largeur de la fenêtre, en unité de point.
+La largeur de la fenêtre, en unités de points.
 ###  Définition:
 ```python
 @property

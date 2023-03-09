@@ -1,13 +1,13 @@
 ﻿---
 title: ListObject类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
 url: /zh/python-net/aspose.cells.tables/listobject/
 is_root: false
 ---
-##  ListObject类
+## ListObject类
 表示工作表上的列表对象。
  ListObject 对象是 ListObjects 集合的成员。
 ListObjects 集合包含工作表上的所有列表对象。
@@ -25,7 +25,7 @@ ListObject 类型公开了以下成员：
 | [end_column](/cells/zh/python-net/aspose.cells.tables/listobject/end_column) |获取范围的结束列。|
 | [list_columns](/cells/zh/python-net/aspose.cells.tables/listobject/list_columns) |获取 ListObject 的 ListColumns。|
 | [show_header_row](/cells/zh/python-net/aspose.cells.tables/listobject/show_header_row) |获取和设置此 ListObject 是否显示标题行。|
-| [show_totals](/cells/zh/python-net/aspose.cells.tables/listobject/show_totals) |获取和设置此 ListObject 是否显示总行。|
+| [show_totals](/cells/zh/python-net/aspose.cells.tables/listobject/show_totals) |获取和设置此 ListObject 是否显示总行数。|
 | [data_range](/cells/zh/python-net/aspose.cells.tables/listobject/data_range) |获取 ListObject 的数据范围。|
 | [query_table](/cells/zh/python-net/aspose.cells.tables/listobject/query_table) |获取链接的 QueryTable。|
 | [data_source_type](/cells/zh/python-net/aspose.cells.tables/listobject/data_source_type) |获取表的数据源类型。|

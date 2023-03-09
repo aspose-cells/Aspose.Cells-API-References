@@ -1,5 +1,5 @@
 ﻿---
-title: Area sınıf
+title: Area sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /tr/python-net/aspose.cells.drawing/area/
 is_root: false
 ---
-##  Area sınıf
+##  Area sınıfı
 Bir alan biçimini temsil eden nesneyi kapsüller.
 
 
@@ -26,7 +26,7 @@ Area türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

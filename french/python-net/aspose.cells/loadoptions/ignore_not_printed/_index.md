@@ -13,7 +13,7 @@ Ignorer les données qui ne sont pas imprimées en cas d'impression directe du f
 
 ###  Remarques
 
-Uniquement pour le fichier xlsx.
+Uniquement pour les fichiers xlsx.
 ###  Définition:
 ```python
 @property

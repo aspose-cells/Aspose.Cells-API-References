@@ -1,13 +1,13 @@
 ﻿---
 title: GroupShape类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 270
 url: /zh/python-net/aspose.cells.drawing/groupshape/
 is_root: false
 ---
-##  GroupShape类
+## GroupShape类
 表示包含单个形状的组形状。
 
 

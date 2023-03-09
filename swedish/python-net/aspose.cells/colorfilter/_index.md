@@ -17,7 +17,7 @@ Typen ColorFilter avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [filter_by_fill_color](/cells/sv/python-net/aspose.cells/colorfilter/filter_by_fill_color) |Flagga som anger om filtrering efter cellens fyllningsfärg.|
+| [filter_by_fill_color](/cells/sv/python-net/aspose.cells/colorfilter/filter_by_fill_color) | Flagga som anger om filtrering efter cellens fyllningsfärg.|
 
 
 ###  Metoder

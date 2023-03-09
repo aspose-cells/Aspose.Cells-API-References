@@ -1,5 +1,5 @@
 ﻿---
-title: TableToRangeOptions sınıf
+title: TableToRangeOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 90
 url: /tr/python-net/aspose.cells.tables/tabletorangeoptions/
 is_root: false
 ---
-##  TableToRangeOptions sınıf
+##  TableToRangeOptions sınıfı
 Tabloyu aralığa dönüştürürken seçenekleri temsil eder.
 
 

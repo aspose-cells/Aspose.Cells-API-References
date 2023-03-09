@@ -19,10 +19,10 @@ Typen Bar3DShapeType avslöjar följande medlemmar:
 | :- | :- |
 | BOX | Låda|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | PyramidToMax|
+| PYRAMID_TO_MAX | Pyramid Till Max|
 | CYLINDER | Cylinder|
-| CONE_TO_POINT | ConeToPoint|
-| CONE_TO_MAX | ConeToMax|
+| CONE_TO_POINT | Kon Till Peka|
+| CONE_TO_MAX | Kon Till Max|
 
 
 

@@ -18,10 +18,10 @@ def add(self, name, value):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom de la propriété de type de contenu.|
-| value | str |La valeur de la propriété de type de contenu.|
+| value | str | La valeur de la propriété de type de contenu.|
 
 
 ##  add(name, value, type) {#str-str-str}
@@ -35,10 +35,10 @@ def add(self, name, value, type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom de la propriété de type de contenu.|
-| value | str |La valeur de la propriété de type de contenu.|
+| value | str | La valeur de la propriété de type de contenu.|
 | type | str | Le type de la propriété de type de contenu.|
 
 

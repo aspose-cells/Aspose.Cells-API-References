@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  libid mülk
 
-Referansın Libid'ini alır ve ayarlar.
+Referansın libidini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

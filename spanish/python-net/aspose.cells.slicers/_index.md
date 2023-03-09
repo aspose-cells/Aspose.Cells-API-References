@@ -15,15 +15,15 @@ is_root: false
 | [Slicer](/cells/es/python-net/aspose.cells.slicers/slicer) | descripción resumida de la vista Slicer|
 | [SlicerCache](/cells/es/python-net/aspose.cells.slicers/slicercache) | descripción resumida de la caché de la segmentación|
 | [SlicerCacheItem](/cells/es/python-net/aspose.cells.slicers/slicercacheitem) | Representar elemento de fuente de datos de segmentación|
-| [SlicerCacheItemCollection](/cells/es/python-net/aspose.cells.slicers/slicercacheitemcollection) | Representar la colección de SlicerCacheItem|
+| [SlicerCacheItemCollection](/cells/es/python-net/aspose.cells.slicers/slicercacheitemcollection) | Representar la colección de SlicerCacheItems|
 | [SlicerCollection](/cells/es/python-net/aspose.cells.slicers/slicercollection) | Especifica la colección de todos los objetos Slicer en la hoja de cálculo especificada.|
 
 
 ###  enumeraciones
-| Enumeración| Descripción|
+|Enumeración| Descripción|
 | :- | :- |
 | [SlicerCacheCrossFilterType](/cells/es/python-net/aspose.cells.slicers/slicercachecrossfiltertype) | Representar el tipo de SlicerCacheCrossFilterType|
-| [SlicerCacheItemSortType](/cells/es/python-net/aspose.cells.slicers/slicercacheitemsorttype) |Especifique el tipo de clasificación de SlicerCacheItem|
+| [SlicerCacheItemSortType](/cells/es/python-net/aspose.cells.slicers/slicercacheitemsorttype) | Especifique el tipo de clasificación de SlicerCacheItem|
 | [SlicerStyleType](/cells/es/python-net/aspose.cells.slicers/slicerstyletype) | Especificar el estilo de la vista de segmentación|
 
 

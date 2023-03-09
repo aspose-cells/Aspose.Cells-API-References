@@ -13,7 +13,7 @@ Spécifie une valeur personnalisée pour l'unité d'affichage.
 
 ###  Remarques
 
- REMARQUE : Cette propriété est désormais obsolète. Plutôt,
+ REMARQUE : Cette propriété est désormais obsolète.
 veuillez utiliser la propriété Axis.CustomUnit.
  Cette propriété sera supprimée 12 mois plus tard depuis janvier 2023.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

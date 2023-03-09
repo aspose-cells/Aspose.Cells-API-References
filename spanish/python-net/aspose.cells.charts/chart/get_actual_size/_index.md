@@ -14,7 +14,7 @@ Obtiene el tamaño real del gráfico en unidades de píxeles.
 ###  Devoluciones
 
 Tamaño real en una matriz (ancho y alto).
-[0] es ancho; [1] es la altura.
+[0] es ancho; [1] es alto.
 
 
 ```python

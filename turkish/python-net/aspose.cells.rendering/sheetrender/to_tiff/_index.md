@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | çıkış görüntüsünün akışı|
 
@@ -34,13 +34,13 @@ def to_tiff(self, filename):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | filename | str | çıktı görüntüsünün dosya adı|
 
-###  Örnek
+###  örnekler
 
-Aşağıdaki kod, ilk sayfanın tüm sayfalarını Tiff görüntüsüne çıkarır.
+Aşağıdaki kod, ilk sayfanın tüm sayfalarını bir Tiff görüntüsüne çıkarır.
 
 ```python
 from aspose.cells import SaveFormat, Workbook

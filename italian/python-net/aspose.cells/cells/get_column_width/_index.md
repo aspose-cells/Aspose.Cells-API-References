@@ -13,7 +13,7 @@ Ottiene la larghezza della colonna specificata nella visualizzazione normale
 
 ###  ritorna
 
-Larghezza della colonna
+Larghezza delle colonne
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width(self, column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | Indice di colonna|
 

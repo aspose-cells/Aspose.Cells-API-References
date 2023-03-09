@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_gridlines_visible mülk
 
-Kılavuz çizgilerinin görünür olup olmadığını gösteren bir değer alır veya ayarlar.Default true'dur.
+Kılavuz çizgilerinin görünür olup olmadığını belirten bir değer alır veya ayarlar.Varsayılan değer true'dur.
 ###  Tanım:
 ```python
 @property

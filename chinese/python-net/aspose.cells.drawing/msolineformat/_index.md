@@ -1,13 +1,13 @@
 ﻿---
 title: MsoLineFormat类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 360
 url: /zh/python-net/aspose.cells.drawing/msolineformat/
 is_root: false
 ---
-##  MsoLineFormat类
+## MsoLineFormat类
 表示线条和箭头格式。
 
 
@@ -23,7 +23,7 @@ MsoLineFormat 类型公开了以下成员：
 | [back_color](/cells/zh/python-net/aspose.cells.drawing/msolineformat/back_color) |获取和设置边框线背景颜色。|
 | [dash_style](/cells/zh/python-net/aspose.cells.drawing/msolineformat/dash_style) |获取或设置指定行的破折号样式。|
 | [transparency](/cells/zh/python-net/aspose.cells.drawing/msolineformat/transparency) |将指定填充的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。|
-| [weight](/cells/zh/python-net/aspose.cells.drawing/msolineformat/weight) |返回或设置线的权重，以 pt 为单位。|
+| [weight](/cells/zh/python-net/aspose.cells.drawing/msolineformat/weight) |以 pt 为单位返回或设置线条的粗细。|
 
 
 

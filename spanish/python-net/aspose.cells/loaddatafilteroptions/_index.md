@@ -17,7 +17,7 @@ El tipo LoadDataFilterOptions expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| NONE |No cargue nada para los datos de la hoja|
+| NONE | No cargue nada para los datos de la hoja|
 | ALL | Cargar todo|
 | CELL_BLANK | Celdas de carga cuyo valor está en blanco|
 | CELL_STRING | Celdas de carga cuyo valor es cadena|
@@ -29,7 +29,7 @@ El tipo LoadDataFilterOptions expone los siguientes miembros:
 | CELL_DATA | Cargue los datos de las celdas, incluidos los valores, las fórmulas y el formato.|
 | CHART | Gráficos de carga|
 | SHAPE | Cargar formas|
-| DRAWING | Objetos de dibujo (incluidos Chart, Picture, OleObject y todos los demás objetos de dibujo)|
+| DRAWING | Objetos de dibujo (incluidos gráficos, imágenes, OleObjects y todos los demás objetos de dibujo)|
 | MERGED_AREA | Cargar celdas combinadas|
 | CONDITIONAL_FORMATTING | Cargar formato condicional|
 | DATA_VALIDATION | Cargar validaciones de datos|
@@ -37,13 +37,13 @@ El tipo LoadDataFilterOptions expone los siguientes miembros:
 | TABLE | Cargar tablas|
 | HYPERLINKS | Cargar hipervínculos|
 | SHEET_SETTINGS | Cargar configuraciones para la hoja de trabajo|
-| SHEET_DATA | Cargue todos los datos de la hoja de trabajo, como datos de celdas, configuraciones, objetos, etc.|
-| BOOK_SETTINGS | Cargar configuraciones para el libro de trabajo|
-| SETTINGS |Cargar configuraciones para libro de trabajo y hoja de trabajo|
+| SHEET_DATA |Cargue todos los datos de la hoja de trabajo, como datos de celdas, configuraciones, objetos, etc.|
+| BOOK_SETTINGS | Cargar configuraciones para libros de trabajo|
+| SETTINGS | Cargar configuraciones para libros y hojas de trabajo|
 | XML_MAP | Cargar mapa Xml|
 | STRUCTURE | Estructura de carga del libro|
 | DOCUMENT_PROPERTIES | Cargar propiedades del documento|
-| DEFINED_NAMES | Cargar objetos de nombre definidos|
+| DEFINED_NAMES | Cargar objetos de nombre definido|
 | VBA | Cargar proyectos VBA|
 | STYLE | Cargar estilos para formatear celdas|
 | PICTURE | Cargar imágenes|

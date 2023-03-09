@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/bordercollection/set_style/
 is_root: false
 ---
 ##  set_style(style) {#CellBorderType}
-Anger stilen för alla gränser i samlingen.
+Anger stilen på alla gränser i samlingen.
 
 
 
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [CellBorderType](/cells/sv/python-net/aspose.cells/cellbordertype) | Borders stil|
 

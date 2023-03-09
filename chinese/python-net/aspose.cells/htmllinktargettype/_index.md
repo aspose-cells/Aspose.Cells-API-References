@@ -1,13 +1,13 @@
 ﻿---
 title: HtmlLinkTargetType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2180
 url: /zh/python-net/aspose.cells/htmllinktargettype/
 is_root: false
 ---
-##  HtmlLinkTargetType枚举
+## HtmlLinkTargetType枚举
 表示 HTML []() 标签中目标属性的类型。
 
 

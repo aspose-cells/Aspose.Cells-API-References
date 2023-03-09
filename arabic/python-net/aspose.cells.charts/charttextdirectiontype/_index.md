@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/charttextdirectiontype/
 is_root: false
 ---
 ##  العد ChartTextDirectionType
-يمثل نوع اتجاه النص في الرسم البياني.
+يمثل نوع اتجاه النص للمخطط.
 
 
 

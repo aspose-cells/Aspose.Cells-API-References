@@ -19,9 +19,9 @@ def set_even_footer(self, section, footer_script):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| section | int |0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
+| section | int | 0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
 | footer_script | str | Altbilgi biçimi komut dosyası.|
 
 

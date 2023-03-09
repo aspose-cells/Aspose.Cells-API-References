@@ -1,6 +1,6 @@
 ﻿---
 title: import_array_list方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 620
@@ -18,7 +18,7 @@ def import_array_list(self, array_list, first_row, first_column, is_vertical):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | array_list | list |数据数组列表。|
 | first_row | int |要导入的第一个单元格的行号。|

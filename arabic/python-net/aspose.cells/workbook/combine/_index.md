@@ -18,7 +18,7 @@ def combine(self, second_workbook):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | second_workbook | [Workbook](/cells/ar/python-net/aspose.cells/workbook) | كائن مصنف آخر.|
 ###  ملاحظات

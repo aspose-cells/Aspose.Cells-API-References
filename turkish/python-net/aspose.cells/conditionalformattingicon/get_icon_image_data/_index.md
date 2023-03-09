@@ -22,7 +22,7 @@ def get_icon_image_data(self, type, index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [IconSetType](/cells/tr/python-net/aspose.cells/iconsettype) | simgenin türü|
 | index | int | simge dizini|

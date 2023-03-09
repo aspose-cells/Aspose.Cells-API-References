@@ -153,12 +153,12 @@ Le type AutoShapeType expose les membres suivants :
 | FLOW_CHART_DISPLAY |  |
 | FLOW_CHART_DELAY |  |
 | TEXT_PLAIN_TEXT | Une forme de texte brut.|
-| TEXT_STOP |Une forme de texte octogonale.|
+| TEXT_STOP | Une forme de texte octogonale.|
 | TEXT_TRIANGLE | Une forme de texte triangulaire pointant vers le haut.|
 | TEXT_TRIANGLE_INVERTED | Une forme de texte triangulaire pointant vers le bas.|
 | TEXT_CHEVRON | Une forme de texte en chevron pointant vers le haut.|
 | TEXT_CHEVRON_INVERTED | Une forme de texte en chevron pointant vers le bas.|
-| TEXT_RING_INSIDE | Une forme de texte circulaire, comme s'il lisait une inscription à l'intérieur d'un anneau.|
+| TEXT_RING_INSIDE |Une forme de texte circulaire, comme s'il lisait une inscription à l'intérieur d'un anneau.|
 | TEXT_RING_OUTSIDE | Une forme de texte circulaire, comme s'il lisait une inscription à l'extérieur d'un anneau.|
 | TEXT_ARCH_UP_CURVE | Une forme de texte incurvée vers le haut.|
 | TEXT_ARCH_DOWN_CURVE | Une forme de texte incurvée vers le bas.|
@@ -177,13 +177,13 @@ Le type AutoShapeType expose les membres suivants :
 | TEXT_DOUBLE_WAVE1 | Une forme de texte ondulée.|
 | TEXT_DOUBLE_WAVE2 | Une forme de texte ondulée.|
 | TEXT_INFLATE | Une forme de texte qui se développe verticalement au milieu.|
-| TEXT_DEFLATE |Une forme de texte qui se rétrécit verticalement au milieu.|
+| TEXT_DEFLATE | Une forme de texte qui se rétrécit verticalement au milieu.|
 | TEXT_INFLATE_BOTTOM | Une forme de texte qui se développe vers le bas au milieu.|
 | TEXT_DEFLATE_BOTTOM | Une forme de texte qui se rétrécit vers le haut au milieu.|
 | TEXT_INFLATE_TOP | Une forme de texte qui se développe vers le haut au milieu.|
 | TEXT_DEFLATE_TOP | Une forme de texte qui se rétrécit vers le bas au milieu.|
-| TEXT_DEFLATE_INFLATE | Une forme de texte où les lignes inférieures s'étendent vers le haut. Les lignes supérieures rétrécissent pour compenser.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | Une forme de texte où les lignes au centre s'étendent verticalement. Les lignes supérieures et inférieures rétrécissent pour compenser.|
+| TEXT_DEFLATE_INFLATE |Forme de texte dans laquelle les lignes inférieures s'agrandissent vers le haut. Les lignes supérieures se rétrécissent pour compenser.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | Forme de texte dans laquelle les lignes du centre s'agrandissent verticalement. Les lignes supérieures et inférieures se rétrécissent pour compenser.|
 | TEXT_FADE_RIGHT | Une forme de texte qui se rétrécit verticalement sur le côté droit.|
 | TEXT_FADE_LEFT | Une forme de texte qui se rétrécit verticalement sur le côté gauche.|
 | TEXT_FADE_UP | Une forme de texte qui se rétrécit horizontalement en haut.|

@@ -17,7 +17,7 @@ Typen TimeUnit avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| DAYS |dagar|
+| DAYS | dagar|
 | MONTHS | månader|
 | YEARS | år|
 

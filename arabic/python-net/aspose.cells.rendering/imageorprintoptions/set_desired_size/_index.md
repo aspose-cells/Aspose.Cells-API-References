@@ -18,7 +18,7 @@ def set_desired_size(self, desired_width, desired_height):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | desired_width | int | العرض المطلوب بالبكسل|
 | desired_height | int | الارتفاع المطلوب بالبكسل|

@@ -26,10 +26,10 @@ Der Typ PivotFieldSubtotalType macht die folgenden Member verfügbar:
 | MIN | Stellt den minimalen Zwischensummentyp dar.|
 | PRODUCT | Stellt den Zwischensummentyp des Produkts dar.|
 | COUNT_NUMS | Repräsentiert den Zwischensummentyp Count Nums.|
-| STDEV | Stellt den Stdev-Zwischensummentyp dar.|
+| STDEV |Stellt den Stdev-Zwischensummentyp dar.|
 | STDEVP | Stellt den Stdevp-Zwischensummentyp dar.|
 | VAR | Stellt den Var-Zwischensummentyp dar.|
-| VARP |Stellt den Varp-Zwischensummentyp dar.|
+| VARP | Stellt den Varp-Zwischensummentyp dar.|
 
 
 

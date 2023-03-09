@@ -19,14 +19,14 @@ def to_image(self, image_file):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | image_file | str | Имя файла изображения с полным путем.|
 ###  Примечания
 
 Формат изображения указывается с помощью расширения имени файла.
 Например, если указать "myfile.png", то изображение будет сохранено
- в формате PNG. Распознаются следующие расширения файлов:
+ в формате PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
@@ -43,7 +43,7 @@ def to_image(self, image_file, image_type):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | image_file | str | Имя файла изображения с полным путем.|
 | image_type | aspose.cells.drawing.ImageType | Тип изображения, в котором нужно сохранить изображение.|
@@ -67,7 +67,7 @@ def to_image(self, image_file, jpeg_quality):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | image_file | str | Имя файла изображения с полным путем.|
 | jpeg_quality | int | Качество JPEG.|
@@ -87,7 +87,7 @@ def to_image(self, stream, jpeg_quality):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Выходной поток.|
 | jpeg_quality | int | Качество JPEG.|
@@ -107,7 +107,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Выходной поток.|
 | image_type | aspose.cells.drawing.ImageType | Тип изображения, в котором нужно сохранить изображение.|
@@ -132,7 +132,7 @@ def to_image(self, image_file, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | image_file | str | Имя файла изображения с полным путем.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Дополнительные возможности создания образа|
@@ -140,13 +140,13 @@ def to_image(self, image_file, options):
 
 Формат изображения указывается с помощью расширения имени файла.
 Например, если указать "myfile.png", то изображение будет сохранено
- в формате PNG. Распознаются следующие расширения файлов:
+ в формате PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
 Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает.
- Пожалуйста, обратитесь к[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) Больше подробностей.
-###  Пример
+ Пожалуйста, обратитесь к[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)Больше подробностей.
+###  Примеры
 
 Сохраняет в Tiff с разрешением 300 dpi и сжатием CCITT4.
 
@@ -191,19 +191,19 @@ def to_image(self, stream, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Выходной поток.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Дополнительные возможности создания образа|
 ###  Примечания
 
 Тип изображения указывается с помощью `options.ImageType`.
-Поддерживаются следующие форматы:
+ Поддерживаются следующие форматы:
 ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 
 Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает.
- Пожалуйста, обратитесь к[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) Больше подробностей.
+ Пожалуйста, обратитесь к[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)Больше подробностей.
 
 
 ###  Смотрите также

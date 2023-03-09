@@ -18,7 +18,7 @@ def copy(self, source_sheet):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) | ورقة عمل المصدر.|
 
@@ -34,13 +34,13 @@ def copy(self, source_sheet, copy_options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) | ورقة عمل المصدر.|
 | copy_options | [CopyOptions](/cells/ar/python-net/aspose.cells/copyoptions) |  |
 ###  ملاحظات
 
-يمكنك copy البيانات من ورقة عمل أخرى في نفس الملف أو ملف آخر. ومع ذلك ، لا تدعم هذه الطريقة copy الكائنات الرسومية ، مثل التعليقات والصور والمخططات.
+يمكنك copy البيانات من ورقة عمل أخرى في نفس الملف أو ملف آخر.
 
 
 ###  أنظر أيضا

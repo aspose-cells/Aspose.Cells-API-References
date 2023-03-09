@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el marcador de posición del ancla de forma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

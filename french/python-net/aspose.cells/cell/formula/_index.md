@@ -16,7 +16,7 @@ Obtient ou définit un formula du [Cell](/cells/fr/python-net/aspose.cells/cell)
  Une chaîne formula commence toujours par un signe égal (=).
 Et veuillez toujours utiliser la virgule (,) comme délimiteur de paramètres, comme "=SUM(A1, E1, H2)".
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import Workbook

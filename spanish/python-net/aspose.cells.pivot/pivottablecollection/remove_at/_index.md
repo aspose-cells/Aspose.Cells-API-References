@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | el índice de posición en la colección de tabla dinámica|
 | keep_data | bool | Ya sea para mantener los datos de la tabla dinámica|

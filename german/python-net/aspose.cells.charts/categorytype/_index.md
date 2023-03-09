@@ -17,8 +17,8 @@ Der Typ CategoryType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| AUTOMATIC_SCALE | Automatische Skalierung|
-| CATEGORY_SCALE | KategorieSkala|
+| AUTOMATIC_SCALE | Automatische Waage|
+| CATEGORY_SCALE | Kategorie-Skala|
 | TIME_SCALE | Zeitstrahl|
 
 

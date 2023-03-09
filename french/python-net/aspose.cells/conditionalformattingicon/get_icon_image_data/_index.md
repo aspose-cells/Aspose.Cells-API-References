@@ -22,7 +22,7 @@ def get_icon_image_data(self, type, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [IconSetType](/cells/fr/python-net/aspose.cells/iconsettype) | type d'icône|
 | index | int | index des icônes|

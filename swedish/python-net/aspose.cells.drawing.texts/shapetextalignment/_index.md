@@ -23,12 +23,12 @@ Typen ShapeTextAlignment avslöjar följande medlemmar:
 | [text_horizontal_overflow](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/text_horizontal_overflow) | Hämtar och ställer in textrutans horisontella överflödestyp.|
 | [rotation_angle](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/rotation_angle) | Får och ställer in formens rotation.|
 | [text_vertical_type](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) | Hämtar och anger textriktningen.|
-| [auto_size](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) | Indikerar om storleken på formen justeras automatiskt efter dess innehåll.|
+| [auto_size](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |Indikerar om storleken på formen justeras automatiskt efter dess innehåll.|
 | [text_shape_type](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | Hämtar och ställer in transformeringstypen för text.|
-| [top_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Returnerar den övre marginalen i poängenhet|
-| [bottom_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Returnerar bottenmarginalen i poängenhet|
-| [left_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Returnerar den vänstra marginalen i poängenhet|
-| [right_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | Returnerar högermarginalen i poängenhet|
+| [top_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Returnerar den övre marginalen i enheter av poäng|
+| [bottom_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Returnerar bottenmarginalen i enheter av poäng|
+| [left_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Returnerar den vänstra marginalen i enheter av poäng|
+| [right_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | Returnerar högermarginalen i enheter av poäng|
 | [is_auto_margin](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/is_auto_margin) | Anger om marginalen på textramen är automatisk.|
 | [number_of_columns](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/number_of_columns) | Hämtar och ställer in antalet kolumner med text i den avgränsande rektangeln.|
 

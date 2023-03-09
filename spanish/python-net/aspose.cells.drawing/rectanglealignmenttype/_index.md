@@ -18,9 +18,9 @@ El tipo RectangleAlignmentType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | BOTTOM | Abajo|
-| BOTTOM_LEFT | abajo a la izquierda|
+| BOTTOM_LEFT | Abajo a la izquierda|
 | BOTTOM_RIGHT | Abajo a la derecha|
-| CENTER | Centro|
+| CENTER | centro|
 | LEFT | Izquierda|
 | RIGHT | Bien|
 | TOP | Arriba|

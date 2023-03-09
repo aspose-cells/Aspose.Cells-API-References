@@ -11,7 +11,7 @@ is_root: false
 
  DrawObject'in sayfa dizinini gösterir.
 Sayfa dizini sıfıra dayalıdır.
-Bir Sayfa, oluşturulurken birkaç sayfa içerir.
+Bir sayfa, oluşturulurken birkaç sayfa içerir.
 ###  Tanım:
 ```python
 @property

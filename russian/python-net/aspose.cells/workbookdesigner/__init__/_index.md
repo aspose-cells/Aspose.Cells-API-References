@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/ru/python-net/aspose.cells/workbook) | Файл рабочей книги шаблона.|
 

@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta name della forma.
 
-###  Esempio
+###  Esempi
 
 ```python
 

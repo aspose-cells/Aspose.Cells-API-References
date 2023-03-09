@@ -18,7 +18,7 @@ def hide_group_detail(self, is_vertical, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_vertical | bool | Vrai, réduire les lignes groupées.|
 | index | int | L'index de ligne/colonne|

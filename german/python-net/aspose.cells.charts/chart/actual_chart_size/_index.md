@@ -13,7 +13,7 @@ Ruft die tatsächliche Größe des Diagramms in Pixeleinheiten ab.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die Methode Chart.GetActualSize().
  Diese Property wird 12 Monate später seit Juli 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -18,7 +18,7 @@ def remove_filter(self, field_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | field_index | int | L'indice di filtro specifico|
 
@@ -34,7 +34,7 @@ def remove_filter(self, field_index, criteria):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | field_index | int | L'intero offset del campo su cui si desidera basare il filtro<br/> (da sinistra dell'elenco; il campo più a sinistra è il campo 0).|
 | criteria | str | I criteri specificati (una stringa; ad esempio, "101").<br/> Può solo essere nullo o essere uno dei valori delle celle in questa colonna.|

@@ -1,13 +1,13 @@
 ﻿---
 title: CellBorderType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1830
 url: /zh/python-net/aspose.cells/cellbordertype/
 is_root: false
 ---
-##  CellBorderType枚举
+## CellBorderType枚举
 枚举单元格的边框类型。
 
 

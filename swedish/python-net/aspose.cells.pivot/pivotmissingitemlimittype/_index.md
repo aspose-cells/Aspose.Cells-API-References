@@ -19,7 +19,7 @@ Typen PivotMissingItemLimitType avslöjar följande medlemmar:
 | :- | :- |
 | AUTOMATIC | Standardantalet unika objekt per pivotfält tillåts.|
 | MAX | Det högsta tillåtna antalet unika objekt per pivotfält (>32 500).|
-| NONE |Inga unika objekt per PivotField tillåtna.|
+| NONE | Inga unika objekt per PivotField tillåtna.|
 
 
 

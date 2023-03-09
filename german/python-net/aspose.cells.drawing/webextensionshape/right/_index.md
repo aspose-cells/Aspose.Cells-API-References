@@ -11,7 +11,7 @@ is_root: false
 
 Repräsentiert die Breite des horizontalen Versatzes der Form von ihrer unteren Eckspalte right in Pixeleinheiten.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

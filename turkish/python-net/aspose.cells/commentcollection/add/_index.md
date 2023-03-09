@@ -22,11 +22,11 @@ def add(self, cell_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell_name | str | Cell adı.|
 
-###  Örnek
+###  örnekler
 
 ```python
 
@@ -53,12 +53,12 @@ def add(self, row, column):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Cell satır dizini.|
 | column | int | Cell sütun dizini.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

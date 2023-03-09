@@ -20,7 +20,7 @@ TiffCompression türü aşağıdaki üyeleri gösterir:
 | COMPRESSION_NONE | Sıkıştırma olmadığını belirtir.|
 | COMPRESSION_RLE | RLE sıkıştırma şemasını belirtir.|
 | COMPRESSION_LZW | LZW sıkıştırma şemasını belirtir.|
-| COMPRESSION_CCITT3 | CCITT3 sıkıştırma şemasını belirtir.|
+| COMPRESSION_CCITT3 |CCITT3 sıkıştırma şemasını belirtir.|
 | COMPRESSION_CCITT4 | CCITT4 sıkıştırma şemasını belirtir.|
 
 

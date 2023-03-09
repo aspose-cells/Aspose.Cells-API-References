@@ -11,7 +11,7 @@ is_root: false
 
 Falso, Aspose.Cells establecerá el tipo de DataColumn según el tipo de valor de la primera fila para el rendimiento.
  Cierto, Aspose.Cells verificará si el tipo de valor en la columna se mezcla antes de establecer el tipo de DataColumn
-Y el tipo de valor se mezcla, el tipo de DataColumn será una cadena.
+Y el tipo de valor es mixto, el tipo de DataColumn será una cadena.
 ###  Definición:
 ```python
 @property

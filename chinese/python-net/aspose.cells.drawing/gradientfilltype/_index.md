@@ -1,13 +1,13 @@
 ﻿---
 title: GradientFillType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 870
 url: /zh/python-net/aspose.cells.drawing/gradientfilltype/
 is_root: false
 ---
-##  GradientFillType枚举
+## GradientFillType枚举
 代表所有渐变填充类型。
 
 

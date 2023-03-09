@@ -14,7 +14,7 @@ Omfånget av celler som ska exporteras.
 ###  Anmärkningar
 
 Om det exporterade området har angetts, [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/sv/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-kommer inte att få effekt.
+får ingen effekt.
 ###  Definition:
 ```python
 @property

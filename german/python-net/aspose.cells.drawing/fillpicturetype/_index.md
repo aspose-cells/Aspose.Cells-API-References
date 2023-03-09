@@ -19,7 +19,7 @@ Der Typ FillPictureType macht die folgenden Member verfügbar:
 | :- | :- |
 | STRETCH | Strecken|
 | STACK | Stapel|
-| STACK_AND_SCALE | StackAndScale|
+| STACK_AND_SCALE | Stapeln und skalieren|
 
 
 

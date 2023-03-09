@@ -18,7 +18,7 @@ def set_link(self, uri, name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | uri | str | L'URI dello spazio dei nomi dello smart tag.|
 | name | str | Il nome dello smart tag.|

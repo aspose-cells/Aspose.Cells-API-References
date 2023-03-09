@@ -22,10 +22,10 @@ def convert_a1_formula_to_r1c1(self, formula, row, column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | صيغة A1.|
-| row | int |فهرس صف الخلية.|
+| row | int | فهرس صف الخلية.|
 | column | int | فهرس العمود للخلية.|
 
 

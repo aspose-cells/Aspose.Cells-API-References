@@ -19,9 +19,9 @@ def set_first_page_header(self, section, header_script):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| section | int |0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
+| section | int | 0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
 | header_script | str | Başlık biçimi komut dosyası.|
 
 

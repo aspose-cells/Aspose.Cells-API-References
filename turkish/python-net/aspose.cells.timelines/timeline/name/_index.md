@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen Zaman Çizelgesinin name'ini döndürür veya ayarlar
 
-###  Örnek
+###  örnekler
 
 ```python
 

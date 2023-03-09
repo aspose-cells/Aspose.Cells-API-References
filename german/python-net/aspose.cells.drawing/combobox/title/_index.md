@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die title (Beschriftung) des aktuellen Formobjekts an.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

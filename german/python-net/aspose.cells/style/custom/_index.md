@@ -10,7 +10,7 @@ is_root: false
 ##  custom Eigentum
 
 Repräsentiert die Zahlenformatzeichenfolge custom dieses Stilobjekts.
-Wenn das Zahlenformat custom nicht festgelegt ist (z. B. das Zahlenformat ist integriert), wird "" zurückgegeben.
+Wenn das Zahlenformat custom nicht eingestellt ist (z. B. das Zahlenformat ist eingebaut), wird "" zurückgegeben.
 
 ###  Bemerkungen
 

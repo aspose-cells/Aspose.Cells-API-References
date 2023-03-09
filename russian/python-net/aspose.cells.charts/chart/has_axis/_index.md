@@ -18,13 +18,13 @@ def has_axis(self, aixs_type, is_primary):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | aixs_type | [AxisType](/cells/ru/python-net/aspose.cells.charts/axistype) |  |
 | is_primary | bool |  |
 ###  Примечания
 
-Обычно Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded не являются осями.
+Обычно Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DonutExploded не являются осями.
 
 
 ###  Смотрите также

@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/pagesetup/clear_header_footer/
 is_root: false
 ---
 ##  clear_header_footer() {#}
-Üst bilgi ve alt bilgi ayarını temizler.
+Üst bilgi ve alt bilgi ayarlarını temizler.
 
 
 

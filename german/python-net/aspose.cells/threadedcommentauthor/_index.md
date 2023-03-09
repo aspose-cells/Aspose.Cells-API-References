@@ -19,7 +19,7 @@ Der Typ ThreadedCommentAuthor macht die folgenden Member verfügbar:
 | :- | :- |
 | [name](/cells/de/python-net/aspose.cells/threadedcommentauthor/name) | Ruft den Namen ab und legt ihn fest.|
 | [user_id](/cells/de/python-net/aspose.cells/threadedcommentauthor/user_id) | Ruft die ID des Benutzers ab und legt sie fest.|
-| [provider_id](/cells/de/python-net/aspose.cells/threadedcommentauthor/provider_id) | Ruft die ID des Anbieters ab.|
+| [provider_id](/cells/de/python-net/aspose.cells/threadedcommentauthor/provider_id) | Ruft die Identität des Anbieters ab.|
 
 
 

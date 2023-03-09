@@ -22,16 +22,16 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
-| top | int | Representa el desplazamiento vertical de Spinner desde su fila izquierda, en unidades de píxel.|
-| upper_left_column | int |Índice de la columna superior izquierda.|
+| top | int |Representa el desplazamiento vertical de Spinner desde su fila izquierda, en unidades de píxel.|
+| upper_left_column | int | Índice de la columna superior izquierda.|
 | left | int | Representa el desplazamiento horizontal de Spinner desde su columna izquierda, en unidades de píxel.|
 | height | int | Representa la altura de Spinner, en unidades de píxel.|
 | width | int | Representa el ancho de Spinner, en unidades de píxel.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

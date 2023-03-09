@@ -18,7 +18,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [font](/cells/ru/python-net/aspose.cells.charts/ticklabels/font) | Возвращает объект [TickLabels.font](/cells/ru/python-net/aspose.cells.charts/ticklabels#font), представляющий шрифт указанного объекта TickLabels.|
-| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта. Значение по умолчанию верно.|
+| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта.|
 | [background_mode](/cells/ru/python-net/aspose.cells.charts/ticklabels/background_mode) | Получает и задает режим отображения фона|
 | [rotation_angle](/cells/ru/python-net/aspose.cells.charts/ticklabels/rotation_angle) | Представляет угол поворота текста по часовой стрелке.|
 | [is_automatic_rotation](/cells/ru/python-net/aspose.cells.charts/ticklabels/is_automatic_rotation) | Указывает, является ли угол поворота автоматическим|

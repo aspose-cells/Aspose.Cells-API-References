@@ -18,7 +18,7 @@ def protect(self, islocked_for_viewing, password):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | islocked_for_viewing | bool | indique si le projet est verrouillé pour l'affichage.|
 | password | str | Si la valeur est nulle, déprotége ce projet VBA, sinon projette ce projet VBA.|

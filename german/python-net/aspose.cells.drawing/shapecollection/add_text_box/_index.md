@@ -25,13 +25,13 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| top | int |Repräsentiert den vertikalen Versatz des Textfelds von seiner linken Zeile in Pixeleinheiten.|
-| upper_left_column | int |Spaltenindex oben links.|
+| top | int | Repräsentiert den vertikalen Versatz des Textfelds von seiner linken Zeile in Pixeleinheiten.|
+| upper_left_column | int | Spaltenindex oben links.|
 | left | int | Repräsentiert den horizontalen Versatz des Textfelds von seiner linken Spalte in Pixeleinheiten.|
 | height | int | Repräsentiert die Höhe des Textfelds in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite des Textfelds in Pixeleinheiten.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

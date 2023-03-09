@@ -14,19 +14,19 @@ is_root: false
 | :- | :- |
 | [WebExtension](/cells/tr/python-net/aspose.cells.webextensions/webextension) | Bir Office Eklenti örneğini temsil eder.|
 | [WebExtensionBinding](/cells/tr/python-net/aspose.cells.webextensions/webextensionbinding) | Bir Office Eklentisi ile belgedeki veriler arasındaki bağlayıcı ilişkiyi temsil eder.|
-| [WebExtensionBindingCollection](/cells/tr/python-net/aspose.cells.webextensions/webextensionbindingcollection) | Bir Office Eklentisi ile belgedeki veriler arasındaki bağlayıcı ilişkilerin listesini temsil eder.|
-| [WebExtensionCollection](/cells/tr/python-net/aspose.cells.webextensions/webextensioncollection) | Web uzantısı listesini temsil eder.|
+| [WebExtensionBindingCollection](/cells/tr/python-net/aspose.cells.webextensions/webextensionbindingcollection) |Bir Office Eklentisi ile belgedeki veriler arasındaki bağlayıcı ilişkilerin listesini temsil eder.|
+| [WebExtensionCollection](/cells/tr/python-net/aspose.cells.webextensions/webextensioncollection) | Web uzantılarının listesini temsil eder.|
 | [WebExtensionProperty](/cells/tr/python-net/aspose.cells.webextensions/webextensionproperty) | Bir Office Eklentisi özel özelliğini temsil eder.|
 | [WebExtensionPropertyCollection](/cells/tr/python-net/aspose.cells.webextensions/webextensionpropertycollection) | Web uzantısı özelliklerinin listesini temsil eder.|
-| [WebExtensionReference](/cells/tr/python-net/aspose.cells.webextensions/webextensionreference) | Uzantının sağlayıcı konumunu ve sürümünü tanımlamayı temsil eder.|
-| [WebExtensionReferenceCollection](/cells/tr/python-net/aspose.cells.webextensions/webextensionreferencecollection) | Web uzantısı referansı listesini temsil eder.|
+| [WebExtensionReference](/cells/tr/python-net/aspose.cells.webextensions/webextensionreference) | Temsil eder, uzantının sağlayıcı konumunu ve sürümünü tanımlar.|
+| [WebExtensionReferenceCollection](/cells/tr/python-net/aspose.cells.webextensions/webextensionreferencecollection) | Web uzantısı referanslarının listesini temsil eder.|
 | [WebExtensionTaskPane](/cells/tr/python-net/aspose.cells.webextensions/webextensiontaskpane) | Kalıcı bir görev bölmesi nesnesini temsil eder.|
-| [WebExtensionTaskPaneCollection](/cells/tr/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Görev bölmesinin listesini temsil eder.|
+| [WebExtensionTaskPaneCollection](/cells/tr/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Görev bölmelerinin listesini temsil eder.|
 
 
 ###  Numaralandırmalar
-| numaralandırma| Tanım|
+|numaralandırma| Tanım|
 | :- | :- |
-| [WebExtensionStoreType](/cells/tr/python-net/aspose.cells.webextensions/webextensionstoretype) |Web uzantısının mağaza türünü temsil eder.|
+| [WebExtensionStoreType](/cells/tr/python-net/aspose.cells.webextensions/webextensionstoretype) | Web uzantısının mağaza türünü temsil eder.|
 
 

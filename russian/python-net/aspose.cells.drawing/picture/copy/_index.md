@@ -18,12 +18,12 @@ def copy(self, source, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source | [Picture](/cells/ru/python-net/aspose.cells.drawing/picture) | Исходная картинка.|
 | options | [CopyOptions](/cells/ru/python-net/aspose.cells/copyoptions) | Варианты копирования.|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import CopyOptions, Workbook

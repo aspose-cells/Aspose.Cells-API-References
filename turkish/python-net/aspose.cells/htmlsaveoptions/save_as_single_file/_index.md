@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  save_as_single_file mülk
 
-Html'nin tek dosya olarak kaydedilip kaydedilmediğini gösterir.
+Html'nin tek bir dosya olarak kaydedilip kaydedilmeyeceğini belirtir.
 Varsayılan değer yanlıştır.
 
 ###  Notlar
 
 Çalışma kitabında birden çok çalışma sayfası veya resimler gibi gerekli diğer kaynaklar varsa,
- genellikle bu çalışma sayfalarının ve diğer kaynakların ayrı dosyalara kaydedilmesi gerekir.
+Genellikle bu çalışma sayfalarının ve diğer kaynakların ayrı dosyalara kaydedilmesi gerekir.
 Bazı senaryolarda, örneğin aktarım kolaylığı için kullanıcının yalnızca bir sonuç dosyası alması gerekebilir.
 Eğer öyleyse, kullanıcı bu özelliği true olarak ayarlayabilir.
 ###  Tanım:

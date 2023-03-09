@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles mülk
 
 Çalışma sayfası için yazdırma başlıklarının temel alınarak ayarlanıp ayarlanmadığını gösterir.
-PivotTable raporunda. Varsayılan değer yanlıştır.
+PivotTable raporunda.
 ###  Tanım:
 ```python
 @property

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_bogus_row_data Eigentum
 
-Gibt an, ob falsche Daten in der unteren Zeile exportiert werden. Der Standardwert ist true. Wenn Sie die HTML- oder MHT-Datei importieren möchten
+Gibt an, ob falsche Daten in der unteren Zeile exportiert werden. Der Standardwert ist wahr. Wenn Sie die HTML- oder MHT-Datei importieren möchten
 um zu übertreffen, behalten Sie bitte den Standardwert bei.
 ###  Definition:
 ```python

@@ -18,12 +18,12 @@ def set_locked_property(self, type, value):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/ru/python-net/aspose.cells.drawing/shapelocktype) | Запертый тип.|
 | value | bool | Стоимость имущества.|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import ShapeLockType

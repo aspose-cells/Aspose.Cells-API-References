@@ -13,7 +13,7 @@ Obtiene todos los precedentes (referencia a celdas en el libro de trabajo actual
 
 ###  Devoluciones
 
-Enumerador para enumerar todas las referencias (ReferredArea)
+Enumerador para enumerar todas las referencias (Referred Area)
 
 
 ```python
@@ -27,7 +27,7 @@ def get_precedents_in_calculation(self):
 Este método solo puede funcionar con la situación de que [FormulaSettings.enable_calculation_chain](/cells/es/python-net/aspose.cells/formulasettings#enable_calculation_chain)
 es cierto para el libro de trabajo y el libro de trabajo se ha calculado completamente.
 Si esta celda no es una fórmula o no hace referencia a ninguna otra celda, se devolverá un valor nulo.
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

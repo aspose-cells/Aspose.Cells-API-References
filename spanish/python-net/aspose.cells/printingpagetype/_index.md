@@ -19,7 +19,7 @@ El tipo PrintingPageType expone los siguientes miembros:
 | :- | :- |
 | DEFAULT | Imprime todas las páginas.|
 | IGNORE_BLANK | No imprima las páginas en las que las celdas están en blanco.|
-| IGNORE_STYLE | No imprima las páginas cuyas celdas solo contienen estilos.|
+| IGNORE_STYLE |No imprima las páginas cuyas celdas solo contienen estilos.|
 
 
 

@@ -23,11 +23,11 @@ Der Typ ControlType macht die folgenden Member verfügbar:
 | LIST_BOX | Listenfeld|
 | TEXT_BOX | Textfeld|
 | SPIN_BUTTON | Spinner|
-| RADIO_BUTTON | Radio knopf|
+| RADIO_BUTTON | Radio Knöpfe|
 | LABEL | Etikett|
 | IMAGE | Bild|
 | TOGGLE_BUTTON | Umschaltknopf|
-| SCROLL_BAR |Scrollleiste|
+| SCROLL_BAR | Scrollleiste|
 | UNKNOWN | Unbekannt|
 
 

@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/imagesaveoptions/__init__/
 is_root: false
 ---
 ##  ImageSaveOptions() {#}
-Создает параметры для сохранения файла изображения.
+Создает параметры для сохранения файлов изображений.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  ImageSaveOptions(save_format) {#SaveFormat}
-Создает параметры для сохранения файла изображения.
+Создает параметры для сохранения файлов изображений.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/ru/python-net/aspose.cells/saveformat) | Формат файла.<br/> Это должен быть tiff или svg.|
 

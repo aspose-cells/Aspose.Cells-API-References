@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_category_name fastighet
 
-Representerar visningsbeteendet för ett specificerat diagrams dataetikettkategorinamn. Sant för att visa kategorinamnet för dataetiketterna på ett diagram. Falskt att dölja.
+Representerar ett specificerat diagrams dataetikett kategorinamn visningsbeteende.True för att visa kategorinamnet för dataetiketterna på ett diagram.False att dölja.
 ###  Definition:
 ```python
 @property

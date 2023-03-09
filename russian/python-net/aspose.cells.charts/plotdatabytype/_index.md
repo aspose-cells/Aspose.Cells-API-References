@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.charts/plotdatabytype/
 is_root: false
 ---
 ##  PlotDataByType перечисление
-Представляет тип графика данных по строке или столбцу.
+Представляет тип данных, отображаемых по строке или столбцу.
 
 
 

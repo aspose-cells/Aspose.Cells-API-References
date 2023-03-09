@@ -18,13 +18,13 @@ def set_linked_cell(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| formula | str |Kontrolün değerine bağlı aralık.|
+| formula | str | Kontrolün değerine bağlı aralık.|
 | is_r1c1 | bool | Formülün R1C1 olarak biçimlendirilmesi gerekip gerekmediği.|
 | is_local | bool | Formülün yerel ayarlara göre biçimlendirilmesi gerekip gerekmediği.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

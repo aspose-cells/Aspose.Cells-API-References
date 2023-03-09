@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  refresh_on_load propiedad
 
-True si esta conexión debe actualizarse al abrir el archivo; en caso contrario, falso.
+True si esta conexión debe actualizarse al abrir el archivo;
 ###  Definición:
 ```python
 @property

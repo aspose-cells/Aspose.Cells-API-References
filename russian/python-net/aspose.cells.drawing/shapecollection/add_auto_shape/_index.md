@@ -22,19 +22,19 @@ def add_auto_shape(self, type, upper_left_row, top, upper_left_column, left, hei
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/ru/python-net/aspose.cells.drawing/autoshapetype) | Автоматический тип формы.|
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение Shape от его левой строки в единицах пикселя.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Представляет горизонтальное смещение Shape от его левого столбца в пикселях.|
 | height | int | Представляет высоту объекта Shape в пикселях.|
 | width | int | Представляет ширину Shape в пикселях.|
 ###  Примечания
 
 Тип не может быть Chart/Comment/Picture/OleObject/Polygon/DialogBox.
-###  Пример
+###  Примеры
 
 
 ```python

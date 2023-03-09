@@ -17,7 +17,7 @@ DefaultEditLanguage türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| AUTO |Metnin kendisine göre otomatik olarak algılanan düzenleme dilini temsil eder.|
+| AUTO | Metnin kendisine göre otomatik olarak algılanan düzenleme dilini temsil eder.|
 | ENGLISH | İngiliz dilini temsil eder.|
 | CJK | Çince, Japonca, Kore dilini temsil eder.|
 

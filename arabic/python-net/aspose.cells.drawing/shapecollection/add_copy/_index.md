@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/shapecollection/add_copy/
 is_root: false
 ---
 ##  add_copy(source_shape, upper_left_row, top, upper_left_column, left) {#Shape-int-int-int-int}
-يضيف شكلاً ونسخه إلى ورقة العمل.
+يضيف شكلاً وينسخه إلى ورقة العمل.
 
 
 ###  عائدات
@@ -22,15 +22,15 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | source_shape | [Shape](/cells/ar/python-net/aspose.cells.drawing/shape) | شكل المصدر.|
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| top | int | يمثل الإزاحة الرأسية لخانة الاختيار من صفها الأيسر ، بوحدة البكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| top | int |يمثل الإزاحة الرأسية لخانة الاختيار من صفها الأيسر ، بوحدة البكسل.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | left | int | يمثل الإزاحة الأفقية لمربع النص من العمود الأيسر ، بوحدة البكسل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

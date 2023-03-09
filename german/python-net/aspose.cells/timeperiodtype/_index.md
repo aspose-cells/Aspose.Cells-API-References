@@ -21,10 +21,10 @@ Der Typ TimePeriodType macht die folgenden Member verfügbar:
 | :- | :- |
 | TODAY | Heutiges Datum.|
 | YESTERDAY | Das gestrige Datum.|
-| TOMORROW | Das Datum von morgen.|
+| TOMORROW |Das Datum von morgen.|
 | LAST_7_DAYS | Ein Datum in den letzten sieben Tagen.|
 | THIS_MONTH | Ein Datum, das in diesem Kalendermonat liegt.|
-| LAST_MONTH |Ein Datum, das im letzten Kalendermonat liegt.|
+| LAST_MONTH | Ein Datum, das im letzten Kalendermonat liegt.|
 | NEXT_MONTH | Ein Datum, das im nächsten Kalendermonat liegt.|
 | THIS_WEEK | Ein Datum, das diese Woche stattfindet.|
 | LAST_WEEK | Ein Datum der letzten Woche.|

@@ -18,8 +18,8 @@ Il tipo Hyperlink espone i membri seguenti:
 | Proprietà| Descrizione|
 | :- | :- |
 | [address](/cells/it/python-net/aspose.cells/hyperlink/address) | Rappresenta l'indirizzo di un collegamento ipertestuale.|
-| [text_to_display](/cells/it/python-net/aspose.cells/hyperlink/text_to_display) | Rappresenta il testo da visualizzare per il collegamento ipertestuale specificato. Il valore predefinito è l'indirizzo del collegamento ipertestuale.|
-| [area](/cells/it/python-net/aspose.cells/hyperlink/area) | Ottiene l'intervallo del collegamento ipertestuale.|
+| [text_to_display](/cells/it/python-net/aspose.cells/hyperlink/text_to_display) | Rappresenta il testo da visualizzare per il collegamento ipertestuale specificato.|
+| [area](/cells/it/python-net/aspose.cells/hyperlink/area) | Ottiene l'intervallo di collegamenti ipertestuali.|
 | [screen_tip](/cells/it/python-net/aspose.cells/hyperlink/screen_tip) | Restituisce o imposta il testo della descrizione comando per il collegamento ipertestuale specificato.|
 | [link_type](/cells/it/python-net/aspose.cells/hyperlink/link_type) | Ottiene il tipo di collegamento.|
 
@@ -31,7 +31,7 @@ Il tipo Hyperlink espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

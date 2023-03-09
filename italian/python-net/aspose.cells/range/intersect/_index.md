@@ -22,13 +22,13 @@ def intersect(self, range):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | range | [Range](/cells/it/python-net/aspose.cells/range) | La gamma intersecante.|
 ###  Osservazioni
 
 Se i due intervalli non sono intersecati, restituisce null.
-###  Esempio
+###  Esempi
 
 
 ```python

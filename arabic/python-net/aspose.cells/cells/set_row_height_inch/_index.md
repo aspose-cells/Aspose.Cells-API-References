@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/set_row_height_inch/
 is_root: false
 ---
 ##  set_row_height_inch(row, inches) {#int-float}
-يضبط ارتفاع الصف بوحدة البوصة.
+يضبط ارتفاع الصف بوحدات البوصة.
 
 
 
@@ -18,10 +18,10 @@ def set_row_height_inch(self, row, inches):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
-| inches | float | عدد البوصات. يجب أن يكون بين 0 و 409.5 / 72.|
+| inches | float | عدد البوصات. يجب أن تكون بين 0 و 409.5 / 72.|
 
 
 

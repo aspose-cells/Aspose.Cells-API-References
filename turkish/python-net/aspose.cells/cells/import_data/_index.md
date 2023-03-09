@@ -22,7 +22,7 @@ def import_data(self, table, first_row, first_column, options):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | table | [ICellsDataTable](/cells/tr/python-net/aspose.cells/icellsdatatable) | Özel veri tablosu.|
 | first_row | int | İlk satır dizini.|

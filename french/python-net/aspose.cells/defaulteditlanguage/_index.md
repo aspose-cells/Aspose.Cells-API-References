@@ -17,7 +17,7 @@ Le type DefaultEditLanguage expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| AUTO |Représente la détection automatique de la langue d'édition en fonction du texte lui-même.|
+| AUTO | Représente la langue d'édition à détection automatique en fonction du texte lui-même.|
 | ENGLISH | Représente la langue anglaise.|
 | CJK | Représente la langue chinoise, japonaise, coréenne.|
 

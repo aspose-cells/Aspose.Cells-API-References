@@ -18,12 +18,12 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color& | لون واحد متدرج.|
-| color2 | aspose.pydrawing.Color& | اثنين من لون التدرج.|
+| color2 | aspose.pydrawing.Color& | لونان متدرجان.|
 | gradient_style_type | any | أسلوب التظليل المتدرج.|
-| variant | any |متغير التدرج.|
+| variant | any | متغير التدرج.|
 ###  ملاحظات
 
 ملاحظة: هذه الطريقة عفا عليها الزمن الآن.

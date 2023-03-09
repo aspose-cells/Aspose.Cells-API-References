@@ -17,7 +17,7 @@ El tipo Geometry expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [shape_adjust_values](/cells/es/python-net/aspose.cells.drawing/geometry/shape_adjust_values) | Obtiene una colección de valor de ajuste de forma|
+| [shape_adjust_values](/cells/es/python-net/aspose.cells.drawing/geometry/shape_adjust_values) | Obtiene una colección de valores de ajuste de forma|
 
 
 

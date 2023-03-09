@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compression_type propriété
 
-Obtient et définit le type de compression pour le fichier ooxml.
+Obtient et définit le type de compression des fichiers ooxml.
 
 ###  Remarques
 

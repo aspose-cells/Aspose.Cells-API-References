@@ -14,7 +14,7 @@ Indica se filtrare automaticamente i dati durante il caricamento dei file.
 ###  Osservazioni
 
 A volte, sebbene sia impostato il filtro automatico, le righe corrispondenti non sono nascoste nel file.
-Ora funziona solo per il file SpreadSheetML.
+Ora funziona solo per i file SpreadSheetML.
 ###  Definizione:
 ```python
 @property

@@ -14,7 +14,7 @@ La valeur par défaut est faux.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
 veuillez utiliser la propriété AutoFitterOptions.AutoFitMergedCellsType à la place.
  Cette propriété sera supprimée 12 mois plus tard depuis décembre 2018.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

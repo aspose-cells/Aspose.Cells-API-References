@@ -1,6 +1,6 @@
 ﻿---
 title: window_height_inch 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 660

@@ -1,13 +1,13 @@
 ﻿---
 title: ChartLineFormattingType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 410
 url: /zh/python-net/aspose.cells.charts/chartlineformattingtype/
 is_root: false
 ---
-##  ChartLineFormattingType枚举
+## ChartLineFormattingType枚举
 表示图表线条的线条格式类型。
 
 

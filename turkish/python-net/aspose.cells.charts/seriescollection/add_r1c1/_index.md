@@ -22,10 +22,10 @@ def add_r1c1(self, area, is_vertical):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | area | str | Veri serisinin çizileceği değerleri belirtir|
-| is_vertical | bool | Bir dizi hücre değeri aralığından serinin satıra mı yoksa sütuna göre mi çizileceğini belirtir.|
+| is_vertical | bool | Serinin bir dizi hücre değeri aralığından satıra mı yoksa sütuna göre mi çizileceğini belirtir.|
 ###  Notlar
 
 

@@ -21,7 +21,7 @@ is_root: false
 
 
 
-Получает объект [Row](/cells/ru/python-net/aspose.cells/row) по заданному индексу строки. Объект Row с заданным индексом строки будет создан, если он не существовал ранее.
+Получает объект [Row](/cells/ru/python-net/aspose.cells/row) по заданному индексу строки.
 ###  Индексатор
 | Имя| Описание|
 | :- | :- |
@@ -37,7 +37,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

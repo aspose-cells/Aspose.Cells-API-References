@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  embed_standard_windows_fonts propriété
 
- True pour incorporer des polices True Type.
+True pour incorporer des polices True Type.
 Affecte uniquement les caractères ASCII 32-127.
 Les polices pour les codes de caractères supérieurs à 127 sont toujours intégrées.
 Les polices sont toujours intégrées pour la norme PDF/A-1a, PDF/A-1b.

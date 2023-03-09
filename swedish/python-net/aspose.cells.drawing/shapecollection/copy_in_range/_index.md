@@ -18,7 +18,7 @@ def copy_in_range(self, source_shapes, ca, dest_row, dest_column, is_contained):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source_shapes | [ShapeCollection](/cells/sv/python-net/aspose.cells.drawing/shapecollection) | Källformer.|
 | ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Källomfånget.|

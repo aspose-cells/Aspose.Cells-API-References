@@ -11,7 +11,7 @@ is_root: false
 
 Representa las opciones de texto de la forma.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.pydrawing import Color

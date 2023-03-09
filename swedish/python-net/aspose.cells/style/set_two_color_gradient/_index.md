@@ -18,7 +18,7 @@ def set_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color | En gradientfärg.|
 | color2 | aspose.pydrawing.Color | Två gradientfärger.|

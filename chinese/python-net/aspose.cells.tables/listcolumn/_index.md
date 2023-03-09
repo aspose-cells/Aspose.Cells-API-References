@@ -1,13 +1,13 @@
 ﻿---
 title: ListColumn类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.tables/listcolumn/
 is_root: false
 ---
-##  ListColumn类
+## ListColumn类
 代表列表中的一列。
 
 

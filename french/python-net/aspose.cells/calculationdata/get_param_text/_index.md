@@ -22,7 +22,7 @@ def get_param_text(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | index du paramètre (base 0)|
 

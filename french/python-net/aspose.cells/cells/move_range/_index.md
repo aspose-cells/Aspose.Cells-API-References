@@ -18,7 +18,7 @@ def move_range(self, source_area, dest_row, dest_column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | source_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | La plage qui doit être déplacée.|
 | dest_row | int | La ligne dest.|

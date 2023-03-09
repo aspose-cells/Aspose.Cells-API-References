@@ -27,11 +27,11 @@ El tipo FindOptions expone los siguientes miembros:
 | [case_sensitive](/cells/es/python-net/aspose.cells/findoptions/case_sensitive) | Indica si la cadena buscada distingue entre mayúsculas y minúsculas.|
 | [look_at_type](/cells/es/python-net/aspose.cells/findoptions/look_at_type) | Mira tipo.|
 | [is_range_set](/cells/es/python-net/aspose.cells/findoptions/is_range_set) | Indica si el rango buscado está establecido.|
-| [search_next](/cells/es/python-net/aspose.cells/findoptions/search_next) | Orden de búsqueda. Verdadero: buscar a continuación. Falso: buscar anterior.|
+| [search_next](/cells/es/python-net/aspose.cells/findoptions/search_next) | Orden de búsqueda Verdadero: buscar siguiente Falso: buscar anterior|
 | [search_backward](/cells/es/python-net/aspose.cells/findoptions/search_backward) | Si busca celdas hacia atrás.|
 | [seach_order_by_rows](/cells/es/python-net/aspose.cells/findoptions/seach_order_by_rows) | Indica si el orden de búsqueda es por filas o por columnas.|
 | [look_in_type](/cells/es/python-net/aspose.cells/findoptions/look_in_type) | Mira en tipo.|
-| [regex_key](/cells/es/python-net/aspose.cells/findoptions/regex_key) | Indica si la clave buscada es expresión regular.<br/> Si es verdadero, la clave buscada se tomará como expresión regular y se analizará. De lo contrario, la clave se analizará de acuerdo con las reglas de MS Excel.|
+| [regex_key](/cells/es/python-net/aspose.cells/findoptions/regex_key) | Indica si la clave buscada es expresión regular.<br/>Si es verdadero, la clave buscada se tomará como expresión regular y se analizará.|
 | [value_type_sensitive](/cells/es/python-net/aspose.cells/findoptions/value_type_sensitive) | Indica si el tipo de valor de celda buscado debe ser el mismo que la clave buscada.|
 | [style](/cells/es/python-net/aspose.cells/findoptions/style) | El formato a buscar.|
 | [convert_numeric_data](/cells/es/python-net/aspose.cells/findoptions/convert_numeric_data) | Obtiene o establece un valor que indica si se está convirtiendo el valor de cadena buscado en datos numéricos.|
@@ -45,7 +45,7 @@ El tipo FindOptions expone los siguientes miembros:
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import CellArea, FindOptions, LookInType, Workbook

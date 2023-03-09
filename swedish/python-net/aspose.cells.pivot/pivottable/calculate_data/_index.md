@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.pivot/pivottable/calculate_data/
 is_root: false
 ---
 ##  calculate_data() {#}
-Beräknar pivotables data till celler.
+Beräknar pivottabellens data till celler.
 
 
 

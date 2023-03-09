@@ -36,7 +36,7 @@ il est toujours considéré comme les précédents de la formule. Pour obtenir l
 * Renvoie null s'il ne s'agit pas d'une cellule de formule. Toutes les références apparaissant dans la formule de cette cellule seront renvoyées, qu'elles soient référencées ou non lors du calcul.
 Par exemple, bien que la cellule A2 dans la formule "=IF(TRUE,A1,A2)" ne soit pas utilisée lors du calcul,
 il est toujours considéré comme les précédents de la formule. Pour obtenir les références qui influencent uniquement le calcul, veuillez utiliser [Cell.get_precedents_in_calculation()](/cells/fr/python-net/aspose.cells/cell/get_precedents_in_calculation).
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells import CellsHelper, Workbook

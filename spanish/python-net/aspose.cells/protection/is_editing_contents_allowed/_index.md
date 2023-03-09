@@ -13,8 +13,8 @@ Representa si el usuario puede editar el contenido de las celdas bloqueadas en u
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
- utilice la propiedad Protection.AllowEditingContent.
+ NOTA: Este miembro ahora está obsoleto.
+ por favor use Protección Permitir la propiedad de edición de contenido.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

@@ -18,7 +18,7 @@ def set_error_check(self, error_check_type, is_check):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/sv/python-net/aspose.cells/errorchecktype) | feltyp kan kontrolleras.|
 | is_check | bool | sant om given feltyp måste kontrolleras (grön triangel kommer att visas för cellen om kontrollen misslyckades).|

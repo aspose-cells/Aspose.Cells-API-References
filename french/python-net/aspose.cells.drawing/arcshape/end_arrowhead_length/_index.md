@@ -13,7 +13,7 @@ Obtient et définit la longueur de la tête de flèche de fin de la ligne.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète.
  veuillez utiliser la propriété Shape.Line.EndArrowheadLength.
  Cette propriété sera supprimée 12 mois plus tard depuis août 2016.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

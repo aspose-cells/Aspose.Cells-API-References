@@ -18,7 +18,7 @@ def start_access_cache(self, opts):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | opts | [AccessCacheOptions](/cells/ar/python-net/aspose.cells/accesscacheoptions) | خيارات الوصول إلى البيانات|
 ###  ملاحظات

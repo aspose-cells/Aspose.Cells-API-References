@@ -1,6 +1,6 @@
 ﻿---
 title: get_column_width方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 350
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-栏宽
+列宽
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width(self, column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | column | int |列索引|
 

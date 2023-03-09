@@ -18,9 +18,9 @@ def set_footer(self, section, footer_script):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| section | int |0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
+| section | int | 0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
 | footer_script | str | Altbilgi biçimi komut dosyası.|
 ###  Notlar
 
@@ -36,8 +36,8 @@ Komut dosyası komutları:
 | &F| Yolsuz dosya adı|
 | &"<FontName>"| Yazı tipi adı, örneğin: &"Arial"|
 | &"<FontName>, <FontStyle>"| Yazı tipi adı ve yazı tipi stili, örneğin: &"Arial,Bold"|
-| &<FontSize>| Yazı Boyutu. Bu komutun ardından başlıkta yazdırılacak düz bir sayı gelirse, yazı tipi yüksekliğinden bir boşluk karakteri ile ayrılır.|
-| &K<RRGGBB>| Yazı tipi rengi, örneğin(KIRMIZI): &KFF0000|
+| &<FontSize>| Yazı tipi boyutu Bu komutun ardından başlıkta yazdırılacak düz bir sayı geliyorsa, yazı tipi yüksekliğinden bir boşluk karakteri ile ayrılacaktır.|
+| &K<RRGGBB>|Yazı tipi rengi, örneğin(KIRMIZI): &KFF0000|
 | &G| Resim komut dosyası|
 
 Örneğin: "&Arial,Bold&8Footer Note"

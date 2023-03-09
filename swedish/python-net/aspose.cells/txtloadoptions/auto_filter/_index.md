@@ -14,7 +14,7 @@ Indikerar om data filtreras automatiskt när filerna laddas.
 ###  Anmärkningar
 
 Ibland, även om autofilter är inställt, döljs inte motsvarande rader i filen.
-Fungerar nu bara för SpreadSheetML-fil.
+Fungerar nu bara för SpreadSheetML-filer.
 ###  Definition:
 ```python
 @property

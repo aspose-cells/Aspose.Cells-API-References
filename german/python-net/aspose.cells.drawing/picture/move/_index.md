@@ -21,9 +21,9 @@ def move(self, upper_left_row, upper_left_column):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
+| upper_left_column | int | Spaltenindex oben links.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

@@ -11,7 +11,7 @@ is_root: false
 
 يحصل على عنصر تحكم ActiveX.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose import pycore

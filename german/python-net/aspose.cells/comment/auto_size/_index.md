@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob die Größe des Kommentars automatisch an seinen Inhalt angepasst wird.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

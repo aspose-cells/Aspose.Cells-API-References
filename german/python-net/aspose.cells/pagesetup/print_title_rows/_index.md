@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Zeilen dar, die die zu wiederholenden Zellen oben auf jeder Seite enthalten.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

@@ -17,8 +17,8 @@ Il tipo ReflectionEffect espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [type](/cells/it/python-net/aspose.cells.drawing/reflectioneffect/type) |Ottiene e imposta l'effetto riflesso preimpostato.|
-| [transparency](/cells/it/python-net/aspose.cells.drawing/reflectioneffect/transparency) | Ottiene e imposta il grado di trasparenza della riflessione iniziale come valore compreso tra 0,0 (opaco) e 1,0 (trasparente).|
+| [type](/cells/it/python-net/aspose.cells.drawing/reflectioneffect/type) | Ottiene e imposta l'effetto riflesso preimpostato.|
+| [transparency](/cells/it/python-net/aspose.cells.drawing/reflectioneffect/transparency) |Ottiene e imposta il grado di trasparenza della riflessione iniziale come valore compreso tra 0,0 (opaco) e 1,0 (trasparente).|
 | [size](/cells/it/python-net/aspose.cells.drawing/reflectioneffect/size) | Ottiene e imposta la posizione finale (lungo la rampa del gradiente alfa) del valore alfa finale, in unità di percentuale|
 | [blur](/cells/it/python-net/aspose.cells.drawing/reflectioneffect/blur) | Ottiene e imposta il raggio di sfocatura, in unità di punti.|
 | [direction](/cells/it/python-net/aspose.cells.drawing/reflectioneffect/direction) | Ottiene e imposta la direzione della rampa del gradiente alfa rispetto alla forma stessa.|

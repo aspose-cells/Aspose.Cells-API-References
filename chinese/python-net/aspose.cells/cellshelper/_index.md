@@ -1,14 +1,14 @@
 ﻿---
 title: CellsHelper类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 230
 url: /zh/python-net/aspose.cells/cellshelper/
 is_root: false
 ---
-##  CellsHelper类
-提供辅助功能。
+## CellsHelper类
+提供辅助函数。
 
 
 
@@ -46,7 +46,7 @@ CellsHelper 类型公开了以下成员：
 | [get_used_colors(workbook)](/cells/zh/python-net/aspose.cells/cellshelper/get_used_colors/#Workbook) |获取工作簿中所有使用的颜色。|
 | [add_add_in_function(function, min_count_of_parameters, max_count_of_parameters, paramers_type, function_value_type)](/cells/zh/python-net/aspose.cells/cellshelper/add_add_in_function/#str-int-int-list-ParameterType) |添加插件功能。|
 | [merge_files(files, cached_file, dest_file)](/cells/zh/python-net/aspose.cells/cellshelper/merge_files/#list-str-str) |将一些大的 xls 文件合并为一个 xls 文件。|
-| [init_for_dot_net_core()](/cells/zh/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) |为 .NetCore 程序做初始化。<br/>我们建议您首先为所有 .NetCore 初始化调用此方法。<br/>例如：<br/>CellsHelper.InitForDotNetCore();<br/>工作簿 wb = new Workbook();|
+| [init_for_dot_net_core()](/cells/zh/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) |对 .NetCore 程序进行初始化。<br/>我们建议您首先为所有 .NetCore 初始化调用此方法。<br/>例如：<br/>CellsHelper.InitForDotNetCore();<br/>工作簿 wb = new Workbook();|
 
 
 

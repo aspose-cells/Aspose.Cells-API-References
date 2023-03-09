@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/cells/convert_string_to_numeric_value/
 is_root: false
 ---
 ##  convert_string_to_numeric_value() {#}
-Convierte datos de cadena en celdas a valor numérico si es posible.
+Convierte datos de cadena en celdas a valores numéricos si es posible.
 
 
 

@@ -17,7 +17,7 @@ Le type HtmlLinkTargetType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| BLANK | Ouvre le document lié dans une nouvelle fenêtre ou un nouvel onglet|
+| BLANK |Ouvre le document lié dans une nouvelle fenêtre ou un nouvel onglet|
 | PARENT | Ouvre le document lié dans le cadre parent|
 | SELF | Ouvre le document lié dans le même cadre que celui où il a été cliqué (c'est la valeur par défaut)|
 | TOP | Ouvre le document lié dans tout le corps de la fenêtre|

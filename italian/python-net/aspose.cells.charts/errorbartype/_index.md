@@ -17,7 +17,7 @@ Il tipo ErrorBarType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| CUSTOM | Tipo di valore InnerCustom.|
+| CUSTOM | Tipo di valore personalizzato interno.|
 | FIXED_VALUE | Tipo di valore fisso.|
 | PERCENT | Tipo percentuale|
 | ST_DEV | Tipo di deviazione standard.|

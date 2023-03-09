@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_inch Eigentum
 
-Die Höhe des Fensters in Zoll.
+Die Höhe des Fensters in Zolleinheiten.
 ###  Definition:
 ```python
 @property

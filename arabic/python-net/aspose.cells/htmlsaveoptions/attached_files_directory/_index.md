@@ -10,7 +10,7 @@ is_root: false
 ##  attached_files_directory الملكية
 
 الدليل الذي سيتم حفظ الملفات المرفقة فيه.
-فقط للحفظ في دفق html.
+فقط للحفظ في دفق HTML.
 ###  تعريف:
 ```python
 @property

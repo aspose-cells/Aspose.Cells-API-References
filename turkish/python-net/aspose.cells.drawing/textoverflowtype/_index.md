@@ -17,7 +17,7 @@ TextOverflowType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| CLIP | Üst ve alt bariyerlere dikkat edin.<br/> Görünmeyen metin olduğuna dair hiçbir belirti vermeyin.|
+| CLIP | Üst ve alt bariyerlere dikkat edin.<br/>Görünmeyen metin olduğuna dair hiçbir belirti vermeyin.|
 | ELLIPSIS | Üst ve alt bariyerlere dikkat edin.<br/>Görünmeyen bir metin olduğunu belirtmek için bir üç nokta kullanın.<br/> Yalnızca dikey taşma için.|
 | OVERFLOW | Metni taşıyın ve üst ve alt engellere dikkat etmeyin.|
 

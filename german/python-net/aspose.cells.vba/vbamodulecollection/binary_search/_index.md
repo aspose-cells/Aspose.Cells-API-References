@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [VbaModule](/cells/de/python-net/aspose.cells.vba/vbamodule) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [VbaModule](/cells/de/python-net/aspose.cells.vba/vbamodule) | Das zu lokalisierende System.Objekt.|
 
 
 

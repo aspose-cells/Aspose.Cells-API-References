@@ -10,7 +10,7 @@ is_root: false
 ##  export_extra_headings proprietà
 
 Indica se esportare intestazioni aggiuntive quando la lunghezza del testo è maggiore della colonna di visualizzazione massima.
-Il valore predefinito è falso. Se desideri importare il file html in Excel, mantieni il valore predefinito.
+Il valore predefinito è falso.
 ###  Definizione:
 ```python
 @property

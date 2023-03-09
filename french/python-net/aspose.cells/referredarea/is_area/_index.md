@@ -13,7 +13,7 @@ Indique s'il s'agit d'une zone.
 
 ###  Remarques
 
-S'il ne s'agit pas d'une zone, seuls StartRow et StartColumn ont un effet.
+S'il ne s'agit pas d'une zone, seuls les effets StartRow et StartColumn.
 ###  Définition:
 ```python
 @property

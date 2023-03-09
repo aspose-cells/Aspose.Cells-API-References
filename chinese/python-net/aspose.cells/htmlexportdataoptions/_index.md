@@ -1,13 +1,13 @@
 ﻿---
 title: HtmlExportDataOptions枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2150
 url: /zh/python-net/aspose.cells/htmlexportdataoptions/
 is_root: false
 ---
-##  HtmlExportDataOptions枚举
+## HtmlExportDataOptions枚举
 代表导出html数据的选项。
 
 

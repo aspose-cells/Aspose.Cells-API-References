@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  list proprietà
 
-Restituisce se l'affettatrice associata alla cache affettatrice specificata è basata su un'origine dati non OLAP. Sola lettura
+Restituisce se l'affettatrice è associata alla cache affettatrice specificata è basata su un'origine dati non OLAP.
 
-###  Esempio
+###  Esempi
 
 ```python
 

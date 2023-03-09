@@ -18,11 +18,11 @@ def unhide_rows(self, row, total_rows, height):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | L'index de ligne.|
 | total_rows | int | Le numéro de ligne.|
-| height | float | Hauteur de ligne. La hauteur de la ligne ne sera modifiée que lorsque la ligne est masquée et que la valeur de hauteur donnée est positive.|
+| height | float | Hauteur de la ligne. La hauteur de la ligne ne sera modifiée que si la ligne est masquée et que la valeur de hauteur donnée est positive.|
 
 
 

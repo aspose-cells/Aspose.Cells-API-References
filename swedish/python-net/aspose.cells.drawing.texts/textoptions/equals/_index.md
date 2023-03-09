@@ -22,9 +22,9 @@ def equals(self, font):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| font | [Font](/cells/sv/python-net/aspose.cells/font) | Jämfört teckensnittsobjekt.|
+| font | [Font](/cells/sv/python-net/aspose.cells/font) |Jämförde teckensnittsobjekt.|
 
 
 

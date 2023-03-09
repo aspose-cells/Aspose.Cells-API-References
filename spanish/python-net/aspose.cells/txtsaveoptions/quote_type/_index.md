@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_type propiedad
 
-Obtiene o establece cómo citar valores en el archivo de texto exportado.
+Obtiene o establece cómo cotizar valores en el archivo de texto exportado.
 ###  Definición:
 ```python
 @property

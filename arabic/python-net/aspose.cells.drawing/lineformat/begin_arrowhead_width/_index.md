@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع عرض سهم البداية للخط وتعيينه.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import MsoArrowheadWidth

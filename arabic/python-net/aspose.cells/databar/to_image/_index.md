@@ -22,10 +22,10 @@ def to_image(self, cell, img_opts):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | cell | [Cell](/cells/ar/python-net/aspose.cells/cell) | حدد شريط البيانات في أي خلية سيتم عرضها|
-| img_opts | aspose.cells.rendering.ImageOrPrintOptions |يحتوي ImageOrPrintOptions على بعض خصائص صورة الإخراج|
+| img_opts | aspose.cells.rendering.ImageOrPrintOptions | يحتوي ImageOrPrintOptions على بعض خصائص صورة الإخراج|
 
 
 

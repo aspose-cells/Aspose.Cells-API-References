@@ -1,6 +1,6 @@
 ﻿---
 title: retrieve_subtotal_setting方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 830
@@ -22,7 +22,7 @@ def retrieve_subtotal_setting(self, ca):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | ca | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |范围|
 

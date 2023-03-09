@@ -22,7 +22,7 @@ def is_row_hidden(self, row_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int | satır dizini|
 

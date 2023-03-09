@@ -18,7 +18,7 @@ def align_top_right_corner(self, top_row, right_column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | top_row | int | radindex.|
 | right_column | int | kolumnindex.|

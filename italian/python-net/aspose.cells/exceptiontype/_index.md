@@ -27,7 +27,7 @@ Il tipo ExceptionType espone i membri seguenti:
 | INVALID_OPERATOR | Operatore non valido.|
 | INCORRECT_PASSWORD | Password errata.|
 | LICENSE | Errori relativi alla licenza.|
-| LIMITATION | Errore di limitazione di MS Excel.|
+| LIMITATION |Errore di limitazione di MS Excel.|
 | PAGE_SETUP | Impostazione dell'impostazione della pagina non valida.|
 | PIVOT_TABLE | Impostazione tabella pivot non valida.|
 | SHAPE | Impostazione dell'oggetto di disegno non valida.|
@@ -37,7 +37,7 @@ Il tipo ExceptionType espone i membri seguenti:
 | INTERRUPTED | Il processo è interrotto.|
 | IO | Il file non è valido.|
 | PERMISSION | È necessaria l'autorizzazione per aprire questo file.|
-| UNSUPPORTED_FEATURE | Funzionalità non supportata.|
+| UNSUPPORTED_FEATURE | Funzionalità non supportate.|
 | UNSUPPORTED_STREAM | Flusso non supportato da aprire.|
 | UNDISCLOSED_INFORMATION | I file contengono alcune informazioni riservate.|
 | FILE_CORRUPTED | Il contenuto del file è danneggiato.|

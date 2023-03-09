@@ -15,7 +15,7 @@ Cuando ingresa un valor de más de 32 K, como Cell.PutValue (cadena), si esta pr
 Si esta propiedad es falsa, aceptaremos su valor de cadena de entrada como el valor de la celda para que luego
 puede generar el valor de cadena completo para otros formatos de archivo como CSV.
 Sin embargo, si ha establecido un tipo de valor que no es válido para el formato de archivo de Excel,
-no debe guardar el libro de trabajo como formato de archivo de Excel más adelante. De lo contrario, puede haber un error inesperado para el archivo de Excel generado.
+no debe guardar el libro de trabajo como formato de archivo de Excel más tarde.
 ###  Definición:
 ```python
 @property

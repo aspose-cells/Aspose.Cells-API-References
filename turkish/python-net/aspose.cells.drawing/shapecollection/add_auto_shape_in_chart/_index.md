@@ -22,7 +22,7 @@ def add_auto_shape_in_chart(self, type, top, left, height, width):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/tr/python-net/aspose.cells.drawing/autoshapetype) | Otomatik şekil türü.|
 | top | int | Grafik alanının 1/4000'lik birimlerinde metin kutusunun sol üst köşeden dikey uzaklığını temsil eder.|

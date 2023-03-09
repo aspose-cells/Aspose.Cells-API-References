@@ -11,7 +11,7 @@ is_root: false
 
 Dilimleyici şeklinin sol sütunundan yatay uzaklığını piksel cinsinden döndürür veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

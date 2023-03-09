@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie le nom du champ de cache
 
-###  Exemple
+###  Exemples
 
 ```python
 

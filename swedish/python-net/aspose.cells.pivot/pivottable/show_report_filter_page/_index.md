@@ -18,7 +18,7 @@ def show_report_filter_page(self, page_field):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | page_field | [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) | PivotField-objektet|
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ShapeGuide sınıf
+title: ShapeGuide sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 550
 url: /tr/python-net/aspose.cells.drawing/shapeguide/
 is_root: false
 ---
-##  ShapeGuide sınıf
+##  ShapeGuide sınıfı
  Bir şekil kılavuzunu kapsüller, kullanılacak bir şekil kılavuzunun varlığını belirtir.
 belirtilen şeklin geometrisini yönetin
 
@@ -23,7 +23,7 @@ ShapeGuide türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [value](/cells/tr/python-net/aspose.cells.drawing/shapeguide/value) |Bu kılavuzun değerini alır veya ayarlar|
+| [value](/cells/tr/python-net/aspose.cells.drawing/shapeguide/value) | Bu kılavuzun değerlerini alır veya ayarlar|
 
 
 

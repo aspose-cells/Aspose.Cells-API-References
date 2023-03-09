@@ -18,7 +18,7 @@ LineSpaceSizeType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | PERCENTAGE | Metin boyutunun yüzde birimini temsil eder.|
-| POINTS | Puan biriminde temsil eder.|
+| POINTS | Puan birimlerinde temsil eder.|
 
 
 

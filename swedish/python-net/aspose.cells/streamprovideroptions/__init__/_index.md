@@ -31,7 +31,7 @@ def __init__(self, loading_type, default_path):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | loading_type | [ResourceLoadingType](/cells/sv/python-net/aspose.cells/resourceloadingtype) | Typen för att ladda den länkade resursen.|
 | default_path | str | Standardsökvägen.|

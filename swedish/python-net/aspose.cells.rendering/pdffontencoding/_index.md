@@ -18,7 +18,7 @@ Typen PdfFontEncoding avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | IDENTITY | Representerar användning av Identity-H-kodning för alla inbäddade teckensnitt i pdf.|
-| ANSI_PREFER | Representerar föredrar att använda WinAnsiEncoding för TrueType-teckensnitt med tecken 32-127,<br/> annars kommer Identity-H-kodning att användas för inbäddade teckensnitt i pdf.|
+| ANSI_PREFER | Representerar föredrar att använda WinAnsiEncoding för TrueType-teckensnitt med tecken 32-127,<br/> Annars kommer Identity-H-kodning att användas för inbäddade teckensnitt i pdf.|
 
 
 

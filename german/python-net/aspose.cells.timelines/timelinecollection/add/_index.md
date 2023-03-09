@@ -24,11 +24,11 @@ def add(self, pivot, dest_cell_name, base_field_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | dest_cell_name | str | Der Zellenname in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field_name | str | Der Name von PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -55,11 +55,11 @@ def add(self, pivot, dest_cell_name, base_field_index):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | dest_cell_name | str | Der Zellenname in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field_index | int | Der Index von PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -86,11 +86,11 @@ def add(self, pivot, dest_cell_name, base_field):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | dest_cell_name | str | Der Zellenname in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field | aspose.cells.pivot.PivotField | Das PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -117,12 +117,12 @@ def add(self, pivot, row, column, base_field_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | row | int | Zeilenindex der Zelle in der oberen linken Ecke des Timeline-Bereichs.|
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field_name | str | Der Name von PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -149,12 +149,12 @@ def add(self, pivot, row, column, base_field_index):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | row | int | Zeilenindex der Zelle in der oberen linken Ecke des Timeline-Bereichs.|
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field_index | int | Der Index von PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 
@@ -181,12 +181,12 @@ def add(self, pivot, row, column, base_field):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | PivotTable-Objekt|
+| pivot | aspose.cells.pivot.PivotTable |PivotTable-Objekt|
 | row | int | Zeilenindex der Zelle in der oberen linken Ecke des Timeline-Bereichs.|
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field | aspose.cells.pivot.PivotField | Das PivotField in PivotTable.BaseFields|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

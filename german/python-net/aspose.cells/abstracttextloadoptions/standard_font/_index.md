@@ -13,7 +13,7 @@ Legt den standardmäßigen Standardschriftnamen fest
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte DefaultStyleSettings.
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Diese Property wird 12 Monate später seit März 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

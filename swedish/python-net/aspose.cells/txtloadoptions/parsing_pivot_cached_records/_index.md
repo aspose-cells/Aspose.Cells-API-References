@@ -14,7 +14,7 @@ Standardvärdet är falskt.
 
 ###  Anmärkningar
 
-Gäller endast för Excel Xlsx, Xltx, Xltm , Xlsm och xlsb-filer
+Gäller endast för Excel Xlsx-, Xltx-, Xltm-, Xlsm- och xlsb-filer
 ###  Definition:
 ```python
 @property

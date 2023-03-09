@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rotated_chars propiedad
 
-Si es verdadero, los caracteres en el WordArt especificado se giran 90 grados con respecto a la forma delimitada de WordArt.
+Si es verdadero, los caracteres del WordArt especificado se giran 90 grados en relación con la forma delimitadora del WordArt.
 ###  Definición:
 ```python
 @property

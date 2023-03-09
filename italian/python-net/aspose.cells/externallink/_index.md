@@ -19,7 +19,7 @@ Il tipo ExternalLink espone i membri seguenti:
 | :- | :- |
 | [type](/cells/it/python-net/aspose.cells/externallink/type) | Ottiene il tipo di collegamento esterno.|
 | [original_data_source](/cells/it/python-net/aspose.cells/externallink/original_data_source) | Rappresenta l'origine dati archiviata del collegamento esterno.|
-| [data_source](/cells/it/python-net/aspose.cells/externallink/data_source) |Rappresenta l'origine dati del collegamento esterno.|
+| [data_source](/cells/it/python-net/aspose.cells/externallink/data_source) | Rappresenta l'origine dati del collegamento esterno.|
 | [is_referred](/cells/it/python-net/aspose.cells/externallink/is_referred) | Indica se questo collegamento esterno è referenziato da altri.|
 | [is_visible](/cells/it/python-net/aspose.cells/externallink/is_visible) | Indica se questo collegamento esterno è visibile in MS Excel.|
 
@@ -31,7 +31,7 @@ Il tipo ExternalLink espone i membri seguenti:
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

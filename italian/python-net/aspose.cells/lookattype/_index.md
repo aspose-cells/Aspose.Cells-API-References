@@ -20,7 +20,7 @@ Il tipo LookAtType espone i membri seguenti:
 | CONTAINS | Cell valore Contiene l'oggetto find.|
 | START_WITH | Cell valore Inizia con l'oggetto find.|
 | END_WITH | Cell termina con l'oggetto find.|
-| ENTIRE_CONTENT |Il valore Cell è lo stesso dell'oggetto find.|
+| ENTIRE_CONTENT | Il valore Cell è lo stesso dell'oggetto find.|
 
 
 

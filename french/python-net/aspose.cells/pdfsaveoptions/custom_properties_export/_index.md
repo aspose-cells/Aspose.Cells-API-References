@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  custom_properties_export propriété
 
-Obtient ou définit une valeur déterminant la façon dont [CustomDocumentPropertyCollection](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection) sont exportés vers le fichier PDF. La valeur par défaut est Aucun.
+Obtient ou définit une valeur déterminant la façon dont [CustomDocumentPropertyCollection](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection) sont exportés vers le fichier PDF. La valeur par défaut est Aucune.
 ###  Définition:
 ```python
 @property

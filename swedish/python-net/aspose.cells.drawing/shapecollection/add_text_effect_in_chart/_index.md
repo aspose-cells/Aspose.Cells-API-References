@@ -22,7 +22,7 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/sv/python-net/aspose.cells.drawing/msopresettexteffect) | Den förinställda texteffekttypen för mso.|
 | text | str | WordArt-texten.|
@@ -30,8 +30,8 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 | size | int | Teckenstorleken|
 | font_bold | bool | Anger om teckensnittet är fetstilt.|
 | font_italic | bool | Anger om teckensnittet är kursivt.|
-| top | int | Representerar den vertikala förskjutningen av formen från det övre vänstra hörnet i enheter på 1/4000 av diagramytan.|
-| left | int | Representerar den vertikala förskjutningen av formen från det övre vänstra hörnet i enheter på 1/4000 av diagramytan.|
+| top | int |Representerar den vertikala förskjutningen av formen från det övre vänstra hörnet i enheter på 1/4000 av diagramytan.|
+| left | int |Representerar den vertikala förskjutningen av formen från det övre vänstra hörnet i enheter på 1/4000 av diagramytan.|
 | height | int | Representerar formhöjden, i enheter på 1/4000 av kartytan.|
 | width | int | Representerar formens bredd, i enheter på 1/4000 av kartytan.|
 

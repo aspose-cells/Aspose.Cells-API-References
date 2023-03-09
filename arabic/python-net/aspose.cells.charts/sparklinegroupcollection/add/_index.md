@@ -22,7 +22,7 @@ def add(self, type, data_range, is_vertical, location_range):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [SparklineType](/cells/ar/python-net/aspose.cells.charts/sparklinetype) | يحدد نوع مجموعة Sparkline.|
 | data_range | str | يحدد نطاق البيانات لمجموعة خط المؤشر.|

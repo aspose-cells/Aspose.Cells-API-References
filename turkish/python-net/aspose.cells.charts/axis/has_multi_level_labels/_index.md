@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_multi_level_labels mülk
 
-Etiketlerin çoklu seviye olarak gösterilip gösterilmeyeceğini belirtir.
+Etiketlerin çok düzeyli olarak gösterilip gösterilmeyeceğini belirtir.
 
 ###  Notlar
 

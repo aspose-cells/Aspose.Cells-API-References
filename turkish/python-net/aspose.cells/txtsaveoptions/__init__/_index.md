@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Metin dosyasının kaydetme biçimi.|
 

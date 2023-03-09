@@ -22,7 +22,7 @@ def import_data(self, table, first_row, first_column, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | table | [ICellsDataTable](/cells/it/python-net/aspose.cells/icellsdatatable) | La tabella dati personalizzata.|
 | first_row | int | Indice prima riga.|

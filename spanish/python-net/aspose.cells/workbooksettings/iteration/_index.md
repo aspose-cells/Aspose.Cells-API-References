@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  iteration propiedad
 
-Indica si se habilita el cálculo iterativo para resolver referencias circulares.
+Indica si habilitar el cálculo iterativo para resolver referencias circulares.
 
 ###  Observaciones
 

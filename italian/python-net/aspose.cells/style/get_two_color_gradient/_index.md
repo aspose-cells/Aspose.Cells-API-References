@@ -18,12 +18,12 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color& | Un colore sfumato.|
 | color2 | aspose.pydrawing.Color& | Due colori sfumati.|
 | gradient_style_type | any | Stile di sfumatura sfumata.|
-| variant | any |La variante gradiente.|
+| variant | any | La variante gradiente.|
 ###  Osservazioni
 
 NOTA: questo metodo è ora obsoleto.

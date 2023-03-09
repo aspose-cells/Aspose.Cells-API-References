@@ -22,7 +22,7 @@ def create_range(self, address, sheet_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | address | str | L'indirizzo dell'intervallo.|
 | sheet_index | int | L'indice del foglio.|

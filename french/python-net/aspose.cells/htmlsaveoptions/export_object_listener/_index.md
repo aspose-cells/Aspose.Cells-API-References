@@ -13,7 +13,7 @@ Obtient ou définit ExportObjectListener pour l'exportation d'objets.
 
 ###  Remarques
 
- REMARQUE : Cette propriété est désormais obsolète. Plutôt,
+ REMARQUE : Cette propriété est désormais obsolète.
 veuillez utiliser la propriété HtmlSaveOptions.IStreamProvider.
  Cette propriété sera supprimée 12 mois plus tard depuis août 2015.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

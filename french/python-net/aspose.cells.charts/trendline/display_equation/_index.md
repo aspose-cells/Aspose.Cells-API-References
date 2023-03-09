@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_equation propriété
 
-Représente si l'équation de la courbe de tendance est affichée sur le graphique (dans la même étiquette de données que la valeur R au carré). La définition de cette propriété sur True active automatiquement les étiquettes de données.
+Représente si l'équation de la courbe de tendance est affichée sur le graphique (dans la même étiquette de données que la valeur R au carré).
 ###  Définition:
 ```python
 @property

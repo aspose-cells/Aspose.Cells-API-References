@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Höhe des Kommentars in Zentimetern dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

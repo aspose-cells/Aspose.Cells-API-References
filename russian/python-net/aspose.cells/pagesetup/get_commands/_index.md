@@ -22,7 +22,7 @@ def get_commands(self, header_footer_script):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | header_footer_script | str | Скрипт верхнего/нижнего колонтитула|
 

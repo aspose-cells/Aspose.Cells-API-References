@@ -24,7 +24,7 @@ def get_style_in_pool(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int | L'indice.|
 ###  Osservazioni

@@ -13,7 +13,7 @@ Obtient la collection de groupes sparkline dans la feuille de calcul.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Au lieu de cela, veuillez utiliser la propriété Worksheet.SparklineGroups.
+REMARQUE : ce membre est désormais obsolète. Utilisez plutôt la propriété Worksheet.SparklineGroups.
  Cette propriété sera supprimée 12 mois plus tard depuis novembre 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

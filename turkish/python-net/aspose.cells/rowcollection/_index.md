@@ -1,5 +1,5 @@
 ﻿---
-title: RowCollection sınıf
+title: RowCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1310
 url: /tr/python-net/aspose.cells/rowcollection/
 is_root: false
 ---
-##  RowCollection sınıf
+##  RowCollection sınıfı
 Bir çalışma sayfasındaki tek tek satırları temsil eden [Row](/cells/tr/python-net/aspose.cells/row) nesnelerini toplar.
 
 
@@ -21,7 +21,7 @@ RowCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-Verilen satır dizinine göre bir [Row](/cells/tr/python-net/aspose.cells/row) nesnesi alır. Daha önce mevcut değilse, verilen satır dizininin Row nesnesi başlatılacaktır.
+Verilen satır dizinine göre bir [Row](/cells/tr/python-net/aspose.cells/row) nesnesi alır.
 ###  İndeksleyici
 | İsim| Tanım|
 | :- | :- |
@@ -37,7 +37,7 @@ Verilen satır dizinine göre bir [Row](/cells/tr/python-net/aspose.cells/row) n
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

@@ -1,6 +1,6 @@
 ﻿---
 title: set_outline_borders方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
@@ -18,7 +18,7 @@ def set_outline_borders(self, border_style, border_color):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | border_style | [CellBorderType](/cells/zh/python-net/aspose.cells/cellbordertype) |边框样式。|
 | border_color | [CellsColor](/cells/zh/python-net/aspose.cells/cellscolor) |边框颜色。|
@@ -35,7 +35,7 @@ def set_outline_borders(self, border_style, border_color):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | border_style | [CellBorderType](/cells/zh/python-net/aspose.cells/cellbordertype) |边框样式。|
 | border_color | aspose.pydrawing.Color |边框颜色。|
@@ -52,7 +52,7 @@ def set_outline_borders(self, border_styles, border_colors):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | border_styles | list |边框样式。|
 | border_colors | aspose.pydrawing.Color[] |边框颜色。|

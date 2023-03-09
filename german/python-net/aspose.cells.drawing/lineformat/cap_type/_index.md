@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die Endkappen an.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import LineCapType

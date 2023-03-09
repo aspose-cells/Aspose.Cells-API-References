@@ -13,8 +13,8 @@ Représente si l'utilisateur est autorisé à manipuler des tableaux croisés dy
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
- veuillez utiliser la propriété Protection.AllowUsingPivotTable.
+ REMARQUE : ce membre est désormais obsolète.
+ veuillez utiliser la propriété Protection. Autoriser l'utilisation du tableau croisé dynamique.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

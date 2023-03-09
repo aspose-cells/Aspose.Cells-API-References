@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/xmlsaveoptions/__init__/
 is_root: false
 ---
 ##  XmlSaveOptions() {#}
-ينشئ خيارات لحفظ ملف xml.
+ينشئ خيارات لحفظ ملفات xml.
 
 
 

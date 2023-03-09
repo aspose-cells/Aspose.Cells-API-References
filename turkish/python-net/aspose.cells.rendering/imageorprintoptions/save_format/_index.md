@@ -14,8 +14,8 @@ Destek Tiff/XPS
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
-Tiff/Svg için [ImageOrPrintOptions.image_type](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions#image_type)'i kullanın; Xps için [Workbook.save(file_name, save_format)](/cells/tr/python-net/aspose.cells/workbook/save) ile [XpsSaveOptions](/cells/tr/python-net/aspose.cells/xpssaveoptions)'i kullanın.
+ NOT: Bu üye artık kullanılmıyor.
+Tiff/Svg için [ImageOrPrintOptions.image_type](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions#image_type)'i kullanın; Xps için [XpsSaveOptions](/cells/tr/python-net/aspose.cells/xpssaveoptions) ile [Workbook.save(file_name, save_format)](/cells/tr/python-net/aspose.cells/workbook/save)'i kullanın.
  Bu mülk, Ağustos 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

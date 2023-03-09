@@ -10,7 +10,7 @@ is_root: false
 ##  is_gte Eigentum
 
  Rufen Sie das Flag „Größer als oder gleich“ ab oder setzen Sie es.
-Nur für Symbolsätze verwenden, bestimmt, ob dieser Schwellenwert verwendet wird
+ Nur für Symbolsätze verwenden, bestimmt, ob dieser Schwellenwert verwendet wird
  der Größer-gleich-Operator.
 false“ gibt an, dass „größer als“ anstelle von „größer als oder gleich“ verwendet wird.
 Der Standardwert ist wahr.

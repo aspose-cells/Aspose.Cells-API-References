@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/fontconfigs/set_font_substitutes/
 is_root: false
 ---
 ##  set_font_substitutes(original_font_name, substitute_font_names) {#str-list}
-Typsnittsersättningsnamn för det ursprungliga teckensnittsnamnet.
+Fontersättningsnamn för givna ursprungliga teckensnittsnamn.
 
 
 
@@ -18,7 +18,7 @@ def set_font_substitutes(self, original_font_name, substitute_font_names):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | original_font_name | str | Ursprungligt teckensnittsnamn.|
 | substitute_font_names | list | Lista över teckensnittsersättningsnamn som ska användas om det ursprungliga teckensnittet inte visas.|

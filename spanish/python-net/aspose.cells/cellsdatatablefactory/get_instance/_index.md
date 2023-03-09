@@ -22,7 +22,7 @@ def get_instance(self, collection):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | collection | list | la colección para construir la mesa|
 
@@ -42,10 +42,10 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | vals | list | valores int para construir la tabla|
-| column_names | list | Nombres de columna de la tabla.<br/>Su longitud solo puede ser 1 (construir tabla por los valores int verticalmente)<br/> o longitud de los valores int (tabla de construcción por los valores int horizontalmente)|
+| column_names | list | Nombres de columna de la tabla.<br/>Su longitud solo puede ser 1 (construir tabla por los valores int verticalmente)<br/> o longitud de los valores int (construir tabla por los valores int horizontalmente)|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -63,10 +63,10 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | vals | list | valores int para construir la tabla|
-| vertial | bool | si construye la tabla por los valores int verticalmente (verdadero) u horizontalmente (falso)|
+| vertial | bool |si construye la tabla por los valores int verticalmente (verdadero) u horizontalmente (falso)|
 
 
 ##  get_instance(vals, column_names) {#list-list}
@@ -84,10 +84,10 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | vals | list | valores dobles para construir la tabla|
-| column_names | list | Nombres de columna de la tabla.<br/>Su longitud solo puede ser 1 (construir la tabla por los valores dobles verticalmente)<br/> o longitud de los valores dobles (tabla de construcción por los valores dobles horizontalmente)|
+| column_names | list | Nombres de columna de la tabla.<br/>Su longitud solo puede ser 1 (construir tabla por los valores dobles verticalmente)<br/> o longitud de los valores dobles (construir tabla por los valores dobles horizontalmente)|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -105,7 +105,7 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | vals | list | valores dobles para construir la tabla|
 | vertial | bool | si construye la tabla por los valores dobles verticalmente (verdadero) u horizontalmente (falso)|
@@ -126,7 +126,7 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | vals | list | objetos para construir mesa|
 | column_names | list | Nombres de columna de la tabla.<br/>Su longitud solo puede ser 1 (construir la tabla por los objetos verticalmente)<br/> o longitud de los objetos (tabla de construcción por los objetos horizontalmente)|
@@ -147,7 +147,7 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | vals | list | objetos para construir mesa|
 | vertial | bool | si construye la tabla por los objetos verticalmente (verdadero) u horizontalmente (falso)|

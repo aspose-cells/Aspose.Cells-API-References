@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type de transformation du texte.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import AutoShapeType

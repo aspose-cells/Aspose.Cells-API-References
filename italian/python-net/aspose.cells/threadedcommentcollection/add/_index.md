@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | text | str | Il testo del commento nel thread.|
 | author | [ThreadedCommentAuthor](/cells/it/python-net/aspose.cells/threadedcommentauthor) | L'autore del commento nel thread|

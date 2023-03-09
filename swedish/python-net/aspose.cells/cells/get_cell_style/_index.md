@@ -22,10 +22,10 @@ def get_cell_style(self, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | radindex|
-| column | int | kolumn|
+| column | int | kolumner|
 
 
 

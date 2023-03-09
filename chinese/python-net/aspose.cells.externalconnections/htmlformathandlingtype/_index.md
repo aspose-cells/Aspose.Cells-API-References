@@ -1,13 +1,13 @@
 ﻿---
 title: HtmlFormatHandlingType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
 url: /zh/python-net/aspose.cells.externalconnections/htmlformathandlingtype/
 is_root: false
 ---
-##  HtmlFormatHandlingType枚举
+## HtmlFormatHandlingType枚举
 指定如何处理来自 HTML 源的格式
 
 

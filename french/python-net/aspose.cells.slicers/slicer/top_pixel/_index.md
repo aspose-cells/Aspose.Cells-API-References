@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie ou définit le décalage vertical de la forme du segment par rapport à sa ligne supérieure, en pixels.
 
-###  Exemple
+###  Exemples
 
 ```python
 

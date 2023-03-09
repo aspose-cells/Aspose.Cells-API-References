@@ -14,7 +14,7 @@ Grafik alanının 1/4000'lik birimlerinde sol üst köşenin y koordinatını al
 ###  Notlar
 
  1/4000 birimleri piksele nasıl çevrilir?
-Piksel = Y * Chart.ChartObject.Height / 4000;
+Y Piksel = Y * Chart.ChartObject.Height / 4000;
 ###  Tanım:
 ```python
 @property

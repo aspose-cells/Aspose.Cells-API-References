@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit l'espace réservé d'ancrage de la forme.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

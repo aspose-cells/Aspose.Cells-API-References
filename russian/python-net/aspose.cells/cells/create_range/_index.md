@@ -22,7 +22,7 @@ def create_range(self, address):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | address | str | Адрес диапазона.|
 
@@ -42,7 +42,7 @@ def create_range(self, upper_left_cell, lower_right_cell):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | upper_left_cell | str | Имя верхней левой ячейки.|
 | lower_right_cell | str | Имя нижней правой ячейки.|
@@ -63,11 +63,11 @@ def create_range(self, first_index, number, is_vertical):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | first_index | int | Индекс первой строки или индекс первого столбца, отсчитываемый от нуля.|
 | number | int | Общее количество строк или столбцов, по одному.|
-| is_vertical | bool | True — диапазон, созданный из столбцов ячеек. False — диапазон создан из строк ячеек.|
+| is_vertical | bool | True — диапазон, созданный из столбцов ячеек.|
 
 
 ##  create_range(first_row, first_column, total_rows, total_columns) {#int-int-int-int}
@@ -85,7 +85,7 @@ def create_range(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | first_row | int | Первая строка этого диапазона|
 | first_column | int | Первый столбец этого диапазона|

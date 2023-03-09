@@ -21,7 +21,7 @@ DataLabelsSeparatorType türü aşağıdaki üyeleri gösterir:
 | SPACE | Boşluğu temsil eder(" ")|
 | COMMA | Virgül(",") temsil eder|
 | SEMICOLON | Noktalı virgülü temsil eder(";")|
-| PERIOD | Noktayı temsil eder(".")|
+| PERIOD |Noktayı temsil eder(".")|
 | NEW_LINE | Yeni satırı("\n") temsil eder|
 | CUSTOM | Özel ayırıcıyı temsil eder|
 

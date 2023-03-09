@@ -22,9 +22,9 @@ def find(self, what, previous_cell):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| what | any | El objeto a buscar.<br/> El tipo debe ser int,double,DateTime,string,bool.|
+| what | any | El objeto a buscar.<br/> El tipo debe ser int, double, DateTime, string, bool.|
 | previous_cell | [Cell](/cells/es/python-net/aspose.cells/cell) | Celda anterior con el mismo objeto.<br/> Este parámetro se puede establecer en nulo si se busca desde el principio.|
 ###  Observaciones
 
@@ -46,9 +46,9 @@ def find(self, what, previous_cell, find_options):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| what | any | El objeto a buscar.<br/> El tipo debe ser int,double,DateTime,string,bool.|
+| what | any | El objeto a buscar.<br/> El tipo debe ser int, double, DateTime, string, bool.|
 | previous_cell | [Cell](/cells/es/python-net/aspose.cells/cell) | Celda anterior con el mismo objeto.<br/> Este parámetro se puede establecer en nulo si se busca desde el principio.|
 | find_options | [FindOptions](/cells/es/python-net/aspose.cells/findoptions) | Buscar opciones|
 ###  Observaciones

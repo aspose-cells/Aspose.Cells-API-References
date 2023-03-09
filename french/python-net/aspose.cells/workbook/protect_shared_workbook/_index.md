@@ -18,7 +18,7 @@ def protect_shared_workbook(self, password):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | password | str | Mot de passe pour protéger le classeur.|
 

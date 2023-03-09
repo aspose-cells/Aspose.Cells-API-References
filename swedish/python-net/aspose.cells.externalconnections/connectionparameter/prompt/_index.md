@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  prompt fastighet
 
- Fråga sträng för parametern. Presenteras för kalkylarksanvändaren tillsammans med inmatningsgränssnittet
- för att samla in parametervärdet innan extern data uppdateras. Används endast när
+ Frågasträng för parametern. Presenteras för kalkylarksanvändaren tillsammans med inmatningsgränssnittet
+ för att samla in parametervärdet innan extern data uppdateras.
 parameterType = prompt.
 ###  Definition:
 ```python

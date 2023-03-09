@@ -18,7 +18,7 @@ Il tipo PropertyType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | BOOLEAN | La proprietà è un valore booleano.|
-| DATE_TIME |La proprietà è un valore di data e ora.|
+| DATE_TIME | La proprietà è un valore di data e ora.|
 | DOUBLE | La proprietà è un numero mobile.|
 | NUMBER | La proprietà è un numero intero.|
 | STRING | La proprietà è un valore stringa.|

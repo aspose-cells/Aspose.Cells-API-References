@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing propriété
 
-Renvoie ou définit le nombre de catégories ou de séries entre les graduations. S'applique uniquement aux axes de catégorie et de série.
+Renvoie ou définit le nombre de catégories ou de séries entre les graduations.
 
 ###  Remarques
 

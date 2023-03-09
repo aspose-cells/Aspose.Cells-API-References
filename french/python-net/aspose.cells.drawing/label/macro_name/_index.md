@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le nom de la macro.
 
-###  Exemple
+###  Exemples
 
 ```python
 

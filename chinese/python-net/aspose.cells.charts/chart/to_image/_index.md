@@ -1,6 +1,6 @@
 ﻿---
 title: to_image方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
@@ -19,14 +19,14 @@ def to_image(self, image_file):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | image_file | str |带完整路径的图像文件名。|
 ### 评论
 
 图像的格式通过使用文件名的扩展名来指定。
 例如，如果您指定“myfile.png”，那么图像将被保存
-采用 PNG 格式。可识别以下文件扩展名：
+采用 PNG 格式。
 .bmp、.gif、.png、.jpg、.jpeg、.tiff、.tif、.emf。
 
 
@@ -43,7 +43,7 @@ def to_image(self, image_file, image_type):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | image_file | str |带完整路径的图像文件名。|
 | image_type | aspose.cells.drawing.ImageType |保存图像的图像类型。|
@@ -67,7 +67,7 @@ def to_image(self, image_file, jpeg_quality):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | image_file | str |带完整路径的图像文件名。|
 | jpeg_quality | int | Jpeg 质量。|
@@ -87,7 +87,7 @@ def to_image(self, stream, jpeg_quality):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |输出流。|
 | jpeg_quality | int | Jpeg 质量。|
@@ -107,7 +107,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |输出流。|
 | image_type | aspose.cells.drawing.ImageType |保存图像的图像类型。|
@@ -132,7 +132,7 @@ def to_image(self, image_file, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | image_file | str |带完整路径的图像文件名。|
 | options | aspose.cells.rendering.ImageOrPrintOptions |其他图像创建选项|
@@ -140,7 +140,7 @@ def to_image(self, image_file, options):
 
 图像的格式通过使用文件名的扩展名来指定。
 例如，如果您指定“myfile.png”，那么图像将被保存
-采用 PNG 格式。可识别以下文件扩展名：
+采用 PNG 格式。
 .bmp、.gif、.png、.jpg、.jpeg、.tiff、.tif、.emf。
 
 
@@ -148,7 +148,7 @@ def to_image(self, image_file, options):
 请参阅[支持的图表列表](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)更多细节。
 ### 例子
 
-使用 300 dpi 和 CCITT4 压缩保存为 Tiff。
+使用 300dpi 和 CCITT4 压缩保存为 Tiff。
 
 ```python
 from aspose.cells import Workbook
@@ -191,7 +191,7 @@ def to_image(self, stream, options):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |输出流。|
 | options | aspose.cells.rendering.ImageOrPrintOptions |其他图像创建选项|

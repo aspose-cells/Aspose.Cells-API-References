@@ -18,9 +18,9 @@ def copy_to(self, array):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| array | list | Kopyalanan dizi listesinin öğelerinin hedefi olan tek boyutlu dizi listesi. Dizi listesi sıfır tabanlı indekslemeye sahip olmalıdır.|
+| array | list | Kopyalanan dizi listesinin öğelerinin hedefi olan tek boyutlu dizi listesi.|
 
 
 ##  copy_to(index, array, array_index, count) {#int-list-int-int}
@@ -34,11 +34,11 @@ def copy_to(self, index, array, array_index, count):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Kopyalamanın başladığı kaynak dizi listesindeki sıfır tabanlı dizin.|
-| array | list | Dizi listesinden kopyalanan öğelerin hedefi olan tek boyutlu dizi listesi. Dizi listesi sıfır tabanlı indekslemeye sahip olmalıdır.|
-| array_index | int | Kopyalamanın başladığı dizi listesindeki sıfır tabanlı dizin.|
+| array | list | Dizi listesinden kopyalanan öğelerin hedefi olan tek boyutlu dizi listesi.|
+| array_index | int |Kopyalamanın başladığı dizi listesindeki sıfır tabanlı dizin.|
 | count | int | Kopyalanacak öğe sayısı.|
 
 

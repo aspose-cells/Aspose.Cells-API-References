@@ -24,7 +24,7 @@ Il tipo TextOptions espone i membri seguenti:
 | :- | :- |
 | [charset](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/charset) | Rappresenta il set di caratteri.|
 | [is_italic](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/is_italic) | Ottiene o imposta un valore che indica se il tipo di carattere è corsivo.|
-| [is_bold](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/is_bold) | Ottiene o imposta un valore che indica se il tipo di carattere è in grassetto.|
+| [is_bold](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/is_bold) |Ottiene o imposta un valore che indica se il tipo di carattere è in grassetto.|
 | [caps_type](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/caps_type) | Ottiene e imposta il tipo di maiuscole di testo.|
 | [strike_type](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/strike_type) | Ottiene il tipo di avvertimento del testo.|
 | [is_strikeout](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/is_strikeout) | Ottiene o imposta un valore che indica se il tipo di carattere è barrato singolo.|
@@ -32,7 +32,7 @@ Il tipo TextOptions espone i membri seguenti:
 | [is_superscript](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/is_superscript) | Ottiene o imposta un valore che indica se il tipo di carattere è super script.|
 | [is_subscript](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/is_subscript) | Ottiene o imposta un valore che indica se il tipo di carattere è pedice.|
 | [underline](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/underline) | Ottiene o imposta il tipo di sottolineatura del carattere.|
-| [name](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/name) |Ottiene e imposta il nome della forma.|
+| [name](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/name) | Ottiene e imposta il nome della forma.|
 | [double_size](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/double_size) | Ottiene e imposta la doppia dimensione del carattere.|
 | [size](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/size) | Ottiene o imposta la dimensione del carattere.|
 | [theme_color](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/theme_color) | Ottiene e imposta il colore del tema.|
@@ -42,10 +42,10 @@ Il tipo TextOptions espone i membri seguenti:
 | [scheme_type](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/scheme_type) | Ottiene e imposta il tipo di schema del carattere.|
 | [language_code](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/language_code) | Ottiene e imposta la lingua dell'interfaccia utente.|
 | [latin_name](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/latin_name) | Ottiene e imposta il nome latino.|
-| [far_east_name](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Ottiene e imposta il nome FarEast.|
+| [far_east_name](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Ottiene e imposta il nome dell'Estremo Oriente.|
 | [fill](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/fill) | Rappresenta il formato di riempimento del testo.|
 | [outline](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/outline) | Rappresenta il formato struttura del testo.|
-| [shadow](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Rappresenta un oggetto [ShadowEffect](/cells/it/python-net/aspose.cells.drawing/shadoweffect) che specifica l'effetto ombra per l'elemento o la forma del grafico.|
+| [shadow](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Rappresenta un oggetto [ShadowEffect](/cells/it/python-net/aspose.cells.drawing/shadoweffect) che specifica un effetto ombra per l'elemento o la forma del grafico.|
 | [underline_color](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/underline_color) | Ottiene o imposta il colore della sottolineatura.|
 | [kerning](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/kerning) | Specifica la dimensione minima del carattere alla quale si verificherà la crenatura dei caratteri per questa sequenza di testo.|
 | [spacing](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/spacing) | Specifica la spaziatura tra i caratteri all'interno di un'esecuzione di testo.|

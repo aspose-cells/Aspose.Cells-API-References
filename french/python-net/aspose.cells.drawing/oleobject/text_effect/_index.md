@@ -12,7 +12,7 @@ is_root: false
  Renvoie un objet TextEffectFormat qui contient des propriétés de mise en forme d'effet de texte pour la forme spécifiée.
 S'applique aux objets Shape qui représentent WordArt.
 
-###  Exemple
+###  Exemples
 
 ```python
 

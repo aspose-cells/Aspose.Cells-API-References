@@ -11,7 +11,7 @@ is_root: false
 
 Orijinal yorumun Adını alır ve ayarlar author
 
-###  Örnek
+###  örnekler
 
 ```python
 

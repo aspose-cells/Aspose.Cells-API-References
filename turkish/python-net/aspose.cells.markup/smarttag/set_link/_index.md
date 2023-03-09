@@ -18,7 +18,7 @@ def set_link(self, uri, name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | uri | str | Akıllı etiketin ad alanı URI'si.|
 | name | str | Akıllı etiketin adı.|

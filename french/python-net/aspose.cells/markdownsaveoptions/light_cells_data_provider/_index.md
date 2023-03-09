@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  light_cells_data_provider propriété
 
-Le fournisseur de données pour fournir des données de cellules pour enregistrer le classeur en mode léger.
+Le fournisseur de données pour fournir des données de cellules pour enregistrer des classeurs en mode léger.
 ###  Définition:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Arbeitsblattbereich ab, der mit dem Wert des Steuerelements verknüpft ist, oder legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

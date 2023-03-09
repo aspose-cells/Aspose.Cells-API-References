@@ -19,16 +19,16 @@ is_root: false
 | :- | :- |
 | [is_blank](/cells/ar/python-net/aspose.cells/row/is_blank) | يشير إلى ما إذا كان الصف يحتوي على أية بيانات|
 | [is_collapsed](/cells/ar/python-net/aspose.cells/row/is_collapsed) | ما إذا كان الصف مطويًا أم لا|
-| [height](/cells/ar/python-net/aspose.cells/row/height) | الحصول على ارتفاع الصف وتعيينه بوحدة النقاط.|
+| [height](/cells/ar/python-net/aspose.cells/row/height) | الحصول على ارتفاع الصف وتعيينه بوحدات من النقاط.|
 | [is_hidden](/cells/ar/python-net/aspose.cells/row/is_hidden) | يشير إلى ما إذا كان الصف مخفيًا.|
 | [index](/cells/ar/python-net/aspose.cells/row/index) | يحصل على فهرس هذا الصف.|
 | [group_level](/cells/ar/python-net/aspose.cells/row/group_level) | يحصل على مستوى المجموعة للصف.|
-| [is_height_matched](/cells/ar/python-net/aspose.cells/row/is_height_matched) | يشير إلى تطابق ارتفاع الصف وارتفاع الخط الافتراضي.|
+| [is_height_matched](/cells/ar/python-net/aspose.cells/row/is_height_matched) |يشير إلى تطابق ارتفاع الصف وارتفاع الخط الافتراضي.|
 | [style](/cells/ar/python-net/aspose.cells/row/style) | يمثل نمط هذا الصف.|
 | [has_custom_style](/cells/ar/python-net/aspose.cells/row/has_custom_style) | يشير إلى ما إذا كان هذا الصف يحتوي على إعدادات نمط مخصصة (تختلف عن الإعداد الافتراضي الموروث من المصنف).|
 | [first_cell](/cells/ar/python-net/aspose.cells/row/first_cell) | الحصول على أول كائن خلية في الصف.|
 | [first_data_cell](/cells/ar/python-net/aspose.cells/row/first_data_cell) | الحصول على أول خلية غير فارغة في الصف.|
-| [last_cell](/cells/ar/python-net/aspose.cells/row/last_cell) |الحصول على آخر كائن خلية في الصف.|
+| [last_cell](/cells/ar/python-net/aspose.cells/row/last_cell) | الحصول على آخر كائن خلية في الصف.|
 | [last_data_cell](/cells/ar/python-net/aspose.cells/row/last_data_cell) | الحصول على آخر خلية غير فارغة في الصف.|
 
 
@@ -53,7 +53,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

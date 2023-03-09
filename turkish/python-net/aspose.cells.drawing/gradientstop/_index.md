@@ -1,5 +1,5 @@
 ﻿---
-title: GradientStop sınıf
+title: GradientStop sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 230
 url: /tr/python-net/aspose.cells.drawing/gradientstop/
 is_root: false
 ---
-##  GradientStop sınıf
+##  GradientStop sınıfı
 Degrade durağını temsil eder.
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  lighting_angle Eigentum
 
-Ruft den Beleuchtungswinkel ab und legt ihn fest. Bereich von 0 bis 359,9 Grad.
+Ruft den Beleuchtungswinkel ab und legt ihn fest. Bereich von 0 bis 359,9 Grad.
 ###  Definition:
 ```python
 @property

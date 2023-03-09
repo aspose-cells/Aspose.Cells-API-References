@@ -24,7 +24,7 @@ def from_ole_color(self, ole_color):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| ole_color | int | Der Wert von OLE_COLOR.|
+| ole_color | int |Der Wert von OLE_COLOR.|
 
 
 

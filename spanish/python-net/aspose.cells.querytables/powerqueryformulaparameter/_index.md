@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.querytables/powerqueryformulaparameter/
 is_root: false
 ---
 ##  PowerQueryFormulaParameter clase
-Representa el parámetro de la fórmula de consulta de potencia.
+Representa el parámetro de la fórmula de consulta de energía.
 
 
 

@@ -20,8 +20,8 @@ Il tipo PivotFieldDataDisplayFormat espone i membri seguenti:
 | NORMAL | Rappresenta il normale formato di visualizzazione.|
 | DIFFERENCE_FROM | Rappresenta la differenza rispetto al formato di visualizzazione.|
 | PERCENTAGE_OF | Rappresenta la percentuale del formato di visualizzazione.|
-| PERCENTAGE_DIFFERENCE_FROM |Rappresenta la differenza percentuale rispetto al formato di visualizzazione.|
-| RUNNING_TOTAL_IN | Rappresenta il totale parziale in formato di visualizzazione.|
+| PERCENTAGE_DIFFERENCE_FROM | Rappresenta la differenza percentuale rispetto al formato di visualizzazione.|
+| RUNNING_TOTAL_IN |Rappresenta il totale parziale in formato di visualizzazione.|
 | PERCENTAGE_OF_ROW | Rappresenta la percentuale del formato di visualizzazione della riga.|
 | PERCENTAGE_OF_COLUMN | Rappresenta la percentuale del formato di visualizzazione della colonna.|
 | PERCENTAGE_OF_TOTAL | Rappresenta la percentuale del formato di visualizzazione totale.|

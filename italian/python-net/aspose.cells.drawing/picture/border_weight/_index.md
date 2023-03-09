@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene o imposta lo spessore della linea di confine di un'immagine in unità di pt.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

@@ -19,7 +19,7 @@ def refresh_dynamic_array_formulas(self, calculate):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | calculate | bool | Si calcula y actualiza los valores de celda para esas fórmulas de matriz dinámica|
 
@@ -35,7 +35,7 @@ def refresh_dynamic_array_formulas(self, calculate, copts):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | calculate | bool | Si calcula y actualiza los valores de celda para esas fórmulas de matriz dinámica|
 | copts | [CalculationOptions](/cells/es/python-net/aspose.cells/calculationoptions) | Las opciones para calcular fórmulas|

@@ -21,7 +21,7 @@ DataLablesSeparatorType türü aşağıdaki üyeleri gösterir:
 | SPACE | Boşluğu temsil eder(" ")|
 | COMMA | Virgül(",") temsil eder|
 | SEMICOLON | Noktalı virgülü temsil eder(";")|
-| PERIOD | Noktayı temsil eder(".")|
+| PERIOD |Noktayı temsil eder(".")|
 | NEW_LINE | Yeni satırı("\n") temsil eder|
 | CUSTOM | Özel ayırıcıyı temsil eder|
 
@@ -29,9 +29,9 @@ DataLablesSeparatorType türü aşağıdaki üyeleri gösterir:
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
 lütfen DataLabelsSeparatorType numaralandırmasını kullanın.
-Bu mülk, Eylül 2020'den itibaren 12 ay sonra kaldırılacaktır.
+ Bu mülk, Eylül 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 
 ###  Ayrıca bakınız

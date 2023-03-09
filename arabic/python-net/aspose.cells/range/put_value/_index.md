@@ -18,7 +18,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | string_value | str | قيمة المدخلات|
 | is_converted | bool | صواب: تم التحويل إلى نوع بيانات آخر إذا كان ذلك مناسبًا.|

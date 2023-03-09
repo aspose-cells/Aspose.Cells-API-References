@@ -1,6 +1,6 @@
 ﻿---
 title: extend_to_adjacent_range 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-如果为真，则只扩展超链接的范围，在复制超链接到相邻行时不添加新的超链接。
+如果为真，则仅扩展超链接的范围，在将超链接复制到相邻行时不添加新的超链接。
 ### 定义：
 ```python
 @property

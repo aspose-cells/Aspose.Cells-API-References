@@ -11,7 +11,7 @@ is_root: false
 
 Indica si este comentario es un comentario encadenado.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Если это не область, действуют только StartRow и StartColumn.
+Если это не область, только эффекты StartRow и StartColumn.
 ###  Определение:
 ```python
 @property

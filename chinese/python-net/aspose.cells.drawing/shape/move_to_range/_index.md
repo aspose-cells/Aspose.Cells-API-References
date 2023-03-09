@@ -1,6 +1,6 @@
 ﻿---
 title: move_to_range方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 140
@@ -18,7 +18,7 @@ def move_to_range(self, upper_left_row, upper_left_column, lower_right_row, lowe
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | upper_left_row | int |左上行索引。|
 | upper_left_column | int |左上列索引。|

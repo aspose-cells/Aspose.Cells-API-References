@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  footer_margin_inch mülk
 
-Sayfanın altından altbilgiye olan mesafeyi inç cinsinden temsil eder.
+Sayfanın altından alt bilgiye olan mesafeyi inç birimi cinsinden temsil eder.
 ###  Tanım:
 ```python
 @property

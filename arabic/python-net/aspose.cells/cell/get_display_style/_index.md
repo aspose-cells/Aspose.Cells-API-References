@@ -24,7 +24,7 @@ def get_display_style(self):
 
 ##  get_display_style(include_merged_borders) {#bool}
 يحصل على نمط عرض الخلية.
-إذا كانت الخلية منسقة شرطيًا ، فلن يكون نمط العرض مماثلاً للخلية.
+إذا تم تنسيق الخلية بشكل مشروط ، فلن يكون نمط العرض هو نفسه الخلية.
 
 
 
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | include_merged_borders | bool | يشير إلى ما إذا كان التحقق من حدود الخلايا المدمجة أم لا.|
 

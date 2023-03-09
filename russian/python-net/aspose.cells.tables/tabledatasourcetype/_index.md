@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | WORKSHEET | Таблица рабочего листа Excel|
 | SHARE_POINT | Связанный список SharePoint для чтения и записи|
-| XML | Таблица сопоставления XML|
+| XML | XML-таблица сопоставления|
 | QUERY_TABLE | Таблица запросов|
 
 

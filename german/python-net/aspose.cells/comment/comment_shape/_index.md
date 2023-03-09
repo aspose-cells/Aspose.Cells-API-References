@@ -11,7 +11,7 @@ is_root: false
 
 Rufen Sie ein Shape-Objekt ab, das die an den angegebenen Kommentar angehängte Form darstellt.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

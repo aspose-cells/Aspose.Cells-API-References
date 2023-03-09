@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/worksheet/refresh_pivot_tables/
 is_root: false
 ---
 ##  refresh_pivot_tables() {#}
-Actualiza todas las tablas dinámicas de esta hoja de trabajo.
+Actualiza todas las tablas dinámicas de esta hoja de cálculo.
 
 
 

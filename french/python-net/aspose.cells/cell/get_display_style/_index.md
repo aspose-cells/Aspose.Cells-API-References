@@ -24,7 +24,7 @@ def get_display_style(self):
 
 ##  get_display_style(include_merged_borders) {#bool}
 Obtient le style d'affichage de la cellule.
-Si la cellule est au format conditionnel, le style d'affichage n'est pas le même que celui de cell.GetStyle().
+Si la cellule est mise en forme de manière conditionnelle, le style d'affichage n'est pas le même que celui de cell.GetStyle().
 
 
 
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | include_merged_borders | bool | Indique s'il faut vérifier les bordures des cellules fusionnées.|
 

@@ -1,6 +1,6 @@
 ﻿---
 title: data_field 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 400
@@ -10,8 +10,8 @@ is_root: false
 ## data_field 属性
 
 获取表示数据透视表中所有数据字段的 PivotField 对象。
-只读。只有当DataPiovtFiels中有两个或多个数据字段时才会被初始化。
-它仅用于将 DataPivotField 添加到数据透视表的行/列区域。默认在行区域。
+只读，只有当DataPiovtFields中有两个或多个数据字段时才会初始化。
+它只用于将DataPivotField添加到数据透视表的行/列区域。默认是在行区域。
 ### 定义：
 ```python
 @property

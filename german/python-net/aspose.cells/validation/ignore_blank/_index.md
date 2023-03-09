@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_blank Eigentum
 
-Gibt an, ob bei der Bereichsdatenvalidierung Leerwerte zulässig sind.
+Gibt an, ob Leerwerte von der Bereichsdatenvalidierung zugelassen werden.
 ###  Definition:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el número de columnas en la segmentación de datos especificada.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

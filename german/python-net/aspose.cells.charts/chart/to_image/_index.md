@@ -26,7 +26,7 @@ def to_image(self, image_file):
 
 Das Format des Bildes wird durch die Erweiterung des Dateinamens angegeben.
 Wenn Sie beispielsweise „myfile.png“ angeben, wird das Bild gespeichert
- im Format PNG. Die folgenden Dateierweiterungen werden erkannt:
+ im Format PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
@@ -140,13 +140,13 @@ def to_image(self, image_file, options):
 
 Das Format des Bildes wird durch die Erweiterung des Dateinamens angegeben.
 Wenn Sie beispielsweise „myfile.png“ angeben, wird das Bild gespeichert
- im Format PNG. Die folgenden Dateierweiterungen werden erkannt:
+ im Format PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
 Wenn die Breite oder Höhe Null ist oder das Diagramm gemäß der Liste der unterstützten Diagramme nicht unterstützt wird, wird diese Methode nichts bewirken.
- Bitte beziehen Sie sich auf[Liste der unterstützten Diagramme](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) für mehr Details.
-###  Beispiel
+ Bitte beziehen Sie sich auf[Liste der unterstützten Diagramme](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)für mehr Details.
+###  Beispiele
 
 Speichert im Tiff-Format mit 300 dpi und CCITT4-Komprimierung.
 
@@ -198,12 +198,12 @@ def to_image(self, stream, options):
 ###  Bemerkungen
 
 Der Typ des Bildes wird mit `options.ImageType` angegeben.
-Folgende Formate werden unterstützt:
+ Folgende Formate werden unterstützt:
 ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 
 Wenn die Breite oder Höhe Null ist oder das Diagramm gemäß der Liste der unterstützten Diagramme nicht unterstützt wird, wird diese Methode nichts bewirken.
- Bitte beziehen Sie sich auf[Liste der unterstützten Diagramme](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) für mehr Details.
+ Bitte beziehen Sie sich auf[Liste der unterstützten Diagramme](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)für mehr Details.
 
 
 ###  Siehe auch

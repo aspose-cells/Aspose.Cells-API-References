@@ -22,9 +22,9 @@ def get_image_data(self, cell):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Hücre ayarı.|
+| cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Hücrelerin ayarı.|
 
 
 

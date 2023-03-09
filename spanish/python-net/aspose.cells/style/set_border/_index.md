@@ -22,7 +22,7 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | border_type | [BorderType](/cells/es/python-net/aspose.cells/bordertype) | Los bordes que se establecerán pueden ser una combinación de [BorderType](/cells/es/python-net/aspose.cells/bordertype).|
 | border_style | [CellBorderType](/cells/es/python-net/aspose.cells/cellbordertype) | El estilo de la frontera.|
@@ -44,7 +44,7 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | border_type | [BorderType](/cells/es/python-net/aspose.cells/bordertype) | Los bordes que se establecerán pueden ser una combinación de [BorderType](/cells/es/python-net/aspose.cells/bordertype).|
 | border_style | [CellBorderType](/cells/es/python-net/aspose.cells/cellbordertype) | El estilo de la frontera.|

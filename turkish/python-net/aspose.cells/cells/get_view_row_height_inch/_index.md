@@ -22,7 +22,7 @@ def get_view_row_height_inch(self, row):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini|
 

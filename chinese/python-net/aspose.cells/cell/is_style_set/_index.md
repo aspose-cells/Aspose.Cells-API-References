@@ -1,6 +1,6 @@
 ﻿---
 title: is_style_set 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 610
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_style_set 属性
 
-指示是否设置了单元格的样式。如果返回 false，则表示此单元格具有默认单元格格式。
+指示是否设置了单元格的样式。如果返回false，则表示该单元格具有默认的单元格格式。
 ### 定义：
 ```python
 @property

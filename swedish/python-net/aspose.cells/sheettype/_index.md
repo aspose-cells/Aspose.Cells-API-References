@@ -17,13 +17,13 @@ Typen SheetType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| VB | Visual Basic-modul|
+| VB | Visual Basic-moduler|
 | WORKSHEET |  |
 | CHART | Diagram|
 | BIFF4_MACRO | BIFF4 Makroblad|
 | INTERNATIONAL_MACRO | Internationellt makroblad|
 | OTHER |  |
-| DIALOG | Dialog arbetsblad|
+| DIALOG |Arbetsblad för dialog|
 
 
 

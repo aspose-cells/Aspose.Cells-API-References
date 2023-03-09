@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | style | [Style](/cells/ru/python-net/aspose.cells/style) | Стиль клетки.|
 ###  Примечания
@@ -37,7 +37,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | style | [Style](/cells/ru/python-net/aspose.cells/style) | Стиль клетки.|
 | explicit_flag | bool | Правда, только перезапись форматирования, которое задано явно.|
@@ -54,7 +54,7 @@ def set_style(self, style, flag):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | style | [Style](/cells/ru/python-net/aspose.cells/style) | Стиль клетки.|
 | flag | [StyleFlag](/cells/ru/python-net/aspose.cells/styleflag) | Флаг стиля.|

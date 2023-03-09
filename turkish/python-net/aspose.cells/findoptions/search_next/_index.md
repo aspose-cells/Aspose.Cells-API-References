@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  search_next mülk
 
-Arama sırası. Doğru: sonra ara. Yanlış: öncekini ara.
+Arama sırası Doğru: sonrakini ara Yanlış: öncekini ara
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+ NOT: Bu üye artık kullanılmıyor.
  lütfen FindOptions.SearchBackward özelliğini kullanın.
  Bu mülk, Kasım 2018'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

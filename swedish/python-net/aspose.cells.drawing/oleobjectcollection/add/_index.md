@@ -22,11 +22,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
-| height | int |Höjd på oleObject, i pixelenhet.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
+| height | int | Höjd på oleObject, i pixelenhet.|
 | width | int | Bredden på oleObject, i pixelenhet.|
 | image_data | bytes | Bild av ole-objekt som byte-array.|
 
@@ -46,11 +46,11 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
-| height | int |Höjd på oleObject, i pixelenhet.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
+| height | int | Höjd på oleObject, i pixelenhet.|
 | width | int | Bredden på oleObject, i pixelenhet.|
 | image_data | bytes | Bild av ole-objekt som byte-array.|
 | linked_file | str |  |

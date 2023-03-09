@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache proprietà
 
-Restituisce l'oggetto SlicerCache associato all'affettatrice. Sola lettura.
+Restituisce l'oggetto SlicerCache associato all'affettatrice.
 
-###  Esempio
+###  Esempi
 
 ```python
 

@@ -22,7 +22,7 @@ def get_dependents(self, is_all, row, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | is_all | bool | Indique si vérifier d'autres feuilles de calcul|
 | row | int | L'index de ligne.|

@@ -11,7 +11,7 @@ is_root: false
 
 İmzalama anında kullanıcıya gösterilen metni alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import SignatureLine

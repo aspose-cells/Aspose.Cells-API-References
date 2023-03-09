@@ -13,7 +13,7 @@ Indica se l'utente può selezionare celle sbloccate in un foglio di lavoro prote
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
  utilizzare la proprietà Protection.AllowSelectingUnlockedCell.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.

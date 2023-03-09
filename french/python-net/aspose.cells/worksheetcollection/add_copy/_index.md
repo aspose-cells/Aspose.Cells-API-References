@@ -22,7 +22,7 @@ def add_copy(self, sheet_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sheet_name | str | Nom de la feuille de calcul source.|
 ###  Des exceptions
@@ -48,9 +48,9 @@ def add_copy(self, sheet_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| sheet_index | int | Index de la feuille de travail source.|
+| sheet_index | int | Index des feuilles de calcul des sources.|
 
 
 

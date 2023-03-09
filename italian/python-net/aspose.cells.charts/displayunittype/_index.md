@@ -24,9 +24,9 @@ Il tipo DisplayUnitType espone i membri seguenti:
 | HUNDRED_THOUSANDS | Specifica che i valori sul grafico devono essere divisi per 100.000.|
 | MILLIONS | Specifica che i valori sul grafico devono essere divisi per 1.000.000.|
 | TEN_MILLIONS | Specifica che i valori sul grafico devono essere divisi per 10.000.000.|
-| HUNDRED_MILLIONS |Specifica che i valori sul grafico devono essere divisi per 100.000.000.|
+| HUNDRED_MILLIONS | Specifica che i valori sul grafico devono essere divisi per 100.000.000.|
 | BILLIONS | Specifica che i valori sul grafico devono essere divisi per 1.000.000.000.|
-| TRILLIONS | Specifica che i valori sul grafico devono essere divisi per 1.000.000.000.000.|
+| TRILLIONS |Specifica che i valori sul grafico devono essere divisi per 1.000.000.000.000.|
 | PERCENTAGE | I valori sul grafico devono essere divisi per 0,01.|
 | CUST | specifica un valore personalizzato per l'unità di visualizzazione.|
 | CUSTOM | specifica un valore personalizzato per l'unità di visualizzazione.|

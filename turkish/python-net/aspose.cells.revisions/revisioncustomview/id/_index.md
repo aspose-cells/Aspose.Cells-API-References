@@ -13,7 +13,7 @@ Bu revizyonun numarasını alır.
 
 ###  Notlar
 
-Sıfır, bu revizyonun id'i içermediği anlamına gelir.
+Sıfır, bu revizyonun id içermediği anlamına gelir.
 ###  Tanım:
 ```python
 @property

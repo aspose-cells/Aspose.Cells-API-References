@@ -1,5 +1,5 @@
 ﻿---
-title: ISmartMarkerCallBack sınıf
+title: ISmartMarkerCallBack sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 860
 url: /tr/python-net/aspose.cells/ismartmarkercallback/
 is_root: false
 ---
-##  ISmartMarkerCallBack sınıf
+##  ISmartMarkerCallBack sınıfı
 Smartmarker işlemenin geri arama arayüzünü temsil eder.
 
 

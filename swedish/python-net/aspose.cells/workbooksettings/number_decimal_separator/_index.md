@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_decimal_separator fastighet
 
-Hämtar eller ställer in decimalavgränsaren för formatering/analys av numeriska värden. Standard är decimalavgränsaren för aktuell region.
+Hämtar eller ställer in decimalavgränsaren för formatering/analys av numeriska värden.
 ###  Definition:
 ```python
 @property

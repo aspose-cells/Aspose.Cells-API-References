@@ -22,7 +22,7 @@ FilterType türü aşağıdaki üyeleri gösterir:
 | DYNAMIC_FILTER | Dinamik filtre türü.|
 | MULTIPLE_FILTERS | Filtrelemek için birden fazla değer seçildiğinde veya filtrelemek için bir tarih değerleri grubu seçildiğinde,<br/> bu öğe, bu kriterleri birlikte gruplandırır.|
 | ICON_FILTER | Koşullu biçimlendirme simgesine göre filtreleyin.|
-| TOP10 |En iyi 10 filtre.|
+| TOP10 | En iyi 10 filtre.|
 | NONE | Filtresiz.|
 
 

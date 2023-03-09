@@ -39,7 +39,7 @@ def insert_columns(self, column_index, total_columns, update_reference):
 | :- | :- | :- |
 | column_index | int | Spaltenindex.|
 | total_columns | int | Die Anzahl der Spalten.|
-| update_reference | bool | Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
+| update_reference | bool |Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
 
 
 

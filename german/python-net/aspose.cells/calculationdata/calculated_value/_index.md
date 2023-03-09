@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  calculated_value Eigentum
 
-Ruft den berechneten Wert für diese Funktion ab oder legt ihn fest.
+Ruft den berechneten Wert für diese Funktion ab oder legt diesen fest.
 
 ###  Bemerkungen
 

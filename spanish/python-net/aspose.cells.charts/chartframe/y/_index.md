@@ -14,7 +14,7 @@ Obtiene o establece la coordenada y de la esquina superior izquierda en unidades
 ###  Observaciones
 
  ¿Cómo convertir unidades de 1/4000 a píxeles?
-en píxeles = Y * Chart.ChartObject.Height / 4000;
+Y en píxeles = Y * Chart.ChartObject.Height / 4000;
 ###  Definición:
 ```python
 @property

@@ -18,7 +18,7 @@ def warning(self, warning_info):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | warning_info | [WarningInfo](/cells/ru/python-net/aspose.cells/warninginfo) | предупреждающая информация|
 

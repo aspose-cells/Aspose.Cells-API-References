@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  custom_properties_export fastighet
 
-Hämtar eller ställer in ett värde som bestämmer hur [CustomDocumentPropertyCollection](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection) exporteras till filen PDF. Standardvärdet är None.
+Hämtar eller ställer in ett värde som bestämmer hur [CustomDocumentPropertyCollection](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection) exporteras till filen PDF. Standardvärdet är Inget.
 ###  Definition:
 ```python
 @property

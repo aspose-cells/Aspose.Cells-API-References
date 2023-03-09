@@ -18,7 +18,7 @@ def insert_row(self, row_index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row_index | int | Indice de ligne.|
 

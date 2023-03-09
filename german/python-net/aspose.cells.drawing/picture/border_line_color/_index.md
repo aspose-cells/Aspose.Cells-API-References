@@ -11,7 +11,7 @@ is_root: false
 
 Repräsentiert die Farbe der Rahmenlinie eines Bildes.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

@@ -22,11 +22,11 @@ Il tipo Trendline espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [compound_type](/cells/it/python-net/aspose.cells.charts/trendline/compound_type) |Specifica il tipo di linea composta|
+| [compound_type](/cells/it/python-net/aspose.cells.charts/trendline/compound_type) | Specifica il tipo di linea composta|
 | [dash_type](/cells/it/python-net/aspose.cells.charts/trendline/dash_type) | Specifica il tipo di linea tratteggiata|
 | [cap_type](/cells/it/python-net/aspose.cells.charts/trendline/cap_type) | Specifica le maiuscole finali.|
 | [join_type](/cells/it/python-net/aspose.cells.charts/trendline/join_type) | Specifica le estremità di giunzione.|
-| [begin_type](/cells/it/python-net/aspose.cells.charts/trendline/begin_type) | Specifica una freccia per l'inizio di una riga.|
+| [begin_type](/cells/it/python-net/aspose.cells.charts/trendline/begin_type) |Specifica una freccia per l'inizio di una riga.|
 | [end_type](/cells/it/python-net/aspose.cells.charts/trendline/end_type) | Specifica una freccia per la fine di una riga.|
 | [begin_arrow_length](/cells/it/python-net/aspose.cells.charts/trendline/begin_arrow_length) | Specifica la lunghezza della punta della freccia per l'inizio di una riga.|
 | [end_arrow_length](/cells/it/python-net/aspose.cells.charts/trendline/end_arrow_length) | Specifica la lunghezza della punta della freccia per la fine di una riga.|
@@ -40,26 +40,26 @@ Il tipo Trendline espone i membri seguenti:
 | [weight_pt](/cells/it/python-net/aspose.cells.charts/trendline/weight_pt) | Ottiene o imposta lo spessore della linea in unità di punti.|
 | [weight_px](/cells/it/python-net/aspose.cells.charts/trendline/weight_px) | Ottiene o imposta lo spessore della linea in unità di pixel.|
 | [formatting_type](/cells/it/python-net/aspose.cells.charts/trendline/formatting_type) | Ottiene o imposta il tipo di formato.|
-| [is_automatic_color](/cells/it/python-net/aspose.cells.charts/trendline/is_automatic_color) |Indica se il colore della linea è assegnato automaticamente.|
+| [is_automatic_color](/cells/it/python-net/aspose.cells.charts/trendline/is_automatic_color) | Indica se il colore della linea viene assegnato automaticamente.|
 | [is_visible](/cells/it/python-net/aspose.cells.charts/trendline/is_visible) | Indica se la linea è visibile.|
 | [is_auto](/cells/it/python-net/aspose.cells.charts/trendline/is_auto) | Indica se questo stile di linea è assegnato automaticamente.|
 | [gradient_fill](/cells/it/python-net/aspose.cells.charts/trendline/gradient_fill) | Rappresenta il riempimento sfumato.|
 | [is_name_auto](/cells/it/python-net/aspose.cells.charts/trendline/is_name_auto) | Restituisce se Microsoft Excel determina automaticamente il nome della linea di tendenza.|
 | [type](/cells/it/python-net/aspose.cells.charts/trendline/type) | Restituisce il tipo di linea di tendenza.|
 | [name](/cells/it/python-net/aspose.cells.charts/trendline/name) | Restituisce il nome della linea di tendenza.|
-| [order](/cells/it/python-net/aspose.cells.charts/trendline/order) |Restituisce o imposta l'ordine della linea di tendenza (un numero intero maggiore di 1) quando il tipo di linea di tendenza è Polinomiale.<br/> L'ordine deve essere compreso tra 2 e 6.|
+| [order](/cells/it/python-net/aspose.cells.charts/trendline/order) | Restituisce o imposta l'ordine della linea di tendenza (un numero intero maggiore di 1) quando il tipo di linea di tendenza è Polinomiale.<br/> L'ordine deve essere compreso tra 2 e 6.|
 | [period](/cells/it/python-net/aspose.cells.charts/trendline/period) | Restituisce o imposta il periodo per la linea di tendenza della media mobile.|
-| [forward](/cells/it/python-net/aspose.cells.charts/trendline/forward) | Restituisce o imposta il numero di periodi (o unità su un grafico a dispersione) di cui la linea di tendenza si estende in avanti.<br/>Il numero di periodi deve essere maggiore o uguale a zero.|
+| [forward](/cells/it/python-net/aspose.cells.charts/trendline/forward) | Restituisce o imposta il numero di periodi (o unità su un grafico a dispersione) di cui la linea di tendenza si estende in avanti.<br/> Il numero di periodi deve essere maggiore o uguale a zero.|
 | [backward](/cells/it/python-net/aspose.cells.charts/trendline/backward) | Restituisce o imposta il numero di periodi (o unità su un grafico a dispersione) in cui la linea di tendenza si estende all'indietro.<br/>Il numero di periodi deve essere maggiore o uguale a zero.<br/> Se il tipo di grafico è colonna, il numero di periodi deve essere compreso tra 0 e 0,5|
-| [display_equation](/cells/it/python-net/aspose.cells.charts/trendline/display_equation) | Indica se l'equazione per la linea di tendenza viene visualizzata sul grafico (nella stessa etichetta dati del valore R-quadrato). L'impostazione di questa proprietà su True attiva automaticamente le etichette dati.|
-| [display_r_squared](/cells/it/python-net/aspose.cells.charts/trendline/display_r_squared) | Indica se il valore R-quadrato della linea di tendenza viene visualizzato sul grafico (nella stessa etichetta dati dell'equazione). L'impostazione di questa proprietà su True attiva automaticamente le etichette dati.|
+| [display_equation](/cells/it/python-net/aspose.cells.charts/trendline/display_equation) |Indica se l'equazione per la linea di tendenza viene visualizzata sul grafico (nella stessa etichetta dati del valore R-quadrato).|
+| [display_r_squared](/cells/it/python-net/aspose.cells.charts/trendline/display_r_squared) | Rappresenta se il valore R al quadrato della linea di tendenza viene visualizzato sul grafico (nella stessa etichetta dati dell'equazione). L'impostazione di questa proprietà su True attiva automaticamente le etichette dati.|
 | [intercept](/cells/it/python-net/aspose.cells.charts/trendline/intercept) | Restituisce o imposta il punto in cui la linea di tendenza interseca l'asse dei valori.|
 | [data_labels](/cells/it/python-net/aspose.cells.charts/trendline/data_labels) | Rappresenta l'oggetto DataLabels per la serie specificata.|
 | [legend_entry](/cells/it/python-net/aspose.cells.charts/trendline/legend_entry) | Ottiene la voce della legenda in base a questa linea di tendenza|
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible Eigentum
 
-Gibt an, ob das Lineal sichtbar ist. Diese Eigenschaft wird nur für die Seitenumbruchvorschau angewendet.
+Gibt an, ob das Lineal sichtbar ist.
 ###  Definition:
 ```python
 @property

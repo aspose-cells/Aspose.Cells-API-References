@@ -18,7 +18,7 @@ def copy_theme(self, source):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Kaynak çalışma kitabı.|
 

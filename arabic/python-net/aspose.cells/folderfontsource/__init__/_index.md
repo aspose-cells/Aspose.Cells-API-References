@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/folderfontsource/__init__/
 is_root: false
 ---
 ##  FolderFontSource(folder_path, scan_subfolders) {#str-bool}
-Ctor.
+مخرج.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, folder_path, scan_subfolders):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | folder_path | str | مسار مجلد الخطوط|
 | scan_subfolders | bool | يحدد ما إذا كان سيتم فحص المجلدات الفرعية أم لا.|

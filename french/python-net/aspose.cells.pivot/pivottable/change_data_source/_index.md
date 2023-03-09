@@ -19,7 +19,7 @@ def change_data_source(self, source):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | source | list |  |
 

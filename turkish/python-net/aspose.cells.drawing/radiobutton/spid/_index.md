@@ -11,7 +11,7 @@ is_root: false
 
 Bir uygulamanın belirli şekli Tanımlamak için kullanabileceği isteğe bağlı bir dize belirtir.
 
-###  Örnek
+###  örnekler
 
 ```python
 

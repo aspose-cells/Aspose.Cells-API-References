@@ -18,12 +18,12 @@ def export_xml(self, map_name, path):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | map_name | str | dışa aktarılması gereken XML haritasının adı|
 | path | str | dışa aktarma yolu|
 
-###  Örnek
+###  örnekler
 
 Aşağıdaki kod, ilk XmlMap tarafından bağlanan verileri dışa aktardı.
 
@@ -49,7 +49,7 @@ def export_xml(self, map_name, stream):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | map_name | str | dışa aktarılması gereken XML haritasının adı|
 | stream | io.RawIOBase | ihracat akışı|

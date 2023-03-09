@@ -1,13 +1,13 @@
 ﻿---
 title: MsoArrowheadWidth枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 990
 url: /zh/python-net/aspose.cells.drawing/msoarrowheadwidth/
 is_root: false
 ---
-##  MsoArrowheadWidth枚举
+## MsoArrowheadWidth枚举
 枚举形状边框线的线端宽度。
 
 

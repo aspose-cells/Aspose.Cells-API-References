@@ -1,13 +1,13 @@
 ﻿---
 title: ControlSpecialEffectType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 260
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype/
 is_root: false
 ---
-##  ControlSpecialEffectType枚举
+## ControlSpecialEffectType枚举
 表示特殊效果的类型。
 
 

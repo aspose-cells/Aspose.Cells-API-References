@@ -19,14 +19,14 @@ def to_image(self, image_file):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | image_file | str | Le nom du fichier image avec le chemin complet.|
 ###  Remarques
 
 Le format de l'image est spécifié en utilisant l'extension du nom de fichier.
 Par exemple, si vous spécifiez "monfichier.png", l'image sera enregistrée
- au format PNG. Les extensions de fichier suivantes sont reconnues :
+ au format PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
@@ -43,7 +43,7 @@ def to_image(self, image_file, image_type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | image_file | str | Le nom du fichier image avec le chemin complet.|
 | image_type | aspose.cells.drawing.ImageType | Type d'image dans lequel enregistrer l'image.|
@@ -67,7 +67,7 @@ def to_image(self, image_file, jpeg_quality):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | image_file | str | Le nom du fichier image avec le chemin complet.|
 | jpeg_quality | int | Qualité Jpeg.|
@@ -87,7 +87,7 @@ def to_image(self, stream, jpeg_quality):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux de sortie.|
 | jpeg_quality | int | Qualité Jpeg.|
@@ -107,7 +107,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux de sortie.|
 | image_type | aspose.cells.drawing.ImageType | Type d'image dans lequel enregistrer l'image.|
@@ -132,7 +132,7 @@ def to_image(self, image_file, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | image_file | str | Le nom du fichier image avec le chemin complet.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Options de création d'images supplémentaires|
@@ -140,15 +140,15 @@ def to_image(self, image_file, options):
 
 Le format de l'image est spécifié en utilisant l'extension du nom de fichier.
 Par exemple, si vous spécifiez "monfichier.png", l'image sera enregistrée
- au format PNG. Les extensions de fichier suivantes sont reconnues :
+ au format PNG.
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
 Si la largeur ou la hauteur est nulle ou si le graphique n'est pas pris en charge conformément à la liste des graphiques pris en charge, cette méthode ne fera rien.
- Prière de se référer à[Liste des graphiques pris en charge](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) pour plus de détails.
-###  Exemple
+ Prière de se référer à[Liste des graphiques pris en charge](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)pour plus de détails.
+###  Exemples
 
-Enregistre au format Tiff avec 300 dpi et compression CCITT4.
+Enregistre au format Tiff avec une compression de 300 dpi et CCITT4.
 
 ```python
 from aspose.cells import Workbook
@@ -191,19 +191,19 @@ def to_image(self, stream, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux de sortie.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Options de création d'images supplémentaires|
 ###  Remarques
 
 Le type d'image est spécifié à l'aide de `options.ImageType`.
-Les formats suivants sont pris en charge :
+ Les formats suivants sont pris en charge :
 ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 
 Si la largeur ou la hauteur est nulle ou si le graphique n'est pas pris en charge conformément à la liste des graphiques pris en charge, cette méthode ne fera rien.
- Prière de se référer à[Liste des graphiques pris en charge](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) pour plus de détails.
+ Prière de se référer à[Liste des graphiques pris en charge](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)pour plus de détails.
 
 
 ###  Voir également

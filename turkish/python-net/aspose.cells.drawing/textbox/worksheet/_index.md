@@ -11,7 +11,7 @@ is_root: false
 
 Bu şekli içeren [Shape.worksheet](/cells/tr/python-net/aspose.cells.drawing/shape#worksheet) nesnesini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

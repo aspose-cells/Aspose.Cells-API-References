@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range proprietà
 
-Ottiene l'intervallo del risultato.
+Ottiene l'intervallo dei risultati.
 ###  Definizione:
 ```python
 @property

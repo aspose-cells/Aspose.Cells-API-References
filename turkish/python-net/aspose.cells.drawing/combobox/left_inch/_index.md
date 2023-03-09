@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin sol sütunundan yatay uzaklığını inç cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -1,6 +1,6 @@
 ﻿---
 title: is_resize_shape_to_fit_text 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 230
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_resize_shape_to_fit_text 属性
 
-获取或设置形状是否应自动调整以完全包含其中描述的文本。自动拟合是
+获取或设置形状是否应自动调整以完全包含其中描述的文本。
 当缩放形状内的文本以包含内部的所有文本时。
 ### 定义：
 ```python

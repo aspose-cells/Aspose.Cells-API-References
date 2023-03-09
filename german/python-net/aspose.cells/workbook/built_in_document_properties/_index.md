@@ -13,7 +13,7 @@ Gibt eine [DocumentProperty](/cells/de/python-net/aspose.cells.properties/docume
 
 ###  Bemerkungen
 
-Der Liste der integrierten Dokumenteigenschaften kann keine neue Eigenschaft hinzugefügt werden. Sie können nur eine eingebaute Eigenschaft abrufen und ihren Wert ändern.
+Der Liste der integrierten Dokumenteigenschaften kann keine neue Eigenschaft hinzugefügt werden.
 Das Folgende ist die Namensliste der integrierten Eigenschaften:
 
 Titel

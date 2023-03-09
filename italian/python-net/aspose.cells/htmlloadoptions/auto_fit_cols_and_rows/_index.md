@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_fit_cols_and_rows proprietà
 
-Indica se le colonne e le righe vengono adattate automaticamente. Il valore predefinito è falso.
+Indica se le colonne e le righe vengono adattate automaticamente.
 ###  Definizione:
 ```python
 @property

@@ -1,6 +1,6 @@
 ﻿---
 title: get_on_category_axis_point_x_px方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_
 is_root: false
 ---
 ##  get_on_category_axis_point_x_px(index) {#int}
-调用 Chart.Calculate() 方法后获取类别轴上点的 x 坐标。仅适用于面积图。
+调用Chart.Calculate()方法后获取分类轴上点的横坐标，仅适用于面积图。
 
 
 
@@ -18,7 +18,7 @@ def get_on_category_axis_point_x_px(self, index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | index | int |  |
 ### 评论

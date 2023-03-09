@@ -22,7 +22,7 @@ def get_theme_font(self, type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | type | [FontSchemeType](/cells/fr/python-net/aspose.cells/fontschemetype) | Le type de schéma de la police.|
 

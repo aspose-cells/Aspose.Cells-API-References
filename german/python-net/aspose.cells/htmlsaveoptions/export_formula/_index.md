@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_formula Eigentum
 
-Gibt an, ob die Formel beim Speichern der Datei in HTML exportiert wird. Der Standardwert ist wahr.
+Gibt an, ob die Formel beim Speichern der Datei in HTML exportiert wird.
 Wenn Sie die HTML-Ausgabe in Excel importieren möchten, behalten Sie bitte den Standardwert bei.
 ###  Definition:
 ```python

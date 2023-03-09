@@ -1,6 +1,6 @@
 ﻿---
 title: auto_filter 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-有时虽然设置了自动筛选器，但相应的行并没有隐藏在文件中。
+有时虽然设置了自动过滤器，但相应的行并没有隐藏在文件中。
 现在仅适用于 SpreadSheetML 文件。
 ### 定义：
 ```python

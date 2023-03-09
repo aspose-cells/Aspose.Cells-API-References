@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.ods/odscellfield/
 is_root: false
 ---
 ##  OdsCellField الدرجة
-يمثل الحقل الخلوي للقرون.
+يمثل حقل خلية الاحتمالات.
 
 
 
@@ -20,7 +20,7 @@ is_root: false
 | [custom_format](/cells/ar/python-net/aspose.cells.ods/odscellfield/custom_format) | يمثل التنسيق المخصص لقيمة الحقل.|
 | [field_type](/cells/ar/python-net/aspose.cells.ods/odscellfield/field_type) | يحصل على نوع الحقل ويعينه.|
 | [row](/cells/ar/python-net/aspose.cells.ods/odscellfield/row) | الحصول على فهرس صف الخلية وتعيينه.|
-| [column](/cells/ar/python-net/aspose.cells.ods/odscellfield/column) | الحصول على فهرس العمود للخلية وتعيينه.|
+| [column](/cells/ar/python-net/aspose.cells.ods/odscellfield/column) | احصل على فهرس العمود للخلية وقم بتعيينه.|
 
 
 

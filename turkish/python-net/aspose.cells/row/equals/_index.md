@@ -22,7 +22,7 @@ def equals(self, row):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | [Row](/cells/tr/python-net/aspose.cells/row) | başka bir satır nesnesi|
 

@@ -13,7 +13,7 @@ Obtenez la largeur dans différents types de vue.
 
 ###  Retour
 
-la largeur de la colonne en pixels
+la largeur de la colonne en unités de pixels
 
 
 ```python
@@ -22,7 +22,7 @@ def get_view_column_width_pixel(self, column):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column | int | L'indice de colonne.|
 

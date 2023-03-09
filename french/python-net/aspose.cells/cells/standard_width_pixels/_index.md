@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width_pixels propriété
 
-Obtient ou définit la largeur de colonne par défaut dans la feuille de calcul, en pixels.
+Obtient ou définit la largeur de colonne par défaut dans la feuille de calcul, en unités de pixels.
 ###  Définition:
 ```python
 @property

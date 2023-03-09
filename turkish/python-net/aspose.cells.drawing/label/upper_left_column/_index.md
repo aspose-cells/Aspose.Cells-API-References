@@ -11,7 +11,7 @@ is_root: false
 
 Sol üst köşe sütun indeksini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

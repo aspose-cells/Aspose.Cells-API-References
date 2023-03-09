@@ -19,8 +19,8 @@ Il tipo Marker espone i membri seguenti:
 | :- | :- |
 | [border](/cells/it/python-net/aspose.cells.charts/marker/border) | Ottiene lo [Line](/cells/it/python-net/aspose.cells.drawing/line).|
 | [area](/cells/it/python-net/aspose.cells.charts/marker/area) | Ottiene lo [Marker.area](/cells/it/python-net/aspose.cells.charts/marker#area).|
-| [marker_style](/cells/it/python-net/aspose.cells.charts/marker/marker_style) |Rappresenta lo stile del marcatore. Si applica al grafico a linee, al grafico a dispersione o al grafico a radar.|
-| [marker_size](/cells/it/python-net/aspose.cells.charts/marker/marker_size) | Rappresenta la dimensione del marcatore in unità di punti. Si applica al grafico a linee, al grafico a dispersione o al grafico a radar.|
+| [marker_style](/cells/it/python-net/aspose.cells.charts/marker/marker_style) | Rappresenta lo stile dell'indicatore. Si applica al grafico a linee, al grafico a dispersione o al grafico a radar.|
+| [marker_size](/cells/it/python-net/aspose.cells.charts/marker/marker_size) | Rappresenta la dimensione dell'indicatore in unità di punti. Si applica al grafico a linee, al grafico a dispersione o al grafico a radar.|
 | [marker_size_px](/cells/it/python-net/aspose.cells.charts/marker/marker_size_px) | Rappresenta la dimensione dell'indicatore in unità di pixel. Si applica al grafico a linee, al grafico a dispersione o al grafico a radar.|
 | [foreground_color](/cells/it/python-net/aspose.cells.charts/marker/foreground_color) | Rappresenta il colore di primo piano dell'indicatore in un grafico a linee, a dispersione o radar.|
 | [foreground_color_set_type](/cells/it/python-net/aspose.cells.charts/marker/foreground_color_set_type) | Ottiene o imposta il tipo di set di colori di primo piano del marcatore.|

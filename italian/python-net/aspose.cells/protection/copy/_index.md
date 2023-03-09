@@ -18,7 +18,7 @@ def copy(self, source):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source | [Protection](/cells/it/python-net/aspose.cells/protection) |  |
 

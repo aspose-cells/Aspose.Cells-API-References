@@ -13,7 +13,7 @@ Birleştirilmiş bir aralığı temsil eden [Range](/cells/tr/python-net/aspose.
 
 ###  İadeler
 
-[Range](/cells/tr/python-net/aspose.cells/range) nesne. Bu hücre birleştirilmemişse boş.
+[Range](/cells/tr/python-net/aspose.cells/range) nesnesi. Bu hücre birleştirilmemişse boş.
 
 
 ```python

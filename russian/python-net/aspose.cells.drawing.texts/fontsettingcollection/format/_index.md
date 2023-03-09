@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/
 is_root: false
 ---
 ##  format(start_index, length, font, flag) {#int-int-Font-StyleFlag}
-Отформатируйте текст с настройкой шрифта.
+Отформатируйте текст с помощью настроек шрифта.
 
 
 
@@ -18,7 +18,7 @@ def format(self, start_index, length, font, flag):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | start_index | int | Начальный индекс.|
 | length | int | Длина.|

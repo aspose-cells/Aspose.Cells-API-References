@@ -18,7 +18,7 @@ def page_start_saving(self, args):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | args | [PageStartSavingArgs](/cells/ar/python-net/aspose.cells.rendering/pagestartsavingargs) | تبدأ معلومات الصفحة في عملية الحفظ.|
 

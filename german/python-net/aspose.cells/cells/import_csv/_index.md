@@ -22,7 +22,7 @@ def import_csv(self, file_name, options, first_row, first_column):
 | :- | :- | :- |
 | file_name | str | Der Dateiname CSV.|
 | options | [TxtLoadOptions](/cells/de/python-net/aspose.cells/txtloadoptions) | Die Ladeoptionen zum Lesen von Textdateien|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 
 
@@ -41,7 +41,7 @@ def import_csv(self, stream, options, first_row, first_column):
 | :- | :- | :- |
 | stream | io.RawIOBase | Der CSV-Dateistream.|
 | options | [TxtLoadOptions](/cells/de/python-net/aspose.cells/txtloadoptions) | Die Ladeoptionen zum Lesen von Textdateien|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 
 
@@ -60,8 +60,8 @@ def import_csv(self, file_name, splitter, convert_numeric_data, first_row, first
 | :- | :- | :- |
 | file_name | str | Der Dateiname CSV.|
 | splitter | str | Der Splitter|
-| convert_numeric_data | bool | Ob die Zeichenfolge in der Textdatei in numerische Daten konvertiert wird.|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| convert_numeric_data | bool |Ob die Zeichenfolge in der Textdatei in numerische Daten konvertiert wird.|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 
 
@@ -80,8 +80,8 @@ def import_csv(self, stream, splitter, convert_numeric_data, first_row, first_co
 | :- | :- | :- |
 | stream | io.RawIOBase | Der CSV-Dateistream.|
 | splitter | str | Der Splitter|
-| convert_numeric_data | bool | Ob die Zeichenfolge in der Textdatei in numerische Daten konvertiert wird.|
-| first_row | int |Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
+| convert_numeric_data | bool |Ob die Zeichenfolge in der Textdatei in numerische Daten konvertiert wird.|
+| first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|
 
 

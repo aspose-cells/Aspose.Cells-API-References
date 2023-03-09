@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_hidden_worksheet propiedad
 
-Indica si se exporta el contenido oculto de la hoja de trabajo. El valor predeterminado es verdadero.
+Indica si se exporta el contenido oculto de la hoja de cálculo. El valor predeterminado es verdadero.
 ###  Definición:
 ```python
 @property

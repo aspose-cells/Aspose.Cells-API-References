@@ -19,7 +19,7 @@ Der Typ Font macht die folgenden Member verfügbar:
 | :- | :- |
 | [charset](/cells/de/python-net/aspose.cells/font/charset) | Stellt den Zeichensatz dar.|
 | [is_italic](/cells/de/python-net/aspose.cells/font/is_italic) | Ruft einen Wert ab, der angibt, ob die Schriftart kursiv ist, oder legt diesen fest.|
-| [is_bold](/cells/de/python-net/aspose.cells/font/is_bold) | Ruft einen Wert ab, der angibt, ob die Schriftart fett ist, oder legt diesen fest.|
+| [is_bold](/cells/de/python-net/aspose.cells/font/is_bold) |Ruft einen Wert ab, der angibt, ob die Schriftart fett ist, oder legt diesen fest.|
 | [caps_type](/cells/de/python-net/aspose.cells/font/caps_type) | Ruft den Textbegrenzungstyp ab und legt ihn fest.|
 | [strike_type](/cells/de/python-net/aspose.cells/font/strike_type) | Ruft den Strike-Typ des Textes ab.|
 | [is_strikeout](/cells/de/python-net/aspose.cells/font/is_strikeout) | Ruft einen Wert ab, der angibt, ob die Schriftart einfach durchgestrichen ist, oder legt diesen fest.|
@@ -44,7 +44,7 @@ Der Typ Font macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

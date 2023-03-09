@@ -18,7 +18,7 @@ def to_image(self, stream):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | strömmen av utdatabilden|
 
@@ -34,13 +34,13 @@ def to_image(self, filename):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | filename | str | filnamnet på utdatabilden|
 
 
 ##  to_image(page_index, file_name) {#int-str}
-Gör en viss sida till en fil.
+Rendera vissa sidor till en fil.
 
 
 
@@ -50,14 +50,14 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | page_index | int | ange vilken sida som ska konverteras|
 | file_name | str | filnamnet på utdatabilden|
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Gör en viss sida till en stream.
+Rendera vissa sidor till en stream.
 
 
 
@@ -67,7 +67,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | page_index | int | ange vilken sida som ska konverteras|
 | stream | io.RawIOBase | strömmen av utdatabilden|

@@ -13,7 +13,7 @@ Hämtar cellens värde som sträng utan något format.
 
 ###  Anmärkningar
 
-OBS: Denna metod är nu föråldrad. Istället,
+OBS: Denna metod är nu föråldrad.
 Användaren ska hämta värdeobjektet och formatera det enligt värdetypen och det specifika kravet.
 Den här egenskapen kommer att tas bort 12 månader senare sedan december 2020.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

@@ -27,9 +27,9 @@ Typen ControlPicturePositionType avslöjar följande medlemmar:
 | ABOVE_CENTER | Bilden visas ovanför bildtexten.<br/> Bildtexten är centrerad under bilden.|
 | ABOVE_RIGHT | Bilden visas ovanför bildtexten.<br/> Bildtexten är justerad med bildens högra kant.|
 | BELOW_LEFT | Bilden visas under bildtexten.<br/> Bildtexten är i linje med bildens vänstra kant.|
-| BELOW_CENTER | Bilden visas under bildtexten.<br/> Bildtexten är centrerad ovanför bilden.|
+| BELOW_CENTER | Bilden visas under bildtexten.<br/>Bildtexten är centrerad ovanför bilden.|
 | BELOW_RIGHT | Bilden visas under bildtexten.<br/> Bildtexten är justerad med bildens högra kant.|
-| CENTER | Bilden visas i mitten av kontrollen.<br/>Bildtexten är centrerad horisontellt och vertikalt ovanpå bilden.|
+| CENTER | Bilden visas i mitten av kontrollen.<br/> Bildtexten är centrerad horisontellt och vertikalt överst på bilden.|
 
 
 

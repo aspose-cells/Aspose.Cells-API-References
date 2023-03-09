@@ -18,7 +18,7 @@ def set_inside_borders(self, border_edge, line_style, border_color):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/fr/python-net/aspose.cells/bordertype) | Type de bord intérieur, ne peut être que [BorderType.VERTICAL](/cells/fr/python-net/aspose.cells/bordertype#VERTICAL) et [BorderType.HORIZONTAL](/cells/fr/python-net/aspose.cells/bordertype#HORIZONTAL).|
 | line_style | [CellBorderType](/cells/fr/python-net/aspose.cells/cellbordertype) | Le style de bordure.|

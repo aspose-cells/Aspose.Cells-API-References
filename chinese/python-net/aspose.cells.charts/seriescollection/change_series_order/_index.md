@@ -1,6 +1,6 @@
 ﻿---
 title: change_series_order方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -18,7 +18,7 @@ def change_series_order(self, source_index, dest_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | source_index | int |当前指数|
 | dest_index | int |目标索引|

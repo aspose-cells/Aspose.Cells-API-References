@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.markup/smarttagsetting/
 is_root: false
 ---
 ##  SmartTagSetting класс
-Представляет все объекты [SmartTagCollection](/cells/ru/python-net/aspose.cells.markup/smarttagcollection) на листе.
+Представляет все [SmartTagCollection](/cells/ru/python-net/aspose.cells.markup/smarttagcollection) объектов на листе.
 
 
 

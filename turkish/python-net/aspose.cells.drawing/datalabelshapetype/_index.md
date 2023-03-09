@@ -29,9 +29,9 @@ DataLabelShapeType türü aşağıdaki üyeleri gösterir:
 | WEDGE_ELLIPSE_CALLOUT | Kama elips belirtme çizgisi şeklini temsil eder.|
 | LINE_CALLOUT | Çizgi bilgisi şeklini temsil eder.|
 | BENT_LINE_CALLOUT | Bükülmüş çizgi belirtme çizgisi şeklini temsil eder.|
-| LINE_WITH_ACCENT_BAR_CALLOUT | Vurgu çubuğu açıklama şekline sahip çizgiyi temsil eder.|
+| LINE_WITH_ACCENT_BAR_CALLOUT |Vurgu çubuğu açıklama şekline sahip çizgiyi temsil eder.|
 | BENT_LINE_WITH_ACCENT_BAR_CALLOUT | Vurgu çubuğu açıklama şekli ile bükülmüş çizgiyi temsil eder.|
-| LINE |Bu tür yalnızca özel dosya işleme için kullanılır|
+| LINE | Bu tür yalnızca özel dosya işleme için kullanılır|
 
 
 

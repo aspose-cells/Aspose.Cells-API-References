@@ -14,7 +14,7 @@ Se è falso, esporta solo il foglio attivo, proprio come MS Excel.
 
 ###  Osservazioni
 
-Il valore predefinito è false.
+Il valore predefinito è falso.
 ###  Definizione:
 ```python
 @property

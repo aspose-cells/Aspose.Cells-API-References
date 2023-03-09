@@ -22,7 +22,7 @@ def add(self, file_name, sheet_names):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file_name | str | El nombre del archivo externo.|
 | sheet_names | list | Todos los nombres de hoja del archivo externo.|
@@ -43,9 +43,9 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| directory_type | [DirectoryType](/cells/es/python-net/aspose.cells/directorytype) | El tipo de directorio del nombre de archivo.|
+| directory_type | [DirectoryType](/cells/es/python-net/aspose.cells/directorytype) |El tipo de directorio del nombre de archivo.|
 | file_name | str | el nombre del archivo.|
 | sheet_names | list | Todos los nombres de hoja del archivo externo.|
 

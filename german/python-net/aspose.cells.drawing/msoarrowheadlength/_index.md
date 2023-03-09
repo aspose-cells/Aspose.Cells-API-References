@@ -18,7 +18,7 @@ Der Typ MsoArrowheadLength macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | SHORT | Kurze Leitungsendlänge|
-| MEDIUM | Mittlere Schnurendenlänge|
+| MEDIUM |Mittlere Schnurendenlänge|
 | LONG | Länge des langen Leitungsendes|
 
 

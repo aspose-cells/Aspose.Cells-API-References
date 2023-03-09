@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/icustomparser/
 is_root: false
 ---
 ##  ICustomParser الدرجة
-يسمح للمستخدمين بإضافة محلل القيمة المخصص الخاص بهم لتحليل قيم السلسلة إلى كائن آخر لقيمة الخلية المناسبة.
+يسمح للمستخدمين بإضافة محلل القيمة المخصص الخاص بهم لتحليل قيم السلسلة إلى كائنات قيمة الخلية المناسبة الأخرى.
 
 
 
@@ -18,7 +18,7 @@ is_root: false
 | طريقة| وصف|
 | :- | :- |
 | [parse_object(value)](/cells/ar/python-net/aspose.cells/icustomparser/parse_object/#str) | يوزع المعطى سلسلة لكائن القيمة المناسبة.|
-| [get_format()](/cells/ar/python-net/aspose.cells/icustomparser/get_format/#) | الحصول على نموذج التنسيق المطابق للقيمة التي تم تحليلها عن طريق الطلب الأخير لـ [ICustomParser.parse_object(value)](/cells/ar/python-net/aspose.cells/icustomparser/parse_object).|
+| [get_format()](/cells/ar/python-net/aspose.cells/icustomparser/get_format/#) |الحصول على نموذج التنسيق المطابق للقيمة التي تم تحليلها عن طريق الطلب الأخير لـ [ICustomParser.parse_object(value)](/cells/ar/python-net/aspose.cells/icustomparser/parse_object).|
 
 
 

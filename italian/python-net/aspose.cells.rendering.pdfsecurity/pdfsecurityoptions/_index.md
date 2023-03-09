@@ -25,10 +25,10 @@ Il tipo PdfSecurityOptions espone i membri seguenti:
 | :- | :- |
 | [user_password](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/user_password) | Ottiene o imposta la password dell'utente|
 | [owner_password](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/owner_password) | Ottiene o imposta la password del proprietario del documento|
-| [print_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/print_permission) | Autorizzazione alla stampa del documento pdf|
+| [print_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/print_permission) | Autorizzazione alla stampa di documenti pdf|
 | [modify_document_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/modify_document_permission) | Autorizzazione a modificare il documento pdf|
 | [extract_content_permission_obsolete](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extract_content_permission_obsolete) | Autorizzazione a copiare o estrarre contenuto Obsoleto secondo riferimento PDF.|
-| [annotations_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotations_permission) |Autorizzazione a commentare il documento.|
+| [annotations_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotations_permission) | Autorizzazione a commentare il documento.|
 | [fill_forms_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fill_forms_permission) | Autorizzazione a compilare i campi del modulo.|
 | [extract_content_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extract_content_permission) | Autorizzazione a copiare o estrarre contenuti.|
 | [accessibility_extract_content](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content) | Autorizzazione a copiare o estrarre contenuti (a supporto dell'accessibilità agli utenti disabili o per altri scopi).|

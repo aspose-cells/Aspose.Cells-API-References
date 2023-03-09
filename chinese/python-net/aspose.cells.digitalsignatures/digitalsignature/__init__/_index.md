@@ -1,6 +1,6 @@
 ﻿---
 title: DigitalSignature 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ def __init__(self, raw_data, password, comments, sign_time):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | raw_data | bytes |包含来自 X.509 证书的数据的字节数组。|
 | password | str |访问 X.509 证书数据所需的密码。|

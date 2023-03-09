@@ -1,6 +1,6 @@
 ﻿---
 title: set_locked_property方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
@@ -18,7 +18,7 @@ def set_locked_property(self, type, value):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/zh/python-net/aspose.cells.drawing/shapelocktype) |锁定类型。|
 | value | bool |属性的价值。|

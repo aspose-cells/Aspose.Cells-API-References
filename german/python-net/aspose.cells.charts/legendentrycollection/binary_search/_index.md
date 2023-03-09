@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [LegendEntry](/cells/de/python-net/aspose.cells.charts/legendentry) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [LegendEntry](/cells/de/python-net/aspose.cells.charts/legendentry) | Das zu lokalisierende System.Objekt.|
 
 
 

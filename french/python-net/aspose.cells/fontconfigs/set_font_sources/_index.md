@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/fontconfigs/set_font_sources/
 is_root: false
 ---
 ##  set_font_sources(sources) {#list}
-Définit les sources des polices.
+Définit les sources de police.
 
 
 
@@ -18,7 +18,7 @@ def set_font_sources(self, sources):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | sources | list | Un tableau de sources contenant des polices TrueType.|
 

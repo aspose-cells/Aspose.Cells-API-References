@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  negative_points_color fastighet
 
-Hämtar och ställer in färgen på de negativa värdena på sparklinegruppen.
+Får och ställer in färgen på de negativa värdena på sparklinegruppen.
 ###  Definition:
 ```python
 @property

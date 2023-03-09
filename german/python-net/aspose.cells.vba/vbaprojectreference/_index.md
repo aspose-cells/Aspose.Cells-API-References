@@ -22,7 +22,7 @@ Der Typ VbaProjectReference macht die folgenden Member verfügbar:
 | [libid](/cells/de/python-net/aspose.cells.vba/vbaprojectreference/libid) | Ruft die Libid der Referenz ab und legt sie fest.|
 | [twiddledlibid](/cells/de/python-net/aspose.cells.vba/vbaprojectreference/twiddledlibid) | Ruft die veränderte Libid der Referenz ab und legt sie fest.|
 | [extended_libid](/cells/de/python-net/aspose.cells.vba/vbaprojectreference/extended_libid) | Ruft die erweiterte Libid der Referenz ab und legt sie fest.|
-| [relative_libid](/cells/de/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) |Ruft den Bezeichner des referenzierten VBA-Projekts mit einem relativen Pfad ab und legt ihn fest.|
+| [relative_libid](/cells/de/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) | Ruft den Bezeichner des referenzierten VBA-Projekts mit einem relativen Pfad ab und legt ihn fest.|
 
 
 ###  Methoden
@@ -32,7 +32,7 @@ Der Typ VbaProjectReference macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

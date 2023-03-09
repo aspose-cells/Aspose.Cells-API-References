@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  original_height_cm الملكية
 
-الحصول على الارتفاع الأصلي للصورة بوحدة السنتيمتر.
+الحصول على الارتفاع الأصلي للصورة بوحدات السنتيمتر.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

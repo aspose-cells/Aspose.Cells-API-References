@@ -11,7 +11,7 @@ is_root: false
 
 Obtient ou définit la plage de feuille de calcul utilisée pour remplir la zone de liste déroulante spécifiée.
 
-###  Exemple
+###  Exemples
 
 ```python
 

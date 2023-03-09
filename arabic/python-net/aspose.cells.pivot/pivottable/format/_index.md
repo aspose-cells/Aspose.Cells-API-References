@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.pivot/pivottable/format/
 is_root: false
 ---
 ##  format(row, column, style) {#int-int-Style}
-قم بتنسيق الخلية في المنطقة المحورية
+قم بتنسيق الخلية في منطقة الجدول المحوري
 
 
 
@@ -18,11 +18,11 @@ def format(self, row, column, style):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| row | int |فهرس صف الخلية|
+| row | int | فهرس صف الخلية|
 | column | int | فهرس العمود للخلية|
-| style | [Style](/cells/ar/python-net/aspose.cells/style) | النمط وهو تنسيق الخلية|
+| style | [Style](/cells/ar/python-net/aspose.cells/style) |النمط وهو تنسيق الخلية|
 
 
 

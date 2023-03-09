@@ -22,12 +22,12 @@ def add_ole_object_with_linked_image(self, upper_left_row, upper_left_column, he
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
-| height | int | ارتفاع الشكل. في وحدة البكسل|
-| width | int | عرض الشكل. في وحدة البكسل|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
+| height | int | ارتفاع الشكل.|
+| width | int | عرض الشكل.|
 | source_full_name | str | مسار واسم الملف المصدر للصورة المرتبطة|
 
 

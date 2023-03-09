@@ -22,12 +22,12 @@ def get_sub_total_name(self, sub_total_type):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | sub_total_type | aspose.cells.pivot.PivotFieldSubtotalType | Тип [PivotFieldSubtotalType](/cells/ru/python-net/aspose.cells.pivot/pivotfieldsubtotaltype)|
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
+ПРИМЕЧАНИЕ. Этот элемент устарел.
 используйте метод GlobalizationSettings.GetColumnLabelsOfPivotTable().
  Это свойство будет удалено через 12 месяцев, начиная с декабря 2022 года.
 Aspose приносит извинения за возможные неудобства.

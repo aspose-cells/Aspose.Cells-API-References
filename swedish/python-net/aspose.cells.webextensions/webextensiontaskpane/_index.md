@@ -21,7 +21,7 @@ Typen WebExtensionTaskPane avslöjar följande medlemmar:
 | [dock_state](/cells/sv/python-net/aspose.cells.webextensions/webextensiontaskpane/dock_state) | Hämtar och ställer in den senast dockade platsen för detta aktivitetsfönsterobjekt.|
 | [is_visible](/cells/sv/python-net/aspose.cells.webextensions/webextensiontaskpane/is_visible) | Anger om aktivitetsfönstret visas som standard när dokumentet öppnas.|
 | [is_locked](/cells/sv/python-net/aspose.cells.webextensions/webextensiontaskpane/is_locked) | Indikerar om aktivitetsfönstret är låst till dokumentet i användargränssnittet och inte kan stängas av användaren.|
-| [width](/cells/sv/python-net/aspose.cells.webextensions/webextensiontaskpane/width) |Hämtar och ställer in standardbreddvärdet för den här aktivitetspanelsinstansen.|
+| [width](/cells/sv/python-net/aspose.cells.webextensions/webextensiontaskpane/width) | Hämtar och ställer in standardbreddvärdet för den här aktivitetspanelsinstansen.|
 | [row](/cells/sv/python-net/aspose.cells.webextensions/webextensiontaskpane/row) | Hämtar och ställer in indexet, uppräknat från utsidan till insidan, för detta aktivitetsfönster bland andra kvarstående aktivitetsrutor dockade på samma standardplats.|
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  RowCollection indexerare
 
-Hämtar ett [Row](/cells/sv/python-net/aspose.cells/row)-objekt efter givet radindex. Radobjektet för givet radindex kommer att instansieras om det inte finns tidigare.
+Hämtar ett [Row](/cells/sv/python-net/aspose.cells/row)-objekt efter givet radindex.
 ###  Indexerare
 | namn| Beskrivning|
 | :- | :- |

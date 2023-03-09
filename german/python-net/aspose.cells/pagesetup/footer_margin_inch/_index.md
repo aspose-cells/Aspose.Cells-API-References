@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  footer_margin_inch Eigentum
 
-Stellt den Abstand vom unteren Rand der Seite zur Fußzeile in Zoll dar.
+Stellt den Abstand vom unteren Rand der Seite zur Fußzeile in Zolleinheiten dar.
 ###  Definition:
 ```python
 @property

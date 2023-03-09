@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_size_px Eigentum
 
-Repräsentiert die Markierungsgröße in Pixeleinheiten. Gilt für Liniendiagramme, Streudiagramme oder Netzdiagramme.
+Stellt die Markierungsgröße in Pixeleinheiten dar. Gilt für Liniendiagramme, Streudiagramme oder Netzdiagramme.
 ###  Definition:
 ```python
 @property

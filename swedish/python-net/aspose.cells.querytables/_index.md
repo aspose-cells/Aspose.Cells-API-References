@@ -17,8 +17,8 @@ is_root: false
 | [PowerQueryFormulaCollection](/cells/sv/python-net/aspose.cells.querytables/powerqueryformulacollection) | Representerar alla power-frågeformler i mashup-data.|
 | [PowerQueryFormulaFunction](/cells/sv/python-net/aspose.cells.querytables/powerqueryformulafunction) | Representerar funktionen för maktfrågan.|
 | [PowerQueryFormulaItem](/cells/sv/python-net/aspose.cells.querytables/powerqueryformulaitem) | Representerar objektet i power-frågeformeln.|
-| [PowerQueryFormulaItemCollection](/cells/sv/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) |Representerar alla objekt i power-frågeformeln.|
+| [PowerQueryFormulaItemCollection](/cells/sv/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) | Representerar alla objekt i power-frågeformeln.|
 | [PowerQueryFormulaParameter](/cells/sv/python-net/aspose.cells.querytables/powerqueryformulaparameter) | Representerar parametern för power-frågeformeln.|
-| [PowerQueryFormulaParameterCollection](/cells/sv/python-net/aspose.cells.querytables/powerqueryformulaparametercollection) | Representerar|
+| [PowerQueryFormulaParameterCollection](/cells/sv/python-net/aspose.cells.querytables/powerqueryformulaparametercollection) |Representerar|
 
 

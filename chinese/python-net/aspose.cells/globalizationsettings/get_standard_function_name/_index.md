@@ -1,6 +1,6 @@
 ﻿---
 title: get_standard_function_name方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
@@ -22,9 +22,9 @@ def get_standard_function_name(self, local_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
-| local_name | str |依赖于语言环境的函数名称。区域设置由使用此设置的工作簿指定。|
+| local_name | str |依赖于语言环境的函数名称。|
 
 
 

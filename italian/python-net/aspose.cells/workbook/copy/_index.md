@@ -18,7 +18,7 @@ def copy(self, source):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source | [Workbook](/cells/it/python-net/aspose.cells/workbook) | Oggetto cartella di lavoro di origine.|
 
@@ -34,7 +34,7 @@ def copy(self, source, copy_options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source | [Workbook](/cells/it/python-net/aspose.cells/workbook) | Oggetto cartella di lavoro di origine.|
 | copy_options | [CopyOptions](/cells/it/python-net/aspose.cells/copyoptions) |  |

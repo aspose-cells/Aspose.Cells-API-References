@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/workbook/get_digital_signature/
 is_root: false
 ---
 ##  get_digital_signature() {#}
-Ruft eine digitale Signatur aus der Datei ab.
+Ruft eine digitale Signatur aus einer Datei ab.
 
 
 

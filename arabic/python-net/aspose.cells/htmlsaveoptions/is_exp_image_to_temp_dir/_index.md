@@ -10,7 +10,7 @@ is_root: false
 ##  is_exp_image_to_temp_dir الملكية
 
 يشير إلى ما إذا كان يتم تصدير ملفات الصور إلى دليل مؤقت.
-فقط للحفظ في دفق html.
+فقط للحفظ في دفق HTML.
 ###  تعريف:
 ```python
 @property

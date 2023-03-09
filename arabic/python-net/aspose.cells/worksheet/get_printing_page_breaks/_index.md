@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-تقوم الصفحة التلقائية بتقسيم المناطق.
+مناطق فاصل الصفحات التلقائية.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| options | aspose.cells.rendering.ImageOrPrintOptions |خيارات الطباعة|
+| options | aspose.cells.rendering.ImageOrPrintOptions | خيارات الطباعة|
 ###  ملاحظات
 
 تمثل كل منطقة خلية ورقة.

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  start_column Eigentum
 
-Ruft die Startspalte dieses Bereichs ab oder legt sie fest.
+Ruft die Startspalte dieses Bereichs ab oder legt diese fest.
 
 ###  Siehe auch
 * Modul [aspose.cells](../../)

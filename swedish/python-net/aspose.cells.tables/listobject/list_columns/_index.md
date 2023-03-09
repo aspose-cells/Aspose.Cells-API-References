@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_columns fastighet
 
-Hämtar ListColumns för ListObject.
+Hämtar ListColumns av ListObject.
 ###  Definition:
 ```python
 @property

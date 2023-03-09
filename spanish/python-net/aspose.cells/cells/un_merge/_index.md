@@ -18,7 +18,7 @@ def un_merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | first_row | int | Primera fila de este rango (basado en cero)|
 | first_column | int | Primera columna de este rango (basado en cero)|

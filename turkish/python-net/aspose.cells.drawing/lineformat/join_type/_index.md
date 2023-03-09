@@ -11,7 +11,7 @@ is_root: false
 
 Satır birleştirme türünü belirtir.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import LineJoinType

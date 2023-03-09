@@ -19,7 +19,7 @@ def reset_ranges(self, data_range, is_vertical, location_range):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | data_range | str | Mini grafik grubunun yeni veri aralığını belirtir.|
 | is_vertical | bool | Mini grafiklerin yeni veri aralığından satıra mı yoksa sütuna göre mi çizileceğini belirtir.|

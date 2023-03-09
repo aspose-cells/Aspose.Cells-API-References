@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [is_external_link](/cells/ar/python-net/aspose.cells/referredarea/is_external_link) | يشير إلى ما إذا كان هذا ارتباطًا خارجيًا.|
 | [external_file_name](/cells/ar/python-net/aspose.cells/referredarea/external_file_name) | احصل على اسم الملف الخارجي إذا كان هذا مرجعًا خارجيًا.|
-| [sheet_name](/cells/ar/python-net/aspose.cells/referredarea/sheet_name) | يشير إلى الورقة التي يوجد بها هذا المرجع.|
+| [sheet_name](/cells/ar/python-net/aspose.cells/referredarea/sheet_name) |يشير إلى الورقة التي يوجد بها هذا المرجع.|
 | [is_area](/cells/ar/python-net/aspose.cells/referredarea/is_area) | يشير إلى ما إذا كانت هذه منطقة.|
 | [end_column](/cells/ar/python-net/aspose.cells/referredarea/end_column) | عمود نهاية المنطقة.|
 | [start_column](/cells/ar/python-net/aspose.cells/referredarea/start_column) | عمود البداية للمنطقة.|

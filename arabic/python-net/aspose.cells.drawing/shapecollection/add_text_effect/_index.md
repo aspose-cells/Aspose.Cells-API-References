@@ -22,9 +22,9 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| effect | [MsoPresetTextEffect](/cells/ar/python-net/aspose.cells.drawing/msopresettexteffect) | نوع تأثير النص المعين مسبقًا mso.|
+| effect | [MsoPresetTextEffect](/cells/ar/python-net/aspose.cells.drawing/msopresettexteffect) | نوع تأثير النص المعد مسبقًا mso.|
 | text | str | نص WordArt.|
 | font_name | str | اسم الخط.|
 | size | int | حجم الخط|
@@ -32,12 +32,12 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | font_italic | bool | يشير إلى ما إذا كان الخط مائلاً.|
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية للشكل من صفه الأيسر ، بوحدة البكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
-| left | int | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة البكسل.|
-| height | int | يمثل ارتفاع الشكل بوحدة البكسل.|
-| width | int | يمثل عرض الشكل بوحدة البكسل.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
+| left | int |يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة البكسل.|
+| height | int | يمثل ارتفاع الشكل بوحدات البكسل.|
+| width | int | يمثل عرض الشكل بوحدات البكسل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import MsoPresetTextEffect

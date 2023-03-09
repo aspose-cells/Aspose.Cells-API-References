@@ -1,13 +1,13 @@
 ﻿---
 title: PresetThemeGradientType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1090
 url: /zh/python-net/aspose.cells.drawing/presetthemegradienttype/
 is_root: false
 ---
-##  PresetThemeGradientType枚举
+## PresetThemeGradientType枚举
 代表预设的主题渐变类型。
 
 

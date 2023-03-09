@@ -25,7 +25,7 @@ def xml_map_query(self, path, xml_map):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | path | str | xml-Elementpfad|
-| xml_map | [XmlMap](/cells/de/python-net/aspose.cells/xmlmap) | Geben Sie eine XML-Zuordnung an, wenn Sie den bestimmten Pfad innerhalb einer bestimmten Zuordnung abfragen möchten|
+| xml_map | [XmlMap](/cells/de/python-net/aspose.cells/xmlmap) |Geben Sie eine XML-Zuordnung an, wenn Sie den bestimmten Pfad innerhalb einer bestimmten Zuordnung abfragen möchten|
 
 
 

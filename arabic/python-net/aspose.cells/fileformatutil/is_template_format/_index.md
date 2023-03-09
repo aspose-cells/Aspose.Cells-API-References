@@ -22,7 +22,7 @@ def is_template_format(self, extension):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | extension | str |  |
 

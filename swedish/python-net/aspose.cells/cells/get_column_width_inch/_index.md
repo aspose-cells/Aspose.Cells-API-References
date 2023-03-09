@@ -13,7 +13,7 @@ Hämtar bredden på den angivna kolumnen i normalvy, i enheter av tum.
 
 ###  Returnerar
 
-Kolumns bredd
+Bredd på kolumner
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width_inch(self, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Kolumnindex|
 

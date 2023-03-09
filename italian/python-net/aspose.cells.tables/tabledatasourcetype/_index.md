@@ -19,7 +19,7 @@ Il tipo TableDataSourceType espone i membri seguenti:
 | :- | :- |
 | WORKSHEET | Tabella del foglio di lavoro di Excel|
 | SHARE_POINT | Lettura-scrittura Elenco collegato di SharePoint|
-| XML | Tabella mappatore XML|
+| XML | Tabella di mappatura XML|
 | QUERY_TABLE | Tabella delle interrogazioni|
 
 

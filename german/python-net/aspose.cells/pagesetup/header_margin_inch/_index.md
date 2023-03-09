@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  header_margin_inch Eigentum
 
-Stellt den Abstand vom oberen Rand der Seite zur Kopfzeile in Zoll dar.
+Stellt den Abstand vom oberen Rand der Seite zur Kopfzeile in Zolleinheiten dar.
 ###  Definition:
 ```python
 @property

@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | file_name | str | El nombre del archivo.|
 
@@ -34,7 +34,7 @@ def save(self, stream):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | La corriente.|
 

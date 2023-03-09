@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  RowCollection indexador
 
-Obtiene un objeto [Row](/cells/es/python-net/aspose.cells/row) por índice de fila dado. Se creará una instancia del objeto Fila del índice de fila dado si no existe antes.
+Obtiene un objeto [Row](/cells/es/python-net/aspose.cells/row) por índice de fila dado.
 ###  indexador
 | Nombre| Descripción|
 | :- | :- |

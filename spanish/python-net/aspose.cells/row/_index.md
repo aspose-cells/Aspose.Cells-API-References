@@ -23,12 +23,12 @@ El tipo Row expone los siguientes miembros:
 | [is_hidden](/cells/es/python-net/aspose.cells/row/is_hidden) | Indica si la fila está oculta.|
 | [index](/cells/es/python-net/aspose.cells/row/index) | Obtiene el índice de esta fila.|
 | [group_level](/cells/es/python-net/aspose.cells/row/group_level) | Obtiene el nivel de grupo de la fila.|
-| [is_height_matched](/cells/es/python-net/aspose.cells/row/is_height_matched) | Indica que la altura de fila y la altura de fuente predeterminada coinciden.|
+| [is_height_matched](/cells/es/python-net/aspose.cells/row/is_height_matched) |Indica que la altura de fila y la altura de fuente predeterminada coinciden.|
 | [style](/cells/es/python-net/aspose.cells/row/style) | Representa el estilo de esta fila.|
 | [has_custom_style](/cells/es/python-net/aspose.cells/row/has_custom_style) | Indica si esta fila tiene una configuración de estilo personalizada (diferente a la predeterminada heredada del libro de trabajo).|
 | [first_cell](/cells/es/python-net/aspose.cells/row/first_cell) | Obtiene el primer objeto de celda de la fila.|
 | [first_data_cell](/cells/es/python-net/aspose.cells/row/first_data_cell) | Obtiene la primera celda que no está en blanco de la fila.|
-| [last_cell](/cells/es/python-net/aspose.cells/row/last_cell) |Obtiene el último objeto de celda de la fila.|
+| [last_cell](/cells/es/python-net/aspose.cells/row/last_cell) | Obtiene el último objeto de celda de la fila.|
 | [last_data_cell](/cells/es/python-net/aspose.cells/row/last_data_cell) | Obtiene la última celda que no está en blanco de la fila.|
 
 
@@ -53,7 +53,7 @@ Obtiene el celular.
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

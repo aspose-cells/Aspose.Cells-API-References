@@ -18,7 +18,7 @@ def add_key(self, key, order):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | key | int | فهرس العمود الذي تم فرزه (الموضع المطلق ، العمود A هو 0 ، B هو 1 ، ...)|
 | order | [SortOrder](/cells/ar/python-net/aspose.cells/sortorder) | ترتيب الفرز|
@@ -35,7 +35,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | key | int | فهرس العمود الذي تم فرزه (الموضع المطلق ، العمود A هو 0 ، B هو 1 ، ...)|
 | order | [SortOrder](/cells/ar/python-net/aspose.cells/sortorder) | ترتيب الفرز.|
@@ -53,7 +53,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | key | int | فهرس العمود الذي تم فرزه (الموضع المطلق ، العمود A هو 0 ، B هو 1 ، ...)|
 | order | [SortOrder](/cells/ar/python-net/aspose.cells/sortorder) | ترتيب الفرز.|
@@ -71,7 +71,7 @@ def add_key(self, key, type, order, custom_list):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | key | int | فهرس العمود الذي تم فرزه (الموضع المطلق ، العمود A هو 0 ، B هو 1 ، ...)|
 | type | [SortOnType](/cells/ar/python-net/aspose.cells/sortontype) | نوع القيمة المصنفة.|

@@ -1,13 +1,13 @@
 ﻿---
 title: PropertyType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 90
 url: /zh/python-net/aspose.cells.properties/propertytype/
 is_root: false
 ---
-##  PropertyType枚举
+## PropertyType枚举
 指定文档属性的数据类型。
 
 

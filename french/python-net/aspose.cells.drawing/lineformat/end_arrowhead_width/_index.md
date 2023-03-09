@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type de largeur de flèche de fin de la ligne.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import MsoArrowheadWidth

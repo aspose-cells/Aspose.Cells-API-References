@@ -1,13 +1,13 @@
 ﻿---
 title: LineJoinType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 940
 url: /zh/python-net/aspose.cells.drawing/linejointype/
 is_root: false
 ---
-##  LineJoinType枚举
+## LineJoinType枚举
 表示线的连接样式。
 
 

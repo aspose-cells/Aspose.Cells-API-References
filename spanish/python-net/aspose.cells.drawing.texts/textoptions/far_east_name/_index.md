@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name propiedad
 
-Obtiene y establece el nombre FarEast.
+Obtiene y establece el nombre del Lejano Oriente.
 ###  Definición:
 ```python
 @property

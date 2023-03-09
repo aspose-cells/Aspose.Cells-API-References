@@ -22,9 +22,9 @@ def start_sheet(self, sheet):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) |ورقة العمل لقراءة بيانات الخلايا.|
+| sheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) | ورقة العمل لقراءة بيانات الخلايا.|
 ###  ملاحظات
 
 سيتم استدعاؤه قبل قراءة بيانات الخلايا في ورقة العمل.

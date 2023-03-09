@@ -24,9 +24,9 @@ def on_circular(self, circular_cells_data):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| circular_cells_data | collections.abc.Iterator |IEnumerator con elementi CalculationCell che rappresentano celle che<br/> dipendono dai riferimenti circolari.|
+| circular_cells_data | collections.abc.Iterator | IEnumerator con elementi CalculationCell che rappresentano celle che<br/> dipendono dai riferimenti circolari.|
 ###  Osservazioni
 
 Nell'implementazione l'utente può anche impostare il valore previsto come risultato calcolato

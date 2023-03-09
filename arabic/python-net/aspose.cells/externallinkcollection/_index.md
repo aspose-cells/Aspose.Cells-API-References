@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/externallinkcollection/
 is_root: false
 ---
 ##  ExternalLinkCollection الدرجة
-يمثل مجموعة الارتباطات الخارجية في مصنف.
+يمثل مجموعة ارتباطات خارجية في مصنف.
 
 
 
@@ -40,7 +40,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

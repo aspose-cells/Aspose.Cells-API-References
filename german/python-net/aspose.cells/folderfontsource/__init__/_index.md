@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/folderfontsource/__init__/
 is_root: false
 ---
 ##  FolderFontSource(folder_path, scan_subfolders) {#str-bool}
-Ctor.
+Direktor.
 
 
 

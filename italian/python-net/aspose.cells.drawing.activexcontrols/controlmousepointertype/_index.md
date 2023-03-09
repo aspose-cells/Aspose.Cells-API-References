@@ -19,7 +19,7 @@ Il tipo ControlMousePointerType espone i membri seguenti:
 | :- | :- |
 | DEFAULT | Puntatore standard.|
 | ARROW | Freccia.|
-| CROSS |Puntatore a mirino.|
+| CROSS | Puntatore a mirino.|
 | I_BEAM | I-raggio.|
 | SIZE_NESW | Doppia freccia che punta a nord-est e sud-ovest.|
 | SIZE_NS | Doppia freccia che indica nord e sud.|
@@ -27,10 +27,10 @@ Il tipo ControlMousePointerType espone i membri seguenti:
 | SIZE_WE | Doppia freccia che indica ovest e est.|
 | UP_ARROW | Freccia su.|
 | HOUR_GLASS | Clessidra.|
-| NO_DROP | Simbolo "Not" (cerchio con una linea diagonale) sopra l'oggetto che viene trascinato.|
+| NO_DROP | Simbolo "Non" (cerchio con una linea diagonale) sopra l'oggetto trascinato.|
 | APP_STARTING | Freccia con una clessidra.|
 | HELP | Freccia con un punto interrogativo.|
-| SIZE_ALL | Cursore "Dimensiona tutto" (frecce che puntano a nord, sud, est e ovest).|
+| SIZE_ALL |Cursore "Dimensiona tutto" (frecce che puntano a nord, sud, est e ovest).|
 | CUSTOM | Utilizza l'icona specificata dalla proprietà MouseIcon.|
 
 

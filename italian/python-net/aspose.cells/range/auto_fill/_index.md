@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/range/auto_fill/
 is_root: false
 ---
 ##  auto_fill(target) {#Range}
-Riempiono automaticamente l'intervallo target.
+Tutti automatici riempiono l'intervallo target.
 
 
 
@@ -18,11 +18,11 @@ def auto_fill(self, target):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | target | [Range](/cells/it/python-net/aspose.cells/range) | la fascia di destinazione.|
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook
@@ -44,7 +44,7 @@ workbook.save("book1.xlsm")
 
 
 ##  auto_fill(target, auto_fill_type) {#Range-AutoFillType}
-Riempiono automaticamente l'intervallo target.
+Tutti automatici riempiono l'intervallo target.
 
 
 
@@ -54,9 +54,9 @@ def auto_fill(self, target, auto_fill_type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| target | [Range](/cells/it/python-net/aspose.cells/range) | La gamma mirata.|
+| target | [Range](/cells/it/python-net/aspose.cells/range) | La fascia mirata.|
 | auto_fill_type | [AutoFillType](/cells/it/python-net/aspose.cells/autofilltype) | Il tipo di riempimento automatico.|
 
 

@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | text | str | Текст связанного комментария.|
 | author | [ThreadedCommentAuthor](/cells/ru/python-net/aspose.cells/threadedcommentauthor) | Автор ветки комментария|

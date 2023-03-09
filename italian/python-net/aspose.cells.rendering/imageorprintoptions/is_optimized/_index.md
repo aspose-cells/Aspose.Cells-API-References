@@ -13,7 +13,7 @@ Indica se ottimizzare gli elementi di output.
 
 ###  Osservazioni
 
-Il valore predefinito è falso. Attualmente solo le linee di confine vengono ottimizzate quando questa proprietà è impostata su true.
+Il valore predefinito è false. Attualmente solo le linee di confine vengono ottimizzate quando questa proprietà è impostata su true.
 ###  Definizione:
 ```python
 @property

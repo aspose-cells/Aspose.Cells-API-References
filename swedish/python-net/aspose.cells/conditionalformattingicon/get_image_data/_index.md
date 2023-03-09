@@ -22,9 +22,9 @@ def get_image_data(self, cell):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Inställningen av cell.|
+| cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Inställningen av celler.|
 
 
 

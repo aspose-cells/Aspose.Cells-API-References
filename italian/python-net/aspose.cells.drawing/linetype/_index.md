@@ -18,7 +18,7 @@ Il tipo LineType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | DARK_GRAY | Rappresenta una linea grigio scuro.|
-| DASH |Rappresenta una linea tratteggiata.|
+| DASH | Rappresenta una linea tratteggiata.|
 | DASH_DOT | Rappresenta una linea tratteggiata|
 | DASH_DOT_DOT | Rappresenta una linea trattino-punto-punto.|
 | DOT | Rappresenta una linea tratteggiata.|

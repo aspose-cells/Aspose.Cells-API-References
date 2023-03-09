@@ -13,8 +13,8 @@ Representerar om användaren tillåts manipulera ritobjekt på ett skyddat kalky
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
- använd egenskapen Protection.AllowEditingObject.
+ OBS: Denna medlem är nu föråldrad.
+ använd skydd. Tillåt redigering av objektegenskap.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

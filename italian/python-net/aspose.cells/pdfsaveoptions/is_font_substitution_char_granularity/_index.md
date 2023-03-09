@@ -13,7 +13,7 @@ Indica se sostituire il font del carattere solo quando il font della cella non �
 
 ###  Osservazioni
 
-L'impostazione predefinita è false. Proveremo prima il carattere predefinito di Workbook e PdfSaveOption/system per il carattere della cella.
+L'impostazione predefinita è false Proveremo prima il carattere predefinito di Workbook e PdfSaveOption/system per il carattere della cella.
 ###  Definizione:
 ```python
 @property

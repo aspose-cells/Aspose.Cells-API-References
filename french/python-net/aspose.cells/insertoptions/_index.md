@@ -24,7 +24,7 @@ Le type InsertOptions expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [copy_format_type](/cells/fr/python-net/aspose.cells/insertoptions/copy_format_type) |  |
-| [update_reference](/cells/fr/python-net/aspose.cells/insertoptions/update_reference) | Indique si les références dans d'autres feuilles de calcul seront mises à jour.|
+| [update_reference](/cells/fr/python-net/aspose.cells/insertoptions/update_reference) |Indique si les références dans d'autres feuilles de calcul seront mises à jour.|
 
 
 

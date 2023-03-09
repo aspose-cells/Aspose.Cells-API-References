@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает коллекцию [DocumentProperty](/cells/ru/python-net/aspose.cells.properties/documentproperty), которая представляет все настраиваемые свойства документа электронной таблицы.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

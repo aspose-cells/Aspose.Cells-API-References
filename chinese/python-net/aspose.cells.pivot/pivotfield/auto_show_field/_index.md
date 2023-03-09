@@ -1,6 +1,6 @@
 ﻿---
 title: auto_show_field 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 160
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## auto_show_field 属性
 
-表示车展字段索引。 -1 表示 PivotField 本身。
+表示自动显示字段索引。-1 表示 PivotField 本身。
 它应该是数据字段的索引。
 ### 定义：
 ```python

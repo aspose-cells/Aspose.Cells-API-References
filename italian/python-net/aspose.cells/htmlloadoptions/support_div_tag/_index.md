@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  support_div_tag proprietà
 
- Indica se supporta il layout di<div> tag quando il file html contiene<div> tag. Il valore predefinito è falso.
+Indica se supporta il layout di<div> tag quando il file html contiene<div> tag.
 ###  Definizione:
 ```python
 @property

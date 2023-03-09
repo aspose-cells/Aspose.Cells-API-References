@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/individualfontconfigs/set_font_substitutes/
 is_root: false
 ---
 ##  set_font_substitutes(original_font_name, substitute_font_names) {#str-list}
-Nombres sustitutos de fuente para el nombre de fuente original dado.
+Nombres de sustitución de fuentes para nombres de fuentes originales dados.
 
 
 
@@ -18,7 +18,7 @@ def set_font_substitutes(self, original_font_name, substitute_font_names):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | original_font_name | str | Nombre de fuente original.|
 | substitute_font_names | list | Lista de nombres sustitutos de fuentes que se utilizarán si no se presenta la fuente original.|

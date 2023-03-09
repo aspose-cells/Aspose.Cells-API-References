@@ -22,11 +22,11 @@ def add(self, name, user_id, provider_id):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Le nom de la personne.|
 | user_id | str |  |
-| provider_id | str | L'identifiant du fournisseur|
+| provider_id | str | L'identité du fournisseur|
 
 
 

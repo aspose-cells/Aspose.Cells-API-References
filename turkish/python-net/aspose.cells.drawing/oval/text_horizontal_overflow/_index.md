@@ -11,7 +11,7 @@ is_root: false
 
 Metin içeren şeklin metin yatay taşma türünü alır ve ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells.drawing import TextOverflowType

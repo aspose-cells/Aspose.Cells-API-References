@@ -24,10 +24,10 @@ def get_value(self, row_offset, col_offset):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_offset | int | radförskjutning från startraden i detta område|
-| col_offset | int | kolumnförskjutning från startraden i detta område|
+| col_offset | int |kolumnförskjutning från startraden i detta område|
 
 
 ##  get_value(row_offset, col_offset, calculate_formulas) {#int-int-bool}
@@ -47,11 +47,11 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row_offset | int | radförskjutning från startraden i detta område|
-| col_offset | int | kolumnförskjutning från startraden i detta område|
-| calculate_formulas | bool | Beräkna det rekursivt om den angivna referensen är formel|
+| col_offset | int |kolumnförskjutning från startraden i detta område|
+| calculate_formulas | bool | Om den beräknar det rekursivt om den angivna referensen är formel|
 
 
 

@@ -18,7 +18,7 @@ LineType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | DARK_GRAY | Koyu gri bir çizgiyi temsil eder.|
-| DASH |Bir tire çizgisini temsil eder.|
+| DASH | Bir tire çizgisini temsil eder.|
 | DASH_DOT | Bir tire nokta çizgisini temsil eder|
 | DASH_DOT_DOT | Bir tire-nokta-nokta çizgisini temsil eder.|
 | DOT | Noktalı bir çizgiyi temsil eder.|

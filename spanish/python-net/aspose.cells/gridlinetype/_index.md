@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType enumeración
-Enumera el tipo de línea de cuadrícula.
+Enumera los tipos de líneas de cuadrícula.
 
 
 

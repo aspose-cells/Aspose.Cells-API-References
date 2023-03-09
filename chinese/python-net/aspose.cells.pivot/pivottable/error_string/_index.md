@@ -1,6 +1,6 @@
 ﻿---
 title: error_string 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 520
@@ -10,7 +10,7 @@ is_root: false
 ## error_string 属性
 
 获取显示在包含错误的单元格中的字符串
-当 DisplayErrorString 属性为 true 时。默认值为空字符串。
+当 DisplayErrorString 属性为真时。默认值为空字符串。
 ### 定义：
 ```python
 @property

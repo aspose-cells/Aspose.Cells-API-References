@@ -34,17 +34,17 @@ is_root: false
 | طريقة| وصف|
 | :- | :- |
 | [add_condition(type, operator_type, formula1, formula2)](/cells/ar/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType-OperatorType-str-str) | يضيف شرط تنسيق.|
-| [add_condition(type)](/cells/ar/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) | أضف شرط تنسيق.|
+| [add_condition(type)](/cells/ar/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) |أضف شرط تنسيق.|
 | [remove_area(index)](/cells/ar/python-net/aspose.cells/formatconditioncollection/remove_area/#int) | يزيل نطاق الخلايا المنسق الشرطي بالفهرس.|
 | [remove_area(start_row, start_column, total_rows, total_columns)](/cells/ar/python-net/aspose.cells/formatconditioncollection/remove_area/#int-int-int-int) | قم بإزالة التنسيق الشرطي في النطاق.|
 | [add(cell_area, type, operator_type, formula1, formula2)](/cells/ar/python-net/aspose.cells/formatconditioncollection/add/#CellArea-FormatConditionType-OperatorType-str-str) | يضيف شرط تنسيق ونطاق خلية مؤثر إلى FormatConditions<br/>يمكن أن تحتوي FormatConditions على ما يصل إلى ثلاثة تنسيقات شرطية.<br/> غير مسموح بالإشارات إلى الأوراق الأخرى في صيغ التنسيق الشرطي.|
 | [add_area(cell_area)](/cells/ar/python-net/aspose.cells/formatconditioncollection/add_area/#CellArea) | يضيف نطاق خلايا منسق شرطيًا.|
-| [get_cell_area(index)](/cells/ar/python-net/aspose.cells/formatconditioncollection/get_cell_area/#int) | الحصول على نطاق الخلايا المنسق الشرطي حسب الفهرس.|
+| [get_cell_area(index)](/cells/ar/python-net/aspose.cells/formatconditioncollection/get_cell_area/#int) | الحصول على نطاق الخلايا المنسق شرطيًا حسب الفهرس.|
 | [remove_condition(index)](/cells/ar/python-net/aspose.cells/formatconditioncollection/remove_condition/#int) | يزيل شرط التنسيق بالفهرس.|
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

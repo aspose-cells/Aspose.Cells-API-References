@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta la stringa html che contiene i dati e alcuni formati in questa casella di testo.
 
-###  Esempio
+###  Esempi
 
 ```python
 

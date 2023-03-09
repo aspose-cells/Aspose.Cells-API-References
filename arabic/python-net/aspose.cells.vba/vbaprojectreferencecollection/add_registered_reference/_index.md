@@ -22,7 +22,7 @@ def add_registered_reference(self, name, libid):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم المرجع.|
 | libid | str | معرف مكتبة نوع التنفيذ.|

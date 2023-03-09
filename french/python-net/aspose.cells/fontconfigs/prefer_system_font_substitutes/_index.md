@@ -11,7 +11,7 @@ is_root: false
 
 Indiquez s'il faut utiliser les substituts de polices système en premier ou non lorsqu'une police n'est pas présentée et que le substitut de cette police n'est pas défini.
 Par exemple, sur Ubuntu, la police "Arial" est généralement remplacée par "Liberation Sans".
-La valeur par défaut est faux.
+La valeur par défaut est false.
 ###  Définition:
 ```python
 @property

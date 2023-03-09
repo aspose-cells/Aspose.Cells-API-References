@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta lo height del filtro dei dati specificato, in punti.
 
-###  Esempio
+###  Esempi
 
 ```python
 

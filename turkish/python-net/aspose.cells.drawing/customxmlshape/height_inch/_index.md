@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin inç cinsinden yüksekliğini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

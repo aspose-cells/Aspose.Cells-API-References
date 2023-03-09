@@ -18,12 +18,12 @@ def move(self, upper_left_row, upper_left_column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
-| upper_left_column | int |Indice colonna in alto a sinistra.|
+| upper_left_column | int | Indice colonna in alto a sinistra.|
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import Workbook

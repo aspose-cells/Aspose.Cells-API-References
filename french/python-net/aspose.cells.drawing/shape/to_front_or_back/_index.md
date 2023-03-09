@@ -18,11 +18,11 @@ def to_front_or_back(self, orders):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
-| orders | int | S'il est inférieur à zéro, définit la forme sur back.<br/> S'il est supérieur à zéro, place la forme au premier plan.|
+| orders | int | S'il est inférieur à zéro, définit la forme sur back.<br/>S'il est supérieur à zéro, cela amène la forme au premier plan.|
 
-###  Exemple
+###  Exemples
 
 ```python
 

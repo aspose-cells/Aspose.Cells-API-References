@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-[Range](/cells/ar/python-net/aspose.cells/range) كائن. خالية إذا لم يتم دمج هذه الخلية.
+كائن [Range](/cells/ar/python-net/aspose.cells/range). خالي إذا لم يتم دمج هذه الخلية.
 
 
 ```python

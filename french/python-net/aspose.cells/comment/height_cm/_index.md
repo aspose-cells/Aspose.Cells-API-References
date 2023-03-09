@@ -11,7 +11,7 @@ is_root: false
 
 Représente la hauteur du commentaire, en centimètres.
 
-###  Exemple
+###  Exemples
 
 ```python
 

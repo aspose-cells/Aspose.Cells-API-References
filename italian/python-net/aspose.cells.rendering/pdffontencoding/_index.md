@@ -18,7 +18,7 @@ Il tipo PdfFontEncoding espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | IDENTITY | Rappresenta l'uso della codifica Identity-H per tutti i caratteri incorporati in pdf.|
-| ANSI_PREFER | Rappresenta la preferenza per l'uso di WinAnsiEncoding per i caratteri TrueType con i caratteri 32-127,<br/> in caso contrario, verrà utilizzata la codifica Identity-H per i caratteri incorporati in pdf.|
+| ANSI_PREFER | Rappresenta la preferenza per l'uso di WinAnsiEncoding per i caratteri TrueType con i caratteri 32-127,<br/> In caso contrario, verrà utilizzata la codifica Identity-H per i caratteri incorporati in pdf.|
 
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width_inch fastighet
 
-Hämtar eller ställer in standardkolumnbredden i kalkylbladet, i enhet av tum.
+Hämtar eller ställer in standardkolumnbredden i kalkylbladet, i enheter av tum.
 ###  Definition:
 ```python
 @property

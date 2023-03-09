@@ -10,8 +10,8 @@ is_root: false
 ##  refresh_on_change proprietà
 
  Flag che indica se la query deve essere aggiornata automaticamente quando il contenuto di a
- cella che fornisce le modifiche al valore del parametro. Se true, i dati esterni vengono aggiornati
- utilizzando il nuovo valore del parametro ogni volta che c'è una modifica. Se falso, dati esterni
+ cella che fornisce le modifiche al valore del parametro. Se vero, i dati esterni vengono aggiornati
+ utilizzando il nuovo valore del parametro ogni volta che c'è una modifica.
 viene aggiornato solo quando richiesto dall'utente o qualche altro evento attiva l'aggiornamento (ad esempio, cartella di lavoro aperta).
 ###  Definizione:
 ```python

@@ -14,7 +14,7 @@ Bağlantılı OLE nesnesi için kaynak dosyanın kaynak tam adını döndürür.
 ###  Notlar
 
 Yalnızca dosya türü OleFileType.Unknown olduğunda kaynak tam adının ayarlanmasını destekler.
-Wav dosyası, avi dosyası gibi..vb..
+wav dosyası, avi dosyası gibi..vb..
 ###  Tanım:
 ```python
 @property

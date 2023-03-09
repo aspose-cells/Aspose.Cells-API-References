@@ -1,6 +1,6 @@
 ﻿---
 title: filter方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -22,7 +22,7 @@ def filter(self, type, sheet_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | type | [NameScopeType](/cells/zh/python-net/aspose.cells/namescopetype) |作用域类型。|
 | sheet_index | int |表索引。<br/>仅当作用域类型为 [NameScopeType.WORKSHEET](/cells/zh/python-net/aspose.cells/namescopetype#WORKSHEET) 时有效 |

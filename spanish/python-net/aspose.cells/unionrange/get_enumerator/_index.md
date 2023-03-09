@@ -25,7 +25,7 @@ def get_enumerator(self):
 ###  Observaciones
 
 Al atravesar elementos por el Enumerador devuelto, la colección de celdas
-no debe modificarse (como las operaciones que harán que se cree una nueva fila Cell o que se elimine la fila Cell existente).
+no debe modificarse (como las operaciones que harán que se cree una nueva Cell/Row o que se elimine Cell/Row existente).
 De lo contrario, es posible que el enumerador no pueda recorrer todas las celdas correctamente (algunos elementos pueden recorrerse repetidamente u omitirse).
 
 

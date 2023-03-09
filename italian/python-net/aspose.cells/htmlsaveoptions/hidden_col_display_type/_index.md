@@ -11,7 +11,7 @@ is_root: false
 
 Colonna nascosta (la larghezza di questa colonna è 0) in excel, prima di salvarla in formato html,
 se HtmlHiddenColDisplayType è "Remove", la colonna nascosta non verrebbe emessa,
-se il valore è "Nascosto", la colonna verrebbe emessa, ma era nascosta, il valore predefinito è "Nascosto"
+se il valore è "Nascosto", la colonna sarebbe stata emessa, ma era nascosta, il valore predefinito è "Nascosto"
 ###  Definizione:
 ```python
 @property

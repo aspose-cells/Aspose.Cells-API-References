@@ -8,9 +8,9 @@ url: /de/python-net/aspose.cells/columncollection/
 is_root: false
 ---
 ##  ColumnCollection Klasse
-Sammlung der [Column](/cells/de/python-net/aspose.cells/column)-Objekte, die die einzelnen Spalten(einstellungen) in einem Arbeitsblatt darstellen.
-Das Column-Objekt repräsentiert nur die Einstellungen wie Spaltenbreite, Stile usw. für die ganze Spalte,
-hat nichts damit zu tun, dass es nicht leere Zellen (Daten) oder nicht in der entsprechenden Spalte gibt.
+Sammlung der [Column](/cells/de/python-net/aspose.cells/column)-Objekte, die die einzelnen Spalten (Einstellungen) in einem Arbeitsblatt darstellen.
+Das Column-Objekt repräsentiert nur die Einstellungen wie Spaltenbreite, Stile usw.
+hat nichts damit zu tun, dass es nicht leere Zellen (Daten) oder nicht in entsprechenden Spalten gibt.
 Und die "Anzahl" dieser Sammlung stellt nur die Anzahl der Spaltenobjekte dar, die in dieser Sammlung instanziiert wurden.
 hat nichts damit zu tun, dass es nicht leere Zellen (Daten) oder nicht im Arbeitsblatt gibt.
 
@@ -28,19 +28,19 @@ Der Typ ColumnCollection macht die folgenden Member verfügbar:
 | Methode| Beschreibung|
 | :- | :- |
 | [copy_to(array)](/cells/de/python-net/aspose.cells/columncollection/copy_to/#list) | Kopiert die gesamte Array-Liste in eine kompatible eindimensionale Array-Liste, beginnend am Anfang der Ziel-Array-Liste.|
-| [copy_to(index, array, array_index, count)](/cells/de/python-net/aspose.cells/columncollection/copy_to/#int-list-int-int) | Kopiert eine Reihe von Elementen aus der Array-Liste in eine kompatible eindimensionale Array-Liste, beginnend am angegebenen Index der Ziel-Array-Liste.|
+| [copy_to(index, array, array_index, count)](/cells/de/python-net/aspose.cells/columncollection/copy_to/#int-list-int-int) |Kopiert eine Reihe von Elementen aus der Array-Liste in eine kompatible eindimensionale Array-Liste, beginnend am angegebenen Index der Ziel-Array-Liste.|
 | [index_of(item, index)](/cells/de/python-net/aspose.cells/columncollection/index_of/#Column-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des ersten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der sich vom angegebenen Index bis zum letzten Element erstreckt.|
 | [index_of(item, index, count)](/cells/de/python-net/aspose.cells/columncollection/index_of/#Column-int-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des ersten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der am angegebenen Index beginnt und die angegebene Anzahl von Elementen enthält.|
 | [last_index_of(item)](/cells/de/python-net/aspose.cells/columncollection/last_index_of/#Column) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens in der gesamten Array-Liste zurück.|
-| [last_index_of(item, index)](/cells/de/python-net/aspose.cells/columncollection/last_index_of/#Column-int) |Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der sich vom ersten Element bis zum angegebenen Index erstreckt.|
-| [last_index_of(item, index, count)](/cells/de/python-net/aspose.cells/columncollection/last_index_of/#Column-int-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der die angegebene Anzahl von Elementen enthält und am angegebenen Index endet.|
+| [last_index_of(item, index)](/cells/de/python-net/aspose.cells/columncollection/last_index_of/#Column-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der sich vom ersten Element bis zum angegebenen Index erstreckt.|
+| [last_index_of(item, index, count)](/cells/de/python-net/aspose.cells/columncollection/last_index_of/#Column-int-int) |Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der die angegebene Anzahl von Elementen enthält und am angegebenen Index endet.|
 | [get_by_index(index)](/cells/de/python-net/aspose.cells/columncollection/get_by_index/#int) | Ruft das Spaltenobjekt nach dem Index ab.|
 | [get_column_by_index(index)](/cells/de/python-net/aspose.cells/columncollection/get_column_by_index/#int) | Ruft das Objekt [Column](/cells/de/python-net/aspose.cells/column) anhand der Position in der Liste ab.|
 | [binary_search(item)](/cells/de/python-net/aspose.cells/columncollection/binary_search/#Column) | Durchsucht die gesamte sortierte Array-Liste mithilfe des Standardvergleichs nach einem Element und gibt den nullbasierten Index des Elements zurück.|
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

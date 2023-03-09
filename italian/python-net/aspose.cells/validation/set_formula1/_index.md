@@ -18,9 +18,9 @@ def set_formula1(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| formula | str | Il valore o l'espressione associata a questa condizione di formato.|
+| formula | str |Il valore o l'espressione associata a questa condizione di formato.|
 | is_r1c1 | bool | Se la formula è una formula R1C1.|
 | is_local | bool | Se la formula è in formato locale.|
 

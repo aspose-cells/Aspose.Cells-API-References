@@ -13,7 +13,7 @@ La directory in cui verranno salvati i file allegati.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
 utilizzare la proprietà HtmlLoadOptions.StreamProvider.
  Questa proprietà verrà rimossa 12 mesi dopo da dicembre 2014.
 Aspose si scusa per gli eventuali disagi causati.

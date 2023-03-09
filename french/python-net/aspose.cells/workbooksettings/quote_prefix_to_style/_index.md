@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_prefix_to_style propriété
 
-Indique si la définition de la propriété [Style.quote_prefix](/cells/fr/python-net/aspose.cells/style#quote_prefix) lors de la saisie de la valeur de chaîne (qui commence par un guillemet simple) dans la cellule
+Indique si la propriété [Style.quote_prefix](/cells/fr/python-net/aspose.cells/style#quote_prefix) est définie lors de la saisie de la valeur de chaîne (qui commence par un guillemet simple) dans la cellule
 ###  Définition:
 ```python
 @property

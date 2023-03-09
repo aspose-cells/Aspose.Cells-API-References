@@ -31,7 +31,7 @@ def __init__(self, save_as_image):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | save_as_image | bool | Si True, le classeur sera converti en quelques images du fichier .pptx.<br/> Si False, le classeur sera converti en certaines tables du fichier .pptx.|
 

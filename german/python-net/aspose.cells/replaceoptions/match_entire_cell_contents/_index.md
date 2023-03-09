@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  match_entire_cell_contents Eigentum
 
-Gibt an, ob ganze Zelleninhalte abgeglichen werden sollen
+Gibt an, ob der gesamte Zellinhalt abgeglichen werden soll
 ###  Definition:
 ```python
 @property

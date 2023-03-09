@@ -10,7 +10,7 @@ is_root: false
 ##  end_angle mülk
 
 Chart.Calculate() yöntemi çağrıldıktan sonra pasta bölümü için x ekseninden saat yönünde derece cinsinden ölçülen bitiş açısını alır.
-Pasta grafiği için geçerlidir.
+Pasta grafik için geçerlidir.
 ###  Tanım:
 ```python
 @property

@@ -19,8 +19,8 @@ Typen TotalsCalculation avslöjar följande medlemmar:
 | :- | :- |
 | SUM | Representerar beräkning av summasummor.|
 | COUNT | Representerar beräkning av totalsummor.|
-| AVERAGE | Representerar beräkning av genomsnittlig totalsumma.|
-| MAX | Representerar beräkning av maxtotal.|
+| AVERAGE |Representerar beräkning av genomsnittlig totalsumma.|
+| MAX | Representerar beräkning av maxsummor.|
 | MIN | Representerar min totalberäkning.|
 | VAR | Representerar var totalberäkning.|
 | COUNT_NUMS | Representerar Count Nums totalberäkning.|

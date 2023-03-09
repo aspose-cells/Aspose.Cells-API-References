@@ -1,13 +1,13 @@
 ﻿---
 title: Hyperlink类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 790
 url: /zh/python-net/aspose.cells/hyperlink/
 is_root: false
 ---
-##  Hyperlink类
+## Hyperlink类
 封装表示超链接的对象。
 
 
@@ -18,7 +18,7 @@ Hyperlink 类型公开了以下成员：
 |属性|描述|
 | :- | :- |
 | [address](/cells/zh/python-net/aspose.cells/hyperlink/address) |表示超链接的地址。|
-| [text_to_display](/cells/zh/python-net/aspose.cells/hyperlink/text_to_display) |表示要为指定超链接显示的文本。默认值是超链接的地址。|
+| [text_to_display](/cells/zh/python-net/aspose.cells/hyperlink/text_to_display) |表示要为指定超链接显示的文本。|
 | [area](/cells/zh/python-net/aspose.cells/hyperlink/area) |获取超链接的范围。|
 | [screen_tip](/cells/zh/python-net/aspose.cells/hyperlink/screen_tip) |返回或设置指定超链接的屏幕提示文本。|
 | [link_type](/cells/zh/python-net/aspose.cells/hyperlink/link_type) |获取链接类型。|

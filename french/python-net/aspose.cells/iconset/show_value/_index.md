@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value propriété
 
-Obtenez ou définissez l'indicateur indiquant s'il faut afficher les valeurs des cellules sur lesquelles ce jeu d'icônes est appliqué.
+Obtenez ou définissez le drapeau indiquant s'il faut afficher les valeurs des cellules sur lesquelles ce jeu d'icônes est appliqué.
 La valeur par défaut est true.
 ###  Définition:
 ```python

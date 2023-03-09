@@ -18,7 +18,7 @@ def __init__(self, metadata_type):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | metadata_type | [MetadataType](/cells/fr/python-net/aspose.cells.metadata/metadatatype) | Le type de métadonnées.|
 

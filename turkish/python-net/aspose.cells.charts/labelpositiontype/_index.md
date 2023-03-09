@@ -17,10 +17,10 @@ LabelPositionType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| CENTER | Yalnızca çubuk, 2B/3B pasta grafikler için geçerlidir|
-| INSIDE_BASE | Yalnızca çubuk, 2B/3B pasta grafikler için geçerlidir|
+| CENTER |Yalnızca çubuk, 2B/3B pasta grafikler için geçerlidir|
+| INSIDE_BASE |Yalnızca çubuk, 2B/3B pasta grafikler için geçerlidir|
 | INSIDE_END | Yalnızca çubuk grafikler için geçerlidir|
-| OUTSIDE_END | Yalnızca çubuk, 2B/3B pasta grafikler için geçerlidir|
+| OUTSIDE_END |Yalnızca çubuk, 2B/3B pasta grafikler için geçerlidir|
 | ABOVE | Yalnızca çizgi grafikler için geçerlidir|
 | BELOW | Yalnızca çizgi grafikler için geçerlidir|
 | LEFT | Yalnızca çizgi grafikler için geçerlidir|

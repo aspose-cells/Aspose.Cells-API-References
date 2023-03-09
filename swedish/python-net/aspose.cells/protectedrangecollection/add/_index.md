@@ -22,9 +22,9 @@ def add(self, name, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| name | str | Räckviddstitel. Detta används som en deskriptor, inte som en namngiven intervalldefinition.|
+| name | str | Områdestitel. Detta används som en deskriptor, inte som en namngiven intervalldefinition.|
 | start_row | int | Startradindex för intervallet.|
 | start_column | int | Startkolumnindex för intervallet.|
 | end_row | int | Slutradindex för intervallet.|

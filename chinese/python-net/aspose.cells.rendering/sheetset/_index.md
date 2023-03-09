@@ -1,13 +1,13 @@
 ﻿---
 title: SheetSet类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
 url: /zh/python-net/aspose.cells.rendering/sheetset/
 is_root: false
 ---
-##  SheetSet类
+## SheetSet类
 描述一组工作表。
 
 

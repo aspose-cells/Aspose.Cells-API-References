@@ -18,7 +18,7 @@ Der Typ TextNodeType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | TEXT_RUN | Repräsentiert den Textknoten.|
-| TEXT_PARAGRAPH |Stellt den Textabsatz dar.|
+| TEXT_PARAGRAPH | Stellt den Textabsatz dar.|
 | EQUATION | Repräsentiert den Gleichungstext.|
 
 

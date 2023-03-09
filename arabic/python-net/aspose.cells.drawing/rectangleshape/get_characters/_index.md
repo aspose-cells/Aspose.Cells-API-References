@@ -24,7 +24,7 @@ def get_characters(self):
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 

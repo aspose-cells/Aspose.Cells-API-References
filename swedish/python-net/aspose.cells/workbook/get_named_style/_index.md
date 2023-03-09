@@ -22,7 +22,7 @@ def get_named_style(self, name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | stilens namn|
 

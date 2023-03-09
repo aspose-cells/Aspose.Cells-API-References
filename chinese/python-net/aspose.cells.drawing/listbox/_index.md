@@ -1,13 +1,13 @@
 ﻿---
 title: ListBox类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 320
 url: /zh/python-net/aspose.cells.drawing/listbox/
 is_root: false
 ---
-##  ListBox类
+## ListBox类
 代表一个列表框对象。
 
 

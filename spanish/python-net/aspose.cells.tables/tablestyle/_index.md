@@ -17,12 +17,12 @@ El tipo TableStyle expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [name](/cells/es/python-net/aspose.cells.tables/tablestyle/name) |Obtiene el nombre del estilo de tabla.|
+| [name](/cells/es/python-net/aspose.cells.tables/tablestyle/name) | Obtiene el nombre del estilo de tabla.|
 | [table_style_elements](/cells/es/python-net/aspose.cells.tables/tablestyle/table_style_elements) | Obtiene todos los elementos del estilo de tabla.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import BackgroundType, CellsHelper, Workbook

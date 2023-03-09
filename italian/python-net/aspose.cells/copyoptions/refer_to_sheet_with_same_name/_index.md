@@ -10,7 +10,7 @@ is_root: false
 ##  refer_to_sheet_with_same_name proprietà
 
 Quando si copia un foglio di lavoro in un'altra cartella di lavoro e il foglio di lavoro contiene le formule che fanno riferimento ad altri fogli di lavoro in MS Excel,
- le formule copiate devono fare riferimento alla cartella di lavoro di origine.
+le formule copiate devono fare riferimento alla cartella di lavoro di origine.
 Ma a volte abbiamo copiato altri fogli di lavoro e speriamo che le formule copiate facciano riferimento ad altri fogli di lavoro con lo stesso nome nella stessa cartella di lavoro,
 si prega di impostare questa proprietà come true.
 

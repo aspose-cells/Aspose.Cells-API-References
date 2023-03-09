@@ -11,7 +11,7 @@ is_root: false
 
 Dilimleyicideki her sütunun genişliğini punto cinsinden döndürür veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

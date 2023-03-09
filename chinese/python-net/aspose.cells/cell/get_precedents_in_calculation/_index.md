@@ -1,6 +1,6 @@
 ﻿---
 title: get_precedents_in_calculation方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 190
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-枚举器枚举所有引用（ReferredArea）
+枚举器枚举所有引用（引用区域）
 
 
 ```python

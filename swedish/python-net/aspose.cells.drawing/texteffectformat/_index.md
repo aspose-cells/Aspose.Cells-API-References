@@ -21,7 +21,7 @@ Typen TextEffectFormat avslöjar följande medlemmar:
 | [font_name](/cells/sv/python-net/aspose.cells.drawing/texteffectformat/font_name) | Namnet på teckensnittet som används i WordArt.|
 | [font_bold](/cells/sv/python-net/aspose.cells.drawing/texteffectformat/font_bold) | Anger om teckensnittet är fetstilt.|
 | [font_italic](/cells/sv/python-net/aspose.cells.drawing/texteffectformat/font_italic) | Anger om teckensnittet är kursivt.|
-| [rotated_chars](/cells/sv/python-net/aspose.cells.drawing/texteffectformat/rotated_chars) | Om det är sant, roteras tecken i den angivna WordArt 90 grader i förhållande till WordArts avgränsande form.|
+| [rotated_chars](/cells/sv/python-net/aspose.cells.drawing/texteffectformat/rotated_chars) | Om det är sant roteras tecknen i den angivna WordArt 90 grader i förhållande till WordArts begränsningsform.|
 | [font_size](/cells/sv/python-net/aspose.cells.drawing/texteffectformat/font_size) | Storleken (i punkter) på teckensnittet som används i WordArt.|
 | [preset_shape](/cells/sv/python-net/aspose.cells.drawing/texteffectformat/preset_shape) | Hämtar och ställer in den förinställda formtypen.|
 

@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.webextensions/webextensioncollection/add_web_vi
 is_root: false
 ---
 ##  add_web_video_player(url, auto_play, start_time, end_time) {#str-bool-int-int}
-Agregue un reproductor de video web en exel.
+Agregue un reproductor de video web en Excel.
 
 
 
@@ -18,7 +18,7 @@ def add_web_video_player(self, url, auto_play, start_time, end_time):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | url | str |  |
 | auto_play | bool | Indica si se reproduce automáticamente el video.|

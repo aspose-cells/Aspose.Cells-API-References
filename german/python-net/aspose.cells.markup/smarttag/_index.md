@@ -18,7 +18,7 @@ Der Typ SmartTag macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [deleted](/cells/de/python-net/aspose.cells.markup/smarttag/deleted) | Gibt an, ob das Smarttag gelöscht wurde.|
-| [properties](/cells/de/python-net/aspose.cells.markup/smarttag/properties) | Ruft die Eigenschaften des Smarttags ab und legt sie fest.|
+| [properties](/cells/de/python-net/aspose.cells.markup/smarttag/properties) | Ruft die Eigenschaften des Smarttags ab und legt diese fest.|
 | [uri](/cells/de/python-net/aspose.cells.markup/smarttag/uri) | Ruft den Namespace-URI des Smarttags ab.|
 | [name](/cells/de/python-net/aspose.cells.markup/smarttag/name) | Ruft den Namen des Smarttags ab.|
 

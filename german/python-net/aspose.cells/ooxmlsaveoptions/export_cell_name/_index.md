@@ -11,7 +11,7 @@ is_root: false
 
  Gibt an, ob der Zellenname in eine Excel2007-.xlsx-Datei (.xlsm, .xltx, .xltm) exportiert wird.
 Wenn von SQL Server DTS auf die Ausgabedatei zugegriffen werden kann, muss dieser Wert „true“ sein.
-Wenn Sie den Wert auf „false“ setzen, wird die Leistung erheblich gesteigert und die Dateigröße beim Erstellen großer Dateien reduziert.
+Wenn Sie den Wert auf „false“ setzen, wird die Leistung erheblich gesteigert und die Dateigröße reduziert, wenn große Dateien erstellt werden.
 Der Standardwert ist wahr.
 ###  Definition:
 ```python

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list fastighet
 
-Hämtar om aktivera fältlistan för pivottabellen.
+Hämtar om fältlistan ska aktiveras för pivottabellen.
 ###  Definition:
 ```python
 @property

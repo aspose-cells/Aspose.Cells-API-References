@@ -13,7 +13,7 @@ Grafiğe bir resim ekler.
 
 ###  İadeler
 
-Bir Picture nesnesi döndürür.
+Bir resim nesnesi döndürür.
 
 
 ```python
@@ -22,9 +22,9 @@ def add_picture_in_chart(self, top, left, stream, width_scale, height_scale):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| top | int | Grafik alanının 1/4000'lik birimlerinde sol üst köşeden şeklin dikey sapmasını temsil eder.|
+| top | int |Grafik alanının 1/4000'lik birimlerinde sol üst köşeden şeklin dikey sapmasını temsil eder.|
 | left | int | Grafik alanının 1/4000 biriminde sol üst köşeden şeklin yatay sapmasını temsil eder.|
 | stream | io.RawIOBase | Görüntü verilerini içeren akış nesnesi.|
 | width_scale | int | Görüntü genişliği ölçeği, yüzde.|

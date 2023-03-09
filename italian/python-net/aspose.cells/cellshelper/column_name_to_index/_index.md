@@ -22,7 +22,7 @@ def column_name_to_index(self, column_name):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column_name | str | Nome della colonna.|
 

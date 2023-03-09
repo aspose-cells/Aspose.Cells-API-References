@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_category_name propriété
 
-Représente le comportement d'affichage du nom de catégorie d'étiquette de données d'un graphique spécifié. True pour afficher le nom de catégorie des étiquettes de données d'un graphique. Faux pour cacher.
+Représente le comportement d'affichage du nom de catégorie d'étiquette de données d'un graphique spécifié. True pour afficher le nom de catégorie des étiquettes de données sur un graphique. False pour masquer.
 ###  Définition:
 ```python
 @property

@@ -22,7 +22,7 @@ def get_cell_area(self, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | indexet för det villkorligt formaterade cellintervallet.|
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  r1c1_style Eigentum
 
-Ob die Formel R1C1-Referenzstil ist. Standard ist falsch.
+Ob die Formel im R1C1-Referenzstil ist. Der Standardwert ist „false“.
 ###  Definition:
 ```python
 @property

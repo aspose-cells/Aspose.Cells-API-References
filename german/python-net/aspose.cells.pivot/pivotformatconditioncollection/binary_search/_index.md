@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [PivotFormatCondition](/cells/de/python-net/aspose.cells.pivot/pivotformatcondition) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [PivotFormatCondition](/cells/de/python-net/aspose.cells.pivot/pivotformatcondition) | Das zu lokalisierende System.Objekt.|
 
 
 

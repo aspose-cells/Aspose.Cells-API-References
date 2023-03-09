@@ -26,21 +26,21 @@ El tipo GroupBox expone los siguientes miembros:
 | [is_equation](/cells/es/python-net/aspose.cells.drawing/groupbox/is_equation) | Indica si la forma solo contiene una ecuación.|
 | [is_smart_art](/cells/es/python-net/aspose.cells.drawing/groupbox/is_smart_art) | Indica si la forma es arte inteligente.|
 | [z_order_position](/cells/es/python-net/aspose.cells.drawing/groupbox/z_order_position) | Devuelve la posición de una forma en el orden z.|
-| [name](/cells/es/python-net/aspose.cells.drawing/groupbox/name) |Obtiene y establece el nombre de la forma.|
+| [name](/cells/es/python-net/aspose.cells.drawing/groupbox/name) | Obtiene y establece el nombre de la forma.|
 | [alternative_text](/cells/es/python-net/aspose.cells.drawing/groupbox/alternative_text) | Devuelve o establece la cadena de texto descriptiva (alternativa) del objeto [Shape](/cells/es/python-net/aspose.cells.drawing/shape).|
-| [title](/cells/es/python-net/aspose.cells.drawing/groupbox/title) | Especifica el título (título) del objeto de forma actual.|
-| [line_format](/cells/es/python-net/aspose.cells.drawing/groupbox/line_format) |Devuelve un objeto MsoLineFormat que contiene propiedades de formato de línea para la forma especificada.|
+| [title](/cells/es/python-net/aspose.cells.drawing/groupbox/title) |Especifica el título (título) del objeto de forma actual.|
+| [line_format](/cells/es/python-net/aspose.cells.drawing/groupbox/line_format) | Devuelve un objeto MsoLineFormat que contiene propiedades de formato de línea para la forma especificada.|
 | [fill_format](/cells/es/python-net/aspose.cells.drawing/groupbox/fill_format) | Devuelve un objeto MsoFillFormat que contiene propiedades de formato de relleno para la forma especificada.|
 | [format](/cells/es/python-net/aspose.cells.drawing/groupbox/format) | Representa la configuración del formato de la forma.|
 | [line](/cells/es/python-net/aspose.cells.drawing/groupbox/line) | Obtiene el estilo de línea|
-| [fill](/cells/es/python-net/aspose.cells.drawing/groupbox/fill) |Devuelve un objeto [Shape.fill_format](/cells/es/python-net/aspose.cells.drawing/shape#fill_format) que contiene propiedades de formato de relleno para la forma especificada.|
-| [shadow_effect](/cells/es/python-net/aspose.cells.drawing/groupbox/shadow_effect) | Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica el efecto de sombra para la forma o el elemento del gráfico.|
-| [reflection](/cells/es/python-net/aspose.cells.drawing/groupbox/reflection) |Representa un objeto [ReflectionEffect](/cells/es/python-net/aspose.cells.drawing/reflectioneffect) que especifica el efecto de reflexión para la forma o el elemento del gráfico.|
-| [glow](/cells/es/python-net/aspose.cells.drawing/groupbox/glow) | Representa un objeto [GlowEffect](/cells/es/python-net/aspose.cells.drawing/gloweffect) que especifica el efecto de brillo para el elemento o la forma del gráfico.|
+| [fill](/cells/es/python-net/aspose.cells.drawing/groupbox/fill) | Devuelve un objeto [Shape.fill_format](/cells/es/python-net/aspose.cells.drawing/shape#fill_format) que contiene propiedades de formato de relleno para la forma especificada.|
+| [shadow_effect](/cells/es/python-net/aspose.cells.drawing/groupbox/shadow_effect) | Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica un efecto de sombra para la forma o el elemento del gráfico.|
+| [reflection](/cells/es/python-net/aspose.cells.drawing/groupbox/reflection) | Representa un objeto [ReflectionEffect](/cells/es/python-net/aspose.cells.drawing/reflectioneffect) que especifica el efecto de reflexión para la forma o el elemento del gráfico.|
+| [glow](/cells/es/python-net/aspose.cells.drawing/groupbox/glow) | Representa un objeto [GlowEffect](/cells/es/python-net/aspose.cells.drawing/gloweffect) que especifica un efecto de brillo para la forma o el elemento del gráfico.|
 | [soft_edges](/cells/es/python-net/aspose.cells.drawing/groupbox/soft_edges) | Obtiene y establece el radio de desenfoque que se aplica a los bordes, en unidades de puntos.|
 | [three_d_format](/cells/es/python-net/aspose.cells.drawing/groupbox/three_d_format) | Obtiene y establece el formato 3D de la forma.|
 | [text_frame](/cells/es/python-net/aspose.cells.drawing/groupbox/text_frame) | Devuelve un objeto TextFrame que contiene las propiedades de alineación y anclaje para la forma especificada.|
-| [format_picture](/cells/es/python-net/aspose.cells.drawing/groupbox/format_picture) | Obtiene y establece las opciones del formato de imagen.|
+| [format_picture](/cells/es/python-net/aspose.cells.drawing/groupbox/format_picture) |Obtiene y establece las opciones del formato de imagen.|
 | [is_hidden](/cells/es/python-net/aspose.cells.drawing/groupbox/is_hidden) | Indica si el objeto es visible.|
 | [is_lock_aspect_ratio](/cells/es/python-net/aspose.cells.drawing/groupbox/is_lock_aspect_ratio) | Verdadero significa que no permite cambios en la relación de aspecto.|
 | [rotation_angle](/cells/es/python-net/aspose.cells.drawing/groupbox/rotation_angle) | Obtiene y establece la rotación de la forma.|
@@ -48,13 +48,13 @@ El tipo GroupBox expone los siguientes miembros:
 | [id](/cells/es/python-net/aspose.cells.drawing/groupbox/id) | Obtiene el identificador de esta forma.|
 | [spid](/cells/es/python-net/aspose.cells.drawing/groupbox/spid) | Especifica una cadena opcional que una aplicación puede usar para identificar la forma particular.|
 | [spt](/cells/es/python-net/aspose.cells.drawing/groupbox/spt) | Especifica un número opcional que una aplicación puede usar para asociar la forma particular con un tipo de forma definido.|
-| [worksheet](/cells/es/python-net/aspose.cells.drawing/groupbox/worksheet) |Obtiene el objeto [Shape.worksheet](/cells/es/python-net/aspose.cells.drawing/shape#worksheet) que contiene esta forma.|
+| [worksheet](/cells/es/python-net/aspose.cells.drawing/groupbox/worksheet) | Obtiene el objeto [Shape.worksheet](/cells/es/python-net/aspose.cells.drawing/shape#worksheet) que contiene esta forma.|
 | [is_group](/cells/es/python-net/aspose.cells.drawing/groupbox/is_group) | Indica si la forma es un grupo.|
 | [is_in_group](/cells/es/python-net/aspose.cells.drawing/groupbox/is_in_group) | Indica si la forma está agrupada.|
 | [is_word_art](/cells/es/python-net/aspose.cells.drawing/groupbox/is_word_art) | Indica si esta forma es un arte de la palabra.|
-| [text_effect](/cells/es/python-net/aspose.cells.drawing/groupbox/text_effect) |Devuelve un objeto TextEffectFormat que contiene propiedades de formato de efecto de texto para la forma especificada.<br/> Se aplica a los objetos Shape que representan WordArt.|
+| [text_effect](/cells/es/python-net/aspose.cells.drawing/groupbox/text_effect) | Devuelve un objeto TextEffectFormat que contiene propiedades de formato de efecto de texto para la forma especificada.<br/> Se aplica a los objetos Shape que representan WordArt.|
 | [is_locked](/cells/es/python-net/aspose.cells.drawing/groupbox/is_locked) | True si el objeto está bloqueado, False si el objeto se puede modificar cuando la hoja está protegida.|
-| [is_printable](/cells/es/python-net/aspose.cells.drawing/groupbox/is_printable) | Verdadero si el objeto es imprimible|
+| [is_printable](/cells/es/python-net/aspose.cells.drawing/groupbox/is_printable) |Verdadero si el objeto es imprimible|
 | [mso_drawing_type](/cells/es/python-net/aspose.cells.drawing/groupbox/mso_drawing_type) | Obtiene el tipo de dibujo mso.|
 | [auto_shape_type](/cells/es/python-net/aspose.cells.drawing/groupbox/auto_shape_type) | Obtiene y establece el tipo de forma automática.|
 | [anchor_type](/cells/es/python-net/aspose.cells.drawing/groupbox/anchor_type) | Obtiene y establece el marcador de posición del ancla de forma.|
@@ -68,12 +68,12 @@ El tipo GroupBox expone los siguientes miembros:
 | [lower_right_column](/cells/es/python-net/aspose.cells.drawing/groupbox/lower_right_column) | Representa el índice de la columna de la esquina inferior derecha.|
 | [lower_delta_x](/cells/es/python-net/aspose.cells.drawing/groupbox/lower_delta_x) | Obtiene o establece el desplazamiento horizontal de la forma desde la columna de la esquina inferior derecha.|
 | [right](/cells/es/python-net/aspose.cells.drawing/groupbox/right) | Representa el ancho del desplazamiento horizontal de la forma desde la columna de la esquina inferior derecha, en unidades de píxeles.|
-| [bottom](/cells/es/python-net/aspose.cells.drawing/groupbox/bottom) | Representa el ancho del desplazamiento vertical de la forma desde la fila de la esquina inferior inferior, en unidades de píxeles.|
+| [bottom](/cells/es/python-net/aspose.cells.drawing/groupbox/bottom) |Representa el ancho del desplazamiento vertical de la forma desde la fila de la esquina inferior inferior, en unidades de píxeles.|
 | [width](/cells/es/python-net/aspose.cells.drawing/groupbox/width) | Representa el ancho de la forma, en unidades de píxeles.|
-| [width_inch](/cells/es/python-net/aspose.cells.drawing/groupbox/width_inch) | Representa el ancho de la forma, en unidades de pulgada.|
-| [width_pt](/cells/es/python-net/aspose.cells.drawing/groupbox/width_pt) | Representa el ancho de la forma, en unidades de punto.|
+| [width_inch](/cells/es/python-net/aspose.cells.drawing/groupbox/width_inch) | Representa el ancho de la forma, en unidades de pulgadas.|
+| [width_pt](/cells/es/python-net/aspose.cells.drawing/groupbox/width_pt) | Representa el ancho de la forma, en unidades de puntos.|
 | [width_cm](/cells/es/python-net/aspose.cells.drawing/groupbox/width_cm) | Representa el ancho de la forma, en unidades de centímetros.|
-| [height](/cells/es/python-net/aspose.cells.drawing/groupbox/height) | Representa la altura de la forma, en unidades de píxel.|
+| [height](/cells/es/python-net/aspose.cells.drawing/groupbox/height) | Representa la altura de la forma, en unidades de píxeles.|
 | [height_inch](/cells/es/python-net/aspose.cells.drawing/groupbox/height_inch) | Representa la altura de la forma, en unidades de pulgadas.|
 | [height_pt](/cells/es/python-net/aspose.cells.drawing/groupbox/height_pt) | Representa la altura de la forma, en unidades de puntos.|
 | [height_cm](/cells/es/python-net/aspose.cells.drawing/groupbox/height_cm) | Representa la altura de la forma, en unidades de centímetros.|
@@ -81,16 +81,16 @@ El tipo GroupBox expone los siguientes miembros:
 | [left_inch](/cells/es/python-net/aspose.cells.drawing/groupbox/left_inch) | Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de pulgadas.|
 | [left_cm](/cells/es/python-net/aspose.cells.drawing/groupbox/left_cm) | Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de centímetros.|
 | [top](/cells/es/python-net/aspose.cells.drawing/groupbox/top) | Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de píxeles.|
-| [top_inch](/cells/es/python-net/aspose.cells.drawing/groupbox/top_inch) | Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de pulgadas.|
+| [top_inch](/cells/es/python-net/aspose.cells.drawing/groupbox/top_inch) |Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de pulgadas.|
 | [top_cm](/cells/es/python-net/aspose.cells.drawing/groupbox/top_cm) | Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de centímetros.|
 | [top_to_corner](/cells/es/python-net/aspose.cells.drawing/groupbox/top_to_corner) | Obtiene y establece el desplazamiento vertical de la forma desde el borde superior de la hoja de cálculo, en unidades de píxeles.|
-| [left_to_corner](/cells/es/python-net/aspose.cells.drawing/groupbox/left_to_corner) | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de trabajo.|
+| [left_to_corner](/cells/es/python-net/aspose.cells.drawing/groupbox/left_to_corner) | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo.|
 | [x](/cells/es/python-net/aspose.cells.drawing/groupbox/x) | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo, en unidades de píxeles.|
-| [y](/cells/es/python-net/aspose.cells.drawing/groupbox/y) |Obtiene y establece el desplazamiento vertical de la forma desde el borde superior de la hoja de cálculo, en unidades de píxeles.|
+| [y](/cells/es/python-net/aspose.cells.drawing/groupbox/y) | Obtiene y establece el desplazamiento vertical de la forma desde el borde superior de la hoja de cálculo, en unidades de píxeles.|
 | [width_scale](/cells/es/python-net/aspose.cells.drawing/groupbox/width_scale) | Obtiene y establece la escala de ancho, en unidades de porcentaje del ancho de la imagen original.<br/> Si la forma no es una imagen, la propiedad WidthScale solo devuelve 100;|
 | [height_scale](/cells/es/python-net/aspose.cells.drawing/groupbox/height_scale) | Obtiene y establece la escala de altura, en unidades de porcentaje de la altura de la imagen original.<br/> Si la forma no es una imagen, la propiedad HeightScale solo devuelve 100;|
-| [top_in_shape](/cells/es/python-net/aspose.cells.drawing/groupbox/top_in_shape) |Representa el desplazamiento vertical de la forma desde el borde superior de la forma principal,<br/> en la unidad de 1/4000 de la altura de la forma principal.|
-| [left_in_shape](/cells/es/python-net/aspose.cells.drawing/groupbox/left_in_shape) | Representa el desplazamiento horizontal de la forma desde el borde izquierdo de la forma principal,<br/> en la unidad de 1/4000 del ancho de la forma principal.|
+| [top_in_shape](/cells/es/python-net/aspose.cells.drawing/groupbox/top_in_shape) | Representa el desplazamiento vertical de la forma desde el borde superior de la forma principal,<br/> en la unidad de 1/4000 de la altura de la forma principal.|
+| [left_in_shape](/cells/es/python-net/aspose.cells.drawing/groupbox/left_in_shape) |Representa el desplazamiento horizontal de la forma desde el borde izquierdo de la forma principal,<br/> en la unidad de 1/4000 del ancho de la forma principal.|
 | [width_in_shape](/cells/es/python-net/aspose.cells.drawing/groupbox/width_in_shape) | Representa el ancho de la forma, en unidades de 1/4000 de la forma principal.|
 | [height_in_shape](/cells/es/python-net/aspose.cells.drawing/groupbox/height_in_shape) | Representa el desplazamiento vertical de la forma desde el borde superior de la forma principal, en unidades de 1/4000 de altura de la forma principal.|
 | [group](/cells/es/python-net/aspose.cells.drawing/groupbox/group) | Obtiene la forma de grupo que contiene esta forma.|
@@ -104,7 +104,7 @@ El tipo GroupBox expone los siguientes miembros:
 | [relative_to_original_picture_size](/cells/es/python-net/aspose.cells.drawing/groupbox/relative_to_original_picture_size) | Indica si la forma es relativa al tamaño de la imagen original.|
 | [linked_cell](/cells/es/python-net/aspose.cells.drawing/groupbox/linked_cell) | Obtiene o establece el rango de la hoja de cálculo vinculado al valor del control.|
 | [input_range](/cells/es/python-net/aspose.cells.drawing/groupbox/input_range) | Obtiene o establece el rango de la hoja de cálculo utilizado para llenar el cuadro combinado especificado.|
-| [text_shape_type](/cells/es/python-net/aspose.cells.drawing/groupbox/text_shape_type) | Obtiene y establece el tipo de forma de texto preestablecido.|
+| [text_shape_type](/cells/es/python-net/aspose.cells.drawing/groupbox/text_shape_type) |Obtiene y establece el tipo de forma de texto preestablecido.|
 | [text_body](/cells/es/python-net/aspose.cells.drawing/groupbox/text_body) | Obtiene y establece la configuración del texto de la forma.|
 | [font](/cells/es/python-net/aspose.cells.drawing/groupbox/font) | Representa la fuente de la forma.|
 | [text_options](/cells/es/python-net/aspose.cells.drawing/groupbox/text_options) | Representa las opciones de texto de la forma.|
@@ -112,7 +112,7 @@ El tipo GroupBox expone los siguientes miembros:
 | [is_rich_text](/cells/es/python-net/aspose.cells.drawing/groupbox/is_rich_text) | Si el texto es o no texto enriquecido.|
 | [html_text](/cells/es/python-net/aspose.cells.drawing/groupbox/html_text) | Obtiene y establece la cadena html que contiene datos y algunos formatos en este cuadro de texto.|
 | [text_vertical_overflow](/cells/es/python-net/aspose.cells.drawing/groupbox/text_vertical_overflow) | Obtiene y establece el tipo de desbordamiento vertical de texto de la forma que contiene texto.|
-| [text_horizontal_overflow](/cells/es/python-net/aspose.cells.drawing/groupbox/text_horizontal_overflow) |Obtiene y establece el tipo de desbordamiento horizontal de texto de la forma que contiene texto.|
+| [text_horizontal_overflow](/cells/es/python-net/aspose.cells.drawing/groupbox/text_horizontal_overflow) | Obtiene y establece el tipo de desbordamiento horizontal de texto de la forma que contiene texto.|
 | [is_text_wrapped](/cells/es/python-net/aspose.cells.drawing/groupbox/is_text_wrapped) | Obtiene y establece el tipo de ajuste de texto de la forma que contiene texto.|
 | [text_orientation_type](/cells/es/python-net/aspose.cells.drawing/groupbox/text_orientation_type) | Obtiene y establece el tipo de orientación del texto de la forma.|
 | [text_horizontal_alignment](/cells/es/python-net/aspose.cells.drawing/groupbox/text_horizontal_alignment) | Obtiene y establece el tipo de alineación horizontal del texto de la forma.|
@@ -120,7 +120,7 @@ El tipo GroupBox expone los siguientes miembros:
 | [text_direction](/cells/es/python-net/aspose.cells.drawing/groupbox/text_direction) | Obtiene/Establece la dirección del flujo de texto para este objeto.|
 | [control_data](/cells/es/python-net/aspose.cells.drawing/groupbox/control_data) | Obtiene los datos de control.|
 | [active_x_control](/cells/es/python-net/aspose.cells.drawing/groupbox/active_x_control) | Obtiene el control ActiveX.|
-| [paths](/cells/es/python-net/aspose.cells.drawing/groupbox/paths) | Obtiene las rutas de una forma geométrica personalizada.|
+| [paths](/cells/es/python-net/aspose.cells.drawing/groupbox/paths) |Obtiene las rutas de una forma geométrica personalizada.|
 | [geometry](/cells/es/python-net/aspose.cells.drawing/groupbox/geometry) | Obtiene la geometría|
 | [create_id](/cells/es/python-net/aspose.cells.drawing/groupbox/create_id) | Obtiene y establece el ID de creación de esta forma.|
 | [shadow](/cells/es/python-net/aspose.cells.drawing/groupbox/shadow) | Indica si el cuadro de grupo tiene sombra.|
@@ -141,22 +141,22 @@ El tipo GroupBox expone los siguientes miembros:
 | [add_hyperlink(address)](/cells/es/python-net/aspose.cells.drawing/groupbox/add_hyperlink/#str) | Agrega un hipervínculo a la forma.|
 | [remove_hyperlink()](/cells/es/python-net/aspose.cells.drawing/groupbox/remove_hyperlink/#) | Elimina el hipervínculo de la forma.|
 | [move_to_range(upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/es/python-net/aspose.cells.drawing/groupbox/move_to_range/#int-int-int-int) | Mueve la forma a un rango especificado.|
-| [align_top_right_corner(top_row, right_column)](/cells/es/python-net/aspose.cells.drawing/groupbox/align_top_right_corner/#int-int) | Mueve la imagen a la esquina superior derecha.|
+| [align_top_right_corner(top_row, right_column)](/cells/es/python-net/aspose.cells.drawing/groupbox/align_top_right_corner/#int-int) |Mueve la imagen a la esquina superior derecha.|
 | [get_connection_points()](/cells/es/python-net/aspose.cells.drawing/groupbox/get_connection_points/#) | Obtener los puntos de conexión|
 | [get_linked_cell(is_r1c1, is_local)](/cells/es/python-net/aspose.cells.drawing/groupbox/get_linked_cell/#bool-bool) | Obtiene el rango vinculado al valor del control.|
 | [set_linked_cell(formula, is_r1c1, is_local)](/cells/es/python-net/aspose.cells.drawing/groupbox/set_linked_cell/#str-bool-bool) | Establece el rango vinculado al valor del control.|
 | [get_input_range(is_r1c1, is_local)](/cells/es/python-net/aspose.cells.drawing/groupbox/get_input_range/#bool-bool) | Obtiene el rango utilizado para llenar el control.|
 | [set_input_range(formula, is_r1c1, is_local)](/cells/es/python-net/aspose.cells.drawing/groupbox/set_input_range/#str-bool-bool) | Establece el rango utilizado para llenar el control.|
-| [update_selected_value()](/cells/es/python-net/aspose.cells.drawing/groupbox/update_selected_value/#) |Actualice el valor seleccionado por el valor de la celda vinculada.|
+| [update_selected_value()](/cells/es/python-net/aspose.cells.drawing/groupbox/update_selected_value/#) | Actualice el valor seleccionado por el valor de la celda vinculada.|
 | [calculate_text_size()](/cells/es/python-net/aspose.cells.drawing/groupbox/calculate_text_size/#) | Recalcular el área de texto|
-| [characters(start_index, length)](/cells/es/python-net/aspose.cells.drawing/groupbox/characters/#int-int) |Devuelve un objeto Characters que representa un rango de caracteres dentro del texto.|
+| [characters(start_index, length)](/cells/es/python-net/aspose.cells.drawing/groupbox/characters/#int-int) | Devuelve un objeto Characters que representa un rango de caracteres dentro del texto.|
 | [get_characters()](/cells/es/python-net/aspose.cells.drawing/groupbox/get_characters/#) | Devuelve todos los objetos de caracteres.<br/> que representa un rango de caracteres dentro del texto.|
 | [remove_active_x_control()](/cells/es/python-net/aspose.cells.drawing/groupbox/remove_active_x_control/#) | Eliminar el control ActiveX.|
 | [is_same_setting(obj)](/cells/es/python-net/aspose.cells.drawing/groupbox/is_same_setting/#any) | Devuelve si la forma es la misma.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

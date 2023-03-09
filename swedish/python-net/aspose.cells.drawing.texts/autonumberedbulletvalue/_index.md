@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
 ##  AutoNumberedBulletValue klass
-Representerar automatisk numrerad punkt.
+Representerar automatiskt numrerade kulor.
 
 
 

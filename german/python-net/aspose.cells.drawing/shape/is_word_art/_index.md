@@ -15,7 +15,7 @@ Gibt an, ob es sich bei dieser Form um eine Wortkunst handelt.
 
 Nur für die Legacy-Form der xls-Datei.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

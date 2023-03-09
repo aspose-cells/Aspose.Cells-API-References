@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name propiedad
 
-Obtiene el name de la hoja de cálculo.
+Obtiene el name de la hoja de trabajo.
 ###  Definición:
 ```python
 @property

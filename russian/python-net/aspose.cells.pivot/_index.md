@@ -12,7 +12,7 @@ is_root: false
 ###  Классы
 | Сорт| Описание|
 | :- | :- |
-| [PivotField](/cells/ru/python-net/aspose.cells.pivot/pivotfield) | Представляет поле в отчете сводной таблицы.|
+| [PivotField](/cells/ru/python-net/aspose.cells.pivot/pivotfield) |Представляет поле в отчете сводной таблицы.|
 | [PivotFieldCollection](/cells/ru/python-net/aspose.cells.pivot/pivotfieldcollection) | Представляет коллекцию всех объектов PivotField.<br/> в конкретном типе сводных полей сводной таблицы.|
 | [PivotFilter](/cells/ru/python-net/aspose.cells.pivot/pivotfilter) | Представляет PivotFilter в коллекции PivotFilter.|
 | [PivotFilterCollection](/cells/ru/python-net/aspose.cells.pivot/pivotfiltercollection) | Представляет коллекцию всех объектов PivotFilter.|
@@ -27,16 +27,16 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
-| [PivotConditionFormatRuleType](/cells/ru/python-net/aspose.cells.pivot/pivotconditionformatruletype) |Представляет тип правила форматирования условия сводной таблицы.|
+| [PivotConditionFormatRuleType](/cells/ru/python-net/aspose.cells.pivot/pivotconditionformatruletype) | Представляет тип правила форматирования условия сводной таблицы.|
 | [PivotConditionFormatScopeType](/cells/ru/python-net/aspose.cells.pivot/pivotconditionformatscopetype) | Представляет тип области форматирования условия сводной таблицы.|
 | [PivotFieldDataDisplayFormat](/cells/ru/python-net/aspose.cells.pivot/pivotfielddatadisplayformat) | Представляет формат отображения данных в поле данных сводной таблицы.|
-| [PivotFieldSubtotalType](/cells/ru/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | Сводное описание для PivotFieldSubtotalType.|
+| [PivotFieldSubtotalType](/cells/ru/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |Сводное описание для PivotFieldSubtotalType.|
 | [PivotFieldType](/cells/ru/python-net/aspose.cells.pivot/pivotfieldtype) | Представляет тип поля сводной таблицы.|
 | [PivotFilterType](/cells/ru/python-net/aspose.cells.pivot/pivotfiltertype) | Представляет тип фильтра сводной таблицы.|
 | [PivotGroupByType](/cells/ru/python-net/aspose.cells.pivot/pivotgroupbytype) | Представляет тип сводной таблицы groupby.|
-| [PivotItemPosition](/cells/ru/python-net/aspose.cells.pivot/pivotitemposition) |Представляет базовый элемент сводной таблицы Next/Previous/All в базовом поле.|
+| [PivotItemPosition](/cells/ru/python-net/aspose.cells.pivot/pivotitemposition) | Представляет базовый элемент сводной таблицы Next/Previous/All в базовом поле.|
 | [PivotMissingItemLimitType](/cells/ru/python-net/aspose.cells.pivot/pivotmissingitemlimittype) | Представляет количество элементов для сохранения в каждом поле.|
 | [PivotTableAutoFormatType](/cells/ru/python-net/aspose.cells.pivot/pivottableautoformattype) | Представляет тип автоматического формата сводной таблицы.|
 | [PivotTableStyleType](/cells/ru/python-net/aspose.cells.pivot/pivottablestyletype) | Представляет тип стиля сводной таблицы.|

@@ -21,9 +21,9 @@ Typen ProtectionType avslöjar följande medlemmar:
 | CONTENTS | Representerar för att skydda innehåll, som används i kalkylbladsskydd.|
 | OBJECTS | Representerar för att skydda objekt, som används i kalkylbladsskydd.|
 | SCENARIOS | Representerar för att skydda scenarier, som används i kalkylbladsskydd.|
-| STRUCTURE |Representerar för att skydda struktur, används i arbetsboksskydd.|
+| STRUCTURE | Representerar för att skydda struktur, används i arbetsboksskydd.|
 | WINDOWS | Representerar för att skydda fönster, används i arbetsboksskydd.|
-| NONE | Representerar inget skydd. Endast för läsfastigheter.|
+| NONE | Representerar inget skydd. Endast för läsegendom.|
 
 
 

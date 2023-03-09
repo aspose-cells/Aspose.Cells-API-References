@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_new mülk
 
- Bağlantı ilk kez yenilenmediyse doğrudur; Aksi takdirde, yanlış.
+ Bağlantı ilk kez yenilenmediyse doğru, aksi takdirde yanlış.
 Bu durum, bir sorgunun döndürülmesi tamamlanmadan önce kullanıcı dosyayı kaydettiğinde gerçekleşebilir.
 ###  Tanım:
 ```python

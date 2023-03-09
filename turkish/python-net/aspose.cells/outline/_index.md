@@ -1,5 +1,5 @@
 ﻿---
-title: Outline sınıf
+title: Outline sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1130
 url: /tr/python-net/aspose.cells/outline/
 is_root: false
 ---
-##  Outline sınıf
+##  Outline sınıfı
 Bir çalışma sayfasındaki bir taslağı temsil eder.
 
 

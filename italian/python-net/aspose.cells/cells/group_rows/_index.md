@@ -18,10 +18,10 @@ def group_rows(self, first_index, last_index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | first_index | int | L'indice della prima riga da raggruppare.|
-| last_index | int | L'ultimo indice di riga da raggruppare.|
+| last_index | int |L'ultimo indice di riga da raggruppare.|
 
 
 ##  group_rows(first_index, last_index, is_hidden) {#int-int-bool}
@@ -35,10 +35,10 @@ def group_rows(self, first_index, last_index, is_hidden):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | first_index | int | L'indice della prima riga da raggruppare.|
-| last_index | int | L'ultimo indice di riga da raggruppare.|
+| last_index | int |L'ultimo indice di riga da raggruppare.|
 | is_hidden | bool | Specifica se le righe raggruppate sono nascoste.|
 
 

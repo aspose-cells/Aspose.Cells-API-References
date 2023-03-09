@@ -10,7 +10,7 @@ is_root: false
 ##  export_extra_headings fastighet
 
 Anger om extra rubriker exporteras när textens längd är längre än maxvisningskolumnen.
-Standardvärdet är falskt. Om du vill importera html-filen till Excel, behåll standardvärdet.
+Standardvärdet är falskt.
 ###  Definition:
 ```python
 @property

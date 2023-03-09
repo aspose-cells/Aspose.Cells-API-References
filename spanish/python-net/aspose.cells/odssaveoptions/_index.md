@@ -36,9 +36,9 @@ El tipo OdsSaveOptions expone los siguientes miembros:
 | [merge_areas](/cells/es/python-net/aspose.cells/odssaveoptions/merge_areas) | Indica si fusionar las áreas de formato condicional y validación antes de guardar el archivo.|
 | [create_directory](/cells/es/python-net/aspose.cells/odssaveoptions/create_directory) | Si es verdadero y el directorio no existe, el directorio se creará automáticamente antes de guardar el archivo.|
 | [sort_names](/cells/es/python-net/aspose.cells/odssaveoptions/sort_names) | Indica si ordenar los nombres definidos antes de guardar el archivo.|
-| [sort_external_names](/cells/es/python-net/aspose.cells/odssaveoptions/sort_external_names) | Indica si ordenar los nombres definidos externos antes de guardar el archivo.|
-| [refresh_chart_cache](/cells/es/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) |Indica si se actualizan los datos de la memoria caché del gráfico|
-| [warning_callback](/cells/es/python-net/aspose.cells/odssaveoptions/warning_callback) | Obtiene o establece una devolución de llamada de advertencia.|
+| [sort_external_names](/cells/es/python-net/aspose.cells/odssaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externamente antes de guardar el archivo.|
+| [refresh_chart_cache](/cells/es/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) | Indica si se actualizan los datos de la memoria caché del gráfico|
+| [warning_callback](/cells/es/python-net/aspose.cells/odssaveoptions/warning_callback) | Obtiene o establece devoluciones de llamada de advertencia.|
 | [update_smart_art](/cells/es/python-net/aspose.cells/odssaveoptions/update_smart_art) | Indica si se está actualizando la configuración de arte inteligente.<br/> El valor predeterminado es falso.|
 | [generator_type](/cells/es/python-net/aspose.cells/odssaveoptions/generator_type) | Obtiene y establece el generador del archivo ods.|
 | [is_strict_schema11](/cells/es/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | Indica si el archivo ods debe guardarse en formato ODF versión 1.1. El valor predeterminado es falso.|

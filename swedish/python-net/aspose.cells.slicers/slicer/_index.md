@@ -24,20 +24,20 @@ Typen Slicer avslöjar följande medlemmar:
 | [placement](/cells/sv/python-net/aspose.cells.slicers/slicer/placement) | Representerar hur ritobjektet är fäst vid cellerna under det.<br/> Egenskapen styr placeringen av ett objekt på ett kalkylblad.|
 | [locked_aspect_ratio](/cells/sv/python-net/aspose.cells.slicers/slicer/locked_aspect_ratio) | Indikerar om låsning av bildförhållande.|
 | [locked_position](/cells/sv/python-net/aspose.cells.slicers/slicer/locked_position) | Indikerar om den angivna skivaren kan flyttas eller storleksändras med hjälp av användargränssnittet.|
-| [slicer_cache](/cells/sv/python-net/aspose.cells.slicers/slicer/slicer_cache) | Returnerar SlicerCache-objektet som är associerat med slicern. Skrivskyddad.|
-| [parent](/cells/sv/python-net/aspose.cells.slicers/slicer/parent) | Returnerar kalkylbladsobjektet som representerar arket som innehåller utsnittet. Skrivskyddad.|
+| [slicer_cache](/cells/sv/python-net/aspose.cells.slicers/slicer/slicer_cache) |Returnerar SlicerCache-objektet som är associerat med slicern.|
+| [parent](/cells/sv/python-net/aspose.cells.slicers/slicer/parent) | Returnerar kalkylbladsobjektet som representerar arket som innehåller utsnittet.|
 | [style_type](/cells/sv/python-net/aspose.cells.slicers/slicer/style_type) | Ange typen av inbyggd slicerstil<br/> standardtypen är SlicerStyleLight1|
 | [name](/cells/sv/python-net/aspose.cells.slicers/slicer/name) | Returnerar eller ställer in namnet på den angivna skivaren|
 | [caption](/cells/sv/python-net/aspose.cells.slicers/slicer/caption) | Returnerar eller ställer in bildtexten för det angivna utsnittet.|
 | [caption_visible](/cells/sv/python-net/aspose.cells.slicers/slicer/caption_visible) | Returnerar eller ställer in om rubriken som visar slicer Caption är synlig<br/> standardvärdet är sant|
-| [number_of_columns](/cells/sv/python-net/aspose.cells.slicers/slicer/number_of_columns) |Returnerar eller ställer in antalet kolumner i det angivna utsnittet.|
+| [number_of_columns](/cells/sv/python-net/aspose.cells.slicers/slicer/number_of_columns) | Returnerar eller ställer in antalet kolumner i det angivna utsnittet.|
 | [left_pixel](/cells/sv/python-net/aspose.cells.slicers/slicer/left_pixel) | Returnerar eller ställer in den horisontella förskjutningen av utsnittsformen från dess vänstra kolumn, i pixlar.|
 | [top_pixel](/cells/sv/python-net/aspose.cells.slicers/slicer/top_pixel) | Returnerar eller ställer in den vertikala förskjutningen av skivformen från dess översta raden, i pixlar.|
 | [width](/cells/sv/python-net/aspose.cells.slicers/slicer/width) | Returnerar eller ställer in bredden på den angivna skivaren, i punkter.|
 | [width_pixel](/cells/sv/python-net/aspose.cells.slicers/slicer/width_pixel) | Returnerar eller ställer in bredden på det angivna utsnittet, i pixlar.|
 | [height](/cells/sv/python-net/aspose.cells.slicers/slicer/height) | Returnerar eller ställer in höjden på den angivna skivaren, i punkter.|
-| [height_pixel](/cells/sv/python-net/aspose.cells.slicers/slicer/height_pixel) | Returnerar eller ställer in höjden på det angivna utsnittet i pixlar.|
-| [column_width_pixel](/cells/sv/python-net/aspose.cells.slicers/slicer/column_width_pixel) | Hämtar eller ställer in bredden i pixelenhet för varje kolumn i utsnittet.|
+| [height_pixel](/cells/sv/python-net/aspose.cells.slicers/slicer/height_pixel) |Returnerar eller ställer in höjden på det angivna utsnittet i pixlar.|
+| [column_width_pixel](/cells/sv/python-net/aspose.cells.slicers/slicer/column_width_pixel) | Hämtar eller ställer in bredden i enheter av pixlar för varje kolumn i utsnittet.|
 | [column_width](/cells/sv/python-net/aspose.cells.slicers/slicer/column_width) | Returnerar eller ställer in bredden, i punkter, för varje kolumn i utsnittet.|
 | [row_height_pixel](/cells/sv/python-net/aspose.cells.slicers/slicer/row_height_pixel) | Returnerar eller ställer in höjden, i pixlar, för varje rad i det angivna utsnittet.|
 | [row_height](/cells/sv/python-net/aspose.cells.slicers/slicer/row_height) | Returnerar eller ställer in höjden, i punkter, för varje rad i den angivna slicern.|
@@ -47,8 +47,8 @@ Typen Slicer avslöjar följande medlemmar:
 | Metod| Beskrivning|
 | :- | :- |
 | [add_pivot_connection(pivot)](/cells/sv/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable) | Lägger till PivotTable-anslutning.|
-| [remove_pivot_connection(pivot)](/cells/sv/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Tar bort PivotTable-anslutning.|
-| [refresh()](/cells/sv/python-net/aspose.cells.slicers/slicer/refresh/#) | Uppdatera skivaren. Under tiden uppdaterar och beräknar relativa pivottabeller.|
+| [remove_pivot_connection(pivot)](/cells/sv/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Tar bort pivottabellanslutningar.|
+| [refresh()](/cells/sv/python-net/aspose.cells.slicers/slicer/refresh/#) | Uppdaterar skivaren. Under tiden uppdaterar och beräknar relativa pivottabeller.|
 
 
 

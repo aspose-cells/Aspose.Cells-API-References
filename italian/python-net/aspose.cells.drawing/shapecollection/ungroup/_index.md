@@ -18,13 +18,13 @@ def ungroup(self, group):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | group | [GroupShape](/cells/it/python-net/aspose.cells.drawing/groupshape) | La forma del gruppo.|
 ###  Osservazioni
 
-Se la forma del gruppo è raggruppata da un'altra forma del gruppo, non verrà eseguita alcuna operazione.
-###  Esempio
+Se la forma di gruppo è raggruppata da un'altra forma di gruppo, non verrà eseguita alcuna operazione.
+###  Esempi
 
 
 ```python

@@ -39,7 +39,7 @@ def get_refers_to(self, is_r1c1, is_local, row, column):
 | :- | :- | :- |
 | is_r1c1 | bool | Ob die Referenz als R1C1 formatiert werden muss.|
 | is_local | bool | Ob die Referenz nach Gebietsschema formatiert werden muss.|
-| row | int |Der Zeilenindex der Zelle.|
+| row | int | Der Zeilenindex der Zelle.|
 | column | int | Der Spaltenindex der Zelle.|
 
 

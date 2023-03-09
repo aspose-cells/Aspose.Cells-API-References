@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name fastighet
 
-Anger name för anslutningen. Varje anslutning måste ha ett unikt name.
+Anger name för anslutningen.
 ###  Definition:
 ```python
 @property

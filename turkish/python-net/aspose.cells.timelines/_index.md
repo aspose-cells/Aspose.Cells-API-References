@@ -12,7 +12,7 @@ is_root: false
 ###  sınıflar
 | Sınıf| Tanım|
 | :- | :- |
-| [Timeline](/cells/tr/python-net/aspose.cells.timelines/timeline) | Zaman Çizelgesi Görünümünün özet açıklaması<br/> MS Excel nedeniyle Excel 2003, Zaman Çizelgesi'ni desteklemiyor|
+| [Timeline](/cells/tr/python-net/aspose.cells.timelines/timeline) |Zaman Çizelgesi Görünümünün özet açıklaması<br/> MS Excel nedeniyle Excel 2003, Zaman Çizelgesi'ni desteklemiyor|
 | [TimelineCollection](/cells/tr/python-net/aspose.cells.timelines/timelinecollection) | Belirtilen çalışma sayfasındaki tüm Zaman Çizelgesi nesnelerinin toplanmasını belirtir.<br/> MS Excel nedeniyle Excel 2003, Zaman Çizelgesi'ni desteklemez.|
 
 

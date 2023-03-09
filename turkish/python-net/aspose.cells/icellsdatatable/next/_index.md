@@ -13,7 +13,7 @@ is_root: false
 
 ###  İadeler
 
-yeni mevcut satır geçerliyse; başka satır yoksa false
+yeni geçerli satır geçerliyse; başka satır yoksa false
 
 
 ```python

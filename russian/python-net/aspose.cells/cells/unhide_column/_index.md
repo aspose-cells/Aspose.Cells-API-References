@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cells/unhide_column/
 is_root: false
 ---
 ##  unhide_column(column, width) {#int-float}
-Отображает столбец
+Показать столбец
 
 
 
@@ -18,7 +18,7 @@ def unhide_column(self, column, width):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | column | int | Индекс столбца.|
 | width | float | Ширина колонки.|

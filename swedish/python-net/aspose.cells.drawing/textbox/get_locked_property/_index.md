@@ -22,7 +22,7 @@ def get_locked_property(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/sv/python-net/aspose.cells.drawing/shapelocktype) | Typen av formlåst egenskap.|
 

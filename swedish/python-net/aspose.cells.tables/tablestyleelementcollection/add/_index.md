@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [TableStyleElementType](/cells/sv/python-net/aspose.cells.tables/tablestyleelementtype) | Typen av element|
 

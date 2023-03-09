@@ -15,7 +15,7 @@ is_root: false
 
 Değer aralığı 0 ila 256'dır.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -31,14 +31,14 @@ Typen WorksheetCollection avslöjar följande medlemmar:
 | [ole_size](/cells/sv/python-net/aspose.cells/worksheetcollection/ole_size) | Hämtar och ställer in den visade storleken när arbetsboksfilen används som ett Ole-objekt.|
 | [external_links](/cells/sv/python-net/aspose.cells/worksheetcollection/external_links) | Representerar externa länkar i en arbetsbok.|
 | [table_styles](/cells/sv/python-net/aspose.cells/worksheetcollection/table_styles) | Får [WorksheetCollection.table_styles](/cells/sv/python-net/aspose.cells/worksheetcollection#table_styles) objekt.|
-| [revision_logs](/cells/sv/python-net/aspose.cells/worksheetcollection/revision_logs) | Representerar revisionsloggar.|
+| [revision_logs](/cells/sv/python-net/aspose.cells/worksheetcollection/revision_logs) |Representerar revisionsloggar.|
 | [capacity](/cells/sv/python-net/aspose.cells/worksheetcollection/capacity) | Hämtar eller ställer in antalet element som arraylistan kan innehålla.|
 
 
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [get(index)](/cells/sv/python-net/aspose.cells/worksheetcollection/get/#int) | Lägg till API for Python Via .Net.eftersom detta [int index] inte stöds|
+| [get(index)](/cells/sv/python-net/aspose.cells/worksheetcollection/get/#int) |Lägg till API for Python Via .Net.eftersom detta [int index] inte stöds|
 | [get(sheet_name)](/cells/sv/python-net/aspose.cells/worksheetcollection/get/#str) | Lägg till API for Python Via .Net.eftersom detta [strängarknamn] inte stöds|
 | [add(type)](/cells/sv/python-net/aspose.cells/worksheetcollection/add/#SheetType) | Lägger till ett kalkylblad i samlingen.|
 | [add()](/cells/sv/python-net/aspose.cells/worksheetcollection/add/#) | Lägger till ett kalkylblad i samlingen.|
@@ -50,12 +50,12 @@ Typen WorksheetCollection avslöjar följande medlemmar:
 | [get_range_by_name(range_name)](/cells/sv/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str) | Hämtar Range-objekt med fördefinierat namn.|
 | [get_range_by_name(range_name, current_sheet_index, include_table)](/cells/sv/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str-int-bool) | Får [Range](/cells/sv/python-net/aspose.cells/range) efter fördefinierat namn eller tabellnamn|
 | [copy_to(array)](/cells/sv/python-net/aspose.cells/worksheetcollection/copy_to/#list) | Kopierar hela arraylistan till en kompatibel endimensionell arraylista, med början i början av målarraylistan.|
-| [copy_to(index, array, array_index, count)](/cells/sv/python-net/aspose.cells/worksheetcollection/copy_to/#int-list-int-int) | Kopierar ett intervall av element från arraylistan till en kompatibel endimensionell arraylista, med början vid det angivna indexet för målarraylistan.|
+| [copy_to(index, array, array_index, count)](/cells/sv/python-net/aspose.cells/worksheetcollection/copy_to/#int-list-int-int) |Kopierar ett intervall av element från arraylistan till en kompatibel endimensionell arraylista, med början vid det angivna indexet för målarraylistan.|
 | [index_of(item, index)](/cells/sv/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den första förekomsten inom intervallet av element i arraylistan som sträcker sig från det angivna indexet till det sista elementet.|
 | [index_of(item, index, count)](/cells/sv/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int-int) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den första förekomsten inom intervallet av element i arraylistan som börjar vid det angivna indexet och innehåller det angivna antalet element.|
 | [last_index_of(item)](/cells/sv/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom hela arraylistan.|
-| [last_index_of(item, index)](/cells/sv/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int) |Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som sträcker sig från det första elementet till det angivna indexet.|
-| [last_index_of(item, index, count)](/cells/sv/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int-int) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som innehåller det angivna antalet element och slutar vid det angivna indexet.|
+| [last_index_of(item, index)](/cells/sv/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som sträcker sig från det första elementet till det angivna indexet.|
+| [last_index_of(item, index, count)](/cells/sv/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int-int) |Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som innehåller det angivna antalet element och slutar vid det angivna indexet.|
 | [create_range(address, sheet_index)](/cells/sv/python-net/aspose.cells/worksheetcollection/create_range/#str-int) | Skapar ett [Range](/cells/sv/python-net/aspose.cells/range)-objekt från en adress i intervallet.|
 | [create_union_range(address, sheet_index)](/cells/sv/python-net/aspose.cells/worksheetcollection/create_union_range/#str-int) | Skapar ett [Range](/cells/sv/python-net/aspose.cells/range)-objekt från en adress i intervallet.|
 | [get_sheet_by_code_name(code_name)](/cells/sv/python-net/aspose.cells/worksheetcollection/get_sheet_by_code_name/#str) | Hämtar kalkylbladet med kodnamnet.|
@@ -66,7 +66,7 @@ Typen WorksheetCollection avslöjar följande medlemmar:
 | [get_named_ranges_and_tables()](/cells/sv/python-net/aspose.cells/worksheetcollection/get_named_ranges_and_tables/#) | Hämtar alla fördefinierade namngivna intervall i kalkylarket.|
 | [set_ole_size(start_row, end_row, start_column, end_column)](/cells/sv/python-net/aspose.cells/worksheetcollection/set_ole_size/#int-int-int-int) | Ställer in visad storlek när arbetsboksfil används som ett Ole-objekt.|
 | [clear_pivottables()](/cells/sv/python-net/aspose.cells/worksheetcollection/clear_pivottables/#) | Rensar pivottabeller från kalkylarket.|
-| [refresh_pivot_tables()](/cells/sv/python-net/aspose.cells/worksheetcollection/refresh_pivot_tables/#) |Uppdaterar alla pivottabeller i WorksheetCollection.|
+| [refresh_pivot_tables()](/cells/sv/python-net/aspose.cells/worksheetcollection/refresh_pivot_tables/#) | Uppdaterar alla pivottabeller i WorksheetCollection.|
 | [binary_search(item)](/cells/sv/python-net/aspose.cells/worksheetcollection/binary_search/#Worksheet) | Söker i hela den sorterade arraylistan efter ett element med hjälp av standardjämföraren och returnerar elementets nollbaserade index.|
 
 

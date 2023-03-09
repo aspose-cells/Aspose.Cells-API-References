@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/defaultstylesettings/
 is_root: false
 ---
 ##  DefaultStyleSettings clase
-Configuración de los valores predeterminados de las propiedades de estilo del libro.
+Configuración de los valores predeterminados de las propiedades de estilo del libro de trabajo.
 
 
 

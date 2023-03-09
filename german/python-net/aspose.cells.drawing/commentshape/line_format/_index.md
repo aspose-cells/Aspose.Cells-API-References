@@ -13,7 +13,7 @@ Gibt ein MsoLineFormat-Objekt zurück, das Linienformatierungseigenschaften für
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die Shape.Line-Eigenschaft.
  Diese Property wird 12 Monate später seit Juli 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -13,7 +13,7 @@ Gibt an, ob es sich um einen Bereich handelt.
 
 ###  Bemerkungen
 
-Wenn dies kein Bereich ist, wirken nur StartRow und StartColumn.
+Wenn dies kein Bereich ist, wirken sich nur StartRow und StartColumn aus.
 ###  Definition:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/worksheet/split/
 is_root: false
 ---
 ##  split() {#}
-Teilt Fenster.
+Geteiltes Fenster.
 
 
 

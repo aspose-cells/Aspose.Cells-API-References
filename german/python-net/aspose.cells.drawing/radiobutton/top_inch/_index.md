@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_inch Eigentum
 
-Stellt den vertikalen Versatz der Form von der obersten Reihe in Zoll dar.
+Stellt den vertikalen Versatz der Form von der obersten Reihe in Zolleinheiten dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

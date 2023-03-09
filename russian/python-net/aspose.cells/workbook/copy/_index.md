@@ -18,7 +18,7 @@ def copy(self, source):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source | [Workbook](/cells/ru/python-net/aspose.cells/workbook) | Исходный объект рабочей книги.|
 
@@ -34,7 +34,7 @@ def copy(self, source, copy_options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source | [Workbook](/cells/ru/python-net/aspose.cells/workbook) | Исходный объект рабочей книги.|
 | copy_options | [CopyOptions](/cells/ru/python-net/aspose.cells/copyoptions) |  |

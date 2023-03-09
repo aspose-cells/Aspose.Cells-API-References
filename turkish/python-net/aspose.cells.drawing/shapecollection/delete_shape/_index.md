@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/shapecollection/delete_shape/
 is_root: false
 ---
 ##  delete_shape(shape) {#Shape}
-Bir şekli silin. Şekil grup içindeyse veya bir yorum şekliyse silinmez.
+Şekil silme Şekil gruptaysa veya bir yorum şekliyse silinmez.
 
 
 
@@ -18,11 +18,11 @@ def delete_shape(self, shape):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | shape | [Shape](/cells/tr/python-net/aspose.cells.drawing/shape) |  |
 
-###  Örnek
+###  örnekler
 
 ```python
 

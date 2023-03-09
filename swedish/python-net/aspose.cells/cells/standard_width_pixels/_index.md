@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width_pixels fastighet
 
-Hämtar eller ställer in standardkolumnbredden i kalkylbladet, i pixelenhet.
+Hämtar eller ställer in standardkolumnbredden i kalkylbladet, i enheter av pixlar.
 ###  Definition:
 ```python
 @property

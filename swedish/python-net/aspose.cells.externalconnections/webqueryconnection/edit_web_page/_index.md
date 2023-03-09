@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  edit_web_page fastighet
 
-Webbadressen till den användarvända webbsidan som visar webbfrågans data. Den här webbadressen finns kvar
+Webbadressen till den användarvända webbsidan som visar webbfrågans data.
 i fallet att sourceData="true" och url har omdirigerats för att referera till en XML-fil.
 Sedan kan den användarvända sidan visas i användargränssnittet och XML-data kan hämtas
 bakom kulisserna.

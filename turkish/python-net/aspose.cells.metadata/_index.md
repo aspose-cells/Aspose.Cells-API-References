@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Numaralandırmalar
-| numaralandırma| Tanım|
+|numaralandırma| Tanım|
 | :- | :- |
 | [MetadataType](/cells/tr/python-net/aspose.cells.metadata/metadatatype) | Meta veri türünü temsil eder.|
 

@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/worksheet/split/
 is_root: false
 ---
 ##  split() {#}
-Разделяет окно.
+Разделенное окно.
 
 
 

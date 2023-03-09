@@ -1,13 +1,13 @@
 ﻿---
 title: Outline类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1130
 url: /zh/python-net/aspose.cells/outline/
 is_root: false
 ---
-##  Outline类
+## Outline类
 表示工作表上的大纲。
 
 

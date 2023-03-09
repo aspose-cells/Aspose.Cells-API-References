@@ -13,7 +13,7 @@ Anger om Ooxml-filer av OleObject bäddas in som ole-objekt.
 
 ###  Anmärkningar
 
-Endast för OleObject.
+Endast för Ole Objects.
 ###  Definition:
 ```python
 @property

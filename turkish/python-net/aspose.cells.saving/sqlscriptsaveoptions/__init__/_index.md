@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.saving/sqlscriptsaveoptions/__init__/
 is_root: false
 ---
 ##  SqlScriptSaveOptions() {#}
-Sql dosyasını kaydetmek için seçenekler oluşturur.
+Sql dosyalarını kaydetmek için seçenekler oluşturur.
 
 
 

@@ -18,7 +18,7 @@ Typen ControlScrollOrientation avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | AUTO | Kontroll återges horisontellt när kontrollens bredd är större än dess höjd.<br/> Kontroll återges vertikalt annars.|
-| VERTICAL | Kontroll återges vertikalt.|
+| VERTICAL |Kontroller återges vertikalt.|
 | HORIZONTAL | Kontroll återges horisontellt.|
 
 

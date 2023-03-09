@@ -8,12 +8,12 @@ url: /it/python-net/aspose.cells/formatconditioncollection/get_cell_area/
 is_root: false
 ---
 ##  get_cell_area(index) {#int}
-Ottiene l'intervallo di celle formattato condizionale in base all'indice.
+Ottiene l'intervallo di celle formattato in modo condizionale in base all'indice.
 
 
 ###  ritorna
 
-l'intervallo di celle formattato condizionale
+l'intervallo di celle formattato in modo condizionale
 
 
 ```python
@@ -22,9 +22,9 @@ def get_cell_area(self, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| index | int | l'indice dell'intervallo di celle formattato condizionale.|
+| index | int | l'indice dell'intervallo di celle formattato in modo condizionale.|
 
 
 

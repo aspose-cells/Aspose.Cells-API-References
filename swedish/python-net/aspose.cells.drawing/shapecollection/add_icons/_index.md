@@ -22,16 +22,16 @@ def add_icons(self, upper_left_row, top, upper_left_column, left, height, width,
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av formen från dess vänstra rad, i pixelenhet.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int | Den horisontella förskjutningen av formen från dess vänstra kolumn, i pixelenhet.|
-| height | int | Formens höjd, i pixelenhet.|
-| width | int | Formens bredd, i pixelenhet.|
+| height | int | Formens höjd, i enheter av pixlar.|
+| width | int | Formens bredd, i enheter av pixlar.|
 | image_byte_data | bytes | Bildbytedata.|
-| compatible_image_data | bytes | Konverterade bilddata från svg för att vara kompatibel med Excel 2016 eller lägre versioner.|
+| compatible_image_data | bytes |Konverterade bilddata från svg för att vara kompatibel med Excel 2016 eller lägre versioner.|
 
 ###  Exempel
 

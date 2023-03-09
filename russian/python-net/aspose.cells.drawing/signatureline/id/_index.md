@@ -11,7 +11,7 @@ is_root: false
 
 Получает или задает идентификатор для этой строки подписи.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells.drawing import SignatureLine

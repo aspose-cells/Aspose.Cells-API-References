@@ -1,13 +1,13 @@
 ﻿---
 title: ErrorBar类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
 url: /zh/python-net/aspose.cells.charts/errorbar/
 is_root: false
 ---
-##  ErrorBar类
+## ErrorBar类
 表示数据系列的误差线。
 
 
@@ -40,7 +40,7 @@ ErrorBar 类型公开了以下成员：
 | [weight_pt](/cells/zh/python-net/aspose.cells.charts/errorbar/weight_pt) |以点为单位获取或设置线的权重。|
 | [weight_px](/cells/zh/python-net/aspose.cells.charts/errorbar/weight_px) |以像素为单位获取或设置线条的粗细。|
 | [formatting_type](/cells/zh/python-net/aspose.cells.charts/errorbar/formatting_type) |获取或设置格式类型。|
-| [is_automatic_color](/cells/zh/python-net/aspose.cells.charts/errorbar/is_automatic_color) |指示线的颜色是否自动分配。|
+| [is_automatic_color](/cells/zh/python-net/aspose.cells.charts/errorbar/is_automatic_color) |指示是否自动分配线条颜色。|
 | [is_visible](/cells/zh/python-net/aspose.cells.charts/errorbar/is_visible) |表示线条是否可见。|
 | [is_auto](/cells/zh/python-net/aspose.cells.charts/errorbar/is_auto) |指示此线型是否自动指定。|
 | [gradient_fill](/cells/zh/python-net/aspose.cells.charts/errorbar/gradient_fill) |代表渐变填充。|

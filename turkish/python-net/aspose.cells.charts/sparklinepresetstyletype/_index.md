@@ -28,13 +28,13 @@ SparklinePresetStyleType türü aşağıdaki üyeleri gösterir:
 | STYLE9 | stil 9|
 | STYLE10 | stil 10|
 | STYLE11 | stil 11|
-| STYLE12 | stil 12|
+| STYLE12 |Stil 12|
 | STYLE13 | Stil 13|
 | STYLE14 | stil 14|
-| STYLE15 | stil 15|
+| STYLE15 | Stil 15|
 | STYLE16 | Stil 16|
 | STYLE17 | stil 17|
-| STYLE18 | stil 18|
+| STYLE18 | Stil 18|
 | STYLE19 | stil 19|
 | STYLE20 | stil 20|
 | STYLE21 | stil 21|
@@ -47,13 +47,13 @@ SparklinePresetStyleType türü aşağıdaki üyeleri gösterir:
 | STYLE28 | stil 28|
 | STYLE29 | stil 29|
 | STYLE30 | Stil 30|
-| STYLE31 | Stil 31|
+| STYLE31 | stil 31|
 | STYLE32 | Stil 32|
 | STYLE33 | Stil 33|
 | STYLE34 | Stil 34|
 | STYLE35 | stil 35|
 | STYLE36 | Stil 36|
-| CUSTOM |Önceden ayarlanmış stil yok.|
+| CUSTOM | Önceden ayarlanmış stil yok.|
 
 
 

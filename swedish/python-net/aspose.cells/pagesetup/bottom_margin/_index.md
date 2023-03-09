@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin fastighet
 
-Representerar storleken på bottenmarginalen, i centimeterenhet.
+Representerar storleken på bottenmarginalen, i enheter av centimeter.
 ###  Definition:
 ```python
 @property

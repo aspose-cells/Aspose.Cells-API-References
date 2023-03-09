@@ -1,13 +1,13 @@
 ﻿---
 title: CustomImplementationFactory类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 390
 url: /zh/python-net/aspose.cells/customimplementationfactory/
 is_root: false
 ---
-##  CustomImplementationFactory类
+## CustomImplementationFactory类
 工厂创建一些实例，用户可以为特殊目的重新实现这些实例。
 
 

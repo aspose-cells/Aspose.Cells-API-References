@@ -18,7 +18,7 @@ def remove_area(self, cell_area):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | le aree in cui queste impostazioni di convalida devono essere rimosse.|
 

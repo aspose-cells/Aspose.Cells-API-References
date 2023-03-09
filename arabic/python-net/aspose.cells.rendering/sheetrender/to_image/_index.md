@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.rendering/sheetrender/to_image/
 is_root: false
 ---
 ##  to_image(page_index, file_name) {#int-str}
-تقديم صفحة معينة إلى ملف.
+تقديم صفحات معينة إلى ملف.
 
 
 
@@ -18,12 +18,12 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | page_index | int | الإشارة إلى الصفحة المراد تحويلها|
 | file_name | str | اسم ملف الصورة الناتجة|
 
-###  مثال
+###  أمثلة
 
 يخرج الكود التالي الصفحة الأولى من الورقة الأولى إلى صورة png.
 
@@ -46,7 +46,7 @@ sr.to_image(0, "output.png")
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-تقديم صفحة معينة إلى دفق.
+تقديم صفحات معينة إلى دفق.
 
 
 
@@ -56,7 +56,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | page_index | int | الإشارة إلى الصفحة المراد تحويلها|
 | stream | io.RawIOBase | تيار الصورة الناتجة|

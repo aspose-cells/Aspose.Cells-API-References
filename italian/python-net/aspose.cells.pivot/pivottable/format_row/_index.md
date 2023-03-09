@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Row Indice dell'oggetto Row|
 | style | [Style](/cells/it/python-net/aspose.cells/style) | Stile che è quello di formattare|

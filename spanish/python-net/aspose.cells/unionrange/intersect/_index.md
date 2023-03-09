@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | range | str | El rango.|
 ###  Observaciones
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/es/python-net/aspose.cells/unionrange) | El rango.|
 ###  Observaciones
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | ranges | list | El rango.|
 ###  Observaciones

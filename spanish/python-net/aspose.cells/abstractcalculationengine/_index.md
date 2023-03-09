@@ -18,7 +18,7 @@ El tipo AbstractCalculationEngine expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [is_param_literal_required](/cells/es/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) | Indica si este motor necesita el texto literal del parámetro mientras realiza el cálculo. El valor predeterminado es falso.|
-| [process_built_in_functions](/cells/es/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) | Si esta implementación debe verificar y procesar las funciones integradas que han sido compatibles con el motor integrado.<br/>El valor predeterminado es falso.<br/>Si el usuario necesita cambiar la lógica de cálculo de algunas funciones integradas, esta propiedad debe establecerse como verdadera.|
+| [process_built_in_functions](/cells/es/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) | Si esta implementación debe verificar y procesar las funciones integradas que han sido compatibles con el motor integrado.<br/>El valor predeterminado es falso.<br/> Si el usuario necesita cambiar la lógica de cálculo de algunas funciones integradas, esta propiedad debe establecerse como verdadera.|
 
 
 ###  Métodos

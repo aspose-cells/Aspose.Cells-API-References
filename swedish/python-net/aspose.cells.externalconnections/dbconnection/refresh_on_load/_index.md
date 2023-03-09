@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  refresh_on_load fastighet
 
-Sant om den här anslutningen ska uppdateras när filen öppnas; annars falskt.
+Sant om den här anslutningen ska uppdateras när filen öppnas;
 ###  Definition:
 ```python
 @property

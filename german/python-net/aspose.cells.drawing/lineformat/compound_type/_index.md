@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den Verbundtyp der Linie an.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import MsoLineStyle

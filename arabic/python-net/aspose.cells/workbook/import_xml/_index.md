@@ -18,14 +18,14 @@ def import_xml(self, url, sheet_name, row, col):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | url | str | عنوان url / مسار ملف xml.|
 | sheet_name | str | اسم الورقة الوجهة.|
 | row | int | صف الوجهة|
 | col | int | عمود الوجهة|
 
-###  مثال
+###  أمثلة
 
 يستورد الكود التالي بيانات xml في ورقة العمل 'Sheet 1' على Cell A1.
 
@@ -50,12 +50,12 @@ def import_xml(self, stream, sheet_name, row, col):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | دفق ملف xml.|
 | sheet_name | str | اسم الورقة الوجهة.|
 | row | int | صف الوجهة.|
-| col | int |عمود الوجهة.|
+| col | int | عمود الوجهة.|
 
 
 

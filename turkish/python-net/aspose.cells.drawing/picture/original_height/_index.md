@@ -11,7 +11,7 @@ is_root: false
 
 Resmin orijinal yüksekliğini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

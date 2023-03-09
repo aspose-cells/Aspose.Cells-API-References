@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionQueryTable sınıf
+title: RevisionQueryTable sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 160
 url: /tr/python-net/aspose.cells.revisions/revisionquerytable/
 is_root: false
 ---
-##  RevisionQueryTable sınıf
+##  RevisionQueryTable sınıfı
 Bir sorgu tablosu alanı değişikliğinin revizyonunu temsil eder.
 
 

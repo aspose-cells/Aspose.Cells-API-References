@@ -24,13 +24,13 @@ El tipo ImageType expone los siguientes miembros:
 | JPEG | JPEG JFIF.|
 | PNG | Gráficos de red portátiles.|
 | BMP | Windows mapa de bits|
-| GIF | Gif|
+| GIF | gifs|
 | TIFF | Pelea|
 | SVG | SVG|
 | SVM | Svm|
-| GLTF | glTF|
+| GLTF | glTFMás|
 | OFFICE_COMPATIBLE_EMF | Windows Metarchivo mejorado que es más compatible con Office.|
-| WEB_P | formato de imagen weppy|
+| WEB_P |formato de imagen weppy|
 
 
 

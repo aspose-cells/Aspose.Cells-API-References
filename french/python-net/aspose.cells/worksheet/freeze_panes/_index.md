@@ -18,14 +18,14 @@ def freeze_panes(self, cell_name, freezed_rows, freezed_columns):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | cell_name | str | Cell nom.|
 | freezed_rows | int | Nombre de lignes visibles dans le volet supérieur, pas plus que l'index de ligne.|
 | freezed_columns | int | Nombre de colonnes visibles dans le volet de gauche, pas plus que l'index de colonne.|
 ###  Remarques
 
-L'index de ligne et l'index de colonne ne peuvent pas tous être nuls. Nombre de lignes et nombre de colonnes
+L'index de ligne et l'index de colonne ne peuvent pas tous être nuls.
 ne peuvent pas non plus tous être nuls.
 
 ##  freeze_panes(row, column, freezed_rows, freezed_columns) {#int-int-int-int}
@@ -39,7 +39,7 @@ def freeze_panes(self, row, column, freezed_rows, freezed_columns):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | int | Indice de ligne.|
 | column | int | Indice de colonne.|
@@ -47,7 +47,7 @@ def freeze_panes(self, row, column, freezed_rows, freezed_columns):
 | freezed_columns | int | Nombre de colonnes visibles dans le volet de gauche, pas plus que l'index de colonne.|
 ###  Remarques
 
-L'index de ligne et l'index de colonne ne peuvent pas tous être nuls. Nombre de lignes et nombre de colonnes
+L'index de ligne et l'index de colonne ne peuvent pas tous être nuls.
 ne peuvent pas non plus tous être nuls.
 
 

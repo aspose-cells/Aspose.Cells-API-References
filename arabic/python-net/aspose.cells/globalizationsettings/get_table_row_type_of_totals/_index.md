@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_tot
 is_root: false
 ---
 ##  get_table_row_type_of_totals() {#}
-الحصول على اسم نوع صفوف الجدول الذي يتكون من الصف الإجمالي للجدول المشار إليه.
+الحصول على اسم نوع صفوف الجدول التي تتكون من الصف الإجمالي للجدول المشار إليه.
 الافتراضي هو "الإجماليات" ، لذلك في الصيغة "#Totals" تمثل الصف الإجمالي للجدول المشار إليه.
 
 

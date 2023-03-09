@@ -22,11 +22,11 @@ Der Typ ErrorBar macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [compound_type](/cells/de/python-net/aspose.cells.charts/errorbar/compound_type) |Gibt den zusammengesetzten Linientyp an|
+| [compound_type](/cells/de/python-net/aspose.cells.charts/errorbar/compound_type) | Gibt den zusammengesetzten Linientyp an|
 | [dash_type](/cells/de/python-net/aspose.cells.charts/errorbar/dash_type) | Gibt den Strichlinientyp an|
 | [cap_type](/cells/de/python-net/aspose.cells.charts/errorbar/cap_type) | Gibt die Endkappen an.|
 | [join_type](/cells/de/python-net/aspose.cells.charts/errorbar/join_type) | Gibt die Verbindungskappen an.|
-| [begin_type](/cells/de/python-net/aspose.cells.charts/errorbar/begin_type) | Gibt eine Pfeilspitze für den Beginn einer Linie an.|
+| [begin_type](/cells/de/python-net/aspose.cells.charts/errorbar/begin_type) |Gibt eine Pfeilspitze für den Beginn einer Linie an.|
 | [end_type](/cells/de/python-net/aspose.cells.charts/errorbar/end_type) | Gibt eine Pfeilspitze für das Ende einer Linie an.|
 | [begin_arrow_length](/cells/de/python-net/aspose.cells.charts/errorbar/begin_arrow_length) | Gibt die Länge der Pfeilspitze für den Beginn einer Linie an.|
 | [end_arrow_length](/cells/de/python-net/aspose.cells.charts/errorbar/end_arrow_length) | Gibt die Länge der Pfeilspitze für das Ende einer Linie an.|
@@ -40,11 +40,11 @@ Der Typ ErrorBar macht die folgenden Member verfügbar:
 | [weight_pt](/cells/de/python-net/aspose.cells.charts/errorbar/weight_pt) | Ruft die Gewichtung der Linie in Punkteinheiten ab oder legt diese fest.|
 | [weight_px](/cells/de/python-net/aspose.cells.charts/errorbar/weight_px) | Ruft die Gewichtung der Linie in Pixeleinheiten ab oder legt diese fest.|
 | [formatting_type](/cells/de/python-net/aspose.cells.charts/errorbar/formatting_type) | Ruft den Formattyp ab oder legt ihn fest.|
-| [is_automatic_color](/cells/de/python-net/aspose.cells.charts/errorbar/is_automatic_color) |Gibt an, ob die Linienfarbe automatisch zugewiesen wird.|
+| [is_automatic_color](/cells/de/python-net/aspose.cells.charts/errorbar/is_automatic_color) | Gibt an, ob die Linienfarbe automatisch zugewiesen wird.|
 | [is_visible](/cells/de/python-net/aspose.cells.charts/errorbar/is_visible) | Stellt dar, ob die Linie sichtbar ist.|
 | [is_auto](/cells/de/python-net/aspose.cells.charts/errorbar/is_auto) | Gibt an, ob dieser Linienstil automatisch zugewiesen wird.|
 | [gradient_fill](/cells/de/python-net/aspose.cells.charts/errorbar/gradient_fill) | Stellt eine Verlaufsfüllung dar.|
-| [type](/cells/de/python-net/aspose.cells.charts/errorbar/type) | Repräsentiert den Betragstyp des Fehlerbalkens.|
+| [type](/cells/de/python-net/aspose.cells.charts/errorbar/type) |Repräsentiert den Betragstyp des Fehlerbalkens.|
 | [display_type](/cells/de/python-net/aspose.cells.charts/errorbar/display_type) | Stellt den Anzeigetyp der Fehlerleiste dar.|
 | [amount](/cells/de/python-net/aspose.cells.charts/errorbar/amount) | Repräsentiert die Menge des Fehlerbalkens.<br/> Der Betrag muss größer oder gleich Null sein.|
 | [show_marker_t_top](/cells/de/python-net/aspose.cells.charts/errorbar/show_marker_t_top) | Gibt an, ob Fehlerbalken mit einem T-Top formatiert werden.|
@@ -53,7 +53,7 @@ Der Typ ErrorBar macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

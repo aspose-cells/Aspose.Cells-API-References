@@ -17,9 +17,9 @@ PivotTableAutoFormatType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| NONE | Yok biçim türünü temsil eder.|
+| NONE |Yok biçim türünü temsil eder.|
 | CLASSIC | Klasik otomatik biçim türünü temsil eder.|
-| REPORT1 |Report1 biçim türünü temsil eder.|
+| REPORT1 | Report1 biçim türünü temsil eder.|
 | REPORT2 | Report2 biçim türünü temsil eder.|
 | REPORT3 | Report3 biçim türünü temsil eder.|
 | REPORT4 | Report4 biçim türünü temsil eder.|
@@ -38,7 +38,7 @@ PivotTableAutoFormatType türü aşağıdaki üyeleri gösterir:
 | TABLE7 | Table7 biçim türünü temsil eder.|
 | TABLE8 | Table8 biçim türünü temsil eder.|
 | TABLE9 | Table9 biçim türünü temsil eder.|
-| TABLE10 | Table10 biçim türünü temsil eder.|
+| TABLE10 | Tablo 10 format tipini temsil eder.|
 
 
 

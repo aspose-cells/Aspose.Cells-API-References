@@ -19,12 +19,12 @@ def set_one_color_gradient(self, color, degree, style, variant):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Un colore sfumato.|
 | degree | float | Il grado del gradiente. Può essere un valore compreso tra 0,0 (scuro) e 1,0 (chiaro).|
 | style | [GradientStyleType](/cells/it/python-net/aspose.cells.drawing/gradientstyletype) | Stile di sfumatura sfumata.|
-| variant | int |La variante gradiente. Può essere un valore compreso tra 1 e 4, corrispondente a una delle quattro varianti nella scheda Sfumatura nella finestra di dialogo Effetti di riempimento. Se style è GradientStyle.FromCenter, l'argomento Variant può essere solo 1 o 2.|
+| variant | int |La variante sfumatura. Può essere un valore compreso tra 1 e 4, corrispondente a una delle quattro varianti nella scheda Sfumatura nella finestra di dialogo Effetti di riempimento. Se lo stile è GradientStyle.FromCenter, l'argomento Variante può essere solo 1 o 2.|
 
 
 

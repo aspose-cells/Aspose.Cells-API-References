@@ -20,7 +20,7 @@ def remove_area(self, index):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| index | int |Der Index des bedingt formatierten Zellbereichs, der entfernt werden soll.|
+| index | int | Der Index des zu entfernenden bedingt formatierten Zellbereichs.|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}
@@ -29,7 +29,7 @@ Entfernen Sie die bedingte Formatierung im Bereich.
 
 ###  Kehrt zurück
 
-Gibt TRUE zurück, diese FormatCondtionCollection sollte entfernt werden.
+Gibt TRUE zurück, diese FormatConditionCollection sollte entfernt werden.
 
 
 ```python
@@ -40,8 +40,8 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| start_row | int | Die startRow des Bereichs.|
-| start_column | int | Die startColumn des Bereichs.|
+| start_row | int | Die Startzeile des Bereichs.|
+| start_column | int | Die Startspalte des Bereichs.|
 | total_rows | int | Die Anzahl der Zeilen des Bereichs.|
 | total_columns | int | Die Anzahl der Spalten des Bereichs.|
 

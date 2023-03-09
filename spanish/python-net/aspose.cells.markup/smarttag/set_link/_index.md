@@ -18,7 +18,7 @@ def set_link(self, uri, name):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | uri | str | El URI del espacio de nombres de la etiqueta inteligente.|
 | name | str | El nombre de la etiqueta inteligente.|

@@ -17,8 +17,8 @@ is_root: false
 | [PowerQueryFormulaCollection](/cells/de/python-net/aspose.cells.querytables/powerqueryformulacollection) | Stellt alle Power-Query-Formeln in den Mashup-Daten dar.|
 | [PowerQueryFormulaFunction](/cells/de/python-net/aspose.cells.querytables/powerqueryformulafunction) | Stellt die Funktion der Leistungsabfrage dar.|
 | [PowerQueryFormulaItem](/cells/de/python-net/aspose.cells.querytables/powerqueryformulaitem) | Stellt das Element der Leistungsabfrageformel dar.|
-| [PowerQueryFormulaItemCollection](/cells/de/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) |Stellt alle Elemente der Leistungsabfrageformel dar.|
+| [PowerQueryFormulaItemCollection](/cells/de/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) | Stellt alle Elemente der Leistungsabfrageformel dar.|
 | [PowerQueryFormulaParameter](/cells/de/python-net/aspose.cells.querytables/powerqueryformulaparameter) | Stellt den Parameter der Power-Abfrageformel dar.|
-| [PowerQueryFormulaParameterCollection](/cells/de/python-net/aspose.cells.querytables/powerqueryformulaparametercollection) | Repräsentiert die|
+| [PowerQueryFormulaParameterCollection](/cells/de/python-net/aspose.cells.querytables/powerqueryformulaparametercollection) |Repräsentiert die|
 
 

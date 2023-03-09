@@ -15,7 +15,7 @@ Ruft einen Wert ab, der angibt, ob das generierte Arbeitsblatt eine horizontale 
 
 Der Standardwert ist wahr.
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code macht die horizontale Bildlaufleiste für die Tabelle unsichtbar.
 

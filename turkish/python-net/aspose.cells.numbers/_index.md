@@ -16,8 +16,8 @@ is_root: false
 
 
 ###  Numaralandırmalar
-| numaralandırma| Tanım|
+|numaralandırma| Tanım|
 | :- | :- |
-| [LoadNumbersTableType](/cells/tr/python-net/aspose.cells.numbers/loadnumberstabletype) | Bazı tablolar bir sayfada olduğunda yükleme tablolarının türünü belirtir.|
+| [LoadNumbersTableType](/cells/tr/python-net/aspose.cells.numbers/loadnumberstabletype) |Bazı tablolar bir sayfada olduğunda yükleme tablolarının türünü belirtir.|
 
 

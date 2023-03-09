@@ -22,7 +22,7 @@ def row_name_to_index(self, row_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row_name | str | اسم الصف.|
 

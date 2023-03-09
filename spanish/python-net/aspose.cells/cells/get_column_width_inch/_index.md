@@ -13,7 +13,7 @@ Obtiene el ancho de la columna especificada en vista normal, en unidades de pulg
 
 ###  Devoluciones
 
-Ancho de columna
+Ancho de columnas
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width_inch(self, column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column | int | índice de columna|
 

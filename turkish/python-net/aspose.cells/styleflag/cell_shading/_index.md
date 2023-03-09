@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_shading mülk
 
-Cell gölgelendirme ayarı uygulanacaktır.
+Cell gölgeleme ayarı uygulanacaktır.
 ###  Tanım:
 ```python
 @property

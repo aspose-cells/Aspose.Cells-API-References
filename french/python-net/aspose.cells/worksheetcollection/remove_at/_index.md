@@ -18,7 +18,7 @@ def remove_at(self, name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | name | str | Nom de l'élément à supprimer.|
 

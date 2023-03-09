@@ -13,8 +13,8 @@ Obtient et définit le radius de la lueur, en unité de points.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
- veuillez utiliser la propriété GlowEffect.Size.
+ REMARQUE : ce membre est désormais obsolète.
+ Veuillez utiliser la propriété GlowEffect.Size.
  Cette propriété sera supprimée 6 mois plus tard depuis septembre 2016.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

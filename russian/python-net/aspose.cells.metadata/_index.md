@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [MetadataType](/cells/ru/python-net/aspose.cells.metadata/metadatatype) | Представляет тип метаданных.|
 

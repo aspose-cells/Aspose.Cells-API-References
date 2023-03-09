@@ -17,13 +17,13 @@ Le type SheetType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| VB | Module Visual Basic|
+| VB | Modules Visual Basic|
 | WORKSHEET |  |
-| CHART | Graphique|
+| CHART | graphique|
 | BIFF4_MACRO | Feuille macro BIFF4|
 | INTERNATIONAL_MACRO | Fiche macro internationale|
 | OTHER |  |
-| DIALOG | Feuille de travail de dialogue|
+| DIALOG |Feuille de travail sur les dialogues|
 
 
 

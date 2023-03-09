@@ -10,7 +10,7 @@ is_root: false
 ##  cross_filter_type fastighet
 
 Returnerar eller ställer in om en slicer deltar i korsfiltrering med andra slicers
-som delar samma slicercache och hur korsfiltrering visas. Läsa skriva
+som delar samma slicercache och hur korsfiltrering visas.
 ###  Definition:
 ```python
 @property

@@ -17,7 +17,7 @@ Il tipo TextStrikeType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| SINGLE | Un singolo barrato applicato sul testo.|
+| SINGLE |Un singolo barrato applicato sul testo.|
 | DOUBLE | Una doppia barratura applicata sul testo.|
 | NONE | Nessun avvertimento viene applicato al testo.|
 

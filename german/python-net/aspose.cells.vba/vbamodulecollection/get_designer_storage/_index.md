@@ -23,7 +23,7 @@ def get_designer_storage(self, name):
 | name | str |  |
 ###  Bemerkungen
 
-Wir unterstützen nicht, sie zu analysieren. Nur zum Kopieren.
+Wir unterstützen nicht, sie zu analysieren.
 
 
 ###  Siehe auch

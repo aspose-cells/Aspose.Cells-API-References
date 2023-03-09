@@ -25,8 +25,8 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
-| height | int |Höhe von oleObject in Pixeleinheiten.|
+| upper_left_column | int | Spaltenindex oben links.|
+| height | int | Höhe von oleObject in Pixeleinheiten.|
 | width | int | Breite von oleObject in Pixeleinheiten.|
 | image_data | bytes | Bild des alten Objekts als Byte-Array.|
 
@@ -49,8 +49,8 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | upper_left_row | int | Zeilenindex oben links.|
-| upper_left_column | int |Spaltenindex oben links.|
-| height | int |Höhe von oleObject in Pixeleinheiten.|
+| upper_left_column | int | Spaltenindex oben links.|
+| height | int | Höhe von oleObject in Pixeleinheiten.|
 | width | int | Breite von oleObject in Pixeleinheiten.|
 | image_data | bytes | Bild des alten Objekts als Byte-Array.|
 | linked_file | str |  |

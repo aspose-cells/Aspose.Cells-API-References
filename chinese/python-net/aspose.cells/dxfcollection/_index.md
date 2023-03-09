@@ -1,13 +1,13 @@
 ﻿---
 title: DxfCollection类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 500
 url: /zh/python-net/aspose.cells/dxfcollection/
 is_root: false
 ---
-##  DxfCollection类
+## DxfCollection类
 表示主差异格式记录。
 
 

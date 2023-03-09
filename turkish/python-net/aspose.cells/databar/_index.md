@@ -1,5 +1,5 @@
 ﻿---
-title: DataBar sınıf
+title: DataBar sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 400
 url: /tr/python-net/aspose.cells/databar/
 is_root: false
 ---
-##  DataBar sınıf
+##  DataBar sınıfı
  DataBar koşullu biçimlendirme kuralını açıklayın.
 Bu koşullu biçimlendirme kuralı, derecelendirilmiş bir
 hücre aralığındaki veri çubuğu.
@@ -22,7 +22,7 @@ DataBar türü aşağıdaki üyeleri gösterir:
 | [axis_color](/cells/tr/python-net/aspose.cells/databar/axis_color) | Veri çubukları olarak koşullu biçimlendirmeye sahip hücreler için eksen rengini alır.|
 | [axis_position](/cells/tr/python-net/aspose.cells/databar/axis_position) | Koşullu biçimlendirme kuralı tarafından belirtilen veri çubuklarının ekseninin konumunu alır veya ayarlar.|
 | [bar_fill_type](/cells/tr/python-net/aspose.cells/databar/bar_fill_type) | Bir veri çubuğunun renkle nasıl doldurulacağını alır veya ayarlar.|
-| [direction](/cells/tr/python-net/aspose.cells/databar/direction) | Veri çubuğunun görüntülenme yönünü alır veya ayarlar.|
+| [direction](/cells/tr/python-net/aspose.cells/databar/direction) |Veri çubuğunun görüntülenme yönünü alır veya ayarlar.|
 | [bar_border](/cells/tr/python-net/aspose.cells/databar/bar_border) | Veri çubuğunun kenarlığını belirten bir nesne alır.|
 | [negative_bar_format](/cells/tr/python-net/aspose.cells/databar/negative_bar_format) | Bir veri çubuğu koşullu biçimlendirme kuralıyla ilişkili NegativeBarFormat nesnesini alır.|
 | [min_cfvo](/cells/tr/python-net/aspose.cells/databar/min_cfvo) | Bu DataBar'ın minimum değer nesnesini alın veya ayarlayın.<br/> FormatConditionValueType.Max türünde null veya CFValueObject ayarlanamıyor.|
@@ -40,7 +40,7 @@ DataBar türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

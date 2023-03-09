@@ -1,5 +1,5 @@
 ﻿---
-title: DropBars sınıf
+title: DropBars sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 140
 url: /tr/python-net/aspose.cells.charts/dropbars/
 is_root: false
 ---
-##  DropBars sınıf
+##  DropBars sınıfı
 Bir grafikteki yukarı/aşağı çubukları temsil eder.
 
 

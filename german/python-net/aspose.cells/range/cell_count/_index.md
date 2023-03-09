@@ -15,7 +15,7 @@ Ruft alle Zellenzahlen im Bereich ab.
 
  HINWEIS: Diese Eigenschaft ist jetzt veraltet.
 Verwenden Sie stattdessen RowCount und ColumnCount, um die Gesamtzahl der Zellen zu erhalten.
-Diese Property wird 12 Monate später seit Februar 2021 entfernt.
+ Diese Property wird 12 Monate später seit Februar 2021 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:
 ```python

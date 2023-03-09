@@ -17,7 +17,7 @@ El tipo DataMashup expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [power_query_formulas](/cells/es/python-net/aspose.cells.querytables/datamashup/power_query_formulas) | Obtiene todas las fórmulas de consulta de energía.|
+| [power_query_formulas](/cells/es/python-net/aspose.cells.querytables/datamashup/power_query_formulas) | Obtiene todas las fórmulas de consulta de potencia.|
 | [power_query_formula_parameters](/cells/es/python-net/aspose.cells.querytables/datamashup/power_query_formula_parameters) | Obtiene todos los parámetros de las fórmulas de consulta de energía.|
 
 

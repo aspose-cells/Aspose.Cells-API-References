@@ -23,13 +23,13 @@ El tipo JsonLayoutOptions expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [array_as_table](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/array_as_table) |Procesa Array como tabla.|
-| [ignore_null](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_null) | Indica si se ignora el valor nulo.|
+| [array_as_table](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/array_as_table) | Procesa Array como tabla.|
+| [ignore_null](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_null) | Indica si se ignoran los valores nulos.|
 | [ignore_array_title](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_array_title) | Indica si ignorar el título si la matriz es una propiedad del objeto.|
-| [ignore_object_title](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_object_title) | Indica si se ignora el título si el objeto es una propiedad del objeto.|
+| [ignore_object_title](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_object_title) | Indica si ignorar el título si el objeto es una propiedad del objeto.|
 | [ignore_title](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_title) | Ingores títulos de atributos|
 | [convert_numeric_or_date](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/convert_numeric_or_date) | Obtiene o establece un valor que indica si la cadena en json se convierte en numérica o en fecha.|
-| [number_format](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/number_format) | Obtiene y establece el formato del valor numérico.|
+| [number_format](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/number_format) | Obtiene y establece el formato de los valores numéricos.|
 | [date_format](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/date_format) | Obtiene y establece el formato del valor de fecha.|
 | [title_style](/cells/es/python-net/aspose.cells.utility/jsonlayoutoptions/title_style) | Obtiene y establece el estilo del título.|
 

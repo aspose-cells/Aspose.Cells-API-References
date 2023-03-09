@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  log_base Eigentum
 
-Repräsentiert die logarithmische Basis. Der Standardwert ist 10. Gilt nur für Excel2007.
+Stellt die logarithmische Basis dar. Der Standardwert ist 10. Gilt nur für Excel2007.
 ###  Definition:
 ```python
 @property

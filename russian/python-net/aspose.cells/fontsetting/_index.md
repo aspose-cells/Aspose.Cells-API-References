@@ -25,9 +25,9 @@ is_root: false
 | :- | :- |
 | [type](/cells/ru/python-net/aspose.cells/fontsetting/type) | Получает тип текстового узла.|
 | [start_index](/cells/ru/python-net/aspose.cells/fontsetting/start_index) | Получает начальный индекс символов.|
-| [length](/cells/ru/python-net/aspose.cells/fontsetting/length) | Получает длину символов.|
+| [length](/cells/ru/python-net/aspose.cells/fontsetting/length) |Получает длину символов.|
 | [font](/cells/ru/python-net/aspose.cells/fontsetting/font) | Возвращает шрифт этого объекта.|
-| [text_options](/cells/ru/python-net/aspose.cells/fontsetting/text_options) |Возвращает параметры текста.|
+| [text_options](/cells/ru/python-net/aspose.cells/fontsetting/text_options) | Возвращает параметры текста.|
 
 
 ###  Методы
@@ -37,7 +37,7 @@ is_root: false
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

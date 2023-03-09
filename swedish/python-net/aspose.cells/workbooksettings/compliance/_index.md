@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compliance fastighet
 
-Anger OOXML-versionen för utdatadokumentet. Standardvärdet är Ecma376_2006.
+Anger OOXML-versionen för utdatadokumentet.
 
 ###  Anmärkningar
 

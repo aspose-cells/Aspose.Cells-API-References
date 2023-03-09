@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level propriété
 
-Représente le niveau de retrait de la cellule ou de la plage. Ne peut être qu'un nombre entier compris entre 0 et 250.
+Représente le niveau de retrait de la cellule ou de la plage.
 
 ###  Remarques
 

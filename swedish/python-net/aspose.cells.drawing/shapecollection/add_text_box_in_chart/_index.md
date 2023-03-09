@@ -22,7 +22,7 @@ def add_text_box_in_chart(self, top, left, height, width):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | top | int | Representerar den vertikala förskjutningen av textrutan från det övre vänstra hörnet i enheter på 1/4000 av kartytan.|
 | left | int | Representerar den vertikala förskjutningen av textrutan från det övre vänstra hörnet i enheter på 1/4000 av kartytan.|

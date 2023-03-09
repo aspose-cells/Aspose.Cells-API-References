@@ -1,5 +1,5 @@
 ﻿---
-title: PicFormatOption sınıf
+title: PicFormatOption sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 440
 url: /tr/python-net/aspose.cells.drawing/picformatoption/
 is_root: false
 ---
-##  PicFormatOption sınıf
+##  PicFormatOption sınıfı
 Resim formatı seçeneğini temsil eder
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: PlotArea sınıf
+title: PlotArea sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 220
 url: /tr/python-net/aspose.cells.charts/plotarea/
 is_root: false
 ---
-##  PlotArea sınıf
+##  PlotArea sınıfı
 Bir grafikte çizim alanını temsil eden nesneyi kapsüller.
 
 
@@ -28,13 +28,13 @@ PlotArea türü aşağıdaki üyeleri gösterir:
 | [text_font](/cells/tr/python-net/aspose.cells.charts/plotarea/text_font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
 | [text_options](/cells/tr/python-net/aspose.cells.charts/plotarea/text_options) | Metnin seçeneklerini alır ve ayarlar.|
 | [font](/cells/tr/python-net/aspose.cells.charts/plotarea/font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
-| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/plotarea/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur.|
+| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/plotarea/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.|
 | [background_mode](/cells/tr/python-net/aspose.cells.charts/plotarea/background_mode) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [background](/cells/tr/python-net/aspose.cells.charts/plotarea/background) | Arka planın görüntüleme modunu alır ve ayarlar|
-| [is_automatic_size](/cells/tr/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Çizim alanının otomatik boyutlandırılıp boyutlandırılmadığını gösterir.|
+| [is_automatic_size](/cells/tr/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Çizim alanının otomatik olarak boyutlandırılıp boyutlandırılmayacağını gösterir.|
 | [x](/cells/tr/python-net/aspose.cells.charts/plotarea/x) | Çizim alanı sınırlayıcı kutusunun sol üst köşesinin x koordinatını grafik alanının 1/4000'lik birimlerinde alır veya alır.|
 | [y](/cells/tr/python-net/aspose.cells.charts/plotarea/y) | Çizim alanı sınırlama kutusunun üst üst köşesinin y koordinatını grafik alanının 1/4000'lik birimlerinde alır veya alır.|
-| [height](/cells/tr/python-net/aspose.cells.charts/plotarea/height) | Grafik alanının 1/4000'lik birimlerinde çizim alanı sınırlama kutusunun yüksekliğini alır veya ayarlar.|
+| [height](/cells/tr/python-net/aspose.cells.charts/plotarea/height) |Grafik alanının 1/4000'lik birimlerinde çizim alanı sınırlama kutusunun yüksekliğini alır veya ayarlar.|
 | [width](/cells/tr/python-net/aspose.cells.charts/plotarea/width) | Grafik alanının 1/4000'lik birimlerinde çizim alanı sınırlama kutusunun genişliğini alır veya ayarlar.|
 | [shadow](/cells/tr/python-net/aspose.cells.charts/plotarea/shadow) | Çerçevede gölge varsa doğrudur.|
 | [shape_properties](/cells/tr/python-net/aspose.cells.charts/plotarea/shape_properties) | [ChartFrame.shape_properties](/cells/tr/python-net/aspose.cells.charts/chartframe#shape_properties) nesnesini alır.|

@@ -18,10 +18,10 @@ def __init__(self, worksheet, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | worksheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) | حدد جدول البيانات الذي سيتم عرضه.|
-| options | [ImageOrPrintOptions](/cells/ar/python-net/aspose.cells.rendering/imageorprintoptions) |يحتوي ImageOrPrintOptions على بعض خصائص صورة الإخراج|
+| options | [ImageOrPrintOptions](/cells/ar/python-net/aspose.cells.rendering/imageorprintoptions) | يحتوي ImageOrPrintOptions على بعض خصائص صورة الإخراج|
 
 
 

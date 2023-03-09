@@ -1,5 +1,5 @@
 ﻿---
-title: NoneBulletValue sınıf
+title: NoneBulletValue sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 60
 url: /tr/python-net/aspose.cells.drawing.texts/nonebulletvalue/
 is_root: false
 ---
-##  NoneBulletValue sınıf
+##  NoneBulletValue sınıfı
 Kurşun olmadığını temsil eder.
 
 

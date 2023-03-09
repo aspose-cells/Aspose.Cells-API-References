@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent proprietà
 
-Restituisce l'oggetto Worksheet che rappresenta il foglio che contiene lo slicer. Sola lettura.
+Restituisce l'oggetto Worksheet che rappresenta il foglio che contiene lo slicer.
 
-###  Esempio
+###  Esempi
 
 ```python
 

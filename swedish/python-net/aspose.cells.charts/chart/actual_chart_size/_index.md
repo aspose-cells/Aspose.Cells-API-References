@@ -13,7 +13,7 @@ Hämtar den faktiska storleken på diagrammet i pixelenhet.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
  använd metoden Chart.GetActualSize().
  Den här egenskapen kommer att tas bort 12 månader senare sedan juli 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

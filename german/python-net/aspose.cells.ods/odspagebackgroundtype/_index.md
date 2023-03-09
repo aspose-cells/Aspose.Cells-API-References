@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  OdsPageBackgroundType Aufzählung
-Repräsentiert den Seitenhintergrundtyp von ods.
+Repräsentiert den Seitenhintergrundtyp von Quoten.
 
 
 

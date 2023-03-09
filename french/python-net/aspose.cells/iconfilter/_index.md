@@ -17,7 +17,7 @@ Le type IconFilter expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [icon_set_type](/cells/fr/python-net/aspose.cells/iconfilter/icon_set_type) | Obtient et définit le jeu d'icônes utilisé dans les critères de filtre.|
+| [icon_set_type](/cells/fr/python-net/aspose.cells/iconfilter/icon_set_type) |Obtient et définit le jeu d'icônes utilisé dans les critères de filtre.|
 | [icon_id](/cells/fr/python-net/aspose.cells/iconfilter/icon_id) | Obtient et définit l'index de base zéro d'une icône dans un jeu d'icônes.|
 
 

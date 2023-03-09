@@ -22,10 +22,10 @@ def xml_map_query(self, path, xml_map):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | path | str | مسار عنصر xml|
-| xml_map | [XmlMap](/cells/ar/python-net/aspose.cells/xmlmap) | حدد خريطة xml إذا كنت تريد الاستعلام عن المسار المحدد داخل خريطة معينة|
+| xml_map | [XmlMap](/cells/ar/python-net/aspose.cells/xmlmap) |حدد خريطة xml إذا كنت تريد الاستعلام عن المسار المحدد داخل خريطة معينة|
 
 
 

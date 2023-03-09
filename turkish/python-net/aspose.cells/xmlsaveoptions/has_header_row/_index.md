@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_header_row mülk
 
-Aralığın başlık satırı içerip içermediğini gösterir.
+Aralığın bir başlık satırı içerip içermediğini gösterir.
 ###  Tanım:
 ```python
 @property

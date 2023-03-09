@@ -18,12 +18,12 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color& | Un color degradado.|
-| color2 | aspose.pydrawing.Color& | Dos degradados de color.|
+| color2 | aspose.pydrawing.Color& | Dos colores degradados.|
 | gradient_style_type | any | Estilo de sombreado degradado.|
-| variant | any |La variante degradada.|
+| variant | any | La variante degradada.|
 ###  Observaciones
 
 NOTA: Este método ahora está obsoleto.

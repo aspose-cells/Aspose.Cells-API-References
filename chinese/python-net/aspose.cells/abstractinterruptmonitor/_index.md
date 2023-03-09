@@ -1,13 +1,13 @@
 ﻿---
 title: AbstractInterruptMonitor类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
 url: /zh/python-net/aspose.cells/abstractinterruptmonitor/
 is_root: false
 ---
-##  AbstractInterruptMonitor类
+## AbstractInterruptMonitor类
 监控所有耗时操作中的中断请求。
 
 

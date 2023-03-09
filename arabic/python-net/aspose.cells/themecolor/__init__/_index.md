@@ -18,7 +18,7 @@ def __init__(self, type, tint):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/ar/python-net/aspose.cells/themecolortype) | نوع الموضوع.|
 | tint | float | قيمة الصبغة.|

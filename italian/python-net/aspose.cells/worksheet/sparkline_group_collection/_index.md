@@ -13,7 +13,7 @@ Ottiene la raccolta di gruppi sparkline nel foglio di lavoro.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Utilizzare invece la proprietà Worksheet.SparklineGroups.
+NOTA: questo membro è ora obsoleto, utilizzare invece la proprietà Worksheet.SparklineGroups.
  Questa proprietà verrà rimossa 12 mesi dopo da novembre 2022.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

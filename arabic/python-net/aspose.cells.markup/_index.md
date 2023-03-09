@@ -18,12 +18,12 @@ is_root: false
 | [SmartTagCollection](/cells/ar/python-net/aspose.cells.markup/smarttagcollection) | يمثل جميع العلامات الذكية في الخلية.|
 | [SmartTagOptions](/cells/ar/python-net/aspose.cells.markup/smarttagoptions) | يمثل خيارات العلامة الذكية.|
 | [SmartTagProperty](/cells/ar/python-net/aspose.cells.markup/smarttagproperty) | يمثل خاصية العلامة الذكية للخلية.|
-| [SmartTagPropertyCollection](/cells/ar/python-net/aspose.cells.markup/smarttagpropertycollection) | يمثل كافة خصائص العلامة الذكية للخلية.|
-| [SmartTagSetting](/cells/ar/python-net/aspose.cells.markup/smarttagsetting) | يمثل كل كائن [SmartTagCollection](/cells/ar/python-net/aspose.cells.markup/smarttagcollection) في ورقة العمل.|
+| [SmartTagPropertyCollection](/cells/ar/python-net/aspose.cells.markup/smarttagpropertycollection) |يمثل جميع خصائص العلامات الذكية للخلية.|
+| [SmartTagSetting](/cells/ar/python-net/aspose.cells.markup/smarttagsetting) | يمثل كل [SmartTagCollection](/cells/ar/python-net/aspose.cells.markup/smarttagcollection) كائنات بورقة العمل.|
 
 
 ###  التعداد
-| تعداد| وصف|
+|تعداد| وصف|
 | :- | :- |
 | [SmartTagShowType](/cells/ar/python-net/aspose.cells.markup/smarttagshowtype) | يمثل نوع العرض الخاص بالعلامة الذكية.|
 

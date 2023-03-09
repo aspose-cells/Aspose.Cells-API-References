@@ -22,7 +22,7 @@ def get_commands(self, header_footer_script):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | header_footer_script | str | Üstbilgi/altbilgi betiği|
 

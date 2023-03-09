@@ -22,7 +22,7 @@ def add_auto_shape_in_chart(self, type, top, left, height, width):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/it/python-net/aspose.cells.drawing/autoshapetype) | Tipo di forma automatica.|
 | top | int | Rappresenta l'offset verticale della casella di testo dall'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|

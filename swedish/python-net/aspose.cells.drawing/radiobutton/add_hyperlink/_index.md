@@ -22,7 +22,7 @@ def add_hyperlink(self, address):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | address | str | Adress till hyperlänken.|
 

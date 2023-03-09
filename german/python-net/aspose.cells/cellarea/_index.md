@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cellarea/
 is_root: false
 ---
 ##  CellArea Klasse
-Stellen Sie einen Bereich von Zellen dar.
+Repräsentieren einen Bereich von Zellen.
 
 
 
@@ -23,10 +23,10 @@ Der Typ CellArea macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [start_row](/cells/de/python-net/aspose.cells/cellarea/start_row) | Ruft die Startzeile dieses Bereichs ab oder legt sie fest.|
-| [end_row](/cells/de/python-net/aspose.cells/cellarea/end_row) | Ruft die Endzeile dieses Bereichs ab oder legt sie fest.|
-| [start_column](/cells/de/python-net/aspose.cells/cellarea/start_column) | Ruft die Startspalte dieses Bereichs ab oder legt sie fest.|
-| [end_column](/cells/de/python-net/aspose.cells/cellarea/end_column) | Ruft die Endspalte dieses Bereichs ab oder legt sie fest.|
+| [start_row](/cells/de/python-net/aspose.cells/cellarea/start_row) | Ruft die Startzeile dieses Bereichs ab oder legt diese fest.|
+| [end_row](/cells/de/python-net/aspose.cells/cellarea/end_row) | Ruft die Endzeile dieses Bereichs ab oder legt diese fest.|
+| [start_column](/cells/de/python-net/aspose.cells/cellarea/start_column) |Ruft die Startspalte dieses Bereichs ab oder legt diese fest.|
+| [end_column](/cells/de/python-net/aspose.cells/cellarea/end_column) | Ruft die Endspalte dieses Bereichs ab oder legt diese fest.|
 
 
 ###  Methoden
@@ -38,7 +38,7 @@ Der Typ CellArea macht die folgenden Member verfügbar:
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CellArea

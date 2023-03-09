@@ -12,7 +12,7 @@ is_root: false
 Stellt die Art und Weise dar, wie das Zeichnungsobjekt an die darunter liegenden Zellen angehängt ist.
 Die Eigenschaft steuert die placement eines Objekts auf einem Arbeitsblatt.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import PlacementType

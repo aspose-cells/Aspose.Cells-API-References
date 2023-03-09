@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting propiedad
 
-Obtiene o establece la opción de uso de memoria para estas celdas.
+Obtiene o establece la opción de uso de memoria para esta celda.
 ###  Definición:
 ```python
 @property

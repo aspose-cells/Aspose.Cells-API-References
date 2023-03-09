@@ -18,10 +18,10 @@ def __init__(self, worksheet, options):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | worksheet | [Worksheet](/cells/it/python-net/aspose.cells/worksheet) | Indica quale foglio di calcolo deve essere visualizzato.|
-| options | [ImageOrPrintOptions](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions) |ImageOrPrintOptions contiene alcune proprietà dell'immagine di output|
+| options | [ImageOrPrintOptions](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions contiene alcune proprietà dell'immagine di output|
 
 
 

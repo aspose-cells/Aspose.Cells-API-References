@@ -13,7 +13,7 @@ Analysiert die angegebene Zeichenfolge in das richtige Wertobjekt.
 
 ###  Kehrt zurück
 
-Geparstes Wertobjekt aus der angegebenen Zeichenfolge. Wenn die angegebene Zeichenfolge nicht in das richtige Wertobjekt geparst werden kann, wird null zurückgegeben.
+Geparstes Wertobjekt aus der angegebenen Zeichenfolge.
 
 
 ```python

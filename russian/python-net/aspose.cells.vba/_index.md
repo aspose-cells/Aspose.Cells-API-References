@@ -15,12 +15,12 @@ is_root: false
 | [VbaModule](/cells/ru/python-net/aspose.cells.vba/vbamodule) | Представляет модуль в проекте VBA.|
 | [VbaModuleCollection](/cells/ru/python-net/aspose.cells.vba/vbamodulecollection) | Представляет список [VbaModule](/cells/ru/python-net/aspose.cells.vba/vbamodule) |
 | [VbaProject](/cells/ru/python-net/aspose.cells.vba/vbaproject) | Представляет проект VBA.|
-| [VbaProjectReference](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference) | Представляет ссылку на проект VBA.|
-| [VbaProjectReferenceCollection](/cells/ru/python-net/aspose.cells.vba/vbaprojectreferencecollection) | Представляет все ссылки проекта VBA.|
+| [VbaProjectReference](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference) |Представляет ссылку на проект VBA.|
+| [VbaProjectReferenceCollection](/cells/ru/python-net/aspose.cells.vba/vbaprojectreferencecollection) | Представляет все ссылки на проекты VBA.|
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [VbaModuleType](/cells/ru/python-net/aspose.cells.vba/vbamoduletype) | Представляет тип модуля VBA.|
 | [VbaProjectReferenceType](/cells/ru/python-net/aspose.cells.vba/vbaprojectreferencetype) | Представляет тип ссылки на проект VBA.|

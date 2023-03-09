@@ -13,7 +13,7 @@ Yalnızca hücre yazı tipi uyumlu olmadığında karakter yazı tipinin değiş
 
 ###  Notlar
 
-Varsayılan yanlıştır. Önce hücre yazı tipi için Çalışma Kitabının varsayılan yazı tipini ve PdfSaveOption/system'i deneyeceğiz.
+Varsayılan değer yanlış.Önce hücre yazı tipi için Çalışma Kitabının varsayılan yazı tipini ve PdfSaveOption/system'i deneyeceğiz.
 ###  Tanım:
 ```python
 @property

@@ -18,13 +18,13 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| link_to_file | bool | Указывает, ссылается ли объект на файл. Если true, параметр objectData игнорируется.|
+| link_to_file | bool | Указывает, ссылается ли объект на файл.Если значение равно true, параметр objectData игнорируется.|
 | object_data | bytes | Данные встроенного объекта.|
 | source_file_name | str | Имя файла.|
 | display_as_icon | bool | Указывает, отображается ли объект в виде значка.<br/> Если true, исходные данные изображения будут закрыты значком.|
-| label | str | Метка значка. Работает, только если displayAsIcon имеет значение true.|
+| label | str | Метка значка. Работает, только если для displayAsIcon установлено значение true.|
 
 
 ##  set_embedded_object(link_to_file, object_data, source_file_name, display_as_icon, label, update_icon) {#bool-bytes-str-bool-str-bool}
@@ -38,13 +38,13 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
-| link_to_file | bool | Указывает, ссылается ли объект на файл. Если true, параметр objectData игнорируется.|
+| link_to_file | bool | Указывает, ссылается ли объект на файл.Если значение равно true, параметр objectData игнорируется.|
 | object_data | bytes | Данные встроенного объекта.|
 | source_file_name | str | Имя файла.|
 | display_as_icon | bool | Указывает, отображается ли объект в виде значка.<br/> Если true, исходные данные изображения будут закрыты значком.|
-| label | str | Метка значка. Работает, только если displayAsIcon имеет значение true.|
+| label | str | Метка значка. Работает, только если для displayAsIcon установлено значение true.|
 | update_icon | bool | Указывает, обновляется ли значок автоматически.|
 ###  Примечания
 

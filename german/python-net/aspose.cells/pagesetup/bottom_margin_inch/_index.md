@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin_inch Eigentum
 
-Stellt die Größe des unteren Rands in Zoll dar.
+Stellt die Größe des unteren Rands in Zolleinheiten dar.
 ###  Definition:
 ```python
 @property

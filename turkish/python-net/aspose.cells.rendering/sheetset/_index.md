@@ -1,5 +1,5 @@
 ﻿---
-title: SheetSet sınıf
+title: SheetSet sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 110
 url: /tr/python-net/aspose.cells.rendering/sheetset/
 is_root: false
 ---
-##  SheetSet sınıf
+##  SheetSet sınıfı
 Bir dizi yaprağı tanımlar.
 
 

@@ -13,7 +13,7 @@ Restituisce una raccolta [DocumentProperty](/cells/it/python-net/aspose.cells.pr
 
 ###  Osservazioni
 
-Non è possibile aggiungere una nuova proprietà all'elenco delle proprietà del documento integrato. Puoi solo ottenere una proprietà incorporata e modificarne il valore.
+Non è possibile aggiungere una nuova proprietà all'elenco delle proprietà del documento integrato.
 Di seguito è riportato l'elenco dei nomi delle proprietà integrate:
 
 Titolo
@@ -22,7 +22,7 @@ Titolo
 Soggetto
 
 
-Autore
+autore
 
 
 Parole chiave
@@ -73,7 +73,7 @@ Categoria
 Formato
 
 
-Manager
+manager
 
 
 Azienda
@@ -82,7 +82,7 @@ Azienda
 Numero di byte
 
 
-Numero di righe
+Numero di linee
 
 
 Numero di paragrafi

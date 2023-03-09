@@ -22,10 +22,10 @@ def add(self, row, column, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| row | int | Giriş hücresinin satır dizini.|
-| column | int | Giriş hücresinin sütun dizini.|
+| row | int | Giriş hücrelerinin satır dizini.|
+| column | int | Giriş hücrelerinin sütun dizini.|
 | value | str | Giriş hücresinin değeri.|
 
 

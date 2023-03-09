@@ -15,7 +15,7 @@ Obtient ou définit l'index de base 0 de la première page à enregistrer.
 
 La valeur par défaut est 0.
 
-###  Exemple
+###  Exemples
 
 L'exemple suivant montre comment rendre une plage de pages (3 et 4) dans un fichier Excel Microsoft en PDF.
 

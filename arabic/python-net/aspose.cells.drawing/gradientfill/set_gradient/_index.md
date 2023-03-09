@@ -18,11 +18,11 @@ def set_gradient(self, type, angle, direction):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [GradientFillType](/cells/ar/python-net/aspose.cells.drawing/gradientfilltype) | نوع تعبئة متدرجة.|
 | angle | float | الزاوية. ينطبق فقط على GradientFillType.Linear.|
-| direction | [GradientDirectionType](/cells/ar/python-net/aspose.cells.drawing/gradientdirectiontype) | نوع الاتجاه. ينطبق فقط على GradientFillType.Radial و GradientFillType.Rectangle.|
+| direction | [GradientDirectionType](/cells/ar/python-net/aspose.cells.drawing/gradientdirectiontype) |نوع الاتجاه. ينطبق فقط على GradientFillType.Radial و GradientFillType.Rectangle.|
 
 
 

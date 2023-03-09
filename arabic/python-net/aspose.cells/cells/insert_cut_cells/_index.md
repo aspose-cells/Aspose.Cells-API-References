@@ -18,7 +18,7 @@ def insert_cut_cells(self, cut_range, row, column, shift_type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | cut_range | [Range](/cells/ar/python-net/aspose.cells/range) | نطاق القطع.|
 | row | int | الصف.|

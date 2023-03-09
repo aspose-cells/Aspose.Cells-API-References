@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_inch fastighet
 
-Representerar storleken på den övre marginalen, i enhet av tum.
+Representerar storleken på den övre marginalen, i enheter av tum.
 ###  Definition:
 ```python
 @property

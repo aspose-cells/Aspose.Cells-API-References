@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 En este ejemplo, se intentará encontrar un archivo de licencia llamado MyLicense.lic
  en la carpeta que contiene

@@ -1,5 +1,5 @@
 ﻿---
-title: Trendline sınıf
+title: Trendline sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 330
 url: /tr/python-net/aspose.cells.charts/trendline/
 is_root: false
 ---
-##  Trendline sınıf
+##  Trendline sınıfı
 Grafikteki bir eğilim çizgisini temsil eder.
 
 
@@ -22,11 +22,11 @@ Trendline türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [compound_type](/cells/tr/python-net/aspose.cells.charts/trendline/compound_type) |Bileşik çizgi tipini belirtir|
+| [compound_type](/cells/tr/python-net/aspose.cells.charts/trendline/compound_type) | Bileşik çizgi tipini belirtir|
 | [dash_type](/cells/tr/python-net/aspose.cells.charts/trendline/dash_type) | Kısa çizgi tipini belirtir|
 | [cap_type](/cells/tr/python-net/aspose.cells.charts/trendline/cap_type) | Bitiş büyük harflerini belirtir.|
 | [join_type](/cells/tr/python-net/aspose.cells.charts/trendline/join_type) | Birleştirme büyük harflerini belirtir.|
-| [begin_type](/cells/tr/python-net/aspose.cells.charts/trendline/begin_type) | Bir satırın başlangıcı için bir ok başı belirtir.|
+| [begin_type](/cells/tr/python-net/aspose.cells.charts/trendline/begin_type) |Bir satırın başlangıcı için bir ok başı belirtir.|
 | [end_type](/cells/tr/python-net/aspose.cells.charts/trendline/end_type) | Bir satırın sonu için bir ok başı belirtir.|
 | [begin_arrow_length](/cells/tr/python-net/aspose.cells.charts/trendline/begin_arrow_length) | Bir satırın başlangıcı için ok ucunun uzunluğunu belirtir.|
 | [end_arrow_length](/cells/tr/python-net/aspose.cells.charts/trendline/end_arrow_length) | Bir satırın sonu için ok ucunun uzunluğunu belirtir.|
@@ -40,26 +40,26 @@ Trendline türü aşağıdaki üyeleri gösterir:
 | [weight_pt](/cells/tr/python-net/aspose.cells.charts/trendline/weight_pt) | Nokta birimi cinsinden çizginin ağırlığını alır veya ayarlar.|
 | [weight_px](/cells/tr/python-net/aspose.cells.charts/trendline/weight_px) | Çizginin ağırlığını piksel birimi cinsinden alır veya ayarlar.|
 | [formatting_type](/cells/tr/python-net/aspose.cells.charts/trendline/formatting_type) | Biçim türünü alır veya ayarlar.|
-| [is_automatic_color](/cells/tr/python-net/aspose.cells.charts/trendline/is_automatic_color) |Çizgi renginin otomatik olarak atanıp atanmadığını gösterir.|
+| [is_automatic_color](/cells/tr/python-net/aspose.cells.charts/trendline/is_automatic_color) | Çizgi renginin otomatik olarak atanıp atanmadığını gösterir.|
 | [is_visible](/cells/tr/python-net/aspose.cells.charts/trendline/is_visible) | Çizginin görünür olup olmadığını temsil eder.|
 | [is_auto](/cells/tr/python-net/aspose.cells.charts/trendline/is_auto) | Bu çizgi stilinin otomatik olarak atanıp atanmadığını gösterir.|
 | [gradient_fill](/cells/tr/python-net/aspose.cells.charts/trendline/gradient_fill) | Degrade dolguyu temsil eder.|
 | [is_name_auto](/cells/tr/python-net/aspose.cells.charts/trendline/is_name_auto) | Microsoft Excel trend çizgisinin adını otomatik olarak belirlerse döndürür.|
 | [type](/cells/tr/python-net/aspose.cells.charts/trendline/type) | Eğilim çizgisi türünü döndürür.|
 | [name](/cells/tr/python-net/aspose.cells.charts/trendline/name) | Eğilim çizgisinin adını döndürür.|
-| [order](/cells/tr/python-net/aspose.cells.charts/trendline/order) |Trend çizgisi türü Polynomial olduğunda trend çizgisi sırasını (1'den büyük bir tamsayı) döndürür veya ayarlar.<br/> Sipariş 2 ile 6 arasında olmalıdır.|
+| [order](/cells/tr/python-net/aspose.cells.charts/trendline/order) | Trend çizgisi türü Polynomial olduğunda trend çizgisi sırasını (1'den büyük bir tamsayı) döndürür veya ayarlar.<br/> Sipariş 2 ile 6 arasında olmalıdır.|
 | [period](/cells/tr/python-net/aspose.cells.charts/trendline/period) | Hareketli ortalama eğilim çizgisi için süreyi döndürür veya ayarlar.|
-| [forward](/cells/tr/python-net/aspose.cells.charts/trendline/forward) | Eğilim çizgisinin ileriye doğru uzandığı dönemlerin (veya bir dağılım grafiğindeki birimlerin) sayısını döndürür veya ayarlar.<br/>Nokta sayısı sıfırdan büyük veya sıfıra eşit olmalıdır.|
+| [forward](/cells/tr/python-net/aspose.cells.charts/trendline/forward) | Eğilim çizgisinin ileriye doğru uzandığı dönemlerin (veya bir dağılım grafiğindeki birimlerin) sayısını döndürür veya ayarlar.<br/> Nokta sayısı sıfırdan büyük veya sıfıra eşit olmalıdır.|
 | [backward](/cells/tr/python-net/aspose.cells.charts/trendline/backward) | Eğilim çizgisinin geriye doğru uzandığı dönemlerin (veya bir dağılım grafiğindeki birimlerin) sayısını döndürür veya ayarlar.<br/>Nokta sayısı sıfırdan büyük veya sıfıra eşit olmalıdır.<br/> Grafik türü sütun ise, nokta sayısı 0 ile 0,5 arasında olmalıdır.|
-| [display_equation](/cells/tr/python-net/aspose.cells.charts/trendline/display_equation) | Eğilim çizgisi denkleminin grafikte gösterilip gösterilmediğini temsil eder (R-kare değeriyle aynı veri etiketinde). Bu özelliği True olarak ayarlamak veri etiketlerini otomatik olarak açar.|
-| [display_r_squared](/cells/tr/python-net/aspose.cells.charts/trendline/display_r_squared) | Eğilim çizgisinin R-kare değerinin grafikte gösterilip gösterilmediğini temsil eder (denklemle aynı veri etiketinde). Bu özelliği True olarak ayarlamak veri etiketlerini otomatik olarak açar.|
+| [display_equation](/cells/tr/python-net/aspose.cells.charts/trendline/display_equation) |Eğilim çizgisi denkleminin grafikte gösterilip gösterilmediğini temsil eder (R-kare değeriyle aynı veri etiketinde).|
+| [display_r_squared](/cells/tr/python-net/aspose.cells.charts/trendline/display_r_squared) | Eğilim çizgisinin R-kare değerinin grafikte görüntülenip görüntülenmediğini temsil eder (denklemle aynı veri etiketinde).Bu özelliğin Doğru olarak ayarlanması, veri etiketlerini otomatik olarak açar.|
 | [intercept](/cells/tr/python-net/aspose.cells.charts/trendline/intercept) | Eğilim çizgisinin değer eksenini kestiği noktayı döndürür veya ayarlar.|
 | [data_labels](/cells/tr/python-net/aspose.cells.charts/trendline/data_labels) | Belirtilen seri için DataLabels nesnesini temsil eder.|
 | [legend_entry](/cells/tr/python-net/aspose.cells.charts/trendline/legend_entry) | Bu trend çizgisine göre gösterge girişini alır|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

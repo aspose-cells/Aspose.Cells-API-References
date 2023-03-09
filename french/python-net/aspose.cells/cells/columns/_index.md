@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  columns propriété
 
-Obtient la collection d'objets [Column](/cells/fr/python-net/aspose.cells/column) qui représente l'individu columns dans cette feuille de calcul.
+Obtient la collection d'objets [Column](/cells/fr/python-net/aspose.cells/column) qui représentent l'individu columns dans cette feuille de calcul.
 ###  Définition:
 ```python
 @property

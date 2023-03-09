@@ -13,7 +13,7 @@ Emf meta dosyasını işlemek için ayar.
 
 ###  Notlar
 
-"EMF+ Dual" olarak tanımlanan EMF meta dosyaları hem EMF+ kaydını hem de EMF kaydını içerebilir.
+ "EMF+ Dual" olarak tanımlanan EMF meta dosyaları hem EMF+ kaydını hem de EMF kaydını içerebilir.
 Görüntüyü işlemek için her iki kayıt türü de kullanılabilir, yalnızca EMF+ kayıt veya yalnızca EMF kayıt.
 [EmfRenderSetting.EMF_PLUS_PREFER](/cells/tr/python-net/aspose.cells/emfrendersetting#EMF_PLUS_PREFER) ayarlandığında, EMF+ kayıtları pdf'ye dönüştürülürken ayrıştırılır, aksi takdirde sadece EMF kaydı ayrıştırılır.
 Varsayılan değer [EmfRenderSetting.EMF_ONLY](/cells/tr/python-net/aspose.cells/emfrendersetting#EMF_ONLY)'dir.

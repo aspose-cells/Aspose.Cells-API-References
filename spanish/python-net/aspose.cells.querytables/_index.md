@@ -13,12 +13,12 @@ is_root: false
 | Clase| Descripción|
 | :- | :- |
 | [DataMashup](/cells/es/python-net/aspose.cells.querytables/datamashup) | Representa datos de mashup.|
-| [PowerQueryFormula](/cells/es/python-net/aspose.cells.querytables/powerqueryformula) | Representa la definición de la fórmula de consulta de poder.|
+| [PowerQueryFormula](/cells/es/python-net/aspose.cells.querytables/powerqueryformula) | Representa la definición de la fórmula de consulta de energía.|
 | [PowerQueryFormulaCollection](/cells/es/python-net/aspose.cells.querytables/powerqueryformulacollection) | Representa todas las fórmulas de consulta de energía en los datos del mashup.|
 | [PowerQueryFormulaFunction](/cells/es/python-net/aspose.cells.querytables/powerqueryformulafunction) | Representa la función de consulta de energía.|
 | [PowerQueryFormulaItem](/cells/es/python-net/aspose.cells.querytables/powerqueryformulaitem) | Representa el elemento de la fórmula de consulta de poder.|
-| [PowerQueryFormulaItemCollection](/cells/es/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) |Representa todos los elementos de la fórmula de consulta de poder.|
+| [PowerQueryFormulaItemCollection](/cells/es/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) | Representa todos los elementos de la fórmula de consulta de potencia.|
 | [PowerQueryFormulaParameter](/cells/es/python-net/aspose.cells.querytables/powerqueryformulaparameter) | Representa el parámetro de la fórmula de consulta de potencia.|
-| [PowerQueryFormulaParameterCollection](/cells/es/python-net/aspose.cells.querytables/powerqueryformulaparametercollection) | Representa el|
+| [PowerQueryFormulaParameterCollection](/cells/es/python-net/aspose.cells.querytables/powerqueryformulaparametercollection) |Representa el|
 
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hyperlinks propiedad
 
-Obtiene todos los hipervínculos del rango.
+Obtiene todos los hipervínculos del intervalo.
 ###  Definición:
 ```python
 @property

@@ -22,7 +22,7 @@ Il tipo MarkdownSaveOptions espone i membri seguenti:
 ###  Costruttori
 | Costruttore| Descrizione|
 | :- | :- |
-| [MarkdownSaveOptions()](/cells/it/python-net/aspose.cells/markdownsaveoptions/__init__/#) | Crea opzioni per il salvataggio del documento markdown|
+| [MarkdownSaveOptions()](/cells/it/python-net/aspose.cells/markdownsaveoptions/__init__/#) | Crea opzioni per il salvataggio di documenti markdown|
 
 
 ###  Proprietà
@@ -35,13 +35,13 @@ Il tipo MarkdownSaveOptions espone i membri seguenti:
 | [merge_areas](/cells/it/python-net/aspose.cells/markdownsaveoptions/merge_areas) | Indica se unire le aree di formattazione condizionale e convalida prima di salvare il file.|
 | [create_directory](/cells/it/python-net/aspose.cells/markdownsaveoptions/create_directory) | Se true e la directory non esiste, la directory verrà creata automaticamente prima di salvare il file.|
 | [sort_names](/cells/it/python-net/aspose.cells/markdownsaveoptions/sort_names) | Indica se ordinare i nomi definiti prima di salvare il file.|
-| [sort_external_names](/cells/it/python-net/aspose.cells/markdownsaveoptions/sort_external_names) | Indica se ordinare i nomi definiti esterni prima di salvare il file.|
-| [refresh_chart_cache](/cells/it/python-net/aspose.cells/markdownsaveoptions/refresh_chart_cache) |Indica se aggiornare i dati della cache del grafico|
-| [warning_callback](/cells/it/python-net/aspose.cells/markdownsaveoptions/warning_callback) | Ottiene o imposta la richiamata di avviso.|
+| [sort_external_names](/cells/it/python-net/aspose.cells/markdownsaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esternamente prima di salvare il file.|
+| [refresh_chart_cache](/cells/it/python-net/aspose.cells/markdownsaveoptions/refresh_chart_cache) | Indica se aggiornare i dati della cache del grafico|
+| [warning_callback](/cells/it/python-net/aspose.cells/markdownsaveoptions/warning_callback) | Ottiene o imposta callback di avviso.|
 | [update_smart_art](/cells/it/python-net/aspose.cells/markdownsaveoptions/update_smart_art) | Indica se aggiornare l'impostazione della grafica intelligente.<br/> Il valore predefinito è falso.|
 | [encoding](/cells/it/python-net/aspose.cells/markdownsaveoptions/encoding) | Ottiene e imposta la codifica predefinita.|
-| [format_strategy](/cells/it/python-net/aspose.cells/markdownsaveoptions/format_strategy) |Ottiene e imposta la strategia di formato durante l'esportazione del valore della cella come stringa.|
-| [light_cells_data_provider](/cells/it/python-net/aspose.cells/markdownsaveoptions/light_cells_data_provider) | Il provider di dati per fornire i dati delle celle per il salvataggio della cartella di lavoro in modalità light.|
+| [format_strategy](/cells/it/python-net/aspose.cells/markdownsaveoptions/format_strategy) | Ottiene e imposta la strategia di formato durante l'esportazione del valore della cella come stringa.|
+| [light_cells_data_provider](/cells/it/python-net/aspose.cells/markdownsaveoptions/light_cells_data_provider) | Il provider di dati per fornire i dati delle celle per il salvataggio delle cartelle di lavoro in modalità ridotta.|
 | [line_separator](/cells/it/python-net/aspose.cells/markdownsaveoptions/line_separator) | Ottiene e imposta il separatore di riga.|
 
 

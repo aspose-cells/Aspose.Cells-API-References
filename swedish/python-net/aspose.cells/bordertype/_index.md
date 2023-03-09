@@ -19,12 +19,12 @@ Typen BorderType avslöjar följande medlemmar:
 | :- | :- |
 | BOTTOM_BORDER | Representerar den nedre gränslinjen.|
 | DIAGONAL_DOWN | Representerar den diagonala linjen från övre vänster till höger nere.|
-| DIAGONAL_UP |Representerar den diagonala linjen från nedre vänster till höger upptill.|
+| DIAGONAL_UP | Representerar den diagonala linjen från nedre vänster till höger upptill.|
 | LEFT_BORDER | Representerar vänster gränslinje.|
-| RIGHT_BORDER | Representerar höger gränslinje finns.|
+| RIGHT_BORDER |Representerar höger gränslinje finns.|
 | TOP_BORDER | Representerar övre kantlinjen.|
-| HORIZONTAL | Endast för dynamisk stil, som villkorlig formatering.|
-| VERTICAL | Endast för dynamisk stil, som villkorlig formatering.|
+| HORIZONTAL | Endast för dynamisk stil, till exempel villkorlig formatering.|
+| VERTICAL | Endast för dynamisk stil, till exempel villkorlig formatering.|
 
 
 

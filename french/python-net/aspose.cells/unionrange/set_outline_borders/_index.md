@@ -18,7 +18,7 @@ def set_outline_borders(self, border_styles, border_colors):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | border_styles | list | Styles de bordure.|
 | border_colors | aspose.pydrawing.Color[] | Couleurs de bordure.|
@@ -28,7 +28,7 @@ La longueur de borderStyles et borderStyles doit être de 4.
 L'ordre de borderStyles et borderStyles doit être haut, bas, gauche, droite
 
 ##  set_outline_borders(border_style, border_color) {#CellBorderType-aspose.pydrawing.Color}
-Définit les bordures de contour autour d'une plage de cellules avec le même style et la même couleur de bordure.
+Définit les bordures du contour autour d'une plage de cellules avec le même style et la même couleur de bordure.
 
 
 
@@ -38,7 +38,7 @@ def set_outline_borders(self, border_style, border_color):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | border_style | [CellBorderType](/cells/fr/python-net/aspose.cells/cellbordertype) | Style de bordure.|
 | border_color | aspose.pydrawing.Color | Couleur de la bordure.|

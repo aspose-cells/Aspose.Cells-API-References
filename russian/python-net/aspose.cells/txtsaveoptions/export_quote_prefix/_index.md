@@ -10,7 +10,7 @@ is_root: false
 ##  export_quote_prefix недвижимость
 
 Указывает, следует ли экспортировать одинарную кавычку как часть значения одной ячейки.
-когда для него верно [Style.quote_prefix](/cells/ru/python-net/aspose.cells/style#quote_prefix). Значение по умолчанию — ложь.
+когда для него истинно [Style.quote_prefix](/cells/ru/python-net/aspose.cells/style#quote_prefix). По умолчанию ложно.
 ###  Определение:
 ```python
 @property

@@ -18,7 +18,7 @@ VbaModuleType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | PROCEDURAL | Prosedürel bir modülü temsil eder.|
-| DOCUMENT |Bir belge modülünü temsil eder.|
+| DOCUMENT | Bir belge modülünü temsil eder.|
 | CLASS | Bir sınıf modülünü temsil eder.|
 | DESIGNER | Bir tasarımcı modülünü temsil eder.|
 

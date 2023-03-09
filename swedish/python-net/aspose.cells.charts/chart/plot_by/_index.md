@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by fastighet
 
-Hämtar och ställer in om plottning efter rad eller kolumn.
+Hämtar och ställer in om det ska plottas efter rad eller kolumn.
 ###  Definition:
 ```python
 @property

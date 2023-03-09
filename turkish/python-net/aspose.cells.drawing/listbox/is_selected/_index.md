@@ -22,7 +22,7 @@ def is_selected(self, item_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | item_index | int | Öğe dizini.|
 

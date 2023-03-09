@@ -7,7 +7,7 @@ weight: 10
 url: /es/python-net/aspose.cells.settings/
 is_root: false
 ---
- El**Aspose.Cells.Settings** El espacio de nombres contiene clases que definen configuraciones para diferentes características.
+ El**Aspose.Cells.Settings** El espacio de nombres contiene clases que definen configuraciones para diferentes funciones.
 
 ###  Clases
 | Clase| Descripción|

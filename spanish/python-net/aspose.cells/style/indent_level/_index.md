@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level propiedad
 
-Representa el nivel de sangría de la celda o rango. Solo puede ser un número entero de 0 a 250.
+Representa el nivel de sangría de la celda o rango.
 
 ###  Observaciones
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display Eigentum
 
-Stellt den Text dar, der für den angegebenen Hyperlink angezeigt werden soll. Der Standardwert ist die Adresse des Hyperlinks.
+Stellt den Text dar, der für den angegebenen Hyperlink angezeigt werden soll.
 ###  Definition:
 ```python
 @property

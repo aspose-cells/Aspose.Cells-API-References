@@ -1,13 +1,13 @@
 ﻿---
 title: PresetMaterialType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1070
 url: /zh/python-net/aspose.cells.drawing/presetmaterialtype/
 is_root: false
 ---
-##  PresetMaterialType枚举
+## PresetMaterialType枚举
 描述形状的表面外观。
 
 
@@ -31,7 +31,7 @@ PresetMaterialType 类型公开了以下成员：
 | SOFT_EDGE |软边|
 | SOFT_METAL |软金属|
 | TRANSLUCENT_POWDER |透光粉|
-| WARM_MATTE |暖哑光|
+| WARM_MATTE |温暖的哑光|
 
 
 

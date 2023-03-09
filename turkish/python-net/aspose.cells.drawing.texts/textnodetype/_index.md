@@ -18,7 +18,7 @@ TextNodeType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | TEXT_RUN | Metin düğümünü temsil eder.|
-| TEXT_PARAGRAPH |Metin paragrafını temsil eder.|
+| TEXT_PARAGRAPH | Metin paragrafını temsil eder.|
 | EQUATION | Denklem metnini temsil eder.|
 
 

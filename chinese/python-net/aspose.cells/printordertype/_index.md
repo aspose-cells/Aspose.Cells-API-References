@@ -1,13 +1,13 @@
 ﻿---
 title: PrintOrderType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2390
 url: /zh/python-net/aspose.cells/printordertype/
 is_root: false
 ---
-##  PrintOrderType枚举
+## PrintOrderType枚举
 表示打印命令常量。
 
 

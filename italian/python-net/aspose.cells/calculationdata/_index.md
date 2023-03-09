@@ -21,8 +21,8 @@ Il tipo CalculationData espone i membri seguenti:
 | [workbook](/cells/it/python-net/aspose.cells/calculationdata/workbook) | Ottiene l'oggetto Workbook in cui si trova la funzione.|
 | [worksheet](/cells/it/python-net/aspose.cells/calculationdata/worksheet) | Ottiene l'oggetto Worksheet in cui si trova la funzione.|
 | [cell_row](/cells/it/python-net/aspose.cells/calculationdata/cell_row) | Ottiene l'indice di riga della cella in cui si trova la funzione.|
-| [cell_column](/cells/it/python-net/aspose.cells/calculationdata/cell_column) |Ottiene l'indice di colonna della cella in cui si trova la funzione.|
-| [cell](/cells/it/python-net/aspose.cells/calculationdata/cell) | Ottiene l'oggetto Cell in cui si trova la funzione.|
+| [cell_column](/cells/it/python-net/aspose.cells/calculationdata/cell_column) | Ottiene l'indice di colonna della cella in cui si trova la funzione.|
+| [cell](/cells/it/python-net/aspose.cells/calculationdata/cell) |Ottiene l'oggetto Cell in cui si trova la funzione.|
 | [function_name](/cells/it/python-net/aspose.cells/calculationdata/function_name) | Ottiene il nome della funzione da calcolare.|
 | [param_count](/cells/it/python-net/aspose.cells/calculationdata/param_count) | Ottiene il conteggio dei parametri|
 

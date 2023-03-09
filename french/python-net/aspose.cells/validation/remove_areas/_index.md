@@ -18,7 +18,7 @@ def remove_areas(self, areas):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | areas | list | les zones où ces paramètres de validation doivent être supprimés.|
 

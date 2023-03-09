@@ -18,10 +18,10 @@ def remove_field(self, field_type, field_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldtype) | Alanlar alan tipi.|
-| field_name | str |Temel alanlardaki ad.|
+| field_name | str | Temel alanlardaki ad.|
 
 
 ##  remove_field(field_type, base_field_index) {#PivotFieldType-int}
@@ -35,7 +35,7 @@ def remove_field(self, field_type, base_field_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldtype) | Alanlar alan tipi.|
 | base_field_index | int | Temel alanlardaki alan dizini.|
@@ -52,7 +52,7 @@ def remove_field(self, field_type, pivot_field):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldtype) | alanlar alan türü.|
 | pivot_field | [PivotField](/cells/tr/python-net/aspose.cells.pivot/pivotfield) | temel alanlardaki alan.|

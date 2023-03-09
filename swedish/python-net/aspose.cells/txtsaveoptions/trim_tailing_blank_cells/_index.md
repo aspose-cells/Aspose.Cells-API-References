@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells fastighet
 
-Indikerar om tomma tomma celler i en rad ska trimmas. Standard är falskt.
+Indikerar om tailing tomma celler i en rad ska trimmas. Standard är falskt.
 
 ###  Anmärkningar
 

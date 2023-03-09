@@ -13,7 +13,7 @@ Bağlantı noktalarını alın
 
 ###  İadeler
 
-[X,Y] bağlantı noktası çiftleri. Her öğe bir float[2] dizisidir, [0] x'i temsil eder ve [1] y'yi temsil eder.
+Bağlantı noktasının [X,Y] çiftleri.Her öğe bir kayan nokta[2] dizisidir, [0] x'i ve [1] y'yi temsil eder.
 
 
 ```python
@@ -23,7 +23,7 @@ def get_connection_points(self):
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 

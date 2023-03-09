@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [SqlScriptOperatorType](/cells/ru/python-net/aspose.cells.saving/sqlscriptoperatortype) | Представляет тип рабочих данных.|
 

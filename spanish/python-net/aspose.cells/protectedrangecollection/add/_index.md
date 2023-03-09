@@ -22,9 +22,9 @@ def add(self, name, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| name | str | Título de rango. Esto se usa como un descriptor, no como una definición de rango con nombre.|
+| name | str | Título del rango: se usa como un descriptor, no como una definición de rango con nombre.|
 | start_row | int | Índice de fila de inicio del rango.|
 | start_column | int | Índice de columna de inicio del rango.|
 | end_row | int | Índice de fila final del rango.|

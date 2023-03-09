@@ -18,11 +18,11 @@ def copy_column(self, source_cells, source_column_index, destination_column_inde
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_column_index | int | Kaynak sütun dizini.|
-| destination_column_index | int |Hedef sütun dizini.|
+| destination_column_index | int | Hedef sütun dizini.|
 
 
 

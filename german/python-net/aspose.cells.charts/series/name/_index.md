@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die name der Datenreihe ab oder legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

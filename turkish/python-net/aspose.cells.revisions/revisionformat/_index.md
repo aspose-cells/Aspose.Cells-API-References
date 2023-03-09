@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionFormat sınıf
+title: RevisionFormat sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 90
 url: /tr/python-net/aspose.cells.revisions/revisionformat/
 is_root: false
 ---
-##  RevisionFormat sınıf
+##  RevisionFormat sınıfı
 Biçimlendirme değişikliği hakkındaki bilgilerin gözden geçirme kaydını temsil eder.
 
 

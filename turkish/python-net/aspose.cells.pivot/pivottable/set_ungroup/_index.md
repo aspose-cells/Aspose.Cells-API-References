@@ -18,7 +18,7 @@ def set_ungroup(self, base_field_index):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | base_field_index | int | Temel alanlardaki satır veya sütun alanı dizini|
 
@@ -34,7 +34,7 @@ def set_ungroup(self, pivot_field):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/tr/python-net/aspose.cells.pivot/pivotfield) | Temel alanlardaki satır veya sütun alanı|
 

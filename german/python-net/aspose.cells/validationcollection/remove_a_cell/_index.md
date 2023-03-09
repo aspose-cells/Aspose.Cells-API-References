@@ -20,7 +20,7 @@ def remove_a_cell(self, row, column):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| row | int |Der Zeilenindex der Zelle.|
+| row | int | Der Zeilenindex der Zelle.|
 | column | int | Der Spaltenindex der Zelle.|
 
 

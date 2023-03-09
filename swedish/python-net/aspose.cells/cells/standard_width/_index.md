@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width fastighet
 
-Hämtar eller ställer in standardkolumnbredden i kalkylbladet, i teckenenhet.
+Hämtar eller ställer in standardkolumnbredden i kalkylbladet, i teckenenheter.
 ###  Definition:
 ```python
 @property

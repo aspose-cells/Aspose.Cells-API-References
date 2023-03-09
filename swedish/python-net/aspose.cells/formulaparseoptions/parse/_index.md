@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  parse fastighet
 
-Om parse given formel. Standard är sant.
+Om parse ges formel. Standard är sant.
 Om det är falskt kommer den givna formelsträngen att behållas som den är för cellen tills användaren anropar andra metoder för att parse dem
 eller tolkade formeldata krävs för andra operationer som beräkning av formler.
 ###  Definition:

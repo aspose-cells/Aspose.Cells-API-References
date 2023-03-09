@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die Breite des angegebenen Slicers in Pixel zurück oder legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

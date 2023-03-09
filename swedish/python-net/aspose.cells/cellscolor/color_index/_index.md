@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index fastighet
 
-Hämtar och ställer in färgindex i färgpaletten. Gäller endast indexerad färg.
+Hämtar och ställer in färgindex i färgpaletten.
 ###  Definition:
 ```python
 @property

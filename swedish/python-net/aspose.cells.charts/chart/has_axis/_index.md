@@ -18,13 +18,13 @@ def has_axis(self, aixs_type, is_primary):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | aixs_type | [AxisType](/cells/sv/python-net/aspose.cells.charts/axistype) |  |
 | is_primary | bool |  |
 ###  Anmärkningar
 
-Normalt är Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded ingen axel.
+Normalt är Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DonutExploded ingen axel.
 
 
 ###  Se även

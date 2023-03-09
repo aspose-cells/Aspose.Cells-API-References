@@ -31,7 +31,7 @@ def __init__(self, load_format):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/es/python-net/aspose.cells/loadformat) | El formato de carga.|
 

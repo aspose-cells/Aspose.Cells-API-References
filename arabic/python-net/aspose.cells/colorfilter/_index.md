@@ -17,7 +17,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [filter_by_fill_color](/cells/ar/python-net/aspose.cells/colorfilter/filter_by_fill_color) |علامة تشير إلى ما إذا كان التصفية حسب لون تعبئة الخلية.|
+| [filter_by_fill_color](/cells/ar/python-net/aspose.cells/colorfilter/filter_by_fill_color) | علامة تشير إلى ما إذا كان التصفية حسب لون تعبئة الخلية.|
 
 
 ###  طُرق

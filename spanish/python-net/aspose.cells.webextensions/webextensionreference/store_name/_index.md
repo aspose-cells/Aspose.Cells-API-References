@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  store_name propiedad
 
-Obtiene y establece la instancia del mercado donde se almacena el complemento de Office. .
+Obtiene y establece la instancia del mercado donde se almacena el complemento de Office.
 ###  Definición:
 ```python
 @property

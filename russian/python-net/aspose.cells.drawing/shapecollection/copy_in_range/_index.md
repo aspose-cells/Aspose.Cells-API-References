@@ -18,7 +18,7 @@ def copy_in_range(self, source_shapes, ca, dest_row, dest_column, is_contained):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_shapes | [ShapeCollection](/cells/ru/python-net/aspose.cells.drawing/shapecollection) | Исходные формы.|
 | ca | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Исходный диапазон.|
@@ -26,7 +26,7 @@ def copy_in_range(self, source_shapes, ca, dest_row, dest_column, is_contained):
 | dest_column | int | Столбец назначения диапазона назначения.|
 | is_contained | bool | Копировать ли только те фигуры, которые содержатся в диапазоне.<br/> Если true, копируются только фигуры в диапазоне.<br/> В противном случае он работает как MS Office.|
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import CellArea

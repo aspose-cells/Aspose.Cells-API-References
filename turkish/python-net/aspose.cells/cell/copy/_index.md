@@ -18,7 +18,7 @@ def copy(self, cell):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Kaynak [Cell](/cells/tr/python-net/aspose.cells/cell) nesnesi.|
 

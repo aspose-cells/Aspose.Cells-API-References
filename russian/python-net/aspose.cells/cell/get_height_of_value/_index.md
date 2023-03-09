@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cell/get_height_of_value/
 is_root: false
 ---
 ##  get_height_of_value() {#}
-Получает высоту значения в единицах пикселей.
+Получает высоту значения в пикселях.
 
 
 ###  Возвращает

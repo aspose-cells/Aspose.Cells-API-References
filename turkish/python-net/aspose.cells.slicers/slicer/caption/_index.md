@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen dilimleyicinin caption'ini döndürür veya ayarlar.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width mülk
 
-Çalışma sayfasındaki varsayılan sütun genişliğini karakter birimi cinsinden alır veya ayarlar.
+Çalışma sayfasındaki varsayılan sütun genişliğini karakter birimleri cinsinden alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

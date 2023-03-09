@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count الملكية
 
-يحصل على count من السجلات. -1 لسجلات غير معروفة count.
+يحصل على count من السجلات. -1 للسجلات غير المعروفة count.
 ###  تعريف:
 ```python
 @property

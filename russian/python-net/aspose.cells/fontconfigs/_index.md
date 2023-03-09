@@ -24,17 +24,17 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [default_font_name](/cells/ru/python-net/aspose.cells/fontconfigs/default_font_name) | Получает или задает имя шрифта по умолчанию.|
-| [prefer_system_font_substitutes](/cells/ru/python-net/aspose.cells/fontconfigs/prefer_system_font_substitutes) | Укажите, следует ли сначала использовать заменители системного шрифта, если шрифт не представлен и замена этого шрифта не задана.<br/>Например, в Ubuntu шрифт «Arial» обычно заменяется на «Liberation Sans».<br/> Значение по умолчанию — ложь.|
+| [prefer_system_font_substitutes](/cells/ru/python-net/aspose.cells/fontconfigs/prefer_system_font_substitutes) |Укажите, следует ли сначала использовать заменители системного шрифта, если шрифт не представлен и замена этого шрифта не задана.<br/>Например, в Ubuntu шрифт «Arial» обычно заменяется на «Liberation Sans».<br/> Значение по умолчанию — ложь.|
 
 
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/ru/python-net/aspose.cells/fontconfigs/set_font_substitutes/#str-list) | Имена шрифтов, заменяющие заданное исходное имя шрифта.|
+| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/ru/python-net/aspose.cells/fontconfigs/set_font_substitutes/#str-list) | Имена шрифтов, заменяющие заданные оригинальные имена шрифтов.|
 | [get_font_substitutes(original_font_name)](/cells/ru/python-net/aspose.cells/fontconfigs/get_font_substitutes/#str) | Возвращает массив, содержащий имена заменителей шрифтов, которые будут использоваться, если исходный шрифт не представлен.|
 | [set_font_folder(font_folder, recursive)](/cells/ru/python-net/aspose.cells/fontconfigs/set_font_folder/#str-bool) | Устанавливает папку шрифтов|
 | [set_font_folders(font_folders, recursive)](/cells/ru/python-net/aspose.cells/fontconfigs/set_font_folders/#list-bool) | Устанавливает папки шрифтов|
-| [set_font_sources(sources)](/cells/ru/python-net/aspose.cells/fontconfigs/set_font_sources/#list) | Устанавливает источники шрифтов.|
+| [set_font_sources(sources)](/cells/ru/python-net/aspose.cells/fontconfigs/set_font_sources/#list) | Устанавливает источники шрифта.|
 | [get_font_sources()](/cells/ru/python-net/aspose.cells/fontconfigs/get_font_sources/#) | Получает копию массива, содержащего список источников|
 
 

@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | formatet som ska användas som standardformat för celler i den här kolumnen.|
 ###  Anmärkningar

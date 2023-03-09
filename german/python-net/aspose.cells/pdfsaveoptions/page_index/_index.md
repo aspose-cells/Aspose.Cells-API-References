@@ -15,7 +15,7 @@ Ruft den 0-basierten Index der ersten zu speichernden Seite ab oder legt diesen 
 
 Standard ist 0.
 
-###  Beispiel
+###  Beispiele
 
 Das folgende Beispiel zeigt, wie ein Seitenbereich (3 und 4) in einer Microsoft-Excel-Datei in PDF gerendert wird.
 

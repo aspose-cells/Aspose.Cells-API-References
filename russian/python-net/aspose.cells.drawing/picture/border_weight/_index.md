@@ -11,7 +11,7 @@ is_root: false
 
 Получает или задает вес линии границы изображения в единицах pt.
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

@@ -36,7 +36,7 @@ def add_row_area_condition(self, row_field):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| row_field | [PivotField](/cells/de/python-net/aspose.cells.pivot/pivotfield) | Das PivotField in den Zeilenfeldern.|
+| row_field | [PivotField](/cells/de/python-net/aspose.cells.pivot/pivotfield) |Das PivotField in den Zeilenfeldern.|
 
 
 

@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  y Eigentum
 
-Ruft den vertikalen Versatz der Form vom oberen Rand des Arbeitsblatts in Pixeln ab und legt ihn fest.
+Ruft den vertikalen Versatz der Form vom oberen Rand des Arbeitsblatts in Pixeleinheiten ab und legt diesen fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

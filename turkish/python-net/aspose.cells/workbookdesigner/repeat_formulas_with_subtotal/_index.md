@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal mülk
 
-Ara toplam satırı ile formüllerin tekrarlanıp tekrarlanmadığını gösterir.
+Ara toplam satırları ile yinelenen formülleri gösterir.
 ###  Tanım:
 ```python
 @property

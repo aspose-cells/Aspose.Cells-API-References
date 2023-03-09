@@ -24,7 +24,7 @@ def extension_to_save_format(self, extension):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| extension | str | Die Dateierweiterung. Kann mit oder ohne führenden Punkt sein. Groß- und Kleinschreibung beachten.|
+| extension | str | Die Dateierweiterung. Kann mit oder ohne führenden Punkt sein.|
 ###  Bemerkungen
 
 Wenn die Erweiterung nicht erkannt werden kann, wird [SaveFormat.UNKNOWN](/cells/de/python-net/aspose.cells/saveformat#UNKNOWN) zurückgegeben.

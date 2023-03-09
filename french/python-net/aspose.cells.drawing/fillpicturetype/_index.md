@@ -19,7 +19,7 @@ Le type FillPictureType expose les membres suivants :
 | :- | :- |
 | STRETCH | Extensible|
 | STACK | Empiler|
-| STACK_AND_SCALE | PileEtEchelle|
+| STACK_AND_SCALE | Empiler et mettre à l'échelle|
 
 
 

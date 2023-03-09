@@ -13,7 +13,7 @@ Indique si les fichiers Ooxml d'OleObject sont incorporés en tant qu'objet ole.
 
 ###  Remarques
 
-Uniquement pour OleObject.
+Uniquement pour les objets Ole.
 ###  Définition:
 ```python
 @property

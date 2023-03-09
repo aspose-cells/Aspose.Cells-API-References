@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_text_qualifier Eigentum
 
-Ob es einen Textqualifizierer für den Zellenwert gibt. Standard ist wahr.
+Gibt an, ob ein Textqualifizierer für den Zellenwert vorhanden ist. Der Standardwert ist „true“.
 ###  Definition:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/xlssaveoptions/__init__/
 is_root: false
 ---
 ##  XlsSaveOptions() {#}
-Skapar alternativ för att spara Excel 97-2003 xls/xlt-fil.
+Skapar alternativ för att spara Excel 97-2003 xls/xlt-filer.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  XlsSaveOptions(format) {#SaveFormat}
-Skapar alternativ för att spara Excel 97-2003 xls/xlt-fil.
+Skapar alternativ för att spara Excel 97-2003 xls/xlt-filer.
 
 
 
@@ -31,9 +31,9 @@ def __init__(self, format):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
-| format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) |Filformatet. Det måste vara xls/xlt.|
+| format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Filformatet. Det måste vara xls/xlt.|
 
 
 

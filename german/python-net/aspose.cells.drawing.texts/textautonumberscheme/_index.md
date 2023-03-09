@@ -25,7 +25,7 @@ Der Typ TextAutonumberScheme macht die folgenden Member verfügbar:
 | ALPHA_UC_PAREN_R | A), B), C), …|
 | ALPHA_UC_PERIOD | A., B., C., …|
 | ARABIC_1_MINUS | Bidi Arabic 1 (AraAlpha) mit ANSI-Minuszeichen|
-| ARABIC_2_MINUS | Bidi Arabic 2 (AraAbjad) mit ANSI-Minuszeichen|
+| ARABIC_2_MINUS |Bidi Arabic 2 (AraAbjad) mit ANSI-Minuszeichen|
 | ARABIC_DB_PERIOD | Arabische Dbl-Byte-Zahlen mit Doppelbyte-Punkt|
 | ARABIC_DB_PLAIN | Arabische Dbl-Byte-Zahlen|
 | ARABIC_PAREN_BOTH | (1), (2), (3), … |
@@ -38,7 +38,7 @@ Der Typ TextAutonumberScheme macht die folgenden Member verfügbar:
 | EA_1_CHS_PERIOD | EA: Vereinfachtes Chinesisch mit Einzelbyte-Punkt|
 | EA_1_CHS_PLAIN | EA: Vereinfachtes Chinesisch (TypeA 1-99, TypeC 100-)|
 | EA_1_CHT_PERIOD | EA: Traditionelles Chinesisch mit Einzelbyte-Punkt|
-| EA_1_CHT_PLAIN |EA: Traditionelles Chinesisch (TypeA 1-19, TypeC 20-)|
+| EA_1_CHT_PLAIN | EA: Traditionelles Chinesisch (TypeA 1-19, TypeC 20-)|
 | EA_1_JPN_CHS_DB_PERIOD | EA: Japanisch mit Doppelbyte-Punkt|
 | EA_1_JPN_KOR_PERIOD | EA: Japanisch/Koreanisch mit Single-Byte-Punkt|
 | EA_1_JPN_KOR_PLAIN | EA: Japanisch/Koreanisch (TypeC 1-)|
@@ -52,7 +52,7 @@ Der Typ TextAutonumberScheme macht die folgenden Member verfügbar:
 | ROMAN_LC_PERIOD | i., ii., iii., …|
 | ROMAN_UC_PAREN_BOTH | (I), (II), (III), …|
 | ROMAN_UC_PAREN_R | I), II), III), …|
-| ROMAN_UC_PERIOD | I., II., III., …|
+| ROMAN_UC_PERIOD |I., II., III., …|
 | THAI_ALPHA_PAREN_BOTH | Klammern des thailändischen Alphabets - beides|
 | THAI_ALPHA_PAREN_R | Klammern des thailändischen Alphabets - rechts|
 | THAI_ALPHA_PERIOD | Zeitraum des thailändischen Alphabets|

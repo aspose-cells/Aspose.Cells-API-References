@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shadow_effect proprietà
 
-Rappresenta un oggetto [ShapePropertyCollection.shadow_effect](/cells/it/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect) che specifica l'effetto ombra per l'elemento o la forma del grafico.
+Rappresenta un oggetto [ShapePropertyCollection.shadow_effect](/cells/it/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect) che specifica un effetto ombra per l'elemento o la forma del grafico.
 ###  Definizione:
 ```python
 @property

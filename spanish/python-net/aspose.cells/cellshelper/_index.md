@@ -19,7 +19,7 @@ El tipo CellsHelper expone los siguientes miembros:
 | :- | :- |
 | [significant_digits](/cells/es/python-net/aspose.cells/cellshelper/significant_digits) | Obtiene y establece el número de dígitos significativos.<br/> El valor predeterminado es 17.|
 | [dpi](/cells/es/python-net/aspose.cells/cellshelper/dpi) | Obtiene el DPI de la máquina.|
-| [startup_path](/cells/es/python-net/aspose.cells/cellshelper/startup_path) | Obtiene o establece la ruta de inicio, a la que hacen referencia algunas referencias de fórmulas externas.|
+| [startup_path](/cells/es/python-net/aspose.cells/cellshelper/startup_path) |Obtiene o establece la ruta de inicio, a la que hacen referencia algunas referencias de fórmulas externas.|
 | [alt_start_path](/cells/es/python-net/aspose.cells/cellshelper/alt_start_path) | Obtiene o establece la ruta de inicio alternativa, a la que se hace referencia en algunas referencias de fórmulas externas.|
 | [library_path](/cells/es/python-net/aspose.cells/cellshelper/library_path) | Obtiene o establece la ruta de la biblioteca a la que hacen referencia algunas referencias de fórmulas externas.|
 | [custom_implementation_factory](/cells/es/python-net/aspose.cells/cellshelper/custom_implementation_factory) | Obtiene o establece la fábrica para crear instancias con implementación especial.|
@@ -36,7 +36,7 @@ El tipo CellsHelper expone los siguientes miembros:
 | [cell_name_to_index(cell_name, row, column)](/cells/es/python-net/aspose.cells/cellshelper/cell_name_to_index/#str-any-any) | Obtiene los índices de fila y columna de la celda según su nombre.|
 | [cell_index_to_name(row, column)](/cells/es/python-net/aspose.cells/cellshelper/cell_index_to_name/#int-int) | Obtiene el nombre de la celda según sus índices de fila y columna.|
 | [column_index_to_name(column)](/cells/es/python-net/aspose.cells/cellshelper/column_index_to_name/#int) | Obtiene el nombre de la columna según el índice de la columna.|
-| [column_name_to_index(column_name)](/cells/es/python-net/aspose.cells/cellshelper/column_name_to_index/#str) | Obtiene el índice de la columna según el nombre de la columna.|
+| [column_name_to_index(column_name)](/cells/es/python-net/aspose.cells/cellshelper/column_name_to_index/#str) |Obtiene el índice de la columna según el nombre de la columna.|
 | [row_index_to_name(row)](/cells/es/python-net/aspose.cells/cellshelper/row_index_to_name/#int) | Obtiene el nombre de la fila según el índice de la fila.|
 | [row_name_to_index(row_name)](/cells/es/python-net/aspose.cells/cellshelper/row_name_to_index/#str) | Obtiene el índice de la fila según el nombre de la fila.|
 | [convert_r1c1_formula_to_a1(r_1c1_formula, row, column)](/cells/es/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/#str-int-int) | Convierte la fórmula r1c1 de la celda en la fórmula A1.|
@@ -46,7 +46,7 @@ El tipo CellsHelper expone los siguientes miembros:
 | [get_used_colors(workbook)](/cells/es/python-net/aspose.cells/cellshelper/get_used_colors/#Workbook) | Obtiene todos los colores usados en el libro de trabajo.|
 | [add_add_in_function(function, min_count_of_parameters, max_count_of_parameters, paramers_type, function_value_type)](/cells/es/python-net/aspose.cells/cellshelper/add_add_in_function/#str-int-int-list-ParameterType) | Agregar función de complemento.|
 | [merge_files(files, cached_file, dest_file)](/cells/es/python-net/aspose.cells/cellshelper/merge_files/#list-str-str) | Combina algunos archivos xls grandes en un archivo xls.|
-| [init_for_dot_net_core()](/cells/es/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) |Realice la inicialización del programa .NetCore.<br/> Le sugerimos que llame primero a este método para todas las inicializaciones de .NetCore.<br/>Por ejemplo:<br/>CellsHelper.InitForDotNetCore();<br/> Libro de trabajo wb = nuevo Libro de trabajo ();|
+| [init_for_dot_net_core()](/cells/es/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) | Realice la inicialización del programa .NetCore.<br/> Le sugerimos que llame primero a este método para todas las inicializaciones de .NetCore.<br/>Por ejemplo:<br/>CellsHelper.InitForDotNetCore();<br/> Libro de trabajo wb = nuevo Libro de trabajo ();|
 
 
 

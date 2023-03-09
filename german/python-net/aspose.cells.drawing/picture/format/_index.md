@@ -13,7 +13,7 @@ Stellt die Einstellung der Formatierung der Form dar.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die Eigenschaften Shape.Fill und Shape.Line.
  Diese Property wird 6 Monate später seit August 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على data للصورة.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

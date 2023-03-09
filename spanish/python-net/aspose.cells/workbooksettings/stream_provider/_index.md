@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  stream_provider propiedad
 
-Obtiene y establece el proveedor de transmisión para el recurso externo.
+Obtiene y establece el proveedor de flujo para los recursos externos.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
 utilice la propiedad ResourceProvider.
  Esta propiedad se eliminará 12 meses después desde junio de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

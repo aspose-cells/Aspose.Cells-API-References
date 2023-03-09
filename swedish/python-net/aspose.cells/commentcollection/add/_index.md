@@ -22,7 +22,7 @@ def add(self, cell_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | cell_name | str | Cell namn.|
 
@@ -53,7 +53,7 @@ def add(self, row, column):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Cell radindex.|
 | column | int | Cell kolumnindex.|

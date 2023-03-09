@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/
 is_root: false
 ---
 ##  format(start_index, length, font, flag) {#int-int-Font-StyleFlag}
-Formatez le texte avec le paramètre de police.
+Formatez le texte avec les paramètres de police.
 
 
 
@@ -18,7 +18,7 @@ def format(self, start_index, length, font, flag):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | start_index | int | L'indice de départ.|
 | length | int | La durée.|

@@ -11,7 +11,7 @@ is_root: false
 
 Indica se la forma contiene solo un'equazione.
 
-###  Esempio
+###  Esempi
 
 ```python
 

@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  sheet_set propriété
 
-Obtient ou définit les feuilles à rendre. La valeur par défaut est toutes les feuilles visibles dans le classeur : [SheetSet.visible](/cells/fr/python-net/aspose.cells.rendering/sheetset#visible).
+Obtient ou définit les feuilles à afficher. La valeur par défaut est toutes les feuilles visibles dans le classeur : [SheetSet.visible](/cells/fr/python-net/aspose.cells.rendering/sheetset#visible).
 
-###  Exemple
+###  Exemples
 
-Le code suivant rend uniquement la feuille active au format pdf.
+Le code suivant rend uniquement les feuilles actives au format pdf.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

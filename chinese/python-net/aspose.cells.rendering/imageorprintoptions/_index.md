@@ -1,13 +1,13 @@
 ﻿---
 title: ImageOrPrintOptions类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
 url: /zh/python-net/aspose.cells.rendering/imageorprintoptions/
 is_root: false
 ---
-##  ImageOrPrintOptions类
+## ImageOrPrintOptions类
 允许在将工作表渲染为图像、打印工作表或将图表渲染为图像时指定选项。
 
 
@@ -30,7 +30,7 @@ ImageOrPrintOptions 类型公开了以下成员：
 | [tiff_compression](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression) |获取或设置仅在将页面保存为 `Tiff` 格式时应用的压缩类型。|
 | [tiff_color_depth](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth) |获取或设置位深度以仅在将页面保存为 `Tiff` 格式时应用。|
 | [printing_page](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/printing_page) |指示将不打印哪些页面。|
-| [quality](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/quality) |获取或设置确定生成图像质量的值<br/>仅在将页面保存为 `Jpeg` 格式时应用。默认值为 100|
+| [quality](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/quality) |获取或设置确定生成图像质量的值<br/>仅在将页面保存为 `Jpeg` 格式时应用。|
 | [image_type](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/image_type) |获取或设置生成图像的格式。<br/>默认值：PNG。|
 | [is_cell_auto_fit](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/is_cell_auto_fit) |指示单元格的宽度和高度是否由单元格值自动拟合。<br/>默认值为假。|
 | [one_page_per_sheet](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/one_page_per_sheet) |如果 OnePagePerSheet 为 true ，结果中一张纸的所有内容将只输出一页。<br/> pagesetup的纸张大小会失效，pagesetup的其他设置<br/>仍然会生效。|
@@ -40,13 +40,13 @@ ImageOrPrintOptions 类型公开了以下成员：
 | [embeded_image_name_in_svg](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/embeded_image_name_in_svg) |指示 svg 中嵌入图像的文件名。<br/>这应该是目录的完整路径，如“c:\\xpsEmbedded”|
 | [svg_fit_to_view_port](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port) |如果此属性为真，则生成的 svg 将适合视口。|
 | [only_area](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/only_area) |如果该属性为 true ，则输出一个 Area，不影响缩放。|
-| [text_rendering_hint](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint) |指定文本呈现的质量。<br/>默认值为 TextRenderingHint.SystemDefault|
+| [text_rendering_hint](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint) |指定文本呈现的质量。<br/>默认值为 TextRenderingHint。|
 | [smoothing_mode](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode) |指定是否将平滑（抗锯齿）应用于直线和曲线以及填充区域的边缘。<br/>默认值为 SmoothingMode.None|
-| [transparent](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/transparent) |指示生成图像的背景是否应该是透明的。|
+| [transparent](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/transparent) |指示生成的图像的背景是否应该是透明的。|
 | [pixel_format](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/pixel_format) |获取或设置生成图像的像素格式。|
 | [warning_callback](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/warning_callback) |获取或设置警告回调。|
 | [page_saving_callback](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/page_saving_callback) |控制/指示页面保存过程的进度。|
-| [is_font_substitution_char_granularity](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/is_font_substitution_char_granularity) |指示当单元格字体不兼容时是否仅替换字符的字体。|
+| [is_font_substitution_char_granularity](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/is_font_substitution_char_granularity) |指示是否仅在单元格字体不兼容时替换字符的字体。|
 | [page_index](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/page_index) |获取或设置要保存的第一个页面的从 0 开始的索引。|
 | [page_count](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/page_count) |获取或设置要保存的页数。|
 | [is_optimized](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions/is_optimized) |指示是否优化输出元素。|

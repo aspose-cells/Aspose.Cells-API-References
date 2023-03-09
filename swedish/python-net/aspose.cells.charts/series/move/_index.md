@@ -18,7 +18,7 @@ def move(self, count):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | count | int | Antalet flyttar upp eller ner.<br/>Flytta serien uppåt om den är mindre än noll;<br/> Flytta serien nedåt om den är större än noll.|
 

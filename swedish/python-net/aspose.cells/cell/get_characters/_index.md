@@ -41,7 +41,7 @@ def get_characters(self, flag):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | flag | bool | Anger om tabellformat tillämpas på cellen om cellen finns i tabellen.|
 

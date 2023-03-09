@@ -22,7 +22,7 @@ def add_table_style(self, name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på tabellstilen.|
 

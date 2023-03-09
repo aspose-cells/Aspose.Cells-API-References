@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing/chartshape/is_same_setting/
 is_root: false
 ---
 ##  is_same_setting(obj) {#any}
-Возвращает, совпадает ли форма.
+Возвращает, является ли форма такой же.
 
 
 ###  Возвращает
@@ -22,11 +22,11 @@ def is_same_setting(self, obj):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | obj | any |  |
 
-###  Пример
+###  Примеры
 
 ```python
 

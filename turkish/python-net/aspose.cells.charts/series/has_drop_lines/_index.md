@@ -10,7 +10,7 @@ is_root: false
 ##  has_drop_lines mülk
 
 Grafikte düşme çizgileri varsa doğrudur.
-Yalnızca çizgi grafiği veya alan grafikleri için geçerlidir.
+Yalnızca çizgi grafikler veya alan grafikler için geçerlidir.
 ###  Tanım:
 ```python
 @property

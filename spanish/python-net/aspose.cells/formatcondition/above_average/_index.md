@@ -11,7 +11,7 @@ is_root: false
 
 Obtenga la instancia "AboveAverage" del formato condicional.
  La regla de la instancia predeterminada resalta las celdas que son
-por encima del promedio para todos los valores en el rango.
+por encima de la media para todos los valores del rango.
 Válido solo para tipo = Por encima del promedio.
 ###  Definición:
 ```python

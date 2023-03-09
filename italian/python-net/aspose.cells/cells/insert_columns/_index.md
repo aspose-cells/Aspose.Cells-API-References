@@ -18,7 +18,7 @@ def insert_columns(self, column_index, total_columns):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column_index | int | Indice di colonna.|
 | total_columns | int | Il numero di colonne.|
@@ -35,11 +35,11 @@ def insert_columns(self, column_index, total_columns, update_reference):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | column_index | int | Indice di colonna.|
 | total_columns | int | Il numero di colonne.|
-| update_reference | bool | Indica se i riferimenti in altri fogli di lavoro verranno aggiornati.|
+| update_reference | bool |Indica se i riferimenti in altri fogli di lavoro verranno aggiornati.|
 
 
 

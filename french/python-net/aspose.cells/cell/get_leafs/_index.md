@@ -24,7 +24,7 @@ def get_leafs(self):
 
 ###  Remarques
 
-REMARQUE : Cette classe est désormais obsolète. Plutôt,
+REMARQUE : Cette classe est désormais obsolète.
 veuillez utiliser Cell.GetDependentsInCalculation(bool) pour obtenir toutes les personnes à charge dans la chaîne de calcul.
 Cette propriété sera supprimée 12 mois plus tard depuis mai 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
@@ -44,12 +44,12 @@ def get_leafs(self, recursive):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | recursive | bool | Si renvoie les feuilles qui ne font pas directement référence à cette cellule<br/> mais référence à d'autres feuilles de cette cellule|
 ###  Remarques
 
-REMARQUE : Cette classe est désormais obsolète. Plutôt,
+REMARQUE : Cette classe est désormais obsolète.
 veuillez utiliser Cell.GetDependentsInCalculation(bool) pour obtenir toutes les personnes à charge dans la chaîne de calcul.
 Cette propriété sera supprimée 12 mois plus tard depuis mai 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

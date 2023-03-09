@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/markdownsaveoptions/__init__/
 is_root: false
 ---
 ##  MarkdownSaveOptions() {#}
-Создает параметры для сохранения документа уценки
+Создает параметры для сохранения документов уценки
 
 
 

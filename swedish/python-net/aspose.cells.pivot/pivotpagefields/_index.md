@@ -32,7 +32,7 @@ Typen PivotPageFields avslöjar följande medlemmar:
 | Metod| Beskrivning|
 | :- | :- |
 | [add_page_field(page_items)](/cells/sv/python-net/aspose.cells.pivot/pivotpagefields/add_page_field/#list) | Lägger till ett sidfält.|
-| [add_identify(range_index, page_item_index)](/cells/sv/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) |Ställer in vilken objektetikett i varje sidfält som ska användas för att identifiera dataintervallet.<br/> pageItemIndex.Length måste vara lika med PageFieldCount, så lägg till sidfältet först.|
+| [add_identify(range_index, page_item_index)](/cells/sv/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) | Ställer in vilken objektetikett i varje sidfält som ska användas för att identifiera dataintervallet.<br/> pageItemIndex.Length måste vara lika med PageFieldCount, så lägg till sidfältet först.|
 
 
 

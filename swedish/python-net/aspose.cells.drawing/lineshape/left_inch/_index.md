@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_inch fastighet
 
-Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i enhet av tum.
+Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i enheter av tum.
 
 ###  Exempel
 

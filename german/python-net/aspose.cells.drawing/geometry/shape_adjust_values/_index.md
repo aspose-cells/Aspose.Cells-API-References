@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shape_adjust_values Eigentum
 
-Ruft eine Sammlung von Formanpassungswerten ab
+Ruft eine Auflistung von Formanpassungswerten ab
 ###  Definition:
 ```python
 @property

@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/cell/get_height_of_value/
 is_root: false
 ---
 ##  get_height_of_value() {#}
-Obtient la hauteur de la valeur en unité de pixels.
+Obtient la hauteur de la valeur en unités de pixels.
 
 
 ###  Retour

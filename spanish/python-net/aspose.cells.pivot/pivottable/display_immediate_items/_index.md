@@ -10,7 +10,7 @@ is_root: false
 ##  display_immediate_items propiedad
 
 Indica si los elementos en las áreas de fila y columna están visibles
-cuando el área de datos de la tabla dinámica está vacía. El valor por defecto es verdadero.
+cuando el área de datos de la tabla dinámica está vacía.
 ###  Definición:
 ```python
 @property

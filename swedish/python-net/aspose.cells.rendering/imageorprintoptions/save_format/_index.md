@@ -14,7 +14,7 @@ Support Tiff/XPS
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
+ OBS: Denna medlem är nu föråldrad.
 För Tiff/Svg, använd [ImageOrPrintOptions.image_type](/cells/sv/python-net/aspose.cells.rendering/imageorprintoptions#image_type); För Xps, använd [Workbook.save(file_name, save_format)](/cells/sv/python-net/aspose.cells/workbook/save) med [XpsSaveOptions](/cells/sv/python-net/aspose.cells/xpssaveoptions).
  Den här egenskapen kommer att tas bort 12 månader senare sedan augusti 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

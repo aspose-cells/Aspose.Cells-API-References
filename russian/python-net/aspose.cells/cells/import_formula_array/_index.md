@@ -18,10 +18,10 @@ def import_formula_array(self, string_array, first_row, first_column, is_vertica
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | string_array | list | Массив формул.|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 | is_vertical | bool | Задает импорт данных по вертикали или по горизонтали.|
 

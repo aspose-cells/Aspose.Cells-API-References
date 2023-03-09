@@ -31,7 +31,7 @@ def convert_to_range(self, options):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | options | [TableToRangeOptions](/cells/fr/python-net/aspose.cells.tables/tabletorangeoptions) | les options lors de la conversion du tableau en plage.|
 

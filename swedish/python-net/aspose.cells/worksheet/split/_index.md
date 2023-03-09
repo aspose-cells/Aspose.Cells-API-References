@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/worksheet/split/
 is_root: false
 ---
 ##  split() {#}
-Delar fönster.
+Delat fönster.
 
 
 

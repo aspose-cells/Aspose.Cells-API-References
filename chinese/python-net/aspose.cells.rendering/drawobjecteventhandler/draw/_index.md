@@ -1,6 +1,6 @@
 ﻿---
 title: draw方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 20
@@ -18,10 +18,10 @@ def draw(self, draw_object, x, y, width, height):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | draw_object | [DrawObject](/cells/zh/python-net/aspose.cells.rendering/drawobject) |渲染时会初始化并返回DrawObject|
-| x | float | DrawObject 左侧|
+| x | float |绘制对象左侧|
 | y | float |DrawObject 顶部|
 | width | float |绘图对象的宽度|
 | height | float |绘图对象的高度|

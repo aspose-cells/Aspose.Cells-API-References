@@ -10,7 +10,7 @@ is_root: false
 ##  ignore_error propiedad
 
 Indica si es necesario ocultar el error en el cálculo de fórmulas.
-El error puede ser una función no compatible, enlaces externos, etc.
+El error puede ser funciones no compatibles, enlaces externos, etc.
 ###  Definición:
 ```python
 @property

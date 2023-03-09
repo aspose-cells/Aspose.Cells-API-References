@@ -19,15 +19,15 @@ is_root: false
 | [TableStyle](/cells/fr/python-net/aspose.cells.tables/tablestyle) | Représente le style de tableau.|
 | [TableStyleCollection](/cells/fr/python-net/aspose.cells.tables/tablestylecollection) | Représente tous les styles de tableau personnalisés.|
 | [TableStyleElement](/cells/fr/python-net/aspose.cells.tables/tablestyleelement) | Représente l'élément du style de tableau.|
-| [TableStyleElementCollection](/cells/fr/python-net/aspose.cells.tables/tablestyleelementcollection) | Représente tous les éléments du style de tableau.|
+| [TableStyleElementCollection](/cells/fr/python-net/aspose.cells.tables/tablestyleelementcollection) |Représente tous les éléments du style de tableau.|
 | [TableToRangeOptions](/cells/fr/python-net/aspose.cells.tables/tabletorangeoptions) | Représente les options lors de la conversion du tableau en plage.|
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
 | [TableDataSourceType](/cells/fr/python-net/aspose.cells.tables/tabledatasourcetype) | Représente le type de source de données de la table.|
-| [TableStyleElementType](/cells/fr/python-net/aspose.cells.tables/tablestyleelementtype) |Représente le type d'élément de style Tableau ou Tableau croisé dynamique.|
+| [TableStyleElementType](/cells/fr/python-net/aspose.cells.tables/tablestyleelementtype) | Représente le type d'élément de style Tableau ou Tableau croisé dynamique.|
 | [TableStyleType](/cells/fr/python-net/aspose.cells.tables/tablestyletype) | Représente le type de style de tableau intégré.|
 | [TotalsCalculation](/cells/fr/python-net/aspose.cells.tables/totalscalculation) | Détermine le type de calcul dans la ligne Totaux de la colonne de liste.|
 

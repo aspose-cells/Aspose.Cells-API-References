@@ -26,7 +26,7 @@ def copy_in_range(self, source_shapes, ca, dest_row, dest_column, is_contained):
 | dest_column | int | Die Zielspalte des Zielbereichs.|
 | is_contained | bool | Ob nur die Formen kopieren, die im Bereich enthalten sind.<br/> Bei „true“ werden nur die Shapes im Bereich kopiert.<br/> Ansonsten funktioniert es wie MS Office.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import CellArea

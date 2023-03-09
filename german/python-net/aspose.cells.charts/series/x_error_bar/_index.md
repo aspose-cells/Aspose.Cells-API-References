@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  x_error_bar Eigentum
 
-Stellt den X-Richtungsfehlerbalken der Reihe dar.
+Stellt den X-Richtungsfehlerbalken der Serie dar.
 ###  Definition:
 ```python
 @property

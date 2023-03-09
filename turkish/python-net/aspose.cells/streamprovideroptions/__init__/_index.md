@@ -31,7 +31,7 @@ def __init__(self, loading_type, default_path):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | loading_type | [ResourceLoadingType](/cells/tr/python-net/aspose.cells/resourceloadingtype) | Bağlantılı kaynağı yükleyecek tür.|
 | default_path | str | Varsayılan yol.|

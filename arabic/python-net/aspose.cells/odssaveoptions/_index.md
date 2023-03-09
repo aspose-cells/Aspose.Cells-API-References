@@ -36,12 +36,12 @@ is_root: false
 | [merge_areas](/cells/ar/python-net/aspose.cells/odssaveoptions/merge_areas) | يشير إلى ما إذا كان يتم دمج مناطق التنسيق الشرطي والتحقق من الصحة قبل حفظ الملف.|
 | [create_directory](/cells/ar/python-net/aspose.cells/odssaveoptions/create_directory) | إذا كان صحيحًا وكان الدليل غير موجود ، فسيتم إنشاء الدليل تلقائيًا قبل حفظ الملف.|
 | [sort_names](/cells/ar/python-net/aspose.cells/odssaveoptions/sort_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة قبل حفظ الملف.|
-| [sort_external_names](/cells/ar/python-net/aspose.cells/odssaveoptions/sort_external_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة الخارجية قبل حفظ الملف.|
-| [refresh_chart_cache](/cells/ar/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) |يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
-| [warning_callback](/cells/ar/python-net/aspose.cells/odssaveoptions/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
+| [sort_external_names](/cells/ar/python-net/aspose.cells/odssaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة خارجيًا قبل حفظ الملف.|
+| [refresh_chart_cache](/cells/ar/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) | يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
+| [warning_callback](/cells/ar/python-net/aspose.cells/odssaveoptions/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
 | [update_smart_art](/cells/ar/python-net/aspose.cells/odssaveoptions/update_smart_art) | يشير إلى ما إذا كان يتم تحديث إعداد الفن الذكي.<br/> القيمة الافتراضية هي كاذبة.|
 | [generator_type](/cells/ar/python-net/aspose.cells/odssaveoptions/generator_type) | الحصول على وتعيين منشئ ملف ods.|
-| [is_strict_schema11](/cells/ar/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | يشير إلى ما إذا كان يجب حفظ ملف ods كإصدار 1.1 بتنسيق ODF. الافتراضي هو خطأ.|
+| [is_strict_schema11](/cells/ar/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | يشير إلى ما إذا كان يجب حفظ ملف ods كنسق ODF الإصدار 1.1 أم لا. الافتراضي هو خطأ.|
 
 
 

@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/svgsaveoptions/__init__/
 is_root: false
 ---
 ##  SvgSaveOptions() {#}
-svg dosyasını kaydetme seçeneklerini oluşturur.
+svg dosyalarını kaydetme seçeneklerini oluşturur.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SvgSaveOptions(save_format) {#SaveFormat}
-svg dosyasını kaydetme seçeneklerini oluşturur.
+svg dosyalarını kaydetme seçeneklerini oluşturur.
 
 
 
@@ -31,9 +31,9 @@ def __init__(self, save_format):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Dosya biçimi.<br/>svg olmalıdır.|
+| save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Dosya biçimi.<br/> svg olmalıdır.|
 ###  Notlar
 
 NOT: Bu yapıcı artık kullanılmıyor.

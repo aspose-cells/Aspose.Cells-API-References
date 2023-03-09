@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | style | [CellBorderType](/cells/fr/python-net/aspose.cells/cellbordertype) | Style des bordures|
 

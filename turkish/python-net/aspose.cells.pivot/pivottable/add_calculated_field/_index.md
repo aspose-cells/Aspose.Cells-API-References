@@ -18,7 +18,7 @@ def add_calculated_field(self, name, formula):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Hesaplanan alanın adı|
 | formula | str | Hesaplanan alanın formülü.|
@@ -35,7 +35,7 @@ def add_calculated_field(self, name, formula, drag_to_data_area):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Hesaplanan alanın adı|
 | formula | str | Hesaplanan alanın formülü.|

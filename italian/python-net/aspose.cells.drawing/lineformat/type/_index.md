@@ -13,7 +13,7 @@ Ottiene e imposta il riempimento type.
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto. Invece,
+ NOTA: questo membro è ora obsoleto.
 utilizzare invece la proprietà FillFormat.FillType.
  Questa proprietà verrà rimossa 12 mesi dopo da luglio 2016.
 Aspose si scusa per gli eventuali disagi causati.

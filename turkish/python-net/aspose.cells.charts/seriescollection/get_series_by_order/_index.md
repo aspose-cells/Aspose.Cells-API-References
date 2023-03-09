@@ -22,7 +22,7 @@ def get_series_by_order(self, order):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | order | int | dizi sırası|
 

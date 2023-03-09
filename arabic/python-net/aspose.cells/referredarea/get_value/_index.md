@@ -24,10 +24,10 @@ def get_value(self, row_offset, col_offset):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row_offset | int | إزاحة صف من صف البداية لهذه المنطقة|
-| col_offset | int | العمود من صف البداية لهذه المنطقة|
+| col_offset | int |العمود من صف البداية لهذه المنطقة|
 
 
 ##  get_value(row_offset, col_offset, calculate_formulas) {#int-int-bool}
@@ -47,11 +47,11 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | row_offset | int | إزاحة صف من صف البداية لهذه المنطقة|
-| col_offset | int | العمود من صف البداية لهذه المنطقة|
-| calculate_formulas | bool | سواء احسبها بشكل متكرر إذا كان المرجع المحدد هو صيغة|
+| col_offset | int |العمود من صف البداية لهذه المنطقة|
+| calculate_formulas | bool | ما إذا كان يحسبها بشكل متكرر إذا كان المرجع المحدد هو صيغة|
 
 
 

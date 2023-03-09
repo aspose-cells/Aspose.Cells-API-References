@@ -12,18 +12,18 @@ is_root: false
 ###  Klassen
 | Klasse| Beschreibung|
 | :- | :- |
-| [OdsCellField](/cells/de/python-net/aspose.cells.ods/odscellfield) | Repräsentiert das Zellenfeld von ods.|
+| [OdsCellField](/cells/de/python-net/aspose.cells.ods/odscellfield) | Repräsentiert das Zellenfeld der Quoten.|
 | [OdsCellFieldCollection](/cells/de/python-net/aspose.cells.ods/odscellfieldcollection) | Repräsentiert die Felder von ODS.|
-| [OdsPageBackground](/cells/de/python-net/aspose.cells.ods/odspagebackground) | Repräsentiert den Seitenhintergrund von ods.|
+| [OdsPageBackground](/cells/de/python-net/aspose.cells.ods/odspagebackground) | Stellt den Seitenhintergrund der Quoten dar.|
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
-| [OdsCellFieldType](/cells/de/python-net/aspose.cells.ods/odscellfieldtype) | Repräsentiert den Zellenfeldtyp von ods.|
+| [OdsCellFieldType](/cells/de/python-net/aspose.cells.ods/odscellfieldtype) | Repräsentiert den Zellenfeldtyp der Quoten.|
 | [OdsGeneratorType](/cells/de/python-net/aspose.cells.ods/odsgeneratortype) | Stellt den Generatortyp ODS dar.|
 | [OdsPageBackgroundGraphicPositionType](/cells/de/python-net/aspose.cells.ods/odspagebackgroundgraphicpositiontype) | Stellt die Position dar.|
 | [OdsPageBackgroundGraphicType](/cells/de/python-net/aspose.cells.ods/odspagebackgroundgraphictype) | Stellt die Art der Formatierung des Seitenhintergrunds mit Bild dar.|
-| [OdsPageBackgroundType](/cells/de/python-net/aspose.cells.ods/odspagebackgroundtype) |Repräsentiert den Seitenhintergrundtyp von ods.|
+| [OdsPageBackgroundType](/cells/de/python-net/aspose.cells.ods/odspagebackgroundtype) | Repräsentiert den Seitenhintergrundtyp von Quoten.|
 
 

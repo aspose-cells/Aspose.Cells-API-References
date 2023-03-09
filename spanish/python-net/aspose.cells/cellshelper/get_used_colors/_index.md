@@ -22,7 +22,7 @@ def get_used_colors(self, workbook):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/es/python-net/aspose.cells/workbook) | El objeto del libro.|
 

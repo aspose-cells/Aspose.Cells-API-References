@@ -18,7 +18,7 @@ def page_start_saving(self, args):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | args | [PageStartSavingArgs](/cells/tr/python-net/aspose.cells.rendering/pagestartsavingargs) | Bir sayfa için bilgi kaydetme işlemi başlar.|
 

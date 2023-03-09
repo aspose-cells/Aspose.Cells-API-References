@@ -13,7 +13,7 @@ Gibt an, ob die Ausgangselemente optimiert werden sollen.
 
 ###  Bemerkungen
 
-Der Standardwert ist falsch. Derzeit werden nur die Grenzlinien optimiert, wenn diese Eigenschaft auf „true“ gesetzt ist.
+Der Standardwert ist "false". Derzeit werden nur die Randlinien optimiert, wenn diese Eigenschaft auf "true" gesetzt ist.
 ###  Definition:
 ```python
 @property

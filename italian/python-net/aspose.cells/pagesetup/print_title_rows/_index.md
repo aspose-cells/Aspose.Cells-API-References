@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta le righe che contengono le celle da ripetere nella parte superiore di ogni pagina.
 
-###  Esempio
+###  Esempi
 
 ```python
 

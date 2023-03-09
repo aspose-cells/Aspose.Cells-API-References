@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_strict_schema11 mülk
 
-ods dosyasının ODF formatı sürüm 1.1 olarak kaydedilip kaydedilmeyeceğini belirtir. Varsayılan yanlıştır.
+Ods dosyasının ODF formatı sürüm 1.1 olarak kaydedilip kaydedilmeyeceğini belirtir.Varsayılan değer yanlıştır.
 ###  Tanım:
 ```python
 @property

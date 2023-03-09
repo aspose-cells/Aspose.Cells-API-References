@@ -1,5 +1,5 @@
 ﻿---
-title: Line sınıf
+title: Line sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 290
 url: /tr/python-net/aspose.cells.drawing/line/
 is_root: false
 ---
-##  Line sınıf
+##  Line sınıfı
 Çizgi biçimini temsil eden nesneyi kapsüller.
 
 
@@ -17,11 +17,11 @@ Line türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [compound_type](/cells/tr/python-net/aspose.cells.drawing/line/compound_type) |Bileşik çizgi tipini belirtir|
+| [compound_type](/cells/tr/python-net/aspose.cells.drawing/line/compound_type) | Bileşik çizgi tipini belirtir|
 | [dash_type](/cells/tr/python-net/aspose.cells.drawing/line/dash_type) | Kısa çizgi tipini belirtir|
 | [cap_type](/cells/tr/python-net/aspose.cells.drawing/line/cap_type) | Bitiş büyük harflerini belirtir.|
 | [join_type](/cells/tr/python-net/aspose.cells.drawing/line/join_type) | Birleştirme büyük harflerini belirtir.|
-| [begin_type](/cells/tr/python-net/aspose.cells.drawing/line/begin_type) | Bir satırın başlangıcı için bir ok başı belirtir.|
+| [begin_type](/cells/tr/python-net/aspose.cells.drawing/line/begin_type) |Bir satırın başlangıcı için bir ok başı belirtir.|
 | [end_type](/cells/tr/python-net/aspose.cells.drawing/line/end_type) | Bir satırın sonu için bir ok başı belirtir.|
 | [begin_arrow_length](/cells/tr/python-net/aspose.cells.drawing/line/begin_arrow_length) | Bir satırın başlangıcı için ok ucunun uzunluğunu belirtir.|
 | [end_arrow_length](/cells/tr/python-net/aspose.cells.drawing/line/end_arrow_length) | Bir satırın sonu için ok ucunun uzunluğunu belirtir.|
@@ -35,14 +35,14 @@ Line türü aşağıdaki üyeleri gösterir:
 | [weight_pt](/cells/tr/python-net/aspose.cells.drawing/line/weight_pt) | Nokta birimi cinsinden çizginin ağırlığını alır veya ayarlar.|
 | [weight_px](/cells/tr/python-net/aspose.cells.drawing/line/weight_px) | Çizginin ağırlığını piksel birimi cinsinden alır veya ayarlar.|
 | [formatting_type](/cells/tr/python-net/aspose.cells.drawing/line/formatting_type) | Biçim türünü alır veya ayarlar.|
-| [is_automatic_color](/cells/tr/python-net/aspose.cells.drawing/line/is_automatic_color) |Çizgi renginin otomatik olarak atanıp atanmadığını gösterir.|
+| [is_automatic_color](/cells/tr/python-net/aspose.cells.drawing/line/is_automatic_color) | Çizgi renginin otomatik olarak atanıp atanmadığını gösterir.|
 | [is_visible](/cells/tr/python-net/aspose.cells.drawing/line/is_visible) | Çizginin görünür olup olmadığını temsil eder.|
 | [is_auto](/cells/tr/python-net/aspose.cells.drawing/line/is_auto) | Bu çizgi stilinin otomatik olarak atanıp atanmadığını gösterir.|
 | [gradient_fill](/cells/tr/python-net/aspose.cells.drawing/line/gradient_fill) | Degrade dolguyu temsil eder.|
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

@@ -29,9 +29,9 @@ Der Typ DataLabelShapeType macht die folgenden Member verfügbar:
 | WEDGE_ELLIPSE_CALLOUT | Stellt die Legendenform der Keilellipse dar.|
 | LINE_CALLOUT | Stellt die Beschriftungsform der Linie dar.|
 | BENT_LINE_CALLOUT | Stellt die Beschriftungsform der gebogenen Linie dar.|
-| LINE_WITH_ACCENT_BAR_CALLOUT | Stellt die Linie mit der Legendenform Akzentleiste dar.|
+| LINE_WITH_ACCENT_BAR_CALLOUT |Stellt die Linie mit der Legendenform Akzentleiste dar.|
 | BENT_LINE_WITH_ACCENT_BAR_CALLOUT | Stellt die gebogene Linie mit Akzentleisten-Callout-Form dar.|
-| LINE |Dieser Typ wird nur für spezielle Dateiverarbeitung verwendet|
+| LINE | Dieser Typ wird nur für spezielle Dateiverarbeitung verwendet|
 
 
 

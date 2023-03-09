@@ -11,7 +11,7 @@ is_root: false
 
 Indica se ruotare il testo con la forma.
 
-###  Esempio
+###  Esempi
 
 ```python
 

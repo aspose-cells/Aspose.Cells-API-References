@@ -39,7 +39,7 @@ def get_ranges(self, recalculate):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | recalculate | bool | si recalcularlo si este nombre ha sido calculado antes de esta invocación.|
 

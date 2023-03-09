@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preferred_parsers mülk
 
-Metin dosyasını yüklemek için tercih edilen değer ayrıştırıcılarını alır ve ayarlar.
+Metin dosyalarını yüklemek için tercih edilen değer ayrıştırıcılarını alır ve ayarlar.
 
 ###  Notlar
 

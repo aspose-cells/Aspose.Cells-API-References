@@ -18,9 +18,9 @@ def set_header(self, section, header_script):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
-| section | int |0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
+| section | int | 0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
 | header_script | str | Script formato intestazione.|
 ###  Osservazioni
 
@@ -36,8 +36,8 @@ Comandi di script:
 | &F| Nome file senza percorso|
 | &"<FontName>"| Nome del carattere, ad esempio: &"Arial"|
 | &"<FontName>, <FontStyle>"| Nome e stile del carattere, ad esempio: &"Arial,Bold"|
-| &<FontSize>| Dimensione del font. Se questo comando è seguito da un numero in chiaro da stampare nell'intestazione, sarà separato dall'altezza del carattere con un carattere di spazio.|
-| &K<RRGGBB>| Colore del carattere, ad esempio (ROSSO): &KFF0000|
+| &<FontSize>| Dimensione del carattere Se questo comando è seguito da un numero in chiaro da stampare nell'intestazione, sarà separato dall'altezza del carattere con un carattere di spazio.|
+| &K<RRGGBB>|Colore del carattere, ad esempio (ROSSO): &KFF0000|
 | &G| Sceneggiatura dell'immagine|
 
 Ad esempio: "&Arial,Grassetto&8Nota di intestazione"

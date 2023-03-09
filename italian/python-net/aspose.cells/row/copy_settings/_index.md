@@ -18,10 +18,10 @@ def copy_settings(self, source, check_style):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | source | [Row](/cells/it/python-net/aspose.cells/row) | la riga di origine le cui impostazioni verranno copiate in questa|
-| check_style | bool | se controllare e raccogliere lo stile.<br/> Ha effetto ed è necessario solo quando due oggetti riga appartengono a cartelle di lavoro diverse e gli stili di due cartelle di lavoro sono diversi.|
+| check_style | bool | Se controllare e raccogliere lo stile.<br/> Ha effetto ed è necessario solo quando due oggetti riga appartengono a cartelle di lavoro diverse e gli stili di due cartelle di lavoro sono diversi.|
 
 
 

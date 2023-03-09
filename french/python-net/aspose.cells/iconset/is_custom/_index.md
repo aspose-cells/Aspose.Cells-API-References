@@ -10,7 +10,7 @@ is_root: false
 ##  is_custom propriété
 
 Indique si le jeu d'icônes est personnalisé.
-La valeur par défaut est faux.
+La valeur par défaut est false.
 ###  Définition:
 ```python
 @property

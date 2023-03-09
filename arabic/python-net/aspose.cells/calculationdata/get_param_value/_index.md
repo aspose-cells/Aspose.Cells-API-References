@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/calculationdata/get_param_value/
 is_root: false
 ---
 ##  get_param_value(index) {#int}
-الحصول على كائن القيمة الممثلة للمعلمة في فهرس معين.
+الحصول على كائن القيمة الممثلة للمعلمة في الفهرس المحدد.
 
 
 ###  عائدات
@@ -24,7 +24,7 @@ def get_param_value(self, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس المعلمة (0 على أساس)|
 

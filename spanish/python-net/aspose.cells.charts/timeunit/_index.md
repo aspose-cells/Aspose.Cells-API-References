@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/timeunit/
 is_root: false
 ---
 ##  TimeUnit enumeración
-Representa la unidad base para el eje de categoría.
+Representa la unidad base para el eje de categorías.
 
 
 
@@ -17,7 +17,7 @@ El tipo TimeUnit expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| DAYS |Días|
+| DAYS | Días|
 | MONTHS | Meses|
 | YEARS | Años|
 

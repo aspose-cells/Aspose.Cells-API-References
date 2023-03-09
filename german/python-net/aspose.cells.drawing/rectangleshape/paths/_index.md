@@ -11,7 +11,7 @@ is_root: false
 
 Ruft paths einer benutzerdefinierten geometrischen Form ab.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

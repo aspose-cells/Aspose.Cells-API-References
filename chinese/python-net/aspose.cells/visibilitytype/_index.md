@@ -1,13 +1,13 @@
 ﻿---
 title: VisibilityType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 2660
 url: /zh/python-net/aspose.cells/visibilitytype/
 is_root: false
 ---
-##  VisibilityType枚举
+## VisibilityType枚举
 表示工作表可见性的状态。
 
 

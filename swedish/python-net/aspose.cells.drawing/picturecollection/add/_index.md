@@ -22,10 +22,10 @@ def add(self, upper_left_row, upper_left_column, stream):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | stream | io.RawIOBase | Strömobjekt som innehåller bilddata.|
 
 ###  Exempel
@@ -54,10 +54,10 @@ def add(self, upper_left_row, upper_left_column, file_name):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | file_name | str | Bildfilnamn.|
 
 ###  Exempel
@@ -85,10 +85,10 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | lower_right_row | int | Nedre högra radindex|
 | lower_right_column | int | Nedre högra kolumnindex|
 | stream | io.RawIOBase | Strömobjekt som innehåller bilddata.|
@@ -119,10 +119,10 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | lower_right_row | int | Nedre högra radindex|
 | lower_right_column | int | Nedre högra kolumnindex|
 | file_name | str | Bildfilnamn.|
@@ -152,10 +152,10 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | stream | io.RawIOBase | Strömobjekt som innehåller bilddata.|
 | width_scale | int | Skala på bildens bredd, en procentandel.|
 | height_scale | int | Skala för bildhöjd, en procentandel.|
@@ -186,10 +186,10 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | file_name | str | Bildfilnamn.|
 | width_scale | int | Skala på bildens bredd, en procentandel.|
 | height_scale | int | Skala för bildhöjd, en procentandel.|

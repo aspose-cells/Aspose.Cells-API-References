@@ -1,13 +1,13 @@
 ﻿---
 title: CalculationData类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
 url: /zh/python-net/aspose.cells/calculationdata/
 is_root: false
 ---
-##  CalculationData类
+## CalculationData类
 表示计算一个函数时需要的数据，如函数名、参数、...等。
 
 

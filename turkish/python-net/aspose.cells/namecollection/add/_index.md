@@ -22,7 +22,7 @@ def add(self, text):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | text | str | Ad olarak kullanılacak metin.|
 ###  Notlar

@@ -23,7 +23,7 @@ Typen GradientStyleType avslöjar följande medlemmar:
 | FROM_CORNER | Från hörnskuggningsstil|
 | HORIZONTAL | Horisontell skuggstil|
 | VERTICAL | Vertikal skuggstil|
-| UNKNOWN | Okänd skuggstil. Endast för skuggningsstilen (som inte är för någon medlem av GradientStyleType) i mallfilen.|
+| UNKNOWN |Okänd skuggstil. Endast för skuggningsstilen (som inte är för någon medlem av GradientStyleType) i mallfilen.|
 
 
 

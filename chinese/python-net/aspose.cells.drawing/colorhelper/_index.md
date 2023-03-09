@@ -1,13 +1,13 @@
 ﻿---
 title: ColorHelper类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 110
 url: /zh/python-net/aspose.cells.drawing/colorhelper/
 is_root: false
 ---
-##  ColorHelper类
+## ColorHelper类
 提供有关颜色的辅助函数。
 
 

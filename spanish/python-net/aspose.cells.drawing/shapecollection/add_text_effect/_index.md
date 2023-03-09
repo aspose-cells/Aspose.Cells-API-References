@@ -22,7 +22,7 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/es/python-net/aspose.cells.drawing/msopresettexteffect) | El tipo de efecto de texto preestablecido de mso.|
 | text | str | El texto de WordArt.|
@@ -32,12 +32,12 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | font_italic | bool | Indica si la fuente está en cursiva.|
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | top | int | Representa el desplazamiento vertical de la forma desde su fila izquierda, en unidades de píxel.|
-| upper_left_column | int |Índice de la columna superior izquierda.|
-| left | int | Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de píxel.|
-| height | int | Representa la altura de la forma, en unidades de píxel.|
-| width | int | Representa el ancho de la forma, en unidades de píxel.|
+| upper_left_column | int | Índice de la columna superior izquierda.|
+| left | int |Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de píxel.|
+| height | int | Representa la altura de la forma, en unidades de píxeles.|
+| width | int | Representa el ancho de la forma, en unidades de píxeles.|
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.drawing import MsoPresetTextEffect

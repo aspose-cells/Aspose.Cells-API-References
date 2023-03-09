@@ -18,7 +18,7 @@ Il tipo RevisionLog espone i membri seguenti:
 | Proprietà| Descrizione|
 | :- | :- |
 | [metadata_table](/cells/it/python-net/aspose.cells.revisions/revisionlog/metadata_table) | Ottiene la tabella che contiene i metadati relativi a un elenco di modifiche specifiche che hanno avuto luogo<br/> per questa cartella di lavoro.|
-| [revisions](/cells/it/python-net/aspose.cells.revisions/revisionlog/revisions) | Ottiene tutte le revisioni in questo log.|
+| [revisions](/cells/it/python-net/aspose.cells.revisions/revisionlog/revisions) | Ottiene tutte le revisioni in questo registro.|
 
 
 

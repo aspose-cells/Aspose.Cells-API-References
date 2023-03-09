@@ -18,7 +18,7 @@ Il tipo ControlScrollBarType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | NONE | Non visualizza barre di scorrimento.|
-| HORIZONTAL |Visualizza una barra di scorrimento orizzontale.|
+| HORIZONTAL | Visualizza una barra di scorrimento orizzontale.|
 | BARS_VERTICAL | Visualizza una barra di scorrimento verticale.|
 | BARS_BOTH | Visualizza una barra di scorrimento sia orizzontale che verticale.|
 

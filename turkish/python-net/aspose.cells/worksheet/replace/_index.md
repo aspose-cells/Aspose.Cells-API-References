@@ -18,7 +18,7 @@ def replace(self, old_string, new_string):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | old_string | str | Eski dize değeri.|
 | new_string | str | Yeni dize değeri.|

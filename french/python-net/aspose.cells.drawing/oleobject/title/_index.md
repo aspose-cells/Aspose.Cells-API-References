@@ -11,7 +11,7 @@ is_root: false
 
 Spécifie le title (légende) de l'objet forme actuel.
 
-###  Exemple
+###  Exemples
 
 ```python
 

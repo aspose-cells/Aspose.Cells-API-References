@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  PrintErrorsType перечисление
-Представляет константы ошибок печати.
+Представляет константы ошибки печати.
 
 
 
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | PRINT_ERRORS_BLANK | Представляет не печатать ошибки.|
 | PRINT_ERRORS_DASH | Представляет ошибки печати как "--".|
-| PRINT_ERRORS_DISPLAYED |Представляет ошибки печати, как показано.|
+| PRINT_ERRORS_DISPLAYED | Представляет ошибки печати, как показано.|
 | PRINT_ERRORS_NA | Представляет ошибки печати как "#N/A".|
 
 

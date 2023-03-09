@@ -24,7 +24,7 @@ Typen Validation avslöjar följande medlemmar:
 | [input_title](/cells/sv/python-net/aspose.cells/validation/input_title) | Representerar titeln på dialogrutan för datavalidering.|
 | [error_message](/cells/sv/python-net/aspose.cells/validation/error_message) | Representerar datavalideringsfelmeddelandet.|
 | [error_title](/cells/sv/python-net/aspose.cells/validation/error_title) | Representerar titeln på dialogrutan för datavalideringsfel.|
-| [show_input](/cells/sv/python-net/aspose.cells/validation/show_input) | Indikerar om inmatningsmeddelandet för datavalidering kommer att visas när användaren väljer en cell i datavalideringsintervallet.|
+| [show_input](/cells/sv/python-net/aspose.cells/validation/show_input) |Indikerar om inmatningsmeddelandet för datavalidering kommer att visas när användaren väljer en cell i datavalideringsintervallet.|
 | [show_error](/cells/sv/python-net/aspose.cells/validation/show_error) | Indikerar om datavalideringsfelmeddelandet kommer att visas när användaren anger ogiltiga data.|
 | [ignore_blank](/cells/sv/python-net/aspose.cells/validation/ignore_blank) | Indikerar om tomma värden är tillåtna av intervalldatavalideringen.|
 | [formula1](/cells/sv/python-net/aspose.cells/validation/formula1) | Representerar värdet eller uttrycket som är associerat med datavalideringen.|
@@ -39,9 +39,9 @@ Typen Validation avslöjar följande medlemmar:
 | Metod| Beskrivning|
 | :- | :- |
 | [get_formula1(is_r1c1, is_local)](/cells/sv/python-net/aspose.cells/validation/get_formula1/#bool-bool) | Hämtar värdet eller uttrycket som är kopplat till denna validering.|
-| [get_formula1(is_r1c1, is_local, row, column)](/cells/sv/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Hämtar värdet eller uttrycket som är associerat med denna validering för specifik cell.|
+| [get_formula1(is_r1c1, is_local, row, column)](/cells/sv/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Hämtar värdet eller uttrycket som är associerat med denna validering för den specifika cellen.|
 | [get_formula2(is_r1c1, is_local)](/cells/sv/python-net/aspose.cells/validation/get_formula2/#bool-bool) | Hämtar värdet eller uttrycket som är kopplat till denna validering.|
-| [get_formula2(is_r1c1, is_local, row, column)](/cells/sv/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Hämtar värdet eller uttrycket som är associerat med denna validering för specifik cell.|
+| [get_formula2(is_r1c1, is_local, row, column)](/cells/sv/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Hämtar värdet eller uttrycket som är associerat med denna validering för den specifika cellen.|
 | [add_area(cell_area)](/cells/sv/python-net/aspose.cells/validation/add_area/#CellArea) | Tillämpar valideringen på området.|
 | [add_area(cell_area, check_intersection, check_edge)](/cells/sv/python-net/aspose.cells/validation/add_area/#CellArea-bool-bool) | Tillämpar valideringen på området.|
 | [set_formula1(formula, is_r1c1, is_local)](/cells/sv/python-net/aspose.cells/validation/set_formula1/#str-bool-bool) | Ställer in värdet eller uttrycket som är associerat med denna validering.|

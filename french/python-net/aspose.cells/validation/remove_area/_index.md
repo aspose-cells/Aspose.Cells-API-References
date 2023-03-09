@@ -18,7 +18,7 @@ def remove_area(self, cell_area):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | les zones où ces paramètres de validation doivent être supprimés.|
 

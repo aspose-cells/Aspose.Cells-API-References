@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على وتعيين نوع تجاوز النص الأفقي للشكل الذي يحتوي على نص.
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells.drawing import TextOverflowType

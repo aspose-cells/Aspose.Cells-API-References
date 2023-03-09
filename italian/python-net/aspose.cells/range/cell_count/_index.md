@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  cell_count proprietà
 
-Ottiene tutto il conteggio delle celle nell'intervallo.
+Ottiene tutti i conteggi di celle nell'intervallo.
 
 ###  Osservazioni
 
  NOTA: questa proprietà è ora obsoleta.
 Utilizzare invece RowCount e ColumnCount per ottenere il conteggio totale delle celle.
-Questa proprietà verrà rimossa 12 mesi dopo da febbraio 2021.
+ Questa proprietà verrà rimossa 12 mesi dopo da febbraio 2021.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:
 ```python

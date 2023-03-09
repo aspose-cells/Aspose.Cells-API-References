@@ -1,13 +1,13 @@
 ﻿---
 title: ShapePath类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 570
 url: /zh/python-net/aspose.cells.drawing/shapepath/
 is_root: false
 ---
-##  ShapePath类
+## ShapePath类
 表示由一系列移动、直线和曲线组成的创建路径，这些移动、直线和曲线组合后将形成一个几何形状。
 
 

@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta la visualizzazione del bordo della linea della forma.
 
-###  Esempio
+###  Esempi
 
 ```python
 

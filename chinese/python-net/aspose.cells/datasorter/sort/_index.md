@@ -1,6 +1,6 @@
 ﻿---
 title: sort方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -41,7 +41,7 @@ def sort(self, cells, area):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | cells | [Cells](/cells/zh/python-net/aspose.cells/cells) |单元格包含数据区域。|
 | area | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |需要排序的区域|
@@ -63,7 +63,7 @@ def sort(self, cells, start_row, start_column, end_row, end_column):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | cells | [Cells](/cells/zh/python-net/aspose.cells/cells) |单元格包含数据区域。|
 | start_row | int |区域的起始行。|

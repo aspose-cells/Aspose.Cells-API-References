@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose propiedad
 
-Fiel a transpose filas y columnas cuando se pega el rango. El valor predeterminado es Falso.
+Fiel a transpose filas y columnas cuando se pega el rango.
 ###  Definición:
 ```python
 @property

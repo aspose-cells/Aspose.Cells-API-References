@@ -18,7 +18,7 @@ def move_to(self, dest_row, dest_column):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | dest_row | int | La riga iniziale dell'intervallo dest.|
 | dest_column | int | La colonna iniziale dell'intervallo di destinazione.|

@@ -1,13 +1,13 @@
 ﻿---
 title: WebExtension类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.webextensions/webextension/
 is_root: false
 ---
-##  WebExtension类
+## WebExtension类
 表示 Office 加载项实例。
 
 

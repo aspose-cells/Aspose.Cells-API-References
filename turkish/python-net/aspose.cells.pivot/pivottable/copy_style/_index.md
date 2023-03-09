@@ -18,9 +18,9 @@ def copy_style(self, pivot_table):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/tr/python-net/aspose.cells.pivot/pivottable) | Kaynak özet tablosu.|
+| pivot_table | [PivotTable](/cells/tr/python-net/aspose.cells.pivot/pivottable) |Kaynak özet tablosu.|
 
 
 

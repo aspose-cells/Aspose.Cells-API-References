@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  is_font_substitution_char_granularity propriété
 
-Indique s'il faut uniquement remplacer la police de caractère lorsque la police de cellule n'est pas compatible avec celle-ci.
+Indique s'il faut uniquement remplacer la police de caractère lorsque la police de la cellule n'est pas compatible avec celle-ci.
 
 ###  Remarques
 
-La valeur par défaut est false. Nous allons d'abord essayer la police par défaut de Workbook et PdfSaveOption/system pour la police de cellule.
+La valeur par défaut est false Nous allons d'abord essayer la police par défaut de Workbook et PdfSaveOption/system pour la police de cellule.
 ###  Définition:
 ```python
 @property

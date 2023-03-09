@@ -21,9 +21,9 @@ El tipo ProtectionType expone los siguientes miembros:
 | CONTENTS | Representa para proteger el contenido, utilizado en la protección de la hoja de trabajo.|
 | OBJECTS | Representa la protección de objetos, utilizada en la protección de hojas de trabajo.|
 | SCENARIOS | Representa escenarios de protección, utilizados en la protección de la hoja de trabajo.|
-| STRUCTURE |Representa para proteger la estructura, utilizada en la protección del libro de trabajo.|
+| STRUCTURE | Representa para proteger la estructura, utilizada en la protección del libro de trabajo.|
 | WINDOWS | Representa para proteger la ventana, utilizada en la protección del libro de trabajo.|
-| NONE | Representa ninguna protección. Sólo para la propiedad de lectura.|
+| NONE | No representa protección Solo para la propiedad de lectura.|
 
 
 

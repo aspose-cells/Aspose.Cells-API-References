@@ -25,7 +25,7 @@ def add_field_to_area(self, field_type, field_name):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/de/python-net/aspose.cells.pivot/pivotfieldtype) | Der Feldbereichstyp.|
-| field_name | str |Der Name in den Basisfeldern.|
+| field_name | str | Der Name in den Basisfeldern.|
 
 
 ##  add_field_to_area(field_type, base_field_index) {#PivotFieldType-int}

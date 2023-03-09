@@ -1,13 +1,13 @@
 ﻿---
 title: TextBoxActiveXControl类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/
 is_root: false
 ---
-##  TextBoxActiveXControl类
+## TextBoxActiveXControl类
 表示一个文本框 ActiveX 控件。
 
 
@@ -47,13 +47,13 @@ TextBoxActiveXControl 类型公开了以下成员：
 | [border_ole_color](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_ole_color) |获取和设置背景的 ole 颜色。|
 | [special_effect](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/special_effect) |获取和设置控件的特殊效果。|
 | [max_length](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/max_length) |获取和设置最大字符数|
-| [scroll_bars](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |指示指定控件是否有垂直滚动条、水平滚动条、两者都有，或者两者都没有。|
+| [scroll_bars](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |指示控件是否有垂直滚动条、水平滚动条、两者都有，或者两者都没有。|
 | [password_char](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/password_char) |获取和设置要显示的字符以代替输入的字符。|
 | [is_editable](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_editable) |指示用户是否可以在控件中键入内容。|
 | [integral_height](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/integral_height) |指示控件是否只显示完整的文本行而不显示任何部分行。|
 | [is_drag_behavior_enabled](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_drag_behavior_enabled) |指示是否为控件启用拖放。|
-| [enter_key_behavior](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/enter_key_behavior) |指定 ENTER 键的行为。<br/>True 指定按 ENTER 将创建一个新行。<br/> False 指定按 ENTER 会将焦点移动到 Tab 键顺序中的下一个对象。|
-| [enter_field_behavior](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/enter_field_behavior) |指定进入控件时的选择行为。<br/> True 指定选择与上次控件处于活动状态时保持不变。<br/>False 指定进入控件时将选中控件中的所有文本。|
+| [enter_key_behavior](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/enter_key_behavior) |指定 ENTER 键的行为。<br/>True 指定按 ENTER 将创建一个新行。<br/>False 指定按 ENTER 会将焦点移动到 Tab 键顺序中的下一个对象。|
+| [enter_field_behavior](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/enter_field_behavior) |指定进入控件时的选择行为。<br/> True 指定选择与上次控件处于活动状态时保持不变。<br/> False 指定进入控件时将选中控件中的所有文本。|
 | [tab_key_behavior](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/tab_key_behavior) |指示控件文本中是否允许使用制表符。|
 | [hide_selection](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/hide_selection) |指示当控件没有焦点时控件中的选定文本是否突出显示。|
 | [is_auto_tab](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_auto_tab) |指示当用户输入最大字符数时焦点是否会自动移动到下一个控件。|

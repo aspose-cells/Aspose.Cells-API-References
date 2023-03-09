@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  priority propiedad
 
-El priority de esta regla de formato condicional. Este valor se utiliza para determinar qué
-El formato debe ser evaluado y renderizado. Los valores numéricos más bajos son más altos priority que
+El priority de esta regla de formato condicional.
+El formato debe ser evaluado y renderizado. Los valores numéricos más bajos son más altos que priority
 valores numéricos más altos, donde '1' es el más alto priority.
 ###  Definición:
 ```python

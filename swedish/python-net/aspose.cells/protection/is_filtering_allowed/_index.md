@@ -13,8 +13,8 @@ Representerar om användaren får använda ett autofilter som skapades innan ark
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad. Istället,
- använd egenskapen Protection.AllowFiltering.
+ OBS: Denna medlem är nu föråldrad.
+ använd skydd. Tillåt filtreringsegenskap.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

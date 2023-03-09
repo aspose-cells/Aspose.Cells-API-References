@@ -20,7 +20,7 @@ Il tipo TiffCompression espone i membri seguenti:
 | COMPRESSION_NONE | Specifica nessuna compressione.|
 | COMPRESSION_RLE | Specifica lo schema di compressione RLE.|
 | COMPRESSION_LZW | Specifica lo schema di compressione LZW.|
-| COMPRESSION_CCITT3 | Specifica lo schema di compressione CCITT3.|
+| COMPRESSION_CCITT3 |Specifica lo schema di compressione CCITT3.|
 | COMPRESSION_CCITT4 | Specifica lo schema di compressione CCITT4.|
 
 

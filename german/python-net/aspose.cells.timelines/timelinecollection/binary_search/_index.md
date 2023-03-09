@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [Timeline](/cells/de/python-net/aspose.cells.timelines/timeline) | Das zu suchende System.Object. Der Wert kann null sein.|
+| item | [Timeline](/cells/de/python-net/aspose.cells.timelines/timeline) | Das zu lokalisierende System.Objekt.|
 
 
 

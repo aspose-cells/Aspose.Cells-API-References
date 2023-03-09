@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_pt mülk
 
-Nokta biriminde şeklin genişliğini temsil eder.
+Nokta birimleri cinsinden şeklin genişliğini temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

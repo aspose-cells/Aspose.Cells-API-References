@@ -1,6 +1,6 @@
 ﻿---
 title: check_column方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 70
@@ -22,7 +22,7 @@ def check_column(self, column_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | column_index | int |列索引。|
 

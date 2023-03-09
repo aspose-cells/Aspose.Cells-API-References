@@ -1,5 +1,5 @@
 ﻿---
-title: CustomImplementationFactory sınıf
+title: CustomImplementationFactory sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 390
 url: /tr/python-net/aspose.cells/customimplementationfactory/
 is_root: false
 ---
-##  CustomImplementationFactory sınıf
+##  CustomImplementationFactory sınıfı
 Özel amaçlar için kullanıcı tarafından yeniden uygulanabilecek bazı örnekler oluşturmak için fabrika.
 
 

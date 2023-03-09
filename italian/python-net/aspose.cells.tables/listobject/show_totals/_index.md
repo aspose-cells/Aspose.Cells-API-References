@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals proprietà
 
-Ottiene e imposta se questo ListObject mostra la riga totale.
+Ottiene e imposta se questo ListObject mostra le righe totali.
 ###  Definizione:
 ```python
 @property

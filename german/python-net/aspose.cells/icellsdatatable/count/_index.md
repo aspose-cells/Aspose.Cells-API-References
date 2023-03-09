@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count Eigentum
 
-Ruft die count der Aufzeichnungen ab. -1 für unbekannte Datensätze count.
+Ruft die count der Datensätze ab. -1 für unbekannte Datensätze count.
 ###  Definition:
 ```python
 @property

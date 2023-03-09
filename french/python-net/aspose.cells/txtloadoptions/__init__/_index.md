@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/txtloadoptions/__init__/
 is_root: false
 ---
 ##  TxtLoadOptions() {#}
-Crée les options de chargement du fichier texte.
+Crée les options de chargement des fichiers texte.
 
 
 
@@ -24,7 +24,7 @@ Le type de fichier de chargement par défaut est CSV .
 
 ##  TxtLoadOptions(load_format) {#LoadFormat}
 
-Crée les options de chargement du fichier texte.
+Crée les options de chargement des fichiers texte.
 
 
 
@@ -34,7 +34,7 @@ def __init__(self, load_format):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/fr/python-net/aspose.cells/loadformat) | Le format de chargement|
 

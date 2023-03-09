@@ -41,7 +41,7 @@ def get_characters(self, flag):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | flag | bool | Indique si le style de tableau est appliqué à la cellule si la cellule se trouve dans le tableau.|
 

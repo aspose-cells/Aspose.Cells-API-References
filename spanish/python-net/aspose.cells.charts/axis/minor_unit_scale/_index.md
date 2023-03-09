@@ -11,7 +11,7 @@ is_root: false
 
 Representa la escala de unidad principal para el eje de categorías.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

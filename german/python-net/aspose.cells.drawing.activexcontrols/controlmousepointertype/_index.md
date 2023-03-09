@@ -19,7 +19,7 @@ Der Typ ControlMousePointerType macht die folgenden Member verfügbar:
 | :- | :- |
 | DEFAULT | Standardzeiger.|
 | ARROW | Pfeil.|
-| CROSS |Fadenkreuz.|
+| CROSS | Fadenkreuz.|
 | I_BEAM | Ich glänze.|
 | SIZE_NESW | Doppelpfeil nach Nordosten und Südwesten.|
 | SIZE_NS | Doppelpfeil nach Norden und Süden.|
@@ -30,7 +30,7 @@ Der Typ ControlMousePointerType macht die folgenden Member verfügbar:
 | NO_DROP | „Nicht“-Symbol (Kreis mit diagonaler Linie) über dem Objekt, das gezogen wird.|
 | APP_STARTING | Pfeil mit Sanduhr.|
 | HELP | Pfeil mit Fragezeichen.|
-| SIZE_ALL | „Größe-alles“-Cursor (Pfeile zeigen nach Norden, Süden, Osten und Westen).|
+| SIZE_ALL |„Größe-alles“-Cursor (Pfeile zeigen nach Norden, Süden, Osten und Westen).|
 | CUSTOM | Verwendet das von der MouseIcon-Eigenschaft angegebene Symbol.|
 
 

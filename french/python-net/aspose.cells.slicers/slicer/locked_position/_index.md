@@ -11,7 +11,7 @@ is_root: false
 
 Indique si le segment spécifié peut être déplacé ou redimensionné à l'aide de l'interface utilisateur.
 
-###  Exemple
+###  Exemples
 
 ```python
 

@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/errorcheckoption/is_error_check/
 is_root: false
 ---
 ##  is_error_check(error_check_type) {#ErrorCheckType}
-Verifica se il tipo di errore specificato verrà verificato.
+Verifica se il tipo di errore specificato verrà controllato.
 
 
 ###  ritorna
@@ -22,7 +22,7 @@ def is_error_check(self, error_check_type):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/it/python-net/aspose.cells/errorchecktype) | tipo di errore può essere controllato|
 

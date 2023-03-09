@@ -1,13 +1,13 @@
 ﻿---
 title: CellValueType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1850
 url: /zh/python-net/aspose.cells/cellvaluetype/
 is_root: false
 ---
-##  CellValueType枚举
+## CellValueType枚举
 指定单元格值类型。
 
 

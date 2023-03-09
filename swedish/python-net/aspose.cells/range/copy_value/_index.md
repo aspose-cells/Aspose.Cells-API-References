@@ -18,7 +18,7 @@ def copy_value(self, range):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [Range](/cells/sv/python-net/aspose.cells/range) | Källa [Range](/cells/sv/python-net/aspose.cells/range) objekt.|
 

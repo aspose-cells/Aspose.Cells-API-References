@@ -22,10 +22,10 @@ def format_characters(self, start_index, length, font):
 | :- | :- | :- |
 | start_index | int | Der Startindex.|
 | length | int | Die Länge.|
-| font | [Font](/cells/de/python-net/aspose.cells/font) |Die Schriftarteinstellung.|
+| font | [Font](/cells/de/python-net/aspose.cells/font) | Die Schriftarteinstellung.|
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die Methode Shape.FormatCharacters(int startIndex, int length, Font font, StyleFlag flag).
  Diese Property wird 12 Monate später seit März 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
@@ -45,7 +45,7 @@ def format_characters(self, start_index, length, font, flag):
 | :- | :- | :- |
 | start_index | int | Der Startindex.|
 | length | int | Die Länge.|
-| font | [Font](/cells/de/python-net/aspose.cells/font) |Die Schriftarteinstellung.|
+| font | [Font](/cells/de/python-net/aspose.cells/font) | Die Schriftarteinstellung.|
 | flag | [StyleFlag](/cells/de/python-net/aspose.cells/styleflag) | Das Flag der Schriftarteinstellung.|
 
 

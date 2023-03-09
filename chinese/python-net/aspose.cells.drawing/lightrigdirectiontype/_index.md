@@ -1,13 +1,13 @@
 ﻿---
 title: LightRigDirectionType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 910
 url: /zh/python-net/aspose.cells.drawing/lightrigdirectiontype/
 is_root: false
 ---
-##  LightRigDirectionType枚举
+## LightRigDirectionType枚举
 表示灯光装备方向类型。
 
 

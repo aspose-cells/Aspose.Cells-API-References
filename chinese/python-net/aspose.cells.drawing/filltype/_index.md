@@ -1,13 +1,13 @@
 ﻿---
 title: FillType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 830
 url: /zh/python-net/aspose.cells.drawing/filltype/
 is_root: false
 ---
-##  FillType枚举
+## FillType枚举
 填写格式类型。
 
 

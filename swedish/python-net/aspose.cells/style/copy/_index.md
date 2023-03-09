@@ -18,7 +18,7 @@ def copy(self, style):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Källstilsobjekt|
 ###  Anmärkningar

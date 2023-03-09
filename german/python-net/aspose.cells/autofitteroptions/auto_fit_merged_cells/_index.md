@@ -14,7 +14,7 @@ Der Standardwert ist falsch.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie stattdessen die Eigenschaft AutoFitterOptions.AutoFitMergedCellsType.
  Diese Property wird 12 Monate später seit Dezember 2018 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

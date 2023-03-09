@@ -17,10 +17,10 @@ El tipo LabelPositionType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| CENTER | Se aplica solo a gráficos de barras, circulares 2d/3d|
-| INSIDE_BASE | Se aplica solo a gráficos de barras, circulares 2d/3d|
+| CENTER |Se aplica solo a gráficos de barras, circulares 2d/3d|
+| INSIDE_BASE |Se aplica solo a gráficos de barras, circulares 2d/3d|
 | INSIDE_END | Se aplica solo a gráficos de barras|
-| OUTSIDE_END | Se aplica solo a gráficos de barras, circulares 2d/3d|
+| OUTSIDE_END |Se aplica solo a gráficos de barras, circulares 2d/3d|
 | ABOVE | Se aplica solo a gráficos de líneas|
 | BELOW | Se aplica solo a gráficos de líneas|
 | LEFT | Se aplica solo a gráficos de líneas|

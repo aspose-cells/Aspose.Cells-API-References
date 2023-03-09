@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta lo caption del filtro dei dati specificato.
 
-###  Esempio
+###  Esempi
 
 ```python
 

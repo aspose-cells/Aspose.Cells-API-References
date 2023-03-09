@@ -1,5 +1,5 @@
 ﻿---
-title: ICellsDataTable sınıf
+title: ICellsDataTable sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 810
 url: /tr/python-net/aspose.cells/icellsdatatable/
 is_root: false
 ---
-##  ICellsDataTable sınıf
+##  ICellsDataTable sınıfı
 Veri tablosunu temsil eder.
 
 
@@ -18,7 +18,7 @@ ICellsDataTable türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [columns](/cells/tr/python-net/aspose.cells/icellsdatatable/columns) | Sütunların adını alır.|
-| [count](/cells/tr/python-net/aspose.cells/icellsdatatable/count) | Kayıtların sayısını alır. Bilinmeyen kayıt sayısı için -1.|
+| [count](/cells/tr/python-net/aspose.cells/icellsdatatable/count) | Bilinmeyen kayıt sayısı için -1.|
 
 
 
@@ -26,7 +26,7 @@ Dizin tarafından belirtilen sütunda depolanan verileri alır.
 ###  İndeksleyici
 | İsim| Tanım|
 | :- | :- |
-| [index] |Sütunun sıfır tabanlı dizini.|
+| [index] | Sütunun sıfır tabanlı dizini.|
 
 
 ###  Yöntemler

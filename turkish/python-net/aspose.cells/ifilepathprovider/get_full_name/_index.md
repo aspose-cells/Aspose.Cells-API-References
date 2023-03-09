@@ -23,7 +23,7 @@ def get_full_name(self, sheet_name):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | sheet_name | str | çalışma sayfası adı|
 

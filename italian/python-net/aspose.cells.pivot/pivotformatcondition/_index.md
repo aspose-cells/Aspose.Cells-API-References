@@ -17,9 +17,9 @@ Il tipo PivotFormatCondition espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [scope_type](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) |Ottenere e impostare il tipo di ambito per il formato della condizione della tabella pivot.|
+| [scope_type](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) | Ottenere e impostare il tipo di ambito per il formato della condizione della tabella pivot.|
 | [rule_type](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/rule_type) | Ottieni e imposta il tipo di regola per il formato della condizione della tabella pivot.|
-| [format_conditions](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | Ottieni formatconditions per la condizione della tabella pivot format .|
+| [format_conditions](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | Ottieni condizioni di formato per il formato della condizione della tabella pivot .|
 
 
 ###  Metodi
@@ -29,13 +29,13 @@ Il tipo PivotFormatCondition espone i membri seguenti:
 | [add_data_area_condition(data_field)](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/add_data_area_condition/#PivotField) | Aggiunge il limite del formato condizionale della tabella pivot nei campi dati.|
 | [add_row_area_condition(field_name)](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#str) | Aggiunge il limite del formato condizionale della tabella pivot nei campi riga.|
 | [add_row_area_condition(row_field)](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#PivotField) | Aggiunge il limite del formato condizionale della tabella pivot nei campi riga.|
-| [add_column_area_condition(field_name)](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) |Aggiunge il limite del formato condizionale della tabella pivot nei campi della colonna.|
-| [add_column_area_condition(column_field)](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) |Aggiunge il limite del formato condizionale della tabella pivot nei campi della colonna.|
+| [add_column_area_condition(field_name)](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) | Aggiunge il limite del formato condizionale della tabella pivot nei campi della colonna.|
+| [add_column_area_condition(column_field)](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) | Aggiunge il limite del formato condizionale della tabella pivot nei campi della colonna.|
 | [set_conditional_areas()](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/set_conditional_areas/#) | Imposta le aree condizionali dell'oggetto PivotFormatCondition.|
 
 
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

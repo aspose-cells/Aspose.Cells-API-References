@@ -1,13 +1,13 @@
 ﻿---
 title: LabelPositionType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 530
 url: /zh/python-net/aspose.cells.charts/labelpositiontype/
 is_root: false
 ---
-##  LabelPositionType枚举
+## LabelPositionType枚举
 表示数据标签位置类型。
 
 

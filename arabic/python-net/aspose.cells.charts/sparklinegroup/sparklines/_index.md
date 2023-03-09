@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparklines الملكية
 
-الحصول على مجموعة عنصر [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline).
+الحصول على مجموعة [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) عنصر.
 ###  تعريف:
 ```python
 @property

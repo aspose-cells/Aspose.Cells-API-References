@@ -18,11 +18,11 @@ def copy(self, range):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | range | [Range](/cells/ar/python-net/aspose.cells/range) | المصدر [Range](/cells/ar/python-net/aspose.cells/range) كائن.|
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook
@@ -52,7 +52,7 @@ def copy(self, range, options):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | range | [Range](/cells/ar/python-net/aspose.cells/range) | نطاق المصدر.|
 | options | [PasteOptions](/cells/ar/python-net/aspose.cells/pasteoptions) | خيارات لصق خاصة.|

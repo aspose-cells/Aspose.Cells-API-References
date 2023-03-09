@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di overflow verticale del testo della casella di testo.
 
-###  Esempio
+###  Esempi
 
 ```python
 from aspose.cells.drawing import TextOverflowType

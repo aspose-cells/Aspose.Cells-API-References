@@ -18,7 +18,7 @@ def set_calculated_value(self, v):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | v | any |  |
 ###  Remarques

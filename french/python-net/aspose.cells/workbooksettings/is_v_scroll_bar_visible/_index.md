@@ -15,7 +15,7 @@ Obtient ou définit une valeur indiquant si la feuille de calcul générée cont
 
 La valeur par défaut est true.
 
-###  Exemple
+###  Exemples
 
 Le code suivant rend la barre de défilement verticale invisible pour la feuille de calcul.
 

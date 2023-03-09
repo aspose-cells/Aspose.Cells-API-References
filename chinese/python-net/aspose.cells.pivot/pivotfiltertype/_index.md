@@ -1,13 +1,13 @@
 ﻿---
 title: PivotFilterType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
 url: /zh/python-net/aspose.cells.pivot/pivotfiltertype/
 is_root: false
 ---
-##  PivotFilterType枚举
+## PivotFilterType枚举
 表示数据透视表过滤器类型。
 
 

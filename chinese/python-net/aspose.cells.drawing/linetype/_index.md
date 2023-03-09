@@ -1,13 +1,13 @@
 ﻿---
 title: LineType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 950
 url: /zh/python-net/aspose.cells.drawing/linetype/
 is_root: false
 ---
-##  LineType枚举
+## LineType枚举
 枚举 [Picture](/cells/zh/python-net/aspose.cells.drawing/picture) 边框或 [Chart](/cells/zh/python-net/aspose.cells.charts/chart) 线的类型。
 
 

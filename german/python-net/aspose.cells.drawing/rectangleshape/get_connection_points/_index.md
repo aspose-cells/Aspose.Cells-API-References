@@ -13,7 +13,7 @@ Holen Sie sich die Verbindungspunkte
 
 ###  Kehrt zurück
 
-[X,Y]-Paare des Verbindungspunkts. Jedes Element ist ein Float[2]-Array, [0] repräsentiert x und [1] repräsentiert y.
+[X,Y]-Paare des Verbindungspunkts Jedes Element ist ein Float[2]-Array, [0] repräsentiert x und [1] repräsentiert y.
 
 
 ```python
@@ -23,7 +23,7 @@ def get_connection_points(self):
 
 
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

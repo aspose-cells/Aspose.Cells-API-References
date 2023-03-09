@@ -25,7 +25,7 @@ def import_xml(self, url, sheet_name, row, col):
 | row | int | die Zielzeile|
 | col | int | die Zielspalte|
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code importiert XML-Daten in das Arbeitsblatt „Blatt 1“ um Cell A1.
 
@@ -55,7 +55,7 @@ def import_xml(self, stream, sheet_name, row, col):
 | stream | io.RawIOBase | den XML-Dateistream.|
 | sheet_name | str | der Name des Zielblatts.|
 | row | int | die Zielzeile.|
-| col | int |die Zielspalte.|
+| col | int | die Zielspalte.|
 
 
 

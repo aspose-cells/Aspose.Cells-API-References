@@ -13,7 +13,7 @@ Obtiene o establece el name del rango.
 
 ###  Observaciones
 
-Se admite el rango con nombre. Por ejemplo,
+Se admite el rango con nombre.
 
 rango.Nombre = "Hoja1!MiRango";
 ###  Definición:

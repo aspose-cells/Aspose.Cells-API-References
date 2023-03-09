@@ -28,12 +28,12 @@ Typen ChartArea avslöjar följande medlemmar:
 | [text_font](/cells/sv/python-net/aspose.cells.charts/chartarea/text_font) | Hämtar ett [ChartFrame.font](/cells/sv/python-net/aspose.cells.charts/chartframe#font)-objekt av det angivna ChartFrame-objektet.|
 | [text_options](/cells/sv/python-net/aspose.cells.charts/chartarea/text_options) | Hämtar och ställer in alternativen för texten.|
 | [font](/cells/sv/python-net/aspose.cells.charts/chartarea/font) | Hämtar ett [ChartArea.font](/cells/sv/python-net/aspose.cells.charts/chartarea#font)-objekt av det angivna chartarea-objektet.|
-| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/chartarea/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras. Standardvärdet är True.|
+| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/chartarea/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras.|
 | [background_mode](/cells/sv/python-net/aspose.cells.charts/chartarea/background_mode) | Hämtar och ställer in visningsläget för bakgrunden|
 | [background](/cells/sv/python-net/aspose.cells.charts/chartarea/background) | Hämtar och ställer in visningsläget för bakgrunden|
 | [is_automatic_size](/cells/sv/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Indikerar om kartramen har automatisk storlek.|
 | [x](/cells/sv/python-net/aspose.cells.charts/chartarea/x) | Hämtar eller hämtar den horisontella förskjutningen från kolumnen i det övre vänstra hörnet.|
-| [y](/cells/sv/python-net/aspose.cells.charts/chartarea/y) | Hämtar eller hämtar den vertikala förskjutningen från dess övre vänstra hörnrad.|
+| [y](/cells/sv/python-net/aspose.cells.charts/chartarea/y) |Hämtar eller hämtar den vertikala förskjutningen från dess övre vänstra hörnrad.|
 | [height](/cells/sv/python-net/aspose.cells.charts/chartarea/height) | Hämtar eller ställer in den vertikala förskjutningen från dess nedre högra hörnrad.|
 | [width](/cells/sv/python-net/aspose.cells.charts/chartarea/width) | Hämtar eller ställer in den horisontella förskjutningen från kolumnen i det nedre högra hörnet.|
 | [shadow](/cells/sv/python-net/aspose.cells.charts/chartarea/shadow) | Sant om ramen har en skugga.|

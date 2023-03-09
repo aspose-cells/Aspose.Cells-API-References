@@ -1,6 +1,6 @@
 ﻿---
 title: parse 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 50
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## parse 属性
 
-parse 是否给出公式。默认为真。
+parse 是否给定公式。默认为真。
 如果为假，则给定的公式字符串将保持单元格的原样，直到用户调用其他方法 parse 他们
 或计算公式等其他操作需要解析后的公式数据。
 ### 定义：

@@ -1,6 +1,6 @@
 ﻿---
 title: cell_reference 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## cell_reference 属性
 
-Cell 引用指示哪个单元格的值用于查询参数。仅当 parameterType 为 cell 时使用。
+Cell 引用指示哪个单元格的值用于查询参数。仅当 parameterType 为单元格时使用。
 ### 定义：
 ```python
 @property

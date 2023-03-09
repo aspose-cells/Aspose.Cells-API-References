@@ -20,7 +20,7 @@ def __init__(self):
 
 ###  Anmärkningar
 
-Standardfilformatstypen är Xlsx. För att skapa annan filtyp, använd Workbook(FileFormatType).
+Standardfilformatet är Xlsx. För att skapa en annan filtyp, använd Workbook(FileFormatType).
 ###  Exempel
 
 
@@ -45,7 +45,7 @@ def __init__(self, file_format_type):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | file_format_type | [FileFormatType](/cells/sv/python-net/aspose.cells/fileformattype) | Det nya filformatet.|
 ###  Anmärkningar
@@ -75,7 +75,7 @@ def __init__(self, file):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | file | str | Filnamnet.|
 
@@ -91,7 +91,7 @@ def __init__(self, stream):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Strömmen.|
 
@@ -107,7 +107,7 @@ def __init__(self, file, load_options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | file | str | Filnamnet.|
 | load_options | [LoadOptions](/cells/sv/python-net/aspose.cells/loadoptions) | Lastalternativen|
@@ -124,7 +124,7 @@ def __init__(self, stream, load_options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Strömmen.|
 | load_options | [LoadOptions](/cells/sv/python-net/aspose.cells/loadoptions) | Lastalternativen|

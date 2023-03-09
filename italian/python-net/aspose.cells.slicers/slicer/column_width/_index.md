@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta la larghezza, in punti, di ogni colonna nell'affettatrice.
 
-###  Esempio
+###  Esempi
 
 ```python
 

@@ -18,10 +18,10 @@ def apply_style(self, style, flag):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | style | [Style](/cells/es/python-net/aspose.cells/style) | El objeto de estilo que se aplicará.|
-| flag | [StyleFlag](/cells/es/python-net/aspose.cells/styleflag) | Banderas que indican las propiedades de formato aplicadas.|
+| flag | [StyleFlag](/cells/es/python-net/aspose.cells/styleflag) |Marcas que indican las propiedades de formato aplicadas.|
 
 
 

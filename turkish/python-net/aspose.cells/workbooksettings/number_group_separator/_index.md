@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_group_separator mülk
 
-Sayısal değerlerde ondalık sayının solundaki basamak gruplarını ayıran karakteri alır veya ayarlar. Varsayılan, geçerli Bölgenin grup ayırıcısıdır.
+Sayısal değerlerde ondalığın solundaki basamak gruplarını ayıran karakteri alır veya ayarlar.Varsayılan, geçerli Bölgenin grup ayırıcısıdır.
 ###  Tanım:
 ```python
 @property

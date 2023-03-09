@@ -15,7 +15,7 @@ Standardvärdet för den här egenskapen är falskt.
 ###  Anmärkningar
 
 Om det finns flera trådar att läsa Row/Cell-objekt i den här samlingen samtidigt,
-den här egenskapen bör ställas in som sann, annars kan oväntade resultat uppstå.
+Den här egenskapen bör ställas in som sann, annars kan oväntade resultat uppstå.
 Stöd för flertrådsläsning kan försämra prestandan för åtkomst av Row/Cell-objekt från den här samlingen.
 Observera att vissa funktioner inte stöder multitrådsläsning,
 såsom formateringsvärden (med [Cell.string_value](/cells/sv/python-net/aspose.cells/cell#string_value), [Cell.display_string_value](/cells/sv/python-net/aspose.cells/cell#display_string_value), .etc.).

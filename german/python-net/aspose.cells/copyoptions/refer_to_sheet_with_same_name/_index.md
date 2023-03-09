@@ -10,7 +10,7 @@ is_root: false
 ##  refer_to_sheet_with_same_name Eigentum
 
 Wenn Sie ein Arbeitsblatt in eine andere Arbeitsmappe kopieren und das Arbeitsblatt die Formeln enthält, die auf andere Arbeitsblätter in MS Excel verweisen,
- Die kopierten Formeln sollten auf die Quellarbeitsmappe verweisen.
+die kopierten Formeln sollten auf die Quellarbeitsmappe verweisen.
 Aber manchmal haben wir andere Arbeitsblätter kopiert und hoffen, dass die kopierten Formeln auf andere Arbeitsblätter mit dem Namen in derselben Arbeitsmappe verweisen,
 Bitte setzen Sie diese Eigenschaft auf true.
 

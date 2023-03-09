@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  security_options Eigentum
 
-Stellen Sie diese Optionen ein, wenn Sicherheit im xls2pdf-Ergebnis erforderlich ist.
+Stellen Sie diese Optionen ein, wenn Sicherheit im xls2pdf-Ergebnis benötigt wird.
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code legt die Berechtigung zum Drucken in hoher Auflösung für das Ausgabe-PDF fest.
 

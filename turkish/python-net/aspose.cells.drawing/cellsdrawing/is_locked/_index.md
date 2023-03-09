@@ -11,7 +11,7 @@ is_root: false
 
 Nesne kilitliyse True, sayfa korunurken nesne değiştirilebiliyorsa False.
 
-###  Örnek
+###  örnekler
 
 ```python
 

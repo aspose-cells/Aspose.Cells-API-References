@@ -23,7 +23,7 @@ El tipo CellsFactory expone los siguientes miembros:
 ###  Métodos
 | Método| Descripción|
 | :- | :- |
-| [create_style()](/cells/es/python-net/aspose.cells/cellsfactory/create_style/#) |Crea un nuevo estilo.|
+| [create_style()](/cells/es/python-net/aspose.cells/cellsfactory/create_style/#) | Crea un nuevo estilo.|
 
 
 

@@ -22,7 +22,7 @@ def get_matching_color(self, raw_color):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | raw_color | aspose.pydrawing.Color | Couleur brute.|
 

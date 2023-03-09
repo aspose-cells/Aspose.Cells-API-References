@@ -18,11 +18,11 @@ def unhide_rows(self, row, total_rows, height):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | El índice de fila.|
 | total_rows | int | El número de fila.|
-| height | float | Altura de la fila. La altura de la fila se cambiará solo cuando la fila esté oculta y el valor de altura dado sea positivo.|
+| height | float | Altura de la fila La altura de la fila se cambiará solo cuando la fila esté oculta y el valor de altura dado sea positivo.|
 
 
 

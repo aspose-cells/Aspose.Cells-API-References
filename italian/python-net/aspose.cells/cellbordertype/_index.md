@@ -17,7 +17,7 @@ Il tipo CellBorderType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| DASH_DOT | Rappresenta una sottile linea tratteggiata.|
+| DASH_DOT | Rappresenta sottili linee tratteggiate.|
 | DASH_DOT_DOT | Rappresenta una sottile linea tratteggiata-punto-punteggiata.|
 | DASHED | Rappresenta la linea tratteggiata.|
 | DOTTED | Rappresenta la linea tratteggiata.|
@@ -26,7 +26,7 @@ Il tipo CellBorderType espone i membri seguenti:
 | MEDIUM_DASH_DOT | Rappresenta una linea tratteggiata media.|
 | MEDIUM_DASH_DOT_DOT | Rappresenta la linea tratteggiata-punto-punteggiata media.|
 | MEDIUM_DASHED | Rappresenta la linea tratteggiata media.|
-| NONE |Non rappresenta alcuna linea.|
+| NONE | Non rappresenta alcuna linea.|
 | MEDIUM | Rappresenta la linea media.|
 | SLANTED_DASH_DOT | Rappresenta una linea tratteggiata media obliqua.|
 | THICK | Rappresenta la linea spessa.|

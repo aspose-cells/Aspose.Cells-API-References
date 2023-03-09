@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list mülk
 
-PivotTable için alan listesini etkinleştirip etkinleştirmediğini alır.
+PivotTable için alan listesinin etkinleştirilip etkinleştirilmeyeceğini alır.
 ###  Tanım:
 ```python
 @property

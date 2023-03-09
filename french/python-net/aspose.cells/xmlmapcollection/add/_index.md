@@ -22,11 +22,11 @@ def add(self, url):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | url | str | url/chemin d'un fichier xml/xsd.|
 
-###  Exemple
+###  Exemples
 
 Le code suivant ajoute deux XmlMaps par un fichier xsd et un fichier xml.
 

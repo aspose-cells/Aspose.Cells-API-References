@@ -18,9 +18,9 @@ def hide_detail(self, is_hidden_detail):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
-| is_hidden_detail | bool | ما إذا كانت PivotItems مخفية أم لا|
+| is_hidden_detail | bool | ما إذا كانت العناصر المحورية مخفية أم لا|
 
 
 

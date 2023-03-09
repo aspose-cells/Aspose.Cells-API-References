@@ -12,7 +12,7 @@ is_root: false
 Restituisce o imposta se l'intestazione che visualizza l'affettatrice Caption è visibile
 il valore predefinito è vero
 
-###  Esempio
+###  Esempi
 
 ```python
 

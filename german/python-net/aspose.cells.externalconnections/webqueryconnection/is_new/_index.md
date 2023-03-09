@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_new Eigentum
 
- True, wenn die Verbindung nicht zum ersten Mal aktualisiert wurde; andernfalls falsch.
+ True, wenn die Verbindung nicht zum ersten Mal aktualisiert wurde, andernfalls false.
 Dieser Zustand kann eintreten, wenn der Benutzer die Datei speichert, bevor eine Abfrage die Rückgabe beendet hat.
 ###  Definition:
 ```python

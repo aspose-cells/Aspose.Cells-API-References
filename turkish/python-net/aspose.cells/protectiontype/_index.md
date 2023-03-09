@@ -21,9 +21,9 @@ ProtectionType türü aşağıdaki üyeleri gösterir:
 | CONTENTS | Çalışma Sayfası korumasında kullanılan içerikleri korumayı temsil eder.|
 | OBJECTS | Çalışma Sayfası korumasında kullanılan nesneleri korumayı temsil eder.|
 | SCENARIOS | Çalışma Sayfası korumasında kullanılan koruma senaryolarını temsil eder.|
-| STRUCTURE |Çalışma Kitabı korumasında kullanılan koruma yapısını temsil eder.|
+| STRUCTURE | Çalışma Kitabı korumasında kullanılan koruma yapısını temsil eder.|
 | WINDOWS | Çalışma Kitabı korumasında kullanılan koruma penceresini temsil eder.|
-| NONE | Koruma olmadığını gösterir. Yalnızca Okuma özelliği için.|
+| NONE | Hiçbir korumayı temsil etmez.Yalnızca Okuma özelliği için.|
 
 
 

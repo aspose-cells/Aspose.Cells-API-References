@@ -11,7 +11,7 @@ is_root: false
 
 Représente le height de forme, en unité de pixel.
 
-###  Exemple
+###  Exemples
 
 ```python
 

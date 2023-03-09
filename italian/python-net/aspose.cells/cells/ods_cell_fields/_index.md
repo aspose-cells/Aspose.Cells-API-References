@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields proprietà
 
-Ottiene l'elenco dei campi di ods.
+Ottiene l'elenco dei campi delle quote.
 ###  Definizione:
 ```python
 @property

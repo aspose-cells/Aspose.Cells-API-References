@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_style propiedad
 
-Representa el estilo del marcador. Se aplica a gráfico de líneas, gráfico de dispersión o gráfico de radar.
+Representa el estilo del marcador. Se aplica a gráficos de líneas, gráficos de dispersión o gráficos radiales.
 ###  Definición:
 ```python
 @property

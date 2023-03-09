@@ -11,7 +11,7 @@ is_root: false
 
 يحصل على نمط line
 
-###  مثال
+###  أمثلة
 
 ```python
 

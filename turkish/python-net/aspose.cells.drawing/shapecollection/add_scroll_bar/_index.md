@@ -22,16 +22,16 @@ def add_scroll_bar(self, upper_left_row, top, upper_left_column, left, height, w
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | Piksel birimi cinsinden, ScrollBar öğesinin sol satırından dikey uzaklığını temsil eder.|
-| upper_left_column | int |Sol üst sütun dizini.|
+| upper_left_column | int | Sol üst sütun dizini.|
 | left | int | Piksel birimi cinsinden, ScrollBar öğesinin sol sütunundan yatay uzaklığını temsil eder.|
 | height | int | Piksel birimi cinsinden ScrollBar'ın yüksekliğini temsil eder.|
 | width | int | Piksel birimi cinsinden ScrollBar'ın genişliğini temsil eder.|
 
-###  Örnek
+###  örnekler
 
 ```python
 

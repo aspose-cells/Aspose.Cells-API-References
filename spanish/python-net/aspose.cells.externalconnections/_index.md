@@ -18,18 +18,18 @@ is_root: false
 | [DataModelConnection](/cells/es/python-net/aspose.cells.externalconnections/datamodelconnection) | Especifica una conexión de modelo de datos|
 | [ExternalConnection](/cells/es/python-net/aspose.cells.externalconnections/externalconnection) | Especifica una conexión de datos externa|
 | [ExternalConnectionCollection](/cells/es/python-net/aspose.cells.externalconnections/externalconnectioncollection) | Especifica la colección [ExternalConnection](/cells/es/python-net/aspose.cells.externalconnections/externalconnection)|
-| [WebQueryConnection](/cells/es/python-net/aspose.cells.externalconnections/webqueryconnection) | Especifica las propiedades de un origen de consulta web. Una consulta web recuperará datos de las tablas HTML,<br/> y también puede proporcionar parámetros HTTP "Get" para que los procese el servidor web al generar el HTML por<br/> incluidos los parámetros y elementos de parámetro.|
+| [WebQueryConnection](/cells/es/python-net/aspose.cells.externalconnections/webqueryconnection) | Una consulta web recuperará datos de las tablas HTML,<br/> y también puede proporcionar parámetros HTTP "Get" para que los procese el servidor web al generar el HTML por<br/> incluidos los parámetros y elementos de parámetros.|
 
 
 ###  enumeraciones
-| Enumeración| Descripción|
+|Enumeración| Descripción|
 | :- | :- |
-| [ConnectionDataSourceType](/cells/es/python-net/aspose.cells.externalconnections/connectiondatasourcetype) | Especifica el tipo de origen de la base de datos externa|
+| [ConnectionDataSourceType](/cells/es/python-net/aspose.cells.externalconnections/connectiondatasourcetype) |Especifica el tipo de origen de la base de datos externa|
 | [ConnectionParameterType](/cells/es/python-net/aspose.cells.externalconnections/connectionparametertype) | Especifica el tipo de parámetro de conexión externa|
 | [CredentialsMethodType](/cells/es/python-net/aspose.cells.externalconnections/credentialsmethodtype) | Especifica el método de Credenciales utilizado para el acceso al servidor.|
 | [HtmlFormatHandlingType](/cells/es/python-net/aspose.cells.externalconnections/htmlformathandlingtype) | Especifica cómo manejar el formato desde la fuente HTML|
 | [OLEDBCommandType](/cells/es/python-net/aspose.cells.externalconnections/oledbcommandtype) | Especifica el tipo de comando OLE DB.|
 | [ReConnectionMethodType](/cells/es/python-net/aspose.cells.externalconnections/reconnectionmethodtype) | Especifica lo que debe hacer la aplicación de hoja de cálculo cuando falla una conexión.|
-| [SqlDataType](/cells/es/python-net/aspose.cells.externalconnections/sqldatatype) | Especifica el tipo de datos SQL del parámetro. Sólo válido para fuentes ODBC.|
+| [SqlDataType](/cells/es/python-net/aspose.cells.externalconnections/sqldatatype) | Especifica el tipo de datos SQL del parámetro.|
 
 

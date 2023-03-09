@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_grid_style propriété
 
-Indique si le style de la vue grille est appliqué aux cellules.
+Indique s'il faut appliquer le style de la vue de grille aux cellules.
 ###  Définition:
 ```python
 @property

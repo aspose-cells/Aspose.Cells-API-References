@@ -1,13 +1,13 @@
 ﻿---
 title: TickLabels类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 310
 url: /zh/python-net/aspose.cells.charts/ticklabels/
 is_root: false
 ---
-##  TickLabels类
+## TickLabels类
 表示与图表轴上的刻度线关联的刻度线标签。
 
 
@@ -18,7 +18,7 @@ TickLabels 类型公开了以下成员：
 |属性|描述|
 | :- | :- |
 | [font](/cells/zh/python-net/aspose.cells.charts/ticklabels/font) |返回一个 [TickLabels.font](/cells/zh/python-net/aspose.cells.charts/ticklabels#font) 对象，它表示指定的 TickLabels 对象的字体。|
-| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/ticklabels/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。|
+| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/ticklabels/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。|
 | [background_mode](/cells/zh/python-net/aspose.cells.charts/ticklabels/background_mode) |获取和设置背景的显示方式|
 | [rotation_angle](/cells/zh/python-net/aspose.cells.charts/ticklabels/rotation_angle) |表示顺时针旋转文本的角度。|
 | [is_automatic_rotation](/cells/zh/python-net/aspose.cells.charts/ticklabels/is_automatic_rotation) |表示旋转角度是否自动|

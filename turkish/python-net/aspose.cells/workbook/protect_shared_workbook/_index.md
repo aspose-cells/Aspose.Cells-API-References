@@ -18,7 +18,7 @@ def protect_shared_workbook(self, password):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | password | str | Çalışma kitabını korumak için parola.|
 

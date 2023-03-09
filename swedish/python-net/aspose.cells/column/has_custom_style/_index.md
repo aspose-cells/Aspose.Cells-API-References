@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_custom_style fastighet
 
-Indikerar om den här kolumnen har anpassade stilinställningar (som skiljer sig från standarden som ärvts från arbetsboken).
+Indikerar om den här kolumnen har anpassade stilinställningar (andra från standarden som ärvts från arbetsboken).
 ###  Definition:
 ```python
 @property

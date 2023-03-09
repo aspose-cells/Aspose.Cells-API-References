@@ -24,8 +24,8 @@ OoxmlCompressionType türü aşağıdaki üyeleri gösterir:
 | LEVEL5 | Seviye 4'ten biraz daha yavaş, ancak daha iyi sıkıştırma ile.|
 | LEVEL6 | İyi bir hız ve sıkıştırma verimliliği dengesi.|
 | LEVEL7 | Oldukça iyi sıkıştırma!|
-| LEVEL8 | Level7'den daha iyi sıkıştırma!|
-| LEVEL9 | En iyinin girdi veri akışının boyutunda en büyük azalma anlamına geldiği "en iyi" sıkıştırma.<br/> Bu aynı zamanda en yavaş sıkıştırmadır.|
+| LEVEL8 | Seviye 7'den daha iyi sıkıştırma!|
+| LEVEL9 |En iyinin girdi veri akışının boyutunda en büyük azalma anlamına geldiği "en iyi" sıkıştırma.<br/> Bu aynı zamanda en yavaş sıkıştırmadır.|
 
 
 

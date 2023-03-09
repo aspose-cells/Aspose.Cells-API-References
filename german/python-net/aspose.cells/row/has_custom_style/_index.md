@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_custom_style Eigentum
 
-Gibt an, ob diese Zeile über benutzerdefinierte Stileinstellungen verfügt (anders als die von der Arbeitsmappe geerbte Standardeinstellung).
+Gibt an, ob diese Zeile über benutzerdefinierte Stileinstellungen verfügt (anders als die von der Arbeitsmappe geerbten Standardeinstellungen).
 ###  Definition:
 ```python
 @property

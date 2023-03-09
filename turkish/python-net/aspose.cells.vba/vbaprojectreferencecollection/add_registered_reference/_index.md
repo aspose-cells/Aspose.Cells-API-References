@@ -22,7 +22,7 @@ def add_registered_reference(self, name, libid):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Referans adı.|
 | libid | str | Bir Otomasyon türü kitaplığının tanımlayıcısı.|

@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/jsonloadoptions/__init__/
 is_root: false
 ---
 ##  JsonLoadOptions() {#}
-ينشئ خيارات لتحميل الملف.
+ينشئ خيارًا لتحميل الملف.
 
 
 

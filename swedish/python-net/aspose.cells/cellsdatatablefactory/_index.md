@@ -17,13 +17,13 @@ Typen CellsDataTableFactory avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [get_instance(vals, column_names)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |Skapar ICellsDataTable från en given sekvens av int-värden.|
-| [get_instance(vals, vertial)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |Skapar ICellsDataTable från en given sekvens av int-värden.|
+| [get_instance(vals, column_names)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | Skapar ICellsDataTable från en given sekvens av int-värden.|
+| [get_instance(vals, vertial)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Skapar ICellsDataTable från en given sekvens av int-värden.|
 | [get_instance(vals, column_names)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | Skapar ICellsDataTable från en given sekvens av dubbla värden.|
 | [get_instance(vals, vertial)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Skapar ICellsDataTable från en given sekvens av dubbla värden.|
-| [get_instance(vals, column_names)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) | Skapar ICellsDataTable från en given sekvens av objekt.|
-| [get_instance(vals, vertial)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Skapar ICellsDataTable från en given sekvens av objekt.|
-| [get_instance(collection)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Skapar ICellsDataTable från given samling.|
+| [get_instance(vals, column_names)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |Skapar ICellsDataTable från en given sekvens av objekt.|
+| [get_instance(vals, vertial)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |Skapar ICellsDataTable från en given sekvens av objekt.|
+| [get_instance(collection)](/cells/sv/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Skapar ICellsDataTable från en given samling.|
 
 
 

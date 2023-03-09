@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die beschreibende (alternative) Textzeichenfolge des Objekts [Shape](/cells/de/python-net/aspose.cells.drawing/shape) zurück oder legt sie fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

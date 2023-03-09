@@ -24,7 +24,7 @@ def add(self):
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
 Bitte verwenden Sie die ValidationCollection.Add(CellArea)-Methode.
  Diese Property wird 12 Monate später seit JANUAR 2015 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

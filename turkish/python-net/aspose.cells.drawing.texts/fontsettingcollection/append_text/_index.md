@@ -18,7 +18,7 @@ def append_text(self, text):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | text | str | Metin.|
 

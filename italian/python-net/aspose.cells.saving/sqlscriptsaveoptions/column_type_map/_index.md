@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map proprietà
 
-Ottiene e imposta la mappa del tipo di colonna per database diversi.
+Ottiene e imposta la mappa dei tipi di colonna per diversi database.
 ###  Definizione:
 ```python
 @property

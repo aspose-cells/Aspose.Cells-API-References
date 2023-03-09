@@ -24,7 +24,7 @@ def get_param_value(self, index):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | index | int | index du paramètre (base 0)|
 

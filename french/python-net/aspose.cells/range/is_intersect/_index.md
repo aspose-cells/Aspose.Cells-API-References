@@ -22,7 +22,7 @@ def is_intersect(self, range):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | range | [Range](/cells/fr/python-net/aspose.cells/range) | La gamme.|
 ###  Remarques

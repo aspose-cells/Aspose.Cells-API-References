@@ -1,6 +1,6 @@
 ﻿---
 title: auto_fit_column方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 40
@@ -18,7 +18,7 @@ def auto_fit_column(self, column_index):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | column_index | int |列索引。|
 ### 评论
@@ -37,7 +37,7 @@ def auto_fit_column(self, column_index, first_row, last_row):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | column_index | int |列索引。|
 | first_row | int |第一行索引。|

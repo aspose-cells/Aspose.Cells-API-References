@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing propiedad
 
-Representa el número de categorías o series entre etiquetas de marca de verificación. Aplica solo para ejes de categoría y serie.
+Representa el número de categorías o series entre etiquetas de marca de verificación.
 
 ###  Observaciones
 

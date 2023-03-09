@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Stärke der Rahmenlinie eines Bilds in Einheiten von pt ab oder legt diese fest.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

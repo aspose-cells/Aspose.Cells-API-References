@@ -17,10 +17,10 @@ Il tipo TickMarkType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| CROSS | Il tipo di segno di graduazione è Croce.|
-| INSIDE |Il tipo di segno di spunta è Dentro.|
-| NONE | Il tipo di segno di graduazione è Nessuno.|
-| OUTSIDE | Il tipo di segno di graduazione è Esterno|
+| CROSS | Il tipo di segno di spunta è Croce.|
+| INSIDE | Il tipo di segno di spunta è Inside.|
+| NONE |Il tipo di segno di spunta è Nessuno.|
+| OUTSIDE | Il tipo di segno di spunta è Esterno|
 
 
 

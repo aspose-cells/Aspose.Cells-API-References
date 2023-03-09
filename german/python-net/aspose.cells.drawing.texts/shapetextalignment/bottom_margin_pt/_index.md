@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den unteren Rand in Punkteinheiten zurück
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

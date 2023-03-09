@@ -22,7 +22,7 @@ def apply_column_style(self, column, style, flag):
 | :- | :- | :- |
 | column | int | Der Spaltenindex.|
 | style | [Style](/cells/de/python-net/aspose.cells/style) | Das Stilobjekt, das angewendet wird.|
-| flag | [StyleFlag](/cells/de/python-net/aspose.cells/styleflag) | Flags, die angewendete Formatierungseigenschaften anzeigen.|
+| flag | [StyleFlag](/cells/de/python-net/aspose.cells/styleflag) |Flags, die angewandte Formatierungseigenschaften anzeigen.|
 
 
 

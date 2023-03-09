@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_subtotals Eigentum
 
-Gibt an, ob das angegebene Feld automatische Zwischensummen anzeigt. Standard ist wahr.
+Gibt an, ob das angegebene Feld automatische Zwischensummen anzeigt. Der Standardwert ist wahr.
 ###  Definition:
 ```python
 @property

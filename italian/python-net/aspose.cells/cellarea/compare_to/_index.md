@@ -13,7 +13,7 @@ Confronta due oggetti CellArea in base al loro angolo in alto a sinistra.
 
 ###  ritorna
 
-Se due angoli si trovano in righe diverse, confronta il loro indice di riga. Altrimenti confronta il loro indice di colonna.
+Se due angoli si trovano in righe diverse, confronta il loro indice di riga.
 Se due angoli sono uguali, verrà restituito 0.
 
 
@@ -23,7 +23,7 @@ def compare_to(self, obj):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | obj | any |  |
 

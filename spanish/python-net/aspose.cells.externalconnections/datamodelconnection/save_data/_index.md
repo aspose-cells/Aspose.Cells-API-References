@@ -10,7 +10,7 @@ is_root: false
 ##  save_data propiedad
 
 True si se van a guardar los datos externos obtenidos a través de la conexión para completar una tabla
-con el libro de trabajo; en caso contrario, falso.
+con el libro de trabajo; de lo contrario, falso.
 ###  Definición:
 ```python
 @property

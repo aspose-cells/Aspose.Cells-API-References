@@ -1,13 +1,13 @@
 ﻿---
 title: PivotField类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 10
 url: /zh/python-net/aspose.cells.pivot/pivotfield/
 is_root: false
 ---
-##  PivotField类
+## PivotField类
 表示数据透视表中的字段。
 
 
@@ -24,7 +24,7 @@ PivotField 类型公开了以下成员：
 | [position](/cells/zh/python-net/aspose.cells.pivot/pivotfield/position) |表示 PivotFields 中的 PivotField 索引。|
 | [name](/cells/zh/python-net/aspose.cells.pivot/pivotfield/name) |表示 PivotField 名称。|
 | [display_name](/cells/zh/python-net/aspose.cells.pivot/pivotfield/display_name) |表示 PivotField 显示名称。|
-| [is_auto_subtotals](/cells/zh/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) |指示指定字段是否显示自动小计。默认为真。|
+| [is_auto_subtotals](/cells/zh/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) |指定字段是否显示自动小计，默认为true。|
 | [drag_to_column](/cells/zh/python-net/aspose.cells.pivot/pivotfield/drag_to_column) |指示指定字段是否可以拖到列位置。<br/>默认值是true。|
 | [drag_to_hide](/cells/zh/python-net/aspose.cells.pivot/pivotfield/drag_to_hide) |指示指定字段是否可以拖动到隐藏位置。<br/>默认值是true。|
 | [drag_to_row](/cells/zh/python-net/aspose.cells.pivot/pivotfield/drag_to_row) |指示指定字段是否可以拖动到行位置。<br/>默认值是true。|
@@ -42,7 +42,7 @@ PivotField 类型公开了以下成员：
 | [is_auto_show](/cells/zh/python-net/aspose.cells.pivot/pivotfield/is_auto_show) |表示指定的数据透视表字段是否自动显示，只对excel 2003有效。|
 | [is_ascend_show](/cells/zh/python-net/aspose.cells.pivot/pivotfield/is_ascend_show) |指示指定的数据透视表字段是否按升序自动显示。|
 | [auto_show_count](/cells/zh/python-net/aspose.cells.pivot/pivotfield/auto_show_count) |表示顶部或底部项目的数量<br/>自动显示在指定的数据透视表字段中。|
-| [auto_show_field](/cells/zh/python-net/aspose.cells.pivot/pivotfield/auto_show_field) |表示车展字段索引。 -1 表示 PivotField 本身。<br/>它应该是数据字段的索引。|
+| [auto_show_field](/cells/zh/python-net/aspose.cells.pivot/pivotfield/auto_show_field) |表示自动显示字段索引。-1 表示 PivotField 本身。<br/>它应该是数据字段的索引。|
 | [function](/cells/zh/python-net/aspose.cells.pivot/pivotfield/function) |表示用于汇总数据透视表数据字段的函数。|
 | [data_display_format](/cells/zh/python-net/aspose.cells.pivot/pivotfield/data_display_format) |表示如何显示数据字段中包含的值。|
 | [base_field_index](/cells/zh/python-net/aspose.cells.pivot/pivotfield/base_field_index) |表示自定义计算的基础字段。|

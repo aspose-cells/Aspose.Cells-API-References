@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/shapecollection/ungroup/
 is_root: false
 ---
 ##  ungroup(group) {#GroupShape}
-Delar upp formobjekten.
+Dela upp formobjekten.
 
 
 
@@ -18,7 +18,7 @@ def ungroup(self, group):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | group | [GroupShape](/cells/sv/python-net/aspose.cells.drawing/groupshape) | Gruppformen.|
 ###  Anmärkningar

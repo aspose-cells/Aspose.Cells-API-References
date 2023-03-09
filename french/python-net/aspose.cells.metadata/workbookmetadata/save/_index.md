@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | file_name | str | Le nom du fichier.|
 
@@ -34,7 +34,7 @@ def save(self, stream):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux.|
 

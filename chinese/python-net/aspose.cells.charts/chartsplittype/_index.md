@@ -1,13 +1,13 @@
 ﻿---
 title: ChartSplitType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 430
 url: /zh/python-net/aspose.cells.charts/chartsplittype/
 is_root: false
 ---
-##  ChartSplitType枚举
+## ChartSplitType枚举
 表示饼图饼图或饼图条形图的两个部分的拆分方式。
 
 

@@ -18,7 +18,7 @@ Typen PropertyType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | BOOLEAN | Fastigheten har ett booleskt värde.|
-| DATE_TIME |Egenskapen är ett datum och tid.|
+| DATE_TIME | Egenskapen är ett datum och tid.|
 | DOUBLE | Fastigheten är ett flytande tal.|
 | NUMBER | Egenskapen är ett heltal.|
 | STRING | Egenskapen är ett strängvärde.|

@@ -1,5 +1,5 @@
 ﻿---
-title: RevisionCustomView sınıf
+title: RevisionCustomView sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 70
 url: /tr/python-net/aspose.cells.revisions/revisioncustomview/
 is_root: false
 ---
-##  RevisionCustomView sınıf
+##  RevisionCustomView sınıfı
 Çalışma kitabına özel bir görünüm eklemeye veya kaldırmaya ilişkin bir revizyon kaydını temsil eder
 
 

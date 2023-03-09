@@ -22,7 +22,7 @@ def add(self, start_cell, end_cell, has_headers):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_cell | str | خلية البداية لنطاق القائمة.|
 | end_cell | str | خلية نهاية نطاق القائمة.|
@@ -44,7 +44,7 @@ def add(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | صف البداية لنطاق القائمة.|
 | start_column | int | صف البداية لنطاق القائمة.|

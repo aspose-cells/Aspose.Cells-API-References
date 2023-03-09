@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_width mülk
 
-Genişliği nokta birimi cinsinden alır ve ayarlar.
+Genişliği nokta birimleri cinsinden alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

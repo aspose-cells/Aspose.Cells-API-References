@@ -30,7 +30,7 @@ def get_dependents_in_calculation(self, recursive):
 Um diese Methode zu verwenden, stellen Sie bitte sicher, dass die Arbeitsmappe mit dem wahren Wert für festgelegt wurde
 [FormulaSettings.enable_calculation_chain](/cells/de/python-net/aspose.cells/formulasettings#enable_calculation_chain) und wurde mit dieser Einstellung vollständig berechnet.
 Wenn es keinen Formelbezug zu dieser Zelle gibt, wird null zurückgegeben.
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook

@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die signer ab und setzt sie.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import SignatureLine

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_print_area_only proprietà
 
-Indica se si esporta solo l'area di stampa in un file html. Il valore predefinito è falso.
+Indica se si esporta solo l'area di stampa in un file html.
 ###  Definizione:
 ```python
 @property

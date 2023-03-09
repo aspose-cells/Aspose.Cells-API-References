@@ -10,7 +10,7 @@ is_root: false
 ##  custom propiedad
 
 Representa la cadena de formato de número custom de este objeto de estilo.
-Si el formato de número custom no está configurado (por ejemplo, el formato de número está integrado), se devolverá "".
+Si no se establece el formato de número custom (por ejemplo, el formato de número está integrado), se devolverá "".
 
 ###  Observaciones
 

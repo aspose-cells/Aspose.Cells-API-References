@@ -1,6 +1,6 @@
 ﻿---
 title: format_row方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 120
@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | row | int |Row 对象的行索引|
 | style | [Style](/cells/zh/python-net/aspose.cells/style) |要格式化的样式|

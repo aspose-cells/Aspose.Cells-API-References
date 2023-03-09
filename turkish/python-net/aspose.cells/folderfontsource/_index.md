@@ -1,5 +1,5 @@
 ﻿---
-title: FolderFontSource sınıf
+title: FolderFontSource sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 640
 url: /tr/python-net/aspose.cells/folderfontsource/
 is_root: false
 ---
-##  FolderFontSource sınıf
+##  FolderFontSource sınıfı
 TrueType yazı tipi dosyalarını içeren klasörü temsil eder.
 
 
@@ -22,7 +22,7 @@ FolderFontSource türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/tr/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Ctor.|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/tr/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Müdür.|
 
 
 ###  Özellikler

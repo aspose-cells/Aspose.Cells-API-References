@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/cells/insert_columns/
 is_root: false
 ---
 ##  insert_columns(column_index, total_columns) {#int-int}
-Inserta algunas columnas en la hoja de trabajo.
+Inserta algunas columnas en la hoja de cálculo.
 
 
 
@@ -18,14 +18,14 @@ def insert_columns(self, column_index, total_columns):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | Índice de columnas.|
 | total_columns | int | El número de columnas.|
 
 
 ##  insert_columns(column_index, total_columns, update_reference) {#int-int-bool}
-Inserta algunas columnas en la hoja de trabajo.
+Inserta algunas columnas en la hoja de cálculo.
 
 
 
@@ -35,11 +35,11 @@ def insert_columns(self, column_index, total_columns, update_reference):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | Índice de columnas.|
 | total_columns | int | El número de columnas.|
-| update_reference | bool | Indica si se actualizarán las referencias en otras hojas de trabajo.|
+| update_reference | bool |Indica si se actualizarán las referencias en otras hojas de trabajo.|
 
 
 

@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_inch Eigentum
 
-Stellt die Breite des Kommentars in Zoll dar.
+Stellt die Breite des Kommentars in Zolleinheiten dar.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 

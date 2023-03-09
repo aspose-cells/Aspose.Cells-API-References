@@ -19,7 +19,7 @@ TextAlignmentType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | GENERAL | Genel metin hizalamasını temsil eder.|
 | BOTTOM | Alt metin hizalamasını temsil eder.|
-| CENTER |Merkez metin hizalamasını temsil eder.|
+| CENTER | Merkez metin hizalamasını temsil eder.|
 | CENTER_ACROSS | Metin hizalaması boyunca merkezi temsil eder.|
 | DISTRIBUTED | Dağıtılmış metin hizalamasını temsil eder.|
 | FILL | Dolgu metni hizalamasını temsil eder.|
@@ -27,7 +27,7 @@ TextAlignmentType türü aşağıdaki üyeleri gösterir:
 | LEFT | Sol metin hizalamasını temsil eder.|
 | RIGHT | Doğru metin hizalamasını temsil eder.|
 | TOP | Üst metin hizalamasını temsil eder.|
-| JUSTIFIED_LOW | Metni, Arapça metin için ayarlanmış bir kashida uzunluğuyla hizalar.|
+| JUSTIFIED_LOW |Metni, Arapça metin için ayarlanmış bir kashida uzunluğuyla hizalar.|
 | THAI_DISTRIBUTED | Tayca metni özel olarak dağıtır, çünkü her karakter bir sözcük olarak ele alınır.|
 
 

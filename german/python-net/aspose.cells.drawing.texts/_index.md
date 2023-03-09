@@ -7,28 +7,28 @@ weight: 10
 url: /de/python-net/aspose.cells.drawing.texts/
 is_root: false
 ---
- Der**Aspose.Cells.Drawing.Texts** namespace stellt Klassen bereit, die Textobjekte wie Absatz, Aufzählungszeichen und mehr zeichnen und formatieren.
+ Der**Aspose.Cells.Drawing.Texts** namespace stellt Klassen bereit, die Textobjekte wie Absätze, Aufzählungszeichen und mehr zeichnen und formatieren.
 
 ###  Klassen
 | Klasse| Beschreibung|
 | :- | :- |
-| [AutoNumberedBulletValue](/cells/de/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Stellt automatisch nummeriertes Aufzählungszeichen dar.|
+| [AutoNumberedBulletValue](/cells/de/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Stellt automatisch nummerierte Aufzählungszeichen dar.|
 | [Bullet](/cells/de/python-net/aspose.cells.drawing.texts/bullet) | Stellt die Kugel dar.|
 | [BulletValue](/cells/de/python-net/aspose.cells.drawing.texts/bulletvalue) | Repräsentiert den Wert des Aufzählungszeichens.|
 | [CharacterBulletValue](/cells/de/python-net/aspose.cells.drawing.texts/characterbulletvalue) | Stellt das Zeichen Aufzählungszeichen dar.|
-| [FontSettingCollection](/cells/de/python-net/aspose.cells.drawing.texts/fontsettingcollection) | Stellt die Liste von [FontSetting](/cells/de/python-net/aspose.cells/fontsetting) dar.|
+| [FontSettingCollection](/cells/de/python-net/aspose.cells.drawing.texts/fontsettingcollection) |Stellt die Liste von [FontSetting](/cells/de/python-net/aspose.cells/fontsetting) dar.|
 | [NoneBulletValue](/cells/de/python-net/aspose.cells.drawing.texts/nonebulletvalue) | Stellt keine Kugel dar.|
 | [PictureBulletValue](/cells/de/python-net/aspose.cells.drawing.texts/picturebulletvalue) | Stellt den Wert des Bildaufzählungszeichens dar.|
 | [ShapeTextAlignment](/cells/de/python-net/aspose.cells.drawing.texts/shapetextalignment) | Stellt die Einstellung der Textausrichtung der Form dar;|
 | [TextOptions](/cells/de/python-net/aspose.cells.drawing.texts/textoptions) | Stellt die Textoptionen dar.|
 | [TextParagraph](/cells/de/python-net/aspose.cells.drawing.texts/textparagraph) | Stellt die Textabsatzeinstellung dar.|
-| [TextParagraphCollection](/cells/de/python-net/aspose.cells.drawing.texts/textparagraphcollection) |Stellt den gesamten Textabsatz dar.|
+| [TextParagraphCollection](/cells/de/python-net/aspose.cells.drawing.texts/textparagraphcollection) | Repräsentiert alle Textabsätze.|
 | [TextTabStop](/cells/de/python-net/aspose.cells.drawing.texts/texttabstop) | Repräsentiert einen Tabstopp.|
 | [TextTabStopCollection](/cells/de/python-net/aspose.cells.drawing.texts/texttabstopcollection) | Stellt die Liste aller Tabstopps dar.|
 
 
 ###  Aufzählungen
-| Aufzählung| Beschreibung|
+|Aufzählung| Beschreibung|
 | :- | :- |
 | [BulletType](/cells/de/python-net/aspose.cells.drawing.texts/bullettype) | Repräsentiert den Typ des Geschosses.|
 | [LineSpaceSizeType](/cells/de/python-net/aspose.cells.drawing.texts/linespacesizetype) | Repräsentiert den Einheitentyp der Zeilenabstandsgröße.|

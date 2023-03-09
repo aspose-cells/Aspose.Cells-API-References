@@ -22,7 +22,7 @@ def calculate_formula(self, formula):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | Hesaplanacak formül.|
 
@@ -42,7 +42,7 @@ def calculate_formula(self, formula, opts):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | Hesaplanacak formül.|
 | opts | [CalculationOptions](/cells/tr/python-net/aspose.cells/calculationoptions) | Formül hesaplama seçenekleri|
@@ -59,7 +59,7 @@ def calculate_formula(self, options, recursive):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/tr/python-net/aspose.cells/calculationoptions) | Hesaplama seçenekleri|
 | recursive | bool | Doğru, çalışma sayfasının hücrelerinin diğer çalışma sayfalarının hücrelerine bağımlı olması anlamına gelir,<br/>diğer çalışma sayfalarındaki bağımlı hücreler de hesaplanacaktır.<br/> Yanlış, çalışma sayfasındaki tüm formüllerin hesaplandığı ve değerlerin doğru olduğu anlamına gelir.|
@@ -76,14 +76,14 @@ def calculate_formula(self, recursive, ignore_error, custom_function):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | recursive | bool | Doğru, çalışma sayfasının hücrelerinin diğer çalışma sayfalarının hücrelerine bağımlı olması anlamına gelir,<br/>diğer çalışma sayfalarındaki bağımlı hücreler de hesaplanacaktır.<br/> Yanlış, çalışma sayfasındaki tüm formüllerin hesaplandığı ve değerlerin doğru olduğu anlamına gelir.|
-| ignore_error | bool | Formüllerin hesaplanmasındaki hatayı gizleyip gizlemediğini gösterir.<br/> Hata, desteklenmeyen işlev, harici bağlantılar vb. olabilir.|
+| ignore_error | bool | Formüllerin hesaplanmasındaki hatayı gizleyip gizlemediğini gösterir.<br/> Hata, desteklenmeyen işlevler, harici bağlantılar vb. olabilir.|
 | custom_function | [ICustomFunction](/cells/tr/python-net/aspose.cells/icustomfunction) | Özel formül hesaplama, hesaplama motorunu genişletmek için çalışır.|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Yerine,
+NOT: Bu üye artık kullanılmıyor.
 lütfen CalculateFormula(CalculationOptions, bool) yöntemini kullanın.
  Bu yöntem Ağustos 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

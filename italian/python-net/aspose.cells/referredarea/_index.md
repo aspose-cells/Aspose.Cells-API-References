@@ -19,7 +19,7 @@ Il tipo ReferredArea espone i membri seguenti:
 | :- | :- |
 | [is_external_link](/cells/it/python-net/aspose.cells/referredarea/is_external_link) | Indica se si tratta di un collegamento esterno.|
 | [external_file_name](/cells/it/python-net/aspose.cells/referredarea/external_file_name) | Ottieni il nome del file esterno se si tratta di un riferimento esterno.|
-| [sheet_name](/cells/it/python-net/aspose.cells/referredarea/sheet_name) | Indica in quale foglio si trova questo riferimento.|
+| [sheet_name](/cells/it/python-net/aspose.cells/referredarea/sheet_name) |Indica in quale foglio si trova questo riferimento.|
 | [is_area](/cells/it/python-net/aspose.cells/referredarea/is_area) | Indica se si tratta di un'area.|
 | [end_column](/cells/it/python-net/aspose.cells/referredarea/end_column) | La colonna finale dell'area.|
 | [start_column](/cells/it/python-net/aspose.cells/referredarea/start_column) | La colonna iniziale dell'area.|

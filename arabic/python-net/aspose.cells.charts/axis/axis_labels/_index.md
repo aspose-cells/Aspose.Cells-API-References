@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  axis_labels الملكية
 
-الحصول على تسميات المحور بعد استدعاء طريقة Chart.Calculate ().
+يحصل على تسميات المحور بعد استدعاء طريقة Chart.Calculate ().
 ###  تعريف:
 ```python
 @property

@@ -11,7 +11,7 @@ is_root: false
 
 Resmin data'ini alır.
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook

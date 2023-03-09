@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  distance fastighet
 
-Hämtar och ställer in distance för skuggan. Spänner från 0 till 200 poäng.
+Hämtar och ställer in skuggans distance. Spänner från 0 till 200 poäng.
 ###  Definition:
 ```python
 @property

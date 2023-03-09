@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent propiedad
 
-Devuelve el objeto Worksheet que representa la hoja que contiene la segmentación. Solo lectura.
+Devuelve el objeto Worksheet que representa la hoja que contiene la segmentación.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

@@ -18,7 +18,7 @@ def set_characters(self, characters):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | characters | list | Tutti gli oggetti Personaggi.|
 

@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le texte affiché à l'utilisateur au moment de la signature.
 
-###  Exemple
+###  Exemples
 
 ```python
 from aspose.cells.drawing import SignatureLine

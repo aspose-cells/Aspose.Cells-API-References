@@ -18,7 +18,7 @@ def hide_group_detail(self, is_vertical, index):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | is_vertical | bool | صحيح ، قم بطي الصفوف المجمعة.|
 | index | int | فهرس الصف / العمود|

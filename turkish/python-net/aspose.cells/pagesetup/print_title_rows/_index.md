@@ -11,7 +11,7 @@ is_root: false
 
 Her sayfanın başında yinelenecek hücreleri içeren satırları temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

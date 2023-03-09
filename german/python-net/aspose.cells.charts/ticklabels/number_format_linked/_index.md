@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format_linked Eigentum
 
-True, wenn das Zahlenformat mit den Zellen verknüpft ist
+ True, wenn das Zahlenformat mit den Zellen verknüpft ist
 (damit sich das Zahlenformat in den Beschriftungen ändert, wenn es sich in den Zellen ändert).
 ###  Definition:
 ```python

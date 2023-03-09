@@ -26,7 +26,7 @@ def add(self, name, user_id, provider_id):
 | :- | :- | :- |
 | name | str | Der Name der Person.|
 | user_id | str |  |
-| provider_id | str | Die ID des Anbieters|
+| provider_id | str | Die Identität des Anbieters|
 
 
 

@@ -53,7 +53,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_columns | int | Anzahl der Spalten dieses Hyperlinkbereichs.|
 | address | str | Adresse des Hyperlinks.|
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells import Workbook
@@ -88,7 +88,7 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 | end_cell_name | str | Die untere rechte Zelle des Bereichs.|
 | address | str | Adresse des Hyperlinks.|
 | text_to_display | str | Der Text, der für den angegebenen Hyperlink angezeigt werden soll.|
-| screen_tip | str | Der QuickInfo-Text für den angegebenen Hyperlink.|
+| screen_tip | str |Der QuickInfo-Text für den angegebenen Hyperlink.|
 
 
 

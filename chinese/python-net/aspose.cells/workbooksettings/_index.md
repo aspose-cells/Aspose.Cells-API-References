@@ -1,13 +1,13 @@
 ﻿---
 title: WorkbookSettings类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 1610
 url: /zh/python-net/aspose.cells/workbooksettings/
 is_root: false
 ---
-##  WorkbookSettings类
+## WorkbookSettings类
 表示工作簿的所有设置。
 
 
@@ -34,8 +34,8 @@ WorkbookSettings 类型公开了以下成员：
 | [language_code](/cells/zh/python-net/aspose.cells/workbooksettings/language_code) |获取或设置基于已保存文件的 CountryCode 的 Workbook 版本的用户界面语言。|
 | [region](/cells/zh/python-net/aspose.cells/workbooksettings/region) |获取或设置工作簿的区域设置。|
 | [globalization_settings](/cells/zh/python-net/aspose.cells/workbooksettings/globalization_settings) |获取和设置全球化设置。|
-| [number_decimal_separator](/cells/zh/python-net/aspose.cells/workbooksettings/number_decimal_separator) |获取或设置用于格式化/分析数值的小数点分隔符。默认为当前区域的小数点分隔符。|
-| [number_group_separator](/cells/zh/python-net/aspose.cells/workbooksettings/number_group_separator) |获取或设置用于分隔数值中小数点左侧数字组的字符。默认为当前区域的组分隔符。|
+| [number_decimal_separator](/cells/zh/python-net/aspose.cells/workbooksettings/number_decimal_separator) |获取或设置用于格式化/分析数值的小数点分隔符。|
+| [number_group_separator](/cells/zh/python-net/aspose.cells/workbooksettings/number_group_separator) |获取或设置在数值中分隔小数点左侧数字组的字符。默认为当前 Region 的组分隔符。|
 | [password](/cells/zh/python-net/aspose.cells/workbooksettings/password) |表示工作簿文件加密密码。|
 | [write_protection](/cells/zh/python-net/aspose.cells/workbooksettings/write_protection) |提供对工作簿写保护选项的访问。|
 | [is_encrypted](/cells/zh/python-net/aspose.cells/workbooksettings/is_encrypted) |获取一个值，该值指示打开此工作簿是否需要密码。|
@@ -65,22 +65,22 @@ WorkbookSettings 类型公开了以下成员：
 | [update_adjacent_cells_border](/cells/zh/python-net/aspose.cells/workbooksettings/update_adjacent_cells_border) |指示是否更新相邻单元格的边框。|
 | [significant_digits](/cells/zh/python-net/aspose.cells/workbooksettings/significant_digits) |获取和设置有效位数。<br/>默认值为 [CellsHelper.significant_digits](/cells/zh/python-net/aspose.cells/cellshelper#significant_digits)。|
 | [check_compatibility](/cells/zh/python-net/aspose.cells/workbooksettings/check_compatibility) |指示在保存工作簿时是否检查与早期版本的兼容性。|
-| [check_excel_restriction](/cells/zh/python-net/aspose.cells/workbooksettings/check_excel_restriction) |用户修改单元格相关对象时是否检查excel文件的限制。<br/>例如，excel 不允许输入超过 32K 的字符串值。<br/>当您输入一个大于 32K 的值时，例如 Cell.PutValue(string)，如果此属性为真，您将得到一个异常。<br/>如果此属性为 false，我们将接受您输入的字符串值作为单元格的值，以便稍后<br/>您可以输出其他文件格式的完整字符串值，例如 CSV。<br/>但是，如果您设置了这种对 excel 文件格式无效的值，<br/>您以后不应将工作簿另存为 excel 文件格式。否则生成的excel文件可能会出现意外错误。|
+| [check_excel_restriction](/cells/zh/python-net/aspose.cells/workbooksettings/check_excel_restriction) |用户修改单元格相关对象时是否检查excel文件的限制。<br/>例如，excel 不允许输入超过 32K 的字符串值。<br/>当您输入一个大于 32K 的值时，例如 Cell.PutValue(string)，如果此属性为真，您将得到一个异常。<br/>如果此属性为 false，我们将接受您输入的字符串值作为单元格的值，以便稍后<br/>您可以输出其他文件格式的完整字符串值，例如 CSV。<br/>但是，如果您设置了这种对 excel 文件格式无效的值，<br/>您以后不应将工作簿另存为 excel 文件格式。|
 | [auto_recover](/cells/zh/python-net/aspose.cells/workbooksettings/auto_recover) |指示文件是否标记为自动恢复。|
 | [crash_save](/cells/zh/python-net/aspose.cells/workbooksettings/crash_save) |指示应用程序是否在崩溃后最后保存了工作簿文件。|
 | [data_extract_load](/cells/zh/python-net/aspose.cells/workbooksettings/data_extract_load) |指示应用程序是否上次打开工作簿进行数据恢复。|
 | [repair_load](/cells/zh/python-net/aspose.cells/workbooksettings/repair_load) |指示应用程序上次是在安全模式还是修复模式下打开工作簿。|
 | [build_version](/cells/zh/python-net/aspose.cells/workbooksettings/build_version) |指定应用程序的增量公开发布。|
-| [memory_setting](/cells/zh/python-net/aspose.cells/workbooksettings/memory_setting) |获取或设置内存使用选项。新选项将作为新建工作表的默认选项，但不会对现有工作表生效。|
+| [memory_setting](/cells/zh/python-net/aspose.cells/workbooksettings/memory_setting) |获取或设置内存使用选项，新选项将作为新建工作表的默认选项，但对现有工作表不生效。|
 | [paper_size](/cells/zh/python-net/aspose.cells/workbooksettings/paper_size) |获取和设置默认打印纸尺寸。|
 | [warning_callback](/cells/zh/python-net/aspose.cells/workbooksettings/warning_callback) |获取或设置警告回调。|
 | [max_rows_of_shared_formula](/cells/zh/python-net/aspose.cells/workbooksettings/max_rows_of_shared_formula) |获取和设置共享公式的最大行数。|
-| [compliance](/cells/zh/python-net/aspose.cells/workbooksettings/compliance) |指定输出文档的 OOXML 版本。默认值为 Ecma376_2006。|
+| [compliance](/cells/zh/python-net/aspose.cells/workbooksettings/compliance) |指定输出文档的 OOXML 版本。|
 | [quote_prefix_to_style](/cells/zh/python-net/aspose.cells/workbooksettings/quote_prefix_to_style) |表示在单元格中输入字符串值（以单引号开头）时是否设置[Style.quote_prefix](/cells/zh/python-net/aspose.cells/style#quote_prefix)属性|
 | [formula_settings](/cells/zh/python-net/aspose.cells/workbooksettings/formula_settings) |获取公式相关功能的设置。|
 | [precision_as_displayed](/cells/zh/python-net/aspose.cells/workbooksettings/precision_as_displayed) |如果此工作簿中的计算将仅使用数字显示时的精度来完成，则为真|
 | [re_calculate_on_open](/cells/zh/python-net/aspose.cells/workbooksettings/re_calculate_on_open) |指示是否在打开文件时重新计算所有公式。|
-| [create_calc_chain](/cells/zh/python-net/aspose.cells/workbooksettings/create_calc_chain) |是否创建计算公式链。默认为假。|
+| [create_calc_chain](/cells/zh/python-net/aspose.cells/workbooksettings/create_calc_chain) |是否创建计算公式链，默认为false。|
 | [force_full_calculate](/cells/zh/python-net/aspose.cells/workbooksettings/force_full_calculate) |每次触发计算时完全计算。|
 | [iteration](/cells/zh/python-net/aspose.cells/workbooksettings/iteration) |指示是否启用迭代计算来解决循环引用。|
 | [max_iteration](/cells/zh/python-net/aspose.cells/workbooksettings/max_iteration) |返回或设置解决循环引用的最大迭代次数。|

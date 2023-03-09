@@ -22,7 +22,7 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/es/python-net/aspose.cells.drawing/msopresettexteffect) | El tipo de efecto de texto preestablecido de mso.|
 | text | str | El texto de WordArt.|
@@ -30,8 +30,8 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 | size | int | El tamaño de fuente|
 | font_bold | bool | Indica si la fuente está en negrita.|
 | font_italic | bool | Indica si la fuente está en cursiva.|
-| top | int | Representa el desplazamiento vertical de la forma desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.|
-| left | int | Representa el desplazamiento vertical de la forma desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.|
+| top | int |Representa el desplazamiento vertical de la forma desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.|
+| left | int |Representa el desplazamiento vertical de la forma desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.|
 | height | int | Representa la altura de la forma, en unidades de 1/4000 del área del gráfico.|
 | width | int | Representa el ancho de la forma, en unidades de 1/4000 del área del gráfico.|
 

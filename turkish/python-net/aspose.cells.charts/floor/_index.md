@@ -1,5 +1,5 @@
 ﻿---
-title: Floor sınıf
+title: Floor sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 160
 url: /tr/python-net/aspose.cells.charts/floor/
 is_root: false
 ---
-##  Floor sınıf
+##  Floor sınıfı
 3 boyutlu grafiğin zeminini temsil eden nesneyi kapsüller.
 
 
@@ -32,7 +32,7 @@ Floor türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import License, Workbook

@@ -18,7 +18,7 @@ def set_error_check(self, error_check_type, is_check):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/tr/python-net/aspose.cells/errorchecktype) | hata tipi kontrol edilebilir.|
 | is_check | bool | true verilen hata türünün kontrol edilmesi gerekiyorsa (kontrol başarısız olursa hücre için yeşil üçgen gösterilecektir).|

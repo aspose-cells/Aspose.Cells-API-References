@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  min_length Eigentum
 
-Repräsentiert die Mindestlänge des Datenbalkens .
+Repräsentiert die Mindestlänge des Datenbalkens.
 ###  Definition:
 ```python
 @property

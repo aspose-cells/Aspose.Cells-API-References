@@ -1,5 +1,5 @@
 ﻿---
-title: ColorHelper sınıf
+title: ColorHelper sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 110
 url: /tr/python-net/aspose.cells.drawing/colorhelper/
 is_root: false
 ---
-##  ColorHelper sınıf
+##  ColorHelper sınıfı
 Renk konusunda yardımcı fonksiyonlar sağlar.
 
 

@@ -19,7 +19,7 @@ Le type ConditionalFormattingResult expose les membres suivants :
 | :- | :- |
 | [conditional_style](/cells/fr/python-net/aspose.cells/conditionalformattingresult/conditional_style) | Obtient le style de résultat conditionnel.|
 | [conditional_formatting_icon](/cells/fr/python-net/aspose.cells/conditionalformattingresult/conditional_formatting_icon) | Obtient l'image du jeu d'icônes.|
-| [conditional_formatting_data_bar](/cells/fr/python-net/aspose.cells/conditionalformattingresult/conditional_formatting_data_bar) | Obtient l'objet DataBar.|
+| [conditional_formatting_data_bar](/cells/fr/python-net/aspose.cells/conditionalformattingresult/conditional_formatting_data_bar) |Obtient l'objet DataBar.|
 | [conditional_formatting_color_scale](/cells/fr/python-net/aspose.cells/conditionalformattingresult/conditional_formatting_color_scale) | Obtient l'objet ColorScale.|
 | [color_scale_result](/cells/fr/python-net/aspose.cells/conditionalformattingresult/color_scale_result) | Obtient la couleur d'affichage de l'échelle de couleurs.|
 

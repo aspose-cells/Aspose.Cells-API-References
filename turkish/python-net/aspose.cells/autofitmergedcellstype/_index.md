@@ -19,7 +19,7 @@ AutoFitMergedCellsType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | NONE | Birleştirilmiş hücreleri yok sayın.|
 | FIRST_LINE | Yalnızca ilk satırın yüksekliğini genişletir.|
-| LAST_LINE | Yalnızca son satırın yüksekliğini genişletir.|
+| LAST_LINE |Yalnızca son satırın yüksekliğini genişletir.|
 | EACH_LINE | Yalnızca her satırın yüksekliğini genişletir.|
 
 

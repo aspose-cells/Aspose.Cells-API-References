@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cell/get_height_of_value/
 is_root: false
 ---
 ##  get_height_of_value() {#}
-Değerin yüksekliğini piksel birimi cinsinden alır.
+Değerin yüksekliğini piksel cinsinden alır.
 
 
 ###  İadeler

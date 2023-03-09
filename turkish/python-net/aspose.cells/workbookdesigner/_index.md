@@ -1,5 +1,5 @@
 ﻿---
-title: WorkbookDesigner sınıf
+title: WorkbookDesigner sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1600
 url: /tr/python-net/aspose.cells/workbookdesigner/
 is_root: false
 ---
-##  WorkbookDesigner sınıf
+##  WorkbookDesigner sınıfı
 Bir tasarımcı elektronik tablosunu temsil eden nesneyi kapsüller.
 
 
@@ -24,10 +24,10 @@ WorkbookDesigner türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [workbook](/cells/tr/python-net/aspose.cells/workbookdesigner/workbook) | [WorkbookDesigner.workbook](/cells/tr/python-net/aspose.cells/workbookdesigner#workbook) nesnesini alır ve ayarlar.|
-| [repeat_formulas_with_subtotal](/cells/tr/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Ara toplam satırı ile formüllerin tekrarlanıp tekrarlanmadığını gösterir.|
+| [workbook](/cells/tr/python-net/aspose.cells/workbookdesigner/workbook) |[WorkbookDesigner.workbook](/cells/tr/python-net/aspose.cells/workbookdesigner#workbook) nesnesini alır ve ayarlar.|
+| [repeat_formulas_with_subtotal](/cells/tr/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Ara toplam satırları ile yinelenen formülleri gösterir.|
 | [update_empty_string_as_null](/cells/tr/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | DOĞRU ise, değer "" ise Null eklenecektir;|
-| [update_reference](/cells/tr/python-net/aspose.cells/workbookdesigner/update_reference) | Diğer çalışma sayfalarındaki başvuruların güncellenip güncellenmeyeceğini belirtir.|
+| [update_reference](/cells/tr/python-net/aspose.cells/workbookdesigner/update_reference) |Diğer çalışma sayfalarındaki başvuruların güncellenip güncellenmeyeceğini belirtir.|
 | [calculate_formula](/cells/tr/python-net/aspose.cells/workbookdesigner/calculate_formula) | Formüllerin hesaplanıp hesaplanmayacağını belirtir.|
 | [call_back](/cells/tr/python-net/aspose.cells/workbookdesigner/call_back) | Smartmarker işlemenin geri arama arayüzünü alır ve ayarlar.|
 | [line_by_line](/cells/tr/python-net/aspose.cells/workbookdesigner/line_by_line) | Akıllı işaretleyicinin satır satır işlenip işlenmediğini gösterir.|
@@ -46,7 +46,7 @@ WorkbookDesigner türü aşağıdaki üyeleri gösterir:
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import Workbook, WorkbookDesigner

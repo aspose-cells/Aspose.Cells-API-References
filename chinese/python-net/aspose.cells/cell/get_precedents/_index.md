@@ -1,6 +1,6 @@
 ﻿---
 title: get_precedents方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
@@ -24,16 +24,16 @@ def get_precedents(self):
 
 ### 评论
 
-* 如果这不是公式单元格，则返回 null。所有出现在该单元格公式中的引用，无论在计算时是否被引用，都将被返回。
+* 如果这不是公式单元格，则返回空值。所有出现在该单元格公式中的引用，无论在计算时是否被引用，都将被返回。
 
 例如，公式“=IF(TRUE,A1,A2)”中的A2单元格在计算时虽然没有使用，
 它仍然作为公式的先例。要获得那些仅影响计算的参考，请使用 [Cell.get_precedents_in_calculation()](/cells/zh/python-net/aspose.cells/cell/get_precedents_in_calculation)。
 
-* 如果这不是公式单元格，则返回 null。所有出现在该单元格公式中的引用，无论在计算时是否被引用，都将被返回。
+* 如果这不是公式单元格，则返回空值。所有出现在该单元格公式中的引用，无论在计算时是否被引用，都将被返回。
 例如，公式“=IF(TRUE,A1,A2)”中的A2单元格在计算时虽然没有使用，
 它仍然作为公式的先例。要获得那些仅影响计算的参考，请使用 [Cell.get_precedents_in_calculation()](/cells/zh/python-net/aspose.cells/cell/get_precedents_in_calculation)。
 
-* 如果这不是公式单元格，则返回 null。所有出现在该单元格公式中的引用，无论在计算时是否被引用，都将被返回。
+* 如果这不是公式单元格，则返回空值。所有出现在该单元格公式中的引用，无论在计算时是否被引用，都将被返回。
 例如，公式“=IF(TRUE,A1,A2)”中的A2单元格在计算时虽然没有使用，
 它仍然作为公式的先例。要获得那些仅影响计算的参考，请使用 [Cell.get_precedents_in_calculation()](/cells/zh/python-net/aspose.cells/cell/get_precedents_in_calculation)。
 ### 例子

@@ -22,7 +22,7 @@ def add(self, field_index, type):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | индекс PivotField|
 | type | [PivotFilterType](/cells/ru/python-net/aspose.cells.pivot/pivotfiltertype) | тип PivotFilter|

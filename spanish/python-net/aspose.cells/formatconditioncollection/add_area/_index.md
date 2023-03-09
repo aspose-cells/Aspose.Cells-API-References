@@ -22,9 +22,9 @@ def add_area(self, cell_area):
 ```
 
 
-| Parámetro| Tipo| Descripción|
+| Parámetros| Tipo| Descripción|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | Rango de celdas con formato condicional.|
+| cell_area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) |Rango de celdas con formato condicional.|
 
 
 

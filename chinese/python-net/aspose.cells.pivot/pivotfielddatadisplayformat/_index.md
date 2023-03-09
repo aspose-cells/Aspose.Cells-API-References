@@ -1,13 +1,13 @@
 ﻿---
 title: PivotFieldDataDisplayFormat枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 150
 url: /zh/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/
 is_root: false
 ---
-##  PivotFieldDataDisplayFormat枚举
+## PivotFieldDataDisplayFormat枚举
 表示数据透视表数据字段中的数据显示格式。
 
 

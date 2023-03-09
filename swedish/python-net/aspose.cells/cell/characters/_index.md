@@ -13,7 +13,7 @@ Returnerar ett teckenobjekt som representerar ett intervall på characters inom 
 
 ###  Returnerar
 
-Tecken objekt.
+Karaktärsobjekt.
 
 
 ```python
@@ -22,13 +22,13 @@ def characters(self, start_index, length):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | start_index | int | Indexet för början av karaktären.|
 | length | int | Antal tecken.|
 ###  Anmärkningar
 
-Denna metod fungerar bara på cell med strängvärde.
+Den här metoden fungerar bara på celler med strängvärden.
 ###  Exempel
 
 

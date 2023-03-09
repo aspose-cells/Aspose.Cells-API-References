@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  note mülk
 
-Yorumun içeriğini temsil eder.
+Yorumların içeriğini temsil eder.
 
 ###  Notlar
 
 Bu bir zincirleme yorumsa, note değiştirilemez, aksi halde MS Excel bunu zincirleme bir yorum olarak işleyemez.
 
-###  Örnek
+###  örnekler
 
 ```python
 

@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_null fastighet
 
-Anger om nollvärde ignoreras.
+Anger om nollvärden ignoreras.
 ###  Definition:
 ```python
 @property

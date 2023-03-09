@@ -18,7 +18,7 @@ def copy(self, source, copy_option):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | source | [Validation](/cells/tr/python-net/aspose.cells/validation) | Kaynak doğrulama.|
 | copy_option | [CopyOptions](/cells/tr/python-net/aspose.cells/copyoptions) | Kopyalama seçeneği.|

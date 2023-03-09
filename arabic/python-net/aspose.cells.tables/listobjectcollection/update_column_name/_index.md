@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.tables/listobjectcollection/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-تحديث اسم كل عمود من الجداول.
+تحديث جميع أسماء الأعمدة في الجداول.
 
 
 

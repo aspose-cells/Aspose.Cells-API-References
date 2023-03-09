@@ -18,7 +18,7 @@ def insert_columns(self, column_index, total_columns):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column_index | int | Indice de colonne.|
 | total_columns | int | Le nombre de colonnes.|
@@ -35,11 +35,11 @@ def insert_columns(self, column_index, total_columns, update_reference):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | column_index | int | Indice de colonne.|
 | total_columns | int | Le nombre de colonnes.|
-| update_reference | bool | Indique si les références dans d'autres feuilles de calcul seront mises à jour.|
+| update_reference | bool |Indique si les références dans d'autres feuilles de calcul seront mises à jour.|
 
 
 

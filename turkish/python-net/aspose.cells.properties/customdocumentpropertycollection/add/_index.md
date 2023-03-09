@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı.|
 | value | str | Mülkün değeri.|
@@ -43,7 +43,7 @@ def add(self, name, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı.|
 | value | int | Mülkün değeri.|
@@ -64,7 +64,7 @@ def add(self, name, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı.|
 | value | DateTime | Mülkün değeri.|
@@ -85,14 +85,14 @@ def add(self, name, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı.|
 | value | bool | Mülkün değeri.|
 
 
 ##  add(name, value) {#str-float}
- için yeni bir özel belge özelliği oluşturur.**PropertyType.Float** veri tipi.
+ için yeni bir özel belge özelliği oluşturur.**PropertyType.Floot** veri tipi.
 
 
 ###  İadeler
@@ -106,7 +106,7 @@ def add(self, name, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı.|
 | value | float | Mülkün değeri.|

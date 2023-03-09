@@ -13,7 +13,7 @@ Ruft den Anzeigemodus von background ab und legt ihn fest
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ HINWEIS: Dieses Mitglied ist jetzt veraltet.
  Bitte verwenden Sie die LegendEntry.BackgroundMode-Eigenschaft.
  Diese Property wird 12 Monate später seit JANUAR 2012 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

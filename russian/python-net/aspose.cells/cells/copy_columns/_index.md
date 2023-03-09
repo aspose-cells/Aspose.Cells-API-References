@@ -18,12 +18,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_column_index | int | Индекс исходного столбца.|
-| destination_column_index | int |Индекс столбца назначения.|
-| column_number | int | Скопированный номер столбца.|
+| destination_column_index | int | Индекс столбца назначения.|
+| column_number | int | Скопированные номера столбцов.|
 
 
 ##  copy_columns(source_cells0, source_column_index, destination_column_index, column_number, paste_options) {#Cells-int-int-int-PasteOptions}
@@ -37,12 +37,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_column_index | int | Индекс исходного столбца.|
-| destination_column_index | int |Индекс столбца назначения.|
-| column_number | int | Скопированный номер столбца.|
+| destination_column_index | int | Индекс столбца назначения.|
+| column_number | int | Скопированные номера столбцов.|
 | paste_options | [PasteOptions](/cells/ru/python-net/aspose.cells/pasteoptions) | варианты оклейки.|
 
 
@@ -57,12 +57,12 @@ def copy_columns(self, source_cells, source_column_index, source_total_columns, 
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_column_index | int | Индекс исходного столбца.|
 | source_total_columns | int | Количество исходных столбцов.|
-| destination_column_index | int |Индекс столбца назначения.|
+| destination_column_index | int | Индекс столбца назначения.|
 | destination_total_columns | int | Количество столбцов назначения.|
 
 

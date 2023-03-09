@@ -22,12 +22,12 @@ def process_row(self, row):
 ```
 
 
-| Paramètre| Taper| Description|
+| Paramètres| Taper| Description|
 | :- | :- | :- |
 | row | [Row](/cells/fr/python-net/aspose.cells/row) | Objet de ligne en cours de traitement.|
 ###  Remarques
 
-Il sera appelé après les propriétés de la ligne telles que la hauteur, le style, etc. ont été lus. Cependant, les cellules de cette ligne n'ont pas encore été lues.
+Il sera appelé après les propriétés de la ligne telles que la hauteur, le style, etc.
 
 
 ###  Voir également

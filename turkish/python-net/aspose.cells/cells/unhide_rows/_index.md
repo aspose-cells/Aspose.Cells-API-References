@@ -18,11 +18,11 @@ def unhide_rows(self, row, total_rows, height):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | total_rows | int | Satır numarası.|
-| height | float | Satır yüksekliği. Satırın yüksekliği yalnızca satır gizlendiğinde ve verilen yükseklik değeri pozitif olduğunda değiştirilecektir.|
+| height | float | Satır yüksekliği Satırın yüksekliği yalnızca satır gizlendiğinde ve verilen yükseklik değeri pozitif olduğunda değiştirilecektir.|
 
 
 

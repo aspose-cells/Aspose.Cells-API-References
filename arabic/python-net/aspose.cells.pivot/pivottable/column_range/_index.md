@@ -10,7 +10,7 @@ is_root: false
 ##  column_range الملكية
 
 إرجاع كائن CellArea يمثل النطاق
-الذي يحتوي على منطقة العمود في تقرير PivotTable. يقرأ فقط.
+الذي يحتوي على منطقة العمود في تقرير PivotTable.
 ###  تعريف:
 ```python
 @property

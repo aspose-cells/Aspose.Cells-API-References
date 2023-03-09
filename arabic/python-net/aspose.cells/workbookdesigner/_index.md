@@ -24,10 +24,10 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [workbook](/cells/ar/python-net/aspose.cells/workbookdesigner/workbook) | الحصول على العنصر [WorkbookDesigner.workbook](/cells/ar/python-net/aspose.cells/workbookdesigner#workbook) وتعيينه.|
-| [repeat_formulas_with_subtotal](/cells/ar/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | يشير إلى ما إذا كان يتم تكرار الصيغ مع صف الإجمالي الفرعي.|
+| [workbook](/cells/ar/python-net/aspose.cells/workbookdesigner/workbook) |الحصول على العنصر [WorkbookDesigner.workbook](/cells/ar/python-net/aspose.cells/workbookdesigner#workbook) وتعيينه.|
+| [repeat_formulas_with_subtotal](/cells/ar/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | يشير إلى ما إذا كان يتم تكرار الصيغ مع صفوف الإجمالي الفرعي.|
 | [update_empty_string_as_null](/cells/ar/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | إذا كانت القيمة TRUE ، فسيتم إدراج Null إذا كانت القيمة "" ؛|
-| [update_reference](/cells/ar/python-net/aspose.cells/workbookdesigner/update_reference) | يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
+| [update_reference](/cells/ar/python-net/aspose.cells/workbookdesigner/update_reference) |يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
 | [calculate_formula](/cells/ar/python-net/aspose.cells/workbookdesigner/calculate_formula) | يشير إلى ما إذا كان يجب حساب الصيغ.|
 | [call_back](/cells/ar/python-net/aspose.cells/workbookdesigner/call_back) | يحصل ويعين واجهة رد معالجة سمارت ماركر.|
 | [line_by_line](/cells/ar/python-net/aspose.cells/workbookdesigner/line_by_line) | يشير إلى ما إذا كانت معالجة العلامة الذكية سطرًا بسطر.|
@@ -36,7 +36,7 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [set_data_source(data_source, cells_data_table)](/cells/ar/python-net/aspose.cells/workbookdesigner/set_data_source/#str-ICellsDataTable) | يحدد مصدر البيانات لعنصر [ICellsDataTable](/cells/ar/python-net/aspose.cells/icellsdatatable).|
+| [set_data_source(data_source, cells_data_table)](/cells/ar/python-net/aspose.cells/workbookdesigner/set_data_source/#str-ICellsDataTable) | يحدد مصدر البيانات لكائن [ICellsDataTable](/cells/ar/python-net/aspose.cells/icellsdatatable).|
 | [set_data_source(variable, data)](/cells/ar/python-net/aspose.cells/workbookdesigner/set_data_source/#str-any) | يضبط ربط البيانات بمتغير.|
 | [process()](/cells/ar/python-net/aspose.cells/workbookdesigner/process/#) | يعالج العلامات الذكية ويملأ قيم مصدر البيانات.|
 | [process(is_preserved)](/cells/ar/python-net/aspose.cells/workbookdesigner/process/#bool) | يعالج العلامات الذكية ويملأ قيم مصدر البيانات.|
@@ -46,7 +46,7 @@ is_root: false
 
 
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook, WorkbookDesigner

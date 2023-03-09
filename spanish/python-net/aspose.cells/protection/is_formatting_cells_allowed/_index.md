@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  is_formatting_cells_allowed propiedad
 
-Representa si se permite el formato de celdas en una hoja de cálculo protegida.
+Representa si se permite el formato de celdas en una hoja de trabajo protegida.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
+ NOTA: Este miembro ahora está obsoleto.
  utilice la propiedad Protection.AllowFormattingCell.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

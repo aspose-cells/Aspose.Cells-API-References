@@ -21,15 +21,15 @@ El tipo ChartDataTable expone los siguientes miembros:
 | [auto_scale_font](/cells/es/python-net/aspose.cells.charts/chartdatatable/auto_scale_font) | True si el texto del objeto cambia el tamaño de fuente cuando cambia el tamaño del objeto.<br/> El valor por defecto es verdadero.|
 | [background_mode](/cells/es/python-net/aspose.cells.charts/chartdatatable/background_mode) | Obtiene y establece el modo de visualización del fondo.|
 | [background](/cells/es/python-net/aspose.cells.charts/chartdatatable/background) | Obtiene y establece el modo de visualización del fondo.|
-| [has_border_horizontal](/cells/es/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) | Verdadero si la tabla de datos del gráfico tiene bordes de celda horizontales|
+| [has_border_horizontal](/cells/es/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) |Verdadero si la tabla de datos del gráfico tiene bordes de celda horizontales|
 | [has_border_vertical](/cells/es/python-net/aspose.cells.charts/chartdatatable/has_border_vertical) | Verdadero si la tabla de datos del gráfico tiene bordes de celda verticales|
 | [has_border_outline](/cells/es/python-net/aspose.cells.charts/chartdatatable/has_border_outline) | Verdadero si la tabla de datos del gráfico tiene bordes de contorno|
-| [show_legend_key](/cells/es/python-net/aspose.cells.charts/chartdatatable/show_legend_key) |True si la clave de la leyenda de la etiqueta de datos está visible.|
+| [show_legend_key](/cells/es/python-net/aspose.cells.charts/chartdatatable/show_legend_key) | True si la clave de la leyenda de la etiqueta de datos está visible.|
 | [border](/cells/es/python-net/aspose.cells.charts/chartdatatable/border) | Devuelve un objeto Border que representa el borde del objeto.|
 
 
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 from aspose.cells import Workbook

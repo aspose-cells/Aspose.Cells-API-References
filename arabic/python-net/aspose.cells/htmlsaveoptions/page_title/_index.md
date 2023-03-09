@@ -10,7 +10,7 @@ is_root: false
 ##  page_title الملكية
 
 عنوان صفحة html.
-فقط للحفظ في دفق html.
+فقط للحفظ في دفق HTML.
 ###  تعريف:
 ```python
 @property

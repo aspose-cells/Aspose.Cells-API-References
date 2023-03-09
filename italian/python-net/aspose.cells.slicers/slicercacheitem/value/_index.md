@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value proprietà
 
-Restituisce il testo dell'etichetta per l'elemento slicer. Sola lettura.
+Restituisce il testo dell'etichetta per l'elemento slicer.
 ###  Definizione:
 ```python
 @property

@@ -1,6 +1,6 @@
 ﻿---
 title: get_standard_header_footer_font_style_name方法
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 200
@@ -22,7 +22,7 @@ def get_standard_header_footer_font_style_name(self, localfont_style_name):
 ```
 
 
-|范围|类型|描述|
+|参数|类型|描述|
 | :- | :- | :- |
 | localfont_style_name | str |页眉/页脚的语言环境字体样式名称。|
 

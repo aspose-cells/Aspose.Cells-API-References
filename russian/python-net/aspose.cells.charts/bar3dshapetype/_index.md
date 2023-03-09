@@ -19,10 +19,10 @@ is_root: false
 | :- | :- |
 | BOX | Коробка|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | ПирамидтоМакс|
+| PYRAMID_TO_MAX | Пирамида до Макса|
 | CYLINDER | Цилиндр|
-| CONE_TO_POINT | КонеТоПоинт|
-| CONE_TO_MAX | КонеТоМакс|
+| CONE_TO_POINT | Конус к точке|
+| CONE_TO_MAX | Конус до макс.|
 
 
 

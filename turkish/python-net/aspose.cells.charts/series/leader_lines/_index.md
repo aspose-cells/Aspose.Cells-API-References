@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  leader_lines mülk
 
- Bir grafikte öncü çizgileri temsil eder. Lider çizgiler, veri etiketlerini veri noktalarına bağlar.
-Bu nesne bir koleksiyon değil; tek bir öncü çizgiyi temsil eden hiçbir nesne yoktur.
+ Bir grafikte öncü çizgileri temsil eder.Öncü çizgiler, veri etiketlerini veri noktalarına bağlar.
+Bu nesne bir koleksiyon değil; tek bir öncü çizgiyi temsil eden hiçbir nesne yok.
 ###  Tanım:
 ```python
 @property

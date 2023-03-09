@@ -18,10 +18,10 @@ def add(self, name, value):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | İçerik türü özelliğinin adı.|
-| value | str |İçerik türü özelliğinin değeri.|
+| value | str | İçerik türü özelliğinin değeri.|
 
 
 ##  add(name, value, type) {#str-str-str}
@@ -35,10 +35,10 @@ def add(self, name, value, type):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
 | name | str | İçerik türü özelliğinin adı.|
-| value | str |İçerik türü özelliğinin değeri.|
+| value | str | İçerik türü özelliğinin değeri.|
 | type | str | İçerik türü özelliğinin türü.|
 
 

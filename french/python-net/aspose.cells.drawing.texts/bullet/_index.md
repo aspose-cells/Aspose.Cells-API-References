@@ -17,9 +17,9 @@ Le type Bullet expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [bullet_value](/cells/fr/python-net/aspose.cells.drawing.texts/bullet/bullet_value) | Obtient la valeur de la puce|
+| [bullet_value](/cells/fr/python-net/aspose.cells.drawing.texts/bullet/bullet_value) | Obtient la valeur de la balle|
 | [type](/cells/fr/python-net/aspose.cells.drawing.texts/bullet/type) | Obtient et définit le type de puce.|
-| [font_name](/cells/fr/python-net/aspose.cells.drawing.texts/bullet/font_name) | Obtient et définit le nom de la police.|
+| [font_name](/cells/fr/python-net/aspose.cells.drawing.texts/bullet/font_name) |Obtenez et définissez le nom de la police.|
 
 
 

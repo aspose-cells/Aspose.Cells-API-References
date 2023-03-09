@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width fastighet
 
-Fönstrets bredd, i punktenhet.
+Fönstrets bredd, i poängenheter.
 ###  Definition:
 ```python
 @property

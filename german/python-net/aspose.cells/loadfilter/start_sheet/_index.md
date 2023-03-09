@@ -22,7 +22,7 @@ def start_sheet(self, sheet):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/de/python-net/aspose.cells/worksheet) | Das zu ladende Arbeitsblatt.<br/>Hier können nur wenige Eigenschaften für das angegebene Arbeitsblattobjekt verwendet werden<br/>da die meisten Daten und Eigenschaften nicht geladen wurden. Die verfügbaren Eigenschaften sind:<br/> Name, Index, Sichtbarkeitstyp|
+| sheet | [Worksheet](/cells/de/python-net/aspose.cells/worksheet) | Das zu ladende Arbeitsblatt.<br/>Hier können nur wenige Eigenschaften für das angegebene Arbeitsblattobjekt verwendet werden<br/>da die meisten Daten und Eigenschaften nicht geladen wurden.<br/> Name, Index, Sichtbarkeitstyp|
 
 
 

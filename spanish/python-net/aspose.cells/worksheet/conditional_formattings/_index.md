@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings propiedad
 
-Obtiene los formatos condicionales en la hoja de trabajo.
+Obtiene el formato condicional en la hoja de trabajo.
 ###  Definición:
 ```python
 @property

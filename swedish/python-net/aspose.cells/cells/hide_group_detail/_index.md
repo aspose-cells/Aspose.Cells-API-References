@@ -18,7 +18,7 @@ def hide_group_detail(self, is_vertical, index):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | is_vertical | bool | Det är sant, komprimera de grupperade raderna.|
 | index | int | Rad-/kolumnindex|

@@ -1,6 +1,6 @@
 ﻿---
 title: output_blank_page_when_nothing_to_print 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 300

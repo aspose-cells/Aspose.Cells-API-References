@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin left sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.
 
-###  Örnek
+###  örnekler
 
 ```python
 

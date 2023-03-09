@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing proprietà
 
-Rappresenta il numero di categorie o serie tra le etichette dei segni di graduazione. Si applica solo agli assi categoria e serie.
+Rappresenta il numero di categorie o serie tra le etichette dei segni di graduazione.
 
 ###  Osservazioni
 

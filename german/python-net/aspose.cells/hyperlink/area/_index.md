@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  area Eigentum
 
-Ruft den Bereich des Hyperlinks ab.
+Ruft den Bereich der Hyperlinks ab.
 ###  Definition:
 ```python
 @property

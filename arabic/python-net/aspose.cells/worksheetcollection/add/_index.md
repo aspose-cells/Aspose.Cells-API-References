@@ -39,11 +39,11 @@ def add(self, type):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | type | [SheetType](/cells/ar/python-net/aspose.cells/sheettype) | نوع ورقة العمل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import SheetType, Workbook
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | sheet_name | str | اسم ورقة العمل|
 

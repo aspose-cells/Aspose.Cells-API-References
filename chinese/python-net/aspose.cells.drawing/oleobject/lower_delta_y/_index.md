@@ -1,6 +1,6 @@
 ﻿---
 title: lower_delta_y 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 890
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-取值范围为 0 到 256。
+值的范围是0到256。
 
 ### 例子
 

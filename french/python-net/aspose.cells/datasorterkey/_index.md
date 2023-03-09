@@ -18,7 +18,7 @@ Le type DataSorterKey expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [order](/cells/fr/python-net/aspose.cells/datasorterkey/order) | Indique l'ordre de tri.|
-| [index](/cells/fr/python-net/aspose.cells/datasorterkey/index) |Obtient l'index de la colonne triée (position absolue, la colonne A est 0, B est 1, ...).|
+| [index](/cells/fr/python-net/aspose.cells/datasorterkey/index) | Obtient l'index de la colonne triée (position absolue, la colonne A est 0, B est 1, ...).|
 | [type](/cells/fr/python-net/aspose.cells/datasorterkey/type) | Représente le type de tri.|
 | [icon_set_type](/cells/fr/python-net/aspose.cells/datasorterkey/icon_set_type) | Représente le type de jeu d'icônes.|
 | [icon_id](/cells/fr/python-net/aspose.cells/datasorterkey/icon_id) | Représente l'ID du type de jeu d'icônes.|

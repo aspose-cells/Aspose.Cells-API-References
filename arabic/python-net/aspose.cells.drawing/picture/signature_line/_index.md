@@ -11,7 +11,7 @@ is_root: false
 
 يحصل على خط التوقيع ويعينه
 
-###  مثال
+###  أمثلة
 
 ```python
 from aspose.cells import Workbook

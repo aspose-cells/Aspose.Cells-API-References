@@ -32,7 +32,7 @@ Typen WorkbookMetadata avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [save(file_name)](/cells/sv/python-net/aspose.cells.metadata/workbookmetadata/save/#str) | Spara den modifierade metadatan i filen.|
+| [save(file_name)](/cells/sv/python-net/aspose.cells.metadata/workbookmetadata/save/#str) | Spara den ändrade metadatan i filen.|
 | [save(stream)](/cells/sv/python-net/aspose.cells.metadata/workbookmetadata/save/#io.RawIOBase) | Spara den modifierade metadatan i strömmen.|
 
 

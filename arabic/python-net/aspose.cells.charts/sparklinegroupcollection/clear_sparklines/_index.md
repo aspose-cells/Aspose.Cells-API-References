@@ -18,7 +18,7 @@ def clear_sparklines(self, cell_area):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | تحدد مساحة الخلايا|
 

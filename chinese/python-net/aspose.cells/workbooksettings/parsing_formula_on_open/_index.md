@@ -1,6 +1,6 @@
 ﻿---
 title: parsing_formula_on_open 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 450
@@ -15,7 +15,7 @@ is_root: false
 
 仅适用于 Excel Xlsx、Xltx、Xltm 和 Xlsm 文件
 因为文件中的公式是用字符串公式存储的。
-注意：该成员现已过时。相反，请使用 LoadOptions.ParsingFormulaOnOpen。
+注意：该成员现在已过时。请改用 LoadOptions.ParsingFormulaOnOpen。
 自 2020 年 1 月起，此属性将在 12 个月后移除。
 Aspose 对您可能遇到的任何不便深表歉意。
 ### 定义：

@@ -1,5 +1,5 @@
 ﻿---
-title: Row sınıf
+title: Row sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 1300
 url: /tr/python-net/aspose.cells/row/
 is_root: false
 ---
-##  Row sınıf
+##  Row sınıfı
 Çalışma sayfasındaki tek bir satırı temsil eder.
 
 
@@ -19,16 +19,16 @@ Row türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [is_blank](/cells/tr/python-net/aspose.cells/row/is_blank) | Satırın herhangi bir veri içerip içermediğini gösterir|
 | [is_collapsed](/cells/tr/python-net/aspose.cells/row/is_collapsed) | satırın daraltılmış olup olmadığı|
-| [height](/cells/tr/python-net/aspose.cells/row/height) | Puan birimi cinsinden satır yüksekliğini alır ve ayarlar.|
+| [height](/cells/tr/python-net/aspose.cells/row/height) | Satır yüksekliğini Puan birimleri cinsinden alır ve ayarlar.|
 | [is_hidden](/cells/tr/python-net/aspose.cells/row/is_hidden) | Satırın gizli olup olmadığını gösterir.|
 | [index](/cells/tr/python-net/aspose.cells/row/index) | Bu satırın indeksini alır.|
 | [group_level](/cells/tr/python-net/aspose.cells/row/group_level) | Satırın grup düzeyini alır.|
-| [is_height_matched](/cells/tr/python-net/aspose.cells/row/is_height_matched) | Satır yüksekliği ile varsayılan yazı tipi yüksekliğinin eşleştiğini gösterir.|
+| [is_height_matched](/cells/tr/python-net/aspose.cells/row/is_height_matched) |Satır yüksekliği ile varsayılan yazı tipi yüksekliğinin eşleştiğini gösterir.|
 | [style](/cells/tr/python-net/aspose.cells/row/style) | Bu satırın stilini temsil eder.|
 | [has_custom_style](/cells/tr/python-net/aspose.cells/row/has_custom_style) | Bu satırın özel stil ayarları olup olmadığını gösterir (çalışma kitabından devralınan varsayılandan farklı).|
 | [first_cell](/cells/tr/python-net/aspose.cells/row/first_cell) | Satırdaki ilk hücre nesnesini alır.|
 | [first_data_cell](/cells/tr/python-net/aspose.cells/row/first_data_cell) | Satırdaki ilk boş olmayan hücreyi alır.|
-| [last_cell](/cells/tr/python-net/aspose.cells/row/last_cell) |Satırdaki son hücre nesnesini alır.|
+| [last_cell](/cells/tr/python-net/aspose.cells/row/last_cell) | Satırdaki son hücre nesnesini alır.|
 | [last_data_cell](/cells/tr/python-net/aspose.cells/row/last_data_cell) | Satırdaki boş olmayan son hücreyi alır.|
 
 
@@ -53,7 +53,7 @@ Hücreyi alır.
 
 
 
-###  Örnek
+###  örnekler
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

@@ -19,11 +19,11 @@ is_root: false
 | :- | :- |
 | [name](/cells/ru/python-net/aspose.cells.vba/vbamodule/name) | Получает и задает имя модуля.|
 | [type](/cells/ru/python-net/aspose.cells.vba/vbamodule/type) | Получает тип модуля.|
-| [codes](/cells/ru/python-net/aspose.cells.vba/vbamodule/codes) | Получает и устанавливает коды модуля.|
+| [codes](/cells/ru/python-net/aspose.cells.vba/vbamodule/codes) | Получает и устанавливает коды модулей.|
 
 
 
-###  Пример
+###  Примеры
 
 ```python
 from aspose.cells import Workbook

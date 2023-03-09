@@ -1,5 +1,5 @@
 ﻿---
-title: JsonUtility sınıf
+title: JsonUtility sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /tr/python-net/aspose.cells.utility/jsonutility/
 is_root: false
 ---
-##  JsonUtility sınıf
+##  JsonUtility sınıfı
 Json işlemenin yardımcı program sınıfını temsil eder.
 
 

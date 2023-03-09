@@ -18,10 +18,10 @@ def __init__(self, workbook, options):
 ```
 
 
-| Параметр| Тип| Описание|
+| Параметры| Тип| Описание|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/ru/python-net/aspose.cells/workbook) | Укажите, какая рабочая книга должна быть отображена.|
-| options | [ImageOrPrintOptions](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions) |ImageOrPrintOptions содержит некоторое свойство выходного изображения|
+| options | [ImageOrPrintOptions](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions содержит некоторое свойство выходного изображения|
 
 
 

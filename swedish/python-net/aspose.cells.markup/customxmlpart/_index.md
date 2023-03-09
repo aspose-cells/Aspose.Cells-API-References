@@ -19,7 +19,7 @@ Typen CustomXmlPart avslöjar följande medlemmar:
 | :- | :- |
 | [data](/cells/sv/python-net/aspose.cells.markup/customxmlpart/data) | Hämtar eller ställer in XML-innehållet för denna anpassade XML-datalagringsdel.|
 | [schema_data](/cells/sv/python-net/aspose.cells.markup/customxmlpart/schema_data) | Hämtar eller ställer in XML-innehållet för denna anpassade XML-schemadatalagringsdel.|
-| [id](/cells/sv/python-net/aspose.cells.markup/customxmlpart/id) | Hämtar och ställer in ID:t för den anpassade xml-delen.|
+| [id](/cells/sv/python-net/aspose.cells.markup/customxmlpart/id) |Hämtar och ställer in ID:t för den anpassade xml-delen.|
 
 
 

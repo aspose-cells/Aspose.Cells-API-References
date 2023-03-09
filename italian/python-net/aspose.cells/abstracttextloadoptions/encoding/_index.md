@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding proprietà
 
-Ottiene e imposta il valore predefinito encoding. Si applica solo al file csv.
+Ottiene e imposta il valore predefinito encoding. Si applica solo ai file csv.
 ###  Definizione:
 ```python
 @property

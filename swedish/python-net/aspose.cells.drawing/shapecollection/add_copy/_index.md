@@ -22,12 +22,12 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source_shape | [Shape](/cells/sv/python-net/aspose.cells.drawing/shape) | Källform.|
 | upper_left_row | int | Övre vänstra radens index.|
-| top | int | Representerar den vertikala förskjutningen av kryssrutan från dess vänstra rad, i pixelenhet.|
-| upper_left_column | int |Övre vänstra kolumnindex.|
+| top | int |Representerar den vertikala förskjutningen av kryssrutan från dess vänstra rad, i pixelenhet.|
+| upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int | Representerar den horisontella förskjutningen av textrutan från dess vänstra kolumn, i pixelenhet.|
 
 ###  Exempel

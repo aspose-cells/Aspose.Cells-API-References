@@ -11,7 +11,7 @@ is_root: false
 
 Indica se la forma dell'affettatrice è bloccata.
 
-###  Esempio
+###  Esempi
 
 ```python
 

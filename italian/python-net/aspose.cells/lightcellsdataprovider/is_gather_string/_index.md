@@ -26,7 +26,7 @@ def is_gather_string(self):
 
 La raccolta di valori di stringa trarrà vantaggio solo quando sono presenti molti valori di stringa duplicati per le celle fornite da questa implementazione.
 In questa situazione la raccolta di stringhe farà risparmiare molta memoria e genererà un file risultante più piccolo.
-Se sono presenti molti valori stringa per le celle fornite da LightCellsDataProvider ma pochi di essi sono uguali,
+Se ci sono molti valori stringa per le celle fornite da LightCellsDataProvider ma pochi di essi sono uguali,
 la raccolta della stringa costerà più memoria e tempo e non ha alcun vantaggio per il file risultante.
 
 

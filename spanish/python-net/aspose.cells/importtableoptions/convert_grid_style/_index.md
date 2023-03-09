@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_grid_style propiedad
 
-Indica si se aplica el estilo de la vista de cuadrícula a las celdas.
+Indica si aplicar el estilo de la vista de cuadrícula a las celdas.
 ###  Definición:
 ```python
 @property

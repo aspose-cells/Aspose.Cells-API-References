@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | STRETCH | تمتد|
 | STACK | كومة|
-| STACK_AND_SCALE | StackAndScale|
+| STACK_AND_SCALE | كومة ومقياس|
 
 
 

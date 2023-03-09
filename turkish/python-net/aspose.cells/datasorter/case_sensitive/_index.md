@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  case_sensitive mülk
 
-Dizeyi karşılaştırırken büyük/küçük harfe duyarlı olup olmadığını alır ve ayarlar.
+Dizeleri karşılaştırırken büyük/küçük harfe duyarlı olup olmadığını alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

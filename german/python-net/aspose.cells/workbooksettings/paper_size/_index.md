@@ -13,7 +13,7 @@ Ruft die Standarddruckpapiergröße ab und legt sie fest.
 
 ###  Bemerkungen
 
-Wenn es keine Einstellung für das Papierformat gibt, verwendet MS Excel die Standardeinstellung des Druckers.
+Wenn es keine Einstellung zum Papierformat gibt, verwendet MS Excel die Standardeinstellung des Druckers.
 ###  Definition:
 ```python
 @property

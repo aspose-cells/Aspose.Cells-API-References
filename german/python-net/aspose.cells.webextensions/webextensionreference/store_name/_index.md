@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  store_name Eigentum
 
-Ruft die Instanz des Marketplace ab, in der das Office-Add-In gespeichert ist, und legt diese fest. .
+Ruft die Instanz des Marketplace ab, in der das Office-Add-In gespeichert ist, und legt diese fest.
 ###  Definition:
 ```python
 @property

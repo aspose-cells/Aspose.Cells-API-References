@@ -16,7 +16,7 @@ Wenn der Benutzer beim Berechnen von Formeln eine StackOverflowException erhält
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte Berechnungsoptionen
+HINWEIS: Dieses Mitglied ist jetzt veraltet.
 mit der angegebenen CalcStackSize beim Berechnen von Formeln.
  Diese Property wird 12 Monate später seit Februar 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

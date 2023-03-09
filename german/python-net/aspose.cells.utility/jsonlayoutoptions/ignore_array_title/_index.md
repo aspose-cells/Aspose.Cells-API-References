@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_array_title Eigentum
 
-Gibt an, ob der Titel ignoriert wird, wenn das Array eine Eigenschaft des Objekts ist.
+Gibt an, ob der Titel ignoriert werden soll, wenn das Array eine Eigenschaft des Objekts ist.
 
 ###  Bemerkungen
 

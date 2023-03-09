@@ -18,11 +18,11 @@ def format(self, row, column, style):
 ```
 
 
-| Parametre| Tip| Tanım|
+| parametreler| Tip| Tanım|
 | :- | :- | :- |
-| row | int |Hücrenin Satır Dizini|
+| row | int | Hücrenin Satır Dizini|
 | column | int | Hücrenin sütun dizini|
-| style | [Style](/cells/tr/python-net/aspose.cells/style) | Hücreyi biçimlendirmek için kullanılan stil|
+| style | [Style](/cells/tr/python-net/aspose.cells/style) |Hücreyi biçimlendirmek için kullanılan stil|
 
 
 

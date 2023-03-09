@@ -21,7 +21,7 @@ Der Typ ShapeLockType macht die folgenden Member verfügbar:
 | ADJUST_HANDLES | Griffe anpassen|
 | TEXT | Text|
 | POINTS | Punkte|
-| CROP | Ernte|
+| CROP |Ernte|
 | SELECTION | Auswahl|
 | MOVE | Umzug|
 | ASPECT_RATIO | Seitenverhältnis|

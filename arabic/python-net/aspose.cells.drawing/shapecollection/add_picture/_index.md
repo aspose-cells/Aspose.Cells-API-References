@@ -22,15 +22,15 @@ def add_picture(self, upper_left_row, upper_left_column, lower_right_row, lower_
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | lower_right_row | int | فهرس الصف السفلي الأيمن|
 | lower_right_column | int | فهرس العمود الأيمن السفلي|
 | stream | io.RawIOBase | كائن دفق يحتوي على بيانات الصورة.|
 
-###  مثال
+###  أمثلة
 
 ```python
 
@@ -56,15 +56,15 @@ def add_picture(self, upper_left_row, upper_left_column, stream, width_scale, he
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | stream | io.RawIOBase | كائن دفق يحتوي على بيانات الصورة.|
 | width_scale | int | مقياس عرض الصورة ، نسبة مئوية.|
 | height_scale | int | مقياس ارتفاع الصورة ، نسبة مئوية.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

@@ -11,7 +11,7 @@ is_root: false
 
 Representa el desplazamiento horizontal de la forma desde su columna left, en unidades de píxeles.
 
-###  Ejemplo
+###  Ejemplos
 
 ```python
 

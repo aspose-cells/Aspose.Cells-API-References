@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_radar_axis_labels Eigentum
 
-True, wenn ein Netzdiagramm über Kategorieachsenbeschriftungen verfügt. Gilt nur für Netzkarten.
+True, wenn ein Netzdiagramm über Kategorieachsenbeschriftungen verfügt.
 ###  Definition:
 ```python
 @property

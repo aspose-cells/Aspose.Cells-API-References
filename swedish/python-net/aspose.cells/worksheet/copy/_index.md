@@ -18,7 +18,7 @@ def copy(self, source_sheet):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | Källarbetsblad.|
 
@@ -34,13 +34,13 @@ def copy(self, source_sheet, copy_options):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | Källarbetsblad.|
 | copy_options | [CopyOptions](/cells/sv/python-net/aspose.cells/copyoptions) |  |
 ###  Anmärkningar
 
-Du kan copy data från ett annat kalkylblad i samma fil eller en annan fil. Den här metoden stöder dock inte copy ritobjekt, såsom kommentarer, bilder och diagram.
+Du kan copy data från ett annat kalkylblad i samma fil eller en annan fil.
 
 
 ###  Se även

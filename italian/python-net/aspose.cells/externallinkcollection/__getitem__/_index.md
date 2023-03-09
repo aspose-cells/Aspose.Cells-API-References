@@ -13,7 +13,7 @@ Ottiene l'elemento [ExternalLink](/cells/it/python-net/aspose.cells/externallink
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
-| index | L'indice in base zero dell'elemento.|
+| index | Indice in base zero dell'elemento.|
 
 
 

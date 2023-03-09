@@ -18,7 +18,7 @@ def set_calculated_value(self, v):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | v | any |  |
 ###  Anmärkningar

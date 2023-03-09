@@ -1,13 +1,13 @@
 ﻿---
 title: CheckValueType枚举
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 790
 url: /zh/python-net/aspose.cells.drawing/checkvaluetype/
 is_root: false
 ---
-##  CheckValueType枚举
+## CheckValueType枚举
 表示复选框的校验值类型。
 
 

@@ -1,6 +1,6 @@
 ﻿---
 title: auto_fit_merged_cells 属性
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 30
@@ -14,7 +14,7 @@ is_root: false
 
 ### 评论
 
-注意：该成员现已过时。反而，
+注意：该成员现已过时。
 请改用 AutoFitterOptions.AutoFitMergedCellsType 属性。
 自 2018 年 12 月起 12 个月后，此属性将被删除。
 Aspose 对您可能遇到的任何不便深表歉意。

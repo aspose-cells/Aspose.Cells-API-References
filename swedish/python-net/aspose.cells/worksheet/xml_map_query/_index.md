@@ -22,10 +22,10 @@ def xml_map_query(self, path, xml_map):
 ```
 
 
-| Parameter| Typ| Beskrivning|
+| Parametrar| Typ| Beskrivning|
 | :- | :- | :- |
 | path | str | xml-elementets sökväg|
-| xml_map | [XmlMap](/cells/sv/python-net/aspose.cells/xmlmap) | Ange en xml-karta om du vill fråga efter den specifika sökvägen inom en specifik karta|
+| xml_map | [XmlMap](/cells/sv/python-net/aspose.cells/xmlmap) |Ange en xml-karta om du vill fråga efter den specifika sökvägen inom en specifik karta|
 
 
 

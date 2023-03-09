@@ -11,7 +11,7 @@ is_root: false
 
 Erhält und setzt die title des Sängers.
 
-###  Beispiel
+###  Beispiele
 
 ```python
 from aspose.cells.drawing import SignatureLine

@@ -22,16 +22,16 @@ def add_scroll_bar(self, upper_left_row, top, upper_left_column, left, height, w
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ ScrollBar من صفه الأيسر ، بوحدة بكسل.|
-| upper_left_column | int |فهرس العمود الأيسر العلوي.|
+| upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | left | int | يمثل الإزاحة الأفقية لـ ScrollBar من عمودها الأيسر ، بوحدة بكسل.|
 | height | int | يمثل ارتفاع شريط التمرير بوحدة بكسل.|
 | width | int | يمثل عرض شريط التمرير بوحدة بكسل.|
 
-###  مثال
+###  أمثلة
 
 ```python
 

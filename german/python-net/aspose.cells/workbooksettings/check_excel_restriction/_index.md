@@ -15,7 +15,7 @@ Wenn Sie einen Wert eingeben, der länger als 32 KB ist, wie z. B. Cell.PutValue
 Wenn diese Eigenschaft "false" ist, akzeptieren wir Ihren Eingabe-String-Wert als Wert der Zelle, damit dies später möglich ist
 bei anderen Dateiformaten wie CSV können Sie den kompletten Stringwert ausgeben.
 Wenn Sie jedoch einen solchen Wert festgelegt haben, der für das Excel-Dateiformat ungültig ist,
-Sie sollten die Arbeitsmappe später nicht als Excel-Dateiformat speichern. Andernfalls kann es zu unerwarteten Fehlern in der generierten Excel-Datei kommen.
+Sie sollten die Arbeitsmappe später nicht als Excel-Dateiformat speichern.
 ###  Definition:
 ```python
 @property

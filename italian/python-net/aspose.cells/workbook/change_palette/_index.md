@@ -18,7 +18,7 @@ def change_palette(self, color, index):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Struttura del colore.|
 | index | int | Indice tavolozza, 0 - 55.|
@@ -82,7 +82,7 @@ Quella che segue è la tavolozza dei colori standard.
 | Colore43| 153| 204| 0 |
 | Colore44| 255| 204| 0 |
 | Colore45| 255| 153| 0 |
-|Colore46| 255| 102| 0 |
+| Colore46| 255| 102| 0 |
 | Colore47| 102| 102| 153 |
 | Colore48| 150| 150| 150 |
 | Colore49| 0| 51| 102 |
@@ -90,7 +90,7 @@ Quella che segue è la tavolozza dei colori standard.
 | Colore51| 0| 51| 0 |
 | Colore52| 51| 51| 0 |
 | Colore53| 153| 51| 0 |
-| Colore54| 153| 51| 102 |
+|Colore54| 153| 51| 102 |
 | Colore55| 51| 51| 153 |
 | Colore56| 51| 51| 51 |
 

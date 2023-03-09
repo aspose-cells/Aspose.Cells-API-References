@@ -18,7 +18,7 @@ def set_row_height(self, row, height):
 ```
 
 
-| Parametro| Tipo| Descrizione|
+| Parametri| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga.|
 | height | float | Altezza della riga.In unità di punto Dovrebbe essere compresa tra 0 e 409,5.|

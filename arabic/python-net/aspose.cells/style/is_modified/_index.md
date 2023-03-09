@@ -23,7 +23,7 @@ def is_modified(self, modify_flag):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | modify_flag | [StyleModifyFlag](/cells/ar/python-net/aspose.cells/stylemodifyflag) | أعلام معدلة النمط|
 

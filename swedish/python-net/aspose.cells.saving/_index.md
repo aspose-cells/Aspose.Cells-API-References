@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Uppräkningar
-| Uppräkning| Beskrivning|
+|Uppräkning| Beskrivning|
 | :- | :- |
 | [SqlScriptOperatorType](/cells/sv/python-net/aspose.cells.saving/sqlscriptoperatortype) | Representerar typen av driftdata.|
 

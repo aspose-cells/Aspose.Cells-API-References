@@ -13,8 +13,8 @@ Representa si el usuario puede seleccionar celdas bloqueadas en una hoja de cál
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto. En cambio,
- utilice la propiedad Protection.AllowSelectingLockedCell.
+ NOTA: Este miembro ahora está obsoleto.
+utilice la propiedad Protection. AllowSelectingLockedCell.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

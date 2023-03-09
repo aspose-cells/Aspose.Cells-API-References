@@ -15,7 +15,7 @@ Ruft einen Wert ab oder legt einen Wert fest, ob die Registerkarten der Arbeitsm
 
 Der Standardwert ist wahr.
 
-###  Beispiel
+###  Beispiele
 
 Der folgende Code blendet die Blattregisterkarten und die Schaltflächen zum Blättern durch die Registerkarten für die Tabelle aus.
 

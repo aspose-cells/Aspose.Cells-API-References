@@ -1,5 +1,5 @@
 ﻿---
-title: BulletValue sınıf
+title: BulletValue sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /tr/python-net/aspose.cells.drawing.texts/bulletvalue/
 is_root: false
 ---
-##  BulletValue sınıf
+##  BulletValue sınıfı
 Madde işaretinin değerini temsil eder.
 
 

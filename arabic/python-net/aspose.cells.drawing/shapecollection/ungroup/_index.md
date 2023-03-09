@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/shapecollection/ungroup/
 is_root: false
 ---
 ##  ungroup(group) {#GroupShape}
-يفك تجميع عناصر الشكل.
+فك تجميع عناصر الشكل.
 
 
 
@@ -18,13 +18,13 @@ def ungroup(self, group):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | group | [GroupShape](/cells/ar/python-net/aspose.cells.drawing/groupshape) | شكل المجموعة.|
 ###  ملاحظات
 
 إذا تم تجميع شكل المجموعة بواسطة شكل مجموعة آخر ، فلن يتم فعل أي شيء.
-###  مثال
+###  أمثلة
 
 
 ```python

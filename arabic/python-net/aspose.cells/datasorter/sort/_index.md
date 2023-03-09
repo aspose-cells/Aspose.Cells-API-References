@@ -41,7 +41,7 @@ def sort(self, cells, area):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | cells | [Cells](/cells/ar/python-net/aspose.cells/cells) | تحتوي الخلايا على منطقة البيانات.|
 | area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | المنطقة بحاجة للفرز|
@@ -63,7 +63,7 @@ def sort(self, cells, start_row, start_column, end_row, end_column):
 ```
 
 
-| معامل| يكتب| وصف|
+| حدود| يكتب| وصف|
 | :- | :- | :- |
 | cells | [Cells](/cells/ar/python-net/aspose.cells/cells) | تحتوي الخلايا على منطقة البيانات.|
 | start_row | int | صف البداية للمنطقة.|
