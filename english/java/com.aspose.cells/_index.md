@@ -179,7 +179,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DirectoryType](../com.aspose.cells/directorytype) | Represents the directory type of the file name. |
 | [DisplayDrawingObjects](../com.aspose.cells/displaydrawingobjects) | Represents whether and how to show objects in the workbook. |
 | [DisplayUnitLabel](../com.aspose.cells/displayunitlabel) | Represents the display unit label. |
-| [DisplayUnitType](../com.aspose.cells/displayunittype) | Represents the type of display unit. |
+| [DisplayUnitType](../com.aspose.cells/displayunittype) | Represents the type of display unit of chart's axis. |
 | [DocumentProperty](../com.aspose.cells/documentproperty) | Represents a custom or built-in document property. |
 | [DocumentPropertyCollection](../com.aspose.cells/documentpropertycollection) | Base class for [BuiltInDocumentPropertyCollection](../com.aspose.cells/builtindocumentpropertycollection) and [CustomDocumentPropertyCollection](../com.aspose.cells/customdocumentpropertycollection) collections. |
 | [DocxSaveOptions](../com.aspose.cells/docxsaveoptions) | Represents options of saving .docx file. |
@@ -399,6 +399,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Picture](../com.aspose.cells/picture) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [PictureBulletValue](../com.aspose.cells/picturebulletvalue) | Represents the value of the image bullet. |
 | [PictureCollection](../com.aspose.cells/picturecollection) | Encapsulates a collection of [Picture](../com.aspose.cells/picture) objects. |
+| [PivotArea](../com.aspose.cells/pivotarea) | Presents the selected area of the PivotTable. |
 | [PivotConditionFormatRuleType](../com.aspose.cells/pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
 | [PivotConditionFormatScopeType](../com.aspose.cells/pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
 | [PivotField](../com.aspose.cells/pivotfield) | Represents a field in a PivotTable report. |
@@ -422,6 +423,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotTable](../com.aspose.cells/pivottable) | Summary description for PivotTable. |
 | [PivotTableAutoFormatType](../com.aspose.cells/pivottableautoformattype) | Represents PivotTable auto format type. |
 | [PivotTableCollection](../com.aspose.cells/pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
+| [PivotTableSelectionType](../com.aspose.cells/pivottableselectiontype) | Specifies what can be selected in a PivotTable during a structured selection. |
 | [PivotTableStyleType](../com.aspose.cells/pivottablestyletype) | Represents the pivot table style type. |
 | [PlacementType](../com.aspose.cells/placementtype) | Represents the way the drawing object is attached to the cells below it. |
 | [PlotArea](../com.aspose.cells/plotarea) | Encapsulates the object that represents the plot area in a chart. |

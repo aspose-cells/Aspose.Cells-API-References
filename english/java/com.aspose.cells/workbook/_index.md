@@ -141,7 +141,7 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
 | [toString()](#toString--) |  |
 | [unprotect(String password)](#unprotect-java.lang.String-) | Unprotects a workbook. |
 | [unprotectSharedWorkbook(String password)](#unprotectSharedWorkbook-java.lang.String-) | Unprotects a shared workbook. |
-| [updateLinkedDataSource(Workbook[] externalWorkbooks)](#updateLinkedDataSource-com.aspose.cells.Workbook---) | If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data. |
+| [updateLinkedDataSource(Workbook[] externalWorkbooks)](#updateLinkedDataSource-com.aspose.cells.Workbook---) | If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data from give sources. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -1620,12 +1620,12 @@ public void updateLinkedDataSource(Workbook[] externalWorkbooks)
 ```
 
 
-If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data. If the method is not called before calculating formulas, Aspose.Cells will use the previous information(cached in the file); Please set CellsHelper.StartupPath,CellsHelper.AltStartPath,CellsHelper.LibraryPath. And please set Workbook.FilePath if this workbook is from a stream, otherwise Aspose.Cells could not get the external link full path sometimes.
+If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data from give sources. If corresponding external link cannot be found for one workbook, then this workbook will be ignored. So when you set a formula later with one new external link which you intend to make the ignored workbook be linked to it, the link cannot be performed until you call this this method again with those workbooks.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| externalWorkbooks | [Workbook\[\]](../../com.aspose.cells/workbook) | External workbooks are referenced by this workbook. If it's null, we will directly open the external linked files.. If it's not null, we will check whether the external link in the array first; if not, we will open the external linked files again. |
+| externalWorkbooks | [Workbook\[\]](../../com.aspose.cells/workbook) | Workbooks that will be used to update data of external links referenced by this workbook. The match of those workbooks with external links is determined by [getFileName()](../../com.aspose.cells/workbook\#getFileName--) and [ExternalLink.getDataSource()](../../com.aspose.cells/externallink\#getDataSource--). So please make sure [getFileName()](../../com.aspose.cells/workbook\#getFileName--) has been specified with the proper value for every workbook so they can be linked to corresponding external link. |
 
 ### wait() {#wait--}
 ```

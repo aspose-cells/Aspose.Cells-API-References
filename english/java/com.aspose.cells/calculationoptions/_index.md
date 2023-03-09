@@ -29,6 +29,7 @@ Represents options for calculation.
 | [getCustomEngine()](#getCustomEngine--) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [getCustomFunction()](#getCustomFunction--) | The custom formula calculation functions to extend the calculation engine. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error in calculating formulas. |
+| [getLinkedDataSources()](#getLinkedDataSources--) | Specifies the data sources for external links used in formulas. |
 | [getPrecisionStrategy()](#getPrecisionStrategy--) | Specifies the strategy for processing precision of calculation. |
 | [getRecursive()](#getRecursive--) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |
 | [hashCode()](#hashCode--) |  |
@@ -39,6 +40,7 @@ Represents options for calculation.
 | [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) | The custom formula calculation functions to extend the calculation engine. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error in calculating formulas. |
+| [setLinkedDataSources(Workbook[] value)](#setLinkedDataSources-com.aspose.cells.Workbook---) | Specifies the data sources for external links used in formulas. |
 | [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) | Specifies the strategy for processing precision of calculation. |
 | [setRecursive(boolean value)](#setRecursive-boolean-) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |
 | [toString()](#toString--) |  |
@@ -126,6 +128,16 @@ Indicates if you need to hide the error in calculating formulas. The error may b
 
 **Returns:**
 boolean
+### getLinkedDataSources() {#getLinkedDataSources--}
+```
+public Workbook[] getLinkedDataSources()
+```
+
+
+Specifies the data sources for external links used in formulas. Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---).
+
+**Returns:**
+com.aspose.cells.Workbook[]
 ### getPrecisionStrategy() {#getPrecisionStrategy--}
 ```
 public int getPrecisionStrategy()
@@ -142,7 +154,7 @@ public boolean getRecursive()
 ```
 
 
-Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells.
+Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value if true.
 
 **Returns:**
 boolean
@@ -237,6 +249,19 @@ Indicates if you need to hide the error in calculating formulas. The error may b
 | --- | --- | --- |
 | value | boolean |  |
 
+### setLinkedDataSources(Workbook[] value) {#setLinkedDataSources-com.aspose.cells.Workbook---}
+```
+public void setLinkedDataSources(Workbook[] value)
+```
+
+
+Specifies the data sources for external links used in formulas. Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Workbook\[\]](../../com.aspose.cells/workbook) |  |
+
 ### setPrecisionStrategy(int value) {#setPrecisionStrategy-int-}
 ```
 public void setPrecisionStrategy(int value)
@@ -256,7 +281,7 @@ public void setRecursive(boolean value)
 ```
 
 
-Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells.
+Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value if true.
 
 **Parameters:**
 | Parameter | Type | Description |

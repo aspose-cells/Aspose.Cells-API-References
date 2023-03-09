@@ -23,6 +23,7 @@ WaringType
 | [INVALID_AUTO_FILTER_RANGE](#INVALID-AUTO-FILTER-RANGE) | Invalid autofilter range. |
 | [INVALID_DATA](#INVALID-DATA) | Invalid data. |
 | [INVALID_FONT_NAME](#INVALID-FONT-NAME) | Invalid the font name. |
+| [INVALID_OPERATOR](#INVALID-OPERATOR) | Invalid operator. |
 | [INVALID_TEXT_OF_DEFINED_NAME](#INVALID-TEXT-OF-DEFINED-NAME) | Invalid text of the defined name. |
 | [IO](#IO) | The file is corrupted. |
 | [LIMITATION](#LIMITATION) | Out of MS Excel limitation error. |
@@ -87,6 +88,14 @@ public static final int INVALID_FONT_NAME
 
 
 Invalid the font name.
+
+### INVALID_OPERATOR {#INVALID-OPERATOR}
+```
+public static final int INVALID_OPERATOR
+```
+
+
+Invalid operator.
 
 ### INVALID_TEXT_OF_DEFINED_NAME {#INVALID-TEXT-OF-DEFINED-NAME}
 ```

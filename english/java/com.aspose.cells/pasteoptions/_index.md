@@ -24,6 +24,7 @@ Represents the paste special options.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getIgnoreLinksToOriginalFile()](#getIgnoreLinksToOriginalFile--) | Ingore links to the original file. |
 | [getOnlyVisibleCells()](#getOnlyVisibleCells--) | True means only copying visible cells. |
 | [getOperationType()](#getOperationType--) | Gets the operation type when pasting range. |
 | [getPasteType()](#getPasteType--) | The paste special type. |
@@ -32,6 +33,7 @@ Represents the paste special options.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setIgnoreLinksToOriginalFile(boolean value)](#setIgnoreLinksToOriginalFile-boolean-) | Ingore links to the original file. |
 | [setOnlyVisibleCells(boolean value)](#setOnlyVisibleCells-boolean-) | True means only copying visible cells. |
 | [setOperationType(int value)](#setOperationType-int-) | Sets the operation type when pasting range. |
 | [setPasteType(int value)](#setPasteType-int-) | The paste special type. |
@@ -72,6 +74,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getIgnoreLinksToOriginalFile() {#getIgnoreLinksToOriginalFile--}
+```
+public boolean getIgnoreLinksToOriginalFile()
+```
+
+
+Ingore links to the original file.
+
+**Returns:**
+boolean
 ### getOnlyVisibleCells() {#getOnlyVisibleCells--}
 ```
 public boolean getOnlyVisibleCells()
@@ -147,6 +159,19 @@ public final native void notifyAll()
 
 
 
+
+### setIgnoreLinksToOriginalFile(boolean value) {#setIgnoreLinksToOriginalFile-boolean-}
+```
+public void setIgnoreLinksToOriginalFile(boolean value)
+```
+
+
+Ingore links to the original file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setOnlyVisibleCells(boolean value) {#setOnlyVisibleCells-boolean-}
 ```

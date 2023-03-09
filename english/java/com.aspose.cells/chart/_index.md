@@ -99,6 +99,7 @@ Workbook workbook = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [isChartDataChanged()](#isChartDataChanged--) | Detects if a chart's data source has changed. |
 | [isRectangularCornered()](#isRectangularCornered--) | Gets a value indicating whether the chart area is rectangular cornered. |
+| [isReferedByChart(int rowIndex, int columnIndex)](#isReferedByChart-int-int-) | Returns whether the cell refered by the chart. |
 | [move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#move-int-int-int-int-) | Moves the chart to a specified location. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -767,6 +768,22 @@ Gets a value indicating whether the chart area is rectangular cornered. Default 
 
 **Returns:**
 boolean
+### isReferedByChart(int rowIndex, int columnIndex) {#isReferedByChart-int-int-}
+```
+public boolean isReferedByChart(int rowIndex, int columnIndex)
+```
+
+
+Returns whether the cell refered by the chart.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | int | The row index |
+| columnIndex | int | The column index |
+
+**Returns:**
+boolean - 
 ### move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn) {#move-int-int-int-int-}
 ```
 public void move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)

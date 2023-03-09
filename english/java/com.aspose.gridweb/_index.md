@@ -46,6 +46,7 @@ Provides apis to manipulate components of spreadsheet for web application.
 | [GridHyperlinkCollection](../com.aspose.gridweb/gridhyperlinkcollection) | Encapsulates a collection of [GridHyperlink](../com.aspose.gridweb/gridhyperlink) objects. |
 | [GridImageType](../com.aspose.gridweb/gridimagetype) | Specifies the type (format) of an image. |
 | [GridLines](../com.aspose.gridweb/gridlines) | gridline style for a GridView control. |
+| [GridLoadOptions](../com.aspose.gridweb/gridloadoptions) | Represents the options of loading the file. |
 | [GridMsoDrawingType](../com.aspose.gridweb/gridmsodrawingtype) | Represents office drawing objects type. |
 | [GridName](../com.aspose.gridweb/gridname) | Encapsulates the object that represents a name object. |
 | [GridNameCollection](../com.aspose.gridweb/gridnamecollection) | Encapsulates a collection of [GridName](../com.aspose.gridweb/gridname) objects. |
@@ -70,6 +71,7 @@ Provides apis to manipulate components of spreadsheet for web application.
 | [GridShiftType](../com.aspose.gridweb/gridshifttype) | Represent the shift options when deleting a range of cells. |
 | [GridTableItemStyle](../com.aspose.gridweb/gridtableitemstyle) | Inherited from System.Web.UI.WebControls.TableItemStyle. |
 | [GridTableStyle](../com.aspose.gridweb/gridtablestyle) | Inherited from System.Web.UI.WebControls.TableStyle. |
+| [GridTxtLoadOptions](../com.aspose.gridweb/gridtxtloadoptions) | Represents the options for loading text file. |
 | [GridValidation](../com.aspose.gridweb/gridvalidation) | Represents data validation.settings. |
 | [GridValidationCollection](../com.aspose.gridweb/gridvalidationcollection) | Encapsulates a collection of [GridValidation](../com.aspose.gridweb/gridvalidation) objects. |
 | [GridValidationType](../com.aspose.gridweb/gridvalidationtype) | Represents data validation type. |

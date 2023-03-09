@@ -117,7 +117,7 @@ Workbook excel = new Workbook();
 | [getGroupedRowOutlineLevel(int rowIndex)](#getGroupedRowOutlineLevel-int-) | Gets the outline level (zero-based) of the row. |
 | [getLastCell()](#getLastCell--) | Gets the last cell in this worksheet. |
 | [getLastDataRow(int column)](#getLastDataRow-int-) | Gets the last row index of cell which contains data in the specified column. |
-| [getMaxColumn()](#getMaxColumn--) | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
+| [getMaxColumn()](#getMaxColumn--) | Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
 | [getMaxDataColumn()](#getMaxDataColumn--) | Maximum column index of cell which contains data |
 | [getMaxDataRow()](#getMaxDataRow--) | Maximum row index of cell which contains data. |
 | [getMaxDisplayRange()](#getMaxDisplayRange--) | Gets the max range which includes data, merged cells and shapes. |
@@ -1299,7 +1299,7 @@ public int getMaxColumn()
 ```
 
 
-Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). Return -1 if there is no cell.
+Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). Return -1 if there is no cell.
 
 **Returns:**
 int

@@ -30,6 +30,7 @@ Represents the globalization settings for pivot tables.
 | [getTextOfEmptyData()](#getTextOfEmptyData--) | Gets the text of "(blank)" label in the PivotTable. |
 | [getTextOfGrandTotal()](#getTextOfGrandTotal--) | Gets the text of "Grand Total" label in the PivotTable. |
 | [getTextOfMultipleItems()](#getTextOfMultipleItems--) | Gets the text of "(Multiple Items)" label in the PivotTable. |
+| [getTextOfProtectedName(String protectedName)](#getTextOfProtectedName-java.lang.String-) | In Excel,some names are not allowed to be the PivotFields' name of PivotTable. |
 | [getTextOfProtection()](#getTextOfProtection--) | Gets the protection name in the PivotTable. |
 | [getTextOfRowLabels()](#getTextOfRowLabels--) | Gets the text of "Row Labels" label in the PivotTable. |
 | [getTextOfSubTotal(int subTotalType)](#getTextOfSubTotal-int-) | Gets the text of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type in the PivotTable. |
@@ -132,13 +133,28 @@ Gets the text of "(Multiple Items)" label in the PivotTable.
 
 **Returns:**
 java.lang.String - The text of "(Multiple Items)" label
+### getTextOfProtectedName(String protectedName) {#getTextOfProtectedName-java.lang.String-}
+```
+public String getTextOfProtectedName(String protectedName)
+```
+
+
+In Excel,some names are not allowed to be the PivotFields' name of PivotTable. They are different in different region.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| protectedName | java.lang.String | The protected name in PivotTable. |
+
+**Returns:**
+java.lang.String - The local prorected names of PivotTable.
 ### getTextOfProtection() {#getTextOfProtection--}
 ```
 public String getTextOfProtection()
 ```
 
 
-Gets the protection name in the PivotTable.
+Gets the protection name in the PivotTable. NOTE: This member is now obsolete. Instead, please use PivotGlobalizationSettings.GetTextOfProtectedName(string) method. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The protection name of PivotTable

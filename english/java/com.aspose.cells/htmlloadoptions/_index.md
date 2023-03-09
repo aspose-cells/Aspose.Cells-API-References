@@ -60,6 +60,7 @@ Represents options when importing a html file.
 | [getStreamProvider()](#getStreamProvider--) | Gets the StreamProviderImportHtmlFile for importing objects. |
 | [getSupportDivTag()](#getSupportDivTag--) | Indicates whether support the layout of <div> tag when the html file contains <div> tags. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
+| [hasFormula()](#hasFormula--) | Indicates whether the text is formula if it starts with "=". |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -75,6 +76,7 @@ Represents options when importing a html file.
 | [setDeleteRedundantSpaces(boolean value)](#setDeleteRedundantSpaces-boolean-) | Indicates whether delete redundant spaces when the text wraps lines using <br>tag.The default value is false. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
+| [setHasFormula(boolean value)](#setHasFormula-boolean-) | Indicates whether the text is formula if it starts with "=". |
 | [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
 | [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Sets the interrupt monitor. |
 | [setKeepPrecision(boolean value)](#setKeepPrecision-boolean-) | Indicates whether not parsing a string value if the length is 15. |
@@ -222,7 +224,7 @@ public boolean getConvertFormulasData()
 ```
 
 
-if true, convert string to formula when string value starts with character '=',the default value is false.
+if true, convert string to formula when string value starts with character '=',the default value is false. NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.HasFormula property. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -496,6 +498,16 @@ Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
+### hasFormula() {#hasFormula--}
+```
+public boolean hasFormula()
+```
+
+
+Indicates whether the text is formula if it starts with "=".
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -619,7 +631,7 @@ public void setConvertFormulasData(boolean value)
 ```
 
 
-if true, convert string to formula when string value starts with character '=',the default value is false.
+if true, convert string to formula when string value starts with character '=',the default value is false. NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.HasFormula property. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -677,6 +689,19 @@ Sets individual font configs. Only works for the [Workbook](../../com.aspose.cel
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IndividualFontConfigs](../../com.aspose.cells/individualfontconfigs) |  |
+
+### setHasFormula(boolean value) {#setHasFormula-boolean-}
+```
+public void setHasFormula(boolean value)
+```
+
+
+Indicates whether the text is formula if it starts with "=".
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setIgnoreNotPrinted(boolean value) {#setIgnoreNotPrinted-boolean-}
 ```

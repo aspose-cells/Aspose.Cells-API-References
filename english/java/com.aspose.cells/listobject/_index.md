@@ -438,7 +438,7 @@ Resize the range of the list object.
 | startColumn | int | The start column index of the new range. |
 | endRow | int | The end row index of the new range. |
 | endColumn | int | The end column index of the new range. |
-| hasHeaders | boolean | Whether the ListObject has headers. |
+| hasHeaders | boolean | Whether this table has headers. |
 
 ### setAlternativeDescription(String value) {#setAlternativeDescription-java.lang.String-}
 ```

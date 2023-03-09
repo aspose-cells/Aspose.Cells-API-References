@@ -64,6 +64,7 @@ Represents a single column in a worksheet.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCollapsed(boolean value)](#setCollapsed-boolean-) | whether the column is collapsed |
+| [setGroupLevel(byte value)](#setGroupLevel-byte-) | Gets the group level of the column. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the column is hidden. |
 | [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of this column. |
 | [setWidth(double value)](#setWidth-double-) | Sets the column width in unit of characters. |
@@ -220,6 +221,19 @@ whether the column is collapsed
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setGroupLevel(byte value) {#setGroupLevel-byte-}
+```
+public void setGroupLevel(byte value)
+```
+
+
+Gets the group level of the column.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | byte |  |
 
 ### setHidden(boolean value) {#setHidden-boolean-}
 ```
