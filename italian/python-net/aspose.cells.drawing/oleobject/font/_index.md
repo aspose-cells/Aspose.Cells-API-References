@@ -1,0 +1,38 @@
+﻿---
+title: font proprietà
+second_title: Aspose.Cells for Python via .NET API Referenze
+description:
+type: docs
+weight: 420
+url: /it/python-net/aspose.cells.drawing/oleobject/font/
+is_root: false
+---
+##  font proprietà
+
+Rappresenta lo font della forma.
+
+###  Esempio
+
+```python
+from aspose.pydrawing import Color
+
+font = shape.font
+font.name = "Arial"
+font.size = 12
+font.color = Color.red
+
+```
+###  Definizione:
+```python
+@property
+def font(self):
+    ...
+@font.setter
+def font(self, value):
+    ...
+```
+
+###  Guarda anche
+* modulo [aspose.cells.drawing](../../)
+* classe [Font](/cells/it/python-net/aspose.cells/font)
+* classe [OleObject](/cells/it/python-net/aspose.cells.drawing/oleobject)

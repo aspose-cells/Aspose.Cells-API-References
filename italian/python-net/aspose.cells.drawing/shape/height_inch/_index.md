@@ -1,0 +1,34 @@
+﻿---
+title: height_inch proprietà
+second_title: Aspose.Cells for Python via .NET API Referenze
+description:
+type: docs
+weight: 450
+url: /it/python-net/aspose.cells.drawing/shape/height_inch/
+is_root: false
+---
+##  height_inch proprietà
+
+Rappresenta l'altezza della forma, in unità di pollici.
+
+###  Esempio
+
+```python
+
+if shape.height_inch == 3:
+    shape.height_inch = 1
+
+```
+###  Definizione:
+```python
+@property
+def height_inch(self):
+    ...
+@height_inch.setter
+def height_inch(self, value):
+    ...
+```
+
+###  Guarda anche
+* modulo [aspose.cells.drawing](../../)
+* classe [Shape](/cells/it/python-net/aspose.cells.drawing/shape)
