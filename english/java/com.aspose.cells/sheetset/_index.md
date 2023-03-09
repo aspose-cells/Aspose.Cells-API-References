@@ -23,6 +23,7 @@ Describes a set of sheets.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getActive()](#getActive--) | Gets a set with active sheet of the workbook. |
 | [getAll()](#getAll--) | Gets a set with all sheets of the workbook in their original order. |
 | [getClass()](#getClass--) |  |
 | [getVisible()](#getVisible--) | Gets a set with visible sheets of the workbook in their original order. |
@@ -61,6 +62,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getActive() {#getActive--}
+```
+public static SheetSet getActive()
+```
+
+
+Gets a set with active sheet of the workbook.
+
+**Returns:**
+[SheetSet](../../com.aspose.cells/sheetset)
 ### getAll() {#getAll--}
 ```
 public static SheetSet getAll()

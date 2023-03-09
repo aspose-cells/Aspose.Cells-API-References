@@ -28,7 +28,7 @@ Represents image save options. For advanced usage, please use [WorkbookRender](.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getImageOrPrintOptions()](#getImageOrPrintOptions--) | Additional image creation options |
+| [getImageOrPrintOptions()](#getImageOrPrintOptions--) | Additional image creation options. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
@@ -62,7 +62,7 @@ public ImageSaveOptions()
 ```
 
 
-Creates the options for saving image file.
+Creates the options for saving image file. The default type is Tiff.
 
 ### ImageSaveOptions(int saveFormat) {#ImageSaveOptions-int-}
 ```
@@ -75,7 +75,7 @@ Creates the options for saving image file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | The file format. It must be tiff or svg. |
+| saveFormat | int | The file format. It must be Tiff , Svg, Bmp, Png, Jpg, Emf and Gif. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -138,7 +138,7 @@ public ImageOrPrintOptions getImageOrPrintOptions()
 ```
 
 
-Additional image creation options
+Additional image creation options. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Returns:**
 [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions)
@@ -198,7 +198,7 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-Gets the IStreamProvider for exporting objects. If saving as SVG or Tiff, this property is ignored . Otherwise, if more than one image should be saving, we will write other images by this.
+Gets the IStreamProvider for exporting objects. If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -355,7 +355,7 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-Sets the IStreamProvider for exporting objects. If saving as SVG or Tiff, this property is ignored . Otherwise, if more than one image should be saving, we will write other images by this.
+Sets the IStreamProvider for exporting objects. If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Parameters:**
 | Parameter | Type | Description |

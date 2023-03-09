@@ -65,6 +65,7 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
 | [getIndentLevel()](#getIndentLevel--) | Gets indent level. |
 | [getLeftBorderStyle()](#getLeftBorderStyle--) | Specifies the style of the cell's left border. |
 | [getNumberType()](#getNumberType--) | Gets the display format of numbers and dates |
+| [getQuotePrefix()](#getQuotePrefix--) | Indicates whether the cell's value starts with single quote mark. |
 | [getRightBorderStyle()](#getRightBorderStyle--) | Specifies the style of the cell's right border. |
 | [getRotationAngle()](#getRotationAngle--) | Visual filters. |
 | [getTopBorderStyle()](#getTopBorderStyle--) | Specifies the style of the cell's top border. |
@@ -80,6 +81,7 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
 | [setLeftBorderStyle(WebBorderStyle value)](#setLeftBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's left border. |
 | [setLocked(boolean value)](#setLocked-boolean-) | Sets a value indicating whether a cell can be modified or not when its worksheet is protected. |
 | [setNumberType(int value)](#setNumberType-int-) | Sets the display format of numbers and dates |
+| [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | Indicates whether the cell's value starts with single quote mark. |
 | [setRightBorderStyle(WebBorderStyle value)](#setRightBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's right border. |
 | [setRotationAngle(short value)](#setRotationAngle-short-) | Visual filters. |
 | [setTopBorderStyle(WebBorderStyle value)](#setTopBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's top border. |
@@ -229,6 +231,16 @@ Gets the display format of numbers and dates. ///
 
 **Returns:**
 int
+### getQuotePrefix() {#getQuotePrefix--}
+```
+public boolean getQuotePrefix()
+```
+
+
+Indicates whether the cell's value starts with single quote mark.
+
+**Returns:**
+boolean
 ### getRightBorderStyle() {#getRightBorderStyle--}
 ```
 public WebBorderStyle getRightBorderStyle()
@@ -437,6 +449,19 @@ Sets the display format of numbers and dates. ///
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setQuotePrefix(boolean value) {#setQuotePrefix-boolean-}
+```
+public void setQuotePrefix(boolean value)
+```
+
+
+Indicates whether the cell's value starts with single quote mark.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setRightBorderStyle(WebBorderStyle value) {#setRightBorderStyle-com.aspose.gridweb.WebBorderStyle-}
 ```

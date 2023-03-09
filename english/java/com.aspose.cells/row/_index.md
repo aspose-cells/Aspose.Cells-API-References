@@ -78,6 +78,7 @@ Represents a single row in a worksheet.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCollapsed(boolean value)](#setCollapsed-boolean-) | whether the row is collapsed |
+| [setGroupLevel(byte value)](#setGroupLevel-byte-) | Gets the group level of the row. |
 | [setHeight(double value)](#setHeight-double-) | Sets the row height in unit of Points. |
 | [setHeightMatched(boolean value)](#setHeightMatched-boolean-) | Indicates that row height and default font height matches. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the row is hidden. |
@@ -391,6 +392,19 @@ whether the row is collapsed
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setGroupLevel(byte value) {#setGroupLevel-byte-}
+```
+public void setGroupLevel(byte value)
+```
+
+
+Gets the group level of the row.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | byte |  |
 
 ### setHeight(double value) {#setHeight-double-}
 ```

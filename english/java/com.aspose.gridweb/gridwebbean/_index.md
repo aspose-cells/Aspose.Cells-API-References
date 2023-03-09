@@ -97,6 +97,7 @@ Represents GridWeb java bean
 | [getHeaderBarTableStyle()](#getHeaderBarTableStyle--) | Gets the header bar style of the control. |
 | [getIgnoreStyleWithNoData()](#getIgnoreStyleWithNoData--) | Gets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. |
 | [getLinksTable()](#getLinksTable--) |  |
+| [getLoadOptions()](#getLoadOptions--) | Represents the loadoptions. |
 | [getMaxColumn()](#getMaxColumn--) | Gets the maximum display column index(zero based) of the web sheet. |
 | [getMaxRow()](#getMaxRow--) | Gets the maximum display row index(zero based) of the web sheet. |
 | [getMessage()](#getMessage--) |  |
@@ -128,6 +129,7 @@ Represents GridWeb java bean
 | [getPresetStyle()](#getPresetStyle--) | Gets the preset style. |
 | [getRefreshValidation()](#getRefreshValidation--) | Gets whether to refresh validation value after cell value changes. |
 | [getRenderHiddenRow()](#getRenderHiddenRow--) | Gets whether the hidden row is rendered in GridControl,the default value is false. |
+| [getRowHeightForCSV()](#getRowHeightForCSV--) | Gets the row height value in point for csv file ,default value is 14.5. |
 | [getScrollBarArrowColor()](#getScrollBarArrowColor--) | Specifies the color of the scrollbar's arrow button. |
 | [getScrollBarBaseColor()](#getScrollBarBaseColor--) | Specifies the color of the scroll bar of the control. |
 | [getSelectCellBgColor()](#getSelectCellBgColor--) | Specifies the background color of the selected cells in multi-select range. |
@@ -231,6 +233,7 @@ Represents GridWeb java bean
 | [setHeaderBarStyle(GridTableItemStyle value)](#setHeaderBarStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the header bar's style. |
 | [setHeaderBarTableStyle(GridTableStyle value)](#setHeaderBarTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the header bar style of the control. |
 | [setIgnoreStyleWithNoData(boolean value)](#setIgnoreStyleWithNoData-boolean-) | Sets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. |
+| [setLoadOptions(GridLoadOptions value)](#setLoadOptions-com.aspose.gridweb.GridLoadOptions-) | Represents the loadoptions. |
 | [setMaxColumn(int value)](#setMaxColumn-int-) | Sets the maximum display column index(zero based) of the web sheet. |
 | [setMaxRow(int value)](#setMaxRow-int-) | Sets the maximum display row index(zero based) of the web sheet. |
 | [setMessage(String value)](#setMessage-java.lang.String-) |  |
@@ -260,6 +263,7 @@ Represents GridWeb java bean
 | [setPresetStyle(int value)](#setPresetStyle-int-) | Sets the preset style. |
 | [setRefreshValidation(boolean value)](#setRefreshValidation-boolean-) | Sets whether to refresh validation value after cell value changes. |
 | [setRenderHiddenRow(boolean value)](#setRenderHiddenRow-boolean-) | Sets whether the hidden row is rendered in GridControl,the default value is false. |
+| [setRowHeightForCSV(double value)](#setRowHeightForCSV-double-) | Sets the row height value in point for csv file ,default value is 14.5. |
 | [setScrollBarArrowColor(Color value)](#setScrollBarArrowColor-com.aspose.gridweb.Color-) | Specifies the color of the scrollbar's arrow button. |
 | [setScrollBarBaseColor(Color value)](#setScrollBarBaseColor-com.aspose.gridweb.Color-) | Specifies the color of the scroll bar of the control. |
 | [setSelectCellBgColor(Color value)](#setSelectCellBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the selected cells in multi-select range. |
@@ -981,6 +985,16 @@ public HashMap getLinksTable()
 
 **Returns:**
 java.util.HashMap
+### getLoadOptions() {#getLoadOptions--}
+```
+public GridLoadOptions getLoadOptions()
+```
+
+
+Represents the loadoptions.
+
+**Returns:**
+[GridLoadOptions](../../com.aspose.gridweb/gridloadoptions)
 ### getMaxColumn() {#getMaxColumn--}
 ```
 public int getMaxColumn()
@@ -1402,6 +1416,16 @@ Gets whether the hidden row is rendered in GridControl,the default value is fals
 
 **Returns:**
 boolean
+### getRowHeightForCSV() {#getRowHeightForCSV--}
+```
+public double getRowHeightForCSV()
+```
+
+
+Gets the row height value in point for csv file ,default value is 14.5.
+
+**Returns:**
+double
 ### getScrollBarArrowColor() {#getScrollBarArrowColor--}
 ```
 public Color getScrollBarArrowColor()
@@ -1463,8 +1487,8 @@ Gets the session mode of the grid. There are 4 type of session mode:
 Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
 2. ViewState: Use page's viewstate to store sheet data.
 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
-4. File: store/recover sheet data in SessionStorePath.
-When using SessionMode.ViewState, the grid will store sheets data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
+4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always
+When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
 
 ```
 GridWeb1.setSessionMode(SessionMode.VIEW_STATE);
@@ -2632,6 +2656,19 @@ Sets whether GridWeb ignores showing rows or columns that do not contain cell va
 | --- | --- | --- |
 | value | boolean |  |
 
+### setLoadOptions(GridLoadOptions value) {#setLoadOptions-com.aspose.gridweb.GridLoadOptions-}
+```
+public void setLoadOptions(GridLoadOptions value)
+```
+
+
+Represents the loadoptions.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [GridLoadOptions](../../com.aspose.gridweb/gridloadoptions) |  |
+
 ### setMaxColumn(int value) {#setMaxColumn-int-}
 ```
 public void setMaxColumn(int value)
@@ -3092,6 +3129,19 @@ Sets whether the hidden row is rendered in GridControl,the default value is fals
 | --- | --- | --- |
 | value | boolean |  |
 
+### setRowHeightForCSV(double value) {#setRowHeightForCSV-double-}
+```
+public void setRowHeightForCSV(double value)
+```
+
+
+Sets the row height value in point for csv file ,default value is 14.5.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setScrollBarArrowColor(Color value) {#setScrollBarArrowColor-com.aspose.gridweb.Color-}
 ```
 public void setScrollBarArrowColor(Color value)
@@ -3168,8 +3218,8 @@ Sets the session mode of the grid. There are 4 type of session mode:
 Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
 2. ViewState: Use page's viewstate to store sheet data.
 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
-4. File: store/recover sheet data in SessionStorePath.
-When using SessionMode.ViewState, the grid will store sheets data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
+4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always
+When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
 
 **Parameters:**
 | Parameter | Type | Description |

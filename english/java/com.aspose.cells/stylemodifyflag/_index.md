@@ -44,6 +44,7 @@ The style modified flags.
 | [FONT_STRIKE](#FONT-STRIKE) | Indicates whether strike property font has been modified. |
 | [FONT_UNDERLINE](#FONT-UNDERLINE) | Indicates whether underline property of font has been modified. |
 | [FONT_U_FILL_TX](#FONT-U-FILL-TX) | unused. |
+| [FONT_VERTICAL_TEXT](#FONT-VERTICAL-TEXT) |  |
 | [FONT_WEIGHT](#FONT-WEIGHT) | Indicates whether font weight has been modified. |
 | [FOREGROUND_COLOR](#FOREGROUND-COLOR) | Indicates whether foreground color has been modified. |
 | [HIDE_FORMULA](#HIDE-FORMULA) | Indicates whether hide formula has been modified. |
@@ -292,6 +293,14 @@ public static final int FONT_U_FILL_TX
 
 
 unused.
+
+### FONT_VERTICAL_TEXT {#FONT-VERTICAL-TEXT}
+```
+public static final int FONT_VERTICAL_TEXT
+```
+
+
+
 
 ### FONT_WEIGHT {#FONT-WEIGHT}
 ```

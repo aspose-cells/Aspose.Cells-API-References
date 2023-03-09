@@ -102,6 +102,7 @@ Workbook book = new Workbook();
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fields(int fieldType)](#fields-int-) | Gets the specific fields by the field type. |
+| [format(PivotArea pivotArea, Style style)](#format-com.aspose.cells.PivotArea-com.aspose.cells.Style-) | Formats selected area of the PivotTable. |
 | [format(int row, int column, Style style)](#format-int-int-com.aspose.cells.Style-) | Format the cell in the pivottable area |
 | [formatAll(Style style)](#formatAll-com.aspose.cells.Style-) | Format all the cell in the pivottable area |
 | [formatRow(int row, Style style)](#formatRow-int-com.aspose.cells.Style-) | Format the row data in the pivottable area |
@@ -434,6 +435,20 @@ Gets the specific fields by the field type.
 
 **Returns:**
 [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) - the specific fields
+### format(PivotArea pivotArea, Style style) {#format-com.aspose.cells.PivotArea-com.aspose.cells.Style-}
+```
+public void format(PivotArea pivotArea, Style style)
+```
+
+
+Formats selected area of the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivotArea | [PivotArea](../../com.aspose.cells/pivotarea) |  |
+| style | [Style](../../com.aspose.cells/style) |  |
+
 ### format(int row, int column, Style style) {#format-int-int-com.aspose.cells.Style-}
 ```
 public void format(int row, int column, Style style)

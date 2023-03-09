@@ -1,7 +1,7 @@
 ---
 title: DisplayUnitType
 second_title: Aspose.Cells for Java API Reference
-description: Represents the type of display unit.
+description: Represents the type of display unit of charts axis.
 type: docs
 url: /java/com.aspose.cells/displayunittype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class DisplayUnitType
 ```
 
-Represents the type of display unit.
+Represents the type of display unit of chart's axis.
 ## Fields
 
 | Field | Description |

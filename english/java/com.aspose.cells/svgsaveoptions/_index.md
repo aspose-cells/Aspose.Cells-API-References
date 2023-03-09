@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.SaveOptions](../../com.aspose.cells/saveopti
 public class SvgSaveOptions extends ImageSaveOptions
 ```
 
-Represents Svg save options. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
+Represents Svg save options. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender). NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 ## Constructors
 
 | Constructor | Description |
@@ -28,7 +28,7 @@ Represents Svg save options. For advanced usage, please use [WorkbookRender](../
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
-| [getImageOrPrintOptions()](#getImageOrPrintOptions--) | Additional image creation options |
+| [getImageOrPrintOptions()](#getImageOrPrintOptions--) | Additional image creation options. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
@@ -64,7 +64,7 @@ public SvgSaveOptions()
 ```
 
 
-Creates the options for saving svg file.
+Creates the options for saving svg file. NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### SvgSaveOptions(int saveFormat) {#SvgSaveOptions-int-}
 ```
@@ -140,7 +140,7 @@ public ImageOrPrintOptions getImageOrPrintOptions()
 ```
 
 
-Additional image creation options
+Additional image creation options. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Returns:**
 [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions)
@@ -180,7 +180,7 @@ public int getSheetIndex()
 ```
 
 
-Gets which worksheet should be exported. If the value is -1, the active worksheet will be exported.
+Gets which worksheet should be exported. If the value is -1, the active worksheet will be exported. NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -210,7 +210,7 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-Gets the IStreamProvider for exporting objects. If saving as SVG or Tiff, this property is ignored . Otherwise, if more than one image should be saving, we will write other images by this.
+Gets the IStreamProvider for exporting objects. If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -341,7 +341,7 @@ public void setSheetIndex(int value)
 ```
 
 
-Sets which worksheet should be exported. If the value is -1, the active worksheet will be exported.
+Sets which worksheet should be exported. If the value is -1, the active worksheet will be exported. NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -380,7 +380,7 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-Sets the IStreamProvider for exporting objects. If saving as SVG or Tiff, this property is ignored . Otherwise, if more than one image should be saving, we will write other images by this.
+Sets the IStreamProvider for exporting objects. If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Parameters:**
 | Parameter | Type | Description |
